@@ -1,29 +1,5 @@
 {
   "data": {
-    "crumbs": [
-      {
-        "indexed_titles": {
-          "ar": "القرآن الكريم",
-          "en": "The Holy Quran"
-        },
-        "path": "/books/quran",
-        "titles": {
-          "ar": "القرآن الكريم",
-          "en": "The Holy Quran"
-        }
-      },
-      {
-        "indexed_titles": {
-          "en": "Chapter 47"
-        },
-        "path": "/books/quran:47",
-        "titles": {
-          "ar": "محمد",
-          "en": "Muhammad",
-          "ent": "Muhammad"
-        }
-      }
-    ],
     "default_verse_translation_ids": {
       "en": "en.qarai",
       "fa": "fa.makarem"
@@ -31,39 +7,9 @@
     "index": 47,
     "local_index": 47,
     "nav": {
-      "next": {
-        "indexed_titles": {
-          "en": "Chapter 48"
-        },
-        "path": "/books/quran:48",
-        "titles": {
-          "ar": "الفتح",
-          "en": "The Victory",
-          "ent": "Al-Fath"
-        }
-      },
-      "prev": {
-        "indexed_titles": {
-          "en": "Chapter 46"
-        },
-        "path": "/books/quran:46",
-        "titles": {
-          "ar": "الأحقاف",
-          "en": "The Dunes",
-          "ent": "Al-Ahqaf"
-        }
-      },
-      "up": {
-        "indexed_titles": {
-          "ar": "القرآن الكريم",
-          "en": "The Holy Quran"
-        },
-        "path": "/books/quran",
-        "titles": {
-          "ar": "القرآن الكريم",
-          "en": "The Holy Quran"
-        }
-      }
+      "next": "/books/quran:48",
+      "prev": "/books/quran:46",
+      "up": "/books/quran"
     },
     "order": 95,
     "part_type": "Chapter",
@@ -78,146 +24,34 @@
     "verse_count": 38,
     "verse_start_index": 4545,
     "verse_translations": [
-      {
-        "id": "fa.ansarian",
-        "lang": "fa",
-        "name": "Hussain Ansarian"
-      },
-      {
-        "id": "fa.ayati",
-        "lang": "fa",
-        "name": "AbdolMohammad Ayati"
-      },
-      {
-        "id": "fa.bahrampour",
-        "lang": "fa",
-        "name": "Abolfazl Bahrampour"
-      },
-      {
-        "id": "fa.fooladvand",
-        "lang": "fa",
-        "name": "Mohammad Mahdi Fooladvand"
-      },
-      {
-        "id": "fa.ghomshei",
-        "lang": "fa",
-        "name": "Mahdi Elahi Ghomshei"
-      },
-      {
-        "id": "fa.khorramdel",
-        "lang": "fa",
-        "name": "Mostafa Khorramdel"
-      },
-      {
-        "id": "fa.khorramshahi",
-        "lang": "fa",
-        "name": "Baha'oddin Khorramshahi"
-      },
-      {
-        "id": "fa.makarem",
-        "lang": "fa",
-        "name": "Naser Makarem Shirazi"
-      },
-      {
-        "id": "fa.moezzi",
-        "lang": "fa",
-        "name": "Mohammad Kazem Moezzi"
-      },
-      {
-        "id": "fa.mojtabavi",
-        "lang": "fa",
-        "name": "Sayyed Jalaloddin Mojtabavi"
-      },
-      {
-        "id": "fa.sadeqi",
-        "lang": "fa",
-        "name": "Mohammad Sadeqi Tehrani"
-      },
-      {
-        "id": "en.ahmedali",
-        "lang": "en",
-        "name": "Ahmed Ali"
-      },
-      {
-        "id": "en.ahmedraza",
-        "lang": "en",
-        "name": "Ahmed Raza Khan"
-      },
-      {
-        "id": "en.arberry",
-        "lang": "en",
-        "name": "A. J. Arberry"
-      },
-      {
-        "id": "en.daryabadi",
-        "lang": "en",
-        "name": "Abdul Majid Daryabadi"
-      },
-      {
-        "id": "en.hilali",
-        "lang": "en",
-        "name": "Muhammad Taqi-ud-Din al-Hilali and Muhammad Muhsin Khan"
-      },
-      {
-        "id": "en.itani",
-        "lang": "en",
-        "name": "Talal Itani"
-      },
-      {
-        "id": "en.maududi",
-        "lang": "en",
-        "name": "Abul Ala Maududi"
-      },
-      {
-        "id": "en.mubarakpuri",
-        "lang": "en",
-        "name": "Safi-ur-Rahman al-Mubarakpuri"
-      },
-      {
-        "id": "en.pickthall",
-        "lang": "en",
-        "name": "Mohammed Marmaduke William Pickthall"
-      },
-      {
-        "id": "en.qarai",
-        "lang": "en",
-        "name": "Ali Quli Qarai"
-      },
-      {
-        "id": "en.qaribullah",
-        "lang": "en",
-        "name": "Hasan al-Fatih Qaribullah and Ahmad Darwish"
-      },
-      {
-        "id": "en.sahih",
-        "lang": "en",
-        "name": "Saheeh International"
-      },
-      {
-        "id": "en.sarwar",
-        "lang": "en",
-        "name": "Muhammad Sarwar"
-      },
-      {
-        "id": "en.shakir",
-        "lang": "en",
-        "name": "Mohammad Habib Shakir"
-      },
-      {
-        "id": "en.transliteration",
-        "lang": "en",
-        "name": "English Transliteration"
-      },
-      {
-        "id": "en.wahiduddin",
-        "lang": "en",
-        "name": "Wahiduddin Khan"
-      },
-      {
-        "id": "en.yusufali",
-        "lang": "en",
-        "name": "Abdullah Yusuf Ali"
-      }
+      "fa.ansarian",
+      "fa.ayati",
+      "fa.bahrampour",
+      "fa.fooladvand",
+      "fa.ghomshei",
+      "fa.khorramdel",
+      "fa.khorramshahi",
+      "fa.makarem",
+      "fa.moezzi",
+      "fa.mojtabavi",
+      "fa.sadeqi",
+      "en.ahmedali",
+      "en.ahmedraza",
+      "en.arberry",
+      "en.daryabadi",
+      "en.hilali",
+      "en.itani",
+      "en.maududi",
+      "en.mubarakpuri",
+      "en.pickthall",
+      "en.qarai",
+      "en.qaribullah",
+      "en.sahih",
+      "en.sarwar",
+      "en.shakir",
+      "en.transliteration",
+      "en.wahiduddin",
+      "en.yusufali"
     ],
     "verses": [
       {
@@ -512,9 +346,9 @@
         "path": "/books/quran:47:4",
         "relations": {
           "Mentioned In": [
-            "/books/al-kafi:8:1:43:39",
             "/books/al-kafi:2:1:18:1",
-            "/books/al-kafi:5:1:3:2"
+            "/books/al-kafi:5:1:3:2",
+            "/books/al-kafi:8:1:43:39"
           ]
         },
         "text": [
@@ -1949,8 +1783,8 @@
         "path": "/books/quran:47:19",
         "relations": {
           "Mentioned In": [
-            "/books/al-kafi:2:2:36:2",
-            "/books/al-kafi:2:2:28:6"
+            "/books/al-kafi:2:2:28:6",
+            "/books/al-kafi:2:2:36:2"
           ]
         },
         "text": [
@@ -2240,9 +2074,9 @@
         "path": "/books/quran:47:22",
         "relations": {
           "Mentioned In": [
+            "/books/al-kafi:2:1:163:7",
             "/books/al-kafi:2:4:4:7",
             "/books/al-kafi:8:1:25:6",
-            "/books/al-kafi:2:1:163:7",
             "/books/al-kafi:8:1:43:13"
           ]
         },
@@ -2343,8 +2177,8 @@
         "path": "/books/quran:47:23",
         "relations": {
           "Mentioned In": [
-            "/books/al-kafi:2:4:4:7",
-            "/books/al-kafi:2:1:163:7"
+            "/books/al-kafi:2:1:163:7",
+            "/books/al-kafi:2:4:4:7"
           ]
         },
         "text": [
@@ -2544,8 +2378,8 @@
         "path": "/books/quran:47:25",
         "relations": {
           "Mentioned In": [
-            "/books/al-kafi:1:4:108:43",
-            "/books/al-kafi:1:4:108:42"
+            "/books/al-kafi:1:4:108:42",
+            "/books/al-kafi:1:4:108:43"
           ]
         },
         "text": [
@@ -2645,8 +2479,8 @@
         "path": "/books/quran:47:26",
         "relations": {
           "Mentioned In": [
-            "/books/al-kafi:1:4:108:43",
-            "/books/al-kafi:1:4:108:42"
+            "/books/al-kafi:1:4:108:42",
+            "/books/al-kafi:1:4:108:43"
           ]
         },
         "text": [
