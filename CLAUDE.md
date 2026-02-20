@@ -88,7 +88,7 @@ Contain:
 
 ## Deployment
 
-The repository is deployed to Netlify, which serves the JSON files as a static API. The `netlify.toml` configuration sets CORS headers to allow cross-origin requests.
+The repository is deployed to Netlify automatically on push, serving the JSON files as a static API at **https://thaqalayndata.netlify.app/**. The `netlify.toml` configuration sets CORS headers to allow cross-origin requests. The production Angular app at **https://thaqalayn.netlify.app/** consumes this data API.
 
 ## Important Notes
 
