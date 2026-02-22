@@ -204,6 +204,15 @@ Hadith gradings are stored as HTML-formatted strings:
 
 Common terms: صحيح (Sahih), حسن (Hasan), ضعيف (Da'if), مجهول (Majhul), موثق (Muwathaq), معتبر (Mu'tabar).
 
+## API Versioning
+
+The API supports versioned paths. The current version is **v2**:
+
+- `https://thaqalayndata.netlify.app/v2/books/al-kafi/1/2/1.json`
+- `https://thaqalayndata.netlify.app/v2/people/narrators/100.json`
+
+Unversioned paths (without `/v2/`) continue to work and return the same data. When breaking schema changes are introduced in the future, a new version prefix (e.g., `/v3/`) will be added while the previous version remains available.
+
 ## CORS
 
 All data is served via Netlify CDN with permissive CORS headers. You can fetch data directly from browser-based applications.

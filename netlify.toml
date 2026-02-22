@@ -4,3 +4,9 @@
 
   [headers.values]
     Access-Control-Allow-Origin = "*"
+
+# Versioned API paths: /v2/ maps to root for backward-compatible evolution
+[[redirects]]
+  from = "/v2/*"
+  to = "/:splat"
+  status = 200
