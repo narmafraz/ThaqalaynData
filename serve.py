@@ -3,6 +3,12 @@
 """Use instead of `python3 -m http.server` when you need CORS to start a local server for testing"""
 
 from http.server import HTTPServer, SimpleHTTPRequestHandler
+from socketserver import ThreadingMixIn
+
+
+class ThreadingHTTPServer(ThreadingMixIn, HTTPServer):
+    """Handle requests in separate threads for concurrent access."""
+    daemon_threads = True
 
 
 class CORSRequestHandler(SimpleHTTPRequestHandler):
@@ -12,6 +18,11 @@ class CORSRequestHandler(SimpleHTTPRequestHandler):
         self.send_header('Cache-Control', 'no-store, no-cache, must-revalidate')
         return super(CORSRequestHandler, self).end_headers()
 
+    def log_message(self, format, *args):
+        """Suppress verbose request logging."""
+        pass
 
-httpd = HTTPServer(('localhost', 8888), CORSRequestHandler)
+
+httpd = ThreadingHTTPServer(('localhost', 8888), CORSRequestHandler)
+print('Serving on http://localhost:8888/ (threaded)')
 httpd.serve_forever()
