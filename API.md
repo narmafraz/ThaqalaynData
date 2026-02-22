@@ -204,6 +204,99 @@ Hadith gradings are stored as HTML-formatted strings:
 
 Common terms: صحيح (Sahih), حسن (Hasan), ضعيف (Da'if), مجهول (Majhul), موثق (Muwathaq), معتبر (Mu'tabar).
 
+## Dynamic API Endpoints
+
+In addition to the static JSON files, the API provides serverless endpoints for dynamic queries.
+
+### Random Hadith
+
+```
+GET /api/random-hadith
+```
+
+Returns a randomly selected hadith with Arabic text and available translations.
+
+**Response:**
+```json
+{
+  "chapter_index": "al-kafi:1:2:3",
+  "chapter_title": { "en": "Chapter 3", "ar": "..." },
+  "verse": {
+    "index": 42,
+    "local_index": 5,
+    "part_type": "Hadith",
+    "text": ["..."],
+    "translations": { "en.hubeali": ["..."] }
+  },
+  "link": "/books/al-kafi:1:2:3"
+}
+```
+
+### Collection Statistics
+
+```
+GET /api/stats
+```
+
+Returns aggregate statistics for all collections.
+
+**Response:**
+```json
+{
+  "total_books": 22,
+  "total_chapters": 1500,
+  "total_verses": 25000,
+  "total_narrators": 4860,
+  "total_translations": 15,
+  "books": [
+    { "id": "al-kafi", "title": "Al-Kafi", "verse_count": 16000, "chapter_count": 600 }
+  ],
+  "api_version": "v2"
+}
+```
+
+### Narrator Hadiths
+
+```
+GET /api/narrator-hadiths?id={narrator_id}&limit=20&offset=0&include_text=false
+```
+
+Returns hadiths narrated by a specific narrator, with optional full text.
+
+**Parameters:**
+
+| Parameter | Required | Default | Description |
+|-----------|----------|---------|-------------|
+| `id` | Yes | - | Narrator ID (numeric) |
+| `limit` | No | 20 | Max results (1-50) |
+| `offset` | No | 0 | Skip first N results |
+| `include_text` | No | false | Include full hadith text |
+
+**Response:**
+```json
+{
+  "narrator": {
+    "id": 100,
+    "titles": { "ar": "...", "en": "..." }
+  },
+  "total_hadiths": 150,
+  "offset": 0,
+  "limit": 20,
+  "hadiths": [
+    { "path": "/books/al-kafi:1:2:1:5" }
+  ]
+}
+```
+
+When `include_text=true`, each hadith includes:
+```json
+{
+  "path": "/books/al-kafi:1:2:1:5",
+  "chapter_title": { "en": "...", "ar": "..." },
+  "verse": { "index": 5, "text": ["..."], "translations": {...} }
+}
+```
+
 ## API Versioning
 
 The API supports versioned paths. The current version is **v2**:

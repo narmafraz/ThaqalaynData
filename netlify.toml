@@ -10,3 +10,22 @@
   from = "/v2/*"
   to = "/:splat"
   status = 200
+
+# Serverless API endpoints (Netlify Functions)
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+  from = "/api/random-hadith"
+  to = "/.netlify/functions/random-hadith"
+  status = 200
+
+[[redirects]]
+  from = "/api/stats"
+  to = "/.netlify/functions/stats"
+  status = 200
+
+[[redirects]]
+  from = "/api/narrator-hadiths"
+  to = "/.netlify/functions/narrator-hadiths"
+  status = 200
