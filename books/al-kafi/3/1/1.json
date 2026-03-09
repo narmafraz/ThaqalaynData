@@ -33,25 +33,25 @@
       {
         "ai": {
           "ai_attribution": {
-            "generated_date": "2026-02-26",
-            "model": "claude-opus-4-6-20260205",
-            "pipeline_version": "1.0.0"
+            "generated_date": "2026-02-28",
+            "model": "claude-sonnet-4-6",
+            "pipeline_version": "2.0.0"
           },
           "chunks": [
             {
-              "chunk_type": "body",
+              "chunk_type": "isnad",
               "translations": {
-                "bn": "রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া আলিহি ওয়া সাল্লাম) বলেছেন:",
-                "de": "Der Gesandte Gottes (Gottes Segen und Friede seien auf ihm und seiner Familie) sagte:",
-                "en": "The Messenger of Allah (peace be upon him and his family) said:",
-                "es": "El Mensajero de Dios (que la paz y las bendiciones de Dios sean con él y su familia) dijo:",
+                "bn": "আল্লাহর রাসূল (আল্লাহ তাঁকে ও তাঁর পরিবারকে রহমত করুন) বলেছেন:",
+                "de": "Der Gesandte Gottes (möge Gott ihn und seine Familie segnen) sagte:",
+                "en": "The Messenger of God (may God bless him and his family) said:",
+                "es": "El Mensajero de Dios (que Dios lo bendiga a él y a su familia) dijo:",
                 "fa": "رسول خدا صلی الله علیه وآله فرمود:",
-                "fr": "Le Messager de Dieu (que la paix et les bénédictions de Dieu soient sur lui et sa famille) a dit :",
-                "id": "Rasulullah (shallallahu 'alaihi wa alihi wa sallam) bersabda:",
-                "ru": "Посланник Аллаха (да благословит Аллах его и его род) сказал:",
-                "tr": "Resulullah (sallallahu aleyhi ve alihi ve sellem) buyurdu:",
-                "ur": "رسول اللہ صلی اللہ علیہ وآلہ وسلم نے فرمایا:",
-                "zh": "安拉的使者（愿真主赐福他及其家族）说："
+                "fr": "Le Messager de Dieu (que Dieu le bénisse, lui et sa famille) a dit :",
+                "id": "Rasulullah (semoga Allah memberkati beliau dan keluarganya) bersabda:",
+                "ru": "Посланник Аллаха (да благословит его Аллах и его семью) сказал:",
+                "tr": "Allah'ın Rasûlü (sallallahu aleyhi ve alihi) buyurdu:",
+                "ur": "اللہ کے رسول صلی اللہ علیہ وآلہ نے فرمایا:",
+                "zh": "真主的使者（愿真主赐福于他及其家人）说："
               },
               "word_end": 7,
               "word_start": 0
@@ -59,24 +59,28 @@
             {
               "chunk_type": "body",
               "translations": {
-                "bn": "পানি পবিত্রকারী এবং (অন্য কিছু দ্বারা) পবিত্র করা হয় না।",
-                "de": "Das Wasser reinigt und wird (selbst) nicht gereinigt (durch etwas anderes).",
-                "en": "Water purifies and is not (itself) purified (by anything else).",
-                "es": "El agua purifica y no es (ella misma) purificada (por otra cosa).",
-                "fa": "آب پاک‌کننده است و (خود به چیز دیگری) پاک نمی‌شود.",
-                "fr": "L'eau purifie et n'est pas (elle-même) purifiée (par autre chose).",
-                "id": "Air menyucikan dan tidak (perlu) disucikan (oleh sesuatu yang lain).",
-                "ru": "Вода очищает и (сама) не очищается (чем-либо другим).",
-                "tr": "Su temizleyicidir ve (başka bir şeyle) temizlenmez.",
-                "ur": "پانی پاک کرنے والا ہے اور وہ خود پاک نہیں کیا جاتا (کسی اور چیز سے)۔",
-                "zh": "水能净化，而水（本身）不需要被（其他东西）净化。"
+                "bn": "পানি পবিত্র করে এবং (নিজে) পবিত্র করা হয় না।",
+                "de": "Das Wasser reinigt und wird (selbst) nicht gereinigt.",
+                "en": "Water purifies and is not (itself) purified.",
+                "es": "El agua purifica y no es (ella misma) purificada.",
+                "fa": "آب پاک می‌کند و (خودش) پاک نمی‌شود.",
+                "fr": "L'eau purifie et n'est pas (elle-même) purifiée.",
+                "id": "Air mensucikan dan tidak (dirinya sendiri) disucikan.",
+                "ru": "Вода очищает и (сама) не очищается.",
+                "tr": "Su temizler ve (kendisi) temizlenmez.",
+                "ur": "پانی پاک کرتا ہے اور (خود) پاک نہیں کیا جاتا۔",
+                "zh": "水能净化（他物），而自身不被净化。"
               },
               "word_end": 11,
               "word_start": 7
             }
           ],
           "content_type": "legal_ruling",
-          "diacritics_changes": [],
+          "diacritics_changes": [
+            "Added full tashkeel to صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ",
+            "Added full tashkeel to الْمَاءُ يُطَهِّرُ وَلَا يُطَهَّرُ",
+            "Removed parenthetical brackets from original; integrated honorific into text"
+          ],
           "diacritics_status": "completed",
           "isnad_matn": {
             "has_chain": true,
@@ -86,43 +90,43 @@
               {
                 "ambiguity_note": null,
                 "identity_confidence": "definite",
-                "known_identity": "Abu Ja'far Muhammad ibn Ya'qub al-Kulayni (d. 329 AH), the compiler of al-Kafi",
+                "known_identity": "Muhammad ibn Yaqub al-Kulayni (d. 329 AH), compiler of al-Kafi, the most important hadith collection in Shia Islam",
                 "name_ar": "أَبُو جَعْفَرٍ مُحَمَّدُ بْنُ يَعْقُوبَ الْكُلَيْنِيُّ",
-                "name_en": "Abu Ja'far Muhammad ibn Ya'qub al-Kulayni",
+                "name_en": "Abu Ja'far Muhammad ibn Yaqub al-Kulayni",
                 "position": 1,
                 "role": "author"
               },
               {
                 "ambiguity_note": null,
                 "identity_confidence": "definite",
-                "known_identity": "Ali ibn Ibrahim ibn Hashim al-Qummi (d. ~329 AH), a major Shia jurist and exegete, author of Tafsir al-Qummi, and one of al-Kulayni's primary teachers",
+                "known_identity": "Ali ibn Ibrahim al-Qummi (3rd-4th century AH), prominent Shia scholar and author of a major Quran commentary",
                 "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ بْنِ هَاشِمٍ",
                 "name_en": "Ali ibn Ibrahim ibn Hashim",
                 "position": 2,
                 "role": "narrator"
               },
               {
-                "ambiguity_note": "Refers to Ibrahim ibn Hashim al-Qummi, the father of Ali ibn Ibrahim. Identification is based on the preceding narrator in the chain.",
+                "ambiguity_note": "Refers to Ibrahim ibn Hashim al-Qummi, father of Ali ibn Ibrahim. Identification based on the preceding narrator.",
                 "identity_confidence": "likely",
-                "known_identity": "Ibrahim ibn Hashim al-Qummi (d. ~early 3rd century AH), one of the most prolific narrators in Shia hadith, considered reliable (thiqah) by most scholars",
+                "known_identity": "Ibrahim ibn Hashim al-Qummi, one of the earliest transmitters of Kufi traditions to Qum",
                 "name_ar": "أَبِيهِ",
-                "name_en": "his father",
+                "name_en": "his father (Ibrahim ibn Hashim)",
                 "position": 3,
                 "role": "narrator"
               },
               {
-                "ambiguity_note": "Most likely al-Husayn ibn Yazid al-Nawfali. He commonly narrates from al-Sakuni in this chain pattern through Ibrahim ibn Hashim.",
+                "ambiguity_note": "Al-Nawfali in chains from al-Sakuni typically refers to al-Husayn ibn Yazid al-Nawfali.",
                 "identity_confidence": "likely",
-                "known_identity": "Al-Husayn ibn Yazid al-Nawfali, a narrator known for transmitting from al-Sakuni",
+                "known_identity": "Al-Husayn ibn Yazid al-Nawfali, a Shia narrator known for transmitting from al-Sakuni",
                 "name_ar": "النَّوْفَلِيُّ",
                 "name_en": "al-Nawfali",
                 "position": 4,
                 "role": "narrator"
               },
               {
-                "ambiguity_note": "Most likely Isma'il ibn Abi Ziyad al-Sakuni (also known as al-Shalqani). He is a well-known narrator from Imam al-Sadiq (AS) and often appears paired with al-Nawfali in this chain.",
-                "identity_confidence": "likely",
-                "known_identity": "Isma'il ibn Abi Ziyad al-Sakuni, a narrator from Imam al-Sadiq (AS)",
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Isma'il ibn Abi Ziyad al-Sakuni, a Sunni narrator from whom Shia transmit many traditions attributed to Imam al-Sadiq (AS)",
                 "name_ar": "السَّكُونِيُّ",
                 "name_en": "al-Sakuni",
                 "position": 5,
@@ -139,103 +143,132 @@
               }
             ]
           },
+          "key_phrases": [
+            {
+              "category": "theological_concept",
+              "phrase_ar": "رَسُولُ اللَّهِ",
+              "phrase_en": "Messenger of God"
+            },
+            {
+              "category": "prophetic_formula",
+              "phrase_ar": "صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ",
+              "phrase_en": "May God bless him and his family"
+            }
+          ],
           "key_terms": {
             "bn": {
-              "الماء": "পানি — ইসলামি আইনে তাহারাতের (পবিত্রতার) প্রাথমিক মাধ্যম",
-              "يطهَّر": "পবিত্র করা হয় — পানি নিজে অন্য কোনো পদার্থ দ্বারা পবিত্র হওয়ার দরকার নেই",
-              "يطهّر": "পবিত্র করে — পানি অন্য জিনিসকে পবিত্র করে"
+              "الْمَاءُ": "পানি — ফিকহে বিশেষভাবে পাক ও পবিত্রকারী পানি অর্থে",
+              "يُطَهَّرُ": "পবিত্র করা হয় (কর্মকারক, দ্বিতীয় বাব) — পানির বাহ্যিক উপাদান দ্বারা পবিত্র হওয়ার প্রয়োজন নেই",
+              "يُطَهِّرُ": "পবিত্র করে (কর্তৃকারক, দ্বিতীয় বাব) — পানি পবিত্রকারী হিসেবে কাজ করে"
             },
             "de": {
-              "الماء": "Das Wasser — primäres Mittel der rituellen Reinigung (Tahara) im islamischen Recht",
-              "يطهَّر": "Wird gereinigt — Wasser muss nicht durch eine andere Substanz gereinigt werden",
-              "يطهّر": "Reinigt — Wasser reinigt andere Dinge"
+              "الْمَاءُ": "Wasser — in der Jurisprudenz speziell reines (tahir) und reinigendes (mutahhir) Wasser",
+              "يُطَهَّرُ": "Wird gereinigt (Passiv, Form II) — das Wasser bedarf keiner Reinigung durch ein äußeres Agens",
+              "يُطَهِّرُ": "Reinigt (Aktiv, Form II) — das Wasser wirkt als reinigendes Agens"
             },
             "en": {
-              "الماء": "Water (al-ma') -- the primary means of ritual purification (taharah) in Islamic law",
-              "يطهَّر": "Is purified (yutahharu) -- passive form, meaning water itself does not need to be purified by something else",
-              "يطهّر": "Purifies (yutahhiru) -- Form II verb from t-h-r, meaning to cleanse or make ritually pure"
+              "الْمَاءُ": "Water — in jurisprudence, specifically refers to pure (tahir) water capable of purifying (mutahhir)",
+              "يُطَهَّرُ": "Is purified (passive voice, Form II) — the water is not acted upon; it does not need purification from an external agent",
+              "يُطَهِّرُ": "Purifies (active voice, Form II) — the water acts as the purifying agent"
             },
             "es": {
-              "الماء": "El agua — medio principal de purificación ritual (taharah) en la ley islámica",
-              "يطهَّر": "Es purificada — el agua no necesita ser purificada por otra sustancia",
-              "يطهّر": "Purifica — el agua limpia y purifica otras cosas"
+              "الْمَاءُ": "Agua — en jurisprudencia, se refiere al agua pura (tahir) con capacidad purificadora (mutahhir)",
+              "يُطَهَّرُ": "Es purificada (voz pasiva, Forma II) — el agua no requiere purificación por un agente externo",
+              "يُطَهِّرُ": "Purifica (voz activa, Forma II) — el agua actúa como agente purificador"
             },
             "fa": {
-              "الماء": "آب — وسیله اصلی طهارت شرعی در فقه اسلامی",
-              "يطهَّر": "پاک شود — آب خود نیازی به تطهیر از سوی ماده دیگر ندارد",
-              "يطهّر": "پاک می‌کند — آب چیزهای دیگر را پاک می‌کند"
+              "الْمَاءُ": "آب — در فقه به معنای آب طاهر و دارای قابلیت تطهیر",
+              "يُطَهَّرُ": "پاک می‌شود (مجهول، باب تفعیل) — آب نیاز به تطهیر توسط عامل خارجی ندارد",
+              "يُطَهِّرُ": "پاک می‌کند (معلوم، باب تفعیل) — آب به عنوان عامل پاک‌کننده عمل می‌کند"
             },
             "fr": {
-              "الماء": "L'eau — moyen principal de purification rituelle (tahara) en droit islamique",
-              "يطهَّر": "Est purifiée — l'eau n'a pas besoin d'être purifiée par une autre substance",
-              "يطهّر": "Purifie — l'eau nettoie et purifie les autres choses"
+              "الْمَاءُ": "Eau — en jurisprudence, désigne spécifiquement l'eau pure (tahir) dotée du pouvoir purificateur (mutahhir)",
+              "يُطَهَّرُ": "Est purifiée (voix passive, Form II) — l'eau n'a pas besoin d'être purifiée par un agent extérieur",
+              "يُطَهِّرُ": "Purifie (voix active, Form II) — l'eau joue le rôle d'agent purificateur"
             },
             "id": {
-              "الماء": "Air — sarana utama bersuci (thaharah) dalam hukum Islam",
-              "يطهَّر": "Disucikan — air tidak perlu disucikan oleh zat lain",
-              "يطهّر": "Menyucikan — air membersihkan dan menyucikan benda lain"
+              "الْمَاءُ": "Air — dalam fiqih, merujuk khusus pada air suci (tahir) yang mampu mensucikan (mutahhir)",
+              "يُطَهَّرُ": "Disucikan (pasif, Form II) — air tidak memerlukan pensucian dari agen luar",
+              "يُطَهِّرُ": "Mensucikan (aktif, Form II) — air bertindak sebagai agen pensucian"
             },
             "ru": {
-              "الماء": "Вода — основное средство ритуального очищения (тахара) в исламском праве",
-              "يطهَّر": "Очищается — вода не нуждается в очищении другим веществом",
-              "يطهّر": "Очищает — вода очищает другие вещи"
+              "الْمَاءُ": "Вода — в фикхе обозначает чистую (тахир) воду, способную очищать (мутаhhир)",
+              "يُطَهَّرُ": "Очищается (пассивный залог, II форма) — вода не требует очищения внешним агентом",
+              "يُطَهِّرُ": "Очищает (активный залог, II форма) — вода выступает как очищающий агент"
             },
             "tr": {
-              "الماء": "Su — İslam hukukunda taharetin temel aracı",
-              "يطهَّر": "Temizlenmez — suyun kendisinin başka bir maddece temizlenmesine ihtiyacı olmadığını ifade eder",
-              "يطهّر": "Temizler — suyu başka şeyleri temizleyen ajan olarak tanımlar"
+              "الْمَاءُ": "Su — fıkıhta özellikle tahir ve temizleyici su anlamında",
+              "يُطَهَّرُ": "Temizlenir (edilgen, Form II) — suyun harici bir etken tarafından temizlenmesine gerek yoktur",
+              "يُطَهِّرُ": "Temizler (etken, Form II) — su temizleyici unsur olarak işlev görür"
             },
             "ur": {
-              "الماء": "پانی — اسلامی شریعت میں طہارت کا بنیادی ذریعہ",
-              "يطهَّر": "پاک کیا جاتا ہے — یعنی پانی خود کسی اور چیز سے پاک ہونے کا محتاج نہیں",
-              "يطهّر": "پاک کرتا ہے — یعنی پانی دوسری چیزوں کو پاک کرتا ہے"
+              "الْمَاءُ": "پانی — فقہ میں خاص طور پر خالص اور پاک کرنے کی صلاحیت رکھنے والا پانی",
+              "يُطَهَّرُ": "پاک کیا جاتا ہے (مفعول) — پانی کو بیرونی ذریعے سے پاک کرنے کی ضرورت نہیں",
+              "يُطَهِّرُ": "پاک کرتا ہے (فاعل) — پانی طہارت دینے والا ہے"
             },
             "zh": {
-              "الماء": "水——伊斯兰教法中仪式洁净（塔哈拉）的主要方式",
-              "يطهَّر": "被净化——水本身不需要被其他物质净化",
-              "يطهّر": "净化——水能清洁和净化其他事物"
+              "الْمَاءُ": "水——在法学中专指洁净（塔希尔）且具有净化能力（穆塔希尔）的水",
+              "يُطَهَّرُ": "被净化（被动语态，第二型动词）——水无需被外部施动者所净化",
+              "يُطَهِّرُ": "净化（主动语态，第二型动词）——水作为净化的施动者"
             }
           },
           "related_quran": [
             {
-              "ref": "25:48",
+              "ref": "8:11",
               "relationship": "thematic"
             },
             {
-              "ref": "8:11",
+              "ref": "25:48",
               "relationship": "thematic"
             }
           ],
           "seo_questions": {
-            "bn": "ইসলামে পানির পবিত্রকারী প্রকৃতি সম্পর্কে নবী মুহাম্মদ কী বলেছেন?",
-            "de": "Was sagte der Prophet Muhammad über die reinigende Eigenschaft des Wassers im Islam?",
-            "en": "What did the Prophet Muhammad say about the purifying nature of water in Islam?",
-            "es": "¿Qué dijo el Profeta Muhammad sobre la naturaleza purificadora del agua en el Islam?",
-            "fa": "پیامبر اکرم درباره خاصیت پاک‌کنندگی آب چه فرمودند؟",
-            "fr": "Qu'a dit le Prophète Muhammad sur la nature purificatrice de l'eau en Islam ?",
-            "id": "Apa sabda Nabi Muhammad tentang sifat penyuci air dalam Islam?",
-            "ru": "Что сказал Пророк Мухаммад об очищающей природе воды в Исламе?",
-            "tr": "Hz. Peygamber suyun temizleyici doğası hakkında ne buyurmuştur?",
-            "ur": "اسلام میں پانی کی طہارت کے بارے میں رسول اللہ صلی اللہ علیہ وآلہ وسلم نے کیا فرمایا؟",
-            "zh": "先知穆罕默德在伊斯兰教中关于水的净化性质说了什么？"
+            "bn": "পানি পবিত্র করে কিন্তু নিজে পবিত্র করা হয় না — এই ইসলামী বিধান কী?",
+            "de": "Was ist das islamische Rechtsprinzip, dass Wasser reinigt, aber selbst nicht gereinigt wird?",
+            "en": "What is the Islamic ruling that water purifies and is not itself purified?",
+            "es": "¿Cuál es el fundamento jurídico islámico de que el agua purifica pero no es purificada?",
+            "fa": "حکم فقهی آب در اسلام که پاک می‌کند ولی خودش پاک نمی‌شود چیست؟",
+            "fr": "Quel est le principe juridique islamique selon lequel l'eau purifie mais n'est pas elle-même purifiée ?",
+            "id": "Apa hukum Islam bahwa air mensucikan namun dirinya tidak disucikan?",
+            "ru": "В чём состоит исламский правовой принцип о том, что вода очищает, но сама не очищается?",
+            "tr": "Suyun temizlediği ama kendisinin temizlenmediğine dair İslami hüküm nedir?",
+            "ur": "اسلام میں پانی کے پاک کرنے اور خود پاک نہ کیے جانے کا کیا حکم ہے؟",
+            "zh": "水能净化他物而自身不被净化——这一伊斯兰法律原则是什么？"
           },
+          "similar_content_hints": [
+            {
+              "description": "Hadiths from al-Kafi and other Shia collections elaborating on the conditions under which water becomes impure (najis) and ceases to be a purifying agent, such as when it changes color, taste, or smell.",
+              "theme": "water_purity_conditions"
+            },
+            {
+              "description": "Hadiths discussing the principle that running water (al-ma' al-jarr) or large bodies of water (kurr water) have greater purifying capacity and resist impurity, expanding on this foundational ruling.",
+              "theme": "water_purity_conditions"
+            },
+            {
+              "description": "Quran commentaries on verses describing water as a purifying agent sent by God (8:11, 25:48), connecting prophetic tradition to the Quranic basis for the purity of water.",
+              "theme": "water_as_divine_purification"
+            }
+          ],
           "summaries": {
-            "bn": "নবী (সা.) তাহারাত সম্পর্কিত ইসলামি আইনের একটি মৌলিক নীতি প্রতিষ্ঠা করেছেন: পানি হলো প্রাথমিক পবিত্রকারী উপাদান এবং এটি নিজে অন্য কোনো পদার্থ দ্বারা পবিত্র হওয়ার প্রয়োজন নেই।",
-            "de": "Der Prophet (SAWW) legte ein grundlegendes Prinzip der islamischen Rechtsprechung zur rituellen Reinheit fest: Wasser ist das primäre Reinigungsmittel und bedarf selbst keiner Reinigung durch eine andere Substanz.",
-            "en": "The Prophet (SAWW) established a fundamental principle of Islamic jurisprudence regarding ritual purity: water is the primary purifying agent and does not itself require purification by another substance.",
-            "es": "El Profeta (SAWW) estableció un principio fundamental de la jurisprudencia islámica sobre la pureza ritual: el agua es el agente purificador principal y no necesita ser purificada por otra sustancia.",
-            "fa": "پیامبر اکرم (ص) اصل بنیادین فقهی درباره طهارت را بیان فرمودند: آب عامل اصلی تطهیر است و خود نیازی به پاک شدن توسط ماده دیگری ندارد.",
-            "fr": "Le Prophète (SAWW) a établi un principe fondamental de la jurisprudence islamique sur la pureté rituelle : l'eau est l'agent purificateur principal et n'a pas besoin d'être purifiée par une autre substance.",
-            "id": "Nabi (saww) menetapkan prinsip dasar fiqih Islam tentang thaharah: air adalah agen penyuci utama dan tidak perlu disucikan oleh zat lain.",
-            "ru": "Пророк (САВВС) установил основополагающий принцип исламского правоведения о ритуальной чистоте: вода является основным очищающим средством и не нуждается в очищении другим веществом.",
-            "tr": "Hz. Peygamber (s.a.v.s.) taharetle ilgili temel bir fıkhi kural koymuştur: Su, asıl temizleyicidir ve kendisinin başka bir madde ile temizlenmesine gerek yoktur.",
-            "ur": "نبی اکرم صلی اللہ علیہ وآلہ وسلم نے طہارت کے بارے میں ایک بنیادی فقہی اصول بیان فرمایا: پانی اصل پاک کرنے والا ہے اور خود کسی اور چیز سے پاک ہونے کا محتاج نہیں۔",
-            "zh": "先知（愿主赐福之）确立了伊斯兰教法中关于仪式洁净的一个基本原则：水是主要的净化剂，其本身不需要被其他物质净化。"
+            "bn": "এই হাদিসটি পানির বিষয়ে ইসলামী আনুষ্ঠানিক পবিত্রতা আইন (তাহারা)-এর মৌলিক নীতি প্রতিষ্ঠা করে: বিশুদ্ধ পানি অন্যান্য জিনিসকে পবিত্র করার সহজাত ক্ষমতা রাখে, কিন্তু নিজেকে পবিত্র করার প্রয়োজন নেই। ইমাম সাদিক (আ.)-এর মাধ্যমে নবী (সাঃ)-পর্যন্ত পৌঁছানো এই বিধান শিয়া ফিকহে অযু, গোসল ও নাজিস বস্তু পবিত্রকরণ সম্পর্কিত সমস্ত ফিকহী কাঠামোর ভিত্তি।",
+            "de": "Dieser Hadith legt das grundlegende Prinzip des islamischen Reinheitsrechts (tahara) bezüglich Wasser fest: Reines Wasser besitzt die inhärente Fähigkeit, andere Dinge zu reinigen, ohne selbst der Reinigung zu bedürfen. Diese Regel, die über eine Überlieferungskette von Imam al-Sadiq (AS) zurück zum Propheten (SAWW) reicht, bildet die Grundlage des gesamten jurisprudentiellen Rahmens zur rituellen Reinheit im schiitischen Fiqh, insbesondere bezüglich des Wassers für Wudu, Ghusl und die Reinigung von najis-Gegenständen.",
+            "en": "This hadith establishes the foundational principle of Islamic ritual purity law (tahara) concerning water: pure water has the intrinsic capacity to purify other things, yet it does not require purification itself. This ruling, narrated through a chain reaching Imam al-Sadiq (AS) back to the Prophet (SAWW), underpins the entire jurisprudential framework for ritual purity in Shia fiqh, particularly governing which water may be used for wudu, ghusl, and the purification of najis objects.",
+            "es": "Este hadiz establece el principio fundamental de la ley de pureza ritual islámica (tahara) respecto al agua: el agua pura tiene la capacidad inherente de purificar otras cosas, sin necesidad de ser purificada ella misma. Esta norma, transmitida a través de una cadena que llega al Imam al-Sadiq (AS) y de él al Profeta (SAWW), constituye la base de todo el marco jurisprudencial sobre la pureza ritual en el fiqh chiíta, especialmente en lo que respecta al agua para el wudu, el ghusl y la purificación de objetos najis.",
+            "fa": "این حدیث اصل بنیادین قانون طهارت اسلامی درباره آب را بیان می‌کند: آب پاک به طور ذاتی توانایی پاک کردن اشیاء دیگر را دارد، اما خودش نیاز به تطهیر ندارد. این حکم که از طریق امام صادق علیه السلام به پیامبر اکرم صلی الله علیه وآله می‌رسد، پایه تمام احکام فقهی شیعه درباره وضو، غسل و تطهیر اشیاء نجس است.",
+            "fr": "Ce hadith établit le principe fondamental du droit de la pureté rituelle islamique (tahara) concernant l'eau : l'eau pure possède la capacité inhérente de purifier d'autres choses, sans avoir elle-même besoin d'être purifiée. Cette règle, transmise par une chaîne remontant à l'Imam al-Sadiq (AS) puis au Prophète (SAWW), constitue la base de tout le cadre jurisprudentiel relatif à la pureté rituelle dans le fiqh chiite, notamment pour l'eau utilisée dans les ablutions (wudu), le bain rituel (ghusl) et la purification des objets impur (najis).",
+            "id": "Hadis ini menetapkan prinsip dasar hukum kesucian ritual (tahara) Islam mengenai air: air suci memiliki kemampuan inheren untuk mensucikan benda lain, namun ia sendiri tidak memerlukan pensucian. Hukum ini, yang diriwayatkan melalui rantai perawi hingga Imam al-Shadiq (AS) kembali kepada Nabi (SAWW), menjadi dasar keseluruhan kerangka fiqih kesucian ritual dalam fiqih Syiah, khususnya mengatur air mana yang boleh digunakan untuk wudu, ghusl, dan pensucian benda najis.",
+            "ru": "Этот хадис устанавливает фундаментальный принцип исламского закона о ритуальной чистоте (тахара) относительно воды: чистая вода обладает присущей ей способностью очищать другие предметы, не нуждаясь при этом в очищении сама. Это правило, переданное через цепочку до Имама ас-Садика (мир ему) и далее к Пророку (мир ему и его семье), лежит в основе всей юриспруденции ритуальной чистоты в шиитском фикхе, особенно в вопросах воды для омовения (вуду), полного омовения (гусль) и очищения нечистых (наджис) предметов.",
+            "tr": "Bu hadis, İslam ritüel temizlik hukuku (taharet) açısından su ile ilgili temel ilkeyi ortaya koymaktadır: saf su, diğer nesneleri temizleme kapasitesine sahipken kendisi temizlenmeye muhtaç değildir. İmam Sadık (a.s.) aracılığıyla Peygamber'e (s.a.v.s.) ulaşan bu hüküm, Şia fıkhında abdest, gusül ve necis nesnelerin temizlenmesi meselelerindeki tüm hukuki çerçevenin temelini oluşturmaktadır.",
+            "ur": "یہ حدیث اسلامی طہارت کے قانون میں پانی کے بنیادی اصول کو بیان کرتی ہے: خالص پانی دوسری چیزوں کو پاک کرنے کی فطری صلاحیت رکھتا ہے، لیکن خود اسے پاک کرنے کی ضرورت نہیں۔ یہ اصول شیعہ فقہ میں وضو، غسل اور نجس اشیاء کی طہارت کے تمام احکام کی بنیاد ہے۔",
+            "zh": "此圣训确立了伊斯兰礼仪洁净法（塔哈拉）中关于水的基本原则：洁净之水具有净化其他事物的内在能力，而其自身无需被净化。这一裁决经由伊玛目萨迪格（愿主赐他平安）上溯至先知（愿主福安之）的传述链，构成什叶派法学（菲格赫）礼仪洁净整体框架的基础，尤其适用于小净（吴都）、大净（古斯尔）和净化纳吉斯物品所用之水的相关规定。"
           },
           "tags": [
             "jurisprudence",
-            "worship",
             "prophetic_tradition"
+          ],
+          "topics": [
+            "ritual_purity",
+            "prayer_rulings"
           ],
           "word_analysis": [
             {
@@ -259,14 +292,14 @@
               "pos": "N",
               "translation": {
                 "bn": "রাসূল",
-                "de": "der Gesandte",
-                "en": "the Messenger",
-                "es": "el Mensajero",
-                "fa": "رسول/پیامبر",
-                "fr": "le Messager",
-                "id": "Rasul/Utusan",
+                "de": "Gesandte",
+                "en": "Messenger",
+                "es": "Mensajero",
+                "fa": "رسول",
+                "fr": "Messager",
+                "id": "Rasul",
                 "ru": "Посланник",
-                "tr": "Resul/Elçi",
+                "tr": "Rasûl",
                 "ur": "رسول",
                 "zh": "使者"
               },
@@ -277,7 +310,7 @@
               "translation": {
                 "bn": "আল্লাহর",
                 "de": "Gottes",
-                "en": "of Allah/God",
+                "en": "of God",
                 "es": "de Dios",
                 "fa": "خدا",
                 "fr": "de Dieu",
@@ -285,24 +318,24 @@
                 "ru": "Аллаха",
                 "tr": "Allah'ın",
                 "ur": "اللہ کے",
-                "zh": "安拉的"
+                "zh": "真主的"
               },
               "word": "اللَّهِ"
             },
             {
               "pos": "V",
               "translation": {
-                "bn": "সাল্লা",
+                "bn": "রহমত বর্ষণ করুন",
                 "de": "segne",
                 "en": "may bless",
                 "es": "bendiga",
-                "fa": "درود",
+                "fa": "صلوات فرستد",
                 "fr": "bénisse",
-                "id": "semoga bershalawat",
+                "id": "semoga memberkati",
                 "ru": "да благословит",
-                "tr": "salat etsin",
-                "ur": "صلی",
-                "zh": "愿赐福"
+                "tr": "salât etsin",
+                "ur": "درود بھیجے",
+                "zh": "祝福"
               },
               "word": "صَلَّى"
             },
@@ -311,15 +344,15 @@
               "translation": {
                 "bn": "আল্লাহ",
                 "de": "Gott",
-                "en": "Allah/God",
+                "en": "God",
                 "es": "Dios",
-                "fa": "خداوند",
+                "fa": "خدا",
                 "fr": "Dieu",
                 "id": "Allah",
                 "ru": "Аллах",
                 "tr": "Allah",
                 "ur": "اللہ",
-                "zh": "安拉"
+                "zh": "真主"
               },
               "word": "اللَّهُ"
             },
@@ -343,16 +376,16 @@
             {
               "pos": "N",
               "translation": {
-                "bn": "ও তাঁর পরিবার",
+                "bn": "এবং তাঁর বংশধরদের উপর",
                 "de": "und seiner Familie",
                 "en": "and his family",
                 "es": "y su familia",
-                "fa": "و خاندانش",
+                "fa": "و آل او",
                 "fr": "et sa famille",
                 "id": "dan keluarganya",
-                "ru": "и его род",
+                "ru": "и его семье",
                 "tr": "ve ailesine",
-                "ur": "اور آل پر",
+                "ur": "اور اس کی آل پر",
                 "zh": "及其家族"
               },
               "word": "وَآلِهِ"
@@ -362,7 +395,7 @@
               "translation": {
                 "bn": "পানি",
                 "de": "das Wasser",
-                "en": "the water",
+                "en": "water",
                 "es": "el agua",
                 "fa": "آب",
                 "fr": "l'eau",
@@ -379,27 +412,27 @@
               "translation": {
                 "bn": "পবিত্র করে",
                 "de": "reinigt",
-                "en": "purifies/cleanses",
+                "en": "purifies",
                 "es": "purifica",
                 "fa": "پاک می‌کند",
                 "fr": "purifie",
-                "id": "menyucikan",
+                "id": "mensucikan",
                 "ru": "очищает",
                 "tr": "temizler",
                 "ur": "پاک کرتا ہے",
-                "zh": "净化"
+                "zh": "能净化"
               },
               "word": "يُطَهِّرُ"
             },
             {
-              "pos": "NEG",
+              "pos": "CONJ",
               "translation": {
                 "bn": "এবং না",
                 "de": "und nicht",
-                "en": "and does not",
+                "en": "and not",
                 "es": "y no",
-                "fa": "و نمی‌شود",
-                "fr": "et ne...pas",
+                "fa": "و نه",
+                "fr": "et ne pas",
                 "id": "dan tidak",
                 "ru": "и не",
                 "tr": "ve değil",
@@ -412,14 +445,14 @@
               "pos": "V",
               "translation": {
                 "bn": "পবিত্র করা হয়",
-                "de": "gereinigt wird",
-                "en": "is purified (by anything else)",
+                "de": "wird gereinigt",
+                "en": "is purified",
                 "es": "es purificado",
-                "fa": "پاک شود",
+                "fa": "پاک می‌شود",
                 "fr": "est purifié",
                 "id": "disucikan",
                 "ru": "очищается",
-                "tr": "temizlenmez",
+                "tr": "temizlenir",
                 "ur": "پاک کیا جاتا ہے",
                 "zh": "被净化"
               },
@@ -498,6 +531,746 @@
         }
       },
       {
+        "ai": {
+          "ai_attribution": {
+            "generated_date": "2026-02-28",
+            "model": "claude-sonnet-4-6",
+            "pipeline_version": "2.0.0"
+          },
+          "chunks": [
+            {
+              "chunk_type": "isnad",
+              "translations": {
+                "bn": "মুহাম্মাদ ইবনে ইয়াহইয়া এবং অন্যরা, মুহাম্মাদ ইবনে আহমাদ থেকে, তিনি আল-হাসান ইবনে আল-হুসাইন আল-লু'লু'ই থেকে, তাঁর সনদে বর্ণনা করেছেন:",
+                "de": "Muhammad ibn Yahya und andere, von Muhammad ibn Ahmad, von al-Hasan ibn al-Husayn al-Lu'lu'i, durch seine Überliefererkette, sagten:",
+                "en": "Muhammad ibn Yahya and others, from Muhammad ibn Ahmad, from al-Hasan ibn al-Husayn al-Lu'lu'i, by his chain, said:",
+                "es": "Muhammad ibn Yahya y otros, de Muhammad ibn Ahmad, de al-Hasan ibn al-Husayn al-Lu'lu'i, por su cadena, dijo:",
+                "fa": "محمد بن یحیی و دیگران، از محمد بن احمد، از حسن بن حسین اللؤلؤی، به اسناد وی، نقل کردند:",
+                "fr": "Muhammad ibn Yahya et d'autres, de Muhammad ibn Ahmad, d'al-Hasan ibn al-Husayn al-Lu'lu'i, par sa chaîne, ont dit :",
+                "id": "Muhammad bin Yahya dan yang lainnya, dari Muhammad bin Ahmad, dari al-Hasan bin al-Husain al-Lu'lu'i, dengan isnadnya, berkata:",
+                "ru": "Мухаммад ибн Яхья и другие, от Мухаммада ибн Ахмада, от аль-Хасана ибн аль-Хусайна аль-Лу'лу'и, по его иснаду, сказали:",
+                "tr": "Muhammed ibn Yahya ve diğerleri, Muhammed ibn Ahmed'den, o da el-Hasan ibn el-Hüseyin el-Lü'lü'î'den, o da isnadıyla rivayet etmiştir:",
+                "ur": "محمد بن یحییٰ اور دیگر نے محمد بن احمد سے، انہوں نے حسن بن حسین اللؤلؤی سے، انہوں نے اپنی سند کے ساتھ بیان کیا:",
+                "zh": "穆罕默德·本·叶海亚及其他人，从穆罕默德·本·艾哈迈德，从哈桑·本·侯赛因·鲁鲁伊，凭其传述链说道："
+              },
+              "word_end": 15,
+              "word_start": 0
+            },
+            {
+              "chunk_type": "body",
+              "translations": {
+                "bn": "আবু আবদিল্লাহ আলাইহিস সালাম বলেছেন: 'সমস্ত পানি পবিত্র, যতক্ষণ না জানা যায় যে তা অপবিত্র।'",
+                "de": "Abu Abdillah (Friede sei mit ihm) sagte: 'Das Wasser, alles davon, ist rein, bis es bekannt wird, dass es unrein ist.'",
+                "en": "Abu Abdillah (peace be upon him) said: 'All water is pure until it is known to be impure.'",
+                "es": "Abu Abdillah (la paz sea con él) dijo: 'El agua, toda ella, es pura hasta que se sepa que es impura.'",
+                "fa": "ابوعبدالله علیه السلام فرمود: «آب همه‌اش پاک است تا اینکه دانسته شود که نجس است.»",
+                "fr": "Abu Abdillah (que la paix soit sur lui) a dit : 'L'eau, toute entière, est pure jusqu'à ce que l'on sache qu'elle est impure.'",
+                "id": "Abu Abdillah alaihis salam bersabda: 'Air itu semuanya suci hingga diketahui bahwa ia najis.'",
+                "ru": "Абу Абдиллах (мир ему) сказал: 'Вода, вся она, чиста, пока не станет известно, что она нечиста.'",
+                "tr": "Ebu Abdullah (a.s.) buyurdu: 'Suyun tamamı temizdir, onun kirli olduğu bilinene kadar.'",
+                "ur": "ابو عبد اللہ علیہ السلام نے فرمایا: 'تمام پانی پاک ہے جب تک یہ معلوم نہ ہو جائے کہ وہ ناپاک ہے۔'",
+                "zh": "阿布·阿卜杜拉（愿主赐他平安）说：「水，全部是纯净的，直到被知晓它是污秽的。」"
+              },
+              "word_end": 28,
+              "word_start": 15
+            }
+          ],
+          "content_type": "legal_ruling",
+          "diacritics_changes": [
+            "Added full tashkeel to narrator chain: مُحَمَّدُ بْنُ يَحْيَى وَغَيْرُهُ عَنْ مُحَمَّدِ بْنِ أَحْمَدَ عَنِ الْحَسَنِ بْنِ الْحُسَيْنِ اللُّؤْلُؤِيِّ بِإِسْنَادِهِ قَالَ",
+            "Added full tashkeel to honorific: عَلَيْهِ السَّلَامُ",
+            "Added full tashkeel to matn words: الْمَاءُ كُلُّهُ طَاهِرٌ حَتَّى يُعْلَمَ أَنَّهُ قَذِرٌ"
+          ],
+          "diacritics_status": "completed",
+          "isnad_matn": {
+            "has_chain": true,
+            "isnad_ar": "مُحَمَّدُ بْنُ يَحْيَى وَغَيْرُهُ عَنْ مُحَمَّدِ بْنِ أَحْمَدَ عَنِ الْحَسَنِ بْنِ الْحُسَيْنِ اللُّؤْلُؤِيِّ بِإِسْنَادِهِ قَالَ",
+            "matn_ar": "قَالَ أَبُو عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ الْمَاءُ كُلُّهُ طَاهِرٌ حَتَّى يُعْلَمَ أَنَّهُ قَذِرٌ",
+            "narrators": [
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Muhammad ibn Yahya al-'Attar al-Qummi, a major transmitter of al-Kulayni in al-Kafi",
+                "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+                "name_en": "Muhammad ibn Yahya",
+                "position": 1,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 3,
+                    "word_start": 0
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": "Generic reference to other unnamed transmitters alongside Muhammad ibn Yahya who share this transmission route.",
+                "identity_confidence": "ambiguous",
+                "known_identity": null,
+                "name_ar": "وَغَيْرُهُ",
+                "name_en": "and others",
+                "position": 2,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 4,
+                    "word_start": 3
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": "Likely Muhammad ibn Ahmad ibn Yahya al-Ash'ari al-Qummi, author of Nawadir al-Hikma; a common intermediate transmitter in al-Kafi.",
+                "identity_confidence": "likely",
+                "known_identity": "Muhammad ibn Ahmad ibn Yahya al-Ash'ari al-Qummi",
+                "name_ar": "مُحَمَّدُ بْنُ أَحْمَدَ",
+                "name_en": "Muhammad ibn Ahmad",
+                "position": 3,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 8,
+                    "word_start": 5
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Al-Hasan ibn al-Husayn al-Lu'lu'i, a Kufan narrator who narrated through his own chain (bi-isnadihi) from Imam al-Sadiq",
+                "name_ar": "الْحَسَنُ بْنُ الْحُسَيْنِ اللُّؤْلُؤِيُّ",
+                "name_en": "al-Hasan ibn al-Husayn al-Lu'lu'i",
+                "position": 4,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 13,
+                    "word_start": 9
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Imam Ja'far al-Sadiq (AS), the sixth Imam (d. 148 AH)",
+                "name_ar": "أَبُو عَبْدِ اللَّهِ",
+                "name_en": "Abu Abdillah",
+                "position": 5,
+                "role": "imam",
+                "word_ranges": [
+                  {
+                    "word_end": 19,
+                    "word_start": 16
+                  }
+                ]
+              }
+            ]
+          },
+          "key_phrases": [
+            {
+              "category": "jurisprudential_term",
+              "phrase_ar": "الْمَاءُ كُلُّهُ طَاهِرٌ",
+              "phrase_en": "All water is pure"
+            },
+            {
+              "category": "jurisprudential_term",
+              "phrase_ar": "حَتَّى يُعْلَمَ أَنَّهُ قَذِرٌ",
+              "phrase_en": "until it is known to be impure"
+            }
+          ],
+          "key_terms": {
+            "bn": {
+              "الماء": "পানি; ইসলামে পবিত্রতার মাধ্যম",
+              "طاهر": "পবিত্র; শরঈভাবে ব্যবহারযোগ্য",
+              "قذر": "অপবিত্র/নাপাক; দূষিত পানি যা পবিত্রতার জন্য ব্যবহারযোগ্য নয়"
+            },
+            "de": {
+              "الماء": "Wasser; Mittel der rituellen Reinigung im Islam",
+              "طاهر": "Rein; rechtlich gültig für die Verwendung in Reinigungsakten",
+              "قذر": "Unrein/schmutzig (najis); kontaminiertes Wasser, das nicht mehr zur Reinigung geeignet ist"
+            },
+            "en": {
+              "الماء": "Water in Islamic jurisprudence, the medium for ritual purification",
+              "طاهر": "Ritually pure (tahir); legally valid for use in purification acts",
+              "قذر": "Impure, dirty (najis); water that has been contaminated and is no longer valid for purification"
+            },
+            "es": {
+              "الماء": "El agua; medio de purificación ritual en el Islam",
+              "طاهر": "Puro; válido legalmente para su uso en actos de purificación",
+              "قذر": "Impuro/sucio (najis); agua contaminada que ya no es válida para la purificación"
+            },
+            "fa": {
+              "الماء": "آب؛ وسیله طهارت در اسلام",
+              "طاهر": "پاک؛ از نظر شرعی قابل استفاده برای طهارت",
+              "قذر": "نجس؛ آبی که آلوده شده و دیگر برای طهارت مجاز نیست"
+            },
+            "fr": {
+              "الماء": "L'eau ; médium de purification rituelle en Islam",
+              "طاهر": "Pur ; légalement valide pour être utilisé dans les actes de purification",
+              "قذر": "Impur/sale (najis) ; eau contaminée qui n'est plus valide pour la purification"
+            },
+            "id": {
+              "الماء": "Air; media utama untuk bersuci dalam Islam",
+              "طاهر": "Suci/bersih; sah digunakan untuk bersuci",
+              "قذر": "Najis/kotor; air yang telah terkontaminasi dan tidak sah untuk bersuci"
+            },
+            "ru": {
+              "الماء": "Вода; средство ритуального очищения в исламе",
+              "طاهر": "Чистый (тахир); законно пригодный для использования в актах очищения",
+              "قذر": "Нечистый (наджис); загрязнённая вода, непригодная для очищения"
+            },
+            "tr": {
+              "الماء": "Su; İslam'da taharet için kullanılan temel unsur",
+              "طاهر": "Temiz/pak; şer'an kullanımı caiz",
+              "قذر": "Pis/necis; artık temizlik için kullanılamaz"
+            },
+            "ur": {
+              "الماء": "پانی، طہارت کا ذریعہ",
+              "طاهر": "پاک، شرعاً پاک",
+              "قذر": "ناپاک، نجس"
+            },
+            "zh": {
+              "الماء": "水；伊斯兰礼仪净化的媒介",
+              "طاهر": "纯净（塔希尔）；合法可用于净化行为",
+              "قذر": "污秽/不洁（纳吉斯）；被污染的水，不再适用于净化"
+            }
+          },
+          "related_quran": [
+            {
+              "ref": "8:11",
+              "relationship": "thematic"
+            },
+            {
+              "ref": "5:6",
+              "relationship": "thematic"
+            }
+          ],
+          "seo_questions": {
+            "bn": "ইসলামে কি সব পানি পবিত্র যতক্ষণ না অপবিত্রতা প্রমাণিত হয়?",
+            "de": "Gilt im Islam alles Wasser als rein, bis das Gegenteil bewiesen ist?",
+            "en": "Is all water considered pure in Islam until proven otherwise?",
+            "es": "¿Se considera pura toda el agua en el Islam hasta que se pruebe lo contrario?",
+            "fa": "آیا در اسلام همه آب‌ها تا زمان اثبات نجاست پاک محسوب می‌شوند؟",
+            "fr": "Toute eau est-elle considérée pure en Islam jusqu'à preuve du contraire ?",
+            "id": "Apakah semua air dianggap suci dalam Islam hingga terbukti najis?",
+            "ru": "Считается ли вся вода чистой в исламе, пока не доказано обратное?",
+            "tr": "İslam'da su necis olduğu bilinene kadar temiz sayılır mı?",
+            "ur": "کیا اسلام میں پانی اس وقت تک پاک مانا جاتا ہے جب تک اس کی نجاست ثابت نہ ہو؟",
+            "zh": "在伊斯兰教中，所有水是否被认为是纯净的，直到被证明不洁？"
+          },
+          "similar_content_hints": [
+            {
+              "description": "A hadith stating that everything is permissible until proven otherwise (principle of original permissibility/istishab), as a parallel jurisprudential maxim to water's presumptive purity.",
+              "theme": "presumption_of_permissibility"
+            },
+            {
+              "description": "Hadiths about the thresholds at which water becomes impure (e.g., kur water and how much impurity changes its status), elaborating on the conditions for removing the presumption of purity.",
+              "theme": "water_purity_thresholds"
+            },
+            {
+              "description": "Other hadiths about ritual purity (tahara) principles from Imam al-Sadiq establishing default states — such as the purity of a Muslim's body or garment until impurity is known.",
+              "theme": "default_ritual_purity"
+            }
+          ],
+          "summaries": {
+            "bn": "ইমাম আল-সাদিক (আ.) ইসলামী ফিকহের মৌলিক নীতি প্রতিষ্ঠা করেছেন যে পানি মূলগতভাবে পবিত্র এবং এই অনুমান বজায় থাকে যতক্ষণ না তার অপবিত্রতার নিশ্চিত জ্ঞান হয়। এই বিধান ওযু, গোসল এবং পবিত্র পানি প্রয়োজন এমন সকল ইবাদতের জন্য গুরুত্বপূর্ণ।",
+            "de": "Imam al-Sadiq (F) stellt das grundlegende islamische Rechtsprinzip fest, dass Wasser standardmäßig als rituell rein angesehen wird, und diese Vermutung gilt, bis es ein definitives Wissen über seine Unreinheit gibt. Diese Regel hat weitreichende Implikationen für Wudu, Ghusl und andere Gottesdienste, die reines Wasser erfordern.",
+            "en": "Imam al-Sadiq (AS) establishes the foundational Islamic legal principle that water is presumed ritually pure by default, and this presumption holds until there is definite knowledge of its impurity. This ruling reflects the broader jurisprudential maxim of presumption of purity (istishab al-tahara) and has far-reaching implications for wudu, ghusl, and other acts of worship requiring pure water. The original audience — students of Shia fiqh — would have understood this as settling a fundamental question in ritual law.",
+            "es": "El Imam al-Sadiq (P) establece el principio jurídico islámico fundamental de que el agua se presume ritualmente pura por defecto, y esta presunción se mantiene hasta que haya conocimiento definitivo de su impureza. Esta regla tiene implicaciones amplias para el wudu, el ghusl y otros actos de adoración que requieren agua pura.",
+            "fa": "امام صادق علیه السلام اصل بنیادین فقه اسلامی را بیان فرموده‌اند: آب در اصل پاک است و این اصل تا زمانی که نجاست آن با علم یقینی ثابت نشده، معتبر است. این قاعده در باب وضو، غسل و سایر عبادات نقش اساسی دارد.",
+            "fr": "L'Imam al-Sadiq (P) établit le principe juridique islamique fondamental selon lequel l'eau est présumée rituellement pure par défaut, et cette présomption s'applique jusqu'à ce qu'il y ait une connaissance certaine de son impureté. Cette règle a des implications étendues pour le wudu, le ghusl et d'autres actes d'adoration nécessitant une eau pure.",
+            "id": "Imam al-Shadiq (AS) menetapkan prinsip dasar fiqih Islam bahwa air dianggap suci secara hukum sebagai keadaan asal, dan anggapan ini berlaku sampai ada kepastian tentang kenajisannya. Kaidah ini memiliki implikasi luas dalam praktik wudu, ghusl, dan ibadah lainnya.",
+            "ru": "Имам аль-Садик (мир ему) устанавливает основополагающий принцип исламского права: вода по умолчанию предполагается ритуально чистой, и эта презумпция действует до тех пор, пока не будет достоверно известно о её нечистоте. Это правило имеет широкие последствия для вуду, гусля и других актов поклонения, требующих чистой воды.",
+            "tr": "İmam Sadık (a.s.) İslam fıkhının temel ilkesini açıklamıştır: Su, aslen temizdir ve bu asıl hüküm, onun necis olduğu kesin olarak bilinene kadar geçerlidir. Bu kural, abdest, gusül ve diğer temizlik uygulamalarında büyük öneme sahiptir.",
+            "ur": "امام صادق علیہ السلام نے اسلامی فقہ کا بنیادی اصول بیان فرمایا کہ پانی اصلاً پاک ہے اور اس وقت تک پاک مانا جائے گا جب تک اس کی نجاست یقینی طور پر ثابت نہ ہو جائے۔ یہ اصول طہارت کے تمام مسائل میں استعمال ہوتا ہے۔",
+            "zh": "伊玛目萨迪格（愿主赐他平安）确立了伊斯兰法的基本原则：水在默认情况下被认定为礼仪上的纯净，这一推定持续有效，直到有确切的知识证明其不洁。这一裁决对小净、大净及其他需要纯净水的功修具有深远的影响。"
+          },
+          "tags": [
+            "jurisprudence",
+            "worship"
+          ],
+          "topics": [
+            "ritual_purity",
+            "prayer_rulings",
+            "halal_haram"
+          ],
+          "word_analysis": [
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "মুহাম্মাদ",
+                "de": "Muhammad",
+                "en": "Muhammad",
+                "es": "Muhammad",
+                "fa": "محمد",
+                "fr": "Muhammad",
+                "id": "Muhammad",
+                "ru": "Мухаммад",
+                "tr": "Muhammed",
+                "ur": "محمد",
+                "zh": "穆罕默德"
+              },
+              "word": "مُحَمَّدُ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইবনে",
+                "de": "Sohn von",
+                "en": "son of",
+                "es": "hijo de",
+                "fa": "بن",
+                "fr": "fils de",
+                "id": "bin/putra",
+                "ru": "ибн/сын",
+                "tr": "bin/oğlu",
+                "ur": "بن",
+                "zh": "之子"
+              },
+              "word": "بْنُ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইয়াহইয়া",
+                "de": "Yahya",
+                "en": "Yahya",
+                "es": "Yahya",
+                "fa": "یحیی",
+                "fr": "Yahya",
+                "id": "Yahya",
+                "ru": "Яхья",
+                "tr": "Yahya",
+                "ur": "یحییٰ",
+                "zh": "叶海亚"
+              },
+              "word": "يَحْيَى"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "এবং অন্যরা",
+                "de": "und andere",
+                "en": "and others",
+                "es": "y otros",
+                "fa": "و غیر او",
+                "fr": "et d'autres",
+                "id": "dan lainnya",
+                "ru": "и другие",
+                "tr": "ve diğerleri",
+                "ur": "اور دیگر",
+                "zh": "及其他人"
+              },
+              "word": "وَغَيْرُهُ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "থেকে",
+                "de": "von",
+                "en": "from",
+                "es": "de",
+                "fa": "از",
+                "fr": "de",
+                "id": "dari",
+                "ru": "от",
+                "tr": "-den",
+                "ur": "سے",
+                "zh": "从"
+              },
+              "word": "عَنْ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "মুহাম্মাদ",
+                "de": "Muhammad",
+                "en": "Muhammad",
+                "es": "Muhammad",
+                "fa": "محمد",
+                "fr": "Muhammad",
+                "id": "Muhammad",
+                "ru": "Мухаммад",
+                "tr": "Muhammed",
+                "ur": "محمد",
+                "zh": "穆罕默德"
+              },
+              "word": "مُحَمَّدِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইবনে",
+                "de": "Sohn von",
+                "en": "son of",
+                "es": "hijo de",
+                "fa": "بن",
+                "fr": "fils de",
+                "id": "bin/putra",
+                "ru": "ибн/сын",
+                "tr": "bin/oğlu",
+                "ur": "بن",
+                "zh": "之子"
+              },
+              "word": "بْنِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আহমাদ",
+                "de": "Ahmad",
+                "en": "Ahmad",
+                "es": "Ahmad",
+                "fa": "احمد",
+                "fr": "Ahmad",
+                "id": "Ahmad",
+                "ru": "Ахмад",
+                "tr": "Ahmed",
+                "ur": "احمد",
+                "zh": "艾哈迈德"
+              },
+              "word": "أَحْمَدَ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "থেকে",
+                "de": "von",
+                "en": "from",
+                "es": "de",
+                "fa": "از",
+                "fr": "de",
+                "id": "dari",
+                "ru": "от",
+                "tr": "-den",
+                "ur": "سے",
+                "zh": "从"
+              },
+              "word": "عَنِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আল-হাসান",
+                "de": "al-Hasan",
+                "en": "al-Hasan",
+                "es": "al-Hasan",
+                "fa": "الحسن",
+                "fr": "al-Hasan",
+                "id": "Al-Hasan",
+                "ru": "аль-Хасан",
+                "tr": "el-Hasan",
+                "ur": "الحسن",
+                "zh": "哈桑"
+              },
+              "word": "الْحَسَنِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইবনে",
+                "de": "Sohn von",
+                "en": "son of",
+                "es": "hijo de",
+                "fa": "بن",
+                "fr": "fils de",
+                "id": "bin/putra",
+                "ru": "ибн/сын",
+                "tr": "bin/oğlu",
+                "ur": "بن",
+                "zh": "之子"
+              },
+              "word": "بْنِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আল-হুসাইন",
+                "de": "al-Husayn",
+                "en": "al-Husayn",
+                "es": "al-Husayn",
+                "fa": "الحسین",
+                "fr": "al-Husayn",
+                "id": "Al-Husain",
+                "ru": "аль-Хусайн",
+                "tr": "el-Hüseyin",
+                "ur": "الحسین",
+                "zh": "侯赛因"
+              },
+              "word": "الْحُسَيْنِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আল-লু'লু'ই",
+                "de": "al-Lu'lu'i",
+                "en": "al-Lu'lu'i",
+                "es": "al-Lu'lu'i",
+                "fa": "اللؤلؤی",
+                "fr": "al-Lu'lu'i",
+                "id": "al-Lu'lu'i",
+                "ru": "аль-Лу'лу'и",
+                "tr": "el-Lü'lü'î",
+                "ur": "اللؤلؤی",
+                "zh": "鲁鲁伊"
+              },
+              "word": "اللُّؤْلُؤِيِّ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "তার সনদে",
+                "de": "durch seine Überliefererkette",
+                "en": "by his chain",
+                "es": "por su cadena",
+                "fa": "به اسنادش",
+                "fr": "par sa chaîne",
+                "id": "dengan isnadnya",
+                "ru": "по его иснаду",
+                "tr": "isnadıyla",
+                "ur": "اپنی سند کے ساتھ",
+                "zh": "凭其传述链"
+              },
+              "word": "بِإِسْنَادِهِ"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "বলেছেন",
+                "de": "sagte",
+                "en": "he said",
+                "es": "dijo",
+                "fa": "گفت",
+                "fr": "a dit",
+                "id": "berkata",
+                "ru": "сказал",
+                "tr": "dedi",
+                "ur": "اس نے کہا",
+                "zh": "他说"
+              },
+              "word": "قَالَ"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "বলেছেন",
+                "de": "sagte",
+                "en": "said",
+                "es": "dijo",
+                "fa": "فرمود",
+                "fr": "a dit",
+                "id": "bersabda",
+                "ru": "сказал",
+                "tr": "buyurdu",
+                "ur": "فرمایا",
+                "zh": "说道"
+              },
+              "word": "قَالَ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আবু (পিতা)",
+                "de": "Abu (Vater von)",
+                "en": "Abu (father of)",
+                "es": "Abu (padre de)",
+                "fa": "ابو (پدر)",
+                "fr": "Abu (père de)",
+                "id": "Abu (ayah dari)",
+                "ru": "Абу (отец)",
+                "tr": "Ebu (babası)",
+                "ur": "ابو (والد)",
+                "zh": "阿布（之父）"
+              },
+              "word": "أَبُو"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "বান্দা",
+                "de": "Diener von",
+                "en": "servant of",
+                "es": "siervo de",
+                "fa": "بنده",
+                "fr": "serviteur de",
+                "id": "hamba",
+                "ru": "раб",
+                "tr": "kulu",
+                "ur": "بندہ",
+                "zh": "仆人"
+              },
+              "word": "عَبْدِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আল্লাহ",
+                "de": "Gott/Allah",
+                "en": "God",
+                "es": "Dios/Allah",
+                "fa": "خدا",
+                "fr": "Dieu/Allah",
+                "id": "Allah",
+                "ru": "Аллах",
+                "tr": "Allah",
+                "ur": "اللہ",
+                "zh": "安拉/真主"
+              },
+              "word": "اللَّهِ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "তাঁর উপর",
+                "de": "auf ihm",
+                "en": "upon him",
+                "es": "sobre él",
+                "fa": "بر او",
+                "fr": "sur lui",
+                "id": "atasnya",
+                "ru": "на нём",
+                "tr": "ona",
+                "ur": "اس پر",
+                "zh": "在他之上"
+              },
+              "word": "عَلَيْهِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "শান্তি",
+                "de": "Friede",
+                "en": "peace",
+                "es": "paz",
+                "fa": "سلام",
+                "fr": "paix",
+                "id": "salam/kedamaian",
+                "ru": "мир",
+                "tr": "selam",
+                "ur": "سلام",
+                "zh": "平安"
+              },
+              "word": "السَّلَامُ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "পানি",
+                "de": "das Wasser",
+                "en": "the water",
+                "es": "el agua",
+                "fa": "آب",
+                "fr": "l'eau",
+                "id": "air",
+                "ru": "вода",
+                "tr": "su",
+                "ur": "پانی",
+                "zh": "水"
+              },
+              "word": "الْمَاءُ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "সমস্তটাই",
+                "de": "alles davon",
+                "en": "all of it",
+                "es": "todo él",
+                "fa": "همه‌اش",
+                "fr": "tout entier",
+                "id": "semuanya",
+                "ru": "всё оно",
+                "tr": "tamamı/hepsi",
+                "ur": "سب کا سب",
+                "zh": "全部"
+              },
+              "word": "كُلُّهُ"
+            },
+            {
+              "pos": "ADJ",
+              "translation": {
+                "bn": "পবিত্র",
+                "de": "rein/sauber",
+                "en": "pure/clean",
+                "es": "puro/limpio",
+                "fa": "پاک",
+                "fr": "pur/propre",
+                "id": "suci/bersih",
+                "ru": "чистый",
+                "tr": "temiz/pak",
+                "ur": "پاک",
+                "zh": "纯净的/洁净的"
+              },
+              "word": "طَاهِرٌ"
+            },
+            {
+              "pos": "CONJ",
+              "translation": {
+                "bn": "যতক্ষণ না",
+                "de": "bis",
+                "en": "until/unless",
+                "es": "hasta que",
+                "fa": "تا",
+                "fr": "jusqu'à ce que",
+                "id": "hingga/sampai",
+                "ru": "пока не",
+                "tr": "ta ki/kadar",
+                "ur": "یہاں تک کہ/جب تک",
+                "zh": "直到"
+              },
+              "word": "حَتَّى"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "জানা যায়",
+                "de": "es gewusst wird",
+                "en": "it is known",
+                "es": "se sepa",
+                "fa": "دانسته شود",
+                "fr": "on sache",
+                "id": "diketahui",
+                "ru": "не станет известно",
+                "tr": "bilinene kadar",
+                "ur": "معلوم ہو",
+                "zh": "被知晓"
+              },
+              "word": "يُعْلَمَ"
+            },
+            {
+              "pos": "PART",
+              "translation": {
+                "bn": "যে এটি",
+                "de": "dass es",
+                "en": "that it",
+                "es": "que es",
+                "fa": "که آن",
+                "fr": "qu'il est",
+                "id": "bahwasanya ia",
+                "ru": "что оно",
+                "tr": "onun",
+                "ur": "کہ یہ",
+                "zh": "它"
+              },
+              "word": "أَنَّهُ"
+            },
+            {
+              "pos": "ADJ",
+              "translation": {
+                "bn": "অপবিত্র/নোংরা",
+                "de": "unrein/schmutzig",
+                "en": "impure/dirty",
+                "es": "impuro/sucio",
+                "fa": "نجس",
+                "fr": "impur/sale",
+                "id": "najis/kotor",
+                "ru": "нечистый/грязный",
+                "tr": "kirli/necis",
+                "ur": "ناپاک/نجس",
+                "zh": "污秽的/不洁的"
+              },
+              "word": "قَذِرٌ"
+            }
+          ]
+        },
         "gradings": [
           "Allamah Baqir al-Majlisi: <span> مرسل   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (3/5)"
         ],
@@ -560,6 +1333,881 @@
         }
       },
       {
+        "ai": {
+          "ai_attribution": {
+            "generated_date": "2026-02-28",
+            "model": "claude-sonnet-4-6",
+            "pipeline_version": "2.0.0"
+          },
+          "chunks": [
+            {
+              "chunk_type": "isnad",
+              "translations": {
+                "bn": "মুহাম্মাদ ইবন ইয়াহইয়া, মুহাম্মাদ ইবন আল-হুসাইন থেকে, তিনি আবু দাউদ আল-মুনশিদ থেকে, তিনি জাফর ইবন মুহাম্মাদ থেকে, তিনি ইউনুস থেকে, তিনি হাম্মাদ ইবন উসমান থেকে, তিনি আবু আবদিল্লাহ (আলাইহিস সালাম) থেকে বর্ণনা করেন যে তিনি বলেছেন:",
+                "de": "Muhammad ibn Yahya, von Muhammad ibn al-Husayn, von Abu Dawud al-Munshid, von Ja'far ibn Muhammad, von Yunus, von Hammad ibn Uthman, von Abu Abdillah (Friede sei mit ihm), der sagte:",
+                "en": "Muhammad ibn Yahya, from Muhammad ibn al-Husayn, from Abu Dawud al-Munshid, from Ja'far ibn Muhammad, from Yunus, from Hammad ibn Uthman, from Abu Abdillah (peace be upon him) who said:",
+                "es": "Muhammad ibn Yahya, de Muhammad ibn al-Husayn, de Abu Dawud al-Munshid, de Ja'far ibn Muhammad, de Yunus, de Hammad ibn Uthman, de Abu Abdillah (la paz sea con el) quien dijo:",
+                "fa": "محمد بن یحیی، از محمد بن الحسین، از ابو داود المنشد، از جعفر بن محمد، از یونس، از حماد بن عثمان، از ابو عبدالله (علیه السلام) روایت کرد که فرمود:",
+                "fr": "Muhammad ibn Yahya, de Muhammad ibn al-Husayn, d'Abu Dawud al-Munshid, de Ja'far ibn Muhammad, de Yunus, de Hammad ibn Uthman, d'Abu Abdillah (paix sur lui) qui dit :",
+                "id": "Muhammad bin Yahya, dari Muhammad bin al-Husayn, dari Abu Dawud al-Munshid, dari Ja'far bin Muhammad, dari Yunus, dari Hammad bin Utsman, dari Abu Abdillah (alaihissalam) yang bersabda:",
+                "ru": "Мухаммад ибн Яхья — от Мухаммада ибн аль-Хусейна — от Абу Дауда аль-Мунширда — от Джафара ибн Мухаммада — от Юнуса — от Хаммада ибн Усмана — от Абу Абдиллаха (мир ему), который сказал:",
+                "tr": "Muhammed b. Yahya'dan, o Muhammed b. el-Huseyin'den, o Ebu Davud el-Munshid'den, o Ca'fer b. Muhammed'den, o Yunus'tan, o Hammad b. Osman'dan, o da Ebu Abdillah'tan (aleyhisselam) nakletti; soyle buyurdu:",
+                "ur": "محمد بن یحییٰ نے، محمد بن الحسین سے، انہوں نے ابو داؤد المنشد سے، انہوں نے جعفر بن محمد سے، انہوں نے یونس سے، انہوں نے حماد بن عثمان سے، اور انہوں نے ابو عبداللہ (علیہ السلام) سے روایت کی کہ آپ نے فرمایا:",
+                "zh": "穆罕默德·本·叶海亚，从穆罕默德·本·侯赛因，从阿布·达乌德·蒙希德，从贾法尔·本·穆罕默德，从尤努斯，从哈马德·本·奥斯曼，从阿布·阿卜杜拉（愿主赐他平安）传述，他说："
+              },
+              "word_end": 28,
+              "word_start": 0
+            },
+            {
+              "chunk_type": "body",
+              "translations": {
+                "bn": "'সমস্ত পানি পবিত্র যতক্ষণ না জানা যায় যে তা অপবিত্র।'",
+                "de": "'Alles Wasser ist rein, bis bekannt wird, dass es unrein ist.'",
+                "en": "'All water is pure until one knows that it is impure.'",
+                "es": "'Toda el agua es pura hasta que se sepa que es impura.'",
+                "fa": "«آب، همه‌اش پاک است تا آنکه دانسته شود که نجس است.»",
+                "fr": "Toute l'eau est pure jusqu'a ce que l'on sache qu'elle est impure.",
+                "id": "'Semua air adalah suci hingga diketahui bahwa ia najis.'",
+                "ru": "«Вся вода является чистой, пока не станет известно, что она нечистая».",
+                "tr": "'Suyun tamami, onun pis oldugu bilinene kadar temizdir.'",
+                "ur": "'تمام پانی پاک ہے یہاں تک کہ معلوم ہو جائے کہ وہ نجس ہے۔'",
+                "zh": "「所有的水都是洁净的，直到确知它是不洁的为止。」"
+              },
+              "word_end": 35,
+              "word_start": 28
+            }
+          ],
+          "content_type": "legal_ruling",
+          "diacritics_changes": [],
+          "diacritics_status": "validated",
+          "isnad_matn": {
+            "has_chain": true,
+            "isnad_ar": "مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ عَنْ أَبِي دَاوُدَ الْمُنْشِدِ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ يُونُسَ عَنْ حَمَّادِ بْنِ عُثْمَانَ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "matn_ar": "الْمَاءُ كُلُّهُ طَاهِرٌ حَتَّى يُعْلَمَ أَنَّهُ قَذِرٌ .",
+            "narrators": [
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Muhammad ibn Yahya al-Attar al-Qummi, a prominent hadith transmitter and student of Imam al-Hasan al-Askari (AS)",
+                "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+                "name_en": "Muhammad ibn Yahya",
+                "position": 1,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 3,
+                    "word_start": 0
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": "Several narrators share this name; most likely Muhammad ibn al-Husayn ibn Abi al-Khattab al-Zayyat",
+                "identity_confidence": "likely",
+                "known_identity": "Muhammad ibn al-Husayn ibn Abi al-Khattab, a reliable transmitter in the chains of al-Kafi",
+                "name_ar": "مُحَمَّدُ بْنُ الْحُسَيْنِ",
+                "name_en": "Muhammad ibn al-Husayn",
+                "position": 2,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 7,
+                    "word_start": 4
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": "The epithet al-Munshid (the reciter/chanter) is unusual; little biographical data available for this narrator",
+                "identity_confidence": "ambiguous",
+                "known_identity": null,
+                "name_ar": "أَبُو دَاوُدَ الْمُنْشِدُ",
+                "name_en": "Abu Dawud al-Munshid",
+                "position": 3,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 11,
+                    "word_start": 8
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": "Common name; could be Ja'far ibn Muhammad ibn Ubaydallah or another transmitter in this chain",
+                "identity_confidence": "ambiguous",
+                "known_identity": null,
+                "name_ar": "جَعْفَرُ بْنُ مُحَمَّدٍ",
+                "name_en": "Ja'far ibn Muhammad",
+                "position": 4,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 15,
+                    "word_start": 12
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": "Likely Yunus ibn Abd al-Rahman, a prominent companion of Imam al-Sadiq and al-Ridha (peace be upon them)",
+                "identity_confidence": "likely",
+                "known_identity": "Yunus ibn Abd al-Rahman, one of the most reliable narrators in the Shia tradition",
+                "name_ar": "يُونُسُ",
+                "name_en": "Yunus",
+                "position": 5,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 17,
+                    "word_start": 16
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Hammad ibn Uthman al-Nab, a reliable companion of Imam al-Sadiq (AS) and an important transmitter of hadith",
+                "name_ar": "حَمَّادُ بْنُ عُثْمَانَ",
+                "name_en": "Hammad ibn Uthman",
+                "position": 6,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 21,
+                    "word_start": 18
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Imam Ja'far al-Sadiq (AS), the sixth Imam, son of Imam Muhammad al-Baqir (AS)",
+                "name_ar": "أَبُو عَبْدِ اللَّهِ",
+                "name_en": "Abu Abdillah",
+                "position": 7,
+                "role": "imam",
+                "word_ranges": [
+                  {
+                    "word_end": 25,
+                    "word_start": 22
+                  }
+                ]
+              }
+            ]
+          },
+          "key_phrases": [
+            {
+              "category": "jurisprudential_term",
+              "phrase_ar": "الْمَاءُ كُلُّهُ طَاهِرٌ",
+              "phrase_en": "all water is pure"
+            },
+            {
+              "category": "jurisprudential_term",
+              "phrase_ar": "حَتَّى يُعْلَمَ أَنَّهُ قَذِرٌ",
+              "phrase_en": "until one knows that it is impure"
+            }
+          ],
+          "key_terms": {
+            "bn": {
+              "طَاهِرٌ": "তাহির — আনুষ্ঠানিকভাবে পবিত্র",
+              "قَذِرٌ": "নাজাস (কায়ির) — আনুষ্ঠানিকভাবে অপবিত্র"
+            },
+            "de": {
+              "طَاهِرٌ": "tahir — rituell rein, der fur gultige Verehrung erforderliche Zustand",
+              "قَذِرٌ": "najas (qadhir) — rituell unrein; ein Rechtsstatus, der die Verehrung ungultig macht"
+            },
+            "en": {
+              "طَاهِرٌ": "tahir — ritually pure, in the state required for valid worship",
+              "قَذِرٌ": "najas (qadhir) — ritually impure, contaminated; a legal status that invalidates worship",
+              "يُعْلَمَ": "certain knowledge — the legal threshold for changing the presumption of purity"
+            },
+            "es": {
+              "طَاهِرٌ": "tahir — ritualmente puro, el estado requerido para el culto valido",
+              "قَذِرٌ": "nayas (qadhir) — ritualmente impuro; un estado legal que invalida el culto"
+            },
+            "fa": {
+              "طَاهِرٌ": "طاهر — پاک به لحاظ شرعی",
+              "قَذِرٌ": "نجس (قذر) — ناپاک به لحاظ شرعی"
+            },
+            "fr": {
+              "طَاهِرٌ": "tahir — rituellement pur, l'etat requis pour un culte valide",
+              "قَذِرٌ": "najas (qadhir) — rituellement impur ; un statut legal qui invalide le culte"
+            },
+            "id": {
+              "طَاهِرٌ": "tahir — suci secara ritual, kondisi yang diperlukan untuk ibadah yang sah",
+              "قَذِرٌ": "najis (qadhir) — najis secara ritual; status hukum yang membatalkan ibadah"
+            },
+            "ru": {
+              "طَاهِرٌ": "тахир — ритуально чистый",
+              "قَذِرٌ": "наджас (казир) — ритуально нечистый"
+            },
+            "tr": {
+              "طَاهِرٌ": "tahir — ritual acisindan temiz, gecerli ibadet icin gerekli durum",
+              "قَذِرٌ": "necis (kazir) — ritual acisindan kirli; ibadeti gecersiz kilan hukuki bir statu"
+            },
+            "ur": {
+              "طَاهِرٌ": "طاہر — شرعاً پاک، عبادت کے لیے درکار حالت",
+              "قَذِرٌ": "نجس (قذر) — شرعاً ناپاک"
+            },
+            "zh": {
+              "طَاهِرٌ": "塔希尔（tahir）——礼仪上的洁净",
+              "قَذِرٌ": "纳扎斯（najas）——礼仪上的不洁"
+            }
+          },
+          "related_quran": [
+            {
+              "ref": "8:11",
+              "relationship": "thematic"
+            },
+            {
+              "ref": "25:48",
+              "relationship": "thematic"
+            }
+          ],
+          "seo_questions": {
+            "bn": "ইমাম আল-সাদিকের মতে ইসলামে পানির পবিত্রতা সম্পর্কে কী বলা হয়েছে?",
+            "de": "Was sagt der Islam uber die Reinheit des Wassers laut Imam al-Sadiq?",
+            "en": "What does Islam say about the purity of water according to Imam al-Sadiq?",
+            "es": "Que dice el Islam sobre la pureza del agua segun el Imam al-Sadiq?",
+            "fa": "از دیدگاه امام صادق، حکم طهارت آب در اسلام چیست؟",
+            "fr": "Que dit l'islam sur la purete de l'eau selon l'Imam al-Sadiq ?",
+            "id": "Apa yang dikatakan Islam tentang kesucian air menurut Imam al-Sadiq?",
+            "ru": "Что ислам говорит о чистоте воды согласно Имаму аль-Садыку?",
+            "tr": "Imam Sadik'a gore Islam'da suyun temizligi hakkinda ne denir?",
+            "ur": "امام صادق کے مطابق اسلام میں پانی کی پاکیزگی کے بارے میں کیا حکم ہے؟",
+            "zh": "根据萨迪克伊玛目，伊斯兰教对水的洁净有何规定？"
+          },
+          "similar_content_hints": [
+            {
+              "description": "A hadith from the same chapter or neighboring chapters in al-Kafi establishing that the default state of substances is purity unless proven otherwise, forming part of the broader discussion on water and ritual cleanliness.",
+              "theme": "presumption_of_purity"
+            },
+            {
+              "description": "A narration in al-Kafi or Tahdhib al-Ahkam discussing specific circumstances that render water impure (najas), such as contact with blood, urine, or other impurities, complementing this general principle.",
+              "theme": "water_impurity_conditions"
+            },
+            {
+              "description": "A hadith from the Prophet (PBUH) or the Imams establishing the jurisprudential principle that certainty is not overridden by doubt (al-yaqin la yuzal bil-shakk), of which this ruling on water purity is a particular application.",
+              "theme": "yaqin_and_shakk_principle"
+            }
+          ],
+          "summaries": {
+            "bn": "এই হাদিসটি ইসলামি ফিকহের একটি মৌলিক নীতি প্রতিষ্ঠা করে: পানির পবিত্রতার অনুমান। ইমাম আল-সাদিক (আ.) শিক্ষা দিয়েছেন যে পানি যতক্ষণ না দূষণের নিশ্চিত জ্ঞান পাওয়া যায়، পবিত্র বলে গণ্য হবে।",
+            "de": "Dieser Hadith legt eines der grundlegenden Prinzipien der islamischen Rechtswissenschaft fest: die Vermutung der rituellen Reinheit (tahara) von Wasser. Imam al-Sadiq (AS) lehrte, dass Wasser in seinem naturlichen Zustand als rituell rein gilt, solange keine sichere Kenntnis einer Verunreinigung vorliegt.",
+            "en": "This hadith establishes one of the foundational principles of Islamic jurisprudence: the presumption of purity (tahara) for water. Imam al-Sadiq (AS) taught that water in its natural state is considered ritually clean unless there is definite knowledge of contamination. This ruling provided the Shia Muslim community with a practical legal principle rooted in the broader jurisprudential maxim that certainty is not overturned by doubt.",
+            "es": "Este hadith establece uno de los principios fundamentales de la jurisprudencia islamica: la presuncion de pureza (tahara) del agua. El Imam al-Sadiq (AS) enseno que el agua en su estado natural se considera ritualmente pura a menos que haya conocimiento certero de contaminacion.",
+            "fa": "این حدیث یکی از اصول بنیادی فقه اسلامی را بیان می‌کند: اصل طهارت آب. امام صادق (علیه السلام) آموخت که آب تا زمانی که نجاست آن ثابت نشود، پاک شمرده می‌شود.",
+            "fr": "Ce hadith etablit l'un des principes fondamentaux de la jurisprudence islamique : la presomption de purete (tahara) de l'eau. L'Imam al-Sadiq (AS) a enseigne que l'eau dans son etat naturel est consideree comme rituellement pure a moins qu'il n'existe une connaissance certaine de sa contamination.",
+            "id": "Hadits ini menetapkan salah satu prinsip dasar fikih Islam: asas kesucian (tahara) air. Imam al-Sadiq (AS) mengajarkan bahwa air dalam keadaan alaminya dianggap suci secara ritual kecuali ada pengetahuan pasti tentang pencemarannya.",
+            "ru": "Данный хадис закрепляет один из основополагающих принципов исламского права: презумпцию ритуальной чистоты (тахара) воды.",
+            "tr": "Bu hadis, Islam fikhinın temel prensiplerinden birini ortaya koymaktadir: su icin taharet (temizlik) karinesi. Imam Sadik (a.s.), suyun dogal halinde, kirliligine dair kesin bir bilgi edinilene kadar ritual acisindan temiz kabul edilecegini ogretmistir.",
+            "ur": "یہ حدیث اسلامی فقہ کے بنیادی اصولوں میں سے ایک کو بیان کرتی ہے: پانی کی طہارت کی اصل۔ امام صادق (علیہ السلام) نے تعلیم دی کہ پانی اپنی فطری حالت میں اس وقت تک پاک سمجھا جائے گا جب تک یقینی طور پر اس کی نجاست معلوم نہ ہو جائے۔",
+            "zh": "这段圣训确立了伊斯兰法学的基本原则之一：水的洁净推定（塔哈拉）。萨迪克伊玛目（愿主赐他平安）教导说，水在其自然状态下被视为礼仪上的洁净，除非确知其受到污染。"
+          },
+          "tags": [
+            "jurisprudence",
+            "worship"
+          ],
+          "topics": [
+            "ritual_purity",
+            "halal_haram",
+            "salat"
+          ],
+          "word_analysis": [
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "মুহাম্মাদ",
+                "de": "Muhammad",
+                "en": "Muhammad",
+                "es": "Muhammad",
+                "fa": "محمد",
+                "fr": "Muhammad",
+                "id": "Muhammad",
+                "ru": "Мухаммад",
+                "tr": "Muhammed",
+                "ur": "محمد",
+                "zh": "穆罕默德"
+              },
+              "word": "مُحَمَّدُ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইবন",
+                "de": "Sohn von",
+                "en": "son of",
+                "es": "hijo de",
+                "fa": "پسر",
+                "fr": "fils de",
+                "id": "bin",
+                "ru": "сын",
+                "tr": "oğlu",
+                "ur": "بن",
+                "zh": "之子"
+              },
+              "word": "بْنُ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইয়াহইয়া",
+                "de": "Yahya",
+                "en": "Yahya",
+                "es": "Yahya",
+                "fa": "یحیی",
+                "fr": "Yahya",
+                "id": "Yahya",
+                "ru": "Яхья",
+                "tr": "Yahya",
+                "ur": "یحییٰ",
+                "zh": "叶海亚"
+              },
+              "word": "يَحْيَى"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "থেকে",
+                "de": "von",
+                "en": "from",
+                "es": "de",
+                "fa": "از",
+                "fr": "de",
+                "id": "dari",
+                "ru": "от",
+                "tr": "dan",
+                "ur": "سے",
+                "zh": "从"
+              },
+              "word": "عَنْ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "মুহাম্মাদ",
+                "de": "Muhammad",
+                "en": "Muhammad",
+                "es": "Muhammad",
+                "fa": "محمد",
+                "fr": "Muhammad",
+                "id": "Muhammad",
+                "ru": "Мухаммада",
+                "tr": "Muhammed",
+                "ur": "محمد",
+                "zh": "穆罕默德"
+              },
+              "word": "مُحَمَّدِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইবন",
+                "de": "Sohn von",
+                "en": "son of",
+                "es": "hijo de",
+                "fa": "پسر",
+                "fr": "fils de",
+                "id": "bin",
+                "ru": "сына",
+                "tr": "oğlu",
+                "ur": "بن",
+                "zh": "之子"
+              },
+              "word": "بْنِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আল-হুসাইন",
+                "de": "al-Husayn",
+                "en": "al-Husayn",
+                "es": "al-Husayn",
+                "fa": "الحسین",
+                "fr": "al-Husayn",
+                "id": "al-Husayn",
+                "ru": "аль-Хусейна",
+                "tr": "el-Hüseyin",
+                "ur": "الحسین",
+                "zh": "侯赛因"
+              },
+              "word": "الْحُسَيْنِ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "থেকে",
+                "de": "von",
+                "en": "from",
+                "es": "de",
+                "fa": "از",
+                "fr": "de",
+                "id": "dari",
+                "ru": "от",
+                "tr": "dan",
+                "ur": "سے",
+                "zh": "从"
+              },
+              "word": "عَنْ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আবু",
+                "de": "Abu",
+                "en": "Abu",
+                "es": "Abu",
+                "fa": "ابو",
+                "fr": "Abu",
+                "id": "Abu",
+                "ru": "Абу",
+                "tr": "Ebu",
+                "ur": "ابو",
+                "zh": "阿布"
+              },
+              "word": "أَبِي"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "দাউদ",
+                "de": "Dawud",
+                "en": "Dawud",
+                "es": "Dawud",
+                "fa": "داود",
+                "fr": "Dawud",
+                "id": "Dawud",
+                "ru": "Дауда",
+                "tr": "Davud",
+                "ur": "داؤد",
+                "zh": "达乌德"
+              },
+              "word": "دَاوُدَ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আল-মুনশিদ",
+                "de": "al-Munshid",
+                "en": "al-Munshid",
+                "es": "al-Munshid",
+                "fa": "المنشد",
+                "fr": "al-Munshid",
+                "id": "al-Munshid",
+                "ru": "аль-Мунширда",
+                "tr": "el-Münşid",
+                "ur": "المنشد",
+                "zh": "蒙希德"
+              },
+              "word": "الْمُنْشِدِ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "থেকে",
+                "de": "von",
+                "en": "from",
+                "es": "de",
+                "fa": "از",
+                "fr": "de",
+                "id": "dari",
+                "ru": "от",
+                "tr": "dan",
+                "ur": "سے",
+                "zh": "从"
+              },
+              "word": "عَنْ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "জাফর",
+                "de": "Ja'far",
+                "en": "Ja'far",
+                "es": "Ja'far",
+                "fa": "جعفر",
+                "fr": "Ja'far",
+                "id": "Ja'far",
+                "ru": "Джафара",
+                "tr": "Ca'fer",
+                "ur": "جعفر",
+                "zh": "贾法尔"
+              },
+              "word": "جَعْفَرِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইবন",
+                "de": "Sohn von",
+                "en": "son of",
+                "es": "hijo de",
+                "fa": "پسر",
+                "fr": "fils de",
+                "id": "bin",
+                "ru": "сына",
+                "tr": "oğlu",
+                "ur": "بن",
+                "zh": "之子"
+              },
+              "word": "بْنِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "মুহাম্মাদ",
+                "de": "Muhammad",
+                "en": "Muhammad",
+                "es": "Muhammad",
+                "fa": "محمد",
+                "fr": "Muhammad",
+                "id": "Muhammad",
+                "ru": "Мухаммада",
+                "tr": "Muhammed",
+                "ur": "محمد",
+                "zh": "穆罕默德"
+              },
+              "word": "مُحَمَّدٍ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "থেকে",
+                "de": "von",
+                "en": "from",
+                "es": "de",
+                "fa": "از",
+                "fr": "de",
+                "id": "dari",
+                "ru": "от",
+                "tr": "dan",
+                "ur": "سے",
+                "zh": "从"
+              },
+              "word": "عَنْ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইউনুস",
+                "de": "Yunus",
+                "en": "Yunus",
+                "es": "Yunus",
+                "fa": "یونس",
+                "fr": "Yunus",
+                "id": "Yunus",
+                "ru": "Юнуسа",
+                "tr": "Yunus",
+                "ur": "یونس",
+                "zh": "尤努斯"
+              },
+              "word": "يُونُسَ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "থেকে",
+                "de": "von",
+                "en": "from",
+                "es": "de",
+                "fa": "از",
+                "fr": "de",
+                "id": "dari",
+                "ru": "от",
+                "tr": "dan",
+                "ur": "سے",
+                "zh": "从"
+              },
+              "word": "عَنْ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "হাম্মাদ",
+                "de": "Hammad",
+                "en": "Hammad",
+                "es": "Hammad",
+                "fa": "حماد",
+                "fr": "Hammad",
+                "id": "Hammad",
+                "ru": "Хаммада",
+                "tr": "Hammad",
+                "ur": "حماد",
+                "zh": "哈马德"
+              },
+              "word": "حَمَّادِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইবন",
+                "de": "Sohn von",
+                "en": "son of",
+                "es": "hijo de",
+                "fa": "پسر",
+                "fr": "fils de",
+                "id": "bin",
+                "ru": "сына",
+                "tr": "oğlu",
+                "ur": "بن",
+                "zh": "之子"
+              },
+              "word": "بْنِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "উসমান",
+                "de": "Uthman",
+                "en": "Uthman",
+                "es": "Uthman",
+                "fa": "عثمان",
+                "fr": "Uthman",
+                "id": "Uthman",
+                "ru": "Усмана",
+                "tr": "Osman",
+                "ur": "عثمان",
+                "zh": "奥斯曼"
+              },
+              "word": "عُثْمَانَ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "থেকে",
+                "de": "von",
+                "en": "from",
+                "es": "de",
+                "fa": "از",
+                "fr": "de",
+                "id": "dari",
+                "ru": "от",
+                "tr": "dan",
+                "ur": "سے",
+                "zh": "从"
+              },
+              "word": "عَنْ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আবু",
+                "de": "Abu",
+                "en": "Abu",
+                "es": "Abu",
+                "fa": "ابو",
+                "fr": "Abu",
+                "id": "Abu",
+                "ru": "Абу",
+                "tr": "Ebu",
+                "ur": "ابو",
+                "zh": "阿布"
+              },
+              "word": "أَبِي"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আবদ",
+                "de": "Abd",
+                "en": "Abd",
+                "es": "Abd",
+                "fa": "عبد",
+                "fr": "Abd",
+                "id": "Abd",
+                "ru": "Абд",
+                "tr": "Abd",
+                "ur": "عبد",
+                "zh": "阿卜德"
+              },
+              "word": "عَبْدِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আল্লাহ",
+                "de": "Allah",
+                "en": "Allah",
+                "es": "Allah",
+                "fa": "الله",
+                "fr": "Allah",
+                "id": "Allah",
+                "ru": "Аллаха",
+                "tr": "Allah",
+                "ur": "اللہ",
+                "zh": "安拉"
+              },
+              "word": "اللَّهِ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "আলাইহি",
+                "de": "auf ihm",
+                "en": "upon him",
+                "es": "sobre el",
+                "fa": "علیه",
+                "fr": "sur lui",
+                "id": "alaihissalam",
+                "ru": "мир ему",
+                "tr": "aleyhisselam",
+                "ur": "علیہ",
+                "zh": "祈主赐他平安"
+              },
+              "word": "عَلَيْهِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আস-সালাম",
+                "de": "der Friede",
+                "en": "peace",
+                "es": "la paz",
+                "fa": "السلام",
+                "fr": "la paix",
+                "id": "as-salam",
+                "ru": "мир",
+                "tr": "selam",
+                "ur": "السلام",
+                "zh": "平安"
+              },
+              "word": "السَّلَامُ"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "বলেছেন",
+                "de": "sagte",
+                "en": "said",
+                "es": "dijo",
+                "fa": "فرمود",
+                "fr": "dit",
+                "id": "berkata",
+                "ru": "сказал",
+                "tr": "dedi",
+                "ur": "فرمایا",
+                "zh": "说"
+              },
+              "word": "قَالَ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "পানি",
+                "de": "das Wasser",
+                "en": "water",
+                "es": "el agua",
+                "fa": "آب",
+                "fr": "l'eau",
+                "id": "air",
+                "ru": "вода",
+                "tr": "su",
+                "ur": "پانی",
+                "zh": "水"
+              },
+              "word": "الْمَاءُ"
+            },
+            {
+              "pos": "DET",
+              "translation": {
+                "bn": "সবটাই",
+                "de": "alles davon",
+                "en": "all of it",
+                "es": "todo ello",
+                "fa": "همه‌اش",
+                "fr": "tout entier",
+                "id": "semuanya",
+                "ru": "всё оно",
+                "tr": "hepsi",
+                "ur": "سب",
+                "zh": "全部"
+              },
+              "word": "كُلُّهُ"
+            },
+            {
+              "pos": "ADJ",
+              "translation": {
+                "bn": "পবিত্র",
+                "de": "rein",
+                "en": "pure (tahir)",
+                "es": "puro",
+                "fa": "پاک",
+                "fr": "pur",
+                "id": "suci",
+                "ru": "чистым",
+                "tr": "temiz",
+                "ur": "پاک",
+                "zh": "洁净的"
+              },
+              "word": "طَاهِرٌ"
+            },
+            {
+              "pos": "CONJ",
+              "translation": {
+                "bn": "যতক্ষণ না",
+                "de": "bis",
+                "en": "until",
+                "es": "hasta que",
+                "fa": "تا اینکه",
+                "fr": "jusqu'a ce que",
+                "id": "hingga",
+                "ru": "пока",
+                "tr": "ta ki",
+                "ur": "یہاں تک کہ",
+                "zh": "直到"
+              },
+              "word": "حَتَّى"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "জানা যায়",
+                "de": "bekannt wird",
+                "en": "it is known",
+                "es": "se sepa",
+                "fa": "دانسته شود",
+                "fr": "on sache",
+                "id": "diketahui",
+                "ru": "станет известно",
+                "tr": "bilinene kadar",
+                "ur": "معلوم ہو",
+                "zh": "得知"
+              },
+              "word": "يُعْلَمَ"
+            },
+            {
+              "pos": "CONJ",
+              "translation": {
+                "bn": "যে এটি",
+                "de": "dass es",
+                "en": "that it is",
+                "es": "que es",
+                "fa": "که آن",
+                "fr": "qu'il est",
+                "id": "bahwa ia",
+                "ru": "что оно",
+                "tr": "onun",
+                "ur": "کہ وہ",
+                "zh": "它是"
+              },
+              "word": "أَنَّهُ"
+            },
+            {
+              "pos": "ADJ",
+              "translation": {
+                "bn": "নাপাک",
+                "de": "unrein",
+                "en": "impure (najas)",
+                "es": "impuro",
+                "fa": "نجس",
+                "fr": "impur",
+                "id": "najis",
+                "ru": "нечистым",
+                "tr": "necis",
+                "ur": "نجس",
+                "zh": "不洁的"
+              },
+              "word": "قَذِرٌ"
+            }
+          ]
+        },
         "gradings": [
           "Allamah Baqir al-Majlisi: <span> مجهول   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (13/6)"
         ],
@@ -649,6 +2297,813 @@
         }
       },
       {
+        "ai": {
+          "ai_attribution": {
+            "generated_date": "2026-02-28",
+            "model": "claude-sonnet-4-6",
+            "pipeline_version": "2.0.0"
+          },
+          "chunks": [
+            {
+              "chunk_type": "isnad",
+              "translations": {
+                "bn": "আলী ইবনে ইব্রাহীম, মুহাম্মাদ ইবনে ঈসা থেকে, তিনি ইউনুস ইবনে আবদুর রাহমান থেকে, তিনি আবদুল্লাহ ইবনে সিনান থেকে, তিনি আবু আবদিল্লাহ আলাইহিস সালাম থেকে বর্ণনা করেছেন যে:",
+                "de": "Ali ibn Ibrahim, von Muhammad ibn Isa, von Yunus ibn Abd al-Rahman, von Abdullah ibn Sinan, von Abu Abdillah (Friede sei mit ihm), der sagte:",
+                "en": "Ali ibn Ibrahim, from Muhammad ibn Isa, from Yunus ibn Abd al-Rahman, from Abdullah ibn Sinan, from Abu Abdillah (peace be upon him), who said:",
+                "es": "Ali ibn Ibrahim, de Muhammad ibn Isa, de Yunus ibn Abd al-Rahman, de Abdullah ibn Sinan, de Abu Abdillah (la paz sea con él), narró:",
+                "fa": "علی بن ابراهیم از محمد بن عیسی، از یونس بن عبدالرحمان، از عبدالله بن سنان، از ابوعبدالله علیه السلام روایت کرده که:",
+                "fr": "Ali ibn Ibrahim, de Muhammad ibn Isa, de Yunus ibn Abd al-Rahman, d'Abdullah ibn Sinan, d'Abu Abdillah (que la paix soit sur lui), qui a dit :",
+                "id": "Ali bin Ibrahim, dari Muhammad bin Isa, dari Yunus bin Abd al-Rahman, dari Abdullah bin Sinan, dari Abu Abdillah alaihis salam, diriwayatkan:",
+                "ru": "Али ибн Ибрахим, от Мухаммада ибн Исы, от Юнуса ибн Абд ар-Рахмана, от Абдуллаха ибн Синана, от Абу Абдиллаха (мир ему), который сказал:",
+                "tr": "Ali b. İbrahim, Muhammed b. İsa'dan, o Yunus b. Abdurrahman'dan, o Abdullah b. Sinan'dan, o Ebu Abdullah (a.s.)'dan rivayetle:",
+                "ur": "علی بن ابراہیم نے محمد بن عیسیٰ سے، انہوں نے یونس بن عبد الرحمن سے، انہوں نے عبد اللہ بن سنان سے، انہوں نے ابو عبد اللہ علیہ السلام سے روایت کی:",
+                "zh": "阿里·本·易卜拉欣从穆罕默德·本·尔萨，从优努斯·本·阿卜杜拉赫曼，从阿卜杜拉·本·西南，从阿布·阿卜杜拉（愿主赐他平安）传述，他说："
+              },
+              "word_end": 24,
+              "word_start": 0
+            },
+            {
+              "chunk_type": "body",
+              "translations": {
+                "bn": "আমি তাঁকে সমুদ্রের পানি সম্পর্কে জিজ্ঞেস করলাম — এটা কি তাহুর? তিনি বললেন: হ্যাঁ।",
+                "de": "Ich fragte ihn über das Meerwasser — ist es tahur (reinigend)? Er sagte: Ja.",
+                "en": "I asked him about sea water — is it purifying (tahur)? He said: Yes.",
+                "es": "Le pregunté sobre el agua del mar, ¿es tahur (purificadora)? Respondió: Sí.",
+                "fa": "از ایشان درباره آب دریا پرسیدم که آیا طهور است؟ فرمود: بله.",
+                "fr": "Je lui ai demandé au sujet de l'eau de mer, est-elle tahur (purifiante) ? Il dit : Oui.",
+                "id": "Aku bertanya kepadanya tentang air laut, apakah ia tahur? Beliau bersabda: Ya.",
+                "ru": "Я спросил его о морской воде — является ли она тахур? Он сказал: Да.",
+                "tr": "Ona deniz suyunun tahur olup olmadığını sordum. Buyurdu ki: Evet.",
+                "ur": "میں نے ان سے سمندر کے پانی کے بارے میں سوال کیا کہ کیا یہ طہور ہے؟ آپ نے فرمایا: ہاں۔",
+                "zh": "我问他关于海水的问题——它是纯净的（塔胡尔）吗？他说：是的。"
+              },
+              "word_end": 33,
+              "word_start": 24
+            }
+          ],
+          "content_type": "legal_ruling",
+          "diacritics_changes": [
+            "Added complete tashkeel to the narrator chain: عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ مُحَمَّدِ بْنِ عِيسَى عَنْ يُونُسَ بْنِ عَبْدِ الرَّحْمَنِ عَنْ عَبْدِ اللَّهِ بْنِ سِنَانٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
+            "Added diacritics to matn: سَأَلْتُهُ عَنْ مَاءِ الْبَحْرِ أَ طَهُورٌ هُوَ قَالَ نَعَمْ"
+          ],
+          "diacritics_status": "completed",
+          "isnad_matn": {
+            "has_chain": true,
+            "isnad_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ مُحَمَّدِ بْنِ عِيسَى عَنْ يُونُسَ بْنِ عَبْدِ الرَّحْمَنِ عَنْ عَبْدِ اللَّهِ بْنِ سِنَانٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
+            "matn_ar": "سَأَلْتُهُ عَنْ مَاءِ الْبَحْرِ أَ طَهُورٌ هُوَ قَالَ نَعَمْ",
+            "narrators": [
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Ali ibn Ibrahim al-Qummi (d. early 4th century AH), prominent Shia scholar and author of Tafsir al-Qummi",
+                "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+                "name_en": "Ali ibn Ibrahim",
+                "position": 1,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 3,
+                    "word_start": 0
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": "Likely Muhammad ibn Isa ibn Ubayd al-Yaqtini, a common narrator in al-Kafi chains",
+                "identity_confidence": "likely",
+                "known_identity": "Muhammad ibn Isa ibn Ubayd al-Yaqtini",
+                "name_ar": "مُحَمَّدُ بْنُ عِيسَى",
+                "name_en": "Muhammad ibn Isa",
+                "position": 2,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 7,
+                    "word_start": 3
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Yunus ibn Abd al-Rahman al-Mawla, a highly trusted companion of Imams al-Kazim and al-Ridha (AS)",
+                "name_ar": "يُونُسُ بْنُ عَبْدِ الرَّحْمَنِ",
+                "name_en": "Yunus ibn Abd al-Rahman",
+                "position": 3,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 12,
+                    "word_start": 7
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Abdullah ibn Sinan al-Kufi, a trusted companion of Imam al-Sadiq (AS)",
+                "name_ar": "عَبْدُ اللَّهِ بْنُ سِنَانٍ",
+                "name_en": "Abdullah ibn Sinan",
+                "position": 4,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 17,
+                    "word_start": 12
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Imam Ja'far al-Sadiq (AS), the sixth Imam (d. 148 AH)",
+                "name_ar": "أَبُو عَبْدِ اللَّهِ",
+                "name_en": "Abu Abdillah",
+                "position": 5,
+                "role": "imam",
+                "word_ranges": [
+                  {
+                    "word_end": 21,
+                    "word_start": 17
+                  }
+                ]
+              }
+            ]
+          },
+          "key_phrases": [
+            {
+              "category": "jurisprudential_term",
+              "phrase_ar": "مَاءُ الْبَحْرِ",
+              "phrase_en": "sea water / ocean water"
+            }
+          ],
+          "key_terms": {
+            "bn": {
+              "طَهُور": "তাহুর — সর্বোচ্চ মাত্রার তাহারাহ, যা নিজে পবিত্র এবং অন্যকেও পবিত্র করে",
+              "مَاء الْبَحْر": "সমুদ্রের পানি — ফিকহে তাহুর হিসেবে স্বীকৃত"
+            },
+            "de": {
+              "طَهُور": "Tahur — höchster Grad der rituellen Reinheit; Wasser, das rein und reinigend ist",
+              "مَاء الْبَحْر": "Meerwasser — im islamischen Recht als tahur anerkannt"
+            },
+            "en": {
+              "طَهُور": "Tahur — the highest grade of ritual purity, water capable of purifying both itself and other things. Distinct from 'tahir' (merely pure). Sea water qualifies as tahur for wudu, ghusl, and removing najasah.",
+              "مَاء الْبَحْر": "Sea water / ocean water. Jurists debated whether the ruling extended to all large bodies of water; this hadith affirms its purifying status."
+            },
+            "es": {
+              "طَهُور": "Tahur — grado más alto de pureza ritual; agua que es pura y purificante a la vez",
+              "مَاء الْبَحْر": "Agua del mar — declarada tahur en la jurisprudencia islámica"
+            },
+            "fa": {
+              "طَهُور": "طهور — بالاترین درجه طهارت، آبی که هم خود پاک است و هم پاک‌کننده",
+              "مَاء الْبَحْر": "آب دریا — از نظر فقهی طهور شمرده می‌شود"
+            },
+            "fr": {
+              "طَهُور": "Tahur — le plus haut degré de pureté rituelle ; eau qui est pure et purifiante",
+              "مَاء الْبَحْر": "Eau de mer — déclarée tahur en jurisprudence islamique"
+            },
+            "id": {
+              "طَهُور": "Tahur — tingkat tertinggi kesucian ritual, air yang suci sekaligus menyucikan",
+              "مَاء الْبَحْر": "Air laut — secara hukum Islam ditetapkan sebagai tahur"
+            },
+            "ru": {
+              "طَهُور": "Тахур — высшая степень ритуальной чистоты; вода, которая чиста сама по себе и очищает другое",
+              "مَاء الْبَحْر": "Морская вода — признана тахур в исламском праве"
+            },
+            "tr": {
+              "طَهُور": "Tahur — ritüel saflığın en yüksek derecesi; hem kendisi pak hem de başkasını temizleme özelliğine sahip su",
+              "مَاء الْبَحْر": "Deniz suyu — fıkhi hükmü gereği mutlak anlamda tahur kabul edilir"
+            },
+            "ur": {
+              "طَهُور": "طہور — طہارت کا اعلیٰ درجہ، ایسا پانی جو خود بھی پاک ہو اور دوسری چیزوں کو بھی پاک کرے",
+              "مَاء الْبَحْر": "سمندر کا پانی — شرعی اعتبار سے طہور قرار دیا گیا"
+            },
+            "zh": {
+              "طَهُور": "塔胡尔——最高级别的礼仪纯洁；既本身洁净又能净化他物之水",
+              "مَاء الْبَحْر": "海水——在伊斯兰法学中被认定为塔胡尔"
+            }
+          },
+          "related_quran": [
+            {
+              "ref": "8:11",
+              "relationship": "thematic"
+            },
+            {
+              "ref": "25:48",
+              "relationship": "thematic"
+            }
+          ],
+          "seo_questions": {
+            "bn": "শিয়া ইসলামে সমুদ্রের পানি কি ওজুর জন্য তাহুর?",
+            "de": "Ist Meerwasser tahur und für Wudu im schiitischen Islam gültig?",
+            "en": "Is sea water (ocean water) tahur and valid for wudu in Shia Islam?",
+            "es": "¿Es el agua del mar tahur y válida para el wudu en el islam shii?",
+            "fa": "آیا آب دریا در فقه شیعه برای وضو طهور است؟",
+            "fr": "L'eau de mer est-elle tahur et valable pour le wudu en islam chiite ?",
+            "id": "Apakah air laut tahur dan sah untuk wudu dalam Islam Syiah?",
+            "ru": "Является ли морская вода тахур и пригодной для вуду в шиитском исламе?",
+            "tr": "Şii İslam'da deniz suyu abdest için tahur sayılır mı?",
+            "ur": "کیا شیعہ فقہ میں سمندر کا پانی وضو کے لیے طہور ہے؟",
+            "zh": "在什叶派伊斯兰教中，海水是塔胡尔吗？可以用于小净吗？"
+          },
+          "similar_content_hints": [
+            {
+              "description": "Hadiths about the ruling on running water (flowing rivers and streams) as tahur, establishing that large bodies of water are purifying.",
+              "theme": "water_purity_rulings"
+            },
+            {
+              "description": "Narrations from Imam al-Sadiq about the minimum amount of water (kurr) required for water to remain tahur when something najis falls into it.",
+              "theme": "water_purity_rulings"
+            },
+            {
+              "description": "Hadiths on rain water being tahur and its use in purification, establishing the category of water types that are purifying.",
+              "theme": "water_purity_rulings"
+            }
+          ],
+          "summaries": {
+            "bn": "ইমাম সাদিক (আ.)-এর কাছে একজন ছাত্র জিজ্ঞেস করলেন সমুদ্রের পানি তাহুর কিনা — অর্থাৎ ওজু ও গোসলের জন্য ব্যবহারযোগ্য কিনা। ইমামের এক-শব্দের উত্তর 'হ্যাঁ' শিয়া ফিকহে একটি মৌলিক বিধান প্রতিষ্ঠা করে: সমুদ্রের পানি নিঃশর্তভাবে তাহুর।",
+            "de": "Ein Schüler fragte Imam al-Sadiq (F), ob Meerwasser tahur sei — das heißt, ob es für Wudu und Ghusl verwendet werden kann. Die einsilbige Antwort des Imams 'Ja' legt einen grundlegenden Rechtsgrundsatz des schiitischen Fiqh fest: Meerwasser ist uneingeschränkt reinigend. Dieser Hadith wurde durch eine zuverlässige Kette überliefert, zu der Yunus ibn Abd al-Rahman und Abdullah ibn Sinan gehören.",
+            "en": "A student of Imam al-Sadiq (AS) asked whether sea water is tahur — a higher grade of ritual purity that can be used for wudu and ghusl. The Imam's single-word answer 'Yes' establishes a foundational ruling of Shia jurisprudence: ocean and sea water is absolutely purifying, regardless of its vast volume. This hadith was narrated through a strong chain including the eminent Yunus ibn Abd al-Rahman and Abdullah ibn Sinan, both trusted companions of Imam al-Sadiq.",
+            "es": "Un estudiante preguntó al Imam al-Sadiq (P) si el agua del mar es tahur — es decir, purificante y apta para el wudu y el ghusl. La respuesta monosilábica del Imam 'Sí' establece un principio jurídico fundamental en el fiqh shii: el agua del mar es absolutamente purificante. El hadith fue transmitido a través de una cadena sólida que incluye a Yunus ibn Abd al-Rahman y Abdullah ibn Sinan.",
+            "fa": "یک راوی از امام صادق علیه السلام درباره طهارت آب دریا پرسید — آیا می‌توان با آن وضو گرفت یا غسل کرد؟ پاسخ کوتاه امام 'بله' یک حکم فقهی پایه را در فقه شیعه تثبیت می‌کند: آب دریا مطلقاً طهور است. این حدیث از طریق سند معتبری از جمله یونس بن عبدالرحمان و عبدالله بن سنان روایت شده است.",
+            "fr": "Un étudiant interrogea l'Imam al-Sadiq (P) sur le statut de l'eau de mer : est-elle tahur, c'est-à-dire purifiante et utilisable pour le wudu et le ghusl ? La réponse laconique de l'Imam 'Oui' établit un principe fondamental du fiqh chiite : l'eau de mer est absolument purifiante. Ce hadith fut transmis par une chaîne solide comprenant Yunus ibn Abd al-Rahman et Abdullah ibn Sinan.",
+            "id": "Seorang murid bertanya kepada Imam al-Shadiq (a.s.) apakah air laut bersifat tahur — yaitu suci dan menyucikan — sehingga sah digunakan untuk wudu dan ghusl. Jawaban singkat Imam 'Ya' menetapkan hukum dasar dalam fikih Syiah: air laut mutlak bersifat tahur. Hadis ini diriwayatkan melalui sanad yang kuat termasuk Yunus bin Abd al-Rahman dan Abdullah bin Sinan.",
+            "ru": "Ученик спросил имама ас-Садика (мир ему), является ли морская вода тахур — то есть очищающей и пригодной для вуду и гусля. Однословный ответ имама 'Да' устанавливает основополагающее правило шиитского фикха: морская вода является абсолютно очищающей. Этот хадис передан через надёжную цепочку передатчиков, включающую Юнуса ибн Абд ар-Рахмана и Абдуллаха ибн Синана.",
+            "tr": "Bir öğrenci İmam Sadık'a (a.s.) deniz suyunun tahur, yani abdest ve gusül için kullanılabilecek kadar arındırıcı olup olmadığını sordu. İmam'ın tek kelimelik 'Evet' cevabı, Şii fıkhında temel bir hükmü ortaya koyar: Deniz suyu mutlak olarak arındırıcıdır. Bu hadis, güçlü bir senetle rivayet edilmiştir.",
+            "ur": "امام صادق علیہ السلام سے سمندر کے پانی کی طہارت کے بارے میں سوال کیا گیا کہ کیا یہ وضو اور غسل کے لیے استعمال ہو سکتا ہے۔ آپ نے صرف 'ہاں' فرما کر ایک بنیادی فقہی مسئلہ واضح کر دیا: سمندر کا پانی مطلق طور پر طہور ہے۔ یہ حدیث شیعہ فقہ میں طہارت کے باب کی اہم ترین احادیث میں سے ہے۔",
+            "zh": "一位学生向伊玛目萨迪格（愿主赐他平安）询问海水是否属于\"塔胡尔\"（طهور）——即可用于大小净的最高等级洁净水。伊玛目简洁的\"是\"字确立了什叶派法学的一条基本裁决：海水是绝对洁净的净水。这段圣训通过一条可靠的传述链传来，包括优努斯·本·阿卜杜拉赫曼和阿卜杜拉·本·西南两位可信传述者。"
+          },
+          "tags": [
+            "jurisprudence",
+            "worship"
+          ],
+          "topics": [
+            "ritual_purity",
+            "prayer_rulings"
+          ],
+          "word_analysis": [
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আলী",
+                "de": "Ali",
+                "en": "Ali",
+                "es": "Ali",
+                "fa": "علی",
+                "fr": "Ali",
+                "id": "Ali",
+                "ru": "Али",
+                "tr": "Ali",
+                "ur": "علی",
+                "zh": "阿里"
+              },
+              "word": "عَلِيُّ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইবনে",
+                "de": "Sohn von",
+                "en": "son of",
+                "es": "hijo de",
+                "fa": "بن",
+                "fr": "fils de",
+                "id": "bin/putra",
+                "ru": "ибн/сын",
+                "tr": "bin/oğlu",
+                "ur": "بن",
+                "zh": "之子"
+              },
+              "word": "بْنُ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইব্রাহীম",
+                "de": "Ibrahim",
+                "en": "Ibrahim",
+                "es": "Ibrahim",
+                "fa": "ابراهیم",
+                "fr": "Ibrahim",
+                "id": "Ibrahim",
+                "ru": "Ибрахим",
+                "tr": "İbrahim",
+                "ur": "ابراہیم",
+                "zh": "易卜拉欣"
+              },
+              "word": "إِبْرَاهِيمَ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "থেকে",
+                "de": "von",
+                "en": "from",
+                "es": "de",
+                "fa": "از",
+                "fr": "de",
+                "id": "dari",
+                "ru": "от",
+                "tr": "-den",
+                "ur": "سے",
+                "zh": "从"
+              },
+              "word": "عَنْ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "মুহাম্মাদ",
+                "de": "Muhammad",
+                "en": "Muhammad",
+                "es": "Muhammad",
+                "fa": "محمد",
+                "fr": "Muhammad",
+                "id": "Muhammad",
+                "ru": "Мухаммад",
+                "tr": "Muhammed",
+                "ur": "محمد",
+                "zh": "穆罕默德"
+              },
+              "word": "مُحَمَّدِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইবনে",
+                "de": "Sohn von",
+                "en": "son of",
+                "es": "hijo de",
+                "fa": "بن",
+                "fr": "fils de",
+                "id": "bin/putra",
+                "ru": "ибн/сын",
+                "tr": "bin/oğlu",
+                "ur": "بن",
+                "zh": "之子"
+              },
+              "word": "بْنِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ঈসা",
+                "de": "Isa",
+                "en": "Isa",
+                "es": "Isa",
+                "fa": "عیسی",
+                "fr": "Isa",
+                "id": "Isa",
+                "ru": "Иса",
+                "tr": "İsa",
+                "ur": "عیسیٰ",
+                "zh": "尔萨"
+              },
+              "word": "عِيسَى"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "থেকে",
+                "de": "von",
+                "en": "from",
+                "es": "de",
+                "fa": "از",
+                "fr": "de",
+                "id": "dari",
+                "ru": "от",
+                "tr": "-den",
+                "ur": "سے",
+                "zh": "从"
+              },
+              "word": "عَنْ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইউনুস",
+                "de": "Yunus",
+                "en": "Yunus",
+                "es": "Yunus",
+                "fa": "یونس",
+                "fr": "Yunus",
+                "id": "Yunus",
+                "ru": "Юнус",
+                "tr": "Yunus",
+                "ur": "یونس",
+                "zh": "优努斯"
+              },
+              "word": "يُونُسَ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইবনে",
+                "de": "Sohn von",
+                "en": "son of",
+                "es": "hijo de",
+                "fa": "بن",
+                "fr": "fils de",
+                "id": "bin/putra",
+                "ru": "ибн/сын",
+                "tr": "bin/oğlu",
+                "ur": "بن",
+                "zh": "之子"
+              },
+              "word": "بْنِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "বান্দা",
+                "de": "Diener von",
+                "en": "servant of",
+                "es": "siervo de",
+                "fa": "بنده",
+                "fr": "serviteur de",
+                "id": "hamba",
+                "ru": "раб",
+                "tr": "kulu",
+                "ur": "بندہ",
+                "zh": "仆人"
+              },
+              "word": "عَبْدِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "রাহমানের",
+                "de": "des Allbarmherzigen",
+                "en": "the Most Merciful",
+                "es": "el Misericordioso",
+                "fa": "رحمان",
+                "fr": "le Miséricordieux",
+                "id": "Yang Maha Pengasih",
+                "ru": "Милостивого",
+                "tr": "Rahman",
+                "ur": "رحمٰن",
+                "zh": "至仁主"
+              },
+              "word": "الرَّحْمَنِ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "থেকে",
+                "de": "von",
+                "en": "from",
+                "es": "de",
+                "fa": "از",
+                "fr": "de",
+                "id": "dari",
+                "ru": "от",
+                "tr": "-den",
+                "ur": "سے",
+                "zh": "从"
+              },
+              "word": "عَنْ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "বান্দা",
+                "de": "Diener von",
+                "en": "servant of",
+                "es": "siervo de",
+                "fa": "بنده",
+                "fr": "serviteur de",
+                "id": "hamba",
+                "ru": "раб",
+                "tr": "kulu",
+                "ur": "بندہ",
+                "zh": "仆人"
+              },
+              "word": "عَبْدِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আল্লাহ",
+                "de": "Gott/Allah",
+                "en": "Allah/God",
+                "es": "Dios/Allah",
+                "fa": "الله",
+                "fr": "Dieu/Allah",
+                "id": "Allah",
+                "ru": "Аллах",
+                "tr": "Allah",
+                "ur": "اللہ",
+                "zh": "安拉/真主"
+              },
+              "word": "اللَّهِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইবনে",
+                "de": "Sohn von",
+                "en": "son of",
+                "es": "hijo de",
+                "fa": "بن",
+                "fr": "fils de",
+                "id": "bin/putra",
+                "ru": "ибн/сын",
+                "tr": "bin/oğlu",
+                "ur": "بن",
+                "zh": "之子"
+              },
+              "word": "بْنِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "সিনান",
+                "de": "Sinan",
+                "en": "Sinan",
+                "es": "Sinan",
+                "fa": "سنان",
+                "fr": "Sinan",
+                "id": "Sinan",
+                "ru": "Синан",
+                "tr": "Sinan",
+                "ur": "سنان",
+                "zh": "西南"
+              },
+              "word": "سِنَانٍ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "থেকে",
+                "de": "von",
+                "en": "from",
+                "es": "de",
+                "fa": "از",
+                "fr": "de",
+                "id": "dari",
+                "ru": "от",
+                "tr": "-den",
+                "ur": "سے",
+                "zh": "从"
+              },
+              "word": "عَنْ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আবু (পিতা)",
+                "de": "Abu (Vater von)",
+                "en": "Abu (father of)",
+                "es": "Abu (padre de)",
+                "fa": "ابو (پدر)",
+                "fr": "Abu (père de)",
+                "id": "Abu (ayah dari)",
+                "ru": "Абу (отец)",
+                "tr": "Ebu (babası)",
+                "ur": "ابو (والد)",
+                "zh": "阿布（之父）"
+              },
+              "word": "أَبِي"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "বান্দা",
+                "de": "Diener von",
+                "en": "servant of",
+                "es": "siervo de",
+                "fa": "بنده",
+                "fr": "serviteur de",
+                "id": "hamba",
+                "ru": "раб",
+                "tr": "kulu",
+                "ur": "بندہ",
+                "zh": "仆人"
+              },
+              "word": "عَبْدِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আল্লাহ",
+                "de": "Gott/Allah",
+                "en": "Allah/God",
+                "es": "Dios/Allah",
+                "fa": "الله",
+                "fr": "Dieu/Allah",
+                "id": "Allah",
+                "ru": "Аллах",
+                "tr": "Allah",
+                "ur": "اللہ",
+                "zh": "安拉/真主"
+              },
+              "word": "اللَّهِ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "তাঁর উপর",
+                "de": "auf ihm",
+                "en": "upon him",
+                "es": "sobre él",
+                "fa": "بر او",
+                "fr": "sur lui",
+                "id": "atasnya",
+                "ru": "на нём",
+                "tr": "ona",
+                "ur": "اس پر",
+                "zh": "在他之上"
+              },
+              "word": "عَلَيْهِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "শান্তি",
+                "de": "Friede",
+                "en": "peace",
+                "es": "paz",
+                "fa": "سلام",
+                "fr": "paix",
+                "id": "salam/kedamaian",
+                "ru": "мир",
+                "tr": "selam",
+                "ur": "سلام",
+                "zh": "平安"
+              },
+              "word": "السَّلَامُ"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "বলেছেন",
+                "de": "sagte",
+                "en": "he said",
+                "es": "dijo",
+                "fa": "فرمود",
+                "fr": "a dit",
+                "id": "bersabda",
+                "ru": "сказал",
+                "tr": "buyurdu",
+                "ur": "فرمایا",
+                "zh": "他说"
+              },
+              "word": "قَالَ"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "আমি তাঁকে জিজ্ঞেস করলাম",
+                "de": "ich fragte ihn",
+                "en": "I asked him",
+                "es": "le pregunté",
+                "fa": "از او پرسیدم",
+                "fr": "je lui ai demandé",
+                "id": "aku bertanya kepadanya",
+                "ru": "я спросил его",
+                "tr": "ona sordum",
+                "ur": "میں نے ان سے سوال کیا",
+                "zh": "我问他"
+              },
+              "word": "سَأَلْتُهُ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "সম্পর্কে",
+                "de": "über",
+                "en": "about",
+                "es": "sobre",
+                "fa": "درباره",
+                "fr": "au sujet de",
+                "id": "tentang",
+                "ru": "о",
+                "tr": "hakkında",
+                "ur": "کے بارے میں",
+                "zh": "关于"
+              },
+              "word": "عَنْ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "পানি",
+                "de": "das Wasser des",
+                "en": "water of",
+                "es": "el agua de",
+                "fa": "آب",
+                "fr": "l'eau de",
+                "id": "air",
+                "ru": "воды",
+                "tr": "suyu",
+                "ur": "پانی",
+                "zh": "水"
+              },
+              "word": "مَاءِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "সমুদ্র",
+                "de": "des Meeres",
+                "en": "the sea",
+                "es": "el mar",
+                "fa": "دریا",
+                "fr": "la mer",
+                "id": "laut",
+                "ru": "моря",
+                "tr": "deniz",
+                "ur": "سمندر",
+                "zh": "海"
+              },
+              "word": "الْبَحْرِ"
+            },
+            {
+              "pos": "INTERR",
+              "translation": {
+                "bn": "কি",
+                "de": "ist es",
+                "en": "is it",
+                "es": "¿es",
+                "fa": "آیا",
+                "fr": "est-il",
+                "id": "apakah",
+                "ru": "разве",
+                "tr": "acaba",
+                "ur": "کیا",
+                "zh": "是否"
+              },
+              "word": "أَ"
+            },
+            {
+              "pos": "ADJ",
+              "translation": {
+                "bn": "তাহুর (পবিত্রকারী)",
+                "de": "tahur (reinigend)",
+                "en": "purifying/tahur",
+                "es": "tahur (purificador)",
+                "fa": "طهور (پاک‌کننده)",
+                "fr": "tahur (purificateur)",
+                "id": "tahur (menyucikan)",
+                "ru": "тахур (очищающий)",
+                "tr": "tahur (temizleyici)",
+                "ur": "طہور (پاک کرنے والا)",
+                "zh": "纯净（洁净的）"
+              },
+              "word": "طَهُورٌ"
+            },
+            {
+              "pos": "PRON",
+              "translation": {
+                "bn": "এটা",
+                "de": "es",
+                "en": "it",
+                "es": "él/ello",
+                "fa": "آن",
+                "fr": "il",
+                "id": "ia",
+                "ru": "оно",
+                "tr": "o",
+                "ur": "وہ",
+                "zh": "它"
+              },
+              "word": "هُوَ"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "তিনি বললেন",
+                "de": "er sagte",
+                "en": "he said",
+                "es": "respondió",
+                "fa": "فرمود",
+                "fr": "il dit",
+                "id": "beliau bersabda",
+                "ru": "он сказал",
+                "tr": "buyurdu",
+                "ur": "آپ نے فرمایا",
+                "zh": "他说"
+              },
+              "word": "قَالَ"
+            },
+            {
+              "pos": "PART",
+              "translation": {
+                "bn": "হ্যাঁ",
+                "de": "ja",
+                "en": "yes",
+                "es": "sí",
+                "fa": "بله",
+                "fr": "oui",
+                "id": "ya",
+                "ru": "да",
+                "tr": "evet",
+                "ur": "ہاں",
+                "zh": "是的"
+              },
+              "word": "نَعَمْ"
+            }
+          ]
+        },
         "gradings": [
           "Allamah Baqir al-Majlisi: <span> صحيح على الظاهر    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (13/6)"
         ],
@@ -720,6 +3175,784 @@
         }
       },
       {
+        "ai": {
+          "ai_attribution": {
+            "generated_date": "2026-02-28",
+            "model": "claude-sonnet-4-6",
+            "pipeline_version": "2.0.0"
+          },
+          "chunks": [
+            {
+              "chunk_type": "isnad",
+              "translations": {
+                "bn": "মুহাম্মাদ ইবনে ইয়াহইয়া আহমাদ ইবনে মুহাম্মাদ ইবনে ঈসা থেকে, তিনি উসমান ইবনে ঈসা থেকে, তিনি আবু বাকর আল-হাদরামী থেকে বর্ণনা করেছেন, তিনি বললেন:",
+                "de": "Muhammad ibn Yahya, von Ahmad ibn Muhammad ibn Isa, von Uthman ibn Isa, von Abu Bakr al-Hadrami, der sagte:",
+                "en": "Muhammad ibn Yahya, from Ahmad ibn Muhammad ibn Isa, from Uthman ibn Isa, from Abu Bakr al-Hadrami who said:",
+                "es": "Muhammad ibn Yahya, de Ahmad ibn Muhammad ibn Isa, de Uthman ibn Isa, de Abu Bakr al-Hadrami, quien dijo:",
+                "fa": "محمد بن یحیی از احمد بن محمد بن عیسی، از عثمان بن عیسی، از ابوبکر الحضرمی روایت کرد که گفت:",
+                "fr": "Muhammad ibn Yahya, d'Ahmad ibn Muhammad ibn Isa, d'Uthman ibn Isa, d'Abu Bakr al-Hadrami qui dit :",
+                "id": "Muhammad bin Yahya, dari Ahmad bin Muhammad bin Isa, dari Utsman bin Isa, dari Abu Bakr al-Hadhrami yang berkata:",
+                "ru": "Мухаммад ибн Яхья, от Ахмада ибн Мухаммада ибн Исы, от Усмана ибн Исы, от Абу Бакра аль-Хадрами, который сказал:",
+                "tr": "Muhammed b. Yahya, Ahmed b. Muhammed b. İsa'dan, o Osman b. İsa'dan, o da Ebu Bekr el-Hadramî'den rivayet etmiştir; dedi ki:",
+                "ur": "محمد بن یحیی نے احمد بن محمد بن عیسیٰ سے، انہوں نے عثمان بن عیسیٰ سے، انہوں نے ابو بکر الحضرمی سے روایت کی، انہوں نے کہا:",
+                "zh": "穆罕默德·本·叶海亚，从艾哈迈德·本·穆罕默德·本·尔撒，从奥斯曼·本·尔撒，从阿布·巴克尔·哈达拉米传述，他说："
+              },
+              "word_end": 18,
+              "word_start": 0
+            },
+            {
+              "chunk_type": "body",
+              "translations": {
+                "bn": "আমি আবু আবদিল্লাহ আলাইহিস সালামকে সমুদ্রের পানি সম্পর্কে জিজ্ঞেস করলাম — এটা কি পবিত্র? তিনি বললেন: হ্যাঁ।",
+                "de": "Ich fragte Abu Abdillah (Friede sei mit ihm) über das Meerwasser: Ist es reinigend? Er sagte: Ja.",
+                "en": "I asked Abu Abdillah (peace be upon him) about sea water — is it purifying? He said: Yes.",
+                "es": "Pregunté a Abu Abdillah (la paz sea con él) sobre el agua del mar: ¿es purificante? Él dijo: Sí.",
+                "fa": "از ابوعبدالله علیه السلام درباره آب دریا پرسیدم که آیا طهور است؟ فرمود: بله.",
+                "fr": "J'ai demandé à Abu Abdillah (que la paix soit sur lui) à propos de l'eau de mer : est-elle purificatrice ? Il dit : Oui.",
+                "id": "Aku bertanya kepada Abu Abdillah alaihis salam tentang air laut, apakah ia suci (tahur)? Beliau bersabda: Ya.",
+                "ru": "Я спросил Абу Абдиллаха (мир ему) о морской воде — является ли она очищающей? Он сказал: Да.",
+                "tr": "Ebu Abdullah'a (a.s.) deniz suyu hakkında sordum: 'Temizleyici midir?' O buyurdu: 'Evet.'",
+                "ur": "میں نے ابو عبد اللہ علیہ السلام سے سمندر کے پانی کے بارے میں پوچھا کہ کیا یہ پاک ہے؟ آپ نے فرمایا: ہاں۔",
+                "zh": "我问了阿布·阿卜杜拉（愿主赐他平安）关于海水的问题——它是洁净的吗？他说：是的。"
+              },
+              "word_end": 31,
+              "word_start": 18
+            }
+          ],
+          "content_type": "legal_ruling",
+          "diacritics_changes": [
+            "Added full tashkeel to narrator chain: مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى عَنْ عُثْمَانَ بْنِ عِيسَى عَنْ أَبِي بَكْرٍ الْحَضْرَمِيِّ قَالَ",
+            "Added full tashkeel to matn: سَأَلْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ عَنْ مَاءِ الْبَحْرِ أَطَهُورٌ هُوَ قَالَ نَعَمْ"
+          ],
+          "diacritics_status": "completed",
+          "isnad_matn": {
+            "has_chain": true,
+            "isnad_ar": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى عَنْ عُثْمَانَ بْنِ عِيسَى عَنْ أَبِي بَكْرٍ الْحَضْرَمِيِّ قَالَ",
+            "matn_ar": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ عَنْ مَاءِ الْبَحْرِ أَطَهُورٌ هُوَ قَالَ نَعَمْ",
+            "narrators": [
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Muhammad ibn Yahya al-Attar al-Qummi (d. after 280 AH), a prolific transmitter in al-Kulayni's chain",
+                "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+                "name_en": "Muhammad ibn Yahya",
+                "position": 1,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 3,
+                    "word_start": 0
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Ahmad ibn Muhammad ibn Isa al-Ash'ari al-Qummi (d. after 280 AH), head of the Qummi scholars",
+                "name_ar": "أَحْمَدُ بْنُ مُحَمَّدِ بْنِ عِيسَى",
+                "name_en": "Ahmad ibn Muhammad ibn Isa",
+                "position": 2,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 9,
+                    "word_start": 4
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Uthman ibn Isa al-Rawwasi (al-Kilabi), a companion of Imam al-Sadiq and Imam al-Kadhim (AS)",
+                "name_ar": "عُثْمَانُ بْنُ عِيسَى",
+                "name_en": "Uthman ibn Isa",
+                "position": 3,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 13,
+                    "word_start": 10
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Abu Bakr al-Hadrami (Abdu al-Karim ibn Utbah al-Hadrami), a companion of Imam al-Sadiq (AS)",
+                "name_ar": "أَبُو بَكْرٍ الْحَضْرَمِيُّ",
+                "name_en": "Abu Bakr al-Hadrami",
+                "position": 4,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 17,
+                    "word_start": 14
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Imam Ja'far al-Sadiq (AS), the sixth Imam (d. 148 AH)",
+                "name_ar": "أَبُو عَبْدِ اللَّهِ",
+                "name_en": "Abu Abdillah",
+                "position": 5,
+                "role": "imam",
+                "word_ranges": [
+                  {
+                    "word_end": 22,
+                    "word_start": 19
+                  }
+                ]
+              }
+            ]
+          },
+          "key_phrases": [
+            {
+              "category": "jurisprudential_term",
+              "phrase_ar": "مَاءُ الْبَحْرِ",
+              "phrase_en": "sea water"
+            },
+            {
+              "category": "prophetic_formula",
+              "phrase_ar": "عَلَيْهِ السَّلَامُ",
+              "phrase_en": "peace be upon him"
+            }
+          ],
+          "key_terms": {
+            "bn": {
+              "طَهُور": "তাহুর — পবিত্র এবং পবিত্রকারী পানি",
+              "مَاءُ الْبَحْرِ": "সমুদ্রের পানি"
+            },
+            "de": {
+              "طَهُور": "Tahur — reines und reinigendes Wasser",
+              "مَاءُ الْبَحْرِ": "Meerwasser"
+            },
+            "en": {
+              "طَهُور": "Tahur — ritually purifying water capable of removing ritual impurity (najasa); a higher status than merely 'pure' (tahir)",
+              "مَاءُ الْبَحْرِ": "Sea water — water of the ocean or large saltwater body"
+            },
+            "es": {
+              "طَهُور": "Tahur — agua pura y purificante",
+              "مَاءُ الْبَحْرِ": "Agua del mar"
+            },
+            "fa": {
+              "طَهُور": "طهور — آبی که هم پاک است و هم پاک‌کننده",
+              "مَاءُ الْبَحْرِ": "آب دریا"
+            },
+            "fr": {
+              "طَهُور": "Tahur — eau pure et purifiante",
+              "مَاءُ الْبَحْرِ": "Eau de mer"
+            },
+            "id": {
+              "طَهُور": "Tahur — air yang suci dan mensucikan",
+              "مَاءُ الْبَحْرِ": "Air laut"
+            },
+            "ru": {
+              "طَهُور": "Тахур — чистая и очищающая вода",
+              "مَاءُ الْبَحْرِ": "Морская вода"
+            },
+            "tr": {
+              "طَهُور": "Tahur — hem temiz hem de temizleyici su",
+              "مَاءُ الْبَحْرِ": "Deniz suyu"
+            },
+            "ur": {
+              "طَهُور": "طہور — وہ پانی جو پاک بھی ہو اور پاک کرنے والا بھی",
+              "مَاءُ الْبَحْرِ": "سمندر کا پانی"
+            },
+            "zh": {
+              "طَهُور": "塔胡尔——洁净且能净化他人的水",
+              "مَاءُ الْبَحْرِ": "海水"
+            }
+          },
+          "related_quran": [
+            {
+              "ref": "8:11",
+              "relationship": "thematic"
+            },
+            {
+              "ref": "25:48",
+              "relationship": "thematic"
+            }
+          ],
+          "seo_questions": {
+            "bn": "সমুদ্রের পানি কি ওজু ও গুসলের জন্য তাহুর?",
+            "de": "Gilt Meerwasser als Tahur für Wudu und Ghusl?",
+            "en": "Is sea water considered tahur (purifying) for wudu and ghusl in Islam?",
+            "es": "¿Es el agua del mar considerada tahur para el wudu y el ghusl?",
+            "fa": "آیا آب دریا برای وضو و غسل طهور است؟",
+            "fr": "L'eau de mer est-elle considérée comme tahur pour le wudu et le ghusl ?",
+            "id": "Apakah air laut dianggap tahur untuk wudu dan mandi wajib?",
+            "ru": "Считается ли морская вода тахур для вуду и гусля?",
+            "tr": "Deniz suyu abdest ve gusül için tahur sayılır mı?",
+            "ur": "کیا سمندر کا پانی وضو اور غسل کے لیے طہور ہے؟",
+            "zh": "海水在伊斯兰教中是否被视为用于小净和大净的塔胡尔？"
+          },
+          "similar_content_hints": [
+            {
+              "description": "A hadith confirming that water from rivers or rain is also tahur and valid for ritual purification, attributed to one of the Imams.",
+              "theme": "water_purity_rulings"
+            },
+            {
+              "description": "A narration discussing the minimum quantity of water that remains tahur and does not become impure upon contact with najasa (ritual impurity).",
+              "theme": "water_purity_rulings"
+            },
+            {
+              "description": "A hadith about the permissibility of using water for wudu when traveling or when fresh water is unavailable, related to the broader chapter on tahara.",
+              "theme": "tahara_exceptional_cases"
+            }
+          ],
+          "summaries": {
+            "bn": "এই হাদিসে ইমাম সাদিক (আ.)-এর কাছে সমুদ্রের পানির শরয়ী পবিত্রতা (তাহুর) সম্পর্কে জিজ্ঞেস করা হয়েছে। ইমাম 'হ্যাঁ' বলে নিশ্চিত করেছেন যে সমুদ্রের পানি পাক এবং ওজু ও গুসলের জন্য ব্যবহার করা যাবে।",
+            "de": "Dieser Hadith überliefert eine juristische Frage, die an Imam al-Sadiq (F) gestellt wurde, ob Meerwasser rituell reinigend (tahur) ist. Die klare Bestätigung des Imams stellt fest, dass Meerwasser rein ist und für die rituelle Waschung (Wudu und Ghusl) verwendet werden kann.",
+            "en": "This hadith records a legal question posed to Imam al-Sadiq (AS) about whether sea water is ritually purifying (tahur). The Imam affirms with a simple 'Yes,' establishing that sea water is pure and may be used for ritual purification (wudu and ghusl). This ruling was significant in the early Islamic community as scholars debated the rulings regarding different types of water, and the Imam's categorical affirmation settled the matter definitively.",
+            "es": "Este hadith registra una pregunta jurídica planteada al Imam al-Sadiq (P) sobre si el agua del mar es ritualmente purificante (tahur). La afirmación del Imam establece que el agua del mar es pura y puede utilizarse para la ablución y el baño ritual.",
+            "fa": "این حدیث سوالی فقهی را درباره طهارت آب دریا از امام صادق علیه السلام ثبت می‌کند. امام با یک «بله» ساده تأیید فرمودند که آب دریا پاک و طهور است و می‌توان از آن برای وضو و غسل استفاده کرد.",
+            "fr": "Ce hadith consigne une question juridique posée à l'Imam al-Sadiq (P) sur le caractère rituellement purificateur (tahur) de l'eau de mer. L'affirmation catégorique de l'Imam établit que l'eau de mer est pure et peut être utilisée pour les ablutions et le bain rituel.",
+            "id": "Hadis ini mencatat pertanyaan hukum fiqih tentang apakah air laut bersifat tahur (menyucikan) yang diajukan kepada Imam al-Shadiq (a.s.). Jawaban singkat Imam 'Ya' menetapkan bahwa air laut sah digunakan untuk bersuci, termasuk wudu dan mandi wajib.",
+            "ru": "Этот хадис фиксирует юридический вопрос, заданный Имаму Садику (мир ему) о том, является ли морская вода ритуально очищающей (тахур). Утвердительный ответ Имама устанавливает, что морская вода чиста и может использоваться для совершения омовения.",
+            "tr": "Bu hadis, İmam Sadık'a (a.s.) deniz suyunun ritüel açıdan temizleyici (tahur) olup olmadığı sorusunu kaydetmektedir. İmam'ın 'evet' cevabı, deniz suyunun abdest ve gusülde kullanılabileceğini kesin olarak ortaya koymaktadır.",
+            "ur": "یہ حدیث ایک فقہی سوال کو بیان کرتی ہے جو امام صادق علیہ السلام سے سمندری پانی کی طہارت کے بارے میں پوچھا گیا۔ امام نے 'ہاں' کہہ کر تصدیق کی کہ سمندر کا پانی پاک اور طہور ہے اور وضو یا غسل کے لیے استعمال کیا جا سکتا ہے۔",
+            "zh": "这段圣训记录了向伊玛目萨迪格（愿主赐他平安）提出的一个法律问题：海水是否具有仪式净化功能（塔胡尔）。伊玛目简单地回答「是的」，确认海水是洁净且具有净化功能的，可用于小净和大净。"
+          },
+          "tags": [
+            "jurisprudence",
+            "worship"
+          ],
+          "topics": [
+            "ritual_purity",
+            "prayer_rulings"
+          ],
+          "word_analysis": [
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "মুহাম্মাদ",
+                "de": "Muhammad",
+                "en": "Muhammad",
+                "es": "Muhammad",
+                "fa": "محمد",
+                "fr": "Muhammad",
+                "id": "Muhammad",
+                "ru": "Мухаммад",
+                "tr": "Muhammed",
+                "ur": "محمد",
+                "zh": "穆罕默德"
+              },
+              "word": "مُحَمَّدُ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইবনে",
+                "de": "Sohn von",
+                "en": "son of",
+                "es": "hijo de",
+                "fa": "بن",
+                "fr": "fils de",
+                "id": "bin/putra",
+                "ru": "ибн/сын",
+                "tr": "bin/oğlu",
+                "ur": "بن",
+                "zh": "之子"
+              },
+              "word": "بْنُ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইয়াহইয়া",
+                "de": "Yahya",
+                "en": "Yahya",
+                "es": "Yahya",
+                "fa": "یحیی",
+                "fr": "Yahya",
+                "id": "Yahya",
+                "ru": "Яхья",
+                "tr": "Yahya",
+                "ur": "یحییٰ",
+                "zh": "叶海亚"
+              },
+              "word": "يَحْيَى"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "থেকে",
+                "de": "von",
+                "en": "from",
+                "es": "de",
+                "fa": "از",
+                "fr": "de",
+                "id": "dari",
+                "ru": "от",
+                "tr": "-den",
+                "ur": "سے",
+                "zh": "从"
+              },
+              "word": "عَنْ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আহমাদ",
+                "de": "Ahmad",
+                "en": "Ahmad",
+                "es": "Ahmad",
+                "fa": "احمد",
+                "fr": "Ahmad",
+                "id": "Ahmad",
+                "ru": "Ахмад",
+                "tr": "Ahmed",
+                "ur": "احمد",
+                "zh": "艾哈迈德"
+              },
+              "word": "أَحْمَدَ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইবনে",
+                "de": "Sohn von",
+                "en": "son of",
+                "es": "hijo de",
+                "fa": "بن",
+                "fr": "fils de",
+                "id": "bin/putra",
+                "ru": "ибн/сын",
+                "tr": "bin/oğlu",
+                "ur": "بن",
+                "zh": "之子"
+              },
+              "word": "بْنِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "মুহাম্মাদ",
+                "de": "Muhammad",
+                "en": "Muhammad",
+                "es": "Muhammad",
+                "fa": "محمد",
+                "fr": "Muhammad",
+                "id": "Muhammad",
+                "ru": "Мухаммад",
+                "tr": "Muhammed",
+                "ur": "محمد",
+                "zh": "穆罕默德"
+              },
+              "word": "مُحَمَّدِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইবনে",
+                "de": "Sohn von",
+                "en": "son of",
+                "es": "hijo de",
+                "fa": "بن",
+                "fr": "fils de",
+                "id": "bin/putra",
+                "ru": "ибн/сын",
+                "tr": "bin/oğlu",
+                "ur": "بن",
+                "zh": "之子"
+              },
+              "word": "بْنِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ঈসা",
+                "de": "Isa",
+                "en": "Isa",
+                "es": "Isa",
+                "fa": "عیسی",
+                "fr": "Isa",
+                "id": "Isa",
+                "ru": "Иса",
+                "tr": "İsa",
+                "ur": "عیسیٰ",
+                "zh": "尔撒"
+              },
+              "word": "عِيسَى"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "থেকে",
+                "de": "von",
+                "en": "from",
+                "es": "de",
+                "fa": "از",
+                "fr": "de",
+                "id": "dari",
+                "ru": "от",
+                "tr": "-den",
+                "ur": "سے",
+                "zh": "从"
+              },
+              "word": "عَنْ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "উসমান",
+                "de": "Uthman",
+                "en": "Uthman",
+                "es": "Uthman",
+                "fa": "عثمان",
+                "fr": "Uthman",
+                "id": "Utsman",
+                "ru": "Усман",
+                "tr": "Osman",
+                "ur": "عثمان",
+                "zh": "奥斯曼"
+              },
+              "word": "عُثْمَانَ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইবনে",
+                "de": "Sohn von",
+                "en": "son of",
+                "es": "hijo de",
+                "fa": "بن",
+                "fr": "fils de",
+                "id": "bin/putra",
+                "ru": "ибн/сын",
+                "tr": "bin/oğlu",
+                "ur": "بن",
+                "zh": "之子"
+              },
+              "word": "بْنِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ঈসা",
+                "de": "Isa",
+                "en": "Isa",
+                "es": "Isa",
+                "fa": "عیسی",
+                "fr": "Isa",
+                "id": "Isa",
+                "ru": "Иса",
+                "tr": "İsa",
+                "ur": "عیسیٰ",
+                "zh": "尔撒"
+              },
+              "word": "عِيسَى"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "থেকে",
+                "de": "von",
+                "en": "from",
+                "es": "de",
+                "fa": "از",
+                "fr": "de",
+                "id": "dari",
+                "ru": "от",
+                "tr": "-den",
+                "ur": "سے",
+                "zh": "从"
+              },
+              "word": "عَنْ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আবু",
+                "de": "Abu (Vater von)",
+                "en": "Abu (father of)",
+                "es": "Abu (padre de)",
+                "fa": "ابو",
+                "fr": "Abu (père de)",
+                "id": "Abu (ayah dari)",
+                "ru": "Абу (отец)",
+                "tr": "Ebu (babası)",
+                "ur": "ابو",
+                "zh": "阿布"
+              },
+              "word": "أَبِي"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "বাকর",
+                "de": "Bakr",
+                "en": "Bakr",
+                "es": "Bakr",
+                "fa": "بکر",
+                "fr": "Bakr",
+                "id": "Bakr",
+                "ru": "Бакр",
+                "tr": "Bekr",
+                "ur": "بکر",
+                "zh": "巴克尔"
+              },
+              "word": "بَكْرٍ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আল-হাদরামী",
+                "de": "al-Hadrami",
+                "en": "al-Hadrami",
+                "es": "al-Hadrami",
+                "fa": "الحضرمی",
+                "fr": "al-Hadrami",
+                "id": "al-Hadhrami",
+                "ru": "аль-Хадрами",
+                "tr": "el-Hadramî",
+                "ur": "الحضرمی",
+                "zh": "哈达拉米"
+              },
+              "word": "الْحَضْرَمِيِّ"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "তিনি বললেন",
+                "de": "er sagte",
+                "en": "he said",
+                "es": "dijo",
+                "fa": "گفت",
+                "fr": "il dit",
+                "id": "ia berkata",
+                "ru": "он сказал",
+                "tr": "dedi",
+                "ur": "انہوں نے کہا",
+                "zh": "他说"
+              },
+              "word": "قَالَ"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "আমি জিজ্ঞেস করলাম",
+                "de": "ich fragte",
+                "en": "I asked",
+                "es": "pregunté",
+                "fa": "پرسیدم",
+                "fr": "j'ai demandé",
+                "id": "aku bertanya",
+                "ru": "я спросил",
+                "tr": "sordum",
+                "ur": "میں نے پوچھا",
+                "zh": "我问了"
+              },
+              "word": "سَأَلْتُ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আবু",
+                "de": "Abu",
+                "en": "Abu (father of)",
+                "es": "Abu",
+                "fa": "ابو",
+                "fr": "Abu",
+                "id": "Abu",
+                "ru": "Абу",
+                "tr": "Ebu",
+                "ur": "ابو",
+                "zh": "阿布"
+              },
+              "word": "أَبَا"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "বান্দা",
+                "de": "Diener von",
+                "en": "servant of",
+                "es": "siervo de",
+                "fa": "بنده",
+                "fr": "serviteur de",
+                "id": "hamba",
+                "ru": "раб",
+                "tr": "kulu",
+                "ur": "بندہ",
+                "zh": "仆人"
+              },
+              "word": "عَبْدِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আল্লাহ",
+                "de": "Gott",
+                "en": "God",
+                "es": "Dios",
+                "fa": "خدا",
+                "fr": "Dieu",
+                "id": "Allah",
+                "ru": "Аллах",
+                "tr": "Allah",
+                "ur": "اللہ",
+                "zh": "真主"
+              },
+              "word": "اللَّهِ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "তাঁর উপর",
+                "de": "auf ihm",
+                "en": "upon him",
+                "es": "sobre él",
+                "fa": "بر او",
+                "fr": "sur lui",
+                "id": "atasnya",
+                "ru": "на нём",
+                "tr": "ona",
+                "ur": "اس پر",
+                "zh": "在他之上"
+              },
+              "word": "عَلَيْهِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "শান্তি",
+                "de": "Friede",
+                "en": "peace",
+                "es": "paz",
+                "fa": "سلام",
+                "fr": "paix",
+                "id": "salam/kedamaian",
+                "ru": "мир",
+                "tr": "selam",
+                "ur": "سلام",
+                "zh": "平安"
+              },
+              "word": "السَّلَامُ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "সম্পর্কে",
+                "de": "über",
+                "en": "about",
+                "es": "sobre",
+                "fa": "درباره",
+                "fr": "à propos de",
+                "id": "tentang",
+                "ru": "о",
+                "tr": "hakkında",
+                "ur": "کے بارے میں",
+                "zh": "关于"
+              },
+              "word": "عَنْ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "পানি",
+                "de": "Wasser des",
+                "en": "water of",
+                "es": "agua del",
+                "fa": "آب",
+                "fr": "eau de la",
+                "id": "air",
+                "ru": "воды",
+                "tr": "suyu",
+                "ur": "پانی",
+                "zh": "水"
+              },
+              "word": "مَاءِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "সমুদ্র",
+                "de": "des Meeres",
+                "en": "the sea",
+                "es": "el mar",
+                "fa": "دریا",
+                "fr": "la mer",
+                "id": "laut",
+                "ru": "море",
+                "tr": "deniz",
+                "ur": "سمندر",
+                "zh": "大海"
+              },
+              "word": "الْبَحْرِ"
+            },
+            {
+              "pos": "ADJ",
+              "translation": {
+                "bn": "এটা কি পবিত্র?",
+                "de": "ist es reinigend?",
+                "en": "Is it purifying/clean?",
+                "es": "¿Es purificante?",
+                "fa": "آیا پاک است؟",
+                "fr": "est-il purificateur ?",
+                "id": "apakah ia suci?",
+                "ru": "является ли оно очищающим?",
+                "tr": "temizleyici mi?",
+                "ur": "کیا یہ پاک ہے؟",
+                "zh": "它是净化的吗？"
+              },
+              "word": "أَطَهُورٌ"
+            },
+            {
+              "pos": "PRON",
+              "translation": {
+                "bn": "এটা",
+                "de": "es",
+                "en": "it",
+                "es": "¿es",
+                "fa": "آن",
+                "fr": "est-il",
+                "id": "ia",
+                "ru": "оно",
+                "tr": "o",
+                "ur": "وہ",
+                "zh": "它"
+              },
+              "word": "هُوَ"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "তিনি বললেন",
+                "de": "sagte er",
+                "en": "he said",
+                "es": "dijo",
+                "fa": "فرمود",
+                "fr": "il a dit",
+                "id": "beliau bersabda",
+                "ru": "он сказал",
+                "tr": "buyurdu",
+                "ur": "آپ نے فرمایا",
+                "zh": "他说"
+              },
+              "word": "قَالَ"
+            },
+            {
+              "pos": "PART",
+              "translation": {
+                "bn": "হ্যাঁ",
+                "de": "Ja",
+                "en": "Yes",
+                "es": "Sí",
+                "fa": "بله",
+                "fr": "Oui",
+                "id": "ya",
+                "ru": "Да",
+                "tr": "evet",
+                "ur": "ہاں",
+                "zh": "是的"
+              },
+              "word": "نَعَمْ"
+            }
+          ]
+        },
         "gradings": [
           "Allamah Baqir al-Majlisi: <span> حسن موثق    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (13/6)"
         ],

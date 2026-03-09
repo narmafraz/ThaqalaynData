@@ -17,10 +17,982 @@
     "verse_start_index": 323,
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ],
     "verses": [
       {
+        "ai": {
+          "ai_attribution": {
+            "generated_date": "2026-02-28",
+            "model": "claude-sonnet-4-6",
+            "pipeline_version": "2.0.0"
+          },
+          "chunks": [
+            {
+              "chunk_type": "isnad",
+              "translations": {
+                "bn": "আলী ইবনে মুহাম্মাদ এবং মুহাম্মাদ ইবনে আল-হাসান, সাহল ইবনে যিয়াদ থেকে, মুহাম্মাদ ইবনে আল-ওয়ালীদ থেকে যার উপনাম শাবাব আস-সাইরাফী, দাউদ ইবনে আল-কাসিম আল-জা'ফারী থেকে যিনি বললেন:",
+                "de": "Ali ibn Muhammad und Muhammad ibn al-Hasan, von Sahl ibn Ziyad, von Muhammad ibn al-Walid dessen Beiname Shabab al-Sayrafi ist, von Dawud ibn al-Qasim al-Ja'fari, der sagte:",
+                "en": "Ali ibn Muhammad and Muhammad ibn al-Hasan, from Sahl ibn Ziyad, from Muhammad ibn al-Walid whose nickname is Shabab al-Sayrafi, from Dawud ibn al-Qasim al-Ja'fari who said:",
+                "es": "Ali ibn Muhammad y Muhammad ibn al-Hasan, de Sahl ibn Ziyad, de Muhammad ibn al-Walid cuyo apodo es Shabab al-Sayrafi, de Dawud ibn al-Qasim al-Ja'fari quien dijo:",
+                "fa": "علی بن محمد و محمد بن الحسن، از سهل بن زیاد، از محمد بن الولید که لقبش شباب الصیرفی است، از داوود بن القاسم الجعفری روایت کردند که گفت:",
+                "fr": "Ali ibn Muhammad et Muhammad ibn al-Hasan, de Sahl ibn Ziyad, de Muhammad ibn al-Walid dont le surnom est Shabab al-Sayrafi, de Dawud ibn al-Qasim al-Ja'fari qui dit :",
+                "id": "Ali bin Muhammad dan Muhammad bin al-Hasan, dari Sahl bin Ziyad, dari Muhammad bin al-Walid yang julukannya adalah Syabab al-Sayrafi, dari Dawud bin al-Qasim al-Ja'fari yang berkata:",
+                "ru": "Али ибн Мухаммад и Мухаммад ибн аль-Хасан, от Сахла ибн Зийада, от Мухаммада ибн аль-Валида, чьё прозвище — Шабаб ас-Сайрафи, от Давуда ибн аль-Касима аль-Джа'фари, который сказал:",
+                "tr": "Ali b. Muhammed ve Muhammed b. el-Hasan, Sehl b. Ziyad'dan, o Muhammed b. el-Velid'den — ki lakabı Şebab es-Sayrafi'dir — o da Davud b. el-Kasım el-Ca'feri'den rivayet etti; şöyle dedi:",
+                "ur": "علی بن محمد اور محمد بن الحسن نے سہل بن زیاد سے، انہوں نے محمد بن الولید سے جن کا لقب شباب الصیرفی ہے، انہوں نے داؤد بن القاسم الجعفری سے روایت کی کہ:",
+                "zh": "阿里·本·穆罕默德和穆罕默德·本·哈桑，从萨赫勒·本·齐亚德，从穆罕默德·本·瓦利德（绰号沙巴布·萨伊拉菲），从达乌德·本·卡西姆·贾法里传述，他说："
+              },
+              "word_end": 23,
+              "word_start": 0
+            },
+            {
+              "chunk_type": "body",
+              "translations": {
+                "bn": "আমি আবু জা'ফার সানী (আলাইহিস সালাম)-কে বললাম: আমি আপনার জন্য উৎসর্গীকৃত হই, আস-সামাদ কী? তিনি বললেন: সেই প্রভু যার কাছে সামান্য ও অধিক সকল বিষয়ে আশ্রয় নেওয়া হয়।",
+                "de": "Ich sagte zu Abu Ja'far dem Zweiten (Friede sei mit ihm): 'Möge ich für dich geopfert werden, was ist Al-Samad?' Er antwortete: 'Der Herr, zu dem man sich in kleinen und großen Angelegenheiten wendet.'",
+                "en": "I said to Abu Ja'far the Second (peace be upon him): May I be sacrificed for you, what is Al-Samad? He said: The Master to whom one turns in matters great and small.",
+                "es": "Le dije a Abu Ja'far el Segundo (la paz sea con él): 'Que sea yo sacrificado por ti, ¿qué es Al-Samad?' Él respondió: 'El Señor al que se recurre en lo poco y en lo mucho.'",
+                "fa": "به ابوجعفر دوم علیه السلام عرض کردم: فدایت شوم، الصمد چیست؟ فرمود: سیدی است که در کم و زیاد به او رجوع می‌شود.",
+                "fr": "J'ai dit à Abu Ja'far le Second (que la paix soit sur lui) : « Que je sois ton sacrifice, qu'est-ce qu'Al-Samad ? » Il répondit : « Le Seigneur vers lequel on se tourne dans les affaires petites et grandes. »",
+                "id": "Aku berkata kepada Abu Ja'far kedua (alaihis salam): 'Semoga aku menjadi tebusanmu, apakah Al-Samad itu?' Beliau menjawab: 'Tuan yang dituju dalam urusan sedikit maupun banyak.'",
+                "ru": "Я сказал Абу Джа'фару Второму (мир ему): «Да буду я принесён в жертву ради тебя, что такое Ас-Самад?» Он ответил: «Господин, к которому обращаются в малом и великом.»",
+                "tr": "Ebu Ca'fer es-Sani'ye (a.s.) 'Sana feda olayım, es-Samed nedir?' diye sordum. O buyurdu: 'Az ve çok (her) konuda kendisine başvurulan Efendi.'",
+                "ur": "میں نے ابو جعفر ثانی علیہ السلام سے عرض کیا: میں آپ پر فدا ہوجاؤں، الصمد کیا ہے؟ آپ نے فرمایا: وہ سید/آقا جس کی طرف تھوڑے اور بہت (ہر) معاملے میں رجوع کیا جاتا ہے۔",
+                "zh": "我对阿布·贾法尔第二（愿主赐他平安）说：「愿我为您牺牲，萨马德是什么？」他说：「是在大小事务中都被求助的主人。」"
+              },
+              "word_end": 40,
+              "word_start": 23
+            }
+          ],
+          "content_type": "quranic_commentary",
+          "diacritics_changes": [
+            "Added full tashkeel to isnad portion",
+            "Added tashkeel to قُلْتُ, جُعِلْتُ, فِدَاكَ, الصَّمَدُ, السَّيِّدُ, الْمَصْمُودُ, الْقَلِيلِ, الْكَثِيرِ"
+          ],
+          "diacritics_status": "completed",
+          "isnad_matn": {
+            "has_chain": true,
+            "isnad_ar": "عَلِيُّ بْنُ مُحَمَّدٍ وَمُحَمَّدُ بْنُ الْحَسَنِ عَنْ سَهْلِ بْنِ زِيَادٍ عَنْ مُحَمَّدِ بْنِ الْوَلِيدِ وَلَقَبُهُ شَبَابٌ الصَّيْرَفِيُّ عَنْ دَاوُدَ بْنِ الْقَاسِمِ الْجَعْفَرِيِّ قَالَ",
+            "matn_ar": "قُلْتُ لِأَبِي جَعْفَرٍ الثَّانِي عَلَيْهِ السَّلَامُ جُعِلْتُ فِدَاكَ مَا الصَّمَدُ قَالَ السَّيِّدُ الْمَصْمُودُ إِلَيْهِ فِي الْقَلِيلِ وَالْكَثِيرِ",
+            "narrators": [
+              {
+                "ambiguity_note": "Likely Ali ibn Muhammad al-Askar or one of al-Kulayni's direct teachers by this name",
+                "identity_confidence": "likely",
+                "known_identity": "Ali ibn Muhammad, one of al-Kulayni's teachers",
+                "name_ar": "عَلِيُّ بْنُ مُحَمَّدٍ",
+                "name_en": "Ali ibn Muhammad",
+                "position": 1,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 3,
+                    "word_start": 0
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": "Likely Muhammad ibn al-Hasan al-Saffar or another narrator by this name among al-Kulayni's teachers",
+                "identity_confidence": "likely",
+                "known_identity": "Muhammad ibn al-Hasan, one of al-Kulayni's teachers",
+                "name_ar": "مُحَمَّدُ بْنُ الْحَسَنِ",
+                "name_en": "Muhammad ibn al-Hasan",
+                "position": 2,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 6,
+                    "word_start": 3
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Sahl ibn Ziyad al-Adami al-Razi, a prolific narrator though considered weak (da'if) by some rijal scholars",
+                "name_ar": "سَهْلُ بْنُ زِيَادٍ",
+                "name_en": "Sahl ibn Ziyad",
+                "position": 3,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 10,
+                    "word_start": 7
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Muhammad ibn al-Walid al-Khazzaz, known by the nickname Shabab al-Sayrafi",
+                "name_ar": "مُحَمَّدُ بْنُ الْوَلِيدِ",
+                "name_en": "Muhammad ibn al-Walid",
+                "position": 4,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 17,
+                    "word_start": 11
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Dawud ibn al-Qasim al-Ja'fari (d. 261 AH), a trusted companion of several Imams including al-Jawad (AS), al-Hadi (AS), and al-'Askari (AS)",
+                "name_ar": "دَاوُدُ بْنُ الْقَاسِمِ الْجَعْفَرِيُّ",
+                "name_en": "Dawud ibn al-Qasim al-Ja'fari",
+                "position": 5,
+                "role": "narrator",
+                "word_ranges": [
+                  {
+                    "word_end": 22,
+                    "word_start": 18
+                  }
+                ]
+              },
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Imam Muhammad ibn Ali al-Jawad (AS), the ninth Imam (d. 220 AH), also known as al-Taqi",
+                "name_ar": "أَبُو جَعْفَرٍ الثَّانِي",
+                "name_en": "Abu Ja'far the Second",
+                "position": 6,
+                "role": "imam"
+              }
+            ]
+          },
+          "key_phrases": [
+            {
+              "category": "prophetic_formula",
+              "phrase_ar": "جُعِلْتُ فِدَاكَ",
+              "phrase_en": "May I be sacrificed for you (reverential address to the Imam)"
+            },
+            {
+              "category": "theological_concept",
+              "phrase_ar": "السَّيِّدُ الْمَصْمُودُ إِلَيْهِ",
+              "phrase_en": "The Master to whom one turns (definition of Al-Samad)"
+            }
+          ],
+          "key_terms": {
+            "bn": {
+              "السَّيِّد": "আস-সাইয়্যিদ — প্রভু, কর্তা; এখানে আল্লাহর জন্য ব্যবহৃত",
+              "الصَّمَد": "আস-সামাদ — সূরা আল-ইখলাসের (112:2) ঐশী নাম; 'চিরন্তন আশ্রয়' বা 'স্বনির্ভর' অর্থে",
+              "الْمَصْمُود": "আল-মাসমুদ — সামাদা ধাতুর ইসমে মাফউল; 'যার কাছে আশ্রয় নেওয়া হয়'",
+              "جُعِلْتُ فِدَاكَ": "জু'ইলতু ফিদাক — 'আমাকে আপনার জন্য উৎসর্গ করা হোক'; ইমামদের সাথে কথা বলার ভদ্রতার সূত্র"
+            },
+            "de": {
+              "السَّيِّد": "Al-Sayyid — der Herr, Meister; hier auf Gott als höchsten Souverän angewandt",
+              "الصَّمَد": "Al-Samad — Gottesname in Sure al-Ichlas (112:2); klassisch verstanden als 'die ewige Zuflucht' oder 'der Selbstgenügende'",
+              "الْمَصْمُود": "Al-Masmud — Passivpartizip von samada; 'der, zu dem man Zuflucht nimmt'",
+              "جُعِلْتُ فِدَاكَ": "Ju'iltu fidak — 'Möge ich für dich geopfert werden'; Ehrerbietungsformel bei der Anrede der Imame"
+            },
+            "en": {
+              "السَّيِّد": "Al-Sayyid — the Master, Lord, or Chief; here applied to God as the supreme sovereign",
+              "الصَّمَد": "Al-Samad — a Divine Name from Surah al-Ikhlas (112:2), classically understood as 'the Eternal Refuge,' 'the Self-Sufficient,' or 'He who is depended upon'",
+              "الْمَصْمُود": "Al-Masmud — the passive participle of samada, meaning 'the one who is resorted to/turned to'; explains the root meaning of samad as intentional turning toward a master in need",
+              "جُعِلْتُ فِدَاكَ": "Ju'iltu fidak — 'May I be made your ransom/sacrifice,' a deferential formula of address used with the Imams"
+            },
+            "es": {
+              "السَّيِّد": "Al-Sayyid — el Señor, Maestro; aquí aplicado a Dios como soberano supremo",
+              "الصَّمَد": "Al-Samad — Nombre Divino en Sura al-Ijlas (112:2); interpretado como 'Refugio Eterno' o 'el Autosuficiente'",
+              "الْمَصْمُود": "Al-Masmud — participio pasivo de samada; 'aquel al que se recurre'",
+              "جُعِلْتُ فِدَاكَ": "Ju'iltu fidak — 'Que sea sacrificado por ti'; fórmula de deferencia usada con los Imames"
+            },
+            "fa": {
+              "السَّيِّد": "السید — آقا، مولا؛ اینجا برای خداوند به کار رفته",
+              "الصَّمَد": "الصمد — اسمی الهی در سوره اخلاص (112:2)؛ به معنای پناهگاه ابدی یا بی‌نیاز",
+              "الْمَصْمُود": "المصمود — اسم مفعول از ریشه «صمد»؛ کسی که به او رجوع می‌شود",
+              "جُعِلْتُ فِدَاكَ": "جُعِلْتُ فِدَاکَ — فدایت شوم؛ فرمول ادب در خطاب به ائمه"
+            },
+            "fr": {
+              "السَّيِّد": "Al-Sayyid — le Maître, Seigneur ; ici appliqué à Dieu en tant que souverain suprême",
+              "الصَّمَد": "Al-Samad — Nom Divin dans la Sourate al-Ikhlâs (112:2) ; classiquement compris comme 'le Refuge Éternel' ou 'le Suffisant en Lui-même'",
+              "الْمَصْمُود": "Al-Masmud — participe passif de samada ; 'celui vers lequel on se tourne'",
+              "جُعِلْتُ فِدَاكَ": "Ju'iltu fidak — 'Que je sois ton sacrifice' ; formule de déférence utilisée avec les Imams"
+            },
+            "id": {
+              "السَّيِّد": "Al-Sayyid — Tuan, Penguasa; digunakan untuk Allah sebagai Penguasa tertinggi",
+              "الصَّمَد": "Al-Samad — Nama Ilahi dalam Surah al-Ikhlas (112:2); bermakna 'tempat bergantung abadi' atau 'Yang Maha Cukup'",
+              "الْمَصْمُود": "Al-Masmud — kata sifat pasif dari samada; 'yang dituju/yang menjadi tempat bergantung'",
+              "جُعِلْتُ فِدَاكَ": "Ju'iltu fidak — 'Semoga aku menjadi tebusanmu'; ungkapan penghormatan saat berbicara dengan para Imam"
+            },
+            "ru": {
+              "السَّيِّد": "Ас-Саййид — Господин, Владыка; здесь применяется к Богу как верховному суверену",
+              "الصَّمَد": "Ас-Самад — Божественное Имя в Суре аль-Ихлас (112:2); традиционно понимается как 'вечное прибежище' или 'Самодостаточный'",
+              "الْمَصْمُود": "Аль-Масмуд — пассивное причастие от самада; 'тот, к кому обращаются'",
+              "جُعِلْتُ فِدَاكَ": "Джу'илту фидак — 'да буду я принесён в жертву ради тебя'; формула почтительного обращения к Имамам"
+            },
+            "tr": {
+              "السَّيِّد": "es-Seyyid — Efendi, Rab; burada Allah için kullanılmıştır",
+              "الصَّمَد": "es-Samed — İhlâs Sûresi'ndeki (112:2) İlahî isim; 'Ezeli Sığınak' veya 'Kendine Yeterli' anlamında",
+              "الْمَصْمُود": "el-Masmud — 'samede' fiilinin edilgen ortacı; 'başvurulan/sığınılan'",
+              "جُعِلْتُ فِدَاكَ": "Cu'iltu fidak — 'Sana feda olayım'; İmamlara hitap edilen saygı formülü"
+            },
+            "ur": {
+              "السَّيِّد": "السید — آقا، مالک؛ اللہ کے لیے بطور خداوند استعمال",
+              "الصَّمَد": "الصمد — سورہ اخلاص کا اسم الہٰی، بے نیاز اور ہمیشہ سے قائم",
+              "الْمَصْمُود": "المصمود — وہ جس کی طرف رجوع کیا جاتا ہے",
+              "جُعِلْتُ فِدَاكَ": "جُعِلْتُ فِدَاکَ — میں آپ پر فدا ہوجاؤں، ائمہ کی خدمت میں عرض کرنے کا ادبی طریقہ"
+            },
+            "zh": {
+              "السَّيِّد": "赛义德 — 主人、领主；此处用于指称真主为最高主宰",
+              "الصَّمَد": "萨马德 — 《忠诚章》（112:2）中的神圣名称；传统上理解为「永恒的庇护所」或「自足者」",
+              "الْمَصْمُود": "马斯穆德 — 萨马达动词的被动分词；「被求助的那位」",
+              "جُعِلْتُ فِدَاكَ": "朱伊勒图·菲达克 — 「愿我为您牺牲」；与伊玛目交谈时使用的谦恭用语"
+            }
+          },
+          "related_quran": [
+            {
+              "ref": "112:2",
+              "relationship": "explicit",
+              "word_end": 33,
+              "word_start": 32
+            }
+          ],
+          "seo_questions": {
+            "bn": "ইমাম আল-জাওয়াদের মতে আস-সামাদের অর্থ কী?",
+            "de": "Was bedeutet Al-Samad laut Imam al-Jawad?",
+            "en": "What does Al-Samad mean according to Imam al-Jawad?",
+            "es": "¿Cuál es el significado de Al-Samad según el Imam al-Jawad?",
+            "fa": "معنای الصمد از دیدگاه امام جواد علیه السلام چیست؟",
+            "fr": "Quelle est la signification d'Al-Samad selon l'Imam al-Jawad ?",
+            "id": "Apa makna Al-Samad menurut Imam al-Jawad?",
+            "ru": "Каково значение Ас-Самад по словам Имама аль-Джавада?",
+            "tr": "İmam Cevad'a göre es-Samed'in anlamı nedir?",
+            "ur": "امام جواد علیہ السلام کے مطابق الصمد کا کیا معنی ہے؟",
+            "zh": "根据伊玛目贾瓦德，萨马德的含义是什么？"
+          },
+          "similar_content_hints": [
+            {
+              "description": "Other hadiths in al-Kafi's chapter on Al-Samad that provide alternative or complementary definitions of this Divine Name from Surah al-Ikhlas.",
+              "theme": "samad_definition"
+            },
+            {
+              "description": "Hadiths where the Imams explain Divine Names and Attributes (Asma' wa Sifat) in response to direct questions from companions, particularly in the kitab al-tawhid.",
+              "theme": "imam_theological_explanation"
+            },
+            {
+              "description": "Narrations featuring Dawud ibn al-Qasim al-Ja'fari asking questions of Imams al-Jawad, al-Hadi, or al-'Askari on theological matters.",
+              "theme": "dawud_jafari_questions"
+            }
+          ],
+          "summaries": {
+            "bn": "এই হাদিসটিতে দাউদ ইবনে আল-কাসিম আল-জা'ফারী ইমাম মুহাম্মাদ আল-জাওয়াদ (আ.) — নবম ইমাম — কে সূরা আল-ইখলাসের (112:2) ঐশী নাম 'আস-সামাদ' সম্পর্কে জিজ্ঞেস করছেন। ইমাম এটিকে সংজ্ঞায়িত করেন: 'সেই প্রভু যার দিকে ছোট ও বড় সকল ব্যাপারে রজু করা হয়।' এই ব্যবহারিক সংজ্ঞাটি আস-সামাদকে নিছক বিমূর্ত ধর্মতাত্ত্বিক গুণ হিসেবে নয়, বরং আল্লাহর সেই ভূমিকার বর্ণনা হিসেবে উপস্থাপন করে যেখানে সমস্ত সৃষ্টি প্রতিটি প্রয়োজনে তাঁর দিকে মুখ ফেরায়।",
+            "de": "Dieses Hadith überliefert die Frage von Dawud ibn al-Qasim al-Ja'fari an Imam Muhammad al-Jawad (F) — den neunten Imam — über die Bedeutung des Gottesnamens 'Al-Samad' in Sure al-Ichlas (112:2). Der Imam definiert ihn als 'den Herrn, zu dem man sich in allen Angelegenheiten wendet, ob klein oder groß.' Diese praktische Definition stellt Al-Samad nicht als bloß abstraktes theologisches Attribut dar, sondern als Beschreibung der funktionalen Rolle Gottes als letzte Zuflucht, zu der sich die gesamte Schöpfung in ihrer Abhängigkeit wendet.",
+            "en": "This hadith records Dawud ibn al-Qasim al-Ja'fari asking Imam Muhammad al-Jawad (AS) — the ninth Imam — about the meaning of the Divine Name 'Al-Samad' from Surah al-Ikhlas (112:2). The Imam defines it as 'the Master to whom one turns in all matters, whether small or great,' emphasizing that God is the ultimate recourse for every need. This practical definition situates Al-Samad not merely as an abstract theological attribute but as a description of God's functional role as the one to whom all creation constantly turns in dependence.",
+            "es": "Este hadiz narra la pregunta de Dawud ibn al-Qasim al-Ja'fari al Imam Muhammad al-Jawad (P) — el noveno Imam — sobre el significado del Nombre Divino 'Al-Samad' en la Sura al-Ijlas (112:2). El Imam lo define como 'el Señor al que uno se dirige en toda circunstancia, sea pequeña o grande.' Esta definición práctica sitúa Al-Samad no como un mero atributo teológico abstracto, sino como una descripción del papel funcional de Dios como el recurso último al que toda la creación acude en dependencia.",
+            "fa": "این حدیث گزارشی از داوود بن القاسم الجعفری است که از امام محمد جواد علیه السلام — نهمین امام — درباره معنای اسم الهی 'الصمد' در سوره اخلاص (112:2) می‌پرسد. امام آن را چنین تعریف می‌کند: «آقایی که در اندک و بسیار به او روی می‌آورند.» این تعریف، صمد را نه صرفاً یک صفت انتزاعی، بلکه توصیفی از نقش عملی خداوند به عنوان مرجع نهایی برای همه نیازهای خلق معرفی می‌کند.",
+            "fr": "Ce hadith rapporte la question de Dawud ibn al-Qasim al-Ja'fari à l'Imam Muhammad al-Jawad (P) — le neuvième Imam — sur la signification du Nom Divin 'Al-Samad' dans la Sourate al-Ikhlâs (112:2). L'Imam le définit comme 'le Maître vers lequel on se tourne dans toutes les circonstances, petites ou grandes.' Cette définition pratique situe Al-Samad non pas comme un simple attribut théologique abstrait, mais comme une description du rôle fonctionnel de Dieu en tant que recours ultime vers lequel toute la création se tourne dans sa dépendance.",
+            "id": "Hadis ini mencatat Dawud bin al-Qasim al-Ja'fari bertanya kepada Imam Muhammad al-Jawad (AS) — Imam kesembilan — tentang makna Nama Ilahi 'Al-Samad' dalam Surah al-Ikhlas (112:2). Imam mendefinisikannya sebagai 'Tuan yang dijadikan tempat kembali dalam segala urusan, baik yang kecil maupun yang besar.' Definisi praktis ini menempatkan Al-Samad bukan hanya sebagai atribut teologis abstrak, melainkan sebagai gambaran peran Allah sebagai tempat bergantung bagi seluruh makhluk.",
+            "ru": "Этот хадис передаёт вопрос Давуда ибн аль-Касима аль-Джа'фари к Имаму Мухаммаду аль-Джаваду (мир ему) — девятому Имаму — о значении Божественного Имени «Ас-Самад» в Суре аль-Ихлас (112:2). Имам определяет его как «Господина, к которому обращаются во всех делах — малых и великих». Это практическое определение представляет Ас-Самад не просто как абстрактный теологический атрибут, но как описание функциональной роли Бога как конечного прибежища, к которому всё творение постоянно обращается в своей нужде.",
+            "tr": "Bu hadis, Davud b. el-Kasım el-Ca'feri'nin dokuzuncu İmam Muhammed el-Cevad'a (a.s.) İhlâs Sûresi'ndeki (112:2) 'es-Samed' İlahî ismi hakkında sormasını aktarmaktadır. İmam bu ismi 'az da olsa çok da olsa her meselede kendisine başvurulan Efendi' olarak tanımlamıştır. Bu tanım, es-Samed'i salt soyut bir ilahiyat kavramı olmaktan çıkarıp Allah'ın yaratıkların her ihtiyaçta müracaat ettiği pratik rolünü ortaya koymaktadır.",
+            "ur": "یہ حدیث داؤد بن القاسم الجعفری کا امام محمد الجواد علیہ السلام سے سورہ اخلاص (112:2) کے اسم الہٰی 'الصمد' کا معنی پوچھنے کا واقعہ بیان کرتی ہے۔ امام نے اسے 'وہ آقا جس کی طرف چھوٹے بڑے تمام معاملات میں رجوع کیا جاتا ہے' کے طور پر بیان فرمایا۔ یہ تعریف الصمد کو محض ایک فلسفیانہ صفت نہیں بلکہ اللہ کے اس کردار کی وضاحت کرتی ہے کہ تمام مخلوق اپنی ہر ضرورت میں اسی کی طرف رجوع کرتی ہے۔",
+            "zh": "此段圣训记录了达乌德·本·卡西姆·贾法里向第九任伊玛目穆罕默德·贾瓦德（愿主赐他平安）询问《忠诚章》（112:2）中神圣名称「萨马德」之含义。伊玛目将其定义为「在大小事务中都被求助的主人」，强调真主是应对一切需求的终极归宿。这一实用性定义将萨马德不仅视为抽象的神学属性，更是对真主作为万物所依赖的终极求助者这一功能性角色的描述。"
+          },
+          "tags": [
+            "theology",
+            "quran_commentary"
+          ],
+          "topics": [
+            "divine_attributes",
+            "tawhid",
+            "quran_interpretation_method"
+          ],
+          "word_analysis": [
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আলী",
+                "de": "Ali",
+                "en": "Ali",
+                "es": "Ali",
+                "fa": "علی",
+                "fr": "Ali",
+                "id": "Ali",
+                "ru": "Али",
+                "tr": "Ali",
+                "ur": "علی",
+                "zh": "阿里"
+              },
+              "word": "عَلِيُّ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইবনে",
+                "de": "Sohn von",
+                "en": "son of",
+                "es": "hijo de",
+                "fa": "بن",
+                "fr": "fils de",
+                "id": "bin/putra",
+                "ru": "ибн/сын",
+                "tr": "bin/oğlu",
+                "ur": "بن",
+                "zh": "之子"
+              },
+              "word": "بْنُ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "মুহাম্মাদ",
+                "de": "Muhammad",
+                "en": "Muhammad",
+                "es": "Muhammad",
+                "fa": "محمد",
+                "fr": "Muhammad",
+                "id": "Muhammad",
+                "ru": "Мухаммад",
+                "tr": "Muhammed",
+                "ur": "محمد",
+                "zh": "穆罕默德"
+              },
+              "word": "مُحَمَّدٍ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "এবং মুহাম্মাদ",
+                "de": "und Muhammad",
+                "en": "and Muhammad",
+                "es": "y Muhammad",
+                "fa": "و محمد",
+                "fr": "et Muhammad",
+                "id": "dan Muhammad",
+                "ru": "и Мухаммад",
+                "tr": "ve Muhammed",
+                "ur": "اور محمد",
+                "zh": "和穆罕默德"
+              },
+              "word": "وَمُحَمَّدُ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইবনে",
+                "de": "Sohn von",
+                "en": "son of",
+                "es": "hijo de",
+                "fa": "بن",
+                "fr": "fils de",
+                "id": "bin/putra",
+                "ru": "ибн/сын",
+                "tr": "bin/oğlu",
+                "ur": "بن",
+                "zh": "之子"
+              },
+              "word": "بْنُ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আল-হাসান",
+                "de": "al-Hasan",
+                "en": "al-Hasan",
+                "es": "al-Hasan",
+                "fa": "الحسن",
+                "fr": "al-Hasan",
+                "id": "al-Hasan",
+                "ru": "аль-Хасан",
+                "tr": "el-Hasan",
+                "ur": "الحسن",
+                "zh": "哈桑"
+              },
+              "word": "الْحَسَنِ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "থেকে",
+                "de": "von",
+                "en": "from",
+                "es": "de",
+                "fa": "از",
+                "fr": "de",
+                "id": "dari",
+                "ru": "от",
+                "tr": "-den",
+                "ur": "سے",
+                "zh": "从"
+              },
+              "word": "عَنْ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "সাহল",
+                "de": "Sahl",
+                "en": "Sahl",
+                "es": "Sahl",
+                "fa": "سهل",
+                "fr": "Sahl",
+                "id": "Sahl",
+                "ru": "Сахл",
+                "tr": "Sehl",
+                "ur": "سہل",
+                "zh": "萨赫勒"
+              },
+              "word": "سَهْلِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইবনে",
+                "de": "Sohn von",
+                "en": "son of",
+                "es": "hijo de",
+                "fa": "بن",
+                "fr": "fils de",
+                "id": "bin/putra",
+                "ru": "ибн/сын",
+                "tr": "bin/oğlu",
+                "ur": "بن",
+                "zh": "之子"
+              },
+              "word": "بْنِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "যিয়াদ",
+                "de": "Ziyad",
+                "en": "Ziyad",
+                "es": "Ziyad",
+                "fa": "زیاد",
+                "fr": "Ziyad",
+                "id": "Ziyad",
+                "ru": "Зийад",
+                "tr": "Ziyad",
+                "ur": "زیاد",
+                "zh": "齐亚德"
+              },
+              "word": "زِيَادٍ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "থেকে",
+                "de": "von",
+                "en": "from",
+                "es": "de",
+                "fa": "از",
+                "fr": "de",
+                "id": "dari",
+                "ru": "от",
+                "tr": "-den",
+                "ur": "سے",
+                "zh": "从"
+              },
+              "word": "عَنْ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "মুহাম্মাদ",
+                "de": "Muhammad",
+                "en": "Muhammad",
+                "es": "Muhammad",
+                "fa": "محمد",
+                "fr": "Muhammad",
+                "id": "Muhammad",
+                "ru": "Мухаммад",
+                "tr": "Muhammed",
+                "ur": "محمد",
+                "zh": "穆罕默德"
+              },
+              "word": "مُحَمَّدِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইবনে",
+                "de": "Sohn von",
+                "en": "son of",
+                "es": "hijo de",
+                "fa": "بن",
+                "fr": "fils de",
+                "id": "bin/putra",
+                "ru": "ибн/сын",
+                "tr": "bin/oğlu",
+                "ur": "بن",
+                "zh": "之子"
+              },
+              "word": "بْنِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আল-ওয়ালীদ",
+                "de": "al-Walid",
+                "en": "al-Walid",
+                "es": "al-Walid",
+                "fa": "الولید",
+                "fr": "al-Walid",
+                "id": "al-Walid",
+                "ru": "аль-Валид",
+                "tr": "el-Velid",
+                "ur": "الولید",
+                "zh": "瓦利德"
+              },
+              "word": "الْوَلِيدِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "এবং তার উপনাম",
+                "de": "und sein Beiname ist",
+                "en": "and his title/nickname is",
+                "es": "y su apodo es",
+                "fa": "و لقبش",
+                "fr": "et son surnom est",
+                "id": "dan julukannya",
+                "ru": "и его прозвище",
+                "tr": "ve lakabı",
+                "ur": "اور اس کا لقب ہے",
+                "zh": "他的绰号是"
+              },
+              "word": "وَلَقَبُهُ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "শাবাব (যুবক)",
+                "de": "Shabab (der Junge)",
+                "en": "Shabab (the Young)",
+                "es": "Shabab (el Joven)",
+                "fa": "شباب (جوان)",
+                "fr": "Shabab (le Jeune)",
+                "id": "Syabab (Muda)",
+                "ru": "Шабаб (Молодой)",
+                "tr": "Şebab (Genç)",
+                "ur": "شباب (نوجوان)",
+                "zh": "沙巴布（年轻的）"
+              },
+              "word": "شَبَابٌ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আস-সাইরাফী (মুদ্রা বিনিময়কারী)",
+                "de": "al-Sayrafi (der Geldwechsler)",
+                "en": "al-Sayrafi (the moneychanger)",
+                "es": "al-Sayrafi (el cambista)",
+                "fa": "الصیرفی (صراف)",
+                "fr": "al-Sayrafi (le changeur)",
+                "id": "al-Sayrafi (penukar uang)",
+                "ru": "ас-Сайрафи (меняла)",
+                "tr": "el-Sayrafi (sarraf)",
+                "ur": "الصیرفی (صراف)",
+                "zh": "萨伊拉菲（钱商）"
+              },
+              "word": "الصَّيْرَفِيُّ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "থেকে",
+                "de": "von",
+                "en": "from",
+                "es": "de",
+                "fa": "از",
+                "fr": "de",
+                "id": "dari",
+                "ru": "от",
+                "tr": "-den",
+                "ur": "سے",
+                "zh": "从"
+              },
+              "word": "عَنْ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "দাউদ",
+                "de": "Dawud",
+                "en": "Dawud",
+                "es": "Dawud",
+                "fa": "داوود",
+                "fr": "Dawud",
+                "id": "Dawud",
+                "ru": "Давуд",
+                "tr": "Davud",
+                "ur": "داؤد",
+                "zh": "达吾德"
+              },
+              "word": "دَاوُدَ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "ইবনে",
+                "de": "Sohn von",
+                "en": "son of",
+                "es": "hijo de",
+                "fa": "بن",
+                "fr": "fils de",
+                "id": "bin/putra",
+                "ru": "ибн/сын",
+                "tr": "bin/oğlu",
+                "ur": "بن",
+                "zh": "之子"
+              },
+              "word": "بْنِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আল-কাসিম",
+                "de": "al-Qasim",
+                "en": "al-Qasim",
+                "es": "al-Qasim",
+                "fa": "القاسم",
+                "fr": "al-Qasim",
+                "id": "al-Qasim",
+                "ru": "аль-Касим",
+                "tr": "el-Kasım",
+                "ur": "القاسم",
+                "zh": "卡西姆"
+              },
+              "word": "الْقَاسِمِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আল-জা'ফারী",
+                "de": "al-Ja'fari",
+                "en": "al-Ja'fari",
+                "es": "al-Ja'fari",
+                "fa": "الجعفری",
+                "fr": "al-Ja'fari",
+                "id": "al-Ja'fari",
+                "ru": "аль-Джа'фари",
+                "tr": "el-Ca'feri",
+                "ur": "الجعفری",
+                "zh": "贾法里"
+              },
+              "word": "الْجَعْفَرِيِّ"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "তিনি বললেন",
+                "de": "er sagte",
+                "en": "he said",
+                "es": "dijo",
+                "fa": "گفت",
+                "fr": "il dit",
+                "id": "ia berkata",
+                "ru": "он сказал",
+                "tr": "dedi",
+                "ur": "اس نے کہا",
+                "zh": "他说"
+              },
+              "word": "قَالَ"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "আমি বললাম",
+                "de": "ich sagte",
+                "en": "I said",
+                "es": "dije",
+                "fa": "گفتم/عرض کردم",
+                "fr": "je dis",
+                "id": "aku berkata",
+                "ru": "я сказал",
+                "tr": "dedim/sordum",
+                "ur": "میں نے کہا/عرض کیا",
+                "zh": "我说"
+              },
+              "word": "قُلْتُ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "আবুকে",
+                "de": "zu Abu",
+                "en": "to Abu",
+                "es": "a Abu",
+                "fa": "به ابو",
+                "fr": "à Abu",
+                "id": "kepada Abu",
+                "ru": "к Абу",
+                "tr": "Ebu'ya",
+                "ur": "ابو کو",
+                "zh": "对阿布"
+              },
+              "word": "لِأَبِي"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "জা'ফার",
+                "de": "Ja'far",
+                "en": "Ja'far",
+                "es": "Ja'far",
+                "fa": "جعفر",
+                "fr": "Ja'far",
+                "id": "Ja'far",
+                "ru": "Джа'фар",
+                "tr": "Ca'fer",
+                "ur": "جعفر",
+                "zh": "贾法尔"
+              },
+              "word": "جَعْفَرٍ"
+            },
+            {
+              "pos": "ADJ",
+              "translation": {
+                "bn": "দ্বিতীয়",
+                "de": "der Zweite",
+                "en": "the Second",
+                "es": "el Segundo",
+                "fa": "دوم",
+                "fr": "le Second",
+                "id": "yang kedua",
+                "ru": "второй",
+                "tr": "ikinci",
+                "ur": "دوسرے",
+                "zh": "第二"
+              },
+              "word": "الثَّانِي"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "তাঁর উপর",
+                "de": "auf ihm",
+                "en": "upon him",
+                "es": "sobre él",
+                "fa": "بر او",
+                "fr": "sur lui",
+                "id": "atasnya",
+                "ru": "на нём",
+                "tr": "ona",
+                "ur": "اس پر",
+                "zh": "在他之上"
+              },
+              "word": "عَلَيْهِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "শান্তি",
+                "de": "Friede",
+                "en": "peace",
+                "es": "paz",
+                "fa": "سلام",
+                "fr": "paix",
+                "id": "salam/kedamaian",
+                "ru": "мир",
+                "tr": "selam",
+                "ur": "سلام",
+                "zh": "平安"
+              },
+              "word": "السَّلَامُ"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "আমাকে বানানো হোক",
+                "de": "ich sei gemacht",
+                "en": "may I be made",
+                "es": "que yo sea",
+                "fa": "فدایت شوم",
+                "fr": "que je sois",
+                "id": "semoga aku menjadi",
+                "ru": "да буду я",
+                "tr": "feda olayım",
+                "ur": "میں فدا ہوجاؤں",
+                "zh": "让我成为"
+              },
+              "word": "جُعِلْتُ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আপনার জন্য উৎসর্গীকৃত",
+                "de": "dein Lösegeld (möge ich für dich geopfert werden)",
+                "en": "your ransom/sacrifice (may I be sacrificed for you)",
+                "es": "tu rescate (que sea yo sacrificado por ti)",
+                "fa": "فدایت",
+                "fr": "ton sacrifice (que je sois sacrifié pour toi)",
+                "id": "tebusanmu (semoga aku jadi tebusanmu)",
+                "ru": "твоим выкупом (да буду я принесён в жертву за тебя)",
+                "tr": "sana feda",
+                "ur": "آپ پر فدا",
+                "zh": "为你赎身（愿我为你牺牲）"
+              },
+              "word": "فِدَاكَ"
+            },
+            {
+              "pos": "INTERR",
+              "translation": {
+                "bn": "কী",
+                "de": "was ist",
+                "en": "what is",
+                "es": "qué es",
+                "fa": "چیست",
+                "fr": "qu'est-ce que",
+                "id": "apa",
+                "ru": "что такое",
+                "tr": "nedir",
+                "ur": "کیا ہے",
+                "zh": "什么是"
+              },
+              "word": "مَا"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আস-সামাদ (চিরন্তন আশ্রয়/স্বয়ংসম্পূর্ণ)",
+                "de": "Al-Samad (die ewige Zuflucht/der Selbstgenügende)",
+                "en": "Al-Samad (the Eternal Refuge/the Self-Sufficient)",
+                "es": "Al-Samad (el Eterno Refugio/el Autosuficiente)",
+                "fa": "الصمد (بی‌نیاز/پناهگاه ابدی)",
+                "fr": "Al-Samad (le Refuge Éternel/le Suffisant en Lui-même)",
+                "id": "Al-Samad (Tempat bergantung/Yang Maha Sempurna)",
+                "ru": "Ас-Самад (вечное прибежище/Самодостаточный)",
+                "tr": "Es-Samed (Sonsuz Sığınak/Muhtaç Olunmayan)",
+                "ur": "الصمد (بے نیاز/ابدی پناہ)",
+                "zh": "萨马德（永恒的庇护所/自足的）"
+              },
+              "word": "الصَّمَدُ"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "তিনি বললেন",
+                "de": "er sagte",
+                "en": "he said",
+                "es": "dijo",
+                "fa": "فرمود",
+                "fr": "il dit",
+                "id": "beliau bersabda",
+                "ru": "он сказал",
+                "tr": "buyurdu",
+                "ur": "آپ نے فرمایا",
+                "zh": "他说"
+              },
+              "word": "قَالَ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "প্রভু/সাইয়্যিদ",
+                "de": "der Herr/Meister",
+                "en": "the Master/Lord",
+                "es": "el Señor",
+                "fa": "سید/آقا",
+                "fr": "le Maître/Seigneur",
+                "id": "Tuan/Penguasa",
+                "ru": "Господин/Владыка",
+                "tr": "efendi/seyyid",
+                "ur": "سیّد/آقا",
+                "zh": "主人/主宰"
+              },
+              "word": "السَّيِّدُ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "যার কাছে আশ্রয় নেওয়া হয়",
+                "de": "der, zu dem man Zuflucht nimmt",
+                "en": "the one resorted to/turned to",
+                "es": "al que se recurre",
+                "fa": "آنکه به او روی می‌آورند",
+                "fr": "celui vers lequel on se tourne",
+                "id": "yang dituju/ditempat bergantung",
+                "ru": "к которому обращаются",
+                "tr": "başvurulan/sığınılan",
+                "ur": "جس کی طرف رجوع کیا جائے",
+                "zh": "被求助的那位"
+              },
+              "word": "الْمَصْمُودُ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "তাঁর কাছে",
+                "de": "zu Ihm",
+                "en": "to Him",
+                "es": "a Él",
+                "fa": "به سوی او",
+                "fr": "vers Lui",
+                "id": "kepada-Nya",
+                "ru": "к Нему",
+                "tr": "O'na",
+                "ur": "اس کی طرف",
+                "zh": "向祂"
+              },
+              "word": "إِلَيْهِ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "বিষয়ে",
+                "de": "in/bezüglich",
+                "en": "in/regarding",
+                "es": "en/respecto a",
+                "fa": "در",
+                "fr": "dans/concernant",
+                "id": "dalam/mengenai",
+                "ru": "в/относительно",
+                "tr": "-de/-da",
+                "ur": "میں",
+                "zh": "在/关于"
+              },
+              "word": "فِي"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "সামান্য বিষয়",
+                "de": "das Wenige/die kleinen Dinge",
+                "en": "the little/small matters",
+                "es": "lo poco",
+                "fa": "اندک",
+                "fr": "le peu/les petites choses",
+                "id": "hal yang sedikit",
+                "ru": "малом",
+                "tr": "az olan",
+                "ur": "تھوڑے (معاملات)",
+                "zh": "小事"
+              },
+              "word": "الْقَلِيلِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "এবং বেশি বিষয়",
+                "de": "und das Viele/die großen Dinge",
+                "en": "and the much/great matters",
+                "es": "y lo mucho",
+                "fa": "و بسیار",
+                "fr": "et le beaucoup/les grandes choses",
+                "id": "dan hal yang banyak",
+                "ru": "и многом",
+                "tr": "ve çok olan",
+                "ur": "اور بہت (معاملات)",
+                "zh": "和大事"
+              },
+              "word": "وَالْكَثِيرِ"
+            }
+          ]
+        },
         "gradings": [
           "Allamah Baqir al-Majlisi: <span> ضعيف على المشهور    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (2/60)",
           "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -102,6 +1074,1072 @@
         }
       },
       {
+        "ai": {
+          "ai_attribution": {
+            "generated_date": "2026-02-28",
+            "model": "claude-sonnet-4-6",
+            "pipeline_version": "2.0.0"
+          },
+          "chunks": [
+            {
+              "chunk_type": "opening",
+              "translations": {
+                "bn": "আমি আবু জাফর আলাইহিস সালামকে তাওহীদ সম্পর্কে কিছু জিজ্ঞেস করলাম, তখন তিনি বললেন:",
+                "de": "Ich fragte Abu Ja'far (Friede sei mit ihm) über etwas bezüglich des Tawhid, und er sagte:",
+                "en": "I asked Abu Ja'far (peace be upon him) about something concerning tawhid, and he said:",
+                "es": "Pregunté a Abu Ja'far (la paz sea con él) sobre algo concerniente al tawhid, y dijo:",
+                "fa": "از ابوجعفر علیه السلام درباره چیزی از توحید پرسیدم، پس فرمود:",
+                "fr": "J'ai demandé à Abu Ja'far (que la paix soit sur lui) à propos de quelque chose concernant le tawhid, et il dit :",
+                "id": "Aku bertanya kepada Abu Ja'far (alaihis salam) tentang sesuatu mengenai tauhid, maka beliau bersabda:",
+                "ru": "Я спросил Абу Джа'фара (мир ему) о чём-то касающемся таухида, и он сказал:",
+                "tr": "Ebu Cafer'e (a.s.) tevhid hakkında bir şey sordum, buyurdu ki:",
+                "ur": "میں نے ابو جعفر علیہ السلام سے توحید کے بارے میں کچھ پوچھا، تو آپ نے فرمایا:",
+                "zh": "我向阿布·贾法尔（愿主赐他平安）询问有关认主独一的问题，他说："
+              },
+              "word_end": 10,
+              "word_start": 0
+            },
+            {
+              "chunk_type": "body",
+              "translations": {
+                "bn": "নিশ্চয়ই আল্লাহ — তাঁর নামগুলো বরকতময় যা দিয়ে তাঁকে ডাকা হয়, এবং তিনি তাঁর সত্তার রফআতে সর্বোচ্চ — তিনি এক। তিনি তাঁর একত্বে তাওহীদের মাধ্যমে অদ্বিতীয় হলেন, তারপর তা তাঁর সৃষ্টির মধ্যে জারি করলেন।",
+                "de": "Wahrlich Allah — gesegnet seien Seine Namen, mit denen Er angerufen wird, und Erhaben ist Er in der Erhabenheit Seines Wesens — ist Einer. Er singularisierte Sich durch die Einheit in Seiner Einzigkeit, dann ließ Er sie über Seine Schöpfung fließen.",
+                "en": "Indeed Allah — blessed are His names by which He is called, and Exalted is He in the loftiness of His essence — is One. He singularized Himself with oneness in His uniqueness, then caused it to flow upon His creation.",
+                "es": "Ciertamente Allah — benditos son Sus nombres por los que es invocado, y Exaltado es Él en la sublimidad de Su esencia — es Uno. Él se singularizó con la unicidad en Su singularidad, luego la hizo fluir sobre Su creación.",
+                "fa": "همانا الله — مبارک باد نام‌هایش که با آنها خوانده می‌شود و متعال است در رفعت کنه ذاتش — یکتاست. در یگانگی خود به توحید یگانگی گزید، سپس آن را بر خلقش جاری ساخت.",
+                "fr": "Certes Allah — bénis soient Ses noms par lesquels Il est invoqué, et le Très-Haut est-Il dans la sublimité de Son essence — est Un. Il s'est singularisé par l'unicité dans Son unicité, puis Il l'a fait couler sur Sa création.",
+                "id": "Sesungguhnya Allah — berkah nama-namaNya yang dengannya Dia diseru, dan Maha Tinggi Dia dalam keluhuran hakikat zatNya — adalah Satu. Dia menyingkap ketunggalanNya melalui tauhid dalam keesaanNya, kemudian mengalirkannya kepada makhlukNya.",
+                "ru": "Воистину Аллах — благословенны Его имена, которыми Он призывается, и Возвышен Он в возвышенности Своей сути — Един. Он явил Своё единство через таухид в Своей единственности, затем ниспослал его на Своё творение.",
+                "tr": "Muhakkak Allah — O'nun çağırıldığı isimleri mübarek olsun ve O kendi yüce zatının yüceliğinde Yüce'dir — Bir'dir. Kendi tekliğinde tevhid aracılığıyla tekliğini ortaya koydu, sonra bunu yaratıklarına jari kıldı.",
+                "ur": "بے شک اللہ — مبارک ہیں اس کے وہ نام جن سے اسے پکارا جاتا ہے، اور بلند ہے وہ اپنی ذات کی رفعت میں — واحد ہے۔ اس نے اپنی یکتائی میں توحید کے ذریعے واحد ہونے کا اظہار کیا، پھر اسے اپنی مخلوق پر جاری کیا۔",
+                "zh": "确实真主——祂被召唤的名字是吉祥的，祂在祂本质的崇高中至高无上——是独一的。祂在自身的独一性中以独一性彰显了独一，然后将其贯注于祂的造化。"
+              },
+              "word_end": 30,
+              "word_start": 10
+            },
+            {
+              "chunk_type": "body",
+              "translations": {
+                "bn": "সুতরাং তিনি একক, সমাদ, পবিত্র। সবকিছু তাঁকে উপাসনা করে এবং সবকিছু তাঁর দিকে রুজু করে, এবং তিনি তাঁর জ্ঞানে সবকিছু পরিব্যাপ্ত করেন।",
+                "de": "So ist Er Einer, Samad, Heilig. Alles betet Ihn an und alles wendet sich Ihm zu, und Er umfasst alles im Wissen.",
+                "en": "So He is One, Samad, Holy. Everything worships Him and everything turns toward Him, and He encompasses all things in knowledge.",
+                "es": "Así, Él es Uno, Samad, Santísimo. Todo Lo adora y todo se dirige hacia Él, y Él abarca todo en conocimiento.",
+                "fa": "پس او واحد است، صمد است، قدوس است. هر چیزی او را می‌پرستد و هر چیزی به سوی او روی می‌آورد، و به علم هر چیزی را فرا گرفته است.",
+                "fr": "Il est donc Un, Samad, le Très Saint. Tout L'adore et tout se tourne vers Lui, et Il embrasse toute chose en connaissance.",
+                "id": "Maka Dia adalah Satu, Samad, Maha Suci. Segala sesuatu menyembahNya dan segala sesuatu berpaling kepadaNya, dan Dia meliputi segala sesuatu dengan ilmuNya.",
+                "ru": "И Он — Единый, Самад, Пресвятой. Всё поклоняется Ему и всё обращается к Нему, и Он объемлет всё Своим знанием.",
+                "tr": "Demek ki O Bir'dir, Samed'dir, Kuddüs'tür. Her şey O'na ibadet eder, her şey O'na yönelir ve O ilmiyle her şeyi kuşatmıştır.",
+                "ur": "پس وہ واحد ہے، صمد ہے، قدوس ہے۔ ہر چیز اس کی عبادت کرتی ہے اور ہر چیز اس کی طرف رجوع کرتی ہے، اور اس نے ہر چیز کو علم کے ساتھ احاطہ میں لے رکھا ہے۔",
+                "zh": "故祂是独一、萨马德、至圣的。万物崇拜祂，万物归向祂，祂以知识涵盖万物。"
+              },
+              "word_end": 45,
+              "word_start": 30
+            }
+          ],
+          "content_type": "theological",
+          "diacritics_changes": [
+            "Added full tashkeel throughout the text",
+            "شَيْ‏ءٍ → شَيْءٍ (removed zero-width non-joiner, standardized)",
+            "Added diacritics to أَسْمَاؤُهُ, كُنْهِهِ, تَوَحُّدِهِ"
+          ],
+          "diacritics_status": "completed",
+          "isnad_matn": {
+            "has_chain": true,
+            "isnad_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ أَبِي عَبْدِ اللَّهِ عَنْ مُحَمَّدِ بْنِ عِيسَى عَنْ يُونُسَ بْنِ عَبْدِ الرَّحْمَنِ عَنِ الْحَسَنِ بْنِ السَّرِيِّ عَنْ جَابِرِ بْنِ يَزِيدَ الْجُعْفِيِّ قَالَ",
+            "matn_ar": "سَأَلْتُ أَبَا جَعْفَرٍ عَلَيْهِ السَّلَامُ عَنْ شَيْءٍ مِنَ التَّوْحِيدِ فَقَالَ إِنَّ اللَّهَ تَبَارَكَتْ أَسْمَاؤُهُ الَّتِي يُدْعَا بِهَا وَتَعَالَى فِي عُلُوِّ كُنْهِهِ وَاحِدٌ تَوَحَّدَ بِالتَّوْحِيدِ فِي تَوَحُّدِهِ ثُمَّ أَجْرَاهُ عَلَى خَلْقِهِ فَهُوَ وَاحِدٌ صَمَدٌ قُدُّوسٌ يَعْبُدُهُ كُلُّ شَيْءٍ وَيَصْمُدُ إِلَيْهِ كُلُّ شَيْءٍ وَوَسِعَ كُلَّ شَيْءٍ عِلْماً",
+            "narrators": [
+              {
+                "ambiguity_note": "Generic reference to multiple unnamed companions/students of al-Kulayni. Common formula in al-Kafi.",
+                "identity_confidence": "ambiguous",
+                "known_identity": null,
+                "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+                "name_en": "A number of our companions",
+                "position": 1,
+                "role": "narrator"
+              },
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Ahmad ibn Muhammad ibn Khalid al-Barqi (d. 274 AH), known as Ibn Abi Abdillah al-Barqi, author of al-Mahasin",
+                "name_ar": "أَحْمَدُ بْنُ أَبِي عَبْدِ اللَّهِ",
+                "name_en": "Ahmad ibn Abi Abdillah",
+                "position": 2,
+                "role": "narrator"
+              },
+              {
+                "ambiguity_note": "Most likely Muhammad ibn Isa ibn Ubayd al-Yaqtini, a prominent narrator in al-Kafi.",
+                "identity_confidence": "likely",
+                "known_identity": "Muhammad ibn Isa ibn Ubayd al-Yaqtini",
+                "name_ar": "مُحَمَّدُ بْنُ عِيسَى",
+                "name_en": "Muhammad ibn Isa",
+                "position": 3,
+                "role": "narrator"
+              },
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Yunus ibn Abd al-Rahman, a prominent companion of Imams al-Sadiq, al-Kazim, and al-Ridha (AS)",
+                "name_ar": "يُونُسُ بْنُ عَبْدِ الرَّحْمَنِ",
+                "name_en": "Yunus ibn Abd al-Rahman",
+                "position": 4,
+                "role": "narrator"
+              },
+              {
+                "ambiguity_note": "Likely al-Hasan ibn al-Sarri al-Katib, a narrator in the early Shia tradition.",
+                "identity_confidence": "likely",
+                "known_identity": "al-Hasan ibn al-Sarri al-Katib",
+                "name_ar": "الْحَسَنُ بْنُ السَّرِيِّ",
+                "name_en": "al-Hasan ibn al-Sarri",
+                "position": 5,
+                "role": "narrator"
+              },
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Jabir ibn Yazid al-Ju'fi (d. c. 128 AH), a renowned companion of Imam al-Baqir (AS) and Imam al-Sadiq (AS), known for transmitting deep theological teachings",
+                "name_ar": "جَابِرُ بْنُ يَزِيدَ الْجُعْفِيُّ",
+                "name_en": "Jabir ibn Yazid al-Ju'fi",
+                "position": 6,
+                "role": "companion"
+              },
+              {
+                "ambiguity_note": null,
+                "identity_confidence": "definite",
+                "known_identity": "Imam Muhammad al-Baqir (AS), the fifth Imam (d. 114 AH)",
+                "name_ar": "أَبُو جَعْفَرٍ",
+                "name_en": "Abu Ja'far",
+                "position": 7,
+                "role": "imam",
+                "word_ranges": [
+                  {
+                    "word_end": 3,
+                    "word_start": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "key_phrases": [
+            {
+              "category": "prophetic_formula",
+              "phrase_ar": "تَبَارَكَتْ أَسْمَاؤُهُ",
+              "phrase_en": "Blessed are His names"
+            },
+            {
+              "category": "theological_concept",
+              "phrase_ar": "عُلُوِّ كُنْهِهِ",
+              "phrase_en": "The loftiness of His essence/reality"
+            },
+            {
+              "category": "theological_concept",
+              "phrase_ar": "تَوَحَّدَ بِالتَّوْحِيدِ",
+              "phrase_en": "He singularized Himself through oneness"
+            },
+            {
+              "category": "theological_concept",
+              "phrase_ar": "وَاحِدٌ صَمَدٌ قُدُّوسٌ",
+              "phrase_en": "One, Samad, Holy (the three divine names)"
+            },
+            {
+              "category": "theological_concept",
+              "phrase_ar": "يَعْبُدُهُ كُلُّ شَيْءٍ",
+              "phrase_en": "Everything worships Him"
+            }
+          ],
+          "key_terms": {
+            "bn": {
+              "التوحيد": "তাওহীদ — আল্লাহর একত্বের মূল ইসলামী আকিদা",
+              "الصمد": "আস-সমাদ — সূরা ইখলাসে (১১২:২) উল্লিখিত কুরআনিক ঐশী নাম, অর্থ চিরস্থায়ী ও স্বনির্ভর",
+              "القدوس": "আল-কুদ্দুস — আল্লাহর নাম যার অর্থ সমস্ত ত্রুটি থেকে পবিত্র"
+            },
+            "de": {
+              "التوحيد": "Tawhid — grundlegende islamische Doktrin der göttlichen Einheit",
+              "الصمد": "Al-Samad — koranischer Gottesname (Sure 112:2), der Ewige und Selbstgenügende",
+              "القدوس": "Al-Quddus — Gottesname, der den Allerheiligsten bezeichnet, frei von jeder Unvollkommenheit"
+            },
+            "en": {
+              "التوحيد": "Tawhid — divine unity, the foundational Islamic doctrine that God is absolutely one",
+              "الصمد": "Al-Samad — a Quranic divine name (112:2) meaning the Eternal Self-Sufficient, upon whom all depend",
+              "القدوس": "Al-Quddus — one of the Beautiful Names of God, meaning the All-Holy, transcending all deficiencies",
+              "توحّد": "Tawahhada — God's act of manifesting His absolute oneness unto Himself before extending it to creation",
+              "كنهه": "Kunhihi — the innermost essence/reality of a thing; referring to God's inscrutable essence"
+            },
+            "es": {
+              "التوحيد": "Tawhid — doctrina islámica fundamental de la unicidad divina",
+              "الصمد": "Al-Samad — nombre divino coránico (Sura 112:2), el Eterno y Autosuficiente",
+              "القدوس": "Al-Quddus — nombre de Dios que significa el Santísimo, exento de toda imperfección"
+            },
+            "fa": {
+              "التوحيد": "توحید — بنیادی اعتقاد اسلامی به یکتایی خداوند",
+              "الصمد": "الصمد — اسم قرآنی (سوره اخلاص)، یعنی کسی که همه به او نیاز دارند اما او به کسی نیاز ندارد",
+              "القدوس": "القدوس — اسم خداوند که دلالت بر پاکی مطلق و تنزه از هر نقصی دارد"
+            },
+            "fr": {
+              "التوحيد": "Tawhid — doctrine islamique fondamentale de l'unicité divine",
+              "الصمد": "Al-Samad — nom divin coranique (Sourate 112:2), l'Éternel et Autosuffisant",
+              "القدوس": "Al-Quddus — nom de Dieu signifiant le Très Saint, exempt de toute imperfection"
+            },
+            "id": {
+              "التوحيد": "Tauhid — doktrin keesaan Allah dalam Islam",
+              "الصمد": "Al-Samad — nama ilahi dalam Surah al-Ikhlas (112:2), berarti Yang Maha Kekal dan kepada-Nya semua bergantung",
+              "القدوس": "Al-Quddus — nama Allah yang berarti Maha Suci dari segala kekurangan"
+            },
+            "ru": {
+              "التوحيد": "Таухид — основная исламская доктрина о единстве Бога",
+              "الصمد": "Ас-Самад — коранический Божий эпитет (Сура 112:2), Вечный и Самодостаточный",
+              "القدوس": "Аль-Куддус — имя Бога, означающее Пресвятой, свободный от всех недостатков"
+            },
+            "tr": {
+              "التوحيد": "Tevhid — Allah'ın birliği doktrini",
+              "الصمد": "Es-Samed — İhlâs suresinde (112:2) geçen, herkesin kendisine muhtaç olduğu, Ezeli ve Sonsuz",
+              "القدوس": "El-Kuddüs — Bütün noksan sıfatlardan münezzeh olan Allah'ın güzel isimlerinden biri"
+            },
+            "ur": {
+              "التوحيد": "توحید — اللہ کی وحدانیت کا بنیادی اسلامی عقیدہ",
+              "الصمد": "الصمد — قرآنی نام (سورہ اخلاص)، وہ ذات جس کی سب کو ضرورت ہو اور جو کسی کا محتاج نہ ہو",
+              "القدوس": "القدوس — اللہ کا وہ نام جو پاکیزگی اور نقائص سے بریت پر دلالت کرتا ہے"
+            },
+            "zh": {
+              "التوحيد": "认主独一（Tawhid）——伊斯兰核心教义，真主绝对独一",
+              "الصمد": "萨马德——《古兰经》神圣名号（第112章第2节），永恒自足，万物皆归向祂",
+              "القدوس": "古杜斯——真主名号之一，意为至圣，超然于一切缺陷之上"
+            }
+          },
+          "related_quran": [
+            {
+              "ref": "112:1",
+              "relationship": "thematic"
+            },
+            {
+              "ref": "112:2",
+              "relationship": "thematic"
+            },
+            {
+              "ref": "2:255",
+              "relationship": "thematic"
+            },
+            {
+              "ref": "20:8",
+              "relationship": "thematic"
+            }
+          ],
+          "seo_questions": {
+            "bn": "ইমাম আল-বাকির তাওহীদ ও আস-সমাদের অর্থ সম্পর্কে কী বলেছেন?",
+            "de": "Was sagte Imam al-Baqir über die Bedeutung von Tawhid und al-Samad?",
+            "en": "What did Imam al-Baqir say about the meaning of tawhid and al-Samad?",
+            "es": "¿Qué dijo el Imam al-Baqir sobre el significado del tawhid y al-Samad?",
+            "fa": "امام باقر علیه السلام درباره معنای توحید و صمد چه فرمودند؟",
+            "fr": "Qu'a dit l'Imam al-Baqir sur la signification du tawhid et d'al-Samad ?",
+            "id": "Apa yang dikatakan Imam al-Baqir tentang makna tauhid dan al-Samad?",
+            "ru": "Что сказал имам аль-Бакир о значении таухида и ас-Самада?",
+            "tr": "İmam Bakır tevhid ve Samed'in anlamı hakkında ne buyurmuştur?",
+            "ur": "امام باقر علیہ السلام نے توحید اور صمد کے معنی کے بارے میں کیا فرمایا؟",
+            "zh": "伊玛目巴基尔关于认主独一和萨马德的含义说了什么？"
+          },
+          "similar_content_hints": [
+            {
+              "description": "Hadiths from al-Kafi's Kitab al-Tawhid explaining the meaning of al-Samad, particularly those attributed to Imam al-Sadiq or al-Baqir that define Samad as the one to whom all beings turn in need.",
+              "theme": "explanation_of_samad"
+            },
+            {
+              "description": "Hadiths discussing the relationship between God's names (asma) and His essence (dhat), particularly in the context of Shia theological discussions on whether names and attributes are identical to or separate from the essence.",
+              "theme": "divine_names_and_essence"
+            },
+            {
+              "description": "Narrations where Imam al-Baqir or other Imams explain the meaning of Surah al-Ikhlas (112), especially the concept that God is Ahad (One) and Samad (Self-Sufficient).",
+              "theme": "tafsir_surah_ikhlas"
+            }
+          ],
+          "summaries": {
+            "bn": "জাবির ইবনে ইয়াযিদ আল-জুফি ইমাম আল-বাকির (আ.) কে তাওহীদ সম্পর্কে প্রশ্ন করেছিলেন এবং ইমাম একটি গভীর ধর্মতাত্ত্বিক উত্তর দিয়েছিলেন। এই হাদিসে আল্লাহর তিনটি মূল গুণ — ওয়াহিদ, সমাদ এবং কুদ্দুস — ব্যাখ্যা করা হয়েছে এবং শেখানো হয়েছে যে আল্লাহর নাম ও গুণাবলী তাঁর ঐশী সারসত্তার অসীমত্বকে সীমাবদ্ধ করে না।",
+            "de": "Jabir ibn Yazid al-Ju'fi befragte Imam al-Baqir (Friede sei mit ihm) über den Tawhid, und der Imam antwortete mit einer tiefen theologischen Lehre, die erklärt, dass Gottes Einheit nicht nur ein numerisches Attribut ist, sondern eine transzendente Wirklichkeit. Dieser Hadith nennt drei wesentliche Gottesnamen — al-Wahid, al-Samad und al-Quddus — und lehrt, dass Gottes Namen und Eigenschaften die absolute Transzendenz Seines Wesens nicht einschränken.",
+            "en": "Jabir ibn Yazid al-Ju'fi asked Imam al-Baqir (peace be upon him) about tawhid (divine unity), and the Imam gave a profound theological response explaining that God's oneness is not merely a numerical attribute but an intrinsic, transcendent reality. The Imam then described how this divine oneness was made manifest in creation, and enumerated three of God's most essential attributes: al-Wahid (the One), al-Samad (the Eternal Self-Sufficient), and al-Quddus (the Holy). This hadith is particularly significant as it addresses one of the most advanced concepts in Shia theology — that God's names and attributes, while blessed and invoked in supplication, do not limit or qualify the absolute transcendence of His essence.",
+            "es": "Jabir ibn Yazid al-Ju'fi preguntó al Imam al-Baqir (la paz sea con él) sobre el tawhid, y el Imam respondió con una profunda enseñanza teológica explicando que la unicidad de Dios no es meramente un atributo numérico sino una realidad trascendente. El hadith enumera tres nombres divinos esenciales — al-Wahid, al-Samad y al-Quddus — y enseña que los nombres y atributos de Dios no limitan la absoluta trascendencia de Su esencia.",
+            "fa": "جابر بن یزید الجعفی از امام باقر علیه السلام درباره توحید پرسش کرد و امام پاسخی عمیق الهیاتی داد که در آن واحدیت خداوند را نه صرف یک عدد بلکه یک حقیقت متعالی معرفی کرد. این روایت با ذکر سه اسم الهی — واحد، صمد، قدوس — یکی از بنیادی‌ترین مباحث کلام شیعی را بیان می‌کند.",
+            "fr": "Jabir ibn Yazid al-Ju'fi interrogea l'Imam al-Baqir (que la paix soit sur lui) sur le tawhid, et l'Imam répondit par un enseignement théologique profond expliquant que l'unicité de Dieu n'est pas simplement un attribut numérique mais une réalité transcendante. Ce hadith énumère trois noms divins essentiels — al-Wahid, al-Samad et al-Quddus — et enseigne que les noms et attributs de Dieu ne limitent pas la transcendance absolue de Son essence.",
+            "id": "Jabir bin Yazid al-Ju'fi bertanya kepada Imam al-Baqir (as) tentang tauhid dan Imam memberikan jawaban teologis yang mendalam tentang keesaan Allah yang bukan sekadar bilangan, melainkan realitas transenden. Hadis ini juga menjelaskan tiga nama Allah: al-Wahid, al-Samad, dan al-Quddus, serta mengajarkan bahwa nama-nama dan sifat-sifat Allah tidak membatasi kemahatransendenan esensiNya.",
+            "ru": "Джабир ибн Язид аль-Джу'фи спросил имама аль-Бакира (мир ему) о таухиде, и Имам дал глубокий теологический ответ, объясняя, что единство Бога — не просто числовой атрибут, но трансцендентная реальность. Этот хадис называет три существенных Божьих имени — аль-Вахид, ас-Самад и аль-Куддус — и учит, что имена и атрибуты Бога не ограничивают абсолютную трансцендентность Его сущности.",
+            "tr": "Cabir ibn Yezid el-Cu'fi, İmam Bakır'a (a.s.) tevhid hakkında soru sormuş ve İmam, Allah'ın birliğinin salt sayısal değil, aşkın bir gerçeklik olduğunu anlatan derin bir cevap vermiştir. Bu hadis, Allah'ın isimlerinin ve sıfatlarının, O'nun özünün mutlak aşkınlığını sınırlamadığını öğretmesi bakımından Şii kelam ilmi açısından önem taşımaktadır.",
+            "ur": "جابر بن یزید الجعفی نے امام باقر علیہ السلام سے توحید کے بارے میں سوال کیا تو آپ نے ایک عمیق الٰہیاتی جواب دیا جس میں بتایا کہ اللہ کی وحدانیت محض عددی نہیں بلکہ ایک متعالی حقیقت ہے۔ اس حدیث میں اللہ کے تین اسمائے حسنیٰ — واحد، صمد، قدوس — کی توضیح کی گئی ہے، اور یہ سکھایا گیا کہ اللہ کے نام اور صفات اس کی ذات کی عظمت کو محدود نہیں کرتے۔",
+            "zh": "贾比尔·本·叶齐德·朱菲向伊玛目巴基尔（愿主赐他平安）询问认主独一，伊玛目给出了深刻的神学回答，阐明真主的独一性并非单纯的数量属性，而是超越性的实在。这则圣训列举了真主的三个核心名号——瓦希德（独一）、萨马德（永恒自足）和古杜斯（至圣）——并教导真主的名号与属性并不限制其本质的绝对超越性。"
+          },
+          "tags": [
+            "theology",
+            "knowledge"
+          ],
+          "topics": [
+            "tawhid",
+            "divine_attributes",
+            "divine_knowledge"
+          ],
+          "word_analysis": [
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "আমি জিজ্ঞেস করলাম",
+                "de": "ich fragte",
+                "en": "I asked",
+                "es": "pregunté",
+                "fa": "پرسیدم",
+                "fr": "j'ai demandé",
+                "id": "aku bertanya",
+                "ru": "я спросил",
+                "tr": "sordum",
+                "ur": "میں نے پوچھا",
+                "zh": "我问"
+              },
+              "word": "سَأَلْتُ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আবা",
+                "de": "Abu",
+                "en": "Abu (father of)",
+                "es": "Abu",
+                "fa": "ابا",
+                "fr": "Abu",
+                "id": "Abu",
+                "ru": "Абу",
+                "tr": "Ebu",
+                "ur": "ابو",
+                "zh": "阿布"
+              },
+              "word": "أَبَا"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "জাফর",
+                "de": "Ja'far",
+                "en": "Ja'far",
+                "es": "Ja'far",
+                "fa": "جعفر",
+                "fr": "Ja'far",
+                "id": "Ja'far",
+                "ru": "Джа'фар",
+                "tr": "Cafer",
+                "ur": "جعفر",
+                "zh": "贾法尔"
+              },
+              "word": "جَعْفَرٍ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "তাঁর উপর",
+                "de": "auf ihm",
+                "en": "upon him",
+                "es": "sobre él",
+                "fa": "بر او",
+                "fr": "sur lui",
+                "id": "atasnya",
+                "ru": "на нём",
+                "tr": "ona",
+                "ur": "اس پر",
+                "zh": "在他之上"
+              },
+              "word": "عَلَيْهِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "শান্তি",
+                "de": "Friede",
+                "en": "peace",
+                "es": "paz",
+                "fa": "سلام",
+                "fr": "paix",
+                "id": "salam/kedamaian",
+                "ru": "мир",
+                "tr": "selam",
+                "ur": "سلام",
+                "zh": "平安"
+              },
+              "word": "السَّلَامُ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "সম্পর্কে",
+                "de": "über",
+                "en": "about",
+                "es": "sobre",
+                "fa": "درباره",
+                "fr": "sur",
+                "id": "tentang",
+                "ru": "о",
+                "tr": "hakkında",
+                "ur": "کے بارے میں",
+                "zh": "关于"
+              },
+              "word": "عَنْ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "কিছু",
+                "de": "etwas",
+                "en": "something",
+                "es": "algo",
+                "fa": "چیزی",
+                "fr": "quelque chose",
+                "id": "sesuatu",
+                "ru": "нечто",
+                "tr": "bir şey",
+                "ur": "کچھ",
+                "zh": "某事"
+              },
+              "word": "شَيْءٍ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "থেকে",
+                "de": "von",
+                "en": "from/of",
+                "es": "de",
+                "fa": "از",
+                "fr": "de",
+                "id": "dari",
+                "ru": "из",
+                "tr": "-den",
+                "ur": "سے",
+                "zh": "关于"
+              },
+              "word": "مِنَ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "তাওহীদ",
+                "de": "Tawhid (göttliche Einheit)",
+                "en": "tawhid (divine unity)",
+                "es": "tawhid (unicidad divina)",
+                "fa": "توحید",
+                "fr": "tawhid (unicité divine)",
+                "id": "tauhid",
+                "ru": "таухид (единобожие)",
+                "tr": "tevhid",
+                "ur": "توحید",
+                "zh": "认主独一"
+              },
+              "word": "التَّوْحِيدِ"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "তখন তিনি বললেন",
+                "de": "da sagte er",
+                "en": "so he said",
+                "es": "entonces dijo",
+                "fa": "پس فرمود",
+                "fr": "il dit alors",
+                "id": "maka beliau bersabda",
+                "ru": "и он сказал",
+                "tr": "buyurdu ki",
+                "ur": "پس آپ نے فرمایا",
+                "zh": "于是他说"
+              },
+              "word": "فَقَالَ"
+            },
+            {
+              "pos": "PART",
+              "translation": {
+                "bn": "নিশ্চয়ই",
+                "de": "wahrlich",
+                "en": "indeed/verily",
+                "es": "ciertamente",
+                "fa": "به درستی",
+                "fr": "certes",
+                "id": "sesungguhnya",
+                "ru": "воистину",
+                "tr": "muhakkak ki",
+                "ur": "بے شک",
+                "zh": "确实"
+              },
+              "word": "إِنَّ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "আল্লাহ",
+                "de": "Gott",
+                "en": "God",
+                "es": "Dios",
+                "fa": "خدا",
+                "fr": "Dieu",
+                "id": "Allah",
+                "ru": "Аллах",
+                "tr": "Allah",
+                "ur": "اللہ",
+                "zh": "真主"
+              },
+              "word": "اللَّهَ"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "বরকতময়",
+                "de": "gesegnet sind",
+                "en": "Blessed are",
+                "es": "bendito sean",
+                "fa": "مبارک باد",
+                "fr": "bénis soient",
+                "id": "Maha Berkah",
+                "ru": "благословенны",
+                "tr": "mübarek olsun",
+                "ur": "بابرکت ہیں",
+                "zh": "祝福"
+              },
+              "word": "تَبَارَكَتْ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "তাঁর নামগুলো",
+                "de": "Seine Namen",
+                "en": "His names",
+                "es": "Sus nombres",
+                "fa": "نام‌هایش",
+                "fr": "Ses noms",
+                "id": "nama-namaNya",
+                "ru": "Его имена",
+                "tr": "isimleri",
+                "ur": "اس کے نام",
+                "zh": "祂的名字"
+              },
+              "word": "أَسْمَاؤُهُ"
+            },
+            {
+              "pos": "REL",
+              "translation": {
+                "bn": "যা দিয়ে",
+                "de": "mit denen",
+                "en": "which",
+                "es": "con los que",
+                "fa": "که",
+                "fr": "avec lesquels",
+                "id": "yang",
+                "ru": "которыми",
+                "tr": "ki",
+                "ur": "جن سے",
+                "zh": "这些"
+              },
+              "word": "الَّتِي"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "ডাকা হয়",
+                "de": "angerufen wird",
+                "en": "He is called/invoked",
+                "es": "es invocado",
+                "fa": "خوانده می‌شود",
+                "fr": "est invoqué",
+                "id": "dipanggil/diseru",
+                "ru": "взывают",
+                "tr": "çağrılır",
+                "ur": "پکارا جاتا ہے",
+                "zh": "被称呼"
+              },
+              "word": "يُدْعَا"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "সেগুলো দিয়ে",
+                "de": "mit ihnen",
+                "en": "by them",
+                "es": "por ellos",
+                "fa": "با آنها",
+                "fr": "par eux",
+                "id": "dengannya",
+                "ru": "ими",
+                "tr": "onlarla",
+                "ur": "ان سے",
+                "zh": "以此"
+              },
+              "word": "بِهَا"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "এবং সর্বোচ্চ",
+                "de": "und Erhaben ist Er",
+                "en": "and Exalted is He",
+                "es": "y Altísimo es Él",
+                "fa": "و متعال است",
+                "fr": "et le Très-Haut",
+                "id": "dan Maha Tinggi",
+                "ru": "и Возвышен",
+                "tr": "ve yücedir",
+                "ur": "اور بلند ہے",
+                "zh": "至高无上"
+              },
+              "word": "وَتَعَالَى"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "তে",
+                "de": "in",
+                "en": "in",
+                "es": "en",
+                "fa": "در",
+                "fr": "dans",
+                "id": "dalam",
+                "ru": "в",
+                "tr": "-de/-da",
+                "ur": "میں",
+                "zh": "在"
+              },
+              "word": "فِي"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "উচ্চতায়",
+                "de": "der Erhabenheit",
+                "en": "the loftiness/sublimity of",
+                "es": "la sublimidad de",
+                "fa": "رفعت",
+                "fr": "la sublimité de",
+                "id": "ketinggian",
+                "ru": "возвышенности",
+                "tr": "yüceliğinde",
+                "ur": "بلندی",
+                "zh": "崇高"
+              },
+              "word": "عُلُوِّ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "তাঁর সারসত্তা",
+                "de": "Seines Wesens",
+                "en": "His essence/reality",
+                "es": "Su esencia",
+                "fa": "کنه ذاتش",
+                "fr": "Son essence",
+                "id": "hakikat/esensiNya",
+                "ru": "Его сути",
+                "tr": "özü/hakikati",
+                "ur": "اس کی حقیقت",
+                "zh": "祂的本质"
+              },
+              "word": "كُنْهِهِ"
+            },
+            {
+              "pos": "ADJ",
+              "translation": {
+                "bn": "এক/অদ্বিতীয়",
+                "de": "Einer/Einziger",
+                "en": "One/Unique",
+                "es": "Uno/Único",
+                "fa": "یکتا",
+                "fr": "Un/Unique",
+                "id": "Satu/Maha Esa",
+                "ru": "Единый",
+                "tr": "Bir/Tek",
+                "ur": "ایک",
+                "zh": "独一"
+              },
+              "word": "وَاحِدٌ"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "তিনি একক হলেন",
+                "de": "Er singularisierte sich",
+                "en": "He singularized Himself",
+                "es": "se singularizó",
+                "fa": "یگانگی گزید",
+                "fr": "Il s'est singularisé",
+                "id": "Dia menyendiri/bertauhid",
+                "ru": "Он явил Своё единство",
+                "tr": "tekliğini ortaya koydu",
+                "ur": "اس نے واحد ہونے کا اظہار کیا",
+                "zh": "祂显示独一"
+              },
+              "word": "تَوَحَّدَ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "তাওহীদ দ্বারা",
+                "de": "durch den Tawhid",
+                "en": "by/through tawhid (oneness)",
+                "es": "por el tawhid",
+                "fa": "به توحید",
+                "fr": "par le tawhid",
+                "id": "dengan tauhid",
+                "ru": "посредством таухида",
+                "tr": "tevhid ile",
+                "ur": "توحید کے ساتھ",
+                "zh": "以独一性"
+              },
+              "word": "بِالتَّوْحِيدِ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "তে",
+                "de": "in",
+                "en": "in",
+                "es": "en",
+                "fa": "در",
+                "fr": "dans",
+                "id": "dalam",
+                "ru": "в",
+                "tr": "-de/-da",
+                "ur": "میں",
+                "zh": "在"
+              },
+              "word": "فِي"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "তাঁর একত্বে",
+                "de": "Seiner Einzigkeit",
+                "en": "His uniqueness/oneness",
+                "es": "Su unicidad",
+                "fa": "یگانگی‌اش",
+                "fr": "Son unicité",
+                "id": "keesaanNya",
+                "ru": "Его единственности",
+                "tr": "tekliğinde",
+                "ur": "اس کی یکتائی",
+                "zh": "祂的独一性"
+              },
+              "word": "تَوَحُّدِهِ"
+            },
+            {
+              "pos": "CONJ",
+              "translation": {
+                "bn": "তারপর",
+                "de": "dann",
+                "en": "then",
+                "es": "luego",
+                "fa": "سپس",
+                "fr": "puis",
+                "id": "kemudian",
+                "ru": "затем",
+                "tr": "sonra",
+                "ur": "پھر",
+                "zh": "然后"
+              },
+              "word": "ثُمَّ"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "তিনি এটি জারি করলেন",
+                "de": "Er ließ es fließen",
+                "en": "He caused it to flow/manifest",
+                "es": "lo hizo fluir/manifestar",
+                "fa": "آن را جاری ساخت",
+                "fr": "Il le fit couler/manifester",
+                "id": "Dia mengalirkannya",
+                "ru": "Он ниспослал его",
+                "tr": "onu akıttı/tezahür ettirdi",
+                "ur": "اسے جاری کیا",
+                "zh": "祂使之流贯"
+              },
+              "word": "أَجْرَاهُ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "উপর",
+                "de": "über/auf",
+                "en": "upon",
+                "es": "sobre",
+                "fa": "بر",
+                "fr": "sur",
+                "id": "atas/kepada",
+                "ru": "на",
+                "tr": "üzerine",
+                "ur": "پر",
+                "zh": "在…之上"
+              },
+              "word": "عَلَى"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "তাঁর সৃষ্টির",
+                "de": "Seiner Schöpfung",
+                "en": "His creation",
+                "es": "Su creación",
+                "fa": "خلقش",
+                "fr": "Sa création",
+                "id": "makhlukNya",
+                "ru": "Его творению",
+                "tr": "yaratıklarına",
+                "ur": "اس کی مخلوق",
+                "zh": "祂的造化"
+              },
+              "word": "خَلْقِهِ"
+            },
+            {
+              "pos": "PRON",
+              "translation": {
+                "bn": "সুতরাং তিনি",
+                "de": "so ist Er",
+                "en": "so He is",
+                "es": "así Él es",
+                "fa": "پس او است",
+                "fr": "alors Il est",
+                "id": "maka Dia adalah",
+                "ru": "итак, Он",
+                "tr": "o ise",
+                "ur": "پس وہ ہے",
+                "zh": "故祂是"
+              },
+              "word": "فَهُوَ"
+            },
+            {
+              "pos": "ADJ",
+              "translation": {
+                "bn": "এক",
+                "de": "Einer",
+                "en": "One",
+                "es": "Uno",
+                "fa": "یکتا",
+                "fr": "Un",
+                "id": "Satu",
+                "ru": "Единый",
+                "tr": "Bir",
+                "ur": "ایک",
+                "zh": "独一"
+              },
+              "word": "وَاحِدٌ"
+            },
+            {
+              "pos": "ADJ",
+              "translation": {
+                "bn": "সমাদ (চিরস্থায়ী/অমুখাপেক্ষী)",
+                "de": "Samad (der Ewige/Selbstgenügende)",
+                "en": "Samad (the Eternal/Self-Sufficient)",
+                "es": "Samad (Eterno/Autosuficiente)",
+                "fa": "صمد (بی‌نیاز)",
+                "fr": "Samad (l'Éternel/le Suffisant)",
+                "id": "Samad (Yang Maha Dibutuhkan)",
+                "ru": "Самад (Вечный/Самодостаточный)",
+                "tr": "Samed (ihtiyaçsız/her şeyin sığınağı)",
+                "ur": "صمد (بے نیاز)",
+                "zh": "萨马德（永恒自足）"
+              },
+              "word": "صَمَدٌ"
+            },
+            {
+              "pos": "ADJ",
+              "translation": {
+                "bn": "পবিত্র/অত্যন্ত পাক",
+                "de": "Heilig/Allrein",
+                "en": "Holy/All-Pure",
+                "es": "Santísimo/Purísimo",
+                "fa": "قدوس (پاک)",
+                "fr": "le Très Saint",
+                "id": "Maha Suci",
+                "ru": "Святейший",
+                "tr": "Kuddüs (her türlü eksiklikten münezzeh)",
+                "ur": "قدوس (پاک)",
+                "zh": "至圣"
+              },
+              "word": "قُدُّوسٌ"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "তাঁকে উপাসনা করে",
+                "de": "Ihn verehrt",
+                "en": "worships Him",
+                "es": "lo adora",
+                "fa": "او را عبادت می‌کند",
+                "fr": "L'adore",
+                "id": "menyembahNya",
+                "ru": "поклоняется Ему",
+                "tr": "ona ibadet eder",
+                "ur": "اس کی عبادت کرتا ہے",
+                "zh": "崇拜祂"
+              },
+              "word": "يَعْبُدُهُ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "সবকিছু",
+                "de": "alles",
+                "en": "everything/every",
+                "es": "todo",
+                "fa": "هر چیز",
+                "fr": "tout",
+                "id": "segala sesuatu",
+                "ru": "всё",
+                "tr": "her şey",
+                "ur": "ہر چیز",
+                "zh": "万物"
+              },
+              "word": "كُلُّ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "কিছু",
+                "de": "Ding",
+                "en": "thing",
+                "es": "cosa",
+                "fa": "چیز",
+                "fr": "chose",
+                "id": "sesuatu",
+                "ru": "вещь",
+                "tr": "şey",
+                "ur": "چیز",
+                "zh": "物"
+              },
+              "word": "شَيْءٍ"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "এবং তাঁর দিকে মুখ করে",
+                "de": "und wendet sich zu",
+                "en": "and turns towards",
+                "es": "y se dirige hacia",
+                "fa": "و روی می‌آورد",
+                "fr": "et se tourne vers",
+                "id": "dan berpaling kepadaNya",
+                "ru": "и обращается к",
+                "tr": "ve yönelir",
+                "ur": "اور رجوع کرتا ہے",
+                "zh": "并归向"
+              },
+              "word": "وَيَصْمُدُ"
+            },
+            {
+              "pos": "PREP",
+              "translation": {
+                "bn": "তাঁর দিকে",
+                "de": "zu Ihm",
+                "en": "to Him",
+                "es": "a Él",
+                "fa": "به سوی او",
+                "fr": "vers Lui",
+                "id": "kepadaNya",
+                "ru": "к Нему",
+                "tr": "ona",
+                "ur": "اس کی طرف",
+                "zh": "向祂"
+              },
+              "word": "إِلَيْهِ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "সবকিছু",
+                "de": "alles",
+                "en": "everything/every",
+                "es": "todo",
+                "fa": "هر چیز",
+                "fr": "tout",
+                "id": "segala sesuatu",
+                "ru": "всё",
+                "tr": "her şey",
+                "ur": "ہر چیز",
+                "zh": "万物"
+              },
+              "word": "كُلُّ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "কিছু",
+                "de": "Ding",
+                "en": "thing",
+                "es": "cosa",
+                "fa": "چیز",
+                "fr": "chose",
+                "id": "sesuatu",
+                "ru": "вещь",
+                "tr": "şey",
+                "ur": "چیز",
+                "zh": "物"
+              },
+              "word": "شَيْءٍ"
+            },
+            {
+              "pos": "V",
+              "translation": {
+                "bn": "এবং তিনি পরিব্যাপ্ত করেন",
+                "de": "und Er umfasst",
+                "en": "and He encompasses/contains",
+                "es": "y abarca",
+                "fa": "و فرا گرفت",
+                "fr": "et Il embrasse",
+                "id": "dan Dia meliputi",
+                "ru": "и Он объемлет",
+                "tr": "ve kuşattı",
+                "ur": "اور اس نے احاطہ کر لیا",
+                "zh": "祂涵盖"
+              },
+              "word": "وَوَسِعَ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "সকল",
+                "de": "alles",
+                "en": "all/every",
+                "es": "todo",
+                "fa": "هر",
+                "fr": "tout",
+                "id": "seluruh",
+                "ru": "всё",
+                "tr": "her",
+                "ur": "ہر",
+                "zh": "一切"
+              },
+              "word": "كُلَّ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "কিছু",
+                "de": "Ding",
+                "en": "thing",
+                "es": "cosa",
+                "fa": "چیز",
+                "fr": "chose",
+                "id": "sesuatu",
+                "ru": "вещь",
+                "tr": "şey",
+                "ur": "چیز",
+                "zh": "物"
+              },
+              "word": "شَيْءٍ"
+            },
+            {
+              "pos": "N",
+              "translation": {
+                "bn": "জ্ঞানে",
+                "de": "in Wissen",
+                "en": "in knowledge",
+                "es": "en conocimiento",
+                "fa": "به علم",
+                "fr": "en connaissance",
+                "id": "dengan ilmuNya",
+                "ru": "знанием",
+                "tr": "ilmiyle",
+                "ur": "علم کے ساتھ",
+                "zh": "以知识"
+              },
+              "word": "عِلْماً"
+            }
+          ]
+        },
         "gradings": [
           "Allamah Baqir al-Majlisi: <span> مجهول كالصحيح   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (2/61)",
           "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"

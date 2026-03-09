@@ -13,6 +13,934 @@
       "up": "/books/al-kafi:6:4:5"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-02-28",
+          "model": "claude-sonnet-4-6",
+          "pipeline_version": "2.0.0"
+        },
+        "chunks": [
+          {
+            "chunk_type": "isnad",
+            "translations": {
+              "bn": "মুহাম্মাদ ইবনে ইয়াহইয়া আবদুল্লাহ ইবনে মুহাম্মাদ থেকে, তিনি আলী ইবনে আল-হাকাম থেকে, তিনি আবান থেকে, তিনি জুরারাহ ও ইসমাঈল আল-জুফী থেকে বর্ণনা করেছেন যে তারা উভয়ে আবু জাফর আলাইহিস সালামকে",
+              "de": "Muhammad ibn Yahya, von Abdullah ibn Muhammad, von Ali ibn al-Hakam, von Aban, von Zurara und Ismail al-Ju'fi, dass beide Abu Ja'far (Friede sei mit ihm)",
+              "en": "Muhammad ibn Yahya, from Abdullah ibn Muhammad, from Ali ibn al-Hakam, from Aban, from Zurara and Ismail al-Ju'fi, that both of them asked Abu Ja'far (peace be upon him)",
+              "es": "Muhammad ibn Yahya, de Abdullah ibn Muhammad, de Ali ibn al-Hakam, de Aban, de Zurara e Ismail al-Ju'fi, que ambos preguntaron a Abu Ja'far (la paz sea con él)",
+              "fa": "محمد بن یحیی از عبدالله بن محمد، از علی بن حکم، از ابان، از زراره و اسماعیل جعفی روایت کرد که هر دو از ابوجعفر علیه السلام",
+              "fr": "Muhammad ibn Yahya, d'Abdullah ibn Muhammad, d'Ali ibn al-Hakam, d'Aban, de Zurara et Ismail al-Ju'fi, que tous deux ont demandé à Abu Ja'far (que la paix soit sur lui)",
+              "id": "Muhammad bin Yahya, dari Abdullah bin Muhammad, dari Ali bin al-Hakam, dari Aban, dari Zurara dan Ismail al-Ju'fi, bahwa keduanya bertanya kepada Abu Ja'far (a.s.)",
+              "ru": "Мухаммад ибн Йахйа, от Абдуллаха ибн Мухаммада, от Али ибн аль-Хакама, от Абана, от Зурары и Исмаила аль-Джуфи, что оба они спросили Абу Джафара (мир ему)",
+              "tr": "Muhammed b. Yahya, Abdullah b. Muhammed'den, o Ali b. el-Hakem'den, o Aban'dan, o Zurara ve İsmail el-Cüfi'den rivayet etmiştir ki ikisi de Ebu Cafer (a.s.)'a",
+              "ur": "محمد بن یحییٰ نے عبداللہ بن محمد سے، انہوں نے علی بن الحکم سے، انہوں نے ابان سے، انہوں نے زرارہ اور اسماعیل الجعفی سے روایت کی کہ ان دونوں نے ابو جعفر علیہ السلام سے",
+              "zh": "穆罕默德·本·叶海亚，从阿卜杜拉·本·穆罕默德，从阿里·本·哈卡姆，从阿班，从祖拉拉和伊斯玛仪·朱菲传述，他们两人询问了阿布·贾法尔（愿主赐他平安）"
+            },
+            "word_end": 25,
+            "word_start": 0
+          },
+          {
+            "chunk_type": "body",
+            "translations": {
+              "bn": "মি'রাদ (ভোঁতা তীর) কর্তৃক নিহত শিকার সম্পর্কে জিজ্ঞেস করলেন। তিনি বললেন: 'কোনো সমস্যা নেই, যদি সেটি তোমার নিজস্ব নিক্ষেপক অস্ত্র হয় অথবা তুমি সেই উদ্দেশ্যে তা তৈরি করেছ।'",
+              "de": "über das, was der Mi'rad (stumpfer/querliegender Pfeil) tötet. Er sagte: 'Es gibt kein Problem, sofern es dein Wurfgeschoss war oder du es für diesen Zweck hergestellt hast.'",
+              "en": "about what the mi'rad (blunt/crosswise arrow) kills. He said: 'There is no problem, provided it was your projectile or you made it for that purpose.'",
+              "es": "acerca de lo que el mi'rad (flecha roma/transversal) mata. Él dijo: 'No hay problema, siempre que sea tu arma de lanzamiento o la hayas fabricado para ese propósito.'",
+              "fa": "درباره آنچه معراض کشته پرسیدند. فرمود: «اشکالی نیست، اگر آن ابزار پرتاب تو باشد یا آن را برای همین منظور ساخته باشی.»",
+              "fr": "à propos de ce que le mi'rad (flèche émoussée/transversale) tue. Il dit : « Il n'y a pas de problème, pourvu que ce soit ton projectile ou que tu l'aies fabriqué dans ce but. »",
+              "id": "tentang apa yang dibunuh oleh mi'rad (anak panah tumpul). Beliau bersabda: 'Tidak ada masalah, jika itu adalah senjata lemparmu atau kamu membuatnya untuk tujuan itu.'",
+              "ru": "о том, что убивает ми'рад (тупая/поперечная стрела). Он сказал: «Нет проблем, если это было твоё метательное оружие или ты сделал его для этой цели».",
+              "tr": "mi'razın öldürdüğü av hakkında sordular. Buyurdu: 'Eğer o senin fırlatma aletin ise veya bunu o amaçla yaptıysan bir sakıncası yoktur.'",
+              "ur": "اس کے بارے میں جو معراض نے قتل کیا ہو۔ آپ نے فرمایا: 'کوئی حرج نہیں، جب کہ وہ تمہارا پھینکنے والا ہتھیار ہو یا تم نے اسے اسی مقصد کے لیے بنایا ہو۔'",
+              "zh": "关于钝箭（米尔拉德）所猎杀的猎物。他说：「没有问题，只要那是你的投掷武器或者你为此目的而制作的。」"
+            },
+            "word_end": 38,
+            "word_start": 25
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_changes": [
+          "Added full tashkeel to narrator chain and main text",
+          "Added diacritics to أَنَّهُمَا which was written as هُمَا in the source"
+        ],
+        "diacritics_status": "completed",
+        "isnad_matn": {
+          "has_chain": true,
+          "isnad_ar": "مُحَمَّدُ بْنُ يَحْيَى عَنْ عَبْدِ اللَّهِ بْنِ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ الْحَكَمِ عَنْ أَبَانٍ عَنْ زُرَارَةَ وَ إِسْمَاعِيلَ الْجُعْفِيِّ أَنَّهُمَا سَأَلَا أَبَا جَعْفَرٍ عَلَيْهِ السَّلَامُ",
+          "matn_ar": "عَمَّا قَتَلَ الْمِعْرَاضُ قَالَ لَا بَأْسَ إِذَا كَانَ هُوَ مِرْمَاتَكَ أَوْ صَنَعْتَهُ لِذَلِكَ",
+          "narrators": [
+            {
+              "ambiguity_note": null,
+              "identity_confidence": "definite",
+              "known_identity": "Muhammad ibn Yahya al-Attar al-Qummi, a prominent transmitter in al-Kafi and teacher of al-Kulayni",
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator",
+              "word_ranges": [
+                {
+                  "word_end": 3,
+                  "word_start": 0
+                }
+              ]
+            },
+            {
+              "ambiguity_note": "Likely Abdullah ibn Muhammad al-Hajjal or another companion of similar name in the chain",
+              "identity_confidence": "likely",
+              "known_identity": null,
+              "name_ar": "عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ",
+              "name_en": "Abdullah ibn Muhammad",
+              "position": 2,
+              "role": "narrator",
+              "word_ranges": [
+                {
+                  "word_end": 8,
+                  "word_start": 4
+                }
+              ]
+            },
+            {
+              "ambiguity_note": null,
+              "identity_confidence": "definite",
+              "known_identity": "Ali ibn al-Hakam al-Ansari, a reliable narrator among the companions of Imam al-Sadiq and al-Kazim",
+              "name_ar": "عَلِيُّ بْنُ الْحَكَمِ",
+              "name_en": "Ali ibn al-Hakam",
+              "position": 3,
+              "role": "narrator",
+              "word_ranges": [
+                {
+                  "word_end": 12,
+                  "word_start": 9
+                }
+              ]
+            },
+            {
+              "ambiguity_note": "Likely Aban ibn Uthman al-Ahmar, a companion of Imam al-Sadiq",
+              "identity_confidence": "likely",
+              "known_identity": "Aban ibn Uthman al-Ahmar",
+              "name_ar": "أَبَانٌ",
+              "name_en": "Aban",
+              "position": 4,
+              "role": "narrator",
+              "word_ranges": [
+                {
+                  "word_end": 14,
+                  "word_start": 13
+                }
+              ]
+            },
+            {
+              "ambiguity_note": null,
+              "identity_confidence": "definite",
+              "known_identity": "Zurara ibn A'yan, one of the most eminent companions of Imam al-Baqir and al-Sadiq",
+              "name_ar": "زُرَارَةُ",
+              "name_en": "Zurara",
+              "position": 5,
+              "role": "narrator",
+              "word_ranges": [
+                {
+                  "word_end": 16,
+                  "word_start": 15
+                }
+              ]
+            },
+            {
+              "ambiguity_note": null,
+              "identity_confidence": "definite",
+              "known_identity": "Ismail ibn Jabir al-Ju'fi, a companion of Imam al-Baqir and al-Sadiq",
+              "name_ar": "إِسْمَاعِيلُ الْجُعْفِيُّ",
+              "name_en": "Ismail al-Ju'fi",
+              "position": 6,
+              "role": "narrator",
+              "word_ranges": [
+                {
+                  "word_end": 19,
+                  "word_start": 17
+                }
+              ]
+            },
+            {
+              "ambiguity_note": null,
+              "identity_confidence": "definite",
+              "known_identity": "Imam Muhammad al-Baqir (AS), the fifth Imam (d. 114 AH)",
+              "name_ar": "أَبُو جَعْفَرٍ",
+              "name_en": "Abu Ja'far",
+              "position": 7,
+              "role": "imam",
+              "word_ranges": [
+                {
+                  "word_end": 24,
+                  "word_start": 21
+                }
+              ]
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "jurisprudential_term",
+            "phrase_ar": "لَا بَأْسَ",
+            "phrase_en": "There is no problem (legal permissibility formula)"
+          }
+        ],
+        "key_terms": {
+          "bn": {
+            "الْمِعْرَاضُ": "মি'রাদ — ভোঁতা তীর যা আঘাতে হত্যা করে",
+            "لَا بَأْسَ": "কোনো সমস্যা নেই — হালালের নির্দেশ",
+            "مِرْمَاتَكَ": "তোমার নিক্ষেপক অস্ত্র — হালালের শর্ত"
+          },
+          "de": {
+            "الْمِعْرَاضُ": "Mi'rad — stumpfer Pfeil ohne Spitze, der durch Aufprall tötet",
+            "لَا بَأْسَ": "Kein Problem — Ausdruck der Erlaubtheit",
+            "مِرْمَاتَكَ": "Dein Wurfgeschoss — Bedingung der Erlaubtheit"
+          },
+          "en": {
+            "الْمِعْرَاضُ": "Mi'rad — a blunt or headless arrow/shaft that kills by striking force rather than cutting; killing with it is disputed in Islamic jurisprudence",
+            "لَا بَأْسَ": "Standard legal formula meaning 'there is no problem/objection', indicating permissibility (halal)",
+            "مِرْمَاتَكَ": "Your designated throwing/projectile weapon; the possession and intentionality condition for valid hunt"
+          },
+          "es": {
+            "الْمِعْرَاضُ": "Mi'rad — flecha roma/sin punta que mata por impacto",
+            "لَا بَأْسَ": "No hay problema — fórmula de permisibilidad",
+            "مِرْمَاتَكَ": "Tu arma de lanzamiento — condición de licitud"
+          },
+          "fa": {
+            "الْمِعْرَاضُ": "معراض — تیر بدون پیکان که با ضربه می‌کشد",
+            "لَا بَأْسَ": "اشکالی نیست — حکم جواز",
+            "مِرْمَاتَكَ": "ابزار پرتاب تو — شرط حلیت"
+          },
+          "fr": {
+            "الْمِعْرَاضُ": "Mi'rad — flèche émoussée/sans pointe qui tue par impact",
+            "لَا بَأْسَ": "Pas de problème — formule de licéité",
+            "مِرْمَاتَكَ": "Ton projectile — condition de licéité"
+          },
+          "id": {
+            "الْمِعْرَاضُ": "Mi'rad — anak panah tumpul/tanpa mata yang membunuh dengan benturan",
+            "لَا بَأْسَ": "Tidak ada masalah — menunjukkan kehalalan",
+            "مِرْمَاتَكَ": "Senjata lemparmu — syarat kehalalan"
+          },
+          "ru": {
+            "الْمِعْرَاضُ": "Ми'рад — тупая стрела без наконечника, убивающая ударом",
+            "لَا بَأْسَ": "Нет проблем — формула дозволенности",
+            "مِرْمَاتَكَ": "Твоё метательное оружие — условие дозволенности"
+          },
+          "tr": {
+            "الْمِعْرَاضُ": "Mi'raz — kesici değil, darbe ile öldüren kör/başsız ok",
+            "لَا بَأْسَ": "Sakıncası yoktur — helal hükmü",
+            "مِرْمَاتَكَ": "Senin fırlatma aletin — helalliğin şartı"
+          },
+          "ur": {
+            "الْمِعْرَاضُ": "معراض — بغیر دھار کا تیر جو ضرب سے قتل کرتا ہے",
+            "لَا بَأْسَ": "کوئی حرج نہیں — حلت کی علامت",
+            "مِرْمَاتَكَ": "تمہارا پھینکنے والا ہتھیار — حلت کی شرط"
+          },
+          "zh": {
+            "الْمِعْرَاضُ": "米尔拉德——无尖头的钝箭，以冲击力猎杀",
+            "لَا بَأْسَ": "没有问题——许可的法律用语",
+            "مِرْمَاتَكَ": "你的投掷武器——合法性条件"
+          }
+        },
+        "related_quran": [
+          {
+            "ref": "5:4",
+            "relationship": "thematic"
+          }
+        ],
+        "seo_questions": {
+          "bn": "ইসলামী ফিকহে মি'রাদ দিয়ে নিহত শিকার কি হালাল?",
+          "de": "Ist Wild, das mit einem stumpfen Pfeil (Mi'rad) getötet wurde, im Islam erlaubt?",
+          "en": "Is game killed by a blunt arrow (mi'rad) permissible to eat in Islamic jurisprudence?",
+          "es": "¿Es lícita la presa cazada con una flecha roma (mi'rad) en el Islam?",
+          "fa": "آیا شکاری که با معراض کشته شده حلال است؟",
+          "fr": "Le gibier tué par une flèche émoussée (mi'rad) est-il licite en Islam ?",
+          "id": "Apakah hewan yang dibunuh dengan anak panah tumpul (mi'rad) halal dimakan?",
+          "ru": "Дозволена ли дичь, убитая тупой стрелой (ми'рад), в Исламе?",
+          "tr": "Mi'raz (kör ok) ile avlanan hayvanın eti helal midir?",
+          "ur": "کیا معراض سے مارا گیا شکار حلال ہے؟",
+          "zh": "伊斯兰法学中用钝箭（米尔拉德）猎杀的猎物是否合法？"
+        },
+        "similar_content_hints": [
+          {
+            "description": "Hadiths discussing the conditions under which game killed by dogs or trained birds of prey is permissible, emphasizing intentional use and training.",
+            "theme": "hunting_permissibility"
+          },
+          {
+            "description": "Narrations about the distinction between game killed by cutting (with a sharp weapon) versus blunt force, and the different rulings that apply.",
+            "theme": "hunting_weapon_types"
+          },
+          {
+            "description": "Legal discussions about whether game accidentally killed by another person's arrow or trap is permissible for the original hunter.",
+            "theme": "hunting_ownership_condition"
+          }
+        ],
+        "summaries": {
+          "bn": "ইমাম আল-বাকির আলাইহিস সালাম রায় দিলেন যে মি'রাদ — ভোঁতা তীর যা কর্তনের পরিবর্তে আঘাতে হত্যা করে — দ্বারা নিহত শিকার হালাল, শর্ত হলো ঐ অস্ত্রটি শিকারীর নিজের হতে হবে অথবা সেই উদ্দেশ্যে তৈরি করতে হবে। এটি শিকারের বিধান সম্পর্কিত একটি গুরুত্বপূর্ণ ফিকহী মাসআলা।",
+          "de": "Imam al-Baqir (Friede sei mit ihm) entschied, dass Wild, das durch den Mi'rad — einen stumpfen Pfeil ohne Spitze, der durch Aufprall tötet — getötet wurde, erlaubt ist zu verzehren, vorausgesetzt, der Mi'rad ist die eigene Waffe des Jägers oder wurde für diesen Zweck angefertigt. Diese juristische Entscheidung behandelt eine wichtige Frage über die Bedingungen der Erlaubtheit von Jagd im Islam.",
+          "en": "Imam al-Baqir (peace be upon him) rules that game killed by the mi'rad — a blunt or crosswise arrow that kills by impact rather than a cutting edge — is permissible to consume, provided the mi'rad was the hunter's own designated hunting weapon. This ruling addresses a specific jurisprudential question about the conditions under which impact-killed prey is considered lawful, distinguishing between intentional use of one's own weapon versus accidental killing by another's arrow.",
+          "es": "El Imam al-Baqir (la paz sea con él) dictaminó que la presa muerta por el mi'rad — una flecha sin punta que mata por impacto y no por corte — es lícita para consumir, siempre que el mi'rad sea el arma propia del cazador o haya sido fabricada para ese fin. Esta resolución jurídica aborda una pregunta importante sobre las condiciones de licitud de la caza en el Islam.",
+          "fa": "امام باقر علیه السلام حکم فرمودند که شکاری که با معراض — تیر بدون پیکان که با ضربه می‌کشد — کشته شود، حلال است، مشروط بر اینکه ابزار متعلق به شکارچی باشد یا برای این منظور ساخته شده باشد. این حکم یکی از مسائل مهم فقهی در باب صید است.",
+          "fr": "L'Imam al-Baqir (que la paix soit sur lui) a statué que le gibier tué par le mi'rad — une flèche sans pointe qui tue par impact plutôt que par coupure — est licite à consommer, à condition que le mi'rad soit l'arme de jet propre au chasseur ou ait été fabriqué à cet effet. Cette décision juridique traite d'une question importante sur les conditions de licéité de la chasse en Islam.",
+          "id": "Imam al-Baqir (a.s.) memberikan hukum bahwa hewan buruan yang dibunuh oleh mi'rad — anak panah tumpul yang membunuh dengan benturan bukan ketajaman — adalah halal, asalkan senjata tersebut milik pemburu atau dibuat untuk tujuan berburu. Ini merupakan fatwa penting dalam fiqh Islam tentang kehalalan hasil buruan.",
+          "ru": "Имам аль-Бакир (мир ему) постановил, что дичь, убитая ми'радом — тупой стрелой без наконечника, которая убивает ударом, а не разрезом — дозволена для употребления в пищу, при условии, что ми'рад является собственным метательным оружием охотника или был изготовлен именно для этой цели. Это юридическое решение касается важного вопроса об условиях дозволенности охоты в Исламе.",
+          "tr": "İmam Bakır (a.s.), mi'raz ile — keskin olmayan, darbe ile öldüren ok — avlanan hayvanın helal olduğuna hükmetti, ancak bu oka bizzat sahip olunması veya bu amaçla yapılmış olması şarttır. Bu fetva, İslam fıkhında önemli bir av meselesine ilişkin açık bir hukuki düzenlemedir.",
+          "ur": "امام باقر علیہ السلام نے حکم دیا کہ معراض سے مارا گیا شکار حلال ہے، بشرطیکہ وہ ہتھیار شکاری کا اپنا ہو یا اسی غرض کے لیے بنایا گیا ہو۔ یہ مسئلہ اسلامی فقہ میں اہم ہے کیونکہ معراض کاٹنے کی بجائے ضرب سے شکار کو ہلاک کرتا ہے۔",
+          "zh": "伊玛目巴基尔（愿主赐他平安）裁定：用米尔拉德——一种无尖头、以冲击力而非切割力猎杀的钝箭——猎杀的猎物是合法的，条件是该武器为猎人自己所有或专为此目的而制作。这一法律裁决回答了伊斯兰法学中关于狩猎合法性条件的重要问题。"
+        },
+        "tags": [
+          "jurisprudence",
+          "ethics"
+        ],
+        "topics": [
+          "halal_haram"
+        ],
+        "word_analysis": [
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "মুহাম্মাদ",
+              "de": "Muhammad",
+              "en": "Muhammad",
+              "es": "Muhammad",
+              "fa": "محمد",
+              "fr": "Muhammad",
+              "id": "Muhammad",
+              "ru": "Мухаммад",
+              "tr": "Muhammed",
+              "ur": "محمد",
+              "zh": "穆罕默德"
+            },
+            "word": "مُحَمَّدُ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "ইবনে",
+              "de": "Sohn von",
+              "en": "son of",
+              "es": "hijo de",
+              "fa": "بن",
+              "fr": "fils de",
+              "id": "bin/putra",
+              "ru": "ибн/сын",
+              "tr": "bin/oğlu",
+              "ur": "بن",
+              "zh": "之子"
+            },
+            "word": "بْنُ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "ইয়াহইয়া",
+              "de": "Yahya",
+              "en": "Yahya",
+              "es": "Yahya",
+              "fa": "یحیی",
+              "fr": "Yahya",
+              "id": "Yahya",
+              "ru": "Йахйа",
+              "tr": "Yahya",
+              "ur": "یحییٰ",
+              "zh": "叶海亚"
+            },
+            "word": "يَحْيَى"
+          },
+          {
+            "pos": "PREP",
+            "translation": {
+              "bn": "থেকে",
+              "de": "von",
+              "en": "from",
+              "es": "de",
+              "fa": "از",
+              "fr": "de",
+              "id": "dari",
+              "ru": "от",
+              "tr": "-den",
+              "ur": "سے",
+              "zh": "从"
+            },
+            "word": "عَنْ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "বান্দা",
+              "de": "Diener von",
+              "en": "servant of",
+              "es": "siervo de",
+              "fa": "بنده",
+              "fr": "serviteur de",
+              "id": "hamba",
+              "ru": "раб",
+              "tr": "kulu",
+              "ur": "بندہ",
+              "zh": "仆人"
+            },
+            "word": "عَبْدِ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "আল্লাহ",
+              "de": "Gott",
+              "en": "God",
+              "es": "Dios",
+              "fa": "خدا",
+              "fr": "Dieu",
+              "id": "Allah",
+              "ru": "Аллах",
+              "tr": "Allah",
+              "ur": "اللہ",
+              "zh": "安拉"
+            },
+            "word": "اللَّهِ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "ইবনে",
+              "de": "Sohn von",
+              "en": "son of",
+              "es": "hijo de",
+              "fa": "بن",
+              "fr": "fils de",
+              "id": "bin/putra",
+              "ru": "ибн/сын",
+              "tr": "bin/oğlu",
+              "ur": "بن",
+              "zh": "之子"
+            },
+            "word": "بْنِ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "মুহাম্মাদ",
+              "de": "Muhammad",
+              "en": "Muhammad",
+              "es": "Muhammad",
+              "fa": "محمد",
+              "fr": "Muhammad",
+              "id": "Muhammad",
+              "ru": "Мухаммад",
+              "tr": "Muhammed",
+              "ur": "محمد",
+              "zh": "穆罕默德"
+            },
+            "word": "مُحَمَّدٍ"
+          },
+          {
+            "pos": "PREP",
+            "translation": {
+              "bn": "থেকে",
+              "de": "von",
+              "en": "from",
+              "es": "de",
+              "fa": "از",
+              "fr": "de",
+              "id": "dari",
+              "ru": "от",
+              "tr": "-den",
+              "ur": "سے",
+              "zh": "从"
+            },
+            "word": "عَنْ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "আলী",
+              "de": "Ali",
+              "en": "Ali",
+              "es": "Ali",
+              "fa": "علی",
+              "fr": "Ali",
+              "id": "Ali",
+              "ru": "Али",
+              "tr": "Ali",
+              "ur": "علی",
+              "zh": "阿里"
+            },
+            "word": "عَلِيِّ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "ইবনে",
+              "de": "Sohn von",
+              "en": "son of",
+              "es": "hijo de",
+              "fa": "بن",
+              "fr": "fils de",
+              "id": "bin/putra",
+              "ru": "ибн/сын",
+              "tr": "bin/oğlu",
+              "ur": "بن",
+              "zh": "之子"
+            },
+            "word": "بْنِ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "আল-হাকাম",
+              "de": "al-Hakam",
+              "en": "al-Hakam",
+              "es": "al-Hakam",
+              "fa": "الحکم",
+              "fr": "al-Hakam",
+              "id": "al-Hakam",
+              "ru": "аль-Хакам",
+              "tr": "el-Hakem",
+              "ur": "الحکم",
+              "zh": "哈卡姆"
+            },
+            "word": "الْحَكَمِ"
+          },
+          {
+            "pos": "PREP",
+            "translation": {
+              "bn": "থেকে",
+              "de": "von",
+              "en": "from",
+              "es": "de",
+              "fa": "از",
+              "fr": "de",
+              "id": "dari",
+              "ru": "от",
+              "tr": "-den",
+              "ur": "سے",
+              "zh": "从"
+            },
+            "word": "عَنْ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "আবান",
+              "de": "Aban",
+              "en": "Aban",
+              "es": "Aban",
+              "fa": "ابان",
+              "fr": "Aban",
+              "id": "Aban",
+              "ru": "Абан",
+              "tr": "Aban",
+              "ur": "ابان",
+              "zh": "阿班"
+            },
+            "word": "أَبَانٍ"
+          },
+          {
+            "pos": "PREP",
+            "translation": {
+              "bn": "থেকে",
+              "de": "von",
+              "en": "from",
+              "es": "de",
+              "fa": "از",
+              "fr": "de",
+              "id": "dari",
+              "ru": "от",
+              "tr": "-den",
+              "ur": "سے",
+              "zh": "从"
+            },
+            "word": "عَنْ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "জুরারাহ",
+              "de": "Zurara",
+              "en": "Zurara",
+              "es": "Zurara",
+              "fa": "زراره",
+              "fr": "Zurara",
+              "id": "Zurara",
+              "ru": "Зурара",
+              "tr": "Zurara",
+              "ur": "زرارہ",
+              "zh": "祖拉拉"
+            },
+            "word": "زُرَارَةَ"
+          },
+          {
+            "pos": "CONJ",
+            "translation": {
+              "bn": "এবং",
+              "de": "und",
+              "en": "and",
+              "es": "y",
+              "fa": "و",
+              "fr": "et",
+              "id": "dan",
+              "ru": "и",
+              "tr": "ve",
+              "ur": "اور",
+              "zh": "和"
+            },
+            "word": "وَ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "ইসমাঈল",
+              "de": "Ismail",
+              "en": "Ismail",
+              "es": "Ismail",
+              "fa": "اسماعیل",
+              "fr": "Ismail",
+              "id": "Ismail",
+              "ru": "Исмаил",
+              "tr": "İsmail",
+              "ur": "اسماعیل",
+              "zh": "伊斯玛仪"
+            },
+            "word": "إِسْمَاعِيلَ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "আল-জুফী",
+              "de": "al-Ju'fi",
+              "en": "al-Ju'fi",
+              "es": "al-Ju'fi",
+              "fa": "الجعفی",
+              "fr": "al-Ju'fi",
+              "id": "al-Ju'fi",
+              "ru": "аль-Джуфи",
+              "tr": "el-Cü'fi",
+              "ur": "الجعفی",
+              "zh": "朱菲"
+            },
+            "word": "الْجُعْفِيِّ"
+          },
+          {
+            "pos": "PART",
+            "translation": {
+              "bn": "যে তারা উভয়ে",
+              "de": "dass beide",
+              "en": "that both of them",
+              "es": "que ambos",
+              "fa": "که هر دوی آنها",
+              "fr": "que tous les deux",
+              "id": "bahwa keduanya",
+              "ru": "что оба они",
+              "tr": "ikisinin de",
+              "ur": "کہ ان دونوں نے",
+              "zh": "他们两人"
+            },
+            "word": "أَنَّهُمَا"
+          },
+          {
+            "pos": "V",
+            "translation": {
+              "bn": "জিজ্ঞেস করলেন",
+              "de": "fragten",
+              "en": "asked",
+              "es": "preguntaron",
+              "fa": "پرسیدند",
+              "fr": "ont demandé",
+              "id": "bertanya",
+              "ru": "спросили",
+              "tr": "sordular",
+              "ur": "سوال کیا",
+              "zh": "询问了"
+            },
+            "word": "سَأَلَا"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "আবা",
+              "de": "Abu",
+              "en": "Abu (father of)",
+              "es": "Abu",
+              "fa": "ابو",
+              "fr": "Abu",
+              "id": "Abu",
+              "ru": "Абу",
+              "tr": "Ebu",
+              "ur": "ابو",
+              "zh": "阿布"
+            },
+            "word": "أَبَا"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "জাফর",
+              "de": "Ja'far",
+              "en": "Ja'far",
+              "es": "Ja'far",
+              "fa": "جعفر",
+              "fr": "Ja'far",
+              "id": "Ja'far",
+              "ru": "Джафар",
+              "tr": "Cafer",
+              "ur": "جعفر",
+              "zh": "贾法尔"
+            },
+            "word": "جَعْفَرٍ"
+          },
+          {
+            "pos": "PREP",
+            "translation": {
+              "bn": "তাঁর উপর",
+              "de": "auf ihm",
+              "en": "upon him",
+              "es": "sobre él",
+              "fa": "بر او",
+              "fr": "sur lui",
+              "id": "atasnya",
+              "ru": "на нём",
+              "tr": "ona",
+              "ur": "اس پر",
+              "zh": "在他之上"
+            },
+            "word": "عَلَيْهِ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "শান্তি",
+              "de": "Friede",
+              "en": "peace",
+              "es": "paz",
+              "fa": "سلام",
+              "fr": "paix",
+              "id": "salam",
+              "ru": "мир",
+              "tr": "selam",
+              "ur": "سلام",
+              "zh": "平安"
+            },
+            "word": "السَّلَامُ"
+          },
+          {
+            "pos": "PREP",
+            "translation": {
+              "bn": "যে বিষয়ে",
+              "de": "über das, was",
+              "en": "about what",
+              "es": "acerca de lo que",
+              "fa": "درباره آنچه",
+              "fr": "à propos de ce que",
+              "id": "tentang apa yang",
+              "ru": "о том, что",
+              "tr": "hakkında ne",
+              "ur": "اس کے بارے میں جو",
+              "zh": "关于"
+            },
+            "word": "عَمَّا"
+          },
+          {
+            "pos": "V",
+            "translation": {
+              "bn": "হত্যা করে",
+              "de": "tötet/tötete",
+              "en": "kills/killed",
+              "es": "mata/mató",
+              "fa": "کشته",
+              "fr": "tue/a tué",
+              "id": "membunuh",
+              "ru": "убивает/убил",
+              "tr": "öldürdüğü",
+              "ur": "قتل کرے",
+              "zh": "杀死的"
+            },
+            "word": "قَتَلَ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "মি'রাদ (ভোঁতা তীর)",
+              "de": "der stumpfe Pfeil (Mi'rad)",
+              "en": "the blunt/crosswise arrow (mi'rad)",
+              "es": "la flecha roma (mi'rad)",
+              "fa": "معراض (تیر بی‌پیکان)",
+              "fr": "la flèche sans pointe (mi'rad)",
+              "id": "al-mi'rad (anak panah tumpul)",
+              "ru": "тупая стрела (ми'рад)",
+              "tr": "mi'raz (uçsuz ok)",
+              "ur": "معراض (بغیر دھار کا تیر)",
+              "zh": "钝箭（米尔拉德）"
+            },
+            "word": "الْمِعْرَاضُ"
+          },
+          {
+            "pos": "V",
+            "translation": {
+              "bn": "বললেন",
+              "de": "sagte",
+              "en": "he said",
+              "es": "dijo",
+              "fa": "فرمود",
+              "fr": "a dit",
+              "id": "bersabda",
+              "ru": "сказал",
+              "tr": "buyurdu",
+              "ur": "فرمایا",
+              "zh": "他说"
+            },
+            "word": "قَالَ"
+          },
+          {
+            "pos": "NEG",
+            "translation": {
+              "bn": "নেই",
+              "de": "es gibt kein",
+              "en": "no/there is no",
+              "es": "no hay",
+              "fa": "نه",
+              "fr": "il n'y a pas",
+              "id": "tidak ada",
+              "ru": "нет",
+              "tr": "yok/değil",
+              "ur": "نہیں",
+              "zh": "没有"
+            },
+            "word": "لَا"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "সমস্যা/আপত্তি",
+              "de": "Problem/Einwand",
+              "en": "problem/harm",
+              "es": "problema/inconveniente",
+              "fa": "اشکالی/باسی",
+              "fr": "problème/inconvénient",
+              "id": "masalah/halangan",
+              "ru": "проблемы/вреда",
+              "tr": "sakınca/beis",
+              "ur": "حرج/مضائقہ",
+              "zh": "问题"
+            },
+            "word": "بَأْسَ"
+          },
+          {
+            "pos": "COND",
+            "translation": {
+              "bn": "যখন/যদি",
+              "de": "wenn/falls",
+              "en": "when/if",
+              "es": "cuando/si",
+              "fa": "هنگامی که/اگر",
+              "fr": "quand/si",
+              "id": "ketika/jika",
+              "ru": "когда/если",
+              "tr": "eğer/ne zaman",
+              "ur": "جب",
+              "zh": "当/如果"
+            },
+            "word": "إِذَا"
+          },
+          {
+            "pos": "V",
+            "translation": {
+              "bn": "ছিল",
+              "de": "war",
+              "en": "it was",
+              "es": "fue/era",
+              "fa": "بود",
+              "fr": "était",
+              "id": "adalah",
+              "ru": "было",
+              "tr": "idi/oldu",
+              "ur": "ہو",
+              "zh": "是"
+            },
+            "word": "كَانَ"
+          },
+          {
+            "pos": "PRON",
+            "translation": {
+              "bn": "সে/এটি",
+              "de": "er/es",
+              "en": "it/he",
+              "es": "él/ello",
+              "fa": "او/آن",
+              "fr": "il/cela",
+              "id": "ia/itu",
+              "ru": "он/это",
+              "tr": "o",
+              "ur": "وہ",
+              "zh": "它/他"
+            },
+            "word": "هُوَ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "তোমার নিক্ষেপক অস্ত্র",
+              "de": "dein Wurfgeschoss",
+              "en": "your projectile/throwing weapon",
+              "es": "tu arma de lanzamiento",
+              "fa": "ابزار پرتاب تو",
+              "fr": "ton projectile/arme de jet",
+              "id": "senjata lemparmu",
+              "ru": "твоё метательное оружие",
+              "tr": "senin atma aleti",
+              "ur": "تمہارا پھینکنے والا ہتھیار",
+              "zh": "你的投掷武器"
+            },
+            "word": "مِرْمَاتَكَ"
+          },
+          {
+            "pos": "CONJ",
+            "translation": {
+              "bn": "অথবা",
+              "de": "oder",
+              "en": "or",
+              "es": "o",
+              "fa": "یا",
+              "fr": "ou",
+              "id": "atau",
+              "ru": "или",
+              "tr": "veya",
+              "ur": "یا",
+              "zh": "或"
+            },
+            "word": "أَوْ"
+          },
+          {
+            "pos": "V",
+            "translation": {
+              "bn": "তুমি তা তৈরি করেছ",
+              "de": "du hast es gemacht",
+              "en": "you made it",
+              "es": "lo hiciste",
+              "fa": "آن را ساختی",
+              "fr": "tu l'as fabriqué",
+              "id": "kamu membuatnya",
+              "ru": "ты его сделал",
+              "tr": "onu yaptın",
+              "ur": "تم نے اسے بنایا",
+              "zh": "你制作了它"
+            },
+            "word": "صَنَعْتَهُ"
+          },
+          {
+            "pos": "PREP",
+            "translation": {
+              "bn": "সেই উদ্দেশ্যে",
+              "de": "dafür",
+              "en": "for that purpose",
+              "es": "para ese propósito",
+              "fa": "برای آن",
+              "fr": "pour cela",
+              "id": "untuk itu",
+              "ru": "для этого",
+              "tr": "bunun için",
+              "ur": "اس مقصد کے لیے",
+              "zh": "为此目的"
+            },
+            "word": "لِذَلِكَ"
+          }
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (21/350)"
       ],
