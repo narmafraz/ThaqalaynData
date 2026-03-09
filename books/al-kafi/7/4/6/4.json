@@ -11,6 +11,933 @@
       "up": "/books/al-kafi:7:4:6"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-02-28",
+          "model": "claude-sonnet-4-6",
+          "pipeline_version": "2.0.0"
+        },
+        "chunks": [
+          {
+            "chunk_type": "body",
+            "translations": {
+              "bn": "আমি আবু জাফর (আলাইহিস সালাম)-কে বললাম: 'দশজন মিলে একজনকে হত্যা করেছে।' তিনি বললেন: 'যদি নিহতের অভিভাবকরা চান, তাহলে তারা সবাইকে একসাথে হত্যা করতে পারে এবং নয়টি দিয়াত পরিশোধ করবে; আর যদি চান, একজনকে বেছে নিয়ে হত্যা করবে, এবং বাকি নয়জন প্রত্যেকে সর্বশেষ নিহত ব্যক্তির পরিবারকে দিয়াতের দশ ভাগের এক ভাগ করে দেবে।' তিনি বললেন: 'এরপর শাসক তাদের শাস্তি দেওয়া ও কারাবন্দ করার দায়িত্ব নেবেন।'",
+              "de": "Ich sagte zu Abu Ja'far (Friede sei mit ihm): 'Zehn Personen haben einen Mann getötet.' Er sagte: 'Wenn seine Vormünder es wünschen, können sie sie alle zusammen töten und neun Blutgelder zahlen; oder wenn sie es wünschen, wählen sie einen Mann aus und töten ihn, während die verbleibenden neun jeweils ein Zehntel des Blutgeldes an die Familie des zuletzt Getöteten zahlen.' Er sagte: 'Danach übernimmt der Herrscher die Aufgabe, sie zu bestrafen und zu inhaftieren.'",
+              "en": "I said to Abu Ja'far (peace be upon him): 'Ten people killed one man.' He said: 'If his next of kin wish, they may kill them all together, and [the killers' families] pay nine blood-monies; or if they wish, they may select one man and kill him, while the remaining nine each pay one-tenth of the blood-money to the family of the last one killed.' He said: 'Thereafter, the ruler takes charge of disciplining them and imprisoning them.'",
+              "es": "Le dije a Abu Ja'far (paz sea con él): 'Diez personas mataron a un hombre.' Dijo: 'Si sus guardianes desean, pueden matarlos a todos juntos y pagar nueve compensaciones; o si desean, eligen a un hombre y lo matan, mientras que los nueve restantes pagan a la familia del último muerto la décima parte de la compensación, cada uno de ellos.' Dijo: 'Luego el gobernador se encarga de disciplinarlos y encarcelarlos.'",
+              "fa": "به ابوجعفر علیه السلام گفتم: «ده نفر یک مرد را کشتند.» فرمود: «اگر اولیای مقتول بخواهند، همه آنها را می‌کشند و نه دیه می‌پردازند؛ و اگر بخواهند، یک مرد را انتخاب می‌کنند و او را می‌کشند، و نه نفر باقی‌مانده هر کدام یک‌دهم دیه را به خانواده آخرین مقتول می‌پردازند.» فرمود: «سپس والی عهده‌دار تأدیب و زندانی کردن آنها می‌شود.»",
+              "fr": "J'ai dit à Abu Ja'far (que la paix soit sur lui) : « Dix personnes ont tué un homme. » Il dit : « Si ses tuteurs le souhaitent, ils peuvent les tuer tous ensemble et payer neuf prix du sang ; ou s'ils le souhaitent, ils choisissent un homme et le tuent, tandis que les neuf restants paient chacun un dixième du prix du sang à la famille du dernier tué. » Il dit : « Ensuite, le gouverneur se charge de les châtier et de les emprisonner. »",
+              "id": "Saya berkata kepada Abu Ja'far (alaihis salam): 'Sepuluh orang membunuh satu orang.' Beliau bersabda: 'Jika wali-walinya menghendaki, mereka dapat membunuh semuanya sekaligus dan membayar sembilan diyat; atau jika mereka menghendaki, mereka memilih satu orang lalu membunuhnya, sedangkan sembilan orang sisanya masing-masing membayar sepersepuluh diyat kepada keluarga orang yang terakhir dibunuh.' Beliau bersabda: 'Kemudian penguasa sesudahnya menangani pendisiplinan dan pemenjaraan mereka.'",
+              "ru": "Я сказал Абу Джафару (мир ему): «Десять человек убили одного». Он сказал: «Если его опекуны пожелают, они могут убить их всех вместе и заплатить девять выкупов за кровь; или если пожелают — выберут одного человека и убьют его, а оставшиеся девять заплатят каждый одну десятую выкупа семье последнего убитого». Он сказал: «После этого правитель берёт на себя их наказание и заключение под стражу».",
+              "tr": "Ebu Cafer'e (a.s.) 'On kişi bir adamı öldürdü' dedim. O buyurdu: 'Eğer velileri isterse hepsini birlikte öldürüp dokuz diyet öderler; isterlerse bir adam seçip onu öldürürler ve geriye kalan dokuz kişi, son öldürülenin ailesine her biri diyetin onda birini öder.' Buyurdu: 'Ardından vali onları terbiye etme ve hapsederek yönetme görevini üstlenir.'",
+              "ur": "میں نے ابو جعفر علیہ السلام سے کہا: 'دس لوگوں نے ایک آدمی کو قتل کیا۔' آپ نے فرمایا: 'اگر اس کے اولیاء چاہیں تو وہ ان سب کو قتل کریں اور نو دیتیں ادا کریں۔ اور اگر چاہیں تو ایک آدمی کو منتخب کریں اور اسے قتل کریں، اور باقی نو آدمی آخری مقتول کے اہل کو ہر ایک دسواں حصہ دیت ادا کریں۔' آپ نے فرمایا: 'پھر والی بعد میں ان کی تأدیب اور قید کا ذمہ دار ہوگا۔'",
+              "zh": "我对阿布·贾法尔（愿主赐他平安）说：'十人杀了一个人。'他说：'若被害者的监护人愿意，可以将他们全部处决，并偿付九份血钱；若他们愿意，也可以选择一人处决，其余九人每人向最后被杀者的家属支付十分之一的血钱。'他说：'此后，统治者负责惩戒并监禁他们。'"
+            },
+            "word_end": 42,
+            "word_start": 0
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_changes": [
+          "Added full tashkeel throughout; parenthetical (عليه السلام) integrated as عَلَيْهِ السَّلَامُ",
+          "وَ غَرِمُوا normalized to وَغَرِمُوا",
+          "وَ إِنْ normalized to وَإِنْ",
+          "وَ أَدَّى normalized to وَأَدَّى",
+          "وَ حَبْسَهُمْ normalized to وَحَبْسَهُمْ"
+        ],
+        "diacritics_status": "completed",
+        "isnad_matn": {
+          "has_chain": true,
+          "isnad_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ أَحْمَدَ بْنِ الْحَسَنِ الْمِيثَمِيِّ عَنْ أَبَانٍ عَنِ الْفُضَيْلِ بْنِ يَسَارٍ قَالَ",
+          "matn_ar": "قُلْتُ لِأَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ عَشَرَةٌ قَتَلُوا رَجُلًا فَقَالَ إِنْ شَاءَ أَوْلِيَاؤُهُ قَتَلُوهُمْ جَمِيعاً وَغَرِمُوا تِسْعَ دِيَاتٍ وَإِنْ شَاءُوا تَخَيَّرُوا رَجُلًا فَقَتَلُوهُ وَأَدَّى التِّسْعَةُ الْبَاقُونَ إِلَى أَهْلِ الْمَقْتُولِ الْأَخِيرِ عُشْرَ الدِّيَةِ كُلُّ رَجُلٍ مِنْهُمْ قَالَ ثُمَّ إِنَّ الْوَالِيَ بَعْدُ يَلِي أَدَبَهُمْ وَحَبْسَهُمْ",
+          "narrators": [
+            {
+              "identity_confidence": "definite",
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "identity_confidence": "definite",
+              "name_ar": "أَبِيهِ",
+              "name_en": "Ibrahim ibn Hashim (his father)",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "identity_confidence": "definite",
+              "name_ar": "أَحْمَدَ بْنِ الْحَسَنِ الْمِيثَمِيِّ",
+              "name_en": "Ahmad ibn al-Hasan al-Mithami",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Several narrators named Aban appear in this chain context; Aban ibn Taghlib is the most likely given the other narrators in this chain",
+              "identity_confidence": "likely",
+              "name_ar": "أَبَانٍ",
+              "name_en": "Aban ibn Taghlib",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "identity_confidence": "definite",
+              "name_ar": "الْفُضَيْلِ بْنِ يَسَارٍ",
+              "name_en": "al-Fudayl ibn Yasar",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "jurisprudential_term",
+            "phrase_ar": "أَوْلِيَاؤُهُ قَتَلُوهُمْ جَمِيعاً",
+            "phrase_en": "his guardians may kill them all together"
+          },
+          {
+            "category": "jurisprudential_term",
+            "phrase_ar": "عُشْرَ الدِّيَةِ",
+            "phrase_en": "one-tenth of the blood-money"
+          },
+          {
+            "category": "jurisprudential_term",
+            "phrase_ar": "يَلِي أَدَبَهُمْ وَحَبْسَهُمْ",
+            "phrase_en": "oversees their disciplining and imprisonment"
+          }
+        ],
+        "key_terms": {
+          "bn": {
+            "أَوْلِيَاء": "আওলিয়া — কিসাসের অধিকারী উত্তরাধিকারীরা",
+            "الدِّيَة": "দিয়াত — রক্তের মূল্য, হত্যার আর্থিক ক্ষতিপূরণ",
+            "الْوَالِي": "ওয়ালি — তা'যির শাস্তির দায়িত্বপ্রাপ্ত শাসক"
+          },
+          "de": {
+            "أَوْلِيَاء": "Awliya' — Erben mit dem Recht auf Qisas (Vergeltung)",
+            "الدِّيَة": "Diya — Blutgeld, finanzielle Entschädigung für Tötung",
+            "الْوَالِي": "Al-Wali — Herrscher, der für das Ta'zir (Ermessensstrafe) zuständig ist"
+          },
+          "en": {
+            "أَوْلِيَاء": "Awliya' — the next of kin/guardians who hold the right of retaliation (qisas)",
+            "الدِّيَة": "Diya — blood-money; the financial compensation for unlawful killing",
+            "الْوَالِي": "Al-wali — the ruler or governing authority responsible for public order and discretionary punishment (ta'zir)"
+          },
+          "es": {
+            "أَوْلِيَاء": "Awliya' — herederos con derecho al qisas (retribución)",
+            "الدِّيَة": "Diya — precio de sangre, compensación económica por homicidio",
+            "الْوَالِي": "Al-wali — gobernador responsable del ta'zir (castigo discrecional)"
+          },
+          "fa": {
+            "أَوْلِيَاء": "اولیا — وارثانی که حق قصاص دارند",
+            "الدِّيَة": "دیه — خون‌بها، غرامت مالی برای قتل",
+            "الْوَالِي": "والی — حاکمی که مسئول تعزیر است"
+          },
+          "fr": {
+            "أَوْلِيَاء": "Awliya' — héritiers ayant le droit au qisas (représailles)",
+            "الدِّيَة": "Diya — prix du sang, compensation financière pour homicide",
+            "الْوَالِي": "Al-wali — gouverneur responsable du ta'zir (peine discrétionnaire)"
+          },
+          "id": {
+            "أَوْلِيَاء": "Wali — ahli waris yang berhak atas qisas",
+            "الدِّيَة": "Diyat — ganti rugi darah/denda kematian",
+            "الْوَالِي": "Wali (penguasa) — yang bertanggung jawab atas ta'zir"
+          },
+          "ru": {
+            "أَوْلِيَاء": "Авлия — наследники, имеющие право на кисас (возмездие)",
+            "الدِّيَة": "Дия — выкуп за кровь, финансовая компенсация за убийство",
+            "الْوَالِي": "Аль-вали — правитель, ответственный за та'зир (дискреционное наказание)"
+          },
+          "tr": {
+            "أَوْلِيَاء": "Veliler — kısas hakkına sahip varisler",
+            "الدِّيَة": "Diyet — kan bedeli/tazminat",
+            "الْوَالِي": "Vali — ta'zir cezasından sorumlu yönetici"
+          },
+          "ur": {
+            "أَوْلِيَاء": "اولیاء — قصاص کا حق رکھنے والے ورثاء",
+            "الدِّيَة": "دیت — قتل کا خون بہا، مالی معاوضہ",
+            "الْوَالِي": "والی — حاکم جو تعزیر کا ذمہ دار ہے"
+          },
+          "zh": {
+            "أَوْلِيَاء": "奥利亚 — 享有报仇权（基萨斯）的继承人",
+            "الدِّيَة": "迪亚 — 血钱，杀人的财务赔偿",
+            "الْوَالِي": "瓦利 — 负责酌情处罚（塔兹尔）的统治者"
+          }
+        },
+        "related_quran": [
+          {
+            "ref": "5:45",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:178",
+            "relationship": "thematic"
+          }
+        ],
+        "seo_questions": {
+          "bn": "ইসলামে দশজন মিলে একজনকে হত্যা করলে বিধান কী?",
+          "de": "Was ist das islamische Urteil, wenn eine Gruppe von zehn Personen gemeinsam eine Person tötet?",
+          "en": "What is the Islamic ruling when a group of people collectively kill one person?",
+          "es": "¿Cuál es el dictamen islámico cuando un grupo de diez personas mata colectivamente a una?",
+          "fa": "حکم اسلام در مورد قتل جمعی که ده نفر یک نفر را بکشند چیست؟",
+          "fr": "Quel est le jugement islamique lorsqu'un groupe de dix personnes tue collectivement une personne ?",
+          "id": "Apa hukum Islam jika sekelompok orang secara bersama-sama membunuh satu orang?",
+          "ru": "Каково исламское решение, когда группа из десяти человек совместно убивает одного?",
+          "tr": "İslam'da bir grubun birlikte adam öldürmesi durumunda hüküm nedir?",
+          "ur": "اسلام میں اجتماعی قتل کا کیا حکم ہے جب دس افراد ایک کو قتل کریں؟",
+          "zh": "伊斯兰教对十人共同杀害一人有何裁决？"
+        },
+        "similar_content_hints": [
+          {
+            "description": "Hadiths from al-Kafi and other primary sources discussing the ruling of qisas when two or more people jointly commit a killing, including the distribution of blood-money.",
+            "theme": "collective_killing_qisas"
+          },
+          {
+            "description": "Narrations describing the role of the wali (Islamic governor) in enforcing discretionary punishments (ta'zir) beyond retaliation and blood-money.",
+            "theme": "ruler_discretionary_punishment"
+          },
+          {
+            "description": "Jurisprudential traditions about the rights of the next of kin (awliya' al-dam) in capital punishment cases, including their options and limitations.",
+            "theme": "awliya_dam_rights"
+          }
+        ],
+        "summaries": {
+          "bn": "ইমাম বাকির (আ.) দশজন মিলে একজনকে হত্যা করলে কী হুকুম হবে তা বিবৃত করেছেন। নিহতের অভিভাবকদের পছন্দের অধিকার দেওয়া হয়েছে।",
+          "de": "Imam al-Baqir (Friede sei mit ihm) erließ ein Urteil für den Fall, dass zehn Personen gemeinsam einen Menschen töten. Den Vormündern des Opfers wird ein Wahlrecht eingeräumt.",
+          "en": "Imam al-Baqir (peace be upon him) rules on the case of ten people who collectively kill one man. The victim's guardians have a choice: execute all ten (with nine blood-monies paid back) or execute one (with the remaining nine each paying one-tenth of the blood-money). The ruler then disciplines and imprisons the perpetrators. This ruling reflects the classical Shia jurisprudential principle that collective killers are all liable, with the guardian having discretion over retaliation and financial compensation.",
+          "es": "El Imam al-Baqir (paz sea con él) emitió un dictamen sobre el caso de diez personas que matan colectivamente a una. Los tutores de la víctima tienen la opción de elegir.",
+          "fa": "امام باقر علیه السلام حکم موردی را که ده نفر با هم یک نفر را بکشند بیان فرمود. اولیای مقتول حق انتخاب دارند.",
+          "fr": "L'Imam al-Baqir (que la paix soit sur lui) a statué sur le cas de dix personnes qui tuent collectivement une personne. Les tuteurs de la victime ont le choix entre différentes options.",
+          "id": "Imam al-Baqir (a.s.) memberikan keputusan hukum untuk kasus sepuluh orang yang secara bersama-sama membunuh satu orang. Para wali korban diberi pilihan.",
+          "ru": "Имам аль-Бакир (мир ему) вынес решение по делу о групповом убийстве, когда десять человек совместно убили одного. Опекунам жертвы предоставляется право выбора.",
+          "tr": "İmam Bakır (a.s.), on kişinin birlikte bir kişiyi öldürdüğü durumda hükmü beyan etmiştir. Kurbanın velilerine seçim hakkı tanınmıştır.",
+          "ur": "امام باقر علیہ السلام نے اس صورت کا حکم بیان فرمایا جب دس لوگ مل کر ایک آدمی کو قتل کریں۔ مقتول کے اولیاء کو اختیار ہے کہ سب کو قتل کریں یا ایک کو چنیں۔",
+          "zh": "伊玛目巴基尔（愿主赐他平安）就十人共同杀害一人的情形作出裁决。受害者的监护人享有选择权。"
+        },
+        "tags": [
+          "jurisprudence",
+          "governance"
+        ],
+        "topics": [
+          "judicial_rulings",
+          "justice_system"
+        ],
+        "word_analysis": [
+          {
+            "pos": "V",
+            "translation": {
+              "bn": "আমি বললাম",
+              "de": "ich sagte",
+              "en": "I said",
+              "es": "dije",
+              "fa": "گفتم",
+              "fr": "j'ai dit",
+              "id": "saya berkata",
+              "ru": "я сказал",
+              "tr": "dedim",
+              "ur": "میں نے کہا",
+              "zh": "我说"
+            },
+            "word": "قُلْتُ"
+          },
+          {
+            "pos": "PREP",
+            "translation": {
+              "bn": "আবুকে",
+              "de": "zu Abu",
+              "en": "to Abu",
+              "es": "a Abu",
+              "fa": "به ابو",
+              "fr": "à Abu",
+              "id": "kepada Abu",
+              "ru": "Абу",
+              "tr": "Ebu'ya",
+              "ur": "ابو کو",
+              "zh": "对阿布"
+            },
+            "word": "لِأَبِي"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "জাফর",
+              "de": "Ja'far",
+              "en": "Ja'far",
+              "es": "Ja'far",
+              "fa": "جعفر",
+              "fr": "Ja'far",
+              "id": "Ja'far",
+              "ru": "Джафар",
+              "tr": "Cafer",
+              "ur": "جعفر",
+              "zh": "贾法尔"
+            },
+            "word": "جَعْفَرٍ"
+          },
+          {
+            "pos": "PREP",
+            "translation": {
+              "bn": "তাঁর উপর",
+              "de": "auf ihm",
+              "en": "upon him",
+              "es": "sobre él",
+              "fa": "بر او",
+              "fr": "sur lui",
+              "id": "atasnya",
+              "ru": "на нём",
+              "tr": "ona",
+              "ur": "اس پر",
+              "zh": "在他身上"
+            },
+            "word": "عَلَيْهِ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "শান্তি বর্ষিত হোক",
+              "de": "der Friede",
+              "en": "be peace",
+              "es": "la paz",
+              "fa": "سلام باد",
+              "fr": "la paix",
+              "id": "salam",
+              "ru": "мир",
+              "tr": "selam olsun",
+              "ur": "سلام ہو",
+              "zh": "平安"
+            },
+            "word": "السَّلَامُ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "দশ (জন)",
+              "de": "zehn (Personen)",
+              "en": "ten (people)",
+              "es": "diez (personas)",
+              "fa": "ده (نفر)",
+              "fr": "dix (personnes)",
+              "id": "sepuluh (orang)",
+              "ru": "десять (человек)",
+              "tr": "on (kişi)",
+              "ur": "دس (افراد)",
+              "zh": "十（人）"
+            },
+            "word": "عَشَرَةٌ"
+          },
+          {
+            "pos": "V",
+            "translation": {
+              "bn": "হত্যা করল",
+              "de": "töteten",
+              "en": "killed",
+              "es": "mataron",
+              "fa": "کشتند",
+              "fr": "ont tué",
+              "id": "membunuh",
+              "ru": "убили",
+              "tr": "öldürdü",
+              "ur": "نے قتل کیا",
+              "zh": "杀死了"
+            },
+            "word": "قَتَلُوا"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "একজন পুরুষকে",
+              "de": "einen Mann",
+              "en": "a man",
+              "es": "a un hombre",
+              "fa": "مردی را",
+              "fr": "un homme",
+              "id": "seorang pria",
+              "ru": "человека",
+              "tr": "bir adamı",
+              "ur": "ایک آدمی کو",
+              "zh": "一个人"
+            },
+            "word": "رَجُلًا"
+          },
+          {
+            "pos": "V",
+            "translation": {
+              "bn": "তখন তিনি বললেন",
+              "de": "da sagte er",
+              "en": "so he said",
+              "es": "entonces dijo",
+              "fa": "پس فرمود",
+              "fr": "alors il dit",
+              "id": "maka beliau bersabda",
+              "ru": "тогда он сказал",
+              "tr": "o da buyurdu",
+              "ur": "پس آپ نے فرمایا",
+              "zh": "于是他说"
+            },
+            "word": "فَقَالَ"
+          },
+          {
+            "pos": "COND",
+            "translation": {
+              "bn": "যদি",
+              "de": "wenn",
+              "en": "if",
+              "es": "si",
+              "fa": "اگر",
+              "fr": "si",
+              "id": "jika",
+              "ru": "если",
+              "tr": "eğer",
+              "ur": "اگر",
+              "zh": "如果"
+            },
+            "word": "إِنْ"
+          },
+          {
+            "pos": "V",
+            "translation": {
+              "bn": "ইচ্ছে করলে",
+              "de": "wollten",
+              "en": "wished/desired",
+              "es": "quisieran",
+              "fa": "خواستند",
+              "fr": "voulaient",
+              "id": "menghendaki",
+              "ru": "пожелали",
+              "tr": "isterse",
+              "ur": "چاہا",
+              "zh": "愿意"
+            },
+            "word": "شَاءَ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "তার অভিভাবকরা",
+              "de": "seine Erben/Vormünder",
+              "en": "his guardians/next of kin",
+              "es": "sus guardianes",
+              "fa": "اولیای او",
+              "fr": "ses tuteurs/héritiers",
+              "id": "wali-walinya",
+              "ru": "его опекуны/наследники",
+              "tr": "velileri",
+              "ur": "اس کے اولیاء",
+              "zh": "他的监护人"
+            },
+            "word": "أَوْلِيَاؤُهُ"
+          },
+          {
+            "pos": "V",
+            "translation": {
+              "bn": "তাদের সবাইকে হত্যা করতে পারে",
+              "de": "sie alle töten",
+              "en": "kill them all",
+              "es": "matarlos a todos",
+              "fa": "همه آنها را بکشند",
+              "fr": "les tuer tous",
+              "id": "membunuh mereka semua",
+              "ru": "убить их всех",
+              "tr": "hepsini öldürebilirler",
+              "ur": "ان سب کو قتل کریں",
+              "zh": "杀死他们所有人"
+            },
+            "word": "قَتَلُوهُمْ"
+          },
+          {
+            "pos": "ADV",
+            "translation": {
+              "bn": "একসাথে সবাইকে",
+              "de": "alle zusammen",
+              "en": "altogether/all together",
+              "es": "a todos juntos",
+              "fa": "همگی",
+              "fr": "tous ensemble",
+              "id": "semuanya bersama-sama",
+              "ru": "всех вместе",
+              "tr": "hepsini birlikte",
+              "ur": "سب کو اکٹھے",
+              "zh": "全部"
+            },
+            "word": "جَمِيعاً"
+          },
+          {
+            "pos": "V",
+            "translation": {
+              "bn": "এবং প্রদান করবে",
+              "de": "und zahlen",
+              "en": "and pay",
+              "es": "y paguen",
+              "fa": "و بپردازند",
+              "fr": "et paient",
+              "id": "dan membayar",
+              "ru": "и заплатят",
+              "tr": "ve ödesinler",
+              "ur": "اور ادا کریں",
+              "zh": "并支付"
+            },
+            "word": "وَغَرِمُوا"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "নয়",
+              "de": "neun",
+              "en": "nine",
+              "es": "nueve",
+              "fa": "نه",
+              "fr": "neuf",
+              "id": "sembilan",
+              "ru": "девять",
+              "tr": "dokuz",
+              "ur": "نو",
+              "zh": "九"
+            },
+            "word": "تِسْعَ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "দিয়াত",
+              "de": "Blutgelder/Diyat",
+              "en": "blood-monies/wergilds",
+              "es": "compensaciones/díyas",
+              "fa": "دیه",
+              "fr": "prix du sang/diyas",
+              "id": "diyat",
+              "ru": "выкупа за кровь",
+              "tr": "diyet",
+              "ur": "دیتیں",
+              "zh": "血钱"
+            },
+            "word": "دِيَاتٍ"
+          },
+          {
+            "pos": "CONJ",
+            "translation": {
+              "bn": "এবং যদি",
+              "de": "und wenn",
+              "en": "and if",
+              "es": "y si",
+              "fa": "و اگر",
+              "fr": "et si",
+              "id": "dan jika",
+              "ru": "и если",
+              "tr": "ve eğer",
+              "ur": "اور اگر",
+              "zh": "若"
+            },
+            "word": "وَإِنْ"
+          },
+          {
+            "pos": "V",
+            "translation": {
+              "bn": "তারা চাইলে",
+              "de": "sie wollten",
+              "en": "they wished",
+              "es": "quisieran",
+              "fa": "خواستند",
+              "fr": "ils voulaient",
+              "id": "mereka menghendaki",
+              "ru": "пожелали",
+              "tr": "istedilerse",
+              "ur": "انہوں نے چاہا",
+              "zh": "他们愿意"
+            },
+            "word": "شَاءُوا"
+          },
+          {
+            "pos": "V",
+            "translation": {
+              "bn": "তারা বেছে নিতে পারে",
+              "de": "sie wählen",
+              "en": "they may choose/select",
+              "es": "elijan",
+              "fa": "انتخاب کنند",
+              "fr": "ils choisissent",
+              "id": "mereka memilih",
+              "ru": "они выберут",
+              "tr": "seçebilirler",
+              "ur": "وہ منتخب کریں",
+              "zh": "他们选择"
+            },
+            "word": "تَخَيَّرُوا"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "একজন পুরুষ",
+              "de": "einen Mann",
+              "en": "one man",
+              "es": "a un hombre",
+              "fa": "مردی",
+              "fr": "un homme",
+              "id": "seorang pria",
+              "ru": "одного человека",
+              "tr": "bir adamı",
+              "ur": "ایک آدمی",
+              "zh": "一个人"
+            },
+            "word": "رَجُلًا"
+          },
+          {
+            "pos": "V",
+            "translation": {
+              "bn": "তাকে হত্যা করবে",
+              "de": "und töten ihn",
+              "en": "and kill him",
+              "es": "y lo maten",
+              "fa": "پس او را بکشند",
+              "fr": "et le tuent",
+              "id": "lalu membunuhnya",
+              "ru": "и убивают его",
+              "tr": "onu öldürsünler",
+              "ur": "پھر اسے قتل کریں",
+              "zh": "并杀死他"
+            },
+            "word": "فَقَتَلُوهُ"
+          },
+          {
+            "pos": "V",
+            "translation": {
+              "bn": "এবং আদায় করবে",
+              "de": "und zahlen",
+              "en": "and pay/deliver",
+              "es": "y paguen",
+              "fa": "و بپردازند",
+              "fr": "et versent",
+              "id": "dan membayarkan",
+              "ru": "и заплатят",
+              "tr": "ve ödesinler",
+              "ur": "اور ادا کریں",
+              "zh": "并支付"
+            },
+            "word": "وَأَدَّى"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "নয় (জন)",
+              "de": "die neun",
+              "en": "the nine",
+              "es": "los nueve",
+              "fa": "نه (نفر)",
+              "fr": "les neuf",
+              "id": "sembilan (orang)",
+              "ru": "девять (человек)",
+              "tr": "dokuz (kişi)",
+              "ur": "نو (باقی)",
+              "zh": "那九个人"
+            },
+            "word": "التِّسْعَةُ"
+          },
+          {
+            "pos": "ADJ",
+            "translation": {
+              "bn": "বাকিরা",
+              "de": "die Übrigen",
+              "en": "the remaining ones",
+              "es": "los restantes",
+              "fa": "باقی‌مانده",
+              "fr": "les restants",
+              "id": "yang tersisa",
+              "ru": "оставшиеся",
+              "tr": "geriye kalanlar",
+              "ur": "باقی ماندہ",
+              "zh": "剩余的人"
+            },
+            "word": "الْبَاقُونَ"
+          },
+          {
+            "pos": "PREP",
+            "translation": {
+              "bn": "কে",
+              "de": "an",
+              "en": "to",
+              "es": "a",
+              "fa": "به",
+              "fr": "à",
+              "id": "kepada",
+              "ru": "к",
+              "tr": "-e/-a",
+              "ur": "کی طرف",
+              "zh": "给"
+            },
+            "word": "إِلَى"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "পরিবারের",
+              "de": "Familie von",
+              "en": "family of",
+              "es": "familia de",
+              "fa": "اهل",
+              "fr": "famille de",
+              "id": "keluarga",
+              "ru": "семье",
+              "tr": "ehli/ailesi",
+              "ur": "اہل",
+              "zh": "家属"
+            },
+            "word": "أَهْلِ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "নিহত ব্যক্তির",
+              "de": "des Getöteten",
+              "en": "the killed/slain",
+              "es": "el asesinado",
+              "fa": "مقتول",
+              "fr": "le tué",
+              "id": "yang terbunuh",
+              "ru": "убитого",
+              "tr": "öldürülen",
+              "ur": "مقتول",
+              "zh": "被杀者的"
+            },
+            "word": "الْمَقْتُولِ"
+          },
+          {
+            "pos": "ADJ",
+            "translation": {
+              "bn": "সর্বশেষ",
+              "de": "des letzten",
+              "en": "the last",
+              "es": "el último",
+              "fa": "آخرین",
+              "fr": "le dernier",
+              "id": "terakhir",
+              "ru": "последнего",
+              "tr": "son",
+              "ur": "آخری",
+              "zh": "最后一个"
+            },
+            "word": "الْأَخِيرِ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "দশ ভাগের এক ভাগ",
+              "de": "ein Zehntel",
+              "en": "one-tenth",
+              "es": "un décimo",
+              "fa": "یک‌دهم",
+              "fr": "un dixième",
+              "id": "sepersepuluh",
+              "ru": "одну десятую",
+              "tr": "onda birini",
+              "ur": "دسواں حصہ",
+              "zh": "十分之一"
+            },
+            "word": "عُشْرَ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "দিয়াতের",
+              "de": "des Blutgeldes",
+              "en": "of the blood-money/wergild",
+              "es": "de la compensación/diya",
+              "fa": "دیه",
+              "fr": "du prix du sang",
+              "id": "diyat",
+              "ru": "выкупа за кровь",
+              "tr": "diyetin",
+              "ur": "دیت کا",
+              "zh": "血钱的"
+            },
+            "word": "الدِّيَةِ"
+          },
+          {
+            "pos": "DET",
+            "translation": {
+              "bn": "প্রতিটি",
+              "de": "jeder",
+              "en": "each/every",
+              "es": "cada",
+              "fa": "هر",
+              "fr": "chaque",
+              "id": "setiap",
+              "ru": "каждый",
+              "tr": "her",
+              "ur": "ہر",
+              "zh": "每"
+            },
+            "word": "كُلُّ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "পুরুষ",
+              "de": "Mann",
+              "en": "man",
+              "es": "hombre",
+              "fa": "مرد",
+              "fr": "homme",
+              "id": "pria",
+              "ru": "человек",
+              "tr": "adam",
+              "ur": "آدمی",
+              "zh": "人"
+            },
+            "word": "رَجُلٍ"
+          },
+          {
+            "pos": "PREP",
+            "translation": {
+              "bn": "তাদের মধ্য থেকে",
+              "de": "von ihnen",
+              "en": "from them",
+              "es": "de ellos",
+              "fa": "از آنها",
+              "fr": "d'entre eux",
+              "id": "dari mereka",
+              "ru": "из них",
+              "tr": "onlardan",
+              "ur": "ان میں سے",
+              "zh": "每人"
+            },
+            "word": "مِنْهُمْ"
+          },
+          {
+            "pos": "V",
+            "translation": {
+              "bn": "তিনি বললেন",
+              "de": "er sagte",
+              "en": "he said",
+              "es": "dijo",
+              "fa": "فرمود",
+              "fr": "il dit",
+              "id": "beliau bersabda",
+              "ru": "он сказал",
+              "tr": "buyurdu",
+              "ur": "آپ نے فرمایا",
+              "zh": "他说"
+            },
+            "word": "قَالَ"
+          },
+          {
+            "pos": "CONJ",
+            "translation": {
+              "bn": "তারপর",
+              "de": "dann",
+              "en": "then",
+              "es": "luego",
+              "fa": "سپس",
+              "fr": "puis",
+              "id": "kemudian",
+              "ru": "затем",
+              "tr": "sonra",
+              "ur": "پھر",
+              "zh": "然后"
+            },
+            "word": "ثُمَّ"
+          },
+          {
+            "pos": "PART",
+            "translation": {
+              "bn": "নিশ্চয়ই",
+              "de": "fürwahr",
+              "en": "indeed",
+              "es": "ciertamente",
+              "fa": "به درستی",
+              "fr": "certes",
+              "id": "sesungguhnya",
+              "ru": "воистину",
+              "tr": "muhakkak ki",
+              "ur": "بے شک",
+              "zh": "确实"
+            },
+            "word": "إِنَّ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "শাসক/ওয়ালী",
+              "de": "der Herrscher",
+              "en": "the ruler/governor",
+              "es": "el gobernador",
+              "fa": "والی/حاکم",
+              "fr": "le gouverneur",
+              "id": "penguasa/wali",
+              "ru": "правитель",
+              "tr": "vali/yönetici",
+              "ur": "والی/حاکم",
+              "zh": "统治者"
+            },
+            "word": "الْوَالِيَ"
+          },
+          {
+            "pos": "ADV",
+            "translation": {
+              "bn": "পরে",
+              "de": "danach",
+              "en": "afterwards/thereafter",
+              "es": "después",
+              "fa": "سپس",
+              "fr": "ensuite",
+              "id": "setelah itu",
+              "ru": "после этого",
+              "tr": "sonrasında",
+              "ur": "بعد میں",
+              "zh": "之后"
+            },
+            "word": "بَعْدُ"
+          },
+          {
+            "pos": "V",
+            "translation": {
+              "bn": "দায়িত্ব নেয়",
+              "de": "übernimmt",
+              "en": "takes charge of/oversees",
+              "es": "se encarga de",
+              "fa": "عهده‌دار می‌شود",
+              "fr": "se charge de",
+              "id": "menangani",
+              "ru": "берёт на себя",
+              "tr": "üstlenir",
+              "ur": "ذمہ داری لیتا ہے",
+              "zh": "负责"
+            },
+            "word": "يَلِي"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "তাদের শাস্তি দেওয়া",
+              "de": "ihre Bestrafung",
+              "en": "disciplining them",
+              "es": "disciplinarlos",
+              "fa": "تأدیب آنها",
+              "fr": "les châtier",
+              "id": "mendisiplinkan mereka",
+              "ru": "их наказание",
+              "tr": "onları terbiye etmeyi",
+              "ur": "ان کی تأدیب",
+              "zh": "惩戒他们"
+            },
+            "word": "أَدَبَهُمْ"
+          },
+          {
+            "pos": "N",
+            "translation": {
+              "bn": "এবং তাদের কারাবন্দ করা",
+              "de": "und ihre Inhaftierung",
+              "en": "and imprisoning them",
+              "es": "y encarcelarlos",
+              "fa": "و زندانی کردن آنها",
+              "fr": "et les emprisonner",
+              "id": "dan memenjarakan mereka",
+              "ru": "и их заключение",
+              "tr": "ve hapsedilmelerini",
+              "ur": "اور ان کو قید کرنا",
+              "zh": "并监禁他们"
+            },
+            "word": "وَحَبْسَهُمْ"
+          }
+        ]
+      },
       "index": 14101,
       "local_index": 4,
       "narrator_chain": {
