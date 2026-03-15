@@ -72,6 +72,7 @@
           "narrators": [
             {
               "ambiguity_note": null,
+              "canonical_id": 3,
               "identity_confidence": "definite",
               "known_identity": "Ali ibn Ibrahim al-Qummi (d. after 307 AH), a major Shia hadith scholar and author of the famous Tafsir al-Qummi",
               "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
@@ -81,6 +82,7 @@
             },
             {
               "ambiguity_note": "Refers to Ibrahim ibn Hashim al-Qummi, father of Ali ibn Ibrahim, identified by preceding narrator",
+              "canonical_id": 2,
               "identity_confidence": "definite",
               "known_identity": "Ibrahim ibn Hashim al-Qummi, one of the key transmitters of Kufan hadith to Qom",
               "name_ar": "أَبِيهِ",
@@ -90,6 +92,7 @@
             },
             {
               "ambiguity_note": null,
+              "canonical_id": 74,
               "identity_confidence": "definite",
               "known_identity": "Abd al-Rahman ibn Abi Najran, a trusted Shia transmitter of the 3rd century AH",
               "name_ar": "ابْنُ أَبِي نَجْرَانَ",
@@ -99,6 +102,7 @@
             },
             {
               "ambiguity_note": null,
+              "canonical_id": 79,
               "identity_confidence": "definite",
               "known_identity": "Asim ibn Humayd al-Hannat, a reliable Shia narrator and companion of Imam al-Sadiq (AS)",
               "name_ar": "عَاصِمُ بْنُ حُمَيْدٍ",
@@ -108,6 +112,7 @@
             },
             {
               "ambiguity_note": null,
+              "canonical_id": 108,
               "identity_confidence": "definite",
               "known_identity": "Mansur ibn Hazim al-Bajali, a prominent companion of Imam al-Sadiq (AS) and trusted narrator",
               "name_ar": "مَنْصُورُ بْنُ حَازِمٍ",
@@ -1742,7 +1747,7 @@
         "parts": [
           {
             "kind": "narrator",
-            "path": "/people/narrators/37",
+            "path": "/people/narrators/3",
             "text": "عَلِيُّ بْنُ إِبْرَاهِيمَ"
           },
           {
@@ -1751,7 +1756,7 @@
           },
           {
             "kind": "narrator",
-            "path": "/people/narrators/36",
+            "path": "/people/narrators/2",
             "text": "أَبِيهِ"
           },
           {
@@ -1760,7 +1765,7 @@
           },
           {
             "kind": "narrator",
-            "path": "/people/narrators/76",
+            "path": "/people/narrators/74",
             "text": "ابْنِ أَبِي نَجْرَانَ"
           },
           {
@@ -1769,7 +1774,7 @@
           },
           {
             "kind": "narrator",
-            "path": "/people/narrators/266",
+            "path": "/people/narrators/79",
             "text": "عَاصِمِ بْنِ حُمَيْدٍ"
           },
           {
@@ -1778,7 +1783,7 @@
           },
           {
             "kind": "narrator",
-            "path": "/people/narrators/186",
+            "path": "/people/narrators/108",
             "text": "مَنْصُورِ بْنِ حَازِمٍ"
           },
           {
@@ -1789,7 +1794,6 @@
       },
       "part_type": "Hadith",
       "path": "/books/al-kafi:1:2:21:3",
-      "relations": null,
       "text": [
         " قُلْتُ لِأَبِي عَبْدِ اللَّهِ ( عليه السلام ) مَا بَالِي أَسْأَلُكَ عَنِ الْمَسْأَلَةِ فَتُجِيبُنِي فِيهَا بِالْجَوَابِ ثُمَّ يَجِيئُكَ غَيْرِي فَتُجِيبُهُ فِيهَا بِجَوَابٍ آخَرَ فَقَالَ إِنَّا نُجِيبُ النَّاسَ عَلَى الزِّيَادَةِ وَ النُّقْصَانِ ",
         "قَالَ قُلْتُ فَأَخْبِرْنِي عَنْ أَصْحَابِ رَسُولِ اللَّهِ ( صلى الله عليه وآله ) صَدَقُوا عَلَى مُحَمَّدٍ ( صلى الله عليه وآله ) أَمْ كَذَبُوا قَالَ بَلْ صَدَقُوا قَالَ قُلْتُ فَمَا بَالُهُمُ اخْتَلَفُوا فَقَالَ أَ مَا تَعْلَمُ أَنَّ الرَّجُلَ كَانَ يَأْتِي رَسُولَ اللَّهِ ( صلى الله عليه وآله ) فَيَسْأَلُهُ عَنِ الْمَسْأَلَةِ فَيُجِيبُهُ فِيهَا بِالْجَوَابِ ثُمَّ يُجِيبُهُ بَعْدَ ذَلِكَ مَا يَنْسَخُ ذَلِكَ الْجَوَابَ فَنَسَخَتِ الْأَحَادِيثُ بَعْضُهَا بَعْضاً ."
@@ -1804,7 +1808,11 @@
           " 3. Ali ibn Ibrahim has narrated from his father from ibn abu Najran from ‘Asim ibn Humayd from Mansur ibn Hazim who has said the following. “I said to (Imam) abu ‘Abdallah (a.s.), ‘It is confuses me that when I ask you a question and you give an answer and then other person comes and you give a different answer for the same question.’” The Imam replied, “We answer people in a larger and reduced forms.” I then asked, “Did the Sahabah, companions of the holy Prophet speak the truth or lies when narrating his Hadith?” The Imam replied, “They spoke the truth.” I then said, “Why then they have differences?” Have you not considered the fact that a man would come to the holy Prophet (s.a.) and ask a question and would give him an answer and then he would answer that would abrogate the previous answer. Thus, Ahadith abrogated other Ahadith.”"
         ]
       }
-    }
+    },
+    "verse_translations": [
+      "en.hubeali",
+      "en.sarwar"
+    ]
   },
   "index": "al-kafi:1:2:21:3",
   "kind": "verse_detail"

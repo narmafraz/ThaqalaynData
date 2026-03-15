@@ -82,6 +82,7 @@
           "narrators": [
             {
               "ambiguity_note": null,
+              "canonical_id": 952,
               "identity_confidence": "definite",
               "known_identity": "Abu Ja'far Muhammad b. Ya'qub al-Kulayni al-Razi (d. 329 AH), compiler of al-Kafi",
               "name_ar": "مُحَمَّدُ بْنُ يَعْقُوبَ",
@@ -97,6 +98,7 @@
             },
             {
               "ambiguity_note": null,
+              "canonical_id": 3,
               "identity_confidence": "definite",
               "known_identity": "'Ali b. Ibrahim b. Hashim al-Qummi, prominent Shia narrator and exegete (fl. late 3rd century AH)",
               "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
@@ -112,6 +114,7 @@
             },
             {
               "ambiguity_note": "Referred to only as 'his father' (أَبِيهِ); identified as Ibrahim b. Hashim al-Qummi on the basis of chain context, since he is the well-attested father of 'Ali b. Ibrahim al-Qummi.",
+              "canonical_id": 2,
               "identity_confidence": "likely",
               "known_identity": "Ibrahim b. Hashim al-Qummi, among the first to spread Kufa hadith in Qum (fl. early-mid 3rd century AH)",
               "name_ar": "أَبِيهِ",
@@ -127,6 +130,7 @@
             },
             {
               "ambiguity_note": null,
+              "canonical_id": 318,
               "identity_confidence": "definite",
               "known_identity": "Abu Ahmad Muhammad b. Ziyad al-Azdi, known as Ibn Abi 'Umayr (d. 217 AH), one of the six eminent Shia narrators",
               "name_ar": "مُحَمَّدُ بْنُ أَبِي عُمَيْرٍ",
@@ -142,6 +146,7 @@
             },
             {
               "ambiguity_note": "Multiple narrators share this name; in this chain, appearing alongside Muhammad b. Abi 'Umayr as a co-transmitter from al-Fadl b. Shadhan, this is most likely Muhammad b. Isma'il b. Bazi' al-Nawfali.",
+              "canonical_id": 17,
               "identity_confidence": "likely",
               "known_identity": "Muhammad b. Isma'il b. Bazi' al-Nawfali, trusted Shia narrator of the 3rd century AH",
               "name_ar": "مُحَمَّدُ بْنُ إِسْمَاعِيلَ",
@@ -157,6 +162,7 @@
             },
             {
               "ambiguity_note": null,
+              "canonical_id": 33,
               "identity_confidence": "definite",
               "known_identity": "Abu Muhammad al-Fadl b. Shadhan al-Nisaburi (d. 260 AH), major Shia jurist, theologian, and prolific author",
               "name_ar": "الْفَضْلُ بْنُ شَاذَانَ",
@@ -172,6 +178,7 @@
             },
             {
               "ambiguity_note": null,
+              "canonical_id": 38,
               "identity_confidence": "definite",
               "known_identity": "Hammad b. 'Isa al-Jahni al-Basri, trustworthy companion of Imam al-Sadiq (AS) (d. 208 or 209 AH)",
               "name_ar": "حَمَّادُ بْنُ عِيسَى",
@@ -187,6 +194,7 @@
             },
             {
               "ambiguity_note": "Named without a patronymic; identified as Hariz b. 'Abdallah al-Sijistani on the basis of chain context — he is the well-known companion of Imam al-Sadiq (AS) who regularly transmits from Zurara.",
+              "canonical_id": 40,
               "identity_confidence": "likely",
               "known_identity": "Hariz b. 'Abdallah al-Sijistani, companion of Imam al-Sadiq (AS) and major transmitter",
               "name_ar": "حَرِيزٌ",
@@ -202,6 +210,7 @@
             },
             {
               "ambiguity_note": null,
+              "canonical_id": 18,
               "identity_confidence": "definite",
               "known_identity": "Zurara b. A'yan al-Shaybani, one of the greatest companions of Imams al-Baqir and al-Sadiq (AS)",
               "name_ar": "زُرَارَةُ",
@@ -360,10 +369,39 @@
       },
       "index": 4,
       "local_index": 4,
+      "narrator_chain": {
+        "parts": [
+          {
+            "kind": "plain",
+            "text": "فَأَمّا مَا رَوَاهُ مُحَمّدُ بنُ يَعقُوبَ عَن عَلِيّ بنِ اِبرَاهِيمَ عَن أَبِيهِ عَن مُحَمّدِ بنِ أَبِي عُمَيرٍ"
+          },
+          {
+            "kind": "plain",
+            "text": " وَ "
+          },
+          {
+            "kind": "narrator",
+            "path": "/people/narrators/17",
+            "text": "مُحَمّدِ بنِ إِسمَاعِيلَ"
+          },
+          {
+            "kind": "plain",
+            "text": " عَنِ "
+          },
+          {
+            "kind": "plain",
+            "text": "الفَضلِ بنِ شَاذَانَ جَمِيعاً عَن حَمّادِ بنِ عِيسَي عَن حَرِيزٍ عَن زُرَارَةَ عَن أَبِي جَعفَرٍ ع"
+          },
+          {
+            "kind": "plain",
+            "text": " قَالَ"
+          }
+        ]
+      },
       "part_type": "Hadith",
       "path": "/books/al-istibsar:1:1:4",
       "text": [
-        "فَأَمّا مَا رَوَاهُ مُحَمّدُ بنُ يَعقُوبَ عَن عَلِيّ بنِ اِبرَاهِيمَ عَن أَبِيهِ عَن مُحَمّدِ بنِ أَبِي عُمَيرٍ وَ مُحَمّدِ بنِ إِسمَاعِيلَ عَنِ الفَضلِ بنِ شَاذَانَ جَمِيعاً عَن حَمّادِ بنِ عِيسَي عَن حَرِيزٍ عَن زُرَارَةَ عَن أَبِي جَعفَرٍ ع قَالَ إِذَا كَانَ المَاءُ أَكثَرَ مِن رَاوِيَةٍ لَم يُنَجّسهُ شَيءٌ تَفَسّخَ فِيهِ أَو لَم يَتَفَسّخ فِيهِ إِلّا أَن يجَيِ ءَ لَهُ رِيحٌ يَغلِبُ عَلَي رِيحِ المَاءِ فَلَيسَ ينُاَفيِ مَا قَدّمنَاهُ مِنَ الأَخبَارِ لِأَنّهُ قَالَ إِذَا كَانَ المَاءُ أَكثَرَ مِن رَاوِيَةٍ فَتَبَيّنَ أَنّهُ إِنّمَا لَم يَحمِل نَجَاسَةً إِذَا زَادَ عَلَي الرّاوِيَةِ وَ تِلكَ الزّيَادَةُ لَا يَمتَنِعُ أَن يَكُونَ المُرَادُ بِهَا مَا يَكُونُ بِهِ تَمَامُ الكُرّ"
+        " إِذَا كَانَ المَاءُ أَكثَرَ مِن رَاوِيَةٍ لَم يُنَجّسهُ شَيءٌ تَفَسّخَ فِيهِ أَو لَم يَتَفَسّخ فِيهِ إِلّا أَن يجَيِ ءَ لَهُ رِيحٌ يَغلِبُ عَلَي رِيحِ المَاءِ فَلَيسَ ينُاَفيِ مَا قَدّمنَاهُ مِنَ الأَخبَارِ لِأَنّهُ قَالَ إِذَا كَانَ المَاءُ أَكثَرَ مِن رَاوِيَةٍ فَتَبَيّنَ أَنّهُ إِنّمَا لَم يَحمِل نَجَاسَةً إِذَا زَادَ عَلَي الرّاوِيَةِ وَ تِلكَ الزّيَادَةُ لَا يَمتَنِعُ أَن يَكُونَ المُرَادُ بِهَا مَا يَكُونُ بِهِ تَمَامُ الكُرّ"
       ]
     }
   },
