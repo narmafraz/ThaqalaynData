@@ -57,14 +57,27 @@ Contain:
   - `verse_count` - Total number of verses/hadiths
   - `crumbs[]` - Breadcrumb navigation hierarchy
 
-#### Chapter/Content Files
-Contain:
-- `verses[]` - Array of verse objects with:
+#### Chapter/Content Files (Shell Format)
+Chapter files (`verse_list` kind) use a shell format with no inline verses:
+- `verse_refs[]` - Array of verse references:
+  - `local_index` - Index within this chapter
+  - `part_type` - "Hadith", "Verse", or "Heading"
+  - `path` - Path to verse_detail file (for Hadith/Verse types)
+  - `inline` - Full verse object (for Heading types only, ~43 total)
+- `verse_translations[]` - Available translation IDs
+- `titles`, `nav`, etc. - Chapter metadata
+
+#### Verse Detail Files
+Individual verse files (`verse_detail` kind) contain the full verse data:
+- `verse` - Full verse object with:
   - `index` - Global verse index
   - `local_index` - Index within this chapter
   - `text` - Object with language keys (ar, en) containing the text
   - `narrator_chain` - For hadiths: structured narrator chain with parts
-  - `relations[]` - Cross-references to other texts (e.g., Quran verses referenced in hadiths)
+  - `relations[]` - Cross-references to other texts
+  - `ai` - AI-generated content (if available)
+- `chapter_path`, `chapter_title` - Back-reference to parent chapter
+- `nav` - Prev/next/up navigation
 
 #### Narrator Files (people/narrators/N.json)
 Contain:
