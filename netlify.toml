@@ -1,3 +1,10 @@
+# Pin Node 20 — Prerender extension's puppeteer dep needs Node >=18.
+# Without this, Netlify's build image picks up Node 12 and the install fails
+# with "SyntaxError: Unexpected reserved word" on top-level await in
+# puppeteer/install.mjs.
+[build.environment]
+  NODE_VERSION = "20"
+
 [[headers]]
   # CORS and caching for all paths
   for = "/*"
