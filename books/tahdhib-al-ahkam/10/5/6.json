@@ -93,7 +93,7 @@
             },
             {
               "ambiguity_note": "Not resolved against canonical narrator registry",
-              "canonical_id": null,
+              "canonical_id": 669,
               "identity_confidence": "ambiguous",
               "known_identity": null,
               "name_ar": "أَبِي عَبْدِ اَللَّهِ عَلَيْهِ اَلسَّلاَمُ :",
@@ -175,7 +175,12 @@
         "parts": [
           {
             "kind": "plain",
-            "text": "فَأَمَّا مَا رَوَاهُ - اَلْحُسَيْنُ بْنُ سَعِيدٍ"
+            "text": "- "
+          },
+          {
+            "kind": "narrator",
+            "path": "/people/narrators/21",
+            "text": "اَلْحُسَيْنُ بْنُ سَعِيدٍ"
           },
           {
             "kind": "plain",
@@ -200,7 +205,8 @@
             "text": " عَنْ "
           },
           {
-            "kind": "plain",
+            "kind": "narrator",
+            "path": "/people/narrators/669",
             "text": "أَبِي عَبْدِ اَللَّهِ عَلَيْهِ اَلسَّلاَمُ :"
           },
           {
@@ -211,6 +217,12 @@
       },
       "part_type": "Hadith",
       "path": "/books/tahdhib-al-ahkam:10:5:6",
+      "relations": {
+        "Shared Chain": [
+          "/books/tahdhib-al-ahkam:1:31:27",
+          "/books/tahdhib-al-ahkam:7:25:44"
+        ]
+      },
       "text": [
         " رَجُلٍ أَتَى بَهِيمَةً قَالَ «يُقْتَلُ »."
       ]
