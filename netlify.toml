@@ -1,10 +1,3 @@
-# Pin Node 20 — Prerender extension's puppeteer dep needs Node >=18.
-# Without this, Netlify's build image picks up Node 12 and the install fails
-# with "SyntaxError: Unexpected reserved word" on top-level await in
-# puppeteer/install.mjs.
-[build.environment]
-  NODE_VERSION = "20"
-
 [[headers]]
   # CORS and caching for all paths
   for = "/*"
@@ -30,33 +23,8 @@
   [headers.values]
     Cache-Control = "public, max-age=86400"
 
-# API endpoints should not be cached
-[[headers]]
-  for = "/api/*"
-  [headers.values]
-    Cache-Control = "no-cache"
-
 # Versioned API paths: /v2/ maps to root for backward-compatible evolution
 [[redirects]]
   from = "/v2/*"
   to = "/:splat"
-  status = 200
-
-# Serverless API endpoints (Netlify Functions)
-[functions]
-  directory = "netlify/functions"
-
-[[redirects]]
-  from = "/api/random-hadith"
-  to = "/.netlify/functions/random-hadith"
-  status = 200
-
-[[redirects]]
-  from = "/api/stats"
-  to = "/.netlify/functions/stats"
-  status = 200
-
-[[redirects]]
-  from = "/api/narrator-hadiths"
-  to = "/.netlify/functions/narrator-hadiths"
   status = 200
