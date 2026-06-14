@@ -2,9 +2,22 @@
 #
 # This host is NOT intended for direct discovery. Readers access this
 # content via the human-readable site at https://thaqalayn.netlify.app/.
-# All crawlers are blocked here to preserve hosting bandwidth; the same
-# content is reachable (and indexable, where allowed) through the
-# rendered HTML on the main site.
+#
+# Major search-engine renderers are explicitly allowed so they can fetch
+# the JSON resources their headless browsers need to render the SPA
+# pages they index. Everything else is blocked to preserve hosting
+# bandwidth.
 
+# Search-engine renderers — must be able to fetch JSON to render SPA pages.
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Everything else blocked.
 User-agent: *
 Disallow: /
