@@ -16,23 +16,23 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلتَّعْزِيَةُ لِأَهْلِ اَلْمُصِيبَةِ بَعْدَ مَا يُدْفَنُ.",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "দাফনের পর বিপদগ্রস্ত ব্যক্তির পরিবারের প্রতি সমবেদনা জানানো।",
-              "de": "Den Angehörigen des Betroffenen nach der Beisetzung sein Beileid aussprechen.",
-              "en": "Offering condolences to the family of the afflicted after the burial.",
-              "es": "Ofrecer condolencias a la familia del afligido después del entierro.",
-              "fa": "تسلیت گفتن به خانوادهٔ مصیبت‌دیده پس از دفن.",
-              "fr": "Présenter ses condoléances à la famille de la personne éprouvée après l’inhumation.",
-              "id": "Menyampaikan belasungkawa kepada keluarga yang tertimpa musibah setelah jenazah dikuburkan.",
-              "ru": "Выражать соболезнования семье пострадавшего после погребения.",
-              "tr": "Definden sonra musibete uğrayanın ailesine taziyede bulunmak.",
-              "ur": "دفن کے بعد مصیبت زدہ کے اہلِ خانہ سے تعزیت کرنا۔",
-              "zh": "在安葬之后向遭受不幸者的家属表示慰问。"
-            },
             "word_end": 6,
             "word_start": 0
           }
@@ -75,24 +75,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَهْلِ": "the family or people closely connected to the deceased",
-            "اَلتَّعْزِيَةُ": "offering condolences and comforting the bereaved",
-            "اَلْمُصِيبَةِ": "the affliction or calamity of bereavement",
-            "يُدْفَنُ": "the deceased is buried"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "اَلتَّعْزِيَةُ",
+          "أَهْلِ",
+          "اَلْمُصِيبَةِ",
+          "يُدْفَنُ"
+        ],
         "related_quran": [
           {
             "ref": "2:155",
@@ -103,32 +91,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "দাফনের পর শোকাহত পরিবারের প্রতি সমবেদনা জানানো কি সুপারিশকৃত?",
-          "de": "Ist es empfehlenswert, der trauernden Familie nach der Beisetzung sein Beileid auszusprechen?",
-          "en": "Is it recommended to offer condolences to the bereaved family after burial?",
-          "es": "¿Se recomienda ofrecer condolencias a la familia en duelo después del entierro?",
-          "fa": "آیا تسلیت گفتن به خانوادهٔ داغدار پس از دفن مستحب است؟",
-          "fr": "Est-il recommandé de présenter ses condoléances à la famille endeuillée après l’inhumation ?",
-          "id": "Apakah dianjurkan menyampaikan belasungkawa kepada keluarga yang berduka setelah pemakaman?",
-          "ru": "Рекомендуется ли выражать соболезнования скорбящей семье после погребения?",
-          "tr": "Definden sonra yaslı aileye taziyede bulunmak tavsiye edilir mi?",
-          "ur": "کیا دفن کے بعد سوگوار خاندان سے تعزیت کرنا مستحب ہے؟",
-          "zh": "在安葬之后向丧家表示慰问是被推荐的吗？"
-        },
-        "summaries": {
-          "bn": "এই পাঠটি দাফনের পর বিপদগ্রস্ত ব্যক্তির পরিবারের প্রতি সমবেদনা জানানোর বিষয়ে। এটি মৃত্যু ও শোকের সঙ্গে সম্পর্কিত একটি সামাজিক ও নৈতিক আচরণকে নির্দেশ করে।",
-          "de": "Dieser Text handelt davon, den Angehörigen einer betroffenen Person nach der Beisetzung des Verstorbenen sein Beileid auszusprechen. Er weist auf eine soziale und ethische Praxis im Zusammenhang mit Tod und Trauer hin.",
-          "en": "This text concerns offering condolences to the family of one who has suffered a loss after the deceased has been buried. It indicates a social and ethical practice connected to death and mourning.",
-          "es": "Este texto trata sobre ofrecer condolencias a la familia de quien ha sufrido una pérdida después de que el fallecido ha sido enterrado. Indica una práctica social y ética vinculada con la muerte y el duelo.",
-          "fa": "این متن دربارهٔ تسلیت گفتن به خانوادهٔ مصیبت‌دیده پس از دفنِ متوفی است. این امر به یک رفتار اجتماعی و اخلاقی مرتبط با مرگ و سوگواری اشاره دارد.",
-          "fr": "Ce texte traite du fait de présenter ses condoléances à la famille de la personne éprouvée après l’inhumation du défunt. Il indique une pratique sociale et éthique liée à la mort et au deuil.",
-          "id": "Teks ini membahas penyampaian belasungkawa kepada keluarga orang yang tertimpa musibah setelah jenazah dikuburkan. Ini menunjukkan praktik sosial dan etika yang terkait dengan kematian dan berkabung.",
-          "ru": "Этот текст касается выражения соболезнований семье человека, понесшего утрату, после погребения умершего. Он указывает на социальную и нравственную практику, связанную со смертью и трауром.",
-          "tr": "Bu metin, vefat eden kişi defnedildikten sonra onun ailesine taziyede bulunmayı konu edinmektedir. Ölüm ve yasla bağlantılı toplumsal ve ahlaki bir uygulamaya işaret eder.",
-          "ur": "یہ متن دفن کے بعد مصیبت زدہ شخص کے اہلِ خانہ سے تعزیت کرنے سے متعلق ہے۔ یہ موت اور سوگ سے وابستہ ایک سماجی اور اخلاقی عمل کی طرف اشارہ کرتا ہے۔",
-          "zh": "这段文字讲的是在亡者下葬之后，向遭受不幸者的家属表示慰问。它表明这是一种与死亡和哀悼相关的社会与道德实践。"
-        },
         "tags": [
           "family",
           "social_relations",

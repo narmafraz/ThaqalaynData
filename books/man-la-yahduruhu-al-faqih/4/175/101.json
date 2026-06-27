@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى مُحَمَّدُ بْنُ سِنَانٍ عَنْ طَلْحَةَ بْنِ زَيْدٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবনে সিনান তলহা ইবনে জায়েদ থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Muḥammad ibn Sinān berichtete von Ṭalḥah ibn Zayd, der sagte:",
-              "en": "Muḥammad ibn Sinān narrated from Ṭalḥah ibn Zayd, who said:",
-              "es": "Muḥammad ibn Sinān narró de Ṭalḥah ibn Zayd, quien dijo:",
-              "fa": "محمد بن سنان از طلحة بن زید روایت کرده است که گفت:",
-              "fr": "Muḥammad ibn Sinān a rapporté de Ṭalḥah ibn Zayd, qui a dit :",
-              "id": "Muḥammad ibn Sinān meriwayatkan dari Ṭalḥah ibn Zayd, yang berkata:",
-              "ru": "Мухаммад ибн Синан передал от Тальхи ибн Зайда, который сказал:",
-              "tr": "Muhammed ibn Sinan, Talha ibn Zayd'den rivayet etti, dedi ki:",
-              "ur": "محمد ابن سنان نے طلحہ ابن زید سے روایت کی، جنہوں نے کہا:",
-              "zh": "穆罕默德本西南从طلحة本زيد传述，他说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ الصَّادِقِ عَلَيْهِ السَّلَامُ يَقُولُ: «اَلْعَامِلُ عَلَى غَيْرِ بَصِيرَةٍ كَالسَّائِرِ عَلَى غَيْرِ الطَّرِيقِ فَلَا تَزِيدُهُ سُرْعَةُ السَّيْرِ مِنَ الطَّرِيقِ إِلَّا بُعْدًا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি শুনেছি আবু আব্দুল্লাহ আল-সাদিক عليه السلام বলছেন: “যে ব্যক্তি بصیرতা ছাড়া কাজ করে, সে এমন একজনের মতো যিনি সঠিক পথের বাইরে চলছেন; তার চলার গতি তাকে পথ থেকে আরও দূরে নিয়ে যায়।”",
-              "de": "Ich hörte Abū ʿAbdillāh al-Ṣādiq عليه السلام sagen: „Wer ohne Einsicht handelt, ist wie jemand, der einen anderen Weg als den Pfad geht; die Geschwindigkeit seiner Reise vergrößert nur seine Entfernung vom Weg.“",
-              "en": "I heard Abū ʿAbdillāh al-Ṣādiq عليه السلام say: “One who acts without insight is like one traveling on other than the path; the speed of his travel only increases his distance from the path.”",
-              "es": "Escuché a Abū ʿAbdillāh al-Ṣādiq عليه السلام decir: “Quien actúa sin visión es como quien viaja fuera del camino; la velocidad de su viaje solo aumenta su distancia del camino.”",
-              "fa": "شنیدم که ابوعبدالله الصادق علیه السلام فرمود: «کسی که بدون بصیرت عمل می‌کند مانند کسی است که در غیر راه حرکت می‌کند؛ سرعت حرکتش فقط فاصله‌اش را از راه بیشتر می‌کند.»",
-              "fr": "J'ai entendu Abū ʿAbdillāh al-Ṣādiq عليه السلام dire : « Celui qui agit sans clairvoyance est comme celui qui voyage hors du chemin ; la vitesse de son voyage ne fait qu'augmenter sa distance du chemin. »",
-              "id": "Aku mendengar Abū ʿAbdillāh al-Ṣādiq علیه السلام berkata: “Orang yang bertindak tanpa wawasan seperti orang yang berjalan di luar jalan; kecepatan perjalanannya hanya menambah jauhnya dari jalan.”",
-              "ru": "Я слышал, как Абу Абдиллах ас-Садик عليه السلام сказал: «Тот, кто действует без прозрения, подобен тому, кто путешествует не по пути; скорость его движения лишь увеличивает его удаление от пути.»",
-              "tr": "Abū ʿAbdillāh al-Ṣādiq علیه السلام şöyle dediğini duydum: “İçgörü olmadan hareket eden, yol dışında seyahat eden gibidir; yolculuğunun hızı sadece onu yoldan uzaklaştırır.”",
-              "ur": "میں نے ابو عبداللہ الصادق علیہ السلام کو کہتے سنا: “جو شخص بصیرت کے بغیر عمل کرتا ہے وہ ایسے ہے جیسے وہ راستے کے بجائے کسی اور راہ پر سفر کر رہا ہو؛ اس کی رفتار اس کے راستے سے دوری کو بڑھاتی ہے۔”",
-              "zh": "我听见أبوعبداللهالصادقعليهالسلام说：“无洞察力者行事如行非正道；行速只增其离道远。”"
-            },
             "word_end": 34,
             "word_start": 10
           }
@@ -91,25 +78,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "السَّائِرِ": "one who travels or proceeds along a way",
-            "بُعْدًا": "greater distance and remoteness from the right path",
-            "سُرْعَةُ السَّيْرِ": "the speed of moving or proceeding",
-            "غَيْرِ الطَّرِيقِ": "other than the path, meaning away from the correct way",
-            "غَيْرِ بَصِيرَةٍ": "without insight, clear understanding, or discernment"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "غَيْرِ بَصِيرَةٍ",
+          "السَّائِرِ",
+          "غَيْرِ الطَّرِيقِ",
+          "سُرْعَةُ السَّيْرِ",
+          "بُعْدًا"
+        ],
         "related_quran": [
           {
             "ref": "6:50",
@@ -124,32 +99,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام بصیرতা ছাড়া কাজ করার বিষয়ে কী বলেন?",
-          "de": "Was sagt Imam al-Ṣādiq عليه السلام über das Handeln ohne Einsicht?",
-          "en": "What does Imam al-Ṣādiq عليه السلام say about acting without insight?",
-          "es": "¿Qué dice el Imam al-Ṣādiq عليه السلام sobre actuar sin visión?",
-          "fa": "امام الصادق علیه السلام درباره عمل بدون بصیرت چه می‌فرمایند؟",
-          "fr": "Que dit l'Imam al-Ṣādiq عليه السلام à propos d'agir sans clairvoyance ?",
-          "id": "Apa yang dikatakan Imam al-Ṣādiq علیه السلام tentang bertindak tanpa wawasan?",
-          "ru": "Что говорит Имам ас-Садик عليه السلام о действии без прозрения?",
-          "tr": "İmam al-Ṣādiq علیه السلام içgörü olmadan hareket etmek hakkında ne diyor?",
-          "ur": "امام الصادق علیہ السلام بصیرت کے بغیر عمل کرنے کے بارے میں کیا فرماتے ہیں؟",
-          "zh": "伊玛目الصادقعليهالسلام关于无洞察力行事说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস শিক্ষা দেয় যে, بصیرতা ও সঠিক বোঝাপড়া ছাড়া কাজ মানুষকে সত্যের কাছে নিয়ে যায় না। বরং, পথপ্রদর্শন ছাড়া অতিরিক্ত চেষ্টা মানুষের বিভ্রান্তি ও সঠিক পথ থেকে দূরত্ব বাড়িয়ে দিতে পারে।",
-          "de": "Dieser Hadith lehrt, dass Handeln ohne Einsicht und richtiges Verständnis eine Person nicht der Wahrheit näherbringt. Vielmehr kann verstärkte Anstrengung ohne Führung die Irreführung und Entfernung vom rechten Weg vertiefen.",
-          "en": "This hadith teaches that action without insight and sound understanding does not bring a person nearer to truth. Rather, increased effort without guidance can deepen a person’s misguidance and distance from the right path.",
-          "es": "Este hadiz enseña que actuar sin visión y comprensión adecuada no acerca a la persona a la verdad. Más bien, el esfuerzo aumentado sin guía puede profundizar el extravío y la distancia del camino correcto.",
-          "fa": "این حدیث آموزش می‌دهد که عمل بدون بصیرت و فهم درست، انسان را به حقیقت نزدیک نمی‌کند. بلکه تلاش بیشتر بدون هدایت می‌تواند گمراهی و دوری از راه درست را عمیق‌تر کند.",
-          "fr": "Ce hadith enseigne que l'action sans clairvoyance et compréhension juste n'amène pas une personne plus près de la vérité. Au contraire, un effort accru sans guidance peut approfondir l'égarement et l'éloignement du droit chemin.",
-          "id": "Hadis ini mengajarkan bahwa bertindak tanpa wawasan dan pemahaman yang benar tidak membawa seseorang lebih dekat kepada kebenaran. Sebaliknya, usaha yang meningkat tanpa bimbingan dapat memperdalam kesesatan dan menjauhkan seseorang dari jalan yang benar.",
-          "ru": "Этот хадис учит, что действие без прозрения и правильного понимания не приближает человека к истине. Напротив, усиленные усилия без руководства могут углубить заблуждение и удаление от правильного пути.",
-          "tr": "Bu hadis, içgörü ve sağlam anlayış olmadan yapılan eylemin kişiyi hakikate yaklaştırmadığını öğretir. Aksine, rehberlik olmadan artan çaba, kişinin sapkınlığını ve doğru yoldan uzaklaşmasını derinleştirebilir.",
-          "ur": "یہ حدیث سکھاتی ہے کہ بصیرت اور صحیح فہم کے بغیر عمل انسان کو حق کے قریب نہیں لے جاتا۔ بلکہ رہنمائی کے بغیر زیادہ کوشش انسان کی گمراہی اور صحیح راستے سے دوری کو بڑھا سکتی ہے۔",
-          "zh": "此圣训教导无洞察力与正确理解之行为不使人接近真理；反之，无引导之努力加深误入歧途与远离正道。"
-        },
         "tags": [
           "ethics",
           "knowledge",

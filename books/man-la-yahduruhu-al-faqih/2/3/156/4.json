@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى جَابِرٌ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "জাবির আবু জাফর عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Jabir berichtete von Abu Ja‘far عليه السلام, der sagte:",
-              "en": "Jabir narrated from Abu Ja‘far عليه السلام, who said:",
-              "es": "Jabir narró de Abu Ja‘far عليه السلام, quien dijo:",
-              "fa": "جابر از ابوجعفر علیه السلام روایت کرد که فرمود:",
-              "fr": "Jabir a rapporté d'Abu Ja‘far عليه السلام, qui a dit :",
-              "id": "Jabir meriwayat dari Abu Ja‘far علیه السلام, yang berkata:",
-              "ru": "Джабир передал от Абу Джафара عليه السلام, который сказал:",
-              "tr": "Câbir, Ebu Ca'fer (aleyhisselam)'den rivayet etti, şöyle dedi:",
-              "ur": "جابِر نے ابو جعفر علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "جابیر从أبوجعفرعليهالسلام传述，他说："
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "«مِنْ تَمَامِ الْحَجِّ لِقَاءُ الْإِمَامِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "হজের পরিপূর্ণতার অংশ হলো ইমামের সাথে সাক্ষাৎ।",
-              "de": "Ein Teil der Vollkommenheit des Hadsch ist die Begegnung mit dem Imam.",
-              "en": "\"Part of the completeness of hajj is meeting the Imam.\"",
-              "es": "Parte de la perfección del hajj es encontrarse con el Imam.",
-              "fa": "بخشی از کمال حج، ملاقات با امام است.",
-              "fr": "Une partie de la complétude du hajj est la rencontre avec l'Imam.",
-              "id": "Sebagian dari kesempurnaan haji adalah bertemu dengan Imam.",
-              "ru": "Часть совершенства хаджа — встреча с Имамом.",
-              "tr": "Haccın tamamlanmasının bir parçası İmam ile buluşmaktır.",
-              "ur": "حج کی تکمیل کا حصہ امام سے ملاقات ہے۔",
-              "zh": "حج的完整部分是与الإمام会面。"
-            },
             "word_end": 14,
             "word_start": 9
           }
@@ -91,24 +78,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْإِمَامِ": "the Imam, the divinely designated religious authority",
-            "الْحَجِّ": "the pilgrimage to the Sacred House",
-            "تَمَامِ": "completion, perfection, or fulfillment",
-            "لِقَاءُ": "meeting or encountering"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "تَمَامِ",
+          "الْحَجِّ",
+          "لِقَاءُ",
+          "الْإِمَامِ"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
@@ -119,32 +94,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে ইমামের সাথে সাক্ষাৎ কীভাবে হজের সম্পূর্ণতার সাথে সম্পর্কিত?",
-          "de": "Wie hängt das Treffen mit dem Imam in schiitischen Hadithen mit der Vollendung des Hadsch zusammen?",
-          "en": "How does meeting the Imam relate to the completion of hajj in Shia hadith?",
-          "es": "¿Cómo se relaciona el encuentro con el Imam con la finalización del hajj en el hadiz chií?",
-          "fa": "در حدیث شیعه، ملاقات با امام چگونه به کمال حج مرتبط است؟",
-          "fr": "Comment la rencontre avec l'Imam est-elle liée à l'achèvement du hajj dans le hadith chiite ?",
-          "id": "Bagaimana pertemuan dengan Imam terkait dengan penyempurnaan haji dalam hadits Syiah?",
-          "ru": "Как встреча с Имамом связана с завершением хаджа в шиитских хадисах?",
-          "tr": "Şii hadiste İmam ile buluşma, haccın tamamlanmasıyla nasıl ilişkilidir?",
-          "ur": "شیعہ حدیث میں امام سے ملاقات حج کی تکمیل سے کیسے متعلق ہے؟",
-          "zh": "在什叶派حديث中，与الإمام会面如何与حج的完成相关？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে হজের পরিপূর্ণতা ও সম্পূর্ণতার মধ্যে ইমামের সাথে সাক্ষাৎ অন্তর্ভুক্ত। এটি ইমামের ধর্মীয় কর্তৃত্বের কেন্দ্রীয়তা তুলে ধরে যা তাওয়াফের পূর্ণ অর্থ প্রদান করে।",
-          "de": "Dieser Hadith besagt, dass die Vollkommenheit und Vollendung des Hadsch das Treffen mit dem Imam einschließt. Er hebt die zentrale Bedeutung der religiösen Autorität des Imams hervor, die dem Pilgerakt volle Bedeutung verleiht.",
-          "en": "This hadith states that the perfection and completion of hajj includes meeting the Imam. It highlights the centrality of the Imam’s religious authority in giving full meaning to the act of pilgrimage.",
-          "es": "Este hadiz afirma que la perfección y completitud del hajj incluye encontrarse con el Imam. Destaca la centralidad de la autoridad religiosa del Imam para dar pleno significado al acto de peregrinación.",
-          "fa": "این حدیث بیان می‌کند که کمال و تمامیت حج شامل ملاقات با امام است. این موضوع بر محوریت اقتدار دینی امام در دادن معنای کامل به عمل حج تأکید دارد.",
-          "fr": "Ce hadith indique que la perfection et l'achèvement du hajj incluent la rencontre avec l'Imam. Il souligne la centralité de l'autorité religieuse de l'Imam pour donner tout son sens à l'acte de pèlerinage.",
-          "id": "Hadis ini menyatakan bahwa kesempurnaan dan kelengkapan haji mencakup bertemu dengan Imam. Ini menyoroti sentralitas otoritas agama Imam dalam memberikan makna penuh pada ibadah haji.",
-          "ru": "Этот хадис утверждает, что совершенство и завершение хаджа включает встречу с Имамом. Он подчеркивает центральную роль религиозного авторитета Имама в придаче полного смысла обряду паломничества.",
-          "tr": "Bu hadis, haccın mükemmelliği ve tamamlanmasının İmam ile buluşmayı içerdiğini belirtir. Bu, hac ibadetine tam anlam kazandıran İmam’ın dini otoritesinin merkeziliğini vurgular.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ حج کی تکمیل اور کمال میں امام سے ملاقات شامل ہے۔ یہ امام کی دینی اتھارٹی کی مرکزی حیثیت کو ظاہر کرتی ہے جو حج کے عمل کو مکمل معنی دیتی ہے۔",
-          "zh": "此حديث说明حج的完善与完成包括与الإمام会面。强调了الإمام宗教权威在赋予朝觐行为完整意义中的核心地位。"
-        },
         "tags": [
           "worship",
           "governance",

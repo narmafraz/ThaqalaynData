@@ -15,42 +15,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "ٱلْحُسَيْنُ بْنُ سَعِيدٍ عَنِ ٱلنَّضْرِ عَنْ عَاصِمٍ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ, আল-নাদর থেকে, আসিম থেকে, মুহাম্মদ ইবন মুসলিম থেকে, তিনি বলেন:",
-              "de": "Al-Husayn ibn Sa'id, von al-Nadr, von 'Asim, von Muhammad ibn Muslim, der sagte:",
-              "en": "Al-Husayn ibn Sa'id, from al-Nadr, from 'Asim, from Muhammad ibn Muslim, who said:",
-              "es": "Al-Husayn ibn Sa'id, de al-Nadr, de 'Asim, de Muhammad ibn Muslim, quien dijo:",
-              "fa": "الحسین بن سعید، از النضر، از عاصم، از محمد بن مسلم، که گفت:",
-              "fr": "Al-Husayn ibn Sa'id, d'al-Nadr, d'Asim, de Muhammad ibn Muslim, qui a dit :",
-              "id": "Al-Husayn ibn Sa'id, dari al-Nadr, dari 'Asim, dari Muhammad ibn Muslim, yang berkata:",
-              "ru": "Аль-Хусайн ибн Са'ид, от ан-Надра, от 'Асим, от Мухаммада ибн Муслима, который сказал:",
-              "tr": "el-Hüseyin ibn Sa'id, en-Nadr'dan, 'Asim'den, Muhammed ibn Muslim'den, şöyle dedi:",
-              "ur": "الحسین بن سعید، النضر سے، عاصم سے، محمد بن مسلم سے، انہوں نے کہا:",
-              "zh": "侯赛因·伊本·赛义德，传自纳德尔，传自阿西姆，传自穆罕默德·伊本·穆斯林，他说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُ أَبَا جَعْفَرٍ عَلَيْهِ ٱلسَّلَامُ عَنْ رَجُلٍ شَكَّ فِي ٱلرَّكْعَةِ ٱلْأُولَى، قَالَ: يَسْتَأْنِفُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবু জাফর عليه السلام-কে এমন এক ব্যক্তির সম্পর্কে জিজ্ঞেস করলাম, যে প্রথম রাকআতে সন্দেহ করেছিল। তিনি বললেন: তাকে আবার শুরু করতে হবে।",
-              "de": "Ich fragte Abu Ja'far عليه السلام nach einem Mann, der in der ersten Rak'ah Zweifel hatte. Er sagte: Er muss von Neuem beginnen.",
-              "en": "I asked Abu Ja'far عليه السلام about a man who doubted in the first rak'ah. He said: He must begin again.",
-              "es": "Le pregunté a Abu Ja'far عليه السلام acerca de un hombre que dudó en la primera rak'ah. Dijo: Debe comenzar de nuevo.",
-              "fa": "از ابو جعفر علیه السلام درباره مردی پرسیدم که در رکعت اول شک کرده بود. فرمود: باید از نو آغاز کند.",
-              "fr": "J'ai interrogé Abu Ja'far عليه السلام au sujet d'un homme qui doutait dans la première rak'ah. Il a dit : Il doit recommencer.",
-              "id": "Aku bertanya kepada Abu Ja'far عليه السلام tentang seorang laki-laki yang ragu pada rakaat pertama. Beliau bersabda: Ia harus memulai lagi.",
-              "ru": "Я спросил Абу Джа'фара عليه السلام о человеке, который усомнился в первом рак'ате. Он сказал: Он должен начать заново.",
-              "tr": "Ebû Ca'fer عليه السلام'a, ilk rekâtta şüphe eden bir adam hakkında sordum. Buyurdu ki: Yeniden başlamalıdır.",
-              "ur": "میں نے ابو جعفر علیہ السلام سے ایک ایسے شخص کے بارے میں پوچھا جسے پہلی رکعت میں شک ہوا۔ آپ نے فرمایا: اسے دوبارہ شروع کرنا چاہیے۔",
-              "zh": "我问阿布·贾法尔 عليه السلام关于一个人在第一拜中犹豫不定的事。他说：他必须重新开始。"
-            },
             "word_end": 25,
             "word_start": 12
           }
@@ -83,25 +70,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبَا جَعْفَرٍ": "Imam al-Baqir عليه السلام",
-            "شَكَّ": "he doubted or became uncertain",
-            "يَسْتَأْنِفُ": "he restarts or begins again",
-            "ٱلرَّكْعَةِ": "a unit of salat (prayer)",
-            "ٱلْأُولَى": "the first one"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "شَكَّ",
+          "ٱلرَّكْعَةِ",
+          "ٱلْأُولَى",
+          "يَسْتَأْنِفُ",
+          "أَبَا جَعْفَرٍ"
+        ],
         "related_quran": [
           {
             "ref": "2:238",
@@ -112,32 +87,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কেউ যদি salat (নামাজ)-এর প্রথম রাকআতে সন্দেহ করে, তাহলে কী হুকুম?",
-          "de": "Was ist die Regel, wenn jemand in der ersten Rak'ah des salat (Gebets) Zweifel hat?",
-          "en": "What is the ruling if someone doubts in the first rak'ah of salat (prayer)?",
-          "es": "¿Cuál es la norma si alguien duda en la primera rak'ah de la salat (oración)?",
-          "fa": "اگر کسی در رکعت اول salat (نماز) شک کند، حکم چیست؟",
-          "fr": "Quelle est la règle si quelqu'un doute dans la première rak'ah de la salat (prière) ?",
-          "id": "Apa hukum jika seseorang ragu pada rakaat pertama salat (salat)?",
-          "ru": "Каково постановление, если у кого-то возникло сомнение в первом рак'ате salat (молитвы)?",
-          "tr": "Bir kimse salatın (namazın) ilk rekâtında şüphe ederse hüküm nedir?",
-          "ur": "اگر کسی کو salat (نماز) کی پہلی رکعت میں شک ہو جائے تو کیا حکم ہے؟",
-          "zh": "如果有人在salat（礼拜）的第一拜中怀疑，教法律例是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি salat (নামাজ)-এ সন্দেহ সম্পর্কে একটি শরঈ বিধান দেয়, বিশেষ করে যখন সন্দেহ প্রথম রাকআতে ঘটে। আবু জাফর عليه السلام রায় দেন যে নামাজ পুনরায় শুরু করতে হবে, যা প্রথম দুই রাকআতে অনিশ্চয়তার গুরুত্ব নির্দেশ করে।",
-          "de": "Dieser Hadith enthält eine rechtliche Regelung zum Zweifel im salat (Gebet), insbesondere wenn der Zweifel in der ersten Rak'ah auftritt. Abu Ja'far عليه السلام entscheidet, dass das Gebet neu begonnen werden muss, was die Schwere der Ungewissheit in den ersten beiden Rak'ahs zeigt.",
-          "en": "This hadith gives a legal ruling concerning doubt in salat (prayer), specifically when doubt occurs in the first rak'ah. Abu Ja'far عليه السلام rules that the prayer is to be restarted, indicating the seriousness of uncertainty in the first two rak'ahs.",
-          "es": "Este hadiz ofrece una norma jurídica sobre la duda en la salat (oración), especialmente cuando la duda ocurre en la primera rak'ah. Abu Ja'far عليه السلام dictamina que la oración debe reiniciarse, lo que indica la gravedad de la incertidumbre en las dos primeras rak'ahs.",
-          "fa": "این حدیث حکمی فقهی درباره شک در salat (نماز) بیان می‌کند، به‌ویژه هنگامی که شک در رکعت اول رخ دهد. ابو جعفر علیه السلام حکم می‌کند که نماز باید از نو آغاز شود، که نشان‌دهنده اهمیت و سنگینی تردید در دو رکعت نخست است.",
-          "fr": "Ce hadith donne une règle juridique concernant le doute dans la salat (prière), en particulier lorsque le doute survient dans la première rak'ah. Abu Ja'far عليه السلام tranche que la prière doit être recommencée, ce qui indique la gravité de l'incertitude dans les deux premières rak'ahs.",
-          "id": "Hadis ini memberikan حكم hukum tentang keraguan dalam salat (salat), khususnya ketika keraguan terjadi pada rakaat pertama. Abu Ja'far عليه السلام memutuskan bahwa salat harus dimulai kembali, yang menunjukkan beratnya ketidakpastian pada dua rakaat pertama.",
-          "ru": "Этот хадис содержит правовое постановление относительно сомнения в salat (молитве), особенно если сомнение возникает в первом рак'ате. Абу Джа'фар عليه السلام постановляет, что молитву следует начать заново, что указывает на серьезность неопределенности в первых двух рак'атах.",
-          "tr": "Bu hadis, salat (namaz) içindeki şüpheye dair bir fıkhî hüküm verir; özellikle şüphe ilk rekâtta meydana geldiğinde. Ebû Ca'fer عليه السلام, namazın yeniden başlanmasına hükmeder; bu da ilk iki rekâttaki belirsizliğin ciddiyetini gösterir.",
-          "ur": "یہ حدیث salat (نماز) میں شک کے بارے میں شرعی حکم بیان کرتی ہے، خاص طور پر جب شک پہلی رکعت میں ہو۔ ابو جعفر علیہ السلام حکم دیتے ہیں کہ نماز دوبارہ شروع کی جائے، جو پہلی دو رکعتوں میں بے یقینی کی سنگینی کو ظاہر کرتا ہے۔",
-          "zh": "这段圣训给出了关于salat（礼拜）中怀疑的教法律例，尤其是当怀疑发生在第一拜时。阿布·贾法尔 عليه السلام裁定应重新开始礼拜，这表明前两拜中的不确定性十分严重。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

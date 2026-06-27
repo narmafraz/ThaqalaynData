@@ -21,40 +21,27 @@
           "model": "claude-sonnet-4-6",
           "pipeline_version": "2.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী ইবনে ইব্রাহীম থেকে, তিনি মুহাম্মাদ ইবনে ঈসা ইবনে উবায়দ থেকে, তিনি ইউনুস ইবনে আবদুর রহমান থেকে, তিনি আবদুর রহমান ইবনুল হাজ্জাজ থেকে বর্ণনা করেছেন যে তিনি বলেছেন:",
-              "de": "Ali ibn Ibrahim, von Muhammad ibn Isa ibn Ubayd, von Yunus ibn Abd al-Rahman, von Abd al-Rahman ibn al-Hajjaj, der sagte:",
-              "en": "Ali ibn Ibrahim, from Muhammad ibn Isa ibn Ubayd, from Yunus ibn Abd al-Rahman, from Abd al-Rahman ibn al-Hajjaj who said:",
-              "es": "Ali ibn Ibrahim, de Muhammad ibn Isa ibn Ubayd, de Yunus ibn Abd al-Rahman, de Abd al-Rahman ibn al-Hajjaj quien dijo:",
-              "fa": "علی بن ابراهیم از محمد بن عیسی بن عبید، از یونس بن عبدالرحمان، از عبدالرحمان بن الحجاج روایت کرد که گفت:",
-              "fr": "Ali ibn Ibrahim, de Muhammad ibn Isa ibn Ubayd, de Yunus ibn Abd al-Rahman, d'Abd al-Rahman ibn al-Hajjaj qui a dit :",
-              "id": "Ali bin Ibrahim, dari Muhammad bin Isa bin Ubayd, dari Yunus bin Abd al-Rahman, dari Abd al-Rahman bin al-Hajjaj yang berkata:",
-              "ru": "Али ибн Ибрахим от Мухаммада ибн Исы ибн Убайда, от Юнуса ибн Абд ар-Рахмана, от Абд ар-Рахмана ибн аль-Хаджжаджа, который сказал:",
-              "tr": "Ali b. İbrahim'den, o Muhammed b. İsa b. Ubeyd'den, o Yunus b. Abdurrahman'dan, o Abdurrahman b. el-Haccac'tan rivayet etti, dedi ki:",
-              "ur": "علی بن ابراہیم سے، انہوں نے محمد بن عیسیٰ بن عبید سے، انہوں نے یونس بن عبد الرحمان سے، انہوں نے عبد الرحمان بن الحجاج سے روایت کی کہ انہوں نے کہا:",
-              "zh": "阿里·本·易卜拉欣从穆罕默德·本·尔萨·本·欧拜德，从尤努斯·本·阿卜杜·拉赫曼，从阿卜杜·拉赫曼·本·哈贾吉传述，他说："
-            },
             "word_end": 20,
             "word_start": 0
           },
           {
             "chunk_type": "body",
-            "translations": {
-              "bn": "আবু আবদিল্লাহ আলাইহিস সালাম আমাকে বললেন: দুটি বৈশিষ্ট্য থেকে সাবধান, কারণ এই দুটিতে যারা ধ্বংস হয়েছে তারা ধ্বংস হয়েছে: সাবধান যে তুমি তোমার নিজের মতামত দ্বারা মানুষদের ফতোয়া দাও, অথবা তুমি যা জানো না তা ধর্ম বানাও।",
-              "de": "Abu Abdillah (Friede sei mit ihm) sagte zu mir: Hüte dich vor zwei Eigenschaften, denn in diesen beiden gingen zugrunde, wer zugrunde gegangen ist: Hüte dich davor, den Menschen Fatwas auf Grundlage deiner eigenen Meinung zu erteilen, oder das, was du nicht weißt, als Religion zu praktizieren.",
-              "en": "Abu Abdillah (peace be upon him) said to me: Beware of two traits, for in these two were destroyed those who were destroyed: beware of issuing fatwas to the people based on your own opinion, or following as religion that which you do not know.",
-              "es": "Abu Abdillah (la paz sea con él) me dijo: Ten cuidado de dos rasgos, pues en estos dos perecieron los que perecieron: cuidado de emitir fatauas a la gente según tu propia opinión, o seguir como religión aquello que no sabes.",
-              "fa": "ابوعبدالله علیه السلام به من فرمود: از دو خصلت بپرهیز که در این دو هلاک شد هر که هلاک شد: بپرهیز که به رأی خودت به مردم فتوا بدهی یا به آنچه نمی‌دانی دین قرار بدهی.",
-              "fr": "Abu Abdillah (que la paix soit sur lui) m'a dit : Méfie-toi de deux traits, car c'est en ces deux que périt celui qui a péri : méfie-toi d'émettre des fatwas aux gens selon ta propre opinion, ou de suivre comme religion ce que tu ne sais pas.",
-              "id": "Abu Abdillah alaihis salam berkata kepadaku: Berhati-hatilah dari dua sifat, karena pada keduanya binasa orang yang binasa: berhati-hatilah dari memberi fatwa kepada orang-orang berdasarkan pendapatmu sendiri, atau menjadikan agama sesuatu yang tidak kamu ketahui.",
-              "ru": "Абу Абдуллах (мир ему) сказал мне: Берегись двух качеств, ибо в них двух погиб тот, кто погиб: берегись выносить фатвы людям на основании своего собственного мнения или следовать как религии тому, чего ты не знаешь.",
-              "tr": "Ebu Abdullah (a.s.) bana buyurdu: İki haslet/özellikten sakın; zira helak olanlar bu ikisiyle helak oldu. Sakın insanlara kendi görüşünle fetva vermekten ya da bilmediğin şeyi din edinmekten.",
-              "ur": "ابو عبد اللہ علیہ السلام نے مجھ سے فرمایا: دو خصلتوں سے بچو، کیونکہ ان دونوں میں وہ لوگ ہلاک ہوئے جو ہلاک ہوئے: بچو کہ لوگوں کو اپنی رائے سے فتویٰ دو، یا جو نہیں جانتے اسے دین بناؤ۔",
-              "zh": "阿布·阿卜杜拉（愿主赐他平安）对我说：警惕两种特质，因为在这两者中毁灭了那些被毁灭的人：警惕你凭自己的意见向人们发布教令，或者将你所不知道的奉为宗教。"
-            },
             "word_end": 43,
             "word_start": 20
           }
@@ -162,65 +149,13 @@
             "phrase_en": "Issue fatwas to the people by your own opinion"
           }
         ],
-        "key_terms": {
-          "bn": {
-            "إِيَّاكَ": "সতর্কবাণীর সূত্র: 'সাবধান থাকো'",
-            "بِرَأْيِكَ": "তোমার নিজের মতামত দ্বারা",
-            "تُفْتِيَ": "ফতোয়া দেওয়া, ধর্মীয় রায় প্রদান করা"
-          },
-          "de": {
-            "إِيَّاكَ": "Warnformel: 'hüte dich vor', 'sei auf der Hut vor'",
-            "بِرَأْيِكَ": "Nach deiner eigenen Meinung, persönliches Urteil",
-            "تُفْتِيَ": "Fatwas erteilen, ein religiöses Urteil aussprechen"
-          },
-          "en": {
-            "إِيَّاكَ": "Emphatic warning formula: 'beware of' / 'be on guard against'",
-            "بِرَأْيِكَ": "By your own opinion — personal reasoning without transmitted knowledge",
-            "تَدِينَ": "To make something a religion, to follow as a religious practice",
-            "تُفْتِيَ": "To issue a fatwa (religious ruling/legal opinion)",
-            "خَصْلَتَيْنِ": "Two traits/characteristics — referring to the two forbidden practices"
-          },
-          "es": {
-            "إِيَّاكَ": "Fórmula de advertencia: 'cuidado de', 'guárdate de'",
-            "بِرَأْيِكَ": "Según tu propia opinión, razonamiento personal",
-            "تُفْتِيَ": "Emitir una fatua, dictar un veredicto religioso"
-          },
-          "fa": {
-            "إِيَّاكَ": "فرمول هشدار: 'بپرهیز'، 'مواظب باش'",
-            "بِرَأْيِكَ": "به رأی خودت، با استدلال شخصی",
-            "تُفْتِيَ": "فتوا دادن، صدور حکم دینی"
-          },
-          "fr": {
-            "إِيَّاكَ": "Formule d'avertissement : 'méfie-toi de', 'garde-toi de'",
-            "بِرَأْيِكَ": "Selon ta propre opinion, raisonnement personnel",
-            "تُفْتِيَ": "Émettre une fatwa, rendre un jugement religieux"
-          },
-          "id": {
-            "إِيَّاكَ": "Formula peringatan: 'berhati-hatilah dari'",
-            "بِرَأْيِكَ": "Dengan pendapatmu sendiri, penalaran pribadi",
-            "تُفْتِيَ": "Memberi fatwa, mengeluarkan putusan hukum agama"
-          },
-          "ru": {
-            "إِيَّاكَ": "Формула предупреждения: 'берегись', 'остерегайся'",
-            "بِرَأْيِكَ": "По своему собственному мнению, личное суждение",
-            "تُفْتِيَ": "Выносить фатву, давать религиозное постановление"
-          },
-          "tr": {
-            "إِيَّاكَ": "Uyarı formülü: 'sakın', 'dikkat et'",
-            "بِرَأْيِكَ": "Kendi görüşünle, kişisel reyle",
-            "تُفْتِيَ": "Fetva vermek, dini hüküm çıkarmak"
-          },
-          "ur": {
-            "إِيَّاكَ": "تنبیہ کا فارمولہ: بچو، خبردار رہو",
-            "بِرَأْيِكَ": "اپنی رائے سے، ذاتی عقل سے",
-            "تُفْتِيَ": "فتویٰ دینا، دینی رائے جاری کرنا"
-          },
-          "zh": {
-            "إِيَّاكَ": "警告语式：'警惕'，'提防'",
-            "بِرَأْيِكَ": "凭你自己的意见，个人判断",
-            "تُفْتِيَ": "发布教令，做出宗教裁决"
-          }
-        },
+        "key_terms_keys": [
+          "إِيَّاكَ",
+          "تُفْتِيَ",
+          "بِرَأْيِكَ",
+          "خَصْلَتَيْنِ",
+          "تَدِينَ"
+        ],
         "related_quran": [
           {
             "ref": "17:36",
@@ -231,32 +166,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম সাদিক ধর্মীয় বিষয়ে কোন দুটি জিনিস সম্পর্কে সতর্ক করেছিলেন?",
-          "de": "Wovor warnte Imam al-Sadiq in religiösen Angelegenheiten?",
-          "en": "What are the two things Imam al-Sadiq warned against in matters of religion?",
-          "es": "¿De qué dos cosas advirtió el Imam al-Sadiq en materia religiosa?",
-          "fa": "امام صادق از چه دو چیز در امور دینی نهی فرمودند؟",
-          "fr": "De quoi l'Imam al-Sadiq a-t-il mis en garde en matière religieuse ?",
-          "id": "Apa dua hal yang diperingatkan oleh Imam al-Shadiq dalam urusan agama?",
-          "ru": "От каких двух вещей предостерегал Имам ас-Садик в религиозных вопросах?",
-          "tr": "İmam Sadık dini konularda hangi iki şeyden sakınılmasını emretti?",
-          "ur": "امام صادق علیہ السلام نے دینی امور میں کن دو چیزوں سے منع فرمایا؟",
-          "zh": "伊玛目萨迪格在宗教事务上警告避免哪两件事？"
-        },
-        "summaries": {
-          "bn": "ইমাম সাদিক (আ.) তাঁর সাথী আবদুর রহমান ইবনুল হাজ্জাজকে দুটি আত্মিকভাবে বিপর্যয়কর বৈশিষ্ট্য সম্পর্কে সতর্ক করেছেন: ব্যক্তিগত মতামতের ভিত্তিতে ফতোয়া জারি করা এবং যা জানা নেই তাকে ধর্ম হিসেবে গ্রহণ করা।",
-          "de": "Imam al-Sadiq (Friede sei mit ihm) warnt seinen Gefährten Abd al-Rahman ibn al-Hajjaj vor zwei spirituell verheerenden Eigenschaften: das Erteilen von Fatwas auf Grundlage persönlicher Meinung ohne überliefertes Wissen, und das Befolgen als Religion, was man nicht sicher weiß. Diese Lehre spiegelt das schiitische Grundprinzip wider, dass religiöse Autorität in überliefertem Wissen der Imame verankert sein muss.",
-          "en": "Imam al-Sadiq (peace be upon him) warns his companion Abd al-Rahman ibn al-Hajjaj of two spiritually catastrophic traits: issuing religious rulings (fatwas) based on personal opinion rather than transmitted knowledge, and adopting as religion that which one does not truly know. This teaching addresses a core epistemological concern in Shia jurisprudence — that religious authority must be grounded in verified knowledge from the Imams, not personal reasoning. The audience of companions would have understood this as a direct injunction against the practice of ra'y (opinion-based jurisprudence) that was prevalent among some schools of the time.",
-          "es": "El Imam al-Sadiq (la paz sea con él) advierte a su compañero Abd al-Rahman ibn al-Hajjaj sobre dos rasgos espiritualmente desastrosos: emitir opiniones religiosas basadas en el propio juicio sin conocimiento transmitido, y adoptar como religión lo que no se conoce con certeza. Esta enseñanza constituye un principio fundamental de la epistemología jurídica chiíta.",
-          "fa": "امام صادق علیه السلام صحابی خود عبدالرحمان بن الحجاج را از دو خصلت هلاک‌کننده برحذر داشتند: فتوا دادن بر اساس رأی شخصی، و دین قرار دادن آنچه انسان نمی‌داند. این تعلیم بر اهمیت تبعیت از علم منقول از ائمه در امور دینی تأکید می‌کند.",
-          "fr": "L'Imam al-Sadiq (que la paix soit sur lui) met en garde son compagnon Abd al-Rahman ibn al-Hajjaj contre deux traits spirituellement catastrophiques : émettre des fatwas basées sur son opinion personnelle et adopter comme religion ce qu'on ne connaît pas avec certitude. Cet enseignement reflète le principe chiite fondamental que l'autorité religieuse doit être ancrée dans la connaissance transmise des Imams.",
-          "id": "Imam al-Shadiq (a.s.) memperingatkan sahabatnya Abd al-Rahman ibn al-Hajjaj tentang dua sifat yang membinasakan: memberi fatwa berdasarkan pendapat pribadi dan mengikuti sebagai agama apa yang tidak diketahui. Ajaran ini menekankan bahwa otoritas keagamaan harus berdasarkan pengetahuan yang diteruskan dari para Imam.",
-          "ru": "Имам ас-Садик (мир ему) предупреждает своего сподвижника Абд ар-Рахмана ибн аль-Хаджжаджа о двух духовно губительных качествах: вынесение фатв на основе личного мнения без опоры на переданные знания, и исповедание как религии того, чего не знаешь достоверно. Это учение отражает основной шиитский принцип, что религиозный авторитет должен быть основан на знаниях, переданных от Имамов.",
-          "tr": "İmam Sadık (a.s.), sahabisi Abdurrahman b. el-Haccac'ı iki manevi yıkıcı özellikten uyardı: Kişisel görüşle fetva vermek ve bilmediğini din olarak benimsemek. Bu öğreti, dini otoritenin yalnızca imamlardan aktarılan doğrulanmış bilgiye dayanması gerektiğini vurgular.",
-          "ur": "امام صادق علیہ السلام نے اپنے صحابی عبد الرحمان بن الحجاج کو دو تباہ کن خصلتوں سے خبردار کیا: اپنی ذاتی رائے سے فتویٰ دینا، اور جو نہیں جانتا اسے دین بنانا۔ یہ تعلیم اس بات پر زور دیتی ہے کہ دینی امور میں صرف آئمہ سے منقول علم ہی معتبر ہے۔",
-          "zh": "伊玛目萨迪格（愿主赐他平安）警告其弟子阿卜杜·拉赫曼·本·哈贾吉两种在精神上灾难性的特质：凭个人意见而非传承知识发布宗教裁决，以及将自己不确知的事物奉为宗教。这一教诲体现了什叶派的核心认识论原则——宗教权威必须建立在来自伊玛目的已证实知识基础上。"
-        },
         "tags": [
           "knowledge",
           "ethics",
@@ -271,733 +180,174 @@
         "word_analysis": [
           {
             "pos": "N",
-            "translation": {
-              "bn": "আলী",
-              "de": "Ali",
-              "en": "Ali",
-              "es": "Ali",
-              "fa": "علی",
-              "fr": "Ali",
-              "id": "Ali",
-              "ru": "Али",
-              "tr": "Ali",
-              "ur": "علی",
-              "zh": "阿里"
-            },
             "word": "عَلِيُّ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "ইবনে",
-              "de": "Sohn von",
-              "en": "son of",
-              "es": "hijo de",
-              "fa": "بن",
-              "fr": "fils de",
-              "id": "bin/putra",
-              "ru": "ибн/сын",
-              "tr": "bin/oğlu",
-              "ur": "بن",
-              "zh": "之子"
-            },
             "word": "بْنُ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "ইব্রাহীম",
-              "de": "Ibrahim",
-              "en": "Ibrahim",
-              "es": "Ibrahim",
-              "fa": "ابراهیم",
-              "fr": "Ibrahim",
-              "id": "Ibrahim",
-              "ru": "Ибрахим",
-              "tr": "İbrahim",
-              "ur": "ابراہیم",
-              "zh": "易卜拉欣"
-            },
             "word": "إِبْرَاهِيمَ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "থেকে",
-              "de": "von",
-              "en": "from",
-              "es": "de",
-              "fa": "از",
-              "fr": "de",
-              "id": "dari",
-              "ru": "от",
-              "tr": "-den",
-              "ur": "سے",
-              "zh": "从"
-            },
             "word": "عَنْ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "মুহাম্মাদ",
-              "de": "Muhammad",
-              "en": "Muhammad",
-              "es": "Muhammad",
-              "fa": "محمد",
-              "fr": "Muhammad",
-              "id": "Muhammad",
-              "ru": "Мухаммад",
-              "tr": "Muhammed",
-              "ur": "محمد",
-              "zh": "穆罕默德"
-            },
             "word": "مُحَمَّدِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "ইবনে",
-              "de": "Sohn von",
-              "en": "son of",
-              "es": "hijo de",
-              "fa": "بن",
-              "fr": "fils de",
-              "id": "bin/putra",
-              "ru": "ибн/сын",
-              "tr": "bin/oğlu",
-              "ur": "بن",
-              "zh": "之子"
-            },
             "word": "بْنِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "ঈসা",
-              "de": "Isa",
-              "en": "Isa",
-              "es": "Isa",
-              "fa": "عیسی",
-              "fr": "Isa",
-              "id": "Isa",
-              "ru": "Иса",
-              "tr": "İsa",
-              "ur": "عیسی",
-              "zh": "伊萨"
-            },
             "word": "عِيسَى"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "ইবনে",
-              "de": "Sohn von",
-              "en": "son of",
-              "es": "hijo de",
-              "fa": "بن",
-              "fr": "fils de",
-              "id": "bin/putra",
-              "ru": "ибн/сын",
-              "tr": "bin/oğlu",
-              "ur": "بن",
-              "zh": "之子"
-            },
             "word": "بْنِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "উবায়দ",
-              "de": "Ubayd",
-              "en": "Ubayd",
-              "es": "Ubayd",
-              "fa": "عبید",
-              "fr": "Ubayd",
-              "id": "Ubayd",
-              "ru": "Убайд",
-              "tr": "Ubeyd",
-              "ur": "عبید",
-              "zh": "欧拜德"
-            },
             "word": "عُبَيْدٍ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "থেকে",
-              "de": "von",
-              "en": "from",
-              "es": "de",
-              "fa": "از",
-              "fr": "de",
-              "id": "dari",
-              "ru": "от",
-              "tr": "-den",
-              "ur": "سے",
-              "zh": "从"
-            },
             "word": "عَنْ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "ইউনুস",
-              "de": "Yunus",
-              "en": "Yunus",
-              "es": "Yunus",
-              "fa": "یونس",
-              "fr": "Yunus",
-              "id": "Yunus",
-              "ru": "Юнус",
-              "tr": "Yunus",
-              "ur": "یونس",
-              "zh": "尤努斯"
-            },
             "word": "يُونُسَ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "ইবনে",
-              "de": "Sohn von",
-              "en": "son of",
-              "es": "hijo de",
-              "fa": "بن",
-              "fr": "fils de",
-              "id": "bin/putra",
-              "ru": "ибн/сын",
-              "tr": "bin/oğlu",
-              "ur": "بن",
-              "zh": "之子"
-            },
             "word": "بْنِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "বান্দা",
-              "de": "Diener von",
-              "en": "servant of",
-              "es": "siervo de",
-              "fa": "بنده",
-              "fr": "serviteur de",
-              "id": "hamba",
-              "ru": "раб",
-              "tr": "kulu",
-              "ur": "بندہ",
-              "zh": "仆人"
-            },
             "word": "عَبْدِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "রহমান",
-              "de": "des Allerbarmer",
-              "en": "the Most Gracious",
-              "es": "el Misericordioso",
-              "fa": "رحمان",
-              "fr": "le Tout Miséricordieux",
-              "id": "Yang Maha Pengasih",
-              "ru": "Милостивого",
-              "tr": "Rahman",
-              "ur": "رحمان",
-              "zh": "至仁者"
-            },
             "word": "الرَّحْمَنِ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "থেকে",
-              "de": "von",
-              "en": "from",
-              "es": "de",
-              "fa": "از",
-              "fr": "de",
-              "id": "dari",
-              "ru": "от",
-              "tr": "-den",
-              "ur": "سے",
-              "zh": "从"
-            },
             "word": "عَنْ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "বান্দা",
-              "de": "Diener von",
-              "en": "servant of",
-              "es": "siervo de",
-              "fa": "بنده",
-              "fr": "serviteur de",
-              "id": "hamba",
-              "ru": "раб",
-              "tr": "kulu",
-              "ur": "بندہ",
-              "zh": "仆人"
-            },
             "word": "عَبْدِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "রহমান",
-              "de": "des Allerbarmer",
-              "en": "the Most Gracious",
-              "es": "el Misericordioso",
-              "fa": "رحمان",
-              "fr": "le Tout Miséricordieux",
-              "id": "Yang Maha Pengasih",
-              "ru": "Милостивого",
-              "tr": "Rahman",
-              "ur": "رحمان",
-              "zh": "至仁者"
-            },
             "word": "الرَّحْمَنِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "ইবনে",
-              "de": "Sohn von",
-              "en": "son of",
-              "es": "hijo de",
-              "fa": "بن",
-              "fr": "fils de",
-              "id": "bin/putra",
-              "ru": "ибн/сын",
-              "tr": "bin/oğlu",
-              "ur": "بن",
-              "zh": "之子"
-            },
             "word": "بْنِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "আল-হাজ্জাজ",
-              "de": "al-Hajjaj",
-              "en": "al-Hajjaj",
-              "es": "al-Hajjaj",
-              "fa": "الحجاج",
-              "fr": "al-Hajjaj",
-              "id": "al-Hajjaj",
-              "ru": "аль-Хаджжадж",
-              "tr": "el-Haccac",
-              "ur": "الحجاج",
-              "zh": "哈贾吉"
-            },
             "word": "الْحَجَّاجِ"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "বলেছেন",
-              "de": "sagte",
-              "en": "he said",
-              "es": "dijo",
-              "fa": "گفت",
-              "fr": "a dit",
-              "id": "ia berkata",
-              "ru": "сказал",
-              "tr": "dedi",
-              "ur": "اس نے کہا",
-              "zh": "他说"
-            },
             "word": "قَالَ"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "বললেন",
-              "de": "sagte",
-              "en": "said",
-              "es": "dijo",
-              "fa": "فرمود",
-              "fr": "a dit",
-              "id": "bersabda",
-              "ru": "сказал",
-              "tr": "buyurdu",
-              "ur": "فرمایا",
-              "zh": "说道"
-            },
             "word": "قَالَ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "আমাকে",
-              "de": "zu mir",
-              "en": "to me",
-              "es": "a mí",
-              "fa": "به من",
-              "fr": "à moi",
-              "id": "kepadaku",
-              "ru": "мне",
-              "tr": "bana",
-              "ur": "مجھے",
-              "zh": "对我"
-            },
             "word": "لِي"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "আবু (পিতা)",
-              "de": "Abu (Vater von)",
-              "en": "Abu (father of)",
-              "es": "Abu (padre de)",
-              "fa": "ابو (پدر)",
-              "fr": "Abu (père de)",
-              "id": "Abu (ayah dari)",
-              "ru": "Абу (отец)",
-              "tr": "Ebu (babası)",
-              "ur": "ابو (والد)",
-              "zh": "阿布（之父）"
-            },
             "word": "أَبُو"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "বান্দা",
-              "de": "Diener von",
-              "en": "servant of",
-              "es": "siervo de",
-              "fa": "بنده",
-              "fr": "serviteur de",
-              "id": "hamba",
-              "ru": "раб",
-              "tr": "kulu",
-              "ur": "بندہ",
-              "zh": "仆人"
-            },
             "word": "عَبْدِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "আল্লাহ",
-              "de": "Gott",
-              "en": "God",
-              "es": "Dios",
-              "fa": "خدا",
-              "fr": "Dieu",
-              "id": "Allah",
-              "ru": "Аллах",
-              "tr": "Allah",
-              "ur": "اللہ",
-              "zh": "真主"
-            },
             "word": "اللَّهِ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "তাঁর উপর",
-              "de": "auf ihm",
-              "en": "upon him",
-              "es": "sobre él",
-              "fa": "بر او",
-              "fr": "sur lui",
-              "id": "atasnya",
-              "ru": "на нём",
-              "tr": "ona",
-              "ur": "اس پر",
-              "zh": "在他之上"
-            },
             "word": "عَلَيْهِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "শান্তি",
-              "de": "Friede",
-              "en": "peace",
-              "es": "paz",
-              "fa": "سلام",
-              "fr": "paix",
-              "id": "salam/kedamaian",
-              "ru": "мир",
-              "tr": "selam",
-              "ur": "سلام",
-              "zh": "平安"
-            },
             "word": "السَّلَامُ"
           },
           {
             "pos": "PART",
-            "translation": {
-              "bn": "সাবধান",
-              "de": "hüte dich",
-              "en": "beware",
-              "es": "cuidado",
-              "fa": "بپرهیز",
-              "fr": "méfie-toi",
-              "id": "berhati-hatilah",
-              "ru": "берегись",
-              "tr": "sakın",
-              "ur": "بچو",
-              "zh": "警惕"
-            },
             "word": "إِيَّاكَ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "দুটি বৈশিষ্ট্য থেকে",
-              "de": "vor zwei Eigenschaften",
-              "en": "of two traits",
-              "es": "de dos rasgos",
-              "fa": "از دو خصلت",
-              "fr": "de deux traits",
-              "id": "dari dua sifat",
-              "ru": "двух качеств",
-              "tr": "iki haslet/özellikten",
-              "ur": "دو خصلتوں سے",
-              "zh": "两种特质"
-            },
             "word": "وَخَصْلَتَيْنِ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "কারণ এই দুটিতে",
-              "de": "denn in diesen beiden",
-              "en": "for in these two",
-              "es": "pues en ellas dos",
-              "fa": "پس در این دو",
-              "fr": "car en ces deux",
-              "id": "karena pada keduanya",
-              "ru": "ибо в них двух",
-              "tr": "zira bu ikisinde",
-              "ur": "کیونکہ ان دونوں میں",
-              "zh": "因为在这两者中"
-            },
             "word": "فَفِيهِمَا"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "ধ্বংস হয়েছে",
-              "de": "zugrunde ging",
-              "en": "was destroyed",
-              "es": "pereció",
-              "fa": "هلاک شد",
-              "fr": "périt",
-              "id": "binasa",
-              "ru": "погиб",
-              "tr": "helak oldu",
-              "ur": "ہلاک ہوا",
-              "zh": "毁灭了"
-            },
             "word": "هَلَكَ"
           },
           {
             "pos": "REL",
-            "translation": {
-              "bn": "যে",
-              "de": "wer",
-              "en": "whoever",
-              "es": "quien",
-              "fa": "هر که",
-              "fr": "celui qui",
-              "id": "siapa yang",
-              "ru": "кто",
-              "tr": "kim",
-              "ur": "جو بھی",
-              "zh": "那些"
-            },
             "word": "مَنْ"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "ধ্বংস হয়েছে",
-              "de": "zugrunde gegangen ist",
-              "en": "perished",
-              "es": "pereció",
-              "fa": "هلاک شد",
-              "fr": "a péri",
-              "id": "binasa",
-              "ru": "погиб",
-              "tr": "helak olan",
-              "ur": "ہلاک ہوا",
-              "zh": "覆灭者"
-            },
             "word": "هَلَكَ"
           },
           {
             "pos": "PART",
-            "translation": {
-              "bn": "সাবধান",
-              "de": "hüte dich",
-              "en": "beware",
-              "es": "cuidado",
-              "fa": "بپرهیز",
-              "fr": "méfie-toi",
-              "id": "berhati-hatilah",
-              "ru": "берегись",
-              "tr": "sakın",
-              "ur": "بچو",
-              "zh": "警惕"
-            },
             "word": "إِيَّاكَ"
           },
           {
             "pos": "PART",
-            "translation": {
-              "bn": "যে তুমি",
-              "de": "dass du",
-              "en": "that you",
-              "es": "que",
-              "fa": "که",
-              "fr": "de",
-              "id": "bahwa kamu",
-              "ru": "что ты",
-              "tr": "ki",
-              "ur": "کہ تم",
-              "zh": "你"
-            },
             "word": "أَنْ"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "ফতোয়া দাও",
-              "de": "Fatwas erteilst",
-              "en": "issue fatwas",
-              "es": "emitas fatauas",
-              "fa": "فتوا بدهی",
-              "fr": "émettes des fatwas",
-              "id": "berfatwa",
-              "ru": "выносить фатвы",
-              "tr": "fetva veresin",
-              "ur": "فتوی دو",
-              "zh": "发布教令"
-            },
             "word": "تُفْتِيَ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "মানুষদের কাছে",
-              "de": "den Menschen",
-              "en": "to the people",
-              "es": "a la gente",
-              "fa": "به مردم",
-              "fr": "aux gens",
-              "id": "kepada orang-orang",
-              "ru": "людям",
-              "tr": "insanlara",
-              "ur": "لوگوں کو",
-              "zh": "给人们"
-            },
             "word": "النَّاسَ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "তোমার মতামত দ্বারা",
-              "de": "nach deiner Meinung",
-              "en": "by your own opinion",
-              "es": "según tu opinión",
-              "fa": "به رأی خودت",
-              "fr": "selon ton opinion",
-              "id": "dengan pendapatmu",
-              "ru": "по своему мнению",
-              "tr": "kendi görüşünle",
-              "ur": "اپنی رائے سے",
-              "zh": "凭你的意见"
-            },
             "word": "بِرَأْيِكَ"
           },
           {
             "pos": "CONJ",
-            "translation": {
-              "bn": "অথবা",
-              "de": "oder",
-              "en": "or",
-              "es": "o",
-              "fa": "یا",
-              "fr": "ou",
-              "id": "atau",
-              "ru": "или",
-              "tr": "ya da/veya",
-              "ur": "یا",
-              "zh": "或"
-            },
             "word": "أَوْ"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "ধর্ম বানাও",
-              "de": "zu deiner Religion machst",
-              "en": "make a religion",
-              "es": "hagas una religión",
-              "fa": "دین قرار دهی",
-              "fr": "fasses une religion",
-              "id": "menjadikan agama",
-              "ru": "исповедовать",
-              "tr": "din edinmek",
-              "ur": "دین بناؤ",
-              "zh": "奉为宗教"
-            },
             "word": "تَدِينَ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "যা দিয়ে",
-              "de": "mit dem was",
-              "en": "of what",
-              "es": "con lo que",
-              "fa": "به آنچه",
-              "fr": "ce que",
-              "id": "dengan apa yang",
-              "ru": "тем чего",
-              "tr": "bilmediğin şeyle",
-              "ur": "اس چیز کو جو",
-              "zh": "以你"
-            },
             "word": "بِمَا"
           },
           {
             "pos": "NEG",
-            "translation": {
-              "bn": "না",
-              "de": "nicht",
-              "en": "not",
-              "es": "no",
-              "fa": "نه",
-              "fr": "ne",
-              "id": "tidak",
-              "ru": "не",
-              "tr": "değil/hayır",
-              "ur": "نہیں",
-              "zh": "不"
-            },
             "word": "لَا"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "জানো",
-              "de": "du weißt",
-              "en": "you know",
-              "es": "sabes",
-              "fa": "می‌دانی",
-              "fr": "tu sais",
-              "id": "kamu ketahui",
-              "ru": "ты знаешь",
-              "tr": "bilirsin",
-              "ur": "جانتے",
-              "zh": "所不知道的"
-            },
             "word": "تَعْلَمُ"
           }
         ]

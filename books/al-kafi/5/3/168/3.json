@@ -14,6 +14,135 @@
       "up": "/books/al-kafi:5:3:168"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ ابْنِ مَحْبُوبٍ عَنْ أَبِي أَيُّوبَ الْخَزَّازِ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 23,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "يَسْتَأْزِنُ الرَّجُلُ إِذَا دَخَلَ عَلَى أَبِيهِ وَلَا يَسْتَأْزِنُ الْأَبُ عَلَى الْابْنِ قَالَ وَيَسْتَأْزِنُ الرَّجُلُ عَلَى ابْنَتِهِ وَأُخْتِهِ إِذَا كَانَتَا مُتَزَوِّجَتَيْنِ",
+            "chunk_type": "body",
+            "word_end": 43,
+            "word_start": 23
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 10,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ مَحْبُوبٍ",
+              "name_en": "Ibn Mahbub",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 118,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي أَيُّوبَ الْخَزَّازِ",
+              "name_en": "Abu Ayyub al-Khazzaz",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "يَسْتَأْزِنُ",
+          "الِاسْتِئْذَان",
+          "مُتَزَوِّجَتَيْنِ",
+          "أَبِيهِ",
+          "الِابْن"
+        ],
+        "related_quran": [
+          {
+            "ref": "24:58",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "24:59",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "24:61",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family",
+          "social_relations"
+        ],
+        "topics": [
+          "etiquette",
+          "marriage_family_law",
+          "spousal_rights"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (20/360)"
       ],
@@ -85,7 +214,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:3:168:3",

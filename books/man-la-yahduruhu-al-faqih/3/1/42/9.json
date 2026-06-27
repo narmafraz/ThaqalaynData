@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى حَرِيزٌ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আর হরীজ মুহাম্মদ ইবনে মুসলিম থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Und Ḥarīz berichtete von Muḥammad ibn Muslim, der sagte:",
-              "en": "And Ḥarīz narrated from Muḥammad ibn Muslim, who said:",
-              "es": "Y Ḥarīz narró de Muḥammad ibn Muslim, quien dijo:",
-              "fa": "و حریز از محمد بن مسلم روایت کرد که گفت:",
-              "fr": "Et Ḥarīz a rapporté de Muḥammad ibn Muslim, qui a dit :",
-              "id": "Dan Ḥarīz meriwayat dari Muḥammad ibn Muslim, yang berkata:",
-              "ru": "И Хариз передал от Мухаммада ибн Муслима, который сказал:",
-              "tr": "Ve Ḥarīz, Muḥammad ibn Muslim'den rivayet etti, dedi ki:",
-              "ur": "اور حریز نے محمد بن مسلم سے روایت کی، جنہوں نے کہا:",
-              "zh": "Ḥarīz从MuḥammadibnMuslim传述说："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُ أَبَا جَعْفَرٍ عَلَيْهِ السَّلَامُ عَنْ رَجُلٍ يَكُونُ لَهُ الْمَمْلُوكُونَ فَيُوصِي بِعِتْقِ ثُلُثِهِمْ قَالَ: «كَانَ عَلِيٌّ عَلَيْهِ السَّلَامُ يُسْهِمُ بَيْنَهُمْ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবু জাফর عليه السلام-এর কাছে এমন একজন ব্যক্তির ব্যাপারে জিজ্ঞাসা করলাম যার দাস আছে এবং সে তাদের এক-তৃতীয়াংশ মুক্ত করার وصیت করে। তিনি বললেন: \"ʿAlī عليه السلام তাদের মধ্যে লটারির মাধ্যমে ভাগ করতেন।\"",
-              "de": "Ich fragte Abū Jaʿfar عليه السلام über einen Mann, der Sklaven hat und dann die Freilassung eines Drittels von ihnen testamentarisch anordnet. Er sagte: „ʿAlī عليه السلام zog unter ihnen Lose.“",
-              "en": "I asked Abū Jaʿfar عليه السلام about a man who has slaves and then wills the freeing of one-third of them. He said: \"ʿAlī عليه السلام used to draw lots among them.\"",
-              "es": "Pregunté a Abū Jaʿfar عليه السلام sobre un hombre que tiene esclavos y luego dispone la liberación de un tercio de ellos. Él dijo: \"ʿAlī عليه السلام solía sortear entre ellos.\"",
-              "fa": "از ابوجعفر علیه السلام درباره مردی که بردگان دارد و وصیت می‌کند که یک سوم آنها آزاد شوند پرسیدم. فرمود: «علی علیه السلام بین آنها قرعه می‌انداخت.»",
-              "fr": "J'ai demandé à Abū Jaʿfar عليه السلام au sujet d'un homme qui possède des esclaves et qui lègue la libération d'un tiers d'entre eux. Il a dit : « ʿAlī عليه السلام tirait au sort parmi eux. »",
-              "id": "Saya bertanya kepada Abū Jaʿfar علیه السلام tentang seorang pria yang memiliki budak dan kemudian mewasiatkan pembebasan sepertiga dari mereka. Beliau berkata: \"ʿAlī علیه السلام biasa mengundi di antara mereka.\"",
-              "ru": "Я спросил у Абу Джафара عليه السلام о человеке, у которого есть рабы, и который завещает освободить треть из них. Он сказал: «ʿAlī عليه السلام жребий между ними бросал.»",
-              "tr": "Ben Abū Jaʿfar علیه السلام'a, köleleri olan ve onların üçte birinin azad edilmesini vasiyet eden bir adam hakkında sordum. O dedi ki: \"ʿAlī علیه السلام onların arasında kura çekmek suretiyle paylaştırırdı.\"",
-              "ur": "میں نے ابو جعفر علیہ السلام سے اس شخص کے بارے میں پوچھا جس کے غلام ہوں اور وہ ان میں سے ایک تہائی کی آزادی کا وصیت کرے۔ انہوں نے فرمایا: \"علی علیہ السلام ان کے درمیان قرعہ اندازی کیا کرتے تھے۔\"",
-              "zh": "我问AbūJaʿfarعليهالسلام关于一个有奴隶并遗嘱释放他们三分之一的人。他说：“ʿAlīعليهالسلام在他们中间抽签决定。”"
-            },
             "word_end": 28,
             "word_start": 8
           }
@@ -91,26 +78,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْمَمْلُوكُونَ": "owned slaves or bondservants under a person's possession",
-            "بَيْنَهُمْ": "among them",
-            "بِعِتْقِ": "for the emancipation or freeing",
-            "ثُلُثِهِمْ": "one-third of them",
-            "فَيُوصِي": "he makes a bequest or will",
-            "يُسْهِمُ": "he would draw lots or apportion by lot"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمَمْلُوكُونَ",
+          "فَيُوصِي",
+          "بِعِتْقِ",
+          "ثُلُثِهِمْ",
+          "يُسْهِمُ",
+          "بَيْنَهُمْ"
+        ],
         "related_quran": [
           {
             "ref": "4:3",
@@ -125,32 +100,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কেউ তার দাসদের এক-তৃতীয়াংশ মুক্ত করার وصیت করে, তাহলে সিদ্ধান্ত কীভাবে নেওয়া হয় যে কারা মুক্ত হবেন?",
-          "de": "Wie wird entschieden, welche Sklaven freigelassen werden, wenn ein Mann die Freilassung eines Drittels von ihnen testamentarisch anordnet?",
-          "en": "How is it decided which slaves are freed if a man wills the emancipation of one-third of them?",
-          "es": "¿Cómo se decide qué esclavos son liberados si un hombre dispone la emancipación de un tercio de ellos?",
-          "fa": "اگر مردی وصیت کند که یک سوم بردگانش آزاد شوند، چگونه تعیین می‌شود که کدام بردگان آزاد می‌شوند؟",
-          "fr": "Comment décide-t-on quels esclaves sont libérés si un homme lègue la libération d'un tiers d'entre eux ?",
-          "id": "Bagaimana cara menentukan budak mana yang dibebaskan jika seseorang mewasiatkan pembebasan sepertiga dari mereka?",
-          "ru": "Как определяется, каких рабов освобождают, если человек завещает освобождение трети из них?",
-          "tr": "Bir adam kölelerinin üçte birinin azad edilmesini vasiyet ederse, hangi kölelerin azad edileceği nasıl belirlenir?",
-          "ur": "اگر کوئی شخص اپنے غلاموں میں سے ایک تہائی کی آزادی کا وصیت کرے تو یہ فیصلہ کیسے کیا جاتا ہے کہ کون آزاد ہوگا؟",
-          "zh": "如果一个人遗嘱释放其奴隶三分之一，如何决定释放哪些奴隶？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি এমন একজন ব্যক্তির আইনি বিধান সম্পর্কে আলোচনা করে যিনি তার দাসদের এক-তৃতীয়াংশ মুক্ত করার وصیت করেন। ইমাম আবু জাফর عليه السلام বর্ণনা করেন যে ইমাম ʿAlī عليه السلام তাদের মধ্যে লটারির মাধ্যমে মুক্তি নির্ধারণ করতেন।",
-          "de": "Dieser Hadith behandelt eine rechtliche Regelung bezüglich eines Mannes, der die Freilassung eines Drittels seiner Sklaven testamentarisch anordnet. Imam Abū Jaʿfar عليه السلام berichtet, dass Imam ʿAlī عليه السلام durch Losentscheid bestimmte, welche freigelassen wurden.",
-          "en": "This hadith addresses a legal ruling concerning a man who wills the emancipation of one-third of his owned slaves. Imam Abū Jaʿfar عليه السلام reports that Imam ʿAlī عليه السلام would determine which of them were freed by drawing lots among them.",
-          "es": "Este hadiz aborda una regla legal sobre un hombre que dispone la emancipación de un tercio de sus esclavos. El Imam Abū Jaʿfar عليه السلام informa que el Imam ʿAlī عليه السلام determinaba quiénes eran liberados mediante sorteo entre ellos.",
-          "fa": "این حدیث به حکم شرعی مردی می‌پردازد که وصیت می‌کند یک سوم بردگانش آزاد شوند. امام ابوجعفر علیه السلام گزارش می‌دهد که امام علی علیه السلام با قرعه‌کشی میان آنها تعیین می‌کرد که کدام یک آزاد شوند.",
-          "fr": "Ce hadith traite d'une règle juridique concernant un homme qui lègue la libération d'un tiers de ses esclaves. L'Imam Abū Jaʿfar عليه السلام rapporte que l'Imam ʿAlī عليه السلام déterminait lesquels étaient libérés en tirant au sort parmi eux.",
-          "id": "Hadis ini membahas hukum terkait seorang pria yang mewasiatkan pembebasan sepertiga budaknya. Imam Abū Jaʿfar علیه السلام melaporkan bahwa Imam ʿAlī علیه السلام menentukan siapa yang dibebaskan dengan mengundi di antara mereka.",
-          "ru": "Этот хадис касается правового постановления о человеке, который завещает освобождение трети своих рабов. Имам Абу Джафар عليه السلام сообщает, что Имам ʿAlī عليه السلام определял, кто будет освобожден, путем жеребьевки между ними.",
-          "tr": "Bu hadis, kölelerinin üçte birinin azad edilmesini vasiyet eden bir adamla ilgili hukuki hükmü ele almaktadır. İmam Abū Jaʿfar علیه السلام, İmam ʿAlī علیه السلام'ın hangilerinin azad edileceğini kura çekerek belirlediğini bildirir.",
-          "ur": "یہ حدیث ایک ایسے شخص کے قانونی حکم سے متعلق ہے جو اپنے غلاموں میں سے ایک تہائی کی آزادی کا وصیت کرتا ہے۔ امام ابو جعفر علیہ السلام بیان کرتے ہیں کہ امام علی علیہ السلام ان میں قرعہ اندازی کے ذریعے فیصلہ کرتے تھے کہ کون آزاد ہوگا۔",
-          "zh": "此圣训涉及一名男子遗嘱释放其奴隶三分之一的法律裁决。伊玛目AbūJaʿfarعليهالسلام报告说，伊玛目ʿAlīعليهالسلام通过抽签决定释放哪些奴隶。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations",

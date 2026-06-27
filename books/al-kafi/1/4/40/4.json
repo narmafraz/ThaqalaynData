@@ -21,80 +21,41 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ مُحَمَّدِ بْنِ عِيسَى عَنْ يُونُسَ عَمَّنْ ذَكَرَهُ عَنْ سُلَيْمَانَ بْنِ خَالِدٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী ইবন ইবরাহীম, মুহাম্মদ ইবন ঈসা থেকে, ইউনুস থেকে, যিনি এটি উল্লেখ করেছিলেন তার কাছ থেকে, সুলাইমান ইবন খালিদ থেকে, তিনি বলেন:",
-              "de": "Ali ibn Ibrahim, von Muhammad ibn Isa, von Yunus, von demjenigen, der es erwähnte, von Sulayman ibn Khalid, der sagte:",
-              "en": "Ali ibn Ibrahim, from Muhammad ibn Isa, from Yunus, from the one who mentioned it, from Sulayman ibn Khalid, who said:",
-              "es": "Ali ibn Ibrahim, de Muhammad ibn Isa, de Yunus, de quien lo mencionó, de Sulayman ibn Khalid, quien dijo:",
-              "fa": "علی بن ابراهیم، از محمد بن عیسی، از یونس، از کسی که آن را یاد کرد، از سلیمان بن خالد، که گفت:",
-              "fr": "Ali ibn Ibrahim, d’après Muhammad ibn Isa, d’après Yunus, d’après celui qui l’a mentionné, d’après Sulayman ibn Khalid, qui a dit :",
-              "id": "Ali ibn Ibrahim, dari Muhammad ibn Isa, dari Yunus, dari orang yang menyebutkannya, dari Sulayman ibn Khalid, yang berkata:",
-              "ru": "Али ибн Ибрахим, от Мухаммада ибн Исы, от Юнуса, от того, кто упомянул это, от Сулеймана ибн Халида, который сказал:",
-              "tr": "Ali ibn İbrahim, Muhammed ibn İsa’dan, Yunus’tan, bunu zikreden kimseden, Süleyman ibn Halid’den rivayet etti ki o şöyle dedi:",
-              "ur": "علی بن ابراہیم، محمد بن عیسیٰ سے، یونس سے، اس شخص سے جس نے اس کا ذکر کیا، سلیمان بن خالد سے، انہوں نے کہا:",
-              "zh": "阿里·伊本·易卜拉欣，传自穆罕默德·伊本·尔萨，传自尤努斯，传自提到它的人，传自苏莱曼·伊本·哈立德，他说："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ أَبُو عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ): إِنَّ فِي الْجَفْرِ الَّذِي يَذْكُرُونَهُ لَمَا يَسُوؤُهُمْ، لِأَنَّهُمْ لَا يَقُولُونَ الْحَقَّ، وَالْحَقُّ فِيهِ.",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আবু আবদুল্লাহ (আলাইহিস সালাম) বলেছেন: “নিশ্চয়ই তারা যে জাফরের কথা বলে, তাতে এমন কিছু আছে যা তাদের কষ্ট দেয়, কারণ তারা সত্য কথা বলে না, অথচ সত্য তাতেই রয়েছে।”",
-              "de": "Abu Abdullah (Friede sei mit ihm) sagte: „Gewiss, in dem Jafr, von dem sie sprechen, befindet sich das, was ihnen missfällt, denn sie sagen nicht die Wahrheit, während die Wahrheit darin ist.“",
-              "en": "Abu Abdullah (عليه السلام) said: “Indeed, in the Jafr which they mention, there is that which displeases them, because they do not speak the truth, while the truth is in it.”",
-              "es": "Abu Abdullah (la paz sea con él) dijo: “Ciertamente, en el Jafr del que hablan hay aquello que les disgusta, porque no dicen la verdad, mientras que la verdad está en él.”",
-              "fa": "ابوعبدالله (علیه السلام) فرمود: «همانا در جَفرى که از آن یاد می‌کنند، چیزی هست که آنان را ناخوش می‌سازد، زیرا آنان حق را نمی‌گویند، در حالی که حق در آن است.»",
-              "fr": "Abu Abdullah (que la paix soit sur lui) a dit : « Certes, dans le Jafr dont ils parlent, il y a ce qui les contrarie, car ils ne disent pas la vérité, alors que la vérité s’y trouve. »",
-              "id": "Abu Abdullah (عليه السلام) berkata: “Sesungguhnya dalam Jafr yang mereka sebutkan itu terdapat sesuatu yang menyusahkan mereka, karena mereka tidak mengatakan yang benar, padahal kebenaran ada di dalamnya.”",
-              "ru": "Абу Абдуллах (мир ему) сказал: «Воистину, в том Джафре, о котором они говорят, есть то, что огорчает их, потому что они не говорят правду, тогда как истина находится в нем».",
-              "tr": "Ebu Abdullah (aleyhisselam) şöyle dedi: “Şüphesiz onların sözünü ettiği Jafr’da onları üzen şeyler vardır; çünkü onlar doğruyu söylemezler, oysa hak onun içindedir.”",
-              "ur": "ابو عبداللہ (علیہ السلام) نے فرمایا: “بے شک جس جفر کا وہ ذکر کرتے ہیں اس میں وہ چیز ہے جو انہیں ناگوار گزرتی ہے، کیونکہ وہ حق نہیں کہتے، حالانکہ حق اس میں ہے۔”",
-              "zh": "阿布·阿卜杜拉（愿主赐他平安）说：“他们所提到的贾弗中确有使他们不快之物，因为他们不说真话，而真理就在其中。”"
-            },
             "word_end": 35,
             "word_start": 16
           },
           {
             "arabic_text": "فَلْيُخْرِجُوا قَضَايَا عَلِيٍّ وَفَرَائِضَهُ إِنْ كَانُوا صَادِقِينَ، وَسَلُوهُمْ عَنِ الْخَالَاتِ وَالْعَمَّاتِ، وَلْيُخْرِجُوا مُصْحَفَ فَاطِمَةَ (عَلَيْهَا السَّلَامُ)، فَإِنَّ فِيهِ وَصِيَّةَ فَاطِمَةَ (عَلَيْهَا السَّلَامُ)، وَمَعَهُ سِلَاحُ رَسُولِ اللَّهِ (صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ).",
             "chunk_type": "body",
-            "translations": {
-              "bn": "অতএব তারা যদি সত্যবাদী হয়, তবে তারা যেন আলীর বিধানসমূহ ও তার ফরজসমূহ বের করে আনে; এবং তাদের কাছে খালা ও ফুফুদের সম্পর্কে জিজ্ঞাসা করো; এবং ফাতিমার (আলাইহাস সালাম) মুসহাফ বের করে আনুক, কারণ তাতে ফাতিমার (আলাইহাস সালাম) ওসিয়ত রয়েছে, এবং তার সঙ্গে রয়েছে রাসূলুল্লাহর (সাল্লাল্লাহু আলাইহি ওয়া আলিহি) অস্ত্রসমূহ।",
-              "de": "So sollen sie, wenn sie wahrhaftig sind, die Urteile von Ali und seine Vorschriften hervorbringen; und fragt sie nach den Tanten mütterlicherseits und väterlicherseits; und sie sollen das Mushaf von Fatimah (Friede sei mit ihr) hervorbringen, denn darin befindet sich das Vermächtnis von Fatimah (Friede sei mit ihr), und bei ihm sind die Waffen des Gesandten Allahs (Allahs Segen und Frieden seien auf ihm und seiner Familie).",
-              "en": "So let them bring forth the judgments of Ali and his ordinances, if they are truthful; and ask them about the maternal aunts and the paternal aunts; and let them bring forth the Mushaf of Fatimah (عليها السلام), for indeed in it is the bequest of Fatimah (عليها السلام), and with it are the weapons of the Messenger of Allah (صلى الله عليه وآله).",
-              "es": "Así pues, que saquen los juicios de Ali y sus preceptos, si son veraces; y pregúntenles acerca de las tías maternas y las tías paternas; y que saquen el Mushaf de Fatimah (la paz sea con ella), pues en él está el testamento de Fatimah (la paz sea con ella), y con él están las armas del Mensajero de Allah (la paz y las bendiciones de Allah sean con él y su familia).",
-              "fa": "پس اگر راستگو هستند، احکام علی و فرایض او را بیرون آورند؛ و از آنان دربارهٔ خاله‌ها و عمه‌ها بپرسید؛ و مصحف فاطمه (علیها السلام) را بیرون آورند، زیرا در آن وصیت فاطمه (علیها السلام) است، و همراه آن سلاح‌های رسول خدا (صلى الله عليه وآله) است.",
-              "fr": "Qu’ils fassent donc apparaître les jugements de Ali et ses prescriptions, s’ils sont véridiques ; et interrogez-les au sujet des tantes maternelles et des tantes paternelles ; et qu’ils fassent apparaître le Mushaf de Fatimah (que la paix soit sur elle), car s’y trouve le testament de Fatimah (que la paix soit sur elle), et avec lui se trouvent les armes du Messager d’Allah (que la paix et les bénédictions soient sur lui et sur sa famille).",
-              "id": "Maka hendaklah mereka mengeluarkan keputusan-keputusan Ali dan ketetapan-ketetapannya, jika mereka benar; dan tanyakan kepada mereka tentang bibi dari pihak ibu dan bibi dari pihak ayah; dan hendaklah mereka mengeluarkan Mushaf Fatimah (عليها السلام), karena di dalamnya terdapat wasiat Fatimah (عليها السلام), dan bersamanya ada senjata-senjata Rasul Allah (صلى الله عليه وآله).",
-              "ru": "Пусть же они, если они правдивы, предъявят постановления Али и его предписания; и спросите их о тётях по материнской линии и тётях по отцовской линии; и пусть они предъявят Мусхаф Фатимы (мир ей), ибо в нём находится завещание Фатимы (мир ей), и вместе с ним — оружие Посланника Аллаха (да благословит Аллах его и его род).",
-              "tr": "Öyleyse doğru söylüyorlarsa Ali’nin hükümlerini ve onun farzlarını ortaya çıkarsınlar; onlara teyzeler ve halalar hakkında sorun; ve Fatıma’nın (aleyhasselam) Mushafını ortaya çıkarsınlar; çünkü onda Fatıma’nın (aleyhasselam) vasiyeti vardır ve onunla birlikte Allah Resulü’nün (sallallahu aleyhi ve âlih) silahları vardır.",
-              "ur": "پس اگر وہ سچے ہیں تو علی کے فیصلے اور اس کے فرائض سامنے لائیں؛ اور ان سے خالاؤں اور پھوپھیوں کے بارے میں پوچھو؛ اور فاطمہ (علیہا السلام) کا مصحف سامنے لائیں، کیونکہ اس میں فاطمہ (علیہا السلام) کی وصیت ہے، اور اس کے ساتھ رسول اللہ (صلى الله عليه وآله) کے ہتھیار ہیں۔",
-              "zh": "那么，如果他们是诚实的，就让他们拿出阿里的判决和他的法度；并问他们关于姨母和姑母的事；并让他们拿出法蒂玛的穆斯哈夫（愿主赐她平安），因为其中有法蒂玛（愿主赐她平安）的遗嘱，并且与它一起还有真主的使者（愿主赐福之，并赐他及其家人平安）的武器。"
-            },
             "word_end": 65,
             "word_start": 35
           },
           {
             "arabic_text": "إِنَّ اللَّهَ عَزَّ وَجَلَّ يَقُولُ: فَأْتُوا بِكِتَابٍ مِنْ قَبْلِ هَٰذَا أَوْ أَثَارَةٍ مِنْ عِلْمٍ إِنْ كُنْتُمْ صَادِقِينَ.",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "নিশ্চয়ই আল্লাহ, পরাক্রমশালী ও মহিমান্বিত, বলেন: “যদি তোমরা সত্যবাদী হও, তবে এর আগে কোনো কিতাব অথবা জ্ঞানের কোনো চিহ্ন নিয়ে এসো।”",
-              "de": "Gewiss, Allah, der Mächtige und Majestätische, sagt: „Bringt ein Buch vor diesem oder eine Spur von Wissen, wenn ihr wahrhaftig seid.“",
-              "en": "Indeed Allah, Mighty and Majestic, says: “Bring a book before this, or a trace of knowledge, if you are truthful.”",
-              "es": "Ciertamente Allah, Poderoso y Majestuoso, dice: “Traed un libro antes de esto, o una huella de conocimiento, si sois veraces.”",
-              "fa": "همانا خداوند، عزیز و جلیل، می‌فرماید: «اگر راستگو هستید، کتابی پیش از این بیاورید، یا اثری از علم.»",
-              "fr": "Certes, Allah, Puissant et Majestueux, dit : « Apportez un livre avant cela, ou une trace de savoir, si vous êtes véridiques. »",
-              "id": "Sesungguhnya Allah, Yang Mahaperkasa lagi Mahagung, berfirman: “Datangkanlah sebuah kitab sebelum ini, atau bekas ilmu, jika kamu benar.”",
-              "ru": "Воистину, Аллах, Великий и Превознесённый, говорит: «Принесите книгу прежде этого или след знания, если вы правдивы».",
-              "tr": "Şüphesiz Allah, Aziz ve Celil olan, şöyle buyurur: “Eğer doğru söylüyorsanız, bundan önce bir kitap veya bir ilim izi getirin.”",
-              "ur": "بے شک اللہ، غالب اور جلیل، فرماتا ہے: “اس سے پہلے کوئی کتاب لاؤ، یا علم کا کوئی نشان، اگر تم سچے ہو۔”",
-              "zh": "真主，尊严而伟大的主，说道：“如果你们是诚实的，就拿出一本在这之前的经典，或者一点知识的痕迹。”"
-            },
             "word_end": 82,
             "word_start": 65
           }
@@ -153,60 +114,22 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَثَارَةٍ مِنْ عِلْمٍ": "A trace or remnant of knowledge offered as proof.",
-            "الْجَفْرِ": "The Jafr, a repository mentioned as containing true knowledge.",
-            "الْحَقَّ": "The truth, which the Imam (عليه السلام) says is contained therein.",
-            "سِلَاحُ رَسُولِ اللَّهِ": "The weapons of the Messenger of Allah (صلى الله عليه وآله), mentioned as accompanying it.",
-            "فَرَائِضَهُ": "His prescribed ordinances or legal obligations.",
-            "قَضَايَا عَلِيٍّ": "The judicial rulings or judgments of Ali (عليه السلام).",
-            "مُصْحَفَ فَاطِمَةَ": "The Mushaf of Fatimah (عليها السلام), identified here as containing her bequest.",
-            "وَصِيَّةَ فَاطِمَةَ": "The bequest or testament of Fatimah (عليها السلام)."
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْجَفْرِ",
+          "الْحَقَّ",
+          "قَضَايَا عَلِيٍّ",
+          "فَرَائِضَهُ",
+          "مُصْحَفَ فَاطِمَةَ",
+          "وَصِيَّةَ فَاطِمَةَ",
+          "سِلَاحُ رَسُولِ اللَّهِ",
+          "أَثَارَةٍ مِنْ عِلْمٍ"
+        ],
         "related_quran": [
           {
             "ref": "46:4",
             "relationship": "explicit"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিসটি জাফর এবং ফাতিমার মুসহাফকে (আলাইহাস সালাম) জ্ঞানের প্রমাণ হিসেবে কীভাবে বর্ণনা করে?",
-          "de": "Wie beschreibt dieser Hadith al-Jafr und das Mushaf von Fatimah (Friede sei mit ihr) als Beweise des Wissens?",
-          "en": "How does this hadith describe al-Jafr and the Mushaf of Fatimah (عليها السلام) as proofs of knowledge?",
-          "es": "¿Cómo describe este hadiz al-Jafr y el Mushaf de Fatimah (la paz sea con ella) como pruebas del conocimiento?",
-          "fa": "این حدیث جفر و مصحف فاطمه (علیها السلام) را چگونه به‌عنوان دلیل‌های دانش توصیف می‌کند؟",
-          "fr": "Comment ce hadith décrit-il al-Jafr et le Mushaf de Fatimah (que la paix soit sur elle) comme des preuves du savoir ?",
-          "id": "Bagaimana hadis ini menggambarkan al-Jafr dan Mushaf Fatimah (عليها السلام) sebagai bukti ilmu?",
-          "ru": "Как этот хадис описывает аль-Джафр и Мусхаф Фатимы (мир ей) как доказательства знания?",
-          "tr": "Bu hadis, Jafr ve Fatıma’nın Mushafı’nı (aleyhasselam) ilmin delilleri olarak nasıl tasvir eder?",
-          "ur": "یہ حدیث الجفر اور مصحفِ فاطمہ (علیہا السلام) کو علم کی دلیل کے طور پر کیسے بیان کرتی ہے؟",
-          "zh": "这段圣训如何将贾弗和法蒂玛的穆斯哈夫（愿主赐她平安）描述为知识的证据？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি আহলুল বাইত (আলাইহিমুস সালাম)-এর সঙ্গে সম্পর্কিত উত্তরাধিকারসূত্রে প্রাপ্ত পবিত্র উপকরণে, বিশেষত জাফর এবং ফাতিমার মুসহাফে (আলাইহাস সালাম), প্রামাণিক জ্ঞানের উপস্থিতি নিশ্চিত করে। এটি এমন জ্ঞানের মিথ্যা দাবিকে দৃশ্যমান আইনগত ও উত্তরাধিকারসূত্রে প্রাপ্ত প্রমাণ দাবি করে চ্যালেঞ্জ করে, এবং শেষে কুরআনিক দাবির মাধ্যমে প্রামাণিক লিখিত বা বর্ণিত প্রমাণের আহ্বান জানায়।",
-          "de": "Dieser Hadith bekräftigt die Präsenz maßgeblichen Wissens in den vererbten heiligen Materialien, die mit den Ahl al-Bayt (Friede sei mit ihnen) verbunden sind, einschließlich al-Jafr und dem Mushaf von Fatimah (Friede sei mit ihr). Er stellt falsche Behauptungen über solches Wissen in Frage, indem er nach nachweisbaren rechtlichen und überlieferten Beweisen verlangt, und schließt mit dem Verweis auf eine koranische Forderung nach authentischem textlichem oder überliefertem Beleg.",
-          "en": "This hadith affirms the presence of authoritative knowledge in the inherited sacred materials associated with the Ahl al-Bayt (عليهم السلام), including al-Jafr and the Mushaf of Fatimah (عليها السلام). It challenges false claims to such knowledge by calling for demonstrable legal and inherited proofs, and it concludes by invoking a Qur'anic demand for authentic textual or transmitted evidence.",
-          "es": "Este hadiz afirma la presencia de conocimiento autorizado en los materiales sagrados heredados asociados con la Ahl al-Bayt (la paz sea con ellos), incluido al-Jafr y el Mushaf de Fatimah (la paz sea con ella). Desafía las afirmaciones falsas sobre ese conocimiento al exigir pruebas jurídicas y heredadas demostrables, y concluye invocando una exigencia coránica de evidencia textual o transmitida auténtica.",
-          "fa": "این حدیث بر وجود دانشِ معتبر در مواد مقدسِ به‌ارث‌رسیده و مرتبط با اهل‌بیت (علیهم السلام)، به‌ویژه جفر و مصحف فاطمه (علیها السلام)، تأکید می‌کند. این حدیث ادعاهای نادرست دربارهٔ چنین دانشی را با درخواستِ دلایل فقهی و موروثیِ قابل‌ارائه به چالش می‌کشد، و در پایان با استناد به یک مطالبهٔ قرآنی، بر دلیلِ متنی یا منقولِ معتبر تکیه می‌کند.",
-          "fr": "Ce hadith affirme la présence d’un savoir faisant autorité dans les matériaux sacrés hérités associés à l’Ahl al-Bayt (que la paix soit sur eux), notamment al-Jafr et le Mushaf de Fatimah (que la paix soit sur elle). Il met au défi les fausses prétentions à un tel savoir en exigeant des preuves juridiques et héritées démontrables, et se conclut en invoquant une exigence coranique de preuve textuelle ou transmise authentique.",
-          "id": "Hadis ini menegaskan adanya ilmu yang otoritatif dalam bahan-bahan suci warisan yang terkait dengan Ahl al-Bayt (عليهم السلام), termasuk al-Jafr dan Mushaf Fatimah (عليها السلام). Hadis ini menantang klaim palsu atas ilmu semacam itu dengan menuntut bukti-bukti hukum dan warisan yang dapat ditunjukkan, lalu menutupnya dengan mengutip tuntutan Al-Qur'an akan bukti tekstual atau riwayat yang autentik.",
-          "ru": "Этот хадис утверждает наличие авторитетного знания в унаследованных священных материалах, связанных с Ахль аль-Байт (мир им), включая аль-Джафр и Мусхаф Фатимы (мир ей). Он опровергает ложные притязания на такое знание, требуя доказуемых правовых и унаследованных доводов, и завершается обращением к кораническому требованию подлинного текстового или переданного свидетельства.",
-          "tr": "Bu hadis, Ehl-i Beyt (aleyhimusselam) ile ilişkili miras kalan kutsal metinlerde, özellikle Jafr ve Fatıma’nın Mushafı’nda (aleyhasselam), otoritatif bilginin bulunduğunu teyit eder. Böyle bir bilgiye dair sahte iddiaları, gösterilebilir fıkhî ve miras yoluyla gelen deliller talep ederek sorgular ve sonunda Kur’anî bir şekilde sahih metinsel veya naklî delil çağrısında bulunur.",
-          "ur": "یہ حدیث اہلِ بیت (علیہم السلام) سے منسوب موروثی مقدس مواد، خصوصاً الجفر اور مصحفِ فاطمہ (علیہا السلام)، میں موجود مستند علم کی طرف اشارہ کرتی ہے۔ یہ ایسے علم کے جھوٹے دعووں کو قابلِ عمل شرعی اور موروثی دلائل کا مطالبہ کر کے چیلنج کرتی ہے، اور آخر میں قرآنی انداز میں حقیقی نصی یا منقولہ دلیل کا تقاضا پیش کرتی ہے۔",
-          "zh": "这段圣训确认了与圣裔（愿主赐他们平安）相关的继承性神圣材料中存在权威知识，包括贾弗和法蒂玛的穆斯哈夫（愿主赐她平安）。它通过要求可证实的律法和传承证据来挑战对此类知识的虚假主张，并以《古兰经》对真实文本或传述证据的要求作结。"
-        },
         "tags": [
           "knowledge",
           "theology",

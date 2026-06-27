@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلْحُسَيْنُ بْنُ سَعِيدٍ عَنْ صَفْوَانَ عَنْ إِسْحَاقَ بْنِ عَمَّارٍ عَنْ أَبِي إِبْرَاهِيمَ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ, সফওয়ান থেকে, ইসহাক ইবন ‘আম্মার থেকে, আবি ইব্রাহিম عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Al-Husayn ibn Sa'id, von Safwan, von Ishaq ibn 'Ammar, von Abi Ibrahim عليه السلام, der sagte:",
-              "en": "Al-Husayn ibn Sa'id, from Safwan, from Ishaq ibn 'Ammar, from Abi Ibrahim عليه السلام, who said:",
-              "es": "Al-Husayn ibn Sa'id, de Safwan, de Ishaq ibn 'Ammar, de Abi Ibrahim عليه السلام, quien dijo:",
-              "fa": "الحسین بن سعید، از صفوان، از اسحاق بن عمار، از ابی ابراهیم علیه السلام، که فرمود:",
-              "fr": "Al-Husayn ibn Sa'id, d'après Safwan, d'après Ishaq ibn 'Ammar, d'après Abi Ibrahim عليه السلام, qui a dit :",
-              "id": "Al-Husayn ibn Sa'id, dari Safwan, dari Ishaq ibn 'Ammar, dari Abi Ibrahim عليه السلام, yang berkata:",
-              "ru": "Аль-Хусайн ибн Са'ид, от Сафвана, от Исхака ибн 'Аммара, от Аби Ибрахима عليه السلام, который сказал:",
-              "tr": "El-Hüseyin ibn Sa'id, Safvan'dan, İshak ibn 'Ammar'dan, Ebu İbrahim عليه السلام'dan rivayet etti ki, şöyle dedi:",
-              "ur": "الحسین بن سعید، صفوان سے، اسحاق بن عمار سے، ابو ابراہیم علیہ السلام سے، انہوں نے فرمایا:",
-              "zh": "Al-HusaynibnSa'id，传自Safwan，传自Ishaqibn'Ammar，传自AbiIbrahim عليه السلام，他说："
-            },
             "word_end": 15,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنِ الْمُفْتَرِي فَقَالَ: «يُضْرَبُ ضَرْبًا بَيْنَ الضَّرْبَيْنِ، يُضْرَبُ جَسَدُهُ كُلُّهُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁর কাছে অপবাদদাতার সম্পর্কে জিজ্ঞেস করলাম, তিনি বললেন: “তাকে দুই প্রহারের মাঝামাঝি এক প্রহারে প্রহার করা হবে; তার পুরো শরীরে আঘাত করা হবে।”",
-              "de": "Ich fragte ihn nach dem Verleumder, und er sagte: „Er soll mit einem Schlag zwischen den beiden Schlägen geschlagen werden; sein ganzer Körper soll getroffen werden.“",
-              "en": "I asked him about the slanderer, and he said: “He is to be beaten with a beating between the two beatings; his whole body is to be struck.”",
-              "es": "Le pregunté acerca del calumniador, y dijo: “Se le golpeará con un golpe entre los dos golpes; se golpeará todo su cuerpo.”",
-              "fa": "از او درباره تهمت‌زننده پرسیدم، فرمود: «او را با زدنی میان دو زدن می‌زنند؛ سراسر بدنش زده می‌شود.»",
-              "fr": "Je lui ai demandé au sujet du calomniateur, et il a dit : « Il sera frappé d’un coup entre les deux coups ; tout son corps sera frappé. »",
-              "id": "Aku bertanya kepadanya tentang orang yang memfitnah, lalu ia berkata: “Ia dipukul dengan pukulan di antara dua pukulan; seluruh tubuhnya dipukul.”",
-              "ru": "Я спросил его о клеветнике, и он сказал: «Его следует бить ударом между двумя ударами; его следует бить по всему телу».",
-              "tr": "Ona iftiracı hakkında sordum, şöyle dedi: “Ona iki vurma arasındaki bir vuruşla vurulur; bütün bedenine vurulur.”",
-              "ur": "میں نے ان سے بہتان لگانے والے کے بارے میں پوچھا، تو انہوں نے فرمایا: “اسے دو ماروں کے درمیان ایک مار ماری جائے؛ اس کے پورے جسم پر ضرب لگائی جائے۔”",
-              "zh": "我问他关于诽谤者的事，他说：“应以介于两种鞭打之间的一种鞭打来鞭打他；他的全身都要被击打。”"
-            },
             "word_end": 26,
             "word_start": 15
           }
@@ -104,24 +91,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْمُفْتَرِي": "the one who fabricates a false accusation or slander",
-            "جَسَدُهُ كُلُّهُ": "his entire body, meaning the punishment is distributed over the body",
-            "ضَرْبًا بَيْنَ الضَّرْبَيْنِ": "a moderate beating between two extremes",
-            "يُضْرَبُ": "he is to be struck as a legal punishment"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمُفْتَرِي",
+          "يُضْرَبُ",
+          "ضَرْبًا بَيْنَ الضَّرْبَيْنِ",
+          "جَسَدُهُ كُلُّهُ"
+        ],
         "related_quran": [
           {
             "ref": "24:4",
@@ -132,32 +107,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "তাহযীবুল আহকামে অপবাদদাতাকে শাস্তি দেওয়ার বিধান কী?",
-          "de": "Was ist die Regel in Tahdhib al-Ahkam zur Bestrafung des Verleumders?",
-          "en": "What is the ruling in Tahdhib al-Ahkam on punishing a slanderer?",
-          "es": "¿Cuál es la norma en Tahdhib al-Ahkam sobre castigar al calumniador?",
-          "fa": "حکم تهذیب الاحکام درباره مجازات تهمت‌زننده چیست؟",
-          "fr": "Quelle est la règle dans Tahdhib al-Ahkam concernant la punition du calomniateur ?",
-          "id": "Apa hukum dalam Tahdhib al-Ahkam tentang menghukum orang yang memfitnah?",
-          "ru": "Каково постановление в Tahdhib al-Ahkam относительно наказания клеветника?",
-          "tr": "Tahdhib al-Ahkam'da iftiracıya ceza verme hükmü nedir?",
-          "ur": "تہذیب الاحکام میں بہتان لگانے والے کی سزا کا کیا حکم ہے؟",
-          "zh": "Tahdhibal-Ahkam中关于惩罚诽谤者的裁决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি মিথ্যা অভিযোগ বা অপবাদ আরোপকারীর শাস্তি সম্পর্কে একটি শরঈ বিধান প্রদান করে। এতে বোঝা যায় যে শাস্তিটি মধ্যম ধরনের শাস্তিমূলক প্রহার, এবং তা পুরো শরীরজুড়ে প্রয়োগ করা হয়।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung über die Bestrafung dessen, der eine falsche Anschuldigung oder Verleumdung begeht. Er zeigt, dass die Strafe eine maßvolle, disziplinierende Prügelstrafe ist und am ganzen Körper vollzogen wird.",
-          "en": "This hadith gives a legal ruling concerning the punishment of the one who commits false accusation or slander. It indicates that the punishment is a disciplinary beating of a moderate kind, and that it is administered across the body.",
-          "es": "Este hadiz establece una norma jurídica sobre el castigo de quien comete una acusación falsa o calumnia. Indica que el castigo es una golpiza disciplinaria de tipo moderado y que se aplica sobre todo el cuerpo.",
-          "fa": "این حدیث حکمی فقهی درباره مجازات کسی که تهمت یا افترا می‌زند بیان می‌کند. دلالت دارد که مجازات، ضربی تأدیبی و معتدل است و بر سراسر بدن اجرا می‌شود.",
-          "fr": "Ce hadith énonce une règle juridique concernant la peine de celui qui commet une fausse accusation ou une calomnie. Il indique que la peine est une correction corporelle de type modéré, appliquée sur tout le corps.",
-          "id": "Hadis ini memberikan hukum syar‘i tentang hukuman bagi orang yang melakukan tuduhan palsu atau fitnah. Ini menunjukkan bahwa hukumannya adalah pukulan disipliner yang bersifat sedang, dan diterapkan pada seluruh tubuh.",
-          "ru": "Этот хадис содержит правовое постановление относительно наказания того, кто совершает ложное обвинение или клевету. Он указывает, что наказание представляет собой воспитательное избиение умеренного характера и применяется по всему телу.",
-          "tr": "Bu hadis, iftira atan kimsenin cezasına dair bir fıkhî hüküm bildirir. Buna göre ceza, orta dereceli bir terbiye amaçlı dayaktır ve bedenin tamamına uygulanır.",
-          "ur": "یہ حدیث جھوٹا الزام لگانے یا بہتان باندھنے والے کی سزا کے بارے میں ایک شرعی حکم بیان کرتی ہے۔ اس سے معلوم ہوتا ہے کہ سزا اعتدال کی نوعیت کی تادیبی مار ہے، اور یہ پورے جسم پر لگائی جاتی ہے۔",
-          "zh": "这段圣训给出了关于诬告或诽谤者惩罚的教法裁决。它表明，这种惩罚是一种适度的训诫性鞭打，并且要施于全身。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

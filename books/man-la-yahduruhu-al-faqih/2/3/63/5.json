@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى هِشَامُ بْنُ سَالِمٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং হিশাম ইবনে সালিম আবু আবদুল্লাহ (আলেইহিস সালাম) থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Und Hisham ibn Salim berichtete von Abu Abdullah (عليه السلام), der sagte:",
-              "en": "And Hisham ibn Salim narrated from Abu Abdullah (عليه السلام), who said:",
-              "es": "Y Hisham ibn Salim narró de Abu Abdullah (عليه السلام), quien dijo:",
-              "fa": "و هشام بن سالم از ابو عبدالله (علیه السلام) روایت کرد که فرمود:",
-              "fr": "Et Hisham ibn Salim a rapporté d'Abu Abdullah (عليه السلام), qui a dit :",
-              "id": "Dan Hisham ibn Salim meriwayatkan dari Abu Abdullah (عليه السلام), yang berkata:",
-              "ru": "И Хишам ибн Салим передал от Абу Абдуллаха (عليه السلام), который сказал:",
-              "tr": "Ve Hişam ibn Salim, Ebu Abdullah (aleyhisselam)'dan rivayet etti, şöyle dedi:",
-              "ur": "اور ہشام بن سالم نے ابو عبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "而希沙姆本萨利姆从阿布阿卜杜拉（愿他平安）那里传述说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَمَّنْ نَسِيَ زِيَارَةَ الْبَيْتِ حَتَّى يَرْجِعَ إِلَى أَهْلِهِ فَقَالَ «لَا يَضُرُّهُ إِذَا كَانَ قَدْ قَضَى مَنَاسِكَهُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাকে এমন একজন সম্পর্কে জিজ্ঞাসা করলাম যে বাড়ির জিয়ারাত ভুলে গিয়েছিল যতক্ষণ না সে তার পরিবারের কাছে ফিরে যায়, তিনি বললেন: \"যদি সে তার মানাসিক সম্পন্ন করে থাকে তবে তাকে কোনো ক্ষতি হয় না।\"",
-              "de": "Ich fragte ihn nach jemandem, der die Besuch des Hauses vergessen hat, bis er zu seiner Familie zurückkehrte, und er sagte: „Es schadet ihm nicht, wenn er seine Riten vollendet hat.“",
-              "en": "I asked him about someone who forgot the visitation of the House until he returned to his family, so he said: \"It does not harm him if he has completed his rites.\"",
-              "es": "Le pregunté acerca de alguien que olvidó la visita a la Casa hasta que regresó a su familia, y él dijo: \"No le perjudica si ha completado sus ritos.\"",
-              "fa": "از او درباره کسی که زیارت خانه را فراموش کرده تا زمانی که به خانواده‌اش بازگشته است پرسیدم، فرمود: «اگر مناسک خود را انجام داده باشد، ضرری به او نمی‌رسد.»",
-              "fr": "Je lui ai demandé au sujet de quelqu'un qui a oublié la visite de la Maison jusqu'à ce qu'il retourne auprès de sa famille, il a dit : « Cela ne lui nuit pas s'il a accompli ses rites. »",
-              "id": "Saya bertanya kepadanya tentang seseorang yang lupa melakukan ziarah Rumah sampai dia kembali ke keluarganya, lalu dia berkata: \"Tidak membahayakannya jika dia telah menyelesaikan manasiknya.\"",
-              "ru": "Я спросил его о том, кто забыл посещение Дома до тех пор, пока не вернулся к своей семье, и он сказал: «Ему не вредит, если он выполнил свои обряды.»",
-              "tr": "Ben ondan, evi ziyaret etmeyi unutan ve ailesine dönene kadar bunu hatırlamayan biri hakkında sordum, dedi ki: \"Eğer ibadetlerini tamamlamışsa ona zarar gelmez.\"",
-              "ur": "میں نے ان سے اس شخص کے بارے میں پوچھا جو بیت کی زیارت بھول گیا یہاں تک کہ وہ اپنے گھر والوں کے پاس واپس چلا گیا، تو انہوں نے فرمایا: \"اگر اس نے اپنے مناسک مکمل کر لیے ہوں تو اسے کوئی ضرر نہیں پہنچتا۔\"",
-              "zh": "我问他关于有人忘记了朝觐房屋的拜访直到回到家人那里，他说：“如果他已经完成了他的仪式，这对他没有害处。”"
-            },
             "word_end": 29,
             "word_start": 12
           }
@@ -91,25 +78,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَهْلِهِ": "his family or household to whom he returned",
-            "زِيَارَةَ الْبَيْتِ": "the visitation of the Kaaba, meaning the prescribed hajj circumambulation",
-            "لَا يَضُرُّهُ": "it does not harm him; there is no detrimental consequence in this ruling",
-            "مَنَاسِكَهُ": "his pilgrimage rites and ritual acts of hajj",
-            "نَسِيَ": "forgot or failed to remember in time"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "نَسِيَ",
+          "زِيَارَةَ الْبَيْتِ",
+          "أَهْلِهِ",
+          "لَا يَضُرُّهُ",
+          "مَنَاسِكَهُ"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
@@ -120,32 +95,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কেউ ṭawāf al-ziyārah ভুলে যায় এবং অন্যান্য হজের মানাসিক সম্পন্ন করার পর তার পরিবারের কাছে ফিরে যায়, তাহলে কী বিধান?",
-          "de": "Wie lautet das Urteil, wenn jemand ṭawāf al-ziyārah vergisst und nach Abschluss der anderen Hadsch-Riten zu seiner Familie zurückkehrt?",
-          "en": "What is the ruling if someone forgets ṭawāf al-ziyārah and returns to their family after completing the other hajj rites?",
-          "es": "¿Cuál es el fallo si alguien olvida el ṭawāf al-ziyārah y regresa a su familia después de completar los otros ritos del hajj?",
-          "fa": "اگر کسی فردی طواف الزیاره را فراموش کند و پس از انجام سایر مناسک حج به خانواده خود بازگردد، حکم چیست؟",
-          "fr": "Quelle est la règle si quelqu'un oublie le ṭawāf al-ziyārah et retourne auprès de sa famille après avoir accompli les autres rites du hajj ?",
-          "id": "Apa hukum jika seseorang lupa ṭawāf al-ziyārah dan kembali ke keluarganya setelah menyelesaikan manasik haji lainnya?",
-          "ru": "Каково постановление, если кто-то забывает ṭawāf al-ziyārah и возвращается к своей семье после выполнения остальных обрядов хаджа?",
-          "tr": "Birisi ṭawāf al-ziyārah'ı unutup diğer hac ibadetlerini tamamladıktan sonra ailesine dönerse hüküm nedir?",
-          "ur": "اگر کوئی شخص طواف الزيارة بھول جائے اور باقی حج کے مناسک مکمل کرنے کے بعد اپنے گھر واپس چلا جائے تو حکم کیا ہے؟",
-          "zh": "如果有人忘记了ṭawāf al-ziyārah并在完成其他朝觐仪式后回到家人那里，判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি এমন একজন ব্যক্তির শারীরিক বিধান দেয় যিনি হজের সময় বাড়ির জিয়ারাত ভুলে যান এবং বাড়ি ফিরে এসে স্মরণ করেন। ইমাম আবু আবদুল্লাহ (আলেইহিস সালাম) বলেন, যদি বাকি মানাসিক সম্পন্ন হয়ে থাকে তবে এমন ব্যক্তির কোনো ক্ষতি হয় না।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung für jemanden, der die Ziyārah des Hauses während der Hadsch vergisst und sich erst nach der Rückkehr zu seiner Familie daran erinnert. Imam Abu Abdullah (عليه السلام) sagt, dass es für eine solche Person keinen Schaden gibt, wenn die übrigen Pilgerriten bereits abgeschlossen sind.",
-          "en": "This hadith gives a legal ruling concerning one who forgot the ziyārah of the House during hajj and only remembered after returning home. Imam Abu Abdullah (عليه السلام) states that there is no harm upon such a person if the rest of the pilgrimage rites have already been completed.",
-          "es": "Este hadiz da un fallo legal sobre quien olvida la ziyārah de la Casa durante el hajj y solo lo recuerda después de regresar a casa. El Imam Abu Abdullah (عليه السلام) afirma que no hay daño para tal persona si ya ha completado los demás ritos del peregrinaje.",
-          "fa": "این حدیث حکم شرعی کسی را بیان می‌کند که در حج زیارت خانه را فراموش کرده و پس از بازگشت به خانواده‌اش به یاد می‌آورد. امام ابو عبدالله (علیه السلام) می‌فرماید اگر سایر مناسک انجام شده باشد، ضرری به او نمی‌رسد.",
-          "fr": "Ce hadith donne un jugement légal concernant celui qui oublie la ziyārah de la Maison pendant le hajj et ne s'en souvient qu'après être retourné chez lui. L'Imam Abu Abdullah (عليه السلام) déclare qu'il n'y a pas de mal pour une telle personne si les autres rites du pèlerinage ont déjà été accomplis.",
-          "id": "Hadis ini memberikan hukum mengenai seseorang yang lupa melakukan ziarah Rumah selama haji dan baru teringat setelah kembali ke keluarganya. Imam Abu Abdullah (عليه السلام) menyatakan tidak ada bahaya bagi orang tersebut jika manasik lainnya telah selesai.",
-          "ru": "Этот хадис даёт правовое постановление относительно того, кто забыл совершить зиярат Дома во время хаджа и вспомнил об этом только после возвращения домой. Имам Абу Абдуллах (عليه السلام) утверждает, что для такого человека нет вреда, если остальные обряды хаджа уже выполнены.",
-          "tr": "Bu hadis, hacc sırasında evi ziyaret etmeyi unutan ve eve döndükten sonra hatırlayan kişi hakkında hukuki hükmü verir. İmam Ebu Abdullah (aleyhisselam) der ki, diğer ibadetler tamamlandıysa böyle bir kişiye zarar gelmez.",
-          "ur": "یہ حدیث اس شخص کے بارے میں شرعی حکم بیان کرتی ہے جو حج کے دوران بیت کی زیارت بھول جائے اور گھر واپس پہنچنے کے بعد یاد کرے۔ امام ابو عبداللہ علیہ السلام فرماتے ہیں کہ اگر باقی مناسک مکمل ہو چکے ہوں تو ایسے شخص پر کوئی ضرر نہیں۔",
-          "zh": "这则圣训对在朝觐期间忘记朝觐房屋拜访并在回家后才想起的人给出了法律裁决。伊玛目阿布阿卜杜拉（愿他平安）指出，如果其他朝觐仪式已完成，这样的人不会受到损害。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

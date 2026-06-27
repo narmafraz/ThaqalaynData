@@ -21,61 +21,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "الْحُسَيْنُ بْنُ مُحَمَّدٍ عَنْ مُعَلَّى بْنِ مُحَمَّدٍ عَنْ مُحَمَّدِ بْنِ أُورَمَةَ وَمُحَمَّدِ بْنِ عَبْدِ اللَّهِ عَنْ عَلِيِّ بْنِ حَسَّانَ عَنْ عَبْدِ الرَّحْمَنِ بْنِ كَثِيرٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ فِي قَوْلِ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন মুহাম্মদ, মুʿআল্লা ইবন মুহাম্মদ থেকে, মুহাম্মদ ইবন আওরামা এবং মুহাম্মদ ইবন আবদুল্লাহ থেকে, আলী ইবন হাসসান থেকে, আবদুর রহমান ইবন কাথীর থেকে, আবু আবদুল্লাহ عليه السلام থেকে, এই উক্তি সম্পর্কে:",
-              "de": "Al-Ḥusayn ibn Muḥammad, von Muʿallā ibn Muḥammad, von Muḥammad ibn Awrama und Muḥammad ibn ʿAbd Allāh, von ʿAlī ibn Ḥassān, von ʿAbd al-Raḥmān ibn Kathīr, von Abū ʿAbd Allāh عليه السلام, über das Wort von",
-              "en": "Al-Ḥusayn ibn Muḥammad, from Muʿallā ibn Muḥammad, from Muḥammad ibn Awrama and Muḥammad ibn ʿAbd Allāh, from ʿAlī ibn Ḥassān, from ʿAbd al-Raḥmān ibn Kathīr, from Abū ʿAbd Allāh عليه السلام, concerning the saying of",
-              "es": "Al-Ḥusayn ibn Muḥammad, de Muʿallā ibn Muḥammad, de Muḥammad ibn Awrama y Muḥammad ibn ʿAbd Allāh, de ʿAlī ibn Ḥassān, de ʿAbd al-Raḥmān ibn Kathīr, de Abū ʿAbd Allāh عليه السلام, acerca de la palabra de",
-              "fa": "الحسین بن محمد، از معلی بن محمد، از محمد بن اورمه و محمد بن عبدالله، از علی بن حسان، از عبدالرحمن بن کثیر، از ابوعبدالله علیه السلام، درباره این سخن:",
-              "fr": "Al-Ḥusayn ibn Muḥammad, de Muʿallā ibn Muḥammad, de Muḥammad ibn Awrama et Muḥammad ibn ʿAbd Allāh, de ʿAlī ibn Ḥassān, de ʿAbd al-Raḥmān ibn Kathīr, d’Abū ʿAbd Allāh عليه السلام, au sujet de la parole de",
-              "id": "Al-Husayn ibn Muhammad, dari Muʿallā ibn Muhammad, dari Muhammad ibn Awrama dan Muhammad ibn ʿAbd Allah, dari ʿAli ibn Ḥassān, dari ʿAbd al-Raḥmān ibn Kathīr, dari Abu ʿAbd Allah عليه السلام, tentang firman",
-              "ru": "Аль-Хусайн ибн Мухаммад, от Муʿаллы ибн Мухаммада, от Мухаммада ибн Аврамы и Мухаммада ибн ʿАбд Аллаха, от ʿАли ибн Хассана, от ʿАбд ар-Рахмана ибн Касира, от Абу ʿАбд Аллаха عليه السلام, относительно слов",
-              "tr": "el-Hüseyin ibn Muhammed, Muallâ ibn Muhammed’den, Muhammed ibn Avrama ve Muhammed ibn Abdullah’tan, Ali ibn Hassân’dan, Abdurrahman ibn Kesîr’den, Ebu Abdullah عليه السلام’dan, şu söz hakkında:",
-              "ur": "الحسین بن محمد، معلیٰ بن محمد سے، محمد بن اورمہ اور محمد بن عبد اللہ سے، علی بن حسان سے، عبد الرحمن بن کثیر سے، ابو عبد اللہ علیہ السلام سے روایت ہے، اس قول کے بارے میں",
-              "zh": "Al-ḤusaynibnMuḥammad，传自MuʿallāibnMuḥammad，传自MuḥammadibnAwrama和MuḥammadibnʿAbdAllāh，传自ʿAlīibnḤassān，传自ʿAbdal-RaḥmānbnKathīr，传自AbūʿAbdAllāh عليه السلام，关于这句话："
-            },
             "word_end": 32,
             "word_start": 0
           },
           {
             "arabic_text": "اللَّهِ تَعَالَى وَاعْلَمُوا أَنَّمَا غَنِمْتُمْ مِنْ شَيْءٍ فَأَنَّ لِلَّهِ خُمُسَهُ وَلِلرَّسُولِ وَلِذِي الْقُرْبَى",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "আল্লাহ, মহান ও উচ্চ: “আর জেনে রাখো, তোমরা যা কিছু গনীমত হিসেবে লাভ করো, তবে তার এক-পঞ্চমাংশ আল্লাহর জন্য, এবং রাসূলের জন্য, এবং নিকটাত্মীয়দের জন্য।”",
-              "de": "Allah, der Erhabene: „Und wisst, dass von allem, was ihr an Beute erlangt, ein Fünftel Allah, dem Gesandten und den nahen Verwandten zusteht.“",
-              "en": "Allah, the Exalted: “And know that whatever you gain of anything, then for Allah is its khums, and for the Messenger, and for the near of kin.”",
-              "es": "Allah, el Exaltado: “Y sabed que de todo lo que obtengáis como botín, una quinta parte pertenece a Allah, al Mensajero y a los parientes cercanos.”",
-              "fa": "خداوندِ متعال: «و بدانید که هر چه از چیزی به غنیمت به دست آورید، پس یک‌پنجم آن برای خدا، و برای پیامبر، و برای خویشاوندان نزدیک است.»",
-              "fr": "Allah, le Très-Haut : « Et sachez que de tout ce que vous obtenez comme butin, le cinquième appartient à Allah, au Messager et aux proches parents. »",
-              "id": "Allah, Yang Mahatinggi: “Dan ketahuilah bahwa apa pun yang kamu peroleh dari sesuatu, maka sesungguhnya seperlimanya adalah untuk Allah, untuk Rasul, dan untuk kerabat dekat.”",
-              "ru": "Аллах, Возвышенный: «И знайте, что из всего, что вы приобретаете как трофей, одна пятая принадлежит Аллаху, Посланнику и близким родственникам».",
-              "tr": "Yüce Allah: “Ve bilin ki, ganimet olarak elde ettiğiniz herhangi bir şeyin beşte biri Allah’a, Resul’e ve yakın akrabaya aittir.”",
-              "ur": "اللہ، بلند و برتر: “اور جان لو کہ جو کچھ بھی تم غنیمت میں حاصل کرو، تو بے شک اس کا خمس اللہ کے لیے ہے، اور رسول کے لیے، اور قرابت داروں کے لیے۔”",
-              "zh": "真主，至高无上者：“你们要知道，你们所获得的任何战利品，其中的五分之一归真主、使者和近亲。”"
-            },
             "word_end": 45,
             "word_start": 32
           },
           {
             "arabic_text": "قَالَ أَمِيرُ الْمُؤْمِنِينَ وَالْأَئِمَّةُ عَلَيْهِمُ السَّلَامُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: “আমীরুল মুমিনীন এবং ইমামগণ عليهم السلام।”",
-              "de": "Er sagte: „Amīr al-Muʾminīn und die Imame عليهم السلام.“",
-              "en": "He said: “Amīr al-Muʾminīn and the Imams عليهم السلام.”",
-              "es": "Dijo: “Amīr al-Muʾminīn y los Imames عليهم السلام.”",
-              "fa": "فرمود: «امیرالمؤمنین و امامان علیهم السلام.»",
-              "fr": "Il dit : « Amīr al-Muʾminīn et les Imams عليهم السلام. »",
-              "id": "Beliau bersabda: “Amīr al-Muʾminīn dan para Imam عليهم السلام.”",
-              "ru": "Он сказал: «Амир аль-му’минин и имамы عليهم السلام».",
-              "tr": "Buyurdu ki: “Emîrü’l-Mü’minîn ve İmamlar عليهم السلام.”",
-              "ur": "انہوں نے فرمایا: “امیر المؤمنین اور ائمہ علیہم السلام۔”",
-              "zh": "他说：“Amīral-Muʾminīn和诸伊玛目 عليهم السلام。”"
-            },
             "word_end": 51,
             "word_start": 45
           }
@@ -164,26 +138,14 @@
             "phrase_en": "Peace be upon them"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَمِيرُ الْمُؤْمِنِينَ": "the title of Imam ʿAlī عليه السلام",
-            "الْأَئِمَّةُ": "the Imams عليهم السلام",
-            "خُمُسَهُ": "its one-fifth share designated by Allah",
-            "غَنِمْتُمْ": "what you gained or acquired",
-            "لِذِي الْقُرْبَى": "for the near relatives, interpreted here as the divinely designated kin",
-            "لِلرَّسُولِ": "belonging to the Messenger صلى الله عليه وآله وسلم"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "غَنِمْتُمْ",
+          "خُمُسَهُ",
+          "لِلرَّسُولِ",
+          "لِذِي الْقُرْبَى",
+          "أَمِيرُ الْمُؤْمِنِينَ",
+          "الْأَئِمَّةُ"
+        ],
         "related_quran": [
           {
             "ref": "8:41",
@@ -202,32 +164,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম জাফর আস-সাদিক عليه السلام-এর মতে খুমসের আয়াতে “নিকটাত্মীয়” কারা?",
-          "de": "Wer sind nach Imam Jaʿfar al-Ṣādiq عليه السلام „die nahen Verwandten“ im Khums-Vers?",
-          "en": "Who are “the near of kin” in the khums verse according to Imam Jaʿfar al-Ṣādiq عليه السلام?",
-          "es": "Según el Imam Yaʿfar al-Ṣādiq عليه السلام, ¿quiénes son “los parientes cercanos” en el versículo del khums?",
-          "fa": "به‌گفته امام جعفر صادق علیه السلام، «خویشاوندان نزدیک» در آیه خمس چه کسانی هستند؟",
-          "fr": "Selon l’imam Jaʿfar al-Ṣādiq عليه السلام, qui sont « les proches parents » dans le verset du khums ?",
-          "id": "Menurut Imam Jaʿfar al-Ṣādiq عليه السلام, siapakah “kerabat dekat” dalam ayat khums?",
-          "ru": "Кто такие «близкие родственники» в аяте о хумсе, согласно имаму Джафару ас-Садику عليه السلام?",
-          "tr": "İmam Cafer es-Sâdık عليه السلام’a göre hums ayetindeki “yakın akraba” kimlerdir?",
-          "ur": "امام جعفر الصادق علیہ السلام کے مطابق خمس کی آیت میں “قرابت دار” سے مراد کون ہیں؟",
-          "zh": "根据伊玛目Jaʿfaral-Ṣādiq عليه السلام，“khums”经文中的“近亲”指的是谁？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনাটি কুরআনের “এবং নিকটাত্মীয়দের জন্য” বাক্যাংশকে আমীরুল মুমিনীন عليه السلام এবং ইমামগণ عليهم السلام-এর প্রতি নির্দেশ করে ব্যাখ্যা করে। এটি আয়াতটিকে খুমস সম্পর্কিত ঐশী বিধানে আহলুল বাইত عليهم السلام-এর নির্ধারিত মর্যাদা ও অধিকার-এর প্রমাণ হিসেবে উপস্থাপন করে।",
-          "de": "Diese Überlieferung deutet den koranischen Ausdruck „und für die nahen Verwandten“ als Hinweis auf Amīr al-Muʾminīn عليه السلام und die Imame عليهم السلام. Sie stellt den Vers als Beleg für den festgelegten Rang und Anspruch der Ahl al-Bayt عليهم السلام innerhalb der göttlichen Regelung des Khums dar.",
-          "en": "This narration interprets the Quranic phrase “and for the near of kin” as referring to Amīr al-Muʾminīn عليه السلام and the Imams عليهم السلام. It presents the verse as evidence for the designated status and entitlement of the Ahl al-Bayt عليهم السلام within the divine ordinance of khums.",
-          "es": "Esta narración interpreta la expresión coránica “y para los parientes cercanos” como una referencia a Amīr al-Muʾminīn عليه السلام y a los Imames عليهم السلام. Presenta el versículo como prueba del estatus y del derecho asignados a la Ahl al-Bayt عليهم السلام dentro de la disposición divina del khums.",
-          "fa": "این روایت عبارت قرآنی «و برای خویشاوندان نزدیک» را به امیرالمؤمنین علیه السلام و امامان علیهم السلام تفسیر می‌کند. این آیه را به عنوان دلیلی بر جایگاه و استحقاق تعیین‌شده اهل‌بیت علیهم السلام در حکم الهیِ خمس ارائه می‌کند.",
-          "fr": "Ce récit interprète l’expression coranique « et pour les proches parents » comme désignant Amīr al-Muʾminīn عليه السلام et les Imams عليهم السلام. Il présente le verset comme une preuve du rang et du droit assignés à l’Ahl al-Bayt عليهم السلام dans la prescription divine du khums.",
-          "id": "Riwayat ini menafsirkan frasa Al-Qur’an “dan untuk kerabat dekat” sebagai merujuk kepada Amīr al-Muʾminīn عليه السلام dan para Imam عليهم السلام. Riwayat ini menampilkan ayat tersebut sebagai bukti bagi kedudukan dan hak yang ditetapkan bagi Ahl al-Bayt عليهم السلام dalam ketentuan ilahi tentang khums.",
-          "ru": "Этот хадис толкует кораническую фразу «и для близких родственников» как указание на Амир аль-му’минин عليه السلام и имамов عليهم السلام. Он представляет аят как доказательство установленного положения и права Ахль аль-Байт عليهم السلام в божественном предписании о хумсе.",
-          "tr": "Bu rivayet, Kur’an’daki “ve yakın akrabaya” ifadesini Emîrü’l-Mü’minîn عليه السلام ve İmamlar عليهم السلام olarak yorumlar. Ayeti, hums ile ilgili ilahî hüküm içinde Ehl-i Beyt عليهم السلام’ın belirlenmiş makamı ve hakkı için delil olarak sunar.",
-          "ur": "یہ روایت قرآنی عبارت “اور قرابت داروں کے لیے” کی تفسیر امیر المؤمنین علیہ السلام اور ائمہ علیہم السلام کے طور پر کرتی ہے۔ یہ آیت کو خمس کے الٰہی حکم میں اہل بیت علیہم السلام کے مقررہ مقام اور حق کی دلیل کے طور پر پیش کرتی ہے۔",
-          "zh": "这段传述将《古兰经》中“以及近亲”这一表述解释为指向Amīral-Muʾminīn عليه السلام和诸伊玛目 عليهم السلام。它把这节经文呈现为证据，说明在关于khums的神圣规定中，Ahlal-Bayt عليهم السلام享有被指定的地位和权利。"
-        },
         "tags": [
           "quran_commentary",
           "theology",

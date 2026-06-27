@@ -14,6 +14,135 @@
       "up": "/books/al-kafi:5:2:74"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ عَنْ صَفْوَانَ بْنِ يَحْيَى عَنْ إِسْحَاقَ بْنِ عَمَّارٍ عَنْ أَبِي الْعُطَارِدِ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 19,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قُلْتُ لِأَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) أَشْتَرِي الطَّعَامَ فَأَضَعُ فِي أَوَّلِهِ وَ أَرْبَحُ فِي آخِرِهِ فَأَسْأَلُ صَاحِبِي أَنْ يَحُطَّ عَنِّي فِي كُلِّ كُرٍّ كَذَا وَ كَذَا فَقَالَ هَذَا لَا خَيْرَ فِيهِ وَ لَكِنْ يَحُطُّ عَنْكَ جُمْلَةً قُلْتُ فَإِنْ حَطَّ عَنِّي أَكْثَرَ مِمَّا وَضَعْتُ قَالَ لَا بَأْسَ بِهِ قُلْتُ فَأُخْرِجُ الْكُرَّ وَ الْكُرَّيْنِ فَيَقُولُ الرَّجُلُ أَعْطِنِيهِ بِكَيْلِكَ فَقَالَ إِذَا ائْتَمَنَكَ فَلَيْسَ بِهِ بَأْسٌ",
+            "chunk_type": "body",
+            "word_end": 83,
+            "word_start": 19
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 29,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ الْحُسَيْنِ",
+              "name_en": "Muhammad ibn al-Husayn",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 30,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "صَفْوَانَ بْنِ يَحْيَى",
+              "name_en": "Safwan ibn Yahya",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 44,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "إِسْحَاقَ بْنِ عَمَّارٍ",
+              "name_en": "Is'haq ibn Ammar",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1998,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي الْعُطَارِدِ",
+              "name_en": "Abu al-Atarid",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "طعام",
+          "كُرّ",
+          "يَحُطّ",
+          "جُمْلَةً",
+          "بِكَيْلِكَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:282",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "61:9",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:188",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "economy",
+          "ethics"
+        ],
+        "topics": [
+          "trade_ethics",
+          "financial_law",
+          "halal_haram"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (9/181)"
       ],
@@ -85,7 +214,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:2:74:6",

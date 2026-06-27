@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَ الْفُضَيْلُ بْنُ يَسَارٍ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-ফুদাইল ইবনে ইয়াসার আবা আবদিল্লাহ عليه السلام-কে জিজ্ঞাসা করলেন:",
-              "de": "Al-Fuḍayl ibn Yasār fragte Abā ʿAbdillāh عليه السلام:",
-              "en": "Al-Fuḍayl ibn Yasār asked Abā ʿAbdillāh عليه السلام:",
-              "es": "Al-Fuḍayl ibn Yasār preguntó a Abā ʿAbdillāh عليه السلام:",
-              "fa": "الفضیل بن یسار از ابا عبدالله علیه السلام پرسید:",
-              "fr": "Al-Fuḍayl ibn Yasār a demandé à Abā ʿAbdillāh عليه السلام :",
-              "id": "Al-Fuḍayl ibn Yasār bertanya kepada Abā ʿAbdillāh علیه السلام:",
-              "ru": "Аль-Фудайл ибн Ясар спросил у Аба Абдиллаха عليه السلام:",
-              "tr": "El-Fudayl ibn Yasār, Ebu Abdillah'a (aleyhisselam) sordu:",
-              "ur": "الفضیل ابن یسار نے ابا عبداللہ علیہ السلام سے پوچھا:",
-              "zh": "الفُضَيلابنيسار问أباعبداللهعليهالسلام："
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "عَنْ رَجُلٍ صَلَّى مَعَ إِمَامٍ يَأْتَمُّ بِهِ ثُمَّ رَفَعَ رَأْسَهُ مِنَ السُّجُودِ قَبْلَ أَنْ يَرْفَعَ الْإِمَامُ رَأْسَهُ مِنَ السُّجُودِ قَالَ «فَلْيَسْجُدْ»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন ব্যক্তির সম্পর্কে যিনি এমন এক ইমামের সাথে সালাত পড়েছিলেন যাকে তিনি অনুসরণ করছিলেন, তারপর ইমাম সিজদা থেকে মাথা তুলার আগে তিনি সিজদা থেকে মাথা তুললেন। তিনি বললেন: \"তাহলে তাকে সিজদা করতে হবে।\"",
-              "de": "Über einen Mann, der mit einem Imam betete, dem er folgte, dann seinen Kopf vom Sajdah hob, bevor der Imam seinen Kopf vom Sajdah hob. Er sagte: „Dann soll er Sajdah machen.“",
-              "en": "About a man who prayed with an Imam whom he was following, then raised his head from sajdah before the Imam raised his head from sajdah. He said: “Then let him perform sajdah.”",
-              "es": "Sobre un hombre que rezó con un Imam a quien seguía, luego levantó su cabeza del sajdah antes de que el Imam levantara la suya. Él dijo: “Entonces que haga sajdah.”",
-              "fa": "درباره مردی که با امامی که از او پیروی می‌کرد نماز خواند، سپس قبل از اینکه امام سر خود را از سجده بلند کند، سر خود را از سجده بلند کرد. فرمود: «پس باید سجده کند.»",
-              "fr": "À propos d’un homme qui priait avec un Imam qu’il suivait, puis a levé la tête du sajdah avant que l’Imam ne lève la sienne. Il a dit : « Qu’il fasse alors le sajdah. »",
-              "id": "Tentang seorang pria yang shalat bersama seorang Imam yang diikutinya, kemudian dia mengangkat kepalanya dari sajdah sebelum Imam mengangkat kepalanya dari sajdah. Beliau berkata: “Maka hendaklah dia sujud kembali.”",
-              "ru": "О человеке, который молился с Имамом, за которым следовал, затем поднял голову из сужда до того, как Имам поднял голову из сужда. Он сказал: «Пусть он совершит сужда.»",
-              "tr": "Bir adam hakkında, arkasından gittiği bir İmam ile namaz kıldı, sonra İmam secdeden başını kaldırmadan önce kendi başını secdeden kaldırdı. Dedi ki: “O zaman secdeye devam etsin.”",
-              "ur": "ایک شخص کے بارے میں جو امام کے ساتھ نماز پڑھ رہا تھا جس کی پیروی کر رہا تھا، پھر امام کے سجدے سے سر اٹھانے سے پہلے ہی سجدے سے اپنا سر اٹھا لیا۔ انہوں نے فرمایا: \"پھر اسے سجدہ کرنا چاہیے۔\"",
-              "zh": "关于一个人与他所跟随的伊玛目一起祈祷，然后在伊玛目从苏朱德抬头之前自己先抬头。他说：“那就让他做苏朱德。”"
-            },
             "word_end": 30,
             "word_start": 9
           }
@@ -92,25 +79,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِمَامٍ": "the prayer leader being followed in congregational salat",
-            "السُّجُودِ": "the act of prostration in salat",
-            "رَأْسَهُ": "his head, referring to lifting it from prostration",
-            "فَلْيَسْجُدْ": "let him perform sajdah again",
-            "يَأْتَمُّ": "follows in prayer behind the Imam"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "إِمَامٍ",
+          "يَأْتَمُّ",
+          "السُّجُودِ",
+          "رَأْسَهُ",
+          "فَلْيَسْجُدْ"
+        ],
         "related_quran": [
           {
             "ref": "4:59",
@@ -121,32 +96,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি একজন অনুসারী জামাতের সালাতে ইমামের আগে সিজদা থেকে মাথা তুলে ফেলে, তাহলে তাকে কী করা উচিত?",
-          "de": "Was soll ein Nachfolger tun, wenn er im Gemeinschaftsgebet seinen Kopf vor dem Imam vom Sajdah hebt?",
-          "en": "What should a follower do if he raises his head from sajdah before the Imam in congregational salat?",
-          "es": "¿Qué debe hacer un seguidor si levanta la cabeza del sajdah antes que el Imam en la salat congregacional?",
-          "fa": "اگر پیروکار قبل از امام از سجده سر خود را بلند کند، چه باید بکند؟",
-          "fr": "Que doit faire un suiveur s’il lève la tête du sajdah avant l’Imam dans la salat en congrégation ?",
-          "id": "Apa yang harus dilakukan seorang pengikut jika dia mengangkat kepala dari sajdah sebelum Imam dalam salat berjamaah?",
-          "ru": "Что должен делать последователm, если он поднял голову из сужда раньше Имама в коллективной молитве?",
-          "tr": "Bir takipçi cemaat namazında imamdan önce secdeden başını kaldırırsa ne yapmalıdır?",
-          "ur": "اگر کوئی پیروکار امام سے پہلے سجدہ سے سر اٹھا لے تو اسے کیا کرنا چاہیے؟",
-          "zh": "如果跟随者在集体礼拜中比伊玛目先抬头，他应该怎么办？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি এমন একজন ব্যক্তির জন্য আইনগত সিদ্ধান্ত দেয় যিনি জামাতের সাথে সালাত পড়ছেন এবং ইমামের আগে সিজদা থেকে মাথা তুলেছেন। ইমাম عليه السلام তাকে সিজদায় ফিরে যাওয়ার নির্দেশ দেন, জামাতের সালাতে ইমামের সঠিক অনুসরণের গুরুত্ব জোর দেন।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung für jemanden, der im Gebet in der Gemeinschaft seinen Kopf vor dem Imam vom Sajdah hebt. Der Imam عليه السلام weist ihn an, zum Sajdah zurückzukehren und betont die richtige Nachfolge des Imams im Gemeinschaftsgebet.",
-          "en": "This hadith gives a legal ruling for one praying in congregation who raises his head from sajdah before the Imam. The Imam عليه السلام instructs him to return to sajdah, emphasizing proper following of the Imam in congregational salat.",
-          "es": "Este hadiz da un fallo legal para quien reza en congregación y levanta la cabeza del sajdah antes que el Imam. El Imam عليه السلام le indica que regrese al sajdah, enfatizando el seguimiento correcto del Imam en la salat congregacional.",
-          "fa": "این حدیث حکم شرعی برای کسی که در جماعت نماز می‌خواند و قبل از امام از سجده سر خود را بلند می‌کند، بیان می‌کند. امام علیه السلام به او دستور می‌دهد که به سجده بازگردد و بر پیروی صحیح از امام در نماز جماعت تأکید می‌کند.",
-          "fr": "Ce hadith donne une règle juridique pour celui qui prie en congrégation et lève la tête du sajdah avant l’Imam. L’Imam عليه السلام lui ordonne de retourner au sajdah, insistant sur le suivi correct de l’Imam dans la salat en congrégation.",
-          "id": "Hadis ini memberikan hukum bagi orang yang shalat berjamaah dan mengangkat kepalanya dari sajdah sebelum Imam. Imam علیه السلام memerintahkan dia untuk kembali sujud, menekankan pentingnya mengikuti Imam dengan benar dalam salat berjamaah.",
-          "ru": "Этот хадис даёт правовое постановление для молящегося в джамаате, который поднял голову из сужда раньше Имама. Имам عليه السلام приказывает ему вернуться в сужда, подчеркивая правильное следование за Имамом в коллективной молитве.",
-          "tr": "Bu hadis, cemaatle namaz kılan ve imamdan önce secdeden başını kaldıran kişi için hukuki hüküm verir. İmam علیه السلام ona secdeye dönmesini emreder, cemaat namazında imamın doğru takibini vurgular.",
-          "ur": "یہ حدیث جماعت میں نماز پڑھنے والے کے لیے قانونی حکم دیتی ہے جو امام سے پہلے سجدہ سے سر اٹھا لے۔ امام علیہ السلام اسے سجدہ میں واپس جانے کی ہدایت دیتے ہیں تاکہ جماعت کی نماز میں امام کی صحیح پیروی ہو۔",
-          "zh": "此圣训为在集体礼拜中比伊玛目先抬头的人提供法律判决。伊玛目 عليه السلام 指示他返回苏朱德，强调在集体礼拜中正确跟随伊玛目的重要性。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

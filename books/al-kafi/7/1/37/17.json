@@ -14,6 +14,123 @@
       "up": "/books/al-kafi:7:1:37"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ عَمَّارِ بْنِ مَرْوَانَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 14,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قُلْتُ لِأَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) إِنَّ أَبِي حَضَرَهُ الْمَوْتُ فَقِيلَ لَهُ أَوْصِ فَقَالَ هَذَا ابْنِي يَعْنِي عُمَرَ فَمَا صَنَعَ فَهُوَ جَائِزٌ فَقَالَ لَهُ أَبُو عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) فَقَدْ أَوْصَى أَبُوكَ وَ أَوْجَزَ قُلْتُ فَإِنَّهُ أَمَرَ لَكَ بِكَذَا وَ كَذَا فَقَالَ أَجْرِهِ قُلْتُ وَ أَوْصَى بِنَسَمَةٍ مُؤْمِنَةٍ عَارِفَةٍ فَلَمَّا أَعْتَقْنَاهُ بَانَ لَنَا أَنَّهُ لِغَيْرِ رِشْدَةٍ فَقَالَ قَدْ أَجْزَأَتْ عَنْهُ إِنَّمَا مَثَلُ ذَلِكَ مَثَلُ رَبٍّ اشْتَرَى أُضْحِيَّةً عَلَى أَنَّهَا سَمِينَةٌ فَوَجَدَهَا مَهْزُولَةً فَقَدْ أَجْزَأَتْ عَنْهُ",
+            "chunk_type": "body",
+            "word_end": 93,
+            "word_start": 14
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 7,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ أَبِي عُمَيْرٍ",
+              "name_en": "Ibn Abi Umayr",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 238,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَمَّارِ بْنِ مَرْوَانَ",
+              "name_en": "Ammar b. Marwan",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "أَوْصِ",
+          "أَوْجَزَ",
+          "نَسَمَةٍ",
+          "عَارِفَةٍ",
+          "رِشْدَةٍ",
+          "أُضْحِيَّةً",
+          "مَهْزُولَةً"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:282",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:180",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family",
+          "social_relations"
+        ],
+        "topics": [
+          "inheritance",
+          "financial_law",
+          "imams_biography"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> حسن  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (3/100)"
       ],
@@ -76,7 +193,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:7:1:37:17",

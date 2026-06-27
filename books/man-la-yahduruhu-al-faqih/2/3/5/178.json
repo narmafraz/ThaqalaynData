@@ -17,156 +17,65 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ مَنْ صَلَّى بِمَكَّةَ سَبْعِينَ رَكْعَةً",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আর যিনি মক্কায় সত্তর রাকাত নামাজ পড়েন,",
-              "de": "Und wer siebzig Rakʿahs in Mekka verrichtet,",
-              "en": "And whoever performs seventy rakʿahs in Makkah,",
-              "es": "Y quien realice setenta rakʿahs en La Meca,",
-              "fa": "و هر کس در مکه هفتاد رکعت نماز بخواند،",
-              "fr": "Et quiconque accomplit soixante-dix rakʿahs à La Mecque,",
-              "id": "Dan siapa saja yang melaksanakan tujuh puluh rakaat di Makkah,",
-              "ru": "И кто совершит семьдесят ракаатов в Мекке,",
-              "tr": "Ve kim Mekkede yetmiş rekât kılarsa,",
-              "ur": "اور جو کوئی مکہ میں ستر رکعتیں ادا کرے،",
-              "zh": "凡在麦加礼拜七十拜者，"
-            },
             "word_end": 6,
             "word_start": 0
           },
           {
             "arabic_text": "فَقَرَأَ فِي كُلِّ رَكْعَةٍ بِـ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এবং প্রতিটি রাকাতে পাঠ করে",
-              "de": "und in jeder Rakʿah rezitiert",
-              "en": "and recites in every rakʿah",
-              "es": "y recite en cada rakʿah",
-              "fa": "و در هر رکعت بخواند",
-              "fr": "et récite dans chaque rakʿah",
-              "id": "dan membaca dalam setiap rakaat",
-              "ru": "и читает в каждой ракаате",
-              "tr": "ve her rekâtta okusun",
-              "ur": "اور ہر رکعت میں تلاوت کرے",
-              "zh": "并在每拜中诵读"
-            },
             "word_end": 11,
             "word_start": 6
           },
           {
             "arabic_text": "«قُلْ هُوَ اللَّهُ أَحَدٌ»",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "বলুন: وہ اللہ ہے، یکتا۔",
-              "de": "\"Sprich: Er ist Allah, der Einzige.\"",
-              "en": "\"Say: He is Allah, the One.\"",
-              "es": "\"Di: Él es Allah, el Único.\"",
-              "fa": "بگو: اوست الله، یگانه.",
-              "fr": "\"Dis : Il est Allah, l'Unique.\"",
-              "id": "Katakan: Dia adalah Allah, Yang Esa.",
-              "ru": "\"Скажи: Он — Аллах, Единственный.\"",
-              "tr": "De ki: O Allah'tır, biriciktir.",
-              "ur": "کہہ دو: وہ اللہ ہے، یکتا۔",
-              "zh": "说：他是安拉，独一无二。"
-            },
             "word_end": 15,
             "word_start": 11
           },
           {
             "arabic_text": "وَ إِنَّا أَنْزَلْنَاهُ وَ آيَةِ السُّخْرَةِ وَ آيَةِ الْكُرْسِيِّ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এবং 'নিশ্চয় আমরা এটি নাজিল করেছি', এবং تسخیر এর আয়াত, এবং آیت الکرسی,",
-              "de": "und „Wahrlich, Wir haben es herabgesandt“ und der Vers der Unterwerfung sowie Ayat al-Kursi,",
-              "en": "and \"Indeed, We sent it down,\" and the Verse of Subjugation, and Ayat al-Kursi,",
-              "es": "y \"En verdad, Nosotros lo hicimos descender,\" y el Verso de la Subyugación, y Ayat al-Kursi,",
-              "fa": "و «به راستی ما آن را نازل کردیم» و آیه تسخیر و آیه الکرسی،",
-              "fr": "et «En vérité, Nous l'avons fait descendre», ainsi que le Verset de la Soumission et Ayat al-Kursi,",
-              "id": "dan \"Sesungguhnya Kami menurunkannya,\" serta Ayat Penaklukan dan Ayat al-Kursi,",
-              "ru": "и «Воистину, Мы ниспослали его», и Аят Подчинения, и Аят аль-Курси,",
-              "tr": "ve 'Şüphesiz biz onu indirdik' ve Teslimiyet Ayeti ile Kürsi Ayetini,",
-              "ur": "اور 'بے شک ہم نے اسے نازل کیا'، اور آیتِ تسخیر، اور آیت الکرسی،",
-              "zh": "以及“确实我们降示了它”，以及顺服之迹和库尔西经文，"
-            },
             "word_end": 24,
             "word_start": 15
           },
           {
             "arabic_text": "لَمْ يَمُتْ إِلَّا شَهِيدًا",
             "chunk_type": "body",
-            "translations": {
-              "bn": "সে ছাড়া মরণ করবে না শাহীদ হিসেবে।",
-              "de": "Er wird nicht sterben außer als Märtyrer.",
-              "en": "he will not die except as a martyr.",
-              "es": "No morirá excepto como mártir.",
-              "fa": "او جز به عنوان شهید نمی‌میرد.",
-              "fr": "Il ne mourra que comme martyr.",
-              "id": "Dia tidak akan mati kecuali sebagai syahid.",
-              "ru": "Он не умрет, кроме как мучеником.",
-              "tr": "O, ancak şehit olarak ölür.",
-              "ur": "وہ شہید کے سوا نہیں مرے گا۔",
-              "zh": "他除非作为烈士否则不会死。"
-            },
             "word_end": 28,
             "word_start": 24
           },
           {
             "arabic_text": "وَ الطَّاعِمُ بِمَكَّةَ كَالصَّائِمِ فِيمَا سِوَاهَا",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এবং মক্কায় খাওয়ানো অন্যত্র রোযার সমান।",
-              "de": "Und das Speisen in Mekka ist wie das Fasten anderswo.",
-              "en": "And feeding in Makkah is like fasting elsewhere.",
-              "es": "Y alimentar en La Meca es como ayunar en otro lugar.",
-              "fa": "و غذا دادن در مکه مانند روزه گرفتن در جای دیگر است.",
-              "fr": "Et nourrir à La Mecque est comme jeûner ailleurs.",
-              "id": "Dan memberi makan di Makkah seperti berpuasa di tempat lain.",
-              "ru": "А кормление в Мекке подобно посту в другом месте.",
-              "tr": "Ve Mekke'de yedirmek, başka yerlerde oruç tutmak gibidir.",
-              "ur": "اور مکہ میں کھلانا ویسا ہی ہے جیسے کہیں اور روزہ رکھنا۔",
-              "zh": "在麦加喂食如同在别处斋戒。"
-            },
             "word_end": 34,
             "word_start": 28
           },
           {
             "arabic_text": "وَ صِيَامُ يَوْمٍ بِمَكَّةَ يَعْدِلُ صِيَامَ سَنَةٍ فِيمَا سِوَاهَا",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এবং মক্কায় একদিনের রোযা অন্যত্র এক বছরের রোযার সমান।",
-              "de": "Und einen Tag in Mekka zu fasten entspricht einem Jahr Fasten anderswo.",
-              "en": "And fasting one day in Makkah equals fasting a year elsewhere.",
-              "es": "Y ayunar un día en La Meca equivale a ayunar un año en otro lugar.",
-              "fa": "و روزه گرفتن یک روز در مکه برابر با روزه گرفتن یک سال در جای دیگر است.",
-              "fr": "Et jeûner un jour à La Mecque équivaut à jeûner une année ailleurs.",
-              "id": "Dan berpuasa satu hari di Makkah sama dengan berpuasa setahun di tempat lain.",
-              "ru": "А пост на один день в Мекке равен посту в течение года в другом месте.",
-              "tr": "Ve Mekke'de bir gün oruç tutmak, başka yerlerde bir yıl oruç tutmaya eşittir.",
-              "ur": "اور مکہ میں ایک دن کا روزہ دوسرے مقامات پر ایک سال کے روزے کے برابر ہے۔",
-              "zh": "在麦加禁食一天等同于在别处禁食一年。"
-            },
             "word_end": 43,
             "word_start": 34
           },
           {
             "arabic_text": "وَ الْمَاشِي، بِمَكَّةَ فِي عِبَادَةِ اللَّهِ عَزَّ وَ جَلَّ",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "এবং মক্কায় হাঁটা আল্লাহর ইবাদত, যিনি গর্বিত ও মহিমান্বিত।",
-              "de": "Und das Gehen in Mekka ist im Dienst Allahs, des Allmächtigen und Erhabenen.",
-              "en": "And walking in Makkah is in the worship of Allah, Mighty and Majestic.",
-              "es": "Y caminar en La Meca es en la adoración de Allah, el Poderoso y Majestuoso.",
-              "fa": "و راه رفتن در مکه در عبادت خداوند عزّوجل است.",
-              "fr": "Et marcher à La Mecque est dans l'adoration d'Allah, le Tout-Puissant et Majestueux.",
-              "id": "Dan berjalan di Makkah adalah dalam ibadah kepada Allah Yang Maha Perkasa dan Maha Agung.",
-              "ru": "А ходьба в Мекке — это поклонение Аллаху, Всемогущему и Великому.",
-              "tr": "Ve Mekke'de yürümek, Allah'ın, Azîz ve Celîl olan, ibadetidir.",
-              "ur": "اور مکہ میں چلنا اللہ تعالیٰ کی عبادت ہے، جو عزت والا اور جلیل ہے۔",
-              "zh": "在麦加行走是在崇拜全能尊贵的安拉。"
-            },
             "word_end": 52,
             "word_start": 43
           }
@@ -205,28 +114,16 @@
             "phrase_en": "Verse of the Throne"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "آيَةِ الْكُرْسِيِّ": "Ayat al-Kursi, a Qur'anic verse of great virtue",
-            "إِنَّا أَنْزَلْنَاهُ": "Surat al-Qadr, recited here as part of the devotional act",
-            "بِمَكَّةَ": "in Makkah, the sacred sanctuary where acts of worship are greatly multiplied",
-            "سَبْعِينَ رَكْعَةً": "seventy rakʿahs of prayer",
-            "شَهِيدًا": "a martyr, indicating an honored manner of death",
-            "صِيَامُ يَوْمٍ": "fasting one day",
-            "عِبَادَةِ اللَّهِ": "worship of Allah",
-            "قُلْ هُوَ اللَّهُ أَحَدٌ": "Surat al-Ikhlas, affirming tawhid"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "بِمَكَّةَ",
+          "سَبْعِينَ رَكْعَةً",
+          "قُلْ هُوَ اللَّهُ أَحَدٌ",
+          "إِنَّا أَنْزَلْنَاهُ",
+          "آيَةِ الْكُرْسِيِّ",
+          "شَهِيدًا",
+          "صِيَامُ يَوْمٍ",
+          "عِبَادَةِ اللَّهِ"
+        ],
         "related_quran": [
           {
             "ref": "112:1",
@@ -245,32 +142,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী মক্কায় নামাজ, রোজা এবং ইবাদতের কী فضائل আছে?",
-          "de": "Was sind laut diesem Hadith die Tugenden von Gebet, Fasten und Anbetung in Mekka?",
-          "en": "What are the virtues of prayer, fasting, and worship in Makkah according to this hadith?",
-          "es": "¿Cuáles son las virtudes de la oración, el ayuno y la adoración en La Meca según este hadiz?",
-          "fa": "بر اساس این حدیث، فضایل نماز، روزه و عبادت در مکه چیست؟",
-          "fr": "Quelles sont les vertus de la prière, du jeûne et de l'adoration à La Mecque selon ce hadith ?",
-          "id": "Menurut hadits ini, apa keutamaan salat, puasa, dan ibadah di Makkah?",
-          "ru": "Каковы достоинства молитвы, поста и поклонения в Мекке согласно этому хадису?",
-          "tr": "Bu hadise göre Mekke'de namaz, oruç ve ibadetin faziletleri nelerdir?",
-          "ur": "اس حدیث کے مطابق مکہ میں نماز، روزہ اور عبادت کے کیا فضائل ہیں؟",
-          "zh": "根据此圣训，麦加的礼拜、斋戒和崇拜有哪些美德？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস মক্কায় ইবাদতের বিশেষ فضائل বর্ণনা করে, বিশেষ করে নির্দিষ্ট কুরআনিক তেলাওয়াতসহ নামাজ, অন্যদের খাওয়ানো, রোজা রাখা এবং এমনকি সেখানে হাঁটার ইবাদত। এটি পবিত্র স্থানীয় ইবাদতে গুণগত আধ্যাত্মিক মর্যাদা এবং তাদের জন্য প্রতিশ্রুত উচ্চ পুরস্কারকে জোর দেয়।",
-          "de": "Dieser Hadith beschreibt besondere Tugenden, die mit der Anbetung in Mekka verbunden sind, insbesondere das Gebet mit bestimmten Koranrezitationen, das Speisen anderer, das Fasten und sogar das Gehen dort. Er betont den vervielfachten spirituellen Verdienst der im heiligen Heiligtum verrichteten Handlungen und die dafür versprochene hohe Belohnung.",
-          "en": "This hadith describes special virtues connected to worship in Makkah, especially prayer with specific Qur'anic recitations, feeding others, fasting, and even walking there. It emphasizes the multiplied spiritual merit of acts performed in the sacred sanctuary and the elevated reward promised for them.",
-          "es": "Este hadiz describe virtudes especiales relacionadas con la adoración en La Meca, especialmente la oración con recitaciones específicas del Corán, alimentar a otros, ayunar e incluso caminar allí. Enfatiza el mérito espiritual multiplicado de los actos realizados en el santuario sagrado y la recompensa elevada prometida para ellos.",
-          "fa": "این حدیث فضایل ویژه‌ای را که به عبادت در مکه مرتبط است، به ویژه نماز با قرائت‌های خاص قرآنی، اطعام دیگران، روزه گرفتن و حتی راه رفتن در آنجا توصیف می‌کند. بر فضیلت معنوی چندین برابر اعمال انجام شده در حرم مقدس و پاداش بلندمرتبه وعده داده شده تأکید دارد.",
-          "fr": "Ce hadith décrit des vertus particulières liées au culte à La Mecque, notamment la prière avec des récitations coraniques spécifiques, le fait de nourrir les autres, le jeûne et même la marche là-bas. Il souligne le mérite spirituel multiplié des actes accomplis dans le sanctuaire sacré et la récompense élevée qui leur est promise.",
-          "id": "Hadis ini menjelaskan keutamaan khusus yang terkait dengan ibadah di Makkah, terutama salat dengan bacaan Al-Qur'an tertentu, memberi makan orang lain, berpuasa, dan bahkan berjalan di sana. Ini menekankan pahala spiritual yang berlipat ganda dari amalan yang dilakukan di tempat suci dan ganjaran tinggi yang dijanjikan untuknya.",
-          "ru": "Этот хадис описывает особые достоинства, связанные с поклонением в Мекке, особенно молитву с определёнными кораническими чтениями, кормление других, пост и даже ходьбу там. Он подчеркивает умноженную духовную заслугу деяний, совершённых в священном святилище, и обещанную за них высокую награду.",
-          "tr": "Bu hadis, özellikle belirli Kur'an tilavetleriyle yapılan namaz, başkalarına yeme verme, oruç tutma ve hatta orada yürüme gibi ibadetlerle ilgili Mekke'deki özel faziletleri anlatır. Kutsal mekânda yapılan amellerin katlanarak artan manevi değerini ve vaat edilen yüksek mükafatı vurgular.",
-          "ur": "یہ حدیث مکہ میں عبادت کے خاص فضائل بیان کرتی ہے، خاص طور پر مخصوص قرآنی تلاوتوں کے ساتھ نماز، دوسروں کو کھلانے، روزہ رکھنے، اور یہاں تک کہ چلنے کی عبادت۔ یہ مقدس حرم میں کی جانے والی عبادات کی بڑھائی ہوئی روحانی فضیلت اور ان کے وعدہ کردہ اعلیٰ اجر کو اجاگر کرتی ہے۔",
-          "zh": "此圣训描述了与麦加崇拜相关的特殊美德，特别是带有特定古兰经诵读的礼拜、施食、斋戒，甚至在那里行走。它强调在圣地进行的行为所获得的倍增精神功德及其承诺的崇高奖赏。"
-        },
         "tags": [
           "worship",
           "jurisprudence",

@@ -21,61 +21,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ ابْنِ مَحْبُوبٍ عَنْ جَمِيلِ بْنِ صَالِحٍ عَنْ زُرَارَةَ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ فِي قَوْلِهِ تَعَالَى",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন ইয়াহইয়া, আহমদ ইবন মুহাম্মদ থেকে, ইবন মাহবুব থেকে, জামীল ইবন সালিহ থেকে, জুরারাহ থেকে, আবু জাফর عليه السلام থেকে, তাঁর, মহান ও সর্বোচ্চ, এই বাণী সম্পর্কে:",
-              "de": "Muhammad ibn Yahya, von Ahmad ibn Muhammad, von Ibn Mahbub, von Jamil ibn Salih, von Zurarah, von Abu Jaʿfar عليه السلام, über Sein, des Erhabenen, Wort:",
-              "en": "Muḥammad ibn Yaḥyā, from Aḥmad ibn Muḥammad, from Ibn Maḥbūb, from Jamīl ibn Ṣāliḥ, from Zurārah, from Abū Jaʿfar عليه السلام concerning His, the Exalted, saying:",
-              "es": "Muhammad ibn Yahya, de Ahmad ibn Muhammad, de Ibn Mahbub, de Jamil ibn Salih, de Zurarah, de Abu Yaʿfar عليه السلام, acerca de Su, el Altísimo, dicho:",
-              "fa": "محمد بن یحیی، از احمد بن محمد، از ابن محبوب، از جمیل بن صالح، از زراره، از ابوجعفر علیه السلام دربارهٔ سخن او، بلندمرتبه و والا، که فرمود:",
-              "fr": "Muhammad ibn Yahya, d’Aḥmad ibn Muhammad, d’Ibn Maḥbub, de Jamil ibn Ṣalih, de Zurarah, d’Abu Jaʿfar عليه السلام, au sujet de Sa parole, Lui, le Très-Haut :",
-              "id": "Muhammad ibn Yahya, dari Ahmad ibn Muhammad, dari Ibn Mahbub, dari Jamil ibn Salih, dari Zurarah, dari Abu Ja‘far عليه السلام, tentang firman-Nya, Yang Mahatinggi:",
-              "ru": "Мухаммад ибн Яхья, от Ахмада ибн Мухаммада, от Ибн Махбуба, от Джамиля ибн Салиха, от Зурары, от Абу Джафара عليه السلام, относительно Его, Всевышнего, слов:",
-              "tr": "Muhammed ibn Yahyâ, Ahmed ibn Muhammed’den, İbn Mahbûb’dan, Cemîl ibn Sâlih’ten, Zurâre’den, Ebû Ca‘fer عليه السلام’dan, O’nun, Yüce olanın, şu sözü hakkında:",
-              "ur": "محمد بن یحییٰ، احمد بن محمد سے، ابن محبوب سے، جمیل بن صالح سے، زرارہ سے، ابو جعفر علیہ السلام سے، ان کے، بلند و برتر، اس قول کے بارے میں:",
-              "zh": "穆罕默德伊本叶海亚，传自艾哈迈德伊本穆罕默德，传自伊本马赫布布，传自贾米尔伊本萨利赫，传自祖拉拉，传自阿布贾法尔 عليه السلام，关于至高者的话："
-            },
             "word_end": 24,
             "word_start": 0
           },
           {
             "arabic_text": "لَتَرْكَبُنَّ طَبَقًا عَنْ طَبَقٍ",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "“তোমরা অবশ্যই এক অবস্থা থেকে আরেক অবস্থায় অগ্রসর হবে।”",
-              "de": "„Ihr werdet gewiss von einem Zustand in einen anderen Zustand übergehen.“",
-              "en": "\"You shall most certainly ride from one state to another state.\"",
-              "es": "“Sin duda pasaréis de un estado a otro estado.”",
-              "fa": "«شما قطعاً از حالی به حالی دیگر سوار خواهید شد.»",
-              "fr": "«Vous passerez certes d’un état à un autre état.»",
-              "id": "“Sungguh kalian pasti akan melalui satu keadaan ke keadaan yang lain.”",
-              "ru": "«Вы непременно перейдёте из одного состояния в другое состояние».",
-              "tr": "“Siz mutlaka bir hâlden başka bir hâle bineceksiniz.”",
-              "ur": "“تم ضرور ایک حال سے دوسرے حال میں سوار ہو گے۔”",
-              "zh": "“你们必定会从一种状态骑乘到另一种状态。”"
-            },
             "word_end": 28,
             "word_start": 24
           },
           {
             "arabic_text": "قَالَ يَا زُرَارَةُ أَوَلَمْ تَرْكَبْ هَذِهِ الْأُمَّةُ بَعْدَ نَبِيِّهَا صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ طَبَقًا عَنْ طَبَقٍ فِي أَمْرِ فُلَانٍ وَفُلَانٍ وَفُلَانٍ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি عليه السلام বললেন: “হে জুরারাহ, এই উম্মত কি তার নবী صلى الله عليه وآله وسلم-এর পর অমুক, অমুক ও অমুকের ব্যাপারে এক অবস্থা থেকে আরেক অবস্থায় যায়নি?”",
-              "de": "Er عليه السلام sagte: „O Zurarah, ist diese Gemeinschaft nach ihrem Propheten صلى الله عليه وآله وسلم nicht in der Angelegenheit von Soundso, Soundso und Soundso von einem Zustand in einen anderen übergegangen?“",
-              "en": "He عليه السلام said: \"O Zurārah, did not this community, after its Prophet صلى الله عليه وآله وسلم, ride from one state to another in the matter of so-and-so, and so-and-so, and so-and-so?\"",
-              "es": "Él عليه السلام dijo: “Oh Zurarah, ¿acaso esta comunidad, después de su Profeta صلى الله عليه وآله وسلم, no pasó de un estado a otro en el asunto de fulano, fulano y fulano?”",
-              "fa": "ایشان علیه السلام فرمود: «ای زراره، آیا این امت پس از پیامبرش صلى الله عليه وآله وسلم در کارِ فلانی و فلانی و فلانی از حالی به حالی دیگر نرفت؟»",
-              "fr": "Il عليه السلام dit : « Ô Zurarah, cette communauté, après son Prophète صلى الله عليه وآله وسلم, n’a-t-elle pas passé d’un état à un autre dans l’affaire de untel, de untel et de untel ? »",
-              "id": "Beliau عليه السلام bersabda: “Wahai Zurarah, bukankah umat ini, setelah Nabinya صلى الله عليه وآله وسلم, telah berpindah dari satu keadaan ke keadaan yang lain dalam urusan si fulan, si fulan, dan si fulan?”",
-              "ru": "Он عليه السلام сказал: «О Зурара, разве эта община после своего Пророка صلى الله عليه وآله وسلم не переходила из одного состояния в другое в деле такого-то, такого-то и такого-то?»",
-              "tr": "O عليه السلام şöyle buyurdu: “Ey Zurâre, bu ümmet, Peygamberi صلى الله عليه وآله وسلم’den sonra falan, falan ve falanın işi konusunda bir hâlden başka bir hâle geçmedi mi?”",
-              "ur": "انہوں نے علیہ السلام فرمایا: “اے زرارہ، کیا اس امت نے اپنے نبی صلى الله عليه وآله وسلم کے بعد فلاں، فلاں اور فلاں کے معاملے میں ایک حال سے دوسرے حال میں سفر نہیں کیا؟”",
-              "zh": "他说 عليه السلام：“啊祖拉拉，这个社群在其先知 صلى الله عليه وآله وسلم之后，难道不是在某某、某某和某某的事情上从一种状态转到另一种状态吗？”"
-            },
             "word_end": 50,
             "word_start": 28
           }
@@ -148,58 +122,20 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَمْرِ": "the matter or affair, here referring to authority/leadership",
-            "بَعْدَ نَبِيِّهَا": "after its Prophet صلى الله عليه وآله وسلم",
-            "طَبَقًا": "a stage, layer, or condition",
-            "فُلَانٍ": "so-and-so; an indirect reference to specific persons",
-            "لَتَرْكَبُنَّ": "you shall most certainly undergo or move through",
-            "هَذِهِ الْأُمَّةُ": "this Muslim community"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "لَتَرْكَبُنَّ",
+          "طَبَقًا",
+          "هَذِهِ الْأُمَّةُ",
+          "بَعْدَ نَبِيِّهَا",
+          "أَمْرِ",
+          "فُلَانٍ"
+        ],
         "related_quran": [
           {
             "ref": "84:19",
             "relationship": "explicit"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আবু জাফর عليه السلام নবী صلى الله عليه وآله وسلم-এর পর মুসলিম উম্মতের প্রসঙ্গে “لَتَرْكَبُنَّ طَبَقًا عَنْ طَبَقٍ” আয়াতটি কীভাবে ব্যাখ্যা করেছেন?",
-          "de": "Wie erklärte Imam Abu Jaʿfar عليه السلام den Vers „لَتَرْكَبُنَّ طَبَقًا عَنْ طَبَقٍ“ im Zusammenhang mit der muslimischen Gemeinschaft nach dem Propheten صلى الله عليه وآله وسلم?",
-          "en": "How did Imam Abū Jaʿfar عليه السلام explain the verse \"لَتَرْكَبُنَّ طَبَقًا عَنْ طَبَقٍ\" in relation to the Muslim community after the Prophet صلى الله عليه وآله وسلم?",
-          "es": "¿Cómo explicó el Imam Abu Yaʿfar عليه السلام el versículo \"لَتَرْكَبُنَّ طَبَقًا عَنْ طَبَقٍ\" en relación con la comunidad musulmana después del Profeta صلى الله عليه وآله وسلم?",
-          "fa": "امام ابوجعفر علیه السلام آیهٔ «لَتَرْكَبُنَّ طَبَقًا عَنْ طَبَقٍ» را دربارهٔ جامعهٔ مسلمانان پس از پیامبر صلى الله عليه وآله وسلم چگونه توضیح داد؟",
-          "fr": "Comment l’imam Abu Jaʿfar عليه السلام a-t-il expliqué le verset « لَتَرْكَبُنَّ طَبَقًا عَنْ طَبَقٍ » en relation avec la communauté musulmane après le Prophète صلى الله عليه وآله وسلم ?",
-          "id": "Bagaimana Imam Abu Ja‘far عليه السلام menjelaskan ayat \"لَتَرْكَبُنَّ طَبَقًا عَنْ طَبَقٍ\" terkait umat Muslim setelah Nabi صلى الله عليه وآله وسلم?",
-          "ru": "Как имам Абу Джафар عليه السلام объяснил аят «لَتَرْكَبُنَّ طَبَقًا عَنْ طَبَقٍ» в отношении мусульманской общины после Пророка صلى الله عليه وآله وسلم?",
-          "tr": "İmam Ebû Ca‘fer عليه السلام, \"لَتَرْكَبُنَّ طَبَقًا عَنْ طَبَقٍ\" ayetini Peygamber صلى الله عليه وآله وسلم’den sonraki Müslüman toplumu hakkında nasıl açıkladı?",
-          "ur": "امام ابو جعفر علیہ السلام نے آیت \"لَتَرْكَبُنَّ طَبَقًا عَنْ طَبَقٍ\" کی مسلمانوں کی جماعت کے بارے میں کیا تفسیر کی؟",
-          "zh": "伊玛目阿布贾法尔 عليه السلام是如何就先知 صلى الله عليه وآله وسلم之后的穆斯林社群解释“لَتَرْكَبُنَّطَبَقًاعَنْطَبَقٍ”这节经文的？"
-        },
-        "summaries": {
-          "bn": "ইমাম আবু জাফর عليه السلام এই আয়াতকে এমন ধারাবাহিক পরিবর্তন ও পর্যায়ের প্রতি ইঙ্গিত হিসেবে ব্যাখ্যা করেন, যা নবী صلى الله عليه وآله وسلم-এর পর এই উম্মতের ওপর নেমে আসে। এই বর্ণনায় আয়াতটি নেতৃত্বসংক্রান্ত বিতর্কিত বিষয়গুলোর মধ্য দিয়ে উম্মতের অগ্রগতির ওপর প্রয়োগ করা হয়েছে, যা wilayah এবং নবুয়ত-পরবর্তী কর্তৃত্বের একটি গুরুত্বপূর্ণ দিককে তুলে ধরে।",
-          "de": "Imam Abu Jaʿfar عليه السلام deutet diesen Vers als Hinweis auf aufeinanderfolgende Veränderungen und Stufen, die diese Gemeinschaft nach dem Propheten صلى الله عليه وآله وسلم trafen. In dieser Überlieferung wird der Vers auf den Verlauf der Gemeinschaft durch strittige Führungsfragen angewandt und hebt eine wichtige Dimension von wilayah und der Autorität nach dem Propheten hervor.",
-          "en": "Imam Abū Jaʿfar عليه السلام interprets the verse as referring to successive changes and stages that befell this community after the Prophet صلى الله عليه وآله وسلم. In this narration, the verse is applied to the community’s progression through disputed leadership matters, highlighting a significant dimension of wilayah and post-Prophetic authority.",
-          "es": "El Imam Abu Yaʿfar عليه السلام interpreta este versículo como una referencia a los cambios y etapas sucesivas que sobrevinieron a esta comunidad después del Profeta صلى الله عليه وآله وسلم. En esta narración, el versículo se aplica al avance de la comunidad a través de asuntos disputados de liderazgo, destacando una dimensión importante de la wilayah y de la autoridad posterior al Profeta.",
-          "fa": "امام ابوجعفر علیه السلام این آیه را به دگرگونی‌ها و مراحل پیاپی‌ای تفسیر می‌کند که پس از پیامبر صلى الله عليه وآله وسلم بر این امت وارد شد. در این روایت، آیه بر حرکت این امت در مسائل مورد اختلافِ رهبری تطبیق داده شده و بُعدی مهم از ولایت و اقتدار پس از پیامبر را برجسته می‌سازد.",
-          "fr": "L’imam Abu Jaʿfar عليه السلام interprète ce verset comme une référence aux changements successifs et aux étapes qui ont frappé cette communauté après le Prophète صلى الله عليه وآله وسلم. Dans ce récit, le verset est appliqué au cheminement de la communauté à travers des questions de direction disputées, mettant en lumière une dimension importante de la wilayah et de l’autorité post-prophétique.",
-          "id": "Imam Abu Ja‘far عليه السلام menafsirkan ayat ini sebagai merujuk pada perubahan-perubahan dan tahapan-tahapan berurutan yang menimpa umat ini setelah Nabi صلى الله عليه وآله وسلم. Dalam riwayat ini, ayat tersebut diterapkan pada perjalanan umat melalui persoalan kepemimpinan yang diperselisihkan, sehingga menyoroti dimensi penting dari wilayah dan otoritas pasca-Nabi.",
-          "ru": "Имам Абу Джафар عليه السلام толкует этот аят как указание на последовательные изменения и этапы, которые постигли эту общину после Пророка صلى الله عليه وآله وسلم. В этом предании аят применяется к прохождению общины через спорные вопросы руководства, подчёркивая важное измерение вилаята и послепророческой власти.",
-          "tr": "İmam Ebû Ca‘fer عليه السلام bu ayeti, Peygamber صلى الله عليه وآله وسلم’den sonra bu ümmetin başına gelen ardışık değişimler ve aşamalar olarak yorumlar. Bu rivayette ayet, ümmetin ihtilaflı liderlik meselelerindeki ilerleyişine uygulanmakta ve velayet ile nübüvvet sonrası otoritenin önemli bir boyutunu vurgulamaktadır.",
-          "ur": "امام ابو جعفر علیہ السلام اس آیت کی تفسیر اس طرح کرتے ہیں کہ رسول اللہ صلى الله عليه وآله وسلم کے بعد اس امت پر یکے بعد دیگرے حالات اور مراحل آئے۔ اس روایت میں آیت کو قیادت کے متنازع امور میں امت کی پیش رفت پر منطبق کیا گیا ہے، جو ولایت اور بعد از نبوی اختیار کے ایک اہم پہلو کو نمایاں کرتا ہے۔",
-          "zh": "伊玛目阿布贾法尔 عليه السلام将这节经文解释为指向先知 صلى الله عليه وآله وسلم之后降临于这个社群的连续变化与阶段。在这段传述中，这节经文被应用于社群在有争议的领导事务中的进程，凸显了wilayah以及先知之后权威的重要层面。"
-        },
         "tags": [
           "quran_commentary",
           "theology",

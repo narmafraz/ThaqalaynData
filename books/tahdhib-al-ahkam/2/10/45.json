@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مَا رَوَاهُ مُحَمَّدُ بْنُ يَعْقُوبَ، عَنْ عَلِيِّ بْنِ إِبْرَاهِيمَ، عَنْ أَبِيهِ، وَمُحَمَّدِ بْنِ إِسْمَاعِيلَ، عَنِ الْفَضْلِ بْنِ شَاذَانَ، جَمِيعًا عَنْ حَمَّادِ بْنِ عِيسَى، عَنْ حَرِيزٍ، عَنْ زُرَارَةَ وَأَبِي بَصِيرٍ، قَالَا: قُلْنَا لَهُ: الرَّجُلُ يَشُكُّ كَثِيرًا فِي صَلَاتِهِ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন ইয়াকুব বর্ণনা করেছেন, আলী ইবন ইবরাহীম থেকে, তাঁর পিতা থেকে, এবং মুহাম্মদ ইবন ইসমাঈল, আল-ফাদল ইবন শাযান থেকে, সবাই একত্রে হাম্মাদ ইবন ঈসা থেকে, হারীয থেকে, যুরারাহ ও আবু বাসীর থেকে, যারা বলেছেন: আমরা তাকে বললাম: এক ব্যক্তি তার সালাত (নামাজ)ে বারবার সন্দেহ করে...",
-              "de": "Überliefert wurde von Muhammad ibn Yaʿqub, von ʿAlī ibn Ibrāhīm, von seinem Vater, und Muhammad ibn Ismāʿīl, von al-Faḍl ibn Shādhān, alle zusammen von Ḥammād ibn ʿĪsā, von Ḥarīz, von Zurārah und Abū Baṣīr, die sagten: Wir sagten zu ihm: Ein Mann zweifelt häufig in seinem salat (Gebet)...",
-              "en": "What was narrated by Muḥammad ibn Yaʿqūb, from ʿAlī ibn Ibrāhīm, from his father, and Muḥammad ibn Ismāʿīl, from al-Faḍl ibn Shādhān, all together from Ḥammād ibn ʿĪsā, from Ḥarīz, from Zurārah and Abū Baṣīr, who said: We said to him: A man frequently doubts in his salat (prayer)...",
-              "es": "Lo narrado por Muhammad ibn Yaʿqub, de ʿAlī ibn Ibrāhīm, de su padre, y Muhammad ibn Ismāʿīl, de al-Faḍl ibn Shādhān, todos juntos de Ḥammād ibn ʿĪsā, de Ḥarīz, de Zurārah y Abū Baṣīr, quienes dijeron: Le dijimos: Un hombre duda con frecuencia en su salat (oración)...",
-              "fa": "آنچه را محمد بن یعقوب، از علی بن ابراهیم، از پدرش، و محمد بن اسماعیل، از فضل بن شاذان، همگی با هم از حماد بن عیسی، از حریز، از زراره و ابو بصیر روایت کرده‌اند، که گفتند: به او گفتیم: مردی در صلات (نماز) خود بسیار شک می‌کند...",
-              "fr": "Ce qui a été rapporté par Muhammad ibn Yaʿqub, d’après ʿAlī ibn Ibrāhīm, d’après son père, et Muhammad ibn Ismāʿīl, d’après al-Faḍl ibn Shādhān, tous ensemble d’après Ḥammād ibn ʿĪsā, d’après Ḥarīz, d’après Zurārah et Abū Baṣīr, qui ont dit : Nous lui avons dit : Un homme doute fréquemment dans sa salat (prière)...",
-              "id": "Apa yang diriwayatkan oleh Muhammad ibn Ya‘qub, dari ʿAli ibn Ibrahim, dari ayahnya, dan Muhammad ibn Ismaʿil, dari al-Fadl ibn Shadhan, semuanya bersama-sama dari Hammad ibn ʿIsa, dari Hariz, dari Zurarah dan Abu Basir, yang berkata: Kami berkata kepadanya: Seorang laki-laki sering ragu dalam salat (shalat)nya...",
-              "ru": "Передано Мухаммадом ибн Яʿкубом, от ʿАли ибн Ибрахима, от его отца, и Мухаммадом ибн Исмаʿилем, от аль-Фадля ибн Шадхана, все вместе от Хаммада ибн ʿИсы, от Хариза, от Зурары и Абу Басира, которые сказали: Мы сказали ему: Один человек часто сомневается в своем салат (молитве)...",
-              "tr": "Muhammed ibn Ya‘kūb’un rivayet ettiğine göre, ʿAlî ibn İbrâhîm’den, onun babasından ve Muhammed ibn İsmâʿîl’den, el-Fadl ibn Şâzân’dan, hepsi birlikte Hammâd ibn ʿÎsâ’dan, Harîz’den, Zurâra ve Ebû Basîr’den rivayet etmişlerdir; onlar şöyle dediler: Ona dedik ki: Bir adam salatında (namazında) sık sık şüphe eder...",
-              "ur": "محمد بن یعقوب نے روایت کی، علی بن ابراہیم سے، ان کے والد سے، اور محمد بن اسماعیل نے فضل بن شاذان سے، سب نے مل کر حماد بن عیسیٰ سے، حریز سے، زرارہ اور ابو بصیر سے روایت کی، جنہوں نے کہا: ہم نے ان سے کہا: ایک آدمی اپنی صلات (نماز) میں بہت زیادہ شک کرتا ہے...",
-              "zh": "穆罕默德·伊本·叶尔库布传述自阿里·伊本·易卜拉欣，传自其父，以及穆罕默德·伊本·伊斯马仪，传自法德勒·伊本·沙丹，众人共同传自哈马德·伊本·尔萨，传自哈里兹，传自祖拉拉和阿布·巴西尔，他们说：我们对他说：有一个人在他的salat（礼拜）中经常怀疑..."
-            },
             "word_end": 37,
             "word_start": 0
           },
           {
             "arabic_text": "حَتَّى لَا يَدْرِيَ كَمْ صَلَّى، وَلَا مَا بَقِيَ عَلَيْهِ. قَالَ: «يُعِيدُ». قُلْنَا: فَإِنَّهُ يَكْثُرُ عَلَيْهِ ذَلِكَ، كُلَّمَا أَعَادَ شَكَّ. قَالَ: «يَمْضِي فِي شَكِّهِ». ثُمَّ قَالَ: «لَا تُعَوِّدُوا الْخَبِيثَ مِنْ أَنْفُسِكُمْ نَقْضَ الصَّلَاةِ فَتُطْمِعُوهُ، فَإِنَّ الشَّيْطَانَ خَبِيثٌ مُعْتَادٌ لِمَا عُوِّدَ بِهِ، فَلْيَمْضِ أَحَدُكُمْ فِي الْوَهْمِ، وَلَا يُكْثِرَنَّ نَقْضَ الصَّلَاةِ، فَإِنَّهُ إِذَا فَعَلَ ذَلِكَ مَرَّاتٍ لَمْ يَعُدْ إِلَيْهِ الشَّكُّ». قَالَ زُرَارَةُ: ثُمَّ قَالَ: «إِنَّمَا يُرِيدُ الْخَبِيثُ أَنْ يُطَاعَ، فَإِذَا عُصِيَ لَمْ يَعُدْ إِلَى أَحَدِكُمْ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "...এমনকি সে কত রাকাআত পড়েছে এবং তার ওপর কী বাকি আছে তা সে জানে না। তিনি বললেন: ‘সে পুনরায় আদায় করবে।’ আমরা বললাম: কিন্তু এটা তার ক্ষেত্রে প্রায়ই ঘটে; যখনই সে পুনরায় আদায় করে, সে সন্দেহ করে। তিনি বললেন: ‘সে তার সন্দেহ সত্ত্বেও এগিয়ে যাক।’ তারপর তিনি বললেন: ‘তোমাদের মধ্যে থাকা দুষ্টকে সালাত (নামাজ) ভেঙে ফেলার অভ্যাস করিও না, যাতে তোমরা তাকে সাহস না দাও; কারণ শয়তান দুষ্ট এবং যেটির অভ্যাস করানো হয় তার অভ্যাস হয়ে যায়। অতএব তোমাদের প্রত্যেকে ভ্রান্তির মধ্যেও এগিয়ে যাক, এবং সালাত (নামাজ) বারবার ভেঙে ফেলবে না; কারণ যদি সে তা কয়েকবার করে, তবে সন্দেহ তার কাছে আর ফিরে আসবে না।’ যুরারাহ বললেন: তারপর তিনি বললেন: ‘দুষ্ট কেবল এটাই চায় যে তার আনুগত্য করা হোক; সুতরাং যদি তার অবাধ্যতা করা হয়, তবে সে তোমাদের কারও কাছে ফিরে আসবে না।’",
-              "de": "...bis er nicht mehr weiß, wie viel er gebetet hat und was ihm noch obliegt. Er sagte: ‚Er soll es wiederholen.‘ Wir sagten: Aber das geschieht ihm oft; jedes Mal, wenn er es wiederholt, zweifelt er. Er sagte: ‚Er soll trotz seines Zweifels fortfahren.‘ Dann sagte er: ‚Gewöhnt den Bösen unter euch nicht daran, das salat (Gebet) zu brechen, damit ihr ihn nicht ehrgeizig macht; denn Shayṭān ist böse und gewöhnt sich an das, woran er gewöhnt wird. So soll einer von euch in der Einbildung fortfahren und das salat (Gebet) nicht übermäßig brechen; denn wenn er dies mehrmals tut, wird der Zweifel nicht zu ihm zurückkehren.‘ Zurārah sagte: Dann sagte er: ‚Der Böse will nur gehorcht werden; wenn ihm also widersprochen wird, wird er zu keinem von euch zurückkehren.‘",
-              "en": "...until he does not know how much he has prayed, nor what remains upon him. He said: ‘He repeats.’ We said: But that happens to him often; whenever he repeats, he doubts. He said: ‘He should proceed despite his doubt.’ Then he said: ‘Do not habituate the wicked one from among yourselves to breaking the salat (prayer), lest you make him ambitious, for indeed Shayṭān is wicked and becomes accustomed to what he is accustomed to. So let one of you proceed in the delusion, and let him not excessively break the salat (prayer), for if he does that several times, the doubt will not return to him.’ Zurārah said: Then he said: ‘The wicked one only wants to be obeyed; so if he is disobeyed, he will not return to any one of you.’",
-              "es": "...hasta que no sabe cuántas rakʿas ha rezado ni qué le queda por cumplir. Él dijo: ‘Que la repita.’ Dijimos: Pero eso le ocurre con frecuencia; cada vez que la repite, duda. Él dijo: ‘Que continúe a pesar de su duda.’ Luego dijo: ‘No acostumbréis al malvado de entre vosotros a invalidar el salat (oración), para que no le deis ambición; pues Shayṭān es malvado y se acostumbra a aquello a lo que se le acostumbra. Así pues, que cada uno de vosotros siga adelante en la ilusión, y que no invalide en exceso el salat (oración), pues si hace ذلك varias veces, la duda no volverá a él.’ Zurārah dijo: Luego dijo: ‘El malvado solo quiere ser obedecido; así que si se le desobedece, no volverá a ninguno de vosotros.’",
-              "fa": "...تا آنجا که نداند چه مقدار نماز خوانده و چه مقدار بر او باقی مانده است. فرمود: «اعاده کند.» گفتیم: اما این کار بسیار بر او رخ می‌دهد؛ هر بار که اعاده می‌کند، شک می‌کند. فرمود: «با وجود شکّش ادامه دهد.» سپس فرمود: «از میان خود، خبیث را به شکستن صلات (نماز) عادت ندهید تا او را به طمع نیندازید؛ زیرا شیطان خبیث است و به آنچه به آن عادت داده شود عادت می‌کند. پس هر یک از شما در وهم پیش برود و صلات (نماز) را بسیار نشکند، زیرا اگر چند بار چنین کند، شک به سوی او باز نخواهد گشت.» زراره گفت: سپس فرمود: «خبیث فقط می‌خواهد از او اطاعت شود؛ پس اگر نافرمانی شود، به هیچ‌یک از شما باز نخواهد گشت.»",
-              "fr": "...au point qu’il ne sait plus combien de rakʿas il a accomplies ni ce qu’il lui reste à faire. Il dit : ‘Qu’il recommence.’ Nous dîmes : Mais cela lui arrive souvent ; chaque fois qu’il recommence, il doute. Il dit : ‘Qu’il poursuive malgré son doute.’ Puis il dit : ‘N’habituez pas le malfaisant parmi vous à rompre la salat (prière), de peur de lui donner de l’ambition ; car Shayṭān est malfaisant et s’habitue à ce à quoi on l’habitue. Que chacun de vous avance donc dans l’illusion, et qu’il ne rompe pas excessivement la salat (prière), car s’il fait cela plusieurs fois, le doute ne reviendra plus à lui.’ Zurārah dit : Puis il dit : ‘Le malfaisant ne veut qu’être obéi ; ainsi, s’il est désobéi, il ne reviendra à aucun de vous.’",
-              "id": "...hingga ia tidak tahu berapa rakaat yang telah ia kerjakan, dan apa yang masih menjadi kewajibannya. Beliau bersabda: ‘Ia mengulanginya.’ Kami berkata: Tetapi hal itu sering terjadi padanya; setiap kali ia mengulanginya, ia ragu. Beliau bersabda: ‘Hendaklah ia terus melanjutkan meskipun ragu.’ Kemudian beliau bersabda: ‘Jangan biasakan si jahat dari kalangan kalian untuk membatalkan salat (shalat), agar kalian tidak memberinya harapan; karena setan itu jahat dan menjadi terbiasa dengan apa yang dibiasakan kepadanya. Maka hendaklah salah seorang dari kalian terus melangkah dalam sangkaan, dan janganlah ia terlalu sering membatalkan salat (shalat), karena jika ia melakukan itu beberapa kali, keraguan tidak akan kembali kepadanya.’ Zurarah berkata: Kemudian beliau bersabda: ‘Sesungguhnya si jahat hanya ingin ditaati; maka jika ia didurhakai, ia tidak akan kembali kepada seorang pun dari kalian.’",
-              "ru": "...пока он не будет знать, сколько он совершил и что еще осталось на нем. Он сказал: «Пусть повторит». Мы сказали: Но это часто случается с ним; всякий раз, когда он повторяет, он начинает сомневаться. Он сказал: «Пусть продолжает, несмотря на свое сомнение». Затем он сказал: «Не приучайте злого из вас к нарушению салат (молитвы), чтобы не внушать ему стремления; ведь Шайтан зол и привыкает к тому, к чему его приучают. Пусть же каждый из вас продолжает, находясь в сомнении, и не слишком часто нарушает салат (молитву), ибо если он сделает это несколько раз, сомнение не вернется к нему». Зурара сказал: Затем он сказал: «Злой лишь хочет, чтобы ему повиновались; поэтому, если ему ослушаются, он не вернется ни к кому из вас».",
-              "tr": "...öyle ki kaç rekât kıldığını ve üzerinde ne kaldığını bilmez. O şöyle buyurdu: ‘Yeniden kılsın.’ Biz dedik ki: Fakat bu ona sık sık olur; ne zaman yeniden kılsa, şüphe eder. O şöyle buyurdu: ‘Şüphesine rağmen devam etsin.’ Sonra şöyle buyurdu: ‘İçinizdeki habisi salatı (namazı) bozmayı alışkanlık haline getirmeyin ki onu cesaretlendirmiş olmayasınız; çünkü Şeytan habistir ve kendisine alıştırılan şeye alışır. Öyleyse sizden biri vehim içinde yoluna devam etsin ve salatı (namazı) çokça bozmasın; çünkü bunu birkaç kez yaparsa şüphe ona geri dönmez.’ Zurârah dedi ki: Sonra şöyle buyurdu: ‘Habis ancak kendisine itaat edilmesini ister; dolayısıyla ona isyan edilirse sizden hiçbirinize geri dönmez.’",
-              "ur": "...یہاں تک کہ اسے معلوم نہ رہے کہ اس نے کتنی رکعتیں پڑھی ہیں، اور اس پر کیا باقی ہے۔ آپ نے فرمایا: ‘وہ اعادہ کرے۔’ ہم نے کہا: لیکن یہ بات اس پر بہت زیادہ ہوتی ہے؛ جب بھی وہ اعادہ کرتا ہے، اسے شک ہو جاتا ہے۔ آپ نے فرمایا: ‘وہ اپنے شک کے باوجود آگے بڑھے۔’ پھر آپ نے فرمایا: ‘اپنے درمیان سے خبیث کو صلات (نماز) توڑنے کا عادی نہ بناؤ، کہیں تم اسے دلیر نہ کر دو، کیونکہ شیطان خبیث ہے اور جس چیز کا اسے عادی بنایا جائے اس کا عادی ہو جاتا ہے۔ پس تم میں سے ہر ایک وہم ہی میں آگے بڑھے، اور صلات (نماز) کو بار بار نہ توڑے، کیونکہ اگر وہ ایسا کئی مرتبہ کرے تو شک اس کی طرف واپس نہیں آئے گا۔’ زرارہ نے کہا: پھر آپ نے فرمایا: ‘خبیث صرف یہی چاہتا ہے کہ اس کی اطاعت کی جائے؛ پس اگر اس کی نافرمانی کی جائے تو وہ تم میں سے کسی کی طرف واپس نہیں آئے گا۔’",
-              "zh": "...以至于他不知道自己已经礼了多少，也不知道自己还欠着什么。他说：‘他应当重做。’我们说：但这常常发生在他身上；每当他重做时，他就会怀疑。他说：‘让他在怀疑中继续前行。’然后他说：‘不要让你们中的恶者养成破坏salat（礼拜）的习惯，以免你们使他生出贪念；因为恶魔是邪恶的，并且会习惯于被习惯的东西。所以你们中的每一个人都应当在幻念中继续前行，不要过多地破坏salat（礼拜），因为如果他这样做几次，怀疑就不会再回到他那里。’祖拉拉说：然后他说：‘恶者只想被服从；所以如果不服从他，他就不会再回到你们中的任何一个人那里。’"
-            },
             "word_end": 109,
             "word_start": 37
           },
           {
             "arabic_text": "وَمَنْ كَانَ فِي صَلَاتِهِ فَلَمْ يَدْرِ مَا صَلَّى وَجَبَ عَلَيْهِ إِعَادَةُ الصَّلَاةِ، وَيَدُلُّ عَلَى ذَلِكَ.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "আর যে ব্যক্তি তার সালাত (নামাজ)ে থাকে এবং সে কী পড়েছে তা জানে না, তার ওপর সালাত (নামাজ) পুনরায় আদায় করা ওয়াজিব, এবং এ কথাই এর দ্বারা প্রমাণিত হয়।",
-              "de": "Und wer sich in seinem salat (Gebet) befindet und nicht weiß, was er gebetet hat, dem ist es verpflichtend, das salat (Gebet) zu wiederholen, und darauf weist dies hin.",
-              "en": "And whoever is in his salat (prayer) and does not know what he has prayed, it is obligatory upon him to repeat the salat (prayer), and that is indicated by this.",
-              "es": "Y quien esté en su salat (oración) y no sepa qué ha rezado, le es obligatorio repetir el salat (oración), y esto lo indica.",
-              "fa": "و هر کس در صلات (نماز) خود باشد و نداند چه خوانده است، اعادهٔ صلات (نماز) بر او واجب است، و این بر آن دلالت دارد.",
-              "fr": "Et quiconque est dans sa salat (prière) et ne sait pas ce qu’il a accompli, il lui est obligatoire de répéter la salat (prière), et cela l’indique.",
-              "id": "Dan siapa pun yang sedang dalam salat (shalat)nya lalu tidak mengetahui apa yang telah ia kerjakan, maka wajib atasnya mengulang salat (shalat), dan hal itu ditunjukkan oleh ini.",
-              "ru": "И всякому, кто находится в своем салат (молитве) и не знает, что он совершил, обязательно повторить салат (молитву), и на это указывает данное.",
-              "tr": "Ve kim salatında (namazında) olup da ne okuduğunu bilmezse, salatı (namazı) yeniden kılması ona vaciptir; buna da bu delalet eder.",
-              "ur": "اور جو شخص اپنی صلات (نماز) میں ہو اور اسے معلوم نہ ہو کہ اس نے کیا پڑھا ہے، اس پر صلات (نماز) کا اعادہ واجب ہے، اور اس پر یہی دلالت کرتا ہے۔",
-              "zh": "凡是在自己的salat（礼拜）中而不知道自己已做了什么的人，必须重做salat（礼拜），而这也说明了这一点。"
-            },
             "word_end": 124,
             "word_start": 109
           }
@@ -173,28 +147,16 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الشَّكُّ": "doubt, the recurrent uncertainty discussed in the ruling",
-            "الْخَبِيثَ": "the wicked one, referring here to Shayṭān",
-            "الْوَهْمِ": "misgiving or delusion, the baseless uncertainty one is told to disregard",
-            "صَلَاتِهِ": "his salat (prayer), the act of ritual worship under discussion",
-            "نَقْضَ الصَّلَاةِ": "breaking the salat (prayer), i.e. invalidating or restarting it due to doubt",
-            "يَشُكُّ": "he doubts, referring to uncertainty during salat (prayer)",
-            "يَمْضِي": "he proceeds, meaning he continues without acting on the doubt",
-            "يُعِيدُ": "he repeats, meaning he performs the salat (prayer) again"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "صَلَاتِهِ",
+          "يَشُكُّ",
+          "يُعِيدُ",
+          "يَمْضِي",
+          "الْخَبِيثَ",
+          "نَقْضَ الصَّلَاةِ",
+          "الْوَهْمِ",
+          "الشَّكُّ"
+        ],
         "related_quran": [
           {
             "ref": "7:200",
@@ -209,32 +171,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কেউ সালাত (নামাজ)ে বারবার সন্দেহ করে, তবে তার কী করা উচিত?",
-          "de": "Was soll eine Person tun, wenn sie im salat (Gebet) häufig zweifelt?",
-          "en": "What should a person do if he frequently doubts during salat (prayer)?",
-          "es": "¿Qué debe hacer una persona si duda con frecuencia durante el salat (oración)?",
-          "fa": "اگر کسی در صلات (نماز) پیوسته شک کند، چه باید بکند؟",
-          "fr": "Que doit faire une personne si elle doute fréquemment pendant la salat (prière) ?",
-          "id": "Apa yang harus dilakukan seseorang jika ia sering ragu dalam salat (shalat)?",
-          "ru": "Что должен делать человек, если он часто сомневается во время салат (молитвы)?",
-          "tr": "Bir kişi salatta (namazda) sık sık şüphe ederse ne yapmalıdır?",
-          "ur": "اگر کوئی شخص صلات (نماز) میں بار بار شک کرے تو اسے کیا کرنا چاہیے؟",
-          "zh": "如果一个人在salat（礼拜）中经常怀疑，他应该怎么做？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস সালাত (নামাজ)ে বারবার সন্দেহের বিধান ব্যাখ্যা করে: কেউ যদি না জানে সে কত রাকাআত পড়েছে, তবে পুনরায় আদায় করা জরুরি; কিন্তু সন্দেহ বারবার হলে শয়তানের কুমন্ত্রণায় না গিয়ে নামাজ চালিয়ে যেতে হবে।",
-          "de": "Dieser Hadith erläutert die Regel bei häufigem Zweifel im salat (Gebet): Wenn jemand nicht weiß, wie viele Rakʿas er gebetet hat, muss er es wiederholen; wenn der Zweifel jedoch immer wieder auftritt, soll man den Einflüsterungen Shayṭāns nicht folgen, sondern das Gebet fortsetzen.",
-          "en": "This hadith addresses the ruling on frequent doubt in salat (prayer), distinguishing between a state that requires repetition and recurrent misgivings that should be ignored. It teaches that one should not yield to Shayṭān’s insinuations by repeatedly breaking and restarting salat (prayer), but rather continue once such doubts become excessive.",
-          "es": "Este hadiz explica la norma sobre la duda frecuente en el salat (oración): si una persona no sabe cuántas rakʿas ha rezado, debe repetirlo; pero si la duda se repite una y otra vez, no debe seguir las insinuaciones de Shayṭān, sino continuar la oración.",
-          "fa": "این حدیث حکم شکّ مکرر در صلات (نماز) را بیان می‌کند: اگر انسان نداند چند رکعت خوانده است، اعاده لازم است؛ اما اگر شک پی‌درپی رخ دهد، نباید از وسوسه‌های شیطان پیروی کرد، بلکه باید نماز را ادامه داد.",
-          "fr": "Ce hadith explique la règle concernant le doute fréquent dans la salat (prière) : si une personne ne sait pas combien de rakʿas elle a accomplies, elle doit recommencer ; mais si le doute revient sans cesse, il ne faut pas suivre les insinuations de Shayṭān, אלא poursuivre la prière.",
-          "id": "Hadis ini menjelaskan حكم keraguan yang sering muncul dalam salat (shalat): jika seseorang tidak tahu berapa rakaat yang telah ia kerjakan, ia harus mengulang; tetapi jika keraguan datang berulang-ulang, jangan mengikuti bisikan setan, melainkan lanjutkan salat.",
-          "ru": "Этот хадис разъясняет حكم частого сомнения в салат (молитве): если человек не знает, сколько ракʿатов он совершил, ему следует повторить; но если сомнение возникает снова и снова, не следует следовать наущениям Шайтана, а нужно продолжать молитву.",
-          "tr": "Bu hadis, salatta (namazda) sık sık ortaya çıkan şüphe hükmünü açıklar: Kişi kaç rekât kıldığını bilmiyorsa yeniden kılması gerekir; fakat şüphe tekrar tekrar geliyorsa Şeytan’ın vesveselerine uyulmayıp namaza devam edilmelidir.",
-          "ur": "یہ حدیث صلات (نماز) میں بار بار ہونے والے شک کے حکم کو بیان کرتی ہے: اگر آدمی کو یہ معلوم نہ ہو کہ اس نے کتنی نماز پڑھی ہے تو اعادہ لازم ہے، لیکن اگر شک بار بار آئے تو شیطان کے وسوسوں کی پیروی نہ کی جائے بلکہ نماز جاری رکھی جائے۔",
-          "zh": "这段圣训阐明了在salat（礼拜）中反复怀疑的判定：如果一个人不知道自己已经做了多少拜，就必须重做；但如果怀疑一再出现，就不要追随恶魔的诱惑，而应继续礼拜。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

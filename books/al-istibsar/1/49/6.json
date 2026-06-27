@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ النَّوْفَلِيِّ عَنِ السَّكُونِيِّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী ইবন ইব্রাহীম, তাঁর পিতা থেকে, আল-নওফালী থেকে, আল-সাকূনী থেকে, আবী আব্দিল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "ʿAlī ibn Ibrāhīm, von seinem Vater, von al-Nawfalī, von al-Sakūnī, von Abī ʿAbdillāh عليه السلام, der sagte:",
-              "en": "ʿAlī ibn Ibrāhīm, from his father, from al-Nawfalī, from al-Sakūnī, from Abī ʿAbdillāh عليه السلام, who said:",
-              "es": "ʿAlī ibn Ibrāhīm, de su padre, de al-Nawfalī, de al-Sakūnī, de Abī ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "علی بن ابراهیم، از پدرش، از النوفلی، از السکونی، از ابی عبدالله علیه السلام، که فرمود:",
-              "fr": "ʿAlī ibn Ibrāhīm, de son père, d’al-Nawfalī, d’al-Sakūnī, d’Abī ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "ʿAli ibn Ibrahim, dari ayahnya, dari al-Nawfali, dari al-Sakuni, dari Abi ʿAbdillah عليه السلام, yang berkata:",
-              "ru": "ʿАли ибн Ибрахим, от своего отца, от аль-Науфали, от ас-Сакуни, от Аби ʿАбдуллаха عليه السلام, который сказал:",
-              "tr": "Ali ibn İbrahim, babasından, en-Nevfelî’den, es-Sekûnî’den, Ebu Abdullah عليه السلام’dan rivayetle, şöyle dedi:",
-              "ur": "علی بن ابراہیم، ان کے والد سے، النوفلی سے، السکونی سے، ابی عبداللہ علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "ʿAlīibnIbrāhīm，传自其父，传自al-Nawfalī，传自al-Sakūnī，传自AbīʿAbdillāh عليه السلام，他说："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "لَا بَأْسَ بِأَنْ يَخْتَضِبَ الرَّجُلُ وَيُجْنِبَ وَهُوَ مُخْتَضِبٌ، وَلَا بَأْسَ بِأَنْ يَتَنَوَّرَ الْجُنُبُ وَيَحْتَجِمَ وَيَذْبَحَ، وَلَا يَدَّهِنُ وَلَا يَذُوقُ شَيْئًا حَتَّى يَغْسِلَ يَدَيْهِ وَيَتَمَضْمَضَ، فَإِنَّهُ يُخَافُ مِنْهُ الْوَضَحُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন পুরুষের খিযাব লাগানো এবং তারপর খিযাব অবস্থায় জুনুব হয়ে যাওয়ায় কোনো অসুবিধা নেই। আর জুনুব ব্যক্তির জন্য নূরা ব্যবহার করা, শিঙা লাগানো এবং জবাই করায়ও কোনো অসুবিধা নেই। তবে সে যেন তেল না লাগায় এবং কিছু না চেখে, যতক্ষণ না সে তার হাত ধুয়ে কুলি করে; কারণ আশঙ্কা করা হয় যে এর ফলে সাদা দাগের রোগ হতে পারে।",
-              "de": "Es ist kein Problem, wenn ein Mann sich färbt und dann junub wird, während er gefärbt ist. Und es ist für den Junub kein Problem, Enthaarungsmittel zu verwenden, sich schröpfen zu lassen und zu schlachten. Aber er soll weder Öl auftragen noch etwas kosten, bis er seine Hände gewaschen und den Mund ausgespült hat, denn es wird befürchtet, dass daraus Leukodermie entstehen könnte.",
-              "en": "There is no harm in a man applying dye and then becoming junub while he is dyed. And there is no harm in the junub using depilatory, undergoing cupping, and slaughtering. But he should not apply oil nor taste anything until he washes his hands and rinses his mouth, for it is feared that leucoderma may result from it.",
-              "es": "No hay inconveniente en que un hombre se aplique tinte y luego quede junub mientras está teñido. Y no hay inconveniente en que el junub use depilatorio, se someta a la ventosa y sacrifique. Pero no debe aplicarse aceite ni probar nada hasta que se lave las manos y enjuague la boca, pues se teme que de ello resulte leucodermia.",
-              "fa": "اینکه مردی خضاب کند و سپس در حالی که خضاب بر اوست جنب شود، اشکالی ندارد. و نیز بر جنب اشکالی ندارد که نوره به کار برد، حجامت کند و ذبح نماید. اما نباید روغن بمالد و چیزی بچشد تا آنکه دست‌هایش را بشوید و مضمضه کند، زیرا بیم آن می‌رود که از آن، وضح پدید آید.",
-              "fr": "Il n’y a pas de mal à ce qu’un homme se teigne puis devienne junub alors qu’il est teint. Et il n’y a pas de mal pour le junub à utiliser un dépilatoire, à se faire poser des ventouses et à égorger. Mais il ne doit ni s’enduire d’huile ni goûter quoi que ce soit avant de se laver les mains et de se rincer la bouche, car on craint qu’il n’en résulte une leucodermie.",
-              "id": "Tidak ada masalah bagi seorang laki-laki untuk memakai pewarna lalu menjadi junub ketika ia masih berpewarna. Dan tidak ada masalah bagi orang junub untuk memakai obat penghilang bulu, berbekam, dan menyembelih. Tetapi ia tidak boleh memakai minyak dan tidak boleh mencicipi sesuatu sampai ia mencuci kedua tangannya dan berkumur, karena dikhawatirkan akan timbul leucoderma darinya.",
-              "ru": "Нет ничего предосудительного в том, чтобы мужчина нанес краску, а затем стал джунуб, оставаясь окрашенным. И нет ничего предосудительного для джунуба в том, чтобы использовать депилятор, делать хиджаму и совершать заклание. Но ему не следует ни смазываться маслом, ни пробовать что-либо на вкус, пока он не вымоет руки и не прополощет рот, ибо опасаются, что от этого может возникнуть витилиго.",
-              "tr": "Bir adamın boya sürüp sonra boyalı halde cünüp olmasında bir sakınca yoktur. Cünübün tüy dökücü kullanmasında, hacamat yaptırmasında ve kesim yapmasında da sakınca yoktur. Fakat ellerini yıkayıp ağzını çalkalayıncaya kadar yağ sürmemeli ve hiçbir şeyin tadına bakmamalıdır; çünkü bundan dolayı alaca hastalığının ortaya çıkmasından korkulur.",
-              "ur": "اس میں کوئی حرج نہیں کہ آدمی خضاب لگائے اور پھر وہ جنب ہو جائے جبکہ اس پر خضاب ہو۔ اور جنب کے لیے بال صفا کرنے والی دوا استعمال کرنے، پچھنے لگوانے اور ذبح کرنے میں کوئی حرج نہیں۔ لیکن وہ تیل نہ لگائے اور نہ کسی چیز کا ذائقہ چکھے یہاں تک کہ اپنے ہاتھ دھو لے اور کلی کر لے، کیونکہ اندیشہ ہے کہ اس سے وضح پیدا ہو جائے۔",
-              "zh": "男子染发后在染着发的情况下成为junub，并无妨碍。junub使用脱毛剂、接受拔罐和宰杀，也无妨碍。但在洗手并漱口之前，他不应涂油，也不应尝任何东西，因为担心会因此生出白癜风。"
-            },
             "word_end": 44,
             "word_start": 16
           },
           {
             "arabic_text": "فَالْوَجْهُ فِي الْجَمْعِ بَيْنَ هَذِهِ الْأَخْبَارِ أَنْ نَحْمِلَ الْأَوَّلَةَ عَلَى ضَرْبٍ مِنَ الْكَرَاهِيَةِ دُونَ الْحَظْرِ لِئَلَّا يَتَنَاقَضَ الْأَخْبَارُ، وَالَّذِي يَدُلُّ عَلَى ذَلِكَ",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "অতএব, এই বর্ণনাগুলোর মধ্যে সমন্বয়ের সঠিক পদ্ধতি হলো প্রথম বর্ণনাগুলোকে নিষেধাজ্ঞা নয়, বরং এক ধরনের অপছন্দের ওপর বহন করা, যাতে বর্ণনাগুলো পরস্পরবিরোধী না হয়। আর যা এর প্রতি ইঙ্গিত করে তা হলো:",
-              "de": "Die richtige Art, diese Überlieferungen miteinander zu vereinbaren, besteht also darin, die ersten auf eine Art von Unerwünschtheit statt auf ein Verbot zu beziehen, damit die Überlieferungen einander nicht widersprechen. Und was darauf hinweist, ist:",
-              "en": "Thus, the proper way of reconciling these reports is that we carry the former upon a kind of dislike rather than prohibition, so that the reports do not contradict one another. And that which indicates this is:",
-              "es": "Así pues, la manera correcta de conciliar estos informes es entender los primeros como una forma de desaprobación, no de prohibición, para que los informes no se contradigan entre sí. Y lo que indica esto es:",
-              "fa": "پس راه درستِ جمع میان این روایات آن است که روایات نخست را بر نوعی کراهت، نه بر حرمت، حمل کنیم تا روایات با یکدیگر متناقض نشوند. و آنچه بر این دلالت می‌کند این است:",
-              "fr": "Ainsi, la manière correcte de concilier ces rapports est de considérer les premiers comme relevant d’une forme de réprobation et non d’interdiction, afin que les rapports ne se contredisent pas entre eux. Et ce qui l’indique est :",
-              "id": "Maka cara yang tepat untuk mengompromikan riwayat-riwayat ini adalah dengan membawa riwayat-riwayat yang pertama kepada suatu bentuk kemakruhan, bukan pengharaman, agar riwayat-riwayat itu tidak saling bertentangan. Dan yang menunjukkan hal itu adalah:",
-              "ru": "Итак, правильный способ согласовать эти сообщения состоит в том, чтобы отнести первые из них к виду нежелательности, а не к запрету, дабы сообщения не противоречили друг другу. И то, что указывает на это, таково:",
-              "tr": "Dolayısıyla bu rivayetleri uzlaştırmanın doğru yolu, önceki rivayetleri yasaklama değil, bir tür mekruhiyet üzerine حمل etmektir; böylece rivayetler birbirleriyle çelişmez. Buna delalet eden ise şudur:",
-              "ur": "پس ان روایات میں تطبیق کی درست صورت یہ ہے کہ پہلی روایات کو حرمت کے بجائے ایک قسم کی کراہت پر محمول کیا جائے، تاکہ روایات میں باہمی تضاد نہ رہے۔ اور اس پر دلالت کرنے والی بات یہ ہے:",
-              "zh": "因此，调和这些传述的正确方式，是将前面的传述理解为一种不喜，而不是禁止，以免诸传述彼此矛盾。表明这一点的是："
-            },
             "word_end": 66,
             "word_start": 44
           }
@@ -113,28 +87,16 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْجُنُبُ": "a person in the state of janabah requiring ghusl",
-            "الْكَرَاهِيَةِ": "dislike in legal usage, short of prohibition",
-            "الْوَضَحُ": "a skin condition, understood here as leucoderma or whitening of the skin",
-            "يَتَمَضْمَضَ": "to rinse the mouth",
-            "يَتَنَوَّرَ": "to use a depilatory substance for hair removal",
-            "يَحْتَجِمَ": "to undergo cupping",
-            "يَخْتَضِبَ": "to apply dye, especially to the hair or beard",
-            "يَدَّهِنُ": "to apply oil or ointment"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَخْتَضِبَ",
+          "الْجُنُبُ",
+          "يَتَنَوَّرَ",
+          "يَحْتَجِمَ",
+          "يَدَّهِنُ",
+          "يَتَمَضْمَضَ",
+          "الْوَضَحُ",
+          "الْكَرَاهِيَةِ"
+        ],
         "related_quran": [
           {
             "ref": "5:6",
@@ -145,32 +107,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী জানাবত অবস্থায় কোন কাজগুলো জায়েজ বা মাকরূহ?",
-          "de": "Welche Handlungen sind diesem Hadith zufolge für eine Person im Zustand der Janabah erlaubt oder unerwünscht?",
-          "en": "What actions are permitted or disliked for a person in the state of janabah according to this hadith?",
-          "es": "Según este hadiz, ¿qué acciones están permitidas o son desaprobadas para una persona en estado de janabah?",
-          "fa": "بر اساس این حدیث، چه کارهایی برای شخص در حالت جنابت جایز یا مکروه است؟",
-          "fr": "Selon ce hadith, quelles actions sont permises ou réprouvées pour une personne en état de janabah ?",
-          "id": "Menurut hadis ini, tindakan apa yang dibolehkan atau dimakruhkan bagi orang dalam keadaan janabah?",
-          "ru": "Какие действия, согласно этому хадису, дозволены или нежелательны для человека в состоянии джанабы?",
-          "tr": "Bu hadise göre cünüplük halinde hangi fiiller caiz veya mekruhtur?",
-          "ur": "اس حدیث کے مطابق حالتِ جنابت میں کون سے اعمال جائز یا مکروہ ہیں؟",
-          "zh": "根据这段圣训，处于janabah状态的人哪些行为是允许的或不受欢迎的？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে বলা হয়েছে যে জুনুব ব্যক্তির জন্য খিযাব, নূরা, শিঙা লাগানো এবং জবাইয়ের মতো কিছু কাজ নিষিদ্ধ নয়। এটি আরও ইঙ্গিত করে যে হাত ধোয়া ও কুলি করার আগে তেল লাগানো বা কিছু চেখে দেখা থেকে বিরত থাকা একটি অপছন্দনীয় সতর্কতা, এবং শেষাংশে ব্যাখ্যা করা হয়েছে যে পূর্ববর্তী বর্ণনাগুলোকে নিষেধাজ্ঞা নয়, বরং কراهাহ হিসেবে বোঝা উচিত।",
-          "de": "Dieser Hadith besagt, dass bestimmte Handlungen für eine junub-Person, wie das Verwenden von Farbe, Enthaarungsmittel, Schröpfen und Schlachten, nicht verboten sind. Er weist auch auf eine unerwünschte Vorsichtsmaßnahme hin, nämlich vor dem Waschen der Hände und dem Ausspülen des Mundes weder Öl aufzutragen noch etwas zu kosten; und der abschließende Abschnitt erklärt, dass die früheren Überlieferungen als Ausdruck von karahah und nicht von Verbot zu verstehen sind.",
-          "en": "This hadith states that certain acts by a junub, such as using dye, depilatory, cupping, and slaughtering, are not prohibited. It also indicates a disliked precaution against applying oil or tasting anything before washing the hands and rinsing the mouth, and the closing passage explains that earlier reports should be understood as indicating karahah rather than prohibition.",
-          "es": "Este hadiz afirma que ciertos actos para una persona junub, como usar tinte, depilatorio, ventosas y el sacrificio, no están prohibidos. También indica una precaución desaprobada de no aplicarse aceite ni probar nada antes de lavarse las manos y enjuagarse la boca, y el pasaje final explica que los informes anteriores deben entenderse como indicativos de karahah y no de prohibición.",
-          "fa": "این حدیث بیان می‌کند که برخی کارها برای جنب، مانند خضاب، نوره، حجامت و ذبح، حرام نیست. همچنین به احتیاطی مکروه درباره روغن مالیدن یا چیزی چشیدن پیش از شستن دست‌ها و مضمضه کردن اشاره دارد، و بخش پایانی توضیح می‌دهد که روایات پیشین باید بر کراهت حمل شوند نه حرمت.",
-          "fr": "Ce hadith indique que certains actes pour une personne junub, comme l’usage de teinture, de dépilatoire, les ventouses et l’égorgement, ne sont pas interdits. Il signale aussi une précaution réprouvée consistant à ne pas s’enduire d’huile ni goûter quoi que ce soit avant de se laver les mains et de se rincer la bouche, et le passage final explique que les rapports antérieurs doivent être compris comme relevant de la karahah et non de l’interdiction.",
-          "id": "Hadis ini menyatakan bahwa beberapa perbuatan bagi orang junub, seperti memakai pewarna, nūrah, berbekam, dan menyembelih, tidaklah dilarang. Ia juga menunjukkan kehati-hatian yang makruh untuk tidak memakai minyak atau mencicipi sesuatu sebelum mencuci tangan dan berkumur, dan bagian penutup menjelaskan bahwa riwayat-riwayat sebelumnya harus dipahami sebagai menunjukkan karahah, bukan larangan.",
-          "ru": "Этот хадис указывает, что некоторые действия для джунуба, такие как использование краски, депилятора, хиджама и заклание, не запрещены. Он также указывает на нежелательную предосторожность — не смазываться маслом и не пробовать ничего на вкус до мытья рук и полоскания рта, а заключительный отрывок объясняет, что прежние сообщения следует понимать как указывающие на karahah, а не на запрет.",
-          "tr": "Bu hadis, cünüp bir kimse için boya kullanmak, nûre, hacamat ve kesim gibi bazı fiillerin yasak olmadığını belirtir. Ayrıca yağ sürmeden veya bir şey tatmadan önce elleri yıkama ve ağzı çalkalama konusunda mekruh bir ihtiyata işaret eder; kapanış kısmı da önceki rivayetlerin yasak değil, mekruhiyet ifade edecek şekilde anlaşılması gerektiğini açıklar.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ جنب شخص کے لیے خضاب، نوره، حجامت اور ذبح جیسے بعض اعمال ممنوع نہیں ہیں۔ نیز یہ تیل لگانے یا کچھ چکھنے سے پہلے ہاتھ دھونے اور کلی کرنے کی ایک مکروہ احتیاط کی طرف اشارہ کرتی ہے، اور اختتامی عبارت واضح کرتی ہے کہ پہلے والی روایات کو حرمت کے بجائے کراہت پر محمول کیا جائے۔",
-          "zh": "这段圣训说明，处于junub状态的人使用染料、脱毛剂、拔罐和宰杀等行为并不被禁止。它也指出，在洗手和漱口之前不要涂油或尝任何东西是一种不受欢迎的谨慎，而结尾部分解释说，先前的传述应理解为表示karahah，而不是禁止。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

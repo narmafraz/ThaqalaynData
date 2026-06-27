@@ -21,61 +21,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "الْحُسَيْنُ بْنُ مُحَمَّدٍ عَنْ مُعَلَّى بْنِ مُحَمَّدٍ عَنِ الْوَشَّاءِ عَنْ أَبَانٍ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ فِي قَوْلِ اللَّهِ تَبَارَكَ وَتَعَالَى",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন মুহাম্মাদ, মু‘আল্লা ইবন মুহাম্মাদ থেকে, তিনি আল-ওয়াশশা‘ থেকে, তিনি আবান থেকে, তিনি মুহাম্মাদ ইবন মুসলিম থেকে, তিনি আবু জা‘ফার عليه السلام থেকে, আল্লাহর বাণী, যিনি বরকতময় ও মহান, সম্পর্কে।",
-              "de": "Al-Ḥusayn ibn Muḥammad, von Muʿallā ibn Muḥammad, von Al-Washshāʾ, von Abān, von Muḥammad ibn Muslim, von Abū Jaʿfar عليه السلام, bezüglich des Wortes Allahs, des Gesegneten und Erhabenen.",
-              "en": "Al-Ḥusayn ibn Muḥammad, from Muʿallā ibn Muḥammad, from Al-Washshāʾ, from Abān, from Muḥammad ibn Muslim, from Abū Jaʿfar عليه السلام regarding the saying of Allah, Blessed and Exalted.",
-              "es": "Al-Ḥusayn ibn Muḥammad, de Muʿallā ibn Muḥammad, de Al-Washshāʾ, de Abān, de Muḥammad ibn Muslim, de Abū Jaʿfar عليه السلام, acerca de la palabra de Allah, Bendito y Exaltado.",
-              "fa": "الحسین بن محمد، از معلی بن محمد، از الوشّاء، از ابان، از محمد بن مسلم، از ابو جعفر علیه السلام، دربارهٔ سخن خداوند، تبارک و تعالی.",
-              "fr": "Al-Ḥusayn ibn Muḥammad, d’après Muʿallā ibn Muḥammad, d’après Al-Washshāʾ, d’après Abān, d’après Muḥammad ibn Muslim, d’après Abū Jaʿfar عليه السلام, au sujet de la parole d’Allah, Béni et Exalté.",
-              "id": "Al-Husayn ibn Muhammad, dari Muʿallā ibn Muhammad, dari Al-Washshāʾ, dari Abān, dari Muhammad ibn Muslim, dari Abu Jaʿfar عليه السلام, tentang firman Allah, Yang Maha Berkah dan Maha Tinggi.",
-              "ru": "Аль-Хусайн ибн Мухаммад, от Муʿалля ибн Мухаммада, от Аль-Вашшаʾ, от Абана, от Мухаммада ибн Муслима, от Абу Джаʿфара عليه السلام, относительно слов Аллаха, Благословенного и Возвышенного.",
-              "tr": "el-Hüseyn ibn Muhammed, Muallâ ibn Muhammed'den, o da el-Veşşâ'dan, o da Abân'dan, o da Muhammed ibn Müslim'den, o da Ebu Cafer عليه السلام'dan, Allah Teâlâ'nın şu sözü hakkında:",
-              "ur": "الحسین بن محمد، معلیٰ بن محمد سے، وہ الوشّاء سے، وہ ابان سے، وہ محمد بن مسلم سے، وہ ابو جعفر علیہ السلام سے، اللہ تبارک و تعالیٰ کے قول کے بارے میں۔",
-              "zh": "Al-ḤusaynibnMuḥammad，传自MuʿallāibnMuḥammad，传自Al-Washshāʾ，传自Abān，传自MuḥammadibnMuslim，传自AbūJaʿfar عليه السلام，关于真主，受赞颂而超绝者的话。"
-            },
             "word_end": 25,
             "word_start": 0
           },
           {
             "arabic_text": "وَمَنْ يَقْتَرِفْ حَسَنَةً نَزِدْ لَهُ فِيهَا حُسْنًا",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "আর যে কেউ কোনো সৎকর্ম অর্জন করে, আমরা তাতে তার জন্য কল্যাণ বৃদ্ধি করি।",
-              "de": "Und wer eine gute Tat erwirbt, dem vermehren Wir darin das Gute.",
-              "en": "And whoever earns a good deed, We increase for him therein goodness.",
-              "es": "Y quienquiera que gane una buena obra, aumentamos para él en ella bondad.",
-              "fa": "و هر کس کار نیکی به دست آورد، برای او در آن نیکی می‌افزاییم.",
-              "fr": "Et quiconque acquiert une bonne action, Nous lui augmentons en cela en bien.",
-              "id": "Dan barang siapa memperoleh suatu kebaikan, Kami menambah baginya kebaikan di dalamnya.",
-              "ru": "И кто бы ни совершил доброе дело, Мы увеличиваем для него в нем благо.",
-              "tr": "Kim bir iyilik kazanırsa, onun için onda iyiliği artırırız.",
-              "ur": "اور جو کوئی نیکی کمائے، ہم اس میں اس کے لیے بھلائی بڑھا دیتے ہیں۔",
-              "zh": "而谁获得一件善功，我们就在其中为他增加善。"
-            },
             "word_end": 32,
             "word_start": 25
           },
           {
             "arabic_text": "قَالَ الِاقْتِرَافُ التَّسْلِيمُ لَنَا وَالصِّدْقُ عَلَيْنَا وَأَلَّا يَكْذِبَ عَلَيْنَا.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি عليه السلام বললেন: \"অর্জন হলো আমাদের কাছে আত্মসমর্পণ করা, আমাদের সম্পর্কে সত্য বলা, এবং আমাদের বিরুদ্ধে মিথ্যা না বলা।\"",
-              "de": "Er عليه السلام sagte: „Das Erwerben besteht darin, sich uns zu unterwerfen, über uns die Wahrheit zu sagen und nicht gegen uns zu lügen.“",
-              "en": "He عليه السلام said: \"The earning is submission to us, truthfulness concerning us, and that one should not lie against us.\"",
-              "es": "Él عليه السلام dijo: \"La adquisición consiste en someterse a nosotros, decir la verdad acerca de nosotros y no mentir contra nosotros.\"",
-              "fa": "آن حضرت علیه السلام فرمود: «کسب آن، تسلیم شدن در برابر ما، راست‌گویی دربارهٔ ما، و این‌که بر ما دروغ بسته نشود.»",
-              "fr": "Il عليه السلام dit : « L’acquisition consiste à se soumettre à nous, à dire la vérité à notre sujet, et à ne pas mentir contre nous. »",
-              "id": "Beliau عليه السلام bersabda: \"Perolehan itu adalah berserah diri kepada kami, berkata benar tentang kami, dan tidak berdusta atas nama kami.\"",
-              "ru": "Он عليه السلام сказал: «Приобретение — это покорность нам, правдивость о нас и чтобы не лгали против нас».",
-              "tr": "O عليه السلام şöyle buyurdu: \"Kazanmak, bize teslim olmak, bizim hakkımızda doğru söylemek ve bize karşı yalan söylememektir.\"",
-              "ur": "انہوں نے علیہ السلام فرمایا: \"کمانا ہماری تسلیم ہے، ہمارے بارے میں سچ بولنا ہے، اور یہ کہ ہم پر جھوٹ نہ باندھا جائے۔\"",
-              "zh": "他 عليه السلام说：“获得，就是顺服我们，如实谈论我们，并且不要对我们说谎。”"
-            },
             "word_end": 41,
             "word_start": 32
           }
@@ -148,58 +122,20 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "التَّسْلِيمُ": "submission; yielding in acceptance to the authority of the Imams عليهم السلام",
-            "الصِّدْقُ": "truthfulness; speaking truthfully concerning the Imams عليهم السلام",
-            "الِاقْتِرَافُ": "the act of earning or acquiring; the Imam’s interpretive focus in the verse",
-            "حَسَنَةً": "a good deed; here interpreted in relation to loyalty and truthfulness toward the Ahl al-Bayt عليهم السلام",
-            "يَقْتَرِفْ": "to acquire or earn; here, to attain a praiseworthy act",
-            "يَكْذِبَ": "to lie; here, to falsely attribute statements or claims to the Imams عليهم السلام"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَقْتَرِفْ",
+          "حَسَنَةً",
+          "الِاقْتِرَافُ",
+          "التَّسْلِيمُ",
+          "الصِّدْقُ",
+          "يَكْذِبَ"
+        ],
         "related_quran": [
           {
             "ref": "42:23",
             "relationship": "explicit"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আবু জা‘ফার عليه السلام কীভাবে \"আর যে কেউ কোনো সৎকর্ম অর্জন করে, আমরা তাতে তার জন্য কল্যাণ বৃদ্ধি করি\"-এর ব্যাখ্যা করেছেন?",
-          "de": "Wie deutete Imam Abū Jaʿfar عليه السلام „Und wer eine gute Tat erwirbt, dem vermehren Wir darin das Gute“?",
-          "en": "How did Imam Abū Jaʿfar عليه السلام interpret “And whoever earns a good deed, We increase for him therein goodness”?",
-          "es": "¿Cómo interpretó el Imam Abū Jaʿfar عليه السلام \"Y quienquiera que gane una buena obra, aumentamos para él en ella bondad\"?",
-          "fa": "امام ابو جعفر علیه السلام «و هر کس کار نیکی به دست آورد، برای او در آن نیکی می‌افزاییم» را چگونه تفسیر کرد؟",
-          "fr": "Comment l’imam Abū Jaʿfar عليه السلام a-t-il interprété « Et quiconque acquiert une bonne action, Nous lui augmentons en cela en bien » ?",
-          "id": "Bagaimana Imam Abu Jaʿfar عليه السلام menafsirkan \"Dan barang siapa memperoleh suatu kebaikan, Kami menambah baginya kebaikan di dalamnya\"?",
-          "ru": "Как имам Абу Джаʿфар عليه السلام истолковал фразу «И кто бы ни совершил доброе дело, Мы увеличиваем для него в нем благо»?",
-          "tr": "İmam Ebu Cafer عليه السلام \"Kim bir iyilik kazanırsa, onun için onda iyiliği artırırız\" ifadesini nasıl yorumladı?",
-          "ur": "امام ابو جعفر علیہ السلام نے \"اور جو کوئی نیکی کمائے، ہم اس میں اس کے لیے بھلائی بڑھا دیتے ہیں\" کی کیا تفسیر فرمائی؟",
-          "zh": "阿布·贾法尔伊玛目 عليه السلام是如何解释“而谁获得一件善功，我们就在其中为他增加善”的？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে কুরআনের বাক্য \"আর যে কেউ কোনো সৎকর্ম অর্জন করে, আমরা তাতে তার জন্য কল্যাণ বৃদ্ধি করি\"-এর ব্যাখ্যা করা হয়েছে আহলুল বাইত عليهم السلام-এর কাছে আত্মসমর্পণ, তাঁদের সম্পর্কে সত্য বলা, এবং তাঁদের বিরুদ্ধে মিথ্যা রচনা না করার অর্থে। এতে আয়াতটিকে ইমামগণ عليهم السلام সম্পর্কে আন্তরিক ওয়িলায়াত এবং সততার আধ্যাত্মিক মর্যাদা হিসেবে উপস্থাপন করা হয়েছে।",
-          "de": "Dieser Hadith erklärt den koranischen Ausdruck „Und wer eine gute Tat erwirbt, dem vermehren Wir darin das Gute“ als Hinweis auf die Unterwerfung unter die Ahl al-Bayt عليهم السلام, das Wahrsprechen über sie und das Unterlassen, Lügen gegen sie zu erfinden. Er stellt den Vers als Ausdruck des geistigen Vorzugs einer aufrichtigen Wilaya und der Wahrhaftigkeit gegenüber den Imamen عليهم السلام dar.",
-          "en": "This hadith explains the Qur'anic phrase about earning a good deed as referring to submission to the Ahl al-Bayt عليهم السلام, speaking truthfully about them, and refraining from fabricating lies against them. It presents the verse as highlighting the spiritual merit of sincere wilayah and honesty regarding the Imams عليهم السلام.",
-          "es": "Este hadiz explica la frase coránica \"Y quienquiera que gane una buena obra, aumentamos para él en ella bondad\" como una referencia a someterse a la Ahl al-Bayt عليهم السلام, hablar con verdad acerca de ellos y abstenerse de inventar mentiras contra ellos. Presenta el versículo como una destacada virtud espiritual de la wilaya sincera y de la honestidad respecto de los Imames عليهم السلام.",
-          "fa": "این حدیث عبارت قرآنیِ «و هر کس کار نیکی به دست آورد، برای او در آن نیکی می‌افزاییم» را به تسلیم در برابر اهل‌بیت عليهم السلام، راست‌گویی دربارهٔ آنان، و پرهیز از دروغ بستن بر آنان تفسیر می‌کند. این آیه را بیانگر فضیلت معنویِ ولایتِ خالص و صداقت دربارهٔ امامان عليهم السلام می‌داند.",
-          "fr": "Ce hadith explique l’expression coranique « Et quiconque acquiert une bonne action, Nous lui augmentons en cela en bien » comme renvoyant à la soumission envers les Ahl al-Bayt عليهم السلام, au fait de dire la vérité à leur sujet et à l’abstention de forger des mensonges contre eux. Il présente le verset comme mettant en lumière la vertu spirituelle d’une wilaya sincère et de l’honnêteté à l’égard des Imams عليهم السلام.",
-          "id": "Hadis ini menjelaskan frasa Al-Qur'an \"Dan barang siapa memperoleh suatu kebaikan, Kami menambah baginya kebaikan di dalamnya\" sebagai merujuk kepada berserah diri kepada Ahl al-Bayt عليهم السلام, berkata benar tentang mereka, dan tidak mengada-adakan kebohongan terhadap mereka. Ini menampilkan ayat tersebut sebagai penegasan keutamaan spiritual dari wilayah yang tulus dan kejujuran mengenai para Imam عليهم السلام.",
-          "ru": "Этот хадис объясняет кораническую фразу «И кто бы ни совершил доброе дело, Мы увеличиваем для него в нем благо» как указание на покорность Ахль аль-Байт عليهم السلام, правдивость о них и отказ от возведения на них лжи. Он представляет аят как указание на духовное достоинство искренней вилайи и правдивости в отношении Имамов عليهم السلام.",
-          "tr": "Bu hadis, \"Kim bir iyilik kazanırsa, onun için onda iyiliği artırırız\" şeklindeki Kur'ân ifadesini Ehl-i Beyt عليهم السلام'a teslimiyet, onlar hakkında doğru sözlülük ve onlara karşı yalan uydurmaktan sakınma olarak açıklar. Ayeti, İmamlar عليهم السلام hakkında samimi velâyet ve dürüstlüğün manevi faziletini vurgulayan bir ifade olarak sunar.",
-          "ur": "یہ حدیث قرآنی جملے \"اور جو کوئی نیکی کمائے، ہم اس میں اس کے لیے بھلائی بڑھا دیتے ہیں\" کی تفسیر اہلِ بیت عليهم السلام کے لیے تسلیم، ان کے بارے میں سچائی، اور ان پر جھوٹ نہ باندھنے کے طور پر کرتی ہے۔ یہ آیت ائمہ عليهم السلام کے بارے میں مخلص ولایت اور دیانت کی روحانی فضیلت کو نمایاں کرتی ہے۔",
-          "zh": "这段圣训将《古兰经》中的“而谁获得一件善功，我们就在其中为他增加善”解释为：顺服圣裔Ahlal-Bayt عليهم السلام，如实谈论他们，并且不要捏造谎言诋毁他们。它把这节经文呈现为强调对伊玛目 عليهم السلام真诚的ولاية和诚实所具有的精神优越。"
-        },
         "tags": [
           "quran_commentary",
           "theology",

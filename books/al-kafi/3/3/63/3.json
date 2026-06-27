@@ -14,6 +14,140 @@
       "up": "/books/al-kafi:3:3:63"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيٌّ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ مُحَمَّدِ بْنِ أَبِي حَمْزَةَ عَنْ رَجُلٍ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 23,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "لَمَّا مَاتَ إِسْمَاعِيلُ بْنُ أَبِي عَبْدِ اللَّهِ أَتَى أَبُو عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) الْقَبْرَ فَأَرْخَى نَفْسَهُ فَقَعَدَ ثُمَّ قَالَ رَحِمَكَ اللَّهُ وَ صَلَّى عَلَيْكَ وَ لَمْ يَنْزِلْ فِي قَبْرِهِ وَ قَالَ هَكَذَا فَعَلَ النَّبِيُّ ( صَلَّى اللَّهِ عَلَيْهِ وَآلِهِ ) بِإِبْرَاهِيمَ ( عَلَيْهِ السَّلَامُ )",
+            "chunk_type": "body",
+            "word_end": 70,
+            "word_start": 23
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 50,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيٌّ",
+              "name_en": "Ali",
+              "position": 1,
+              "role": "imam"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 7,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ أَبِي عُمَيْرٍ",
+              "name_en": "Ibn Abi Umayr",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 158,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ أَبِي حَمْزَةَ",
+              "name_en": "Muhammad ibn Abi Hamza",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 60,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "رَجُلٍ",
+              "name_en": "a man",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "إِسْمَاعِيلُ",
+          "أَرْخَى نَفْسَهُ",
+          "إِبْرَاهِيمُ",
+          "لَمْ يَنْزِلْ"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:161",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "36:19",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "family",
+          "afterlife",
+          "prophetic_tradition"
+        ],
+        "topics": [
+          "imams_biography",
+          "prophetic_character",
+          "death_dying"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مرسل  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (4/90)"
       ],
@@ -94,7 +228,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:3:63:3",

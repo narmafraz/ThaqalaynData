@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ أُتِيَ عَلِيٌّ عَلَيْهِ السَّلَامُ بِصَاحِبِ حَمَّامٍ وُضِعَتْ عِنْدَهُ الثِّيَابُ فَضَاعَتْ فَلَمْ يُضَمِّنْهُ وَ قَالَ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং ʿAlī عليه السلام-এর কাছে একটি স্নানাগারের মালিকের মামলা আনা হয়েছিল যার কাছে কাপড় রাখা হয়েছিল, পরে তা হারিয়ে যায়, তাই তিনি তাকে দায়ী করেননি এবং বললেন:",
-              "de": "Und ʿAlī عليه السلام wurde der Fall eines Bademeisters vorgelegt, dem Kleidung anvertraut worden war, die dann verloren ging, so dass er ihn nicht haftbar machte und sagte:",
-              "en": "And ʿAlī عليه السلام was brought the case of a bathhouse keeper with whom clothes had been placed, then they were lost, so he did not hold him liable, and he said:",
-              "es": "Y se presentó ante ʿAlī عليه السلام el caso de un encargado de baño con quien se habían dejado prendas, que luego se perdieron, por lo que no lo responsabilizó y dijo:",
-              "fa": "و به ʿAlī علیه السلام پرونده‌ای از صاحب حمامی که لباس‌هایی نزد او گذاشته شده بود و سپس گم شده بود، آورده شد، پس او را مسئول ندانست و گفت:",
-              "fr": "Et on présenta à ʿAlī عليه السلام le cas d’un gardien de bain auquel des vêtements avaient été confiés, puis ils furent perdus, il ne le tint pas responsable et dit :",
-              "id": "Dan ʿAlī عليه السلام dibawakan kasus seorang penjaga pemandian yang pakaian disimpan bersamanya, kemudian hilang, sehingga beliau tidak menuntutnya dan berkata:",
-              "ru": "И к ʿAlī عليه السلام был приведён случай с владельцем бани, которому были оставлены одежды, но они пропали, и он не признал его ответственным, сказав:",
-              "tr": "Ve ʿAlī عليه السلام'a, kıyafetlerin bırakıldığı bir hamam görevlisi vakası getirildi, sonra kıyafetler kayboldu, o da onu sorumlu tutmadı ve dedi ki:",
-              "ur": "اور ʿAlī علیہ السلام کے پاس ایک حمام کے رکھوالے کا معاملہ آیا جس کے پاس کپڑے رکھوائے گئے تھے، پھر وہ گم ہو گئے، تو انہوں نے اسے ذمہ دار نہیں ٹھہرایا، اور فرمایا:",
-              "zh": "并且ʿAlīعليهالسلام被带来一个浴室管理员的案件，衣物被放在他那里，后来丢失了，他没有追究他的责任，并说："
-            },
             "word_end": 15,
             "word_start": 0
           },
           {
             "arabic_text": "إِنَّمَا هُوَ أَمِينٌ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "সে কেবল একজন আমিন।",
-              "de": "Er ist nur ein Treuhänder.",
-              "en": "He is only a trustee.",
-              "es": "Él es solo un fiduciario.",
-              "fa": "او فقط امین است.",
-              "fr": "Il n’est qu’un dépositaire.",
-              "id": "Dia hanyalah seorang amanah.",
-              "ru": "Он лишь доверенное лицо.",
-              "tr": "O sadece bir emanetçidir.",
-              "ur": "وہ صرف ایک امین ہے۔",
-              "zh": "他只是一个受托人。"
-            },
             "word_end": 18,
             "word_start": 15
           }
@@ -81,25 +68,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَمِينٌ": "a trustee, one entrusted with property",
-            "الثِّيَابُ": "the clothes that had been deposited with him",
-            "صَاحِبِ حَمَّامٍ": "a bathhouse keeper or attendant entrusted with customers' belongings",
-            "فَضَاعَتْ": "they were lost",
-            "يُضَمِّنْهُ": "to hold him financially liable for the loss"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "صَاحِبِ حَمَّامٍ",
+          "الثِّيَابُ",
+          "فَضَاعَتْ",
+          "يُضَمِّنْهُ",
+          "أَمِينٌ"
+        ],
         "related_quran": [
           {
             "ref": "4:58",
@@ -110,32 +85,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি স্নানাগারের কাছে রাখা কাপড় হারিয়ে যায়, তাহলে কি স্নানাগারের মালিক দায়ী?",
-          "de": "Ist ein Bademeister haftbar, wenn hinterlegte Kleidung verloren geht?",
-          "en": "Is a bathhouse keeper liable if deposited clothes are lost?",
-          "es": "¿Es responsable un encargado de baño si se pierden las prendas depositadas?",
-          "fa": "آیا صاحب حمام در صورت گم شدن لباس‌های سپرده شده مسئول است؟",
-          "fr": "Un gardien de bain est-il responsable si les vêtements déposés sont perdus ?",
-          "id": "Apakah penjaga pemandian bertanggung jawab jika pakaian yang disimpan hilang?",
-          "ru": "Несет ли ответственность владелец бани, если потеряна оставленная одежда?",
-          "tr": "Bir hamam görevlisi, bırakılan kıyafetler kaybolursa sorumlu mudur?",
-          "ur": "کیا حمام کے رکھوالے کو گم شدہ کپڑوں کا ذمہ دار ٹھہرایا جا سکتا ہے؟",
-          "zh": "如果寄存的衣物丢失，浴室管理员是否负有责任？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে যখন স্নানাগারের মালিকের কাছে রাখা কাপড় হারিয়ে যায়, তখন ইমাম ʿAlī عليه السلام তাকে দায়ী করেননি। এই ফতোয়া এই নীতির উপর ভিত্তি করে যে এমন একজন ব্যক্তি শুধুমাত্র একজন আমিন হিসেবে বিবেচিত হয়, ভুল বা অবহেলার প্রমাণ ছাড়া ক্ষতির জন্য দায়ী নয়।",
-          "de": "Dieser Hadith besagt, dass als Kleidung, die einem Bademeister anvertraut wurde, verloren ging, Imam ʿAlī عليه السلام ihn nicht haftbar machte. Das Urteil basiert auf dem Prinzip, dass eine solche Person als Treuhänder gilt und nicht automatisch für Verluste ohne Nachweis von Fehlverhalten oder Fahrlässigkeit verantwortlich ist.",
-          "en": "This hadith states that when clothing deposited with a bathhouse keeper was lost, Imam ʿAlī عليه السلام did not impose liability upon him. The ruling is based on the principle that such a person is regarded as a trustee, not automatically responsible for loss without proof of wrongdoing or negligence.",
-          "es": "Este hadiz establece que cuando la ropa depositada con un encargado de baño se perdió, el Imam ʿAlī عليه السلام no le impuso responsabilidad. La regla se basa en el principio de que tal persona es considerada un fiduciario, no automáticamente responsable de la pérdida sin prueba de mala conducta o negligencia.",
-          "fa": "این حدیث بیان می‌کند که وقتی لباس‌هایی نزد صاحب حمام گذاشته شد و گم شد، امام ʿAlī علیه السلام او را مسئول ندانست. حکم بر اساس این اصل است که چنین فردی به عنوان امین شناخته می‌شود و بدون اثبات تقصیر یا سهل‌انگاری مسئول خسارت نیست.",
-          "fr": "Ce hadith indique que lorsque des vêtements déposés chez un gardien de bain ont été perdus, l’Imam ʿAlī عليه السلام ne l’a pas tenu responsable. Le jugement repose sur le principe que cette personne est considérée comme un dépositaire, non automatiquement responsable de la perte sans preuve de faute ou de négligence.",
-          "id": "Hadis ini menyatakan bahwa ketika pakaian yang disimpan pada penjaga pemandian hilang, Imam ʿAlī عليه السلام tidak membebankan tanggung jawab kepadanya. Hukum ini didasarkan pada prinsip bahwa orang tersebut dianggap sebagai amanah, bukan otomatis bertanggung jawab atas kehilangan tanpa bukti kesalahan atau kelalaian.",
-          "ru": "Этот хадис говорит о том, что когда одежда, оставленная у владельца бани, была утеряна, Имам ʿAlī عليه السلام не возложил на него ответственность. Решение основано на принципе, что такой человек считается доверенным лицом и не несет автоматической ответственности за потерю без доказательств проступка или небрежности.",
-          "tr": "Bu hadis, kıyafetlerin bir hamam görevlisine bırakılıp kaybolması durumunda İmam ʿAlī عليه السلام'ın onu sorumlu tutmadığını belirtir. Hüküm, böyle bir kişinin sadece bir emanetçi olarak kabul edilmesi ve yanlışlık ya da ihmal kanıtı olmadan kayıptan sorumlu tutulmaması ilkesine dayanır.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ جب کپڑے حمام کے رکھوالے کے پاس رکھے گئے اور گم ہو گئے تو امام ʿAlī علیہ السلام نے انہیں ذمہ دار نہیں ٹھہرایا۔ یہ حکم اس اصول پر مبنی ہے کہ ایسا شخص صرف ایک امین سمجھا جاتا ہے، بغیر غلطی یا غفلت کے ثبوت کے نقصان کا ذمہ دار نہیں ہوتا۔",
-          "zh": "这段圣训说明，当衣物寄放在浴室管理员处丢失时，伊玛目ʿAlīعليهالسلام并未追究其责任。此判决基于原则，此类人被视为受托人，未经证明有过失或疏忽，不自动对损失负责。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations",

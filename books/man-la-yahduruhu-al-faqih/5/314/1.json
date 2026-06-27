@@ -18,23 +18,23 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ مَا كَانَ فِي هَ عَنْ أَحْمَدَ بْنِ هِلَالٍ فَقَدْ رَوَيْتُهُ عَنْ أَبِي؛ وَ مُحَمَّدِ بْنِ الْحَسَنِ- رَضِيَ اللَّهُ عَنْهُمَا- عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ، عَنْ أَحْمَدَ بْنِ هِلَالٍ.",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং যা কিছু এইচ-এ আহমদ ইবনে হিলাল থেকে আছে, আমি তা আমার পিতা থেকে এবং মুহাম্মদ ইবনে আল-হাসান—তাদের দুজনের প্রতি আল্লাহ সন্তুষ্ট হন—থেকে সাআদ ইবনে আবদুল্লাহ, আহমদ ইবনে হিলাল থেকে বর্ণনা করেছি।",
-              "de": "Und alles, was in H von Aḥmad ibn Hilāl ist, habe ich von meinem Vater und von Muḥammad ibn al-Ḥasan—möge Allah mit beiden zufrieden sein—von Saʿd ibn ʿAbd Allah, von Aḥmad ibn Hilāl überliefert.",
-              "en": "And whatever is in H from Aḥmad ibn Hilāl, I have narrated it from my father and from Muḥammad ibn al-Ḥasan—may Allah be pleased with them both—from Saʿd ibn ʿAbd Allah, from Aḥmad ibn Hilāl.",
-              "es": "Y todo lo que está en H de Aḥmad ibn Hilāl, lo he narrado de mi padre y de Muḥammad ibn al-Ḥasan—que Allah esté complacido con ambos—de Saʿd ibn ʿAbd Allah, de Aḥmad ibn Hilāl.",
-              "fa": "و هرچه در ه از احمد بن هلال است، من آن را از پدرم و از محمد بن الحسن—رضی الله عنهما—از سعد بن عبدالله، از احمد بن هلال روایت کرده‌ام.",
-              "fr": "Et tout ce qui se trouve dans H de Aḥmad ibn Hilāl, je l'ai rapporté de mon père et de Muḥammad ibn al-Ḥasan—qu'Allah soit satisfait d'eux deux—de Saʿd ibn ʿAbd Allah, de Aḥmad ibn Hilāl.",
-              "id": "Dan apa pun yang ada dalam H dari Aḥmad ibn Hilāl, saya meriwayatkannya dari ayah saya dan dari Muḥammad ibn al-Ḥasan—semoga Allah meridhai keduanya—dari Saʿd ibn ʿAbd Allah, dari Aḥmad ibn Hilāl.",
-              "ru": "И всё, что в H от Ахмада ибн Хиляля, я передал от своего отца и от Мухаммада ибн аль-Хасана — да будет доволен ими Аллах — от Саʿда ибн ʿАбд Аллаха, от Ахмада ибн Хиляля.",
-              "tr": "Ve H'de Ahmed ibn Hilāl'dan ne varsa, onu babamdan ve Muhammed ibn al-Hasan'dan—Allah ikisinden razı olsun—Saʿd ibn ʿAbd Allah'tan, Ahmed ibn Hilāl'dan rivayet ettim.",
-              "ur": "اور جو کچھ بھی ہ میں احمد بن ہلال سے ہے، میں نے اسے اپنے والد سے اور محمد بن الحسن-رضی اللہ عنہما- سے سعد بن عبد اللہ سے، احمد بن ہلال سے روایت کیا ہے۔",
-              "zh": "以及H中所有来自AḥmadibnHilāl的内容，我是从我的父亲以及穆罕默德ibnal-Ḥasan—愿真主喜悦他们二人—从SaʿdibnʿAbdAllah，再从AḥmadibnHilāl传述的。"
-            },
             "word_end": 29,
             "word_start": 0
           }
@@ -63,51 +63,13 @@
             "phrase_en": "May Allah be pleased with him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "رَوَيْتُهُ": "I transmitted it; an expression indicating the author’s mode of narration",
-            "عَنْ أَبِي": "from my father; part of the author’s transmission route",
-            "عَنْ أَحْمَدَ بْنِ هِلَالٍ": "from Aḥmad ibn Hilāl; the named transmitter to whom the chain leads",
-            "عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ": "from Saʿd ibn ʿAbd Allah; a link in the sanad/isnad"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رَوَيْتُهُ",
+          "عَنْ أَبِي",
+          "عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ",
+          "عَنْ أَحْمَدَ بْنِ هِلَالٍ"
+        ],
         "related_quran": [],
-        "seo_questions": {
-          "bn": "মান লা ইয়াহদুরুহু আল-ফাকিহ-এ আহমদ ইবনে হিলালের কাছে সংক্রমণ চেইন কী?",
-          "de": "Wie lautet die Überlieferungskette zu Aḥmad ibn Hilāl in Man Lā Yaḥḍuruhu al-Faqīh?",
-          "en": "What is the transmission chain to Aḥmad ibn Hilāl in Man Lā Yaḥḍuruhu al-Faqīh?",
-          "es": "¿Cuál es la cadena de transmisión a Aḥmad ibn Hilāl en Man Lā Yaḥḍuruhu al-Faqīh?",
-          "fa": "زنجیره انتقال به احمد بن هلال در کتاب من لا یحضره الفقیه چیست؟",
-          "fr": "Quelle est la chaîne de transmission jusqu'à Aḥmad ibn Hilāl dans Man Lā Yaḥḍuruhu al-Faqīh ?",
-          "id": "Apa rantai transmisi ke Aḥmad ibn Hilāl dalam Man Lā Yaḥḍuruhu al-Faqīh?",
-          "ru": "Какова цепочка передачи к Ахмаду ибн Хилялю в «Ман Ла Яхдуруху аль-Факих»?",
-          "tr": "Man Lā Yaḥḍuruhu al-Faqīh'de Ahmed ibn Hilāl'a olan nakil zinciri nedir?",
-          "ur": "من لا يحضره الفقيہ میں احمد بن ہلال تک کی سند کیا ہے؟",
-          "zh": "ManLāYaḥḍuruhual-Faqīh中通往AḥmadibnHilāl的传递链是什么？"
-        },
-        "summaries": {
-          "bn": "এই অংশটি সেই sanad/isnad স্পষ্ট করে যার মাধ্যমে লেখক আহমদ ইবনে হিলালের বর্ণনাগুলো পরিবেশন করেন। এটি একটি প্রযুক্তিগত নোট হিসেবে কাজ করে যা মধ্যস্থতাকারীদের চিহ্নিত করে যাদের মাধ্যমে এই বর্ণনাগুলো প্রাপ্ত হয়েছে।",
-          "de": "Dieser Abschnitt klärt die Überlieferungskette (Sanad/Isnad), durch die der Autor Berichte von Aḥmad ibn Hilāl übermittelt. Er dient als technische Anmerkung zur Übertragung und identifiziert die Vermittler, durch die diese Berichte empfangen wurden.",
-          "en": "This passage clarifies the sanad/isnad by which the author transmits narrations from Aḥmad ibn Hilāl. It serves as a technical note of transmission, identifying the intermediaries through whom these reports were received.",
-          "es": "Este pasaje aclara la cadena de transmisión (sanad/isnad) por la cual el autor transmite narraciones de Aḥmad ibn Hilāl. Sirve como una nota técnica de transmisión, identificando a los intermediarios a través de los cuales se recibieron estos informes.",
-          "fa": "این بخش سندی را که نویسنده از احمد بن هلال روایت می‌کند، روشن می‌سازد. این به عنوان یادداشت فنی انتقال عمل می‌کند که واسطه‌هایی را که این گزارش‌ها از طریق آن‌ها دریافت شده‌اند، مشخص می‌کند.",
-          "fr": "Ce passage clarifie le sanad/isnad par lequel l'auteur transmet les récits d'Aḥmad ibn Hilāl. Il sert de note technique de transmission, identifiant les intermédiaires par lesquels ces rapports ont été reçus.",
-          "id": "Bagian ini menjelaskan sanad/isnad yang digunakan penulis untuk menyalurkan riwayat dari Aḥmad ibn Hilāl. Ini berfungsi sebagai catatan teknis transmisi yang mengidentifikasi perantara yang melalui mereka laporan ini diterima.",
-          "ru": "Этот отрывок разъясняет цепочку передачи (санад/иснад), по которой автор передаёт рассказы от Ахмада ибн Хиляля. Это служит технической заметкой о передаче, идентифицируя посредников, через которых были получены эти сообщения.",
-          "tr": "Bu pasaj, yazarın Ahmed ibn Hilāl'dan rivayetleri aktardığı isnadı açıklamaktadır. Bu, bu rivayetlerin hangi aracılar vasıtasıyla alındığını belirten teknik bir not olarak hizmet eder.",
-          "ur": "یہ عبارت سند کی وضاحت کرتی ہے جس کے ذریعے مصنف احمد بن ہلال کی روایات نقل کرتا ہے۔ یہ ایک فنی نوٹ کے طور پر کام کرتی ہے جو ان واسطوں کی نشاندہی کرتی ہے جن کے ذریعے یہ روایات موصول ہوئی ہیں۔",
-          "zh": "本段澄清了作者传述AḥmadibnHilāl传闻的传递链（sanad/isnad）。它作为传递的技术说明，标识了通过其接收这些报告的中介。"
-        },
         "tags": [
           "knowledge",
           "prophetic_tradition",

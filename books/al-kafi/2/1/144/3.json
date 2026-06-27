@@ -13,6 +13,157 @@
       "up": "/books/al-kafi:2:1:144"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ مُحَمَّدٍ عَنْ صَالِحِ بْنِ أَبِي حَمَّادٍ عَنِ ابْنِ أَبِي عُمَيْرٍ وَ ابْنِ فَضَّالٍ عَنْ رِجَالٍ شَتَّى عَنْ أَبِي جَعْفَرٍ وَ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) أَنَّهُمَا قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 31,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "كُفْرٌ بِاللَّهِ الْعَظِيمِ الِانْتِفَاءُ مِنْ حَسَبٍ وَ إِنْ دَقَّ",
+            "chunk_type": "body",
+            "word_end": 40,
+            "word_start": 31
+          }
+        ],
+        "content_type": "creedal",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 35,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ مُحَمَّدٍ",
+              "name_en": "Ali ibn Muhammad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 166,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "صَالِحِ بْنِ أَبِي حَمَّادٍ",
+              "name_en": "Salih ibn Abi Hammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 7,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ أَبِي عُمَيْرٍ",
+              "name_en": "Ibn Abi Umayr",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 22,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ فَضَّالٍ",
+              "name_en": "Ibn Faddal",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1464,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "رِجَالٍ شَتَّى",
+              "name_en": "rijal shat-ta",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 9,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي جَعْفَرٍ",
+              "name_en": "Abu Ja'far",
+              "position": 6,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": null,
+              "identity_confidence": "ambiguous",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام ) أَنَّهُمَا",
+              "name_en": "Abi Abdillah",
+              "position": 7,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الِانْتِفَاءُ",
+          "حَسَبٍ",
+          "كُفْرٌ",
+          "اللَّهُ الْعَظِيمُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "17:23",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "9:67",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "3:61",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "49:13",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "theology",
+          "family"
+        ],
+        "topics": [
+          "kinship",
+          "divine_attributes",
+          "imams_biography"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (0/376)"
       ],
@@ -101,7 +252,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:1:144:3",

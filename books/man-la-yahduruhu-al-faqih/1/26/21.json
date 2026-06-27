@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى الْحَلَبِيُّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ أَنَّهُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হালাবী আবী আব্দুল্লাহ (আলেইহিস সালাম) থেকে বর্ণনা করেছেন যে তিনি বললেন:",
-              "de": "Al-Ḥalabī berichtete von Abī ʿAbdِ اللَّهِ عليه السلام, dass er sagte:",
-              "en": "Al-Ḥalabī narrated from Abī ʿAbdِ اللَّهِ عليه السلام that he said:",
-              "es": "Al-Ḥalabī narró de Abī ʿAbdِ اللَّهِ عليه السلام que dijo:",
-              "fa": "الْحَلَبِي از ابی عبد اللَّه علیه السلام نقل کرده که فرمود:",
-              "fr": "Al-Ḥalabī a rapporté d'Abī ʿAbdِ اللَّهِ عليه السلام qu'il a dit :",
-              "id": "Al-Ḥalabī meriwayat dari Abī ʿAbdِ اللَّهِ عليه السلام bahwa beliau berkata:",
-              "ru": "Аль-Халаби передал от Аби Абдиллаха (алейхиссалам), что он сказал:",
-              "tr": "El-Halebi, Ebu Abdillah (aleyhisselam)'dan rivayet etti ki şöyle dedi:",
-              "ur": "الْحَلَبِي نے ابی عبد اللہ علیہ السلام سے روایت کی کہ انہوں نے فرمایا:",
-              "zh": "الْحَلَبِي从阿比阿卜杜拉（愿他平安）那里传述说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "إِذَا أَدْرَكَ الرَّجُلُ التَّكْبِيرَةَ وَ التَّكْبِيرَتَيْنِ مِنَ الصَّلَاةِ عَلَى الْمَيِّتِ فَلْيَقْضِ مَا بَقِيَ مُتَتَابِعًا",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি কেউ মৃত ব্যক্তির উপর সালাতের এক বা দুইটি তাকবীর ধরতে পারে, তবে তাকে বাকি তাকবীরগুলি ধারাবাহিকভাবে সম্পন্ন করতে হবে।",
-              "de": "Wenn ein Mann eine oder zwei Takbīras des Gebets über den Verstorbenen erreicht, soll er den Rest nacheinander vervollständigen.",
-              "en": "If a man catches one takbīrah or two takbīrahs of the prayer over the deceased, then let him complete what remains consecutively.",
-              "es": "Si un hombre alcanza una o dos takbīras de la oración sobre el difunto, entonces debe completar lo que queda consecutivamente.",
-              "fa": "اگر مردی یک یا دو تکبیر از نماز بر میت را به جا آورد، باید بقیه را به صورت متوالی به پایان برساند.",
-              "fr": "Si un homme attrape une ou deux takbīras de la prière sur le défunt, qu'il complète ce qui reste consécutivement.",
-              "id": "Jika seseorang menangkap satu atau dua takbīrah dalam salat atas jenazah, maka hendaklah dia menyelesaikan sisa takbīrah secara berurutan.",
-              "ru": "Если человек успевает на одну или две такбиры в молитве над умершим, пусть завершит оставшееся подряд.",
-              "tr": "Eğer bir adam cenaze namazında bir veya iki takbîre yetişirse, kalanını ardışık olarak tamamlasın.",
-              "ur": "اگر کوئی شخص میت پر نماز میں ایک یا دو تکبیر پکڑ لے تو اسے باقی نماز کو متواتر پورا کرنا چاہیے۔",
-              "zh": "如果一个人在为死者的祈祷中赶上了一次或两次塔克比拉，他应当连续完成剩余的部分。"
-            },
             "word_end": 25,
             "word_start": 11
           }
@@ -92,25 +79,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "التَّكْبِيرَةَ": "a single takbir in the funeral prayer",
-            "التَّكْبِيرَتَيْنِ": "two takbirs already caught in the funeral prayer",
-            "الصَّلَاةِ عَلَى الْمَيِّتِ": "the funeral prayer performed over the deceased",
-            "فَلْيَقْضِ": "let him complete or make up what remains",
-            "مُتَتَابِعًا": "in uninterrupted consecutive order"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "التَّكْبِيرَةَ",
+          "التَّكْبِيرَتَيْنِ",
+          "الصَّلَاةِ عَلَى الْمَيِّتِ",
+          "فَلْيَقْضِ",
+          "مُتَتَابِعًا"
+        ],
         "related_quran": [
           {
             "ref": "2:238",
@@ -121,32 +96,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কেউ কিছু তাকবীর মিস করে মৃত ব্যক্তির সালাতে যোগ দেয়, তাহলে তাকে কী করতে হবে?",
-          "de": "Was soll eine Person tun, wenn sie nach dem Verpassen einiger Takbīras an der Beerdigungsgebet teilnimmt?",
-          "en": "What should a person do if he joins the funeral prayer after missing some takbirs?",
-          "es": "¿Qué debe hacer una persona si se une a la oración funeraria después de perder algunas takbirs?",
-          "fa": "اگر کسی پس از از دست دادن چند تکبیر به نماز میت بپیوندد، چه باید بکند؟",
-          "fr": "Que doit faire une personne si elle rejoint la prière funéraire après avoir manqué quelques takbīras ?",
-          "id": "Apa yang harus dilakukan seseorang jika bergabung dalam salat jenazah setelah melewatkan beberapa takbīrah?",
-          "ru": "Что должен делать человек, если он присоединился к молитве над умершим, пропустив несколько такбиров?",
-          "tr": "Bir kişi cenaze namazına bazı takbîreleri kaçırdıktan sonra katılırsa ne yapmalıdır?",
-          "ur": "اگر کوئی شخص کچھ تکبیرات مس کر کے میت کی نماز میں شامل ہو جائے تو اسے کیا کرنا چاہیے؟",
-          "zh": "如果一个人在错过一些塔克比拉后加入殡葬祈祷，他应该怎么办？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি মৃত ব্যক্তির উপর সালাত শুরু হওয়ার পর যোগদানের বিষয়ে শারঈ حکم প্রদান করে। যদি কেউ মাত্র এক বা দুই তাকবীর ধরতে পারে, তবে তাকে অবশিষ্ট তাকবীরগুলি অবিলম্বে ধারাবাহিকভাবে সম্পন্ন করতে হবে।",
-          "de": "Dieser Hadith gibt eine Rechtsvorschrift zum Nachholen der Salat über den Verstorbenen, wenn man erst nach Beginn dazukommt. Wenn jemand nur eine oder zwei Takbīras erwischt, soll er den Rest sofort nacheinander verrichten.",
-          "en": "This hadith gives a legal ruling about joining salat over the deceased after it has already begun. If someone catches only one or two takbirs, he should make up the remaining takbirs in immediate succession.",
-          "es": "Este hadiz da un fallo legal sobre unirse a la oración funeraria después de que ya ha comenzado. Si alguien solo alcanza una o dos takbirs, debe completar las restantes de inmediato y consecutivamente.",
-          "fa": "این حدیث حکم شرعی درباره پیوستن به نماز میت پس از شروع آن را بیان می‌کند. اگر کسی تنها یک یا دو تکبیر را به جا آورد، باید بقیه را بلافاصله به صورت متوالی انجام دهد.",
-          "fr": "Ce hadith donne un jugement légal concernant le fait de rejoindre la prière funéraire après son commencement. Si quelqu'un attrape une ou deux takbīras, il doit compléter les restantes immédiatement et consécutivement.",
-          "id": "Hadis ini memberikan hukum tentang bergabung dalam salat jenazah setelah salat sudah dimulai. Jika seseorang hanya menangkap satu atau dua takbīrah, ia harus menyelesaikan sisa takbīrah secara langsung.",
-          "ru": "Этот хадис содержит правовое постановление о присоединении к молитве над умершим после её начала. Если человек успевает на одну или две такбиры, он должен сразу же последовательно завершить оставшиеся.",
-          "tr": "Bu hadis, cenaze namazına başladıktan sonra katılan kişinin kalan namazı tamamlamasıyla ilgili hükmü verir. Eğer biri sadece bir veya iki takbîre yetişirse, kalanını hemen tamamlamalıdır.",
-          "ur": "یہ حدیث میت پر نماز میں شامل ہونے کے بعد باقی نماز مکمل کرنے کے شرعی حکم کے بارے میں ہے۔ اگر کوئی شخص صرف ایک یا دو تکبیر پکڑتا ہے تو اسے باقی تکبیرات فوراً مکمل کرنی چاہئیں۔",
-          "zh": "此圣训阐述了在殡葬祈祷开始后加入的法律规定。如果有人只赶上了一次或两次塔克比拉，应立即连续完成剩余部分。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

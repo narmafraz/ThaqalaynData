@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَفِي رِوَايَةِ طَلْحَةَ بْنِ زَيْدٍ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ أَبِيهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং তলহা ইবনে জায়েদের বর্ণনায়, জাফর ইবনে মুহাম্মদ থেকে, তাঁর পিতা থেকে, শান্তি তাঁর উপর, যিনি বললেন:",
-              "de": "Und in der Überlieferung von Ṭalḥah ibn Zayd, von Jaʿfar ibn Muḥammad, von seinem Vater, Friede sei mit ihm, der sagte:",
-              "en": "And in the narration of Ṭalḥah ibn Zayd, from Jaʿfar ibn Muḥammad, from his father, peace be upon him, who said:",
-              "es": "Y en la narración de Ṭalḥah ibn Zayd, de Jaʿfar ibn Muḥammad, de su padre, la paz sea con él, quien dijo:",
-              "fa": "و در روایت طلحة بن زید، از جعفر بن محمد، از پدرش، سلام‌الله‌علیه، که فرمود:",
-              "fr": "Et dans la narration de Ṭalḥah ibn Zayd, de Jaʿfar ibn Muḥammad, de son père, que la paix soit sur lui, qui a dit :",
-              "id": "Dan dalam riwayat Ṭalḥah ibn Zayd, dari Jaʿfar ibn Muḥammad, dari ayahnya, semoga keselamatan atasnya, yang berkata:",
-              "ru": "И в передаче Ṭalḥah ибн Зайд, от Jaʿfar ибн Мухаммад, от его отца, мир ему, который сказал:",
-              "tr": "Ve Ṭalḥah ibn Zayd rivayetinde, Jaʿfar ibn Muḥammad'dan, babasından, üzerine selam olsun, şöyle dedi:",
-              "ur": "اور طلحہ بن زید کی روایت میں، جعفر بن محمد سے، ان کے والد علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "在ṬalḥahibnZayd的传述中，来自JaʿfaribnMuḥammad，来自他的父亲，愿他安息，他说："
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ عَلِيٌّ عَلَيْهِ السَّلَامُ الشُّفْعَةُ عَلَى عَدَدِ الرِّجَالِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আলী, শান্তি তাঁর উপর, বললেন: “শুফʿাহের অধিকার পুরুষদের সংখ্যার উপর নির্ভর করে।”",
-              "de": "ʿAlī, Friede sei mit ihm, sagte: „Das Recht der Schufʿah richtet sich nach der Anzahl der Männer.“",
-              "en": "ʿAlī, peace be upon him, said: “The right of pre-emption is according to the number of men.”",
-              "es": "ʿAlī, la paz sea con él, dijo: “El derecho de preempción es según el número de hombres.”",
-              "fa": "علی علیه‌السلام فرمود: «حق شفعه بر اساس تعداد مردان است.»",
-              "fr": "ʿAlī, que la paix soit sur lui, a dit : « Le droit de shufʿah est selon le nombre d’hommes. »",
-              "id": "ʿAlī, semoga keselamatan atasnya, berkata: “Hak shufʿah sesuai dengan jumlah laki-laki.”",
-              "ru": "ʿAlī, мир ему, сказал: «Право шфʿа определяется по числу мужчин.»",
-              "tr": "ʿAlī, üzerine selam olsun, dedi ki: “Şufʿah hakkı erkeklerin sayısına göredir.”",
-              "ur": "علی علیہ السلام نے فرمایا: \"شفعت مردوں کی تعداد کے مطابق ہے۔\"",
-              "zh": "ʿAlī愿他安息说：“优先购买权根据男性人数。”"
-            },
             "word_end": 22,
             "word_start": 14
           }
@@ -81,25 +68,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبِيهِ": "his father, referring to the preceding Imam in the chain",
-            "الرِّجَالِ": "the men, meaning the male claimants or participants in this legal context",
-            "الشُّفْعَةُ": "the right of pre-emption in jointly owned or adjacent property",
-            "رِوَايَةِ": "a transmitted narration or report",
-            "عَدَدِ": "the number or count"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رِوَايَةِ",
+          "أَبِيهِ",
+          "الشُّفْعَةُ",
+          "عَدَدِ",
+          "الرِّجَالِ"
+        ],
         "related_quran": [
           {
             "ref": "4:29",
@@ -110,32 +85,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামী আইনে একাধিক দাবিদারের মধ্যে শুফʿাহ অধিকার কীভাবে বিভক্ত হয়?",
-          "de": "Wie wird das Recht der Schufʿah unter mehreren Anspruchsberechtigten im islamischen Recht aufgeteilt?",
-          "en": "How is the right of pre-emption divided among multiple claimants in Islamic law?",
-          "es": "¿Cómo se divide el derecho de preempción entre varios reclamantes en la ley islámica?",
-          "fa": "در فقه اسلامی حق شفعه چگونه بین چندین مدعی تقسیم می‌شود؟",
-          "fr": "Comment le droit de préemption est-il divisé entre plusieurs demandeurs en droit islamique ?",
-          "id": "Bagaimana hak shufʿah dibagi di antara beberapa penuntut dalam hukum Islam?",
-          "ru": "Как в исламском праве распределяется право преимущественной покупки между несколькими претендентами?",
-          "tr": "İslami hukukta birden fazla talep sahibi arasında şufʿah hakkı nasıl bölünür?",
-          "ur": "اسلامی قانون میں متعدد دعویداروں کے درمیان حقِ شفعہ کیسے تقسیم ہوتا ہے؟",
-          "zh": "伊斯兰法中优先购买权如何在多个申诉人之间分配？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি শুফʿাহ সম্পর্কিত একটি ফিকহী বিধান বর্ণনা করে যা যৌথ সম্পত্তিতে পুরুষদের সংখ্যার ভিত্তিতে শুফʿাহর অধিকার নির্ধারণ করে, যা অংশীদারদের মধ্যে মালিকানা ভাগ এবং আইনি দাবির সাথে সম্পর্কিত।",
-          "de": "Dieser Hadith legt eine rechtliche Regelung bezüglich der Schufʿah, dem Vorkaufsrecht bei Gemeinschaftseigentum, fest. Er besagt, dass dieses Recht entsprechend der Anzahl der Männer bestimmt wird, was für Eigentumsanteile und rechtliche Ansprüche unter Partnern relevant ist.",
-          "en": "This hadith states a legal ruling concerning shufʿah, the right of pre-emption in shared property. It indicates that this right is determined in accordance with the number of men involved, making it relevant to questions of ownership shares and legal claims among partners.",
-          "es": "Este hadiz establece un fallo legal sobre la shufʿah, el derecho de preempción en propiedad compartida, indicando que este derecho se determina según el número de hombres involucrados, siendo relevante para las participaciones de propiedad y reclamaciones legales entre socios.",
-          "fa": "این حدیث حکم فقهی درباره شفعه، حق تقدم در اموال مشترک را بیان می‌کند که بر اساس تعداد مردان تعیین می‌شود و مرتبط با سهم مالکیت و دعاوی حقوقی میان شرکا است.",
-          "fr": "Ce hadith énonce un jugement juridique concernant la shufʿah, le droit de préemption dans la propriété partagée. Il indique que ce droit est déterminé selon le nombre d’hommes impliqués, ce qui est pertinent pour les parts de propriété et les revendications légales entre partenaires.",
-          "id": "Hadis ini menyatakan hukum terkait shufʿah, hak pre-emptive dalam properti bersama, yang ditentukan sesuai jumlah laki-laki, relevan dengan pembagian kepemilikan dan klaim hukum antar mitra.",
-          "ru": "Этот хадис излагает юридическое постановление о шфʿа, праве преимущественной покупки в общей собственности, указывая, что это право определяется в соответствии с числом мужчин, что важно для долей владения и юридических претензий между партнерами.",
-          "tr": "Bu hadis, ortak mülkiyette şufʿah hakkının erkek sayısına göre belirlendiğine dair hukuki bir hükmü belirtir; bu, ortaklar arasındaki mülkiyet payları ve yasal taleplerle ilgilidir.",
-          "ur": "یہ حدیث شفعہ کے بارے میں ایک فقہی حکم بیان کرتی ہے جو مشترکہ ملکیت میں حقِ شفعہ کو مردوں کی تعداد کے مطابق متعین کرتی ہے، جو شراکت داروں کے درمیان ملکیت کے حصص اور قانونی دعووں سے متعلق ہے۔",
-          "zh": "此圣训陈述了关于优先购买权（shufʿah）的法律裁决，该权利根据男性人数确定，适用于共有财产中所有权份额及合伙人间的法律主张。"
-        },
         "tags": [
           "jurisprudence",
           "economy",

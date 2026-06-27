@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ مُحَمَّدِ بْنِ زِيَادٍ عَنْ مَنْصُورِ بْنِ يُونُسَ عَنِ الْعَبْدِ الصَّالِحِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, মুহাম্মাদ ইবন জিয়াদ থেকে, মানসুর ইবন ইউনুস থেকে, আল-‘আব্দ আল-সালিহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Von ihm, von Muhammad ibn Ziyad, von Mansur ibn Yunus, von al-ʿAbd al-Ṣalih عليه السلام, der sagte:",
-              "en": "From him, from Muḥammad ibn Ziyād, from Manṣūr ibn Yūnus, from al-ʿAbd al-Ṣāliḥ عليه السلام, who said:",
-              "es": "De él, de Muhammad ibn Ziyad, de Mansur ibn Yunus, de al-‘Abd al-Salih عليه السلام, quien dijo:",
-              "fa": "از او، از محمد بن زیاد، از منصور بن یونس، از العبد الصالح علیه‌السلام، که فرمود:",
-              "fr": "De lui, de Muhammad ibn Ziyad, de Mansur ibn Yunus, de al-‘Abd al-Salih عليه السلام, qui a dit :",
-              "id": "Darinya, dari Muhammad ibn Ziyad, dari Mansur ibn Yunus, dari al-‘Abd al-Salih عليه السلام, yang berkata:",
-              "ru": "От него, от Мухаммада ибн Зияда, от Мансура ибн Юнуса, от аль-ʿАбд ас-Салиха عليه السلام, который сказал:",
-              "tr": "Ondan, Muhammed ibn Ziyad’dan, Mansur ibn Yunus’tan, el-Abdü’s-Salih aleyhisselam’dan, şöyle dedi:",
-              "ur": "ان سے، محمد بن زیاد سے، منصور بن یونس سے، العبد الصالح علیہ السلام سے، انہوں نے فرمایا:",
-              "zh": "由他传述，来自穆罕默德·伊本·齐亚德，来自曼苏尔·伊本·尤努斯，来自al-ʿAbd al-Ṣāliḥ عليه السلام，他说："
-            },
             "word_end": 15,
             "word_start": 0
           },
           {
             "arabic_text": "سَمِعْتُهُ يَقُولُ: «إِذَا زَالَتِ الشَّمْسُ فَقَدْ دَخَلَ وَقْتُ الصَّلَاتَيْنِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁকে বলতে শুনেছি: “যখন সূর্য মধ্যরেখা অতিক্রম করে, তখন দুই সালাতের সময় প্রবেশ করে।”",
-              "de": "Ich hörte ihn sagen: „Wenn die Sonne den Meridian überschreitet, dann ist die Zeit der beiden Gebete eingetreten.“",
-              "en": "I heard him saying: “When the sun passes the meridian, then the time of the two prayers has entered.”",
-              "es": "Le oí decir: “Cuando el sol pasa el meridiano, entonces ha entrado el tiempo de las dos oraciones.”",
-              "fa": "از او شنیدم که می‌فرمود: «هنگامی که خورشید از نصف‌النهار بگذرد، وقتِ دو نماز داخل شده است.»",
-              "fr": "Je l’ai entendu dire : « Lorsque le soleil passe le méridien, alors le temps des deux prières est entré. »",
-              "id": "Aku mendengarnya berkata: “Apabila matahari telah tergelincir dari meridian, maka waktu dua salat telah masuk.”",
-              "ru": "Я слышал, как он говорил: «Когда солнце проходит меридиан, наступает время двух молитв».",
-              "tr": "Onun şöyle dediğini işittim: “Güneş meridyeni geçtiğinde, iki namazın vakti girmiş olur.”",
-              "ur": "میں نے انہیں یہ فرماتے ہوئے سنا: “جب سورج نصف النہار سے ڈھل جائے تو دو نمازوں کا وقت داخل ہو جاتا ہے۔”",
-              "zh": "我听见他说：“当太阳过中天时，两番礼拜的时间就已经进入了。”"
-            },
             "word_end": 24,
             "word_start": 15
           }
@@ -104,25 +91,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الشَّمْسُ": "the sun, whose movement marks the prayer time",
-            "الصَّلَاتَيْنِ": "the two prayers, meaning ẓuhr and ʿaṣr in context",
-            "الْعَبْدِ الصَّالِحِ": "a title for the Imam عليه السلام in the chain",
-            "زَالَتِ": "passed the meridian; declined from the zenith",
-            "وَقْتُ": "the appointed time for an act of worship"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "زَالَتِ",
+          "الشَّمْسُ",
+          "وَقْتُ",
+          "الصَّلَاتَيْنِ",
+          "الْعَبْدِ الصَّالِحِ"
+        ],
         "related_quran": [
           {
             "ref": "17:78",
@@ -137,32 +112,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে দিনের দুই সালাতের সময় কখন শুরু হয়?",
-          "de": "Wann beginnt in der schiitischen Hadithüberlieferung die Zeit der beiden Tagesgebete?",
-          "en": "When does the time of the two daytime prayers begin in Shia hadith?",
-          "es": "¿Cuándo comienza el tiempo de las dos oraciones diurnas en el hadiz chií?",
-          "fa": "در حدیث شیعه وقتِ دو نمازِ روزانه چه زمانی آغاز می‌شود؟",
-          "fr": "Quand commence le temps des deux prières diurnes dans le hadith chiite ?",
-          "id": "Kapan waktu dua salat siang dimulai dalam hadis Syiah?",
-          "ru": "Когда в шиитском хадисе начинается время двух дневных молитв?",
-          "tr": "Şii hadiste gündüz kılınan iki namazın vakti ne zaman başlar?",
-          "ur": "شیعہ حدیث میں دن کی دو نمازوں کا وقت کب شروع ہوتا ہے؟",
-          "zh": "什叶派圣训中两番白天礼拜的时间何时开始？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে বলা হয়েছে যে সূর্য যখন তার মধ্যগগন থেকে ঢলে পড়ে, তখন দিনের দুই সালাতের সময় শুরু হয়। এতে যোহর ও আসরের সময় শুরু হওয়ার শরঈ বিধান নির্দেশিত হয়েছে।",
-          "de": "Dieser Hadith besagt, dass, wenn die Sonne von ihrem Zenit abweicht, die Zeit der beiden Tagesgebete beginnt. Er weist auf eine rechtliche Bestimmung zum Beginn der Gebetszeit für ẓuhr und ʿaṣr hin.",
-          "en": "This hadith states that when the sun declines from its zenith, the time for the two daytime prayers begins. It indicates a legal ruling concerning the beginning of the prayer time for ẓuhr and ʿaṣr.",
-          "es": "Este hadiz afirma que cuando el sol declina desde su cenit, comienza el tiempo de las dos oraciones diurnas. Indica una norma jurídica sobre el inicio del tiempo de la oración del zuhr y del ʿaṣr.",
-          "fa": "این حدیث بیان می‌کند که هنگامی که خورشید از اوج خود زوال کند، وقتِ دو نمازِ روزانه آغاز می‌شود. این، حکمی شرعی درباره آغاز وقتِ نمازِ ظهر و عصر را نشان می‌دهد.",
-          "fr": "Ce hadith affirme que lorsque le soleil décline de son zénith, le temps des deux prières diurnes commence. Il indique une règle juridique concernant le début du temps de la prière du ẓuhr et du ʿaṣr.",
-          "id": "Hadis ini menyatakan bahwa ketika matahari tergelincir dari titik puncaknya, waktu dua salat siang telah dimulai. Ini menunjukkan حكم syar‘i tentang awal waktu salat zuhur dan asar.",
-          "ru": "Этот хадис сообщает, что когда солнце склоняется от зенита, начинается время двух дневных молитв. Это указывает на правовое предписание относительно начала времени молитв зухр и ʿаср.",
-          "tr": "Bu hadis, güneşin zirvesinden eğilmeye başladığında gündüz kılınan iki namazın vaktinin başladığını bildirir. Bu, öğle ve ikindi namazlarının vakit başlangıcına dair fıkhî bir hükme işaret eder.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ جب سورج اپنے نقطۂ عروج سے ڈھل جائے تو دن کی دو نمازوں کا وقت شروع ہو جاتا ہے۔ اس سے ظہر اور عصر کے وقت کے آغاز سے متعلق شرعی حکم معلوم ہوتا ہے۔",
-          "zh": "这段圣训说明，当太阳从天顶偏斜时，两番白天礼拜的时间就开始了。它表明了关于晌礼和晡礼开始时间的教法判定。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

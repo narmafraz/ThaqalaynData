@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তিনি, তাঁর উপর শান্তি বর্ষিত হোক, বললেন:",
-              "de": "Und er, Friede sei mit ihm, sagte:",
-              "en": "And he, peace be upon him, said:",
-              "es": "Y él, la paz sea con él, dijo:",
-              "fa": "و او، علیه السلام، فرمود:",
-              "fr": "Et lui, que la paix soit sur lui, a dit :",
-              "id": "Dan beliau, semoga keselamatan atasnya, berkata:",
-              "ru": "И он, мир ему, сказал:",
-              "tr": "Ve o, aleyhisselam, dedi ki:",
-              "ur": "اور انہوں نے، علیہ السلام، فرمایا:",
-              "zh": "他说，愿他平安："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "«قَرْضُ الْمُؤْمِنِ غَنِيمَةٌ وَ تَعْجِيلُ خَيْرٍ إِنْ أَيْسَرَ أَدَّاهُ وَ إِنْ مَاتَ احْتُسِبَ مِنْ زَكَاتِهِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "\"একজন বিশ্বাসীকে ঋণ দেওয়া লাভ এবং কল্যাণের ত্বরান্বিতকরণ; যদি সে সক্ষম হয়, সে পরিশোধ করে, এবং যদি সে মারা যায়, তবে এটি তার যাকাতের অংশ হিসেবে গণ্য হয়।\"",
-              "de": "\"Einem Gläubigen Geld zu leihen ist ein Gewinn und eine Beschleunigung des Guten; wenn er dazu in der Lage ist, zahlt er zurück, und wenn er stirbt, wird es als Teil seiner Zakat gerechnet.\"",
-              "en": "\"Lending to a believer is a gain and a hastening of goodness; if he becomes able, he repays it, and if he dies, it is counted as part of his zakat.\"",
-              "es": "\"Prestar a un creyente es una ganancia y un adelanto de bondad; si puede, lo paga, y si muere, se cuenta como parte de su zakat.\"",
-              "fa": "\"قرض دادن به مؤمن سود است و تسریع در نیکی؛ اگر توان پرداخت پیدا کند، پرداخت می‌کند و اگر بمیرد، از زکات او محسوب می‌شود.\"",
-              "fr": "\"Prêter à un croyant est un gain et une accélération du bien ; s'il peut, il rembourse, et s'il meurt, cela est compté comme une partie de sa zakat.\"",
-              "id": "\"Meminjamkan kepada seorang mukmin adalah keuntungan dan percepatan kebaikan; jika dia mampu, dia membayar, dan jika dia meninggal, itu dihitung sebagai bagian dari zakatnya.\"",
-              "ru": "\"Давать в долг верующему — это прибыль и ускорение добра; если он может, он возвращает, а если умирает, это считается частью его закята.\"",
-              "tr": "\"Bir mümine borç vermek kazançtır ve iyiliğin hızlandırılmasıdır; eğer ödeyebilecek duruma gelirse öder, eğer ölürse, bu onun zekatından sayılır.\"",
-              "ur": "’’مومن کو قرض دینا نفع ہے اور نیکی کی جلدی ہے؛ اگر وہ ادا کرنے کے قابل ہو جائے تو ادا کرتا ہے، اور اگر مر جائے تو اسے اس کی زکات میں شمار کیا جاتا ہے۔‘‘",
-              "zh": "\"借贷给信士是收益和善行的加速；如果他有能力，他会偿还；如果他去世，则计入他的天课。\""
-            },
             "word_end": 19,
             "word_start": 4
           }
@@ -80,28 +67,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَدَّاهُ": "he repaid it",
-            "أَيْسَرَ": "became financially able",
-            "الْمُؤْمِنِ": "the believer who is the recipient of the loan",
-            "تَعْجِيلُ": "bringing forward or hastening",
-            "خَيْرٍ": "goodness or virtuous reward",
-            "زَكَاتِهِ": "his zakat, from which it is counted",
-            "غَنِيمَةٌ": "a gain or profitable benefit in spiritual terms",
-            "قَرْضُ": "a loan given to another person"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "قَرْضُ",
+          "الْمُؤْمِنِ",
+          "غَنِيمَةٌ",
+          "تَعْجِيلُ",
+          "خَيْرٍ",
+          "أَيْسَرَ",
+          "أَدَّاهُ",
+          "زَكَاتِهِ"
+        ],
         "related_quran": [
           {
             "ref": "2:245",
@@ -116,32 +91,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে একজন বিশ্বাসীকে ঋণ দেওয়ার পুরস্কার কী?",
-          "de": "Was ist die Belohnung für das Verleihen von Geld an einen Gläubigen in schiitischen Hadithen?",
-          "en": "What is the reward for lending money to a believer in Shia hadith?",
-          "es": "¿Cuál es la recompensa por prestar dinero a un creyente en el hadiz chií?",
-          "fa": "پاداش قرض دادن به مؤمن در احادیث شیعه چیست؟",
-          "fr": "Quelle est la récompense pour prêter de l'argent à un croyant dans les hadiths chiites ?",
-          "id": "Apa pahala meminjamkan uang kepada seorang mukmin dalam hadits Syiah?",
-          "ru": "Какова награда за заимствование денег верующему в шиитских хадисах?",
-          "tr": "Şii hadislerde bir mümine borç vermenin sevabı nedir?",
-          "ur": "شیعہ حدیث میں مومن کو قرض دینے کا اجر کیا ہے؟",
-          "zh": "在什叶派圣训中借钱给信士的回报是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি একজন বিশ্বাসীকে ঋণ দেওয়াকে আধ্যাত্মিকভাবে লাভজনক কাজ এবং তাৎক্ষণিক কল্যাণের রূপ হিসেবে উপস্থাপন করে। এটি নির্দেশ করে যে ঋণ জীবদ্দশায় পরিশোধ হোক বা মৃত্যুর কারণে না হোক, ঋণদাতা এই কাজের জন্য আল্লাহর পক্ষ থেকে পুরস্কৃত হয়, যার মধ্যে এটি তার যাকাত থেকে গণ্য হয়।",
-          "de": "Dieser Hadith stellt das Verleihen an einen Gläubigen als spirituell gewinnbringende Tat und als unmittelbare Form des Guten dar. Er zeigt auch, dass der Verleiher göttliche Anerkennung für die Tat erhält, unabhängig davon, ob die Schuld im Leben zurückgezahlt wird oder nicht, einschließlich der Anrechnung auf seine Zakat.",
-          "en": "This hadith presents giving a loan to a believer as a spiritually profitable act and an immediate form of goodness. It also indicates that whether the debt is repaid in life or not due to death, the lender still receives divine consideration for the act, including its being counted from his zakat.",
-          "es": "Este hadiz presenta el préstamo a un creyente como un acto espiritualmente provechoso y una forma inmediata de bondad. También indica que, ya sea que la deuda se pague en vida o no debido a la muerte, el prestamista recibe consideración divina por el acto, incluyendo que se cuente como parte de su zakat.",
-          "fa": "این حدیث، قرض دادن به مؤمن را به عنوان عملی سودمند روحانی و نوعی نیکی فوری معرفی می‌کند. همچنین بیان می‌کند که چه بدهی در زندگی پرداخت شود و چه به دلیل مرگ پرداخت نشود، به وام‌دهنده پاداش الهی داده می‌شود که شامل محسوب شدن آن از زکات او است.",
-          "fr": "Ce hadith présente le prêt à un croyant comme un acte spirituellement profitable et une forme immédiate de bien. Il indique également que, que la dette soit remboursée de son vivant ou non en raison de la mort, le prêteur reçoit une considération divine pour cet acte, y compris qu'il soit compté dans sa zakat.",
-          "id": "Hadis ini menyajikan memberi pinjaman kepada seorang mukmin sebagai perbuatan yang menguntungkan secara spiritual dan bentuk kebaikan yang segera. Ini juga menunjukkan bahwa apakah hutang dibayar selama hidup atau tidak karena kematian, pemberi pinjaman tetap menerima pertimbangan ilahi atas perbuatan tersebut, termasuk dihitung dari zakatnya.",
-          "ru": "Этот хадис представляет заимствование верующему как духовно выгодное действие и немедленное доброе дело. Также указывается, что независимо от того, возвращен долг при жизни или нет из-за смерти, заимодавец получает божественное вознаграждение за этот поступок, включая его учет в его закяте.",
-          "tr": "Bu hadis, bir mümine borç vermeyi manevi olarak kârlı bir eylem ve hemen gerçekleşen bir iyilik olarak sunar. Ayrıca, borcun hayatta ödenip ödenmemesine bakılmaksızın, borç verene bu eylem için ilahi bir karşılık verildiğini ve bunun zekatından sayıldığını belirtir.",
-          "ur": "یہ حدیث مومن کو قرض دینا ایک روحانی منافع بخش عمل اور فوری نیکی کی صورت کے طور پر پیش کرتی ہے۔ یہ بھی ظاہر کرتی ہے کہ چاہے قرض زندگی میں ادا ہو یا موت کی وجہ سے نہ ہو، قرض دینے والے کو اس عمل کا الہی اجر ملتا ہے، جس میں اسے اس کی زکات سے شمار کیا جاتا ہے۔",
-          "zh": "此圣训将借贷给信士视为一种精神上的收益行为和即时的善行。它还表明，无论债务是在生时偿还还是因死亡未偿还，借出者都将获得神圣的回报，包括计入其天课。"
-        },
         "tags": [
           "ethics",
           "economy",

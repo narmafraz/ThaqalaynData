@@ -21,42 +21,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنِ الْعَمْرَكِيِّ بْنِ عَلِيٍّ عَنْ عَلِيِّ بْنِ جَعْفَرٍ عَنْ أَخِيهِ أَبِي الْحَسَنِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন ইয়াহইয়া, আল-ʿআমরাকী ইবন আলী থেকে, আলী ইবন জাফর থেকে, তাঁর ভাই আবু আল-হাসান عليه السلام থেকে, যিনি বলেছেন:",
-              "de": "Muhammad ibn Yahya, von Al-ʿAmraki ibn Ali, von Ali ibn Jaʿfar, von seinem Bruder Abu al-Hasan عليه السلام, der sagte:",
-              "en": "Muḥammad ibn Yaḥyā, from Al-ʿAmrakī ibn ʿAlī, from ʿAlī ibn Jaʿfar, from his brother Abū al-Ḥasan عليه السلام, who said:",
-              "es": "Muhammad ibn Yahya, de Al-ʿAmraki ibn Ali, de Ali ibn Yaʿfar, de su hermano Abu al-Hasan عليه السلام, quien dijo:",
-              "fa": "محمد بن یحیی، از العمركی بن علی، از علی بن جعفر، از برادرش ابوالحسن علیه السلام، که فرمود:",
-              "fr": "Muhammad ibn Yahya, d’Al-ʿAmraki ibn Ali, d’Ali ibn Jaʿfar, de son frère Abou al-Hasan عليه السلام, qui a dit :",
-              "id": "Muhammad ibn Yahya, dari Al-ʿAmraki ibn Ali, dari Ali ibn Jaʿfar, dari saudaranya Abu al-Hasan عليه السلام, yang berkata:",
-              "ru": "Мухаммад ибн Яхья, от Аль-ʿАмраки ибн Али, от Али ибн Джафара, от его брата Абу аль-Хасана عليه السلام, который сказал:",
-              "tr": "Muhammed ibn Yahyâ, el-Amrakî ibn Ali’den, Ali ibn Ca‘fer’den, onun kardeşi Ebu’l-Hasan عليه السلام’dan rivayetle, şöyle dedi:",
-              "ur": "محمد بن یحیی، عن العمركی بن علی، عن علی بن جعفر، عن اس کے بھائی ابو الحسن علیہ السلام، نے فرمایا:",
-              "zh": "穆罕默德·伊本·叶海亚，传自Al-ʿAmraki·伊本·阿里，传自阿里·伊本·贾法尔，传自他的兄弟阿布·阿尔-哈桑 عليه السلام，他说："
-            },
             "word_end": 18,
             "word_start": 0
           },
           {
             "arabic_text": "إِنَّ فَاطِمَةَ عَلَيْهَا السَّلَامُ صِدِّيقَةٌ شَهِيدَةٌ وَإِنَّ بَنَاتِ الْأَنْبِيَاءِ لَا يَطْمِثْنَ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "নিশ্চয়ই ফাতিমা عليها السلام সত্যবাদিনী, শহীদা, এবং নিশ্চয়ই নবীদের কন্যারা ঋতুমতী হন না।",
-              "de": "Gewiss, Fāṭimah عليها السلام ist wahrhaftig, eine Märtyrerin, und gewiss menstruieren die Töchter der Propheten nicht.",
-              "en": "Indeed, Fāṭimah عليها السلام is truthful, a martyr, and indeed the daughters of the Prophets do not menstruate.",
-              "es": "En verdad, Fāṭimah عليها السلام es veraz, una mártir, y en verdad las hijas de los Profetas no menstrúan.",
-              "fa": "همانا فاطمه عليها السلام صدیقه و شهیده است، و همانا دختران پیامبران حیض نمی‌بینند.",
-              "fr": "En vérité, Fāṭimah عليها السلام est véridique, martyre, et en vérité les filles des Prophètes n’ont pas leurs menstrues.",
-              "id": "Sesungguhnya Fāṭimah عليها السلام adalah seorang yang benar, seorang syahidah, dan sesungguhnya putri-putri para Nabi tidak mengalami haid.",
-              "ru": "Воистину, Фатима عليها السلام правдива, мученица, и воистину дочери пророков не менструируют.",
-              "tr": "Şüphesiz Fâtıma عليها السلام sıddîka ve şehîdedir; şüphesiz peygamberlerin kızları hayız olmazlar.",
-              "ur": "بے شک فاطمہ علیہا السلام صدیقہ، شہیدہ ہیں، اور بے شک انبیاء کی بیٹیاں حیض نہیں آتیں۔",
-              "zh": "确实，法蒂玛 عليها السلام是真诚的、殉道的，而且确实先知们的女儿不会来月经。"
-            },
             "word_end": 29,
             "word_start": 18
           }
@@ -109,26 +96,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْأَنْبِيَاءِ": "the Prophets; the divinely sent messengers",
-            "بَنَاتِ": "daughters; female offspring in this context",
-            "شَهِيدَةٌ": "martyr; one who attained the rank of شهادَة",
-            "صِدِّيقَةٌ": "utterly truthful; one distinguished by perfect truthfulness",
-            "فَاطِمَةَ": "Fāṭimah عليها السلام, the daughter of the Prophet صلى الله عليه وآله وسلم",
-            "يَطْمِثْنَ": "they menstruate; here, the negated verb indicates that they do not menstruate"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "فَاطِمَةَ",
+          "صِدِّيقَةٌ",
+          "شَهِيدَةٌ",
+          "بَنَاتِ",
+          "الْأَنْبِيَاءِ",
+          "يَطْمِثْنَ"
+        ],
         "related_quran": [
           {
             "ref": "3:42",
@@ -143,32 +118,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "আল-কাফি ফাতিমা عليها السلام এবং নবীদের কন্যাদের সম্পর্কে কী বলে?",
-          "de": "Was sagt al-Kāfī über die Stellung von Fāṭimah عليها السلام und den Töchtern der Propheten?",
-          "en": "What does al-Kāfī say about the status of Fāṭimah عليها السلام and the daughters of the Prophets?",
-          "es": "¿Qué dice al-Kāfī sobre el estatus de Fāṭimah عليها السلام y las hijas de los Profetas?",
-          "fa": "الکافی دربارهٔ فاطمه عليها السلام و دختران پیامبران چه می‌گوید؟",
-          "fr": "Que dit al-Kāfī au sujet du statut de Fāṭimah عليها السلام et des filles des Prophètes ?",
-          "id": "Apa yang dikatakan al-Kāfī tentang kedudukan Fāṭimah عليها السلام dan putri-putri para Nabi?",
-          "ru": "Что говорит аль-Кафи о положении Фатимы عليها السلام и дочерей пророков?",
-          "tr": "el-Kâfî, Fâtıma عليها السلام ve peygamberlerin kızları hakkında ne söyler?",
-          "ur": "الکافی فاطمہ علیہا السلام اور انبیاء کی بیٹیوں کے بارے میں کیا کہتا ہے؟",
-          "zh": "al-Kāfī关于法蒂玛 عليها السلام和先知们的女儿说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে ফাতিমা عليها السلام-এর উচ্চ মর্যাদা বর্ণনা করা হয়েছে, তাঁকে সত্যবাদিনী ও শহীদা হিসেবে উল্লেখ করে। এতে নবীদের কন্যাদের সম্পর্কে একটি বিশেষ বৈশিষ্ট্যও উল্লেখ করা হয়েছে, যা তাদের বিশেষ পবিত্রতা ও মর্যাদার অংশ হিসেবে উপস্থাপিত।",
-          "de": "Dieser Hadith beschreibt die erhabene Stellung von Fāṭimah عليها السلام, indem er sie als wahrhaftig und Märtyrerin bezeichnet. Er überliefert auch eine besondere Eigenschaft der Töchter der Propheten und stellt sie als Teil ihrer besonderen Reinheit und ihres Ranges dar.",
-          "en": "This hadith states the exalted status of Fāṭimah عليها السلام by describing her as truthful and a martyr. It also relates a distinctive attribute concerning the daughters of the Prophets, presenting this as part of their special purity and rank.",
-          "es": "Este hadiz expone el elevado rango de Fāṭimah عليها السلام al describirla como veraz y mártir. También menciona una característica distintiva acerca de las hijas de los Profetas, presentándola como parte de su pureza y rango especiales.",
-          "fa": "این حدیث، مقام والای فاطمه عليها السلام را با توصیف او به صدیقه و شهیده بیان می‌کند. همچنین ویژگی متمایزی درباره دختران پیامبران نقل می‌کند و آن را بخشی از پاکی و مرتبه ویژه آنان معرفی می‌نماید.",
-          "fr": "Ce hadith expose le rang élevé de Fāṭimah عليها السلام en la décrivant comme véridique et martyre. Il rapporte aussi une caractéristique particulière concernant les filles des Prophètes, la présentant comme faisant partie de leur pureté et de leur rang spéciaux.",
-          "id": "Hadis ini menyatakan kedudukan tinggi Fāṭimah عليها السلام dengan menggambarkannya sebagai seorang yang benar dan seorang syahidah. Hadis ini juga menyebutkan sifat khusus tentang putri-putri para Nabi, dan menampilkannya sebagai bagian dari kesucian dan derajat istimewa mereka.",
-          "ru": "Этот хадис сообщает о высоком положении Фатимы عليها السلام, описывая её как правдивую и мученицу. Он также передаёт особое качество дочерей пророков, представляя это как часть их особой чистоты и степени.",
-          "tr": "Bu hadis, Fâtıma عليها السلام’ın yüce makamını onu sıddîka ve şehîde olarak nitelendirerek بیان eder. Ayrıca peygamberlerin kızlarına dair ayırt edici bir özelliği aktarır ve bunu onların özel temizliği ve derecesinin bir parçası olarak sunar.",
-          "ur": "یہ حدیث فاطمہ علیہا السلام کے بلند مقام کو بیان کرتی ہے کہ وہ صدیقہ اور شہیدہ ہیں۔ نیز یہ انبیاء کی بیٹیوں کی ایک خاص صفت بیان کرتی ہے، جسے ان کی پاکیزگی اور مرتبے کا حصہ بتایا گیا ہے۔",
-          "zh": "这段圣训说明了法蒂玛 عليها السلام的崇高地位，将她描述为诚实者和殉道者。它还提到先知们的女儿具有一种独特的特征，并将其呈现为她们特殊纯洁与品级的一部分。"
-        },
         "tags": [
           "theology",
           "family",

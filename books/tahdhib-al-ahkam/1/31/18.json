@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ بْنُ أَبِي عَبْدِ اللَّهِ عَنِ الْقَاسِمِ بْنِ يَحْيَى عَنْ جَدِّهِ الْحَسَنِ بْنِ رَاشِدٍ عَنْ أَبِي بَصِيرٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন আবী আবদিল্লাহ, আল-কাসিম ইবন ইয়াহইয়া থেকে, তিনি তাঁর দাদা আল-হাসান ইবন রাশিদ থেকে, তিনি আবী বাসীর থেকে, তিনি আবী আবদিল্লাহ عليه السلام থেকে বর্ণনা করেন, যিনি বলেছেন:",
-              "de": "Aḥmad ibn Abī ʿAbdillāh, von al-Qāsim ibn Yaḥyā, von seinem Großvater al-Ḥasan ibn Rāshid, von Abī Baṣīr, von Abī ʿAbdillāh عليه السلام, der sagte:",
-              "en": "Aḥmad ibn Abī ʿAbdillāh, from al-Qāsim ibn Yaḥyā, from his grandfather al-Ḥasan ibn Rāshid, from Abī Baṣīr, from Abī ʿAbdillāh عليه السلام, who said:",
-              "es": "Aḥmad ibn Abī ʿAbdillāh, de al-Qāsim ibn Yaḥyā, de su abuelo al-Ḥasan ibn Rāshid, de Abī Baṣīr, de Abī ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "احمد بن ابی‌عبدالله، از القاسم بن یحیی، از جدش الحسن بن راشد، از ابی بصیر، از ابی عبدالله علیه‌السلام که فرمود:",
-              "fr": "Aḥmad ibn Abī ʿAbdillāh, d’al-Qāsim ibn Yaḥyā, de son grand-père al-Ḥasan ibn Rāshid, d’Abī Baṣīr, d’Abī ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Aḥmad ibn Abī ʿAbdillāh, dari al-Qāsim ibn Yaḥyā, dari kakeknya al-Ḥasan ibn Rāshid, dari Abī Baṣīr, dari Abī ʿAbdillāh عليه السلام, yang bersabda:",
-              "ru": "Ахмад ибн Аби ʿАбдуллах, от аль-Касима ибн Яхьи, от его деда аль-Хасана ибн Рашида, от Аби Басира, от Аби ʿАбдуллаха عليه السلام, который сказал:",
-              "tr": "Ahmed ibn Ebî Abdullah, el-Kâsım ibn Yahyâ’dan, o da dedesi el-Hasan ibn Râşid’den, o da Ebû Basîr’den, o da Ebû Abdullah عليه السلام’dan rivayet etti ki, şöyle dedi:",
-              "ur": "احمد بن ابی عبداللہ، القاسم بن یحییٰ سے، وہ اپنے دادا الحسن بن راشد سے، وہ ابی بصیر سے، وہ ابی عبداللہ علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "艾哈迈德·伊本·阿比·阿卜杜拉，传自卡西姆·伊本·叶海亚，传自其祖父哈桑·伊本·拉希德，传自阿比·巴西尔，传自阿比·阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 24,
             "word_start": 0
           },
           {
             "arabic_text": "الِاسْتِنْجَاءُ بِالْمَاءِ الْبَارِدِ يَقْطَعُ الْبَوَاسِيرَ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "ঠান্ডা পানি দিয়ে ইস্তিনজা করলে বাওয়াসীর কেটে যায়।",
-              "de": "Istinjāʾ mit kaltem Wasser beseitigt Hämorrhoiden.",
-              "en": "Istinjāʾ with cold water cuts off hemorrhoids.",
-              "es": "El istinjāʾ con agua fría corta las hemorroides.",
-              "fa": "استنجاء با آب سرد، بواسیر را قطع می‌کند.",
-              "fr": "L’istinjāʾ avec de l’eau froide coupe les hémorroïdes.",
-              "id": "Istinjāʾ dengan air dingin memutus wasir.",
-              "ru": "Истинджа холодной водой устраняет геморрой.",
-              "tr": "Soğuk suyla istincâ, hemoroidleri keser.",
-              "ur": "ٹھنڈے پانی سے استنجاء بواسیر کو کاٹ دیتا ہے۔",
-              "zh": "用冷水做istinjāʾ可以切断痔疮。"
-            },
             "word_end": 29,
             "word_start": 24
           }
@@ -114,25 +101,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الِاسْتِنْجَاءُ": "cleansing the private parts after relieving oneself",
-            "الْبَارِدِ": "cold, describing the water used",
-            "الْبَوَاسِيرَ": "hemorrhoids",
-            "بِالْمَاءِ": "with water, as the means of purification",
-            "يَقْطَعُ": "cuts off or eliminates"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الِاسْتِنْجَاءُ",
+          "بِالْمَاءِ",
+          "الْبَارِدِ",
+          "يَقْطَعُ",
+          "الْبَوَاسِيرَ"
+        ],
         "related_quran": [
           {
             "ref": "2:222",
@@ -143,32 +118,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইস্তিনজার জন্য ঠান্ডা পানি ব্যবহার সম্পর্কে হাদিসে কী বলা হয়েছে?",
-          "de": "Was sagt der Hadith über die Verwendung von kaltem Wasser für das Istinjāʾ?",
-          "en": "What does the hadith say about using cold water for istinjāʾ?",
-          "es": "¿Qué dice el hadiz sobre usar agua fría para el istinjāʾ?",
-          "fa": "حدیث درباره استفاده از آب سرد برای استنجاء چه می‌گوید؟",
-          "fr": "Que dit le hadith au sujet de l’usage de l’eau froide pour l’istinjāʾ ?",
-          "id": "Apa yang dikatakan hadis tentang menggunakan air dingin untuk istinjāʾ?",
-          "ru": "Что говорит хадис об использовании холодной воды для истинджа?",
-          "tr": "Hadis, istincâda soğuk su kullanımı hakkında ne söylüyor?",
-          "ur": "استنجاء میں ٹھنڈے پانی کے استعمال کے بارے میں حدیث کیا کہتی ہے؟",
-          "zh": "关于用冷水进行istinjāʾ，圣训说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে বলা হয়েছে যে, প্রাকৃতিক প্রয়োজন সেরে নেওয়ার পর ঠান্ডা পানি দিয়ে পরিষ্কার করা বাওয়াসীরের জন্য উপকারী। এটি তাহারাহ (আনুষ্ঠানিক পবিত্রতা)-এর আদবের সঙ্গে একটি বাস্তব শারীরিক উপকারের কথাও প্রকাশ করে, যা ইমাম আল-সাদিক عليه السلام উল্লেখ করেছেন।",
-          "de": "Dieser Hadith besagt, dass die Reinigung nach dem Verrichten der Notdurft mit kaltem Wasser gegen Hämorrhoiden hilfreich ist. Er spiegelt die Etikette der taharah (rituellen Reinheit) sowie einen praktischen körperlichen Nutzen wider, der von Imam al-Ṣādiq عليه السلام erwähnt wurde.",
-          "en": "This hadith states that cleansing oneself after relieving oneself with cold water is beneficial against hemorrhoids. It reflects an etiquette of taharah (ritual purity) together with a practical bodily benefit mentioned by Imam al-Ṣādiq عليه السلام.",
-          "es": "Este hadiz afirma que limpiarse después de evacuar con agua fría es beneficioso contra las hemorroides. Refleja la etiqueta de la taharah (pureza ritual) junto con un beneficio corporal práctico mencionado por el Imam al-Ṣādiq عليه السلام.",
-          "fa": "این حدیث بیان می‌کند که پاک‌کردن خود پس از قضای حاجت با آب سرد برای بواسیر سودمند است. این، آداب طهارت را همراه با یک فایده جسمانی عملی که امام صادق علیه‌السلام ذکر کرده‌اند، نشان می‌دهد.",
-          "fr": "Ce hadith indique que se nettoyer après avoir satisfait un besoin naturel avec de l’eau froide est bénéfique contre les hémorroïdes. Il reflète l’étiquette de la taharah (pureté rituelle) ainsi qu’un bénéfice corporel pratique mentionné par l’Imam al-Ṣādiq عليه السلام.",
-          "id": "Hadis ini menyatakan bahwa membersihkan diri setelah buang hajat dengan air dingin bermanfaat terhadap wasir. Ini mencerminkan adab taharah (kesucian ritual) sekaligus manfaat jasmani praktis yang disebutkan oleh Imam al-Ṣādiq عليه السلام.",
-          "ru": "Этот хадис сообщает, что очищение после отправления нужды холодной водой полезно против геморроя. Он отражает нормы тахары (ритуальной чистоты) наряду с практической телесной пользой, упомянутой имамом аль-Ṣādiq عليه السلام.",
-          "tr": "Bu hadis, ihtiyaç giderdikten sonra soğuk suyla temizlenmenin hemoroidlere karşı faydalı olduğunu belirtir. Bu, tahâret adabını ve İmam es-Sâdık عليه السلام tarafından zikredilen pratik bir bedensel faydayı yansıtır.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ قضائے حاجت کے بعد ٹھنڈے پانی سے استنجاء کرنا بواسیر کے لیے مفید ہے۔ یہ طہارت کے آداب اور ایک عملی جسمانی فائدے کی طرف اشارہ کرتی ہے جسے امام الصادق علیہ السلام نے ذکر فرمایا۔",
-          "zh": "这段圣训说明，人在如厕后用冷水清洁，对痔疮有益。它体现了taharah（礼仪性洁净）的礼节，也提到了伊玛目阿尔-萨迪格 عليه السلام所 ذکر的实际身体益处。"
-        },
         "tags": [
           "jurisprudence",
           "ethics",

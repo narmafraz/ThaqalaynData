@@ -12,6 +12,138 @@
       "up": "/books/al-kafi:6:6:13"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ أَبِي نَصْرٍ عَنْ إِسْمَاعِيلَ بْنِ عُمَرَ عَنْ شُعَيْبٍ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) فِي",
+            "chunk_type": "isnad",
+            "word_end": 31,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "رَجُلٍ دَخَلَ قَرْيَةً فَأَصَابَ بِهَا لَحْمَاً لَمْ يَدْرِ أَ ذَكِيٌّ هُوَ أَيْ ذَكِيٌّ هُوَ أَمْ مَيِّتٌ قَالَ يَطْرَحُهُ عَلَى النَّارِ فَكُلُّ مَا انْقَبَضَ فَهُوَ ذَكِيٌّ وَ كُلُّ مَا انْبَسَطَ فَهُوَ مَيِّتٌ",
+            "chunk_type": "body",
+            "word_end": 62,
+            "word_start": 31
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 13,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى",
+              "name_en": "Ahmad ibn Muhammad ibn Isa",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 39,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدِ بْنِ أَبِي نَصْرٍ",
+              "name_en": "Ahmad ibn Muhammad ibn Abi Nasr",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1321,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "إِسْمَاعِيلَ بْنِ عُمَرَ",
+              "name_en": "Isma'il b. 'Umar",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 289,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "شُعَيْبٍ",
+              "name_en": "Shu'ayb",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "ذَكِيٌّ",
+          "مَيِّتٌ",
+          "انْقَبَضَ",
+          "انْبَسَطَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "6:145",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "5:3",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "worship"
+        ],
+        "topics": [
+          "halal_haram",
+          "ritual_purity"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (22/57)"
       ],
@@ -92,7 +224,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:6:13:1",

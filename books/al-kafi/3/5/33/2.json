@@ -14,6 +14,130 @@
       "up": "/books/al-kafi:3:5:33"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ الْحَكَمِ عَنْ مُثَنًّى عَنْ أَبِي بَصِيرٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 13,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلَهُ رَجُلٌ وَ أَنَا أَسْمَعُ قَالَ أُعْطِي قَرَابَتِي زَكَاةَ مَالِي وَ هُمْ لَا يَعْرِفُونَ قَالَ فَقَالَ لَا تُعْطِ الزَّكَاةَ إِلَّا مُسْلِمًا وَ أَعْطِهِمْ مِنْ غَيْرِ ذَلِكَ",
+            "chunk_type": "body",
+            "word_end": 39,
+            "word_start": 13
+          },
+          {
+            "arabic_text": "ثُمَّ قَالَ أَبُو عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) أَ تَرَوْنَ أَنَّمَا فِي الْمَالِ الزَّكَاةُ وَحْدَهَا مَا فَرَضَ اللَّهُ فِي الْمَالِ مِنْ غَيْرِ الزَّكَاةِ أَكْثَرُ تُعْطِي مِنْهُ الْقَرَابَةَ وَ الْمُعْتَرِضَ لَكَ مِمَّنْ يَسْأَلُكَ فَتُعْطِيهِ مَا لَمْ تَعْرِفْهُ بِالنَّصْبِ فَإِذَا عَرَفْتَهُ بِالنَّصْبِ فَلَا تُعْطِهِ إِلَّا أَنْ تَخَافَ لِسَانَهُ فَتَشْتَرِيَ دِينَكَ وَ عِرْضَكَ مِنْهُ",
+            "chunk_type": "closing",
+            "word_end": 91,
+            "word_start": 39
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدُ بْنُ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 15,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ الْحَكَمِ",
+              "name_en": "'Ali ibn al-Hakam",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 313,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُثَنًّى",
+              "name_en": "Muthanna",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 14,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي بَصِيرٍ",
+              "name_en": "Abu Basir",
+              "position": 4,
+              "role": "companion"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "زَكَاةَ",
+          "قَرَابَتِي",
+          "مُسْلِمًا",
+          "النَّصْبِ",
+          "لِسَانَهُ",
+          "عِرْضَكَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "9:60",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "47:22",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family",
+          "ethics",
+          "economy"
+        ],
+        "topics": [
+          "zakat_khums",
+          "kinship",
+          "financial_law",
+          "rights_of_others"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> موثق  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6/95)"
       ],
@@ -78,7 +202,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:5:33:2",

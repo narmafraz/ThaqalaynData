@@ -15,6 +15,133 @@
       "up": "/books/al-kafi:8:1:45"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَنْهُ عَنْ أَحْمَدَ عَنِ الْحُسَيْنِ بْنِ سَيْفٍ عَنْ أَخِيهِ عَلِيٍّ عَنْ أَبِيهِ قَالَ حَدَّثَنِي مُحَمَّدُ بْنُ الْمُثَنَّى قَالَ حَدَّثَنِي رَجُلٌ مِنْ بَنِي نَوْفِلِ بْنِ عَبْدِ الْمُطَّلِبِ قَالَ حَدَّثَنَا أَبُو جَعْفَرٍ مُحَمَّدُ بْنُ عَلِيٍّ (عَلَيْهِ السَّلَامُ) قَالَ قَالَ رَسُولُ اللَّهِ (صَلَّى اللَّهِ عَلَيْهِ وَآلِهِ)",
+            "chunk_type": "isnad",
+            "word_end": 43,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "أَحَبُّ الصَّحَابَةِ إِلَى اللَّهِ أَرْبَعَةٌ وَ مَا زَادَ قَوْمٌ عَلَى سَبْعَةٍ إِلَّا كَثُرَ لَغَطُهُمْ.",
+            "chunk_type": "body",
+            "word_end": 57,
+            "word_start": 43
+          }
+        ],
+        "content_type": "prophetic_tradition",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 11,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَنْهُ",
+              "name_en": "from him",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 92,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ",
+              "name_en": "Ahmad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 529,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنِ بْنِ سَيْفٍ",
+              "name_en": "al-Husayn b. Sayf",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1009,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَخِيهِ عَلِيٍّ",
+              "name_en": "Akhihi Ali",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "قَالَ رَسُولُ اللَّهِ",
+            "phrase_en": "The Messenger of Allah said"
+          }
+        ],
+        "key_terms_keys": [
+          "الصَّحَابَةِ",
+          "لَغَطُهُمْ"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:103",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "9:67",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "prophetic_tradition",
+          "ethics",
+          "social_relations"
+        ],
+        "topics": [
+          "companions",
+          "prophetic_character",
+          "etiquette"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مرسل</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 385)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -91,7 +218,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:45:8",

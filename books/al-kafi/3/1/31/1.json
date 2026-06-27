@@ -13,6 +13,122 @@
       "up": "/books/al-kafi:3:1:31"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى عَنْ عَلِيِّ بْنِ الْحَكَمِ عَنِ الْحُسَيْنِ بْنِ أَبِي الْعَلَاءِ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 19,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) عَنِ الرَّجُلِ يَرَى فِي الْمَنَامِ حَتَّى يَجِدَ الشَّهْوَةَ فَهُوَ يَرَى أَنَّهُ قَدِ احْتَلَمَ فَإِذَا اسْتَيْقَظَ لَمْ يَرَ فِي ثَوْبِهِ الْمَاءَ وَ لَا فِي جَسَدِهِ قَالَ لَيْسَ عَلَيْهِ الْغُسْلُ",
+            "chunk_type": "body",
+            "word_end": 55,
+            "word_start": 19
+          },
+          {
+            "arabic_text": "وَقَالَ كَانَ عَلِيٌّ ( عَلَيْهِ السَّلَامُ ) يَقُولُ إِنَّمَا الْغُسْلُ مِنَ الْمَاءِ الْأَكْبَرِ فَإِذَا رَأَى فِي مَنَامِهِ وَ لَمْ يَرَ الْمَاءَ الْأَكْبَرَ فَلَيْسَ عَلَيْهِ غُسْلٌ",
+            "chunk_type": "closing",
+            "word_end": 80,
+            "word_start": 55
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 13,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى",
+              "name_en": "Ahmad ibn Muhammad ibn Isa",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 15,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ الْحَكَمِ",
+              "name_en": "'Ali ibn al-Hakam",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 216,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنِ بْنِ أَبِي الْعَلَاءِ",
+              "name_en": "al-Husayn b. Abi al-Ala'",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الْمَنَامِ",
+          "الشَّهْوَةَ",
+          "احْتَلَمَ",
+          "الْمَاءَ",
+          "الْغُسْلُ",
+          "الْمَاءِ الْأَكْبَرِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:29",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "worship"
+        ],
+        "topics": [
+          "ritual_purity",
+          "prayer_rulings"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> حسن  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (3/143)"
       ],
@@ -82,7 +198,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:1:31:1",

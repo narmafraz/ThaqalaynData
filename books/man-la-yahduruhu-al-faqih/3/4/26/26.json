@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى ٱلْحَسَنُ بْنُ مَحْبُوبٍ عَنْ عَبْدِ ٱللَّهِ بْنِ سِنَانٍ عَنْ أَبِي حَمْزَةَ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হাসান ইবনে মাহবুব আবদুল্লাহ ইবনে সিনান থেকে, তিনি আবু হামজাহ থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Al-Hasan ibn Mahbub berichtete von Abdullah ibn Sinan, von Abu Hamzah, der sagte:",
-              "en": "Al-Hasan ibn Mahbub narrated from Abdullah ibn Sinan, from Abu Hamzah, who said:",
-              "es": "Al-Hasan ibn Mahbub narró de Abdullah ibn Sinan, de Abu Hamzah, quien dijo:",
-              "fa": "الْحَسَن بن مَحبوب از عبداللّه بن سینان، از ابو حمزه روایت کرده است که گفت:",
-              "fr": "Al-Hasan ibn Mahbub a rapporté de Abdullah ibn Sinan, de Abu Hamzah, qui a dit :",
-              "id": "Al-Hasan ibn Mahbub meriwayat dari Abdullah ibn Sinan, dari Abu Hamzah, yang berkata:",
-              "ru": "Аль-Хасан ибн Махбуб передал от Абдуллы ибн Синан, от Абу Хамзы, который сказал:",
-              "tr": "El-Hasan ibn Mahbub, Abdullah ibn Sinan'dan, o da Ebu Hamza'dan şöyle rivayet etti:",
-              "ur": "الْحَسَن بْن مَحْبُوب نے عَبْداللّٰہ بْن سِنَان سے روایت کی، جو أَبُو حَمْزَہ سے روایت کرتے ہیں، جنہوں نے کہا:",
-              "zh": "الْحَسَنبنمَحبوب从عبداللّٰهبنسينان传述，传自أبوحمزة，他说："
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "قُلْتُ لِأَبِي جَعْفَرٍ عَلَيْهِ ٱلسَّلَامُ مَا أَدْنَى ٱلنَّصْبِ قَالَ أَنْ يَبْتَدِعَ ٱلرَّجُلُ شَيْئًا فَيُحِبَّ عَلَيْهِ وَ يُبْغِضَ عَلَيْهِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি أبو جعفر علیہ السلام কে বললাম, “নসবের সর্বনিম্ন স্তর কী?” তিনি বললেন, “যে একজন ব্যক্তি কিছু উদ্ভাবন করে, তারপর তার কারণে ভালোবাসে এবং তার কারণে ঘৃণা করে।”",
-              "de": "Ich sagte zu Abu Ja‘far عليه السلام: „Was ist der geringste Grad von nasb?“ Er sagte: „Dass ein Mann etwas neu erfindet, dann deswegen liebt und deswegen hasst.“",
-              "en": "I said to Abu Ja‘far عليه السلام, “What is the least degree of nasb?” He said, “That a man innovates something, then loves on account of it and hates on account of it.”",
-              "es": "Le dije a Abu Ja‘far عليه السلام: “¿Cuál es el grado más bajo de nasb?” Él dijo: “Que un hombre innove algo, luego ame por ello y odie por ello.”",
-              "fa": "به أَبُو جَعْفَر علیه السلام گفتم: «کمترین درجه نصب چیست؟» فرمود: «این است که مردی چیزی بدعت کند، سپس به خاطر آن دوست بدارد و به خاطر آن دشمنی بورزد.»",
-              "fr": "J'ai dit à Abu Ja‘far عليه السلام : « Quel est le degré le plus bas de nasb ? » Il a dit : « Qu'un homme innove quelque chose, puis aime à cause de cela et déteste à cause de cela. »",
-              "id": "Saya berkata kepada Abu Ja‘far عليه السلام, “Apa tingkat terendah dari nasb?” Beliau berkata, “Bahwa seseorang berinovasi sesuatu, lalu mencintai karena itu dan membenci karena itu.”",
-              "ru": "Я сказал Абу Джафару عليه السلام: «Какова наименьшая степень насба?» Он сказал: «Что человек вводит новшество, затем любит из-за него и ненавидит из-за него.»",
-              "tr": "Ben Ebu Ca'fer عليه السلام'a sordum: “Nasbın en düşük derecesi nedir?” Dedi ki: “Bir adam bir şeyde bid'at icat eder, sonra onun sebebiyle sever ve onun sebebiyle nefret eder.”",
-              "ur": "میں نے ابو جعفر علیہ السلام سے کہا، \"نصب کی سب سے کم درجے کی حد کیا ہے؟\" انہوں نے فرمایا، \"کہ ایک شخص کوئی بدعت ایجاد کرے، پھر اس کی وجہ سے محبت کرے اور اس کی وجہ سے نفرت کرے۔\"",
-              "zh": "我对أبوجعفرعليهالسلام说：“نصب的最低程度是什么？”他说：“一个人创新某事，然后因它而爱，因它而恨。”"
-            },
             "word_end": 32,
             "word_start": 14
           }
@@ -101,26 +88,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَدْنَى": "the lowest or least degree",
-            "شَيْئًا": "a matter, thing, or doctrine",
-            "فَيُحِبَّ": "then he loves based on it",
-            "يَبْتَدِعَ": "to introduce an innovation not originally established",
-            "يُبْغِضَ": "and he hates based on it",
-            "ٱلنَّصْبِ": "hostility and oppositional enmity in religion"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَدْنَى",
+          "ٱلنَّصْبِ",
+          "يَبْتَدِعَ",
+          "شَيْئًا",
+          "فَيُحِبَّ",
+          "يُبْغِضَ"
+        ],
         "related_quran": [
           {
             "ref": "5:54",
@@ -135,32 +110,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-বাকির عليه السلام অনুযায়ী নসবের সর্বনিম্ন রূপ কী?",
-          "de": "Was ist die geringste Form von nasb laut Imam al-Baqir عليه السلام?",
-          "en": "What is the least form of nasb according to Imam al-Baqir عليه السلام?",
-          "es": "¿Cuál es la forma más baja de nasb según el Imam al-Baqir عليه السلام?",
-          "fa": "کمترین شکل نصب طبق نظر امام باقر علیه السلام چیست؟",
-          "fr": "Quelle est la forme la plus basse de nasb selon l'Imam al-Baqir عليه السلام ?",
-          "id": "Apa bentuk nasb terendah menurut Imam al-Baqir عليه السلام?",
-          "ru": "Какова наименьшая форма насба согласно Имаму аль-Бакиру عليه السلام?",
-          "tr": "İmam el-Bakır عليه السلام'a göre nasbın en düşük şekli nedir?",
-          "ur": "امام الباقر علیہ السلام کے مطابق نصب کی سب سے کم شکل کیا ہے؟",
-          "zh": "根据إمامالباقرعليهالسلام，نصب的最低形式是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস নসবের সর্বনিম্ন স্তরকে সংজ্ঞায়িত করে যা হলো একটি উদ্ভাবন প্রবর্তন করা এবং তারপর তার ওপর ভিত্তি করে ভালোবাসা ও ঘৃণা নির্ধারণ করা। এর গুরুত্ব হলো, বিভ্রান্তি শুরু হয় যখন কেউ উদ্ভাবিত ধারণাগুলোকে অন্যদের ভালোবাসা ও ঘৃণার মানদণ্ড বানিয়ে ফেলে।",
-          "de": "Dieser Hadith definiert die niedrigste Stufe von nasb als das Einführen einer Neuerung und dann die Loyalität und Feindschaft davon abhängig zu machen. Die Bedeutung liegt darin, dass Abweichung beginnt, wenn eine Person erfundene Ideen zu Maßstäben für Liebe und Hass gegenüber anderen macht.",
-          "en": "This hadith defines the lowest level of nasb as introducing an innovation and then making loyalty and enmity depend upon it. Its significance is that deviance begins when a person turns invented ideas into standards for loving and hating others.",
-          "es": "Este hadiz define el nivel más bajo de nasb como introducir una innovación y luego hacer que la lealtad y la enemistad dependan de ella. Su importancia radica en que la desviación comienza cuando una persona convierte ideas inventadas en estándares para amar y odiar a otros.",
-          "fa": "این حدیث پایین‌ترین سطح نصب را معرفی بدعت و سپس وابسته کردن محبت و دشمنی به آن تعریف می‌کند. اهمیت آن در این است که انحراف زمانی آغاز می‌شود که فرد ایده‌های نوآورانه را به معیارهای دوست داشتن و دشمن داشتن دیگران تبدیل می‌کند.",
-          "fr": "Ce hadith définit le niveau le plus bas de nasb comme l'introduction d'une innovation puis le fait de faire dépendre l'amour et la haine de celle-ci. Son importance réside dans le fait que la déviation commence lorsqu'une personne transforme des idées inventées en critères d'amour et de haine envers les autres.",
-          "id": "Hadis ini mendefinisikan tingkat terendah nasb sebagai memperkenalkan inovasi dan kemudian menjadikan kesetiaan dan permusuhan bergantung padanya. Pentingnya adalah bahwa penyimpangan dimulai ketika seseorang menjadikan ide-ide yang diciptakan sebagai standar untuk mencintai dan membenci orang lain.",
-          "ru": "Этот хадис определяет наименьший уровень насба как введение новшества и затем зависимость любви и вражды от него. Его значение в том, что отклонение начинается, когда человек превращает выдуманные идеи в стандарты для любви и ненависти к другим.",
-          "tr": "Bu hadis, nasbın en düşük seviyesini bir yenilik icat etmek ve sonra ona bağlı olarak sevgi ve nefret beslemek olarak tanımlar. Önemi, sapkınlığın, bir kişinin icat ettiği fikirleri başkalarını sevmek ve nefret etmek için standart haline getirmesiyle başladığını göstermesidir.",
-          "ur": "یہ حدیث نصب کی سب سے کم سطح کی تعریف کرتی ہے کہ وہ بدعت متعارف کروانا ہے اور پھر اس کے سبب محبت اور دشمنی قائم کرنا ہے۔ اس کی اہمیت یہ ہے کہ گمراہی اس وقت شروع ہوتی ہے جب کوئی شخص ایجاد کردہ خیالات کو دوسروں سے محبت اور نفرت کے معیار بنا دیتا ہے۔",
-          "zh": "这段圣训将نصب的最低层次定义为引入创新，然后使忠诚和敌意依赖于此。其意义在于，当一个人将发明的观念变成爱与恨的标准时，偏差便开始了。"
-        },
         "tags": [
           "theology",
           "ethics",

@@ -17,61 +17,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَ أَبُو بَصِيرٍ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আবু বাসির আবা আবদিল্লাহ عليه السلام-কে জিজ্ঞাসা করলেন:",
-              "de": "Abu Basir fragte Aba Abdillah علیه السلام:",
-              "en": "Abu Basir asked Aba Abdillah عليه السلام:",
-              "es": "Abu Basir preguntó a Aba Abdillah عليه السلام:",
-              "fa": "ابو بصیر از ابا عبدالله علیه السلام پرسید:",
-              "fr": "Abu Basir a demandé à Aba Abdillah عليه السلام :",
-              "id": "Abu Basir bertanya kepada Aba Abdillah علیه السلام:",
-              "ru": "Абу Басир спросил Абу Абдиллаха علیه السلام:",
-              "tr": "Ebu Basir, Eba Abdillah'a علیه السلام sordu:",
-              "ur": "ابو بصیر نے ابا عبداللہ علیہ السلام سے پوچھا:",
-              "zh": "ابوبصیر向اباعبداللهعلیهالسلام提問："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "عَنْ قَوْلِ اللَّهِ عَزَّ وَجَلَّ «وَلِتُكْمِلُوا الْعِدَّةَ»",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "আল্লাহ, جلیل و عظیم کے قول সম্পর্কে: «وَلِتُكْمِلُوا الْعِدَّةَ»",
-              "de": "über das Wort Allahs, des Mächtigen und Erhabenen: «وَلِتُكْمِلُوا الْعِدَّةَ»",
-              "en": "about the saying of Allah, Mighty and Majestic: “And complete the number”",
-              "es": "sobre la palabra de Allah, Poderoso y Majestuoso: «وَلِتُكْمِلُوا الْعِدَّةَ»",
-              "fa": "درباره قول خداوند متعال: «وَلِتُكْمِلُوا الْعِدَّةَ»",
-              "fr": "au sujet de la parole d'Allah, le Tout-Puissant et Majestueux : «وَلِتُكْمِلُوا الْعِدَّةَ»",
-              "id": "tentang firman Allah Yang Maha Perkasa dan Maha Agung: «وَلِتُكْمِلُوا الْعِدَّةَ»",
-              "ru": "о словах Аллаха, Всемогущего и Великого: «وَلِتُكْمِلُوا الْعِدَّةَ»",
-              "tr": "Allah, Yüce ve Azametli'nin sözü hakkında: «وَلِتُكْمِلُوا الْعِدَّةَ»",
-              "ur": "اللہ تعالیٰ کے قول کے بارے میں: «وَلِتُكْمِلُوا الْعِدَّةَ»",
-              "zh": "關於全能尊貴的安拉的話：「وَلِتُكْمِلُوا الْعِدَّةَ」"
-            },
             "word_end": 15,
             "word_start": 8
           },
           {
             "arabic_text": "قَالَ «ثَلَاثِينَ يَوْمًا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: \"তিরিশ দিন।\"",
-              "de": "Er sagte: „Dreißig Tage.“",
-              "en": "He said: “Thirty days.”",
-              "es": "Él dijo: \"Treinta días.\"",
-              "fa": "فرمود: «سی روز.»",
-              "fr": "Il a dit : « Trente jours. »",
-              "id": "Beliau berkata: \"Tiga puluh hari.\"",
-              "ru": "Он сказал: «Тридцать дней.»",
-              "tr": "Şöyle dedi: \"Otuz gün.\"",
-              "ur": "انہوں نے فرمایا: \"تیس دن۔\"",
-              "zh": "他说：「三十天。」"
-            },
             "word_end": 18,
             "word_start": 15
           }
@@ -89,58 +63,20 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبَا عَبْدِ اللَّهِ": "Aba Abdillah, Imam al-Sadiq عليه السلام",
-            "أَبُو بَصِيرٍ": "Abu Basir, the questioner and narrator in the report",
-            "الْعِدَّةَ": "the prescribed number or count of days",
-            "ثَلَاثِينَ": "thirty",
-            "قَوْلِ اللَّهِ": "the statement of Allah in the Qur'an",
-            "يَوْمًا": "days"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَبُو بَصِيرٍ",
+          "أَبَا عَبْدِ اللَّهِ",
+          "قَوْلِ اللَّهِ",
+          "الْعِدَّةَ",
+          "ثَلَاثِينَ",
+          "يَوْمًا"
+        ],
         "related_quran": [
           {
             "ref": "2:185",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام অনুযায়ী কুরআন ২:১৮৫-এ «وَلِتُكْمِلُوا الْعِدَّةَ» এর অর্থ কী?",
-          "de": "Was bedeutet «وَلِتُكْمِلُوا الْعِدَّةَ» im Koran 2:185 laut Imam al-Sadiq علیه السلام?",
-          "en": "What does “And complete the number” mean in Qur'an 2:185 according to Imam al-Sadiq عليه السلام?",
-          "es": "¿Qué significa «وَلِتُكْمِلُوا الْعِدَّةَ» en el Corán 2:185 según el Imam al-Sadiq عليه السلام?",
-          "fa": "بر اساس امام الصادق علیه السلام، «وَلِتُكْمِلُوا الْعِدَّةَ» در قرآن 2:185 چه معنایی دارد؟",
-          "fr": "Que signifie «وَلِتُكْمِلُوا الْعِدَّةَ» dans le Coran 2:185 selon l'Imam al-Sadiq عليه السلام ?",
-          "id": "Apa arti «وَلِتُكْمِلُوا الْعِدَّةَ» dalam Qur'an 2:185 menurut Imam al-Sadiq علیه السلام?",
-          "ru": "Что означает «وَلِتُكْمِلُوا الْعِدَّةَ» в Коране 2:185 согласно Имаму ас-Садик علیه السلام?",
-          "tr": "İmam el-Sadiq علیه السلام'a göre Kur'an 2:185'te «وَلِتُكْمِلُوا الْعِدَّةَ» ne anlama gelir?",
-          "ur": "امام الصادق علیہ السلام کے مطابق قرآن 2:185 میں «وَلِتُكْمِلُوا الْعِدَّةَ» کا کیا مطلب ہے؟",
-          "zh": "根據伊瑪目薩迪克علیهالسلام，古蘭經2:185中「وَلِتُكْمِلُوا الْعِدَّةَ」是什麼意思？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি কুরআনের বাক্যাংশ «وَلِتُكْمِلُوا الْعِدَّةَ» ব্যাখ্যা করে যে এটি ত্রিশ দিন পূর্ণ করার কথা বোঝায়। প্রসঙ্গে, এটি রোজার দিনের গণনার সাথে সম্পর্কিত আইনগত ও উপাসনাগত বোঝাপড়া নির্দেশ করে।",
-          "de": "Dieser Hadith erklärt den koranischen Ausdruck «وَلِتُكْمِلُوا الْعِدَّةَ» als das Vollenden von dreißig Tagen. Im Kontext zeigt er ein rechtliches und religiöses Verständnis bezüglich der Zählung der Fastentage.",
-          "en": "This hadith explains the Qur'anic phrase “And complete the number” as referring to completing thirty days. In context, it indicates a legal and devotional understanding related to the counting of days in fasting.",
-          "es": "Este hadiz explica la frase coránica «وَلِتُكْمِلُوا الْعِدَّةَ» como referida a completar treinta días. En contexto, indica una comprensión legal y devocional relacionada con el conteo de días en el ayuno.",
-          "fa": "این حدیث عبارت قرآنی «وَلِتُكْمِلُوا الْعِدَّةَ» را به معنای کامل کردن سی روز توضیح می‌دهد. در زمینه، به فهم حقوقی و عبادی مربوط به شمارش روزهای روزه اشاره دارد.",
-          "fr": "Ce hadith explique la phrase coranique «وَلِتُكْمِلُوا الْعِدَّةَ» comme se référant à compléter trente jours. Dans le contexte, cela indique une compréhension juridique et dévotionnelle liée au comptage des jours de jeûne.",
-          "id": "Hadis ini menjelaskan frasa Al-Qur'an «وَلِتُكْمِلُوا الْعِدَّةَ» sebagai menyelesaikan tiga puluh hari. Dalam konteksnya, ini menunjukkan pemahaman hukum dan ibadah terkait penghitungan hari dalam berpuasa.",
-          "ru": "Этот хадис объясняет кораническую фразу «وَلِتُكْمِلُوا الْعِدَّةَ» как указание на завершение тридцати дней. В контексте это отражает юридическое и поклонническое понимание подсчёта дней поста.",
-          "tr": "Bu hadis, Kur'an'daki «وَلِتُكْمِلُوا الْعِدَّةَ» ifadesinin otuz gün tamam etmek anlamına geldiğini açıklar. Bağlamda, oruç günlerinin sayımıyla ilgili hukuki ve ibadetî bir anlayışı gösterir.",
-          "ur": "یہ حدیث قرآن کی عبارت «وَلِتُكْمِلُوا الْعِدَّةَ» کی وضاحت کرتی ہے کہ اس کا مطلب تیس دن مکمل کرنا ہے۔ سیاق و سباق میں یہ روزے کے دنوں کی گنتی سے متعلق شرعی اور عبادتی فہم کو ظاہر کرتا ہے۔",
-          "zh": "此圣训解释了古兰经短语「وَلِتُكْمِلُوا الْعِدَّةَ」意指完成三十天。在语境中，它表明了与斋戒天数计算相关的法律和虔诚信仰理解。"
-        },
         "tags": [
           "quran_commentary",
           "worship",

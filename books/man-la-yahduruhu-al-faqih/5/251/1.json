@@ -18,23 +18,23 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ مَا كَانَ فِي هَ عَنْ إِبْرَاهِيمَ بْنِ عُمَرَ فَقَدْ رَوَيْتُهُ عَنْ أَبِي- رَضِيَ اللَّهُ عَنْهُ- عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ، عَنْ يَعْقُوبَ بْنِ يَزِيدَ، عَنْ حَمَّادِ بْنِ عِيسَى، عَنْ إِبْرَاهِيمَ بْنِ عُمَرَ الْيَمَانِيِّ‌.",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "যে কিছু ইব্রাহীম ইবনে উমার থেকে আছে, আমি তা আমার পিতা থেকে বর্ণনা করেছি—আল্লাহ তাঁর প্রতি সন্তুষ্ট হন—সাআদ ইবনে আব্দুল্লাহ থেকে, ইয়াকুব ইবনে ইয়াজীদ থেকে, হাম্মাদ ইবনে ঈসা থেকে, ইব্রাহীম ইবনে উমার আল-ইয়ামানী থেকে।",
-              "de": "Was auch immer von Ibrāhīm ibn ʿUmar darin enthalten ist, habe ich von meinem Vater—möge Allah mit ihm zufrieden sein—von Saʿd ibn ʿAbdillāh, von Yaʿqūb ibn Yazīd, von Ḥammād ibn ʿĪsā, von Ibrāhīm ibn ʿUmar al-Yamānī überliefert.",
-              "en": "As for whatever is in it from Ibrāhīm ibn ʿUmar, I have narrated it from my father—may Allah be pleased with him—from Saʿd ibn ʿAbdillāh, from Yaʿqūb ibn Yazīd, from Ḥammād ibn ʿĪsā, from Ibrāhīm ibn ʿUmar al-Yamānī.",
-              "es": "En cuanto a lo que proviene de Ibrāhīm ibn ʿUmar, lo he narrado de mi padre—que Allah esté complacido con él—de Saʿd ibn ʿAbdillāh, de Yaʿqūb ibn Yazīd, de Ḥammād ibn ʿĪsā, de Ibrāhīm ibn ʿUmar al-Yamānī.",
-              "fa": "هر آنچه از ابراهیم بن عمر باشد، من آن را از پدرم—خداوند از او راضی باشد—از سعد بن عبدالله، از یعقوب بن یزید، از حمّاد بن عیسی، از ابراهیم بن عمر الیمانی روایت کرده‌ام.",
-              "fr": "Quant à ce qui vient d’Ibrāhīm ibn ʿUmar, je l’ai rapporté de mon père—qu’Allah soit satisfait de lui—de Saʿd ibn ʿAbdillāh, de Yaʿqūb ibn Yazīd, de Ḥammād ibn ʿĪsā, d’Ibrāhīm ibn ʿUmar al-Yamānī.",
-              "id": "Adapun apa pun yang berasal dari Ibrāhīm ibn ʿUmar, saya meriwayatkannya dari ayah saya—semoga Allah meridhoi beliau—dari Saʿd ibn ʿAbdillāh, dari Yaʿqūb ibn Yazīd, dari Ḥammād ibn ʿĪsā, dari Ibrāhīm ibn ʿUmar al-Yamānī.",
-              "ru": "Что касается всего, что связано с Ибрахимом ибн Умаром, я передал это от моего отца—да будет доволен им Аллах—от Са‘да ибн Абдуллы, от Я‘куба ибн Язида, от Хаммада ибн Исы, от Ибрахима ибн Умара аль-Ямани.",
-              "tr": "İbrâhîm ibn ʿUmar’dan ne varsa, onu babamdan—Allah ondan razı olsun—Saʿd ibn ʿAbdillāh’dan, Yaʿqūb ibn Yazīd’den, Ḥammād ibn ʿĪsā’dan, İbrâhîm ibn ʿUmar el-Yemânî’den rivayet ettim.",
-              "ur": "جہاں تک ابراہیم بن عمر کا تعلق ہے، میں نے اسے اپنے والد سے روایت کیا ہے—اللہ ان سے راضی ہو—سعد بن عبد اللہ سے، یعقوب بن یزید سے، حمّاد بن عیسیٰ سے، ابراہیم بن عمر الیمانی سے۔",
-              "zh": "至于其中来自易卜拉欣本乌马尔的部分，我是从我的父亲那里传述的——愿真主喜悦他——从萨德本阿卜杜拉、雅各布本亚齐德、哈马德本伊萨、易卜拉欣本乌马尔·亚马尼。"
-            },
             "word_end": 34,
             "word_start": 0
           }
@@ -63,52 +63,14 @@
             "phrase_en": "May Allah be pleased with him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبِي": "My father; the author's immediate transmitter in this chain.",
-            "إِبْرَاهِيمَ بْنِ عُمَرَ الْيَمَانِيِّ": "The narrator to whom this transmission chain leads.",
-            "حَمَّادِ بْنِ عِيسَى": "A transmitter in the sanad/isnad.",
-            "رَوَيْتُهُ": "I transmitted it; a formal term of hadith narration.",
-            "سَعْدِ بْنِ عَبْدِ اللَّهِ": "A transmitter in the sanad/isnad."
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رَوَيْتُهُ",
+          "أَبِي",
+          "إِبْرَاهِيمَ بْنِ عُمَرَ الْيَمَانِيِّ",
+          "سَعْدِ بْنِ عَبْدِ اللَّهِ",
+          "حَمَّادِ بْنِ عِيسَى"
+        ],
         "related_quran": [],
-        "seo_questions": {
-          "bn": "মান লা ইয়াহদুরুহু আল-ফাকিহ-এ ইব্রাহীম ইবনে উমার পর্যন্ত প্রেরণ শৃঙ্খলা কী?",
-          "de": "Wie lautet die Überlieferungskette zu Ibrāhīm ibn ʿUmar in Man Lā Yaḥḍuruhu al-Faqīh?",
-          "en": "What is the transmission chain to Ibrāhīm ibn ʿUmar in Man Lā Yaḥḍuruhu al-Faqīh?",
-          "es": "¿Cuál es la cadena de transmisión a Ibrāhīm ibn ʿUmar en Man Lā Yaḥḍuruhu al-Faqīh?",
-          "fa": "زنجیره انتقال به ابراهیم بن عمر در کتاب من لا یحضره الفقیه چیست؟",
-          "fr": "Quelle est la chaîne de transmission jusqu’à Ibrāhīm ibn ʿUmar dans Man Lā Yaḥḍuruhu al-Faqīh ?",
-          "id": "Apa rantai transmisi kepada Ibrāhīm ibn ʿUmar dalam Man Lā Yaḥḍuruhu al-Faqīh?",
-          "ru": "Какова цепочка передачи к Ибрахиму ибн Умару в «Ман Ля Яхдуруху аль-Факих»?",
-          "tr": "Man Lā Yaḥḍuruhu al-Faqīh’de İbrāhīm ibn ʿUmar’a olan rivayet zinciri nedir?",
-          "ur": "من لا يحضره الفقيہ میں ابراہیم بن عمر تک روایت کی سند کیا ہے؟",
-          "zh": "《曼拉雅赫杜鲁胡·法基赫》中通往易卜拉欣本乌马尔的传链是什么？"
-        },
-        "summaries": {
-          "bn": "এই অংশটি সেই sanad/isnad স্পষ্ট করে যার মাধ্যমে লেখক ইব্রাহীম ইবনে উমার আল-ইয়ামানীর থেকে বর্ণনা প্রেরণ করেন। এটি হাদিস প্রেরণে একটি প্রযুক্তিগত শৃঙ্খলা বিবৃতি হিসেবে কাজ করে, যা কর্তৃত্বের পথকে নথিভুক্ত করে, কোনো মৌলিক আইনগত বা ধর্মতাত্ত্বিক শিক্ষা প্রদান করে না।",
-          "de": "Dieser Abschnitt klärt die Überlieferungskette (Sanad/Isnad), durch die der Autor Berichte von Ibrāhīm ibn ʿUmar al-Yamānī übermittelt. Es dient als technische Kettenerklärung in der Hadith-Überlieferung und dokumentiert den Autoritätspfad, ohne eine wesentliche rechtliche oder theologische Lehre zu vermitteln.",
-          "en": "This passage clarifies the sanad/isnad through which the author transmits reports from Ibrāhīm ibn ʿUmar al-Yamānī. It serves as a technical chain statement in hadith transmission, documenting the authority path rather than conveying a substantive legal or theological teaching.",
-          "es": "Este pasaje aclara la cadena de transmisión (sanad/isnad) a través de la cual el autor transmite los informes de Ibrāhīm ibn ʿUmar al-Yamānī. Sirve como una declaración técnica de la cadena en la transmisión del hadiz, documentando la vía de autoridad en lugar de transmitir una enseñanza legal o teológica sustantiva.",
-          "fa": "این بخش سندی را که نویسنده از طریق آن گزارش‌ها را از ابراهیم بن عمر الیمانی نقل می‌کند، روشن می‌سازد. این یک بیان فنی زنجیره در نقل حدیث است که مسیر اعتبار را مستند می‌کند و آموزش حقوقی یا کلامی خاصی ارائه نمی‌دهد.",
-          "fr": "Ce passage clarifie la chaîne de transmission (sanad/isnad) par laquelle l’auteur transmet les rapports d’Ibrāhīm ibn ʿUmar al-Yamānī. Il sert de déclaration technique de la chaîne dans la transmission du hadith, documentant la voie d’autorité plutôt que de transmettre un enseignement juridique ou théologique substantiel.",
-          "id": "Bagian ini menjelaskan sanad/isnad yang digunakan penulis untuk menyalurkan riwayat dari Ibrāhīm ibn ʿUmar al-Yamānī. Ini berfungsi sebagai pernyataan rantai teknis dalam transmisi hadits, mendokumentasikan jalur otoritas dan bukan menyampaikan ajaran hukum atau teologis substansial.",
-          "ru": "Этот отрывок разъясняет цепочку передачи (санад/иснад), через которую автор передает сообщения от Ибрахима ибн Умара аль-Ямани. Это служит техническим заявлением цепочки в передаче хадисов, документируя путь авторитета, а не передавая существенное юридическое или теологическое учение.",
-          "tr": "Bu pasaj, yazarın İbrâhîm ibn ʿUmar el-Yemânî’den rivayetleri aktardığı isnad zincirini açıklamaktadır. Hadis naklinde teknik bir zincir beyanı olarak hizmet eder, esas bir hukuki veya ilahî öğretiyi iletmez.",
-          "ur": "یہ عبارت سند کی وضاحت کرتی ہے جس کے ذریعے مصنف ابراہیم بن عمر الیمانی کی روایات نقل کرتا ہے۔ یہ حدیث کی روایت میں ایک فنی سلسلہ بیان ہے جو اقتدار کے راستے کو دستاویزی کرتا ہے، نہ کہ کوئی فقہی یا کلامی تعلیم۔",
-          "zh": "此段阐明作者传述易卜拉欣本乌马尔·亚马尼报告的传链（sanad/isnad）。它作为圣训传递中的技术链声明，记录权威路径，而非传达实质性的法律或神学教义。"
-        },
         "tags": [
           "knowledge",
           "prophetic_tradition",

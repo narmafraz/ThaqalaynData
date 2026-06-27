@@ -14,6 +14,133 @@
       "up": "/books/al-kafi:6:6:23"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "الْحُسَيْنُ بْنُ مُحَمَّدٍ عَنْ مُعَلَّى بْنِ مُحَمَّدٍ عَنِ الْحَسَنِ بْنِ عَلِيٍّ عَنْ أَحْمَدَ بْنِ عَائِذٍ عَنْ أَبِي خَدِيجَةَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 19,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلَ بَشِيرٌ الدَّهَّانُ أَبَا عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) وَ أَنَا حَاضِرٌ فَقَالَ هَلْ كَانَ رَسُولُ اللَّهِ ( صَلَّى اللَّهِ عَلَيْهِ وَآلِهِ ) يَأْكُلُ مُتَّكِئاً عَلَى يَمِينِهِ وَ عَلَى يَسَارِهِ فَقَالَ مَا كَانَ رَسُولُ اللَّهِ يَأْكُلُ مُتَّكِئاً عَلَى يَمِينِهِ وَ لَا عَلَى يَسَارِهِ وَ لَكِنْ كَانَ يَجْلِسُ جِلْسَةَ الْعَبْدِ قُلْتُ وَ لِمَ ذَلِكَ قَالَ تَوَاضُعاً لِلَّهِ عَزَّ وَ جَلَّ.",
+            "chunk_type": "body",
+            "word_end": 79,
+            "word_start": 19
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 20,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنُ بْنُ مُحَمَّدٍ",
+              "name_en": "Al-Husayn ibn Muhammad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 25,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُعَلَّى بْنِ مُحَمَّدٍ",
+              "name_en": "Mu'alla ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 63,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحَسَنِ بْنِ عَلِيٍّ",
+              "name_en": "al-Hasan ibn Ali",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 215,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ عَائِذٍ",
+              "name_en": "Ahmad ibn A'idh",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 207,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي خَدِيجَةَ",
+              "name_en": "Abu Khadijah",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "مُتَّكِئاً",
+          "جِلْسَةَ الْعَبْدِ",
+          "تَوَاضُعاً",
+          "عَزَّ وَ جَلَّ"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:133",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:23",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "24:61",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "prophetic_tradition"
+        ],
+        "topics": [
+          "prophetic_character",
+          "etiquette",
+          "sunnah"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف على المشهور   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (22/75)"
       ],
@@ -85,7 +212,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:6:23:7",

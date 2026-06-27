@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "يُونُسُ بْنُ عَبْدِ الرَّحْمَنِ عَنْ حَرِيزٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ইউনুস ইবন আবদুর রহমান, হারীয থেকে, তিনি বলেন:",
-              "de": "Yūnus ibn ʿAbd al-Raḥmān, von Ḥarīz, sagte:",
-              "en": "Yūnus ibn ʿAbd al-Raḥmān, from Ḥarīz, said:",
-              "es": "Yūnus ibn ʿAbd al-Raḥmān, de Ḥarīz, dijo:",
-              "fa": "یونس بن عبدالرحمان، از حریز، گفت:",
-              "fr": "Yūnus ibn ʿAbd al-Raḥmān, d’après Ḥarīz, a dit :",
-              "id": "Yūnus ibn ʿAbd al-Raḥmān, dari Ḥarīz, berkata:",
-              "ru": "Юнус ибн ʿАбд ар-Рахман, от Хариза, сказал:",
-              "tr": "Yûnus ibn ʿAbd al-Raḥmân, Ḥarîz’den, dedi ki:",
-              "ur": "یونس بن عبد الرحمٰن، حریز سے، انہوں نے کہا:",
-              "zh": "尤努斯·伊本·阿卜杜·拉赫曼，传自哈里兹，说："
-            },
             "word_end": 7,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ عَنِ الْمُحْصَنِ، قَالَ فَقَالَ: «الَّذِي يَزْنِي وَعِنْدَهُ مَا يُغْنِيهِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবা আবদুল্লাহ عليه السلام-কে মুহসান সম্পর্কে জিজ্ঞেস করলাম। তিনি বললেন: “সে-ই, যে এমন অবস্থায় যিনা করে, যখন তার কাছে এমন কিছু থাকে যা তাকে যথেষ্ট করে।”",
-              "de": "Ich fragte Abā ʿAbd Allāh عليه السلام nach dem muḥṣan. Er sagte: „Es ist derjenige, der zina begeht, obwohl er das hat, was ihm genügt.“",
-              "en": "I asked Abā ʿAbd Allāh عليه السلام about the muḥṣan. He said: “It is one who commits zina while he has that which suffices him.”",
-              "es": "Le pregunté a Abā ʿAbd Allāh عليه السلام acerca del muḥṣan. Dijo: “Es quien comete zina mientras tiene aquello que le basta.”",
-              "fa": "از ابا عبدالله علیه السلام دربارهٔ مُحصَن پرسیدم. فرمود: «او کسی است که در حالی زنا می‌کند که آنچه او را کفایت می‌کند نزد اوست.»",
-              "fr": "J’ai interrogé Abā ʿAbd Allāh عليه السلام au sujet du muḥṣan. Il a dit : « C’est celui qui commet la zina alors qu’il a ce qui lui suffit. »",
-              "id": "Aku bertanya kepada Abā ʿAbd Allāh عليه السلام tentang muḥṣan. Beliau bersabda: “Itulah orang yang berzina sementara ia memiliki apa yang mencukupinya.”",
-              "ru": "Я спросил Абу ʿАбд Аллаха عليه السلام о мухсане. Он сказал: «Это тот, кто совершает зина, имея то, что ему достаточно».",
-              "tr": "Ebâ ʿAbd Allâh عليه السلام’a muḥṣan hakkında sordum. Buyurdu ki: “O, kendisine yetecek şey varken zina eden kimsedir.”",
-              "ur": "میں نے ابا عبد اللہ علیہ السلام سے مُحصَن کے بارے میں پوچھا۔ انہوں نے فرمایا: “وہ شخص جو زنا کرتا ہے جبکہ اس کے پاس وہ چیز موجود ہو جو اسے کافی ہو۔”",
-              "zh": "我问阿巴·阿卜杜拉 عليه السلام关于穆赫珊的问题。他说：“就是在他拥有足以使他满足的东西时仍犯通奸/私通的人。”"
-            },
             "word_end": 22,
             "word_start": 7
           }
@@ -90,23 +77,11 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْمُحْصَنِ": "a legally protected person in the context of zina rulings",
-            "مَا يُغْنِيهِ": "that which suffices him lawfully and removes need",
-            "يَزْنِي": "commits zina, meaning illicit sexual intercourse"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمُحْصَنِ",
+          "يَزْنِي",
+          "مَا يُغْنِيهِ"
+        ],
         "related_quran": [
           {
             "ref": "24:2",
@@ -121,32 +96,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام-এর মতে যিনার বিধানে মুহসান কাকে বলা হয়?",
-          "de": "Wer gilt nach Imam al-Ṣādiq عليه السلام in den Bestimmungen über zina als muḥṣan?",
-          "en": "Who is considered a muḥṣan in the rulings of zina according to Imam al-Ṣādiq عليه السلام?",
-          "es": "¿Quién es considerado muḥṣan en las normas de la zina según el Imam al-Ṣādiq عليه السلام?",
-          "fa": "از نظر امام صادق علیه السلام، در احکام زنا چه کسی مُحصَن شمرده می‌شود؟",
-          "fr": "Qui est considéré comme muḥṣan dans les règles de la zina selon l’imam al-Ṣādiq عليه السلام ?",
-          "id": "Siapakah yang dianggap sebagai muḥṣan dalam hukum zina menurut Imam al-Ṣādiq عليه السلام?",
-          "ru": "Кто считается мухсаном в нормах зина согласно имаму ас-Ṣадику عليه السلام?",
-          "tr": "İmam es-Sâdık عليه السلام’a göre zina hükümlerinde muḥṣan kim sayılır?",
-          "ur": "امام الصادق علیہ السلام کے مطابق زنا کے احکام میں مُحصَن کس کو کہا جاتا ہے؟",
-          "zh": "根据伊玛目萨迪格 عليه السلام的教法，谁被视为通奸/私通中的穆赫珊？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে যিনার প্রসঙ্গে মুহসান-এর সংজ্ঞা দেওয়া হয়েছে: যে ব্যক্তি শরিয়তসম্মতভাবে তাকে যথেষ্ট এমন কিছু থাকা সত্ত্বেও যিনা করে। এটি যিনার আইনি শ্রেণিবিন্যাস ও সংশ্লিষ্ট বিধানের জন্য একটি ফিকহি ব্যাখ্যা।",
-          "de": "Dieser Hadith definiert den muḥṣan im Zusammenhang mit zina als denjenigen, der Unzucht begeht, obwohl er Zugang zu dem hat, was ihm rechtmäßig genügt. Er dient als fiqh-relevante Erläuterung für die rechtliche Einordnung und die Bestimmungen bezüglich zina.",
-          "en": "This hadith defines the muḥṣan in the context of zina as one who commits fornication or adultery despite having access to what suffices him lawfully. It serves as a jurisprudential clarification relevant to the legal classification and rulings concerning zina.",
-          "es": "Este hadiz define al muḥṣan en el contexto de la zina como quien comete fornicación o adulterio a pesar de tener acceso a lo que le basta lícitamente. Sirve como una aclaración jurisprudencial relevante para la clasificación legal y las normas relativas a la zina.",
-          "fa": "این حدیث، مُحصَن را در زمینهٔ زنا چنین تعریف می‌کند: کسی که با وجود داشتن آنچه به‌طور شرعی او را کفایت می‌کند، زنا می‌کند. این روایت توضیحی فقهی است که برای طبقه‌بندی حقوقی و احکام مربوط به زنا اهمیت دارد.",
-          "fr": "Ce hadith définit le muḥṣan dans le contexte de la zina comme celui qui commet la fornication ou l’adultère alors qu’il a accès à ce qui lui suffit licitement. Il s’agit d’une clarification jurisprudentielle pertinente pour la qualification juridique et les règles concernant la zina.",
-          "id": "Hadis ini mendefinisikan muḥṣan dalam konteks zina sebagai orang yang berzina meskipun ia memiliki apa yang secara halal mencukupinya. Ini merupakan penjelasan fikih yang relevan bagi klasifikasi hukum dan ketentuan terkait zina.",
-          "ru": "Этот хадис определяет мухсана в контексте зина как того, кто совершает прелюбодеяние или блуд, имея то, что дозволенным образом достаточно ему. Это служит фикховым разъяснением, важным для правовой квалификации и норм, касающихся зина.",
-          "tr": "Bu hadis, zina bağlamında muḥṣan’ı, kendisine helâl yoldan yetecek imkânı olduğu halde zina eden kimse olarak tanımlar. Bu, zina ile ilgili hukukî sınıflandırma ve hükümler açısından fıkhî bir açıklamadır.",
-          "ur": "یہ حدیث زنا کے باب میں مُحصَن کی تعریف بیان کرتی ہے: وہ شخص جو شرعی طور پر کافی چیز موجود ہونے کے باوجود زنا کرے۔ یہ فقہی وضاحت زنا کی قانونی درجہ بندی اور اس سے متعلق احکام کے لیے اہم ہے۔",
-          "zh": "这段圣训在通奸/私通的语境中定义了穆赫珊：即使他已经拥有合法上足以满足自己的东西，仍然犯通奸/私通的人。它是与通奸/私通相关的法律分类和教法判定的重要法学说明。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations"

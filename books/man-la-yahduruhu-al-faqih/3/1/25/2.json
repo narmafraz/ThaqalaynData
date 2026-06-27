@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى حَمَّادٌ عَنِ الْحَلَبِيِّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "হাম্মাদ আল-হালাবী থেকে, আবী আব্দুল্লাহ عليه السلام থেকে বর্ণনা করেছেন:",
-              "de": "Ḥammād berichtete von al-Ḥalabī, von Abī ʿAbdillāh علیه السلام:",
-              "en": "Ḥammād narrated from al-Ḥalabī, from Abī ʿAbdillāh عليه السلام:",
-              "es": "Ḥammād narró de al-Ḥalabī, de Abī ʿAbdillāh عليه السلام:",
-              "fa": "حمّاد از الحلبي، از ابی عبدالله علیه السلام روایت کرد:",
-              "fr": "Ḥammād a rapporté de al-Ḥalabī, d'Abī ʿAbdillāh عليه السلام :",
-              "id": "Ḥammād meriwayat dari al-Ḥalabī, dari Abī ʿAbdillāh علیه السلام:",
-              "ru": "Ḥammād передал от аль-Ḥalabī, от Abī ʿAbdillāh علیه السلام:",
-              "tr": "Ḥammād, al-Ḥalabī'den, Abī ʿAbdillāh علیه السلام'dan rivayet etti:",
-              "ur": "حَمَّاد نے الحَلَبِی سے، ابو عبد اللہ علیہ السلام سے روایت کی:",
-              "zh": "Ḥammād从al-Ḥalabī,从AbīʿAbdillāhعليهالسلام传述："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "«أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ أَجَازَ شَهَادَةَ النِّسَاءِ مَعَ يَمِينِ الطَّالِبِ فِي الدَّيْنِ يَحْلِفُ بِاللَّهِ إِنَّ حَقَّهُ لَحَقٌّ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "رسول اللہ صلی اللہ علیہ وآلہ وسلم نے قرض کے مقدمے میں دعویدار کی قسم کے ساتھ خواتین کی شہادت کو جائز قرار دیا: وہ اللہ کی قسم کھاتا ہے کہ اس کا حق واقعی حق ہے۔",
-              "de": "Der Gesandte Allahs صلى الله عليه وآله وسلم erlaubte die Zeugenaussage von Frauen zusammen mit dem Eid des Klägers in einer Schuldsache: Er schwört bei Allah, dass sein Recht tatsächlich besteht.",
-              "en": "“The Messenger of Allah صلى الله عليه وآله وسلم permitted the testimony of women together with the oath of the claimant in a debt case: he swears by Allah that his right is indeed true.”",
-              "es": "El Mensajero de Allah صلى الله عليه وآله وسلم permitió el testimonio de mujeres junto con el juramento del reclamante en un caso de deuda: él jura por Allah que su derecho es realmente cierto.",
-              "fa": "رسول خدا صلى الله عليه وآله وسلم شهادت زنان را همراه با قسم مدعی در دعوای دین اجازه داد: او به خدا قسم می‌خورد که حق او حق است.",
-              "fr": "Le Messager d'Allah صلى الله عليه وآله وسلم a permis le témoignage des femmes avec le serment du demandeur dans une affaire de dette : il jure par Allah que son droit est bien réel.",
-              "id": "Rasulullah صلى الله عليه وآله وسلم mengizinkan kesaksian wanita bersama dengan sumpah penuntut dalam perkara hutang: dia bersumpah demi Allah bahwa haknya memang benar.",
-              "ru": "Посланник Аллаха صلى الله عليه وآله وسلم разрешил свидетельство женщин вместе с присягой истца в долговом деле: он клянется Аллахом, что его право действительно.",
-              "tr": "Allah'ın Resulü صلى الله عليه وآله وسلم, borç davasında talebin yemin etmesiyle birlikte kadınların şahitliğini kabul etti: O, hakkının gerçekten hak olduğunu Allah'a yemin eder.",
-              "ur": "رسول اللہ صلی اللہ علیہ وآلہ وسلم نے قرض کے معاملے میں دعویدار کی قسم کے ساتھ عورتوں کی شہادت کو جائز قرار دیا: وہ اللہ کی قسم کھاتا ہے کہ اس کا حق واقعی حق ہے۔",
-              "zh": "安拉使者صلىاللهعليه وآله وسلم允许妇女的证词与债务案件中申诉人的誓言一起使用：他以安拉发誓他的权利确实是真实的。"
-            },
             "word_end": 32,
             "word_start": 11
           }
@@ -110,26 +97,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الدَّيْنِ": "debt or financial liability under dispute",
-            "الطَّالِبِ": "the claimant seeking to establish his right",
-            "النِّسَاءِ": "women whose testimony is being considered in the case",
-            "حَقَّهُ": "his rightful claim or due",
-            "شَهَادَةَ": "testimony or legal witness statement",
-            "يَمِينِ": "oath sworn in legal affirmation"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "شَهَادَةَ",
+          "النِّسَاءِ",
+          "يَمِينِ",
+          "الطَّالِبِ",
+          "الدَّيْنِ",
+          "حَقَّهُ"
+        ],
         "related_quran": [
           {
             "ref": "2:282",
@@ -140,32 +115,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ঋণ মামলায় দাবিকারীর শপথের সঙ্গে মহিলাদের সাক্ষ্য গ্রহণযোগ্য কি?",
-          "de": "Kann die Zeugenaussage von Frauen zusammen mit dem Eid des Klägers in Schuldsachen akzeptiert werden?",
-          "en": "Can the testimony of women be accepted together with the claimant’s oath in debt cases?",
-          "es": "¿Se puede aceptar el testimonio de mujeres junto con el juramento del reclamante en casos de deuda?",
-          "fa": "آیا شهادت زنان همراه با قسم مدعی در دعاوی دین پذیرفته می‌شود؟",
-          "fr": "Le témoignage des femmes peut-il être accepté avec le serment du demandeur dans les affaires de dettes ?",
-          "id": "Apakah kesaksian wanita dapat diterima bersama dengan sumpah penuntut dalam perkara hutang?",
-          "ru": "Можно ли принимать свидетельство женщин вместе с присягой истца в долговых делах?",
-          "tr": "Borç davalarında talebin yemin etmesiyle birlikte kadınların şahitliği kabul edilebilir mi?",
-          "ur": "کیا قرض کے مقدمات میں دعویدار کی قسم کے ساتھ عورتوں کی شہادت قبول کی جا سکتی ہے؟",
-          "zh": "债务案件中可以接受妇女证词与申诉人誓言同时使用吗？"
-        },
-        "summaries": {
-          "bn": "এই حدیث ঋণবিষয়ক বিবাদে বিচার সংক্রান্ত একটি শারীয়তী বিধান বর্ণনা করে যে মহিলাদের সাক্ষ্য দাবিকারীর শপথের সঙ্গে গ্রহণযোগ্য হতে পারে।",
-          "de": "Dieser Hadith legt eine rechtliche Regelung bezüglich der Entscheidung in Schuldenstreitigkeiten fest. Er besagt, dass die Zeugenaussage von Frauen zusammen mit dem Eid des Klägers zur Bestätigung der Gültigkeit seines Anspruchs akzeptiert werden kann.",
-          "en": "This hadith states a legal ruling regarding adjudication in debt disputes. It establishes that the testimony of women may be accepted together with the claimant’s oath to affirm the validity of his claim.",
-          "es": "Este hadiz establece una regla legal sobre la adjudicación en disputas de deuda. Establece que el testimonio de mujeres puede ser aceptado junto con el juramento del reclamante para afirmar la validez de su reclamo.",
-          "fa": "این حدیث حکم شرعی درباره داوری در اختلافات مالی را بیان می‌کند که شهادت زنان همراه با قسم مدعی پذیرفته می‌شود.",
-          "fr": "Ce hadith énonce une règle juridique concernant l'arbitrage dans les litiges de dettes. Il établit que le témoignage des femmes peut être accepté avec le serment du demandeur pour affirmer la validité de sa réclamation.",
-          "id": "Hadis ini menyatakan hukum terkait pengadilan dalam sengketa hutang bahwa kesaksian wanita dapat diterima bersama dengan sumpah penuntut untuk menegaskan kebenaran klaimnya.",
-          "ru": "Этот хадис устанавливает юридическое правило относительно рассмотрения долговых споров. Он утверждает, что свидетельство женщин может приниматься вместе с присягой истца для подтверждения законности его требования.",
-          "tr": "Bu hadis, borç ihtilaflarında yargılamaya dair hukuki hükmü belirtir; kadınların şahitliği, talebin yemin etmesiyle birlikte kabul edilebilir.",
-          "ur": "یہ حدیث قرض کے تنازعات میں عدالتی فیصلے کے بارے میں شرعی حکم بیان کرتی ہے کہ عورتوں کی شہادت دعویدار کی قسم کے ساتھ قبول کی جا سکتی ہے۔",
-          "zh": "此圣训阐明了债务纠纷裁决的法律规定，确立了妇女证词可与申诉人誓言一同接受以确认其主张的有效性。"
-        },
         "tags": [
           "jurisprudence",
           "prophetic_tradition",

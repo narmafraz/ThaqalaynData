@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَرَوَىٰ مُحَمَّدُ بْنُ مُسْلِمٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ أَنَّهُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবনে মুসলিম আবু আবদুল্লাহ علیہ السلام থেকে বর্ণনা করেছেন যে তিনি বললেন:",
-              "de": "Muhammad ibn Muslim berichtete von Abu Abdullah عليه السلام, dass er sagte:",
-              "en": "Muhammad ibn Muslim narrated from Abu Abdullah عليه السلام that he said:",
-              "es": "Muhammad ibn Muslim narró de Abu Abdullah عليه السلام que dijo:",
-              "fa": "محمد بن مسلم از ابوعبدالله علیه السلام روایت کرد که فرمود:",
-              "fr": "Muhammad ibn Muslim a rapporté d'Abu Abdullah عليه السلام qu'il a dit :",
-              "id": "Muhammad ibn Muslim meriwayat dari Abu Abdullah عليه السلام bahwa beliau berkata:",
-              "ru": "Мухаммад ибн Муслим передал от Абу Абдуллаха عليه السلام, что он сказал:",
-              "tr": "Muhammed ibn Muslim, Ebu Abdullah (aleyhisselam)'dan rivayet etti ki şöyle dedi:",
-              "ur": "محمد ابن مسلم نے ابو عبداللہ علیہ السلام سے روایت کی کہ انہوں نے فرمایا:",
-              "zh": "穆罕默德本穆斯林从阿布阿卜杜拉 عليه السلام传述说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "فِي الْخَائِفِ لَا بَأْسَ بِأَنْ يَرْمِيَ الْجِمَارَ بِاللَّيْلِ وَيُضَحِّيَ بِاللَّيْلِ وَيُفِيضَ بِاللَّيْلِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "ভীত ব্যক্তির জন্য রাতের বেলা জামারাতকে পাথর মারা, রাতের বেলা কোরবানি করা এবং রাতের বেলা যাত্রা করা কোনো ক্ষতি নেই।",
-              "de": "Für den, der Angst hat, ist es nicht schädlich, die Jamarat nachts zu steinigen, das Opfertier nachts zu schlachten und nachts fortzufahren.",
-              "en": "For one who is fearful, there is no harm in stoning the Jamarat at night, slaughtering the sacrifice at night, and proceeding at night.",
-              "es": "Para quien tiene miedo, no hay daño en apedrear las Jamarat por la noche, sacrificar el sacrificio por la noche y proceder por la noche.",
-              "fa": "برای کسی که ترسان است، ایرادی ندارد که در شب جمرات را سنگ بزند، قربانی را در شب انجام دهد و در شب حرکت کند.",
-              "fr": "Pour celui qui a peur, il n'y a pas de mal à jeter des pierres aux Jamarat la nuit, à sacrifier la nuit et à procéder la nuit.",
-              "id": "Bagi orang yang takut, tidak mengapa melempar jumrah pada malam hari, menyembelih kurban pada malam hari, dan berangkat pada malam hari.",
-              "ru": "Для того, кто боится, нет вреда в том, чтобы бросать камни в Джамарат ночью, приносить жертву ночью и отправляться ночью.",
-              "tr": "Korkan bir kimse için geceleyin Cemerat'a taş atmak, geceleyin kurban kesmek ve geceleyin hareket etmekte bir sakınca yoktur.",
-              "ur": "خوفزدہ شخص کے لیے رات کو جمار کو کنکریاں مارنا، رات کو قربانی کرنا، اور رات کو روانہ ہونا جائز ہے۔",
-              "zh": "对于害怕的人，夜间掷石于贾马拉特，夜间宰牲祭祀，夜间出发均无妨。"
-            },
             "word_end": 24,
             "word_start": 12
           }
@@ -91,26 +78,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْجِمَارَ": "the Jamarat, the ritual stoning sites in hajj",
-            "الْخَائِفِ": "the person who is fearful or apprehensive of harm",
-            "بِاللَّيْلِ": "at night",
-            "يَرْمِيَ": "to throw, here meaning to cast pebbles at the Jamarat",
-            "يُضَحِّيَ": "to offer the sacrifice",
-            "يُفِيضَ": "to proceed or depart, here referring to ifadah during hajj"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْخَائِفِ",
+          "يَرْمِيَ",
+          "الْجِمَارَ",
+          "يُضَحِّيَ",
+          "يُفِيضَ",
+          "بِاللَّيْلِ"
+        ],
         "related_quran": [
           {
             "ref": "2:185",
@@ -125,32 +100,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ভীত pilgrimকে কি রাতের বেলা জামারাতকে পাথর মারতে এবং অন্যান্য হজের ইবাদত সম্পাদন করতে দেওয়া হয়?",
-          "de": "Darf ein ängstlicher Pilger die Jamarat nachts steinigen und andere Hajj-Riten nachts durchführen?",
-          "en": "Is a fearful pilgrim allowed to stone the Jamarat and perform other hajj rites at night?",
-          "es": "¿Se permite a un peregrino temeroso apedrear las Jamarat y realizar otros ritos del hajj por la noche?",
-          "fa": "آیا به زائر ترسان اجازه داده می‌شود که در شب جمرات را سنگ بزند و سایر مناسک حج را انجام دهد؟",
-          "fr": "Un pèlerin craintif est-il autorisé à jeter des pierres aux Jamarat et à accomplir d'autres rites du hajj la nuit ?",
-          "id": "Apakah jamaah haji yang takut diperbolehkan melempar jumrah dan melaksanakan ibadah haji lainnya pada malam hari?",
-          "ru": "Разрешено ли боящемуся паломнику бросать камни в Джамарат и выполнять другие обряды хаджа ночью?",
-          "tr": "Korkan bir hacının geceleyin Cemerat'a taş atmasına ve diğer hac ibadetlerini yapmasına izin verilir mi?",
-          "ur": "کیا خوفزدہ حاجی کو رات کو جمار کو کنکریاں مارنے اور دیگر حج کے مناسک انجام دینے کی اجازت ہے؟",
-          "zh": "害怕的朝觐者允许夜间掷石于贾马拉特并进行其他朝觐仪式吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি এমন একজন ব্যক্তির জন্য আইনগত ছাড় প্রদান করে যিনি হজের مناسক চলাকালীন ক্ষতির ভয়ে ভীত। তিনি রাতের বেলা জামারাতকে পাথর মারতে, কোরবানি দিতে এবং যাত্রা করতে পারেন।",
-          "de": "Dieser Hadith gewährt eine rechtliche Erleichterung für eine Person, die während der Hajj-Riten Angst vor Schaden hat. Er erlaubt dieser Person, die Jamarat nachts zu steinigen, das Opfer zu schlachten und die Abreise oder Ifadah nachts durchzuführen.",
-          "en": "This hadith gives a legal concession for a person who fears harm during the rites of hajj. It permits such a person to perform the stoning of the Jamarat, the sacrifice, and the departure or ifadah at night.",
-          "es": "Este hadiz otorga una concesión legal para una persona que teme daño durante los ritos del hajj. Permite a tal persona apedrear las Jamarat, sacrificar y partir o realizar la ifadah por la noche.",
-          "fa": "این حدیث تسهیلات شرعی برای کسی که از آسیب در مناسک حج می‌ترسد بیان می‌کند که می‌تواند در شب جمرات را سنگ بزند، قربانی کند و حرکت کند.",
-          "fr": "Ce hadith accorde une concession légale à une personne qui craint un danger pendant les rites du hajj. Il lui permet de jeter des pierres aux Jamarat, de sacrifier et de procéder ou d'effectuer l'ifada la nuit.",
-          "id": "Hadis ini memberikan keringanan hukum bagi orang yang takut akan bahaya selama ibadah haji. Ia diperbolehkan melempar jumrah, berkurban, dan berangkat pada malam hari.",
-          "ru": "Этот хадис предоставляет юридическое разрешение для человека, который боится вреда во время обрядов хаджа. Ему разрешается бросать камни в Джамарат, приносить жертву и совершать отход или ифада ночью.",
-          "tr": "Bu hadis, haccın ibadetleri sırasında zarar görme korkusu olan kişi için yasal bir kolaylık sağlar; böyle bir kişi geceleyin Cemerat'a taş atabilir, kurban kesebilir ve hareket edebilir.",
-          "ur": "یہ حدیث حج کے مناسک کے دوران نقصان کے خوف سے متاثر شخص کے لیے ایک شرعی رعایت بیان کرتی ہے کہ وہ رات کو جمار کو کنکریاں مار سکتا ہے، قربانی کر سکتا ہے اور روانہ ہو سکتا ہے۔",
-          "zh": "此圣训为在朝觐仪式中害怕受害的人提供法律宽容，允许其夜间掷石于贾马拉特，宰牲祭祀及夜间离开或进行伊法达。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

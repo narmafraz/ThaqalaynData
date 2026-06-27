@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ عَلِيِّ بْنِ مَحْبُوبٍ عَنِ الْعَبَّاسِ عَنْ عَبْدِ اللَّهِ بْنِ الْمُغِيرَةِ عَنْ مُعَاوِيَةَ بْنِ عَمَّارٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন ‘আলি ইবন মাহবুব আল-‘আব্বাস থেকে, তিনি ‘আবদুল্লাহ ইবন আল-মুগীরাহ থেকে, তিনি মু‘আবিয়াহ ইবন ‘আম্মার থেকে বর্ণনা করেছেন, যিনি বলেছেন:",
-              "de": "Muhammad ibn 'Ali ibn Mahbub überlieferte von al-'Abbas, von 'Abd Allah ibn al-Mughirah, von Mu'awiyah ibn 'Ammar, der sagte:",
-              "en": "Muhammad ibn 'Ali ibn Mahbub narrated from al-'Abbas, from 'Abd Allah ibn al-Mughirah, from Mu'awiyah ibn 'Ammar, who said:",
-              "es": "Muhammad ibn 'Ali ibn Mahbub narró de al-'Abbas, de 'Abd Allah ibn al-Mughirah, de Mu'awiyah ibn 'Ammar, quien dijo:",
-              "fa": "محمد بن علی بن محبوب از عباس، او از عبدالله بن مغیره، او از معاویه بن عمار روایت کرد که گفت:",
-              "fr": "Muhammad ibn 'Ali ibn Mahbub a rapporté d'al-'Abbas, de 'Abd Allah ibn al-Mughirah, de Mu'awiyah ibn 'Ammar, qui a dit :",
-              "id": "Muhammad ibn 'Ali ibn Mahbub meriwayatkan dari al-'Abbas, dari 'Abd Allah ibn al-Mughirah, dari Mu'awiyah ibn 'Ammar, yang berkata:",
-              "ru": "Мухаммад ибн 'Али ибн Махбуб передал от аль-'Аббаса, от 'Абд Аллаха ибн аль-Мугира, от Му'авии ибн 'Аммара, который сказал:",
-              "tr": "Muhammed ibn Ali ibn Mahbub, el-Abbas'tan, o da Abdullah ibn el-Mughirah'tan, o da Mu'aviye ibn Ammar'dan rivayet etti; o şöyle dedi:",
-              "ur": "محمد بن علی بن محبوب نے العباس سے، انہوں نے عبد اللہ بن المغیرہ سے، انہوں نے معاویہ بن عمار سے روایت کی، جنہوں نے کہا:",
-              "zh": "穆罕默德·伊本·阿里·伊本·马赫布卜从阿尔-阿巴斯传述，阿尔-阿巴斯从阿卜杜拉·伊本·穆吉拉传述，阿卜杜拉·伊本·穆吉拉从穆阿维叶·伊本·阿马尔传述，他说："
-            },
             "word_end": 17,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ عَنِ الرَّجُلِ احْتَلَمَ فَلَمَّا انْتَبَهَ وَجَدَ بَلَلًا قَلِيلًا، قَالَ: «لَيْسَ بِشَيْءٍ إِلَّا أَنْ يَكُونَ مَرِيضًا فَإِنَّهُ يَضْعُفُ، فَعَلَيْهِ الْغُسْلُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবা ‘আবদুল্লাহ عليه السلام-কে এমন এক ব্যক্তির সম্পর্কে জিজ্ঞেস করলাম, যার ইহতিলাম হয়েছিল; তারপর সে জেগে উঠে সামান্য ভেজাভাব পেল। তিনি বললেন: “এটি কিছুই নয়, তবে যদি সে অসুস্থ হয়, কারণ তখন সে দুর্বল হয়ে পড়ে; সে ক্ষেত্রে তার ওপর গোসল ফরজ।”",
-              "de": "Ich fragte Aba 'Abd Allah عليه السلام nach einem Mann, der einen nächtlichen Samenerguss hatte und beim Erwachen nur eine geringe Feuchtigkeit fand. Er sagte: „Das ist nichts, außer wenn er krank ist; denn dann wird er schwach; in diesem Fall ist das Ghusl für ihn verpflichtend.“",
-              "en": "I asked Aba 'Abd Allah عليه السلام about a man who had a nocturnal emission, then when he awoke he found only a small amount of moisture. He said: “It is nothing, unless he is ill, for then he becomes weakened; in that case ghusl is obligatory upon him.”",
-              "es": "Le pregunté a Aba 'Abd Allah عليه السلام acerca de un hombre que tuvo una emisión nocturna; luego, cuando despertó, encontró solo una pequeña cantidad de humedad. Dijo: “No es nada, salvo que esté enfermo, pues entonces se debilita; en ese caso, el ghusl es obligatorio para él.”",
-              "fa": "از ابا عبدالله علیه السلام درباره مردی پرسیدم که محتلم شده بود، سپس هنگامی که بیدار شد تنها مقدار کمی رطوبت یافت. فرمود: «این چیزی نیست، مگر آنکه بیمار باشد، زیرا در آن صورت ناتوان می‌شود؛ در آن حالت غسل بر او واجب است.»",
-              "fr": "J’ai demandé à Aba 'Abd Allah عليه السلام au sujet d’un homme qui avait eu une pollution nocturne, puis, à son réveil, n’avait trouvé qu’une petite quantité d’humidité. Il dit : « Ce n’est rien, sauf s’il est malade, car alors il s’affaiblit ; dans ce cas, le ghusl lui est obligatoire. »",
-              "id": "Aku bertanya kepada Aba 'Abd Allah عليه السلام tentang seorang laki-laki yang mengalami ihtilam, lalu ketika ia bangun ia mendapati hanya sedikit basah. Beliau bersabda: “Itu bukan apa-apa, kecuali jika ia sakit, karena saat itu ia menjadi lemah; dalam keadaan itu ghusl wajib atasnya.”",
-              "ru": "Я спросил Абу 'Абд Аллаха عليه السلام о мужчине, у которого произошла ночная поллюция, а когда он проснулся, он обнаружил лишь небольшое количество влаги. Он сказал: «Это ничего не значит, если только он не болен, ибо тогда он ослабевает; в таком случае совершение гусля обязательно для него.»",
-              "tr": "Aba 'Abd Allah عليه السلام'a, gece ihtilam olan ve sonra uyandığında yalnızca az miktarda nem bulan bir adam hakkında sordum. O şöyle dedi: “Bu bir şey değildir; ancak hasta olması müstesna, çünkü o zaman zayıflar; bu durumda gusül ona vaciptir.”",
-              "ur": "میں نے ابا عبد اللہ علیہ السلام سے ایک ایسے شخص کے بارے میں پوچھا جسے احتلام ہوا، پھر جب وہ بیدار ہوا تو اسے صرف تھوڑی سی تری ملی۔ آپ نے فرمایا: “یہ کچھ نہیں، مگر یہ کہ وہ بیمار ہو، کیونکہ پھر وہ کمزور ہو جاتا ہے؛ اس صورت میں اس پر غسل واجب ہے۔”",
-              "zh": "我向阿布·阿卜杜拉 عليه السلام询问一个人夜间遗精后醒来只发现少量湿润的情况。他说：“这没什么，除非他生病了，因为那时他会虚弱；在这种情况下，ghusl对他是必须的。”"
-            },
             "word_end": 42,
             "word_start": 17
           }
@@ -110,26 +97,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "احْتَلَمَ": "experienced a nocturnal emission in sleep",
-            "الْغُسْلُ": "ritual bath required for purification from janabah",
-            "بَلَلًا": "moisture or wetness found upon waking",
-            "قَلِيلًا": "a small amount",
-            "مَرِيضًا": "ill or sick, affecting the legal ruling here",
-            "يَضْعُفُ": "becomes weak, indicating weakness due to illness"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "احْتَلَمَ",
+          "بَلَلًا",
+          "قَلِيلًا",
+          "مَرِيضًا",
+          "يَضْعُفُ",
+          "الْغُسْلُ"
+        ],
         "related_quran": [
           {
             "ref": "4:43",
@@ -140,32 +115,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইহতিলামের পর সামান্য ভেজাভাব হলে কি গোসল ফরজ হয়?",
-          "de": "Erfordert eine geringe Feuchtigkeit nach einem nächtlichen Samenerguss Ghusl?",
-          "en": "Does a small amount of moisture after a nocturnal emission require ghusl?",
-          "es": "¿Una pequeña cantidad de humedad después de una emisión nocturna requiere ghusl?",
-          "fa": "آیا پس از محتلم شدن، مقدار کمی رطوبت غسل را واجب می‌کند؟",
-          "fr": "Une petite quantité d’humidité après une pollution nocturne exige-t-elle le ghusl ?",
-          "id": "Apakah sedikit basah setelah ihtilam mewajibkan ghusl?",
-          "ru": "Требует ли небольшое количество влаги после ночной поллюции гусля?",
-          "tr": "Gece ihtilamından sonra az miktarda nem guslü gerektirir mi?",
-          "ur": "کیا احتلام کے بعد تھوڑی سی تری ہونے پر غسل واجب ہے؟",
-          "zh": "夜间遗精后少量湿润是否需要ghusl？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে ইহতিলামের পর জেগে উঠে সামান্য ভেজাভাব পাওয়ার ক্ষেত্রে গোসলের বিধান বর্ণনা করা হয়েছে। ইমাম عليه السلام বলেন, সাধারণভাবে এমন সামান্য ভেজাভাব গোসল ফরজ করে না, তবে অসুস্থতার ক্ষেত্রে, যখন দুর্বলতা প্রভাব ফেলতে পারে, তখন গোসল ফরজ হয়ে যায়।",
-          "de": "Dieser Hadith enthält eine rechtliche Regelung zum Ghusl nach einem nächtlichen Samenerguss und dem anschließenden Auffinden nur geringer Feuchtigkeit beim Erwachen. Der Imam عليه السلام erklärt, dass eine solche geringe Feuchtigkeit im Allgemeinen kein Ghusl erfordert, außer im Krankheitsfall, wenn Schwäche den Ausfluss beeinflussen kann und Ghusl verpflichtend wird.",
-          "en": "This hadith gives a legal ruling about ghusl after experiencing a nocturnal emission and then finding only a small amount of moisture upon waking. The Imam عليه السلام states that such slight moisture does not require ghusl in general, except in the case of illness, where weakness may affect the emission and ghusl becomes obligatory.",
-          "es": "Este hadiz expone una norma legal sobre el ghusl después de una emisión nocturna y luego encontrar solo una pequeña cantidad de humedad al despertar. El Imam عليه السلام afirma que esa leve humedad, por lo general, no obliga al ghusl, salvo en caso de enfermedad, cuando la debilidad puede afectar la emisión y el ghusl se vuelve obligatorio.",
-          "fa": "این حدیث درباره حکم غسل پس از محتلم شدن و سپس یافتن مقدار کمی رطوبت هنگام بیدار شدن، حکم شرعی بیان می‌کند. امام علیه السلام می‌فرماید که چنین رطوبت اندکی به طور کلی غسل را واجب نمی‌کند، مگر در صورت بیماری که ضعف می‌تواند بر خروج اثر بگذارد و غسل واجب می‌شود.",
-          "fr": "Ce hadith énonce une règle juridique concernant le ghusl après une pollution nocturne et le fait de ne trouver qu’une petite quantité d’humidité au réveil. L’Imam عليه السلام déclare qu’une telle légère humidité n’exige pas en général le ghusl, sauf en cas de maladie, où la faiblesse peut influer sur l’émission et où le ghusl devient obligatoire.",
-          "id": "Hadis ini memberikan hukum tentang ghusl setelah mengalami ihtilam lalu mendapati hanya sedikit basah ketika bangun. Imam عليه السلام menyatakan bahwa basah yang sedikit seperti itu pada umumnya tidak mewajibkan ghusl, kecuali dalam keadaan sakit, ketika kelemahan dapat memengaruhi keluarnya mani dan ghusl menjadi wajib.",
-          "ru": "Этот хадис разъясняет правовое постановление о гусле после ночной поллюции и обнаружении лишь небольшого количества влаги после пробуждения. Имам عليه السلام говорит, что такая незначительная влага в общем случае не требует гусля, кроме случая болезни, когда слабость может повлиять на выделение, и тогда гусль становится обязательным.",
-          "tr": "Bu hadis, gece ihtilam olduktan sonra uyanınca yalnızca az miktarda nem bulunması halinde gusül hükmünü بیان eder. İmam عليه السلام, genel olarak böyle hafif bir nemin guslü gerektirmediğini, ancak hastalık durumunda zayıflığın etkili olabileceğini ve guslün vacip olacağını belirtir.",
-          "ur": "یہ حدیث احتلام کے بعد جاگنے پر صرف تھوڑی سی تری ملنے کے بارے میں غسل کا حکم بیان کرتی ہے۔ امام علیہ السلام فرماتے ہیں کہ عام طور پر ایسی معمولی تری سے غسل واجب نہیں ہوتا، مگر بیماری کی صورت میں، جب کمزوری اثر انداز ہو، غسل واجب ہو جاتا ہے۔",
-          "zh": "这段圣训说明了关于夜间遗精后醒来只发现少量湿润时是否需要ghusl的教法律例。伊玛目 عليه السلام指出，这种轻微湿润一般不需要ghusl，除非在生病的情况下，因为虚弱可能影响排出，此时ghusl成为必须。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

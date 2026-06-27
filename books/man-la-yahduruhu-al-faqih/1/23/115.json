@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তিনি, আলাইহিস সালাম, বললেন:",
-              "de": "Und er, Friede sei mit ihm, sagte:",
-              "en": "And he, peace be upon him, said:",
-              "es": "Y él, la paz sea con él, dijo:",
-              "fa": "و او، علیه السلام، فرمود:",
-              "fr": "Et lui, paix soit sur lui, a dit :",
-              "id": "Dan beliau, 'alaihis salam, bersabda:",
-              "ru": "И он, мир ему, сказал:",
-              "tr": "Ve o, aleyhisselam, dedi ki:",
-              "ur": "اور انہوں نے، علیہ السلام، فرمایا:",
-              "zh": "他说，愿他安息："
-            },
             "word_end": 3,
             "word_start": 0
           },
           {
             "arabic_text": "«قَلِّمُوا أَظْفَارَكُمْ يَوْمَ الثُّلَاثَاءِ وَاسْتَحِمُّوا يَوْمَ الْأَرْبِعَاءِ وَأَصِيبُوا مِنَ الْحِجَامَةِ حَاجَتَكُمْ يَوْمَ الْخَمِيسِ وَتَطَيَّبُوا بِأَطْيَبِ طِيبِكُمْ يَوْمَ الْجُمُعَةِ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "মঙ্গলবার আপনার নখ কেটে নিন, বুধবার গোসল করুন, বৃহস্পতিবার হিজামার প্রয়োজন মেটান, এবং শুক্রবার আপনার সেরা সুগন্ধ ব্যবহার করুন।",
-              "de": "Schneide deine Nägel am Dienstag, bade am Mittwoch, erfülle deinen Bedarf an Hidschama am Donnerstag und benutze am Freitag (Jumu'ah) dein bestes Parfum.",
-              "en": "Trim your nails on Tuesday, bathe on Wednesday, fulfil your need for cupping (hijama) on Thursday, and use your best fragrance on Jumu'ah.",
-              "es": "Corta tus uñas el martes, báñate el miércoles, cumple tu necesidad de hijama el jueves y usa tu mejor fragancia el viernes (Jumu'ah).",
-              "fa": "ناخن‌های خود را در روز سه‌شنبه کوتاه کنید، در روز چهارشنبه غسل کنید، نیاز خود به حجامت را در روز پنج‌شنبه برطرف کنید و در روز جمعه از بهترین عطر خود استفاده کنید.",
-              "fr": "Coupez vos ongles le mardi, prenez un bain le mercredi, faites la hijama le jeudi et utilisez votre meilleur parfum le vendredi (Jumu'ah).",
-              "id": "Potong kukumu pada hari Selasa, mandi pada hari Rabu, penuhi kebutuhan bekammu pada hari Kamis, dan gunakan wangi terbaikmu pada hari Jumat.",
-              "ru": "Стригите ногти во вторник, принимайте ванну в среду, делайте хиджаму в четверг и используйте лучшие духи в пятницу (Джуму'а).",
-              "tr": "Tırnaklarınızı salı günü kesin, çarşamba günü yıkanın, perşembe günü haccama ihtiyacınızı giderin ve cuma günü en güzel kokunuzu kullanın.",
-              "ur": "اپنے ناخن منگل کے دن کاٹیں، بدھ کے دن غسل کریں، جمعرات کے دن حجامت کی ضرورت پوری کریں، اور جمعہ کے دن اپنی بہترین خوشبو لگائیں۔",
-              "zh": "星期二修剪指甲，星期三沐浴，星期四进行拔罐，星期五（聚礼日）使用你最好的香水。"
-            },
             "word_end": 21,
             "word_start": 3
           }
@@ -70,26 +57,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَظْفَارَكُمْ": "Your nails, as part of personal grooming",
-            "اسْتَحِمُّوا": "Bathe or wash yourselves",
-            "الْجُمُعَةِ": "Friday, the day of Jumu'ah",
-            "الْحِجَامَةِ": "Cupping (hijama), a therapeutic bloodletting practice",
-            "تَطَيَّبُوا": "Apply fragrance or perfume",
-            "قَلِّمُوا": "Trim or cut regularly"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "قَلِّمُوا",
+          "أَظْفَارَكُمْ",
+          "اسْتَحِمُّوا",
+          "الْحِجَامَةِ",
+          "تَطَيَّبُوا",
+          "الْجُمُعَةِ"
+        ],
         "related_quran": [
           {
             "ref": "2:222",
@@ -104,32 +79,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম علیه السلام সপ্তাহজুড়ে নখ কাটা, গোসল, হিজামা এবং সুগন্ধ ব্যবহারের জন্য কী সুপারিশ করেছিলেন?",
-          "de": "Was empfahl der Imam علیه السلام für das Nägelschneiden, Baden, Hidschama und Parfümieren während der Woche?",
-          "en": "What did the Imam عليه السلام recommend for nail trimming, bathing, cupping, and fragrance during the week?",
-          "es": "¿Qué recomendó el Imam عليه السلام para el corte de uñas, baño, hijama y fragancia durante la semana?",
-          "fa": "امام علیه السلام برای کوتاه کردن ناخن، غسل، حجامت و استفاده از عطر در طول هفته چه توصیه‌ای داشت؟",
-          "fr": "Qu'a recommandé l'Imam علیه السلام pour la coupe des ongles, le bain, la hijama et le parfum durant la semaine ?",
-          "id": "Apa yang dianjurkan oleh Imam علیه السلام untuk memotong kuku, mandi, bekam, dan menggunakan wangi selama seminggu?",
-          "ru": "Что рекомендовал Имам علیه السلام по поводу стрижки ногтей, купания, хиджамы и использования духов в течение недели?",
-          "tr": "İmam علیه السلام hafta boyunca tırnak kesme, yıkanma, haccama ve koku kullanımı için ne tavsiye etti?",
-          "ur": "امام علیہ السلام نے ہفتے کے دوران ناخن کاٹنے، غسل کرنے، حجامت کرنے اور خوشبو لگانے کے بارے میں کیا سفارش کی؟",
-          "zh": "伊玛目عليه السلام对一周内修剪指甲、沐浴、拔罐和使用香水有什么建议？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ব্যক্তিগত পরিচ্ছন্নতা ও সাজসজ্জার সাপ্তাহিক নিয়ম শেখায়, নির্দিষ্ট দিনে সুপারিশকৃত কাজগুলো নির্ধারণ করে। এটি ইসলামের তহারা, সৌন্দর্য এবং নিয়মিত অভ্যাসের ওপর গুরুত্ব প্রদর্শন করে, বিশেষ করে জুমু'আর প্রস্তুতিতে।",
-          "de": "Dieser Hadith lehrt ein wöchentliches Muster der persönlichen Sauberkeit und Pflege und ordnet empfohlene Handlungen bestimmten Tagen zu. Er spiegelt die islamische Betonung von Taharah, Verschönerung und geordneten Gewohnheiten wider, besonders zur Vorbereitung auf Jumu'ah.",
-          "en": "This hadith teaches a weekly pattern of personal cleanliness and grooming, assigning recommended acts to specific days. It reflects the Islamic emphasis on taharah, beautification, and orderly habits, especially in preparation for Jumu'ah.",
-          "es": "Este hadiz enseña un patrón semanal de limpieza personal y arreglo, asignando actos recomendados a días específicos. Refleja el énfasis islámico en la taharah, la embellecimiento y los hábitos ordenados, especialmente en preparación para el Jumu'ah.",
-          "fa": "این حدیث الگوی هفتگی پاکیزگی و آراستگی شخصی را آموزش می‌دهد و اعمال مستحب را به روزهای خاص اختصاص می‌دهد. این نشان‌دهنده تأکید اسلام بر طهارت، زیبایی و عادات منظم، به ویژه در آماده‌سازی برای جمعه است.",
-          "fr": "Ce hadith enseigne un schéma hebdomadaire de propreté et de soin personnel, attribuant des actes recommandés à des jours spécifiques. Il reflète l'accent islamique sur la taharah, la beauté et les habitudes ordonnées, notamment en préparation du Jumu'ah.",
-          "id": "Hadis ini mengajarkan pola mingguan kebersihan dan perawatan pribadi, menetapkan amalan yang dianjurkan pada hari-hari tertentu. Ini mencerminkan penekanan Islam pada taharah, perindahan, dan kebiasaan teratur, terutama dalam persiapan Jumu'ah.",
-          "ru": "Этот хадис учит еженедельному режиму личной чистоты и ухода, назначая рекомендуемые действия на определённые дни. Он отражает исламский акцент на тахарах, украшении и упорядоченных привычках, особенно в подготовке к Джуму'а.",
-          "tr": "Bu hadis, kişisel temizlik ve bakım için haftalık bir düzen öğretir, belirli günlere tavsiye edilen uygulamaları atar. Özellikle Cuma hazırlığında, İslam'ın taharet, güzelleşme ve düzenli alışkanlıklara verdiği önemi yansıtır.",
-          "ur": "یہ حدیث ذاتی صفائی اور سنوارنے کے ہفتہ وار معمولات سکھاتی ہے، جو مخصوص دنوں پر مستحب اعمال کو تفویض کرتی ہے۔ یہ طہارت، زیبائش، اور منظم عادات پر اسلامی زور کو ظاہر کرتی ہے، خاص طور پر جمعہ کی تیاری میں۔",
-          "zh": "这段圣训教导了每周个人清洁和修饰的规律，将推荐的行为分配到特定的日子。它反映了伊斯兰对洁净、美化和有序习惯的重视，尤其是在聚礼日的准备中。"
-        },
         "tags": [
           "ethics",
           "jurisprudence",

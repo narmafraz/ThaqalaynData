@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তিনি, عليه السلام, বললেন:",
-              "de": "Und er, Friede sei mit ihm, sagte:",
-              "en": "And he, peace be upon him, said:",
-              "es": "Y él, la paz sea con él, dijo:",
-              "fa": "و او، علیه السلام، فرمود:",
-              "fr": "Et lui, paix soit sur lui, a dit :",
-              "id": "Dan beliau, semoga keselamatan atasnya, berkata:",
-              "ru": "И он, мир ему, сказал:",
-              "tr": "Ve o, üzerine selam olsun, dedi ki:",
-              "ur": "اور انہوں نے، علیہ السلام، فرمایا:",
-              "zh": "他说，愿他平安："
-            },
             "word_end": 3,
             "word_start": 0
           },
           {
             "arabic_text": "«إِنَّهَا مِنْ فَيْحِ جَهَنَّمَ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "নিশ্চয়ই, এটি জাহান্নামের তাপ থেকে এসেছে।",
-              "de": "Wahrlich, es ist von der Hitze der Hölle.",
-              "en": "\"Indeed, it is from the heat of Hell.\"",
-              "es": "En verdad, es del calor del Infierno.",
-              "fa": "به راستی این از حرارت جهنم است.",
-              "fr": "En vérité, cela vient de la chaleur de l'Enfer.",
-              "id": "Sesungguhnya, itu berasal dari panas neraka.",
-              "ru": "Воистину, это от жара Ада.",
-              "tr": "Şüphesiz, bu cehennemin azabının sıcağındandır.",
-              "ur": "بے شک یہ جہنم کی آگ کی شدت سے ہے۔",
-              "zh": "这确实是来自地狱的火热。"
-            },
             "word_end": 7,
             "word_start": 3
           }
@@ -82,24 +69,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِنَّهَا": "Indeed it; an emphatic reference to the thing being discussed",
-            "جَهَنَّمَ": "Hell; the fire of punishment in the afterlife",
-            "فَيْحِ": "Heat or scorching exhalation; intense emanating heat",
-            "مِنْ": "From; indicating origin or source"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "إِنَّهَا",
+          "مِنْ",
+          "فَيْحِ",
+          "جَهَنَّمَ"
+        ],
         "related_quran": [
           {
             "ref": "4:56",
@@ -114,32 +89,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম জাফর ইবনে মুহাম্মদ আল-সাদিক عليه السلام অত্যন্ত গরম পানির সম্পর্কে কী বলেছিলেন?",
-          "de": "Was sagte Imam Jaʿfar ibn Muḥammad al-Ṣādiq علیه السلام über extrem heißes Wasser?",
-          "en": "What did Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام say about extremely hot water?",
-          "es": "¿Qué dijo el Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام sobre el agua extremadamente caliente?",
-          "fa": "امام جعفر بن محمد الصادق علیه السلام درباره آب بسیار داغ چه گفت؟",
-          "fr": "Qu'a dit l'Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام à propos de l'eau extrêmement chaude ?",
-          "id": "Apa yang dikatakan Imam Jaʿfar ibn Muḥammad al-Ṣādiq علیه السلام tentang air yang sangat panas?",
-          "ru": "Что сказал Имам Джаʿфар ибн Мухаммад ас-Садик عليه السلام об очень горячей воде?",
-          "tr": "İmam Caʿfer ibn Muḥammad al-Ṣādiq علیه السلام aşırı sıcak su hakkında ne dedi?",
-          "ur": "امام جعفر ابن محمد الصادق علیہ السلام نے انتہائی گرم پانی کے بارے میں کیا فرمایا؟",
-          "zh": "伊玛目贾法尔·伊本·穆罕默德·萨迪克عليه السلام关于极热水说了什么？"
-        },
-        "summaries": {
-          "bn": "ইমাম علیه السلام বলেন যে এটি জাহান্নামের তাপ থেকে এসেছে। পানির অধ্যায়ের প্রেক্ষাপটে, এটি অত্যন্ত গরম পানির ফিকহী বর্ণনা নির্দেশ করে এবং এটি জাহান্নামের চিত্রায়নের মাধ্যমে উপস্থাপন করে।",
-          "de": "Der Imam عليه السلام erklärt, dass es von der Hitze der Hölle stammt. Im Kontext des Kapitels über Wasser deutet dies auf eine regelbezogene Beschreibung von sehr heißem Wasser hin und rahmt es mit Bildern der Hölle ein.",
-          "en": "The Imam عليه السلام states that it is from the heat of Hell. In the chapter context on water, this indicates a ruling-related description of intensely hot water and frames it with imagery of Hell.",
-          "es": "El Imam عليه السلام afirma que proviene del calor del Infierno. En el contexto del capítulo sobre el agua, esto indica una descripción relacionada con la normativa sobre agua extremadamente caliente y la enmarca con imágenes del Infierno.",
-          "fa": "امام علیه السلام بیان می‌کند که این از حرارت جهنم است. در زمینه فصل آب، این توصیفی مرتبط با حکم درباره آب بسیار داغ است و آن را با تصویر جهنم قاب‌بندی می‌کند.",
-          "fr": "L'Imam عليه السلام déclare que cela vient de la chaleur de l'Enfer. Dans le contexte du chapitre sur l'eau, cela indique une description liée à la règle concernant l'eau très chaude et la cadre avec une imagerie de l'Enfer.",
-          "id": "Imam علیه السلام menyatakan bahwa itu berasal dari panas neraka. Dalam konteks bab air, ini menunjukkan deskripsi terkait hukum tentang air yang sangat panas dan menggambarkannya dengan gambaran neraka.",
-          "ru": "Имам عليه السلام утверждает, что это от жара Ада. В контексте главы о воде это указывает на описание, связанное с правовым аспектом очень горячей воды, и оформлено с образами Ада.",
-          "tr": "İmam علیه السلام, bunun cehennem azabının sıcağından olduğunu belirtir. Su konusundaki bölüm bağlamında, bu aşırı sıcak suyun hükümle ilgili bir tanımıdır ve cehennem tasviriyle çerçevelenir.",
-          "ur": "امام علیہ السلام فرماتے ہیں کہ یہ جہنم کی آگ کی شدت سے ہے۔ پانی کے باب میں یہ انتہائی گرم پانی کے شرعی وصف کی نشاندہی کرتا ہے اور اسے جہنم کی تصویر کشی کے ساتھ بیان کرتا ہے۔",
-          "zh": "伊玛目عليه السلام指出这来自地狱的火热。在关于水的章节背景中，这表明对极热水的法令相关描述，并以地狱的意象加以框定。"
-        },
         "tags": [
           "jurisprudence",
           "afterlife",

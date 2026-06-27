@@ -13,6 +13,133 @@
       "up": "/books/al-kafi:2:1:57"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ بَعْضِ أَصْحَابِهِ ذَكَرَهُ عَنْ مُحَمَّدِ بْنِ سِنَانٍ عَنْ حُذَيْفَةَ بْنِ مَنْصُورٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 16,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ) يَقُولُ إِنَّ قَوْمَاً مِنَ النَّاسِ قَلَّتْ مُدَارَاتُهُمْ لِلنَّاسِ فَأُنِفُوا مِنْ قُرَيْشٍ وَ ايْمُ اللَّهِ مَا كَانَ بِأَحْسَابِهِمْ بَأْسٌ وَ إِنَّ قَوْمَاً مِنْ غَيْرِ قُرَيْشٍ حَسُنَتْ مُدَارَاتُهُمْ فَأُلْحِقُوا بِالْبَيْتِ الرَّفِيعِ",
+            "chunk_type": "body",
+            "word_end": 52,
+            "word_start": 16
+          },
+          {
+            "arabic_text": "قَالَ ثُمَّ قَالَ مَنْ كَفَّ يَدَهُ عَنِ النَّاسِ فَإِنَّمَا يَكُفُّ عَنْهُمْ يَداً وَاحِدَةً وَ يَكُفُّونَ عَنْهُ أَيْدِيَ كَثِيرَةً",
+            "chunk_type": "closing",
+            "word_end": 70,
+            "word_start": 52
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1406,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "بَعْضِ أَصْحَابِهِ ذَكَرَهُ",
+              "name_en": "Ba'di As-habihi Dhakarahu",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 42,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ سِنَانٍ",
+              "name_en": "Muhammad ibn Sinan",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 334,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "حُذَيْفَةَ بْنِ مَنْصُورٍ",
+              "name_en": "Hudhayfa ibn Mansur",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "مُدَارَاة",
+          "قُرَيْش",
+          "أَحْسَاب",
+          "الْبَيْتُ الرَّفِيع"
+        ],
+        "related_quran": [
+          {
+            "ref": "4:115",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "49:13",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:55",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "42:40",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "social_relations"
+        ],
+        "topics": [
+          "etiquette",
+          "rights_of_others",
+          "prophetic_character"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف على المشهور  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (230/ 8)"
       ],
@@ -77,7 +204,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:1:57:6",

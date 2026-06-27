@@ -15,6 +15,140 @@
       "up": "/books/al-kafi:8:1:39"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ سَهْلِ بْنِ زِيَادٍ عَنِ ابْنِ مَحْبُوبٍ عَنِ ابْنِ رِئَابٍ عَنْ أَبِي عُبَيْدَةَ الْحَذَّاءِ عَنْ أَبِي عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ)",
+            "chunk_type": "isnad",
+            "word_end": 23,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "فِي قَوْلِ اللَّهِ عَزَّ وَ جَلَّ لُعِنَ الَّذِينَ كَفَرُوا مِنْ بَنِي إِسْرَائِيلَ عَلَى لِسَانِ دَاوُدَ وَ عِيسَى ابْنِ مَرْيَمَ قَالَ الْخَنَازِيرُ عَلَى لِسَانِ دَاوُدَ وَ الْقِرَدَةُ عَلَى لِسَانِ عِيسَى ابْنِ مَرْيَمَ (عَلَيْهِمَا السَّلَامُ)",
+            "chunk_type": "body",
+            "word_end": 56,
+            "word_start": 23
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 8,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "سَهْلِ بْنِ زِيَادٍ",
+              "name_en": "Sahl ibn Ziyad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 10,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ مَحْبُوبٍ",
+              "name_en": "Ibn Mahbub",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 87,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ رِئَابٍ",
+              "name_en": "Ibn Ri'ab",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 242,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عُبَيْدَةَ الْحَذَّاءِ",
+              "name_en": "Abu 'Ubayda al-Hadhdha'",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ (عليه السلام)",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "لُعِنَ",
+          "بَنِي إِسْرَائِيلَ",
+          "دَاوُدَ",
+          "عِيسَى ابْنِ مَرْيَمَ",
+          "الْخَنَازِيرُ",
+          "الْقِرَدَةُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "5:78",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "3:59",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "quran_commentary",
+          "theology"
+        ],
+        "topics": [
+          "quran_interpretation_method",
+          "prophets"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 104)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -105,7 +239,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:39:47",

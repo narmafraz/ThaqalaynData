@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ مُحَمَّدِ بْنِ أَبِي عُمَيْرٍ عَنْ حَمَّادِ بْنِ عُثْمَانَ عَنْ عُبَيْدِ اللَّهِ بْنِ عَلِيٍّ الْحَلَبِيِّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, মুহাম্মাদ ইবন আবী উমাইর থেকে, হাম্মাদ ইবন উসমান থেকে, উবাইদুল্লাহ ইবন আলী আল-হালাবী থেকে, আবূ আবদিল্লাহ عليه السلام থেকে।",
-              "de": "Von ihm, von Muhammad ibn Abī ʿUmayr, von Ḥammād ibn ʿUthmān, von ʿUbayd Allāh ibn ʿAlī al-Ḥalabī, von Abū ʿAbdillāh عليه السلام.",
-              "en": "From him, from Muḥammad ibn Abī ʿUmayr, from Ḥammād ibn ʿUthmān, from ʿUbayd Allāh ibn ʿAlī al-Ḥalabī, from Abū ʿAbdillāh عليه السلام.",
-              "es": "De él, de Muhammad ibn Abī ʿUmayr, de Ḥammād ibn ʿUthmān, de ʿUbayd Allāh ibn ʿAlī al-Ḥalabī, de Abū ʿAbdillāh عليه السلام.",
-              "fa": "از او، از محمد بن ابی‌عمیر، از حماد بن عثمان، از عبیدالله بن علی حلبی، از ابوعبدالله علیه‌السلام.",
-              "fr": "De lui, de Muhammad ibn Abī ʿUmayr, de Ḥammād ibn ʿUthmān, de ʿUbayd Allāh ibn ʿAlī al-Ḥalabī, d’Abū ʿAbdillāh عليه السلام.",
-              "id": "Darinya, dari Muhammad ibn Abi Umayr, dari Hammad ibn Utsman, dari Ubayd Allah ibn Ali al-Halabi, dari Abu Abdillah عليه السلام.",
-              "ru": "От него, от Мухаммада ибн Аби ʿУмайра, от Хаммада ибн ʿУсмана, от ʿУбайд Аллаха ибн ʿАли аль-Халаби, от Абу ʿАбдуллаха عليه السلام.",
-              "tr": "Ondan, Muhammed ibn Ebî Umeyr’den, Hammâd ibn Osman’dan, Ubeydullah ibn Ali el-Halebî’den, Ebu Abdullah عليه السلام’dan.",
-              "ur": "ان سے، محمد بن ابی عمیر سے، حماد بن عثمان سے، عبید اللہ بن علی حلبی سے، ابو عبد اللہ علیہ السلام سے۔",
-              "zh": "由他传自穆罕默德·伊本·阿比·乌麦尔，传自哈马德·伊本·乌斯曼，传自乌拜杜拉·伊本·阿里·哈拉比，传自阿布·阿卜杜拉 عليه السلام。"
-            },
             "word_end": 22,
             "word_start": 0
           },
           {
             "arabic_text": "مِثْلُهُ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এর অনুরূপ।",
-              "de": "Das Gleiche.",
-              "en": "The like of it.",
-              "es": "Lo semejante a ello.",
-              "fa": "مانند آن.",
-              "fr": "L’équivalent de cela.",
-              "id": "Seperti itu.",
-              "ru": "Подобное этому.",
-              "tr": "Bunun benzeri.",
-              "ur": "اس جیسا ہی۔",
-              "zh": "与此相同。"
-            },
             "word_end": 23,
             "word_start": 22
           }
@@ -114,25 +101,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ": "Imam Jaʿfar al-Ṣādiq عليه السلام, the source of the hadith.",
-            "حَمَّادِ بْنِ عُثْمَانَ": "A narrator in the sanad/isnad transmitting this report.",
-            "عُبَيْدِ اللَّهِ بْنِ عَلِيٍّ الْحَلَبِيِّ": "A narrator in the sanad/isnad transmitting from the Imam.",
-            "مُحَمَّدِ بْنِ أَبِي عُمَيْرٍ": "A narrator in the sanad/isnad transmitting this report.",
-            "مِثْلُهُ": "Meaning: the same as the previous hadith in wording or ruling."
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "مِثْلُهُ",
+          "مُحَمَّدِ بْنِ أَبِي عُمَيْرٍ",
+          "حَمَّادِ بْنِ عُثْمَانَ",
+          "عُبَيْدِ اللَّهِ بْنِ عَلِيٍّ الْحَلَبِيِّ",
+          "أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ"
+        ],
         "related_quran": [
           {
             "ref": "4:43",
@@ -143,32 +118,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "তাহযীবুল আহকাম-এ হাদিসের সনদে “مِثْلُهُ” এর অর্থ কী?",
-          "de": "Was bedeutet „مِثْلُهُ“ in einer Hadith-Kette in Tahdhīb al-Aḥkām?",
-          "en": "What does “مِثْلُهُ” mean in a hadith chain in Tahdhīb al-Aḥkām?",
-          "es": "¿Qué significa “مِثْلُهُ” en una cadena de hadiz en Tahdhīb al-Aḥkām?",
-          "fa": "«مِثْلُهُ» در سند حدیث در تهذیب الأحکام چه معنایی دارد؟",
-          "fr": "Que signifie « مِثْلُهُ » dans une chaîne de hadith dans Tahdhīb al-Aḥkām ?",
-          "id": "Apa arti “مِثْلُهُ” dalam rantai hadis di Tahdhīb al-Aḥkām?",
-          "ru": "Что означает «مِثْلُهُ» в цепочке хадиса в Tahdhīb al-Aḥkām?",
-          "tr": "Tahdhîb al-Aḥkâm’da bir hadis zincirinde “مِثْلُهُ” ne anlama gelir?",
-          "ur": "تہذیب الاحکام میں حدیث کی سند میں “مِثْلُهُ” کا کیا مطلب ہے؟",
-          "zh": "在Tahdhībal-Aḥkām的圣训传承链中，“مِثْلُهُ”是什么意思？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনায় আবূ আবদিল্লাহ عليه السلام পর্যন্ত একটি সনদ উল্লেখ করা হয়েছে, তারপর শুধু বলা হয়েছে: “এর অনুরূপ,” যা বোঝায় যে এর মাতন পূর্ববর্তী বর্ণনার মতোই। প্রসঙ্গ অনুযায়ী, এটি তায়াম্মুম ও তার বিধানসমূহের অধ্যায়ে একটি সমর্থনকারী হাদিস হিসেবে ব্যবহৃত হয়েছে।",
-          "de": "Dieser Bericht führt eine Überlieferungskette bis zu Abū ʿAbdillāh عليه السلام an und sagt dann nur: „Das Gleiche“, was darauf hinweist, dass sein Matn derselbe ist wie der der vorherigen Überlieferung. Im Kontext dient er als bestätigender Hadith im Kapitel über Tayammum und seine Bestimmungen.",
-          "en": "This report gives a sanad/isnad to Abū ʿAbdillāh عليه السلام and then states only: “The like of it,” indicating that its matn is the same as the preceding narration. In context, it serves as a corroborating hadith within the chapter on tayammum and its rulings.",
-          "es": "Este informe presenta una cadena de transmisión hasta Abū ʿAbdillāh عليه السلام y luego dice solo: “Lo semejante a ello”, lo que indica que su matn es el mismo que el de la narración anterior. En contexto, sirve como un hadiz de corroboración dentro del capítulo sobre el tayammum y sus normas.",
-          "fa": "این گزارش، سندی تا ابوعبدالله علیه‌السلام ارائه می‌کند و سپس تنها می‌گوید: «مانند آن»، که نشان می‌دهد متن آن همان متن روایت پیشین است. در این سیاق، به‌عنوان حدیثی مؤید در باب تیمم و احکام آن به کار می‌رود.",
-          "fr": "Ce rapport donne une chaîne de transmission jusqu’à Abū ʿAbdillāh عليه السلام puis dit seulement : « L’équivalent de cela », ce qui indique que son matn est le même que celui de la narration précédente. Dans son contexte, il sert de hadith corroboratif dans le chapitre du tayammum et de ses règles.",
-          "id": "Riwayat ini menyebutkan sanad hingga Abu Abdillah عليه السلام lalu hanya menyatakan: “Seperti itu,” yang menunjukkan bahwa matannya sama dengan riwayat sebelumnya. Dalam konteksnya, ini berfungsi sebagai hadis penguat dalam bab tayammum dan hukum-hukumnya.",
-          "ru": "Этот передаточный отчет приводит иснад до Абу ʿАбдуллаха عليه السلام, а затем лишь говорит: «Подобное этому», что указывает на то, что его матн такой же, как у предыдущего предания. В контексте он служит подтверждающим хадисом в главе о таяммуме и его постановлениях.",
-          "tr": "Bu rivayet, Ebu Abdullah عليه السلام’a kadar bir sened verir ve ardından yalnızca “Bunun benzeri” der; bu da metninin önceki rivayetin metniyle aynı olduğunu gösterir. Bağlamda, teyemmüm ve hükümleri bölümünde destekleyici bir hadis olarak yer alır.",
-          "ur": "یہ روایت ابو عبد اللہ علیہ السلام تک سند پیش کرتی ہے اور پھر صرف “اس جیسا ہی” کہتی ہے، جس سے معلوم ہوتا ہے کہ اس کا متن پچھلی روایت کے متن کے مطابق ہے۔ سیاق میں یہ تیمم اور اس کے احکام کے باب میں تائیدی حدیث کے طور پر آتی ہے۔",
-          "zh": "这段传述给出了直到阿布·阿卜杜拉 عليه السلام的传承链，然后只说：“与此相同”，这表明其正文与前一则传述相同。在上下文中，它作为关于土净及其教法的佐证圣训。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

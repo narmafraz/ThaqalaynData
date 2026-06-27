@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَرَوَىٰ عَبْدُ ٱللَّهِ بْنُ مَيْمُونٍ بِإِسْنَادِهِ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং আবদুল্লাহ ইবনে মাইমুন তার সনদের সাথে বর্ণনা করেছেন; তিনি বললেন:",
-              "de": "Und ʿAbdullāh ibn Maymūn berichtete mit seiner Überlieferungskette; er sagte:",
-              "en": "And ʿAbdullāh ibn Maymūn narrated with his chain of transmission; he said:",
-              "es": "Y ʿAbdullāh ibn Maymūn narró con su cadena de transmisión; dijo:",
-              "fa": "و ʿAbdullāh ibn Maymūn با سند خود روایت کرد؛ گفت:",
-              "fr": "Et ʿAbdullāh ibn Maymūn a rapporté avec sa chaîne de transmission ; il a dit :",
-              "id": "Dan ʿAbdullāh ibn Maymūn meriwayatkan dengan sanadnya; dia berkata:",
-              "ru": "И ʿАбдуллах ибн Маймун передал с его цепочкой передачи; он сказал:",
-              "tr": "Ve ʿAbdullāh ibn Maymūn, isnadıyla rivayet etti; dedi ki:",
-              "ur": "اور عبداللہ بن میمون نے اپنی سند کے ساتھ روایت کی؛ انہوں نے کہا:",
-              "zh": "ʿAbdullāhibnMaymūn以其传链传述；他说："
-            },
             "word_end": 7,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ رَسُولُ ٱللَّهِ صَلَّى ٱللَّهُ عَلَيْهِ وَآلِهِ: «إِذَا ضَلَلْتُمُ ٱلطَّرِيقَ فَتَيَامَنُوا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "রাসূলুল্লাহ صلى الله عليه وآله وسلم বলেছেন: \"যদি তুমি পথ হারাও, তবে ডানদিকে মোড় নাও।\"",
-              "de": "Der Gesandte Allahs صلى الله عليه وآله وسلم sagte: „Wenn ihr den Weg verliert, dann biegt nach rechts ab.“",
-              "en": "The Messenger of Allah صلى الله عليه وآله وسلم said: \"If you lose your way, then turn to the right.\"",
-              "es": "El Mensajero de Allah صلى الله عليه وآله وسلم dijo: \"Si pierdes el camino, entonces gira a la derecha.\"",
-              "fa": "پیامبر خدا صلى الله عليه وآله وسلم فرمود: «اگر راه را گم کردید، به سمت راست بپیچید.»",
-              "fr": "Le Messager d'Allah صلى الله عليه وآله وسلم a dit : « Si vous perdez votre chemin, tournez à droite. »",
-              "id": "Rasulullah صلى الله عليه وآله وسلم bersabda: \"Jika kamu tersesat, maka beloklah ke kanan.\"",
-              "ru": "Посланник Аллаха صلى الله عليه وآله وسلم сказал: «Если вы потеряете путь, поверните направо.»",
-              "tr": "Allah’ın Resulü صلى الله عليه وآله وسلم şöyle buyurdu: \"Eğer yolunuzu kaybederseniz, sağa dönün.\"",
-              "ur": "رسول اللہ صلی اللہ علیہ وآلہ وسلم نے فرمایا: \"اگر تم راستہ بھول جاؤ تو دائیں طرف مڑ جاؤ۔\"",
-              "zh": "安拉使者 صلى الله عليه وآله وسلم说：“如果你们迷路了，就向右转。”"
-            },
             "word_end": 18,
             "word_start": 7
           }
@@ -81,25 +68,13 @@
             "phrase_en": "The Messenger of Allah said"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بِإِسْنَادِهِ": "with his chain of transmission",
-            "رَسُولُ ٱللَّهِ": "the Messenger of Allah",
-            "ضَلَلْتُمُ": "you lost your way",
-            "فَتَيَامَنُوا": "then turn to the right",
-            "ٱلطَّرِيقَ": "the road or path"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "بِإِسْنَادِهِ",
+          "رَسُولُ ٱللَّهِ",
+          "ضَلَلْتُمُ",
+          "ٱلطَّرِيقَ",
+          "فَتَيَامَنُوا"
+        ],
         "related_quran": [
           {
             "ref": "16:76",
@@ -110,32 +85,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "রাসূলুল্লাহ صلى الله عليه وآله وسلم যখন কেউ পথ হারায় তখন কী করার নির্দেশ দিয়েছেন?",
-          "de": "Was hat der Gesandte Allahs صلى الله عليه وآله وسلم angewiesen zu tun, wenn jemand den Weg verliert?",
-          "en": "What did the Messenger of Allah صلى الله عليه وآله وسلم instruct to do when a person loses the road?",
-          "es": "¿Qué instruyó el Mensajero de Allah صلى الله عليه وآله وسلم que se haga cuando una persona pierde el camino?",
-          "fa": "پیامبر خدا صلى الله عليه وآله وسلم هنگام گم کردن راه به انسان چه دستور داد؟",
-          "fr": "Qu'a ordonné le Messager d'Allah صلى الله عليه وآله وسلم de faire lorsqu'une personne perd la route ?",
-          "id": "Apa yang Rasulullah صلى الله عليه وآله وسلم perintahkan ketika seseorang kehilangan jalan?",
-          "ru": "Что посланник Аллаха صلى الله عليه وآله وسلم повелел делать, когда человек теряет дорогу?",
-          "tr": "Allah’ın Resulü صلى الله عليه وآله وسلم, bir kişi yolu kaybettiğinde ne yapmasını emretti?",
-          "ur": "رسول اللہ صلی اللہ علیہ وآلہ وسلم نے جب کوئی شخص راستہ بھول جائے تو کیا کرنے کی ہدایت دی؟",
-          "zh": "当一个人迷路时，安拉使者 صلى الله عليه وآله وسلم指示做什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি রাসূলুল্লাহ صلى الله عليه وآله وسلم এর সংক্ষিপ্ত নির্দেশনা বর্ণনা করে যে কেউ পথ হারালে কী করতে হবে। ডানদিকে মোড় নেওয়া এমন একটি প্রাকটিক্যাল নবী শিক্ষা হিসেবে উপস্থাপিত হয়েছে।",
-          "de": "Dieser Hadith überliefert eine kurze Anweisung des Gesandten Allahs صلى الله عليه وآله وسلم, was zu tun ist, wenn man den Weg verliert. Das Rechtsabbiegen wird als empfohlener praktischer prophetischer Rat in einer solchen Situation dargestellt.",
-          "en": "This hadith relates a concise instruction from the Messenger of Allah صلى الله عليه وآله وسلم regarding what to do when one loses the way. It reflects a Prophetic practical teaching in which turning to the right is presented as the recommended course in such a situation.",
-          "es": "Este hadiz relata una instrucción concisa del Mensajero de Allah صلى الله عليه وآله وسلم sobre qué hacer cuando uno pierde el camino. Refleja una enseñanza práctica profética en la que girar a la derecha se presenta como el curso recomendado en tal situación.",
-          "fa": "این حدیث دستور مختصری از پیامبر خدا صلى الله عليه وآله وسلم را درباره کاری که هنگام گم کردن راه باید انجام داد، بیان می‌کند. پیچیدن به سمت راست به عنوان راهکار عملی نبوی در چنین شرایطی ارائه شده است.",
-          "fr": "Ce hadith relate une instruction concise du Messager d'Allah صلى الله عليه وآله وسلم concernant ce qu'il faut faire lorsqu'on perd le chemin. Il reflète un enseignement pratique prophétique où tourner à droite est présenté comme la démarche recommandée dans une telle situation.",
-          "id": "Hadis ini menyampaikan instruksi singkat dari Rasulullah صلى الله عليه وآله وسلم tentang apa yang harus dilakukan saat seseorang tersesat. Berbelok ke kanan disajikan sebagai ajaran praktis Nabi dalam situasi tersebut.",
-          "ru": "Этот хадис передает краткую инструкцию Посланника Аллаха صلى الله عليه وآله وسلم о том, что делать, если человек потерял дорогу. Поворот направо представлен как рекомендуемое пророческое практическое наставление в такой ситуации.",
-          "tr": "Bu hadis, Allah’ın Resulü صلى الله عليه وآله وسلم’in yolunu kaybeden kişinin ne yapması gerektiğine dair kısa bir talimatını anlatır. Sağ tarafa dönmek, böyle bir durumda önerilen pratik bir Peygamber öğretisidir.",
-          "ur": "یہ حدیث رسول اللہ صلی اللہ علیہ وآلہ وسلم کی ایک مختصر ہدایت بیان کرتی ہے کہ جب کوئی راستہ بھول جائے تو کیا کرنا چاہیے۔ اس میں دائیں طرف مڑنا ایک عملی پیغمبری تعلیم کے طور پر پیش کیا گیا ہے۔",
-          "zh": "此圣训传达了安拉使者 صلى الله عليه وآله وسلم关于迷路时应如何做的简明指示。右转被作为此类情况下推荐的先知实际教导。"
-        },
         "tags": [
           "prophetic_tradition",
           "ethics",

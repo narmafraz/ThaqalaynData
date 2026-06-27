@@ -21,42 +21,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "حَدَّثَنَا أَبُو مَعْمَرٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আবু মাʿমার আমাদের কাছে বর্ণনা করেছেন; তিনি বলেছেন:",
-              "de": "Abu Maʿmar berichtete uns; er sagte:",
-              "en": "Abu Maʿmar narrated to us; he said:",
-              "es": "Abu Maʿmar nos narró; dijo:",
-              "fa": "ابومعمر برای ما روایت کرد؛ گفت:",
-              "fr": "Abu Maʿmar nous a rapporté ; il a dit :",
-              "id": "Abu Maʿmar meriwayatkan kepada kami; ia berkata:",
-              "ru": "Абу Маʿмар передал нам; он сказал:",
-              "tr": "Ebû Maʿmer bize rivayet etti; dedi ki:",
-              "ur": "ابو معمر نے ہم سے روایت کی؛ انہوں نے کہا:",
-              "zh": "阿布·马ʿ马尔向我们传述；他说："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُ الرِّضَا عَلَيْهِ السَّلَامُ عَنِ الْإِمَامِ يَغْسِلُهُ الْإِمَامُ، قَالَ: سُنَّةُ مُوسَى بْنِ عِمْرَانَ عَلَيْهِ السَّلَامُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আল-রিদা عليه السلام-কে জিজ্ঞেস করলাম, ইমামকে ইমাম দ্বারা গোসল করানো সম্পর্কে। তিনি বললেন: “এটি মূসা ইবন ইমরান عليه السلام-এর সুন্নাহ।”",
-              "de": "Ich fragte al-Riḍā عليه السلام darüber, dass der Imam vom Imam gewaschen wird. Er sagte: „Das ist die sunnah von Mūsā ibn ʿImrān عليه السلام.“",
-              "en": "I asked al-Riḍā عليه السلام about the Imam being washed by the Imam. He said: “It is the sunnah (tradition) of Mūsā ibn ʿImrān عليه السلام.”",
-              "es": "Le pregunté a al-Riḍā عليه السلام acerca de que el Imam sea lavado por el Imam. Él dijo: “Es la sunnah de Mūsā ibn ʿImrān عليه السلام.”",
-              "fa": "از الرضا علیه السلام درباره این‌که امام را امام غسل دهد پرسیدم. فرمود: «این سنتِ موسی بن عمران علیه السلام است.»",
-              "fr": "J’ai interrogé al-Riḍā عليه السلام au sujet du fait que l’Imam soit lavé par l’Imam. Il a dit : « C’est la sunnah de Mūsā ibn ʿImrān عليه السلام. »",
-              "id": "Aku bertanya kepada al-Riḍā عليه السلام tentang imam yang dimandikan oleh imam. Beliau bersabda: “Itu adalah sunnah Mūsā ibn ʿImrān عليه السلام.”",
-              "ru": "Я спросил аль-Риду عليه السلام о том, что имама омывает имам. Он сказал: «Это сунна Мусы ибн ʿИмрана عليه السلام».",
-              "tr": "Ben al-Riḍā عليه السلام’a, imamın imam tarafından yıkanması hakkında sordum. O şöyle dedi: “Bu, Mūsā ibn ʿImrān عليه السلام’ın sünnetidir.”",
-              "ur": "میں نے الرضا علیہ السلام سے اس بارے میں پوچھا کہ امام کو امام غسل دے۔ انہوں نے فرمایا: “یہ موسیٰ بن عمران علیہ السلام کی سنت ہے۔”",
-              "zh": "我向阿尔·里达 عليه السلام询问关于由伊玛目为伊玛目沐浴之事。他说：“这是穆萨·伊本·ʿ伊姆兰 عليه السلام的圣行。”"
-            },
             "word_end": 19,
             "word_start": 4
           }
@@ -105,25 +92,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْإِمَامِ": "the divinely appointed Imam in Shia doctrine",
-            "سُنَّةُ": "an established divinely sanctioned tradition or precedent",
-            "عِمْرَانَ": "ʿImrān, the father of Mūsā عليه السلام",
-            "مُوسَى": "Prophet Mūsā عليه السلام",
-            "يَغْسِلُهُ": "performs the ritual washing of his body after death"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْإِمَامِ",
+          "يَغْسِلُهُ",
+          "سُنَّةُ",
+          "مُوسَى",
+          "عِمْرَانَ"
+        ],
         "related_quran": [
           {
             "ref": "2:247",
@@ -138,32 +113,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী ইমামের মৃত্যুর পর তাকে কে গোসল করায়?",
-          "de": "Wer wäscht den Imam nach seinem Tod gemäß diesem Hadith?",
-          "en": "Who washes an Imam after his death according to this hadith from al-Kāfī?",
-          "es": "Según este hadiz, ¿quién lava al Imam después de su muerte?",
-          "fa": "بر اساس این حدیث، پس از وفاتِ امام، چه کسی او را غسل می‌دهد؟",
-          "fr": "Selon ce hadith, qui lave l’Imam après sa mort ?",
-          "id": "Menurut hadis ini, siapa yang memandikan seorang Imam setelah wafatnya?",
-          "ru": "Согласно этому хадису, кто омывает имама после его смерти?",
-          "tr": "Bu hadise göre bir imam vefat ettikten sonra onu kim yıkar?",
-          "ur": "اس حدیث کے مطابق امام کی وفات کے بعد اسے کون غسل دیتا ہے؟",
-          "zh": "根据这段圣训，伊玛目去世后由谁为他清洗遗体？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে বলা হয়েছে যে একজন ইমামের জানাজার গোসল অন্য একজন ইমাম সম্পাদন করেন। ইমাম আল-রিদা عليه السلام এটিকে মূসা ইবন ইমরান عليه السلام-এর সুন্নাহ বলে বর্ণনা করেছেন, যা নববী ঐতিহ্য ও ইমামের বিশেষ মর্যাদার সঙ্গে যুক্ত একটি ঐশীভাবে নির্ধারিত ধারা নির্দেশ করে।",
-          "de": "Dieser Hadith besagt, dass die Leichenwaschung eines Imams von einem anderen Imam vorgenommen wird. Imam al-Riḍā عليه السلام beschreibt dies als die sunnah von Mūsā ibn ʿImrān عليه السلام und weist damit auf ein göttlich festgelegtes Muster hin, das mit der prophetischen Tradition und dem besonderen Rang des Imams verbunden ist.",
-          "en": "This hadith states that the funeral washing of an Imam is carried out by another Imam. Imam al-Riḍā عليه السلام describes this as the sunnah of Mūsā ibn ʿImrān عليه السلام, indicating a divinely established pattern connected to prophetic tradition and the special station of the Imam.",
-          "es": "Este hadiz afirma que el lavado funerario de un Imam es realizado por otro Imam. El Imam al-Riḍā عليه السلام lo describe como la sunnah de Mūsā ibn ʿImrān عليه السلام, indicando un patrón establecido divinamente y vinculado a la tradición profética y al estatus especial del Imam.",
-          "fa": "این حدیث بیان می‌کند که غسلِ میتِ یک امام را امامی دیگر انجام می‌دهد. امام الرضا علیه السلام این را سنتِ موسی بن عمران علیه السلام می‌داند و آن را نشانه‌ای از الگویی الهی و پیوندخورده با سنت نبوی و جایگاه ویژه امام معرفی می‌کند.",
-          "fr": "Ce hadith affirme que la toilette funéraire d’un Imam est accomplie par un autre Imam. L’Imam al-Riḍā عليه السلام la décrit comme la sunnah de Mūsā ibn ʿImrān عليه السلام, indiquant un modèle établi divinement et lié à la tradition prophétique ainsi qu’au rang particulier de l’Imam.",
-          "id": "Hadis ini menyatakan bahwa pemandian jenazah seorang Imam dilakukan oleh Imam yang lain. Imam al-Riḍā عليه السلام menggambarkannya sebagai sunnah Mūsā ibn ʿImrān عليه السلام, yang menunjukkan suatu pola yang ditetapkan secara ilahi dan terkait dengan tradisi kenabian serta kedudukan khusus Imam.",
-          "ru": "Этот хадис сообщает, что омовение тела имама после смерти совершает другой имам. Имам аль-Рида عليه السلام называет это сунной Мусы ибн ʿИмрана عليه السلام, указывая на божественно установленный порядок, связанный с пророческой традицией и особым положением имама.",
-          "tr": "Bu hadis, bir imamın cenaze yıkamasının başka bir imam tarafından yapıldığını bildirir. İmam al-Riḍā عليه السلام bunu Mūsā ibn ʿImrān عليه السلام’ın sünneti olarak açıklar; bu da peygamberî gelenek ve imamın özel makamıyla bağlantılı ilahî olarak belirlenmiş bir örüntüye işaret eder.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ ایک امام کی تجہیز و تکفین کے غسل کو دوسرا امام انجام دیتا ہے۔ امام الرضا علیہ السلام اسے موسیٰ بن عمران علیہ السلام کی سنت قرار دیتے ہیں، جو نبوی روایت اور امام کے خاص مقام سے جڑا ہوا ایک الٰہی طور پر مقررہ نمونہ ہے۔",
-          "zh": "这段圣训说明，一位伊玛目的遗体清洗由另一位伊玛目来执行。伊玛目阿尔·里达 عليه السلام将此描述为穆萨·伊本·ʿ伊姆兰 عليه السلام的圣行，表明这是一种神圣确立的模式，与先知传统和伊玛目的特殊地位相关。"
-        },
         "tags": [
           "theology",
           "jurisprudence",

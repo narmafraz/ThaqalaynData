@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তিনি, তাঁর উপর শান্তি বর্ষিত হোক, বললেন:",
-              "de": "Und er, Friede sei mit ihm, sagte:",
-              "en": "And he, peace be upon him, said:",
-              "es": "Y él, la paz sea con él, dijo:",
-              "fa": "و او، سلام بر او باد، گفت:",
-              "fr": "Et lui, que la paix soit sur lui, a dit :",
-              "id": "Dan beliau, keselamatan atasnya, berkata:",
-              "ru": "И он, мир ему, сказал:",
-              "tr": "Ve o, Allah'ın selamı üzerine olsun, dedi ki:",
-              "ur": "اور انہوں نے، علیہ السلام، فرمایا:",
-              "zh": "他，愿他安息，说："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "«أَحِبُّوا الصِّبْيَانَ وَارْحَمُوهُمْ وَإِذَا وَعَدْتُمُوهُمْ فَفُوا لَهُمْ فَإِنَّهُمْ لَا يَرَوْنَ إِلَّا أَنَّكُمْ تَرْزُقُونَهُمْ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "শিশুদের ভালোবাসো এবং তাদের প্রতি দয়া করো। এবং যখন তাদের কিছু প্রতিশ্রুতি দাও, তা পূরণ করো, কারণ তারা শুধু দেখে যে তোমরাই তাদের রুজি দাতা।",
-              "de": "Liebe die Kinder und habe Mitleid mit ihnen. Und wenn du ihnen etwas versprichst, halte es für sie ein, denn sie sehen nur, dass du diejenigen bist, die sie versorgen.",
-              "en": "Love the children and have mercy on them. And when you promise them something, fulfill it for them, for they only see that you are the ones who provide for them.",
-              "es": "Amen a los niños y tengan misericordia de ellos. Y cuando les prometan algo, cúmplanlo, porque ellos solo ven que ustedes son quienes les proveen.",
-              "fa": "بچه‌ها را دوست بدارید و بر آنها رحم کنید. و هنگامی که به آنها وعده می‌دهید، آن را برایشان وفا کنید، زیرا آنها فقط می‌بینند که شما کسانی هستید که روزی‌شان را می‌دهید.",
-              "fr": "Aimez les enfants et ayez pitié d'eux. Et lorsque vous leur promettez quelque chose, tenez-leur parole, car ils ne voient que vous comme ceux qui les nourrissent.",
-              "id": "Cintailah anak-anak dan berilah mereka rahmat. Dan ketika kamu berjanji kepada mereka, penuhilah janji itu, karena mereka hanya melihat bahwa kamu adalah pemberi rezeki bagi mereka.",
-              "ru": "Любите детей и милуйте их. И когда обещаете им что-то, выполняйте обещание, ибо они видят только то, что вы — их кормильцы.",
-              "tr": "Çocukları sevin ve onlara merhamet edin. Onlara bir şey vaat ettiğinizde, bunu yerine getirin; çünkü onlar sadece sizin onları rızıklandıranlar olduğunuzu görürler.",
-              "ur": "بچوں سے محبت کرو اور ان پر رحم کرو۔ اور جب تم ان سے کوئی وعدہ کرو تو اسے پورا کرو، کیونکہ وہ صرف یہ دیکھتے ہیں کہ تم ہی ان کے رزق دینے والے ہو۔",
-              "zh": "爱孩子们并怜悯他们。当你答应他们什么时，就要履行，因为他们只看到你们是养育他们的人。"
-            },
             "word_end": 17,
             "word_start": 4
           }
@@ -81,26 +68,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَحِبُّوا": "Show love and affection",
-            "ارْحَمُوهُمْ": "Show them mercy and compassion",
-            "الصِّبْيَانَ": "Children",
-            "تَرْزُقُونَهُمْ": "You provide for them",
-            "فَفُوا": "So fulfill faithfully",
-            "وَعَدْتُمُوهُمْ": "You promised them"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَحِبُّوا",
+          "الصِّبْيَانَ",
+          "ارْحَمُوهُمْ",
+          "وَعَدْتُمُوهُمْ",
+          "فَفُوا",
+          "تَرْزُقُونَهُمْ"
+        ],
         "related_quran": [
           {
             "ref": "17:23",
@@ -115,32 +90,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "নবী صلى الله عليه وآله وسلم শিশুদের ভালোবাসা এবং তাদের প্রতি দেওয়া প্রতিশ্রুতি পূরণের বিষয়ে কী শিক্ষা দেন?",
-          "de": "Was lehrt der Prophet صلى الله عليه وآله وسلم über die Liebe zu Kindern und das Einhalten von Versprechen gegenüber ihnen?",
-          "en": "What does the Prophet صلى الله عليه وآله وسلم teach about loving children and keeping promises to them?",
-          "es": "¿Qué enseña el Profeta صلى الله عليه وآله وسلم sobre amar a los niños y cumplir las promesas hechas a ellos?",
-          "fa": "پیامبر صلى الله عليه وآله وسلم درباره محبت به کودکان و وفای به وعده‌های داده شده به آنها چه می‌آموزد؟",
-          "fr": "Que enseigne le Prophète صلى الله عليه وآله وسلم à propos d'aimer les enfants et de tenir les promesses faites envers eux ?",
-          "id": "Apa yang diajarkan Nabi صلى الله عليه وآله وسلم tentang mencintai anak-anak dan menepati janji kepada mereka?",
-          "ru": "Что учит Пророк صلى الله عليه وآله وسلم о любви к детям и выполнении обещаний, данных им?",
-          "tr": "Peygamber صلى الله عليه وآله وسلم çocukları sevmek ve onlara verilen sözleri tutmak hakkında ne öğretiyor?",
-          "ur": "نبی صلی اللہ علیہ وآلہ وسلم بچوں سے محبت اور ان سے کیے گئے وعدے پورے کرنے کے بارے میں کیا تعلیم دیتے ہیں؟",
-          "zh": "先知 صلى الله عليه وآله وسلم关于爱护孩子和履行对他们承诺教导了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি শিশুদের প্রতি কোমলতা শেখায় এবং তাদের প্রতি দয়া প্রদর্শনের আহ্বান জানায়। এটি তাদের দেওয়া প্রতিশ্রুতি পূরণের গুরুত্বও জোর দেয়, কারণ শিশুরা তাদের যত্নশীলদের সম্পূর্ণ বিশ্বাস করে এবং তাদেরকে তাদের রুজির উৎস মনে করে।",
-          "de": "Dieser Hadith lehrt Zärtlichkeit gegenüber Kindern und fordert dazu auf, ihnen gegenüber barmherzig zu sein. Er betont auch, Versprechen einzuhalten, da Kinder ihren Betreuern vollkommen vertrauen und sie als ihre Versorger ansehen.",
-          "en": "This hadith teaches tenderness toward children and urges showing them mercy in conduct. It also emphasizes keeping promises made to them, since children trust their caregivers completely and view them as the source of their provision.",
-          "es": "Este hadiz enseña ternura hacia los niños y urge a mostrarles misericordia en el trato. También enfatiza cumplir las promesas hechas a ellos, ya que los niños confían completamente en sus cuidadores y los ven como la fuente de su sustento.",
-          "fa": "این حدیث مهربانی نسبت به کودکان را آموزش می‌دهد و بر نشان دادن رحمت در رفتار با آنها تأکید می‌کند. همچنین بر وفای به وعده‌های داده شده به آنها تأکید دارد، زیرا کودکان کاملاً به مراقبان خود اعتماد دارند و آنها را منبع روزی خود می‌دانند.",
-          "fr": "Ce hadith enseigne la tendresse envers les enfants et incite à leur montrer de la miséricorde dans le comportement. Il souligne également l'importance de tenir les promesses faites, car les enfants font entièrement confiance à leurs gardiens et les considèrent comme la source de leur subsistance.",
-          "id": "Hadis ini mengajarkan kelembutan terhadap anak-anak dan mendorong menunjukkan rahmat kepada mereka dalam perilaku. Ini juga menekankan pentingnya menepati janji yang dibuat kepada mereka, karena anak-anak sepenuhnya mempercayai pengasuh mereka dan menganggap mereka sebagai sumber rezeki.",
-          "ru": "Этот хадис учит нежности к детям и призывает проявлять к ним милосердие в поведении. Также подчеркивается важность выполнения обещаний, данных им, поскольку дети полностью доверяют своим опекунам и считают их источником своего пропитания.",
-          "tr": "Bu hadis, çocuklara karşı şefkat göstermeyi ve onlara merhamet etmeyi öğretir. Ayrıca onlara verilen sözlerin tutulmasının önemini vurgular, çünkü çocuklar bakıcılarına tamamen güvenir ve onları geçim kaynağı olarak görürler.",
-          "ur": "یہ حدیث بچوں کے ساتھ نرمی سکھاتی ہے اور ان کے ساتھ رحم کرنے کی تاکید کرتی ہے۔ یہ وعدے پورے کرنے کی اہمیت بھی بتاتی ہے کیونکہ بچے اپنے دیکھ بھال کرنے والوں پر مکمل اعتماد کرتے ہیں اور انہیں اپنی روزی کا ذریعہ سمجھتے ہیں۔",
-          "zh": "这段圣训教导对孩子们要温柔，并敦促在行为中对他们表示怜悯。它还强调要履行对他们所作的承诺，因为孩子们完全信任他们的照顾者，并视他们为供养的来源。"
-        },
         "tags": [
           "ethics",
           "family",

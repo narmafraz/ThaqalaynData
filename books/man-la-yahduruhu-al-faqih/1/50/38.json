@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَدْ رُوِيَ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং সত্যিই বর্ণিত হয়েছে:",
-              "de": "Und es wurde tatsächlich überliefert:",
-              "en": "And it has indeed been narrated:",
-              "es": "Y de hecho se ha narrado:",
-              "fa": "و به راستی روایت شده است:",
-              "fr": "Et il a en effet été rapporté :",
-              "id": "Dan memang telah diriwayatkan:",
-              "ru": "И действительно было передано:",
-              "tr": "Ve gerçekten rivayet edilmiştir ki:",
-              "ur": "اور واقعی یہ روایت کی گئی ہے:",
-              "zh": "确实有传述："
-            },
             "word_end": 3,
             "word_start": 0
           },
           {
             "arabic_text": "«أَنَّهُ يُصَلِّي رَكْعَةً مِنْ قِيَامٍ وَ رَكْعَتَيْنِ مِنْ جُلُوسٍ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“সে এক রাক‘আত দাঁড়িয়ে এবং দুই রাক‘আত বসে সালাত পড়বে।”",
-              "de": "„Er soll eine Rak‘ah im Stehen und zwei Rak‘ahs im Sitzen beten.“",
-              "en": "\"He should pray one rak‘ah standing and two rak‘ahs sitting.\"",
-              "es": "“Debe rezar una rak‘ah de pie y dos rak‘ahs sentado.”",
-              "fa": "«او باید یک رکعت ایستاده و دو رکعت نشسته نماز بخواند.»",
-              "fr": "«Il doit prier une rak‘ah debout et deux rak‘ahs assis.»",
-              "id": "“Dia harus shalat satu rakaat sambil berdiri dan dua rakaat sambil duduk.”",
-              "ru": "«Он должен молиться одну рак‘ах стоя и две рак‘ах сидя.»",
-              "tr": "“Bir rek‘at ayakta ve iki rek‘at oturarak kılmalıdır.”",
-              "ur": "“وہ ایک رکعت قیام میں اور دو رکعت بیٹھ کر پڑھے۔”",
-              "zh": "“他应当站着祈祷一跪拜，坐着祈祷两跪拜。”"
-            },
             "word_end": 12,
             "word_start": 3
           }
@@ -65,26 +52,14 @@
           "narrators": []
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "جُلُوسٍ": "sitting posture",
-            "رَكْعَةً": "one unit of prayer",
-            "رَكْعَتَيْنِ": "two units of prayer",
-            "رُوِيَ": "it has been narrated or reported",
-            "قِيَامٍ": "standing posture in prayer",
-            "يُصَلِّي": "he performs salat (prayer)"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رُوِيَ",
+          "يُصَلِّي",
+          "رَكْعَةً",
+          "قِيَامٍ",
+          "رَكْعَتَيْنِ",
+          "جُلُوسٍ"
+        ],
         "related_quran": [
           {
             "ref": "2:238",
@@ -95,32 +70,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "সালাতে ভুলে যাওয়ার অধ্যায়ে এক রাক‘আত দাঁড়িয়ে এবং দুই রাক‘আত বসে সালাত আদায়ের حکم কী?",
-          "de": "Wie lautet das Urteil über das Beten einer Rak‘ah im Stehen und zwei Rak‘ahs im Sitzen im Kapitel über Vergesslichkeit im Gebet?",
-          "en": "What is the ruling on praying one rak‘ah standing and two rak‘ahs sitting in the chapter on forgetfulness in prayer?",
-          "es": "¿Cuál es el fallo sobre rezar una rak‘ah de pie y dos rak‘ahs sentado en el capítulo sobre el olvido en la oración?",
-          "fa": "حکم نماز یک رکعت ایستاده و دو رکعت نشسته در باب فراموشی در نماز چیست؟",
-          "fr": "Quel est le jugement sur la prière d’une rak‘ah debout et de deux rak‘ahs assis dans le chapitre sur l’oubli dans la prière ?",
-          "id": "Apa hukum shalat satu rakaat berdiri dan dua rakaat duduk dalam bab lupa dalam salat?",
-          "ru": "Каково постановление о молитве одной рак‘ах стоя и двух рак‘ах сидя в главе о забывчивости в молитве?",
-          "tr": "Namazdaki unutkanlık bölümünde bir rek‘at ayakta ve iki rek‘at oturarak kılmanın hükmü nedir?",
-          "ur": "نماز میں بھول چوک کے باب میں ایک رکعت قیام میں اور دو رکعت بیٹھ کر پڑھنے کا حکم کیا ہے؟",
-          "zh": "在礼拜遗忘章节中，站立祈祷一跪拜和坐着祈祷两跪拜的判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি একটি সংক্ষিপ্ত ফিকহী বিধান প্রদান করে যা এক রাক‘আত দাঁড়িয়ে এবং দুই রাক‘আত বসে সালাত আদায়ের একটি রূপ সম্পর্কে। এটি সালাতের ফিকহের অন্তর্গত, বিশেষ করে সালাতে ভুলে যাওয়ার বিধানসমূহের মধ্যে।",
-          "de": "Dieser Hadith gibt eine kurze rechtliche Regelung bezüglich einer Form des Gebets, die eine Rak‘ah im Stehen und zwei Rak‘ahs im Sitzen vorsieht. Er gehört zur Rechtswissenschaft des Salat, insbesondere zu den Vorschriften im Zusammenhang mit Vergesslichkeit im Gebet.",
-          "en": "This hadith gives a concise legal ruling regarding a form of prayer to be performed as one rak‘ah while standing and two rak‘ahs while sitting. It belongs to the jurisprudence of salat (prayer), specifically within the rulings connected to forgetfulness in prayer.",
-          "es": "Este hadiz ofrece una regla legal concisa sobre una forma de oración que se realiza una rak‘ah de pie y dos rak‘ahs sentado. Pertenece a la jurisprudencia de la salat, específicamente dentro de las reglas relacionadas con el olvido en la oración.",
-          "fa": "این حدیث حکم فقهی مختصری درباره نوعی نماز که یک رکعت ایستاده و دو رکعت نشسته خوانده می‌شود، ارائه می‌دهد. این حکم به فقه نماز، به‌ویژه احکام مربوط به فراموشی در نماز تعلق دارد.",
-          "fr": "Ce hadith donne une règle juridique concise concernant une forme de prière à accomplir une rak‘ah debout et deux rak‘ahs assis. Il appartient à la jurisprudence de la salat, spécifiquement dans les règles liées à l’oubli pendant la prière.",
-          "id": "Hadis ini memberikan ketetapan hukum singkat mengenai bentuk salat yang dilakukan satu rakaat sambil berdiri dan dua rakaat sambil duduk. Ini termasuk dalam fiqh salat, khususnya dalam hukum yang berkaitan dengan lupa dalam salat.",
-          "ru": "Этот хадис содержит краткое юридическое постановление о форме молитвы, выполняемой одной рак‘ах стоя и двумя рак‘ах сидя. Он относится к юриспруденции салят, особенно к правилам, связанным с забывчивостью в молитве.",
-          "tr": "Bu hadis, bir rek‘atın ayakta ve iki rek‘atın oturarak kılınması şeklinde bir namaz türüne dair kısa bir hukuki hüküm vermektedir. Bu hüküm, özellikle namazdaki unutkanlıkla ilgili hükümlerin içinde yer alır.",
-          "ur": "یہ حدیث نماز کے فقہی احکام میں سے ایک مختصر حکم بیان کرتی ہے جو کہ ایک رکعت قیام میں اور دو رکعت بیٹھ کر ادا کرنے کی صورت سے متعلق ہے۔ یہ حکم خاص طور پر نماز میں بھول چوک سے متعلق فقہ میں شامل ہے۔",
-          "zh": "此圣训简明地规定了一种祈祷形式，即一跪拜站立祈祷，两跪拜坐着祈祷。它属于礼拜（salat）的法学，特别是在与礼拜中遗忘相关的规则中。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

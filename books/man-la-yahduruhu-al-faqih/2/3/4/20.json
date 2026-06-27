@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رُوِيَ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং এটি বর্ণিত হয়েছে:",
-              "de": "Und es wurde überliefert:",
-              "en": "And it has been narrated:",
-              "es": "Y se ha narrado:",
-              "fa": "و روایت شده است:",
-              "fr": "Et il a été rapporté :",
-              "id": "Dan telah diriwayatkan:",
-              "ru": "И было передано:",
-              "tr": "Ve rivayet edilmiştir ki:",
-              "ur": "اور یہ روایت کیا گیا ہے:",
-              "zh": "并且据传："
-            },
             "word_end": 2,
             "word_start": 0
           },
           {
             "arabic_text": "«إِنَّهَا سُمِّيَتْ مِنًى لِأَنَّ إِبْرَاهِيمَ عَلَيْهِ السَّلَامُ تَمَنَّى هُنَاكَ أَنْ يَجْعَلَ اللَّهُ مَكَانَ ابْنِهِ كَبْشًا يَأْمُرُهُ بِذَبْحِهِ فِدْيَةً لَهُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "‘‘এটির নাম মিনা রাখা হয়েছে কারণ ইব্রাহিম عليه السلام সেখানে ইচ্ছা করেছিলেন যে আল্লাহ তাঁর পুত্রের পরিবর্তে একটি মেষপশু স্থাপন করবেন যাকে তিনি তাঁর জন্য মুক্তিদাতা হিসেবে কোরবানি করার আদেশ দেবেন।’’",
-              "de": "„Es wurde Minā genannt, weil Ibrāhīm عليه السلام sich dort wünschte, dass Allah anstelle seines Sohnes einen Widder setzen würde, den Er ihm als Lösegeld zu schlachten befiehlt.“",
-              "en": "\"It was named Minā because Ibrāhīm عليه السلام wished there that Allah would place, in place of his son, a ram that He would command him to slaughter as a ransom for him.\"",
-              "es": "‘‘Se llamó Minā porque Ibrāhīm عليه السلام deseaba allí que Allah pusiera, en lugar de su hijo, un carnero al que le ordenaría sacrificar como rescate por él.’’",
-              "fa": "«آن را منى نامیدند زیرا ابراهیم علیه السلام در آنجا آرزو داشت که خداوند به جای پسرش، قوچی قرار دهد که او را به ذبح به عنوان فدیه امر کند.»",
-              "fr": "«Elle a été nommée Minā parce qu’Ibrāhīm عليه السلام souhaitait là-bas qu’Allah place, à la place de son fils, un bélier qu’Il lui ordonnerait de sacrifier en rançon pour lui.»",
-              "id": "‘‘Ia dinamakan Minā karena Ibrāhīm عليه السلام berharap di sana agar Allah menempatkan seekor domba jantan sebagai pengganti putranya yang akan diperintahkan untuk disembelih sebagai tebusan baginya.’’",
-              "ru": "«Она была названа Минā, потому что Ибрахим عليه السلام желал там, чтобы Аллах поставил вместо его сына барана, которого Он повелел бы ему заколоть в качестве выкупа за него.»",
-              "tr": "‘‘Minâ ismi, İbrâhîm عليه السلام’ın orada, Allah’ın oğlunun yerine, onu fidye olarak kurban etmesi için bir koç koymasını dilemesinden dolayı verilmiştir.’’",
-              "ur": "‘‘اس کا نام منٰی اس لیے رکھا گیا کیونکہ ابراہیم علیہ السلام نے وہاں یہ خواہش کی کہ اللہ تعالیٰ ان کے بیٹے کی جگہ ایک مینڈھا رکھے جسے وہ ان کے لیے فدیہ کے طور پر ذبح کرنے کا حکم دے۔’’",
-              "zh": "“它被命名为明那，因为易卜拉欣 عليه السلام在那里希望安拉能以一只公羊代替他的儿子，并命令他宰杀这只公羊作为赎金。”"
-            },
             "word_end": 21,
             "word_start": 2
           }
@@ -70,27 +57,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِبْرَاهِيمَ": "Ibrāhīm عليه السلام, the Prophet connected to the sacrificial trial",
-            "بِذَبْحِهِ": "by slaughtering it",
-            "تَمَنَّى": "wished or desired",
-            "سُمِّيَتْ": "was named",
-            "فِدْيَةً": "as a ransom or redeeming substitute",
-            "كَبْشًا": "a ram offered in place of the son",
-            "مِنًى": "Minā, the sacred site associated with the rites of hajj"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "سُمِّيَتْ",
+          "مِنًى",
+          "إِبْرَاهِيمَ",
+          "تَمَنَّى",
+          "كَبْشًا",
+          "بِذَبْحِهِ",
+          "فِدْيَةً"
+        ],
         "related_quran": [
           {
             "ref": "37:102",
@@ -101,32 +76,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "মিনা নামটি ইব্রাহিম عليه السلام এর সাথে কোন সম্পর্কের কারণে রাখা হয়েছে?",
-          "de": "Warum wurde Minā in Bezug auf Ibrāhīm عليه السلام so benannt?",
-          "en": "Why was Minā given this name in relation to Ibrāhīm عليه السلام?",
-          "es": "¿Por qué se le dio el nombre de Minā en relación con Ibrāhīm عليه السلام?",
-          "fa": "چرا منى به این نام در ارتباط با ابراهیم علیه السلام نامیده شده است؟",
-          "fr": "Pourquoi Minā a-t-elle reçu ce nom en relation avec Ibrāhīm عليه السلام ?",
-          "id": "Mengapa Minā diberi nama ini terkait dengan Ibrāhīm عليه السلام?",
-          "ru": "Почему Минā получила это имя в связи с Ибрахимом عليه السلام?",
-          "tr": "Minâ ismi İbrâhîm عليه السلام ile hangi ilişki nedeniyle verilmiştir?",
-          "ur": "منٰی کا نام ابراہیم علیہ السلام سے کس تعلق کی وجہ سے رکھا گیا؟",
-          "zh": "明那为何因易卜拉欣 عليه السلام而得此名？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনা মিনার নামকরণের ব্যাখ্যা দেয় যা ইব্রাহিম عليه السلام এর ত্যাগের পরীক্ষার সময় ইচ্ছার সঙ্গে যুক্ত। এটি হজের আনুষ্ঠানিকতায় নিবেদন, মুক্তিদান এবং ঐশ্বরিক পরীক্ষার পবিত্র স্মৃতিকে প্রতিফলিত করে।",
-          "de": "Diese Überlieferung erklärt die Benennung von Minā, indem sie mit dem Wunsch von Ibrāhīm عليه السلام während der Opferprüfung verknüpft wird. Sie spiegelt die heilige Erinnerung an Hingabe, Lösegeld und göttliche Prüfung im Zusammenhang mit den Ritualen der Hadsch wider.",
-          "en": "This narration explains the naming of Minā by linking it to the wish of Ibrāhīm عليه السلام during the trial of sacrifice. It reflects the sacred memory of devotion, ransom, and divine testing associated with the rites of hajj.",
-          "es": "Esta narración explica el nombre de Minā vinculándolo con el deseo de Ibrāhīm عليه السلام durante la prueba del sacrificio. Refleja la memoria sagrada de devoción, rescate y prueba divina asociada con los ritos del hajj.",
-          "fa": "این روایت نامگذاری منى را با آرزوی ابراهیم علیه السلام در هنگام آزمایش قربانی پیوند می‌دهد. این یادآور مقدس از بندگی، فدیه و آزمون الهی مرتبط با مناسک حج است.",
-          "fr": "Ce récit explique la nomination de Minā en la reliant au souhait d’Ibrāhīm عليه السلام lors de l’épreuve du sacrifice. Il reflète la mémoire sacrée de dévotion, de rançon et d’épreuve divine associée aux rites du hajj.",
-          "id": "Riwayat ini menjelaskan penamaan Minā yang dikaitkan dengan harapan Ibrāhīm عليه السلام saat ujian pengorbanan. Ini mencerminkan kenangan suci tentang pengabdian, tebusan, dan ujian ilahi yang terkait dengan ritual haji.",
-          "ru": "Это предание объясняет название Минā, связывая его с желанием Ибрахима عليه السلام во время испытания жертвы. Оно отражает священную память о преданности, выкупе и божественном испытании, связанных с обрядами хаджа.",
-          "tr": "Bu rivayet, Minâ isminin İbrâhîm عليه السلام’ın kurban denemesi sırasında dileğinden kaynaklandığını açıklar. Haccın ritüelleriyle bağlantılı olan bağlılık, fidye ve ilahi sınamanın kutsal anısını yansıtır.",
-          "ur": "یہ روایت منٰی کے نام کے پس منظر کو بیان کرتی ہے جو ابراہیم علیہ السلام کی قربانی کے امتحان کے دوران کی خواہش سے منسلک ہے۔ یہ حج کے مناسک سے وابستہ عقیدت، فدیہ اور الہی آزمائش کی مقدس یاد کو ظاہر کرتی ہے۔",
-          "zh": "此传述解释了明那的命名，将其与易卜拉欣 عليه السلام在牺牲考验中的愿望联系起来。它反映了与朝觐仪式相关的奉献、赎金和神圣考验的神圣记忆。"
-        },
         "tags": [
           "history",
           "worship",

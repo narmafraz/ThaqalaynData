@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَهُ عَلِيُّ بْنُ مَهْزِيَارَ: عَنْ هَذِهِ الْمَسْأَلَةِ فَقَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী ইবনে মহজিয়ার এই বিষয় সম্পর্কে জিজ্ঞাসা করলেন, এবং তিনি বললেন:",
-              "de": "ʿAlī ibn Mahziyār fragte ihn zu diesem Thema, und er sagte:",
-              "en": "ʿAlī ibn Mahziyār asked him about this issue, and he said:",
-              "es": "ʿAlī ibn Mahziyār preguntó sobre este asunto, y él dijo:",
-              "fa": "ʿAlī ibn Mahziyār درباره این مسئله پرسید و او گفت:",
-              "fr": "ʿAlī ibn Mahziyār a posé une question à ce sujet, et il a dit :",
-              "id": "ʿAlī ibn Mahziyār bertanya tentang masalah ini, dan dia berkata:",
-              "ru": "ʿAlī ибн Махзияр спросил его об этом вопросе, и он ответил:",
-              "tr": "ʿAlī ibn Mahziyār bu konuda sordu ve şöyle dedi:",
-              "ur": "علی ابن مہزیار نے اس مسئلے کے بارے میں پوچھا، اور انہوں نے فرمایا:",
-              "zh": "ʿAlīibnMahziyār关于此事提问，他说："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "«لَا يَقْضِي الصَّوْمَ وَلَا الصَّلَاةَ وَكُلُّ مَا غَلَبَ اللَّهُ عَلَيْهِ فَاللَّهُ أَوْلَى بِالْعُذْرِ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "সে সাওম (রোজা) এবং সালাত (নামাজ) ক্বযা করে না, এবং যা কিছু আল্লাহ তাকে পরাস্ত করেছেন, আল্লাহই সেই অজুহাতের অধিকারী।",
-              "de": "Er macht weder das sawm (Fasten) noch das salat (Gebet) nach, und alles, worüber Allah ihn überwältigt hat, Allah ist eher der Entschuldigung würdig.",
-              "en": "\"He does not make up the sawm (fasting) nor the salat (prayer), and everything over which Allah has overcome him, then Allah is more deserving of the excuse.\"",
-              "es": "Él no compensa el sawm (ayuno) ni la salat (oración), y todo aquello sobre lo que Allah lo ha dominado, entonces Allah es más merecedor de la excusa.",
-              "fa": "او روزه (صوم) و نماز (صلات) را قضا نمی‌کند، و هر چیزی که خدا بر او غالب شده است، خداوند سزاوارتر به عذر است.",
-              "fr": "Il ne rattrape pas le sawm (jeûne) ni la salat (prière), et tout ce sur quoi Allah l'a dominé, alors Allah est plus digne de l'excuse.",
-              "id": "Dia tidak mengganti sawm (puasa) maupun salat (shalat), dan segala sesuatu yang Allah mengalahkannya, maka Allah lebih berhak atas alasan itu.",
-              "ru": "Он не возмещает саум (пост) и салят (молитву), и всё, над чем Аллах одержал над ним верх, Аллах более достоин оправдания.",
-              "tr": "O, oruç (sawm) ve namazı (salat) kaza etmez, ve Allah'ın onu mağlup ettiği her şeyde, Allah mazeret için daha layıktır.",
-              "ur": "وہ روزہ (صوم) اور نماز (صلٰوة) قضا نہیں کرتا، اور ہر وہ چیز جس پر اللہ نے اسے غالب کر لیا، اللہ اس عذر کا زیادہ حق دار ہے۔",
-              "zh": "他不补做sawm（斋戒）也不补做salat（祈祷），凡是安拉使他无法克服的，安拉更有权接受他的借口。"
-            },
             "word_end": 21,
             "word_start": 8
           }
@@ -86,26 +73,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الصَّلَاةَ": "the obligatory prayer being discussed",
-            "الصَّوْمَ": "the obligatory fasting being discussed",
-            "الْعُذْرِ": "a legally recognized excuse",
-            "الْمَسْأَلَةِ": "the legal issue or question being asked",
-            "غَلَبَ": "overpowered or overcame beyond one’s ability",
-            "يَقْضِي": "to make up a missed religious duty"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمَسْأَلَةِ",
+          "يَقْضِي",
+          "الصَّوْمَ",
+          "الصَّلَاةَ",
+          "غَلَبَ",
+          "الْعُذْرِ"
+        ],
         "related_quran": [
           {
             "ref": "2:286",
@@ -120,32 +95,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কোনো ব্যক্তি কি অসুস্থতা বা অক্ষমতার কারণে রোজা ও নামাজ ক্বযা করতে বাধ্য?",
-          "de": "Muss jemand das Fasten und Gebet nachholen, wenn Krankheit oder Unfähigkeit ihn außerhalb seiner Kontrolle überwältigt hat?",
-          "en": "Does someone have to make up fasting and prayer if illness or incapacity overtook him beyond his control?",
-          "es": "¿Debe alguien compensar el ayuno y la oración si la enfermedad o incapacidad lo sobrepasa fuera de su control?",
-          "fa": "آیا کسی باید روزه و نماز را اگر بیماری یا ناتوانی بر او غلبه کرد، قضا کند؟",
-          "fr": "Faut-il rattraper le jeûne et la prière si la maladie ou l'incapacité a pris le dessus hors de son contrôle ?",
-          "id": "Apakah seseorang harus mengganti puasa dan salat jika sakit atau ketidakmampuan menguasainya di luar kendalinya?",
-          "ru": "Должен ли человек возмещать пост и молитву, если болезнь или неспособность овладели им вне его контроля?",
-          "tr": "Birisi hastalık veya engellilik nedeniyle oruç ve namazı kaza etmek zorunda mı?",
-          "ur": "کیا کسی کو بیماری یا ناتوانی کی وجہ سے روزہ اور نماز قضا کرنا ضروری ہے؟",
-          "zh": "如果疾病或无能力超出其控制范围，某人是否必须补做斋戒和祈祷？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস একটি আইনি সিদ্ধান্ত দেয় যে যখন কেউ এমন অবস্থায় থাকে যা তার নিয়ন্ত্রণের বাইরে, তখন তাকে সাওম (রোজা) বা সালাত (নামাজ) ক্বযা করতে হয় না। এটি প্রতিষ্ঠা করে যে যখন আল্লাহ কাউকে অক্ষম করে দেন, তখন সেই অজুহাত গ্রহণযোগ্য।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung, dass eine Person das sawm (Fasten) oder salat (Gebet) nicht nachholen muss, wenn sie durch eine außer ihrer Kontrolle liegende Bedingung daran gehindert wird. Er stellt das Prinzip auf, dass wenn Allah eine Person überwältigt, der Entschuldigungsgrund anerkannt wird.",
-          "en": "This hadith gives a legal ruling that a person does not need to make up sawm (fasting) or salat (prayer) when prevented by a condition beyond his control. It establishes the principle that when Allah causes a person to be overpowered by incapacity, the excuse is accepted.",
-          "es": "Este hadiz da un fallo legal que una persona no necesita compensar el sawm (ayuno) ni la salat (oración) cuando es impedido por una condición fuera de su control. Establece el principio de que cuando Allah hace que una persona sea incapaz, la excusa es aceptada.",
-          "fa": "این حدیث حکم شرعی می‌دهد که شخص نیازی به قضا کردن روزه (صوم) یا نماز (صلات) ندارد وقتی که شرایطی خارج از کنترل او مانع شده باشد. این اصل را بیان می‌کند که وقتی خداوند شخصی را ناتوان می‌کند، عذر او پذیرفته است.",
-          "fr": "Ce hadith donne un jugement légal qu'une personne n'a pas besoin de rattraper le sawm (jeûne) ni la salat (prière) lorsqu'elle est empêchée par une condition hors de son contrôle. Il établit le principe que lorsque Allah rend une personne incapable, l'excuse est acceptée.",
-          "id": "Hadis ini memberikan ketetapan hukum bahwa seseorang tidak perlu mengganti sawm (puasa) atau salat (shalat) ketika terhalang oleh kondisi di luar kendalinya. Ini menetapkan prinsip bahwa ketika Allah membuat seseorang tidak mampu, alasan tersebut diterima.",
-          "ru": "Этот хадис даёт юридическое постановление, что человек не обязан возмещать саум (пост) или салят (молитву), если его помешало состояние вне его контроля. Устанавливает принцип, что когда Аллах делает человека неспособным, оправдание принимается.",
-          "tr": "Bu hadis, bir kişinin kontrolü dışında bir durum tarafından engellendiğinde oruç (sawm) veya namazı (salat) kaza etmesine gerek olmadığını belirten hukuki bir hüküm verir. Allah bir kişiyi güçsüz bıraktığında mazeretin kabul edildiği prensibini ortaya koyar.",
-          "ur": "یہ حدیث ایک قانونی حکم دیتی ہے کہ جب کوئی شخص ایسی حالت میں ہو جس پر اس کا اختیار نہ ہو تو اسے روزہ یا نماز قضا کرنے کی ضرورت نہیں۔ یہ اصول قائم کرتی ہے کہ جب اللہ کسی کو ناتوانی میں مبتلا کرتا ہے تو اس کا عذر قبول ہے۔",
-          "zh": "这段圣训给出了法律裁决，当一个人因超出其控制的状况而被阻止时，无需补做sawm（斋戒）或salat（祈祷）。它确立了一个原则，即当安拉使某人无能为力时，该借口被接受。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

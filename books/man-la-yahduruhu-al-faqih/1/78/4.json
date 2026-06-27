@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ الْبَاقِرُ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল-বাকির عليه السلام বললেন:",
-              "de": "Al-Baqir عليه السلام sagte:",
-              "en": "Al-Baqir عليه السلام said:",
-              "es": "Al-Baqir عليه السلام dijo:",
-              "fa": "امام باقر علیه السلام فرمود:",
-              "fr": "Al-Baqir عليه السلام a dit :",
-              "id": "Al-Baqir عليه السلام berkata:",
-              "ru": "Аль-Бакер عليه السلام сказал:",
-              "tr": "El-Bakır عليه السلام şöyle dedi:",
-              "ur": "الْبَاقِر علیہ السلام نے فرمایا:",
-              "zh": "الباقرالسلامقال:"
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "«النَّوْمُ أَوَّلَ النَّهَارِ خُرْقٌ وَالْقَائِلَةُ نِعْمَةٌ وَالنَّوْمُ بَعْدَ الْعَصْرِ حُمْقٌ وَالنَّوْمُ بَيْنَ الْعِشَاءَيْنِ يَحْرِمُ الرِّزْقَ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "\"দিনের শুরুতে ঘুমানো অপচয়, দুপুরের ঘুম একটি বরকত, 'আসরের পরে ঘুমানো মূর্খতা, এবং দুই রাতের নামাজের মধ্যে ঘুমানো রিযক থেকে বঞ্চিত করে।\"",
-              "de": "\"Schlafen am Anfang des Tages ist Verschwendung, das Mittagsschläfchen ist ein Segen, Schlaf nach al-'Asr ist Dummheit, und Schlaf zwischen den beiden Nachtgebeten entzieht den Lebensunterhalt.\"",
-              "en": "\"Sleeping at the beginning of the day is wastefulness, the midday nap is a blessing, sleeping after al-'Asr is foolishness, and sleeping between the two night prayers deprives one of sustenance.\"",
-              "es": "\"Dormir al comienzo del día es un desperdicio, la siesta es una bendición, dormir después de al-'Asr es una necedad, y dormir entre las dos oraciones nocturnas priva de sustento.\"",
-              "fa": "\"خوابیدن در ابتدای روز اسراف است، چرت ظهر نعمت است، خوابیدن بعد از عصر حماقت است و خوابیدن بین دو نماز شب روزی را محروم می‌کند.\"",
-              "fr": "\"Dormir au début de la journée est un gaspillage, la sieste est une bénédiction, dormir après al-'Asr est une folie, et dormir entre les deux prières nocturnes prive de subsistance.\"",
-              "id": "\"Tidur di awal hari adalah pemborosan, tidur siang adalah berkah, tidur setelah al-'Asr adalah kebodohan, dan tidur di antara dua salat malam menyebabkan kehilangan rezeki.\"",
-              "ru": "\"Сон в начале дня — расточительство, дневной сон — благословение, сон после аль-'Аср — глупость, а сон между двумя ночными молитвами лишает пропитания.\"",
-              "tr": "\"Günün başında uyumak israftır, öğle uykusu bir nimettir, al-'Asr'dan sonra uyumak aptallıktır ve iki gece namazı arasında uyumak rızıkdan mahrum bırakır.\"",
-              "ur": "''دن کے شروع میں سونا فضول خرچی ہے، دوپہر کا قیلولہ نعمت ہے، عصر کے بعد سونا حماقت ہے، اور دونوں نمازوں کے درمیان سونا رزق سے محرومی ہے۔''",
-              "zh": "“白天开始时睡觉是浪费，中午小憩是福气，阿尔阿斯尔后睡觉是愚蠢，夜间两次祷告之间睡觉会失去生计。”"
-            },
             "word_end": 19,
             "word_start": 4
           }
@@ -71,28 +58,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَوَّلَ النَّهَارِ": "the beginning of the day; early daytime after dawn",
-            "الرِّزْقَ": "sustenance or provision",
-            "النَّوْمُ": "sleep; the act of sleeping discussed in different parts of the day",
-            "الْعِشَاءَيْنِ": "the two evening prayers, meaning Maghrib and 'Isha'",
-            "الْقَائِلَةُ": "the midday nap or siesta",
-            "حُمْقٌ": "foolishness or lack of sound judgment",
-            "خُرْقٌ": "wastefulness or foolish imprudence in conduct",
-            "نِعْمَةٌ": "a blessing and beneficial favor"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "النَّوْمُ",
+          "أَوَّلَ النَّهَارِ",
+          "خُرْقٌ",
+          "الْقَائِلَةُ",
+          "نِعْمَةٌ",
+          "حُمْقٌ",
+          "الْعِشَاءَيْنِ",
+          "الرِّزْقَ"
+        ],
         "related_quran": [
           {
             "ref": "25:47",
@@ -107,32 +82,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-বাকির عليه السلام ঘুমের অপছন্দনীয় ও সুপারিশকৃত সময় সম্পর্কে কী বলেন?",
-          "de": "Was sagt Imam al-Baqir عليه السلام über unerwünschte und empfohlene Schlafzeiten?",
-          "en": "What does Imam al-Baqir عليه السلام say about disliked and recommended times for sleeping?",
-          "es": "¿Qué dice el Imam al-Baqir عليه السلام sobre los tiempos no recomendados y recomendados para dormir?",
-          "fa": "امام باقر علیه السلام درباره زمان‌های ناپسند و توصیه‌شده برای خواب چه می‌فرمایند؟",
-          "fr": "Que dit l'Imam al-Baqir عليه السلام à propos des moments déconseillés et recommandés pour dormir ?",
-          "id": "Apa yang dikatakan Imam al-Baqir عليه السلام tentang waktu tidur yang tidak disukai dan yang dianjurkan?",
-          "ru": "Что говорит Имам аль-Бакер عليه السلام о нежелательных и рекомендуемых временах для сна?",
-          "tr": "İmam el-Bakır عليه السلام uyku için hoş karşılanmayan ve tavsiye edilen zamanlar hakkında ne diyor?",
-          "ur": "امام الباقر علیہ السلام نیند کے ناپسندیدہ اور مستحب اوقات کے بارے میں کیا فرماتے ہیں؟",
-          "zh": "伊玛目الباقرالسلام关于不受欢迎和推荐的睡眠时间说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ঘুমের অপছন্দনীয় ও প্রশংসনীয় সময় নির্ধারণ করে সঠিক দৈনন্দিন আচরণ শেখায়। দিনের শুরুতে ঘুমানো, আসরের পরে ঘুমানো এবং মাগরিব ও ইশার মধ্যে ঘুমানো নেতিবাচক হিসেবে বর্ণনা করে, আর দুপুরের ঘুমকে বরকত হিসেবে তুলে ধরে, ব্যক্তিগত শৃঙ্খলাকে রিযকের সাথে যুক্ত করে।",
-          "de": "Dieser Hadith lehrt angemessenes tägliches Verhalten, indem er verpönte und lobenswerte Schlafzeiten unterscheidet. Er stellt das frühe Schlafen am Tag, das Schlafen nach al-'Asr und das Schlafen zwischen Maghrib und 'Isha' negativ dar, während er das Mittagsschläfchen als Segen beschreibt und persönliche Disziplin mit dem Lebensunterhalt verbindet.",
-          "en": "This hadith teaches proper daily conduct by distinguishing blameworthy and praiseworthy times for sleep. It presents early daytime sleep, post-'Asr sleep, and sleep between Maghrib and 'Isha' negatively, while describing the midday nap as a blessing, linking personal discipline with one's livelihood.",
-          "es": "Este hadiz enseña la conducta diaria adecuada distinguiendo los momentos reprochables y loables para dormir. Presenta el sueño temprano en el día, después de al-'Asr y entre Maghrib e 'Isha' negativamente, mientras describe la siesta como una bendición, vinculando la disciplina personal con el sustento.",
-          "fa": "این حدیث با تمایز قائل شدن بین زمان‌های ناپسند و پسندیده برای خواب، رفتار روزانه صحیح را آموزش می‌دهد. خواب در اوایل روز، بعد از عصر و بین نمازهای مغرب و عشاء را منفی می‌داند و چرت ظهر را نعمت معرفی می‌کند و انضباط شخصی را با روزی مرتبط می‌سازد.",
-          "fr": "Ce hadith enseigne la conduite quotidienne appropriée en distinguant les moments blâmables et louables pour le sommeil. Il présente le sommeil en début de journée, après al-'Asr et entre Maghrib et 'Isha' de manière négative, tout en décrivant la sieste comme une bénédiction, liant la discipline personnelle à la subsistance.",
-          "id": "Hadis ini mengajarkan tata cara harian yang tepat dengan membedakan waktu tidur yang tidak disukai dan yang dianjurkan. Tidur di awal hari, setelah al-'Asr, dan antara salat Maghrib dan 'Isha' dianggap negatif, sementara tidur siang adalah berkah, mengaitkan disiplin pribadi dengan rezeki.",
-          "ru": "Этот хадис учит правильному ежедневному поведению, различая порицаемые и похвальные времена для сна. Он негативно оценивает сон в начале дня, после аль-'Аср и между Магриб и 'Иша', в то время как дневной сон описывает как благословение, связывая личную дисциплину с пропитанием.",
-          "tr": "Bu hadis, uyku için hoş karşılanmayan ve tavsiye edilen zamanları ayırt ederek günlük doğru davranışı öğretir. Günün erken saatlerinde uyumayı, al-'Asr sonrası uyumayı ve akşam namazları arasındaki uykuyu olumsuz, öğle uykusunu ise bir nimet olarak tanımlar ve kişisel disiplini rızıkla ilişkilendirir.",
-          "ur": "یہ حدیث نیند کے قابل مذمت اور قابل تعریف اوقات کی تمیز کر کے روزمرہ کے مناسب آداب سکھاتی ہے۔ یہ دن کے شروع میں نیند، عصر کے بعد نیند، اور مغرب و عشاء کے درمیان نیند کو منفی قرار دیتی ہے جبکہ دوپہر کے قیلولے کو نعمت بتاتی ہے، اور ذاتی نظم و ضبط کو روزی سے جوڑتی ہے۔",
-          "zh": "这段圣训通过区分不受欢迎和推荐的睡眠时间，教导正确的日常行为。它负面描述了白天早期睡觉、阿斯尔后睡觉和晚祷之间睡觉，同时将中午小憩视为福气，将个人纪律与生计联系起来。"
-        },
         "tags": [
           "ethics",
           "worship",

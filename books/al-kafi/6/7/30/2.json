@@ -14,6 +14,117 @@
       "up": "/books/al-kafi:6:7:30"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَنْهُ عَنْ عَمْرٍو بْنِ سَعِيدٍ الْمَدَائِنِيِّ عَنْ مُصَدِّقِ بْنِ صَدَقَةَ عَنْ عَمَّارِ بْنِ مُوسَى قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 15,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) عَنِ الْفُقَّاعِ فَقَالَ هُوَ خَمْرٌ",
+            "chunk_type": "body",
+            "word_end": 28,
+            "word_start": 15
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 11,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَنْهُ",
+              "name_en": "from him",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 936,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَمْرِو بْنِ سَعِيدٍ الْمَدَائِنِيِّ",
+              "name_en": "Amr b. Sa'id al-Madani",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 159,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُصَدِّقِ بْنِ صَدَقَةَ",
+              "name_en": "Musaddiq ibn Sadaqa",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 210,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَمَّارِ بْنِ مُوسَى",
+              "name_en": "Ammar ibn Musa",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الْفُقَّاعِ",
+          "خَمْرٌ",
+          "أَبَا عَبْدِ اللَّهِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "5:90",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:219",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "worship"
+        ],
+        "topics": [
+          "halal_haram",
+          "prayer_rulings"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (2/288)"
       ],
@@ -76,7 +187,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:7:30:2",

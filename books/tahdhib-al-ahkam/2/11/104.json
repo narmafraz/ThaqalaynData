@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلْحُسَيْنُ بْنُ سَعِيدٍ عَنْ مُحَمَّدِ بْنِ إِسْمَاعِيلَ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ, মুহাম্মদ ইবন ইসমাঈল থেকে, তিনি বলেছেন:",
-              "de": "Al-Ḥusayn ibn Saʿīd, von Muḥammad ibn Ismāʿīl, der sagte:",
-              "en": "Al-Ḥusayn ibn Saʿīd, from Muḥammad ibn Ismāʿīl, who said:",
-              "es": "Al-Ḥusayn ibn Saʿīd, de Muḥammad ibn Ismāʿīl, quien dijo:",
-              "fa": "الحسین بن سعید، از محمد بن اسماعیل، که گفت:",
-              "fr": "Al-Ḥusayn ibn Saʿīd, d’après Muḥammad ibn Ismāʿīl, qui a dit :",
-              "id": "Al-Ḥusayn ibn Saʿīd, dari Muḥammad ibn Ismāʿīl, yang berkata:",
-              "ru": "Аль-Хусайн ибн Саʿид, от Мухаммада ибн Исмаʿиля, который сказал:",
-              "tr": "el-Hüseyin ibn Saʿid, Muhammed ibn İsmail’den, o da şöyle dedi:",
-              "ur": "الحسین بن سعید، محمد بن اسماعیل سے، جنہوں نے کہا:",
-              "zh": "阿尔-侯赛因·伊本·萨ʿ伊德，传自穆罕默德·伊本·伊斯马ʿ伊勒，他说："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "رَأَيْتُهُ يُصَلِّي فِي نَعْلَيْهِ لَمْ يَخْلَعْهُمَا، وَأَحْسَبُهُ قَالَ: «رَكْعَتَيِ الطَّوَافِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাকে তার স্যান্ডেল পরে সালাত আদায় করতে দেখেছি; তিনি সেগুলো খুলে ফেলেননি, এবং আমার ধারণা তিনি বলেছেন: “তাওয়াফের দুই রাকআত।”",
-              "de": "Ich sah ihn mit seinen Sandalen salat verrichten; er zog sie nicht aus, und ich glaube, er sagte: „die zwei Rakʿahs des Tawaf.“",
-              "en": "I saw him praying in his sandals; he did not remove them, and I think he said: “the two rakʿahs of tawaf.”",
-              "es": "Lo vi hacer salat con sus sandalias puestas; no se las quitó, y creo que dijo: “las dos rakʿahs del tawaf.”",
-              "fa": "او را دیدم که با نعلین‌هایش salat می‌خوانْد؛ آنها را درنیاورد، و گمان می‌کنم گفت: «دو رکعتِ طواف.»",
-              "fr": "Je l’ai vu accomplir le salat avec ses sandales ; il ne les a pas retirées, et je pense qu’il a dit : « les deux rakʿahs du tawaf. »",
-              "id": "Aku melihatnya salat dengan sandal-sandalnya; ia tidak melepaskannya, dan aku kira ia berkata: “dua rakaat tawaf.”",
-              "ru": "Я видел, как он совершал салат в своих сандалиях; он не снял их, и, как я думаю, он сказал: «два ракʿата тавафа».",
-              "tr": "Onu sandaletleriyle salat ederken gördüm; onları çıkarmadı ve sanırım şöyle dedi: “tavafın iki rekâtı.”",
-              "ur": "میں نے اسے اپنے جوتوں میں نماز پڑھتے دیکھا؛ اس نے انہیں نہیں اتارا، اور میرا خیال ہے کہ اس نے کہا: “طواف کی دو رکعتیں۔”",
-              "zh": "我看见他穿着凉鞋做礼拜；他没有把它们脱下，我想他说的是：“环游的两拜。”"
-            },
             "word_end": 18,
             "word_start": 8
           }
@@ -84,25 +71,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الطَّوَافِ": "the circumambulation around the Kaʿbah",
-            "رَكْعَتَيِ": "the two rakʿahs",
-            "نَعْلَيْهِ": "his two sandals",
-            "يَخْلَعْهُمَا": "he removes them",
-            "يُصَلِّي": "he performs salat (prayer)"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُصَلِّي",
+          "نَعْلَيْهِ",
+          "يَخْلَعْهُمَا",
+          "رَكْعَتَيِ",
+          "الطَّوَافِ"
+        ],
         "related_quran": [
           {
             "ref": "2:125",
@@ -113,32 +88,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "স্যান্ডেল পরে সালাত (নামাজ) আদায় করা, এমনকি তাওয়াফের দুই রাকআতও, কি জায়েয?",
-          "de": "Ist es erlaubt, salat (Gebet), einschließlich der zwei Rakʿahs des Tawaf, mit Sandalen zu verrichten?",
-          "en": "Is it permissible to perform salat (prayer), including the two rakʿahs of tawaf, while wearing sandals?",
-          "es": "¿Es lícito realizar salat (oración), incluidas las dos rakʿahs del tawaf, mientras se llevan sandalias?",
-          "fa": "آیا انجام دادن salat (نماز)، از جمله دو رکعتِ طواف، با پوشیدن نعلین جایز است؟",
-          "fr": "Est-il permis d’accomplir le salat (prière), y notamment les deux rakʿahs du tawaf, en portant des sandales ?",
-          "id": "Apakah boleh melaksanakan salat (salat), termasuk dua rakaat tawaf, sambil memakai sandal?",
-          "ru": "Дозволено ли совершать салат (молитву), включая два ракʿата тавафа, в сандалиях?",
-          "tr": "Sandalet giyerek, tavafın iki rekâtı da dahil olmak üzere salat (namaz) kılmak caiz midir?",
-          "ur": "کیا جوتے پہن کر salat (نماز) ادا کرنا، بشمول طواف کی دو رکعتیں، جائز ہے؟",
-          "zh": "穿着凉鞋进行礼拜（salat），包括环游后的两拜，是否可以？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে বর্ণিত হয়েছে যে ইমাম عليه السلام-কে স্যান্ডেল পরে, সেগুলো না খুলেই সালাত আদায় করতে দেখা গিয়েছিল। মনে হয় এটি বিশেষভাবে তাওয়াফের দুই রাকআতের কথা বলছে, যা সেই প্রেক্ষিতে স্যান্ডেল পরে সালাত আদায়ের বৈধতার ইঙ্গিত দেয়।",
-          "de": "Dieser Hadith berichtet, dass der Imam عليه السلام gesehen wurde, wie er salat verrichtete, während er seine Sandalen trug, ohne sie auszuziehen. Es scheint sich speziell auf die zwei Rakʿahs des Tawaf zu beziehen und weist auf die Erlaubnis hin, in diesem Zusammenhang mit Sandalen zu beten.",
-          "en": "This hadith reports that the Imam عليه السلام was seen performing salat (prayer) while wearing his sandals without removing them. It appears specifically to refer to the two rakʿahs of tawaf, indicating the permissibility of praying in sandals in that context.",
-          "es": "Este hadiz informa que al Imam عليه السلام se le vio realizando salat mientras llevaba sus sandalias, sin quitárselas. Parece referirse específicamente a las dos rakʿahs del tawaf, lo que indica la permisibilidad de rezar con sandalias en ese contexto.",
-          "fa": "این حدیث گزارش می‌کند که امام علیه السلام در حالی دیده شد که با نعلین‌های خود و بدون درآوردن آنها salat می‌خوانْد. به نظر می‌رسد این به‌طور خاص به دو رکعتِ طواف اشاره دارد و بر جواز نماز خواندن با نعلین در آن زمینه دلالت می‌کند.",
-          "fr": "Ce hadith rapporte que l’Imam عليه السلام a été vu accomplissant le salat en portant ses sandales, sans les retirer. Il semble se référer précisément aux deux rakʿahs du tawaf, ce qui indique la permission de prier avec des sandales dans ce contexte.",
-          "id": "Hadis ini meriwayatkan bahwa Imam عليه السلام terlihat sedang melaksanakan salat sambil memakai sandalnya tanpa melepaskannya. Tampaknya ini secara khusus merujuk pada dua rakaat tawaf, yang menunjukkan bolehnya salat dengan sandal dalam konteks itu.",
-          "ru": "Этот хадис сообщает, что Имама عليه السلام видели совершающим салат в своих сандалиях, не снимая их. По-видимому, речь идет именно о двух ракʿатах тавафа, что указывает на дозволенность совершать молитву в сандалиях в этом контексте.",
-          "tr": "Bu hadis, İmam عليه السلام’ın sandaletlerini çıkarmadan, onları giyerek salat ederken görüldüğünü bildirir. Görünüşe göre bu, özellikle tavafın iki rekâtına işaret etmektedir ve bu bağlamda sandaletle namaz kılmanın caiz olduğuna delalet eder.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ امام علیہ السلام کو جوتے پہنے ہوئے، انہیں اتارے بغیر، salat ادا کرتے دیکھا گیا۔ بظاہر یہ خاص طور پر طواف کی دو رکعتوں کی طرف اشارہ ہے، جو اس موقع پر جوتوں میں نماز پڑھنے کے جواز پر دلالت کرتا ہے۔",
-          "zh": "这段圣训记载，伊玛目 عليه السلام被看见穿着凉鞋做礼拜，并没有把它们脱下。看来这特别指的是环游后的两拜，说明在这种情况下穿着凉鞋礼拜是可以的。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

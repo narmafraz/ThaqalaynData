@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ بِهَذَا الْإِسْنَادِ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং এই সনদের মাধ্যমে, আবূ আবদিল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Und mit dieser Überlieferungskette, von Abū ʿAbdillāh عليه السلام, sagte er:",
-              "en": "And with this chain of transmission, from Abū ʿAbdillāh عليه السلام, he said:",
-              "es": "Y con esta cadena de transmisión, de Abū ʿAbdillāh عليه السلام, dijo:",
-              "fa": "و با این سلسله سند، از ابوعبدالله علیه السلام، فرمود:",
-              "fr": "Et avec cette chaîne de transmission, d’Abū ʿAbdillāh عليه السلام, il a dit :",
-              "id": "Dan dengan rantai transmisi ini, dari Abū ʿAbdillāh عليه السلام, beliau bersabda:",
-              "ru": "И с этой цепочкой передачи, от Абу ʿАбдуллаха عليه السلام, он сказал:",
-              "tr": "Ve bu rivayet zinciriyle, Ebû Abdillâh عليه السلام’dan, şöyle dedi:",
-              "ur": "اور اسی سند کے ساتھ، ابو عبداللہ علیہ السلام سے، انہوں نے فرمایا:",
-              "zh": "并且通过这条传述链，从AbūʿAbdillāh عليه السلام传来，他说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ: «لَا قَطْعَ فِي رِيشٍ يَعْنِي الطَّيْرَ كُلَّهُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমীরুল মুমিনীন عليه السلام বলেছেন: “পালকের কারণে [হাত] কাটা নেই,” অর্থাৎ সব পাখি।",
-              "de": "Amīr al-Muʾminīn عليه السلام sagte: „Für Federn gibt es keine Abtrennung [der Hand]“, das heißt alle Vögel.",
-              "en": "Amīr al-Muʾminīn عليه السلام said: “There is no cutting off [of the hand] for feathers,” meaning all birds.",
-              "es": "Amīr al-Muʾminīn عليه السلام dijo: “No hay amputación [de la mano] por las plumas”, es decir, todas las aves.",
-              "fa": "امیرالمؤمنین علیه السلام فرمود: «در مورد پرها قطع دست نیست»، یعنی همه پرندگان.",
-              "fr": "Amīr al-Muʾminīn عليه السلام a dit : « Il n’y a pas de coupure [de la main] pour des plumes », c’est-à-dire tous les oiseaux.",
-              "id": "Amīr al-Muʾminīn عليه السلام bersabda: “Tidak ada pemotongan [tangan] karena bulu,” maksudnya semua burung.",
-              "ru": "Амир аль-Муʾминин عليه السلام сказал: «За перья нет отсечения [руки]», то есть за всех птиц.",
-              "tr": "Emîru’l-Mü’minîn عليه السلام şöyle buyurdu: “Tüyler için el kesme yoktur,” yani bütün kuşlar.",
-              "ur": "امیر المؤمنین علیہ السلام نے فرمایا: “پروں میں کوئی قطع نہیں،” یعنی تمام پرندے۔",
-              "zh": "Amīral-Muʾminīn عليه السلام说：“因羽毛而没有断手刑，”意思是指所有鸟类。"
-            },
             "word_end": 22,
             "word_start": 10
           }
@@ -90,57 +77,19 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَمِيرُ الْمُؤْمِنِينَ": "Title of Imam ʿAlī عليه السلام, the source of the ruling",
-            "الطَّيْرَ": "Birds",
-            "رِيشٍ": "Feathers; here referring to birds as clarified in the report",
-            "كُلَّهُ": "All of it; indicating general inclusion of all birds",
-            "لَا قَطْعَ": "There is no amputation; the hadd punishment does not apply"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَمِيرُ الْمُؤْمِنِينَ",
+          "لَا قَطْعَ",
+          "رِيشٍ",
+          "الطَّيْرَ",
+          "كُلَّهُ"
+        ],
         "related_quran": [
           {
             "ref": "5:38",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামী আইনে পাখি বা পালক চুরি করলে কি হাত কাটার হদ্দ প্রযোজ্য হয়?",
-          "de": "Führt das Stehlen von Vögeln oder Federn im islamischen Recht zur Hadd-Strafe der Handamputation?",
-          "en": "Does stealing birds or feathers require the hadd punishment of hand amputation in Islamic law?",
-          "es": "¿Robar aves o plumas exige la pena hadd de amputación de la mano en la ley islámica?",
-          "fa": "آیا در فقه اسلامی، دزدیدن پرندگان یا پرها موجب حدّ قطع دست می‌شود؟",
-          "fr": "Le vol d’oiseaux ou de plumes entraîne-t-il la peine hadd d’amputation de la main en droit islamique ?",
-          "id": "Apakah mencuri burung atau bulu mewajibkan hadd pemotongan tangan dalam hukum Islam?",
-          "ru": "Влечет ли кража птиц или перьев в исламском праве хадд-наказание в виде отсечения руки?",
-          "tr": "İslam hukukunda kuşları veya kuş tüylerini çalmak için el kesme hadd cezası gerekir mi?",
-          "ur": "کیا اسلامی قانون میں پرندے یا پرندوں کے پر چرانے پر ہاتھ کاٹنے کی حد لازم ہوتی ہے؟",
-          "zh": "在伊斯兰教法中，偷鸟或羽毛是否需要断手的hadd刑罚？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে আমীরুল মুমিনীন عليه السلام থেকে একটি ফিকহি বিধান বর্ণিত হয়েছে যে, পাখি বা পালক-সম্পর্কিত চুরির ক্ষেত্রে হাত কাটার হদ্দ প্রযোজ্য নয়। এর গুরুত্ব ফিকহে চুরির শাস্তি প্রয়োগের সীমা নির্ধারণে।",
-          "de": "Dieser Hadith überliefert eine rechtliche Bestimmung von Amīr al-Muʾminīn عليه السلام, wonach Diebstahl im Zusammenhang mit Vögeln oder Federn nicht die Hadd-Strafe der Handamputation nach sich zieht. Seine Bedeutung liegt in der Festlegung der Grenzen für die Anwendung der Diebstahlsstrafe im Fiqh.",
-          "en": "This hadith conveys a legal ruling from Amīr al-Muʾminīn عليه السلام that theft involving feathers, meaning birds generally, does not incur the hadd punishment of hand amputation. Its significance lies in defining limits for the application of the theft penalty within fiqh.",
-          "es": "Este hadiz transmite una norma jurídica de Amīr al-Muʾminīn عليه السلام según la cual el robo relacionado con aves o plumas no conlleva la pena hadd de amputación de la mano. Su importancia radica en definir los límites de la aplicación del castigo por robo dentro del fiqh.",
-          "fa": "این حدیث از امیرالمؤمنین علیه السلام حکمی فقهی را بیان می‌کند که سرقت مربوط به پرندگان یا پرها، موجب حدّ قطع دست نمی‌شود. اهمیت آن در تعیین حدود اجرای مجازات سرقت در فقه است.",
-          "fr": "Ce hadith transmet une règle juridique de Amīr al-Muʾminīn عليه السلام selon laquelle le vol lié aux oiseaux ou aux plumes n’entraîne pas la peine hadd d’amputation de la main. Son importance réside dans la définition des limites d’application de la peine pour vol en fiqh.",
-          "id": "Hadis ini menyampaikan sebuah حكم fikih dari Amīr al-Muʾminīn عليه السلام bahwa pencurian yang berkaitan dengan burung atau bulu tidak dikenai hadd pemotongan tangan. Signifikansinya terletak pada penentuan batas-batas penerapan hukuman pencurian dalam fikih.",
-          "ru": "Этот хадис передает правовое постановление от Амир аль-Муʾминина عليه السلام о том, что кража, связанная с птицами или перьями, не влечет за собой хадд-наказание в виде отсечения руки. Его значение состоит в определении границ применения наказания за кражу в фикхе.",
-          "tr": "Bu hadis, Emîru’l-Mü’minîn عليه السلام’dan, kuşlarla veya kuşlara ait şeylerle ilgili hırsızlığın, yani el kesme haddinin uygulanmayacağını bildiren bir fıkhî hüküm aktarır. Önemi, fıkıhta hırsızlık cezasının uygulanma sınırlarını belirlemesindedir.",
-          "ur": "یہ حدیث امیر المؤمنین علیہ السلام سے ایک فقہی حکم بیان کرتی ہے کہ پرندوں یا پرندوں سے متعلق چیزوں کی چوری پر حدِ قطع، یعنی ہاتھ کاٹنے کی سزا، لازم نہیں آتی۔ اس کی اہمیت فقہ میں چوری کی سزا کے اطلاق کی حدود متعین کرنے میں ہے۔",
-          "zh": "这段圣训传达了Amīral-Muʾminīn عليه السلام的一项教法裁决：与鸟类或羽毛有关的盗窃，不适用断手的hadd刑罚。其意义在于界定教法学中盗窃刑罚适用的界限。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

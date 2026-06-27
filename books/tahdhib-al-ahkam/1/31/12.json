@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ الْحَكَمِ عَنْ أَبَانِ بْنِ عُثْمَانَ عَنْ بُكَيْرِ بْنِ أَعْيَنَ عَنْ أَحَدِهِمَا عَلَيْهِمَا السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন মুহাম্মাদ, আলী ইবন আল-হাকাম থেকে, আবান ইবন উসমান থেকে, বুকাইর ইবন আ‘ইয়ান থেকে, তাদের দু’জনের একজন থেকে, عليهما السلام, যিনি বলেছেন:",
-              "de": "Aḥmad ibn Muḥammad, von ʿAlī ibn al-Ḥakam, von Abān ibn ʿUthmān, von Bukayr ibn Aʿyan, von einem der beiden, عليهما السلام, der sagte:",
-              "en": "Aḥmad ibn Muḥammad, from ʿAlī ibn al-Ḥakam, from Abān ibn ʿUthmān, from Bukayr ibn Aʿyan, from one of the two of them عليهما السلام, who said:",
-              "es": "Aḥmad ibn Muḥammad, de ʿAlī ibn al-Ḥakam, de Abān ibn ʿUthmān, de Bukayr ibn Aʿyan, de uno de los dos, عليهما السلام, que dijo:",
-              "fa": "احمد بن محمد، از علی بن الحکم، از ابان بن عثمان، از بکیر بن اعین، از یکی از آن دو، علیهما السلام، که فرمود:",
-              "fr": "Aḥmad ibn Muḥammad, d’après ʿAlī ibn al-Ḥakam, d’après Abān ibn ʿUthmān, d’après Bukayr ibn Aʿyan, d’après l’un des deux, عليهما السلام, qui a dit :",
-              "id": "Aḥmad ibn Muḥammad, dari ʿAlī ibn al-Ḥakam, dari Abān ibn ʿUthmān, dari Bukayr ibn Aʿyan, dari salah satu dari keduanya عليهما السلام, yang berkata:",
-              "ru": "Ахмад ибн Мухаммад, от Али ибн аль-Хакама, от Абана ибн Усмана, от Букайра ибн А‘яна, от одного из них, عليهما السلام, который сказал:",
-              "tr": "Ahmed ibn Muhammed, Ali ibn el-Hakem’den, Aban ibn Osman’dan, Bukeyr ibn A‘yan’dan, onlardan ikisinden birinden, aleyhimasselam, şöyle dedi:",
-              "ur": "احمد بن محمد، علی بن الحکم سے، ابان بن عثمان سے، بکیر بن اعین سے، ان دونوں میں سے ایک سے، علیہما السلام، جنہوں نے فرمایا:",
-              "zh": "艾哈迈德·伊本·穆罕默德，传自阿里·伊本·哈卡姆，传自阿班·伊本·奥斯曼，传自布凯尔·伊本·阿亚恩，传自他们二人中的一位，愿主赐他俩平安，他说："
-            },
             "word_end": 20,
             "word_start": 0
           },
           {
             "arabic_text": "إِذَا كَانَ الْحَدَثُ فِي الْمَسْجِدِ فَلَا بَأْسَ بِالْوُضُوءِ فِي الْمَسْجِدِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি মসজিদে হাদাস ঘটে, তবে মসজিদে ওযু করার মধ্যে কোনো অসুবিধা নেই।",
-              "de": "Wenn der Zustand des hadath in der Moschee eintritt, dann ist es kein Problem, in der Moschee die wudu (rituelle Waschung) zu verrichten.",
-              "en": "If the state of hadath occurs in the masjid, then there is no harm in performing wudu (ablution) in the masjid.",
-              "es": "Si ocurre hadath en la mezquita, entonces no hay inconveniente en hacer wudu (ablución) en la mezquita.",
-              "fa": "اگر حدث در مسجد رخ دهد، در وضو گرفتن در مسجد اشکالی نیست.",
-              "fr": "Si l’état de hadath survient dans la mosquée, il n’y a alors aucun mal à y faire le wudu (ablution).",
-              "id": "Jika hadath terjadi di masjid, maka tidak ada masalah untuk berwudu di masjid.",
-              "ru": "Если состояние хадаса возникает в мечети, то нет ничего предосудительного в совершении вуду (омовения) в мечети.",
-              "tr": "Eğer mescidde hades meydana gelirse, mescidde abdest almakta bir sakınca yoktur.",
-              "ur": "اگر مسجد میں حدث واقع ہو جائے تو مسجد میں وضو کرنے میں کوئی حرج نہیں۔",
-              "zh": "如果在清真寺里发生了hadath，那么在清真寺里做wudu（小净）是没有问题的。"
-            },
             "word_end": 30,
             "word_start": 20
           }
@@ -114,24 +101,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْحَدَثُ": "a state of ritual invalidation requiring purification",
-            "الْمَسْجِدِ": "the masjid, the place of worship where the ruling is applied",
-            "الْوُضُوءِ": "wudu (ablution), the ritual washing for taharah",
-            "فَلَا بَأْسَ": "there is no harm or objection"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْحَدَثُ",
+          "الْمَسْجِدِ",
+          "فَلَا بَأْسَ",
+          "الْوُضُوءِ"
+        ],
         "related_quran": [
           {
             "ref": "5:6",
@@ -142,32 +117,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "মসজিদে হাদাস ঘটলে কি সেখানে ওযু করা জায়েয?",
-          "de": "Ist es erlaubt, in der Moschee wudu zu verrichten, wenn dort hadath eintritt?",
-          "en": "Is it permissible to perform wudu in the masjid if hadath occurs there?",
-          "es": "¿Es lícito hacer wudu en la mezquita si ocurre hadath allí?",
-          "fa": "اگر در مسجد حدث رخ دهد، آیا وضو گرفتن در آنجا جایز است؟",
-          "fr": "Est-il permis de faire le wudu dans la mosquée si le hadath s’y produit ?",
-          "id": "Apakah boleh berwudu di masjid jika hadath terjadi di sana?",
-          "ru": "Разрешено ли совершать вуду в мечети, если там возникает хадас?",
-          "tr": "Mescidde hades meydana gelirse orada abdest almak caiz midir?",
-          "ur": "اگر مسجد میں حدث واقع ہو جائے تو کیا وہاں وضو کرنا جائز ہے؟",
-          "zh": "如果在清真寺里发生hadath，可以在那里做wudu吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস মসজিদে পবিত্রতা সম্পর্কিত একটি শরঈ বিধান বর্ণনা করে। এতে বলা হয়েছে, মসজিদে হাদাস ঘটলে সেখানে ওযু করতে কোনো সমস্যা নেই।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung zur rituellen Reinheit in der Moschee. Er besagt, dass es kein Problem ist, dort wudu (rituelle Waschung) zu verrichten, wenn hadath in der Moschee eintritt.",
-          "en": "This hadith gives a legal ruling concerning ritual purity in the masjid. It states that if hadath occurs while one is in the masjid, there is no problem in performing wudu (ablution) there.",
-          "es": "Este hadiz ofrece una norma jurídica sobre la pureza ritual en la mezquita. Afirma que si ocurre hadath mientras uno está en la mezquita, no hay problema en hacer wudu (ablución) allí.",
-          "fa": "این حدیث حکمی فقهی درباره طهارت در مسجد بیان می‌کند. می‌گوید اگر در مسجد حدث رخ دهد، در همان‌جا وضو گرفتن اشکالی ندارد.",
-          "fr": "Ce hadith énonce une règle juridique concernant la pureté rituelle dans la mosquée. Il indique que si le hadath survient alors qu’on se trouve dans la mosquée, il n’y a aucun problème à y faire le wudu (ablution).",
-          "id": "Hadis ini memberikan حكم hukum tentang kesucian ritual di masjid. Disebutkan bahwa jika hadath terjadi saat seseorang berada di masjid, maka tidak ada masalah untuk berwudu di sana.",
-          "ru": "Этот хадис содержит правовое постановление относительно ритуальной чистоты в мечети. В нем говорится, что если хадас возникает, когда человек находится в мечети, то нет ничего предосудительного в совершении там вуду (омовения).",
-          "tr": "Bu hadis, mesciddeki taharetle ilgili fıkhî bir hüküm bildirir. Buna göre, mescidde hades meydana gelirse orada abdest almakta bir sakınca yoktur.",
-          "ur": "یہ حدیث مسجد میں طہارتِ شرعی کے بارے میں ایک فقہی حکم بیان کرتی ہے۔ اس میں کہا گیا ہے کہ اگر مسجد میں حدث واقع ہو جائے تو وہاں وضو کرنے میں کوئی حرج نہیں۔",
-          "zh": "这段圣训给出了关于清真寺中礼仪洁净的教法律例。它说明，如果在清真寺里发生hadath，那么在那里做wudu（小净）没有问题。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

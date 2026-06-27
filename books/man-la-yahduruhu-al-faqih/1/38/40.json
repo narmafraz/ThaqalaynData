@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسُئِلَ: عَنِ الْوُقُوفِ عَلَى الْمَسَاجِدِ فَقَالَ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তাকে মসজিদে ওয়াকফ সম্পর্কে জিজ্ঞাসা করা হয়েছিল, তখন তিনি বললেন:",
-              "de": "Und er wurde nach Stiftungen für Moscheen gefragt, so sagte er:",
-              "en": "And he was asked about endowments upon mosques, so he said:",
-              "es": "Y le preguntaron sobre las donaciones a las mezquitas, y él dijo:",
-              "fa": "و از او درباره وقف بر مساجد پرسیده شد، پس گفت:",
-              "fr": "Et on lui a demandé au sujet des dotations sur les mosquées, il a dit :",
-              "id": "Dan dia ditanya tentang wakaf atas masjid, maka dia berkata:",
-              "ru": "И его спросили о пожертвованиях на мечети, он сказал:",
-              "tr": "Ve kendisine camiler üzerine vakıflar hakkında soruldu, şöyle dedi:",
-              "ur": "اور ان سے مساجد پر وقف کے بارے میں پوچھا گیا، تو انہوں نے فرمایا:",
-              "zh": "他被问及关于清真寺的捐赠，他说："
-            },
             "word_end": 6,
             "word_start": 0
           },
           {
             "arabic_text": "«لَا يَجُوزُ فَإِنَّ الْمَجُوسَ أَوْقَفُوا عَلَى بُيُوتِ النَّارِ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "‘‘এটি جائز নয়, কারণ মাগিয়ানরা তাদের অগ্নি মন্দিরের জন্য সম্পত্তি ওয়াকফ করেছিল।’’",
-              "de": "„Es ist nicht erlaubt, denn die Magier haben Eigentum für die Feuertempel gestiftet.“",
-              "en": "\"It is not permissible, for the Magians endowed property for the fire temples.\"",
-              "es": "“No es permisible, porque los magos dedicaron propiedades a los templos de fuego.”",
-              "fa": "«این جایز نیست، زیرا مجوسان اموال را برای معابد آتش وقف کرده‌اند.»",
-              "fr": "«Ce n’est pas permis, car les Mages ont dédié des biens aux temples du feu.»",
-              "id": "“Tidak diperbolehkan, karena Majusi mewakafkan harta untuk kuil api mereka.”",
-              "ru": "«Это не дозволено, ибо маги жертвовали имущество для огненных храмов.»",
-              "tr": "“Bu caiz değildir, çünkü Mecusiler ateş tapınakları için mal vakfetmişlerdir.”",
-              "ur": "‘‘یہ جائز نہیں ہے، کیونکہ مجوس نے اپنی آگ کے مندروں کے لیے املاک وقف کی تھیں۔’’",
-              "zh": "“这不允许，因为祆教徒为火庙捐赠了财产。”"
-            },
             "word_end": 14,
             "word_start": 6
           }
@@ -86,26 +73,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَوْقَفُوا": "they endowed or dedicated property",
-            "الْمَجُوسَ": "the Magians",
-            "الْمَسَاجِدِ": "mosques, places of worship",
-            "الْوُقُوفِ": "endowments or dedicated properties",
-            "بُيُوتِ النَّارِ": "fire temples",
-            "لَا يَجُوزُ": "it is not permissible"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْوُقُوفِ",
+          "الْمَسَاجِدِ",
+          "لَا يَجُوزُ",
+          "الْمَجُوسَ",
+          "أَوْقَفُوا",
+          "بُيُوتِ النَّارِ"
+        ],
         "related_quran": [
           {
             "ref": "9:18",
@@ -116,32 +91,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিসে মসজিদে সম্পত্তি ওয়াকফ করা কি جائز?",
-          "de": "Ist es in diesem Hadith erlaubt, Eigentum an Moscheen zu stiften?",
-          "en": "Is it permissible to endow property to mosques in this hadith?",
-          "es": "¿Es permisible donar propiedades a las mezquitas según este hadiz?",
-          "fa": "آیا در این حدیث وقف اموال به مساجد جایز است؟",
-          "fr": "Est-il permis de consacrer des biens aux mosquées dans ce hadith ?",
-          "id": "Apakah dalam hadis ini diperbolehkan mewakafkan harta kepada masjid?",
-          "ru": "Разрешено ли в этом хадисе посвящать имущество мечетям?",
-          "tr": "Bu hadiste camilere mal vakfetmek caiz midir?",
-          "ur": "کیا اس حدیث میں مساجد کو املاک وقف کرنا جائز ہے؟",
-          "zh": "这段圣训中允许为清真寺捐赠财产吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস একটি শারঈ সিদ্ধান্ত দেয় যে বিশেষভাবে মসজিদে সম্পত্তি ওয়াকফ করা جائز নয়। কারণ হিসেবে বলা হয়েছে যে মাগিয়ানরা তাদের অগ্নি মন্দিরের জন্য ওয়াকফ করত, যা ইসলামী প্রথাকে তাদের থেকে পৃথক করে।",
-          "de": "Dieser Hadith gibt eine Rechtsvorschrift, dass es nicht erlaubt ist, Eigentum speziell an Moscheen zu stiften. Der angegebene Grund ist, dass die Magier Eigentum für ihre Feuertempel gestiftet haben, was die Regel wichtig macht, um die islamische Praxis von ihrer zu unterscheiden.",
-          "en": "This hadith gives a legal ruling that endowing property specifically upon mosques is not permissible. The stated reason is that the Magians used to dedicate endowments to their fire temples, making the ruling significant in distinguishing Islamic practice from theirs.",
-          "es": "Este hadiz da un fallo legal que no es permisible donar propiedades específicamente a las mezquitas. La razón indicada es que los magos dedicaban donaciones a sus templos de fuego, haciendo que la regla sea significativa para distinguir la práctica islámica de la suya.",
-          "fa": "این حدیث حکم شرعی می‌دهد که وقف اموال به‌طور خاص بر مساجد جایز نیست. دلیل آن این است که مجوسان وقف‌هایی برای معابد آتش خود داشتند که این حکم در تمایز عمل اسلامی از آنها اهمیت دارد.",
-          "fr": "Ce hadith donne un jugement légal selon lequel il n’est pas permis de consacrer des biens spécifiquement aux mosquées. La raison donnée est que les Mages consacraient des biens à leurs temples du feu, ce qui rend ce jugement important pour distinguer la pratique islamique de la leur.",
-          "id": "Hadis ini memberikan hukum bahwa mewakafkan harta khususnya untuk masjid tidak diperbolehkan. Alasannya adalah karena Majusi mewakafkan harta untuk kuil api mereka, sehingga hukum ini penting untuk membedakan praktik Islam dari mereka.",
-          "ru": "Этот хадис даёт правовое постановление, что посвящать имущество именно мечетям не разрешается. Указанная причина в том, что маги посвящали пожертвования своим огненным храмам, что делает это постановление значимым для отличия исламской практики от их.",
-          "tr": "Bu hadis, özellikle camiler üzerine mal vakfetmenin caiz olmadığını belirten bir hüküm verir. Sebep olarak, Mecusilerin ateş tapınaklarına vakıf yaptıkları belirtilmiştir; bu hüküm İslami uygulamayı onlardan ayırmada önemlidir.",
-          "ur": "یہ حدیث ایک شرعی حکم دیتی ہے کہ خاص طور پر مساجد پر املاک وقف کرنا جائز نہیں ہے۔ وجہ یہ بیان کی گئی ہے کہ مجوس اپنی آگ کے مندروں کے لیے وقف کرتے تھے، جو اسلامی عمل کو ان سے ممتاز کرنے میں اہم ہے۔",
-          "zh": "这段圣训给出了法律裁决，明确指出专门为清真寺捐赠财产是不允许的。理由是祆教徒曾为他们的火庙捐赠财产，这一裁决在区分伊斯兰教实践与他们的做法上具有重要意义。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

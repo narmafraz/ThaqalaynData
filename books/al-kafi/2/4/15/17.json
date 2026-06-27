@@ -14,6 +14,147 @@
       "up": "/books/al-kafi:2:4:15"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ صَالِحِ بْنِ السِّنْدِيِّ عَنْ جَعْفَرِ بْنِ بَشِيرٍ عَنْ عُثْمَانَ عَنْ أَبِي أُسَامَةَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 19,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قَالَ أَبُو عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) مَنْ سَمِعَ عَطْسَةً فَحَمِدَ اللَّهَ عَزَّ وَ جَلَّ وَ صَلَّى عَلَى النَّبِيِّ ( صَلَّى اللَّهِ عَلَيْهِ وَآلِهِ ) وَ أَهْلِ بَيْتِهِ لَمْ يَشْتَكِ عَيْنَيْهِ وَ لَا ضِرْسَهُ",
+            "chunk_type": "body",
+            "word_end": 54,
+            "word_start": 19
+          },
+          {
+            "arabic_text": "ثُمَّ قَالَ إِنْ سَمِعْتَهَا فَقُلْهَا وَ إِنْ كَانَ بَيْنَكَ وَ بَيْنَهُ الْبَحْرُ",
+            "chunk_type": "closing",
+            "word_end": 66,
+            "word_start": 54
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 157,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "صَالِحِ بْنِ السِّنْدِيِّ",
+              "name_en": "Salih ibn al-Sindy",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 143,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "جَعْفَرِ بْنِ بَشِيرٍ",
+              "name_en": "Ja'far ibn Bashir",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 921,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عُثْمَانَ",
+              "name_en": "Uthman",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 280,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي أُسَامَةَ",
+              "name_en": "Abu Usama",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "عَطْسَة",
+          "حَمِدَ اللَّهَ",
+          "صَلَّى عَلَى النَّبِيِّ",
+          "أَهْلِ بَيْتِهِ",
+          "ضِرْس"
+        ],
+        "related_quran": [
+          {
+            "ref": "39:8",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:152",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "worship",
+          "ethics",
+          "prophetic_tradition"
+        ],
+        "topics": [
+          "etiquette",
+          "sunnah",
+          "ahlulbayt_virtues"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (12/557)"
       ],
@@ -96,7 +237,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:4:15:17",

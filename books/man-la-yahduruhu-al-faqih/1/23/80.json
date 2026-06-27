@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল্লাহর রাসূল, তাঁর উপর এবং তাঁর পরিবারে শান্তি বর্ষিত হোক, বললেন:",
-              "de": "Der Gesandte Allahs, Friede sei mit ihm und seiner Familie, sagte:",
-              "en": "The Messenger of Allah, peace be upon him and his family, said:",
-              "es": "El Mensajero de Allah, la paz sea con él y su familia, dijo:",
-              "fa": "فرستاده خدا، صلی الله علیه و آله، فرمود:",
-              "fr": "Le Messager d'Allah, paix sur lui et sa famille, a dit :",
-              "id": "Rasulullah, shalallahu 'alaihi wa aalihi, bersabda:",
-              "ru": "Посланник Аллаха, мир ему и его семье, сказал:",
-              "tr": "Allah'ın Resulü, onun üzerine ve ailesine selam olsun, şöyle buyurdu:",
-              "ur": "رسول اللہ صلی اللہ علیہ وآلہ وسلم نے فرمایا:",
-              "zh": "安拉使者愿他和平及其家族说："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "«لَا يُطَوِّلَنَّ أَحَدُكُمْ شَارِبَهُ فَإِنَّ الشَّيْطَانَ يَتَّخِذُهُ مِجَنًّا يَسْتَتِرُ بِهِ»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“তোমাদের কেউই তার মুছকে দীর্ঘ হতে দেবে না, কারণ শয়তান এটিকে ঢাল হিসেবে গ্রহণ করে এবং এর মাধ্যমে নিজেকে লুকায়।”",
-              "de": "„Keiner von euch soll seinen Schnurrbart lang wachsen lassen, denn der Shaytan nimmt ihn als Schild und versteckt sich dahinter.“",
-              "en": "\"None of you should let his moustache grow long, for Shaytan takes it as a shield, concealing himself by it.\"",
-              "es": "“Ninguno de vosotros debe dejar crecer mucho el bigote, porque Shaytán lo toma como un escudo para ocultarse.”",
-              "fa": "«هیچ‌یک از شما نباید سبیلش را بلند کند، زیرا شیطان آن را سپری می‌گیرد و با آن پنهان می‌شود.»",
-              "fr": "«Aucun de vous ne doit laisser pousser sa moustache trop longtemps, car le Shaytan s'en sert comme d'un bouclier pour se cacher.»",
-              "id": "“Janganlah seorang pun di antara kalian membiarkan kumisnya tumbuh panjang, karena setan menjadikannya sebagai perisai untuk bersembunyi.”",
-              "ru": "«Никто из вас не должен отращивать усы слишком длинными, ибо Шайтан использует их как щит, прячась за ними.»",
-              "tr": "“Hiçbiriniz bıyığını uzun bırakmasın, çünkü Şeytan onu bir kalkan olarak alır ve onunla gizlenir.”",
-              "ur": "‘‘تم میں سے کوئی بھی اپنی مونچھ کو لمبا نہ ہونے دے، کیونکہ شیطان اسے ایک ڈھال کے طور پر لیتا ہے اور اس کے ذریعے چھپ جاتا ہے۔’’",
-              "zh": "“你们中无人应让胡须留长，因为魔鬼以此为盾牌借以隐藏。”"
-            },
             "word_end": 18,
             "word_start": 8
           }
@@ -71,27 +58,15 @@
             "phrase_en": "The Messenger of Allah said"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الشَّيْطَانَ": "Shaytan, the devil",
-            "رَسُولُ اللَّهِ": "The Messenger of Allah صلى الله عليه وآله وسلم",
-            "شَارِبَهُ": "his moustache",
-            "مِجَنًّا": "a shield or protective cover",
-            "يَتَّخِذُهُ": "he takes it or adopts it",
-            "يَسْتَتِرُ": "he conceals himself",
-            "يُطَوِّلَنَّ": "to surely let grow long or extend"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رَسُولُ اللَّهِ",
+          "يُطَوِّلَنَّ",
+          "شَارِبَهُ",
+          "الشَّيْطَانَ",
+          "يَتَّخِذُهُ",
+          "مِجَنًّا",
+          "يَسْتَتِرُ"
+        ],
         "related_quran": [
           {
             "ref": "7:31",
@@ -102,32 +77,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "রাসুল আল্লাহ صلى الله عليه وآله মুছকে দীর্ঘ হতে দেওয়া সম্পর্কে কী বলেছিলেন?",
-          "de": "Was sagte der Gesandte Allahs صلى الله عليه وآله über das lange Wachsenlassen des Schnurrbarts?",
-          "en": "What did the Messenger of Allah صلى الله عليه وآله say about letting the moustache grow long?",
-          "es": "¿Qué dijo el Mensajero de Allah صلى الله عليه وآله sobre dejar crecer el bigote largo?",
-          "fa": "فرستاده خدا صلى الله عليه وآله درباره بلند کردن سبیل چه گفت؟",
-          "fr": "Qu'a dit le Messager d'Allah صلى الله عليه وآله à propos de laisser pousser la moustache longue ?",
-          "id": "Apa yang Rasulullah صلى الله عليه وآله katakan tentang membiarkan kumis tumbuh panjang?",
-          "ru": "Что сказал Посланник Аллаха صلى الله عليه وآله о том, чтобы отращивать усы длинными?",
-          "tr": "Allah'ın Resulü صلى الله عليه وآله bıyığın uzun bırakılması hakkında ne dedi?",
-          "ur": "رسول اللہ صلی اللہ علیہ وآلہ وسلم نے مونچھ کو لمبا ہونے دینے کے بارے میں کیا فرمایا؟",
-          "zh": "安拉使者 صلى الله عليه وآله 对让胡须留长说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস বিশ্বাসীদের নির্দেশ দেয় যে তারা তাদের মুছকে অতিরিক্ত দীর্ঘ হতে দেবেন না। এটি ব্যক্তিগত পরিচর্যা ও পরিচ্ছন্নতাকে সঠিক আচরণের অংশ হিসেবে উপস্থাপন করে এবং শয়তানের সাথে সম্পর্কিত অভ্যাস থেকে সতর্ক করে।",
-          "de": "Dieser Hadith weist die Gläubigen an, den Schnurrbart nicht übermäßig lang wachsen zu lassen. Er stellt persönliche Pflege und Sauberkeit als Teil des richtigen Verhaltens dar und warnt vor Praktiken, die mit dem Shaytan in Verbindung stehen.",
-          "en": "This hadith instructs believers not to let the moustache grow excessively long. It presents personal grooming and cleanliness as part of proper conduct and warns against practices associated with Shaytan.",
-          "es": "Este hadiz instruye a los creyentes a no dejar crecer el bigote excesivamente. Presenta el aseo personal y la limpieza como parte de la conducta adecuada y advierte contra prácticas asociadas con Shaytán.",
-          "fa": "این حدیث به مؤمنان دستور می‌دهد که سبیل خود را بیش از حد بلند نکنند. نظافت و آراستگی شخصی را بخشی از رفتار صحیح معرفی می‌کند و نسبت به رفتارهای مرتبط با شیطان هشدار می‌دهد.",
-          "fr": "Ce hadith enseigne aux croyants de ne pas laisser pousser leur moustache excessivement. Il présente le soin personnel et la propreté comme partie intégrante d'une bonne conduite et met en garde contre les pratiques associées au Shaytan.",
-          "id": "Hadis ini mengajarkan kepada orang beriman untuk tidak membiarkan kumis tumbuh terlalu panjang. Menunjukkan bahwa perawatan pribadi dan kebersihan adalah bagian dari perilaku yang baik dan memperingatkan terhadap praktik yang berhubungan dengan setan.",
-          "ru": "Этот хадис наставляет верующих не отращивать усы чрезмерно длинными. Он представляет личную гигиену и чистоту как часть правильного поведения и предупреждает о практиках, связанных с Шайтаном.",
-          "tr": "Bu hadis, müminlere bıyıklarını aşırı uzun bırakmamalarını öğütler. Kişisel bakım ve temizlik doğru davranışın bir parçası olarak sunulur ve Şeytan ile ilişkilendirilen uygulamalara karşı uyarır.",
-          "ur": "یہ حدیث مومنین کو ہدایت دیتی ہے کہ وہ اپنی مونچھ کو حد سے زیادہ لمبا نہ ہونے دیں۔ یہ ذاتی صفائی اور آداب کا حصہ قرار دیتی ہے اور شیطان سے منسوب رویوں سے خبردار کرتی ہے۔",
-          "zh": "此圣训告诫信士不可让胡须过长。将个人修饰与清洁视为正当行为的一部分，并警示与魔鬼相关的行为。"
-        },
         "tags": [
           "ethics",
           "jurisprudence",

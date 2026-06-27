@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "قَالَ اَلصَّادِقُ عَلَيْهِ اَلسَّلَامُ :",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল-সাদিক عليه السلام বলেছেন:",
-              "de": "Al-Sadiq علیه السلام sagte:",
-              "en": "Al-Sadiq عليه السلام said:",
-              "es": "Al-Sadiq عليه السلام dijo:",
-              "fa": "الصادق علیه السلام فرمود:",
-              "fr": "Al-Sadiq علیه السلام a dit :",
-              "id": "Al-Sadiq علیه السلام berkata:",
-              "ru": "Аль-Садик علیه السلام сказал:",
-              "tr": "El-Sadık علیه السلام şöyle dedi:",
-              "ur": "اَلصَّادِق علیہ السلام نے فرمایا:",
-              "zh": "الصادقعليهالسلام说："
-            },
             "word_end": 5,
             "word_start": 0
           },
           {
             "arabic_text": "إِذَا شَهِدَ رَجُلٌ عَلَى شَهَادَةِ رَجُلٍ فَإِنَّ شَهَادَتَهُ تُقْبَلُ وَهِيَ نِصْفُ شَهَادَةٍ وَإِنْ شَهِدَ رَجُلَانِ عَدْلَانِ عَلَى شَهَادَةِ رَجُلٍ فَقَدْ ثَبَتَ شَهَادَةُ رَجُلٍ وَاحِدٍ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি একজন পুরুষ অন্য একজন পুরুষের সাক্ষ্যের ভিত্তিতে সাক্ষ্য দেন, তবে তার সাক্ষ্য গ্রহণযোগ্য হয় এবং এটি অর্ধেক সাক্ষ্যের সমান। এবং যদি দুইজন ন্যায়পরায়ণ পুরুষ একজন পুরুষের সাক্ষ্যের ভিত্তিতে সাক্ষ্য দেন, তবে একজন পুরুষের সাক্ষ্য প্রতিষ্ঠিত হয়।",
-              "de": "Wenn ein Mann auf der Grundlage der Zeugenaussage eines anderen Mannes aussagt, wird seine Zeugenaussage akzeptiert und zählt als halbe Zeugenaussage. Und wenn zwei gerechte Männer auf der Grundlage der Zeugenaussage eines Mannes aussagen, ist die Zeugenaussage eines Mannes festgestellt.",
-              "en": "If a man testifies based on the testimony of another man, then his testimony is accepted, and it counts as half a testimony. And if two just men testify based on the testimony of one man, then the testimony of one man has been established.",
-              "es": "Si un hombre testifica basándose en el testimonio de otro hombre, entonces su testimonio es aceptado y cuenta como medio testimonio. Y si dos hombres justos testifican basándose en el testimonio de un hombre, entonces se establece el testimonio de un hombre.",
-              "fa": "اگر مردی بر اساس شهادت مرد دیگری شهادت دهد، شهادت او پذیرفته می‌شود و به‌عنوان نصف شهادت محسوب می‌شود. و اگر دو مرد عادل بر اساس شهادت یک مرد شهادت دهند، شهادت یک مرد ثابت می‌شود.",
-              "fr": "Si un homme témoigne sur la base du témoignage d’un autre homme, alors son témoignage est accepté et compte pour une demi-témoignage. Et si deux hommes justes témoignent sur la base du témoignage d’un homme, alors le témoignage d’un homme est établi.",
-              "id": "Jika seorang pria bersaksi berdasarkan kesaksian pria lain, maka kesaksiannya diterima dan dihitung sebagai setengah kesaksian. Dan jika dua pria adil bersaksi berdasarkan kesaksian satu pria, maka kesaksian satu pria telah ditegakkan.",
-              "ru": "Если мужчина свидетельствует на основании свидетельства другого мужчины, то его свидетельство принимается и считается половиной свидетельства. А если двое справедливых мужчин свидетельствуют на основании свидетельства одного мужчины, то свидетельство одного мужчины считается установленным.",
-              "tr": "Eğer bir adam başka bir adamın şahitliğine dayanarak şahitlik ederse, onun şahitliği kabul edilir ve bu yarım şahitlik sayılır. Ve eğer iki adil adam bir adamın şahitliğine dayanarak şahitlik ederse, bir adamın şahitliği sabit olur.",
-              "ur": "اگر کوئی شخص دوسرے مرد کی گواہی کی بنیاد پر گواہی دے تو اس کی گواہی قبول کی جاتی ہے اور یہ نصف گواہی کے برابر ہوتی ہے۔ اور اگر دو عادل مرد ایک شخص کی گواہی کی بنیاد پر گواہی دیں تو ایک مرد کی گواہی ثابت ہو جاتی ہے۔",
-              "zh": "如果一个男人基于另一个男人的证词作证，那么他的证词被接受，并计为半个证词。如果两个公正的男人基于一个男人的证词作证，那么一个男人的证词即被确立。"
-            },
             "word_end": 29,
             "word_start": 5
           }
@@ -80,26 +67,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "تُقْبَلُ": "is accepted as valid",
-            "ثَبَتَ": "has been established or legally confirmed",
-            "شَهَادَةِ": "legal testimony presented in a case",
-            "شَهِدَ": "gave testimony or bore witness",
-            "عَدْلَانِ": "two just and upright men",
-            "نِصْفُ": "half in legal evidentiary value"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "شَهِدَ",
+          "شَهَادَةِ",
+          "تُقْبَلُ",
+          "نِصْفُ",
+          "عَدْلَانِ",
+          "ثَبَتَ"
+        ],
         "related_quran": [
           {
             "ref": "2:282",
@@ -114,32 +89,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে অন্য ব্যক্তির সাক্ষ্যের ভিত্তিতে সাক্ষ্য কিভাবে গণনা করা হয়?",
-          "de": "Wie wird im schiitischen Fiqh Zeugnis, das auf dem Zeugnis einer anderen Person basiert, gezählt?",
-          "en": "How is testimony based on another person's testimony counted in Shia fiqh?",
-          "es": "¿Cómo se cuenta el testimonio basado en el testimonio de otra persona en la fiqh chií?",
-          "fa": "در فقه شیعه، شهادت مبتنی بر شهادت شخص دیگر چگونه محاسبه می‌شود؟",
-          "fr": "Comment le témoignage basé sur le témoignage d’une autre personne est-il comptabilisé dans la fiqh chiite ?",
-          "id": "Bagaimana kesaksian yang didasarkan pada kesaksian orang lain dihitung dalam fikih Syiah?",
-          "ru": "Как учитывается свидетельство, основанное на свидетельстве другого человека, в шиистском фикхе?",
-          "tr": "Şii fıkhında başka bir kişinin şahitliğine dayanan şahitlik nasıl sayılır?",
-          "ur": "شیعہ فقہ میں دوسرے شخص کی گواہی پر مبنی گواہی کو کس طرح شمار کیا جاتا ہے؟",
-          "zh": "什叶派法学中如何计算基于他人证词的证词？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি অন্য সাক্ষীর সাক্ষ্যের ভিত্তিতে সাক্ষ্য প্রদানের বিষয়ে একটি আইনি বিধান ব্যাখ্যা করে। এটি ব্যাখ্যা করে কিভাবে এই ধরনের পরোক্ষ সাক্ষ্য গণনা করা হয় এবং প্রতিষ্ঠা করে যে দুইজন সৎ পুরুষ একজন পুরুষের সাক্ষ্য প্রদান করলে তা সরাসরি একজন পুরুষ সাক্ষীর সমান হয়।",
-          "de": "Dieser Hadith legt eine rechtliche Regelung bezüglich Zeugenaussagen fest, die auf der Aussage eines anderen Zeugen basieren. Er erklärt, wie solche abgeleiteten Zeugenaussagen gewertet werden und stellt fest, dass zwei gerechte Männer, die die Aussage eines Mannes weitergeben, dem rechtlichen Gewicht eines direkten männlichen Zeugen entsprechen.",
-          "en": "This hadith states a legal ruling concerning testimony based on the testimony of another witness. It explains how such derivative testimony is counted and establishes that two upright men relating the testimony of one man amount to the legal weight of one direct male witness.",
-          "es": "Este hadiz establece una regla legal sobre el testimonio basado en el testimonio de otro testigo. Explica cómo se cuenta dicho testimonio derivado y establece que dos hombres rectos que relatan el testimonio de un hombre equivalen al peso legal de un testigo masculino directo.",
-          "fa": "این حدیث حکم شرعی مربوط به شهادت بر اساس شهادت شاهد دیگر را بیان می‌کند. توضیح می‌دهد که چگونه چنین شهادت مشتقی محاسبه می‌شود و اثبات می‌کند که دو مرد عادل که شهادت یک مرد را نقل می‌کنند، معادل وزن قانونی یک شاهد مستقیم مرد هستند.",
-          "fr": "Ce hadith énonce une règle juridique concernant le témoignage basé sur le témoignage d’un autre témoin. Il explique comment ce témoignage dérivé est comptabilisé et établit que deux hommes justes rapportant le témoignage d’un homme équivalent au poids légal d’un témoin masculin direct.",
-          "id": "Hadis ini menyatakan hukum terkait kesaksian yang didasarkan pada kesaksian saksi lain. Menjelaskan bagaimana kesaksian turunan tersebut dihitung dan menetapkan bahwa dua pria adil yang menyampaikan kesaksian satu pria setara dengan kesaksian langsung satu saksi pria.",
-          "ru": "Этот хадис излагает юридическое правило, касающееся свидетельства, основанного на свидетельстве другого свидетеля. Он объясняет, как учитывается такое производное свидетельство, и устанавливает, что двое праведных мужчин, передающих свидетельство одного мужчины, равны по юридической силе одному прямому мужскому свидетелю.",
-          "tr": "Bu hadis, başka bir şahidin şahitliğine dayanan şahitlikle ilgili hukuki hükmü belirtir. Böyle türev şahitliğin nasıl sayıldığı açıklanır ve iki dürüst erkeğin bir erkeğin şahitliğini aktarmasının bir doğrudan erkek şahitle eşdeğer olduğu tespit edilir.",
-          "ur": "یہ حدیث دوسرے گواہ کی گواہی پر مبنی گواہی کے بارے میں قانونی حکم بیان کرتی ہے۔ یہ بتاتی ہے کہ ایسی بالواسطہ گواہی کو کس طرح شمار کیا جاتا ہے اور یہ واضح کرتی ہے کہ دو عادل مرد جو ایک مرد کی گواہی بیان کرتے ہیں، وہ ایک براہِ راست مرد گواہ کے برابر ہوتے ہیں۔",
-          "zh": "此圣训陈述了关于基于他人证词的证词的法律裁决。它解释了此类衍生证词的计数方式，并确立了两位正直男子传述一位男子的证词，相当于一位直接男性证人的法律效力。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

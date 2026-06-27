@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ مُحَمَّدِ بْنِ عِيسَى عَنْ يُونُسَ عَنِ ابْنِ مُسْكَانَ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী ইবন ইব্রাহীম, তাঁর পিতা থেকে, মুহাম্মদ ইবন ঈসা থেকে, ইউনুস থেকে, ইবন মিসকান থেকে, আবু আবদিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "ʿAlī ibn Ibrāhīm, von seinem Vater, von Muḥammad ibn ʿĪsā, von Yūnus, von Ibn Miskān, von Abū ʿAbdillāh عليه السلام, der sagte:",
-              "en": "ʿAlī ibn Ibrāhīm, from his father, from Muḥammad ibn ʿĪsā, from Yūnus, from Ibn Miskān, from Abū ʿAbdillāh عليه السلام, who said:",
-              "es": "ʿAlī ibn Ibrāhīm, de su padre, de Muḥammad ibn ʿĪsā, de Yūnus, de Ibn Miskān, de Abū ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "علی بن ابراهیم، از پدرش، از محمد بن عیسی، از یونس، از ابن مسکان، از ابوعبدالله علیه السلام، که فرمود:",
-              "fr": "ʿAlī ibn Ibrāhīm, de son père, de Muḥammad ibn ʿĪsā, de Yūnus, de Ibn Miskān, d’Abū ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Ali ibn Ibrahim, dari ayahnya, dari Muhammad ibn Isa, dari Yunus, dari Ibn Miskan, dari Abu Abdillah عليه السلام, yang berkata:",
-              "ru": "ʿАли ибн Ибрахим, от своего отца, от Мухаммада ибн ʿИсы, от Юнуса, от Ибн Мискана, от Абу ʿАбдуллаха عليه السلام, который сказал:",
-              "tr": "Ali ibn İbrahim, babasından, Muhammed ibn İsa’dan, Yunus’tan, İbn Miskan’dan, Ebu Abdullah عليه السلام’dan rivayet etti ki şöyle dedi:",
-              "ur": "علی بن ابراہیم، اپنے والد سے، محمد بن عیسیٰ سے، یونس سے، ابن مسکان سے، ابو عبداللہ علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "阿里·伊本·易卜拉欣，传自其父，传自穆罕默德·伊本·尔萨，传自尤努斯，传自伊本·米斯坎，传自阿布·阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 21,
             "word_start": 0
           },
           {
             "arabic_text": "دِيَةُ الْيَهُودِيِّ وَالنَّصْرَانِيِّ وَالْمَجُوسِيِّ ثَمَانُمِائَةِ دِرْهَمٍ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন ইহুদি, একজন খ্রিস্টান এবং একজন মাজুসির দিয়াত আটশ দিরহাম।",
-              "de": "Das Diyah eines Juden, eines Christen und eines Magiers beträgt achthundert Dirham.",
-              "en": "The diyah of a Jew, a Christian, and a Magian is eight hundred dirhams.",
-              "es": "La diyah de un judío, un cristiano y un mago es de ochocientos dirhams.",
-              "fa": "دیهِ یهودی، نصرانی و مجوسی هشتصد درهم است.",
-              "fr": "La diyah d’un juif, d’un chrétien et d’un mazdéen est de huit cents dirhams.",
-              "id": "Diyah seorang Yahudi, seorang Nasrani, dan seorang Majusi adalah delapan ratus dirham.",
-              "ru": "Дийя иудея, христианина и магуса составляет восемьсот дирхамов.",
-              "tr": "Bir Yahudi, bir Hristiyan ve bir Mecusi’nin diyeti sekiz yüz dirhemdir.",
-              "ur": "یہودی، نصرانی اور مجوسی کی دیت آٹھ سو درہم ہے۔",
-              "zh": "犹太人、基督徒和拜火教徒的血金是八百迪拉姆。"
-            },
             "word_end": 27,
             "word_start": 21
           }
@@ -124,26 +111,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "النَّصْرَانِيِّ": "a Christian, mentioned here in the legal ruling on diyah",
-            "الْمَجُوسِيِّ": "a Magian (Zoroastrian), included here in the same legal category",
-            "الْيَهُودِيِّ": "a Jew, mentioned here as one of the protected non-Muslim groups under discussion",
-            "ثَمَانُمِائَةِ": "eight hundred",
-            "دِرْهَمٍ": "dirhams; a monetary unit used for legal compensation",
-            "دِيَةُ": "blood-money; legal financial compensation for killing or bodily harm"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "دِيَةُ",
+          "الْيَهُودِيِّ",
+          "النَّصْرَانِيِّ",
+          "الْمَجُوسِيِّ",
+          "ثَمَانُمِائَةِ",
+          "دِرْهَمٍ"
+        ],
         "related_quran": [
           {
             "ref": "5:45",
@@ -154,32 +129,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "তাহযীবুল আহকাম-এর এই হাদিসে একজন ইহুদি, খ্রিস্টান বা মাজুসির দিয়াত কত?",
-          "de": "Wie hoch ist die Diyah eines Juden, Christen oder Magiers in diesem Hadith aus Tahdhib al-Ahkam?",
-          "en": "What is the diyah of a Jew, Christian, or Magian in this hadith from Tahdhib al-Ahkam?",
-          "es": "¿Cuál es la diyah de un judío, cristiano o mago en este hadiz de Tahdhib al-Ahkam?",
-          "fa": "دیهٔ یهودی، نصرانی یا مجوسی در این حدیث از تهذیب الأحکام چیست؟",
-          "fr": "Quelle est la diyah d’un juif, d’un chrétien ou d’un mazdéen dans ce hadith de Tahdhib al-Ahkam ?",
-          "id": "Berapa diyah seorang Yahudi, Nasrani, atau Majusi dalam hadis ini dari Tahdhib al-Ahkam?",
-          "ru": "Какова дийя иудея, христианина или магуса в этом хадисе из Tahdhib al-Ahkam?",
-          "tr": "Tahdhib al-Ahkam’daki bu hadiste bir Yahudi, Hristiyan veya Mecusi’nin diyeti nedir?",
-          "ur": "اس حدیث میں یہودی، نصرانی یا مجوسی کی دیت کیا ہے؟",
-          "zh": "在《Tahdhibal-Ahkam》的这段圣训中，犹太人、基督徒或拜火教徒的血金是多少？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে কিছু অমুসলিম গোষ্ঠী—ইহুদি, খ্রিস্টান ও মাজুসি—এর জন্য দিয়াত সম্পর্কিত একটি শরঈ বিধান উল্লেখ করা হয়েছে। এটি ইসলামী আইনে কিসাস ও ক্ষতিপূরণমূলক রক্তমূল্য সংক্রান্ত ফিকহি আলোচনার অন্তর্ভুক্ত।",
-          "de": "Dieser Hadith nennt eine rechtliche Regelung zur Diyah für bestimmte nichtmuslimische Gruppen: Juden, Christen und Magier. Er gehört zu den fiqhrechtlichen Diskussionen über Vergeltung und den ausgleichenden Blutpreis im islamischen Recht.",
-          "en": "This hadith states a legal ruling concerning the diyah for certain non-Muslim groups: Jews, Christians, and Magians. It belongs to the jurisprudential discussions of retaliation and compensatory blood-money in Islamic law.",
-          "es": "Este hadiz establece una norma jurídica sobre la diyah para ciertos grupos no musulmanes: judíos, cristianos y magos. Pertenece a las discusiones jurisprudenciales sobre la represalia y la compensación monetaria por sangre en la ley islámica.",
-          "fa": "این حدیث حکمی فقهی دربارهٔ دیه برای برخی گروه‌های غیرمسلمان را بیان می‌کند: یهودیان، نصرانیان و مجوسیان. این روایت در مباحث فقهیِ قصاص و دیه در فقه اسلامی قرار دارد.",
-          "fr": "Ce hadith énonce une règle juridique concernant la diyah pour certains groupes non musulmans : les juifs, les chrétiens et les mazdéens. Il relève des discussions jurisprudentielles sur le talion et l’indemnité compensatoire du sang en droit islamique.",
-          "id": "Hadis ini menyatakan sebuah hukum fikih tentang diyah bagi kelompok non-Muslim tertentu: Yahudi, Nasrani, dan Majusi. Ini termasuk dalam pembahasan fikih tentang qisas dan diyah dalam hukum Islam.",
-          "ru": "Этот хадис устанавливает правовое постановление относительно дийи для некоторых немусульманских групп: иудеев, христиан и магусов. Он относится к фиқховым обсуждениям о возмездии и компенсационной кровной плате в исламском праве.",
-          "tr": "Bu hadis, bazı gayrimüslim gruplar için diyete dair fıkhî bir hükmü bildirir: Yahudiler, Hristiyanlar ve Mecusiler. İslam hukukunda kısas ve tazminî kan bedeli konularındaki fıkhî tartışmalara aittir.",
-          "ur": "یہ حدیث بعض غیر مسلم گروہوں—یہودیوں، نصرانیوں اور مجوسیوں—کے لیے دیت کے شرعی حکم کو بیان کرتی ہے۔ یہ اسلامی فقہ میں قصاص اور مالی خون بہا کے مباحث سے متعلق ہے۔",
-          "zh": "这段圣训说明了关于某些非穆斯林群体——犹太人、基督徒和拜火教徒——的血金教法判决。它属于伊斯兰教法中关于报复和赔偿性血金的法学讨论。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations",

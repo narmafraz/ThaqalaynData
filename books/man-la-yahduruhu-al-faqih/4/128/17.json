@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى عَلِيُّ بْنُ أَسْبَاطٍ عَنْ مُحَمَّدِ بْنِ حُمْرَانَ عَنْ زُرَارَةَ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং আলী ইবনে আসবাত মুহাম্মদ ইবনে হুমরান থেকে, যিনি জুরারা থেকে, যিনি আবী জাফর عليه السلام থেকে বর্ণনা করেছেন:",
-              "de": "Und ʿAlī ibn Asbāṭ berichtete von Muḥammad ibn Ḥumrān, von Zurārah, von Abī Jaʿfar عليه السلام:",
-              "en": "And ʿAlī ibn Asbāṭ narrated from Muḥammad ibn Ḥumrān, from Zurārah, from Abī Jaʿfar عليه السلام:",
-              "es": "Y ʿAlī ibn Asbāṭ narró de Muḥammad ibn Ḥumrān, de Zurārah, de Abī Jaʿfar عليه السلام:",
-              "fa": "و ʿAlī ibn Asbāṭ از محمد ibn Ḥumrān، از زُراره، از ابی جعفر علیه السلام روایت کرده است:",
-              "fr": "Et ʿAlī ibn Asbāṭ a rapporté de Muḥammad ibn Ḥumrān, de Zurārah, de Abī Jaʿfar عليه السلام :",
-              "id": "Dan ʿAlī ibn Asbāṭ meriwayat dari Muḥammad ibn Ḥumrān, dari Zurārah, dari Abī Jaʿfar علیه السلام:",
-              "ru": "И ʿAlī ибн Асбат передал от Мухаммада ибн Хумрана, от Зурары, от Аби Джафара عليه السلام:",
-              "tr": "Ve ʿAlī ibn Asbāṭ, Muḥammad ibn Ḥumrān’dan, o da Zurārah’dan, o da Abī Jaʿfar عليه السلام’dan rivayet etti:",
-              "ur": "اور عَلِی ابن اسباط نے محمد ابن حمران سے، جو زُرارہ سے، جو ابو جعفر علیہ السلام سے روایت کرتے ہیں:",
-              "zh": "ʿAlīibnAsbāṭ从MuḥammadibnḤumrān传述，传自Zurārah，传自AbīJaʿfarعليهالسلام："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "فِي الرَّجُلِ يَتَصَدَّقُ بِالصَّدَقَةِ الْمُشْتَرَكَةِ قَالَ «جَائِزٌ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন ব্যক্তি যে যৌথ দান করেন, তিনি বললেন: “এটি جائز।”",
-              "de": "Bezüglich eines Mannes, der eine gemeinsame Wohltätigkeit gibt, sagte er: „Es ist erlaubt.“",
-              "en": "Regarding a man who gives a shared charity, he said: “It is permissible.”",
-              "es": "Respecto a un hombre que da una caridad compartida, dijo: “Es permisible.”",
-              "fa": "در مورد مردی که صدقه مشترک می‌دهد، فرمود: «جایز است.»",
-              "fr": "Concernant un homme qui donne une aumône partagée, il a dit : « C’est permis. »",
-              "id": "Mengenai seorang pria yang memberikan sedekah bersama, beliau berkata: “Itu diperbolehkan.”",
-              "ru": "Относительно человека, который дает совместную милостыню, он сказал: «Это дозволено.»",
-              "tr": "Ortak sadaka veren bir adam hakkında şöyle dedi: “Mubahdır.”",
-              "ur": "ایک شخص جو مشترکہ صدقہ دیتا ہے، اس کے بارے میں فرمایا: \"یہ جائز ہے۔\"",
-              "zh": "关于一个给予共享慈善的人，他说：“这是允许的。”"
-            },
             "word_end": 23,
             "word_start": 16
           }
@@ -111,25 +98,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الرَّجُلِ": "a man; the legal subject mentioned in the ruling",
-            "الْمُشْتَرَكَةِ": "shared or jointly held",
-            "بِالصَّدَقَةِ": "by means of charity; a charitable donation",
-            "جَائِزٌ": "permissible or valid in law",
-            "يَتَصَدَّقُ": "he gives in charity"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَتَصَدَّقُ",
+          "بِالصَّدَقَةِ",
+          "الْمُشْتَرَكَةِ",
+          "جَائِزٌ",
+          "الرَّجُلِ"
+        ],
         "related_quran": [
           {
             "ref": "2:271",
@@ -144,32 +119,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-বাকির عليه السلام অনুযায়ী যৌথ দান করা কি جائز?",
-          "de": "Ist es nach Imam al-Baqir عليه السلام erlaubt, gemeinsame Wohltätigkeit zu geben?",
-          "en": "Is it permissible to give shared charity according to Imam al-Baqir عليه السلام?",
-          "es": "¿Es permisible dar caridad compartida según el Imam al-Baqir عليه السلام?",
-          "fa": "آیا طبق نظر امام باقر علیه السلام صدقه مشترک دادن جایز است؟",
-          "fr": "Est-il permis de donner une aumône partagée selon l’Imam al-Baqir عليه السلام ?",
-          "id": "Apakah diperbolehkan memberikan sedekah bersama menurut Imam al-Baqir عليه السلام?",
-          "ru": "Разрешено ли давать совместную милостыню согласно Имаму аль-Бакиру عليه السلام?",
-          "tr": "İmam el-Bakır عليه السلام’a göre ortak sadaka vermek caiz midir?",
-          "ur": "کیا امام الباقر علیہ السلام کے مطابق مشترکہ صدقہ دینا جائز ہے؟",
-          "zh": "根据伊玛目al-Baqirعليهالسلام，给予共享慈善是否允许？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি আবী জাফর عليه السلام থেকে যৌথ দানের একটি শারঈ সিদ্ধান্ত বর্ণনা করে। এটি বলে যে ইসলামী আইনে যৌথ দান করা বৈধ।",
-          "de": "Dieser Hadith berichtet eine Rechtsentscheidung von Abū Jaʿfar عليه السلام bezüglich gemeinsamer Wohltätigkeit. Es wird festgestellt, dass das Geben von Wohltätigkeit in gemeinsamer Form im islamischen Recht erlaubt ist.",
-          "en": "This hadith reports a legal ruling from Abū Jaʿfar عليه السلام concerning shared charity. It states that giving charity in a jointly held or shared form is permissible in Islamic law.",
-          "es": "Este hadiz reporta un fallo legal de Abū Jaʿfar عليه السلام sobre la caridad compartida. Indica que dar caridad en forma conjunta o compartida es permisible en la ley islámica.",
-          "fa": "این حدیث حکم شرعی ابی جعفر علیه السلام درباره صدقه مشترک را گزارش می‌دهد که صدقه دادن به صورت مشترک در فقه اسلامی جایز است.",
-          "fr": "Ce hadith rapporte un jugement légal d’Abū Jaʿfar عليه السلام concernant la charité partagée. Il indique que donner la charité de manière conjointe est permis en droit islamique.",
-          "id": "Hadis ini melaporkan hukum dari Abū Jaʿfar علیه السلام mengenai sedekah bersama. Dinyatakan bahwa memberikan sedekah secara bersama-sama diperbolehkan dalam hukum Islam.",
-          "ru": "Этот хадис сообщает юридическое постановление от Абу Джафара عليه السلام относительно совместной милостыни. В нем говорится, что давать милостыню в совместной форме разрешено в исламском праве.",
-          "tr": "Bu hadis, Abū Jaʿfar عليه السلام’dan ortak sadaka hakkında bir hükmü bildirir. İslam hukukunda ortak sadaka vermenin mubah olduğunu belirtir.",
-          "ur": "یہ حدیث ابو جعفر علیہ السلام کی طرف سے مشترکہ صدقہ کے بارے میں شرعی حکم بیان کرتی ہے کہ اسلامی قانون میں مشترکہ صدقہ دینا جائز ہے۔",
-          "zh": "此圣训报告了AbūJaʿfarعليهالسلام关于共享慈善的法律裁决。指出以共同或共享形式施舍在伊斯兰法中是允许的。"
-        },
         "tags": [
           "jurisprudence",
           "economy",

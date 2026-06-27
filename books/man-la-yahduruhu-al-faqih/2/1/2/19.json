@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسُئِلَ عَلَيْهِ السَّلَامُ: عَنْ رَجُلٍ أَعْطَى زَكَاةَ مَالِهِ رَجُلًا وَهُوَ يَرَى أَنَّهُ مُعْسِرٌ فَوَجَدَهُ مُوسِرًا",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তিনি, তাঁর উপর শান্তি বর্ষিত হোক, এমন একজন ব্যক্তির সম্পর্কে জিজ্ঞাসা করা হলো যিনি তাঁর সম্পদের জাকাত এমন একজনকে দিয়েছিলেন যাকে তিনি দুঃস্থ মনে করতেন, কিন্তু পরে তাকে ধনী হিসেবে দেখলেন।",
-              "de": "Und er, Friede sei mit ihm, wurde gefragt über einen Mann, der die Zakat seines Vermögens einem Mann gab, von dem er dachte, dass er in Not sei, ihn dann aber wohlhabend vorfand.",
-              "en": "And he, peace be upon him, was asked about a man who gave the zakat of his wealth to a man while thinking that he was in hardship, but then found him to be well-off.",
-              "es": "Y a él, la paz sea con él, se le preguntó acerca de un hombre que dio la zakat de su riqueza a un hombre pensando que estaba en dificultad, pero luego lo encontró acomodado.",
-              "fa": "و از او، سلام بر او، درباره مردی پرسیده شد که زکات مال خود را به مردی داد در حالی که فکر می‌کرد او در تنگدستی است، اما سپس او را مرفه یافت.",
-              "fr": "Et on lui, que la paix soit sur lui, a demandé au sujet d’un homme qui a donné la zakat de sa richesse à un homme en pensant qu’il était en difficulté, mais qui l’a ensuite trouvé aisé.",
-              "id": "Dan dia, semoga keselamatan atasnya, ditanya tentang seorang pria yang memberikan zakat hartanya kepada seorang pria yang dia kira dalam kesulitan, tetapi kemudian mendapati dia berada dalam keadaan berkecukupan.",
-              "ru": "И его, мир ему, спросили о человеке, который отдал закят своего имущества другому, думая, что тот в нужде, но затем обнаружил, что он состоятельный.",
-              "tr": "Ve ona, selam üzerine olsun, malının zekatını zor durumda olduğunu düşündüğü bir adama veren bir adam hakkında soruldu, fakat sonra onun zengin olduğunu buldu.",
-              "ur": "اور اُن سے، سلامتی ہو اُن پر، ایک شخص کے بارے میں پوچھا گیا جس نے اپنی دولت کی زکات ایک ایسے شخص کو دی جسے وہ مسکین سمجھتا تھا، لیکن بعد میں اسے مالدار پایا۔",
-              "zh": "他，愿他安宁，被问及一人将其财富的扎卡特给予一位他以为处于困境的人，但后来发现此人富裕。"
-            },
             "word_end": 15,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ «لَا يُجْزِي عَنْهُ».",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তিনি বললেন: “এটি তার জন্য যথেষ্ট নয়।”",
-              "de": "Er sagte: „Das genügt ihm nicht.“",
-              "en": "He said: “It does not suffice for him.”",
-              "es": "Él dijo: “No le basta.”",
-              "fa": "او فرمود: «این برای او کافی نیست.»",
-              "fr": "Il a dit : « Cela ne lui suffit pas. »",
-              "id": "Dia berkata: “Itu tidak cukup baginya.”",
-              "ru": "Он сказал: «Это не считается за него.»",
-              "tr": "O dedi ki: “Bu onun için yeterli değildir.”",
-              "ur": "انہوں نے فرمایا: “یہ اس کے لیے کافی نہیں ہے۔”",
-              "zh": "他说：“这对他不够。”"
-            },
             "word_end": 19,
             "word_start": 15
           }
@@ -101,25 +88,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "زَكَاةَ": "the obligatory alms-tax due on wealth",
-            "لَا يُجْزِي": "does not legally suffice or fulfill the obligation",
-            "مَالِهِ": "his property or wealth from which zakat is paid",
-            "مُعْسِرٌ": "a person believed to be in financial hardship",
-            "مُوسِرًا": "a person who is actually financially well-off"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "زَكَاةَ",
+          "مَالِهِ",
+          "مُعْسِرٌ",
+          "مُوسِرًا",
+          "لَا يُجْزِي"
+        ],
         "related_quran": [
           {
             "ref": "9:60",
@@ -130,32 +105,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি জাকাত এমন একজনকে দেওয়া হয় যাকে পরে ধনী হিসেবে পাওয়া যায়, তাহলে কি তা গণ্য হবে?",
-          "de": "Zählt die Zakat, wenn sie jemandem gegeben wurde, der sich später als wohlhabend herausstellte?",
-          "en": "Does zakat count if it was given to someone later discovered to be wealthy?",
-          "es": "¿Cuenta la zakat si se dio a alguien que luego se descubrió que era rico?",
-          "fa": "آیا زکات در صورتی که به کسی داده شود که بعداً ثروتمند بودنش مشخص شود، محسوب می‌شود؟",
-          "fr": "La zakat compte-t-elle si elle a été donnée à quelqu’un qui s’est avéré ensuite être riche ?",
-          "id": "Apakah zakat dihitung jika diberikan kepada seseorang yang kemudian diketahui kaya?",
-          "ru": "Считается ли закят действительным, если он был дан человеку, который позже оказался богатым?",
-          "tr": "Zekat, daha sonra zengin olduğu anlaşılan birine verilirse geçerli sayılır mı?",
-          "ur": "کیا زکات اس صورت میں شمار ہوتی ہے اگر وہ کسی ایسے شخص کو دی گئی ہو جو بعد میں مالدار پایا گیا ہو؟",
-          "zh": "如果扎卡特给了后来被发现富裕的人，算数吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি জাকাত বিতরণের বিষয়ে একটি শারীয়াহর সিদ্ধান্ত দেয় যখন এটি এমন একজনকে দেওয়া হয় যাকে ভুলবশত দরিদ্র মনে করা হয়েছিল। ইমাম علیه السلام বলেন যে, যদি প্রাপক আসলে ধনী হয় তবে এই প্রদান ফরজ পূরণ করে না।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung zur Verteilung der Zakat, wenn sie jemandem gegeben wird, der irrtümlich als bedürftig angesehen wurde. Der Imam علیه السلام erklärt, dass eine solche Zahlung die Verpflichtung nicht erfüllt, wenn der Empfänger tatsächlich wohlhabend ist.",
-          "en": "This hadith gives a legal ruling about zakat distribution when it is given to someone mistakenly assumed to be needy. The Imam عليه السلام states that such a payment does not fulfill the obligation if the recipient is actually wealthy.",
-          "es": "Este hadiz da un fallo legal sobre la distribución de la zakat cuando se da a alguien que se asumió erróneamente que estaba necesitado. El Imam علیه السلام afirma que tal pago no cumple con la obligación si el receptor es en realidad rico.",
-          "fa": "این حدیث حکم شرعی درباره توزیع زکات زمانی که به کسی داده شود که اشتباهاً نیازمند فرض شده است، بیان می‌کند. امام علیه السلام می‌فرماید که چنین پرداختی اگر گیرنده در واقع ثروتمند باشد، تکلیف را انجام نمی‌دهد.",
-          "fr": "Ce hadith donne un jugement légal concernant la distribution de la zakat lorsqu’elle est donnée à quelqu’un supposé dans le besoin par erreur. L’Imam علیه السلام déclare qu’un tel paiement ne remplit pas l’obligation si le bénéficiaire est en réalité aisé.",
-          "id": "Hadis ini memberikan ketetapan hukum tentang pembagian zakat ketika diberikan kepada seseorang yang keliru dianggap membutuhkan. Imam علیه السلام menyatakan bahwa pembayaran tersebut tidak memenuhi kewajiban jika penerima sebenarnya kaya.",
-          "ru": "Этот хадис даёт юридическое постановление о распределении закята, когда он даётся человеку, ошибочно принятому за нуждающегося. Имам علیه السلام утверждает, что такая выплата не освобождает от обязанности, если получатель на самом деле богат.",
-          "tr": "Bu hadis, zekatın yanlışlıkla muhtaç sanılan birine verilmesi durumunda yasal hükmü verir. İmam علیه السلام, alıcının aslında zengin olması halinde bu ödemenin yükümlülüğü yerine getirmediğini belirtir.",
-          "ur": "یہ حدیث زکات کی تقسیم کے بارے میں شرعی حکم بیان کرتی ہے جب زکات کسی ایسے شخص کو دی جائے جسے غلطی سے محتاج سمجھا گیا ہو۔ امام علیہ السلام فرماتے ہیں کہ اگر وصول کنندہ درحقیقت مالدار ہو تو یہ ادائیگی فرض کی تکمیل نہیں کرتی۔",
-          "zh": "此圣训就扎卡特分配给误以为贫困者的法律裁决作出说明。伊玛目 علیه السلام指出，如果接受者实际上富裕，则此支付不履行义务。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

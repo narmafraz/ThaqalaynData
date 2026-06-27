@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى حَمَّادٌ عَنِ الْحَلَبِيِّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "হাম্মাদ আল-হালাবী থেকে আবু আবদুল্লাহ علیہ السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Hammad berichtete von al-Halabi von Abu Abdullah عليه السلام, der sagte:",
-              "en": "Hammad narrated from al-Halabi from Abu Abdullah عليه السلام, who said:",
-              "es": "Hammad narró de al-Halabi de Abu Abdullah عليه السلام, quien dijo:",
-              "fa": "حمّاد از الحلّابی از ابو عبدالله علیه السلام روایت کرد که فرمود:",
-              "fr": "Hammad a rapporté de al-Halabi d'Abu Abdullah عليه السلام, qui a dit :",
-              "id": "Hammad meriwayatkan dari al-Halabi dari Abu Abdullah علیه السلام, yang berkata:",
-              "ru": "Хаммад передал от аль-Халаби от Абу Абдуллаха عليه السلام, который сказал:",
-              "tr": "Hammad, al-Halabi'den, Ebu Abdullah'a (aleyhisselam) şöyle dedi:",
-              "ur": "حماد نے الحلبی سے ابو عبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "حماد从الحلبی从أبوعبداللهعليهالسلام传述，他说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "قُلْتُ لَهُ الرَّجُلُ يُقِرُّ لِوَارِثٍ بِدَيْنٍ عَلَيْهِ فَقَالَ يَجُوزُ إِذَا كَانَ مَلِيّاً",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাকে বললাম: একজন মানুষ তার একজন উত্তরাধিকারীর প্রতি ঋণ স্বীকার করে। তিনি বললেন: \"যদি সে আর্থিকভাবে সক্ষম হয় তবে এটি جائز।\"",
-              "de": "Ich sagte zu ihm: Ein Mann erkennt eine Schuld gegenüber einem Erben an. Er sagte: „Es ist erlaubt, wenn er zahlungsfähig ist.“",
-              "en": "I said to him: A man acknowledges a debt owed by him to an heir. He said: \"It is permissible if he is solvent.\"",
-              "es": "Le dije: Un hombre reconoce una deuda que tiene con un heredero. Él dijo: \"Es permisible si es solvente.\"",
-              "fa": "به او گفتم: مردی بدهی خود را به وارثی می‌پذیرد. او گفت: «اگر توانگر باشد، جایز است.»",
-              "fr": "Je lui ai dit : Un homme reconnaît une dette envers un héritier. Il a dit : « C’est permis s’il est solvable. »",
-              "id": "Saya berkata kepadanya: Seorang pria mengakui hutang yang dia miliki kepada seorang ahli waris. Dia berkata: \"Hal itu diperbolehkan jika dia mampu secara finansial.\"",
-              "ru": "Я сказал ему: Мужчина признает долг перед одним из своих наследников. Он сказал: «Это допустимо, если он платежеспособен.»",
-              "tr": "Ona dedim ki: Bir adam, mirasçısına olan borcunu kabul ediyor. O dedi ki: \"Mali durumu iyiyse caizdir.\"",
-              "ur": "میں نے ان سے کہا: ایک آدمی اپنے وارث کے حق میں قرض کا اقرار کرتا ہے۔ انہوں نے فرمایا: \"اگر وہ مالی طور پر اہل ہو تو جائز ہے۔\"",
-              "zh": "我对他说：一个人承认对其继承人的债务。他说：“如果他有偿付能力，这是允许的。”"
-            },
             "word_end": 24,
             "word_start": 12
           }
@@ -101,25 +88,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بِدَيْنٍ": "a debt or financial liability",
-            "لِوَارِثٍ": "in favor of an heir entitled to inheritance",
-            "مَلِيّاً": "solvent, financially capable",
-            "يَجُوزُ": "it is permissible or legally valid",
-            "يُقِرُّ": "he acknowledges or admits legally"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُقِرُّ",
+          "لِوَارِثٍ",
+          "بِدَيْنٍ",
+          "يَجُوزُ",
+          "مَلِيّاً"
+        ],
         "related_quran": [
           {
             "ref": "2:282",
@@ -134,32 +109,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে একজন পুরুষের তার একজন উত্তরাধিকারীর প্রতি ঋণ স্বীকার করা কি আইনি ভাবে বৈধ?",
-          "de": "Ist die Schuldanerkennung eines Mannes gegenüber einem seiner Erben im schiitischen Fiqh rechtlich gültig?",
-          "en": "Is a man's acknowledgment of debt to one of his heirs legally valid in Shia fiqh?",
-          "es": "¿Es legalmente válido en la fiqh chií el reconocimiento de deuda de un hombre hacia uno de sus herederos?",
-          "fa": "آیا اقرار یک مرد به بدهی نسبت به یکی از وارثانش در فقه شیعه از نظر قانونی معتبر است؟",
-          "fr": "La reconnaissance de dette d’un homme envers un de ses héritiers est-elle légalement valide en fiqh chiite ?",
-          "id": "Apakah pengakuan seorang pria atas hutang kepada salah satu ahli warisnya sah secara hukum dalam fikih Syiah?",
-          "ru": "Является ли признание мужчиной долга перед одним из его наследников юридически действительным в шиистском фикхе?",
-          "tr": "Şii fıkhında bir erkeğin mirasçısına olan borcunu kabulü yasal olarak geçerli midir?",
-          "ur": "کیا شیعہ فقہ میں ایک شخص کا اپنے وارث کے حق میں قرض کا اقرار قانونی طور پر جائز ہے؟",
-          "zh": "在什叶派伊斯兰教法中，一个人承认对其继承人的债务是否合法有效？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস একজন ব্যক্তির তার একজন উত্তরাধিকারীর প্রতি ঋণ স্বীকার করার আইনি সিদ্ধান্ত দেয়। স্বীকৃতি তখন বৈধ যখন ব্যক্তি আর্থিকভাবে সক্ষম থাকে, যা নির্দেশ করে যে এই স্বীকৃতি উত্তরাধিকার অধিকারে ক্ষতিকর হস্তক্ষেপ নয়।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung über die Anerkennung einer Schuld zugunsten eines Erben durch eine Person. Die Anerkennung ist gültig, wenn die Person finanziell zahlungsfähig ist, was darauf hinweist, dass eine solche Anerkennung akzeptiert wird, wenn sie keine schädliche Beeinträchtigung der Erbrechte darstellt.",
-          "en": "This hadith gives a legal ruling about a person acknowledging a debt in favor of one of his heirs. The acknowledgment is valid when the person is financially solvent, indicating that such an admission is accepted when it does not appear to be a harmful manipulation of inheritance rights.",
-          "es": "Este hadiz da un fallo legal sobre una persona que reconoce una deuda a favor de uno de sus herederos. El reconocimiento es válido cuando la persona es financieramente solvente, indicando que tal admisión es aceptada cuando no parece ser una manipulación perjudicial de los derechos de herencia.",
-          "fa": "این حدیث حکم شرعی درباره پذیرش بدهی توسط شخص نسبت به یکی از وارثانش را بیان می‌کند. پذیرش زمانی معتبر است که فرد از نظر مالی توانمند باشد، که نشان می‌دهد چنین اقراری به حقوق ارث آسیب نمی‌رساند.",
-          "fr": "Ce hadith donne un jugement légal concernant une personne reconnaissant une dette envers un de ses héritiers. La reconnaissance est valide lorsque la personne est solvable, indiquant que cette admission est acceptée lorsqu’elle ne constitue pas une manipulation nuisible des droits successoraux.",
-          "id": "Hadis ini memberikan hukum tentang seseorang yang mengakui hutang kepada salah satu ahli warisnya. Pengakuan tersebut sah jika orang tersebut mampu secara finansial, menunjukkan bahwa pengakuan itu diterima selama tidak merugikan hak waris.",
-          "ru": "Этот хадис содержит юридическое постановление о признании человеком долга перед одним из его наследников. Признание действительно, когда человек финансово платежеспособен, что указывает на то, что такое признание принимается, если оно не является вредоносной манипуляцией наследственными правами.",
-          "tr": "Bu hadis, bir kişinin mirasçısına olan borcunu kabul etmesiyle ilgili hukuki hükmü verir. Kabul, kişinin mali açıdan yeterli olduğu durumlarda geçerlidir; bu, böyle bir itirafın miras haklarına zarar verici bir müdahale olmadığını gösterir.",
-          "ur": "یہ حدیث ایک شخص کے اپنے وارث کے حق میں قرض کا اقرار کرنے کے بارے میں شرعی حکم بیان کرتی ہے۔ اقرار اس وقت جائز ہے جب وہ شخص مالی طور پر اہل ہو، جو ظاہر کرتا ہے کہ ایسا اقرار وراثت کے حقوق میں نقصان دہ مداخلت نہیں ہے۔",
-          "zh": "此圣训对一个人承认对其继承人债务的法律裁决进行了说明。当此人经济上有偿付能力时，该承认有效，表明此类承认在不损害继承权的情况下被接受。"
-        },
         "tags": [
           "jurisprudence",
           "family",

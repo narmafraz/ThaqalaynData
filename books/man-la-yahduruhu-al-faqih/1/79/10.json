@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى ٱبْنُ ٱلْمُغِيرَةِ عَنِ ٱلْقَاسِمِ بْنِ ٱلْوَلِيدِ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ইবনে আল-মুগীরা আল-কাসিম ইবনে আল-ওয়ালিদ থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Ibn al-Mughīrah berichtete von al-Qāsim ibn al-Walīd, der sagte:",
-              "en": "Ibn al-Mughīrah narrated from al-Qāsim ibn al-Walīd, who said:",
-              "es": "Ibn al-Mughīrah narró de al-Qāsim ibn al-Walīd, quien dijo:",
-              "fa": "ابن المغیره از القاسم بن الولید روایت کرد که گفت:",
-              "fr": "Ibn al-Mughīrah a rapporté de al-Qāsim ibn al-Walīd, qui a dit :",
-              "id": "Ibn al-Mughīrah meriwayatkan dari al-Qāsim ibn al-Walīd, yang berkata:",
-              "ru": "Ибн аль-Мугира передал от аль-Касима ибн аль-Валида, который сказал:",
-              "tr": "İbn al-Mughīrah, al-Qāsim ibn al-Walīd'den rivayet etti, dedi ki:",
-              "ur": "ابن المغیرہ نے القاسم بن الولید سے روایت کی، جنہوں نے کہا:",
-              "zh": "伊本·穆吉拉从卡西姆·伊本·瓦利德那里传述，他说："
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنْ غُسْلِ ٱلْأَضْحَى، قَالَ «وَاجِبٌ إِلَّا بِمِنًى.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাকে আল-আধহার ঘস্ল (পবিত্র স্নান) সম্পর্কে জিজ্ঞাসা করলাম। তিনি বললেন: \"এটি ফরজ, মিনা ব্যতীত।\"",
-              "de": "Ich fragte ihn nach dem Ghusl (rituellen Bad) von al-Aḍḥā. Er sagte: „Es ist verpflichtend, außer in Minā.“",
-              "en": "I asked him about the ghusl (ritual bath) of al-Aḍḥā. He said: “It is obligatory except at Minā.”",
-              "es": "Le pregunté sobre el ghusl (baño ritual) de al-Aḍḥā. Él dijo: “Es obligatorio excepto en Minā.”",
-              "fa": "از او درباره غسل عید الأضحى پرسیدم. گفت: «واجب است مگر در منى.»",
-              "fr": "Je lui ai demandé au sujet du ghusl (bain rituel) de al-Aḍḥā. Il a dit : « C’est obligatoire sauf à Minā. »",
-              "id": "Saya bertanya kepadanya tentang ghusl (mandi ritual) al-Aḍḥā. Dia berkata: \"Wajib kecuali bagi yang berada di Minā.\"",
-              "ru": "Я спросил его о гусле (ритуальном омовении) аль-Адха. Он сказал: «Это обязательно, кроме тех, кто находится в Мине.»",
-              "tr": "Ben ona al-Aḍḥā'nın guslü hakkında sordum. O dedi ki: “Minâ'da olanlar hariç, gusül farzdır.”",
-              "ur": "میں نے ان سے عید الاضحیٰ کے غسل کے بارے میں پوچھا۔ انہوں نے کہا: \"یہ واجب ہے سوائے اس کے جو منیٰ میں ہو۔\"",
-              "zh": "我问他关于阿尔-阿德哈的沐浴（仪式性沐浴）。他说：“这是义务，除非在米纳。”"
-            },
             "word_end": 17,
             "word_start": 9
           }
@@ -86,24 +73,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بِمِنًى": "at Minā, the sacred location associated with hajj rites",
-            "غُسْلِ": "ritual bath performed for purification",
-            "وَاجِبٌ": "legally obligatory",
-            "ٱلْأَضْحَى": "Eid al-Aḍḥā, the festival of sacrifice"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "غُسْلِ",
+          "ٱلْأَضْحَى",
+          "وَاجِبٌ",
+          "بِمِنًى"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
@@ -118,32 +93,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ঈদ আল-আধহার ঘস্লের বিধান কী, এবং মিনা-তে যারা আছেন তাদের জন্য কোনো ব্যতিক্রম আছে কি?",
-          "de": "Wie lautet das Urteil zum Ghusl von Eid al-Aḍḥā, und gibt es eine Ausnahme für diejenigen in Minā?",
-          "en": "What is the ruling on the ghusl of Eid al-Aḍḥā, and is there an exception for those in Minā?",
-          "es": "¿Cuál es el fallo sobre el ghusl de Eid al-Aḍḥā, y hay alguna excepción para quienes están en Minā?",
-          "fa": "حکم غسل عید الأضحى چیست و آیا برای کسانی که در منى هستند استثنا وجود دارد؟",
-          "fr": "Quel est le jugement sur le ghusl de l’Eid al-Aḍḥā, et y a-t-il une exception pour ceux qui sont à Minā ?",
-          "id": "Apa hukum ghusl Eid al-Aḍḥā, dan apakah ada pengecualian bagi yang berada di Minā?",
-          "ru": "Каково постановление о гусле на Ид аль-Адха, и есть ли исключение для тех, кто находится в Мине?",
-          "tr": "Eid al-Aḍḥā'nın guslü hakkında hüküm nedir ve Minâ'da olanlar için bir istisna var mı?",
-          "ur": "عید الاضحیٰ کے غسل کا حکم کیا ہے، اور کیا منیٰ میں موجود لوگوں کے لیے کوئی استثنا ہے؟",
-          "zh": "宰牲节古斯尔的裁决是什么，米纳的人有例外吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ঈদ আল-আধহার ঘস্ল (পবিত্র স্নান) সম্পর্কে শারঈ বিধান প্রদান করে। এটি বলে যে ঘস্ল ফরজ, মিনা ব্যতীত।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung zum Ghusl für Eid al-Aḍḥā. Er besagt, dass der Ghusl verpflichtend ist, mit Ausnahme für diejenigen, die sich in Minā befinden.",
-          "en": "This hadith gives a legal ruling concerning the ghusl (ritual bath) for Eid al-Aḍḥā. It states that the ghusl is obligatory, with an exception for one who is at Minā.",
-          "es": "Este hadiz da un fallo legal sobre el ghusl para Eid al-Aḍḥā. Indica que el ghusl es obligatorio, con excepción para quien esté en Minā.",
-          "fa": "این حدیث حکم شرعی غسل عید الأضحى را بیان می‌کند که غسل واجب است مگر برای کسی که در منى باشد استثنا دارد.",
-          "fr": "Ce hadith donne un jugement légal concernant le ghusl pour l’Eid al-Aḍḥā. Il indique que le ghusl est obligatoire, sauf pour celui qui est à Minā.",
-          "id": "Hadis ini memberikan hukum tentang ghusl (mandi ritual) untuk Eid al-Aḍḥā. Dinyatakan bahwa ghusl wajib, kecuali bagi yang berada di Minā.",
-          "ru": "Этот хадис содержит юридическое постановление о гусле для Ид аль-Адха. Указывается, что гусль обязателен, за исключением тех, кто находится в Мине.",
-          "tr": "Bu hadis, Eid al-Aḍḥā'nın guslü hakkında yasal bir hüküm verir; gusül farzdır, Minâ'da olanlar hariç.",
-          "ur": "یہ حدیث عید الاضحیٰ کے غسل کے بارے میں شرعی حکم بیان کرتی ہے کہ غسل واجب ہے، سوائے اس کے جو منیٰ میں ہو۔",
-          "zh": "此圣训关于古斯尔（仪式沐浴）在宰牲节的法律裁决。指出古斯尔是义务，米纳除外。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -21,118 +21,53 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ عَلِيِّ بْنِ إِسْمَاعِيلَ عَنْ مُحَمَّدِ بْنِ عَمْرٍو الزَّيَّاتِ عَنْ رَجُلٍ مِنْ أَصْحَابِنَا عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন ইয়াহইয়া, আলী ইবন ইসমাঈল থেকে, মুহাম্মদ ইবন আমর আল-যাইয়াত থেকে, আমাদের সঙ্গীদের একজন ব্যক্তি থেকে, আবু আবদিল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Muhammad ibn Yahya, von Ali ibn Ismail, von Muhammad ibn Amr al-Zayyat, von einem Mann aus unseren Gefährten, von Abu Abdillah عليه السلام, der sagte:",
-              "en": "Muḥammad ibn Yaḥyā, from ʿAlī ibn Ismāʿīl, from Muḥammad ibn ʿAmr al-Zayyāt, from a man from our companions, from Abū ʿAbdillāh عليه السلام, who said:",
-              "es": "Muhammad ibn Yahya, de Ali ibn Ismail, de Muhammad ibn Amr al-Zayyat, de un hombre de nuestros compañeros, de Abu Abdillah عليه السلام, quien dijo:",
-              "fa": "محمد بن یحیی، از علی بن اسماعیل، از محمد بن عمرو الزیات، از مردی از یاران ما، از ابوعبدالله علیه السلام، که فرمود:",
-              "fr": "Muhammad ibn Yahya, d’après Ali ibn Ismail, d’après Muhammad ibn Amr al-Zayyat, d’après un homme de nos compagnons, d’après Abu Abdillah عليه السلام, qui a dit :",
-              "id": "Muhammad ibn Yahya, dari Ali ibn Ismail, dari Muhammad ibn Amr al-Zayyat, dari seorang laki-laki dari sahabat-sahabat kami, dari Abu Abdillah عليه السلام, yang berkata:",
-              "ru": "Мухаммад ибн Яхья, от Али ибн Исмаила, от Мухаммада ибн Амра аль-Зайята, от одного человека из наших сподвижников, от Абу Абдуллаха عليه السلام, который сказал:",
-              "tr": "Muhammed ibn Yahyâ, Ali ibn İsmâil’den, Muhammed ibn Amr el-Zayyât’tan, ashabımızdan bir adamdan, Ebu Abdullah عليه السلام’dan, şöyle dedi:",
-              "ur": "محمد بن یحییٰ، عن علی بن اسماعیل، عن محمد بن عمرو الزیات، عن رجلٍ من اصحابنا، عن ابی عبداللہ علیہ السلام، قال:",
-              "zh": "穆罕默德·伊本·叶海亚，传自阿里·伊本·伊斯马仪，传自穆罕默德·伊本·阿姆尔·阿勒-扎亚特，传自我们的一位同伴，传自阿布·阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 23,
             "word_start": 0
           },
           {
             "arabic_text": "إِنَّ جَبْرَئِيلَ عَلَيْهِ السَّلَامُ نَزَلَ عَلَى مُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ فَقَالَ لَهُ يَا مُحَمَّدُ إِنَّ اللَّهَ يُبَشِّرُكَ بِمَوْلُودٍ يُولَدُ مِنْ فَاطِمَةَ تَقْتُلُهُ أُمَّتُكَ مِنْ بَعْدِكَ فَقَالَ يَا جَبْرَئِيلُ وَعَلَى رَبِّيَ السَّلَامُ لَا حَاجَةَ لِي فِي مَوْلُودٍ يُولَدُ مِنْ فَاطِمَةَ تَقْتُلُهُ أُمَّتِي مِنْ بَعْدِي. فَعَرَجَ ثُمَّ هَبَطَ عَلَيْهِ السَّلَامُ فَقَالَ لَهُ مِثْلَ ذَلِكَ فَقَالَ يَا جَبْرَئِيلُ وَعَلَى رَبِّيَ السَّلَامُ لَا حَاجَةَ لِي فِي مَوْلُودٍ تَقْتُلُهُ أُمَّتِي مِنْ بَعْدِي.",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "নিশ্চয়ই জিবরাঈল عليه السلام মুহাম্মদ صلى الله عليه وآله-এর কাছে অবতীর্ণ হয়ে তাঁকে বললেন: “হে মুহাম্মদ, নিশ্চয়ই আল্লাহ আপনাকে ফাতিমা থেকে জন্মগ্রহণকারী এক সন্তানের সুসংবাদ দিচ্ছেন, যাকে আপনার উম্মত আপনার পরে হত্যা করবে।” তখন তিনি বললেন: “হে জিবরাঈল, এবং আমার রবের ওপর সালাম; ফাতিমা থেকে জন্মগ্রহণকারী এবং আমার উম্মত আমার পরে যাকে হত্যা করবে, এমন সন্তানের আমার কোনো প্রয়োজন নেই।” তারপর তিনি ঊর্ধ্বে গেলেন, তারপর عليه السلام অবতীর্ণ হয়ে তাঁকে অনুরূপ কথা বললেন। তখন তিনি বললেন: “হে জিবরাঈল, এবং আমার রবের ওপর সালাম; আমার উম্মত আমার পরে যাকে হত্যা করবে, এমন সন্তানের আমার কোনো প্রয়োজন নেই।”",
-              "de": "Gewiss, Jibrāʾīl عليه السلام kam zu Muḥammad صلى الله عليه وآله herab und sagte zu ihm: „O Muḥammad, gewiss verkündet dir Allah die frohe Botschaft von einem Kind, das von Fāṭimah geboren werden wird und das deine Gemeinschaft nach dir töten wird.“ Da sagte er: „O Jibrāʾīl, und über meinen Herrn sei Frieden; ich habe kein Bedürfnis nach einem Kind, das von Fāṭimah geboren wird und das meine Gemeinschaft nach mir töten wird.“ Dann stieg er auf, dann stieg er عليه السلام herab und sagte ihm das Gleiche. Da sagte er: „O Jibrāʾīl, und über meinen Herrn sei Frieden; ich habe kein Bedürfnis nach einem Kind, das meine Gemeinschaft nach mir töten wird.“",
-              "en": "Indeed Jibrāʾīl عليه السلام descended to Muḥammad صلى الله عليه وآله and said to him: “O Muḥammad, indeed Allah gives you glad tidings of a child who will be born from Fāṭimah, whom your community will kill after you.” So he said: “O Jibrāʾīl, and upon my Lord be peace; I have no need for a child who will be born from Fāṭimah and whom my community will kill after me.” Then he ascended, then descended عليه السلام, and said to him the like of that. So he said: “O Jibrāʾīl, and upon my Lord be peace; I have no need for a child whom my community will kill after me.”",
-              "es": "Ciertamente Jibrāʾīl عليه السلام descendió a Muḥammad صلى الله عليه وآله y le dijo: “Oh Muḥammad, ciertamente Allah te anuncia la buena nueva de un hijo que nacerá de Fāṭimah, a quien tu comunidad matará después de ti.” Entonces él dijo: “Oh Jibrāʾīl, y sobre mi Señor sea la paz; no tengo necesidad de un hijo que nazca de Fāṭimah y a quien mi comunidad mate después de mí.” Luego ascendió, después descendió عليه السلام, y le dijo algo similar. Entonces él dijo: “Oh Jibrāʾīl, y sobre mi Señor sea la paz; no tengo necesidad de un hijo a quien mi comunidad mate después de mí.”",
-              "fa": "همانا جبرئیل علیه السلام بر محمد صلی الله علیه وآله نازل شد و به او گفت: «ای محمد، همانا خدا تو را به فرزندی بشارت می‌دهد که از فاطمه متولد می‌شود و امت تو پس از تو او را خواهد کشت.» پس فرمود: «ای جبرئیل، و بر پروردگار من سلام باد؛ مرا نیازی به فرزندی نیست که از فاطمه متولد شود و امت من پس از من او را بکشد.» سپس بالا رفت، آنگاه علیه السلام فرود آمد و همانند آن را به او گفت. پس فرمود: «ای جبرئیل، و بر پروردگار من سلام باد؛ مرا نیازی به فرزندی نیست که امت من پس از من او را بکشد.»",
-              "fr": "Certes, Jibrāʾīl عليه السلام descendit vers Muḥammad صلى الله عليه وآله et lui dit : « Ô Muḥammad, certes Allah t’annonce la bonne nouvelle d’un enfant qui naîtra de Fāṭimah, que ta communauté tuera après toi. » Il dit alors : « Ô Jibrāʾīl, et sur mon Seigneur soit la paix ; je n’ai nul besoin d’un enfant qui naîtra de Fāṭimah et que ma communauté tuera après moi. » Puis il monta, puis descendit عليه السلام, et lui dit la même chose. Il dit alors : « Ô Jibrāʾīl, et sur mon Seigneur soit la paix ; je n’ai nul besoin d’un enfant que ma communauté tuera après moi. »",
-              "id": "Sesungguhnya Jibril عليه السلام turun kepada Muhammad صلى الله عليه وآله dan berkata kepadanya: “Wahai Muhammad, sesungguhnya Allah memberi kabar gembira kepadamu tentang seorang anak yang akan lahir dari Fatimah, yang akan dibunuh oleh umatmu setelahmu.” Maka beliau berkata: “Wahai Jibril, dan atas Tuhanku salam; aku tidak membutuhkan seorang anak yang akan lahir dari Fatimah dan yang akan dibunuh oleh umatku setelahku.” Lalu ia naik, kemudian turun عليه السلام, dan berkata kepadanya seperti itu. Maka beliau berkata: “Wahai Jibril, dan atas Tuhanku salam; aku tidak membutuhkan seorang anak yang akan dibunuh oleh umatku setelahku.”",
-              "ru": "Поистине, Джибриль عليه السلام ниспослан был к Мухаммаду صلى الله عليه وآله и сказал ему: «О Мухаммад, поистине Аллах радует тебя вестью о ребёнке, который родится от Фатимы, и которого твоя община убьёт после тебя». Тогда он сказал: «О Джибриль, и над моим Господом мир; нет у меня нужды в ребёнке, который родится от Фатимы и которого моя община убьёт после меня». Затем он вознёсся, потом нисшёл عليه السلام и сказал ему то же самое. Тогда он сказал: «О Джибриль, и над моим Господом мир; нет у меня нужды в ребёнке, которого моя община убьёт после меня».",
-              "tr": "Şüphesiz Cibrîl عليه السلام Muhammed صلى الله عليه وآله’e indi ve ona şöyle dedi: “Ey Muhammed, Allah sana Fâtıma’dan doğacak ve ümmetinin senden sonra öldüreceği bir çocuk müjdeliyor.” Bunun üzerine o şöyle dedi: “Ey Cibrîl, Rabbime selam olsun; Fâtıma’dan doğacak ve ümmetimin benden sonra öldüreceği bir çocuğa ihtiyacım yok.” Sonra yükseldi, sonra عليه السلام indi ve ona bunun benzerini söyledi. O da şöyle dedi: “Ey Cibrîl, Rabbime selam olsun; ümmetimin benden sonra öldüreceği bir çocuğa ihtiyacım yok.”",
-              "ur": "بے شک جبرائیل علیہ السلام محمد صلی اللہ علیہ وآلہ پر نازل ہوئے اور ان سے کہا: “اے محمد، بے شک اللہ آپ کو ایک بچے کی بشارت دیتا ہے جو فاطمہ سے پیدا ہوگا، جسے آپ کی امت آپ کے بعد قتل کرے گی۔” تو انہوں نے فرمایا: “اے جبرائیل، اور میرے رب پر سلام ہو؛ مجھے اس بچے کی کوئی حاجت نہیں جو فاطمہ سے پیدا ہو اور جسے میری امت میرے بعد قتل کرے۔” پھر وہ اوپر گئے، پھر علیہ السلام نازل ہوئے اور اسی طرح ان سے کہا۔ تو انہوں نے فرمایا: “اے جبرائیل، اور میرے رب پر سلام ہو؛ مجھے ایسے بچے کی کوئی حاجت نہیں جسے میری امت میرے بعد قتل کرے۔”",
-              "zh": "确实，吉卜利勒 عليه السلام降临到穆罕默德 صلى الله عليه وآله那里，对他说：“穆罕默德啊，真主确已向你报喜：将有一个从法蒂玛所生的孩子，而你的社群将在你之后杀害他。”他说：“吉卜利勒啊，愿我的主平安；我不需要一个从法蒂玛所生、并将被我的社群在我之后杀害的孩子。”然后他升起，随后又降下 عليه السلام，并对他说了同样的话。他说：“吉卜利勒啊，愿我的主平安；我不需要一个将被我的社群在我之后杀害的孩子。”"
-            },
             "word_end": 91,
             "word_start": 23
           },
           {
             "arabic_text": "فَعَرَجَ جَبْرَئِيلُ عَلَيْهِ السَّلَامُ إِلَى السَّمَاءِ ثُمَّ هَبَطَ فَقَالَ يَا مُحَمَّدُ إِنَّ رَبَّكَ يُقْرِئُكَ السَّلَامَ وَيُبَشِّرُكَ بِأَنَّهُ جَاعِلٌ فِي ذُرِّيَّتِهِ الْإِمَامَةَ وَالْوَلَايَةَ وَالْوَصِيَّةَ فَقَالَ قَدْ رَضِيتُ. ثُمَّ أَرْسَلَ إِلَى فَاطِمَةَ أَنَّ اللَّهَ يُبَشِّرُنِي بِمَوْلُودٍ يُولَدُ لَكِ تَقْتُلُهُ أُمَّتِي مِنْ بَعْدِي فَأَرْسَلَتْ إِلَيْهِ لَا حَاجَةَ لِي فِي مَوْلُودٍ مِنِّي تَقْتُلُهُ أُمَّتُكَ مِنْ بَعْدِكَ فَأَرْسَلَ إِلَيْهَا أَنَّ اللَّهَ قَدْ جَعَلَ فِي ذُرِّيَّتِهِ الْإِمَامَةَ وَالْوَلَايَةَ وَالْوَصِيَّةَ فَأَرْسَلَتْ إِلَيْهِ أَنِّي قَدْ رَضِيتُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তারপর জিবরাঈল عليه السلام আসমানের দিকে উঠে গেলেন, তারপর অবতীর্ণ হয়ে বললেন: “হে মুহাম্মদ, নিশ্চয়ই আপনার রব আপনাকে সালাম জানাচ্ছেন এবং আপনাকে সুসংবাদ দিচ্ছেন যে তিনি তাঁর বংশধরদের মধ্যে ইমামত, ওয়িলায়াত এবং ওসিয়ত স্থাপন করবেন।” তখন তিনি বললেন: “আমি সন্তুষ্ট।” তারপর তিনি ফাতিমার কাছে পাঠালেন যে আল্লাহ আমাকে তোমার গর্ভে জন্মগ্রহণকারী এক সন্তানের সুসংবাদ দিচ্ছেন, যাকে আমার উম্মত আমার পরে হত্যা করবে। তখন তিনি তাঁর কাছে উত্তর পাঠালেন: “আমার পক্ষ থেকে এমন সন্তানের আমার কোনো প্রয়োজন নেই, যাকে আপনার উম্মত আপনার পরে হত্যা করবে।” তারপর তিনি তাঁর কাছে পাঠালেন যে আল্লাহ তাঁর বংশধরদের মধ্যে ইমামত, ওয়িলায়াত এবং ওসিয়ত স্থাপন করেছেন। তখন তিনি তাঁর কাছে উত্তর পাঠালেন: “আমি সন্তুষ্ট।”",
-              "de": "Dann stieg Jibrāʾīl عليه السلام zum Himmel auf, dann stieg er herab und sagte: „O Muḥammad, gewiss übermittelt dir dein Herr den Frieden und verkündet dir, dass Er in seiner Nachkommenschaft das Imamat, die Wilayah und die Nachfolge einsetzen wird.“ Da sagte er: „Ich bin zufrieden.“ Dann sandte er an Fāṭimah, dass Allah mir die frohe Botschaft von einem Kind verkündet, das von dir geboren werden wird und das meine Gemeinschaft nach mir töten wird. Da sandte sie ihm zurück: „Ich habe kein Bedürfnis nach einem Kind von mir, das deine Gemeinschaft nach dir töten wird.“ Dann sandte er ihr, dass Allah in seiner Nachkommenschaft das Imamat, die Wilayah und die Nachfolge eingesetzt hat. Da sandte sie ihm zurück: „Ich bin zufrieden.“",
-              "en": "Then Jibrāʾīl عليه السلام ascended to the heaven, then descended and said: “O Muḥammad, indeed your Lord conveys peace to you and gives you glad tidings that He will place in his offspring the Imamate, the Wilayah, and the successorship.” So he said: “I am pleased.” Then he sent to Fāṭimah that Allah gives me glad tidings of a child to be born to you, whom my community will kill after me. So she sent back to him: “I have no need for a child from me whom your community will kill after you.” Then he sent to her that Allah has placed in his offspring the Imamate, the Wilayah, and the successorship. So she sent back to him: “I am pleased.”",
-              "es": "Luego Jibrāʾīl عليه السلام ascendió al cielo, luego descendió y dijo: “Oh Muḥammad, ciertamente tu Señor te transmite la paz y te anuncia que pondrá en su descendencia el Imamate, la Wilayah y la sucesión.” Entonces él dijo: “Estoy complacido.” Luego envió a Fāṭimah que Allah me anuncia la buena nueva de un hijo que nacerá de ti, a quien mi comunidad matará después de mí. Entonces ella le respondió: “No tengo necesidad de un hijo mío a quien tu comunidad mate después de ti.” Luego le envió que Allah ha puesto en su descendencia el Imamate, la Wilayah y la sucesión. Entonces ella le respondió: “Estoy complacida.”",
-              "fa": "سپس جبرئیل علیه السلام به آسمان عروج کرد، سپس فرود آمد و گفت: «ای محمد، همانا پروردگارت به تو سلام می‌رساند و تو را بشارت می‌دهد که در نسل او امامت، ولایت و وصایت را قرار خواهد داد.» پس فرمود: «راضی شدم.» سپس به فاطمه فرستاد که خداوند مرا به فرزندی که از تو متولد می‌شود و امت من پس از من او را خواهد کشت، بشارت می‌دهد. پس او در پاسخ به او فرستاد: «مرا نیازی به فرزندی از خودم نیست که امت تو پس از تو او را بکشد.» سپس به او فرستاد که خداوند در نسل او امامت، ولایت و وصایت را قرار داده است. پس او در پاسخ به او فرستاد: «راضی شدم.»",
-              "fr": "Puis Jibrāʾīl عليه السلام monta au ciel, puis descendit et dit : « Ô Muḥammad, certes ton Seigneur te salue et t’annonce qu’Il placera dans sa descendance l’Imamat, la Wilayah et la succession. » Il dit alors : « Je suis satisfait. » Puis il envoya à Fāṭimah que Allah m’annonce la bonne nouvelle d’un enfant qui naîtra de toi, que ma communauté tuera après moi. Elle lui répondit alors : « Je n’ai nul besoin d’un enfant de moi que ta communauté tuera après toi. » Puis il lui envoya qu’Allah a placé dans sa descendance l’Imamat, la Wilayah et la succession. Elle lui répondit alors : « Je suis satisfaite. »",
-              "id": "Kemudian Jibril عليه السلام naik ke langit, lalu turun dan berkata: “Wahai Muhammad, sesungguhnya Tuhanmu menyampaikan salam kepadamu dan memberi kabar gembira kepadamu bahwa Dia akan menjadikan dalam keturunannya imamah, wilayah, dan wasiat.” Maka beliau berkata: “Aku ridha.” Kemudian beliau mengirim kepada Fatimah bahwa Allah memberi kabar gembira kepadaku tentang seorang anak yang akan lahir darimu, yang akan dibunuh oleh umatku setelahku. Maka ia mengirim balasan kepadanya: “Aku tidak membutuhkan seorang anak dariku yang akan dibunuh oleh umatmu setelahmu.” Kemudian beliau mengirim kepadanya bahwa Allah telah menjadikan dalam keturunannya imamah, wilayah, dan wasiat. Maka ia mengirim balasan kepadanya: “Aku ridha.”",
-              "ru": "Затем Джибриль عليه السلام вознёсся на небо, затем нисшёл и сказал: «О Мухаммад, поистине твой Господь передаёт тебе мир и радует тебя вестью о том, что Он установит в его потомстве имамат, вилаят и преемство». Тогда он сказал: «Я доволен». Затем он послал к Фатиме, что Аллах радует меня вестью о ребёнке, который родится от тебя, и которого моя община убьёт после меня. Тогда она ответила ему: «Нет у меня нужды в ребёнке от меня, которого твоя община убьёт после тебя». Затем он послал ей, что Аллах установил в его потомстве имамат, вилаят и преемство. Тогда она ответила ему: «Я довольна».",
-              "tr": "Sonra Cibrîl عليه السلام göğe yükseldi, sonra indi ve şöyle dedi: “Ey Muhammed, şüphesiz Rabbin sana selam ediyor ve sana, onun zürriyetinde imameti, velayeti ve vasiyeti kılacağını müjdeliyor.” Bunun üzerine o şöyle dedi: “Razı oldum.” Sonra Fâtıma’ya, Allah’ın bana senden doğacak ve ümmetimin benden sonra öldüreceği bir çocuk müjdelediğini bildirdi. O da ona şöyle cevap gönderdi: “Senin ümmetinin senden sonra öldüreceği benden bir çocuk istemem.” Sonra ona, Allah’ın onun zürriyetinde imameti, velayeti ve vasiyeti kıldığını bildirdi. O da ona şöyle cevap gönderdi: “Razı oldum.”",
-              "ur": "پھر جبرائیل علیہ السلام آسمان کی طرف چڑھے، پھر نازل ہوئے اور فرمایا: “اے محمد، بے شک آپ کا رب آپ کو سلام کہتا ہے اور آپ کو بشارت دیتا ہے کہ وہ اس کی نسل میں امامت، ولایت اور وصایت قرار دے گا۔” تو انہوں نے فرمایا: “میں راضی ہوں۔” پھر انہوں نے فاطمہ کی طرف پیغام بھیجا کہ اللہ مجھے ایک بچے کی بشارت دیتا ہے جو تم سے پیدا ہوگا، جسے میری امت میرے بعد قتل کرے گی۔ تو انہوں نے جواب بھیجا: “مجھے اپنے سے ایسے بچے کی کوئی حاجت نہیں جسے آپ کی امت آپ کے بعد قتل کرے۔” پھر انہوں نے ان کی طرف پیغام بھیجا کہ اللہ نے اس کی نسل میں امامت، ولایت اور وصایت قرار دی ہے۔ تو انہوں نے جواب بھیجا: “میں راضی ہوں۔”",
-              "zh": "然后吉卜利勒 عليه السلام升到天上，随后降下并说：“穆罕默德啊，确实你的主向你致以平安，并向你报喜：他将在他的后裔中设立伊玛目职、威俩雅和继承权。”他说：“我已 رضيت。”然后他派人告诉法蒂玛：真主向我报喜，将有一个从你而生的孩子，而我的社群将在我之后杀害他。于是她回复他：“我不需要一个从我而生、并将被你的社群在你之后杀害的孩子。”然后他又派人告诉她：真主已在他的后裔中设立伊玛目职、威俩雅和继承权。于是她回复他：“我已 رضيت。”"
-            },
             "word_end": 159,
             "word_start": 91
           },
           {
             "arabic_text": "فَحَمَلَتْهُ أُمُّهُ كُرْهًا وَوَضَعَتْهُ كُرْهًا وَحَمْلُهُ وَفِصَالُهُ ثَلَاثُونَ شَهْرًا. حَتَّى إِذَا بَلَغَ أَشُدَّهُ وَبَلَغَ أَرْبَعِينَ سَنَةً قَالَ رَبِّ أَوْزِعْنِي أَنْ أَشْكُرَ نِعْمَتَكَ الَّتِي أَنْعَمْتَ عَلَيَّ وَعَلَى وَالِدَيَّ وَأَنْ أَعْمَلَ صَالِحًا تَرْضَاهُ وَأَصْلِحْ لِي فِي ذُرِّيَّتِي",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "অতঃপর তার মা তাকে কষ্টের সাথে গর্ভে ধারণ করলেন এবং কষ্টের সাথে প্রসব করলেন, আর তার গর্ভধারণ ও দুধ ছাড়ানো ছিল ত্রিশ মাস। অবশেষে যখন সে পূর্ণ শক্তিতে পৌঁছাল এবং চল্লিশ বছর বয়সে উপনীত হলো, তখন সে বলল: “হে আমার রব, আমাকে অনুপ্রাণিত করুন যেন আমি আপনার সেই নিয়ামতের শোকর আদায় করি যা আপনি আমার প্রতি এবং আমার পিতা-মাতার প্রতি অনুগ্রহ করেছেন, এবং যেন আমি এমন সৎকর্ম করি যা আপনি পছন্দ করেন, এবং আমার বংশধরদের মধ্যে আমার জন্য সংশোধন করুন।”",
-              "de": "So trug ihn seine Mutter mit Mühsal und brachte ihn mit Mühsal zur Welt, und seine Tragezeit und sein Abstillen betrugen dreißig Monate. Als er dann seine volle Kraft erreichte und vierzig Jahre alt wurde, sagte er: „Mein Herr, gib mir ein, für Deine Gnade dankbar zu sein, die Du mir und meinen Eltern erwiesen hast, und rechtschaffen zu handeln, womit Du zufrieden bist, und mache mir meine Nachkommenschaft recht.“",
-              "en": "So his mother bore him with hardship, and brought him forth with hardship, and his bearing and his weaning were thirty months. Until, when he reached his full strength and reached forty years, he said: “My Lord, inspire me to give thanks for Your blessing which You have bestowed upon me and upon my parents, and that I may do righteousness that pleases You, and set right for me in my offspring.”",
-              "es": "Entonces su madre lo حملó con dificultad y lo dio a luz con dificultad, y su gestación y su destete fueron de treinta meses. Hasta que, cuando alcanzó su plena fuerza y llegó a los cuarenta años, dijo: “Señor mío, inspírame para agradecer Tu favor con el que me has agraciado a mí y a mis padres, y para obrar rectamente de modo que Te complazca, y rectifica para mí en mi descendencia.”",
-              "fa": "پس مادرش او را با سختی حمل کرد و با سختی به دنیا آورد، و مدت حمل و از شیر گرفتن او سی ماه بود. تا آن‌گاه که به کمال قوت خود رسید و چهل ساله شد، گفت: «پروردگارا، مرا توفیق ده تا نعمتی را که بر من و بر پدر و مادرم ارزانی داشته‌ای شکر کنم، و کار شایسته‌ای انجام دهم که آن را بپسندی، و برای من در فرزندانم اصلاح قرار ده.»",
-              "fr": "Puis sa mère le porta avec peine et le mit au monde avec peine, et sa gestation ainsi que son sevrage durèrent trente mois. Jusqu’à ce que, lorsqu’il atteignit sa pleine vigueur et atteignit quarante ans, il dit : « Seigneur, inspire-moi de remercier Ton bienfait dont Tu m’as comblé, ainsi que mes père et mère, et de faire une œuvre pie qui Te plaise, et rectifie pour moi ma descendance. »",
-              "id": "Maka ibunya mengandungnya dengan susah payah dan melahirkannya dengan susah payah, dan masa mengandungnya serta penyusuannya adalah tiga puluh bulan. Hingga ketika ia mencapai kekuatan penuhnya dan mencapai usia empat puluh tahun, ia berkata: “Ya Tuhanku, ilhamkanlah kepadaku agar aku mensyukuri nikmat-Mu yang telah Engkau anugerahkan kepadaku dan kepada kedua orang tuaku, dan agar aku mengerjakan amal saleh yang Engkau ridhai, dan perbaikilah untukku dalam keturunanku.”",
-              "ru": "И его мать вынашивала его с трудом и родила его с трудом, а вынашивание его и отлучение от груди длились тридцать месяцев. Когда же он достиг своей полной силы и достиг сорока лет, он сказал: «Господи мой, внуши мне благодарить за Твою милость, которой Ты облагодетельствовал меня и моих родителей, и совершать праведное дело, которым Ты будешь доволен, и исправь для меня моё потомство».",
-              "tr": "Böylece annesi onu zorlukla taşıdı ve zorlukla doğurdu; onun حملı ve sütten kesilmesi otuz aydı. Nihayet tam gücüne erişip kırk yaşına geldiğinde dedi ki: “Rabbim, bana, bana ve anne-babama verdiğin nimetine şükretmeyi ilham et; Senin razı olacağın salih ameli işlemeyi de ilham et ve benim zürriyetimde benim için ıslah et.”",
-              "ur": "پس اس کی ماں نے اسے مشقت کے ساتھ حمل میں رکھا اور مشقت کے ساتھ اسے جنا، اور اس کا حمل اور دودھ چھڑانا تیس مہینے تھے۔ یہاں تک کہ جب وہ اپنی پوری قوت کو پہنچا اور چالیس سال کا ہوا تو اس نے کہا: “اے میرے رب، مجھے توفیق دے کہ میں تیری اس نعمت کا شکر ادا کروں جو تو نے مجھ پر اور میرے والدین پر کی ہے، اور یہ کہ میں ایسا نیک عمل کروں جس سے تو راضی ہو، اور میری اولاد میں میرے لیے اصلاح فرما۔”",
-              "zh": "于是他的母亲怀着艰难怀了他，又怀着艰难生下他；他的孕育和断奶共三十个月。直到他长大成人，达到四十岁时，他说：“我的主啊，求你启发我，使我感谢你赐予我和我父母的恩典，使我做你所喜悦的善行，并为我在我的后裔中安排正直。”"
-            },
             "word_end": 194,
             "word_start": 159
           },
           {
             "arabic_text": "فَلَوْ لَا أَنَّهُ قَالَ أَصْلِحْ لِي فِي ذُرِّيَّتِي لَكَانَتْ ذُرِّيَّتُهُ كُلُّهُمْ أَئِمَّةً. وَلَمْ يَرْضَعِ الْحُسَيْنُ مِنْ فَاطِمَةَ عَلَيْهَا السَّلَامُ وَلَا مِنْ أُنْثَى كَانَ يُؤْتَى بِهِ النَّبِيَّ فَيَضَعُ إِبْهَامَهُ فِي فِيهِ فَيَمُصُّ مِنْهَا مَا يَكْفِيهِ الْيَوْمَيْنِ وَالثَّلَاثَ فَنَبَتَ لَحْمُ الْحُسَيْنِ عَلَيْهِ السَّلَامُ مِنْ لَحْمِ رَسُولِ اللَّهِ وَدَمِهِ وَ لَمْ يُولَدْ لِسِتَّةِ أَشْهُرٍ إِلَّا عِيسَى ابْنُ مَرْيَمَ عَلَيْهِ السَّلَامُ وَالْحُسَيْنُ بْنُ عَلِيٍّ عَلَيْهِ السَّلَامُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আর যদি তিনি না বলতেন, “আমার বংশধরদের মধ্যে আমার জন্য সংশোধন করে দাও,” তবে তাঁর সব বংশধরই ইমাম হতো। আল-হুসাইন ফাতিমা عليها السلام-এর দুধ পান করেননি, কোনো নারীর দুধও পান করেননি। তাঁকে নবীর কাছে আনা হতো, আর তিনি তাঁর বুড়ো আঙুল তাঁর মুখে দিতেন, আর তিনি তা থেকে এমন পরিমাণ চুষতেন যা তাঁর দুই বা তিন দিনের জন্য যথেষ্ট হতো। ফলে আল-হুসাইন عليه السلام-এর মাংস আল্লাহর রাসূলের মাংস ও রক্ত থেকে বেড়ে উঠেছিল। আর ছয় মাসে জন্ম নিয়েছে এমন কেউ নেই, শুধু ʿঈসা ইবন মারইয়াম عليه السلام এবং আল-হুসাইন ইবন আলী عليه السلام ছাড়া।",
-              "de": "Und hätte er nicht gesagt: „Stelle für mich in meiner Nachkommenschaft das Rechte her“, dann wären alle seine Nachkommen Imame gewesen. Al-Ḥusayn trank nicht an Fāṭimah عليها السلام und auch nicht an irgendeiner Frau. Man brachte ihn zum Propheten, und er legte seinen Daumen in seinen Mund, und er sog daraus so viel, dass es ihm für zwei oder drei Tage genügte. So wuchs das Fleisch von al-Ḥusayn عليه السلام aus dem Fleisch und Blut des Gesandten Allahs. Und niemand wurde nach sechs Monaten geboren außer ʿĪsā ibn Maryam عليه السلام und al-Ḥusayn ibn ʿAlī عليه السلام.",
-              "en": "And had he not said, “Set right for me in my offspring,” all of his offspring would have been Imams. Al-Ḥusayn did not suckle from Fāṭimah عليها السلام, nor from any woman. He would be brought to the Prophet, and he would place his thumb in his mouth, and he would suck from it what sufficed him for two or three days. Thus the flesh of al-Ḥusayn عليه السلام grew from the flesh of the Messenger of Allah and his blood. And none was born at six months except ʿĪsā ibn Maryam عليه السلام and al-Ḥusayn ibn ʿAlī عليه السلام.",
-              "es": "Y si no hubiera dicho: «Corrige para mí en mi descendencia», toda su descendencia habría sido Imames. Al-Husayn no mamó de Fāṭimah عليها السلام, ni de ninguna mujer. Se le llevaba al Profeta, y él ponía su pulgar en su boca, y él chupaba de él lo que le bastaba para dos o tres días. Así, la carne de al-Husayn عليه السلام creció de la carne del Mensajero de Allah y de su sangre. Y no nació nadie a los seis meses excepto ʿĪsā ibn Maryam عليه السلام y al-Husayn ibn ʿAlī عليه السلام.",
-              "fa": "و اگر نمی‌گفت: «برای من در فرزندانم اصلاح قرار ده»، همهٔ فرزندانش امام می‌بودند. الحسین از فاطمه علیها السلام و نیز از هیچ زنی شیر نخورد. او را نزد پیامبر می‌آوردند و ایشان شست خود را در دهان او می‌گذاشتند و او از آن به اندازه‌ای می‌مکید که برای دو یا سه روزش کافی بود. پس گوشتِ الحسین علیه السلام از گوشت و خونِ رسول خدا رویید. و هیچ‌کس در شش‌ماهگی زاده نشد مگر عیسی بن مریم علیه السلام و الحسین بن علی علیه السلام.",
-              "fr": "Et s’il n’avait pas dit : « Répare pour moi dans ma descendance », toute sa descendance aurait été des Imams. Al-Ḥusayn n’a pas tété de Fāṭimah عليها السلام, ni d’aucune femme. On l’apportait au Prophète, qui mettait son pouce dans sa bouche, et il en suçait ce qui lui suffisait pour deux ou trois jours. Ainsi, la chair d’al-Ḥusayn عليه السلام a grandi de la chair du Messager d’Allah et de son sang. Et nul n’est né à six mois, sauf ʿĪsā ibn Maryam عليه السلام et al-Ḥusayn ibn ʿAlī عليه السلام.",
-              "id": "Dan sekiranya beliau tidak berkata, “Perbaikilah untukku dalam keturunanku,” niscaya seluruh keturunannya akan menjadi para Imam. Al-Husayn tidak menyusu dari Fāṭimah عليها السلام, dan juga tidak dari perempuan mana pun. Ia dibawa kepada Nabi, lalu beliau meletakkan ibu jarinya ke dalam mulutnya, dan ia mengisap darinya secukupnya untuk dua atau tiga hari. Maka daging al-Husayn عليه السلام tumbuh dari daging Rasul Allah dan darahnya. Dan tidak ada yang dilahirkan pada usia enam bulan kecuali ʿĪsā ibn Maryam عليه السلام dan al-Husayn ibn ʿAlī عليه السلام.",
-              "ru": "И если бы он не сказал: «Исправь для меня в моём потомстве», то все его потомки были бы имамами. Аль-Хусейн не сосал грудь у Фатимы عليها السلام и ни у какой женщины. Его приносили к Пророку, и он вкладывал свой большой палец ему в рот, а тот сосал из него столько, сколько ему хватало на два или три дня. Так плоть аль-Хусейна عليه السلام выросла из плоти и крови Посланника Аллаха. И никто не был рождён на шестом месяце, кроме ʿИсы ибн Марьям عليه السلام и аль-Хусейна ибн Али عليه السلام.",
-              "tr": "Ve eğer, “Benim için soyumda ıslah eyle” demeseydi, onun bütün soyundan olanlar imam olurdu. el-Hüseyin, Fâtıma عليها السلام’dan da hiçbir kadından da süt emmedi. O, Peygamber’e getirilir, o da başparmağını onun ağzına koyar, o da ondan iki ya da üç gün yetecek kadar emerdi. Böylece el-Hüseyin عليه السلام’ın eti, Allah Resûlü’nün etinden ve kanından büyüdü. Altı ayda doğan olmadı; ancak Îsâ ibn Meryem عليه السلام ve el-Hüseyin ibn Ali عليه السلام müstesna.",
-              "ur": "اور اگر انہوں نے یہ نہ فرمایا ہوتا: \"میرے لیے میری اولاد میں اصلاح فرما دے\"، تو ان کی تمام اولاد امام ہوتی۔ الحسین نے فاطمہ علیہا السلام سے دودھ نہیں پیا، اور نہ ہی کسی عورت سے۔ انہیں نبی کے پاس لایا جاتا، اور وہ اپنا انگوٹھا ان کے منہ میں رکھ دیتے، پھر وہ اس سے اتنا چوستے جو انہیں دو یا تین دن کے لیے کافی ہوتا۔ پس الحسین علیہ السلام کا گوشت رسول اللہ کے گوشت اور ان کے خون سے نشوونما پایا۔ اور چھ ماہ میں کوئی پیدا نہیں ہوا سوائے عیسیٰ بن مریم علیہ السلام اور الحسین بن علی علیہ السلام کے۔",
-              "zh": "如果他没有说“求你为我的后裔修正”，那么他的所有后裔都会成为伊玛目。侯赛因没有从法蒂玛 عليها السلام那里，也没有从任何妇女那里吮乳。人们把他带到先知那里，他把拇指放进他的口中，他便吸吮其中足以维持他两三天的量。于是侯赛因 عليه السلام的肉从真主使者的肉和血中长成。六个月出生的，除了尔撒·本·麦尔彦 عليه السلام和侯赛因·本·阿里 عليه السلام之外，没有别人。"
-            },
             "word_end": 256,
             "word_start": 194
           },
           {
             "arabic_text": "وَفِي رِوَايَةٍ أُخْرَى عَنْ أَبِي الْحَسَنِ الرِّضَا عَلَيْهِ السَّلَامُ أَنَّ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ كَانَ يُؤْتَى بِهِ الْحُسَيْنُ فَيُلْقِمُهُ لِسَانَهُ فَيَمُصُّهُ فَيَجْتَزِئُ بِهِ وَلَمْ يَرْتَضِعْ مِنْ أُنْثَى.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "আর আবূ আল-হাসান আল-রিদা عليه السلام থেকে অন্য এক বর্ণনায় এসেছে: আল-হুসাইনকে নবী صلى الله عليه وآله-এর কাছে আনা হতো, আর তিনি তাঁর জিহ্বা তাঁর মুখে দিতেন, আর তিনি তা চুষতেন এবং তাতেই সন্তুষ্ট থাকতেন; এবং তিনি কোনো নারীর দুধ পান করেননি।",
-              "de": "Und in einer anderen Überlieferung von Abū al-Ḥasan al-Riḍā عليه السلام: Al-Ḥusayn wurde zum Propheten صلى الله عليه وآله gebracht, und er legte seine Zunge in seinen Mund, und er sog daran und begnügte sich damit; und er trank nicht an irgendeiner Frau.",
-              "en": "And in another narration from Abū al-Ḥasan al-Riḍā عليه السلام: al-Ḥusayn would be brought to the Prophet صلى الله عليه وآله, and he would place his tongue in his mouth, and he would suck from it and suffice himself by it; and he did not suckle from any woman.",
-              "es": "Y en otra narración de Abū al-Ḥasan al-Riḍā عليه السلام: se llevaba a al-Husayn al Profeta صلى الله عليه وآله, y él ponía su lengua en su boca, y él la chupaba y se bastaba con ello; y no mamó de ninguna mujer.",
-              "fa": "و در روایتی دیگر از ابوالحسن الرضا علیه السلام: الحسین را نزد پیامبر صلى الله عليه وآله می‌آوردند، و ایشان زبان خود را در دهان او می‌گذاشتند، و او آن را می‌مکید و به همان بسنده می‌کرد؛ و از هیچ زنی شیر نخورد.",
-              "fr": "Et dans une autre narration d’Abū al-Ḥasan al-Riḍā عليه السلام : on apportait al-Ḥusayn au Prophète صلى الله عليه وآله, qui mettait sa langue dans sa bouche, et il la suçait et s’en contentait ; et il n’a tété d’aucune femme.",
-              "id": "Dan dalam riwayat lain dari Abū al-Ḥasan al-Riḍā عليه السلام: al-Husayn dibawa kepada Nabi صلى الله عليه وآله, lalu beliau memasukkan lidahnya ke dalam mulutnya, dan ia mengisapnya lalu mencukupkan diri dengannya; dan ia tidak menyusu dari perempuan mana pun.",
-              "ru": "И в другом предании от Абу аль-Хасана ар-Риды عليه السلام: аль-Хусейна приносили к Пророку صلى الله عليه وآله, и он вкладывал свой язык ему в рот, а тот сосал его и этим довольствовался; и он не сосал грудь ни у одной женщины.",
-              "tr": "Ve Ebü’l-Hasan er-Rızâ عليه السلام’dan gelen başka bir rivayette: el-Hüseyin, Peygamber صلى الله عليه وآله’e getirilir, o da dilini onun ağzına koyar, o da onu emer ve onunla yetinirdi; ve hiçbir kadından süt emmedi.",
-              "ur": "اور ایک دوسری روایت میں ابو الحسن الرضا علیہ السلام سے ہے: الحسین کو نبی صلی اللہ علیہ وآلہ کے پاس لایا جاتا، اور وہ اپنی زبان ان کے منہ میں رکھتے، اور وہ اسے چوستے اور اسی سے کفایت کر لیتے؛ اور انہوں نے کسی عورت سے دودھ نہیں پیا۔",
-              "zh": "并且在阿布·哈桑·里达 عليه السلام的另一段传述中：侯赛因被带到先知 صلى الله عليه وآله那里，他把自己的舌头放进他的口中，他便吸吮它并以此为足；他没有从任何妇女那里吮乳。"
-            },
             "word_end": 284,
             "word_start": 256
           }
@@ -201,60 +136,22 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْإِمَامَةَ": "the divinely appointed Imamate placed in his progeny",
-            "الْوَصِيَّةَ": "the successorship or designated trusteeship",
-            "الْوَلَايَةَ": "divinely granted authority and guardianship in his descendants",
-            "جَبْرَئِيلَ": "Jibrāʾīl عليه السلام, the angel who conveyed the divine message",
-            "ذُرِّيَّتِهِ": "his offspring or descendants",
-            "فِصَالُهُ": "his weaning",
-            "كُرْهًا": "with hardship or distress",
-            "مَوْلُودٍ": "a newborn child being given as glad tidings"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "جَبْرَئِيلَ",
+          "مَوْلُودٍ",
+          "الْإِمَامَةَ",
+          "الْوَلَايَةَ",
+          "الْوَصِيَّةَ",
+          "ذُرِّيَّتِهِ",
+          "كُرْهًا",
+          "فِصَالُهُ"
+        ],
         "related_quran": [
           {
             "ref": "46:15",
             "relationship": "explicit"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিসে ইমাম আল-হুসাইনের জন্ম, তাঁর শাহাদত, এবং তাঁর বংশধরদের মধ্যে ইমামত সম্পর্কে কী বলা হয়েছে?",
-          "de": "Wie beschreibt dieser Hadith die Ankündigung der Geburt von Imam al-Ḥusayn, seines Martyriums und des Imamat in seiner Nachkommenschaft?",
-          "en": "How does this hadith describe the foretelling of Imam al-Ḥusayn’s birth, martyrdom, and the Imamate in his progeny?",
-          "es": "¿Cómo describe este hadiz el anuncio del nacimiento del Imam al-Husayn, su martirio y el Imamate en su descendencia?",
-          "fa": "این حدیث درباره ولادت امام حسین، شهادت او و امامت در نسل او چه می‌گوید؟",
-          "fr": "Comment ce hadith décrit-il l’annonce de la naissance de l’Imam al-Ḥusayn, de son martyre et de l’Imamat dans sa descendance ?",
-          "id": "Apa yang dijelaskan hadis ini tentang kelahiran Imam al-Husayn, kesyahidannya, dan imamah dalam keturunannya?",
-          "ru": "Как этот хадис описывает предвестие рождения имама аль-Хусейна, его мученической гибели и имамата в его потомстве?",
-          "tr": "Bu hadis, İmam Hüseyin’in doğumu, şehadeti ve onun zürriyetindeki imamet hakkında ne anlatır?",
-          "ur": "یہ حدیث امام حسین علیہ السلام کی ولادت، ان کی شہادت، اور ان کی نسل میں امامت کے بارے میں کیا بیان کرتی ہے؟",
-          "zh": "这段圣训如何描述伊玛目侯赛因的诞生、殉难以及其后裔中的伊玛目职？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনায় বলা হয়েছে যে জিবরাঈল عليه السلام ইমাম আল-হুসাইন عليه السلام-এর জন্ম ও তাঁর শাহাদতের সুসংবাদ নিয়ে এসেছিলেন, এবং তাঁর বংশধরদের মধ্যে ইমামত, ওয়িলায়াত ও ওসিয়ত স্থাপিত হয়েছে; পাশাপাশি এটি একটি কুরআনিক আয়াত এবং ইমাম আল-হুসাইন عليه السلام-এর বিশেষ পুষ্টি ও অকাল জন্মের সঙ্গে ঘটনাটিকে যুক্ত করে।",
-          "de": "Diese Überlieferung beschreibt, wie Jibrāʾīl عليه السلام die frohe Botschaft von der Geburt von Imam al-Ḥusayn عليه السلام und seinem Martyrium brachte sowie die Ankündigung, dass das Imamat, die Wilayah und die Nachfolge in seiner Nachkommenschaft eingesetzt wurden; sie verbindet das Ereignis auch mit einer koranischen Stelle und erwähnt die besondere Ernährung und die frühe Geburt von al-Ḥusayn عليه السلام.",
-          "en": "This narration describes how Jibrāʾīl عليه السلام brought the glad tidings of the birth of al-Ḥusayn عليه السلام, together with the foretelling of his martyrdom, until the Messenger of Allah صلى الله عليه وآله and Fāṭimah عليها السلام accepted it because Allah had placed the Imamate, Wilayah, and successorship in his progeny. It also connects the event to a Qur'anic passage and mentions the special nourishment and early birth of al-Ḥusayn عليه السلام.",
-          "es": "Esta narración describe cómo Jibrāʾīl عليه السلام trajo la buena nueva del nacimiento del Imam al-Ḥusayn عليه السلام y de su martirio, así como el anuncio de que el Imamate, la Wilayah y la sucesión fueron establecidos en su descendencia; también vincula el hecho con un pasaje coránico y menciona la nutrición especial y el nacimiento prematuro de al-Ḥusayn عليه السلام.",
-          "fa": "این روایت بیان می‌کند که جبرئیل علیه السلام بشارت ولادت امام حسین علیه السلام و شهادت او را آورد و نیز خبر داد که امامت، ولایت و وصایت در نسل او قرار داده شده است؛ و این رخداد را به آیه‌ای از قرآن و نیز تغذیه ویژه و تولد زودهنگام امام حسین علیه السلام پیوند می‌دهد.",
-          "fr": "Ce récit décrit comment Jibrāʾīl عليه السلام apporta la bonne nouvelle de la naissance de l’Imam al-Ḥusayn عليه السلام et de son martyre, ainsi que l’annonce que l’Imamat, la Wilayah et la succession furent placés dans sa descendance ; il relie aussi cet événement à un passage coranique et mentionne la nourriture particulière et la naissance prématurée de al-Ḥusayn عليه السلام.",
-          "id": "Riwayat ini menjelaskan bahwa Jibril عليه السلام membawa kabar gembira tentang kelahiran Imam al-Husayn عليه السلام dan kesyahidannya, serta bahwa imamah, wilayah, dan wasiat dijadikan pada keturunannya; dan mengaitkan peristiwa itu dengan sebuah ayat Al-Qur'an serta penyusuan khusus dan kelahiran dini al-Husayn عليه السلام.",
-          "ru": "Этот хадис описывает, как Джибриль عليه السلام принёс благую весть о рождении имама аль-Хусейна عليه السلام и о его мученической гибели, а также о том, что имамат, вилаят и преемство были установлены в его потомстве; он также связывает это событие с кораническим аятом и упоминает особое питание и преждевременное рождение аль-Хусейна عليه السلام.",
-          "tr": "Bu rivayet, Cibrîl عليه السلام’in İmam Hüseyin عليه السلام’ın doğumu ve şehadeti müjdesini, ayrıca onun zürriyetinde imamet, velayet ve vasiyetin قرار verilmesini anlattığını; bunu da bir Kur’an ayeti ve İmam Hüseyin عليه السلام’ın özel beslenmesi ve erken doğumuyla ilişkilendirdiğini بیان eder.",
-          "ur": "یہ روایت جبرائیل علیہ السلام کے ذریعے امام حسین علیہ السلام کی ولادت اور ان کی شہادت کی خبر، نیز ان کی نسل میں امامت، ولایت اور وصایت کے قرار دیے جانے کو بیان کرتی ہے، اور اسے ایک قرآنی آیت اور امام حسین علیہ السلام کی خاص پرورش و ابتدائی حالت سے جوڑتی ہے۔",
-          "zh": "这段传述描述了吉卜利勒 عليه السلام如何带来伊玛目侯赛因 عليه السلام诞生与殉难的喜讯，并告知其后裔中将被设立伊玛目职、威俩雅和继承权；它还将这一事件与一段《古兰经》经文联系起来，并提到侯赛因 عليه السلام的特殊喂养和早产。"
-        },
         "tags": [
           "theology",
           "quran_commentary",

@@ -18,61 +18,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ لَهُ أَيْضًا:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "সে তাকে আরও বলল:",
-              "de": "Er sagte ihm auch:",
-              "en": "He also said to him:",
-              "es": "También le dijo:",
-              "fa": "او به او نیز گفت:",
-              "fr": "Il lui dit aussi :",
-              "id": "Dia juga berkata kepadanya:",
-              "ru": "Он также сказал ему:",
-              "tr": "Ona ayrıca şunu söyledi:",
-              "ur": "اس نے اسے یہ بھی کہا:",
-              "zh": "他还对他说："
-            },
             "word_end": 3,
             "word_start": 0
           },
           {
             "arabic_text": "إِنَّ عَلَى بَابِي مَسْجِدًا يَكُونُ فِيهِ قَوْمٌ مُخَالِفُونَ مُعَانِدُونَ فَهُمْ يُمْسُونَ فِي الصَّلَاةِ وَأَنَا أُصَلِّي الْعَصْرَ ثُمَّ أَخْرُجُ فَأُصَلِّي مَعَهُمْ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমার দরজার কাছে একটি মসজিদ আছে যেখানে এমন লোকেরা আছে যারা বিরোধী এবং বিদ্বেষপূর্ণ। তারা সন্ধ্যায় সালাতে থাকে, এবং আমি আসর সালাত পড়ি, তারপর বের হয়ে তাদের সঙ্গে সালাত পড়ি।",
-              "de": "An meiner Tür ist eine Moschee, in der Menschen sind, die widersprechen und feindlich sind. Sie bleiben abends im Gebet, und ich bete das Asr-Gebet, dann gehe ich hinaus und bete mit ihnen.",
-              "en": "There is a mosque at my door in which there are people who oppose and are hostile. They remain in prayer in the evening, and I pray the Asr prayer, then go out and pray with them.",
-              "es": "Hay una mezquita en mi puerta donde hay personas que se oponen y son hostiles. Permanecen en oración por la tarde, y yo rezo la oración de Asr, luego salgo y rezo con ellos.",
-              "fa": "در درِ خانه‌ام مسجدی است که مردمی مخالف و لجوج در آن هستند. آنها در نماز عصر باقی می‌مانند و من نماز عصر را می‌خوانم، سپس بیرون می‌روم و با آنها نماز می‌خوانم.",
-              "fr": "Il y a une mosquée à ma porte où se trouvent des gens qui s'opposent et sont hostiles. Ils restent en prière le soir, et je prie la prière d'Asr, puis je sors et prie avec eux.",
-              "id": "Di depan pintuku ada sebuah masjid di mana ada orang-orang yang menentang dan bermusuhan. Mereka tetap dalam salat di malam hari, dan aku shalat salat Asr, kemudian keluar dan shalat bersama mereka.",
-              "ru": "У моей двери есть мечеть, в которой находятся люди, которые противятся и враждебны. Они остаются в молитве вечером, а я совершаю молитву Аср, затем выхожу и молюсь с ними.",
-              "tr": "Kapımda, karşı çıkan ve düşmanca davranan insanların bulunduğu bir mescit var. Akşam namazında kalırlar, ben ise önce Asr namazını kılar, sonra çıkarak onlarla birlikte namaz kılarım.",
-              "ur": "میرے دروازے پر ایک مسجد ہے جس میں ایسے لوگ ہیں جو مخالفت کرتے ہیں اور عناد رکھتے ہیں۔ وہ شام کے وقت نماز میں رہتے ہیں، اور میں عصر کی نماز پڑھتا ہوں، پھر باہر نکل کر ان کے ساتھ نماز پڑھتا ہوں۔",
-              "zh": "我门口有一座清真寺，里面有反对且敌对的人。他们傍晚时分守礼拜，我先礼拜عصر，然后出去与他们一起礼拜。"
-            },
             "word_end": 23,
             "word_start": 3
           },
           {
             "arabic_text": "فَقَالَ «أَمَا تَرْضَى أَنْ تُحْسَبَ لَكَ بِأَرْبَعٍ وَعِشْرِينَ صَلَاةً»",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তাহলে সে বলল: \"তুমি কি খুশি হবে না যে এটি তোমার জন্য চব্বিশটি সালাত হিসেবে গণ্য হবে?\"",
-              "de": "Da sagte er: „Würdest du nicht gerne, dass es dir als vierundzwanzig Gebete angerechnet wird?“",
-              "en": "So he said: \"Would you not be pleased that it be counted for you as twenty-four prayers?\"",
-              "es": "Entonces dijo: \"¿No te agradaría que se te cuente como veinticuatro oraciones?\"",
-              "fa": "پس گفت: «آیا راضی نیستی که برای تو به عنوان بیست و چهار نماز محسوب شود؟»",
-              "fr": "Alors il dit : « Ne serais-tu pas content que cela te soit compté comme vingt-quatre prières ? »",
-              "id": "Lalu dia berkata: \"Apakah kamu tidak senang jika itu dihitung untukmu sebagai dua puluh empat salat?\"",
-              "ru": "Он сказал: «Разве ты не будешь доволен, что это будет засчитано тебе как двадцать четыре молитвы?»",
-              "tr": "Bunun üzerine dedi ki: \"Yirmi dört namaz olarak sayılmasına razı olmaz mısın?\"",
-              "ur": "تو اس نے کہا: \"کیا تم خوش نہیں ہو گے کہ یہ تمہارے لیے چوبیس نمازوں کے برابر شمار ہو؟\"",
-              "zh": "于是他说：“你难道不愿意这被算作你二十四次礼拜吗？”"
-            },
             "word_end": 32,
             "word_start": 23
           }
@@ -95,27 +69,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الصَّلَاةِ": "the prayer, here referring to ritual salat",
-            "الْعَصْرَ": "the Asr prayer",
-            "بِأَرْبَعٍ وَعِشْرِينَ صَلَاةً": "as twenty-four prayers in reward",
-            "تُحْسَبَ": "to be counted or reckoned as reward",
-            "مَسْجِدًا": "a mosque, the place of congregational prayer",
-            "مُخَالِفُونَ": "those who differ in religious affiliation or position",
-            "مُعَانِدُونَ": "those who are hostile or obstinate"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "مَسْجِدًا",
+          "مُخَالِفُونَ",
+          "مُعَانِدُونَ",
+          "الصَّلَاةِ",
+          "الْعَصْرَ",
+          "تُحْسَبَ",
+          "بِأَرْبَعٍ وَعِشْرِينَ صَلَاةً"
+        ],
         "related_quran": [
           {
             "ref": "2:43",
@@ -130,32 +92,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "একবার সালাত আদায় করার পর অন্যদের সঙ্গে জামাতে সালাত পড়ার কি সওয়াব আছে?",
-          "de": "Gibt es eine Belohnung dafür, ein Gebet in der Gemeinschaft zu wiederholen, nachdem man es bereits gebetet hat?",
-          "en": "Is there reward in repeating a prayer with others in congregation after already praying it?",
-          "es": "¿Hay recompensa por repetir una oración con otros en congregación después de ya haberla rezado?",
-          "fa": "آیا پس از خواندن نماز، تکرار آن با دیگران در جماعت پاداش دارد؟",
-          "fr": "Y a-t-il une récompense à répéter une prière en congrégation après l'avoir déjà accomplie ?",
-          "id": "Apakah ada pahala dalam mengulangi salat bersama orang lain secara berjamaah setelah sudah melaksanakan salat itu?",
-          "ru": "Есть ли награда за повторение молитвы с другими в коллективе после того, как уже помолился?",
-          "tr": "Zaten namaz kıldıktan sonra başkalarıyla cemaat halinde namaz kılmanın sevabı var mı?",
-          "ur": "کیا پہلے سے نماز پڑھنے کے بعد دوسروں کے ساتھ جماعت میں نماز پڑھنے کا ثواب ہے؟",
-          "zh": "在已经礼拜后与他人一起集体礼拜有奖赏吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি এমন একটি দলের সঙ্গে সালাত পড়ার কথা বলে যারা বিরোধী, যেখানে আগে ব্যক্তিগতভাবে আসর সালাত আদায় করা হয়েছে। ইমাম علیہ السلام এর সওয়াব ও পুরস্কারের কথা উল্লেখ করেন যে, জামাতের সঙ্গে যোগ দিলে এটি গুণিতক পুরস্কার হিসেবে গণ্য হয়।",
-          "de": "Dieser Hadith behandelt das Gebet mit einer Gruppe, die als Gegner identifiziert wird, nachdem man das Asr-Gebet bereits einzeln verrichtet hat. Der Imam عليه السلام weist auf den Verdienst und die Belohnung hin, sich ihnen im Gemeinschaftsgebet anzuschließen, sodass es mit vervielfachter Belohnung gezählt wird.",
-          "en": "This hadith discusses praying with a group identified as opponents, after one has already performed the Asr prayer individually. The Imam عليه السلام indicates the merit and reward of joining them in congregational prayer, such that it is counted with multiplied reward.",
-          "es": "Este hadiz trata sobre rezar con un grupo identificado como opositores, después de haber realizado la oración de Asr individualmente. El Imam عليه السلام indica el mérito y la recompensa de unirse a ellos en oración congregacional, de modo que se cuenta con recompensa multiplicada.",
-          "fa": "این حدیث درباره نماز با گروهی مخالف است که پس از خواندن نماز عصر به صورت فردی، با آنها نماز جماعت خوانده می‌شود. امام علیه السلام به فضیلت و پاداش پیوستن به جماعت اشاره می‌کند که نماز چند برابر محسوب می‌شود.",
-          "fr": "Ce hadith parle de prier avec un groupe identifié comme opposants, après avoir déjà accompli la prière d'Asr individuellement. L'Imam عليه السلام indique le mérite et la récompense de les rejoindre en prière en congrégation, de sorte que cela soit compté avec une récompense multipliée.",
-          "id": "Hadis ini membahas tentang shalat bersama kelompok yang dianggap lawan, setelah seseorang sudah melaksanakan shalat Asr secara sendiri. Imam علیه السلام menunjukkan pahala dan ganjaran bergabung dengan mereka dalam salat berjamaah sehingga dihitung dengan pahala berlipat.",
-          "ru": "Этот хадис рассказывает о молитве с группой, идентифицированной как противники, после того как человек уже совершил молитву Аср индивидуально. Имам عليه السلام указывает на заслугу и награду за присоединение к ним в коллективной молитве, так что это считается с умноженной наградой.",
-          "tr": "Bu hadis, daha önce bireysel olarak Asr namazı kılındıktan sonra muhalif bir grupla birlikte namaz kılmayı anlatır. İmam علیه السلام, cemaatle katılmanın sevap ve mükafatını, namazın katlanarak sayılacağını belirtir.",
-          "ur": "یہ حدیث ایسے گروہ کے ساتھ نماز پڑھنے کے بارے میں ہے جو مخالف ہیں، جبکہ پہلے فرداً عصر کی نماز ادا کی گئی ہو۔ امام علیہ السلام اس کے ثواب اور اجر کی طرف اشارہ کرتے ہیں کہ جماعت میں شامل ہونے سے یہ نماز کئی گنا بڑھ جاتی ہے۔",
-          "zh": "这则圣训讲述了在已经单独礼拜عصر后，与被视为反对者的群体一起礼拜。الإمام عليه السلام指出加入他们的集体礼拜的功德和奖赏，使其被计为多倍的礼拜。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -17,80 +17,41 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رُوِيَ: «أَنَّهُ قَامَ أَبُو ذَرٍّ رَحْمَةُ اللَّهِ عَلَيْهِ عِنْدَ الْكَعْبَةِ فَقَالَ أَنَا جُنْدَبُ بْنُ السَّكَنِ فَاكْتَنَفَهُ النَّاسُ فَقَالَ لَوْ أَنَّ أَحَدَكُمْ أَرَادَ سَفَرًا لَاتَّخَذَ فِيهِ مِنَ الزَّادِ مَا يُصْلِحُهُ لِسَفَرِهِ فَتَزَوَّدُوا لِسَفَرِ يَوْمِ الْقِيَامَةِ أَمَا تُرِيدُونَ فِيهِ مَا يُصْلِحُكُمْ»",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং বর্ণিত হয়েছে: যে আবু জর, আল্লাহ তাঁর প্রতি রহমত করুন, কাবার পাশে দাঁড়িয়ে বললেন: আমি জুন্দব ইবনে আল-সাকান। তখন মানুষ তাঁর চারপাশে জমায়েত হল, এবং তিনি বললেন: তোমাদের মধ্যে যদি কেউ কোনো যাত্রার ইচ্ছা করে, তবে সে তার যাত্রার জন্য এমন খাদ্য নেবে যা তাকে তার যাত্রার জন্য সঠিক করবে। তাই কিয়ামতের দিনের যাত্রার জন্য প্রস্তুতি নাও। তোমরা কি সেখানে এমন কিছু চাও না যা তোমাদের সঠিক করবে?",
-              "de": "Es wird überliefert, dass Abū Dharr, möge Allah sich seiner erbarmen, bei der Kaʿba stand und sagte: Ich bin Jundab ibn al-Sakan. Dann versammelten sich die Leute um ihn, und er sagte: Wenn einer von euch eine Reise beabsichtigt, nimmt er dafür Vorräte mit, die ihn für seine Reise tauglich machen. So bereitet Vorräte für die Reise am Tag der Auferstehung vor. Wollt ihr nicht etwas, das euch dort tauglich macht?",
-              "en": "And it is narrated: that Abū Dharr, may Allah have mercy on him, stood by the Kaʿbah and said: I am Jundab ibn al-Sakan. Then the people gathered around him, and he said: If one of you intended a journey, he would take for it provisions that would set him right for his journey. So take provisions for the journey of the Day of Resurrection. Do you not desire therein that which will set you right?",
-              "es": "Y se narra: que Abū Dharr, que la misericordia de Allah sea con él, se paró junto a la Kaʿbah y dijo: Soy Jundab ibn al-Sakan. Entonces la gente se reunió a su alrededor, y él dijo: Si alguno de vosotros planea un viaje, tomaría provisiones que le sirvan para su viaje. Así que preparad provisiones para el viaje del Día de la Resurrección. ¿No deseáis en ello algo que os beneficie?",
-              "fa": "و روایت شده است که ابوذَر، رحمه الله علیه، کنار کعبه ایستاد و گفت: من جُندب بن السکن هستم. سپس مردم دور او جمع شدند و او گفت: اگر یکی از شما قصد سفر داشته باشد، برای سفرش غذایی می‌گیرد که او را برای سفرش اصلاح کند. پس برای سفر روز قیامت توشه بردارید. آیا در آن چیزی که شما را اصلاح کند نمی‌خواهید؟",
-              "fr": "Il est rapporté qu’Abū Dharr, que la miséricorde d’Allah soit sur lui, se tenait près de la Kaʿbah et disait : Je suis Jundab ibn al-Sakan. Alors les gens se rassemblèrent autour de lui, et il dit : Si l’un de vous envisage un voyage, il prendrait des provisions qui le mettraient en ordre pour son voyage. Préparez donc des provisions pour le voyage du Jour de la Résurrection. Ne désirez-vous pas en cela ce qui vous mettra en ordre ?",
-              "id": "Dan diriwayatkan: bahwa Abū Dharr, semoga Allah merahmatinya, berdiri di dekat Ka'bah dan berkata: Aku adalah Jundab ibn al-Sakan. Kemudian orang-orang berkumpul di sekitarnya, dan dia berkata: Jika salah satu dari kalian berniat melakukan perjalanan, dia akan membawa bekal yang akan memperbaiki perjalanannya. Maka persiapkanlah bekal untuk perjalanan Hari Kiamat. Apakah kalian tidak menginginkan sesuatu yang akan memperbaiki kalian di dalamnya?",
-              "ru": "Передаётся, что Абу Зарр, да помилует его Аллах, стоял у Каабы и сказал: Я Джундаб ибн ас-Сакан. Тогда люди собрались вокруг него, и он сказал: Если кто-то из вас собирается в путешествие, он возьмёт с собой провизию, которая пригодится ему в пути. Так приготовьте провизию для пути в День Воскресения. Разве вы не желаете иметь то, что исправит вас в тот день?",
-              "tr": "Ve rivayet edilmiştir ki: Ebû Zer, Allah ona rahmet etsin, Kâbe'nin yanında durdu ve dedi ki: Ben Cündeb ibn es-Sakan'ım. Sonra insanlar etrafını sardı ve dedi ki: Eğer biriniz yolculuk yapmayı düşünürse, yolculuğu için onu doğru kılacak erzak alır. O halde Kıyamet Günü yolculuğu için erzak hazırlayın. Orada sizi doğru kılacak şeyi istemez misiniz?",
-              "ur": "اور روایت ہے کہ ابوذر، رحمۃ اللہ علیہ، کعبہ کے پاس کھڑے ہوئے اور کہا: میں جندب ابن السکن ہوں۔ پھر لوگ ان کے گرد جمع ہوگئے، اور انہوں نے کہا: اگر تم میں سے کوئی سفر کا ارادہ کرے تو وہ اپنے سفر کے لیے ایسی خوراک لے گا جو اس کے سفر کے لیے مفید ہو۔ پس قیامت کے دن کے سفر کے لیے تیاری کرو۔ کیا تم اس میں وہ چیز نہیں چاہتے جو تمہیں درست کرے؟",
-              "zh": "据传：阿布扎尔愿安拉怜悯他站在圣殿旁说：我是军达布本萨坎。人们围绕他聚集，他说：你们中若有人打算旅行，会带上能使他旅途顺利的粮食。为复活日的旅程准备粮食吧。你们难道不想要能使你们顺利的东西吗？"
-            },
             "word_end": 40,
             "word_start": 0
           },
           {
             "arabic_text": "فَقَامَ إِلَيْهِ رَجُلٌ فَقَالَ أَرْشِدْنَا فَقَالَ صُمْ يَوْمًا شَدِيدَ الْحَرِّ لِلنُّشُورِ وَ حُجَّ حَجَّةً لِعَظَائِمِ الْأُمُورِ وَ صَلِّ رَكْعَتَيْنِ فِي سَوَادِ اللَّيْلِ، لِوَحْشَةِ الْقُبُورِ كَلِمَةُ خَيْرٍ تَقُولُهَا وَ كَلِمَةُ شَرٍّ تَسْكُتُ عَنْهَا أَوْ صَدَقَةٌ مِنْكَ عَلَى مِسْكِينٍ لَعَلَّكَ تَنْجُو بِهَا يَا مِسْكِينُ مِنْ يَوْمٍ عَسِيرٍ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তারপর একজন ব্যক্তি তাঁর কাছে দাঁড়িয়ে বলল: আমাদের পথ দেখাও। তিনি বললেন: পুনরুত্থানের জন্য এক অত্যন্ত গরম দিনে রোজা রাখো; মহান বিষয়গুলোর জন্য হজ করো; এবং কবরের একাকীত্বের জন্য রাতের অন্ধকারে দুই রাকাত নামাজ পড়ো; একটি ভাল কথা বলো, এবং একটি খারাপ কথা থেকে চুপ থাকো; অথবা তোমার পক্ষ থেকে একজন দরিদ্রের প্রতি দান করো—হয়তো এর মাধ্যমে, হে দরিদ্র, তুমি একটি কঠিন দিন থেকে বাঁচতে পারবে।",
-              "de": "Dann stand ein Mann auf und sagte: Führe uns. Er sagte: Fastet an einem sehr heißen Tag für die Auferstehung; vollzieht eine Pilgerfahrt für die großen Angelegenheiten; und betet zwei Rakʿahs in der Dunkelheit der Nacht für die Einsamkeit der Gräber; ein gutes Wort, das du sprichst, und ein böses Wort, von dem du schweigst; oder eine Spende von dir an einen Bedürftigen – vielleicht wirst du dadurch, o Armer, an einem schweren Tag gerettet.",
-              "en": "Then a man stood up to him and said: Guide us. He said: Fast on an intensely hot day for the Resurrection; perform a hajj for the tremendous matters; and pray two rakʿahs in the darkness of the night for the loneliness of the graves; a good word that you speak, and an evil word from which you remain silent; or charity from you to a needy person—perhaps by it, O poor one, you may be saved from a difficult day.",
-              "es": "Entonces un hombre se levantó y dijo: Guíanos. Él dijo: Ayuna en un día de intenso calor para la Resurrección; realiza un hajj para los asuntos importantes; y reza dos rakʿahs en la oscuridad de la noche por la soledad de las tumbas; una palabra buena que digas, y una palabra mala de la que te abstengas; o una caridad tuya a un necesitado—quizás con ello, oh pobre, puedas salvarte de un día difícil.",
-              "fa": "سپس مردی به سوی او برخاست و گفت: ما را راهنمایی کن. او گفت: در روزی بسیار گرم برای قیامت روزه بگیر؛ برای امور عظیم حج انجام بده؛ و در تاریکی شب دو رکعت نماز بخوان برای تنهایی قبرها؛ کلام نیکویی که می‌گویی و کلام بدی که از گفتنش خودداری می‌کنی؛ یا صدقه‌ای از طرف تو به نیازمندی—شاید به واسطه آن، ای فقیر، از روزی سخت نجات یابی.",
-              "fr": "Puis un homme se leva et dit : Guide-nous. Il dit : Jeûne un jour de chaleur intense pour la Résurrection ; accomplis un hajj pour les grandes affaires ; et prie deux rakʿahs dans l’obscurité de la nuit pour la solitude des tombes ; une bonne parole que tu prononces, et une parole mauvaise dont tu te tais ; ou une aumône de ta part à un nécessiteux — peut-être que par cela, ô pauvre, tu seras sauvé d’un jour difficile.",
-              "id": "Kemudian seorang pria berdiri di hadapannya dan berkata: Tunjukkanlah kami jalan. Dia berkata: Berpuasalah pada hari yang sangat panas untuk Kebangkitan; lakukan haji untuk urusan besar; dan shalatlah dua rakaat di kegelapan malam untuk kesepian kubur; ucapkanlah kata-kata baik, dan diamlah dari kata-kata buruk; atau sedekah dari kamu kepada orang yang membutuhkan—mungkin dengan itu, wahai orang miskin, kamu akan selamat dari hari yang sulit.",
-              "ru": "Тогда к нему встал человек и сказал: Наставь нас. Он сказал: Постись в очень жаркий день ради Воскресения; совершай хадж ради великих дел; и молись два ракаата в темноте ночи ради одиночества могил; произноси доброе слово и молчи о злых словах; или подай милостыню нуждающемуся — возможно, этим, о бедный, ты спасёшься в трудный день.",
-              "tr": "Sonra bir adam ona kalktı ve dedi ki: Bize rehberlik et. O dedi ki: Kıyamet için çok sıcak bir günde oruç tut; büyük meseleler için haccet; ve mezarların yalnızlığı için gecenin karanlığında iki rekat namaz kıl; söylediğin iyi bir söz ve susup kaldığın kötü bir söz; ya da muhtaç birine verdiğin sadaka—belki onunla, ey fakir, zor bir günden kurtulursun.",
-              "ur": "پھر ایک شخص ان کے پاس کھڑا ہوا اور کہا: ہمیں رہنمائی کرو۔ انہوں نے کہا: قیامت کے دن کے لیے شدید گرمی والے دن روزہ رکھو؛ عظیم امور کے لیے حج کرو؛ اور قبر کی تنہائی کے لیے رات کے سیاہ وقت میں دو رکعت نماز پڑھو؛ ایک اچھی بات کہو، اور ایک بری بات جس سے تم خاموش رہو؛ یا اپنے طرف سے کسی محتاج کو صدقہ دو—شاید اس سے، اے غریب، تم ایک مشکل دن سے بچ جاؤ۔",
-              "zh": "然后一人站起对他说：引导我们。他说：为复活日在极热天禁食；为重大事务行朝觐；为坟墓的孤独在夜色中祈祷两拜；说一句好话，默不作恶言；或向贫困者施舍——或许借此，贫穷者，你能从艰难日中得救。"
-            },
             "word_end": 85,
             "word_start": 40
           },
           {
             "arabic_text": "اِجْعَلِ الدُّنْيَا دِرْهَمَيْنِ دِرْهَمًا أَنْفَقْتَهُ عَلَى عِيَالِكَ وَ دِرْهَمًا قَدَّمْتَهُ لِآخِرَتِكَ وَ الثَّالِثُ يَضُرُّ وَ لَا يَنْفَعُ لَا تُرِدْهُ اِجْعَلِ الدُّنْيَا كَلِمَتَيْنِ كَلِمَةً فِي طَلَبِ الْحَلَالِ وَ كَلِمَةً لِلْآخِرَةِ وَ الثَّالِثَةُ تَضُرُّ وَ لَا تَنْفَعُ لَا تُرِدْهَا",
             "chunk_type": "body",
-            "translations": {
-              "bn": "দুনিয়াকে দুইটি দিরহামে ভাগ করো: একটি দিরহাম যা তুমি তোমার পরিবারের জন্য খরচ করবে, এবং একটি দিরহাম যা তুমি তোমার আখিরাতের জন্য পাঠাবে। তৃতীয়টি ক্ষতি করে এবং লাভ দেয় না, তাই তাকে চাও না। দুনিয়াকে দুইটি কথায় ভাগ করো: একটি কথা হালাল অনুসন্ধানে, এবং একটি কথা আখিরাতের জন্য। তৃতীয়টি ক্ষতি করে এবং লাভ দেয় না, তাই তাকে চাও না।",
-              "de": "Mach die Welt zu zwei Dirham: einen Dirham, den du für deine Angehörigen ausgibst, und einen Dirham, den du für dein Jenseits vorbereitest. Der Dritte schadet und nützt nicht, also begehre ihn nicht. Mach die Welt zu zwei Worten: ein Wort für die Suche nach dem Halal und ein Wort für das Jenseits. Der Dritte schadet und nützt nicht, begehre ihn nicht.",
-              "en": "Make the world into two dirhams: one dirham that you spend on your dependents, and one dirham that you send ahead for your Hereafter. The third harms and does not benefit, so do not desire it. Make the world into two words: a word in seeking the halal, and a word for the Hereafter. The third harms and does not benefit, so do not desire it.",
-              "es": "Haz del mundo dos dirhams: un dirham que gastes en tus dependientes, y un dirham que envíes para tu Más Allá. El tercero daña y no beneficia, así que no lo desees. Haz del mundo dos palabras: una palabra en busca de lo halal, y una palabra para el Más Allá. La tercera daña y no beneficia, no la desees.",
-              "fa": "دنیا را به دو درهم تقسیم کن: یک درهم را برای خرج کردن بر خانواده‌ات، و یک درهم را برای فرستادن به سوی آخرتت. سومی ضرر می‌رساند و سود نمی‌بخشد، پس آن را نخواه. دنیا را به دو کلمه تقسیم کن: یک کلمه در طلب حلال، و یک کلمه برای آخرت. سومی ضرر می‌رساند و سود نمی‌بخشد، آن را نخواه.",
-              "fr": "Fais du monde deux dirhams : un dirham que tu dépenses pour tes proches, et un dirham que tu prépares pour ton Au-delà. Le troisième nuit et ne profite pas, ne le désire pas. Fais du monde deux paroles : une parole pour chercher le halal, et une parole pour l’Au-delà. La troisième nuit et ne profite pas, ne la désire pas.",
-              "id": "Jadikan dunia menjadi dua dirham: satu dirham yang kamu belanjakan untuk keluargamu, dan satu dirham yang kamu persiapkan untuk akhiratmu. Yang ketiga merugikan dan tidak memberi manfaat, maka jangan menginginkannya. Jadikan dunia menjadi dua kata: satu kata untuk mencari yang halal, dan satu kata untuk akhirat. Yang ketiga merugikan dan tidak memberi manfaat, jangan menginginkannya.",
-              "ru": "Раздели мир на два дирхама: один дирхам, который ты тратишь на своих иждивенцев, и один дирхам, который ты готовишь для своего Последнего мира. Третий причиняет вред и не приносит пользы, не желай его. Раздели мир на два слова: слово в поисках халяля и слово для Последнего мира. Третий причиняет вред и не приносит пользы, не желай его.",
-              "tr": "Dünyayı iki dirheme böl: Bir dirhemini ailene harca, bir dirhemini ahiretine gönder. Üçüncüsü zarar verir ve fayda sağlamaz, onu isteme. Dünyayı iki kelimeye böl: Bir kelime helal arayışında, bir kelime ahiret için. Üçüncüsü zarar verir ve fayda sağlamaz, onu isteme.",
-              "ur": "دنیا کو دو درہم میں بانٹو: ایک درہم جو تم اپنے اہل خانہ پر خرچ کرو، اور ایک درہم جو تم اپنی آخرت کے لیے بھیجو۔ تیسرا نقصان پہنچاتا ہے اور فائدہ نہیں دیتا، اس لیے اسے مت چاہو۔ دنیا کو دو باتوں میں بانٹو: ایک بات حلال کی تلاش میں، اور ایک بات آخرت کے لیے۔ تیسری نقصان پہنچاتی ہے اور فائدہ نہیں دیتی، اسے مت چاہو۔",
-              "zh": "将世界分为两迪拉姆：一迪拉姆花在家人身上，一迪拉姆为后世预备。第三者有害无益，不要渴求。将世界分为两句话：一句寻求合法，一句为后世。第三者有害无益，不要渴求。"
-            },
             "word_end": 122,
             "word_start": 85
           },
           {
             "arabic_text": "ثُمَّ قَالَ قَتَلَنِي هَمُّ يَوْمٍ لَا أُدْرِكُهُ»",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তারপর তিনি বললেন: এমন এক দিনের চিন্তায় আমি মারা গেছি যা আমি পৌঁছাতে পারব না।",
-              "de": "Dann sagte er: Die Sorge um einen Tag, den ich nicht erreichen werde, hat mich getötet.",
-              "en": "Then he said: The worry of a day I will not reach has slain me.",
-              "es": "Luego dijo: La preocupación por un día que no alcanzaré me ha matado.",
-              "fa": "سپس گفت: نگرانی روزی که به آن نخواهم رسید مرا کشت.",
-              "fr": "Puis il dit : Le souci d’un jour que je n’atteindrai pas m’a tué.",
-              "id": "Kemudian dia berkata: Kegalauan akan hari yang tidak akan kucapai telah membunuhku.",
-              "ru": "Затем он сказал: Тревога о дне, которого я не достигну, убила меня.",
-              "tr": "Sonra dedi ki: Ulaşamayacağım bir günün endişesi beni öldürdü.",
-              "ur": "پھر انہوں نے کہا: ایک دن کی فکر نے مجھے مار ڈالا جسے میں پہنچ نہ سکوں گا۔",
-              "zh": "然后他说：我未能达到的一天的忧虑杀了我。"
-            },
             "word_end": 129,
             "word_start": 122
           }
@@ -124,28 +85,16 @@
             "phrase_en": "Mercy of Allah"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الزَّادِ": "provisions prepared for a journey, here meaning deeds stored for the Hereafter",
-            "الْحَلَالِ": "lawful sustenance and permissible earning",
-            "حُجَّ": "perform hajj, the pilgrimage to the Sacred House",
-            "صَدَقَةٌ": "charity given to a needy person for Allah’s sake",
-            "صَلِّ": "perform salat (prayer), here specifically two rakʿahs at night",
-            "صُمْ": "fast; an act of worship undertaken for divine reward",
-            "لِآخِرَتِكَ": "for your Hereafter, meaning what is sent ahead in righteous deeds",
-            "يَوْمِ الْقِيَامَةِ": "the Day of Resurrection when people are raised and judged"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الزَّادِ",
+          "يَوْمِ الْقِيَامَةِ",
+          "صُمْ",
+          "حُجَّ",
+          "صَلِّ",
+          "صَدَقَةٌ",
+          "الْحَلَالِ",
+          "لِآخِرَتِكَ"
+        ],
         "related_quran": [
           {
             "ref": "2:197",
@@ -164,32 +113,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "আবু জরের মতে, একজন বিশ্বাসী কিয়ামতের দিনের যাত্রার জন্য কীভাবে প্রস্তুতি নেবে?",
-          "de": "Wie sollte sich ein Gläubiger laut Abū Dharr auf die Reise am Tag der Auferstehung vorbereiten?",
-          "en": "How should a believer prepare for the journey of the Day of Resurrection according to Abū Dharr?",
-          "es": "Según Abū Dharr, ¿cómo debe un creyente prepararse para el viaje del Día de la Resurrección?",
-          "fa": "بر اساس گفته ابوذَر، یک مؤمن چگونه باید برای سفر روز قیامت آماده شود؟",
-          "fr": "Selon Abū Dharr, comment un croyant doit-il se préparer pour le voyage du Jour de la Résurrection ?",
-          "id": "Menurut Abū Dharr, bagaimana seorang mukmin harus mempersiapkan perjalanan Hari Kiamat?",
-          "ru": "Как, согласно Абу Зарру, верующий должен подготовиться к пути в День Воскресения?",
-          "tr": "Ebû Zer’e göre bir mümin Kıyamet Günü yolculuğuna nasıl hazırlanmalıdır?",
-          "ur": "ابوذر کے مطابق مومن کو قیامت کے دن کے سفر کی تیاری کیسے کرنی چاہیے؟",
-          "zh": "根据阿布扎尔，信士应如何为复活日的旅程做准备？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে আবু জর, আল্লাহ তাঁর প্রতি রহমত করুন, মানুষকে শেষদিনের জন্য প্রস্তুত হতে বলেন যেমন তারা দুনিয়ার যাত্রার জন্য খাদ্য প্রস্তুত করে। তিনি ইবাদত, ভাষায় নিয়ন্ত্রণ, দান, হালাল উপার্জন এবং দুনিয়ার ব্যাপারে মধ্যপন্থাকে কিয়ামতের দিনে মুক্তির উপায় হিসেবে তুলে ধরেন।",
-          "de": "Dieser Hadith zeigt Abū Dharr, möge Allah sich seiner erbarmen, der die Menschen ermahnt, sich auf das Jenseits vorzubereiten, so wie sie Vorräte für eine weltliche Reise vorbereiten würden. Er hebt Anbetungshandlungen, Zurückhaltung im Reden, Wohltätigkeit, erlaubte Einnahmen und Mäßigung in weltlichen Angelegenheiten als Mittel zur Rettung am Tag der Auferstehung hervor.",
-          "en": "This hadith presents Abū Dharr, رحمه الله, exhorting people to prepare for the afterlife just as they would prepare provisions for a worldly journey. He highlights acts of worship, restraint in speech, charity, lawful earning, and moderation in worldly concerns as means of salvation on the Day of Resurrection.",
-          "es": "Este hadiz presenta a Abū Dharr, que la misericordia de Allah sea con él, exhortando a las personas a prepararse para la otra vida tal como prepararían provisiones para un viaje terrenal. Destaca actos de adoración, moderación en el habla, caridad, ganancia lícita y moderación en asuntos mundanos como medios de salvación en el Día de la Resurrección.",
-          "fa": "این حدیث ابوذَر، رحمه الله علیه، را نشان می‌دهد که مردم را به آماده شدن برای آخرت همانند آماده کردن توشه برای سفر دنیوی ترغیب می‌کند. او اعمال عبادی، کنترل زبان، صدقه، کسب حلال و اعتدال در امور دنیوی را به عنوان راه‌های نجات در روز قیامت برجسته می‌کند.",
-          "fr": "Ce hadith présente Abū Dharr, que la miséricorde d’Allah soit sur lui, exhortant les gens à se préparer pour l’au-delà comme ils prépareraient des provisions pour un voyage terrestre. Il met en avant les actes d’adoration, la retenue dans la parole, la charité, le gain licite et la modération dans les affaires mondaines comme moyens de salut au Jour de la Résurrection.",
-          "id": "Hadis ini menyajikan Abū Dharr, semoga Allah merahmatinya, yang menyeru orang untuk mempersiapkan akhirat seperti mereka mempersiapkan bekal untuk perjalanan duniawi. Dia menekankan ibadah, menahan diri dalam ucapan, sedekah, penghasilan halal, dan moderasi dalam urusan dunia sebagai sarana keselamatan pada Hari Kiamat.",
-          "ru": "Этот хадис представляет Абу Зарра, да помилует его Аллах, призывающего людей готовиться к загробной жизни так же, как они готовят провизию для мирского путешествия. Он подчеркивает акты поклонения, сдержанность в речи, милостыню, законный заработок и умеренность в мирских делах как средства спасения в День Воскресения.",
-          "tr": "Bu hadis, Ebû Zer, rahmetullahi aleyh, insanların ahiret için tıpkı dünya yolculuğu için erzak hazırladıkları gibi hazırlanmalarını öğütler. O, ibadetleri, sözde ölçüyü, sadakayı, helal kazancı ve dünya işlerinde ölçülülüğü Kıyamet Günü kurtuluş yolları olarak vurgular.",
-          "ur": "یہ حدیث ابوذر، رحمۃ اللہ علیہ، کی طرف سے لوگوں کو آخرت کی تیاری کی تلقین پیش کرتی ہے جیسے وہ دنیاوی سفر کے لیے خوراک تیار کرتے ہیں۔ وہ عبادات، زبان پر قابو، صدقہ، حلال کمانے، اور دنیاوی معاملات میں اعتدال کو قیامت کے دن نجات کے ذرائع کے طور پر اجاگر کرتے ہیں۔",
-          "zh": "此圣训展示了阿布扎尔愿安拉怜悯他，劝诫人们为来世做准备，就如同他们为世间旅程准备粮食一样。他强调崇拜行为、言语节制、施舍、合法收入和世事节制是复活日得救的途径。"
-        },
         "tags": [
           "ethics",
           "worship",

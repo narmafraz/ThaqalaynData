@@ -15,42 +15,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ أَبِي نَصْرٍ عَنْ دَاوُدَ بْنِ سِرْحَانَ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ فِي",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, আহমদ ইবন মুহাম্মদ থেকে, আহমদ ইবন মুহাম্মদ ইবন আবি নসর থেকে, দাউদ ইবন সিরহান থেকে, আবু আবদিল্লাহ عليه السلام থেকে, এই বিষয়ে:",
-              "de": "Von ihm, von Ahmad ibn Muhammad, von Ahmad ibn Muhammad ibn Abi Nasr, von Dawud ibn Sirhan, von Abu Abdillah عليه السلام, über:",
-              "en": "From him, from Aḥmad ibn Muḥammad, from Aḥmad ibn Muḥammad ibn Abī Naṣr, from Dāwūd ibn Sirḥān, from Abī ʿAbdillāh عليه السلام, concerning:",
-              "es": "De él, de Ahmad ibn Muhammad, de Ahmad ibn Muhammad ibn Abi Nasr, de Dawud ibn Sirhan, de Abu Abdillah عليه السلام, acerca de:",
-              "fa": "از او، از احمد بن محمد، از احمد بن محمد بن ابی نصر، از داود بن سرحان، از ابی عبدالله علیه السلام، درباره:",
-              "fr": "De lui, d’Ahmad ibn Muhammad, d’Ahmad ibn Muhammad ibn Abi Nasr, de Dawud ibn Sirhan, d’Abu Abdillah عليه السلام, au sujet de :",
-              "id": "Darinya, dari Ahmad ibn Muhammad, dari Ahmad ibn Muhammad ibn Abi Nasr, dari Dawud ibn Sirhan, dari Abu Abdillah عليه السلام, tentang:",
-              "ru": "От него, от Ахмада ибн Мухаммада, от Ахада ибн Мухаммада ибн Аби Насра, от Дауда ибн Сирхана, от Абу Абдуллаха عليه السلام, о:",
-              "tr": "Ondan, Ahmed ibn Muhammed’den, Ahmed ibn Muhammed ibn Ebi Nasr’dan, Davud ibn Sirhan’dan, Ebu Abdullah عليه السلام’dan, şu konuda:",
-              "ur": "ان سے، احمد بن محمد سے، احمد بن محمد بن ابی نصر سے، داود بن سرحان سے، ابو عبداللہ علیہ السلام سے، اس بارے میں:",
-              "zh": "由他传述，传自AhmadibnMuhammad，传自AhmadibnMuhammadibnAbiNasr，传自DawudibnSirhan，传自AbuAbdillah عليه السلام，关于："
-            },
             "word_end": 23,
             "word_start": 0
           },
           {
             "arabic_text": "رَجُلٍ نَسِيَ الْأَذَانَ وَالْإِقَامَةَ حَتَّى دَخَلَ فِي الصَّلَاةِ، قَالَ: لَيْسَ عَلَيْهِ شَيْءٌ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এক ব্যক্তি আযান ও ইকামত ভুলে গেল, এমনকি সে সালাতের (নামাজের) মধ্যে প্রবেশ করল। তিনি বললেন: তার ওপর কিছু নেই।",
-              "de": "Ein Mann vergaß den adhān und die iqāmah, bis er in die salat (das Gebet) eingetreten war. Er sagte: Es ist nichts gegen ihn.",
-              "en": "A man forgot the adhān and the iqāmah until he had entered into the salat (prayer). He said: There is nothing upon him.",
-              "es": "Un hombre olvidó el adhán y la iqāmah hasta que hubo entrado en la salat (oración). Dijo: No hay nada sobre él.",
-              "fa": "مردی اذان و اقامه را فراموش کرد تا آن‌که وارد نماز شد. فرمود: بر او چیزی نیست.",
-              "fr": "Un homme oublia l’adhān et l’iqāmah jusqu’à ce qu’il soit entré dans la salat (prière). Il dit : Il n’y a rien à son sujet.",
-              "id": "Seorang laki-laki lupa adzan dan iqamah sampai ia telah masuk ke dalam salat (salat). Beliau bersabda: Tidak ada apa-apa atasnya.",
-              "ru": "Один человек забыл азан и икаму, пока уже не вошёл в салят (молитву). Он сказал: На нём нет ничего.",
-              "tr": "Bir adam, salata (namaza) girdiği ana kadar ezanı ve ikameti unuttu. O şöyle dedi: Onun üzerinde bir şey yoktur.",
-              "ur": "ایک آدمی اذان اور اقامت بھول گیا یہاں تک کہ وہ نماز میں داخل ہو گیا۔ آپ نے فرمایا: اس پر کچھ نہیں ہے۔",
-              "zh": "一个人忘记了adhan和iqamah，直到他已经进入salat（礼拜）之中。他说：他没有任何责任。"
-            },
             "word_end": 35,
             "word_start": 23
           }
@@ -113,25 +100,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الصَّلَاةِ": "the ritual salat (prayer)",
-            "الْأَذَانَ": "the call to prayer made before salat (prayer)",
-            "الْإِقَامَةَ": "the second call immediately before commencing salat (prayer)",
-            "لَيْسَ عَلَيْهِ شَيْءٌ": "no penalty, blame, or required remedy is upon him",
-            "نَسِيَ": "forgot or omitted unintentionally"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "نَسِيَ",
+          "الْأَذَانَ",
+          "الْإِقَامَةَ",
+          "الصَّلَاةِ",
+          "لَيْسَ عَلَيْهِ شَيْءٌ"
+        ],
         "related_quran": [
           {
             "ref": "2:286",
@@ -142,32 +117,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কেউ যদি সালাতে প্রবেশ করার পর আযান ও ইকামত ভুলে যায়, তাহলে তার বিধান কী?",
-          "de": "Wie lautet die Regel, wenn jemand den adhān und die iqāmah vergisst, bis er in die salat (das Gebet) eingetreten ist?",
-          "en": "What is the ruling if someone forgets the adhān and iqāmah until after entering the salat (prayer)?",
-          "es": "¿Cuál es la norma si alguien olvida el adhán y la iqāmah hasta después de entrar en la salat (oración)?",
-          "fa": "اگر کسی اذان و اقامه را تا پس از ورود به نماز فراموش کند، حکم او چیست؟",
-          "fr": "Quelle est la règle si quelqu’un oublie l’adhān et l’iqāmah jusqu’après être entré dans la salat (prière) ?",
-          "id": "Apa hukum jika seseorang lupa adzan dan iqamah sampai setelah masuk ke dalam salat (salat)?",
-          "ru": "Каково постановление, если человек забыл азан и икаму уже после входа в салят (молитву)?",
-          "tr": "Bir kimse salata girdikten sonra ezanı ve ikameti unutursa hükmü nedir?",
-          "ur": "اگر کوئی شخص نماز میں داخل ہونے کے بعد اذان اور اقامت بھول جائے تو اس کا حکم کیا ہے؟",
-          "zh": "如果有人在进入salat（礼拜）之后才忘记adhan和iqamah，教法律例是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি এমন ব্যক্তির সম্পর্কে একটি শরঈ বিধান জানায়, যে আযান ও ইকামত ভুলে যায়, এমনকি সে ইতিমধ্যে সালাতে প্রবেশ করে। এতে বলা হয়েছে যে এমন ক্ষেত্রে তার ওপর কোনো দায় বা সংশোধনমূলক ব্যবস্থা নেই।",
-          "de": "Dieser Hadith enthält eine rechtliche Regelung für denjenigen, der den adhān und die iqāmah vergisst, bis er bereits in die salat (das Gebet) eingetreten ist. Er besagt, dass ihn in einem solchen Fall keine Haftung und keine Ausgleichsmaßnahme trifft.",
-          "en": "This hadith gives a legal ruling about one who forgets the adhān and iqāmah until he has already entered the salat (prayer). It states that no liability or corrective measure is required of him in such a case.",
-          "es": "Este hadiz da una norma jurídica sobre quien olvida el adhán y la iqāmah hasta que ya ha entrado en la salat (oración). Establece que en tal caso no se le exige responsabilidad ni medida correctiva alguna.",
-          "fa": "این حدیث درباره کسی که اذان و اقامه را فراموش کند تا آن‌که وارد نماز شده باشد، حکمی فقهی بیان می‌کند. در چنین حالتی، بر او هیچ مسئولیت یا جبرانى لازم نیست.",
-          "fr": "Ce hadith donne une règle juridique concernant celui qui oublie l’adhān et l’iqāmah jusqu’à ce qu’il soit déjà entré dans la salat (prière). Il indique qu’aucune responsabilité ni mesure corrective ne lui incombe dans un tel cas.",
-          "id": "Hadis ini memberikan hukum syariat tentang orang yang lupa adzan dan iqamah sampai ia sudah masuk ke dalam salat (salat). Hadis ini menyatakan bahwa dalam keadaan seperti itu tidak ada tanggungan atau kewajiban perbaikan atasnya.",
-          "ru": "Этот хадис содержит правовое постановление относительно того, кто забыл азан и икаму, пока уже не вошёл в салят (молитву). В нём говорится, что в таком случае на нём нет никакой ответственности и не требуется никакой исправительной меры.",
-          "tr": "Bu hadis, ezanı ve ikameti namaza girdikten sonra unutan kişi hakkında bir fıkhî hüküm bildirir. Böyle bir durumda onun üzerine bir sorumluluk veya telafi gerekmediğini ifade eder.",
-          "ur": "یہ حدیث اس شخص کے بارے میں شرعی حکم بیان کرتی ہے جو اذان اور اقامت بھول جائے یہاں تک کہ وہ پہلے ہی نماز میں داخل ہو چکا ہو۔ اس میں کہا گیا ہے کہ ایسی صورت میں اس پر نہ کوئی ذمہ داری ہے اور نہ کوئی تلافی لازم ہے۔",
-          "zh": "这段圣训给出了关于一个人忘记adhan和iqamah直到已经进入salat（礼拜）时的教法律例。它说明在这种情况下，他不承担任何责任，也不需要任何补救措施。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

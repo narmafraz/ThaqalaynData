@@ -14,6 +14,138 @@
       "up": "/books/al-kafi:5:2:40"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ عَنْ مُحَمَّدِ بْنِ سِنَانٍ عَنْ أَبِي الْجَارُودِ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 15,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَمِعْتُ أَبَا جَعْفَرٍ ( عَلَيْهِ السَّلَام ) يَقُولُ قَالَ رَسُولُ اللَّهِ ( صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ ) لَا يَزْنِي الزَّانِي حِينَ يَزْنِي وَ هُوَ مُؤْمِنٌ وَ لَا يَسْرِقُ السَّارِقُ حِينَ يَسْرِقُ وَ هُوَ مُؤْمِنٌ وَ لَا يَنْهَبُ نُهْبَةً ذَاتَ شَرَفٍ حِينَ يَنْهَبُهَا وَ هُوَ مُؤْمِنٌ",
+            "chunk_type": "body",
+            "word_end": 60,
+            "word_start": 15
+          },
+          {
+            "arabic_text": "قَالَ ابْنُ سِنَانٍ قُلْتُ لِأَبِي الْجَارُودِ وَ مَا نُهْبَةٌ ذَاتُ شَرَفٍ قَالَ نَحْوُ مَا صَنَعَ حَاتِمٌ حِينَ قَالَ مَنْ أَخَذَ شَيْئاً فَهُوَ لَهُ",
+            "chunk_type": "body",
+            "word_end": 83,
+            "word_start": 60
+          }
+        ],
+        "content_type": "prophetic_tradition",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 29,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ الْحُسَيْنِ",
+              "name_en": "Muhammad ibn al-Husayn",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 42,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ سِنَانٍ",
+              "name_en": "Muhammad ibn Sinan",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 168,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي الْجَارُودِ",
+              "name_en": "Abu al-Jarud",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "قَالَ رَسُولُ اللَّهِ",
+            "phrase_en": "The Messenger of Allah said"
+          }
+        ],
+        "key_terms_keys": [
+          "يَزْنِي",
+          "يَسْرِقُ",
+          "يَنْهَبُ",
+          "مُؤْمِنٌ",
+          "نُهْبَةٌ ذَاتُ شَرَفٍ",
+          "حِين"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:86",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "49:6",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "24:2",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "theology",
+          "ethics",
+          "jurisprudence"
+        ],
+        "topics": [
+          "halal_haram",
+          "imams_biography",
+          "prophetic_character",
+          "sincerity"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (9/85)"
       ],
@@ -78,7 +210,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:2:40:3",

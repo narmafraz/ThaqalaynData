@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "قَالَ الصَّادِقُ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল-সাদিক, তাঁর উপর শান্তি বর্ষিত হোক, বললেন:",
-              "de": "Al-Sadiq, Friede sei mit ihm, sagte:",
-              "en": "Al-Sadiq, peace be upon him, said:",
-              "es": "Al-Sadiq, la paz sea con él, dijo:",
-              "fa": "امام الصادق علیه السلام فرمود:",
-              "fr": "Al-Sadiq, que la paix soit sur lui, a dit :",
-              "id": "Al-Sadiq, semoga keselamatan atasnya, berkata:",
-              "ru": "Аль-Садик, мир ему, сказал:",
-              "tr": "El-Sadık, üzerine selâm olsun, dedi ki:",
-              "ur": "اَلصَّادِق علیہ السلام نے فرمایا:",
-              "zh": "الصادقعليهالسلامقال:"
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "«مَا مِنْ أَحَدٍ يَمُوتُ أَحَبَّ إِلَى إِبْلِيسَ مِنْ مَوْتِ فَقِيهٍ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“কেউ নেই যার মৃত্যু ইবলিসের কাছে একজন ফাকিহের মৃত্যুর চেয়ে বেশি প্রিয়।”",
-              "de": "„Es gibt niemanden, dessen Tod Iblis mehr liebt als den Tod eines Faqih.“",
-              "en": "“There is no one whose death is more beloved to Iblis than the death of a faqih.”",
-              "es": "“No hay nadie cuya muerte sea más amada por Iblis que la muerte de un faqih.”",
-              "fa": "«هیچ‌کس نیست که مرگش نزد ابلیس محبوب‌تر از مرگ یک فقیه باشد.»",
-              "fr": "«Il n’y a personne dont la mort soit plus aimée par Iblis que la mort d’un faqih.»",
-              "id": "“Tidak ada seorang pun yang kematiannya lebih dicintai oleh Iblis daripada kematian seorang faqih.”",
-              "ru": "«Нет никого, чья смерть более любима Иблисом, чем смерть факиха.»",
-              "tr": "“İblis için bir fakihten daha sevilen bir ölüm yoktur.”",
-              "ur": "’’ایسا کوئی نہیں جس کی موت ابلیس کو فقہاء کی موت سے زیادہ محبوب ہو۔‘‘",
-              "zh": "“没有人比法学者的死亡更令易卜劣斯喜爱。”"
-            },
             "word_end": 14,
             "word_start": 4
           }
@@ -82,24 +69,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِبْلِيسَ": "Iblis, the satanic enemy of human guidance",
-            "الصَّادِقُ": "Imam Jaʿfar al-Sadiq عليه السلام, the speaker of the hadith",
-            "فَقِيهٍ": "a jurist-scholar possessing deep understanding of religion",
-            "مَوْتِ": "death, the passing away of a person"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الصَّادِقُ",
+          "إِبْلِيسَ",
+          "مَوْتِ",
+          "فَقِيهٍ"
+        ],
         "related_quran": [
           {
             "ref": "35:28",
@@ -110,32 +85,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কেন ফাকিহের মৃত্যু ইবলিসের কাছে বিশেষভাবে প্রিয়?",
-          "de": "Warum ist der Tod eines Faqih besonders geliebt von Iblis?",
-          "en": "Why is the death of a faqih especially beloved to Iblis?",
-          "es": "¿Por qué la muerte de un faqih es especialmente amada por Iblis?",
-          "fa": "چرا مرگ یک فقیه برای ابلیس به‌ویژه محبوب است؟",
-          "fr": "Pourquoi la mort d’un faqih est-elle particulièrement aimée d’Iblis ?",
-          "id": "Mengapa kematian seorang faqih sangat dicintai oleh Iblis?",
-          "ru": "Почему смерть факиха особенно любима Иблисом?",
-          "tr": "Fakihin ölümü İblis için neden özellikle sevilir?",
-          "ur": "فقیہ کی موت ابلیس کو خاص طور پر کیوں محبوب ہے؟",
-          "zh": "为什么法学者之死对易卜劣斯尤其喜爱？"
-        },
-        "summaries": {
-          "bn": "ইমাম আল-সাদিক عليه السلام ফাকিহের অপরিসীম গুরুত্ব শেখান এবং বলেন যে ইবলিস সবচেয়ে বেশি আনন্দ পায় ফাকিহের মৃত্যুর সময়। এই হাদিস ধর্মীয় জ্ঞান ও তার বাহকদের গুরুত্বপূর্ণ ভূমিকা তুলে ধরে যারা সম্প্রদায়কে বিভ্রান্তি থেকে রক্ষা করে।",
-          "de": "Imam al-Sadiq عليه السلام lehrt den immensen Wert des Faqih, indem er sagt, dass Iblis am meisten über den Tod einer solchen Person freut. Der Hadith hebt die zentrale Rolle des religiösen Wissens und seiner Träger beim Schutz der Gemeinschaft vor Irreführung hervor.",
-          "en": "Imam al-Sadiq عليه السلام teaches the immense value of the faqih by stating that Iblis most rejoices at the death of such a person. The hadith highlights the central role of religious knowledge and its bearers in protecting the community from misguidance.",
-          "es": "El Imam al-Sadiq عليه السلام enseña el inmenso valor del faqih al afirmar que Iblis se regocija más con la muerte de tal persona. El hadiz destaca el papel central del conocimiento religioso y sus portadores en proteger a la comunidad de la desviación.",
-          "fa": "امام الصادق علیه السلام ارزش عظیم فقیه را بیان می‌کند و می‌فرماید که ابلیس بیش از همه از مرگ فقیه خوشحال می‌شود. این حدیث نقش مرکزی دانش دینی و حاملان آن را در محافظت از جامعه در برابر گمراهی نشان می‌دهد.",
-          "fr": "L’Imam al-Sadiq عليه السلام enseigne la grande valeur du faqih en affirmant qu’Iblis se réjouit le plus de la mort d’une telle personne. Le hadith souligne le rôle central du savoir religieux et de ses porteurs dans la protection de la communauté contre l’égarement.",
-          "id": "Imam al-Sadiq علیه السلام mengajarkan nilai besar seorang faqih dengan menyatakan bahwa Iblis paling bergembira atas kematian orang tersebut. Hadis ini menyoroti peran sentral ilmu agama dan para pembawanya dalam melindungi umat dari kesesatan.",
-          "ru": "Имам аль-Садик عليه السلام учит огромной ценности факиха, утверждая, что Иблис больше всего радуется смерти такого человека. Хадис подчеркивает центральную роль религиозных знаний и их носителей в защите общины от заблуждений.",
-          "tr": "İmam el-Sadık علیه السلام, fıkıhın büyük değerini, İblis’in fıkıhın ölümünde en çok sevindiğini belirterek öğretir. Hadis, dini bilginin ve onun taşıyıcılarının toplumu sapkınlıktan korumadaki merkezi rolünü vurgular.",
-          "ur": "امام الصادق علیہ السلام فقہاء کی عظمت کو بیان فرماتے ہیں کہ ابلیس فقہاء کی موت پر سب سے زیادہ خوش ہوتا ہے۔ یہ حدیث دینی علم اور اس کے حاملین کے اہم کردار کو اجاگر کرتی ہے جو امت کو گمراہی سے بچاتے ہیں۔",
-          "zh": "伊玛目الصادقعليهالسلام通过指出易卜劣斯最喜悦法学者之死，教导了法学者的巨大价值。此圣训强调宗教知识及其承载者在保护社区免受误导中的核心作用。"
-        },
         "tags": [
           "knowledge",
           "ethics",

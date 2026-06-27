@@ -15,6 +15,128 @@
       "up": "/books/al-kafi:8:1:36"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "ابْنُ مَحْبُوبٍ عَنِ الْحَارِثِ بْنِ مُحَمَّدِ بْنِ النُّعْمَانِ عَنْ بُرَيْدٍ الْعِجْلِيِّ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 12,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُ أَبَا جَعْفَرٍ (عَلَيْهِ السَّلَامُ) عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ",
+            "chunk_type": "opening",
+            "word_end": 23,
+            "word_start": 12
+          },
+          {
+            "arabic_text": "وَيَسْتَبْشِرُونَ بِالَّذِينَ لَمْ يَلْحَقُوا بِهِمْ مِنْ خَلْفِهِمْ",
+            "chunk_type": "quran_quote",
+            "word_end": 30,
+            "word_start": 23
+          },
+          {
+            "arabic_text": "أَلَّا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ قَالَ هُمْ وَ اللَّهِ شِيعَتُنَا حِينَ صَارَتْ أَرْوَاحُهُمْ فِي الْجَنَّةِ وَ اسْتَقْبَلُوا الْكَرَامَةَ مِنَ اللَّهِ عَزَّ وَ جَلَّ عَلِمُوا وَ اسْتَيْقَنُوا أَنَّهُمْ كَانُوا عَلَى الْحَقِّ وَ عَلَى دِينِ اللَّهِ عَزَّ وَ جَلَّ وَ اسْتَبْشَرُوا بِمَنْ لَمْ يَلْحَقْ بِهِمْ مِنْ إِخْوَانِهِمْ مِنْ خَلْفِهِمْ مِنَ الْمُؤْمِنِينَ أَلَّا خَوْفٌ عَلَيْهِمْ وَ لَا هُمْ يَحْزَنُونَ.",
+            "chunk_type": "body",
+            "word_end": 87,
+            "word_start": 30
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 10,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنُ مَحْبُوبٍ",
+              "name_en": "Ibn Mahbub",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2505,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحَارِثِ بْنِ مُحَمَّدِ بْنِ النُّعْمَانِ",
+              "name_en": "al-Harith b. Muhammad b. al-Nu'man",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 262,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "بُرَيْدٍ الْعِجْلِيِّ",
+              "name_en": "Bureyd al-Ijli",
+              "position": 3,
+              "role": "companion"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "شِيعَتُنَا",
+          "الْحَقِّ",
+          "الْكَرَامَةَ",
+          "أَلَّا خَوْفٌ عَلَيْهِمْ",
+          "وَلَا هُمْ يَحْزَنُونَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:170",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "39:73",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "13:23",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "quran_commentary",
+          "theology",
+          "afterlife"
+        ],
+        "topics": [
+          "paradise_hell",
+          "quran_interpretation_method",
+          "imams_biography",
+          "community"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مهول</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 11)",
         "Shaykh Baqir al-Behbudi: <span>صحيح</span> - Sahih al-Kafi (3 / 389)"
@@ -78,7 +200,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:36:3",

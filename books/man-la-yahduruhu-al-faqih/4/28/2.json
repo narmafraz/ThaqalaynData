@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَىٰ مُحَمَّدُ بْنُ قَيْسٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ أَنَّهُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবনে কাইস আবু জাফর عليه السلام থেকে বর্ণনা করেছেন যে তিনি বললেন:",
-              "de": "Muḥammad ibn Qays berichtete von Abū Jaʿfar عليه السلام, dass er sagte:",
-              "en": "Muḥammad ibn Qays narrated from Abū Jaʿfar عليه السلام that he said:",
-              "es": "Muḥammad ibn Qays narró de Abū Jaʿfar عليه السلام que dijo:",
-              "fa": "محمد بن قیس از ابوجعفر علیه‌السلام روایت کرده که فرمود:",
-              "fr": "Muḥammad ibn Qays a rapporté d'Abū Jaʿfar عليه السلام qu'il a dit :",
-              "id": "Muḥammad ibn Qays meriwayatkan dari Abū Jaʿfar عليه السلام bahwa beliau berkata:",
-              "ru": "Мухаммад ибн Кайс передал от Абу Джафара عليه السلام, что он сказал:",
-              "tr": "Muhammed ibn Kays, Ebu Cafer (aleyhisselam)'den rivayet etti ki şöyle dedi:",
-              "ur": "محمد ابن قیص نے ابو جعفر علیہ السلام سے روایت کی کہ انہوں نے فرمایا:",
-              "zh": "穆罕默德本凯斯从阿布贾法尔عليهالسلام传述说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "فِي رَجُلٍ قَتَلَ أُمَّهُ قَالَ «إِذَا كَانَ خَطَأً فَإِنَّ لَهُ نَصِيبًا مِنْ مِيرَاثِهَا وَ إِنْ كَانَ قَتَلَهَا مُتَعَمِّدًا فَلَا يَرِثُ مِنْهَا شَيْئًا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন পুরুষ সম্পর্কে যিনি তার মাকে হত্যা করেছেন, তিনি বললেন: “যদি তা ভুলবশত হয়, তবে তার মিরাসে তার অংশ থাকে; কিন্তু যদি সে ইচ্ছাকৃতভাবে তাকে হত্যা করে, তবে সে তার থেকে কিছুই উত্তরাধিকার পায় না।”",
-              "de": "Bezüglich eines Mannes, der seine Mutter getötet hat, sagte er: „Wenn es ein Versehen war, hat er einen Anteil an ihrem Erbe; aber wenn er sie absichtlich getötet hat, erbt er nichts von ihr.“",
-              "en": "Regarding a man who killed his mother, he said: “If it was by mistake, then he has a share in her inheritance; but if he killed her intentionally, then he inherits nothing from her.”",
-              "es": "Respecto a un hombre que mató a su madre, dijo: “Si fue por error, entonces tiene una parte en su herencia; pero si la mató intencionalmente, no hereda nada de ella.”",
-              "fa": "در مورد مردی که مادرش را کشته بود، فرمود: «اگر به اشتباه بوده باشد، سهمی از ارث او دارد؛ اما اگر عمداً او را کشته باشد، از او ارث نمی‌برد.»",
-              "fr": "Concernant un homme qui a tué sa mère, il a dit : « Si c'était par erreur, alors il a une part dans son héritage ; mais s'il l'a tuée intentionnellement, il n'hérite rien d'elle. »",
-              "id": "Mengenai seorang pria yang membunuh ibunya, beliau berkata: “Jika itu karena kesalahan, maka dia memiliki bagian dari warisannya; tetapi jika dia membunuhnya dengan sengaja, maka dia tidak mewarisi apa pun darinya.”",
-              "ru": "Относительно мужчины, который убил свою мать, он сказал: «Если это было по ошибке, то он имеет долю в её наследстве; но если он убил её намеренно, то он ничего от неё не наследует.»",
-              "tr": "Annesini öldüren bir adam hakkında şöyle dedi: “Eğer kaza ile olduysa, mirasından pay alır; ancak kasıtlı olarak öldürdüyse, ondan hiçbir şey miras alamaz.”",
-              "ur": "ایک شخص کے بارے میں جس نے اپنی ماں کو قتل کیا، انہوں نے فرمایا: \"اگر یہ غلطی سے ہوا تو اسے اس کی میراث میں حصہ ملتا ہے؛ لیکن اگر اس نے جان بوجھ کر اسے قتل کیا تو وہ اس کی میراث میں سے کچھ نہیں پاتا۔\"",
-              "zh": "关于一个杀害自己母亲的男子，他说：“如果是误杀，那么他有权继承她的遗产；但如果是故意杀害，则不得继承她的任何财产。”"
-            },
             "word_end": 34,
             "word_start": 12
           }
@@ -91,25 +78,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "خَطَأً": "accidentally or unintentionally",
-            "لَا يَرِثُ": "he does not inherit",
-            "مُتَعَمِّدًا": "intentionally and deliberately",
-            "مِيرَاثِهَا": "her inheritance or estate",
-            "نَصِيبًا": "an allotted share"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "خَطَأً",
+          "نَصِيبًا",
+          "مِيرَاثِهَا",
+          "مُتَعَمِّدًا",
+          "لَا يَرِثُ"
+        ],
         "related_quran": [
           {
             "ref": "4:11",
@@ -128,32 +103,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "একজন পুত্র যদি ভুলবশত বা ইচ্ছাকৃতভাবে তার মাকে হত্যা করে, তাহলে সে কি তার থেকে উত্তরাধিকার পায়?",
-          "de": "Erbt ein Sohn von seiner Mutter, wenn er sie versehentlich oder absichtlich getötet hat?",
-          "en": "Does a son inherit from his mother if he killed her accidentally or intentionally?",
-          "es": "¿Hereda un hijo de su madre si la mató accidentalmente o intencionalmente?",
-          "fa": "آیا پسر در صورت قتل مادر به صورت سهوی یا عمدی از او ارث می‌برد؟",
-          "fr": "Un fils hérite-t-il de sa mère s'il l'a tuée accidentellement ou intentionnellement ?",
-          "id": "Apakah seorang anak laki-laki mewarisi dari ibunya jika dia membunuhnya secara tidak sengaja atau sengaja?",
-          "ru": "Наследует ли сын от матери, если он убил её случайно или намеренно?",
-          "tr": "Bir oğul annesini kazara mı yoksa kasıtlı mı öldürürse annesinden miras alır mı?",
-          "ur": "کیا بیٹا اپنی ماں سے وراثت پاتا ہے اگر اس نے اسے غلطی سے یا جان بوجھ کر قتل کیا ہو؟",
-          "zh": "儿子误杀或故意杀害母亲时，是否继承母亲遗产？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি মাতৃহত্যার ক্ষেত্রে উত্তরাধিকার সংক্রান্ত আইনি বিধান প্রদান করে। যদি হত্যাটি দুর্ঘটনাক্রমে হয়, তবে পুত্র তার উত্তরাধিকার অংশ পায়, কিন্তু যদি সে ইচ্ছাকৃতভাবে হত্যা করে, তবে সে উত্তরাধিকার থেকে বঞ্চিত হয়।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung zur Erbschaft im Falle von Muttermord. War die Tötung versehentlich, erhält der Sohn seinen Erbteil; war sie absichtlich, wird er vom Erbe ausgeschlossen.",
-          "en": "This hadith gives a legal ruling on inheritance in the case of matricide. If the killing was accidental, the son still receives his share of inheritance, but if he killed his mother deliberately, he is barred from inheriting from her.",
-          "es": "Este hadiz establece una regla legal sobre la herencia en caso de matricidio. Si el asesinato fue accidental, el hijo recibe su parte de la herencia, pero si fue intencional, queda excluido de heredar.",
-          "fa": "این حدیث حکم شرعی ارث در مورد قتل مادر را بیان می‌کند. اگر قتل سهوی باشد، پسر سهم خود را از ارث می‌برد، اما اگر عمدی باشد، از ارث محروم می‌شود.",
-          "fr": "Ce hadith donne un jugement légal sur l'héritage en cas de matricide. Si le meurtre est accidentel, le fils reçoit sa part d'héritage, mais s'il a tué délibérément, il est exclu de l'héritage.",
-          "id": "Hadis ini memberikan ketentuan hukum tentang warisan dalam kasus pembunuhan ibu. Jika pembunuhan tidak sengaja, anak laki-laki tetap menerima bagian warisannya, tetapi jika sengaja membunuh, dia dilarang mewarisi darinya.",
-          "ru": "Этот хадис устанавливает юридическое правило наследования в случае матрицидства. Если убийство было случайным, сын получает свою долю наследства, но если умышленным — он лишается наследства.",
-          "tr": "Bu hadis, annesini öldürme durumunda mirasla ilgili hukuki hükmü verir. Eğer öldürme kazayla olmuşsa, oğul miras payını alır; ancak kasıtlı ise mirastan mahrum kalır.",
-          "ur": "یہ حدیث ماں کو قتل کرنے کی صورت میں وراثت کے قانونی حکم کو بیان کرتی ہے۔ اگر قتل حادثاتی ہو تو بیٹا اپنی میراث کا حصہ پاتا ہے، لیکن اگر جان بوجھ کر قتل کیا تو وہ میراث سے محروم ہو جاتا ہے۔",
-          "zh": "此圣训对母亲被杀情况下的继承作出法律裁决。若为误杀，儿子仍得继承份额；若为故意杀害，则不得继承。"
-        },
         "tags": [
           "jurisprudence",
           "family",

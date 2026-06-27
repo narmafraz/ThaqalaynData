@@ -13,6 +13,130 @@
       "up": "/books/al-kafi:4:1:38"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنْ أَبِيهِ عَنْ مُعَمَّرِ بْنِ خَلَّادٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 10,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "كَانَ أَبُو الْحَسَنِ الرِّضَا ( عَلَيْهِ السَّلَامُ ) إِذَا أَكَلَ أُتِيَ بِصَحْفَةٍ فَتُوضَعُ بِقُرْبِ مَائِدَتِهِ فَيَعْمِدُ إِلَى أَطْيَبِ الطَّعَامِ مِمَّا يُؤْتَى بِهِ فَيَأْخُذُ مِنْ كُلِّ شَيْ‏ءٍ شَيْئاً فَيَضَعُ فِي تِلْكَ الصَّحْفَةِ ثُمَّ يَأْمُرُ بِهَا لِلْمَسَاكِينِ",
+            "chunk_type": "body",
+            "word_end": 45,
+            "word_start": 10
+          },
+          {
+            "arabic_text": "فَلَا اقْتَحَمَ الْعَقَبَةَ",
+            "chunk_type": "quran_quote",
+            "word_end": 48,
+            "word_start": 45
+          },
+          {
+            "arabic_text": "ثُمَّ يَقُولُ عَلِمَ اللَّهُ عَزَّ وَ جَلَّ أَنَّهُ لَيْسَ كُلُّ إِنْسَانٍ يَقْدِرُ عَلَى عِتْقِ رَقَبَةٍ فَجَعَلَ لَهُمُ السَّبِيلَ إِلَى الْجَنَّةِ",
+            "chunk_type": "closing",
+            "word_end": 68,
+            "word_start": 48
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدُ بْنُ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 229,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُعَمَّرِ بْنِ خَلَّادٍ",
+              "name_en": "Mu'ammar ibn Khallad",
+              "position": 3,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الصَّحْفَة",
+          "أَطْيَبِ الطَّعَامِ",
+          "لِلْمَسَاكِينِ",
+          "فَلَا اقْتَحَمَ الْعَقَبَةَ",
+          "عِتْقِ رَقَبَةٍ",
+          "السَّبِيلَ إِلَى الْجَنَّةِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "90:11",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "90:12",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "76:8",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "social_relations",
+          "quran_commentary"
+        ],
+        "topics": [
+          "charity",
+          "imams_biography",
+          "paradise_hell",
+          "quran_interpretation_method",
+          "poverty_wealth"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> صحيح   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (16/182)"
       ],
@@ -71,7 +195,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:4:1:38:12",

@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "يُونُسُ عَنْ مُحَمَّدِ بْنِ سِنَانٍ عَنِ الْعَلَاءِ بْنِ الْفُضَيْلِ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ইউনুস, মুহাম্মাদ ইবন সিনান থেকে, তিনি আল-আলা ইবন আল-ফুদাইল থেকে, তিনি আবি আবদিল্লাহ عليه السلام থেকে:",
-              "de": "Yunus, von Muhammad ibn Sinan, von al-‘Ala’ ibn al-Fudayl, von Abi ‘Abdillah عليه السلام:",
-              "en": "Yūnus, from Muḥammad ibn Sinān, from al-ʿAlāʾ ibn al-Fuḍayl, from Abī ʿAbdillāh عليه السلام:",
-              "es": "Yunus, de Muhammad ibn Sinan, de al-‘Ala’ ibn al-Fudayl, de Abi ‘Abdillah عليه السلام:",
-              "fa": "یونس، از محمد بن سنان، از العلاء بن الفضیل، از ابی‌عبدالله علیه‌السلام:",
-              "fr": "Yunus, d’après Muhammad ibn Sinan, d’après al-‘Ala’ ibn al-Fudayl, d’après Abi ‘Abdillah عليه السلام :",
-              "id": "Yunus, dari Muhammad ibn Sinan, dari al-‘Ala’ ibn al-Fudayl, dari Abi ‘Abdillah عليه السلام:",
-              "ru": "Юнус, от Мухаммада ибн Синана, от аль-‘Аля ибн аль-Фудайля, от Аби ‘Абдуллаха عليه السلام:",
-              "tr": "Yunus, Muhammed ibn Sinan’dan, o da el-Alâ ibn el-Fudayl’den, o da Ebu Abdullah عليه السلام’den:",
-              "ur": "یونس، محمد بن سنان سے، وہ العلاء بن الفضیل سے، وہ ابی عبداللہ علیہ السلام سے:",
-              "zh": "尤努斯，传自穆罕默德·伊本·西南，传自阿勒阿·伊本·法达伊勒，传自阿比·阿卜杜拉 عليه السلام："
-            },
             "word_end": 15,
             "word_start": 0
           },
           {
             "arabic_text": "فِي رَجُلٍ يَقَعُ عَلَى بَهِيمَةٍ قَالَ فَقَالَ «لَيْسَ عَلَيْهِ حَدٌّ وَلَكِنْ تَعْزِيرٌ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন পুরুষের ব্যাপারে, যে একটি প্রাণীর সঙ্গে সহবাস করে, তিনি বললেন: “তার ওপর কোনো হদ্দ নেই, তবে তাআযীর আছে।”",
-              "de": "Über einen Mann, der mit einem Tier Geschlechtsverkehr hat, sagte er: „Es gibt keine Hadd-Strafe gegen ihn, aber es gibt ta‘zīr.“",
-              "en": "Regarding a man who has intercourse with an animal, he said: He said, “There is no hadd punishment upon him, but there is taʿzīr.”",
-              "es": "Acerca de un hombre que tiene relaciones con un animal, dijo: “No hay pena de hadd sobre él, pero sí ta‘zīr.”",
-              "fa": "دربارهٔ مردی که با حیوانی آمیزش می‌کند، فرمود: «بر او حدی نیست، ولی تعزیر هست.»",
-              "fr": "Au sujet d’un homme qui a des rapports avec un animal, il a dit : « Il n’y a pas de peine de hadd contre lui, mais il y a ta‘zīr. »",
-              "id": "Tentang seorang laki-laki yang berhubungan badan dengan seekor hewan, beliau bersabda: “Tidak ada hukuman hadd atasnya, tetapi ada ta‘zīr.”",
-              "ru": "О мужчине, который вступает в половую связь с животным, он сказал: «На нём нет наказания хадд, но есть таʿзир».",
-              "tr": "Bir adamın bir hayvanla cinsel ilişkide bulunması hakkında şöyle dedi: “Onun üzerine hadd cezası yoktur, fakat ta‘zîr vardır.”",
-              "ur": "ایک آدمی کے بارے میں جس نے جانور کے ساتھ جماع کیا، انہوں نے فرمایا: اس پر کوئی حد نہیں، لیکن تعزیر ہے۔",
-              "zh": "关于一个人与动物发生性交的人，他说：“对他没有hadd刑罚，但有taʿzīr。”"
-            },
             "word_end": 27,
             "word_start": 15
           }
@@ -104,25 +91,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بَهِيمَةٍ": "an animal; the object involved in the prohibited act",
-            "تَعْزِيرٌ": "a discretionary punishment determined by authority",
-            "حَدٌّ": "a fixed prescribed legal punishment",
-            "رَجُلٍ": "a man; the legal subject mentioned in the ruling",
-            "يَقَعُ": "has intercourse; here referring to committing the act"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رَجُلٍ",
+          "يَقَعُ",
+          "بَهِيمَةٍ",
+          "حَدٌّ",
+          "تَعْزِيرٌ"
+        ],
         "related_quran": [
           {
             "ref": "7:33",
@@ -133,32 +108,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে যে পুরুষ কোনো প্রাণীর সঙ্গে সহবাস করে, তার বিধান কী?",
-          "de": "Was ist die Regelung im schiitischen Hadith über einen Mann, der mit einem Tier Geschlechtsverkehr hat?",
-          "en": "What is the ruling in Shi'a hadith on a man who has intercourse with an animal?",
-          "es": "¿Cuál es la norma en el hadiz chií sobre un hombre que tiene relaciones con un animal?",
-          "fa": "حکمِ مردی که با حیوانی آمیزش می‌کند در حدیث شیعه چیست؟",
-          "fr": "Quelle est la règle dans le hadith chiite concernant un homme qui a des rapports avec un animal ?",
-          "id": "Apa حكم seorang laki-laki yang berhubungan badan dengan seekor hewan dalam hadis Syiah?",
-          "ru": "Каково постановление в шиитском хадисе о мужчине, вступившем в половую связь с животным?",
-          "tr": "Şiî hadiste bir hayvanla cinsel ilişkiye giren erkeğin hükmü nedir?",
-          "ur": "شیعہ حدیث میں اس مرد کا کیا حکم ہے جو جانور کے ساتھ جماع کرے؟",
-          "zh": "什叶派圣训中关于与动物发生性交的男子的判定是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে এমন ব্যক্তির শরঈ বিধান বর্ণনা করা হয়েছে, যে কোনো প্রাণীর সঙ্গে সহবাস করে। এতে বলা হয়েছে যে এ ক্ষেত্রে নির্ধারিত হদ্দ প্রযোজ্য নয়, তবে তাআযীর আরোপ করা হয়।",
-          "de": "Dieser Hadith nennt eine rechtliche Regelung für denjenigen, der mit einem Tier Geschlechtsverkehr hat. Er besagt, dass die festgelegte Hadd-Strafe in diesem Fall nicht gilt, wohl aber eine Ermessensstrafe (ta‘zīr) verhängt wird.",
-          "en": "This hadith gives a legal ruling concerning one who commits intercourse with an animal. It states that the fixed hadd punishment does not apply in this case, but discretionary punishment (taʿzīr) is imposed.",
-          "es": "Este hadiz expone una norma jurídica sobre quien mantiene relaciones con un animal. Señala que en este caso no se aplica la pena fija de hadd, pero sí se impone una pena discrecional (ta‘zīr).",
-          "fa": "این حدیث حکم فقهیِ کسی را بیان می‌کند که با حیوانی آمیزش کند. در آن آمده است که در این مورد حدّ معیّن جاری نمی‌شود، ولی تعزیر اعمال می‌گردد.",
-          "fr": "Ce hadith expose une règle juridique concernant celui qui a des rapports avec un animal. Il indique que la peine fixe de hadd ne s’applique pas dans ce cas, mais qu’une peine discrétionnaire (ta‘zīr) est infligée.",
-          "id": "Hadis ini menjelaskan حكم hukum bagi orang yang berhubungan badan dengan seekor hewan. Disebutkan bahwa hukuman hadd yang ditetapkan tidak berlaku dalam kasus ini, tetapi hukuman ta‘zīr dikenakan.",
-          "ru": "Этот хадис разъясняет правовое постановление относительно того, кто вступает в половую связь с животным. В нём говорится, что установленное наказание хадд в этом случае не применяется, но назначается таʿзир.",
-          "tr": "Bu hadis, bir hayvanla cinsel ilişkiye giren kimse hakkında fıkhî hükmü بیان eder. Buna göre bu durumda belirlenmiş hadd cezası uygulanmaz, fakat takdirî ceza (ta‘zîr) uygulanır.",
-          "ur": "یہ حدیث اس شخص کے بارے میں شرعی حکم بیان کرتی ہے جو جانور کے ساتھ جماع کرے۔ اس میں کہا گیا ہے کہ اس صورت میں مقررہ حد جاری نہیں ہوتی، لیکن تعزیری سزا دی جاتی ہے۔",
-          "zh": "这段圣训说明了关于与动物发生性交者的教法判定。它指出，在这种情况下不适用固定的hadd刑罚，但会施以酌情惩罚（taʿzīr）。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations",

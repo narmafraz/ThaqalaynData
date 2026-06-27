@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ عَلِيِّ بْنِ مَحْبُوبٍ عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ عَنْ وُهَيْبِ بْنِ حَفْصٍ عَنْ أَبِي بَصِيرٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন ‘আলী ইবন মাহবূব, মুহাম্মদ ইবন আল-হুসাইন থেকে, তিনি উহাইব ইবন হাফস থেকে, তিনি আবু বাসীর থেকে, তিনি আবু জা‘ফর عليه السلام থেকে।",
-              "de": "Muhammad ibn 'Ali ibn Mahbub, von Muhammad ibn al-Husayn, von Wuhaib ibn Hafs, von Abi Basir, von Abi Ja'far عليه السلام.",
-              "en": "Muhammad ibn 'Ali ibn Mahbub, from Muhammad ibn al-Husayn, from Wuhaib ibn Hafs, from Abi Basir, from Abi Ja'far عليه السلام.",
-              "es": "Muhammad ibn 'Ali ibn Mahbub, de Muhammad ibn al-Husayn, de Wuhaib ibn Hafs, de Abi Basir, de Abi Ya'far عليه السلام.",
-              "fa": "محمد بن علی بن محبوب، از محمد بن الحسین، از وهیب بن حفص، از ابوبصیر، از ابوجعفر علیه‌السلام.",
-              "fr": "Muhammad ibn 'Ali ibn Mahbub, d'après Muhammad ibn al-Husayn, d'après Wuhaib ibn Hafs, d'après Abi Basir, d'après Abi Ja'far عليه السلام.",
-              "id": "Muhammad ibn 'Ali ibn Mahbub, dari Muhammad ibn al-Husayn, dari Wuhaib ibn Hafs, dari Abi Basir, dari Abi Ja'far عليه السلام.",
-              "ru": "Мухаммад ибн 'Али ибн Махбуб, от Мухаммада ибн аль-Хусайна, от Вухайба ибн Хафса, от Аби Басира, от Аби Джа'фара عليه السلام.",
-              "tr": "Muhammed ibn Ali ibn Mahbub, Muhammed ibn el-Hüseyin'den, o Vuhayb ibn Hafs'tan, o Ebu Basir'den, o Ebu Ca'fer aleyhisselam'dan.",
-              "ur": "محمد بن علی بن محبوب، محمد بن الحسین سے، وہ وہیب بن حفص سے، وہ ابو بصیر سے، وہ ابو جعفر علیہ السلام سے۔",
-              "zh": "穆罕默德·伊本·阿里·伊本·马赫布卜，传自穆罕默德·伊本·侯赛因，传自乌海卜·伊本·哈夫斯，传自阿比·巴西尔，传自阿比·贾法尔 عليه السلام。"
-            },
             "word_end": 21,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنْ غُلَامٍ دَخَلَ دَارَ قَوْمٍ يَلْعَبُ فَوَقَعَ فِي بِئْرِهِمْ هَلْ يَضْمَنُونَ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আমি তাঁকে এক غلام সম্পর্কে জিজ্ঞেস করলাম, যে কিছু লোকের বাড়িতে খেলতে খেলতে ঢুকেছিল, তারপর তাদের কূপে পড়ে গিয়েছিল। তারা কি দায়ী?",
-              "de": "Ich fragte ihn nach einem غلام, der in das Haus einiger Leute hineinging, während er spielte, und dann in ihren Brunnen fiel. Sind sie haftbar?",
-              "en": "I asked him about a غلام who entered the house of some people playing, then fell into their well. Are they liable?",
-              "es": "Le pregunté acerca de un غلام que entró en la casa de unas personas mientras jugaba, y luego cayó en su pozo. ¿Son responsables?",
-              "fa": "از او دربارهٔ غلامی پرسیدم که وارد خانهٔ برخی مردم شد در حالی که بازی می‌کرد، سپس در چاه آنان افتاد. آیا آنان ضامن‌اند؟",
-              "fr": "Je lui ai demandé au sujet d’un غلام qui entra dans la maison de certaines personnes en jouant, puis tomba dans leur puits. Sont-ils responsables ?",
-              "id": "Aku bertanya kepadanya tentang seorang غلام yang masuk ke rumah beberapa orang ketika sedang bermain, lalu jatuh ke dalam sumur mereka. Apakah mereka bertanggung jawab?",
-              "ru": "Я спросил его о غلامе, который вошёл в дом некоторых людей, играя, а затем упал в их колодец. Несут ли они ответственность?",
-              "tr": "Ona, oynayan bazı insanların evine giren, sonra onların kuyusuna düşen bir gulam hakkında sordum. Onlar sorumlu mudur?",
-              "ur": "میں نے ان سے ایک غلام کے بارے میں پوچھا جو کچھ لوگوں کے گھر میں کھیلتے ہوئے داخل ہوا، پھر ان کے کنویں میں گر گیا۔ کیا وہ ذمہ دار ہیں؟",
-              "zh": "我问他关于一个 غلام，他在玩耍时进入一些人的家，然后掉进了他们的井里。他们要负责吗？"
-            },
             "word_end": 33,
             "word_start": 21
           },
           {
             "arabic_text": "قَالَ: «لَيْسَ يَضْمَنُونَ فَإِنْ كَانُوا مُتَّهَمِينَ ضَمِنُوا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: «তারা দায়ী নয়; তবে যদি তাদের বিরুদ্ধে সন্দেহ থাকে, তবে তারা দায়ী হবে।»",
-              "de": "Er sagte: «Sie sind nicht haftbar; wenn sie jedoch verdächtigt werden, sind sie haftbar.»",
-              "en": "He said: «They are not liable; but if they are suspected, they are liable.»",
-              "es": "Dijo: «No son responsables; pero si son sospechosos, entonces son responsables.»",
-              "fa": "فرمود: «آنان ضامن نیستند؛ ولی اگر مورد تهمت باشند، ضامن می‌شوند.»",
-              "fr": "Il dit : «Ils ne sont pas responsables ; mais s’ils sont soupçonnés, ils le sont.»",
-              "id": "Beliau bersabda: «Mereka tidak bertanggung jawab; tetapi jika mereka dicurigai, mereka bertanggung jawab.»",
-              "ru": "Он сказал: «Они не несут ответственности; но если они окажутся под подозрением, то несут ответственность».",
-              "tr": "Şöyle buyurdu: «Onlar sorumlu değildir; fakat şüphe altında olurlarsa sorumlu olurlar.»",
-              "ur": "انہوں نے فرمایا: «وہ ذمہ دار نہیں ہیں؛ لیکن اگر ان پر شبہ ہو تو وہ ذمہ دار ہوں گے۔»",
-              "zh": "他说：“他们不承担责任；但如果他们被怀疑，那么他们就要承担责任。”"
-            },
             "word_end": 40,
             "word_start": 33
           }
@@ -143,26 +117,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بِئْرِهِمْ": "their well",
-            "دَارَ": "the house or property of a people",
-            "ضَمِنُوا": "they became liable",
-            "غُلَامٍ": "a young boy",
-            "مُتَّهَمِينَ": "under suspicion or accused in a legally relevant sense",
-            "يَضْمَنُونَ": "they bear legal liability or compensation"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "غُلَامٍ",
+          "دَارَ",
+          "بِئْرِهِمْ",
+          "يَضْمَنُونَ",
+          "مُتَّهَمِينَ",
+          "ضَمِنُوا"
+        ],
         "related_quran": [
           {
             "ref": "4:58",
@@ -177,32 +139,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কোনো শিশু যদি মানুষের কূপে পড়ে যায়, তাহলে কি তারা দায়ী হবে?",
-          "de": "Sind sie haftbar, wenn ein Kind in ihren Brunnen fällt?",
-          "en": "Are people liable if a child falls into their well?",
-          "es": "¿Son responsables si un niño cae en su pozo?",
-          "fa": "آیا اگر کودکی در چاه مردم بیفتد، آنان ضامن‌اند؟",
-          "fr": "Sont-ils responsables si un enfant tombe dans leur puits ?",
-          "id": "Apakah orang-orang bertanggung jawab jika seorang anak jatuh ke dalam sumur mereka?",
-          "ru": "Несут ли они ответственность, если ребёнок упадёт в их колодец?",
-          "tr": "Bir çocuk insanların kuyusuna düşerse onlar sorumlu olur mu?",
-          "ur": "کیا اگر کوئی بچہ لوگوں کے کنویں میں گر جائے تو وہ ذمہ دار ہوں گے؟",
-          "zh": "如果一个孩子掉进他们的井里，他们要负责吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে কোনো غلام বা শিশু মানুষের কূপে পড়ে গেলে দায়বদ্ধতার শরঈ বিধান বর্ণনা করা হয়েছে। মূল বিধান হলো, তাদের দায়ী করা হয় না; তবে তাদের বিরুদ্ধে সন্দেহ থাকলে দায়বদ্ধতা প্রমাণিত হয়।",
-          "de": "Dieser Hadith erläutert eine rechtliche Regel zur Haftung, wenn ein غلام oder ein Kind in den Brunnen von Leuten fällt. Die Grundregel lautet, dass sie nicht haftbar gemacht werden; besteht jedoch Verdacht gegen sie, dann ist die Haftung gegeben.",
-          "en": "This hadith gives a legal ruling about liability when a child falls into a people's well. The basic ruling is that they are not held liable, unless there is cause for suspicion against them, in which case liability is established.",
-          "es": "Este hadiz expone una norma jurídica sobre la responsabilidad cuando un غلام o un niño cae en el pozo de unas personas. La regla básica es que no se les considera responsables, salvo que haya sospecha contra ellos, en cuyo caso la responsabilidad queda establecida.",
-          "fa": "این حدیث حکم فقهیِ مسئولیت را در صورتی بیان می‌کند که غلام یا کودکی در چاه مردم بیفتد. حکم اصلی این است که آنان ضامن نیستند، مگر آن‌که مورد تهمت و سوءظن باشند که در این صورت ضمان ثابت می‌شود.",
-          "fr": "Ce hadith expose une règle juridique concernant la responsabilité lorsqu’un غلام ou un enfant tombe dans le puits de gens. La règle de base est qu’ils ne sont pas tenus responsables, sauf s’il existe un soupçon à leur encontre, auquel cas la responsabilité est établie.",
-          "id": "Hadis ini memberikan hukum fikih tentang tanggung jawab ketika seorang غلام atau anak jatuh ke dalam sumur milik suatu kaum. Hukum dasarnya adalah mereka tidak dimintai tanggung jawab, kecuali jika ada kecurigaan terhadap mereka, maka tanggung jawab menjadi ثابت.",
-          "ru": "Этот хадис разъясняет правовое постановление об ответственности, когда غلام или ребёнок падает в колодец людей. Основное правило состоит в том, что их не считают ответственными, если только против них нет подозрения; в таком случае ответственность устанавливается.",
-          "tr": "Bu hadis, bir gulamın veya çocuğun bir topluluğun kuyusuna düşmesi halinde sorumlulukla ilgili fıkhî hükmü بیان eder. Asıl hüküm, onların sorumlu tutulmamasıdır; ancak şüphe varsa sorumluluk sabit olur.",
-          "ur": "یہ حدیث اس مسئلے کا شرعی حکم بیان کرتی ہے کہ اگر کوئی غلام یا بچہ لوگوں کے کنویں میں گر جائے تو اصل حکم یہ ہے کہ وہ ذمہ دار نہیں ہوتے، مگر اگر ان پر شبہ ہو تو ذمہ داری ثابت ہو جاتی ہے۔",
-          "zh": "这段圣训阐明了当一个 غلام或孩子掉进人们的井里时的责任判定。基本原则是他们不承担责任；但如果对他们有怀疑，则责任成立。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

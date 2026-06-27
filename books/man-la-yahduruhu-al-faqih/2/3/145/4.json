@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَفِي رِوَايَةِ مُعَاوِيَةَ بْنِ عَمَّارٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং মুআওয়িয়া ইবনে আম্মারের বর্ণনায়, আবু আব্দিল্লাহ عليه السلام থেকে:",
-              "de": "Und in der Überlieferung von Muʿāwiyah ibn ʿAmmār, von Abū ʿAbdillāh عليه السلام:",
-              "en": "And in the narration of Muʿāwiyah ibn ʿAmmār, from Abū ʿAbdillāh عليه السلام:",
-              "es": "Y en la narración de Muʿāwiyah ibn ʿAmmār, de Abū ʿAbdillāh عليه السلام:",
-              "fa": "و در روایت معاویه بن عمار، از ابوعبدالله علیه السلام:",
-              "fr": "Et dans la narration de Muʿāwiyah ibn ʿAmmār, de Abū ʿAbdillāh عليه السلام :",
-              "id": "Dan dalam riwayat Muʿāwiyah ibn ʿAmmār, dari Abū ʿAbdillāh علیه السلام:",
-              "ru": "И в передаче Муаавии ибн Аммара от Абу Абдиллаха عليه السلام:",
-              "tr": "Ve Muʿāwiyah ibn ʿAmmār'ın rivayetinde, Ebu ʿAbdillāh علیه السلام'dan:",
-              "ur": "اور معاوِیہ بن عمار کی روایت میں، ابو عبداللہ علیہ السلام سے:",
-              "zh": "并且在穆阿维叶本阿玛尔的传述中，来自阿布阿卜杜拉 عليه السلام："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "«أَنَّهُ إِنْ كَانَ لَهُ مُقَامٌ بِمَكَّةَ فَأَرَادَ أَنْ يَصُومَ السَّبْعَةَ تَرَكَ الصِّيَامَ بِقَدْرِ سَيْرِهِ إِلَى أَهْلِهِ أَوْ شَهْرًا ثُمَّ صَامَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি তার মক্কায় একটি আবাসস্থল থাকে এবং সে সাতদিন রোজা রাখতে চায়, তবে সে তার যাত্রার সময় অনুযায়ী তার পরিবারের কাছে রোজা ত্যাগ করবে অথবা এক মাস, তারপর রোজা রাখবে।",
-              "de": "Wenn er einen Wohnsitz in Mekka hat und die sieben Tage fasten möchte, soll er das Fasten für die Dauer seiner Reise zu seiner Familie oder für einen Monat aussetzen und dann fasten.",
-              "en": "\"If he has a residence in Makkah and wishes to fast the seven, he should leave the fasting for the measure of the time of his travel to his family, or for a month, then he fasts.\"",
-              "es": "Si tiene residencia en La Meca y desea ayunar los siete días, debe dejar el ayuno por el tiempo que dura su viaje a su familia, o por un mes, y luego ayunar.",
-              "fa": "اگر در مکه اقامت دارد و می‌خواهد هفت روز روزه بگیرد، روزه را به اندازه مدت سفرش به سوی خانواده‌اش یا یک ماه ترک کند، سپس روزه بگیرد.",
-              "fr": "S'il a une résidence à La Mecque et souhaite jeûner les sept jours, il doit laisser le jeûne pendant la durée de son voyage vers sa famille, ou pendant un mois, puis jeûner.",
-              "id": "Jika dia memiliki tempat tinggal di Makkah dan ingin berpuasa tujuh hari, dia harus meninggalkan puasa selama waktu perjalanannya kepada keluarganya, atau selama sebulan, kemudian berpuasa.",
-              "ru": "Если у него есть место жительства в Мекке и он желает поститься семь дней, он должен отложить пост на время своей поездки к семье или на месяц, а затем поститься.",
-              "tr": "Eğer Mekke'de bir ikameti varsa ve yedi gün oruç tutmak isterse, orucu yolculuğunun süresi kadar ailesinin yanında bırakmalı ya da bir ay beklemeli, sonra oruç tutmalıdır.",
-              "ur": "اگر اس کا مکہ میں قیام ہو اور وہ سات روزے رکھنا چاہے تو روزہ اپنے سفر کے برابر وقت کے لیے اپنے اہل خانہ کے پاس چھوڑ دے یا ایک مہینہ، پھر روزہ رکھے۔",
-              "zh": "如果他在麦加有住所并希望守七天斋戒，他应当将斋戒推迟至他前往家人的旅程时间或一个月，然后再开始斋戒。"
-            },
             "word_end": 31,
             "word_start": 11
           }
@@ -81,60 +68,22 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "السَّبْعَةَ": "the seven days of fasting",
-            "الصِّيَامَ": "the fast or fasting",
-            "بِمَكَّةَ": "in Makkah",
-            "رِوَايَةِ": "a transmitted narration",
-            "سَيْرِهِ": "his travel time or journey",
-            "شَهْرًا": "a month",
-            "مُقَامٌ": "residence or place of staying",
-            "يَصُومَ": "to fast"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رِوَايَةِ",
+          "مُقَامٌ",
+          "بِمَكَّةَ",
+          "يَصُومَ",
+          "السَّبْعَةَ",
+          "الصِّيَامَ",
+          "سَيْرِهِ",
+          "شَهْرًا"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি মক্কায় বসবাসকারী মুতামত্তিʿ কোরবানি দিতে না পারে, তাহলে সে কখন সাত দিনের রোজা রাখবে?",
-          "de": "Wann soll ein in Mekka wohnhafter Mutamattiʿ die sieben Tage fasten, wenn er kein Opfertier darbringen kann?",
-          "en": "When should a mutamattiʿ residing in Makkah fast the seven days if he cannot afford a sacrificial animal?",
-          "es": "¿Cuándo debe un mutamattiʿ residente en La Meca ayunar los siete días si no puede ofrecer un animal sacrificial?",
-          "fa": "اگر متعتمر مقیم مکه نتواند قربانی کند، چه زمانی باید هفت روز روزه بگیرد؟",
-          "fr": "Quand un mutamattiʿ résidant à La Mecque doit-il jeûner les sept jours s'il ne peut pas offrir un animal sacrificiel ?",
-          "id": "Kapan mutamattiʿ yang tinggal di Makkah harus berpuasa tujuh hari jika dia tidak mampu menyembelih hewan kurban?",
-          "ru": "Когда мутаматтиʿ, проживающий в Мекке, должен поститься семь дней, если он не может позволить себе жертвенное животное?",
-          "tr": "Mekke'de ikamet eden ve kurbanlık hayvan veremeyen mutamattiʿ yedi günü ne zaman oruç tutmalıdır?",
-          "ur": "اگر مکہ میں رہنے والا متعتمر قربانی کا جانور نہیں دے سکتا تو اسے سات روزے کب رکھنا چاہیے؟",
-          "zh": "如果居住在麦加的穆塔马提ʿ不能献祭牲畜，他应何时守七天斋戒？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি সেই মুতামত্তিʿর জন্য সাত দিনের রোজার সময় সম্পর্কে শারঈ বিধান দেয়, যিনি কোরবানি দিতে পারেন না। যদি তার মক্কায় আবাস থাকে, তবে সে তার পরিবারের কাছে যাওয়ার সময় বা এক মাস পর্যন্ত রোজা স্থগিত রাখে, তারপর রোজা রাখে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung zur Zeit der sieben Tage Fasten für den Mutamattiʿ, der kein Opfertier darbringen kann. Wenn er einen Wohnsitz in Mekka hat, verschiebt er das Fasten um die Zeit, die er normalerweise für die Rückkehr zu seiner Familie benötigt, oder um einen Monat, und fastet dann.",
-          "en": "This hadith gives a legal ruling about the timing of the seven days of fasting for the mutamattiʿ who cannot offer a sacrificial animal. If he has a residence in Makkah, he delays fasting for the amount of time it would normally take him to return to his family, or for one month, and then fasts.",
-          "es": "Este hadiz da un fallo legal sobre el tiempo de los siete días de ayuno para el mutamattiʿ que no puede ofrecer un animal sacrificial. Si tiene residencia en La Meca, retrasa el ayuno por el tiempo que normalmente tomaría regresar a su familia, o por un mes, y luego ayuna.",
-          "fa": "این حدیث حکم شرعی درباره زمان روزه هفت روزه برای متعتمر که نمی‌تواند قربانی کند، بیان می‌کند. اگر در مکه اقامت دارد، روزه را به اندازه مدت بازگشت به خانواده یا یک ماه به تأخیر می‌اندازد و سپس روزه می‌گیرد.",
-          "fr": "Ce hadith donne un jugement légal sur le moment des sept jours de jeûne pour le mutamattiʿ qui ne peut pas offrir un animal sacrificiel. S'il a une résidence à La Mecque, il retarde le jeûne pendant le temps qu'il lui faudrait normalement pour retourner auprès de sa famille, ou pendant un mois, puis il jeûne.",
-          "id": "Hadis ini memberikan hukum tentang waktu puasa tujuh hari bagi mutamattiʿ yang tidak mampu menyembelih hewan kurban. Jika dia tinggal di Makkah, dia menunda puasa selama waktu yang dibutuhkan untuk kembali ke keluarganya atau selama satu bulan, kemudian berpuasa.",
-          "ru": "Этот хадис даёт правовое постановление о времени семи дней поста для мутаматтиʿа, который не может принести жертвенное животное. Если у него есть место жительства в Мекке, он откладывает пост на время, необходимое для возвращения к семье, или на месяц, а затем постится.",
-          "tr": "Bu hadis, kurbanlık hayvan veremeyen mutamattiʿın Mekke'deki yedi günlük orucunun zamanlaması hakkında hukuki hüküm verir. Mekke'de ikameti varsa, ailesine dönme süresi kadar veya bir ay orucunu erteler, sonra oruç tutar.",
-          "ur": "یہ حدیث متعتمر کے سات روزے رکھنے کے وقت کے بارے میں شرعی حکم دیتی ہے جو قربانی کا جانور نہیں دے سکتا۔ اگر اس کا مکہ میں قیام ہو تو وہ روزہ اپنے اہل خانہ کے پاس جانے کے برابر وقت یا ایک مہینہ تک ملتوی کرے، پھر روزہ رکھے۔",
-          "zh": "此圣训对不能献祭牲畜的穆塔马提ʿ在麦加守七天斋戒的时间作出法律规定。如果他在麦加有住所，应推迟斋戒至他通常返回家人的时间或一个月，然后再开始斋戒。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

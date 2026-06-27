@@ -13,6 +13,120 @@
       "up": "/books/al-kafi:6:7:31"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ عَبْدِ اللَّهِ بْنِ جَعْفَرٍ عَنِ السَّيَّارِيِّ عَمَّنْ ذَكَرَهُ عَنْ إِسْحَاقَ بْنِ عَمَّارٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 17,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "شَكَوْتُ إِلَى أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) بَعْضَ الْوَجَعِ وَ قُلْتُ إِنَّ الطَّبِيبَ وَصَفَ لِي شَرَاباً آخُذُ الزَّبِيبَ وَ أَصُبُّ عَلَيْهِ الْمَاءَ لِلْوَاحِدِ اثْنَيْنِ ثُمَّ أَصُبُّ عَلَيْهِ الْعَسَلَ ثُمَّ أَطْبُخُهُ حَتَّى يَذْهَبَ ثُلُثَاهُ وَ يَبْقَى الثُّلُثُ فَقَالَ أَ لَيْسَ حُلْواً قُلْتُ بَلَى قَالَ اشْرَبْهُ وَ لَمْ أُخْبِرْهُ كَمِ الْعَسَلُ .",
+            "chunk_type": "body",
+            "word_end": 69,
+            "word_start": 17
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 256,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللَّهِ بْنِ جَعْفَرٍ",
+              "name_en": "Abdullah ibn Ja'far",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": null,
+              "identity_confidence": "ambiguous",
+              "known_identity": null,
+              "name_ar": "السَّيَّارِيِّ عَمَّنْ ذَكَرَهُ",
+              "name_en": "al-Sayyariyyi 'amm man dhakarahu",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 44,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "إِسْحَاقَ بْنِ عَمَّارٍ",
+              "name_en": "Is'haq ibn Ammar",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الزَّبِيبَ",
+          "الْعَسَلُ",
+          "أَطْبُخُهُ",
+          "حُلْواً",
+          "الطَّبِيبَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:157",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:172",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "ethics"
+        ],
+        "topics": [
+          "halal_haram",
+          "imams_biography",
+          "etiquette"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (22/293)"
       ],
@@ -74,7 +188,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:7:31:4",

@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رُوِيَ عَنْ أَبِي بَصِيرٍ أَنَّهُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং এটি আবু বাসীর থেকে বর্ণিত হয়েছে যে তিনি বলেছিলেন:",
-              "de": "Und es wurde von Abū Baṣīr überliefert, dass er sagte:",
-              "en": "And it was narrated from Abū Baṣīr that he said:",
-              "es": "Y se narró de Abū Baṣīr que dijo:",
-              "fa": "و از ابوبصیر روایت شده که گفت:",
-              "fr": "Et il a été rapporté de Abū Baṣīr qu'il a dit :",
-              "id": "Dan diriwayatkan dari Abū Baṣīr bahwa dia berkata:",
-              "ru": "И было передано от Абу Басира, что он сказал:",
-              "tr": "Ve bu, Ebû Basîr'den rivayet edilmiştir ki şöyle demiştir:",
-              "ur": "اور یہ روایت ہے ابو بصیر سے کہ انہوں نے کہا:",
-              "zh": "据传自阿布巴西尔他说："
-            },
             "word_end": 7,
             "word_start": 0
           },
           {
             "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ يَقُولُ: «إِنْ كُنْتَ فِي أَرْضٍ مَخُوفَةٍ فَخَشِيتَ لِصًّا أَوْ سَبُعًا فَصَلِّ الْفَرِيضَةَ وَ أَنْتَ عَلَى دَابَّتِكَ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবু আব্দুল্লাহ (আলেইহি সালাম)-কে বলতে শুনেছি: “যদি তুমি কোনো বিপজ্জনক স্থানে থাকো এবং চোর বা বন্য জন্তুর ভয় পাও, তবে তোমার সওয়ারির উপর বসে ফরজ সালাত আদায় করো।”",
-              "de": "Ich hörte Abū ʿAbdِ اللَّهِ عليه السلام sagen: „Wenn du dich in einem gefährlichen Gebiet befindest und Angst vor einem Dieb oder einem wilden Tier hast, dann verrichte das Pflichtgebet, während du auf deinem Reittier bist.“",
-              "en": "I heard Abū ʿAbdِ اللَّهِ عليه السلام say: “If you are in a dangerous land and you fear a thief or a wild beast, then perform the obligatory prayer while you are upon your mount.”",
-              "es": "Escuché a Abū ʿAbdِ اللَّهِ عليه السلام decir: “Si estás en una tierra peligrosa y temes a un ladrón o a una bestia salvaje, entonces realiza la oración obligatoria mientras estás sobre tu montura.”",
-              "fa": "شنیدم ابوعبداللَّه علیه السلام می‌فرمود: «اگر در سرزمینی خطرناک هستی و از دزد یا حیوان وحشی می‌ترسی، پس نماز واجب را در حالی که بر مرکبت هستی، به جا آور.»",
-              "fr": "J'ai entendu Abū ʿAbdِ اللَّهِ عليه السلام dire : « Si tu es dans un lieu dangereux et que tu crains un voleur ou une bête sauvage, alors accomplis la prière obligatoire en étant sur ta monture. »",
-              "id": "Saya mendengar Abū ʿAbdِ اللَّهِ عليه السلام berkata: “Jika kamu berada di tanah yang berbahaya dan kamu takut pada pencuri atau binatang buas, maka lakukan salat wajib saat kamu berada di atas tungganganmu.”",
-              "ru": "Я слышал, как Абū ʿАбдِ Аллах عليه السلام сказал: «Если ты находишься в опасной местности и боишься вора или дикого зверя, то совершай обязательную молитву, находясь на своем скакуне.»",
-              "tr": "Abū ʿAbdِ اللَّهِ عليه السلام şöyle dediğini duydum: “Eğer tehlikeli bir yerdeysen ve hırsız ya da vahşi bir hayvandan korkuyorsan, o zaman farz namazını bineğin üzerinde iken kıl.”",
-              "ur": "میں نے ابو عبداللہ علیہ السلام کو کہتے سنا: \"اگر آپ کسی خطرناک زمین میں ہوں اور چور یا جنگلی جانور سے خوفزدہ ہوں، تو فرضی نماز اپنی سواری پر ہوتے ہوئے ادا کریں۔\"",
-              "zh": "我听见阿布ʿ阿卜杜اللَّه عليه السلام说：“如果你在危险之地，害怕盗贼或野兽，那么就在你的坐骑上完成义务祷告。”"
-            },
             "word_end": 29,
             "word_start": 7
           }
@@ -92,25 +79,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَرْضٍ مَخُوفَةٍ": "a dangerous or fearsome land where harm is feared",
-            "الْفَرِيضَةَ": "the obligatory salat (prayer)",
-            "دَابَّتِكَ": "your riding animal or mount",
-            "سَبُعًا": "a predatory wild beast",
-            "لِصًّا": "a thief whose attack or robbery is feared"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَرْضٍ مَخُوفَةٍ",
+          "لِصًّا",
+          "سَبُعًا",
+          "الْفَرِيضَةَ",
+          "دَابَّتِكَ"
+        ],
         "related_quran": [
           {
             "ref": "2:239",
@@ -121,32 +96,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "বিপদ বা ভয়ের অবস্থায় সওয়ারির উপর বসে কি ফরজ সালাত আদায় করা যায়?",
-          "de": "Kann das Pflichtgebet im Zustand von Gefahr oder Furcht reitend verrichtet werden?",
-          "en": "Can the obligatory salat (prayer) be performed while riding in a state of danger or fear?",
-          "es": "¿Se puede realizar la oración obligatoria mientras se está montado en un estado de peligro o miedo?",
-          "fa": "آیا نماز واجب در حالت خطر یا ترس هنگام سواری قابل انجام است؟",
-          "fr": "La prière obligatoire peut-elle être accomplie à cheval en état de danger ou de peur ?",
-          "id": "Apakah salat wajib dapat dilakukan saat menunggang dalam keadaan bahaya atau takut?",
-          "ru": "Можно ли совершать обязательную молитву верхом в состоянии опасности или страха?",
-          "tr": "Farz namaz tehlike veya korku halinde binekte kılınabilir mi?",
-          "ur": "کیا فرضی نماز کو خطرے یا خوف کی حالت میں سواری پر ادا کیا جا سکتا ہے؟",
-          "zh": "在危险或恐惧状态下可以骑乘时履行义务祷告吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস বিপজ্জনক স্থানে থাকা অবস্থায় সওয়ারির উপর বসে ফরজ সালাত আদায়ের জন্য শারঈ ছাড় দেয়। এটি দেখায় যে শরীয়তে ক্ষতি থেকে রক্ষা পাওয়া স্বীকৃত এবং ব্যক্তির পরিস্থিতি অনুযায়ী সালাতের ফরজিত্ব বজায় থাকে।",
-          "de": "Dieser Hadith gewährt eine rechtliche Erleichterung, das Pflichtgebet reitend zu verrichten, wenn man sich an einem gefährlichen Ort befindet. Er zeigt, dass der Schutz vor Schaden im Recht anerkannt ist und die Pflicht zum Gebet entsprechend den Umständen erhalten bleibt.",
-          "en": "This hadith gives a legal concession for performing the obligatory salat (prayer) while riding when a person is in a place of danger. It shows that preservation from harm is recognized in the law, and that the obligation of prayer is maintained according to one's circumstances.",
-          "es": "Este hadiz otorga una concesión legal para realizar la oración obligatoria mientras se está montado cuando una persona se encuentra en un lugar peligroso. Muestra que la preservación frente al daño es reconocida en la ley y que la obligación de la oración se mantiene según las circunstancias de cada uno.",
-          "fa": "این حدیث اجازه شرعی برای انجام نماز واجب در حال سواری در مکان‌های خطرناک را می‌دهد. نشان می‌دهد که حفظ جان در قانون شناخته شده و وجوب نماز بر اساس شرایط فرد حفظ می‌شود.",
-          "fr": "Ce hadith accorde une concession légale pour accomplir la prière obligatoire en étant à cheval lorsqu'une personne se trouve dans un lieu dangereux. Il montre que la préservation contre le danger est reconnue dans la loi, et que l'obligation de la prière est maintenue selon les circonstances de chacun.",
-          "id": "Hadis ini memberikan keringanan hukum untuk melaksanakan salat wajib saat menunggangi kendaraan ketika berada di tempat berbahaya. Ini menunjukkan bahwa perlindungan dari bahaya diakui dalam hukum, dan kewajiban salat tetap dijalankan sesuai keadaan seseorang.",
-          "ru": "Этот хадис предоставляет юридическое разрешение на совершение обязательной молитвы верхом, если человек находится в опасном месте. Он показывает, что сохранение от вреда признается в законе, и обязанность молитвы сохраняется в соответствии с обстоятельствами.",
-          "tr": "Bu hadis, bir kişinin tehlikeli bir yerde olduğu zaman farz namazı binekte kılmasına yasal bir kolaylık sağlar. Bu, zarar görmeden korunmanın hukukta tanındığını ve namazın kişinin durumuna göre devam ettiğini gösterir.",
-          "ur": "یہ حدیث فرضی نماز کو سواری پر ادا کرنے کی شرعی رخصت دیتی ہے جب انسان خطرناک جگہ پر ہو۔ یہ ظاہر کرتی ہے کہ شرع میں حفاظتِ نفس کو تسلیم کیا گیا ہے اور نماز کی فرضیت حالات کے مطابق قائم رہتی ہے۔",
-          "zh": "此圣训允许人在危险之地骑乘时履行义务祷告，表明法律承认防护免受伤害的重要性，且祷告义务根据个人情况得以维持。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

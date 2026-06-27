@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى عَبْدُ الرَّحْمَنِ بْنُ أَبِي عَبْدِ اللَّهِ عَنِ الصَّادِقِ عَلَيْهِ السَّلَامُ أَنَّهُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং আব্দুল রহমান ইবনে আবী আব্দুল্লাহ আল-সাদিক عليه السلام থেকে বর্ণনা করেছেন যে তিনি বললেন:",
-              "de": "Und ʿAbd al-Raḥmān ibn Abī ʿAbdillāh berichtete von al-Ṣādiq عليه السلام, dass er sagte:",
-              "en": "And ʿAbd al-Raḥmān ibn Abī ʿAbdillāh narrated from al-Ṣādiq عليه السلام that he said:",
-              "es": "Y ʿAbd al-Raḥmān ibn Abī ʿAbdillāh narró de al-Ṣādiq عليه السلام que dijo:",
-              "fa": "و عبدالرحمن بن ابی عبدالله از الصادق علیه‌السلام روایت کرد که فرمود:",
-              "fr": "Et ʿAbd al-Raḥmān ibn Abī ʿAbdillāh a rapporté de al-Ṣādiq عليه السلام qu'il a dit :",
-              "id": "Dan ʿAbd al-Raḥmān ibn Abī ʿAbdillāh meriwayatkan dari al-Ṣādiq علیه السلام bahwa beliau berkata:",
-              "ru": "И ʿАбд ар-Рахман ибн Аби ʿАбдиллах передал от аль-Ṣādiq عليه السلام, что он сказал:",
-              "tr": "Ve Abdülrahman ibn Ebi Abdullah, Ebu'l-Sadık aleyhisselam'dan rivayet etti ki şöyle buyurdu:",
-              "ur": "اور عبدالرحمن ابن ابی عبداللہ نے الصادق علیہ السلام سے روایت کی کہ انہوں نے فرمایا:",
-              "zh": "وʿAbdalRaḥmānibnAbīʿAbdillāhnarratedfromal-Ṣādiqعليهالسلامthathesaid:"
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "يُجْزِي فِي السَّفَرِ إِقَامَةٌ بِغَيْرِ أَذَانٍ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "সফরে, ইকামাহ আজানের ছাড়াই যথেষ্ট।",
-              "de": "Auf Reisen genügt die Iqamah ohne den Adhan.",
-              "en": "In travel, the iqamah suffices without the adhan.",
-              "es": "En el viaje, la iqamah es suficiente sin el adhan.",
-              "fa": "در سفر، اقامه بدون اذان کافی است.",
-              "fr": "En voyage, l'iqamah suffit sans l'adhan.",
-              "id": "Dalam perjalanan, iqamah sudah cukup tanpa adzan.",
-              "ru": "В путешествии достаточно икъамы без азана.",
-              "tr": "Seyahatte, ezan olmadan ikamet yeterlidir.",
-              "ur": "سفر میں، اقامت اذان کے بغیر کافی ہے۔",
-              "zh": "在旅行中，اقامة足以代替adhan。"
-            },
             "word_end": 20,
             "word_start": 14
           }
@@ -92,24 +79,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَذَانٍ": "the adhan, the call to prayer that is not required here",
-            "إِقَامَةٌ": "the iqamah, the second call marking the immediate start of salat",
-            "السَّفَرِ": "travel; the condition in which this ruling applies",
-            "يُجْزِي": "suffices; is considered adequate for fulfilling the requirement"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "السَّفَرِ",
+          "إِقَامَةٌ",
+          "أَذَانٍ",
+          "يُجْزِي"
+        ],
         "related_quran": [
           {
             "ref": "2:185",
@@ -120,32 +95,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "সফরে আজান ছাড়া কি শুধু ইকামাহই সালাতের জন্য যথেষ্ট?",
-          "de": "Reicht die Iqamah allein für das Gebet auf Reisen ohne den Adhan aus?",
-          "en": "Is the iqamah alone sufficient for prayer while traveling without the adhan?",
-          "es": "¿Es suficiente la iqamah sola para la oración durante el viaje sin el adhan?",
-          "fa": "آیا اقامه به تنهایی برای نماز در سفر بدون اذان کافی است؟",
-          "fr": "L'iqamah seule suffit-elle pour la prière en voyage sans l'adhan ?",
-          "id": "Apakah iqamah saja sudah cukup untuk salat saat bepergian tanpa adzan?",
-          "ru": "Достаточно ли одной икъамы для молитвы в путешествии без азана?",
-          "tr": "Seyahatte namaz için sadece ikamet ezan olmadan yeterli midir?",
-          "ur": "کیا سفر میں نماز کے لیے صرف اقامت اذان کے بغیر کافی ہے؟",
-          "zh": "旅行中仅凭اقامة而无adhan礼拜是否足够？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি সফরে সালাত সম্পর্কে একটি শারঈ বিধান বর্ণনা করে: ইকামাহই যথেষ্ট, যদিও আজান দেওয়া না হয়। এটি সফরের অবস্থায় সহজতা এবং ইবাদতে ব্যবহারিক সুবিধা নির্দেশ করে।",
-          "de": "Dieser Hadith legt eine rechtliche Regelung für das Gebet auf Reisen fest: Die Iqamah genügt auch ohne den Adhan. Er zeigt Erleichterung im Zustand der Reise und praktische Einfachheit bei den Gottesdiensten.",
-          "en": "This hadith states a legal ruling concerning salat in travel: the iqamah is sufficient even if the adhan is not given. It indicates facilitation in the state of سفر and reflects practical ease in acts of worship.",
-          "es": "Este hadiz establece una regla legal sobre la salat en viaje: la iqamah es suficiente incluso si no se da el adhan. Indica facilidad en el estado de viaje y refleja comodidad práctica en los actos de adoración.",
-          "fa": "این حدیث حکم شرعی درباره نماز در سفر را بیان می‌کند: اقامه حتی بدون اذان کافی است. این نشان‌دهنده تسهیل در حالت سفر و آسانی عملی در عبادات است.",
-          "fr": "Ce hadith énonce une règle juridique concernant la salat en voyage : l'iqamah suffit même si l'adhan n'est pas donné. Il indique une facilitation en état de voyage et reflète une aisance pratique dans les actes d'adoration.",
-          "id": "Hadis ini menyatakan hukum terkait salat saat bepergian: iqamah sudah cukup meskipun adzan tidak dikumandangkan. Ini menunjukkan kemudahan dalam keadaan سفر dan kemudahan praktis dalam ibadah.",
-          "ru": "Этот хадис устанавливает правовое правило относительно салят в путешествии: икъама достаточна даже без азана. Он указывает на облегчение в состоянии путешествия и отражает практическую простоту в актах поклонения.",
-          "tr": "Bu hadis, seyahatte namazla ilgili hukuki bir hükmü belirtir: ikamet, ezan olmadan yeterlidir. Seyahat halindeki kolaylığı ve ibadetlerde pratikliği gösterir.",
-          "ur": "یہ حدیث سفر میں نماز کے متعلق شرعی حکم بیان کرتی ہے: اقامت اذان کے بغیر کافی ہے۔ یہ سفر کی حالت میں آسانی اور عبادات میں سہولت کو ظاہر کرتی ہے۔",
-          "zh": "此圣训陈述了旅行中礼拜的法律规定：اقامة即使没有adhan也足够。这表明旅行状态下的便利性并反映了崇拜行为中的实际简便。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

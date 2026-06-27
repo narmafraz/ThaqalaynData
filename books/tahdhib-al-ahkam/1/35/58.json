@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ يَعْقُوبَ عَنْ مُحَمَّدِ بْنِ إِسْمَاعِيلَ عَنِ الْفَضْلِ بْنِ شَاذَانَ عَنْ صَفْوَانَ عَنْ عَبْدِ الرَّحْمَنِ بْنِ الْحَجَّاجِ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন ইয়াকুব, মুহাম্মদ ইবন ইসমাঈল থেকে, আল-ফাদল ইবন শাযান থেকে, সফওয়ান থেকে, আব্দুর রহমান ইবন আল-হাজ্জাজ থেকে, আবু আব্দিল্লাহ عليه السلام থেকে।",
-              "de": "Muhammad ibn Ya'qub, von Muhammad ibn Isma'il, von al-Fadl ibn Shadhan, von Safwan, von 'Abd al-Rahman ibn al-Hajjaj, von Abu 'Abdillah عليه السلام.",
-              "en": "Muhammad ibn Ya'qub, from Muhammad ibn Isma'il, from al-Fadl ibn Shadhan, from Safwan, from 'Abd al-Rahman ibn al-Hajjaj, from Abu 'Abdillah عليه السلام.",
-              "es": "Muhammad ibn Ya'qub, de Muhammad ibn Isma'il, de al-Fadl ibn Shadhan, de Safwan, de 'Abd al-Rahman ibn al-Hajjaj, de Abu 'Abdillah عليه السلام.",
-              "fa": "محمد بن یعقوب، از محمد بن اسماعیل، از فضل بن شاذان، از صفوان، از عبد الرحمن بن الحجاج، از ابو عبدالله علیه السلام.",
-              "fr": "Muhammad ibn Ya'qub, d’après Muhammad ibn Isma'il, d’après al-Fadl ibn Shadhan, d’après Safwan, d’après 'Abd al-Rahman ibn al-Hajjaj, d’après Abu 'Abdillah عليه السلام.",
-              "id": "Muhammad ibn Ya'qub, dari Muhammad ibn Isma'il, dari al-Fadl ibn Shadhan, dari Safwan, dari 'Abd al-Rahman ibn al-Hajjaj, dari Abu 'Abdillah عليه السلام.",
-              "ru": "Мухаммад ибн Я'куб, от Мухаммада ибн Исма'ила, от аль-Фадля ибн Шадана, от Сафвана, от 'Абд ар-Рахмана ибн аль-Хаджжаджа, от Абу 'Абдуллаха عليه السلام.",
-              "tr": "Muhammed ibn Ya'kub, Muhammed ibn İsmail'den, el-Fadl ibn Şazan'dan, Safvan'dan, Abdürrahman ibn el-Haccac'dan, Ebu Abdullah عليه السلام'dan.",
-              "ur": "محمد بن یعقوب، محمد بن اسماعیل سے، الفضل بن شاذان سے، صفوان سے، عبد الرحمن بن الحجاج سے، ابو عبد اللہ علیہ السلام سے۔",
-              "zh": "穆罕默德·伊本·雅库布，传自穆罕默德·伊本·伊斯马仪，传自法德勒·伊本·沙赞，传自萨夫万，传自阿卜杜·拉赫曼·伊本·哈贾贾，传自阿布·阿卜杜拉 عليه السلام。"
-            },
             "word_end": 24,
             "word_start": 0
           },
           {
             "arabic_text": "حَدُّ الَّتِي يَئِسَتْ مِنَ الْمَحِيضِ خَمْسُونَ سَنَةً.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে নারীর ঋতুস্রাব হওয়ার আশা নেই, তার সীমা পঞ্চাশ বছর।",
-              "de": "Die Grenze für diejenige, die die Hoffnung auf die Menstruation verloren hat, liegt bei fünfzig Jahren.",
-              "en": "The limit for the one who has despaired of menstruation is fifty years.",
-              "es": "El límite para la mujer que ha perdido la esperanza de menstruar es de cincuenta años.",
-              "fa": "حدّ زنی که از حیض ناامید شده است پنجاه سال است.",
-              "fr": "La limite pour celle qui a désespéré d’avoir ses menstrues est de cinquante ans.",
-              "id": "Batas bagi orang yang telah berputus asa dari haid adalah lima puluh tahun.",
-              "ru": "Предел для той, кто потеряла надежду на менструацию, составляет пятьдесят лет.",
-              "tr": "Adet görmekten ümidini kesen kimsenin sınırı elli yıldır.",
-              "ur": "جس عورت کو حیض آنے کی امید نہ رہی ہو، اس کی حد پچاس سال ہے۔",
-              "zh": "对已经绝经无望来月经的妇女，其界限是五十岁。"
-            },
             "word_end": 31,
             "word_start": 24
           }
@@ -69,58 +56,20 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الَّتِي": "the woman who",
-            "الْمَحِيضِ": "menstruation",
-            "حَدُّ": "the legal limit or defining threshold",
-            "خَمْسُونَ": "fifty",
-            "سَنَةً": "years",
-            "يَئِسَتْ": "has despaired; no longer expects menstruation"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "حَدُّ",
+          "الَّتِي",
+          "يَئِسَتْ",
+          "الْمَحِيضِ",
+          "خَمْسُونَ",
+          "سَنَةً"
+        ],
         "related_quran": [
           {
             "ref": "65:4",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী কোন বয়সে একজন নারীকে ঋতুস্রাব থেকে নিরাশ বলে গণ্য করা হয়?",
-          "de": "In welchem Alter gilt eine Frau gemäß diesem Hadith als von der Menstruation hoffnungslos geworden?",
-          "en": "At what age is a woman considered to have despaired of menstruation according to this hadith?",
-          "es": "¿A qué edad se considera que una mujer ha perdido la esperanza de menstruar según este hadiz?",
-          "fa": "بر اساس این حدیث، زن در چه سنی از حیض ناامید شمرده می‌شود؟",
-          "fr": "À quel âge une femme est-elle considérée comme ayant désespéré d’avoir ses menstrues selon ce hadith ?",
-          "id": "Pada usia berapa seorang perempuan dianggap telah berputus asa dari haid menurut hadis ini?",
-          "ru": "В каком возрасте, согласно этому хадису, женщина считается потерявшей надежду на менструацию?",
-          "tr": "Bu hadise göre bir kadın kaç yaşında adet görmekten ümidini kesmiş sayılır?",
-          "ur": "اس حدیث کے مطابق عورت کو کس عمر میں حیض سے مایوس سمجھا جاتا ہے؟",
-          "zh": "根据这段圣训，妇女在什么年龄被视为对月经绝望？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে সেই বয়স সম্পর্কে একটি শরয়ি বিধান উল্লেখ করা হয়েছে, যখন একজন নারীকে ঋতুস্রাব থেকে নিরাশ বলে গণ্য করা হয়। এই সীমা পঞ্চাশ বছর নির্ধারণ করা হয়েছে, এবং এটি ঋতুস্রাব ও সংশ্লিষ্ট বিধানের ফিকহি আলোচনার সঙ্গে সম্পর্কিত।",
-          "de": "Dieser Hadith nennt eine rechtliche Bestimmung über das Alter, in dem eine Frau als von der Menstruation hoffnungslos geworden gilt. Er setzt diese Grenze bei fünfzig Jahren und bezieht sich auf fiqh-rechtliche Diskussionen über die Menstruation und die damit verbundenen Bestimmungen.",
-          "en": "This hadith states a legal ruling regarding the age at which a woman is considered to have despaired of menstruation. It identifies that threshold as fifty years, and it relates to jurisprudential discussions of menstruation and associated rulings.",
-          "es": "Este hadiz establece una norma jurídica sobre la edad en la que se considera que una mujer ha perdido la esperanza de menstruar. Señala ese umbral en cincuenta años y se relaciona con las discusiones jurisprudenciales sobre la menstruación y sus normas asociadas.",
-          "fa": "این حدیث حکمی فقهی درباره سنی را بیان می‌کند که زن در آن از حیض ناامید شمرده می‌شود. این حد را پنجاه سال تعیین می‌کند و به مباحث فقهیِ حیض و احکام مرتبط با آن مربوط است.",
-          "fr": "Ce hadith énonce une règle juridique concernant l’âge auquel une femme est considérée comme ayant désespéré d’avoir ses menstrues. Il fixe ce seuil à cinquante ans et se rapporte aux discussions jurisprudentielles sur les menstrues et les règles qui s’y rattachent.",
-          "id": "Hadis ini menyatakan sebuah hukum fikih mengenai usia ketika seorang perempuan dianggap telah berputus asa dari haid. Batas itu ditetapkan pada lima puluh tahun, dan berkaitan dengan pembahasan fikih tentang haid serta hukum-hukum yang terkait.",
-          "ru": "Этот хадис устанавливает правовое предписание относительно возраста, в котором женщина считается потерявшей надежду на менструацию. Этот порог определяется как пятьдесят лет и относится к фикховым обсуждениям менструации и связанных с ней норм.",
-          "tr": "Bu hadis, bir kadının adet görmekten ümidini kestiği yaşa dair bir fıkhî hüküm بیان eder. Bu eşiği elli yıl olarak belirler ve adet ile ilgili fıkhî tartışmalara ilişkindir.",
-          "ur": "یہ حدیث اس عمر کے بارے میں ایک شرعی حکم بیان کرتی ہے جس میں عورت کو حیض سے مایوس سمجھا جاتا ہے۔ اس حد کو پچاس سال قرار دیا گیا ہے، اور یہ حیض اور اس سے متعلق احکام کی فقہی بحث سے متعلق ہے۔",
-          "zh": "这段圣训阐明了一项关于妇女被视为对月经绝望之年龄的教法判定。它将这一界限定为五十岁，并涉及关于月经及其相关律例的教法讨论。"
-        },
         "tags": [
           "jurisprudence",
           "family",

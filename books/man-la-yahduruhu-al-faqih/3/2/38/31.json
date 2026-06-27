@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَ عَلِيُّ بْنُ جَعْفَرٍ، أَخَاهُ مُوسَى بْنَ جَعْفَرٍ عَلَيْهِمَا السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং আলী ইবনে জাফর তার ভাই মূসা ইবনে জাফর عليهم السلام থেকে জিজ্ঞাসা করলেন:",
-              "de": "Und ʿAlī ibn Jaʿfar fragte seinen Bruder Mūsā ibn Jaʿfar عليهما السلام:",
-              "en": "And ʿAlī ibn Jaʿfar asked his brother Mūsā ibn Jaʿfar عليهما السلام:",
-              "es": "Y ʿAlī ibn Jaʿfar preguntó a su hermano Mūsā ibn Jaʿfar عليهما السلام:",
-              "fa": "و ʿAlī ibn Jaʿfar از برادرش Mūsā ibn Jaʿfar علیهما السلام پرسید:",
-              "fr": "Et ʿAlī ibn Jaʿfar a demandé à son frère Mūsā ibn Jaʿfar عليهما السلام :",
-              "id": "Dan ʿAlī ibn Jaʿfar bertanya kepada saudaranya Mūsā ibn Jaʿfar علیهما السلام:",
-              "ru": "И ʿAlī ибн Jaʿfar спросил своего брата Mūsā ибн Jaʿfar عليهما السلام:",
-              "tr": "Ve ʿAlī ibn Jaʿfar, kardeşi Mūsā ibn Jaʿfar'a عليهما السلام sordu:",
-              "ur": "اور عَلِی ابن جعفر نے اپنے بھائی موسیٰ ابن جعفر علیہما السلام سے پوچھا:",
-              "zh": "ʿAlīibnJaʿfar向他的兄弟MūsāibnJaʿfarعليهماالسلام询问："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "عَنِ الرَّجُلِ يَحْلِفُ وَيَنْسَى مَا قَالَ هُ قَالَ: «هُوَ عَلَى مَا نَوَى».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন মানুষ সম্পর্কে যিনি শপথ করেন এবং যা বলেছেন তা ভুলে যান। তিনি বললেন: \"এটি তার ইচ্ছার উপর নির্ভর করে।\"",
-              "de": "Über einen Mann, der einen Eid schwört und vergisst, was er gesagt hat. Er sagte: „Es richtet sich nach seiner Absicht.“",
-              "en": "About a man who swears an oath and forgets what he said. He said: “It is according to what he intended.”",
-              "es": "Sobre un hombre que jura un juramento y olvida lo que dijo. Él dijo: “Es según lo que él intentó.”",
-              "fa": "درباره مردی که قسم می‌خورد و آنچه گفته را فراموش می‌کند. گفت: «این مطابق نیت اوست.»",
-              "fr": "À propos d'un homme qui jure un serment et oublie ce qu'il a dit. Il a dit : « C'est selon ce qu'il a voulu. »",
-              "id": "Tentang seorang pria yang bersumpah dan lupa apa yang dia katakan. Dia berkata: “Itu sesuai dengan niatnya.”",
-              "ru": "О человеке, который клянется и забывает, что сказал. Он сказал: «Это согласно его намерению.»",
-              "tr": "Yemin eden ve söylediklerini unutan bir adam hakkında. Dedi ki: “Bu, onun niyetine göredir.”",
-              "ur": "ایک ایسے شخص کے بارے میں جو قسم کھاتا ہے اور پھر جو کہا تھا بھول جاتا ہے۔ انہوں نے کہا: \"یہ اس کے نیت کے مطابق ہے۔\"",
-              "zh": "关于一个发誓却忘记他说过什么的人。他说：“这取决于他的意图。”"
-            },
             "word_end": 22,
             "word_start": 10
           }
@@ -95,24 +82,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "مَا قَالَ": "what he said",
-            "نَوَى": "he intended inwardly",
-            "يَحْلِفُ": "he swears or takes an oath",
-            "يَنْسَى": "he forgets"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَحْلِفُ",
+          "يَنْسَى",
+          "مَا قَالَ",
+          "نَوَى"
+        ],
         "related_quran": [
           {
             "ref": "2:225",
@@ -123,32 +98,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কেউ শপথ করে এবং পরে সঠিক শব্দগুলি ভুলে যায়, তাহলে এটি শব্দ অনুসারে বিচার করা হয় নাকি ইচ্ছা অনুসারে?",
-          "de": "Wenn jemand einen Eid schwört und dann die genauen Worte vergisst, wird er nach den Worten oder nach der Absicht beurteilt?",
-          "en": "If someone swears an oath and then forgets the exact words, is it judged by the wording or by the intention?",
-          "es": "Si alguien jura un juramento y luego olvida las palabras exactas, ¿se juzga por las palabras o por la intención?",
-          "fa": "اگر کسی قسم بخورد و سپس کلمات دقیق را فراموش کند، آیا بر اساس کلمات یا نیت قضاوت می‌شود؟",
-          "fr": "Si quelqu'un jure un serment puis oublie les mots exacts, est-il jugé selon les mots ou selon l'intention ?",
-          "id": "Jika seseorang bersumpah dan kemudian lupa kata-kata persisnya, apakah dinilai berdasarkan kata-kata atau niat?",
-          "ru": "Если кто-то клянётся и затем забывает точные слова, судят ли по словам или по намерению?",
-          "tr": "Birisi yemin eder ve sonra tam kelimeleri unutursa, yemin kelimelere göre mi yoksa niyete göre mi değerlendirilir?",
-          "ur": "اگر کوئی شخص قسم کھائے اور پھر صحیح الفاظ بھول جائے، تو کیا اسے الفاظ کے مطابق یا نیت کے مطابق جانچا جاتا ہے؟",
-          "zh": "如果有人发誓后忘记了确切的词语，是根据词语还是根据意图来判断？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস একটি শপথের আইনি সিদ্ধান্ত দেয় যার শব্দগুলি পরে যিনি শপথ করেছেন তিনি ভুলে যান। সিদ্ধান্ত হলো শপথ ব্যক্তির ইচ্ছার উপর নির্ভর করে বিচার করা হয়, যা নীয়াতের গুরুত্বকে আইনি ও নৈতিক দায়িত্বে প্রদর্শন করে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung über einen Eid, dessen Wortlaut vom Schwörenden später vergessen wird. Die Regelung besagt, dass der Eid nach der Absicht der Person beurteilt wird, was die Bedeutung der niyyah in rechtlicher und moralischer Verantwortung zeigt.",
-          "en": "This hadith gives a legal ruling about an oath whose wording is later forgotten by the one who made it. The ruling is that the oath is judged according to the person’s intention, showing the importance of niyyah in legal and moral responsibility.",
-          "es": "Este hadiz da un fallo legal sobre un juramento cuyas palabras son olvidadas posteriormente por quien lo hizo. El fallo es que el juramento se juzga según la intención de la persona, mostrando la importancia de la niyyah en la responsabilidad legal y moral.",
-          "fa": "این حدیث حکم شرعی درباره قسمی را بیان می‌کند که فرد بعداً الفاظ آن را فراموش می‌کند. حکم این است که قسم بر اساس نیت شخص قضاوت می‌شود که اهمیت نیت را در مسئولیت قانونی و اخلاقی نشان می‌دهد.",
-          "fr": "Ce hadith donne un jugement légal concernant un serment dont les mots sont ensuite oubliés par celui qui l'a prononcé. Le jugement est que le serment est jugé selon l'intention de la personne, montrant l'importance de la niyyah dans la responsabilité légale et morale.",
-          "id": "Hadis ini memberikan hukum tentang sumpah yang kata-katanya kemudian dilupakan oleh yang mengucapkannya. Hukumnya adalah sumpah dinilai berdasarkan niat orang tersebut, menunjukkan pentingnya niyyah dalam tanggung jawab hukum dan moral.",
-          "ru": "Этот хадис даёт юридическое постановление о клятве, слова которой впоследствии забыты тем, кто её дал. Постановление гласит, что клятва оценивается по намерению человека, показывая важность ниyyah в юридической и моральной ответственности.",
-          "tr": "Bu hadis, yemin eden kişinin daha sonra sözlerini unuttuğu bir yemin hakkında hukuki hüküm verir. Hüküm, yemin kişinin niyetine göre değerlendirilir; bu da niyetin hukuki ve ahlaki sorumluluktaki önemini gösterir.",
-          "ur": "یہ حدیث ایک قسم کے بارے میں شرعی حکم دیتی ہے جس کے الفاظ بنانے والے کے ذریعہ بعد میں بھول جاتے ہیں۔ حکم یہ ہے کہ قسم کو شخص کی نیت کے مطابق جانچا جاتا ہے، جو نیت کی اہمیت کو قانونی اور اخلاقی ذمہ داری میں ظاہر کرتا ہے۔",
-          "zh": "这段圣训对一个发誓后忘记誓言内容的人给出了法律裁决。裁决是根据其意图来判断誓言，显示了意图（niyyah）在法律和道德责任中的重要性。"
-        },
         "tags": [
           "jurisprudence",
           "ethics",

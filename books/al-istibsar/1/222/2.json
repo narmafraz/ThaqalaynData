@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ صَفْوَانَ عَنِ الْعَلَاءِ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, সাফওয়ান থেকে, আল-আলা’ থেকে, মুহাম্মদ ইবন মুসলিম থেকে, আবু জাফর عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Von ihm, von Safwan, von al-‘Ala’, von Muhammad ibn Muslim, von Abu Ja‘far عليه السلام, der sagte:",
-              "en": "From him, from Safwan, from al-'Ala', from Muhammad ibn Muslim, from Abu Ja'far عليه السلام, who said:",
-              "es": "De él, de Safwan, de al-‘Ala’, de Muhammad ibn Muslim, de Abu Ya‘far عليه السلام, quien dijo:",
-              "fa": "از او، از صفوان، از علاء، از محمد بن مسلم، از ابو جعفر علیه السلام، که فرمود:",
-              "fr": "De lui, de Safwan, de al-‘Ala’, de Muhammad ibn Muslim, d’Abu Ja‘far عليه السلام, qui a dit :",
-              "id": "Dari beliau, dari Safwan, dari al-‘Ala’, dari Muhammad ibn Muslim, dari Abu Ja‘far عليه السلام, yang bersabda:",
-              "ru": "От него, от Сафвана, от аль-‘Аля’, от Мухаммада ибн Муслима, от Абу Джа‘фара عليه السلام, который сказал:",
-              "tr": "Ondan, Safvan’dan, el-Ala’dan, Muhammed ibn Muslim’den, Ebu Ca‘fer عليه السلام’dan, şöyle dedi:",
-              "ur": "ان سے، صفوان سے، العلاء سے، محمد بن مسلم سے، ابو جعفر علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "由他传自萨夫万，传自阿勒阿拉’，传自穆罕默德·伊本·穆斯林，传自阿布·贾法尔 عليه السلام，他说："
-            },
             "word_end": 15,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ هَلْ يَلْتَفِتُ الرَّجُلُ فِي صَلَاتِهِ؟ قَالَ: لَا، وَلَا يَنْقُضُ أَصَابِعَهُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁকে জিজ্ঞেস করলাম: একজন মানুষ কি তার সালাত (নামাজ)-এ ঘুরে তাকাতে পারে? তিনি বললেন: না, এবং তার আঙুলও চটকানো উচিত নয়।",
-              "de": "Ich fragte ihn: Darf ein Mann sich in seinem salat (Gebet) umdrehen? Er sagte: Nein, und er soll auch nicht seine Finger knacken.",
-              "en": "I asked him: May a man turn around in his salat (prayer)? He said: No, and he should not crack his fingers.",
-              "es": "Le pregunté: ¿Puede un hombre volverse en su salat (oración)? Dijo: No, y no debe crujir sus dedos.",
-              "fa": "از او پرسیدم: آیا مرد می‌تواند در صلات (نماز) خود برگردد؟ فرمود: نه، و نیز نباید انگشتانش را بشکند.",
-              "fr": "Je lui ai demandé : Un homme peut-il se tourner dans sa salat (prière) ? Il a dit : Non, et il ne doit pas craquer ses doigts.",
-              "id": "Aku bertanya kepadanya: Bolehkah seseorang menoleh dalam salat (shalat)nya? Beliau bersabda: Tidak, dan ia tidak boleh mematahkan jari-jarinya.",
-              "ru": "Я спросил его: Может ли человек оборачиваться в своей салят (молитве)? Он сказал: Нет, и ему не следует хрустеть пальцами.",
-              "tr": "Ona sordum: Bir adam salatında (namazında) dönebilir mi? Şöyle dedi: Hayır, ayrıca parmaklarını çıtlatmamalıdır.",
-              "ur": "میں نے ان سے پوچھا: کیا آدمی اپنی صلات (نماز) میں مڑ سکتا ہے؟ انہوں نے فرمایا: نہیں، اور اسے اپنی انگلیاں چٹخانی نہیں چاہئیں۔",
-              "zh": "我问他：人在salat（礼拜）中可以转身吗？他说：不可以，而且他也不应掰响手指。"
-            },
             "word_end": 26,
             "word_start": 15
           }
@@ -84,25 +71,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَصَابِعَهُ": "his fingers",
-            "صَلَاتِهِ": "his salat (prayer), the ritual act of worship",
-            "لَا": "a negation indicating prohibition or disallowance in this context",
-            "يَلْتَفِتُ": "turns around or looks away during prayer",
-            "يَنْقُضُ": "cracks or intertwines in a manner of breaking the set position"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَلْتَفِتُ",
+          "صَلَاتِهِ",
+          "لَا",
+          "يَنْقُضُ",
+          "أَصَابِعَهُ"
+        ],
         "related_quran": [
           {
             "ref": "23:1",
@@ -113,32 +88,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "সালাত (নামাজ)-এর সময় কি একজন ব্যক্তির ঘুরে তাকানো বা আঙুল চটকানো অনুমোদিত?",
-          "de": "Ist es einer Person erlaubt, sich während des salat (Gebets) umzudrehen oder die Finger zu knacken?",
-          "en": "Is a person allowed to turn around or crack his fingers during salat (prayer)?",
-          "es": "¿Se permite que una persona se vuelva o crujir sus dedos durante el salat (oración)?",
-          "fa": "آیا به شخص اجازه داده شده است که در هنگام صلات (نماز) برگردد یا انگشتانش را بشکند؟",
-          "fr": "Est-il permis à une personne de se tourner ou de craquer ses doigts pendant la salat (prière) ?",
-          "id": "Apakah seseorang diperbolehkan menoleh atau mematahkan jari-jarinya saat salat (shalat)?",
-          "ru": "Разрешено ли человеку оборачиваться или хрустеть пальцами во время салят (молитвы)?",
-          "tr": "Bir kişinin salat (namaz) sırasında dönmesine veya parmaklarını çıtlatmasına izin var mı?",
-          "ur": "کیا کسی شخص کو صلات (نماز) کے دوران مڑنے یا اپنی انگلیاں چٹخانے کی اجازت ہے؟",
-          "zh": "人在salat（礼拜）中可以转身或掰响手指吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস সালাত (নামাজ)-এ সঠিক আচরণ সম্পর্কে একটি শরঈ বিধান প্রদান করে। এতে বোঝা যায় যে নামাজের সময় ঘুরে তাকানো অনুমোদিত নয়, এবং ইবাদতের শিষ্টাচার বজায় রাখতে আঙুল চটকানোও এড়িয়ে চলা উচিত।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung über das richtige Verhalten im salat (Gebet). Er zeigt, dass es während des Gebets nicht erlaubt ist, sich umzudrehen, und dass auch das Knacken der Finger vermieden werden soll, um die Würde des Gottesdienstes zu wahren.",
-          "en": "This hadith gives a legal ruling concerning proper conduct in salat (prayer). It indicates that turning about during the prayer is not permitted, and that cracking the fingers is also to be avoided as part of maintaining the decorum of worship.",
-          "es": "Este hadiz da una norma jurídica sobre la conducta correcta en el salat (oración). Indica que no está permitido volverse durante la oración, y que también debe evitarse crujir los dedos para mantener la decencia del culto.",
-          "fa": "این حدیث حکمی فقهی درباره آداب درست در صلات (نماز) بیان می‌کند. دلالت دارد بر اینکه در هنگام نماز برگردیدن جایز نیست و برای حفظ ادب عبادت، شکستن انگشتان نیز باید ترک شود.",
-          "fr": "Ce hadith donne une règle juridique concernant la bonne conduite dans la salat (prière). Il indique qu’il n’est pas permis de se tourner pendant la prière, et qu’il faut aussi éviter de craquer ses doigts afin de préserver la bienséance du culte.",
-          "id": "Hadis ini memberikan حكم hukum tentang adab yang benar dalam salat (shalat). Ini menunjukkan bahwa menoleh saat salat tidak diperbolehkan, dan mematahkan jari-jari juga harus dihindari demi menjaga kesopanan ibadah.",
-          "ru": "Этот хадис содержит правовое предписание относительно надлежащего поведения в салят (молитве). Он указывает, что во время молитвы нельзя оборачиваться, а также следует избегать хрустеть пальцами, чтобы сохранять благопристойность поклонения.",
-          "tr": "Bu hadis, salatta (namazda) doğru davranışa dair bir fıkhî hüküm verir. Buna göre namaz sırasında dönmek caiz değildir ve ibadetin edebini korumak için parmakları çıtlatmaktan da kaçınılmalıdır.",
-          "ur": "یہ حدیث صلات (نماز) میں درست آداب کے بارے میں شرعی حکم بیان کرتی ہے۔ اس سے معلوم ہوتا ہے کہ نماز کے دوران مڑنا جائز نہیں، اور عبادت کے ادب کو برقرار رکھنے کے لیے انگلیاں چٹخانے سے بھی بچنا چاہیے۔",
-          "zh": "这段圣训给出了关于salat（礼拜）中正确举止的教法律例。它表明在礼拜中转身是不被允许的，而且为了保持敬拜的礼仪，也应避免掰响手指。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

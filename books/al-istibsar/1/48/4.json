@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "سَعْدُ بْنُ عَبْدِ اللَّهِ عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ بْنِ أَبِي الْخَطَّابِ عَنِ النَّضْرِ بْنِ شُعَيْبٍ عَنْ عَبْدِ الْغَفَّارِ الْحَارِثِيِّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "সা‘দ ইবন ‘আবদুল্লাহ, মুহাম্মদ ইবন আল-হুসাইন ইবন আবি আল-খাত্তাব থেকে, আল-নাদর ইবন শু‘আইব থেকে, ‘আবদ আল-গাফফার আল-হারিথি থেকে, আবু ‘আবদুল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Sa'd ibn 'Abd Allah, von Muhammad ibn al-Husayn ibn Abi al-Khattab, von al-Nadr ibn Shu'ayb, von 'Abd al-Ghaffar al-Harithi, von Abu 'Abd Allah عليه السلام, der sagte:",
-              "en": "Sa'd ibn 'Abd Allah, from Muhammad ibn al-Husayn ibn Abi al-Khattab, from al-Nadr ibn Shu'ayb, from 'Abd al-Ghaffar al-Harithi, from Abu 'Abd Allah عليه السلام, who said:",
-              "es": "Sa'd ibn 'Abd Allah, de Muhammad ibn al-Husayn ibn Abi al-Khattab, de al-Nadr ibn Shu'ayb, de 'Abd al-Ghaffar al-Harithi, de Abu 'Abd Allah عليه السلام, quien dijo:",
-              "fa": "سعد بن عبد الله، از محمد بن الحسین بن ابی الخطاب، از النضر بن شعیب، از عبد الغفار الحارثی، از ابو عبد الله علیه السلام، که فرمود:",
-              "fr": "Sa'd ibn 'Abd Allah, d'après Muhammad ibn al-Husayn ibn Abi al-Khattab, d'après al-Nadr ibn Shu'ayb, d'après 'Abd al-Ghaffar al-Harithi, d'après Abu 'Abd Allah عليه السلام, qui a dit :",
-              "id": "Sa'd ibn 'Abd Allah, dari Muhammad ibn al-Husayn ibn Abi al-Khattab, dari al-Nadr ibn Shu'ayb, dari 'Abd al-Ghaffar al-Harithi, dari Abu 'Abd Allah عليه السلام, yang berkata:",
-              "ru": "Са‘д ибн ‘Абд Аллах, от Мухаммада ибн аль-Хусайна ибн Аби аль-Хаттаба, от аль-Надра ибн Шу‘айба, от ‘Абд аль-Гаффара аль-Харити, от Абу ‘Абд Аллаха عليه السلام, который сказал:",
-              "tr": "Sa'd ibn 'Abd Allah, Muhammad ibn al-Husayn ibn Abi al-Khattab'dan, al-Nadr ibn Shu'ayb'dan, 'Abd al-Ghaffar al-Harithi'den, Ebu 'Abd Allah عليه السلام'dan rivayet etti ki, şöyle dedi:",
-              "ur": "سعد بن عبد اللہ، محمد بن الحسن بن ابی الخطاب سے، النضر بن شعیب سے، عبد الغفار الحارثی سے، ابو عبد اللہ علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "Sa'dibn'AbdAllah，传自Muhammadibnal-HusaynibnAbial-Khattab，传自al-NadribnShu'ayb，传自'Abdal-Ghaffaral-Harithi，传自Abu'AbdAllah عليه السلام，他说："
-            },
             "word_end": 26,
             "word_start": 0
           },
           {
             "arabic_text": "الْحَائِضُ تَقْرَأُ مَا شَاءَتْ مِنَ الْقُرْآنِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "ঋতুমতী নারী কুরআন থেকে যা ইচ্ছা তা তিলাওয়াত করতে পারে।",
-              "de": "Die menstruierende Frau darf vom Qur'an rezitieren, was immer sie möchte.",
-              "en": "The menstruating woman may recite whatever she wishes from the Qur'an.",
-              "es": "La mujer menstruante puede recitar del Corán lo que desee.",
-              "fa": "زنِ حائض می‌تواند هرچه را که بخواهد از قرآن تلاوت کند.",
-              "fr": "La femme menstruée peut réciter du Coran ce qu'elle veut.",
-              "id": "Perempuan yang sedang haid boleh membaca apa pun yang ia kehendaki dari Al-Qur'an.",
-              "ru": "Менструирующая женщина может читать из Корана всё, что пожелает.",
-              "tr": "Hayızlı kadın, Kur'an'dan dilediğini okuyabilir.",
-              "ur": "حیض والی عورت قرآن میں سے جو چاہے تلاوت کر سکتی ہے۔",
-              "zh": "月经中的妇女可以诵读她所愿意的《古兰经》内容。"
-            },
             "word_end": 32,
             "word_start": 26
           }
@@ -84,24 +71,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْحَائِضُ": "a menstruating woman",
-            "الْقُرْآنِ": "the Qur'an",
-            "تَقْرَأُ": "she recites",
-            "مَا شَاءَتْ": "whatever she wishes"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْحَائِضُ",
+          "تَقْرَأُ",
+          "مَا شَاءَتْ",
+          "الْقُرْآنِ"
+        ],
         "related_quran": [
           {
             "ref": "56:77",
@@ -112,32 +87,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী কি ঋতুমতী নারী কুরআন তিলাওয়াত করতে পারে?",
-          "de": "Darf eine menstruierende Frau gemäß diesem Hadith den Qur'an rezitieren?",
-          "en": "Can a menstruating woman recite the Qur'an according to this hadith?",
-          "es": "¿Puede una mujer menstruante recitar el Corán según este hadiz?",
-          "fa": "آیا بر اساس این حدیث، زنِ حائض می‌تواند قرآن تلاوت کند؟",
-          "fr": "Une femme menstruée peut-elle réciter le Coran selon ce hadith ?",
-          "id": "Apakah perempuan yang sedang haid boleh membaca Al-Qur'an menurut hadis ini?",
-          "ru": "Может ли менструирующая женщина читать Коран согласно этому хадису?",
-          "tr": "Bu hadise göre hayızlı bir kadın Kur'an okuyabilir mi?",
-          "ur": "کیا اس حدیث کے مطابق حیض والی عورت قرآن تلاوت کر سکتی ہے؟",
-          "zh": "根据这段圣训，月经中的妇女可以诵读《古兰经》吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে একটি শরয়ি বিধান উল্লেখ করা হয়েছে যে ঋতুমতী নারী কুরআন থেকে যতটুকু ইচ্ছা তিলাওয়াত করতে পারে। ঋতুকালীন পবিত্রতা এবং কুরআন তিলাওয়াতের ফিকহি সীমা নিয়ে আলোচনায় এটি গুরুত্বপূর্ণ।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung, dass es der menstruierenden Frau erlaubt ist, vom Qur'an so viel zu rezitieren, wie sie möchte. Dies ist bedeutsam in Diskussionen über rituelle Reinheit und die gegebenenfalls bestehenden fiqh-rechtlichen Grenzen der Qur'an-Rezitation während der Menstruation.",
-          "en": "This hadith states a legal ruling that a menstruating woman is permitted to recite from the Qur'an as much as she wishes. It is significant in discussions of ritual purity and the jurisprudential limits, if any, on Qur'an recitation during menstruation.",
-          "es": "Este hadiz establece una norma jurídica: que a la mujer menstruante se le permite recitar del Corán tanto como desee. Es significativo en las discusiones sobre la pureza ritual y los límites jurisprudenciales, si los hay, de la recitación del Corán durante la menstruación.",
-          "fa": "این حدیث حکمی فقهی را بیان می‌کند که زنِ حائض مجاز است هر مقدار که بخواهد از قرآن تلاوت کند. این روایت در بحث‌های مربوط به طهارتِ شرعی و حدود فقهیِ تلاوت قرآن در دوران حیض اهمیت دارد.",
-          "fr": "Ce hadith énonce une règle juridique selon laquelle la femme menstruée est autorisée à réciter du Coran autant qu'elle le souhaite. Il est important dans les discussions sur la pureté rituelle et les limites jurisprudentielles, s'il y en a, de la récitation du Coran pendant les menstruations.",
-          "id": "Hadis ini menyatakan sebuah hukum fikih bahwa perempuan yang sedang haid diperbolehkan membaca dari Al-Qur'an sebanyak yang ia kehendaki. Ini penting dalam pembahasan tentang kesucian ritual dan batas-batas fikih, jika ada, terkait pembacaan Al-Qur'an saat haid.",
-          "ru": "Этот хадис устанавливает правовое предписание: менструирующей женщине дозволено читать из Корана столько, сколько она пожелает. Это важно в обсуждениях ритуальной чистоты и, если таковые есть, фикховых ограничений на чтение Корана во время менструации.",
-          "tr": "Bu hadis, hayızlı bir kadının Kur'an'dan dilediği kadarını okumasına izin verildiğine dair bir fıkhî hüküm bildirir. Bu, ritüel temizlik ve hayız sırasında Kur'an okumanın fıkhî sınırları hakkındaki tartışmalarda önemlidir.",
-          "ur": "یہ حدیث ایک شرعی حکم بیان کرتی ہے کہ حیض والی عورت کو قرآن میں سے جتنا چاہے تلاوت کرنے کی اجازت ہے۔ یہ طہارتِ شرعیہ اور حیض کے دوران قرآن کی تلاوت کی فقہی حدود کے مباحث میں اہم ہے۔",
-          "zh": "这段圣训说明了一项教法判定：月经中的妇女被允许诵读《古兰经》中她所愿意的任何内容。它在关于礼仪洁净以及月经期间诵读《古兰经》是否有教法限制的讨论中具有重要意义。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

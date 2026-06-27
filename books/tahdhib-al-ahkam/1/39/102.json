@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ النَّوْفَلِيِّ عَنِ السَّكُونِيِّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী ইবন ইবরাহীম, তাঁর পিতা থেকে, আল-নওফালী থেকে, আল-সুকূনী থেকে, আবী আব্দুল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "ʿAlī ibn Ibrāhīm, von seinem Vater, von al-Nawfalī, von al-Sukūnī, von Abī ʿAbd Allāh عليه السلام, der sagte:",
-              "en": "ʿAlī ibn Ibrāhīm, from his father, from al-Nawfalī, from al-Sukūnī, from Abī ʿAbd Allāh عليه السلام, who said:",
-              "es": "ʿAlī ibn Ibrāhīm, de su padre, de al-Nawfalī, de al-Sukūnī, de Abī ʿAbd Allāh عليه السلام, quien dijo:",
-              "fa": "علی بن ابراهیم، از پدرش، از النوفلی، از السکونی، از ابی عبدالله علیه السلام، که فرمود:",
-              "fr": "ʿAlī ibn Ibrāhīm, de son père, d’al-Nawfalī, d’al-Sukūnī, d’Abī ʿAbd Allāh عليه السلام, qui a dit :",
-              "id": "ʿAli ibn Ibrahim, dari ayahnya, dari al-Nawfalī, dari al-Sukūnī, dari Abī ʿAbd Allāh عليه السلام, yang berkata:",
-              "ru": "ʿАли ибн Ибрахим, от своего отца, от аль-Науфали, от ас-Сукуни, от Аби ʿАбд Аллаха عليه السلام, который сказал:",
-              "tr": "Ali ibn İbrahim, babasından, el-Nevfelî’den, es-Sükûnî’den, Ebû Abdillah عليه السلام’dan rivayetle şöyle dedi:",
-              "ur": "علی بن ابراہیم، ان کے والد سے، النوفلی سے، السکونی سے، ابی عبد اللہ علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "ʿAliibnIbrahim，传自其父，传自al-Nawfalī，传自al-Sukūnī，传自AbīʿAbdAllāh عليه السلام，他说："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "سُئِلَ مَا بَالُ الْمَيِّتِ يُمْنِي قَالَ «النُّطْفَةُ الَّتِي خُلِقَ مِنْهَا يَرْمِي بِهَا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তাঁকে জিজ্ঞেস করা হলো, “মৃত ব্যক্তি কেন বীর্য নির্গত করে?” তিনি বললেন, “সে সেই ফোঁটাটি বের করে দেয়, যেখান থেকে তাকে সৃষ্টি করা হয়েছিল।”",
-              "de": "Er wurde gefragt: „Warum tritt aus dem Toten Samen aus?“ Er sagte: „Er stößt den Tropfen aus, aus dem er erschaffen wurde.“",
-              "en": "He was asked, “Why is it that the dead person emits semen?” He said, “He casts out the drop from which he was created.”",
-              "es": "Se le preguntó: “¿Por qué el muerto emite semen?” Dijo: “Expulsa la gota de la que fue creado.”",
-              "fa": "از او پرسیده شد: «چرا از مرده منی خارج می‌شود؟» فرمود: «آن قطره‌ای را که از آن آفریده شده بود، بیرون می‌افکند.»",
-              "fr": "On lui demanda : « Pourquoi le mort émet-il du sperme ? » Il dit : « Il rejette la goutte à partir de laquelle il a été créé. »",
-              "id": "Beliau ditanya, “Mengapa orang yang mati mengeluarkan mani?” Beliau bersabda, “Ia mengeluarkan tetes yang darinya ia diciptakan.”",
-              "ru": "Его спросили: «Почему у умершего выделяется семя?» Он сказал: «Он извергает каплю, из которой был сотворён».",
-              "tr": "Ona, “Ölü kişiden neden meni çıkar?” diye soruldu. O da, “Yaratıldığı damlayı dışarı atar.” dedi.",
-              "ur": "اس سے پوچھا گیا: “میت سے منی کیوں خارج ہوتی ہے؟” فرمایا: “وہ اس قطرے کو خارج کرتا ہے جس سے اسے پیدا کیا گیا تھا۔”",
-              "zh": "有人问他：“为什么死者会排出精液？”他说：“他排出那一滴，他就是由那一滴被创造出来的。”"
-            },
             "word_end": 28,
             "word_start": 16
           }
@@ -114,25 +101,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "النُّطْفَةُ": "the seminal drop from which human creation begins",
-            "الْمَيِّتِ": "the deceased person",
-            "خُلِقَ": "was created",
-            "يَرْمِي": "casts out or expels",
-            "يُمْنِي": "emits semen"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمَيِّتِ",
+          "يُمْنِي",
+          "النُّطْفَةُ",
+          "خُلِقَ",
+          "يَرْمِي"
+        ],
         "related_quran": [
           {
             "ref": "75:37",
@@ -147,32 +122,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আস-সাদিক عليه السلام-এর হাদিস অনুযায়ী মৃত ব্যক্তি কেন বীর্য নির্গত করে?",
-          "de": "Warum tritt aus dem Toten Samen aus, gemäß dem Hadith von Imam as-Sadiq عليه السلام?",
-          "en": "Why does a dead person emit semen according to the hadith of Imam al-Sadiq عليه السلام?",
-          "es": "¿Por qué el muerto emite semen según el hadiz del Imam al-Sadiq عليه السلام?",
-          "fa": "طبق حدیث امام صادق علیه السلام چرا از مرده منی خارج می‌شود؟",
-          "fr": "Pourquoi le mort émet-il du sperme selon le hadith de l’imam al-Sadiq عليه السلام ?",
-          "id": "Mengapa orang yang mati mengeluarkan mani menurut hadis Imam al-Sadiq عليه السلام?",
-          "ru": "Почему у умершего выделяется семя согласно хадису Имама ас-Садика عليه السلام?",
-          "tr": "İmam es-Sâdık عليه السلام’ın hadisine göre ölü kişiden neden meni çıkar?",
-          "ur": "امام صادق علیہ السلام کی حدیث کے مطابق میت سے منی کیوں خارج ہوتی ہے؟",
-          "zh": "根据伊玛目al-Sadiq عليه السلام的圣训，为什么死者会排出精液？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে মৃতদেহের সঙ্গে সম্পর্কিত একটি শারীরিক ঘটনা বর্ণনা করা হয়েছে এবং সেটিকে সেই ফোঁটা বের হয়ে যাওয়ার সঙ্গে যুক্ত করা হয়েছে, যেখান থেকে মানুষকে সৃষ্টি করা হয়েছিল। এতে ইমাম আস-সাদিক عليه السلام থেকে বর্ণিত মৃত্যুর সময় পর্যবেক্ষিত একটি বিষয়ে সংক্ষিপ্ত ব্যাখ্যা দেওয়া হয়েছে।",
-          "de": "Dieser Hadith beschreibt ein körperliches Phänomen, das mit dem Leichnam verbunden ist, und führt es auf das Ausstoßen des Tropfens zurück, aus dem der Mensch erschaffen wurde. Er bietet eine knappe Erklärung, die von Imam as-Sadiq عليه السلام zu einer beim Tod beobachteten Angelegenheit überliefert wurde.",
-          "en": "This hadith describes a physical occurrence associated with the dead body and attributes it to the expulsion of the drop from which the person was created. It presents a concise explanation transmitted from Imam al-Sadiq عليه السلام concerning a matter observed at death.",
-          "es": "Este hadiz describe un fenómeno físico asociado al cuerpo del difunto y lo atribuye a la expulsión de la gota de la que la persona fue creada. Presenta una explicación concisa transmitida del Imam al-Sadiq عليه السلام acerca de un asunto observado al morir.",
-          "fa": "این حدیث به یک پدیده جسمانی مرتبط با بدن مرده اشاره می‌کند و آن را به بیرون افکنده شدن قطره‌ای که انسان از آن آفریده شده بود نسبت می‌دهد. این روایت، توضیحی کوتاه از امام صادق علیه السلام درباره امری مشاهده‌شده هنگام مرگ ارائه می‌کند.",
-          "fr": "Ce hadith décrit un phénomène physique associé au corps du défunt et l’attribue à l’expulsion de la goutte à partir de laquelle la personne a été créée. Il présente une explication concise transmise de l’imam al-Sadiq عليه السلام au sujet d’une réalité observée au moment de la mort.",
-          "id": "Hadis ini menggambarkan suatu kejadian fisik yang terkait dengan jasad orang mati dan menisbatkannya kepada keluarnya tetes yang darinya manusia diciptakan. Ini menyajikan penjelasan singkat yang diriwayatkan dari Imam al-Sadiq عليه السلام tentang suatu perkara yang terlihat saat kematian.",
-          "ru": "Этот хадис описывает физическое явление, связанное с телом умершего, и объясняет его извержением капли, из которой человек был сотворён. В нём приводится краткое разъяснение, переданное от Имама ас-Садика عليه السلام относительно наблюдаемого при смерти явления.",
-          "tr": "Bu hadis, ölü bedenle ilgili fiziksel bir olguyu anlatır ve bunu kişinin yaratıldığı damlanın dışarı atılmasına bağlar. İmam es-Sâdık عليه السلام’dan ölüm anında gözlemlenen bir mesele hakkında aktarılan kısa bir açıklama sunar.",
-          "ur": "یہ حدیث میت کے جسم سے منی کے خارج ہونے کا ذکر کرتی ہے اور اسے اس قطرے کے اخراج سے مربوط کرتی ہے جس سے انسان پیدا کیا گیا تھا۔ اس میں امام صادق علیہ السلام سے منقول ایک مختصر وضاحت بیان کی گئی ہے۔",
-          "zh": "这段圣训描述了与死者身体相关的一种生理现象，并将其归因于排出那一滴人由此被创造出来的液滴。它简要说明了伊玛目al-Sadiq عليه السلام关于死亡时所观察到的一件事的传述。"
-        },
         "tags": [
           "afterlife",
           "knowledge",

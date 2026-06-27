@@ -14,6 +14,111 @@
       "up": "/books/al-kafi:4:3:90"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ مُحَمَّدِ بْنِ إِسْمَاعِيلَ بْنِ بَزِيعٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 14,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "كَتَبْتُ إِلَى الرِّضَا ( عَلَيْهِ السَّلَامُ ) هَلْ يَجُوزُ لِلْمُحْرِمِ أَنْ يَمْشِيَ تَحْتَ ظِلِّ الْمَحْمِلِ فَكَتَبَ نَعَمْ",
+            "chunk_type": "body",
+            "word_end": 31,
+            "word_start": 14
+          },
+          {
+            "arabic_text": "قَالَ وَ سَأَلَهُ رَجُلٌ عَنِ الظِّلَالِ لِلْمُحْرِمِ مِنْ أَذَى مَطَرٍ أَوْ شَمْسٍ وَ أَنَا أَسْمَعُ فَأَمَرَهُ أَنْ يَفْدِيَ شَاةً وَ يَذْبَحَهَا بِمِنًى",
+            "chunk_type": "body",
+            "word_end": 53,
+            "word_start": 31
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 130,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ إِسْمَاعِيلَ بْنِ بَزِيعٍ",
+              "name_en": "Muhammad ibn Isma'il ibn Bazi'",
+              "position": 3,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "إِحْرَام",
+          "ظِلِّ الْمَحْمِلِ",
+          "أَذَى",
+          "فِدْيَة",
+          "مِنًى"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:196",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "worship"
+        ],
+        "topics": [
+          "hajj",
+          "halal_haram"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> صحيح  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (7/303)"
       ],
@@ -75,7 +180,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:4:3:90:5",

@@ -17,23 +17,23 @@
           "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَأَمَّا حَقُّ بَطْنِكَ فَأَنْ لَا تَجْعَلَهُ وِعَاءً لِلْحَرَامِ وَلَا تَزِدْ عَلَى الشَّبْعَ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এবং আপনার পেটের অধিকার হলো, আপনি তাকে হারামের পাত্র না বানান এবং সন্তৃপ্তির অতিরিক্ত না হন।",
-              "de": "Und was das Recht deines Magens betrifft, so sollst du ihn nicht zu einem Behälter für das Unrechtmäßige machen und du sollst die Sättigung nicht überschreiten.",
-              "en": "And as for the right of your stomach, it is that you do not make it a container for the unlawful and you do not exceed satiety.",
-              "es": "Y en cuanto alusión al derecho de tu estómago, es que no lo conviertas en recipiente de lo ilícito y no excedas la saciedad.",
-              "fa": "و اما حق شکم تو آن است که آن را ظرف حرام مکنی و از سیری تجاوز نکنی.",
-              "fr": "Et quant au droit de ton estomac, c'est de ne pas en faire un récipient pour l'illicite et de ne pas dépasser la satiété.",
-              "id": "Adapun hak perutmu, maka janganlah engkau menjadikannya wadah bagi yang haram dan janganlah engkau melebihi batas kenyang.",
-              "ru": "Что касается права твоего желудка, то не делай его сосудом для халяля и не превышай меру насыщения.",
-              "tr": "Böylece karnının hakkı da, onu haramla doldurmamak ve doyumdan aşmamaktır.",
-              "ur": "اور آپ کے پیٹ کا حق یہ ہے کہ آپ اسے حرام کا برتن نہ بنائیں اور زیادتی نہ کریں۔",
-              "zh": "至于你胃的权利，就是不要把它当作容纳非法之物的容器，也不要超过饱足。"
-            },
             "word_end": 12,
             "word_start": 0
           }
@@ -45,74 +45,12 @@
           "narrators": []
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {
-            "الشَّبْعَ": "পূর্ণতা",
-            "بَطْنِكَ": "তোমার পাকস্থলী",
-            "لِلْحَرَامِ": "হারামের জন্য",
-            "وِعَاءً": "পাত্র"
-          },
-          "de": {
-            "الشَّبْعَ": "Sättigung/Vollsein",
-            "بَطْنِكَ": "dein Magen",
-            "لِلْحَرَامِ": "für das Unrechtmäßige",
-            "وِعَاءً": "Gefäß"
-          },
-          "en": {
-            "الشَّبْعَ": "satiety/fullness",
-            "بَطْنِكَ": "your stomach",
-            "لِلْحَرَامِ": "for the unlawful",
-            "وِعَاءً": "container"
-          },
-          "es": {
-            "الشَّبْعَ": "saciedad",
-            "بَطْنِكَ": "tu estómago",
-            "لِلْحَرَامِ": "para lo ilícito",
-            "وِعَاءً": "recipiente"
-          },
-          "fa": {
-            "الشَّبْعَ": "سیری",
-            "بَطْنِكَ": "شکم تو",
-            "لِلْحَرَامِ": "برای حرام",
-            "وِعَاءً": "ظرف"
-          },
-          "fr": {
-            "الشَّبْعَ": "satiété/plénitude",
-            "بَطْنِكَ": "ton estomac",
-            "لِلْحَرَامِ": "pour l'illicite",
-            "وِعَاءً": "récipient"
-          },
-          "id": {
-            "الشَّبْعَ": "kenyang",
-            "بَطْنِكَ": "perutmu",
-            "لِلْحَرَامِ": "bagi yang haram",
-            "وِعَاءً": "wadah"
-          },
-          "ru": {
-            "الشَّبْعَ": "сытость",
-            "بَطْنِكَ": "твой желудок",
-            "لِلْحَرَامِ": "для нечестивого",
-            "وِعَاءً": "сосуд"
-          },
-          "tr": {
-            "الشَّبْعَ": "tokluk/doygunluk",
-            "بَطْنِكَ": "midem",
-            "لِلْحَرَامِ": "haram için",
-            "وِعَاءً": "kap"
-          },
-          "ur": {
-            "الشَّبْعَ": "سیری",
-            "بَطْنِكَ": "تمہارا پیٹ",
-            "لِلْحَرَامِ": "حرام کے لیے",
-            "وِعَاءً": "برتن"
-          },
-          "zh": {
-            "الشَّبْعَ": "饱足",
-            "بَطْنِكَ": "你的胃",
-            "لِلْحَرَامِ": "非法的",
-            "وِعَاءً": "容器"
-          }
-        },
+        "key_terms_keys": [
+          "بَطْنِكَ",
+          "وِعَاءً",
+          "لِلْحَرَامِ",
+          "الشَّبْعَ"
+        ],
         "related_quran": [
           {
             "ref": "7:31",
@@ -127,32 +65,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিস অনুযায়ী পাকস্থলীর অধিকার কী কী?",
-          "de": "Was sind die Rechte des Magens gemäß dem schiitischen Hadith?",
-          "en": "What are the rights of the stomach according to Shia hadith?",
-          "es": "¿Cuáles son los derechos del estómago según el hadiz chií?",
-          "fa": "حقوق شکم بر اساس احادیث شیعه چیست؟",
-          "fr": "Quels sont les droits de l'estomac selon les hadiths chiites ?",
-          "id": "Apa saja hak perut menurut hadis Syiah?",
-          "ru": "Каковы права желудка согласно шиитским хадисам?",
-          "tr": "Şii hadislerine göre midenin hakları nelerdir?",
-          "ur": "شیعہ حدیث کے مطابق معدے کے حقوق کیا ہیں؟",
-          "zh": "根据什叶派圣训，胃的权利是什么？"
-        },
-        "summaries": {
-          "bn": "ইমাম জয়নুল আবিদিন পাকস্থলীকে কেবল একটি জৈবিক অঙ্গ হিসেবে নয়, বরং আধ্যাত্মিক পুষ্টির জন্য একটি পাত্র হিসেবে চিহ্নিত করেছেন, সতর্ক করেছেন যে হারাম খাদ্য শরীরকে টিকিয়ে রাখে কিন্তু অতিরিক্ত খাওয়া বুদ্ধি ও হৃদয়কে ম্লান করে দেয়। এই শিক্ষা 'মধ্যম পন্থা' (ওয়াসাতীয়্যাহ) শিয়া ঐতিহ্যের সাথে সামঞ্জস্যপূর্ণ, যেখানে শারীরিক শৃঙ্খলা প্রার্থনার স্পষ্টতা ও আত্মার পবিত্রতার সাথে সরাসরি যুক্ত।",
-          "de": "Imam Zayn al-Abidin stellt den Magen nicht nur als biologisches Organ, sondern als Gefäß für die spirituelle Ernährung dar und warnt davor, dass der Verzehr von Haram den Körper erhält, während übermäßiges Essen den Verstand und das Herz abstumpft. Diese Lehre steht im Einklang mit der schiitischen Tradition der 'Mäßigung' (Wasatiyyah), bei der körperliche Disziplin direkt mit der Klarheit des Gottesdienstes und der Läuterung der Seele verbunden ist.",
-          "en": "Imam Zayn al-Abidin frames the stomach not merely as a biological organ but as a vessel for spiritual nourishment, warning that consuming haram sustains the body while overeating dulls the intellect and heart. This teaching aligns with the Shia tradition of 'moderation' (wasatiyyah), where physical discipline is directly linked to the clarity of worship and the purification of the soul.",
-          "es": "El Imam Zayn al-Abidin presenta el estómago no solo como un órgano biológico sino como un órgano biológico, sino como un recipiente para la nutrición espiritual, advirtiendo que consumir alimentos haram sostiene el cuerpo mientras que comer en exceso embotan el intelecto y el corazón. Esta enseñanza se alinea con la tradición chií de la 'moderación' (wasatiyyah), donde la disciplina física está directamente vinculada a la claridad del culto y la purificación del alma.",
-          "fa": "امام زین‌العابدین (ع) شکم را نه صرفاً یک اندام زیستی، بلکه ظرفی برای تغذیه روحی می‌داند و هشدار می‌دهد که خوردن حلال بدن را زنده نگه می‌دارد، اما پرخوری باعث کندی عقل و دل می‌شود. این آموزه با سنت شیعه درباره «اعتدال» (وسطیت) همسو است، در جایی که نظم جسمانی مستقیماً با وضوح عبادت و تزکیه روح پیوند دارد.",
-          "fr": "L'Imam Zayn al-Abidin présente l'estomac non pas simplement comme un organe biologique, mais comme un récipient pour la nourriture spirituelle, avertissant que consommer du haram nourrit le corps tandis que le trop-plein émousse l'intellect et le cœur. Cet enseignement s'aligne sur la tradition chiite de la 'modération' (wasatiyyah), où la discipline physique est directement liée à la clarté du culte et à la purification de l'âme.",
-          "id": "Imam Zayn al-Abidin memandang perut bukan sekadar organ biologis, melainkan wadah bagi nutrisi spiritual, memperingatkan bahwa mengonsumsi makanan haram memelihara tubuh, sementara makan berlebihan akan tumpulnya akal dan hati. Ajaran ini selaras dengan tradisi Syiah tentang 'moderasi' (wasatiyyah), di mana disiplin fisik secara langsung terkait dengan kejelasan ibadah dan pemurnian jiwa.",
-          "ru": "Имам Зайн аль-Абидин рассматривает желудок не просто как биологический орган, но как сосуд для духовного питания, предупреждая, что употребление халяльной пищи поддерживает тело, а переедание притупляет интеллект и сердце. Это учение соответствует шиитской традиции умеренности (васа́тия), где физическая дисциплина напрямую связана с ясностью поклонения и очищением души.",
-          "tr": "İmam Zeynü'l-Abidin midemizi yalnızca biyolojik bir organ olarak değil, manevi beslenme için bir kap olarak çerçevelemekte, haram beslenmenin bedeni beslediğini ancak aşırı yemenin akli ve kalbi zayıflattığını uyarır. Bu öğreti, fiziksel disiplinin ibadetin netliği ve ruhun arınmasıyla doğrudan bağlantılı olduğu Şii geleneğindeki 'orta yol' (vasatiyye) kavramıyla uyumludur.",
-          "ur": "امام زین العابدین (ع) معدے کو محض ایک حیاتیاتی عضو کے طور پر نہیں بلکہ روحانی غذاء کے برتن کے طور پر پیش کرتے ہیں، اور خبردار کرتے ہیں کہ حلال غذا جسم کو برقرار رکھتی ہے جبکہ زیادہ کھانے سے عقل اور دل کند ہو جاتے ہیں۔ یہ تعلیم شیعہ روایتِ 'اعتدال' (وسطیہ) کے مطابق ہے، جس میں جسمانی ضبط عبادت کی وضاحت اور روح کی پاکیزگی سے براہ راست منسلک ہے۔",
-          "zh": "伊玛目宰因·阿比丁将胃视为精神滋养的容器，而不仅仅是生物器官，并警告说，食用非法食物虽能维持身体，但暴饮暴食会钝化理智与心灵。这一教导符合什叶派“中道”（wasatiyyah）传统，其中身体纪律直接与礼拜的清晰度和灵魂的净化相联系。"
-        },
         "tags": [
           "ethics",
           "jurisprudence"

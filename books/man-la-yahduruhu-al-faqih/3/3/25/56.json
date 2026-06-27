@@ -17,61 +17,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى إِسْمَاعِيلُ بْنُ أَبِي زِيَادٍ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ أَبِيهِ عَلَيْهِ السَّلَامُ أَنَّ عَلِيّاً عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং ইসমাঈল ইবনে আবি জিয়াদ জাফর ইবনে মুহাম্মদ থেকে, যিনি তাঁর পিতা عليه السلام থেকে, বর্ণনা করেছেন যে আলী عليه السلام বলেছেন:",
-              "de": "Und Isma'il ibn Abi Ziyad berichtete von Ja'far ibn Muhammad, von seinem Vater عليه السلام, dass 'Ali عليه السلام sagte:",
-              "en": "And Isma'il ibn Abi Ziyad narrated from Ja'far ibn Muhammad, from his father عليه السلام, that 'Ali عليه السلام said:",
-              "es": "Y Isma'il ibn Abi Ziyad narró de Ja'far ibn Muhammad, de su padre عليه السلام, que 'Ali عليه السلام dijo:",
-              "fa": "و اسماعیل بن ابی زیاد از جعفر بن محمد، از پدرش علیه السلام، روایت کرده که علی علیه السلام فرمود:",
-              "fr": "Et Isma'il ibn Abi Ziyad a rapporté de Ja'far ibn Muhammad, de son père عليه السلام, que 'Ali عليه السلام a dit :",
-              "id": "Dan Isma'il ibn Abi Ziyad meriwayatkan dari Ja'far ibn Muhammad, dari ayahnya علیه السلام, bahwa 'Ali علیه السلام berkata:",
-              "ru": "И Исмаил ибн Аби Зияд передал от Джафара ибн Мухаммада, от его отца عليه السلام, что Али عليه السلام сказал:",
-              "tr": "Ve İsmail ibn Ebi Ziyad, Ca'fer ibn Muhammed'den, onun babasından (aleyhisselam) rivayet etti ki, Ali (aleyhisselam) şöyle dedi:",
-              "ur": "اور اِسماعیل ابن ابی زیاد نے جعفر ابن محمد سے روایت کی، جو اپنے والد علیہ السلام سے روایت کرتے ہیں، کہ علی علیہ السلام نے فرمایا:",
-              "zh": "伊斯ماعيل本أبيزياد从贾法尔本穆罕默德传述，传自其父عليهالسلام，称阿里عليهالسلام说："
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "لَا يَحِلُّ النِّكَاحُ الْيَوْمَ فِي الْإِسْلَامِ بِإِجَارَةٍ بِأَنْ يَقُولَ أَعْمَلُ عِنْدَكَ كَذَا وَ كَذَا سَنَةً عَلَى أَنْ تُزَوِّجَنِي أُخْتَكَ أَوِ ابْنَتَكَ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আজ ইসলামে এমনভাবে বিয়ে বৈধ নয় যে কেউ বলে: আমি তোমার জন্য এত বছর কাজ করব শর্তে যে তুমি আমাকে তোমার বোন বা মেয়ের সঙ্গে বিয়ে দেবে।",
-              "de": "Heutzutage ist in Islam eine Ehe nicht erlaubt, indem man sagt: Ich werde für dich so und so viele Jahre arbeiten, unter der Bedingung, dass du mich mit deiner Schwester oder Tochter verheiratest.",
-              "en": "Marriage is not permissible today in Islam by employment, such that one says: I will work for you for such-and-such a year on the condition that you marry me to your sister or your daughter.",
-              "es": "Hoy en día en el Islam no es permisible el matrimonio mediante empleo, diciendo: Trabajaré para ti durante tantos años con la condición de que me cases con tu hermana o tu hija.",
-              "fa": "امروز در اسلام ازدواج به این صورت جایز نیست که کسی بگوید: من برای تو به مدت فلان سال کار می‌کنم به شرط اینکه مرا با خواهرت یا دخترت ازدواج دهی.",
-              "fr": "Aujourd'hui, dans l'islam, le mariage n'est pas permis en échange d'un emploi, en disant : Je travaillerai pour toi pendant tant d'années à condition que tu me maries avec ta sœur ou ta fille.",
-              "id": "Hari ini dalam Islam, pernikahan tidak diperbolehkan dengan cara mengatakan: Saya akan bekerja untukmu selama sekian tahun dengan syarat kamu menikahkan saya dengan saudara perempuanmu atau anak perempuanmu.",
-              "ru": "Сегодня в исламе не разрешается брак по найму, когда говорят: Я буду работать у тебя столько-то лет при условии, что ты выдашь меня замуж за свою сестру или дочь.",
-              "tr": "Bugün İslam'da evlilik, şöyle denilerek caiz değildir: \"Şu kadar yıl senin yanında çalışacağım, şartıyla beni kız kardeşinle ya da kızınla evlendir.\"",
-              "ur": "آج اسلام میں نکاح اس طرح جائز نہیں ہے کہ کوئی کہے: میں تمہارے لیے اتنے سال کام کروں گا اس شرط پر کہ تم مجھے اپنی بہن یا بیٹی سے بیاہ دو۔",
-              "zh": "如今在伊斯兰中，婚姻不允许通过雇佣方式，即说：我将在你这里工作若干年，条件是你将你的妹妹或女儿嫁给我。"
-            },
             "word_end": 40,
             "word_start": 19
           },
           {
             "arabic_text": "قَالَ هُوَ حَرَامٌ لِأَنَّهُ ثَمَنُ رَقَبَتِهَا وَ هِيَ أَحَقُّ بِمَهْرِهَا.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তিনি বললেন: এটি হারাম কারণ এটি তার ব্যক্তিত্বের মূল্য, অথচ সে তার মেহরের অধিক অধিকারী।",
-              "de": "Er sagte: Es ist haram, weil es der Preis ihrer Person ist, während sie ein größeres Recht auf ihre Mitgift hat.",
-              "en": "He said: It is forbidden, because it is the price of her person, while she has the greater right to her dowry.",
-              "es": "Él dijo: Es prohibido, porque es el precio de su persona, mientras que ella tiene mayor derecho a su dote.",
-              "fa": "فرمود: این حرام است زیرا قیمت شخص اوست، در حالی که او حق بیشتری بر مهریه خود دارد.",
-              "fr": "Il a dit : C'est interdit, car c'est le prix de sa personne, alors qu'elle a un droit plus grand sur sa dot.",
-              "id": "Beliau berkata: Itu haram karena itu adalah harga dirinya, sedangkan dia lebih berhak atas mahrnya.",
-              "ru": "Он сказал: Это запрещено, потому что это цена её личности, а она имеет большее право на свой махр.",
-              "tr": "Dedi ki: Bu haramdır, çünkü bu onun şahsının bedelidir ve o, mehirinde daha hak sahibidir.",
-              "ur": "انہوں نے فرمایا: یہ حرام ہے کیونکہ یہ اس کی ذات کی قیمت ہے جبکہ وہ اپنے مہر کی زیادہ حق دار ہے۔",
-              "zh": "他说：这是禁止的，因为这是她本人的价格，而她对她的嫁妆拥有更大的权利。"
-            },
             "word_end": 50,
             "word_start": 40
           }
@@ -120,26 +94,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "النِّكَاحُ": "marriage contract",
-            "بِإِجَارَةٍ": "through hired labor or employment as consideration",
-            "ثَمَنُ": "price or payment",
-            "حَرَامٌ": "forbidden in Islamic law",
-            "رَقَبَتِهَا": "her person, implying ownership-like valuation",
-            "مَهْرِهَا": "her dowry, which belongs to her by right"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "النِّكَاحُ",
+          "بِإِجَارَةٍ",
+          "حَرَامٌ",
+          "ثَمَنُ",
+          "رَقَبَتِهَا",
+          "مَهْرِهَا"
+        ],
         "related_quran": [
           {
             "ref": "4:4",
@@ -150,32 +112,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামে কি মেহর দেওয়ার পরিবর্তে তার ওলির জন্য কাজ করার বিনিময়ে নারীর সঙ্গে বিয়ে করা যায়?",
-          "de": "Ist es im Islam erlaubt, eine Frau zu heiraten, indem man für ihren Vormund arbeitet, anstatt ihr eine Mitgift zu geben?",
-          "en": "Is it permissible in Islam to marry a woman in exchange for working for her guardian instead of giving her a dowry?",
-          "es": "¿Es permisible en el Islam casarse con una mujer a cambio de trabajar para su tutor en lugar de darle una dote?",
-          "fa": "آیا در اسلام ازدواج با زن به جای دادن مهریه، در ازای کار کردن برای ولی او جایز است؟",
-          "fr": "Est-il permis en islam d'épouser une femme en échange de travailler pour son tuteur au lieu de lui donner une dot ?",
-          "id": "Apakah dalam Islam diperbolehkan menikahi wanita dengan bekerja untuk walinya sebagai pengganti memberikan mahr?",
-          "ru": "Разрешено ли в исламе жениться на женщине в обмен на работу на её опекуна вместо выплаты махра?",
-          "tr": "İslam'da bir kadına mehir vermek yerine onun velisi için çalışmak karşılığında evlenmek caiz midir?",
-          "ur": "کیا اسلام میں عورت سے مہر دینے کے بجائے اس کے ولی کے لیے کام کرنے کے بدلے شادی کرنا جائز ہے؟",
-          "zh": "在伊斯兰教中，是否允许以为女性监护人工作代替支付嫁妆来娶妻？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস একটি আইনি সিদ্ধান্ত দেয় যে শ্রমের বিনিময়ে নারীর সঙ্গে বিয়ে করা হালাল নয়। এটি ব্যাখ্যা করে যে এমন ব্যবস্থা হারাম কারণ এতে নারীকেই মূল্যবান পণ্য হিসেবে দেখা হয়, অথচ মেহর তার অধিকার।",
-          "de": "Dieser Hadith gibt ein rechtliches Urteil, dass eine Ehe, die auf Arbeit im Austausch für die Heirat mit einer Frau basiert, nicht halal ist. Er erklärt, dass eine solche Vereinbarung haram ist, weil sie die Frau wie eine Ware mit Preis behandelt, während der Mahr ihr rechtmäßig gehört.",
-          "en": "This hadith gives a legal ruling that a marriage arrangement based on labor in exchange for marrying a woman is not halal. It explains that such an arrangement is haram because it treats the woman like a priced commodity, while the mahr rightfully belongs to her.",
-          "es": "Este hadiz da un fallo legal que un matrimonio basado en trabajo a cambio de casarse con una mujer no es halal. Explica que tal arreglo es haram porque trata a la mujer como una mercancía con precio, mientras que el mahr le pertenece legítimamente.",
-          "fa": "این حدیث حکم شرعی می‌دهد که ازدواج بر اساس کار در برابر ازدواج با زن حلال نیست. توضیح می‌دهد که چنین ترتیبی حرام است زیرا زن را مانند کالایی قیمت‌گذاری می‌کند، در حالی که مهریه حق اوست.",
-          "fr": "Ce hadith donne un jugement légal selon lequel un mariage basé sur le travail en échange d'épouser une femme n'est pas halal. Il explique que ce type d'arrangement est haram car il traite la femme comme une marchandise tarifée, alors que le mahr lui appartient légitimement.",
-          "id": "Hadis ini memberikan hukum bahwa pernikahan berdasarkan kerja sebagai tukar menikahi wanita tidak halal. Dijelaskan bahwa pengaturan seperti itu haram karena memperlakukan wanita seperti barang berharga, sedangkan mahr adalah haknya.",
-          "ru": "Этот хадис даёт юридическое постановление, что брак, основанный на труде в обмен на женитьбу на женщине, не является халяльным. Объясняет, что такое соглашение харам, потому что оно рассматривает женщину как товар с ценой, в то время как махр по праву принадлежит ей.",
-          "tr": "Bu hadis, emek karşılığında bir kadınla evlenmenin helal olmadığını belirten bir hüküm verir. Böyle bir düzenlemenin haram olduğunu açıklar çünkü kadını bir mal gibi fiyatlandırır, oysa mehir ona aittir.",
-          "ur": "یہ حدیث ایک قانونی حکم دیتی ہے کہ محنت کے بدلے عورت سے شادی کرنا حلال نہیں ہے۔ یہ وضاحت کرتی ہے کہ ایسا کرنا حرام ہے کیونکہ اس میں عورت کو ایک قیمت والی چیز سمجھا جاتا ہے جبکہ مہر اس کا حق ہے۔",
-          "zh": "此圣训给出法律裁决，基于劳动换取与女性结婚的安排不合法。它解释说这种安排是哈拉姆，因为它将女性视为有价商品，而嫁妆权利正当属于她。"
-        },
         "tags": [
           "jurisprudence",
           "family",

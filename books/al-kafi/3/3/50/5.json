@@ -13,6 +13,106 @@
       "up": "/books/al-kafi:3:3:50"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "حَمَّادٌ عَنْ حَرِيزٍ عَمَّنْ أَخْبَرَهُ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 14,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "الطَّامِثُ تُصَلِّي عَلَى الْجِنَازَةِ لِأَنَّهُ لَيْسَ فِيهَا رُكُوعٌ وَ لَا سُجُودٌ وَ الْجُنُبُ تَتَيَمَّمُ وَ تُصَلِّي عَلَى الْجِنَازَةِ",
+            "chunk_type": "body",
+            "word_end": 32,
+            "word_start": 14
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 23,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "حَمَّادٌ",
+              "name_en": "Hammad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": null,
+              "identity_confidence": "ambiguous",
+              "known_identity": null,
+              "name_ar": "حَرِيزٍ عَمَّنْ أَخْبَرَهُ",
+              "name_en": "Hariz b. 'Amman",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 3,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الطَّامِثُ",
+          "تُصَلِّي عَلَى الْجِنَازَةِ",
+          "رُكُوعٌ",
+          "سُجُودٌ",
+          "الْجُنُبُ",
+          "تَتَيَمَّمُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:31",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "worship"
+        ],
+        "topics": [
+          "prayer_rulings",
+          "ritual_purity"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مرسل   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (4/44)"
       ],
@@ -65,7 +165,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:3:50:5",

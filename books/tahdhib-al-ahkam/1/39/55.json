@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ الْحَكَمِ عَنِ الْحُسَيْنِ بْنِ عُثْمَانَ عَنْ سَمَاعَةَ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন মুহাম্মদ, ‘আলি ইবন আল-হাকাম থেকে, আল-হুসাইন ইবন ‘উসমান থেকে, সামা‘আহ থেকে, যিনি বলেছেন:",
-              "de": "Ahmad ibn Muhammad, von 'Ali ibn al-Hakam, von al-Husayn ibn 'Uthman, von Sama'ah, der sagte:",
-              "en": "Ahmad ibn Muhammad, from 'Ali ibn al-Hakam, from al-Husayn ibn 'Uthman, from Sama'ah, who said:",
-              "es": "Ahmad ibn Muhammad, de 'Ali ibn al-Hakam, de al-Husayn ibn 'Uthman, de Sama'ah, quien dijo:",
-              "fa": "احمد بن محمد، از علی بن الحکم، از حسین بن عثمان، از سماعه که گفت:",
-              "fr": "Ahmad ibn Muhammad, d'‘Ali ibn al-Hakam, d'al-Husayn ibn 'Uthman, de Sama'ah, qui a dit :",
-              "id": "Ahmad ibn Muhammad, dari 'Ali ibn al-Hakam, dari al-Husayn ibn 'Uthman, dari Sama'ah, yang berkata:",
-              "ru": "Ахмад ибн Мухаммад, от 'Али ибн аль-Хакама, от аль-Хусайна ибн 'Усмана, от Сама'ах, который сказал:",
-              "tr": "Ahmad ibn Muhammad, Ali ibn al-Hakam’dan, al-Husayn ibn Uthman’dan, Sama’ah’dan, şöyle dedi:",
-              "ur": "احمد بن محمد، علی بن الحکم سے، حسین بن عثمان سے، سماعہ سے، جنہوں نے کہا:",
-              "zh": "AhmadibnMuhammad，传自'Aliibnal-Hakam，传自al-Husaynibn'Uthman，传自Sama'ah，他说："
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنِ الْمَرْأَةِ إِذَا مَاتَتْ فَقَالَ: «يُدْخِلُ زَوْجُهَا يَدَهُ تَحْتَ قَمِيصِهَا إِلَى الْمَرَافِقِ فَيُغَسِّلُهَا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁকে সেই নারী সম্পর্কে জিজ্ঞেস করলাম, যখন সে মারা যায়; তখন তিনি বললেন: \"তার স্বামী তার জামার নিচে কনুই পর্যন্ত হাত প্রবেশ করায়, তারপর তার গুসল সম্পন্ন করে।\"",
-              "de": "Ich fragte ihn über die Frau, wenn sie stirbt, und er sagte: „Ihr Ehemann führt seine Hand unter ihr Hemd bis zu den Ellbogen ein, dann vollzieht er ihr Ghusl.“",
-              "en": "I asked him about the woman when she dies, so he said: \"Her husband inserts his hand beneath her shirt up to the elbows, then he performs her ghusl.\"",
-              "es": "Le pregunté acerca de la mujer cuando muere, y dijo: \"Su esposo introduce su mano debajo de su camisa hasta los codos, luego realiza su ghusl.\"",
-              "fa": "از او دربارهٔ زن هنگامی که می‌میرد پرسیدم، پس فرمود: «شوهرش دست خود را زیر پیراهن او تا آرنج‌ها داخل می‌کند، سپس غسل او را انجام می‌دهد.»",
-              "fr": "Je l’ai interrogé au sujet de la femme lorsqu’elle meurt, et il dit : « Son mari introduit sa main sous sa chemise jusqu’aux coudes, puis il accomplit son ghusl. »",
-              "id": "Aku bertanya kepadanya tentang seorang wanita ketika ia meninggal, lalu ia berkata: \"Suaminya memasukkan tangannya ke bawah bajunya sampai ke siku, kemudian ia memandikan jenazahnya (ghusl).\"",
-              "ru": "Я спросил его о женщине, когда она умирает, и он сказал: «Ее муж вводит свою руку под ее рубаху до локтей, затем совершает ей гусль».",
-              "tr": "Ona, kadın öldüğünde onu sordum; şöyle dedi: \"Kocası elini onun gömleğinin altına dirseklere kadar sokar, sonra onun guslünü yapar.\"",
-              "ur": "میں نے ان سے اس عورت کے بارے میں پوچھا جب وہ وفات پا جائے، تو انہوں نے فرمایا: \"اس کا شوہر اپنا ہاتھ اس کی قمیص کے نیچے کہنیوں تک داخل کرتا ہے، پھر اس کا غسل کرتا ہے۔\"",
-              "zh": "我问他关于女人在去世时的情况，他说：\"她的丈夫把手伸到她的衣服下面直到手肘，然后为她做ghusl。\""
-            },
             "word_end": 28,
             "word_start": 14
           }
@@ -104,58 +91,20 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْمَرَافِقِ": "the elbows; the limit mentioned for the hand",
-            "الْمَرْأَةِ": "the woman being asked about in the ruling",
-            "زَوْجُهَا": "her husband, who is permitted to perform the washing",
-            "فَيُغَسِّلُهَا": "then he performs her ghusl, meaning he washes her body ritually after death",
-            "قَمِيصِهَا": "her shirt or garment, under which the hand is inserted",
-            "مَاتَتْ": "she died; the state that triggers the funeral ruling"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمَرْأَةِ",
+          "مَاتَتْ",
+          "زَوْجُهَا",
+          "قَمِيصِهَا",
+          "الْمَرَافِقِ",
+          "فَيُغَسِّلُهَا"
+        ],
         "related_quran": [
           {
             "ref": "5:6",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে কি স্বামী তার মৃত স্ত্রীর গুসল করতে পারে?",
-          "de": "Kann ein Ehemann im schiitischen Fiqh das Ghusl seiner verstorbenen Ehefrau verrichten?",
-          "en": "Can a husband perform the ghusl of his deceased wife in Shia fiqh?",
-          "es": "¿Puede un esposo realizar el ghusl de su esposa fallecida en la fiqh chií?",
-          "fa": "آیا شوهر می‌تواند در فقه شیعه غسلِ همسرِ متوفی خود را انجام دهد؟",
-          "fr": "Un mari peut-il accomplir le ghusl de son épouse décédée en fiqh chiite ?",
-          "id": "Apakah suami boleh melakukan ghusl terhadap istrinya yang telah meninggal dalam fikih Syiah?",
-          "ru": "Может ли муж совершить гусль своей умершей жены в шиитском фикхе?",
-          "tr": "Şii fıkhında bir koca, vefat eden eşinin guslünü yapabilir mi?",
-          "ur": "کیا شیعہ فقہ میں شوہر اپنی وفات یافتہ بیوی کا غسل کر سکتا ہے؟",
-          "zh": "在什叶派教法中，丈夫可以为已故妻子做ghusl吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে স্বামীর দ্বারা মৃত নারীর গুসল সম্পর্কে একটি শরঈ বিধান বর্ণিত হয়েছে। এতে বোঝা যায় যে স্বামী তাকে আবৃত রেখে তার দেহ ধুতে পারে, এবং তার পোশাকের নিচে কনুই পর্যন্ত হাত প্রবেশ করাতে পারে।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung über das Ghusl einer verstorbenen Frau durch ihren Ehemann. Er zeigt, dass der Ehemann ihren Körper waschen darf, während sie bedeckt bleibt, indem er seine Hand bis zu den Ellbogen unter ihr Gewand führt.",
-          "en": "This hadith gives a legal ruling concerning the ghusl of a deceased woman by her husband. It indicates that the husband may wash her body while keeping her covered, placing his hand beneath her garment up to the elbows.",
-          "es": "Este hadiz expone una norma jurídica respecto al ghusl de una mujer fallecida por parte de su esposo. Indica que el esposo puede lavar su cuerpo manteniéndola cubierta, introduciendo su mano debajo de su prenda hasta los codos.",
-          "fa": "این حدیث حکمی فقهی دربارهٔ غسلِ زنِ متوفی به‌وسیلهٔ شوهرش بیان می‌کند. دلالت دارد که شوهر می‌تواند بدن او را در حالی که پوشیده است بشوید و دست خود را تا آرنج‌ها زیر لباس او داخل کند.",
-          "fr": "Ce hadith énonce une règle juridique concernant le ghusl d’une femme décédée par son mari. Il indique que le mari peut laver son corps tout en la couvrant, en passant sa main sous son vêtement jusqu’aux coudes.",
-          "id": "Hadis ini memberikan حكم hukum tentang ghusl seorang wanita yang telah meninggal oleh suaminya. Ini menunjukkan bahwa suami boleh memandikan tubuhnya sambil tetap menutupinya, dengan memasukkan tangannya ke bawah pakaiannya sampai ke siku.",
-          "ru": "Этот хадис содержит правовое постановление относительно гусля умершей женщины, совершаемого ее мужем. Он указывает, что муж может омыть ее тело, сохраняя ее покрытой, вводя свою руку под ее одежду до локтей.",
-          "tr": "Bu hadis, vefat eden bir kadının guslü hakkında fıkhî bir hüküm bildirir. Buna göre koca, onu örtülü tutarak bedenini yıkayabilir; elini giysisinin altına dirseklere kadar sokar.",
-          "ur": "یہ حدیث ایک وفات یافتہ عورت کے غسلِ میت کے بارے میں شرعی حکم بیان کرتی ہے۔ اس سے معلوم ہوتا ہے کہ شوہر اس کے جسم کو ڈھانپے رکھتے ہوئے، اپنا ہاتھ اس کے لباس کے نیچے کہنیوں تک داخل کر کے اسے غسل دے سکتا ہے۔",
-          "zh": "这段圣训说明了关于丈夫为已故妻子做ghusl的教法判定。它表明，丈夫可以在保持她遮盖的情况下清洗她的身体，并将手伸到她衣服下面直到手肘。"
-        },
         "tags": [
           "jurisprudence",
           "family",

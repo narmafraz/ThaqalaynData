@@ -17,61 +17,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَجَاءَتْ فَخِذٌ مِنَ الْأَنْصَارِ إِلَى رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ فَسَلَّمُوا عَلَيْهِ فَرَدَّ عَلَيْهِمُ السَّلَامَ فَقَالُوا يَا رَسُولَ اللَّهِ لَنَا إِلَيْكَ حَاجَةٌ قَالَ هَاتُوا حَاجَتَكُمْ قَالُوا إِنَّهَا حَاجَةٌ عَظِيمَةٌ قَالَ هَاتُوا مَا هِيَ قَالُوا تَضْمَنُ لَنَا عَلَى رَبِّكَ الْجَنَّةَ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আনসারদের একটি গোত্র রাসূলুল্লাহ صلى الله عليه وآله এর কাছে এসে সালাম করল, এবং তিনি তাদের সালাম ফিরিয়ে দিলেন। তারা বলল, “হে রাসূলুল্লাহ, আমাদের আপনার কাছে একটি দরকার আছে।” তিনি বললেন, “তোমাদের দরকারি কথা বলো।” তারা বলল, “এটি একটি বড় দরকার।” তিনি বললেন, “বল কি তা।” তারা বলল, “আপনি কি আমাদের জন্য আপনার রবের কাছে জান্নাতের গ্যারান্টি দিবেন?”",
-              "de": "Ein Stamm der Ansar kam zum Gesandten Allahs صلى الله عليه وآله und grüßte ihn, und er erwiderte ihren Gruß. Sie sagten: „O Gesandter Allahs, wir haben ein Anliegen an dich.“ Er sagte: „Bringt euer Anliegen vor.“ Sie sagten: „Es ist ein großes Anliegen.“ Er sagte: „Sagt, was es ist.“ Sie sagten: „Wirst du uns das Paradies bei deinem Herrn garantieren?“",
-              "en": "A clan from the Ansar came to the Messenger of Allah صلى الله عليه وآله and greeted him, and he returned their greeting. They said, “O Messenger of Allah, we have a need to ask of you.” He said, “Present your need.” They said, “It is a great need.” He said, “Say what it is.” They said, “Will you guarantee Paradise for us with your Lord?”",
-              "es": "Un clan de los Ansar vino al Mensajero de Allah صلى الله عليه وآله y le saludaron, y él les devolvió el saludo. Dijeron: “Oh Mensajero de Allah, tenemos una necesidad que pedirte.” Él dijo: “Presentad vuestra necesidad.” Dijeron: “Es una gran necesidad.” Él dijo: “Decid cuál es.” Dijeron: “¿Garantizarás el Paraíso para nosotros con tu Señor?”",
-              "fa": "قبیله‌ای از انصار نزد رسول خدا صلی الله علیه وآله آمدند و به او سلام کردند و او نیز پاسخ سلامشان را داد. گفتند: «ای رسول خدا، ما نیاز مهمی از تو داریم.» فرمود: «نیازتان را بگویید.» گفتند: «این نیاز بزرگی است.» فرمود: «بگویید چیست.» گفتند: «آیا برای ما نزد پروردگارت بهشت را تضمین می‌کنی؟»",
-              "fr": "Un clan des Ansar vint auprès du Messager d’Allah صلى الله عليه وآله et le salua, et il leur rendit le salut. Ils dirent : « Ô Messager d’Allah, nous avons un besoin à te demander. » Il dit : « Présentez votre besoin. » Ils dirent : « C’est un grand besoin. » Il dit : « Dites ce que c’est. » Ils dirent : « Garantiras-tu le Paradis pour nous auprès de ton Seigneur ? »",
-              "id": "Sebuah klan dari Ansar datang kepada Rasulullah صلى الله عليه وآله dan memberi salam kepadanya, dan beliau membalas salam mereka. Mereka berkata, “Wahai Rasulullah, kami memiliki kebutuhan untuk ditanyakan kepada Anda.” Beliau berkata, “Sampaikan kebutuhan kalian.” Mereka berkata, “Ini adalah kebutuhan yang besar.” Beliau berkata, “Katakan apa itu.” Mereka berkata, “Apakah Anda menjamin Surga bagi kami dari Tuhanmu?”",
-              "ru": "Клан из Ансаров пришёл к Посланнику Аллаха صلى الله عليه وآله и приветствовал его, и он ответил им приветствием. Они сказали: «О Посланник Аллаха, у нас есть к тебе просьба.» Он сказал: «Излагайте вашу просьбу.» Они сказали: «Это великая просьба.» Он сказал: «Скажите, что это.» Они сказали: «Гарантируешь ли ты нам Рай у твоего Господа?»",
-              "tr": "Ensar'dan bir kabile, Allah'ın Resulü صلى الله عليه وآله'ye gelerek ona selam verdi ve o da selamlarını geri verdi. Dediler ki, “Ey Allah'ın Resulü, senden bir ihtiyacımız var.” O dedi ki, “İhtiyacınızı söyleyin.” Dediler ki, “Bu büyük bir ihtiyaçtır.” O dedi ki, “Nedir?” Dediler ki, “Rabbinden bizim için cenneti garanti eder misin?”",
-              "ur": "انصار کے ایک قبیلے نے رسول اللہ صلی اللہ علیہ وآلہ وسلم کے پاس آ کر ان سے سلام کیا، اور آپ نے ان کا جواب دیا۔ انہوں نے کہا، \"اے رسول اللہ، ہمارے پاس آپ سے ایک حاجت ہے۔\" آپ نے فرمایا، \"اپنی حاجت بیان کرو۔\" انہوں نے کہا، \"یہ ایک عظیم حاجت ہے۔\" آپ نے فرمایا، \"بتاؤ کیا ہے۔\" انہوں نے کہا، \"کیا آپ ہمارے لیے اپنے رب کے ہاں جنت کی ضمانت دیں گے؟\"",
-              "zh": "安萨尔的一个部族来到安拉使者صلى الله عليه وآله处向他致意，他回以问候。他们说：“安拉使者，我们有一件事要向您请求。”他说：“说出你们的需求。”他们说：“这是一个重大的需求。”他说：“说是什么。”他们说：“你是否能向你的主保证我们进入天堂？”"
-            },
             "word_end": 40,
             "word_start": 0
           },
           {
             "arabic_text": "فَنَكَسَ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ رَأْسَهُ وَنَكَتَ فِي الْأَرْضِ ثُمَّ رَفَعَ رَأْسَهُ فَقَالَ أَفْعَلُ ذَلِكَ بِكُمْ عَلَى أَنْ لَا تَسْأَلُوا أَحَدًا شَيْئًا",
             "chunk_type": "body",
-            "translations": {
-              "bn": "پھر آپ صلی اللہ علیہ وآلہ وسلم نے اپنا سر جھکا کر زمین پر نشان لگایا۔ پھر سر اٹھا کر فرمایا، \"میں تمہارے لیے یہ کروں گا بشرطیکہ تم کسی سے کچھ نہ مانگو۔\"",
-              "de": "So senkte er صلى الله عليه وآله den Kopf und zeichnete etwas auf den Boden. Dann hob er den Kopf und sagte: „Ich werde das für euch tun unter der Bedingung, dass ihr niemanden um etwas bittet.“",
-              "en": "So he صلى الله عليه وآله lowered his head and traced in the ground. Then he raised his head and said, “I shall do that for you on condition that you do not ask anyone for anything.”",
-              "es": "Entonces él صلى الله عليه وآله bajó la cabeza y trazó en la tierra. Luego levantó la cabeza y dijo: “Haré eso por vosotros con la condición de que no pidáis nada a nadie.”",
-              "fa": "پس او صلی الله علیه وآله سرش را پایین آورد و در زمین نشانه‌ای زد. سپس سرش را بلند کرد و گفت: «این کار را برای شما انجام می‌دهم به شرطی که از هیچ‌کس چیزی نخواهید.»",
-              "fr": "Alors il صلى الله عليه وآله baissa la tête et traça sur le sol. Puis il releva la tête et dit : « Je ferai cela pour vous à condition que vous ne demandiez rien à personne. »",
-              "id": "Kemudian beliau صلى الله عليه وآله menundukkan kepala dan menggoreskan sesuatu di tanah. Lalu beliau mengangkat kepala dan berkata, “Aku akan melakukan itu untuk kalian dengan syarat kalian tidak meminta apa pun dari siapapun.”",
-              "ru": "Тогда он صلى الله عليه وآله опустил голову и провёл черту по земле. Затем поднял голову и сказал: «Я сделаю это для вас при условии, что вы ни у кого ничего не будете просить.»",
-              "tr": "Bunun üzerine o صلى الله عليه وآله başını eğdi ve yere işaret etti. Sonra başını kaldırdı ve dedi ki, “Bunu sizin için yapacağım, ancak kimseye bir şey sormamanız şartıyla.”",
-              "ur": "پس آپ صلی اللہ علیہ وآلہ وسلم نے اپنا سر جھکا کر زمین پر نشان لگایا۔ پھر سر اٹھایا اور فرمایا، \"میں تمہارے لیے یہ کروں گا بشرطیکہ تم کسی سے کچھ نہ مانگو۔\"",
-              "zh": "于是他صلى الله عليه وآله低头在地上划了个记号。然后抬头说：“我会为你们做到这一点，条件是你们不向任何人求取任何东西。”"
-            },
             "word_end": 62,
             "word_start": 40
           },
           {
             "arabic_text": "قَالَ فَكَانَ الرَّجُلُ مِنْهُمْ يَكُونُ فِي السَّفَرِ فَيَسْقُطُ سَوْطُهُ فَيَكْرَهُ أَنْ يَقُولَ لِإِنْسَانٍ نَاوِلْنِيهِ فِرَارًا مِنَ الْمَسْأَلَةِ فَيَنْزِلُ فَيَأْخُذُهُ وَيَكُونُ عَلَى الْمَائِدَةِ وَيَكُونُ بَعْضُ الْجُلَسَاءِ أَقْرَبَ مِنْهُ إِلَى الْمَاءِ فَلَا يَقُولُ نَاوِلْنِي حَتَّى يَقُومَ فَيَشْرَبَ",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "কহা হলো: তাদের মধ্যে একজন যাত্রায় থাকত এবং তার চাবুক পড়ে যেত, কিন্তু তিনি কাউকে বলতেন না, 'আমাকে দাও', কারণ তিনি চাওয়া থেকে বিরত থাকতেন; তাই তিনি নামতেন এবং নিজেই তা নিয়ে আসতেন। এবং তিনি ভোজের টেবিলে থাকতেন, যেখানে কিছু অতিথি তার থেকে পানির কাছে বেশি কাছাকাছি থাকতেন, তবুও তিনি বলতেন না, 'আমাকে দাও', যতক্ষণ না তিনি নিজে উঠে পানি পান করতেন।",
-              "de": "Es wurde gesagt: Ein Mann unter ihnen war auf einer Reise und seine Peitsche fiel herunter, doch er mochte es nicht, jemanden zu bitten: „Reich sie mir.“ aus Vermeidung des Bittens; also stieg er ab und holte sie selbst. Und er saß am Tisch, während einige der Anwesenden näher am Wasser waren als er, doch er sagte nicht: „Reich sie mir.“ bis er selbst aufstand und trank.",
-              "en": "It was said: a man among them would be on a journey and his whip would fall, yet he would dislike saying to anyone, “Hand it to me,” out of avoidance of asking; so he would dismount and take it himself. And he would be at the dining spread, while some of those seated were nearer than him to the water, yet he would not say, “Pass it to me,” until he himself stood and drank.",
-              "es": "Se dijo: un hombre entre ellos estaría en un viaje y se le caería el látigo, pero le desagradaba decir a alguien, “Pásamelo,” por evitar pedir; así que desmontaba y lo tomaba él mismo. Y estaría en la mesa, mientras algunos de los sentados estaban más cerca del agua que él, pero no decía, “Pásamelo,” hasta que él mismo se levantaba y bebía.",
-              "fa": "گفته شد: مردی از آن‌ها در سفر بود و شلاقش افتاد، اما از گفتن به کسی «بده به من» اجتناب می‌کرد، زیرا از درخواست کردن پرهیز داشت؛ پس پیاده می‌شد و خودش آن را برمی‌داشت. و او در سفره بود، در حالی که برخی از نشسته‌ها به آب نزدیک‌تر از او بودند، اما نمی‌گفت «بده به من» تا زمانی که خودش بلند شود و آب بنوشد.",
-              "fr": "Il fut dit : un homme parmi eux était en voyage et son fouet tombait, mais il détestait dire à quelqu’un : « Passe-le-moi », par peur de demander ; alors il descendait et le prenait lui-même. Et il était à la table, tandis que certains des convives étaient plus proches de l’eau que lui, mais il ne disait pas : « Passe-le-moi », jusqu’à ce qu’il se lève et boive lui-même.",
-              "id": "Dikatakan: seorang pria di antara mereka sedang dalam perjalanan dan cambuknya jatuh, namun ia enggan mengatakan kepada siapa pun, “Berikan padaku,” karena menghindari meminta; maka ia turun dan mengambilnya sendiri. Dan dia berada di meja makan, sementara beberapa orang yang duduk lebih dekat ke air darinya, namun dia tidak berkata, “Berikan padaku,” sampai dia berdiri dan minum sendiri.",
-              "ru": "Сказали: один из них был в пути, и у него упал кнут, но он не хотел просить у кого-либо: «Передай мне», чтобы избежать просьбы; поэтому он слезал и брал его сам. И он сидел за столом, хотя некоторые из сидящих были ближе к воде, но он не говорил: «Передай мне», пока сам не вставал и не пил.",
-              "tr": "Denildi ki: Onlardan biri yolculukta olurdu ve kamçısı düşerdi, ama kimseye “Ver bana” demekten çekinirdi, çünkü istemekten kaçınırdı; bu yüzden iner ve kendisi alırdı. Ve o yemek sofrasında olurdu, oturanlardan bazıları ondan suya daha yakın olurdu, ama o “Ver bana” demezdi ta ki kendisi kalkıp su içene kadar.",
-              "ur": "کہا گیا: ان میں سے ایک شخص سفر میں ہوتا اور اس کی کوڑا گر جاتا، مگر وہ کسی سے کہنے سے گریز کرتا، 'مجھے دو'، کیونکہ مانگنے سے بچنا چاہتا تھا؛ اس لیے وہ اتر کر خود لے لیتا۔ اور وہ کھانے کی میز پر ہوتا، جبکہ کچھ بیٹھے ہوئے لوگ اس سے پانی کے قریب ہوتے، پھر بھی وہ نہیں کہتا، 'مجھے دو' جب تک کہ وہ خود کھڑا نہ ہو کر پانی پیتا۔",
-              "zh": "有人说：他们中有一人在旅途中，鞭子掉了，但他不愿对任何人说“递给我”，以避免请求；于是他下马自己取回。且他坐在餐桌旁，尽管有些同席者比他更靠近水，但他不会说“递给我”，直到他自己站起来喝水。"
-            },
             "word_end": 97,
             "word_start": 62
           }
@@ -120,28 +94,16 @@
             "phrase_en": "Peace be upon them"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "السَّفَرِ": "travel or journey",
-            "الْأَنْصَارِ": "the Helpers of Madinah who supported the Messenger of Allah صلى الله عليه وآله",
-            "الْجَنَّةَ": "Paradise, the promised reward in the hereafter",
-            "الْمَائِدَةِ": "the dining spread or table",
-            "الْمَسْأَلَةِ": "asking from people, seeking something from them",
-            "حَاجَةٌ": "a need or request being presented",
-            "فَخِذٌ": "a clan or sub-tribe from a larger group",
-            "لَا تَسْأَلُوا": "do not ask; refrain from requesting things from others"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "فَخِذٌ",
+          "الْأَنْصَارِ",
+          "حَاجَةٌ",
+          "الْجَنَّةَ",
+          "لَا تَسْأَلُوا",
+          "الْمَسْأَلَةِ",
+          "السَّفَرِ",
+          "الْمَائِدَةِ"
+        ],
         "related_quran": [
           {
             "ref": "2:177",
@@ -160,32 +122,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "রাসূলুল্লাহ صلی اللہ علیہ وآلہ وسلم জান্নাতের গ্যারান্টির বিনিময়ে আনসারদের থেকে কী চেয়েছিলেন?",
-          "de": "Was verlangte der Gesandte Allahs صلى الله عليه وآله von den Ansar im Gegenzug für die Garantie des Paradieses?",
-          "en": "What did the Messenger of Allah صلى الله عليه وآله require from the Ansar in return for guaranteeing Paradise?",
-          "es": "¿Qué requirió el Mensajero de Allah صلى الله عليه وآله de los Ansar a cambio de garantizarles el Paraíso?",
-          "fa": "رسول خدا صلی الله علیه وآله برای تضمین بهشت از انصار چه خواست؟",
-          "fr": "Qu’a exigé le Messager d’Allah صلى الله عليه وآله des Ansar en échange de la garantie du Paradis ?",
-          "id": "Apa yang Rasulullah صلى الله عليه وآله minta dari Ansar sebagai syarat untuk menjamin Surga?",
-          "ru": "Что потребовал Посланник Аллаха صلى الله عليه وآله от Ансар в обмен на гарантию Рая?",
-          "tr": "Allah'ın Resulü صلى الله عليه وآله, cenneti garanti etmek karşılığında Ensar’dan ne istedi?",
-          "ur": "رسول اللہ صلی اللہ علیہ وآلہ وسلم نے جنت کی ضمانت کے بدلے انصار سے کیا شرط رکھی؟",
-          "zh": "安拉使者صلى الله عليه وآله为保证安萨尔进入天堂要求了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস মানুষদের থেকে জিনিস চাওয়া থেকে বিরত থাকার মাধ্যমে আত্মসম্মান শেখায়, এমনকি ছোটখাটো বিষয়েও। রাসূলুল্লাহ صلی اللہ علیہ وآلہ وسلم এই গুণকে জান্নাতের প্রতিশ্রুতির সঙ্গে যুক্ত করেছেন, এবং আনসাররা এটি দৈনন্দিন জীবনে অত্যন্ত গুরুত্বের সঙ্গে পালন করেছেন।",
-          "de": "Dieser Hadith lehrt Selbstbeherrschung und Würde, indem man darauf verzichtet, Menschen um Dinge zu bitten, selbst bei kleinen Angelegenheiten. Der Gesandte Allahs صلى الله عليه وآله verband diese Eigenschaft mit dem Versprechen des Paradieses, und die Ansar praktizierten sie im täglichen Leben mit großer Ernsthaftigkeit.",
-          "en": "This hadith teaches self-restraint and dignity through refraining from asking people for things, even in small matters. The Messenger of Allah صلى الله عليه وآله linked this trait to the promise of Paradise, and the Ansar then practiced it with great seriousness in daily life.",
-          "es": "Este hadiz enseña la autodisciplina y la dignidad al abstenerse de pedir cosas a la gente, incluso en asuntos pequeños. El Mensajero de Allah صلى الله عليه وآله vinculó este rasgo con la promesa del Paraíso, y los Ansar lo practicaron con gran seriedad en la vida diaria.",
-          "fa": "این حدیث آموزش خودداری و کرامت نفس از طریق پرهیز از درخواست کردن از دیگران حتی در امور کوچک را می‌دهد. رسول خدا صلی الله علیه وآله این صفت را به وعده بهشت پیوند داد و انصار آن را با جدیت در زندگی روزمره به کار بستند.",
-          "fr": "Ce hadith enseigne la maîtrise de soi et la dignité en s’abstenant de demander des choses aux gens, même pour de petites choses. Le Messager d’Allah صلى الله عليه وآله a lié cette qualité à la promesse du Paradis, et les Ansar l’ont ensuite pratiquée avec beaucoup de sérieux dans la vie quotidienne.",
-          "id": "Hadis ini mengajarkan pengendalian diri dan martabat dengan menahan diri dari meminta sesuatu kepada orang lain, bahkan dalam hal-hal kecil. Rasulullah صلى الله عليه وآله mengaitkan sifat ini dengan janji Surga, dan Ansar kemudian mempraktikkannya dengan sangat serius dalam kehidupan sehari-hari.",
-          "ru": "Этот хадис учит сдержанности и достоинству, воздерживаясь от просьб к людям, даже в мелочах. Посланник Аллаха صلى الله عليه وآله связал это качество с обещанием Рая, и Ансары затем с большой серьёзностью применяли его в повседневной жизни.",
-          "tr": "Bu hadis, insanlardan bir şey istemekten kaçınarak kendine saygıyı öğretir, hatta küçük konularda bile. Allah'ın Resulü صلى الله عليه وآله bu özelliği Cennet vaadiyle bağladı ve Ensar bunu günlük hayatta büyük bir ciddiyetle uyguladı.",
-          "ur": "یہ حدیث لوگوں سے چیزیں مانگنے سے گریز اور خودداری کی تعلیم دیتی ہے، چاہے چھوٹے معاملات میں بھی۔ رسول اللہ صلی اللہ علیہ وآلہ وسلم نے اس صفت کو جنت کی ضمانت سے جوڑا، اور انصار نے اسے روزمرہ زندگی میں بڑی سنجیدگی سے اپنایا۔",
-          "zh": "这段圣训教导通过避免向人索求事物来保持自制和尊严，即使在小事上也是如此。安拉使者صلى الله عليه وآله将此品质与天堂的承诺联系起来，安萨尔随后在日常生活中非常认真地践行这一点。"
-        },
         "tags": [
           "ethics",
           "prophetic_tradition",

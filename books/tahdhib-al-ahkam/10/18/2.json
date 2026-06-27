@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "٢- جَعْفَرُ بْنُ مُحَمَّدٍ عَنْ عَبْدِ اللَّهِ بْنِ مَيْمُونٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "২—জাফর ইবন মুহাম্মদ, আবদুল্লাহ ইবন মাইমুন থেকে, আবি আবদুল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "2—Ja'far ibn Muhammad, von 'Abd Allah ibn Maymun, von Abi 'Abd Allah عليه السلام, der sagte:",
-              "en": "2—Ja'far ibn Muhammad, from 'Abd Allah ibn Maymun, from Abi 'Abd Allah عليه السلام, who said:",
-              "es": "2—Ja'far ibn Muhammad, de 'Abd Allah ibn Maymun, de Abi 'Abd Allah عليه السلام, quien dijo:",
-              "fa": "2—جعفر بن محمد، از عبدالله بن میمون، از ابی عبدالله علیه السلام، که فرمود:",
-              "fr": "2—Ja'far ibn Muhammad, d'après 'Abd Allah ibn Maymun, d'après Abi 'Abd Allah عليه السلام, qui a dit :",
-              "id": "2—Ja'far ibn Muhammad, dari 'Abd Allah ibn Maymun, dari Abi 'Abd Allah عليه السلام, yang berkata:",
-              "ru": "2—Джа'фар ибн Мухаммад, от 'Абд Аллаха ибн Маймуна, от Аби 'Абд Аллаха عليه السلام, который сказал:",
-              "tr": "2—Ca'fer ibn Muhammed, Abdullah ibn Meymun'dan, Ebu Abdullah عليه السلام'dan rivayet etti ki şöyle dedi:",
-              "ur": "2—جعفر بن محمد، عن عبد الله بن میمون، عن ابی عبد الله علیہ السلام، انہوں نے فرمایا:",
-              "zh": "2—贾法尔·伊本·穆罕默德，传自'阿卜杜拉·伊本·迈蒙，传自阿比'阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "«إِذَا دَعَا الرَّجُلُ أَخَاهُ بِلَيْلٍ فَهُوَ لَهُ ضَامِنٌ حَتَّى يَرْجِعَ إِلَى بَيْتِهِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“যখন কোনো ব্যক্তি তার ভাইকে রাতে ডাকে, তখন সে তার জন্য দায়ী থাকে, যতক্ষণ না সে তার ঘরে ফিরে আসে।”",
-              "de": "„Wenn ein Mann seinen Bruder nachts ruft, dann ist er für ihn verantwortlich, bis er zu seinem Haus zurückkehrt.“",
-              "en": "“When a man calls his brother out at night, then he is responsible for him until he returns to his house.”",
-              "es": "“Cuando un hombre llama a su hermano por la noche, entonces él es responsable de él hasta que regrese a su casa.”",
-              "fa": "«هرگاه مردی برادرش را در شب فراخواند، تا زمانی که او به خانه‌اش بازگردد، مسئول اوست.»",
-              "fr": "« Lorsqu’un homme appelle son frère la nuit, il en est responsable jusqu’à ce qu’il retourne à sa maison. »",
-              "id": "“Ketika seseorang memanggil saudaranya pada malam hari, maka ia bertanggung jawab atasnya sampai ia kembali ke rumahnya.”",
-              "ru": "«Когда человек зовёт своего брата ночью, то он несёт за него ответственность, пока тот не вернётся в свой дом».",
-              "tr": "“Bir adam kardeşini gece çağırdığında, o kişi evine dönünceye kadar onun sorumluluğunu üstlenmiş olur.”",
-              "ur": "“جب کوئی آدمی اپنے بھائی کو رات کے وقت بلاتا ہے، تو وہ اس کا ذمہ دار ہوتا ہے یہاں تک کہ وہ اپنے گھر واپس لوٹ آئے۔”",
-              "zh": "“当一个人在夜里召唤他的兄弟时，那么在他回到家之前，他都要对他负责。”"
-            },
             "word_end": 28,
             "word_start": 16
           }
@@ -94,27 +81,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَخَاهُ": "his brother, meaning another person in social relation",
-            "الرَّجُلُ": "the man who initiates the call",
-            "بَيْتِهِ": "his house or home",
-            "بِلَيْلٍ": "at night, indicating the time of increased vulnerability",
-            "دَعَا": "summoned or called someone to come out",
-            "ضَامِنٌ": "legally responsible or liable",
-            "يَرْجِعَ": "returns back"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "دَعَا",
+          "الرَّجُلُ",
+          "أَخَاهُ",
+          "بِلَيْلٍ",
+          "ضَامِنٌ",
+          "يَرْجِعَ",
+          "بَيْتِهِ"
+        ],
         "related_quran": [
           {
             "ref": "4:58",
@@ -125,32 +100,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কেউ যদি রাতে কাউকে ডাকে এবং তার ক্ষতি হয়, তবে কি সে দায়ী হবে?",
-          "de": "Ist eine Person verantwortlich, wenn sie jemanden nachts ruft und ihm Schaden widerfährt?",
-          "en": "Is a person responsible if he calls someone out at night and harm comes to him?",
-          "es": "¿Es responsable una persona si llama a alguien por la noche y le ocurre un daño?",
-          "fa": "آیا اگر کسی شخصی دیگری را در شب فرا بخواند و به او آسیبی برسد، مسئول خواهد بود؟",
-          "fr": "Une personne est-elle responsable si elle appelle quelqu’un la nuit et qu’un mal lui arrive ?",
-          "id": "Apakah seseorang bertanggung jawab jika ia memanggil orang lain pada malam hari lalu orang itu tertimpa bahaya?",
-          "ru": "Несёт ли человек ответственность, если он зовёт кого-то ночью и тому причиняется вред?",
-          "tr": "Bir kişi gece birini çağırır ve ona zarar gelirse sorumlu olur mu?",
-          "ur": "کیا اگر کوئی شخص کسی کو رات کے وقت بلائے اور اسے نقصان پہنچے تو وہ ذمہ دار ہوگا؟",
-          "zh": "如果一个人在夜里叫人出来而那个人受到伤害，他是否要负责？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি প্রমাণ করে যে, যে ব্যক্তি কাউকে রাতে ডাকে, তার ওপর সেই ব্যক্তির নিরাপত্তার দায়িত্ব বর্তায়, যতক্ষণ না সে বাড়ি ফিরে আসে। এটি সম্ভাব্য ঝুঁকিপূর্ণ পরিস্থিতিতে কাউকে তার ঘরের নিরাপত্তা থেকে বের করে আনার আইনগত ও নৈতিক গুরুত্বকে প্রকাশ করে।",
-          "de": "Dieser Hadith begründet die Verantwortung für denjenigen, der jemanden nachts ruft, und macht ihn für die Sicherheit dieser Person verantwortlich, bis sie nach Hause zurückkehrt. Er spiegelt das rechtliche und ethische Gewicht wider, jemanden unter potenziell riskanten Umständen aus der Sicherheit seines Hauses herauszuholen.",
-          "en": "This hadith establishes responsibility upon a person who summons another at night, making him answerable for that person's safety until he returns home. It reflects the legal and ethical weight of causing someone to leave the security of his house under potentially risky circumstances.",
-          "es": "Este hadiz establece la responsabilidad sobre la persona que llama a otra por la noche, haciéndola responsable de la seguridad de esa persona hasta que regrese a su casa. Refleja el peso legal y ético de hacer que alguien salga de la seguridad de su hogar en circunstancias potencialmente riesgosas.",
-          "fa": "این حدیث مسئولیت را بر عهده کسی می‌گذارد که دیگری را در شب فرا می‌خواند و او را تا بازگشت آن شخص به خانه‌اش پاسخگو می‌داند. این، بار حقوقی و اخلاقیِ بیرون کشیدن کسی از امنیت خانه‌اش در شرایطی بالقوه خطرناک را نشان می‌دهد.",
-          "fr": "Ce hadith établit la responsabilité de la personne qui appelle quelqu’un la nuit, la rendant responsable de la sécurité de cette personne jusqu’à son retour à sa maison. Il reflète le poids juridique et éthique du fait de faire sortir quelqu’un de la sécurité de son foyer dans des circonstances potentiellement risquées.",
-          "id": "Hadis ini menetapkan tanggung jawab atas orang yang memanggil orang lain pada malam hari, sehingga ia harus bertanggung jawab atas keselamatan orang itu sampai ia kembali ke rumahnya. Ini mencerminkan bobot hukum dan etika dalam membuat seseorang keluar dari keamanan rumahnya dalam keadaan yang berpotensi berisiko.",
-          "ru": "Этот хадис устанавливает ответственность на том, кто зовёт другого ночью, делая его ответственным за безопасность этого человека до тех пор, пока тот не вернётся домой. Он отражает правовую и нравственную значимость того, чтобы заставить человека покинуть безопасность своего дома в потенциально рискованных обстоятельствах.",
-          "tr": "Bu hadis, bir kimseyi gece çağıran kişinin onun güvenliğinden sorumlu olduğunu ve o kişi evine dönünceye kadar bundan mesul tutulacağını ortaya koyar. Bu, birini muhtemel riskli şartlarda evinin güvenliğinden çıkarmanın hukukî ve ahlâkî ağırlığını yansıtır.",
-          "ur": "یہ حدیث اس شخص پر ذمہ داری ثابت کرتی ہے جو کسی کو رات کے وقت بلاتا ہے، اور اسے اس شخص کی سلامتی کا جواب دہ بناتی ہے یہاں تک کہ وہ گھر واپس لوٹ آئے۔ یہ کسی کو ممکنہ خطرناک حالات میں اپنے گھر کے امن سے باہر نکلنے پر مجبور کرنے کے قانونی اور اخلاقی وزن کو ظاہر کرتی ہے۔",
-          "zh": "这段圣训确立了对夜间召唤他人的人所承担的责任，使其在那个人回到家之前都要对其安全负责。这体现了在潜在危险情形下让某人离开家中安全环境所具有的法律和道德分量。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations",

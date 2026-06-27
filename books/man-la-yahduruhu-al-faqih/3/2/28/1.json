@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رَوَى يُونُسُ بْنُ عَبْدِ الرَّحْمَنِ عَنْ غَيْرِ وَاحِدٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ইউনুস ইবনে আব্দুর রহমান একাধিক ব্যক্তির কাছ থেকে আবী আবদিল্লাহ عليه السلام থেকে বর্ণনা করেছেন।",
-              "de": "Yūnus ibn ʿAbd al-Raḥmān berichtete von mehr als einer Person, von Abī ʿAbdillāh عليه السلام.",
-              "en": "Yūnus ibn ʿAbd al-Raḥmān narrated from more than one person, from Abī ʿAbdillāh عليه السلام.",
-              "es": "Yūnus ibn ʿAbd al-Raḥmān narró de más de una persona, de Abī ʿAbdillāh عليه السلام.",
-              "fa": "یونس بن عبد الرحمن از چند نفر روایت کرده است، از ابی عبدالله علیه السلام.",
-              "fr": "Yūnus ibn ʿAbd al-Raḥmān a rapporté de plusieurs personnes, d'Abī ʿAbdillāh عليه السلام.",
-              "id": "Yūnus ibn ʿAbd al-Raḥmān meriwayatkan dari lebih dari satu orang, dari Abī ʿAbdillāh علیه السلام.",
-              "ru": "Юнус ибн Абд ар-Рахман передал от более чем одного человека, от Абī ʿАбдиллах علیه السلام.",
-              "tr": "Yūnus ibn ʿAbd al-Raḥmān, birden fazla kişiden, Abī ʿAbdillāh علیه السلام'den rivayet etti.",
-              "ur": "یونس ابن عبد الرحمن نے متعدد افراد سے روایت کی، ابو عبداللہ علیہ السلام سے۔",
-              "zh": "尤努斯伊本عبدالرحمن从不止一人传述自阿比عبداللهعليهالسلام。"
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "فِي الرَّجُلِ يُبَايِعُ الرَّجُلَ عَلَى الشَّيْءِ فَقَالَ لَا بَأْسَ إِذَا كَانَ أَصْلُ الشَّيْءِ حَلَالًا.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন ব্যক্তি যখন অন্য একজন ব্যক্তির সাথে কোনো জিনিস নিয়ে ব্যবসা করে, তিনি عليه السلام বলেছেন: “যদি জিনিসটির মূল হালাল হয় তবে কোনো ক্ষতি নেই।”",
-              "de": "Bezüglich eines Mannes, der mit einem anderen Mann über einen Gegenstand handelt, sagte er علیه السلام: „Es ist kein Schaden, wenn der Ursprung des Gegenstandes halal (erlaubt) ist.“",
-              "en": "Regarding a man who trades with another man over an item, he عليه السلام said: “There is no harm, if the origin of the item is halal (permissible).”",
-              "es": "Respecto a un hombre que comercia con otro hombre sobre un artículo, él عليه السلام dijo: “No hay daño, si el origen del artículo es halal (permitido).”",
-              "fa": "در مورد مردی که با مرد دیگری بر سر چیزی معامله می‌کند، او علیه السلام فرمود: «اگر اصل چیز حلال باشد، ضرری نیست.»",
-              "fr": "Concernant un homme qui échange avec un autre homme un objet, il عليه السلام a dit : « Il n’y a pas de mal, si l’origine de l’objet est halal (permis). »",
-              "id": "Mengenai seorang pria yang berdagang dengan pria lain atas suatu barang, beliau علیه السلام berkata: “Tidak mengapa jika asal barang itu halal (diperbolehkan).”",
-              "ru": "Относительно мужчины, который торгуется с другим мужчиной по поводу предмета, он علیه السلام сказал: «Нет вреда, если происхождение предмета халяль (разрешено).»",
-              "tr": "Bir adamın başka bir adamla bir şey üzerinde ticaret yapması hakkında، o علیه السلام şöyle buyurdu: “Eğer şeyin aslı helal ise zarar yoktur.”",
-              "ur": "ایک شخص جو دوسرے شخص کے ساتھ کسی چیز پر سودا کرتا ہے، انہوں نے علیہ السلام فرمایا: \"اگر چیز کی اصل حلال ہو تو کوئی حرج نہیں۔\"",
-              "zh": "关于一个人与另一个人就某物交易，他عليهالسلام说：“如果物品的起源是حلال（允许的），则无妨。”"
-            },
             "word_end": 28,
             "word_start": 14
           }
@@ -100,25 +87,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَصْلُ": "the basis or origin",
-            "الشَّيْءِ": "the item or thing being transacted",
-            "حَلَالًا": "lawful and permissible in the Shar'i sense",
-            "لَا بَأْسَ": "there is no harm or legal objection",
-            "يُبَايِعُ": "engages in a sale or transaction"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُبَايِعُ",
+          "الشَّيْءِ",
+          "لَا بَأْسَ",
+          "أَصْلُ",
+          "حَلَالًا"
+        ],
         "related_quran": [
           {
             "ref": "2:275",
@@ -133,32 +108,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি মূল জিনিসটি হালাল হয় তাহলে লেনদেন কি বৈধ?",
-          "de": "Ist eine Transaktion erlaubt, wenn der ursprüngliche Gegenstand halal ist?",
-          "en": "Is a transaction permissible if the original item being traded is halal?",
-          "es": "¿Es permisible una transacción si el artículo original que se comercia es halal?",
-          "fa": "آیا معامله‌ای جایز است اگر کالای اصلی حلال باشد؟",
-          "fr": "Une transaction est-elle permise si l’objet original échangé est halal ?",
-          "id": "Apakah transaksi diperbolehkan jika barang asli yang diperdagangkan halal?",
-          "ru": "Разрешена ли сделка, если исходный предмет халяль?",
-          "tr": "Orijinal ticari mal helal ise işlem caiz midir?",
-          "ur": "کیا لین دین جائز ہے اگر اصل چیز حلال ہو؟",
-          "zh": "如果交易的原始物品是حلال，交易是否允许？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি দুই পুরুষের মধ্যে কোনো জিনিস নিয়ে লেনদেনের শারঈ বিধান প্রদান করে। ইমাম عليه السلام বলেন, যখন জিনিসটির মূল হালাল হয় তখন এমন লেনদেন গ্রহণযোগ্য।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bezüglich eines Geschäfts zwischen zwei Männern über einen Gegenstand. Der Imam علیه السلام stellt fest, dass ein solches Geschäft unbedenklich ist, wenn der zugrundeliegende Gegenstand halal (erlaubt) ist.",
-          "en": "This hadith gives a legal ruling concerning a transaction between two men over an item. The Imam عليه السلام states that such dealing is unobjectionable when the underlying item itself is halal (permissible) in origin.",
-          "es": "Este hadiz da un fallo legal sobre una transacción entre dos hombres sobre un artículo. El Imam عليه السلام afirma que tal trato no es objetable cuando el artículo subyacente es halal (permitido) en su origen.",
-          "fa": "این حدیث حکم شرعی مربوط به معامله بین دو مرد بر سر یک چیز را بیان می‌کند. امام علیه السلام می‌فرماید که چنین معامله‌ای زمانی که اصل چیز حلال باشد، بدون اشکال است.",
-          "fr": "Ce hadith donne un jugement légal concernant une transaction entre deux hommes sur un objet. L’Imam عليه السلام déclare que ce type de transaction est acceptable lorsque l’objet de base est halal (permis).",
-          "id": "Hadis ini memberikan hukum terkait transaksi antara dua pria atas suatu barang. Imam علیه السلام menyatakan bahwa transaksi tersebut tidak bermasalah jika asal barang tersebut halal.",
-          "ru": "Этот хадис даёт юридическое постановление относительно сделки между двумя мужчинами по поводу предмета. Имам علیه السلام утверждает, что такая сделка не вызывает возражений, если исходный предмет является халяль (разрешённым).",
-          "tr": "Bu hadis, iki adam arasında bir eşya üzerindeki işlemle ilgili hukuki hüküm verir. İmam علیه السلام, temel eşyanın helal olduğu durumlarda böyle bir işlemin sakıncasız olduğunu belirtir.",
-          "ur": "یہ حدیث دو مردوں کے درمیان کسی چیز کی خرید و فروخت کے بارے میں شرعی حکم دیتی ہے۔ امام علیہ السلام فرماتے ہیں کہ جب چیز کی اصل حلال ہو تو ایسا لین دین جائز ہے۔",
-          "zh": "此圣训就两人之间关于某物的交易给出法律裁决。伊玛目عليهالسلام指出，当物品本身起源为حلال（允许）时，此类交易无可非议。"
-        },
         "tags": [
           "jurisprudence",
           "economy"

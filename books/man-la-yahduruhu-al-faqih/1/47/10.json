@@ -18,80 +18,41 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ الصَّادِقُ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল-সাদিক عليه السلام বলেছেন:",
-              "de": "Al-Sadiq عليه السلام sagte:",
-              "en": "Al-Sadiq عليه السلام said:",
-              "es": "Al-Sadiq عليه السلام dijo:",
-              "fa": "اَلصَّادِق علیه السلام فرمود:",
-              "fr": "Al-Sadiq عليه السلام a dit :",
-              "id": "Al-Sadiq علیه السلام berkata:",
-              "ru": "Аль-Садик عليه السلام сказал:",
-              "tr": "El-Sadık علیه السلام şöyle dedi:",
-              "ur": "اَلصَّادِق علیہ السلام نے فرمایا:",
-              "zh": "اَلصَّادِقعليهالسلام说："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "«مَنْ قَالَ إِذَا صَلَّى الْمَغْرِبَ ثَلَاثَ مَرَّاتٍ: الْحَمْدُ لِلَّهِ الَّذِي",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“যে ব্যক্তি মাগরিবের সালাতের পর তিনবার বলবে: ‘সব প্রশংসা আল্লাহর জন্য, যিনি",
-              "de": "„Wer nach dem Maghrib-Gebet dreimal sagt: ‚Alles Lob gebührt Allah, der",
-              "en": "“Whoever says, when he has performed the Maghrib prayer, three times: ‘All praise belongs to Allah, Who",
-              "es": "“Quien diga, después de realizar la oración de Maghrib, tres veces: ‘Alabado sea Allah, que",
-              "fa": "«هر کس پس از نماز مغرب سه بار بگوید: «تمام ستایش‌ها برای خداوند است که",
-              "fr": "«Quiconque dit, après avoir accompli la prière de Maghrib, trois fois : ‘Louange à Allah, qui",
-              "id": "“Barangsiapa yang setelah shalat Maghrib mengucapkan tiga kali: ‘Segala puji bagi Allah, yang",
-              "ru": "«Кто после молитвы Магриб трижды скажет: „Хвала Аллаху, Который",
-              "tr": "“Kim Maghrib namazını kıldıktan sonra üç kez şöyle derse: ‘Hamd,",
-              "ur": "‘‘جو کوئی مغرب کی نماز کے بعد تین مرتبہ کہے: 'تمام تعریفیں اللہ کے لیے ہیں، جو",
-              "zh": "“谁在做完مغرب礼拜后三次说：‘一切赞美归于安拉，祂"
-            },
             "word_end": 14,
             "word_start": 4
           },
           {
             "arabic_text": "يَفْعَلُ مَا يَشَاءُ",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "যা কিছু ইচ্ছা করেন তা করেন",
-              "de": "tut, was Er will",
-              "en": "does whatever He wills",
-              "es": "hace lo que quiere",
-              "fa": "هر آنچه را که بخواهد انجام می‌دهد",
-              "fr": "fait ce qu’Il veut",
-              "id": "apa yang Dia kehendaki dilakukan",
-              "ru": "делает то, что пожелает",
-              "tr": "istediğini yapar",
-              "ur": "جو چاہتا ہے کرتا ہے",
-              "zh": "做祂所愿"
-            },
             "word_end": 17,
             "word_start": 14
           },
           {
             "arabic_text": "وَلَا يَفْعَلُ مَا يَشَاءُ غَيْرُهُ أُعْطِيَ خَيْرًا كَثِيرًا.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এবং তাঁর সিবাই কেউ যা ইচ্ছা করে তা করে না,’ তাকে প্রচুর কল্যাণ দেওয়া হবে।”",
-              "de": "und niemand sonst tut, was Er will,’ wird ihm viel Gutes gegeben werden.“",
-              "en": "and none other than Him does whatever he wills,’ he will be given abundant good.”",
-              "es": "y nadie más que Él hace lo que quiere,’ se le dará abundante bien.”",
-              "fa": "و هیچ کس جز او آنچه را که می‌خواهد انجام نمی‌دهد، به او خیر فراوان داده خواهد شد.»",
-              "fr": "et nul autre qu’Il ne fait ce qu’Il veut,’ il recevra beaucoup de bien.”",
-              "id": "dan tidak ada yang selain Dia melakukan apa yang Dia kehendaki,’ maka dia akan diberikan kebaikan yang berlimpah.”",
-              "ru": "и никто, кроме Него, не делает того, что желает, — ему будет даровано много добра.»",
-              "tr": "ve O’ndan başkası istediğini yapmaz,’ ona çokça hayır verilecektir.”",
-              "ur": "اور اس کے سوا کوئی اور اپنی مرضی نہیں کرتا، اسے بہت ساری بھلائیاں دی جائیں گی۔’’",
-              "zh": "且除祂之外无人做祂所愿，必将赐予他丰盛的善报。”"
-            },
             "word_end": 25,
             "word_start": 17
           }
@@ -125,28 +86,16 @@
             "phrase_en": "All praise is due to Allah"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الصَّادِقُ": "Imam Ja'far al-Sadiq عليه السلام, the speaker of the hadith",
-            "اللَّهِ": "Allah, the One being praised",
-            "الْحَمْدُ": "praise and gratitude",
-            "الْمَغْرِبَ": "the Maghrib evening prayer",
-            "خَيْرًا كَثِيرًا": "abundant goodness",
-            "صَلَّى": "performed the salat (prayer)",
-            "يَشَاءُ": "wills",
-            "يَفْعَلُ": "does, acts, brings about"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الصَّادِقُ",
+          "صَلَّى",
+          "الْمَغْرِبَ",
+          "الْحَمْدُ",
+          "اللَّهِ",
+          "يَفْعَلُ",
+          "يَشَاءُ",
+          "خَيْرًا كَثِيرًا"
+        ],
         "related_quran": [
           {
             "ref": "3:40",
@@ -161,32 +110,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "মাগরিবের সালাতের পর প্রচুর কল্যাণের জন্য কী পড়া উচিত?",
-          "de": "Was soll nach dem Maghrib-Gebet für reichlichen Segen rezitiert werden?",
-          "en": "What should be recited after Maghrib prayer for abundant goodness?",
-          "es": "¿Qué se debe recitar después de la oración de Maghrib para obtener abundante bondad?",
-          "fa": "پس از نماز مغرب برای کسب خیر فراوان چه باید خواند؟",
-          "fr": "Que faut-il réciter après la prière de Maghrib pour obtenir beaucoup de bien ?",
-          "id": "Apa yang harus dibaca setelah salat Maghrib untuk mendapatkan kebaikan yang berlimpah?",
-          "ru": "Что следует читать после молитвы Магриб для обильного блага?",
-          "tr": "Maghrib namazından sonra bolca hayır için ne okunmalıdır?",
-          "ur": "مغرب کی نماز کے بعد کون سی دعا زیادہ بھلائی کے لیے پڑھی جائے؟",
-          "zh": "مغرب礼拜后应诵念什么以获得丰盛的善报？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি মাগরিবের সালাতের পর তিনবার পাঠ করার জন্য একটি যিকর শেখায়। এটি আল্লাহর পরম ইচ্ছা ও ক্ষমতাকে প্রশংসা করে এবং পাঠককে প্রচুর কল্যাণের প্রতিশ্রুতি দেয়।",
-          "de": "Dieser Hadith lehrt ein Nachgebet, das nach dem Maghrib-Gebet dreimal zu rezitieren ist. Es preist den absoluten Willen und die Macht Allahs und verspricht dem Rezitierenden viel Gutes.",
-          "en": "This hadith teaches a post-salat remembrance to be recited after Maghrib three times. It praises Allah’s absolute will and power, and promises abundant goodness for the one who recites it.",
-          "es": "Este hadiz enseña una invocación para recitar tres veces después de la oración de Maghrib. Alaba la voluntad y el poder absolutos de Allah, y promete abundante bondad para quien la recite.",
-          "fa": "این حدیث یادآوری پس از نماز مغرب را آموزش می‌دهد که سه بار خوانده می‌شود. این دعا اراده و قدرت مطلق خداوند را ستایش می‌کند و وعده خیر فراوان برای خواننده دارد.",
-          "fr": "Ce hadith enseigne un rappel à réciter trois fois après la prière de Maghrib. Il loue la volonté et la puissance absolues d’Allah, et promet beaucoup de bien à celui qui le récite.",
-          "id": "Hadis ini mengajarkan dzikir setelah salat Maghrib yang dibaca tiga kali. Dzikir ini memuji kehendak dan kekuasaan mutlak Allah, serta menjanjikan kebaikan yang berlimpah bagi yang membacanya.",
-          "ru": "Этот хадис учит поминанию, которое следует произносить трижды после молитвы Магриб. В нем восхваляется абсолютная воля и сила Аллаха, и обещается обильное благо тому, кто его произнесет.",
-          "tr": "Bu hadis, Maghrib namazından sonra üç kez okunacak bir zikir öğretir; Allah’ın mutlak iradesini ve kudretini över ve okuyan kişiye bolca hayır verileceğini vaat eder.",
-          "ur": "یہ حدیث مغرب کی نماز کے بعد تین مرتبہ پڑھنے والی دعا سکھاتی ہے جو اللہ کی مطلق مرضی اور قدرت کی تعریف کرتی ہے اور پڑھنے والے کو بہت سی بھلائیاں ملنے کا وعدہ کرتی ہے۔",
-          "zh": "此圣训教导在مغرب礼拜后诵念三遍的祷词，赞美安拉的绝对意志与力量，并承诺诵念者将获得丰盛的善报。"
-        },
         "tags": [
           "worship",
           "dua",

@@ -16,40 +16,27 @@
           "model": "claude-sonnet-4-6",
           "pipeline_version": "2.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁকে জিজ্ঞেস করলাম: আকল কী? তিনি বললেন: যা দ্বারা দয়াময়ের ইবাদত করা হয় এবং জান্নাতসমূহ অর্জিত হয়।",
-              "de": "Ich fragte ihn: Was ist der Verstand (Aql)? Er sagte: Das, womit dem Allerbarmer Gottesdienst geleistet wird und womit die Gärten erlangt werden.",
-              "en": "I said to him: What is the intellect ('aql)? He said: That by which the All-beneficent is worshipped and the Gardens are attained.",
-              "es": "Le dije: ¿Qué es el intelecto (aql)? Dijo: Aquello por lo que se adora al Compasivo y se obtienen los jardines.",
-              "fa": "به او گفتم: عقل چیست؟ فرمود: آنچه با آن رحمان عبادت شود و بهشت‌ها کسب گردد.",
-              "fr": "Je lui dis : Qu'est-ce que l'intellect (aql) ? Il dit : Ce par quoi le Tout Miséricordieux est adoré et par quoi les jardins sont acquis.",
-              "id": "Aku bertanya kepadanya: Apakah akal itu? Beliau bersabda: Sesuatu yang dengannya Yang Maha Pengasih disembah dan surga-surga diraih.",
-              "ru": "Я спросил его: Что такое разум ('акль)? Он сказал: То, посредством чего поклоняются Милостивому и чем обретают сады (рай).",
-              "tr": "Ona dedim: Akıl nedir? Buyurdu: Rahman'a ibadet edilen ve cennetlerin kazanıldığı şeydir.",
-              "ur": "میں نے ان سے عرض کیا: عقل کیا ہے؟ آپ نے فرمایا: وہ جس کے ذریعے رحمن کی عبادت کی جائے اور جنتیں حاصل کی جائیں۔",
-              "zh": "我问他：什么是理智（阿格勒）？他说：凭借它崇拜至仁主，凭借它获得乐园。"
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "chunk_type": "body",
-            "translations": {
-              "bn": "বর্ণনাকারী বললেন: আমি বললাম: তাহলে যা মুআবিয়ার মধ্যে ছিল? তিনি বললেন: সেটা হলো নাকরা (কুটিলতা), সেটা হলো শয়তানী চতুরতা — এবং এটা আকলের মতো দেখায় কিন্তু আকল নয়।",
-              "de": "Er sagte: Ich sagte: Und das, was bei Muawiya war? Da sagte er: Das ist die hinterlistige Schläue, das ist die teuflische Schlauheit — und sie ähnelt dem Verstand, aber sie ist nicht der Verstand.",
-              "en": "He (the narrator) said: I said: Then that which was in Muawiya? So he said: That is the heinous cunning, that is the devilry — and it resembles the intellect but is not the intellect.",
-              "es": "Dijo: Yo dije: ¿Y lo que había en Muawiya? Respondió: Eso es la astucia maliciosa, eso es la perversidad diabólica — y se asemeja al intelecto pero no es el intelecto.",
-              "fa": "گفت: گفتم: پس آنچه در معاویه بود چه بود؟ فرمود: آن نکراء است، آن شیطنت است — و شبیه عقل است ولی عقل نیست.",
-              "fr": "Il dit : Je dis : Et ce qui était chez Muawiya ? Il répondit : C'est là la ruse malveillante, c'est là la ruse diabolique — et elle ressemble à l'intellect mais ce n'est pas l'intellect.",
-              "id": "Ia berkata: Aku berkata: Lalu yang ada pada Muawiyah? Beliau menjawab: Itu adalah kecerdikan jahat, itu adalah kecerdikan setan — dan ia menyerupai akal tetapi bukan akal.",
-              "ru": "Он сказал: Я сказал: Тогда что же было у Муавии? Он ответил: То есть коварная хитрость, то есть бесовская изворотливость — и она похожа на разум, но не является разумом.",
-              "tr": "(Ravi) dedi: Dedim: Peki Muaviye'de olan neydi? Buyurdu: O, kurnazlıktır; o, şeytanlıktır — ve akıla benzer ama akıl değildir.",
-              "ur": "راوی نے کہا: میں نے عرض کیا: تو وہ جو معاویہ میں تھا؟ آپ نے فرمایا: وہ تو نکراء (مکاری) ہے، وہ شیطنت ہے — اور وہ عقل سے مشابہ ہے مگر عقل نہیں ہے۔",
-              "zh": "他说：我说：那么穆阿维叶身上的那种呢？他答道：那是奸诈，那是魔鬼般的狡猾——而它与理智相似，但它不是理智。"
-            },
             "word_end": 31,
             "word_start": 13
           }
@@ -117,63 +104,11 @@
             "phrase_en": "resembles the intellect but is not the intellect"
           }
         ],
-        "key_terms": {
-          "bn": {
-            "الشَّيْطَنَة": "শায়তানা — শয়তানী চতুরতা, মন্দের সেবায় বুদ্ধিমত্তা",
-            "النَّكْرَاء": "নাকরা — কুটিলতা, নৈতিক ভিত্তিহীন ধূর্ততা",
-            "الْعَقْل": "আকল — বিবেক, শিয়া ধর্মতত্ত্বে আল্লাহর ইবাদতের মাধ্যম"
-          },
-          "de": {
-            "الشَّيْطَنَة": "Shaytana — teuflische Schlauheit, Intelligenz im Dienste des Bösen",
-            "النَّكْرَاء": "Nakra' — hinterlistige Schläue, Klugheit ohne moralische Grundlage",
-            "الْعَقْل": "'Aql — Verstand, Vernunft; Fähigkeit zum Gottesdienst und zur Erlangung des Paradieses"
-          },
-          "en": {
-            "الشَّيْطَنَة": "Shaytana — devilry, diabolical cleverness, intelligence in the service of evil",
-            "النَّكْرَاء": "Nakra' — heinous cunning, malicious cleverness, shrewdness without moral foundation",
-            "الْعَقْل": "'Aql — intellect, reason; in Shia theology, the faculty by which humans fulfill their religious obligations"
-          },
-          "es": {
-            "الشَّيْطَنَة": "Shaytana — perversidad diabólica, inteligencia al servicio del mal",
-            "النَّكْرَاء": "Nakra' — astucia maliciosa, inteligencia sin base moral",
-            "الْعَقْل": "'Aql — intelecto, facultad de adorar a Dios y alcanzar el paraíso"
-          },
-          "fa": {
-            "الشَّيْطَنَة": "شیطنت — هوش شیطانی، زیرکی در خدمت شر",
-            "النَّكْرَاء": "نکراء — مکاری، زیرکی بدون پایه اخلاقی",
-            "الْعَقْل": "عقل — قوه درک و عبادت الهی در تفکر شیعی"
-          },
-          "fr": {
-            "الشَّيْطَنَة": "Shaytana — ruse diabolique, intelligence au service du mal",
-            "النَّكْرَاء": "Nakra' — ruse malveillante, intelligence sans fondement moral",
-            "الْعَقْل": "'Aql — intellect, faculté d'adorer Dieu et d'atteindre le paradis"
-          },
-          "id": {
-            "الشَّيْطَنَة": "Shaytana — kecerdikan setan, kepintaran yang melayani kejahatan",
-            "النَّكْرَاء": "Nakra' — kecerdikan jahat, kelicikan tanpa landasan moral",
-            "الْعَقْل": "'Aql — akal, kemampuan untuk beribadah kepada Allah dan meraih surga"
-          },
-          "ru": {
-            "الشَّيْطَنَة": "Шайтана — бесовская хитрость, изворотливость на службе зла",
-            "النَّكْرَاء": "Накра' — коварная хитрость, ум без нравственной основы",
-            "الْعَقْل": "'Акль — разум, способность поклоняться Аллаху и обрести рай"
-          },
-          "tr": {
-            "الشَّيْطَنَة": "Şeytanlık — iblisçe hile, şeytanî akıl yürütme",
-            "النَّكْرَاء": "Nekra — kötü kurnazlık, kötücül zekâ",
-            "الْعَقْل": "Akıl — Allah'a ibadet etmeyi ve cenneti kazanmayı sağlayan yeti"
-          },
-          "ur": {
-            "الشَّيْطَنَة": "شیطنت — شیطانی چالاکی، ابلیسی ذہانت",
-            "النَّكْرَاء": "نکراء — مکاری، بدبختانہ ہوشیاری، نیکی سے خالی چالاکی",
-            "الْعَقْل": "عقل — دینی احکام کی ادائیگی اور خدا کی عبادت کا ذریعہ"
-          },
-          "zh": {
-            "الشَّيْطَنَة": "沙依塔那——魔鬼般的狡猾，服务于邪恶的智慧",
-            "النَّكْرَاء": "纳克拉——恶意狡猾，无道德根基的机智",
-            "الْعَقْل": "阿格勒（理智）——崇拜真主和获得天堂的能力"
-          }
-        },
+        "key_terms_keys": [
+          "الْعَقْل",
+          "النَّكْرَاء",
+          "الشَّيْطَنَة"
+        ],
         "related_quran": [
           {
             "ref": "2:269",
@@ -184,32 +119,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "আল-কাফিতে ইমাম সাদিকের মতে আকলের সংজ্ঞা কী?",
-          "de": "Was ist die Definition des Verstandes (Aql) laut Imam al-Sadiq im al-Kafi?",
-          "en": "What is the definition of 'aql (intellect) according to Imam al-Sadiq in al-Kafi?",
-          "es": "¿Cuál es la definición del intelecto (aql) según el Imam al-Sadiq en al-Kafi?",
-          "fa": "تعریف عقل از دیدگاه امام صادق علیه السلام در کافی چیست؟",
-          "fr": "Quelle est la définition de l'intellect (aql) selon l'Imam al-Sadiq dans al-Kafi ?",
-          "id": "Apa definisi akal menurut Imam al-Shadiq dalam al-Kafi?",
-          "ru": "Каково определение разума ('акль) по Имаму аль-Садику в аль-Кафи?",
-          "tr": "İmam Sadık'a göre aklın tanımı nedir?",
-          "ur": "امام صادق علیہ السلام نے عقل کی تعریف کیا بیان کی؟",
-          "zh": "伊玛目萨迪格在《卡非》中如何定义理智（阿格勒）？"
-        },
-        "summaries": {
-          "bn": "ইমাম জাফর আস-সাদিক (আ.) আকলকে সংজ্ঞায়িত করেছেন সেই শক্তি হিসেবে যা দ্বারা মানুষ আল্লাহর ইবাদত করে এবং জান্নাত পায়। মুআবিয়ার কুখ্যাত রাজনৈতিক চাতুর্য সম্পর্কে জিজ্ঞেস করা হলে ইমাম স্পষ্টভাবে বলেছেন সেটা আকল নয়, বরং নাকরা এবং শয়তানী চালাকি। এই হাদিসটি শিক্ষা দেয় যে প্রকৃত আকলের মানদণ্ড হলো আল্লাহর প্রতি তার অভিমুখিনতা।",
-          "de": "Imam al-Sadiq (F) definiert den 'Aql (Verstand/Vernunft) als die Fähigkeit, mit der man Gott dient und das Paradies erlangt. Als er nach der bekannten politischen Schlauheit Muawiyas gefragt wird, unterscheidet er diese klar als Nakra' (hinterlistige Schläue) und Shaytana (teuflische Schlauheit), die dem Verstand ähnelt, aber keiner ist. Dieses Hadith lehrt, dass der wahre Verstand sich durch seine Ausrichtung auf Gott auszeichnet.",
-          "en": "Imam al-Sadiq (peace be upon him) defines true 'aql (intellect/reason) as the faculty by which God is worshipped and Paradise is attained — a divinely-oriented capacity for right action and knowledge. When asked about Muawiya's notorious political acumen, the Imam sharply distinguishes it as nakra' (malicious cunning) and shaytana (devilry), which merely resembles intellect but is fundamentally different. This hadith was transmitted in a context where Shia Muslims needed to distinguish divine guidance from worldly shrewdness, and where Muawiya represented the archetype of politically successful but morally corrupt leadership. The Imam's teaching emphasizes that the criterion for true intellect is its orientation toward God, not worldly effectiveness.",
-          "es": "El Imam al-Sadiq (P) define el 'aql (intelecto) como la facultad mediante la cual se adora a Dios y se alcanza el paraíso. Al ser preguntado sobre la famosa astucia política de Muawiya, el Imam la distingue claramente como nakra' (astucia maliciosa) y shaytana (perversidad diabólica), que imita al intelecto pero no lo es. Este hadith enseña que el criterio del verdadero intelecto es su orientación hacia Dios.",
-          "fa": "امام صادق علیه السلام عقل را به عنوان قوه‌ای که انسان با آن خدا را عبادت می‌کند و بهشت را به دست می‌آورد تعریف می‌کند. هنگامی که از زیرکی سیاسی معاویه پرسیده می‌شود، امام آن را نه عقل بلکه نکراء (مکاری) و شیطنت می‌خواند. این حدیث معیار واقعی عقل را در جهت‌گیری الهی می‌داند، نه در توانایی دنیوی.",
-          "fr": "L'Imam al-Sadiq (P) définit le 'aql (intellect) comme la faculté par laquelle on adore Dieu et par laquelle on obtient le paradis. Interrogé sur l'astuce politique notoire de Muawiya, l'Imam la distingue clairement comme nakra' (ruse malveillante) et shaytana (ruse diabolique), qui ressemble à l'intellect sans l'être. Ce hadith enseigne que le vrai intellect se reconnaît à son orientation vers Dieu.",
-          "id": "Imam al-Shadiq (a.s.) mendefinisikan 'aql (akal) sebagai fakultas yang dengannya manusia menyembah Allah dan meraih surga. Ketika ditanya tentang kecerdasan politik Muawiyah yang terkenal, beliau menegaskan bahwa itu bukan akal sejati melainkan nakra' (kecerdikan jahat) dan shaytana (kecerdikan setan). Hadis ini menekankan bahwa akal sejati berorientasi kepada Allah, bukan kepada tujuan duniawi.",
-          "ru": "Имам аль-Садик (мир ему) определяет 'акль (разум) как способность, посредством которой поклоняются Аллаху и обретают рай. Когда его спрашивают о знаменитой политической хитрости Муавии, Имам чётко разграничивает её как накра' (коварную хитрость) и шайтана (бесовскую изворотливость), которые лишь напоминают разум, но не являются им. Этот хадис учит, что истинный разум определяется по его ориентации на Бога.",
-          "tr": "İmam Sadık (a.s.), aklı Allah'a ibadet ve cennete ulaşma vasıtası olarak tanımlamıştır. Muaviye'nin ünlü siyasi zekâsı sorulduğunda ise bunu gerçek akıl olarak değil, nekra (kötü kurnazlık) ve şeytanlık olarak nitelendirmiş; bu tür zekânın akla benzediğini ama aslında akıl olmadığını vurgulamıştır. Bu hadis, gerçek aklın ilahi yönelimli olduğunu, dünyevi çıkara yönelik zekânın ise şeytani olduğunu ortaya koymaktadır.",
-          "ur": "امام جعفر صادق علیہ السلام نے عقل کی تعریف فرمائی کہ وہ جس سے اللہ کی عبادت ہو اور جنتیں حاصل ہوں۔ جب معاویہ کی سیاسی چالاکی کا ذکر ہوا تو آپ نے اسے عقل نہیں بلکہ نکراء (مکاری) اور شیطنت قرار دیا۔ یہ حدیث اہل بیت علیہم السلام کی نظر میں عقل کی حقیقت کو واضح کرتی ہے: عقل وہ ہے جو انسان کو خدا کی طرف لے جائے، نہ کہ دنیاوی مقاصد کے لیے استعمال ہونے والی چالاکی۔",
-          "zh": "伊玛目萨迪格（愿主赐他平安）将理智（阿格勒）定义为崇拜真主并获得天堂的能力。当被问及穆阿维叶著名的政治谋略时，伊玛目明确将其区分为纳克拉（恶意狡猾）和沙依塔那（魔鬼般的诡计），它们貌似理智却非真正的理智。这段圣训教导说，真正理智的标准在于其以真主为导向。"
-        },
         "tags": [
           "theology",
           "ethics",
@@ -223,529 +132,126 @@
         "word_analysis": [
           {
             "pos": "V",
-            "translation": {
-              "bn": "আমি বললাম",
-              "de": "ich sagte",
-              "en": "I said",
-              "es": "dije",
-              "fa": "گفتم",
-              "fr": "j'ai dit",
-              "id": "aku bertanya",
-              "ru": "я спросил",
-              "tr": "dedim",
-              "ur": "میں نے عرض کیا",
-              "zh": "我说"
-            },
             "word": "قُلْتُ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "তাঁকে",
-              "de": "zu ihm",
-              "en": "to him",
-              "es": "a él",
-              "fa": "به او",
-              "fr": "à lui",
-              "id": "kepadanya",
-              "ru": "ему",
-              "tr": "ona",
-              "ur": "ان سے",
-              "zh": "向他"
-            },
             "word": "لَهُ"
           },
           {
             "pos": "INTERR",
-            "translation": {
-              "bn": "কী",
-              "de": "was ist",
-              "en": "what is",
-              "es": "qué es",
-              "fa": "چیست",
-              "fr": "qu'est-ce que",
-              "id": "apakah",
-              "ru": "что такое",
-              "tr": "nedir",
-              "ur": "کیا ہے",
-              "zh": "什么是"
-            },
             "word": "مَا"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "আকল/বিবেক",
-              "de": "der Verstand (Aql)",
-              "en": "the intellect ('aql)",
-              "es": "el intelecto (aql)",
-              "fa": "عقل",
-              "fr": "l'intellect (aql)",
-              "id": "akal",
-              "ru": "разум (акль)",
-              "tr": "akıl",
-              "ur": "عقل",
-              "zh": "理智（阿格勒）"
-            },
             "word": "الْعَقْلُ"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "তিনি বললেন",
-              "de": "er sagte",
-              "en": "he said",
-              "es": "dijo",
-              "fa": "فرمود",
-              "fr": "il dit",
-              "id": "beliau bersabda",
-              "ru": "он сказал",
-              "tr": "buyurdu",
-              "ur": "آپ نے فرمایا",
-              "zh": "他说"
-            },
             "word": "قَالَ"
           },
           {
             "pos": "REL",
-            "translation": {
-              "bn": "যা দ্বারা",
-              "de": "das, wodurch",
-              "en": "that by which",
-              "es": "aquello por lo que",
-              "fa": "آنچه",
-              "fr": "ce par quoi",
-              "id": "sesuatu yang dengannya",
-              "ru": "то, посредством чего",
-              "tr": "ile/ile ki",
-              "ur": "جس کے ذریعے",
-              "zh": "凭借…的"
-            },
             "word": "مَا"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "ইবাদত করা হয়",
-              "de": "verehrt wird",
-              "en": "is worshipped",
-              "es": "es adorado",
-              "fa": "عبادت می‌شود",
-              "fr": "est adoré",
-              "id": "disembah",
-              "ru": "поклоняются",
-              "tr": "ibadet edilir",
-              "ur": "عبادت کی جاتی ہے",
-              "zh": "被崇拜"
-            },
             "word": "عُبِدَ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "তা দ্বারা",
-              "de": "dadurch",
-              "en": "by it",
-              "es": "por él",
-              "fa": "با آن",
-              "fr": "par lui",
-              "id": "dengannya",
-              "ru": "им/посредством него",
-              "tr": "onunla",
-              "ur": "اس کے ذریعے",
-              "zh": "凭它"
-            },
             "word": "بِهِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "দয়াময় (আল্লাহ)",
-              "de": "der Allerbarmer (Gott)",
-              "en": "the All-beneficent (God)",
-              "es": "el Compasivo (Dios)",
-              "fa": "رحمان (خدا)",
-              "fr": "le Tout Miséricordieux (Dieu)",
-              "id": "Yang Maha Pengasih (Allah)",
-              "ru": "Милостивый (Господь)",
-              "tr": "Rahman (Allah)",
-              "ur": "رحمن (خدا)",
-              "zh": "至仁主（真主）"
-            },
             "word": "الرَّحْمَنُ"
           },
           {
             "pos": "CONJ",
-            "translation": {
-              "bn": "এবং",
-              "de": "und",
-              "en": "and",
-              "es": "y",
-              "fa": "و",
-              "fr": "et",
-              "id": "dan",
-              "ru": "и",
-              "tr": "ve",
-              "ur": "اور",
-              "zh": "并"
-            },
             "word": "وَ"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "অর্জন করা হয়",
-              "de": "erlangt wird",
-              "en": "is attained/acquired",
-              "es": "se obtiene",
-              "fa": "کسب می‌شود",
-              "fr": "on acquiert",
-              "id": "diraih",
-              "ru": "обретается",
-              "tr": "kazanılır",
-              "ur": "حاصل کی جاتی ہے",
-              "zh": "获得"
-            },
             "word": "اكْتُسِبَ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "তা দ্বারা",
-              "de": "dadurch",
-              "en": "by it",
-              "es": "por él",
-              "fa": "با آن",
-              "fr": "par lui",
-              "id": "dengannya",
-              "ru": "им/посредством него",
-              "tr": "onunla",
-              "ur": "اس کے ذریعے",
-              "zh": "凭它"
-            },
             "word": "بِهِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "জান্নাতসমূহ",
-              "de": "die Gärten (das Paradies)",
-              "en": "the Gardens (Paradise)",
-              "es": "los jardines (el paraíso)",
-              "fa": "بهشت‌ها",
-              "fr": "les jardins (le paradis)",
-              "id": "surga-surga",
-              "ru": "сады (рай)",
-              "tr": "cennetler",
-              "ur": "جنتیں",
-              "zh": "乐园（天堂）"
-            },
             "word": "الْجِنَانُ"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "বর্ণনাকারী বললেন",
-              "de": "er (der Erzähler) sagte",
-              "en": "he (the narrator) said",
-              "es": "dijo (el narrador)",
-              "fa": "گفت (راوی)",
-              "fr": "il dit (le narrateur)",
-              "id": "ia (perawi) berkata",
-              "ru": "он (передатчик) сказал",
-              "tr": "dedi (ravi)",
-              "ur": "راوی نے کہا",
-              "zh": "他（叙述者）说"
-            },
             "word": "قَالَ"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "আমি বললাম",
-              "de": "ich sagte",
-              "en": "I said",
-              "es": "dije",
-              "fa": "گفتم",
-              "fr": "je dis",
-              "id": "aku berkata",
-              "ru": "я сказал",
-              "tr": "dedim",
-              "ur": "میں نے عرض کیا",
-              "zh": "我说"
-            },
             "word": "قُلْتُ"
           },
           {
             "pos": "REL",
-            "translation": {
-              "bn": "তাহলে যেটা",
-              "de": "dann das, was",
-              "en": "then that which",
-              "es": "entonces aquello que",
-              "fa": "پس آنچه",
-              "fr": "alors ce qui",
-              "id": "lalu apa yang",
-              "ru": "тогда то, что",
-              "tr": "peki ya",
-              "ur": "تو وہ جو",
-              "zh": "那么那种"
-            },
             "word": "فَالَّذِي"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "ছিল",
-              "de": "war",
-              "en": "was",
-              "es": "era/había",
-              "fa": "بود",
-              "fr": "était",
-              "id": "ada",
-              "ru": "было",
-              "tr": "idi/vardı",
-              "ur": "تھا",
-              "zh": "所具有的"
-            },
             "word": "كَانَ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "মধ্যে",
-              "de": "bei/in",
-              "en": "in",
-              "es": "en",
-              "fa": "در",
-              "fr": "chez",
-              "id": "pada/dalam diri",
-              "ru": "у/в",
-              "tr": "-da/-de",
-              "ur": "میں",
-              "zh": "在…身上"
-            },
             "word": "فِي"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "মুআবিয়া",
-              "de": "Muawiya",
-              "en": "Muawiya",
-              "es": "Muawiya",
-              "fa": "معاویه",
-              "fr": "Muawiya",
-              "id": "Muawiyah",
-              "ru": "Муавия",
-              "tr": "Muaviye",
-              "ur": "معاویہ",
-              "zh": "穆阿维叶"
-            },
             "word": "مُعَاوِيَةَ"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "তখন তিনি বললেন",
-              "de": "da sagte er",
-              "en": "so he said",
-              "es": "entonces dijo",
-              "fa": "پس فرمود",
-              "fr": "alors il dit",
-              "id": "maka beliau bersabda",
-              "ru": "тогда он сказал",
-              "tr": "buyurdu",
-              "ur": "تو آپ نے فرمایا",
-              "zh": "于是他说"
-            },
             "word": "فَقَالَ"
           },
           {
             "pos": "DEM",
-            "translation": {
-              "bn": "সেটা হলো",
-              "de": "das ist",
-              "en": "that is",
-              "es": "eso es",
-              "fa": "آن",
-              "fr": "c'est là",
-              "id": "itu adalah",
-              "ru": "то есть",
-              "tr": "işte o",
-              "ur": "وہ تو",
-              "zh": "那是"
-            },
             "word": "تِلْكَ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "কুটিলতা/ধূর্ততা",
-              "de": "die hinterlistige Schläue",
-              "en": "the heinous cunning",
-              "es": "la astucia maliciosa",
-              "fa": "زیرکی مکارانه",
-              "fr": "la ruse malveillante",
-              "id": "kelicikan",
-              "ru": "коварная хитрость",
-              "tr": "şeytanca kurnazlık",
-              "ur": "مکاری/چالاکی",
-              "zh": "奸诈/狡猾"
-            },
             "word": "النَّكْرَاءُ"
           },
           {
             "pos": "DEM",
-            "translation": {
-              "bn": "সেটা হলো",
-              "de": "das ist",
-              "en": "that is",
-              "es": "eso es",
-              "fa": "آن",
-              "fr": "c'est là",
-              "id": "itu adalah",
-              "ru": "то есть",
-              "tr": "işte o",
-              "ur": "وہ تو",
-              "zh": "那是"
-            },
             "word": "تِلْكَ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "শয়তানী চতুরতা",
-              "de": "die teuflische Schlauheit",
-              "en": "the devilry/diabolical cleverness",
-              "es": "la astucia diabólica",
-              "fa": "شیطنت",
-              "fr": "la ruse diabolique",
-              "id": "kecerdikan setan",
-              "ru": "бесовская хитрость",
-              "tr": "şeytanlık/iblis hilesi",
-              "ur": "شیطانی چالاکی",
-              "zh": "魔鬼般的狡猾"
-            },
             "word": "الشَّيْطَنَةُ"
           },
           {
             "pos": "CONJ",
-            "translation": {
-              "bn": "এবং",
-              "de": "und",
-              "en": "and",
-              "es": "y",
-              "fa": "و",
-              "fr": "et",
-              "id": "dan",
-              "ru": "и",
-              "tr": "ve",
-              "ur": "اور",
-              "zh": "而"
-            },
             "word": "وَ"
           },
           {
             "pos": "PRON",
-            "translation": {
-              "bn": "সেটা",
-              "de": "sie",
-              "en": "it",
-              "es": "ella",
-              "fa": "آن",
-              "fr": "elle",
-              "id": "ia",
-              "ru": "она",
-              "tr": "o",
-              "ur": "وہ",
-              "zh": "它"
-            },
             "word": "هِيَ"
           },
           {
             "pos": "ADJ",
-            "translation": {
-              "bn": "সদৃশ",
-              "de": "ähnelt",
-              "en": "resembles/is similar to",
-              "es": "se asemeja",
-              "fa": "شبیه است",
-              "fr": "ressemble",
-              "id": "menyerupai",
-              "ru": "похожа",
-              "tr": "benzer",
-              "ur": "مشابہ ہے",
-              "zh": "相似于"
-            },
             "word": "شَبِيهَةٌ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "বিবেকের মতো",
-              "de": "dem Verstand",
-              "en": "the intellect",
-              "es": "al intelecto",
-              "fa": "عقل",
-              "fr": "à l'intellect",
-              "id": "akal",
-              "ru": "разуму",
-              "tr": "akla",
-              "ur": "عقل سے",
-              "zh": "理智"
-            },
             "word": "بِالْعَقْلِ"
           },
           {
             "pos": "CONJ",
-            "translation": {
-              "bn": "কিন্তু",
-              "de": "aber",
-              "en": "but",
-              "es": "pero",
-              "fa": "ولی",
-              "fr": "mais",
-              "id": "tapi",
-              "ru": "но",
-              "tr": "ama",
-              "ur": "لیکن",
-              "zh": "但"
-            },
             "word": "وَ"
           },
           {
             "pos": "NEG",
-            "translation": {
-              "bn": "নয়",
-              "de": "ist nicht",
-              "en": "it is not",
-              "es": "no es",
-              "fa": "نیست",
-              "fr": "ce n'est pas",
-              "id": "bukan",
-              "ru": "не является",
-              "tr": "değildir",
-              "ur": "وہ نہیں ہے",
-              "zh": "不是"
-            },
             "word": "لَيْسَتْ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "বিবেক/আকল",
-              "de": "der Verstand",
-              "en": "the intellect",
-              "es": "el intelecto",
-              "fa": "عقل",
-              "fr": "l'intellect",
-              "id": "akal",
-              "ru": "разумом",
-              "tr": "akıl",
-              "ur": "عقل",
-              "zh": "理智"
-            },
             "word": "بِالْعَقْلِ"
           }
         ]

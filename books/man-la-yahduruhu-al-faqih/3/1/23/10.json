@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَىٰ مُحَمَّدُ بْنُ مُسْلِمٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং মুহাম্মদ ইবনে মুসলিম আবু জাফর عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Und Muḥammad ibn Muslim berichtete von Abū Jaʿfar عليه السلام, der sagte:",
-              "en": "And Muḥammad ibn Muslim narrated from Abū Jaʿfar عليه السلام, who said:",
-              "es": "Y Muḥammad ibn Muslim narró de Abū Jaʿfar عليه السلام, quien dijo:",
-              "fa": "و محمد بن مسلم از ابوجعفر علیه السلام روایت کرد که فرمود:",
-              "fr": "Et Muḥammad ibn Muslim a rapporté de Abū Jaʿfar عليه السلام, qui a dit :",
-              "id": "Dan Muḥammad ibn Muslim meriwayatkan dari Abū Jaʿfar علیه السلام, yang berkata:",
-              "ru": "И Мухаммад ибн Муслим передал от Абу Джафара عليه السلام, который сказал:",
-              "tr": "Ve Muhammed ibn Muslim, Ebu Ca'fer عليه السلام'dan rivayet etti, şöyle dedi:",
-              "ur": "اور محمد بن مسلم نے ابو جعفر علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "穆罕默德本穆斯林从阿布贾法尔عليهالسلام传述说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "لَا تُصَلَّىٰ خَلْفَ مَنْ يَبْغِي عَلَى الْأَذَانِ وَ الصَّلَاةِ بِالنَّاسِ أَجْرًا وَ لَا تُقْبَلُ شَهَادَتُهُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে ব্যক্তি আজান এবং মানুষের সঙ্গে সালাতের জন্য পারিশ্রমিক চায়, তার পেছনে সালাত করবেন না, এবং তার সাক্ষ্য গ্রহণযোগ্য নয়।",
-              "de": "Betet nicht hinter jemandem, der für den Adhan und das Gebet mit den Menschen eine Bezahlung verlangt, und sein Zeugnis wird nicht akzeptiert.",
-              "en": "Do not perform salat (prayer) behind one who seeks payment for the adhan and the salat (prayer) with the people, and his testimony is not accepted.",
-              "es": "No realices la salat detrás de quien busca pago por el adhan y la salat con la gente, y su testimonio no es aceptado.",
-              "fa": "پشت سر کسی که برای اذان و اقامه نماز با مردم مزد می‌طلبد نماز نخوانید و شهادت او پذیرفته نمی‌شود.",
-              "fr": "Ne priez pas derrière celui qui cherche un paiement pour l'adhan et la salat avec les gens, et son témoignage n'est pas accepté.",
-              "id": "Janganlah melaksanakan salat di belakang orang yang meminta upah untuk adhan dan salat bersama orang banyak, dan kesaksiannya tidak diterima.",
-              "ru": "Не совершайте салат за тем, кто требует плату за азан и салат с людьми, и его свидетельство не принимается.",
-              "tr": "Ezan ve insanlarla birlikte salat için ücret talep eden kişinin arkasında salat kılmayın ve onun şehadeti kabul edilmez.",
-              "ur": "ایسے شخص کے پیچھے نماز نہ پڑھو جو اذان اور لوگوں کے ساتھ نماز کے بدلے اجر طلب کرتا ہے، اور اس کی شہادت قبول نہیں کی جاتی۔",
-              "zh": "不要在寻求为阿赞和与众人一起礼拜领取报酬的人后面礼拜，他的证词也不被接受。"
-            },
             "word_end": 26,
             "word_start": 11
           }
@@ -91,27 +78,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَجْرًا": "payment or wage",
-            "الصَّلَاةِ": "salat (prayer)",
-            "الْأَذَانِ": "the call to prayer",
-            "تُصَلَّىٰ": "salat (prayer) is performed",
-            "خَلْفَ": "behind, meaning in following an Imam in congregational salat (prayer)",
-            "شَهَادَتُهُ": "his testimony in a legal or judicial context",
-            "يَبْغِي": "seeks or desires"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "تُصَلَّىٰ",
+          "خَلْفَ",
+          "يَبْغِي",
+          "الْأَذَانِ",
+          "الصَّلَاةِ",
+          "أَجْرًا",
+          "شَهَادَتُهُ"
+        ],
         "related_quran": [
           {
             "ref": "2:41",
@@ -126,32 +101,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "আপনি কি এমন ব্যক্তির পেছনে সালাত করতে পারেন যে আজান এবং সালাতের নেতৃত্বের জন্য পারিশ্রমিক নেয়?",
-          "de": "Kann man hinter jemandem beten, der für den Adhan und das Leiten des Gebets eine Bezahlung nimmt?",
-          "en": "Can you pray behind someone who takes payment for the adhan and leading salat (prayer)?",
-          "es": "¿Se puede rezar detrás de alguien que cobra por el adhan y por liderar la salat?",
-          "fa": "آیا می‌توان پشت سر کسی که برای اذان و اقامه نماز دستمزد می‌گیرد نماز خواند؟",
-          "fr": "Peut-on prier derrière quelqu'un qui prend un paiement pour l'adhan et pour diriger la salat ?",
-          "id": "Apakah Anda bisa salat di belakang seseorang yang menerima pembayaran untuk adhan dan memimpin salat?",
-          "ru": "Можно ли молиться за тем, кто берет плату за азан и ведение салата?",
-          "tr": "Ezan ve salatın liderliği için ücret alan birinin arkasında namaz kılabilir misiniz?",
-          "ur": "کیا آپ ایسے شخص کے پیچھے نماز پڑھ سکتے ہیں جو اذان اور نماز کی قیادت کے بدلے ادائیگی لیتا ہے؟",
-          "zh": "你能在收取阿赞和带领礼拜报酬的人后面礼拜吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি এমন ব্যক্তির সম্পর্কে শারঈ বিধান প্রদান করে যে আজান এবং মানুষের সঙ্গে সালাতের জন্য পারিশ্রমিক চায়। এতে বলা হয়েছে যে এমন ব্যক্তির পেছনে সালাত করা উচিত নয় এবং তার সাক্ষ্য গ্রহণযোগ্য নয়, যা সমবায় ইবাদত ও বিচারিক বিশ্বাসযোগ্যতার ক্ষেত্রে ঘাটতি নির্দেশ করে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bezüglich einer Person, die für den Adhan und das Leiten des Gebets mit den Menschen Lohn verlangt. Es wird gesagt, dass man nicht hinter einer solchen Person beten soll und dass sein Zeugnis nicht akzeptiert wird, was auf einen Mangel hinweist, der sowohl die gemeinschaftliche Anbetung als auch die gerichtliche Glaubwürdigkeit betrifft.",
-          "en": "This hadith gives a legal ruling concerning one who seeks wages for the adhan and for leading the people in salat (prayer). It states that one should not pray behind such a person and that his legal testimony is not accepted, indicating a deficiency affecting both communal worship and judicial credibility.",
-          "es": "Este hadiz da un fallo legal sobre quien busca pago por el adhan y por liderar la salat con la gente. Indica que no se debe rezar detrás de tal persona y que su testimonio no es aceptado, señalando una deficiencia que afecta tanto el culto comunitario como la credibilidad judicial.",
-          "fa": "این حدیث حکم شرعی درباره کسی که برای اذان و اقامه نماز با مردم مزد می‌طلبد را بیان می‌کند. گفته شده که نباید پشت سر چنین شخصی نماز خواند و شهادت او پذیرفته نمی‌شود که نشان‌دهنده نقصی در عبادت جمعی و اعتبار قضایی است.",
-          "fr": "Ce hadith donne un jugement légal concernant celui qui cherche un salaire pour l'adhan et pour diriger la salat avec les gens. Il indique qu'on ne doit pas prier derrière une telle personne et que son témoignage n'est pas accepté, ce qui montre une déficience affectant à la fois le culte communautaire et la crédibilité judiciaire.",
-          "id": "Hadis ini memberikan hukum mengenai orang yang meminta upah untuk adhan dan memimpin salat bersama orang banyak. Dinyatakan bahwa tidak boleh salat di belakang orang tersebut dan kesaksiannya tidak diterima, yang menunjukkan kekurangan dalam ibadah berjamaah dan kredibilitas hukum.",
-          "ru": "Этот хадис содержит юридическое постановление относительно того, кто требует оплату за азан и ведение салата с людьми. В нем говорится, что не следует молиться за таким человеком, и его свидетельство не принимается, что указывает на недостаток, влияющий как на общественное поклонение, так и на судебную достоверность.",
-          "tr": "Bu hadis, ezan ve insanları salata ücret karşılığında götüren kişi hakkında hukuki hüküm verir. Böyle bir kişinin arkasında namaz kılınmaması ve şehadetinin kabul edilmemesi gerektiğini belirtir; bu durum hem toplu ibadet hem de adli güvenilirlik açısından eksiklik ifade eder.",
-          "ur": "یہ حدیث اس شخص کے بارے میں شرعی حکم دیتی ہے جو اذان اور لوگوں کی امامت کے بدلے اجرت طلب کرتا ہے۔ اس میں کہا گیا ہے کہ ایسے شخص کے پیچھے نماز نہیں پڑھنی چاہیے اور اس کی شہادت قبول نہیں کی جاتی، جو اجتماعی عبادت اور عدالتی اعتبار دونوں پر اثر انداز ہوتی ہے۔",
-          "zh": "此圣训对寻求为阿赞和带领众人礼拜领取报酬者作出法律裁决。指出不应在此类人后面礼拜，其证词也不被接受，表明这影响了集体礼拜和司法可信度。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

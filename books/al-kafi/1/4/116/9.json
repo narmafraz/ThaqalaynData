@@ -20,80 +20,41 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "حَدَّثَنِي أَبُو كُرَيْبٍ وَأَبُو سَعِيدٍ الْأَشَجُّ قَالَا حَدَّثَنَا عَبْدُ اللَّهِ بْنُ إِدْرِيسَ عَنْ أَبِيهِ إِدْرِيسَ بْنِ عَبْدِ اللَّهِ الْأَوْدِيِّ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আবু কুরাইব ও আবু সাঈদ আল-আশাজ্জ আমার কাছে বর্ণনা করেছেন; তারা বলেছেন: আবদুল্লাহ ইবন ইদরিস আমাদের কাছে তাঁর পিতা ইদরিস ইবন আবদুল্লাহ আল-আউদী থেকে বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "Abu Kurayb und Abu Sa‘id al-Ashajj berichteten mir; sie sagten: ‘Abd Allah ibn Idris berichtete uns von seinem Vater Idris ibn ‘Abd Allah al-Awdi, der sagte:",
-              "en": "Abu Kurayb and Abu Sa‘id al-Ashajj narrated to me; they said: ‘Abd Allah ibn Idris narrated to us, from his father Idris ibn ‘Abd Allah al-Awdi, who said:",
-              "es": "Abu Kurayb y Abu Sa‘id al-Ashajj me narraron; dijeron: ‘Abd Allah ibn Idris nos narró, de su padre Idris ibn ‘Abd Allah al-Awdi, quien dijo:",
-              "fa": "ابوکریب و ابوسعید الاشج برای من روایت کردند؛ گفتند: عبدالله بن ادریس از پدرش ادریس بن عبدالله الاودی برای ما روایت کرد، که گفت:",
-              "fr": "Abu Kurayb et Abu Sa‘id al-Ashajj m’ont rapporté ; ils ont dit : ‘Abd Allah ibn Idris nous a rapporté, de son père Idris ibn ‘Abd Allah al-Awdi, qui a dit :",
-              "id": "Abu Kurayb dan Abu Sa‘id al-Ashajj meriwayatkan kepadaku; mereka berkata: ‘Abd Allah ibn Idris meriwayatkan kepada kami, dari ayahnya Idris ibn ‘Abd Allah al-Awdi, yang berkata:",
-              "ru": "Абу Курайб и Абу Са‘ид аль-Ашадж передали мне; они сказали: ‘Абдуллах ибн Идрис передал нам от своего отца Идриса ибн ‘Абдуллаха аль-Авди, который сказал:",
-              "tr": "Ebu Kurayb ve Ebu Sa‘id el-Eşecc bana rivayet etti; dediler ki: Abdullah ibn İdris bize, babası İdris ibn Abdullah el-Avdî’den rivayet etti; o da şöyle dedi:",
-              "ur": "ابو کُریب اور ابو سعید الاشج نے مجھ سے روایت کی؛ انہوں نے کہا: عبد اللہ بن ادریس نے ہم سے اپنے والد ادریس بن عبد اللہ الاودی سے روایت کی، انہوں نے کہا:",
-              "zh": "阿布库赖卜和阿布赛义德·阿什贾吉向我传述；他们说：阿卜杜拉·本·伊德里斯向我们传述自其父伊德里斯·本·阿卜杜拉·阿乌迪，他说："
-            },
             "word_end": 20,
             "word_start": 0
           },
           {
             "arabic_text": "لَمَّا قُتِلَ الْحُسَيْنُ (عَلَيْهِ السَّلَامُ) أَرَادَ الْقَوْمُ أَنْ يُوطِئُوهُ الْخَيْلَ، فَقَالَتْ فِضَّةُ لِزَيْنَبَ: يَا سَيِّدَتِي، إِنَّ سَفِينَةَ كُسِرَ بِهِ فِي الْبَحْرِ، فَخَرَجَ إِلَى جَزِيرَةٍ، فَإِذَا هُوَ بِأَسَدٍ، فَقَالَ: يَا أَبَا الْحَارِثِ، أَنَا مَوْلَى رَسُولِ اللَّهِ (صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ)، فَهَمْهَمَ بَيْنَ يَدَيْهِ حَتَّى وَقَفَهُ عَلَى الطَّرِيقِ، وَالْأَسَدُ رَابِضٌ فِي نَاحِيَةٍ، فَدَعِينِي أَمْضِي إِلَيْهِ وَأُعْلِمُهُ مَا هُمْ صَانِعُونَ غَدًا.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যখন আল-হুসাইন (عليه السلام)কে হত্যা করা হলো, লোকেরা চেয়েছিল ঘোড়াগুলো দিয়ে তাঁকে পদদলিত করাতে। ফিদ্দাহ জয়নাবকে বলল, ‘আমার সয়্যিদা, সাফীনা একবার সমুদ্রে জাহাজডুবির শিকার হয়েছিল এবং একটি দ্বীপে বেরিয়ে এসেছিল, সেখানে তার মুখোমুখি হয় একটি সিংহের। সে বলল, “হে আবু আল-হারিস, আমি রাসূলুল্লাহর (صلى الله عليه وآله) মাওলা।” তখন সিংহটি তার সামনে গর্জন করল, যতক্ষণ না তাকে পথের ওপর দাঁড় করিয়ে দিল; আর সিংহটি এক পাশে কুঁকড়ে রইল। অতএব আমাকে যেতে দিন, আমি তার কাছে গিয়ে তাদের আগামীকাল কী করতে যাচ্ছে তা তাকে জানাব।’",
-              "de": "Als al-Husayn (عليه السلام) getötet wurde, wollten die Leute, dass die Pferde ihn zertrampelten. Fiddah sagte zu Zaynab: „Meine Herrin, Safinah erlitt einst Schiffbruch auf dem Meer und gelangte auf eine Insel, wo er einem Löwen begegnete. Er sagte: ‚O Abu al-Harith, ich bin der mawla des Gesandten Allahs (صلى الله عليه وآله).‘ Da knurrte der Löwe vor ihm, bis er ihn auf den Weg brachte, während der Löwe seitlich geduckt blieb. So lass mich zu ihm gehen und ihn darüber informieren, was sie morgen tun werden.“",
-              "en": "When al-Husayn (عليه السلام) was killed, the people wanted to have horses trample him. Fiddah said to Zaynab, ‘My lady, Safinah had once been shipwrecked at sea and came out to an island, where he encountered a lion. He said, “O Abu al-Harith, I am the mawla of the Messenger of Allah (صلى الله عليه وآله).” So it growled before him until it stationed him upon the road, while the lion remained crouching to one side. So let me go to it and inform it of what they are going to do tomorrow.’",
-              "es": "Cuando al-Husayn (عليه السلام) fue asesinado, la gente quiso hacer que los caballos lo pisotearan. Fiddah dijo a Zaynab: ‘Mi señora, Safinah una vez naufragó en el mar y salió a una isla, donde se encontró con un león. Dijo: “Oh Abu al-Harith, yo soy el mawla del Mensajero de Allah (صلى الله عليه وآله).” Entonces el león gruñó ante él hasta colocarlo en el camino, mientras el león permanecía agazapado a un lado. Así que déjame ir a él y decirle lo que van a hacer mañana.’",
-              "fa": "هنگامی که حسین (علیه السلام) کشته شد، مردم خواستند که اسب‌ها او را لگدمال کنند. فِضّه به زینب گفت: «ای بانوی من، سفینه روزی در دریا دچار شکستن کشتی شد و به جزیره‌ای بیرون آمد، آنجا با شیری روبه‌رو شد. گفت: “ای ابوالحارث، من مولای رسول خدا (صلى الله عليه وآله) هستم.” پس آن شیر در برابر او غرید تا او را بر راه بازداشت، در حالی که شیر در یک سو چمباتمه زده بود. پس بگذار نزد او بروم و او را از آنچه فردا خواهند کرد آگاه سازم.»",
-              "fr": "Lorsque al-Husayn (عليه السلام) fut tué, les gens voulurent faire piétiner son corps par les chevaux. Fiddah dit à Zaynab : « Ma dame, Safinah avait autrefois fait naufrage en mer et était parvenu à une île, où il rencontra un lion. Il dit : “Ô Abu al-Harith, je suis le mawla du Messager d’Allah (صلى الله عليه وآله).” Alors le lion gronda devant lui jusqu’à le placer sur la route, tandis que le lion restait tapi sur le côté. Laisse-moi donc aller vers lui et l’informer de ce qu’ils vont faire demain. »",
-              "id": "Ketika al-Husayn (عليه السلام) dibunuh, orang-orang ingin agar kuda-kuda menginjak-injaknya. Fiddah berkata kepada Zaynab, ‘Wahai tuanku, Safinah pernah mengalami kapal karam di laut dan keluar ke sebuah pulau, lalu ia bertemu dengan seekor singa. Ia berkata, “Wahai Abu al-Harith, aku adalah mawla Rasul Allah (صلى الله عليه وآله).” Maka singa itu menggeram di hadapannya hingga menempatkannya di jalan, sementara singa itu tetap meringkuk di satu sisi. Maka izinkan aku pergi kepadanya dan memberitahunya apa yang akan mereka lakukan besok.’",
-              "ru": "Когда аль-Хусейн (عليه السلام) был убит, люди захотели, чтобы кони растоптали его. Фидда сказала Зайнаб: «Моя госпожа, Сафина однажды потерпел кораблекрушение в море и вышел на остров, где встретил льва. Он сказал: “О Абу аль-Харис, я — маула Посланника Аллаха (صلى الله عليه وآله).” Тогда лев зарычал перед ним, пока не поставил его на дорогу, а сам лев оставался припавшим в стороне. Так позволь мне пойти к нему и сообщить ему, что они собираются сделать завтра».",
-              "tr": "el-Hüseyin (aleyhisselam) öldürüldüğünde, insanlar atların onu çiğnemesini istediler. Fıdda Zeyneb’e dedi ki: ‘Ey hanımım, Safîne bir zamanlar denizde gemi kazası geçirmiş ve bir adaya çıkmıştı; orada bir aslanla karşılaştı. “Ey Ebu’l-Hâris, ben Allah Resulü’nün (sallallahu aleyhi ve âlihi) mevlasıyım” dedi. Bunun üzerine aslan onun önünde homurdandı, onu yol üzerinde durduruncaya kadar; aslan ise bir yana çökmüş halde kaldı. Öyleyse bana izin ver de ona gideyim ve yarın ne yapacaklarını ona haber vereyim.’",
-              "ur": "جب الحسین (علیہ السلام) کو قتل کیا گیا تو لوگوں نے چاہا کہ گھوڑوں سے ان کے جسم کو روندوا دیں۔ فِضّہ نے زینب سے کہا: ‘میری سیدہ، سفینہ ایک بار سمندر میں جہاز کے حادثے کا شکار ہوا اور ایک جزیرے پر نکل آیا، جہاں اس کا سامنا ایک شیر سے ہوا۔ اس نے کہا: “اے ابو الحارث، میں رسول اللہ (صلى الله عليه وآله) کا مولا ہوں۔” تو وہ اس کے سامنے غرایا یہاں تک کہ اس نے اسے راستے پر روک دیا، جبکہ شیر ایک طرف دبکا رہا۔ پس مجھے اجازت دیں کہ میں اس کے پاس جاؤں اور اسے بتاؤں کہ وہ کل کیا کرنے والے ہیں۔’",
-              "zh": "当侯赛因（عليهالسلام）被杀后，人们想让马去践踏他。菲达对宰娜卜说：“我的主母，萨菲奈曾在海上遭遇船难，来到一座岛上，在那里遇见了一头狮子。他说：‘啊阿布·哈里斯，我是安拉的使者（صلىاللهعليهوآله）的门人。’于是狮子在他面前低吼，直到把他引到路上，而狮子则蹲伏在一旁。请让我去见它，并告诉它他们明天要做什么。”"
-            },
             "word_end": 78,
             "word_start": 20
           },
           {
             "arabic_text": "قَالَ: فَمَضَتْ إِلَيْهِ فَقَالَتْ: يَا أَبَا الْحَارِثِ. فَرَفَعَ رَأْسَهُ، ثُمَّ قَالَتْ: أَتَدْرِي مَا يُرِيدُونَ أَنْ يَعْمَلُوا غَدًا بِأَبِي عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ)؟ يُرِيدُونَ أَنْ يُوطِئُوا الْخَيْلَ ظَهْرَهُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: তখন সে তার কাছে গেল এবং বলল, ‘হে আবু আল-হারিস।’ সে মাথা তুলল। তারপর সে বলল, ‘তুমি কি জানো, তারা আগামীকাল আবু আবদুল্লাহ (عليه السلام)-এর সঙ্গে কী করতে চায়? তারা চায় ঘোড়াগুলো তাঁর পিঠ পদদলিত করুক।’",
-              "de": "Er sagte: Da ging sie zu ihm und sagte: „O Abu al-Harith.“ Er hob den Kopf. Dann sagte sie: „Weißt du, was sie morgen mit Abu ‘Abd Allah (عليه السلام) vorhaben? Sie wollen, dass die Pferde seinen Rücken zertrampeln.“",
-              "en": "He said: So she went to it and said, ‘O Abu al-Harith.’ It raised its head. Then she said, ‘Do you know what they intend to do tomorrow to Abu ‘Abd Allah (عليه السلام)? They intend to have horses trample his back.’",
-              "es": "Dijo: Entonces fue hacia él y dijo: ‘Oh Abu al-Harith.’ Él levantó la cabeza. Luego dijo: ‘¿Sabes lo que quieren hacer mañana con Abu ‘Abd Allah (عليه السلام)? Quieren que los caballos pisoteen su espalda.’",
-              "fa": "گفت: پس نزد او رفت و گفت: «ای ابوالحارث.» او سرش را بلند کرد. سپس گفت: «آیا می‌دانی که می‌خواهند فردا با ابوعبدالله (عليه السلام) چه کنند؟ می‌خواهند اسب‌ها پشت او را لگدمال کنند.»",
-              "fr": "Il dit : Alors elle alla vers lui et dit : « Ô Abu al-Harith. » Il leva la tête. Puis elle dit : « Sais-tu ce qu’ils veulent faire demain à Abu ‘Abd Allah (عليه السلام) ? Ils veulent faire piétiner son dos par les chevaux. »",
-              "id": "Ia berkata: Maka ia pergi kepadanya dan berkata, ‘Wahai Abu al-Harith.’ Ia mengangkat kepalanya. Lalu ia berkata, ‘Apakah engkau tahu apa yang mereka hendak lakukan besok terhadap Abu ‘Abd Allah (عليه السلام)? Mereka hendak membuat kuda-kuda menginjak punggungnya.’",
-              "ru": "Он сказал: Тогда она пошла к нему и сказала: «О Абу аль-Харис». Он поднял голову. Затем она сказала: «Знаешь ли ты, что они хотят сделать завтра с Абу ‘Абдуллахом (عليه السلام)? Они хотят, чтобы кони растоптали его спину».",
-              "tr": "Dedi ki: Bunun üzerine ona gitti ve ‘Ey Ebu’l-Hâris’ dedi. O başını kaldırdı. Sonra dedi ki: ‘Yarın Ebu Abdullah’a (عليه السلام) ne yapmak istediklerini biliyor musun? Atların onun sırtını çiğnemesini istiyorlar.’",
-              "ur": "اس نے کہا: پھر وہ اس کے پاس گئی اور کہا: ‘اے ابو الحارث۔’ اس نے اپنا سر اٹھایا۔ پھر اس نے کہا: ‘کیا تم جانتے ہو کہ وہ کل ابو عبد اللہ (عليه السلام) کے ساتھ کیا کرنا چاہتے ہیں؟ وہ چاہتے ہیں کہ گھوڑے ان کی پیٹھ کو روندیں۔’",
-              "zh": "他说：于是她走到它那里，说：“啊阿布·哈里斯。”它抬起了头。然后她说：“你知道他们明天想对阿布·阿卜杜拉（عليهالسلام）做什么吗？他们想让马践踏他的背。”"
-            },
             "word_end": 105,
             "word_start": 78
           },
           {
             "arabic_text": "قَالَ: فَمَشَى حَتَّى وَضَعَ يَدَيْهِ عَلَى جَسَدِ الْحُسَيْنِ (عَلَيْهِ السَّلَامُ)، فَأَقْبَلَتِ الْخَيْلُ، فَلَمَّا نَظَرُوا إِلَيْهِ قَالَ لَهُمْ عُمَرُ بْنُ سَعْدٍ لَعَنَهُ اللَّهُ: فِتْنَةٌ لَا تُثِيرُوهَا، انْصَرِفُوا. فَانْصَرَفُوا.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তিনি বললেন: তখন সে হেঁটে এসে তার সামনের দুই পা আল-হুসাইন (عليه السلام)-এর দেহের ওপর রাখল। এরপর ঘোড়াগুলো এগিয়ে এলো, কিন্তু তাকে দেখে ‘উমর ইবন সা‘দ, আল্লাহ তাকে লানত করুন, তাদের বলল: ‘এটি একটি ফিতনা; এটিকে উসকে দিও না। ফিরে যাও।’ ফলে তারা ফিরে গেল।",
-              "de": "Er sagte: Da ging er, bis er seine Vorderbeine auf den Körper von al-Husayn (عليه السلام) legte. Dann näherten sich die Pferde, doch als sie ihn sahen, sagte ‘Umar ibn Sa‘d, den Allah verfluche, zu ihnen: „Das ist eine Unruhe; entfacht sie nicht. Kehrt um.“ Da kehrten sie um.",
-              "en": "He said: So it walked until it placed its forelegs upon the body of al-Husayn (عليه السلام). Then the horses approached, but when they saw it, ‘Umar ibn Sa‘d, may Allah curse him, said to them: ‘It is a disturbance; do not stir it up. Turn back.’ So they turned back.",
-              "es": "Dijo: Entonces caminó hasta que puso sus patas delanteras sobre el cuerpo de al-Husayn (عليه السلام). Luego se acercaron los caballos, pero cuando lo vieron, ‘Umar ibn Sa‘d, que Allah lo maldiga, les dijo: ‘Es una perturbación; no la provoquen. Regresen.’ Entonces regresaron.",
-              "fa": "گفت: پس راه رفت تا آنکه دو دست خود را بر بدن حسین (عليه السلام) نهاد. سپس اسب‌ها نزدیک شدند، اما چون او را دیدند، عمر بن سعد، خدا او را لعنت کند، به آنان گفت: «این فتنه‌ای است، آن را برنینگیزید. بازگردید.» پس بازگشتند.",
-              "fr": "Il dit : Alors il marcha jusqu’à poser ses pattes de devant sur le corps d’al-Husayn (عليه السلام). Puis les chevaux s’approchèrent, mais lorsqu’ils le virent, ‘Umar ibn Sa‘d, qu’Allah le maudisse, leur dit : « C’est une agitation ; ne la provoquez pas. Retournez. » Alors ils repartirent.",
-              "id": "Ia berkata: Maka ia berjalan hingga meletakkan kedua kaki depannya di atas tubuh al-Husayn (عليه السلام). Lalu kuda-kuda mendekat, tetapi ketika mereka melihatnya, ‘Umar ibn Sa‘d, semoga Allah melaknatnya, berkata kepada mereka: ‘Ini adalah fitnah; jangan kalian bangkitkan. Kembalilah.’ Maka mereka pun kembali.",
-              "ru": "Он сказал: Тогда он подошёл и положил свои передние лапы на тело аль-Хусейна (عليه السلام). Затем приблизились кони, но когда они увидели его, ‘Умар ибн Са‘д, да проклянёт его Аллах, сказал им: «Это смута; не поднимайте её. Возвращайтесь». И они вернулись.",
-              "tr": "Dedi ki: Bunun üzerine yürüdü ve ön ayaklarını el-Hüseyin’in (عليه السلام) bedeninin üzerine koydu. Sonra atlar yaklaştı; fakat onu görünce, Allah ona lanet etsin, Ömer ibn Sa‘d onlara dedi ki: ‘Bu bir fitnedir; onu kışkırtmayın. Geri dönün.’ Bunun üzerine geri döndüler.",
-              "ur": "اس نے کہا: پھر وہ چلتا ہوا آیا یہاں تک کہ اس نے اپنے اگلے پاؤں الحسین (عليه السلام) کے جسم پر رکھ دیے۔ پھر گھوڑے قریب آئے، لیکن جب انہوں نے اسے دیکھا تو عمر بن سعد، اللہ اس پر لعنت کرے، نے ان سے کہا: ‘یہ ایک فتنہ ہے، اسے نہ چھیڑو۔ واپس چلے جاؤ۔’ چنانچہ وہ واپس چلے گئے۔",
-              "zh": "他说：于是它走上前，把前腿放在侯赛因（عليهالسلام）的身体上。随后马匹靠近，但当它们看见它时，欧麦尔·本·萨阿德，愿真主诅咒他，对它们说：“这是骚乱；不要挑起它。回去吧。”于是它们就回去了。"
-            },
             "word_end": 132,
             "word_start": 105
           }
@@ -122,28 +83,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبَا الْحَارِثِ": "A kunyah used here to address the lion",
-            "أَسَدٍ": "A lion, presented here as intervening at the body of al-Husayn (عليه السلام)",
-            "الْحُسَيْنُ": "Imam al-Husayn (عليه السلام), the martyred grandson of the Messenger of Allah (صلى الله عليه وآله وسلم)",
-            "جَسَدِ الْحُسَيْنِ": "The body of al-Husayn (عليه السلام) after his martyrdom",
-            "زَيْنَبَ": "Zaynab, the noble lady addressed in the report",
-            "فِتْنَةٌ": "A disturbance or turmoil to be avoided",
-            "فِضَّةُ": "Fiddah, the attendant associated with the household of Ahl al-Bayt",
-            "مَوْلَى": "A devoted servant or affiliated client; here, one belonging to the Messenger of Allah (صلى الله عليه وآله وسلم)"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْحُسَيْنُ",
+          "فِضَّةُ",
+          "زَيْنَبَ",
+          "أَسَدٍ",
+          "أَبَا الْحَارِثِ",
+          "مَوْلَى",
+          "جَسَدِ الْحُسَيْنِ",
+          "فِتْنَةٌ"
+        ],
         "related_quran": [
           {
             "ref": "3:169",
@@ -158,32 +107,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই বর্ণনা অনুযায়ী কারবালার পর আল-হুসাইন (عليه السلام)-এর দেহ কীভাবে সুরক্ষিত হয়েছিল?",
-          "de": "Wie wurde nach diesem Bericht der Körper von al-Husayn (عليه السلام) nach Karbala geschützt?",
-          "en": "How was the body of al-Husayn (عليه السلام) protected after Karbala according to this narration?",
-          "es": "Según este relato, ¿cómo fue protegido el cuerpo de al-Husayn (عليه السلام) después de Karbala?",
-          "fa": "بر اساس این روایت، پیکر حسین (عليه السلام) پس از کربلا چگونه محافظت شد؟",
-          "fr": "Selon ce récit, comment le corps d’al-Husayn (عليه السلام) a-t-il été protégé après Karbala ?",
-          "id": "Menurut riwayat ini, bagaimana jasad al-Husayn (عليه السلام) dilindungi setelah Karbala?",
-          "ru": "Согласно этому преданию, как было защищено тело аль-Хусейна (عليه السلام) после Кербелы?",
-          "tr": "Bu rivayete göre Kerbela’dan sonra el-Hüseyin’in (عليه السلام) bedeni nasıl korundu?",
-          "ur": "اس روایت کے مطابق کربلا کے بعد امام الحسین (عليه السلام) کے جسم کی حفاظت کیسے کی گئی؟",
-          "zh": "根据这段传述，卡尔巴拉之后侯赛因（عليهالسلام）的遗体是如何得到保护的？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনাটি আল-হুসাইন (عليه السلام)-এর শাহাদাতের পরের একটি ঘটনা বর্ণনা করে, যখন একটি সিংহের হস্তক্ষেপে তাঁর দেহ অবমাননার চেষ্টা ব্যর্থ হয়। এটি আল-হুসাইন (عليه السلام)-এর পবিত্রতা ও মর্যাদাকে তুলে ধরে এবং শিয়া ঐতিহ্যে কারবালার মর্মান্তিক ঘটনার সঙ্গে সংশ্লিষ্ট অসাধারণ নিদর্শনগুলিকে প্রতিফলিত করে।",
-          "de": "Dieser Bericht schildert ein Ereignis nach dem Martyrium von al-Husayn (عليه السلام), als ein Versuch, seinen Körper zu entehren, durch das Eingreifen eines Löwen vereitelt wurde. Er hebt die Heiligkeit und Ehre von al-Husayn (عليه السلام) hervor und spiegelt die außergewöhnlichen Zeichen wider, die in der schiitischen Tradition mit der Tragödie von Karbala verbunden sind.",
-          "en": "This report narrates an event after the martyrdom of al-Husayn (عليه السلام), when an attempt to desecrate his body was thwarted through the intervention of a lion. It highlights the sanctity and honor of al-Husayn (عليه السلام) and reflects the extraordinary signs associated with the tragedy of Karbala in Shia tradition.",
-          "es": "Este relato narra un acontecimiento posterior al martirio de al-Husayn (عليه السلام), cuando un intento de profanar su cuerpo fue frustrado por la intervención de un león. Destaca la santidad y el honor de al-Husayn (عليه السلام) y refleja las señales extraordinarias asociadas con la tragedia de Karbala en la tradición chií.",
-          "fa": "این گزارش رویدادی را پس از شهادت حسین (عليه السلام) روایت می‌کند، هنگامی که تلاش برای هتک حرمت پیکر او با دخالت یک شیر ناکام ماند. این روایت بر قداست و حرمت حسین (عليه السلام) تأکید دارد و نشانه‌های خارق‌العاده مرتبط با مصیبت کربلا را در سنت شیعی بازتاب می‌دهد.",
-          "fr": "Ce récit rapporte un événement survenu après le martyre d’al-Husayn (عليه السلام), lorsqu’une tentative de profaner son corps fut déjouée par l’intervention d’un lion. Il met en lumière la sainteté et l’honneur d’al-Husayn (عليه السلام) et reflète les signes extraordinaires associés à la tragédie de Karbala dans la tradition chiite.",
-          "id": "Riwayat ini menceritakan sebuah peristiwa setelah kesyahidan al-Husayn (عليه السلام), ketika upaya untuk menodai jasadnya digagalkan melalui campur tangan seekor singa. Ini menegaskan kesucian dan kehormatan al-Husayn (عليه السلام) serta mencerminkan tanda-tanda luar biasa yang terkait dengan tragedi Karbala dalam tradisi Syiah.",
-          "ru": "Этот рассказ повествует о событии после мученической гибели аль-Хусейна (عليه السلام), когда попытка надругаться над его телом была сорвана вмешательством льва. Он подчёркивает святость и честь аль-Хусейна (عليه السلام) и отражает необычайные знамения, связанные с трагедией Кербелы в шиитской традиции.",
-          "tr": "Bu rivayet, el-Hüseyin’in (عليه السلام) şehadetinden sonra meydana gelen bir olayı anlatır; bir aslanın müdahalesiyle onun bedenine saygısızlık etme girişimi engellenmiştir. Bu, el-Hüseyin’in (عليه السلام) kutsiyetini ve şerefini vurgular ve Şii gelenekte Kerbela faciasıyla bağlantılı olağanüstü alametleri yansıtır.",
-          "ur": "یہ روایت امام الحسین (عليه السلام) کی شہادت کے بعد پیش آنے والے ایک واقعے کو بیان کرتی ہے، جب ایک شیر کی مداخلت سے ان کے جسد کی بے حرمتی کی کوشش ناکام بنا دی گئی۔ یہ امام الحسین (عليه السلام) کی حرمت و عظمت کو ظاہر کرتی ہے اور کربلا کے المیے سے وابستہ غیر معمولی نشانیوں کی عکاسی کرتی ہے، جو شیعہ روایت میں مذکور ہیں۔",
-          "zh": "这段传述讲述了侯赛因（عليهالسلام）殉难后发生的一件事：有人企图践踏并亵渎他的遗体，但被一头狮子的介入所阻止。它凸显了侯赛因（عليهالسلام）的神圣与尊荣，并反映了什叶派传统中与卡尔巴拉悲剧相关的非凡迹象。"
-        },
         "tags": [
           "history",
           "family",

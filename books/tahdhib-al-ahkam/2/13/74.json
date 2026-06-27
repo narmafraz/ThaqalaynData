@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلْحَسَنُ بْنُ مَحْبُوبٍ عَنْ عَلِيِّ بْنِ رِئَابٍ عَنْ زُرَارَةَ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হাসান ইবন মাহবুব, ‘আলি ইবন রি‘আব থেকে, জুরারাহ থেকে, তিনি বলেন:",
-              "de": "Al-Hasan ibn Mahbub, von 'Ali ibn Ri'ab, von Zurarah, der sagte:",
-              "en": "Al-Hasan ibn Mahbub, from 'Ali ibn Ri'ab, from Zurarah, who said:",
-              "es": "Al-Hasan ibn Mahbub, de 'Ali ibn Ri'ab, de Zurarah, quien dijo:",
-              "fa": "الحسن بن محبوب، از علی بن ریاب، از زراره، که گفت:",
-              "fr": "Al-Hasan ibn Mahbub, d'‘Ali ibn Ri'ab, de Zurarah, qui a dit :",
-              "id": "Al-Hasan ibn Mahbub, dari 'Ali ibn Ri'ab, dari Zurarah, yang berkata:",
-              "ru": "Аль-Хасан ибн Махбуб, от 'Али ибн Ри'аб, от Зурары, который сказал:",
-              "tr": "El-Hasan ibn Mahbub, Ali ibn Ri'ab'dan, Zurarah'dan, dedi ki:",
-              "ur": "الحسن بن محبوب، عن علی بن ریاب، عن زرارہ، انہوں نے کہا:",
-              "zh": "阿勒哈桑·伊本·马赫布卜，传自‘阿里·伊本·里亚布，传自祖拉拉，他说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "قُلْتُ لِأَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ بَيْنَ الظُّهْرِ وَالْعَصْرِ حَدٌّ مَعْرُوفٌ فَقَالَ: «لَا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবী জাফর عليه السلام-কে বললাম: “আল-যুহর ও আল-‘আসর-এর মধ্যে কি কোনো পরিচিত সীমা আছে?” তিনি বললেন: “না।”",
-              "de": "Ich sagte zu Abī Ja‘far عليه السلام: „Gibt es eine bekannte Grenze zwischen al-zuhr und al-'asr?“ Er sagte: „Nein.“",
-              "en": "I said to Abī Ja‘far عليه السلام: “Is there a known limit between al-zuhr and al-'asr?” He said: “No.”",
-              "es": "Le dije a Abī Ja‘far عليه السلام: “¿Hay un límite conocido entre al-zuhr y al-'asr?” Dijo: “No.”",
-              "fa": "به ابی جعفر علیه السلام گفتم: «آیا میان الظهر و العصر حدّی شناخته‌شده وجود دارد؟» فرمود: «نه.»",
-              "fr": "Je dis à Abī Ja‘far عليه السلام : « Y a-t-il une limite connue entre al-zuhr et al-'asr ? » Il dit : « Non. »",
-              "id": "Aku berkata kepada Abī Ja‘far عليه السلام: “Apakah ada batas yang diketahui antara al-zuhr dan al-'asr?” Beliau bersabda: “Tidak.”",
-              "ru": "Я сказал Аби Джафару عليه السلام: «Есть ли известная граница между аз-зуhr и аль-‘аср?» Он сказал: «Нет.»",
-              "tr": "Ben Ebî Ca‘fer عليه السلام’a dedim ki: “al-zuhr ile al-'asr arasında bilinen bir sınır var mı?” Buyurdu ki: “Hayır.”",
-              "ur": "میں نے ابی جعفر علیہ السلام سے کہا: “کیا الظہر اور العصر کے درمیان کوئی معروف حد ہے؟” انہوں نے فرمایا: “نہیں۔”",
-              "zh": "我对阿比·贾法尔 عليه السلام说：“晌礼和晡礼之间有一个已知的界限吗？”他说：“没有。”"
-            },
             "word_end": 22,
             "word_start": 10
           }
@@ -100,26 +87,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبِي جَعْفَرٍ": "Abī Ja‘far, the Imam addressed in the narration",
-            "الظُّهْرِ": "the noon prayer",
-            "الْعَصْرِ": "the afternoon prayer",
-            "حَدٌّ": "a limit or defined boundary",
-            "لَا": "a negation meaning there is no such fixed boundary",
-            "مَعْرُوفٌ": "known or specifically determined"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَبِي جَعْفَرٍ",
+          "الظُّهْرِ",
+          "الْعَصْرِ",
+          "حَدٌّ",
+          "مَعْرُوفٌ",
+          "لَا"
+        ],
         "related_quran": [
           {
             "ref": "17:78",
@@ -130,32 +105,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-বাকির عليه السلام-এর মতে আল-যুহর ও আল-‘আসর-এর সময়ের মধ্যে কি কোনো নির্দিষ্ট পরিচিত সীমা আছে?",
-          "de": "Gibt es nach Imam al-Baqir عليه السلام eine feste, bekannte Grenze zwischen den Zeiten von al-zuhr und al-'asr?",
-          "en": "Is there a fixed known boundary between the times of al-zuhr and al-'asr according to Imam al-Baqir عليه السلام?",
-          "es": "¿Hay, según el Imam al-Baqir عليه السلام, un límite fijo y conocido entre los tiempos de al-zuhr y al-'asr?",
-          "fa": "آیا بر اساس سخن امام باقر علیه السلام میان وقت‌های الظهر و العصر حدّی ثابت و شناخته‌شده وجود دارد؟",
-          "fr": "Selon l’imam al-Baqir عليه السلام, existe-t-il une limite fixe et connue entre les temps de al-zuhr et de al-'asr ?",
-          "id": "Apakah menurut Imam al-Baqir عليه السلام ada batas tetap yang diketahui antara waktu al-zuhr dan al-'asr?",
-          "ru": "Есть ли, согласно Имаму аль-Бакиру عليه السلام, установленная известная граница между временем аз-зуhr и аль-‘аср?",
-          "tr": "İmam el-Bâkır عليه السلام’a göre al-zuhr ile al-'asr vakitleri arasında sabit ve bilinen bir sınır var mıdır?",
-          "ur": "کیا امام الباقر علیہ السلام کے مطابق الظہر اور العصر کے اوقات کے درمیان کوئی مقررہ معروف حد ہے؟",
-          "zh": "根据伊玛目巴基尔 عليه السلام的说法，晌礼和晡礼的时间之间有固定且已知的界限吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি নির্দেশ করে যে আল-যুহর ও আল-‘আসর-এর সময়ের মধ্যে প্রশ্নকারীর জিজ্ঞাসিত অর্থে কোনো নির্দিষ্ট পরিচিত সীমা নেই। এটি সালাতের সময়সমূহ এবং ফরজ সালাত আদায়ের ফিকহি বোঝাপড়ার সঙ্গে সম্পর্কিত।",
-          "de": "Dieser Hadith zeigt, dass es zwischen den Zeiten von al-zuhr und al-'asr keine feste, bekannte Grenze gibt, wie sie vom Fragenden gemeint war. Er betrifft das rechtliche Verständnis der Gebetszeiten und die Verrichtung der verpflichtenden salat.",
-          "en": "This hadith indicates that there is no fixed known boundary separating the time of al-zuhr and al-'asr in the manner asked by the questioner. It relates to the legal understanding of prayer times and the performance of the obligatory salat.",
-          "es": "Este hadiz indica que no hay un límite fijo y conocido que separe el tiempo de al-zuhr y el de al-'asr en el sentido planteado por el preguntante. Se relaciona con la comprensión jurídica de los tiempos de la oración y la realización de la salat obligatoria.",
-          "fa": "این حدیث نشان می‌دهد که میان وقت‌های الظهر و العصر، آن‌گونه که پرسش‌کننده مطرح کرده، حدّ ثابت و شناخته‌شده‌ای وجود ندارد. این روایت به فهم فقهیِ اوقات نماز و ادای salat واجب مربوط است.",
-          "fr": "Ce hadith indique qu’il n’existe pas de limite fixe et connue séparant le temps de al-zuhr et celui de al-'asr dans le sens demandé par l’interrogateur. Il concerne la compréhension juridique des temps de la prière et l’accomplissement de la salat obligatoire.",
-          "id": "Hadis ini menunjukkan bahwa tidak ada batas tetap yang diketahui antara waktu al-zuhr dan al-'asr sebagaimana yang ditanyakan oleh penanya. Ini berkaitan dengan pemahaman hukum tentang waktu-waktu salat dan pelaksanaan salat wajib.",
-          "ru": "Этот хадис указывает, что между временем аз-зуhr и аль-‘аср нет установленной известной границы в том смысле, как это было задано спрашивающим. Это относится к правовому пониманию времен молитвы и совершения обязательной салат.",
-          "tr": "Bu hadis, al-zuhr ile al-'asr vakitleri arasında soruyu soranın sorduğu şekilde sabit ve bilinen bir sınır olmadığını gösterir. Bu, namaz vakitlerinin fıkhî anlaşılması ve farz salatın edasıyla ilgilidir.",
-          "ur": "یہ حدیث اس بات کی طرف اشارہ کرتی ہے کہ الظہر اور العصر کے اوقات کے درمیان کوئی ایسی مقررہ معروف حد نہیں جو سوال کرنے والے کے بیان کے مطابق ہو۔ یہ نماز کے اوقات اور فرضی نماز کی ادائیگی کے فقہی فہم سے متعلق ہے۔",
-          "zh": "这段圣训表明，正如提问者所问，晌礼和晡礼的时间之间并没有一个固定且已知的界限。这涉及对礼拜时间以及履行主命礼拜的教法理解。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنِ ابْنِ أَبِي نَصْرٍ عَنْ جَمِيلِ بْنِ دَرَّاجٍ عَنْ زُرَارَةَ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন মুহাম্মদ, ইবন আবি নাসর থেকে, জামীল ইবন দাররাজ থেকে, জুরারাহ থেকে, আবু জাফর عليه السلام থেকে বর্ণিত, তিনি বলেছেন:",
-              "de": "Aḥmad ibn Muḥammad, von Ibn Abī Naṣr, von Jamīl ibn Darrāj, von Zurārah, von Abī Jaʿfar عليه السلام, der sagte:",
-              "en": "Aḥmad ibn Muḥammad, from Ibn Abī Naṣr, from Jamīl ibn Darrāj, from Zurārah, from Abī Jaʿfar عليه السلام, who said:",
-              "es": "Aḥmad ibn Muḥammad, de Ibn Abī Naṣr, de Jamīl ibn Darrāj, de Zurārah, de Abī Jaʿfar عليه السلام, quien dijo:",
-              "fa": "احمد بن محمد، از ابن ابی نصر، از جمیل بن درّاج، از زراره، از ابی جعفر علیه السلام، که فرمود:",
-              "fr": "Aḥmad ibn Muḥammad, d’Ibn Abī Naṣr, de Jamīl ibn Darrāj, de Zurārah, d’Abī Jaʿfar عليه السلام, qui a dit :",
-              "id": "Aḥmad ibn Muḥammad, dari Ibn Abī Naṣr, dari Jamīl ibn Darrāj, dari Zurārah, dari Abī Jaʿfar عليه السلام, yang berkata:",
-              "ru": "Ахмад ибн Мухаммад, от Ибн Аби Насра, от Джамиля ибн Дарраджа, от Зурары, от Аби Джафара عليه السلام, который сказал:",
-              "tr": "Ahmed ibn Muhammed, İbn Ebî Nasr’dan, Cemîl ibn Dırâc’dan, Zurâre’den, Ebû Ca‘fer عليه السلام’dan rivayet etti ki şöyle dedi:",
-              "ur": "احمد بن محمد، ابن ابی نصر سے، جمیل بن درّاج سے، زرارہ سے، ابو جعفر علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "AḥmadibnMuḥammad，传自IbnAbīNaṣr，传自JamīlibnDarrāj，传自Zurārah，传自AbīJaʿfar عليه السلام，他说："
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنْ رَجُلٍ صَلَّى خَمْسًا فَقَالَ: «إِنْ كَانَ جَلَسَ فِي الرَّابِعَةِ قَدْرَ التَّشَهُّدِ فَقَدْ تَمَّتْ صَلَاتُهُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁকে এমন এক ব্যক্তির সম্পর্কে জিজ্ঞেস করলাম, যে পাঁচ [রাকআত] সালাত আদায় করেছিল, তখন তিনি বললেন: “যদি সে চতুর্থ [রাকআত]-এ তাশাহহুদের পরিমাণ বসে থাকত, তবে তার salat (নামাজ) পূর্ণ হয়ে যেত।”",
-              "de": "Ich fragte ihn nach einem Mann, der fünf [Rakʿahs] gebetet hatte, und er sagte: „Wenn er in der vierten [Rakʿah] so lange gesessen hatte, wie es für das tashahhud erforderlich ist, dann ist sein salat (Gebet) vollständig.“",
-              "en": "I asked him about a man who prayed five [rakʿahs], and he said: “If he had sat in the fourth [rakʿah] for the measure of the tashahhud, then his salat (prayer) is complete.”",
-              "es": "Le pregunté acerca de un hombre que rezó cinco [rakʿahs], y dijo: “Si se había sentado en la cuarta [rakʿah] durante el tiempo suficiente para el tashahhud, entonces su salat (oración) está completa.”",
-              "fa": "از او درباره مردی پرسیدم که پنج [رکعت] نماز خوانده بود، پس فرمود: «اگر در رکعت چهارم به اندازه تشهد نشسته بود، نماز او کامل است.»",
-              "fr": "Je lui ai demandé au sujet d’un homme qui avait accompli cinq [rakʿahs], et il a dit : « S’il s’était assis dans la quatrième [rakʿah] pendant le temps nécessaire au tashahhud, alors sa salat (prière) est accomplie. »",
-              "id": "Aku bertanya kepadanya tentang seorang laki-laki yang salat lima [rakaat], lalu beliau bersabda: “Jika ia telah duduk pada rakaat keempat selama kadar tasyahhud, maka salat (shalat)nya telah sempurna.”",
-              "ru": "Я спросил его о человеке, который совершил пять [ракаатов], и он сказал: «Если бы он сидел в четвёртом [ракаате] столько, сколько требуется для ташаххуда, то его salat (молитва) завершён».",
-              "tr": "Ona beş [rekât] kılan bir adam hakkında sordum; şöyle buyurdu: “Eğer dördüncü [rekât]ta teşehhüd miktarınca oturmuşsa, salatı (namazı) tamam olmuştur.”",
-              "ur": "میں نے ان سے ایک ایسے شخص کے بارے میں پوچھا جس نے پانچ [رکعتیں] پڑھیں، تو انہوں نے فرمایا: “اگر وہ چوتھی [رکعت] میں تشہد کی مقدار بیٹھ چکا تھا، تو اس کی salat (نماز) مکمل ہو گئی۔”",
-              "zh": "我问他关于一个做了五[拜]的人，他说：“如果他在第四[拜]中坐了足以完成tashahhud的时间，那么他的salat（礼拜）就已经完成了。”"
-            },
             "word_end": 35,
             "word_start": 19
           },
           {
             "arabic_text": "فَلَيْسَ بِمُنَافٍ لِلْخَبَرِ الْأَوَّلِ لِأَنَّ مَنْ جَلَسَ فِي الرَّابِعَةِ ثُمَّ قَامَ وَصَلَّى رَكْعَةً لَمْ يُخِلَّ بِرُكْنٍ مِنْ أَرْكَانِ الصَّلَاةِ وَإِنَّمَا يَكُونُ أَخَلَّ بِالتَّسْلِيمِ وَالْإِخْلَالُ بِالتَّسْلِيمِ لَا يُوجِبُ إِعَادَةَ الصَّلَاةِ حَسَبَ مَا قَدَّمْنَاهُ وَمَتَى شَكَّ فِي الرَّابِعَةِ وَالْخَامِسَةِ بَنَى عَلَى الرَّابِعَةِ وَسَلَّمَ وَسَجَدَ سَجْدَتَيِ السَّهْوِ وَهُمَا الْمُرْغِمَتَانِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "অতএব এটি প্রথম বর্ণনার বিরোধী নয়, কারণ যে ব্যক্তি চতুর্থ [রাকআত]-এ বসে তারপর দাঁড়িয়ে এক রাকআত পড়ল, সে salat (নামাজ)-এর কোনো রুকন ত্যাগ করেনি; বরং সে কেবল taslim-এর ক্ষেত্রে ত্রুটি করেছে, আর taslim-এর ক্ষেত্রে ত্রুটি, আমরা পূর্বে যা উল্লেখ করেছি তার অনুযায়ী, salat (নামাজ) পুনরায় আদায় করা আবশ্যক করে না। আর যখনই সে চতুর্থ ও পঞ্চমের মধ্যে সন্দেহ করবে, তখন সে চতুর্থের ওপর ভিত্তি করবে, taslim দেবে, এবং সাহু-এর দুই সিজদা করবে; আর এ দু’টি শয়তানকে অপমানকারী।",
-              "de": "So steht dies nicht im Widerspruch zur ersten Überlieferung, denn wer in der vierten [Rakʿah] saß und dann aufstand und eine Rakʿah betete, hat keinen Pfeiler der Pfeiler des salat (Gebets) ausgelassen; vielmehr hat er nur beim taslim versagt, und ein Versäumnis beim taslim macht das Wiederholen des salat (Gebets) nicht erforderlich, gemäß dem, was wir zuvor dargelegt haben. Und wann immer er zwischen der vierten und der fünften zweifelt, baut er auf der vierten auf, gibt taslim und verrichtet die beiden sajdahs des Vergessens, und sie sind die beiden, die den Satan demütigen.",
-              "en": "So it is not contrary to the first report, because whoever sat in the fourth [rakʿah] and then stood and prayed one rakʿah did not omit any pillar from the pillars of the salat (prayer); rather, he only failed regarding the taslim, and failure regarding the taslim does not necessitate repeating the salat (prayer), according to what we have stated before. And whenever he doubts between the fourth and the fifth, he builds upon the fourth, gives taslim, and performs the two sajdahs of forgetfulness, and they are the two humiliators [of Shaytan].",
-              "es": "Así pues, esto no contradice el primer relato, porque quien se sentó en la cuarta [rakʿah] y luego se levantó y rezó una rakʿah no omitió ningún pilar de los pilares del salat (oración); más bien, solo falló respecto al taslim, y fallar respecto al taslim no obliga a repetir el salat (oración), según lo que hemos mencionado antes. Y siempre que dude entre la cuarta y la quinta, se basa en la cuarta, da taslim y realiza las dos sajdahs del olvido, y ambas son las dos que humillan a Satanás.",
-              "fa": "پس این با خبر نخست منافات ندارد، زیرا کسی که در رکعت چهارم نشست و سپس برخاست و یک رکعت خواند، هیچ رکن از ارکان نماز را ترک نکرده است؛ بلکه تنها در مورد تسلیم کوتاهی کرده است، و کوتاهی در تسلیم، بنا بر آنچه پیش‌تر بیان کردیم، موجب اعاده نماز نمی‌شود. و هرگاه میان رکعت چهارم و پنجم شک کند، بر رکعت چهارم بنا می‌گذارد، سلام می‌دهد، و دو سجده سهو به جا می‌آورد، و آن دو، خوارکننده‌های شیطان‌اند.",
-              "fr": "Ainsi, cela n’est pas contraire au premier récit, car celui qui s’est assis dans la quatrième [rakʿah] puis s’est levé et a prié une rakʿah n’a omis aucun pilier de la salat (prière) ; il n’a fait défaut que concernant le taslim, et le défaut concernant le taslim n’oblige pas à recommencer la salat (prière), selon ce que nous avons exposé précédemment. Et chaque fois qu’il doute entre la quatrième et la cinquième, il se fonde sur la quatrième, fait le taslim et accomplit les deux sajdahs de l’oubli, et ce sont les deux qui humilient Satan.",
-              "id": "Maka hal itu tidak bertentangan dengan riwayat pertama, karena siapa yang duduk pada rakaat keempat lalu berdiri dan salat satu rakaat, ia tidak meninggalkan satu pun rukun dari rukun-rukun salat (shalat); melainkan ia hanya kurang dalam hal taslim, dan kekurangan dalam taslim tidak mewajibkan mengulangi salat (shalat), sebagaimana telah kami jelaskan sebelumnya. Dan kapan pun ia ragu antara rakaat keempat dan kelima, ia membangun atas rakaat keempat, memberi taslim, dan melakukan dua sujud sahwi, dan keduanya adalah dua yang menghinakan setan.",
-              "ru": "И это не противоречит первому сообщению, потому что тот, кто сел в четвёртом [ракаате], а затем встал и совершил один ракаат, не оставил ни одного из столпов salat (молитвы); напротив, он лишь допустил упущение в отношении таслима, а упущение в отношении таслима не обязывает повторять salat (молитву), согласно тому, что мы уже изложили ранее. И всякий раз, когда он сомневается между четвёртым и пятым, он основывается на четвёртом, совершает таслим и делает два саджда ас-сахв, и они — два, унижающие шайтана.",
-              "tr": "Bu, ilk rivayete aykırı değildir; çünkü dördüncü [rekât]ta oturup sonra kalkarak bir rekât kılan kimse, salatın (namazın) rükünlerinden hiçbirini terk etmiş olmaz; bilakis yalnızca taslim konusunda eksik davranmış olur. Taslimdeki eksiklik ise, daha önce açıkladığımız üzere, salatı (namazı) yeniden kılmayı gerektirmez. Ve ne zaman dördüncü ile beşinci arasında şüphe ederse, dördüncü üzerine bina eder, taslim verir ve sehiv için iki secde yapar; bunlar da şeytanı aşağılayan iki secdedir.",
-              "ur": "پس یہ پہلی روایت کے خلاف نہیں، کیونکہ جس نے چوتھی [رکعت] میں بیٹھنے کے بعد پھر کھڑے ہو کر ایک رکعت پڑھی، اس نے salat (نماز) کے ارکان میں سے کسی رکن کو ترک نہیں کیا؛ بلکہ اس سے صرف taslim کے بارے میں خطا ہوئی، اور taslim میں خطا salat (نماز) کو دوبارہ پڑھنے کو لازم نہیں کرتی، جیسا کہ ہم پہلے بیان کر چکے ہیں۔ اور جب بھی اسے چوتھی اور پانچویں کے درمیان شک ہو، تو وہ چوتھی پر بنا کرے، taslim کہے، اور سہو کے دو سجدے کرے، اور وہ دونوں شیطان کو ذلیل کرنے والے ہیں۔",
-              "zh": "因此，这与第一则传述并不矛盾，因为谁若在第四[拜]坐下，然后起身又做了一拜，他并没有遗漏salat（礼拜）的任何一个支柱；他只是没有完成taslim，而在taslim上的缺失，并不وجب重新做salat（礼拜），正如我们先前所说明的。每当他在第四与第五之间犹豫时，他就按第四来定，作taslim，并做两次遗忘叩头，而这两次叩头是使恶魔受辱的。"
-            },
             "word_end": 81,
             "word_start": 35
           }
@@ -133,59 +107,21 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "التَّسْلِيمِ": "the closing salutation ending the prayer",
-            "التَّشَهُّدِ": "the prescribed testimony recited in the sitting of prayer",
-            "الرَّابِعَةِ": "the fourth rakʿah of the prayer",
-            "الْمُرْغِمَتَانِ": "a designation for the two sajdahs of forgetfulness, meaning the two acts that abase",
-            "تَمَّتْ صَلَاتُهُ": "his prayer is considered complete and valid",
-            "سَجْدَتَيِ السَّهْوِ": "the two prostrations performed for forgetfulness in prayer",
-            "صَلَّى خَمْسًا": "performed five rakʿahs in the prayer"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "صَلَّى خَمْسًا",
+          "الرَّابِعَةِ",
+          "التَّشَهُّدِ",
+          "تَمَّتْ صَلَاتُهُ",
+          "التَّسْلِيمِ",
+          "سَجْدَتَيِ السَّهْوِ",
+          "الْمُرْغِمَتَانِ"
+        ],
         "related_quran": [
           {
             "ref": "2:286",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কেউ salat (নামাজ)-এ পঞ্চম রাকআত পড়ে ফেলে বা চতুর্থ ও পঞ্চমের মধ্যে সন্দেহ করে, তবে কী বিধান?",
-          "de": "Was ist die Rechtsregel, wenn jemand im salat (Gebet) eine fünfte Rakʿah betet oder zwischen der vierten und der fünften zweifelt?",
-          "en": "What is the ruling if someone prays a fifth rakʿah or doubts between the fourth and fifth in salat (prayer)?",
-          "es": "¿Cuál es la norma si alguien reza una quinta rakʿah o duda entre la cuarta y la quinta en el salat (oración)?",
-          "fa": "اگر کسی در salat (نماز) رکعت پنجم را به جا آورد یا میان رکعت چهارم و پنجم شک کند، حکم چیست؟",
-          "fr": "Quelle est la règle si quelqu’un accomplit une cinquième rakʿah ou doute entre la quatrième et la cinquième dans la salat (prière) ?",
-          "id": "Apa hukum jika seseorang salat (shalat) rakaat kelima atau ragu antara rakaat keempat dan kelima?",
-          "ru": "Каково постановление, если кто-то совершит пятую ракаат в salat (молитве) или усомнится между четвёртым и пятым?",
-          "tr": "Bir kişi salatta (namazda) beşinci rekâtı kılarsa veya dördüncü ile beşinci arasında şüphe ederse hüküm nedir?",
-          "ur": "اگر کوئی شخص salat (نماز) میں پانچویں رکعت پڑھ لے یا چوتھی اور پانچویں کے درمیان شک کرے تو کیا حکم ہے؟",
-          "zh": "如果有人在salat（礼拜）中做了第五拜，或者在第四拜和第五拜之间犹豫，判定是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে সেই ব্যক্তির বিধান আলোচনা করা হয়েছে, যে ভুলবশত salat (নামাজ)-এ পঞ্চম রাকআত আদায় করে ফেলে। যদি সে আগে চতুর্থ রাকআতে তাশাহহুদের পরিমাণ বসে থাকে, তবে তার নামাজ বৈধ থাকে; আর যদি চতুর্থ ও পঞ্চমের মধ্যে সন্দেহ হয়, তবে তাকে সেটিকে চতুর্থ ধরে taslim দিতে এবং সাহু-এর দুই সিজদা করতে হবে।",
-          "de": "Dieser Hadith erläutert die Rechtsregel für jemanden, der versehentlich eine fünfte Rakʿah im salat (Gebet) verrichtet. Wenn er bereits in der vierten so lange gesessen hatte, wie es für das tashahhud erforderlich ist, bleibt sein Gebet gültig; und wenn er zwischen der vierten und der fünften zweifelt, soll er sie als die vierte betrachten, taslim geben und die beiden sajdahs des Vergessens verrichten.",
-          "en": "This hadith discusses the ruling of one who mistakenly performs a fifth rakʿah in salat (prayer). If he had already sat in the fourth for the measure of tashahhud, his prayer remains valid, and if he doubts between the fourth and fifth, he should treat it as the fourth, give taslim, and perform the two sajdahs of forgetfulness.",
-          "es": "Este hadiz expone la norma de quien realiza por error una quinta rakʿah en el salat (oración). Si ya se había sentado en la cuarta durante el tiempo suficiente para el tashahhud, su oración sigue siendo válida; y si duda entre la cuarta y la quinta, debe considerarla como la cuarta, dar taslim y realizar las dos sajdahs del olvido.",
-          "fa": "این حدیث حکم کسی را بیان می‌کند که به اشتباه رکعت پنجم را در salat (نماز) به جا می‌آورد. اگر پیش‌تر در رکعت چهارم به اندازه تشهد نشسته باشد، نماز او صحیح است، و اگر میان رکعت چهارم و پنجم شک کند، باید آن را رکعت چهارم حساب کند، سلام دهد و دو سجده سهو به جا آورد.",
-          "fr": "Ce hadith expose la règle concernant celui qui accomplit par erreur une cinquième rakʿah dans la salat (prière). S’il s’était déjà assis dans la quatrième pendant le temps nécessaire au tashahhud, sa prière reste valide ; et s’il doute entre la quatrième et la cinquième, il doit la considérer comme la quatrième, faire le taslim et accomplir les deux sajdahs de l’oubli.",
-          "id": "Hadis ini menjelaskan hukum orang yang tanpa sengaja melakukan rakaat kelima dalam salat (shalat). Jika ia telah duduk pada rakaat keempat selama kadar tasyahhud, maka salatnya tetap sah; dan jika ia ragu antara rakaat keempat dan kelima, ia harus menganggapnya sebagai rakaat keempat, memberi taslim, dan melakukan dua sujud sahwi.",
-          "ru": "Этот хадис разъясняет постановление относительно того, кто по ошибке совершает пятую ракаат в salat (молитве). Если он уже сидел в четвёртом ракаате столько, сколько требуется для ташаххуда, его молитва остаётся действительной; а если он сомневается между четвёртым и пятым, он должен считать её четвёртой, совершить таслим и сделать два саджда ас-сахв.",
-          "tr": "Bu hadis, salatta (namazda) yanlışlıkla beşinci rekâtı kılan kişinin hükmünü açıklar. Eğer dördüncüde teşehhüd miktarınca oturmuşsa namazı geçerlidir; dördüncü ile beşinci arasında şüphe ederse onu dördüncü saymalı, taslim vermeli ve iki sehiv secdesi yapmalıdır.",
-          "ur": "یہ حدیث اس شخص کے حکم کو بیان کرتی ہے جو غلطی سے salat (نماز) میں پانچویں رکعت ادا کر بیٹھے۔ اگر وہ چوتھی میں تشہد کی مقدار بیٹھ چکا ہو تو اس کی نماز درست رہتی ہے، اور اگر اسے چوتھی اور پانچویں کے درمیان شک ہو تو اسے چوتھی شمار کر کے taslim کہنا چاہیے اور سہو کے دو سجدے کرنے چاہئیں۔",
-          "zh": "这段圣训说明了在salat（礼拜）中误做第五拜之人的判定。如果他已经在第四拜中坐了足以完成tashahhud的时间，那么他的礼拜仍然有效；如果他在第四与第五之间犹豫，就应按第四拜处理，作taslim，并做两次遗忘叩头。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى عُمَرُ بْنُ يَزِيدَ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং ʿUmar ibn Yazīd আবু ʿAbdillāh عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Und ʿUmar ibn Yazīd berichtete von Abū ʿAbdillāh عليه السلام, der sagte:",
-              "en": "And ʿUmar ibn Yazīd narrated from Abū ʿAbdillāh عليه السلام, who said:",
-              "es": "Y ʿUmar ibn Yazīd narró de Abū ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "و ʿUmar ibn Yazīd از Abū ʿAbdillāh علیه السلام روایت کرد که فرمود:",
-              "fr": "Et ʿUmar ibn Yazīd a rapporté de Abū ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Dan ʿUmar ibn Yazīd meriwayatkan dari Abū ʿAbdillāh علیه السلام, yang berkata:",
-              "ru": "И ʿUmar ibn Yazīd передал от Abū ʿAbdillāh عليه السلام, который сказал:",
-              "tr": "Ve ʿUmar ibn Yazīd, Abū ʿAbdillāh عليه السلام'dan rivayet etti, şöyle dedi:",
-              "ur": "اور ʿUmar ibn Yazīd نے Abū ʿAbdillāh علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "ʿUmaribnYazīd从AbūʿAbdillāhعليهالسلام那里传述，他说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "«مَنِ اعْتَمَرَ عُمْرَةً مُفْرَدَةً فَلَهُ أَنْ يَخْرُجَ إِلَى أَهْلِهِ مَتَى شَاءَ إِلَّا أَنْ يُدْرِكَهُ خُرُوجُ النَّاسِ يَوْمَ التَّرْوِيَةِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“যে কেউ স্বতন্ত্র ʿumrah পালন করে, সে যখন ইচ্ছা তার পরিবারের কাছে যেতে পারে, যতক্ষণ না তাওরিয়াহ দিবসে মানুষের প্রস্থান তাকে ছুঁয়ে ফেলে।”",
-              "de": "„Wer eine eigenständige ʿumrah verrichtet, darf jederzeit zu seiner Familie gehen, es sei denn, er wird vom Aufbruch der Menschen am Tag von Tarwiyah eingeholt.“",
-              "en": "\"Whoever performs an independent ʿumrah may go out to his family whenever he wishes, unless the departure of the people on the Day of Tarwiyah overtakes him.\"",
-              "es": "“Quien realice una ʿumrah independiente puede salir hacia su familia cuando quiera, a menos que la salida de la gente en el Día de Tarwiyah lo alcance.”",
-              "fa": "«هر کس ʿumrah مفرد انجام دهد، می‌تواند هر وقت که خواست به خانواده‌اش برود، مگر اینکه خروج مردم در روز ترویه او را در بر گیرد.»",
-              "fr": "«Quiconque accomplit une ʿumrah indépendante peut sortir vers sa famille quand il le souhaite, sauf si le départ des gens le jour de Tarwiyah le rattrape.»",
-              "id": "“Barangsiapa yang melaksanakan ʿumrah mufradah, dia boleh keluar menemui keluarganya kapan saja dia mau, kecuali jika keberangkatan orang-orang pada Hari Tarwiyah mengejarnya.”",
-              "ru": "«Кто совершает отдельную ʿumrah, тот может идти к своей семье, когда захочет, если только его не настигнет уход людей в День Тарвия.»",
-              "tr": "“Kim bağımsız bir ʿumrah yaparsa, istediği zaman ailesinin yanına gidebilir, ta ki Yawm al-Tarwiyah gününde insanların hareketi onu yakalayana kadar.”",
-              "ur": "‘‘جو شخص اکیلی عمرہ ادا کرے، وہ جب چاہے اپنے گھر والوں کے پاس جا سکتا ہے، جب تک کہ یوم الترویہ کے دن لوگوں کے روانہ ہونے کا وقت اسے نہ پہنچ جائے۔’’",
-              "zh": "“凡独立完成ʿumrah者，可随时回家，除非被人们在塔尔维亚日出发时赶上。”"
-            },
             "word_end": 30,
             "word_start": 12
           }
@@ -91,57 +78,19 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَهْلِهِ": "his family or household to whom he returns",
-            "خُرُوجُ النَّاسِ": "the departure of the people for the hajj rites",
-            "عُمْرَةً مُفْرَدَةً": "an independent ʿumrah performed separately from hajj",
-            "يَوْمَ التَّرْوِيَةِ": "the 8th day of Dhū al-Ḥijjah, when pilgrims set out for the rites of hajj",
-            "يُدْرِكَهُ": "it reaches him or he remains present until that time"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "عُمْرَةً مُفْرَدَةً",
+          "أَهْلِهِ",
+          "يَوْمَ التَّرْوِيَةِ",
+          "خُرُوجُ النَّاسِ",
+          "يُدْرِكَهُ"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ʿUmrah Mufradah পালনকারী কি ইচ্ছামতো মক্কা ত্যাগ করতে পারে?",
-          "de": "Kann jemand, der ʿUmrah Mufradah verrichtet, Mekka jederzeit verlassen?",
-          "en": "Can someone who performs ʿUmrah Mufradah leave Makkah whenever they want?",
-          "es": "¿Puede alguien que realiza ʿUmrah Mufradah salir de La Meca cuando quiera?",
-          "fa": "آیا کسی که ʿUmrah Mufradah انجام می‌دهد می‌تواند هر زمان که خواست مکه را ترک کند؟",
-          "fr": "Une personne qui accomplit une ʿUmrah Mufradah peut-elle quitter La Mecque quand elle le souhaite ?",
-          "id": "Apakah seseorang yang melaksanakan ʿUmrah Mufradah boleh meninggalkan Makkah kapan saja?",
-          "ru": "Может ли человек, совершающий ʿUmrah Mufradah, покинуть Мекку в любое время?",
-          "tr": "ʿUmrah Mufradah yapan biri Mekke'den istediği zaman ayrılabilir mi?",
-          "ur": "کیا جو شخص ʿUmrah Mufradah ادا کرتا ہے وہ مکہ سے جب چاہے نکل سکتا ہے؟",
-          "zh": "完成ʿUmrah Mufradah者能否随时离开麦加？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি তাদের জন্য বিধান বর্ণনা করে যারা হজের মাসগুলিতে ʿUmrah Mufradah পালন করে। এমন ব্যক্তি ইচ্ছা মতো বাড়ি ফিরতে পারে, যতক্ষণ না তারা তাওরিয়াহ দিবস পর্যন্ত থাকে, যা তাদের হজের আইনি অবস্থাকে প্রভাবিত করে।",
-          "de": "Dieser Hadith legt die Regel für jemanden fest, der während der Hajj-Monate eine ʿUmrah Mufradah verrichtet. Diese Person darf jederzeit nach Hause zurückkehren, es sei denn, sie bleibt bis zum Aufbruch der Menschen am Yawm al-Tarwiyah, was ihre rechtliche Situation bezüglich der Hajj beeinflusst.",
-          "en": "This hadith states the ruling for one who performs ʿUmrah Mufradah during the months of hajj. Such a person may return home whenever desired, unless they remain until the people depart on Yawm al-Tarwiyah, which affects their legal situation in relation to hajj.",
-          "es": "Este hadiz establece la regla para quien realiza ʿUmrah Mufradah durante los meses del hajj. Tal persona puede regresar a casa cuando desee, a menos que permanezca hasta la salida de la gente en Yawm al-Tarwiyah, lo cual afecta su situación legal respecto al hajj.",
-          "fa": "این حدیث حکم کسی را که در ماه‌های حج ʿUmrah Mufradah انجام می‌دهد بیان می‌کند. چنین شخصی می‌تواند هر زمان که خواست به خانه بازگردد، مگر اینکه تا روز ترویه بماند که وضعیت شرعی او در رابطه با حج را تحت تأثیر قرار می‌دهد.",
-          "fr": "Ce hadith énonce la règle pour celui qui accomplit une ʿUmrah Mufradah pendant les mois du hajj. Cette personne peut retourner chez elle quand elle le souhaite, sauf si elle reste jusqu’au départ des gens le jour de Tarwiyah, ce qui affecte sa situation légale par rapport au hajj.",
-          "id": "Hadis ini menjelaskan hukum bagi orang yang melaksanakan ʿUmrah Mufradah selama bulan-bulan haji. Orang tersebut boleh pulang kapan saja, kecuali jika ia tetap tinggal sampai keberangkatan orang-orang pada Yawm al-Tarwiyah, yang mempengaruhi status hukumnya terkait haji.",
-          "ru": "Этот хадис устанавливает правило для тех, кто совершает ʿUmrah Mufradah в месяцы хаджа. Такой человек может возвращаться домой в любое время, если только он не остается до ухода людей в Яум аль-Тарвия, что влияет на его правовой статус в отношении хаджа.",
-          "tr": "Bu hadis, haccın aylarında ʿUmrah Mufradah yapan kişi için hükmü belirtir. Böyle bir kişi istediği zaman evine dönebilir, ancak Yawm al-Tarwiyah gününe kadar kalırsa, bu durum haccıyla ilgili hukuki durumunu etkiler.",
-          "ur": "یہ حدیث ان لوگوں کے لیے حکم بیان کرتی ہے جو مہینوںِ حج میں ʿUmrah Mufradah ادا کرتے ہیں۔ ایسے شخص کو جب چاہے گھر واپس جانے کی اجازت ہے، جب تک کہ وہ یوم الترویہ تک رکے نہ رہیں، کیونکہ اس سے ان کی حج کی شرعی حالت متاثر ہوتی ہے۔",
-          "zh": "此圣训说明在朝觐月份完成ʿUmrah Mufradah者的规定。此人可随时回家，除非逗留至塔尔维亚日人们出发时，此举影响其朝觐法律状态。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

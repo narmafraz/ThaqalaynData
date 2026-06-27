@@ -14,6 +14,134 @@
       "up": "/books/al-kafi:6:8:22"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَنْهُ عَنْ بَعْضِ أَصْحَابِهِ عَنْ صَالِحِ بْنِ عُقْبَةَ عَنْ فُضَيْلِ بْنِ عُثْمَانَ عَنْ رَبِيعَةَ الرَّأْيِ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 16,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "رَأَيْتُ فِي يَدِ عَلِيِّ بْنِ الْحُسَيْنِ ( عَلَيْهِ السَّلَامُ ) فَصَّ عَقِيقٍ فَقُلْتُ مَا هَذَا الْفَصُّ فَقَالَ عَقِيقٌ رُومِيٌّ وَ قَالَ رَسُولُ اللَّهِ ( صَلَّى اللَّهِ عَلَيْهِ وَآلِهِ ) مَنْ تَخَتَّمَ بِالْعَقِيقِ قُضِيَتْ حَوَائِجُهُ .",
+            "chunk_type": "body",
+            "word_end": 51,
+            "word_start": 16
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 11,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَنْهُ",
+              "name_en": "from him",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 37,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "بَعْضِ أَصْحَابِهِ",
+              "name_en": "some of his companions",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 156,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "صَالِحِ بْنِ عُقْبَةَ",
+              "name_en": "Salih ibn Uqba",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 552,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "فُضَيْلِ بْنِ عُثْمَانَ",
+              "name_en": "Fudayl b. Uthman",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3193,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "رَبِيعَةِ الرَّأْيِ",
+              "name_en": "Rabi'at al-Rayy",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "قَالَ رَسُولُ اللَّهِ",
+            "phrase_en": "The Messenger of Allah said"
+          }
+        ],
+        "key_terms_keys": [
+          "عَقِيق",
+          "فَصَّ",
+          "رُومِيٌّ",
+          "تَخَتَّمَ",
+          "حَوَائِجُهُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:32",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "24:37",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "prophetic_tradition",
+          "ethics"
+        ],
+        "topics": [
+          "sunnah",
+          "prophetic_character"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (2/358)"
       ],
@@ -85,7 +213,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:8:22:4",

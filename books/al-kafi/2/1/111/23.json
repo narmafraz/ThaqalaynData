@@ -20,99 +20,47 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ مَحْبُوبٍ عَنْ جَمِيلِ بْنِ صَالِحٍ عَنْ سَدِيرٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী ইবন ইবরাহিম, তাঁর পিতা থেকে, ইবন মাহবুব থেকে, জামীল ইবন সালিহ থেকে, সাদির থেকে, তিনি বলেন:",
-              "de": "Ali ibn Ibrahim, von seinem Vater, von Ibn Mahbub, von Jamil ibn Salih, von Sadir, der sagte:",
-              "en": "Ali ibn Ibrahim, from his father, from Ibn Mahbub, from Jamil ibn Salih, from Sadir, who said:",
-              "es": "Ali ibn Ibrahim, de su padre, de Ibn Mahbub, de Jamil ibn Salih, de Sadir, quien dijo:",
-              "fa": "علی بن ابراهیم، از پدرش، از ابن محبوب، از جمیل بن صالح، از صادِر، که گفت:",
-              "fr": "Ali ibn Ibrahim, de son père, d’Ibn Mahbub, de Jamil ibn Salih, de Sadir, qui a dit :",
-              "id": "Ali ibn Ibrahim, dari ayahnya, dari Ibn Mahbub, dari Jamil ibn Salih, dari Sadir, yang berkata:",
-              "ru": "Али ибн Ибрахим, от своего отца, от Ибн Махбуба, от Джамиля ибн Салиха, от Садира, который сказал:",
-              "tr": "Ali ibn Ibrahim, babasından, İbn Mahbub’dan, Cemil ibn Salih’ten, Sadir’den, o da şöyle dedi:",
-              "ur": "علی بن ابراہیم، ان کے والد سے، ابن محبوب سے، جمیل بن صالح سے، صادِر سے، جنہوں نے کہا:",
-              "zh": "阿里·伊本·易卜拉欣，传自其父，传自伊本·马赫布卜，传自贾米勒·伊本·萨利赫，传自萨迪尔，他说："
-            },
             "word_end": 15,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلَ رَجُلٌ أَبَا عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) عَنْ قَوْلِ اللَّهِ عَزَّ وَجَلَّ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এক ব্যক্তি আবা আবদিল্লাহ (عليه السلام)-কে আল্লাহর, পরাক্রমশালী ও মহিমান্বিত, এই বাণী সম্পর্কে জিজ্ঞেস করল:",
-              "de": "Ein Mann fragte Aba Abdillah (عليه السلام) nach dem Wort Allahs, des Mächtigen und Majestätischen:",
-              "en": "A man asked Aba Abdillah (عليه السلام) about the saying of Allah, Mighty and Majestic:",
-              "es": "Un hombre preguntó a Aba Abdillah (عليه السلام) acerca de la palabra de Allah, Poderoso y Majestuoso:",
-              "fa": "مردی از ابا عبدالله (عليه السلام) درباره سخنِ خداوند عزّ و جلّ پرسید:",
-              "fr": "Un homme interrogea Aba Abdillah (عليه السلام) au sujet de la parole d’Allah, Puissant et Majestueux :",
-              "id": "Seorang laki-laki bertanya kepada Aba Abdillah (عليه السلام) tentang firman Allah, Yang Mahaperkasa lagi Mahagung:",
-              "ru": "Один человек спросил Абу Абдуллаха (عليه السلام) о словах Аллаха, Всемогущего и Величественного:",
-              "tr": "Bir adam, Ebu Abdullah’a (عليه السلام) Allah’ın, Aziz ve Celil olan, şu sözü hakkında sordu:",
-              "ur": "ایک شخص نے ابا عبد اللہ (عليه السلام) سے اللہ عز و جل کے اس قول کے بارے میں پوچھا:",
-              "zh": "一人向阿巴·阿卜杜拉（عليه السلام）询问真主尊严而伟大的这句话："
-            },
             "word_end": 27,
             "word_start": 15
           },
           {
             "arabic_text": "فَقَالُوا رَبَّنَا بَاعِدْ بَيْنَ أَسْفَارِنَا وَظَلَمُوا أَنْفُسَهُمْ الْآيَةَ",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "“অতঃপর তারা বলল: হে আমাদের রব, আমাদের সফরের দূরত্ব আরও বাড়িয়ে দিন; আর তারা নিজেদের প্রতি জুলুম করেছিল” — আয়াতটি।",
-              "de": "„Da sagten sie: Unser Herr, mache die Entfernungen unserer Reisen weiter auseinander; und sie begingen Unrecht gegen sich selbst“ — der Vers.",
-              "en": "“So they said: Our Lord, make farther apart the distances of our journeys; and they wronged themselves” — the verse.",
-              "es": "“Entonces dijeron: Señor nuestro, aleja las distancias de nuestros viajes; y se ظلمaron a sí mismos” — el versículo.",
-              "fa": "«پس گفتند: پروردگارا، فاصله‌های سفرهای ما را دورتر گردان؛ و بر خود ستم کردند» — آیه.",
-              "fr": "« Puis ils dirent : Seigneur notre, éloigne les distances de nos voyages ; et ils se sont fait du tort à eux-mêmes » — le verset.",
-              "id": "“Maka mereka berkata: Ya Tuhan kami, jauhkanlah jarak perjalanan kami; dan mereka telah menzalimi diri mereka sendiri” — ayat itu.",
-              "ru": "«И они сказали: Господь наш, сделай расстояния наших путешествий более далекими; и они поступили несправедливо по отношению к самим себе» — аят.",
-              "tr": "“Dediler ki: Rabbimiz, yolculuklarımızın mesafelerini uzaklaştır; ve onlar kendi nefislerine zulmettiler” — ayet.",
-              "ur": "“تو انہوں نے کہا: اے ہمارے رب، ہمارے سفر کی مسافتیں دور کر دے؛ اور انہوں نے اپنی جانوں پر ظلم کیا” — آیت۔",
-              "zh": "“于是他们说：我们的主啊，请使我们的旅程之间的距离更远些；他们确已亏待了自己”——这节经文。"
-            },
             "word_end": 35,
             "word_start": 27
           },
           {
             "arabic_text": "فَقَالَ هَؤُلَاءِ قَوْمٌ كَانَتْ لَهُمْ قُرًى مُتَّصِلَةٌ يَنْظُرُ بَعْضُهُمْ إِلَى بَعْضٍ وَأَنْهَارٌ جَارِيَةٌ وَأَمْوَالٌ ظَاهِرَةٌ فَكَفَرُوا نِعَمَ اللَّهِ عَزَّ وَجَلَّ وَغَيَّرُوا مَا بِأَنْفُسِهِمْ مِنْ عَافِيَةِ اللَّهِ فَغَيَّرَ اللَّهُ مَا بِهِمْ مِنْ نِعْمَةٍ وَإِنَّ اللَّهَ لَا يُغَيِّرُ مَا بِقَوْمٍ حَتَّى يُغَيِّرُوا مَا بِأَنْفُسِهِمْ فَأَرْسَلَ اللَّهُ عَلَيْهِمْ سَيْلَ الْعَرِمِ فَغَرَّقَ قُرَاهُمْ وَخَرَّبَ دِيَارَهُمْ وَأَذْهَبَ أَمْوَالَهُمْ وَأَبْدَلَهُمْ مَكَانَ جَنَّاتِهِمْ جَنَّتَيْنِ ذَوَاتَيْ أُكُلٍ خَمْطٍ وَأَثْلٍ وَشَيْءٍ مِنْ سِدْرٍ قَلِيلٍ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি (عليه السلام) বললেন: “এরা এমন এক সম্প্রদায় ছিল যাদের গ্রামগুলো পরস্পরের সাথে সংযুক্ত ছিল, এমনকি তাদের কেউ কেউ অন্যদের দেখতে পেত, আর ছিল প্রবহমান নদী এবং প্রকাশ্য সম্পদ। তারপর তারা আল্লাহর, পরাক্রমশালী ও মহিমান্বিত, নিয়ামত অস্বীকার করল এবং আল্লাহর দেওয়া নিরাপত্তা ও কল্যাণের মধ্যে যা তাদের অন্তরে ছিল তা পরিবর্তন করল; ফলে আল্লাহ তাদের ওপর থাকা নিয়ামত পরিবর্তন করে দিলেন। নিশ্চয়ই আল্লাহ কোনো সম্প্রদায়ের অবস্থা পরিবর্তন করেন না যতক্ষণ না তারা নিজেদের অন্তরের অবস্থা পরিবর্তন করে। অতঃপর আল্লাহ তাদের ওপর সেল-ই আরিম পাঠালেন, ফলে তা তাদের গ্রামগুলো ডুবিয়ে দিল, তাদের ঘরবাড়ি ধ্বংস করল, তাদের সম্পদ নিয়ে গেল, এবং তাদের বাগানের বদলে দুইটি বাগান দিল যাতে ছিল তিক্ত ফল, আথল, এবং অল্প কিছু সিদর।”",
-              "de": "Er (عليه السلام) sagte: „Dies waren Leute, deren Dörfer miteinander verbunden waren, so dass einige von ihnen die anderen sehen konnten, und sie hatten fließende Flüsse und sichtbaren Besitz. Dann verleugneten sie die Gaben Allahs, des Mächtigen und Majestätischen, und änderten das, was in ihnen von Allahs Wohlergehen war; so änderte Allah das, was sie an Segen hatten. Wahrlich, Allah ändert nicht, was ein Volk besitzt, bis sie ändern, was in ihnen selbst ist. Da sandte Allah die Flut von al-‘Arim über sie, und sie überschwemmte ihre Dörfer, zerstörte ihre Wohnstätten, nahm ihnen ihren Besitz und ersetzte ihre Gärten durch zwei Gärten mit bitteren Früchten, Tamarisken und etwas von spärlichem Sidr.“",
-              "en": "He (عليه السلام) said: “These were a people who had villages connected to one another, such that some of them could see others, and flowing rivers, and evident wealth. Then they disbelieved in the blessings of Allah, Mighty and Majestic, and changed what was within themselves of Allah’s well-being, so Allah changed what they had of blessing. Indeed, Allah does not change what is with a people until they change what is within themselves. So Allah sent upon them the flood of al-‘Arim, and it drowned their villages, ruined their dwellings, took away their wealth, and replaced their gardens with two gardens bearing bitter fruit, tamarisk, and something of sparse lote trees.”",
-              "es": "Él (عليه السلام) dijo: “Eran un pueblo cuyas aldeas estaban conectadas unas con otras, de modo que algunos de ellos podían ver a otros, y tenían ríos que corrían y riquezas visibles. Entonces negaron los favores de Allah, Poderoso y Majestuoso, y cambiaron lo que había en sí mismos de la bienestar de Allah; así que Allah cambió lo que tenían de bendición. En verdad, Allah no cambia lo que hay en un pueblo hasta que ellos cambian lo que hay en sí mismos. Entonces Allah envió contra ellos la inundación de al-‘Arim, y ahogó sus aldeas, arruinó sus moradas, les quitó sus riquezas y sustituyó sus jardines por dos jardines de fruto amargo, tamarisco y algo de azufaifo escaso.”",
-              "fa": "فرمود: «اینها قومی بودند که آبادی‌هایشان به هم پیوسته بود، به گونه‌ای که برخی برخی دیگر را می‌دیدند، و نهرهای جاری و اموال آشکار داشتند. سپس نعمت‌های خداوند عزّ و جلّ را انکار کردند و آنچه را از عافیتِ خدا در درون خود داشتند دگرگون ساختند؛ پس خدا نیز آنچه از نعمت نزد آنان بود دگرگون کرد. همانا خدا حالِ قومی را دگرگون نمی‌کند تا آنکه آنان آنچه را در درون خود دارند دگرگون کنند. پس خدا سیلِ عَرِم را بر آنان فرستاد، و آبادی‌هایشان را غرق کرد، خانه‌هایشان را ویران ساخت، اموالشان را از میان برد، و به جای باغ‌هایشان دو باغ به آنان داد که میوه‌ای تلخ، اثل، و اندکی سدر داشت.»",
-              "fr": "Il (عليه السلام) dit : « C’étaient un peuple dont les villages étaient reliés les uns aux autres, au point que certains voyaient les autres, et ils avaient des rivières coulantes et des richesses apparentes. Puis ils nièrent les bienfaits d’Allah, Puissant et Majestueux, et changèrent en eux-mêmes ce qu’ils avaient de la bienveillance d’Allah ; alors Allah changea pour eux le bienfait qu’ils possédaient. Certes, Allah ne change pas ce qu’a un peuple tant qu’ils ne changent pas ce qu’il y a en eux-mêmes. Alors Allah envoya contre eux la crue de al-‘Arim, qui noya leurs villages, détruisit leurs demeures, emporta leurs biens et remplaça leurs jardins par deux jardins portant des fruits amers, du tamaris et un peu de jujubier. »",
-              "id": "Beliau (عليه السلام) bersabda: “Mereka adalah suatu kaum yang desa-desa mereka saling terhubung, sehingga sebagian mereka dapat melihat sebagian yang lain, dan sungai-sungai yang mengalir, serta harta yang tampak. Lalu mereka mengingkari nikmat Allah, Yang Mahaperkasa lagi Mahagung, dan mengubah apa yang ada dalam diri mereka berupa kesejahteraan dari Allah; maka Allah pun mengubah nikmat yang ada pada mereka. Sesungguhnya Allah tidak mengubah keadaan suatu kaum sampai mereka mengubah apa yang ada dalam diri mereka. Maka Allah mengirimkan kepada mereka banjir al-‘Arim, lalu menenggelamkan desa-desa mereka, meruntuhkan rumah-rumah mereka, menghilangkan harta mereka, dan mengganti kebun-kebun mereka dengan dua kebun yang berbuah pahit, tamarisk, dan sedikit pohon sidr.”",
-              "ru": "Он (عليه السلام) сказал: «Это был народ, у которого селения были соединены друг с другом, так что одни видели других, и были текущие реки и явное богатство. Затем они отвергли милости Аллаха, Всемогущего и Величественного, и изменили в себе то благополучие, которое было от Аллаха; и Аллах изменил то благо, которым они обладали. Воистину, Аллах не изменяет того, что есть у народа, пока они не изменят того, что в них самих. Тогда Аллах послал на них поток аль-‘Арим, и он потопил их селения, разрушил их жилища, уничтожил их имущество и заменил их сады двумя садами с горькими плодами, тамариском и чем-то из редких лотосовых деревьев.»",
-              "tr": "O (عليه السلام) şöyle dedi: “Bunlar, köyleri birbirine bitişik olan, öyle ki bazısı bazısını görebilen, akan nehirleri ve açıkça görülen malları olan bir kavimdi. Sonra Allah’ın, Aziz ve Celil olan, nimetlerini inkâr ettiler ve Allah’ın onlara verdiği afiyetten kendi içlerindekini değiştirdiler; bunun üzerine Allah da onlardaki nimeti değiştirdi. Şüphesiz Allah, bir kavmin sahip olduklarını, onlar kendi içlerindekini değiştirinceye kadar değiştirmez. Böylece Allah üzerlerine Arim selini gönderdi; köylerini sular altında bıraktı, yurtlarını harap etti, mallarını yok etti ve bahçelerinin yerine acı meyveli, ılgınlı ve az miktarda sidr bulunan iki bahçe verdi.”",
-              "ur": "انہوں نے فرمایا: “یہ ایک قوم تھی جن کے گاؤں ایک دوسرے سے ملے ہوئے تھے، یہاں تک کہ بعض بعض کو دیکھتے تھے، اور بہتی ہوئی نہریں تھیں، اور ظاہر مال و دولت تھی۔ پھر انہوں نے اللہ عز و جل کی نعمتوں کا کفر کیا، اور اللہ کی عافیت میں سے جو کچھ ان کے اندر تھا اسے بدل ڈالا، تو اللہ نے ان پر اپنی نعمت کو بدل دیا۔ بے شک اللہ کسی قوم کی حالت نہیں بدلتا جب تک وہ خود اپنی حالت نہ بدلیں۔ پس اللہ نے ان پر سیلِ عَرِم بھیج دیا، تو اس نے ان کے گاؤں ڈبو دیے، ان کے گھر ویران کر دیے، ان کے مال لے لیے، اور ان کے باغوں کے بدلے دو باغ دے دیے جن میں کڑوا پھل، اَثل، اور کچھ تھوڑی سی بیریاں تھیں۔”",
-              "zh": "他说：（عليه السلام）“这些人是一个民族，他们的村庄彼此相连，以至于其中一些人能看见另一些人，并且有流动的河流和显而易见的财富。然后他们否认真主尊严而伟大的恩典，并改变了他们内心原本拥有的真主的安康，于是真主改变了他们所拥有的恩典。真主确不会改变一个民族的状况，直到他们改变自己内心的状况。于是，真主降下了阿里姆洪水，使他们的村庄被淹没，居所被毁坏，财产被夺去，并以两个园子替代他们的园圃，其中结着苦涩的果实、柽柳，以及少量的酸枣树。”"
-            },
             "word_end": 100,
             "word_start": 35
           },
           {
             "arabic_text": "ثُمَّ قَالَ ذَٰلِكَ جَزَيْنَاهُمْ بِمَا كَفَرُوا وَهَلْ نُجَازِي إِلَّا الْكَفُورَ",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "অতঃপর তিনি বললেন: “এভাবেই আমরা তাদেরকে তাদের কুফরের কারণে প্রতিদান দিয়েছি; আর আমরা কি অকৃতজ্ঞ ছাড়া অন্য কাউকে প্রতিদান দিই?”",
-              "de": "Dann sagte er: „So vergolten Wir ihnen für das, was sie verleugneten; und vergelten Wir etwa jemand anderem als dem überaus Undankbaren?“",
-              "en": "Then he said: “That is how We recompensed them for what they disbelieved; and do We recompense any but the utterly ungrateful?”",
-              "es": "Luego dijo: «Así los recompensamos por lo que negaron; ¿y acaso recompensamos a alguien salvo al sumamente ingrato?»",
-              "fa": "سپس فرمود: «این است آنچه به سبب آنچه کفر ورزیدند، به آنان جزا دادیم؛ و آیا جز ناسپاسِ بسیار، کسی را کیفر می‌دهیم؟»",
-              "fr": "Puis il dit : « C’est ainsi que Nous les avons rétribués pour ce qu’ils avaient mécru ; et rétribuons-Nous autre chose que l’extrêmement ingrat ? »",
-              "id": "Lalu beliau bersabda: “Demikianlah Kami membalas mereka karena kekafiran mereka; dan tidakkah Kami membalas selain orang yang sangat ingkar?”",
-              "ru": "Затем он сказал: «Так Мы воздали им за то, что они проявили неверие; и разве воздаем Мы кому-либо, кроме глубоко неблагодарного?»",
-              "tr": "Sonra şöyle buyurdu: “İşte onları inkâr ettikleri şey sebebiyle böyle cezalandırdık; biz nankörden başkasını mı cezalandırırız?”",
-              "ur": "پھر فرمایا: \"یہی ہے وہ بدلہ جو ہم نے انہیں ان کے کفر کی وجہ سے دیا؛ اور ہم ناشکرے کے سوا کسی کو بدلہ دیتے ہیں؟\"",
-              "zh": "然后他说：“这就是我们因他们不信而给予他们的报应；而我们只报应极其忘恩负义的人吗？”"
-            },
             "word_end": 110,
             "word_start": 100
           }
@@ -186,28 +134,16 @@
             "phrase_en": "Allah does not change the condition of a people until they change what is in themselves"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَسْفَارِنَا": "our journeys or travels between settlements",
-            "الْكَفُورَ": "the extremely ungrateful disbeliever",
-            "جَنَّاتِهِمْ": "their gardens or cultivated lands",
-            "سَيْلَ الْعَرِمِ": "the devastating flood sent upon them as punishment",
-            "ظَلَمُوا": "they wronged, meaning they committed injustice against themselves",
-            "عَافِيَةِ": "well-being, safety, and sound condition granted by Allah",
-            "نِعَمَ": "blessings and favors granted by Allah",
-            "نِعْمَةٍ": "a blessing or state of favor"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَسْفَارِنَا",
+          "ظَلَمُوا",
+          "نِعَمَ",
+          "عَافِيَةِ",
+          "نِعْمَةٍ",
+          "سَيْلَ الْعَرِمِ",
+          "جَنَّاتِهِمْ",
+          "الْكَفُورَ"
+        ],
         "related_quran": [
           {
             "ref": "34:19",
@@ -230,32 +166,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "আল্লাহ কীভাবে কোনো জাতির কাছ থেকে নিয়ামত ও সমৃদ্ধি তুলে নেন?",
-          "de": "Wie erklärt der Koran den Verlust von Segnungen und Wohlstand bei einem Volk?",
-          "en": "How does the Qur’an explain the loss of blessings and prosperity from a people?",
-          "es": "¿Cómo explica el Corán la pérdida de bendiciones y prosperidad de un pueblo?",
-          "fa": "خدا چگونه نعمت‌ها و رفاه را از یک قوم می‌گیرد؟",
-          "fr": "Comment le Coran explique-t-il la perte des bienfaits et de la prospérité d’un peuple ?",
-          "id": "Bagaimana Allah mencabut nikmat dan kemakmuran dari suatu kaum?",
-          "ru": "Как Коран объясняет утрату благословений и благополучия у народа?",
-          "tr": "Allah bir topluluktan nimetleri ve refahı nasıl alır?",
-          "ur": "اللہ کسی قوم سے نعمتیں اور خوشحالی کیسے چھین لیتا ہے؟",
-          "zh": "《古兰经》如何解释一个民族失去恩典和繁荣？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনাটি কুরআনের সেই বিবরণ ব্যাখ্যা করে, যেখানে এক সমৃদ্ধ জাতির সংযুক্ত জনপদ, প্রবহমান নদী এবং প্রকাশ্য সম্পদ আল্লাহর নিয়ামতের প্রতি অকৃতজ্ঞ হওয়ার পর তাদের কাছ থেকে কেড়ে নেওয়া হয়। এতে সেই ঐশী নীতিটি তুলে ধরা হয়েছে যে, মানুষ নিজের অন্তরকে অকৃতজ্ঞতা ও ফাসাদের মাধ্যমে পরিবর্তন না করা পর্যন্ত নিয়ামত অপসারিত হয় না। এই অংশটি কুফর-ই-নিয়ামাহ এবং দুনিয়াবি সমৃদ্ধি হারানোর নৈতিক পরিণতি সম্পর্কে সতর্ক করে।",
-          "de": "Diese Überlieferung erklärt die koranische Darstellung eines wohlhabenden Volkes, dessen verbundene Städte, fließende Flüsse und sichtbarer Reichtum ihnen genommen wurden, nachdem sie gegenüber Allahs Gaben undankbar geworden waren. Sie hebt das göttliche Prinzip hervor, dass Segnungen nicht entzogen werden, bis die Menschen sich innerlich durch Undankbarkeit und Verderbnis verändern. Die Passage dient als Warnung vor den moralischen Folgen von kufr al-ni‘mah und dem Verlust weltlichen Wohlstands.",
-          "en": "This narration explains the Qur'anic account of a prosperous people whose connected towns, flowing rivers, and visible wealth were taken away after they became ungrateful for Allah’s blessings. It highlights the divine principle that blessings are not removed until people themselves change inwardly through ingratitude and corruption. The passage serves as a warning about the moral consequences of kufr al-ni‘mah and the loss of worldly prosperity.",
-          "es": "Esta narración explica el relato coránico de un pueblo próspero cuyas ciudades conectadas, ríos que corrían y riqueza visible les fueron arrebatados después de que se mostraron ingratos por los favores de Allah. Destaca el principio divino de que las bendiciones no se retiran hasta que las personas cambian interiormente por la ingratitud y la corrupción. El pasaje sirve como advertencia sobre las consecuencias morales del kufr al-ni‘mah y la pérdida de la prosperidad mundana.",
-          "fa": "این روایت، گزارش قرآنیِ قومی برخوردار از رفاه را توضیح می‌دهد که شهرهای پیوسته، نهرهای جاری و اموال آشکارشان پس از ناسپاسی در برابر نعمت‌های خدا از آنان گرفته شد. این روایت اصل الهی را برجسته می‌کند که نعمت‌ها از میان نمی‌روند مگر آنکه مردم خود درون خویش را با ناسپاسی و فساد دگرگون کنند. این بخش هشداری درباره پیامدهای اخلاقیِ کفرِ نعمت و از دست رفتن رفاه دنیوی است.",
-          "fr": "Ce récit explique le passage coranique concernant un peuple prospère dont les villes reliées, les rivières coulantes et les richesses apparentes leur furent retirées après leur ingratitude envers les bienfaits d’Allah. Il met en évidence le principe divin selon lequel les bienfaits ne sont pas retirés tant que les gens ne changent pas intérieurement par l’ingratitude et la corruption. Ce passage sert d’avertissement sur les conséquences morales du kufr al-ni‘mah et de la perte de la prospérité mondaine.",
-          "id": "Riwayat ini menjelaskan kisah Al-Qur’an tentang suatu kaum yang makmur, dengan kota-kota yang saling terhubung, sungai-sungai yang mengalir, dan kekayaan yang tampak, lalu semuanya diambil setelah mereka kufur terhadap nikmat Allah. Ini menegaskan prinsip ilahi bahwa nikmat tidak dicabut sampai manusia mengubah keadaan batin mereka sendiri melalui ingkar dan فساد. Bagian ini menjadi peringatan tentang akibat moral dari kufr al-ni‘mah dan hilangnya kemakmuran duniawi.",
-          "ru": "Этот рассказ разъясняет кораническое повествование о благополучном народе, у которого были соединённые селения, текущие реки и явное богатство, но всё это было отнято после того, как они проявили неблагодарность к милостям Аллаха. Он подчёркивает божественный принцип: благословения не отнимаются, пока люди сами не изменят своё внутреннее состояние через неблагодарность и порочность. Этот отрывок служит предостережением о нравственных последствиях куфр ан-ни‘ма и утраты мирского благополучия.",
-          "tr": "Bu rivayet, birbirine bağlı şehirleri, akan nehirleri ve görünen zenginlikleri olan müreffeh bir topluluğa dair Kur’an anlatımını açıklar; onlar Allah’ın nimetlerine nankörlük ettikten sonra bunlar ellerinden alınmıştır. Bu, nimetlerin insanların kendi iç dünyalarını nankörlük ve فساد ile değiştirmedikçe kaldırılmadığı ilkesini vurgular. Metin, nimete küfrün ve dünya refahını kaybetmenin ahlaki sonuçlarına karşı bir uyarıdır.",
-          "ur": "یہ روایت ایک خوشحال قوم کے بارے میں قرآنی بیان کی وضاحت کرتی ہے جن کے باہم جڑے ہوئے شہر، بہتی نہریں، اور ظاہر مال و دولت اللہ کی نعمتوں کی ناشکری کے بعد چھین لیے گئے۔ یہ اس الٰہی اصول کو واضح کرتی ہے کہ نعمتیں اس وقت تک نہیں اٹھائی جاتیں جب تک لوگ خود اپنے باطن کو ناشکری اور فساد کے ذریعے نہ بدل لیں۔ یہ عبارت کفرِ نعمت اور دنیوی خوشحالی کے زوال کے اخلاقی انجام سے خبردار کرتی ہے۔",
-          "zh": "这段传述解释了《古兰经》中关于一个富足民族的记述：他们相连的城镇、流动的河流和显而易见的财富，在他们对真主恩典忘恩负义之后被夺走。它强调了一个神圣原则：恩典不会被收回，直到人们因忘恩和败坏而先改变自己的内心。此段经文警示人们警惕对恩典的否认以及世俗繁荣的失落所带来的道德后果。"
-        },
         "tags": [
           "quran_commentary",
           "ethics",

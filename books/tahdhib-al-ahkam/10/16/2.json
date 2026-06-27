@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ فَضَالَةَ عَنْ أَبَانٍ عَنْ زُرَارَةَ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, ফাদালাহ থেকে, আবান থেকে, জুরারাহ থেকে, যিনি বলেছেন:",
-              "de": "Von ihm, von Faḍālah, von Abān, von Zurārah, der sagte:",
-              "en": "From him, from Faḍālah, from Abān, from Zurārah, who said:",
-              "es": "De él, de Faḍālah, de Abān, de Zurārah, quien dijo:",
-              "fa": "از او، از فَضالَه، از اَبان، از زُراره، که گفت:",
-              "fr": "De lui, de Faḍālah, d’Abān, de Zurārah, qui a dit :",
-              "id": "Darinya, dari Faḍālah, dari Abān, dari Zurārah, yang berkata:",
-              "ru": "От него, от Фада̄лах, от Аба̄на, от Зура̄ры, который сказал:",
-              "tr": "Ondan, Faḍālah’dan, Abān’dan, Zurārah’dan, şöyle dedi:",
-              "ur": "ان سے، فَضالہ سے، ابان سے، زرارہ سے، جنہوں نے کہا:",
-              "zh": "由他传述，来自Faḍālah，来自Abān，来自Zurārah，他说："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "سَمِعْتُ أَبَا جَعْفَرٍ عَلَيْهِ السَّلَامُ يَقُولُ: «إِذَا قَتَلَ الرَّجُلُ فِي شَهْرٍ حَرَامٍ صَامَ شَهْرَيْنِ مُتَتَابِعَيْنِ مِنْ أَشْهُرِ الْحُرُمِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবা জাফর عليه السلام-কে বলতে শুনেছি: “যখন কোনো ব্যক্তি হারাম মাসে হত্যা করে, তখন সে হারাম মাসগুলোর মধ্যে থেকে টানা দুই মাস রোজা রাখে।”",
-              "de": "Ich hörte Abā Jaʿfar عليه السلام sagen: „Wenn ein Mann in einem heiligen Monat tötet, fastet er zwei aufeinanderfolgende Monate aus den heiligen Monaten.“",
-              "en": "I heard Abā Jaʿfar عليه السلام say: “When a man kills in a sacred month, he fasts two consecutive months from the sacred months.”",
-              "es": "Escuché a Abā Jaʿfar عليه السلام decir: “Cuando un hombre mata en un mes sagrado, ayuna dos meses consecutivos de entre los meses sagrados.”",
-              "fa": "از ابا جعفر علیه السلام شنیدم که فرمود: «هرگاه مردی در ماه حرامی قتل کند، دو ماه پیاپی از ماه‌های حرام روزه می‌گیرد.»",
-              "fr": "J’ai entendu Abā Jaʿfar عليه السلام dire : « Lorsqu’un homme tue pendant un mois sacré, il jeûne deux mois consécutifs parmi les mois sacrés. »",
-              "id": "Aku mendengar Abā Jaʿfar عليه السلام berkata: “Apabila seseorang membunuh pada bulan haram, ia berpuasa dua bulan berturut-turut dari bulan-bulan haram.”",
-              "ru": "Я слышал, как Аба̄ Джаʿфар عليه السلام сказал: «Когда человек совершает убийство в запретный месяц, он постится два последовательных месяца из запретных месяцев».",
-              "tr": "Ebâ Caʿfer عليه السلام’ın şöyle dediğini işittim: “Bir adam haram bir ayda öldürürse, haram aylardan iki ardışık ay oruç tutar.”",
-              "ur": "میں نے ابا جعفر علیہ السلام کو یہ فرماتے ہوئے سنا: “جب کوئی شخص حرمت والے مہینے میں قتل کرے تو وہ حرمت والے مہینوں میں سے دو مسلسل مہینے روزہ رکھتا ہے۔”",
-              "zh": "我听阿巴·贾法尔 عليه السلام说：“当一个人在禁月中杀人时，他要在禁月中连续封斋两个月。”"
-            },
             "word_end": 26,
             "word_start": 8
           }
@@ -110,24 +97,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَشْهُرِ الْحُرُمِ": "the sacred months within which the expiatory fasting is to be observed",
-            "شَهْرٍ حَرَامٍ": "a sacred month in which certain violations carry greater sanctity and seriousness",
-            "شَهْرَيْنِ مُتَتَابِعَيْنِ": "two consecutive months without interruption",
-            "صَامَ": "he must fast as an act of expiation"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "شَهْرٍ حَرَامٍ",
+          "صَامَ",
+          "شَهْرَيْنِ مُتَتَابِعَيْنِ",
+          "أَشْهُرِ الْحُرُمِ"
+        ],
         "related_quran": [
           {
             "ref": "5:92",
@@ -138,32 +113,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হারাম মাসে হত্যা ঘটলে কাফফারার রোজার বিধান কী?",
-          "de": "Wie lautet die Regel für das Sühnefasten, wenn ein Töten in einem heiligen Monat geschieht?",
-          "en": "What is the ruling for the expiatory fast when killing occurs in a sacred month?",
-          "es": "¿Cuál es la norma del ayuno expiatorio cuando ocurre una muerte en un mes sagrado?",
-          "fa": "اگر قتل در ماه حرام رخ دهد، حکم روزهٔ کفاره چیست؟",
-          "fr": "Quelle est la règle du jeûne expiatoire lorsqu’un meurtre a lieu pendant un mois sacré ?",
-          "id": "Apa hukum puasa kafarat ketika pembunuhan terjadi pada bulan haram?",
-          "ru": "Каково постановление о посте-искуплении, если убийство произошло в запретный месяц?",
-          "tr": "Haram bir ayda öldürme gerçekleşirse kefaret orucunun hükmü nedir?",
-          "ur": "حرمت والے مہینے میں قتل ہو جائے تو کفارے کے روزے کا حکم کیا ہے؟",
-          "zh": "如果在禁月中发生杀人，赎罪斋戒的规定是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি হারাম মাসে সংঘটিত হত্যার কাফফারার বিষয়ে একটি শরয়ি বিধান প্রদান করে। এতে বলা হয়েছে যে টানা দুই মাসের রোজা হারাম মাসগুলোর মধ্যেই পালন করতে হবে, যা সেই সময়ে অপরাধটির অতিরিক্ত পবিত্রতা ও গুরুতরতা স্পষ্ট করে।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung zur Sühne für ein Töten, das in einem heiligen Monat begangen wurde. Er besagt, dass das vorgeschriebene Fasten von zwei aufeinanderfolgenden Monaten innerhalb der heiligen Monate einzuhalten ist, und hebt die zusätzliche Heiligkeit und Schwere der Tat in dieser Zeit hervor.",
-          "en": "This hadith gives a legal ruling concerning expiation for killing committed during a sacred month. It states that the required fasting of two consecutive months is to be observed within the sacred months, highlighting the added sanctity and gravity of the offense in that time.",
-          "es": "Este hadiz establece una norma jurídica sobre la expiación por una muerte causada durante un mes sagrado. Indica que el ayuno obligatorio de dos meses consecutivos debe observarse dentro de los meses sagrados, destacando la santidad añadida y la gravedad de la falta en ese tiempo.",
-          "fa": "این حدیث، حکم شرعیِ کفاره برای قتلِ واقع‌شده در ماه حرام را بیان می‌کند. در آن آمده است که روزهٔ دو ماه پیاپی باید در میان ماه‌های حرام گرفته شود و بدین‌سان، حرمت و سنگینیِ افزودهٔ این گناه در آن زمان را نشان می‌دهد.",
-          "fr": "Ce hadith énonce une règle juridique concernant l’expiation pour un meurtre commis pendant un mois sacré. Il précise que le jeûne requis de deux mois consécutifs doit être observé parmi les mois sacrés, soulignant la sainteté accrue et la gravité de l’acte en ce temps.",
-          "id": "Hadis ini memberikan hukum fikih tentang kafarat bagi pembunuhan yang dilakukan pada bulan haram. Disebutkan bahwa puasa dua bulan berturut-turut harus dilakukan di dalam bulan-bulan haram, yang menegaskan kesucian tambahan dan beratnya pelanggaran pada waktu itu.",
-          "ru": "Этот хадис разъясняет правовое постановление относительно искупления за убийство, совершённое в запретный месяц. В нём говорится, что обязательный пост в течение двух последовательных месяцев следует соблюдать среди запретных месяцев, что подчёркивает дополнительную святость и тяжесть этого проступка в то время.",
-          "tr": "Bu hadis, haram bir ayda işlenen öldürme fiilinin kefaretiyle ilgili fıkhî hükmü بیان eder. İki ardışık ay orucun haram aylar içinde tutulması gerektiğini belirtir ve bu zamanda işlenen suçun ek kutsiyetini ve ağırlığını vurgular.",
-          "ur": "یہ حدیث حرمت والے مہینے میں قتل کے کفارے کے بارے میں شرعی حکم بیان کرتی ہے۔ اس میں بتایا گیا ہے کہ دو مسلسل مہینوں کے روزے حرمت والے مہینوں کے اندر رکھے جائیں، جس سے اس وقت اس جرم کی اضافی حرمت اور سنگینی واضح ہوتی ہے۔",
-          "zh": "这段圣训阐明了在禁月中发生杀人行为时的赎罪教法律例。它说明必须在禁月中连续封斋两个月，强调了该时段此罪行所具有的更高神圣性与严重性。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

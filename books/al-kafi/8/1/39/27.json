@@ -15,6 +15,117 @@
       "up": "/books/al-kafi:8:1:39"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ غَيْرِ وَاحِدٍ عَنْ غَيْرِ وَاحِدٍ عَنْ مُحَمَّدِ بْنِ عِيسَى عَنْ مُحَمَّدِ بْنِ عَمْرٍو بْنِ إِبْرَاهِيمَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 20,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُ أَبَا جَعْفَرٍ (عَلَيْهِ السَّلَامُ) وَ شَكَوْتُ إِلَيْهِ ضَعْفَ مَعِدَتِي فَقَالَ اشْرَبِ الْحَزَاءَ بِالْمَاءِ الْبَارِدِ فَفَعَلْتُ فَوَجَدْتُ مِنْهُ مَا أُحِبُّ.",
+            "chunk_type": "body",
+            "word_end": 40,
+            "word_start": 20
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 84,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "غَيْرِ وَاحِدٍ",
+              "name_en": "more than one person",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 27,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ عِيسَى",
+              "name_en": "Muhammad ibn Isa",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1677,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ عَمْرِو بْنِ إِبْرَاهِيمَ",
+              "name_en": "Muhammad b. Amr b. Ibrahim",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "ضَعْفَ مَعِدَتِي",
+          "الْحَزَاءَ",
+          "الْمَاءِ الْبَارِدِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:157",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:172",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "ethics"
+        ],
+        "topics": [
+          "imams_biography",
+          "halal_haram"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مهول</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 85)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -82,7 +193,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:39:27",

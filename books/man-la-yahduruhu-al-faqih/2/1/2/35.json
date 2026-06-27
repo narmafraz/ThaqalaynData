@@ -17,61 +17,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَ مُحَمَّدُ بْنُ مُسْلِمٍ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবনে মুসলিম আবু আব্দুল্লাহ عليه السلام-কে জিজ্ঞাসা করলেন:",
-              "de": "Muḥammad ibn Muslim fragte Abū ʿAbdillāh عليه السلام:",
-              "en": "Muḥammad ibn Muslim asked Abū ʿAbdillāh عليه السلام:",
-              "es": "Muḥammad ibn Muslim preguntó a Abū ʿAbdillāh عليه السلام:",
-              "fa": "محمد بن مسلم از ابی عبدالله علیه السلام پرسید:",
-              "fr": "Muḥammad ibn Muslim a demandé à Abū ʿAbdillāh عليه السلام :",
-              "id": "Muḥammad ibn Muslim bertanya kepada Abū ʿAbdillāh علیه السلام:",
-              "ru": "Мухаммад ибн Муслим спросил у Абу Абдиллаха عليه السلام:",
-              "tr": "Muhammed ibn Muslim, Ebu Abdillah'a عليه السلام sordu:",
-              "ur": "محمد ابن مسلم نے ابو عبداللہ علیہ السلام سے پوچھا:",
-              "zh": "穆罕默德本穆斯林向阿布阿卜杜拉 عليه السلام提问："
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "عَنِ الصَّرُورَةِ أَيَحُجُّ مِنَ الزَّكَاةِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে ব্যক্তি কখনো হজ করেনি সে কি জাকাত থেকে হজ করতে পারে?",
-              "de": "über denjenigen, der nie Hajj gemacht hat: darf er Hajj mit Zakat durchführen?",
-              "en": "about the one who has never performed hajj: may he perform hajj using zakat?",
-              "es": "sobre quien nunca ha realizado el hajj: ¿puede realizar el hajj usando zakat?",
-              "fa": "درباره کسی که هرگز حج انجام نداده است: آیا می‌تواند با زکات حج کند؟",
-              "fr": "au sujet de celui qui n'a jamais accompli le hajj : peut-il accomplir le hajj en utilisant la zakat ?",
-              "id": "tentang orang yang belum pernah menunaikan haji: apakah dia boleh menunaikan haji menggunakan zakat?",
-              "ru": "о том, кто никогда не совершал хадж: может ли он совершить хадж, используя закят?",
-              "tr": "Hiç hacca gitmemiş olan hakkında: haccı zekat ile yapabilir mi?",
-              "ur": "اس بارے میں کہ جو شخص کبھی حج نہیں کیا: کیا وہ زکات سے حج کر سکتا ہے؟",
-              "zh": "关于从未履行过朝觐的人：他可以用天课资金去朝觐吗？"
-            },
             "word_end": 14,
             "word_start": 9
           },
           {
             "arabic_text": "قَالَ «نَعَمْ».",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তিনি বললেন: \"হ্যাঁ।\"",
-              "de": "Er sagte: „Ja.“",
-              "en": "He said: \"Yes.\"",
-              "es": "Él dijo: \"Sí.\"",
-              "fa": "فرمود: «بله.»",
-              "fr": "Il a dit : « Oui. »",
-              "id": "Beliau berkata: \"Ya.\"",
-              "ru": "Он сказал: «Да.»",
-              "tr": "Şöyle dedi: \"Evet.\"",
-              "ur": "انہوں نے فرمایا: \"ہاں۔\"",
-              "zh": "他说：“是的。”"
-            },
             "word_end": 16,
             "word_start": 14
           }
@@ -110,24 +84,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الزَّكَاةِ": "zakat funds, the obligatory alms-tax",
-            "الصَّرُورَةِ": "a person who has never performed hajj",
-            "نَعَمْ": "an affirmative legal response meaning yes",
-            "يَحُجُّ": "to perform the hajj pilgrimage"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الصَّرُورَةِ",
+          "يَحُجُّ",
+          "الزَّكَاةِ",
+          "نَعَمْ"
+        ],
         "related_quran": [
           {
             "ref": "9:60",
@@ -138,32 +100,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কেউ কি যিনি কখনো হজ করেননি, জাকাত থেকে হজ করতে পারেন?",
-          "de": "Kann jemand, der noch nie Hajj gemacht hat, Zakat-Gelder verwenden, um zum Hajj zu gehen?",
-          "en": "Can someone who has never performed hajj use zakat funds to go for hajj?",
-          "es": "¿Puede alguien que nunca ha realizado el hajj usar fondos de zakat para ir al hajj?",
-          "fa": "آیا کسی که هرگز حج انجام نداده می‌تواند با وجوه زکات برای حج برود؟",
-          "fr": "Une personne qui n'a jamais accompli le hajj peut-elle utiliser les fonds de la zakat pour effectuer le hajj ?",
-          "id": "Apakah seseorang yang belum pernah menunaikan haji boleh menggunakan dana zakat untuk pergi haji?",
-          "ru": "Может ли человек, который никогда не совершал хадж, использовать средства закята для хаджа?",
-          "tr": "Hiç hacca gitmemiş biri zekat fonlarıyla hacca gidebilir mi?",
-          "ur": "کیا کوئی شخص جو کبھی حج نہیں کر سکا، زکات کے پیسے سے حج کر سکتا ہے؟",
-          "zh": "从未履行过朝觐的人可以用天课资金去朝觐吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি একটি আইনি সিদ্ধান্ত দেয় যে, যে ব্যক্তি এখনও হজ করেনি, সে কি জাকাত থেকে হজ করতে পারে। ইমাম আস-সাদিক عليه السلام ইতিবাচক উত্তর দিয়ে অনুমতি নির্দেশ করেছেন।",
-          "de": "Dieser Hadith gibt eine Rechtsauskunft darüber, ob eine Person, die noch nie Hajj gemacht hat, dies mit Zakat-Geldern tun darf. Imam al-Ṣādiq عليه السلام antwortet bejahend und zeigt die Erlaubnis in diesem Fall an.",
-          "en": "This hadith gives a legal ruling about whether a person who has not yet performed hajj may do so using zakat funds. Imam al-Ṣādiq عليه السلام replies in the affirmative, indicating permissibility in this case.",
-          "es": "Este hadiz da un fallo legal sobre si una persona que aún no ha realizado el hajj puede hacerlo usando fondos de zakat. El Imam al-Ṣādiq عليه السلام responde afirmativamente, indicando permisibilidad en este caso.",
-          "fa": "این حدیث حکم شرعی درباره اینکه آیا کسی که هنوز حج انجام نداده می‌تواند با استفاده از وجوه زکات حج کند را بیان می‌کند. امام صادق علیه السلام پاسخ مثبت داده و جواز را نشان می‌دهد.",
-          "fr": "Ce hadith donne un jugement légal sur la possibilité pour une personne n'ayant jamais accompli le hajj de le faire en utilisant les fonds de la zakat. L'Imam al-Ṣādiq عليه السلام répond par l'affirmative, indiquant la permissibilité dans ce cas.",
-          "id": "Hadis ini memberikan hukum tentang apakah seseorang yang belum pernah menunaikan haji boleh melakukannya menggunakan dana zakat. Imam al-Ṣādiq علیه السلام menjawab dengan afirmatif, menunjukkan bolehnya dalam kasus ini.",
-          "ru": "Этот хадис даёт юридическое постановление о том, может ли человек, который ещё не совершал хадж, сделать это, используя средства закята. Имам ас-Садик عليه السلام отвечает утвердительно, указывая на допустимость в этом случае.",
-          "tr": "Bu hadis, henüz hacca gitmemiş bir kişinin zekat fonlarıyla hacca gidip gidemeyeceği hakkında hukuki bir hüküm verir. İmam Sadık عليه السلام olumlu cevap vererek bu durumda izin olduğunu belirtir.",
-          "ur": "یہ حدیث اس قانونی حکم کو بیان کرتی ہے کہ جو شخص ابھی تک حج نہیں کر سکا، کیا وہ زکات کے پیسے سے حج کر سکتا ہے۔ امام الصادق علیہ السلام نے اجازت دی ہے، جو اس صورت میں جواز کی نشاندہی کرتا ہے۔",
-          "zh": "这段圣训给出了法律裁决，关于尚未履行朝觐的人是否可以使用天课资金去朝觐。伊玛目萨迪克 عليه السلام肯定回答，表明在此情况下是允许的。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

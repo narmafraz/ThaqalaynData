@@ -15,61 +15,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "الْحُسَيْنُ بْنُ سَعِيدٍ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ عُمَرَ بْنِ أُذَيْنَةَ عَنْ زُرَارَةَ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ, ইবন আবি উমাইর থেকে, তিনি উমর ইবন উধাইনা থেকে, তিনি জুরারাহ থেকে, তিনি আবু জাফর عليه السلام থেকে বর্ণনা করেছেন, যিনি বলেছেন:",
-              "de": "Al-Husayn ibn Sa'id, von Ibn Abi 'Umayr, von 'Umar ibn Udhaynah, von Zurarah, von Abi Ja'far عليه السلام, der sagte:",
-              "en": "Al-Husayn ibn Sa'id, from Ibn Abi 'Umayr, from 'Umar ibn Udhaynah, from Zurarah, from Abi Ja'far عليه السلام, who said:",
-              "es": "Al-Husayn ibn Sa'id, de Ibn Abi 'Umayr, de 'Umar ibn Udhaynah, de Zurarah, de Abi Ja'far عليه السلام, quien dijo:",
-              "fa": "الحسین بن سعید، از ابن ابی عمیر، از عمر بن اذینه، از زراره، از ابوجعفر علیه السلام روایت کرده است که فرمود:",
-              "fr": "Al-Husayn ibn Sa'id, d'Ibn Abi 'Umayr, de 'Umar ibn Udhaynah, de Zurarah, d'Abi Ja'far عليه السلام, qui a dit :",
-              "id": "Al-Husayn ibn Sa'id, dari Ibn Abi 'Umayr, dari 'Umar ibn Udhaynah, dari Zurarah, dari Abi Ja'far عليه السلام, yang berkata:",
-              "ru": "Аль-Хусайн ибн Са'ид, от Ибн Аби 'Умайра, от 'Умара ибн Удхайны, от Зурары, от Аби Джа'фара عليه السلام, который сказал:",
-              "tr": "El-Hüseyin ibn Sa'id, İbn Ebi Umeyr'den, o da Ömer ibn Udeyne'den, o da Zurâre'den, o da Ebu Ca'fer عليه السلام'dan rivayet etti ki şöyle dedi:",
-              "ur": "الحسین بن سعید، ابن ابی عمیر سے، وہ عمر بن اذینہ سے، وہ زرارہ سے، وہ ابو جعفر علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "Al-HusaynibnSa'id，传自IbnAbi'Umayr，传自'UmaribnUdhaynah，传自Zurarah，传自AbiJa'far عليه السلام，他说："
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "إِذَا أَدْرَكَ الرَّجُلُ بَعْضَ الصَّلَاةِ وَفَاتَهُ بَعْضٌ خَلْفَ إِمَامٍ يَحْتَسِبُ بِالصَّلَاةِ خَلْفَهُ جَعَلَ أَوَّلَ مَا أَدْرَكَ أَوَّلَ صَلَاتِهِ. إِنْ أَدْرَكَ مِنَ الظُّهْرِ أَوِ الْعَصْرِ أَوِ الْعِشَاءِ الرَّكْعَتَيْنِ وَفَاتَتْهُ رَكْعَتَانِ قَرَأَ فِي كُلِّ رَكْعَةٍ مِمَّا أَدْرَكَ خَلْفَ الْإِمَامِ فِي نَفْسِهِ بِأُمِّ الْكِتَابِ وَسُورَةٍ، فَإِنْ لَمْ يُدْرِكِ السُّورَةَ تَامَّةً أَجْزَأَتْهُ أُمُّ الْكِتَابِ. فَإِذَا سَلَّمَ الْإِمَامُ قَامَ فَصَلَّى رَكْعَتَيْنِ لَا يَقْرَأُ فِيهِمَا، لِأَنَّ الصَّلَاةَ إِنَّمَا يُقْرَأُ فِيهَا فِي الْأَوَّلَتَيْنِ فِي كُلِّ رَكْعَةٍ بِأُمِّ الْكِتَابِ وَسُورَةٍ، وَفِي الْأَخِيرَتَيْنِ لَا يُقْرَأُ فِيهِمَا، إِنَّمَا هُوَ تَسْبِيحٌ وَتَكْبِيرٌ وَتَهْلِيلٌ وَدُعَاءٌ، لَيْسَ فِيهِمَا قِرَاءَةٌ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি কোনো ব্যক্তি সালাতের (নামাজের) কিছু অংশ পায় এবং ইমামের পিছনে কিছু অংশ ছুটে যায়, আর সে ইমামের পিছনে তার সালাতকে বৈধ গণ্য করে, তবে সে যে অংশটি প্রথম পায় সেটিকেই নিজের সালাতের প্রথম অংশ গণ্য করবে। যদি সে যোহর, আসর বা ইশার প্রথম দুই রাকাআত পায় এবং দুই রাকাআত ছুটে যায়, তবে ইমামের পিছনে যে প্রতিটি রাকাআত পায়, তাতে সে নিজের মনে উম্মুল কিতাব এবং একটি সূরা পড়বে। যদি সে সূরাটি পুরোপুরি শেষ করতে না পারে, তবে উম্মুল কিতাবই তার জন্য যথেষ্ট। তারপর ইমাম সালাম ফিরালে সে দাঁড়াবে এবং দুই রাকাআত পড়বে, যাতে সে কিরাআত করবে না; কারণ সালাতে কিরাআত কেবল প্রথম দুই রাকাআতেই হয়, প্রতিটি রাকাআতে উম্মুল কিতাব এবং একটি সূরা সহ; আর শেষ দুই রাকাআতে কিরাআত নেই। বরং তাতে তাসবিহ, তাকবির, তাহলিল এবং দুআ থাকে, এবং তাতে কিরাআত নেই।",
-              "de": "Wenn ein Mann einen Teil der salat (des Gebets) erreicht und einen Teil davon hinter einem Imam verpasst, dessen Gebet hinter ihm er als gültig ansieht, dann macht er den ersten Teil, den er erreicht, zum ersten Teil seines eigenen salat (Gebets). Wenn er die ersten beiden rak'ahs von Zuhr, 'Asr oder 'Isha' erreicht und zwei rak'ahs verpasst, rezitiert er in jeder rak'ah, die er hinter dem Imam erreicht, leise für sich selbst Umm al-Kitab und eine surah. Wenn er die surah nicht vollständig beenden kann, genügt ihm Umm al-Kitab. Wenn dann der Imam salām gibt, steht er auf und betet zwei rak'ahs, in denen er nicht rezitiert, denn die Rezitation im salat (Gebet) ist nur in den ersten beiden rak'ahs, in jeder rak'ah mit Umm al-Kitab und einer surah; und in den letzten beiden gibt es keine Rezitation. Vielmehr bestehen sie aus tasbih, takbir, tahlil und du'a, und darin gibt es keine Rezitation.",
-              "en": "If a man catches part of the salat (prayer) and misses part of it behind an Imam whose prayer behind him he counts as valid, he makes the first part he catches the first part of his own salat (prayer). If he catches the first two rak'ahs of Zuhr, 'Asr, or 'Isha' and misses two rak'ahs, he recites quietly to himself in every rak'ah that he catches behind the Imam: Umm al-Kitab and a surah. If he is unable to complete the surah, Umm al-Kitab suffices him. Then when the Imam gives salām, he stands and prays two rak'ahs in which he does not recite, because recitation in the salat (prayer) is only in the first two rak'ahs, in every rak'ah with Umm al-Kitab and a surah; and in the last two there is no recitation. Rather, they consist of tasbih, takbir, tahlil, and du'a, and there is no recitation in them.",
-              "es": "Si un hombre alcanza parte de la salat (oración) y pierde parte de ella detrás de un Imam cuya oración detrás de él considera válida, hace que la primera parte que alcanza sea la primera parte de su propia salat (oración). Si alcanza las dos primeras rak'ahs del Zuhr, 'Asr o 'Isha' y pierde dos rak'ahs, recita en voz baja para sí mismo en cada rak'ah que alcanza detrás del Imam: Umm al-Kitab y una surah. Si no puede completar la surah, Umm al-Kitab le basta. Luego, cuando el Imam da salām, se pone de pie y reza dos rak'ahs en las que no recita, porque la recitación en la salat (oración) solo está en las dos primeras rak'ahs, en cada rak'ah con Umm al-Kitab y una surah; y en las dos últimas no hay recitación. Más bien, consisten en tasbih, takbir, tahlil y du'a, y no hay recitación en ellas.",
-              "fa": "اگر مردی بخشی از نماز را درک کند و بخشی از آن را پشت سر امامی از دست بدهد که نماز پشت سر او را معتبر می‌شمارد، آنچه را که نخست درک کرده، نخستین بخشِ نماز خود قرار می‌دهد. اگر از ظهر، عصر یا عشاء دو رکعت نخست را درک کند و دو رکعت از او فوت شود، در هر رکعتی که پشت سر امام درک کرده، در دلِ خود سورهٔ حمد و سوره‌ای می‌خواند. اگر نتواند سوره را کامل درک کند، سورهٔ حمد برای او کافی است. سپس هنگامی که امام سلام دهد، برمی‌خیزد و دو رکعت نماز می‌گزارد که در آن‌ها قرائت نمی‌کند؛ زیرا قرائت در نماز تنها در دو رکعت نخست است، در هر رکعت با سورهٔ حمد و سوره‌ای؛ و در دو رکعت آخر قرائت نیست. بلکه در آن‌ها تسبیح، تکبیر، تهلیل و دعاست، و در آن‌ها قرائتی نیست.",
-              "fr": "Si un homme rattrape une partie de la salat (prière) et en manque une partie derrière un Imam dont il considère valable la prière derrière lui, il fait de la première partie qu’il rattrape la première partie de sa propre salat (prière). S’il rattrape les deux premières rak'ahs du Zuhr, du 'Asr ou du 'Isha' et en manque deux rak'ahs, il récite à voix basse en lui-même, dans chaque rak'ah qu’il rattrape derrière l’Imam : Umm al-Kitab et une sourah. S’il n’est pas en mesure d’achever la sourah, Umm al-Kitab lui suffit. Puis, lorsque l’Imam fait le salām, il se lève et prie deux rak'ahs dans lesquelles il ne récite pas, car la récitation dans la salat (prière) n’a lieu que dans les deux premières rak'ahs, dans chaque rak'ah avec Umm al-Kitab et une sourah ; et dans les deux dernières, il n’y a pas de récitation. Elles consistent plutôt en tasbih, takbir, tahlil et du'a, et il n’y a pas de récitation en elles.",
-              "id": "Jika seseorang mendapatkan sebagian salat (shalat) dan tertinggal sebagian darinya di belakang seorang Imam yang ia anggap sah salat di belakangnya, maka bagian pertama yang ia dapatkan dijadikannya sebagai bagian pertama salatnya sendiri. Jika ia mendapatkan dua rakaat pertama dari Zuhur, Asar, atau Isya dan tertinggal dua rakaat, maka pada setiap rakaat yang ia dapatkan di belakang Imam ia membaca dalam dirinya sendiri Umm al-Kitab dan sebuah surah. Jika ia tidak mampu menyelesaikan surah itu, maka Umm al-Kitab sudah mencukupinya. Kemudian ketika Imam memberi salam, ia berdiri dan salat dua rakaat yang di dalamnya ia tidak membaca, karena bacaan dalam salat hanya ada pada dua rakaat pertama, pada setiap rakaat dengan Umm al-Kitab dan sebuah surah; sedangkan pada dua rakaat terakhir tidak ada bacaan. Melainkan di dalamnya ada tasbih, takbir, tahlil, dan du'a, dan tidak ada bacaan di dalamnya.",
-              "ru": "Если человек застал часть салат (молитвы) и пропустил часть её позади имама, молитву позади которого он считает действительной, то он делает первую застигнутую им часть первой частью своей собственной салат (молитвы). Если он застал первые два рак'ата Зухра, 'Асра или 'Иша' и пропустил два рак'ата, то в каждом рак'ате, который он застал позади имама, он читает про себя Умм аль-Китаб и одну суру. Если он не может полностью завершить суру, то Умм аль-Китаб достаточно для него. Затем, когда имам даёт салам, он встаёт и совершает два рак'ата, в которых не читает, потому что чтение в салат (молитве) бывает только в первых двух рак'атах, в каждом рак'ате с Умм аль-Китаб и сурой; а в последних двух чтения нет. Напротив, они состоят из тасбиха, такбира, тахлила и ду'а, и в них нет чтения.",
-              "tr": "Bir kimse salatın (namazın) bir kısmına yetişir ve bir kısmını, arkasında kıldığı namazı geçerli saydığı bir imamın arkasında kaçırırsa, yetiştiği ilk kısmı kendi salatının (namazının) ilk kısmı sayar. Eğer Zuhr, 'Asr veya 'Isha'nın ilk iki rek'atine yetişir ve iki rek'atı kaçırırsa, imamın arkasında yetiştiği her rek'atta kendi içinde sessizce Umm al-Kitab ve bir sure okur. Sureyi tam olarak tamamlayamazsa, Umm al-Kitab ona yeter. Sonra imam selam verince kalkar ve içinde kıraat olmayan iki rek'at kılar; çünkü salatta (namazda) kıraat yalnızca ilk iki rek'attadır, her rek'atta Umm al-Kitab ve bir sure ile; son iki rek'atta ise kıraat yoktur. Aksine bunlar tesbih, tekbir, tehlil ve duadan ibarettir; onlarda kıraat yoktur.",
-              "ur": "اگر کوئی شخص نماز کا کچھ حصہ پا لے اور کچھ حصہ امام کے پیچھے فوت ہو جائے، جبکہ وہ امام کے پیچھے اپنی نماز کو معتبر سمجھتا ہو، تو جو حصہ وہ پہلے پائے اسے اپنی نماز کا پہلا حصہ قرار دے۔ اگر وہ ظہر، عصر یا عشاء کی پہلی دو رکعتیں پا لے اور دو رکعتیں فوت ہو جائیں، تو وہ امام کے پیچھے پائی ہوئی ہر رکعت میں آہستہ اپنے نفس میں اُمّ الکتاب اور ایک سورت پڑھے۔ اگر وہ سورت پوری نہ پا سکے تو اُمّ الکتاب ہی اسے کافی ہے۔ پھر جب امام سلام پھیر دے تو وہ کھڑا ہو کر دو رکعتیں پڑھے جن میں وہ قراءت نہ کرے، کیونکہ نماز میں قراءت صرف پہلی دو رکعتوں میں ہوتی ہے، ہر رکعت میں اُمّ الکتاب اور ایک سورت کے ساتھ؛ اور آخری دو میں قراءت نہیں ہوتی۔ بلکہ ان میں تسبیح، تکبیر، تہلیل اور دعا ہوتی ہے، اور ان میں قراءت نہیں ہے۔",
-              "zh": "如果一个人赶上了salat（礼拜）的一部分，而在他认为其后礼拜有效的Imam后面错过了一部分，那么他把自己赶上的最初部分算作自己礼拜的最初部分。如果他赶上了Zuhr、'Asr或'Isha'的前两拜而错过了两拜，那么他在跟随Imam赶上的每一拜中，都在自己心里诵读Ummal-Kitab和一章古兰经。如果他不能完整诵完那一章，那么Ummal-Kitab就足够他了。然后当Imam致salām时，他站起来礼两拜，在这两拜中他不诵读，因为salat（礼拜）中的诵读只在前两拜中，每一拜都诵读Ummal-Kitab和一章古兰经；而在后两拜中没有诵读。相反，其中只有tasbih、takbir、tahlil和du'a，并没有诵读。"
-            },
             "word_end": 105,
             "word_start": 19
           },
           {
             "arabic_text": "فَإِنْ أَدْرَكَ رَكْعَةً قَرَأَ فِيهَا خَلْفَ الْإِمَامِ، فَإِذَا سَلَّمَ الْإِمَامُ قَامَ فَقَرَأَ أُمَّ الْكِتَابِ وَسُورَةً، ثُمَّ قَعَدَ فَتَشَهَّدَ، ثُمَّ قَامَ فَصَلَّى رَكْعَتَيْنِ لَيْسَ فِيهِمَا قِرَاءَةٌ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আর যদি সে এক রাকাআত পায়, তবে তাতে ইমামের পিছনে কিরাআত করবে। তারপর ইমাম সালাম ফিরালে সে দাঁড়িয়ে উম্মুল কিতাব এবং একটি সূরা পড়বে, তারপর বসে তাশাহহুদ পড়বে, তারপর দাঁড়িয়ে দুই রাকাআত পড়বে যাতে কিরাআত নেই।",
-              "de": "Und wenn er eine rak'ah erreicht, rezitiert er darin hinter dem Imam. Wenn dann der Imam salām gibt, steht er auf und rezitiert Umm al-Kitab und eine surah, setzt sich dann hin und rezitiert den tashahhud, dann steht er auf und betet zwei rak'ahs, in denen es keine Rezitation gibt.",
-              "en": "And if he catches one rak'ah, he recites in it behind the Imam. Then when the Imam gives salām, he stands and recites Umm al-Kitab and a surah, then sits and recites the tashahhud, then stands and prays two rak'ahs in which there is no recitation.",
-              "es": "Y si alcanza una rak'ah, recita en ella detrás del Imam. Luego, cuando el Imam da salām, se pone de pie y recita Umm al-Kitab y una surah, luego se sienta y recita el tashahhud, luego se pone de pie y reza dos rak'ahs en las que no hay recitación.",
-              "fa": "و اگر یک رکعت را درک کند، در آن پشت سر امام قرائت می‌کند. سپس هنگامی که امام سلام دهد، برمی‌خیزد و سورهٔ حمد و سوره‌ای می‌خواند، سپس می‌نشیند و تشهد می‌خواند، سپس برمی‌خیزد و دو رکعت نماز می‌گزارد که در آن‌ها قرائتی نیست.",
-              "fr": "Et s’il rattrape une rak'ah, il y récite derrière l’Imam. Puis, lorsque l’Imam fait le salām, il se lève et récite Umm al-Kitab et une sourah, puis s’assoit et récite le tashahhud, puis se lève et prie deux rak'ahs dans lesquelles il n’y a pas de récitation.",
-              "id": "Dan jika ia mendapatkan satu rakaat, maka ia membaca di dalamnya di belakang Imam. Kemudian ketika Imam memberi salam, ia berdiri dan membaca Umm al-Kitab dan sebuah surah, lalu duduk dan membaca tashahhud, سپس berdiri dan salat dua rakaat yang di dalamnya tidak ada bacaan.",
-              "ru": "И если он застал один рак'ат, то читает в нём позади имама. Затем, когда имам даёт салам, он встаёт и читает Умм аль-Китаб и одну суру, затем садится и читает ташаххуд, затем встаёт и совершает два рак'ата, в которых нет чтения.",
-              "tr": "Eğer bir rek'at yetişirse, onu imamın arkasında okur. Sonra imam selam verince kalkar, Umm al-Kitab ve bir sure okur, ardından oturup teşehhüd eder, sonra kalkar ve içinde kıraat olmayan iki rek'at kılar.",
-              "ur": "اور اگر وہ ایک رکعت پا لے تو اس میں امام کے پیچھے قراءت کرے۔ پھر جب امام سلام پھیر دے تو وہ کھڑا ہو کر اُمّ الکتاب اور ایک سورت پڑھے، پھر بیٹھ کر تشہد پڑھے، پھر کھڑا ہو کر دو رکعتیں پڑھے جن میں قراءت نہ ہو۔",
-              "zh": "如果他赶上一拜，那么他在其中跟随Imam诵读。然后当Imam致salām时，他站起来诵读Ummal-Kitab和一章古兰经，然后坐下诵读tashahhud，然后站起来礼两拜，在这两拜中没有诵读。"
-            },
             "word_end": 130,
             "word_start": 105
           }
@@ -102,28 +76,16 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أُمِّ الْكِتَابِ": "Surat al-Fatihah, recited in the first two rak'ahs",
-            "إِمَامٍ": "the prayer leader whom the follower joins in congregational salat (prayer)",
-            "الرَّكْعَتَيْنِ": "the two rak'ahs caught or missed in the congregational prayer",
-            "الصَّلَاةِ": "the salat (prayer) being partially caught and partially missed in congregation",
-            "تَسْبِيحٌ": "glorification of Allah performed in place of recitation in the final rak'ahs",
-            "تَكْبِيرٌ": "uttering magnification of Allah as part of the prescribed remembrance",
-            "تَهْلِيلٌ": "uttering the declaration of divine unity in the latter rak'ahs",
-            "سُورَةٍ": "an additional chapter recited after Umm al-Kitab"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الصَّلَاةِ",
+          "إِمَامٍ",
+          "الرَّكْعَتَيْنِ",
+          "أُمِّ الْكِتَابِ",
+          "سُورَةٍ",
+          "تَسْبِيحٌ",
+          "تَكْبِيرٌ",
+          "تَهْلِيلٌ"
+        ],
         "related_quran": [
           {
             "ref": "2:43",
@@ -138,32 +100,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমামের সঙ্গে এক বা দুই রাকাআত পেলে একজন ব্যক্তি কীভাবে তার সালাত সম্পূর্ণ করবে?",
-          "de": "Wie soll jemand seinen salat (sein Gebet) vervollständigen, wenn er mit dem Imam eine oder zwei rak'ahs erreicht hat?",
-          "en": "How should a latecomer complete his salat (prayer) after joining the Imam for one or two rak'ahs?",
-          "es": "¿Cómo debe completar su salat (oración) quien alcanza una o dos rak'ahs con el Imam?",
-          "fa": "وقتی کسی شخص با امام یک یا دو رکعت را درک کند، چگونه باید نماز خود را کامل کند؟",
-          "fr": "Comment doit-il compléter sa salat (prière) lorsqu’il a rattrapé une ou deux rak'ahs avec l’Imam ?",
-          "id": "Bagaimana seseorang menyempurnakan salat (shalat)nya setelah bergabung dengan Imam untuk satu atau dua rakaat?",
-          "ru": "Как должен завершить свою салат (молитву) тот, кто застал с имамом один или два рак'ата?",
-          "tr": "Bir kimse imamla bir veya iki rek'at yetiştirdiğinde salatını (namazını) nasıl tamamlamalıdır?",
-          "ur": "جب کوئی شخص امام کے ساتھ ایک یا دو رکعتیں پا لے تو وہ اپنی نماز کیسے مکمل کرے؟",
-          "zh": "当一个人跟随Imam赶上一拜或两拜时，他应如何完成自己的salat（礼拜）？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি সেই ব্যক্তির বিধান ব্যাখ্যা করে, যে জামাআতের সালাতে কিছু অংশ অতিক্রান্ত হওয়ার পর যোগ দেয়। এতে বলা হয়েছে, সে ইমামের সঙ্গে যা পায়, সেটিকে নিজের সালাতের শুরু হিসেবে গণ্য করবে, এবং কখন কিরাআত আবশ্যক আর কখন শুধু তাসবিহ, তাকবির, তাহলিল ও দুআ বলতে হবে তা স্পষ্ট করা হয়েছে।",
-          "de": "Dieser Hadith erklärt die Regel für jemanden, der sich dem gemeinschaftlichen salat (Gebet) anschließt, nachdem bereits ein Teil davon vergangen ist. Er legt dar, dass das, was der Nachzügler mit dem Imam erreicht, als Beginn seines eigenen salat (Gebets) gilt, und erläutert, wann Rezitation erforderlich ist und wann nur tasbih, takbir, tahlil und du'a gesagt werden.",
-          "en": "This hadith explains the ruling for one who joins congregational salat (prayer) after part of it has already passed. It instructs that what the latecomer catches with the Imam is treated as the beginning of his own salat (prayer), and it clarifies when recitation is required and when only tasbih, takbir, tahlil, and du'a are to be said.",
-          "es": "Este hadiz explica la norma para quien se une a la salat (oración) en congregación después de que parte de ella ya ha transcurrido. Indica que lo que el rezagado alcanza con el Imam se considera el comienzo de su propia salat (oración), y aclara cuándo se requiere la recitación y cuándo solo deben decirse tasbih, takbir, tahlil y du'a.",
-          "fa": "این حدیث حکم کسی را بیان می‌کند که پس از گذشتن بخشی از نماز جماعت به آن می‌پیوندد. در آن آمده است که آنچه را که مأموم با امام درک می‌کند، آغاز نماز خود به شمار آورد، و نیز روشن می‌کند که قرائت چه زمانی واجب است و چه زمانی تنها تسبیح، تکبیر، تهلیل و دعا گفته می‌شود.",
-          "fr": "Ce hadith explique la règle concernant celui qui rejoint la salat (prière) en جماعت après qu’une partie en a déjà passé. Il indique que ce que le retardataire rattrape avec l’Imam est considéré comme le début de sa propre salat (prière), et précise quand la récitation est requise et quand il ne faut dire que tasbih, takbir, tahlil et du'a.",
-          "id": "Hadis ini menjelaskan hukum bagi orang yang bergabung dalam salat (shalat) berjamaah setelah sebagian darinya telah berlalu. Hadis ini mengajarkan bahwa apa yang didapatkan makmum bersama Imam dihitung sebagai awal salatnya sendiri, dan menjelaskan kapan bacaan diperlukan dan kapan hanya tasbih, takbir, tahlil, dan du'a yang diucapkan.",
-          "ru": "Этот хадис разъясняет постановление для того, кто присоединяется к коллективной салат (молитве) после того, как часть её уже прошла. В нём говорится, что то, что опоздавший застал вместе с имамом, считается началом его собственной салат (молитвы), и разъясняется, когда требуется чтение, а когда следует произносить только тасбих, такбир, тахлил и ду'а.",
-          "tr": "Bu hadis, cemaatle kılınan salata (namaza) bir kısmı geçtikten sonra katılan kişinin hükmünü açıklar. İmamla birlikte yetiştiği kısmın kendi salatının (namazının) başlangıcı sayılacağını ve kıraatin ne zaman gerekli olduğunu, ne zaman yalnızca tesbih, tekbir, tehlil ve dua söyleneceğini açıklar.",
-          "ur": "یہ حدیث اس شخص کے حکم کو بیان کرتی ہے جو جماعت کی نماز میں اس کے کچھ حصے کے گزر جانے کے بعد شامل ہو۔ اس میں بتایا گیا ہے کہ جو حصہ مقتدی امام کے ساتھ پائے اسے اپنی نماز کا آغاز شمار کرے، اور یہ بھی واضح کیا گیا ہے کہ قراءت کب لازم ہے اور کب صرف تسبیح، تکبیر، تہلیل اور دعا کہی جاتی ہے۔",
-          "zh": "这段圣训阐明了一个人在部分礼拜已经过去后加入集体salat（礼拜）时的教法规定。它说明，后来者跟随Imam所赶上的部分，应视为自己礼拜的开始，并明确了何时需要诵读，何时只需说tasbih、takbir、tahlil和du'a。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

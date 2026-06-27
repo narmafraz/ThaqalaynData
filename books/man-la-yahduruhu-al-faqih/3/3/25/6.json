@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তিনি, সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম, বললেন:",
-              "de": "Und er, Friede sei mit ihm, sagte:",
-              "en": "And he, peace be upon him, said:",
-              "es": "Y él, la paz sea con él, dijo:",
-              "fa": "و او، سلام‌الله‌علیه، فرمود:",
-              "fr": "Et lui, que la paix soit sur lui, a dit :",
-              "id": "Dan beliau, keselamatan atasnya, berkata:",
-              "ru": "И он, мир ему, сказал:",
-              "tr": "Ve o, Allah'ın selamı üzerine olsun, dedi ki:",
-              "ur": "اور انہوں نے، علیہ السلام، فرمایا:",
-              "zh": "他，愿他安息，说："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "مَنْ كَانَ يَدِينُ بِدِينِ قَوْمٍ لَزِمَتْهُ أَحْكَامُهُمْ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে কেউ কোনো জাতির ধর্ম অনুসরণ করে, তার উপর তাদের বিধান বাধ্যতামূলক।",
-              "de": "Wer sich an die Religion eines Volkes hält, ist an deren Vorschriften gebunden.",
-              "en": "Whoever adheres to the religion of a people is bound by their rulings.",
-              "es": "Quien se adhiere a la religión de un pueblo está obligado por sus normas.",
-              "fa": "هر کس به دین قومی پایبند باشد، احکام آنها بر او لازم است.",
-              "fr": "Quiconque adhère à la religion d'un peuple est lié par leurs règles.",
-              "id": "Barangsiapa yang berpegang pada agama suatu kaum, maka hukum-hukum mereka mengikatnya.",
-              "ru": "Кто придерживается религии народа, тот связан их постановлениями.",
-              "tr": "Kim bir kavmin dinine bağlı kalırsa, onların hükümleri ona bağlayıcıdır.",
-              "ur": "جو کوئی کسی قوم کے دین کی پیروی کرتا ہے، اس پر ان کے احکام لازم ہوتے ہیں۔",
-              "zh": "凡遵循某民族宗教者，必受其法令约束。"
-            },
             "word_end": 11,
             "word_start": 4
           }
@@ -81,25 +68,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَحْكَامُهُمْ": "their rulings; the legal judgments and regulations belonging to them",
-            "بِدِينِ": "by the religion; the religious system or creed being followed",
-            "قَوْمٍ": "a people; a community or group",
-            "لَزِمَتْهُ": "became binding upon him; was incumbent on him",
-            "يَدِينُ": "adheres religiously; follows as a matter of religion"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَدِينُ",
+          "بِدِينِ",
+          "قَوْمٍ",
+          "لَزِمَتْهُ",
+          "أَحْكَامُهُمْ"
+        ],
         "related_quran": [
           {
             "ref": "5:42",
@@ -114,32 +89,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কোনো ব্যক্তি যদি কোনো সম্প্রদায়ের ধর্ম অনুসরণ করে, তাহলে সে কি ঐ সম্প্রদায়ের আইনি বিধানগুলোর বাধ্যতামূলক?",
-          "de": "Ist eine Person, die der Religion einer Gemeinschaft folgt, an die rechtlichen Vorschriften dieser Gemeinschaft gebunden?",
-          "en": "Is a person who follows a community's religion bound by that community's legal rulings?",
-          "es": "¿Está una persona que sigue la religión de una comunidad obligada por las normas legales de esa comunidad?",
-          "fa": "آیا شخصی که از دین یک جامعه پیروی می‌کند، ملزم به احکام قانونی آن جامعه است؟",
-          "fr": "Une personne qui suit la religion d'une communauté est-elle liée par les règles juridiques de cette communauté ?",
-          "id": "Apakah seseorang yang mengikuti agama suatu komunitas terikat oleh ketentuan hukum komunitas tersebut?",
-          "ru": "Обязан ли человек, следующий религии сообщества, соблюдать юридические постановления этого сообщества?",
-          "tr": "Bir kişi bir toplumun dinini takip ediyorsa, o toplumun hukuki hükümlerine bağlı mıdır?",
-          "ur": "کیا کوئی شخص جو کسی کمیونٹی کے دین کی پیروی کرتا ہے، اس کمیونٹی کے قانونی احکام کا پابند ہوتا ہے؟",
-          "zh": "遵循某社区宗教的人是否必须遵守该社区的法律规定？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে, যে ব্যক্তি কোনো সম্প্রদায়ের ধর্মের সাথে সম্পর্কিত এবং তার অনুসরণ করে, সে ঐ ধর্মের আইনি বিধানগুলোর অধীনে থাকে। বিবাহ আইনের প্রেক্ষাপটে, এটি একটি ফিকহি নীতিকে প্রকাশ করে যা ধর্মীয় সম্প্রদায়ের আইন অনুসারীদের উপর বাধ্যতামূলক বলকে নির্দেশ করে।",
-          "de": "Dieser Hadith besagt, dass eine Person, die sich einer Gemeinschaftsreligion anschließt und ihr folgt, an die damit verbundenen Rechtsvorschriften gebunden ist. Im Kontext des Eherechts drückt er ein juristisches Prinzip aus, das die bindende Kraft des gemeinschaftlichen Religionsrechts für seine Anhänger beschreibt.",
-          "en": "This hadith states that a person who affiliates with and follows the religion of a given community is subject to the legal rulings associated with that religion. In the context of marriage law, it expresses a jurisprudential principle concerning the binding force of communal religious law upon its adherents.",
-          "es": "Este hadiz establece que una persona que se afilia y sigue la religión de una comunidad está sujeta a las normas legales asociadas con esa religión. En el contexto del derecho matrimonial, expresa un principio jurisprudencial sobre la fuerza vinculante de la ley religiosa comunitaria para sus adherentes.",
-          "fa": "این حدیث بیان می‌کند که شخصی که به دین یک قوم تعلق دارد و از آن پیروی می‌کند، مشمول احکام قانونی آن دین است. در زمینه فقه ازدواج، این اصل فقهی درباره الزام‌آوری قوانین دینی جمعی بر پیروان آن را بیان می‌کند.",
-          "fr": "Ce hadith indique qu'une personne qui s'affilie et suit la religion d'une communauté est soumise aux règles juridiques associées à cette religion. Dans le contexte du droit matrimonial, il exprime un principe jurisprudentiel concernant la force contraignante du droit religieux communautaire sur ses adhérents.",
-          "id": "Hadis ini menyatakan bahwa seseorang yang berafiliasi dan mengikuti agama suatu komunitas terikat oleh ketentuan hukum yang terkait dengan agama tersebut. Dalam konteks hukum pernikahan, ini menyatakan prinsip fikih mengenai kekuatan mengikat hukum agama komunitas terhadap para pengikutnya.",
-          "ru": "Этот хадис утверждает, что человек, который принадлежит и следует религии определённого сообщества, подчиняется юридическим постановлениям, связанным с этой религией. В контексте брачного права он выражает юридический принцип, касающийся обязательной силы религиозного права сообщества для его последователей.",
-          "tr": "Bu hadis, bir kişinin belirli bir toplumun dinine bağlı olması ve onu takip etmesi durumunda, o dinin hukuki hükümlerine tabi olduğunu belirtir. Evlilik hukuku bağlamında, bu, topluluk dini hukukunun bağlıları üzerindeki bağlayıcı gücüne dair bir fıkhi prensibi ifade eder.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ جو شخص کسی خاص قوم کے دین سے تعلق رکھتا ہے اور اس کی پیروی کرتا ہے، وہ اس دین کے قانونی احکام کا پابند ہوتا ہے۔ نکاح کے قانون کے سیاق و سباق میں، یہ ایک فقہی اصول کو ظاہر کرتی ہے جو کہ جماعتی مذہبی قانون کی پابندی کو بیان کرتا ہے۔",
-          "zh": "此圣训指出，归属并遵循某社区宗教者，须遵守该宗教相关法律规定。在婚姻法语境中，表达了社区宗教法律对其信徒具有约束力的法理原则。"
-        },
         "tags": [
           "jurisprudence",
           "family",

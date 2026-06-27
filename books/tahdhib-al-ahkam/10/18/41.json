@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "سَهْلُ بْنُ زِيَادٍ عَنِ ٱبْنِ أَبِي نَصْرٍ عَنْ دَاوُدَ بْنِ سِرْحَانَ عَنْ أَبِي عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ: فِي",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "সাহল ইবন জিয়াদ, ইবন আবি নাসর থেকে, দাউদ ইবন সিরহান থেকে, আবু আবদুল্লাহ عليه السلام থেকে: সম্পর্কে",
-              "de": "Sahl ibn Ziyad, von Ibn Abi Nasr, von Dawud ibn Sirhan, von Abu Abd Allah عليه السلام: bezüglich",
-              "en": "Sahl ibn Ziyad, from Ibn Abi Nasr, from Dawud ibn Sirhan, from Abu Abd Allah عليه السلام: regarding",
-              "es": "Sahl ibn Ziyad, de Ibn Abi Nasr, de Dawud ibn Sirhan, de Abu Abd Allah عليه السلام: acerca de",
-              "fa": "سهل بن زیاد، از ابن ابی نصر، از داود بن سرحان، از ابو عبدالله علیه السلام: دربارهٔ",
-              "fr": "Sahl ibn Ziyad, d’Ibn Abi Nasr, de Dawud ibn Sirhan, d’Abu Abd Allah عليه السلام : au sujet de",
-              "id": "Sahl ibn Ziyad, dari Ibn Abi Nasr, dari Dawud ibn Sirhan, dari Abu Abd Allah عليه السلام: tentang",
-              "ru": "Сахль ибн Зияд, от Ибн Аби Насра, от Давуда ибн Сирхана, от Абу Абд Аллаха عليه السلام: относительно",
-              "tr": "Sahl ibn Ziyad, İbn Ebi Nasr’dan, Davud ibn Sirhan’dan, Ebu Abdillah عليه السلام’dan: hakkında",
-              "ur": "سہل بن زیاد، ابن ابی نصر سے، داود بن سرحان سے، ابو عبد اللہ علیہ السلام سے: کے بارے میں",
-              "zh": "萨赫勒·伊本·齐亚德，传自伊本·阿比·纳斯尔，传自达伍德·伊本·西尔汉，传自阿布·阿卜杜拉 عليه السلام：关于"
-            },
             "word_end": 18,
             "word_start": 0
           },
           {
             "arabic_text": "رَجُلٍ حَمَلَ مَتَاعًا عَلَى رَأْسِهِ فَأَصَابَ إِنْسَانًا فَمَاتَ أَوِ ٱنْكَسَرَ مِنْهُ، قَالَ: «هُوَ ضَامِنٌ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এক ব্যক্তি যে তার মাথায় মালপত্র বহন করছিল এবং একজনকে আঘাত করল, ফলে সে মারা গেল বা তার হাড় ভেঙে গেল—তিনি বললেন: \"সে দায়ী।\"",
-              "de": "Ein Mann, der Waren auf dem Kopf trug und damit eine Person traf, sodass diese starb oder sich dadurch einen Bruch zuzog, sagte er: „Er haftet dafür.“",
-              "en": "A man who carried goods on his head and struck a person, and he died or suffered a fracture from it—he said: \"He is liable.\"",
-              "es": "Un hombre que llevaba mercancías sobre su cabeza y golpeó a una persona, y esta murió o sufrió una fractura a causa de ello—dijo: «Él es responsable».",
-              "fa": "مردی که کالاهایی را بر سر خود حمل می‌کرد و به کسی برخورد کرد و او بر اثر آن مرد یا دچار شکستگی شد ـ فرمود: «او ضامن است.»",
-              "fr": "Un homme qui portait des marchandises sur sa tête et heurta une personne, qui en mourut ou se fractura un os—il dit : « Il en est responsable. »",
-              "id": "Seorang laki-laki yang membawa barang di atas kepalanya lalu mengenai seseorang, sehingga orang itu mati atau mengalami patah tulang karenanya—beliau bersabda: \"Ia bertanggung jawab.\"",
-              "ru": "О человеке, который нёс груз на голове и ударил им другого человека, и тот умер или получил из-за этого перелом, он сказал: «Он несёт ответственность».",
-              "tr": "Başında yük taşıyan ve bir kimseye çarpıp onun ölmesine ya da bir kırık meydana gelmesine sebep olan bir adam hakkında şöyle buyurdu: \"O, tazminle yükümlüdür.\"",
-              "ur": "ایک آدمی جس نے اپنا سامان اپنے سر پر اٹھایا ہوا تھا اور اس سے ایک شخص کو مارا، پھر وہ مر گیا یا اس سے اس کی ہڈی ٹوٹ گئی—انہوں نے فرمایا: \"وہ ضامن ہے۔\"",
-              "zh": "一个人头上扛着货物，撞到了别人，结果那人死了，或者因此骨折——他说：“他要负责。”"
-            },
             "word_end": 32,
             "word_start": 18
           }
@@ -104,27 +91,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِنْسَانًا": "a person who was harmed",
-            "رَأْسِهِ": "his head, indicating the manner of carrying the load",
-            "ضَامِنٌ": "legally liable or financially/responsibly accountable",
-            "فَأَصَابَ": "then he struck or afflicted, causing harm",
-            "فَمَاتَ": "then he died as a result",
-            "مَتَاعًا": "goods or belongings being carried",
-            "ٱنْكَسَرَ": "he suffered a fracture or broken limb"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "مَتَاعًا",
+          "رَأْسِهِ",
+          "فَأَصَابَ",
+          "إِنْسَانًا",
+          "فَمَاتَ",
+          "ٱنْكَسَرَ",
+          "ضَامِنٌ"
+        ],
         "related_quran": [
           {
             "ref": "4:92",
@@ -135,32 +110,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কেউ বহন করা বোঝা যদি কাউকে আহত বা নিহত করে, তবে কি সে দায়ী হবে?",
-          "de": "Ist eine Person haftbar, wenn die Last, die sie trägt, jemanden verletzt oder tötet?",
-          "en": "Is a person liable if the load he is carrying injures or kills someone?",
-          "es": "¿Es responsable una persona si la carga que lleva hiere o mata a alguien?",
-          "fa": "آیا اگر باری که کسی حمل می‌کند به کسی آسیب بزند یا او را بکشد، او ضامن است؟",
-          "fr": "Une personne est-elle responsable si la charge qu’elle porte blesse ou tue quelqu’un ?",
-          "id": "Apakah seseorang bertanggung jawab jika beban yang dibawanya melukai atau membunuh seseorang?",
-          "ru": "Несёт ли человек ответственность, если груз, который он несёт, ранит или убивает кого-то?",
-          "tr": "Taşıdığı yük birini yaralarsa veya öldürürse kişi sorumlu olur mu?",
-          "ur": "کیا اگر کوئی شخص جو سامان اٹھائے ہوئے ہو کسی کو زخمی یا ہلاک کر دے تو وہ ذمہ دار ہوگا؟",
-          "zh": "如果一个人携带的重物伤人或致人死亡，他是否要负责？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে বোঝা বহনের ফলে সৃষ্ট ক্ষতির দায় সম্পর্কে একটি শরঈ বিধান বর্ণিত হয়েছে। যদি কেউ মাথায় মাল বহন করে অন্য কাউকে আঘাত করে, ফলে সে মারা যায় বা তার হাড় ভেঙে যায়, তবে বহনকারী দায়ী হবে।",
-          "de": "Dieser Hadith enthält eine rechtliche Regel zur Haftung für Schaden, der durch das Tragen einer Last verursacht wird. Wenn jemand, der Waren auf dem Kopf trägt, eine andere Person verletzt, sodass diese stirbt oder einen Bruch erleidet, ist der Träger verantwortlich.",
-          "en": "This hadith gives a legal ruling on liability for harm caused by carrying a load. If a person carrying goods on his head injures another person such that he dies or suffers a fracture, the carrier is held responsible.",
-          "es": "Este hadiz establece una norma jurídica sobre la responsabilidad por el daño causado al llevar una carga. Si una persona que lleva mercancías sobre su cabeza hiere a otra hasta causarle la muerte o una fractura, el portador es responsable.",
-          "fa": "این حدیث حکمی فقهی دربارهٔ ضمانِ خسارتی است که بر اثر حمل بار وارد می‌شود. اگر کسی که کالا را بر سر خود حمل می‌کند به دیگری آسیب بزند به‌گونه‌ای که او بمیرد یا دچار شکستگی شود، حمل‌کننده مسئول است.",
-          "fr": "Ce hadith énonce une règle juridique concernant la responsabilité pour le dommage causé par le port d’une charge. Si une personne portant des marchandises sur sa tête blesse quelqu’un au point qu’il en meure ou se fracture un os, le porteur est tenu responsable.",
-          "id": "Hadis ini memberikan حكم hukum tentang tanggung jawab atas bahaya yang timbul karena membawa beban. Jika seseorang yang membawa barang di atas kepalanya melukai orang lain hingga orang itu mati atau patah tulang, maka pembawa barang itu bertanggung jawab.",
-          "ru": "Этот хадис устанавливает правовое решение относительно ответственности за вред, причинённый при переноске груза. Если человек, несущий товар на голове, ранит другого так, что тот умирает или получает перелом, то несущий несёт ответственность.",
-          "tr": "Bu hadis, yük taşımaktan doğan zararda sorumluluğa dair bir hüküm bildirir. Başında eşya taşıyan bir kimse başka birini yaralar da o kişi ölür veya bir kırık meydana gelirse, taşıyan kişi sorumlu tutulur.",
-          "ur": "یہ حدیث بوجھ اٹھانے سے ہونے والے نقصان کی ذمہ داری کے بارے میں شرعی حکم بیان کرتی ہے۔ اگر کوئی شخص اپنے سر پر سامان اٹھا کر کسی دوسرے کو زخمی کر دے، یہاں تک کہ وہ مر جائے یا اس کی ہڈی ٹوٹ جائے، تو سامان اٹھانے والا ذمہ دار ہوگا۔",
-          "zh": "这段圣训说明了因搬运重物而造成伤害的责任判定。如果一个人头上扛着货物并伤到别人，致其死亡或骨折，那么搬运者要承担责任。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations"

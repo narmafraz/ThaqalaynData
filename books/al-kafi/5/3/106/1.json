@@ -13,6 +13,139 @@
       "up": "/books/al-kafi:5:3:106"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ عَنْ مُحَمَّدِ بْنِ أَسْلَمَ عَنْ إِبْرَاهِيمَ بْنِ الْفَضْلِ عَنْ أَبَانِ بْنِ تَغْلِبَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 26,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قُلْتُ لِأَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) إِنِّي أَكُونُ فِي بَعْضِ الطُّرُقَاتِ فَأَرَى الْمَرْأَةَ الْحَسْنَاءَ وَ لَا آمَنُ أَنْ تَكُونَ ذَاتَ بَعْلٍ أَوْ مِنَ الْعَوَاهِرِ قَالَ لَيْسَ هَذَا عَلَيْكَ إِنَّمَا عَلَيْكَ أَنْ تُصَدِّقَهَا فِي نَفْسِهَا",
+            "chunk_type": "body",
+            "word_end": 62,
+            "word_start": 26
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 12,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ",
+              "name_en": "Ahmad b. Muhammad b. Khalid",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 67,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ عَلِيٍّ",
+              "name_en": "Muhammad ibn Ali",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 362,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ أَسْلَمَ",
+              "name_en": "Muhammad b. Aslam",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 739,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "إِبْرَاهِيمَ بْنِ الْفَضْلِ",
+              "name_en": "Ibrahim b. al-Fadl",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 148,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبَانِ بْنِ تَغْلِبَ",
+              "name_en": "Aban ibn Taghlub",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "ذَاتَ بَعْلٍ",
+          "الْعَوَاهِرِ",
+          "تُصَدِّقَهَا فِي نَفْسِهَا"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:235",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "65:4",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family",
+          "social_relations"
+        ],
+        "topics": [
+          "marriage_family_law",
+          "halal_haram",
+          "spousal_rights"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (20/249)"
       ],
@@ -93,7 +226,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:3:106:1",

@@ -15,42 +15,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ إِسْمَاعِيلَ عَنْ مُحَمَّدِ بْنِ عَمْرِو بْنِ سَعِيدٍ عَنْ أَبِي الْحَسَنِ الرِّضَا عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন মুহাম্মদ, আলী ইবন ইসমাঈল থেকে, মুহাম্মদ ইবন আমর ইবন সাঈদ থেকে, আবু আল-হাসান আল-রিদা عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Aḥmad ibn Muḥammad, von ʿAlī ibn Ismāʿīl, von Muḥammad ibn ʿAmr ibn Saʿīd, von Abū al-Ḥasan al-Riḍā عليه السلام, der sagte:",
-              "en": "Aḥmad ibn Muḥammad, from ʿAlī ibn Ismāʿīl, from Muḥammad ibn ʿAmr ibn Saʿīd, from Abū al-Ḥasan al-Riḍā عليه السلام, who said:",
-              "es": "Aḥmad ibn Muḥammad, de ʿAlī ibn Ismāʿīl, de Muḥammad ibn ʿAmr ibn Saʿīd, de Abū al-Ḥasan al-Riḍā عليه السلام, quien dijo:",
-              "fa": "احمد بن محمد، از علی بن اسماعیل، از محمد بن عمرو بن سعید، از ابوالحسن الرضا علیه السلام، که فرمود:",
-              "fr": "Aḥmad ibn Muḥammad, d’après ʿAlī ibn Ismāʿīl, d’après Muḥammad ibn ʿAmr ibn Saʿīd, d’après Abū al-Ḥasan al-Riḍā عليه السلام, qui a dit :",
-              "id": "Aḥmad ibn Muḥammad, dari ʿAlī ibn Ismāʿīl, dari Muḥammad ibn ʿAmr ibn Saʿīd, dari Abū al-Ḥasan al-Riḍā عليه السلام, yang berkata:",
-              "ru": "Ахмад ибн Мухаммад, от Али ибн Исмаила, от Мухаммада ибн Амра ибн Саида, от Абу аль-Хасана ар-Риды عليه السلام, который сказал:",
-              "tr": "Ahmed ibn Muhammed, Ali ibn İsmail’den, Muhammed ibn Amr ibn Said’den, Ebu’l-Hasan er-Rıza عليه السلام’dan rivayet etti ki, şöyle dedi:",
-              "ur": "احمد بن محمد، علی بن اسماعیل سے، محمد بن عمرو بن سعید سے، ابو الحسن الرضا علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "艾哈迈德·伊本·穆罕默德，传自阿里·伊本·伊斯马仪，传自穆罕默德·伊本·阿姆尔·伊本·赛义德，传自阿布·哈桑·里达 عليه السلام，他说："
-            },
             "word_end": 20,
             "word_start": 0
           },
           {
             "arabic_text": "لَا تَسْجُدْ عَلَى الْقِيرِ وَلَا عَلَى الْقُفْرِ وَلَا عَلَى الصَّارُوجِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "পিচের ওপর, না আল-কুফর-এর ওপর, আর না সারুজের ওপর সিজদা করো।",
-              "de": "Verrichtet keine Sajdah auf Pech, auch nicht auf al-qufr und auch nicht auf saruj.",
-              "en": "Do not perform sajdah upon pitch, nor upon al-qufr, nor upon saruj.",
-              "es": "No realicéis sajdah sobre la brea, ni sobre al-qufr, ni sobre saruj.",
-              "fa": "بر قیر، و نه بر القفر، و نه بر ساروج سجده نکنید.",
-              "fr": "Ne faites pas de sajdah sur le goudron, ni sur al-qufr, ni sur saruj.",
-              "id": "Janganlah melakukan sajdah di atas pitch, dan jangan pula di atas al-qufr, dan jangan pula di atas saruj.",
-              "ru": "Не совершайте саджда на смоле, ни на аль-куфр, ни на сарудж.",
-              "tr": "Zift üzerine, ne de el-kufr üzerine ve ne de saruc üzerine secde etmeyin.",
-              "ur": "قیر پر، نہ القفر پر، اور نہ ساروج پر سجدہ نہ کرو۔",
-              "zh": "不要在沥青上叩头，也不要在al-qufr上叩头，也不要在saruj上叩头。"
-            },
             "word_end": 30,
             "word_start": 20
           }
@@ -103,25 +90,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الصَّارُوجِ": "saruj, a plaster-like construction material prohibited here for sajdah",
-            "الْقُفْرِ": "al-qufr, a specified surface or material prohibited here for sajdah",
-            "الْقِيرِ": "pitch or tar, a substance on which sajdah is not permitted here",
-            "تَسْجُدْ": "to perform sajdah, meaning to prostrate in salat (prayer)",
-            "قَالَ": "he said, introducing the matn from the Imam عليه السلام"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "تَسْجُدْ",
+          "الْقِيرِ",
+          "الْقُفْرِ",
+          "الصَّارُوجِ",
+          "قَالَ"
+        ],
         "related_quran": [
           {
             "ref": "17:107",
@@ -132,32 +107,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-রিদা عليه السلام-এর মতে কোন কোন জিনিসের ওপর সিজদা করা জায়েজ নয়?",
-          "de": "Auf welchen Materialien ist die Sajdah nach Imam al-Riḍā عليه السلام nicht erlaubt?",
-          "en": "On which materials is sajdah not permitted according to Imam al-Riḍā عليه السلام?",
-          "es": "¿Sobre qué materiales no está permitida la sajdah según el Imam al-Riḍā عليه السلام?",
-          "fa": "بر اساس امام الرضا علیه السلام سجده بر چه چیزهایی جایز نیست؟",
-          "fr": "Sur quels matériaux la sajdah n’est-elle pas permise selon l’imam al-Riḍā عليه السلام ?",
-          "id": "Menurut Imam al-Riḍā عليه السلام, pada bahan apa sajdah tidak diperbolehkan?",
-          "ru": "На каких материалах саджда не разрешена согласно имаму ар-Риде عليه السلام?",
-          "tr": "İmam er-Rıza عليه السلام’a göre hangi maddeler üzerinde secde caiz değildir?",
-          "ur": "امام الرضا علیہ السلام کے مطابق کن چیزوں پر سجدہ جائز نہیں؟",
-          "zh": "根据伊玛目阿里达 عليه السلام，哪些材料上不允许叩头？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস সালাতে সিজদার স্থানের বৈধতা সম্পর্কে একটি ফিকহি বিধান দেয়। ইমাম আল-রিদা عليه السلام পিচ, আল-কুফর এবং সারুজের ওপর সিজদা করতে নিষেধ করেছেন, যা বোঝায় যে এসব বস্তু সিজদার জন্য উপযুক্ত নয়।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung über die Gültigkeit der Sajdah-Flächen im Salat (Gebet). Imam al-Riḍā عليه السلام verbietet die Sajdah auf Pech, al-qufr und saruj und zeigt damit, dass diese Materialien für die Niederwerfung nicht geeignet sind.",
-          "en": "This hadith gives a legal ruling regarding the validity of sajdah surfaces in salat (prayer). Imam al-Riḍā عليه السلام forbids performing sajdah on pitch, al-qufr, and saruj, indicating that these materials are not suitable surfaces for prostration.",
-          "es": "Este hadiz establece una norma jurídica sobre la validez de las superficies de sajdah en la salat (oración). El Imam al-Riḍā عليه السلام prohíbe hacer sajdah sobre la brea, al-qufr y saruj, indicando que estos materiales no son superficies adecuadas para la postración.",
-          "fa": "این حدیث حکمی فقهی دربارهٔ صحتِ محل‌های سجده در نماز بیان می‌کند. امام الرضا علیه السلام سجده بر قیر، القفر و ساروج را نهی می‌فرمایند و نشان می‌دهد که این مواد برای سجده مناسب نیستند.",
-          "fr": "Ce hadith énonce une règle juridique concernant la validité des surfaces de sajdah dans la salat (prière). L’imam al-Riḍā عليه السلام interdit de faire la sajdah sur le goudron, al-qufr et saruj, indiquant que ces matériaux ne conviennent pas pour la prosternation.",
-          "id": "Hadis ini memberikan حكم fikih tentang keabsahan permukaan sajdah dalam salat. Imam al-Riḍā عليه السلام melarang melakukan sajdah di atas pitch, al-qufr, dan saruj, yang menunjukkan bahwa bahan-bahan ini tidak layak untuk sujud.",
-          "ru": "Этот хадис содержит правовое постановление относительно допустимости поверхностей для саджда в салате (молитве). Имам ар-Рида عليه السلام запрещает совершать саджда на смоле, аль-куфр и сарудж, указывая, что эти материалы не подходят для земного поклона.",
-          "tr": "Bu hadis, salatta secde edilen yüzeylerin geçerliliğine dair fıkhî bir hüküm bildirir. İmam er-Rıza عليه السلام, zift, al-qufr ve saruj üzerinde secde etmeyi yasaklayarak bu maddelerin secde için uygun olmadığını belirtmektedir.",
-          "ur": "یہ حدیث سجدہ کی جگہوں کے بارے میں شرعی حکم بیان کرتی ہے۔ امام الرضا علیہ السلام قیر، القفر اور ساروج پر سجدہ کرنے سے منع فرماتے ہیں، جس سے معلوم ہوتا ہے کہ یہ چیزیں سجدے کے لیے مناسب نہیں ہیں۔",
-          "zh": "这段圣训给出了关于礼拜中叩头处所有效性的教法判定。伊玛目阿里达 عليه السلام禁止在沥青、al-qufr和saruj上叩头，表明这些材料不适合作为叩头的表面。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

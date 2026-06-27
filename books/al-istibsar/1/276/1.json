@@ -15,42 +15,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "الْحُسَيْنُ بْنُ سَعِيدٍ عَنْ صَفْوَانَ بْنِ يَحْيَى عَنْ عِيصِ بْنِ الْقَاسِمِ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ, সফওয়ান ইবন ইয়াহইয়া থেকে, ‘ঈসা ইবন আল-কাসিম থেকে, তিনি বলেন:",
-              "de": "Al-Husayn ibn Sa'id, von Safwan ibn Yahya, von 'Isa ibn al-Qasim, der sagte:",
-              "en": "Al-Husayn ibn Sa'id, from Safwan ibn Yahya, from 'Is ibn al-Qasim, who said:",
-              "es": "Al-Husayn ibn Sa'id, de Safwan ibn Yahya, de 'Isa ibn al-Qasim, quien dijo:",
-              "fa": "الحسین بن سعید، از صفوان بن یحیی، از عیسی بن القاسم، که گفت:",
-              "fr": "Al-Husayn ibn Sa'id, d'après Safwan ibn Yahya, d'après 'Isa ibn al-Qasim, qui a dit :",
-              "id": "Al-Husayn ibn Sa'id, dari Safwan ibn Yahya, dari 'Isa ibn al-Qasim, ia berkata:",
-              "ru": "Аль-Хусайн ибн Са'ид, от Сафвана ибн Яхьи, от 'Исы ибн аль-Касима, который сказал:",
-              "tr": "El-Hüseyin ibn Sa'id, Safvan ibn Yahya'dan, 'Isa ibn al-Qasim'den, o da şöyle dedi:",
-              "ur": "الحسین بن سعید، صفوان بن یحیی سے، عیسیٰ بن القاسم سے، انہوں نے کہا:",
-              "zh": "阿尔-侯赛因·伊本·赛义德，传自萨夫万·伊本·叶海亚，传自‘伊萨·伊本·卡西姆，他说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ عَنِ الرَّجُلِ يُدْرِكُ مِنَ الصَّلَاةِ عَلَى الْمَيِّتِ تَكْبِيرَةً، قَالَ: يُتِمُّ مَا بَقِيَ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবু ‘আবদুল্লাহ عليه السلام-কে এমন এক ব্যক্তির সম্পর্কে জিজ্ঞেস করলাম, যে মৃতের ওপর সালাতে একটি তাকবির পায়। তিনি বললেন: সে যা বাকি আছে তা পূর্ণ করবে।",
-              "de": "Ich fragte Abu 'Abd Allah عليه السلام nach einem Mann, der bei dem Gebet für den Verstorbenen nur einen Takbir erreicht. Er sagte: Er vervollständigt, was noch übrig ist.",
-              "en": "I asked Abu 'Abd Allah عليه السلام about a man who catches one takbir of the prayer over the deceased. He said: He completes what remains.",
-              "es": "Le pregunté a Abu 'Abd Allah عليه السلام acerca de un hombre que alcanza un solo takbir de la oración por el difunto. Dijo: Completa lo que queda.",
-              "fa": "از ابو عبد الله علیه السلام درباره مردی پرسیدم که از نماز بر میت یک تکبیر را درک کند. فرمود: آنچه باقی مانده است را کامل می‌کند.",
-              "fr": "J’ai interrogé Abu 'Abd Allah عليه السلام au sujet d’un homme qui rejoint une seule takbir de la prière sur le défunt. Il a dit : Il complète ce qui reste.",
-              "id": "Aku bertanya kepada Abu 'Abd Allah عليه السلام tentang seorang laki-laki yang mendapatkan satu takbir dari salat atas jenazah. Beliau bersabda: Ia menyempurnakan apa yang tersisa.",
-              "ru": "Я спросил Абу 'Абд Аллаха عليه السلام о человеке, который застает один такбир в молитве по умершему. Он сказал: Он завершает то, что осталось.",
-              "tr": "Ölü üzerine kılınan namazda bir tekbir yetiştiren bir adam hakkında Ebu 'Abd Allah عليه السلام'a sordum. Buyurdu ki: Geriye kalanını tamamlar.",
-              "ur": "میں نے ابو عبد اللہ علیہ السلام سے اس شخص کے بارے میں پوچھا جو میت پر نماز میں سے ایک تکبیر پا لے۔ آپ نے فرمایا: وہ باقی کو مکمل کرے۔",
-              "zh": "我问阿布·阿卜杜拉 عليه السلام：若有人在为亡者举行的礼拜中赶上一次大赞词，他说：他应完成其余的部分。"
-            },
             "word_end": 30,
             "word_start": 12
           }
@@ -93,25 +80,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الصَّلَاةِ عَلَى الْمَيِّتِ": "the funeral prayer performed over the deceased",
-            "تَكْبِيرَةً": "one utterance of takbir within the funeral prayer",
-            "مَا بَقِيَ": "what remains of the prayer",
-            "يُتِمُّ": "completes or finishes",
-            "يُدْرِكُ": "catches up to or joins in time for"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الصَّلَاةِ عَلَى الْمَيِّتِ",
+          "تَكْبِيرَةً",
+          "يُدْرِكُ",
+          "يُتِمُّ",
+          "مَا بَقِيَ"
+        ],
         "related_quran": [
           {
             "ref": "2:238",
@@ -122,32 +97,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কেউ যদি জানাজার সালাতে শুধু একটি তাকবির পায়, তবে কি তাকে বাকি অংশ পূর্ণ করতে হবে?",
-          "de": "Wenn jemand im Totengebet nur einen Takbir mitbekommt, soll er dann den Rest vervollständigen?",
-          "en": "If someone catches only one takbir of the funeral prayer, should he complete the rest?",
-          "es": "Si alguien alcanza solo un takbir en la oración fúnebre, ¿debe completar el resto?",
-          "fa": "اگر کسی فقط یک تکبیر از نماز میت را درک کند، آیا باید بقیه را کامل کند؟",
-          "fr": "Si quelqu’un ne rejoint qu’une seule takbir de la prière funéraire, doit-il compléter le reste ?",
-          "id": "Jika seseorang hanya mendapatkan satu takbir dalam salat jenazah, apakah ia harus menyempurnakan sisanya?",
-          "ru": "Если человек застал в погребальной молитве только один такбир, должен ли он завершить остальное?",
-          "tr": "Bir kimse cenaze namazında yalnızca bir tekbir yetiştirirse, बाकी kısmı tamamlamalı mıdır?",
-          "ur": "اگر کوئی شخص جنازے کی نماز میں صرف ایک تکبیر پا لے تو کیا اسے باقی نماز مکمل کرنی چاہیے؟",
-          "zh": "如果有人在殡礼拜中只赶上一次大赞词，他是否应完成其余部分？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে মৃতের ওপর সালাত সম্পর্কে একটি শরয়ি বিধান বর্ণিত হয়েছে: কেউ দেরিতে এসে যদি শুধু একটি তাকবির পায়, তবে ইমাম আস-সাদিক عليه السلام নির্দেশ দেন যে অবশিষ্ট তাকবিরগুলো পূর্ণ করতে হবে, অর্থাৎ যা ছুটে গেছে তা সম্পন্ন করতে হবে।",
-          "de": "Dieser Hadith enthält eine rechtliche Regelung zum salat für den Verstorbenen, wenn jemand verspätet eintrifft und nur einen Takbir mitbekommt. Imam al-Sadiq عليه السلام weist an, die verbleibenden Takbirs zu vervollständigen, was zeigt, dass das Versäumte nachzuholen ist.",
-          "en": "This hadith gives a legal ruling about salat over the deceased when a person joins late and catches only one takbir. Imam al-Sadiq عليه السلام instructs that he should complete the remaining takbirs, showing that what was missed is to be finished.",
-          "es": "Este hadiz expone una norma jurídica sobre la salat por el difunto cuando una persona llega tarde y solo alcanza un takbir. El Imam al-Sadiq عليه السلام নির্দেশa que debe completar los takbires restantes, mostrando que lo que se perdió debe ser completado.",
-          "fa": "این حدیث درباره حکم شرعی نماز بر میت است که اگر کسی دیر برسد و تنها یک تکبیر را درک کند، امام صادق علیه السلام دستور می‌دهد تکبیرهای باقی‌مانده را کامل کند و آنچه فوت شده است به پایان رسانده شود.",
-          "fr": "Ce hadith donne une règle juridique concernant la salat sur le défunt lorsqu’une personne arrive en retard et ne rejoint qu’une seule takbir. L’imam al-Sadiq عليه السلام ordonne de compléter les takbirs restants, montrant que ce qui a été manqué doit être achevé.",
-          "id": "Hadis ini memberikan hukum fikih tentang salat atas jenazah ketika seseorang datang terlambat dan hanya mendapatkan satu takbir. Imam al-Sadiq عليه السلام memerintahkan agar takbir yang tersisa disempurnakan, menunjukkan bahwa yang terlewat harus diselesaikan.",
-          "ru": "Этот хадис содержит правовое постановление о саляте по умершему, когда человек приходит поздно и застает только один такбир. Имам ас-Садик عليه السلام велит завершить оставшиеся такбиры, показывая, что пропущенное следует довести до конца.",
-          "tr": "Bu hadis, ölü üzerine kılınan salat hakkında, bir kimse geç katılıp yalnızca bir tekbir yetiştirdiğinde fıkhî hükmü بیان eder; İmam es-Sadık عليه السلام, eksik kalan tekbirlerin tamamlanmasını emreder.",
-          "ur": "یہ حدیث میت پر نماز کے بارے میں شرعی حکم بیان کرتی ہے کہ اگر کوئی شخص دیر سے شامل ہو اور صرف ایک تکبیر پا سکے تو امام صادق علیہ السلام کے مطابق اسے باقی تکبیریں پوری کرنی چاہئیں۔",
-          "zh": "这段圣训说明了关于为亡者举行的礼拜的教法律例：如果一个人来迟了，只赶上一次大赞词，伊玛目萨迪格 عليه السلام指示他应完成其余的大赞词，表明错过的部分应当补完。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

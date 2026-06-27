@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ عَلِيِّ بْنِ مَحْبُوبٍ عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ الْحَسَنِ بْنِ مَحْبُوبٍ عَنْ أَبِي أَيُّوبَ عَنْ أَبِي عُبَيْدَةَ وَالْحَلَبِيِّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন আলী ইবন মাহবূব, আহমদ ইবন মুহাম্মদ থেকে, তিনি হাসান ইবন মাহবূব থেকে, তিনি আবি আইয়ূব থেকে, তিনি আবি উবাইদাহ ও আল-হালাবী থেকে, তিনি আবি আবদিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "Muhammad ibn Ali ibn Mahbub, von Ahmad ibn Muhammad, von al-Hasan ibn Mahbub, von Abi Ayyub, von Abi ʿUbaydah und al-Halabi, von Abi ʿAbdillah عليه السلام, der sagte:",
-              "en": "Muḥammad ibn ʿAlī ibn Maḥbūb, from Aḥmad ibn Muḥammad, from al-Ḥasan ibn Maḥbūb, from Abī Ayyūb, from Abī ʿUbaydah and al-Ḥalabī, from Abī ʿAbdillāh عليه السلام, who said:",
-              "es": "Muhammad ibn Ali ibn Mahbub, de Ahmad ibn Muhammad, de al-Hasan ibn Mahbub, de Abi Ayyub, de Abi Ubaydah y al-Halabi, de Abi Abdillah عليه السلام, quien dijo:",
-              "fa": "محمد بن علی بن محبوب، از احمد بن محمد، از حسن بن محبوب، از ابی ایوب، از ابی عبیده و حلبی، از ابی عبدالله علیه السلام روایت کرد که فرمود:",
-              "fr": "Muhammad ibn Ali ibn Mahbub, d’Aḥmad ibn Muhammad, d’al-Hasan ibn Mahbub, d’Abi Ayyub, d’Abi ʿUbaydah et al-Halabi, d’Abi ʿAbdillah عليه السلام, qui a dit :",
-              "id": "Muhammad ibn Ali ibn Mahbub, dari Ahmad ibn Muhammad, dari al-Hasan ibn Mahbub, dari Abi Ayyub, dari Abi Ubaydah dan al-Halabi, dari Abi Abdillah عليه السلام, yang berkata:",
-              "ru": "Мухаммад ибн Али ибн Махбуб, от Ахмада ибн Мухаммада, от аль-Хасана ибн Махбуба, от Аби Айюба, от Аби Убайды и аль-Халаби, от Аби Абдуллаха عليه السلام, который сказал:",
-              "tr": "Muhammed ibn Ali ibn Mahbub, Ahmed ibn Muhammed’den, o Hasan ibn Mahbub’dan, o Ebu Eyyub’dan, o Ebu Ubeyde ve el-Halebi’den, o da Ebu Abdullah عليه السلام’dan rivayet etti ki şöyle dedi:",
-              "ur": "محمد بن علی بن محبوب، احمد بن محمد سے، وہ حسن بن محبوب سے، وہ ابی ایوب سے، وہ ابی عبیدہ اور حلبی سے، وہ ابی عبد اللہ علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "穆罕默德·伊本·阿里·伊本·马赫布卜，传自艾哈迈德·伊本·穆罕默德，传自哈桑·伊本·马赫布卜，传自阿比·艾尤卜，传自阿比·乌拜达和哈拉比，传自阿比·阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 27,
             "word_start": 0
           },
           {
             "arabic_text": "سُئِلَ عَنْ رَجُلٍ قَتَلَ امْرَأَةً خَطَأً وَهِيَ عَلَى رَأْسِ وَلَدِهَا تَمْخَضُ فَقَالَ: «خَمْسَةُ آلَافِ دِرْهَمٍ، وَعَلَيْهِ دِيَةُ الَّذِي فِي بَطْنِهَا غُرَّةٌ وَصِيفٌ أَوْ وَصِيفَةٌ أَوْ أَرْبَعُونَ دِينَارًا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন লোক সম্পর্কে জিজ্ঞাসা করা হয়েছিল, যে ভুলবশত এক নারীকে হত্যা করেছিল, যখন তিনি তাঁর সন্তানের প্রসববেদনায় ছিলেন। তিনি বললেন: “পাঁচ হাজার দিরহাম, এবং তার ওপর তার গর্ভে যা ছিল তার দিয়াহ: একটি গুররাহ, অর্থাৎ একটি দাস-ছেলে বা একটি দাসী, অথবা চল্লিশ দিনার।”",
-              "de": "Er wurde nach einem Mann gefragt, der eine Frau versehentlich tötete, während sie in den Wehen ihres Kindes lag. Er sagte: „Fünftausend Dirham, und auf ihm liegt die diyah für das, was in ihrem Bauch war: eine ghurrah, also ein männlicher Sklave oder eine weibliche Sklavin, oder vierzig Dinar.“",
-              "en": "He was asked about a man who killed a woman by mistake while she was in labor with her child. He said: “Five thousand dirhams, and upon him is the diyah of the one in her womb: a ghurrah, a male servant or a female servant, or forty dinars.”",
-              "es": "Se le preguntó acerca de un hombre que mató por error a una mujer mientras ella estaba de parto con su hijo. Dijo: “Cinco mil dirhams, y sobre él recae la diyah de lo que había en su vientre: una ghurrah, es decir, un esclavo varón o una esclava, o cuarenta dinares.”",
-              "fa": "از مردی پرسیده شد که زنی را به خطا کشت در حالی که او در حال زایمانِ فرزندش بود. فرمود: «پنج هزار درهم، و بر عهده او دیه آنچه در شکم او بود است: یک غُرّه، یعنی یک بردهٔ پسر یا یک کنیز، یا چهل دینار.»",
-              "fr": "On l’interrogea au sujet d’un homme qui avait tué par erreur une femme alors qu’elle était en travail avec son enfant. Il dit : « Cinq mille dirhams, et il lui incombe la diyah de ce qui était dans son ventre : une ghurrah, c’est-à-dire un esclave mâle ou une esclave femelle, ou quarante dinars. »",
-              "id": "Ditanyakan tentang seorang laki-laki yang membunuh seorang perempuan karena tidak sengaja ketika ia sedang dalam proses melahirkan anaknya. Ia berkata: “Lima ribu dirham, dan atasnya diyah bagi yang ada dalam rahimnya: sebuah ghurrah, yaitu seorang budak laki-laki atau seorang budak perempuan, atau empat puluh dinar.”",
-              "ru": "Его спросили о человеке, который по ошибке убил женщину, когда она рожала своего ребенка. Он сказал: «Пять тысяч дирхамов, и на нем лежит дийа за то, что было в ее утробе: гурхра, то есть раб-мужчина или рабыня, либо сорок динаров».",
-              "tr": "Karnındaki çocuğunu doğurmak üzere olan bir kadını yanlışlıkla öldüren bir adam hakkında soruldu. O şöyle dedi: “Beş bin dirhem ve onun üzerine, karnındaki çocuğun diyeti vardır: bir ghurrah, yani bir erkek köle veya bir kadın köle, yahut kırk dinar.”",
-              "ur": "ایک شخص کے بارے میں پوچھا گیا جس نے غلطی سے ایک عورت کو قتل کر دیا جبکہ وہ اپنے بچے کی ولادت کے درد میں تھی۔ آپ نے فرمایا: “پانچ ہزار درہم، اور اس کے ذمہ اس بچے کی دیت ہے جو اس کے پیٹ میں تھا: ایک غُرّہ، یعنی ایک غلام لڑکا یا ایک لونڈی، یا چالیس دینار۔”",
-              "zh": "有人问及一个人误杀了一名妇女，而她正因分娩而阵痛。他说：“五千迪拉姆，并且他还要承担她腹中胎儿的diyah：一份ghurrah，即一个男奴或一个女奴，或者四十第纳尔。”"
-            },
             "word_end": 54,
             "word_start": 27
           },
           {
             "arabic_text": "قَالَ مُحَمَّدُ بْنُ الْحَسَنِ: هَذِهِ الْأَخْبَارُ لَا تَنَافِيَ بَيْنَهَا وَبَيْنَ مَا قَدَّمْنَاهُ مِنْ أَنَّ دِيَةَ الْجَنِينِ مِائَةُ دِينَارٍ؛ لِأَنَّ تِلْكَ مَحْمُولَةٌ عَلَى جَنِينٍ قَدْ كَمَلَ وَتَمَّ غَيْرَ أَنَّهُ لَمْ تَلِجْ فِيهِ الرُّوحُ، وَهَذِهِ مَحْمُولَةٌ عَلَى امْرَأَةٍ تَطْرَحُ عَلَقَةً أَوْ مُضْغَةً، فَتَكُونُ دِيَتُهُ غُرَّةَ عَبْدٍ أَوْ أَمَةٍ، وَلَا تَنَافِيَ بَيْنَهُمَا عَلَى حَالٍ، وَالَّذِي يَدُلُّ عَلَى مَا قُلْنَاهُ مَا رَوَاهُ:",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন আল-হাসান বলেছেন: এই বর্ণনাগুলো আমাদের পূর্বে উপস্থাপিত বক্তব্যের বিরোধী নয় যে, ভ্রূণের দিয়াহ একশো দিনার; কারণ সেসব বর্ণনা এমন ভ্রূণের ওপর প্রযোজ্য, যা পূর্ণ ও সম্পূর্ণ হয়ে গেছে, তবে তাতে এখনো রূহ প্রবেশ করেনি। আর এই বর্ণনাটি এমন নারীর ওপর প্রযোজ্য, যিনি আলাকাহ বা মুদগাহ গর্ভপাত করেন; সুতরাং তার দিয়াহ হলো একটি গুররাহ, অর্থাৎ একটি পুরুষ দাস বা একটি দাসী। অতএব, কোনো অবস্থাতেই তাদের মধ্যে বিরোধ নেই, এবং আমরা যা বলেছি তার প্রমাণ হলো তিনি যা বর্ণনা করেছেন:",
-              "de": "Muhammad ibn al-Hasan sagte: Diese Überlieferungen widersprechen nicht dem, was wir zuvor dargelegt haben, dass die diyah des Fötus hundert Dinar beträgt, denn jene Überlieferungen sind auf einen Fötus zu beziehen, der vollständig und vollendet geworden ist, nur dass der Geist noch nicht in ihn eingetreten war. Diese Überlieferung ist auf eine Frau zu beziehen, die einen Blutklumpen oder ein Stück Fleisch abstößt; dann ist ihre diyah eine ghurrah: ein männlicher Sklave oder eine weibliche Sklavin. Es gibt also in keiner Weise einen Widerspruch zwischen ihnen, und was auf das von uns Gesagte hinweist, ist das, was er überliefert hat:",
-              "en": "Muḥammad ibn al-Ḥasan said: These reports do not contradict what we presented earlier, that the diyah of the fetus is one hundred dinars, because those reports are to be understood as referring to a fetus that had become complete and full-formed, except that the spirit had not yet entered it. This report is to be understood as referring to a woman who miscarries a clot or a lump of flesh, so its diyah is a ghurrah: a male slave or a female slave. Thus there is no contradiction between them in any way, and what indicates what we have said is what he narrated:",
-              "es": "Muhammad ibn al-Hasan dijo: Estos relatos no contradicen lo que presentamos antes, a saber, que la diyah del feto es de cien dinares, porque esos relatos se entienden referidos a un feto que ya había alcanzado su plenitud y estaba completo, salvo que el espíritu aún no había entrado en él. Este relato se entiende referido a una mujer que expulsa un coágulo o un trozo de carne, de modo que su diyah es una ghurrah: un esclavo varón o una esclava. Por tanto, no hay contradicción entre ambos en modo alguno, y lo que indica lo que hemos dicho es lo que él narró:",
-              "fa": "محمد بن حسن گفت: این اخبار با آنچه پیش‌تر آوردیم که دیه جنین صد دینار است منافاتی ندارد، زیرا آن اخبار بر جنینی حمل می‌شود که کامل و تمام شده باشد، جز آنکه روح هنوز در آن داخل نشده باشد. و این روایت بر زنی حمل می‌شود که علقه یا مضغه‌ای سقط کند، پس دیه آن غُرّهٔ یک بردهٔ مرد یا یک کنیز است. بنابراین در هیچ حالتی میان آن دو تنافی نیست، و آنچه بر گفتهٔ ما دلالت می‌کند همان است که او روایت کرده است:",
-              "fr": "Muhammad ibn al-Hasan a dit : Ces récits ne contredisent pas ce que nous avons présenté plus haut, à savoir que la diyah du fœtus est de cent dinars, car ces récits doivent être compris comme visant un fœtus qui était devenu complet et achevé, sauf que l’âme n’y était pas encore entrée. Ce récit doit être compris comme visant une femme qui expulse un caillot ou un morceau de chair, de sorte que sa diyah est une ghurrah : un esclave mâle ou une esclave femelle. Il n’y a donc en aucune manière de contradiction entre eux, et ce qui indique ce que nous avons dit est ce qu’il a rapporté :",
-              "id": "Muhammad ibn al-Hasan berkata: Riwayat-riwayat ini tidak bertentangan dengan apa yang telah kami kemukakan sebelumnya, bahwa diyah janin adalah seratus dinar, karena riwayat-riwayat itu dipahami sebagai janin yang telah sempurna dan lengkap, hanya saja ruh belum masuk ke dalamnya. Adapun riwayat ini dipahami sebagai perempuan yang keguguran segumpal darah atau segumpal daging, maka diyahnya adalah ghurrah, yaitu seorang budak laki-laki atau seorang budak perempuan. Maka tidak ada pertentangan antara keduanya dalam keadaan apa pun, dan yang menunjukkan apa yang kami katakan adalah apa yang ia riwayatkan:",
-              "ru": "Мухаммад ибн аль-Хасан сказал: Эти сообщения не противоречат тому, что мы привели ранее, а именно что дийа за плод составляет сто динаров, потому что те сообщения следует понимать как относящиеся к плоду, который уже стал совершенным и завершенным, но в который еще не вошла душа. А это сообщение следует понимать как относящееся к женщине, у которой произошел выкидыш сгустка или кусочка плоти, и тогда его дийа — гурхра: раб-мужчина или рабыня. Таким образом, между ними нет противоречия ни в каком отношении, и то, что указывает на сказанное нами, — это то, что он передал:",
-              "tr": "Muhammed ibn el-Hasan dedi ki: Bu rivayetler, daha önce ortaya koyduğumuz, ceninin diyeti yüz dinar olduğuna dair görüşümüze aykırı değildir; çünkü o rivayetler, kemale ermiş ve tamamlanmış, ancak ruh henüz ona girmemiş bir cenine hamledilir. Bu rivayet ise, bir alaka veya mudğa düşüren kadına hamledilir; böylece onun diyeti bir köle erkek veya bir cariye olan ghurrah olur. Dolayısıyla hiçbir durumda aralarında çelişki yoktur ve bizim söylediğimize delalet eden şey onun rivayet ettiğidir:",
-              "ur": "محمد بن الحسن نے کہا: یہ روایات اس بات کے خلاف نہیں جو ہم پہلے پیش کر چکے ہیں کہ جنین کی دیت سو دینار ہے، کیونکہ ان روایات کو اس جنین پر محمول کیا جاتا ہے جو کامل اور مکمل ہو چکا ہو، مگر اس میں روح ابھی داخل نہ ہوئی ہو۔ اور یہ روایت اس عورت پر محمول ہے جو لوتھڑا یا گوشت کا ٹکڑا ساقط کرے، تو اس کی دیت ایک غلام یا لونڈی کی غُرّہ ہے۔ پس کسی بھی حال میں ان دونوں کے درمیان کوئی تضاد نہیں، اور جو ہماری بات پر دلالت کرتا ہے وہ یہ ہے جو اس نے روایت کیا:",
-              "zh": "穆罕默德·伊本·哈桑说：这些传述并不与我们先前所提出的观点相矛盾，即胎儿的diyah是一百第纳尔，因为那些传述应理解为指一个已经完全成形、完备的胎儿，只是灵魂尚未进入其中。而这则传述应理解为指一位流产出血块或肉块的妇女，因此其diyah是一个ghurrah：一个男奴或一个女奴。所以二者在任何情况下都没有矛盾，而能说明我们所说之言的，就是他所传述的："
-            },
             "word_end": 112,
             "word_start": 54
           }
@@ -153,28 +127,16 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الَّذِي فِي بَطْنِهَا": "the fetus in her womb",
-            "خَطَأً": "by mistake; indicating accidental rather than intentional killing",
-            "دِيَةُ": "prescribed blood-money compensation owed for wrongful killing or injury",
-            "عَلَقَةً": "a clot-stage of embryonic development",
-            "غُرَّةٌ": "a specified compensation, here explained as a male or female servant, for the fetus at a particular stage",
-            "مُضْغَةً": "a lump-of-flesh stage of embryonic development",
-            "وَصِيفٌ": "a male servant given as compensation",
-            "وَصِيفَةٌ": "a female servant given as compensation"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "خَطَأً",
+          "دِيَةُ",
+          "الَّذِي فِي بَطْنِهَا",
+          "غُرَّةٌ",
+          "وَصِيفٌ",
+          "وَصِيفَةٌ",
+          "عَلَقَةً",
+          "مُضْغَةً"
+        ],
         "related_quran": [
           {
             "ref": "4:92",
@@ -193,32 +155,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে গর্ভবতী নারী ও তার ভ্রূণকে ভুলবশত হত্যা করার দিয়াহ কত?",
-          "de": "Wie hoch ist die diyah für das versehentliche Töten einer schwangeren Frau und ihres Fötus im schiitischen Hadith?",
-          "en": "What is the diyah for accidentally killing a pregnant woman and her fetus in Shia hadith?",
-          "es": "¿Cuál es la diyah por matar accidentalmente a una mujer embarazada y a su feto en el hadiz chií?",
-          "fa": "دیه کشتنِ خطاییِ زن باردار و جنین او در حدیث شیعه چیست؟",
-          "fr": "Quelle est la diyah pour avoir tué accidentellement une femme enceinte et son fœtus dans le hadith chiite ?",
-          "id": "Berapa diyah untuk membunuh seorang perempuan hamil dan janinnya secara tidak sengaja dalam hadis Syiah?",
-          "ru": "Какова дийа за случайное убийство беременной женщины и ее плода в шиитском хадисе?",
-          "tr": "Şii hadiste hamile bir kadını ve ceninini yanlışlıkla öldürmenin diyeti nedir?",
-          "ur": "شیا حدیث میں حاملہ عورت اور اس کے جنین کو خطا سے قتل کرنے کی دیت کیا ہے؟",
-          "zh": "什叶派圣训中误杀孕妇及其胎儿的diyah是多少？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনায় গর্ভবতী নারীকে ভুলবশত হত্যা করার ক্ষেত্রে নারী ও ভ্রূণ—উভয়ের জন্য যে দিয়াহ প্রযোজ্য, তার বিধান বর্ণিত হয়েছে; পাশাপাশি ভ্রূণের বিকাশের স্তরভেদ করে বর্ণনাগুলোর মধ্যে সমন্বয়ও করা হয়েছে।",
-          "de": "Diese Überlieferung enthält eine rechtliche Bestimmung über das versehentliche Töten einer schwangeren Frau und die für die Frau und den Fötus geschuldete Entschädigung. Außerdem versöhnt sie die Überlieferungen, indem sie bei der Bestimmung der diyah zwischen den Entwicklungsstufen des Fötus unterscheidet.",
-          "en": "This report gives a legal ruling concerning accidental killing of a pregnant woman and the compensation owed both for the woman and for the fetus. It also preserves Shaykh al-Ṭūsī’s reconciliation between reports by distinguishing between stages of fetal development in determining the amount of diyah.",
-          "es": "Este relato expone una norma jurídica sobre la muerte accidental de una mujer embarazada y la compensación debida tanto por la mujer como por el feto, y también concilia los informes distinguiendo entre las etapas del desarrollo fetal al determinar la cantidad de diyah.",
-          "fa": "این روایت حکمی فقهی درباره کشتنِ خطاییِ زن باردار و دیه‌ای که برای زن و جنین واجب می‌شود بیان می‌کند، و نیز با تفکیک مراحل رشد جنین میان روایات جمع می‌کند.",
-          "fr": "Ce récit expose une règle juridique concernant le fait de tuer accidentellement une femme enceinte et l’indemnité due à la fois pour la femme et pour le fœtus. Il concilie aussi les récits en distinguant les étapes du développement fœtal pour déterminer le montant de la diyah.",
-          "id": "Riwayat ini memberikan hukum tentang pembunuhan tidak sengaja terhadap seorang perempuan hamil dan diyah yang wajib atas perempuan dan janinnya, serta memadukan riwayat-riwayat dengan membedakan tahap-tahap perkembangan janin.",
-          "ru": "Этот хадис содержит правовое постановление о случайном убийстве беременной женщины и о возмещении, причитающемся как за женщину, так и за плод. Он также согласует сообщения, различая стадии развития плода при определении размера дийи.",
-          "tr": "Bu rivayet, hamile bir kadının yanlışlıkla öldürülmesi ve hem kadın hem de cenin için ödenmesi gereken diyet hakkında bir hüküm verir; ayrıca cenin gelişiminin aşamalarını ayırarak rivayetler arasında uzlaştırma yapar.",
-          "ur": "یہ روایت حاملہ عورت کے خطا سے قتل اور عورت و جنین دونوں کے لیے واجب ہونے والی دیت کے حکم کو بیان کرتی ہے، اور جنین کے مراحل کے فرق کے ذریعے روایات میں تطبیق بھی پیش کرتی ہے۔",
-          "zh": "这则传述说明了关于误杀孕妇以及对妇女和胎儿都应承担的赔偿的法律裁决，并且通过区分胎儿发育阶段来调和诸传述，以确定diyah的数额。"
-        },
         "tags": [
           "jurisprudence",
           "family",

@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ بِهَذَا الْإِسْنَادِ عَنْ سَعْدِ بْنِ طَرِيفٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং এই সনদে, সাʿদ ইবন Ṭarīf থেকে, আবূ জাʿফর عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Und mit dieser Überlieferungskette, von Saʿd ibn Ṭarīf, von Abū Jaʿfar عليه السلام, der sagte:",
-              "en": "And with this chain of transmission, from Saʿd ibn Ṭarīf, from Abū Jaʿfar عليه السلام, who said:",
-              "es": "Y con esta cadena de transmisión, de Saʿd ibn Ṭarīf, de Abū Jaʿfar عليه السلام, quien dijo:",
-              "fa": "و با این سلسلهٔ روایت، از سعد بن طریف، از ابوجعفر علیه السلام، که فرمود:",
-              "fr": "Et avec cette chaîne de transmission, d’après Saʿd ibn Ṭarīf, d’après Abū Jaʿfar عليه السلام, qui a dit :",
-              "id": "Dan dengan rantai periwayatan ini, dari Saʿd ibn Ṭarīf, dari Abū Jaʿfar عليه السلام, yang bersabda:",
-              "ru": "И с этой цепочкой передачи, от Саʿд ибн Ṭарīf, от Абу Джаʿфара عليه السلام, который сказал:",
-              "tr": "Ve bu rivayet zinciriyle, Saʿd ibn Ṭarīf'ten, Ebû Caʿfer عليه السلام'dan, şöyle dedi:",
-              "ur": "اور اس سند کے ساتھ، سعد بن طریف سے، ابو جعفر علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "并且通过这条传述链，来自SaʿdibnṬarīf，来自AbūJaʿfar عليه السلام，他说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "«مَنْ كَفَّنَ مُؤْمِنًا كَانَ كَمَنْ ضَمِنَ كِسْوَتَهُ إِلَى يَوْمِ الْقِيَامَةِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে ব্যক্তি কোনো মুমিনকে কাফন পরায়, সে যেন সেই ব্যক্তির মতো, যে কিয়ামতের দিন পর্যন্ত তার পোশাকের দায়িত্ব নিয়েছে।",
-              "de": "Wer einen Gläubigen in sein Leichentuch hüllt, ist wie jemand, der seine Kleidung bis zum Tag der Auferstehung garantiert hat.",
-              "en": "Whoever shrouds a believer is like one who has guaranteed his clothing until the Day of Resurrection.",
-              "es": "Quien envuelve en sudario a un creyente es como quien ha garantizado su vestimenta hasta el Día de la Resurrección.",
-              "fa": "هر کس مؤمنی را کفن کند، مانند کسی است که پوشاک او را تا روز قیامت تضمین کرده باشد.",
-              "fr": "Quiconque enveloppe un croyant dans son linceul est comme celui qui a garanti son vêtement jusqu’au Jour de la Résurrection.",
-              "id": "Barang siapa mengafani seorang المؤمن, maka ia seperti orang yang telah menjamin pakaiannya hingga Hari Kiamat.",
-              "ru": "Тот, кто облачает верующего в саван, подобен тому, кто гарантировал ему одежду до Дня воскресения.",
-              "tr": "Kim bir mümini kefenlerse, o, kıyamet gününe kadar onun elbisesini garanti altına alan kimse gibidir.",
-              "ur": "جو شخص کسی مؤمن کو کفن پہناتا ہے وہ اس شخص کی مانند ہے جس نے قیامت کے دن تک اس کے لباس کی ذمہ داری لے لی ہو۔",
-              "zh": "凡为一位信士裹尸的人，就如同那位已保证其衣着直到复活日的人。"
-            },
             "word_end": 23,
             "word_start": 13
           }
@@ -100,25 +87,13 @@
             "phrase_en": "Day of Resurrection"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "ضَمِنَ": "guaranteed or undertook responsibility for",
-            "كَفَّنَ": "prepared the funeral shroud for the deceased",
-            "كِسْوَتَهُ": "his clothing or covering",
-            "مُؤْمِنًا": "a believer; a faithful person",
-            "يَوْمِ الْقِيَامَةِ": "the Day of Resurrection, when people are raised for judgment"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "كَفَّنَ",
+          "مُؤْمِنًا",
+          "ضَمِنَ",
+          "كِسْوَتَهُ",
+          "يَوْمِ الْقِيَامَةِ"
+        ],
         "related_quran": [
           {
             "ref": "5:32",
@@ -133,32 +108,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামে একজন মৃত মুমিনকে কাফন দেওয়ার সওয়াব কী?",
-          "de": "Was ist die Belohnung dafür, einen verstorbenen Gläubigen im Islam zu shrouden?",
-          "en": "What is the reward for shrouding a deceased believer in Islam?",
-          "es": "¿Cuál es la recompensa de amortajar a un creyente fallecido en el Islam?",
-          "fa": "پاداش کفن کردنِ یک مؤمنِ درگذشته در اسلام چیست؟",
-          "fr": "Quelle est la récompense d’envelopper dans son linceul un croyant décédé en islam ?",
-          "id": "Apa pahala mengafani seorang mukmin yang telah wafat dalam Islam?",
-          "ru": "Какова награда за облачение умершего верующего в саван в исламе?",
-          "tr": "İslam'da vefat etmiş bir mümini kefenlemenin sevabı nedir?",
-          "ur": "اسلام میں وفات یافتہ مؤمن کو کفن دینے کا کیا اجر ہے؟",
-          "zh": "在伊斯兰中为亡故的信士裹尸有什么回赐？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে একজন মৃত মুমিনকে কাফন দেওয়ার মহান ফজিলত তুলে ধরা হয়েছে। এতে এই যত্ন ও মর্যাদার কাজকে এমন এক স্থায়ী সেবা হিসেবে দেখানো হয়েছে, যার প্রতিদান কিয়ামতের দিন পর্যন্ত পৌঁছে যায়।",
-          "de": "Dieser Hadith hebt die große Vorzüglichkeit hervor, einen verstorbenen Gläubigen zu shrouden. Er stellt diese Handlung der Fürsorge und Würde als einen bleibenden Dienst dar, dessen Lohn bis zum Tag der Auferstehung reicht.",
-          "en": "This hadith highlights the great merit of shrouding a deceased believer. It portrays this act of care and dignity as a lasting service whose reward extends until the Day of Resurrection.",
-          "es": "Este hadiz destaca el gran mérito de amortajar a un creyente fallecido. Presenta este acto de cuidado y dignidad como un servicio duradero cuya recompensa se extiende hasta el Día de la Resurrección.",
-          "fa": "این حدیث بر فضیلت بزرگ کفن کردنِ یک مؤمنِ درگذشته تأکید می‌کند. این عملِ رسیدگی و کرامت را خدمتی پایدار معرفی می‌کند که پاداش آن تا روز قیامت ادامه دارد.",
-          "fr": "Ce hadith met en lumière la grande vertu d’envelopper dans son linceul un croyant décédé. Il présente cet acte de soin et de dignité comme un service durable dont la récompense s’étend jusqu’au Jour de la Résurrection.",
-          "id": "Hadis ini menyoroti keutamaan besar mengafani seorang mukmin yang telah wafat. Ia menggambarkan tindakan perhatian dan pemuliaan ini sebagai pelayanan yang terus berlanjut, dengan pahala yang sampai Hari Kiamat.",
-          "ru": "Этот хадис подчеркивает великую заслугу облачения умершего верующего в саван. Он представляет этот акт заботы и достоинства как непрерывное служение, награда за которое продолжается до Дня воскресения.",
-          "tr": "Bu hadis, vefat etmiş bir mümini kefenlemenin büyük faziletini vurgular. Bu özen ve haysiyet davranışını, mükâfatı kıyamet gününe kadar süren kalıcı bir hizmet olarak tasvir eder.",
-          "ur": "یہ حدیث ایک وفات یافتہ مؤمن کو کفن دینے کی عظیم فضیلت کو بیان کرتی ہے۔ یہ اس خدمت اور عزت کے عمل کو ایک دائمی نیکی کے طور پر پیش کرتی ہے جس کا اجر قیامت کے دن تک پہنچتا ہے۔",
-          "zh": "这段圣训强调了为亡故的信士裹尸的巨大功德。它将这一关怀与尊严的行为描绘为一种持续的善行，其回赐延续到复活日。"
-        },
         "tags": [
           "ethics",
           "jurisprudence",

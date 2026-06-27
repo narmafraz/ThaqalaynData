@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "الْحُسَيْنُ بْنُ سَعِيدٍ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ حَفْصٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ, ইবন আবি উমাইর থেকে, হাফস থেকে, আবি আবদিল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Al-Husayn ibn Sa'id, von Ibn Abi 'Umayr, von Hafs, von Abi 'Abdillah عليه السلام, der sagte:",
-              "en": "Al-Husayn ibn Sa'id, from Ibn Abi 'Umayr, from Hafs, from Abi 'Abdillah عليه السلام, who said:",
-              "es": "Al-Husayn ibn Sa'id, de Ibn Abi 'Umayr, de Hafs, de Abi 'Abdillah عليه السلام, quien dijo:",
-              "fa": "الحسین بن سعید، از ابن ابی عمیر، از حفص، از ابی عبدالله علیه السلام، که فرمود:",
-              "fr": "Al-Husayn ibn Sa'id, d'Ibn Abi 'Umayr, de Hafs, d'Abi 'Abdillah عليه السلام, qui a dit :",
-              "id": "Al-Husayn ibn Sa'id, dari Ibn Abi 'Umayr, dari Hafs, dari Abi 'Abdillah عليه السلام, yang berkata:",
-              "ru": "Аль-Хусайн ибн Са'ид, от Ибн Аби 'Умайра, от Хафса, от Аби 'Абдуллаха عليه السلام, который сказал:",
-              "tr": "El-Hüseyin ibn Sa'id, İbn Ebi 'Umeyr'den, Hafs'tan, Ebu Abdullah عليه السلام'dan rivayet etti ki şöyle dedi:",
-              "ur": "الحسین بن سعید، ابن ابی عمیر سے، حفص سے، ابی عبداللہ علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "阿尔-侯赛因·伊本·赛义德，传自伊本·阿比·乌迈尔，传自哈夫斯，传自阿比·阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "يَقْضِي الصَّلَاةَ الَّتِي أَفَاقَ فِيهَا",
             "chunk_type": "body",
-            "translations": {
-              "bn": "সে সেই সালাতের (নামাজের) কাযা আদায় করে, যার সময়ে সে জ্ঞান ফিরে পেয়েছিল।",
-              "de": "Er holt die salat (Gebet) nach, während deren Zeit er wieder zu Bewusstsein kam.",
-              "en": "He makes up the salat (prayer) during whose time he regained consciousness.",
-              "es": "Él hace la qada de la salat (oración) durante cuyo tiempo recobró la conciencia.",
-              "fa": "او قضای آن صلات (نماز) را به جا می‌آورد که در وقت آن به هوش آمده بود.",
-              "fr": "Il rattrape la salat (prière) pendant le temps de laquelle il a repris conscience.",
-              "id": "Ia mengqadha salat (salat) yang pada waktunya ia sadar kembali.",
-              "ru": "Он восполняет ту салат (молитву), во время которой он пришёл в сознание.",
-              "tr": "Aklına geldiği vakit içinde bulunduğu salatın (namazın) kazasını kılar.",
-              "ur": "وہ اس صلاۃ کی قضا کرتا ہے جس کے وقت میں اسے ہوش آیا تھا۔",
-              "zh": "他补做他恢复意识时段内的礼拜。"
-            },
             "word_end": 21,
             "word_start": 16
           }
@@ -84,25 +71,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَفَاقَ": "he regained consciousness",
-            "الصَّلَاةَ": "the obligatory salat (prayer)",
-            "الَّتِي": "the one which",
-            "فِيهَا": "within its time",
-            "يَقْضِي": "he makes up or performs in qaḍāʾ"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَقْضِي",
+          "الصَّلَاةَ",
+          "الَّتِي",
+          "أَفَاقَ",
+          "فِيهَا"
+        ],
         "related_quran": [
           {
             "ref": "4:103",
@@ -113,32 +88,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "অচেতন ব্যক্তি জ্ঞান ফিরে পাওয়ার পর কোন সালাতের (নামাজের) কাযা আদায় করবে?",
-          "de": "Welche salat (Gebet) muss eine bewusstlose Person nach dem Wiedererlangen des Bewusstseins nachholen?",
-          "en": "Which salat (prayer) must an unconscious person make up after regaining consciousness?",
-          "es": "¿Qué salat (oración) debe hacer qada una persona inconsciente después de recobrar la conciencia?",
-          "fa": "یک فرد بیهوش پس از به هوش آمدن، قضای کدام صلات (نماز) را باید به جا آورد؟",
-          "fr": "Quelle salat (prière) une personne inconsciente doit-elle rattraper après avoir repris conscience ?",
-          "id": "Salat (salat) yang mana yang harus diqadha oleh orang yang tidak sadar setelah sadar kembali?",
-          "ru": "Какую салат (молитву) должен восполнить человек, потерявший сознание, после того как придёт в сознание?",
-          "tr": "Bir baygın kişi, kendine geldikten sonra hangi salatın (namazın) kazasını kılmalıdır?",
-          "ur": "بے ہوش شخص کو ہوش آنے کے بعد کون سی صلاۃ کی قضا کرنی چاہیے؟",
-          "zh": "失去意识的人恢复意识后必须补做哪番礼拜？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি অচেতন অবস্থায় থাকা ব্যক্তির সম্পর্কে একটি শরয়ি বিধান বর্ণনা করে। এতে বলা হয়েছে যে, যে সালাতের (নামাজের) সময়ে সে জ্ঞান ফিরে পেয়েছিল, তার কাযা তাকে আদায় করতে হবে।",
-          "de": "Dieser Hadith enthält eine rechtliche Regelung für jemanden, der bewusstlos war. Er besagt, dass er die salat (Gebet) nachholen muss, während deren Zeit er wieder zu Bewusstsein kam.",
-          "en": "This hadith gives a legal ruling concerning one who had been unconscious. It states that he must perform the make-up of the salat (prayer) whose time he lived to regain consciousness in.",
-          "es": "Este hadiz expone una norma jurídica sobre quien estuvo inconsciente. Indica que debe hacer la qada de la salat (oración) durante cuyo tiempo recobró la conciencia.",
-          "fa": "این حدیث درباره کسی که بیهوش بوده، حکمی شرعی بیان می‌کند. در آن آمده است که باید قضای آن صلات (نماز) را که در وقت آن به هوش آمده است، به جا آورد.",
-          "fr": "Ce hadith énonce une règle juridique concernant celui qui était inconscient. Il indique qu’il doit rattraper la salat (prière) pendant le temps de laquelle il a repris conscience.",
-          "id": "Hadis ini memberikan hukum syar'i tentang orang yang tidak sadar. Disebutkan bahwa ia harus mengqadha salat (salat) yang waktunya ia sempat sadar kembali di dalamnya.",
-          "ru": "Этот хадис разъясняет правовое постановление относительно того, кто был без сознания. В нём говорится, что он должен восполнить ту салат (молитву), во время которой пришёл в сознание.",
-          "tr": "Bu hadis, baygın olan kimse hakkında bir fıkhî hüküm bildirir. Buna göre, kendine geldiği vakit içinde olan salatın (namazın) kazasını kılması gerekir.",
-          "ur": "یہ حدیث بے ہوش رہنے والے شخص کے بارے میں شرعی حکم بیان کرتی ہے۔ اس میں کہا گیا ہے کہ اسے اس صلاۃ کی قضا کرنی ہوگی جس کے وقت میں اسے ہوش آیا تھا۔",
-          "zh": "这段圣训说明了关于失去意识者的教法律例。它指出，他必须补做他在其时间内恢复意识的那番礼拜。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

@@ -18,61 +18,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَ هِشَامُ بْنُ سَالِمٍ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "হিশাম ইবনে সালিম আবা আবদিল্লাহ عليه السلام-কে জিজ্ঞাসা করলেন:",
-              "de": "Hisham ibn Salim fragte Aba Abdillah علیه السلام:",
-              "en": "Hisham ibn Salim asked Aba Abdillah عليه السلام:",
-              "es": "Hisham ibn Salim preguntó a Aba Abdillah عليه السلام:",
-              "fa": "هشام بن سلیم از ابا عبدالله علیه السلام پرسید:",
-              "fr": "Hisham ibn Salim a demandé à Aba Abdillah عليه السلام :",
-              "id": "Hisham ibn Salim bertanya kepada Aba Abdillah علیه السلام:",
-              "ru": "Хишам ибн Салим спросил Абу Абдиллаха علیه السلام:",
-              "tr": "Hişam ibn Salim, Ebu Abdullah'a علیه السلام sordu:",
-              "ur": "ہشام ابن سلیم نے ابا عبداللہ علیہ السلام سے پوچھا:",
-              "zh": "希沙姆本萨利姆问阿巴阿卜杜拉 علیه السلام："
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "عَنْ شَارِبِ الْخَمْرِ وَالزَّانِي وَالسَّارِقِ يُصَلَّى عَلَيْهِمْ إِذَا مَاتُوا",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে ব্যক্তি মদ্যপান করে, জায়নাত করে এবং চোর: তাদের মৃত্যুর পর কি সালাত পড়া উচিত?",
-              "de": "über denjenigen, der Wein trinkt, den Ehebrecher und den Dieb: Soll über sie Salat verrichtet werden, wenn sie sterben?",
-              "en": "about the one who drinks wine, the adulterer, and the thief: should salat be offered over them when they die",
-              "es": "sobre el que bebe vino, el adúltero y el ladrón: ¿se debe realizar salat sobre ellos cuando mueren?",
-              "fa": "درباره کسی که شراب می‌نوشد، زناکار و دزد است: آیا بر آنها هنگام مرگ نماز خوانده می‌شود؟",
-              "fr": "au sujet de celui qui boit du vin, l'adultère et le voleur : doit-on faire la salat sur eux lorsqu'ils meurent ?",
-              "id": "tentang orang yang meminum khamar, pezina, dan pencuri: apakah salat dilakukan atas mereka ketika mereka meninggal?",
-              "ru": "о том, кто пьет вино, прелюбодеец и вор: следует ли совершать салят над ними после смерти?",
-              "tr": "Şarap içen, zina eden ve hırsız olan kişi hakkında: öldüklerinde üzerlerine salat kılınmalı mı?",
-              "ur": "وہ شخص جو شراب پیتا ہے، زانی ہے، اور چور ہے: کیا ان پر نماز جنازہ پڑھی جائے جب وہ مر جائیں؟",
-              "zh": "关于喝酒者、通奸者和小偷：他们去世时应否为他们祈祷？"
-            },
             "word_end": 18,
             "word_start": 9
           },
           {
             "arabic_text": "فَقَالَ «نَعَمْ.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তাহলে তিনি বললেন: \"হ্যাঁ।\"",
-              "de": "Er sagte: „Ja.“",
-              "en": "So he said: \"Yes.\"",
-              "es": "Entonces dijo: \"Sí.\"",
-              "fa": "پس فرمود: «بله.»",
-              "fr": "Alors il dit : « Oui. »",
-              "id": "Maka dia berkata: \"Ya.\"",
-              "ru": "Он сказал: «Да.»",
-              "tr": "Bunun üzerine şöyle dedi: \"Evet.\"",
-              "ur": "تو انہوں نے کہا: \"ہاں۔\"",
-              "zh": "于是他说：“是的。”"
-            },
             "word_end": 20,
             "word_start": 18
           }
@@ -131,26 +105,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِذَا مَاتُوا": "when they die",
-            "الزَّانِي": "one who commits zina",
-            "السَّارِقِ": "one who steals",
-            "شَارِبِ الْخَمْرِ": "one who drinks wine or intoxicants",
-            "نَعَمْ": "yes",
-            "يُصَلَّى عَلَيْهِمْ": "the funeral prayer is performed over them"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "شَارِبِ الْخَمْرِ",
+          "الزَّانِي",
+          "السَّارِقِ",
+          "يُصَلَّى عَلَيْهِمْ",
+          "إِذَا مَاتُوا",
+          "نَعَمْ"
+        ],
         "related_quran": [
           {
             "ref": "4:48",
@@ -165,32 +127,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "মদ্যপান, জায়নাত বা চুরি করা মুসলিমের জন্য কি জানাযা সালাত আদায় করা হয়?",
-          "de": "Wird das Salat al-Janazah für einen Muslim verrichtet, der Alkohol getrunken, Zina begangen oder gestohlen hat?",
-          "en": "Is salat al-janazah performed for a Muslim who drank alcohol, committed zina, or stole?",
-          "es": "¿Se realiza la salat al-janazah para un musulmán que bebió alcohol, cometió zina o robó?",
-          "fa": "آیا برای مسلمانی که شراب می‌نوشد، زنا می‌کند یا دزدی می‌کند، نماز جنازه خوانده می‌شود؟",
-          "fr": "La salat al-janazah est-elle effectuée pour un musulman qui a bu de l'alcool, commis le zina ou volé ?",
-          "id": "Apakah salat al-janazah dilakukan untuk Muslim yang meminum alkohol, berzina, atau mencuri?",
-          "ru": "Совершается ли салят аль-джаназа за мусульманина, который пил алкоголь, совершал зина или воровал?",
-          "tr": "Şarap içen, zina eden veya hırsızlık yapan bir Müslüman için salat al-janazah kılınır mı?",
-          "ur": "کیا شراب پینے، زنا کرنے یا چوری کرنے والے مسلمان کے لیے نماز جنازہ پڑھی جاتی ہے؟",
-          "zh": "是否为饮酒、通奸或偷窃的穆斯林举行殡葬祈祷？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস একটি শারঈ সিদ্ধান্ত দেয় যে, মদ্যপান, জায়নাত বা চুরির মতো বড় গুনাহে লিপ্ত মৃত মুসলিমদের জন্য জানাযা সালাত আদায় করা হয়। এটি নির্দেশ করে যে এই গুনাহগুলি করার ফলে জানাযা সালাতের ফরজিয়ত কমে না।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung, dass das Salat al-Janazah weiterhin für verstorbene Muslime verrichtet wird, selbst wenn sie für große Sünden wie Weintrinken, Zina oder Diebstahl bekannt waren. Er zeigt, dass die Begehung dieser Sünden die Pflicht des Totengebets nicht aufhebt.",
-          "en": "This hadith gives a legal ruling that salat al-janazah is still performed for deceased Muslims even if they were known for major sins such as drinking wine, zina, or theft. It indicates that the commission of these sins does not in itself remove the funeral prayer obligation.",
-          "es": "Este hadiz da un fallo legal que la salat al-janazah se realiza para los musulmanes fallecidos incluso si eran conocidos por pecados mayores como beber vino, cometer zina o robar. Indica que la comisión de estos pecados no elimina por sí misma la obligación de la oración funeraria.",
-          "fa": "این حدیث حکم شرعی می‌دهد که نماز جنازه برای مسلمانان فوت‌شده حتی اگر به گناهان کبیره مانند نوشیدن شراب، زنا یا دزدی معروف باشند، انجام می‌شود. این نشان می‌دهد که ارتکاب این گناهان به خودی خود وجوب نماز جنازه را از بین نمی‌برد.",
-          "fr": "Ce hadith donne un jugement légal selon lequel la salat al-janazah est toujours effectuée pour les musulmans décédés même s'ils étaient connus pour des péchés majeurs tels que boire du vin, commettre le zina ou voler. Il indique que la commission de ces péchés ne supprime pas en soi l'obligation de la prière funéraire.",
-          "id": "Hadis ini memberikan hukum bahwa salat al-janazah tetap dilakukan untuk Muslim yang meninggal meskipun mereka dikenal melakukan dosa besar seperti minum khamar, zina, atau mencuri. Ini menunjukkan bahwa melakukan dosa-dosa tersebut tidak menghilangkan kewajiban salat jenazah.",
-          "ru": "Этот хадис даёт юридическое постановление, что салят аль-джаназа совершается за умерших мусульман, даже если они были известны большими грехами, такими как употребление вина, зина или кража. Это указывает, что совершение этих грехов само по себе не снимает обязанность совершать похоронную молитву.",
-          "tr": "Bu hadis, şarap içmek, zina veya hırsızlık gibi büyük günahlar işlemiş olsa bile, vefat eden Müslümanlar için cenaze namazının kılınmaya devam edeceğine dair hukuki bir hüküm verir. Bu, bu günahların işlenmesinin cenaze namazı farzını ortadan kaldırmadığını gösterir.",
-          "ur": "یہ حدیث ایک شرعی حکم دیتی ہے کہ نماز جنازہ مرحوم مسلمانوں کے لیے ادا کی جاتی ہے چاہے وہ شراب نوشی، زنا یا چوری جیسے بڑے گناہوں میں مبتلا ہوں۔ یہ ظاہر کرتی ہے کہ ان گناہوں کا ارتکاب خود نماز جنازہ کی فرضیت کو ختم نہیں کرتا۔",
-          "zh": "这则圣训给出了法律裁决，即使已故穆斯林以饮酒、通奸或偷窃等重大罪行闻名，仍为他们举行殡葬祈祷。它表明犯下这些罪行本身并不取消殡葬祈祷的义务。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -11,6 +11,142 @@
       "up": "/books/al-kafi:6:2:76"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدٌ عَنْ أَحْمَدَ عَنْ ابْنِ فَضَّالٍ عَنْ مُفَضَّلِ بْنِ صَالِحٍ عَنْ لَيْثٍ الْمُرَادِيِّ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 14,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) عَنِ الْعَبْدِ هَلْ يَجُوزُ طَلَاقُهُ فَقَالَ إِنْ كَانَتْ أَمَتَكَ فَلَا",
+            "chunk_type": "body",
+            "word_end": 32,
+            "word_start": 14
+          },
+          {
+            "arabic_text": "إِنَّ اللَّهَ عَزَّ وَ جَلَّ يَقُولُ عَبْداً مَمْلُوكاً لَا يَقْدِرُ عَلى شَيْ‏ءٍ",
+            "chunk_type": "quran_quote",
+            "word_end": 44,
+            "word_start": 32
+          },
+          {
+            "arabic_text": "وَ إِنْ كَانَتْ أَمَةَ قَوْمٍ آخَرِينَ أَوْ حُرَّةً جَازَ طَلَاقُهُ",
+            "chunk_type": "closing",
+            "word_end": 54,
+            "word_start": 44
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 127,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدٌ",
+              "name_en": "Muhammad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 92,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ",
+              "name_en": "Ahmad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 22,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ فَضَّالٍ",
+              "name_en": "Ibn Faddal",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 452,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُفَضَّلِ بْنِ صَالِحٍ",
+              "name_en": "Mufaddal ibn Salih",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 430,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "لَيْثٍ الْمُرَادِيِّ",
+              "name_en": "al-Layth al-Muradi",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "طَلَاقُ",
+          "أَمَةٌ",
+          "حُرَّةٌ",
+          "عَبْدٌ مَمْلُوكٌ",
+          "لَا يَقْدِرُ عَلَى شَيْءٍ"
+        ],
+        "related_quran": [
+          {
+            "ref": "16:75",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "24:33",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family",
+          "quran_commentary"
+        ],
+        "topics": [
+          "marriage_family_law",
+          "quran_interpretation_method"
+        ]
+      },
       "index": 11075,
       "local_index": 2,
       "narrator_chain": {
@@ -80,7 +216,18 @@
       }
     },
     "verse_translations": [
-      "en.hubeali"
+      "en.hubeali",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:2:76:2",

@@ -15,6 +15,147 @@
       "up": "/books/al-kafi:8:1:44"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى عَنِ الْحُسَيْنِ بْنِ سَيْفٍ عَنْ أَخِيهِ عَنْ أَبِيهِ عَنْ أَبِي بَكْرٍ بْنِ مُحَمَّدٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 23,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) يَقْرَأُ وَ زُلْزِلُوا ثُمَّ زُلْزِلُوا حَتَّى يَقُولَ الرَّسُولُ.",
+            "chunk_type": "body",
+            "word_end": 37,
+            "word_start": 23
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 13,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى",
+              "name_en": "Ahmad ibn Muhammad ibn Isa",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 529,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنِ بْنِ سَيْفٍ",
+              "name_en": "al-Husayn b. Sayf",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 571,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَخِيهِ",
+              "name_en": "akhihi",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2043,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي بَكْرِ بْنِ مُحَمَّدٍ",
+              "name_en": "Abi Bakr b. Muhammad",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "زُلْزِلُوا",
+          "الرَّسُولُ",
+          "أَبُو عَبْدِ اللَّهِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:214",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "99:1",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "99:2",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "99:3",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "quran_commentary",
+          "worship"
+        ],
+        "topics": [
+          "quran_recitation",
+          "quran_interpretation_method",
+          "prophets",
+          "resurrection"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> حسن أو موثق على الظاهر</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 316)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -108,7 +249,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:44:48",

@@ -21,42 +21,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَلِيُّ بْنُ مُحَمَّدٍ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ الْكُوفِيِّ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ الْمَكْفُوفِ عَنْ عَمْرٍو الْأَهْوَازِيِّ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী ইবন মুহাম্মদ, জাফর ইবন মুহাম্মদ আল-কূফী থেকে, জাফর ইবন মুহাম্মদ আল-মাকফূফ থেকে, আমর আল-আহওয়াযী থেকে, তিনি বলেন:",
-              "de": "ʿAlī ibn Muḥammad, von Jaʿfar ibn Muḥammad al-Kūfī, von Jaʿfar ibn Muḥammad al-Makfūf, von ʿAmr al-Ahwāzī, der sagte:",
-              "en": "ʿAlī ibn Muḥammad, from Jaʿfar ibn Muḥammad al-Kūfī, from Jaʿfar ibn Muḥammad al-Makfūf, from ʿAmr al-Ahwāzī, who said:",
-              "es": "ʿAlī ibn Muḥammad, de Yaʿfar ibn Muḥammad al-Kūfī, de Yaʿfar ibn Muḥammad al-Makfūf, de ʿAmr al-Ahwāzī, quien dijo:",
-              "fa": "علی بن محمد، از جعفر بن محمد کوفی، از جعفر بن محمد مکفوف، از عمرو اهوازی، که گفت:",
-              "fr": "ʿAlī ibn Muḥammad, d’après Jaʿfar ibn Muḥammad al-Kūfī, d’après Jaʿfar ibn Muḥammad al-Makfūf, d’après ʿAmr al-Ahwāzī, qui a dit :",
-              "id": "Ali ibn Muhammad, dari Ja‘far ibn Muhammad al-Kufi, dari Ja‘far ibn Muhammad al-Makfuf, dari Amr al-Ahwazi, yang berkata:",
-              "ru": "ʿАли ибн Мухаммад, от Джаʿфара ибн Мухаммада аль-Куфи, от Джаʿфара ибн Мухаммада аль-Макфуфа, от ʿАмра аль-Ахвази, который сказал:",
-              "tr": "Ali ibn Muhammed, Cafer ibn Muhammed el-Kûfî’den, Cafer ibn Muhammed el-Mekfûf’tan, Amr el-Ahvâzî’den, o da şöyle dedi:",
-              "ur": "علی بن محمد، جعفر بن محمد الکوفی سے، جعفر بن محمد المکفوف سے، عمرو الاحوازی سے، جنہوں نے کہا:",
-              "zh": "阿里·伊本·穆罕默德，传自贾法尔·伊本·穆罕默德·库菲，传自贾法尔·伊本·穆罕默德·麦克福夫，传自阿姆尔·艾赫瓦兹，他说："
-            },
             "word_end": 17,
             "word_start": 0
           },
           {
             "arabic_text": "أَرَانِيهِ أَبُو مُحَمَّدٍ (عَلَيْهِ السَّلَامُ) وَقَالَ هَذَا صَاحِبُكُمْ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আবু মুহাম্মদ (আليه السلام) তাঁকে আমাকে দেখালেন এবং বললেন: “এই তোমাদের মনিব।”",
-              "de": "Abū Muḥammad (عليه السلام) zeigte ihn mir und sagte: „Das ist euer Herr.“",
-              "en": "Abū Muḥammad (عليه السلام) showed him to me and said: “This is your Master.”",
-              "es": "Abū Muḥammad (عليه السلام) me lo mostró y dijo: “Este es vuestro Señor.”",
-              "fa": "ابومحمد (علیه السلام) او را به من نشان داد و فرمود: «این سرور شماست.»",
-              "fr": "Abū Muḥammad (عليه السلام) me le montra et dit : « Voici votre Maître. »",
-              "id": "Abu Muhammad (عليه السلام) memperlihatkannya kepadaku dan bersabda: “Inilah tuanmu.”",
-              "ru": "Абу Мухаммад (عليه السلام) показал его мне и сказал: «Это ваш Господин».",
-              "tr": "Ebû Muhammed (aleyhisselâm) onu bana gösterdi ve şöyle dedi: “Bu sizin Efendinizdir.”",
-              "ur": "ابو محمد (عليه السلام) نے اسے مجھے دکھایا اور فرمایا: “یہ تمہارے مولا ہیں۔”",
-              "zh": "阿布·穆罕默德（ عليه السلام ）把他指给我看，并说：“这是你们的主。”"
-            },
             "word_end": 25,
             "word_start": 17
           }
@@ -115,25 +102,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبُو مُحَمَّدٍ": "Abū Muḥammad, the teknonym of Imam al-Ḥasan al-ʿAskarī (عليه السلام) in this report",
-            "أَرَانِيهِ": "showed him to me; indicating direct presentation or identification",
-            "صَاحِبُكُمْ": "your Master; referring to the recognized Imam",
-            "عَلَيْهِ السَّلَامُ": "peace be upon him; honorific used for the Imam",
-            "هَذَا": "this one; a direct demonstrative identification"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَبُو مُحَمَّدٍ",
+          "عَلَيْهِ السَّلَامُ",
+          "أَرَانِيهِ",
+          "هَذَا",
+          "صَاحِبُكُمْ"
+        ],
         "related_quran": [
           {
             "ref": "4:59",
@@ -148,32 +123,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস কীভাবে দেখায় যে আবু মুহাম্মদ (আليه السلام) তাঁর সাহাবিদের কাছে ইমামকে পরিচয় করিয়ে দিয়েছিলেন?",
-          "de": "Wie zeigt dieser Hadith, dass Abū Muḥammad (عليه السلام) den Imam seinen Gefährten vorstellte?",
-          "en": "How does this hadith indicate that Abū Muḥammad (عليه السلام) identified the Imam to his companions?",
-          "es": "¿Cómo indica este hadiz que Abū Muḥammad (عليه السلام) identificó al Imam ante sus compañeros?",
-          "fa": "این حدیث چگونه نشان می‌دهد که ابومحمد (علیه السلام) امام را به یارانش معرفی کرد؟",
-          "fr": "Comment ce hadith indique-t-il qu’Abū Muḥammad (عليه السلام) a identifié l’Imam à ses compagnons ?",
-          "id": "Bagaimana hadis ini menunjukkan bahwa Abu Muhammad (عليه السلام) memperkenalkan Imam kepada para sahabatnya?",
-          "ru": "Как этот хадис указывает на то, что Абу Мухаммад (عليه السلام) представил Имама своим сподвижникам?",
-          "tr": "Bu hadis, Ebû Muhammed’in (aleyhisselâm) imamı ashabına nasıl tanıttığını nasıl gösterir?",
-          "ur": "یہ حدیث کیسے ظاہر کرتی ہے کہ ابو محمد (عليه السلام) نے اپنے اصحاب کو امام کی پہچان کرائی؟",
-          "zh": "这段圣训如何表明阿布·穆罕默德（ عليه السلام ）向他的同伴们指认了伊玛目？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনায় বলা হয়েছে যে আবু মুহাম্মদ (আليه السلام) প্রত্যাশিত ব্যক্তিকে নিজে রাবির সামনে দেখিয়েছিলেন এবং তাঁকে তাদের মনিব হিসেবে পরিচয় করিয়ে দিয়েছিলেন। শিয়া ঐতিহ্যে এই বর্ণনাটি ইমামকে চেনা এবং তাঁর পরিচয় নিশ্চিত করার বিষয়ে গুরুত্বপূর্ণ সাক্ষ্য হিসেবে বিবেচিত।",
-          "de": "Dieser Bericht besagt, dass Abū Muḥammad (عليه السلام) dem Überlieferer die erwartete Gestalt persönlich zeigte und sie als ihren Herrn bezeichnete. Die Überlieferung ist in der schiitischen Tradition bedeutsam als Zeugnis für die Anerkennung des Imams und die Bestätigung seiner Identität.",
-          "en": "This report states that Abū Muḥammad (عليه السلام) personally showed the awaited figure to the narrator and identified him as their Master. The narration is significant in Shia tradition as a testimony concerning recognition of the Imam and affirmation of his identity.",
-          "es": "Este relato afirma que Abū Muḥammad (عليه السلام) mostró personalmente al narrador la figura esperada y la identificó como su Señor. La narración es significativa en la tradición chií como testimonio sobre el reconocimiento del Imam y la पुष्टि de su identidad.",
-          "fa": "این گزارش بیان می‌کند که ابومحمد (علیه السلام) شخصِ مورد انتظار را شخصاً به راوی نشان داد و او را سرور آنان معرفی کرد. این روایت در سنت شیعه به‌عنوان شهادتی درباره شناخت امام و تأیید هویت او اهمیت دارد.",
-          "fr": "Ce récit indique qu’Abū Muḥammad (عليه السلام) a montré lui-même au narrateur la figure attendue et l’a désignée comme leur Maître. Cette narration est importante dans la tradition chiite comme témoignage concernant la reconnaissance de l’Imam et l’affirmation de son identité.",
-          "id": "Riwayat ini menyatakan bahwa Abu Muhammad (عليه السلام) secara langsung memperlihatkan sosok yang dinanti itu kepada perawi dan mengenalkannya sebagai tuan mereka. Riwayat ini penting dalam tradisi Syiah sebagai kesaksian tentang pengenalan Imam dan penegasan identitasnya.",
-          "ru": "Этот рассказ сообщает, что Абу Мухаммад (عليه السلام) лично показал рассказчику ожидаемую фигуру и назвал его их Господином. Это предание имеет значение в шиитской традиции как свидетельство о признании Имама и подтверждении его личности.",
-          "tr": "Bu rivayet, Ebû Muhammed’in (aleyhisselâm) beklenen şahsı bizzat ravîye gösterdiğini ve onu onların Efendisi olarak tanıttığını bildirir. Bu rivayet, Şiî gelenekte imamın tanınması ve kimliğinin teyidi hakkında önemli bir şahitliktir.",
-          "ur": "یہ روایت بیان کرتی ہے کہ ابو محمد (عليه السلام) نے منتظر شخصیت کو خود راوی کو دکھایا اور اسے ان کا مولا قرار دیا۔ شیعہ روایت میں یہ حدیث امام کی شناخت اور اس کی شخصیت کی تصدیق کے بارے میں اہم ہے۔",
-          "zh": "这段传述说明阿布·穆罕默德（ عليه السلام ）亲自把那位被期待的人指给传述者看，并称他为你们的主。在什叶派传统中，这则传述作为关于认识伊玛目并确认其身份的见证具有重要意义。"
-        },
         "tags": [
           "theology",
           "history",

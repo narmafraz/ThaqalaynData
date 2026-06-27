@@ -21,99 +21,47 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَلِيٌّ عَنْ عَلِيِّ بْنِ الْحُسَيْنِ الْيَمَانِيِّ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী, আলী ইবনুল-হুসাইন আল-ইয়ামানী থেকে, যিনি বলেছেন:",
-              "de": "Ali, von Ali ibn al-Husayn al-Yamani, der sagte:",
-              "en": "Ali, from Ali ibn al-Husayn al-Yamani, who said:",
-              "es": "Ali, de Ali ibn al-Husayn al-Yamani, quien dijo:",
-              "fa": "علی، از علی بن الحسین الیمانی، که گفت:",
-              "fr": "Ali, d’après Ali ibn al-Husayn al-Yamani, qui a dit :",
-              "id": "Ali, dari Ali ibn al-Husayn al-Yamani, yang berkata:",
-              "ru": "Али, от Али ибн аль-Хусайна аль-Йамани, который сказал:",
-              "tr": "Ali, Ali ibn al-Husayn el-Yemani’den, şöyle dedi:",
-              "ur": "علی، علی بن الحسین الیمانی سے، جنہوں نے کہا:",
-              "zh": "阿里，传自阿里·伊本·侯赛因·亚马尼，他说："
-            },
             "word_end": 7,
             "word_start": 0
           },
           {
             "arabic_text": "كُنْتُ بِبَغْدَادَ فَتَهَيَّأَتْ قَافِلَةٌ لِلْيَمَانِيِّينَ فَأَرَدْتُ الْخُرُوجَ مَعَهَا فَكَتَبْتُ أَلْتَمِسُ الْإِذْنَ فِي ذَلِكَ فَخَرَجَ لَا تَخْرُجْ مَعَهُمْ فَلَيْسَ لَكَ فِي الْخُرُوجِ مَعَهُمْ خِيَرَةٌ وَأَقِمْ بِالْكُوفَةِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি বাগদাদে ছিলাম, আর ইয়েমেনিদের জন্য একটি কাফেলা প্রস্তুত হয়েছিল; আমি তার সঙ্গে বের হতে চেয়েছিলাম। তখন আমি এ বিষয়ে অনুমতি চেয়ে লিখলাম, আর উত্তর এল: “তাদের সঙ্গে বের হয়ো না, কারণ তাদের সঙ্গে বের হওয়ায় তোমার জন্য কোনো কল্যাণকর পছন্দ নেই, এবং কুফায় অবস্থান কর।”",
-              "de": "Ich war in Bagdad, und für die Jemeniten war eine Karawane vorbereitet worden; ich wollte mit ihr aufbrechen. So schrieb ich und bat um Erlaubnis in dieser Angelegenheit, und es kam heraus: „Geh nicht mit ihnen hinaus, denn es gibt für dich keine gute Wahl darin, mit ihnen hinauszugehen, und bleibe in al-Kufah.“",
-              "en": "I was in Baghdad, and a caravan for the Yemenis had been prepared, and I wanted to go out with it. So I wrote seeking permission concerning that, and there came out: “Do not go out with them, for there is no good choice for you in going out with them, and remain in al-Kufah.”",
-              "es": "Yo estaba en Bagdad, y se había preparado una caravana para los yemeníes; quise salir con ella. Entonces escribí pidiendo permiso sobre ذلك, y salió: “No salgas con ellos, pues no hay para ti una buena elección en salir con ellos, y permanece en al-Kufah.”",
-              "fa": "من در بغداد بودم و برای یمنی‌ها کاروانی آماده شده بود و می‌خواستم همراه آن بیرون بروم. پس در این باره اجازه خواستم و نوشتم، آنگاه پاسخ آمد: «با آنان بیرون نرو، زیرا در بیرون رفتن با آنان برای تو هیچ گزینش خیری نیست، و در کوفه بمان.»",
-              "fr": "J’étais à Bagdad, et une caravane pour les Yéménites avait été préparée ; je voulus partir avec elle. J’écrivis donc pour demander la permission à ce sujet, et il sortit : « Ne pars pas avec eux, car il n’y a pour toi aucun bon choix à partir avec eux, et demeure à al-Kufah. »",
-              "id": "Aku berada di Baghdad, dan sebuah kafilah untuk orang-orang Yaman telah disiapkan, lalu aku ingin berangkat bersamanya. Maka aku menulis untuk meminta izin tentang hal itu, lalu keluar jawaban: “Janganlah engkau berangkat bersama mereka, karena tidak ada pilihan yang baik bagimu dalam berangkat bersama mereka, dan tinggallah di al-Kufah.”",
-              "ru": "Я был в Багдаде, и для йеменцев была подготовлена караванная группа; я хотел отправиться вместе с ней. Тогда я написал, прося разрешения на это, и вышло: «Не выходи вместе с ними, ибо нет для тебя в выходе с ними никакого благого выбора, и оставайся в аль-Куфе».",
-              "tr": "Ben Bağdat’taydım ve Yemenliler için bir kervan hazırlanmıştı; ben de onunla çıkmak istedim. Bunun üzerine bu konuda izin isteyerek yazdım; şöyle cevap geldi: “Onlarla çıkma, çünkü onlarla çıkmanda senin için bir hayır yoktur; Kufe’de kal.”",
-              "ur": "میں بغداد میں تھا، اور یمنیوں کے لیے ایک قافلہ تیار ہو گیا تھا، تو میں اس کے ساتھ نکلنا چاہتا تھا۔ چنانچہ میں نے اس بارے میں اجازت طلب کرتے ہوئے لکھا، تو جواب آیا: “ان کے ساتھ نہ نکلو، کیونکہ ان کے ساتھ نکلنے میں تمہارے لیے کوئی بہتر انتخاب نہیں، اور کوفہ میں مقیم رہو۔”",
-              "zh": "我在巴格达，已经为也门人准备了一支商队，我想和他们一起出发。于是我写信请求对此事的许可，结果回信说：“不要和他们一起出去，因为你和他们一起出去对你没有任何好的选择，你就留在库法吧。”"
-            },
             "word_end": 32,
             "word_start": 7
           },
           {
             "arabic_text": "قَالَ وَأَقَمْتُ وَخَرَجَتِ الْقَافِلَةُ فَخَرَجَتْ عَلَيْهِمْ حَنْظَلَةُ فَاجْتَاحَتْهُمْ وَكَتَبْتُ أَسْتَأْذِنُ فِي رُكُوبِ الْمَاءِ فَلَمْ يَأْذَنْ لِي فَسَأَلْتُ عَنِ الْمَرَاكِبِ الَّتِي خَرَجَتْ فِي تِلْكَ السَّنَةِ فِي الْبَحْرِ فَمَا سَلِمَ مِنْهَا مَرْكَبٌ خَرَجَ عَلَيْهَا قَوْمٌ مِنَ الْهِنْدِ يُقَالُ لَهُمُ الْبَوَارِجُ فَقَطَعُوا عَلَيْهَا",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বলেন: আমি থেকে গেলাম, আর কাফেলা বেরিয়ে গেল। তারপর হানযালা তাদের ওপর আক্রমণ করে তাদের ধ্বংস করে দিল। আর আমি পানির পথে সফর করার অনুমতি চাইলাম, কিন্তু তিনি আমাকে অনুমতি দিলেন না। তারপর আমি সে বছর সমুদ্রে বের হওয়া জাহাজগুলোর ব্যাপারে জিজ্ঞেস করলাম, আর সেগুলোর একটিও নিরাপদে বাঁচেনি। ভারতের একদল লোক, যাদেরকে আল-বাওয়ারিজ বলা হতো, তাদের ওপর বেরিয়ে এসে তাদের পথ কেটে দেয়।",
-              "de": "Er sagte: Ich blieb zurück, und die Karawane zog fort. Dann zog Hanzalah gegen sie aus und vernichtete sie. Und ich bat um Erlaubnis, auf dem Wasser zu reisen, doch er erlaubte es mir nicht. Da fragte ich nach den Schiffen, die in jenem Jahr auf dem Meer ausgefahren waren, und keines von ihnen blieb verschont. Ein Volk aus Indien, das al-Bawarij genannt wurde, zog gegen sie aus und schnitt ihnen den Weg ab.",
-              "en": "He said: I stayed, and the caravan departed. Then Hanzalah came out against them and overwhelmed them. And I wrote seeking permission to travel by water, but he did not permit me. So I asked about the ships that had gone out upon the sea in that year, and not a single ship among them was saved. A people from India, called al-Bawarij, came out against them and cut them off.",
-              "es": "Él dijo: Yo me quedé, y la caravana partió. Luego Hanzalah salió contra ellos y los arrasó. Y pedí permiso para viajar por agua, pero no me lo concedió. Entonces pregunté por las embarcaciones que habían salido al mar en ese año, y ni una sola de ellas se salvó. Un pueblo de la India, llamado al-Bawarij, salió contra ellas y las interceptó.",
-              "fa": "او گفت: من ماندم و کاروان بیرون رفت. سپس حنظله بر آنان تاخت و آنان را نابود کرد. و من برای سوار شدن بر آب اجازه خواستم، اما به من اجازه نداد. پس درباره کشتی‌هایی که در آن سال در دریا بیرون رفته بودند پرسیدم، و هیچ کشتی‌ای از میان آنها سالم نماند. گروهی از هند که به آنان البوارج گفته می‌شد بر آنان تاختند و راهشان را بریدند.",
-              "fr": "Il dit : Je restai, et la caravane partit. Puis Hanzalah sortit contre eux et les anéantit. Et je demandai la permission de voyager par voie d’eau, mais il ne me l’accorda pas. Alors je m’enquis des navires qui étaient sortis en mer cette année-là, et pas un seul d’entre eux ne fut épargné. Un peuple de l’Inde, appelé al-Bawarij, sortit contre eux et les coupa de leur route.",
-              "id": "Ia berkata: Aku tetap tinggal, dan kafilah itu pun berangkat. Lalu Hanzalah menyerang mereka dan membinasakan mereka. Aku pun meminta izin untuk bepergian melalui air, tetapi ia tidak mengizinkanku. Maka aku bertanya tentang kapal-kapal yang berlayar pada tahun itu di laut, dan tidak ada satu pun di antaranya yang selamat. Sekelompok orang dari India, yang disebut al-Bawarij, menyerang mereka dan memutus jalan mereka.",
-              "ru": "Он сказал: Я остался, а караван отправился. Затем Ханзаля выступил против них и уничтожил их. И я попросил разрешения путешествовать по воде, но он не разрешил мне. Тогда я спросил о судах, которые в тот год вышли в море, и ни одно из них не спаслось. Против них выступил народ из Индии, называемый аль-Баваридж, и перерезал им путь.",
-              "tr": "O dedi ki: Ben kaldım ve kervan yola çıktı. Sonra Hanzala onların üzerine çıktı ve onları yok etti. Ben de su yoluyla yolculuk etmek için izin istedim, fakat bana izin vermedi. Bunun üzerine o yıl denize açılan gemileri sordum; onların hiçbirinden biri kurtulmadı. Hindistan’dan, kendilerine el-Bavâric denilen bir topluluk onların üzerine çıktı ve yollarını kesti.",
-              "ur": "انہوں نے کہا: میں ٹھہرا رہا، اور قافلہ روانہ ہو گیا۔ پھر حنظلہ ان پر نکل آیا اور انہیں تباہ کر دیا۔ اور میں نے پانی کے ذریعے سفر کرنے کی اجازت طلب کی، مگر اس نے مجھے اجازت نہ دی۔ پھر میں نے ان جہازوں کے بارے میں پوچھا جو اس سال سمندر میں نکلے تھے، تو ان میں سے ایک بھی محفوظ نہ بچا۔ ہندوستان کے کچھ لوگ، جنہیں البوارج کہا جاتا تھا، ان پر نکل آئے اور انہیں کاٹ دیا۔",
-              "zh": "他说：我留下了，商队便出发了。随后汉扎拉向他们出击，并将他们毁灭。我又请求许可乘水路旅行，但他没有允许我。于是我询问那一年出海的船只，结果没有一艘得以幸免。来自印度的一群人，称为al-Bawarij，向他们出击并截断了他们。"
-            },
             "word_end": 72,
             "word_start": 32
           },
           {
             "arabic_text": "قَالَ وَزُرْتُ الْعَسْكَرَ فَأَتَيْتُ الدَّرْبَ مَعَ الْمَغِيبِ وَلَمْ أُكَلِّمْ أَحَداً وَلَمْ أَتَعَرَّفْ إِلَى أَحَدٍ وَأَنَا أُصَلِّي فِي الْمَسْجِدِ بَعْدَ فَرَاغِي مِنَ الزِّيَارَةِ إِذَا بِخَادِمٍ قَدْ جَاءَنِي فَقَالَ لِي قُمْ فَقُلْتُ لَهُ إِذَنْ إِلَى أَيْنَ فَقَالَ لِي إِلَى الْمَنْزِلِ قُلْتُ وَمَنْ أَنَا لَعَلَّكَ أَرْسَلْتَ إِلَى غَيْرِي فَقَالَ لَا مَا أَرْسَلْتُ إِلَّا إِلَيْكَ أَنْتَ عَلِيُّ بْنُ الْحُسَيْنِ رَسُولُ جَعْفَرِ بْنِ إِبْرَاهِيمَ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বলেন: আমি আল-আসকারে গিয়েছিলাম, তারপর সূর্যাস্তের সময় পথের কাছে এলাম, এবং আমি কারও সঙ্গে কথা বলিনি, কাউকে নিজের পরিচয়ও দিইনি। জিয়ারত শেষ করার পর মসজিদে salat (নামাজ) আদায় করছিলাম, এমন সময় এক খাদিম আমার কাছে এসে আমাকে বলল, “উঠুন।” আমি তাকে বললাম, “তাহলে কোথায়?” সে আমাকে বলল, “বাড়িতে।” আমি বললাম, “আর আমি কে? হয়তো তুমি আমাকে ছাড়া অন্য কারও কাছে পাঠানো হয়েছ।” সে বলল, “না, আমাকে শুধু আপনার কাছেই পাঠানো হয়েছে। আপনি আলী ইবনুল-হুসাইন, জাফর ইবন ইবরাহিমের দূত।”",
-              "de": "Er sagte: Ich besuchte al-'Askar, dann kam ich bei Sonnenuntergang an die Passage, und ich sprach mit niemandem und machte mich niemandem bekannt. Während ich nach dem Abschluss der ziyarah im masjid salat (Gebet) verrichtete, kam plötzlich ein Diener zu mir und sagte: „Steh auf.“ Da sagte ich zu ihm: „Wohin denn?“ Er sagte zu mir: „Zum Haus.“ Ich sagte: „Und wer bin ich? Vielleicht bist du zu jemand anderem als mir geschickt worden.“ Er sagte: „Nein, ich bin nur zu dir geschickt worden. Du bist Ali ibn al-Husayn, der Gesandte von Ja'far ibn Ibrahim.“",
-              "en": "He said: I visited al-'Askar, then I came to the passageway at sunset, and I did not speak to anyone nor make myself known to anyone. While I was performing salat (prayer) in the masjid after finishing the ziyarah, suddenly a servant had come to me and said to me, “Rise.” So I said to him, “Then where to?” He said to me, “To the house.” I said, “And who am I? Perhaps you were sent to someone other than me.” He said, “No, I was sent only to you. You are Ali ibn al-Husayn, the messenger of Ja'far ibn Ibrahim.”",
-              "es": "Él dijo: Visité al-'Askar, luego llegué al pasaje al atardecer, y no hablé con nadie ni me presenté a nadie. Mientras estaba realizando salat (oración) en la mezquita después de terminar la ziyarah, de pronto un sirviente vino a mí y me dijo: “Levántate.” Entonces le dije: “¿Y adónde?” Me dijo: “A la casa.” Dije: “¿Y quién soy yo? Quizá te enviaron a alguien que no soy yo.” Él dijo: “No, no fui enviado sino a ti. Tú eres Ali ibn al-Husayn, el mensajero de Ja'far ibn Ibrahim.”",
-              "fa": "او گفت: به العسکر زیارت کردم، سپس هنگام غروب به گذرگاه آمدم، و با هیچ‌کس سخن نگفتم و خود را به هیچ‌کس معرفی نکردم. هنگامی که پس از پایان زیارت در مسجد salat (نماز) می‌خواندم، ناگهان خادمی نزد من آمد و به من گفت: «بلند شو.» پس به او گفتم: «پس به کجا؟» به من گفت: «به خانه.» گفتم: «و من که هستم؟ شاید تو را نزد کسی غیر از من فرستاده‌اند.» گفت: «نه، من فقط به سوی تو فرستاده شده‌ام. تو علی بن الحسین هستی، فرستاده جعفر بن ابراهیم.»",
-              "fr": "Il dit : Je visitai al-'Askar, puis j’arrivai au passage au coucher du soleil, et je ne parlai à personne et ne me fis connaître à personne. Alors que j’accomplissais le salat (prière) dans la mosquée après avoir terminé la ziyarah, soudain un serviteur vint à moi et me dit : « Lève-toi. » Je lui dis alors : « Et où donc ? » Il me dit : « À la maison. » Je dis : « Et qui suis-je ? Peut-être as-tu été envoyé à quelqu’un d’autre que moi. » Il dit : « Non, je n’ai été envoyé qu’à toi. Tu es Ali ibn al-Husayn, le messager de Ja'far ibn Ibrahim. »",
-              "id": "Ia berkata: Aku mengunjungi al-'Askar, lalu aku datang ke lorong itu saat matahari terbenam, dan aku tidak berbicara kepada siapa pun serta tidak memperkenalkan diriku kepada siapa pun. Ketika aku sedang melaksanakan salat (shalat) di masjid setelah selesai dari ziyarah, tiba-tiba seorang pelayan datang kepadaku dan berkata, “Bangunlah.” Maka aku berkata kepadanya, “Kalau begitu ke mana?” Ia berkata kepadaku, “Ke rumah.” Aku berkata, “Dan siapa aku? Barangkali engkau diutus kepada orang lain selain aku.” Ia berkata, “Tidak, aku tidak diutus kecuali kepadamu. Engkau adalah Ali ibn al-Husayn, utusan Ja'far ibn Ibrahim.”",
-              "ru": "Он сказал: Я посетил аль-Аскар, затем пришёл к проходу на закате, и я не говорил ни с кем и не знакомился ни с кем. Когда я совершал salat (молитву) в мечети после завершения зияраты, вдруг ко мне пришёл слуга и сказал мне: «Встань». Я сказал ему: «Тогда куда?» Он сказал мне: «Домой». Я сказал: «А кто я? Может быть, ты был послан не ко мне». Он сказал: «Нет, я был послан только к тебе. Ты — Али ибн аль-Хусайн, посланник Джафара ибн Ибрахима».",
-              "tr": "O dedi ki: el-Asker’i ziyaret ettim, sonra gün batımında geçide geldim; ne kimseyle konuştum ne de kendimi kimseye tanıttım. Ziyareti bitirdikten sonra mescitte salat (namaz) kılarken, birden bir hizmetçi yanıma geldi ve bana, “Kalk” dedi. Ben de ona, “Öyleyse nereye?” dedim. Bana, “Eve” dedi. Ben, “Ben kimim? Belki de beni başkasına gönderdin” dedim. O da, “Hayır, ben yalnızca sana gönderildim. Sen Ali ibn al-Husayn’sın, Ja'far ibn Ibrahim’in elçisisin” dedi.",
-              "ur": "انہوں نے کہا: میں العسکر کی زیارت کو گیا، پھر غروبِ آفتاب کے وقت راستے میں آیا، اور میں نے نہ کسی سے بات کی اور نہ کسی کو اپنا تعارف کرایا۔ جب میں زیارت سے فارغ ہونے کے بعد مسجد میں salat (نماز) ادا کر رہا تھا، تو اچانک ایک خادم میرے پاس آیا اور مجھ سے کہا: “اٹھو۔” میں نے اس سے کہا: “پھر کہاں؟” اس نے کہا: “گھر کی طرف۔” میں نے کہا: “اور میں کون ہوں؟ شاید تمہیں میرے سوا کسی اور کے پاس بھیجا گیا ہو۔” اس نے کہا: “نہیں، مجھے صرف تمہارے پاس بھیجا گیا ہے۔ تم علی بن الحسین ہو، جعفر بن ابراہیم کے رسول۔”",
-              "zh": "他说：我去拜访了al-'Askar，然后在日落时来到通道那里，我没有和任何人说话，也没有向任何人表明身份。当我在完成ziyarah后在清真寺里做salat（礼拜）时，突然有一名仆人来到我面前，对我说：“起来。”我对他说：“那么去哪里？”他说：“去家里。”我说：“我是谁？也许你是被派给别人而不是我。”他说：“不，我只被派给你。你是阿里·伊本·侯赛因，是贾法尔·伊本·易卜拉欣的使者。”"
-            },
             "word_end": 131,
             "word_start": 72
           },
           {
             "arabic_text": "فَمَرَّ بِي حَتَّى أَنْزَلَنِي فِي بَيْتِ الْحُسَيْنِ بْنِ أَحْمَدَ ثُمَّ سَارَّهُ فَلَمْ أَدْرِ مَا قَالَ لَهُ حَتَّى آتَانِي جَمِيعَ مَا أَحْتَاجُ إِلَيْهِ وَجَلَسْتُ عِنْدَهُ ثَلَاثَةَ أَيَّامٍ وَاسْتَأْذَنْتُهُ فِي الزِّيَارَةِ مِنْ دَاخِلٍ فَأَذِنَ لِي فَزُرْتُ لَيْلًا",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "অতঃপর তিনি আমাকে সঙ্গে নিয়ে গেলেন, এমনকি তিনি আমাকে আল-হুসাইন ইবন আহমদের বাড়িতে নামিয়ে দিলেন। তারপর তিনি তার সঙ্গে গোপনে কথা বললেন, এবং তিনি তাকে কী বললেন তা আমি জানতাম না, যতক্ষণ না তিনি আমার প্রয়োজনীয় সবকিছু আমার কাছে নিয়ে এলেন। আর আমি তার কাছে তিন দিন অবস্থান করলাম, এবং আমি ভেতর থেকে জিয়ারতের জন্য তার অনুমতি চাইলাম, তখন তিনি আমাকে অনুমতি দিলেন, এবং আমি রাতে জিয়ারত করলাম।",
-              "de": "So nahm er mich mit, bis er mich im Haus von al-Husayn ibn Ahmad unterbrachte. Dann sprach er vertraulich mit ihm, und ich wusste nicht, was er ihm sagte, bis er mir alles brachte, was ich brauchte. Und ich blieb drei Tage bei ihm, und ich bat ihn von drinnen um Erlaubnis für die ziyarah; da erlaubte er es mir, und ich besuchte nachts.",
-              "en": "So he took me along until he lodged me in the house of al-Husayn ibn Ahmad. Then he spoke privately with him, and I did not know what he said to him, until he brought me everything that I needed. And I stayed with him for three days, and I sought his permission for the ziyarah from inside, so he permitted me, and I visited at night.",
-              "es": "Entonces me llevó consigo hasta que me alojó en la casa de al-Husayn ibn Ahmad. Luego habló en privado con él, y no supe lo que le dijo, hasta que me trajo todo lo que necesitaba. Y me quedé con él tres días, y le pedí permiso para la ziyarah desde dentro, así que me lo concedió, y visité por la noche.",
-              "fa": "پس مرا با خود برد تا آنکه مرا در خانهٔ الحسین بن احمد فرود آورد. سپس با او آهسته سخن گفت و من ندانستم که به او چه گفت، تا آنکه همهٔ آنچه را نیاز داشتم برایم آورد. و سه روز نزد او ماندم و از داخل برای زیارت از او اجازه خواستم، پس به من اجازه داد و شب زیارت کردم.",
-              "fr": "Il m’emmena donc avec lui jusqu’à ce qu’il me loge dans la maison de al-Husayn ibn Ahmad. Puis il lui parla en privé, et je ne sus pas ce qu’il lui dit, jusqu’à ce qu’il m’apporte tout ce dont j’avais besoin. Je restai auprès de lui trois jours, et je lui demandai la permission pour la ziyarah depuis l’intérieur, alors il me l’accorda, et je rendis visite la nuit.",
-              "id": "Maka ia membawaku bersamanya hingga ia menempatkanku di rumah al-Husayn ibn Ahmad. Kemudian ia berbicara kepadanya secara rahasia, dan aku tidak tahu apa yang ia katakan kepadanya, sampai ia membawakan kepadaku semua yang aku perlukan. Dan aku tinggal bersamanya selama tiga hari, lalu aku meminta izinnya untuk ziyarah dari dalam, maka ia mengizinkanku, dan aku berziarah pada malam hari.",
-              "ru": "И он взял меня с собой, пока не поселил меня в доме аль-Хусайна ибн Ахмада. Затем он поговорил с ним наедине, и я не знал, что он ему сказал, пока он не принес мне все, что мне было нужно. И я оставался у него три дня, и я попросил у него разрешения на зиярат изнутри, и он разрешил мне, и я посетил ночью.",
-              "tr": "Böylece beni yanına aldı; nihayet beni al-Husayn ibn Ahmad'ın evine yerleştirdi. Sonra onunla gizlice konuştu; ona ne söylediğini bilmiyordum, ta ki ihtiyacım olan her şeyi bana getirene kadar. Onun yanında üç gün kaldım ve içeriden ziyarah için ondan izin istedim; bana izin verdi ve gece ziyaret ettim.",
-              "ur": "پس وہ مجھے ساتھ لے گیا یہاں تک کہ اس نے مجھے الحسین بن احمد کے گھر میں ٹھہرا دیا۔ پھر اس نے اس سے سرگوشی کی، اور مجھے معلوم نہ ہوا کہ اس نے اس سے کیا کہا، یہاں تک کہ وہ میری ضرورت کی تمام چیزیں میرے پاس لے آیا۔ اور میں اس کے پاس تین دن ٹھہرا، اور میں نے اندر سے زیارت کے لیے اس سے اجازت مانگی، تو اس نے مجھے اجازت دے دی، اور میں نے رات کے وقت زیارت کی۔",
-              "zh": "于是他带着我，直到把我安置在al-HusaynibnAhmad的家中。然后他私下对他说话，我不知道他对他说了什么，直到他把我所需要的一切都带给我。我在他那里住了三天，我从里面请求他允许我进行ziyarah，于是他允许了我，我便在夜里前去拜访。"
-            },
             "word_end": 166,
             "word_start": 131
           }
@@ -146,28 +94,16 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الزِّيَارَةِ": "the visitation he completed and later sought permission to perform from inside",
-            "الْإِذْنَ": "permission sought from the Imam عليه السلام",
-            "الْبَوَارِجُ": "a group identified as attackers from India",
-            "الْعَسْكَرَ": "the garrison town he visited",
-            "الْكُوفَةِ": "the city where he was instructed to remain",
-            "الْمَسْجِدِ": "the masjid where he was performing salat (prayer)",
-            "رُكُوبِ الْمَاءِ": "travel by sea",
-            "قَافِلَةٌ": "a caravan traveling together"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "قَافِلَةٌ",
+          "الْإِذْنَ",
+          "الْكُوفَةِ",
+          "رُكُوبِ الْمَاءِ",
+          "الْبَوَارِجُ",
+          "الْعَسْكَرَ",
+          "الْمَسْجِدِ",
+          "الزِّيَارَةِ"
+        ],
         "related_quran": [
           {
             "ref": "2:216",
@@ -182,32 +118,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস কীভাবে সফরের সিদ্ধান্তে ইমামের দিকনির্দেশনা ও সুরক্ষা দেখায়?",
-          "de": "Wie zeigt dieser Hadith die Führung und den Schutz des Imams bei Reiseentscheidungen?",
-          "en": "How does this hadith show the Imam’s guidance and protection in travel decisions?",
-          "es": "¿Cómo muestra este hadiz la guía y protección del Imam en las decisiones de viaje?",
-          "fa": "این حدیث چگونه هدایت و حفاظت امام را در تصمیم‌های سفر نشان می‌دهد؟",
-          "fr": "Comment ce hadith montre-t-il la guidance et la protection de l’Imam dans les décisions de voyage ?",
-          "id": "Bagaimana hadis ini menunjukkan bimbingan dan perlindungan Imam dalam keputusan سفر?",
-          "ru": "Как этот хадис показывает руководство и защиту Имама в решениях о путешествии?",
-          "tr": "Bu hadis, İmam’ın yolculuk kararlarında rehberliğini ve korumasını nasıl gösterir?",
-          "ur": "یہ حدیث سفر کے فیصلوں میں امام کی رہنمائی اور حفاظت کو کیسے ظاہر کرتی ہے؟",
-          "zh": "这段圣训如何体现伊玛目在出行决定中的引导与保护？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে বর্ণিত হয়েছে যে আলী ইবনুল-হুসাইন আল-ইয়ামানী সফরের আগে অনুমতি চেয়েছিলেন এবং তাকে থেকে যেতে বলা হয়েছিল; এরপর যে কাফেলা ও সমুদ্রযাত্রার কথা তিনি ভেবেছিলেন, সেগুলো বিপর্যয়ের শিকার হয়। এতে তাঁর আল-আসকারে সফর এবং গোপন নির্দেশনার মাধ্যমে তাঁর পরিচয় নির্ধারণ ও আতিথেয়তার কথাও এসেছে, যা ইমাম عليه السلام-এর সঙ্গে সংশ্লিষ্ট যত্ন ও দিকনির্দেশনাকে প্রকাশ করে।",
-          "de": "Dieser Hadith berichtet, dass Ali ibn al-Husayn al-Yamani vor der Reise um Erlaubnis bat und angewiesen wurde zu bleiben, woraufhin die Karawane und die von ihm erwogenen Seereisen von Unheil getroffen wurden. Er erzählt auch von seinem Besuch in al-'Askar und davon, wie er durch verborgene Führung erkannt und beherbergt wurde, was die mit dem Imam عليه السلام verbundene Fürsorge und Leitung widerspiegelt.",
-          "en": "This hadith recounts how Ali ibn al-Husayn al-Yamani sought permission before traveling and was instructed to remain, after which the caravan and the sea journeys he had considered were struck by disaster. It also narrates his visit to al-'Askar and how he was recognized and hosted through hidden guidance, reflecting the care and direction associated with the Imam عليه السلام.",
-          "es": "Este hadiz relata que Ali ibn al-Husayn al-Yamani pidió permiso antes de viajar y se le ordenó permanecer, tras lo cual la caravana y los viajes por mar que había considerado fueron alcanzados por la desgracia. También narra su visita a al-'Askar y cómo fue reconocido y hospedado mediante una guía oculta, reflejando el cuidado y la dirección asociados con el Imam عليه السلام.",
-          "fa": "این حدیث بیان می‌کند که علی بن الحسین الیمانی پیش از سفر اجازه خواست و به ماندن فرمان داده شد، و سپس آن کاروان و سفرهای دریایی‌ای که در نظر داشت، گرفتار بلا شدند. همچنین زیارت او از العسکر و شناخته شدن و میزبانی شدنش از راه هدایت پنهان را روایت می‌کند، که نشان‌دهنده عنایت و راهنماییِ مرتبط با امام علیه السلام است.",
-          "fr": "Ce hadith raconte qu’Ali ibn al-Husayn al-Yamani demanda la permission avant de voyager et qu’il lui fut ordonné de rester, après quoi la caravane et les voyages maritimes qu’il avait envisagés furent frappés par le désastre. Il relate aussi sa visite à al-'Askar et la manière dont il fut reconnu et accueilli par une guidance cachée, reflétant l’attention et l’orientation associées à l’Imam عليه السلام.",
-          "id": "Hadis ini menceritakan bahwa Ali ibn al-Husayn al-Yamani meminta izin sebelum bepergian dan diperintahkan untuk tetap tinggal, setelah itu kafilah dan perjalanan laut yang ia pertimbangkan ditimpa musibah. Ia juga meriwayatkan kunjungannya ke al-'Askar dan bagaimana ia dikenali serta dijamu melalui petunjuk tersembunyi, yang mencerminkan perhatian dan bimbingan yang terkait dengan Imam عليه السلام.",
-          "ru": "Этот хадис повествует о том, как Али ибн аль-Хусайн аль-Йамани попросил разрешения перед поездкой и ему было велено остаться, после чего караван и морские путешествия, которые он намеревался предпринять, постигла беда. В нём также рассказывается о его посещении аль-Аскара и о том, как он был узнан и принят благодаря скрытому руководству, что отражает заботу и наставление, связанные с Имамом عليه السلام.",
-          "tr": "Bu hadis, Ali ibn al-Husayn el-Yemani’nin yolculuktan önce izin istediğini, kalmasının emredildiğini ve ardından düşündüğü kervanın ve deniz yolculuklarının felakete uğradığını anlatır. Ayrıca onun el-Asker ziyaretini ve gizli bir yönlendirme ile tanınıp ağırlanmasını da nakleder; bu, İmam عليه السلام ile ilgili koruma ve rehberliği yansıtır.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ علی بن الحسین الیمانی نے سفر سے پہلے اجازت طلب کی، انہیں رکنے کا حکم دیا گیا، اور بعد میں وہ قافلہ اور سمندری سفر جن کا انہوں نے ارادہ کیا تھا، مصیبت کا شکار ہو گئے۔ اس میں ان کی العسکر کی زیارت اور مخفی رہنمائی کے ذریعے ان کی پہچان اور مہمان نوازی کا بھی ذکر ہے، جو امام علیہ السلام کی نگہبانی اور رہنمائی کو ظاہر کرتا ہے۔",
-          "zh": "这段圣训讲述了阿里·伊本·侯赛因·亚马尼在出行前请求许可，并被命令留下，随后他所考虑的商队和海上行程都遭遇了灾难。它还叙述了他拜访al-'Askar，以及他如何通过隐秘的引导被认出并受到款待，体现了与伊玛目 عليه السلام相关的关怀与指引。"
-        },
         "tags": [
           "history",
           "knowledge",

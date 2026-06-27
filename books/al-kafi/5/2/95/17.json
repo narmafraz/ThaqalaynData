@@ -13,6 +13,114 @@
       "up": "/books/al-kafi:5:2:95"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى وَغَيْرُهُ عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ أَبِي هَمَّامٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 12,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَمِعْتُ الرِّضَا (عَلَيْهِ السَّلام) يَقُولُ يُرَدُّ الْمَمْلُوكُ مِنْ أَحْدَاثِ السَّنَةِ مِنَ الْجُنُونِ وَالْجُذَامِ وَالْبَرَصِ فَقُلْنَا كَيْفَ يُرَدُّ مِنْ أَحْدَاثِ السَّنَةِ قَالَ هَذَا أَوَّلُ السَّنَةِ فَإِذَا اشْتَرَيْتَ مَمْلُوكاً بِهِ شَيْ‏ءٌ مِنْ هَذِهِ الْخِصَالِ مَا بَيْنَكَ وَبَيْنَ ذِي الْحِجَّةِ رَدَدْتَهُ عَلَى صَاحِبِهِ فَقَالَ لَهُ مُحَمَّدُ بْنُ عَلِيٍّ فَالإبَاقُ مِنْ ذَلِكَ قَالَ لَيْسَ الإبَاقُ مِنْ ذَلِكَ إِلا أَنْ يُقِيمَ الْبَيِّنَةَ أَنَّهُ كَانَ أَبَقَ عِنْدَهُ. وَرُوِيَ عَنْ يُونُسَ أَيْضاً أَنَّ الْعُهْدَةَ فِي الْجُنُونِ وَالْجُذَامِ وَالْبَرَصِ سَنَةٌ. وَرَوَى الْوَشَّاءُ أَنَّ الْعُهْدَةَ فِي الْجُنُونِ وَحْدَهُ إِلَى سَنَةٍ.",
+            "chunk_type": "body",
+            "word_end": 93,
+            "word_start": 12
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4342,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى وَغَيْرُهُ",
+              "name_en": "Muhammad b. Yahya wa ghayruhu",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 671,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي هَمَّامٍ",
+              "name_en": "Abi Hammam",
+              "position": 3,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الْمَمْلُوكُ",
+          "أَحْدَاثِ السَّنَةِ",
+          "الْجُنُونِ",
+          "الْجُذَامِ",
+          "الْبَرَصِ",
+          "ذِي الْحِجَّةِ",
+          "الإبَاقُ",
+          "الْعُهْدَةَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:283",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "9:119",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "economy",
+          "social_relations"
+        ],
+        "topics": [
+          "financial_law",
+          "trade_ethics",
+          "imams_biography"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> صحيح والسندان الخيران مرسلن   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (19/248)"
       ],
@@ -66,7 +174,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:2:95:17",

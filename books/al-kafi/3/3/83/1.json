@@ -13,6 +13,135 @@
       "up": "/books/al-kafi:3:3:83"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ ابْنِ سِنَانٍ عَنْ أَبِي الْجَارُودِ عَنْ أَبِي جَعْفَرٍ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 21,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "كَانَ فِيمَا نَاجَى بِهِ مُوسَى ( عَلَيْهِ السَّلَامُ ) رَبَّهُ قَالَ يَا رَبِّ مَا لِمَنْ عَزَّى الثَّكْلَى قَالَ أُظِلُّهُ فِي ظِلِّي يَوْمَ لَا ظِلَّ إِلَّا ظِلِّي",
+            "chunk_type": "body",
+            "word_end": 47,
+            "word_start": 21
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 104,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ سِنَانٍ",
+              "name_en": "Ibn Sinan",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 168,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي الْجَارُودِ",
+              "name_en": "Abu al-Jarud",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 9,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي جَعْفَرٍ ( عليه السلام )",
+              "name_en": "Abu Ja'far",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "نَاجَى",
+          "الثَّكْلَى",
+          "أُظِلُّهُ",
+          "ظِلِّي",
+          "يَوْمَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:49",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "21:105",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "78:38",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "theology",
+          "afterlife",
+          "dua"
+        ],
+        "topics": [
+          "paradise_hell",
+          "specific_supplications",
+          "divine_attributes"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (4/188)"
       ],
@@ -91,7 +220,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:3:83:1",

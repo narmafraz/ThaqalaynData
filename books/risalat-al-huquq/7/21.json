@@ -17,61 +17,35 @@
           "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَحَقُّ مَنْ سَاءَكَ أَنْ تَعْفُوفا عَنْهُ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "যার প্রতি তোমার অত্যাচার হয়, তার অধিকার হলো তুমি তাকে ক্ষমা করো।",
-              "de": "Das Recht dessen, der dir Übles zufügt, ist, dass du ihm verzeihst.",
-              "en": "The right of him who does evil to you is that you pardon him.",
-              "es": "El derecho de quien te hace mal es que le perdones.",
-              "fa": "حق کسی که به تو بدی کند، حق اوست که او را ببخشی.",
-              "fr": "Le droit de celui qui te fait du mal est que tu lui pardonnes.",
-              "id": "Hak orang yang berbuat jahat kepadamu adalah engkau memaafkannya.",
-              "ru": "Право того, кто причинил тебе зло, заключается в том, чтобы ты простил его.",
-              "tr": "Kötülük yapanın hakkı, onun affedilmesidir.",
-              "ur": "اس شخص کا حق جو تم پر برائی کرے یہ ہے کہ تم اسے معاف کر دو۔",
-              "zh": "对作恶于你的人，其权利是你宽恕他。"
-            },
             "word_end": 6,
             "word_start": 0
           },
           {
             "arabic_text": "وَإِنْ عَلِمْتَ أَنَّ الْعَفْوَ يُضِرُّهُ فَانْتَصِرْ لَهُ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "কিন্তু যদি তোমরা জানো যে তোমার ক্ষমা তার জন্য ক্ষতিকর হবে, তবে তোমরা নিজেকে রক্ষা করো।",
-              "de": "Doch wenn du weißt, dass deine Verzeihung ihm schadet, dann wehre dich.",
-              "en": "But if you know that your pardon will harm him, you defend yourself.",
-              "es": "Pero si sabes que tu perdón le perjudicará a él, defiéndete.",
-              "fa": "اما اگر می‌دانی که بخشش تو به او آسیب می‌رساند، خودت را دفاع کن.",
-              "fr": "Mais si vous savez que votre pardon lui nuire en le pardonnant, défendez-vous.",
-              "id": "Tetapi jika kamu mengetahui bahwa pengampunanmu akan membahayakannya, maka bantulah dirimu sendiri.",
-              "ru": "Но если вы знаете, что ваше прощение навредит ему, защищайте себя.",
-              "tr": "Ama affının ona zarar vereceğini bilirsen, kendini savun.",
-              "ur": "لیکن اگر تم جانتے ہو کہ تمہاری معافی اس کے لیے نقصان دہ ہوگی، تو خود کو بچاؤ۔",
-              "zh": "但若你知你的宽恕会伤害他，你便自卫。"
-            },
             "word_end": 13,
             "word_start": 6
           },
           {
             "arabic_text": "قَالَ اللَّهُ تَبَارَكَ وَتَعَالَى: \"وَلَمَنْ انتَصَرَ مِنْ بَعْدِ ظُلْمِهِ فَأُولَئِكَ مَا عَلَيْهِمْ مِنْ سَبِيلٍ\"",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "আল্লাহ তাআলা বলেন, 'যে ব্যক্তি অত্যাচারের পর নিজেকে প্রতিরক্ষা করে, তাদের বিরুদ্ধে কোনো পথ নেই।'",
-              "de": "Allah sagt: „Wer sich nach dem, was ihm widerfahren ist, rächt – gegen sie gibt es keinen Weg.“",
-              "en": "God says, 'Whosoever defends himself after he has been wronged - against them there is no way.'",
-              "es": "Dios dice: «Quien se defiende después de haber sido agraviado, contra ellos no hay camino.",
-              "fa": "خداوند می‌فرماید: «هر کس پس از آنکه مورد ستم قرار گرفته، خود را دفاع کند، راهی [برای گناه] بر آنان نیست.",
-              "fr": "Dieu dit : « Quiconque se défend après avoir été lésé — contre eux, il n'y a point de voie.",
-              "id": "Allah berfirman, 'Barangsiapa membela diri setelah ia dizalimi, maka tidak ada jalan (untuk menghukum mereka) terhadap mereka.'",
-              "ru": "Аллах говорит: «Тот, кто защищает себя после того, как его обидели, — для них нет пути».",
-              "tr": "Allah şöyle buyurur: 'Kim, kendisine zulmedildikten sonra savunursa, onlara karşı bir yol yoktur.'",
-              "ur": "اللہ تعالیٰ فرماتا ہے: ''جو شخص اس کے بعد کہ اس پر ظلم کیا گیا، خود کو بچانے کی کوشش کرے، ان کے خلاف کوئی راستہ نہیں۔''",
-              "zh": "真主说：“凡为不义所害而后自卫者，对于他们，无有罪过。”"
-            },
             "word_end": 27,
             "word_start": 13
           }
@@ -89,74 +63,12 @@
             "phrase_en": "Blessed and Exalted (God)"
           }
         ],
-        "key_terms": {
-          "bn": {
-            "انْتِصَارٌ": "আত্মরক্ষা বা ন্যায়বিচার অর্জন",
-            "ظُلْمٌ": "দমন বা অন্যায় করা",
-            "عَفْوٌ": "ক্ষমা বা ক্ষমা করা",
-            "مِنْ سَبِيلٍ": "কোনো পথ নেই বা কোনো দোষ নেই"
-          },
-          "de": {
-            "انْتِصَارٌ": "Selbstverteidigung oder Gerechtigkeitssuche",
-            "ظُلْمٌ": "Unterdrückung oder Unrecht",
-            "عَفْوٌ": "Vergeltung oder Gerechtigkeit",
-            "مِنْ سَبِيلٍ": "Kein Weg oder keine Schuld"
-          },
-          "en": {
-            "انْتِصَارٌ": "Self-defense or seeking justice",
-            "ظُلْمٌ": "Oppression or wronging",
-            "عَفْوٌ": "Pardon or forgiveness",
-            "مِنْ سَبِيلٍ": "No way or no blame"
-          },
-          "es": {
-            "انْتِصَارٌ": "Autodefensa o buscar justicia",
-            "ظُلْمٌ": "Opresión o hacer daño",
-            "عَفْوٌ": "Perdón o perdón",
-            "مِنْ سَبِيلٍ": "Sin camino o sin culpa"
-          },
-          "fa": {
-            "انْتِصَارٌ": "دفاع از خود یا طلب عدالت",
-            "ظُلْمٌ": "ستم یا ستم کردن",
-            "عَفْوٌ": "بخشش یا آمرزش",
-            "مِنْ سَبِيلٍ": "بدون راه یا بدون گناه"
-          },
-          "fr": {
-            "انْتِصَارٌ": "Autodéfense ou recherche de justice",
-            "ظُلْمٌ": "Oppression ou injustice",
-            "عَفْوٌ": "Pardon ou clémence",
-            "مِنْ سَبِيلٍ": "Pas de chemin ou aucun blâme"
-          },
-          "id": {
-            "انْتِصَارٌ": "Pembelaan diri atau pencarian keadilan",
-            "ظُلْمٌ": "Penindasan atau kezaliman",
-            "عَفْوٌ": "Pengampunan atau ampunan",
-            "مِنْ سَبِيلٍ": "Tidak ada jalan atau tidak ada dosa"
-          },
-          "ru": {
-            "انْتِصَارٌ": "Самозащита или достижение справедливости",
-            "ظُلْمٌ": "Угнетение или причинение зла",
-            "عَفْوٌ": "Прощение или извинение",
-            "مِنْ سَبِيلٍ": "Нет пути или нет вины"
-          },
-          "tr": {
-            "انْتِصَارٌ": "Kendini savunma veya adalet arama",
-            "ظُلْمٌ": "Zalimlik veya haksızlık",
-            "عَفْوٌ": "Affetme veya bağışlama",
-            "مِنْ سَبِيلٍ": "Yol veya suç yok"
-          },
-          "ur": {
-            "انْتِصَارٌ": "خود دفاع یا انصاف کی تلاش",
-            "ظُلْمٌ": "ظلم یا ستم",
-            "عَفْوٌ": "معافی یا بخشش",
-            "مِنْ سَبِيلٍ": "کوئی راستہ نہیں یا کوئی گناہ نہیں"
-          },
-          "zh": {
-            "انْتِصَارٌ": "自卫或伸张正义",
-            "ظُلْمٌ": "压迫或亏待",
-            "عَفْوٌ": "宽恕或原谅",
-            "مِنْ سَبِيلٍ": "无妨或无罪"
-          }
-        },
+        "key_terms_keys": [
+          "عَفْوٌ",
+          "ظُلْمٌ",
+          "انْتِصَارٌ",
+          "مِنْ سَبِيلٍ"
+        ],
         "related_quran": [
           {
             "ref": "42:41",
@@ -171,32 +83,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কেউ আপনাকে ক্ষতি করে এবং আপনি তাকে ক্ষমা করেন তবে তার ক্ষতি হয়, তাহলে ইসলামি বিধান কী?",
-          "de": "Was ist die islamische Rechtsprechung bezüglich des Verzeihens eines Schuldigen, wenn dies ihm schadet?",
-          "en": "What is the Islamic ruling on pardoning someone who wrongs you if it causes them harm?",
-          "es": "¿Cuál es la regla islámica sobre perdonar a alguien que te hace daño si eso les causa perjuicio?",
-          "fa": "حکم اسلامی در مورد بخشیدن کسی که به تو ستم می‌کند، اگر باعث آسیب به او شود چیست؟",
-          "fr": "Quelle est la règle islamique concernant le pardon à quelqu'un qui vous fait du tort si cela lui cause du tort ?",
-          "id": "Apa hukum Islam mengenai memaafkan seseorang yang menzalimi Anda jika hal itu justru menyakitinya?",
-          "ru": "Каков исламский вердикт о прощении того, кто причинил вам зло, если это причинит вред ему?",
-          "tr": "Sizinle haksızlık yapan ve bu durum onlara zarar veriyorsa, onu affetmenin İslami hükmü nedir?",
-          "ur": "اگر کوئی شخص آپ پر ظلم کرے اور اسے معاف کرنے سے اسے نقصان پہنچے تو اسلام میں اس کا حکم کیا ہے؟",
-          "zh": "如果宽恕伤害你的人会给他们带来伤害，伊斯兰教法对此有何规定？"
-        },
-        "summaries": {
-          "bn": "ইমাম জয়নুল আবিদিন ক্ষমা করার নৈতিক গুণ এবং ন্যায়বিচারের ব্যবহারিক প্রয়োজনীয়তার মধ্যে পার্থক্য করেন, এটি লক্ষ্য করে যে এমন অপরাধীকে ক্ষমা করা যাঁর অহংকার হয় বা যাঁর ফলে আরও ক্ষতি হয়, তা আবশ্যক নয়। এই সূক্ষ্ম দৃষ্টিভঙ্গি শিয়া ফিকহের সাথে সামঞ্জস্যপূর্ণ, যা বড় ক্ষতি (ফাসাদ) প্রতিরোধ বা দমনকারীকে সাহসী করে তোলার ক্ষেত্রে আত্মরক্ষা (কিসাস) অনুমোদন করে। কুরআন ৪২:৪১-এর উদ্ধৃতি নির্দেশ করে যে ঈশ্বরের ন্যায়বিচার অপরাধী যদি তার অপরাধে অটল থাকেন তবে পাপমুক্ত প্রতিশোধের অনুমতি দেয়।",
-          "de": "Imam Zaynarrator_names_preserved_as_in_source_or_transliterated_as_appropriate_for_German_Islamic_context",
-          "en": "Imam Zayn al-Abidin distinguishes between the moral virtue of forgiveness and the pragmatic necessity of justice, noting that pardoning a wrongdoer who becomes arrogant or causes further harm is not obligatory. This nuanced view aligns with Shia jurisprudence, which permits self-defense (qisas) when it prevents greater corruption (fasad) or emboldens the oppressor. The citation of Quran 42:41 underscores that divine justice allows for retribution without sin when the initial wrongdoer persists in their transgression.",
-          "es": "El Imam Zayn al-Abidin distingue entre la virtud moral del perdón y la necesidad pragmática de la justicia, señalando que perdonar a un culpable que se vuelve arrogante o causa más daño no es obligatorio. Esta visión matizada se alinea con la jurisprudencia chií, que permite la defensa propia (qisas) cuando previene una corrupción mayor (fasad) o embellece al opresor. La cita del Corán 42:41 subraya que la justicia divina permite la retribución sin pecado cuando el infractor inicial persiste en su transgresión.",
-          "fa": "امام زین‌العابدین میان فضیلت اخلاقی بخشش و ضرورت عملی عدل تمایز قائل می‌شود و یادآوری می‌کند که بخشیدن گناهکاری که متکبر می‌شود یا آسیب بیشتری وارد می‌کند، واجب نیست. این دیدگاه ظریف با فقه شیعه همسو است که در آن دفاع از خود (قیاس) زمانی مجاز است که از فساد بزرگ‌تر جلوگیری کند یا ظالم را جسورتر سازد. استناد به آیه ۴۲ سوره شوری تأکید می‌کند که عدل الهی اجازه می‌دهد بدون گناه، مجازات صورت گیرد اگر گناهکار اولیه در تجاوز خود پافشاری کند.",
-          "fr": "L'imam Zayn al-Abidin distingue la vertu morale du pardon de la nécessité pragmatique de la justice, notant qu'il n'est pas obligatoire de pardonner à un transgresseur qui devient arrogant ou cause d'autres dommages. Cette vue nuancée s'aligne sur la jurisprudence chiite, qui permet l'autodéfense (qisas) lorsqu'elle prévient une corruption plus grande (fasad) ou audacieuse l'oppresseur. La citation du Coran 42:41 souligne que la justice divine permet la rétribution sans péché lorsque le transgresseur initial persiste dans sa faute.",
-          "id": "Imam Zayn al-Abidin membedakan antara kebajikan moral berupa pengampunan dan kebutuhan pragmatis berupa keadilan, dengan catatan bahwa memaafkan pelaku kesalahan yang menjadi sombong atau menyebabkan kerusakan lebih lanjut bukanlah kewajiban. Pandangan yang bernuansa ini sejalan dengan fikih Syiah, yang memperbolehkan pembelaan diri (qisas) ketika hal itu mencegah kerusakan yang lebih besar (fasad) atau membuat penindas menjadi berani. Kutipan terhadap ayat Al-Quran 42:41 menegaskan bahwa keadilan ilahi memperbolehkan pembalasan tanpa dosa ketika pelaku awal terus-menerus melakukan pelanggaran.",
-          "ru": "Имам Зайн аль-Абидин проводит различие между моральной добродетелью прощения и прагматической необходимостью справедливости, отмечая, что прощение обидчика, который становится высокомерным или причиняет дальнейший вред, не является обязательным. Эта нюансированная точка зрения соответствует шиитскому фикху, который разрешает самозащиту (кисас), когда она предотвращает больший разврат (фасад) или ободряет угнетателя. Цитата из Корана 42:41 подчеркивает, что божественная справедливость допускает возмездие без греха, если первоначальный обидчик продолжает свое преступление.",
-          "tr": "İmam Zeynü'l-Abidin, affetme erdemini adaletin pratik zorunluluğundan ayırarak, kibirli hale gelen veya daha fazla zarara yol açan bir kusura uğrayanı affetmenin farz olmadığını belirtir. Bu nüanslı görüş, daha büyük bir bozukluğu (fasad) önlemek veya zalimi cesaretlendirmek durumunda intikamın (kisas) caiz olduğu Şii fıkhı ile uyumludur. Kuran'ın 42:41 ayetindeki atıf, ilahi adaletin, ilk hata işleyen kişi ısrarlı kaldığında günah olmadan intikamı mümkün kıldığını vurgular.",
-          "ur": "امام زین العابدین معافی دینے کی اخلاقی فضیلت اور انصاف کی عملی ضرورت کے درمیان تمیز کرتے ہیں، اور نوٹ کرتے ہیں کہ اگر غلط کرنے والا تکبر کر لے یا مزید نقصان پہنچائے تو اسے معاف کرنا ضروری نہیں ہے۔ یہ باریک نظریہ شیعہ فقہ کے مطابق ہے، جو اس بات کی اجازت دیتا ہے کہ ذاتی دفاع (قصاص) کیا جائے جب یہ بڑے فساد کو روکے یا ظالم کو بہادر بنا دے۔ قرآن مجید کی آیت 42:41 کا حوالہ اس بات کی تائید کرتا ہے کہ الہی انصاف میں جب ابتدائی غلط کرنے والا اپنی تجاوزات میں مستقل رہے تو بغیر گناہ کے بدلہ لینا جائز ہے۔",
-          "zh": "伊玛目宰因·阿比丁区分了宽恕的道德美德与正义的务实必要性，指出赦免变得傲慢或造成进一步伤害的作恶者并非义务。这种细微的观点与什叶派法学一致，即在防止更大腐败（fasad）或使压迫者更加大胆时，允许自卫（qisas）。引用《古兰经》42:41强调，当最初的作恶者继续其越轨行为时，神圣的正义允许在不犯罪的情况下进行报复。"
-        },
         "tags": [
           "ethics",
           "quran_commentary",

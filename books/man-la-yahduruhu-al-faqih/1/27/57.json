@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তিনি عليه السلام বললেন:",
-              "de": "Und er عليه السلام sagte:",
-              "en": "And he عليه السلام said:",
-              "es": "Y él عليه السلام dijo:",
-              "fa": "و او علیه السلام فرمود:",
-              "fr": "Et il عليه السلام a dit :",
-              "id": "Dan beliau عليه السلام berkata:",
-              "ru": "И он, عليه السلام, сказал:",
-              "tr": "Ve o, üzerine selam olsun, dedi ki:",
-              "ur": "اور انہوں نے علیہ السلام فرمایا:",
-              "zh": "他说 عليه السلام："
-            },
             "word_end": 3,
             "word_start": 0
           },
           {
             "arabic_text": "«يَدْخُلُ عَلَى الْمَيِّتِ فِي قَبْرِهِ الصَّلَاةُ وَالصَّوْمُ وَالْحَجُّ وَالصَّدَقَةُ وَالْبِرُّ وَالدُّعَاءُ وَيُكْتَبُ أَجْرُهُ لِلَّذِي يَفْعَلُهُ وَلِلْمَيِّتِ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "সালাত (নামাজ), সাওম (রোজা), হজ্জ, দান, সৎকর্ম এবং দোয়া (দোয়া) মৃত ব্যক্তির কবরের মধ্যে প্রবেশ করে, এবং এর সওয়াব তা যারা করে এবং মৃত ব্যক্তির জন্য লেখা হয়।",
-              "de": "Salat (Gebet), sawm (Fasten), hajj (Pilgerfahrt), Wohltätigkeit, Rechtschaffenheit und du'a (Bittgebet) kommen dem Verstorbenen in seinem Grab zugute, und die Belohnung wird sowohl dem Ausführenden als auch dem Verstorbenen zugeschrieben.",
-              "en": "Salat (prayer), sawm (fasting), hajj (pilgrimage), charity, righteousness, and du'a (supplication) enter upon the deceased in his grave, and its reward is written for the one who performs it and for the deceased.",
-              "es": "La salat (oración), sawm (ayuno), hajj (peregrinación), la caridad, la rectitud y la du'a (súplica) entran al difunto en su tumba, y su recompensa se escribe para quien la realiza y para el difunto.",
-              "fa": "صلات (نماز)، صوم (روزه)، حج، صدقه، نیکی و دعا وارد قبر می‌شوند و پاداش آن برای کسی که انجام می‌دهد و برای میت نوشته می‌شود.",
-              "fr": "La salat (prière), le sawm (jeûne), le hajj (pèlerinage), la charité, la droiture et la du'a (supplication) entrent auprès du défunt dans sa tombe, et leur récompense est écrite pour celui qui les accomplit et pour le défunt.",
-              "id": "Salat (shalat), sawm (puasa), haji, sedekah, kebaikan, dan doa (du'a) masuk kepada orang yang meninggal di dalam kuburnya, dan pahalanya ditulis untuk orang yang melakukannya dan untuk orang yang meninggal.",
-              "ru": "Салят (молитва), саум (пост), хадж (паломничество), благотворительность, праведность и дуа (мольба) приходят к умершему в его могиле, и награда записывается как для того, кто совершает эти деяния, так и для умершего.",
-              "tr": "Salat (namaz), sawm (oruç), hacc, sadaka, iyilik ve duâ (dilek) ölüye mezarında girer ve sevabı yapan kişi ile ölü için yazılır.",
-              "ur": "نماز (صلات)، روزہ (صوم)، حج، صدقہ، نیکی، اور دعا (دُعاء) مرنے والے کے قبر میں داخل ہوتی ہیں، اور اس کا ثواب کرنے والے کے لیے اور مرنے والے کے لیے لکھا جاتا ہے۔",
-              "zh": "礼拜(salat)、斋戒(sawm)、朝觐(hajj)、慈善、善行和祈祷(du'a)进入死者的坟墓，其功德记于行者及死者。"
-            },
             "word_end": 19,
             "word_start": 3
           }
@@ -82,28 +69,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الدُّعَاءُ": "du'a (supplication) made for the deceased",
-            "الصَّدَقَةُ": "charity given such that its benefit reaches the deceased",
-            "الصَّلَاةُ": "salat (prayer) offered on behalf of the deceased",
-            "الصَّوْمُ": "sawm (fasting) whose reward reaches the deceased",
-            "الْبِرُّ": "righteous goodness and pious deeds",
-            "الْحَجُّ": "hajj (pilgrimage) performed with reward for the deceased",
-            "الْمَيِّتِ": "the deceased person",
-            "قَبْرِهِ": "his grave, the place where the deceased receives the benefit"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمَيِّتِ",
+          "قَبْرِهِ",
+          "الصَّلَاةُ",
+          "الصَّوْمُ",
+          "الْحَجُّ",
+          "الصَّدَقَةُ",
+          "الْبِرُّ",
+          "الدُّعَاءُ"
+        ],
         "related_quran": [
           {
             "ref": "53:39",
@@ -118,32 +93,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কیا নামাজ, রোজা, হজ্জ, দান এবং দোয়া মৃত ব্যক্তির কবরের মধ্যে উপকার করে?",
-          "de": "Bringen Salat, Fasten, Hadsch, Wohltätigkeit und Bittgebet dem Verstorbenen im Grab Nutzen?",
-          "en": "Do salat, fasting, hajj, charity, and supplication benefit the deceased in the grave?",
-          "es": "¿Benefician la salat, el ayuno, el hajj, la caridad y la súplica al difunto en la tumba?",
-          "fa": "آیا نماز، روزه، حج، صدقه و دعا به میت در قبر سود می‌رساند؟",
-          "fr": "La salat, le jeûne, le hajj, la charité et la supplication profitent-ils au défunt dans la tombe ?",
-          "id": "Apakah salat, puasa, haji, sedekah, dan doa bermanfaat bagi orang yang meninggal di dalam kubur?",
-          "ru": "Приносят ли салят, пост, хадж, благотворительность и дуа пользу умершему в могиле?",
-          "tr": "Salat, oruç, hac, sadaka ve dua ölüye mezarda fayda sağlar mı?",
-          "ur": "کیا نماز، روزہ، حج، صدقہ اور دعا مرنے والے کو قبر میں فائدہ پہنچاتے ہیں؟",
-          "zh": "礼拜、斋戒、朝觐、慈善和祈祷对坟墓中的死者有益吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস শেখায় যে মৃত ব্যক্তির পক্ষ থেকে করা ইবাদত ও কল্যাণমূলক কাজগুলি তাদের কবরের মধ্যে উপকার দেয়। সওয়াব করা ব্যক্তির জন্য এবং মৃত ব্যক্তির জন্য লেখা হয়, যা মৃত্যুর পরও ইবাদত, দান ও দোয়ার অব্যাহত উপকারিতা নির্দেশ করে।",
-          "de": "Dieser Hadith lehrt, dass fromme und gute Taten, die im Namen des Verstorbenen vollbracht werden, ihm im Grab zugutekommen. Die Belohnung wird sowohl dem Handelnden als auch dem Verstorbenen zugeschrieben, was den fortdauernden Nutzen von Anbetung, Wohltätigkeit und Bittgebeten nach dem Tod hervorhebt.",
-          "en": "This hadith teaches that acts of devotion and goodness performed on behalf of the deceased benefit them in the grave. The reward is recorded both for the person performing the act and for the deceased, highlighting the continuing benefit of worship, charity, and supplication after death.",
-          "es": "Este hadiz enseña que los actos de devoción y bondad realizados en nombre del difunto le benefician en la tumba. La recompensa se registra tanto para quien realiza el acto como para el difunto, destacando el beneficio continuo de la adoración, la caridad y la súplica después de la muerte.",
-          "fa": "این حدیث آموزش می‌دهد که اعمال بندگی و نیکی که به نیابت از میت انجام می‌شود، در قبر به نفع اوست. پاداش برای انجام‌دهنده و میت نوشته می‌شود که نشان‌دهنده سود مستمر عبادت، صدقه و دعا پس از مرگ است.",
-          "fr": "Ce hadith enseigne que les actes de dévotion et de bienfaisance accomplis au nom du défunt lui profitent dans sa tombe. La récompense est inscrite à la fois pour celui qui accomplit l'acte et pour le défunt, soulignant le bénéfice continu de l'adoration, de la charité et de la supplication après la mort.",
-          "id": "Hadis ini mengajarkan bahwa amalan ibadah dan kebaikan yang dilakukan atas nama orang yang meninggal memberikan manfaat bagi mereka di dalam kubur. Pahalanya dicatat untuk pelaku dan orang yang meninggal, menyoroti manfaat berkelanjutan dari ibadah, sedekah, dan doa setelah kematian.",
-          "ru": "Этот хадис учит, что акты поклонения и доброты, совершённые от имени умершего, приносят ему пользу в могиле. Награда записывается как за того, кто совершает действие, так и за умершего, подчёркивая продолжающуюся пользу поклонения, благотворительности и мольбы после смерти.",
-          "tr": "Bu hadis, ölü adına yapılan ibadet ve iyiliklerin mezarda ona fayda sağladığını öğretir. Sevap hem yapan kişiye hem de ölüye yazılır; bu, ölümden sonra ibadet, sadaka ve duanın devam eden faydasını vurgular.",
-          "ur": "یہ حدیث سکھاتی ہے کہ مرنے والے کی طرف سے کی جانے والی عبادات اور نیکیوں کا ان کے قبر میں فائدہ ہوتا ہے۔ ثواب کرنے والے اور مرنے والے دونوں کے لیے لکھا جاتا ہے، جو موت کے بعد عبادت، صدقہ اور دعا کے جاری فائدے کو ظاہر کرتا ہے۔",
-          "zh": "此圣训教导我们，为死者所行的虔诚与善行在坟墓中使其受益。功德记于行者及死者，彰显了死后礼拜、慈善与祈祷的持续利益。"
-        },
         "tags": [
           "worship",
           "dua",

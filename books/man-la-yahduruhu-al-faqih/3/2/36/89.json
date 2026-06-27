@@ -17,61 +17,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى الْحَسَنُ بْنُ مَحْبُوبٍ عَنْ عَبْدِ اللَّهِ بْنِ سِنَانٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হাসান ইবনে মাহবুব আবদুল্লাহ ইবনে সিনান থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Al-Hasan ibn Mahbub berichtete von Abdullah ibn Sinan, der sagte:",
-              "en": "Al-Hasan ibn Mahbub narrated from Abdullah ibn Sinan, who said:",
-              "es": "Al-Hasan ibn Mahbub narró de Abdullah ibn Sinan, quien dijo:",
-              "fa": "الْحَسَن بن مَحبوب از عبداللّه بن سینان روایت کرد که گفت:",
-              "fr": "Al-Hasan ibn Mahbub a rapporté d’Abdullah ibn Sinan, qui a dit :",
-              "id": "Al-Hasan ibn Mahbub meriwayat dari Abdullah ibn Sinan, yang berkata:",
-              "ru": "Аль-Хасан ибн Махбуб передал от Абдуллы ибн Синан, который сказал:",
-              "tr": "El-Hasan ibn Mahbub, Abdullah ibn Sinan’dan rivayet etti, dedi ki:",
-              "ur": "الْحَسَن بْن مَحْبُوب نے عَبْداللّٰہ بْن سِنَان سے روایت کی، جنہوں نے کہا:",
-              "zh": "الْحَسَنبنمَحبوب传述自عبداللّٰہبنسِنَان说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ أَبُو عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আবু আবদুল্লাহ علیہ السلام বলেছেন:",
-              "de": "Abu Abdullah عليه السلام sagte:",
-              "en": "Abu Abdullah عليه السلام said:",
-              "es": "Abu Abdullah عليه السلام dijo:",
-              "fa": "ابو عبدالله علیه السلام فرمود:",
-              "fr": "Abu Abdullah عليه السلام a dit :",
-              "id": "Abu Abdullah عليه السلام berkata:",
-              "ru": "Абу Абдуллах عليه السلام сказал:",
-              "tr": "Ebu Abdullah عليه السلام şöyle dedi:",
-              "ur": "ابو عبداللہ علیہ السلام نے فرمایا:",
-              "zh": "أبوعبداللهعليهالسلام说："
-            },
             "word_end": 17,
             "word_start": 11
           },
           {
             "arabic_text": "كُلُّ شَيْءٍ يَكُونُ فِيهِ حَلَالٌ وَ حَرَامٌ فَهُوَ لَكَ حَلَالٌ أَبَدًا حَتَّى تَعْرِفَ الْحَرَامَ مِنْهُ بِعَيْنِهِ فَتَدَعَهُ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে কোনো জিনিস যার মধ্যে হালাল ও হারাম উভয়ই থাকে, তা তোমার জন্য চিরকাল হালাল যতক্ষণ না তুমি তার হারাম অংশটি স্পষ্টভাবে চিনে নিয়ে তা পরিহার করো।",
-              "de": "Alles, was sowohl halal als auch haram enthält, ist für dich auf ewig halal, bis du den haram-Teil genau kennst und meidest.",
-              "en": "Everything in which there is halal (permissible) and haram (forbidden) is halal for you forever until you know the haram part of it specifically, so you avoid it.",
-              "es": "Todo aquello en lo que haya halal y haram es halal para ti para siempre hasta que conozcas específicamente la parte haram y la evites.",
-              "fa": "هر چیزی که در آن حلال و حرام باشد، برای تو همیشه حلال است تا زمانی که بخش حرام آن را به طور مشخص بشناسی و از آن اجتناب کنی.",
-              "fr": "Tout ce qui contient du halal et du haram est halal pour toi à jamais, jusqu’à ce que tu identifies précisément la partie haram et que tu l’évites.",
-              "id": "Segala sesuatu yang mengandung halal dan haram adalah halal untukmu selamanya sampai kamu mengetahui bagian haramnya secara spesifik, lalu kamu meninggalkannya.",
-              "ru": "Всё, в чём есть и халяль, и харам, навсегда для тебя халяль, пока ты не узнаешь харам-часть конкретно и не избежишь её.",
-              "tr": "İçinde helal ve haram olan her şey, haram kısmını açıkça bilip ondan kaçınana kadar senin için daima helaldir.",
-              "ur": "ہر چیز جس میں حلال اور حرام دونوں ہوں، وہ ہمیشہ کے لیے تمہارے لیے حلال ہے جب تک کہ تم اس میں سے حرام کو بالکل پہچان نہ لو اور اسے چھوڑ دو۔",
-              "zh": "凡含有حلال与حرام的事物，除非你明确识别出حرام部分并避开，否则永远对你是حلال。"
-            },
             "word_end": 34,
             "word_start": 17
           }
@@ -110,25 +84,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بِعَيْنِهِ": "specifically and distinctly in its exact identity",
-            "تَعْرِفَ": "to know with clear recognition",
-            "حَرَامٌ": "that which is forbidden and unlawful",
-            "حَلَالٌ": "that which is permissible and lawful to use or consume",
-            "فَتَدَعَهُ": "so you leave it and avoid it"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "حَلَالٌ",
+          "حَرَامٌ",
+          "تَعْرِفَ",
+          "بِعَيْنِهِ",
+          "فَتَدَعَهُ"
+        ],
         "related_quran": [
           {
             "ref": "2:168",
@@ -143,32 +105,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামী আইনে কখন এমন কিছু যা হালাল ও হারাম উভয় উপাদান ধারণ করে, তা অনুমোদিত বলে গণ্য হয়?",
-          "de": "Wann gilt etwas mit sowohl halal- als auch haram-Elementen im islamischen Recht als erlaubt?",
-          "en": "When is something with both halal and haram elements considered permissible in Islamic law?",
-          "es": "¿Cuándo se considera permisible en la ley islámica algo que contiene elementos tanto halal como haram?",
-          "fa": "در فقه اسلامی، چه زمانی چیزی که هم عناصر حلال و هم حرام دارد، حلال محسوب می‌شود؟",
-          "fr": "Quand une chose contenant à la fois des éléments halal et haram est-elle considérée comme permise en droit islamique ?",
-          "id": "Kapan sesuatu yang mengandung unsur halal dan haram dianggap boleh dalam hukum Islam?",
-          "ru": "Когда в исламском праве вещь, содержащая и халяль, и харам, считается дозволенной?",
-          "tr": "İslami hukukta içinde hem helal hem haram unsurlar bulunan bir şey ne zaman mübah sayılır?",
-          "ur": "اسلامی قانون میں کب ایسی چیز جس میں حلال اور حرام دونوں عناصر ہوں، اسے جائز سمجھا جاتا ہے؟",
-          "zh": "在伊斯兰法中，何时含有حلال与حرام元素的事物被视为允许？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস একটি ফিকহী নীতি ব্যাখ্যা করে যে যখন কোনো কিছুর মধ্যে হালাল ও হারাম উভয়ের সম্ভাবনা থাকে, তখন তা ব্যক্তির জন্য হালালই থাকে যতক্ষণ না হারাম অংশটি স্পষ্টভাবে জানা ও চিহ্নিত করা হয়। এটি সন্দেহ বা অস্পষ্টতার পরিবর্তে ব্যবহারিক নিশ্চিততাকেই পরিহারের ভিত্তি হিসেবে প্রতিষ্ঠা করে।",
-          "de": "Dieser Hadith stellt ein Rechtsprinzip dar, dass wenn etwas sowohl halal als auch haram enthalten kann, es für eine Person halal bleibt, solange der haram-Teil nicht genau bekannt und identifiziert ist. Er begründet praktische Gewissheit als Grundlage für das Meiden, nicht bloßen Verdacht oder Unklarheit.",
-          "en": "This hadith states a legal principle that when something contains the possibility of both halal (permissible) and haram (forbidden), it remains halal for a person unless the forbidden part is specifically known and identified. It establishes practical certainty as the basis for avoidance, rather than mere suspicion or ambiguity.",
-          "es": "Este hadiz establece un principio legal que cuando algo contiene la posibilidad de ser tanto halal como haram, permanece halal para una persona a menos que la parte haram sea conocida e identificada específicamente. Establece la certeza práctica como base para la evitación, en lugar de mera sospecha o ambigüedad.",
-          "fa": "این حدیث یک اصل فقهی را بیان می‌کند که وقتی چیزی احتمال وجود حلال و حرام را دارد، برای شخص حلال باقی می‌ماند مگر اینکه بخش حرام آن به طور مشخص شناخته و مشخص شود. این اصل یقین عملی را به جای ظن یا ابهام مبنای ترک قرار می‌دهد.",
-          "fr": "Ce hadith énonce un principe juridique selon lequel lorsqu’une chose contient à la fois du halal et du haram, elle reste halal pour une personne à moins que la partie haram ne soit spécifiquement connue et identifiée. Il établit la certitude pratique comme base pour l’évitement, plutôt que le simple soupçon ou l’ambiguïté.",
-          "id": "Hadis ini menyatakan prinsip hukum bahwa ketika sesuatu mengandung kemungkinan halal dan haram, maka tetap halal bagi seseorang kecuali bagian haramnya diketahui dan diidentifikasi secara spesifik. Prinsip ini menetapkan kepastian praktis sebagai dasar penghindaran, bukan sekadar kecurigaan atau ketidakjelasan.",
-          "ru": "Этот хадис устанавливает правовой принцип, что если в чем-то есть и халяль, и харам, оно остается халяль для человека, пока харам-часть не будет конкретно известна и определена. Он основывает избегание на практической уверенности, а не на подозрении или неопределенности.",
-          "tr": "Bu hadis, içinde hem helal hem haram olma ihtimali bulunan bir şeyin, haram kısmı açıkça bilinip tanımlanmadıkça kişi için helal kalacağını belirten bir hukuk ilkesini ifade eder. Şüphe veya belirsizlik yerine pratik kesinliği esas alır.",
-          "ur": "یہ حدیث ایک فقہی اصول بیان کرتی ہے کہ جب کسی چیز میں حلال اور حرام دونوں کا امکان ہو تو وہ شخص کے لیے حلال ہی رہتی ہے جب تک کہ حرام حصہ مخصوص طور پر معلوم اور پہچانا نہ جائے۔ یہ شک یا غیر یقینی کی بجائے عملی یقین کو ترک کرنے کی بنیاد قرار دیتی ہے۔",
-          "zh": "此圣训阐明一法律原则：当某物同时含有حلال与حرام可能时，除非明确识别出حرام部分，否则对人永远是حلال。它以实际确定性为避免依据，而非仅凭怀疑或模糊。"
-        },
         "tags": [
           "jurisprudence",
           "knowledge",

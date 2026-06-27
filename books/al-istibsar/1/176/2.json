@@ -15,99 +15,47 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "فَأَمَّا مَا رَوَاهُ الْحُسَيْنُ بْنُ سَعِيدٍ عَنْ عُثْمَانَ بْنِ عِيسَى عَنْ سَمَاعَةَ عَنْ أَبِي بَصِيرٍ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আমি আবু আবদিল্লাহ عليه السلام-কে বলতে শুনেছি, এক ব্যক্তির সম্পর্কে, যে ফজরের সালাত আদায় করেছিল; তারপর যখন সে তাশাহহুদের আগে দুই রাকআতে বসেছিল, তখন তার নাক দিয়ে রক্ত পড়ল:",
-              "de": "Ich hörte Abā ʿAbdillāh عليه السلام über einen Mann sagen, der das Morgengebet verrichtet hatte; dann, als er vor dem Tashahhud in den beiden Rakʿahs saß, bekam er ein Nasenbluten:",
-              "en": "As for what al-Ḥusayn ibn Saʿīd narrated from ʿUthmān ibn ʿĪsā, from Samāʿah, from Abī Baṣīr, who said:",
-              "es": "Escuché a Abā ʿAbdillāh عليه السلام decir acerca de un hombre que había realizado la oración del alba; luego, cuando se sentó en las dos rakʿahs antes de recitar el tashahhud, le sangró la nariz:",
-              "fa": "از ابوعبدالله علیه السلام شنیدم که درباره مردی می‌فرمود که نماز صبح را خوانده بود، سپس هنگامی که پیش از تشهد در دو رکعت نشست، دچار خون‌دماغ شد:",
-              "fr": "J’ai entendu Abā ʿAbdillāh عليه السلام dire au sujet d’un homme qui avait accompli la prière de l’aube, puis, lorsqu’il s’assit dans les deux rakʿahs avant de réciter le tashahhud, il eut un saignement de nez :",
-              "id": "Aku mendengar Abu ʿAbdillah عليه السلام bersabda tentang seorang laki-laki yang telah melaksanakan salat Subuh, lalu ketika ia duduk pada dua rakaat sebelum membaca tasyahhud, ia mengalami mimisan:",
-              "ru": "Я слышал, как Абу ʿАбдуллах عليه السلام говорил о человеке, который совершил утреннюю молитву; затем, когда он сел в двух ракʿатах перед произнесением ташаххуда, у него пошла кровь из носа:",
-              "tr": "Ebu Abdullah عليه السلام'ın, sabah namazını kılmış bir adam hakkında şöyle buyurduğunu işittim: Sonra teşehhüdden önce iki rekâtta oturduğunda burnu kanadı:",
-              "ur": "میں نے ابو عبد اللہ علیہ السلام سے سنا کہ وہ ایک آدمی کے بارے میں فرما رہے تھے جس نے فجر کی نماز ادا کی، پھر جب وہ تشہد سے پہلے دو رکعتوں میں بیٹھا تو اسے نکسیر پھوٹ پڑی:",
-              "zh": "我听阿布·阿卜杜拉 عليه السلام讲述关于一个人：他已经做了晨礼，然后当他在诵读tashahhud之前坐在两拜中时，流了鼻血："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ يَقُولُ فِي الرَّجُلِ صَلَّى الصُّبْحَ فَلَمَّا جَلَسَ فِي الرَّكْعَتَيْنِ قَبْلَ أَنْ يَتَشَهَّدَ رَعَفَ،",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "তিনি বললেন: সে যেন বাইরে যায়, নিজের নাক ধুয়ে নেয়, তারপর ফিরে এসে তার সালাত (নামাজ) পূর্ণ করে।",
-              "de": "Er sagte: Er soll hinausgehen, seine Nase waschen, dann zurückkehren und seine salat (Gebet) vervollständigen.",
-              "en": "I heard Abā ʿAbdillāh عليه السلام saying about a man who had performed the dawn prayer, then when he sat in the two rakʿahs before reciting the tashahhud, he had a nosebleed:",
-              "es": "Dijo: Que salga, se lave la nariz, luego regrese y complete su salat (oración).",
-              "fa": "فرمود: بیرون برود، بینی خود را بشوید، سپس بازگردد و salat (نماز) خود را کامل کند.",
-              "fr": "Il dit : Qu’il sorte, qu’il se lave le nez, puis qu’il revienne et accomplisse sa salat (prière).",
-              "id": "Beliau bersabda: Hendaklah ia keluar, mencuci hidungnya, lalu kembali dan menyempurnakan salatnya (prayer).",
-              "ru": "Он сказал: Пусть выйдет, промоет нос, затем вернётся и завершит свой salat (молитву).",
-              "tr": "Şöyle buyurdu: Dışarı çıksın, burnunu yıkasın, sonra geri dönüp salatını (namazını) tamamlasın.",
-              "ur": "آپ نے فرمایا: وہ باہر جائے، اپنی ناک دھوئے، پھر واپس آئے اور اپنی نماز مکمل کرے۔",
-              "zh": "他说：让他出去，洗净鼻子，然后回来完成他的salat（礼拜）。"
-            },
             "word_end": 35,
             "word_start": 16
           },
           {
             "arabic_text": "قَالَ فَلْيَخْرُجْ فَلْيَغْسِلْ أَنْفَهُ ثُمَّ لِيَرْجِعْ فَلْيُتِمَّ صَلَاتَهُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: নিশ্চয়ই সালাতের শেষ হলো তাসলীম।",
-              "de": "Er sagte: Gewiss, das Ende der salat (des Gebets) ist das taslīm.",
-              "en": "He said: Let him go out, wash his nose, then return and complete his salat (prayer).",
-              "es": "Dijo: En verdad, el final de la salat (oración) es el taslīm.",
-              "fa": "فرمود: همانا پایان salat (نماز) تسلیم است.",
-              "fr": "Il dit : Certes, la fin de la salat (prière) est le taslīm.",
-              "id": "Beliau bersabda: Sesungguhnya akhir salat (prayer) adalah taslīm.",
-              "ru": "Он сказал: Поистине, завершение salat (молитвы) — это таслим.",
-              "tr": "Şöyle buyurdu: Şüphesiz salatın (namazın) sonu teslîmdir.",
-              "ur": "آپ نے فرمایا: بے شک نماز کا آخری حصہ تسلیم ہے۔",
-              "zh": "他说：确实，salat（礼拜）的结束是taslīm。"
-            },
             "word_end": 43,
             "word_start": 35
           },
           {
             "arabic_text": "قَالَ فَإِنَّ آخِرَ الصَّلَاةِ التَّسْلِيمُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এই হাদিসটি সেই ব্যক্তির বিধান সম্পর্কে, যার ফজরের সালাতের শেষ বসায়, তাশাহহুদের আগে, নাক দিয়ে রক্ত পড়ে। তাকে রক্ত ধুয়ে ফেলে তারপর ফিরে এসে সালাত পূর্ণ করতে বলা হয়েছে; আর সালাতের শেষ হলো তাসলীম—এই বক্তব্যটি এখানে পূর্ণতা ও ফজিলতের অর্থে বোঝানো হয়েছে, চূড়ান্ত বাধ্যবাধকতা হিসেবে নয়।",
-              "de": "Dieser Hadith behandelt die Rechtsregel für jemanden, der während des letzten Sitzens des Morgengebets vor dem Tashahhud ein Nasenbluten bekommt. Ihm wird befohlen, das Blut abzuwaschen und dann zurückzukehren, um die salat zu vervollständigen; und die Aussage, dass das taslīm das Ende des Gebets sei, wird hier im Sinne von Vollkommenheit und Vollendung verstanden, nicht als absolute Pflicht.",
-              "en": "He said: Indeed, the end of the salat (prayer) is the taslīm.",
-              "es": "Este hadiz trata sobre la norma para quien sufre un sangrado nasal durante la última sentada de la oración del alba, antes del tashahhud. Se le ordena lavar la sangre y luego regresar para completar la salat; y la afirmación de que el taslīm es el final de la oración se entiende aquí en el sentido de perfección y plenitud, no como una obligación absoluta.",
-              "fa": "این حدیث درباره حکم کسی است که در نشستن پایانی نماز صبح، پیش از تشهد، دچار خون‌دماغ می‌شود. به او دستور داده شده است که خون را بشوید و سپس بازگردد و نماز را کامل کند، و این‌که تسلیم پایان نماز است، در اینجا به معنای کمال و فضیلت فهمیده می‌شود، نه وجوب مطلق.",
-              "fr": "Ce hadith traite du jugement concernant celui qui a un saignement de nez pendant la dernière assise de la prière de l’aube, avant le tashahhud. Il lui est ordonné de laver le sang puis de revenir pour accomplir la salat ; et l’affirmation selon laquelle le taslīm est la fin de la prière est comprise ici au sens de perfection et d’accomplissement, et non comme une obligation absolue.",
-              "id": "Hadis ini membahas hukum bagi orang yang mengalami mimisan pada duduk terakhir salat Subuh sebelum tasyahhud. Ia diperintahkan untuk mencuci darahnya lalu kembali dan menyempurnakan salatnya, sedangkan pernyataan bahwa taslīm adalah akhir salat dipahami di sini dalam makna kesempurnaan dan keutamaan, bukan sebagai kewajiban mutlak.",
-              "ru": "Этот хадис касается постановления для того, у кого во время последнего сидения в утренней молитве, до ташаххуда, пошла кровь из носа. Ему велено смыть кровь, затем вернуться и завершить salat; а слова о том, что таслим — это конец молитвы, здесь понимаются в смысле совершенства и полноты, а не как абсолютная обязанность.",
-              "tr": "Bu hadis, sabah namazının son oturuşunda, teşehhüdden önce burnu kanayan kimsenin hükmünü بیان etmektedir. Ona kanı yıkaması, سپس geri dönüp namazı tamamlaması emredilmiştir; teslîmin namazın sonu olduğu ifadesi ise burada mutlak bir vücûb olarak değil, kemal ve fazilet anlamında anlaşılır.",
-              "ur": "یہ حدیث اس شخص کے حکم کے بارے میں ہے جسے فجر کی نماز کے آخری بیٹھنے میں، تشہد سے پہلے، نکسیر پھوٹ جائے۔ اسے حکم دیا گیا ہے کہ خون دھو لے اور پھر واپس آ کر نماز مکمل کرے، جبکہ یہ بات کہ تسلیم نماز کا اختتام ہے، یہاں کمال اور فضیلت کے معنی میں سمجھی جاتی ہے، نہ کہ مطلق وجوب کے طور پر۔",
-              "zh": "这段圣训讨论的是：一个人在晨礼最后的坐姿中、在tashahhud之前流鼻血时的判定。命令他洗去血迹，然后返回完成salat；而“salat的结束是taslīm”这句话，在这里应理解为完美与圆满的意义，而不是绝对义务。"
-            },
             "word_end": 48,
             "word_start": 43
           },
           {
             "arabic_text": "قَوْلُهُ عَلَيْهِ السَّلَامُ فَإِنَّ آخِرَ الصَّلَاةِ التَّسْلِيمُ مَحْمُولٌ عَلَى الْفَضْلِ وَالْكَمَالِ، فَأَمَّا إِتْمَامُ الصَّلَاةِ فَلَا بُدَّ مِنْهُ لِأَنَّ مِنْ تَمَامِهَا الْإِتْيَانَ بِالشَّهَادَتَيْنِ وَالصَّلَاةِ عَلَى النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ عَلَى مَا بَيَّنَّاهُ.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তাঁর এই বাণী عليه السلام, “নিশ্চয়ই salat (নামাজ)-এর শেষ হলো taslīm,” তা ফজিলত ও পূর্ণতার অর্থে বোঝা হবে। আর salat (নামাজ) সম্পূর্ণ করা অপরিহার্য, কারণ এর পূর্ণতার একটি অংশ হলো দুই সাক্ষ্যবাণী এবং নবী صلى الله عليه وآله وسلم-এর ওপর salat পাঠ করা, যেমন আমরা ব্যাখ্যা করেছি।",
-              "de": "Seine Aussage عليه السلام: „Gewiss, das Ende des salat (Gebets) ist das taslīm“, ist auf Vorzug und Vollkommenheit zu beziehen. Was das Vervollständigen des salat (Gebets) betrifft, so ist dies unerlässlich, denn zu seiner Vollendung gehört das Aussprechen der beiden Zeugnisse und das salat über den Propheten صلى الله عليه وآله وسلم, wie wir erläutert haben.",
-              "en": "His statement عليه السلام, “Indeed, the end of the salat (prayer) is the taslīm,” is to be understood as referring to merit and perfection. As for completing the salat (prayer), that is indispensable, because part of its completion is bringing the two testimonies and the salat upon the Prophet صلى الله عليه وآله وسلم, as we have explained.",
-              "es": "Su dicho عليه السلام: “En verdad, el final del salat (oración) es el taslīm”, debe entenderse como referido al mérito y la perfección. En cuanto a completar el salat (oración), eso es indispensable, porque parte de su perfección es pronunciar los dos testimonios y hacer el salat sobre el Profeta صلى الله عليه وآله وسلم, como hemos explicado.",
-              "fa": "سخن او علیه السلام که فرمود: «همانا پایانِ salat (نماز) تسلیم است»، بر فضیلت و کمال حمل می‌شود. اما کامل کردنِ salat (نماز) ضروری است، زیرا بخشی از کامل شدنِ آن، آوردنِ دو شهادت و salat بر پیامبر صلى الله عليه وآله وسلم است، چنان‌که بیان کردیم.",
-              "fr": "Sa parole عليه السلام : « En vérité, la fin du salat (prière) est le taslīm », doit être comprise comme renvoyant au mérite et à la perfection. Quant à accomplir le salat (prière) jusqu’au bout, cela est indispensable, car une partie de son achèvement consiste à prononcer les deux témoignages et à faire le salat sur le Prophète صلى الله عليه وآله وسلم, comme nous l’avons expliqué.",
-              "id": "Sabda beliau عليه السلام, “Sesungguhnya akhir salat (shalat) adalah taslīm,” dipahami sebagai merujuk pada keutamaan dan kesempurnaan. Adapun menyempurnakan salat (shalat), itu wajib, karena bagian dari penyempurnaannya adalah mengucapkan dua شهادat dan salat atas Nabi صلى الله عليه وآله وسلم, sebagaimana telah kami jelaskan.",
-              "ru": "Его слова عليه السلام: «Поистине, конец salat (молитвы) — это taslīm», следует понимать как указание на достоинство и совершенство. Что же касается завершения salat (молитвы), то это обязательно, поскольку частью его завершения является произнесение двух свидетельств и salat за Пророка صلى الله عليه وآله وسلم, как мы разъяснили.",
-              "tr": "Onun عليه السلام şu sözü: “Şüphesiz salatın (namazın) sonu taslîmdir,” fazilet ve kemale hamledilir. Salatı (namazı) tamamlamaya gelince, bu zorunludur; çünkü onun tamamlanmasının bir parçası iki şehadeti getirmek ve Peygamber صلى الله عليه وآله وسلم üzerine salat etmektir, açıkladığımız gibi.",
-              "ur": "ان کا یہ ارشاد علیہ السلام کہ: “بے شک salat (نماز) کا اختتام تسلیم ہے” فضیلت اور کمال پر محمول ہے۔ جہاں تک salat (نماز) کو مکمل کرنے کا تعلق ہے، وہ ضروری ہے، کیونکہ اس کی تکمیل کا ایک حصہ دونوں شہادتوں اور نبی صلی اللہ علیہ وآلہ وسلم پر salat لانا ہے، جیسا کہ ہم نے بیان کیا ہے۔",
-              "zh": "他 عليه السلام的话：“的确，salat（礼拜）的结束是taslīm（祝安辞）”，应理解为指向优越和完美。至于完成salat（礼拜），那是不可或缺的，因为其完成的一部分是念诵两项作证词以及为先知 صلى الله عليه وآله وسلم做salat，正如我们所已阐明的。"
-            },
             "word_end": 81,
             "word_start": 48
           }
@@ -160,28 +108,16 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "التَّسْلِيمُ": "the closing salutation of the prayer",
-            "الرَّجُلِ": "the man about whom the legal ruling is being discussed",
-            "الرَّكْعَتَيْنِ": "the two rakʿahs of the prayer",
-            "الشَّهَادَتَيْنِ": "the two testimonies recited in the tashahhud",
-            "الصُّبْحَ": "the dawn prayer",
-            "رَعَفَ": "he had a nosebleed",
-            "صَلَاتَهُ": "his salat (prayer), which he is instructed to complete",
-            "فَلْيَغْسِلْ": "let him wash, referring here to cleansing the nose from blood"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الرَّجُلِ",
+          "الصُّبْحَ",
+          "الرَّكْعَتَيْنِ",
+          "رَعَفَ",
+          "فَلْيَغْسِلْ",
+          "صَلَاتَهُ",
+          "التَّسْلِيمُ",
+          "الشَّهَادَتَيْنِ"
+        ],
         "related_quran": [
           {
             "ref": "2:238",
@@ -192,32 +128,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ফজরের সালাতে তাশাহহুদের আগে নাক দিয়ে রক্ত পড়লে কী করা উচিত, এবং তাসলীম কি ওয়াজিব?",
-          "de": "Was soll eine Person tun, wenn sie vor dem Tashahhud im Morgengebet ein Nasenbluten bekommt, und ist das taslīm verpflichtend?",
-          "en": "What should a person do if he gets a nosebleed before tashahhud in the dawn prayer, and is taslīm obligatory?",
-          "es": "¿Qué debe hacer una persona si le sangra la nariz antes del tashahhud en la oración del alba, y es obligatorio el taslīm?",
-          "fa": "اگر در نماز صبح پیش از تشهد خون‌دماغ شود، چه باید کرد و آیا تسلیم واجب است؟",
-          "fr": "Que doit faire une personne si elle a un saignement de nez avant le tashahhud dans la prière de l’aube, et le taslīm est-il obligatoire ?",
-          "id": "Apa yang harus dilakukan jika seseorang mimisan sebelum tasyahhud dalam salat Subuh, dan apakah taslīm wajib?",
-          "ru": "Что должен сделать человек, если у него пошла кровь из носа перед ташаххудом в утренней молитве, и является ли таслим обязательным?",
-          "tr": "Sabah namazında teşehhüdden önce burnu kanarsa ne yapılmalıdır ve teslîm واجب midir?",
-          "ur": "اگر فجر کی نماز میں تشہد سے پہلے نکسیر پھوٹ جائے تو کیا کرنا چاہیے، اور کیا تسلیم واجب ہے؟",
-          "zh": "如果一个人在晨礼中tashahhud之前流鼻血，应该怎么做，taslīm是必须的吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে ফজরের সালাতে তাশাহহুদের আগে নাক দিয়ে রক্ত পড়লে কী করতে হবে তা বলা হয়েছে: রক্ত ধুয়ে ফিরে এসে সালাত পূর্ণ করতে হবে; আর সালাতের শেষ তাসলীম—এ কথা এখানে পূর্ণতা ও ফজিলতের অর্থে, চূড়ান্ত বাধ্যবাধকতা হিসেবে নয়।",
-          "de": "Dieser Hadith erläutert die Regel für jemanden, der vor dem Tashahhud im Morgengebet ein Nasenbluten bekommt: Er soll das Blut abwaschen und zurückkehren, um die salat zu vervollständigen; die Aussage, dass das taslīm das Ende des Gebets sei, wird hier als Vollkommenheit und Vollendung verstanden, nicht als absolute Pflicht.",
-          "en": "This hadith discusses the ruling for one who experiences a nosebleed during the final sitting of the dawn prayer before tashahhud. He is instructed to wash the blood and then return to complete the prayer, while the statement that taslīm is the end of prayer is understood here in the sense of perfection and completion rather than as an absolute obligation.",
-          "es": "Este hadiz explica la norma para quien sufre un sangrado nasal antes del tashahhud en la oración del alba: debe lavar la sangre y regresar para completar la salat; y la afirmación de que el taslīm es el final de la oración se entiende aquí como perfección y plenitud, no como obligación absoluta.",
-          "fa": "این حدیث حکم کسی را بیان می‌کند که در نماز صبح پیش از تشهد دچار خون‌دماغ می‌شود: باید خون را بشوید و بازگردد و نماز را کامل کند؛ و این‌که تسلیم پایان نماز است، در اینجا به معنای کمال و فضیلت است، نه وجوب مطلق.",
-          "fr": "Ce hadith explique le jugement de celui qui a un saignement de nez avant le tashahhud dans la prière de l’aube : il doit laver le sang puis revenir pour accomplir la salat ; et l’affirmation selon laquelle le taslīm est la fin de la prière est comprise ici au sens de perfection et d’accomplissement, non comme une obligation absolue.",
-          "id": "Hadis ini menjelaskan hukum bagi orang yang mimisan sebelum tasyahhud dalam salat Subuh: ia harus mencuci darahnya lalu kembali untuk menyempurnakan salat; sedangkan pernyataan bahwa taslīm adalah akhir salat dipahami sebagai kesempurnaan dan keutamaan, bukan kewajiban mutlak.",
-          "ru": "Этот хадис разъясняет постановление для того, у кого перед ташаххудом в утренней молитве пошла кровь из носа: он должен смыть кровь и вернуться, чтобы завершить salat; а слова о том, что таслим — это конец молитвы, здесь понимаются как совершенство и полнота, а не как абсолютная обязанность.",
-          "tr": "Bu hadis, sabah namazında teşehhüdden önce burnu kanayan kişinin hükmünü açıklar: Kanı yıkayıp geri dönerek namazı tamamlar; teslîmin namazın sonu olduğu ifadesi ise burada kemal ve fazilet anlamındadır, mutlak bir zorunluluk değil.",
-          "ur": "یہ حدیث فجر کی نماز میں تشہد سے پہلے نکسیر پھوٹنے والے شخص کے حکم کو بیان کرتی ہے: وہ خون دھو کر واپس آئے اور نماز مکمل کرے، جبکہ تسلیم کو نماز کا اختتام کہنا یہاں کمال و فضیلت کے معنی میں ہے، نہ کہ مطلق وجوب کے طور پر۔",
-          "zh": "这段圣训说明：在晨礼中、tashahhud之前流鼻血的人，应洗去血迹后返回完成salat；而“taslīm是礼拜的结束”在这里应理解为完美与圆满，而不是绝对义务。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

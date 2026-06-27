@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مَا رَوَاهُ الْحُسَيْنُ بْنُ سَعِيدٍ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ عُمَرَ بْنِ أُذَيْنَةَ عَنْ زُرَارَةَ أَنَّهُ سَمِعَ أَبَا جَعْفَرٍ عَلَيْهِ السَّلَامُ يَقُولُ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ থেকে, ইবন আবী উমাইর থেকে, উমর ইবন উধাইনা থেকে, জুরারাহ থেকে বর্ণিত, তিনি আবা জাফর عليه السلام-কে বলতে শুনেছেন:",
-              "de": "Es wird überliefert von al-Ḥusayn ibn Saʿīd, von Ibn Abī ʿUmayr, von ʿUmar ibn Udhaynah, von Zurārah, dass er Abā Jaʿfar عليه السلام sagen hörte:",
-              "en": "It is narrated by al-Ḥusayn ibn Saʿīd, from Ibn Abī ʿUmayr, from ʿUmar ibn Udhaynah, from Zurārah, that he heard Abā Jaʿfar عليه السلام say:",
-              "es": "Se narra de al-Ḥusayn ibn Saʿīd, de Ibn Abī ʿUmayr, de ʿUmar ibn Udhaynah, de Zurārah, que oyó a Abā Jaʿfar عليه السلام decir:",
-              "fa": "از حسین بن سعید، از ابن ابی عمیر، از عمر بن اذینه، از زراره روایت شده است که او ابا جعفر علیه‌السلام را شنید که فرمود:",
-              "fr": "Il est rapporté par al-Ḥusayn ibn Saʿīd, d’Ibn Abī ʿUmayr, de ʿUmar ibn Udhaynah, de Zurārah, qu’il entendit Abā Jaʿfar عليه السلام dire :",
-              "id": "Diriwayatkan oleh al-Ḥusayn ibn Saʿīd, dari Ibn Abī ʿUmayr, dari ʿUmar ibn Udhaynah, dari Zurārah, bahwa ia mendengar Abā Jaʿfar عليه السلام bersabda:",
-              "ru": "Передаётся от аль-Хусайна ибн Саʿида, от Ибн Аби ʿУмайра, от ʿУмара ибн Удайны, от Зурары, что он слышал, как Аба Джаʿфар عليه السلام сказал:",
-              "tr": "el-Hüseyin ibn Saʿid’den, İbn Ebî ʿUmeyr’den, Ömer ibn Udhayne’den, Zurâre’den rivayet edilmiştir ki, onun Ebû Caʿfer aleyhisselâm’ı şöyle derken işittiği:",
-              "ur": "الحسین بن سعید سے روایت ہے، ابن ابی عمیر سے، عمر بن اذینہ سے، زرارہ سے، کہ انہوں نے ابا جعفر علیہ السلام کو یہ فرماتے ہوئے سنا:",
-              "zh": "据al-ḤusaynibnSaʿīd传自IbnAbīʿUmayr，传自ʿUmaribnUdhaynah，传自Zurārah，他听见AbāJaʿfar عليه السلام说："
-            },
             "word_end": 22,
             "word_start": 0
           },
           {
             "arabic_text": "أَلَا الِالْتِفَاتُ يَقْطَعُ الصَّلَاةَ إِذَا كَانَ بِكُلِّهِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "নিশ্চয়ই, সম্পূর্ণ শরীরসহ মুখ ফিরিয়ে নিলে সালাত (নামাজ) ভেঙে যায়।",
-              "de": "Gewiss, das Abwenden bricht die salat (das Gebet), wenn es mit dem ganzen Körper geschieht.",
-              "en": "Indeed, turning away breaks the salat (prayer) when it is done with the whole body.",
-              "es": "En verdad, volverse de lado rompe la salat (oración) cuando se hace con todo el cuerpo.",
-              "fa": "همانا روی برگرداندن، هرگاه با تمام بدن باشد، نماز را باطل می‌کند.",
-              "fr": "En vérité, se détourner annule la salat (prière) lorsqu’on le fait avec tout le corps.",
-              "id": "Sesungguhnya, berpaling membatalkan salat (shalat) apabila dilakukan dengan seluruh tubuh.",
-              "ru": "Воистину, отворачивание нарушает салат (молитву), если оно совершается всем телом.",
-              "tr": "Şüphesiz, bütün bedenle dönüldüğünde salat (namaz) bozulur.",
-              "ur": "بے شک، جب آدمی پورے جسم کے ساتھ رخ پھیرتا ہے تو نماز ٹوٹ جاتی ہے۔",
-              "zh": "确实,当以整个身体转身时,偏转会破坏salat(礼拜)。"
-            },
             "word_end": 29,
             "word_start": 22
           }
@@ -104,24 +91,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الصَّلَاةَ": "the ritual prayer",
-            "الِالْتِفَاتُ": "turning away or shifting orientation during salat (prayer)",
-            "بِكُلِّهِ": "with one’s whole body entirely",
-            "يَقْطَعُ": "invalidates or breaks"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الِالْتِفَاتُ",
+          "يَقْطَعُ",
+          "الصَّلَاةَ",
+          "بِكُلِّهِ"
+        ],
         "related_quran": [
           {
             "ref": "2:238",
@@ -132,32 +107,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "সালাত (নামাজ) চলাকালে মুখ ফিরিয়ে নেওয়া কি নামাজকে বাতিল করে?",
-          "de": "Macht das Abwenden während der salat (des Gebets) das Gebet ungültig?",
-          "en": "Does turning away during salat (prayer) invalidate the prayer?",
-          "es": "¿Volverse durante la salat (oración) invalida la oración?",
-          "fa": "آیا روی برگرداندن در هنگام نماز، نماز را باطل می‌کند؟",
-          "fr": "Se détourner pendant la salat (prière) annule-t-il la prière ?",
-          "id": "Apakah berpaling saat salat (shalat) membatalkan salat?",
-          "ru": "Нарушает ли отворачивание во время салат (молитвы) молитву?",
-          "tr": "Salat (namaz) sırasında yönünü çevirmek namazı geçersiz kılar mı?",
-          "ur": "کیا نماز کے دوران رخ پھیرنا نماز کو باطل کر دیتا ہے؟",
-          "zh": "在salat(礼拜)中转身会使礼拜无效吗?"
-        },
-        "summaries": {
-          "bn": "এই হাদিস সালাত (নামাজ) সম্পর্কে একটি শরঈ বিধান জানায়: নামাজের সময় সম্পূর্ণ শরীরসহ মুখ ফিরিয়ে নেওয়া নামাজকে বাতিল করে দেয়। এটি নামাজে ভুলে যাওয়া ও অনুপযুক্ত নড়াচড়ার সঙ্গে সম্পর্কিত বিধানগুলোর একটি ব্যাখ্যা করে।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung zur salat (zum Gebet): Das vollständige Abwenden mit dem ganzen Körper während des Gebets macht es ungültig. Er behandelt eine der Regeln im Zusammenhang mit Vergesslichkeit und unzulässiger Bewegung im Gebet.",
-          "en": "This hadith gives a legal ruling concerning salat (prayer): full bodily turning away during the prayer invalidates it. It addresses one of the rulings related to forgetfulness and improper movement in prayer.",
-          "es": "Este hadiz establece una norma jurídica sobre la salat (oración): volverse completamente con todo el cuerpo durante la oración la invalida. Trata una de las normas relacionadas con el olvido y el movimiento inapropiado en la oración.",
-          "fa": "این حدیث حکمی فقهی درباره نماز بیان می‌کند: روی برگرداندنِ کامل با تمام بدن در هنگام نماز، آن را باطل می‌کند. این حدیث یکی از احکام مربوط به فراموشی و حرکت نامناسب در نماز را بیان می‌کند.",
-          "fr": "Ce hadith énonce une règle juridique concernant la salat (prière) : se détourner complètement avec tout le corps pendant la prière l’annule. Il traite de l’une des règles liées à l’oubli et aux mouvements inappropriés dans la prière.",
-          "id": "Hadis ini memberikan hukum syariat tentang salat (shalat): berpaling dengan seluruh tubuh saat salat membatalkannya. Ini menjelaskan salah satu hukum yang berkaitan dengan lupa dan gerakan yang tidak semestinya dalam salat.",
-          "ru": "Этот хадис сообщает правовое постановление относительно салат (молитвы): полное отворачивание всем телом во время молитвы делает её недействительной. Он касается одного из положений, связанных с забывчивостью и неподобающими движениями в молитве.",
-          "tr": "Bu hadis, salat (namaz) ile ilgili bir fıkhî hükmü bildirir: namaz sırasında bütün bedenle yönünü çevirmek namazı geçersiz kılar. Bu, namazda unutkanlık ve uygunsuz hareketle ilgili hükümlerden birine işaret eder.",
-          "ur": "یہ حدیث نماز کے ایک شرعی حکم کو بیان کرتی ہے: نماز کے دوران پورے جسم کے ساتھ رخ پھیرنا نماز کو باطل کر دیتا ہے۔ یہ نماز میں بھول اور غیر مناسب حرکت سے متعلق احکام میں سے ایک حکم کو واضح کرتی ہے۔",
-          "zh": "这段圣训阐明了关于salat(礼拜)的一项教法律例:在礼拜中以整个身体转身会使礼拜无效。它涉及礼拜中与遗忘和不当动作有关的一项规定。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

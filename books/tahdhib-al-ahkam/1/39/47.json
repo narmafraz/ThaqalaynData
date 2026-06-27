@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ الْحُسَيْنِ عَنْ جَعْفَرِ بْنِ بَشِيرٍ عَنْ دَاوُدَ بْنِ سِرْحَانَ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন আল-হুসাইন, জা'ফর ইবন বশীর থেকে, দাউদ ইবন সিরহান থেকে, তিনি বলেন:",
-              "de": "Muhammad ibn al-Husayn, von Ja'far ibn Bashir, von Dawud ibn Sirhan, der sagte:",
-              "en": "Muhammad ibn al-Husayn, from Ja'far ibn Bashir, from Dawud ibn Sirhan, who said:",
-              "es": "Muhammad ibn al-Husayn, de Ja'far ibn Bashir, de Dawud ibn Sirhan, quien dijo:",
-              "fa": "محمد بن الحسین، از جعفر بن بشیر، از داود بن سرحان، که گفت:",
-              "fr": "Muhammad ibn al-Husayn, d'après Ja'far ibn Bashir, d'après Dawud ibn Sirhan, qui a dit :",
-              "id": "Muhammad ibn al-Husayn, dari Ja'far ibn Bashir, dari Dawud ibn Sirhan, yang berkata:",
-              "ru": "Мухаммад ибн аль-Хусайн, от Джа'фара ибн Башира, от Давуда ибн Сирхана, который сказал:",
-              "tr": "Muhammed ibn el-Hüseyin, Ca'fer ibn Beşir'den, Davud ibn Sirhan'dan, o da şöyle dedi:",
-              "ur": "محمد بن الحسین، جعفر بن بشیر سے، داود بن سرحان سے، انہوں نے کہا:",
-              "zh": "穆罕默德·伊本·侯赛因，传自贾法尔·伊本·巴希尔，传自达伍德·伊本·西尔汉，他说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ أَبُو عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ: فِي كَفَنِ أَبِي عُبَيْدَةَ الْحَذَّاءِ: «إِنَّمَا الْحَنُوطُ الْكَافُورُ، وَلَكِنِ اذْهَبْ فَاصْنَعْ كَمَا يَصْنَعُ النَّاسُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আবু 'আবদিল্লাহ عليه السلام আবু 'উবাইদাহ আল-হাদ্ধা'র কাফন সম্পর্কে বললেন: “হানুত তো কেবল কর্পূরই, তবে যাও এবং মানুষ যেমন করে তেমনই করো।”",
-              "de": "Abu 'Abdillah عليه السلام sagte über das Leichentuch von Abu 'Ubaydah al-Hadhdha': „Der hanut ist nur Kampfer, aber geh und handle so, wie die Leute es tun.“",
-              "en": "Abu 'Abdillah عليه السلام said, regarding the shroud of Abu 'Ubaydah al-Hadhdha': “The hanut is only camphor, but go and do as the people do.”",
-              "es": "Abu 'Abdillah عليه السلام dijo, respecto al sudario de Abu 'Ubaydah al-Hadhdha': “El hanut no es sino alcanfor, pero ve y haz como hace la gente.”",
-              "fa": "ابوعبدالله علیه السلام درباره کفنِ ابوعبیده الحذّاء فرمود: «حنوط فقط کافور است، ولی برو و همان‌گونه که مردم انجام می‌دهند انجام بده.»",
-              "fr": "Abu 'Abdillah عليه السلام a dit, au sujet du linceul de Abu 'Ubaydah al-Hadhdha' : « Le hanut n’est que du camphre, mais va et fais comme font les gens. »",
-              "id": "Abu 'Abdillah عليه السلام bersabda tentang kain kafan Abu 'Ubaydah al-Hadhdha': “Hanut itu hanyalah kapur barus, tetapi pergilah dan lakukan sebagaimana orang-orang melakukannya.”",
-              "ru": "Абу 'Абдуллах عليه السلام сказал относительно савана Абу 'Убайды аль-Хаддха': «Ханут — это лишь камфора, но иди и поступай так, как поступают люди».",
-              "tr": "Ebu Abdullah عليه السلام, Ebu Ubeyde el-Haddhâ'nın kefeni hakkında şöyle buyurdu: “Hanut yalnızca kafurdur; fakat git ve insanların yaptığı gibi yap.”",
-              "ur": "ابو عبداللہ علیہ السلام نے ابو عبیدہ الحذاء کے کفن کے بارے میں فرمایا: “حنوط تو صرف کافور ہے، لیکن جاؤ اور ویسا ہی کرو جیسا لوگ کرتے ہیں۔”",
-              "zh": "阿布·阿卜杜拉 عليه السلام就阿布·乌拜达·阿勒哈达的裹尸布说：“hanut只是樟脑，但你去照人们通常所做的那样做吧。”"
-            },
             "word_end": 32,
             "word_start": 12
           }
@@ -100,25 +87,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "النَّاسُ": "the people, referring here to common practice",
-            "الْحَنُوطُ": "the perfuming substance applied in funeral preparation",
-            "الْكَافُورُ": "camphor, identified here as the hanut",
-            "فَاصْنَعْ": "then do; an instruction to act",
-            "كَفَنِ": "the burial shroud used for the deceased"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "كَفَنِ",
+          "الْحَنُوطُ",
+          "الْكَافُورُ",
+          "فَاصْنَعْ",
+          "النَّاسُ"
+        ],
         "related_quran": [
           {
             "ref": "5:2",
@@ -129,32 +104,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "মৃতদেহের কাফনে হানুত ও কর্পূর সম্পর্কে ইমাম আল-সাদিক عليه السلام কী বলেন?",
-          "de": "Was sagt Imam al-Sadiq عليه السلام über hanut und Kampfer beim Leichentuch des Verstorbenen?",
-          "en": "What does Imam al-Sadiq عليه السلام say about hanut and camphor in the shrouding of the deceased?",
-          "es": "¿Qué dice el Imam al-Sadiq عليه السلام sobre el hanut y el alcanfor en el sudario del difunto?",
-          "fa": "امام صادق علیه السلام درباره حنوط و کافور در کفنِ میت چه می‌فرمایند؟",
-          "fr": "Que dit l’imam al-Sadiq عليه السلام au sujet du hanut et du camphre dans le linceul du défunt ?",
-          "id": "Apa yang dikatakan Imam al-Sadiq عليه السلام tentang hanut dan kapur barus dalam mengafani mayit?",
-          "ru": "Что говорит имам ас-Садик عليه السلام о хануте и камфоре при саванировании умершего?",
-          "tr": "İmam es-Sâdık عليه السلام, ölünün kefenlenmesinde hanut ve kafur hakkında ne söyler?",
-          "ur": "امام الصادق علیہ السلام حنوط اور کافور کے بارے میں کفنِ میت میں کیا فرماتے ہیں؟",
-          "zh": "伊玛目萨迪格 عليه السلام关于亡者裹尸中的hanut和樟脑说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি মৃতদেহের প্রস্তুতির সঙ্গে সম্পর্কিত একটি বিষয়, বিশেষ করে কাফনে হানুত ব্যবহারের প্রসঙ্গটি আলোচনা করে। ইমাম আল-সাদিক عليه السلام বলেন যে হানুত হলো কর্পূর, এবং একই সঙ্গে নির্দেশ দেন যে এ ক্ষেত্রে মানুষের প্রচলিত রীতিনীতি অনুযায়ী কাজ করা যেতে পারে।",
-          "de": "Dieser Hadith behandelt eine Angelegenheit im Zusammenhang mit der Totenfürsorge, insbesondere die Verwendung von hanut beim Einhüllen des Verstorbenen. Imam al-Sadiq عليه السلام erklärt, dass hanut Kampfer ist, und weist zugleich darauf hin, dass man in diesem Fall nach der üblichen Praxis der Leute vorgehen kann.",
-          "en": "This hadith addresses a matter related to funeral preparation, specifically the use of hanut in the shrouding of the deceased. Imam al-Sadiq عليه السلام states that hanut is camphor, while also instructing that one may proceed in accordance with common practice among the people in this case.",
-          "es": "Este hadiz aborda un asunto relacionado con la preparación funeraria, específicamente el uso del hanut en el sudario del difunto. El Imam al-Sadiq عليه السلام afirma que el hanut es alcanfor, y al mismo tiempo indica que en este caso se puede proceder conforme a la práctica habitual de la gente.",
-          "fa": "این حدیث به مسئله‌ای مربوط به آماده‌سازی میت، به‌ویژه استفاده از حنوط در کفن‌کردن، می‌پردازد. امام صادق علیه السلام بیان می‌کنند که حنوط همان کافور است و در عین حال دستور می‌دهند که در این مورد می‌توان بر اساس روش معمول مردم عمل کرد.",
-          "fr": "Ce hadith traite d’une question liée aux préparatifs funéraires, en particulier de l’usage du hanut dans le linceul du défunt. L’imam al-Sadiq عليه السلام déclare que le hanut est du camphre, tout en indiquant qu’en cette affaire on peut agir selon l’usage courant des gens.",
-          "id": "Hadis ini membahas persoalan terkait persiapan jenazah, khususnya penggunaan hanut dalam mengafani mayit. Imam al-Sadiq عليه السلام menyatakan bahwa hanut adalah kapur barus, sekaligus mengarahkan bahwa dalam hal ini seseorang dapat mengikuti praktik umum di kalangan masyarakat.",
-          "ru": "Этот хадис касается вопроса, связанного с подготовкой к погребению, в частности использования ханута при саванировании умершего. Имам ас-Садик عليه السلام говорит, что ханут — это камфора, и вместе с тем указывает, что в этом случае можно поступать согласно обычаям людей.",
-          "tr": "Bu hadis, cenaze hazırlığıyla ilgili bir meseleyi, özellikle de kefenlemede hanut kullanımını ele alır. İmam es-Sâdık عليه السلام, hanutun kafur olduğunu belirtirken, bu durumda insanların yaygın uygulamasına göre hareket edilebileceğini de söyler.",
-          "ur": "یہ حدیث میت کی تجہیز و تکفین سے متعلق ایک مسئلے کو بیان کرتی ہے، خاص طور پر کفن میں حنوط کے استعمال کو۔ امام الصادق علیہ السلام فرماتے ہیں کہ حنوط کافور ہے، اور ساتھ ہی یہ ہدایت دیتے ہیں کہ اس معاملے میں عام لوگوں کے رواج کے مطابق عمل کیا جا سکتا ہے۔",
-          "zh": "这段圣训涉及殡葬准备中的一个问题，尤其是裹尸时使用hanut。伊玛目萨迪格 عليه السلام说明hanut就是樟脑，同时也指示在这种情况下可以按照人们通常的做法去做。"
-        },
         "tags": [
           "jurisprudence",
           "afterlife",

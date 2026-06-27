@@ -14,6 +14,148 @@
       "up": "/books/al-kafi:5:2:159"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ سَهْلِ بْنِ زِيَادٍ عَنْ يَعْقُوبَ بْنِ يَزِيدَ عَنِ ابْنِ أُخْتِ الْوَلِيدِ بْنِ صَبِيحٍ عَنْ خَالِهِ الْوَلِيدِ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 29,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "إِنَّ مِنَ النَّاسِ مَنْ جُعِلَ رِزْقُهُ فِي السَّيْفِ وَ مِنْهُمْ مَنْ جُعِلَ رِزْقُهُ فِي التِّجَارَةِ وَ مِنْهُمْ مَنْ جُعِلَ رِزْقُهُ فِي لِسَانِهِ",
+            "chunk_type": "body",
+            "word_end": 51,
+            "word_start": 29
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 8,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "سَهْلِ بْنِ زِيَادٍ",
+              "name_en": "Sahl ibn Ziyad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 101,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "يَعْقُوبَ بْنِ يَزِيدَ",
+              "name_en": "Ya'qub b. Yazid",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1863,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ أُخْتِ الْوَلِيدِ بْنِ صَبِيحٍ",
+              "name_en": "Ibn Ukht al-Walid b. Sabih",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3138,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "خَالِهِ الْوَلِيدِ",
+              "name_en": "Khalihi al-Walid",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "رِزْقُهُ",
+          "السَّيْفِ",
+          "التِّجَارَةِ",
+          "لِسَانِهِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:275",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "62:10",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "29:17",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "63:11",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "economy",
+          "ethics",
+          "social_relations"
+        ],
+        "topics": [
+          "poverty_wealth",
+          "trade_ethics",
+          "work_livelihood"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (19/433)"
       ],
@@ -99,7 +241,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:2:159:44",

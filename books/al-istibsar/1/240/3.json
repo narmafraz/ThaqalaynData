@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ عَنْهُ عَنْ عَلِيٍّ عَنْ أَبِيهِ عَنْ حَمَّادِ بْنِ عِيسَى عَنْ حَرِيزٍ عَنْ زُرَارَةَ عَنْ أَحَدِهِمَا عَلَيْهِمَا السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং তাঁর কাছ থেকে, আলী থেকে, তাঁর পিতা থেকে, হাম্মাদ ইবন ঈসা থেকে, হারীয থেকে, জুরারাহ থেকে, তাঁদের দুজনের একজন থেকে عليهما السلام, যিনি বলেছেন:",
-              "de": "Und von ihm, von ʿAlī, von seinem Vater, von Ḥammād ibn ʿĪsā, von Ḥarīz, von Zurārah, von einem der beiden عليهما السلام, der sagte:",
-              "en": "And from him, from ʿAlī, from his father, from Ḥammād ibn ʿĪsā, from Ḥarīz, from Zurārah, from one of the two of them عليهما السلام, who said:",
-              "es": "Y de él, de ʿAlī, de su padre, de Ḥammād ibn ʿĪsā, de Ḥarīz, de Zurārah, de uno de los dos عليهما السلام, que dijo:",
-              "fa": "و از او، از علی، از پدرش، از حمّاد بن عیسی، از حریز، از زراره، از یکی از آن دو عليهما السلام، که فرمود:",
-              "fr": "Et de lui, de ʿAlī, de son père, de Ḥammād ibn ʿĪsā, de Ḥarīz, de Zurārah, de l’un des deux عليهما السلام, qui a dit :",
-              "id": "Dan darinya, dari ʿAli, dari ayahnya, dari Ḥammād ibn ʿĪsā, dari Ḥarīz, dari Zurārah, dari salah satu dari keduanya عليهما السلام, yang berkata:",
-              "ru": "И от него, от ʿАли, от его отца, от Ḥаммада ибн ʿИсы, от Ḥариза, от Зурары, от одного из этих двоих عليهما السلام, который сказал:",
-              "tr": "Ve ondan, Ali’den, babasından, Hammâd ibn Îsâ’dan, Harîz’den, Zurâre’den, o ikisinden birinden عليهما السلام, şöyle dedi:",
-              "ur": "اور ان سے، علی سے، ان کے والد سے، حماد بن عیسیٰ سے، حریز سے، زرارہ سے، ان دونوں میں سے ایک سے علیہما السلام، جنہوں نے فرمایا:",
-              "zh": "又由他传自ʿAli，传自其父，传自ḤammādibnʿĪsā，传自Ḥarīz，传自Zurārah，传自二人中的一位 عليهما السلام，他说："
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "إِذَا كُنْتَ خَلْفَ إِمَامٍ تَأْتَمُّ بِهِ فَأَنْصِتْ وَ سَبِّحْ فِي نَفْسِكَ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যখন তুমি এমন একজন ইমামের পিছনে থাকো, যাঁর অনুসরণ করো, তখন নীরব থাকো এবং নিজের মধ্যে তাসবিহ পাঠ করো।",
-              "de": "Wenn du hinter einem Imam bist, dem du folgst, dann bleibe still und sprich das Tasbih in dir selbst.",
-              "en": "When you are behind an Imam whom you follow, then remain silent and recite tasbih within yourself.",
-              "es": "Cuando estés detrás de un Imam al que sigues, entonces guarda silencio y recita tasbih dentro de ti.",
-              "fa": "هرگاه پشت سر امامی باشی که از او پیروی می‌کنی، پس خاموش بمان و در درون خود تسبیح بگو.",
-              "fr": "Lorsque tu es derrière un Imam que tu suis, alors garde le silence et fais le tasbih en toi-même.",
-              "id": "Apabila engkau berada di belakang seorang Imam yang engkau ikuti, maka diamlah dan bertasbihlah dalam dirimu.",
-              "ru": "Когда ты находишься позади имама, за которым следуешь, то молчи и произноси тасбих про себя.",
-              "tr": "Bir imama uyduğun zaman sus ve kendi içinde tesbih et.",
-              "ur": "جب تم کسی امام کے پیچھے ہو جس کی تم اقتدا کرتے ہو، تو خاموش رہو اور اپنے دل میں تسبیح کرو۔",
-              "zh": "当你在你所跟随的伊玛目后面时，就保持沉默，并在心中念赞主词。"
-            },
             "word_end": 30,
             "word_start": 19
           }
@@ -134,57 +121,19 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِمَامٍ": "the prayer leader being followed in congregational salat",
-            "تَأْتَمُّ": "you follow in prayer as a ma'mum behind the Imam",
-            "سَبِّحْ": "glorify Allah by reciting tasbih",
-            "فَأَنْصِتْ": "remain silent and listen without reciting aloud",
-            "فِي نَفْسِكَ": "within yourself, silently or inwardly"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "إِمَامٍ",
+          "تَأْتَمُّ",
+          "فَأَنْصِتْ",
+          "سَبِّحْ",
+          "فِي نَفْسِكَ"
+        ],
         "related_quran": [
           {
             "ref": "7:204",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "জামাআতের salাত-এ ইমামের পিছনে নামাজ পড়ার সময় একজন ব্যক্তির কী করা উচিত?",
-          "de": "Was soll jemand tun, wenn er hinter einem Imam im Gemeinschaftsgebet betet?",
-          "en": "What should a person do when praying behind an Imam in congregational salat?",
-          "es": "¿Qué debe hacer una persona cuando reza detrás de un Imam en la salat en congregación?",
-          "fa": "وقتی کسی پشت سر امام در salat جماعتی نماز می‌خواند، چه باید بکند؟",
-          "fr": "Que doit faire une personne lorsqu’elle prie derrière un Imam dans la salat en groupe ?",
-          "id": "Apa yang harus dilakukan seseorang ketika salat di belakang Imam dalam salat berjamaah?",
-          "ru": "Что должен делать человек, когда молится позади имама в الجماатной salat?",
-          "tr": "Cemaatle salatta bir imamın arkasında namaz kılan kişi ne yapmalıdır?",
-          "ur": "جماعت کی نماز میں امام کے پیچھے نماز پڑھتے وقت آدمی کو کیا کرنا چاہیے؟",
-          "zh": "当一个人在集体salat中跟随伊玛目礼拜时应该做什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি জামাআতের salat-এ ইমামের পিছনে নামাজ পড়া ব্যক্তির জন্য একটি শরঈ নির্দেশনা দেয়। এতে অনুসারীকে নীরব থাকতে এবং উচ্চস্বরে পড়ার পরিবর্তে অন্তরে তাসবিহ করতে বলা হয়েছে।",
-          "de": "Dieser Hadith gibt eine rechtliche Anweisung für jemanden, der hinter einem Imam im Gemeinschaftsgebet betet. Er weist den Mitbetenden an, still zu bleiben und innerlich Tasbih zu sprechen, statt laut zu rezitieren.",
-          "en": "This hadith gives a legal instruction for one praying behind an Imam in congregational salat. It directs the follower to remain silent and engage in tasbih inwardly rather than reciting aloud.",
-          "es": "Este hadiz ofrece una instrucción jurídica para quien reza detrás de un Imam en la salat en congregación. Indica que el seguidor debe guardar silencio y hacer tasbih interiormente en lugar de recitar en voz alta.",
-          "fa": "این حدیث برای کسی که پشت سر امام در salat جماعتی نماز می‌خواند، یک دستور فقهی بیان می‌کند. به پیرو دستور می‌دهد که خاموش بماند و به جای قرائت با صدای بلند، در دل تسبیح بگوید.",
-          "fr": "Ce hadith donne une instruction juridique pour celui qui prie derrière un Imam dans la salat en groupe. Il indique au fidèle de garder le silence et de faire le tasbih intérieurement plutôt que de réciter à voix haute.",
-          "id": "Hadis ini memberikan petunjuk hukum bagi orang yang salat di belakang Imam dalam salat berjamaah. Hadis ini mengarahkan makmum untuk tetap diam dan bertasbih dalam hati, bukan membaca dengan suara keras.",
-          "ru": "Этот хадис содержит правовое указание для того, кто молится позади имама в الجماатной salat. В нём предписывается последователю молчать и совершать тасбих про себя, а не читать вслух.",
-          "tr": "Bu hadis, cemaatle salatta bir imamın arkasında namaz kılan kişi için fıkhî bir talimat verir. Takip edenin sessiz kalmasını ve yüksek sesle okumak yerine içinden tesbih etmesini নির্দেশ eder.",
-          "ur": "یہ حدیث جماعت کی نماز میں امام کے پیچھے نماز پڑھنے والے کے لیے شرعی ہدایت بیان کرتی ہے۔ اس میں مقتدی کو خاموش رہنے اور بلند آواز سے پڑھنے کے بجائے دل میں تسبیح کرنے کا حکم دیا گیا ہے۔",
-          "zh": "这段圣训为在集体salat中跟随伊玛目礼拜的人提供了一项教法指示。它指示跟随者保持沉默，并在内心念赞主词，而不是高声诵读。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

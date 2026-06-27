@@ -13,6 +13,134 @@
       "up": "/books/al-kafi:5:3:14"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ سَهْلِ بْنِ زِيَادٍ عَنْ عَلِيِّ بْنِ سَعِيدٍ الرَّقِّيِّ قَالَ حَدَّثَنِي سُلَيْمَانُ بْنُ جَعْفَرٍ الْجَعْفَرِيُّ عَنْ أَبِي الْحَسَنِ الرِّضَا ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 27,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قَالَ رَسُولُ اللَّهِ ( صَلَّى اللَّهِ عَلَيْهِ وَآلِهِ ) لِرَجُلٍ تَزَوَّجْهَا سَوْاءَ وَلُوداً وَ لَا تَزَوَّجْهَا حَسْنَاءَ عَاقِراً فَإِنِّي مُبَاهٍ بِكُمُ الْأُمَمَ يَوْمَ الْقِيَامَةِ أَ وَ مَا عَلِمْتَ أَنَّ الْوِلْدَانَ تَحْتَ الْعَرْشِ يَسْتَغْفِرُونَ لآِبَائِهِمْ يَحْضُنُهُمْ إِبْرَاهِيمُ وَ تُرَبِّيهِمْ سَارَةُ فِي جَبَلٍ مِنْ مِسْكٍ وَ عَنْبَرٍ وَ زَعْفَرَانٍ",
+            "chunk_type": "body",
+            "word_end": 74,
+            "word_start": 27
+          }
+        ],
+        "content_type": "prophetic_tradition",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 8,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "سَهْلِ بْنِ زِيَادٍ",
+              "name_en": "Sahl ibn Ziyad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3777,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ سَعِيدٍ الرَّقِّيِّ",
+              "name_en": "Ali b. Sa'id al-Raqqi",
+              "position": 3,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "theological_concept",
+            "phrase_ar": "يَوْمُ الْقِيَامَةِ",
+            "phrase_en": "Day of Resurrection"
+          },
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "قَالَ رَسُولُ اللَّهِ",
+            "phrase_en": "The Messenger of Allah said"
+          }
+        ],
+        "key_terms_keys": [
+          "سَوْاءَ",
+          "وُلُوداً",
+          "عَاقِراً",
+          "الْعَرْشِ",
+          "إِبْرَاهِيمُ",
+          "سَارَةُ",
+          "مِسْكٍ",
+          "عَنْبَرٍ",
+          "زَعْفَرَانٍ"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:35",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:68",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "21:69",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "25:74",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "family",
+          "ethics",
+          "afterlife"
+        ],
+        "topics": [
+          "marriage_family_law",
+          "spousal_rights",
+          "paradise_hell",
+          "prophetic_character"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (20/25)"
       ],
@@ -66,7 +194,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:3:14:4",

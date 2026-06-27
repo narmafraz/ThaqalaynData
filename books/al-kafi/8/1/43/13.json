@@ -15,6 +15,136 @@
       "up": "/books/al-kafi:8:1:43"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "أَبَانٌ عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبِي عَبْدِ اللَّهِ عَنْ أَبِي الْعَبَّاسِ الْمَكِّيِّ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 13,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَمِعْتُ أَبَا جَعْفَرٍ (عَلَيْهِ السَّلَامُ) يَقُولُ إِنَّ عُمَرَ لَقِيَ أَمِيرَ الْمُؤْمِنِينَ (عَلَيْهِ السَّلَامُ) فَقَالَ أَنْتَ الَّذِي تَقْرَأُ هَذِهِ الْآيَةَ بِأَيِّكُمُ الْمَفْتُونُ تَعَرُّضاً بِي وَ بِصَاحِبِي",
+            "chunk_type": "body",
+            "word_end": 38,
+            "word_start": 13
+          },
+          {
+            "arabic_text": "قَالَ أَ فَلَا أُخْبِرُكَ بِآيَةٍ نَزَلَتْ فِي بَنِي أُمَيَّةَ",
+            "chunk_type": "body",
+            "word_end": 47,
+            "word_start": 38
+          },
+          {
+            "arabic_text": "فَهَلْ عَسَيْتُمْ إِنْ تَوَلَّيْتُمْ أَنْ تُفْسِدُوا فِي الْأَرْضِ وَ تُقَطِّعُوا أَرْحامَكُمْ",
+            "chunk_type": "quran_quote",
+            "word_end": 58,
+            "word_start": 47
+          },
+          {
+            "arabic_text": "فَقَالَ كَذَبْتَ بَنُو أُمَيَّةَ أَوْصَلُ لِلرَّحِمِ مِنْكَ وَ لَكِنَّكَ أَبَيْتَ إِلَّا عَدَاوَةً لِبَنِي تَيْمٍ وَ عَدِيٍّ وَ بَنِي أُمَيَّةَ.",
+            "chunk_type": "body",
+            "word_end": 77,
+            "word_start": 58
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 46,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبَانٌ",
+              "name_en": "Aban",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 102,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ الرَّحْمَنِ بْنِ أَبِي عَبْدِ اللَّهِ",
+              "name_en": "Abd al-Rahman ibn Abi Abdillah",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1255,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي الْعَبَّاسِ الْمَكِّيِّ",
+              "name_en": "Abu al-Abbas al-Makki",
+              "position": 3,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "أَمِيرُ الْمُؤْمِنِينَ",
+          "بَنُو أُمَيَّةَ",
+          "بَنِي تَيْمٍ",
+          "عَدِيٍّ",
+          "تَعَرُّضاً",
+          "أَرْحامَكُمْ"
+        ],
+        "related_quran": [
+          {
+            "ref": "68:6",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "47:22",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "73:10",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "history",
+          "quran_commentary",
+          "family"
+        ],
+        "topics": [
+          "companions",
+          "quran_interpretation_method",
+          "kinship",
+          "imams_biography",
+          "events"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 195)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -79,7 +209,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:43:13",

@@ -14,6 +14,125 @@
       "up": "/books/al-kafi:3:4:84"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ مُحَمَّدٍ عَنْ سَهْلِ بْنِ زِيَادٍ عَنِ ابْنِ أَسْبَاطٍ عَنْ إِبْرَاهِيمَ بْنِ أَبِي الْبِلَادِ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 16,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "صَلَّيْتُ خَلْفَ الرِّضَا ( عَلَيْهِ السَّلَامُ ) فِي الْمَسْجِدِ الْحَرَامِ صَلَاةَ اللَّيْلِ فَلَمَّا فَرَغَ جَعَلَ مَكَانَ الضَّجْعَةِ سَجْدَةً",
+            "chunk_type": "body",
+            "word_end": 34,
+            "word_start": 16
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 35,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ مُحَمَّدٍ",
+              "name_en": "Ali ibn Muhammad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 8,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "سَهْلِ بْنِ زِيَادٍ",
+              "name_en": "Sahl ibn Ziyad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 835,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ أَسْبَاطٍ",
+              "name_en": "Ibn Asbat",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 270,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "إِبْرَاهِيمَ بْنِ أَبِي الْبِلَادِ",
+              "name_en": "Ibrahim ibn Abi al-Bilad",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "jurisprudential_term",
+            "phrase_ar": "صَلَاةُ اللَّيْلِ",
+            "phrase_en": "Night prayer (Tahajjud)"
+          }
+        ],
+        "key_terms_keys": [
+          "الرِّضَا",
+          "صَلَاةَ اللَّيْلِ",
+          "الْمَسْجِدِ الْحَرَامِ",
+          "الضَّجْعَةِ",
+          "سَجْدَةً"
+        ],
+        "related_quran": [
+          {
+            "ref": "39:23",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "73:2",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "worship",
+          "jurisprudence"
+        ],
+        "topics": [
+          "night_prayer",
+          "imams_biography",
+          "prayer_rulings"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف على المشهور   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (15/412)"
       ],
@@ -76,7 +195,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:4:84:26",

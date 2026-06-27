@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ عَنْهُ بِهَذَا الْإِسْنَادِ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং তাঁর কাছ থেকে, এই সনদসহ, তিনি বলেছেন:",
-              "de": "Und von ihm sagte er mit diesem Überlieferungsweg:",
-              "en": "And from him, with this chain of narration, he said:",
-              "es": "Y de él, con esta cadena de transmisión, dijo:",
-              "fa": "و از او، با همین سلسلهٔ روایت، گفت:",
-              "fr": "Et de lui, avec cette chaîne de transmission, il a dit :",
-              "id": "Dan darinya, dengan sanad ini, ia berkata:",
-              "ru": "И от него, с этим иснадом, он сказал:",
-              "tr": "Ve ondan, bu rivayet zinciriyle, şöyle dedi:",
-              "ur": "اور ان سے، اسی سند کے ساتھ، انہوں نے فرمایا:",
-              "zh": "并且从他那里，凭借这条传述链，他说："
-            },
             "word_end": 5,
             "word_start": 0
           },
           {
             "arabic_text": "لَا يُقْطَعُ إِلَّا مَنْ نَقَبَ بَيْتًا أَوْ كَسَرَ قُفْلًا.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "হাত কাটা হয় না, তবে কেবল তার জন্য যে কোনো ঘরে সুরঙ্গ করে প্রবেশ করে বা তালা ভেঙে ফেলে।",
-              "de": "Die Hand wird nur demjenigen abgehauen, der ein Haus aufbricht oder ein Schloss zerbricht.",
-              "en": "The hand is not cut except for one who breaches a house or breaks a lock.",
-              "es": "La mano no se corta sino a quien horada una casa o rompe un candado.",
-              "fa": "دست جز برای کسی که به خانه‌ای نقب بزند یا قفلی را بشکند، قطع نمی‌شود.",
-              "fr": "La main n’est coupée que pour celui qui perce une maison ou brise un cadenas.",
-              "id": "Tangan tidak dipotong kecuali bagi orang yang membobol rumah atau memecahkan kunci.",
-              "ru": "Руку не отсекают иначе как тому, кто проламывает дом или ломает замок.",
-              "tr": "El, ancak bir eve delerek giren veya bir kilidi kıran kimse için kesilir.",
-              "ur": "ہاتھ نہیں کاٹا جاتا مگر اس شخص کا جو گھر میں نقب لگائے یا قفل توڑے۔",
-              "zh": "除非有人凿穿房屋或砸坏锁，否则不会砍手。"
-            },
             "word_end": 14,
             "word_start": 5
           }
@@ -74,57 +61,19 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بَيْتًا": "a house or dwelling from which property is taken",
-            "قُفْلًا": "a lock securing protected property",
-            "كَسَرَ": "broke by force",
-            "نَقَبَ": "broke through or breached by making an opening for entry",
-            "يُقْطَعُ": "the legal punishment of cutting, referring here to amputation as a hadd penalty"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُقْطَعُ",
+          "نَقَبَ",
+          "بَيْتًا",
+          "كَسَرَ",
+          "قُفْلًا"
+        ],
         "related_quran": [
           {
             "ref": "5:38",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী চুরির ক্ষেত্রে হাত কাটার হদ্দ কখন প্রয়োগ করা হয়?",
-          "de": "Wann wird nach diesem Hadith die Hadd-Strafe der Amputation bei Diebstahl angewendet?",
-          "en": "When is the hadd punishment of amputation applied in cases of theft according to this hadith?",
-          "es": "Según este hadiz, ¿cuándo se aplica el hadd de amputación en casos de robo?",
-          "fa": "بر اساس این حدیث، حدّ قطع دست در موارد سرقت چه زمانی اجرا می‌شود؟",
-          "fr": "Selon ce hadith, quand la peine du hadd d’amputation s’applique-t-elle en cas de vol ?",
-          "id": "Menurut hadis ini, kapan hukuman hadd pemotongan tangan diterapkan dalam kasus pencurian?",
-          "ru": "Согласно этому хадису, когда применяется наказание хадд в виде отсечения руки в случаях кражи?",
-          "tr": "Bu hadise göre hırsızlıkta el kesme hadd cezası ne zaman uygulanır?",
-          "ur": "اس حدیث کے مطابق چوری کے معاملے میں حدِ قطعِ ید کب نافذ ہوتی ہے؟",
-          "zh": "根据这段圣训，盗窃案件中的断手hadd刑罚何时适用？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস চুরির ক্ষেত্রে হদ্দ সম্পর্কিত একটি শরয়ি বিধান উল্লেখ করে এবং হাত কাটা কেবল সেই অবস্থার মধ্যে সীমাবদ্ধ করে, যেখানে জোরপূর্বক অবৈধ প্রবেশ ঘটে, যেমন ঘরে সুরঙ্গ করা বা তালা ভাঙা। এতে বোঝা যায় যে সম্পদ নেওয়ার প্রতিটি কাজ এই বিশেষ শাস্তির অন্তর্ভুক্ত নয়।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung über die Hadd-Strafe beim Diebstahl und beschränkt die Amputation auf den Fall eines gewaltsamen, rechtswidrigen Eindringens, etwa durch das Aufbrechen eines Hauses oder das Zerbrechen eines Schlosses. Er zeigt, dass nicht jede Wegnahme von Eigentum unter diese besondere Strafe fällt.",
-          "en": "This hadith states a legal ruling concerning the hadd for theft, restricting amputation to a case involving forced unlawful entry such as breaching a house or breaking a lock. It indicates that not every act of taking property qualifies for this specific legal punishment.",
-          "es": "Este hadiz establece una norma jurídica sobre el hadd del robo, restringiendo la amputación a un caso de دخول forzado e ilícito, como horadar una casa o romper un candado. Indica que no todo acto de tomar bienes entra en este castigo legal específico.",
-          "fa": "این حدیث حکمی فقهی دربارهٔ حدّ سرقت بیان می‌کند و قطع دست را به حالتی محدود می‌سازد که همراه با ورود اجباری و غیرقانونی باشد، مانند نقب زدن به خانه یا شکستن قفل. این نشان می‌دهد که هر برداشتن مال، مشمول این مجازات خاص نمی‌شود.",
-          "fr": "Ce hadith énonce une règle juridique concernant le hadd du vol, en limitant l’amputation au cas d’une entrée forcée et illicite, comme percer une maison ou briser un cadenas. Il indique que tout acte de prise de biens ne relève pas de ce châtiment légal particulier.",
-          "id": "Hadis ini menyatakan sebuah hukum fikih tentang hadd dalam pencurian, dan membatasi pemotongan tangan hanya pada kasus masuk secara paksa dan melanggar hukum, seperti membobol rumah atau memecahkan kunci. Ini menunjukkan bahwa tidak setiap pengambilan harta termasuk dalam hukuman khusus ini.",
-          "ru": "Этот хадис устанавливает правовое постановление относительно хадда за кражу, ограничивая отсечение руки случаем насильственного и незаконного проникновения, например проламывания дома или взлома замка. Это указывает на то, что не всякое присвоение имущества подпадает под это особое наказание.",
-          "tr": "Bu hadis, hırsızlıkta hadd cezasına dair bir fıkhî hüküm bildirir ve el kesmeyi yalnızca eve zorla ve hukuka aykırı giriş, yani bir eve delerek girme veya kilit kırma durumuyla sınırlar. Bu, mal almanın her türünün bu özel cezaya girmediğini gösterir.",
-          "ur": "یہ حدیث چوری کے لیے حدِ شرعی کے بارے میں ایک قانونی حکم بیان کرتی ہے، اور ہاتھ کاٹنے کو صرف اس صورت تک محدود کرتی ہے جب زبردستی ناجائز داخلہ ہو، جیسے گھر میں نقب لگانا یا قفل توڑنا۔ اس سے معلوم ہوتا ہے کہ مال لینے کا ہر فعل اس خاص شرعی سزا کے دائرے میں نہیں آتا۔",
-          "zh": "这段圣训阐明了关于盗窃的hadd刑罚的法律判定，并将断手限制在强行非法进入的情形，例如凿穿房屋或砸坏锁。这表明，并非每一种取走财物的行为都属于这种特定的法律惩罚。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

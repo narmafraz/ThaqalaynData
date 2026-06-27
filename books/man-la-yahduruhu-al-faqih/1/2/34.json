@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ الصَّادِقُ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল-সাদিক عليه السلام বললেন:",
-              "de": "Al-Sadiq عليه السلام sagte:",
-              "en": "Al-Sadiq عليه السلام said:",
-              "es": "Al-Sadiq عليه السلام dijo:",
-              "fa": "الصادق علیه السلام فرمود:",
-              "fr": "Al-Sadiq عليه السلام a dit :",
-              "id": "Al-Sadiq عليه السلام berkata:",
-              "ru": "Аль-Садик عليه السلام сказал:",
-              "tr": "El-Sadık عليه السلام şöyle dedi:",
-              "ur": "اَلصَّادِق علیہ السلام نے فرمایا:",
-              "zh": "الصادقعليهالسلام说："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "«كَانَتْ فِي الْمَدِينَةِ بِئْرٌ فِي وَسَطِ مَزْبَلَةٍ فَكَانَتِ الرِّيحُ تَهُبُّ فَتُلْقِي فِيهَا الْقَذَرَ وَكَانَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ يَتَوَضَّأُ مِنْهَا.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“আল-মদিনায় একটি কুয়ো ছিল যা আবর্জনার মাঝখানে অবস্থিত ছিল। বাতাস বইত এবং তাতে ময়লা ফেলে দিত, এবং নবী صلى الله عليه وآله وسلم তাতে থেকে ওয়ুদু করতেন।”",
-              "de": "„In al-Madinah gab es einen Brunnen mitten auf einer Müllhalde. Der Wind wehte und warf Unrat hinein, und der Prophet صلى الله عليه وآله وسلم wusch sich damit die rituellen Waschungen (Wudu).“",
-              "en": "“There was in al-Madinah a well in the middle of a garbage dump. The wind would blow and cast filth into it, and the Prophet صلى الله عليه وآله وسلم used to perform wudu (ablution) from it.”",
-              "es": "“Había en al-Madinah un pozo en medio de un basurero. El viento soplaba y arrojaba suciedad en él, y el Profeta صلى الله عليه وآله وسلم solía hacer wudu (ablución) con esa agua.”",
-              "fa": "«در مدینه چاهی در وسط یک محل زباله بود. باد می‌وزید و کثافات را به داخل آن می‌انداخت، و پیامبر صلى الله عليه وآله وسلم از آن وضو می‌گرفت.»",
-              "fr": "«Il y avait à al-Madinah un puits au milieu d’une décharge. Le vent soufflait et y jetait des saletés, et le Prophète صلى الله عليه وآله وسلم faisait ses ablutions avec cette eau.»",
-              "id": "“Di al-Madinah ada sebuah sumur di tengah tempat sampah. Angin bertiup dan melemparkan kotoran ke dalamnya, dan Nabi صلى الله عليه وآله وسلم biasa berwudu dari sumur itu.”",
-              "ru": "«В аль-Мадине был колодец посреди мусорной свалки. Ветер дул и заносил в него грязь, и Пророк صلى الله عليه وآله وسلم совершал омовение (вуду) из этой воды.»",
-              "tr": "“Medine’de çöp yığınının ortasında bir kuyu vardı. Rüzgar eser ve içine pislik atardı, Peygamber صلى الله عليه وآله وسلم oradan abdest alırdı.”",
-              "ur": "’’مدینہ میں ایک کنواں تھا جو کچرے کے ڈھیر کے بیچ میں تھا۔ ہوا چلتی تو اس میں گندگی پھینک دیتی، اور نبی صلی اللہ علیہ وآلہ وسلم اس سے وضو کیا کرتے تھے۔‘‘",
-              "zh": "“在麦地那有一口井，位于垃圾堆中央。风吹过，吹进污秽物，先知صلىاللهعليه وآله وسلم用那水做洗小净。”"
-            },
             "word_end": 25,
             "word_start": 4
           }
@@ -82,26 +69,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الرِّيحُ": "the wind that carried matter into the well",
-            "الْقَذَرَ": "filth or dirty matter",
-            "الْمَدِينَةِ": "al-Madinah, the city where this occurred",
-            "بِئْرٌ": "a well used as a water source",
-            "مَزْبَلَةٍ": "a garbage dump or refuse place",
-            "يَتَوَضَّأُ": "he performed wudu (ablution)"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "بِئْرٌ",
+          "مَزْبَلَةٍ",
+          "الرِّيحُ",
+          "الْقَذَرَ",
+          "يَتَوَضَّأُ",
+          "الْمَدِينَةِ"
+        ],
         "related_quran": [
           {
             "ref": "5:6",
@@ -112,32 +87,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কুয়োর পানি কি ওয়ুদুর জন্য পবিত্র থাকতে পারে যদি তাতে ময়লা উড়ে আসে?",
-          "de": "Kann Wasser aus einem Brunnen für die rituelle Waschung (Wudu) rein bleiben, auch wenn Schmutz hineingeblasen wird?",
-          "en": "Can water from a well remain pure for wudu (ablution) even if filth is blown into it?",
-          "es": "¿Puede el agua de un pozo permanecer pura para el wudu (ablución) aunque se le arroje suciedad?",
-          "fa": "آیا آب چاه می‌تواند برای وضو پاک بماند حتی اگر کثافات به داخل آن باد زده شود؟",
-          "fr": "L’eau d’un puits peut-elle rester pure pour les ablutions même si des saletés y sont soufflées ?",
-          "id": "Apakah air sumur tetap suci untuk wudu meskipun kotoran tertiup ke dalamnya?",
-          "ru": "Может ли вода из колодца оставаться чистой для вуду, если в неё заносится грязь?",
-          "tr": "Bir kuyudan gelen su, içine pislik üflense bile abdest için temiz kalabilir mi?",
-          "ur": "کیا کنویں کا پانی وضو کے لیے پاک رہ سکتا ہے اگر اس میں گندگی اڑ کر آ جائے؟",
-          "zh": "井水即使吹入污秽物，仍能保持洗小净的洁净吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি জানায় যে আল-মদিনায় একটি কুয়ো ছিল যা আশেপাশের আবর্জনা ও বাতাসে উড়ে আসা ময়লার সংস্পর্শে ছিল, তবুও নবী صلى الله عليه وآله وسلم ওয়ুদু করার জন্য তার পানি ব্যবহার করতেন। এটি পানির পবিত্রতা সম্পর্কিত ফিকহের প্রাসঙ্গিকতা নির্দেশ করে যে, পানি কেবল পার্শ্ববর্তী দূষণের কারণে নাজিস বিবেচিত হয় না।",
-          "de": "Dieser Hadith berichtet, dass es in al-Madinah einen Brunnen gab, der Müll und vom Wind verwehten Schmutz ausgesetzt war, dennoch verwendete der Prophet صلى الله عليه وآله وسلم dessen Wasser für die rituelle Waschung (Wudu). Dies zeigt, dass Wasser nicht allein wegen nahegelegener Verunreinigung als unrein gilt.",
-          "en": "This hadith reports that there was a well in al-Madinah exposed to surrounding refuse and windblown filth, yet the Prophet صلى الله عليه وآله وسلم used water from it for wudu (ablution). It is cited in the context of rulings on the purity of water and indicates the legal significance of water not being judged impure merely by nearby contamination.",
-          "es": "Este hadiz informa que había un pozo en al-Madinah expuesto a basura y suciedad arrastrada por el viento, pero el Profeta صلى الله عليه وآله وسلم usaba su agua para el wudu (ablución). Indica que el agua no se considera impura solo por contaminación cercana.",
-          "fa": "این حدیث گزارش می‌دهد که در مدینه چاهی وجود داشت که در معرض زباله و کثافات بادزده بود، اما پیامبر صلى الله عليه وآله وسلم از آب آن برای وضو استفاده می‌کردند. این حدیث در زمینه احکام طهارت آب است و نشان می‌دهد که آب صرفاً به دلیل آلودگی‌های اطراف نجس محسوب نمی‌شود.",
-          "fr": "Ce hadith rapporte qu’il y avait à al-Madinah un puits exposé aux déchets et à la saleté soufflée par le vent, mais que le Prophète صلى الله عليه وآله وسلم utilisait son eau pour les ablutions. Cela indique que l’eau n’est pas considérée impure uniquement à cause d’une contamination proche.",
-          "id": "Hadis ini melaporkan bahwa di al-Madinah ada sumur yang terpapar sampah dan kotoran yang terbawa angin, namun Nabi صلى الله عليه وآله وسلم menggunakan airnya untuk berwudu. Ini menunjukkan hukum kesucian air yang tidak dinilai najis hanya karena kontaminasi di sekitarnya.",
-          "ru": "Этот хадис сообщает, что в аль-Мадине был колодец, подвергавшийся загрязнению мусором и грязью, занесённой ветром, но Пророк صلى الله عليه وآله وسلم использовал воду из него для омовения (вуду). Это указывает на то, что вода не считается нечистой только из-за близкого загрязнения.",
-          "tr": "Bu hadis, Medine’de çevresindeki çöp ve rüzgarla kirlenen bir kuyunun olduğunu, ancak Peygamber صلى الله عليه وآله وسلم’in oradan abdest aldığını bildirir. Bu, suyun saflığına dair hükümlerde, suyun sadece yakınındaki kirlenme nedeniyle necis sayılmayacağını gösterir.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ مدینہ میں ایک کنواں تھا جو گرد و نواح کی گندگی اور ہوا سے متاثر تھا، پھر بھی نبی صلی اللہ علیہ وآلہ وسلم اس کے پانی سے وضو کرتے تھے۔ یہ پانی کی پاکیزگی کے احکام میں اس بات کی نشاندہی کرتا ہے کہ پانی کو صرف قریبی آلودگی کی وجہ سے ناپاک نہیں سمجھا جاتا۔",
-          "zh": "此圣训报告麦地那有一口井，暴露于周围垃圾和风吹污秽物中，但先知صلىاللهعليه وآله وسلم仍用其水做洗小净。表明水不因邻近污染即被视为不洁。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

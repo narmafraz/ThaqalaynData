@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ رَسُولُ ٱللَّهِ صَلَّى ٱللَّهُ عَلَيْهِ وَ آلِهِ :",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং আল্লাহর রাসূল صلى الله عليه وآله وسلم বললেন:",
-              "de": "Und der Gesandte Allahs صلى الله عليه وآله وسلم sagte:",
-              "en": "And the Messenger of Allah صلى الله عليه وآله وسلم said:",
-              "es": "Y el Mensajero de Allah صلى الله عليه وآله وسلم dijo:",
-              "fa": "و رسول خدا صلى الله عليه وآله وسلم فرمود:",
-              "fr": "Et le Messager d'Allah صلى الله عليه وآله وسلم a dit :",
-              "id": "Dan Rasulullah صلى الله عليه وآله وسلم bersabda:",
-              "ru": "И Посланник Аллаха صلى الله عليه وآله وسلم сказал:",
-              "tr": "Ve Allah'ın Resulü صلى الله عليه وآله وسلم şöyle buyurdu:",
-              "ur": "اور رسول اللہ صلی اللہ علیہ وآلہ وسلم نے فرمایا:",
-              "zh": "安拉使者صلىاللهعليهوآلهوسلم说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "«ٱلْإِبِلُ عِزٌّ لِأَهْلِهَا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“উট তাদের মালিকদের জন্য গৌরবের বিষয়।”",
-              "de": "„Kamele sind eine Ehre für ihre Besitzer.“",
-              "en": "\"Camels are an honor for their owners.\"",
-              "es": "“Los camellos son un honor para sus dueños.”",
-              "fa": "«شترها برای صاحبانشان عزت هستند.»",
-              "fr": "«Les chameaux sont un honneur pour leurs propriétaires.»",
-              "id": "“Unta adalah kehormatan bagi pemiliknya.”",
-              "ru": "«Верблюды — это честь для их владельцев.»",
-              "tr": "“Develer sahipleri için bir onurdur.”",
-              "ur": "“اونٹ اپنے مالکان کے لیے عزت کا باعث ہیں۔”",
-              "zh": "“骆驼是其主人的荣耀。”"
-            },
             "word_end": 13,
             "word_start": 10
           }
@@ -75,25 +62,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "رَسُولُ": "the Messenger, referring to the Prophet صلى الله عليه وآله وسلم",
-            "عِزٌّ": "honor, dignity, and prestige",
-            "لِأَهْلِهَا": "for their owners or people",
-            "ٱللَّهِ": "Allah, God",
-            "ٱلْإِبِلُ": "camels"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رَسُولُ",
+          "ٱللَّهِ",
+          "ٱلْإِبِلُ",
+          "عِزٌّ",
+          "لِأَهْلِهَا"
+        ],
         "related_quran": [
           {
             "ref": "16:5",
@@ -104,32 +79,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "আল্লাহর রাসূল صلى الله عليه وآله وسلم উট রাখার মর্যাদা সম্পর্কে কী বললেন?",
-          "de": "Was sagte der Gesandte Allahs صلى الله عليه وآله وسلم über den Status des Besitzes von Kamelen?",
-          "en": "What did the Messenger of Allah صلى الله عليه وآله وسلم say about the status of owning camels?",
-          "es": "¿Qué dijo el Mensajero de Allah صلى الله عليه وآله وسلم sobre el estatus de poseer camellos?",
-          "fa": "پیامبر صلى الله عليه وآله وسلم درباره جایگاه داشتن شتر چه گفت؟",
-          "fr": "Qu'a dit le Messager d'Allah صلى الله عليه وآله وسلم au sujet du statut de posséder des chameaux ?",
-          "id": "Apa yang Rasulullah صلى الله عليه وآله وسلم katakan tentang status memiliki unta?",
-          "ru": "Что сказал Посланник Аллаха صلى الله عليه وآله وسلم о статусе владения верблюдами?",
-          "tr": "Allah'ın Resulü صلى الله عليه وآله وسلم deve sahipliğinin statüsü hakkında ne dedi?",
-          "ur": "رسول اللہ صلی اللہ علیہ وآلہ وسلم نے اونٹ رکھنے کی حیثیت کے بارے میں کیا فرمایا؟",
-          "zh": "安拉使者صلىاللهعليهوآلهوسلم关于拥有骆驼的地位说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে উট তাদের মালিকদের জন্য গৌরব ও মর্যাদার উৎস। এটি সেই সমাজে তাদের সামাজিক ও অর্থনৈতিক মূল্যকে প্রতিফলিত করে যেখানে নবী صلى الله عليه وآله وسلم নির্দেশ দিয়েছেন।",
-          "de": "Dieser Hadith besagt, dass Kamele eine Quelle der Ehre und des Prestiges für ihre Besitzer sind. Er spiegelt ihren sozialen und wirtschaftlichen Wert in der Gesellschaft wider, an die sich der Prophet صلى الله عليه وآله وسلم richtete.",
-          "en": "This hadith states that camels are a source of honor and prestige for those who possess them. It reflects their social and economic value in the society addressed by the Prophet صلى الله عليه وآله وسلم.",
-          "es": "Este hadiz afirma que los camellos son una fuente de honor y prestigio para quienes los poseen. Refleja su valor social y económico en la sociedad a la que se dirigió el Profeta صلى الله عليه وآله وسلم.",
-          "fa": "این حدیث بیان می‌کند که شترها منبع عزت و اعتبار برای کسانی هستند که آنها را دارند. این نشان‌دهنده ارزش اجتماعی و اقتصادی در جامعه‌ای است که پیامبر صلى الله عليه وآله وسلم به آن اشاره کرده است.",
-          "fr": "Ce hadith indique que les chameaux sont une source d'honneur et de prestige pour ceux qui les possèdent. Il reflète leur valeur sociale et économique dans la société à laquelle le Prophète صلى الله عليه وآله وسلم s'adressait.",
-          "id": "Hadis ini menyatakan bahwa unta adalah sumber kehormatan dan prestise bagi pemiliknya. Ini mencerminkan nilai sosial dan ekonomi dalam masyarakat yang dituju oleh Nabi صلى الله عليه وآله وسلم.",
-          "ru": "Этот хадис утверждает, что верблюды являются источником чести и престижа для их владельцев. Он отражает их социальную и экономическую ценность в обществе, к которому обращался Пророк صلى الله عليه وآله وسلم.",
-          "tr": "Bu hadis, develerin sahipleri için onur ve itibar kaynağı olduğunu belirtir. Peygamber صلى الله عليه وآله وسلم'in hitap ettiği toplumdaki sosyal ve ekonomik değerlerini yansıtır.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ اونٹ ان لوگوں کے لیے عزت اور وقار کا ذریعہ ہیں جو انہیں رکھتے ہیں۔ یہ پیغمبر صلی اللہ علیہ وآلہ وسلم کی بیان کردہ معاشرتی اور اقتصادی اہمیت کی عکاسی کرتا ہے۔",
-          "zh": "此圣训说明骆驼是其主人荣耀与尊贵的来源，反映了先知صلىاللهعليهوآلهوسلم所针对社会中的社会和经济价值。"
-        },
         "tags": [
           "prophetic_tradition",
           "social_relations",

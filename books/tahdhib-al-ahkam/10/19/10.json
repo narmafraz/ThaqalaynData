@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلْحَسَنُ بْنُ مَحْبُوبٍ عَنْ أَبِي أَيُّوبَ اَلْخَزَّازِ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হাসান ইবন মাহবুব আবু আইয়ুব আল-খাজ্জাজ থেকে বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "Al-Hasan ibn Mahbub überlieferte von Abi Ayyub al-Khazzaz, der sagte:",
-              "en": "Al-Hasan ibn Mahbub narrated from Abi Ayyub al-Khazzaz, who said:",
-              "es": "Al-Hasan ibn Mahbub narró de Abi Ayyub al-Khazzaz, quien dijo:",
-              "fa": "الحسن بن محبوب از ابی ایوب الخزاز روایت کرد، او گفت:",
-              "fr": "Al-Hasan ibn Mahbub a rapporté d’Abi Ayyub al-Khazzaz, qui a dit :",
-              "id": "Al-Hasan ibn Mahbub meriwayatkan dari Abi Ayyub al-Khazzaz, yang berkata:",
-              "ru": "Аль-Хасан ибн Махбуб передал от Аби Айюба аль-Хаззаза, который сказал:",
-              "tr": "El-Hasan ibn Mahbub, Ebu Eyyub el-Hazzaz’dan rivayet etti; o da şöyle dedi:",
-              "ur": "الحسن بن محبوب نے ابو ایوب الخزاز سے روایت کی، انہوں نے کہا:",
-              "zh": "哈桑·伊本·马赫布卜传述自阿比·艾尤卜·哈扎兹，他说："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُ أَبَا جَعْفَرٍ عَلَيْهِ السَّلَامُ عَنْ رَجُلٍ ضَرَبَ مَمْلُوكًا لَهُ فَمَاتَ مِنْ ضَرْبِهِ، قَالَ: «يُعْتِقُ رَقَبَةً».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবা জাফর عليه السلام-কে এমন এক ব্যক্তি সম্পর্কে জিজ্ঞেস করলাম, যে তার মালিকানাধীন এক দাসকে আঘাত করেছিল, ফলে সে তার প্রহারে মারা যায়। তিনি বললেন: \"তাকে একটি দাস মুক্ত করতে হবে।\"",
-              "de": "Ich fragte Aba Ja‘far عليه السلام nach einem Mann, der einen ihm gehörenden Sklaven schlug, und dieser starb an seinen Schlägen. Er sagte: „Er muss einen Sklaven freilassen.“",
-              "en": "I asked Aba Ja'far عليه السلام about a man who struck a slave belonging to him, and he died from his beating. He said: \"He must free a slave.\"",
-              "es": "Le pregunté a Aba Ya‘far عليه السلام acerca de un hombre que golpeó a un esclavo que le pertenecía, y este murió a causa de sus golpes. Dijo: \"Debe liberar a un esclavo.\"",
-              "fa": "از ابا جعفر علیه السلام درباره مردی پرسیدم که برده‌ای از آنِ او را زد و آن برده بر اثر ضربه‌اش مرد. فرمود: «باید یک برده را آزاد کند.»",
-              "fr": "J’ai interrogé Aba Ja‘far عليه السلام au sujet d’un homme qui frappa un esclave lui appartenant, et celui-ci mourut sous ses coups. Il dit : « Il doit affranchir un esclave. »",
-              "id": "Aku bertanya kepada Aba Ja'far عليه السلام tentang seorang laki-laki yang memukul seorang budak miliknya, lalu budak itu mati karena pukulannya. Beliau bersabda: \"Ia harus memerdekakan seorang budak.\"",
-              "ru": "Я спросил Абу Джафара عليه السلام о человеке, который ударил принадлежавшего ему раба, и тот умер от его побоев. Он сказал: «Он должен освободить раба».",
-              "tr": "Ebu Ca‘fer عليه السلام’a, kendisine ait bir köleyi döven ve köle de onun dayağından ölen bir adam hakkında sordum. O şöyle buyurdu: \"Bir köle azat etmelidir.\"",
-              "ur": "میں نے ابا جعفر علیہ السلام سے ایک ایسے شخص کے بارے میں پوچھا جس نے اپنے غلام کو مارا، اور وہ اس کی مار سے مر گیا۔ آپ نے فرمایا: \"اسے ایک غلام آزاد کرنا ہوگا۔\"",
-              "zh": "我问阿巴·贾法尔 عليه السلام：有一个人殴打了属于他的奴隶，那奴隶因他的殴打而死。他说：“他必须释放一个奴隶。”"
-            },
             "word_end": 24,
             "word_start": 8
           }
@@ -90,26 +77,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "رَقَبَةً": "a slave, meaning a person to be freed as expiation",
-            "ضَرَبَ": "struck or beat",
-            "ضَرْبِهِ": "his beating",
-            "فَمَاتَ": "then he died",
-            "مَمْلُوكًا": "a slave owned by someone",
-            "يُعْتِقُ": "he must emancipate or free"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "ضَرَبَ",
+          "مَمْلُوكًا",
+          "فَمَاتَ",
+          "ضَرْبِهِ",
+          "يُعْتِقُ",
+          "رَقَبَةً"
+        ],
         "related_quran": [
           {
             "ref": "4:92",
@@ -124,32 +99,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কোনো ব্যক্তি তার দাসকে মারধর করে এবং দাসটি সেই মারধরে মারা যায়, তবে কী হুকুম?",
-          "de": "Was ist das Urteil, wenn ein Mann seinen Sklaven schlägt und der Sklave an den Schlägen stirbt?",
-          "en": "What is the ruling if a man beats his slave and the slave dies from the beating?",
-          "es": "¿Cuál es la norma si un hombre golpea a su esclavo y el esclavo muere a causa de los golpes?",
-          "fa": "اگر مردی برده‌اش را بزند و برده بر اثر آن بمیرد، حکم چیست؟",
-          "fr": "Quelle est la règle si un homme frappe son esclave et que l’esclave meurt sous ses coups ?",
-          "id": "Apa hukumnya jika seorang laki-laki memukul budaknya lalu budak itu mati karena pukulan tersebut?",
-          "ru": "Каково постановление, если человек бьет своего раба, и раб умирает от побоев?",
-          "tr": "Bir adam kölesini döver ve köle bu dayağın sonucunda ölürse hüküm nedir?",
-          "ur": "اگر کوئی شخص اپنے غلام کو مارے اور غلام مارنے سے مر جائے تو کیا حکم ہے؟",
-          "zh": "如果一个人殴打自己的奴隶，奴隶因殴打而死，判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে এমন এক মালিকের ব্যাপারে শরঈ বিধান বর্ণিত হয়েছে, যার দাস তার প্রহারে মারা যায়। ইমাম আবা জাফর عليه السلام এ ক্ষেত্রে কাফফারা হিসেবে একটি দাস মুক্ত করার নির্দেশ দেন, যা সহিংসতার মাধ্যমে মৃত্যু ঘটানোর দায়বদ্ধতা স্পষ্ট করে।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung über einen Herrn, dessen Sklave infolge seiner Schläge stirbt. Imam Aba Ja‘far عليه السلام entscheidet, dass die Sühne in diesem Fall darin besteht, einen Sklaven freizulassen, und hebt die Verantwortung für den durch Gewalt verursachten Tod hervor.",
-          "en": "This hadith gives a legal ruling concerning a master whose slave dies as a result of his beating. Imam Abu Ja'far عليه السلام rules that expiation in this case is the freeing of a slave, highlighting accountability for causing death through violence.",
-          "es": "Este hadiz expone una norma jurídica sobre un amo cuyo esclavo muere a causa de sus golpes. El Imam Aba Ya‘far عليه السلام dictamina que la expiación en este caso es liberar a un esclavo, destacando la responsabilidad por causar la muerte mediante la violencia.",
-          "fa": "این حدیث حکمی فقهی را درباره صاحب برده‌ای بیان می‌کند که برده‌اش بر اثر ضربه او می‌میرد؛ امام ابا جعفر علیه السلام در این مورد حکم می‌کند که کفاره، آزاد کردن یک برده است و مسئولیتِ سبب شدنِ مرگ از راه خشونت را نشان می‌دهد.",
-          "fr": "Ce hadith énonce une règle juridique concernant un maître dont l’esclave meurt à la suite de ses coups. L’imam Aba Ja‘far عليه السلام juge que l’expiation dans ce cas est d’affranchir un esclave, soulignant la responsabilité de causer la mort par la violence.",
-          "id": "Hadis ini memberikan حكم hukum tentang seorang tuan yang budaknya mati akibat pukulannya. Imam Abu Ja'far عليه السلام memutuskan bahwa kafarat dalam kasus ini adalah memerdekakan seorang budak, yang menegaskan tanggung jawab atas kematian yang disebabkan oleh kekerasan.",
-          "ru": "Этот хадис излагает правовое постановление относительно хозяина, чей раб умирает в результате его побоев. Имам Абу Джафар عليه السلام постановляет, что искуплением в этом случае является освобождение раба, подчеркивая ответственность за причинение смерти насилием.",
-          "tr": "Bu hadis, efendisinin dayağı sonucu ölen bir köleyle ilgili fıkhî hükmü بیان eder; İmam Ebu Ca‘fer عليه السلام bu durumda kefaretin bir köle azat etmek olduğunu hükme bağlar ve şiddet yoluyla ölüme sebep olmanın sorumluluğunu vurgular.",
-          "ur": "یہ حدیث اس حکمِ شرعی کو بیان کرتی ہے کہ اگر کسی شخص کے مارنے سے اس کا غلام مر جائے تو کفارہ ایک غلام آزاد کرنا ہے، اور اس میں قتل کا سبب بننے پر جواب دہی واضح کی گئی ہے۔",
-          "zh": "这段圣训阐明了一项教法律例：若某人的奴隶因其殴打而死，则其赎罪是释放一名奴隶，强调了因暴力致死所应承担的责任。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations",

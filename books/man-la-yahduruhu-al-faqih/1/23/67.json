@@ -18,23 +18,23 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَإِنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ اغْتَمَّ، فَأَمَرَهُ جَبْرَئِيلُ عَلَيْهِ السَّلَامُ أَنْ يَغْسِلَ رَأْسَهُ بِالسِّدْرِ، وَكَانَ ذَلِكَ سِدْرًا مِنْ سِدْرَةِ الْمُنْتَهَى.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এবং সত্যিই, যখন আল্লাহর রাসূল صلى الله عليه وآله দুঃখিত ছিলেন, জিব্রাঈল عليه السلام তাকে তার মাথা সিদর দিয়ে ধোয়ার নির্দেশ দিলেন, এবং সেই সিদর ছিল সিদরাতুল মুন্তাহা থেকে।",
-              "de": "Und tatsächlich, als der Gesandte Allahs صلى الله عليه وآله in Bedrängnis war, wies ihn Jibrāʾīl عليه السلام an, seinen Kopf mit Sidr zu waschen, und dieser Sidr stammte von Sidrat al-Muntahā.",
-              "en": "And indeed, when the Messenger of Allah صلى الله عليه وآله was distressed, Jibrāʾīl عليه السلام instructed him to wash his head with sidr, and that sidr was from Sidrat al-Muntahā.",
-              "es": "Y en verdad, cuando el Mensajero de Allah صلى الله عليه وآله estaba afligido, Jibrāʾīl عليه السلام le indicó que se lavara la cabeza con sidr, y ese sidr era de Sidrat al-Muntahā.",
-              "fa": "و به راستی هنگامی که رسول خدا صلى الله عليه وآله دچار اندوه شد، جبرئیل عليه السلام به او دستور داد که سرش را با سدر بشوید، و آن سدر از سدره‌المنتها بود.",
-              "fr": "Et en effet, lorsque le Messager d'Allah صلى الله عليه وآله était en détresse, Jibrāʾīl عليه السلام lui ordonna de laver sa tête avec du sidr, et ce sidr provenait de Sidrat al-Muntahā.",
-              "id": "Dan sesungguhnya, ketika Rasulullah صلى الله عليه وآله merasa gelisah, Jibrāʾīl عليه السلام memerintahkannya untuk mencuci kepalanya dengan sidr, dan sidr itu berasal dari Sidrat al-Muntahā.",
-              "ru": "И действительно, когда Посланник Аллаха صلى الله عليه وآله был в затруднении, Джибраил عليه السلام повелел ему вымыть голову сидром, и этот сидр был из Сидрат аль-Мунтаха.",
-              "tr": "Ve gerçekten, Allah'ın Resulü صلى الله عليه وآله sıkıntı yaşadığında, Cebrâil عليه السلام ona başını sidr ile yıkamasını emretti ve o sidr Sidretü'l-Müntehâ'dan idi.",
-              "ur": "اور واقعی جب رسول اللہ صلی اللہ علیہ وآلہ وسلم پریشان ہوئے، جبرائیل علیہ السلام نے انہیں ہدایت دی کہ وہ اپنا سر سدر سے دھوئیں، اور وہ سدر سدرۃ المنتہیٰ سے تھا۔",
-              "zh": "确实当安拉使者صلىاللهعليه وآله感到忧虑时，吉卜赖勒عليه السلام指示他用西德尔洗头，而那西德尔来自西德拉特·穆恩塔哈。"
-            },
             "word_end": 22,
             "word_start": 0
           }
@@ -52,25 +52,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "اغْتَمَّ": "became distressed or grieved",
-            "بِالسِّدْرِ": "with sidr, i.e. lote tree leaves used for washing",
-            "جَبْرَئِيلُ": "Jibrāʾīl, the angelic messenger",
-            "رَسُولَ اللَّهِ": "the Messenger of Allah, referring to the Prophet صلى الله عليه وآله",
-            "سِدْرَةِ الْمُنْتَهَى": "Sidrat al-Muntahā, the lote tree at the utmost boundary"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رَسُولَ اللَّهِ",
+          "اغْتَمَّ",
+          "جَبْرَئِيلُ",
+          "بِالسِّدْرِ",
+          "سِدْرَةِ الْمُنْتَهَى"
+        ],
         "related_quran": [
           {
             "ref": "53:14",
@@ -81,32 +69,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যখন আল্লাহর রাসূল صلى الله عليه وآله দুঃখিত ছিলেন, তখন জিব্রাঈল عليه السلام তাকে কী করার নির্দেশ দিয়েছিলেন?",
-          "de": "Was befahl Jibrāʾīl عليه السلام dem Gesandten Allahs صلى الله عليه وآله zu tun, als er in Bedrängnis war?",
-          "en": "What did Jibrāʾīl عليه السلام instruct the Messenger of Allah صلى الله عليه وآله to do when he was distressed?",
-          "es": "¿Qué le indicó Jibrāʾīl عليه السلام al Mensajero de Allah صلى الله عليه وآله que hiciera cuando estaba afligido?",
-          "fa": "وقتی رسول خدا صلى الله عليه وآله دچار اندوه شد، جبرئیل عليه السلام به او چه دستور داد؟",
-          "fr": "Qu'est-ce que Jibrāʾīl عليه السلام a ordonné au Messager d'Allah صلى الله عليه وآله de faire lorsqu'il était en détresse?",
-          "id": "Apa yang diperintahkan Jibrāʾīl عليه السلام kepada Rasulullah صلى الله عليه وآله saat beliau sedang gelisah?",
-          "ru": "Что повелел сделать Джибраил عليه السلام Посланнику Аллаха صلى الله عليه وآله, когда тот был в затруднении?",
-          "tr": "Allah'ın Resulü صلى الله عليه وآله sıkıntı yaşadığında Cebrâil عليه السلام ona ne yapmasını emretti?",
-          "ur": "جب رسول اللہ صلی اللہ علیہ وآلہ وسلم پریشان تھے تو جبرائیل علیہ السلام نے انہیں کیا کرنے کی ہدایت دی؟",
-          "zh": "当安拉使者صلىاللهعليه وآله感到忧虑时，吉卜赖勒عليه السلام指示他做了什么？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনাটি জানায় যে যখন আল্লাহর রাসূল صلى الله عليه وآله দুঃখিত ছিলেন, জিব্রাঈল عليه السلام তাকে তার মাথা সিদর দিয়ে ধোয়ার নির্দেশ দিয়েছিলেন। এই সিদর ছিল সিদরাতুল মুন্তাহা থেকে, যা ঘটনাটিকে বিশেষ পবিত্রতা প্রদান করে।",
-          "de": "Dieser Bericht besagt, dass als der Gesandte Allahs صلى الله عليه وآله in Bedrängnis war, Jibrāʾīl عليه السلام ihm befahl, seinen Kopf mit Sidr zu waschen. Es wird auch beschrieben, dass dieser Sidr von Sidrat al-Muntahā stammt, was dem Ereignis eine besondere heilige Bedeutung verleiht.",
-          "en": "This report states that when the Messenger of Allah صلى الله عليه وآله experienced distress, Jibrāʾīl عليه السلام directed him to wash his head with sidr. It also describes this sidr as being from Sidrat al-Muntahā, giving the event a special sacred association.",
-          "es": "Este informe indica que cuando el Mensajero de Allah صلى الله عليه وآله experimentó aflicción, Jibrāʾīl عليه السلام le indicó lavar su cabeza con sidr. También describe este sidr como proveniente de Sidrat al-Muntahā, otorgando al evento una asociación sagrada especial.",
-          "fa": "این گزارش بیان می‌کند که هنگامی که رسول خدا صلى الله عليه وآله دچار اندوه شد، جبرئیل عليه السلام به او دستور داد سرش را با سدر بشوید. همچنین این سدر از سدره‌المنتها بود که به این واقعه معنای مقدس ویژه‌ای می‌بخشد.",
-          "fr": "Ce rapport indique que lorsque le Messager d'Allah صلى الله عليه وآله a éprouvé de la détresse, Jibrāʾīl عليه السلام lui a ordonné de laver sa tête avec du sidr. Il décrit également ce sidr comme provenant de Sidrat al-Muntahā, conférant à l'événement une association sacrée particulière.",
-          "id": "Laporan ini menyatakan bahwa ketika Rasulullah صلى الله عليه وآله mengalami kesedihan, Jibrāʾīl عليه السلام mengarahkan beliau untuk mencuci kepala dengan sidr. Sidr ini berasal dari Sidrat al-Muntahā, memberikan peristiwa ini makna suci khusus.",
-          "ru": "Этот рассказ гласит, что когда Посланник Аллаха صلى الله عليه وآله испытывал огорчение, Джибраил عليه السلام повелел ему вымыть голову сидром. Также описывается, что этот сидр был из Сидрат аль-Мунтаха, придавая событию особое священное значение.",
-          "tr": "Bu rivayet, Allah'ın Resulü صلى الله عليه وآله sıkıntı yaşadığında Cebrâil عليه السلام'ın ona başını sidr ile yıkamasını emrettiğini belirtir. Bu sidr, Sidretü'l-Müntehâ'dan olup olaya özel kutsal bir anlam katar.",
-          "ur": "یہ روایت بیان کرتی ہے کہ جب رسول اللہ صلی اللہ علیہ وآلہ وسلم کو پریشانی ہوئی تو جبرائیل علیہ السلام نے انہیں سر سدر سے دھونے کی ہدایت دی۔ یہ سدر سدرۃ المنتہیٰ سے تھا، جو اس واقعہ کو خاص روحانی اہمیت دیتا ہے۔",
-          "zh": "此报告说明，当安拉使者صلىاللهعليه وآله感到忧虑时，吉卜赖勒عليه السلام指示他用来自西德拉特·穆恩塔哈的西德尔洗头，赋予此事件特殊的神圣关联。"
-        },
         "tags": [
           "worship",
           "prophetic_tradition",

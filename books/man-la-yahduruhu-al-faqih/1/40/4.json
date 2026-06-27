@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَ مُحَمَّدُ بْنُ عَلِيٍّ الْحَلَبِيُّ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবনে আলী আল-হালাবী আবা আবদিল্লাহ عليه السلام-কে জিজ্ঞাসা করলেন:",
-              "de": "Muḥammad ibn ʿAlī al-Ḥalabī fragte Abā ʿAbdillāh علیه السلام:",
-              "en": "Muḥammad ibn ʿAlī al-Ḥalabī asked Abā ʿAbdillāh عليه السلام:",
-              "es": "Muḥammad ibn ʿAlī al-Ḥalabī preguntó a Abā ʿAbdillāh عليه السلام:",
-              "fa": "محمد بن علی الحلبي از ابا عبدالله علیه السلام پرسید:",
-              "fr": "Muḥammad ibn ʿAlī al-Ḥalabī a demandé à Abā ʿAbdillāh عليه السلام :",
-              "id": "Muḥammad ibn ʿAlī al-Ḥalabī bertanya kepada Abā ʿAbdillāh علیه السلام:",
-              "ru": "Мухаммад ибн Али аль-Халаби спросил Абā Абдиллах علیه السلام:",
-              "tr": "Muḥammad ibn ʿAlī al-Ḥalabī, Abā ʿAbdillāh علیه السلام'a sordu:",
-              "ur": "مُحَمَّد ابن عَلٰی الحَلَبِی نے ابا عبد اللہ علیہ السلام سے پوچھا:",
-              "zh": "穆罕默德本阿里哈拉比向阿巴阿卜杜拉 عليه السلام提问："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "عَنِ الرَّجُلِ يَكُونُ لَهُ الثَّوْبُ الْوَاحِدُ فِيهِ بَوْلٌ لَا يَقْدِرُ عَلَى غَسْلِهِ قَالَ «يُصَلِّي فِيهِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন ব্যক্তির সম্পর্কে যার কাছে মাত্র একটি পোশাক আছে, এবং তাতে প্রস্রাব লেগে আছে, এবং সে তা ধুতে সক্ষম নয়। তিনি বললেন: \"সে তাতে সালাত পড়ে।\"",
-              "de": "Über einen Mann, der nur ein Kleidungsstück hat, in dem sich Urin befindet, und der es nicht waschen kann. Er sagte: „Er betet darin.“",
-              "en": "about a man who has only one garment, and in it there is urine, and he is unable to wash it. He said: “He prays in it.”",
-              "es": "Sobre un hombre que solo tiene una prenda, y en ella hay orina, y no puede lavarla. Él dijo: \"Él reza con ella puesta.\"",
-              "fa": "درباره مردی که فقط یک لباس دارد و در آن ادرار است و نمی‌تواند آن را بشوید. فرمود: «در آن نماز می‌خواند.»",
-              "fr": "À propos d’un homme qui n’a qu’un seul vêtement, et dans lequel il y a de l’urine, et il ne peut pas le laver. Il a dit : « Il prie dedans. »",
-              "id": "Tentang seorang pria yang hanya memiliki satu pakaian, dan di dalamnya ada urine, dan dia tidak mampu mencucinya. Dia berkata: \"Dia shalat di dalamnya.\"",
-              "ru": "О человеке, у которого есть только одна одежда, на которой есть моча, и он не может её постирать. Он сказал: «Он молится в ней.»",
-              "tr": "Sadece bir elbisesi olan ve içinde idrar bulunan, ancak onu yıkayamayan bir adam hakkında. Dedi ki: \"O, içinde namaz kılar.\"",
-              "ur": "ایک شخص کے بارے میں جس کے پاس صرف ایک کپڑا ہے، جس میں پیشاب لگا ہوا ہے اور وہ اسے دھو نہیں سکتا۔ انہوں نے فرمایا: \"وہ اسی میں نماز پڑھتا ہے۔\"",
-              "zh": "关于一个人只有一件衣服，里面有尿液，他无法清洗。他说：“他穿着它祈祷。”"
-            },
             "word_end": 25,
             "word_start": 10
           }
@@ -92,26 +79,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الثَّوْبُ": "the garment or clothing worn for prayer",
-            "الْوَاحِدُ": "the single only garment available",
-            "بَوْلٌ": "urine, a source of ritual impurity",
-            "غَسْلِهِ": "washing it to remove impurity",
-            "فِيهِ": "in it, meaning in that same garment",
-            "يُصَلِّي": "he performs salat (prayer)"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الثَّوْبُ",
+          "الْوَاحِدُ",
+          "بَوْلٌ",
+          "غَسْلِهِ",
+          "يُصَلِّي",
+          "فِيهِ"
+        ],
         "related_quran": [
           {
             "ref": "2:286",
@@ -122,32 +97,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কারো একমাত্র পোশাক প্রস্রাব দ্বারা নাজিস হয় এবং সে তা সালাতের আগে ধুতে না পারে, তাহলে তাকে কী করা উচিত?",
-          "de": "Was soll eine Person tun, wenn ihr einziges Kleidungsstück durch Urin verunreinigt ist und sie es vor dem Gebet nicht waschen kann?",
-          "en": "What should a person do if his only garment is impure with urine and he cannot wash it before prayer?",
-          "es": "¿Qué debe hacer una persona si su única prenda está impura con orina y no puede lavarla antes de la oración?",
-          "fa": "اگر تنها لباس یک شخص با ادرار نجس شده باشد و نتواند آن را قبل از نماز بشوید، چه باید بکند؟",
-          "fr": "Que doit faire une personne si son seul vêtement est impur à cause d’urine et qu’elle ne peut pas le laver avant la prière ?",
-          "id": "Apa yang harus dilakukan seseorang jika satu-satunya pakaiannya najis karena urine dan dia tidak bisa mencucinya sebelum salat?",
-          "ru": "Что должен делать человек, если его единственная одежда загрязнена мочой и он не может её постирать перед молитвой?",
-          "tr": "Bir kişinin tek elbisesi idrarla kirlenmiş ve namazdan önce yıkayamıyorsa ne yapmalıdır?",
-          "ur": "اگر کسی کا واحد کپڑا پیشاب سے نجس ہو اور وہ اسے نماز سے پہلے دھو نہ سکے تو اسے کیا کرنا چاہیے؟",
-          "zh": "如果一个人唯一的衣服被尿液污染且无法在祈祷前清洗，他应该怎么办？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি এমন একজন ব্যক্তির জন্য শারঈ হুকুম প্রদান করে যার কাছে মাত্র একটি পোশাক আছে যা প্রস্রাবযুক্ত এবং সে তা ধুতে সক্ষম নয়। ইমাম আল-সাদিক عليه السلام বলেন যে তাকে সেই পোশাকে সালাত আদায় করতে হবে, যা অক্ষমতার ক্ষেত্রে জরুরী হুকুম নির্দেশ করে।",
-          "de": "Dieser Hadith gibt eine Rechtsregel für jemanden, der nur ein Kleidungsstück besitzt, das mit Urin befleckt ist und das er nicht waschen kann. Imam al-Ṣādiq علیه السلام sagt, dass er darin beten soll, was die Regel der Notwendigkeit bei Unfähigkeit anzeigt.",
-          "en": "This hadith gives a legal ruling for one who possesses only a single garment that has urine on it and is unable to wash it. Imam al-Ṣādiq عليه السلام states that he should perform salat in that garment, indicating the ruling of necessity in a case of incapacity.",
-          "es": "Este hadiz da un fallo legal para quien posee solo una prenda que tiene orina y no puede lavarla. El Imam al-Ṣādiq عليه السلام indica que debe rezar con esa prenda, señalando la regla de necesidad en caso de incapacidad.",
-          "fa": "این حدیث حکم شرعی کسی را بیان می‌کند که تنها یک لباس دارد که ادرار روی آن است و نمی‌تواند آن را بشوید. امام صادق علیه السلام می‌فرماید که باید در همان لباس نماز بخواند که حکم ضرورت در حالت ناتوانی را نشان می‌دهد.",
-          "fr": "Ce hadith donne un jugement légal pour celui qui ne possède qu’un seul vêtement souillé d’urine et ne peut pas le laver. L’Imam al-Ṣādiq عليه السلام déclare qu’il doit prier avec ce vêtement, indiquant la règle de la nécessité en cas d’incapacité.",
-          "id": "Hadis ini memberikan hukum bagi seseorang yang hanya memiliki satu pakaian yang terkena urine dan tidak mampu mencucinya. Imam al-Ṣādiq علیه السلام menyatakan bahwa dia harus shalat dengan pakaian itu, menunjukkan hukum darurat dalam keadaan ketidakmampuan.",
-          "ru": "Этот хадис даёт правовое постановление для того, у кого есть только одна одежда с мочой, и он не может её постирать. Имам ас-Садик علیه السلام говорит, что он должен молиться в этой одежде, указывая на правило необходимости в случае невозможности.",
-          "tr": "Bu hadis, sadece bir elbisesi olan ve o elbise idrar bulaşmış olup yıkayamayan kişi için hukuki hükmü verir. İmam al-Ṣādiq علیه السلام, kişinin o elbise ile namaz kılması gerektiğini belirtir; bu, yetersizlik durumunda zaruret hükmünü gösterir.",
-          "ur": "یہ حدیث اس شخص کے لیے شرعی حکم بیان کرتی ہے جس کے پاس صرف ایک کپڑا ہو جس پر پیشاب لگا ہو اور وہ اسے دھو نہ سکے۔ امام الصادق علیہ السلام فرماتے ہیں کہ وہ اسی کپڑے میں نماز ادا کرے، جو نااہلی کی صورت میں ضرورت کا حکم ظاہر کرتا ہے۔",
-          "zh": "这则圣训为只有一件沾有尿液且无法清洗的衣服的人提供了法律裁决。伊玛目萨迪克 عليه السلام指出，他应穿着该衣服祈祷，表明在无能为力情况下的必要性裁决。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

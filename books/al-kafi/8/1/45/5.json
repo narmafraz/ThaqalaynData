@@ -14,6 +14,144 @@
       "up": "/books/al-kafi:8:1:45"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ أَحْمَدَ عَنْ عَبْدِ اللَّهِ بْنِ الصَّلْتِ عَنْ يُونُسَ وَ عَنْ عَبْدِ الْعَزِيزِ بْنِ الْمُهْتَدِي عَنْ رَجُلٍ عَنْ أَبِي الْحَسَنِ الْمَاضِي (عَلَيْهِ السَّلَامُ)",
+            "chunk_type": "isnad",
+            "word_end": 24,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "فِي قَوْلِهِ تَعَالَى مَنْ ذَا الَّذِي يُقْرِضُ اللَّهَ قَرْضاً حَسَنًا فَيُضَاعِفَهُ لَهُ وَ لَهُ أَجْرٌ كَرِيمٌ قَالَ صِلَةُ الْإِمَامِ فِي دَوْلَةِ الْفَسَقَةِ.",
+            "chunk_type": "body",
+            "word_end": 46,
+            "word_start": 24
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 59,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ أَحْمَدَ",
+              "name_en": "Muhammad ibn Ahmad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 593,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللَّهِ بْنِ الصَّلْتِ",
+              "name_en": "Abd Allah b. al-Salt",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 26,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "يُونُسَ",
+              "name_en": "Yunus",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3928,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَنْ عَبْدِ الْعَزِيزِ بْنِ الْمُهْتَدِي",
+              "name_en": "Abd al-Aziz b. al-Muhtadi",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 60,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "رَجُلٍ",
+              "name_en": "a man",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 521,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي الْحَسَنِ الْمَاضِي (عليه السلام)",
+              "name_en": "Abu al-Hasan al-Madi",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "قَرْضاً حَسَنًا",
+          "صِلَةُ الْإِمَامِ",
+          "دَوْلَةِ الْفَسَقَةِ",
+          "أَجْرٌ كَرِيمٌ"
+        ],
+        "related_quran": [
+          {
+            "ref": "57:11",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "9:103",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "57:7",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "quran_commentary",
+          "governance",
+          "ethics"
+        ],
+        "topics": [
+          "quran_interpretation_method",
+          "imamate",
+          "charity"
+        ]
+      },
       "gradings": [
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
       ],
@@ -103,7 +241,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:45:5",

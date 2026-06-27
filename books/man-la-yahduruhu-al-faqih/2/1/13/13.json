@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ اَلصَّادِقُ عَلَيْهِ اَلسَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং আল-সাদিক عليه السلام বললেন:",
-              "de": "Und al-Sadiq عليه السلام sagte:",
-              "en": "And al-Sadiq عليه السلام said:",
-              "es": "Y al-Sadiq عليه السلام dijo:",
-              "fa": "و الصادق علیه السلام فرمود:",
-              "fr": "Et al-Sadiq عليه السلام a dit :",
-              "id": "Dan al-Sadiq علیه السلام berkata:",
-              "ru": "И аль-Садик عليه السلام сказал:",
-              "tr": "Ve el-Sadık عليه السلام şöyle dedi:",
-              "ur": "اور الصادق علیہ السلام نے فرمایا:",
-              "zh": "والصادقعليهالسلامقال:"
-            },
             "word_end": 5,
             "word_start": 0
           },
           {
             "arabic_text": "«اَلْمُنْجِيَاتُ إِطْعَامُ اَلطَّعَامِ وَ إِفْشَاءُ اَلسَّلَامِ وَ اَلصَّلَاةُ بِاللَّيْلِ وَ اَلنَّاسُ نِيَامٌ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "\"উদ্ধারকারী কাজগুলি হল খাবার খাওয়ানো, সালাম ছড়ানো, এবং যখন মানুষ ঘুমাচ্ছে তখন রাতে সালাত (নামাজ) পড়া।\"",
-              "de": "\"Die rettenden Taten sind das Speisen von Nahrung, das Verbreiten von salām und das Verrichten der Salat (Gebet) in der Nacht, während die Menschen schlafen.\"",
-              "en": "\"The saving acts are feeding food, spreading salām, and salat (prayer) at night while the people are asleep.\"",
-              "es": "\"Los actos que salvan son alimentar con comida, difundir el salām, y la salat (oración) en la noche mientras la gente duerme.\"",
-              "fa": "«اعمال نجات‌بخش عبارتند از اطعام غذا، گسترش سلام، و نماز شب در حالی که مردم خوابند.»",
-              "fr": "\"Les actes salvateurs sont de nourrir, de répandre le salām, et de faire la salat (prière) la nuit pendant que les gens dorment.\"",
-              "id": "\"Amalan yang menyelamatkan adalah memberi makan, menyebarkan salām, dan salat (shalat) di malam hari saat orang-orang sedang tidur.\"",
-              "ru": "\"Спасительные деяния — это кормление едой, распространение салям и совершение салят (молитвы) ночью, когда люди спят.\"",
-              "tr": "\"Kurtarıcı ameller, yiyecek vermek, selamı yaymak ve insanlar uyurken gece namazı kılmaktır.\"",
-              "ur": "’’نجات بخش اعمال وہ ہیں جو کھانا کھلانا، سلام پھیلانا، اور رات کو جب لوگ سو رہے ہوں تو نماز پڑھنا ہے۔‘‘",
-              "zh": "\"拯救的行为是喂食、传播萨拉姆、以及在人们睡觉时夜间礼拜。\""
-            },
             "word_end": 17,
             "word_start": 5
           }
@@ -80,28 +67,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِطْعَامُ": "giving food to others",
-            "إِفْشَاءُ": "spreading and making common among people",
-            "اَلسَّلَامِ": "salām; greeting of peace and goodwill",
-            "اَلصَّلَاةُ": "salat (prayer), especially devotional worship",
-            "اَلطَّعَامِ": "food given or served",
-            "اَلْمُنْجِيَاتُ": "the acts that bring deliverance and salvation",
-            "بِاللَّيْلِ": "during the night",
-            "نِيَامٌ": "asleep"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "اَلْمُنْجِيَاتُ",
+          "إِطْعَامُ",
+          "اَلطَّعَامِ",
+          "إِفْشَاءُ",
+          "اَلسَّلَامِ",
+          "اَلصَّلَاةُ",
+          "بِاللَّيْلِ",
+          "نِيَامٌ"
+        ],
         "related_quran": [
           {
             "ref": "76:8",
@@ -116,32 +91,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام কোন কাজগুলোকে মুক্তিদায়ক হিসেবে বর্ণনা করেছেন?",
-          "de": "Welche Taten beschrieb Imam al-Sadiq عليه السلام als rettend?",
-          "en": "What deeds did Imam al-Sadiq عليه السلام describe as bringing salvation?",
-          "es": "¿Qué actos describió el Imam al-Sadiq عليه السلام como portadores de salvación?",
-          "fa": "امام الصادق علیه السلام چه اعمالی را نجات‌بخش توصیف کردند؟",
-          "fr": "Quels actes l’Imam al-Sadiq عليه السلام a-t-il décrits comme apportant le salut ?",
-          "id": "Amalan apa yang Imam al-Sadiq علیه السلام gambarkan sebagai pembawa keselamatan?",
-          "ru": "Какие деяния Имам аль-Садик عليه السلام описал как приносящие спасение?",
-          "tr": "İmam el-Sadık عليه السلام hangi amelleri kurtarıcı olarak tanımladı?",
-          "ur": "امام الصادق علیہ السلام نے کون سے اعمال کو نجات بخش قرار دیا؟",
-          "zh": "伊玛目萨迪克عليهالسلام描述了哪些行为带来救赎？"
-        },
-        "summaries": {
-          "bn": "ইমাম জাফর ইবনে মুহাম্মদ আল-সাদিক عليه السلام এমন কাজগুলো চিহ্নিত করেছেন যা মুক্তির কারণ: অন্যদের খাওয়ানো, সালাম ছড়ানো, এবং রাতে নামাজ পড়া। এই হাদিস সামাজিক উদারতা, সামষ্টিক সদিচ্ছা এবং ব্যক্তিগত উপাসনাকে আধ্যাত্মিক সাফল্যের মাধ্যম হিসেবে যুক্ত করে।",
-          "de": "Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام benennt Taten, die zur Erlösung führen: andere zu speisen, salām zu verbreiten und die Salat (Gebet) nachts zu verrichten. Der Hadith verbindet soziale Großzügigkeit, gemeinschaftliches Wohlwollen und private Anbetung als Mittel zum spirituellen Erfolg.",
-          "en": "Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام identifies deeds that lead to salvation: feeding others, spreading salām, and performing salat (prayer) at night. The hadith joins social generosity, communal goodwill, and private worship as means of spiritual success.",
-          "es": "El Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام identifica las acciones que conducen a la salvación: alimentar a otros, difundir el salām y realizar la salat (oración) nocturna. El hadiz une la generosidad social, la buena voluntad comunitaria y la adoración privada como medios de éxito espiritual.",
-          "fa": "امام جعفر بن محمد الصادق علیه السلام اعمالی را که به نجات می‌انجامند معرفی می‌کند: اطعام دیگران، گسترش سلام، و نماز شب. این حدیث سخاوت اجتماعی، نیک‌خواهی جمعی و عبادت خصوصی را به عنوان راه‌های موفقیت معنوی پیوند می‌دهد.",
-          "fr": "L’Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام identifie les actes menant au salut : nourrir les autres, répandre le salām, et accomplir la salat (prière) nocturne. Le hadith associe la générosité sociale, la bienveillance communautaire et le culte privé comme moyens de réussite spirituelle.",
-          "id": "Imam Jaʿfar ibn Muḥammad al-Ṣādiq علیه السلام mengidentifikasi amalan yang membawa keselamatan: memberi makan orang lain, menyebarkan salām, dan melaksanakan salat (shalat) malam. Hadis ini menggabungkan kemurahan sosial, kebaikan bersama, dan ibadah pribadi sebagai sarana keberhasilan spiritual.",
-          "ru": "Имам Джафар ибн Мухаммад аль-Садик عليه السلام определяет деяния, ведущие к спасению: кормление других, распространение салям и совершение салят (молитвы) ночью. Хадис объединяет социальную щедрость, общественное благожелательство и частное поклонение как средства духовного успеха.",
-          "tr": "İmam Ca'fer ibn Muhammed el-Sadık عليه السلام, kurtuluşa götüren amelleri tanımlar: başkalarına yemek vermek, selamı yaymak ve gece namazı kılmak. Hadis, sosyal cömertlik, toplumsal iyilik ve özel ibadeti ruhani başarı yolları olarak birleştirir.",
-          "ur": "امام جعفر ابن محمد الصادق علیہ السلام نے نجات کے لیے اعمال کی نشاندہی کی ہے: دوسروں کو کھانا کھلانا، سلام پھیلانا، اور رات کو نماز پڑھنا۔ یہ حدیث سماجی سخاوت، اجتماعی خیرخواہی، اور نجی عبادت کو روحانی کامیابی کے ذرائع کے طور پر جوڑتی ہے۔",
-          "zh": "伊玛目贾法尔·伊本·穆罕默德·萨迪克عليهالسلام指出通向救赎的行为：喂养他人、传播萨拉姆、以及夜间礼拜。此圣训将社会慷慨、社区善意与私人崇拜结合为精神成功的途径。"
-        },
         "tags": [
           "ethics",
           "worship",

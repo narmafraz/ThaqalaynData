@@ -14,6 +14,136 @@
       "up": "/books/al-kafi:5:2:51"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ أَبِي عَبْدِ اللَّهِ بْنِ أَبِي عَبْدِ اللَّهِ عَنْ عُثْمَانَ بْنِ عِيسَى عَنْ سَمَاعَةَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 20,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قُلْتُ لِأَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) إِنِّي رَأَيْتُ اللَّهَ تَعَالَى قَدْ ذَكَرَ الرِّبَا فِي غَيْرِ آيَةٍ وَ كَرَّرَهُ فَقَالَ أَ وَ تَدْرِي لِمَ ذَاكَ قُلْتُ لَا قَالَ لِئَلَّا يَمْتَنِعَ النَّاسُ مِنِ اصْطِنَاعِ الْمَعْرُوفِ .",
+            "chunk_type": "body",
+            "word_end": 56,
+            "word_start": 20
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 12,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ أَبِي عَبْدِ اللَّهِ",
+              "name_en": "Ahmad b. Muhammad b. Khalid",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 41,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عُثْمَانَ بْنِ عِيسَى",
+              "name_en": "Uthman ibn Isa",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 48,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "سَمَاعَةَ",
+              "name_en": "Sama'a",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الرِّبَا",
+          "الْمَعْرُوفِ",
+          "اصْطِنَاعِ",
+          "غَيْرِ آيَةٍ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:275",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:276",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "3:130",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "4:161",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:282",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:278",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "quran_commentary",
+          "economy",
+          "ethics"
+        ],
+        "topics": [
+          "usury",
+          "quran_interpretation_method",
+          "trade_ethics"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> موثق    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (19/125)"
       ],
@@ -76,7 +206,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:2:51:7",

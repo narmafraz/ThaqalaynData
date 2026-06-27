@@ -15,42 +15,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلْحُسَيْنُ بْنُ سَعِيدٍ عَنِ ابْنِ أَبِي عُمَيْرٍ وَفَضَالَةَ عَنْ جَمِيلٍ عَنْ زُرَارَةَ وَأَبِي بَصِيرٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ, ইবন আবি ‘উমাইর ও ফাদালাহ থেকে, তারা জামীল থেকে, তারা জুরারাহ ও আবি বাসীর থেকে, তারা আবি জাফর عليه السلام থেকে বর্ণনা করেছেন, যিনি বলেছেন:",
-              "de": "Al-Husayn ibn Sa'id, von Ibn Abi 'Umayr und Fadalah, von Jamil, von Zurarah und Abi Basir, von Abi Ja'far عليه السلام, der sagte:",
-              "en": "Al-Husayn ibn Sa'id, from Ibn Abi 'Umayr and Fadalah, from Jamil, from Zurarah and Abi Basir, from Abi Ja'far عليه السلام, who said:",
-              "es": "Al-Husayn ibn Sa'id, de Ibn Abi 'Umayr y Fadalah, de Jamil, de Zurarah y Abi Basir, de Abi Ja'far عليه السلام, quien dijo:",
-              "fa": "الحسین بن سعید، از ابن ابی عمیر و فضاله، از جمیل، از زراره و ابی بصیر، از ابی جعفر علیه السلام روایت کرده است که فرمود:",
-              "fr": "Al-Husayn ibn Sa'id, d'Ibn Abi 'Umayr et Fadalah, de Jamil, de Zurarah et Abi Basir, d'Abi Ja'far عليه السلام, qui a dit :",
-              "id": "Al-Husayn ibn Sa'id, dari Ibn Abi 'Umayr dan Fadalah, dari Jamil, dari Zurarah dan Abi Basir, dari Abi Ja'far عليه السلام, yang berkata:",
-              "ru": "Аль-Хусайн ибн Са'ид, от Ибн Аби 'Умайра и Фадалы, от Джамила, от Зурары и Аби Басира, от Аби Джа'фара عليه السلام, который сказал:",
-              "tr": "el-Hüseyin ibn Sa'id, İbn Ebi 'Umeyr ve Fadale'den, onlar Cemil'den, onlar Zurara ve Ebi Basir'den, onlar Ebu Ca'fer عليه السلام'den rivayet etti ki şöyle dedi:",
-              "ur": "الحسین بن سعید، ابن ابی عمیر اور فضالہ سے، وہ جمیل سے، وہ زرارہ اور ابی بصیر سے، وہ ابی جعفر علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "Al-HusaynibnSa'id，传自IbnAbi'Umayr和Fadalah，传自Jamil，传自Zurarah和AbiBasir，传自AbiJa'far عليه السلام，他说："
-            },
             "word_end": 20,
             "word_start": 0
           },
           {
             "arabic_text": "لَا تَنْقُضُ الْقُبْلَةُ الصَّوْمَ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "চুম্বন রোজা ভঙ্গ করে না।",
-              "de": "Ein Kuss macht das Fasten nicht ungültig.",
-              "en": "A kiss does not invalidate the fast.",
-              "es": "Un beso no invalida el ayuno.",
-              "fa": "بوسه روزه را باطل نمی‌کند.",
-              "fr": "Un baiser n'annule pas le jeûne.",
-              "id": "Ciuman tidak membatalkan puasa.",
-              "ru": "Поцелуй не нарушает пост.",
-              "tr": "Bir öpücük orucu bozmaz.",
-              "ur": "بوسہ روزے کو باطل نہیں کرتا۔",
-              "zh": "亲吻不会使斋戒失效。"
-            },
             "word_end": 24,
             "word_start": 20
           }
@@ -103,55 +90,17 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الصَّوْمَ": "the fast; the state of ritual fasting",
-            "الْقُبْلَةُ": "a kiss",
-            "لَا تَنْقُضُ": "does not invalidate or nullify"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْقُبْلَةُ",
+          "الصَّوْمَ",
+          "لَا تَنْقُضُ"
+        ],
         "related_quran": [
           {
             "ref": "2:187",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ইসলামে কি চুম্বন রোজা ভঙ্গ করে?",
-          "de": "Macht Küssen im schiitischen Islam das Fasten ungültig?",
-          "en": "Does kissing invalidate the fast in Shia Islam?",
-          "es": "¿El beso invalida el ayuno en el islam chií?",
-          "fa": "آیا بوسه در اسلام شیعه روزه را باطل می‌کند؟",
-          "fr": "Le baiser annule-t-il le jeûne dans l'islam chiite ?",
-          "id": "Apakah berciuman membatalkan puasa dalam Islam Syiah?",
-          "ru": "Нарушает ли поцелуй пост в шиитском исламе?",
-          "tr": "Şii İslam'da öpüşmek orucu bozar mı?",
-          "ur": "کیا شیعہ اسلام میں بوسہ روزہ کو باطل کرتا ہے؟",
-          "zh": "在什叶派伊斯兰教中，亲吻会使斋戒失效吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে একটি শরয়ি বিধান উল্লেখ করা হয়েছে যে, চুম্বন নিজে নিজে সাওম (রোজা) বাতিল করে না। এটি সিয়ামের ফিকহের সঙ্গে সম্পর্কিত এবং রোজাদারের একটি ব্যবহারিক বিষয় স্পষ্ট করে।",
-          "de": "Dieser Hadith enthält eine rechtliche Regel: Ein Kuss macht das sawm (Fasten) an sich nicht ungültig. Er ist für das Fiqh des Fastens relevant und klärt eine praktische Frage bezüglich der Handlungen einer fastenden Person.",
-          "en": "This hadith states a legal ruling that a kiss, in itself, does not invalidate sawm (fasting). It is relevant to the fiqh of fasting and clarifies a practical matter concerning the actions of a fasting person.",
-          "es": "Este hadiz establece una norma jurídica: un beso, por sí mismo, no invalida el sawm (ayuno). Es relevante para el fiqh del ayuno y aclara un asunto práctico relacionado con las acciones de la persona que ayuna.",
-          "fa": "این حدیث یک حکم فقهی را بیان می‌کند که بوسه، به خودی خود، روزه را باطل نمی‌کند. این روایت به فقه روزه مربوط است و یک مسئله عملی درباره رفتار روزه‌دار را روشن می‌سازد.",
-          "fr": "Ce hadith énonce une règle juridique : un baiser, en soi, n'annule pas le sawm (jeûne). Il est pertinent pour le fiqh du jeûne et clarifie une question pratique concernant les actes de la personne qui jeûne.",
-          "id": "Hadis ini menyatakan sebuah hukum fikih bahwa ciuman, pada dirinya sendiri, tidak membatalkan sawm (puasa). Ini berkaitan dengan fikih puasa dan menjelaskan satu persoalan praktis mengenai perbuatan orang yang berpuasa.",
-          "ru": "Этот хадис устанавливает правовое положение: поцелуй сам по себе не нарушает sawm (пост). Он относится к фикху поста и проясняет практический вопрос, касающийся действий постящегося.",
-          "tr": "Bu hadis, bir öpücüğün kendi başına orucu bozmadığına dair bir fıkhî hüküm بیان eder. Oruç fıkhıyla ilgilidir ve oruçlu kişinin bir uygulama meselesini açıklar.",
-          "ur": "یہ حدیث ایک شرعی حکم بیان کرتی ہے کہ بوسہ بذاتِ خود روزے کو باطل نہیں کرتا۔ یہ روزے کے فقہی مسائل سے متعلق ہے اور روزہ دار کے ایک عملی معاملے کی وضاحت کرتی ہے۔",
-          "zh": "这段圣训说明了一项教法判定：亲吻本身不会使sawm（斋戒）失效。它与斋戒的fiqh有关，并澄清了关于斋戒者行为的一个实际问题。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَهُ سَمَاعَةُ: عَنِ الْيَوْمِ فِي شَهْرِ رَمَضَانَ يُخْتَلَفُ فِيهِ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "সমাআহ তাকে রমজান মাসের একটি দিনের বিষয়ে জিজ্ঞাসা করল যার বিষয়ে মতবিরোধ রয়েছে।",
-              "de": "Sama'ah fragte ihn nach einem Tag im Monat Ramadan, über den Uneinigkeit besteht.",
-              "en": "Sama'ah asked him about a day in the Month of Ramadan concerning which there is disagreement.",
-              "es": "Sama'ah le preguntó sobre un día en el mes de Ramadán respecto al cual hay desacuerdo.",
-              "fa": "سماعہ درباره روزی در ماه رمضان که در آن اختلاف است پرسید.",
-              "fr": "Sama'ah lui a demandé au sujet d'un jour du mois de Ramadan sur lequel il y a un désaccord.",
-              "id": "Sama'ah bertanya kepadanya tentang suatu hari di bulan Ramadan yang terdapat perbedaan pendapat.",
-              "ru": "Сама'а спросил его о дне в месяце Рамадан, по поводу которого существует разногласие.",
-              "tr": "Sama'ah, Ramazan ayındaki bir gün hakkında anlaşmazlık olan bir konuda sordu.",
-              "ur": "سماعہ نے رمضان کے مہینے میں ایک دن کے بارے میں پوچھا جس پر اختلاف ہے۔",
-              "zh": "萨马阿问他关于斋月中一个存在分歧的日子。"
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ «إِذَا اجْتَمَعَ أَهْلُ الْمِصْرِ عَلَى صِيَامِهِ لِلرُّؤْيَةِ فَاقْضِهِ إِذَا كَانَ أَهْلُ الْمِصْرِ خَمْسَمِائَةِ إِنْسَانٍ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি نے فرمایا: \"اگر শহরের লোকেরা চাঁদ দেখার ভিত্তিতে রোজা রাখার ব্যাপারে একমত হয়, তবে তা পালন করো، যদি শহরের লোকজন পাঁচশত জন হয়।\"",
-              "de": "Er sagte: „Wenn die Leute der Stadt sich auf das Fasten aufgrund der Sichtung einigen, dann haltet es ein, wenn die Leute der Stadt fünfhundert Personen sind.“",
-              "en": "He said: \"If the people of the city agree upon fasting it on the basis of sighting, then observe it, if the people of the city are five hundred persons.\"",
-              "es": "Él dijo: \"Si la gente de la ciudad acuerda ayunar basándose en la observación de la luna, entonces obsérvalo, si la gente de la ciudad son quinientas personas.\"",
-              "fa": "فرمود: «اگر مردم شهر بر روزه گرفتن بر اساس رؤیت ماه اتفاق کنند، پس آن را نگه دارید، اگر مردم شهر پنجصد نفر باشند.»",
-              "fr": "Il a dit : « Si les habitants de la ville s'accordent pour jeûner sur la base de l'observation lunaire, alors observez-le, si les habitants de la ville sont cinq cents personnes. »",
-              "id": "Dia berkata: \"Jika penduduk kota sepakat untuk berpuasa berdasarkan rukyah, maka jalankanlah, jika penduduk kota itu lima ratus orang.\"",
-              "ru": "Он сказал: «Если жители города согласятся поститься на основании наблюдения луны, тогда соблюдайте пост, если жителей города будет пятьсот человек.»",
-              "tr": "O dedi ki: \"Eğer şehrin halkı hilal görme temelinde oruç tutmakta anlaşırsa, o zaman orucu tutun; eğer şehrin halkı beş yüz kişi ise.\"",
-              "ur": "انہوں نے کہا: \"اگر شہر کے لوگ رویت کے اعتبار سے روزہ رکھنے پر متفق ہوں تو اسے رکھو، اگر شہر کے لوگ پانچ سو افراد ہوں۔\"",
-              "zh": "他说：“如果城市居民基于月亮目视达成一致，那么就遵守，如果城市居民有五百人。”"
-            },
             "word_end": 24,
             "word_start": 9
           }
@@ -85,26 +72,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَهْلُ الْمِصْرِ": "the people of the city",
-            "خَمْسَمِائَةِ إِنْسَانٍ": "five hundred persons, indicating the city's population threshold",
-            "شَهْرِ رَمَضَانَ": "the month of Ramadan, the time of obligatory fasting",
-            "صِيَامِهِ": "fasting that day",
-            "لِلرُّؤْيَةِ": "on the basis of sighting the moon",
-            "يُخْتَلَفُ": "is disputed or disagreed about"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "شَهْرِ رَمَضَانَ",
+          "يُخْتَلَفُ",
+          "أَهْلُ الْمِصْرِ",
+          "صِيَامِهِ",
+          "لِلرُّؤْيَةِ",
+          "خَمْسَمِائَةِ إِنْسَانٍ"
+        ],
         "related_quran": [
           {
             "ref": "2:185",
@@ -115,32 +90,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যখন রমজানের একটি দিনের বিষয়ে চাঁদ দেখা নিয়ে মতবিরোধ হয় তখন কী করা উচিত?",
-          "de": "Was soll getan werden, wenn es Uneinigkeit über einen Tag im Ramadan basierend auf der Mondsichtung gibt?",
-          "en": "What should be done when there is disagreement about a day of Ramadan based on moon-sighting?",
-          "es": "¿Qué se debe hacer cuando hay desacuerdo sobre un día de Ramadán basado en la observación lunar?",
-          "fa": "وقتی درباره روزی از رمضان بر اساس رؤیت هلال اختلاف باشد، چه باید کرد؟",
-          "fr": "Que doit-on faire lorsqu'il y a un désaccord sur un jour de Ramadan basé sur l'observation lunaire ?",
-          "id": "Apa yang harus dilakukan ketika ada perbedaan pendapat tentang hari Ramadan berdasarkan rukyah?",
-          "ru": "Что следует делать, когда возникает разногласие по поводу дня Рамадана на основе наблюдения луны?",
-          "tr": "Ramazan gününün hilal görme konusunda ihtilaflı olması durumunda ne yapılmalıdır?",
-          "ur": "جب رمضان کے دن کے بارے میں رویت کے حوالے سے اختلاف ہو تو کیا کرنا چاہیے؟",
-          "zh": "当关于斋月某一天的月亮目视存在分歧时，应当如何处理？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি রমজান মাসের একটি বিতর্কিত দিনের সম্পর্কে একটি শারঈ সিদ্ধান্ত প্রদান করে। এটি একটি শহরের মানুষের সম্মিলিত সম্মতির ভিত্তিতে চাঁদ দেখা সম্পর্কে কাজ করার নির্দেশ দেয়, যেখানে জনসংখ্যা যথেষ্ট বড়।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung zu einem umstrittenen Tag im Monat Ramadan. Er weist darauf hin, nach der kollektiven Übereinstimmung der Stadtbewohner bezüglich der Mondsichtung zu handeln, bezogen auf eine ausreichend große Bevölkerung.",
-          "en": "This hadith gives a legal ruling about a disputed day in the Month of Ramadan. It indicates acting upon the collective agreement of the people of a city regarding moon-sighting, with reference to a sufficiently large population.",
-          "es": "Este hadiz da un fallo legal sobre un día disputado en el mes de Ramadán. Indica actuar según el acuerdo colectivo de la gente de una ciudad respecto a la observación lunar, con referencia a una población suficientemente grande.",
-          "fa": "این حدیث حکم شرعی درباره روزی مورد اختلاف در ماه رمضان را بیان می‌کند. اشاره به عمل بر اساس توافق جمعی مردم یک شهر در خصوص رؤیت هلال دارد، با توجه به جمعیت کافی بزرگ.",
-          "fr": "Ce hadith donne un jugement légal concernant un jour contesté du mois de Ramadan. Il indique d'agir selon l'accord collectif des habitants d'une ville concernant l'observation lunaire, en référence à une population suffisamment nombreuse.",
-          "id": "Hadis ini memberikan ketetapan hukum tentang hari yang diperselisihkan di bulan Ramadan. Menunjukkan untuk bertindak berdasarkan kesepakatan kolektif penduduk kota mengenai rukyah, dengan merujuk pada populasi yang cukup besar.",
-          "ru": "Этот хадис даёт правовое постановление о спорном дне в месяце Рамадан. Он указывает на необходимость действовать согласно коллективному согласию жителей города по поводу наблюдения луны, при условии достаточного количества населения.",
-          "tr": "Bu hadis, Ramazan ayındaki ihtilaflı bir gün hakkında hukuki bir hüküm verir. Şehir halkının hilal görme konusundaki ortak kararına, yeterince büyük bir nüfus referansıyla hareket etmeyi belirtir.",
-          "ur": "یہ حدیث رمضان کے مہینے میں متنازعہ دن کے بارے میں شرعی حکم دیتی ہے۔ یہ شہر کے لوگوں کی اجتماعی اتفاق رائے پر عمل کرنے کی نشاندہی کرتی ہے، خاص طور پر چاند دیکھنے کے حوالے سے، جب آبادی کافی بڑی ہو۔",
-          "zh": "此圣训对斋月中有争议的一天给出法律裁决。它指出应依据城市居民关于月亮目视的集体共识行事，且人口应足够多。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

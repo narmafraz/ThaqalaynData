@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "زِيَارَةُ قُبُورِ الشُّهَدَاءِ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "শহীদদের কবর জিয়ারত।",
-              "de": "Die Gräber der Märtyrer besuchen.",
-              "en": "Visiting the graves of the martyrs.",
-              "es": "Visitar las tumbas de los mártires.",
-              "fa": "زیارت قبور شهدا.",
-              "fr": "Visiter les tombes des martyrs.",
-              "id": "Mengunjungi makam para syuhada.",
-              "ru": "Посещение могил мучеников.",
-              "tr": "Şehitlerin mezarlarını ziyaret etmek.",
-              "ur": "شہداء کے قبور کی زیارت۔",
-              "zh": "参观烈士墓。"
-            },
             "word_end": 3,
             "word_start": 0
           },
           {
             "arabic_text": "فَإِذَا أَرَدْتَ زِيَارَةَ قُبُورِ الشُّهَدَاءِ فَقُلْ:",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যখন আপনি শহীদদের কবর জিয়ারত করতে চান, তখন বলুন:",
-              "de": "Wenn du die Gräber der Märtyrer besuchen möchtest, dann sage:",
-              "en": "When you wish to visit the graves of the martyrs, then say:",
-              "es": "Cuando desees visitar las tumbas de los mártires, di:",
-              "fa": "وقتی می‌خواهید قبور شهدا را زیارت کنید، بگویید:",
-              "fr": "Lorsque vous souhaitez visiter les tombes des martyrs, dites :",
-              "id": "Ketika Anda ingin mengunjungi makam para syuhada, maka katakan:",
-              "ru": "Когда вы хотите посетить могилы мучеников, скажите:",
-              "tr": "Şehitlerin mezarlarını ziyaret etmek istediğinizde şöyle deyin:",
-              "ur": "جب آپ شہداء کے قبور کی زیارت کرنا چاہیں تو کہیں:",
-              "zh": "当你想参观烈士墓时，请说："
-            },
             "word_end": 9,
             "word_start": 3
           },
           {
             "arabic_text": "السَّلَامُ عَلَيْكُمْ بِمَا صَبَرْتُمْ فَنِعْمَ عُقْبَى الدَّارِ.",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "তোমাদের ধৈর্যের জন্য তোমাদের উপর সালাম; কতই না চমৎকার চিরস্থায়ী আবাস।",
-              "de": "Friede sei mit euch für eure Geduld; wie ausgezeichnet ist die letzte Wohnstatt.",
-              "en": "Peace be upon you for your patience; how excellent is the final abode.",
-              "es": "La paz sea con ustedes por su paciencia; qué excelente es la morada final.",
-              "fa": "سلام بر شما به خاطر صبرتان؛ چه منزلگاه نیکویی است.",
-              "fr": "Que la paix soit sur vous pour votre patience ; quelle excellente demeure finale.",
-              "id": "Salam sejahtera atas kesabaran kalian; betapa indahnya tempat akhir yang kekal.",
-              "ru": "Мир вам за ваше терпение; как прекрасен последний обитель.",
-              "tr": "Sabır gösterdiğiniz için üzerinize selam olsun; ne güzel bir son yurt.",
-              "ur": "تمہاری صبر کے لیے تم پر سلام ہو؛ کیسی بہترین آخرت ہے۔",
-              "zh": "因你们的耐心愿你们平安；多么美好的最终归宿。"
-            },
             "word_end": 16,
             "word_start": 9
           }
@@ -82,59 +56,21 @@
           "narrators": []
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الدَّارِ": "the abode; the final dwelling, referring to the hereafter",
-            "السَّلَامُ": "peace; a greeting of peace and invocation of safety",
-            "الشُّهَدَاءِ": "the martyrs; those who were killed in the path of Allah",
-            "زِيَارَةُ": "visitation; the act of respectfully visiting a sacred or honored grave",
-            "صَبَرْتُمْ": "you were patient; enduring steadfastly in faith and trial",
-            "عُقْبَى": "final outcome; the ultimate end or result",
-            "قُبُورِ": "graves; burial places being visited"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "زِيَارَةُ",
+          "قُبُورِ",
+          "الشُّهَدَاءِ",
+          "السَّلَامُ",
+          "صَبَرْتُمْ",
+          "عُقْبَى",
+          "الدَّارِ"
+        ],
         "related_quran": [
           {
             "ref": "13:24",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শহীদদের কবর জিয়ারত করার সময় কী বলা উচিত?",
-          "de": "Was soll man sagen, wenn man die Gräber der Märtyrer besucht?",
-          "en": "What should be said when visiting the graves of the martyrs?",
-          "es": "¿Qué se debe decir al visitar las tumbas de los mártires?",
-          "fa": "هنگام زیارت قبور شهدا چه باید گفت؟",
-          "fr": "Que faut-il dire lors de la visite des tombes des martyrs ?",
-          "id": "Apa yang harus dikatakan saat mengunjungi makam para syuhada?",
-          "ru": "Что следует говорить при посещении могил мучеников?",
-          "tr": "Şehitlerin mezarlarını ziyaret ederken ne söylenmelidir?",
-          "ur": "شہداء کے قبور کی زیارت کرتے وقت کیا کہا جائے؟",
-          "zh": "参观烈士墓时应说什么？"
-        },
-        "summaries": {
-          "bn": "এই পাঠ শহীদদের কবর জিয়ারতের জন্য একটি দোয়ার সূত্র শেখায় যা তাদের ধৈর্যের সম্মান করে এবং তাদের চিরস্থায়ী আবাসের উৎকৃষ্টতা নির্দেশ করে।",
-          "de": "Dieser Text lehrt eine Besuchsformel für die Gräber der Märtyrer. Er ehrt ihre Geduld und weist auf die Exzellenz ihrer letzten Wohnstatt hin.",
-          "en": "This text teaches a visitation formula for addressing the graves of the martyrs. It honors their patience and points to the excellence of their final abode, expressing reverence, remembrance, and supplication in the context of ziyārah.",
-          "es": "Este texto enseña una fórmula de visita para dirigirse a las tumbas de los mártires. Honra su paciencia y señala la excelencia de su morada final.",
-          "fa": "این متن فرمول زیارت قبور شهدا را آموزش می‌دهد که صبر آنان را گرامی می‌دارد و به نیکی منزلگاه آخرت اشاره می‌کند.",
-          "fr": "Ce texte enseigne une formule de visite pour s’adresser aux tombes des martyrs. Il honore leur patience et souligne l’excellence de leur demeure finale.",
-          "id": "Teks ini mengajarkan formula ziarah untuk mengunjungi makam para syuhada. Ini menghormati kesabaran mereka dan menunjukkan keunggulan tempat akhir mereka.",
-          "ru": "Этот текст обучает формуле посещения могил мучеников, чтит их терпение и указывает на превосходство их последнего обиталища.",
-          "tr": "Bu metin, şehitlerin mezarlarını ziyaret ederken söylenecek bir formülü öğretir, onların sabrını onurlandırır ve son yurdun mükemmelliğine işaret eder.",
-          "ur": "یہ متن شہداء کے قبور کی زیارت کے لیے ایک دعا سکھاتا ہے جو ان کے صبر کی تعظیم کرتی ہے اور ان کے آخرت کی فضیلت کی طرف اشارہ کرتی ہے۔",
-          "zh": "本文教授访问烈士墓的公式，尊敬他们的耐心并指出他们最终归宿的美好。"
-        },
         "tags": [
           "worship",
           "dua",

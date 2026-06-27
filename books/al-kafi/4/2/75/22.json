@@ -14,6 +14,121 @@
       "up": "/books/al-kafi:4:2:75"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ بُنَانِ بْنِ مُحَمَّدٍ عَنْ أَخِيهِ عَبْدِ الرَّحْمَنِ بْنِ مُحَمَّدٍ عَنْ مُحَمَّدِ بْنِ إِسْمَاعِيلَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 18,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "بَعَثْتُ إِلَى أَبِي الْحَسَنِ الرِّضَا ( عَلَيْهِ السَّلَامُ ) بِدَرَاهِمَ لِي وَ لِغَيْرِي وَ كَتَبْتُ إِلَيْهِ أُخْبِرُهُ أَنَّهَا مِنْ فِطْرَةِ الْعِيَالِ فَكَتَبَ بِخَطِّهِ قَبَضْتُ وَ قَبِلْتُ .",
+            "chunk_type": "body",
+            "word_end": 45,
+            "word_start": 18
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1063,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "بُنَانِ بْنِ مُحَمَّدٍ",
+              "name_en": "Bunan b. Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2377,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَخِيهِ عَبْدِ الرَّحْمَنِ بْنِ مُحَمَّدٍ",
+              "name_en": "Akhihi Abd al-Rahman b. Muhammad",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 17,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ إِسْمَاعِيلَ",
+              "name_en": "Muhammad ibn Ismail",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "فِطْرَة",
+          "الدَّرَاهِم",
+          "الْعِيَال",
+          "قَبَضْتُ",
+          "قَبِلْتُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "9:60",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "98:5",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "economy",
+          "social_relations"
+        ],
+        "topics": [
+          "zakat_khums",
+          "imams_biography",
+          "financial_law"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (16/424)"
       ],
@@ -76,7 +191,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:4:2:75:22",

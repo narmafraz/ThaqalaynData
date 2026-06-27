@@ -14,6 +14,115 @@
       "up": "/books/al-kafi:2:3:14"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ مُحَمَّدٍ عَنْ صَالِحِ بْنِ أَبِي حَمَّادٍ عَنِ الْحَجَّالِ عَمَّنْ ذَكَرَهُ عَنْ أَحَدِهِمَا ( عَلَيْهِمَا السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 19,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُهُ عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ بِلِسَانٍ عَرَبِيٍّ مُبِينٍ قَالَ يُبِينُ الْأَلْسُنَ وَ لَا تُبِينُهُ الْأَلْسُنُ",
+            "chunk_type": "body",
+            "word_end": 36,
+            "word_start": 19
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 35,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ مُحَمَّدٍ",
+              "name_en": "Ali ibn Muhammad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 166,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "صَالِحِ بْنِ أَبِي حَمَّادٍ",
+              "name_en": "Salih ibn Abi Hammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": null,
+              "identity_confidence": "ambiguous",
+              "known_identity": null,
+              "name_ar": "الْحَجَّالِ عَمَّنْ ذَكَرَهُ",
+              "name_en": "al-Hajjal 'amm man dhakarahu",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 58,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحَدِهِمَا ( عليهما السلام )",
+              "name_en": "Ahaduhuma (Alayhima al-Salam)",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [],
+        "key_terms_keys": [
+          "لِسَانٍ عَرَبِيٍّ مُبِينٍ",
+          "يُبِينُ",
+          "الْأَلْسُنَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "26:195",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "43:3",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "12:2",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "quran_commentary",
+          "theology"
+        ],
+        "topics": [
+          "quran_interpretation_method",
+          "quran_virtues"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (12/522)"
       ],
@@ -80,7 +189,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:3:14:20",

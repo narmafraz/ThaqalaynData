@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ أَحْمَدَ عَنْ عَبَّاسٍ النَّاقِدِ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন আহমদ আব্বাস আল-নাকিদ থেকে বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "Muhammad ibn Ahmad überlieferte von Abbas al-Naqid, der sagte:",
-              "en": "Muhammad ibn Ahmad narrated from Abbas al-Naqid, who said:",
-              "es": "Muhammad ibn Ahmad narró de Abbas al-Naqid, quien dijo:",
-              "fa": "محمد بن احمد از عباس الناقد روایت کرد که گفت:",
-              "fr": "Muhammad ibn Ahmad a rapporté d’Abbas al-Naqid, qui a dit :",
-              "id": "Muhammad ibn Ahmad meriwayatkan dari Abbas al-Naqid, yang berkata:",
-              "ru": "Мухаммад ибн Ахмад передал от Аббаса аль-Накида, который сказал:",
-              "tr": "Muhammed ibn Ahmed, Abbas el-Nakid’den rivayet etti; o da şöyle dedi:",
-              "ur": "محمد بن احمد نے عباس النقیض سے روایت کی، انہوں نے کہا:",
-              "zh": "穆罕默德·伊本·艾哈迈德传述自阿巴斯·阿勒纳基德，他说："
-            },
             "word_end": 7,
             "word_start": 0
           },
           {
             "arabic_text": "تَفَرَّقَ مَا كَانَ فِي يَدِي وَتَفَرَّقَ عَنِّي حُرَفَائِي، فَشَكَوْتُ ذَلِكَ إِلَى أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ، فَقَالَ لِي: «اجْمَعْ بَيْنَ الصَّلَاتَيْنِ الظُّهْرِ وَالْعَصْرِ تَرَ مَا تُحِبُّ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমার হাতে যা ছিল তা ছড়িয়ে গেল, আর আমার ক্রেতারাও আমার কাছ থেকে সরে গেল। তাই আমি এ বিষয়ে আবু আবদিল্লাহ عليه السلام-এর কাছে অভিযোগ করলাম, তখন তিনি আমাকে বললেন: “দুই সালাত, যুহর ও আসর, একত্রে আদায় করো, তুমি যা পছন্দ কর তা দেখতে পাবে।”",
-              "de": "Was ich in meinem Besitz hatte, zerstreute sich, und meine Kunden wandten sich von mir ab. Da beklagte ich mich darüber bei Abu Abdillah عليه السلام, und er sagte zu mir: „Verrichte die beiden Gebete, al-Zuhr und al-'Asr, zusammen, dann wirst du sehen, was du liebst.“",
-              "en": "What I had in my possession became dispersed, and my customers drifted away from me. So I complained about that to Abu Abdillah عليه السلام, and he said to me: “Combine the two prayers, al-Zuhr and al-'Asr, and you will see what you like.”",
-              "es": "Lo que tenía en mi posesión se dispersó, y mis clientes se alejaron de mí. Entonces me quejé de ذلك a Abu Abdillah عليه السلام, y él me dijo: “Combina las dos oraciones, al-Zuhr y al-'Asr, y verás lo que te gusta.”",
-              "fa": "آنچه در دست من بود پراکنده شد و مشتریانم از من پراکنده شدند. پس این را نزد ابوعبدالله علیه السلام شکایت کردم، و او به من فرمود: «دو نماز، ظهر و عصر، را با هم بخوان تا آنچه را دوست داری ببینی.»",
-              "fr": "Ce que j’avais en ma possession s’est dispersé, et mes clients se sont éloignés de moi. J’en ai donc porté plainte à Abu Abdillah عليه السلام, et il m’a dit : « Réunis les deux prières, al-Zuhr et al-'Asr, et tu verras ce que tu aimes. »",
-              "id": "Apa yang ada di tanganku menjadi tercerai-berai, dan para pelangganku menjauh dariku. Maka aku mengadukan hal itu kepada Abu Abdillah عليه السلام, lalu beliau berkata kepadaku: “Gabungkan dua salat, Zuhur dan Asar, niscaya engkau akan melihat apa yang engkau sukai.”",
-              "ru": "То, что было у меня в руках, рассеялось, и мои покупатели ушли от меня. Тогда я пожаловался на это Абу Абдуллаху عليه السلام, и он сказал мне: «Соедини два намаза, аз-Зухр и аль-'Аср, и ты увидишь то, что тебе нравится».",
-              "tr": "Yanımda bulunan şeyler dağılıp gitti ve müşterilerim benden uzaklaştı. Bunun üzerine bunu Ebu Abdullah عليه السلام’a şikâyet ettim; bana şöyle dedi: “İki namazı, Zuhr ve Asr’ı birleştir; sevdiğin şeyi göreceksin.”",
-              "ur": "میرے پاس جو کچھ تھا وہ منتشر ہو گیا، اور میرے گاہک مجھ سے بچھڑ گئے۔ تو میں نے اس کی شکایت ابو عبداللہ علیہ السلام سے کی، تو انہوں نے مجھ سے فرمایا: “دونوں نمازوں، ظہر اور عصر، کو جمع کرو، تم وہ چیز دیکھو گے جو تمہیں پسند ہے۔”",
-              "zh": "我手中的东西散失了，我的顾客也离我而去。于是我向阿布·阿卜杜拉 عليه السلام抱怨此事，他对我说：“把两番礼拜，晌礼和晡礼，合并起来，你就会看到你所喜欢的。”"
-            },
             "word_end": 33,
             "word_start": 7
           }
@@ -90,27 +77,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبِي عَبْدِ اللَّهِ": "Abu Abdillah, Imam Ja'far al-Sadiq عليه السلام",
-            "اجْمَعْ": "combine",
-            "الصَّلَاتَيْنِ": "the two prayers",
-            "الظُّهْرِ": "the noon prayer",
-            "الْعَصْرِ": "the afternoon prayer",
-            "تَفَرَّقَ": "became scattered or dispersed",
-            "حُرَفَائِي": "my customers or clients"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "تَفَرَّقَ",
+          "حُرَفَائِي",
+          "أَبِي عَبْدِ اللَّهِ",
+          "اجْمَعْ",
+          "الصَّلَاتَيْنِ",
+          "الظُّهْرِ",
+          "الْعَصْرِ"
+        ],
         "related_quran": [
           {
             "ref": "2:45",
@@ -125,32 +100,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম সাদিক عليه السلام-এর মতে যুহর ও আসর একত্রে আদায় করা রিজিকে স্বস্তির সঙ্গে কীভাবে সম্পর্কিত?",
-          "de": "Wie hängt das Zusammenfassen von al-Zuhr und al-'Asr nach Imam al-Sadiq عليه السلام mit Erleichterung im Lebensunterhalt zusammen?",
-          "en": "How does combining al-Zuhr and al-'Asr relate to relief in livelihood according to Imam al-Sadiq عليه السلام?",
-          "es": "¿Cómo se relaciona combinar al-Zuhr y al-'Asr con el alivio en el sustento según el Imam al-Sadiq عليه السلام?",
-          "fa": "طبق امام صادق علیه السلام، جمع کردن ظهر و عصر چگونه با گشایش در روزی مرتبط است؟",
-          "fr": "Comment le fait de réunir al-Zuhr et al-'Asr est-il lié au soulagement dans la subsistance selon l’Imam al-Sadiq عليه السلام ?",
-          "id": "Bagaimana menggabungkan salat Zuhur dan Asar berkaitan dengan kelapangan rezeki menurut Imam al-Sadiq عليه السلام?",
-          "ru": "Как, согласно Имаму ас-Садику عليه السلام, объединение аз-Зухр и аль-'Аср связано с облегчением в средствах к существованию?",
-          "tr": "İmam es-Sadık عليه السلام’a göre Zuhr ve Asr’ı birleştirmek rızıkta ferahlıkla nasıl ilişkilidir?",
-          "ur": "امام صادق علیہ السلام کے مطابق ظہر اور عصر کو جمع کرنا رزق میں کشادگی سے کیسے متعلق ہے؟",
-          "zh": "根据伊玛目萨迪格 عليه السلام，把晌礼和晡礼合并起来与生计上的解困有何关系？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে এক ব্যক্তি তার সম্পদ ও ক্রেতা হারানোর অভিযোগ নিয়ে ইমাম সাদিক عليه السلام-এর কাছে যান। ইমাম عليه السلام তাকে যুহর ও আসর একত্রে আদায় করতে নির্দেশ দেন, যা রিজিকে স্বস্তি ও উন্নতির সঙ্গে সম্পর্কিত একটি বাস্তব ইবাদতকে নির্দেশ করে।",
-          "de": "Dieser Hadith berichtet von einem Mann, der sich bei Imam al-Sadiq عليه السلام über den Verlust seines Besitzes und seiner Kunden beklagt. Der Imam عليه السلام weist ihn an, al-Zuhr und al-'Asr zusammenzufassen, was auf eine praktische gottesdienstliche Handlung hinweist, die mit Erleichterung und Verbesserung des Lebensunterhalts verbunden ist.",
-          "en": "This hadith reports a man complaining to Imam al-Sadiq عليه السلام about the loss of his assets and customers. The Imam عليه السلام instructs him to combine al-Zuhr and al-'Asr, indicating a practical devotional act connected to relief and improvement in livelihood.",
-          "es": "Este hadiz relata a un hombre que se queja ante el Imam al-Sadiq عليه السلام por la pérdida de sus bienes y clientes. El Imam عليه السلام le ordena combinar al-Zuhr y al-'Asr, lo que indica una práctica devocional concreta vinculada al alivio y a la mejora del sustento.",
-          "fa": "این حدیث از مردی گزارش می‌کند که نزد امام صادق علیه السلام از از دست رفتن دارایی و مشتریانش شکایت می‌کند. امام علیه السلام به او دستور می‌دهد که ظهر و عصر را با هم بخواند، که به یک عمل عبادی عملی مرتبط با گشایش و بهبود در روزی اشاره دارد.",
-          "fr": "Ce hadith rapporte qu’un homme se plaint à l’Imam al-Sadiq عليه السلام de la perte de ses biens et de ses clients. L’Imam عليه السلام lui ordonne de réunir al-Zuhr et al-'Asr, ce qui indique un acte dévotionnel pratique lié au soulagement et à l’amélioration de la subsistance.",
-          "id": "Hadis ini menceritakan seorang lelaki yang mengadukan kepada Imam al-Sadiq عليه السلام tentang hilangnya harta dan para pelanggannya. Imam عليه السلام memerintahkannya untuk menggabungkan salat Zuhur dan Asar, yang menunjukkan suatu amalan ibadah praktis yang terkait dengan kelapangan dan perbaikan rezeki.",
-          "ru": "Этот хадис сообщает о человеке, который пожаловался Имаму ас-Садику عليه السلام на потерю своего имущества и клиентов. Имам عليه السلام велел ему объединить аз-Зухр и аль-'Аср, что указывает на практическое поклонение, связанное с облегчением и улучшением средств к существованию.",
-          "tr": "Bu hadis, malının ve müşterilerinin kaybından dolayı İmam es-Sadık عليه السلام’a şikâyette bulunan bir adamı anlatır. İmam عليه السلام ona Zuhr ve Asr’ı birleştirmesini öğütler; bu da rızıkta ferahlık ve iyileşmeyle bağlantılı pratik bir ibadet uygulamasına işaret eder.",
-          "ur": "یہ حدیث ایک شخص کے بارے میں ہے جو امام صادق علیہ السلام سے اپنے مال اور گاہکوں کے نقصان کی شکایت کرتا ہے۔ امام علیہ السلام اسے ظہر اور عصر کو جمع کرنے کی ہدایت دیتے ہیں، جو رزق میں کشادگی اور بہتری سے متعلق ایک عملی عبادتی عمل کی طرف اشارہ ہے۔",
-          "zh": "这段圣训讲述一名男子向伊玛目萨迪格 عليه السلام抱怨自己的财物和顾客流失。伊玛目 عليه السلام吩咐他把晌礼和晡礼合并礼拜，这表明这是一种与解困和改善生计相关的实际敬拜行为。"
-        },
         "tags": [
           "worship",
           "jurisprudence",

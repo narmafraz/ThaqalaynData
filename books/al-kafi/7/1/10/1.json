@@ -13,6 +13,149 @@
       "up": "/books/al-kafi:7:1:10"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ حَمَّادِ بْنِ عِيسَى عَنْ حَرِيزٍ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 16,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) عَنْ رَجُلٍ أَوْصَى بِمَالِهِ فِي سَبِيلِ اللَّهِ",
+            "chunk_type": "body",
+            "word_end": 31,
+            "word_start": 16
+          },
+          {
+            "arabic_text": "فَقَالَ أَعْطِهِ لِمَنْ أَوْصَى بِهِ لَهُ وَ إِنْ كَانَ يَهُودِيّاً أَوْ نَصْرَانِيّاً",
+            "chunk_type": "body",
+            "word_end": 43,
+            "word_start": 31
+          },
+          {
+            "arabic_text": "إِنَّ اللَّهَ تَبَارَكَ وَ تَعَالَى يَقُولُ فَمَنْ بَدَّلَهُ بَعْدَ مَا سَمِعَهُ فَإِنَّمَا إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ",
+            "chunk_type": "quran_quote",
+            "word_end": 59,
+            "word_start": 43
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 38,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "حَمَّادِ بْنِ عِيسَى",
+              "name_en": "Hammad ibn Isa",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 40,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "حَرِيزٍ",
+              "name_en": "Hareez",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 16,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ مُسْلِمٍ",
+              "name_en": "Muhammad ibn Muslim",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "quranic_echo",
+            "phrase_ar": "سَبِيلُ اللَّهِ",
+            "phrase_en": "The way of Allah"
+          }
+        ],
+        "key_terms_keys": [
+          "أَوْصَى",
+          "بِمَالِهِ",
+          "فِي سَبِيلِ اللَّهِ",
+          "يَهُودِيّاً",
+          "نَصْرَانِيّاً",
+          "بَدَّلَهُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:181",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "2:180",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "economy",
+          "quran_commentary"
+        ],
+        "topics": [
+          "inheritance",
+          "financial_law",
+          "halal_haram"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> حسن    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (23/24)"
       ],
@@ -106,7 +249,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:7:1:10:1",

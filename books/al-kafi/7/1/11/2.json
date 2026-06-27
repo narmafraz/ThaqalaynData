@@ -13,6 +13,151 @@
       "up": "/books/al-kafi:7:1:11"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ جَعْفَرٍ الرَّزَّازُ عَنْ مُحَمَّدِ بْنِ عِيسَى وَ مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ أَحْمَدَ عَنْ مُحَمَّدِ بْنِ عِيسَى بْنِ عُبَيْدٍ عَنِ الْحَسَنِ بْنِ رَاشِدٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 27,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُ الْعَسْكَرِيَّ ( عَلَيْهِ السَّلَام ) بِالْمَدِينَةِ عَنْ رَجُلٍ أَوْصَى بِمَالٍ فِي سَبِيلِ اللَّهِ فَقَالَ سَبِيلُ اللَّهِ شِيعَتُنَا .",
+            "chunk_type": "body",
+            "word_end": 46,
+            "word_start": 27
+          }
+        ],
+        "content_type": "theological",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 600,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ جَعْفَرٍ الرَّزَّازُ",
+              "name_en": "Muhammad b. Ja'far al-Razzaz",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 27,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ عِيسَى",
+              "name_en": "Muhammad ibn Isa",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 59,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ أَحْمَدَ",
+              "name_en": "Muhammad ibn Ahmad",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 135,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ عِيسَى بْنِ عُبَيْدٍ",
+              "name_en": "Muhammad ibn Isa ibn Ubayd",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 434,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحَسَنِ بْنِ رَاشِدٍ",
+              "name_en": "al-Hasan ibn Rashid",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "quranic_echo",
+            "phrase_ar": "سَبِيلُ اللَّهِ",
+            "phrase_en": "The way of Allah"
+          }
+        ],
+        "key_terms_keys": [
+          "سَبِيلُ اللَّهِ",
+          "الْعَسْكَرِيَّ",
+          "شِيعَتُنَا"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:186",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "9:60",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "9:111",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "5:55",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "theology",
+          "jurisprudence"
+        ],
+        "topics": [
+          "imamate",
+          "financial_law",
+          "ahlulbayt_virtues"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> صحيح    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (23/27)"
       ],
@@ -93,7 +238,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:7:1:11:2",

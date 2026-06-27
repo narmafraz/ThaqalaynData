@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى الْحَلَبِيُّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ أَنَّهُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হালাবী আবী আবদুল্লাহ عليه السلام থেকে বর্ণনা করেছেন যে তিনি বললেন:",
-              "de": "Al-Halabī berichtete von Abī ʿAbdillāh عليه السلام, dass er sagte:",
-              "en": "Al-Ḥalabī narrated from Abī ʿAbdillāh عليه السلام that he said:",
-              "es": "Al-Halabí narró de Abū ʿAbdillāh عليه السلام que dijo:",
-              "fa": "الحلبی از ابی عبدالله علیه السلام نقل کرد که فرمود:",
-              "fr": "Al-Halabī a rapporté de Abī ʿAbdillāh عليه السلام qu'il a dit :",
-              "id": "Al-Halabi meriwayat dari Abi Abdullah عليه السلام bahwa beliau berkata:",
-              "ru": "Аль-Халаби передал от Аби Абдуллах عليه السلام, что он сказал:",
-              "tr": "El-Halebi, Ebu Abdullah (aleyhisselam)’dan rivayet etti ki şöyle buyurdu:",
-              "ur": "الحلبی نے ابو عبداللہ علیہ السلام سے روایت کی کہ انہوں نے فرمایا:",
-              "zh": "الحلبينارروتمنأبيعبداللهعليهالسلامأنهقال:"
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "«إِذَا فَاتَكَ شَيْءٌ مَعَ الْإِمَامِ فَاجْعَلْ أَوَّلَ صَلَاتِكَ مَا اسْتَقْبَلْتَ مِنْهَا وَ لَا تَجْعَلْ أَوَّلَ صَلَاتِكَ آخِرَهَا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি আপনি ইমামের সাথে কোনো অংশ মিস করেন, তবে আপনার নামাজের শুরু করুন সেই অংশ দিয়ে যা আপনি ধরেছেন, এবং আপনার নামাজের শুরুকে এর শেষ করবেন না।",
-              "de": "Wenn du einen Teil mit dem Imam verpasst, dann mache den Anfang deines Gebets zu dem, was du von ihm erwischt hast, und mache den Anfang deines Gebets nicht zu seinem Ende.",
-              "en": "“If you miss a part with the Imam, then make the beginning of your prayer what you have caught of it, and do not make the beginning of your prayer its end.”",
-              "es": "Si pierdes una parte con el Imam, entonces haz que el comienzo de tu oración sea lo que hayas alcanzado de ella, y no hagas que el comienzo de tu oración sea su fin.",
-              "fa": "اگر بخشی از نماز را با امام از دست دادید، آغاز نماز خود را آنچه از آن گرفته‌اید قرار دهید و آغاز نماز خود را پایان آن قرار ندهید.",
-              "fr": "Si vous manquez une partie avec l'Imam, faites du début de votre prière ce que vous en avez attrapé, et ne faites pas du début de votre prière sa fin.",
-              "id": "Jika Anda melewatkan sebagian dengan Imam, maka jadikan awal salat Anda adalah bagian yang Anda tangkap darinya, dan jangan jadikan awal salat Anda sebagai akhirnya.",
-              "ru": "Если вы пропустили часть с Имамом, то начните свою молитву с того, что вы успели, и не делайте начало своей молитвы её концом.",
-              "tr": "Eğer imamla birlikte bir kısmı kaçırırsanız, namazınızın başlangıcını yakaladığınız kısım yapın ve namazınızın başlangıcını sonu yapmayın.",
-              "ur": "اگر آپ امام کے ساتھ نماز کا کوئی حصہ مس کر دیں، تو اپنی نماز کی ابتدا وہی رکعت بنائیں جو آپ نے امام کے ساتھ پڑھی ہے، اور اپنی نماز کی ابتدا کو اس کا اختتام نہ بنائیں۔",
-              "zh": "如果你跟随伊玛目错过了部分祈祷，那么将你祈祷的开始定为你所赶上的部分，不要将祈祷的开始当作结束。"
-            },
             "word_end": 28,
             "word_start": 11
           }
@@ -92,26 +79,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "آخِرَهَا": "its end or final part",
-            "أَوَّلَ": "the beginning or first part",
-            "الْإِمَامِ": "the Imam leading the congregational prayer",
-            "صَلَاتِكَ": "your salat (prayer)",
-            "فَاتَكَ": "you missed or failed to catch",
-            "فَاجْعَلْ": "then regard or treat"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "فَاتَكَ",
+          "الْإِمَامِ",
+          "فَاجْعَلْ",
+          "أَوَّلَ",
+          "صَلَاتِكَ",
+          "آخِرَهَا"
+        ],
         "related_quran": [
           {
             "ref": "2:43",
@@ -122,32 +97,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যখন কেউ জামাতের সালাতে দেরিতে যোগ দেয় তখন তাকে কীভাবে তার নামাজ গণনা করতে হবে?",
-          "de": "Wie soll ein Nachzügler sein Gebet zählen, wenn er dem Imam nach verpasstem Teil des Gemeinschaftsgebets beitritt?",
-          "en": "How should a latecomer count their prayer when joining the Imam after missing part of the congregational salat?",
-          "es": "¿Cómo debe contar su oración un rezagado al unirse al Imam después de perder parte de la oración en congregación?",
-          "fa": "کسی که بعد از شروع نماز جماعت به آن می‌پیوندد، چگونه باید نماز خود را شمارش کند؟",
-          "fr": "Comment un retardataire doit-il compter sa prière lorsqu'il rejoint l'Imam après avoir manqué une partie de la prière en congrégation ?",
-          "id": "Bagaimana seorang terlambat menghitung salatnya saat bergabung dengan Imam setelah melewatkan sebagian salat berjamaah?",
-          "ru": "Как должен считать свою молитву опоздавший, присоединившись к Имаму после пропуска части коллективной молитвы?",
-          "tr": "Bir kişi cemaat namazına geç katıldığında namazını nasıl saymalıdır?",
-          "ur": "جب کوئی شخص جماعت کی نماز میں دیر سے شامل ہو جائے تو اسے اپنی نماز کیسے شمار کرنی چاہیے؟",
-          "zh": "迟到者在错过部分集体礼拜后加入伊玛目，应如何计算自己的礼拜？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি সেই ব্যক্তির জন্য শারঈ নির্দেশনা দেয় যিনি জামাতের সালাতে দেরিতে যোগ দেন। এটি শেখায় যে ইমামের সাথে যে অংশে যোগ দেওয়া হয়েছে তা নিজের নামাজের শুরু হিসেবে গণ্য করা উচিত, যা নামাজের বিধানগুলিতে একটি গুরুত্বপূর্ণ নীতি।",
-          "de": "Dieser Hadith gibt eine rechtliche Anweisung für jemanden, der sich dem Gemeinschaftsgebet anschließt, nachdem ein Teil bereits vergangen ist. Er lehrt, dass der mit dem Imam verbundene Teil als Beginn des eigenen Gebets behandelt werden soll, was ein wichtiges Prinzip in den Gebetsregeln bezüglich des Folgens des Imams ist.",
-          "en": "This hadith gives a legal instruction for one who joins congregational salat after part of it has already passed. It teaches that the portion joined with the Imam is to be treated as the beginning of one's own prayer, which is an important principle in prayer rulings related to following the Imam.",
-          "es": "Este hadiz da una instrucción legal para quien se une a la oración en congregación después de que ya ha comenzado. Enseña que la porción unida con el Imam debe considerarse el inicio de la propia oración, un principio importante en las reglas de la oración relacionadas con seguir al Imam.",
-          "fa": "این حدیث دستور شرعی برای کسی که بعد از گذشت بخشی از نماز جماعت به آن می‌پیوندد، ارائه می‌دهد. آموزش می‌دهد که بخشی که با امام خوانده شده به عنوان آغاز نماز خود در نظر گرفته شود که اصل مهمی در احکام نماز مرتبط با پیروی از امام است.",
-          "fr": "Ce hadith donne une instruction légale pour celui qui rejoint la prière en congrégation après qu'une partie a déjà commencé. Il enseigne que la portion jointe avec l'Imam doit être considérée comme le début de sa propre prière, ce qui est un principe important dans les règles de la prière liées au suivi de l'Imam.",
-          "id": "Hadis ini memberikan petunjuk hukum bagi orang yang bergabung dalam salat berjamaah setelah sebagian sudah berlalu. Mengajarkan bahwa bagian yang diikuti bersama Imam harus dianggap sebagai awal salat sendiri, yang merupakan prinsip penting dalam hukum salat terkait mengikuti Imam.",
-          "ru": "Этот хадис даёт юридическую инструкцию для того, кто присоединяется к коллективной молитве после её начала. Он учит, что часть, присоединённая к Имаму, должна считаться началом собственной молитвы, что является важным принципом в правилах молитвы, связанных с следованием за Имамом.",
-          "tr": "Bu hadis, cemaat namazına geç katılan kişi için hukuki bir talimat verir. İmamla birlikte katılan kısmın kendi namazının başlangıcı olarak kabul edilmesi gerektiğini öğretir; bu, imamı takip etmeyle ilgili namaz hükümlerinde önemli bir ilkedir.",
-          "ur": "یہ حدیث اس شخص کے لیے شرعی ہدایت دیتی ہے جو جماعت کی نماز میں دیر سے شامل ہوتا ہے۔ یہ سکھاتی ہے کہ امام کے ساتھ جو حصہ پڑھا جائے وہ اپنی نماز کی ابتدا سمجھنی چاہیے، جو نماز کے احکام میں ایک اہم اصول ہے۔",
-          "zh": "这段圣训为迟到加入集体礼拜者提供了法律指导。它教导说与伊玛目一起加入的部分应视为自己礼拜的开始，这是跟随伊玛目礼拜规则中的重要原则。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

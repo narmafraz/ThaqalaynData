@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আর আল্লাহর রাসূল, তাঁর উপর শান্তি ও তাঁর পরিবারকে বরকত বর্ষিত হোক, বললেন:",
-              "de": "Und der Gesandte Allahs, Friede sei mit ihm und seiner Familie, sagte:",
-              "en": "And the Messenger of Allah, peace be upon him and his family, said:",
-              "es": "Y el Mensajero de Allah, la paz sea con él y su familia, dijo:",
-              "fa": "و رسول خدا صلی الله علیه و آله فرمود:",
-              "fr": "Et le Messager d'Allah, que la paix soit sur lui et sa famille, a dit :",
-              "id": "Dan Rasulullah, shalallahu 'alaihi wa aalihi, bersabda:",
-              "ru": "И Посланник Аллаха, мир ему и его семье, сказал:",
-              "tr": "Ve Allah'ın Resulü, ona ve ailesine selam olsun, dedi ki:",
-              "ur": "اور رسول اللہ صلی اللہ علیہ وآلہ وسلم نے فرمایا:",
-              "zh": "安拉使者愿他和平及其家人安宁说："
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "«اِدْرَءُوا الْحُدُودَ بِالشُّبُهَاتِ وَ لَا شَفَاعَةَ وَ لَا كَفَالَةَ وَ لَا يَمِينَ فِي حَدٍّ»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“সন্দেহের মাধ্যমে হাদ্দের শাস্তি থেকে বিরত থাকো। হাদ্দের ক্ষেত্রে ন্যায়সঙ্গত কোনো سفارش, জামিন বা শপথ গ্রহণযোগ্য নয়।”",
-              "de": "„Weicht die vorgeschriebenen Strafen durch Zweifel ab. Es gibt keine Fürsprache, keine Bürgschaft und keinen Eid im Hadd-Fall.“",
-              "en": "“Avert the prescribed punishments through doubts. There is no intercession, no guarantee, and no oath in a hadd case.”",
-              "es": "“Eviten las penas prescritas mediante dudas. No hay intercesión, ni garantía, ni juramento en un caso de hadd.”",
-              "fa": "«حدود را با شبهات دفع کنید. در مورد حد، نه شفاعت است، نه کفالت و نه قسم.»",
-              "fr": "«Écartez les châtiments prescrits par les doutes. Il n’y a ni intercession, ni garantie, ni serment dans une affaire de hadd.»",
-              "id": "“Cegahlah hukuman hadd melalui keraguan. Tidak ada syafaat, tidak ada jaminan, dan tidak ada sumpah dalam perkara hadd.”",
-              "ru": "«Отвращайте предписанные наказания сомнениями. В делах хадд нет ни заступничества, ни поручительства, ни клятвы.»",
-              "tr": "“Şüpheler yoluyla hudut cezalarından kaçının. Hudut davalarında ne şefaat vardır, ne kefalet, ne de yemin.”",
-              "ur": "’’حدود کو شبہات سے دفع کرو۔ حدود کے معاملے میں نہ سفارش ہے، نہ کفالت، اور نہ قسم۔‘‘",
-              "zh": "“以疑虑避免法定刑罚。法定刑事案件中无代求、无担保、无誓言。”"
-            },
             "word_end": 23,
             "word_start": 9
           }
@@ -70,26 +57,14 @@
             "phrase_en": "The Messenger of Allah said"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "اِدْرَءُوا الْحُدُودَ": "Ward off or avert the prescribed legal punishments",
-            "بِالشُّبُهَاتِ": "By means of doubts, ambiguities, or legal uncertainty",
-            "شَفَاعَةَ": "Intercession on behalf of someone in judgment",
-            "فِي حَدٍّ": "In a case involving a prescribed punishment",
-            "كَفَالَةَ": "Guarantee or surety",
-            "يَمِينَ": "Oath sworn in a legal context"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "اِدْرَءُوا الْحُدُودَ",
+          "بِالشُّبُهَاتِ",
+          "شَفَاعَةَ",
+          "كَفَالَةَ",
+          "يَمِينَ",
+          "فِي حَدٍّ"
+        ],
         "related_quran": [
           {
             "ref": "5:38",
@@ -100,32 +75,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হাদিসে সন্দেহের মাধ্যমে নির্ধারিত শাস্তি এড়ানোর অর্থ কী?",
-          "de": "Was bedeutet der Hadith mit dem Hinweis, vorgeschriebene Strafen durch Zweifel abzuwenden?",
-          "en": "What does the hadith mean by averting prescribed punishments through doubts?",
-          "es": "¿Qué significa el hadiz al decir que se deben evitar los castigos prescritos mediante dudas?",
-          "fa": "در حدیث منظور از دفع حدود از طریق شبهات چیست؟",
-          "fr": "Que signifie le hadith en disant d’écarter les châtiments prescrits par les doutes ?",
-          "id": "Apa arti hadits tentang menghindari hukuman hadd melalui keraguan?",
-          "ru": "Что означает хадис, говоря о предотвращении предписанных наказаний через сомнения?",
-          "tr": "Hadiste şüpheler yoluyla hudut cezalarından kaçınmak ne anlama gelir?",
-          "ur": "حدود کی سزا کو شبہات کے ذریعے دفع کرنے کا حدیث میں کیا مطلب ہے؟",
-          "zh": "圣训中“以疑虑避免法定刑罚”是什么意思？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি নির্ধারিত শাস্তি প্রয়োগে একটি আইনি নীতি প্রতিষ্ঠা করে: যখন সন্দেহ বা অস্পষ্টতা থাকে, তখন হাদ্দ শাস্তি এড়ানো উচিত। এটি আরও বলে যে হাদ্দ বিষয়ক ক্ষেত্রে মধ্যস্থতা, জামিন এবং শপথ আইনগত সিদ্ধান্ত পরিবর্তনের উপায় হিসেবে কাজ করে না।",
-          "de": "Dieser Hadith stellt ein rechtliches Prinzip bei der Anwendung vorgeschriebener Strafen auf: Bei Zweifel oder Unklarheit ist die Hadd-Strafe zu vermeiden. Er besagt auch, dass bei Hadd-Fällen Fürsprache, Bürgschaft und Eid keine Mittel sind, um das rechtliche Urteil zu ändern.",
-          "en": "This hadith establishes a legal principle in applying prescribed punishments: when there is doubt or ambiguity, the hadd punishment is to be averted. It also states that in hadd matters, intercession, surety, and oath do not function as means to alter the legal ruling.",
-          "es": "Este hadiz establece un principio legal en la aplicación de los castigos prescritos: cuando hay duda o ambigüedad, se debe evitar el castigo de hadd. También establece que en asuntos de hadd, la intercesión, la garantía y el juramento no funcionan como medios para alterar la decisión legal.",
-          "fa": "این حدیث یک اصل حقوقی در اجرای حدود را بیان می‌کند: هنگامی که شک یا ابهام وجود دارد، باید از اجرای حد اجتناب شود. همچنین بیان می‌کند که در مسائل حد، شفاعت، کفالت و قسم به عنوان وسایلی برای تغییر حکم قانونی عمل نمی‌کنند.",
-          "fr": "Ce hadith établit un principe juridique dans l’application des châtiments prescrits : en cas de doute ou d’ambiguïté, le châtiment de hadd doit être écarté. Il précise également que dans les affaires de hadd, l’intercession, la garantie et le serment ne modifient pas la décision juridique.",
-          "id": "Hadis ini menetapkan prinsip hukum dalam penerapan hukuman hadd: ketika ada keraguan atau ketidakjelasan, hukuman hadd harus dihindari. Juga menyatakan bahwa dalam perkara hadd, syafaat, jaminan, dan sumpah tidak berfungsi sebagai cara untuk mengubah putusan hukum.",
-          "ru": "Этот хадис устанавливает юридический принцип применения предписанных наказаний: при наличии сомнений или неясностей наказание хадд должно быть предотвращено. Также говорится, что в делах хадд заступничество, поручительство и клятва не служат средствами изменения юридического решения.",
-          "tr": "Bu hadis, hudut cezalarının uygulanmasında bir hukuki prensip belirler: şüphe veya belirsizlik olduğunda hudut cezasından kaçınılmalıdır. Ayrıca hudut meselelerinde şefaat, kefalet ve yemin hukuki hükmü değiştiren araçlar değildir.",
-          "ur": "یہ حدیث حدود کے نفاذ میں ایک قانونی اصول قائم کرتی ہے: جب شک یا ابہام ہو تو حد کی سزا سے بچنا چاہیے۔ یہ بھی بیان کرتی ہے کہ حدود کے معاملات میں سفارش، کفالت، اور قسم قانونی حکم کو تبدیل کرنے کے ذرائع نہیں ہیں۔",
-          "zh": "此圣训确立了执行法定刑罚的法律原则：当存在疑虑或模糊时，应避免执行法定刑罚。它还指出，在法定刑事案件中，代求、担保和誓言不能作为改变法律裁决的手段。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

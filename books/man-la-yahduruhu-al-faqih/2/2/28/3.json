@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَرَوَى الْحَلَبِيُّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হালাবী আবু আবদুল্লাহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Al-Halabi berichtete von Abu Abdullah عليه السلام, der sagte:",
-              "en": "Al-Halabi narrated from Abu Abdullah عليه السلام, who said:",
-              "es": "Al-Halabi narró de Abu Abdullah عليه السلام, quien dijo:",
-              "fa": "الحلبی از ابو عبدالله علیه السلام روایت کرده است که فرمود:",
-              "fr": "Al-Halabi a rapporté de Abu Abdullah عليه السلام, qui a dit :",
-              "id": "Al-Halabi meriwayat dari Abu Abdullah عليه السلام, yang berkata:",
-              "ru": "Аль-Халаби передал от Абу Абдуллаха عليه السلام, который сказал:",
-              "tr": "El-Halabi, Ebu Abdullah'a (aleyhisselam) şöyle rivayet etti:",
-              "ur": "الحلبی نے ابو عبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "الحلبيروىأبوعبداللهعليهالسلام،قال:"
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "«إِذَا كَانَ عَلَى الرَّجُلِ شَيْءٌ مِنْ صَوْمِ شَهْرِ رَمَضَانَ فَلْيَقْضِهِ فِي أَيِّ شَهْرٍ شَاءَ أَيَّامًا مُتَتَابِعَةً فَإِنْ لَمْ يَسْتَطِعْ فَلْيَقْضِهِ كَيْفَ شَاءَ وَلْيُحْصِ الْأَيَّامَ فَإِنْ فَرَّقَ فَحَسَنٌ وَإِنْ تَابَعَ فَحَسَنٌ»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি কারো উপর রমজানের রোজার কিছু কেজা থাকে, তবে সে যেকোন মাসে ইচ্ছামত ধারাবাহিক দিনগুলোতে তা পূরণ করুক। যদি সক্ষম না হয়, তবে যেভাবে ইচ্ছা পূরণ করুক এবং দিনগুলো গণনা করুক। যদি সে আলাদা আলাদা করে, তা ভাল, এবং যদি ধারাবাহিকও করে, তা ভাল।",
-              "de": "Wenn ein Mann Fastentage aus dem Monat Ramadan nachzuholen hat, soll er sie in welchem Monat er will an aufeinanderfolgenden Tagen nachholen. Wenn er nicht kann, soll er sie so nachholen, wie er will, und die Tage zählen. Wenn er sie verteilt, ist das gut, und wenn er sie hintereinander macht, ist das auch gut.",
-              "en": "If a man has something due of the fasting of the month of Ramadan, then let him make it up in whichever month he wishes, on consecutive days. If he is unable, then let him make it up however he wishes, and let him keep count of the days. If he separates them, that is good, and if he does them consecutively, that is good.",
-              "es": "Si un hombre tiene algo pendiente del ayuno del mes de Ramadán, que lo recupere en el mes que desee, en días consecutivos. Si no puede, que lo recupere como quiera y que cuente los días. Si los separa, está bien, y si los hace consecutivos, también está bien.",
-              "fa": "اگر مردی چیزی از روزه ماه رمضان بر او واجب باشد، پس باید آن را در هر ماهی که بخواهد، به صورت روزهای متوالی قضا کند. اگر نتواند، به هر شکلی که بخواهد قضا کند و روزها را بشمارد. اگر روزها را جدا کند، خوب است و اگر متوالی باشد نیز خوب است.",
-              "fr": "Si un homme a des jours de jeûne du mois de Ramadan à rattraper, qu'il les rattrape dans le mois qu'il souhaite, en jours consécutifs. S'il ne peut pas, qu'il les rattrape comme il veut et qu'il compte les jours. S'il les sépare, c'est bien, et s'il les fait consécutifs, c'est bien aussi.",
-              "id": "Jika seseorang memiliki hutang puasa bulan Ramadan, maka hendaklah ia menggantinya di bulan mana pun yang ia inginkan, secara berturut-turut. Jika tidak mampu, maka gantilah dengan cara apa pun yang ia mau dan hitunglah hari-harinya. Jika ia memisahkannya, itu baik, dan jika berturut-turut juga baik.",
-              "ru": "Если у человека есть задолженность по посту месяца Рамадан, пусть он восполнит её в любом месяце, который пожелает, подряд. Если не может, пусть восполнит как хочет и считает дни. Если разделит дни, это хорошо, если подряд — тоже хорошо.",
-              "tr": "Bir adamın Ramazan ayının orucundan bir borcu varsa, istediği ayda ardışık günlerde kaza etsin. Eğer yapamazsa, istediği şekilde kaza etsin ve günleri saysın. Günleri ayrı ayrı tutması iyi, ardışık tutması da iyidir.",
-              "ur": "اگر کسی پر رمضان کے روزوں کا کچھ قضا واجب ہو تو وہ چاہے جس مہینے میں چاہے، متصل دنوں میں قضا کر لے۔ اگر وہ قادر نہ ہو تو جس طرح چاہے قضا کرے اور دنوں کا حساب رکھے۔ اگر وہ روزے الگ الگ رکھے تو اچھا ہے اور اگر متصل رکھے تو بھی اچھا ہے۔",
-              "zh": "如果一个人有斋月的欠缺斋戒，应当在他愿意的任何月份连续补上。如果不能连续补，则按他愿意的方式补，并计算天数。分开补是好的，连续补也是好的。"
-            },
             "word_end": 39,
             "word_start": 9
           }
@@ -96,27 +83,15 @@
             "phrase_en": "Fasting in the month of Ramadan"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "تَابَعَ": "he did them consecutively, i.e. one after another",
-            "شَهْرِ رَمَضَانَ": "the month of Ramadan, whose missed fasts are to be made up",
-            "صَوْمِ": "fasting, specifically the devotional fast being discussed",
-            "فَرَّقَ": "he separated them, i.e. performed the make-up fasts on different days",
-            "فَلْيَقْضِهِ": "let him make it up, meaning to perform the missed obligatory fast later",
-            "مُتَتَابِعَةً": "consecutively, one after another without interruption",
-            "وَلْيُحْصِ": "let him count precisely, meaning to keep an accurate tally"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "صَوْمِ",
+          "شَهْرِ رَمَضَانَ",
+          "فَلْيَقْضِهِ",
+          "مُتَتَابِعَةً",
+          "وَلْيُحْصِ",
+          "فَرَّقَ",
+          "تَابَعَ"
+        ],
         "related_quran": [
           {
             "ref": "2:184",
@@ -127,32 +102,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "রমজানের মিসিং রোজা কি ধারাবাহিক না রেখে আলাদা আলাদা দিনে কেজা করা যায়?",
-          "de": "Können versäumte Ramadan-Fastentage an nicht aufeinanderfolgenden Tagen nachgeholt werden?",
-          "en": "Can missed Ramadan fasts be made up on non-consecutive days?",
-          "es": "¿Se pueden recuperar los ayunos perdidos de Ramadán en días no consecutivos?",
-          "fa": "آیا روزه‌های رمضان می‌توانند در روزهای غیر متوالی قضا شوند؟",
-          "fr": "Peut-on rattraper les jeûnes manqués du Ramadan sur des jours non consécutifs ?",
-          "id": "Apakah puasa Ramadan yang terlewat bisa diganti pada hari yang tidak berturut-turut?",
-          "ru": "Можно ли возмещать пропущенные посты Рамадана в непоследовательные дни?",
-          "tr": "Ramazan oruçları ardışık olmayan günlerde kaza edilebilir mi?",
-          "ur": "کیا رمضان کے روزے غیر متصل دنوں میں قضا کیے جا سکتے ہیں؟",
-          "zh": "未守的斋月斋戒可以在非连续的日子补吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস রমজানের মিসিং রোজার কেজা সম্পর্কে শারঈ হুকুম প্রদান করে। এটি যেকোন মাসে কেজা করার অনুমতি দেয়, পছন্দসই ধারাবাহিক দিনগুলোতে, কিন্তু ধারাবাহিক রোজা রাখা সম্ভব না হলে আলাদা আলাদাও করা যায়। মূল বিষয় হলো মিসিং রোজা পূরণ এবং সঠিকভাবে দিন গোনা।",
-          "de": "Dieser Hadith gibt eine Rechtsvorschrift zum Nachholen verpasster Fastentage im Monat Ramadan. Er erlaubt, diese in jedem Monat nachzuholen, vorzugsweise an aufeinanderfolgenden Tagen, erlaubt aber auch die Aufteilung, wenn aufeinanderfolgendes Fasten nicht möglich ist. Der Schwerpunkt liegt auf der Erfüllung der Verpflichtung und der genauen Zählung der Tage.",
-          "en": "This hadith gives a legal ruling on making up missed fasts from the month of Ramadan. It permits making them up in any month, preferably consecutively, but allows separation when consecutive fasting is not possible. The emphasis is on fulfilling the missed obligation and accurately counting the days.",
-          "es": "Este hadiz da una regla legal sobre la recuperación de los ayunos perdidos del mes de Ramadán. Permite recuperarlos en cualquier mes, preferiblemente de forma consecutiva, pero permite la separación cuando no es posible ayunar consecutivamente. El énfasis está en cumplir la obligación y contar los días correctamente.",
-          "fa": "این حدیث حکم شرعی قضا کردن روزه‌های فوت شده ماه رمضان را بیان می‌کند. اجازه می‌دهد که قضا در هر ماهی انجام شود، ترجیحاً به صورت متوالی، اما اگر متوالی گرفتن ممکن نباشد، جداگانه نیز جایز است. تأکید بر انجام قضا و شمارش دقیق روزها است.",
-          "fr": "Ce hadith donne un jugement légal sur le rattrapage des jeûnes manqués du mois de Ramadan. Il permet de les rattraper dans n'importe quel mois, de préférence consécutivement, mais autorise la séparation lorsque le jeûne consécutif n'est pas possible. L'accent est mis sur l'accomplissement de l'obligation et le comptage précis des jours.",
-          "id": "Hadis ini memberikan hukum tentang mengganti puasa yang terlewat dari bulan Ramadan. Diperbolehkan menggantinya di bulan apa pun, sebaiknya berturut-turut, tapi juga diperbolehkan dipisah jika tidak memungkinkan berturut-turut. Penekanan pada menunaikan kewajiban dan menghitung hari dengan benar.",
-          "ru": "Этот хадис даёт правовое постановление о возмещении пропущенных постов месяца Рамадан. Разрешается возмещать их в любом месяце, предпочтительно подряд, но допускается разделение, если подряд поститься невозможно. Акцент на выполнении обязательства и точном подсчёте дней.",
-          "tr": "Bu hadis, Ramazan ayının kaçırılan oruçlarının kaza edilmesiyle ilgili hukuki hükmü verir. Kazanın herhangi bir ayda, tercihen ardışık günlerde yapılmasına izin verir, ancak ardışık oruç tutmak mümkün değilse ayrılarak da yapılabilir. Önemli olan, kaçırılan borcun yerine getirilmesi ve günlerin doğru sayılmasıdır.",
-          "ur": "یہ حدیث رمضان کے روزوں کی قضا کے بارے میں شرعی حکم بیان کرتی ہے۔ یہ اجازت دیتی ہے کہ قضا کسی بھی مہینے میں کی جائے، ترجیحاً متصل دنوں میں، لیکن اگر متصل روزہ رکھنا ممکن نہ ہو تو الگ الگ بھی کیا جا سکتا ہے۔ اہم بات یہ ہے کہ قضا کی جائے اور دنوں کا صحیح حساب رکھا جائے۔",
-          "zh": "此圣训对补偿斋月未守的斋戒给出法律判决。允许在任何月份补斋，最好连续进行，但若无法连续，也允许分开补。重点是履行未完成的义务并准确计算天数。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبِي نَجْرَانَ عَنْ صَفْوَانَ بْنِ يَحْيَى عَنْ عِيصِ بْنِ الْقَاسِمِ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তার কাছ থেকে, ʿAbd al-Raḥmān ibn Abī Najrān থেকে, Ṣafwān ibn Yaḥyā থেকে, ʿĪṣ ibn al-Qāsim থেকে, তিনি বলেন:",
-              "de": "Von ihm, von ʿAbd al-Raḥmān ibn Abī Najrān, von Ṣafwān ibn Yaḥyā, von ʿĪṣ ibn al-Qāsim, der sagte:",
-              "en": "From him, from ʿAbd al-Raḥmān ibn Abī Najrān, from Ṣafwān ibn Yaḥyā, from ʿĪṣ ibn al-Qāsim, who said:",
-              "es": "De él, de ʿAbd al-Raḥmān ibn Abī Najrān, de Ṣafwān ibn Yaḥyā, de ʿĪṣ ibn al-Qāsim, quien dijo:",
-              "fa": "از او، از ʿAbd al-Raḥmān ibn Abī Najrān، از Ṣafwān ibn Yaḥyā، از ʿĪṣ ibn al-Qāsim، که گفت:",
-              "fr": "De lui, de ʿAbd al-Raḥmān ibn Abī Najrān, de Ṣafwān ibn Yaḥyā, de ʿĪṣ ibn al-Qāsim, qui a dit :",
-              "id": "Darinya, dari ʿAbd al-Raḥmān ibn Abī Najrān, dari Ṣafwān ibn Yaḥyā, dari ʿĪṣ ibn al-Qāsim, yang berkata:",
-              "ru": "От него, от ʿAbd al-Raḥmān ibn Abī Najrān, от Ṣafwān ibn Yaḥyā, от ʿĪṣ ibn al-Qāsim, который сказал:",
-              "tr": "Ondan, ʿAbd al-Raḥmān ibn Abī Najrān’dan, Ṣafwān ibn Yaḥyā’dan, ʿĪṣ ibn al-Qāsim’den, o da şöyle dedi:",
-              "ur": "ان سے، عبد الرحمن بن ابی نجران سے، صفوان بن یحییٰ سے، عیص بن القاسم سے، انہوں نے کہا:",
-              "zh": "由他传自ʿAbd al-RaḥmānibnAbīNajrān，传自ṢafwānibnYaḥyā，传自ʿĪṣibnal-Qāsim，他说："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ عَنْ سُؤْرِ الْحَائِضِ.",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আমি আবা ʿAbdillāh عليه السلام-কে ঋতুমতী নারীর অবশিষ্ট পানি সম্পর্কে জিজ্ঞেস করলাম।",
-              "de": "Ich fragte Abā ʿAbdillāh عليه السلام nach dem übrig gebliebenen Wasser einer menstruierenden Frau.",
-              "en": "I asked Abā ʿAbdillāh عليه السلام about the leftover water of a menstruating woman.",
-              "es": "Le pregunté a Abā ʿAbdillāh عليه السلام acerca del agua sobrante de una mujer menstruante.",
-              "fa": "از Abā ʿAbdillāh علیه السلام درباره آبِ باقی‌ماندهٔ زنِ حائض پرسیدم.",
-              "fr": "J’ai interrogé Abā ʿAbdillāh عليه السلام au sujet de l’eau restante d’une femme menstruée.",
-              "id": "Aku bertanya kepada Abā ʿAbdillāh عليه السلام tentang sisa air dari seorang wanita yang sedang haid.",
-              "ru": "Я спросил Abā ʿAbdillāh عليه السلام о воде, оставшейся после менструирующей женщины.",
-              "tr": "Abā ʿAbdillāh عليه السلام’a, hayızlı bir kadının artan suyunu sordum.",
-              "ur": "میں نے ابا عبد اللہ علیہ السلام سے حائضہ عورت کے بچے ہوئے پانی کے بارے میں پوچھا۔",
-              "zh": "我询问AbāʿAbdillāh عليه السلام关于月经妇女剩余的水。"
-            },
             "word_end": 25,
             "word_start": 16
           },
           {
             "arabic_text": "قَالَ: «يُتَوَضَّأُ مِنْهُ وَتَوَضَّأْ مِنْ سُؤْرِ الْجُنُبِ إِذَا كَانَتْ مَأْمُونَةً وَتَغْسِلُ يَدَهَا قَبْلَ أَنْ تُدْخِلَهَا الْإِنَاءَ، وَقَدْ كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ يَغْتَسِلُ هُوَ وَعَائِشَةُ فِي إِنَاءٍ وَاحِدٍ وَيَغْتَسِلَانِ جَمِيعًا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: “তা থেকে wudu (অজু) করা যায়; এবং junub নারীর অবশিষ্ট পানি থেকেও wudu (অজু) কর, যখন সে বিশ্বস্ত হয়, এবং সে পাত্রে হাত ঢোকানোর আগে হাত ধুয়ে নেবে। রাসূলুল্লাহ صلى الله عليه وآله ʿĀʾishah-এর সঙ্গে এক পাত্র থেকে ghusl করতেন, এবং তারা দু’জন একসঙ্গে ghusl করতেন।”",
-              "de": "Er sagte: „Man kann damit wudu (rituelle Waschung) verrichten; und verrichte wudu (rituelle Waschung) mit dem übrig gebliebenen Wasser einer junub, wenn sie vertrauenswürdig ist, und sie soll ihre Hand waschen, bevor sie sie in das Gefäß steckt. Der Gesandte Allahs صلى الله عليه وآله pflegte mit ʿĀʾishah aus einem einzigen Gefäß ghusl zu verrichten, und beide verrichteten gemeinsam ghusl.“",
-              "en": "He said: “Wudu (ablution) may be performed from it; and perform wudu (ablution) from the leftover water of a junub when she is trustworthy, and she washes her hand before putting it into the vessel. The Messenger of Allah صلى الله عليه وآله used to perform ghusl with ʿĀʾishah from one vessel, and the two of them would perform ghusl together.”",
-              "es": "Dijo: “Se puede hacer wudu (ablución) con ello; y haz wudu (ablución) del agua sobrante de una junub cuando sea confiable, y que lave su mano antes de introducirla en el recipiente. El Mensajero de Allah صلى الله عليه وآله solía hacer ghusl con ʿĀʾishah en un solo recipiente, y ambos hacían ghusl juntos.”",
-              "fa": "فرمود: «از آن وضو (طهارت) گرفته می‌شود؛ و از آبِ باقی‌ماندهٔ جنب نیز وضو بگیر، هرگاه مورد اعتماد باشد، و دستش را پیش از آن‌که آن را در ظرف فرو برد، بشوید. رسول خدا صلى الله عليه وآله با ʿĀʾishah از یک ظرف غسل می‌کردند، و هر دو با هم غسل می‌کردند.»",
-              "fr": "Il dit : « On peut faire le wudu (ablution) avec cela ; et fais le wudu (ablution) avec l’eau restante d’une junub lorsqu’elle est digne de confiance, et qu’elle lave sa main avant de la mettre dans le récipient. Le Messager d’Allah صلى الله عليه وآله faisait le ghusl avec ʿĀʾishah dans un seul récipient, et tous deux faisaient le ghusl ensemble. »",
-              "id": "Beliau bersabda: “Wudu (ablusi) boleh dilakukan darinya; dan berwudulah dari sisa air seorang junub apabila ia dapat dipercaya, dan ia mencuci tangannya sebelum memasukkannya ke dalam bejana. Rasulullah صلى الله عليه وآله biasa melakukan ghusl bersama ʿĀʾishah dari satu bejana, dan keduanya mandi ghusl bersama.”",
-              "ru": "Он сказал: «Можно совершать wudu (омовение) этим; и совершай wudu (омовение) из оставшейся воды junub, если она заслуживает доверия, и пусть она вымоет свою руку, прежде чем опустить ее в сосуд. Посланник Аллаха صلى الله عليه وآله совершал ghusl вместе с ʿĀʾishah из одного сосуда, и оба они совершали ghusl вместе».",
-              "tr": "Şöyle buyurdu: “Ondan wudu (abdest) alınabilir; ve güvenilir olduğu zaman junub kadının artan suyundan da wudu (abdest) al, ayrıca elini kabın içine sokmadan önce yıkasın. Allah’ın Resulü صلى الله عليه وآله, ʿĀʾishah ile tek bir kaptan ghusl yapardı ve ikisi birlikte ghusl yaparlardı.”",
-              "ur": "انہوں نے فرمایا: اس سے وضو کیا جا سکتا ہے؛ اور جنب عورت کے بچے ہوئے پانی سے بھی وضو کرو، جب وہ قابلِ اعتماد ہو، اور وہ اپنا ہاتھ برتن میں ڈالنے سے پہلے دھو لے۔ رسول اللہ صلى الله عليه وآله عائشہ کے ساتھ ایک ہی برتن سے غسل فرمایا کرتے تھے، اور دونوں مل کر غسل کرتے تھے۔",
-              "zh": "他说：“可以用它做wudu（小净）；如果那位junub妇女是可信的，也可以用她剩下的水做wudu（小净），并且她在把手伸入器皿之前要先洗手。真主的使者 صلى الله عليه وآله常常与ʿĀʾishah共用一个器皿做ghusl（大净），两人一起做ghusl。”"
-            },
             "word_end": 57,
             "word_start": 25
           }
@@ -129,28 +103,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْإِنَاءَ": "the vessel or container holding water",
-            "الْجُنُبِ": "a person in the state requiring ghusl due to janabah",
-            "الْحَائِضِ": "a menstruating woman",
-            "تَغْسِلُ": "she washes",
-            "سُؤْرِ": "leftover water or remainder from which someone has drunk or used",
-            "مَأْمُونَةً": "trusted as clean and careful regarding impurity",
-            "يَغْتَسِلُ": "he performs ghusl",
-            "يُتَوَضَّأُ": "wudu (ablution) is performed"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "سُؤْرِ",
+          "الْحَائِضِ",
+          "يُتَوَضَّأُ",
+          "الْجُنُبِ",
+          "مَأْمُونَةً",
+          "تَغْسِلُ",
+          "الْإِنَاءَ",
+          "يَغْتَسِلُ"
+        ],
         "related_quran": [
           {
             "ref": "5:6",
@@ -161,32 +123,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ঋতুমতী নারী বা junub-এর অবশিষ্ট পানি দিয়ে কি wudu (অজু) করা যায়?",
-          "de": "Kann man mit dem übrig gebliebenen Wasser einer menstruierenden Frau oder einer junub wudu (rituelle Waschung) verrichten?",
-          "en": "Can wudu (ablution) be performed from the leftover water of a menstruating woman or a junub?",
-          "es": "¿Se puede hacer wudu (ablución) con el agua sobrante de una mujer menstruante o de una junub?",
-          "fa": "آیا می‌توان با آبِ باقی‌ماندهٔ زنِ حائض یا جنب وضو (طهارت) گرفت؟",
-          "fr": "Peut-on faire le wudu (ablution) avec l’eau restante d’une femme menstruée ou d’une junub ?",
-          "id": "Apakah wudu (ablusi) boleh dilakukan dengan sisa air dari wanita haid atau junub?",
-          "ru": "Можно ли совершать wudu (омовение) водой, оставшейся после менструирующей женщины или junub?",
-          "tr": "Hayızlı bir kadın veya junubun artan suyuyla wudu (abdest) alınabilir mi?",
-          "ur": "کیا حائضہ عورت یا جنب کے بچے ہوئے پانی سے وضو کیا جا سکتا ہے؟",
-          "zh": "可以用月经妇女或junub剩余的水做wudu（小净）吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে পবিত্রতা-সংক্রান্ত একটি বিধান এবং ঋতুমতী নারী বা junub-এর স্পর্শ করা অবশিষ্ট পানি ব্যবহারের বিষয়টি বর্ণিত হয়েছে। এতে এমন পানি দিয়ে wudu (অজু) করার বৈধতার ইঙ্গিত রয়েছে, পরিচ্ছন্নতা ও আস্থার শর্তসহ, এবং রাসূলুল্লাহ صلى الله عليه وآله-এর আমল দ্বারা তা সমর্থিত হয়েছে।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung zur rituellen Reinheit und zur Verwendung von übrig gebliebenem Wasser, das von einer menstruierenden Frau oder einer junub berührt wurde. Er zeigt die Erlaubnis, mit solchem Wasser wudu (rituelle Waschung) zu verrichten, unter der Bedingung von Sauberkeit und Vertrauenswürdigkeit, und stützt dies auf die Praxis des Gesandten Allahs صلى الله عليه وآله.",
-          "en": "This hadith gives a legal ruling concerning ritual purity and the use of leftover water touched by a menstruating woman or a junub. It indicates the permissibility of using such water for wudu (ablution), with the condition of cleanliness and trustworthiness, and supports this by citing the practice of the Messenger of Allah صلى الله عليه وآله.",
-          "es": "Este hadiz establece una norma jurídica sobre la pureza ritual y el uso del agua sobrante tocada por una mujer menstruante o una junub. Indica la permisibilidad de hacer wudu (ablución) con esa agua, con la condición de limpieza y confianza, y lo respalda citando la práctica del Mensajero de Allah صلى الله عليه وآله.",
-          "fa": "این حدیث حکمی فقهی درباره طهارت و استفاده از آبِ باقی‌مانده‌ای که زنِ حائض یا جنب با آن تماس داشته بیان می‌کند. دلالت دارد بر جواز وضو (طهارت) با چنین آبی، با شرط پاکی و اطمینان، و این را با عمل رسول خدا صلى الله عليه وآله تأیید می‌کند.",
-          "fr": "Ce hadith énonce une règle juridique concernant la pureté rituelle et l’usage de l’eau restante touchée par une femme menstruée ou une junub. Il indique la permission de faire le wudu (ablution) avec une telle eau, à condition qu’elle soit propre et digne de confiance, et l’appuie par la pratique du Messager d’Allah صلى الله عليه وآله.",
-          "id": "Hadis ini memberikan hukum syar‘i tentang kesucian ritual dan penggunaan sisa air yang disentuh oleh wanita haid atau junub. Ini menunjukkan bolehnya berwudu (ablusi) dengan air seperti itu, dengan syarat kebersihan dan kepercayaan, serta didukung oleh praktik Rasulullah صلى الله عليه وآله.",
-          "ru": "Этот хадис содержит правовое предписание относительно ритуальной чистоты и использования оставшейся воды, к которой прикасалась менструирующая женщина или junub. Он указывает на дозволенность совершать wudu (омовение) такой водой при условии чистоты и надежности, и подтверждает это практикой Посланника Аллаха صلى الله عليه وآله.",
-          "tr": "Bu hadis, şerʿî temizlik ve hayızlı bir kadın ya da junub tarafından dokunulmuş artan suyun kullanımı hakkında bir hüküm verir. Böyle bir suyla wudu (abdest) almanın, temizlik ve güvenilirlik şartıyla caiz olduğunu gösterir ve bunu Allah’ın Resulü صلى الله عليه وآله’in uygulamasıyla destekler.",
-          "ur": "یہ حدیث طہارتِ شرعی اور حائضہ عورت یا جنب کے چھوئے ہوئے بچے ہوئے پانی کے استعمال کے بارے میں حکم بیان کرتی ہے۔ اس میں ایسے پانی سے وضو کے جواز کی طرف اشارہ ہے، بشرطیکہ صفائی اور اعتماد ہو، اور اس کی تائید رسول اللہ صلى الله عليه وآله کے عمل سے کی گئی ہے۔",
-          "zh": "这段圣训阐明了关于礼仪洁净以及使用被月经妇女或junub接触过的剩余水的教法律例。它表明在清洁和可信的条件下，可以用这样的水做wudu（小净），并以真主的使者 صلى الله عليه وآله的做法作为依据。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

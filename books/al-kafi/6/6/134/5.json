@@ -14,6 +14,118 @@
       "up": "/books/al-kafi:6:6:134"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ بَعْضِ أَصْحَابِهِ عَنْ إِبْرَاهِيمَ بْنِ أَبِي الْبِلَادِ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 16,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "أَخَذَنِي الْعَبَّاسُ بْنُ مُوسَى فَأَمَرَ فَوُجِئَ فَمِي «1» فَتَزَعْزَعَتْ أَسْنَانِي فَلَا أَقْدِرُ أَنْ أَمْضَغَ الطَّعَامَ فَرَأَيْتُ أَبِي فِي الْمَنَامِ وَ مَعَهُ شَيْخٌ لَا أَعْرِفُهُ فَقَالَ أَبِي رَحِمَهُ اللَّهُ سَلِّمْ عَلَيْهِ فَقُلْتُ يَا أَبَهْ مَنْ هُوَ فَقَالَ هَذَا أَبُو شَيْبَةَ الْخُرَاسَانِيُّ «2» قَالَ فَسَلَّمْتُ عَلَيْهِ فَقَالَ مَا لِي أَرَاكَ هَكَذَا قَالَ قُلْتُ إِنَّ الْفَاسِقَ الْعَبَّاسَ بْنَ مُوسَى أَمَرَنِي فَوُجِئَ فَمِي فَتَزَعْزَعَتْ أَسْنَانِي فَقَالَ لِي شُدَّهَا بِالسُّعْدِ فَأَصْبَحْتُ فَتَمَضْمَضْتُ بِالسُّعْدِ فَسَكَنَتْ أَسْنَانِي.",
+            "chunk_type": "body",
+            "word_end": 86,
+            "word_start": 16
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 37,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "بَعْضِ أَصْحَابِهِ",
+              "name_en": "some of his companions",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 270,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "إِبْرَاهِيمَ بْنِ أَبِي الْبِلَادِ",
+              "name_en": "Ibrahim ibn Abi al-Bilad",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [],
+        "key_terms_keys": [
+          "الْعَبَّاسُ بْنُ مُوسَى",
+          "فَوُجِئَ",
+          "تَزَعْزَعَتْ",
+          "أَسْنَانِي",
+          "الْفَاسِقَ",
+          "أَبُو شَيْبَةَ الْخُرَاسَانِيُّ",
+          "السُّعْدِ",
+          "تَمَضْمَضْتُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:56",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "17:82",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "social_relations",
+          "jurisprudence"
+        ],
+        "topics": [
+          "companions",
+          "patience",
+          "ritual_purity"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مرسل موقو ف   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (22/227)"
       ],
@@ -72,7 +184,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:6:134:5",

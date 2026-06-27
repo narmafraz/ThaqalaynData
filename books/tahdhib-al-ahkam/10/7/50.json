@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنِ ابْنِ مَحْبُوبٍ عَنْ عَبَّادِ بْنِ صُهَيْبٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন মুহাম্মদ, ইবন মাহবূব থেকে, ʿআব্বাদ ইবন সুহাইব থেকে, তিনি বলেন:",
-              "de": "Aḥmad ibn Muḥammad, von Ibn Maḥbūb, von ʿAbbād ibn Ṣuhayb, der sagte:",
-              "en": "Aḥmad ibn Muḥammad, from Ibn Maḥbūb, from ʿAbbād ibn Ṣuhayb, who said:",
-              "es": "Aḥmad ibn Muḥammad, de Ibn Maḥbūb, de ʿAbbād ibn Ṣuhayb, quien dijo:",
-              "fa": "احمد بن محمد، از ابن محبوب، از عباد بن صهیب، که گفت:",
-              "fr": "Aḥmad ibn Muḥammad, d’Ibn Maḥbūb, de ʿAbbād ibn Ṣuhayb, qui a dit :",
-              "id": "Aḥmad ibn Muḥammad, dari Ibn Maḥbūb, dari ʿAbbād ibn Ṣuhayb, yang berkata:",
-              "ru": "Ахмад ибн Мухаммад, от Ибн Махбуба, от ʿАббада ибн Сухайба, который сказал:",
-              "tr": "Ahmed ibn Muhammed, İbn Mahbub’dan, Abbâd ibn Suheyb’den, o da şöyle dedi:",
-              "ur": "احمد بن محمد، ابن محبوب سے، عباد بن صہیب سے، انہوں نے کہا:",
-              "zh": "艾哈迈德·伊本·穆罕默德，传自伊本·马赫布卜，传自ʿ阿巴德·伊本·苏海卜，他说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "سُئِلَ أَبُو عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ عَنْ نَصْرَانِيٍّ قَذَفَ مُسْلِمًا فَقَالَ لَهُ يَا زَانِ،",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আবু আবদিল্লাহ عليه السلام-কে এক খ্রিস্টান সম্পর্কে জিজ্ঞেস করা হয়েছিল, যে এক মুসলিমের ওপর অপবাদ দিয়েছিল এবং তাকে বলেছিল, “হে ব্যভিচারী,”",
-              "de": "Abū ʿAbdillāh عليه السلام wurde über einen Christen gefragt, der einen Muslim verleumdete und zu ihm sagte: „O Ehebrecher“,",
-              "en": "Abū ʿAbdillāh عليه السلام was asked about a Christian who slandered a Muslim and said to him, “O fornicator,”",
-              "es": "Se le preguntó a Abū ʿAbdillāh عليه السلام acerca de un cristiano que difamó a un musulmán y le dijo: “¡Oh, fornicador!”,",
-              "fa": "از ابو عبدالله علیه السلام درباره نصرانی‌ای پرسیده شد که به مسلمانی تهمت زد و به او گفت: «ای زناکار»،",
-              "fr": "On demanda à Abū ʿAbdillāh عليه السلام au sujet d’un chrétien qui diffama un musulman et lui dit : « Ô fornicateur »,",
-              "id": "Abū ʿAbdillāh عليه السلام ditanya tentang seorang Nasrani yang menuduh seorang Muslim dan berkata kepadanya, “Wahai pezina,”",
-              "ru": "У Абу ʿАбдуллаха عليه السلام спросили о христианине, который оклеветал мусульманина и сказал ему: «О прелюбодей»,",
-              "tr": "Ebu Abdullah عليه السلام’a, bir Müslümana iftira atan ve ona “Ey zina eden!” diyen bir Hristiyan hakkında soruldu,",
-              "ur": "ابو عبداللہ علیہ السلام سے ایک نصرانی کے بارے میں پوچھا گیا جس نے ایک مسلمان پر تہمت لگائی اور اسے کہا: “اے زانی،”",
-              "zh": "有人问阿布·阿卜杜拉 عليه السلام关于一个基督徒诽谤一名穆斯林并对他说：“啊，通奸者，”"
-            },
             "word_end": 25,
             "word_start": 11
           },
           {
             "arabic_text": "فَقَالَ: «يُجْلَدُ ثَمَانِينَ جَلْدَةً لِحَقِّ الْمُسْلِمِ، وَثَمَانِينَ سَوْطًا إِلَّا سَوْطًا لِحُرْمَةِ الْإِسْلَامِ، وَيُحْلَقُ رَأْسُهُ وَيُطَافُ بِهِ فِي أَهْلِ دِينِهِ لِكَيْ يُنَكَّلَ غَيْرُهُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তখন তিনি عليه السلام বললেন: “মুসলিমের অধিকারের জন্য তাকে আশিটি বেত্রাঘাত করা হবে, এবং ইসলামের মর্যাদার জন্য আশি থেকে এক কম বেত্রাঘাত; তার মাথা মুণ্ডন করা হবে, এবং তাকে তার ধর্মাবলম্বীদের মধ্যে ঘোরানো হবে যাতে তার বাইরে অন্যরাও শিক্ষা পায়।”",
-              "de": "Da sagte er عليه السلام: „Er wird wegen des Rechts des Muslims mit achtzig Hieben geschlagen, und wegen der Unantastbarkeit des Islam mit achtzig Hieben minus einem; sein Kopf wird rasiert, und er wird unter den Leuten seiner Religion herumgeführt, damit andere außer ihm abgeschreckt werden.“",
-              "en": "So he عليه السلام said: “He is to be flogged with eighty lashes for the right of the Muslim, and eighty lashes minus one for the sanctity of Islam; his head is to be shaved, and he is to be paraded among the people of his religion so that others besides him may be deterred.”",
-              "es": "Entonces él عليه السلام dijo: “Se le azotará con ochenta latigazos por el derecho del musulmán, y con ochenta menos uno por la santidad del Islam; se le afeitará la cabeza y se le paseará entre la gente de su religión para que otros además de él sean disuadidos.”",
-              "fa": "پس ایشان علیه السلام فرمود: «برای حقِ مسلمان، هشتاد تازیانه زده می‌شود، و برای حرمتِ اسلام، هشتاد تازیانه منهای یک؛ و سرش تراشیده می‌شود، و در میان اهل دینش گردانده می‌شود تا دیگران نیز عبرت گیرند.»",
-              "fr": "Alors il عليه السلام dit : « Il sera fouetté de quatre-vingts coups pour le droit du musulman, et de quatre-vingts coups moins un pour la sacralité de l’islam ; sa tête sera rasée, et il sera promené parmi les gens de sa religion afin que d’autres que lui en soient dissuadés. »",
-              "id": "Maka beliau عليه السلام bersabda: “Ia dicambuk delapan puluh kali demi hak seorang Muslim, dan delapan puluh kali kurang satu demi kehormatan Islam; kepalanya dicukur, dan ia diarak di antara orang-orang seagamanya agar selain dirinya menjadi jera.”",
-              "ru": "Тогда он عليه السلام сказал: «Его следует высечь восьмьюдесятью ударами за право мусульманина и восьмьюдесятью ударами минус один за святость ислама; ему следует обрить голову и провести его среди людей его религии, чтобы другие, помимо него, были удержаны от подобного.»",
-              "tr": "Bunun üzerine عليه السلام şöyle buyurdu: “Müslümanın hakkı için ona seksen kırbaç vurulur; İslam’ın حرmeti için de bir kırbaç eksik olmak üzere seksen kırbaç vurulur. Başı tıraş edilir ve başkaları ibret alsın diye kendi dininden olanların arasında dolaştırılır.”",
-              "ur": "تو انہوں نے علیہ السلام فرمایا: “مسلمان کے حق کے لیے اسے اسی کوڑے مارے جائیں گے، اور اسلام کی حرمت کے لیے ایک کوڑا کم یعنی اناسی کوڑے، اور اس کا سر منڈایا جائے گا، اور اسے اس کے دین والوں کے درمیان پھرایا جائے گا تاکہ اس کے علاوہ دوسروں کو عبرت ہو۔”",
-              "zh": "于是他 عليه السلام说：“为了穆斯林的权利，要鞭打他八十下；为了伊斯兰的尊严，再鞭打他八十下减一下；要剃掉他的头发，并在他本教的人中游示，以便使除他之外的其他人受到警戒。”"
-            },
             "word_end": 47,
             "word_start": 25
           }
@@ -119,28 +93,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "قَذَفَ": "falsely accused with a charge of sexual immorality",
-            "لِحَقِّ الْمُسْلِمِ": "for the violated right of the Muslim person",
-            "لِحُرْمَةِ الْإِسْلَامِ": "for the violated sanctity of Islam",
-            "نَصْرَانِيٍّ": "a Christian subject of the ruling in this report",
-            "يَا زَانِ": "an insult meaning ‘O fornicator’",
-            "يُجْلَدُ": "he is to be flogged as a legal punishment",
-            "يُحْلَقُ رَأْسُهُ": "his head is to be shaved",
-            "يُنَكَّلَ": "to serve as a deterrent or exemplary punishment"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "نَصْرَانِيٍّ",
+          "قَذَفَ",
+          "يَا زَانِ",
+          "يُجْلَدُ",
+          "لِحَقِّ الْمُسْلِمِ",
+          "لِحُرْمَةِ الْإِسْلَامِ",
+          "يُحْلَقُ رَأْسُهُ",
+          "يُنَكَّلَ"
+        ],
         "related_quran": [
           {
             "ref": "24:4",
@@ -155,32 +117,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে যদি কোনো খ্রিস্টান মিথ্যা ভাবে কোনো মুসলিমের ওপর জিনা’র অপবাদ দেয়, তবে কী হুকুম?",
-          "de": "Was ist das Urteil, wenn ein Christ in einem schiitischen Hadith einen Muslim fälschlich der zina beschuldigt?",
-          "en": "What is the ruling if a Christian falsely accuses a Muslim of zina in Shia hadith?",
-          "es": "¿Cuál es el fallo si un cristiano acusa falsamente a un musulmán de zina en un hadiz chií?",
-          "fa": "اگر یک نصرانی به دروغ مسلمانی را به زنا متهم کند، در حدیث شیعه حکم چیست؟",
-          "fr": "Quelle est la règle si un chrétien accuse faussement un musulman de zina dans un hadith chiite ?",
-          "id": "Apa حكم jika seorang Nasrani secara dusta menuduh seorang Muslim melakukan zina dalam hadis Syiah?",
-          "ru": "Каково постановление, если христианин ложно обвиняет мусульманина в zina в шиитском хадисе?",
-          "tr": "Bir Hristiyan bir Müslümana zina iftirası atarsa Şii hadiste hüküm nedir?",
-          "ur": "اگر کوئی نصرانی کسی مسلمان پر زنا کی جھوٹی تہمت لگائے تو شیعہ حدیث میں کیا حکم ہے؟",
-          "zh": "如果一名基督徒在什叶派圣训中诬告穆斯林犯zina，判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে এমন এক খ্রিস্টান সম্পর্কে শরয়ি বিধান বর্ণিত হয়েছে, যে মিথ্যা ভাবে এক মুসলিমকে জিনা’র অপবাদ দেয়। এতে মুসলিমের অধিকার ও ইসলামের মর্যাদা লঙ্ঘনের জন্য শারীরিক শাস্তি এবং অন্যদের নিবৃত্ত করার উদ্দেশ্যে প্রকাশ্য শাস্তিমূলক ব্যবস্থার উল্লেখ রয়েছে।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung über einen Christen, der einen Muslim fälschlich der zina beschuldigt. Er nennt eine körperliche Strafe für die Verletzung des Rechts des Muslims und der Unantastbarkeit des Islam sowie eine öffentliche Disziplinarmaßnahme, um andere abzuschrecken.",
-          "en": "This hadith gives a legal ruling regarding a Christian who falsely accuses a Muslim of zina. It specifies corporal punishment for violating the Muslim’s right and the sanctity of Islam, along with a public disciplinary measure intended to deter others.",
-          "es": "Este hadiz expone una norma jurídica respecto a un cristiano que acusa falsamente a un musulmán de zina. Especifica un castigo corporal por violar el derecho del musulmán y la santidad del Islam, junto con una medida disciplinaria pública destinada a disuadir a otros.",
-          "fa": "این حدیث، حکم شرعیِ مربوط به نصرانی‌ای را بیان می‌کند که به دروغ مسلمانی را به زنا متهم کند. در آن، برای نقض حقِ مسلمان و حرمتِ اسلام، مجازات بدنی و نیز یک اقدام تأدیبیِ علنی برای بازداشتن دیگران ذکر شده است.",
-          "fr": "Ce hadith énonce une règle juridique concernant un chrétien qui accuse faussement un musulman de zina. Il précise une peine corporelle pour avoir violé le droit du musulman et la sacralité de l’islam, ainsi qu’une mesure disciplinaire publique destinée à dissuader les autres.",
-          "id": "Hadis ini memberikan حكم hukum tentang seorang Nasrani yang secara dusta menuduh seorang Muslim melakukan zina. Disebutkan hukuman fisik atas pelanggaran terhadap hak Muslim dan kehormatan Islam, serta tindakan disipliner di depan umum untuk mencegah orang lain.",
-          "ru": "Этот хадис разъясняет правовое постановление относительно христианина, который ложно обвиняет мусульманина в zina. В нем указано телесное наказание за нарушение права мусульманина и святости ислама, а также публичная мера, призванная удержать других от подобного.",
-          "tr": "Bu hadis, bir Müslümana zina iftirası atan bir Hristiyan hakkında fıkhî hükmü بیان eder. Müslümanın hakkını ve İslam’ın حرمتini ihlal etmeye karşı bedensel ceza ve başkalarını caydırmaya yönelik aleni bir disiplin tedbiri belirtir.",
-          "ur": "یہ حدیث ایک نصرانی کے بارے میں شرعی حکم بیان کرتی ہے جو کسی مسلمان پر زنا کی جھوٹی تہمت لگائے۔ اس میں مسلمان کے حق اور اسلام کی حرمت کی خلاف ورزی پر جسمانی سزا اور دوسروں کو روکنے کے لیے عوامی تادیبی اقدام ذکر کیا گیا ہے۔",
-          "zh": "这段圣训阐明了关于一名基督徒诬告穆斯林犯zina的法律裁决。它规定了因侵犯穆斯林的权利和伊斯兰的神圣性而施加的体罚，以及旨在警戒他人的公开惩戒措施。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

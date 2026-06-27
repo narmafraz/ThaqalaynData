@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ صَفْوَانَ بْنِ يَحْيَى عَنْ إِسْمَاعِيلَ بْنِ جَابِرٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, সাফওয়ান ইবন ইয়াহইয়া থেকে, ইসমাঈল ইবন জাবির থেকে, আবি আবদিল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Von ihm, von Ṣafwān ibn Yaḥyā, von Ismāʿīl ibn Jābir, von Abī ʿAbdillāh عليه السلام, der sagte:",
-              "en": "From him, from Ṣafwān ibn Yaḥyā, from Ismāʿīl ibn Jābir, from Abī ʿAbdillāh عليه السلام, who said:",
-              "es": "De él, de Ṣafwān ibn Yaḥyā, de Ismāʿīl ibn Jābir, de Abī ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "از او، از صفوان بن یحیی، از اسماعیل بن جابر، از ابی‌عبدالله علیه‌السلام، که فرمود:",
-              "fr": "De lui, de Ṣafwān ibn Yaḥyā, de Ismāʿīl ibn Jābir, d’Abī ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Darinya, dari Ṣafwān ibn Yaḥyā, dari Ismāʿīl ibn Jābir, dari Abī ʿAbdillāh عليه السلام, beliau bersabda:",
-              "ru": "От него, от Ṣafwān ibn Yaḥyā, от Ismāʿīl ibn Jābir, от Abī ʿAbdillāh عليه السلام, который сказал:",
-              "tr": "Ondan, Safvân ibn Yahyâ’dan, İsmâʿîl ibn Câbir’den, Ebî ʿAbdillâh عليه السلام’dan, şöyle dedi:",
-              "ur": "ان سے، صفوان بن یحییٰ سے، اسماعیل بن جابر سے، ابی عبداللہ علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "由他传自ṢafwānibnYaḥyā，传自IsmāʿīlibnJābir，传自AbīʿAbdillāh عليه السلام，他说："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنْ وَقْتِ الْمَغْرِبِ قَالَ: «مَا بَيْنَ غُرُوبِ الشَّمْسِ إِلَى سُقُوطِ الشَّفَقِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁকে মাগরিবের সময় সম্পর্কে জিজ্ঞেস করলাম। তিনি বললেন: “এটি সূর্যাস্ত থেকে শুরু করে শফাক বিলুপ্ত হওয়া পর্যন্ত সময়।”",
-              "de": "Ich fragte ihn nach der Zeit des maghrib. Er sagte: „Es ist die Zeit zwischen dem Sonnenuntergang und dem Verschwinden der Abenddämmerung.“",
-              "en": "I asked him about the time of maghrib. He said: “It is what lies between the setting of the sun and the disappearance of the twilight.”",
-              "es": "Le pregunté acerca del tiempo del maghrib. Dijo: “Es lo que hay entre la puesta del sol y la desaparición del crepúsculo.”",
-              "fa": "از او درباره وقت مغرب پرسیدم. فرمود: «آن، میان غروب خورشید تا ناپدید شدن شفق است.»",
-              "fr": "Je lui ai demandé au sujet du temps du maghrib. Il a dit : « C’est ce qui se situe entre le coucher du soleil et la disparition du crépuscule. »",
-              "id": "Aku bertanya kepadanya tentang waktu maghrib. Beliau bersabda: “Itu adalah waktu antara terbenamnya matahari dan hilangnya syafaq.”",
-              "ru": "Я спросил его о времени магриб. Он сказал: «Это то, что находится между заходом солнца и исчезновением сумерек».",
-              "tr": "Ona maghrib vaktini sordum. Buyurdu ki: “Bu, güneşin batışından şafağın kaybolmasına kadar olan süredir.”",
-              "ur": "میں نے ان سے مغرب کے وقت کے بارے میں پوچھا۔ انہوں نے فرمایا: “یہ سورج کے غروب ہونے سے لے کر شفق کے زائل ہونے تک کا زمانہ ہے۔”",
-              "zh": "我问他关于maghrib的时间。他说：“那是介于太阳落山和暮光消失之间的时间。”"
-            },
             "word_end": 28,
             "word_start": 16
           }
@@ -104,26 +91,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الشَّفَقِ": "the twilight glow that remains after sunset",
-            "الشَّمْسِ": "the sun, whose setting marks the beginning of maghrib time",
-            "الْمَغْرِبِ": "the maghrib salat (prayer), performed after sunset",
-            "سُقُوطِ": "the falling away or disappearance",
-            "غُرُوبِ": "the setting or disappearance of the sun below the horizon",
-            "وَقْتِ": "the appointed time or legal period for an act of worship"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "وَقْتِ",
+          "الْمَغْرِبِ",
+          "غُرُوبِ",
+          "الشَّمْسِ",
+          "سُقُوطِ",
+          "الشَّفَقِ"
+        ],
         "related_quran": [
           {
             "ref": "11:114",
@@ -138,32 +113,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী মাগরিব সালাতের সময় কী?",
-          "de": "Wie ist nach diesem Hadith die Zeit des maghrib-salat?",
-          "en": "What is the time of maghrib salat (prayer) according to this hadith?",
-          "es": "Según este hadiz, ¿cuál es el tiempo del salat del maghrib?",
-          "fa": "بر اساس این حدیث، وقت نماز مغرب چیست؟",
-          "fr": "Selon ce hadith, quel est le temps du salat du maghrib ?",
-          "id": "Menurut hadis ini, apa waktu salat maghrib?",
-          "ru": "Каково время магриб-намаза согласно этому хадису?",
-          "tr": "Bu hadise göre maghrib salatının vakti nedir?",
-          "ur": "اس حدیث کے مطابق مغرب کی نماز کا وقت کیا ہے؟",
-          "zh": "根据这段圣训，maghribsalat（礼拜）的时间是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে মাগরিব সালাতের সময়কে সূর্যাস্ত থেকে শফাক বিলুপ্ত হওয়া পর্যন্ত নির্ধারণ করা হয়েছে। এটি ইবাদতের নির্ধারিত সময় সম্পর্কে একটি ফিকহি বর্ণনা এবং সালাতের সময়সীমা স্পষ্ট করতে সাহায্য করে।",
-          "de": "Dieser Hadith bestimmt die Zeit des maghrib-salat als von Sonnenuntergang bis zum Verschwinden der Abenddämmerung. Es handelt sich um einen fiqh-bezogenen Bericht über die vorgeschriebene Zeit der Anbetung und hilft, die Grenzen der Gebetszeit zu klären.",
-          "en": "This hadith defines the time of maghrib salat (prayer) as extending from sunset until the disappearance of the twilight. It is a jurisprudential report concerning the prescribed time of worship and helps clarify the limits of the prayer time.",
-          "es": "Este hadiz define el tiempo del salat del maghrib como desde la puesta del sol hasta la desaparición del crepúsculo. Es un relato jurisprudencial sobre el tiempo prescrito de la adoración y ayuda a aclarar los límites del tiempo de la oración.",
-          "fa": "این حدیث وقت نماز مغرب را از غروب خورشید تا ناپدید شدن شفق بیان می‌کند. این گزارشی فقهی درباره وقت مقرر عبادت است و به روشن شدن حدود وقت نماز کمک می‌کند.",
-          "fr": "Ce hadith définit le temps du salat du maghrib comme allant du coucher du soleil jusqu’à la disparition du crépuscule. Il s’agit d’un rapport juridique concernant le temps prescrit du culte et il aide à clarifier les limites du temps de la prière.",
-          "id": "Hadis ini menjelaskan waktu salat maghrib sebagai dari terbenamnya matahari hingga hilangnya syafaq. Ini adalah riwayat fikih tentang waktu ibadah yang ditetapkan dan membantu menjelaskan batas-batas waktu salat.",
-          "ru": "Этот хадис определяет время магриб-намаза как период от захода солнца до исчезновения сумерек. Это фикхическое сообщение о предписанном времени поклонения, которое помогает прояснить границы времени молитвы.",
-          "tr": "Bu hadis, maghrib salatının vaktini güneşin batışından şafağın kaybolmasına kadar olarak belirler. Bu, ibadetin belirlenmiş vaktiyle ilgili fıkhî bir rivayettir ve namaz vaktinin sınırlarını açıklığa kavuşturur.",
-          "ur": "یہ حدیث مغرب کی نماز کے وقت کو سورج کے غروب ہونے سے لے کر شفق کے ختم ہونے تک بیان کرتی ہے۔ یہ عبادت کے مقررہ وقت سے متعلق ایک فقہی روایت ہے اور نماز کے وقت کی حدیں واضح کرتی ہے۔",
-          "zh": "这段圣训将maghribsalat（礼拜）的时间界定为从日落到暮光消失之间。这是一则关于规定 عباد worship 时间的教法传述，有助于阐明礼拜时间的界限。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

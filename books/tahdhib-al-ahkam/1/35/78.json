@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ أَبِي عَبْدِ اللَّهِ عَنْ مُعَاوِيَةَ بْنِ حُكَيْمٍ عَنْ عَبْدِ اللَّهِ بْنِ الْمُغِيرَةِ عَنْ أَبِي الْحَسَنِ الْأَوَّلِ عَلَيْهِ السَّلَامُ فِي",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন আবি আবদুল্লাহ, মু‘আবিয়াহ ইবন হাকীম থেকে, আবদুল্লাহ ইবন আল-মুগীরাহ থেকে, আবু আল-হাসান আল-আওয়াল عليه السلام থেকে, সম্পর্কে:",
-              "de": "Muhammad ibn Abi Abd Allah, von Mu'awiyah ibn Hakim, von Abd Allah ibn al-Mughirah, von Abu al-Hasan al-Awwal عليه السلام, über:",
-              "en": "Muḥammad ibn Abī ʿAbd Allāh, from Muʿāwiyah ibn Ḥukaym, from ʿAbd Allāh ibn al-Mughīrah, from Abū al-Ḥasan al-Awwal عليه السلام, concerning:",
-              "es": "Muhammad ibn Abi Abd Allah, de Mu'awiyah ibn Hakim, de Abd Allah ibn al-Mughirah, de Abu al-Hasan al-Awwal عليه السلام, acerca de:",
-              "fa": "محمد بن ابی عبدالله، از معاویه بن حکیم، از عبدالله بن مغیره، از ابوالحسن الاول علیه السلام، درباره:",
-              "fr": "Muhammad ibn Abi Abd Allah, d’après Mu'awiyah ibn Hakim, d’après Abd Allah ibn al-Mughirah, d’après Abu al-Hasan al-Awwal عليه السلام, au sujet de :",
-              "id": "Muhammad ibn Abi Abdullah, dari Mu'awiyah ibn Hakim, dari Abdullah ibn al-Mughirah, dari Abu al-Hasan al-Awwal عليه السلام, tentang:",
-              "ru": "Мухаммад ибн Аби Абд Аллах, от Му‘авийи ибн Хакима, от Абд Аллаха ибн аль-Мугира, от Абу аль-Хасана аль-Ауваля عليه السلام, о:",
-              "tr": "Muhammed ibn Ebî Abdullah, Muâviye ibn Hakîm’den, Abdullah ibn el-Muğîre’den, Ebû’l-Hasan el-Evvel عليه السلام’dan, hakkında:",
-              "ur": "محمد بن ابی عبد اللہ، معاویہ بن حکیم سے، عبد اللہ بن مغیرہ سے، ابو الحسن الاول علیہ السلام سے، اس بارے میں:",
-              "zh": "穆罕默德·伊本·阿比·阿卜杜拉，传自穆阿维叶·伊本·哈基姆，传自阿卜杜拉·伊本·穆吉拉，传自阿布·哈桑·阿尔-奥瓦尔 عليه السلام，关于："
-            },
             "word_end": 21,
             "word_start": 0
           },
           {
             "arabic_text": "امْرَأَةٍ نُفِسَتْ فَتَرَكَتِ الصَّلَاةَ ثَلَاثِينَ يَوْمًا ثُمَّ تَطَهَّرَتْ ثُمَّ رَأَتِ الدَّمَ بَعْدَ ذَلِكَ قَالَ: «تَدَعُ الصَّلَاةَ لِأَنَّ أَيَّامَهَا أَيَّامُ الطُّهْرِ قَدْ جَازَتْ مَعَ أَيَّامِ النِّفَاسِ»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন নারী নিফাসে আক্রান্ত হলেন, ফলে তিনি ত্রিশ দিন সালাত (নামাজ) ছেড়ে দিলেন, তারপর তিনি পবিত্র হলেন, তারপর এর পরে তিনি রক্ত দেখলেন। তিনি বললেন: “সে সালাত (নামাজ) ছেড়ে দেবে, কারণ তার দিনগুলো—পবিত্রতার দিনগুলো—নিফাসের দিনগুলোর সঙ্গে অতিক্রান্ত হয়ে গেছে।”",
-              "de": "Eine Frau hatte nifās, also ließ sie die salat (das Gebet) dreißig Tage lang aus, dann wurde sie rein, dann sah sie danach Blut. Er sagte: „Sie lässt die salat (das Gebet) aus, denn ihre Tage — die Tage der Reinheit — sind zusammen mit den Tagen des nifās vergangen.“",
-              "en": "A woman experienced nifās, so she left the salat (prayer) for thirty days, then she became pure, then after that she saw blood. He said: “She leaves the salat (prayer), because her days—the days of purity—have passed together with the days of nifās.”",
-              "es": "Una mujer tuvo nifás, así que dejó la salat (oración) durante treinta días; luego se purificó, y después de ذلك vio sangre. Él dijo: “Deja la salat (oración), porque sus días—los días de pureza—ya han pasado junto con los días de nifás.”",
-              "fa": "زنی دچار نفاس شد، پس سی روز نماز را ترک کرد، سپس پاک شد، سپس بعد از آن خون دید. فرمود: «نماز را ترک می‌کند، زیرا روزهای او—روزهای پاکی—همراه با روزهای نفاس گذشته است.»",
-              "fr": "Une femme eut des lochies (nifās), alors elle délaissa la salat (prière) pendant trente jours, puis elle devint pure, puis après cela elle vit du sang. Il dit : « Elle délaisse la salat (prière), car ses jours — les jours de pureté — se sont écoulés avec les jours de nifās. »",
-              "id": "Seorang wanita mengalami nifas, lalu ia meninggalkan salat (salat) selama tiga puluh hari, kemudian ia menjadi suci, lalu setelah itu ia melihat darah. Beliau bersabda: “Ia meninggalkan salat (salat), karena hari-harinya—hari-hari suci—telah berlalu bersama hari-hari nifas.”",
-              "ru": "У женщины были нифас, и она оставила салят (молитву) на тридцать дней, затем очистилась, а после этого увидела кровь. Он сказал: «Она оставляет салят (молитву), потому что ее дни — дни чистоты — уже прошли вместе с днями нифаса».",
-              "tr": "Bir kadın nifas gördü; bunun üzerine otuz gün salatı (namazı) terk etti, sonra temizlendi, sonra bundan sonra kan gördü. O şöyle buyurdu: “Salatı (namazı) terk eder; çünkü onun günleri—temizlik günleri—nifas günleriyle birlikte geçmiştir.”",
-              "ur": "ایک عورت کو نفاس ہوا، تو اس نے تیس دن تک نماز چھوڑ دی، پھر وہ پاک ہو گئی، پھر اس کے بعد اس نے خون دیکھا۔ آپ نے فرمایا: “وہ نماز چھوڑ دے، کیونکہ اس کے دن—پاکی کے دن—نفاس کے دنوں کے ساتھ گزر چکے ہیں۔”",
-              "zh": "一位妇女经历了产后出血（nifās），于是她停止了salat（礼拜）三十天，然后她变得洁净，之后她又看见了血。他说：“她应当停止salat（礼拜），因为她的日子——洁净的日子——已经与nifās的日子一起过去了。”"
-            },
             "word_end": 46,
             "word_start": 21
           }
@@ -104,58 +91,20 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الدَّمَ": "blood seen after the initial postnatal period",
-            "الصَّلَاةَ": "the obligatory salat (prayer) that is left during a state preventing worship",
-            "الطُّهْرِ": "ritual purity or the period of purity between bleedings",
-            "النِّفَاسِ": "postnatal bleeding following childbirth",
-            "تَطَهَّرَتْ": "she became ritually pure from bleeding",
-            "نُفِسَتْ": "she experienced postnatal bleeding"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "نُفِسَتْ",
+          "الصَّلَاةَ",
+          "تَطَهَّرَتْ",
+          "الدَّمَ",
+          "الطُّهْرِ",
+          "النِّفَاسِ"
+        ],
         "related_quran": [
           {
             "ref": "2:222",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "একজন নারী যদি ত্রিশ দিন নিফাস ও পবিত্রতার একটি সময়ের পর আবার রক্ত দেখেন, তাহলে তার বিধান কী?",
-          "de": "Was ist die Regel, wenn eine Frau nach dreißig Tagen nifās und einer Reinheitsphase erneut Blut sieht?",
-          "en": "What is the ruling if a woman sees blood again after thirty days of nifās and a period of purity?",
-          "es": "¿Cuál es la norma si una mujer vuelve a ver sangre después de treinta días de nifás y un período de pureza?",
-          "fa": "اگر زنی پس از سی روز نفاس و یک دوره پاکی دوباره خون ببیند، حکم چیست؟",
-          "fr": "Quelle est la règle si une femme revoit du sang après trente jours de nifās et une période de pureté ?",
-          "id": "Apa hukumnya jika seorang wanita melihat darah lagi setelah tiga puluh hari nifas dan masa suci?",
-          "ru": "Каково постановление, если женщина снова увидит кровь после тридцати дней нифаса и периода чистоты?",
-          "tr": "Bir kadın otuz gün nifas ve bir temizlik süresinden sonra আবার kan görürse hüküm nedir?",
-          "ur": "اگر ایک عورت تیس دن نفاس اور ایک مدتِ طہارت کے بعد دوبارہ خون دیکھے تو اس کا حکم کیا ہے؟",
-          "zh": "如果一位妇女在三十天nifās和一段洁净期后再次见血，教法律例是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে নিফাসের পর আবার রক্ত দেখা একজন নারীর শরয়ি বিধান বর্ণনা করা হয়েছে। ইমাম عليه السلام ফয়সালা দেন যে তিনি সালাত (নামাজ) ছেড়ে দেবেন, কারণ পবিত্রতার দিনগুলো নিফাসের দিনগুলোর সঙ্গে অতিক্রান্ত হয়ে গেছে।",
-          "de": "Dieser Hadith erläutert eine rechtliche Bestimmung über eine Frau, die nach dem nifās und nach ihrer Reinheit erneut Blut sieht. Der Imam عليه السلام entscheidet, dass sie die salat (das Gebet) auslässt, weil ihre Tage der Reinheit bereits zusammen mit den Tagen des nifās vergangen sind.",
-          "en": "This hadith gives a legal ruling regarding a woman who experienced postnatal bleeding and then saw blood again after becoming pure. The Imam عليه السلام rules that she leaves the salat (prayer), based on the calculation of her days of purity having already elapsed alongside the days of nifās.",
-          "es": "Este hadiz expone una norma jurídica sobre una mujer que vuelve a ver sangre después del nifás y de haber quedado pura. El Imam عليه السلام dictamina que deja la salat (oración), porque sus días de pureza ya han transcurrido junto con los días de nifás.",
-          "fa": "این حدیث حکم شرعیِ زنی را بیان می‌کند که پس از نفاس دوباره خون دیده است. امام علیه السلام حکم می‌فرماید که او نماز را ترک کند، زیرا روزهای پاکی‌اش همراه با روزهای نفاس گذشته است.",
-          "fr": "Ce hadith expose une règle juridique concernant une femme qui revoit du sang après le nifās et après être devenue pure. L’Imam عليه السلام juge qu’elle délaisse la salat (prière), car ses jours de pureté se sont déjà écoulés avec les jours de nifās.",
-          "id": "Hadis ini menjelaskan hukum fikih tentang seorang wanita yang melihat darah lagi setelah nifas dan setelah menjadi suci. Imam عليه السلام memutuskan bahwa ia meninggalkan salat (salat), karena hari-hari sucinya telah berlalu bersama hari-hari nifas.",
-          "ru": "Этот хадис разъясняет правовое постановление о женщине, которая после нифаса и после очищения снова увидела кровь. Имам عليه السلام постановляет, что она оставляет салят (молитву), потому что ее дни чистоты уже прошли вместе с днями нифаса.",
-          "tr": "Bu hadis, nifastan sonra yeniden kan gören bir kadın hakkında fıkhî hükmü بیان eder. İmam عليه السلام, temizlik günleri nifas günleriyle birlikte geçtiği için onun salatı (namazı) terk etmesi gerektiğini hükme bağlar.",
-          "ur": "یہ حدیث نفاس کے بعد دوبارہ خون آنے والی عورت کے بارے میں شرعی حکم بیان کرتی ہے۔ امام علیہ السلام فرماتے ہیں کہ وہ نماز چھوڑ دے، کیونکہ پاکی کے دن نفاس کے دنوں کے ساتھ گزر چکے ہیں۔",
-          "zh": "这段圣训说明了一项关于妇女在产后出血后又在洁净之后再次见血的教法律例。伊玛目 عليه السلام裁定她应停止salat（礼拜），因为她的洁净日子已经与nifās的日子一起过去了。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

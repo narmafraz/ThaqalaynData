@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى مُعَاوِيَةُ بْنُ عَمَّارٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মু‘আওয়িয়াহ ইবনে আম্মার আবু আব্দিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Muʿāwiyah ibn ʿAmmār berichtete von Abū ʿAbdillāh عليه السلام, der sagte:",
-              "en": "Muʿāwiyah ibn ʿAmmār narrated from Abū ʿAbdillāh عليه السلام, who said:",
-              "es": "Muʿāwiyah ibn ʿAmmār narró de Abū ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "معاویه بن عمار از ابوعبدالله علیه السلام روایت کرده است که فرمود:",
-              "fr": "Muʿāwiyah ibn ʿAmmār a rapporté d'Abū ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Muʿāwiyah ibn ʿAmmār meriwayat dari Abū ʿAbdillāh علیه السلام, yang berkata:",
-              "ru": "Муʿавия ибн ʿАммар передал от Абу ʿАбдиллах عليه السلام, который сказал:",
-              "tr": "Muʿāwiyah ibn ʿAmmār, Abū ʿAbdillāh عليه السلام'dan rivayet etti, şöyle dedi:",
-              "ur": "معاویہ بن عمار نے ابو عبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "穆阿维亚本阿玛尔从阿布阿卜迪拉赫 عليه السلام传述，他说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "«يُجْزِيكَ إِذَا لَمْ تَعْرِفِ الْعَقِيقَ أَنْ تَسْأَلَ النَّاسَ وَ الْأَعْرَابَ عَنْ ذَلِكَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "\"যদি তুমি আল-ʿআকীক জানো না, তবে লোকজন এবং বেদুইনদের কাছে সে সম্পর্কে জিজ্ঞাসা করলেই তোমার জন্য যথেষ্ট।\"",
-              "de": "\"Es genügt dir, wenn du al-ʿAqīq nicht kennst, die Leute und die Beduinen danach zu fragen.\"",
-              "en": "\"It suffices you, if you do not know al-ʿAqīq, to ask the people and the Bedouins about that.\"",
-              "es": "\"Te basta, si no conoces al-ʿAqīq, preguntar a la gente y a los beduinos sobre eso.\"",
-              "fa": "«اگر عقیق را نمی‌شناسی، از مردم و اعراب درباره آن بپرسیدن برایت کافی است.»",
-              "fr": "\"Il te suffit, si tu ne connais pas al-ʿAqīq, de demander aux gens et aux Bédouins à ce sujet.\"",
-              "id": "\"Cukuplah bagimu, jika kamu tidak mengetahui al-ʿAqīq, untuk bertanya kepada orang-orang dan orang Badui tentang hal itu.\"",
-              "ru": "\"Тебе достаточно, если ты не знаешь аль-ʿАкик, спросить об этом у людей и бедуинов.\"",
-              "tr": "\"Eğer al-ʿAqīq'i bilmiyorsan, bu konuda insanlara ve bedevilere sorman sana yeterlidir.\"",
-              "ur": "“اگر تم عقیق کو نہ جانتے ہو تو لوگوں اور بدوؤں سے اس بارے میں پوچھنا تمہارے لیے کافی ہے۔”",
-              "zh": "“如果你不知道al-ʿAqīq，向人们和贝都因人询问这件事就足够了。”"
-            },
             "word_end": 24,
             "word_start": 12
           }
@@ -91,26 +78,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "النَّاسَ": "the people",
-            "الْأَعْرَابَ": "the Bedouins or desert Arabs",
-            "الْعَقِيقَ": "al-ʿAqīq, the designated location being referred to",
-            "تَسْأَلَ": "to ask or inquire",
-            "ذَلِكَ": "that matter",
-            "يُجْزِيكَ": "is sufficient for you"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُجْزِيكَ",
+          "الْعَقِيقَ",
+          "تَسْأَلَ",
+          "النَّاسَ",
+          "الْأَعْرَابَ",
+          "ذَلِكَ"
+        ],
         "related_quran": [
           {
             "ref": "16:43",
@@ -121,32 +96,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কেউ ইহরামে প্রবেশের জন্য আল-ʿআকীক এর স্থান না জানে, তাহলে তাকে কী করা উচিত?",
-          "de": "Was soll eine Person tun, wenn sie den Ort von al-ʿAqīq zum Betreten des Ihram nicht kennt?",
-          "en": "What should a person do if they do not know the location of al-ʿAqīq for entering ihram?",
-          "es": "¿Qué debe hacer una persona si no conoce la ubicación de al-ʿAqīq para entrar en ihram?",
-          "fa": "اگر کسی شخص مکان عقیق را برای ورود به احرام نداند، چه باید بکند؟",
-          "fr": "Que doit faire une personne si elle ne connaît pas l'emplacement d'al-ʿAqīq pour entrer en ihram ?",
-          "id": "Apa yang harus dilakukan seseorang jika tidak mengetahui lokasi al-ʿAqīq untuk memasuki ihram?",
-          "ru": "Что должен делать человек, если он не знает местоположение аль-ʿАкик для вхождения в ихрам?",
-          "tr": "Bir kişi ihrama girmek için al-ʿAqīq'in yerini bilmiyorsa ne yapmalıdır?",
-          "ur": "اگر کوئی شخص احرام میں داخل ہونے کے لیے عقیق کا مقام نہ جانے تو اسے کیا کرنا چاہیے؟",
-          "zh": "如果一个人不知道进入 ihram 时 al-ʿAqīq 的位置，他应该怎么办？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ইহরামে প্রবেশের প্রসঙ্গে আল-ʿআকীক সনাক্তকরণের সম্পর্কিত ব্যবহারিক আইনি নির্দেশনা প্রদান করে। এটি নির্দেশ করে যে কেউ যদি স্থান না জানে, তবে স্থানীয় লোক ও বেদুইনদের কাছে জিজ্ঞাসা করলেই যথেষ্ট।",
-          "de": "Dieser Hadith gibt eine praktische rechtliche Anweisung zur Identifizierung von al-ʿAqīq im Kontext des Betretens des Ihram. Er zeigt, dass es ausreicht, die Leute und Beduinen zu fragen, wenn man den Ort nicht kennt.",
-          "en": "This hadith gives a practical legal instruction related to identifying al-ʿAqīq in the context of entering ihram. It indicates that when a person does not know the location, asking local people and Bedouins is sufficient to determine it.",
-          "es": "Este hadiz ofrece una instrucción legal práctica relacionada con la identificación de al-ʿAqīq en el contexto de entrar en ihram. Indica que cuando una persona no conoce la ubicación, preguntar a la gente local y a los beduinos es suficiente para determinarla.",
-          "fa": "این حدیث دستور عملی فقهی درباره شناسایی عقیق در هنگام ورود به احرام می‌دهد. نشان می‌دهد که وقتی شخصی مکان را نمی‌داند، پرسیدن از مردم و اعراب کافی است.",
-          "fr": "Ce hadith donne une instruction juridique pratique concernant l'identification d'al-ʿAqīq dans le contexte de l'entrée en ihram. Il indique que lorsqu'une personne ne connaît pas l'emplacement, il suffit de demander aux gens et aux Bédouins.",
-          "id": "Hadis ini memberikan petunjuk hukum praktis terkait mengenali al-ʿAqīq dalam konteks memasuki ihram. Ini menunjukkan bahwa jika seseorang tidak mengetahui lokasi, bertanya kepada orang dan Badui sudah cukup.",
-          "ru": "Этот хадис дает практическую юридическую инструкцию по определению аль-ʿАкик в контексте вхождения в ихрам. Он указывает, что если человек не знает место, достаточно спросить у местных и бедуинов.",
-          "tr": "Bu hadis, ihrama girerken al-ʿAqīq'in tespitiyle ilgili pratik bir hukuki talimat verir. Bir kişi yeri bilmiyorsa, yerel insanlara ve bedevilere sorması yeterlidir.",
-          "ur": "یہ حدیث احرام میں داخل ہونے کے لیے عقیق کی شناخت کے حوالے سے عملی شرعی ہدایت دیتی ہے۔ یہ ظاہر کرتی ہے کہ اگر کوئی شخص مقام نہ جانے تو مقامی لوگوں اور بدوؤں سے پوچھنا کافی ہے۔",
-          "zh": "这段圣训提供了关于进入 ihram 时识别 al-ʿAqīq 的实用法律指导。它表明当一个人不知道地点时，询问当地人和贝都因人就足够了。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

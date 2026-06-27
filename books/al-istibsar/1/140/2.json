@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ صَفْوَانَ وَفَضَالَةَ عَنِ الْعَلَاءِ عَنْ مُحَمَّدٍ عَنْ أَحَدِهِمَا عَلَيْهِمَا السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, সাফওয়ান ও ফাদালাহ থেকে, আল-আলা থেকে, মুহাম্মদ থেকে, দুইজনের একজনের কাছ থেকে, عليهما السلام, যিনি বলেছেন:",
-              "de": "Von ihm, von Ṣafwān und Faḍālah, von al-ʿAlāʾ, von Muḥammad, von einem der beiden, عليهما السلام, der sagte:",
-              "en": "From him, from Ṣafwān and Faḍālah, from al-ʿAlāʾ, from Muḥammad, from one of the two عليهما السلام, who said:",
-              "es": "De él, de Ṣafwān y Faḍālah, de al-ʿAlāʾ, de Muḥammad, de uno de los dos, عليهما السلام, que dijo:",
-              "fa": "از او، از صفوان و فضاله، از علاء، از محمد، از یکی از آن دو، علیهما السلام، که فرمود:",
-              "fr": "De lui, de Ṣafwān et Faḍālah, de al-ʿAlāʾ, de Muḥammad, de l’un des deux, عليهما السلام, qui a dit :",
-              "id": "Darinya, dari Ṣafwān dan Faḍālah, dari al-ʿAlāʾ, dari Muḥammad, dari salah satu dari keduanya عليهما السلام, yang berkata:",
-              "ru": "От него, от Сафвана и Фадалы, от аль-Аля, от Мухаммада, от одного из двоих, عليهما السلام, который сказал:",
-              "tr": "Ondan, Safvân ve Fadâle’den, el-Alâ’dan, Muhammed’den, iki kişiden birinden, عليهما السلام, şöyle dedi:",
-              "ur": "ان سے، صفوان اور فضالہ سے، العلاء سے، محمد سے، دو میں سے ایک علیہما السلام سے، جنہوں نے فرمایا:",
-              "zh": "由他传述，来自Ṣafwān和Faḍālah，来自al-ʿAlāʾ，来自Muḥammad，来自两位中的一位 عليهما السلام，他说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "لَا تَصْلُحُ صَلَاةُ الْمَكْتُوبَةِ فِي جَوْفِ الْكَعْبَةِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "ফরজ salat (নামাজ) কাবার অভ্যন্তরে সহিহ নয়।",
-              "de": "Das verpflichtende salat (Gebet) ist im Inneren der Kaʿbah nicht gültig.",
-              "en": "The obligatory salat (prayer) is not valid inside the interior of the Kaʿbah.",
-              "es": "La salat obligatoria (oración) no es válida dentro del interior de la Kaʿbah.",
-              "fa": "نمازِ واجب در داخلِ کعبه صحیح نیست.",
-              "fr": "La salat obligatoire (prière) n’est pas valable à l’intérieur de la Kaʿbah.",
-              "id": "Salat wajib (salat) tidak sah di dalam bagian dalam Kaʿbah.",
-              "ru": "Обязательный salat (намаз) недействителен внутри Каабы.",
-              "tr": "Farz salat (namaz), Kâbe’nin iç kısmında geçerli değildir.",
-              "ur": "فرضی salat (نماز) کعبہ کے اندرونی حصے میں درست نہیں ہے۔",
-              "zh": "义务salat（礼拜）在克尔白内部无效。"
-            },
             "word_end": 20,
             "word_start": 13
           }
@@ -94,25 +81,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْكَعْبَةِ": "the Kaʿbah, the sacred House in Makkah",
-            "الْمَكْتُوبَةِ": "the obligatory, meaning the prescribed mandatory prayer",
-            "جَوْفِ": "interior or inside of something",
-            "صَلَاةُ": "salat (prayer), the ritual prayer being discussed",
-            "لَا تَصْلُحُ": "is not valid or not proper in this legal context"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "صَلَاةُ",
+          "الْمَكْتُوبَةِ",
+          "جَوْفِ",
+          "الْكَعْبَةِ",
+          "لَا تَصْلُحُ"
+        ],
         "related_quran": [
           {
             "ref": "2:125",
@@ -123,32 +98,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী কাবার ভিতরে ফরজ salat (নামাজ) কি সহিহ?",
-          "de": "Ist das verpflichtende salat (Gebet) gemäß diesem Hadith im Inneren der Kaʿbah gültig?",
-          "en": "Is obligatory salat (prayer) valid inside the Kaʿbah according to this hadith?",
-          "es": "¿Es válida la salat obligatoria (oración) dentro de la Kaʿbah según este hadiz?",
-          "fa": "آیا بر اساس این حدیث، نمازِ واجب در داخل کعبه صحیح است؟",
-          "fr": "La salat obligatoire (prière) est-elle valable à l’intérieur de la Kaʿbah selon ce hadith ?",
-          "id": "Apakah salat wajib (salat) sah di dalam Kaʿbah menurut hadis ini?",
-          "ru": "Действителен ли обязательный salat (намаз) внутри Каабы согласно этому хадису?",
-          "tr": "Bu hadise göre Kâbe’nin içinde farz salat (namaz) geçerli midir?",
-          "ur": "کیا اس حدیث کے مطابق کعبہ کے اندر فرضی salat (نماز) درست ہے؟",
-          "zh": "根据这段圣训，义务salat（礼拜）在克尔白内部有效吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ফরজ salat (নামাজ) আদায়ের স্থান সম্পর্কে একটি শরঈ বিধান দেয়। এতে বলা হয়েছে যে নির্ধারিত ফরজ নামাজ কাবার ভিতরে আদায় করা হলে তা সঠিক বা বৈধ হয় না, তাই এটি salat এবং পবিত্র স্থানের বিধানের সঙ্গে সম্পর্কিত।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung über den Ort der Verrichtung des verpflichtenden salat (Gebets). Er besagt, dass das vorgeschriebene Pflichtgebet nicht richtig oder gültig ist, wenn es im Inneren der Kaʿbah verrichtet wird, und ist daher für die Regeln von salat und heiligem Raum relevant.",
-          "en": "This hadith gives a legal ruling concerning the place of performing obligatory salat (prayer). It states that the prescribed obligatory prayer is not proper or valid when performed inside the Kaʿbah, making it relevant to rulings of salat and sacred space.",
-          "es": "Este hadiz expone una norma jurídica sobre el lugar de realización de la salat obligatoria (oración). Señala que la oración obligatoria prescrita no es correcta ni válida cuando se realiza dentro de la Kaʿbah, por lo que se relaciona con las normas de la salat y del espacio sagrado.",
-          "fa": "این حدیث حکمی فقهی دربارهٔ محل انجام نمازِ واجب بیان می‌کند. در آن آمده است که نمازِ واجبِ مقرر، اگر در داخل کعبه خوانده شود، صحیح یا معتبر نیست؛ ازاین‌رو به احکام salat و مکان مقدس مربوط است.",
-          "fr": "Ce hadith énonce une règle juridique concernant le lieu d’accomplissement de la salat obligatoire (prière). Il indique que la prière obligatoire prescrite n’est pas correcte ni valable lorsqu’elle est accomplie à l’intérieur de la Kaʿbah, ce qui la relie aux règles de la salat et de l’espace sacré.",
-          "id": "Hadis ini memberikan حكم hukum tentang tempat pelaksanaan salat wajib (salat). Disebutkan bahwa salat wajib yang telah ditetapkan tidak sah atau tidak valid jika dikerjakan di dalam Kaʿbah, sehingga berkaitan dengan hukum salat dan tempat suci.",
-          "ru": "Этот хадис содержит правовое постановление относительно места совершения обязательного salat (намаза). В нём говорится, что предписанный обязательный намаз недействителен или не является правильным, если его совершают внутри Каабы, поэтому он относится к нормам salat и священного пространства.",
-          "tr": "Bu hadis, farz salat (namaz) kılınacak yer hakkında fıkhî bir hüküm bildirir. Buna göre belirlenmiş farz namaz Kâbe’nin içinde kılındığında sahih veya geçerli olmaz; bu da salat ve mukaddes mekân hükümleriyle ilgilidir.",
-          "ur": "یہ حدیث فرضی salat (نماز) ادا کرنے کی جگہ کے بارے میں شرعی حکم بیان کرتی ہے۔ اس میں کہا گیا ہے کہ مقررہ فرض نماز کعبہ کے اندر ادا کی جائے تو درست یا معتبر نہیں ہوتی، اس لیے یہ salat اور مقدس جگہ کے احکام سے متعلق ہے۔",
-          "zh": "这段圣训就义务salat（礼拜）的地点给出了一项教法判定。它说明，规定的义务礼拜若在克尔白内部进行，则不正确或无效，因此与salat及神圣空间的教法有关。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "حُمَيْدُ بْنُ زِيَادٍ عَنِ الْحَسَنِ بْنِ مُحَمَّدٍ عَنْ غَيْرِ وَاحِدٍ عَنْ أَبَانٍ عَنْ بَعْضِ أَصْحَابِهِ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "হুমাইদ ইবন জিয়াদ, আল-হাসান ইবন মুহাম্মদ থেকে, একাধিক ব্যক্তির কাছ থেকে, আবান থেকে, তাঁর কিছু সঙ্গী থেকে, আবি আবদিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "Humayd ibn Ziyad, von al-Hasan ibn Muhammad, von mehr als einer Person, von Aban, von einigen seiner Gefährten, von Abi Abdillah عليه السلام, der sagte:",
-              "en": "Humayd ibn Ziyad, from al-Hasan ibn Muhammad, from more than one person, from Aban, from some of his companions, from Abi Abdillah عليه السلام, who said:",
-              "es": "Humayd ibn Ziyad, de al-Hasan ibn Muhammad, de más de una persona, de Aban, de algunos de sus compañeros, de Abi Abdillah عليه السلام, quien dijo:",
-              "fa": "حمید بن زیاد، از حسن بن محمد، از بیش از یک نفر، از ابان، از برخی از یاران او، از ابی‌عبدالله علیه‌السلام روایت می‌کند که فرمود:",
-              "fr": "Humayd ibn Ziyad, d’al-Hasan ibn Muhammad, de plusieurs personnes, d’Aban, de certains de ses compagnons, d’Abi Abdillah عليه السلام, qui a dit :",
-              "id": "Humayd ibn Ziyad, dari al-Hasan ibn Muhammad, dari lebih dari satu orang, dari Aban, dari sebagian sahabatnya, dari Abi Abdillah عليه السلام, yang berkata:",
-              "ru": "Хумайд ибн Зияд, от аль-Хасана ибн Мухаммада, от более чем одного человека, от Абана, от некоторых его сподвижников, от Аби Абдуллаха عليه السلام, который сказал:",
-              "tr": "Humeyd ibn Ziyad, el-Hasan ibn Muhammed’den, birden fazla kişiden, Aban’dan, onun bazı arkadaşlarından, Ebu Abdullah عليه السلام’dan rivayet etti ki, şöyle dedi:",
-              "ur": "حمید بن زیاد، الحسن بن محمد سے، ایک سے زیادہ افراد سے، ابان سے، ان کے بعض اصحاب سے، ابی عبداللہ علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "胡迈德·伊本·齐亚德，传自哈桑·伊本·穆罕默德，传自不止一人，传自阿班，传自他的一些同伴，传自阿比·阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 22,
             "word_start": 0
           },
           {
             "arabic_text": "قَبْرُ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ مُحَصَّبٌ حَصْبَاءَ حَمْرَاءَ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আল্লাহর রাসূল صلى الله عليه وآله وسلم-এর কবর লাল কংকর দিয়ে আচ্ছাদিত।",
-              "de": "Das Grab des Gesandten Allahs صلى الله عليه وآله وسلم ist mit roten Kieselsteinen bedeckt.",
-              "en": "The grave of the Messenger of Allah صلى الله عليه وآله وسلم is covered with red pebbles.",
-              "es": "La tumba del Mensajero de Allah صلى الله عليه وآله وسلم está cubierta con guijarros rojos.",
-              "fa": "قبر رسول خدا صلى الله عليه وآله وسلم با ریگ‌ریزه‌های سرخ پوشیده شده است.",
-              "fr": "La tombe du Messager d’Allah صلى الله عليه وآله وسلم est recouverte de petits cailloux rouges.",
-              "id": "Kubur Rasulullah صلى الله عليه وآله وسلم ditutupi dengan kerikil merah.",
-              "ru": "Могила Посланника Аллаха صلى الله عليه وآله وسلم покрыта красной галькой.",
-              "tr": "Allah Resulü صلى الله عليه وآله وسلم’in kabri kırmızı çakıllarla örtülüdür.",
-              "ur": "رسول اللہ صلى الله عليه وآله وسلم کی قبر سرخ کنکریوں سے ڈھکی ہوئی ہے۔",
-              "zh": "真主的使者 صلى الله عليه وآله وسلم的坟墓上覆盖着红色小石子。"
-            },
             "word_end": 33,
             "word_start": 22
           }
@@ -124,52 +111,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "حَصْبَاءَ": "small stones or pebbles",
-            "حَمْرَاءَ": "red in color",
-            "رَسُولِ اللَّهِ": "the Messenger of Allah, referring to the Prophet صلى الله عليه وآله وسلم",
-            "قَبْرُ": "grave; the burial place being described",
-            "مُحَصَّبٌ": "covered or strewn with pebbles"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "قَبْرُ",
+          "رَسُولِ اللَّهِ",
+          "مُحَصَّبٌ",
+          "حَصْبَاءَ",
+          "حَمْرَاءَ"
+        ],
         "related_quran": [],
-        "seo_questions": {
-          "bn": "এই হাদিসে আল্লাহর রাসূল صلى الله عليه وآله وسلم-এর কবরকে কীভাবে বর্ণনা করা হয়েছে?",
-          "de": "Wie wird das Grab des Gesandten Allahs صلى الله عليه وآله وسلم in diesem Hadith beschrieben?",
-          "en": "How is the grave of the Messenger of Allah صلى الله عليه وآله وسلم described in this hadith?",
-          "es": "¿Cómo se describe la tumba del Mensajero de Allah صلى الله عليه وآله وسلم en este hadiz?",
-          "fa": "در این حدیث، قبر رسول خدا صلى الله عليه وآله وسلم چگونه توصیف شده است؟",
-          "fr": "Comment la tombe du Messager d’Allah صلى الله عليه وآله وسلم est-elle décrite dans ce hadith ?",
-          "id": "Bagaimana kubur Rasulullah صلى الله عليه وآله وسلم digambarkan dalam hadis ini?",
-          "ru": "Как в этом хадисе описана могила Посланника Аллаха صلى الله عليه وآله وسلم?",
-          "tr": "Bu hadiste Allah Resulü صلى الله عليه وآله وسلم’in kabri nasıl tasvir edilmiştir?",
-          "ur": "اس حدیث میں رسول اللہ صلى الله عليه وآله وسلم کی قبر کی کیا کیفیت بیان کی گئی ہے؟",
-          "zh": "这段圣训中真主的使者 صلى الله عليه وآله وسلم的坟墓是如何被描述的？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে আল্লাহর রাসূল صلى الله عليه وآله وسلم-এর কবরের একটি শারীরিক বর্ণনা এসেছে। এটি তাঁর দাফনের স্থানের সঙ্গে সম্পর্কিত একটি বর্ণিত বিবরণ সংরক্ষণ করে এবং তাঁর কবরের চেহারা সম্পর্কে প্রাথমিক স্মৃতিকে প্রতিফলিত করে।",
-          "de": "Dieser Hadith berichtet eine körperliche Beschreibung des Grabes des Gesandten Allahs صلى الله عليه وآله وسلم. Er bewahrt ein überliefertes Detail im Zusammenhang mit dem Begräbnisort des Propheten und spiegelt eine frühe Erinnerung an das Aussehen seines Grabes wider.",
-          "en": "This hadith reports a physical description of the grave of the Messenger of Allah صلى الله عليه وآله وسلم. It preserves a transmitted detail connected to the Prophet’s burial place and reflects early remembrance of his grave’s appearance.",
-          "es": "Este hadiz informa una descripción física de la tumba del Mensajero de Allah صلى الله عليه وآله وسلم. Conserva un detalle transmitido relacionado con el lugar de sepultura del Profeta y refleja un recuerdo temprano del aspecto de su tumba.",
-          "fa": "این حدیث، توصیفی جسمانی از قبر رسول خدا صلى الله عليه وآله وسلم را گزارش می‌کند. این روایت، جزئیات نقل‌شده‌ای را درباره محل دفن پیامبر حفظ می‌کند و بازتابی از یادکردهای آغازین درباره ظاهر قبر ایشان است.",
-          "fr": "Ce hadith rapporte une description physique de la tombe du Messager d’Allah صلى الله عليه وآله وسلم. Il préserve un détail transmis concernant le lieu de sépulture du Prophète et reflète un souvenir ancien de l’apparence de sa tombe.",
-          "id": "Hadis ini meriwayatkan gambaran fisik tentang kubur Rasulullah صلى الله عليه وآله وسلم. Ini حفظ detail yang diriwayatkan terkait tempat pemakaman Nabi dan mencerminkan ingatan awal tentang rupa kuburnya.",
-          "ru": "Этот хадис передаёт физическое описание могилы Посланника Аллаха صلى الله عليه وآله وسلم. Он сохраняет переданную деталь, связанную с местом погребения Пророка, и отражает раннее упоминание о внешнем виде его могилы.",
-          "tr": "Bu hadis, Allah Resulü صلى الله عليه وآله وسلم’in kabrinin fiziksel bir tasvirini aktarır. Onun defnedildiği yerle ilgili rivayet edilen bir ayrıntıyı korur ve kabrinin görünümüne dair erken bir hatırlamayı yansıtır.",
-          "ur": "یہ حدیث رسول اللہ صلى الله عليه وآله وسلم کی قبر کی ایک جسمانی کیفیت بیان کرتی ہے۔ یہ آپ کی تدفین کی جگہ سے متعلق ایک منقول تفصیل محفوظ کرتی ہے اور آپ کی قبر کی صورت کے ابتدائی تذکرے کی عکاسی کرتی ہے۔",
-          "zh": "这段圣训记述了真主的使者 صلى الله عليه وآله وسلم之墓的外观描述。它保留了与先知安葬之地相关的一项传述细节，并反映了人们对其墓地外观的早期记忆。"
-        },
         "tags": [
           "prophetic_tradition",
           "history",

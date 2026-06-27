@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ يَعْقُوبَ عَنْ عَلِيِّ بْنِ مُحَمَّدِ بْنِ عِيسَى عَنْ يُونُسَ عَنْ مُعَاوِيَةَ بْنِ عَمَّارٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন ইয়াকুব, ‘আলি ইবন মুহাম্মদ ইবন ‘ঈসা থেকে, তিনি ইউনুস থেকে, তিনি মু‘আবিয়াহ ইবন ‘আম্মার থেকে, যিনি বলেছেন:",
-              "de": "Muhammad ibn Ya'qub, von 'Ali ibn Muhammad ibn 'Isa, von Yunus, von Mu'awiyah ibn 'Ammar, der sagte:",
-              "en": "Muhammad ibn Ya'qub, from 'Ali ibn Muhammad ibn 'Isa, from Yunus, from Mu'awiyah ibn 'Ammar, who said:",
-              "es": "Muhammad ibn Ya'qub, de 'Ali ibn Muhammad ibn 'Isa, de Yunus, de Mu'awiyah ibn 'Ammar, quien dijo:",
-              "fa": "محمد بن یعقوب، از علی بن محمد بن عیسی، از یونس، از معاویه بن عمار، که گفت:",
-              "fr": "Muhammad ibn Ya'qub, d'après 'Ali ibn Muhammad ibn 'Isa, d'après Yunus, d'après Mu'awiyah ibn 'Ammar, qui a dit :",
-              "id": "Muhammad ibn Ya'qub, dari 'Ali ibn Muhammad ibn 'Isa, dari Yunus, dari Mu'awiyah ibn 'Ammar, yang berkata:",
-              "ru": "Мухаммад ибн Я'куб, от 'Али ибн Мухаммад ибн 'Исы, от Юнуса, от Му'авии ибн 'Аммара, который сказал:",
-              "tr": "Muhammed ibn Ya'kub, Ali ibn Muhammed ibn İsa'dan, o Yunus'tan, o Muaviye ibn Ammar'dan rivayet etti ki şöyle dedi:",
-              "ur": "محمد بن یعقوب، علی بن محمد بن عیسی سے، وہ یونس سے، وہ معاویہ بن عمار سے، جنہوں نے کہا:",
-              "zh": "穆罕默德·伊本·雅库布传自阿里·伊本·穆罕默德·伊本·伊萨，传自尤努斯，传自穆阿维叶·伊本·阿马尔，他说："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنْ صَلَاةِ الْعِيدَيْنِ فَقَالَ رَكْعَتَانِ لَيْسَ قَبْلَهُمَا وَلَا بَعْدَهُمَا شَيْءٌ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁর কাছে দুই ঈদের সালাত সম্পর্কে জিজ্ঞেস করলাম, তখন তিনি বললেন: তা দুই রাক‘আত; এর আগে কিছু নেই এবং এর পরে কিছু নেই।",
-              "de": "Ich fragte ihn nach dem Salat der beiden 'Eids, und er sagte: Es sind zwei Rak'ahs; davor gibt es nichts und danach gibt es nichts.",
-              "en": "I asked him about the salat of the two 'Eids, and he said: They are two rak'ahs; there is nothing before them and nothing after them.",
-              "es": "Le pregunté acerca de la salat de los dos 'Eid, y dijo: Son dos rak'ahs; no hay nada antes de ellas ni nada después de ellas.",
-              "fa": "از او دربارهٔ نمازِ دو عید پرسیدم، پس فرمود: دو رکعت است؛ پیش از آن چیزی نیست و پس از آن نیز چیزی نیست.",
-              "fr": "Je lui ai demandé au sujet de la salat des deux 'Eid, et il a dit : Ce sont deux rak'ahs ; il n'y a rien avant elles ni rien après elles.",
-              "id": "Aku bertanya kepadanya tentang salat dua 'Id, lalu ia berkata: Itu dua rakaat; tidak ada apa-apa sebelum keduanya dan tidak ada apa-apa sesudah keduanya.",
-              "ru": "Я спросил его о саляте двух 'Идов, и он сказал: Это два рак'ата; перед ними нет ничего и после них нет ничего.",
-              "tr": "Ona iki bayramın salatı hakkında sordum, şöyle dedi: İki rek'attır; onlardan önce de sonra da hiçbir şey yoktur.",
-              "ur": "میں نے ان سے دونوں عیدوں کی نماز کے بارے میں پوچھا، تو انہوں نے فرمایا: وہ دو رکعت ہیں؛ ان سے پہلے کچھ نہیں اور ان کے بعد بھی کچھ نہیں۔",
-              "zh": "我问他关于两个节日的礼拜，他说：是两拜；在它们之前没有任何礼拜，在它们之后也没有任何礼拜。"
-            },
             "word_end": 27,
             "word_start": 16
           }
@@ -104,25 +91,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْعِيدَيْنِ": "the two 'Eids, meaning 'Eid al-Fitr and 'Eid al-Adha",
-            "بَعْدَهُمَا": "after them, meaning after the 'Eid prayer",
-            "رَكْعَتَانِ": "two rak'ahs, the prescribed number of units for this prayer",
-            "صَلَاةِ": "salat (prayer), referring here to the ritual prayer of the two 'Eids",
-            "قَبْلَهُمَا": "before them, meaning before the 'Eid prayer"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "صَلَاةِ",
+          "الْعِيدَيْنِ",
+          "رَكْعَتَانِ",
+          "قَبْلَهُمَا",
+          "بَعْدَهُمَا"
+        ],
         "related_quran": [
           {
             "ref": "108:2",
@@ -133,32 +108,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "দুই ঈদের সালাতে কত রাক‘আত, এবং এর আগে বা পরে কি কোনো সালাত আছে?",
-          "de": "Wie viele Rak'ahs hat der Salat der beiden 'Eids, und gibt es davor oder danach ein Gebet?",
-          "en": "How many rak'ahs are in the salat of the two 'Eids, and is there any prayer before or after it?",
-          "es": "¿Cuántos rak'ahs hay en la salat de los dos 'Eid, y hay alguna oración antes o después de ella?",
-          "fa": "نمازِ دو عید چند رکعت است و آیا پیش از آن یا پس از آن نمازی هست؟",
-          "fr": "Combien de rak'ahs y a-t-il dans la salat des deux 'Eid, et y a-t-il une prière avant ou après elle ?",
-          "id": "Berapa rakaat salat dua 'Id, dan apakah ada salat sebelum atau sesudahnya?",
-          "ru": "Сколько рак'атов в саляте двух 'Идов, и есть ли какая-либо молитва до него или после него?",
-          "tr": "İki bayramın salatında kaç rek'at vardır ve ondan önce veya sonra herhangi bir namaz var mıdır?",
-          "ur": "دونوں عیدوں کی نماز میں کتنی رکعتیں ہیں، اور کیا اس سے پہلے یا بعد کوئی نماز ہے؟",
-          "zh": "两个节日礼拜有几拜，在它之前或之后有任何礼拜吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে দুই ঈদের সালাতের বিধান বর্ণনা করা হয়েছে, যেখানে বলা হয়েছে যে এটি দুই রাক‘আত। এছাড়াও এতে বোঝানো হয়েছে যে এই প্রসঙ্গে এর আগে বা পরে কোনো সালাত নির্ধারিত নেই।",
-          "de": "Dieser Hadith nennt die Regel für den Salat der beiden 'Eids und legt fest, dass er aus zwei Rak'ahs besteht. Er zeigt auch, dass in diesem Zusammenhang davor oder danach kein Gebet vorgeschrieben ist.",
-          "en": "This hadith states the ruling for the salat of the two 'Eids, specifying that it consists of two rak'ahs. It also indicates that there are no prayers prescribed before it or after it in this context.",
-          "es": "Este hadiz establece la norma de la salat de los dos 'Eid, especificando que consiste en dos rak'ahs. También indica que no hay oraciones prescritas antes ni después de ella en este contexto.",
-          "fa": "این حدیث حکمِ نمازِ دو عید را بیان می‌کند و مشخص می‌سازد که آن دو رکعت است. همچنین نشان می‌دهد که در این زمینه پیش از آن یا پس از آن نمازی مقرر نشده است.",
-          "fr": "Ce hadith énonce la règle concernant la salat des deux 'Eid, en précisant qu'elle consiste en deux rak'ahs. Il indique aussi qu'aucune prière n'est prescrite avant ni après elle dans ce contexte.",
-          "id": "Hadis ini menjelaskan حكم salat dua 'Id, yaitu bahwa salat itu terdiri dari dua rakaat. Hadis ini juga menunjukkan bahwa dalam konteks ini tidak ada salat yang disyariatkan sebelum atau sesudahnya.",
-          "ru": "Этот хадис разъясняет постановление о саляте двух 'Идов, указывая, что он состоит из двух рак'атов. Он также показывает, что в этом контексте до него и после него не предписано никакой молитвы.",
-          "tr": "Bu hadis, iki bayramın salatının hükmünü bildirir ve bunun iki rek'atten oluştuğunu belirtir. Ayrıca bu bağlamda ondan önce veya sonra herhangi bir namazın meşru kılınmadığını gösterir.",
-          "ur": "یہ حدیث دونوں عیدوں کی نماز کا حکم بیان کرتی ہے کہ وہ دو رکعت ہے۔ نیز یہ بتاتی ہے کہ اس موقع پر اس سے پہلے یا بعد کوئی نماز مقرر نہیں۔",
-          "zh": "这段圣训说明了两个节日礼拜的教法律例，指出它由两拜组成。它也表明在这种情况下，在它之前或之后都没有规定礼拜。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

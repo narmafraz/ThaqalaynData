@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "١٧٦٤ - وَقَالَ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "১৭৬৪ - এবং তিনি, তাঁর উপর শান্তি বর্ষিত হোক, বললেন:",
-              "de": "1764 - Und er, Friede sei mit ihm, sagte:",
-              "en": "1764 - And he, peace be upon him, said:",
-              "es": "1764 - Y él, la paz sea con él, dijo:",
-              "fa": "1764 - و او، علیه السلام، فرمود:",
-              "fr": "1764 - Et lui, que la paix soit sur lui, a dit :",
-              "id": "1764 - Dan beliau, semoga keselamatan atasnya, berkata:",
-              "ru": "1764 - И он, мир ему, сказал:",
-              "tr": "1764 - Ve o, üzerine selâm olsun, dedi ki:",
-              "ur": "1764 - اور انہوں نے، علیہ السلام، فرمایا:",
-              "zh": "1764-他,愿他平安,说:"
-            },
             "word_end": 5,
             "word_start": 0
           },
           {
             "arabic_text": "«دِرْهَمٌ يُوصَلُ بِهِ الْإِمَامُ أَفْضَلُ مِنْ أَلْفِ أَلْفِ دِرْهَمٍ يُنْفَقُ فِي غَيْرِهِ فِي سَبِيلِ اللَّهِ عَزَّ وَجَلَّ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“একটি দিরহাম যার মাধ্যমে ইমামকে সাহায্য করা হয়, আল্লাহর পথে তার বাইরে খরচ করা হাজার হাজার দিরহাম থেকে উত্তম।”",
-              "de": "„Ein Dirham, mit dem der Imam unterstützt wird, ist besser als tausendtausend Dirham, die auf andere als ihn im Wege Allahs, des Allmächtigen und Erhabenen, ausgegeben werden.“",
-              "en": "“A dirham by which the Imam is supported is better than a thousand thousand dirhams spent on other than him in the way of Allah, Mighty and Majestic.”",
-              "es": "“Un dirham con el que se apoya al Imam es mejor que mil mil dirhams gastados en otro que no sea él en el camino de Allah, el Poderoso y Majestuoso.”",
-              "fa": "«یک درهم که به امام اختصاص یابد، بهتر از هزار هزار درهمی است که در راه خداوند، عزّوجل، جز او صرف شود.»",
-              "fr": "«Un dirham par lequel l’Imam est soutenu vaut mieux que mille mille dirhams dépensés ailleurs dans le chemin d’Allah, le Tout-Puissant et Majestueux.»",
-              "id": "“Satu dirham yang digunakan untuk mendukung Imam lebih baik daripada seribu ribu dirham yang dibelanjakan selain untuknya di jalan Allah Yang Maha Perkasa dan Maha Agung.”",
-              "ru": "«Один дирхам, на который поддерживается Имам, лучше тысячи тысяч дирхамов, потраченных на других, кроме него, на пути Аллаха, Всемогущего и Великого.»",
-              "tr": "“İmamın desteklendiği bir dirhem, Allah'ın yolunda onun dışında harcanan binlerce bin dirhemden daha hayırlıdır.”",
-              "ur": "“ایک درہم جس سے امام کی مدد کی جائے، اللہ تعالیٰ کے راستے میں اس کے علاوہ خرچ کیے گئے ہزار ہزار درہموں سے بہتر ہے۔”",
-              "zh": "“用以支持伊玛目的一个迪拉姆,胜过在真主,全能者和至高者的道路上花费在他人身上的一百万迪拉姆。”"
-            },
             "word_end": 22,
             "word_start": 5
           }
@@ -86,27 +73,15 @@
             "phrase_en": "The way of Allah"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَفْضَلُ": "better; greater in merit and virtue",
-            "الْإِمَامُ": "the Imam; the divinely appointed leader",
-            "دِرْهَمٌ": "a dirham; a small unit of wealth or money",
-            "عَزَّ وَجَلَّ": "Mighty and Majestic; an honorific for Allah",
-            "فِي سَبِيلِ اللَّهِ": "in the way of Allah; for God's cause",
-            "يُنْفَقُ": "is spent or disbursed",
-            "يُوصَلُ": "is conveyed or delivered; given in support"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "دِرْهَمٌ",
+          "يُوصَلُ",
+          "الْإِمَامُ",
+          "أَفْضَلُ",
+          "يُنْفَقُ",
+          "فِي سَبِيلِ اللَّهِ",
+          "عَزَّ وَجَلَّ"
+        ],
         "related_quran": [
           {
             "ref": "2:261",
@@ -121,32 +96,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কেন ইমামকে অর্থ দিয়ে সাহায্য করা আল্লাহর পথে বড় অঙ্কের ব্যয়ের চেয়ে বেশি মর্যাদাপূর্ণ বিবেচিত হয়?",
-          "de": "Warum gilt die Unterstützung des Imams mit Vermögen als größer als das Ausgeben großer Summen im Wege Allahs?",
-          "en": "Why is supporting the Imam with wealth considered greater than spending large amounts in the way of Allah?",
-          "es": "¿Por qué se considera que apoyar al Imam con riqueza es mayor que gastar grandes cantidades en el camino de Allah?",
-          "fa": "چرا حمایت مالی از امام از صرف مبالغ زیاد در راه خدا برتر شمرده می‌شود؟",
-          "fr": "Pourquoi soutenir l’Imam avec des richesses est-il considéré comme supérieur à dépenser de grandes sommes dans le chemin d’Allah ?",
-          "id": "Mengapa mendukung Imam dengan harta dianggap lebih utama daripada mengeluarkan banyak harta di jalan Allah?",
-          "ru": "Почему поддержка Имама материально считается более значимой, чем большие траты на пути Аллаха?",
-          "tr": "Neden İmamı maddi olarak desteklemek, Allah yolunda büyük miktarlarda harcamaktan daha üstün kabul edilir?",
-          "ur": "امام کی مالی مدد کو اللہ کے راستے میں بڑی رقم خرچ کرنے سے بہتر کیوں سمجھا جاتا ہے؟",
-          "zh": "为什么用财富支持伊玛目被认为比在真主的道路上花费大量财富更为重要？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ইমামকে আর্থিকভাবে সাহায্য করার বিশাল মর্যাদা তুলে ধরে। এটি শেখায় যে ইমামের প্রতি ছোট একটি অর্থনৈতিক সাহায্যও অন্য কোথাও অনেক বড় পরিমাণ অর্থ ব্যয়ের চেয়ে বেশি গুণসম্পন্ন, যা ইমামের অধিকার ও কর্তৃত্বের কেন্দ্রীয়তা নির্দেশ করে।",
-          "de": "Dieser Hadith betont das große Verdienst, den Imam finanziell zu unterstützen. Er lehrt, dass selbst ein kleiner Betrag, der dem Imam zukommt, mehr Tugend besitzt als eine viel größere Summe, die anderswo ausgegeben wird, und hebt die zentrale Bedeutung des Rechts und der Autorität des Imams hervor.",
-          "en": "This hadith emphasizes the immense merit of financially supporting the Imam. It teaches that even a small amount directed toward the Imam carries greater virtue than a vastly larger sum spent elsewhere, highlighting the centrality of the Imam's right and authority.",
-          "es": "Este hadiz enfatiza el inmenso mérito de apoyar financieramente al Imam. Enseña que incluso una pequeña cantidad dirigida al Imam tiene mayor virtud que una suma mucho mayor gastada en otro lugar, destacando la centralidad del derecho y la autoridad del Imam.",
-          "fa": "این حدیث بر فضیلت عظیم حمایت مالی از امام تأکید دارد. می‌آموزد که حتی مقدار کمی که به امام اختصاص یابد، از مبلغ بسیار بزرگتری که در جای دیگر صرف شود، فضیلت بیشتری دارد و جایگاه مرکزی حق و اقتدار امام را نشان می‌دهد.",
-          "fr": "Ce hadith souligne l’immense mérite de soutenir financièrement l’Imam. Il enseigne que même une petite somme destinée à l’Imam a plus de vertu qu’une somme bien plus grande dépensée ailleurs, mettant en lumière la centralité du droit et de l’autorité de l’Imam.",
-          "id": "Hadis ini menekankan keutamaan besar dalam mendukung Imam secara finansial. Ia mengajarkan bahwa bahkan jumlah kecil yang ditujukan kepada Imam memiliki keutamaan lebih besar daripada jumlah yang jauh lebih besar yang dibelanjakan di tempat lain, menyoroti sentralitas hak dan otoritas Imam.",
-          "ru": "Этот хадис подчеркивает огромную заслугу финансовой поддержки Имама. Он учит, что даже небольшая сумма, направленная Имаму, имеет большую добродетель, чем гораздо большая сумма, потраченная в другом месте, подчеркивая центральное значение права и власти Имама.",
-          "tr": "Bu hadis, İmamı maddi olarak desteklemenin büyük faziletini vurgular. İmam için ayrılan küçük bir miktarın bile, başka yerlere harcanan çok daha büyük bir meblağdan daha üstün olduğunu öğretir ve İmamın hakkı ve otoritesinin merkeziliğini ortaya koyar.",
-          "ur": "یہ حدیث امام کی مالی مدد کی عظیم فضیلت کو اجاگر کرتی ہے۔ یہ سکھاتی ہے کہ امام کی طرف مختص چھوٹی رقم بھی کہیں زیادہ فضیلت رکھتی ہے بنسبت کہیں زیادہ رقم کے جو کہیں اور خرچ کی جائے، امام کے حق اور اختیار کی مرکزی حیثیت کو واضح کرتی ہے۔",
-          "zh": "这段圣训强调了经济支持伊玛目的巨大功德。它教导我们，即使是少量用于伊玛目的资金，也胜过在其他地方花费的大量资金，突显了伊玛目权利和权威的核心地位。"
-        },
         "tags": [
           "theology",
           "economy",

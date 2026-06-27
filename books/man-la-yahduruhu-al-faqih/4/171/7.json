@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى الْحَسَنُ بْنُ مَحْبُوبٍ عَنْ عَلِيِّ بْنِ رِئَابٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হাসান ইবনে মাহবুব ʿআলী ইবনে রিয়াব থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Al-Ḥasan ibn Maḥbūb berichtete von ʿAlī ibn Riʾāb, der sagte:",
-              "en": "Al-Ḥasan ibn Maḥbūb narrated from ʿAlī ibn Riʾāb, who said:",
-              "es": "Al-Ḥasan ibn Maḥbūb narró de ʿAlī ibn Riʾāb, quien dijo:",
-              "fa": "الْحَسَن بن مَحبوب از عَلِي بن رئاب روایت کرد، که گفت:",
-              "fr": "Al-Ḥasan ibn Maḥbūb a rapporté de ʿAlī ibn Riʾāb, qui a dit :",
-              "id": "Al-Hasan ibn Mahbub meriwayat dari ʿAlī ibn Riʾāb, yang berkata:",
-              "ru": "Аль-Хасан ибн Махбуб передал от ʿАли ибн Риʾаб, который сказал:",
-              "tr": "El-Hasan ibn Mahbub, Ali ibn Ri'ab'dan rivayet etti, o dedi ki:",
-              "ur": "الْحَسَن بْن مَحْبُوب نے عَلِي بْن رِئَاب سے روایت کی، جنہوں نے کہا:",
-              "zh": "الْحَسَنبنمَحبوبنَقلمنʿAlīبنRiʾāب،قال:"
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ أَبُو عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ: «الْعَبْدُ لَا يُوَرَّثُ وَ الطَّلِيقُ لَا يُوَرَّثُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আবু ʿআব্দিল্লাহ عليه السلام বললেন: “দাস উত্তরাধিকারী হয় না, এবং তালাকপ্রাপ্ত উত্তরাধিকারী হয় না।”",
-              "de": "Abū ʿAbdillāh علیه السلام sagte: „Der Sklave erbt nicht, und der Geschiedene erbt nicht.“",
-              "en": "Abū ʿAbdillāh عليه السلام said: “The slave does not inherit, and the divorced person does not inherit.”",
-              "es": "Abū ʿAbdillāh عليه السلام dijo: “El esclavo no hereda, y el divorciado no hereda.”",
-              "fa": "ابو ʿعبدالله علیه السلام فرمود: «بنده ارث نمی‌برد و طلاق‌گرفته ارث نمی‌برد.»",
-              "fr": "Abū ʿAbdillāh عليه السلام a dit : «L’esclave n’hérite pas, et le divorcé n’hérite pas.»",
-              "id": "Abū ʿAbdillāh علیه السلام berkata: “Budak tidak mewarisi, dan orang yang bercerai tidak mewarisi.”",
-              "ru": "Абу ʿАбдиллах علیه السلام сказал: «Раб не наследует, и разведённый не наследует.»",
-              "tr": "Ebu ʿAbdillāh علیه السلام şöyle buyurdu: “Köle mirasçı olmaz, boşanmış kişi mirasçı olmaz.”",
-              "ur": "ابو عبداللہ علیہ السلام نے فرمایا: \"غلام وارث نہیں ہوتا، اور طلاق یافتہ وارث نہیں ہوتا۔\"",
-              "zh": "أبوʿAbdillāهعليهالسلامقال：“奴隶不继承，离婚者不继承。”"
-            },
             "word_end": 23,
             "word_start": 10
           }
@@ -91,23 +78,11 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الطَّلِيقُ": "The divorced person; here, one excluded from inheritance after divorce.",
-            "الْعَبْدُ": "A slave; here, a person not entitled to inherit.",
-            "يُوَرَّثُ": "Is made to inherit; receives a share of inheritance."
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْعَبْدُ",
+          "يُوَرَّثُ",
+          "الطَّلِيقُ"
+        ],
         "related_quran": [
           {
             "ref": "4:7",
@@ -122,32 +97,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام এর এই হাদিস অনুযায়ী উত্তরাধিকার থেকে কারা বাদ পড়েছেন?",
-          "de": "Wer ist gemäß diesem Hadith von Imam al-Sadiq علیه السلام vom Erbe ausgeschlossen?",
-          "en": "Who is excluded from inheritance according to this hadith of Imam al-Sadiq عليه السلام?",
-          "es": "¿Quién está excluido de la herencia según este hadiz del Imam al-Sadiq عليه السلام?",
-          "fa": "بر اساس این حدیث امام الصادق علیه السلام، چه کسانی از ارث محروم هستند؟",
-          "fr": "Qui est exclu de l’héritage selon ce hadith de l’Imam al-Sadiq عليه السلام ?",
-          "id": "Menurut hadis Imam al-Sadiq علیه السلام ini, siapa yang dikecualikan dari warisan?",
-          "ru": "Кто исключён из наследства согласно этому хадису Имама ас-Садика علیه السلام?",
-          "tr": "İmam es-Sadık علیه السلام’ın bu hadisine göre mirastan kimler hariç tutulmuştur?",
-          "ur": "امام الصادق علیہ السلام کی اس حدیث کے مطابق وارثت سے کون محروم ہے؟",
-          "zh": "根据伊玛目萨迪克عليهالسلام的这则圣训，谁被排除在继承之外？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস উত্তরাধিকার সম্পর্কিত একটি আইনি বিধান বর্ণনা করে: দাস বা তালাকপ্রাপ্ত কেউ উত্তরাধিকারী হয় না। এটি সম্পত্তি বণ্টনের ফিকহের অন্তর্গত এবং কারা উত্তরাধিকার থেকে বাদ পড়ে তা স্পষ্ট করে।",
-          "de": "Dieser Hadith stellt eine rechtliche Regel zum Erbe dar: Weder der Sklave noch der Geschiedene erben. Er gehört zur Erbrechtslehre und klärt, wer vom Erbanteil ausgeschlossen ist.",
-          "en": "This hadith states a legal ruling concerning inheritance: neither a slave nor a divorced person inherits. It belongs to the jurisprudence of estate division and clarifies who is excluded from receiving inheritance shares.",
-          "es": "Este hadiz establece una regla legal sobre la herencia: ni el esclavo ni el divorciado heredan. Pertenece a la jurisprudencia de la división de bienes y aclara quiénes están excluidos de recibir herencia.",
-          "fa": "این حدیث حکم شرعی مربوط به ارث را بیان می‌کند: نه بنده و نه طلاق‌گرفته ارث نمی‌برند. این موضوع به فقه تقسیم میراث مربوط است و مشخص می‌کند چه کسانی از دریافت سهم ارث محروم‌اند.",
-          "fr": "Ce hadith énonce une règle juridique concernant l’héritage : ni l’esclave ni le divorcé n’héritent. Il appartient à la jurisprudence de la division des biens et précise qui est exclu de la réception des parts d’héritage.",
-          "id": "Hadis ini menyatakan hukum warisan: baik budak maupun orang yang bercerai tidak mewarisi. Ini termasuk dalam fikih pembagian harta warisan dan menjelaskan siapa yang dikecualikan dari menerima bagian warisan.",
-          "ru": "Этот хадис излагает правовое постановление о наследовании: ни раб, ни разведённый не наследуют. Он относится к юриспруденции раздела наследства и разъясняет, кто исключён из получения наследственных долей.",
-          "tr": "Bu hadis, mirasla ilgili hukuki bir hükmü belirtir: ne köle ne de boşanmış kişi mirasçı olur. Mirasın paylaşımı fıkhına aittir ve miras payı almaktan kimlerin muaf olduğunu açıklar.",
-          "ur": "یہ حدیث وارثت کے قانونی حکم کی وضاحت کرتی ہے: نہ غلام وارث ہوتا ہے اور نہ طلاق یافتہ۔ یہ وراثت کے تقسیم کے فقہ سے متعلق ہے اور واضح کرتی ہے کہ کون وارثت کے حصے سے محروم ہے۔",
-          "zh": "此圣训陈述了关于继承的法律裁决：奴隶和离婚者均不继承。属于遗产分配法学，明确了谁被排除在继承份额之外。"
-        },
         "tags": [
           "jurisprudence",
           "family",

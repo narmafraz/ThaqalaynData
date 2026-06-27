@@ -21,40 +21,27 @@
           "model": "claude-sonnet-4-6",
           "pipeline_version": "2.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং এই সনদের মাধ্যমে তাঁর পিতা থেকে, তিনি আহমাদ ইবনে আন-নাদর থেকে, তিনি আমর ইবনে শিমর থেকে, তিনি জাবির থেকে, তিনি আবু জা'ফার আলাইহিস সালাম থেকে বর্ণনা করেছেন যে তিনি বলেছেন:",
-              "de": "Und durch diese Überlieferungskette, von seinem Vater, von Ahmad ibn al-Nadr, von Amr ibn Shimr, von Jabir, von Abu Ja'far (Friede sei mit ihm), der sagte:",
-              "en": "And by this chain, from his father, from Ahmad ibn al-Nadr, from Amr ibn Shimr, from Jabir, from Abu Ja'far (peace be upon him) who said:",
-              "es": "Y por esta cadena, de su padre, de Ahmad ibn al-Nadr, de Amr ibn Shimr, de Jabir, de Abu Ja'far (la paz sea con él) quien dijo:",
-              "fa": "و با همین سند از پدرش از احمد بن النضر از عمرو بن شمر از جابر از ابوجعفر علیه السلام روایت شده که فرمود:",
-              "fr": "Et par cette chaîne, de son père, d'Ahmad ibn al-Nadr, d'Amr ibn Shimr, de Jabir, d'Abu Ja'far (que la paix soit sur lui) qui a dit :",
-              "id": "Dan dengan sanad ini, dari ayahnya, dari Ahmad bin al-Nadr, dari Amr bin Shimr, dari Jabir, dari Abu Ja'far alaihis salam yang bersabda:",
-              "ru": "И по этой цепочке, от его отца, от Ахмада ибн ан-Надра, от Амра ибн Шимра, от Джабира, от Абу Джафара (мир ему), который сказал:",
-              "tr": "Ve bu isnad ile babasından, o da Ahmed b. en-Nadr'dan, o da Amr b. Şimr'den, o da Cabir'den, o da Ebu Ca'fer (a.s.)'dan rivayet etmiştir ki buyurdu:",
-              "ur": "اسی سند سے، ان کے والد سے، احمد بن النضر سے، عمرو بن شمر سے، جابر سے، ابو جعفر علیہ السلام نے فرمایا:",
-              "zh": "通过此传述链，从他的父亲，从艾哈迈德·本·纳兹尔，从阿姆鲁·本·辛姆尔，从贾比尔，从阿布·贾法尔（愿主赐他平安）传述，他说："
-            },
             "word_end": 20,
             "word_start": 0
           },
           {
             "chunk_type": "body",
-            "translations": {
-              "bn": "জ্ঞানের যাকাত হলো তুমি তা আল্লাহর বান্দাদের শেখাও।",
-              "de": "Der Zakat des Wissens besteht darin, dass du es den Dienern Gottes lehrst.",
-              "en": "The zakat of knowledge is that you teach it to the servants of God.",
-              "es": "El zakat del conocimiento es que lo enseñes a los siervos de Dios.",
-              "fa": "زکات علم این است که آن را به بندگان خدا تعلیم دهی.",
-              "fr": "La zakat du savoir est que tu l'enseignes aux serviteurs de Dieu.",
-              "id": "Zakat ilmu adalah engkau mengajarkannya kepada hamba-hamba Allah.",
-              "ru": "Закят знания — это то, чтобы ты обучал ему рабов Аллаха.",
-              "tr": "İlmin zekatı, onu Allah'ın kullarına öğretmendir.",
-              "ur": "علم کی زکاۃ یہ ہے کہ تم اسے اللہ کے بندوں کو سکھاؤ۔",
-              "zh": "知识的天课是将它传授给安拉的仆人。"
-            },
             "word_end": 26,
             "word_start": 20
           }
@@ -158,52 +145,11 @@
             "phrase_en": "Servants/worshippers of God"
           }
         ],
-        "key_terms": {
-          "bn": {
-            "زكاة العلم": "জ্ঞানের যাকাত — শিক্ষাদানকে যাকাতের মতো বাধ্যবাধকতা হিসেবে গণ্য করা",
-            "عباد الله": "আল্লাহর বান্দারা — সকল মুমিন যাদের কাছে জ্ঞান পৌঁছানো দরকার"
-          },
-          "de": {
-            "زكاة العلم": "Der Zakat des Wissens — die Lehrtätigkeit als religiöse Pflicht wie der Zakat",
-            "عباد الله": "Die Diener Gottes — alle Gläubigen, an die Wissen weitergegeben werden soll"
-          },
-          "en": {
-            "زكاة العلم": "The zakat (purifying due/obligatory portion) of knowledge — using the almsgiving metaphor for intellectual transmission",
-            "عباد الله": "Servants/worshippers of God — all believers to whom knowledge must be disseminated"
-          },
-          "es": {
-            "زكاة العلم": "El zakat del conocimiento — la obligación de enseñar como acto de purificación",
-            "عباد الله": "Los siervos de Dios — todos los creyentes a quienes se debe transmitir el saber"
-          },
-          "fa": {
-            "زکات علم": "زکات دانش — تعلیم دادن به عنوان فریضه‌ای چون زکات",
-            "عباد الله": "بندگان خدا — همه مومنانی که باید از علم بهره‌مند شوند"
-          },
-          "fr": {
-            "زكاة العلم": "La zakat du savoir — l'enseignement comme obligation purificatrice",
-            "عباد الله": "Les serviteurs de Dieu — tous les croyants à qui le savoir doit être transmis"
-          },
-          "id": {
-            "زكاة العلم": "Zakat ilmu — kewajiban menyebarkan ilmu seperti zakat harta",
-            "عباد الله": "Hamba-hamba Allah — seluruh mukmin yang berhak menerima ilmu"
-          },
-          "ru": {
-            "زكاة العلم": "Закят знания — обучение как религиозная обязанность по аналогии с закятом",
-            "عباد الله": "Рабы Аллаха — все верующие, которым должно быть передано знание"
-          },
-          "tr": {
-            "زكاة العلم": "İlmin zekatı — bilgiyi paylaşmayı zekat gibi zorunlu görmek",
-            "عباد الله": "Allah'ın kulları — ilmin ulaştırılması gereken tüm müminler"
-          },
-          "ur": {
-            "زكاة العلم": "علم کی زکاۃ — علم پھیلانے کو زکاۃ کی طرح فریضہ قرار دینا",
-            "عباد الله": "اللہ کے بندے — تمام مومنین جن تک علم پہنچانا ضروری ہے"
-          },
-          "zh": {
-            "زكاة العلم": "知识的天课——将教授知识视为如天课般的宗教义务",
-            "عباد الله": "安拉的仆人——所有应该获得知识的信士"
-          }
-        },
+        "key_terms_keys": [
+          "زكاة العلم",
+          "عباد الله",
+          "زکات علم"
+        ],
         "related_quran": [
           {
             "ref": "2:269",
@@ -218,32 +164,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-বাকিরের মতে জ্ঞানের যাকাত কী?",
-          "de": "Was ist der Zakat des Wissens nach Imam al-Baqir?",
-          "en": "What is the zakat of knowledge in Islam according to Imam al-Baqir?",
-          "es": "¿Qué es el zakat del conocimiento según el Imam al-Baqir?",
-          "fa": "زکات علم از نظر امام باقر علیه السلام چیست؟",
-          "fr": "Qu'est-ce que la zakat du savoir selon l'Imam al-Baqir ?",
-          "id": "Apa yang dimaksud dengan zakat ilmu menurut Imam al-Baqir?",
-          "ru": "Что такое закят знания по имаму аль-Бакиру?",
-          "tr": "İmam el-Bakır'a göre ilmin zekatı nedir?",
-          "ur": "امام باقر علیہ السلام کے مطابق علم کی زکاۃ کیا ہے؟",
-          "zh": "根据伊玛目巴基尔，知识的天课是什么？"
-        },
-        "summaries": {
-          "bn": "ইমাম মুহাম্মাদ আল-বাকির (আ.) জ্ঞানের ক্ষেত্রে যাকাতের ধারণা ব্যবহার করেছেন — যেমন সম্পদের যাকাত আদায় করা ফরজ, তেমনি জ্ঞানের যাকাত হলো তা অন্যদের কাছে শিক্ষা দেওয়া। এই হাদিসটি পণ্ডিতদের মনে করিয়ে দেয় যে জ্ঞান একটি আমানত এবং সামাজিক দায়িত্ব, ব্যক্তিগত সম্পদ নয়।",
-          "de": "Imam Muhammad al-Baqir (Friede sei mit ihm) verwendet die Metapher des Zakat — der obligatorischen Reinigungsabgabe auf Vermögen — um die Pflicht zur Wissensvermittlung zu beschreiben. So wie Reichtum geteilt werden muss, um spirituell gereinigt zu werden, muss Wissen gelehrt und verbreitet werden. Diese Überlieferung betont die soziale Verantwortung von Gelehrten, ihr Wissen zu teilen.",
-          "en": "Imam Muhammad al-Baqir (peace be upon him) uses the concept of zakat — the obligatory purifying alms normally applied to wealth — as a metaphor for knowledge: just as wealth must be shared to be spiritually purified, knowledge must be taught and disseminated. This teaching reflects the Imam's emphasis on the social responsibility of those who possess religious knowledge. In the early Islamic scholarly milieu, this hadith called scholars to share their learning freely rather than hoarding it, framing teaching as a religious duty (like zakat) rather than merely a virtuous act.",
-          "es": "El Imam Muhammad al-Baqir (P) emplea la metáfora del zakat —el impuesto purificador obligatorio sobre la riqueza— para describir la obligación de transmitir el conocimiento. Así como los bienes materiales deben ser compartidos para ser espiritualmente purificados, el conocimiento también debe ser enseñado y difundido entre todos los creyentes. Esta enseñanza subraya la dimensión social del saber en el Islam.",
-          "fa": "امام محمد باقر علیه السلام با استفاده از استعاره زکات، وظیفه انتقال دانش را تبیین فرمودند. همان‌طور که پرداخت زکات مال واجب است، دانشمندان نیز موظف‌اند علم خود را به دیگران بیاموزند. این حدیث بر بُعد اجتماعی علم تأکید دارد و نشان می‌دهد که انباشتن دانش بدون آموزش آن، در تناقض با روح اسلامی است.",
-          "fr": "L'Imam Muhammad al-Baqir (que la paix soit sur lui) utilise la métaphore de la zakat — l'aumône purificatrice obligatoire sur la richesse — pour définir le devoir d'enseigner la connaissance. Tout comme la fortune doit être partagée pour être spirituellement purifiée, le savoir doit être transmis aux croyants. Cette tradition souligne que la rétention du savoir est incompatible avec la responsabilité sociale en Islam.",
-          "id": "Imam Muhammad al-Baqir (a.s.) menyampaikan bahwa kewajiban bagi pemilik ilmu adalah mengajarkannya, seperti halnya zakat pada harta. Hadis ini menggunakan analogi zakat — yang wajib dikeluarkan dari harta — untuk menekankan bahwa ilmu harus disebarkan kepada seluruh umat. Ini merupakan prinsip penting dalam tradisi keilmuan Islam bahwa menahan ilmu dari orang lain bertentangan dengan semangat ajaran Islam.",
-          "ru": "Имам Мухаммад аль-Бакир (мир ему) использует метафору закята — обязательной очистительной подати с имущества — для описания обязанности передавать знание. Подобно тому как богатство должно быть разделено для духовного очищения, знание должно быть преподано верующим. Эта традиция подчёркивает социальный долг учёных делиться своими знаниями.",
-          "tr": "İmam Muhammed el-Bakır (a.s.), ilmin zekatının onu insanlara öğretmek olduğunu beyan etmiştir. Zekat kavramı, malvarlığı için zorunlu bir arındırma bağışı olarak bilinmekle birlikte, burada ilmin yayılması için de bir metafor olarak kullanılmaktadır. Bu hadis, âlimleri bildiklerini paylaşmaya çağırır ve ilmin öğretilmesini dini bir yükümlülük olarak tanımlar.",
-          "ur": "امام محمد باقر علیہ السلام نے علم کو مال سے تشبیہ دیتے ہوئے فرمایا کہ جیسے مال کی زکاۃ ادا کرنا فرض ہے، اسی طرح علم کی زکاۃ یہ ہے کہ اسے لوگوں تک پہنچایا جائے اور سکھایا جائے۔ یہ تعلیم علماء کو یاد دلاتی ہے کہ علم ذاتی ملکیت نہیں بلکہ ایک امانت ہے جو دوسروں تک منتقل کی جانی چاہیے۔",
-          "zh": "伊玛目穆罕默德·巴基尔（愿主赐他平安）用天课（对财富的强制净化捐赠）这一比喻来阐述传播知识的义务。正如财富必须通过分享来实现精神净化，知识也必须被传授和传播。这段传述强调了学者的社会责任，即分享知识而非囤积。"
-        },
         "tags": [
           "knowledge",
           "ethics",
@@ -258,444 +178,106 @@
         "word_analysis": [
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "এবং এর দ্বারা",
-              "de": "und durch diese",
-              "en": "and by this",
-              "es": "y por esta",
-              "fa": "و به این",
-              "fr": "et par cette",
-              "id": "dan dengan ini",
-              "ru": "и по этой",
-              "tr": "ve bu",
-              "ur": "اور اس",
-              "zh": "通过此"
-            },
             "word": "وَبِهَذَا"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "সনদ",
-              "de": "Überlieferungskette",
-              "en": "chain (of narration)",
-              "es": "cadena (de narración)",
-              "fa": "اسناد",
-              "fr": "chaîne (de narration)",
-              "id": "sanad",
-              "ru": "иснад (цепочка)",
-              "tr": "isnad",
-              "ur": "سند",
-              "zh": "传述链"
-            },
             "word": "الْإِسْنَادِ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "থেকে",
-              "de": "von",
-              "en": "from",
-              "es": "de",
-              "fa": "از",
-              "fr": "de",
-              "id": "dari",
-              "ru": "от",
-              "tr": "-den",
-              "ur": "سے",
-              "zh": "从"
-            },
             "word": "عَنْ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "তাঁর পিতা",
-              "de": "sein Vater",
-              "en": "his father",
-              "es": "su padre",
-              "fa": "پدرش",
-              "fr": "son père",
-              "id": "ayahnya",
-              "ru": "его отец",
-              "tr": "babası",
-              "ur": "اپنے والد",
-              "zh": "他的父亲"
-            },
             "word": "أَبِيهِ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "থেকে",
-              "de": "von",
-              "en": "from",
-              "es": "de",
-              "fa": "از",
-              "fr": "de",
-              "id": "dari",
-              "ru": "от",
-              "tr": "-den",
-              "ur": "سے",
-              "zh": "从"
-            },
             "word": "عَنْ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "আহমাদ",
-              "de": "Ahmad",
-              "en": "Ahmad",
-              "es": "Ahmad",
-              "fa": "احمد",
-              "fr": "Ahmad",
-              "id": "Ahmad",
-              "ru": "Ахмад",
-              "tr": "Ahmed",
-              "ur": "احمد",
-              "zh": "艾哈迈德"
-            },
             "word": "أَحْمَدَ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "ইবনে",
-              "de": "Sohn von",
-              "en": "son of",
-              "es": "hijo de",
-              "fa": "بن",
-              "fr": "fils de",
-              "id": "bin/putra",
-              "ru": "ибн/сын",
-              "tr": "bin/oğlu",
-              "ur": "بن",
-              "zh": "之子"
-            },
             "word": "بْنِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "আন-নাদর",
-              "de": "al-Nadr",
-              "en": "al-Nadr",
-              "es": "al-Nadr",
-              "fa": "النضر",
-              "fr": "al-Nadr",
-              "id": "al-Nadr",
-              "ru": "ан-Надр",
-              "tr": "en-Nadr",
-              "ur": "النضر",
-              "zh": "纳兹尔"
-            },
             "word": "النَّضْرِ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "থেকে",
-              "de": "von",
-              "en": "from",
-              "es": "de",
-              "fa": "از",
-              "fr": "de",
-              "id": "dari",
-              "ru": "от",
-              "tr": "-den",
-              "ur": "سے",
-              "zh": "从"
-            },
             "word": "عَنْ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "আমর",
-              "de": "Amr",
-              "en": "Amr",
-              "es": "Amr",
-              "fa": "عمرو",
-              "fr": "Amr",
-              "id": "Amr",
-              "ru": "Амр",
-              "tr": "Amr",
-              "ur": "عمرو",
-              "zh": "阿姆鲁"
-            },
             "word": "عَمْرِو"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "ইবনে",
-              "de": "Sohn von",
-              "en": "son of",
-              "es": "hijo de",
-              "fa": "بن",
-              "fr": "fils de",
-              "id": "bin/putra",
-              "ru": "ибн/сын",
-              "tr": "bin/oğlu",
-              "ur": "بن",
-              "zh": "之子"
-            },
             "word": "بْنِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "শিমর",
-              "de": "Shimr",
-              "en": "Shimr",
-              "es": "Shimr",
-              "fa": "شمر",
-              "fr": "Shimr",
-              "id": "Shimr",
-              "ru": "Шимр",
-              "tr": "Şimr",
-              "ur": "شمر",
-              "zh": "辛姆尔"
-            },
             "word": "شِمْرٍ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "থেকে",
-              "de": "von",
-              "en": "from",
-              "es": "de",
-              "fa": "از",
-              "fr": "de",
-              "id": "dari",
-              "ru": "от",
-              "tr": "-den",
-              "ur": "سے",
-              "zh": "从"
-            },
             "word": "عَنْ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "জাবির",
-              "de": "Jabir",
-              "en": "Jabir",
-              "es": "Jabir",
-              "fa": "جابر",
-              "fr": "Jabir",
-              "id": "Jabir",
-              "ru": "Джабир",
-              "tr": "Cabir",
-              "ur": "جابر",
-              "zh": "贾比尔"
-            },
             "word": "جَابِرٍ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "থেকে",
-              "de": "von",
-              "en": "from",
-              "es": "de",
-              "fa": "از",
-              "fr": "de",
-              "id": "dari",
-              "ru": "от",
-              "tr": "-den",
-              "ur": "سے",
-              "zh": "从"
-            },
             "word": "عَنْ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "আবু (পিতা)",
-              "de": "Abu (Vater von)",
-              "en": "Abu (father of)",
-              "es": "Abu (padre de)",
-              "fa": "ابو (پدر)",
-              "fr": "Abu (père de)",
-              "id": "Abu (ayah dari)",
-              "ru": "Абу (отец)",
-              "tr": "Ebu (babası)",
-              "ur": "ابو (والد)",
-              "zh": "阿布（之父）"
-            },
             "word": "أَبِي"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "জা'ফার",
-              "de": "Ja'far",
-              "en": "Ja'far",
-              "es": "Ja'far",
-              "fa": "جعفر",
-              "fr": "Ja'far",
-              "id": "Ja'far",
-              "ru": "Джафар",
-              "tr": "Ca'fer",
-              "ur": "جعفر",
-              "zh": "贾法尔"
-            },
             "word": "جَعْفَرٍ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "তাঁর উপর",
-              "de": "auf ihm",
-              "en": "upon him",
-              "es": "sobre él",
-              "fa": "بر او",
-              "fr": "sur lui",
-              "id": "atasnya",
-              "ru": "на нём",
-              "tr": "ona",
-              "ur": "اس پر",
-              "zh": "在他之上"
-            },
             "word": "عَلَيْهِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "শান্তি",
-              "de": "Friede",
-              "en": "peace",
-              "es": "paz",
-              "fa": "سلام",
-              "fr": "paix",
-              "id": "salam/kedamaian",
-              "ru": "мир",
-              "tr": "selam",
-              "ur": "سلام",
-              "zh": "平安"
-            },
             "word": "السَّلَامُ"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "বলেছেন",
-              "de": "sagte",
-              "en": "he said",
-              "es": "dijo",
-              "fa": "فرمود",
-              "fr": "a dit",
-              "id": "bersabda",
-              "ru": "сказал",
-              "tr": "buyurdu",
-              "ur": "فرمایا",
-              "zh": "他说"
-            },
             "word": "قَالَ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "যাকাত",
-              "de": "Zakat",
-              "en": "zakat (purifying dues/obligatory giving)",
-              "es": "zakat",
-              "fa": "زکات",
-              "fr": "zakat",
-              "id": "zakat",
-              "ru": "закят",
-              "tr": "zekat",
-              "ur": "زکاۃ",
-              "zh": "天课（净化之税）"
-            },
             "word": "زَكَاةُ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "জ্ঞান",
-              "de": "Wissen",
-              "en": "knowledge",
-              "es": "conocimiento",
-              "fa": "علم",
-              "fr": "savoir",
-              "id": "ilmu",
-              "ru": "знания",
-              "tr": "ilim",
-              "ur": "علم",
-              "zh": "知识"
-            },
             "word": "الْعِلْمِ"
           },
           {
             "pos": "PART",
-            "translation": {
-              "bn": "যে",
-              "de": "dass",
-              "en": "that/to",
-              "es": "que",
-              "fa": "که",
-              "fr": "que",
-              "id": "bahwa",
-              "ru": "что/чтобы",
-              "tr": "ki",
-              "ur": "کہ",
-              "zh": "（即）"
-            },
             "word": "أَنْ"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "তুমি তা শেখাও",
-              "de": "du es lehrst",
-              "en": "you teach it",
-              "es": "lo enseñes",
-              "fa": "آن را تعلیم دهی",
-              "fr": "tu l'enseignes",
-              "id": "kamu mengajarkannya",
-              "ru": "ты его обучаешь",
-              "tr": "onu öğretmen",
-              "ur": "تم اسے سکھاؤ",
-              "zh": "你传授它"
-            },
             "word": "تُعَلِّمَهُ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "বান্দাদের",
-              "de": "Diener",
-              "en": "servants/worshippers",
-              "es": "siervos",
-              "fa": "بندگان",
-              "fr": "serviteurs",
-              "id": "para hamba",
-              "ru": "рабов",
-              "tr": "kulları",
-              "ur": "بندوں",
-              "zh": "仆人"
-            },
             "word": "عِبَادَ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "আল্লাহর",
-              "de": "Gottes",
-              "en": "of God",
-              "es": "de Dios/Allah",
-              "fa": "خدا",
-              "fr": "de Dieu/Allah",
-              "id": "Allah",
-              "ru": "Аллаха",
-              "tr": "Allah'ın",
-              "ur": "اللہ کے",
-              "zh": "安拉的"
-            },
             "word": "اللَّهِ"
           }
         ]

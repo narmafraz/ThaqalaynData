@@ -14,6 +14,147 @@
       "up": "/books/al-kafi:2:2:56"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ عَمْرِو بْنِ عُثْمَانَ عَنْ عَلِيِّ بْنِ عِيسَى عَنْ عَمِّهِ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 16,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قُلْتُ لَهُ عَلِّمْنِي دُعَاءً أَدْعُو بِهِ لِوَجَعٍ أَصَابَنِي قَالَ قُلْ وَأَنْتَ سَاجِدٌ.",
+            "chunk_type": "body",
+            "word_end": 28,
+            "word_start": 16
+          },
+          {
+            "arabic_text": "يَا اللَّهُ يَا رَحْمَانُ يَا رَحِيمُ يَا رَبَّ الْأَرْبَابِ وَ إِلَهَ الْآلِهَةِ وَ يَا مَلِكَ الْمُلُوكِ وَ يَا سَيِّدَ السَّادَةِ اشْفِنِي بِشِفَائِكَ مِنْ كُلِّ دَاءٍ وَ سُقْمٍ فَإِنِّي عَبْدُكَ أَتَقَلَّبُ فِي قَبْضَتِكَ",
+            "chunk_type": "body",
+            "word_end": 60,
+            "word_start": 28
+          }
+        ],
+        "content_type": "supplication",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 129,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَمْرِو بْنِ عُثْمَانَ",
+              "name_en": "Amr ibn Uthman",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1162,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ عِيسَى",
+              "name_en": "Ali ibn Isa",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 715,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَمِّهِ",
+              "name_en": "ammih",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [],
+        "key_terms_keys": [
+          "سَاجِدٌ",
+          "دُعَاءً",
+          "وَجَعٍ",
+          "رَبَّ الْأَرْبَابِ",
+          "إِلَهَ الْآلِهَةِ",
+          "مَلِكُ الْمُلُوكِ",
+          "سَيِّدَ السَّادَةِ",
+          "شِفَاءِكَ",
+          "دَاءٍ",
+          "سُقْمٍ",
+          "قَبْضَتِكَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "39:53",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:186",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:10",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "7:55",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "dua",
+          "worship",
+          "ethics"
+        ],
+        "topics": [
+          "specific_supplications",
+          "etiquette_of_dua",
+          "times_for_dua",
+          "divine_attributes",
+          "prayer_rulings"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (2/433)"
       ],
@@ -87,7 +228,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:2:56:11",

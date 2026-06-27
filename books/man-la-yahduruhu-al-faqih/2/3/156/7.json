@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى إِسْحَاقُ بْنُ عَمَّارٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং ইসহাক ইবনে আম্মার আবী আবদিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Und Isḥāq ibn ʿAmmār berichtete von Abī ʿAbdillāh عليه السلام, der sagte:",
-              "en": "And Isḥāq ibn ʿAmmār narrated from Abī ʿAbdillāh عليه السلام, who said:",
-              "es": "Y Isḥāq ibn ʿAmmār narró de Abī ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "و اِسحاق بن عمار از ابی عبدالله علیه السلام روایت کرد که فرمود:",
-              "fr": "Et Isḥāq ibn ʿAmmār a rapporté de Abī ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Dan Isḥāq ibn ʿAmmār meriwayatkan dari Abī ʿAbdillāh علیه السلام, yang berkata:",
-              "ru": "И Ишак ибн Аммар передал от Аби Абдиллаха عليه السلام, который сказал:",
-              "tr": "Ve İshak bin Ammar, Ebu Abdillah (aleyhisselam)'dan rivayet etti, şöyle dedi:",
-              "ur": "اور اِسحاق ابن عمار نے ابو عبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "以薩哈克伊本阿馬爾從阿布阿卜杜拉 عليه السلام 傳述說："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "«مَوْضِعُ قَبْرِ الْحُسَيْنِ عَلَيْهِ السَّلَامُ مُنْذُ يَوْمَ دُفِنَ فِيهِ رَوْضَةٌ مِنْ رِيَاضِ الْجَنَّةِ»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“আল-হুসাইন عليه السلام এর কবরের স্থান, যেদিন থেকে তিনি সেখানে দাফন করা হয়েছেন, জান্নাতের বাগানের একটি বাগান।”",
-              "de": "„Der Ort des Grabes von al-Ḥusayn عليه السلام ist seit dem Tag, an dem er dort beigesetzt wurde, ein Garten aus den Gärten des Paradieses.“",
-              "en": "\"The place of the grave of al-Ḥusayn عليه السلام, from the day he was buried in it, is a garden from the gardens of Paradise.\"",
-              "es": "“El lugar de la tumba de al-Ḥusayn عليه السلام, desde el día en que fue enterrado en ella, es un jardín de los jardines del Paraíso.”",
-              "fa": "«محل قبرِ الحُسین علیه السلام، از روزی که در آن دفن شده است، باغی از باغ‌های بهشت است.»",
-              "fr": "«Le lieu de la tombe d’al-Ḥusayn عليه السلام, depuis le jour où il y a été enterré, est un jardin parmi les jardins du Paradis.»",
-              "id": "“Tempat makam al-Ḥusayn علیه السلام, sejak hari ia dikuburkan di dalamnya, adalah taman dari taman-taman Surga.”",
-              "ru": "«Место могилы аль-Хусейна عليه السلام с того дня, как он был там похоронен, является садом из садов Рая.»",
-              "tr": "“El-Ḥusayn علیه السلام’ın kabir yeri, gömüldüğü günden beri, Cennet bahçelerinden bir bahçedir.”",
-              "ur": "‘‘مقام قبرِ الحُسین علیہ السلام، جس دن سے وہ اس میں دفن ہوئے، جنت کے باغات میں سے ایک باغ ہے۔’’",
-              "zh": "“自從al-Ḥusayn عليه السلام被埋葬之日起，他的墳墓之地便是天堂花園中的一座花園。”"
-            },
             "word_end": 25,
             "word_start": 12
           }
@@ -91,28 +78,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْجَنَّةِ": "Paradise",
-            "الْحُسَيْنِ": "Imam al-Ḥusayn عليه السلام",
-            "دُفِنَ": "he was buried",
-            "رَوْضَةٌ": "a garden or meadow of delight",
-            "رِيَاضِ": "gardens",
-            "قَبْرِ": "the grave or burial place",
-            "مَوْضِعُ": "the place or site being described",
-            "مُنْذُ": "since, indicating continuity from a point in time"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "مَوْضِعُ",
+          "قَبْرِ",
+          "الْحُسَيْنِ",
+          "مُنْذُ",
+          "دُفِنَ",
+          "رَوْضَةٌ",
+          "رِيَاضِ",
+          "الْجَنَّةِ"
+        ],
         "related_quran": [
           {
             "ref": "3:169",
@@ -127,32 +102,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হাদিস ইমাম আল-হুসাইন عليه السلام এর কবর সম্পর্কে কী বলে?",
-          "de": "Was sagt der Hadith über das Grab von Imam al-Ḥusayn عليه السلام?",
-          "en": "What does the hadith say about the grave of Imam al-Ḥusayn عليه السلام?",
-          "es": "¿Qué dice el hadiz sobre la tumba del Imam al-Ḥusayn عليه السلام?",
-          "fa": "حدیث درباره قبر امام الحُسین علیه السلام چه می‌گوید؟",
-          "fr": "Que dit le hadith à propos de la tombe de l’Imam al-Ḥusayn عليه السلام ?",
-          "id": "Apa yang dikatakan hadits tentang makam Imam al-Ḥusayn علیه السلام?",
-          "ru": "Что говорит хадис о могиле Имама аль-Хусейна عليه السلام?",
-          "tr": "Hadis, İmam al-Ḥusayn علیه السلام’ın kabri hakkında ne diyor?",
-          "ur": "حدیث امام الحُسین علیہ السلام کے قبر کے بارے میں کیا کہتی ہے؟",
-          "zh": "圣训关于伊玛目al-Ḥusayn عليه السلام的坟墓说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বর্ণনা করে যে আল-হুসাইন عليه السلام এর কবরের স্থান, তার দাফনের দিন থেকে, জান্নাতের সঙ্গে সংযুক্ত একটি পবিত্র বাস্তবতা ধারণ করে। এটি আল-হুসাইন عليه السلام এর উচ্চ মর্যাদা এবং তার কবরের আধ্যাত্মিক বৈশিষ্ট্য প্রকাশ করে।",
-          "de": "Dieser Hadith besagt, dass der Ort des Grabes von al-Ḥusayn عليه السلام seit seiner Beisetzung eine geheiligte Wirklichkeit besitzt, die mit dem Paradies verbunden ist. Er drückt den erhabenen Rang von al-Ḥusayn عليه السلام und die spirituelle Besonderheit seines Begräbnisortes aus.",
-          "en": "This hadith states that the site of the grave of al-Ḥusayn عليه السلام has, since his burial, possessed a sanctified reality linked to Paradise. It expresses the exalted rank of al-Ḥusayn عليه السلام and the spiritual distinction of his burial place.",
-          "es": "Este hadiz afirma que el sitio de la tumba de al-Ḥusayn عليه السلام, desde su entierro, posee una realidad sagrada vinculada al Paraíso. Expresa el elevado rango de al-Ḥusayn عليه السلام y la distinción espiritual de su lugar de enterramiento.",
-          "fa": "این حدیث بیان می‌کند که محل قبر امام الحُسین علیه السلام از روز دفن او، واقعیتی مقدس مرتبط با بهشت دارد. این حدیث مقام والای امام الحُسین علیه السلام و تمایز معنوی محل دفن او را نشان می‌دهد.",
-          "fr": "Ce hadith indique que le lieu de la tombe d’al-Ḥusayn عليه السلام possède, depuis son enterrement, une réalité sanctifiée liée au Paradis. Il exprime le rang élevé d’al-Ḥusayn عليه السلام et la distinction spirituelle de son lieu de sépulture.",
-          "id": "Hadis ini menyatakan bahwa tempat makam Imam al-Ḥusayn علیه السلام sejak hari ia dikuburkan memiliki kenyataan suci yang terkait dengan Surga. Ini menunjukkan kedudukan mulia Imam al-Ḥusayn علیه السلام dan keistimewaan spiritual tempat pemakamannya.",
-          "ru": "Этот хадис утверждает, что место могилы Имама аль-Хусейна عليه السلام с момента его захоронения обладает священной реальностью, связанной с Раем. Он выражает возвышенный статус аль-Хусейна عليه السلام и духовное отличие его места захоронения.",
-          "tr": "Bu hadis, İmam al-Ḥusayn علیه السلام’ın kabrinin bulunduğu yerin, defnedildiği günden beri Cennet ile bağlantılı kutsal bir gerçekliğe sahip olduğunu belirtir. Bu, İmam al-Ḥusayn علیه السلام’ın yüce makamını ve kabrinin manevi ayrıcalığını ifade eder.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ امام الحُسین علیہ السلام کے قبر کی جگہ، ان کی تدفین کے بعد سے، جنت سے منسلک ایک مقدس حقیقت رکھتی ہے۔ یہ امام الحُسین علیہ السلام کی بلند مرتبہ اور ان کی قبر کی روحانی فضیلت کو ظاہر کرتی ہے۔",
-          "zh": "此圣训说明al-Ḥusayn عليه السلام的坟墓之地自其安葬之日起，具有与天堂相关的神圣实质。它表达了al-Ḥusayn عليه السلام的崇高地位及其墓地的精神殊荣。"
-        },
         "tags": [
           "theology",
           "afterlife",

@@ -20,42 +20,29 @@
           "model": "phased_sonnet+gpt-5-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ ابْنِ مَحْبُوبٍ عَنْ عَبْدِ اللَّهِ بْنِ سِنَانٍ عَنْ أَبِي حَمْزَةَ عَنْ أَبِي جَعْفَرٍ (عَلَيْهِ السَّلَامُ) قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন ইয়াহইয়া, আহমদ ইবন মুহাম্মদ থেকে, ইবন মাহবুব থেকে, আবদুল্লাহ ইবন সিনান থেকে, আবু হামযা থেকে, আবু জাফর (আলাইহিস সালাম) থেকে বর্ণনা করেন, তিনি বলেছেন:",
-              "de": "Muhammad ibn Yahya, von Ahmad ibn Muhammad, von Ibn Mahbub, von Abdullah ibn Sinan, von Abu Hamza, von Abu Ja'far (Friede sei mit ihm), der sagte:",
-              "en": "Muhammad ibn Yahya, from Ahmad ibn Muhammad, from Ibn Mahbub, from Abdullah ibn Sinan, from Abu Hamza, from Abu Ja'far (peace be upon him), who said:",
-              "es": "Muhammad ibn Yahya, de Ahmad ibn Muhammad, de Ibn Mahbub, de Abdullah ibn Sinan, de Abu Hamza, de Abu Ja'far (la paz sea con él), quien dijo:",
-              "fa": "محمد بن یحیی، از احمد بن محمد، از ابن محبوب، از عبدالله بن سنان، از ابو حمزه، از ابو جعفر (علیه السلام) که فرمود:",
-              "fr": "Muhammad ibn Yahya, d’Ahmad ibn Muhammad, d’Ibn Mahbub, d’Abdullah ibn Sinan, d’Abu Hamza, d’Abu Ja'far (que la paix soit sur lui), qui a dit :",
-              "id": "Muhammad ibn Yahya, dari Ahmad ibn Muhammad, dari Ibn Mahbub, dari Abdullah ibn Sinan, dari Abu Hamza, dari Abu Ja'far (alaihis salam), yang berkata:",
-              "ru": "Мухаммад ибн Яхья, от Ахмада ибн Мухаммада, от Ибн Махбуба, от Абдуллаха ибн Синана, от Абу Хамзы, от Абу Джафара (мир ему), который сказал:",
-              "tr": "Muhammed ibn Yahya, Ahmed ibn Muhammed’den, İbn Mahbub’dan, Abdullah ibn Sinan’dan, Ebu Hamza’dan, Ebu Ca‘fer’den (aleyhisselam), şöyle dedi:",
-              "ur": "محمد بن یحیی، احمد بن محمد سے، ابن محبوب سے، عبداللہ بن سنان سے، ابو حمزہ سے، ابو جعفر (علیہ السلام) سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "穆罕默德·伊本·叶哈亚，传自艾哈迈德·伊本·穆罕默德，传自伊本·马赫布卜，传自阿卜杜拉·伊本·西南，传自阿布·哈姆扎，传自阿布·贾法尔（愿主赐他平安），他说："
-            },
             "word_end": 24,
             "word_start": 0
           },
           {
             "arabic_text": "لَا يُصِيبُ قَرْيَةً عَذَابٌ وَفِيهَا سَبْعَةٌ مِنَ الْمُؤْمِنِينَ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যতক্ষণ সেখানে মুমিনদের মধ্যে সাতজন থাকবে, ততক্ষণ কোনো জনপদের ওপর শাস্তি নাযিল হবে না।",
-              "de": "„Eine Stadt wird nicht von einer Strafe getroffen werden, solange sich dort sieben der Gläubigen befinden.“",
-              "en": "'A town would not be hit by a Punishment while there are seven from the Momineen therein.'",
-              "es": "'Una ciudad no será alcanzada por un castigo mientras haya en ella siete de los creyentes.'",
-              "fa": "تا زمانی که هفت نفر از مؤمنان در آن باشند، بر هیچ شهری عذاب نازل نمی‌شود.",
-              "fr": "« Une ville ne sera pas frappée par un châtiment tant qu’il s’y trouvera sept des croyants. »",
-              "id": "'Sebuah kota tidak akan ditimpa azab selama masih ada tujuh orang dari kaum mukminin di dalamnya.'",
-              "ru": "«На город не обрушится наказание, пока в нем находятся семеро из верующих».",
-              "tr": "'Müminlerden yedi kişi orada bulunduğu sürece bir beldeye azap isabet etmez.'",
-              "ur": "جب تک اس میں مومنین میں سے سات موجود ہوں، کسی بستی پر عذاب نہیں آتا۔",
-              "zh": "只要其中有七位信士，一座城就不会遭受惩罚。"
-            },
             "word_end": 32,
             "word_start": 24
           }
@@ -128,25 +115,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْمُؤْمِنِينَ": "The Momineen (believers) — those possessing true iman (faith), whose residence in a town constitutes a shield against divine chastisement",
-            "سَبْعَةٌ": "Seven — the minimum threshold of believers whose presence averts collective punishment from a community",
-            "عَذَابٌ": "Divine punishment or chastisement — the affliction sent by Allah upon a people as a consequence of their deeds",
-            "قَرْيَةً": "A town or settlement — any inhabited locality potentially subject to collective divine judgment",
-            "يُصِيبُ": "To strike or befall — used here for divinely ordained affliction reaching a community"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "قَرْيَةً",
+          "عَذَابٌ",
+          "سَبْعَةٌ",
+          "الْمُؤْمِنِينَ",
+          "يُصِيبُ"
+        ],
         "related_quran": [
           {
             "ref": "8:33",
@@ -161,32 +136,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিস অনুযায়ী মুমিনদের উপস্থিতি কি কোনো শহরকে আল্লাহর শাস্তি থেকে রক্ষা করে?",
-          "de": "Schützt die Anwesenheit von Gläubigen eine Stadt gemäß schiitischem Hadith vor göttlicher Strafe?",
-          "en": "Does the presence of believers protect a town from divine punishment according to Shia hadith?",
-          "es": "¿La presencia de creyentes protege a una ciudad del castigo divino según el hadiz chií?",
-          "fa": "آیا حضور مؤمنان بر اساس حدیث شیعه، یک شهر را از عذاب الهی حفظ می‌کند؟",
-          "fr": "La présence de croyants protège-t-elle une ville du châtiment divin selon le hadith chiite ?",
-          "id": "Apakah keberadaan orang-orang beriman melindungi suatu kota dari azab ilahi menurut hadis Syiah?",
-          "ru": "Защищает ли присутствие верующих город от божественного наказания согласно шиитскому хадису?",
-          "tr": "Müminlerin varlığı, Şii hadisine göre bir beldeyi ilahi azaptan korur mu?",
-          "ur": "کیا مومنین کی موجودگی شیا حدیث کے مطابق کسی بستی کو الٰہی عذاب سے محفوظ رکھتی ہے؟",
-          "zh": "根据什叶派圣训，信士的存在会保护一座城免受神罚吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ইমাম আবু জাফর (আলাইহিস সালাম)-এ পৌঁছানো একটি সনদের মাধ্যমে বর্ণিত হয়েছে যে, কোনো শহরে যতক্ষণ সাতজন সত্যিকারের মুমিন থাকবে, ততক্ষণ সেখানে আল্লাহর শাস্তি নাযিল হবে না। এই বর্ণনা মুমিনের মহান আধ্যাত্মিক মর্যাদা এবং বৃহত্তর সমাজের জন্য তাদেরকে আল্লাহ-নির্ধারিত সুরক্ষা হিসেবে প্রতিষ্ঠিত করে।",
-          "de": "Dieser Hadith, überliefert durch eine Kette, die zu Imam Abu Ja'far (Friede sei mit ihm) führt, besagt, dass keine Stadt von einer göttlichen Strafe getroffen wird, solange sich dort sieben wahre Gläubige befinden. Die Überlieferung bekräftigt den großen geistigen Wert des mu'min und ihre Funktion als von Allah bestimmte Schutzmacht für die weitere Gemeinschaft.",
-          "en": "This hadith, transmitted through a chain reaching Imam Abu Ja'far (عليه السلام), declares that divine punishment will not descend upon any town so long as seven true believers reside within it. The narration affirms the immense spiritual worth of the mu'min and their function as a divinely ordained protection for the broader community. It is a foundational statement in Shia theology regarding the mercy Allah extends to settlements on account of the faithful dwelling therein.",
-          "es": "Este hadiz, transmitido a través de una cadena que llega al Imam Abu Ja'far (la paz sea con él), declara que el castigo divino no descenderá sobre ninguna ciudad mientras en ella residan siete creyentes verdaderos. La narración afirma el inmenso valor espiritual del mu'min y su función como protección ordenada por Dios para la comunidad en general.",
-          "fa": "این حدیث با سندی که به امام ابو جعفر (علیه السلام) می‌رسد بیان می‌کند که تا زمانی که هفت مؤمن راستین در یک شهر باشند، عذاب الهی بر آن نازل نمی‌شود. این روایت ارزش عظیم معنوی مؤمن و نقش او را به‌عنوان حفاظی الهی برای جامعه گسترده‌تر تأیید می‌کند.",
-          "fr": "Ce hadith, transmis par une chaîne remontant à l’imam Abu Ja'far (que la paix soit sur lui), déclare que le châtiment divin ne s’abattra sur aucune ville tant que sept croyants sincères y résideront. Le récit affirme l’immense valeur spirituelle du mu'min et leur rôle de protection décrétée par Allah pour la communauté dans son ensemble.",
-          "id": "Hadis ini, yang diriwayatkan melalui sebuah sanad yang sampai kepada Imam Abu Ja'far (alaihis salam), menyatakan bahwa azab ilahi tidak akan turun kepada suatu kota selama masih ada tujuh orang mukmin sejati di dalamnya. Riwayat ini menegaskan nilai spiritual yang sangat besar dari seorang mu'min dan peran mereka sebagai perlindungan yang ditetapkan Allah bagi masyarakat yang lebih luas.",
-          "ru": "Этот хадис, переданный через цепочку, восходящую к имаму Абу Джафару (мир ему), утверждает, что божественное наказание не сойдет на какой-либо город, пока в нем проживают семь истинных верующих. Предание подтверждает огромную духовную ценность му'мина и их роль как установленной Аллахом защиты для более широкого общества.",
-          "tr": "Bu hadis, İmam Ebu Ca‘fer’e (aleyhisselam) ulaşan bir senetle, bir beldede yedi gerçek mümin bulunduğu sürece ilahi azabın oraya inmeyeceğini bildirir. Rivayet, müminin büyük manevi değerini ve onların daha geniş toplum için Allah tarafından takdir edilmiş bir koruma işlevi gördüğünü teyit eder.",
-          "ur": "یہ حدیث امام ابو جعفر (علیہ السلام) تک پہنچنے والی سند کے ساتھ بیان کرتی ہے کہ جب تک کسی بستی میں سات سچے مومن موجود ہوں، اس پر الٰہی عذاب نازل نہیں ہوتا۔ یہ روایت مومن کی عظیم روحانی قدر اور اس کے ذریعے پوری بستی کے لیے اللہ کی عطا کردہ حفاظت کو واضح کرتی ہے۔",
-          "zh": "这段圣训通过一条传至伊玛目阿布·贾法尔（愿主赐他平安）的传述链，说明只要一座城中还有七位真正的信士，神罚就不会降临其上。该传述肯定了穆民极大的精神价值，以及他们作为真主为更广泛社群所设立的保护作用。"
-        },
         "tags": [
           "theology",
           "ethics",

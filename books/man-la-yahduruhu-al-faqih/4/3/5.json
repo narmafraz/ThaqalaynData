@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَرَوَى هِشَامٌ وَحَفْصٌ وَحَمَّادُ بْنُ عُثْمَانَ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ أَنَّهُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "হিশাম, হাফস, এবং হাম্মাদ ইবনে উসমান আবু আবদুল্লাহ عليه السلام থেকে বর্ণনা করেছেন যে তিনি বললেন:",
-              "de": "Hisham, Hafs und Hammad ibn Uthman berichteten von Abu Abdullah عليه السلام, dass er sagte:",
-              "en": "Hisham, Hafs, and Hammad ibn Uthman narrated from Abu Abdullah عليه السلام that he said:",
-              "es": "Hisham, Hafs y Hammad ibn Uthman narraron de Abu Abdullah عليه السلام que dijo:",
-              "fa": "هشام، حفص و حماد بن عثمان از ابوعبدالله علیه السلام نقل کردند که فرمود:",
-              "fr": "Hisham, Hafs et Hammad ibn Uthman ont rapporté d'Abu Abdullah عليه السلام qu'il a dit :",
-              "id": "Hisham, Hafs, dan Hammad ibn Uthman meriwayat dari Abu Abdullah عليه السلام bahwa beliau berkata:",
-              "ru": "Хишам, Хафс и Хаммад ибн Усман передали от Абу Абдуллаха عليه السلام, что он сказал:",
-              "tr": "Hişam, Hafs ve Hammad ibn Uthman, Ebu Abdullah عليه السلام'dan rivayet ettiler ki şöyle dedi:",
-              "ur": "ہشام، حفص، اور حماد بن عثمان نے ابو عبداللہ علیہ السلام سے روایت کی کہ انہوں نے فرمایا:",
-              "zh": "希沙姆、哈夫斯和哈马德伊本乌斯曼从阿布阿卜杜拉 عليه السلام传述说："
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "مَا يَأْمَنُ الَّذِينَ يَنْظُرُونَ فِي أَدْبَارِ النِّسَاءِ أَنْ يُبْتَلَوْا بِذَلِكَ فِي نِسَائِهِمْ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে লোকেরা নারীদের পেছনের দিকে তাকায়, তারা কি তাদের নিজের নারীদের মধ্যে এ ধরনের বিপদ থেকে নিরাপদ থাকতে পারে?",
-              "de": "Sind diejenigen, die auf die Rücken der Frauen schauen, davor sicher, dass ihnen das bei ihren eigenen Frauen widerfährt?",
-              "en": "Are those who look at the backs of women secure from being afflicted with that in their own women?",
-              "es": "¿Están seguros aquellos que miran la espalda de las mujeres de no ser afectados por eso en sus propias mujeres?",
-              "fa": "آیا کسانی که به پشت زنان نگاه می‌کنند، از ابتلا به آن در زنان خود ایمن هستند؟",
-              "fr": "Ceux qui regardent le dos des femmes sont-ils à l'abri d'être éprouvés par cela dans leurs propres femmes ?",
-              "id": "Apakah orang-orang yang melihat punggung wanita aman dari terkena hal itu pada wanita mereka sendiri?",
-              "ru": "Могут ли те, кто смотрит на спины женщин, быть уверены, что это не коснется их собственных жен?",
-              "tr": "Kadınların arkasına bakanlar, kendi kadınlarında da bu tür bir musibete uğramaktan emin olabilirler mi?",
-              "ur": "کیا وہ لوگ جو عورتوں کی پشت کی طرف دیکھتے ہیں، اپنے ہی عورتوں میں اس قسم کی آزمائش سے محفوظ رہ سکتے ہیں؟",
-              "zh": "那些看女人背部的人能否确保自己的女人不会因此受到考验？"
-            },
             "word_end": 26,
             "word_start": 14
           }
@@ -111,24 +98,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَدْبَارِ النِّسَاءِ": "the backs or rear aspect of women; a reference to lustful or improper looking",
-            "نِسَائِهِمْ": "their own women, meaning the women of their household",
-            "يَنْظُرُونَ": "they look; here it means directing one's gaze in an improper way",
-            "يُبْتَلَوْا": "to be afflicted or tested with the like of it"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَدْبَارِ النِّسَاءِ",
+          "يَنْظُرُونَ",
+          "يُبْتَلَوْا",
+          "نِسَائِهِمْ"
+        ],
         "related_quran": [
           {
             "ref": "24:30",
@@ -143,32 +118,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام নারীদের প্রতি অশ্লীল দৃষ্টির বিষয়ে কী শিক্ষা দেন?",
-          "de": "Was lehrt Imam al-Sadiq عليه السلام über unanständiges Betrachten von Frauen?",
-          "en": "What does Imam al-Sadiq عليه السلام teach about looking at women indecently?",
-          "es": "¿Qué enseña el Imam al-Sadiq عليه السلام sobre mirar a las mujeres indecentemente?",
-          "fa": "امام صادق علیه السلام درباره نگاه نامناسب به زنان چه می‌آموزد؟",
-          "fr": "Que enseigne l'Imam al-Sadiq عليه السلام à propos du regard indécent envers les femmes ?",
-          "id": "Apa yang diajarkan Imam al-Sadiq عليه السلام tentang memandang wanita secara tidak sopan?",
-          "ru": "Что учит Имам ас-Садик عليه السلام о непристойном взгляде на женщин?",
-          "tr": "İmam Sadık عليه السلام kadınlara edebe aykırı bakış hakkında ne öğretiyor?",
-          "ur": "امام الصادق علیہ السلام عورتوں کو بے حیائی سے دیکھنے کے بارے میں کیا تعلیم دیتے ہیں؟",
-          "zh": "伊玛目萨迪克 عليه السلام关于不正当地看待女性教导了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস নারীদের প্রতি অশ্লীল দৃষ্টির বিরুদ্ধে সতর্ক করে এবং স্মরণ করিয়ে দেয় যে ভুল আচরণ নিজের পরিবারের উপর প্রভাব ফেলতে পারে। এটি নৈতিক নিয়ন্ত্রণ, লজ্জা এবং সঠিক সীমা লঙ্ঘনের সামাজিক পরিণতি সম্পর্কে সচেতনতা শেখায়।",
-          "de": "Dieser Hadith warnt vor unanständigem Blick auf Frauen und erinnert daran, dass Fehlverhalten auf das eigene Haus zurückfallen kann. Er lehrt moralische Zurückhaltung, Bescheidenheit und das Bewusstsein für die sozialen Folgen der Verletzung angemessener Grenzen.",
-          "en": "This hadith warns against indecent looking at women by reminding a person that wrongful conduct may return to affect his own household. It teaches moral restraint, modesty, and awareness of the social consequences of violating proper boundaries.",
-          "es": "Este hadiz advierte contra la mirada indecente hacia las mujeres recordando que la conducta incorrecta puede afectar al propio hogar. Enseña autocontrol moral, modestia y conciencia de las consecuencias sociales de violar los límites adecuados.",
-          "fa": "این حدیث نسبت به نگاه نامناسب به زنان هشدار می‌دهد و یادآور می‌شود که رفتار نادرست ممکن است به خانواده خود فرد بازگردد. این حدیث آموزش خودکنترلی اخلاقی، حیا و آگاهی از پیامدهای اجتماعی نقض حدود صحیح را می‌دهد.",
-          "fr": "Ce hadith met en garde contre le regard indécent envers les femmes en rappelant qu'un comportement fautif peut affecter son propre foyer. Il enseigne la retenue morale, la modestie et la conscience des conséquences sociales de la violation des limites appropriées.",
-          "id": "Hadis ini memperingatkan agar tidak memandang wanita dengan cara yang tidak sopan dan mengingatkan bahwa perilaku salah dapat kembali mempengaruhi keluarga sendiri. Mengajarkan pengendalian moral, kesopanan, dan kesadaran akan konsekuensi sosial pelanggaran batas yang benar.",
-          "ru": "Этот хадис предупреждает против непристойного взгляда на женщин, напоминая, что неправильное поведение может отразиться на собственном доме. Он учит моральной сдержанности, скромности и осознанию социальных последствий нарушения надлежащих границ.",
-          "tr": "Bu hadis, kadınlara edebe aykırı bakışlardan sakındırır ve yanlış davranışların kendi ailesine de yansıyabileceğini hatırlatır. Ahlaki ölçülülük, haya ve uygun sınırların ihlalinin sosyal sonuçlarına dikkat çeker.",
-          "ur": "یہ حدیث عورتوں کی بے حیائی سے دیکھنے کے خلاف خبردار کرتی ہے اور یاد دلاتی ہے کہ غلط عمل اپنے گھر میں اثر انداز ہو سکتا ہے۔ یہ اخلاقی ضبط، حیا، اور مناسب حدود کی خلاف ورزی کے سماجی نتائج کی آگاہی سکھاتی ہے۔",
-          "zh": "这段圣训警告不要对女性不正当地注视，提醒人们错误行为可能影响自己的家庭。它教导道德克制、谦逊以及意识到违反适当界限的社会后果。"
-        },
         "tags": [
           "ethics",
           "family",

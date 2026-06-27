@@ -21,61 +21,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ الْحُسَيْنِ وَعَلِيُّ بْنُ مُحَمَّدٍ عَنْ سَهْلِ بْنِ زِيَادٍ عَنْ عَلِيِّ بْنِ مَهْزِيَارَ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবনুল-হুসাইন ও আলী ইবন মুহাম্মদ, সahl ইবন জিয়াদ থেকে, তিনি আলী ইবন মাহযিয়ার থেকে, তিনি বলেন:",
-              "de": "Muhammad ibn al-Husayn und Ali ibn Muhammad, von Sahl ibn Ziyad, von Ali ibn Mahziyar, der sagte:",
-              "en": "Muḥammad ibn al-Ḥusayn and ʿAlī ibn Muḥammad, from Sahl ibn Ziyād, from ʿAlī ibn Mahziyār, who said:",
-              "es": "Muhammad ibn al-Husayn y Ali ibn Muhammad, de Sahl ibn Ziyad, de Ali ibn Mahziyar, quien dijo:",
-              "fa": "محمد بن حسین و علی بن محمد، از سهل بن زیاد، از علی بن مهزیار، که گفت:",
-              "fr": "Muhammad ibn al-Husayn et Ali ibn Muhammad, d’après Sahl ibn Ziyad, d’après Ali ibn Mahziyar, qui a dit :",
-              "id": "Muhammad ibn al-Husayn dan Ali ibn Muhammad, dari Sahl ibn Ziyad, dari Ali ibn Mahziyar, ia berkata:",
-              "ru": "Мухаммад ибн аль-Хусайн и Али ибн Мухаммад, от Сахля ибн Зияда, от Али ибн Махзияра, который сказал:",
-              "tr": "Muhammed ibn el-Hüseyin ve Ali ibn Muhammed, Sahl ibn Ziyad’dan, o da Ali ibn Mehziyar’dan, o da şöyle dedi:",
-              "ur": "محمد بن الحسن اور علی بن محمد، سہل بن زیاد سے، وہ علی بن مہزیار سے، انہوں نے کہا:",
-              "zh": "穆罕默德·伊本·侯赛因和阿里·伊本·穆罕默德，传自萨赫勒·伊本·齐亚德，传自阿里·伊本·马赫齐亚尔，他说："
-            },
             "word_end": 15,
             "word_start": 0
           },
           {
             "arabic_text": "كَتَبْتُ إِلَيْهِ: يَا سَيِّدِي، رَجُلٌ دُفِعَ إِلَيْهِ مَالٌ يَحُجُّ بِهِ، هَلْ عَلَيْهِ فِي ذَلِكَ الْمَالِ حِينَ يَصِيرُ إِلَيْهِ الْخُمُسُ، أَوْ عَلَى مَا فَضَلَ فِي يَدِهِ بَعْدَ الْحَجِّ؟",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁর কাছে লিখলাম: ‘হে আমার মাওলা! এক ব্যক্তিকে কিছু সম্পদ দেওয়া হয়, যাতে সে তা দিয়ে হজ করে। সেই সম্পদ যখন তার হাতে আসে, তখন কি তার ওপর খুমস ফরজ হয়, নাকি হজের পর তার হাতে যা অবশিষ্ট থাকে তার ওপর?’",
-              "de": "Ich schrieb ihm: „O mein Herr! Einem Mann wird Vermögen gegeben, damit er damit die Hadsch vollzieht. Ist auf dieses Vermögen Khums fällig, wenn es in seinen Besitz gelangt, oder auf das, was nach der Hadsch in seiner Hand übrig bleibt?“",
-              "en": "I wrote to him: ‘O my Master! A man is given some wealth with which he is to perform hajj. Is khums due upon him regarding that wealth when it comes into his possession, or upon what remains in his hand after the hajj?’",
-              "es": "Le escribí: ‘¡Oh, mi señor! A un hombre se le entrega una cantidad de bienes para que realice el hajj con ellos. ¿Es debido el khums sobre esos bienes cuando llegan a su posesión, o sobre lo que le quede en la mano después del hajj?’",
-              "fa": "به او نوشتم: «ای سرور من! به مردی مالی داده می‌شود تا با آن حج به‌جا آورد. آیا هنگامی که آن مال به دست او می‌رسد، خمس بر او واجب است، یا بر آنچه پس از حج در دستش باقی می‌ماند؟»",
-              "fr": "Je lui écrivis : « Ô mon maître ! On remet à un homme des biens afin qu’il accomplisse le hajj avec eux. Le khums est-il dû sur ces biens lorsqu’ils lui parviennent, ou sur ce qui lui reste en main après le hajj ? »",
-              "id": "Aku menulis kepadanya: ‘Wahai tuanku! Seorang laki-laki diberi sejumlah harta untuk ia berhaji dengannya. Apakah khums wajib atasnya pada harta itu ketika harta itu menjadi miliknya, atau pada apa yang tersisa di tangannya setelah haji?’",
-              "ru": "Я написал ему: «О мой господин! Одному человеку дают имущество, чтобы он совершил на него хадж. Обязан ли он выплачивать хумс с этого имущества, когда оно переходит к нему, или с того, что останется у него после хаджа?»",
-              "tr": "Ona yazdım: ‘Ey efendim! Bir adama, onunla hac yapması için bir miktar mal veriliyor. Bu mal, onun eline geçtiğinde onun üzerinde humus var mıdır, yoksa hacdan sonra elinde kalan şey üzerinde mi?’",
-              "ur": "میں نے ان کی طرف لکھا: ‘اے میرے مولا! ایک شخص کو کچھ مال دیا جاتا ہے تاکہ وہ اس سے حج کرے۔ کیا اس مال پر، جب وہ اس کے قبضے میں آ جائے، خمس واجب ہے، یا اس پر جو حج کے بعد اس کے ہاتھ میں باقی رہ جائے؟’",
-              "zh": "我写信给他：‘我的主人啊！有人被交付一些财物，让他用来朝觐。那笔财物一到他手中，是否就应缴纳五分之一，还是只对朝觐后他手中剩余的部分缴纳？’"
-            },
             "word_end": 42,
             "word_start": 15
           },
           {
             "arabic_text": "فَكَتَبَ عَلَيْهِ السَّلَامُ: لَيْسَ عَلَيْهِ الْخُمُسُ.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তখন তিনি عليه السلام লিখলেন: ‘তার ওপর খুমস নেই।’",
-              "de": "Da schrieb er عليه السلام: „Auf ihm ist kein Khums.“",
-              "en": "So he عليه السلام wrote: ‘Khums is not upon him.’",
-              "es": "Entonces él عليه السلام escribió: ‘No hay khums sobre él.’",
-              "fa": "پس او عليه السلام نوشت: «بر او خمس نیست.»",
-              "fr": "Alors il عليه السلام écrivit : « Il n’y a pas de khums sur lui. »",
-              "id": "Maka beliau عليه السلام menulis: ‘Tidak ada khums atasnya.’",
-              "ru": "Тогда он عليه السلام написал: «На нём нет хумса».",
-              "tr": "Bunun üzerine o عليه السلام şöyle yazdı: ‘Onun üzerinde humus yoktur.’",
-              "ur": "تو انہوں نے عليه السلام لکھا: ‘اس پر خمس نہیں ہے۔’",
-              "zh": "于是他 عليه السلام写道：‘他不必缴纳五分之一。’"
-            },
             "word_end": 48,
             "word_start": 42
           }
@@ -134,26 +108,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْخُمُسُ": "the one-fifth tax due on certain categories of wealth",
-            "بَعْدَ الْحَجِّ": "after the completion of hajj",
-            "فَضَلَ": "what remained or was left over",
-            "لَيْسَ": "indicates negation in the ruling",
-            "مَالٌ": "wealth or money given for a purpose",
-            "يَحُجُّ": "to perform hajj (pilgrimage)"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَحُجُّ",
+          "مَالٌ",
+          "الْخُمُسُ",
+          "فَضَلَ",
+          "بَعْدَ الْحَجِّ",
+          "لَيْسَ"
+        ],
         "related_quran": [
           {
             "ref": "8:41",
@@ -164,32 +126,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হজ করার জন্য বিশেষভাবে দেওয়া অর্থের ওপর কি খুমস ফরজ?",
-          "de": "Ist auf Geld, das speziell für die Hadsch gegeben wurde, Khums fällig?",
-          "en": "Is khums due on money given to someone specifically to perform hajj?",
-          "es": "¿Es obligatorio el khums sobre el dinero dado específicamente para realizar el hajj?",
-          "fa": "آیا بر مالی که مخصوص حج داده شده، خمس واجب است؟",
-          "fr": "Le khums est-il dû sur l’argent donné spécialement pour accomplir le hajj ?",
-          "id": "Apakah khums wajib atas uang yang diberikan khusus untuk berhaji?",
-          "ru": "Обязателен ли хумс с денег, данных специально для совершения хаджа?",
-          "tr": "Hac yapmak için özel olarak verilen parada humus gerekir mi?",
-          "ur": "کیا حج کرنے کے لیے خاص طور پر دیے گئے مال پر خمس واجب ہے؟",
-          "zh": "专门用于朝觐的钱财是否需要缴纳五分之一？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে এমন সম্পদের ওপর খুমসের বিধান আলোচনা করা হয়েছে, যা কাউকে বিশেষভাবে হজ করার জন্য দেওয়া হয়। ইমাম عليه السلام জবাব দিয়েছেন যে এই ক্ষেত্রে তার ওপর খুমস ফরজ নয়, অর্থাৎ ইবাদতের জন্য নির্দিষ্ট বা আমানত হিসেবে দেওয়া সম্পদের বিষয়ে একটি বিধান বর্ণিত হয়েছে।",
-          "de": "Dieser Hadith behandelt die Rechtsfrage des Khums bei Vermögen, das einer Person speziell für die Hadsch gegeben wird. Der Imam عليه السلام antwortet, dass in diesem Fall kein Khums auf ihm lastet, und erläutert damit eine Regel zu anvertrauten oder für den Gottesdienst bestimmten Mitteln.",
-          "en": "This hadith addresses a legal question about khums on wealth given to a person specifically for performing hajj. The Imam عليه السلام replies that khums is not due upon him in this case, indicating a ruling concerning entrusted or designated funds for worship.",
-          "es": "Este hadiz trata sobre la norma del khums respecto de un bien entregado a una persona específicamente para realizar el hajj. El Imam عليه السلام responde que en este caso no le corresponde khums, indicando una norma relativa a fondos confiados o destinados para la adoración.",
-          "fa": "این حدیث درباره حکم خمس بر مالی است که به شخصی به‌طور خاص برای انجام حج داده می‌شود. امام عليه السلام پاسخ می‌دهد که در این مورد خمس بر او واجب نیست، و این بیانگر حکمی درباره اموال سپرده‌شده یا اختصاص‌یافته برای عبادت است.",
-          "fr": "Ce hadith traite de la règle du khums concernant des biens remis à une personne spécialement pour accomplir le hajj. L’Imam عليه السلام répond que, dans ce cas, le khums n’est pas dû, indiquant ainsi une règle relative à des fonds confiés ou affectés à l’adoration.",
-          "id": "Hadis ini membahas hukum khums atas harta yang diberikan kepada seseorang khusus untuk menunaikan haji. Imam عليه السلام menjawab bahwa dalam kasus ini khums tidak wajib atasnya, yang menunjukkan hukum terkait harta titipan atau harta yang ditentukan untuk ibadah.",
-          "ru": "Этот хадис касается нормы хумса в отношении имущества, которое дают человеку специально для совершения хаджа. Имам عليه السلام отвечает, что в этом случае хумс с него не взимается, указывая на постановление относительно доверенных или предназначенных для поклонения средств.",
-          "tr": "Bu hadis, bir kişiye özellikle hac yapması için verilen mal üzerinde humus hükmünü ele alır. İmam عليه السلام, bu durumda onun üzerinde humus olmadığını söyleyerek ibadet için tahsis edilmiş veya emanet edilmiş mallara dair bir hüküm بیان eder.",
-          "ur": "یہ حدیث اس مال پر خمس کے حکم سے متعلق ہے جو کسی شخص کو خاص طور پر حج کرنے کے لیے دیا جائے۔ امام عليه السلام نے جواب دیا کہ اس صورت میں اس پر خمس واجب نہیں، یعنی عبادت کے لیے مخصوص یا امانتاً دیے گئے مال کے بارے میں حکم بیان فرمایا گیا ہے۔",
-          "zh": "这段圣训讨论的是：有人被专门交付财物用于朝觐时，该财物是否应缴纳五分之一。伊玛目 عليه السلام回答说，在这种情况下不必缴纳五分之一，说明了关于托付或专用于宗教功修之财物的判定。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

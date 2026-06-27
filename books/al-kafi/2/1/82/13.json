@@ -14,6 +14,143 @@
       "up": "/books/al-kafi:2:1:82"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "الْحُسَيْنُ بْنُ مُحَمَّدٍ عَنْ أَحْمَدَ بْنِ إِسْحَاقَ عَنْ سَعْدَانَ بْنِ مُسْلِمٍ عَنْ عَبْدِ اللَّهِ بْنِ سِنَانٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 17,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "كَانَ رَجُلٌ عِنْدَ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) فَقَرَأَ هَذِهِ الْآيَةَ وَ الَّذِينَ يُؤْذُونَ الْمُؤْمِنِينَ وَ الْمُؤْمِناتِ بِغَيْرِ مَا اكْتَسَبُوا فَقَدِ احْتَمَلُوا بُهْتاناً وَ إِثْمَاً مُبِيناً",
+            "chunk_type": "body",
+            "word_end": 45,
+            "word_start": 17
+          },
+          {
+            "arabic_text": "قَالَ فَقَالَ أَبُو عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) فَمَا ثَوَابُ مَنْ أَدْخَلَ عَلَيْهِ السُّرُورَ",
+            "chunk_type": "body",
+            "word_end": 60,
+            "word_start": 45
+          },
+          {
+            "arabic_text": "فَقُلْتُ جُعِلْتُ فِدَاكَ عَشْرُ حَسَنَاتٍ",
+            "chunk_type": "body",
+            "word_end": 65,
+            "word_start": 60
+          },
+          {
+            "arabic_text": "فَقَالَ إِي وَ اللَّهِ وَ أَلْفُ أَلْفِ حَسَنَةٍ.",
+            "chunk_type": "closing",
+            "word_end": 73,
+            "word_start": 65
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 20,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنُ بْنُ مُحَمَّدٍ",
+              "name_en": "Al-Husayn ibn Muhammad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 186,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ إِسْحَاقَ",
+              "name_en": "Ahmad ibn Ishaq",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 255,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "سَعْدَانَ بْنِ مُسْلِمٍ",
+              "name_en": "Sa'dan ibn Muslim",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 31,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللَّهِ بْنِ سِنَانٍ",
+              "name_en": "Abdullah b. Sinan",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "بُهْتاناً",
+          "إِثْماً مُبِيناً",
+          "السُّرُورَ",
+          "ثَوَابُ",
+          "حَسَنَاتٍ"
+        ],
+        "related_quran": [
+          {
+            "ref": "33:58",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "9:117",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "59:10",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "quran_commentary",
+          "social_relations"
+        ],
+        "topics": [
+          "quran_interpretation_method",
+          "rights_of_others",
+          "paradise_hell"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (9/99)"
       ],
@@ -81,7 +218,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:1:82:13",

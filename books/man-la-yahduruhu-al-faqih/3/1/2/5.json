@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "٣٥١١ - وَرَوَى ٱبْنُ مُسْكَانَ عَنْ سُلَيْمَانَ بْنِ خَالِدٍ عَنْ بَعْضِهِمْ عَلَيْهِمُ ٱلسَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "৩৫১১ - ইবনে মুসকান সুলাইমান ইবনে খালিদ থেকে, তাদের মধ্যে কিছু থেকে, আলাইহিমুস সালাম, বর্ণনা করেছেন:",
-              "de": "3511 - Ibn Muskan berichtete von Sulayman ibn Khalid, von einigen von ihnen, Friede sei mit ihnen, der sagte:",
-              "en": "3511 - Ibn Muskan narrated from Sulayman ibn Khalid, from some of them, peace be upon them, who said:",
-              "es": "3511 - Ibn Muskan narró de Sulayman ibn Khalid, de algunos de ellos, la paz sea con ellos, que dijo:",
-              "fa": "۳۵۱۱ - ابن مسکان از سلیمان بن خالد، از برخی از آنها، علیهم السلام، روایت کرده است که گفت:",
-              "fr": "3511 - Ibn Muskan a rapporté de Sulayman ibn Khalid, de certains d'entre eux, paix sur eux, qui a dit :",
-              "id": "3511 - Ibnu Muskan meriwayatkan dari Sulayman ibn Khalid, dari sebagian mereka, semoga keselamatan atas mereka, berkata:",
-              "ru": "3511 - Ибн Мускан передал от Сулеймана ибн Халида, от некоторых из них, мир им, что сказал:",
-              "tr": "3511 - İbn Muskan, Süleyman bin Halid'den, onlardan bazıları, Allah'ın selamı üzerlerine olsun, şöyle dedi:",
-              "ur": "3511 - ابن مسکان نے سلیمان بن خالد سے روایت کی، ان میں سے بعض سے، علیہم السلام، جنہوں نے فرمایا:",
-              "zh": "3511-伊本穆斯坎从苏莱曼本哈立德传述，来自他们中的一些人，愿他们平安，说："
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "كَانَ عَلِيٌّ عَلَيْهِ ٱلسَّلَامُ إِذَا مَاتَ ٱلرَّجُلُ وَلَهُ ٱمْرَأَةٌ مَمْلُوكَةٌ ٱشْتَرَاهَا مِنْ مَالِهِ فَأَعْتَقَهَا ثُمَّ وَرَّثَهَا.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আলী, আলাইহিস সালাম, যখন কোনো পুরুষ মারা যেত এবং তার একটি দাসী স্ত্রী থাকত, তিনি তাকে তার সম্পত্তি থেকে কিনে মুক্ত করতেন এবং তারপর তাকে উত্তরাধিকারী বানাতেন।",
-              "de": "Ali, Friede sei mit ihm, wenn ein Mann starb und eine Sklavenfrau hatte, kaufte er sie aus seinem Besitz, befreite sie und machte sie dann zur Erbin.",
-              "en": "Ali, peace be upon him, when a man died and had a wife who was a slave, would purchase her from his estate, emancipate her, and then make her an heir.",
-              "es": "Alí, la paz sea con él, cuando un hombre moría y tenía una esposa esclava, la compraba de su patrimonio, la emancipaba y luego la convertía en heredera.",
-              "fa": "علی علیه السلام، هنگامی که مردی می‌مرد و همسری برده داشت، او را از مال او می‌خرید، آزاد می‌کرد و سپس او را وارث قرار می‌داد.",
-              "fr": "Ali, paix sur lui, lorsqu'un homme mourait et avait une épouse esclave, il l'achetait de ses biens, la libérait, puis la désignait comme héritière.",
-              "id": "Ali, alaihis salam, ketika seorang pria meninggal dan memiliki istri yang budak, akan membelinya dari hartanya, memerdekakannya, dan kemudian menjadikannya ahli waris.",
-              "ru": "Али, мир ему, когда у мужчины умирал и была жена-рабыня, покупал её из его имущества, освобождал и затем делал её наследницей.",
-              "tr": "Ali, aleyhisselam, bir adam öldüğünde ve onun köle bir eşi olduğunda, onu malından satın alır, azad eder ve sonra mirasçı yapardı.",
-              "ur": "علی علیہ السلام، جب کوئی مرد فوت ہو جاتا اور اس کی ایک غلام بیوی ہوتی، تو وہ اسے اس کی جائیداد سے خرید کر آزاد کر دیتا اور پھر اسے وارث بنا دیتا۔",
-              "zh": "阿里，愿他平安，当一名男子去世且有一名奴隶妻时，会从其财产中购买她，解放她，然后使她成为继承人。"
-            },
             "word_end": 30,
             "word_start": 14
           }
@@ -106,24 +93,12 @@
             "phrase_en": "Peace be upon them"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "فَأَعْتَقَهَا": "then he emancipated her",
-            "مَالِهِ": "his estate or property left behind",
-            "مَمْلُوكَةٌ": "a female slave legally owned",
-            "وَرَّثَهَا": "he made her inherit"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "مَمْلُوكَةٌ",
+          "مَالِهِ",
+          "فَأَعْتَقَهَا",
+          "وَرَّثَهَا"
+        ],
         "related_quran": [
           {
             "ref": "4:12",
@@ -138,32 +113,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আলী عليه السلام মৃত স্বামীর দাসী স্ত্রী সম্পর্কে কী সিদ্ধান্ত দিয়েছিলেন?",
-          "de": "Was entschied Imam Ali عليه السلام bezüglich einer Sklavenfrau, wenn ihr Ehemann starb?",
-          "en": "What did Imam Ali عليه السلام rule regarding a slave-wife when her husband died?",
-          "es": "¿Qué dictaminó el Imam Ali عليه السلام respecto a la esposa esclava cuando su esposo murió?",
-          "fa": "امام علی علیه السلام درباره همسر برده وقتی شوهرش فوت می‌کرد چه حکمی داد؟",
-          "fr": "Que jugeait l'Imam Ali عليه السلام concernant l'épouse esclave lorsque son mari mourait ?",
-          "id": "Apa hukum Imam Ali عليه السلام mengenai istri budak ketika suaminya meninggal?",
-          "ru": "Какое решение принял Имам Али عليه السلام относительно рабыни-жены после смерти её мужа?",
-          "tr": "İmam Ali عليه السلام, kocasının ölümü durumunda köle eş hakkında ne hükmetti?",
-          "ur": "امام علی علیہ السلام نے غلام بیوی کے بارے میں کیا حکم دیا جب اس کا شوہر فوت ہو گیا؟",
-          "zh": "伊玛目阿里 عليه السلام对奴隶妻子在丈夫去世时作何裁决？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ইমাম আলী عليه السلام-এর একটি আইনি প্রথার বর্ণনা দেয় যা মৃত পুরুষের দাসী স্ত্রী সম্পর্কে। তাকে মৃতের সম্পত্তি থেকে কিনে মুক্ত করা হতো এবং তারপর উত্তরাধিকারীর মধ্যে অন্তর্ভুক্ত করা হতো, যা মুক্তি ও উত্তরাধিকার সম্পর্কিত একটি বিধানকে প্রতিফলিত করে।",
-          "de": "Dieser Hadith berichtet über eine rechtliche Praxis, die Imam Ali عليه السلام zugeschrieben wird, bezüglich der Sklavenfrau eines verstorbenen Mannes. Sie wurde aus dem Nachlass des Verstorbenen gekauft, befreit und dann als Erbin eingesetzt, was eine Regelung zur Befreiung und Erbschaft widerspiegelt.",
-          "en": "This hadith reports a legal practice attributed to Imam Ali عليه السلام regarding a deceased man's slave-wife. She would be purchased from the deceased's estate, freed, and then included among the heirs, reflecting a ruling related to emancipation and inheritance.",
-          "es": "Este hadiz informa sobre una práctica legal atribuida al Imam Ali عليه السلام respecto a la esposa esclava de un hombre fallecido. Ella sería comprada del patrimonio del difunto, emancipada y luego incluida entre los herederos, reflejando una regla relacionada con la emancipación y la herencia.",
-          "fa": "این حدیث گزارشی از یک عمل حقوقی منسوب به امام علی علیه السلام درباره همسر برده مرد متوفی است. او از مال متوفی خریداری شده، آزاد می‌شد و سپس در میان وراث قرار می‌گرفت که حکمی مرتبط با آزادی و ارث را نشان می‌دهد.",
-          "fr": "Ce hadith rapporte une pratique juridique attribuée à l'Imam Ali عليه السلام concernant l'épouse esclave d'un homme décédé. Elle était achetée sur la succession du défunt, affranchie, puis incluse parmi les héritiers, reflétant une règle liée à l'affranchissement et à l'héritage.",
-          "id": "Hadis ini melaporkan sebuah praktik hukum yang dikaitkan dengan Imam Ali عليه السلام mengenai istri budak dari seorang pria yang meninggal. Dia dibeli dari harta almarhum, dibebaskan, dan kemudian dimasukkan sebagai ahli waris, mencerminkan hukum terkait pembebasan dan warisan.",
-          "ru": "Этот хадис сообщает о правовой практике, приписываемой Имаму Али عليه السلام, касающейся рабыни, жены умершего мужчины. Ее покупали из имущества умершего, освобождали и затем включали в число наследников, отражая правило, связанное с освобождением и наследованием.",
-          "tr": "Bu hadis, İmam Ali aleyhisselam'a atfedilen, vefat eden bir erkeğin köle karısı hakkında bir hukuki uygulamayı bildirir. Kadın, ölenin malından satın alınır, azad edilir ve sonra mirasçılar arasında yer alır; bu, azat etme ve mirasla ilgili bir hükmü yansıtır.",
-          "ur": "یہ حدیث امام علی علیہ السلام کے ایک قانونی عمل کی اطلاع دیتی ہے جو فوت شدہ مرد کی غلام بیوی کے بارے میں ہے۔ اسے مرد کی جائیداد سے خرید کر آزاد کیا جاتا اور پھر وارثوں میں شامل کیا جاتا، جو آزادی اور وراثت سے متعلق حکم کی عکاسی کرتا ہے۔",
-          "zh": "这段圣训报告了归于伊玛目阿里 عليه السلام的一项法律实践，涉及已故男子的奴隶妻。她会从亡者的财产中被购买，获得解放，然后成为继承人，反映了与解放和继承相关的判决。"
-        },
         "tags": [
           "jurisprudence",
           "family",

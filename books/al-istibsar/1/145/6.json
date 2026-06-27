@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "فَأَمَّا مَا رَوَاهُ الْحُسَيْنُ بْنُ سَعِيدٍ عَنْ فَضَالَةَ عَنْ مُعَاوِيَةَ بْنِ وَهْبٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ ফাদালাহ থেকে, তিনি মু‘আবিয়াহ ইবন ওয়াহব থেকে, তিনি আবি ‘আবদিল্লাহ عليه السلام থেকে যা বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "Was al-Ḥusayn ibn Saʿīd von Faḍālah, von Muʿāwiyah ibn Wahb, von Abī ʿAbdillāh عليه السلام überliefert hat, lautet:",
-              "en": "As for what al-Ḥusayn ibn Saʿīd narrated from Faḍālah, from Muʿāwiyah ibn Wahb, from Abī ʿAbdillāh عليه السلام, he said:",
-              "es": "En cuanto a lo que narró al-Ḥusayn ibn Saʿīd de Faḍālah, de Muʿāwiyah ibn Wahb, de Abī ʿAbdillāh عليه السلام, dijo:",
-              "fa": "اما آنچه الحسين بن سعيد از فضالة، از معاوية بن وهب، از أبي عبد الله عليه السلام روایت کرده است، او فرمود:",
-              "fr": "Quant à ce qu’a rapporté al-Ḥusayn ibn Saʿīd de Faḍālah, de Muʿāwiyah ibn Wahb, de Abī ʿAbdillāh عليه السلام, il a dit :",
-              "id": "Adapun apa yang diriwayatkan al-Ḥusayn ibn Saʿīd dari Faḍālah, dari Muʿāwiyah ibn Wahb, dari Abī ʿAbdillāh عليه السلام, beliau bersabda:",
-              "ru": "Что касается того, что передал аль-Хусайн ибн Саʿид от Фада̄лах, от Муʿавийи ибн Вахба, от Аби ʿАбдуллаха عليه السلام, он сказал:",
-              "tr": "El-Hüseyin ibn Saʿid’in Faḍālah’tan, onun Muʿāwiyah ibn Wahb’dan, onun da Ebî ʿAbdillâh عليه السلام’dan rivayet ettiğine gelince, şöyle dedi:",
-              "ur": "جہاں تک الحسين بن سعيد نے فضالة سے، وہ معاوية بن وهب سے، وہ أبي عبد الله عليه السلام سے روایت کی ہے، انہوں نے فرمایا:",
-              "zh": "至于al-ḤusaynibnSaʿīd从Faḍālah传述的、从MuʿāwiyahibnWahb传述的、从AbīʿAbdillāh عليه السلام传述的，他说："
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "الْأَذَانُ مَثْنَى مَثْنَى وَالْإِقَامَةُ وَاحِدَةً وَاحِدَةً",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আযান দুই দুই করে, আর ইকামত এক এক করে।",
-              "de": "Der adhān wird jeweils zu zweit gesprochen, und die iqāmah jeweils einzeln.",
-              "en": "The adhān is in pairs, and the iqāmah is one by one.",
-              "es": "El adhān es en pares, y la iqāmah es de una en una.",
-              "fa": "اذان دو تا دو تا است و اقامه یک‌بار یک‌بار است.",
-              "fr": "L’adhān se fait par deux, et l’iqāmah une fois par une fois.",
-              "id": "Adhān itu dua-dua, sedangkan iqāmah itu satu-satu.",
-              "ru": "Азан произносится по два, а икама — по одному.",
-              "tr": "Ezan ikişer ikişer, ikāmet ise birer birer okunur.",
-              "ur": "اذان دو دو مرتبہ ہے، اور اقامت ایک ایک مرتبہ ہے۔",
-              "zh": "宣礼词是成对念诵，而成礼词是一句一句念诵。"
-            },
             "word_end": 25,
             "word_start": 19
           }
@@ -104,24 +91,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْأَذَانُ": "the call to salat (prayer)",
-            "الْإِقَامَةُ": "the call announcing the immediate commencement of salat (prayer)",
-            "مَثْنَى": "in pairs; repeated two at a time",
-            "وَاحِدَةً": "singly; one at a time"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْأَذَانُ",
+          "مَثْنَى",
+          "الْإِقَامَةُ",
+          "وَاحِدَةً"
+        ],
         "related_quran": [
           {
             "ref": "5:58",
@@ -132,32 +107,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী আযান ও ইকামতের বাক্যগুলো কতবার পড়া হয়?",
-          "de": "Wie oft werden die Formeln des adhān und der iqāmah gemäß diesem Hadith gesprochen?",
-          "en": "How many times are the phrases of the adhān and iqāmah recited according to this hadith?",
-          "es": "Según este hadiz, ¿cuántas veces se recitan las frases del adhān y la iqāmah?",
-          "fa": "بر اساس این حدیث، جملات اذان و اقامه چند بار خوانده می‌شود؟",
-          "fr": "Selon ce hadith, combien de fois les formules de l’adhān et de l’iqāmah sont-elles récitées ?",
-          "id": "Menurut hadis ini, berapa kali kalimat-kalimat adhān dan iqāmah dibaca?",
-          "ru": "Согласно этому хадису, сколько раз произносятся фразы азана и икамы?",
-          "tr": "Bu hadise göre ezan ve ikāmetin cümleleri kaç kez okunur?",
-          "ur": "اس حدیث کے مطابق اذان اور اقامت کے جملے کتنی بار پڑھے جاتے ہیں؟",
-          "zh": "根据这段圣训，宣礼词和成礼词的词句各念诵几次？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে আযান ও ইকামতের বাক্যসংখ্যার শরঈ রূপ বর্ণনা করা হয়েছে। এতে বোঝা যায় যে আযান দুই দুই করে পড়া হয়, আর ইকামত এক এক করে পড়া হয়।",
-          "de": "Dieser Hadith legt die rechtliche Form der Anzahl der Formeln im adhān und in der iqāmah fest. Er zeigt, dass der adhān paarweise gesprochen wird, während die iqāmah einzeln gesprochen wird.",
-          "en": "This hadith states the legal form for the number of phrases in the adhān and the iqāmah. It indicates that the adhān is recited in pairs, while the iqāmah is recited singly.",
-          "es": "Este hadiz establece la forma legal del número de frases en el adhān y la iqāmah. Indica que el adhān se recita en pares, mientras que la iqāmah se recita de una en una.",
-          "fa": "این حدیث شکل شرعیِ تعدادِ جملات در اذان و اقامه را بیان می‌کند. از آن دانسته می‌شود که اذان دو تا دو تا خوانده می‌شود، در حالی که اقامه یک‌بار یک‌بار خوانده می‌شود.",
-          "fr": "Ce hadith énonce la forme légale du nombre de formules dans l’adhān et l’iqāmah. Il indique que l’adhān se récite par deux, tandis que l’iqāmah se récite une par une.",
-          "id": "Hadis ini menjelaskan bentuk hukum jumlah kalimat dalam adhān dan iqāmah. Ini menunjukkan bahwa adhān dibaca dua-dua, sedangkan iqāmah dibaca satu-satu.",
-          "ru": "Этот хадис устанавливает правовую форму количества фраз в азане и икаме. Он указывает, что азан произносится по два, тогда как икама произносится по одному.",
-          "tr": "Bu hadis, ezan ve ikāmetteki cümlelerin sayısı için şerʿî şekli bildirir. Buna göre ezan ikişer ikişer okunur, ikāmet ise tek tek okunur.",
-          "ur": "یہ حدیث اذان اور اقامت میں جملوں کی تعداد کا شرعی طریقہ بیان کرتی ہے۔ اس سے معلوم ہوتا ہے کہ اذان دو دو مرتبہ کہی جاتی ہے، جبکہ اقامت ایک ایک مرتبہ کہی جاتی ہے۔",
-          "zh": "这段圣训说明了宣礼词和成礼词中词句数量的教法形式。它表明宣礼词是成对诵念，而成礼词是单独诵念。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

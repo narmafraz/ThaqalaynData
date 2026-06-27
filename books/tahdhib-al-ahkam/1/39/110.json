@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ أَبِيهِ عَنِ ٱبْنِ أَبِي عُمَيْرٍ عَنْ حَمَّادِ بْنِ عُثْمَانَ عَنِ ٱلْحَلَبِيِّ عَنْ أَبِي عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, তাঁর পিতা থেকে, ইবন আবী উমাইর থেকে, হাম্মাদ ইবন উসমান থেকে, আল-হালাবী থেকে, আবূ আব্দিল্লাহ عليه السلام থেকে।",
-              "de": "Von ihm, von seinem Vater, von Ibn Abī ʿUmayr, von Ḥammād ibn ʿUthmān, von al-Ḥalabī, von Abī ʿAbdillāh عليه السلام.",
-              "en": "From him, from his father, from Ibn Abī ʿUmayr, from Ḥammād ibn ʿUthmān, from al-Ḥalabī, from Abī ʿAbdillāh عليه السلام.",
-              "es": "De él, de su padre, de Ibn Abī ʿUmayr, de Ḥammād ibn ʿUthmān, de al-Ḥalabī, de Abī ʿAbdillāh عليه السلام.",
-              "fa": "از او، از پدرش، از ابن ابی عمیر، از حماد بن عثمان، از حلبی، از ابی عبدالله علیه السلام.",
-              "fr": "De lui, de son père, d’Ibn Abī ʿUmayr, de Ḥammād ibn ʿUthmān, d’al-Ḥalabī, d’Abī ʿAbdillāh عليه السلام.",
-              "id": "Darinya, dari ayahnya, dari Ibn Abī ʿUmayr, dari Ḥammād ibn ʿUthmān, dari al-Ḥalabī, dari Abī ʿAbdillāh عليه السلام.",
-              "ru": "От него, от его отца, от Ибн Аби ʿУмайра, от Хаммада ибн ʿУсмана, от аль-Халаби, от Аби ʿАбдуллаха عليه السلام.",
-              "tr": "Ondan, babasından, İbn Ebî ʿUmeyr’den, Hammâd ibn ʿUthmân’dan, el-Halebî’den, Ebû Abdillâh عليه السلام’dan.",
-              "ur": "ان سے، ان کے والد سے، ابن ابی عمیر سے، حماد بن عثمان سے، الحلبی سے، ابو عبد اللہ علیہ السلام سے۔",
-              "zh": "由他传自他的父亲，由IbnAbīʿUmayr传自ḤammādibnʿUthmān，由al-Ḥalabī传自AbīʿAbdillāh عليه السلام。"
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "أَنَّ رَسُولَ ٱللَّهِ صَلَّى ٱللَّهُ عَلَيْهِ وَ آلِهِ لَحَدَ لَهُ أَبُو طَلْحَةَ ٱلْأَنْصَارِيُّ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে আবূ তালহা আল-আনসারী রাসূলুল্লাহ صلى الله عليه وآله-এর জন্য লাহদ কবরের নীচখাঁজ তৈরি করেছিলেন।",
-              "de": "Dass Abū Ṭalḥah al-Anṣārī die laḥd-Grabnische für den Gesandten Allahs صلى الله عليه وآله anlegte.",
-              "en": "That Abū Ṭalḥah al-Anṣārī made the laḥd grave-niche for the Messenger of Allah صلى الله عليه وآله.",
-              "es": "Que Abū Ṭalḥah al-Anṣārī hizo la cavidad de la laḥd para el Mensajero de Allah صلى الله عليه وآله.",
-              "fa": "این‌که ابوطَلحه انصاری برای رسول خدا صلى الله عليه وآله لحدِ قبر را آماده کرد.",
-              "fr": "Qu’Abū Ṭalḥah al-Anṣārī a préparé la niche funéraire de la laḥd pour le Messager d’Allah صلى الله عليه وآله.",
-              "id": "Bahwa Abū Ṭalḥah al-Anṣārī membuat liang lahad untuk Rasulullah صلى الله عليه وآله.",
-              "ru": "Что Абу Тальха аль-Ансари сделал лахд-нишу в могиле для Посланника Аллаха صلى الله عليه وآله.",
-              "tr": "Ebû Talḥa el-Ensârî’nin, Allah Resûlü صلى الله عليه وآله için laḥd mezar oyuntusunu hazırladığı.",
-              "ur": "کہ ابو طلحہ انصاری نے رسول اللہ صلی اللہ علیہ وآلہ وسلم کے لیے لحد قبر تیار کی۔",
-              "zh": "阿布·塔尔哈·安萨里为真主的使者 صلى الله عليه وآله制作了拉赫德墓穴侧龛。"
-            },
             "word_end": 32,
             "word_start": 19
           }
@@ -69,25 +56,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبُو طَلْحَةَ": "Abū Ṭalḥah, the Anṣārī companion mentioned in the report",
-            "أَبِي عَبْدِ ٱللَّهِ": "Imam Jaʿfar al-Ṣādiq عليه السلام, the transmitter in the matn",
-            "رَسُولَ ٱللَّهِ": "the Messenger of Allah, referring to Prophet Muḥammad صلى الله عليه وآله وسلم",
-            "لَحَدَ": "he made the side-niche in the grave",
-            "ٱلْأَنْصَارِيُّ": "the one belonging to the Anṣār, the Helpers of Madinah"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رَسُولَ ٱللَّهِ",
+          "لَحَدَ",
+          "أَبُو طَلْحَةَ",
+          "ٱلْأَنْصَارِيُّ",
+          "أَبِي عَبْدِ ٱللَّهِ"
+        ],
         "related_quran": [
           {
             "ref": "20:55",
@@ -98,32 +73,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "রাসূলুল্লাহ صلى الله عليه وآله وسلم-এর জন্য লাহদ কে প্রস্তুত করেছিলেন?",
-          "de": "Wer bereitete die laḥd für den Gesandten Allahs صلى الله عليه وآله وسلم vor?",
-          "en": "Who prepared the laḥd for the Messenger of Allah صلى الله عليه وآله وسلم?",
-          "es": "¿Quién preparó la laḥd para el Mensajero de Allah صلى الله عليه وآله وسلم?",
-          "fa": "چه کسی لحد را برای رسول خدا صلى الله عليه وآله وسلم آماده کرد؟",
-          "fr": "Qui a préparé la laḥd pour le Messager d’Allah صلى الله عليه وآله وسلم ?",
-          "id": "Siapa yang menyiapkan liang lahad untuk Rasulullah صلى الله عليه وآله وسلم?",
-          "ru": "Кто подготовил лахд для Посланника Аллаха صلى الله عليه وآله وسلم?",
-          "tr": "Allah Resûlü صلى الله عليه وآله وسلم için laḥdi kim hazırladı?",
-          "ur": "رسول اللہ صلی اللہ علیہ وآلہ وسلم کے لیے لحد کس نے تیار کی؟",
-          "zh": "谁为真主的使者 صلى الله عليه وآله وسلم准备了拉赫德墓穴侧龛？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে বর্ণিত হয়েছে যে আবূ তালহা আল-আনসারী রাসূলুল্লাহ صلى الله عليه وآله وسلم-এর দাফনের জন্য লাহদ কবর প্রস্তুত করেছিলেন। এটি দাফনসংক্রান্ত প্রথা এবং নবীর দাফন-পরবর্তী ঘটনাবলির সঙ্গে সম্পর্কিত একটি সংক্ষিপ্ত ঐতিহাসিক বর্ণনা।",
-          "de": "Dieser Hadith berichtet, dass Abū Ṭalḥah al-Anṣārī die laḥd-Grabnische für die Bestattung des Gesandten Allahs صلى الله عليه وآله وسلم vorbereitete. Es handelt sich um einen kurzen historischen Bericht im Zusammenhang mit Bestattungsbräuchen und den Ereignissen rund um die Beisetzung des Propheten.",
-          "en": "This hadith reports that Abū Ṭalḥah al-Anṣārī prepared the laḥd grave-niche for the burial of the Messenger of Allah صلى الله عليه وآله وسلم. It is a brief historical report connected to funerary practice and the events surrounding the Prophet’s burial.",
-          "es": "Este hadiz informa que Abū Ṭalḥah al-Anṣārī preparó la cavidad de la laḥd para el entierro del Mensajero de Allah صلى الله عليه وآله وسلم. Es un breve relato histórico relacionado con la práctica funeraria y los acontecimientos en torno al entierro del Profeta.",
-          "fa": "این حدیث گزارش می‌کند که ابوطَلحه انصاری لحدِ قبر را برای دفن رسول خدا صلى الله عليه وآله وسلم آماده کرد. این گزارشی کوتاه تاریخی است که به آداب تدفین و رخدادهای پیرامون دفن پیامبر مربوط می‌شود.",
-          "fr": "Ce hadith rapporte qu’Abū Ṭalḥah al-Anṣārī a préparé la niche funéraire de la laḥd pour l’inhumation du Messager d’Allah صلى الله عليه وآله وسلم. Il s’agit d’un bref récit historique lié aux pratiques funéraires et aux événements entourant l’inhumation du Prophète.",
-          "id": "Hadis ini meriwayatkan bahwa Abū Ṭalḥah al-Anṣārī menyiapkan liang lahad untuk penguburan Rasulullah صلى الله عليه وآله وسلم. Ini adalah laporan sejarah singkat yang terkait dengan praktik pemakaman dan peristiwa seputar penguburan Nabi.",
-          "ru": "Этот хадис сообщает, что Абу Тальха аль-Ансари подготовил лахд-нишу в могиле для погребения Посланника Аллаха صلى الله عليه وآله وسلم. Это краткое историческое сообщение, связанное с погребальными обрядами и событиями, связанными с погребением Пророка.",
-          "tr": "Bu hadis, Ebû Talḥa el-Ensârî’nin Allah Resûlü صلى الله عليه وآله وسلم’in defni için laḥd mezar oyuntusunu hazırladığını bildirir. Bu, cenaze uygulaması ve Peygamber’in defni etrafındaki olaylarla bağlantılı kısa bir tarihî rivayettir.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ ابو طلحہ انصاری نے رسول اللہ صلی اللہ علیہ وآلہ وسلم کی تدفین کے لیے لحد قبر تیار کی۔ یہ تدفین کے طریقے اور نبی کریم کی تدفین کے واقعات سے متعلق ایک مختصر تاریخی روایت ہے۔",
-          "zh": "这则圣训记载，阿布·塔尔哈·安萨里为真主的使者 صلى الله عليه وآله وسلم的安葬准备了拉赫德墓穴侧龛。这是一则与丧葬习俗以及先知安葬相关事件有关的简短历史记述。"
-        },
         "tags": [
           "prophetic_tradition",
           "history",

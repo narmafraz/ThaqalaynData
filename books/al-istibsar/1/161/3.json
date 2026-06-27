@@ -15,42 +15,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مَا رَوَاهُ مُعَاوِيَةُ بْنُ عَمَّارٍ وَابْنُ مُسْلِمٍ وَالْحَلَبِيُّ جَمِيعًا قَالُوا قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মু'আবিয়াহ ইবন 'আম্মার, ইবন মুসলিম এবং আল-হালাবি থেকে একত্রে বর্ণিত হয়েছে, তারা বলেছেন: তিনি বলেছেন:",
-              "de": "Was von Mu'awiyah ibn 'Ammar, Ibn Muslim und al-Halabi gemeinsam überliefert wurde, die sagten: Er sagte:",
-              "en": "What was narrated by Mu'awiyah ibn 'Ammar, Ibn Muslim, and al-Halabi, all together, who said: He said:",
-              "es": "Lo que fue narrado por Mu'awiyah ibn 'Ammar, Ibn Muslim y al-Halabi, todos juntos, quienes dijeron: Él dijo:",
-              "fa": "آنچه از معاویه بن عمار، ابن مسلم و حلبی، همگی با هم، روایت شده است که گفتند: او گفت:",
-              "fr": "Ce qui a été rapporté par Mu'awiyah ibn 'Ammar, Ibn Muslim et al-Halabi, tous ensemble, qui ont dit : Il a dit :",
-              "id": "Apa yang diriwayatkan dari Mu'awiyah ibn 'Ammar, Ibn Muslim, dan al-Halabi, semuanya bersama-sama, yang berkata: Ia berkata:",
-              "ru": "То, что было передано от Му'авии ибн 'Аммара, Ибн Муслима и аль-Халаби, всех вместе, которые сказали: Он сказал:",
-              "tr": "Mu'aviye ibn Ammar, İbn Müslim ve el-Halebi tarafından birlikte rivayet edilen şey: O dedi ki:",
-              "ur": "جو معاویہ بن عمار، ابن مسلم، اور الحلبی سے روایت کیا گیا، سب نے مل کر کہا: انہوں نے کہا:",
-              "zh": "据Mu'awiyahibn'Ammar、IbnMuslim和al-Halabi共同传述，他们说：他说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "لَا تُقْعِ بَيْنَ السَّجْدَتَيْنِ كَإِقْعَاءِ الْكَلْبِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "দুই সিজদার মধ্যে কুকুরের বসার মতো বসো না।",
-              "de": "Setze dich nicht zwischen den beiden Sajdahs wie das Sitzen eines Hundes.",
-              "en": "Do not sit between the two sajdahs like the sitting of a dog.",
-              "es": "No te sientes entre las dos sajdahs como se sienta un perro.",
-              "fa": "بین دو سجده مانند نشستنِ سگ ننشین.",
-              "fr": "Ne t’assieds pas entre les deux sajdahs comme s’assoit un chien.",
-              "id": "Jangan duduk di antara dua sajdah seperti duduknya anjing.",
-              "ru": "Не садись между двумя садждами так, как садится собака.",
-              "tr": "İki secde arasında köpeğin oturuşu gibi oturma.",
-              "ur": "دو سجدوں کے درمیان کتے کے بیٹھنے کی طرح نہ بیٹھو۔",
-              "zh": "不要像狗坐着那样坐在两次叩头之间。"
-            },
             "word_end": 17,
             "word_start": 11
           }
@@ -93,24 +80,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِقْعَاءِ": "the act or manner of sitting known as iq'a",
-            "السَّجْدَتَيْنِ": "the two sajdahs within a unit of salat (prayer)",
-            "الْكَلْبِ": "the dog; used here as a comparison for the prohibited posture",
-            "تُقْعِ": "sit in the posture of iq'a, a specific seated position"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "تُقْعِ",
+          "السَّجْدَتَيْنِ",
+          "إِقْعَاءِ",
+          "الْكَلْبِ"
+        ],
         "related_quran": [
           {
             "ref": "23:1-2",
@@ -121,32 +96,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "salat (নামাজ)-এ দুই সিজদার মধ্যে কোন বসার ভঙ্গি নিষিদ্ধ?",
-          "de": "Welche Sitzhaltung ist zwischen den beiden Sajdahs im salat (Gebet) verboten?",
-          "en": "What posture is prohibited between the two sajdahs in salat (prayer)?",
-          "es": "¿Qué postura está prohibida entre las dos sajdahs en salat (oración)?",
-          "fa": "کدام حالت نشستن میان دو سجده در salat (نماز) ممنوع است؟",
-          "fr": "Quelle posture est interdite entre les deux sajdahs dans le salat (prière) ?",
-          "id": "Postur duduk apa yang dilarang di antara dua sajdah dalam salat (salat)?",
-          "ru": "Какая поза запрещена между двумя садждами в salat (молитве)?",
-          "tr": "İki secde arasında salat (namaz) içinde hangi oturuş yasaktır?",
-          "ur": "دو سجدوں کے درمیان salat (نماز) میں کون سی نشست ممنوع ہے؟",
-          "zh": "在salat（礼拜）中，两次叩头之间禁止什么坐姿？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি salat (নামাজ)-এ বসার ভঙ্গি সম্পর্কে একটি বিধান দেয়, এবং দুই সিজদার মধ্যে নির্দিষ্টভাবে বসতে নিষেধ করে। এটি নির্দেশ করে যে ইবাদতকারীকে কুকুরের বসার ভঙ্গির মতো অনুপযুক্ত বা অপছন্দনীয় ভঙ্গি এড়িয়ে চলা উচিত।",
-          "de": "Dieser Hadith enthält eine Regel zur Körperhaltung im salat (Gebet) und verbietet eine bestimmte Art des Sitzens zwischen den beiden Sajdahs. Er zeigt, dass der Betende eine unangemessene oder missbilligte Haltung vermeiden soll, die dem Sitzen eines Hundes ähnelt.",
-          "en": "This hadith gives a ruling regarding posture in salat (prayer), prohibiting a particular manner of sitting between the two sajdahs. It indicates that the worshipper should avoid an improper or disliked form resembling the sitting posture of a dog.",
-          "es": "Este hadiz establece una norma sobre la postura en salat (oración), prohibiendo una manera particular de sentarse entre las dos sajdahs. Indica que el adorador debe evitar una forma inapropiada o reprobable que se asemeje a la postura de un perro.",
-          "fa": "این حدیث حکمی دربارهٔ حالت نشستن در salat (نماز) بیان می‌کند و از نشستن به شیوه‌ای خاص میان دو سجده نهی می‌کند. این نشان می‌دهد که نمازگزار باید از حالتی نامناسب یا مکروه که شبیه نشستن سگ است، پرهیز کند.",
-          "fr": "Ce hadith donne une règle concernant la posture dans le salat (prière), en interdisant une manière particulière de s’asseoir entre les deux sajdahs. Il indique que l’adorateur doit éviter une forme inappropriée ou réprouvée ressemblant à la posture assise d’un chien.",
-          "id": "Hadis ini memberikan حكم tentang posisi duduk dalam salat (salat), dengan melarang cara duduk tertentu di antara dua sajdah. Ini menunjukkan bahwa orang yang beribadah harus menghindari bentuk duduk yang tidak pantas atau makruh yang menyerupai duduknya anjing.",
-          "ru": "Этот хадис устанавливает предписание относительно положения тела в salat (молитве), запрещая определённый способ сидения между двумя садждами. Это указывает на то, что молящийся должен избегать неподобающей или порицаемой позы, напоминающей сидение собаки.",
-          "tr": "Bu hadis, salat (namaz) içindeki oturuş şekliyle ilgili bir hüküm verir ve iki secde arasında belirli bir şekilde oturmayı yasaklar. Bu, ibadet eden kişinin köpeğin oturuşuna benzeyen uygunsuz veya mekruh bir biçimden kaçınması gerektiğini gösterir.",
-          "ur": "یہ حدیث salat (نماز) میں وضعِ نشست کے بارے میں حکم بیان کرتی ہے، اور دو سجدوں کے درمیان ایک خاص انداز سے بیٹھنے سے منع کرتی ہے۔ اس سے معلوم ہوتا ہے کہ نمازی کو ایسی نامناسب یا ناپسندیدہ صورت سے بچنا چاہیے جو کتے کے بیٹھنے کے انداز سے مشابہ ہو۔",
-          "zh": "这段圣训就salat（礼拜）中的坐姿作出规定，禁止在两次叩头之间以某种特定方式坐着。这表明礼拜者应避免一种不合适或受责备的姿势，即类似狗的坐姿。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

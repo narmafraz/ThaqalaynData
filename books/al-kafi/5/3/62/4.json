@@ -13,6 +13,136 @@
       "up": "/books/al-kafi:5:3:62"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَنْهُ عَنْ زَكَرِيَّا الْمُؤْمِنِ أَوْ بَيْنَهُ وَ بَيْنَهُ رَجُلٌ وَ لَا أَعْلَمُهُ إِلَّا حَدَّثَنِي عَنْ عَمَّارٍ السِّجِسْتَانِيِّ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 18,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) يَقُولُ لِمَوْلًى لَهُ انْطَلِقْ فَقُلْ لِلْقَاضِي قَالَ رَسُولُ اللَّهِ ( صَلَّى اللَّهِ عَلَيْهِ وَآلِهِ ) حَدُّ الْمَرْأَةِ أَنْ يُدْخَلَ بِهَا عَلَى زَوْجِهَا ابْنَةَ تِسْعِ سِنِينَ",
+            "chunk_type": "body",
+            "word_end": 51,
+            "word_start": 18
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 11,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَنْهُ",
+              "name_en": "from him",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3271,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "زَكَرِيَّا الْمُؤْمِنِ أَوْ بَيْنَهُ",
+              "name_en": "Zakariyya al-Mu'min",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2943,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "بَيْنَهُ رَجُلٌ",
+              "name_en": "Baynahu rajul",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4075,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "لَا أَعْلَمُهُ إِلَّا حَدَّثَنِي",
+              "name_en": "La a'lamuhu illa haddathani",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1584,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَمَّارٍ السِّجِسْتَانِيِّ",
+              "name_en": "Ammar al-Sijistani",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "قَالَ رَسُولُ اللَّهِ",
+            "phrase_en": "The Messenger of Allah said"
+          }
+        ],
+        "key_terms_keys": [
+          "زَكَرِيَّا الْمُؤْمِنِ",
+          "عَمَّارٌ السِّجِسْتَانِيُّ",
+          "أَبُو عَبْدِ اللَّهِ",
+          "لِمَوْلًى لَهُ",
+          "لِلْقَاضِي",
+          "رَسُولُ اللَّهِ",
+          "حَدُّ الْمَرْأَةِ",
+          "أَنْ يُدْخَلَ بِهَا",
+          "ابْنَةَ تِسْعِ سِنِينَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "65:4",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family",
+          "prophetic_tradition"
+        ],
+        "topics": [
+          "marriage_family_law",
+          "prophetic_character",
+          "judicial_rulings"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (20/138)"
       ],
@@ -84,7 +214,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:3:62:4",

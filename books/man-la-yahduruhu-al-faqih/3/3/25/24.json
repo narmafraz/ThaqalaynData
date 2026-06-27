@@ -17,61 +17,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَ عَبْدُ اللَّهِ بْنُ سِنَانٍ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং আবদুল্লাহ ইবনে সিনান আবা আবদুল্লাহ عليه السلام-কে জিজ্ঞাসা করলেন:",
-              "de": "Und ʿAbdullāh ibn Sinān fragte Abā ʿAbdillāh عليه السلام:",
-              "en": "And ʿAbdullāh ibn Sinān asked Abā ʿAbdillāh عليه السلام:",
-              "es": "Y ʿAbdullāh ibn Sinān preguntó a Abā ʿAbdillāh عليه السلام:",
-              "fa": "و عبدالله بن سنان از ابا عبدالله علیه السلام پرسید:",
-              "fr": "Et ʿAbdullāh ibn Sinān a demandé à Abā ʿAbdillāh عليه السلام :",
-              "id": "Dan ʿAbdullāh ibn Sinān bertanya kepada Abā ʿAbdillāh عليه السلام:",
-              "ru": "И ʿАбдуллах ибн Синан спросил Абā ʿАбдиллах عليه السلام:",
-              "tr": "Ve Abdullah ibn Sinan, Ebu Abdullah'a (aleyhisselam) sordu:",
-              "ur": "اور عبداللہ ابن سنان نے ابا عبداللہ علیہ السلام سے پوچھا:",
-              "zh": "ʿAbdullāhibnSinān向AbāʿAbdillāhعليهالسلام提问："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "عَنِ الرَّجُلِ يُرِيدُ أَنْ يَتَزَوَّجَ الْمَرْأَةَ أَ يَنْظُرُ إِلَى شَعْرِهَا",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন পুরুষ সম্পর্কে যিনি একজন মহিলার সাথে বিয়ে করতে চান: তিনি কি তার চুল দেখতে পারেন?",
-              "de": "über einen Mann, der eine Frau heiraten möchte: Darf er ihr Haar ansehen?",
-              "en": "about a man who wants to marry a woman: may he look at her hair?",
-              "es": "sobre un hombre que quiere casarse con una mujer: ¿puede mirar su cabello?",
-              "fa": "درباره مردی که می‌خواهد با زنی ازدواج کند: آیا می‌تواند به موی او نگاه کند؟",
-              "fr": "au sujet d'un homme qui veut épouser une femme : peut-il regarder ses cheveux ?",
-              "id": "tentang seorang pria yang ingin menikahi seorang wanita: bolehkah dia melihat rambutnya?",
-              "ru": "о мужчине, который хочет жениться на женщине: может ли он смотреть на её волосы?",
-              "tr": "Bir adamın bir kadınla evlenmek istemesi hakkında: Saçına bakabilir mi?",
-              "ur": "ایک مرد کے بارے میں جو عورت سے شادی کرنا چاہتا ہے: کیا وہ اس کے بال دیکھ سکتا ہے؟",
-              "zh": "关于一个想娶女人的男人：他可以看她的头发吗？"
-            },
             "word_end": 20,
             "word_start": 10
           },
           {
             "arabic_text": "قَالَ \"نَعَمْ إِنَّمَا يُرِيدُ أَنْ يَشْتَرِيَهَا بِأَغْلَى الثَّمَنِ\".",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তিনি বললেন: “হ্যাঁ। সে কেবল তাকে সর্বোচ্চ মূল্যে পেতে চায়।”",
-              "de": "Er sagte: „Ja. Er beabsichtigt nur, sie zum höchsten Preis zu erwerben.“",
-              "en": "He said: “Yes. He only intends to acquire her for the highest price.”",
-              "es": "Él dijo: “Sí. Solo quiere adquirirla al precio más alto.”",
-              "fa": "فرمود: «بله. او فقط قصد دارد او را به بالاترین قیمت به دست آورد.»",
-              "fr": "Il a dit : « Oui. Il ne fait que vouloir l'acquérir au prix le plus élevé. »",
-              "id": "Dia berkata: “Ya. Dia hanya bermaksud untuk memilikinya dengan harga tertinggi.”",
-              "ru": "Он сказал: «Да. Он лишь намерен приобрести её по самой высокой цене.»",
-              "tr": "O dedi ki: “Evet. O sadece onu en yüksek fiyatla almak istiyor.”",
-              "ur": "انہوں نے فرمایا: \"ہاں۔ وہ صرف اسے سب سے زیادہ قیمت پر حاصل کرنا چاہتا ہے۔\"",
-              "zh": "他说：“是的。他只是想以最高的价格得到她。”"
-            },
             "word_end": 28,
             "word_start": 20
           }
@@ -120,26 +94,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الثَّمَنِ": "the price, indicating the gravity and costliness mentioned in the report",
-            "الْمَرْأَةَ": "the woman being considered for marriage",
-            "شَعْرِهَا": "her hair",
-            "يَتَزَوَّجَ": "to marry",
-            "يَشْتَرِيَهَا": "to acquire her, used here in the hadith’s wording regarding marriage",
-            "يَنْظُرُ": "to look"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَتَزَوَّجَ",
+          "الْمَرْأَةَ",
+          "يَنْظُرُ",
+          "شَعْرِهَا",
+          "يَشْتَرِيَهَا",
+          "الثَّمَنِ"
+        ],
         "related_quran": [
           {
             "ref": "4:3",
@@ -150,32 +112,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী কি একজন পুরুষ বিয়ের আগে মহিলার চুল দেখতে পারে?",
-          "de": "Darf ein Mann laut diesem Hadith vor der Heirat das Haar einer Frau ansehen?",
-          "en": "Can a man look at a woman’s hair before marrying her according to this hadith?",
-          "es": "¿Puede un hombre mirar el cabello de una mujer antes de casarse según este hadiz?",
-          "fa": "آیا طبق این حدیث مرد می‌تواند قبل از ازدواج به موی زن نگاه کند؟",
-          "fr": "Un homme peut-il regarder les cheveux d'une femme avant de l'épouser selon ce hadith ?",
-          "id": "Apakah seorang pria boleh melihat rambut wanita sebelum menikah menurut hadis ini?",
-          "ru": "Может ли мужчина смотреть на волосы женщины перед браком согласно этому хадису?",
-          "tr": "Bu hadise göre bir erkek evlenmeden önce kadının saçına bakabilir mi?",
-          "ur": "کیا اس حدیث کے مطابق مرد شادی سے پہلے عورت کے بال دیکھ سکتا ہے؟",
-          "zh": "根据这段圣训，男人可以在结婚前看女人的头发吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি এমন একজন পুরুষের জন্য আইনগত সিদ্ধান্ত প্রদান করে যিনি একজন মহিলার সাথে বিয়ে করতে চান, তাকে তার চুল দেখার অনুমতি দেয়। বাক্যাংশটি নির্দেশ করে যে এই অনুমতি বিয়ের গুরুত্ব এবং পরিণতির সাথে সম্পর্কিত, যা এখানে সর্বোচ্চ মূল্যে অর্জনের অর্থে বর্ণিত হয়েছে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung für einen Mann, der eine Frau heiraten möchte, und erlaubt ihm, ihr Haar anzusehen. Die Formulierung zeigt, dass diese Erlaubnis mit der Ernsthaftigkeit und den Folgen der Ehe verbunden ist, die hier als Erwerb zum höchsten Preis beschrieben wird.",
-          "en": "This hadith gives a legal ruling concerning a man who intends to marry a woman, permitting him to look at her hair. The wording indicates that this allowance is connected to the seriousness and consequence of marriage, which is described here in terms of acquiring at a great price.",
-          "es": "Este hadiz da un fallo legal sobre un hombre que quiere casarse con una mujer, permitiéndole mirar su cabello. La redacción indica que esta permisividad está relacionada con la seriedad y consecuencia del matrimonio, descrita aquí en términos de adquirirla al precio más alto.",
-          "fa": "این حدیث حکم شرعی درباره مردی که قصد ازدواج با زنی را دارد بیان می‌کند و اجازه می‌دهد به موی او نگاه کند. عبارت نشان می‌دهد که این اجازه به جدیت و پیامد ازدواج مرتبط است که در اینجا به صورت به دست آوردن با بالاترین قیمت توصیف شده است.",
-          "fr": "Ce hadith donne un jugement légal concernant un homme qui souhaite épouser une femme, lui permettant de regarder ses cheveux. La formulation indique que cette permission est liée à la gravité et à la conséquence du mariage, décrite ici en termes d'acquisition au prix le plus élevé.",
-          "id": "Hadis ini memberikan hukum tentang seorang pria yang berniat menikahi seorang wanita, memperbolehkannya melihat rambut wanita tersebut. Kata-kata ini menunjukkan bahwa izin ini terkait dengan keseriusan dan konsekuensi pernikahan, yang di sini digambarkan sebagai memperoleh dengan harga tertinggi.",
-          "ru": "Этот хадис даёт юридическое постановление относительно мужчины, который намеревается жениться на женщине, разрешая ему смотреть на её волосы. Формулировка указывает, что это разрешение связано с серьёзностью и последствиями брака, которые здесь описаны как приобретение по самой высокой цене.",
-          "tr": "Bu hadis, evlenmek isteyen bir erkeğe ilişkin hukuki hükmü verir ve onun kadının saçına bakmasına izin verir. İfade, bu iznin evliliğin ciddiyeti ve sonucuyla bağlantılı olduğunu gösterir; burada en yüksek fiyatla edinme olarak tanımlanmıştır.",
-          "ur": "یہ حدیث ایک مرد کے بارے میں شرعی حکم دیتی ہے جو عورت سے شادی کرنا چاہتا ہے، اسے اس کے بال دیکھنے کی اجازت دیتی ہے۔ الفاظ سے ظاہر ہوتا ہے کہ یہ اجازت شادی کی سنجیدگی اور اس کے نتیجے سے منسلک ہے، جو یہاں زیادہ قیمت پر حاصل کرنے کے طور پر بیان کی گئی ہے۔",
-          "zh": "这段圣训对想娶妻的男子给出了法律裁决，允许他看她的头发。措辞表明这种允许与婚姻的严肃性和后果有关，这里描述为以最高价格获得她。"
-        },
         "tags": [
           "jurisprudence",
           "family",

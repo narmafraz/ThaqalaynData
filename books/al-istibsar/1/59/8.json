@@ -15,99 +15,47 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ أَحْمَدَ بْنِ الْحَسَنِ عَنْ أَبِيهِ عَنْ حَمَّادِ بْنِ عِيسَى عَنْ حَرِيزٍ عَنْ زُرَارَةَ عَنْ أَحَدِهِمَا عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, আহমদ ইবন আল-হাসান থেকে, তাঁর পিতা থেকে, হাম্মাদ ইবন ঈসা থেকে, হারীয থেকে, জুরারাহ থেকে, দুইজনের একজনের কাছ থেকে عليهما السلام, যিনি বলেছেন:",
-              "de": "Von ihm, von Ahmad ibn al-Hasan, von seinem Vater, von Hammad ibn Isa, von Hariz, von Zurarah, von einem der beiden عليهما السلام, der sagte:",
-              "en": "From him, from Aḥmad ibn al-Ḥasan, from his father, from Ḥammād ibn ʿĪsā, from Ḥarīz, from Zurārah, from one of the two عليهما السلام, who said:",
-              "es": "De él, de Ahmad ibn al-Hasan, de su padre, de Hammad ibn Isa, de Hariz, de Zurarah, de uno de los dos عليهما السلام, que dijo:",
-              "fa": "از او، از احمد بن الحسن، از پدرش، از حماد بن عیسی، از حریز، از زراره، از یکی از آن دو عليهما السلام، که فرمود:",
-              "fr": "De lui, d’Ahmad ibn al-Hasan, de son père, de Hammad ibn Isa, de Hariz, de Zurarah, de l’un des deux عليهما السلام, qui a dit :",
-              "id": "Darinya, dari Ahmad ibn al-Hasan, dari ayahnya, dari Hammad ibn Isa, dari Hariz, dari Zurarah, dari salah satu dari keduanya عليهما السلام, yang berkata:",
-              "ru": "От него, от Ахмада ибн аль-Хасана, от его отца, от Хаммада ибн Исы, от Хариза, от Зурары, от одного из двоих عليهما السلام, который сказал:",
-              "tr": "Ondan, Ahmed ibn el-Hasan’dan, babasından, Hammad ibn İsa’dan, Hariz’den, Zurara’dan, iki kişiden birinden عليهما السلام, şöyle dedi:",
-              "ur": "ان سے، احمد بن الحسن سے، ان کے والد سے، حماد بن عیسیٰ سے، حریز سے، زرارہ سے، دونوں علیہما السلام میں سے ایک سے، انہوں نے فرمایا:",
-              "zh": "由他传述，来自AhmadibnAl-Hasan，来自他的父亲，来自HammadibnIsa，来自Hariz，来自Zurarah，来自两位中的一位 عليهما السلام，他说："
-            },
             "word_end": 20,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنِ الْحَائِضِ يَأْتِيهَا زَوْجُهَا، قَالَ: لَيْسَ عَلَيْهِ شَيْءٌ، يَسْتَغْفِرُ اللَّهَ وَلَا يَعُودُ.",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আমি তাঁকে এমন এক ঋতুমতী নারীর সম্পর্কে জিজ্ঞেস করলাম, যার সঙ্গে তার স্বামী সহবাস করে। তিনি বললেন: তার ওপর কিছুই নেই; সে আল্লাহর কাছে ক্ষমা প্রার্থনা করবে এবং এতে আর ফিরে যাবে না।",
-              "de": "Ich fragte ihn über eine menstruierende Frau, mit der ihr Ehemann Verkehr hat. Er sagte: Es ist nichts gegen ihn; er soll Allah um Vergebung bitten und nicht dazu zurückkehren.",
-              "en": "I asked him about a menstruating woman with whom her husband has intercourse. He said: Nothing is due upon him; he should seek Allah’s forgiveness and not return to it.",
-              "es": "Le pregunté acerca de una mujer menstruante con la que su esposo tiene relaciones. Dijo: No recae nada sobre él; que pida perdón a Allah y no vuelva a hacerlo.",
-              "fa": "از او درباره زنی حائض که شوهرش با او آمیزش می‌کند پرسیدم. فرمود: چیزی بر او نیست؛ از خدا آمرزش بخواهد و به آن بازنگردد.",
-              "fr": "Je l’ai interrogé au sujet d’une femme menstruée avec laquelle son mari a des rapports. Il dit : Rien ne lui incombe ; qu’il demande pardon à Allah et n’y revienne pas.",
-              "id": "Aku bertanya kepadanya tentang seorang wanita yang sedang haid yang digauli oleh suaminya. Beliau bersabda: Tidak ada sesuatu pun atasnya; hendaklah ia memohon ampun kepada Allah dan jangan mengulanginya.",
-              "ru": "Я спросил его о женщине во время менструации, с которой ее муж вступает в половую близость. Он сказал: Ничего не возлагается на него; пусть он попросит у Аллаха прощения и не возвращается к этому.",
-              "tr": "Ona, kocasıyla cinsel ilişkide bulunan hayızlı kadın hakkında sordum. Buyurdu ki: Onun üzerine bir şey yoktur; Allah’tan bağışlanma dilesin ve buna geri dönmesin.",
-              "ur": "میں نے ان سے حیض والی عورت کے بارے میں پوچھا جس سے اس کا شوہر ہم بستری کرے۔ انہوں نے فرمایا: اس پر کچھ لازم نہیں؛ وہ اللہ سے مغفرت طلب کرے اور دوبارہ ایسا نہ کرے۔",
-              "zh": "我问他关于一位正在月经中的妇女，她的丈夫与她行房。他说：他没有任何责任；他应当向真主求饶恕，并且不要再这样做。"
-            },
             "word_end": 33,
             "word_start": 20
           },
           {
             "arabic_text": "فَالْوَجْهُ فِي هَذِهِ الْأَخْبَارِ أَنْ نَحْمِلَهَا عَلَى أَنَّهُ إِذَا لَمْ يَعْلَمِ الرَّجُلُ مِنْ حَالِهَا أَنَّهَا كَانَتْ حَائِضًا لَمْ يَلْزَمْهُ شَيْءٌ، فَأَمَّا مَعَ عِلْمِهِ بِذَلِكَ فَإِنَّهُ يَلْزَمُهُ الْكَفَّارَةُ حَسَبَ مَا ذَكَرْنَاهُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "অতএব, এই বর্ণনাগুলোর ক্ষেত্রে সঠিক ব্যাখ্যা হলো এগুলোকে এমন অবস্থার ওপর প্রযোজ্য ধরা, যখন পুরুষটি তার অবস্থা থেকে জানত না যে সে ঋতুমতী; তখন তার ওপর কিছুই আবশ্যক নয়। কিন্তু সে যদি তা জেনে থাকে, তবে আমাদের উল্লেখ অনুযায়ী তার ওপর কাফফারা আবশ্যক।",
-              "de": "Daher ist die richtige Deutung dieser Überlieferungen, sie auf den Fall zu beziehen, dass der Mann aus ihrem Zustand nicht wusste, dass sie menstruierte; dann ist ihm nichts auferlegt. Wenn er es jedoch weiß, dann ist die Sühne gemäß dem, was wir erwähnt haben, für ihn verbindlich.",
-              "en": "Thus, the proper way regarding these reports is that they are to be understood as referring to when the man did not know from her condition that she was menstruating; then nothing is binding upon him. But as for when he knows that, then expiation is binding upon him according to what we have mentioned.",
-              "es": "Así pues, la manera correcta respecto de estos relatos es entenderlos como referidos al caso en que el hombre no sabía por su estado que ella estaba menstruando; entonces nada le es obligatorio. Pero si lo sabe, entonces la expiación le es obligatoria según lo que hemos mencionado.",
-              "fa": "پس وجه درست در این اخبار آن است که آنها را بر حالتی حمل کنیم که مرد از وضعیت او نمی‌دانست که حائض است؛ در این صورت چیزی بر او لازم نیست. اما اگر این را بداند، بنا بر آنچه یاد کردیم کفاره بر او لازم می‌شود.",
-              "fr": "Ainsi, la bonne manière d’entendre ces récits est de les rapporter au cas où l’homme ne savait pas, d’après son état, qu’elle était menstruée ; alors rien ne lui incombe. Mais s’il le sait, l’expiation lui incombe selon ce que nous avons mentionné.",
-              "id": "Maka, cara yang tepat mengenai riwayat-riwayat ini adalah memahaminya sebagai keadaan ketika laki-laki itu tidak mengetahui dari keadaannya bahwa ia sedang haid; maka tidak ada sesuatu pun yang wajib atasnya. Adapun jika ia mengetahuinya, maka kafarat menjadi wajib atasnya sebagaimana yang telah kami sebutkan.",
-              "ru": "Итак, правильный смысл этих сообщений состоит в том, чтобы понимать их как относящиеся к случаю, когда мужчина не знал по ее состоянию, что она была в менструации; тогда на нем ничего не лежит. Но если он знает это, то искупление становится для него обязательным согласно тому, что мы упомянули.",
-              "tr": "Dolayısıyla bu rivayetler hakkında doğru yaklaşım, erkeğin onun durumundan hayızlı olduğunu bilmediği hâle hamledilmeleridir; o zaman onun üzerine bir şey gerekmez. Fakat bunu bildiği takdirde, zikrettiğimiz üzere ona kefaret gerekir.",
-              "ur": "پس ان روایات کے بارے میں درست رخ یہ ہے کہ انہیں اس حالت پر محمول کیا جائے جب مرد کو اس کی حالت سے معلوم نہ ہو کہ وہ حائضہ ہے؛ اس صورت میں اس پر کچھ لازم نہیں۔ لیکن جب اسے یہ معلوم ہو تو ہمارے ذکر کے مطابق اس پر کفارہ لازم ہے۔",
-              "zh": "因此，关于这些传述，正确的理解方式是将它们理解为指男人从她的状况并不知道她正在月经中；那么他就没有任何义务。但如果他知道这一点，那么按照我们所提到的，赎罪就对他成为必须。"
-            },
             "word_end": 63,
             "word_start": 33
           },
           {
             "arabic_text": "وَلَيْسَ لِأَحَدٍ أَنْ يَقُولَ: لَا يُمْكِنُ هَذَا التَّأْوِيلُ، لِأَنَّهُ لَوْ كَانَتْ هَذِهِ الْأَخْبَارُ مَحْمُولَةً عَلَى حَالِ النِّسْيَانِ لَمَا قَالَ عَلَيْهِ السَّلَامُ: يَسْتَغْفِرُ رَبَّهُ مِمَّا فَعَلَ، وَلَا إِنَّهُ عَصَى رَبَّهُ؛ لِأَنَّهُ لَا يَمْتَنِعُ إِطْلَاقُ الْقَوْلِ عَلَيْهِ بِأَنَّهُ عَصَى، وَلَا الْحَثُّ عَلَى الِاسْتِغْفَارِ، مِنْ حَيْثُ إِنَّهُ فَرَّطَ فِي السُّؤَالِ عَنْ حَالِهَا وَهَلْ هِيَ طَامِثٌ أَمْ لَا، مَعَ عِلْمِهِ أَنَّهَا لَوْ كَانَتْ طَامِثًا لَحَرُمَ عَلَيْهِ وَطْؤُهَا، فَبِهَذَا التَّفْرِيطِ يَكُونُ عَاصِيًا، وَيَجِبُ عَلَيْهِ الِاسْتِغْفَارُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আর কেউ বলতে পারে না যে এই ব্যাখ্যা সম্ভব নয়, কারণ যদি এই বর্ণনাগুলোকে ভুলে যাওয়ার অবস্থার ওপর প্রযোজ্য ধরা হতো, তবে তিনি عليه السلام বলতেন না: “সে যা করেছে তার জন্য তার রবের কাছে ক্ষমা প্রার্থনা করুক,” এবং এটাও বলতেন না যে “সে তার রবের অবাধ্য হয়েছে।” কারণ তার সম্পর্কে অবাধ্য হয়েছে—এ কথা বলা, এবং তাকে ইস্তিগফারের প্রতি উৎসাহিত করা, এ দিক থেকে অসম্ভব নয় যে সে তার অবস্থা এবং সে ঋতুমতী কি না তা জিজ্ঞেস করতে অবহেলা করেছে, অথচ সে জানত যে যদি সে ঋতুমতী হতো, তবে তার সঙ্গে সহবাস করা তার জন্য হারাম হতো। সুতরাং এই অবহেলার কারণে সে অবাধ্য, এবং তার ওপর ইস্তিগফার করা আবশ্যক।",
-              "de": "Und niemand darf sagen: Diese Deutung ist nicht möglich, denn wenn diese Überlieferungen auf den Zustand des Vergessens bezogen wären, hätte er عليه السلام nicht gesagt: „Er soll seinen Herrn um Vergebung bitten für das, was er getan hat“, und auch nicht, dass „er seinen Herrn ungehorsam war“. Denn es ist nicht unmöglich, auf ihn die Aussage anzuwenden, dass er ungehorsam war, und ihn zum Bitten um Vergebung anzuhalten, insofern er es versäumt hat, nach ihrem Zustand zu fragen und ob sie menstruierte oder nicht, obwohl er wusste, dass es ihm verboten gewesen wäre, mit ihr Verkehr zu haben, wenn sie menstruierte. Durch diese Nachlässigkeit ist er also ungehorsam, und das Bitten um Vergebung wird für ihn verpflichtend.",
-              "en": "And no one may say: This interpretation is not possible, because if these reports were to be understood as applying to the state of forgetfulness, he عليه السلام would not have said, “He seeks forgiveness from his Lord for what he did,” nor that “he disobeyed his Lord.” For it is not impossible to apply the statement to him that he disobeyed, nor to urge him to seek forgiveness, inasmuch as he was negligent in asking about her condition and whether she was menstruating or not, while knowing that had she been menstruating, intercourse with her would have been forbidden to him. So by this negligence he is disobedient, and seeking forgiveness becomes obligatory upon him.",
-              "es": "Y nadie puede decir: esta interpretación no es posible, porque si estos relatos se entendieran como aplicados al estado de olvido, él عليه السلام no habría dicho: “Que pida perdón a su Señor por lo que hizo”, ni que “desobedeció a su Señor”. Pues no es imposible aplicar a él la expresión de que desobedeció, ni exhortarlo a pedir perdón, en la medida en que descuidó preguntar por su estado y si estaba menstruando o no, sabiendo que si estuviera menstruando, tener relaciones con ella le estaría prohibido. Así, por este descuido, es desobediente, y pedir perdón se vuelve obligatorio para él.",
-              "fa": "و هیچ‌کس نمی‌تواند بگوید این تأویل ممکن نیست، زیرا اگر این اخبار بر حالت فراموشی حمل می‌شد، او عليه السلام نمی‌فرمود: «از پروردگارش برای آنچه انجام داده آمرزش بخواهد»، و نیز نمی‌فرمود که «پروردگارش را نافرمانی کرده است.» زیرا اطلاق این سخن بر او که نافرمانی کرده، و نیز ترغیب او به استغفار، از آن جهت که در پرسیدن از حال او و اینکه آیا حائض است یا نه کوتاهی کرده بود، ممتنع نیست؛ با آنکه می‌دانست اگر حائض می‌بود، آمیزش با او بر وی حرام بود. پس به سبب این کوتاهی، او نافرمان است و استغفار بر او واجب می‌شود.",
-              "fr": "Et nul ne peut dire : cette interprétation n’est pas possible, car si ces récits étaient rapportés à l’état d’oubli, il عليه السلام n’aurait pas dit : « Qu’il demande pardon à son Seigneur pour ce qu’il a fait », ni qu’« il a désobéi à son Seigneur ». Car il n’est pas impossible d’appliquer à son sujet l’expression selon laquelle il a désobéi, ni de l’inciter à demander pardon, dans la mesure où il a négligé de s’enquérir de son état et de savoir si elle était menstruée ou non, tout en sachant que si elle avait été menstruée, il lui aurait été interdit d’avoir des rapports avec elle. Ainsi, par cette négligence, il est désobéissant, et la demande de pardon devient obligatoire pour lui.",
-              "id": "Dan tidak seorang pun boleh berkata: Penafsiran ini tidak mungkin, karena jika riwayat-riwayat ini dipahami sebagai keadaan lupa, beliau عليه السلام tidak akan berkata, “Hendaklah ia memohon ampun kepada Tuhannya atas apa yang telah ia lakukan,” dan juga tidak bahwa “ia telah mendurhakai Tuhannya.” Sebab tidak mustahil menerapkan ucapan bahwa ia telah durhaka kepadanya, dan mendorongnya untuk memohon ampun, karena ia telah lalai dalam menanyakan keadaannya dan apakah ia sedang haid atau tidak, padahal ia mengetahui bahwa jika ia sedang haid, maka menggaulinya haram baginya. Maka dengan kelalaian ini ia menjadi durhaka, dan memohon ampun menjadi wajib atasnya.",
-              "ru": "И никто не вправе сказать: такое толкование невозможно, потому что если бы эти сообщения относились к состоянию забывчивости, он عليه السلام не сказал бы: «Пусть он попросит прощения у своего Господа за то, что сделал», и не сказал бы, что «он ослушался своего Господа». Ибо не невозможно применить к нему слова о том, что он ослушался, и побудить его к просьбе о прощении, поскольку он проявил небрежность, не спросив о ее состоянии и о том, была ли она в менструации, хотя он знал, что если бы она была в менструации, то близость с ней была бы для него запретна. Так из-за этой небрежности он является ослушавшимся, и просьба о прощении становится для него обязательной.",
-              "tr": "Ve hiç kimse: Bu yorum mümkün değildir, diyemez. Çünkü eğer bu rivayetler unutkanlık hâline hamledilecek olsaydı, o عليه السلام: “Yaptığından dolayı Rabbinden bağışlanma dilesin” ve “Rabbine isyan etti” demezdi. Zira onun için isyan etti denilmesi ve bağışlanmaya teşvik edilmesi, onun durumunu ve hayızlı olup olmadığını sormakta kusur etmesi sebebiyle imkânsız değildir; oysa biliyordu ki eğer hayızlı olsaydı onunla cinsel ilişki kurması kendisine haram olurdu. İşte bu ihmaliyle o isyankâr olur ve bağışlanma dilemesi üzerine vacip olur.",
-              "ur": "اور کسی کے لیے یہ کہنا جائز نہیں کہ یہ تاویل ممکن نہیں، کیونکہ اگر ان روایات کو بھول جانے کی حالت پر محمول کیا جائے تو وہ عليه السلام یہ نہ فرماتے: “وہ اپنے رب سے اپنے کیے کی مغفرت مانگے”، اور نہ یہ کہ “اس نے اپنے رب کی نافرمانی کی۔” کیونکہ اس پر یہ بات منطبق کرنا کہ اس نے نافرمانی کی، اور اسے استغفار پر ابھارنا، ناممکن نہیں؛ اس لیے کہ اس نے اس کی حالت کے بارے میں پوچھنے میں کوتاہی کی اور یہ کہ وہ حائضہ ہے یا نہیں، حالانکہ وہ جانتا تھا کہ اگر وہ حائضہ ہوتی تو اس سے ہم بستری اس پر حرام ہوتی۔ پس اس کوتاہی کے سبب وہ نافرمان ہے، اور اس پر استغفار واجب ہے۔",
-              "zh": "任何人都不能说：这种解释不可能，因为如果这些传述被理解为适用于遗忘的状态，那么他 عليه السلام就不会说：“让他为自己所做的向他的主求饶恕”，也不会说“他违抗了他的主”。因为把“他违抗了”这句话用于他身上，以及劝他求饶恕，并非不可能，因为他在询问她的情况以及她是否正在月经方面有所疏忽，而他知道如果她正在月经中，与她行房对他就是被禁止的。因此，由于这种疏忽，他就是违抗者，而求饶恕对他成为必须。"
-            },
             "word_end": 133,
             "word_start": 63
           },
           {
             "arabic_text": "وَالَّذِي يَكْشِفُ عَنْ هَذَا التَّأْوِيلِ خَبَرُ لَيْثٍ الْمُرَادِيِّ الْمُقَدَّمُ ذِكْرُهُ، قَالَ: سَأَلْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ عَنْ وُقُوعِ الرَّجُلِ عَلَى امْرَأَتِهِ وَهِيَ طَامِثٌ خَطَأً، فَقَيَّدَ السُّؤَالَ بِأَنَّ مُوَاقَعَتَهُ لَهَا كَانَتْ خَطَأً، فَأَجَابَهُ عَلَيْهِ السَّلَامُ: لَيْسَ عَلَيْهِ شَيْءٌ، وَقَدْ عَصَى رَبَّهُ.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "এই ব্যাখ্যাকে স্পষ্ট করে যে বিষয়টি, তা হলো পূর্বে উল্লেখিত লায়স আল-মুরাদীর বর্ণনা। তিনি বলেন: আমি আবূ আবদিল্লাহ عليه السلام-কে জিজ্ঞেস করলাম, এক ব্যক্তি ভুলবশত তার স্ত্রীর সঙ্গে সহবাস করেছে, যখন সে ঋতুমতী ছিল। তখন তিনি প্রশ্নটিকে এভাবে সীমাবদ্ধ করলেন যে, তার সঙ্গে মিলনটি ভুলবশত হয়েছিল; এরপর তিনি عليه السلام তাকে বললেন: তার ওপর কিছুই নেই, যদিও সে তার রবের অবাধ্য হয়েছে।",
-              "de": "Was diese Auslegung verdeutlicht, ist die zuvor erwähnte Überlieferung von Layth al-Murādī. Er sagte: Ich fragte Abū ʿAbdillāh عليه السلام über einen Mann, der versehentlich mit seiner Frau Verkehr hatte, während sie menstruierte. So schränkte er die Frage ein, indem er erklärte, dass sein Verkehr mit ihr aus Versehen geschehen sei, und er عليه السلام antwortete ihm: Es ist nichts gegen ihn, obwohl er seinem Herrn ungehorsam gewesen ist.",
-              "en": "What clarifies this interpretation is the report of Layth al-Murādī mentioned earlier. He said: I asked Abū ʿAbdillāh عليه السلام about a man having intercourse with his wife while she was menstruating by mistake. So he restricted the question by stating that his intercourse with her had been in error, and he عليه السلام answered him: Nothing is due upon him, though he has disobeyed his Lord.",
-              "es": "Lo que aclara esta interpretación es el relato de Layth al-Murādī mencionado anteriormente. Dijo: Le pregunté a Abū ʿAbdillāh عليه السلام acerca de un hombre que tuvo relaciones con su esposa mientras ella menstruaba por error. Así, restringió la pregunta al señalar que su relación con ella había sido accidental, y él عليه السلام le respondió: No le corresponde nada, aunque ha desobedecido a su Señor.",
-              "fa": "آنچه این تأویل را روشن می‌سازد، روایتِ لَیثِ مُرادی است که پیش‌تر ذکر شد. او گفت: از ابوعبدالله علیه السلام دربارهٔ مردی پرسیدم که به اشتباه با همسرش در حالی که او در حال حیض بود آمیزش کرده است. پس پرسش را مقید کرد به اینکه نزدیکیِ او با وی از روی خطا بوده است، و آن حضرت علیه السلام به او فرمود: چیزی بر او نیست، هرچند پروردگارش را نافرمانی کرده است.",
-              "fr": "Ce qui clarifie cette interprétation, c’est le récit de Layth al-Murādī mentionné plus haut. Il dit : J’ai interrogé Abū ʿAbdillāh عليه السلام au sujet d’un homme qui avait eu des rapports avec son épouse alors qu’elle était menstruée, par erreur. Il a donc précisé la question en indiquant que sa relation avec elle avait été involontaire, et il عليه السلام lui répondit : Rien ne lui incombe, bien qu’il ait désobéi à son Seigneur.",
-              "id": "Yang menjelaskan penafsiran ini adalah riwayat Layth al-Murādī yang telah disebutkan sebelumnya. Ia berkata: Aku bertanya kepada Abū ʿAbdillāh عليه السلام tentang seorang laki-laki yang berhubungan dengan istrinya ketika ia sedang haid karena tidak sengaja. Maka ia membatasi pertanyaan itu dengan menyebutkan bahwa persetubuhannya dengannya terjadi karena kesalahan, lalu beliau عليه السلام menjawabnya: Tidak ada sesuatu pun atasnya, meskipun ia telah durhaka kepada Tuhannya.",
-              "ru": "То, что проясняет это толкование, — это передача Лайса аль-Муради, упомянутая ранее. Он сказал: Я спросил Абу ʿАбдуллаха عليه السلام о мужчине, который по ошибке вступил в половую связь со своей женой, когда она была в менструации. Тогда он ограничил вопрос, указав, что его близость с ней была по ошибке, и он عليه السلام ответил ему: Ничего на нем нет, хотя он ослушался своего Господа.",
-              "tr": "Bu yorumu açıklığa kavuşturan şey, daha önce zikredilen Leys el-Murādî’nin rivayetidir. Dedi ki: Ebû Abdillâh عليه السلام’a, bir adamın hanımı hayız hâlindeyken yanlışlıkla onunla cinsel ilişkide bulunması hakkında sordum. Böylece soruyu, onunla birleşmesinin hata sonucu olduğunu belirterek kayıt altına aldı; bunun üzerine o عليه السلام ona şöyle cevap verdi: Onun üzerinde bir şey yoktur; ancak o, Rabbine isyan etmiştir.",
-              "ur": "اس تاویل کو واضح کرنے والی چیز لَیث المرادی کی وہ روایت ہے جس کا ذکر پہلے ہو چکا ہے۔ انہوں نے کہا: میں نے ابو عبد اللہ علیہ السلام سے اس بارے میں پوچھا کہ ایک آدمی اپنی بیوی سے حالتِ حیض میں غلطی سے ہمبستری کر بیٹھا۔ پس اس نے سوال کو اس طرح مقید کیا کہ اس کا اس سے مباشرت کرنا خطا کے طور پر ہوا تھا، تو آپ علیہ السلام نے اسے جواب دیا: اس پر کچھ لازم نہیں، اگرچہ اس نے اپنے رب کی نافرمانی کی ہے۔",
-              "zh": "能说明这种解释的是前面提到的莱斯·穆拉迪的传述。他说：我问阿布·阿卜杜拉 عليه السلام，关于一个男人在妻子月经期间误与她交合的事。于是他把问题限定为：他与她发生关系是出于错误；然后他 عليه السلام回答他说：他没有任何责任，尽管他已经违抗了他的主。"
-            },
             "word_end": 174,
             "word_start": 133
           }
@@ -190,59 +138,21 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "التَّفْرِيطِ": "negligence or culpable failure to exercise due care",
-            "النِّسْيَانِ": "forgetfulness or lack of recollection",
-            "الْحَائِضِ": "a menstruating woman",
-            "الْكَفَّارَةُ": "the expiation due for the violation",
-            "طَامِثٌ": "menstruating",
-            "وَطْؤُهَا": "having intercourse with her",
-            "يَسْتَغْفِرُ": "he seeks forgiveness from Allah"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْحَائِضِ",
+          "يَسْتَغْفِرُ",
+          "الْكَفَّارَةُ",
+          "النِّسْيَانِ",
+          "طَامِثٌ",
+          "وَطْؤُهَا",
+          "التَّفْرِيطِ"
+        ],
         "related_quran": [
           {
             "ref": "2:222",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কোনো পুরুষ যদি জেনে বা না জেনে তার ঋতুমতী স্ত্রীর সঙ্গে সহবাস করে, তবে তার বিধান কী?",
-          "de": "Wie lautet das Urteil, wenn ein Mann mit seiner menstruierenden Ehefrau Verkehr hat, ob wissentlich oder unwissentlich?",
-          "en": "What is the ruling if a man has intercourse with his wife while she is menstruating, knowingly or unknowingly?",
-          "es": "¿Cuál es la norma si un hombre tiene relaciones con su esposa mientras ella está menstruando, sabiéndolo o no sabiéndolo?",
-          "fa": "اگر مردی با همسرِ حائض خود، چه با علم و چه بی‌علم، آمیزش کند، حکم آن چیست؟",
-          "fr": "Quel est le jugement si un homme a des rapports avec son épouse pendant qu’elle est menstruée, en le sachant ou non ?",
-          "id": "Apa hukumnya jika seorang laki-laki berhubungan intim dengan istrinya saat ia sedang haid, baik dengan sengaja maupun tanpa mengetahui?",
-          "ru": "Каково постановление, если мужчина вступает в близость со своей женой во время менструации, зная об этом или не зная?",
-          "tr": "Bir erkek, eşi hayızlıyken bunu bilerek ya da bilmeyerek onunla cinsel ilişkiye girerse hüküm nedir?",
-          "ur": "اگر کوئی مرد جانتے یا نہ جانتے ہوئے اپنی حیض والی بیوی سے ہم بستری کرے تو اس کا حکم کیا ہے؟",
-          "zh": "如果一个男人在妻子月经期间与她行房，无论知情还是不知情，教法律例是什么？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনাটি ঋতুমতী স্ত্রীর সঙ্গে সহবাসের বিধান আলোচনা করে এবং স্পষ্ট করে যে পুরুষটি যদি তার অবস্থা না জানে, তবে তার ওপর কাফফারা নেই, যদিও তাকে ইস্তিগফার করতে হবে। যদি সে জানত যে স্ত্রী ঋতুমতী, তবে কাফফারা আবশ্যক হবে, এবং পাঠ্যটি আরও ব্যাখ্যা করে যে তার অবস্থা নির্ণয়ে অবহেলা করাও নিন্দনীয়।",
-          "de": "Diese Überlieferung behandelt das Urteil über den Verkehr mit einer menstruierenden Ehefrau und erklärt, dass keine Sühne fällig ist, wenn der Mann ihren Zustand nicht kannte, auch wenn er um Vergebung bitten muss. Wenn er wusste, dass sie menstruierte, dann ist die Sühne verpflichtend, und der Text macht außerdem deutlich, dass die Nachlässigkeit, ihren Zustand nicht zu erfragen, selbst tadelnswert ist.",
-          "en": "This report discusses the ruling on intercourse with a menstruating wife and explains that when the man was unaware of her state, no expiation is due, though he must seek forgiveness. If he knew she was menstruating, then expiation is binding, and the text further explains that negligence in failing to ascertain her condition is itself blameworthy.",
-          "es": "Este relato trata la norma sobre tener relaciones con una esposa menstruante y explica que, si el hombre no sabía su estado, no le corresponde expiación, aunque debe pedir perdón. Si sabía que ella estaba menstruando, entonces la expiación es obligatoria, y el texto además aclara que la negligencia en averiguar su estado es en sí misma censurable.",
-          "fa": "این روایت حکم آمیزش با همسرِ حائض را بیان می‌کند و روشن می‌سازد که اگر مرد از حال او آگاه نبوده، کفاره‌ای بر او نیست، هرچند باید استغفار کند. اگر می‌دانسته که او حائض است، کفاره بر او لازم می‌شود، و متن همچنین توضیح می‌دهد که کوتاهی در آگاهی یافتن از حال او خود نکوهیده است.",
-          "fr": "Ce récit traite du jugement concernant les rapports avec une épouse menstruée et explique que, si l’homme ignorait son état, aucune expiation ne lui incombe, bien qu’il doive demander pardon. S’il savait qu’elle était menstruée, l’expiation lui incombe, et le texte précise en outre que la négligence à vérifier son état est elle-même blâmable.",
-          "id": "Riwayat ini membahas hukum berhubungan intim dengan istri yang sedang haid dan menjelaskan bahwa jika laki-laki itu tidak mengetahui keadaannya, maka tidak ada kafarat atasnya, meskipun ia harus memohon ampun. Jika ia mengetahui bahwa istrinya sedang haid, maka kafarat menjadi wajib, dan teks ini juga menjelaskan bahwa kelalaian dalam memastikan keadaannya sendiri tercela.",
-          "ru": "Этот хадис рассматривает постановление о близости с женой во время менструации и разъясняет, что если мужчина не знал о ее состоянии, то искупление на нем не лежит, хотя ему следует просить прощения. Если же он знал, что она в менструации, то искупление обязательно, и текст также поясняет, что небрежность в выяснении ее состояния сама по себе заслуживает порицания.",
-          "tr": "Bu rivayet, hayızlı eşle cinsel ilişkinin hükmünü ele alır ve erkeğin onun durumunu bilmemesi hâlinde kefaret gerekmediğini, ancak bağışlanma dilemesi gerektiğini açıklar. Eğer onun hayızlı olduğunu biliyorsa kefaret gerekir; metin ayrıca onun durumunu öğrenmede ihmalkârlığın da kınanacak bir davranış olduğunu belirtir.",
-          "ur": "یہ روایت حیض والی بیوی سے ہم بستری کے حکم کو بیان کرتی ہے اور واضح کرتی ہے کہ اگر مرد کو اس کی حالت کا علم نہ ہو تو کفارہ لازم نہیں، البتہ اسے استغفار کرنا چاہیے۔ اگر اسے معلوم ہو کہ وہ حائضہ ہے تو کفارہ لازم ہے، اور متن مزید واضح کرتا ہے کہ اس کی حالت معلوم کرنے میں کوتاہی خود قابلِ ملامت ہے۔",
-          "zh": "这段传述讨论了与正在月经中的妻子行房的教法律例，并说明如果男人不知道她的状况，那么他不承担赎罪，但他应当求饶恕。如果他知道她正在月经中，那么赎罪就是必须的；文本还进一步说明，未能查明她的状况这一疏忽本身也是应受责备的。"
-        },
         "tags": [
           "jurisprudence",
           "family",

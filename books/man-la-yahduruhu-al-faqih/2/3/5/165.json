@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَلَمَّا صُدَّ رَسُولُ ٱللَّهِ صَلَّى ٱللَّهُ عَلَيْهِ وَآلِهِ أَتَاهُ رَجُلٌ فَقَالَ يَا رَسُولَ ٱللَّهِ إِنِّي رَجُلٌ مَيِّلٌ يَعْنِي كَثِيرَ ٱلْمَالِ وَإِنِّي فِي بَلَدٍ لَيْسَ يُصْلِحُ مَالِي غَيْرِي فَأَخْبِرْنِي يَا رَسُولَ ٱللَّهِ بِشَيْءٍ إِنْ أَنَا صَنَعْتُهُ كَانَ لِي مِثْلُ أَجْرِ ٱلْحَاجِّ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "যখন আল্লাহর রাসূল, সাল্লাল্লাহু আলাইহি ওয়া আলিহি, বাধাগ্রস্ত হলেন, তখন একজন ব্যক্তি তাঁর কাছে এসে বলল: “হে আল্লাহর রাসূল, আমি একজন ধনী ব্যক্তি, অর্থাৎ অনেক সম্পদের অধিকারী, এবং আমি এমন একটি শহরে আছি যেখানে আমার ছাড়া কেউ আমার সম্পদ সঠিকভাবে পরিচালনা করতে পারে না। তাই আমাকে কিছু বলুন, হে আল্লাহর রাসূল, যা আমি করলে আমার জন্য হজের সমান সওয়াব হবে।”",
-              "de": "Als der Gesandte Allahs, Friede sei mit ihm und seiner Familie, gehindert wurde, kam ein Mann zu ihm und sagte: „O Gesandter Allahs, ich bin ein wohlhabender Mann, das heißt, ich besitze viel Vermögen, und ich bin in einer Stadt, in der außer mir niemand mein Vermögen richtig verwalten kann. So teile mir mit, o Gesandter Allahs, etwas, das ich tun kann, um den Lohn eines Pilgers zu erhalten.“",
-              "en": "When the Messenger of Allah, peace be upon him and his family, was prevented, a man came to him and said: “O Messenger of Allah, I am a wealthy man, meaning one with much property, and I am in a town where no one but I can properly manage my wealth. So inform me, O Messenger of Allah, of something which, if I do it, I would have the like of the pilgrim’s reward.”",
-              "es": "Cuando el Mensajero de Allah, la paz sea con él y su familia, fue impedido, un hombre se acercó a él y dijo: “Oh Mensajero de Allah, soy un hombre rico, es decir, con muchas propiedades, y estoy en una ciudad donde nadie más que yo puede administrar adecuadamente mi riqueza. Así que infórmame, oh Mensajero de Allah, de algo que, si lo hago, tendría una recompensa similar a la del peregrino.”",
-              "fa": "وقتی پیامبر خدا، صلی الله علیه و آله، از ادامه کار بازداشته شد، مردی نزد او آمد و گفت: «ای پیامبر خدا، من مردی ثروتمند هستم، یعنی دارای مال فراوان، و در شهری هستم که جز من کسی نمی‌تواند مال مرا به درستی اداره کند. پس به من چیزی بگو، ای پیامبر خدا، که اگر انجام دهم، مانند اجر حاجی برایم باشد.»",
-              "fr": "Lorsque le Messager d’Allah, paix et bénédictions sur lui et sa famille, fut empêché, un homme vint à lui et dit : « Ô Messager d’Allah, je suis un homme riche, c’est-à-dire possédant beaucoup de biens, et je suis dans une ville où personne d’autre que moi ne peut bien gérer ma richesse. Informe-moi donc, ô Messager d’Allah, de quelque chose que si je fais, j’aurai une récompense semblable à celle du pèlerin. »",
-              "id": "Ketika Rasulullah, shallallahu 'alaihi wa aalihi, dicegah, seorang pria datang kepadanya dan berkata: “Wahai Rasulullah, aku adalah orang kaya, maksudnya memiliki banyak harta, dan aku berada di sebuah kota di mana tidak ada yang bisa mengelola hartaku dengan baik kecuali aku sendiri. Maka beritahukan kepadaku, wahai Rasulullah, sesuatu yang jika aku melakukannya, aku mendapatkan pahala seperti pahala orang yang berhaji.”",
-              "ru": "Когда Посланник Аллаха, мир ему и его семье, был остановлен, к нему пришел человек и сказал: «О Посланник Аллаха, я богатый человек, то есть обладаю большим имуществом, и я нахожусь в городе, где никто, кроме меня, не может правильно управлять моим имуществом. Сообщи мне, о Посланник Аллаха, о чем-то, что если я сделаю, я получу награду, подобную награде паломника.»",
-              "tr": "Allah’ın Resulü, sallallahu aleyhi ve sellem ve âline, engellendiğinde, bir adam ona gelerek dedi ki: “Ey Allah’ın Resulü, ben çok malı olan zengin bir adamım ve malımı doğru şekilde idare edebilen başka kimse olmayan bir şehirdeyim. Bana öyle bir şey bildir ki, eğer yaparsam hacıların sevabı gibi bir sevaba sahip olayım.”",
-              "ur": "جب رسول اللہ صلی اللہ علیہ وآلہ وسلم کو روکا گیا، تو ایک شخص ان کے پاس آیا اور کہا: \"اے رسول اللہ، میں ایک مالدار آدمی ہوں، یعنی میرے پاس بہت سارا مال ہے، اور میں ایک ایسے شہر میں ہوں جہاں میرے سوا کوئی بھی میرے مال کی صحیح دیکھ بھال نہیں کر سکتا۔ تو مجھے بتائیں، اے رسول اللہ، کوئی ایسی چیز جسے اگر میں کروں تو مجھے حاجی کے اجر کے برابر اجر ملے۔\"",
-              "zh": "当安拉使者，愿他和平与家人同在，被阻止时，有一人来到他面前说：“安拉使者，我是一个富有的人，意指拥有大量财产，我在一个除了我之外无人能妥善管理我财富的城镇。请告诉我，安拉使者，有什么事我若做了，可以获得与朝觐者相似的回报。”"
-            },
             "word_end": 40,
             "word_start": 0
           },
           {
             "arabic_text": "فَقَالَ لَهُ «ٱنْظُرْ إِلَى ٱلْجَبَلِ» يَعْنِي أَبَا قُبَيْسٍ «لَوْ أَنْفَقْتَ مِثْلَ هَٰذَا ذَهَبًا تَتَصَدَّقُ بِهِ فِي سَبِيلِ ٱللَّهِ عَزَّ وَجَلَّ مَا أَدْرَكْتَ أَجْرَ ٱلْحَاجِّ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি তাকে বললেন: “পাহাড়টিকে দেখো,” অর্থাৎ আবু কুবাইসকে, “যদি তুমি এর সমপরিমাণ সোনা আল্লাহর পথে দান করো, সর্বশক্তিমান ও মহিমান্বিত আল্লাহর পথে, তবুও তুমি হজের সওয়াব অর্জন করতে পারবে না।”",
-              "de": "Er sagte zu ihm: „Sieh den Berg an,“ gemeint ist Abū Qubays, „wenn du so viel Gold ausgeben würdest, um es auf dem Weg Allahs, des Allmächtigen und Erhabenen, zu spenden, würdest du dennoch nicht den Lohn eines Pilgers erreichen.“",
-              "en": "He said to him: “Look at the mountain,” meaning Abū Qubays, “if you were to spend the like of this in gold, giving it as charity in the way of Allah, Mighty and Majestic, you would still not attain the reward of the pilgrim.”",
-              "es": "Él le dijo: “Mira la montaña,” refiriéndose a Abū Qubays, “si gastas en oro una cantidad como esta, dándola en caridad en el camino de Allah, el Poderoso y Majestuoso, aún no alcanzarás la recompensa del peregrino.”",
-              "fa": "او به او گفت: «به کوه نگاه کن»، منظور ابوقبیس بود، «اگر به اندازه این کوه طلا در راه خدا، عز و جل، صدقه بدهی، باز هم به اجر حاجی نمی‌رسی.»",
-              "fr": "Il lui dit : « Regarde la montagne », désignant Abū Qubays, « si tu dépensais autant en or en aumône dans le chemin d’Allah, le Tout-Puissant et Majestueux, tu n’atteindrais pas la récompense du pèlerin. »",
-              "id": "Dia berkata kepadanya: “Lihatlah gunung itu,” maksudnya Abū Qubays, “jika kamu mengeluarkan harta sebanyak ini dalam bentuk emas untuk sedekah di jalan Allah, Yang Maha Perkasa dan Maha Agung, kamu tetap tidak akan mencapai pahala haji.”",
-              "ru": "Он сказал ему: «Посмотри на гору», имея в виду Абу Кубейс, «если бы ты потратил столько золота, сколько она весит, на милостыню на пути Аллаха, Всемогущего и Великого, ты все равно не достиг бы награды паломника.»",
-              "tr": "Ona dedi ki: “Dağa bak,” yani Ebû Kubeys’e, “eğer bunun kadar altını Allah yolunda sadaka olarak harcarsan, yine de hacının sevabına ulaşamazsın.”",
-              "ur": "انہوں نے اسے کہا: \"پہاڑ کو دیکھو،\" یعنی ابو قبیس، \"اگر تم اس کے برابر سونا خرچ کرو اور اسے اللہ کے راستے میں صدقہ کرو، تو بھی تم حاجی کے اجر تک نہیں پہنچو گے۔\"",
-              "zh": "他说：“看那座山，”指的是阿布库贝斯，“如果你花费等同于这座山的黄金，在安拉至大至高的道路上施舍，你仍然无法获得朝觐者的回报。”"
-            },
             "word_end": 64,
             "word_start": 40
           }
@@ -91,27 +78,15 @@
             "phrase_en": "The way of Allah"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبَا قُبَيْسٍ": "Abū Qubays, the mountain being referred to",
-            "أَجْرِ ٱلْحَاجِّ": "the reward of the pilgrim performing hajj",
-            "ذَهَبًا": "gold, used here to indicate immense wealth",
-            "صُدَّ": "was prevented or turned back from proceeding",
-            "فِي سَبِيلِ ٱللَّهِ": "in the way of Allah; for His cause",
-            "مَيِّلٌ": "wealthy; possessing abundant property",
-            "ٱلْجَبَلِ": "the mountain pointed to as a visible comparison"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "صُدَّ",
+          "مَيِّلٌ",
+          "أَجْرِ ٱلْحَاجِّ",
+          "ٱلْجَبَلِ",
+          "أَبَا قُبَيْسٍ",
+          "ذَهَبًا",
+          "فِي سَبِيلِ ٱللَّهِ"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
@@ -126,32 +101,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামে কি দান হজের সওয়াবের সমান হতে পারে?",
-          "de": "Kann Wohltätigkeit im Islam die Belohnung des Hadsch gleichkommen?",
-          "en": "Can charity equal the reward of hajj in Islam?",
-          "es": "¿Puede la caridad igualar la recompensa del hajj en el Islam?",
-          "fa": "آیا صدقه می‌تواند برابر با پاداش حج در اسلام باشد؟",
-          "fr": "La charité peut-elle égaler la récompense du hajj en Islam ?",
-          "id": "Apakah sedekah bisa menyamai pahala haji dalam Islam?",
-          "ru": "Может ли милостыня быть равна награде хаджа в исламе?",
-          "tr": "İslam’da sadaka, haccın sevabına eşit olabilir mi?",
-          "ur": "کیا اسلام میں صدقہ حج کے اجر کے برابر ہو سکتا ہے؟",
-          "zh": "在伊斯兰教中，慈善能否等同于朝觐的回报？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি হজের অনন্য মর্যাদা জোর দেয় এবং শেখায় যে এর সওয়াব কেবল আর্থিক ব্যয়ের মাধ্যমে সমান করা যায় না, এমনকি সেই ব্যয় প্রচুর এবং আন্তরিকভাবে আল্লাহর পথে দেওয়া হলেও। এটি ঐতিহাসিক একটি মুহূর্তকেও প্রতিফলিত করে যখন রাসূলুল্লাহ صلی اللہ علیہ وآلہ وسلمকে বাধা দেওয়া হয়েছিল, তবুও হজের আলাদা আধ্যাত্মিক মর্যাদা নিশ্চিত করা হয়।",
-          "de": "Dieser Hadith betont die einzigartige Verdienste des Hadsch und lehrt, dass seine Belohnung nicht einfach durch finanzielle Ausgaben erreicht werden kann, selbst wenn diese Ausgaben immens und aufrichtig im Wege Allahs gegeben werden. Er spiegelt auch einen historischen Moment wider, als der Gesandte Allahs صلى الله عليه وآله gehindert wurde weiterzugehen, während er dennoch die besondere spirituelle Stellung des Pilgers bestätigt.",
-          "en": "This hadith emphasizes the unique merit of hajj and teaches that its reward cannot simply be equaled by financial expenditure, even if that expenditure is immense and sincerely given in the way of Allah. It also reflects a historical moment when the Messenger of Allah صلى الله عليه وآله was prevented from continuing, while still affirming the distinct spiritual station of the pilgrim.",
-          "es": "Este hadiz enfatiza el mérito único del hajj y enseña que su recompensa no puede ser igualada simplemente por un gasto financiero, incluso si ese gasto es inmenso y dado sinceramente en el camino de Allah. También refleja un momento histórico cuando el Mensajero de Allah صلى الله عليه وآله fue impedido de continuar, mientras se afirma la estación espiritual distinta del peregrino.",
-          "fa": "این حدیث بر فضیلت منحصر به فرد حج تأکید می‌کند و می‌آموزد که پاداش آن را نمی‌توان صرفاً با هزینه مالی برابر دانست، حتی اگر آن هزینه بسیار زیاد و با نیت خالص در راه خدا داده شود. همچنین لحظه‌ای تاریخی را بازتاب می‌دهد که پیامبر خدا صلی الله علیه وآله از ادامه بازداشته شد، در حالی که مقام معنوی حاجی را تأیید می‌کند.",
-          "fr": "Ce hadith souligne le mérite unique du hajj et enseigne que sa récompense ne peut être simplement égalée par une dépense financière, même si cette dépense est immense et donnée sincèrement dans le chemin d’Allah. Il reflète également un moment historique où le Messager d’Allah صلى الله عليه وآله fut empêché de continuer, tout en affirmant la station spirituelle distincte du pèlerin.",
-          "id": "Hadis ini menekankan keutamaan unik haji dan mengajarkan bahwa pahalanya tidak bisa disamakan hanya dengan pengeluaran finansial, meskipun pengeluaran itu sangat besar dan diberikan dengan ikhlas di jalan Allah. Ini juga mencerminkan momen sejarah ketika Rasulullah صلى الله عليه وآله dicegah melanjutkan, namun tetap menegaskan kedudukan spiritual jamaah haji.",
-          "ru": "Этот хадис подчеркивает уникальную заслугу хаджа и учит, что его награду нельзя просто приравнять к финансовым расходам, даже если эти расходы огромны и искренне даны на пути Аллаха. Он также отражает исторический момент, когда Посланнику Аллаха صلى الله عليه وآله было препятствовано продолжать, при этом подтверждая особое духовное положение паломника.",
-          "tr": "Bu hadis, haccın eşsiz faziletini vurgular ve onun mükafatının sadece maddi harcamayla eşitlenemeyeceğini öğretir; ne kadar büyük ve samimi bir şekilde Allah yolunda harcanırsa harcansın. Ayrıca, Allah’ın Resulü sallallahu aleyhi ve sellem engellendiği tarihi bir anı yansıtırken, hacının manevi makamını da teyit eder.",
-          "ur": "یہ حدیث حج کی منفرد فضیلت کو اجاگر کرتی ہے اور سکھاتی ہے کہ اس کا اجر صرف مالی خرچ سے برابر نہیں کیا جا سکتا، چاہے وہ خرچ بہت زیادہ اور خلوص نیت سے اللہ کے راستے میں دیا جائے۔ یہ ایک تاریخی موقع کی عکاسی بھی کرتی ہے جب رسول اللہ صلی اللہ علیہ وآلہ وسلم کو روکا گیا، اور پھر بھی حاجی کی روحانی مقام کی تصدیق کی گئی۔",
-          "zh": "此圣训强调了朝觐的独特功德，教导我们其回报不能仅仅通过财务支出等同，即使该支出巨大且真诚地用于安拉之道。它也反映了安拉使者 صلى الله عليه وآله 被阻止继续前行的历史时刻，同时肯定了朝觐者独特的精神地位。"
-        },
         "tags": [
           "worship",
           "prophetic_tradition",

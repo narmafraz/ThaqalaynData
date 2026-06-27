@@ -18,23 +18,23 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَهُ: عَنِ الرَّجُلِ هَلْ يَصْلُحُ لَهُ أَنْ يُصَلِّيَ وَفِي فِيهِ الْخَرَزُ وَاللُّؤْلُؤُ قَالَ «إِنْ كَانَ يَمْنَعُهُ مِنْ قِرَاءَتِهِ فَلَا وَإِنْ كَانَ لَا يَمْنَعُهُ فَلَا بَأْسَ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি একজন ব্যক্তির সম্পর্কে জিজ্ঞাসা করলেন: তার মুখে মণি ও মুক্তা থাকাকালীন কি তার জন্য সালাত (নামাজ) আদায় করা উপযুক্ত? তিনি বললেন: “যদি তা তার তেলাওয়াতে বাধা দেয়, তবে না; এবং যদি বাধা না দেয়, তবে কোনো ক্ষতি নেই।”",
-              "de": "Er fragte ihn nach einem Mann: Ist es für ihn richtig, das Salat (Gebet) zu verrichten, während Perlen und Perlmutt in seinem Mund sind? Er sagte: „Wenn es ihn an seiner Rezitation hindert, dann nein; und wenn es ihn nicht hindert, dann ist es kein Problem.“",
-              "en": "He asked him about a man: is it proper for him to perform salat (prayer) while there are beads and pearls in his mouth? He said: “If it prevents him from his recitation, then no; and if it does not prevent him, then there is no harm.”",
-              "es": "Le preguntó acerca de un hombre: ¿es apropiado que realice la salat (oración) mientras tiene cuentas y perlas en la boca? Él dijo: “Si le impide su recitación, entonces no; y si no le impide, entonces no hay daño.”",
-              "fa": "از او درباره مردی پرسید: آیا برای او مناسب است که نماز بخواند در حالی که دانه‌ها و مروارید در دهانش است؟ گفت: «اگر مانع قرائتش شود، نه؛ و اگر مانع نشود، اشکالی ندارد.»",
-              "fr": "Il lui demanda au sujet d’un homme : est-il convenable pour lui d’accomplir la salat (prière) alors qu’il a des perles et des grains dans la bouche ? Il répondit : « Si cela l’empêche de réciter, alors non ; et si cela ne l’empêche pas, alors il n’y a pas de mal. »",
-              "id": "Dia bertanya tentang seorang pria: apakah pantas baginya untuk melaksanakan salat (shalat) sementara ada manik-manik dan mutiara di mulutnya? Dia berkata: \"Jika itu menghalanginya dari membaca, maka tidak; dan jika tidak menghalanginya, maka tidak apa-apa.\"",
-              "ru": "Он спросил его о человеке: правильно ли ему совершать салат (молитву), если у него во рту есть бусы и жемчуг? Он сказал: «Если это мешает его чтению, то нет; если не мешает, то нет вреда.»",
-              "tr": "Bir adam hakkında sordu: Ağzında boncuklar ve inciler varken namaz kılması uygun mudur? Dedi ki: \"Eğer bu, onun tilavetini engelliyorsa hayır; engellemiyorsa bir sakınca yoktur.\"",
-              "ur": "اس نے اس سے ایک آدمی کے بارے میں پوچھا: کیا اس کے لیے مناسب ہے کہ وہ نماز پڑھے جبکہ اس کے منہ میں موتی اور موتی کے دانے ہوں؟ اس نے کہا: \"اگر یہ اسے تلاوت سے روکتا ہے تو نہیں؛ اور اگر یہ نہیں روکتا تو کوئی حرج نہیں۔\"",
-              "zh": "他问他关于一个人：他嘴里有珠子和珍珠时，是否适合他进行礼拜？他说：“如果这妨碍他的诵读，那就不行；如果不妨碍，那就没关系。”"
-            },
             "word_end": 25,
             "word_start": 0
           }
@@ -67,27 +67,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "اللُّؤْلُؤُ": "pearls",
-            "الْخَرَزُ": "beads",
-            "فَلَا بَأْسَ": "there is no harm",
-            "فِيهِ": "in his mouth",
-            "قِرَاءَتِهِ": "his recitation",
-            "يَمْنَعُهُ": "prevents or obstructs him",
-            "يُصَلِّيَ": "to perform salat (prayer)"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُصَلِّيَ",
+          "فِيهِ",
+          "الْخَرَزُ",
+          "اللُّؤْلُؤُ",
+          "يَمْنَعُهُ",
+          "قِرَاءَتِهِ",
+          "فَلَا بَأْسَ"
+        ],
         "related_quran": [
           {
             "ref": "73:4",
@@ -98,32 +86,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি মণি বা মুক্তা তেলাওয়াতকে প্রভাবিত না করে তবে মুখে রেখে নামাজ পড়া কি جائز?",
-          "de": "Ist es erlaubt, mit Perlen oder Perlmutt im Mund zu beten, wenn sie die Rezitation nicht beeinträchtigen?",
-          "en": "Is it permissible to pray with beads or pearls in the mouth if they do not affect recitation?",
-          "es": "¿Es permisible rezar con cuentas o perlas en la boca si no afectan la recitación?",
-          "fa": "آیا نماز خواندن با داشتن دانه‌ها یا مروارید در دهان جایز است اگر قرائت را تحت تأثیر قرار ندهد؟",
-          "fr": "Est-il permis de prier avec des perles ou des grains dans la bouche si cela n’affecte pas la récitation ?",
-          "id": "Apakah diperbolehkan salat dengan manik-manik atau mutiara di mulut jika tidak mempengaruhi bacaan?",
-          "ru": "Разрешено ли молиться с бусами или жемчугом во рту, если они не мешают чтению?",
-          "tr": "Boncuklar veya inciler ağızda olsa bile tilaveti etkilemiyorsa namaz kılmak caiz midir?",
-          "ur": "کیا موتی یا موتی کے دانے منہ میں ہونے کے باوجود نماز پڑھنا جائز ہے اگر وہ تلاوت کو متاثر نہ کریں؟",
-          "zh": "嘴里有珠子或珍珠但不影响诵读，是否允许礼拜？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি মুখে কিছু থাকার সময় সালাত আদায়ের শারঈ حکم সম্পর্কে। মাপকাঠি হলো এটি তেলাওয়াতে বাধা দেয় কিনা: যদি দেয়, অনুমতি নেই; যদি না দেয়, কোনো ক্ষতি নেই।",
-          "de": "Dieser Hadith gibt eine Rechtsregelung bezüglich des Verrichtens des Salat (Gebet), während etwas im Mund ist. Das Kriterium ist, ob es die richtige Rezitation behindert: wenn es behindert, ist es nicht erlaubt; wenn nicht, ist es kein Problem.",
-          "en": "This hadith gives a legal ruling concerning performing salat (prayer) while something is in the mouth. The criterion is whether it interferes with proper recitation: if it obstructs recitation, it is not permitted; if it does not, there is no harm.",
-          "es": "Este hadiz da un fallo legal sobre realizar la salat (oración) mientras hay algo en la boca. El criterio es si interfiere con la recitación adecuada: si obstruye la recitación, no está permitido; si no, no hay daño.",
-          "fa": "این حدیث حکم شرعی درباره خواندن نماز در حالی که چیزی در دهان است را بیان می‌کند. معیار این است که آیا مانع قرائت می‌شود یا خیر: اگر مانع باشد، جایز نیست؛ اگر نباشد، اشکالی ندارد.",
-          "fr": "Ce hadith donne un jugement légal concernant l’accomplissement de la salat (prière) alors qu’il y a quelque chose dans la bouche. Le critère est de savoir si cela gêne la récitation correcte : si cela l’obstrue, ce n’est pas permis ; sinon, il n’y a pas de mal.",
-          "id": "Hadis ini memberikan hukum tentang melaksanakan salat (shalat) saat ada sesuatu di mulut. Kriterianya adalah apakah itu mengganggu bacaan: jika menghalangi, tidak diperbolehkan; jika tidak, tidak masalah.",
-          "ru": "Этот хадис даёт правовое постановление о совершении салата (молитвы) с чем-то во рту. Критерий — мешает ли это правильному чтению: если мешает, не разрешается; если не мешает, вреда нет.",
-          "tr": "Bu hadis, ağızda bir şey varken namaz kılmanın hükmü hakkındadır. Kriter, bunun tilaveti engelleyip engellemediğidir: engelliyorsa izin yoktur; engellemiyorsa sakınca yoktur.",
-          "ur": "یہ حدیث منہ میں کچھ ہونے کے دوران نماز پڑھنے کے شرعی حکم کے بارے میں ہے۔ معیار یہ ہے کہ آیا یہ تلاوت میں رکاوٹ بنتا ہے: اگر رکاوٹ بنتا ہے تو اجازت نہیں؛ اگر نہیں بنتا تو کوئی حرج نہیں۔",
-          "zh": "这段圣训关于嘴里有东西时进行礼拜的法律裁决。标准是是否妨碍正确诵读：若妨碍则不允许；若不妨碍则无害。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

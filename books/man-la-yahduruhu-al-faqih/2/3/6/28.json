@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَ سَعِيدُ بْنُ عَبْدِ اللَّهِ الْأَعْرَجُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ :",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "সাঈদ ইবনে আবদুল্লাহ আল-আরাজ আবু আবদুল্লাহ عليه السلام-কে জিজ্ঞাসা করলেন:",
-              "de": "Sa'id ibn 'Abd Allah al-A'raj fragte Abū 'Abd Allāh علیه السلام:",
-              "en": "Sa'id ibn 'Abd Allah al-A'raj asked Abū 'Abd Allāh عليه السلام:",
-              "es": "Sa'id ibn 'Abd Allah al-A'raj preguntó a Abū 'Abd Allāh عليه السلام:",
-              "fa": "سعید بن عبد الله الاعرج از ابی عبدالله علیه السلام پرسید:",
-              "fr": "Sa'id ibn 'Abd Allah al-A'raj a demandé à Abū 'Abd Allāh عليه السلام :",
-              "id": "Sa'id ibn 'Abd Allah al-A'raj bertanya kepada Abū 'Abd Allāh علیه السلام:",
-              "ru": "Саид ибн Абд Аллах аль-А'радж спросил у Абу Абд Аллаха عليه السلام:",
-              "tr": "Sa'id ibn 'Abd Allah al-A'raj, Abū 'Abd Allāh'a علیه السلام sordu:",
-              "ur": "سعید ابن عبد اللہ الاعرج نے ابو عبداللہ علیہ السلام سے پوچھا:",
-              "zh": "赛义德伊本阿卜杜拉阿拉尔贾阿布阿卜杜拉عليهالسلام问道："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "عَنْ بَيْضَةِ نَعَامَةٍ أَكَلْتُ فِي الْحَرَمِ فَقَالَ «تَصَدَّقْ بِثَمَنِهَا ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "হরামে খাওয়া শুতুরমুরগির ডিম সম্পর্কে তিনি বললেন: “এর দাম দান করো।”",
-              "de": "Bezüglich eines Straußeneis, das ich im Haram gegessen habe, sagte er: „Gib den Preis davon als Sadaqa.“",
-              "en": "About an ostrich egg that I ate in the Haram, so he said: “Give in charity its price.”",
-              "es": "Sobre un huevo de avestruz que comí en el Haram, dijo: “Da en caridad su precio.”",
-              "fa": "درباره تخم شترمرغی که در حرم خوردم، فرمود: «قیمت آن را صدقه بده.»",
-              "fr": "À propos d'un œuf d'autruche que j'ai mangé dans le Haram, il a dit : « Donne en aumône son prix. »",
-              "id": "Tentang telur burung unta yang saya makan di Haram, beliau berkata: “Sedekahkan harganya.”",
-              "ru": "О страусином яйце, которое я съел в Хараме, он сказал: «Отдай его стоимость в садаку.»",
-              "tr": "Haramda yediğim devekuşu yumurtası hakkında, şöyle dedi: “Fiyatını sadaka ver.”",
-              "ur": "حرم میں کھائے گئے شترمرغ کے انڈے کے بارے میں، تو انہوں نے فرمایا: “اس کی قیمت صدقہ کر دو۔”",
-              "zh": "关于我在圣地吃的鸵鸟蛋，他说：“将其价格施舍出去。”"
-            },
             "word_end": 22,
             "word_start": 12
           }
@@ -91,26 +78,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَكَلْتُ": "I ate, indicating the act that incurred liability",
-            "الْحَرَمِ": "the sacred sanctuary in which special rulings apply",
-            "بَيْضَةِ": "an egg",
-            "بِثَمَنِهَا": "with its price, meaning its monetary equivalent",
-            "تَصَدَّقْ": "give in charity as expiation or compensation",
-            "نَعَامَةٍ": "ostrich, specifying the type of egg involved"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "بَيْضَةِ",
+          "نَعَامَةٍ",
+          "أَكَلْتُ",
+          "الْحَرَمِ",
+          "تَصَدَّقْ",
+          "بِثَمَنِهَا"
+        ],
         "related_quran": [
           {
             "ref": "5:95",
@@ -121,32 +96,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হরামে শুতুরমুরগির ডিম খাওয়ার حکم কী?",
-          "de": "Wie lautet das Urteil zum Essen eines Straußeneis im Haram?",
-          "en": "What is the ruling for eating an ostrich egg in the Haram?",
-          "es": "¿Cuál es el fallo sobre comer un huevo de avestruz en el Haram?",
-          "fa": "حکم خوردن تخم شترمرغ در حرم چیست؟",
-          "fr": "Quel est le jugement pour manger un œuf d'autruche dans le Haram ?",
-          "id": "Apa hukum makan telur burung unta di Haram?",
-          "ru": "Каков حكم по поводу употребления страусиного яйца в Хараме?",
-          "tr": "Haramda devekuşu yumurtası yemenin hükmü nedir?",
-          "ur": "حرم میں شترمرغ کا انڈا کھانے کا حکم کیا ہے؟",
-          "zh": "在圣地吃鸵鸟蛋的裁决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি হরামে শুতুরমুরগির ডিম খাওয়ার ফিকহী حکم প্রদান করে। ইমাম علیه السلام নির্দেশ দিয়েছেন এর মূল্য সমপরিমাণ দান করতে।",
-          "de": "Dieser Hadith gibt eine Rechtsvorschrift zum Verzehr eines Straußeneis im Haram. Der Imam علیه السلام weist an, den Wert als Sadaqa zu geben.",
-          "en": "This hadith gives a legal ruling concerning consuming an ostrich egg within the Haram. The Imam عليه السلام instructs that compensation be made through charity equal to its monetary value.",
-          "es": "Este hadiz da un fallo legal sobre consumir un huevo de avestruz dentro del Haram. El Imam علیه السلام instruye que se compense con caridad por su valor monetario.",
-          "fa": "این حدیث حکم شرعی خوردن تخم شترمرغ در حرم را بیان می‌کند. امام علیه السلام دستور داد که قیمت آن به صورت صدقه داده شود.",
-          "fr": "Ce hadith donne un jugement légal concernant la consommation d'un œuf d'autruche dans le Haram. L'Imam علیه السلام ordonne de compenser par une aumône équivalente à sa valeur monétaire.",
-          "id": "Hadis ini memberikan hukum terkait memakan telur burung unta di dalam Haram. Imam علیه السلام memerintahkan agar diberikan sedekah sebesar harganya.",
-          "ru": "Этот хадис даёт правовое постановление о потреблении страусиного яйца в Хараме. Имам علیه السلام велит компенсировать его стоимость через садаку.",
-          "tr": "Bu hadis, Haram içinde devekuşu yumurtası yemenin hükmünü verir. İmam علیه السلام, fiyatının sadaka olarak verilmesini emretti.",
-          "ur": "یہ حدیث حرم میں شترمرغ کے انڈے کھانے کے بارے میں شرعی حکم بیان کرتی ہے۔ امام علیہ السلام نے ہدایت دی کہ اس کی قیمت کے برابر صدقہ دی جائے۔",
-          "zh": "此圣训关于在圣地食用鸵鸟蛋的法律裁决。伊玛目عليهالسلام指示以其价值施舍补偿。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "الْحُسَيْنُ بْنُ سَعِيدٍ عَنِ النَّضْرِ بْنِ سُوَيْدٍ عَنْ عَبْدِ اللَّهِ بْنِ سِنَانٍ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ, আল-নাদর ইবন সুয়াইদ থেকে, আবদুল্লাহ ইবন সিনান থেকে, তিনি বলেন:",
-              "de": "Al-Husayn ibn Sa'id, von al-Nadr ibn Suwayd, von 'Abd Allah ibn Sinan, der sagte:",
-              "en": "Al-Husayn ibn Sa'id, from al-Nadr ibn Suwayd, from 'Abd Allah ibn Sinan, who said:",
-              "es": "Al-Husayn ibn Sa'id, de al-Nadr ibn Suwayd, de 'Abd Allah ibn Sinan, quien dijo:",
-              "fa": "الحسین بن سعید، از النضر بن سوید، از عبدالله بن سنان، که گفت:",
-              "fr": "Al-Husayn ibn Sa'id, d'al-Nadr ibn Suwayd, d'Abd Allah ibn Sinan, qui a dit :",
-              "id": "Al-Husayn ibn Sa'id, dari al-Nadr ibn Suwayd, dari 'Abd Allah ibn Sinan, yang berkata:",
-              "ru": "Аль-Хусайн ибн Са'ид, от ан-Надра ибн Сувайда, от 'Абд Аллаха ибн Синана, который сказал:",
-              "tr": "el-Hüseyin ibn Sa'id, en-Nadr ibn Suwayd'dan, Abdullah ibn Sinan'dan, o şöyle dedi:",
-              "ur": "الحسین بن سعید، النضر بن سوید سے، عبد اللہ بن سنان سے، انہوں نے کہا:",
-              "zh": "Al-HusaynibnSa'id，传自al-NadribnSuwayd，传自'AbdAllahibnSinan，他说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ يَقُولُ: وَقْتُ الْمَغْرِبِ إِذَا غَرَبَتِ الشَّمْسُ فَغَابَ قُرْصُهَا.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবু 'আবদুল্লাহ عليه السلام-কে বলতে শুনেছি: মাগরিবের সময় তখনই, যখন সূর্য অস্ত যায় এবং তার চাকতি অদৃশ্য হয়ে যায়।",
-              "de": "Ich hörte Abu 'Abd Allah عليه السلام sagen: Die Zeit des Maghrib ist, wenn die Sonne untergeht und ihre Scheibe verschwindet.",
-              "en": "I heard Abu 'Abd Allah عليه السلام saying: The time of maghrib is when the sun sets and its disk disappears.",
-              "es": "Escuché a Abu 'Abd Allah عليه السلام decir: El tiempo del maghrib es cuando el sol se pone y su disco desaparece.",
-              "fa": "از ابو عبدالله علیه السلام شنیدم که می‌فرمود: وقت مغرب هنگامی است که خورشید غروب کند و قرص آن ناپدید شود.",
-              "fr": "J’ai entendu Abu 'Abd Allah عليه السلام dire : Le temps du maghrib est lorsque le soleil se couche et que son disque disparaît.",
-              "id": "Aku mendengar Abu 'Abd Allah عليه السلام bersabda: Waktu maghrib adalah ketika matahari terbenam dan bulatannya menghilang.",
-              "ru": "Я слышал, как Абу 'Абд Аллах عليه السلام сказал: Время магриба наступает, когда солнце заходит и его диск исчезает.",
-              "tr": "Ebû 'Abd Allah عليه السلام'ın şöyle dediğini işittim: Maghrib vakti, güneş battığında ve onun diski kaybolduğunda başlar.",
-              "ur": "میں نے ابو عبد اللہ علیہ السلام کو فرماتے ہوئے سنا: مغرب کا وقت اس وقت ہے جب سورج غروب ہو جائے اور اس کا قرص غائب ہو جائے۔",
-              "zh": "我听阿布'阿卜杜拉 عليه السلام说：昏礼的时间是在太阳落下并且它的圆盘消失的时候。"
-            },
             "word_end": 27,
             "word_start": 13
           }
@@ -84,26 +71,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الشَّمْسُ": "the sun",
-            "الْمَغْرِبِ": "the maghrib prayer time at sunset",
-            "غَرَبَتِ": "it set; referring to the setting of the sun",
-            "فَغَابَ": "then disappeared from sight",
-            "قُرْصُهَا": "its disk, meaning the visible orb of the sun",
-            "وَقْتُ": "the designated time or prescribed beginning of an act"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "وَقْتُ",
+          "الْمَغْرِبِ",
+          "غَرَبَتِ",
+          "الشَّمْسُ",
+          "فَغَابَ",
+          "قُرْصُهَا"
+        ],
         "related_quran": [
           {
             "ref": "17:78",
@@ -118,32 +93,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام-এর মতে মাগরিব নামাজের সময় কখন শুরু হয়?",
-          "de": "Wann beginnt die Zeit des Maghrib-Gebets nach Imam al-Sadiq عليه السلام?",
-          "en": "When does the time of maghrib prayer begin according to Imam al-Sadiq عليه السلام?",
-          "es": "¿Cuándo comienza el tiempo de la oración del maghrib según el Imam al-Sadiq عليه السلام?",
-          "fa": "بر اساس فرمایش امام صادق علیه السلام، وقت نماز مغرب چه زمانی آغاز می‌شود؟",
-          "fr": "Quand commence le temps de la prière du maghrib selon l’imam al-Sadiq عليه السلام ?",
-          "id": "Kapan waktu salat maghrib menurut Imam al-Sadiq عليه السلام dimulai?",
-          "ru": "Когда начинается время молитвы магриб согласно Имаму ас-Садику عليه السلام?",
-          "tr": "İmam es-Sâdık عليه السلام'a göre maghrib namazının vakti ne zaman başlar?",
-          "ur": "امام الصادق علیہ السلام کے مطابق مغرب کی نماز کا وقت کب شروع ہوتا ہے؟",
-          "zh": "根据伊玛目萨迪格 عليه السلام，昏礼的时间什么时候开始？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে মাগরিব নামাজের শুরু সময় বর্ণনা করা হয়েছে। এতে বোঝা যায় যে সূর্য অস্ত গেলে এবং তার চাকতি অদৃশ্য হলে মাগরিব প্রবেশ করে; ফলে এটি নামাজের সময়-সংক্রান্ত বিধানে একটি মৌলিক বর্ণনা।",
-          "de": "Dieser Hadith legt den Beginn der Maghrib-Gebetszeit fest. Er zeigt, dass Maghrib eintritt, wenn die Sonne untergegangen ist und ihre Scheibe verschwunden ist, und ist damit eine grundlegende Überlieferung in den Bestimmungen zu den Gebetszeiten.",
-          "en": "This hadith states the beginning time of maghrib prayer. It indicates that maghrib enters when the sun has set and its disk has disappeared, making it a foundational narration in prayer-time rulings.",
-          "es": "Este hadiz establece el momento de inicio de la oración del maghrib. Indica que el maghrib entra cuando el sol se ha puesto y su disco ha desaparecido, por lo que es una narración fundamental en las normas sobre los tiempos de la oración.",
-          "fa": "این حدیث زمان آغاز نماز مغرب را بیان می‌کند. دلالت دارد که مغرب هنگامی داخل می‌شود که خورشید غروب کرده و قرص آن ناپدید شده باشد، و از روایات بنیادین در احکام اوقات نماز است.",
-          "fr": "Ce hadith précise le moment de début de la prière du maghrib. Il indique que le maghrib entre lorsque le soleil s’est couché et que son disque a disparu, ce qui en fait une narration fondamentale dans les règles des temps de prière.",
-          "id": "Hadis ini menjelaskan waktu dimulainya salat maghrib. Ini menunjukkan bahwa maghrib masuk ketika matahari telah terbenam dan bulatannya telah menghilang, sehingga menjadi riwayat dasar dalam hukum-hukum waktu salat.",
-          "ru": "Этот хадис указывает время начала молитвы магриб. Он показывает, что магриб наступает, когда солнце зашло и его диск исчез, и является основополагающим преданием в вопросах установления времени молитвы.",
-          "tr": "Bu hadis, maghrib namazının başlangıç vaktini بیان eder. Buna göre maghrib, güneş battığında ve onun diski kaybolduğunda girer; bu da namaz vakitleri hükümlerinde temel bir rivayettir.",
-          "ur": "یہ حدیث مغرب کی نماز کے آغاز کا وقت بیان کرتی ہے۔ اس سے معلوم ہوتا ہے کہ مغرب اس وقت داخل ہوتی ہے جب سورج غروب ہو جائے اور اس کا قرص غائب ہو جائے، اور یہ نماز کے اوقات کے احکام میں ایک بنیادی روایت ہے۔",
-          "zh": "这段圣训说明了昏礼开始的时间。它表明当太阳落下并且它的圆盘消失时，昏礼就进入了，因此这是关于礼拜时间规定中的一则基础传述。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

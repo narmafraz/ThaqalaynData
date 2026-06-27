@@ -15,61 +15,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رَوَى مُحَمَّدُ بْنُ أَبِي عُمَيْرٍ عَنْ أَبَانِ بْنِ عُثْمَانَ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবনে আবী উমায়ের আবান ইবনে উসমান থেকে, তিনি মুহাম্মদ ইবনে মুসলিম থেকে, তিনি আবু আব্দুল্লাহ عليه السلام থেকে বর্ণনা করেছেন:",
-              "de": "Muḥammad ibn Abī ʿUmayr berichtete von Abān ibn ʿUthmān, von Muḥammad ibn Muslim, von Abū ʿAbdillāh عليه السلام:",
-              "en": "Muḥammad ibn Abī ʿUmayr narrated from Abān ibn ʿUthmān, from Muḥammad ibn Muslim, from Abū ʿAbdillāh عليه السلام:",
-              "es": "Muḥammad ibn Abī ʿUmayr narró de Abān ibn ʿUthmān, de Muḥammad ibn Muslim, de Abū ʿAbdillāh عليه السلام:",
-              "fa": "محمد بن ابی عمیر از ابان بن عثمان، از محمد بن مسلم، از ابو عبدالله علیه السلام روایت کرده است:",
-              "fr": "Muḥammad ibn Abī ʿUmayr a rapporté de Abān ibn ʿUthmān, de Muḥammad ibn Muslim, de Abū ʿAbdillāh عليه السلام :",
-              "id": "Muḥammad ibn Abī ʿUmayr meriwayat dari Abān ibn ʿUthmān, dari Muḥammad ibn Muslim, dari Abū ʿAbdillāh علیه السلام:",
-              "ru": "Мухаммад ибн Аби Умайр передал от Абана ибн Усмана, от Мухаммада ибн Муслима, от Абу Абдиллаха عليه السلام:",
-              "tr": "Muhammed ibn Ebî Umayr, Abân ibn Üthmân'dan, o da Muhammed ibn Müslim'den, o da Ebu Abdillah (aleyhisselam)'dan rivayet etmiştir:",
-              "ur": "محمد ابن ابی عمیر نے ابان ابن عثمان سے روایت کی، جو محمد ابن مسلم سے، جو ابو عبداللہ علیہ السلام سے روایت کرتے ہیں:",
-              "zh": "穆罕默德本阿比乌迈尔传自阿班本乌斯曼，传自穆罕默德本穆斯林，传自阿布阿卜杜拉 عليه السلام："
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "فِي الرَّجُلِ يُسْلِمُ عَلَى الْمِيرَاثِ قَالَ «إِنْ كَانَ قُسِمَ فَلَا حَقَّ لَهُ وَإِنْ كَانَ لَمْ يُقْسَمْ فَلَهُ الْمِيرَاثُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন ব্যক্তি যিনি উত্তরাধিকার পাওয়ার জন্য ইসলাম গ্রহণ করেন, তিনি বললেন: “যদি উত্তরাধিকার ভাগ হয়ে থাকে, তবে তার কোনো অধিকার নেই; কিন্তু যদি ভাগ না হয়ে থাকে, তবে উত্তরাধিকার তারই।”",
-              "de": "Bezüglich eines Mannes, der den Islam wegen der Erbschaft annimmt, sagte er: „Wenn sie bereits geteilt wurde, hat er kein Recht darauf; wenn sie jedoch noch nicht geteilt wurde, gehört ihm die Erbschaft.“",
-              "en": "Regarding a man who accepts Islam for the sake of inheritance, he said: “If it has been divided, then he has no right to it; but if it has not been divided, then the inheritance belongs to him.”",
-              "es": "Respecto a un hombre que acepta el Islam por la herencia, dijo: “Si ya se ha dividido, entonces no tiene derecho; pero si no se ha dividido, la herencia le pertenece.”",
-              "fa": "در مورد مردی که به خاطر ارث اسلام می‌آورد، فرمود: «اگر ارث تقسیم شده باشد، حقی برای او نیست؛ اما اگر تقسیم نشده باشد، ارث به او تعلق دارد.»",
-              "fr": "Concernant un homme qui accepte l'islam pour l'héritage, il a dit : « S'il a été divisé, alors il n'en a pas le droit ; mais s'il n'a pas été divisé, alors l'héritage lui appartient. »",
-              "id": "Mengenai seorang laki-laki yang memeluk Islam demi warisan, beliau berkata: “Jika warisan telah dibagi, maka dia tidak berhak; tetapi jika belum dibagi, maka warisan itu miliknya.”",
-              "ru": "Относительно человека, который принимает ислам ради наследства, он сказал: «Если оно уже разделено, то у него нет права; если же не разделено, то наследство принадлежит ему.»",
-              "tr": "Miras için İslamı kabul eden bir adam hakkında şöyle dedi: “Eğer miras bölünmüşse ona hakkı yoktur; ama bölünmemişse miras ona aittir.”",
-              "ur": "ایک شخص جو وراثت کے لیے اسلام قبول کرتا ہے، اس کے بارے میں فرمایا: \"اگر وراثت تقسیم ہو چکی ہے تو اس کا کوئی حق نہیں؛ اور اگر تقسیم نہیں ہوئی تو وراثت اس کی ہے۔\"",
-              "zh": "关于一个人为了继承而接受伊斯兰，他说：“如果遗产已经分割，他就没有权利；如果还未分割，遗产属于他。”"
-            },
             "word_end": 37,
             "word_start": 19
           },
           {
             "arabic_text": "قَالَ قُلْتُ الْعَبْدُ يُعْتَقُ عَلَى مِيرَاثٍ فَقَالَ «هُوَ بِمَنْزِلَتِهِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: আমি বললাম, “একজন দাস যাকে উত্তরাধিকার জন্য মুক্ত করা হয়?” তিনি বললেন: “সে একই অবস্থায় আছে।”",
-              "de": "Er sagte: Ich sagte: „Ein Sklave, der wegen der Erbschaft befreit wird?“ Er sagte: „Er ist in der gleichen Lage.“",
-              "en": "He said: I said, “A slave who is freed for the sake of inheritance?” So he said: “He is in the same position.”",
-              "es": "Él dijo: Dije, “¿Un esclavo que es liberado por la herencia?” Entonces dijo: “Está en la misma posición.”",
-              "fa": "فرمود: گفتم «برده‌ای که به خاطر ارث آزاد می‌شود؟» فرمود: «او در همان وضعیت است.»",
-              "fr": "Il a dit : J'ai dit, « Un esclave qui est affranchi pour l'héritage ? » Il a dit : « Il est dans la même position. »",
-              "id": "Beliau berkata: Aku bertanya, “Seorang budak yang dibebaskan demi warisan?” Beliau berkata: “Dia dalam posisi yang sama.”",
-              "ru": "Он сказал: Я спросил: «Раб, освобожденный ради наследства?» Он сказал: «Он в том же положении.»",
-              "tr": "Dedi ki: “Miras için azad edilen bir köle mi?” Sonra dedi ki: “O aynı konumdadır.”",
-              "ur": "انہوں نے فرمایا: میں نے کہا، \"کیا ایک غلام جو وراثت کے لیے آزاد کیا جائے؟\" تو انہوں نے فرمایا: \"وہ اسی حالت میں ہے۔\"",
-              "zh": "他说：我说，“为继承而被解放的奴隶？”他说：“他处于同样的地位。”"
-            },
             "word_end": 46,
             "word_start": 37
           }
@@ -128,26 +102,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْعَبْدُ": "a slave",
-            "الْمِيرَاثِ": "inheritance; the estate left by the deceased",
-            "بِمَنْزِلَتِهِ": "in the same legal position or ruling",
-            "حَقٌّ": "legal entitlement or claim",
-            "قُسِمَ": "was divided or distributed among the heirs",
-            "يُعْتَقُ": "is emancipated or freed"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمِيرَاثِ",
+          "قُسِمَ",
+          "حَقٌّ",
+          "الْعَبْدُ",
+          "يُعْتَقُ",
+          "بِمَنْزِلَتِهِ"
+        ],
         "related_quran": [
           {
             "ref": "4:7",
@@ -162,32 +124,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি সম্পত্তি এখনও ভাগ করা না হয়, তাহলে ইসলাম গ্রহণকারী ব্যক্তি বা মুক্ত দাস কি উত্তরাধিকার পায়?",
-          "de": "Erbt eine Person, die den Islam annimmt, oder ein freigelassener Sklave, wenn das Erbe noch nicht verteilt wurde?",
-          "en": "Does a person who accepts Islam, or a slave who is freed, inherit if the estate has not yet been divided?",
-          "es": "¿Una persona que acepta el Islam, o un esclavo liberado, hereda si la herencia aún no ha sido dividida?",
-          "fa": "آیا کسی که اسلام می‌آورد یا برده‌ای که آزاد می‌شود، اگر ارث هنوز تقسیم نشده باشد، ارث می‌برد؟",
-          "fr": "Une personne qui accepte l'islam, ou un esclave affranchi, hérite-t-elle si la succession n'a pas encore été divisée ?",
-          "id": "Apakah orang yang menerima Islam, atau budak yang dibebaskan, mewarisi jika harta warisan belum dibagi?",
-          "ru": "Наследует ли человек, принявший ислам, или освобожденный раб, если наследство еще не разделено?",
-          "tr": "Miras henüz bölünmemişse, İslamı kabul eden veya azad edilen bir köle miras alır mı?",
-          "ur": "کیا وہ شخص جو اسلام قبول کرتا ہے، یا غلام جو آزاد کیا جاتا ہے، وراثت حاصل کرتا ہے اگر وراثت ابھی تقسیم نہیں ہوئی ہو؟",
-          "zh": "接受伊斯兰者或被解放奴隶在遗产尚未分割时是否继承？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি উত্তরাধিকার সম্পর্কে আইনগত সিদ্ধান্ত দেয় যে, যে ব্যক্তি ইসলাম গ্রহণ করে বা দাস মুক্ত হয়, যদি সম্পত্তি ভাগ করা না হয় তবে সে উত্তরাধিকার পায়; ভাগ হয়ে গেলে তার কোনো অংশ থাকে না।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung zum Erbe für jemanden, der den Islam annimmt, und ebenso für einen freigelassenen Sklaven, bevor das Erbe verteilt wird. Wenn das Erbe bereits geteilt wurde, hat er keinen Anteil; wenn nicht, steht ihm das Erbe zu.",
-          "en": "This hadith gives a legal ruling about inheritance for one who embraces Islam, and similarly for a slave who is freed, before the estate is distributed. If the inheritance has already been divided, no share remains for him; if it has not yet been divided, he is entitled to inherit.",
-          "es": "Este hadiz da una regla legal sobre la herencia para quien abraza el Islam y para un esclavo liberado, antes de que se distribuya la herencia. Si la herencia ya se ha dividido, no queda parte para él; si no, tiene derecho a heredar.",
-          "fa": "این حدیث حکم شرعی درباره ارث برای کسی که اسلام می‌آورد و همچنین برای برده‌ای که آزاد می‌شود، قبل از تقسیم ارث را بیان می‌کند. اگر ارث تقسیم شده باشد، سهمی ندارد؛ اگر تقسیم نشده باشد، حق ارث دارد.",
-          "fr": "Ce hadith donne une règle juridique concernant l'héritage pour celui qui embrasse l'islam, ainsi que pour un esclave affranchi, avant la distribution de la succession. Si l'héritage a déjà été divisé, il n'a pas de part ; sinon, il y a droit.",
-          "id": "Hadis ini memberikan hukum tentang warisan bagi orang yang memeluk Islam dan budak yang dibebaskan sebelum warisan dibagikan. Jika warisan sudah dibagi, tidak ada hak; jika belum dibagi, berhak mewarisi.",
-          "ru": "Этот хадис содержит юридическое постановление о наследстве для того, кто принимает ислам, и для раба, который освобождается, до распределения наследства. Если наследство уже разделено, у него нет доли; если нет — он имеет право наследовать.",
-          "tr": "Bu hadis, İslamı kabul eden veya azad edilen bir kölenin, miras dağıtılmadan önce miras hakkı olduğunu, miras bölündükten sonra ise hakkının olmadığını bildirir.",
-          "ur": "یہ حدیث اس قانونی حکم کو بیان کرتی ہے کہ جو شخص اسلام قبول کرتا ہے یا غلام جو آزاد کیا جاتا ہے، اگر وراثت تقسیم سے پہلے ہو تو اسے وراثت ملتی ہے، اور اگر تقسیم ہو چکی ہو تو اس کا کوئی حصہ نہیں۔",
-          "zh": "此圣训阐明了接受伊斯兰者及被解放奴隶在遗产分配前的继承权利。若遗产已分割，则无权继承；若未分割，则有权继承。"
-        },
         "tags": [
           "jurisprudence",
           "family",

@@ -14,6 +14,149 @@
       "up": "/books/al-kafi:2:2:20"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "أَبُو عَلِيٍّ الْأَشْعَرِيُّ عَنِ الْحُسَيْنِ بْنِ عَلِيٍّ عَنْ عُبَيْسِ بْنِ هِشَامٍ عَنْ ثَابِتٍ عَنْ أَبِي بَصِيرٍ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 25,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قَالَ رَسُولُ اللَّهِ ( صَلَّى اللَّهِ عَلَيْهِ وَآلِهِ ) مَنْ ذُكِرْتُ عِنْدَهُ فَنَسِيَ أَنْ يُصَلِّيَ عَلَيَّ خَطَأَ اللَّهُ بِهِ طَرِيقَ الْجَنَّةِ",
+            "chunk_type": "body",
+            "word_end": 46,
+            "word_start": 25
+          }
+        ],
+        "content_type": "prophetic_tradition",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 19,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبُو عَلِيٍّ الْأَشْعَرِيُّ",
+              "name_en": "Abu Ali al-Ash'ari",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 766,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنِ بْنِ عَلِيٍّ",
+              "name_en": "al-Husayn ibn Ali",
+              "position": 2,
+              "role": "imam"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 273,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عُبَيْسِ بْنِ هِشَامٍ",
+              "name_en": "Ubays ibn Hisham",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1064,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ثَابِتٍ",
+              "name_en": "Thabit",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 14,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي بَصِيرٍ",
+              "name_en": "Abu Basir",
+              "position": 5,
+              "role": "companion"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "قَالَ رَسُولُ اللَّهِ",
+            "phrase_en": "The Messenger of Allah said"
+          }
+        ],
+        "key_terms_keys": [
+          "ذُكِرْتُ",
+          "يُصَلِّيَ",
+          "خَطَأَ",
+          "طَرِيقَ الْجَنَّةِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:159",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "33:56",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "9:103",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "worship",
+          "prophetic_tradition",
+          "afterlife"
+        ],
+        "topics": [
+          "salat",
+          "sunnah",
+          "paradise_hell"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (12/106)"
       ],
@@ -94,7 +237,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:2:20:20",

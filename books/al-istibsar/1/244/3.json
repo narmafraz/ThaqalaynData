@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنِ النَّضْرِ عَنْ عَاصِمٍ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, আল-নাদর থেকে, ʿĀṣim থেকে, Muḥammad ibn Muslim থেকে, Abī Jaʿfar عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Von ihm, von al-Naḍr, von ʿĀṣim, von Muḥammad ibn Muslim, von Abī Jaʿfar عليه السلام, der sagte:",
-              "en": "From him, from al-Naḍr, from ʿĀṣim, from Muḥammad ibn Muslim, from Abī Jaʿfar عليه السلام, who said:",
-              "es": "De él, de al-Naḍr, de ʿĀṣim, de Muḥammad ibn Muslim, de Abī Jaʿfar عليه السلام, quien dijo:",
-              "fa": "از او، از نضر، از عاصم، از محمد بن مسلم، از ابی جعفر علیه السلام، که فرمود:",
-              "fr": "De lui, d’al-Naḍr, de ʿĀṣim, de Muḥammad ibn Muslim, d’Abī Jaʿfar عليه السلام, qui a dit :",
-              "id": "Darinya, dari al-Naḍr, dari ʿĀṣim, dari Muḥammad ibn Muslim, dari Abī Jaʿfar عليه السلام, beliau bersabda:",
-              "ru": "От него, от аль-Надра, от ʿĀṣима, от Мухаммада ибн Муслима, от Аби Джафара عليه السلام, который сказал:",
-              "tr": "Ondan, en-Nadr’dan, Âsım’dan, Muhammed ibn Müslim’den, Ebû Ca‘fer عليه السلام’dan, şöyle dedi:",
-              "ur": "ان سے، النضر سے، عاصم سے، محمد بن مسلم سے، ابی جعفر علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "由他传自al-Naḍr，传自ʿĀṣim，传自MuḥammadibnMuslim，传自AbīJaʿfar عليه السلام，他说："
-            },
             "word_end": 15,
             "word_start": 0
           },
           {
             "arabic_text": "إِذَا أَدْرَكْتَ التَّكْبِيرَةَ قَبْلَ أَنْ يَرْكَعَ الْإِمَامُ فَقَدْ أَدْرَكْتَ الصَّلَاةَ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "ইমাম রুকুতে যাওয়ার আগে যদি তুমি তাকবির পেয়ে যাও, তবে তুমি সালাত পেয়ে গেছ।",
-              "de": "Wenn du das Takbir erreichst, bevor der Imam sich in rukūʿ verbeugt, dann hast du die salat (das Gebet) erreicht.",
-              "en": "If you catch the takbir before the Imam bows in rukuʿ, then you have caught the salat (prayer).",
-              "es": "Si alcanzas el takbir antes de que el Imam haga rukūʿ, entonces has alcanzado la salat (oración).",
-              "fa": "اگر تکبیر را پیش از آن‌که امام به رکوع برود دریابی، نماز را دریافته‌ای.",
-              "fr": "Si tu rattrapes le takbir avant que l’Imam ne s’incline en rukūʿ, alors tu as rattrapé la salat (prière).",
-              "id": "Jika kamu mendapatkan takbir sebelum Imam rukuk, maka kamu telah mendapatkan salat.",
-              "ru": "Если ты успеешь к такбиру до того, как имам совершит рукуʿ, то ты успел на салат (намаз).",
-              "tr": "İmam rükûya varmadan önce tekbiri yakalarsan, namazı yakalamış olursun.",
-              "ur": "اگر تم امام کے رکوع میں جانے سے پہلے تکبیر پا لو، تو تم نے نماز پا لی۔",
-              "zh": "如果你在伊玛目做鞠躬rukūʿ之前赶上takbir，那么你就赶上了salat（礼拜）。"
-            },
             "word_end": 25,
             "word_start": 15
           }
@@ -84,25 +71,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَدْرَكْتَ": "you reached or caught in time",
-            "التَّكْبِيرَةَ": "the opening or relevant takbir by which one joins the prayer",
-            "الصَّلَاةَ": "the salat (prayer)",
-            "الْإِمَامُ": "the leader of the congregational prayer",
-            "يَرْكَعَ": "to bow in rukuʿ during the prayer"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "التَّكْبِيرَةَ",
+          "يَرْكَعَ",
+          "الْإِمَامُ",
+          "أَدْرَكْتَ",
+          "الصَّلَاةَ"
+        ],
         "related_quran": [
           {
             "ref": "2:43",
@@ -117,32 +92,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম রুকুতে যাওয়ার আগে কখন জামাআতের সালাত আদায় হয়েছে বলে গণ্য হয়?",
-          "de": "Wann gilt das gemeinschaftliche salat als erreicht, bevor der Imam sich in rukūʿ verbeugt?",
-          "en": "When is congregational salat considered caught before the Imam bows?",
-          "es": "¿Cuándo se considera alcanzada la salat en congregación antes de que el Imam haga rukūʿ?",
-          "fa": "نماز جماعت پیش از رکوع امام چه زمانی دریافته محسوب می‌شود؟",
-          "fr": "Quand considère-t-on que la salat en congrégation est rattrapée avant que l’Imam ne fasse le rukūʿ ?",
-          "id": "Kapan salat berjamaah dianggap telah didapatkan sebelum Imam rukuk?",
-          "ru": "Когда коллективный салат считается застигнутым до того, как имам совершит рукуʿ?",
-          "tr": "İmam rukûya varmadan önce cemaatle salat ne zaman kılınmış sayılır?",
-          "ur": "امام کے رکوع سے پہلے جماعت کی نماز کب شمار ہوتی ہے؟",
-          "zh": "在伊玛目鞠躬之前，何时算赶上集体salat？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি জামাআতের সালাতে যোগ দেওয়ার বিষয়ে একটি শরঈ বিধান জানায়। এতে বলা হয়েছে, কেউ যদি ইমাম রুকুতে যাওয়ার আগে তাকবির পেয়ে যায়, তবে সালাতটি সে পেয়ে গেছে বলে গণ্য হবে।",
-          "de": "Dieser Hadith enthält eine rechtliche Regel zum Anschluss an das gemeinschaftliche salat. Er besagt, dass das Gebet als erreicht gilt, wenn eine Person das Takbir erreicht, bevor der Imam in rukūʿ geht.",
-          "en": "This hadith gives a legal ruling about joining congregational salat (prayer). It states that if a person reaches the takbir before the Imam goes into rukuʿ, the prayer is considered caught.",
-          "es": "Este hadiz expone una norma jurídica sobre unirse a la salat en congregación. Señala que si una persona alcanza el takbir antes de que el Imam entre en rukūʿ, se considera que ha alcanzado la oración.",
-          "fa": "این حدیث درباره پیوستن به نماز جماعت، حکمی فقهی بیان می‌کند. در آن آمده است که اگر شخص پیش از رفتن امام به رکوع، تکبیر را دریابد، نماز را دریافته است.",
-          "fr": "Ce hadith énonce une règle juridique concernant le fait de rejoindre la salat en جماعت. Il indique que si une personne atteint le takbir avant que l’Imam n’entre en rukūʿ, la prière est considérée comme rattrapée.",
-          "id": "Hadis ini memberikan حكم hukum tentang bergabung dalam salat berjamaah. Disebutkan bahwa jika seseorang mendapatkan takbir sebelum Imam masuk rukuk, maka salat itu dianggap telah didapatkan.",
-          "ru": "Этот хадис содержит правовое постановление о присоединении к коллективному салату. В нём говорится, что если человек успевает к такбиру до того, как имам перейдёт в рукуʿ, то молитва считается застигнутой.",
-          "tr": "Bu hadis, cemaatle kılınan salata katılma hakkında fıkhî bir hüküm bildirir. Buna göre kişi, imam rukûya girmeden önce tekbiri yakalarsa namazı yakalamış sayılır.",
-          "ur": "یہ حدیث جماعت کے ساتھ نماز میں شامل ہونے کے بارے میں ایک شرعی حکم بیان کرتی ہے۔ اس میں کہا گیا ہے کہ اگر کوئی شخص امام کے رکوع میں جانے سے پہلے تکبیر پا لے تو نماز شمار ہو جاتی ہے۔",
-          "zh": "这段圣训给出了关于加入集体salat（礼拜）的教法判定。它说明，如果一个人在伊玛目进入鞠躬之前赶上takbir，那么就算赶上了礼拜。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

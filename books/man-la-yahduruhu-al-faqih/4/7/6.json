@@ -17,61 +17,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى إِبْرَاهِيمُ بْنُ هَاشِمٍ عَنْ صَالِحِ بْنِ السِّنْدِيِّ عَنِ الْحُسَيْنِ بْنِ خَالِدٍ عَنِ الرِّضَا عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং ইব্রাহীম ইবনে হাশিম সালিহ ইবনে আস-সিনদী থেকে, তিনি আল-হুসাইন ইবনে খালিদ থেকে, তিনি আল-রিদা عليه السلام থেকে روایت করেছেন:",
-              "de": "Und Ibrāhīm ibn Hāshim berichtete von Ṣāliḥ ibn al-Sindī, von al-Ḥusayn ibn Khālid, von al-Riḍā عليه السلام:",
-              "en": "And Ibrāhīm ibn Hāshim narrated from Ṣāliḥ ibn al-Sindī, from al-Ḥusayn ibn Khālid, from al-Riḍā عليه السلام:",
-              "es": "Y Ibrāhīm ibn Hāshim narró de Ṣāliḥ ibn al-Sindī, de al-Ḥusayn ibn Khālid, de al-Riḍā عليه السلام:",
-              "fa": "و ابراهیم بن هاشم از صالح بن السندی، از حسین بن خالد، از الرضا علیه السلام روایت کرده است:",
-              "fr": "Et Ibrāhīm ibn Hāshim a rapporté de Ṣāliḥ ibn al-Sindī, de al-Ḥusayn ibn Khālid, de al-Riḍā عليه السلام :",
-              "id": "Dan Ibrāhīm ibn Hāshim meriwayatkan dari Ṣāliḥ ibn al-Sindī, dari al-Ḥusayn ibn Khālid, dari al-Riḍā علیه السلام:",
-              "ru": "И Ибрахим ибн Хашим передал от Салиха ибн ас-Синди, от аль-Хусейна ибн Халида, от аль-Риды عليه السلام:",
-              "tr": "Ve İbrâhîm bin Hâşim, Sâlih bin es-Sindî’den, o da el-Hüseyin bin Hâlid’den, o da el-Rıza علیه السلام’dan rivayet etti:",
-              "ur": "اور ابراہیم ابن ہاشم نے صالح ابن السندی سے، جو حسین ابن خالد سے، جو الرضا علیہ السلام سے روایت کرتے ہیں:",
-              "zh": "伊布拉欣本哈希姆从萨利赫本辛迪传述，萨利赫本辛迪从侯赛因本哈立德传述，侯赛因本哈立德从里扎 عليه السلام传述："
-            },
             "word_end": 17,
             "word_start": 0
           },
           {
             "arabic_text": "أَنَّهُ سُئِلَ عَنْ رَجُلٍ كَانَتْ لَهُ أَمَةٌ فَقَالَتِ الْأَمَةُ لَهُ مَا أَدَّيْتُ مِنْ مُكَاتَبَتِي فَأَنَا بِهِ حُرَّةٌ عَلَى حِسَابِ ذَلِكَ فَقَالَ لَهَا نَعَمْ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "তার কাছে এমন একজন ব্যক্তির بارےে প্রশ্ন করা হয়েছিল যার একটি দাসী ছিল, এবং দাসী তাকে বলেছিল, “আমি আমার মুক্তির চুক্তির যে অংশ পরিশোধ করেছি, তার অনুপাতে আমি মুক্ত।” তখন সে তাকে বলল, “হ্যাঁ।”",
-              "de": "Er wurde nach einem Mann gefragt, der eine Sklavin hatte, und die Sklavin sagte zu ihm: „Was immer ich von meinem Mukataba-Vertrag bezahlt habe, bin ich entsprechend frei.“ Er sagte zu ihr: „Ja.“",
-              "en": "He was asked about a man who had a slave woman, and the slave woman said to him, “Whatever I have paid of my emancipation contract, I am free in proportion to that.” So he said to her, “Yes.”",
-              "es": "Se le preguntó acerca de un hombre que tenía una esclava, y la esclava le dijo: “Lo que haya pagado de mi contrato de emancipación, soy libre en proporción a eso.” Entonces él le dijo: “Sí.”",
-              "fa": "از او درباره مردی که کنیزی داشت پرسیده شد، و کنیز به او گفت: «هرچه از قرارداد مکاتبه‌ام را پرداخت کرده‌ام، به همان نسبت آزادم.» پس او به او گفت: «بله.»",
-              "fr": "On lui a demandé au sujet d’un homme qui avait une esclave, et l’esclave lui a dit : « Tout ce que j’ai payé de mon contrat de mukataba, je suis libre en proportion. » Il lui a dit : « Oui. »",
-              "id": "Dia ditanya tentang seorang pria yang memiliki budak wanita, dan budak wanita itu berkata kepadanya, “Apa pun yang telah aku bayar dari kontrak mukatabahku, aku bebas sesuai dengan itu.” Maka dia berkata kepadanya, “Ya.”",
-              "ru": "Его спросили о человеке, у которого была рабыня, и рабыня сказала ему: «Что бы я ни заплатила по своему договору о выкупе, я свободна пропорционально этому.» Он сказал ей: «Да.»",
-              "tr": "Kendisine, bir köle kadına sahip bir adam hakkında soruldu ve köle kadın ona dedi ki: “Mukatabatımın ne kadarını ödediysem, o oranda özgürüm.” O da ona “Evet” dedi.",
-              "ur": "اس سے ایک شخص کے بارے میں پوچھا گیا جس کے پاس ایک کنیز تھی، اور کنیز نے اس سے کہا، “جو کچھ میں نے اپنی مکاتبت کی ادائیگی کی ہے، اس کے مطابق میں آزاد ہوں۔” تو اس نے اس سے کہا، “ہاں۔”",
-              "zh": "有人问及一位有一名女奴的男子，女奴对他说：“我已支付的赎身契约款项，我按此比例自由。”他对她说：“是的。”"
-            },
             "word_end": 40,
             "word_start": 17
           },
           {
             "arabic_text": "فَأَدَّتْ بَعْضَ مُكَاتَبَتِهَا وَ جَامَعَهَا مَوْلَاهَا بَعْدَ ذَلِكَ قَالَ إِنِ اسْتَكْرَهَهَا عَلَى ذَلِكَ ضُرِبَ مِنَ الْحَدِّ بِقَدْرِ مَا أَدَّتْ مِنْ مُكَاتَبَتِهَا وَ دُرِئَ عَنْهُ مِنَ الْحَدِّ بِقَدْرِ مَا بَقِيَ لَهُ مِنْ مُكَاتَبَتِهَا وَ إِنْ كَانَتْ تَابَعَتْهُ كَانَتْ شَرِيكَتَهُ فِي الْحَدِّ ضُرِبَتْ مِثْلَ مَا يُضْرَبُ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তারপর সে তার মুক্তির চুক্তির কিছু অংশ পরিশোধ করল, এবং তার মালিক তার সাথে তার পর যৌন সম্পর্ক স্থাপন করল। তিনি علیہ السلام বললেন: “যদি সে তাকে জোরপূর্বক এ কাজ করায়, তবে তাকে তার পরিশোধকৃত মুক্তির চুক্তির অংশ অনুযায়ী হাদ্দের শাস্তি দেওয়া হবে, এবং তার মালিককে বাকি মুক্তির চুক্তির অংশ অনুযায়ী হাদ্দের শাস্তি থেকে বাঁচানো হবে। আর যদি সে সম্মতি দেয়, তবে সে হাদ্দের শাস্তিতে তার অংশীদার হবে এবং তাকে তার মালিকের মতো শাস্তি দেওয়া হবে।”",
-              "de": "Dann zahlte sie einen Teil ihres Mukataba-Vertrags, und ihr Herr hatte danach Geschlechtsverkehr mit ihr. Er علیه السلام sagte: „Wenn er sie dazu gezwungen hat, soll er entsprechend dem von ihr gezahlten Teil des Mukataba-Vertrags mit der Hadd-Strafe bestraft werden, und die Hadd-Strafe wird ihm entsprechend dem verbleibenden Teil seines Mukataba-Vertrags erlassen. Und wenn sie einwilligte, ist sie seine Partnerin bei der Hadd-Strafe und soll wie er bestraft werden.“",
-              "en": "Then she paid part of her emancipation contract, and her master had intercourse with her after that. He عليه السلام said: “If he forced her into that, he is to be struck with the hadd punishment in proportion to what she has paid of her emancipation contract, and the hadd punishment is averted from him in proportion to what remained for him of her emancipation contract. And if she complied with him, she was his partner in the hadd punishment and is to be struck the like of what he is struck.”",
-              "es": "Luego ella pagó parte de su contrato de emancipación, y su amo tuvo relaciones con ella después de eso. Él عليه السلام dijo: “Si él la forzó a eso, debe ser castigado con la hadd en proporción a lo que ella ha pagado de su contrato de emancipación, y la hadd se le evita en proporción a lo que queda de su contrato de emancipación. Y si ella accedió, ella es su socia en el castigo hadd y debe ser castigada igual que él.”",
-              "fa": "سپس بخشی از قرارداد مکاتبه‌اش را پرداخت و مالکش پس از آن با او جماع کرد. او علیه السلام فرمود: «اگر او را به آن مجبور کرده باشد، به اندازه آنچه از قرارداد مکاتبه‌اش پرداخت کرده، حد بر او زده می‌شود و حد از مالک به اندازه باقی‌مانده قرارداد مکاتبه‌اش برداشته می‌شود. و اگر با او موافقت کرده باشد، شریک او در حد است و به همان اندازه که او حد زده می‌شود، حد بر او نیز زده می‌شود.»",
-              "fr": "Puis elle a payé une partie de son contrat de mukataba, et son maître a eu des rapports avec elle après cela. Il عليه السلام a dit : « S’il l’a forcée à cela, il doit être frappé de la peine hadd proportionnellement à ce qu’elle a payé de son contrat de mukataba, et la peine hadd lui est écartée proportionnellement à ce qu’il reste de son contrat. Et si elle a consenti, elle est sa partenaire dans la peine hadd et doit être frappée comme lui. »",
-              "id": "Kemudian dia membayar sebagian dari kontrak mukatabahnya, dan tuannya berhubungan dengannya setelah itu. Dia علیه السلام berkata: “Jika dia memaksanya melakukan itu, maka dia harus dikenakan hukuman hadd sesuai dengan bagian yang telah dibayarnya dari kontrak mukatabah, dan hukuman hadd dihindarkan dari tuannya sesuai dengan bagian yang tersisa dari kontrak mukatabahnya. Dan jika dia setuju dengannya, dia menjadi mitranya dalam hukuman hadd dan harus dikenakan hukuman yang sama seperti yang dikenakan kepadanya.”",
-              "ru": "Затем она оплатила часть своего договора о выкупе, и её хозяин имел с ней половые отношения после этого. Он علیه السلام сказал: «Если он принудил её к этому, он должен быть наказан хаддом пропорционально тому, что она оплатила по договору, и хадд снимается с него пропорционально оставшейся части договора. Если же она согласилась, она является его соучастницей в хадде и должна быть наказана так же, как и он.»",
-              "tr": "Sonra mukatabatının bir kısmını ödedi ve efendisi onunla ondan sonra ilişkiye girdi. O علیه السلام dedi ki: “Eğer onu buna zorladıysa, mukatabatının ödediği kısmına göre hadd cezası vurulur ve mukatabatının kalan kısmına göre hadd cezası ondan kaldırılır. Eğer razı olduysa, hadd cezasında ortağıdır ve kendisine de onun vurulduğu gibi ceza verilir.”",
-              "ur": "پھر اس نے اپنی مکاتبت کا کچھ حصہ ادا کیا، اور اس کا مالک اس کے ساتھ اس کے بعد جماع کیا۔ انہوں نے علیہ السلام فرمایا: “اگر اس نے اسے اس پر مجبور کیا تو اسے اس حد کی سزا دی جائے گی جو اس نے اپنی مکاتبت کے ادا کیے گئے حصے کے برابر ہے، اور اس پر حد کی سزا اس حصے کے برابر سے روکی جائے گی جو اس کے مکاتبت کے باقی ماندہ حصے کے برابر ہے۔ اور اگر وہ اس کے ساتھ رضا مندی سے رہی تو وہ حد کی سزا میں اس کی شریک ہوگی اور اسے بھی وہی سزا دی جائے گی جو اسے دی جاتی ہے۔”",
-              "zh": "然后她支付了部分赎身契约款项，她的主人随后与她发生了关系。他 علیه السلام说：“如果他强迫她这样做，应根据她已支付的赎身契约部分施以相应的极刑处罚，且根据赎身契约剩余部分免除对他的极刑处罚。如果她同意，则她是极刑处罚的共犯，应受到与他相同的处罚。”"
-            },
             "word_end": 84,
             "word_start": 40
           }
@@ -140,27 +114,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَمَةٌ": "a slave woman",
-            "اسْتَكْرَهَهَا": "he compelled or forced her",
-            "الْحَدِّ": "the prescribed legal punishment",
-            "حُرَّةٌ": "free, in proportion to the fulfilled contract",
-            "دُرِئَ عَنْهُ": "it was averted or waived from him",
-            "شَرِيكَتَهُ فِي الْحَدِّ": "his partner in the prescribed punishment",
-            "مُكَاتَبَتِي": "my emancipation contract by which a slave purchases freedom in installments"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَمَةٌ",
+          "مُكَاتَبَتِي",
+          "حُرَّةٌ",
+          "اسْتَكْرَهَهَا",
+          "الْحَدِّ",
+          "دُرِئَ عَنْهُ",
+          "شَرِيكَتَهُ فِي الْحَدِّ"
+        ],
         "related_quran": [
           {
             "ref": "24:33",
@@ -171,32 +133,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি একজন মালিক এমন দাসীর সাথে যৌন সম্পর্ক স্থাপন করেন যে তার মুক্তির চুক্তির কিছু অংশ পরিশোধ করেছে, তাহলে কী বিধান?",
-          "de": "Wie lautet das Urteil, wenn ein Herr mit einer Sklavin Geschlechtsverkehr hat, die einen Teil ihres Mukataba-Vertrags bezahlt hat?",
-          "en": "What is the ruling if a master has intercourse with a slave woman who has partially paid her emancipation contract?",
-          "es": "¿Cuál es el fallo si un amo tiene relaciones con una esclava que ha pagado parcialmente su contrato de emancipación?",
-          "fa": "حکم چیست اگر مالک با کنیزی که بخشی از قرارداد مکاتبه‌اش را پرداخت کرده باشد، جماع کند؟",
-          "fr": "Quel est le jugement si un maître a des rapports avec une esclave ayant partiellement payé son contrat de mukataba ?",
-          "id": "Apa hukum jika seorang tuan berhubungan dengan budak wanita yang telah membayar sebagian kontrak mukatabahnya?",
-          "ru": "Каково постановление, если хозяин имел половые отношения с рабыней, которая частично оплатила свой договор о выкупе?",
-          "tr": "Bir efendi, mukatabah kontratının bir kısmını ödemiş bir köle kadınla ilişkiye girerse hüküm nedir?",
-          "ur": "اگر مالک نے ایسی کنیز کے ساتھ جماع کیا ہو جس نے اپنی مکاتبت کا کچھ حصہ ادا کیا ہو تو حکم کیا ہے؟",
-          "zh": "如果主人与部分支付赎身契约的女奴发生关系，判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদীসটি একটি মুক্তির চুক্তির অংশ পরিশোধ করা দাসী সম্পর্কে আইনি সিদ্ধান্ত দেয়, যার মালিক তার সাথে যৌন সম্পর্ক স্থাপন করে। সিদ্ধান্তটি বলে যে আইনি শাস্তি তার অর্জিত মুক্তির অংশ অনুযায়ী ভাগ করা হবে, এবং যদি সে সম্মতি দেয়, তবে সে হাদ্দের শাস্তিতে অংশীদার হবে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bezüglich einer mukatabah-Sklavin, die einen Teil ihres Befreiungsvertrags bezahlt hat und deren Herr danach mit ihr Geschlechtsverkehr hatte. Die Regelung besagt, dass die Strafe entsprechend dem Anteil der erworbenen Freiheit verteilt wird, und wenn sie zustimmte, teilt sie die Hadd-Strafe.",
-          "en": "This hadith gives a legal ruling concerning a mukatabah slave woman who has paid part of her emancipation contract and whose master then has intercourse with her. The ruling states that legal punishment is apportioned according to the portion of freedom she had acquired, and if she consented, she shares in the hadd punishment.",
-          "es": "Este hadiz da un fallo legal sobre una esclava mukatabah que ha pagado parte de su contrato de emancipación y cuyo amo luego tuvo relaciones con ella. El fallo establece que el castigo legal se reparte según la parte de libertad que ella haya adquirido, y si ella consintió, comparte el castigo hadd.",
-          "fa": "این حدیث حکم شرعی مربوط به کنیز مکاتبه‌ای را بیان می‌کند که بخشی از قرارداد مکاتبه‌اش را پرداخت کرده و مالکش پس از آن با او جماع کرده است. حکم این است که مجازات شرعی متناسب با میزان آزادی که کسب کرده است اعمال شود و اگر رضایت داده باشد، شریک در مجازات حد است.",
-          "fr": "Ce hadith donne un jugement légal concernant une esclave mukataba qui a payé une partie de son contrat d’émancipation et dont le maître a eu des rapports avec elle ensuite. Le jugement stipule que la punition légale est proportionnée à la part de liberté acquise, et si elle a consenti, elle partage la peine hadd.",
-          "id": "Hadis ini memberikan ketentuan hukum mengenai budak wanita mukatabah yang telah membayar sebagian kontrak mukatabahnya dan tuannya kemudian berhubungan dengannya. Ketentuan menyatakan bahwa hukuman hukum dibagi sesuai dengan bagian kebebasan yang telah diperolehnya, dan jika dia setuju, dia berbagi dalam hukuman hadd.",
-          "ru": "Этот хадис содержит юридическое постановление о рабыне-мукатабе, которая оплатила часть своего договора о выкупе, и чей хозяин затем имел с ней половые отношения. Постановление гласит, что наказание распределяется пропорционально приобретённой свободе, и если она согласилась, она разделяет наказание хадд.",
-          "tr": "Bu hadis, mukatabah köle kadının bir kısmını ödeyip efendisinin onunla ilişkiye girmesi durumunda verilen hukuki hükmü açıklar. Hüküm, kadının kazandığı özgürlük oranına göre cezanın paylaştırılmasıdır ve eğer rıza gösterirse, hadd cezasında ortağı olur.",
-          "ur": "یہ حدیث ایک مکاتبہ کی کنیز کے بارے میں قانونی حکم بیان کرتی ہے جس نے اپنی مکاتبت کا کچھ حصہ ادا کیا ہو اور جس کے مالک نے اس کے بعد اس کے ساتھ جماع کیا ہو۔ حکم یہ ہے کہ قانونی سزا اس آزادی کے تناسب سے دی جائے جو اس نے حاصل کی ہو، اور اگر وہ رضا مند ہو تو وہ بھی حد کی سزا میں شریک ہوتی ہے۔",
-          "zh": "此圣训阐述了关于部分支付赎身契约的女奴及其主人随后与她发生关系的法律裁决。裁决指出，法律惩罚应按她获得自由的比例分配，若她同意，则她与主人共同承担极刑处罚。"
-        },
         "tags": [
           "jurisprudence",
           "family",

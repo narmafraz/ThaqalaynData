@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رَوَى أَحْمَدُ بْنُ مُحَمَّدِ بْنِ أَبِي نَصْرٍ عَنْ أَبِي جَمِيلَةَ عَنِ الرِّضَا عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবনে মুহাম্মদ ইবনে আবি নসর আবু জামিলাহ থেকে, যিনি আল-রিদা عليه السلام থেকে বর্ণনা করেছেন:",
-              "de": "Ahmad ibn Muhammad ibn Abi Nasr berichtete von Abu Jamilah, von al-Ridha عليه السلام, der sagte:",
-              "en": "Ahmad ibn Muhammad ibn Abi Nasr narrated from Abu Jamilah, from al-Ridha عليه السلام, who said:",
-              "es": "Ahmad ibn Muhammad ibn Abi Nasr narró de Abu Jamilah, de al-Ridha عليه السلام, quien dijo:",
-              "fa": "احمد بن محمد بن ابی نصر از ابو جمیله از امام رضا علیه السلام روایت کرده است:",
-              "fr": "Ahmad ibn Muhammad ibn Abi Nasr a rapporté d'Abu Jamilah, d'al-Ridha عليه السلام, qui a dit :",
-              "id": "Ahmad ibn Muhammad ibn Abi Nasr meriwayatkan dari Abu Jamilah, dari al-Ridha علیه السلام, yang berkata:",
-              "ru": "Ахмад ибн Мухаммад ибн Аби Наср передал от Абу Джамиля, от аль-Ридха عليه السلام, который сказал:",
-              "tr": "Ahmed ibn Muhammed ibn Ebi Nasr, Ebu Cemile'den, İmam Er-Rıza (aleyhisselam)'dan rivayet etti:",
-              "ur": "احمد ابن محمد ابن ابی نصر نے ابو جمیلہ سے، جو کہ امام الرضا علیہ السلام سے روایت کرتے ہیں، بیان کیا:",
-              "zh": "艾哈迈德本穆罕默德本阿比纳斯尔从阿布贾米拉传述，来自阿尔里扎 عليه السلام，他说："
-            },
             "word_end": 15,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنْ رَجُلٍ أَوْصَى لِرَجُلٍ بِسَيْفٍ وَكَانَ فِي جَفْنٍ وَعَلَيْهِ حِلْيَةٌ فَقَالَ لَهُ الْوَرَثَةُ إِنَّمَا لَكَ النَّصْلُ وَلَيْسَ لَكَ السَّيْفُ فَقَالَ لَا بَلِ السَّيْفُ بِمَا فِيهِ لَهُ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাকে এমন একজন ব্যক্তির সম্পর্কে জিজ্ঞাসা করলাম যিনি অন্য একজন ব্যক্তিকে একটি তলোয়ার وصیت করেছিলেন, যা একটি মোজায় ছিল এবং তার উপর অলংকার ছিল। উত্তরাধিকারীরা তাকে বলল, \"শুধুমাত্র তলোয়ারটির ধার তোমার, তলোয়ারটি তোমার নয়।\" তিনি বললেন, \"না; বরং তলোয়ারটি তার যা কিছু আছে তার জন্য।\"",
-              "de": "Ich fragte ihn nach einem Mann, der einem anderen Mann ein Schwert vermacht hatte, und es war in einer Scheide und hatte Verzierungen. Die Erben sagten zu ihm: „Nur die Klinge gehört dir, und das Schwert gehört dir nicht.“ Er sagte: „Nein; vielmehr gehört das Schwert mit dem, was darin ist, ihm.“",
-              "en": "I asked him about a man who bequeathed a sword to another man, and it was in a sheath and had adornment upon it. The heirs said to him, \"Only the blade belongs to you, and the sword does not belong to you.\" So he said, \"No; rather, the sword with what is in it belongs to him.\"",
-              "es": "Le pregunté acerca de un hombre que legó una espada a otro hombre, y estaba en una vaina y tenía adornos. Los herederos le dijeron: \"Solo la hoja te pertenece, y la espada no te pertenece.\" Él dijo: \"No; más bien, la espada con lo que tiene es para él.\"",
-              "fa": "از او درباره مردی پرسیدم که شمشیری را به مرد دیگری وصیت کرده بود و آن شمشیر در غلاف بود و زینت داشت. وراث به او گفتند: «تنها تیغه برای توست و شمشیر برای تو نیست.» او گفت: «نه؛ بلکه شمشیر به همراه آنچه در آن است برای اوست.»",
-              "fr": "Je lui ai demandé au sujet d'un homme qui avait légué une épée à un autre homme, et elle était dans un fourreau et ornée. Les héritiers lui ont dit : « Seule la lame t'appartient, et l'épée ne t'appartient pas. » Il a dit : « Non ; au contraire, l'épée avec ce qu'elle contient lui appartient. »",
-              "id": "Saya bertanya kepadanya tentang seorang pria yang mewariskan sebuah pedang kepada pria lain, dan pedang itu berada dalam sarung dan memiliki hiasan. Para ahli waris berkata kepadanya, \"Hanya bilah pedang yang menjadi milikmu, bukan pedangnya.\" Maka dia berkata, \"Tidak; pedang beserta isinya adalah miliknya.\"",
-              "ru": "Я спросил его о человеке, который завещал меч другому человеку, и меч был в ножнах и имел украшения. Наследники сказали ему: «Тебе принадлежит только лезвие, а меч тебе не принадлежит.» Он сказал: «Нет; меч вместе с тем, что в нем, принадлежит ему.»",
-              "tr": "Ona, bir adamın başka bir adama kılıç vasiyet ettiğini, kılıcın kınında olduğunu ve üzerinde süs olduğunu sordum. Mirasçılar ona, \"Sadece kılıcın kesici kısmı sana aittir, kılıç sana ait değildir\" dediler. O da, \"Hayır; kılıç, içindekilerle birlikte ona aittir\" dedi.",
-              "ur": "میں نے ان سے ایک شخص کے بارے میں پوچھا جس نے دوسرے شخص کو تلوار وصیت کی تھی، اور وہ تلوار غلاف میں تھی اور اس پر زیور تھا۔ وارثوں نے کہا، \"صرف تلوار کی دھار تمہاری ہے، اور تلوار تمہاری نہیں ہے۔\" تو انہوں نے کہا، \"نہیں؛ بلکہ تلوار اپنے تمام حصوں کے ساتھ اس کے لیے ہے۔\"",
-              "zh": "我问他关于一个人遗赠一把剑给另一个人，那剑在剑鞘中并带有装饰。继承人对他说：“只有剑刃属于你，剑不属于你。”他说：“不，剑连同其中的东西属于他。”"
-            },
             "word_end": 42,
             "word_start": 15
           },
           {
             "arabic_text": "قَالَ قُلْتُ لَهُ رَجُلٌ أَوْصَى بِصُنْدُوقٍ لِرَجُلٍ وَكَانَ فِيهِ مَالٌ فَقَالَ الْوَرَثَةُ إِنَّمَا لَكَ الصُّنْدُوقُ وَلَيْسَ لَكَ الْمَالُ فَقَالَ الصُّنْدُوقُ بِمَا فِيهِ لَهُ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: আমি তাকে বললাম, একজন ব্যক্তি অন্য একজন ব্যক্তিকে صندوق وصیت করেছেন, এবং তাতে ধন ছিল। উত্তরাধিকারীরা বলল, \"শুধুমাত্র صندوق তোমার, এবং ধন তোমার নয়।\" তিনি বললেন, \"صندوق যা কিছু আছে তার সাথে তার।\"",
-              "de": "Er sagte: Ich sagte zu ihm, ein Mann hat einem anderen Mann eine صندوق vermacht, und darin war Vermögen. Die Erben sagten: „Nur die صندوق gehört dir, und das Vermögen gehört dir nicht.“ Er sagte: „Die صندوق mit dem, was darin ist, gehört ihm.“",
-              "en": "He said: I said to him, a man bequeathed a صندوق to another man, and there was wealth in it. The heirs said, \"Only the صندوق belongs to you, and the wealth does not belong to you.\" So he said, \"The صندوق with what is in it belongs to him.\"",
-              "es": "Él dijo: Le dije, un hombre legó un صندوق a otro hombre, y había riqueza dentro. Los herederos dijeron: \"Solo el صندوق te pertenece, y la riqueza no te pertenece.\" Él dijo: \"El صندوق con lo que hay dentro le pertenece a él.\"",
-              "fa": "فرمود: به او گفتم مردی صندوقی را به مرد دیگری وصیت کرده بود و در آن مال بود. وراث گفتند: «تنها صندوق برای توست و مال برای تو نیست.» او گفت: «صندوق به همراه آنچه در آن است برای اوست.»",
-              "fr": "Il a dit : Je lui ai dit, un homme a légué un صندوق à un autre homme, et il y avait des richesses à l'intérieur. Les héritiers ont dit : « Seul le صندوق t'appartient, et la richesse ne t'appartient pas. » Il a dit : « Le صندوق avec ce qu'il contient lui appartient. »",
-              "id": "Dia berkata: Saya berkata kepadanya, seorang pria mewariskan sebuah صندوق kepada pria lain, dan di dalamnya ada harta. Para ahli waris berkata, \"Hanya صندوق yang menjadi milikmu, dan harta bukan milikmu.\" Maka dia berkata, \"صندوق beserta isinya adalah miliknya.\"",
-              "ru": "Он сказал: Я сказал ему, что человек завещал صندوق другому человеку, и в нем были деньги. Наследники сказали: «Тебе принадлежит только صندوق, а деньги тебе не принадлежат.» Он сказал: «صندوق вместе с тем, что в нем, принадлежит ему.»",
-              "tr": "O dedi ki: Ona, bir adamın başka bir adama صندوق vasiyet ettiğini ve içinde mal olduğunu söyledim. Mirasçılar, \"Sadece صندوق sana aittir, mal sana ait değildir\" dediler. O da, \"صندوق içindekilerle birlikte ona aittir\" dedi.",
-              "ur": "انہوں نے فرمایا: میں نے ان سے کہا، ایک شخص نے دوسرے شخص کو صندوق وصیت کیا تھا، اور اس میں مال تھا۔ وارثوں نے کہا، \"صرف صندوق تمہارا ہے، اور مال تمہارا نہیں ہے۔\" تو انہوں نے کہا، \"صندوق اپنے اندر جو کچھ ہے اس کے ساتھ اس کا ہے۔\"",
-              "zh": "他说：我对他说，一个人遗赠一个صندوق给另一个人，里面有财物。继承人说：“只有صندوق属于你，财物不属于你。”他说：“صندوق连同里面的东西属于他。”"
-            },
             "word_end": 65,
             "word_start": 42
           }
@@ -119,28 +93,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَوْصَى": "made a bequest or testamentary gift",
-            "النَّصْلُ": "the blade of the sword",
-            "الْوَرَثَةُ": "the heirs disputing the extent of the bequest",
-            "بِسَيْفٍ": "a sword specified in the bequest",
-            "بِصُنْدُوقٍ": "a chest or box named in the bequest",
-            "جَفْنٍ": "a sheath containing the sword",
-            "حِلْيَةٌ": "adornment or decorative fitting attached to the sword",
-            "مَالٌ": "property or money found inside the box"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَوْصَى",
+          "بِسَيْفٍ",
+          "جَفْنٍ",
+          "حِلْيَةٌ",
+          "الْوَرَثَةُ",
+          "النَّصْلُ",
+          "بِصُنْدُوقٍ",
+          "مَالٌ"
+        ],
         "related_quran": [
           {
             "ref": "2:180",
@@ -155,32 +117,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কেউ তলোয়ার বা صندوق وصیت করে, তাহলে وصیت কি তার সাথে বা ভিতরে যা কিছু আছে তা অন্তর্ভুক্ত করে?",
-          "de": "Wenn jemand ein Schwert oder ein صندوق vermacht, umfasst das Vermächtnis auch das, was damit oder darin ist?",
-          "en": "If someone bequeaths a sword or a box, does the bequest include what is with it or inside it?",
-          "es": "Si alguien lega una espada o un صندوق, ¿la herencia incluye lo que está con él o dentro de él?",
-          "fa": "اگر کسی شخصی شمشیر یا صندوقی را وصیت کند، آیا وصیت شامل آنچه همراه یا داخل آن است نیز می‌شود؟",
-          "fr": "Si quelqu'un lègue une épée ou un صندوق, le legs inclut-il ce qui est avec ou à l'intérieur ?",
-          "id": "Jika seseorang mewariskan pedang atau صندوق, apakah wasiat tersebut mencakup apa yang ada bersamanya atau di dalamnya?",
-          "ru": "Если кто-то завещает меч или صندوق, включает ли завещание то, что с ним или внутри него?",
-          "tr": "Birisi kılıç veya صندوق vasiyet ederse, vasiyet ona ait olan veya içinde bulunan şeyleri de kapsar mı?",
-          "ur": "اگر کوئی شخص تلوار یا صندوق وصیت کرے، کیا وصیت میں اس کے ساتھ یا اس کے اندر جو کچھ ہو وہ شامل ہوتا ہے؟",
-          "zh": "如果有人遗赠剑或صندوق，遗赠是否包括其附带或内部的物品？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস وصیت সম্পর্কিত একটি আইনি সিদ্ধান্ত প্রদান করে: যখন কেউ কোনো বস্তু وصیت করে, সাধারণত সেই বস্তুটির সাথে বা ভিতরে যা কিছু থাকে তা وصیتে অন্তর্ভুক্ত হয়। امام علیه السلام নির্দেশ দেন যে তলোয়ার তার মোজা ও অলংকারসহ এবং صندوق তার ভিতরের ধনসহ অন্তর্ভুক্ত। এই বর্ণনা ফিকহে গুরুত্বপূর্ণ কারণ এটি وصیتی ভাষা কীভাবে ব্যবহারিক আইনি বিবাদে বোঝা হয় তা স্পষ্ট করে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bezüglich Vermächtnissen: Wenn eine Person einen Gegenstand vermacht, ist auch das, was üblicherweise mit oder in diesem Gegenstand enthalten ist, im Vermächtnis eingeschlossen. Der Imam عليه السلام entscheidet, dass ein Schwert seine Scheide und Verzierung einschließt und ein صندوق den darin enthaltenen Reichtum. Die Überlieferung ist in der Rechtswissenschaft bedeutsam, um zu klären, wie testamentarische Sprache in praktischen Rechtsstreitigkeiten verstanden wird.",
-          "en": "This hadith gives a legal ruling concerning bequests: when a person bequeaths an item, what is ordinarily included with or inside that item is also included in the bequest. The Imam عليه السلام rules that a sword includes its sheath and adornment, and a صندوق includes the wealth inside it. The narration is significant in jurisprudence for clarifying how testamentary language is understood in practical legal disputes.",
-          "es": "Este hadiz ofrece un fallo legal sobre las herencias: cuando una persona lega un objeto, lo que normalmente está incluido con o dentro de ese objeto también está incluido en la herencia. El Imam عليه السلام dictamina que una espada incluye su vaina y adornos, y un صندوق incluye la riqueza dentro de él. La narración es significativa en jurisprudencia para aclarar cómo se entiende el lenguaje testamentario en disputas legales prácticas.",
-          "fa": "این حدیث حکم شرعی درباره وصیت‌ها را بیان می‌کند: وقتی شخصی چیزی را وصیت می‌کند، معمولاً آنچه به طور معمول همراه یا داخل آن چیز است نیز شامل وصیت می‌شود. امام علیه السلام حکم می‌کند که شمشیر شامل غلاف و زینت آن است و صندوق شامل مال داخل آن است. این روایت در فقه اهمیت دارد زیرا نحوه فهم زبان وصیت در اختلافات حقوقی عملی را روشن می‌کند.",
-          "fr": "Ce hadith donne une règle juridique concernant les legs : lorsqu'une personne lègue un objet, ce qui est habituellement inclus avec ou à l'intérieur de cet objet est également inclus dans le legs. L'Imam عليه السلام juge qu'une épée inclut son fourreau et ses ornements, et un صندوق inclut la richesse qu'il contient. La narration est importante en jurisprudence pour clarifier comment le langage testamentaire est compris dans les litiges juridiques pratiques.",
-          "id": "Hadis ini memberikan ketentuan hukum mengenai wasiat: ketika seseorang mewariskan suatu barang, apa yang biasanya termasuk atau ada di dalam barang tersebut juga termasuk dalam wasiat. Imam علیه السلام memutuskan bahwa pedang termasuk sarung dan hiasannya, dan صندوق termasuk harta di dalamnya. Riwayat ini penting dalam fikih karena menjelaskan bagaimana bahasa wasiat dipahami dalam sengketa hukum praktis.",
-          "ru": "Этот хадис дает юридическое постановление относительно завещаний: когда человек завещает предмет, то обычно то, что обычно включено с этим предметом или внутри него, также включается в завещание. Имам عليه السلام постановляет, что меч включает в себя ножны и украшения, а صندوق включает богатство внутри него. Эта передача важна в юриспруденции для разъяснения того, как понимается завещательный язык в практических юридических спорах.",
-          "tr": "Bu hadis, vasiyetlerle ilgili hukuki bir hüküm verir: Bir kişi bir eşya vasiyet ettiğinde, genellikle o eşyanın içinde veya üzerinde bulunan her şey de vasiyete dahildir. İmam علیه السلام, bir kılıcın kını ve süsü ile birlikte olduğunu, bir صندوقun ise içindeki mal ile birlikte olduğunu hükmeder. Bu rivayet, vasiyet dilinin pratik hukuki anlaşmazlıklarda nasıl anlaşılacağını açıklaması bakımından fıkıhta önemlidir.",
-          "ur": "یہ حدیث وصیت کے بارے میں قانونی حکم دیتی ہے: جب کوئی شخص کسی چیز کی وصیت کرتا ہے تو عام طور پر اس چیز کے ساتھ یا اس کے اندر جو کچھ ہوتا ہے وہ بھی وصیت میں شامل ہوتا ہے۔ امام علیہ السلام حکم دیتے ہیں کہ تلوار میں اس کا غلاف اور زیور شامل ہے، اور صندوق میں اس کے اندر کا مال شامل ہے۔ یہ روایت فقہ میں اہمیت رکھتی ہے کیونکہ یہ وصیتی زبان کو عملی قانونی تنازعات میں سمجھنے میں وضاحت کرتی ہے۔",
-          "zh": "这段圣训给出了关于遗赠的法律裁决：当一个人遗赠一件物品时，通常与该物品一起或其中包含的东西也包括在遗赠中。伊玛目 عليه السلام 裁定剑包括剑鞘和装饰，صندوق包括其中的财富。该传述在法学中具有重要意义，阐明了遗嘱语言在实际法律争议中的理解方式。"
-        },
         "tags": [
           "jurisprudence",
           "economy",

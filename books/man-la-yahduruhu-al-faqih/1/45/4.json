@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى أَحْمَدُ بْنُ مُحَمَّدِ بْنِ أَبِي نَصْرٍ الْبَزَنْطِيُّ عَنِ الرِّضَا عَلَيْهِ السَّلَامُ أَنَّهُ قَالَ :",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবনে মুহাম্মদ ইবনে আবি নসর আল-বাজান্তি আল-রিদা عليه السلام থেকে বর্ণনা করেছেন যে তিনি বললেন:",
-              "de": "Ahmad ibn Muhammad ibn Abi Nasr al-Bazanti berichtete von al-Ridha عليه السلام, dass er sagte:",
-              "en": "Ahmad ibn Muhammad ibn Abi Nasr al-Bazanti narrated from al-Ridha عليه السلام that he said:",
-              "es": "Ahmad ibn Muhammad ibn Abi Nasr al-Bazanti narró de al-Ridha عليه السلام que dijo:",
-              "fa": "احمد بن محمد بن ابی نصر البزنتی از امام رضا علیه‌السلام نقل کرده که فرمود:",
-              "fr": "Ahmad ibn Muhammad ibn Abi Nasr al-Bazanti a rapporté de al-Ridha عليه السلام qu'il a dit :",
-              "id": "Ahmad ibn Muhammad ibn Abi Nasr al-Bazanti meriwayat dari al-Ridha علیه السلام bahwa beliau berkata:",
-              "ru": "Ахмад ибн Мухаммад ибн Аби Наср аль-Базанти передал от аль-Ридха عليه السلام, что он сказал:",
-              "tr": "Ahmed ibn Muhammed ibn Ebi Nasr el-Bazanti, İmam Ridha (aleyhisselam)'dan rivayet etti ki şöyle dedi:",
-              "ur": "احمد ابن محمد ابن ابی نصر البزنطی نے امام رضا علیہ السلام سے روایت کی کہ انہوں نے فرمایا:",
-              "zh": "艾哈迈德本穆罕默德本阿比纳斯尔阿尔巴赞提从阿尔里达 عليه السلام传述说："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "«يُؤَذِّنُ الرَّجُلُ وَ هُوَ جَالِسٌ وَ يُؤَذِّنُ وَ هُوَ رَاكِبٌ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন ব্যক্তি বসে থাকাকালীন আজান দিতে পারেন, এবং তিনি চড়ে থাকাকালীনও আজান দিতে পারেন।",
-              "de": "Ein Mann kann den Adhan im Sitzen geben, und er kann den Adhan auch im Reiten geben.",
-              "en": "A man may give the adhan while sitting, and he may give the adhan while riding.",
-              "es": "Un hombre puede dar el adhan mientras está sentado, y también puede dar el adhan mientras está montando.",
-              "fa": "یک مرد می‌تواند در حال نشستن اذان دهد و همچنین در حال سوار بودن اذان دهد.",
-              "fr": "Un homme peut faire l'adhan en étant assis, et il peut aussi faire l'adhan en étant monté.",
-              "id": "Seorang pria dapat mengumandangkan adhan saat duduk, dan juga saat berkendara.",
-              "ru": "Человек может давать азан сидя, и он может давать азан верхом.",
-              "tr": "Bir adam otururken ezan verebilir ve binerken de ezan verebilir.",
-              "ur": "ایک شخص بیٹھ کر اذان دے سکتا ہے، اور وہ سواری کرتے ہوئے بھی اذان دے سکتا ہے۔",
-              "zh": "一个人可以坐着宣礼，也可以骑着宣礼。"
-            },
             "word_end": 26,
             "word_start": 16
           }
@@ -92,24 +79,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الرَّجُلُ": "a man, referring here to the person giving the call",
-            "جَالِسٌ": "sitting",
-            "رَاكِبٌ": "riding",
-            "يُؤَذِّنُ": "gives the adhan, meaning calls people to prayer"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُؤَذِّنُ",
+          "الرَّجُلُ",
+          "جَالِسٌ",
+          "رَاكِبٌ"
+        ],
         "related_quran": [
           {
             "ref": "5:2",
@@ -120,32 +95,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কোন ব্যক্তি কি বসে বা চড়ে থাকাকালীন আজান দিতে পারে?",
-          "de": "Kann eine Person den Adhan geben, während sie sitzt oder reitet?",
-          "en": "Can a person give the adhan while sitting or riding?",
-          "es": "¿Puede una persona dar el adhan mientras está sentada o montando?",
-          "fa": "آیا شخص می‌تواند در حال نشستن یا سوار بودن اذان دهد؟",
-          "fr": "Une personne peut-elle faire l'adhan en étant assise ou montée ?",
-          "id": "Apakah seseorang dapat mengumandangkan adhan saat duduk atau berkendara?",
-          "ru": "Может ли человек давать азан сидя или верхом?",
-          "tr": "Bir kişi otururken veya binerken ezan verebilir mi?",
-          "ur": "کیا کوئی شخص بیٹھ کر یا سواری کرتے ہوئے اذان دے سکتا ہے؟",
-          "zh": "一个人可以坐着或骑着宣礼吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে একজন ব্যক্তি বসে বা চড়ে থাকাকালীনও আজান দেওয়া বৈধ। এটি আজানের উপস্থাপনার পদ্ধতিতে নমনীয়তা নির্দেশ করে এবং ইবাদতের ব্যবহারিক বিধান সম্পর্কিত।",
-          "de": "Dieser Hadith besagt, dass das Geben des Adhan auch gültig ist, wenn eine Person sitzt oder reitet. Er zeigt Flexibilität in der Art der Ausrufung des Gebetsrufs und bezieht sich auf praktische Vorschriften der Anbetung.",
-          "en": "This hadith states that giving the adhan is valid even when a person is sitting or riding. It indicates flexibility in the manner of delivering the call to prayer and relates to practical rulings of worship.",
-          "es": "Este hadiz establece que dar el adhan es válido incluso cuando una persona está sentada o montando. Indica flexibilidad en la forma de realizar el llamado a la oración y se relaciona con las reglas prácticas del culto.",
-          "fa": "این حدیث بیان می‌کند که اذان دادن حتی زمانی که شخص نشسته یا سوار است، صحیح است. این نشان‌دهنده انعطاف در نحوه اقامه اذان و مرتبط با احکام عملی عبادت است.",
-          "fr": "Ce hadith indique que faire l'adhan est valide même lorsqu'une personne est assise ou montée. Il montre une flexibilité dans la manière de faire l'appel à la prière et concerne les règles pratiques du culte.",
-          "id": "Hadis ini menyatakan bahwa mengumandangkan adhan sah meskipun seseorang duduk atau sedang berkendara. Ini menunjukkan fleksibilitas dalam cara menyampaikan panggilan salat dan berkaitan dengan ketentuan praktis ibadah.",
-          "ru": "Этот хадис утверждает, что азан действителен даже когда человек сидит или едет верхом. Это указывает на гибкость в способе произнесения призыва к молитве и связано с практическими правилами поклонения.",
-          "tr": "Bu hadis, bir kişinin otururken veya binerken ezan vermesinin geçerli olduğunu belirtir. Ezanın verilme şekline esneklik olduğunu gösterir ve ibadetle ilgili pratik hükümlere işaret eder.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ اذان دینا اس وقت بھی جائز ہے جب انسان بیٹھا ہو یا سواری کر رہا ہو۔ یہ اذان دینے کے طریقے میں نرمی کو ظاہر کرتی ہے اور عبادت کے عملی احکام سے متعلق ہے۔",
-          "zh": "此圣训说明即使人在坐着或骑着时宣礼也是有效的。它表明了宣礼方式的灵活性，并涉及礼拜的实际规定。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

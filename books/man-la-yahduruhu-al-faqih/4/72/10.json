@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَفِي رِوَايَةِ ٱبْنِ أَبِي عُمَيْرٍ عَنْ جَمِيلٍ عَنْ بَعْضِ أَصْحَابِنَا عَنْ أَحَدِهِمَا عَلَيْهِمَا ٱلسَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং ইবনে আবী উমাইরের বর্ণনায়, জামিল থেকে, আমাদের কিছু সাহাবীদের থেকে, দুই ইমামের একজন থেকে, তাদের উপর শান্তি বর্ষিত হোক, তিনি বললেন:",
-              "de": "Und in der Überlieferung von Ibn Abī ʿUmayr, von Jamīl, von einigen unserer Gefährten, von einem der beiden Imame, Friede sei mit ihnen, der sagte:",
-              "en": "And in the narration of Ibn Abī ʿUmayr, from Jamīl, from some of our companions, from one of the two Imams, peace be upon them, who said:",
-              "es": "Y en la narración de Ibn Abī ʿUmayr, de Jamīl, de algunos de nuestros compañeros, de uno de los dos Imames, la paz sea con ellos, que dijo:",
-              "fa": "و در روایت ابن ابی عمیر، از جمیل، از برخی از اصحاب ما، از یکی از دو امام، علیهما السلام، که فرمود:",
-              "fr": "Et dans la narration d'Ibn Abī ʿUmayr, de Jamīl, de certains de nos compagnons, de l'un des deux Imams, paix sur eux, qui a dit :",
-              "id": "Dan dalam riwayat Ibn Abī ʿUmayr, dari Jamīl, dari beberapa sahabat kami, dari salah satu dari dua Imam, semoga keselamatan atas mereka, yang berkata:",
-              "ru": "И в передаче Ибн Абī ʿУмайра, от Джамиля, от некоторых наших сподвижников, от одного из двух Имамов, мир им, который сказал:",
-              "tr": "Ve İbn Ebî Umeyr’in rivayetinde, Cemîl’den, bazı arkadaşlarımızdan, iki imamdan birinden, üzerlerine selâm olsun, şöyle dedi:",
-              "ur": "اور اِبن ابی عمیر کی روایت میں، جمیل سے، ہمارے بعض اصحاب سے، دونوں اماموں میں سے ایک علیہما السلام سے روایت ہے کہ انہوں نے فرمایا:",
-              "zh": "在伊本阿比乌迈尔的传述中，来自贾米勒，我们的一些同伴，来自两位伊玛目之一，愿他们平安，他说："
-            },
             "word_end": 15,
             "word_start": 0
           },
           {
             "arabic_text": "إِذَا مَاتَ وَلِيُّ ٱلْمَقْتُولِ قَامَ وَلَدُهُ مِنْ بَعْدِهِ مَقَامَهُ بِٱلدَّمِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি নিহত ব্যক্তির ওলি মারা যায়, তার সন্তান তার পরে রক্তের দাবি সম্পর্কে তার স্থান গ্রহণ করে।",
-              "de": "Wenn der Vormund des Getöteten stirbt, tritt sein Kind an seine Stelle in Bezug auf die Blutracheforderung.",
-              "en": "If the guardian of the slain person dies, his child takes his place after him regarding the blood claim.",
-              "es": "Si el guardián del asesinado muere, su hijo toma su lugar después de él respecto a la reclamación de sangre.",
-              "fa": "اگر ولی مقتول بمیرد، فرزند او پس از او در حق خون جایگزین می‌شود.",
-              "fr": "Si le gardien de la personne tuée décède, son enfant prend sa place après lui concernant la revendication du sang.",
-              "id": "Jika wali orang yang dibunuh meninggal dunia, anaknya menggantikan posisinya dalam perkara hak darah tersebut.",
-              "ru": "Если опекун убитого умирает, его ребенок занимает его место в вопросе кровной мести.",
-              "tr": "Eğer öldürülmüş kişinin velisi vefat ederse, çocuğu onun yerine kan hakkı konusunda onun yerini alır.",
-              "ur": "اگر مقتول کے ولی کا انتقال ہو جائے تو اس کا بیٹا اس کے بعد خون کے حق میں اس کی جگہ لے لیتا ہے۔",
-              "zh": "如果被杀者的监护人去世，他的子女将继承其在血债索赔中的地位。"
-            },
             "word_end": 25,
             "word_start": 15
           }
@@ -75,23 +62,11 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بِٱلدَّمِ": "regarding the blood claim, meaning the right tied to retaliation or legal claim for the killing",
-            "وَلَدُهُ": "his child, who succeeds to the claim",
-            "وَلِيُّ ٱلْمَقْتُولِ": "the legal guardian or entitled claimant of the slain person"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "وَلِيُّ ٱلْمَقْتُولِ",
+          "وَلَدُهُ",
+          "بِٱلدَّمِ"
+        ],
         "related_quran": [
           {
             "ref": "17:33",
@@ -102,32 +77,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি নিহত ব্যক্তির ওলি মারা যায় তবে দণ্ডপ্রাপ্তির অধিকার কে উত্তরাধিকার সূত্রে পায়?",
-          "de": "Wer erbt das Recht auf Vergeltung, wenn der Wali eines Ermordeten stirbt?",
-          "en": "Who inherits the right to seek retribution if the guardian of a murdered person dies?",
-          "es": "¿Quién hereda el derecho a buscar retribución si el guardián de una persona asesinada muere?",
-          "fa": "اگر ولی مقتول بمیرد، حق قصاص به چه کسی منتقل می‌شود؟",
-          "fr": "Qui hérite du droit de demander réparation si le gardien d'une personne assassinée décède ?",
-          "id": "Siapa yang mewarisi hak menuntut pembalasan jika wali orang yang dibunuh meninggal dunia?",
-          "ru": "Кто наследует право на возмездие, если опекун убитого умирает?",
-          "tr": "Öldürülmüş kişinin velisi ölürse, kısas hakkı kim tarafından miras alınır?",
-          "ur": "اگر مقتول کے ولی کا انتقال ہو جائے تو قصاص کا حق کون وراثت میں پاتا ہے؟",
-          "zh": "如果被杀者的监护人去世，谁继承寻求报复的权利？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি নিহত ব্যক্তির রক্তের অধিকার সম্পর্কিত একটি শারঈ বিধান প্রদান করে যে, যদি নিহত ব্যক্তির ওলি মারা যায়, তার সন্তান সেই অধিকার গ্রহণ করে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bezüglich des Rechts am Blut eines Getöteten an und besagt, dass wenn der Wali des Getöteten stirbt, sein Kind seine Position übernimmt.",
-          "en": "This hadith gives a legal ruling concerning the right connected to a slain person's blood. It states that if the wali of the murdered person dies, his child succeeds to his position in pursuing that claim.",
-          "es": "Este hadiz da un fallo legal sobre el derecho relacionado con la sangre de una persona asesinada, indicando que si el guardián muere, su hijo hereda ese derecho.",
-          "fa": "این حدیث حکم شرعی مربوط به حق خون مقتول را بیان می‌کند که اگر ولی مقتول بمیرد، فرزند او جایگزین او در پیگیری آن حق می‌شود.",
-          "fr": "Ce hadith donne un jugement légal concernant le droit lié au sang d'une personne tuée, indiquant que si le wali décède, son enfant lui succède dans cette revendication.",
-          "id": "Hadis ini memberikan ketetapan hukum mengenai hak yang terkait dengan darah orang yang dibunuh, menyatakan bahwa jika wali orang yang dibunuh meninggal, anaknya menggantikan posisinya dalam menuntut hak tersebut.",
-          "ru": "Этот хадис содержит юридическое постановление о праве, связанном с кровью убитого, и гласит, что если опекун умершего умирает, его ребенок наследует это право.",
-          "tr": "Bu hadis, öldürülmüş kişinin kan hakkıyla ilgili hukuki hükmü verir; velinin ölmesi durumunda çocuğunun onun yerine geçtiğini belirtir.",
-          "ur": "یہ حدیث مقتول کے خون سے متعلق حق کے بارے میں شرعی حکم بیان کرتی ہے کہ اگر مقتول کے ولی کا انتقال ہو جائے تو اس کا بیٹا اس کی جگہ اس حق کو حاصل کر لیتا ہے۔",
-          "zh": "此圣训阐述了关于被杀者血权的法律裁决，指出如果被杀者的监护人去世，其子继承其权利。"
-        },
         "tags": [
           "jurisprudence",
           "family",

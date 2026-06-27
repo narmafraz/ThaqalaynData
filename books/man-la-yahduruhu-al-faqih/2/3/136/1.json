@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رَوَى سُوَيْدٌ الْقَلَّاءُ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এটি সুয়েদ আল-ক্বাল্লা থেকে বর্ণিত, মুহাম্মদ ইবনে মুসলিম থেকে, আবু জাফর عليه السلام থেকে, যিনি বললেন:",
-              "de": "Es wird überliefert von Suwayd al-Qallāʾ, von Muḥammad ibn Muslim, von Abū Jaʿfar عليه السلام, der sagte:",
-              "en": "It is narrated by Suwayd al-Qallāʾ, from Muḥammad ibn Muslim, from Abū Jaʿfar عليه السلام, who said:",
-              "es": "Se narra por Suwayd al-Qallāʾ, de Muhammad ibn Muslim, de Abu Jaʿfar عليه السلام, quien dijo:",
-              "fa": "از سوی سوید القلاء، از محمد بن مسلم، از ابوجعفر علیه السلام روایت شده است که فرمود:",
-              "fr": "Il est rapporté par Suwayd al-Qallāʾ, de Muḥammad ibn Muslim, d'Abū Jaʿfar عليه السلام, qui a dit :",
-              "id": "Diriwayatkan oleh Suwayd al-Qallāʾ, dari Muhammad ibn Muslim, dari Abu Jaʿfar علیه السلام, yang berkata:",
-              "ru": "Передаётся от Суэйда аль-Калла, от Мухаммада ибн Муслима, от Абу Джафара عليه السلام, который сказал:",
-              "tr": "Bu, Suwayd al-Qallāʾ tarafından, Muhammed ibn Muslim'den, Ebu Cafer (aleyhisselam)'den rivayet edilmiştir, şöyle demiştir:",
-              "ur": "یہ روایت ہے سوید القلاء کی طرف سے، محمد بن مسلم سے، ابو جعفر علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "这是由苏韦德·卡拉传述，来自穆罕默德·伊本·穆斯林，来自阿布·贾法尔 عليه السلام，他说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "الْأُضْحِيَّةُ وَاجِبَةٌ عَلَى مَنْ وَجَدَ مِنْ صَغِيرٍ أَوْ كَبِيرٍ وَهِيَ سُنَّةٌ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "উধিয়্যাহ তাদের জন্য ফরজ যারা সক্ষম, ছোট হোক বা বড়, এবং এটি একটি সুন্নাহ।",
-              "de": "Die Udhiyyah ist für jeden verpflichtend, der dazu in der Lage ist, ob jung oder alt, und sie ist eine Sunnah.",
-              "en": "The udhiyyah is obligatory upon whoever is able, whether young or old, and it is a sunnah (prophetic tradition).",
-              "es": "La udhiyyah es obligatoria para quien pueda, ya sea joven o viejo, y es una sunnah.",
-              "fa": "اُضحیه بر هر کسی که توانایی دارد، چه کوچک باشد چه بزرگ، واجب است و این یک سنت است.",
-              "fr": "L'udhiyyah est obligatoire pour quiconque en a les moyens, qu'il soit jeune ou vieux, et c'est une sunnah.",
-              "id": "Udhiyyah wajib bagi siapa saja yang mampu, baik muda maupun tua, dan itu adalah sunnah.",
-              "ru": "Удхийя обязательна для каждого, кто способен её совершить, будь то молодой или старый, и это сунна.",
-              "tr": "Udhiyyah, genç veya yaşlı olsun, imkanı olan herkes için farzdır ve bu bir sünnettir.",
-              "ur": "اُضحیٰ واجب ہے ہر اس شخص پر جو استطاعت رکھتا ہو، چاہے وہ چھوٹا ہو یا بڑا، اور یہ سنت ہے۔",
-              "zh": "犧牲對有能力者無論年幼或年長皆為義務，且為聖行。"
-            },
             "word_end": 24,
             "word_start": 13
           }
@@ -100,26 +87,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْأُضْحِيَّةُ": "the sacrificial offering performed on the occasion of Eid al-Adha",
-            "سُنَّةٌ": "an established prophetic tradition or recommended normative practice",
-            "صَغِيرٍ": "a young person",
-            "كَبِيرٍ": "an older or adult person",
-            "وَاجِبَةٌ": "legally obligatory or required",
-            "وَجَدَ": "had the means or ability to afford it"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْأُضْحِيَّةُ",
+          "وَاجِبَةٌ",
+          "وَجَدَ",
+          "صَغِيرٍ",
+          "كَبِيرٍ",
+          "سُنَّةٌ"
+        ],
         "related_quran": [
           {
             "ref": "22:34",
@@ -134,32 +109,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যারা সামর্থ্য রাখে তাদের জন্য উধিয়্যাহ কোরবানি কি ফরজ?",
-          "de": "Ist die Udhiyyah für denjenigen verpflichtend, der sie sich leisten kann?",
-          "en": "Is the udhiyyah sacrifice obligatory for one who can afford it?",
-          "es": "¿Es obligatoria la udhiyyah para quien puede costearla?",
-          "fa": "آیا قربانی اُضحیه برای کسی که توانایی مالی دارد واجب است؟",
-          "fr": "L'udhiyyah est-elle obligatoire pour celui qui peut se le permettre ?",
-          "id": "Apakah kurban udhiyyah wajib bagi yang mampu membayarnya?",
-          "ru": "Обязательна ли жертва удхийя для того, кто может её позволить себе?",
-          "tr": "Udhiyyah kurbanı, bunu karşılayabilen kişi için farz mıdır?",
-          "ur": "کیا اُضحیٰ قربانی اس پر واجب ہے جو اس کی استطاعت رکھتا ہو؟",
-          "zh": "有能力者是否必須行犧牲？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি যাদের সামর্থ্য আছে তাদের জন্য কোরবানি করার ফতোয়া বর্ণনা করে। এটি উধিয়্যাহকে ইবাদতে একটি গুরুত্বপূর্ন ও বিধিবদ্ধ রীতিনীতি হিসেবে উপস্থাপন করে।",
-          "de": "Dieser Hadith legt die Vorschrift für das Opfern fest für den, der dazu in der Lage ist. Er stellt die Udhiyyah als eine betonte rituelle Praxis mit normativer rechtlicher Bedeutung im Gottesdienst dar.",
-          "en": "This hadith states the ruling of the sacrificial offering for one who possesses the means to perform it. It presents the udhiyyah as an emphasized ritual practice with normative legal significance in worship.",
-          "es": "Este hadiz establece la regla del sacrificio para quien tiene los medios para realizarlo. Presenta la udhiyyah como una práctica ritual enfatizada con significado legal normativo en la adoración.",
-          "fa": "این حدیث حکم قربانی را برای کسی که توانایی انجام آن را دارد بیان می‌کند. اُضحیه را به عنوان عملی تأکیدی با اهمیت حقوقی در عبادت معرفی می‌کند.",
-          "fr": "Ce hadith énonce la règle du sacrifice pour celui qui en a les moyens. Il présente l'udhiyyah comme une pratique rituelle soulignée ayant une signification juridique normative dans le culte.",
-          "id": "Hadis ini menyatakan hukum udhiyyah bagi yang mampu melakukannya. Menyajikan udhiyyah sebagai praktik ritual yang ditekankan dengan makna hukum normatif dalam ibadah.",
-          "ru": "Этот хадис устанавливает правило жертвоприношения для того, кто имеет возможность его совершить. Он представляет удхийю как подчеркнутую ритуальную практику с нормативно-правовым значением в поклонении.",
-          "tr": "Bu hadis, udhiyyah kurbanının, imkanı olan kişi üzerinde farz olduğunu belirtir. Udhiyyah'yı ibadette normatif hukuki öneme sahip vurgulanmış bir ritüel uygulama olarak sunar.",
-          "ur": "یہ حدیث قربانی کے حکم کو بیان کرتی ہے جو اس پر واجب ہے جو اس کی استطاعت رکھتا ہو۔ یہ اُضحیٰ کو عبادت میں ایک اہم اور شرعی حیثیت رکھنے والے عمل کے طور پر پیش کرتی ہے۔",
-          "zh": "此圣训阐明有能力者行献祭的规定，将犧牲视为崇拜中具有规范法律意义的重要仪式行为。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

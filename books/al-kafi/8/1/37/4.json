@@ -15,6 +15,128 @@
       "up": "/books/al-kafi:8:1:37"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "جَعْفَرٌ عَنْ عَنْبَسَةَ عَنْ جَابِرٍ عَنْ أَبِي جَعْفَرٍ (عَلَيْهِ السَّلَامُ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 11,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "إِنَّ اللَّهَ عَزَّ ذِكْرُهُ إِذَا أَرَادَ فَنَاءَ دَوْلَةِ قَوْمٍ أَمَرَ الْفَلَكَ فَأَسْرَعَ السَّيْرَ فَكَانَتْ عَلَى مِقْدَارِ مَا يُرِيدُ.",
+            "chunk_type": "body",
+            "word_end": 29,
+            "word_start": 11
+          }
+        ],
+        "content_type": "theological",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "جَعْفَرٌ",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 550,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَنْبَسَةَ",
+              "name_en": "Anbasah",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 72,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "جَابِرٍ",
+              "name_en": "Jabir",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 9,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي جَعْفَرٍ (عليه السلام)",
+              "name_en": "Abu Ja'far",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "فَنَاءَ",
+          "دَوْلَةِ",
+          "الْفَلَكَ",
+          "عَزَّ ذِكْرُهُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:181",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "15:17",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "79:29",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "36:38",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "theology",
+          "afterlife",
+          "quran_commentary"
+        ],
+        "topics": [
+          "divine_decree",
+          "divine_attributes",
+          "signs_of_end"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 21)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -23,10 +145,6 @@
       "local_index": 4,
       "narrator_chain": {
         "parts": [
-          {
-            "kind": "plain",
-            "text": "14605- "
-          },
           {
             "kind": "narrator",
             "path": "/people/narrators/669",
@@ -82,7 +200,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:37:4",

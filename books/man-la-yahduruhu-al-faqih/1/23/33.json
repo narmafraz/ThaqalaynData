@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ الصَّادِقُ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল-সাদিক عليه السلام বলেছেন:",
-              "de": "Al-Sadiq عليه السلام sagte:",
-              "en": "Al-Sadiq عليه السلام said:",
-              "es": "Al-Sadiq عليه السلام dijo:",
-              "fa": "امام الصادق علیه السلام فرمود:",
-              "fr": "Al-Sadiq عليه السلام a dit :",
-              "id": "Al-Sadiq علیه السلام berkata:",
-              "ru": "Аль-Садик عليه السلام сказал:",
-              "tr": "El-Sadık علیه السلام şöyle dedi:",
-              "ur": "اَلصَّادِق علیہ السلام نے فرمایا:",
-              "zh": "اَلصَّادِقعليهالسلام说："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "«السُّنَّةُ فِي النُّورَةِ فِي كُلِّ خَمْسَةَ عَشَرَ يَوْمًا فَإِنْ أَتَتْ عَلَيْكَ عِشْرُونَ يَوْمًا وَلَيْسَ عِنْدَكَ فَاسْتَقْرِضْ عَلَى اللَّهِ عَزَّ وَجَلَّ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "«নূরাহ সম্পর্কে সুন্নাহ প্রতি পনেরো দিনে একবার। যদি বিশ দিন পার হয়ে যায় এবং তোমার কাছে না থাকে, তবে আল্লাহ্‌র জন্য ঋণ নাও।»",
-              "de": "«Die Sunnah bezüglich der Nūrah ist alle fünfzehn Tage einmal. Wenn zwanzig Tage vergehen und du sie nicht hast, dann leihe auf Allah, den Mächtigen und Erhabenen.»",
-              "en": "\"The sunnah (prophetic tradition) regarding nūrah is once every fifteen days. If twenty days come upon you and you do not have it, then borrow upon Allah, Mighty and Majestic.\"",
-              "es": "«La sunnah respecto a la nūrah es cada quince días. Si pasan veinte días y no la tienes, entonces pide prestado por Allah, el Poderoso y Majestuoso.»",
-              "fa": "«سنت در مورد نوره هر پانزده روز یک بار است. اگر بیست روز بر تو گذشت و نوره نداشتی، پس به خاطر خداوند عزوجل قرض بگیر.»",
-              "fr": "«La sunnah concernant la nūrah est une fois tous les quinze jours. Si vingt jours passent et que tu ne l'as pas, alors emprunte pour Allah, le Tout-Puissant et Majestueux.»",
-              "id": "«Sunnah mengenai nūrah adalah sekali setiap lima belas hari. Jika dua puluh hari berlalu dan kamu tidak memilikinya, maka pinjamlah demi Allah Yang Maha Perkasa dan Maha Agung.»",
-              "ru": "«Сунна относительно нуры — раз в пятнадцать дней. Если пройдет двадцать дней, а у тебя её нет, тогда займи ради Аллаха, Всемогущего и Великого.»",
-              "tr": "«Nūrah ile ilgili sünnet her on beş günde birdir. Eğer yirmi gün geçerse ve sende yoksa, Allah Azze ve Celle için borç al.»",
-              "ur": "«نُورَہ کے بارے میں سنت ہر پندرہ دن میں ایک بار ہے۔ اگر بیس دن گزر جائیں اور تمہارے پاس نہ ہو تو اللہ عزوجل کے لیے قرض لے لو۔»",
-              "zh": "«关于نُورَة的圣行是每十五天一次。如果二十天过去你还没有，那么为了真主全能至大而借贷。»"
-            },
             "word_end": 24,
             "word_start": 4
           }
@@ -82,26 +69,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "السُّنَّةُ": "the normative prophetic tradition or recommended practice",
-            "اللَّهِ عَزَّ وَجَلَّ": "Allah, Mighty and Majestic",
-            "النُّورَةِ": "depilatory paste used for removing body hair",
-            "خَمْسَةَ عَشَرَ يَوْمًا": "a period of fifteen days, the recommended interval mentioned here",
-            "عِشْرُونَ يَوْمًا": "a period of twenty days, after which delay is discouraged",
-            "فَاسْتَقْرِضْ": "borrow, meaning to seek a loan if necessary"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "السُّنَّةُ",
+          "النُّورَةِ",
+          "خَمْسَةَ عَشَرَ يَوْمًا",
+          "عِشْرُونَ يَوْمًا",
+          "فَاسْتَقْرِضْ",
+          "اللَّهِ عَزَّ وَجَلَّ"
+        ],
         "related_quran": [
           {
             "ref": "2:195",
@@ -112,32 +87,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام অনুযায়ী নূরাহ ব্যবহারের সুন্নাহ ব্যবধান কত?",
-          "de": "Wie lautet das Sunnah-Intervall für die Verwendung von Nūrah gemäß Imam al-Sadiq عليه السلام?",
-          "en": "What is the sunnah (prophetic tradition) interval for using nūrah according to Imam al-Sadiq عليه السلام?",
-          "es": "¿Cuál es el intervalo de la sunnah (tradición profética) para usar la nūrah según el Imam al-Sadiq عليه السلام?",
-          "fa": "طبق نظر امام الصادق علیه السلام، فاصله سنتی استفاده از نوره چقدر است؟",
-          "fr": "Quel est l’intervalle de la sunnah (tradition prophétique) pour l’utilisation de la nūrah selon l’Imam al-Sadiq عليه السلام ?",
-          "id": "Berapa interval sunnah (tradisi nabi) untuk menggunakan nūrah menurut Imam al-Sadiq علیه السلام?",
-          "ru": "Каков суннитский (пророческий) интервал использования нуры согласно Имаму аль-Садику عليه السلام?",
-          "tr": "İmam el-Sadık علیه السلام’a göre nūrah kullanımı için sünnet aralığı nedir?",
-          "ur": "امام الصادق علیہ السلام کے مطابق نُورَہ کے استعمال کا سنتی وقفہ کیا ہے؟",
-          "zh": "根据伊玛目الصادقعليهالسلام，使用نُورَة的圣行间隔是多少？"
-        },
-        "summaries": {
-          "bn": "ইমাম আল-সাদিক عليه السلام নূরাহ ব্যবহারের নিয়মিত সুন্নাহ ব্যাখ্যা করেছেন, যা পনেরো দিনের ব্যবধান নির্ধারণ করে। তিনি ব্যক্তিগত পরিচ্ছন্নতা ও পরিচর্যার ওপর গুরুত্বারোপ করে বলেছেন, যদি বিশ দিন পার হয়ে যায় এবং উপায় না থাকে, তবে আল্লাহ্‌র জন্য ঋণ নিতে হবে।",
-          "de": "Imam al-Sadiq عليه السلام legt die Sunnah (prophetische Tradition) bezüglich der regelmäßigen Verwendung von Nūrah fest und setzt fünfzehn Tage als normativen Abstand. Er betont zudem persönliche Sauberkeit und Pflege und weist an, dass man, wenn zwanzig Tage vergehen und man sie nicht hat, sogar für Allah عز وجل leihen soll.",
-          "en": "Imam al-Sadiq عليه السلام states the sunnah (prophetic tradition) concerning the regular use of nūrah, setting fifteen days as the normative interval. He further emphasizes personal cleanliness and grooming by instructing that if twenty days pass and one lacks the means, one should even borrow for the sake of Allah عز وجل.",
-          "es": "El Imam al-Sadiq عليه السلام establece la sunnah (tradición profética) sobre el uso regular de la nūrah, fijando quince días como intervalo normativo. Además, enfatiza la limpieza personal y el aseo, instruyendo que si pasan veinte días y no se tiene, se debe incluso pedir prestado por el bien de Allah عز وجل.",
-          "fa": "امام الصادق علیه السلام سنت مربوط به استفاده منظم از نوره را بیان می‌کند که پانزده روز به عنوان فاصله معمول تعیین شده است. ایشان همچنین بر پاکیزگی و آراستگی شخصی تأکید کرده و دستور می‌دهند اگر بیست روز گذشت و امکانات نبود، باید به خاطر خداوند عزوجل قرض گرفت.",
-          "fr": "L’Imam al-Sadiq عليه السلام énonce la sunnah (tradition prophétique) concernant l’usage régulier de la nūrah, fixant quinze jours comme intervalle normatif. Il insiste également sur la propreté et le soin personnels en indiquant que si vingt jours passent et que l’on ne l’a pas, il faut même emprunter pour Allah عز وجل.",
-          "id": "Imam al-Sadiq علیه السلام menyatakan sunnah (tradisi nabi) mengenai penggunaan nūrah secara teratur, menetapkan lima belas hari sebagai interval normatif. Beliau juga menekankan kebersihan dan perawatan pribadi dengan menginstruksikan bahwa jika dua puluh hari berlalu dan tidak memiliki sarana, maka harus meminjam demi Allah عز وجل.",
-          "ru": "Имам аль-Садик عليه السلام устанавливает сунну (пророческую традицию) относительно регулярного использования нуры, устанавливая пятнадцатидневный нормативный интервал. Он также подчеркивает личную чистоту и уход, наставляя, что если прошло двадцать дней и у человека нет средств, следует даже занять ради Аллаха عز وجل.",
-          "tr": "İmam el-Sadık علیه السلام, nūrahın düzenli kullanımıyla ilgili sünneti, on beş günlük normatif aralık olarak belirtir. Ayrıca kişisel temizlik ve bakımın önemini vurgulayarak, yirmi gün geçerse ve imkân yoksa Allah Azze ve Celle için borç alınmasını öğütler.",
-          "ur": "امام الصادق علیہ السلام نُورَہ کے باقاعدہ استعمال کے بارے میں سنت بیان فرماتے ہیں، جو پندرہ دن کا وقفہ مقرر کرتی ہے۔ وہ ذاتی صفائی اور آراستگی پر بھی زور دیتے ہیں اور ہدایت دیتے ہیں کہ اگر بیس دن گزر جائیں اور وسائل نہ ہوں تو اللہ عزوجل کے لیے قرض لے لینا چاہیے۔",
-          "zh": "伊玛目الصادقعليهالسلام阐述了关于نُورَة定期使用的圣行，规定十五天为规范间隔。他还强调个人清洁和修饰，指示如果二十天过去仍无资源，应为真主عزوجل而借贷。"
-        },
         "tags": [
           "jurisprudence",
           "ethics",

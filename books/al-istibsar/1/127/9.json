@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ مُحَمَّدِ بْنِ زِيَادٍ عَنْ عَبْدِ اللَّهِ بْنِ سِنَانٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, মুহাম্মদ ইবন জিয়াদ থেকে, আবদুল্লাহ ইবন সিনান থেকে, আবু আবদুল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Von ihm, von Muhammad ibn Ziyad, von Abdullah ibn Sinan, von Abu Abd Allah عليه السلام, der sagte:",
-              "en": "From him, from Muḥammad ibn Ziyād, from ʿAbd Allāh ibn Sinān, from Abū ʿAbd Allāh عليه السلام, who said:",
-              "es": "De él, de Muhammad ibn Ziyad, de Abdullah ibn Sinan, de Abu Abd Allah عليه السلام, quien dijo:",
-              "fa": "از او، از محمد بن زیاد، از عبدالله بن سنان، از ابوعبدالله علیه السلام، که فرمود:",
-              "fr": "De lui, de Muhammad ibn Ziyad, de Abdullah ibn Sinan, d'Abu Abd Allah عليه السلام, qui a dit :",
-              "id": "Darinya, dari Muhammad ibn Ziyad, dari Abdullah ibn Sinan, dari Abu Abdillah عليه السلام, beliau bersabda:",
-              "ru": "От него, от Мухаммада ибн Зияда, от Абдуллаха ибн Синана, от Абу Абдуллаха عليه السلام, который сказал:",
-              "tr": "Ondan, Muhammed ibn Ziyad’dan, Abdullah ibn Sinan’dan, Ebu Abdullah عليه السلام’dan, şöyle dedi:",
-              "ur": "ان سے، محمد بن زیاد سے، عبد اللہ بن سنان سے، ابو عبد اللہ علیہ السلام سے، انہوں نے فرمایا:",
-              "zh": "由他传自穆罕默德·伊本·齐亚德，传自阿卜杜拉·伊本·西南，传自阿布·阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 17,
             "word_start": 0
           },
           {
             "arabic_text": "وَقْتُ الْمَغْرِبِ مِنْ حِينٍ تَغِيبُ الشَّمْسُ إِلَى أَنْ تَشْتَبِكَ النُّجُومُ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "মাগরিবের সময় হলো সূর্য অস্ত যাওয়া থেকে শুরু করে তারাগুলো পরস্পর মিশে যাওয়া পর্যন্ত।",
-              "de": "Die Zeit des Maghrib beginnt, wenn die Sonne untergeht, und dauert an, bis die Sterne sich miteinander vermischen.",
-              "en": "The time of Maghrib is from when the sun sets until the stars become intermingled.",
-              "es": "El tiempo del Maghrib es desde que se pone el sol hasta que las estrellas se entremezclan.",
-              "fa": "وقت مغرب از هنگامی است که خورشید غروب می‌کند تا زمانی که ستارگان در هم آمیخته شوند.",
-              "fr": "Le temps du Maghrib va du coucher du soleil jusqu'à ce que les étoiles se mêlent les unes aux autres.",
-              "id": "Waktu Maghrib adalah sejak matahari terbenam hingga bintang-bintang saling bercampur.",
-              "ru": "Время магриба — с момента захода солнца до тех пор, пока звезды не смешаются друг с другом.",
-              "tr": "Mağrib vakti, güneşin batmasından yıldızların birbirine karışmasına kadar olan zamandır.",
-              "ur": "مغرب کا وقت اس وقت سے ہے جب سورج غروب ہو جائے یہاں تک کہ ستارے باہم مل جل جائیں۔",
-              "zh": "昏礼的时间是从太阳落下直到群星交错混杂的时候。"
-            },
             "word_end": 27,
             "word_start": 17
           }
@@ -104,26 +91,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الشَّمْسُ": "the sun",
-            "النُّجُومُ": "the stars",
-            "الْمَغْرِبِ": "the Maghrib prayer, performed after sunset",
-            "تَشْتَبِكَ": "become intermingled or densely spread",
-            "تَغِيبُ": "sets or disappears, referring here to the sun",
-            "وَقْتُ": "the prescribed time or period for an act of worship"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "وَقْتُ",
+          "الْمَغْرِبِ",
+          "تَغِيبُ",
+          "الشَّمْسُ",
+          "تَشْتَبِكَ",
+          "النُّجُومُ"
+        ],
         "related_quran": [
           {
             "ref": "17:78",
@@ -138,32 +113,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী মাগরিব নামাজের সময় কখন?",
-          "de": "Wie ist nach diesem Hadith die Zeit des salat al-Maghrib?",
-          "en": "What is the time of Maghrib prayer according to this hadith?",
-          "es": "Según este hadiz, ¿cuál es el tiempo del salat al-Maghrib?",
-          "fa": "بر اساس این حدیث، وقت نماز مغرب چیست؟",
-          "fr": "Selon ce hadith, quel est le temps du salat al-Maghrib ?",
-          "id": "Menurut hadis ini, kapan waktu salat Maghrib?",
-          "ru": "Каково время салят аль-Магриб согласно этому хадису?",
-          "tr": "Bu hadise göre Mağrib namazının vakti nedir?",
-          "ur": "اس حدیث کے مطابق مغرب کی نماز کا وقت کیا ہے؟",
-          "zh": "根据这段圣训，昏礼salat的时间是什么时候？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে মাগরিব নামাজের সময়কে সূর্যাস্ত থেকে শুরু হয়ে আকাশে তারাগুলো ঘনভাবে দৃশ্যমান ও পরস্পর মিশে যাওয়া পর্যন্ত নির্ধারণ করা হয়েছে। এটি salat al-Maghrib আদায়ের বৈধ সময় নির্ধারণে একটি ফিকহি নির্দেশনা হিসেবে কাজ করে।",
-          "de": "Dieser Hadith definiert die Zeit des salat al-Maghrib als den Zeitraum vom Sonnenuntergang bis zu dem Moment, in dem die Sterne deutlich sichtbar werden und sich am Himmel vermischen. Er dient als fiqhische Richtlinie zur Bestimmung des gültigen Zeitraums für das Verrichten von salat al-Maghrib.",
-          "en": "This hadith defines the time of Maghrib prayer as beginning at sunset and lasting until the stars become densely visible and intermingled in the sky. It serves as a jurisprudential guideline for determining the valid period of performing salat al-Maghrib.",
-          "es": "Este hadiz define el tiempo del salat al-Maghrib como el que comienza al ponerse el sol y dura hasta que las estrellas se vuelven densamente visibles y se entremezclan en el cielo. Sirve como guía jurisprudencial para determinar el período válido para realizar el salat al-Maghrib.",
-          "fa": "این حدیث وقت نماز مغرب را از غروب خورشید تا زمانی که ستارگان به‌روشنی پدیدار و در هم آمیخته شوند، تعیین می‌کند و به‌عنوان راهنمای فقهی برای تعیین زمان صحیح انجام salat al-Maghrib است.",
-          "fr": "Ce hadith définit le temps du salat al-Maghrib comme commençant au coucher du soleil et se prolongeant jusqu'à ce que les étoiles deviennent nettement visibles et se mêlent dans le ciel. Il sert de repère juridique pour déterminer la période valable d'accomplissement du salat al-Maghrib.",
-          "id": "Hadis ini menjelaskan waktu salat Maghrib sebagai dimulai saat matahari terbenam dan berlangsung hingga bintang-bintang tampak jelas dan saling bercampur di langit. Ini menjadi pedoman fikih untuk menentukan masa sah pelaksanaan salat al-Maghrib.",
-          "ru": "Этот хадис определяет время салят аль-Магриб как период от захода солнца до того момента, когда звезды становятся отчетливо видимыми и смешиваются на небе. Он служит фикхическим ориентиром для определения допустимого времени совершения салят аль-Магриб.",
-          "tr": "Bu hadis, Mağrib namazının vaktini güneşin batmasından başlayıp yıldızların belirginleşip birbirine karışmasına kadar olarak tanımlar ve salat al-Mağribin geçerli vakti için fıkhî bir ölçü sunar.",
-          "ur": "یہ حدیث مغرب کی نماز کے وقت کو سورج غروب ہونے سے لے کر ستاروں کے نمایاں ہو کر باہم مل جانے تک بیان کرتی ہے، اور یہ مغرب کی نماز کے صحیح وقت کے تعین کے لیے فقہی رہنمائی فراہم کرتی ہے۔",
-          "zh": "这段圣训将昏礼salat的时间界定为从太阳落山开始，直到群星变得密集可见并在天空中交错混杂为止。它作为确定昏礼salat有效时间段的教法依据。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

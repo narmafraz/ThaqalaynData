@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ الْحَكَمِ عَنْ عَلِيِّ بْنِ أَبِي حَمْزَةَ عَنْ أَبِي بَصِيرٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন মুহাম্মদ, আলী ইবন আল-হাকাম থেকে, আলী ইবন আবি হামযা থেকে, আবু বাসীর থেকে, আবু আবদিল্লাহ عليه السلام থেকে, যিনি বলেছেন:",
-              "de": "Aḥmad ibn Muḥammad, von ʿAlī ibn al-Ḥakam, von ʿAlī ibn Abī Ḥamzah, von Abī Baṣīr, von Abī ʿAbdillāh عليه السلام, der sagte:",
-              "en": "Aḥmad ibn Muḥammad, from ʿAlī ibn al-Ḥakam, from ʿAlī ibn Abī Ḥamzah, from Abī Baṣīr, from Abī ʿAbdillāh عليه السلام, who said:",
-              "es": "Aḥmad ibn Muḥammad, de ʿAlī ibn al-Ḥakam, de ʿAlī ibn Abī Ḥamzah, de Abī Baṣīr, de Abī ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "احمد بن محمد، از علی بن الحکم، از علی بن ابی حمزه، از ابوبصیر، از ابی عبدالله علیه السلام، که فرمود:",
-              "fr": "Aḥmad ibn Muḥammad, d’après ʿAlī ibn al-Ḥakam, d’après ʿAlī ibn Abī Ḥamzah, d’après Abī Baṣīr, d’après Abī ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Aḥmad ibn Muḥammad, dari ʿAlī ibn al-Ḥakam, dari ʿAlī ibn Abī Ḥamzah, dari Abī Baṣīr, dari Abī ʿAbdillāh عليه السلام, yang berkata:",
-              "ru": "Ахмад ибн Мухаммад, от ʿАли ибн аль-Хакама, от ʿАли ибн Аби Хамзы, от Аби Басира, от Аби ʿАбдуллаха عليه السلام, который сказал:",
-              "tr": "Ahmed ibn Muhammed, Ali ibn el-Hakam’dan, Ali ibn Ebi Hamza’dan, Ebu Basir’den, Ebu Abdullah عليه السلام’dan rivayet etti ki şöyle dedi:",
-              "ur": "احمد بن محمد، علی بن الحکم سے، علی بن ابی حمزہ سے، ابو بصیر سے، ابو عبداللہ علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "艾哈迈德·伊本·穆罕默德，传自阿里·伊本·阿勒-哈卡姆，传自阿里·伊本·阿比·哈姆扎，传自阿比·巴西尔，传自阿比·阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 22,
             "word_start": 0
           },
           {
             "arabic_text": "لَا يَجِبُ الرَّجْمُ حَتَّى تَقُومَ الْبَيِّنَةُ أَرْبَعَةُ شُهُودٍ أَنَّهُمْ قَدْ رَأَوْهُ يُجَامِعُهَا.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "চারজন সাক্ষীর মাধ্যমে প্রমাণ প্রতিষ্ঠিত না হওয়া পর্যন্ত রজম ওয়াজিব হয় না—অর্থাৎ তারা সত্যিই তাকে তার সঙ্গে সহবাস করতে দেখেছে।",
-              "de": "Die Steinigung wird nicht verpflichtend, bis der Beweis durch vier Zeugen erbracht ist, dass sie ihn tatsächlich beim Geschlechtsverkehr mit ihr gesehen haben.",
-              "en": "Stoning does not become obligatory until the proof is established by four witnesses that they have indeed seen him having intercourse with her.",
-              "es": "La lapidación no se vuelve obligatoria hasta que la prueba quede establecida por cuatro testigos de que realmente lo vieron teniendo relaciones con ella.",
-              "fa": "رجم واجب نمی‌شود تا زمانی که با چهار شاهد، بینه قائم شود که آنان واقعاً او را در حال جماع با او دیده‌اند.",
-              "fr": "La lapidation ne devient pas obligatoire tant que la preuve n’est pas établie par quatre témoins attestant qu’ils l’ont effectivement vu avoir des rapports avec elle.",
-              "id": "Rajam tidak menjadi wajib sampai bukti ditegakkan oleh empat orang saksi bahwa mereka benar-benar telah melihatnya berhubungan intim dengannya.",
-              "ru": "Побивание камнями не становится обязательным, пока доказательство не будет установлено четырьмя свидетелями, что они действительно видели, как он совершал с ней половое сношение.",
-              "tr": "Dört şahit tarafından onun gerçekten onunla cinsel ilişkide bulunduğunu gördüklerine dair delil sabit olmadıkça recm vacip olmaz.",
-              "ur": "رجم اس وقت تک واجب نہیں ہوتا جب تک چار گواہوں کے ذریعے دلیل قائم نہ ہو جائے کہ انہوں نے واقعی اسے اس کے ساتھ جماع کرتے ہوئے دیکھا تھا۔",
-              "zh": "直到由四名证人确立证据，证明他们确实看见他与她交合，石刑才成为义务。"
-            },
             "word_end": 34,
             "word_start": 22
           }
@@ -114,25 +101,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَرْبَعَةُ": "the number four, indicating the required count of witnesses",
-            "الرَّجْمُ": "the legal punishment of stoning",
-            "الْبَيِّنَةُ": "the legally valid proof or evidentiary establishment",
-            "شُهُودٍ": "witnesses who testify to the act",
-            "يُجَامِعُهَا": "having sexual intercourse with her"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الرَّجْمُ",
+          "الْبَيِّنَةُ",
+          "أَرْبَعَةُ",
+          "شُهُودٍ",
+          "يُجَامِعُهَا"
+        ],
         "related_quran": [
           {
             "ref": "24:4",
@@ -143,32 +118,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী জিনার মামলায় রজম কখন শরিয়তগতভাবে প্রতিষ্ঠিত হয়?",
-          "de": "Wann wird die Steinigung gemäß diesem Hadith in einem Zina-Fall rechtlich festgestellt?",
-          "en": "When does stoning become legally established in a zina case according to this hadith?",
-          "es": "Según este hadiz, ¿cuándo queda establecido legalmente el rajm en un caso de zina?",
-          "fa": "بر اساس این حدیث، رجم در پرونده زنا چه زمانی به‌طور شرعی ثابت می‌شود؟",
-          "fr": "Selon ce hadith, quand la lapidation devient-elle légalement établie dans une affaire de zina ?",
-          "id": "Menurut hadis ini, kapan rajam menjadi sah secara hukum dalam kasus zina?",
-          "ru": "Согласно этому хадису, когда побивание камнями становится юридически установленным в деле о зина?",
-          "tr": "Bu hadise göre zina davasında recm ne zaman şerʿî olarak sabit olur?",
-          "ur": "اس حدیث کے مطابق زنا کے مقدمے میں رجم کب شرعاً ثابت ہوتا ہے؟",
-          "zh": "根据这段圣训，通奸案件中的石刑何时在教法上成立？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে বলা হয়েছে যে, জিনার ক্ষেত্রে রজমের হদ তখনই কার্যকর হবে যখন চারজন সাক্ষীর মাধ্যমে প্রয়োজনীয় প্রমাণ প্রতিষ্ঠিত হবে।",
-          "de": "Dieser Hadith legt fest, dass das Hadd der Steinigung nicht vollstreckt werden darf, solange der erforderliche Beweis nicht durch vier Zeugen erbracht ist.",
-          "en": "This hadith states a legal ruling that the hadd of rajm is not to be carried out unless the required proof is established through four witnesses. It emphasizes the strict evidentiary standard in cases of zina and the seriousness of judicial procedure in Islamic law.",
-          "es": "Este hadiz establece que el hadd de rajm no debe aplicarse salvo que la prueba requerida quede establecida mediante cuatro testigos.",
-          "fa": "این حدیث بیان می‌کند که حدّ رجم در پرونده زنا تنها زمانی اجرا می‌شود که با شهادت چهار شاهد، بینه لازم ثابت گردد.",
-          "fr": "Ce hadith énonce que le hadd de rajm ne doit pas être appliqué tant que la preuve requise n’est pas établie par quatre témoins.",
-          "id": "Hadis ini menyatakan bahwa hadd rajam tidak dilaksanakan kecuali jika bukti yang diperlukan ditegakkan melalui empat saksi, dan menegaskan standar pembuktian yang ketat dalam kasus zina.",
-          "ru": "Этот хадис устанавливает правовое постановление: хадд побивания камнями не применяется, пока необходимое доказательство не будет установлено четырьмя свидетелями.",
-          "tr": "Bu hadis, zina davasında recmin ancak dört şahidin gerekli delili ortaya koymasıyla uygulanacağını ve ispat standardının çok sıkı olduğunu بیان eder.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ زنا کے مقدمے میں رجم صرف اس وقت واجب ہوتا ہے جب چار گواہوں کی شہادت سے لازم ثبوت قائم ہو جائے۔",
-          "zh": "这段圣训说明，只有在四名证人确立所需证据之后，才可执行石刑的教法刑罚。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

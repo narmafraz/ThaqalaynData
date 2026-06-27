@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং আল্লাহর রাসূল, তাঁর উপর শান্তি ও তাঁর পরিবারদের উপর বরকত বর্ষিত হোক, বললেন:",
-              "de": "Und der Gesandte Allahs, Friede sei mit ihm und seiner Familie, sagte:",
-              "en": "And the Messenger of Allah, peace be upon him and his family, said:",
-              "es": "Y el Mensajero de Allah, la paz sea con él y su familia, dijo:",
-              "fa": "و رسول خدا صلی الله علیه و آله فرمود:",
-              "fr": "Et le Messager d'Allah, que la paix soit sur lui et sa famille, a dit :",
-              "id": "Dan Rasulullah, shalallahu 'alaihi wa aalihi, bersabda:",
-              "ru": "И Посланник Аллаха, мир ему и его семье, сказал:",
-              "tr": "Ve Allah'ın Resulü, ona ve ailesine selam olsun, şöyle buyurdu:",
-              "ur": "اور رسول اللہ صلی اللہ علیہ وآلہ وسلم نے فرمایا:",
-              "zh": "安拉使者愿他及其家人平安说道："
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "لَوْ دُعِيتُ إِلَى كُرَاعٍ لَأَجَبْتُ وَ لَوْ أُهْدِيَ إِلَيَّ كُرَاعٌ لَقَبِلْتُ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি আমাকে একটি গরুর পা খেতে আমন্ত্রণ জানানো হয়, আমি তা গ্রহণ করব, এবং যদি আমাকে গরুর পা উপহার দেওয়া হয়, আমি তা গ্রহণ করব।",
-              "de": "Wenn ich zu einem Rinderhuf eingeladen würde, würde ich annehmen, und wenn mir ein Rinderhuf geschenkt würde, würde ich ihn annehmen.",
-              "en": "If I were invited to a trotter, I would accept, and if a trotter were gifted to me, I would accept it.",
-              "es": "Si me invitaran a un trote, lo aceptaría, y si me regalaran un trote, también lo aceptaría.",
-              "fa": "اگر به من دعوت به خوردن پای گاو داده شود، قبول می‌کنم و اگر پای گاو به من هدیه شود، آن را می‌پذیرم.",
-              "fr": "Si j'étais invité à un trotteur, j'accepterais, et si un trotteur m'était offert, je l'accepterais.",
-              "id": "Jika aku diundang untuk makan kaki hewan (trotter), aku akan menerimanya, dan jika kaki hewan itu diberikan sebagai hadiah kepadaku, aku akan menerimanya.",
-              "ru": "Если бы меня пригласили на рогатку, я бы принял, и если бы мне подарили рогатку, я бы её принял.",
-              "tr": "Eğer bana bir toynak (trotter) davet edilse kabul ederim, ve eğer bana bir toynak hediye edilse onu da kabul ederim.",
-              "ur": "اگر مجھے کسی ٹرٹر (گائے کے پیر) پر دعوت دی جائے تو میں قبول کروں گا، اور اگر مجھے ٹرٹر بطور تحفہ دیا جائے تو میں اسے قبول کر لوں گا۔",
-              "zh": "如果有人邀请我吃牛蹄，我会接受，如果有人送我牛蹄作为礼物，我也会接受。"
-            },
             "word_end": 20,
             "word_start": 9
           }
@@ -75,25 +62,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أُهْدِيَ": "was given as a gift",
-            "دُعِيتُ": "I was invited; being asked to attend or partake",
-            "كُرَاعٍ": "a trotter; a very modest portion of food",
-            "لَأَجَبْتُ": "I would surely respond; I would accept the invitation",
-            "لَقَبِلْتُ": "I would surely accept"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "دُعِيتُ",
+          "كُرَاعٍ",
+          "لَأَجَبْتُ",
+          "أُهْدِيَ",
+          "لَقَبِلْتُ"
+        ],
         "related_quran": [
           {
             "ref": "4:86",
@@ -104,32 +79,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস সাধারণ উপহার ও আমন্ত্রণ গ্রহণ সম্পর্কে কী শিক্ষা দেয়?",
-          "de": "Was lehrt dieser Hadith über das Annehmen einfacher Geschenke und Einladungen?",
-          "en": "What does this hadith teach about accepting simple gifts and invitations?",
-          "es": "¿Qué enseña este hadiz sobre aceptar regalos e invitaciones simples?",
-          "fa": "این حدیث درباره پذیرش هدایای ساده و دعوت‌ها چه می‌آموزد؟",
-          "fr": "Que nous enseigne ce hadith sur l'acceptation des cadeaux et invitations simples ?",
-          "id": "Apa yang diajarkan hadis ini tentang menerima hadiah dan undangan sederhana?",
-          "ru": "Что этот хадис учит о принятии простых подарков и приглашений?",
-          "tr": "Bu hadis basit hediyeleri ve davetleri kabul etmek hakkında ne öğretir?",
-          "ur": "یہ حدیث سادہ تحائف اور دعوتوں کو قبول کرنے کے بارے میں کیا سکھاتی ہے؟",
-          "zh": "这段圣训教导我们如何接受简单的礼物和邀请？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস নম্রতা, সৌজন্যতা এবং সাধারণ আতিথেয়তা বা সাধারণ উপহার বিনা অবজ্ঞায় গ্রহণের فضیلت শেখায়। এটি রাসূলুল্লাহ صلی اللہ علیہ وآلہ وسلم এর মহান চরিত্র এবং উদারতা ও গ্রহণযোগ্যতার মাধ্যমে সামাজিক বন্ধন সম্মান করার সুন্নাহ প্রতিফলিত করে।",
-          "de": "Dieser Hadith lehrt die Tugend der Demut, Höflichkeit und das Annehmen einfacher Gastfreundschaft oder bescheidener Geschenke ohne Verachtung. Er spiegelt den edlen Charakter und die Sunnah des Gesandten Allahs صلى الله عليه وآله wider, soziale Bindungen durch Großzügigkeit und Annahme zu ehren.",
-          "en": "This hadith teaches the virtue of humility, graciousness, and accepting simple hospitality or modest gifts without disdain. It reflects the noble character and sunnah of the Messenger of Allah صلى الله عليه وآله in honoring social bonds through generosity and acceptance.",
-          "es": "Este hadiz enseña la virtud de la humildad, la cortesía y aceptar la hospitalidad sencilla o regalos modestos sin desprecio. Refleja el noble carácter y la sunnah del Mensajero de Allah صلى الله عليه وآله en honrar los lazos sociales mediante la generosidad y la aceptación.",
-          "fa": "این حدیث فضیلت تواضع، خوش‌رفتاری و پذیرش مهمان‌نوازی ساده یا هدایای متواضعانه بدون تحقیر را آموزش می‌دهد. این نشان‌دهنده شخصیت شریف و سنت رسول خدا صلی الله علیه وآله در گرامیداشت پیوندهای اجتماعی از طریق سخاوت و پذیرش است.",
-          "fr": "Ce hadith enseigne la vertu de l'humilité, de la courtoisie et d'accepter une hospitalité simple ou des cadeaux modestes sans mépris. Il reflète le noble caractère et la sunnah du Messager d'Allah صلى الله عليه وآله dans l'honneur des liens sociaux par la générosité et l'acceptation.",
-          "id": "Hadis ini mengajarkan keutamaan kerendahan hati, keramahan, dan menerima keramahan sederhana atau hadiah sederhana tanpa meremehkan. Ini mencerminkan akhlak mulia dan sunnah Rasulullah صلى الله عليه وآله dalam menghormati ikatan sosial melalui kemurahan hati dan penerimaan.",
-          "ru": "Этот хадис учит добродетели смирения, вежливости и принятию простой гостеприимности или скромных подарков без презрения. Он отражает благородный характер и сунну Посланника Аллаха صلى الله عليه وآله в почитании социальных связей через щедрость и принятие.",
-          "tr": "Bu hadis tevazu, nezaket ve basit misafirperverlik ya da mütevazı hediyeleri küçümsemeden kabul etmenin faziletini öğretir. Bu, Allah'ın Resulü'nün (s.a.v) yüce karakterini ve cömertlik ve kabulle sosyal bağları onurlandıran sünnetini yansıtır.",
-          "ur": "یہ حدیث عاجزی، خوش اخلاقی، اور سادہ مہمان نوازی یا معمولی تحائف کو بغیر حقارت کے قبول کرنے کی فضیلت سکھاتی ہے۔ یہ رسول اللہ صلی اللہ علیہ وآلہ وسلم کے اعلیٰ کردار اور سوشل تعلقات میں سخاوت اور قبولیت کے سنّت کی عکاسی کرتی ہے۔",
-          "zh": "这段圣训教导谦逊、礼貌以及无轻视地接受简单的款待或朴素的礼物的美德。它反映了安拉使者 صلى الله عليه وآله 通过慷慨和接受来尊重社会纽带的高尚品格和圣行。"
-        },
         "tags": [
           "ethics",
           "social_relations",

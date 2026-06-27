@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ الصَّادِقُ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং আল-সাদিক, আলাইহিস সালাম, বললেন:",
-              "de": "Und al-Sadiq, Friede sei mit ihm, sagte:",
-              "en": "And al-Sadiq, peace be upon him, said:",
-              "es": "Y al-Sadiq, la paz sea con él, dijo:",
-              "fa": "و امام صادق علیه السلام فرمود:",
-              "fr": "Et al-Sadiq, que la paix soit sur lui, a dit :",
-              "id": "Dan al-Sadiq, semoga keselamatan atasnya, berkata:",
-              "ru": "И аль-Садик, мир ему, сказал:",
-              "tr": "Ve el-Sadık, aleyhisselam, dedi ki:",
-              "ur": "اور الصادق علیہ السلام نے فرمایا:",
-              "zh": "而且賢者阿勒薩迪克願他平安說："
-            },
             "word_end": 5,
             "word_start": 0
           },
           {
             "arabic_text": "«مَا مِنْ عَبْدٍ يَسْأَلُ مِنْ غَيْرِ حَاجَةٍ فَيَمُوتُ حَتَّى يُحْوِجَهُ اللَّهُ عَزَّ وَ جَلَّ إِلَيْهَا وَ يَكْتُبَ لَهُ بِهَا النَّارَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "কোনও বান্দা প্রয়োজন ছাড়া কিছু চায় না, তবে আল্লাহ তাআলা তাকে তার প্রয়োজনীয় করে তোলার আগে এবং এর মাধ্যমে তার জন্য জাহান্নাম লিখে দেওয়ার আগে সে মারা যাবে।",
-              "de": "Kein Diener bittet ohne Bedürfnis, außer dass er stirbt, bevor Allah, der Mächtige und Erhabene, ihn dazu macht, es zu brauchen, und ihm dadurch das Feuer schreibt.",
-              "en": "There is no servant who asks without need except that he will die before Allah, Mighty and Majestic, makes him in need of it, and writes for him thereby the Fire.",
-              "es": "No hay siervo que pida sin necesidad, excepto que morirá antes de que Allah, el Poderoso y Majestuoso, lo haga necesitar de ello y le escriba con ello el Fuego.",
-              "fa": "هیچ بنده‌ای بدون نیاز درخواست نمی‌کند مگر اینکه پیش از آنکه خداوند عزّوجلّ او را به آن نیازمند سازد و به واسطه آن آتش را برایش بنویسد، می‌میرد.",
-              "fr": "Il n’y a aucun serviteur qui demande sans besoin, sauf qu’il mourra avant qu’Allah, le Tout-Puissant et Majestueux, ne le rende dans le besoin de cela et ne lui écrive par cela le Feu.",
-              "id": "Tidak ada hamba yang meminta tanpa kebutuhan kecuali dia akan mati sebelum Allah Yang Maha Perkasa dan Maha Agung menjadikannya membutuhkan hal itu dan menuliskan baginya dengan itu Neraka.",
-              "ru": "Нет раба, который просит без нужды, кроме как он умрет прежде, чем Аллах, Великий и Превознесённый, сделает его в этом нуждающимся и запишет для него этим Огонь.",
-              "tr": "Hiçbir kul, ihtiyaç duymadan bir şey istemez ki, Allah Azze ve Celle onu ona muhtaç kılmadan ve bununla ona Cehennem'i yazmadan önce ölmesin.",
-              "ur": "کوئی بھی بندہ بغیر ضرورت کے سوال نہیں کرتا مگر یہ کہ وہ مر جائے گا اس سے پہلے کہ اللہ تعالیٰ اسے اس چیز کا محتاج بنائے اور اس کے بدلے میں اس کے لیے دوزخ لکھ دے۔",
-              "zh": "沒有僕人無需索求，除非他在真主至大至尊使他需要之前去世，並因此為他記下火獄。"
-            },
             "word_end": 25,
             "word_start": 5
           }
@@ -81,26 +68,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "اللَّهُ": "Allah, the Mighty and Majestic",
-            "النَّارَ": "the Fire, meaning punishment in the hereafter",
-            "حَاجَةٍ": "a genuine need or necessity",
-            "عَبْدٍ": "a servant of Allah",
-            "يَسْأَلُ": "asks or requests",
-            "يُحْوِجَهُ": "causes him to become in need"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "عَبْدٍ",
+          "يَسْأَلُ",
+          "حَاجَةٍ",
+          "يُحْوِجَهُ",
+          "اللَّهُ",
+          "النَّارَ"
+        ],
         "related_quran": [
           {
             "ref": "2:273",
@@ -115,32 +90,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام প্রকৃত প্রয়োজন ছাড়া কিছু চাওয়ার বিষয়ে কী বলেন?",
-          "de": "Was sagt Imam al-Sadiq عليه السلام über das Bitten um Dinge ohne echten Bedarf?",
-          "en": "What does Imam al-Sadiq عليه السلام say about asking for things without real need?",
-          "es": "¿Qué dice el Imam al-Sadiq عليه السلام sobre pedir cosas sin necesidad real?",
-          "fa": "امام صادق علیه السلام درباره درخواست بدون نیاز واقعی چه می‌فرمایند؟",
-          "fr": "Que dit l’Imam al-Sadiq عليه السلام à propos de demander des choses sans réel besoin ?",
-          "id": "Apa yang dikatakan Imam al-Sadiq علیه السلام tentang meminta sesuatu tanpa kebutuhan nyata?",
-          "ru": "Что говорит Имам аль-Садик عليه السلام о просьбах без реальной нужды?",
-          "tr": "İmam el-Sadık علیه السلام gerçek ihtiyaç olmadan bir şey istemek hakkında ne diyor?",
-          "ur": "امام الصادق علیہ السلام بغیر حقیقی ضرورت کے چیزیں مانگنے کے بارے میں کیا فرماتے ہیں؟",
-          "zh": "伊瑪目阿勒薩迪克عليه السلام對無真實需要索求事物有何教導？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস অন্যদের থেকে প্রকৃত প্রয়োজন ছাড়া কিছু চাওয়ার বিরুদ্ধে সতর্ক করে। এটি শেখায় যে এমন আচরণ এই দুনিয়ায় অপমান এবং পরকালে শাস্তির কারণ হয়, এবং বস্তুগত সাহায্য চাওয়ার ক্ষেত্রে মর্যাদা, সংযম ও নৈতিক দায়িত্বের গুরুত্ব তুলে ধরে।",
-          "de": "Dieser Hadith warnt davor, andere ohne echten Bedarf um etwas zu bitten. Er lehrt, dass ein solches Verhalten Demütigung in dieser Welt und Strafe im Jenseits bringt und betont Würde, Zurückhaltung und moralische Verantwortung beim Ersuchen um materielle Hilfe.",
-          "en": "This hadith warns against asking others for things without genuine need. It teaches that such conduct brings humiliation in this world and punishment in the hereafter, stressing dignity, restraint, and moral responsibility in seeking material help.",
-          "es": "Este hadiz advierte contra pedir a otros cosas sin necesidad genuina. Enseña que tal conducta trae humillación en este mundo y castigo en el más allá, enfatizando la dignidad, la moderación y la responsabilidad moral al buscar ayuda material.",
-          "fa": "این حدیث نسبت به درخواست از دیگران بدون نیاز واقعی هشدار می‌دهد. آموزش می‌دهد که چنین رفتاری باعث خواری در دنیا و عذاب در آخرت می‌شود و بر کرامت، خویشتن‌داری و مسئولیت اخلاقی در طلب کمک مادی تأکید دارد.",
-          "fr": "Ce hadith met en garde contre le fait de demander aux autres sans réel besoin. Il enseigne qu’un tel comportement entraîne humiliation dans ce monde et châtiment dans l’au-delà, insistant sur la dignité, la retenue et la responsabilité morale dans la recherche d’aide matérielle.",
-          "id": "Hadis ini memperingatkan agar tidak meminta sesuatu dari orang lain tanpa kebutuhan yang nyata. Ia mengajarkan bahwa perilaku seperti itu membawa kehinaan di dunia dan siksa di akhirat, menekankan martabat, pengendalian diri, dan tanggung jawab moral dalam meminta bantuan materi.",
-          "ru": "Этот хадис предупреждает против просьб к другим без истинной нужды. Он учит, что такое поведение приносит унижение в этом мире и наказание в будущем, подчеркивая достоинство, сдержанность и моральную ответственность при просьбе о материальной помощи.",
-          "tr": "Bu hadis, başkalarından gerçek ihtiyaç olmadan bir şey istememeyi öğütler. Böyle davranışın bu dünyada aşağılanmaya ve ahirette cezaya yol açtığını, maddi yardım talebinde haysiyet, ölçülülük ve ahlaki sorumluluğun önemini vurgular.",
-          "ur": "یہ حدیث دوسروں سے بغیر حقیقی ضرورت کے چیزیں مانگنے کی ممانعت کرتی ہے۔ یہ سکھاتی ہے کہ ایسی حرکت دنیا میں ذلت اور آخرت میں سزا کا باعث بنتی ہے، اور مادی مدد طلب کرنے میں وقار، ضبط نفس اور اخلاقی ذمہ داری پر زور دیتی ہے۔",
-          "zh": "此聖訓警告勿無真實需要而向人索求。教導此行為帶來今世屈辱與後世懲罰，強調尋求物質幫助時的尊嚴、自制與道德責任。"
-        },
         "tags": [
           "ethics",
           "afterlife",

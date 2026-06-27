@@ -14,6 +14,109 @@
       "up": "/books/al-kafi:5:2:103"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "بَعْضُ أَصْحَابِنَا عَنْ عَلِيِّ بْنِ أَسْبَاطٍ عَنْ أَبِي مَخْلَدٍ السَّرَّاجِ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 11,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "كُنْتُ عِنْدَ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) إِذْ دَخَلَام ) إِذْ دَخَلَ عَلَيْهِ مُعَتِّبٌ فَقَالَ رَجُلَانِ بِالْبَابِ فَقَالَ أَدْخِلْهُمَا فَدَخَلَا فَقَالَ أَحَدُهُمَا إِنِّي رَجُلٌ سَرَّاجٌ أَبِيعُ جُلُودَ النَّمِرِ فَقَالَ مَدْبُوغَةٌ هِيَ قَالَ نَعَمْ قَالَ لَيْسَ بِهِ بَأْسٌ",
+            "chunk_type": "body",
+            "word_end": 50,
+            "word_start": 11
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 36,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "بَعْضُ أَصْحَابِنَا",
+              "name_en": "some of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 68,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ أَسْبَاطٍ",
+              "name_en": "Ali ibn Asbat",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 670,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي مَخْلَدٍ السَّرَّاجِ",
+              "name_en": "Abu Makhlad al-Sarraj",
+              "position": 3,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "سَرَّاجٌ",
+          "جُلُودَ النَّمِرِ",
+          "مَدْبُوغَةٌ",
+          "لَيْسَ بِهِ بَأْسٌ"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:161",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "5:3",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "economy"
+        ],
+        "topics": [
+          "halal_haram",
+          "trade_ethics",
+          "financial_law"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (19/267)"
       ],
@@ -72,7 +175,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:2:103:9",

@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَلِيٌّ عَنْ أَبِيهِ عَنِ النَّوْفَلِيِّ عَنِ السَّكُونِيِّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী তাঁর পিতা থেকে, তিনি আল-নাওফালী থেকে, তিনি আল-সুকূনী থেকে, তিনি আবী ʿআবদিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বলেছেন:",
-              "de": "ʿAlī berichtete von seinem Vater, von al-Nawfalī, von al-Sukūnī, von Abī ʿAbdillāh عليه السلام, der sagte:",
-              "en": "ʿAlī narrated from his father, from al-Nawfalī, from al-Sukūnī, from Abī ʿAbdillāh عليه السلام, who said:",
-              "es": "ʿAlī narró de su padre, de al-Nawfalī, de al-Sukūnī, de Abī ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "علی از پدرش، از النوفلی، از السکونی، از ابی عبدالله علیه السلام روایت کرد که فرمود:",
-              "fr": "ʿAlī a rapporté de son père, de al-Nawfalī, de al-Sukūnī, d’Abī ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Ali meriwayatkan dari ayahnya, dari al-Nawfalī, dari al-Sukūnī, dari Abī ʿAbdillāh عليه السلام, yang bersabda:",
-              "ru": "ʿАли передал от своего отца, от аль-Науфали, от аль-Сукуни, от Аби ʿАбдуллаха عليه السلام, который сказал:",
-              "tr": "Ali, babasından, o da el-Nevfelî’den, o da es-Sükûnî’den, o da Ebû Abdillâh عليه السلام’dan rivayet etti ki, şöyle dedi:",
-              "ur": "علی نے اپنے والد سے، انہوں نے النوفلی سے، انہوں نے السکونی سے، انہوں نے ابی عبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "阿里从他的父亲传述，父亲又从al-Nawfalī传述，al-Nawfalī又从al-Sukūnī传述，al-Sukūnī又从AbīʿAbdillāh عليه السلام传述，他说："
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "مَنِ اقْتُصَّ مِنْهُ فَمَاتَ فَهُوَ قَتِيلُ الْقُرْآنِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যার উপর কিসাস কার্যকর করা হয় এবং সে মারা যায়, তবে সে কুরআনের দ্বারা নিহতদের অন্তর্ভুক্ত।",
-              "de": "Wem Vergeltung vollstreckt wird und der daraufhin stirbt, der ist einer, der durch den Qur’an getötet wurde.",
-              "en": "Whoever retaliation is carried out upon, and he dies, then he is one slain by the Qur'an.",
-              "es": "A quien se le aplica la represalia y muere, entonces es uno de los muertos por el Corán.",
-              "fa": "هر کس که بر او قصاص اجرا شود و بمیرد، او کشته‌شده به حکم قرآن است.",
-              "fr": "Quiconque subit la rétribution légale et meurt, alors il est de ceux qui ont été tués par le Coran.",
-              "id": "Siapa pun yang dikenai qisas lalu ia mati, maka ia adalah orang yang terbunuh oleh Al-Qur'an.",
-              "ru": "Тот, к кому применено возмездие и кто умирает, является одним из убитых Кораном.",
-              "tr": "Kısas uygulanan ve bunun sonucunda ölen kimse, Kur’an tarafından öldürülmüş sayılır.",
-              "ur": "جس پر قصاص نافذ کیا جائے اور وہ مر جائے، تو وہ قرآن کے حکم سے قتل کیا گیا ہے۔",
-              "zh": "凡对其执行报复刑而死亡者，便是被《古兰经》所杀之人。"
-            },
             "word_end": 21,
             "word_start": 14
           }
@@ -114,24 +101,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "اقْتُصَّ": "retaliation was exacted; qiṣāṣ was carried out upon someone",
-            "الْقُرْآنِ": "the Qur'an, meaning the divine ruling and authority conveyed by it",
-            "فَمَاتَ": "then he died as a result",
-            "قَتِيلُ": "one killed; slain person"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "اقْتُصَّ",
+          "فَمَاتَ",
+          "قَتِيلُ",
+          "الْقُرْآنِ"
+        ],
         "related_quran": [
           {
             "ref": "2:178",
@@ -146,32 +121,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কিসাসে নিহত কাউকে কেন “কুরআনের দ্বারা নিহত” বলা হয়?",
-          "de": "Was bedeutet es, wenn eine im Qiṣāṣ getötete Person als „durch den Qur’an getötet“ bezeichnet wird?",
-          "en": "What does it mean when a person killed in qiṣāṣ is called \"slain by the Qur'an\"?",
-          "es": "¿Qué significa cuando a una persona muerta en qiṣāṣ se le llama “muerta por el Corán”?",
-          "fa": "وقتی کسی در قصاص کشته می‌شود، چرا او را «کشته‌شده به وسیله قرآن» می‌نامند؟",
-          "fr": "Que signifie le fait qu’une personne tuée dans le qiṣāṣ soit appelée « tuée par le Coran » ?",
-          "id": "Apa maksudnya ketika seseorang yang dibunuh dalam qisas disebut “terbunuh oleh Al-Qur'an”?",
-          "ru": "Что означает, когда человека, убитого в кисас, называют «убитым Кораном»?",
-          "tr": "Kısasta öldürülen bir kişiye neden “Kur’an tarafından öldürülmüş” denir?",
-          "ur": "جب کسی کو قصاص میں قتل کیا جائے تو اسے “قرآن کے ہاتھوں قتل” کیوں کہا جاتا ہے؟",
-          "zh": "当一个人在qisas中被处死时，称他为“被《古兰经》所杀”是什么意思？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে বলা হয়েছে যে, যখন বৈধ কিসাস কার্যকর হওয়ার ফলে কোনো ব্যক্তি মারা যায়, তখন তার মৃত্যু কুরআনের বিধানের সঙ্গে সম্পর্কিত করা হয়। এটি বিচারব্যবস্থায় আল্লাহ-নির্ধারিত প্রতিশোধের বৈধতাকে স্পষ্ট করে।",
-          "de": "Dieser Hadith besagt, dass, wenn ein Mensch infolge der Vollstreckung eines rechtmäßigen Qiṣāṣ stirbt, sein Tod dem Urteil des Qur’an zugeschrieben wird. Dies unterstreicht die Legitimität der von Gott sanktionierten Vergeltung im Rechtssystem.",
-          "en": "This hadith states that when a person dies as a result of lawful qiṣāṣ being carried out, his death is attributed to the judgment of the Qur'an. It underscores the legitimacy of divinely sanctioned retaliation within the justice system.",
-          "es": "Este hadiz afirma que cuando una persona muere como resultado de la aplicación del qiṣāṣ lícito, su muerte se atribuye al juicio del Corán. Esto subraya la legitimidad de la represalia sancionada por Dios dentro del sistema de justicia.",
-          "fa": "این حدیث بیان می‌کند که هنگامی که کسی بر اثر اجرای قصاصِ مشروع بمیرد، مرگ او به حکم قرآن نسبت داده می‌شود. این، مشروعیتِ قصاصِ الهی‌مقرر را در نظام عدالت برجسته می‌کند.",
-          "fr": "Ce hadith affirme que lorsqu’une personne meurt à la suite de l’application du qiṣāṣ licite, sa mort est attribuée au jugement du Coran. Cela souligne la légitimité de la rétribution sanctionnée par Dieu dans le système judiciaire.",
-          "id": "Hadis ini menyatakan bahwa ketika seseorang meninggal akibat diterapkannya qisas yang sah, kematiannya dinisbatkan kepada حكم Al-Qur'an. Ini menegaskan legitimasi qisas yang disyariatkan oleh Allah dalam sistem keadilan.",
-          "ru": "Этот хадис говорит о том, что когда человек умирает в результате применения законного кисаса, его смерть приписывается постановлению Корана. Это подчеркивает законность возмездия, установленного Богом, в системе правосудия.",
-          "tr": "Bu hadis, bir kimse meşru kısas uygulanması sonucunda öldüğünde, onun ölümünün Kur’an’ın hükmüne nispet edildiğini بیان eder. Bu, adalet sisteminde ilahî olarak meşru kılınmış kısasın geçerliliğini vurgular.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ جب کسی شخص کی موت شرعی قصاص کے نفاذ کے نتیجے میں واقع ہو، تو اس کی موت کو قرآن کے حکم کی طرف منسوب کیا جاتا ہے۔ یہ عدالتی نظام میں الٰہی طور پر مقرر کردہ قصاص کی مشروعیت کو واضح کرتی ہے۔",
-          "zh": "这段圣训说明，当一个人因合法执行qisas而死亡时，他的死亡被归因于《古兰经》的判决。这强调了神圣许可的报复在司法体系中的合法性。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

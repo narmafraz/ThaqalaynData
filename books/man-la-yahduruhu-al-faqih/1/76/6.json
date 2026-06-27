@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى بُرَيْدُ بْنُ مُعَاوِيَةَ الْعِجْلِيُّ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ أَنَّهُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "বুরাইদ ইবনে মুআবিয়া আল-ইজলী আবী জাফর عليه السلام থেকে বর্ণনা করেছেন যে তিনি বললেন:",
-              "de": "Burayd ibn Muʿāwiyah al-ʿIjlī berichtete von Abī Jaʿfar عليه السلام, dass er sagte:",
-              "en": "Burayd ibn Muʿāwiyah al-ʿIjlī narrated from Abī Jaʿfar عليه السلام that he said:",
-              "es": "Burayd ibn Muʿāwiyah al-ʿIjlī narró de Abī Jaʿfar عليه السلام que dijo:",
-              "fa": "بُرید بن معاویه العجلی از ابی جعفر علیه السلام روایت کرده که فرمود:",
-              "fr": "Burayd ibn Muʿāwiyah al-ʿIjlī a rapporté d'Abī Jaʿfar عليه السلام qu'il a dit :",
-              "id": "Burayd ibn Muʿāwiyah al-ʿIjlī meriwayat dari Abī Jaʿfar علیه السلام bahwa beliau berkata:",
-              "ru": "Бурайд ибн Муавия аль-ʿИджли передал от Аби Джафара عليه السلام, что он сказал:",
-              "tr": "Burayd ibn Muʿâviyah el-ʿİclî, Ebu Ca'fer عليه السلام'dan rivayet etti ki şöyle dedi:",
-              "ur": "بُرَید ابن مُعاویہ العِجلِی نے ابی جعفر علیہ السلام سے روایت کی کہ انہوں نے فرمایا:",
-              "zh": "بُرَیدابنمُعاویہالعِجلِی从أبِیجَعفَرعلیهالسلام传述说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "«أَفْضَلُ قَضَاءِ صَلَاةِ اللَّيْلِ فِي السَّاعَةِ الَّتِي فَاتَتْكَ آخِرِ اللَّيْلِ وَ لَيْسَ بَأْسٌ أَنْ تَقْضِيَهَا بِالنَّهَارِ وَ قَبْلَ أَنْ تَزُولَ الشَّمْسُ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“সর্বোত্তম ক্বযা সালাতুল লাইল হলো সেই সময় যখন তা তোমার থেকে শেষ রাতের শেষ ভাগে ছুটে গেছে; এবং দিনের বেলাতেও এটি ক্বযা করা যায়, সূর্য অস্ত যাওয়ার আগে।”",
-              "de": "„Die beste Nachholung der Salat al-layl ist in der Stunde, in der sie dir entgangen ist, am Ende der Nacht; und es ist kein Problem, sie tagsüber und vor dem Sonnenuntergang nachzuholen.“",
-              "en": "“The best making-up of salat al-layl is in the hour in which it escaped you, at the end of the night; and there is no harm in making it up during the day, and before the sun declines.”",
-              "es": "“La mejor forma de recuperar la salat al-layl es en la hora en que se te escapó, al final de la noche; y no hay problema en recuperarla durante el día, antes de que el sol decline.”",
-              "fa": "«بهترین قضای نماز شب در ساعتی است که از دستت رفته، در آخر شب؛ و اشکالی ندارد که آن را در روز و قبل از غروب آفتاب قضا کنی.»",
-              "fr": "«Le meilleur moment pour rattraper la salat al-layl est à l'heure où elle t'a échappé, à la fin de la nuit ; et il n'y a pas de mal à la rattraper pendant la journée, avant que le soleil ne décline.»",
-              "id": "“Waktu terbaik untuk mengqadha salat al-layl adalah pada jam yang terlewatkan darimu, di akhir malam; dan tidak mengapa mengqadhanya di siang hari, sebelum matahari terbenam.”",
-              "ru": "«Лучшее время для возмещения салят аль-ляйль — это час, в который она ускользнула от тебя, в конце ночи; и нет вреда в том, чтобы возместить её днём, до захода солнца.»",
-              "tr": "“Salat al-layl'in en güzel kaza vakti, gecenin sonlarında kaçırdığın saattir; ve onu gündüz, güneş batmadan önce kaza etmekte bir sakınca yoktur.”",
-              "ur": "’’سب سے بہترین قضاء نمازِ لیل اس وقت ہے جب وہ رات کے آخری حصے میں آپ سے رہ گئی ہو؛ اور دن میں بھی اسے ادا کرنا جائز ہے، اور سورج غروب ہونے سے پہلے۔‘‘",
-              "zh": "“补行夜间礼拜的最佳时间是在你错过的那个时辰，即夜晚的最后时段；白天补行也无妨，且须在太阳落山之前。”"
-            },
             "word_end": 34,
             "word_start": 13
           }
@@ -97,27 +84,15 @@
             "phrase_en": "Night prayer (Tahajjud)"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَفْضَلُ": "the most virtuous or best",
-            "السَّاعَةِ": "the hour or corresponding time",
-            "بِالنَّهَارِ": "during the daytime",
-            "تَزُولَ": "to decline, referring to the sun passing noon",
-            "صَلَاةِ اللَّيْلِ": "the night prayer",
-            "فَاتَتْكَ": "it was missed by you",
-            "قَضَاءِ": "making up an act of worship after its time has passed"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَفْضَلُ",
+          "قَضَاءِ",
+          "صَلَاةِ اللَّيْلِ",
+          "السَّاعَةِ",
+          "فَاتَتْكَ",
+          "بِالنَّهَارِ",
+          "تَزُولَ"
+        ],
         "related_quran": [
           {
             "ref": "17:79",
@@ -132,32 +107,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "মিস করা রাতের নামাজ ক্বযা করার সর্বোত্তম সময় কখন, এবং এটি কি দিনের বেলাতেও ক্বযা করা যায়?",
-          "de": "Wann ist die beste Zeit, ein verpasstes Nachtgebet nachzuholen, und kann es tagsüber nachgeholt werden?",
-          "en": "When is the best time to make up a missed night prayer, and can it be made up during the day?",
-          "es": "¿Cuál es el mejor momento para recuperar una oración nocturna perdida y se puede hacer durante el día?",
-          "fa": "بهترین زمان برای قضای نماز شب چه زمانی است و آیا می‌توان آن را در طول روز انجام داد؟",
-          "fr": "Quel est le meilleur moment pour rattraper une salat al-layl manquée, et peut-on la rattraper pendant la journée ?",
-          "id": "Kapan waktu terbaik untuk mengqadha salat malam yang terlewat, dan apakah boleh mengqadhanya di siang hari?",
-          "ru": "Когда лучше всего возмещать пропущенную ночную молитву, и можно ли это делать днём?",
-          "tr": "Kaçırılan gece namazını kaza etmenin en iyi zamanı ne zamandır ve gündüz kaza edilebilir mi?",
-          "ur": "قضاء نمازِ لیل کا سب سے بہترین وقت کب ہے، اور کیا اسے دن میں بھی قضاء کیا جا سکتا ہے؟",
-          "zh": "补行错过的夜间礼拜的最佳时间是什么时候，能否在白天补行？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে মিস করা রাতের নামাজ ক্বযা করার সর্বোত্তম সময় হলো পরবর্তী রাতের শেষ ভাগে সেই একই সময়। এটি স্পষ্ট করে যে, দিনের বেলাতেও সূর্য অস্ত যাওয়ার আগে ক্বযা করা যায়।",
-          "de": "Dieser Hadith besagt, dass die beste Zeit, ein verpasstes Nachtgebet nachzuholen, in der entsprechenden Stunde im letzten Teil der folgenden Nacht ist. Er stellt auch klar, dass es erlaubt ist, es tagsüber vor Sonnenuntergang nachzuholen.",
-          "en": "This hadith states that the most excellent time to make up a missed night prayer is at the corresponding time in the latter part of the following night. It also clarifies that making it up during the daytime, before the sun’s decline, is permissible.",
-          "es": "Este hadiz establece que el mejor momento para recuperar una oración nocturna perdida es en la misma hora en la parte final de la noche siguiente. También aclara que es permisible recuperarla durante el día, antes de que el sol decline.",
-          "fa": "این حدیث بیان می‌کند که بهترین زمان برای قضای نماز شب در همان ساعت مربوط به بخش پایانی شب بعدی است که نماز فوت شده است. همچنین روشن می‌سازد که قضای آن در طول روز، قبل از غروب آفتاب، جایز است.",
-          "fr": "Ce hadith indique que le meilleur moment pour rattraper une salat al-layl manquée est à l'heure correspondante dans la dernière partie de la nuit suivante. Il précise également qu'il est permis de la rattraper pendant la journée, avant le déclin du soleil.",
-          "id": "Hadis ini menyatakan bahwa waktu terbaik untuk mengqadha salat malam yang terlewat adalah pada waktu yang sama di bagian akhir malam berikutnya. Juga menjelaskan bahwa mengqadhanya di siang hari sebelum matahari terbenam diperbolehkan.",
-          "ru": "Этот хадис говорит, что лучшее время для возмещения пропущенной ночной молитвы — это соответствующий час в конце следующей ночи. Также разъясняется, что возмещение днём, до захода солнца, допустимо.",
-          "tr": "Bu hadis, kaçırılan gece namazını kaza etmenin en mükemmel zamanının ertesi gecenin son kısmındaki aynı saat olduğunu belirtir. Ayrıca, güneş batmadan önce gündüz kaza etmenin caiz olduğunu açıklar.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ قضاء نمازِ لیل کا سب سے بہترین وقت اگلی رات کے آخری حصے میں وہی وقت ہے جب نماز رہ گئی ہو۔ یہ بھی واضح کرتی ہے کہ دن کے وقت، سورج غروب ہونے سے پہلے، قضاء کرنا جائز ہے۔",
-          "zh": "此圣训指出，补行错过的夜间礼拜的最佳时间是次夜晚的相应时段。并且明确说明，在太阳落山前的白天补行是允许的。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

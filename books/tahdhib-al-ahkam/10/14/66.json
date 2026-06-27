@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَعَنْهُ عَنِ ٱبْنِ مُسْكَانَ عَنْ أَبِي عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং তাঁর কাছ থেকে, ইবন মিসকান থেকে, আবু আবদিল্লাহ عليه السلام থেকে, যিনি বলেছেন:",
-              "de": "Und von ihm, von Ibn Miskan, von Abu Abdillah عليه السلام, der sagte:",
-              "en": "And from him, from Ibn Miskan, from Abu Abdillah عليه السلام, who said:",
-              "es": "Y de él, de Ibn Miskan, de Abu Abdillah عليه السلام, quien dijo:",
-              "fa": "و از او، از ابن مسکان، از ابو عبدالله علیه السلام، که فرمود:",
-              "fr": "Et de lui, d’Ibn Miskan, d’Abu Abdillah عليه السلام, qui a dit :",
-              "id": "Dan darinya, dari Ibn Miskan, dari Abu Abdillah عليه السلام, yang bersabda:",
-              "ru": "И от него, от Ибн Мискана, от Абу Абдуллаха عليه السلام, который сказал:",
-              "tr": "Ve ondan, İbn Miskân’dan, Ebû Abdillah عليه السلام’dan, şöyle dedi:",
-              "ur": "اور ان سے، ابن مسکان سے، ابو عبداللہ علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "并且由他传自伊本米斯坎，传自阿布阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "إِذَا قَتَلَ ٱلْعَبْدُ ٱلْحُرَّ فَدُفِعَ إِلَى أَوْلِيَاءِ ٱلْحُرِّ فَلَا شَيْءَ عَلَى مَوَالِيهِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি দাস কোনো স্বাধীন মানুষকে হত্যা করে, তবে তাকে সেই স্বাধীন মানুষের উত্তরাধিকারীদের কাছে সোপর্দ করা হয়, এবং তার মনিবদের ওপর কিছুই নেই।",
-              "de": "Wenn der Sklave den freien Mann tötet, dann wird er den Erben des freien Mannes übergeben, und auf seinen Herren lastet nichts.",
-              "en": "If the slave kills the free man, then he is handed over to the heirs of the free man, and there is nothing upon his masters.",
-              "es": "Si el esclavo mata al hombre libre, entonces se lo entrega a los herederos del hombre libre, y no hay nada sobre sus amos.",
-              "fa": "اگر برده مرد آزاد را بکشد، به اولیای مرد آزاد سپرده می‌شود و بر مولای او چیزی نیست.",
-              "fr": "Si l’esclave tue l’homme libre, alors il est remis aux héritiers de l’homme libre, et il n’y a rien à la charge de ses maîtres.",
-              "id": "Jika seorang budak membunuh orang merdeka, maka ia diserahkan kepada para ahli waris orang merdeka itu, dan tidak ada apa-apa atas para tuannya.",
-              "ru": "Если раб убивает свободного человека, то его передают наследникам свободного человека, и на его господах нет ничего.",
-              "tr": "Eğer köle hür adamı öldürürse, o hür adamın varislerine teslim edilir ve onun efendileri üzerine bir şey yoktur.",
-              "ur": "اگر غلام آزاد آدمی کو قتل کر دے، تو اسے آزاد آدمی کے ورثاء کے حوالے کر دیا جاتا ہے، اور اس کے مالکوں پر کچھ نہیں ہے۔",
-              "zh": "如果奴隶杀死自由人，那么他就被交给自由人的继承人，而他的主人们没有任何责任。"
-            },
             "word_end": 23,
             "word_start": 11
           }
@@ -94,25 +81,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَوْلِيَاءِ": "the legal heirs or entitled kin of the victim",
-            "شَيْءٌ": "any financial or legal liability",
-            "مَوَالِيهِ": "his masters or owners",
-            "ٱلْحُرَّ": "the free person who was killed",
-            "ٱلْعَبْدُ": "the slave who committed the killing"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "ٱلْعَبْدُ",
+          "ٱلْحُرَّ",
+          "أَوْلِيَاءِ",
+          "مَوَالِيهِ",
+          "شَيْءٌ"
+        ],
         "related_quran": [
           {
             "ref": "2:178",
@@ -127,32 +102,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কোনো দাস একজন স্বাধীন মানুষকে হত্যা করে, তবে শিয়া ফিকহে এর বিধান কী?",
-          "de": "Was ist das Urteil in der schiitischen Fiqh, wenn ein Sklave einen freien Mann tötet?",
-          "en": "What is the ruling if a slave kills a free man in Shia fiqh?",
-          "es": "¿Cuál es la norma en la fiqh chií si un esclavo mata a un hombre libre?",
-          "fa": "اگر برده‌ای مرد آزادی را بکشد، حکم آن در فقه شیعه چیست؟",
-          "fr": "Quelle est la règle en fiqh chiite si un esclave tue un homme libre ?",
-          "id": "Apa hukum dalam fikih Syiah jika seorang budak membunuh orang merdeka?",
-          "ru": "Каково постановление в шиитском фикхе, если раб убивает свободного человека?",
-          "tr": "Bir köle bir hür adamı öldürürse Şii fıkhında hüküm nedir?",
-          "ur": "اگر غلام کسی آزاد آدمی کو قتل کر دے تو شیعہ فقہ میں کیا حکم ہے؟",
-          "zh": "如果奴隶杀死自由人，什叶派教法中的判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে দাস কোনো স্বাধীন ব্যক্তিকে হত্যা করলে কিসাস ও দায়বদ্ধতা সম্পর্কে একটি শরঈ বিধান বর্ণিত হয়েছে। দাসকে নিহত স্বাধীন ব্যক্তির উত্তরাধিকারীদের কাছে সোপর্দ করা হবে, এবং দাসের মনিবদের ওপর আর কোনো দায় থাকবে না।",
-          "de": "Dieser Hadith nennt eine rechtliche Bestimmung über Vergeltung und Haftung, wenn ein Sklave einen freien Menschen tötet. Der Sklave wird den Erben des getöteten freien Menschen übergeben, und auf seinen Herren lastet keine weitere Verantwortung.",
-          "en": "This hadith states a legal ruling concerning retaliation and liability when a slave kills a free person. The slave is to be surrendered to the heirs of the slain free person, and no further liability falls upon the slave’s masters.",
-          "es": "Este hadiz establece una norma jurídica sobre la represalia y la responsabilidad cuando un esclavo mata a una persona libre. El esclavo debe ser entregado a los herederos de la persona libre muerta, y no recae ninguna responsabilidad adicional sobre sus amos.",
-          "fa": "این حدیث حکمی فقهی درباره قصاص و مسئولیت در صورتی که برده‌ای شخص آزادی را بکشد بیان می‌کند. برده به اولیای شخص آزادِ کشته‌شده سپرده می‌شود و بر مولای برده مسئولیت دیگری نیست.",
-          "fr": "Ce hadith énonce une règle juridique concernant le talion et la responsabilité lorsqu’un esclave tue une personne libre. L’esclave doit être remis aux héritiers de la personne libre tuée, et aucune autre responsabilité ne pèse sur ses maîtres.",
-          "id": "Hadis ini menyatakan sebuah hukum fikih tentang qisas dan tanggung jawab ketika seorang budak membunuh orang merdeka. Budak itu diserahkan kepada para ahli waris orang merdeka yang terbunuh, dan tidak ada tanggung jawab lebih lanjut atas para tuannya.",
-          "ru": "Этот хадис устанавливает правовое постановление о возмездии и ответственности, когда раб убивает свободного человека. Раба передают наследникам убитого свободного человека, и на его господах не лежит никакой дальнейшей ответственности.",
-          "tr": "Bu hadis, bir kölenin hür bir kişiyi öldürmesi halinde kısas ve sorumlulukla ilgili bir hükmü بیان eder. Köle, öldürülen hür kişinin varislerine teslim edilir ve kölenin efendilerine başka bir sorumluluk düşmez.",
-          "ur": "یہ حدیث قصاص اور ذمہ داری کے بارے میں ایک شرعی حکم بیان کرتی ہے جب کوئی غلام کسی آزاد شخص کو قتل کر دے۔ غلام کو مقتول آزاد شخص کے ورثاء کے حوالے کیا جاتا ہے، اور غلام کے مالکوں پر مزید کوئی ذمہ داری نہیں ہوتی۔",
-          "zh": "这段圣训说明了一项关于报复和责任的教法判决：如果奴隶杀死自由人，就将他交给被杀自由人的继承人，而他的主人不承担任何责任。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

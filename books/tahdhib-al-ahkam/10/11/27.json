@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اِبْنُ فَضَّالٍ عَنْ بَعْضِ أَصْحَابِنَا عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ইবন ফাদ্দাল, আমাদের কিছু সাথী থেকে, আবু আবদিল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Ibn Faḍḍāl, von einigen unserer Gefährten, von Abī ʿAbd Allāh عليه السلام, der sagte:",
-              "en": "Ibn Faḍḍāl, from some of our companions, from Abī ʿAbd Allāh عليه السلام, who said:",
-              "es": "Ibn Faḍḍāl, de algunos de nuestros compañeros, de Abī ʿAbd Allāh عليه السلام, quien dijo:",
-              "fa": "ابن فَضّال، از برخی از یاران ما، از ابی‌عبدالله علیه‌السلام، که فرمود:",
-              "fr": "Ibn Faḍḍāl, de certains de nos compagnons, d’Abī ʿAbd Allāh عليه السلام, qui a dit :",
-              "id": "Ibn Faḍḍāl, dari sebagian sahabat kami, dari Abī ʿAbd Allāh عليه السلام, yang berkata:",
-              "ru": "Ибн Фаддаль, от некоторых наших сподвижников, от Аби ʿАбд Аллаха عليه السلام, который сказал:",
-              "tr": "İbn Faḍḍāl, bazı ashabımızdan, Ebû Abdillâh عليه السلام’dan, şöyle dedi:",
-              "ur": "ابن فَضّال، ہمارے بعض اصحاب سے، ابو عبد اللہ علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "伊本法达尔，传自我们的一些同伴，传自阿比阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "كُلُّ مَنْ قَتَلَ شَيْئًا صَغِيرًا أَوْ كَبِيرًا بَعْدَ أَنْ يَتَعَمَّدَ فَعَلَيْهِ الْقَوَدُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে কেউ কোনো কিছু, ছোট হোক বা বড়, ইচ্ছাকৃতভাবে হত্যা করে, তার ওপর কিসাস প্রযোজ্য।",
-              "de": "Wer etwas tötet, klein oder groß, nachdem er es absichtlich getan hat, auf dem liegt die Vergeltung.",
-              "en": "Everyone who kills something, small or great, after doing so intentionally, then retaliation is upon him.",
-              "es": "Todo aquel que mate algo, pequeño o grande, deliberadamente, entonces la represalia recae sobre él.",
-              "fa": "هر کس چیزی را، کوچک یا بزرگ، پس از آن‌که عمداً آن را بکشد، بر او قصاص است.",
-              "fr": "Quiconque tue quelque chose, petit ou grand, après l’avoir fait délibérément, alors le talion s’applique à lui.",
-              "id": "Setiap orang yang membunuh sesuatu, kecil maupun besar, dengan sengaja, maka qisas berlaku atasnya.",
-              "ru": "Всякий, кто убьёт что-либо, малое или великое, совершив это намеренно, на того возлагается возмездие.",
-              "tr": "Küçük ya da büyük bir şeyi kasten öldüren herkes için kısas vardır.",
-              "ur": "ہر وہ شخص جو کسی چھوٹی یا بڑی چیز کو جان بوجھ کر قتل کرے، تو اس پر قصاص ہے۔",
-              "zh": "凡故意杀死任何东西者，无论小或大，都应受报复刑。"
-            },
             "word_end": 24,
             "word_start": 12
           }
@@ -94,26 +81,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْقَوَدُ": "retaliation; qisas, the legal requital for intentional killing",
-            "شَيْئًا": "a thing; here indicating any victim without distinction in the wording",
-            "صَغِيرًا": "small; indicating lesser size or status in the general expression",
-            "قَتَلَ": "killed; committed the act of killing",
-            "كَبِيرًا": "great; indicating larger size or status in the general expression",
-            "يَتَعَمَّدَ": "acts intentionally; does so deliberately and with purpose"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "قَتَلَ",
+          "شَيْئًا",
+          "صَغِيرًا",
+          "كَبِيرًا",
+          "يَتَعَمَّدَ",
+          "الْقَوَدُ"
+        ],
         "related_quran": [
           {
             "ref": "2:178",
@@ -128,32 +103,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে ইচ্ছাকৃত হত্যার বিধান কী?",
-          "de": "Wie lautet das Urteil über vorsätzliche Tötung in der schiitischen Fiqh?",
-          "en": "What is the ruling on intentional killing in Shia fiqh?",
-          "es": "¿Cuál es la norma sobre el homicidio intencional en la jurisprudencia chií?",
-          "fa": "حکم قتل عمد در فقه شیعه چیست؟",
-          "fr": "Quelle est la règle concernant le meurtre intentionnel en fiqh chiite ?",
-          "id": "Apa حكم pembunuhan sengaja dalam fikih Syiah?",
-          "ru": "Каково постановление об умышленном убийстве в шиитском фикхе?",
-          "tr": "Şii fıkhında kasıtlı öldürmenin hükmü nedir?",
-          "ur": "شیعہ فقہ میں جان بوجھ کر قتل کا حکم کیا ہے؟",
-          "zh": "什叶派教法中故意杀人的判定是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি স্পষ্ট করে যে ইচ্ছাকৃত হত্যায় কিসাস প্রযোজ্য, ছোট বা বড়—কোনো পার্থক্য নেই। এর গুরুত্ব হলো অবৈধ হত্যার ক্ষেত্রে আইনগত কিসাসের ভিত্তি হিসেবে ইচ্ছাকৃত অভিপ্রায়কে প্রতিষ্ঠা করা।",
-          "de": "Dieser Hadith legt fest, dass vorsätzliche Tötung Qisas nach sich zieht, ohne Unterschied zwischen Kleinem und Großem. Seine Bedeutung liegt darin, die absichtliche Handlung als Grundlage der rechtlichen Vergeltung in Fällen unrechtmäßiger Tötung zu bestätigen.",
-          "en": "This hadith establishes that intentional killing incurs qisas, without distinction between what is small or great. Its significance is in affirming deliberate intent as the basis for legal retaliation in cases of unlawful killing.",
-          "es": "Este hadiz establece que el homicidio intencional conlleva qisas, sin distinción entre lo pequeño y lo grande. Su importancia radica en afirmar la intención deliberada como base de la represalia legal en los casos de homicidio ilícito.",
-          "fa": "این حدیث بیان می‌کند که قتل عمد، بدون تفاوت میان کوچک و بزرگ، موجب قصاص است. اهمیت آن در تأکید بر قصدِ عمدی به‌عنوان مبنای قصاصِ شرعی در موارد قتلِ نارواست.",
-          "fr": "Ce hadith établit que le meurtre intentionnel entraîne le qisas, sans distinction entre le petit et le grand. Son importance réside dans l’affirmation de l’intention délibérée comme fondement de la rétribution légale dans les cas d’homicide illicite.",
-          "id": "Hadis ini menegaskan bahwa pembunuhan yang disengaja mewajibkan qisas, tanpa membedakan kecil atau besar. Signifikansinya terletak pada penegasan niat yang disengaja sebagai dasar qisas hukum dalam kasus pembunuhan yang tidak sah.",
-          "ru": "Этот хадис устанавливает, что умышленное убийство влечёт кисас, без различия между малым и великим. Его значение состоит в утверждении преднамеренного умысла как основы правового возмездия в случаях незаконного убийства.",
-          "tr": "Bu hadis, kasıtlı öldürmenin, küçük ya da büyük ayrımı olmaksızın kısası gerektirdiğini ortaya koyar. Önemi, hukuka aykırı öldürme durumlarında hukuki kısasın temeli olarak kasıtlı niyeti teyit etmesindedir.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ جان بوجھ کر قتل کرنے پر قصاص لازم ہے، خواہ مقتول چھوٹا ہو یا بڑا۔ اس کی اہمیت اس بات کی تاکید میں ہے کہ غیرقانونی قتل میں قانونی قصاص کی بنیاد ارادی قصد ہے۔",
-          "zh": "这段圣训确立了故意杀人应受qisas，不分所杀之物是小是大。其意义在于确认蓄意意图是非法杀人案件中法律报复的基础。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

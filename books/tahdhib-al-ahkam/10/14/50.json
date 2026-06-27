@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلْحَسَنُ بْنُ مَحْبُوبٍ عَنْ نُعَيْمِ بْنِ إِبْرَاهِيمَ عَنْ مِسْمَعِ بْنِ عَبْدِ اَلْمَلِكِ عَنْ أَبِي عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হাসান ইবন মাহবুব, নু'আইম ইবন ইব্রাহিম থেকে, মিসমা' ইবন 'আবদ আল-মালিক থেকে, আবু 'আবদিল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Al-Hasan ibn Mahbub, von Nu'aym ibn Ibrahim, von Misma' ibn 'Abd al-Malik, von Abu 'Abdillah عليه السلام, der sagte:",
-              "en": "Al-Hasan ibn Mahbub, from Nu'aym ibn Ibrahim, from Misma' ibn 'Abd al-Malik, from Abu 'Abdillah عليه السلام, who said:",
-              "es": "Al-Hasan ibn Mahbub, de Nu'aym ibn Ibrahim, de Misma' ibn 'Abd al-Malik, de Abu 'Abdillah عليه السلام, quien dijo:",
-              "fa": "الحسن بن محبوب، از نعیم بن ابراهیم، از مسمع بن عبد الملک، از ابو عبدالله علیه السلام، که فرمود:",
-              "fr": "Al-Hasan ibn Mahbub, d’après Nu'aym ibn Ibrahim, d’après Misma' ibn 'Abd al-Malik, d’après Abu 'Abdillah عليه السلام, qui a dit :",
-              "id": "Al-Hasan ibn Mahbub, dari Nu'aym ibn Ibrahim, dari Misma' ibn 'Abd al-Malik, dari Abu 'Abdillah عليه السلام, yang berkata:",
-              "ru": "Аль-Хасан ибн Махбуб, от Ну'айма ибн Ибрахима, от Мисма' ибн 'Абд аль-Малика, от Абу 'Абдуллаха عليه السلام, который сказал:",
-              "tr": "El-Hasan ibn Mahbub, Nu'aym ibn Ibrahim'den, Misma' ibn 'Abd al-Malik'ten, Ebu 'Abdillah عليه السلام'dan rivayet etti ki şöyle dedi:",
-              "ur": "الحسن بن محبوب، نعیم بن ابراہیم سے، مسمع بن عبد الملک سے، ابو عبد اللہ علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "阿勒哈桑·伊本·马赫布卜，传自努'艾姆·伊本·易卜拉欣，传自米斯马'·伊本·'阿卜杜勒·马利克，传自阿布·'阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "لَا قِصَاصَ بَيْنَ ٱلْحُرِّ وَٱلْعَبْدِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "স্বাধীন ব্যক্তি ও দাসের মধ্যে কিসাস নেই।",
-              "de": "Zwischen dem freien Menschen und dem Sklaven gibt es kein Qisas.",
-              "en": "There is no qisas between the free person and the slave.",
-              "es": "No hay qisas entre la persona libre y el esclavo.",
-              "fa": "میان انسان آزاد و برده قصاصی نیست.",
-              "fr": "Il n’y a pas de qisas entre l’homme libre et l’esclave.",
-              "id": "Tidak ada qisas antara orang merdeka dan budak.",
-              "ru": "Между свободным человеком и рабом нет кисаса.",
-              "tr": "Hür kişi ile köle arasında kısas yoktur.",
-              "ur": "آزاد شخص اور غلام کے درمیان قصاص نہیں ہے۔",
-              "zh": "自由人和奴隶之间没有qisas。"
-            },
             "word_end": 24,
             "word_start": 19
           }
@@ -104,24 +91,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "قَالَ": "he said, indicating the beginning of the transmitted statement",
-            "قِصَاصَ": "retaliatory legal punishment in cases of killing or injury",
-            "ٱلْحُرِّ": "a free person, as opposed to one in bondage",
-            "ٱلْعَبْدِ": "a slave or bondsman in the legal context of the ruling"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "قِصَاصَ",
+          "ٱلْحُرِّ",
+          "ٱلْعَبْدِ",
+          "قَالَ"
+        ],
         "related_quran": [
           {
             "ref": "2:178",
@@ -132,32 +107,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে কি স্বাধীন ব্যক্তি ও দাসের মধ্যে কিসাস আছে?",
-          "de": "Gibt es im schiitischen Hadith Qisas zwischen einem freien Menschen und einem Sklaven?",
-          "en": "Is there qisas between a free person and a slave in Shia hadith?",
-          "es": "¿Hay qisas entre una persona libre y un esclavo en el hadiz chií?",
-          "fa": "آیا در حدیث شیعه میان انسان آزاد و برده قصاص هست؟",
-          "fr": "Y a-t-il un qisas entre un homme libre et un esclave dans le hadith chiite ?",
-          "id": "Apakah ada qisas antara orang merdeka dan budak dalam hadis Syiah?",
-          "ru": "Есть ли кисас между свободным человеком и рабом в шиитском хадисе?",
-          "tr": "Şii hadiste hür kişi ile köle arasında kısas var mı?",
-          "ur": "کیا شیعہ حدیث میں آزاد شخص اور غلام کے درمیان قصاص ہے؟",
-          "zh": "什叶派圣训中自由人和奴隶之间有qisas吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে স্বাধীন ব্যক্তি ও দাসের ক্ষেত্রে কিসাস সম্পর্কিত একটি শরঈ বিধান বর্ণিত হয়েছে। এটি হত্যা বা শারীরিক আঘাতের বিধানে প্রতিশোধমূলক শাস্তি ও আইনি পার্থক্য সংক্রান্ত ফিকহি আলোচনার অন্তর্ভুক্ত।",
-          "de": "Dieser Hadith nennt eine rechtliche Bestimmung über Qisas in Fällen, in denen ein freier Mensch und ein Sklave betroffen sind. Er gehört zur fiqhrechtlichen Diskussion über Vergeltungsstrafe und rechtliche Unterscheidung bei den Regeln zu Tötung oder Körperverletzung.",
-          "en": "This hadith states a legal ruling regarding qisas in cases involving a free person and a slave. It belongs to the jurisprudential discussion of retaliatory punishment and legal differentiation in homicide or bodily injury rulings.",
-          "es": "Este hadiz establece una norma jurídica sobre el qisas en casos que involucran a una persona libre y a un esclavo. Pertenece a la discusión jurisprudencial sobre el castigo retributivo y la diferenciación legal en las normas de homicidio o lesión corporal.",
-          "fa": "این حدیث حکمی فقهی درباره قصاص در موارد مربوط به انسان آزاد و برده بیان می‌کند. این روایت در بحث فقهیِ مجازات تلافی‌جویانه و تفاوت‌های حقوقی در احکام قتل یا جراحت قرار دارد.",
-          "fr": "Ce hadith énonce une règle juridique concernant le qisas dans les cas impliquant un homme libre et un esclave. Il relève de la discussion jurisprudentielle sur la peine de rétorsion et la distinction juridique dans les règles relatives à l’homicide ou aux lésions corporelles.",
-          "id": "Hadis ini menyatakan sebuah hukum fikih tentang qisas dalam kasus yang melibatkan orang merdeka dan budak. Ini termasuk dalam pembahasan fikih tentang hukuman balasan dan pembedaan hukum dalam kasus pembunuhan atau luka fisik.",
-          "ru": "Этот хадис устанавливает правовое постановление о кисасе в случаях, связанных со свободным человеком и рабом. Он относится к фикховому обсуждению возмездия и правового различия в постановлениях об убийстве или телесном повреждении.",
-          "tr": "Bu hadis, hür kişi ile köle arasındaki kısas hakkında bir fıkhî hüküm bildirir. Kasten öldürme veya bedensel zarar hükümlerinde kısas ve hukukî ayrım konusundaki fıkıh tartışmasına aittir.",
-          "ur": "یہ حدیث آزاد شخص اور غلام کے درمیان قصاص کے بارے میں ایک شرعی حکم بیان کرتی ہے۔ یہ قتل یا جسمانی نقصان کے احکام میں قصاص اور قانونی تفریق کے فقہی مباحث سے متعلق ہے۔",
-          "zh": "这段圣训说明了关于自由人和奴隶之间qisas的教法律例。它属于关于报复性刑罚以及在杀人或身体伤害判例中的法律区分的教法讨论。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

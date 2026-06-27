@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ فِي خَبَرٍ آخَرَ قَالَ اَلنَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আরেকটি বর্ণনায়, নবী صلی اللہ علیہ وآلہ وسلم বলেছেন:",
-              "de": "Und in einem anderen Bericht sagte der Prophet صلى الله عليه وآله:",
-              "en": "And in another report, the Prophet صلى الله عليه وآله said:",
-              "es": "Y en otro informe, el Profeta صلى الله عليه وآله dijo:",
-              "fa": "و در گزارش دیگری، پیامبر صلى الله عليه وآله فرمود:",
-              "fr": "Et dans un autre rapport, le Prophète صلى الله عليه وآله a dit :",
-              "id": "Dan dalam laporan lain, Nabi صلى الله عليه وآله berkata:",
-              "ru": "В другом сообщении Пророк صلى الله عليه وآله сказал:",
-              "tr": "Ve başka bir rivayette, Peygamber صلى الله عليه وآله şöyle buyurdu:",
-              "ur": "اور ایک اور روایت میں، نبی صلی اللہ علیہ وآلہ وسلم نے فرمایا:",
-              "zh": "在另一个报告中，先知صلىاللهعليه وآله说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "«أَخِّرُوا الْأَحْمَالَ فَإِنَّ الْيَدَيْنِ مُعَلَّقَةٌ وَ الرِّجْلَيْنِ مُوثَقَةٌ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "‘‘লোডিং বিলম্বিত করুন, কারণ দুইটি সামনের পা ঝুলন্ত এবং দুইটি পেছনের পা বাঁধা আছে।’’",
-              "de": "„Verzögert das Beladen, denn die beiden Vorderbeine hängen und die beiden Hinterbeine sind gebunden.“",
-              "en": "\"Delay the loading, for the two forelegs are suspended and the two hind legs are bound.\"",
-              "es": "“Retrasen la carga, porque las dos patas delanteras están suspendidas y las dos patas traseras están atadas.”",
-              "fa": "«بارگیری را به تأخیر بیندازید، زیرا دو پای جلو آویزان است و دو پای عقب بسته شده‌اند.»",
-              "fr": "«Retardez le chargement, car les deux pattes avant sont suspendues et les deux pattes arrière sont liées.»",
-              "id": "“Tunda pemuatan, karena dua kaki depan tergantung dan dua kaki belakang terikat.”",
-              "ru": "«Отложите загрузку, ибо две передние ноги висят, а две задние связаны.»",
-              "tr": "“Yüklemeyi geciktirin, çünkü iki ön ayak asılıdır ve iki arka ayak bağlıdır.”",
-              "ur": "‘‘لوڈنگ کو مؤخر کرو، کیونکہ دونوں اگلی ٹانگیں لٹکی ہوئی ہیں اور دونوں پچھلی ٹانگیں بندھی ہوئی ہیں۔’’",
-              "zh": "“延迟装载，因为两只前腿悬挂，两只后腿被绑。”"
-            },
             "word_end": 19,
             "word_start": 11
           }
@@ -75,28 +62,16 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَخِّرُوا": "delay or hold back",
-            "الرِّجْلَيْنِ": "the two hind legs",
-            "الْأَحْمَالَ": "the loads or burdens being placed on animals",
-            "الْيَدَيْنِ": "the two forelegs or front limbs",
-            "اَلنَّبِيُّ": "the Prophet صلى الله عليه وآله وسلم",
-            "خَبَرٍ": "a report or narration",
-            "مُعَلَّقَةٌ": "left suspended or unsupported",
-            "مُوثَقَةٌ": "bound or secured"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "خَبَرٍ",
+          "اَلنَّبِيُّ",
+          "أَخِّرُوا",
+          "الْأَحْمَالَ",
+          "الْيَدَيْنِ",
+          "مُعَلَّقَةٌ",
+          "الرِّجْلَيْنِ",
+          "مُوثَقَةٌ"
+        ],
         "related_quran": [
           {
             "ref": "16:90",
@@ -107,32 +82,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "নবী صلی اللہ علیہ وآلہ وسلم লোড করার সময় পশুদের সাথে কিভাবে আচরণ করার শিক্ষা দিয়েছেন?",
-          "de": "Was lehrte der Prophet صلى الله عليه وآله وسلم über den Umgang mit Tieren beim Beladen?",
-          "en": "What did the Prophet صلى الله عليه وآله وسلم teach about treating animals during loading?",
-          "es": "¿Qué enseñó el Profeta صلى الله عليه وآله وسلم sobre el trato a los animales durante la carga?",
-          "fa": "پیامبر صلى الله عليه وآله در مورد رفتار با حیوانات هنگام بارگیری چه تعلیم داد؟",
-          "fr": "Qu'a enseigné le Prophète صلى الله عليه وآله وسلم concernant le traitement des animaux lors du chargement ?",
-          "id": "Apa yang diajarkan Nabi صلى الله عليه وآله tentang memperlakukan hewan saat memuat?",
-          "ru": "Чему Пророк صلى الله عليه وآله وسلم учил относительно обращения с животными во время загрузки?",
-          "tr": "Peygamber صلى الله عليه وآله hayvanları yüklerken nasıl davranılacağını ne öğretti?",
-          "ur": "نبی صلی اللہ علیہ وآلہ وسلم نے جانوروں کو لوڈ کرتے وقت کس طرح برتاؤ کرنے کی تعلیم دی؟",
-          "zh": "先知صلىاللهعليه وآله وسلم教导如何在装载时对待动物？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি মানুষকে পশু লোড করার সময় যত্ন এবং সংযম প্রদর্শনের নির্দেশ দেয়, তাদের শারীরিক দুর্বলতাকে গুরুত্ব দেয়। এটি পশুদের প্রতি ইসলামী দয়া ও ন্যায়বিচারের নীতি এবং কঠোরতা ও অত্যাচারের নিষেধাজ্ঞা প্রতিফলিত করে।",
-          "de": "Dieser Hadith weist die Menschen an, beim Beladen von Tieren Fürsorge und Zurückhaltung zu zeigen und betont ihre körperliche Verletzlichkeit während des Vorgangs. Er spiegelt eine islamische Ethik der Barmherzigkeit und Gerechtigkeit gegenüber Tieren sowie ein Verbot von Härte und Unterdrückung wider.",
-          "en": "This hadith instructs people to show care and restraint when loading animals, emphasizing their physical vulnerability during the process. It reflects an Islamic ethic of mercy and justice toward animals and a prohibition against harshness and oppression.",
-          "es": "Este hadiz instruye a las personas a mostrar cuidado y moderación al cargar animales, enfatizando su vulnerabilidad física durante el proceso. Refleja una ética islámica de misericordia y justicia hacia los animales y una prohibición contra la dureza y la opresión.",
-          "fa": "این حدیث به مردم دستور می‌دهد هنگام بارگیری حیوانات مراقب و با ملاحظه باشند و آسیب‌پذیری جسمی آنها را تأکید می‌کند. این نشان‌دهنده اخلاق اسلامی رحمت و عدالت نسبت به حیوانات و ممنوعیت خشونت و ستم است.",
-          "fr": "Ce hadith enseigne aux gens à faire preuve de soin et de retenue lors du chargement des animaux, soulignant leur vulnérabilité physique pendant le processus. Il reflète une éthique islamique de miséricorde et de justice envers les animaux et une interdiction de la dureté et de l'oppression.",
-          "id": "Hadis ini mengajarkan orang untuk berhati-hati dan menahan diri saat memuat hewan, menekankan kerentanan fisik mereka selama proses tersebut. Ini mencerminkan etika Islam tentang belas kasih dan keadilan terhadap hewan serta larangan kekerasan dan penindasan.",
-          "ru": "Этот хадис наставляет людей проявлять заботу и сдержанность при загрузке животных, подчеркивая их физическую уязвимость в процессе. Он отражает исламскую этику милосердия и справедливости по отношению к животным и запрет на жестокость и угнетение.",
-          "tr": "Bu hadis, hayvanları yüklerken dikkatli ve ölçülü davranılması gerektiğini, onların fiziksel savunmasızlıklarını vurgular. Hayvanlara karşı merhamet ve adalet İslam ahlakını yansıtır ve sertlik ile zulmü yasaklar.",
-          "ur": "یہ حدیث لوگوں کو جانوروں کو لوڈ کرتے وقت احتیاط اور ہمدردی دکھانے کی ہدایت دیتی ہے، ان کی جسمانی کمزوری کو اجاگر کرتی ہے۔ یہ جانوروں کے ساتھ رحمت اور انصاف کے اسلامی اصول کی عکاسی کرتی ہے اور سختی اور ظلم کی ممانعت کرتی ہے۔",
-          "zh": "这段圣训教导人们在装载动物时要表现出关怀和克制，强调它们在此过程中的身体脆弱性。它反映了伊斯兰对动物的仁慈与公正伦理，禁止残酷和压迫。"
-        },
         "tags": [
           "ethics",
           "jurisprudence",

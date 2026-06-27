@@ -15,6 +15,128 @@
       "up": "/books/al-kafi:8:1:50"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "حُمَيْدُ بْنُ زِيَادٍ عَنْ عُبَيْدِ اللَّهِ بْنِ أَحْمَدَ الدِّه بْنِ أَحْمَدَ الدِّهْقَانِ عَنْ عَلِيِّ بْنِ الْحَسَنِ الطَّاطَرِيِّ عَنْ مُحَمَّدِ بْنِ زِيَادٍ بَيَّاعِ السَّابِرِيِّ عَنْ عَجْلَانَ أَبِي صَالِحٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 28,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) يَقُولُ قَتَلَ عَلِيُّ بْنُ أَبِي طَالِبٍ (عَلَيْهِ السَّلَامُ) بِيَدِهِ يَوْمَ حُنَيْنٍ أَرْبَعِينَ.",
+            "chunk_type": "body",
+            "word_end": 46,
+            "word_start": 28
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 49,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "حُمَيْدُ بْنُ زِيَادٍ",
+              "name_en": "Humayd ibn Ziyad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1552,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عُبَيْدِ اللَّهِ بْنِ أَحْمَدَ الدِّهْقَانِ",
+              "name_en": "Ubayd Allah b. Ahmad al-Dihqan",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 797,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ الْحَسَنِ الطَّاطَرِيِّ",
+              "name_en": "Ali b. al-Hasan al-Tatari",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1659,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ زِيَادٍ بَيَّاعِ السَّابِرِيِّ",
+              "name_en": "Muhammad b. Ziyad baya al-Sabiri",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 473,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَجْلَانَ أَبِي صَالِحٍ",
+              "name_en": "Ajlan Abu Salih",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "يَوْمَ حُنَيْنٍ",
+          "أَرْبَعِينَ",
+          "بِيَدِهِ",
+          "أَبُو عَبْدِ اللَّهِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "8:12",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "47:4",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "history",
+          "family"
+        ],
+        "topics": [
+          "imams_biography",
+          "events"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مهول</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 564)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -91,7 +213,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:50:16",

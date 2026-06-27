@@ -14,6 +14,139 @@
       "up": "/books/al-kafi:2:4:14"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ عَنْ إِسْمَاعِيلَ بْنِ مِهْرَانَ عَنِ الْحَسَنِ بْنِ يُوسُفَ عَنْ زَكَرِيَّا بْنِ مُحَمَّدٍ عَنْ صَالِ بْنِ الْحَكَمِ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 26,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَمِعْتُ رَجُلًا يَسْأَلُ أَبَا عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) فَقَالَ الرَّجُلُ يَقُولُ أَوَدُّكَ فَكَيْفَ أَعْلَمُ أَنَّهُ يَوَدُّنِي فَقَالَ امْتَحِنْ قَلْبَكَ فَإِنْ كُنْتَ تَوَدُّهُ فَإِنَّهُ يَوَدُّكَ",
+            "chunk_type": "body",
+            "word_end": 52,
+            "word_start": 26
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 12,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ",
+              "name_en": "Ahmad b. Muhammad b. Khalid",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 119,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "إِسْمَاعِيلَ بْنِ مِهْرَانَ",
+              "name_en": "Isma'il ibn Mihran",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1347,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحَسَنِ بْنِ يُوسُفَ",
+              "name_en": "al-Hasan b. Yusuf",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1102,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "زَكَرِيَّا بْنِ مُحَمَّدٍ",
+              "name_en": "Zakariyya b. Muhammad",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3424,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "صَالِحِ بْنِ الْحَكَمِ",
+              "name_en": "Salih b. al-Hakam",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "أَوَدُّكَ",
+          "يَوَدُّنِي",
+          "امْتَحِنْ قَلْبَكَ",
+          "أَبُو عَبْدِ اللَّهِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:103",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:55",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "social_relations"
+        ],
+        "topics": [
+          "friendship",
+          "etiquette",
+          "imams_biography"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (2/551)"
       ],
@@ -94,7 +227,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:4:14:2",

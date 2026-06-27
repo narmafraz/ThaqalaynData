@@ -13,6 +13,143 @@
       "up": "/books/al-kafi:2:2:51"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَنْهُ عَنْ أَبِيهِ عَنْ عَبْدِ اللَّهِ بْنِ الْقَاسِمِ عَنْ صَفْوَانَ الْجَمَّالِ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 12,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "شَهِدْتُ أَبَا عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) وَ اسْتَقْبَلَ الْقِبْلَةَ قَبْلَ التَّكْبِيرِ وَ قَالَ اللَّهُمَّ لَا تُؤْيِسْنِي مِنْ رَوْحِكَ وَ لَا تُقَنِّطْنِي مِنْ رَحْمَتِكَ وَ لَا تُؤْمِنِّي مَكْرَكَ فَإِنَّهُ لَا يَأْمَنُ مَكْرَ اللَّهِ إِلَّا الْقَوْمُ الْخَاسِرُونَ",
+            "chunk_type": "body",
+            "word_end": 49,
+            "word_start": 12
+          },
+          {
+            "arabic_text": "قُلْتُ جُعِلْتُ فِدَاكَ مَا سَمِعْتُ بِهَذَا مِنْ أَحَدٍ قَبْلَكَ فَقَالَ إِنَّ مِنْ أَكْبَرِ الْكَبَائِرِ عِنْدَ اللَّهِ الْيَأْسَ مِنْ رَوْحِ اللَّهِ وَ الْقُنُوطَ مِنْ رَحْمَةِ اللَّهِ وَ الْأَمْنَ مِنْ مَكْرِ اللَّهِ",
+            "chunk_type": "body",
+            "word_end": 79,
+            "word_start": 49
+          }
+        ],
+        "content_type": "supplication",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 11,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَنْهُ",
+              "name_en": "from him",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 198,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللَّهِ بْنِ الْقَاسِمِ",
+              "name_en": "Abdullah b. al-Qasim",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 203,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "صَفْوَانَ الْجَمَّالِ",
+              "name_en": "Safwan al-Jammal",
+              "position": 4,
+              "role": "companion"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "quranic_echo",
+            "phrase_ar": "رَحْمَةُ اللَّهِ",
+            "phrase_en": "Mercy of Allah"
+          }
+        ],
+        "key_terms_keys": [
+          "رَوْحِكَ",
+          "رَحْمَتِكَ",
+          "مَكْرَكَ",
+          "الْيَأْسَ",
+          "الْقُنُوطَ",
+          "الْأَمْنَ",
+          "الْكَبَائِرِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "6:27",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:53",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "7:99",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "15:44",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "worship",
+          "dua",
+          "theology"
+        ],
+        "topics": [
+          "salat",
+          "specific_supplications",
+          "divine_attributes",
+          "prayer_rulings"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (2/333)"
       ],
@@ -77,7 +214,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:2:51:3",

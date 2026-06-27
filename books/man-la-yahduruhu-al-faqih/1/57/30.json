@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ الصَّادِقُ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল-সাদিক عليه السلام বললেন:",
-              "de": "Al-Sadiq عليه السلام sagte:",
-              "en": "Al-Sadiq عليه السلام said:",
-              "es": "Al-Sadiq عليه السلام dijo:",
-              "fa": "الصادق علیه السلام فرمود:",
-              "fr": "Al-Sadiq عليه السلام a dit :",
-              "id": "Al-Sadiq عليه السلام berkata:",
-              "ru": "Аль-Садик عليه السلام сказал:",
-              "tr": "El-Sadık عليه السلام şöyle dedi:",
-              "ur": "اَلصَّادِقُ علیہ السلام نے فرمایا:",
-              "zh": "الصادقعليهالسلام说："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "«كَانَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ وَقَعَ عَنْ فَرَسٍ فَشُجَّ شِقُّهُ الْأَيْمَنُ فَصَلَّى بِهِمْ جَالِسًا فِي غُرْفَةِ أُمِّ إِبْرَاهِيمَ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“নবী صلى الله عليه وآله وسلم ঘোড়া থেকে পড়ে গিয়েছিলেন, এবং তাঁর শরীরের ডান পাশে আঘাত লেগেছিল, তাই তিনি উম্ম ইব্রাহিমের ঘরে বসে তাদের সঙ্গে সালাত (নামাজ) পড়ালেন।”",
-              "de": "„Der Prophet صلى الله عليه وآله وسلم fiel vom Pferd, und die rechte Seite seines Körpers wurde verletzt, so dass er das Salat (Gebet) sitzend im Zimmer von Umm Ibrahim leitete.“",
-              "en": "\"The Prophet صلى الله عليه وآله وسلم fell from a horse, and the right side of his body was injured, so he led them in salat (prayer) while seated in the room of Umm Ibrahim.\"",
-              "es": "“El Profeta صلى الله عليه وآله وسلم cayó de un caballo y el lado derecho de su cuerpo resultó herido, por lo que dirigió la salat (oración) sentado en la habitación de Umm Ibrahim.”",
-              "fa": "«پیامبر صلى الله عليه وآله وسلم از اسب افتاد و سمت راست بدنشان آسیب دید، بنابراین در اتاق ام ابراهیم نشسته به آنها نماز (صلات) اقامه کرد.»",
-              "fr": "«Le Prophète صلى الله عليه وآله وسلم est tombé de son cheval, et le côté droit de son corps a été blessé, alors il a dirigé la salat (prière) assis dans la chambre d'Umm Ibrahim.»",
-              "id": "“Nabi صلى الله عليه وآله وسلم jatuh dari kuda, dan sisi kanan tubuhnya terluka, sehingga beliau memimpin salat (shalat) sambil duduk di kamar Umm Ibrahim.”",
-              "ru": "«Пророк صلى الله عليه وآله وسلم упал с лошади, и правая сторона его тела была ранена, поэтому он вел салат (молитву), сидя в комнате Умм Ибрахим.»",
-              "tr": "“Peygamber صلى الله عليه وآله وسلم bir attan düştü ve vücudunun sağ tarafı yaralandı, bu yüzden Umm İbrahim’in odasında oturarak onlarla birlikte salat (namaz) kıldırdı.”",
-              "ur": "«نبی صلی اللہ علیہ وآلہ وسلم گھوڑے سے گر گئے، اور ان کے دائیں جانب کو چوٹ لگی، لہٰذا آپ نے ام ابراہیم کے کمرے میں بیٹھ کر ان کے ساتھ نماز پڑھائی۔»",
-              "zh": "“先知صلىاللهعليه وآله وسلم从马背上摔下，身体右侧受伤，因此他在أمإبراهيم的房间里坐着带领他们进行salat（祈祷）。”"
-            },
             "word_end": 24,
             "word_start": 4
           }
@@ -102,26 +89,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "النَّبِيُّ": "the Prophet صلى الله عليه وآله وسلم",
-            "جَالِسًا": "while sitting",
-            "شِقُّهُ الْأَيْمَنُ": "the right side of his body",
-            "غُرْفَةِ أُمِّ إِبْرَاهِيمَ": "the room of Umm Ibrahim",
-            "فَرَسٍ": "a horse from which he fell",
-            "فَصَلَّى": "he performed salat (prayer) / led in prayer"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "النَّبِيُّ",
+          "فَرَسٍ",
+          "شِقُّهُ الْأَيْمَنُ",
+          "فَصَلَّى",
+          "جَالِسًا",
+          "غُرْفَةِ أُمِّ إِبْرَاهِيمَ"
+        ],
         "related_quran": [
           {
             "ref": "2:286",
@@ -132,32 +107,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "নবী صلى الله عليه وآله وسلم কি কখনও আঘাতের কারণে বসে সালাত (নামাজ) পরিচালনা করেছেন?",
-          "de": "Hat der Prophet صلى الله عليه وآله وسلم jemals aufgrund einer Verletzung das Salat (Gebet) sitzend geleitet?",
-          "en": "Did the Prophet صلى الله عليه وآله وسلم ever lead the people in salat (prayer) while seated due to injury?",
-          "es": "¿Alguna vez el Profeta صلى الله عليه وآله وسلم dirigió la salat (oración) sentado debido a una lesión?",
-          "fa": "آیا پیامبر صلى الله عليه وآله وسلم به دلیل جراحت، مردم را در صلات (نماز) نشسته رهبری کردند؟",
-          "fr": "Le Prophète صلى الله عليه وآله وسلم a-t-il déjà dirigé la salat (prière) assis en raison d'une blessure ?",
-          "id": "Apakah Nabi صلى الله عليه وآله وسلم pernah memimpin salat (shalat) sambil duduk karena cedera?",
-          "ru": "Вел ли Пророк صلى الله عليه وآله وسلم когда-либо салат (молитву) сидя из-за травмы?",
-          "tr": "Peygamber صلى الله عليه وآله وسلم yaralanma nedeniyle oturarak insanlara salat (namaz) kıldırdı mı?",
-          "ur": "کیا نبی صلی اللہ علیہ وآلہ وسلم کبھی چوٹ کی وجہ سے بیٹھ کر لوگوں کی نماز کی امامت فرمائی؟",
-          "zh": "先知صلىاللهعليه وآله وسلم是否曾因受伤而坐着带领众人进行salat（祈祷）？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বর্ণনা করে যে নবী صلى الله عليه وآله وسلم ঘোড়া থেকে পড়ে আহত হন এবং তারপর বসে সালাত (নামাজ) পরিচালনা করেন। এটি জুম্মার নামাজের সাথে একটি ঐতিহাসিক ঘটনা এবং শারীরিক আঘাতের কারণে বসে নেতৃত্ব দেওয়ার ঘটনা নির্দেশ করে।",
-          "de": "Dieser Hadith berichtet, dass der Prophet صلى الله عليه وآله وسلم nach einem Sturz vom Pferd verletzt wurde und dann das Salat (Gebet) sitzend leitete. Er hebt ein historisches Ereignis im Zusammenhang mit dem Gemeinschaftsgebet hervor und zeigt die Praxis der sitzenden Leitung aufgrund einer körperlichen Verletzung.",
-          "en": "This hadith reports that the Prophet صلى الله عليه وآله وسلم was injured after falling from a horse and then led the people in salat (prayer) while seated. It highlights a historical incident connected to congregational prayer and indicates the occurrence of seated leadership in prayer due to physical injury.",
-          "es": "Este hadiz informa que el Profeta صلى الله عليه وآله وسلم resultó herido tras caer de un caballo y luego dirigió la salat (oración) sentado. Destaca un incidente histórico relacionado con la oración en congregación e indica la ocurrencia de liderazgo sentado en la oración debido a una lesión física.",
-          "fa": "این حدیث گزارش می‌دهد که پیامبر صلى الله عليه وآله وسلم پس از افتادن از اسب زخمی شدند و سپس در حالی که نشسته بودند، مردم را در صلات (نماز) رهبری کردند. این حادثه تاریخی مرتبط با نماز جماعت و رهبری نشسته به دلیل جراحت جسمی را نشان می‌دهد.",
-          "fr": "Ce hadith rapporte que le Prophète صلى الله عليه وآله وسلم a été blessé après être tombé de son cheval, puis a dirigé la salat (prière) assis. Il met en lumière un incident historique lié à la prière en congrégation et indique la pratique de la direction assise en raison d'une blessure physique.",
-          "id": "Hadis ini melaporkan bahwa Nabi صلى الله عليه وآله وسلم terluka setelah jatuh dari kuda dan kemudian memimpin salat (shalat) sambil duduk. Ini menyoroti kejadian sejarah terkait salat berjamaah dan kepemimpinan duduk karena cedera fisik.",
-          "ru": "Этот хадис сообщает, что Пророк صلى الله عليه وآله وسلم был ранен после падения с лошади и затем вел салат (молитву), сидя. Он подчеркивает исторический случай, связанный с коллективной молитвой, и указывает на руководство молитвой в сидячем положении из-за физической травмы.",
-          "tr": "Bu hadis, Peygamber صلى الله عليه وآله وسلم'in attan düşüp yaralandığını ve daha sonra oturarak insanlara salat (namaz) kıldırdığını bildirir. Bu, cemaat namazı ile ilgili tarihi bir olayı ve fiziksel yaralanma nedeniyle oturarak liderlik yapılmasını vurgular.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ نبی صلی اللہ علیہ وآلہ وسلم گھوڑے سے گر کر زخمی ہو گئے اور پھر بیٹھ کر لوگوں کی امامت فرمائی۔ یہ واقعہ جماعت کی نماز اور جسمانی چوٹ کی وجہ سے بیٹھ کر قیادت کرنے کی نشاندہی کرتا ہے۔",
-          "zh": "这则圣训报告先知صلىاللهعليه وآله وسلم从马背上摔下受伤，随后坐着带领众人进行salat（祈祷）。它强调了与集体祈祷相关的历史事件，并指出因身体受伤而坐着领导祈祷的情况。"
-        },
         "tags": [
           "worship",
           "jurisprudence",

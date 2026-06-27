@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رَوَى يَحْيَى بْنُ أَبِي عِمْرَانَ عَنْ يُونُسَ عَنْ رَجُلٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ইয়াহিয়া ইবনে আবি ইমরান ইউনুস থেকে, একজন ব্যক্তির থেকে, আবু আবদুল্লাহ علیہ السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Yahya ibn Abi Imran berichtete von Yunus, von einem Mann, von Abu Abdullah عليه السلام, der sagte:",
-              "en": "Yahya ibn Abi Imran narrated from Yunus, from a man, from Abu Abdullah عليه السلام, who said:",
-              "es": "Yahya ibn Abi Imran narró de Yunus, de un hombre, de Abu Abdullah عليه السلام, quien dijo:",
-              "fa": "یحیی بن ابی عمران از یونس، از مردی، از ابو عبدالله علیه السلام روایت کرده است که فرمود:",
-              "fr": "Yahya ibn Abi Imran a rapporté de Yunus, d'un homme, d'Abu Abdullah عليه السلام, qui a dit :",
-              "id": "Yahya ibn Abi Imran meriwayat dari Yunus, dari seorang pria, dari Abu Abdullah علیه السلام, yang berkata:",
-              "ru": "Яхья ибн Аби Имран передал от Юнуса, от мужчины, от Абу Абдуллаха عليه السلام, который сказал:",
-              "tr": "Yahya ibn Abi İmran, Yunus'tan, bir adamdan, Ebu Abdullah'a (aleyhisselam) şöyle dedi:",
-              "ur": "یحییٰ ابن ابی عمران نے یونس سے روایت کی، ایک شخص سے، ابو عبداللہ علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "يحيىابنيأبيعمرانروىعنيونسعنرجلعنأبوعبداللهعليهالسلامقال:"
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "الْجَدُّ وَالْجَدَّةُ مِنْ قِبَلِ الْأَبِ وَالْجَدُّ وَالْجَدَّةُ مِنْ قِبَلِ الْأُمِّ كُلُّهُمْ يَرِثُونَ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "বাবার পক্ষ থেকে দাদা ও দাদি, এবং মায়ের পক্ষ থেকে নানু ও নানি, সবাই উত্তরাধিকারী হন।",
-              "de": "Der Großvater und die Großmutter väterlicherseits und der Großvater und die Großmutter mütterlicherseits erben alle.",
-              "en": "The grandfather and grandmother from the father's side, and the grandfather and grandmother from the mother's side, all of them inherit.",
-              "es": "El abuelo y la abuela por parte del padre, y el abuelo y la abuela por parte de la madre, todos ellos heredan.",
-              "fa": "پدربزرگ و مادربزرگ از طرف پدر و پدربزرگ و مادربزرگ از طرف مادر، همه آنها وارث هستند.",
-              "fr": "Le grand-père et la grand-mère du côté paternel, et le grand-père et la grand-mère du côté maternel, tous héritent.",
-              "id": "Kakek dan nenek dari pihak ayah, dan kakek serta nenek dari pihak ibu, semuanya mewarisi.",
-              "ru": "Дедушка и бабушка со стороны отца, а также дедушка и бабушка со стороны матери — все они наследуют.",
-              "tr": "Baba tarafından büyükbaba ve büyükanne, anne tarafından büyükbaba ve büyükanne, hepsi mirasçı olurlar.",
-              "ur": "دادا اور دادی والد کی طرف سے، اور نانا اور نانی والدہ کی طرف سے، سب وارث ہوتے ہیں۔",
-              "zh": "الجدوالجدةمنجهةالأبوالجدوالجدةمنجهةالأمجميعهميرثون."
-            },
             "word_end": 28,
             "word_start": 16
           }
@@ -111,25 +98,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْجَدَّةُ": "grandmother",
-            "الْجَدُّ": "grandfather",
-            "مِنْ قِبَلِ الْأَبِ": "from the father's side",
-            "مِنْ قِبَلِ الْأُمِّ": "from the mother's side",
-            "يَرِثُونَ": "they inherit"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْجَدُّ",
+          "الْجَدَّةُ",
+          "مِنْ قِبَلِ الْأَبِ",
+          "مِنْ قِبَلِ الْأُمِّ",
+          "يَرِثُونَ"
+        ],
         "related_quran": [
           {
             "ref": "4:7",
@@ -144,32 +119,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামী উত্তরাধিকার আইনে কি দাদা-দাদি উভয় পক্ষ থেকে উত্তরাধিকারী হন?",
-          "de": "Erben sowohl die Großeltern väterlicherseits als auch mütterlicherseits nach islamischem Erbrecht?",
-          "en": "Do both paternal and maternal grandparents inherit in Islamic inheritance law?",
-          "es": "¿Heredan tanto los abuelos paternos como maternos según la ley islámica de herencia?",
-          "fa": "آیا در قانون ارث اسلامی، پدربزرگ و مادربزرگ هر دو طرف ارث می‌برند؟",
-          "fr": "Les grands-parents paternels et maternels héritent-ils tous deux selon la loi islamique sur l'héritage ?",
-          "id": "Apakah kakek dan nenek dari pihak ayah dan ibu keduanya mewarisi dalam hukum waris Islam?",
-          "ru": "Наследуют ли дедушки и бабушки как по отцовской, так и по материнской линии согласно исламскому наследственному праву?",
-          "tr": "İslami miras hukukunda hem baba hem anne tarafından büyükbaba ve büyükanne mirasçı olur mu?",
-          "ur": "کیا اسلامی وراثت کے قانون میں دادا دادی دونوں طرف سے وارث ہوتے ہیں؟",
-          "zh": "在伊斯兰继承法中父系和母系祖父母都继承遗产吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি উত্তরাধিকার সংক্রান্ত একটি আইনি বিধান ব্যাখ্যা করে, যা নিশ্চিত করে যে দাদা-দাদি উভয় পক্ষ থেকে উত্তরাধিকারী হন। এটি উত্তরাধিকার আইনে আত্মীয়তার ফিকহী বিবেচনাকে প্রতিফলিত করে।",
-          "de": "Dieser Hadith stellt eine rechtliche Regelung zur Erbschaft dar und bestätigt, dass Großeltern sowohl väterlicher- als auch mütterlicherseits zu den Erben gehören. Er spiegelt die juristische Behandlung von Verwandtschaftsverhältnissen im Erbrecht wider.",
-          "en": "This hadith states a legal ruling on inheritance, affirming that grandparents from both the paternal and maternal sides are included among inheritors. It reflects the juristic treatment of kinship ties in the laws of inheritance.",
-          "es": "Este hadiz establece una regla legal sobre la herencia, afirmando que los abuelos tanto paternos como maternos están incluidos entre los herederos. Refleja el tratamiento jurídico de los lazos de parentesco en las leyes de herencia.",
-          "fa": "این حدیث حکم شرعی ارث را بیان می‌کند که پدربزرگ و مادربزرگ از هر دو طرف پدری و مادری از وراث محسوب می‌شوند. این نشان‌دهنده نگاه فقهی به روابط خویشاوندی در قوانین ارث است.",
-          "fr": "Ce hadith énonce une règle juridique sur l'héritage, affirmant que les grands-parents du côté paternel et maternel font tous partie des héritiers. Il reflète le traitement juridique des liens de parenté dans les lois successorales.",
-          "id": "Hadis ini menyatakan hukum waris bahwa kakek dan nenek dari pihak ayah dan ibu semuanya termasuk ahli waris. Ini mencerminkan perlakuan fikih terhadap hubungan kekerabatan dalam hukum waris.",
-          "ru": "Этот хадис излагает правовое постановление о наследовании, подтверждая, что дедушки и бабушки как по отцовской, так и по материнской линии являются наследниками. Это отражает юридическое отношение к родственным связям в законах наследования.",
-          "tr": "Bu hadis, mirasla ilgili hukuki hükmü belirtir ve hem baba hem anne tarafından büyükbaba ve büyükanne mirasçı olarak dahil edilir. Bu, miras hukukunda akrabalık bağlarının fıkhî muamelesini yansıtır.",
-          "ur": "یہ حدیث وارثت کے قانونی حکم کو بیان کرتی ہے کہ دادا دادی دونوں طرف سے وارث ہوتے ہیں۔ یہ وراثت کے قوانین میں رشتہ داری کے فقہی لحاظ کو ظاہر کرتی ہے۔",
-          "zh": "هذاالحديثيذكرحكمشرعيحولالميراثمؤكداأنالأجدادمنجهتيالأبوالأممشمولونبالوراثة.يعكسالمعاملةالفقهيةلروابطالنسبفيقوانينالميراث."
-        },
         "tags": [
           "jurisprudence",
           "family",

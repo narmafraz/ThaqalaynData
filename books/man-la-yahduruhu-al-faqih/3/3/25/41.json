@@ -17,61 +17,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "٤٤٥٦ - وَفِي رِوَايَةِ مُوسَى بْنِ بَكْرٍ عَنْ زُرَارَةَ بْنِ أَعْيَنَ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মূসা ইবনে বাকরের বর্ণনায়, জুরারা ইবনে আয়ানের কাছ থেকে, আবু জাফর عليه السلام থেকে, তিনি বললেন:",
-              "de": "In der Überlieferung von Mūsā ibn Bakr, von Zurārah ibn Aʿyan, von Abū Jaʿfar عليه السلام, sagte er:",
-              "en": "In the narration of Mūsā ibn Bakr, from Zurārah ibn Aʿyan, from Abū Jaʿfar عليه السلام, he said:",
-              "es": "En la narración de Mūsā ibn Bakr, de Zurārah ibn Aʿyan, de Abū Jaʿfar عليه السلام, dijo:",
-              "fa": "در روایت موسی بن بکر، از زراره بن عیان، از ابوجعفر علیه السلام، فرمود:",
-              "fr": "Dans la narration de Mūsā ibn Bakr, de Zurārah ibn Aʿyan, d'Abū Jaʿfar عليه السلام, il a dit :",
-              "id": "Dalam riwayat Mūsā ibn Bakr, dari Zurārah ibn Aʿyan, dari Abū Jaʿfar علیه السلام, beliau berkata:",
-              "ru": "В передаче Мусы ибн Бакра, от Зурары ибн Айяна, от Абу Джафара عليه السلام, он сказал:",
-              "tr": "Mūsā ibn Bakr rivayetinde, Zurārah ibn Aʿyan'dan, Abū Jaʿfar علیه السلام'dan şöyle dedi:",
-              "ur": "موسى ابن بکر کی روایت میں، زرارہ ابن عیان سے، ابو جعفر علیہ السلام سے روایت ہے، انہوں نے فرمایا:",
-              "zh": "在穆薩伊本巴克爾的傳述中，來自祖拉拉伊本阿揚，來自阿布賈法爾عليهالسلام，他說："
-            },
             "word_end": 17,
             "word_start": 0
           },
           {
             "arabic_text": "سُئِلَ عَنْ رَجُلٍ كَانَتْ عِنْدَهُ امْرَأَةٌ فَزَنَى بِأُمِّهَا أَوْ بِابْنَتِهَا أَوْ بِأُخْتِهَا فَقَالَ: «مَا حَرَّمَ حَرَامٌ قَطُّ حَلَالًا امْرَأَتُهُ لَهُ حَلَالٌ».",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "একজন পুরুষের একটি স্ত্রী ছিল, তারপর সে তার মা, মেয়ে বা বোনের সঙ্গে জিনায়াত করেছিল। তিনি বললেন: \"কখনও কোনো হারাম জিনিস হালালকে হারাম করে না। তার স্ত্রী তার জন্য হালাল।\"",
-              "de": "Er wurde gefragt nach einem Mann, der eine Frau hatte und dann mit ihrer Mutter, Tochter oder Schwester Unzucht beging. Er sagte: „Eine verbotene Tat hat niemals etwas Erlaubtes verboten. Seine Frau ist ihm erlaubt.“",
-              "en": "He was asked about a man who had a wife, then committed zina with her mother, her daughter, or her sister. So he said: “An unlawful act has never made a lawful thing unlawful. His wife is lawful for him.”",
-              "es": "Le preguntaron acerca de un hombre que tenía esposa, luego cometió zina con la madre, hija o hermana de ella. Él dijo: “Un acto ilícito nunca ha hecho que algo lícito sea ilícito. Su esposa es lícita para él.”",
-              "fa": "از او پرسیده شد درباره مردی که همسری داشت، سپس با مادرش، دخترش یا خواهرش زنا کرد. پس فرمود: «هیچ حرامی هرگز حلال را حرام نمی‌کند. همسرش برای او حلال است.»",
-              "fr": "On lui a demandé au sujet d’un homme qui avait une femme, puis a commis un zina avec sa mère, sa fille ou sa sœur. Il a dit : « Un acte illicite n’a jamais rendu licite ce qui était illicite. Sa femme lui est licite. »",
-              "id": "Dia ditanya tentang seorang pria yang memiliki istri, kemudian berzina dengan ibu, putri, atau saudara perempuannya. Maka beliau berkata: “Sesuatu yang haram tidak pernah menjadikan yang halal haram. Istrinya halal baginya.”",
-              "ru": "Его спросили о человеке, у которого была жена, а затем он совершил зина с ее матерью, дочерью или сестрой. Он сказал: «Незаконный поступок никогда не делает законное незаконным. Его жена для него дозволена.»",
-              "tr": "Bir adamın karısı vardı, sonra onun annesi, kızı veya kız kardeşi ile zina etti diye soruldu. O da dedi ki: “Hiçbir haram, helal olanı haram kılmaz. Onun karısı ona helaldir.”",
-              "ur": "ان سے پوچھا گیا کہ ایک آدمی کی ایک بیوی تھی، پھر اس نے اس کی ماں، بیٹی یا بہن کے ساتھ زنا کیا۔ تو انہوں نے کہا: \"کبھی بھی کوئی حرام چیز حلال چیز کو حرام نہیں کرتی۔ اس کی بیوی اس کے لیے حلال ہے۔\"",
-              "zh": "有人问及一男子有妻，后与其母、女或姐妹犯奸淫。他说：“非法之事从未使合法之事非法。他的妻子对他是合法的。”"
-            },
             "word_end": 38,
             "word_start": 17
           },
           {
             "arabic_text": "وَقَالَ: «لَا بَأْسَ إِذَا زَنَى رَجُلٌ بِامْرَأَةٍ أَنْ يَتَزَوَّجَ بِهَا بَعْدُ وَضَرَبَ مَثَلَ ذَلِكَ مَثَلَ رَجُلٍ سَرَقَ مِنْ تَمْرَةِ نَخْلَةٍ ثُمَّ اشْتَرَاهَا بَعْدُ وَلَا بَأْسَ أَنْ يَتَزَوَّجَهَا بَعْدُ أُمَّهَا أَوِ ابْنَتَهَا أَوْ أُخْتَهَا وَإِنْ كَانَتْ تَحْتَهُ الْمَرْأَةُ، فَتَزَوَّجَ أُمَّهَا أَوِ ابْنَتَهَا أَوْ أُخْتَهَا فَدَخَلَ بِهَا ثُمَّ عَلِمَ فَارَقَ الْأَخِيرَةَ وَالْأُولَى امْرَأَتُهُ وَلَمْ يَقْرَبِ امْرَأَتَهُ حَتَّى يَسْتَبْرِئَ رَحِمَ الَّتِي فَارَقَ وَإِنْ زَنَى رَجُلٌ بِامْرَأَةِ ابْنِهِ أَوِ امْرَأَةِ أَبِيهِ أَوْ بِجَارِيَةِ ابْنِهِ أَوْ بِجَارِيَةِ أَبِيهِ فَإِنَّ ذَلِكَ لَا يُحَرِّمُهَا عَلَى زَوْجِهَا وَلَا تَحْرُمُ الْجَارِيَةُ عَلَى سَيِّدِهَا وَإِنَّمَا يُحَرِّمُ ذَلِكَ إِذَا كَانَ ذَلِكَ مِنْهُ بِالْجَارِيَةِ وَهِيَ حَلَالٌ فَلَا تَحِلُّ تِلْكَ الْجَارِيَةُ أَبَدًا لِابْنِهِ وَلَا لِأَبِيهِ وَإِذَا تَزَوَّجَ امْرَأَةً تَزْوِيجًا حَلَالًا فَلَا تَحِلُّ تِلْكَ الْمَرْأَةُ لِابْنِهِ وَلَا لِأَبِيهِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: “যদি একজন পুরুষ কোনো নারীর সঙ্গে জিনায়াত করে, তারপর তার সঙ্গে বিয়ে করতেও কোনো সমস্যা নেই।” তিনি উদাহরণ দিলেন এমন একজন ব্যক্তির, যিনি খেজুর চুরি করেছিলেন, পরে তা কিনে নিয়েছিলেন। “এবং তার মায়ের, মেয়ের বা বোনের সঙ্গে বিয়ে করতেও কোনো সমস্যা নেই। আর যদি নারী তার অধীনে থাকে, তারপর সে তার মায়ের, মেয়ের বা বোনের সঙ্গে বিয়ে করে এবং তার সঙ্গে সম্পর্ক স্থাপন করে, পরে জানলে, সে শেষটিকে ছেড়ে দেয়, আর প্রথমটি তার স্ত্রী হয়। এবং সে তার স্ত্রীর কাছে যায় না যতক্ষণ না যাকে সে ছেড়ে দিয়েছে তার গর্ভস্থ অবস্থা পরিষ্কার হয়। আর যদি কোনো পুরুষ তার পুত্রের স্ত্রী, বা তার পিতার স্ত্রী, বা তার পুত্রের দাসী, বা তার পিতার দাসীর সঙ্গে জিনায়াত করে, তবে তা তাকে তার স্বামীর জন্য হারাম করে না, এবং দাসী তার মালিকের জন্য হারাম হয় না। বরং এটি তখনই হারাম হয় যখন সে দাসী তার জন্য হালাল ছিল এবং সে তার সঙ্গে জিনায়াত করেছিল; তখন সেই দাসী কখনোই তার পুত্র বা পিতার জন্য হালাল হয় না। আর যখন সে কোনো মহিলার সঙ্গে হালাল বিয়ে করে, তখন সেই মহিলা তার পুত্র বা পিতার জন্য হালাল হয় না।”",
-              "de": "Und er sagte: „Es ist kein Schaden, wenn ein Mann mit einer Frau Unzucht begeht und sie danach heiratet.“ Er gab das Beispiel eines Mannes, der eine Dattel von einer Dattelpalme stahl und sie dann kaufte. „Und es ist kein Schaden, wenn er danach ihre Mutter, Tochter oder Schwester heiratet. Und wenn die Frau unter ihm ist, dann heiratet er ihre Mutter, Tochter oder Schwester und hat Verkehr mit ihr, dann erfährt er es, trennt sich von der Letzteren, während die Erste seine Frau ist. Und er darf sich seiner Frau nicht nähern, bis die Gebärmutter derjenigen, von der er sich getrennt hat, gereinigt ist. Und wenn ein Mann mit der Frau seines Sohnes, oder der Frau seines Vaters, oder der Sklavin seines Sohnes, oder der Sklavin seines Vaters Unzucht begeht, macht das sie nicht für ihren Ehemann verboten, noch wird die Sklavin für ihren Herrn verboten. Es wird nur verboten, wenn es mit der Sklavin geschah, während sie für ihn erlaubt war; dann ist diese Sklavin niemals für seinen Sohn oder seinen Vater erlaubt. Und wenn er eine Frau in einer erlaubten Ehe heiratet, ist diese Frau weder für seinen Sohn noch für seinen Vater erlaubt.“",
-              "en": "And he said: “There is no harm, if a man commits zina with a woman, in marrying her afterward.” He gave the example of that as the example of a man who stole a date from a palm tree, then bought it afterward. “And there is no harm in his marrying afterward her mother, her daughter, or her sister. And if the woman is under him, then he marries her mother, her daughter, or her sister and enters upon her, then later comes to know, he separates from the latter, while the first is his wife. And he must not approach his wife until the womb of the one from whom he separated is cleared. And if a man commits zina with his son’s wife, or his father’s wife, or his son’s slave-girl, or his father’s slave-girl, then that does not make her unlawful for her husband, nor does the slave-girl become unlawful for her master. Rather, that only makes it unlawful when that was by him with the slave-girl while she was lawful for him; then that slave-girl is never lawful for his son nor for his father. And when he marries a woman in a lawful marriage, then that woman is not lawful for his son nor for his father.”",
-              "es": "Y dijo: “No hay daño si un hombre comete zina con una mujer y luego se casa con ella.” Dio el ejemplo de un hombre que robó una dátil de una palmera y luego la compró. “Y no hay daño en que se case después con la madre, la hija o la hermana de ella. Y si la mujer está bajo él, luego se casa con la madre, la hija o la hermana y tiene relaciones con ella, luego se da cuenta, se separa de la última, mientras que la primera es su esposa. Y no debe acercarse a su esposa hasta que el útero de la que dejó esté limpio. Y si un hombre comete zina con la esposa de su hijo, o la esposa de su padre, o la esclava de su hijo, o la esclava de su padre, eso no la hace ilícita para su esposo, ni la esclava se vuelve ilícita para su amo. Más bien, eso solo la hace ilícita si fue con la esclava cuando ella era lícita para él; entonces esa esclava nunca será lícita para su hijo ni para su padre. Y cuando se casa con una mujer en matrimonio lícito, esa mujer no es lícita para su hijo ni para su padre.”",
-              "fa": "و فرمود: «اشکالی ندارد اگر مردی با زنی زنا کند، سپس با او ازدواج کند.» مثالی زد مانند مردی که خرمایی از درخت نخل دزدید، سپس آن را خرید. «و اشکالی ندارد که بعداً با مادر، دختر یا خواهر او ازدواج کند. و اگر زن زیر او باشد، سپس با مادر، دختر یا خواهرش ازدواج کند و با او داخل شود، سپس بداند، از آخری جدا شود، در حالی که اولی همسرش است. و تا رحم زنی که جدا شده پاک نشود، نباید به همسرش نزدیک شود. و اگر مردی با زن پسرش، یا زن پدرش، یا کنیز پسرش، یا کنیز پدرش زنا کند، این باعث نمی‌شود که آن زن برای شوهرش حرام شود، و کنیز هم برای صاحبش حرام نمی‌شود. بلکه فقط زمانی حرام است که آن کنیز برای او حلال بوده و او با او زنا کرده باشد؛ پس آن کنیز هرگز برای پسر یا پدرش حلال نیست. و اگر مردی با زنی ازدواج شرعی کند، آن زن برای پسر یا پدرش حلال نیست.»",
-              "fr": "Et il a dit : « Il n’y a pas de mal si un homme commet un zina avec une femme, puis l’épouse ensuite. » Il a donné l’exemple d’un homme qui a volé une datte d’un palmier, puis l’a achetée ensuite. « Et il n’y a pas de mal à ce qu’il épouse ensuite sa mère, sa fille ou sa sœur. Et si la femme est sous lui, puis il épouse sa mère, sa fille ou sa sœur et a des relations avec elle, puis il s’en rend compte, il se sépare de la dernière, tandis que la première est son épouse. Et il ne doit pas approcher son épouse tant que l’utérus de celle dont il s’est séparé n’est pas purifié. Et si un homme commet un zina avec la femme de son fils, ou la femme de son père, ou l’esclave de son fils, ou l’esclave de son père, cela ne la rend pas illicite pour son mari, ni l’esclave illicite pour son maître. Cela ne devient illicite que si cela a été fait avec l’esclave alors qu’elle lui était licite ; alors cette esclave ne sera jamais licite pour son fils ni pour son père. Et lorsqu’il épouse une femme dans un mariage licite, cette femme n’est pas licite pour son fils ni pour son père. »",
-              "id": "Dan beliau berkata: “Tidak mengapa jika seorang pria berzina dengan seorang wanita, lalu menikahinya setelah itu.” Beliau memberi contoh seperti seorang pria yang mencuri kurma dari pohon kurma, kemudian membelinya setelah itu. “Dan tidak mengapa menikahi ibu, putri, atau saudara perempuannya setelah itu. Dan jika wanita itu berada di bawahnya, lalu dia menikahi ibu, putri, atau saudara perempuannya dan berhubungan dengannya, kemudian mengetahui, dia berpisah dari yang terakhir, sementara yang pertama adalah istrinya. Dan dia tidak boleh mendekati istrinya sampai rahim wanita yang dia pisahkan bersih. Dan jika seorang pria berzina dengan istri anaknya, atau istri ayahnya, atau budak perempuan anaknya, atau budak perempuan ayahnya, maka itu tidak membuatnya haram bagi suaminya, dan budak perempuan itu tidak menjadi haram bagi tuannya. Namun itu hanya haram jika itu dilakukan oleh dia dengan budak perempuan yang halal baginya; maka budak perempuan itu tidak pernah halal bagi anaknya maupun ayahnya. Dan jika dia menikahi seorang wanita dalam pernikahan yang sah, maka wanita itu tidak halal bagi anaknya maupun ayahnya.”",
-              "ru": "И он сказал: «Нет вреда, если мужчина совершил зина с женщиной, а затем женился на ней.» Он привел пример мужчины, который украл финик с пальмы, а затем купил его. «И нет вреда в том, чтобы жениться после на ее матери, дочери или сестре. И если женщина находится под ним, затем он женится на ее матери, дочери или сестре и вступает с ней в связь, затем узнает, он разрывает с последней, в то время как первая — его жена. И он не должен приближаться к своей жене, пока не очистится матка той, с которой он разошелся. И если мужчина совершил зина с женой своего сына, или женой своего отца, или рабыней своего сына, или рабыней своего отца, это не делает ее запретной для ее мужа, и рабыня не становится запретной для своего хозяина. Это становится запретным только если это было с рабыней, которая была для него дозволена; тогда эта рабыня никогда не будет дозволена для его сына или отца. И когда он женится на женщине в законном браке, эта женщина не дозволена для его сына или отца.»",
-              "tr": "Ve dedi ki: “Bir adam bir kadınla zina ederse, sonra onunla evlenmesinde bir sakınca yoktur.” Bunun örneğini, hurma çalan bir adamın sonra onu satın almasına benzetti. “Ve sonra onun annesi, kızı veya kız kardeşiyle evlenmesinde bir sakınca yoktur. Ve kadın onun altında ise, sonra onun annesi, kızı veya kız kardeşiyle evlenir ve onunla ilişkiye girer, sonra anlar, sonuncudan ayrılır, ilk ise karısı olur. Ve ayrıldığı kadının rahmi temizlenene kadar karısına yaklaşmamalıdır. Ve bir adam oğlunun karısı, babasının karısı, oğlunun cariyesi veya babasının cariyesi ile zina ederse, bu kadını kocasına haram kılmaz, cariyeyi de efendisine haram kılmaz. Ancak bu, cariye kendisi için helal iken onun tarafından yapılırsa haram olur; o cariye asla oğluna veya babasına helal olmaz. Ve bir kadınla helal bir evlilik yaparsa, o kadın oğluna veya babasına helal olmaz.”",
-              "ur": "اور انہوں نے کہا: \"اگر کوئی مرد کسی عورت کے ساتھ زنا کرے تو اس کے بعد اس سے شادی کرنے میں کوئی حرج نہیں۔\" انہوں نے اس کی مثال اس شخص کی دی جو کھجور چوری کرے پھر اسے خرید لے۔ \"اور اس کے بعد اس کی ماں، بیٹی یا بہن سے شادی کرنے میں کوئی حرج نہیں۔ اور اگر عورت اس کے نیچے ہو، پھر وہ اس کی ماں، بیٹی یا بہن سے شادی کرے اور اس کے ساتھ داخل ہو، پھر بعد میں جان لے، تو وہ آخری سے جدا ہو جائے، جبکہ پہلی اس کی بیوی ہو۔ اور وہ اپنی بیوی کے قریب نہ جائے جب تک کہ جس سے وہ جدا ہوا ہے اس کا رحم صاف نہ ہو جائے۔ اور اگر کوئی مرد اپنے بیٹے کی بیوی، یا اپنے باپ کی بیوی، یا اپنے بیٹے کی کنیز، یا اپنے باپ کی کنیز کے ساتھ زنا کرے، تو یہ اس عورت کو اس کے شوہر کے لیے حرام نہیں کرتا، اور نہ ہی کنیز اپنے مالک کے لیے حرام ہو جاتی ہے۔ بلکہ یہ صرف اس وقت حرام ہوتا ہے جب وہ کنیز اس کے لیے حلال ہو اور وہ اس کے ساتھ زنا کرے؛ پھر وہ کنیز کبھی بھی اس کے بیٹے یا باپ کے لیے حلال نہیں ہوتی۔ اور جب وہ کسی عورت سے حلال شادی کرے تو وہ عورت اس کے بیٹے یا باپ کے لیے حلال نہیں ہوتی۔\"",
-              "zh": "他说：“若男子与女子犯奸淫，之后娶她为妻，无妨。”他举例说，如同一人偷取棕榈树上的枣，后来又买下。“娶她的母亲、女儿或姐妹也无妨。若女子在他之下，他娶她的母亲、女儿或姐妹并与之同房，后来知晓，则与后者分离，而前者为妻。未清除分离女子的子宫前，不得亲近妻子。若男子与其子之妻、父之妻、子之婢女或父之婢女犯奸淫，不使该女子对其丈夫不合法，婢女亦不对主人不合法。仅当婢女本为其合法而他与之犯奸淫时，该婢女永不合法于其子或父。若男子合法娶妻，该妻亦不合法于其子或父。”"
-            },
             "word_end": 152,
             "word_start": 38
           }
@@ -100,28 +74,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْجَارِيَةُ": "a slave-girl/concubine in the legal context of the hadith",
-            "الْمَرْأَةُ": "the woman or wife discussed in the ruling",
-            "تَزْوِيجًا": "marriage contract in a lawful form",
-            "حَرَامٌ": "an unlawful act, here referring to zina and its legal status",
-            "حَلَالٌ": "lawful or permissible in marital and sexual relations",
-            "زَنَى": "committed fornication/adultery",
-            "يَتَزَوَّجَ": "to marry",
-            "يَسْتَبْرِئَ": "to ensure the womb is cleared before resuming relations"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "حَرَامٌ",
+          "حَلَالٌ",
+          "زَنَى",
+          "يَتَزَوَّجَ",
+          "الْمَرْأَةُ",
+          "الْجَارِيَةُ",
+          "يَسْتَبْرِئَ",
+          "تَزْوِيجًا"
+        ],
         "related_quran": [
           {
             "ref": "4:22",
@@ -136,32 +98,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে কোনো নারী বা তার আত্মীয়দের সঙ্গে জিনায়াত করা কি বৈধ স্ত্রীকে অবৈধ করে তোলে?",
-          "de": "Macht das Begehen von Zina mit einer Frau oder ihren Verwandten eine erlaubte Ehefrau in schiitischen Hadithen unzulässig?",
-          "en": "Does committing zina with a woman or her relatives make a lawful wife unlawful in Shia hadith?",
-          "es": "¿Cometer zina con una mujer o sus parientes hace que una esposa lícita sea ilícita en los hadices chiíes?",
-          "fa": "آیا انجام زنا با یک زن یا بستگان او در احادیث شیعه، همسر حلال را حرام می‌کند؟",
-          "fr": "Le fait de commettre un zina avec une femme ou ses proches rend-il une épouse licite illicite dans les hadiths chiites ?",
-          "id": "Apakah berzina dengan seorang wanita atau kerabatnya membuat istri yang halal menjadi haram dalam hadits Syiah?",
-          "ru": "Делает ли совершение зина с женщиной или ее родственниками законную жену незаконной в шиитских хадисах?",
-          "tr": "Şiî hadislerde bir kadınla veya onun akrabalarıyla zina yapmak helal bir eşi haram kılar mı?",
-          "ur": "کیا زنا کرنا یا عورت کے رشتہ داروں کے ساتھ زنا کرنا شیعہ حدیث میں حلال بیوی کو حرام بناتا ہے؟",
-          "zh": "在什叶派圣训中，与女子或其亲属犯奸淫是否使合法妻子变为不合法？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি আইনগত বিধান প্রদান করে যে জিনায়াত বিদ্যমান বা পরবর্তী বৈবাহিক সম্পর্কের বৈধতাকে প্রভাবিত করে কিনা। এটি বলে যে অবৈধ কাজ নিজে থেকে বৈধ বিবাহকে অবৈধ করে না, এবং বৈধ যৌন সম্পর্ক ও বৈধ বিবাহের মাধ্যমে উদ্ভূত স্থায়ী নিষেধাজ্ঞাগুলিকে স্পষ্ট করে।",
-          "de": "Dieser Hadith gibt rechtliche Regelungen darüber, ob Zina die Zulässigkeit bestehender oder späterer ehelicher Beziehungen beeinflusst. Er besagt, dass eine verbotene Tat eine erlaubte Ehe nicht ungültig macht und klärt die dauerhaften Verbote, die durch erlaubte sexuelle Beziehungen und erlaubte Ehe entstehen.",
-          "en": "This hadith gives legal rulings on whether zina affects the permissibility of existing or later marital relations. It states that an unlawful act does not itself invalidate a lawful marriage, while also clarifying the permanent prohibitions that arise through lawful sexual relations and lawful marriage.",
-          "es": "Este hadiz ofrece reglas legales sobre si el zina afecta la permisibilidad de las relaciones matrimoniales existentes o futuras. Afirma que un acto ilícito no invalida un matrimonio lícito, y aclara las prohibiciones permanentes que surgen a través de relaciones sexuales lícitas y matrimonio lícito.",
-          "fa": "این حدیث احکام شرعی را درباره اینکه آیا زنا بر جواز روابط زناشویی موجود یا بعدی تأثیر می‌گذارد یا خیر بیان می‌کند. می‌گوید که عمل حرام خود به خود ازدواج حلال را باطل نمی‌کند و همچنین ممنوعیت‌های دائمی ناشی از روابط جنسی حلال و ازدواج شرعی را روشن می‌سازد.",
-          "fr": "Ce hadith donne des règles juridiques sur la question de savoir si le zina affecte la permissibilité des relations conjugales existantes ou futures. Il affirme qu’un acte illicite ne rend pas un mariage licite illicite, tout en clarifiant les interdictions permanentes qui découlent des relations sexuelles licites et du mariage licite.",
-          "id": "Hadis ini memberikan ketentuan hukum apakah zina mempengaruhi kehalalan hubungan pernikahan yang ada atau yang akan datang. Dinyatakan bahwa perbuatan haram tidak membatalkan pernikahan yang halal, sekaligus menjelaskan larangan permanen yang timbul dari hubungan seksual dan pernikahan yang halal.",
-          "ru": "Этот хадис содержит юридические постановления о том, влияет ли зина на допустимость существующих или последующих брачных отношений. В нем говорится, что незаконный поступок сам по себе не аннулирует законный брак, а также разъясняются постоянные запреты, возникающие через законные сексуальные отношения и законный брак.",
-          "tr": "Bu hadis, zinanın mevcut veya sonraki evliliklerin helalliğini etkileyip etkilemediğine dair hukuki hükümler verir. Haram bir fiilin helal evliliği geçersiz kılmadığını, aynı zamanda helal cinsel ilişkiler ve helal evlilik yoluyla ortaya çıkan kalıcı yasakları açıklamaktadır.",
-          "ur": "یہ حدیث قانونی احکام بیان کرتی ہے کہ آیا زنا موجودہ یا بعد کی شادیوں کی جواز پر اثر انداز ہوتا ہے یا نہیں۔ یہ کہتی ہے کہ غیر قانونی عمل خود حلال شادی کو باطل نہیں کرتا، اور ساتھ ہی ان دائمی ممانعتوں کی وضاحت کرتی ہے جو حلال جنسی تعلقات اور حلال شادی سے پیدا ہوتی ہیں۔",
-          "zh": "此圣训阐明了奸淫是否影响现有或未来婚姻关系的合法性。指出非法行为本身不使合法婚姻无效，同时澄清了通过合法性行为和合法婚姻产生的永久禁令。"
-        },
         "tags": [
           "jurisprudence",
           "family",

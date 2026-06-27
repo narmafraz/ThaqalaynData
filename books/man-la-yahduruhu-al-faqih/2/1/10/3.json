@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তিনি, عليه السلام, বললেন:",
-              "de": "Und er, Friede sei mit ihm, sagte:",
-              "en": "And he, peace be upon him, said:",
-              "es": "Y él, la paz sea con él, dijo:",
-              "fa": "و او، علیه السلام، فرمود:",
-              "fr": "Et lui, paix soit sur lui, a dit :",
-              "id": "Dan beliau, 'alayhis salam, berkata:",
-              "ru": "И он, мир ему, сказал:",
-              "tr": "Ve o, aleyhisselam, dedi ki:",
-              "ur": "اور انہوں نے، علیہ السلام، فرمایا:",
-              "zh": "他，愿他平安，说："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "«مَنْ أَرَادَ أَنْ يُظِلَّهُ اللَّهُ عَزَّ وَ جَلَّ يَوْمَ لَا ظِلَّ إِلَّا ظِلُّهُ فَلْيُنْظِرْ مُعْسِرًا أَوْ لِيَدَعْ لَهُ مِنْ حَقِّهِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“যে ব্যক্তি চায় আল্লাহ, পরাক্রমশালী ও মহিমান্বিত, তাকে সেই দিনে ছায়া দিক যখন ছায়া থাকবে শুধুমাত্র তাঁর ছায়া, সে যেন দেউলিয়া ব্যক্তিকে সময় দেয় অথবা তার কিছু পাওনা ছেড়ে দেয়।”",
-              "de": "„Wer wünscht, dass Allah, der Mächtige und Erhabene, ihn am Tag, an dem es keinen Schatten gibt außer Seinem Schatten, beschattet, der soll einem zahlungsunfähigen Schuldner Aufschub gewähren oder ihm einen Teil seiner Forderung erlassen.“",
-              "en": "\"Whoever wishes that Allah, Mighty and Majestic, shade him on the Day when there will be no shade except His shade, then let him grant respite to an insolvent person or leave for him some of his due.\"",
-              "es": "“Quien desee que Allah, el Poderoso y Majestuoso, le dé sombra en el Día en que no habrá sombra excepto Su sombra, que conceda prórroga a un insolvente o le perdone parte de su deuda.”",
-              "fa": "«هر کس بخواهد که خداوند، عزیز و جلیل، در روزی که جز سایه او سایه‌ای نیست، او را سایه دهد، پس باید به مدیون مهلت دهد یا بخشی از حق خود را برای او ببخشد.»",
-              "fr": "«Quiconque souhaite qu’Allah, le Tout-Puissant et Majestueux, l’ombre le Jour où il n’y aura d’ombre que la Sienne, qu’il accorde un délai à un débiteur en difficulté ou qu’il lui abandonne une partie de sa dette.»",
-              "id": "“Barangsiapa yang menghendaki agar Allah, Yang Maha Perkasa dan Maha Agung, menaunginya pada Hari yang tiada naungan kecuali naungan-Nya, maka hendaklah ia memberi kelonggaran kepada orang yang kesulitan atau meninggalkan sebagian haknya untuknya.”",
-              "ru": "«Кто желает, чтобы Аллах, Могучий и Великий, укрыл его в День, когда не будет тени, кроме Его тени, пусть даст отсрочку должнику или оставит ему часть его долга.»",
-              "tr": "“Kim Allah, Azîz ve Celîl, onun üzerine gölge etmesini isterse, gölgenin dışında gölge olmayan günde, o halde borçluya mühlet versin ya da onun hakkından bir kısmını bıraksın.”",
-              "ur": "‘‘جو شخص چاہتا ہے کہ اللہ تعالیٰ، عزوجل، اسے اس دن سایہ دے جب سایہ صرف اسی کا سایہ ہوگا، تو وہ کسی مقروض کو مہلت دے یا اس کے حق میں کچھ چھوڑ دے۔’’",
-              "zh": "“谁希望安拉，至高无上者，在那日除他之外无影的日子为他遮荫，就应当宽限一个无力偿还的人，或为他免除部分债务。”"
-            },
             "word_end": 24,
             "word_start": 4
           }
@@ -80,25 +67,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "حَقِّهِ": "his due or rightful claim",
-            "ظِلُّهُ": "His shade, meaning Allah’s exclusive protection and mercy",
-            "مُعْسِرًا": "a person in financial hardship or insolvency",
-            "يَوْمَ": "the Day of Judgment",
-            "يُظِلَّهُ": "shade him and grant him divine protection"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُظِلَّهُ",
+          "يَوْمَ",
+          "ظِلُّهُ",
+          "مُعْسِرًا",
+          "حَقِّهِ"
+        ],
         "related_quran": [
           {
             "ref": "2:280",
@@ -109,32 +84,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কিভাবে একজন ব্যক্তি কিয়ামতের দিনে আল্লাহর ছায়া অর্জন করতে পারে?",
-          "de": "Wie kann eine Person am Tag des Gerichts den Schatten Allahs erlangen?",
-          "en": "How can a person earn Allah’s shade on the Day of Judgment?",
-          "es": "¿Cómo puede una persona obtener la sombra de Allah en el Día del Juicio?",
-          "fa": "چگونه یک شخص می‌تواند در روز قیامت سایه خداوند را کسب کند؟",
-          "fr": "Comment une personne peut-elle obtenir l’ombre d’Allah au Jour du Jugement ?",
-          "id": "Bagaimana seseorang dapat memperoleh naungan Allah pada Hari Kiamat?",
-          "ru": "Как человек может заслужить тень Аллаха в День Суда?",
-          "tr": "Bir kişi Kıyamet Günü Allah’ın gölgesini nasıl kazanabilir?",
-          "ur": "ایک شخص قیامت کے دن اللہ کا سایہ کیسے حاصل کر سکتا ہے؟",
-          "zh": "一个人如何在审判日获得安拉的庇荫？"
-        },
-        "summaries": {
-          "bn": "ইমাম عليه السلام শিক্ষা দেন যে, কঠিন সময়ে ঋণগ্রহীতাকে সহজতা দেখানো কিয়ামতের দিনে আল্লাহর রহমতের কারণ। ঋণের সময় বাড়ানো বা কিছু মওকুফ করা পরকালের বিশাল পুরস্কার হিসেবে বিবেচিত।",
-          "de": "Der Imam عليه السلام lehrt, dass das Gewähren von Erleichterung für einen Schuldner in Not eine Ursache für göttliche Barmherzigkeit am Tag des Gerichts ist. Eine Fristverlängerung zu gewähren oder einen Teil der Schuld zu erlassen, wird als Tat mit großem Lohn im Jenseits dargestellt.",
-          "en": "The Imam عليه السلام teaches that showing ease to a debtor in hardship is a cause of divine mercy on the Day of Judgment. Granting delay or waiving part of a debt is presented as a deed with immense afterlife reward.",
-          "es": "El Imam عليه السلام enseña que mostrar facilidad a un deudor en dificultad es causa de misericordia divina en el Día del Juicio. Conceder demora o perdonar parte de una deuda es presentado como una acción con inmensa recompensa en la otra vida.",
-          "fa": "امام علیه السلام تعلیم می‌دهد که آسان‌گیری به بدهکار در سختی، سبب رحمت الهی در روز قیامت است. دادن مهلت یا بخشیدن بخشی از بدهی، عملی با پاداش عظیم در آخرت است.",
-          "fr": "L’Imam عليه السلام enseigne que faire preuve de facilité envers un débiteur en difficulté est une cause de miséricorde divine au Jour du Jugement. Accorder un délai ou renoncer à une partie d’une dette est présenté comme un acte aux immenses récompenses dans l’au-delà.",
-          "id": "Imam علیه السلام mengajarkan bahwa memudahkan orang yang berhutang dalam kesulitan adalah sebab rahmat ilahi pada Hari Kiamat. Memberi kelonggaran atau menghapus sebagian hutang adalah amal dengan pahala besar di akhirat.",
-          "ru": "Имам عليه السلام учит, что проявление снисхождения к должнику в трудностях является причиной божественной милости в День Суда. Предоставление отсрочки или прощение части долга представлено как деяние с огромной наградой в загробной жизни.",
-          "tr": "İmam علیه السلام, zor durumdaki borçluya kolaylık göstermenin Kıyamet Günü ilahi merhamet sebebi olduğunu öğretir. Borca erteleme vermek veya bir kısmını affetmek, ahirette büyük bir sevap olarak sunulur.",
-          "ur": "امام علیہ السلام سکھاتے ہیں کہ مشکل میں مقروض کو آسانی دینا قیامت کے دن الہی رحمت کا سبب ہے۔ قرض میں تاخیر دینا یا کچھ معاف کرنا آخرت میں عظیم اجر کا عمل ہے۔",
-          "zh": "伊玛目 عليه السلام 教导说，在困难中宽待债务人是审判日获得安拉庇荫的原因。给予延期或免除部分债务被视为来世巨大回报的行为。"
-        },
         "tags": [
           "ethics",
           "economy",

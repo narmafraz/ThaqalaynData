@@ -13,6 +13,102 @@
       "up": "/books/al-kafi:4:3:209"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ أَحْمَدَ عَنْ مُحَمَّدِ بْنِ عِيسَى قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 12,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "كَتَبَ أَبُو الْقَاسِمِ مُخَلَّدُ بْنُ مُوسَى الرَّازِيُّ إِلَى الرَّجُلِ يَسْأَلُهُ عَنِ الْعُمْرَةِ الْمَبْتُولَةِ هَلْ عَلَى صَاحِبِهَا طَوَافُ النِّسَاءِ وَ الْعُمْرَةِ الَّتِي يُتَمَتَّعُ بِهَا إِلَى الْحَجِّ فَكَتَبَ أَمَّا الْعُمْرَةُ الْمَبْتُولَةُ فَعَلَى صَاحِبِهَا طَوَافُ النِّسَاءِ وَ أَمَّا الَّتِي يُتَمَتَّعُ بِهَا إِلَى الْحَجِّ فَلَيْسَ عَلَى صَاحِبِهَا طَوَافُ النِّسَاءِ",
+            "chunk_type": "body",
+            "word_end": 57,
+            "word_start": 12
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 59,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ أَحْمَدَ",
+              "name_en": "Muhammad ibn Ahmad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 27,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ عِيسَى",
+              "name_en": "Muhammad ibn Isa",
+              "position": 3,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [],
+        "key_terms_keys": [
+          "الْعُمْرَةِ الْمَبْتُولَةِ",
+          "طَوَافُ النِّسَاءِ",
+          "يُتَمَتَّعُ بِهَا",
+          "إِلَى الْحَجِّ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:197",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:158",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "worship"
+        ],
+        "topics": [
+          "hajj",
+          "ritual_purity"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> صحيح   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (8/239)"
       ],
@@ -66,7 +162,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:4:3:209:9",

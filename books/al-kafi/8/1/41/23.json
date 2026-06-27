@@ -15,6 +15,127 @@
       "up": "/books/al-kafi:8:1:41"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ عَبْدِ اللَّهِ بْنِ الصَّلْتِ عَنْ رَجُلٍ مِنْ أَهْلِ بَلْخَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 18,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "كُنْتُ مَعَ الرِّضَا (عَلَيْهِ السَّلَامُ) فِي سَفَرِهِ إِلَى خُرَاسَانَ فَدَعَا يَوْمَاً بِمَائِدَةٍ لَهُ فَجَمَعَ عَلَيْهَا مَوَالِيَهُ مِنَ السُّودَانِ وَ غَيْرِهِمْ فَقُلْتُ جُعِلْتُ فِدَاكَ لَوْ عَزَلْتَ لِهَؤُلَاءِ مَائِدَةً فَقَالَ مَهْ إِنَّ الرَّبَّ تَبَارَكَ وَ تَعَالَى وَاحِدٌ وَ الْأُمَّ وَاحِدَةٌ وَ الْأَبَ وَاحِدٌ وَ الْجَزَاءَ بِالْأَعْمَالِ.",
+            "chunk_type": "body",
+            "word_end": 62,
+            "word_start": 18
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 593,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللَّهِ بْنِ الصَّلْتِ",
+              "name_en": "Abd Allah b. al-Salt",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3226,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "رَجُلٍ مِنْ أَهْلِ بَلْخَ",
+              "name_en": "Rajul min Ahl Balkh",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الرِّضَا",
+          "خُرَاسَانَ",
+          "مَوَالِيَهُ",
+          "السُّودَانِ",
+          "مَائِدَةٍ",
+          "الرَّبَّ",
+          "الْجَزَاءَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "109:2",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "49:13",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "3:103",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "social_relations",
+          "theology"
+        ],
+        "topics": [
+          "imams_biography",
+          "community",
+          "divine_attributes",
+          "etiquette"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مهول</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 165)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -82,7 +203,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:41:23",

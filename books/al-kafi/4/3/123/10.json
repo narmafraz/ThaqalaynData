@@ -14,6 +14,125 @@
       "up": "/books/al-kafi:4:3:123"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنِ الْبَرْقِيِّ رَفَعَهُ عَنْ زَيْدٍ الشَّحَّامِ أَبِي أُسَامَةَ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 20,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "كُنْتُ أَطُوفُ مَعَ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) وَ كَانَ إِذَا انْتَهَى إِلَى الْحَجَرِ مَسَحَهُ بِيَدِهِ وَ قَبَّلَهُ وَ إِذَا انْتَهَى إِلَى الرُّكْنِ الْيَمَانِيِّ الْتَزَمَهُ فَقُلْتُ جُعِلْتُ فِدَاكَ تَمْسَحُ الْحَجَرَ بِيَدِكَ وَ تَلْتَزِمُ الْيَمَانِيَّ فَقَالَ قَالَ رَسُولُ اللَّهِ ( صَلَّى اللَّهِ عَلَيْهِ وَآلِهِ ) مَا أَتَيْتُ الرُّكْنَ الْيَمَانِيَّ إِلَّا وَجَدْتُ جَبْرَئِيلَ قَدْ سَبَقَنِي إِلَيْهِ يَلْتَزِمُهُ .",
+            "chunk_type": "body",
+            "word_end": 78,
+            "word_start": 20
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدُ بْنُ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 259,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْبَرْقِيِّ",
+              "name_en": "al-Barqi",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3290,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "زَيْدٍ الشَّحَّامِ أَبِي أُسَامَةَ",
+              "name_en": "Zayd al-Shahham Abi Usama",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "قَالَ رَسُولُ اللَّهِ",
+            "phrase_en": "The Messenger of Allah said"
+          }
+        ],
+        "key_terms_keys": [
+          "الْحَجَر",
+          "الرُّكْنُ الْيَمَانِيُّ",
+          "جَبْرَئِيل",
+          "يَلْتَزِمُهُ",
+          "أَطُوفُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:158",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "3:96",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "worship",
+          "prophetic_tradition"
+        ],
+        "topics": [
+          "hajj",
+          "sunnah",
+          "imams_biography"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> صحيح   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (8/23)"
       ],
@@ -76,7 +195,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:4:3:123:10",

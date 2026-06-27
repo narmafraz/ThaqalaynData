@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رُوِيَ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং এটি বর্ণিত হয়েছে:",
-              "de": "Und es wurde überliefert:",
-              "en": "And it has been narrated:",
-              "es": "Y se ha narrado:",
-              "fa": "و روایت شده است:",
-              "fr": "Et il a été rapporté :",
-              "id": "Dan telah diriwayatkan:",
-              "ru": "И было передано:",
-              "tr": "Ve rivayet edilmiştir ki:",
-              "ur": "اور یہ روایت کیا گیا ہے:",
-              "zh": "并且据传："
-            },
             "word_end": 2,
             "word_start": 0
           },
           {
             "arabic_text": "«أَنَّ الْحَاجَّ مِنْ حِينِ يَخْرُجُ مِنْ مَنْزِلِهِ حَتَّى يَرْجِعَ بِمَنْزِلَةِ الطَّائِفِ بِالْكَعْبَةِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "নিশ্চয়ই, যাত্রী, যখন সে তার বাড়ি থেকে বের হয় তখন থেকে ফিরে আসা পর্যন্ত, সে কাবা শরীফের তাওয়াফকারী ব্যক্তির মর্যাদায় থাকে।",
-              "de": "Wahrlich, der Pilger ist vom Zeitpunkt seines Verlassens seines Hauses bis zu seiner Rückkehr in der Stellung einesjenigen, der die Kaaba umkreist.",
-              "en": "\"Indeed, the pilgrim, from the time he leaves his home until he returns, is in the rank of one circumambulating the Kaaba.\"",
-              "es": "En verdad, el peregrino, desde el momento en que sale de su casa hasta que regresa, está en el rango de quien circunambula la Kaaba.",
-              "fa": "به راستی، حاجی از زمانی که خانه‌اش را ترک می‌کند تا زمانی که بازمی‌گردد، در مرتبه کسی است که طواف کعبه می‌کند.",
-              "fr": "En effet, le pèlerin, depuis le moment où il quitte sa maison jusqu'à son retour, est au rang de celui qui fait le tawaf autour de la Kaaba.",
-              "id": "Sesungguhnya, jamaah haji, sejak ia meninggalkan rumahnya hingga kembali, berada dalam derajat seperti orang yang sedang tawaf di Ka'bah.",
-              "ru": "Воистину, паломник с того момента, как он покидает свой дом, до возвращения находится в звании того, кто совершает таваф вокруг Каабы.",
-              "tr": "Gerçekten de, hacı, evinden ayrıldığı andan döndüğü ana kadar, Kabe'yi tavaf eden birinin derecesindedir.",
-              "ur": "بے شک، حاجی، جب سے وہ اپنے گھر سے نکلتا ہے جب تک واپس آتا ہے، وہ اس مرتبے میں ہوتا ہے جیسے وہ کعبہ کا طواف کر رہا ہو۔",
-              "zh": "确实，朝觐者自离开家门直到返回，处于绕行圣殿的等级。"
-            },
             "word_end": 14,
             "word_start": 2
           }
@@ -64,25 +51,13 @@
           "narrators": []
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الطَّائِفِ": "one performing tawaf",
-            "الْحَاجَّ": "the pilgrim performing hajj",
-            "الْكَعْبَةِ": "the Kaaba, the Sacred House in Mecca",
-            "بِمَنْزِلَةِ": "in the rank or status of",
-            "مَنْزِلِهِ": "his home or dwelling from which he departs"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْحَاجَّ",
+          "مَنْزِلِهِ",
+          "بِمَنْزِلَةِ",
+          "الطَّائِفِ",
+          "الْكَعْبَةِ"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
@@ -97,32 +72,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হজ থেকে বাড়ি ছেড়ে যাত্রা শুরু থেকে ফিরে আসা পর্যন্ত যাত্রীর কী فضیلت?",
-          "de": "Was ist die Tugend eines Pilgers vom Verlassen des Hauses bis zur Rückkehr vom Hadsch?",
-          "en": "What is the virtue of a pilgrim from the time of leaving home until returning from hajj?",
-          "es": "¿Cuál es la virtud del peregrino desde que sale de su casa hasta que regresa del hajj?",
-          "fa": "فضیلت حاجی از زمان ترک خانه تا بازگشت از حج چیست؟",
-          "fr": "Quelle est la vertu du pèlerin depuis son départ de la maison jusqu'à son retour du hajj ?",
-          "id": "Apa keutamaan jamaah haji sejak meninggalkan rumah hingga kembali dari haji?",
-          "ru": "В чем заслуга паломника с момента выхода из дома до возвращения с хаджа?",
-          "tr": "Hacının evden çıkışından dönüşüne kadar olan fazileti nedir?",
-          "ur": "حاجی کی فضیلت کیا ہے جب وہ گھر سے نکلتا ہے اور حج سے واپس آتا ہے؟",
-          "zh": "朝觐者自离家至归来期间的功德是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি হজের পুরো যাত্রাপথ জুড়ে যাত্রীর উচ্চতর আধ্যাত্মিক মর্যাদা বর্ণনা করে, শুধুমাত্র ইবাদতের সময় নয়। এটি যাত্রীর প্রস্থান থেকে প্রত্যাবর্তন পর্যন্ত ধারাবাহিক সওয়াব ও পবিত্রতা জোর দেয়।",
-          "de": "Dieser Hadith beschreibt den erhöhten spirituellen Status des Pilgers während der gesamten Hadsch-Reise, nicht nur während der Riten. Er betont das fortwährende Verdienst und die Heiligkeit der Reise des Pilgers von der Abreise bis zur Rückkehr.",
-          "en": "This hadith describes the elevated spiritual status of the pilgrim throughout the entire journey of hajj, not only during the rites themselves. It emphasizes the continuous merit and sanctity of the pilgrim's travel from departure until return.",
-          "es": "Este hadiz describe el elevado estatus espiritual del peregrino durante todo el viaje del hajj, no solo durante los ritos. Enfatiza el mérito continuo y la santidad del viaje del peregrino desde la salida hasta el regreso.",
-          "fa": "این حدیث مقام معنوی والای حاجی را در طول کل سفر حج توصیف می‌کند، نه فقط در زمان انجام مناسک. بر فضیلت و تقدس مستمر سفر حاجی از خروج تا بازگشت تأکید دارد.",
-          "fr": "Ce hadith décrit le statut spirituel élevé du pèlerin tout au long du voyage du hajj, pas seulement pendant les rites. Il souligne le mérite continu et la sainteté du voyage du pèlerin depuis son départ jusqu'à son retour.",
-          "id": "Hadis ini menggambarkan kedudukan spiritual tinggi seorang jamaah haji sepanjang perjalanan haji, bukan hanya saat melaksanakan ibadah. Menekankan pahala dan kesucian yang berkelanjutan dari keberangkatan hingga kepulangan jamaah.",
-          "ru": "Этот хадис описывает возвышенный духовный статус паломника на протяжении всего пути хаджа, а не только во время обрядов. Он подчеркивает непрерывные заслуги и святость путешествия паломника от выхода из дома до возвращения.",
-          "tr": "Bu hadis, hacıların manevi yüksekliğini sadece ibadetler sırasında değil, tüm haccın yolculuğu boyunca devam eden bir mertebe olarak tanımlar. Hacının evden çıkışından dönüşüne kadar olan sürekli fazilet ve kutsallığı vurgular.",
-          "ur": "یہ حدیث حج کے دوران حاجی کی روحانی بلندی کو بیان کرتی ہے جو صرف مناسک کے وقت تک محدود نہیں بلکہ پورے سفر کے دوران جاری رہتی ہے۔ یہ حاجی کے روانگی سے واپسی تک کے سفر کی فضیلت اور تقدس کو اجاگر کرتی ہے۔",
-          "zh": "此圣训描述了朝觐者在整个朝觐旅程中的崇高精神地位，不仅限于仪式期间。强调了朝觐者从出发到归来的持续功德与圣洁。"
-        },
         "tags": [
           "worship",
           "prophetic_tradition",

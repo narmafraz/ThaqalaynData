@@ -16,42 +16,29 @@
           "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنهُ عَن مُحَمَّدِ بْنِ عُمَرَ عَن مُحَمَّدِ بْنِ عُذَافِرٍ عَن عُمَرَ بْنِ يَزِيدَ عَن أَبِي عَبْدِ اللَّهِ ع قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তিনি হতে, মুহাম্মাদ ইবনে উমর হতে, মুহাম্মাদ ইবনে উথাইফির হতে, উমর ইবনে যায়িদ হতে, আবু আবদিল্লাহ (রহ.) হতে, যিনি বলেছেন:",
-              "de": "Von ihm, von ihm, von Muhammad ibn 'Umar, von Muhammad ibn 'Uthayfir, von 'Umar ibn Yazid, von Abu 'Abdillah (friede sei mit ihm), der sagte:",
-              "en": "From him, from Muhammad ibn 'Umar, from Muhammad ibn 'Uthayfir, from 'Umar ibn Yazid, from Abu 'Abdillah (peace be upon him) who said:",
-              "es": "De él, de Muhammad ibn 'Umar, de Muhammad ibn 'Uthayfir, de 'Umar ibn Yazid, de Abu 'Abdillah (que la paz sea con él), quien dijo:",
-              "fa": "عنه عن محمد بن عمر عن محمد بن عذافر عن عمر بن يزيد عن أبي عبد الله (صلى الله عليه وسلم) قال:",
-              "fr": "De lui, de Muhammad ibn 'Umar, de Muhammad ibn 'Uthayfir, de 'Umar ibn 'Umar, de 'Umar ibn Yazid, d'Abou 'Abdillah (que la paix soit sur lui), qui a dit :",
-              "id": "Dari dia, dari Muhammad ibn 'Umar, dari Muhammad ibn 'Uthayfir, dari 'Umar ibn Yazid, dari Abu 'Abdillah (sem 'Abdillah (semoga Allah memberikan rahmat kepadanya) yang berkata:",
-              "ru": "От него, от Мухаммада ибн Умара, от Мухаммада ибн Узафира, от Умара ибн Язида, от Абу Абдиллаха (да будет доволен им Аллах), который сказал:",
-              "tr": "Onun üzerinden, Muhammed b. Ömer'den, Muhammed b. Uteyfir'den, Ömer b. Yezid'den, Ebu Abdillah (aleyhisselam) şöyle dedi:",
-              "ur": "وہ سے، محمد بن عمر سے، محمد بن عذافر سے، عمر بن یزید سے، ابو عبداللہ (علیہ السلام) سے، انہوں نے فرمایا:",
-              "zh": "从他，从穆罕玛德·本·欧麦尔，从穆罕默德·本·乌扎伊法，从欧麦尔·本·叶齐德，从艾布·阿卜杜拉（愿主喜悦之）传述，他说："
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "اعْلَمْ أَنَّكَ إِذَا حَلَقْتَ رَأْسَكَ فَقَدْ حَلَّ لَكَ كُلُّ شَيْءٍ إِلَّا النِّسَاءَ وَالطِّيبَ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "জানুন যে, যখন আপনি আপনার মাথা মুণ্ডন করবেন, তখন আপনার জন্য সব কিছু হালাল হয়ে যাবে, নারী এবং সুগন্ধি ছাড়া।",
-              "de": "Wisse, dass, wenn du deinen Kopf scherst, dir alles erlaubt wird außer Frauen und Duft.",
-              "en": "Know that when you shave your head, everything becomes permissible for you except women and perfume.",
-              "es": "Sabe que cuando te que, al afeitarte la cabeza, todo se vuelve lícito para ti excepto las mujeres y el perfume.",
-              "fa": "بدان که هنگامی که سرت را می‌تراشی، همه چیز بر تو حلال می‌شود جز زنان و عطر.",
-              "fr": "Sache que lorsque tu te rases la tête, tout te devient permis sauf les femmes et le parfum.",
-              "id": "Ketahuilah bahwa ketika kamu mencukur kepala, segala sesuatu menjadi halal bagimu kecuali wanita dan wewangian.",
-              "ru": "Знай, что когда ты бреешь голову, тебе становится дозволено всё, кроме женщин и благовоний.",
-              "tr": "Bil ki, başını tıraş ettiğinde, kadınlar ve parfüm hariç her şey sana helal olur.",
-              "ur": "جان لو کہ جب تم نے اپنا سر منڈھایا تو تمہارے لیے ہر چیز حلال ہو گئی سوائے عورتوں اور خوشبو کے۔",
-              "zh": "须知当你剃头时，除妇女和香料外，其余一切对你皆为合法。"
-            },
             "word_end": 32,
             "word_start": 19
           }
@@ -114,85 +101,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {
-            "الطِّيبَ": "সুগন্ধি/গন্ধ",
-            "النِّسَاءَ": "নারী (বিশেষত দাম্পত্য সম্পর্কের জন্য)",
-            "حَلَقَ": "মাথা কটা",
-            "حَلَّ": "জায়েজ/মুক্ত হয়েছিল",
-            "رَأْسَكَ": "তোমার মাথা"
-          },
-          "de": {
-            "الطِّيبَ": "Duftstoff/Parfüm",
-            "النِّسَاءَ": "Frauen (speziell für eheliche Beziehungen)",
-            "حَلَقَ": "rasieren (den Kopf)",
-            "حَلَّ": "wurde erlaubt/befreit",
-            "رَأْسَكَ": "dein Kopf"
-          },
-          "en": {
-            "الطِّيبَ": "perfume/scent",
-            "النِّسَاءَ": "women (specifically for marital relations)",
-            "حَلَقَ": "to shave (the head)",
-            "حَلَّ": "became permissible/liberated",
-            "رَأْسَكَ": "your head"
-          },
-          "es": {
-            "الطِّيبَ": "perfume/fragancia",
-            "النِّسَاءَ": "mujeres (específicamente para relaciones conyugales)",
-            "حَلَقَ": "afeitarse (la cabeza)",
-            "حَلَّ": "se volvió permisible/liberado",
-            "رَأْسَكَ": "tu cabeza"
-          },
-          "fa": {
-            "الطِّيبَ": "عطر/بوی خوش",
-            "النِّسَاءَ": "زنان (به‌طور خاص برای روابط زناشویی)",
-            "حَلَقَ": "تراشیدن (سر)",
-            "حَلَّ": "حلال شد/آزاد شد",
-            "رَأْسَكَ": "سر تو"
-          },
-          "fr": {
-            "الطِّيبَ": "parfum/odeur",
-            "النِّسَاءَ": "les femmes (spécifiquement pour les relations conjugales)",
-            "حَلَقَ": "raser (la tête)",
-            "حَلَّ": "devenu permis/libéré",
-            "رَأْسَكَ": "votre tête"
-          },
-          "id": {
-            "الطِّيبَ": "wewangian",
-            "النِّسَاءَ": "wanita (khusus untuk hubungan suami istri)",
-            "حَلَقَ": "mencukur (kepala)",
-            "حَلَّ": "menjadi halal/dilepaskan",
-            "رَأْسَكَ": "kepalamu"
-          },
-          "ru": {
-            "الطِّيبَ": "благовония/аромат",
-            "النِّسَاءَ": "женщины (конкретно для супружеских отношений)",
-            "حَلَقَ": "брить (голову)",
-            "حَلَّ": "стало дозволенным/освобождено",
-            "رَأْسَكَ": "твоя голова"
-          },
-          "tr": {
-            "الطِّيبَ": "parfüm/koku",
-            "النِّسَاءَ": "kadınlar (özellikle cinsel ilişki için)",
-            "حَلَقَ": "saçı tamamen kesmek",
-            "حَلَّ": "helal oldu/serbest bırakıldı",
-            "رَأْسَكَ": "başın"
-          },
-          "ur": {
-            "الطِّيبَ": "خوشبو / عطر",
-            "النِّسَاءَ": "عورتیں (خاص طور پر ازدواجی تعلقات کے لیے)",
-            "حَلَقَ": "بالوں کو مکمل کاٹنا (سر کے)",
-            "حَلَّ": "جائز ہو جانا / آزاد ہو جانا",
-            "رَأْسَكَ": "تمہارا سر"
-          },
-          "zh": {
-            "الطِّيبَ": "香料/气味",
-            "النِّسَاءَ": "女性（特指夫妻房事）",
-            "حَلَقَ": "剃（头）",
-            "حَلَّ": "变得被允许/解放",
-            "رَأْسَكَ": "你的头"
-          }
-        },
+        "key_terms_keys": [
+          "حَلَقَ",
+          "رَأْسَكَ",
+          "حَلَّ",
+          "النِّسَاءَ",
+          "الطِّيبَ"
+        ],
         "related_quran": [
           {
             "ref": "2:197",
@@ -203,32 +118,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে তাওয়াফ আল-জিয়ারাহ-এর আগে মাথা কটা হওয়ার পর কী কী জায়েজ হয়ে যায়?",
-          "de": "Was wird in der schiitischen Jurisprudenz nach dem Rasieren des Kopfes vor dem Tawaf al-Ziyarah erlaubt?",
-          "en": "What becomes permissible after shaving the head before Tawaf al-Ziyarah in Shia jurisprudence?",
-          "es": "¿Qué se vuelve permisible después de afeitarse la cabeza antes del Tawaf al-Ziyarah en la jurisprudencia chiita?",
-          "fa": "پس از تراشیدن سر پیش از طواف زیارت در فقه شیعه چه چیزی حلال می‌شود؟",
-          "fr": "Que devient permis après le rasage de la tête avant le Tawaf al-Ziyarah dans la jurisprudence chiite ?",
-          "id": "Apa yang menjadi halal setelah mencukur kepala sebelum Tawaf al-Ziyarah dalam fikih Syiah?",
-          "ru": "Что становится дозволенным после бритья головы перед Таваф аль-Зияра в шиитском фикхе?",
-          "tr": "Şii fıkhında Tawaf al-Ziyarah'dan önce baş tıraş edildikten sonra ne helal olur?",
-          "ur": "شیعہ فقہ میں طوافِ زیارت سے پہلے سر کے بال کاٹنے کے بعد کیا جائز ہو جاتا ہے؟",
-          "zh": "在什叶派法学中，在朝觐环游之前剃头后什么变得被允许？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে আল-ইস্তিবসার থেকে উদ্ধৃত বর্ণনায় শিয়া ফিকহে হলক (চুল কটা) এবং কাসর (চুল ছেঁটা)-এর ক্রমিক শরীয়াতী প্রভাব স্পষ্ট করা হয়েছে, যা প্রতিষ্ঠা করে যে তাওয়াফ আল-জিয়ারাহ-এর আগে পুরো মাথা কটা হলে দাম্পত্য সম্পর্ক ও সুগন্ধির নিষেধ lifted হয়, যদিও এটি ইহরাম অবস্থা থেকে সম্পূর্ণ নির্গমন সম্পন্ন করে না। এই রuling ইহরামের সীমাবদ্ধতাগুলোর আংশিক ও সম্পূর্ণ মুক্তির মধ্যে বিদ্বানদের পার্থক্য তুলে ধরে, এবং জোর দেয় যে নির্দিষ্ট তাওয়াফ ও সাঈ রীতিগুলোর সম্পন্ন হওয়ার আগে যৌন সম্পর্ক নিষিদ্ধ থাকে। এই হাদিসটি হজ্জ বা উমরাহ যাত্রাকালীন সাধারণ দাম্পত্য কার্যকলাপ পুনরায় শুরু করার সঠিক মুহূর্তটি বোঝার জন্য যাত্রীদের জন্য একটি ব্যবহারিক নির্দেশিকা হিসেবে কাজ করে।",
-          "de": "Diese Überlieferung aus al-Istibsar klärt die sequenziellen rechtlichen Auswirkungen von Halq (Ganzköpfen) und Qasr (Kürzen) in der schiitischen Jurisprudenz und stellt fest, dass das Rasieren des gesamten Kopfes vor dem Tawaf al-Ziyarah das Verbot von ehelichen Beziehungen und Parfüm aufhebt, jedoch nicht den vollständigen Austritt aus dem Ihram-Status bewirkt. Diese Rechtsregel unterstreicht die wissenschaftliche Unterscheidung zwischen der teilweisen und vollständigen Aufhebung der Ihram-Einschränkungen und betont, dass die sexuelle Intimität bis zur Vervollständigung der spezifischen Tawaf- und Sa'i-Rituale verboten bleibt. Die Hadith dient als praktische Anleitung für Pilger, um den genauen Zeitpunkt zu verstehen, an dem sie während der Haddsch- oder Umrah-Reise normale eheliche Aktivitäten wieder aufnehmen dürfen.",
-          "en": "This narration from al-Istibsar clarifies the sequential legal effects of Halq (shaving) versus Qasr (trimming) in Shia jurisprudence, establishing that shaving the entire head prior to Tawaf al-Ziyarah lifts the prohibition on marital relations and perfume, though it does not complete the full exit from Ihram state. This ruling highlights the scholarly distinction between partial and complete解除 of Ihram restrictions, emphasizing that sexual intimacy remains forbidden until the completion of the specific Tawaf and Sa'i rituals. The hadith serves as a practical guide for pilgrims to understand the precise moment when they may resume normal marital activities during the Hajj or Umrah journey.",
-          "es": "Esta narración del al-Istibsar aclara los efectos legales secuenciales del Halq (afeitar) frente al Qasr (recortar) en la jurisprudencia chiita, estableciendo que afeitarse toda la cabeza antes del Tawaf al-Ziyarah levanta la prohibición sobre las relaciones conyugales y el perfume, aunque no completa la salida total del estado de Ihram. Este dictamen destaca la distinción erudita entre la liberación parcial y completa de las restricciones del Ihram, enfatizando que la intimidad sexual sigue prohibida hasta la finalización de los rituales específicos de Tawaf y Sa'i. El hadiz sirve como una guía práctica para que los peregros comprendan el momento preciso en que pueden reanudar sus actividades conyugales normales durante el viaje de Hajj o Umrah.",
-          "fa": "این روایت از استبصار، اثرات حقوقی متوالی حَلَق (کوتاه کردن کامل مو) و قَصْر (کوتاه کردن جزئی مو) را در فقه شیعه روشن می‌سازد و تعیین می‌کند که تراشیدن کامل سر پیش از طواف زیارت، ممنوعیت روابط زناشویی و عطر را برطرف می‌کند، اگرچه خروج کامل از حالت احرام را کامل نمی‌سازد. این حکم تمایز میان رفع جزئی و کامل محدودیت‌های احرام را برجسته می‌کند و تأکید می‌ورزد که صمیمیت جنسی تا تکمیل طواف و سعی خاص ممنوع باقی می‌ماند. این حدیث به عنوان راهنمایی عملی برای زائران برای درک لحظه دقیق بازگشت به فعالیت‌های زناشویی معمولی در طول سفر حج یا عمره عمل می‌کند.",
-          "fr": "Cette narration d’al-Istibsar clarifie les effets juridiques séquentiels du Halq (rasage) et du Qasr (coupe courte) dans la jurisprudence chiite, établissant que le rasage intégral de la tête avant le Tawaf al-Ziyarah lève l’interdiction des relations conjugales et du parfum, bien qu’il ne mette pas fin à l’état complet d’Ihram. Ce jugement souligne la distinction savante entre la levée partielle et complète des restrictions de l’Ihram, en insistant sur le fait que l’intimité sexuelle reste interdite jusqu’à l’accomplissement des rituels spécifiques du Tawaf et du Sa’i. Le hadith sert de guide pratique pour les pèlerins afin de comprendre le moment précis où ils peuvent reprendre leurs activités conjugales normales lors du Hajj ou de l’Umrah.",
-          "id": "Riwayat dari al-Istibsar ini menjelaskan efek hukum berurutan antara Halq (mencukur) dan Qasr (memangkas) dalam fikih Syiah, yang menetapkan bahwa mencukur seluruh kepala sebelum Tawaf al-Ziyarah mengangkat larangan terhadap hubungan suami istri dan wewangian, meskipun tidak menyelesaikan sepenuhnya keadaan Ihram. Hukum ini menyoroti perbedaan ulama antara pelepasan parsial dan lengkap dari batasan Ihram, dengan menekankan bahwa keintiman seksual tetap dilarang hingga selesainya ritual Tawaf dan Sa'i tertentu. Hadis ini berfungsi sebagai panduan praktis bagi jemaah untuk memahami momen tepat ketika mereka dapat melanjutkan aktivitas suami istri normal selama perjalanan Haji atau Umrah.",
-          "ru": "Этот хадис из аль-Истибсара разъясняет последовательные правовые последствия стрижки (хальк) и укорачивания волос (каср) в шиитском фикхе, устанавливая, что бритье всей головы перед Таваф аль-Зияра снимает запрет на супружеские отношения и использование благовоний, хотя и не завершает полный выход из состояния ихрам. Это положение подчеркивает различие между частичным и полным снятием ограничений ихрама, подчеркивая, что сексуальная близость остается запрещенной до завершения конкретных ритуалов Таваф и Саи. Этот хадис служит практическим руководством для паломников, чтобы понять точный момент, когда они могут возобновить обычную супружескую жизнь во время хаджа или умры.",
-          "tr": "Bu rivayet, Şii fıkhında Halq (saçı tamamen kesmek) ile Qasr (saçları kısaltmak) arasındaki sıralı hukuki etkileri açıklar; Tawaf al-Ziyarah'dan önce başın tamamen tıraş edilmesi, cinsel ilişki ve parfüm yasağını kaldırır ancak İhram durumundan tam çıkışı tamamlamaz. Bu hüküm, İhram kısıtlamalarının kısmi ve tam olarak kaldırılması arasındaki ilmi ayrımı vurgular ve cinsel yakınlığın belirli Tawaf ve Sa'i ritüellerinin tamamlanana kadar haram olduğunu belirtir. Hadis, hacıların Hacc veya Umra yolculuğu sırasında normal evlilik aktivitelerine ne zaman başlayabileceklerini anlamaları için pratik bir rehberdir.",
-          "ur": "یہ روایت استبصار سے ہے جو شیعہ فقہ میں حلق (بالوں کو مکمل کاٹنا) اور قصر (بالوں کو تھوڑا کاٹنا) کے تسلسلی قانونی اثرات کی وضاحت کرتی ہے، اور یہ قائم کرتی ہے کہ حج یا عمرہ کے دوران زیارتِ طواف سے پہلے سر کے بال مکمل کاٹ لینے سے ازدواجی تعلقات اور خوشبو کی ممانعت رفع ہو جاتی ہے، حالانکہ یہ احرام کی مکمل حالتِ خروج کو مکمل نہیں کرتی۔ یہ حکم جزوی اور مکمل احرام کی پابندیوں کے درمیان علماء کے فرق کو اجاگر کرتا ہے، اور زور دیتا ہے کہ مخصوص طواف اور سعی کے مکمل ہونے تک جنسی تعلقات حرام رہتے ہیں۔ یہ حدیچ زائرین کے لیے ایک عملی رہنما ہے تاکہ وہ سمجھ سکیں کہ حج یا عمرہ کے سفر کے دوران وہ کس دقیق لمحے پر معمول کے ازدواجی سرگرمیوں کو دوبارہ شروع کر سکتے ہیں۔",
-          "zh": "这段来自《伊斯蒂巴萨尔》的圣训阐明了在什叶派法学中，剃发（Halq）与剪发（Qasr）的连续法律效力，确立在朝觐环游（Tawaf al-Ziyarah）之前剃光整个头部可以解除对夫妻房事和香料的禁止，但并未完全解除受戒（Ihram）状态。这一裁决突出了学者们对于部分解除与完全解除受戒限制之间的区别，强调在特定的环游和奔走（Sa'i）仪式完成之前，性行为仍然被禁止。这段圣训为朝觐者提供了实用指南，帮助他们理解在朝觐或副朝期间何时可以恢复正常的夫妻生活。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

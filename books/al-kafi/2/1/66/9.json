@@ -14,6 +14,128 @@
       "up": "/books/al-kafi:2:1:66"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "ابْنُ مَحْبُوبٍ عَنْ أَبِي أُسَامَةَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 6,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قَالَ أَبُو عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) مَا ابْتُلِيَ الْمُؤْمِنُ بِشَيْ‏ءٍ أَشَدَّ عَلَيْهِ مِنْ خِصَالٍ ثَلَاثٍ يُحْرَمُهَا قِيلَ وَ مَا هُنَّ قَالَ الْمُوَاسَاةُ فِي ذَاتِ يَدِهِ وَ الْإِنْصَافُ مِنْ نَفْسِهِ وَ ذِكْرُ اللَّهِ كَثِيراً أَمَا إِنِّي لَا أَقُولُ سُبْحَانَ اللَّهِ وَ الْحَمْدُ لِلَّهِ وَ لَا إِلَهَ إِلَّا اللَّهُ وَ لَكِنْ ذِكْرُ اللَّهِ عِنْدَ مَا أَحَلَّ لَهُ وَ ذِكْرُ اللَّهِ عِنْدَ مَا حَرَّمَ عَلَيْهِ",
+            "chunk_type": "body",
+            "word_end": 70,
+            "word_start": 6
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 10,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنُ مَحْبُوبٍ",
+              "name_en": "Ibn Mahbub",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 280,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي أُسَامَةَ",
+              "name_en": "Abu Usama",
+              "position": 2,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "theological_concept",
+            "phrase_ar": "لَا إِلٰهَ إِلَّا اللَّهُ",
+            "phrase_en": "There is no god but Allah"
+          },
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "theological_concept",
+            "phrase_ar": "ذِكْرُ اللَّهِ",
+            "phrase_en": "Remembrance of Allah"
+          },
+          {
+            "category": "quranic_echo",
+            "phrase_ar": "الْحَمْدُ لِلَّهِ",
+            "phrase_en": "All praise is due to Allah"
+          },
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "سُبْحَانَ اللَّهِ",
+            "phrase_en": "Glory be to Allah"
+          }
+        ],
+        "key_terms_keys": [
+          "الْمُوَاسَاةُ",
+          "الْإِنْصَافُ",
+          "ذِكْرُ اللَّهِ",
+          "خِصَالٍ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:177",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:195",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "3:28",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:187",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "worship"
+        ],
+        "topics": [
+          "dhikr",
+          "patience",
+          "halal_haram",
+          "etiquette"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> حسن كالصحيح   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (8/346)"
       ],
@@ -58,7 +180,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:1:66:9",

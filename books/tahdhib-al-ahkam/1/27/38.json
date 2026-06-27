@@ -16,80 +16,41 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ أَحْمَدَ بْنِ يَحْيَى عَنْ إِبْرَاهِيمَ بْنِ هَاشِمٍ عَنِ النَّوْفَلِيِّ عَنِ السَّكُونِيِّ عَنْ جَعْفَرٍ عَنْ أَبِيهِ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন আহমদ ইবন ইয়াহইয়া, ইব্রাহিম ইবন হাশিম থেকে, তিনি আল-নাওফালি থেকে, তিনি আল-সুকুনি থেকে, তিনি জাফর থেকে, তিনি তাঁর পিতা থেকে:",
-              "de": "Muhammad ibn Ahmad ibn Yahya, von Ibrahim ibn Hashim, von al-Nawfali, von al-Sukuni, von Jaʿfar, von seinem Vater:",
-              "en": "Muḥammad ibn Aḥmad ibn Yaḥyā, from Ibrāhīm ibn Hāshim, from al-Nawfalī, from al-Sukūnī, from Jaʿfar, from his father:",
-              "es": "Muhammad ibn Ahmad ibn Yahya, de Ibrahim ibn Hashim, de al-Nawfali, de al-Sukuni, de Jaʿfar, de su padre:",
-              "fa": "محمد بن احمد بن یحیی، از ابراهیم بن هاشم، از النوفلی، از السکونی، از جعفر، از پدرش:",
-              "fr": "Muhammad ibn Ahmad ibn Yahya, d’Ibrahim ibn Hashim, d’al-Nawfali, d’al-Sukuni, de Jaʿfar, de son père :",
-              "id": "Muhammad ibn Ahmad ibn Yahya, dari Ibrahim ibn Hashim, dari al-Nawfali, dari al-Sukuni, dari Ja'far, dari ayahnya:",
-              "ru": "Мухаммад ибн Ахмад ибн Яхья, от Ибрахима ибн Хашима, от ан-Науфали, от ас-Сукуни, от Джафара, от его отца:",
-              "tr": "Muhammed ibn Ahmed ibn Yahya, İbrahim ibn Haşim’den, o en-Nevfelî’den, o es-Sükûnî’den, o Ca‘fer’den, o da babasından:",
-              "ur": "محمد بن احمد بن یحیی، ابراہیم بن ہاشم سے، وہ النوفلی سے، وہ السکونی سے، وہ جعفر سے، وہ اپنے والد سے:",
-              "zh": "穆罕默德·伊本·艾哈迈德·伊本·叶海亚，传自易卜拉欣·伊本·哈希姆，传自al-Nawfali，传自al-Sukuni，传自贾法尔，传自其父："
-            },
             "word_end": 17,
             "word_start": 0
           },
           {
             "arabic_text": "«أَنَّ عَلِيًّا عَلَيْهِ السَّلَامُ كَانَ لَا يَرَى بَأْسًا بِدَمِ مَا لَمْ يُذَكَّ يَكُونُ فِي الثَّوْبِ فَيُصَلِّي فِيهِ الرَّجُلُ يَعْنِي دَمَ السَّمَكِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে আলী عليه السلام এমন কিছুর রক্ত, যা শরিয়তসম্মতভাবে জবাই করা হয়নি, তা কাপড়ে থাকাকে কোনো ক্ষতি মনে করতেন না; ফলে মানুষ তাতে সালাত আদায় করে—অর্থাৎ মাছের রক্ত।",
-              "de": "Dass ʿAlī عليه السلام darin keinen Schaden sah, wenn das Blut dessen, was nicht rituell geschlachtet worden war, auf dem Gewand war, sodass ein Mann darin betet — gemeint ist das Blut des Fisches.",
-              "en": "That ʿAlī عليه السلام did not consider there to be any harm in the blood of that which has not been slaughtered ritually being on the garment, so a man prays in it—meaning the blood of fish.",
-              "es": "Que ʿAlī عليه السلام no consideraba que hubiera perjuicio en que la sangre de aquello que no ha sido sacrificado ritualmente estuviera sobre la prenda, de modo que un hombre reza en ella; es decir, la sangre del pez.",
-              "fa": "این‌که علی علیه السلام در خونِ آنچه به‌طور شرعی ذبح نشده است که بر لباس باشد، اشکالی نمی‌دید، پس مرد در آن نماز می‌خواند؛ یعنی خونِ ماهی.",
-              "fr": "Que ʿAlī عليه السلام ne voyait aucun mal à ce que le sang de ce qui n’a pas été abattu rituellement se trouve sur le vêtement, de sorte qu’un homme y prie — c’est-à-dire le sang du poisson.",
-              "id": "Bahwa Ali عليه السلام tidak memandang ada keberatan pada darah dari sesuatu yang tidak disembelih secara syar'i jika terdapat pada pakaian, sehingga seseorang salat di dalamnya—maksudnya darah ikan.",
-              "ru": "Что Али عليه السلام не считал вредом, если кровь того, что не было заколото по шариату, находилась на одежде, и человек молился в ней — то есть кровь рыбы.",
-              "tr": "Şüphesiz Ali عليه السلام, şerʿî olarak kesilmemiş olanın kanının elbise üzerinde bulunmasında bir sakınca görmezdi; dolayısıyla kişi onun içinde namaz kılar—yani balığın kanı.",
-              "ur": "کہ علی علیہ السلام اس بات میں کوئی حرج نہیں سمجھتے تھے کہ جس جانور کو شرعی طور پر ذبح نہ کیا گیا ہو اس کا خون کپڑے پر ہو، تو آدمی اس میں نماز پڑھ لے—یعنی مچھلی کا خون۔",
-              "zh": "阿里 عليه السلام认为，未经礼法宰杀之物的血沾在衣服上并无妨碍，因此人可以穿着它礼拜——即鱼血。"
-            },
             "word_end": 38,
             "word_start": 17
           },
           {
             "arabic_text": "قَالَ الشَّيْخُ أَيَّدَهُ اللَّهُ تَعَالَى وَإِذَا مَسَّ ثَوْبَ الْإِنْسَانِ كَلْبٌ أَوْ خِنْزِيرٌ وَكَانَا يَابِسَيْنِ فَلْيُرَشَّ مَوْضِعُ مَسِّهِمَا مِنْهُ بِالْمَاءِ وَإِنْ كَانَا رَطْبَيْنِ فَلْيُغْسَلْ مَا مَسَّاهُ بِالْمَاءِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আল-শাইখ, আল্লাহ তা‘আলা তাঁকে সাহায্য করুন, বলেছেন: যদি কোনো কুকুর বা শূকর কোনো ব্যক্তির কাপড় স্পর্শ করে এবং উভয়ই শুকনো থাকে, তবে তাদের স্পর্শের স্থানটিতে পানি ছিটিয়ে দিতে হবে; আর যদি উভয়ই ভেজা থাকে, তবে তারা যা স্পর্শ করেছে তা পানি দিয়ে ধুয়ে ফেলতে হবে।",
-              "de": "Al-Shaykh, möge Allah der Erhabene ihm beistehen, sagte: Wenn ein Hund oder ein Schwein das Gewand einer Person berührt und beide trocken sind, dann soll die Stelle ihrer Berührung mit Wasser besprengt werden; und wenn beide feucht sind, dann soll das, was sie berührt haben, mit Wasser gewaschen werden.",
-              "en": "Al-Shaykh, may Allah Most High support him, said: If a dog or a pig touches a person's garment while both are dry, then the place of their touch on it should be sprinkled with water; and if they are wet, then whatever they touched should be washed with water.",
-              "es": "Al-Shaykh, que Allah el Altísimo le ayude, dijo: Si un perro o un cerdo toca la prenda de una persona y ambos están secos, entonces el lugar de su contacto en ella debe rociarse con agua; y si ambos están húmedos, entonces lo que hayan tocado debe lavarse con agua.",
-              "fa": "الشیخ، خداوند متعال او را یاری کند، فرمود: اگر سگی یا خوکی لباسِ شخصی را لمس کند و هر دو خشک باشند، جای تماسِ آن دو بر آن با آب پاشیده شود؛ و اگر هر دو تر باشند، آنچه را لمس کرده‌اند با آب شسته شود.",
-              "fr": "Al-Shaykh, qu’Allah Très-Haut lui vienne en aide, a dit : Si un chien ou un porc touche le vêtement d’une personne et que tous deux sont secs, alors l’endroit de leur contact doit être aspergé d’eau ; et s’ils sont tous deux humides, alors ce qu’ils ont touché doit être lavé à l’eau.",
-              "id": "Al-Shaykh, semoga Allah Yang Mahatinggi menolongnya, berkata: Jika seekor anjing atau babi menyentuh pakaian seseorang dan keduanya kering, maka tempat sentuhan keduanya pada pakaian itu hendaklah diperciki air; dan jika keduanya basah, maka apa pun yang mereka sentuh hendaklah dicuci dengan air.",
-              "ru": "Аш-Шейх, да поможет ему Всевышний Аллах, сказал: если собака или свинья коснётся одежды человека и оба будут сухими, то место их прикосновения следует окропить водой; а если оба будут влажными, то то, чего они коснулись, следует вымыть водой.",
-              "tr": "Şeyh, Allah Teâlâ ona yardım etsin, dedi ki: Eğer bir köpek veya domuz bir kişinin elbisesine dokunur ve ikisi de kuru olursa, dokundukları yer su ile serpilir; eğer ikisi de yaş olursa, dokundukları şey su ile yıkanır.",
-              "ur": "الشیخ، اللہ تعالیٰ ان کی مدد فرمائے، نے فرمایا: اگر کتا یا سور کسی شخص کے کپڑے کو چھوئے اور دونوں خشک ہوں، تو ان کے لگنے کی جگہ پر پانی چھڑک دیا جائے؛ اور اگر دونوں تر ہوں، تو جس چیز کو انہوں نے چھوا ہو اسے پانی سے دھویا جائے۔",
-              "zh": "al-Shaykh，愿至高的真主援助他，说：如果狗或猪碰到某人的衣服，而二者都是干的，那么它们接触到的地方应洒水；如果二者都是湿的，那么它们所碰到的东西应以水洗净。"
-            },
             "word_end": 64,
             "word_start": 38
           },
           {
             "arabic_text": "يَدُلُّ عَلَيْهِ.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "এটি তারই নির্দেশ করে।",
-              "de": "Dies deutet darauf hin.",
-              "en": "This indicates it.",
-              "es": "Esto lo indica.",
-              "fa": "این بر آن دلالت دارد.",
-              "fr": "Cela l’indique.",
-              "id": "Ini menunjukkan hal itu.",
-              "ru": "Это указывает на это.",
-              "tr": "Bu, buna delalet eder.",
-              "ur": "یہ اس پر دلالت کرتا ہے۔",
-              "zh": "这表明了这一点。"
-            },
             "word_end": 66,
             "word_start": 64
           }
@@ -162,28 +123,16 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الثَّوْبِ": "garment or clothing in which one performs salat (prayer)",
-            "بِالْمَاءِ": "with water, the means of purification mentioned in the ruling",
-            "خِنْزِيرٌ": "pig, whose contact with clothing is discussed in relation to purification",
-            "دَمَ السَّمَكِ": "the blood of fish, specified here as not preventing prayer in the garment",
-            "رَطْبَيْنِ": "wet, indicating a state requiring washing",
-            "كَلْبٌ": "dog, whose contact with clothing is discussed in relation to purification",
-            "يَابِسَيْنِ": "dry, indicating a state affecting the ruling of purification",
-            "يُصَلِّي": "to perform salat (prayer)"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الثَّوْبِ",
+          "دَمَ السَّمَكِ",
+          "يُصَلِّي",
+          "كَلْبٌ",
+          "خِنْزِيرٌ",
+          "يَابِسَيْنِ",
+          "رَطْبَيْنِ",
+          "بِالْمَاءِ"
+        ],
         "related_quran": [
           {
             "ref": "2:222",
@@ -198,32 +147,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "সালাতের জন্য কাপড়ে মাছের রক্ত বা কুকুর কিংবা শূকরের সংস্পর্শের বিধান কী?",
-          "de": "Wie lautet die Regel bezüglich Fischblut oder des Kontakts mit einem Hund oder Schwein auf der Kleidung für das Gebet?",
-          "en": "What is the ruling on fish blood or contact with a dog or pig on clothing for prayer?",
-          "es": "¿Cuál es la norma sobre la sangre del pez o el contacto con un perro o un cerdo en la ropa para rezar?",
-          "fa": "حکم خون ماهی یا تماس سگ یا خوک بر لباس برای نماز چیست؟",
-          "fr": "Quelle est la règle concernant le sang du poisson ou le contact avec un chien ou un porc sur un vêtement pour la prière ?",
-          "id": "Apa hukum darah ikan atau sentuhan anjing atau babi pada pakaian untuk salat?",
-          "ru": "Каково постановление о крови рыбы или о контакте с собакой или свиньёй на одежде для молитвы?",
-          "tr": "Namaz için elbisede balık kanı veya köpek ya da domuz teması hükmü nedir?",
-          "ur": "نماز کے لیے کپڑوں پر مچھلی کے خون یا کتے یا سور کے لمس کا کیا حکم ہے؟",
-          "zh": "用于礼拜时，衣服上有鱼血或接触过狗或猪的规定是什么？"
-        },
-        "summaries": {
-          "bn": "এই অংশে কাপড়ে রক্ত থাকা এবং কুকুর বা শূকরের সংস্পর্শ সম্পর্কিত পবিত্রতার বিধান আলোচনা করা হয়েছে। এতে বলা হয়েছে যে মাছের রক্ত কাপড়ে থাকলে সালাতে বাধা হয় না, এবং কুকুর বা শূকরের শুকনো বা ভেজা সংস্পর্শের ভিত্তিতে পানি ছিটানো বা ধোয়ার প্রয়োজন নির্ধারিত হয়।",
-          "de": "Dieser Abschnitt behandelt die Regeln der rituellen Reinheit in Bezug auf Blut auf Kleidung und den Kontakt mit einem Hund oder Schwein. Er besagt, dass Fischblut das Gebet in einem Kleidungsstück nicht verhindert, und unterscheidet zwischen trockenem und nassem Kontakt mit einem Hund oder Schwein, um zu bestimmen, ob Besprengen oder Waschen erforderlich ist.",
-          "en": "This passage addresses rulings of ritual purity concerning blood on clothing and contact with a dog or pig. It states that fish blood does not prevent prayer in a garment, and it distinguishes between dry and wet contact with a dog or pig in determining whether sprinkling or washing is required.",
-          "es": "Este pasaje trata sobre las normas de pureza ritual relativas a la sangre en la ropa y al contacto con un perro o un cerdo. Señala que la sangre del pez no impide rezar con una prenda, y distingue entre el contacto seco y el húmedo con un perro o un cerdo para determinar si se requiere rociar o lavar.",
-          "fa": "این بخش، احکام طهارت درباره خون بر لباس و تماس با سگ یا خوک را بیان می‌کند. در آن آمده است که خون ماهی مانع نماز در لباس نیست، و نیز بر اساس خشک یا تر بودن تماس سگ یا خوک، حکمِ پاشیدن آب یا شستن متفاوت است.",
-          "fr": "Ce passage traite des règles de pureté rituelle concernant le sang sur les vêtements et le contact avec un chien ou un porc. Il indique que le sang du poisson n’empêche pas de prier avec un vêtement, et distingue entre le contact sec et le contact humide avec un chien ou un porc pour déterminer s’il faut asperger ou laver.",
-          "id": "Bagian ini membahas hukum-hukum kesucian ritual terkait darah pada pakaian dan sentuhan dengan anjing atau babi. Disebutkan bahwa darah ikan tidak menghalangi salat dalam pakaian, dan dibedakan antara sentuhan anjing atau babi yang kering dan yang basah dalam menentukan apakah perlu diperciki atau dicuci.",
-          "ru": "Этот отрывок касается норм ритуальной чистоты в отношении крови на одежде и контакта с собакой или свиньёй. В нём говорится, что кровь рыбы не препятствует молитве в одежде, и проводится различие между сухим и влажным контактом с собакой или свиньёй при определении того, требуется ли окропление или мытьё.",
-          "tr": "Bu pasaj, elbisede bulunan kan ve köpek ya da domuz temasına ilişkin taharet hükümlerini ele alır. Balık kanının elbiseyle namaza engel olmadığını ve köpek ya da domuzun kuru veya yaş temasına göre serpme ya da yıkama gerekip gerekmediğini belirtir.",
-          "ur": "یہ عبارت کپڑوں پر خون اور کتے یا سور کے لمس سے متعلق طہارت کے احکام بیان کرتی ہے۔ اس میں کہا گیا ہے کہ مچھلی کا خون کپڑے میں نماز سے مانع نہیں، اور کتے یا سور کے خشک یا تر لمس کی بنا پر چھڑکاؤ یا دھونے کا حکم مختلف ہوتا ہے۔",
-          "zh": "这段文字讨论了衣服上血迹以及与狗或猪接触时的礼仪洁净规定。文中指出，鱼血不妨碍穿着该衣服礼拜，并区分狗或猪的干接触与湿接触，以判断是否需要洒水或清洗。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

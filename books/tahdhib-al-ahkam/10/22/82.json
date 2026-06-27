@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلْحُسَيْنُ بْنُ سَعِيدٍ عَنْ فَضَالَةَ عَنْ إِسْمَاعِيلَ بْنِ أَبِي زِيَادٍ عَنْ أَبِي عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ عَنْ أَبِيهِ عَنْ عَلِيٍّ عَلَيْهِ ٱلسَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ, ফাদালাহ থেকে, ইসমাঈল ইবন আবি জিয়াদ থেকে, আবি 'আবদিল্লাহ عليه السلام থেকে, তাঁর পিতা থেকে, 'আলি عليه السلام থেকে বর্ণিত, তিনি বলেছেন:",
-              "de": "Al-Husayn ibn Sa'id, von Fadalah, von Isma'il ibn Abi Ziyad, von Abi 'Abdillah عليه السلام, von seinem Vater, von 'Ali عليه السلام, der sagte:",
-              "en": "Al-Husayn ibn Sa'id, from Fadalah, from Isma'il ibn Abi Ziyad, from Abi 'Abdillah عليه السلام, from his father, from 'Ali عليه السلام, who said:",
-              "es": "Al-Husayn ibn Sa'id, de Fadalah, de Isma'il ibn Abi Ziyad, de Abi 'Abdillah عليه السلام, de su padre, de 'Ali عليه السلام, quien dijo:",
-              "fa": "الحسین بن سعید، از فضاله، از اسماعیل بن ابی زیاد، از ابی‌عبدالله علیه‌السلام، از پدرش، از علی علیه‌السلام که فرمود:",
-              "fr": "Al-Husayn ibn Sa'id, d'après Fadalah, d'après Isma'il ibn Abi Ziyad, d'après Abi 'Abdillah عليه السلام, d'après son père, d'après 'Ali عليه السلام, qui a dit :",
-              "id": "Al-Husayn ibn Sa'id, dari Fadalah, dari Isma'il ibn Abi Ziyad, dari Abi 'Abdillah عليه السلام, dari ayahnya, dari 'Ali عليه السلام, yang berkata:",
-              "ru": "Аль-Хусайн ибн Са'ид, от Фадалы, от Исма'иля ибн Аби Зияда, от Аби 'Абдуллаха عليه السلام, от его отца, от 'Али عليه السلام, который сказал:",
-              "tr": "El-Hüseyin ibn Sa'id, Fadale'den, İsmail ibn Ebi Ziyad'dan, Ebu Abdullah عليه السلام'dan, babasından, Ali عليه السلام'dan rivayet etti ki şöyle dedi:",
-              "ur": "الحسین بن سعید، فضالہ سے، اسماعیل بن ابی زیاد سے، ابو عبداللہ علیہ السلام سے، ان کے والد سے، علی علیہ السلام سے روایت ہے، جنہوں نے فرمایا:",
-              "zh": "Al-HusaynibnSa'id，传自Fadalah，传自Isma'ilibnAbiZiyad，传自Abi'Abdillah عليه السلام，传自其父，传自'Ali عليه السلام，说："
-            },
             "word_end": 23,
             "word_start": 0
           },
           {
             "arabic_text": "لَا تُقَاسُ عَيْنٌ فِي يَوْمِ غَيْمٍ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "মেঘলা দিনে চোখের মূল্যায়ন করা হয় না।",
-              "de": "Ein Auge wird an einem bewölkten Tag nicht beurteilt.",
-              "en": "An eye is not assessed on a cloudy day.",
-              "es": "Un ojo no se evalúa en un día nublado.",
-              "fa": "در روز ابری، چشم ارزیابی نمی‌شود.",
-              "fr": "Un œil ne s’évalue pas par temps nuageux.",
-              "id": "Mata tidak dinilai pada hari yang berawan.",
-              "ru": "Глаз не оценивают в пасмурный день.",
-              "tr": "Bulutlu bir günde göz değerlendirilmez.",
-              "ur": "ابر آلود دن میں آنکھ کا اندازہ نہیں لگایا جاتا۔",
-              "zh": "阴天不评估眼睛。"
-            },
             "word_end": 29,
             "word_start": 23
           }
@@ -124,24 +111,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "تُقَاسُ": "is measured or assessed in a legal evaluative context",
-            "عَيْنٌ": "an eye, referring to the bodily organ in injury law",
-            "غَيْمٍ": "cloudiness or overcast weather, a condition affecting accurate examination",
-            "يَوْمِ": "day, indicating the time of assessment"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "تُقَاسُ",
+          "عَيْنٌ",
+          "يَوْمِ",
+          "غَيْمٍ"
+        ],
         "related_quran": [
           {
             "ref": "16:90",
@@ -152,32 +127,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামী আইনে আহত চোখকে মেঘলা দিনে কেন মূল্যায়ন করা উচিত নয়?",
-          "de": "Warum sollte ein verletztes Auge im islamischen Recht an einem bewölkten Tag nicht beurteilt werden?",
-          "en": "Why should an injured eye not be assessed on a cloudy day in Islamic law?",
-          "es": "¿Por qué no debe evaluarse un ojo herido en un día nublado en la ley islámica?",
-          "fa": "چرا در فقه اسلامی نباید چشم آسیب‌دیده را در روز ابری ارزیابی کرد؟",
-          "fr": "Pourquoi un œil blessé ne doit-il pas être évalué par temps nuageux en droit islamique ?",
-          "id": "Mengapa mata yang terluka tidak boleh dinilai pada hari yang berawan dalam hukum Islam?",
-          "ru": "Почему в исламском праве нельзя оценивать поврежденный глаз в пасмурный день?",
-          "tr": "İslam hukukunda yaralı bir göz neden bulutlu bir günde değerlendirilmemelidir?",
-          "ur": "اسلامی قانون میں زخمی آنکھ کا اندازہ ابر آلود دن میں کیوں نہیں لگانا چاہیے؟",
-          "zh": "为什么在伊斯兰教法中不应在阴天评估受伤的眼睛？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি শারীরিক আঘাতের মূল্যায়নের প্রেক্ষাপটে একটি শরয়ি বিধান দেয়। এতে বলা হয়েছে যে মেঘলা দিনে চোখের মূল্যায়ন করা উচিত নয়, যা নির্দেশ করে যে সঠিক বিচার এমন পরিস্থিতির ওপর নির্ভর করে যা নির্ভুল মূল্যায়ন সম্ভব করে।",
-          "de": "Dieser Hadith enthält eine rechtliche Regel im Zusammenhang mit der Beurteilung einer Körperverletzung. Er besagt, dass ein Auge an einem bewölkten Tag nicht bewertet werden soll, was darauf hinweist, dass eine korrekte Beurteilung von Bedingungen abhängt, die ein genaues Urteil ermöglichen.",
-          "en": "This hadith gives a legal ruling in the context of bodily injury assessment. It states that an eye should not be evaluated on a cloudy day, indicating that proper assessment depends on conditions that allow accurate judgment.",
-          "es": "Este hadiz ofrece una norma jurídica en el contexto de la evaluación de una lesión corporal. Establece que un ojo no debe evaluarse en un día nublado, lo que indica que la valoración correcta depende de condiciones que permitan un juicio preciso.",
-          "fa": "این حدیث در زمینه ارزیابی آسیب بدنی، حکمی فقهی را بیان می‌کند. در آن آمده است که چشم نباید در روز ابری ارزیابی شود، و این نشان می‌دهد که ارزیابی درست به شرایطی وابسته است که داوری دقیق را ممکن سازد.",
-          "fr": "Ce hadith énonce une règle juridique dans le contexte de l’évaluation d’une blessure corporelle. Il indique qu’un œil ne doit pas être évalué par temps nuageux, ce qui montre qu’une appréciation correcte dépend de conditions permettant un jugement précis.",
-          "id": "Hadis ini memberikan حكم hukum dalam konteks penilaian cedera tubuh. Disebutkan bahwa mata tidak boleh dinilai pada hari yang berawan, yang menunjukkan bahwa penilaian yang tepat bergantung pada kondisi yang memungkinkan keputusan yang akurat.",
-          "ru": "Этот хадис содержит правовое постановление в контексте оценки телесного повреждения. В нем говорится, что глаз не следует оценивать в пасмурный день, что указывает на зависимость правильной оценки от условий, позволяющих вынести точное суждение.",
-          "tr": "Bu hadis, bedensel yaralanmanın değerlendirilmesi bağlamında bir fıkhî hüküm verir. Buna göre göz, bulutlu bir günde değerlendirilmemelidir; bu da doğru değerlendirmenin, isabetli hüküm vermeye imkân tanıyan şartlara bağlı olduğunu gösterir.",
-          "ur": "یہ حدیث جسمانی چوٹ کے اندازے کے بارے میں ایک شرعی حکم بیان کرتی ہے۔ اس میں کہا گیا ہے کہ ابر آلود دن میں آنکھ کا جائزہ نہیں لینا چاہیے، جس سے معلوم ہوتا ہے کہ درست فیصلہ ایسے حالات پر منحصر ہے جو صحیح اندازہ لگانے دیں۔",
-          "zh": "这段圣训在身体伤害评估的语境中给出了一项法律裁定。它说明眼睛不应在阴天被评估，这表明正确的判断取决于能够进行准确裁定的条件。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations",

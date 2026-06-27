@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ فَضَالَةَ عَنْ حُسَيْنٍ عَنِ ابْنِ مُسْكَانَ عَنْ أَبِي بَصِيرٍ وَالْحَلَبِيِّ فِي",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তার কাছ থেকে, Faḍālah থেকে, Ḥusayn থেকে, Ibn Muskan থেকে, Abū Baṣīr এবং al-Ḥalabī থেকে, এই বিষয়ে:",
-              "de": "Von ihm, von Faḍālah, von Ḥusayn, von Ibn Muskan, von Abū Baṣīr und al-Ḥalabī, bezüglich:",
-              "en": "From him, from Faḍālah, from Ḥusayn, from Ibn Muskan, from Abū Baṣīr and al-Ḥalabī, concerning:",
-              "es": "De él, de Faḍālah, de Ḥusayn, de Ibn Muskan, de Abū Baṣīr y al-Ḥalabī, acerca de:",
-              "fa": "از او، از Faḍālah، از Ḥusayn، از Ibn Muskan، از Abū Baṣīr و al-Ḥalabī، دربارهٔ:",
-              "fr": "De lui, de Faḍālah, de Ḥusayn, de Ibn Muskan, d’Abū Baṣīr et d’al-Ḥalabī, au sujet de :",
-              "id": "Darinya, dari Faḍālah, dari Ḥusayn, dari Ibn Muskan, dari Abū Baṣīr dan al-Ḥalabī, tentang:",
-              "ru": "От него, от Faḍālah, от Ḥusayn, от Ibn Muskan, от Abū Baṣīr и al-Ḥalabī, относительно:",
-              "tr": "Ondan, Faḍālah’dan, Ḥusayn’dan, İbn Muskan’dan, Ebû Basîr ve el-Ḥalebî’den, şu konuda:",
-              "ur": "ان سے، فضلہ سے، حسین سے، ابن مسکان سے، ابو بصیر اور حلبی سے، اس بارے میں:",
-              "zh": "由他传自Faḍālah，传自Ḥusayn，传自IbnMuskan，传自AbūBaṣīr和al-Ḥalabī，关于："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "الرَّجُلِ لَا يَدْرِي أَرَكَعَ أَمْ لَمْ يَرْكَعْ، قَالَ: يَرْكَعُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এক ব্যক্তি, যে জানে না সে রুকু করেছে কি না—তিনি বললেন: সে রুকু করুক।",
-              "de": "Ein Mann, der nicht weiß, ob er das ruku' verrichtet hat oder nicht—er sagte: Er soll das ruku' verrichten.",
-              "en": "A man who does not know whether he has performed ruku' or has not performed ruku'—he said: he should perform ruku'.",
-              "es": "Un hombre que no sabe si ha hecho ruku' o no lo ha hecho—dijo: que haga ruku'.",
-              "fa": "مردی که نمی‌داند آیا رکوع کرده است یا رکوع نکرده است—فرمود: رکوع کند.",
-              "fr": "Un homme qui ne sait pas s’il a accompli le ruku' ou non—il a dit : qu’il accomplisse le ruku'.",
-              "id": "Seorang laki-laki yang tidak tahu apakah ia telah melakukan ruku' atau belum melakukan ruku'—beliau bersabda: hendaklah ia melakukan ruku'.",
-              "ru": "Человек, который не знает, совершил ли он руку' или не совершил руку'—он сказал: пусть совершит руку'.",
-              "tr": "Rükû yapıp yapmadığını bilmeyen bir adam hakkında—şöyle dedi: rükû yapsın.",
-              "ur": "ایک آدمی جو نہیں جانتا کہ اس نے رکوع کیا ہے یا رکوع نہیں کیا—اس نے فرمایا: وہ رکوع کرے۔",
-              "zh": "一个不知道自己是否已经做了ruku'的人——他说：他应当做ruku'。"
-            },
             "word_end": 22,
             "word_start": 13
           }
@@ -94,25 +81,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَرَكَعَ": "whether he performed ruku' (bowing)",
-            "الرَّجُلِ": "the man; the person in question",
-            "لَا يَدْرِي": "does not know; is uncertain",
-            "لَمْ يَرْكَعْ": "he did not perform ruku' (bowing)",
-            "يَرْكَعُ": "he should perform ruku'"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "لَا يَدْرِي",
+          "أَرَكَعَ",
+          "لَمْ يَرْكَعْ",
+          "يَرْكَعُ",
+          "الرَّجُلِ"
+        ],
         "related_quran": [
           {
             "ref": "2:43",
@@ -123,32 +98,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কেউ যদি সালাত (নামাজ)ে দাঁড়িয়ে সন্দেহ করে যে সে রুকু করেছে কি না, তাহলে তার কী করা উচিত?",
-          "de": "Was soll eine Person in der salat (Gebet) tun, wenn sie im Stehen daran zweifelt, ob sie das ruku' verrichtet hat?",
-          "en": "What should a person do in salat (prayer) if he doubts whether he performed ruku' while still standing?",
-          "es": "¿Qué debe hacer una persona en la salat (oración) si duda de si hizo ruku' mientras seguía de pie?",
-          "fa": "اگر کسی در حال ایستادن در salat (نماز) شک کند که آیا رکوع کرده است یا نه، چه باید بکند؟",
-          "fr": "Que doit faire une personne dans la salat (prière) si elle doute d’avoir accompli le ruku' alors qu’elle est encore debout ?",
-          "id": "Apa yang harus dilakukan seseorang dalam salat (salat) jika ia ragu apakah ia telah melakukan ruku' saat masih berdiri?",
-          "ru": "Что должен сделать человек в salat (молитве), если он сомневается, совершил ли он руку', оставаясь стоять?",
-          "tr": "Bir kişi salat (namaz) sırasında ayakta dururken rükû yapıp yapmadığından şüphe ederse ne yapmalıdır?",
-          "ur": "اگر کوئی شخص نماز میں کھڑے ہوتے ہوئے شک کرے کہ اس نے رکوع کیا ہے یا نہیں تو اسے کیا کرنا چاہیے؟",
-          "zh": "如果一个人在salat（礼拜）中仍站立时怀疑自己是否做了ruku'，他应该怎么做？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি এমন ব্যক্তির জন্য একটি শরঈ বিধান দেয়, যে সালাত (নামাজ)ে দাঁড়িয়ে সন্দেহ করে সে রুকু করেছে কি না। বিধান হলো, তাকে রুকু করতে হবে, যাতে নামাজের অনিশ্চিত রুকনটি পূর্ণ হয়।",
-          "de": "Dieser Hadith enthält eine rechtliche Regel für denjenigen, der im Stehen daran zweifelt, ob er das ruku' in der salat (Gebet) verrichtet hat. Die Regel lautet, dass er das ruku' verrichten soll; dies entspricht der Rechtslehre, den ungewissen Pfeiler des Gebets zu vervollständigen.",
-          "en": "This hadith gives a legal ruling for one who doubts, while standing, whether he has performed ruku' in salat (prayer). The ruling is that he should perform ruku', reflecting the jurisprudence of acting to complete the uncertain pillar of the prayer.",
-          "es": "Este hadiz establece una norma jurídica para quien duda, estando de pie, si ha hecho ruku' en la salat (oración). La norma es que debe hacer ruku', reflejando la jurisprudencia de actuar para completar el pilar incierto de la oración.",
-          "fa": "این حدیث برای کسی که در حال ایستادن در salat (نماز) شک می‌کند که آیا رکوع کرده است یا نه، حکمی فقهی بیان می‌کند. حکم آن است که رکوع کند تا رکنِ مشکوکِ نماز را کامل سازد.",
-          "fr": "Ce hadith énonce une règle juridique pour celui qui doute, alors qu’il est debout, d’avoir accompli le ruku' dans la salat (prière). La règle est qu’il doit accomplir le ruku', ce qui reflète la jurisprudence consistant à agir pour compléter l’élément fondamental incertain de la prière.",
-          "id": "Hadis ini memberikan حكم fikih bagi orang yang ragu, ketika berdiri, apakah ia telah melakukan ruku' dalam salat (salat) atau belum. Hukumnya adalah ia harus melakukan ruku', sebagai penerapan fikih untuk menyempurnakan rukun salat yang masih meragukan.",
-          "ru": "Этот хадис устанавливает правовое постановление для того, кто, стоя, сомневается, совершил ли он руку' в salat (молитве). Постановление состоит в том, что он должен совершить руку', что отражает фикх о необходимости завершить сомнительный столп молитвы.",
-          "tr": "Bu hadis, salat sırasında ayakta dururken rükû yapıp yapmadığından şüphe eden kimse için fıkhî bir hüküm bildirir. Hüküm, şüpheli olan bu rüknü tamamlamak için rükû yapmasıdır.",
-          "ur": "یہ حدیث اس شخص کے لیے شرعی حکم بیان کرتی ہے جو نماز میں کھڑے ہوتے ہوئے شک کرے کہ اس نے رکوع کیا ہے یا نہیں۔ حکم یہ ہے کہ وہ رکوع کرے، تاکہ نماز کے مشتبہ رکن کو مکمل کیا جائے۔",
-          "zh": "这段圣训为站立时怀疑自己是否已在salat（礼拜）中做了ruku'的人规定了教法律例。其判决是他应当做ruku'，这体现了为完成礼拜中不确定的支柱而采取行动的教法原则。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى عَنْهُ عَلَيْهِ السَّلَامُ أَيُّوبُ بْنُ نُوحٍ أَنَّهُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আইয়ুব ইবনে নূহ তার থেকে বর্ণনা করেছেন, আলাইহি সালাম, যে তিনি বললেন:",
-              "de": "Ayyub ibn Nuh berichtete von ihm, Friede sei mit ihm, dass er sagte:",
-              "en": "Ayyub ibn Nuh narrated from him, peace be upon him, that he said:",
-              "es": "Ayyub ibn Nuh narró de él, la paz sea con él, que dijo:",
-              "fa": "عیوب بن نوح از او روایت کرده است، سلام بر او، که فرمود:",
-              "fr": "Ayyub ibn Nuh a rapporté de lui, paix soit sur lui, qu'il a dit :",
-              "id": "Ayyub ibn Nuh meriwayatkan darinya, semoga keselamatan atasnya, bahwa dia berkata:",
-              "ru": "Айюб ибн Нух передал от него, мир ему, что он сказал:",
-              "tr": "Ayyub ibn Nuh, ondan, selam üzerine olsun, şöyle rivayet etti:",
-              "ur": "عیوب ابن نوح نے ان سے روایت کی، علیہ السلام، کہ انہوں نے فرمایا:",
-              "zh": "艾尤卜本努赫从他那里传述，他平安无事，说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "يَتَنَحَّى عَنِ الْجَوَادِّ يَمْنَةً وَ يَسْرَةً وَ يُصَلِّي.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "কেউ প্রধান সড়ক থেকে ডান বা বামে সরে দাঁড়িয়ে সালাত পড়া উচিত।",
-              "de": "Man soll sich von den Hauptstraßen nach rechts oder links entfernen und beten.",
-              "en": "One should move away from the main roads to the right or to the left and pray.",
-              "es": "Uno debe alejarse de las carreteras principales hacia la derecha o la izquierda y rezar.",
-              "fa": "باید از جاده‌های اصلی به سمت راست یا چپ کنار برود و نماز بخواند.",
-              "fr": "On doit s'éloigner des routes principales vers la droite ou la gauche et prier.",
-              "id": "Seseorang harus menjauh dari jalan utama ke kanan atau kiri dan shalat.",
-              "ru": "Следует отойти от главных дорог вправо или влево и молиться.",
-              "tr": "Bir kişi ana yollardan sağa veya sola çekilmeli ve namaz kılmalıdır.",
-              "ur": "کسی کو چاہیے کہ وہ مرکزی راستوں سے دائیں یا بائیں طرف ہٹ جائے اور نماز پڑھے۔",
-              "zh": "应当从主路向右或向左移开然后祈祷。"
-            },
             "word_end": 18,
             "word_start": 10
           }
@@ -82,25 +69,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْجَوَادِّ": "the main roads or thoroughfares",
-            "يَتَنَحَّى": "to move aside or keep away",
-            "يَسْرَةً": "toward the left side",
-            "يَمْنَةً": "toward the right side",
-            "يُصَلِّي": "he performs salat (prayer)"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَتَنَحَّى",
+          "الْجَوَادِّ",
+          "يَمْنَةً",
+          "يَسْرَةً",
+          "يُصَلِّي"
+        ],
         "related_quran": [
           {
             "ref": "2:125",
@@ -111,32 +86,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কেউ প্রধান সড়কের কাছে থাকে, তাহলে কোথায় সালাত করা উচিত?",
-          "de": "Wo soll man beten, wenn man sich in der Nähe einer Hauptstraße befindet?",
-          "en": "Where should one pray if one is near a main road?",
-          "es": "¿Dónde debe uno rezar si está cerca de una carretera principal?",
-          "fa": "اگر کسی نزدیک جاده اصلی باشد، کجا باید نماز بخواند؟",
-          "fr": "Où doit-on prier si l'on est près d'une route principale ?",
-          "id": "Jika seseorang berada dekat jalan utama, di mana sebaiknya ia shalat?",
-          "ru": "Где следует молиться, если находишься рядом с главной дорогой?",
-          "tr": "Ana yolun yakınındaysanız nerede namaz kılmalısınız?",
-          "ur": "اگر کوئی مرکزی سڑک کے قریب ہو تو نماز کہاں پڑھنی چاہیے؟",
-          "zh": "如果人在主路附近，应在哪里祈祷？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস সালাতের স্থান সম্পর্কে শারঈ নির্দেশনা দেয় যে সালাতের আগে প্রধান সড়ক থেকে ডান বা বামে সরে যেতে হবে।",
-          "de": "Dieser Hadith gibt eine rechtliche Anweisung bezüglich des Ortes des Salat, dass man sich vor dem Gebet von der Hauptstraße nach rechts oder links entfernen soll.",
-          "en": "This hadith gives a legal instruction concerning the place of salat (prayer). It directs a person to move away from the main roadway, either to the right or the left, before praying.",
-          "es": "Este hadiz da una instrucción legal sobre el lugar de la salat, indicando que uno debe alejarse de la carretera principal hacia la derecha o izquierda antes de rezar.",
-          "fa": "این حدیث دستور شرعی درباره مکان نماز می‌دهد که باید قبل از نماز از جاده اصلی به راست یا چپ کنار رفت.",
-          "fr": "Ce hadith donne une instruction légale concernant le lieu de la salat, indiquant qu'il faut s'éloigner de la route principale à droite ou à gauche avant de prier.",
-          "id": "Hadis ini memberikan petunjuk hukum mengenai tempat salat, yaitu harus menjauh dari jalan utama ke kanan atau kiri sebelum salat.",
-          "ru": "Этот хадис даёт юридическое указание относительно места салят: перед молитвой следует отойти от главной дороги вправо или влево.",
-          "tr": "Bu hadis, salatın yeri hakkında hukuki bir talimat verir; namaz kılmadan önce ana yoldan sağa veya sola çekilmek gerekir.",
-          "ur": "یہ حدیث نماز کے مقام کے بارے میں شرعی ہدایت دیتی ہے کہ نماز سے پہلے مرکزی راستے سے دائیں یا بائیں طرف ہٹ جانا چاہیے۔",
-          "zh": "此圣训关于礼拜地点给出法律指示，指示人在礼拜前应从主路向右或向左移开。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

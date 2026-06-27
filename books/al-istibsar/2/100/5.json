@@ -16,80 +16,41 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُوسَى بْنُ الْقَاسِمِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ حَمَّادٍ عَنِ الْحَلَبِيِّ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মূসা ইবন আল-কাসিম ইবন আবি উমাইর থেকে, তিনি হাম্মাদ থেকে, তিনি আল-হালাবি থেকে বর্ণনা করেছেন, যিনি বলেছেন:",
-              "de": "Musa ibn al-Qasim überlieferte von Ibn Abi ʿUmayr, von Hammad, von al-Halabi, der sagte:",
-              "en": "Musa ibn al-Qasim narrated from Ibn Abi ʿUmayr, from Hammad, from al-Halabi, who said:",
-              "es": "Musa ibn al-Qasim narró de Ibn Abi ʿUmayr, de Hammad, de al-Halabi, quien dijo:",
-              "fa": "موسی بن القاسم از ابن ابی عمیر، از حماد، از حلبی روایت کرد که گفت:",
-              "fr": "Musa ibn al-Qasim a rapporté d’Ibn Abi ʿUmayr, de Hammad, d’al-Halabi, qui a dit :",
-              "id": "Musa ibn al-Qasim meriwayatkan dari Ibn Abi ʿUmayr, dari Hammad, dari al-Halabi, yang berkata:",
-              "ru": "Муса ибн аль-Касим передал от Ибн Аби ʿУмайра, от Хаммада, от аль-Халаби, который сказал:",
-              "tr": "Musa ibn al-Qasim, İbn Abi ʿUmeyr’den, o Hammad’dan, o da el-Halebi’den rivayet etti; o şöyle dedi:",
-              "ur": "موسیٰ بن القاسم نے ابن ابی عمیر سے، وہ حماد سے، وہ الحلبي سے روایت کی، جنہوں نے کہا:",
-              "zh": "穆萨·伊本·卡西姆传述自伊本·阿比·ʿ乌迈尔，传自哈马德，传自阿勒·哈拉比，他说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "سُئِلَ أَبُو عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ عَنْ صَيْدٍ رُمِيَ فِي الْحِلِّ ثُمَّ أُدْخِلَ الْحَرَمَ وَهُوَ حَيٌّ،",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আবু ʿআবদিল্লাহ عليه السلام-কে এমন শিকার সম্পর্কে জিজ্ঞেস করা হয়েছিল, যা হিল অঞ্চলে গুলি করা হয়েছিল, তারপর জীবিত অবস্থায় হারামে নিয়ে যাওয়া হয়েছিল,",
-              "de": "Abu ʿAbdillah عليه السلام wurde nach Wild gefragt, das im nicht-heiligen Gebiet angeschossen und dann lebend in den Haram gebracht wurde,",
-              "en": "Abu ʿAbdillah عليه السلام was asked about game that was shot in the non-sacred area, then brought into the Haram while it was still alive,",
-              "es": "Se le preguntó a Abu ʿAbdillah عليه السلام acerca de una presa que fue abatida en la zona no sagrada y luego llevada al Haram mientras aún estaba viva,",
-              "fa": "از ابو عبدالله علیه السلام درباره صیدی پرسیده شد که در حِلّ تیر زده شده بود، سپس در حالی که زنده بود به حرم برده شد،",
-              "fr": "On demanda à Abu ʿAbdillah عليه السلام au sujet d’un gibier qui avait été touché dans la zone non sacrée, puis introduit dans le Haram alors qu’il était encore vivant,",
-              "id": "Abu ʿAbdillah عليه السلام ditanya tentang hewan buruan yang ditembak di wilayah non-suci, lalu dibawa ke Haram dalam keadaan masih hidup,",
-              "ru": "У Абу ʿАбдуллаха عليه السلام спросили о дичи, в которую выстрелили в не-священной области, а затем живой внесли в Харам,",
-              "tr": "Ebu ʿAbdillah عليه السلام’a, harem olmayan bölgede vurulan, sonra canlı halde Harem’e götürülen av hakkında soruldu,",
-              "ur": "ابو عبد اللہ علیہ السلام سے اس شکار کے بارے میں پوچھا گیا جو غیر حرم میں تیر مارا گیا، پھر اسے زندہ حالت میں حرم میں لے جایا گیا،",
-              "zh": "有人问阿布·ʿ阿卜杜拉 عليه السلام：关于在非禁地射中的猎物，然后在它还活着的时候被带入禁地，"
-            },
             "word_end": 28,
             "word_start": 12
           },
           {
             "arabic_text": "فَقَالَ: إِذَا أَدْخَلَهُ الْحَرَمَ وَهُوَ حَيٌّ فَقَدْ حَرُمَ لَحْمُهُ وَإِمْسَاكُهُ،",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তখন তিনি বললেন: যদি সে সেটিকে জীবিত অবস্থায় হারামে প্রবেশ করায়, তবে তার মাংস এবং সেটিকে রাখা হারাম হয়ে যায়।",
-              "de": "Da sagte er: Wenn er es lebend in den Haram bringt, dann werden sein Fleisch und sein Behalten verboten.",
-              "en": "so he said: If he brings it into the Haram while it is alive, then its meat and keeping it become forbidden.",
-              "es": "Entonces dijo: Si lo introduce en el Haram mientras está vivo, su carne y su posesión se vuelven ilícitas.",
-              "fa": "پس فرمود: اگر آن را در حالی که زنده است به حرم داخل کند، گوشت آن و نگه‌داشتن آن حرام می‌شود.",
-              "fr": "Il dit alors : S’il l’introduit dans le Haram alors qu’il est vivant, sa viande et le fait de le garder deviennent interdits.",
-              "id": "Maka beliau bersabda: Jika ia memasukkannya ke dalam Haram dalam keadaan hidup, maka dagingnya dan memeliharanya menjadi haram.",
-              "ru": "Тогда он сказал: если он внесет его в Харам живым, то его мясо и его удержание станут запретными.",
-              "tr": "Bunun üzerine şöyle buyurdu: Eğer onu canlı halde Harem’e sokarsa, onun eti ve onu elde tutmak haram olur.",
-              "ur": "تو انہوں نے فرمایا: اگر وہ اسے زندہ حالت میں حرم میں داخل کرے تو اس کا گوشت اور اسے رکھنا حرام ہو جاتا ہے۔",
-              "zh": "于是他说：如果他把它活着带入禁地，那么它的肉和持有它都变成了非法。"
-            },
             "word_end": 38,
             "word_start": 28
           },
           {
             "arabic_text": "وَقَالَ: لَا تَشْتَرِهِ فِي الْحَرَمِ إِلَّا مَا كَانَ مَذْبُوحًا وَقَدْ ذُبِحَ فِي الْحِلِّ ثُمَّ أُدْخِلَ الْحَرَمَ فَلَا بَأْسَ.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "আর তিনি বললেন: হারামে তা কিনো না, তবে যা জবাই করা হয়েছে, এবং যা হিল অঞ্চলে জবাই করা হয়েছিল তারপর হারামে আনা হয়েছে; এতে কোনো অসুবিধা নেই।",
-              "de": "Und er sagte: Kaufe es im Haram nicht, außer wenn es geschlachtet worden ist und im nicht-heiligen Gebiet geschlachtet und dann in den Haram gebracht wurde; dann ist es kein Problem.",
-              "en": "And he said: Do not buy it in the Haram except that which had been slaughtered, and had been slaughtered in the non-sacred area, then brought into the Haram; then there is no harm.",
-              "es": "Y dijo: No lo compres en el Haram, excepto si ha sido sacrificado, y si fue sacrificado en la zona no sagrada y luego llevado al Haram; entonces no hay inconveniente.",
-              "fa": "و فرمود: آن را در حرم مخرید مگر آنچه ذبح شده باشد، و در حِلّ ذبح شده سپس به حرم آورده شده باشد؛ پس باکی نیست.",
-              "fr": "Et il dit : Ne l’achète pas dans le Haram, sauf s’il a été abattu, et qu’il a été abattu dans la zone non sacrée puis introduit dans le Haram ; alors il n’y a pas de mal.",
-              "id": "Dan beliau bersabda: Jangan membelinya di Haram kecuali yang telah disembelih, dan telah disembelih di wilayah non-suci lalu dibawa ke Haram; maka tidak ada masalah.",
-              "ru": "И он сказал: Не покупай его в Хараме, кроме как если оно было заклано, и было заклано в не-священной области, а затем внесено в Харам; тогда в этом нет ничего предосудительного.",
-              "tr": "Ve şöyle buyurdu: Harem’de onu satın alma; ancak kesilmiş olanı, yani non-sacred bölgede kesilip sonra Harem’e getirilen olursa, bunda bir sakınca yoktur.",
-              "ur": "اور انہوں نے فرمایا: اسے حرم میں نہ خریدو، مگر وہ جو ذبح کیا گیا ہو، اور جو غیر حرم میں ذبح کیا گیا ہو پھر حرم میں لایا گیا ہو؛ تو اس میں کوئی حرج نہیں۔",
-              "zh": "并且他说：不要在禁地里购买它，除非它已经被宰杀，而且是在非禁地宰杀后再带入禁地的；那么就没有问题。"
-            },
             "word_end": 56,
             "word_start": 38
           }
@@ -132,27 +93,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِمْسَاكُهُ": "keeping or retaining possession of it",
-            "الْحَرَمَ": "the sacred sanctuary in which special hunting restrictions apply",
-            "الْحِلِّ": "the area outside the sacred boundary of the Haram",
-            "حَيٌّ": "alive at the time it entered the Haram",
-            "صَيْدٍ": "game animal that has been hunted",
-            "لَحْمُهُ": "its meat, meaning its consumption as food",
-            "مَذْبُوحًا": "slaughtered according to valid slaughter before entering the Haram"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "صَيْدٍ",
+          "الْحِلِّ",
+          "الْحَرَمَ",
+          "حَيٌّ",
+          "لَحْمُهُ",
+          "إِمْسَاكُهُ",
+          "مَذْبُوحًا"
+        ],
         "related_quran": [
           {
             "ref": "5:95",
@@ -163,32 +112,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হারামের বাইরে শিকার করা প্রাণী হারামে আনার পর কি তা খাওয়া বা কেনা যায়?",
-          "de": "Darf Wild, das außerhalb des Haram erlegt wurde, nach dem Bringen in den Haram gegessen oder gekauft werden?",
-          "en": "Can hunted game shot outside the Haram be eaten or bought after being brought into the Haram?",
-          "es": "¿Se puede comer o comprar una presa cazada fuera del Haram después de llevarla al Haram?",
-          "fa": "آیا صیدی که بیرون از حرم شکار شده، پس از آوردن به حرم می‌توان آن را خورد یا خرید؟",
-          "fr": "Peut-on manger ou acheter un gibier abattu hors du Haram après l’avoir introduit dans le Haram ?",
-          "id": "Apakah hewan buruan yang ditembak di luar Haram boleh dimakan atau dibeli setelah dibawa ke Haram?",
-          "ru": "Можно ли есть или покупать дичь, добытую вне Харама, после того как ее внесли в Харам?",
-          "tr": "Harem dışında vurulan av, Harem’e getirildikten sonra yenebilir veya satın alınabilir mi?",
-          "ur": "کیا حرم سے باہر شکار کیا گیا جانور، حرم میں لانے کے بعد کھایا یا خریدا جا سکتا ہے؟",
-          "zh": "在禁地外射中的猎物被带入禁地后，还可以食用或购买吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস হারামের শিকারের সঙ্গে সম্পর্কিত একটি শরয়ি বিধান বর্ণনা করে: যদি শিকার জীবিত অবস্থায় হারামে প্রবেশ করানো হয়, তবে তার মাংস এবং তা রাখা হারাম হয়ে যায়; তবে যদি তা হিল অঞ্চলে সঠিকভাবে জবাই করে তারপর হারামে আনা হয়, তাহলে তা খাওয়া বা কেনায় কোনো অসুবিধা নেই।",
-          "de": "Dieser Hadith erläutert eine rechtliche Regel zum Wild im Zusammenhang mit dem Haram: Wenn Wild lebend in den Haram gebracht wird, werden sein Fleisch und sein Besitz verboten; wurde es jedoch im nicht-heiligen Gebiet ordnungsgemäß geschlachtet und dann in den Haram gebracht, ist es unbedenklich, es zu essen oder zu kaufen.",
-          "en": "This hadith gives a legal ruling concerning hunted game in relation to the sanctuary of the Haram. If game is brought into the Haram alive, its meat and possession become forbidden; however, if it was properly slaughtered in the non-sacred area before being brought into the Haram, then there is no problem in consuming or purchasing it.",
-          "es": "Este hadiz expone una norma jurídica sobre la presa cazada en relación con el Haram: si la presa es introducida viva en el Haram, su carne y su posesión se vuelven ilícitas; pero si fue sacrificada correctamente en la zona no sagrada y luego llevada al Haram, no hay inconveniente en comerla o comprarla.",
-          "fa": "این حدیث حکم شرعیِ مربوط به صید در ارتباط با حرم را بیان می‌کند: اگر صید در حالی که زنده است به حرم داخل شود، گوشت و نگهداری آن حرام می‌شود؛ اما اگر در حِلّ به‌درستی ذبح شده و سپس به حرم آورده شود، خوردن یا خریدن آن اشکالی ندارد.",
-          "fr": "Ce hadith expose une règle juridique concernant le gibier en relation avec le Haram : si le gibier est introduit vivant dans le Haram, sa viande et le fait de le garder deviennent interdits ; en revanche, s’il a été correctement abattu dans la zone non sacrée puis introduit dans le Haram, il n’y a aucun mal à le consommer ou à l’acheter.",
-          "id": "Hadis ini menjelaskan hukum fikih tentang hewan buruan yang berkaitan dengan Haram: jika buruan dibawa masuk ke Haram dalam keadaan hidup, maka dagingnya dan memilikinya menjadi haram; namun jika ia disembelih dengan benar di wilayah non-suci lalu dibawa ke Haram, maka tidak ada masalah untuk memakannya atau membelinya.",
-          "ru": "Этот хадис разъясняет правовое постановление относительно дичи в связи с Харамом: если дичь вносят в Харам живой, то ее мясо и владение ею становятся запретными; однако если она была должным образом заклана в не-священной области, а затем внесена в Харам, то есть или покупать ее не запрещено.",
-          "tr": "Bu hadis, Harem’deki avla ilgili fıkhî hükmü بیان eder: Eğer av canlı halde Harem’e sokulursa, onun eti ve ona sahip olmak haram olur; ancak non-sacred bölgede usulüne uygun kesilip sonra Harem’e getirilirse, onu yemek veya satın almakta bir sakınca yoktur.",
-          "ur": "یہ حدیث حرم کے شکار سے متعلق شرعی حکم بیان کرتی ہے: اگر شکار زندہ حالت میں حرم میں داخل کیا جائے تو اس کا گوشت اور اس کا رکھنا حرام ہو جاتا ہے؛ البتہ اگر اسے غیر حرم میں درست طور پر ذبح کر کے پھر حرم میں لایا جائے تو اسے کھانے یا خریدنے میں کوئی حرج نہیں۔",
-          "zh": "这段圣训说明了关于禁地猎物的教法律例：如果猎物在活着的时候被带入禁地，那么它的肉和持有它都变成非法；但如果它先在非禁地被正确宰杀，然后再带入禁地，那么食用或购买它都没有问题。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

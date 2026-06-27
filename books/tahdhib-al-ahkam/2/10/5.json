@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلْحَسَنُ عَنْ زُرْعَةَ عَنْ سَمَاعَةَ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হাসান, জুর‘আহ থেকে, সামা‘আহ থেকে, যিনি বলেছেন:",
-              "de": "Al-Hasan, von Zur‘ah, von Sama‘ah, der sagte:",
-              "en": "Al-Hasan, from Zur‘ah, from Sama‘ah, who said:",
-              "es": "Al-Hasan, de Zur‘ah, de Sama‘ah, quien dijo:",
-              "fa": "الحسن، از زرعه، از سماعه، که گفت:",
-              "fr": "Al-Hasan, d’après Zur‘ah, d’après Sama‘ah, qui a dit :",
-              "id": "Al-Hasan, dari Zur‘ah, dari Sama‘ah, yang berkata:",
-              "ru": "Аль-Хасан, от Зур‘и, от Сама‘и, который сказал:",
-              "tr": "El-Hasan, Zur‘ah’dan, Sama‘ah’dan, şöyle dedi:",
-              "ur": "الحسن، زرعہ سے، سماعہ سے، جنہوں نے کہا:",
-              "zh": "Al-Hasan，传自Zur‘ah，传自Sama‘ah，他说："
-            },
             "word_end": 6,
             "word_start": 0
           },
           {
             "arabic_text": "«إِذَا سَهَا اَلرَّجُلُ فِي اَلرَّكْعَتَيْنِ اَلْأَوَّلَتَيْنِ مِنَ اَلظُّهْرِ وَالْعَصْرِ وَلَمْ يَدْرِ وَاحِدَةً صَلَّى أَمْ ثِنْتَيْنِ فَعَلَيْهِ أَنْ يُعِيدَ اَلصَّلَاةَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি কোনো ব্যক্তি যুহর ও আসরের প্রথম দুই রাক‘আতে ভুলে যায় এবং সে না জানে যে সে এক রাক‘আত পড়েছে নাকি দুই রাক‘আত, তবে তার সালাত পুনরায় আদায় করতে হবে।",
-              "de": "Wenn ein Mann in den ersten beiden Rak‘ahs von al-zuhr und al-‘asr vergisst und nicht weiß, ob er eine oder zwei gebetet hat, dann muss er die salat (das Gebet) wiederholen.",
-              "en": "If a man becomes forgetful in the first two rak‘ahs of al-zuhr and al-‘asr, and does not know whether he has prayed one or two, then he must repeat the salat (prayer).",
-              "es": "Si un hombre se distrae en las dos primeras rak‘ahs del zuhr y del asr, y no sabe si ha rezado una o dos, entonces debe repetir la salat (oración).",
-              "fa": "اگر مردی در دو رکعت نخستِ ظهر و عصر دچار فراموشی شود و نداند که یک رکعت خوانده است یا دو رکعت، بر او لازم است که نماز را دوباره بخواند.",
-              "fr": "Si un homme oublie dans les deux premières rak‘ahs du zuhr et du asr, et ne sait pas s’il a prié une ou deux rak‘ahs, alors il doit refaire la salat (prière).",
-              "id": "Jika seseorang menjadi lupa dalam dua rakaat pertama salat zuhur dan asar, dan tidak mengetahui apakah ia telah salat satu atau dua rakaat, maka ia harus mengulangi salat.",
-              "ru": "Если человек забывается в первых двух рак‘атах аз-зухр и аль-‘аср и не знает, совершил ли он одну или две, то он должен повторить салят (намаз).",
-              "tr": "Bir adam öğle ve ikindi namazının ilk iki rekâtında unutkanlığa düşer ve bir rekât mı yoksa iki rekât mı kıldığını bilmezse, salatı (namazı) yeniden kılması gerekir.",
-              "ur": "اگر کوئی شخص ظہر اور عصر کی پہلی دو رکعتوں میں بھول جائے، اور اسے معلوم نہ ہو کہ اس نے ایک رکعت پڑھی ہے یا دو، تو اس پر لازم ہے کہ وہ نماز کو دوبارہ پڑھے۔",
-              "zh": "如果一个人在晌礼和晡礼的前两拜中忘记了，并且不知道自己是礼了一拜还是两拜，那么他必须重新礼拜（salat）。"
-            },
             "word_end": 25,
             "word_start": 6
           }
@@ -94,27 +81,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "اَلرَّكْعَتَيْنِ": "the two rak‘ahs under discussion",
-            "اَلصَّلَاةَ": "the salat (prayer) itself",
-            "اَلظُّهْرِ": "the noon prayer",
-            "اَلْأَوَّلَتَيْنِ": "the first two units of the prayer",
-            "اَلْعَصْرِ": "the afternoon prayer",
-            "سَهَا": "became forgetful or fell into doubt during prayer",
-            "يُعِيدَ": "he must repeat"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "سَهَا",
+          "اَلرَّكْعَتَيْنِ",
+          "اَلْأَوَّلَتَيْنِ",
+          "اَلظُّهْرِ",
+          "اَلْعَصْرِ",
+          "يُعِيدَ",
+          "اَلصَّلَاةَ"
+        ],
         "related_quran": [
           {
             "ref": "2:238",
@@ -125,32 +100,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কেউ যুহর বা আসরের প্রথম দুই রাক‘আতে এক রাক‘আত নাকি দুই রাক‘আত পড়েছে তা নিয়ে সন্দেহ করে, তাহলে তার বিধান কী?",
-          "de": "Was ist die Regel, wenn jemand in den ersten beiden Rak‘ahs von al-zuhr oder al-‘asr zweifelt, ob er eine oder zwei gebetet hat?",
-          "en": "What is the ruling if someone doubts whether he prayed one or two rak‘ahs in al-zuhr or al-‘asr?",
-          "es": "¿Cuál es la norma si alguien duda si rezó una o dos rak‘ahs en las dos primeras del zuhr o del asr?",
-          "fa": "اگر کسی در دو رکعت نخستِ ظهر یا عصر شک کند که یک رکعت خوانده یا دو رکعت، حکم چیست؟",
-          "fr": "Quelle est la règle si quelqu’un doute avoir prié une ou deux rak‘ahs dans les deux premières du zuhr ou du asr ?",
-          "id": "Apa hukumnya jika seseorang ragu apakah ia salat satu atau dua rakaat dalam dua rakaat pertama zuhur atau asar?",
-          "ru": "Каково постановление, если человек сомневается, совершил ли он одну или две рак‘аты в первых двух рак‘атах аз-зухр или аль-‘аср?",
-          "tr": "Bir kimse öğle veya ikindi namazının ilk iki rekâtında bir mi yoksa iki mi kıldığından şüphe ederse hüküm nedir?",
-          "ur": "اگر کوئی شخص ظہر یا عصر کی پہلی دو رکعتوں میں ایک یا دو رکعت پڑھنے میں شک کرے تو اس پر کیا حکم ہے؟",
-          "zh": "如果有人怀疑自己在晌礼或晡礼的前两拜中礼了一拜还是两拜，教法规定是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস সালাতের প্রাথমিক রাক‘আতগুলোতে সন্দেহ সম্পর্কে একটি শরঈ বিধান দেয়। যদি কেউ যুহর বা আসরের প্রথম দুই রাক‘আতে সন্দেহ করে এবং নির্ধারণ করতে না পারে যে সে এক রাক‘আত পড়েছে নাকি দুই রাক‘আত, তবে তাকে সালাত পুনরায় আদায় করতে হবে।",
-          "de": "Dieser Hadith enthält eine rechtliche Regelung über Zweifel in den ersten Rak‘ahs der salat (des Gebets). Wenn eine Person in den ersten beiden Rak‘ahs von al-zuhr oder al-‘asr zweifelt und nicht feststellen kann, ob sie eine oder zwei Rak‘ahs gebetet hat, muss sie das Gebet wiederholen.",
-          "en": "This hadith gives a legal ruling about doubt in the early rak‘ahs of salat (prayer). If a person doubts in the first two rak‘ahs of al-zuhr or al-‘asr and cannot determine whether he prayed one or two, he must repeat the prayer.",
-          "es": "Este hadiz establece una norma jurídica sobre la duda en las primeras rak‘ahs de la salat (oración). Si una persona duda en las dos primeras rak‘ahs del zuhr o del asr y no puede determinar si rezó una o dos, debe repetir la oración.",
-          "fa": "این حدیث دربارهٔ شک در رکعت‌های آغازینِ نماز، حکمی فقهی بیان می‌کند. اگر کسی در دو رکعت نخستِ ظهر یا عصر شک کند و نتواند تشخیص دهد که یک رکعت خوانده یا دو رکعت، باید نماز را دوباره بخواند.",
-          "fr": "Ce hadith énonce une règle juridique concernant le doute dans les premières rak‘ahs de la salat (prière). Si une personne doute dans les deux premières rak‘ahs du zuhr ou du asr et ne peut pas déterminer si elle a prié une ou deux rak‘ahs, elle doit refaire la prière.",
-          "id": "Hadis ini memberikan hukum syar‘i tentang keraguan dalam rakaat-rakaat awal salat. Jika seseorang ragu dalam dua rakaat pertama zuhur atau asar dan tidak dapat menentukan apakah ia telah salat satu atau dua rakaat, maka ia harus mengulangi salat.",
-          "ru": "Этот хадис содержит правовое постановление относительно сомнения в первых рак‘атах салята (намаза). Если человек сомневается в первых двух рак‘атах аз-зухр или аль-‘аср и не может определить, совершил ли он одну или две рак‘аты, он должен повторить молитву.",
-          "tr": "Bu hadis, salatın (namazın) ilk rekâtlarında şüphe hakkında bir fıkhî hüküm verir. Bir kimse öğle veya ikindi namazının ilk iki rekâtında şüphe eder ve bir mi yoksa iki mi kıldığını belirleyemezse, namazı yeniden kılması gerekir.",
-          "ur": "یہ حدیث نماز کے ابتدائی رکعات میں شک کے بارے میں ایک شرعی حکم بیان کرتی ہے۔ اگر کوئی شخص ظہر یا عصر کی پہلی دو رکعتوں میں شک کرے اور یہ طے نہ کر سکے کہ اس نے ایک رکعت پڑھی یا دو، تو اسے نماز دوبارہ پڑھنی ہوگی۔",
-          "zh": "这段圣训就礼拜前几拜中的疑惑给出了一项教法判定。如果一个人在晌礼或晡礼的前两拜中怀疑，并且无法确定自己礼了一拜还是两拜，那么他必须重新礼拜。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

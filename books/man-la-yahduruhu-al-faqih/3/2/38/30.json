@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَ إِسْمَاعِيلُ بْنُ سَعْدٍ أَبَا الْحَسَنِ الرِّضَا عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং ইসমাঈল ইবনে সাআদ আবু আল-হাসান আল-রিদা عليه السلام-কে জিজ্ঞাসা করলেন:",
-              "de": "Und Isma'il ibn Sa'd fragte Abū al-Ḥasan al-Riḍā علیه السلام:",
-              "en": "And Isma'il ibn Sa'd asked Abū al-Ḥasan al-Riḍā عليه السلام:",
-              "es": "Y Isma'il ibn Sa'd preguntó a Abū al-Ḥasan al-Riḍā عليه السلام:",
-              "fa": "و اسماعیل بن سعد از ابوالحسن الرضا علیه السلام پرسید:",
-              "fr": "Et Isma'il ibn Sa'd a demandé à Abū al-Ḥasan al-Riḍā عليه السلام :",
-              "id": "Dan Isma'il ibn Sa'd bertanya kepada Abū al-Ḥasan al-Riḍā علیه السلام:",
-              "ru": "И Исмаил ибн Саад спросил Абу аль-Хасана ар-Ризу عليه السلام:",
-              "tr": "Ve İsmail ibn Sa'd, Ebu'l-Hasan el-Rıza'ya علیه السلام sordu:",
-              "ur": "اور اسماعیل ابن سعد نے ابو الحسن الرضا علیہ السلام سے پوچھا:",
-              "zh": "伊斯马伊尔本萨阿德向阿布哈桑尔里扎 عليه السلام 询问："
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "عَنِ الرَّجُلِ يَحْلِفُ بِالْيَمِينِ وَضَمِيرُهُ عَلَى غَيْرِ مَا حَلَفَ قَالَ: «الْيَمِينُ عَلَى الضَّمِيرِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন মানুষ সম্পর্কে যিনি শপথ করেন কিন্তু তার অন্তর অন্য কিছুর প্রতি থাকে যা সে শপথ করেনি; তিনি বললেন: \"শপথ অন্তরের উপর নির্ভর করে।\"",
-              "de": "Über einen Mann, der einen Eid schwört, während seine Absicht auf etwas anderem liegt als dem, was er geschworen hat; er sagte: „Der Eid richtet sich nach der Absicht.“",
-              "en": "About a man who swears an oath while his intention is upon something other than what he swore; he said: \"The oath is according to the intention.\"",
-              "es": "Sobre un hombre que jura un juramento mientras su intención está en algo distinto a lo que juró; dijo: \"El juramento se basa en la intención.\"",
-              "fa": "درباره مردی که قسم می‌خورد در حالی که نیتش بر چیز دیگری است غیر از آنچه قسم خورده؛ فرمود: «قسم بر اساس نیت است.»",
-              "fr": "À propos d'un homme qui jure un serment alors que son intention est autre que ce qu'il a juré ; il a dit : « Le serment dépend de l'intention. »",
-              "id": "Tentang seorang pria yang bersumpah sementara niatnya pada sesuatu selain yang ia sumpahkan; beliau berkata: \"Sumpah sesuai dengan niat.\"",
-              "ru": "О человеке, который клянется, имея в намерении не то, что он поклялся; он сказал: «Клятва зависит от намерения.»",
-              "tr": "Yemin eden, ancak niyeti yemin ettiği şeyden farklı olan bir adam hakkında; dedi ki: \"Yemin niyete göredir.\"",
-              "ur": "ایک ایسے شخص کے بارے میں جو قسم کھاتا ہے جبکہ اس کا ضمیر اس چیز پر ہوتا ہے جو اس نے قسم نہیں کھائی؛ انہوں نے فرمایا: \"قسم ضمیر کے مطابق ہے۔\"",
-              "zh": "关于一个人发誓时其意图与所誓不同；他说：“誓言取决于意图。”"
-            },
             "word_end": 22,
             "word_start": 9
           }
@@ -101,26 +88,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الضَّمِيرِ": "the inward intention upon which the oath rests",
-            "الْيَمِينُ": "the oath",
-            "بِالْيَمِينِ": "by an oath; the formal act of swearing",
-            "حَلَفَ": "he swore",
-            "ضَمِيرُهُ": "his inward intention or inner meaning",
-            "يَحْلِفُ": "he swears an oath"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَحْلِفُ",
+          "بِالْيَمِينِ",
+          "ضَمِيرُهُ",
+          "حَلَفَ",
+          "الْيَمِينُ",
+          "الضَّمِيرِ"
+        ],
         "related_quran": [
           {
             "ref": "2:225",
@@ -131,32 +106,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে, শপথ কি তার শব্দের দ্বারা বিচার করা হয় নাকি ব্যক্তির নিয়তের দ্বারা?",
-          "de": "Wird in schiitischen Hadithen ein Eid nach seinen Worten oder nach der Absicht der Person beurteilt?",
-          "en": "In Shia hadith, is an oath judged by its wording or by the person's intention?",
-          "es": "En el hadiz chií, ¿se juzga un juramento por sus palabras o por la intención de la persona?",
-          "fa": "در حدیث شیعه، آیا قسم بر اساس لفظ آن یا نیت شخص قضاوت می‌شود؟",
-          "fr": "Dans les hadiths chiites, un serment est-il jugé par ses mots ou par l'intention de la personne ?",
-          "id": "Dalam hadits Syiah, apakah sumpah dinilai berdasarkan kata-katanya atau niat orang tersebut?",
-          "ru": "В шиитских хадисах клятва оценивается по её словам или по намерению человека?",
-          "tr": "Şii hadislerde yemin, sözcüklerine göre mi yoksa kişinin niyetine göre mi hüküm verilir?",
-          "ur": "شیعہ حدیث میں کیا قسم کو اس کے الفاظ سے یا شخص کی نیت سے پرکھا جاتا ہے؟",
-          "zh": "在什叶派圣训中，誓言是根据其措辞还是根据个人意图来判断？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে শপথের আইনি বিবেচনা তার অন্তরের নীতির সাথে সম্পর্কিত। এটি নিয়তের গুরুত্ব তুলে ধরে এবং নির্দেশ করে যে শপথের অর্থ নির্ধারিত হয় ব্যক্তির নিয়তের দ্বারা।",
-          "de": "Dieser Hadith besagt, dass die rechtliche Bewertung eines Eids mit der inneren Absicht dahinter verbunden ist. Er hebt die Bedeutung der Niyya hervor und zeigt, dass die Bedeutung eines Eids durch die Absicht der Person bestimmt wird.",
-          "en": "This hadith states that the legal consideration of an oath is tied to the inward intention behind it. It highlights the importance of niyyah and indicates that the meaning of an oath is determined by what the person intended.",
-          "es": "Este hadiz establece que la consideración legal de un juramento está ligada a la intención interna detrás de él. Destaca la importancia de la niyyah e indica que el significado de un juramento se determina por lo que la persona intentó.",
-          "fa": "این حدیث بیان می‌کند که اعتبار شرعی قسم به نیت درونی آن بستگی دارد. اهمیت نیت را نشان می‌دهد و دلالت دارد که معنای قسم بر اساس نیت فرد تعیین می‌شود.",
-          "fr": "Ce hadith indique que la considération légale d'un serment est liée à l'intention intérieure qui le sous-tend. Il souligne l'importance de la niyyah et indique que le sens d'un serment est déterminé par ce que la personne a voulu.",
-          "id": "Hadis ini menyatakan bahwa pertimbangan hukum suatu sumpah terkait dengan niat batin di baliknya. Ini menyoroti pentingnya niyyah dan menunjukkan bahwa makna sumpah ditentukan oleh apa yang diniatkan seseorang.",
-          "ru": "Этот хадис утверждает, что юридическая оценка клятвы связана с внутренним намерением за ней. Он подчеркивает важность ниyyah и указывает, что смысл клятвы определяется тем, что человек имел в виду.",
-          "tr": "Bu hadis, yeminlerin hukuki hükmünün arkasındaki niyete bağlı olduğunu belirtir. Niyetin önemini vurgular ve yemin anlamının kişinin niyetine göre belirlendiğini gösterir.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ قسم کی شرعی حیثیت اس کے پیچھے موجود نیت سے منسلک ہے۔ یہ نیت کی اہمیت کو اجاگر کرتی ہے اور ظاہر کرتی ہے کہ قسم کا مطلب اس بات سے طے ہوتا ہے جو شخص نے ارادہ کیا ہو۔",
-          "zh": "此圣训说明誓言的法律考量取决于其背后的内心意图。强调了意图（尼亚）的重要性，并指出誓言的含义由个人的意图决定。"
-        },
         "tags": [
           "jurisprudence",
           "ethics",

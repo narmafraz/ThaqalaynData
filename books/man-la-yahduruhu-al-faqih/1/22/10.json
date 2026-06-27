@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسُئِلَ الصَّادِقُ عَلَيْهِ السَّلَامُ: عَنْ مَجْدُورٍ أَصَابَتْهُ جَنَابَةٌ فَقَالَ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল-সাদিক عليه السلام-কে এমন একজন ব্যক্তির সম্পর্কে জিজ্ঞাসা করা হয়েছিল যিনি ছোটপক্সে আক্রান্ত এবং জনাবাহ অবস্থায় ছিলেন, এবং তিনি বললেন:",
-              "de": "Al-Sadiq عليه السلام wurde nach einem Mann gefragt, der an Pocken erkrankt war und sich im Zustand der Janabah befand, und er sagte:",
-              "en": "Al-Sadiq عليه السلام was asked about a man afflicted with smallpox who was struck by janabah, and he said:",
-              "es": "Se le preguntó a Al-Sadiq عليه السلام sobre un hombre afectado por viruela que estaba en estado de janabah, y él dijo:",
-              "fa": "از امام صادق علیه السلام درباره مردی که به آبله مبتلا شده و جنب شده بود پرسیده شد و ایشان فرمودند:",
-              "fr": "On demanda à Al-Sadiq عليه السلام au sujet d’un homme atteint de la variole et en état de janabah, et il dit :",
-              "id": "Al-Sadiq عليه السلام ditanya tentang seorang pria yang menderita cacar dan terkena junub, dan beliau berkata:",
-              "ru": "У Имама ас-Садика عليه السلام спросили о человеке, заболевшем оспой и находящемся в состоянии джанабы, и он сказал:",
-              "tr": "El-Sadiq عليه السلام'a çiçek hastalığına yakalanmış ve cenabet olmuş bir adam hakkında soruldu ve şöyle dedi:",
-              "ur": "اَلصَّادِق علیہ السلام سے ایک شخص کے بارے میں پوچھا گیا جو چھپنے کی بیماری میں مبتلا تھا اور جنابت کی حالت میں تھا، اور انہوں نے فرمایا:",
-              "zh": "有人问الصدیقعلیهالسلام关于一位患天花且处于جنابة状态的男子，他说："
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "«إِنْ كَانَ أَجْنَبَ هُوَ فَلْيَغْتَسِلْ وَإِنْ كَانَ احْتَلَمَ فَلْيَتَيَمَّمْ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“যদি সে নিজেই জনুব হয়, তবে সে غسل করুক, আর যদি সে ইহতিলাম হয়, তবে সে তয়াম্মুম করুক।”",
-              "de": "„Wenn er selbst junub geworden ist, soll er Ghusl verrichten, und wenn er einen nächtlichen Samenerguss hatte, soll er Tayammum machen.“",
-              "en": "“If he became junub himself, then let him perform ghusl, and if he had a nocturnal emission, then let him perform tayammum.”",
-              "es": "“Si él mismo se volvió junub, que realice el ghusl, y si tuvo una emisión nocturna, que realice tayammum.”",
-              "fa": "«اگر خود جنب شده باشد غسل کند و اگر احتلام کرده باشد تیمم کند.»",
-              "fr": "«S’il est devenu junub lui-même, qu’il fasse le ghusl, et s’il a eu une émission nocturne, qu’il fasse le tayammum.»",
-              "id": "“Jika dia menjadi junub sendiri, maka hendaklah dia berghusl, dan jika dia mengalami mimpi basah, maka hendaklah dia bertayammum.”",
-              "ru": "«Если он стал джанабом сам, пусть совершит гусль, а если у него было ночное семяизвержение, пусть совершит тейаммум.»",
-              "tr": "“Eğer kendisi cenub olmuşsa gusül yapsın, eğer ihtilam olmuşsa tayammüm yapsın.”",
-              "ur": "اگر وہ خود جنابت میں ہو تو غسل کرے، اور اگر احتلام ہوا ہو تو تیمم کرے۔",
-              "zh": "“如果他自己变成جنوب，那就应当沐浴；如果是遗精，那就应当代净。”"
-            },
             "word_end": 18,
             "word_start": 9
           }
@@ -92,26 +79,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَجْنَبَ": "became junub through his own act",
-            "احْتَلَمَ": "experienced a nocturnal emission in sleep",
-            "جَنَابَةٌ": "the state of major ritual impurity requiring purification",
-            "فَلْيَتَيَمَّمْ": "let him perform tayammum",
-            "فَلْيَغْتَسِلْ": "let him perform ghusl",
-            "مَجْدُورٍ": "a person afflicted with smallpox"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "مَجْدُورٍ",
+          "جَنَابَةٌ",
+          "أَجْنَبَ",
+          "فَلْيَغْتَسِلْ",
+          "احْتَلَمَ",
+          "فَلْيَتَيَمَّمْ"
+        ],
         "related_quran": [
           {
             "ref": "4:43",
@@ -122,32 +97,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ছোটপক্সে আক্রান্ত এবং জনুব হওয়া ব্যক্তির জন্য কী حکم?",
-          "de": "Wie lautet die Regelung für eine Person mit Pocken, die junub wird?",
-          "en": "What is the ruling for a person with smallpox who becomes junub?",
-          "es": "¿Cuál es el fallo para una persona con viruela que se vuelve junub?",
-          "fa": "حکم شخص مبتلا به آبله که جنب می‌شود چیست؟",
-          "fr": "Quel est le jugement pour une personne atteinte de la variole qui devient junub ?",
-          "id": "Apa hukum bagi orang yang menderita cacar dan menjadi junub?",
-          "ru": "Каково постановление для человека с оспой, который становится джанабом?",
-          "tr": "Çiçek hastalığına yakalanmış ve cenub olmuş bir kişinin hükmü nedir?",
-          "ur": "چھپنے کی بیماری میں مبتلا شخص جو جنابت میں آ جائے، اس کا حکم کیا ہے؟",
-          "zh": "患天花且变جنوب者的判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ছোটপক্সে আক্রান্ত এবং জনাবাহ অবস্থায় থাকা ব্যক্তির জন্য আচারিক পবিত্রতার আইনি বিধান প্রদান করে। ইমাম আল-সাদিক عليه السلام সরাসরি কাজ থেকে সৃষ্ট জনাবাহ এবং ইহতিলাম থেকে সৃষ্ট জনাবাহের মধ্যে পার্থক্য করেছেন, প্রথম ক্ষেত্রে গোসল এবং দ্বিতীয় ক্ষেত্রে তয়াম্মুম নির্ধারণ করেছেন।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung zur rituellen Reinheit für eine Person, die an Pocken erkrankt ist und in den Zustand der Janabah gerät. Imam al-Sadiq عليه السلام unterscheidet zwischen Janabah, die direkt durch die eigene Handlung verursacht wird, und Janabah durch nächtliche Ejakulation, wobei im ersten Fall Ghusl und im zweiten Tayammum vorgeschrieben wird.",
-          "en": "This hadith gives a legal ruling concerning ritual purity for a person afflicted with smallpox who enters a state of janabah. Imam al-Sadiq عليه السلام distinguishes between janabah caused directly by one’s act and janabah caused by nocturnal emission, assigning ghusl in the first case and tayammum in the second.",
-          "es": "Este hadiz da un fallo legal sobre la pureza ritual para una persona afectada por viruela que entra en estado de janabah. El Imam al-Sadiq عليه السلام distingue entre janabah causada directamente por la acción propia y janabah causada por emisión nocturna, asignando el ghusl en el primer caso y el tayammum en el segundo.",
-          "fa": "این حدیث حکم شرعی طهارت برای شخص مبتلا به آبله که در حالت جنب است را بیان می‌کند. امام صادق علیه السلام بین جنب ناشی از عمل مستقیم و جنب ناشی از احتلام تفاوت قائل شده و غسل را در حالت اول و تیمم را در حالت دوم واجب می‌داند.",
-          "fr": "Ce hadith donne un jugement légal concernant la pureté rituelle pour une personne atteinte de la variole qui entre en état de janabah. L’Imam al-Sadiq عليه السلام distingue entre la janabah causée directement par l’acte de la personne et celle causée par une émission nocturne, prescrivant le ghusl dans le premier cas et le tayammum dans le second.",
-          "id": "Hadis ini memberikan hukum syariat mengenai kesucian ritual bagi orang yang menderita cacar dan berada dalam keadaan junub. Imam al-Sadiq عليه السلام membedakan antara junub yang disebabkan langsung oleh perbuatan sendiri dan junub yang disebabkan oleh mimpi basah, menetapkan ghusl pada kasus pertama dan tayammum pada kasus kedua.",
-          "ru": "Этот хадис содержит правовое постановление о ритуальной чистоте для человека, заболевшего оспой и вошедшего в состояние джанабы. Имам ас-Садик عليه السلام различает джанабу, вызванную непосредственно действием человека, и джанабу, вызванную ночным семяизвержением, предписывая гусль в первом случае и тейаммум во втором.",
-          "tr": "Bu hadis, çiçek hastalığına yakalanmış ve cenabet olan bir kişinin ritüel temizlikle ilgili hükmünü verir. İmam el-Sadiq عليه السلام, cenabetin doğrudan kişinin fiilinden kaynaklanan ile ihtilamdan kaynaklanan arasında ayrım yaparak, birinci durumda guslü, ikinci durumda tayammümü emreder.",
-          "ur": "یہ حدیث چھپنے کی بیماری میں مبتلا شخص کے لیے جنابت کی حالت میں طہارت کے شرعی حکم کو بیان کرتی ہے۔ امام الصادق علیہ السلام نے جنابت کی دو اقسام میں فرق کیا ہے: ایک جو براہِ راست عمل سے ہوتی ہے اور دوسری جو احتلام سے ہوتی ہے، پہلی صورت میں غسل فرض کیا اور دوسری میں تیمم۔",
-          "zh": "此圣训就患天花且处于جنابة状态者的仪式洁净问题作出法律裁决。الإمامالصدیقعلیهالسلام区分了由本人行为直接引起的جنابة与由遗精引起的جنابة，前者须沐浴，后者则可代净。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

@@ -14,6 +14,133 @@
       "up": "/books/al-kafi:5:3:184"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ الْحَكَمِ عَنْ أَبِي حَمْزَةَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 15,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "كُنْتُ عِنْدَ عَلِيِّ بْنِ الْحُسَيْنِ ( عَلَيْهِ السَّلَامُ ) فَجَاءَهُ رَجُلٌ فَقَالَ لَهُ يَا أَبَا مُحَمَّدٍ إِنِّي مُبْتَلًى بِالنِّسَاءِ فَأَزْنِي يَوْمَاً وَ أَصُومُ يَوْمَاً فَيَكُونُ ذَا كَفَّارَةً لِذَا فَقَالَ لَهُ عَلِيُّ بْنُ الْحُسَيْنِ ( عَلَيْهِ السَّلَامُ ) إِنَّهُ لَيْسَ شَيْ‏ءٌ أَحَبَّ إِلَى اللَّهِ عَزَّ وَ جَلَّ مِنْ أَنْ يُطَاعَ وَ لَا يُعْصَى فَلَا تَزْنِ وَ لَا تَصُمْ فَاجْتَذَبَهُ أَبُو جَعْفَرٍ ( عَلَيْهِ السَّلَامُ ) إِلَيْهِ فَأَخَذَ بِيَدِهِ فَقَالَ يَا أَبَا زَنَّةَ تَعْمَلُ عَمَلَ أَهْلِ النَّارِ وَ تَرْجُو أَنْ تَدْخُلَ الْجَنَّةَ .",
+            "chunk_type": "body",
+            "word_end": 96,
+            "word_start": 15
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 15,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ الْحَكَمِ",
+              "name_en": "'Ali ibn al-Hakam",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 71,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي حَمْزَةَ",
+              "name_en": "Abu Hamza",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "النِّسَاءِ",
+          "أَزْنِي",
+          "أَصُومُ",
+          "كَفَّارَةً",
+          "يُطَاعَ",
+          "يُعْصَى",
+          "أَهْلِ النَّارِ",
+          "أَبَا زَنَّةَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:31",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "9:105",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "7:40",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "99:7",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "worship",
+          "afterlife"
+        ],
+        "topics": [
+          "fasting",
+          "paradise_hell",
+          "halal_haram",
+          "imams_biography"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> صحيح    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (20/386)"
       ],
@@ -76,7 +203,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:3:184:5",

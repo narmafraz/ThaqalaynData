@@ -20,42 +20,29 @@
           "model": "phased_sonnet+gpt-5-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ عَنِ ابْنِ مَحْبُوبٍ عَنِ الْعَلَاءِ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আমাদেরকয়েকসহচরদেরমধ্যে, Ahmad Bin Muhammad Bin Khalid থেকে, Ibn Mahboub থেকে, Al A'ala থেকে, Muhammad Bin Muslim থেকে, এবং Abu Ja'far (আলাইহিস সালাম) থেকে বর্ণিতভাবে বলা হলো:",
-              "de": "Von einigenunsererGefährten, von Ahmad Bin Muhammad Bin Khalid, von Ibn Mahboub, von Al A'ala, von Muhammad Bin Muslim, von Abu Ja'far (عليه السلام) wird berichtet, dass sie sagten:",
-              "en": "A number of our companions, from Ahmad Bin Muhammad Bin Khalid, from Ibn Mahboub, from Al A'ala, from Muhammad Bin Muslim, from Abu Ja'far<sup>asws</sup>, having said:",
-              "es": "Dealgunosdenuestroscompañeros, de Ahmad Bin Muhammad Bin Khalid, de Ibn Mahboub, de Al A'ala, de Muhammad Bin Muslim, de Abu Ja'far (عليه السلام), habiéndose dicho:",
-              "fa": "ازبعضیازیارانما، ازAhmad Bin Muhammad Bin Khalid، ازIbn Mahboub، ازAl A'ala، ازMuhammad Bin Muslim، وازAbu Ja'far (عليه السلام) روایت شده، چنین گفته شد:",
-              "fr": "Deplusieursdenoscompagnons, d'Ahmad Bin Muhammad Bin Khalid, d'Ibn Mahboub, d'Al A'ala, de Muhammad Bin Muslim, d'Abu Ja'far (عليه السلام), il est rapporté qu'ils ont dit :",
-              "id": "Dari beberapa shahabat kami, dari Ahmad Bin Muhammad Bin Khalid, dari Ibn Mahboub, dari Al A'ala, dari Muhammad Bin Muslim, dari Abu Ja'far (عليه السلام), diriwayatkan berkata:",
-              "ru": "Отнекоторыхнашихсподвижников, от Ahmad Bin Muhammad Bin Khalid, от Ibn Mahboub, от Al A'ala, от Muhammad Bin Muslim, от Abu Ja'far (عليه السلام) передаётся, что они сказали:",
-              "tr": "Bazıashabımızdan, Ahmad Bin Muhammad Bin Khalid'den, Ibn Mahboub'tan, Al A'ala'dan, Muhammad Bin Muslim'den, Abu Ja'far (عليه السلام)'den rivayetle şöyle denildi:",
-              "ur": "ہمارےکچھصحابہمیںسے،Ahmad Bin Muhammad Bin Khalidسے،Ibn Mahboubسے،Al A'alaسے،Muhammad Bin Muslimسے،اورAbu Ja'far (عليه السلام)سے روایت کرتے ہوئے کہا:",
-              "zh": "我们的一些同伴中，来自AhmadBinMuhammadBinKhalid，来自IbnMahboub，来自AlA'ala，来自MuhammadBinMuslim，来自AbuJa'far(عليهالسلام)，传述说："
-            },
             "word_end": 24,
             "word_start": 0
           },
           {
             "arabic_text": "السَّكِينَةُ الْإِيمَانُ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "'al-sakinah (48:4-এ উল্লেখিত) ইমান।'",
-              "de": "'al-sakinah (in 48:4 erwähnt) ist Iman.'",
-              "en": "'The tranquillity (mentioned in 48:4) is the faith.'",
-              "es": "'al-sakinah (mencionada en 48:4) es el iman.'",
-              "fa": "'al-sakinah (در48:4 ذکر شده) ایمان است.'",
-              "fr": "'al-sakinah (mentionnée en 48:4) est l'iman.'",
-              "id": "'al-sakinah (yang disebutkan dalam 48:4) adalah iman.'",
-              "ru": "'al-sakinah (упомянутая в 48:4) — это иман.'",
-              "tr": "'al-sakinah (48:4'te bahsedilen) iman'dır.'",
-              "ur": "'al-sakinah (48:4 میں مذکور) ایمان ہے۔'",
-              "zh": "'al-sakinah(在48:4中提到)是iman。'"
-            },
             "word_end": 26,
             "word_start": 24
           }
@@ -128,25 +115,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَصْحَابِنَا": "Our companions — a collective reference to trusted narrators within the Shia scholarly circle",
-            "السَّكِينَةُ": "Tranquillity — the divine peace referenced in Quran 48:4, here interpreted by the Imam as being equivalent to iman",
-            "الْإِيمَانُ": "Faith — the iman (belief) that constitutes the true nature of the sakinah descending upon believers",
-            "عِدَّةٌ": "A number — an unspecified plurality of reliable transmitters forming the opening link of the sanad",
-            "قَالَ": "He said — the standard Arabic marker indicating the beginning of the matn attributed directly to the Imam"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "السَّكِينَةُ",
+          "الْإِيمَانُ",
+          "أَصْحَابِنَا",
+          "عِدَّةٌ",
+          "قَالَ"
+        ],
         "related_quran": [
           {
             "ref": "48:4",
@@ -161,32 +136,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "Imam al-Baqir (আলাইহিস সালাম)-এরউক্তিতেSurahal-Fath(48:4)-এউল্লিখিত 'al-sakinah' (শান্তি) কী অর্থ বহন করে?",
-          "de": "Was sagt Imam al-Baqir (عليه السلام),was 'al-sakinah' (Ruhe) in Sure al-Fath (48:4) bedeutet?",
-          "en": "What does Imam al-Baqir (AS) say is the meaning of 'al-sakinah' (tranquillity) in Surah al-Fath (48:4)?",
-          "es": "¿QuéafirmaImam al-Baqir (عليه السلام) que significa 'al-sakinah' (tranquilidad) en la Surah al-Fath (48:4)?",
-          "fa": "طبقهبیانِImam al-Baqir (عليه السلام)، 'al-sakinah' (آرامش) در سورهالفتح (48:4) چه معنایی دارد؟",
-          "fr": "Quedit l'Imam al-Baqir (عليه السلام) que signifie 'al-sakinah' (tranquillité) dans la Sura al-Fath (48:4) ?",
-          "id": "MenurutImam al-Baqir (عليه السلام), apa makna 'al-sakinah' (ketenangan) dalam Surah al-Fath (48:4)?",
-          "ru": "Что,по словамImam al-Baqir (عليه السلام),означает 'al-sakinah' (спокойствие) в Суре al-Fath (48:4)?",
-          "tr": "İmam al-Baqir (عليه السلام)'e göre Surah al-Fath (48:4)'te geçen 'al-sakinah' (huzur) ne anlama gelir?",
-          "ur": "Imam al-Baqir (عليه السلام) کےمطابق سورۃالفتح (48:4) میں 'al-sakinah' (سکون) کا کیا مطلب ہے؟",
-          "zh": "Imam al-Baqir(عليهالسلام)认为Surahal-Fath(48:4)中提到的'al-sakinah'(宁静)是什么意思？"
-        },
-        "summaries": {
-          "bn": "এইসংক্ষিপ্ততাফসিরীবক্তব্যে,Imam Abu Ja'far (আলাইহিস সালাম) 'al-sakinah'—যা Surah al-Fath (48:4)-এ উল্লেখিত দিবার্জিতশান্তি—কে নিজেই iman হিসেবে চিহ্নিত করেন। এই ব্যাখ্যা,যা একটি sanadএরমাধ্যমেঅন্তিমে Muhammad Bin Muslim পর্যন্ত পৌছে,ইমানকে আধ্যাত্মিকশান্তিরই মৌলিকতত্ত্বভিত্তি হিসাবে স্থাপন করে,যা আল্লাহ মুমিনদেরহৃদয়ে অবতীর্ণ করেন। sakinahকে imanরূপে সমতুল্য করা theologicalভাবে তাৎপর্যপূর্ণ;এতে অন্তর্ভুক্তমানসিকশান্তি পরিস্থিতির উপর নয়,বরং মুমিনেরনিতান্তবিশ্বাসগতওউপাসনাসংক্রান্তঅবস্থার উপর নির্ভরশীলহয়।",
-          "de": "IndieserknappenexegetischenÄußerungidentifiziertImam Abu Ja'far (عليه السلام) 'al-sakinah'—diedasgöttlicheRuhe,dieinSureal‑Fath(48:4)erwähntwird—als den Iman selbst. DieseInterpretation,übereineÜberlieferungskettebiszuMuhammad Bin Muslimgewandert,stelltdenIman als die eigentliche Substanz der geistigenFriedendasAllah in die Herzen der Gläubigen hinabsenkt, dar. DieGleichsetzungvon sakinah und iman hat bedeutendetheologischeFolgen,da sie innere Gelassenheitnicht an äußere Umstände knüpft, sondern am glaubens‑undandachtsbezogenenZustand des Gläubigen verankert.",
-          "en": "In this concise exegetical statement, Imam Abu Ja'far (عليه السلام) identifies 'al-sakinah' — the divine tranquillity referenced in Surah al-Fath (48:4) — as being iman (faith) itself. This interpretation, transmitted through a chain reaching Muhammad Bin Muslim, positions faith as the very substance of the spiritual peace that Allah descends into the hearts of believers. The equating of sakinah with iman carries significant theological weight, grounding inner serenity not in circumstance but in the believer's creedal and devotional state.",
-          "es": "Enesta concisa declaración exegética,Imam Abu Ja'far (عليه السلام) identifica 'al-sakinah'—lacalma divinareferenciada en Surah al-Fath (48:4)—como el iman en sí mismo. Esta interpretación, transmitida a través de una cadena que llega a Muhammad Bin Muslim, sitúa al iman como la sustancia misma de la paz espiritual que Allah hace descender en los corazones de los creyentes. Igualar sakinah con iman tiene un peso teológico significativo, pues fundamenta la serenidad interior no en las circunstancias sino en el estado creedal y devocional del creyente.",
-          "fa": "دراینبیانتفسیرمختصر،Imam Abu Ja'far (عليه السلام) 'al-sakinah'—آرامشالاهیمنظورشده در سورهالفتح (48:4)—را خودِ ایمان معرفی می‌کند. این تفسیر که از طریق زنجیره‌ای تا Muhammad Bin Muslim نقل شده است، ایمان را به‌عنوان جوهرۀ آرامش روحانی معرفی می‌نماید که خداوند در دل مؤمنان نازل می‌سازد. معادل‌انگاری sakinah با iman بارِ معرفت‌شناختی و کلامی مهمی دارد؛ زیرا آرامش درونی را نه بر اساس شرایط بیرونی که بر اساس حال اعتقادی و عبادی مومن پایه‌گذاری می‌کند.",
-          "fr": "Dansce bref énoncé exégétique,Imam Abu Ja'far (عليه السلام)identifie 'al-sakinah'—latranquillité divine évoquée dans la Sura al-Fath (48:4)—comme étant l'iman lui‑même. Cette interprétation, transmise par une chaîne jusqu'à Muhammad Bin Muslim, présente l'iman comme la substance même de la paix spirituelle qu'Allah fait descendre dans le cœur des croyants. Assimiler la sakinah à l'imanrevêt une importance théologique notable, puisqu'elle fonde la sérénité intérieure non sur les circonstances mais sur l'état dogmatique et dévotionnel du croyant.",
-          "id": "Dalampernyataan tafsir singkat ini,Imam Abu Ja'far (عليه السلام)mengidentifikasial-sakinah—ketentraman ilahi yang dirujuk dalam Surah al-Fath (48:4)—sebagai iman itu sendiri. Penafsiran ini, yang ditransmisikan melalui rantai sampai kepada Muhammad Bin Muslim, menempatkan iman sebagai inti dari ketenangan rohani yang Allah turunkan ke dalam hati orang-orang beriman. Menyamakan sakinah dengan iman mempunyai bobotteologis yang penting, karena menempatkan ketenangan batin bukan pada keadaan eksternal tetapi pada kondisi akidah dan ibadah seorang mukmin.",
-          "ru": "ВэтомкраткомэкзегетическомвысказыванииИмамAbu Ja'far (عليه السلام)определяет 'al-sakinah'—божественноеспокойствие,упомянутое в Суреаль‑Фатх (48:4)—каксамый iman. Этаинтерпретация,переданнаячерезцепочку,достигающую Muhammad Bin Muslim,позиционирует иман каксамую сущностьдуховного покоя, который Аллах ниспосылает в сердцаверующих. Отождествление sakinah с imanимеетсущественноет богословскоезначение,поскольку закрепляетвнутреннееспокойствоне в обстоятельствах,а в вероучительном и поклоненческом состоянии верующего.",
-          "tr": "Bu kısa tefsirî ifadede İmam Abu Ja'far (عليه السلام) 'al-sakinah'—Surah al-Fath (48:4)'te anılan ilâhî sükûnu—imanın kendisi olarak tanımlar. Bu yorum, rivayet zinciriyle Muhammad Bin Muslim'e ulaşır; imanı, Allah'ın müminlerin kalplerine indirdiği ruhî huzurun özü olarak konumlandırır. Sakinah'ı imanla eşitlemenin teolojik önemi büyüktür; içsel sükûnu koşullara değil müminin itikadî ve ibadetî durumuna dayandırır.",
-          "ur": "اسمختصرتفسیریبیانمیں،Imam Abu Ja'far (عليه السلام) 'al-sakinah'—وہالہیٰسکون جو سورۃالفتح (48:4) میں ذکر ہے—کو خود ایمان قرار دیتے ہیں۔یہتشریح،جوایکاسنادکےذریعے Muhammad Bin Muslim تک منقول ہے،ایمان کو روحانی امن کی اُس مادی حیثیت کے طور پر پیش کرتی ہے جسے اللہ مومنین کے دلوں میں نازل فرماتا ہے۔al-sakinah کو ایمان کے ساتھ مساوی سمجھنا عمیق الٰہیات ِ معنی رکھتا ہے،کیونکہ یہ اندرونی سکون کو حالات پر نہیں بلکہ مومن کے عقیدتی اور عبادی حال پر بنیاد بناتا ہے۔",
-          "zh": "在这简短的注释性陈述中，ImamAbuJa'far(عليهالسلام)将'al-sakinah'——即在Surahal-Fath(48:4)中提及的神圣宁静——界定为iman(信仰)本身。该解释通过传至MuhammadBinMuslim的传链传出，将信仰定位为安拉降入信士内心的属灵平安的实质。将sakinah等同于iman具有重大神学意义，把内在的宁静根植于信士的信条与虔诚状态，而非外在处境。"
-        },
         "tags": [
           "quran_commentary",
           "theology",

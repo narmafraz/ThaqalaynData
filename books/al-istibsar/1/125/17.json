@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, আহমদ ইবন মুহাম্মদ থেকে, যিনি বলেছেন:",
-              "de": "Von ihm, von Aḥmad ibn Muḥammad, der sagte:",
-              "en": "From him, from Aḥmad ibn Muḥammad, who said:",
-              "es": "De él, de Aḥmad ibn Muḥammad, quien dijo:",
-              "fa": "از او، از احمد بن محمد، که گفت:",
-              "fr": "De lui, d’Aḥmad ibn Muḥammad, qui a dit :",
-              "id": "Darinya, dari Aḥmad ibn Muḥammad, yang berkata:",
-              "ru": "От него, от Ахмада ибн Мухаммада, который сказал:",
-              "tr": "Ondan, Ahmed ibn Muhammed’den, şöyle dedi:",
-              "ur": "ان سے، احمد بن محمد سے، جنہوں نے کہا:",
-              "zh": "由他传自艾哈迈德·伊本·穆罕默德，他说："
-            },
             "word_end": 6,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنْ وَقْتِ الظُّهْرِ وَالْعَصْرِ فَكَتَبَ: قَامَةً لِلظُّهْرِ وَقَامَةً لِلْعَصْرِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁর কাছে যুহর ও আসরের সময় সম্পর্কে জিজ্ঞেস করলাম, তখন তিনি লিখলেন: যুহরের জন্য এক ক্বামাহ এবং আসরের জন্য এক ক্বামাহ।",
-              "de": "Ich fragte ihn nach der Zeit von ẓuhr und al-ʿaṣr, da schrieb er: eine qāmah für ẓuhr und eine qāmah für al-ʿaṣr.",
-              "en": "I asked him about the time of ẓuhr and al-ʿaṣr, so he wrote: one qāmah for ẓuhr and one qāmah for al-ʿaṣr.",
-              "es": "Le pregunté acerca del tiempo de ẓuhr y al-ʿaṣr, y escribió: una qāmah para ẓuhr y una qāmah para al-ʿaṣr.",
-              "fa": "از او دربارهٔ وقتِ ظهر و عصر پرسیدم، پس نوشت: برای ظهر یک قامه و برای عصر یک قامه.",
-              "fr": "Je lui ai demandé au sujet du moment de ẓuhr et de al-ʿaṣr, alors il écrivit : une qāmah pour ẓuhr et une qāmah pour al-ʿaṣr.",
-              "id": "Aku bertanya kepadanya tentang waktu ẓuhr dan al-ʿaṣr, lalu ia menulis: satu qāmah untuk ẓuhr dan satu qāmah untuk al-ʿaṣr.",
-              "ru": "Я спросил его о времени ẓuhr и al-ʿaṣr, и он написал: одна qāmah для ẓuhr и одна qāmah для al-ʿaṣr.",
-              "tr": "Ona ẓuhr ve al-ʿaṣr vaktini sordum; bunun üzerine şöyle yazdı: ẓuhr için bir qāmah ve al-ʿaṣr için bir qāmah.",
-              "ur": "میں نے ان سے ظہر اور عصر کے وقت کے بارے میں پوچھا، تو انہوں نے لکھا: ظہر کے لیے ایک قامہ اور عصر کے لیے ایک قامہ۔",
-              "zh": "我问他关于晌礼和晡礼的时间，于是他写道：晌礼一qāmah，晡礼一qāmah。"
-            },
             "word_end": 16,
             "word_start": 6
           }
@@ -84,25 +71,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الظُّهْرِ": "the noon salat (prayer)",
-            "الْعَصْرِ": "the afternoon salat (prayer)",
-            "فَكَتَبَ": "he wrote in reply",
-            "قَامَةً": "a measured length used here as a standard for prayer timing",
-            "وَقْتِ": "the prescribed time or timing of an act of worship"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "وَقْتِ",
+          "الظُّهْرِ",
+          "الْعَصْرِ",
+          "فَكَتَبَ",
+          "قَامَةً"
+        ],
         "related_quran": [
           {
             "ref": "17:78",
@@ -117,32 +92,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "আল-ইস্তিবসার-এর হাদিসে যুহর ও আসর নামাজের সময় সম্পর্কে কী বলা হয়েছে?",
-          "de": "Was sagt der Hadith in al-Istibṣār über die Zeit des ẓuhr- und al-ʿaṣr-Gebets?",
-          "en": "What does the hadith in al-Istibṣār say about the time of ẓuhr and al-ʿaṣr prayer?",
-          "es": "¿Qué dice el hadiz en al-Istibṣār sobre el tiempo de la oración de ẓuhr y al-ʿaṣr?",
-          "fa": "حدیثِ الِاستبصار دربارهٔ وقتِ نمازِ ظهر و عصر چه می‌گوید؟",
-          "fr": "Que dit le hadith dans al-Istibṣār au sujet du moment de la prière de ẓuhr et de al-ʿaṣr ?",
-          "id": "Apa yang dikatakan hadis dalam al-Istibṣār tentang waktu salat ẓuhr dan al-ʿaṣr?",
-          "ru": "Что говорит хадис в аль-Истибсаре о времени молитвы ẓuhr и al-ʿaṣr?",
-          "tr": "el-Istibṣār’daki hadis ẓuhr ve al-ʿaṣr namazının vakti hakkında ne diyor?",
-          "ur": "الاستبصار کی حدیث میں ظہر اور عصر کی نماز کے وقت کے بارے میں کیا کہا گیا ہے؟",
-          "zh": "《al-Istibṣār》中的这段圣训关于晌礼和晡礼的时间说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে যুহর ও আসর নামাজের সময় সম্পর্কে একটি ফিকহি বিধান উল্লেখ করা হয়েছে। এতে প্রতিটি নামাজের সময়ের জন্য একটি নির্ধারিত মান বলা হয়েছে, যা তাদের সঠিক সময় নির্ধারণের জন্য ফিকহি ভিত্তি নির্দেশ করে।",
-          "de": "Dieser Hadith enthält eine rechtliche Regelung bezüglich der Zeit von ẓuhr und al-ʿaṣr. Er nennt ein gemessenes Maß für jede Gebetszeit und weist damit auf eine fiqhliche Grundlage zur Bestimmung ihres richtigen Zeitpunkts hin.",
-          "en": "This hadith gives a legal ruling regarding the timing of the ẓuhr and al-ʿaṣr prayers. It states a measured standard for each prayer time, indicating a jurisprudential basis for determining their proper time.",
-          "es": "Este hadiz establece una norma jurídica respecto al tiempo de las oraciones de ẓuhr y al-ʿaṣr. Señala un criterio medido para cada tiempo de oración, indicando una base jurisprudencial para determinar su momento الصحيح.",
-          "fa": "این حدیث حکمی فقهی دربارهٔ وقتِ نمازهای ظهر و عصر بیان می‌کند. در آن برای هر وقتِ نماز، معیاری اندازه‌گیری‌شده ذکر شده که نشان‌دهندهٔ مبنایی فقهی برای تعیین وقت درست آن‌هاست.",
-          "fr": "Ce hadith énonce une règle juridique concernant le moment des prières de ẓuhr et de al-ʿaṣr. Il établit une mesure déterminée pour chaque temps de prière, indiquant une base jurisprudentielle pour en fixer le moment الصحيح.",
-          "id": "Hadis ini memberikan حكم fikih mengenai waktu salat ẓuhr dan al-ʿaṣr. Hadis ini menetapkan ukuran yang terukur untuk setiap waktu salat, yang menunjukkan dasar fikih untuk menentukan waktu yang tepat.",
-          "ru": "Этот хадис содержит правовое предписание относительно времени молитв ẓuhr и al-ʿaṣr. В нем для каждого времени молитвы указан измеренный стандарт, что указывает на фикховую основу для определения их надлежащего времени.",
-          "tr": "Bu hadis, ẓuhr ve al-ʿaṣr namazlarının vaktiyle ilgili bir fıkhî hüküm verir. Her namaz vakti için ölçülü bir معيار belirterek, bunların doğru vaktinin tespitine dair fıkhî bir dayanak ortaya koyar.",
-          "ur": "یہ حدیث ظہر اور عصر کی نماز کے وقت کے بارے میں ایک شرعی حکم بیان کرتی ہے۔ اس میں ہر نماز کے وقت کے لیے ایک معیاری پیمانہ ذکر کیا گیا ہے، جو ان کے درست وقت کے تعین کی فقہی بنیاد کی طرف اشارہ کرتا ہے۔",
-          "zh": "这段圣训就晌礼和晡礼的时间给出了一项教法判定。它为每个礼拜时间规定了一个衡量标准，表明了确定其正确时间的教法依据。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

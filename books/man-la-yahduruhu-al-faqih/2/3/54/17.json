@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَهُ إِسْمَاعِيلُ بْنُ الْفَضْلِ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ইসমাঈল ইবনে আল-ফজল তাকে জিজ্ঞাসা করল:",
-              "de": "Isma'il ibn al-Fadl fragte ihn:",
-              "en": "Isma'il ibn al-Fadl asked him:",
-              "es": "Isma'il ibn al-Fadl le preguntó:",
-              "fa": "اسماعیل بن الفضل از او پرسید:",
-              "fr": "Isma'il ibn al-Fadl lui demanda :",
-              "id": "Isma'il ibn al-Fadl bertanya kepadanya:",
-              "ru": "Исмаил ибн аль-Фадль спросил его:",
-              "tr": "İsmail ibn al-Fadl ona sordu:",
-              "ur": "اسماعیل ابن الفضل نے ان سے پوچھا:",
-              "zh": "伊斯ماعيل本阿尔法兹勒问他："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "عَنِ الْمُحْرِمِ أَيَلْبَسُ الثَّوْبَ قَدْ أَصَابَهُ الطِّيبُ فَقَالَ «إِذَا ذَهَبَ رِيحُ الطِّيبِ فَلْيَلْبَسْهُ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "মুহরিম সম্পর্কে: তিনি কি এমন পোশাক পরতে পারেন যা সুগন্ধ স্পর্শ করেছে? তিনি বললেন، \"যদি সুগন্ধ চলে যায়، তবে তিনি তা পরতে পারেন।\"",
-              "de": "Über den Muhrim: Darf er ein Kleidungsstück tragen, das Parfüm berührt hat? Er sagte: „Wenn der Duft des Parfüms verschwunden ist, soll er es tragen.“",
-              "en": "About the muhrim: may he wear a garment that perfume has touched? He said, \"If the scent of the perfume has gone, then let him wear it.\"",
-              "es": "Sobre el muhrim: ¿puede usar una prenda que haya sido tocada por perfume? Él dijo: \"Si el olor del perfume se ha ido, que la use.\"",
-              "fa": "درباره محرم: آیا می‌تواند لباسی را که عطر به آن خورده بپوشد؟ فرمود: «اگر بوی عطر رفته باشد، بپوشد.»",
-              "fr": "À propos du muhrim : peut-il porter un vêtement qui a été touché par du parfum ? Il a dit : « Si l'odeur du parfum est partie, qu'il le porte. »",
-              "id": "Tentang muhrim: bolehkah dia memakai pakaian yang pernah terkena parfum? Dia berkata, \"Jika bau parfum sudah hilang, maka pakailah.\"",
-              "ru": "О мухриме: может ли он носить одежду, к которой прикасался парфюм? Он сказал: «Если запах парфюма исчез, пусть носит её.»",
-              "tr": "Muhrim hakkında: Parfüm değmiş bir elbise giyebilir mi? Dedi ki, \"Parfümün kokusu gitmişse, onu giysin.\"",
-              "ur": "محرم کے بارے میں: کیا وہ ایسا لباس پہن سکتا ہے جس پر عطر لگا ہو؟ انہوں نے فرمایا، \"اگر عطر کی خوشبو ختم ہو جائے تو وہ اسے پہن لے۔\"",
-              "zh": "关于穆赫里姆：他可以穿曾沾有香水的衣服吗？他说：“如果香水的气味已经消失，那就让他穿。”"
-            },
             "word_end": 17,
             "word_start": 4
           }
@@ -85,26 +72,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الثَّوْبَ": "the garment or clothing",
-            "الطِّيبُ": "perfume or fragrance",
-            "الْمُحْرِمِ": "a person in the state of ihram",
-            "رِيحُ": "the scent or smell",
-            "فَلْيَلْبَسْهُ": "then let him wear it",
-            "يَلْبَسُ": "wears or may wear"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمُحْرِمِ",
+          "يَلْبَسُ",
+          "الثَّوْبَ",
+          "الطِّيبُ",
+          "رِيحُ",
+          "فَلْيَلْبَسْهُ"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
@@ -115,32 +90,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "মুহরিম কি এমন পোশাক পরতে পারেন যার উপর সুগন্ধ ছিল যদি গন্ধ চলে যায়?",
-          "de": "Darf ein Muhrim ein Kleidungsstück tragen, das Parfüm hatte, wenn der Duft verschwunden ist?",
-          "en": "Can a muhrim wear a garment that had perfume on it if the scent is gone?",
-          "es": "¿Puede un muhrim usar una prenda que tuvo perfume si el olor se ha ido?",
-          "fa": "آیا محرم می‌تواند لباسی را که عطر داشته است بپوشد اگر بوی عطر رفته باشد؟",
-          "fr": "Un muhrim peut-il porter un vêtement qui avait du parfum si l'odeur est partie ?",
-          "id": "Apakah muhrim boleh memakai pakaian yang pernah terkena parfum jika baunya sudah hilang?",
-          "ru": "Может ли мухрим носить одежду, на которую был нанесён парфюм, если запах исчез?",
-          "tr": "Bir muhrim, parfüm kokusu gitmişse parfüm değmiş bir elbise giyebilir mi?",
-          "ur": "کیا محرم وہ لباس پہن سکتا ہے جس پر عطر لگا ہو اگر خوشبو ختم ہو چکی ہو؟",
-          "zh": "穆赫里姆可以穿曾沾有香水的衣服吗，如果气味已经消失？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ইহরামের অবস্থায় পোশাক সম্পর্কে শারঈ সিদ্ধান্ত দেয়। এটি নির্দেশ করে যে মুহরিম সুগন্ধযুক্ত পোশাকের গন্ধ চলে গেলে তা পরতে পারেন।",
-          "de": "Dieser Hadith gibt eine Rechtsregelung bezüglich der Kleidung im Zustand des Ihram. Er zeigt, dass ein Muhrim ein Kleidungsstück tragen darf, das zuvor Parfüm berührt hat, sobald der Duft des Parfüms verschwunden ist.",
-          "en": "This hadith gives a legal ruling concerning clothing in the state of ihram. It indicates that a muhrim may wear a garment previously affected by perfume once the scent of the perfume has disappeared.",
-          "es": "Este hadiz da un fallo legal sobre la vestimenta en estado de ihram. Indica que un muhrim puede usar una prenda que previamente tuvo perfume una vez que el olor del perfume ha desaparecido.",
-          "fa": "این حدیث حکم شرعی درباره پوشاک در حالت احرام را بیان می‌کند. نشان می‌دهد که محرم می‌تواند لباسی را که قبلاً عطر به آن خورده است، پس از از بین رفتن بوی عطر بپوشد.",
-          "fr": "Ce hadith donne un jugement légal concernant les vêtements en état d'ihram. Il indique qu'un muhrim peut porter un vêtement précédemment touché par du parfum une fois que l'odeur du parfum a disparu.",
-          "id": "Hadis ini memberikan hukum terkait pakaian dalam keadaan ihram. Menunjukkan bahwa muhrim boleh memakai pakaian yang sebelumnya terkena parfum setelah bau parfumnya hilang.",
-          "ru": "Этот хадис даёт правовое постановление относительно одежды в состоянии ихрам. Он указывает, что мухрим может носить одежду, на которую ранее попадал парфюм, если запах парфюма исчез.",
-          "tr": "Bu hadis, ihram halindeki kıyafetle ilgili hukuki hükmü verir. Bir muhrimin, parfüm kokusu gitmişse, daha önce parfüm değmiş bir elbise giyebileceğini belirtir.",
-          "ur": "یہ حدیث احرام کی حالت میں لباس کے بارے میں شرعی حکم بیان کرتی ہے۔ اس میں بتایا گیا ہے کہ محرم وہ لباس پہن سکتا ہے جس پر پہلے عطر لگا ہو، بشرطیکہ عطر کی خوشبو ختم ہو چکی ہو۔",
-          "zh": "这段圣训对处于伊赫拉姆状态下的服装给出了法律裁决。指出穆赫里姆可以穿曾沾有香水的衣服，只要香水的气味已经消失。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

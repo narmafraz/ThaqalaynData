@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ الصَّادِقُ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং আল-সাদিক, আলাইহিস সালাম, বললেন:",
-              "de": "Und al-Sadiq, Friede sei mit ihm, sagte:",
-              "en": "And al-Sadiq, peace be upon him, said:",
-              "es": "Y al-Sadiq, la paz sea con él, dijo:",
-              "fa": "و امام صادق علیه‌السلام فرمود:",
-              "fr": "Et al-Sadiq, que la paix soit sur lui, a dit :",
-              "id": "Dan al-Sadiq, semoga keselamatan atasnya, berkata:",
-              "ru": "И аль-Садик, мир ему, сказал:",
-              "tr": "Ve el-Sadık, aleyhisselam, dedi ki:",
-              "ur": "اور الصادق علیہ السلام نے فرمایا:",
-              "zh": "而且賢者阿勒薩迪克願他平安說："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "«قَضَاءُ صَلَاةِ اللَّيْلِ بَعْدَ الْغَدَاةِ وَبَعْدَ الْعَصْرِ مِنْ سِرِّ آلِ مُحَمَّدٍ الْمَخْزُونِ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "\"রাতের নামাজ সকাল ও অপরাহ্নের নামাজের পরে কযা করা মুহাম্মদের পরিবারে লুকানো রহস্যের মধ্যে একটি।\"",
-              "de": "\"Das Nachholen des Nachtgebets nach dem Morgengebet und nach dem Nachmittagsgebet gehört zu den verborgenen Geheimnissen der Familie Muhammads.\"",
-              "en": "\"Making up the Night Prayer after the Morning Prayer and after the Afternoon Prayer is among the hidden secrets of the Family of Muhammad.\"",
-              "es": "\"Hacer el rezo nocturno después del rezo matutino y después del rezo vespertino es uno de los secretos ocultos de la Familia de Muhammad.\"",
-              "fa": "\"قضای نماز شب پس از نماز صبح و پس از نماز عصر از اسرار پنهان خاندان محمد است.\"",
-              "fr": "\"Rattraper la prière de la nuit après la prière du matin et après la prière de l'après-midi fait partie des secrets cachés de la Famille de Muhammad.\"",
-              "id": "\"Mengqadha Salat al-Layl setelah Salat al-Fajr dan setelah Salat al-Asr termasuk rahasia tersembunyi dari keluarga Muhammad.\"",
-              "ru": "\"Восполнение ночной молитвы после утренней и после послеполуденной молитвы — одна из скрытых тайн семьи Мухаммада.\"",
-              "tr": "\"Gece namazını sabah namazından sonra ve öğleden sonra namazından sonra kaza etmek, Muhammed Ailesi'nin gizli sırlarından biridir.\"",
-              "ur": "''رات کی نماز کو صبح کی نماز کے بعد اور عصر کی نماز کے بعد قضا کرنا خاندانِ محمد کے پوشیدہ رازوں میں سے ہے۔''",
-              "zh": "\"在晨禮之後及下午禮之後補行夜禮拜是穆罕默德家族的隱秘秘密之一。\""
-            },
             "word_end": 16,
             "word_start": 4
           }
@@ -76,27 +63,15 @@
             "phrase_en": "Night prayer (Tahajjud)"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "آلِ مُحَمَّدٍ": "the Family of Muhammad صلى الله عليه وآله وسلم",
-            "الْعَصْرِ": "the afternoon prayer time",
-            "الْغَدَاةِ": "the morning prayer time",
-            "الْمَخْزُونِ": "concealed and preserved",
-            "سِرِّ": "a hidden or guarded teaching",
-            "صَلَاةِ اللَّيْلِ": "the Night Prayer performed during the night",
-            "قَضَاءُ": "making up an act of worship after its proper time"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "قَضَاءُ",
+          "صَلَاةِ اللَّيْلِ",
+          "الْغَدَاةِ",
+          "الْعَصْرِ",
+          "سِرِّ",
+          "آلِ مُحَمَّدٍ",
+          "الْمَخْزُونِ"
+        ],
         "related_quran": [
           {
             "ref": "17:79",
@@ -111,32 +86,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "সকাল বা অপরাহ্নের নামাজের পরে রাতের নামাজ কযা করা কি جائز?",
-          "de": "Ist es erlaubt, das Salat al-Layl nach dem Morgengebet oder nach dem Nachmittagsgebet nachzuholen?",
-          "en": "Is it permissible to make up Salat al-Layl after the morning prayer or after the afternoon prayer?",
-          "es": "¿Es permisible hacer el rezo nocturno después del rezo matutino o después del rezo vespertino?",
-          "fa": "آیا قضای نماز شب پس از نماز صبح یا پس از نماز عصر جایز است؟",
-          "fr": "Est-il permis de rattraper la Salat al-Layl après la prière du matin ou après la prière de l'après-midi ?",
-          "id": "Apakah diperbolehkan mengqadha Salat al-Layl setelah salat pagi atau setelah salat sore?",
-          "ru": "Разрешено ли восполнять Салят аль-Лайль после утренней или после послеполуденной молитвы?",
-          "tr": "Sabah namazından veya öğleden sonra namazından sonra Salat al-Layl'i kaza etmek caiz midir?",
-          "ur": "کیا صبح کی نماز یا عصر کی نماز کے بعد رات کی نماز قضا کرنا جائز ہے؟",
-          "zh": "晨禮或下午禮之後補行夜禮拜是否允許？"
-        },
-        "summaries": {
-          "bn": "ইমাম আল-সাদিক عليه السلام বলেন যে সকাল ও অপরাহ্নের নামাজের পরে রাতের নামাজ কযা করা আহলুল বাইতের সংরক্ষিত একটি বিশেষ শিক্ষা। এই হাদিসটি এই ইবাদতের বৈধতা ও বিশেষ মর্যাদা নির্দেশ করে।",
-          "de": "Imam al-Sadiq عليه السلام erklärt, dass das Nachholen des Salat al-Layl nach dem Morgengebet und nach dem Nachmittagsgebet eine besondere Lehre ist, die von den Ahl al-Bayt bewahrt wird. Der Hadith weist auf die Legitimität und den besonderen Status dieser Andachtspraxis in ihrem überlieferten Wissen hin.",
-          "en": "Imam al-Sadiq عليه السلام states that making up Salat al-Layl after the morning prayer and after the afternoon prayer is a distinctive teaching preserved by the Ahl al-Bayt. The hadith indicates the legitimacy and special status of this devotional practice within their transmitted knowledge.",
-          "es": "El Imam al-Sadiq عليه السلام afirma que hacer el rezo nocturno después del rezo matutino y después del rezo vespertino es una enseñanza distintiva preservada por Ahl al-Bayt. El hadiz indica la legitimidad y el estatus especial de esta práctica devocional dentro de su conocimiento transmitido.",
-          "fa": "امام صادق علیه‌السلام بیان می‌کند که قضای نماز شب پس از نماز صبح و پس از نماز عصر، تعلیم متمایزی است که توسط اهل بیت حفظ شده است. این حدیث مشروعیت و جایگاه ویژه این عمل عبادی را در دانش منتقل شده نشان می‌دهد.",
-          "fr": "L'Imam al-Sadiq عليه السلام déclare que rattraper la Salat al-Layl après la prière du matin et après la prière de l'après-midi est un enseignement distinctif préservé par les Ahl al-Bayt. Le hadith indique la légitimité et le statut spécial de cette pratique dévotionnelle dans leur savoir transmis.",
-          "id": "Imam al-Sadiq علیه السلام menyatakan bahwa mengqadha Salat al-Layl setelah salat pagi dan setelah salat sore adalah ajaran khas yang dipertahankan oleh Ahl al-Bayt. Hadis ini menunjukkan keabsahan dan status khusus dari praktik ibadah ini dalam pengetahuan yang diturunkan.",
-          "ru": "Имам аль-Садик عليه السلام утверждает, что восполнение Салят аль-Лайль после утренней и после послеполуденной молитвы — это особое учение, сохранённое Ахль аль-Байт. Хадис указывает на законность и особый статус этой богослужебной практики в их переданных знаниях.",
-          "tr": "İmam el-Sadık علیه السلام, Salat al-Layl'in sabah namazından ve öğleden sonra namazından sonra kaza edilmesinin Ehl-i Beyt tarafından korunmuş ayırt edici bir öğreti olduğunu belirtir. Hadis, bu ibadet uygulamasının meşruiyetini ve özel statüsünü gösterir.",
-          "ur": "امام الصادق علیہ السلام فرماتے ہیں کہ رات کی نماز کو صبح اور عصر کی نماز کے بعد قضا کرنا اہل بیت کی محفوظ کردہ ایک خاص تعلیم ہے۔ یہ حدیث اس عبادتی عمل کی جواز اور خاص حیثیت کو ظاہر کرتی ہے۔",
-          "zh": "伊瑪目阿勒薩迪克عليه السلام指出，在晨禮及下午禮之後補行夜禮拜是阿赫勒拜特保存的獨特教導。此聖訓顯示此崇拜行為在其傳承知識中的合法性及特殊地位。"
-        },
         "tags": [
           "worship",
           "jurisprudence",

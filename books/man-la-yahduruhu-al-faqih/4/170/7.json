@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى زُرْعَةُ عَنْ سَمَاعَةَ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "জুর‘আহ সামাআহ থেকে আবু আব্দিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Zur‘ah berichtete von Samā‘ah von Abū ‘Abdillāh عليه السلام, der sagte:",
-              "en": "Zur‘ah narrated from Samā‘ah from Abū ‘Abdillāh عليه السلام, who said:",
-              "es": "Zur‘ah narró de Samā‘ah de Abū ‘Abdillāh عليه السلام, quien dijo:",
-              "fa": "زرعه از سماعه از ابوعبدالله علیه السلام روایت کرد که فرمود:",
-              "fr": "Zur‘ah a rapporté de Samā‘ah d'Abū ‘Abdillāh عليه السلام, qui a dit :",
-              "id": "Zur‘ah meriwayat dari Samā‘ah dari Abū ‘Abdillāh علیه السلام, yang berkata:",
-              "ru": "Зур‘а передал от Самā‘а от Абу ‘Абдиллах علیه السلام, который сказал:",
-              "tr": "Zur‘ah, Samā‘ah’dan, Abū ‘Abdillāh علیه السلام’den rivayet etti:",
-              "ur": "زرعہ نے سماعہ سے ابو عبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "祖尔阿从萨玛阿从阿布阿卜迪拉赫عليهالسلام传述说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنِ الْمُسْلِمِ هَلْ يَرِثُ الْمُشْرِكَ فَقَالَ «نَعَمْ فَأَمَّا الْمُشْرِكُ فَلَا يَرِثُ الْمُسْلِمَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাকে মুসলিম সম্পর্কে জিজ্ঞাসা করলাম: মুসলিম কি মুশরিক থেকে উত্তরাধিকার পায়? তিনি বললেন: “হ্যাঁ। আর মুশরিক মুসলিম থেকে উত্তরাধিকার পায় না।”",
-              "de": "Ich fragte ihn über den Muslim: Erbt er vom Polytheisten? Er sagte: „Ja. Was den Polytheisten betrifft, erbt er nicht vom Muslim.“",
-              "en": "I asked him about the Muslim: does he inherit from the polytheist? He said: “Yes. As for the polytheist, he does not inherit from the Muslim.”",
-              "es": "Le pregunté sobre el musulmán: ¿hereda del politeísta? Él dijo: “Sí. En cuanto al politeísta, no hereda del musulmán.”",
-              "fa": "از ایشان درباره مسلمان پرسیدم: آیا مسلمان از مشرک ارث می‌برد؟ فرمود: «بله. اما مشرک از مسلمان ارث نمی‌برد.»",
-              "fr": "Je lui ai demandé au sujet du musulman : hérite-t-il du polythéiste ? Il a dit : « Oui. Quant au polythéiste, il n’hérite pas du musulman. »",
-              "id": "Saya bertanya kepadanya tentang Muslim: apakah dia mewarisi dari musyrik? Dia berkata: “Ya. Adapun musyrik, dia tidak mewarisi dari Muslim.”",
-              "ru": "Я спросил его о мусульманине: наследует ли он от многобожника? Он сказал: «Да. Что касается многобожника, он не наследует от мусульманина.»",
-              "tr": "Ona Müslüman hakkında sordum: Müslüman, müşrikten miras alır mı? Dedi ki: “Evet. Müşrik ise Müslümandan miras almaz.”",
-              "ur": "میں نے ان سے مسلمان کے بارے میں پوچھا: کیا وہ مشرک سے وارثت پاتا ہے؟ انہوں نے فرمایا: \"ہاں۔ اور جہاں تک مشرک کا تعلق ہے، وہ مسلمان کا وارث نہیں ہوتا۔\"",
-              "zh": "我问他关于穆斯林：他是否继承多神教徒的遗产？他说：“是的。至于多神教徒，他不继承穆斯林的遗产。”"
-            },
             "word_end": 25,
             "word_start": 12
           }
@@ -101,23 +88,11 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْمُسْلِمِ": "the Muslim, the legal subject discussed in the inheritance ruling",
-            "الْمُشْرِكَ": "the polytheist, the non-Muslim party in this ruling",
-            "يَرِثُ": "inherits; receives inheritance from an estate"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمُسْلِمِ",
+          "الْمُشْرِكَ",
+          "يَرِثُ"
+        ],
         "related_quran": [
           {
             "ref": "4:141",
@@ -128,32 +103,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে কি মুসলিম মুশরিক থেকে উত্তরাধিকার পেতে পারে?",
-          "de": "Kann ein Muslim im schiitischen Fiqh von einem Polytheisten erben?",
-          "en": "Can a Muslim inherit from a polytheist in Shia fiqh?",
-          "es": "¿Puede un musulmán heredar de un politeísta en la fiqh chií?",
-          "fa": "آیا در فقه شیعه مسلمان می‌تواند از مشرک ارث ببرد؟",
-          "fr": "Un musulman peut-il hériter d’un polythéiste en fiqh chiite ?",
-          "id": "Apakah seorang Muslim dapat mewarisi dari musyrik dalam fikih Syiah?",
-          "ru": "Может ли мусульманин наследовать от многобожника в шиистском фикхе?",
-          "tr": "Şia fıkhında bir Müslüman müşrikten miras alabilir mi?",
-          "ur": "کیا شیعہ فقہ میں مسلمان مشرک سے وارثت حاصل کر سکتا ہے؟",
-          "zh": "什叶派教法中穆斯林能否继承多神教徒的遗产？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস মুসলিম ও মুশরিকের মধ্যে উত্তরাধিকার সম্পর্কিত আইনগত বিধান প্রদান করে। এতে বলা হয়েছে যে মুসলিম মুশরিক থেকে উত্তরাধিকার পেতে পারে, কিন্তু মুশরিক মুসলিম থেকে উত্তরাধিকার পায় না, যা মুসলিমের পক্ষে একমুখী নিয়ম।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung zur Erbschaft zwischen einem Muslim und einem Polytheisten. Er besagt, dass ein Muslim von einem Polytheisten erben kann, während ein Polytheist nicht von einem Muslim erbt, was die Regel einseitig zugunsten des Muslims macht.",
-          "en": "This hadith gives a legal ruling on inheritance between a Muslim and a polytheist. It states that a Muslim may inherit from a polytheist, while a polytheist does not inherit from a Muslim, making the rule one-directional in favor of the Muslim.",
-          "es": "Este hadiz establece una regla legal sobre la herencia entre un musulmán y un politeísta. Indica que un musulmán puede heredar de un politeísta, mientras que un politeísta no hereda de un musulmán, haciendo la regla unidireccional a favor del musulmán.",
-          "fa": "این حدیث حکم شرعی ارث بین مسلمان و مشرک را بیان می‌کند. بیان می‌دارد که مسلمان می‌تواند از مشرک ارث ببرد، اما مشرک از مسلمان ارث نمی‌برد که این حکم یک‌طرفه به نفع مسلمان است.",
-          "fr": "Ce hadith donne une règle juridique sur l’héritage entre un musulman et un polythéiste. Il stipule qu’un musulman peut hériter d’un polythéiste, tandis que le polythéiste n’hérite pas du musulman, rendant la règle unidirectionnelle en faveur du musulman.",
-          "id": "Hadis ini memberikan ketentuan hukum tentang warisan antara Muslim dan musyrik. Dinyatakan bahwa Muslim dapat mewarisi dari musyrik, sedangkan musyrik tidak mewarisi dari Muslim, sehingga aturan ini bersifat satu arah menguntungkan Muslim.",
-          "ru": "Этот хадис устанавливает юридическое правило наследования между мусульманином и многобожником. В нем говорится, что мусульманин может наследовать от многобожника, а многобожник не наследует от мусульманина, делая правило односторонним в пользу мусульманина.",
-          "tr": "Bu hadis, Müslüman ile müşrik arasındaki miras hukukuna dair hükmü verir. Müslümanın müşrikten miras alabileceğini, ancak müşriğin Müslümandan miras alamayacağını belirtir; bu kural Müslüman lehine tek yönlüdür.",
-          "ur": "یہ حدیث مسلمان اور مشرک کے درمیان وراثت کے قانونی حکم کو بیان کرتی ہے۔ اس میں کہا گیا ہے کہ مسلمان مشرک سے وارثت حاصل کر سکتا ہے، لیکن مشرک مسلمان سے وارثت حاصل نہیں کرتا، جو کہ مسلمان کے حق میں ایک طرفہ قاعدہ ہے۔",
-          "zh": "此圣训对穆斯林与多神教徒之间的继承问题作出法律裁决。它指出穆斯林可以继承多神教徒的遗产，而多神教徒不能继承穆斯林的遗产，使该规则单向有利于穆斯林。"
-        },
         "tags": [
           "jurisprudence",
           "family",

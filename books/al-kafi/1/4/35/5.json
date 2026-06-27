@@ -21,61 +21,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ أَبِي زَاهِرٍ عَنِ الْخَشَّابِ عَنْ عَلِيِّ بْنِ حَسَّانَ عَنْ عَبْدِ الرَّحْمَنِ بْنِ كَثِيرٍ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন ইয়াহইয়া, আহমদ ইবন আবি জাহির থেকে, আল-খাশশাব থেকে, আলি ইবন হাসান থেকে, আবদুর রহমান ইবন কাসির থেকে, আবু আবদুল্লাহ (عليه السلام) থেকে বর্ণনা করেন, যিনি বলেছেন:",
-              "de": "Muhammad ibn Yahya, von Ahmad ibn Abi Zahir, von al-Khashshab, von Ali ibn Hassan, von Abd al-Rahman ibn Kathir, von Abu Abdullah (عليه السلام), der sagte:",
-              "en": "Muhammad ibn Yahya, from Ahmad ibn Abi Zahir, from al-Khashshab, from Ali ibn Hassan, from Abd al-Rahman ibn Kathir, from Abu Abdullah (عليه السلام), who said:",
-              "es": "Muhammad ibn Yahya, de Ahmad ibn Abi Zahir, de al-Khashshab, de Ali ibn Hassan, de Abd al-Rahman ibn Kathir, de Abu Abdullah (عليه السلام), quien dijo:",
-              "fa": "محمد بن یحیی، از احمد بن ابی ظاهر، از الخشاب، از علی بن حسن، از عبد الرحمن بن کثیر، از ابو عبدالله (عليه السلام) روایت می‌کند که فرمود:",
-              "fr": "Muhammad ibn Yahya, d’après Ahmad ibn Abi Zahir, d’après al-Khashshab, d’après Ali ibn Hassan, d’après Abd al-Rahman ibn Kathir, d’après Abu Abdullah (عليه السلام), qui a dit :",
-              "id": "Muhammad ibn Yahya, dari Ahmad ibn Abi Zahir, dari al-Khashshab, dari Ali ibn Hassan, dari Abd al-Rahman ibn Kathir, dari Abu Abdullah (عليه السلام), yang berkata:",
-              "ru": "Мухаммад ибн Яхья, от Ахмада ибн Аби Захира, от аль-Хашшаба, от Али ибн Хасана, от Абд ар-Рахмана ибн Касира, от Абу Абдуллы (عليه السلام), который сказал:",
-              "tr": "Muhammed ibn Yahya, Ahmed ibn Ebi Zahir’den, el-Haşşab’dan, Ali ibn Hasan’dan, Abdurrahman ibn Kesir’den, Ebu Abdullah’tan (عليه السلام) rivayet etti, ki o şöyle dedi:",
-              "ur": "محمد بن یحیی، احمد بن ابی ظاہر سے، الخشاب سے، علی بن حسن سے، عبد الرحمن بن کثیر سے، ابو عبد اللہ (عليه السلام) سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "穆罕默德·伊本·叶海亚，传自艾哈迈德·伊本·阿比·扎希尔，传自阿勒哈沙卜，传自阿里·伊本·哈桑，传自阿卜杜·拉赫曼·伊本·卡西尔，传自阿布·阿卜杜拉（عليه السلام），他说："
-            },
             "word_end": 28,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ الَّذِي عِنْدَهُ عِلْمٌ مِنَ الْكِتَابِ أَنَا آتِيكَ بِهِ قَبْلَ أَنْ يَرْتَدَّ إِلَيْكَ طَرْفُكَ",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "যার কাছে কিতাবের জ্ঞান ছিল, সে বলল: “তোমার দৃষ্টি তোমার কাছে ফিরে আসার আগেই আমি তা তোমার কাছে নিয়ে আসব।”",
-              "de": "Derjenige, der Wissen aus dem Buch hatte, sagte: „Ich werde es dir bringen, bevor dein Blick zu dir zurückkehrt.“",
-              "en": "The one who had knowledge from the Book said: “I shall bring it to you before your glance returns to you.”",
-              "es": "El que tenía conocimiento del Libro dijo: “Te lo traeré antes de que tu mirada vuelva a ti.”",
-              "fa": "آن‌که نزد او دانشی از کتاب بود گفت: «من آن را پیش از آن‌که نگاهت به تو بازگردد، نزد تو می‌آورم.»",
-              "fr": "Celui qui avait une connaissance du Livre dit : « Je te l’apporterai avant que ton regard ne revienne vers toi. »",
-              "id": "Orang yang memiliki ilmu dari Kitab berkata: “Aku akan membawanya kepadamu sebelum pandanganmu kembali kepadamu.”",
-              "ru": "Тот, у кого было знание из Писания, сказал: «Я принесу его тебе прежде, чем твой взгляд вернётся к тебе».",
-              "tr": "Kitaptan bir ilme sahip olan kimse dedi ki: “Gözünü sana geri dönmeden önce onu sana getireceğim.”",
-              "ur": "جس کے پاس کتاب کا علم تھا اس نے کہا: “میں اسے تمہارے پاس تمہاری نگاہ پلٹنے سے پہلے لے آؤں گا۔”",
-              "zh": "那位拥有经典知识的人说：“在你的目光回到你自己之前，我一定把它带到你面前。”"
-            },
             "word_end": 42,
             "word_start": 28
           },
           {
             "arabic_text": "قَالَ فَفَرَّجَ أَبُو عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) بَيْنَ أَصَابِعِهِ فَوَضَعَهَا فِي صَدْرِهِ ثُمَّ قَالَ وَعِنْدَنَا وَاللَّهِ عِلْمُ الْكِتَابِ كُلُّهُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: আবু আবদুল্লাহ (عليه السلام) তাঁর আঙুলগুলো ফাঁক করে বুকে রাখলেন, তারপর বললেন: “আর আমাদের কাছে, আল্লাহর কসম, কিতাবের জ্ঞান—সবটাই আছে।”",
-              "de": "Er sagte: Abu Abdullah (عليه السلام) spreizte seine Finger und legte sie auf seine Brust, dann sagte er: „Und bei uns ist, bei Allah, das Wissen des Buches, alles davon.“",
-              "en": "He said: Abu Abdullah (عليه السلام) spread his fingers apart and placed them on his chest, then said: “And with us, by Allah, is the knowledge of the Book, all of it.”",
-              "es": "Dijo: Abu Abdullah (عليه السلام) separó los dedos y los puso sobre su pecho, luego dijo: “Y con nosotros, por Allah, está el conocimiento del Libro, todo él.”",
-              "fa": "فرمود: ابو عبدالله (عليه السلام) انگشتانش را از هم گشود و آن‌ها را بر سینه‌اش نهاد، سپس فرمود: «و نزد ما، به خدا سوگند، علمِ کتاب، همه‌اش هست.»",
-              "fr": "Il dit : Abu Abdullah (عليه السلام) écarta les doigts et les posa sur sa poitrine, puis dit : « Et chez nous, par Allah, se trouve la connaissance du Livre, toute entière. »",
-              "id": "Ia berkata: Abu Abdullah (عليه السلام) merenggangkan jari-jarinya dan meletakkannya di dadanya, lalu berkata: “Dan pada kami, demi Allah, ada ilmu Kitab seluruhnya.”",
-              "ru": "Он сказал: Абу Абдулла (عليه السلام) раздвинул пальцы и положил их на свою грудь, затем сказал: «И у нас, клянусь Аллахом, есть знание Писания целиком».",
-              "tr": "O şöyle dedi: Ebu Abdullah (عليه السلام) parmaklarını açıp göğsüne koydu, sonra şöyle dedi: “Ve bizim yanımızda, والله, Kitab’ın ilminin tamamı vardır.”",
-              "ur": "انہوں نے فرمایا: ابو عبد اللہ (عليه السلام) نے اپنی انگلیاں پھیلا کر اپنے سینے پر رکھیں، پھر فرمایا: “اور ہمارے پاس، اللہ کی قسم، کتاب کا پورا علم ہے۔”",
-              "zh": "他说：阿布·阿卜杜拉（عليه السلام）张开手指，把它们放在胸前，然后说：“而我们这里，指真主发誓，拥有经典的一切知识。”"
-            },
             "word_end": 63,
             "word_start": 42
           }
@@ -154,26 +128,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَصَابِعِهِ": "his fingers, used in the Imam's gesture",
-            "الْكِتَابِ": "the Book; the revealed scripture referred to in the verse and hadith",
-            "صَدْرِهِ": "his chest, indicating himself",
-            "طَرْفُكَ": "your glance or blink of the eye",
-            "عِلْمٌ": "knowledge; here, divinely granted knowledge",
-            "عِلْمُ الْكِتَابِ": "the knowledge of the Book in its complete sense"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "عِلْمٌ",
+          "الْكِتَابِ",
+          "طَرْفُكَ",
+          "أَصَابِعِهِ",
+          "صَدْرِهِ",
+          "عِلْمُ الْكِتَابِ"
+        ],
         "related_quran": [
           {
             "ref": "27:40",
@@ -184,32 +146,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিসে যখন বলা হয় যে ইমামদের কাছে কিতাবের জ্ঞান সম্পূর্ণরূপে রয়েছে, তখন এর অর্থ কী?",
-          "de": "Was bedeutet dieser Hadith, wenn er sagt, dass die Imame das Wissen des Buches in seiner Gesamtheit besitzen?",
-          "en": "What does the hadith mean when it says the Imams possess the knowledge of the Book, all of it?",
-          "es": "¿Qué significa este hadiz cuando dice que los imames poseen el conocimiento del Libro, todo él?",
-          "fa": "در این حدیث، این‌که امامان علمِ کتاب را به طور کامل دارند، چه معنایی دارد؟",
-          "fr": "Que signifie ce hadith lorsqu’il dit que les imams possèdent la connaissance du Livre, toute entière ?",
-          "id": "Apa arti hadis ini ketika mengatakan bahwa para Imam memiliki ilmu Kitab seluruhnya?",
-          "ru": "Что означает этот хадис, когда в нём говорится, что у имамов есть знание Писания целиком?",
-          "tr": "Bu hadiste imamların Kitab’ın tüm ilmine sahip olması ne anlama gelir?",
-          "ur": "اس حدیث میں ائمہ کے پاس کتاب کا پورا علم ہونے کا کیا مطلب ہے؟",
-          "zh": "这段圣训说伊玛目拥有经典的一切知识，这是什么意思？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে কুরআনের সেই বক্তব্য উদ্ধৃত হয়েছে, যেখানে কিতাবের জ্ঞানসম্পন্ন এক ব্যক্তি এক মুহূর্তে সিংহাসন নিয়ে আসতে সক্ষম ছিল। এরপর ইমাম আবু আবদুল্লাহ (عليه السلام) ঘোষণা করেন যে আহলুল বাইতের কাছে, আল্লাহর কসম, কিতাবের জ্ঞান সম্পূর্ণরূপে রয়েছে—যা তাদের আল্লাহপ্রদত্ত কর্তৃত্ব ও সর্বব্যাপী জ্ঞানের ইঙ্গিত দেয়।",
-          "de": "Dieser Hadith zitiert die koranische Aussage über denjenigen, der Wissen aus dem Buch besaß und den Thron in einem Augenblick bringen konnte. Dann erklärt Imam Abu Abdullah (عليه السلام), dass die Ahl al-Bayt, bei Allah, das Wissen des Buches in seiner Gesamtheit besitzen, was auf ihre von Gott verliehene Autorität und ihr umfassendes Wissen hinweist.",
-          "en": "This hadith cites the Qur'anic statement about one who possessed knowledge from the Book and could bring the throne in an instant. Imam Abu Abdullah (عليه السلام) then declares that the Ahl al-Bayt possess, by Allah, the knowledge of the Book in its entirety, indicating their divinely granted authority and comprehensive knowledge.",
-          "es": "Este hadiz cita la declaración coránica sobre quien poseía conocimiento del Libro y podía traer el trono en un instante. Luego, el Imam Abu Abdullah (عليه السلام) declara que la Ahl al-Bayt posee, por Allah, el conocimiento del Libro en su totalidad, lo que indica su autoridad concedida por Dios y su conocimiento completo.",
-          "fa": "این حدیث به بیان قرآنیِ کسی اشاره می‌کند که از کتاب دانشی داشت و می‌توانست تخت را در یک لحظه بیاورد. سپس امام ابو عبدالله (عليه السلام) اعلام می‌کند که اهل‌بیت، به خدا سوگند، علمِ کتاب را به طور کامل دارند؛ و این نشان‌دهندهٔ اقتدارِ عطاشده از سوی خدا و دانشِ جامع آنان است.",
-          "fr": "Ce hadith cite l’énoncé coranique concernant celui qui possédait une connaissance du Livre et pouvait apporter le trône en un instant. L’imam Abu Abdullah (عليه السلام) déclare ensuite que les Ahl al-Bayt possèdent, par Allah, la connaissance du Livre dans sa totalité, ce qui indique leur autorité accordée par Dieu et leur savoir complet.",
-          "id": "Hadis ini mengutip pernyataan Al-Qur’an tentang seseorang yang memiliki ilmu dari Kitab dan mampu mendatangkan singgasana dalam sekejap. Kemudian Imam Abu Abdullah (عليه السلام) menegaskan bahwa Ahlul Bait memiliki, demi Allah, ilmu Kitab seluruhnya, yang menunjukkan otoritas mereka yang dianugerahkan secara ilahi dan pengetahuan yang menyeluruh.",
-          "ru": "Этот хадис приводит кораническое высказывание о том, кто обладал знанием из Писания и мог принести трон в одно мгновение. Затем имам Абу Абдулла (عليه السلام) заявляет, что у Ахль аль-Байт, клянусь Аллахом, есть знание Писания целиком, что указывает на их дарованную Богом власть и всеобъемлющее знание.",
-          "tr": "Bu hadis, Kitap’tan bir ilme sahip olan kişinin tahtı bir anda getirebildiğine dair Kur’an ifadesini aktarır. Ardından İmam Ebu Abdullah (عليه السلام), Ehl-i Beyt’in, والله, Kitab’ın tüm ilmine sahip olduğunu ilan eder; bu da onların ilahi olarak verilmiş otoritesini ve kapsamlı bilgilerini gösterir.",
-          "ur": "یہ حدیث قرآن کی اس آیت کا ذکر کرتی ہے جس میں کتاب کا علم رکھنے والا ایک شخص تخت کو ایک لمحے میں لے آنے کی قدرت رکھتا تھا۔ پھر امام ابو عبد اللہ (عليه السلام) اعلان فرماتے ہیں کہ اہلِ بیت کے پاس، اللہ کی قسم، کتاب کا پورا علم ہے، جو ان کے خدائی عطا کردہ اختیار اور جامع علم کی طرف اشارہ کرتا ہے۔",
-          "zh": "这段圣训引用了《古兰经》中关于那位拥有经典知识、能够在瞬间把宝座带来的人所说的话。随后，伊玛目阿布·阿卜杜拉（عليه السلام）宣布：指真主发誓，圣裔拥有经典的一切知识，这表明他们具有真主赐予的权威和全面的知识。"
-        },
         "tags": [
           "quran_commentary",
           "knowledge",

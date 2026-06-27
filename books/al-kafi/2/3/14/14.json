@@ -14,6 +14,137 @@
       "up": "/books/al-kafi:2:3:14"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ عَبْدِ اللَّهِ بْنِ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ الْحَكَمِ عَنْ عَبْدِ اللَّهِ بْنِ بُكَيْرٍ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 26,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "نَزَلَ الْقُرْآنُ بِإِيَّاكِ أَعْنِي وَ اسْمَعِي يَا جَارَةُ .",
+            "chunk_type": "body",
+            "word_end": 35,
+            "word_start": 26
+          },
+          {
+            "arabic_text": "وَ فِي رِوَايَةٍ أُخْرَى عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ مَعْنَاهُ مَا عَاتَبَ اللَّهُ عَزَّ وَ جَلَّ بِهِ عَلَى نَبِيِّهِ ( صَلَّى اللَّهِ عَلَيْهِ وَآلِهِ ) فَهُوَ يَعْنِي بِهِ مَا قَدْ مَضَى فِي الْقُرْآنِ مِثْلُ قَوْلِهِ وَ لَوْ لَا أَنْ ثَبَّتْناكَ لَقَدْ كِدْتَ تَرْكَنُ إِلَيْهِمْ شَيْئاً قَلِيلًا عَنَى بِذَلِكَ غَيْرَهُ .",
+            "chunk_type": "body",
+            "word_end": 89,
+            "word_start": 35
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 144,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللَّهِ بْنِ مُحَمَّدٍ",
+              "name_en": "Abdullah ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 15,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ الْحَكَمِ",
+              "name_en": "'Ali ibn al-Hakam",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 164,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللَّهِ بْنِ بُكَيْرٍ",
+              "name_en": "Abdullah ibn Bukayr",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "إِيَّاكَ",
+          "جَارَةُ",
+          "عَاتَبَ",
+          "ثَبَّتْناكَ",
+          "تَرْكَنُ",
+          "غَيْرَهُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "17:74",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "1:5",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "quran_commentary",
+          "theology"
+        ],
+        "topics": [
+          "quran_interpretation_method",
+          "prophetic_character",
+          "quran_virtues"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (2/520)"
       ],
@@ -93,7 +224,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:3:14:14",

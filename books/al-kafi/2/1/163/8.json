@@ -14,6 +14,141 @@
       "up": "/books/al-kafi:2:1:163"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ ابْنِ مَحْبُوبٍ عَنْ شُعَيْبٍ الْعَقَرْقُوفِيِّ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 14,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ )",
+            "chunk_type": "opening",
+            "word_end": 22,
+            "word_start": 14
+          },
+          {
+            "arabic_text": "عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ وَ قَدْ نَزَّلَ عَلَيْكُمْ فِي الْكِتابِ أَنْ إِذا سَمِعْتُمْ آياتِ اللَّهِ يُكْفَرُ بِها وَ يُسْتَهْزَأُ بِها إِلَى آخِرِ الْآيَةِ",
+            "chunk_type": "body",
+            "word_end": 47,
+            "word_start": 22
+          },
+          {
+            "arabic_text": "فَقَالَ إِنَّمَا عَنَى بِهَذَا إِذَا سَمِعْتُمُ الرَّجُلَ الَّذِي يَجْحَدُ الْحَقَّ وَ يُكَذِّبُ بِهِ وَ يَقَعُ فِي الْأَئِمَّةِ فَقُمْ مِنْ عِنْدِهِ وَ لَا تُقَاعِدْهُ كَائِناً مَنْ كَانَ",
+            "chunk_type": "body",
+            "word_end": 73,
+            "word_start": 47
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 10,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ مَحْبُوبٍ",
+              "name_en": "Ibn Mahbub",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 396,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "شُعَيْبٍ الْعَقَرْقُوفِيِّ",
+              "name_en": "Shu'ayb al-'Aqarqufi",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "quranic_echo",
+            "phrase_ar": "آيَاتُ اللَّهِ",
+            "phrase_en": "Signs/verses of Allah"
+          }
+        ],
+        "key_terms_keys": [
+          "يَجْحَدُ الْحَقَّ",
+          "يُسْتَهْزَأُ",
+          "يَقَعُ فِي الْأَئِمَّةِ",
+          "تُقَاعِدْهُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "4:140",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "9:67",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "58:22",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "quran_commentary",
+          "ethics",
+          "social_relations"
+        ],
+        "topics": [
+          "quran_interpretation_method",
+          "imamate",
+          "etiquette"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> صحيح   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (11/89)"
       ],
@@ -81,7 +216,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:1:163:8",

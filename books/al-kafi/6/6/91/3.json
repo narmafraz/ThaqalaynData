@@ -14,6 +14,121 @@
       "up": "/books/al-kafi:6:6:91"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ أَبِي عَبْدِ اللَّهِ عَنْ أَبِي سُلَيْمَانَ الْحَذَّاءِ عَنْ مُحَمَّدِ بْنِ الْفَيْضِ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 18,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "كُنْتُ عِنْدَ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) فَجَاءَهُ رَجُلٌ فَقَالَ لَهُ إِنَّ ابْنَتِي قَدْ ذَبَلَتْ وَ بِهَا الْبَطَنُ فَقَالَ مَا يَمْنَعُكَ مِنَ الْأَرُزِّ بِالشَّحْمِ خُذْ حِجَاراً أَرْبَعاً أَوْ خَمْساً فَاطْرَحْهَا بِجَنْبِ النَّارِ وَ اجْعَلِ الْأَرُزَّ فِي الْقِدْرِ وَ اطْبُخْهُ حَتَّى يُدْرِكَ وَ خُذْ شَحْمَ كُلًى طَرِيّاً فَإِذَا بَلَغَ الْأَرُزُّ فَاطْرَحِ الشَّحْمَ فِي قَصْعَةٍ مَعَ الْحِجَارَةِ وَ كُبَّ عَلَيْهَا قَصْعَةً أُخْرَى ثُمَّ حَرِّكْهَا تَحْرِيكاً جَيِّداً وَ اضْبِطْهَا كَيْ لَا يَخْرُجَ بُخَارُهُ فَإِذَا ذَابَ الشَّحْمُ فَاجْعَلْهُ فِي الْأَرُزِّ ثُمَّ تَحَسَّاهُ .",
+            "chunk_type": "body",
+            "word_end": 99,
+            "word_start": 18
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 12,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ أَبِي عَبْدِ اللَّهِ",
+              "name_en": "Ahmad b. Muhammad b. Khalid",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2109,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي سُلَيْمَانَ الْحَذَّاءِ",
+              "name_en": "Abu Sulayman al-Hadhdha'i",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 475,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ الْفَيْضِ",
+              "name_en": "Muhammad b. al-Fayd",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الْبَطَنُ",
+          "الذَّبَال",
+          "الشَّحْم",
+          "كُلًى",
+          "الْقِدْرِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:168",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "30:22",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family",
+          "social_relations"
+        ],
+        "topics": [
+          "marriage_family_law",
+          "parenting",
+          "halal_haram"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (2/176)"
       ],
@@ -76,7 +191,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:6:91:3",

@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَفِي رِوَايَةِ طَلْحَةَ بْنِ زَيْدٍ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ أَبِيهِ عَلَيْهِ السَّلَامُ قَالَ قَالَ عَلِيٌّ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং তলহা ইবনে জায়েদের বর্ণনায়, জাফর ইবনে মুহাম্মদ থেকে, তাঁর পিতা عليه السلام থেকে, তিনি বললেন: আলী عليه السلام বললেন:",
-              "de": "Und in der Überlieferung von Ṭalḥah ibn Zayd, von Jaʿfar ibn Muḥammad, von seinem Vater عليه السلام, sagte er: ʿAlī عليه السلام sagte:",
-              "en": "And in the narration of Ṭalḥah ibn Zayd, from Jaʿfar ibn Muḥammad, from his father عليه السلام, he said: ʿAlī عليه السلام said:",
-              "es": "Y en la narración de Ṭalḥah ibn Zayd, de Jaʿfar ibn Muḥammad, de su padre عليه السلام, dijo: ʿAlī عليه السلام dijo:",
-              "fa": "و در روایت طلحة بن زید، از جعفر بن محمد، از پدرش علیه السلام، گفت: علی علیه السلام فرمود:",
-              "fr": "Et dans la narration de Ṭalḥah ibn Zayd, de Jaʿfar ibn Muḥammad, de son père عليه السلام, il a dit : ʿAlī عليه السلام a dit :",
-              "id": "Dan dalam riwayat Ṭalḥah ibn Zayd, dari Jaʿfar ibn Muḥammad, dari ayahnya علیه السلام, beliau berkata: ʿAlī علیه السلام berkata:",
-              "ru": "И в передаче Тальхи ибн Зайда от Джафара ибн Мухаммада, от его отца عليه السلام, он сказал: Али عليه السلام сказал:",
-              "tr": "Ve Talha bin Zeyd'in rivayetinde, Ca'fer bin Muhammed'den, babasından عليه السلام, şöyle dedi: Ali عليه السلام dedi ki:",
-              "ur": "اور طلحہ بن زید کی روایت میں، جعفر بن محمد سے، ان کے والد علیہ السلام سے، انہوں نے کہا: علی علیہ السلام نے فرمایا:",
-              "zh": "在ṬalḥahibnZayd的传述中，来自JaʿfaribnMuḥammad，来自他的父亲عليهالسلام，他说：ʿAlīعليهالسلام说："
-            },
             "word_end": 18,
             "word_start": 0
           },
           {
             "arabic_text": "اَلشُّفْعَةُ لَا تُورَثُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "শুফআ উত্তরাধিকারসূত্রে স্থানান্তরিত হয় না।",
-              "de": "Das Vorkaufsrecht wird nicht vererbt.",
-              "en": "Pre-emption is not inherited.",
-              "es": "La preempción no se hereda.",
-              "fa": "شفعه به ارث نمی‌رسد.",
-              "fr": "Le droit de préemption ne se transmet pas par héritage.",
-              "id": "Hak pre-emption tidak diwariskan.",
-              "ru": "Право шфъа не наследуется.",
-              "tr": "Şufʿa miras yoluyla geçmez.",
-              "ur": "شفعہ وراثت میں منتقل نہیں ہوتی۔",
-              "zh": "优先购买权不被继承。"
-            },
             "word_end": 21,
             "word_start": 18
           }
@@ -81,27 +68,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبِيهِ": "his father, referring to the preceding Imam in the sanad",
-            "اَلشُّفْعَةُ": "the right of pre-emption in jointly connected property transactions",
-            "تُورَثُ": "is inherited or passed on through inheritance",
-            "جَعْفَرِ بْنِ مُحَمَّدٍ": "Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام in the chain",
-            "رِوَايَةِ": "narration or reported transmission",
-            "طَلْحَةَ بْنِ زَيْدٍ": "the narrator Ṭalḥah ibn Zayd in the sanad",
-            "عَلِيٌّ": "Imam ʿAlī ibn Abī Ṭālib عليه السلام, the source of the ruling"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رِوَايَةِ",
+          "طَلْحَةَ بْنِ زَيْدٍ",
+          "جَعْفَرِ بْنِ مُحَمَّدٍ",
+          "أَبِيهِ",
+          "عَلِيٌّ",
+          "اَلشُّفْعَةُ",
+          "تُورَثُ"
+        ],
         "related_quran": [
           {
             "ref": "4:7",
@@ -116,32 +91,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামী আইনে শুফআহের অধিকার কি উত্তরাধিকারসূত্রে স্থানান্তরিত হয়?",
-          "de": "Wird das Recht auf Shufʿah im islamischen Recht vererbt?",
-          "en": "Is the right of shufʿah inherited in Islamic law?",
-          "es": "¿Se hereda el derecho de shufʿah en la ley islámica?",
-          "fa": "آیا حق شفعه در فقه اسلامی به ارث می‌رسد؟",
-          "fr": "Le droit de shufʿah est-il hérité en droit islamique ?",
-          "id": "Apakah hak shufʿah diwariskan dalam hukum Islam?",
-          "ru": "Наследуется ли право шфъа в исламском праве?",
-          "tr": "İslam hukukunda şufʿah hakkı miras yoluyla geçer mi?",
-          "ur": "کیا اسلامی قانون میں حق شفعہ وراثت میں منتقل ہوتا ہے؟",
-          "zh": "在伊斯兰法中，优先购买权是否被继承？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ইমাম আলী عليه السلام-এর পক্ষ থেকে শুফআহ, অর্থাৎ প্রাধান্য অধিকার সম্পর্কে একটি আইনি সিদ্ধান্ত প্রদান করে। এটি বলে যে এই অধিকার উত্তরাধিকারসূত্রে স্থানান্তরিত হয় না, যা আর্থিক আইন এবং উত্তরাধিকার আইনি দাবির প্রশ্নের সাথে সম্পর্কিত।",
-          "de": "Dieser Hadith übermittelt eine rechtliche Regelung von Imam ʿAlī عليه السلام bezüglich des Shufʿah, des Vorkaufsrechts. Es besagt, dass dieses Recht nicht vererbt wird, was für Fragen des Finanzrechts und ererbter Rechtsansprüche relevant ist.",
-          "en": "This hadith conveys a legal ruling from Imam ʿAlī عليه السلام concerning shufʿah, the right of pre-emption. It states that this right does not pass to heirs by inheritance, making it relevant to questions of financial law and inherited legal claims.",
-          "es": "Este hadiz transmite un fallo legal del Imam ʿAlī عليه السلام sobre el shufʿah, el derecho de preempción. Indica que este derecho no se transmite a los herederos por herencia, siendo relevante para cuestiones de derecho financiero y reclamaciones legales hereditarias.",
-          "fa": "این حدیث حکم حقوقی امام علی علیه السلام درباره شفعه، حق پیش‌خرید را بیان می‌کند که این حق به وراث منتقل نمی‌شود و مرتبط با مسائل حقوق مالی و دعاوی ارثی است.",
-          "fr": "Ce hadith transmet un jugement légal de l’Imam ʿAlī عليه السلام concernant la shufʿah, le droit de préemption. Il stipule que ce droit ne se transmet pas aux héritiers par héritage, ce qui est pertinent pour les questions de droit financier et les revendications légales héritées.",
-          "id": "Hadis ini menyampaikan hukum dari Imam ʿAlī عليه السلام mengenai shufʿah, hak pre-emption. Dinyatakan bahwa hak ini tidak diwariskan kepada ahli waris, relevan dengan hukum keuangan dan klaim hukum warisan.",
-          "ru": "Этот хадис передает юридическое постановление Имама ʿAlī عليه السلام относительно шфъа, права преимущественной покупки. В нем говорится, что это право не передается наследникам по наследству, что имеет значение для вопросов финансового права и наследственных юридических претензий.",
-          "tr": "Bu hadis, İmam ʿAlī عليه السلام'dan şufʿah hakkına dair bir hukuki hükmü iletmektedir. Bu hak miras yoluyla geçmez, bu da mali hukuk ve miras yoluyla geçen hukuki taleplerle ilgilidir.",
-          "ur": "یہ حدیث امام علی علیہ السلام کی شفعہ کے حق کے بارے میں ایک قانونی حکم بیان کرتی ہے کہ یہ حق وراثت میں منتقل نہیں ہوتا، جو مالی قانون اور وراثتی قانونی دعوؤں کے سوالات سے متعلق ہے۔",
-          "zh": "此圣训传达了伊玛目ʿAlīعليهالسلام关于优先购买权（shufʿah）的法律裁决。它指出此权利不通过继承传给继承人，与财务法和继承法律索赔相关。"
-        },
         "tags": [
           "jurisprudence",
           "economy",

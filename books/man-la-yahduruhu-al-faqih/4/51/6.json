@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى ٱلْحُسَيْنُ بْنُ سَعِيدٍ عَنْ عَلِيِّ بْنِ ٱلنُّعْمَانِ عَنْ أَبِي ٱلصَّبَّاحِ ٱلْكِنَانِيِّ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবনে সাঈদ 'আলি ইবনে আন-নুমান থেকে, তিনি আবু আস-সাব্বাহ আল-কিনানী থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Al-Husayn ibn Sa'id berichtete von 'Ali ibn al-Nu'man, von Abu al-Sabbah al-Kinani, der sagte:",
-              "en": "Al-Husayn ibn Sa'id narrated from 'Ali ibn al-Nu'man, from Abu al-Sabbah al-Kinani, who said:",
-              "es": "Al-Husayn ibn Sa'id narró de 'Ali ibn al-Nu'man, de Abu al-Sabbah al-Kinani, quien dijo:",
-              "fa": "الحسین بن سعید از علی بن نعمان، از ابو الصباح کنانی روایت کرده که گفت:",
-              "fr": "Al-Husayn ibn Sa'id a rapporté de 'Ali ibn al-Nu'man, d'Abu al-Sabbah al-Kinani, qui a dit :",
-              "id": "Al-Husayn ibn Sa'id meriwayat dari 'Ali ibn al-Nu'man, dari Abu al-Sabbah al-Kinani, yang berkata:",
-              "ru": "Аль-Хусейн ибн Саид передал от Али ибн ан-Ну’ман, от Абу ас-Саббах аль-Кинани, который сказал:",
-              "tr": "El-Hüseyin ibn Sa'id, Ali ibn en-Nu'man'dan, o da Ebu's-Sabbah el-Kinani'den şöyle rivayet etti:",
-              "ur": "الحُسَین ابن سعید نے علی ابن النعمان سے روایت کی، جو ابو الصباح الکِنانی سے روایت کرتے ہیں، جنہوں نے کہا:",
-              "zh": "الحسينابنسعيد传述自عليابنالنعمان，来自أبوالصباحالكناني，他说："
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ أَبُو عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ: «مَنْ أَضَرَّ بِشَيْءٍ مِنْ طَرِيقِ ٱلْمُسْلِمِينَ فَهُوَ لَهُ ضَامِنٌ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আবু 'আব্দুল্লাহ علیہ السلام বলেছেন: \"যে কেউ মুসলমানদের পথের কোনো জিনিসে ক্ষতি করে, সে তার দায়ী।\"",
-              "de": "Abu 'Abd Allah عليه السلام sagte: „Wer einem Gegenstand auf dem Weg der Muslime Schaden zufügt, ist dafür haftbar.“",
-              "en": "Abu 'Abd Allah عليه السلام said: \"Whoever causes harm to anything belonging to the path of the Muslims is liable for it.\"",
-              "es": "Abu 'Abd Allah عليه السلام dijo: \"Quien cause daño a algo perteneciente al camino de los musulmanes es responsable de ello.\"",
-              "fa": "ابو عبد الله علیه السلام فرمود: «هر کس به چیزی از مسیر مسلمانان آسیب برساند، مسئول آن است.»",
-              "fr": "Abu 'Abd Allah عليه السلام a dit : « Quiconque cause du tort à quelque chose appartenant au chemin des musulmans en est responsable. »",
-              "id": "Abu 'Abd Allah علیه السلام berkata: \"Barangsiapa yang merugikan sesuatu yang merupakan jalan umat Muslim, maka dia bertanggung jawab atasnya.\"",
-              "ru": "Абу 'Абд Аллах عليه السلام сказал: «Кто причиняет вред чему-либо на пути мусульман, тот несет за это ответственность.»",
-              "tr": "Ebu 'Abd Allah عليه السلام şöyle buyurdu: \"Müslümanların yoluna ait herhangi bir şeye zarar veren kimse, onun sorumluluğunu taşır.\"",
-              "ur": "ابو عبد اللہ علیہ السلام نے فرمایا: \"جو کوئی مسلمانوں کے راستے کی کسی چیز کو نقصان پہنچائے، وہ اس کا ذمہ دار ہے۔\"",
-              "zh": "أبوعبداللهعليهالسلام说：“凡损害穆斯林道路上任何事物者，皆须承担责任。”"
-            },
             "word_end": 29,
             "word_start": 14
           }
@@ -101,23 +88,11 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَضَرَّ": "caused harm or damage",
-            "ضَامِنٌ": "legally liable or responsible for compensation",
-            "طَرِيقِ ٱلْمُسْلِمِينَ": "the public path or roadway used by Muslims"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَضَرَّ",
+          "طَرِيقِ ٱلْمُسْلِمِينَ",
+          "ضَامِنٌ"
+        ],
         "related_quran": [
           {
             "ref": "2:195",
@@ -128,32 +103,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "মুসলমানদের ব্যবহৃত জনসাধারণের সড়কে ক্ষতি করলে কি একজন ব্যক্তি দায়ী হয়?",
-          "de": "Ist eine Person haftbar, wenn sie auf einer von Muslimen genutzten öffentlichen Straße Schaden verursacht?",
-          "en": "Is a person liable if he causes harm on a public road used by Muslims?",
-          "es": "¿Es responsable una persona si causa daño en una vía pública usada por musulmanes?",
-          "fa": "آیا شخصی که در جاده عمومی مورد استفاده مسلمانان آسیب وارد کند، مسئول است؟",
-          "fr": "Une personne est-elle responsable si elle cause un dommage sur une voie publique utilisée par les musulmans ?",
-          "id": "Apakah seseorang bertanggung jawab jika ia menyebabkan kerusakan di jalan umum yang digunakan oleh umat Muslim?",
-          "ru": "Несет ли человек ответственность, если он причиняет вред на общественной дороге, используемой мусульманами?",
-          "tr": "Müslümanların kullandığı kamu yolunda zarar veren kişi sorumlu mudur?",
-          "ur": "کیا کوئی شخص مسلمانوں کے استعمال کے لیے عوامی سڑک پر نقصان پہنچانے کا ذمہ دار ہوتا ہے؟",
-          "zh": "人在穆斯林使用的公共道路上造成损害是否负有责任？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি মুসলমানদের ব্যবহৃত জনসাধারণের পথের ক্ষতির জন্য দায়িত্বের একটি আইনি নীতিকে ব্যাখ্যা করে। এটি জনসাধারণের অধিকার রক্ষার গুরুত্ব তুলে ধরে এবং স্পষ্ট করে যে, যিনি এমন স্থানে ক্ষতি করেন, তিনি তার পরিণতির জন্য দায়ী।",
-          "de": "Dieser Hadith stellt ein rechtliches Prinzip der Haftung für Schäden an öffentlichen Wegen dar, die von Muslimen genutzt werden. Er betont den Schutz öffentlicher Rechte und stellt fest, dass derjenige, der in einem solchen Bereich Schaden verursacht, für die Folgen verantwortlich ist.",
-          "en": "This hadith states a legal principle of liability for causing harm in public pathways used by Muslims. It emphasizes protection of public rights and establishes that one who damages or creates harm in such a space is responsible for the consequences.",
-          "es": "Este hadiz establece un principio legal de responsabilidad por causar daño en caminos públicos usados por musulmanes. Enfatiza la protección de los derechos públicos y establece que quien daña o causa perjuicio en dicho espacio es responsable de las consecuencias.",
-          "fa": "این حدیث اصل حقوقی مسئولیت در قبال آسیب رساندن به مسیرهای عمومی مورد استفاده مسلمانان را بیان می‌کند. بر حفاظت از حقوق عمومی تأکید دارد و تصریح می‌کند که کسی که در چنین فضایی خسارت ایجاد کند، مسئول پیامدهای آن است.",
-          "fr": "Ce hadith énonce un principe juridique de responsabilité en cas de dommage causé sur des voies publiques utilisées par les musulmans. Il souligne la protection des droits publics et établit que celui qui cause un dommage dans un tel espace en est responsable.",
-          "id": "Hadis ini menyatakan prinsip hukum tanggung jawab atas kerusakan di jalan umum yang digunakan oleh umat Muslim. Menekankan perlindungan hak publik dan menetapkan bahwa siapa pun yang merusak atau menyebabkan kerugian di tempat tersebut bertanggung jawab atas konsekuensinya.",
-          "ru": "Этот хадис устанавливает правовой принцип ответственности за причинение вреда на общественных путях, используемых мусульманами. Он подчеркивает защиту общественных прав и устанавливает, что тот, кто наносит ущерб в таком месте, несет ответственность за последствия.",
-          "tr": "Bu hadis, Müslümanların kullandığı kamu yollarında zarar verme durumunda sorumluluk ilkesini belirtir. Kamu haklarının korunmasını vurgular ve böyle bir alanda zarar veren kişinin sonuçlarından sorumlu olduğunu ortaya koyar.",
-          "ur": "یہ حدیث مسلمانوں کے استعمال کے لیے عوامی راستوں میں نقصان پہنچانے کی ذمہ داری کے قانونی اصول کو بیان کرتی ہے۔ یہ عوامی حقوق کے تحفظ پر زور دیتی ہے اور واضح کرتی ہے کہ جو کوئی ایسے راستے میں نقصان پہنچائے، وہ اس کے نتائج کا ذمہ دار ہوگا۔",
-          "zh": "此圣训阐明了对穆斯林使用的公共道路上造成损害的法律责任原则。强调保护公共权利，并规定损害或造成该空间伤害者须承担后果责任。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations",

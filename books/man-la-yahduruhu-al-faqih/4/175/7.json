@@ -17,23 +17,23 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "خَيْرُ مَا أُلْقِيَ فِي الْقَلْبِ الْيَقِينُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "হৃদয়ে যা ঢালা হয় তার মধ্যে সেরা হল নিশ্চিততা।",
-              "de": "Das Beste, was ins Herz gelegt wird, ist Gewissheit.",
-              "en": "The best of what is cast into the heart is certainty.",
-              "es": "Lo mejor de lo que se deposita en el corazón es la certeza.",
-              "fa": "بهترین چیزی که در دل افکنده می‌شود یقین است.",
-              "fr": "Le meilleur de ce qui est déposé dans le cœur est la certitude.",
-              "id": "Yang terbaik yang ditanamkan ke dalam hati adalah keyakinan.",
-              "ru": "Лучшее, что вкладывается в сердце, — это уверенность.",
-              "tr": "Kalbe atılan en hayırlı şey kesinliktir.",
-              "ur": "دل میں ڈالے جانے والی سب سے بہترین چیز یقین ہے۔",
-              "zh": "投入心中的最美好的是确信。"
-            },
             "word_end": 6,
             "word_start": 0
           }
@@ -45,23 +45,11 @@
           "narrators": []
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْقَلْبِ": "the heart, the inner spiritual center of a person",
-            "الْيَقِينُ": "certainty; firm and unwavering conviction",
-            "خَيْرُ": "the best or most excellent"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "خَيْرُ",
+          "الْقَلْبِ",
+          "الْيَقِينُ"
+        ],
         "related_quran": [
           {
             "ref": "2:4",
@@ -76,32 +64,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "নবী صلی اللہ علیہ وآلہ وسلم অনুযায়ী হৃদয়ে রাখার জন্য সবচেয়ে ভালো জিনিস কী?",
-          "de": "Was ist das Beste, was laut dem Propheten صلى الله عليه وآله وسلم ins Herz gelegt werden kann?",
-          "en": "What is the best thing that can be placed in the heart according to the Prophet صلى الله عليه وآله وسلم?",
-          "es": "¿Cuál es la mejor cosa que puede colocarse en el corazón según el Profeta صلى الله عليه وآله وسلم?",
-          "fa": "به گفته پیامبر صلى الله عليه وآله وسلم بهترین چیزی که می‌توان در دل قرار داد چیست؟",
-          "fr": "Quelle est la meilleure chose que l’on peut placer dans le cœur selon le Prophète صلى الله عليه وآله وسلم ?",
-          "id": "Menurut Nabi صلى الله عليه وآله وسلم, apa hal terbaik yang dapat ditempatkan di dalam hati?",
-          "ru": "Что лучше всего можно вложить в сердце согласно Пророку صلى الله عليه وآله وسلم?",
-          "tr": "Peygamber صلى الله عليه وآله وسلم'e göre kalbe konulabilecek en iyi şey nedir?",
-          "ur": "نبی صلی اللہ علیہ وآلہ وسلم کے مطابق دل میں ڈالنے والی سب سے بہترین چیز کیا ہے؟",
-          "zh": "根据先知 صلى الله عليه وآله وسلم，心中能放入的最美好的是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস শিক্ষা দেয় যে ইয়াকীন বা নিশ্চিততা মানুষের মধ্যে প্রদত্ত অন্যতম মহান অন্তর্দৃষ্টি গুণ। এটি হৃদয়কে দৃঢ় ঈমান, আধ্যাত্মিক স্পষ্টতা এবং আল্লাহর প্রতি অবিচল বিশ্বাসের আসন হিসেবে নির্দেশ করে।",
-          "de": "Dieser Hadith lehrt, dass Yaqīn oder Gewissheit zu den größten inneren Eigenschaften gehört, die einem Menschen verliehen werden. Er weist auf das Herz als Sitz des festen Glaubens, der spirituellen Klarheit und des unerschütterlichen Vertrauens in Allah hin.",
-          "en": "This hadith teaches that yaqīn, or certainty, is among the greatest inner qualities granted to a human being. It points to the heart as the seat of firm faith, spiritual clarity, and unwavering trust in Allah.",
-          "es": "Este hadiz enseña que el yaqīn, o certeza, es una de las mayores cualidades internas otorgadas al ser humano. Señala al corazón como el asiento de la fe firme, la claridad espiritual y la confianza inquebrantable en Allah.",
-          "fa": "این حدیث آموزش می‌دهد که یقین از بزرگ‌ترین صفات درونی است که به انسان داده می‌شود. این حدیث به قلب به عنوان جایگاه ایمان راسخ، وضوح معنوی و اعتماد بی‌تزلزل به خدا اشاره دارد.",
-          "fr": "Ce hadith enseigne que le yaqīn, ou certitude, est parmi les plus grandes qualités intérieures accordées à l’être humain. Il désigne le cœur comme le siège de la foi ferme, de la clarté spirituelle et de la confiance inébranlable en Allah.",
-          "id": "Hadis ini mengajarkan bahwa yaqīn, atau keyakinan, adalah salah satu kualitas batin terbesar yang diberikan kepada manusia. Ini menunjukkan hati sebagai tempat iman yang teguh, kejernihan spiritual, dan kepercayaan yang tak tergoyahkan kepada Allah.",
-          "ru": "Этот хадис учит, что якин, или уверенность, является одним из величайших внутренних качеств, дарованных человеку. Он указывает на сердце как на место твердой веры, духовной ясности и непоколебимого доверия к Аллаху.",
-          "tr": "Bu hadis, yaqīn yani kesinliğin insana verilen en büyük içsel niteliklerden biri olduğunu öğretir. Kalbi, sağlam iman, ruhani açıklık ve Allah’a sarsılmaz güvenin merkezi olarak gösterir.",
-          "ur": "یہ حدیث سکھاتی ہے کہ یقین انسان کو دی جانے والی سب سے بڑی باطنی خصوصیات میں سے ہے۔ یہ دل کو مضبوط ایمان، روحانی وضاحت، اور اللہ پر غیر متزلزل اعتماد کی جگہ کے طور پر ظاہر کرتی ہے۔",
-          "zh": "这段圣训教导我们，yaqīn即确信，是赐予人类的最伟大内在品质之一。它指出心是坚定信仰、精神明晰和对安拉坚定信任的所在。"
-        },
         "tags": [
           "theology",
           "ethics",

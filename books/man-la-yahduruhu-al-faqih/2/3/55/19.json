@@ -17,61 +17,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَكَتَبَ إِبْرَاهِيمُ بْنُ سُفْيَانَ إِلَى أَبِي الْحَسَنِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ইব্রাহীম ইবনে সুফিয়ান আবু আল-হাসান عليه السلام-কে লিখলেন:",
-              "de": "Ibrāhīm ibn Sufyān schrieb an Abū al-Ḥasan عليه السلام:",
-              "en": "Ibrāhīm ibn Sufyān wrote to Abū al-Ḥasan عليه السلام:",
-              "es": "Ibrāhīm ibn Sufyān escribió a Abū al-Ḥasan عليه السلام:",
-              "fa": "ابراهیم بن سفیان به ابو الحسن علیه السلام نوشت:",
-              "fr": "Ibrāhīm ibn Sufyān a écrit à Abū al-Ḥasan عليه السلام :",
-              "id": "Ibrāhīm ibn Sufyān menulis kepada Abū al-Ḥasan عليه السلام:",
-              "ru": "Ибрахим ибн Суфьян написал Абу аль-Хасану عليه السلام:",
-              "tr": "İbrahim ibn Sufyan, Ebu'l-Hasan'a عليه السلام yazdı:",
-              "ur": "ابراہیم ابن سفیان نے ابو الحسن علیہ السلام کو لکھا:",
-              "zh": "易卜拉欣本苏菲扬写信给阿布哈桑 عليه السلام："
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "الْمُحْرِمُ يَغْسِلُ يَدَهُ بِأُشْنَانٍ فِيهِ الْإِذْخِرُ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "মুহরিম তার হাত উশনান দিয়ে ধোয় যার মধ্যে ইধখির থাকে।",
-              "de": "Der Muhrim wäscht seine Hand mit Ushnān, in dem Idhkhir enthalten ist.",
-              "en": "The muhrim washes his hand with ushnān in which there is idhkhir.",
-              "es": "El muhrim se lava la mano con ushnān que contiene idhkhir.",
-              "fa": "محرم دست خود را با اشنان که در آن اذرخر است می‌شوید.",
-              "fr": "Le muhrim se lave la main avec de l’ushnān contenant de l’idhkhir.",
-              "id": "Muhrim mencuci tangannya dengan ushnān yang mengandung idhkhir.",
-              "ru": "Мухрим моет руку с использованием ушнана, в котором есть идххир.",
-              "tr": "Muhrim, içinde idhkhir bulunan ushnān ile elini yıkar.",
-              "ur": "محرم اپنے ہاتھ کو اشنان سے دھوتا ہے جس میں اذخر ہوتا ہے۔",
-              "zh": "穆赫里姆用含有伊德赫尔的乌什南洗手。"
-            },
             "word_end": 15,
             "word_start": 9
           },
           {
             "arabic_text": "فَكَتَبَ «لَا أُحِبُّهُ لَكَ».",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তাহলে তিনি লিখলেন: “আমি এটা তোমার জন্য পছন্দ করি না।”",
-              "de": "Also schrieb er: „Ich mag es für dich nicht.“",
-              "en": "So he wrote: “I do not like it for you.”",
-              "es": "Entonces escribió: “No me gusta para ti.”",
-              "fa": "پس نوشت: «من این را برای تو دوست ندارم.»",
-              "fr": "Alors il écrivit : « Je ne l’aime pas pour toi. »",
-              "id": "Lalu dia menulis: “Saya tidak menyukainya untukmu.”",
-              "ru": "Поэтому он написал: «Мне это для тебя не нравится.»",
-              "tr": "Böylece yazdı: “Senin için bunu sevmiyorum.”",
-              "ur": "پس انہوں نے لکھا: “میں یہ تمہارے لیے پسند نہیں کرتا۔”",
-              "zh": "于是他写道：“我不喜欢你这样做。”"
-            },
             "word_end": 19,
             "word_start": 15
           }
@@ -110,58 +84,20 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْإِذْخِرُ": "idhkhir, a fragrant grass",
-            "الْمُحْرِمُ": "a person in the state of ihram",
-            "بِأُشْنَانٍ": "with ushnaan, a cleansing substance",
-            "لَا أُحِبُّهُ": "I do not like it",
-            "يَدَهُ": "his hand",
-            "يَغْسِلُ": "washes"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمُحْرِمُ",
+          "يَغْسِلُ",
+          "يَدَهُ",
+          "بِأُشْنَانٍ",
+          "الْإِذْخِرُ",
+          "لَا أُحِبُّهُ"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "মুহরিম কি ইধখিরযুক্ত উশনান দিয়ে হাত ধুতে পারে?",
-          "de": "Kann ein Muhrim seine Hände mit Ushnān waschen, das Idhkhir enthält?",
-          "en": "Can a muhrim wash his hands with ushnaan containing idhkhir?",
-          "es": "¿Puede un muhrim lavarse las manos con ushnaan que contiene idhkhir?",
-          "fa": "آیا محرم می‌تواند دست خود را با اشنان حاوی اذرخر بشوید؟",
-          "fr": "Un muhrim peut-il se laver les mains avec de l’ushnān contenant de l’idhkhir ?",
-          "id": "Apakah muhrim boleh mencuci tangan dengan ushnān yang mengandung idhkhir?",
-          "ru": "Может ли мухрим мыть руки ушнаном, содержащим идххир?",
-          "tr": "Muhrim, içinde idhkhir bulunan ushnān ile elini yıkayabilir mi?",
-          "ur": "کیا محرم اپنے ہاتھ اشنان سے دھو سکتا ہے جس میں اذخر شامل ہو؟",
-          "zh": "穆赫里姆可以用含有伊德赫尔的乌什南洗手吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি একটি আইনি প্রশ্নের উত্তর দেয় যা মুহরিমের ইধখিরযুক্ত পরিষ্কারক পদার্থ ব্যবহারের বিষয়ে। আবু আল-হাসান عليه السلام অসন্তোষ প্রকাশ করেছেন, যা নির্দেশ করে যে ইহরামে এমন ব্যবহার পছন্দনীয় নয়।",
-          "de": "Dieser Hadith behandelt eine rechtliche Frage bezüglich eines Muhrim, der ein Reinigungsmittel mit Idhkhir verwendet. Abū al-Ḥasan عليه السلام antwortete mit Ablehnung und zeigte, dass eine solche Verwendung im Ihram nicht bevorzugt wird.",
-          "en": "This hadith addresses a legal question concerning a muhrim using a cleansing substance containing idhkhir. Abū al-Ḥasan عليه السلام replied with disapproval, indicating that such use is not preferred for one in ihram.",
-          "es": "Este hadiz aborda una cuestión legal sobre un muhrim que usa una sustancia limpiadora que contiene idhkhir. Abū al-Ḥasan عليه السلام respondió con desaprobación, indicando que tal uso no es preferido para quien está en ihram.",
-          "fa": "این حدیث به سوال فقهی درباره استفاده محرم از ماده پاک‌کننده حاوی اذرخر پاسخ می‌دهد. ابو الحسن علیه السلام با نارضایتی پاسخ داد و نشان داد که چنین استفاده‌ای برای کسی که در احرام است، پسندیده نیست.",
-          "fr": "Ce hadith traite d’une question juridique concernant un muhrim utilisant une substance nettoyante contenant de l’idhkhir. Abū al-Ḥasan عليه السلام a répondu par une désapprobation, indiquant que cet usage n’est pas recommandé pour quelqu’un en ihram.",
-          "id": "Hadis ini membahas pertanyaan hukum mengenai muhrim yang menggunakan zat pembersih yang mengandung idhkhir. Abū al-Ḥasan عليه السلام menanggapi dengan ketidaksukaan, menunjukkan bahwa penggunaan seperti itu tidak dianjurkan bagi yang sedang ihram.",
-          "ru": "Этот хадис рассматривает юридический вопрос о мухриме, использующем очищающее средство, содержащее идххир. Абу аль-Хасан عليه السلام ответил неодобрением, указывая, что такое использование не рекомендуется для находящегося в ихраме.",
-          "tr": "Bu hadis, muhrimin içinde idhkhir bulunan bir temizlik maddesi kullanmasıyla ilgili hukuki bir soruyu ele almaktadır. Ebu'l-Hasan عليه السلام, böyle bir kullanımın ihramda tercih edilmediğini belirterek onaylamamıştır.",
-          "ur": "یہ حدیث محرم کے لیے ایک قانونی سوال کا جواب دیتی ہے جو اذخر پر مشتمل صفائی کے مادے کے استعمال سے متعلق ہے۔ ابو الحسن علیہ السلام نے ناپسندیدگی کا اظہار کیا، یہ ظاہر کرتے ہوئے کہ احرام میں ایسے استعمال کی سفارش نہیں کی جاتی۔",
-          "zh": "这段圣训涉及一个关于穆赫里姆使用含有伊德赫尔的清洁物质的法律问题。阿布哈桑 عليه السلام以不赞成的态度回复，表明在伊赫拉姆状态下不推荐使用此类物品。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

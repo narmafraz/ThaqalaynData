@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَلِيٌّ عَنْ أَبِيهِ عَنِ النَّوْفَلِيِّ عَنِ السَّكُونِيِّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী, তাঁর পিতা থেকে, আল-নওফালি থেকে, আল-সাকুনি থেকে, আবু আবদিল্লাহ عليه السلام থেকে:",
-              "de": "Ali, von seinem Vater, von al-Nawfali, von al-Sakuni, von Abu Abdillah عليه السلام:",
-              "en": "Ali, from his father, from al-Nawfali, from al-Sakuni, from Abu Abdillah عليه السلام:",
-              "es": "Ali, de su padre, de al-Nawfali, de al-Sakuni, de Abu Abdillah عليه السلام:",
-              "fa": "علی، از پدرش، از النوفلی، از السکونی، از ابوعبدالله علیه‌السلام:",
-              "fr": "Ali, de son père, d’al-Nawfali, d’al-Sakuni, d’Abu Abdillah عليه السلام :",
-              "id": "Ali, dari ayahnya, dari al-Nawfali, dari al-Sakuni, dari Abu Abdillah عليه السلام:",
-              "ru": "Али, от его отца, от аль-Науфали, от аль-Сакуни, от Абу Абдуллаха عليه السلام:",
-              "tr": "Ali, babasından, al-Nawfali’den, al-Sakuni’den, Ebu Abdillah عليه السلام’dan:",
-              "ur": "علی، اپنے والد سے، النوفلی سے، السکونی سے، ابو عبداللہ علیہ السلام سے:",
-              "zh": "阿里，传自其父，传自al-Nawfali，传自al-Sakuni，传自AbuAbdillah عليه السلام："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "«أَنَّ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ نَهَى أَنْ يُوضَعَ عَلَى النَّعْشِ الْحَنُوطُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে নবী صلى الله عليه وآله وسلم নিষেধ করেছেন যে আল-হানুতকে কফিনের ওপর রাখা হবে।",
-              "de": "Dass der Prophet صلى الله عليه وآله وسلم verbot, dass al-hanut auf den Sarg gelegt werde.",
-              "en": "That the Prophet صلى الله عليه وآله وسلم forbade that al-hanut be placed upon the bier.",
-              "es": "Que el Profeta صلى الله عليه وآله وسلم prohibió que se colocara al-hanut sobre el féretro.",
-              "fa": "که پیامبر صلى الله عليه وآله وسلم از این نهی فرمود که الحنوط بر تابوت نهاده شود.",
-              "fr": "Que le Prophète صلى الله عليه وآله وسلم a interdit que l’al-hanut soit placé sur le cercueil.",
-              "id": "Bahwa Nabi صلى الله عليه وآله وسلم melarang agar al-hanut diletakkan di atas usungan jenazah.",
-              "ru": "Что Пророк صلى الله عليه وآله وسلم запретил класть аль-ханут на носилки с покойным.",
-              "tr": "Peygamber صلى الله عليه وآله وسلم’in, al-hanut’un tabutun üzerine konulmasını yasakladığı:",
-              "ur": "کہ نبی صلی اللہ علیہ وآلہ وسلم نے منع فرمایا کہ الحنوط کو جنازے پر رکھا جائے۔",
-              "zh": "先知 صلى الله عليه وآله وسلم禁止将al-hanut放在灵柩上。"
-            },
             "word_end": 26,
             "word_start": 13
           }
@@ -69,25 +56,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ": "Imam Jaʿfar al-Sadiq عليه السلام, the Imam transmitting the report",
-            "النَّبِيَّ": "the Prophet صلى الله عليه وآله وسلم, the source of the ruling being transmitted",
-            "النَّعْشِ": "the bier or funeral stretcher upon which the deceased is carried",
-            "الْحَنُوطُ": "the perfuming substance used for the deceased in funerary rites",
-            "نَهَى": "forbade; indicates a prohibition in the report"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "النَّبِيَّ",
+          "نَهَى",
+          "النَّعْشِ",
+          "الْحَنُوطُ",
+          "أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ"
+        ],
         "related_quran": [
           {
             "ref": "2:195",
@@ -98,32 +73,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "নবী صلى الله عليه وآله وسلم আল-হানুত সম্পর্কে কী নিষেধ করেছিলেন?",
-          "de": "Was verbot der Prophet صلى الله عليه وآله وسلم bezüglich al-hanut auf dem Sarg?",
-          "en": "What did the Prophet صلى الله عليه وآله وسلم forbid regarding placing al-hanut on the bier?",
-          "es": "¿Qué prohibió el Profeta صلى الله عليه وآله وسلم respecto a colocar al-hanut sobre el féretro?",
-          "fa": "پیامبر صلى الله عليه وآله وسلم درباره الحنوط چه چیزی را نهی فرمود؟",
-          "fr": "Qu’a interdit le Prophète صلى الله عليه وآله وسلم au sujet de l’al-hanut sur le cercueil ?",
-          "id": "Apa yang dilarang Nabi صلى الله عليه وآله وسلم terkait al-hanut di atas usungan jenazah?",
-          "ru": "Что запретил Пророк صلى الله عليه وآله وسلم относительно аль-ханута на носилках с покойным?",
-          "tr": "Peygamber صلى الله عليه وآله وسلم al-hanut hakkında neyi yasakladı?",
-          "ur": "نبی صلی اللہ علیہ وآلہ وسلم نے الحنوط کے بارے میں کیا منع فرمایا؟",
-          "zh": "先知 صلى الله عليه وآله وسلم禁止在灵柩上放置al-hanut什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে নবী صلى الله عليه وآله وسلم-এর পক্ষ থেকে আল-হানুতকে কফিনের ওপর রাখার নিষেধাজ্ঞা বর্ণিত হয়েছে। এটি জানাজা-সংক্রান্ত ফিকহের সঙ্গে সম্পর্কিত এবং মৃতের রীতিতে সুগন্ধি পদার্থ ব্যবহারের একটি নির্ধারিত সীমা নির্দেশ করে।",
-          "de": "Dieser Hadith überliefert ein Verbot des Propheten صلى الله عليه وآله وسلم, al-hanut auf den Sarg zu legen. Er gehört zum Bestattungsrecht und weist auf eine festgelegte Grenze für die Verwendung von Duftstoffen bei den Riten für den Verstorbenen hin.",
-          "en": "This hadith reports a prohibition from the Prophet صلى الله عليه وآله وسلم regarding placing al-hanut upon the bier. It relates to funerary jurisprudence and indicates a prescribed limit for how perfuming substances are to be used in the rites of the deceased.",
-          "es": "Este hadiz transmite una prohibición del Profeta صلى الله عليه وآله وسلم respecto a colocar al-hanut sobre el féretro. Se relaciona con la jurisprudencia funeraria e indica un límite prescrito para el uso de sustancias perfumadas en los ritos del difunto.",
-          "fa": "این حدیث، نهی‌ای از پیامبر صلى الله عليه وآله وسلم درباره نهادن الحنوط بر تابوت گزارش می‌کند. این روایت به فقه جنازه مربوط است و نشان می‌دهد که برای به‌کارگیری مواد خوشبوکننده در مراسم میت، حدّی مقرر شده است.",
-          "fr": "Ce hadith rapporte une interdiction du Prophète صلى الله عليه وآله وسلم concernant le fait de placer l’al-hanut sur le cercueil. Il relève de la jurisprudence funéraire et indique une limite prescrite quant à l’usage des substances parfumées dans les rites du défunt.",
-          "id": "Hadis ini meriwayatkan larangan dari Nabi صلى الله عليه وآله وسلم tentang meletakkan al-hanut di atas usungan jenazah. Ini berkaitan dengan fikih جنازه dan menunjukkan batas yang ditetapkan dalam penggunaan bahan pewangi dalam tata cara pengurusan jenazah.",
-          "ru": "Этот хадис передаёт запрет Пророка صلى الله عليه وآله وسلم на то, чтобы класть аль-ханут на носилки с покойным. Он относится к погребальному фикху и указывает на установленное ограничение в использовании благовоний в обрядах умершего.",
-          "tr": "Bu hadis, Peygamber صلى الله عليه وآله وسلم’den al-hanut’un tabut üzerine konulmasına dair bir yasağı nakleder. Bu, cenaze fıkhıyla ilgilidir ve ölenin ritüellerinde koku verici maddelerin kullanımına dair belirlenmiş bir sınırı gösterir.",
-          "ur": "یہ حدیث نبی صلی اللہ علیہ وآلہ وسلم سے الحنوط کو جنازے پر رکھنے کی ممانعت بیان کرتی ہے۔ یہ جنازہ فقہ سے متعلق ہے اور میت کے مراسم میں خوشبو دار اشیاء کے استعمال کی ایک مقرر حد کی طرف اشارہ کرتی ہے۔",
-          "zh": "这段圣训记载了先知 صلى الله عليه وآله وسلم关于不可将al-hanut放在灵柩上的禁令。它涉及丧葬教法，并表明在亡者仪式中使用香料类物质有一项规定的限度。"
-        },
         "tags": [
           "jurisprudence",
           "prophetic_tradition",

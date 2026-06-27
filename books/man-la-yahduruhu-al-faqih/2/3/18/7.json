@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং আবু জাফর عليه السلام বললেন:",
-              "de": "Und Abū Jaʿfar عليه السلام sagte:",
-              "en": "And Abū Jaʿfar عليه السلام said:",
-              "es": "Y Abū Jaʿfar عليه السلام dijo:",
-              "fa": "و ابوجعفر علیه السلام فرمود:",
-              "fr": "Et Abū Jaʿfar عليه السلام a dit :",
-              "id": "Dan Abū Jaʿfar عليه السلام berkata:",
-              "ru": "И сказал Абу Джафар عليه السلام:",
-              "tr": "Ve Ebu Ca'fer عليه السلام dedi ki:",
-              "ur": "اور ابو جعفر علیہ السلام نے فرمایا:",
-              "zh": "阿布贾法尔عليهالسلام说："
-            },
             "word_end": 6,
             "word_start": 0
           },
           {
             "arabic_text": "«إِذَا صَحِبْتَ فَاصْحَبْ نَحْوَكَ وَ لَا تَصْحَبْ مَنْ يَكْفِيكَ فَإِنَّ ذَلِكَ مَذَلَّةٌ لِلْمُؤْمِنِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি তুমি কারো সঙ্গে সঙ্গ দাও, তবে তোমার সমকক্ষের সঙ্গে সঙ্গ দাও, এবং যিনি তোমাকে সম্পূর্ণরূপে পরিপূরক করেন তার সঙ্গে সঙ্গ দিও না, কারণ এটি একজন মুমিনের জন্য অবমাননা।",
-              "de": "Wenn du Gesellschaft hast, dann halte Gesellschaft mit deinem Gleichen und begleite nicht den, der dich vollständig versorgt, denn das ist eine Demütigung für den Gläubigen.",
-              "en": "\"If you keep company with someone, then keep company with your equal, and do not accompany one who suffices you entirely, for that is a humiliation for the believer.\"",
-              "es": "Si te acompañas con alguien, acompáñate con tu igual, y no acompañes a quien te basta completamente, porque eso es una humillación para el creyente.",
-              "fa": "اگر با کسی همراهی کنی، با هم‌رتبه خود همراهی کن و با کسی که کاملاً کفایتت می‌کند همراهی مکن، زیرا این برای مؤمن خواری است.",
-              "fr": "Si tu fréquentes quelqu’un, fréquente un égal, et ne fréquente pas celui qui te suffit entièrement, car cela est une humiliation pour le croyant.",
-              "id": "Jika kamu bergaul dengan seseorang, maka bergaullah dengan yang setara denganmu, dan jangan menemani orang yang sudah mencukupimu sepenuhnya, karena itu adalah kehinaan bagi seorang mukmin.",
-              "ru": "Если ты общаешься с кем-то, то общайся с равным себе и не сопровождай того, кто полностью тебя обеспечивает, ибо это унижение для верующего.",
-              "tr": "Eğer biriyle arkadaşlık edersen, eşitinle arkadaşlık et ve seni tamamen karşılayanla birlikte olma, çünkü bu mümin için bir aşağılama olur.",
-              "ur": "اگر آپ کسی کے ساتھ صحبت کریں تو اپنے برابر کے ساتھ صحبت کریں، اور اس کے ساتھ نہ چلیں جو آپ کی مکمل کفایت کر دے، کیونکہ یہ مومن کے لیے ذلت ہے۔",
-              "zh": "如果你与人交往，就与平等者交往，不要与完全满足你的人同行，因为那是信士的羞辱。"
-            },
             "word_end": 19,
             "word_start": 6
           }
@@ -81,26 +68,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "صَحِبْتَ": "you accompanied or kept company",
-            "فَاصْحَبْ": "then accompany or keep company",
-            "لِلْمُؤْمِنِ": "for the believer",
-            "مَذَلَّةٌ": "humiliation or abasement",
-            "نَحْوَكَ": "your equal or one similar to you in standing",
-            "يَكْفِيكَ": "takes care of your needs or suffices you"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "صَحِبْتَ",
+          "فَاصْحَبْ",
+          "نَحْوَكَ",
+          "يَكْفِيكَ",
+          "مَذَلَّةٌ",
+          "لِلْمُؤْمِنِ"
+        ],
         "related_quran": [
           {
             "ref": "49:13",
@@ -111,32 +86,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কেন ইমাম আবু জাফর عليه السلام সম্পূর্ণরূপে একজনের প্রয়োজন মেটানো ব্যক্তির সঙ্গে সঙ্গ দেওয়া থেকে বিরত থাকতে বলেছেন?",
-          "de": "Warum hat Imam Abū Jaʿfar عليه السلام davon abgeraten, jemanden zu begleiten, der die eigenen Bedürfnisse vollständig erfüllt?",
-          "en": "Why did Imam Abū Jaʿfar عليه السلام discourage accompanying someone who completely takes care of one's needs?",
-          "es": "¿Por qué el Imam Abū Jaʿfar عليه السلام desaconsejó acompañar a alguien que cubre completamente las necesidades de uno?",
-          "fa": "چرا امام ابوجعفر علیه السلام از همراهی با کسی که تمام نیازهای انسان را برطرف می‌کند، نهی کردند؟",
-          "fr": "Pourquoi l’Imam Abū Jaʿfar عليه السلام a-t-il déconseillé d’accompagner quelqu’un qui prend entièrement soin de ses besoins ?",
-          "id": "Mengapa Imam Abū Jaʿfar عليه السلام melarang menemani seseorang yang sepenuhnya memenuhi kebutuhan seseorang?",
-          "ru": "Почему Имам Абу Джафар عليه السلام не советовал сопровождать того, кто полностью обеспечивает все нужды человека?",
-          "tr": "İmam Ebu Ca'fer عليه السلام neden ihtiyaçlarını tamamen karşılayan biriyle birlikte olmamayı öğütledi?",
-          "ur": "امام ابو جعفر علیہ السلام نے مکمل طور پر اپنی ضروریات پوری کرنے والے کے ساتھ صحبت کرنے سے کیوں منع فرمایا؟",
-          "zh": "为什么伊玛目阿布贾法尔عليهالسلام不鼓励与完全满足自己需求的人同行？"
-        },
-        "summaries": {
-          "bn": "ইমাম আবু জাফর عليه السلام মুমিনকে সঙ্গতিতে মর্যাদা রক্ষা করার শিক্ষা দেন, যাতে সে তার সমকক্ষের সঙ্গে চলাফেরা করে। সম্পূর্ণরূপে অন্যের ওপর নির্ভরশীল হওয়া এবং স্বাধীনতা হারানো মুমিনের জন্য একটি অবমাননার রূপ হিসেবে বর্ণিত হয়েছে।",
-          "de": "Imam Abū Jaʿfar عليه السلام lehrt den Gläubigen, Würde in der Gesellschaft zu bewahren, indem er mit Gleichgestellten reist oder sich verbindet. Vollständig von einem anderen abhängig zu sein, sodass man seine Unabhängigkeit verliert, wird als Demütigung für den Gläubigen beschrieben.",
-          "en": "Imam Abū Jaʿfar عليه السلام teaches the believer to preserve dignity in companionship by traveling or associating with social equals. Relying completely on another in such a way that one loses independence is described as a form of humiliation for the believer.",
-          "es": "El Imam Abū Jaʿfar عليه السلام enseña al creyente a preservar la dignidad en la compañía viajando o asociándose con iguales sociales. Depender completamente de otro hasta perder la independencia se describe como una forma de humillación para el creyente.",
-          "fa": "امام ابوجعفر علیه السلام به مؤمن آموزش می‌دهد که در همراهی کرامت خود را حفظ کند و با هم‌رتبه‌های خود رفت‌وآمد کند. تکیه کامل بر دیگری به گونه‌ای که استقلال از دست برود، نوعی خواری برای مؤمن است.",
-          "fr": "L’Imam Abū Jaʿfar عليه السلام enseigne au croyant à préserver sa dignité dans la compagnie en voyageant ou en s’associant avec des égaux sociaux. Se reposer entièrement sur autrui au point de perdre son indépendance est décrit comme une forme d’humiliation pour le croyant.",
-          "id": "Imam Abū Jaʿfar عليه السلام mengajarkan mukmin untuk menjaga martabat dalam pergaulan dengan bergaul atau bepergian dengan yang setara. Bergantung sepenuhnya pada orang lain sehingga kehilangan kemandirian digambarkan sebagai bentuk kehinaan bagi mukmin.",
-          "ru": "Имам Абу Джафар عليه السلام учит верующего сохранять достоинство в общении, путешествуя или общаясь с равными по статусу. Полная зависимость от другого, приводящая к потере независимости, описывается как унижение для верующего.",
-          "tr": "İmam Ebu Ca'fer عليه السلام, müminin arkadaşlıkta onurunu korumasını, eşitleriyle seyahat etmesini veya ilişki kurmasını öğütler. Tamamen başkasına bağımlı olmak ve bağımsızlığı kaybetmek mümin için bir aşağılama olarak tanımlanır.",
-          "ur": "امام ابو جعفر علیہ السلام مومن کو صحبت میں عزت نفس برقرار رکھنے کی تعلیم دیتے ہیں کہ وہ اپنے برابر کے ساتھ سفر یا میل جول کرے۔ مکمل طور پر کسی پر انحصار کرنا اور اپنی آزادی کھونا مومن کے لیے ذلت کی صورت ہے۔",
-          "zh": "伊玛目阿布贾法尔عليهالسلام教导信士通过与社会平等者交往或旅行来保持尊严。完全依赖他人以至于失去独立性被描述为信士的一种羞辱。"
-        },
         "tags": [
           "ethics",
           "social_relations"

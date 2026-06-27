@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ يُونُسُ بْنُ يَعْقُوبَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং ইউনুস ইবনে ইয়াকুব বললেন:",
-              "de": "Und Yūnus ibn Yaʿqūb sagte:",
-              "en": "And Yūnus ibn Yaʿqūb said:",
-              "es": "Y Yūnus ibn Yaʿqūb dijo:",
-              "fa": "و یونس بن یعقوب گفت:",
-              "fr": "Et Yūnus ibn Yaʿqūb a dit :",
-              "id": "Dan Yūnus ibn Yaʿqūb berkata:",
-              "ru": "И Юнус ибн Яъкуб сказал:",
-              "tr": "Ve Yūnus ibn Yaʿqūb dedi ki:",
-              "ur": "اور یونس ابن یعقوب نے کہا:",
-              "zh": "而尤努斯本雅各布说："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "رَأَيْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ يُسَوِّي الْحَصَى فِي مَوْضِعِ سُجُودِهِ بَيْنَ السَّجْدَتَيْنِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবা আব্দুল্লাহ علیہ السلام কে তার সিজদার স্থানে দুই সিজদার মাঝখানে পাথরগুলো সমান করে দিতে দেখেছি।",
-              "de": "Ich sah Abā ʿAbdillāh علیه السلام die Kieselsteine an der Stelle seiner Niederwerfung zwischen den beiden Niederwerfungen ebnen.",
-              "en": "I saw Abā ʿAbdillāh عليه السلام leveling the pebbles at the place of his prostration between the two prostrations.",
-              "es": "Vi a Abā ʿAbdillāh عليه السلام nivelando las piedras en el lugar de su prosternación entre las dos prosternaciones.",
-              "fa": "من ابا عبد الله علیه السلام را دیدم که سنگریزه‌ها را در محل سجده‌اش بین دو سجده هموار می‌کرد.",
-              "fr": "J'ai vu Abā ʿAbdillāh علیه السلام égaliser les cailloux à l'endroit de sa prosternation entre les deux prosternations.",
-              "id": "Saya melihat Abā ʿAbdillāh علیه السلام meratakan kerikil di tempat sujudnya di antara dua sujud.",
-              "ru": "Я видел, как Абā ʿАбдиллах علیه السلام выравнивал камешки на месте своего поклонения между двумя поклонами.",
-              "tr": "Abā ʿAbdillāh علیه السلام'ı, iki secde arasındaki secde yerindeki çakılları düzeltiyor olarak gördüm.",
-              "ur": "میں نے ابا عبد اللہ علیہ السلام کو اپنی سجدے کی جگہ پر دو سجدوں کے درمیان پتھروں کو برابر کرتے ہوئے دیکھا۔",
-              "zh": "我见过阿巴阿卜杜拉هعليهالسلام在两次叩头之间的叩头处整理卵石。"
-            },
             "word_end": 17,
             "word_start": 4
           }
@@ -82,26 +69,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبَا عَبْدِ اللَّهِ": "Imam Jaʿfar al-Ṣādiq عليه السلام",
-            "الْحَصَى": "the pebbles on the ground",
-            "بَيْنَ السَّجْدَتَيْنِ": "during the interval between the two prostrations",
-            "مَوْضِعِ سُجُودِهِ": "the place where he performed sajdah",
-            "يُسَوِّي": "he was leveling or smoothing",
-            "يُونُسُ بْنُ يَعْقُوبَ": "the narrator reporting what he witnessed"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُونُسُ بْنُ يَعْقُوبَ",
+          "أَبَا عَبْدِ اللَّهِ",
+          "يُسَوِّي",
+          "الْحَصَى",
+          "مَوْضِعِ سُجُودِهِ",
+          "بَيْنَ السَّجْدَتَيْنِ"
+        ],
         "related_quran": [
           {
             "ref": "22:77",
@@ -112,32 +87,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "দুই সিজদার মাঝখানে সিজদার স্থানে পাথরগুলো সমান করা কি جائز?",
-          "de": "Ist es erlaubt, die Kieselsteine an der Stelle der Sajdah zwischen den beiden Niederwerfungen zu ebnen?",
-          "en": "Is it permissible to level the pebbles in the place of sajdah between the two prostrations?",
-          "es": "¿Es permisible nivelar las piedras en el lugar de sajdah entre las dos prosternaciones?",
-          "fa": "آیا هموار کردن سنگریزه‌ها در محل سجده بین دو سجده جایز است؟",
-          "fr": "Est-il permis d'égaliser les cailloux à l'endroit de la sajdah entre les deux prosternations ?",
-          "id": "Apakah diperbolehkan meratakan kerikil di tempat sajdah antara dua sujud?",
-          "ru": "Разрешено ли выравнивать камешки в месте ссаджа между двумя поклонами?",
-          "tr": "İki secde arasındaki secde yerindeki çakılları düzeltmek caiz midir?",
-          "ur": "کیا دو سجدوں کے درمیان سجدے کی جگہ پر پتھروں کو برابر کرنا جائز ہے؟",
-          "zh": "在两次叩头之间的叩头处整理卵石是否允许？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বর্ণনা করে যে আবু আব্দুল্লাহ জাফর ইবনে মুহাম্মদ আস-সাদিক عليه السلام সিজদার স্থানে যেখানে তিনি তার কপাল রাখতেন, সেখানে পাথরগুলো সমান করতেন। এটি সালাতের একটি ব্যবহারিক দিক প্রতিফলিত করে এবং সিজদার স্থান সম্পর্কিত ফতোয়া ও শিষ্টাচারের সাথে প্রাসঙ্গিক।",
-          "de": "Dieser Hadith berichtet, dass Abū ʿAbdillāh Jaʿfar ibn Muḥammad al-Ṣādiq علیه السلام die Kieselsteine an der Stelle seiner Stirnablage in der Sajdah zwischen den beiden Niederwerfungen ebnete. Er spiegelt einen praktischen Aspekt des Salat wider und ist relevant für die Vorschriften und Etikette bezüglich des Niederwerfungsortes.",
-          "en": "This hadith reports that Abū ʿAbdillāh Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام would level the pebbles where he placed his forehead in sajdah between the two prostrations. It reflects a practical aspect of salat and is relevant to rulings and etiquette concerning the place of prostration.",
-          "es": "Este hadiz informa que Abū ʿAbdillāh Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام nivelaba las piedras donde colocaba su frente en la sajdah entre las dos prosternaciones. Refleja un aspecto práctico de la salat y es relevante para las reglas y la etiqueta sobre el lugar de la prosternación.",
-          "fa": "این حدیث گزارش می‌دهد که ابوالعبدالله جعفر بن محمد صادق علیه السلام سنگریزه‌های محل سجده‌اش را که پیشانی خود را در آنجا می‌گذاشت، هموار می‌کرد. این جنبه‌ای عملی از نماز را نشان می‌دهد و به احکام و آداب محل سجده مربوط است.",
-          "fr": "Ce hadith rapporte qu'Abū ʿAbdillāh Jaʿfar ibn Muḥammad al-Ṣādiq علیه السلام égalisait les cailloux à l'endroit où il posait son front en sajdah entre les deux prosternations. Cela reflète un aspect pratique de la salat et est pertinent pour les règles et l'étiquette concernant le lieu de la prosternation.",
-          "id": "Hadis ini melaporkan bahwa Abū ʿAbdillāh Jaʿfar ibn Muḥammad al-Ṣādiq علیه السلام meratakan kerikil di tempat sujudnya di antara dua sujud. Ini mencerminkan aspek praktis salat dan relevan dengan hukum serta adab mengenai tempat sujud.",
-          "ru": "Этот хадис сообщает, что Абū ʿАбдиллах Джафар ибн Мухаммад ас-Садик علیه السلام выравнивал камешки в месте, где он ставил лоб в ссадже между двумя поклонами. Это отражает практический аспект салата и имеет отношение к правилам и этикету, касающимся места поклонения.",
-          "tr": "Bu hadis, Ebū ʿAbdillāh Caʿfer ibn Muḥammed el-Ṣādiq علیه السلام'ın, iki secde arasındaki secde yerinde alnını koyduğu çakılları düzelttiğini bildirir. Bu, salatın pratik bir yönünü yansıtır ve secde yerinin hüküm ve adabıyla ilgilidir.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ ابو عبد اللہ جعفر ابن محمد الصادق علیہ السلام سجدے کی جگہ پر جہاں وہ پیشانی رکھتے تھے، وہاں پتھروں کو برابر کرتے تھے۔ یہ نماز کے عملی پہلو کو ظاہر کرتی ہے اور سجدے کی جگہ کے احکام اور آداب سے متعلق ہے۔",
-          "zh": "此圣训报告称阿布阿卜杜拉贾法尔本穆罕默德萨迪克عليهالسلام会整理他在两次叩头之间叩头处放额头的卵石。这反映了礼拜的实际方面，与叩头地点的规定和礼仪相关。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

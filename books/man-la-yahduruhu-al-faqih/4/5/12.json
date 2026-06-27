@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَرَوَى الْعَلَاءُ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَحَدِهِمَا عَلَيْهِمَا السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-আলাআ মুঃহাম্মদ ইবনে মুসলিম থেকে বর্ণনা করেছেন, যিনি দুই ইমামের (তাদের উপর শান্তি বর্ষিত হোক) একজন থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Al-ʿAlāʾ berichtete von Muḥammad ibn Muslim, von einem der beiden Imame عليهما السلام, der sagte:",
-              "en": "Al-ʿAlāʾ narrated from Muḥammad ibn Muslim, from one of the two Imams عليهما السلام, who said:",
-              "es": "Al-ʿAlāʾ narró de Muḥammad ibn Muslim, de uno de los dos Imames عليهما السلام, quien dijo:",
-              "fa": "العلاء از محمد بن مسلم روایت کرده است، از یکی از دو امام علیه‌السلام که فرمود:",
-              "fr": "Al-ʿAlāʾ a rapporté de Muḥammad ibn Muslim, d’un des deux Imams عليهما السلام, qui a dit :",
-              "id": "Al-ʿAlāʾ meriwayat dari Muḥammad ibn Muslim, dari salah satu dari dua Imam عليهما السلام, yang berkata:",
-              "ru": "Аль-ʿАляʾ передал от Мухаммада ибн Муслима, от одного из двух Имамов عليهما السلام, который сказал:",
-              "tr": "El-ʿAlāʾ, Muḥammad ibn Muslim'den, iki İmamdan (aleyhimesselam) birinden rivayet etti, şöyle dedi:",
-              "ur": "العلاء نے محمد بن مسلم سے روایت کی، جو دونوں اماموں علیہما السلام میں سے ایک سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "العلاء从穆罕默德本穆斯林那里传述，来自两位伊玛目之一 عليهما السلام，他说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "إِذَا جَامَعَ الرَّجُلُ وَلِيدَةَ امْرَأَتِهِ فَعَلَيْهِ مَا عَلَى الزَّانِي.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি একজন পুরুষ তার স্ত্রীর দাসী নারীর সঙ্গে যৌন সম্পর্ক স্থাপন করে, তবে তার ওপর জায়েজ অপরাধী (যেনা) এর মতো দায়িত্ব থাকে।",
-              "de": "Wenn ein Mann mit der Sklavin seiner Frau Geschlechtsverkehr hat, so trifft ihn die gleiche Strafe wie den Ehebrecher.",
-              "en": "If a man has intercourse with the slave woman of his wife, then upon him is what is upon the fornicator.",
-              "es": "Si un hombre tiene relaciones con la esclava de su esposa, entonces sobre él recae lo mismo que sobre el adúltero.",
-              "fa": "اگر مردی با کنیز همسرش جماع کند، بر او همان حکم زانی جاری است.",
-              "fr": "Si un homme a des rapports avec l’esclave de sa femme, alors il encourt la même peine que le fornicateur.",
-              "id": "Jika seorang pria berhubungan intim dengan budak wanita istrinya, maka atasnya berlaku hukuman seperti pezina.",
-              "ru": "Если мужчина вступает в половой акт с рабыней своей жены, то на него возлагается то же, что и на прелюбодея.",
-              "tr": "Eğer bir adam, karısının köle kadınıyla cinsel ilişkiye girerse, üzerine zina edenin cezası düşer.",
-              "ur": "اگر کوئی مرد اپنی بیوی کی غلام عورت کے ساتھ جماع کرے تو اس پر زانی کے برابر گناہ ہوگا۔",
-              "zh": "如果男人与妻子的女奴发生性关系，那么他将承担与通奸者相同的责任。"
-            },
             "word_end": 20,
             "word_start": 11
           }
@@ -95,23 +82,11 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الزَّانِي": "fornicator; one guilty of zina",
-            "مَا عَلَى الزَّانِي": "the legal liability or punishment incurred by a fornicator",
-            "وَلِيدَةَ امْرَأَتِهِ": "his wife's slave woman"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "وَلِيدَةَ امْرَأَتِهِ",
+          "الزَّانِي",
+          "مَا عَلَى الزَّانِي"
+        ],
         "related_quran": [
           {
             "ref": "17:32",
@@ -126,32 +101,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি একজন পুরুষ তার স্ত্রীর দাসী নারীর সঙ্গে যৌন সম্পর্ক স্থাপন করে, তাহলে কী বিধান?",
-          "de": "Wie lautet das Urteil, wenn ein Mann mit der Sklavin seiner Frau Geschlechtsverkehr hat?",
-          "en": "What is the ruling if a man has intercourse with his wife's slave woman?",
-          "es": "¿Cuál es el fallo si un hombre tiene relaciones con la esclava de su esposa?",
-          "fa": "حکم شرعی اگر مردی با کنیز همسرش جماع کند چیست؟",
-          "fr": "Quel est le jugement si un homme a des rapports avec l’esclave de sa femme ?",
-          "id": "Apa hukum jika seorang pria berhubungan intim dengan budak wanita istrinya?",
-          "ru": "Каково постановление, если мужчина вступает в половой акт с рабыней своей жены?",
-          "tr": "Bir adam karısının köle kadınıyla cinsel ilişkiye girerse hüküm nedir?",
-          "ur": "اگر کوئی مرد اپنی بیوی کی غلام عورت کے ساتھ جماع کرے تو حکم کیا ہے؟",
-          "zh": "如果男人与妻子的女奴发生性关系，判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি এমন এক আইনি বিধান প্রদান করে যা বলে যে, যদি একজন পুরুষ তার স্ত্রীর দাসী নারীর সঙ্গে যৌন সম্পর্ক স্থাপন করে, তবে তার ওপর যেভাবে যেনার দায়িত্ব থাকে, ঠিক সেভাবেই দায়িত্ব থাকে, যা শিয়া ফিকহে এই কাজের নিষেধাজ্ঞা ও শাস্তি নির্দেশ করে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung für einen Mann, der mit der Sklavin seiner Frau Geschlechtsverkehr hat. Er besagt, dass er die gleiche Verantwortung wie ein Ehebrecher trägt, was das Verbot und die strafrechtlichen Folgen dieser Handlung im schiitischen Fiqh anzeigt.",
-          "en": "This hadith gives a legal ruling concerning a man who has intercourse with his wife's slave woman. It states that he incurs the same liability as a fornicator, indicating the prohibition and penal consequence of the act in Shia fiqh.",
-          "es": "Este hadiz da un fallo legal sobre un hombre que tiene relaciones con la esclava de su esposa. Indica que incurre en la misma responsabilidad que un adúltero, señalando la prohibición y la consecuencia penal del acto en la jurisprudencia chií.",
-          "fa": "این حدیث حکم شرعی درباره مردی که با کنیز همسرش جماع کند را بیان می‌کند و می‌گوید که او همانند زانی مسئول است که نشان‌دهنده حرمت و مجازات این عمل در فقه شیعه است.",
-          "fr": "Ce hadith donne un jugement légal concernant un homme qui a des rapports avec l’esclave de sa femme. Il indique qu’il encourt la même responsabilité que le fornicateur, soulignant l’interdiction et la conséquence pénale de cet acte dans la jurisprudence chiite.",
-          "id": "Hadis ini memberikan hukum terkait seorang pria yang berhubungan dengan budak wanita istrinya, menyatakan bahwa dia menanggung hukuman seperti pezina, menunjukkan larangan dan konsekuensi hukumnya dalam fikih Syiah.",
-          "ru": "Этот хадис содержит юридическое постановление относительно мужчины, который вступает в половой акт с рабыней своей жены. В нем говорится, что он несет такую же ответственность, как прелюбодей, что указывает на запрет и наказание за этот поступок в шиитском фикхе.",
-          "tr": "Bu hadis, bir erkeğin karısının köle kadınıyla cinsel ilişkiye girmesi durumunda aynı zinacı gibi sorumluluk taşıdığını belirten hukuki hükmü verir ve bu fiilin Şii fıkhındaki yasak ve cezasını gösterir.",
-          "ur": "یہ حدیث اس بات کا فقہی حکم بیان کرتی ہے کہ اگر کوئی مرد اپنی بیوی کی غلام عورت کے ساتھ جماع کرے تو اس پر زانی کے برابر گناہ ہوگا، جو اس فعل کی ممانعت اور سزا کو ظاہر کرتی ہے۔",
-          "zh": "这段圣训给出了关于男人与妻子的女奴发生性关系的法律裁决，指出他承担与通奸者相同的责任，表明该行为在什叶派法学中的禁止性及其刑罚后果。"
-        },
         "tags": [
           "jurisprudence",
           "family",

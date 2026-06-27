@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رُوِيَ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং এটি বর্ণিত হয়েছে:",
-              "de": "Und es wurde überliefert:",
-              "en": "And it has been narrated:",
-              "es": "Y se ha narrado:",
-              "fa": "و روایت شده است:",
-              "fr": "Et il a été rapporté :",
-              "id": "Dan telah diriwayatkan:",
-              "ru": "И было передано:",
-              "tr": "Ve rivayet edilmiştir ki:",
-              "ur": "اور یہ روایت کیا گیا ہے:",
-              "zh": "据传："
-            },
             "word_end": 2,
             "word_start": 0
           },
           {
             "arabic_text": "«أَنَّهُ كَانَ بُنْيَانُ إِبْرَاهِيمَ عَلَيْهِ السَّلَامُ الطُّولُ ثَلَاثِينَ ذِرَاعًا وَ الْعَرْضُ اثْنَيْنِ وَ عِشْرِينَ ذِرَاعًا وَ السُّمْكُ تِسْعَةَ أَذْرُعٍ وَ إِنَّ قُرَيْشًا لَمَّا بَنَوْهَا كَسَوْهَا الْأَرْدِيَةَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“ইব্রাহিম عليه السلام এর নির্মাণের দৈর্ঘ্য ত্রিশ হাত, প্রস্থ বাইশ হাত এবং পুরুত্ব নয় হাত ছিল। কুরাইশ যখন এটি নির্মাণ করেছিল, তারা এটিকে চাদর দিয়ে ঢেকে দিয়েছিল।”",
-              "de": "„Die Struktur von Ibrahim, Friede sei mit ihm, hatte eine Länge von dreißig Ellen, eine Breite von zweiundzwanzig Ellen und eine Dicke von neun Ellen. Als die Quraisch sie bauten, kleideten sie sie mit Mänteln.“",
-              "en": "\"The structure of Ibrahim, peace be upon him, had a length of thirty cubits, a width of twenty-two cubits, and a thickness of nine cubits. When Quraysh built it, they clothed it with cloaks.\"",
-              "es": "“La estructura de Ibrahim, la paz sea con él, tenía una longitud de treinta codos, un ancho de veintidós codos y un grosor de nueve codos. Cuando los Quraysh la construyeron, la cubrieron con mantos.”",
-              "fa": "«ساخت ابراهیم، علیه السلام، طولی به اندازه سی ذراع، عرضی به اندازه بیست و دو ذراع و ضخامت نه ذراع داشت. وقتی قریش آن را ساختند، آن را با عبای خود پوشاندند.»",
-              "fr": "«La structure d’Ibrahim, paix sur lui, mesurait trente coudées de long, vingt-deux coudées de large et neuf coudées d’épaisseur. Lorsque les Quraysh l’ont construite, ils l’ont recouverte de manteaux.»",
-              "id": "“Struktur Ibrahim, alaihis salam, memiliki panjang tiga puluh hasta, lebar dua puluh dua hasta, dan ketebalan sembilan hasta. Ketika Quraisy membangunnya, mereka menutupinya dengan jubah.”",
-              "ru": "«Строение Ибрахима, мир ему, имело длину тридцать локтей, ширину двадцать два локтя и толщину девять локтей. Когда Курайш строили его, они покрыли его плащами.»",
-              "tr": "“İbrahim, aleyhisselam’ın yapısının uzunluğu otuz zira, genişliği yirmi iki zira ve kalınlığı dokuz zira idi. Kureyş inşa ettiğinde, onu örtülerle kapladı.”",
-              "ur": "‘‘ابراہیم علیہ السلام کی عمارت کی لمبائی تیس ذراع، چوڑائی بائیس ذراع، اور موٹائی نو ذراع تھی۔ جب قریش نے اسے بنایا تو انہوں نے اسے چادروں سے ڈھانپ دیا۔’’",
-              "zh": "“易卜拉欣 عليه السلام 的结构长三十肘，宽二十二肘，厚九肘。古莱什建造时，用披风覆盖它。”"
-            },
             "word_end": 28,
             "word_start": 2
           }
@@ -70,26 +57,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِبْرَاهِيمَ": "Prophet Ibrahim عليه السلام, to whom the original building is attributed",
-            "السُّمْكُ": "the thickness of the structure",
-            "الْأَرْدِيَةَ": "cloaks or garments used to cover it",
-            "بُنْيَانُ": "the structure or building being described",
-            "ذِرَاعًا": "a cubit, the unit used to measure the building",
-            "قُرَيْشًا": "the Quraysh tribe who later rebuilt it"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "بُنْيَانُ",
+          "إِبْرَاهِيمَ",
+          "ذِرَاعًا",
+          "السُّمْكُ",
+          "قُرَيْشًا",
+          "الْأَرْدِيَةَ"
+        ],
         "related_quran": [
           {
             "ref": "2:127",
@@ -104,32 +79,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হাদিসে ইব্রাহিমের ভবনের মাত্রা এবং কুরাইশের তা ঢেকে দেওয়া সম্পর্কে কী বলা হয়েছে?",
-          "de": "Was sagt der Hadith über die Maße von Ibrahims Gebäude und das Bedecken durch die Quraisch?",
-          "en": "What does the hadith say about the dimensions of Ibrahim's building and the Quraysh covering it?",
-          "es": "¿Qué dice el hadiz sobre las dimensiones del edificio de Ibrahim y la cobertura por parte de los Quraysh?",
-          "fa": "حدیث درباره ابعاد ساختمان ابراهیم و پوشاندن آن توسط قریش چه می‌گوید؟",
-          "fr": "Que dit le hadith sur les dimensions du bâtiment d’Ibrahim et le fait que les Quraysh l’aient couvert ?",
-          "id": "Apa yang dikatakan hadits tentang dimensi bangunan Ibrahim dan penutupan oleh Quraisy?",
-          "ru": "Что говорит хадис о размерах здания Ибрахима и покрытии его Курайшами?",
-          "tr": "Hadis, İbrahim’in yapısının ölçüleri ve Kureyş’in onu örtmesi hakkında ne diyor?",
-          "ur": "حدیث ابراہیم علیہ السلام کی عمارت کے طول و عرض اور قریش کے اسے ڈھانپنے کے بارے میں کیا کہتی ہے؟",
-          "zh": "圣训关于易卜拉欣建筑的尺寸及古莱什覆盖它的说法是什么？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনাটি ইব্রাহিম عليه السلام এর নির্মাণের মাত্রাগুলো বর্ণনা করে এবং উল্লেখ করে যে কুরাইশ যখন এটি পুনর্নির্মাণ করেছিল তখন তারা এটিকে চাদর দিয়ে ঢেকে দিয়েছিল। এই বর্ণনা কাবা এবং তার নির্মাণের সাথে সম্পর্কিত ঐতিহাসিক তথ্য সংরক্ষণ করে।",
-          "de": "Dieser Bericht beschreibt die Maße der von Ibrahim عليه السلام gebauten Struktur und stellt fest, dass die Quraisch sie beim Wiederaufbau mit Mänteln bedeckten. Die Überlieferung bewahrt ein historisches Detail, das mit der Kaaba und ihrem Bau verbunden ist.",
-          "en": "This report describes the dimensions of the structure built by Ibrahim عليه السلام and notes that Quraysh later covered it with cloaks when they rebuilt it. The narration preserves a historical detail connected to the Ka'bah and its construction.",
-          "es": "Este informe describe las dimensiones de la estructura construida por Ibrahim عليه السلام y señala que los Quraysh la cubrieron con mantos cuando la reconstruyeron. La narración conserva un detalle histórico relacionado con la Ka'bah y su construcción.",
-          "fa": "این گزارش ابعاد ساخت ابراهیم علیه السلام را توصیف می‌کند و اشاره می‌کند که قریش هنگام بازسازی آن را با عبای خود پوشاندند. این روایت جزئیات تاریخی مرتبط با کعبه و ساخت آن را حفظ می‌کند.",
-          "fr": "Ce rapport décrit les dimensions de la structure construite par Ibrahim عليه السلام et note que les Quraysh l’ont recouverte de manteaux lorsqu’ils l’ont reconstruite. La narration conserve un détail historique lié à la Ka’bah et à sa construction.",
-          "id": "Laporan ini menjelaskan dimensi struktur yang dibangun oleh Ibrahim عليه السلام dan mencatat bahwa Quraisy menutupinya dengan jubah saat mereka membangunnya kembali. Riwayat ini mempertahankan detail sejarah yang terkait dengan Ka'bah dan pembangunannya.",
-          "ru": "Этот рассказ описывает размеры строения, построенного Ибрахимом عليه السلام, и отмечает, что Курайш покрыли его плащами при повторном строительстве. Передача сохраняет историческую деталь, связанную с Каабой и её строительством.",
-          "tr": "Bu rivayet, İbrahim aleyhisselam’ın yaptığı yapının ölçülerini açıklar ve Kureyş’in onu yeniden inşa ederken örtülerle kapladığını belirtir. Anlatı, Kabe’nin yapımıyla ilgili tarihi bir detayı korur.",
-          "ur": "یہ روایت ابراہیم علیہ السلام کی تعمیر کے طول و عرض کی وضاحت کرتی ہے اور بتاتی ہے کہ قریش نے اسے دوبارہ تعمیر کرتے ہوئے چادروں سے ڈھانپ دیا۔ یہ روایت خانہ کعبہ کی تعمیر سے متعلق تاریخی تفصیل کو محفوظ رکھتی ہے۔",
-          "zh": "该报告描述了易卜拉欣 عليه السلام 建筑的尺寸，并指出古莱什在重建时用披风覆盖它。该叙述保留了与卡巴及其建造相关的历史细节。"
-        },
         "tags": [
           "history",
           "worship",

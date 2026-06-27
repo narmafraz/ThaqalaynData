@@ -17,61 +17,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "٢٢٥٠ - وَالْحَاجُّ عَلَيْهِ نُورُ الْحَجِّ مَا لَمْ يُلِمَّ بِذَنْبٍ.",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "২২৫০ - হাজী পবিত্র হজের আলো বহন করে যতক্ষণ সে পাপ করে না।",
-              "de": "2250 - Der Pilger trägt das Licht des Hadsch, solange er keine Sünde begeht.",
-              "en": "2250 - The pilgrim bears the light of hajj so long as he does not commit a sin.",
-              "es": "2250 - El peregrino lleva la luz del hajj mientras no cometa pecado.",
-              "fa": "۲۲۵۰ - حاجی تا زمانی که گناه نکند، نور حج را دارد.",
-              "fr": "2250 - Le pèlerin porte la lumière du hajj tant qu'il ne commet pas de péché.",
-              "id": "2250 - Jamaah haji membawa cahaya haji selama dia tidak berbuat dosa.",
-              "ru": "2250 - Паломник несет свет хаджа, пока не совершит грех.",
-              "tr": "2250 - Hacı, günah işlemediği sürece haccın nurunu taşır.",
-              "ur": "2250 - حاجی پر حج کا نور ہوتا ہے جب تک کہ وہ گناہ نہ کرے۔",
-              "zh": "2250-朝圣者只要不犯罪就承载着朝觐之光。"
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "وَهَدِيَّةُ الْحَاجِّ مِنْ نَفَقَةِ الْحَجِّ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এবং হাজীর উপহার হজের খরচ থেকে হয়।",
-              "de": "Und das Geschenk des Pilgers stammt aus den Ausgaben des Hadsch.",
-              "en": "And the pilgrim’s gift is from the expenditure of hajj.",
-              "es": "Y el regalo del peregrino es del gasto del hajj.",
-              "fa": "و هدیه حاجی از مخارج حج است.",
-              "fr": "Et le cadeau du pèlerin provient des dépenses du hajj.",
-              "id": "Dan hadiah jamaah haji berasal dari pengeluaran haji.",
-              "ru": "И подарок паломника исходит из расходов на хадж.",
-              "tr": "Ve hacının hediyesi, haccın masraflarından olur.",
-              "ur": "اور حاجی کی تحفہ حج کے خرچ سے ہے۔",
-              "zh": "朝圣者的礼物来自朝觐的开销。"
-            },
             "word_end": 15,
             "word_start": 10
           },
           {
             "arabic_text": "وَلَا تُمَاكِسْ فِي أَرْبَعَةِ أَشْيَاءَ فِي ثَمَنِ الْكَفَنِ وَفِي ثَمَنِ النَّسَمَةِ وَفِي شِرَاءِ الْأُضْحِيَّةِ وَفِي الْكِرَاءِ إِلَى مَكَّةَ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এবং চার জিনিসে দরকষাকষি করো না: কাফনের দাম, দাসের দাম, কোরবানি পশুর ক্রয় এবং মক্কায় যাওয়ার ভাড়া।",
-              "de": "Und feilsche nicht bei vier Dingen: beim Preis des Leichentuchs, beim Preis des Sklaven, beim Kauf des Opfertieres und bei der Fahrkarte nach Mekka.",
-              "en": "And do not bargain in four things: in the price of the shroud, in the price of the slave, in the purchase of the sacrificial animal, and in the fare to Makkah.",
-              "es": "Y no regatees en cuatro cosas: en el precio del sudario, en el precio del esclavo, en la compra del animal sacrificial y en la tarifa para La Meca.",
-              "fa": "و در چهار چیز چانه نزنید: در قیمت کفن، در قیمت بنده، در خرید قربانی و در کرایه به مکه.",
-              "fr": "Et ne marchandez pas sur quatre choses : le prix du linceul, le prix de l’esclave, l’achat de l’animal sacrificiel et le tarif pour La Mecque.",
-              "id": "Dan jangan menawar dalam empat hal: harga kafan, harga budak, pembelian hewan kurban, dan ongkos ke Makkah.",
-              "ru": "И не торгуйтесь по четырём вещам: цене савана, цене раба, покупке жертвенного животного и проезду в Мекку.",
-              "tr": "Ve dört şeyde pazarlık yapmayın: kefenin fiyatında, kölenin fiyatında, kurbanlık hayvanın alımında ve Mekke'ye gidiş ücretinde.",
-              "ur": "اور چار چیزوں میں سودے بازی نہ کرو: کفن کی قیمت میں، غلام کی قیمت میں، قربانی کے جانور کی خرید میں، اور مکہ کے کرایہ میں۔",
-              "zh": "不要在四件事上讨价还价：裹尸布的价格、奴隶的价格、牺牲牲畜的购买和去麦加的车费。"
-            },
             "word_end": 33,
             "word_start": 15
           }
@@ -83,28 +57,16 @@
           "narrators": []
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْأُضْحِيَّةِ": "the sacrificial animal",
-            "الْحَاجُّ": "the pilgrim, the one performing hajj",
-            "الْكَفَنِ": "the burial shroud",
-            "الْكِرَاءِ": "the fare or hire for travel",
-            "بِذَنْبٍ": "by a sin, meaning a sinful act that affects one’s spiritual state",
-            "نَفَقَةِ الْحَجِّ": "the expenditure or spending associated with hajj",
-            "نُورُ الْحَجِّ": "the spiritual light and effect of hajj",
-            "هَدِيَّةُ": "a gift given by the pilgrim"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْحَاجُّ",
+          "نُورُ الْحَجِّ",
+          "بِذَنْبٍ",
+          "هَدِيَّةُ",
+          "نَفَقَةِ الْحَجِّ",
+          "الْكَفَنِ",
+          "الْأُضْحِيَّةِ",
+          "الْكِرَاءِ"
+        ],
         "related_quran": [
           {
             "ref": "2:197",
@@ -119,32 +81,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস হজের আলো এবং হজ সম্পর্কিত খরচে দরকষাকষি সম্পর্কে কী বলে?",
-          "de": "Was sagt dieser Hadith über das Licht des Hadsch und das Feilschen bei hadschbezogenen Ausgaben?",
-          "en": "What does this hadith say about the light of hajj and bargaining over hajj-related expenses?",
-          "es": "¿Qué dice este hadiz sobre la luz del hajj y el regateo en los gastos relacionados con el hajj?",
-          "fa": "این حدیث درباره نور حج و چانه زدن بر سر هزینه‌های مرتبط با حج چه می‌گوید؟",
-          "fr": "Que dit ce hadith à propos de la lumière du hajj et du marchandage sur les dépenses liées au hajj ?",
-          "id": "Apa yang dikatakan hadis ini tentang cahaya haji dan tawar-menawar atas pengeluaran terkait haji?",
-          "ru": "Что говорит этот хадис о свете хаджа и торге по расходам, связанным с хаджем?",
-          "tr": "Bu hadis, haccın nuru ve hacc ile ilgili masraflarda pazarlık hakkında ne diyor?",
-          "ur": "یہ حدیث حج کے نور اور حج سے متعلق اخراجات پر سودے بازی کے بارے میں کیا کہتی ہے؟",
-          "zh": "这段圣训关于朝觐之光及朝觐相关开销的讨价还价说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে হাজী যতক্ষণ পাপ করে না, হজের আলো দ্বারা চিহ্নিত থাকে। এটি হাজীর উপহারকে হজের খরচের অংশ হিসেবে গণ্য করে এবং মৃত্যু, কোরবানি ও মক্কা যাত্রার সাথে সম্পর্কিত গুরুতর বা ইবাদত সংক্রান্ত বিষয়গুলোতে দরকষাকষি এড়াতে শেখায়।",
-          "de": "Dieser Hadith besagt, dass der Pilger so lange vom Licht des Hadsch geprägt bleibt, wie keine Sünde diesen Zustand verdirbt. Er zählt das Geschenk des Pilgers zu den Hadsch-Ausgaben und lehrt, dass Feilschen in bestimmten ernsten oder religiösen Angelegenheiten im Zusammenhang mit Tod, Opfer und der Reise nach Mekka vermieden werden soll.",
-          "en": "This hadith states that the pilgrim remains marked by the light of hajj so long as sin does not spoil that state. It also counts the pilgrim’s gifting as part of hajj expenditure and teaches that bargaining is to be avoided in certain serious or devotional matters connected to death, sacrifice, and the journey to Makkah.",
-          "es": "Este hadiz afirma que el peregrino permanece marcado por la luz del hajj mientras el pecado no arruine ese estado. También considera el regalo del peregrino como parte del gasto del hajj y enseña que se debe evitar regatear en asuntos serios o devocionales relacionados con la muerte, el sacrificio y el viaje a La Meca.",
-          "fa": "این حدیث بیان می‌کند که حاجی تا زمانی که گناه نکند، با نور حج مشخص می‌ماند. همچنین هدیه حاجی را بخشی از مخارج حج می‌داند و آموزش می‌دهد که در امور جدی یا عبادی مرتبط با مرگ، قربانی و سفر به مکه نباید چانه زد.",
-          "fr": "Ce hadith indique que le pèlerin reste marqué par la lumière du hajj tant que le péché ne corrompt pas cet état. Il considère également le cadeau du pèlerin comme faisant partie des dépenses du hajj et enseigne qu'il faut éviter de marchander dans certaines affaires sérieuses ou dévotionnelles liées à la mort, au sacrifice et au voyage à La Mecque.",
-          "id": "Hadis ini menyatakan bahwa jamaah haji tetap bercahaya dengan cahaya haji selama tidak melakukan dosa. Hadis ini juga menghitung hadiah jamaah sebagai bagian dari pengeluaran haji dan mengajarkan agar tidak menawar dalam hal-hal serius atau ibadah yang berkaitan dengan kematian, kurban, dan perjalanan ke Makkah.",
-          "ru": "Этот хадис говорит, что паломник остается отмеченным светом хаджа, пока грех не портит это состояние. Также он считает подарок паломника частью расходов на хадж и учит избегать торга в серьезных или религиозных вопросах, связанных со смертью, жертвой и путешествием в Мекку.",
-          "tr": "Bu hadis, hacının günah işlemediği sürece haccın nuruyla işaretli kaldığını belirtir. Ayrıca hacının hediyesini haccın masraflarından sayar ve ölüm, kurban ve Mekke yolculuğuyla ilgili ciddi veya ibadetle bağlantılı konularda pazarlıktan kaçınılması gerektiğini öğretir.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ حاجی اس وقت تک حج کے نور سے منور رہتا ہے جب تک کوئی گناہ اس حالت کو خراب نہ کرے۔ یہ حاجی کے تحفے کو حج کے خرچ میں شمار کرتی ہے اور سکھاتی ہے کہ موت، قربانی اور مکہ کے سفر سے متعلق اہم معاملات میں سودے بازی سے بچنا چاہیے۔",
-          "zh": "这段圣训说明，朝圣者只要不犯罪，就保持着朝觐之光。它还将朝圣者的礼物计入朝觐开销，并教导在与死亡、牺牲及前往麦加的旅程相关的重要或虔诚事项中应避免讨价还价。"
-        },
         "tags": [
           "worship",
           "ethics",

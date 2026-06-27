@@ -14,6 +14,136 @@
       "up": "/books/al-kafi:2:1:86"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ أَبِي مُحَمَّدٍ الْوَابِشِيِّ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 14,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "ذُكِرَ أَصْحَابُنَا عِنْدَ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) فَقُلْتُ مَا أَتَغَدَّى وَ لَا أَتَعَشَّى إِلَّا وَ مَعِيَ مِنْهُمُ الِاثْنَانِ وَ الثَّلَاثَةُ وَ أَقَلُّ وَ أَكْثَرُ فَقَالَ أَبُو عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) فَضْلُهُمْ عَلَيْكَ أَعْظَمُ مِنْ فَضْلِكَ عَلَيْهِمْ",
+            "chunk_type": "body",
+            "word_end": 55,
+            "word_start": 14
+          },
+          {
+            "arabic_text": "فَقُلْتُ جُعِلْتُ فِدَاكَ كَيْفَ وَ أَنَا أُطْعِمُهُمْ طَعَامِي وَ أُنْفِقُ عَلَيْهِمْ مِنْ مَالِي وَ أُخْدِمُهُمْ عِيَالِي فَقَالَ إِنَّهُمْ إِذَا دَخَلُوا عَلَيْكَ دَخَلُوا بِرِزْقٍ مِنَ اللَّهِ عَزَّ وَ جَلَّ كَثِيرٍ وَ إِذَا خَرَجُوا خَرَجُوا بِالْمَغْفِرَةِ لَكَ",
+            "chunk_type": "body",
+            "word_end": 90,
+            "word_start": 55
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 7,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ أَبِي عُمَيْرٍ",
+              "name_en": "Ibn Abi Umayr",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 752,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي مُحَمَّدٍ الْوَابِشِيِّ",
+              "name_en": "Abu Muhammad al-Wabishi",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "أَصْحَابُنَا",
+          "فَضْلُهُمْ عَلَيْكَ",
+          "رِزْقٍ",
+          "الْمَغْفِرَةِ",
+          "عِيَالِي"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:275",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "64:15",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "9:100",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "76:8",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "social_relations",
+          "ethics",
+          "economy"
+        ],
+        "topics": [
+          "charity",
+          "companions",
+          "poverty_wealth",
+          "rights_of_others"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (9/128)"
       ],
@@ -78,7 +208,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:1:86:9",

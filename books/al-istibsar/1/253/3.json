@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ صَفْوَانَ عَنِ الْعَلَاءِ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَحَدِهِمَا عَلَيْهِمَا السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, সাফওয়ান থেকে, আল-আলা’ থেকে, মুহাম্মদ ইবন মুসলিম থেকে, দুই ইমামের একজন থেকে, عليهما السلام, তিনি বলেছেন:",
-              "de": "Von ihm, von Safwan, von al-'Ala', von Muhammad ibn Muslim, von einem der beiden Imame, عليهما السلام, der sagte:",
-              "en": "From him, from Safwan, from al-'Ala', from Muhammad ibn Muslim, from one of the two (Imams) عليهما السلام, who said:",
-              "es": "De él, de Safwan, de al-'Ala', de Muhammad ibn Muslim, de uno de los dos Imames, عليهما السلام, que dijo:",
-              "fa": "از او، از صفوان، از علاء، از محمد بن مسلم، از یکی از دو امام، علیهما السلام، که فرمود:",
-              "fr": "De lui, de Safwan, de al-'Ala', de Muhammad ibn Muslim, de l’un des deux Imams, عليهما السلام, qui a dit :",
-              "id": "Darinya, dari Safwan, dari al-'Ala', dari Muhammad ibn Muslim, dari salah satu dari dua Imam عليهما السلام, yang berkata:",
-              "ru": "От него, от Сафвана, от аль-Аля, от Мухаммада ибн Муслима, от одного из двух Имамов, عليهما السلام, который сказал:",
-              "tr": "Ondan, Safvan’dan, el-Ala’dan, Muhammed ibn Müslim’den, iki İmamdan birinden, عليهما السلام, şöyle dedi:",
-              "ur": "ان سے، صفوان سے، العلاء سے، محمد بن مسلم سے، دونوں اماموں میں سے ایک سے، علیہما السلام، انہوں نے فرمایا:",
-              "zh": "由他传自萨夫万，传自阿勒-阿拉’，传自穆罕默德·伊本·穆斯林，传自两位伊玛目之一， عليهما السلام，他说："
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنِ الصَّلَاةِ يَوْمَ الْفِطْرِ وَالْأَضْحَى فَقَالَ لَيْسَ صَلَاةٌ إِلَّا مَعَ إِمَامٍ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁকে ঈদুল ফিতর ও ঈদুল আযহার দিনের সালাত সম্পর্কে জিজ্ঞেস করলাম, তখন তিনি বললেন: ইমামের সঙ্গে ছাড়া কোনো সালাত নেই।",
-              "de": "Ich fragte ihn nach der salat (dem Gebet) am Tag von al-Fitr und al-Adha, und er sagte: Es gibt kein salat (Gebet) außer mit einem Imam.",
-              "en": "I asked him about the salat (prayer) on the day of al-Fitr and al-Adha, so he said: There is no salat (prayer) except with an Imam.",
-              "es": "Le pregunté acerca de la salat (oración) del día de al-Fitr y de al-Adha, y dijo: No hay salat (oración) sino con un Imam.",
-              "fa": "از او دربارهٔ نماز روز فطر و قربان پرسیدم، پس فرمود: نمازی نیست مگر با امام.",
-              "fr": "Je l’ai interrogé au sujet de la salat (prière) du jour de al-Fitr et d’al-Adha, et il a dit : Il n’y a pas de salat (prière) si ce n’est avec un Imam.",
-              "id": "Aku bertanya kepadanya tentang salat pada hari al-Fitr dan al-Adha, lalu ia berkata: Tidak ada salat kecuali bersama seorang Imam.",
-              "ru": "Я спросил его о саляте (молитве) в день аль-Фитр и аль-Адха, и он сказал: Нет салята (молитвы), кроме как с Имамом.",
-              "tr": "Ona, Fıtır ve Kurban bayramı günündeki salat (namaz) hakkında sordum; فقال: Bir imamla birlikte olmadıkça salat (namaz) yoktur.",
-              "ur": "میں نے ان سے عید الفطر اور عید الاضحیٰ کے دن کی نماز کے بارے میں پوچھا، تو انہوں نے فرمایا: امام کے ساتھ کے سوا کوئی نماز نہیں۔",
-              "zh": "我问他关于开斋节和宰牲节那天的礼拜，他说：除了与伊玛目一起之外，没有礼拜。"
-            },
             "word_end": 26,
             "word_start": 14
           }
@@ -84,25 +71,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِلَّا": "except; indicating restriction and exclusivity",
-            "إِمَامٍ": "an Imam, whose presence is stated here as a condition for this prayer",
-            "الصَّلَاةِ": "the ritual salat (prayer) being discussed here, specifically the Eid prayer",
-            "الْأَضْحَى": "Eid al-Adha, the festival of sacrifice",
-            "يَوْمَ الْفِطْرِ": "the day of Eid al-Fitr"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الصَّلَاةِ",
+          "يَوْمَ الْفِطْرِ",
+          "الْأَضْحَى",
+          "إِلَّا",
+          "إِمَامٍ"
+        ],
         "related_quran": [
           {
             "ref": "108:2",
@@ -113,32 +88,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী ইমাম ছাড়া ঈদের সালাত কি সহিহ বা ওয়াজিব?",
-          "de": "Ist das Festgebet ohne Imam gemäß diesem Hadith gültig oder verpflichtend?",
-          "en": "Is the Eid prayer valid or obligatory without an Imam according to this hadith?",
-          "es": "¿Es válida u obligatoria la salat del Eid sin un Imam según este hadiz?",
-          "fa": "آیا بر اساس این حدیث، نماز عید بدون امام صحیح یا واجب است؟",
-          "fr": "La salat de l’Aïd est-elle valide ou obligatoire sans Imam selon ce hadith ?",
-          "id": "Apakah salat Id sah atau wajib tanpa Imam menurut hadis ini?",
-          "ru": "Является ли праздничный салят действительным или обязательным без Имама согласно этому хадису?",
-          "tr": "Bu hadise göre imam olmadan bayram namazı sahih veya vacip midir?",
-          "ur": "کیا اس حدیث کے مطابق امام کے بغیر عید کی نماز صحیح یا واجب ہے؟",
-          "zh": "根据这段圣训，没有伊玛目带领的节日礼拜有效或必须吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে বলা হয়েছে যে ঈদুল ফিতর ও ঈদুল আযহার সালাত ইমাম ছাড়া প্রতিষ্ঠিত হয় না। শিয়া ফিকহি কাঠামোর মধ্যে ঈদের সালাতের সহিহ হওয়া বা ওয়াজিব হওয়ার শর্ত সম্পর্কিত একটি বিধান হিসেবে এটি উপস্থাপিত হয়েছে।",
-          "de": "Dieser Hadith besagt, dass das salat des Festes von al-Fitr und al-Adha nur mit einem Imam etabliert ist. Er wird als rechtliche Bestimmung hinsichtlich der Bedingung für die Gültigkeit oder Verpflichtung des Festgebets im schiitischen Rechtsrahmen dargestellt.",
-          "en": "This hadith states that the Eid prayer of al-Fitr and al-Adha is not established except with an Imam. It is presented as a legal ruling concerning the condition for the validity or obligation of the Eid prayer within the Shia juridical framework.",
-          "es": "Este hadiz afirma que la salat del Eid de al-Fitr y de al-Adha no se establece sino con un Imam. Se presenta como una norma jurídica relativa a la condición de validez u obligatoriedad de la salat del Eid dentro del marco jurídico chií.",
-          "fa": "این حدیث بیان می‌کند که نماز عید فطر و عید قربان جز با امام برپا نمی‌شود. این روایت به‌عنوان حکمی فقهی دربارهٔ شرط صحت یا وجوب نماز عید در چارچوب فقه شیعه ارائه شده است.",
-          "fr": "Ce hadith affirme que la salat de l’Aïd al-Fitr et de l’Aïd al-Adha ne s’établit qu’avec un Imam. Il est présenté comme une règle juridique concernant la condition de validité ou d’obligation de la salat de l’Aïd dans le cadre juridique chiite.",
-          "id": "Hadis ini menyatakan bahwa salat Idul Fitri dan Idul Adha tidak ditegakkan kecuali bersama seorang Imam. Ini disajikan sebagai حكم hukum mengenai syarat sah atau wajibnya salat Id dalam kerangka fikih Syiah.",
-          "ru": "Этот хадис утверждает, что салят праздника аль-Фитр и аль-Адха не устанавливается иначе как с Имамом. Он представлен как правовое постановление, касающееся условия действительности или обязательности праздничной молитвы в шиитской правовой системе.",
-          "tr": "Bu hadis, Fıtır ve Kurban bayramı namazının bir imam olmaksızın sabit olmadığını belirtir. Şii fıkhî çerçevede bayram namazının sıhhat veya vücûb şartına dair bir hüküm olarak sunulmaktadır.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ عید الفطر اور عید الاضحیٰ کی نماز امام کے بغیر قائم نہیں ہوتی۔ اسے شیعہ فقہی دائرے میں عید کی نماز کی صحت یا وجوب کی شرط سے متعلق ایک شرعی حکم کے طور پر پیش کیا گیا ہے۔",
-          "zh": "这段圣训说明，开斋节和宰牲节的礼拜只有在伊玛目带领下才成立。它被作为什叶派教法框架中关于节日礼拜有效性或义务条件的法律裁定来呈现。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

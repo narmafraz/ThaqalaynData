@@ -16,80 +16,41 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "صَفْوَانُ عَنِ ابْنِ مُسْكَانَ عَنْ أَبِي بَصِيرٍ عَنْ أَحَدِهِمَا عَلَيْهِمَا السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "সাফওয়ান, ইবন মুসকান থেকে, আবু বাসির থেকে, দুই (ইমাম)-এর একজন থেকে, عليهما السلام, তিনি বলেছেন:",
-              "de": "Safwan, von Ibn Muskan, von Abi Basir, von einem der beiden (Imame), عليهما السلام, der sagte:",
-              "en": "Safwan, from Ibn Muskan, from Abi Basir, from one of the two (Imams) عليهما السلام, who said:",
-              "es": "Safwan, de Ibn Muskan, de Abi Basir, de uno de los dos (Imames), عليهما السلام, que dijo:",
-              "fa": "صفوان، از ابن مسکان، از ابوبصیر، از یکی از آن دو (امام) علیهماالسلام، که فرمود:",
-              "fr": "Safwan, d’Ibn Muskan, d’Abi Basir, de l’un des deux (Imams), عليهما السلام, qui a dit :",
-              "id": "Safwan, dari Ibn Muskan, dari Abi Basir, dari salah satu dari dua (Imam) عليهما السلام, yang berkata:",
-              "ru": "Сафван, от Ибн Мускана, от Аби Басира, от одного из двух (Имамов), عليهما السلام, который сказал:",
-              "tr": "Safvan, İbn Muskan'dan, Ebu Basir'den, iki (İmam)dan birinden, عليهما السلام, şöyle dedi:",
-              "ur": "صفوان، ابن مسکان سے، ابو بصیر سے، دو (اماموں) میں سے ایک سے، علیہما السلام، انہوں نے فرمایا:",
-              "zh": "萨夫万传自伊本穆斯坎，传自阿比巴西尔，传自两位（伊玛目）之一，愿主赐他俩平安，他说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "قُلْتُ قَوْلُ اللَّهِ تَعَالَى",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আমি বললাম: মহান আল্লাহর এই বাণী সম্পর্কে",
-              "de": "Ich sagte: bezüglich des Wortes Allahs, des Erhabenen,",
-              "en": "I said: regarding the saying of Allah, the Exalted,",
-              "es": "Dije: acerca de la palabra de Allah, el Exaltado,",
-              "fa": "گفتم: دربارهٔ سخن خدای متعال",
-              "fr": "J’ai dit : au sujet de la parole d’Allah, le Très-Haut,",
-              "id": "Aku berkata: mengenai firman Allah, Yang Mahatinggi,",
-              "ru": "Я сказал: относительно слов Аллаха, Всевышнего,",
-              "tr": "Ben dedim ki: Yüce Allah'ın şu sözü hakkında",
-              "ur": "میں نے کہا: اللہ تعالیٰ کے اس قول کے بارے میں",
-              "zh": "我说：关于真主至高者的这句话"
-            },
             "word_end": 16,
             "word_start": 12
           },
           {
             "arabic_text": "«كُتِبَ عَلَيْكُمُ الْقِصَاصُ فِي الْقَتْلَى الْحُرُّ بِالْحُرِّ وَالْعَبْدُ بِالْعَبْدِ وَالْأُنْثَى بِالْأُنْثَى»",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "“নিহতদের ব্যাপারে তোমাদের উপর কিসাস বিধিবদ্ধ করা হয়েছে: স্বাধীনের বদলে স্বাধীন, দাসের বদলে দাস, এবং নারীর বদলে নারী।”",
-              "de": "„Für die Getöteten ist euch die Vergeltung vorgeschrieben: der Freie für den Freien, der Sklave für den Sklaven und die Frau für die Frau.“",
-              "en": "\"Retaliation is prescribed for you in cases of the slain: the free for the free, the slave for the slave, and the female for the female.\"",
-              "es": "“Se os ha prescrito la represalia en los casos de los muertos: libre por libre, esclavo por esclavo y mujer por mujer.”",
-              "fa": "«در مورد کشتگان، قصاص بر شما مقرر شده است: آزاد در برابر آزاد، برده در برابر برده، و زن در برابر زن.»",
-              "fr": "« Le talion vous est prescrit au sujet des tués : le libre pour le libre, l’esclave pour l’esclave, et la femme pour la femme. »",
-              "id": "“Qisas diwajibkan atas kalian dalam kasus orang-orang yang dibunuh: orang merdeka untuk orang merdeka, budak untuk budak, dan perempuan untuk perempuan.”",
-              "ru": "«Вам предписано возмездие за убитых: свободный за свободного, раб за раба и женщина за женщину».",
-              "tr": "“Öldürülenler hakkında size kısas farz kılındı: hür için hür, köle için köle ve kadın için kadın.”",
-              "ur": "«قتل کیے گئے لوگوں میں تم پر قصاص فرض کیا گیا ہے: آزاد کے بدلے آزاد، غلام کے بدلے غلام، اور عورت کے بدلے عورت۔»",
-              "zh": "“对于被杀者，已为你们规定报复：自由人抵自由人，奴隶抵奴隶，女人抵女人。”"
-            },
             "word_end": 27,
             "word_start": 16
           },
           {
             "arabic_text": "قَالَ قَالَ «لَا يُقْتَلُ حُرٌّ بِعَبْدٍ وَلَكِنْ يُضْرَبُ ضَرْبًا شَدِيدًا وَيُغَرَّمُ ثَمَنَ الْعَبْدِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: “একজন স্বাধীন ব্যক্তিকে একজন দাসের বদলে হত্যা করা হবে না; বরং তাকে কঠোরভাবে প্রহার করা হবে এবং দাসের মূল্য পরিশোধ করানো হবে।”",
-              "de": "Er sagte: „Ein Freier wird nicht für einen Sklaven getötet; vielmehr wird er schwer geschlagen und muss den Preis des Sklaven zahlen.“",
-              "en": "He said: He said, \"A free person is not killed for a slave; rather, he is beaten severely and made to pay the price of the slave.\"",
-              "es": "Dijo: “A un hombre libre no se le mata por un esclavo; más bien, se le golpea severamente y se le hace pagar el precio del esclavo.”",
-              "fa": "فرمود: «آزاد در برابر برده کشته نمی‌شود؛ بلکه به شدت زده می‌شود و بهای برده از او گرفته می‌شود.»",
-              "fr": "Il a dit : « Un homme libre n’est pas tué pour un esclave ; au contraire, il est frappé sévèrement et on lui fait payer le prix de l’esclave. »",
-              "id": "Beliau bersabda: “Orang merdeka tidak dibunuh karena seorang budak; tetapi ia dipukul dengan keras dan diwajibkan membayar harga budak itu.”",
-              "ru": "Он сказал: «Свободного человека не убивают за раба; напротив, его сильно бьют и заставляют выплатить цену раба».",
-              "tr": "Şöyle dedi: “Hür bir kişi, bir köle karşılığında öldürülmez; aksine ona şiddetli bir şekilde vurulur ve kölenin bedeli ödetilir.”",
-              "ur": "انہوں نے فرمایا: “آزاد شخص کو غلام کے بدلے قتل نہیں کیا جائے گا؛ بلکہ اسے سخت مارا جائے گا اور غلام کی قیمت ادا کرائی جائے گی۔”",
-              "zh": "他说：“自由人不会因奴隶而被处死；而是要受到严厉殴打，并赔偿奴隶的价钱。”"
-            },
             "word_end": 40,
             "word_start": 27
           }
@@ -142,60 +103,22 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْأُنْثَى": "a female",
-            "الْحُرُّ": "a free person",
-            "الْعَبْدُ": "a slave",
-            "الْقَتْلَى": "those who have been killed",
-            "الْقِصَاصُ": "legal retaliation in cases of unlawful killing",
-            "ثَمَنَ الْعَبْدِ": "the monetary value of the slave",
-            "يُغَرَّمُ": "is made financially liable",
-            "يُقْتَلُ": "is killed in retaliation"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْقِصَاصُ",
+          "الْقَتْلَى",
+          "الْحُرُّ",
+          "الْعَبْدُ",
+          "الْأُنْثَى",
+          "يُقْتَلُ",
+          "يُغَرَّمُ",
+          "ثَمَنَ الْعَبْدِ"
+        ],
         "related_quran": [
           {
             "ref": "2:178",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস ও কিসাসের আয়াত অনুযায়ী কোনো স্বাধীন ব্যক্তি যদি কোনো দাসকে হত্যা করে, তবে তার বিধান কী?",
-          "de": "Was ist das Urteil, wenn ein Freier einen Sklaven tötet, gemäß diesem Hadith und dem Vers der Vergeltung?",
-          "en": "What is the ruling if a free person kills a slave according to this hadith and the verse on qisas?",
-          "es": "¿Cuál es la norma si una persona libre mata a un esclavo según este hadiz y el versículo del qisas?",
-          "fa": "اگر یک فرد آزاد برده‌ای را بکشد، بر اساس این حدیث و آیهٔ قصاص حکم چیست؟",
-          "fr": "Quel est le jugement si une personne libre tue un esclave selon ce hadith et le verset du qisas ?",
-          "id": "Apa hukumnya jika seorang yang merdeka membunuh seorang budak menurut hadis ini dan ayat qisas?",
-          "ru": "Каково постановление, если свободный человек убивает раба, согласно этому хадису и аяту о кисасе?",
-          "tr": "Bir hür kişi bir köleyi öldürürse, bu hadis ve kısas ayetine göre hüküm nedir?",
-          "ur": "اگر کوئی آزاد شخص غلام کو قتل کرے تو اس حدیث اور آیتِ قصاص کے مطابق کیا حکم ہے؟",
-          "zh": "根据这段圣训和报复法则的经文，如果自由人杀死奴隶，判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি হত্যার ক্ষেত্রে কিসাসের আয়াতের বিধান ব্যাখ্যা করে। এতে বলা হয়েছে, কোনো স্বাধীন ব্যক্তি যদি কোনো দাসকে হত্যা করে, তবে তাকে কিসাস হিসেবে হত্যা করা হবে না; বরং তাকে কঠোর শাস্তি দেওয়া হবে এবং দাসের মূল্য আর্থিকভাবে পরিশোধ করতে বাধ্য করা হবে।",
-          "de": "Dieser Hadith erläutert das Urteil zum Vers der Vergeltung bei Tötungsdelikten. Er besagt, dass ein Freier, wenn er einen Sklaven tötet, nicht als Vergeltung hingerichtet wird, sondern schwer bestraft und finanziell für den Wert des Sklaven haftbar gemacht wird.",
-          "en": "This hadith explains the ruling related to the Qur'anic verse on qisas in cases of killing. It states that a free person is not subject to execution for killing a slave, but is instead severely punished and held financially liable for the slave's value.",
-          "es": "Este hadiz explica la norma relacionada con el versículo del qisas en los casos de homicidio. Indica que si una persona libre mata a un esclavo, no será ejecutada en represalia, sino que será castigada severamente y obligada a pagar el valor del esclavo.",
-          "fa": "این حدیث حکم مربوط به آیهٔ قصاص در مورد قتل را توضیح می‌دهد. در آن آمده است که اگر یک فرد آزاد برده‌ای را بکشد، به قصاص کشته نمی‌شود؛ بلکه به شدت مجازات می‌شود و از نظر مالی مسئول بهای برده خواهد بود.",
-          "fr": "Ce hadith explique le jugement lié au verset du qisas dans les cas de meurtre. Il indique que si une personne libre tue un esclave, elle n’est pas exécutée en représailles, mais sévèrement punie et tenue de payer financièrement la valeur de l’esclave.",
-          "id": "Hadis ini menjelaskan hukum terkait ayat qisas dalam kasus pembunuhan. Disebutkan bahwa jika seorang yang merdeka membunuh seorang budak, ia tidak dihukum mati sebagai qisas, tetapi dihukum berat dan dibebani tanggung jawab مالی atas nilai budak itu.",
-          "ru": "Этот хадис разъясняет постановление, связанное с аятом о кисасе в случаях убийства. В нем говорится, что если свободный человек убивает раба, его не казнят в возмездие, а подвергают суровому наказанию и обязывают выплатить стоимость раба.",
-          "tr": "Bu hadis, öldürme durumlarında kısas ayetindeki hükmü açıklar. Buna göre bir hür kişi bir köleyi öldürürse kısas olarak idam edilmez; bunun yerine ağır şekilde cezalandırılır ve kölenin bedelinden mali olarak sorumlu tutulur.",
-          "ur": "یہ حدیث قتل کے معاملے میں آیتِ قصاص کے حکم کی وضاحت کرتی ہے۔ اس میں بتایا گیا ہے کہ اگر کوئی آزاد شخص غلام کو قتل کرے تو اس کے بدلے اسے قتل نہیں کیا جائے گا، بلکہ اسے سخت سزا دی جائے گی اور غلام کی قیمت مالی طور پر ادا کرائی جائے گی۔",
-          "zh": "这段圣训解释了关于杀人案件中报复法则经文的判定。它说明，如果一个自由人杀死了一个奴隶，他不会因此被处死作为报复，而是会受到严厉惩罚，并在财务上赔偿奴隶的价值。"
-        },
         "tags": [
           "jurisprudence",
           "quran_commentary",

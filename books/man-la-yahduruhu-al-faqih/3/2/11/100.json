@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَفِي خَبَرٍ آخَرَ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আরেকটি বর্ণনায়:",
-              "de": "Und in einer anderen Überlieferung:",
-              "en": "And in another narration:",
-              "es": "Y en otra narración:",
-              "fa": "و در روایت دیگری:",
-              "fr": "Et dans une autre narration :",
-              "id": "Dan dalam sebuah riwayat lain:",
-              "ru": "А в другой передаче:",
-              "tr": "Ve başka bir rivayette:",
-              "ur": "اور ایک اور روایت میں:",
-              "zh": "在另一个传述中："
-            },
             "word_end": 3,
             "word_start": 0
           },
           {
             "arabic_text": "«أُولَئِكَ عُتَقَاءُ اللَّهِ مِنَ النَّارِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এরা আল্লাহর পক্ষ থেকে আগুন থেকে মুক্তিপ্রাপ্ত ব্যক্তিরা।",
-              "de": "Das sind die von Allah aus dem Feuer Befreiten.",
-              "en": "Those are the freed ones of Allah from the Fire.",
-              "es": "Esos son los liberados por Allah del Fuego.",
-              "fa": "آنها آزادشدگان خداوند از آتش هستند.",
-              "fr": "Ce sont les affranchis d’Allah du Feu.",
-              "id": "Mereka adalah orang-orang yang dibebaskan Allah dari Neraka.",
-              "ru": "Это те, кого Аллах освободил от Огня.",
-              "tr": "Onlar, Allah'ın ateşten azat ettiği kimselerdir.",
-              "ur": "یہ اللہ کے وہ آزاد کردہ بندے ہیں جو آگ سے نجات پائے ہیں۔",
-              "zh": "他们是安拉从火狱中解救出来的人。"
-            },
             "word_end": 8,
             "word_start": 3
           }
@@ -75,26 +62,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "آخَرَ": "another or different",
-            "أُولَئِكَ": "those people being referred to",
-            "اللَّهِ": "Allah, the One granting freedom from punishment",
-            "النَّارِ": "the Fire, meaning hellfire",
-            "خَبَرٍ": "a narration or report",
-            "عُتَقَاءُ": "those set free or emancipated"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "خَبَرٍ",
+          "آخَرَ",
+          "أُولَئِكَ",
+          "عُتَقَاءُ",
+          "اللَّهِ",
+          "النَّارِ"
+        ],
         "related_quran": [
           {
             "ref": "3:185",
@@ -109,32 +84,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "আল্লাহ যাদের আগুন থেকে মুক্তি দিয়েছেন তারা কারা?",
-          "de": "Wer wird als von Allah aus dem Feuer Befreit beschrieben?",
-          "en": "Who are described as those freed by Allah from the Fire?",
-          "es": "¿Quiénes son descritos como los liberados por Allah del Fuego?",
-          "fa": "چه کسانی به عنوان آزادشدگان خداوند از آتش توصیف شده‌اند؟",
-          "fr": "Qui sont décrits comme ceux affranchis par Allah du Feu ?",
-          "id": "Siapa yang digambarkan sebagai orang yang dibebaskan Allah dari Neraka?",
-          "ru": "Кто описывается как освобождённые Аллахом от Огня?",
-          "tr": "Allah tarafından ateşten azat edilenler kimlerdir?",
-          "ur": "وہ کون ہیں جنہیں اللہ نے آگ سے آزاد کیا ہے؟",
-          "zh": "谁被描述为安拉从火狱中解救出来的人？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনা বলে যে কিছু মানুষ আছেন যাদের আল্লাহ আগুন থেকে মুক্তি দিয়েছেন। এটি বর্ণিত প্রসঙ্গে বাঁচার ও আল্লাহর রহমতের প্রতিশ্রুতি বহন করে।",
-          "de": "Diese Überlieferung besagt, dass bestimmte Menschen diejenigen sind, die Allah vom Feuer befreit hat. Sie vermittelt ein Versprechen von Rettung und göttlicher Barmherzigkeit für die beschriebenen Personen.",
-          "en": "This narration states that certain people are those whom Allah has freed from the Fire. It conveys a promise of salvation and divine mercy for the people being described in the related context.",
-          "es": "Esta narración afirma que ciertas personas son aquellas a quienes Allah ha liberado del Fuego. Transmite una promesa de salvación y misericordia divina para las personas descritas.",
-          "fa": "این روایت بیان می‌کند که برخی افراد کسانی هستند که خداوند آنها را از آتش آزاد کرده است. این وعده نجات و رحمت الهی را منتقل می‌کند.",
-          "fr": "Cette narration indique que certaines personnes sont celles qu’Allah a affranchies du Feu. Elle transmet une promesse de salut et de miséricorde divine pour les personnes décrites.",
-          "id": "Riwayat ini menyatakan bahwa beberapa orang adalah mereka yang telah dibebaskan Allah dari Neraka. Ini menyampaikan janji keselamatan dan rahmat ilahi.",
-          "ru": "Это предание утверждает, что определённые люди — те, кого Аллах освободил от Огня. Оно передаёт обещание спасения и божественной милости для описываемых людей.",
-          "tr": "Bu rivayet, Allah'ın ateşten azat ettiği bazı kimselerden bahseder. Bu, kurtuluş ve ilahi merhamet vaadini iletir.",
-          "ur": "یہ روایت بیان کرتی ہے کہ کچھ لوگ وہ ہیں جنہیں اللہ نے آگ سے آزاد کیا ہے۔ یہ بیان نجات اور الہی رحمت کا وعدہ کرتی ہے۔",
-          "zh": "此传述说明某些人是安拉从火狱中解救出来的。这传达了对相关人物的救赎和神圣慈悲的承诺。"
-        },
         "tags": [
           "afterlife",
           "ethics",

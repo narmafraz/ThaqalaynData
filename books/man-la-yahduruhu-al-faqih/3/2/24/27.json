@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسُئِلَ عَلِيٌّ عَلَيْهِ السَّلَامُ عَنْ قَوْلِ اللَّهِ عَزَّ وَجَلَّ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং ʿAlī عليه السلام-কে আল্লাহর মহিমান্বিত ও গৌরবময় বাক্যের সম্পর্কে জিজ্ঞাসা করা হয়েছিল:",
-              "de": "Und ʿAlī عليه السلام wurde nach dem Wort Allahs, des Mächtigen und Erhabenen, gefragt:",
-              "en": "And ʿAlī عليه السلام was asked about the saying of Allah, Mighty and Glorious:",
-              "es": "Y se le preguntó a ʿAlī عليه السلام acerca de la palabra de Allah, Poderoso y Glorioso:",
-              "fa": "و از ʿAlī علیه السلام درباره قول خداوند، توانمند و جلیل، پرسیده شد:",
-              "fr": "Et on demanda à ʿAlī عليه السلام au sujet de la parole d’Allah, le Tout-Puissant et Glorieux :",
-              "id": "Dan ʿAlī عليه السلام ditanya tentang firman Allah Yang Maha Perkasa dan Maha Mulia:",
-              "ru": "И спросили ʿAlī عليه السلام о словах Аллаха, Всемогущего и Великого:",
-              "tr": "Ve ʿAlī عليه السلام'a Allah'ın, Yüce ve Azametli olanın sözü hakkında soruldu:",
-              "ur": "اور ʿAlī علیہ السلام سے اللہ تعالیٰ کے قول کے بارے میں پوچھا گیا، جو کہ عظیم اور جلیل ہے:",
-              "zh": "并且ʿAlīعليهالسلام被问及安拉至大至荣的话语："
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ الْمُتَوَكِّلُونَ",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "“আর আল্লাহর ওপরই নির্ভরশীলরা নির্ভরশীল হোন।”",
-              "de": "„Und auf Allah sollen sich die Vertrauenden verlassen.“",
-              "en": "“And upon Allah let the reliant rely.”",
-              "es": "“Y que los que confían en Allah confíen en Él.”",
-              "fa": "«و بر خداوند توکل کنندگان باید توکل کنند.»",
-              "fr": "«Et que ceux qui se fient à Allah se fient à Lui.»",
-              "id": "“Dan hendaklah orang-orang yang bertawakkal hanya bertawakkal kepada Allah.”",
-              "ru": "«И да полагаются на Аллаха полагающиеся.»",
-              "tr": "“Ve Allah’a tevekkül edenler tevekkül etsin.”",
-              "ur": "“اور اللہ ہی پر توکل کرنے والے توکل کریں۔”",
-              "zh": "“凡依赖安拉者，应当依赖安拉。”"
-            },
             "word_end": 13,
             "word_start": 9
           },
           {
             "arabic_text": "قَالَ «الزَّارِعُونَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: “কৃষকরা।”",
-              "de": "Er sagte: „Die Bauern.“",
-              "en": "He said: “The farmers.”",
-              "es": "Él dijo: “Los agricultores.”",
-              "fa": "فرمود: «کشاورزان.»",
-              "fr": "Il dit : «Les agriculteurs.»",
-              "id": "Beliau berkata: “Para petani.”",
-              "ru": "Он сказал: «Фермеры.»",
-              "tr": "O dedi ki: “Çiftçiler.”",
-              "ur": "انہوں نے کہا: “کاشتکار۔”",
-              "zh": "他说：“农民。”"
-            },
             "word_end": 15,
             "word_start": 13
           }
@@ -88,25 +62,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الزَّارِعُونَ": "the farmers, identified here as exemplifying reliance upon Allah",
-            "اللَّهِ": "Allah, the One upon whom reliance is placed",
-            "الْمُتَوَكِّلُونَ": "those who practice tawakkul, relying upon Allah",
-            "فَلْيَتَوَكَّلِ": "let them rely and place their trust",
-            "قَوْلِ": "the statement or saying being interpreted"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "قَوْلِ",
+          "اللَّهِ",
+          "فَلْيَتَوَكَّلِ",
+          "الْمُتَوَكِّلُونَ",
+          "الزَّارِعُونَ"
+        ],
         "related_quran": [
           {
             "ref": "14:12",
@@ -125,32 +87,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই আয়াতে “আল্লাহর ওপর নির্ভরশীলরা” বলতে কারা বোঝানো হয়েছে?",
-          "de": "Wer sind die in diesem Vers gemeinten „die auf Allah Vertrauenden“?",
-          "en": "Who are the ones meant by “those who rely upon Allah” in this verse?",
-          "es": "¿Quiénes son los que se mencionan como “los que confían en Allah” en este verso?",
-          "fa": "در این آیه منظور از «کسانی که بر خدا توکل می‌کنند» چه کسانی هستند؟",
-          "fr": "Qui sont ceux désignés par «ceux qui se fient à Allah» dans ce verset ?",
-          "id": "Siapa yang dimaksud dengan “mereka yang bertawakkal kepada Allah” dalam ayat ini?",
-          "ru": "Кто имеются в виду под «теми, кто полагается на Аллаха» в этом аяте?",
-          "tr": "Bu ayette “Allah’a tevekkül edenler” kimlerdir?",
-          "ur": "اس آیت میں “اللہ پر توکل کرنے والے” سے مراد کون ہیں؟",
-          "zh": "这节经文中“依赖安拉的人”指的是谁？"
-        },
-        "summaries": {
-          "bn": "ইমাম ʿAlī عليه السلام এই কুরআনিক বাক্যাংশটি ব্যাখ্যা করেন যে যারা সবচেয়ে স্পষ্টভাবে তাওয়াক্কুলের প্রতীক তারা হলেন কৃষকরা। তাদের কাজ পরিশ্রমের সাথে আল্লাহর ওপর নির্ভরশীলতা নিয়ে বৃদ্ধি, রিজিক এবং ফলাফলের ওপর নির্ভর করে।",
-          "de": "Imam ʿAlī عليه السلام erklärt diesen koranischen Ausdruck, indem er diejenigen identifiziert, die Tawakkul am deutlichsten verkörpern, nämlich die Bauern. Ihre Arbeit beruht auf Anstrengung verbunden mit Vertrauen auf Allah für Wachstum, Versorgung und Ergebnis.",
-          "en": "Imam ʿAlī عليه السلام explains this Qur'anic phrase by identifying those who most clearly embody tawakkul as the farmers. Their work depends on effort joined with reliance upon Allah for growth, provision, and outcome.",
-          "es": "El Imam ʿAlī عليه السلام explica esta frase coránica identificando a quienes encarnan más claramente el tawakkul como los agricultores. Su trabajo depende del esfuerzo unido a la confianza en Allah para el crecimiento, la provisión y el resultado.",
-          "fa": "امام ʿAlī علیه السلام این عبارت قرآنی را با معرفی کسانی که به وضوح تجسم توکل هستند، یعنی کشاورزان، توضیح می‌دهد. کار آنها بر تلاش همراه با توکل به خدا برای رشد، روزی و نتیجه استوار است.",
-          "fr": "L’Imam ʿAlī عليه السلام explique cette phrase coranique en identifiant ceux qui incarnent le plus clairement le tawakkul comme étant les agriculteurs. Leur travail dépend d’un effort associé à la confiance en Allah pour la croissance, la subsistance et le résultat.",
-          "id": "Imam ʿAlī عليه السلام menjelaskan frasa Al-Qur'an ini dengan mengidentifikasi mereka yang paling jelas mewujudkan tawakkul sebagai para petani. Pekerjaan mereka bergantung pada usaha yang dipadukan dengan tawakkal kepada Allah untuk pertumbuhan, rezeki, dan hasil.",
-          "ru": "Имам ʿAlī عليه السلام объясняет эту кораническую фразу, определяя тех, кто наиболее явно воплощает таваккуль, как фермеров. Их труд зависит от усилий, соединённых с доверием к Аллаху в росте, обеспечении и результате.",
-          "tr": "İmam ʿAlī عليه السلام, bu Kur’ânî ifadeyi en açık şekilde tevekkülü temsil edenlerin çiftçiler olduğunu belirterek açıklar. Onların çalışması, büyüme, rızık ve sonuç için Allah’a güvenle birlikte çaba gerektirir.",
-          "ur": "امام ʿAlī علیہ السلام اس قرآنی آیت کی وضاحت کرتے ہیں کہ وہ لوگ جو سب سے زیادہ واضح طور پر توکل کو مجسم کرتے ہیں، وہ کاشتکار ہیں۔ ان کا کام محنت اور اللہ پر بھروسہ کے ساتھ بڑھوتری، رزق اور نتیجہ کے لیے ہوتا ہے۔",
-          "zh": "伊玛目ʿAlīعليهالسلام通过指出最明显体现托靠（tawakkul）的人是农民，来解释这句古兰经短语。他们的工作依赖于努力与对安拉的托靠，以获得成长、供给和结果。"
-        },
         "tags": [
           "quran_commentary",
           "economy",

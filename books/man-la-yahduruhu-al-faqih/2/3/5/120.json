@@ -17,61 +17,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسُئِلَ الصَّادِقُ عَلَيْهِ السَّلَامُ : عَنْ قَوْلِ اللَّهِ عَزَّ وَجَلَّ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল-সাদিক عليه السلام-কে আল্লাহর মহিমান্বিত ও মহাজনক বাক্যের সম্পর্কে জিজ্ঞাসা করা হয়েছিল:",
-              "de": "Al-Sadiq عليه السلام wurde nach dem Wort Allahs, des Mächtigen und Erhabenen, gefragt:",
-              "en": "Al-Sadiq عليه السلام was asked about the saying of Allah, Mighty and Majestic:",
-              "es": "Se le preguntó a Al-Sadiq عليه السلام sobre la palabra de Allah, el Poderoso y Majestuoso:",
-              "fa": "از امام صادق علیه السلام درباره قول خداوند متعال، توانمند و بزرگ پرسیده شد:",
-              "fr": "On a demandé à Al-Sadiq عليه السلام au sujet de la parole d'Allah, le Tout-Puissant et Majestueux :",
-              "id": "Al-Sadiq عليه السلام ditanya tentang firman Allah Yang Maha Perkasa dan Maha Agung:",
-              "ru": "У Имама ас-Садика عليه السلام спросили о словах Аллаха, Всемогущего и Великого:",
-              "tr": "El-Sadık عليه السلام'a Allah'ın, Yüce ve Azametli olanın sözü hakkında soruldu:",
-              "ur": "الصدیق علیہ السلام سے اللہ تعالیٰ کے قول کے بارے میں پوچھا گیا، جو کہ عظیم و جلیل ہے:",
-              "zh": "有人问الصدیقعليهالسلام关于真主至高无上的话语："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "«۝ فَمَنْ تَعَجَّلَ فِي يَوْمَيْنِ فَلَا إِثْمَ عَلَيْهِ وَمَنْ تَأَخَّرَ فَلَا إِثْمَ عَلَيْهِ ۝»",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "“তাহলে যে দুই দিনের মধ্যে তাড়াহুড়ো করে, তার ওপর কোনো পাপ নেই; আর যে দেরি করে, তার ওপরও কোনো পাপ নেই।”",
-              "de": "„Wer also innerhalb von zwei Tagen eilt, auf dem liegt keine Sünde; und wer sich verspätet, auf dem liegt ebenfalls keine Sünde.“",
-              "en": "\"Then whoever hastens in two days, there is no sin upon him; and whoever delays, there is no sin upon him.\"",
-              "es": "“Entonces, quien se apresure en dos días, no hay pecado sobre él; y quien se demore, tampoco hay pecado sobre él.”",
-              "fa": "«پس هر کس در دو روز شتاب کند، بر او گناهی نیست؛ و هر کس تأخیر کند، بر او نیز گناهی نیست.»",
-              "fr": "«Alors quiconque se hâte en deux jours, il n'y a pas de péché sur lui; et quiconque tarde, il n'y a pas de péché sur lui.»",
-              "id": "“Maka barangsiapa yang mempercepat dalam dua hari, tidak ada dosa atasnya; dan barangsiapa yang menunda, tidak ada dosa atasnya.”",
-              "ru": "«Итак, кто поспешит за два дня, на том нет греха; и кто задержится, на том тоже нет греха.»",
-              "tr": "“Öyleyse kim iki gün içinde acele ederse, onun üzerine günah yoktur; kim gecikirse, onun üzerine de günah yoktur.”",
-              "ur": "«پھر جو دو دن میں جلدی کرے، اس پر کوئی گناہ نہیں؛ اور جو دیر کرے، اس پر بھی کوئی گناہ نہیں۔»",
-              "zh": "“那么谁在两天内加快，没有罪；谁延迟，也没有罪。”"
-            },
             "word_end": 24,
             "word_start": 10
           },
           {
             "arabic_text": "قَالَ «يَرْجِعُ مَغْفُورًا لَا ذَنْبَ لَهُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: “সে ক্ষমাপ্রাপ্ত অবস্থায় ফিরে আসে, তার ওপর কোনো পাপ নেই।”",
-              "de": "Er sagte: „Er kehrt vergeben zurück, ohne dass eine Sünde auf ihm lastet.“",
-              "en": "He said: \"He returns forgiven, with no sin belonging to him.\"",
-              "es": "Él dijo: “Él regresa perdonado, sin pecado alguno sobre él.”",
-              "fa": "فرمود: «او بازمی‌گردد در حالی که بخشیده شده است و هیچ گناهی بر او نیست.»",
-              "fr": "Il a dit : « Il revient pardonné, sans aucun péché sur lui. »",
-              "id": "Beliau berkata: “Dia kembali dalam keadaan diampuni, tanpa dosa apapun atas dirinya.”",
-              "ru": "Он сказал: «Он возвращается прощённым, без греха на нём.»",
-              "tr": "O dedi ki: “O, affedilmiş olarak döner, üzerinde hiçbir günah yoktur.”",
-              "ur": "انہوں نے فرمایا: \"وہ معاف شدہ لوٹتا ہے، اس پر کوئی گناہ نہیں۔\"",
-              "zh": "他说：“他以被赦免的状态返回，没有罪责。”"
-            },
             "word_end": 30,
             "word_start": 24
           }
@@ -120,60 +94,22 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِثْمَ": "sin or liability of wrongdoing",
-            "الصَّادِقُ": "Imam Jaʿfar ibn Muḥammad al-Sadiq عليه السلام",
-            "تَأَخَّرَ": "remained longer before departing",
-            "تَعَجَّلَ": "departed earlier, within two days",
-            "ذَنْبَ": "sin",
-            "قَوْلِ اللَّهِ": "the revealed statement of Allah",
-            "مَغْفُورًا": "forgiven by Allah",
-            "يَرْجِعُ": "returns from hajj"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الصَّادِقُ",
+          "قَوْلِ اللَّهِ",
+          "تَعَجَّلَ",
+          "تَأَخَّرَ",
+          "إِثْمَ",
+          "يَرْجِعُ",
+          "مَغْفُورًا",
+          "ذَنْبَ"
+        ],
         "related_quran": [
           {
             "ref": "2:203",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام হজের আয়াতে 'তার ওপর কোনো পাপ নেই' অর্থ সম্পর্কে কী বলেছিলেন?",
-          "de": "Was sagte Imam al-Sadiq عليه السلام über die Bedeutung von „auf ihm liegt keine Sünde“ im Hadsch-Vers?",
-          "en": "What did Imam al-Sadiq عليه السلام say about the meaning of \"there is no sin upon him\" in the hajj verse?",
-          "es": "¿Qué dijo el Imam al-Sadiq عليه السلام sobre el significado de 'no hay pecado sobre él' en el versículo del hajj?",
-          "fa": "امام صادق علیه السلام درباره معنای «بر او گناهی نیست» در آیه حج چه گفتند؟",
-          "fr": "Qu'a dit l'Imam al-Sadiq عليه السلام au sujet de la signification de «il n'y a pas de péché sur lui» dans le verset du hajj ?",
-          "id": "Apa yang dikatakan Imam al-Sadiq عليه السلام tentang makna 'tidak ada dosa atasnya' dalam ayat haji?",
-          "ru": "Что сказал Имам ас-Садик عليه السلام о значении «на нем нет греха» в аяте о хадже?",
-          "tr": "İmam el-Sadık عليه السلام, hac ayetindeki 'onun üzerine günah yoktur' ifadesinin anlamı hakkında ne dedi?",
-          "ur": "امام الصادق علیہ السلام نے حج کی آیت میں 'اس پر کوئی گناہ نہیں' کے معنی کے بارے میں کیا فرمایا؟",
-          "zh": "إمامالصادقعليهالسلام关于朝觐经文中“没有罪责”的含义说了什么？"
-        },
-        "summaries": {
-          "bn": "ইমাম আল-সাদিক عليه السلام ব্যাখ্যা করেন যে হজের সময় তাড়াহুড়ো বা দেরির বিষয়ে আয়াতটি বোঝায় যে তীর্থযাত্রী ক্ষমাপ্রাপ্ত অবস্থায় ফিরে আসে। এখানে কেবল অনুমতির বিষয় নয়, বরং তীর্থযাত্রীকে আল্লাহর পক্ষ থেকে ক্ষমা দেওয়ার বিষয়টি গুরুত্ব পায়।",
-          "de": "Imam al-Sadiq عليه السلام erklärt, dass der Vers über das Eilen oder Verzögern während der Hadsch bedeutet, dass der Pilger in einem Zustand der Vergebung zurückkehrt. Der Schwerpunkt liegt nicht nur auf der Erlaubnis beider Optionen, sondern auf der göttlichen Vergebung, die dem Pilger gewährt wird.",
-          "en": "Imam al-Sadiq عليه السلام explains that the verse about hastening or delaying departure during hajj signifies the pilgrim's return in a state of forgiveness. The emphasis is not merely on the permissibility of either option, but on the divine pardon granted to the pilgrim.",
-          "es": "El Imam al-Sadiq عليه السلام explica que el versículo sobre apresurarse o retrasar la partida durante el hajj significa que el peregrino regresa en un estado de perdón. El énfasis no está solo en la permisibilidad de cualquiera de las opciones, sino en el perdón divino otorgado al peregrino.",
-          "fa": "امام صادق علیه السلام توضیح می‌دهند که آیه درباره شتاب یا تأخیر در حج به بازگشت زائر در حالت بخشیده شدن اشاره دارد. تأکید فقط بر جواز هر دو گزینه نیست بلکه بر بخشش الهی به زائر است.",
-          "fr": "L'Imam al-Sadiq عليه السلام explique que le verset concernant l'empressement ou le retard lors du hajj signifie que le pèlerin revient dans un état de pardon. L'accent n'est pas seulement mis sur la permissivité de l'une ou l'autre option, mais sur le pardon divin accordé au pèlerin.",
-          "id": "Imam al-Sadiq عليه السلام menjelaskan bahwa ayat tentang mempercepat atau menunda keberangkatan saat haji menunjukkan bahwa jamaah haji kembali dalam keadaan diampuni. Penekanan bukan hanya pada bolehnya kedua pilihan, tetapi pada ampunan ilahi yang diberikan kepada jamaah.",
-          "ru": "Имам ас-Садик عليه السلام объясняет, что аят о поспешности или задержке во время хаджа означает возвращение паломника в состоянии прощения. Акцент сделан не только на дозволенности обоих вариантов, но и на божественном прощении, дарованном паломнику.",
-          "tr": "İmam el-Sadık عليه السلام, hac sırasında acele etmek veya gecikmekle ilgili ayetin, hacının bağışlanmış bir halde döndüğünü ifade ettiğini açıklar. Burada sadece her iki seçeneğin izinli olması değil, hacıya verilen ilahi bağışlama vurgulanmaktadır.",
-          "ur": "امام الصادق علیہ السلام وضاحت فرماتے ہیں کہ حج کے دوران جلدی یا تاخیر کے بارے میں آیت کا مطلب یہ ہے کہ حاجی معافی کی حالت میں واپس آتا ہے۔ اس میں صرف اجازت کی بات نہیں بلکہ خدا کی طرف سے حاجی کو بخشش کا اشارہ ہے۔",
-          "zh": "إمامالصادقعليهالسلام解释说，关于朝觐期间加快或延迟的经文意味着朝觐者以被赦免的状态返回。重点不仅在于两种选择的允许性，更在于赐予朝觐者的神圣宽恕。"
-        },
         "tags": [
           "quran_commentary",
           "worship",

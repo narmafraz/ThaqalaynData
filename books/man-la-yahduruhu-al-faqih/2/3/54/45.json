@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى الْحَلَبِيُّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হালাবী আবু আবদিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Al-Ḥalabī berichtete von Abū ʿAbdillāh عليه السلام, der sagte:",
-              "en": "Al-Ḥalabī narrated from Abū ʿAbdillāh عليه السلام, who said:",
-              "es": "Al-Ḥalabī narró de Abū ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "الْحَلَبِيّ از ابوالعبدالله علیه السلام روایت کرده است که فرمود:",
-              "fr": "Al-Ḥalabī a rapporté de Abū ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Al-Ḥalabī meriwayat dari Abū ʿAbdillāh علیه السلام, yang berkata:",
-              "ru": "Аль-Халаби передал от Абу Абдиллаха عليه السلام, который сказал:",
-              "tr": "El-Halabî, Ebu Abdillah (aleyhisselam)’dan rivayet etti, şöyle dedi:",
-              "ur": "الْحَلَبِيُّ نے ابو عبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "الْحَلَبِيّ从أبوعبداللهعليهالسلام传述，他说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "«لَا بَأْسَ أَنْ تُحْرِمَ الْمَرْأَةُ فِي الذَّهَبِ وَ الْخَزِّ وَ لَيْسَ يُكْرَهُ إِلَّا الْحَرِيرُ الْمَحْضُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন মহিলার জন্য সোনা ও খাজ পরিধান করে ইহরাম বেঁধে নেওয়ায় কোনো ক্ষতি নেই, এবং শুধুমাত্র খাঁটি রেশম পরিধান করা অপছন্দনীয়।",
-              "de": "Es ist für eine Frau nicht schädlich, im Zustand des Ihram Gold und Khazz zu tragen, und nur reine Seide ist unerwünscht.",
-              "en": "There is no harm in a woman entering ihram while wearing gold and khazz, and nothing is disliked except pure silk.",
-              "es": "No hay daño en que una mujer entre en ihram vistiendo oro y khazz, y solo se desaprueba la seda pura.",
-              "fa": "هیچ ضرری نیست که زن در حال احرام طلا و خز بپوشد و تنها چیزی که مکروه است، ابریشم خالص است.",
-              "fr": "Il n’y a pas de mal à ce qu’une femme entre en ihram en portant de l’or et du khazz, et seule la soie pure est déconseillée.",
-              "id": "Tidaklah berbahaya bagi seorang wanita untuk memasuki ihram dengan memakai emas dan khazz, dan yang tidak disukai hanyalah sutra murni.",
-              "ru": "Нет вреда в том, чтобы женщина входила в ихрам, нося золото и хазз, и только чистый шелк нежелателен.",
-              "tr": "Bir kadının altın ve hırz giyerek ihrama girmesinde bir sakınca yoktur, sadece saf ipek hoş karşılanmaz.",
-              "ur": "عورت کے لیے یہ کوئی حرج نہیں کہ وہ زیورات میں سونا اور خز پہن کر احرام باندھے، اور صرف خالص ریشم پہننا ناپسندیدہ ہے۔",
-              "zh": "妇女穿戴黄金和خز进入إحرام没有害处，只有纯丝绸是不受欢迎的。"
-            },
             "word_end": 25,
             "word_start": 10
           }
@@ -91,26 +78,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الذَّهَبِ": "gold worn as adornment",
-            "الْحَرِيرُ الْمَحْضُ": "pure silk with no mixture",
-            "الْخَزِّ": "khazz, a mixed fabric traditionally containing silk",
-            "الْمَرْأَةُ": "the woman; the female pilgrim in this ruling",
-            "تُحْرِمَ": "to enter the state of ihram",
-            "يُكْرَهُ": "is considered disliked"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "تُحْرِمَ",
+          "الْمَرْأَةُ",
+          "الذَّهَبِ",
+          "الْخَزِّ",
+          "يُكْرَهُ",
+          "الْحَرِيرُ الْمَحْضُ"
+        ],
         "related_quran": [
           {
             "ref": "2:197",
@@ -121,32 +96,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী একজন মহিলা ইহরামের সময় কী পরিধান করতে পারে?",
-          "de": "Was darf eine Frau während des Ihram nach diesem Hadith tragen?",
-          "en": "What may a woman wear during ihram according to this hadith?",
-          "es": "¿Qué puede usar una mujer durante el ihram según este hadiz?",
-          "fa": "بر اساس این حدیث، زن در حال احرام چه بپوشد؟",
-          "fr": "Que peut porter une femme pendant l’ihram selon ce hadith ?",
-          "id": "Menurut hadis ini, apa yang boleh dipakai wanita saat ihram?",
-          "ru": "Что женщина может носить во время ихрама согласно этому хадису?",
-          "tr": "Bu hadise göre bir kadın ihram sırasında ne giyebilir?",
-          "ur": "اس حدیث کے مطابق عورت احرام کے دوران کیا پہن سکتی ہے؟",
-          "zh": "根据此圣训，女性在إحرام期间可以穿什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ইহরামের অবস্থায় একজন মহিলা কী পরিধান করতে পারে সে সম্পর্কে শারঈ বিধান বর্ণনা করে। এটি সোনা ও খাজ পরিধানের অনুমতি দেয়, এবং শুধুমাত্র খাঁটি রেশমকে অপছন্দনীয় বলে উল্লেখ করে।",
-          "de": "Dieser Hadith legt eine Rechtsregel fest, was eine Frau im Zustand des Ihram tragen darf. Er erlaubt Gold und Khazz für Frauen und zeigt nur reine Seide als unerwünscht an.",
-          "en": "This hadith states a legal ruling regarding what a woman may wear in the state of ihram. It permits gold and khazz for women, while indicating dislike only for pure silk.",
-          "es": "Este hadiz establece una regla legal sobre lo que una mujer puede usar durante el ihram. Permite oro y khazz para mujeres, indicando que solo la seda pura es desaprobada.",
-          "fa": "این حدیث حکم شرعی درباره پوشش زن در حال احرام را بیان می‌کند. اجازه می‌دهد زن طلا و خز بپوشد و تنها ابریشم خالص را مکروه می‌داند.",
-          "fr": "Ce hadith énonce une règle juridique concernant ce qu’une femme peut porter en état d’ihram. Il permet l’or et le khazz pour les femmes, tout en indiquant que seule la soie pure est déconseillée.",
-          "id": "Hadis ini menyatakan hukum terkait apa yang boleh dipakai wanita saat ihram. Memperbolehkan emas dan khazz, dan hanya sutra murni yang tidak disukai.",
-          "ru": "Этот хадис устанавливает правовое постановление о том, что женщина может носить в состоянии ихрама. Разрешает золото и хазз, указывая, что только чистый шелк нежелателен.",
-          "tr": "Bu hadis, bir kadının ihram halindeyken ne giyebileceğine dair hukuki hükmü belirtir. Kadınlar için altın ve hırz giymeye izin verirken, sadece saf ipekten hoşlanılmadığını ifade eder.",
-          "ur": "یہ حدیث عورت کے احرام کے دوران پہننے کے متعلق شرعی حکم بیان کرتی ہے۔ یہ سونا اور خز پہننے کی اجازت دیتی ہے، جبکہ صرف خالص ریشم کو ناپسندیدہ قرار دیتی ہے۔",
-          "zh": "此圣训陈述了女性在إحرام状态下可穿着的法律规定。允许女性穿戴黄金和خز，仅纯丝绸被视为不受欢迎。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

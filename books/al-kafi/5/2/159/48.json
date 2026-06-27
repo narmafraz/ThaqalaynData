@@ -14,6 +14,129 @@
       "up": "/books/al-kafi:5:2:159"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ هَارُونَ بْنِ مُسْلِمٍ عَنْ مَسْعَدَةَ بْنِ صَدَقَةَ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 22,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سُئِلَ رَجُلٌ لَهُ مَالٌ عَلَى رَجُلٍ مِنْ قِبَلِ عِينَةٍ عَيَّنَهَا إِيَّاهُ فَلَمَّا حَلَّ عَلَيْهِ الْمَالُ لَمْ يَكُنْ عِنْدَهُ مَا يُعْطِيهِ فَأَرَادَ أَنْ يُقَلِّبَ عَلَيْهِ وَ يَرْبَحَ أَيَبِيعُهُ لُؤْلُؤاً وَ غَيْرَ ذَلِكَ مَا يَسْوَى مِائَةَ دِرْهَمٍ بِأَلْفِ دِرْهَمٍ وَ يُؤَخِّرَهُ قَالَ لَا بَأْسَ بِذَلِكَ قَدْ فَعَلَ ذَلِكَ أَبِي رَضِيَ اللَّهُ عَنْهُ وَ أَمَرَنِي أَنْ أَفْعَلَ ذَلِكَ فِي شَيْ‏ءٍ كَانَ عَلَيْهِ",
+            "chunk_type": "body",
+            "word_end": 81,
+            "word_start": 22
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 113,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "هَارُونَ بْنِ مُسْلِمٍ",
+              "name_en": "Harun ibn Muslim",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 134,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مَسْعَدَةَ بْنِ صَدَقَةَ",
+              "name_en": "Masada ibn Sadaqa",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "رَضِيَ اللَّهُ عَنْهُ",
+            "phrase_en": "May Allah be pleased with him"
+          }
+        ],
+        "key_terms_keys": [
+          "عِينَة",
+          "لُؤْلُؤاً",
+          "دِرْهَمٍ",
+          "أَبِي"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:280",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "economy"
+        ],
+        "topics": [
+          "financial_law",
+          "trade_ethics"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (9/434)"
       ],
@@ -101,7 +224,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:2:159:48",

@@ -14,6 +14,148 @@
       "up": "/books/al-kafi:3:4:18"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "أَحْمَدُ بْنُ إِدْرِيسَ عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ الْحُسَيْنِ بْنِ سَعِيدٍ عَنْ فَضَالَةَ بْنِ أَيُّوبَ عَنْ أَبَانِ بْنِ عُثْمَانَ عَنْ أَبِي مَرْيَمَ الْأَنْصَارِيِّ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 24,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) يَقُولُ إِقَامَةُ الْمَرْأَةِ أَنْ تُكَبِّرَ وَ تَشْهَدَ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَ أَنَّ مُحَمَّداً عَبْدُهُ وَ رَسُولُهُ .",
+            "chunk_type": "body",
+            "word_end": 51,
+            "word_start": 24
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 97,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدُ بْنُ إِدْرِيسَ",
+              "name_en": "Ahmad ibn Idris",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 21,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنِ بْنِ سَعِيدٍ",
+              "name_en": "al-Husayn b. Sa'id",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 69,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "فَضَالَةَ بْنِ أَيُّوبَ",
+              "name_en": "Fadala b. Ayyub",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 52,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبَانِ بْنِ عُثْمَانَ",
+              "name_en": "Aban ibn 'Uthman",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 379,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي مَرْيَمَ الْأَنْصَارِيِّ",
+              "name_en": "Abu Maryam al-Ansari",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "theological_concept",
+            "phrase_ar": "لَا إِلٰهَ إِلَّا اللَّهُ",
+            "phrase_en": "There is no god but Allah"
+          },
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "إِقَامَة",
+          "تُكَبِّر",
+          "تَشْهَد",
+          "عَبْدُهُ",
+          "رَسُولُهُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:18",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "47:38",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "24:36",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "worship"
+        ],
+        "topics": [
+          "salat",
+          "prayer_rulings"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> موثق    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (15/89)"
       ],
@@ -94,7 +236,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:4:18:19",

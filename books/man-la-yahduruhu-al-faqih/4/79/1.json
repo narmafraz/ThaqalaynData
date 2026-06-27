@@ -15,42 +15,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رَوَى عَبْدُ اللَّهِ بْنُ الْمُغِيرَةِ عَنِ السَّكُونِيِّ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ أَبِيهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আব্দুল্লাহ ইবনে আল-মুগীরা আল-সাকূনী থেকে, তিনি জাফর ইবনে মুহাম্মদ থেকে, তার পিতা عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "ʿAbdullāh ibn al-Mughīrah berichtete von al-Sakūnī, von Jaʿfar ibn Muḥammad, von seinem Vater عليه السلام, der sagte:",
-              "en": "ʿAbdullāh ibn al-Mughīrah narrated from al-Sakūnī, from Jaʿfar ibn Muḥammad, from his father عليه السلام, who said:",
-              "es": "ʿAbdullāh ibn al-Mughīrah narró de al-Sakūnī, de Jaʿfar ibn Muḥammad, de su padre عليه السلام, quien dijo:",
-              "fa": "عبدالله بن مغیره از السکونی، از جعفر بن محمد، از پدرش علیه السلام نقل کرد که فرمود:",
-              "fr": "ʿAbdullāh ibn al-Mughīrah a rapporté d'al-Sakūnī, de Jaʿfar ibn Muḥammad, de son père عليه السلام, qui a dit :",
-              "id": "ʿAbdullāh ibn al-Mughīrah meriwayat dari al-Sakūnī, dari Jaʿfar ibn Muḥammad, dari ayahnya علیه السلام, yang berkata:",
-              "ru": "ʿАбдуллах ибн аль-Мугира передал от аль-Сакуни, от Джаʿфара ибн Мухаммада, от его отца عليه السلام, который сказал:",
-              "tr": "ʿAbdullāh ibn al-Mughīrah, al-Sakūnī'den, o da Jaʿfar ibn Muḥammad'dan, onun babasından عليه السلام şöyle dedi diye rivayet etti:",
-              "ur": "عبداللہ ابن المغیرہ نے السکونی سے، جو جعفر ابن محمد سے، اپنے والد علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "ʿAbdullāhibn al-Mughīrah从al-Sakūnī传述，来自Jaʿfar ibn Muḥammad，来自他的父亲عليه السلام，他说："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "مَنْ لَمْ يُوصِ عِنْدَ مَوْتِهِ لِذَوِي قَرَابَتِهِ فَقَدْ خَتَمَ عَمَلَهُ بِمَعْصِيَةٍ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে ব্যক্তি মৃত্যুর সময় তার আত্মীয়দের জন্য وصیت করে না, সে অবশ্যই তার কাজকে نافرمانی দিয়ে শেষ করেছে।",
-              "de": "Wer zum Zeitpunkt seines Todes kein Testament für seine Verwandten macht, hat seine Tat tatsächlich mit einer Ungehorsamshandlung abgeschlossen.",
-              "en": "Whoever does not make a bequest for his relatives at the time of his death has indeed concluded his deed with an act of disobedience.",
-              "es": "Quien no haga un testamento para sus parientes en el momento de su muerte, ciertamente ha concluido su acto con una desobediencia.",
-              "fa": "کسی که در هنگام مرگ برای خویشاوندانش وصیت نکند، در واقع عمل خود را با نافرمانی به پایان رسانده است.",
-              "fr": "Quiconque ne fait pas de testament pour ses proches au moment de sa mort a en effet conclu son acte par un acte de désobéissance.",
-              "id": "Barangsiapa yang tidak membuat wasiat untuk kerabatnya pada saat kematiannya, sesungguhnya ia telah mengakhiri amalnya dengan perbuatan maksiat.",
-              "ru": "Кто не оставляет завещания для своих родственников в момент смерти, тот действительно завершил свой поступок актом неповиновения.",
-              "tr": "Ölüm anında akrabaları için vasiyet etmeyen kimse, gerçekten amelini bir isyanla tamamlamıştır.",
-              "ur": "جو شخص اپنی موت کے وقت اپنے رشتہ داروں کے لیے وصیت نہیں کرتا، اس نے یقیناً اپنے عمل کو نافرمانی کے ساتھ ختم کیا ہے۔",
-              "zh": "谁在临终时不为亲属立遗嘱，确实以不服从的行为结束了他的行为。"
-            },
             "word_end": 27,
             "word_start": 16
           }
@@ -109,25 +96,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بِمَعْصِيَةٍ": "with an act of disobedience",
-            "خَتَمَ عَمَلَهُ": "he concluded his deeds",
-            "عِنْدَ مَوْتِهِ": "at the time of one's death",
-            "لِذَوِي قَرَابَتِهِ": "for his relatives or kin",
-            "يُوصِ": "to make a bequest or will"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُوصِ",
+          "عِنْدَ مَوْتِهِ",
+          "لِذَوِي قَرَابَتِهِ",
+          "خَتَمَ عَمَلَهُ",
+          "بِمَعْصِيَةٍ"
+        ],
         "related_quran": [
           {
             "ref": "2:180",
@@ -138,32 +113,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস মৃত্যুর আগে আত্মীয়দের জন্য وصیت না করার বিষয়ে কী বলে?",
-          "de": "Was sagt dieser Hadith darüber, vor dem Tod kein Testament für Verwandte zu machen?",
-          "en": "What does this hadith say about not making a bequest for relatives before death?",
-          "es": "¿Qué dice este hadiz sobre no hacer un testamento para los parientes antes de la muerte?",
-          "fa": "این حدیث درباره وصیت نکردن برای خویشاوندان قبل از مرگ چه می‌گوید؟",
-          "fr": "Que dit ce hadith à propos de ne pas faire de testament pour ses proches avant la mort ?",
-          "id": "Apa yang dikatakan hadis ini tentang tidak membuat wasiat untuk kerabat sebelum kematian?",
-          "ru": "Что говорит этот хадис о том, чтобы не оставлять завещание для родственников до смерти?",
-          "tr": "Bu hadis, ölümden önce akrabalar için vasiyet yapmamak hakkında ne diyor?",
-          "ur": "یہ حدیث موت سے پہلے رشتہ داروں کے لیے وصیت نہ کرنے کے بارے میں کیا کہتی ہے؟",
-          "zh": "此圣训关于临终前不为亲属立遗嘱说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি মৃত্যুর সময় আত্মীয়দের জন্য وصیت করার গুরুত্বকে জোর দেয় এবং এটি উপেক্ষা করা একটি গুরুতর নৈতিক ও আইনি ত্রুটি হিসেবে উপস্থাপন করে, যা ইসলামিক পারিবারিক দায়িত্ব এবং জীবনের শেষ দায়িত্বের গুরুত্বকে প্রদর্শন করে।",
-          "de": "Dieser Hadith betont die Bedeutung, zum Zeitpunkt des Todes ein Testament für die Verwandten zu machen, und stellt die Vernachlässigung dieser Pflicht als schwerwiegendes moralisches und rechtliches Versäumnis dar, was das Gewicht zeigt, das der Islam auf familiäre Verantwortung und Verpflichtungen am Lebensende legt.",
-          "en": "This hadith emphasizes the importance of making a bequest for one's relatives at the time of death. It presents neglecting this duty as a serious moral and legal failing, showing the weight Islam places on family responsibility and end-of-life obligations.",
-          "es": "Este hadiz enfatiza la importancia de hacer un testamento para los parientes en el momento de la muerte y presenta la negligencia de este deber como una grave falla moral y legal, mostrando el peso que el Islam otorga a la responsabilidad familiar y las obligaciones al final de la vida.",
-          "fa": "این حدیث اهمیت وصیت برای خویشاوندان در هنگام مرگ را تأکید می‌کند و ترک این وظیفه را یک نقص اخلاقی و قانونی جدی می‌داند که اهمیت مسئولیت خانوادگی و وظایف پایان زندگی در اسلام را نشان می‌دهد.",
-          "fr": "Ce hadith souligne l'importance de faire un testament pour ses proches au moment de la mort et présente la négligence de ce devoir comme une grave faute morale et légale, montrant le poids que l'islam accorde à la responsabilité familiale et aux obligations en fin de vie.",
-          "id": "Hadis ini menekankan pentingnya membuat wasiat untuk kerabat pada saat kematian dan menganggap mengabaikan kewajiban ini sebagai kesalahan moral dan hukum yang serius, menunjukkan betapa Islam menempatkan tanggung jawab keluarga dan kewajiban akhir hayat.",
-          "ru": "Этот хадис подчеркивает важность завещания для родственников в момент смерти и рассматривает пренебрежение этой обязанностью как серьезный моральный и юридический проступок, показывая значимость семейной ответственности и обязательств в конце жизни в исламе.",
-          "tr": "Bu hadis, ölüm anında akrabalar için vasiyet yapmanın önemini vurgular ve bunu ihmal etmeyi ciddi bir ahlaki ve hukuki kusur olarak gösterir; İslam'ın aile sorumluluğu ve hayatın son yükümlülüklerine verdiği önemi ortaya koyar.",
-          "ur": "یہ حدیث موت کے وقت رشتہ داروں کے لیے وصیت کرنے کی اہمیت کو اجاگر کرتی ہے اور اسے ترک کرنا ایک سنگین اخلاقی اور قانونی غلطی قرار دیتی ہے، جو اسلام میں خاندانی ذمہ داری اور زندگی کے آخری لمحات کی اہمیت کو ظاہر کرتی ہے۔",
-          "zh": "此圣训强调临终为亲属立遗嘱的重要性，将忽视此义务视为严重的道德和法律过失，显示了伊斯兰对家庭责任和临终义务的重视。"
-        },
         "tags": [
           "jurisprudence",
           "family",

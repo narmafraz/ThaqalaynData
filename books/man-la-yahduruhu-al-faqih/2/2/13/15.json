@@ -17,61 +17,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى ٱبْنُ أَبِي يَعْفُورٍ عَنْ أَبِي عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং ইবনে আবী ইয়াফূর আবু আব্দিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Und Ibn Abī Yaʿfūr berichtete von Abū ʿAbdillāh عليه السلام, der sagte:",
-              "en": "And Ibn Abī Yaʿfūr narrated from Abū ʿAbdillāh عليه السلام, who said:",
-              "es": "Y Ibn Abī Yaʿfūr narró de Abū ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "و ابن ابی یعفور از ابوعبدالله علیه السلام روایت کرده که فرمود:",
-              "fr": "Et Ibn Abī Yaʿfūr a rapporté d'Abū ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Dan Ibnu Abī Yaʿfūr meriwayatkan dari Abū ʿAbdillāh علیه السلام, yang berkata:",
-              "ru": "Ибн Аби Яʿфур передал от Абу ʿАбдиллах عليه السلام, который сказал:",
-              "tr": "Ve İbn Ebî Yaʿfūr, Ebu ʿAbdillâh عليه السلام'dan rivayet etti, şöyle dedi:",
-              "ur": "اور ابن ابی یعفور نے ابو عبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "伊本阿比雅富尔从阿布阿卜杜拉 عليه السلام传述说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "قُلْتُ لَهُ ٱلرَّجُلُ يُجْنِبُ فِي شَهْرِ رَمَضَانَ ثُمَّ يَسْتَيْقِظُ ثُمَّ يَنَامُ ثُمَّ يَسْتَيْقِظُ ثُمَّ يَنَامُ حَتَّى يُصْبِحَ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আমি তাকে বললাম: একজন ব্যক্তি রমজান মাসে জনব হয়, তারপর জেগে ওঠে, তারপর ঘুমায়, তারপর আবার জেগে ওঠে, তারপর ঘুমায় যতক্ষণ না সকাল হয়।",
-              "de": "Ich sagte zu ihm: Ein Mann wird im Monat Ramadan junub, dann wacht er auf, dann schläft er, dann wacht er wieder auf, dann schläft er bis zum Morgen.",
-              "en": "I said to him: A man becomes junub in the Month of Ramadan, then wakes up, then sleeps, then wakes up, then sleeps until morning.",
-              "es": "Le dije: Un hombre se vuelve junub en el mes de Ramadán, luego se despierta, luego duerme, luego se despierta, luego duerme hasta la mañana.",
-              "fa": "به او گفتم: مردی در ماه رمضان جنب می‌شود، سپس بیدار می‌شود، سپس می‌خوابد، سپس دوباره بیدار می‌شود، سپس می‌خوابد تا صبح.",
-              "fr": "Je lui ai dit : Un homme devient junub pendant le mois de Ramadan, puis se réveille, puis dort, puis se réveille, puis dort jusqu'au matin.",
-              "id": "Aku berkata kepadanya: Seorang pria menjadi junub di bulan Ramadan, kemudian bangun, kemudian tidur, kemudian bangun lagi, kemudian tidur sampai pagi.",
-              "ru": "Я сказал ему: Мужчина становится джанабом в месяце Рамадан, затем просыпается, затем спит, затем снова просыпается, затем спит до утра.",
-              "tr": "Ona dedim ki: Bir adam Ramazan ayında junub olur, sonra uyanır, sonra yatar, sonra tekrar uyanır, sonra yatar sabaha kadar.",
-              "ur": "میں نے ان سے کہا: ایک آدمی رمضان کے مہینے میں جنب ہوتا ہے، پھر جاگتا ہے، پھر سوتا ہے، پھر جاگتا ہے، پھر سوتا ہے یہاں تک کہ صبح ہو جاتی ہے۔",
-              "zh": "我对他说：一个人在斋月期间变为洁净前状态，然后醒来，然后睡觉，然后再醒来，然后睡觉直到早晨。"
-            },
             "word_end": 29,
             "word_start": 12
           },
           {
             "arabic_text": "قَالَ يُتِمُّ صَوْمَهُ وَ يَقْضِي يَوْماً آخَرَ فَإِنْ لَمْ يَسْتَيْقِظْ حَتَّى يُصْبِحَ أَتَمَّ صَوْمَهُ وَ جَازَ لَهُ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: সে তার রোজা সম্পূর্ণ করে এবং অন্য একটি দিন কেজা করে। কিন্তু যদি সে সকাল পর্যন্ত জেগে না থাকে, তবে তার রোজা সম্পূর্ণ হয় এবং তার জন্য বৈধ।",
-              "de": "Er sagte: Er vollendet sein Fasten und macht einen anderen Tag nach. Wenn er aber bis zum Morgen nicht aufgewacht ist, hat er sein Fasten vollendet und es ist für ihn gültig.",
-              "en": "He said: He completes his fast and makes up another day. But if he did not wake up until morning, he completes his fast and it is valid for him.",
-              "es": "Él dijo: Completa su ayuno y compensa otro día. Pero si no se despertó hasta la mañana, completa su ayuno y es válido para él.",
-              "fa": "فرمود: روزه‌اش را کامل می‌کند و روز دیگری را قضا می‌کند. اما اگر تا صبح بیدار نشده باشد، روزه‌اش را کامل کرده و برای او صحیح است.",
-              "fr": "Il a dit : Il complète son jeûne et rattrape un autre jour. Mais s'il ne s'est pas réveillé jusqu'au matin, il complète son jeûne et il est valable pour lui.",
-              "id": "Dia berkata: Dia menyempurnakan puasanya dan mengganti dengan hari lain. Namun jika dia tidak bangun sampai pagi, puasanya sempurna dan sah baginya.",
-              "ru": "Он сказал: Он завершает свой пост и возмещает другой день. Но если он не проснулся до утра, он завершает пост, и он для него действителен.",
-              "tr": "Dedi ki: O, orucunu tamamlar ve başka bir günü kaza eder. Ama sabaha kadar uyanmamışsa, orucunu tamamlamış olur ve onun için caizdir.",
-              "ur": "انہوں نے فرمایا: وہ اپنا روزہ مکمل کرتا ہے اور ایک اور دن قضا کرتا ہے۔ لیکن اگر وہ صبح تک جاگا نہ ہو تو اس نے روزہ مکمل کیا اور اس کے لیے جائز ہے۔",
-              "zh": "他说：他完成了他的斋戒并补过另一天。但如果他直到早晨都未醒来，他完成了斋戒，对他有效。"
-            },
             "word_end": 46,
             "word_start": 29
           }
@@ -110,59 +84,21 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "جَازَ لَهُ": "it is valid and acceptable for him",
-            "شَهْرِ رَمَضَانَ": "the Month of Ramadan, the month of obligatory sawm",
-            "يَسْتَيْقِظُ": "he wakes up from sleep during the night",
-            "يَقْضِي يَوْماً آخَرَ": "he must make up another day in compensation",
-            "يَنَامُ": "he goes back to sleep",
-            "يُتِمُّ صَوْمَهُ": "he completes his fast for that day",
-            "يُجْنِبُ": "to become junub, entering a state requiring ghusl"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُجْنِبُ",
+          "شَهْرِ رَمَضَانَ",
+          "يَسْتَيْقِظُ",
+          "يَنَامُ",
+          "يُتِمُّ صَوْمَهُ",
+          "يَقْضِي يَوْماً آخَرَ",
+          "جَازَ لَهُ"
+        ],
         "related_quran": [
           {
             "ref": "2:187",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কেউ রমজানে সকাল পর্যন্ত জনব থাকে এবং জেগে আবার ঘুমায় তাহলে রোজার حکم কী?",
-          "de": "Wie ist die Regelung zum Fasten, wenn jemand im Ramadan bis zum Morgen junub bleibt, nachdem er aufgewacht und wieder eingeschlafen ist?",
-          "en": "What is the ruling on fasting if someone remains junub until morning in Ramadan after waking and sleeping again?",
-          "es": "¿Cuál es el fallo sobre el ayuno si alguien permanece junub hasta la mañana en Ramadán después de despertarse y volver a dormir?",
-          "fa": "حکم روزه اگر کسی در رمضان تا صبح جنب بماند و پس از بیدار شدن دوباره بخوابد چیست؟",
-          "fr": "Quel est le jugement sur le jeûne si quelqu'un reste junub jusqu'au matin en Ramadan après s'être réveillé puis rendormi ?",
-          "id": "Apa hukum puasa jika seseorang tetap junub sampai pagi di bulan Ramadan setelah bangun dan tidur lagi?",
-          "ru": "Каково правило поста, если человек остается джанабом до утра в Рамадан после того, как проснулся и снова уснул?",
-          "tr": "Ramazan'da sabaha kadar junub kalıp uyanıp tekrar uyuyan kişinin oruç hükmü nedir?",
-          "ur": "اگر کوئی رمضان میں صبح تک جنب رہے اور جاگ کر دوبارہ سو جائے تو روزے کا حکم کیا ہے؟",
-          "zh": "如果有人在斋月中醒来后又睡着直到早晨仍保持洁净前状态，斋戒的规定是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি রমজানের রাতে জনব অবস্থায় থাকা এবং সেহরি আগে বারবার জেগে আবার ঘুমিয়ে পড়ার নিয়ম ব্যাখ্যা করে। যদি সে জেগে আবার ঘুমায় তবে তার রোজা সম্পূর্ণ হয় কিন্তু তাকে সেই দিন কেজা করতে হবে; যদি সে সকাল পর্যন্ত না জেগে থাকে তবে তার রোজা বৈধ।",
-          "de": "Dieser Hadith erklärt die Fastenregel für eine Person, die in der Nacht des Ramadan junub bleibt und wiederholt vor der Morgendämmerung aufwacht, aber bis zum Morgen wieder einschläft. Wenn er aufgewacht und dann bis zum Morgengrauen wieder geschlafen hat, vollendet er sein Fasten, muss aber diesen Tag nachholen; wenn er jedoch bis zum Morgen nicht aufgewacht ist, ist sein Fasten gültig.",
-          "en": "This hadith explains a fasting ruling for a person who remains in janabah during the night of Ramadan and repeatedly wakes up before dawn but goes back to sleep until morning. If he had awakened and then slept again until dawn, he completes the fast but must make up that day; however, if he did not wake up at all until morning, his fast remains valid.",
-          "es": "Este hadiz explica la regla del ayuno para una persona que permanece en estado de junub durante la noche de Ramadán y se despierta repetidamente antes del amanecer pero vuelve a dormir hasta la mañana. Si se despertó y luego volvió a dormir hasta el amanecer, completa el ayuno pero debe compensar ese día; sin embargo, si no se despertó hasta la mañana, su ayuno es válido.",
-          "fa": "این حدیث حکم روزه کسی را که در شب رمضان جنب است و چندین بار قبل از سحر بیدار می‌شود اما دوباره می‌خوابد، توضیح می‌دهد. اگر بیدار شده و دوباره تا سحر خوابیده باشد، روزه‌اش کامل است اما باید آن روز را قضا کند؛ اگر تا صبح بیدار نشده باشد، روزه‌اش صحیح است.",
-          "fr": "Ce hadith explique la règle du jeûne pour une personne qui reste en état de junub pendant la nuit de Ramadan et se réveille plusieurs fois avant l'aube mais se rendort jusqu'au matin. S'il s'est réveillé puis s'est rendormi jusqu'à l'aube, il complète son jeûne mais doit rattraper ce jour ; cependant, s'il ne s'est pas réveillé jusqu'au matin, son jeûne est valable.",
-          "id": "Hadis ini menjelaskan hukum puasa bagi seseorang yang tetap dalam keadaan junub pada malam Ramadan dan berulang kali bangun sebelum fajar namun kembali tidur sampai pagi. Jika dia bangun lalu tidur lagi sampai fajar, puasanya sah tapi harus mengganti hari itu; jika tidak bangun sampai pagi, puasanya tetap sah.",
-          "ru": "Этот хадис объясняет правило поста для человека, который остается в состоянии джанаба ночью в Рамадан и несколько раз просыпается до рассвета, но снова засыпает до утра. Если он проснулся, а затем снова заснул до рассвета, он завершает пост, но должен возместить этот день; однако если он не просыпался до утра, его пост действителен.",
-          "tr": "Bu hadis, Ramazan gecesi boyunca junub kalan ve sabah olmadan önce defalarca uyanıp tekrar uyuyan bir kişinin oruç hükmünü açıklar. Eğer uyanıp tekrar uyumuşsa orucunu tamamlar ancak o günü kaza etmelidir; sabaha kadar hiç uyanmamışsa orucu geçerlidir.",
-          "ur": "یہ حدیث رمضان کی رات میں جنب رہنے والے شخص کے روزے کے حکم کی وضاحت کرتی ہے جو بار بار سحری سے پہلے جاگتا ہے لیکن پھر دوبارہ سوتا ہے۔ اگر وہ جاگ کر پھر سوتا ہے تو روزہ مکمل ہوتا ہے لیکن اسے وہ دن قضا کرنا ہوگا؛ اگر وہ صبح تک جاگا ہی نہ ہو تو اس کا روزہ درست ہے۔",
-          "zh": "此圣训解释了在斋月夜间保持洁净前状态并多次在黎明前醒来但又继续睡到早晨的人的斋戒规定。如果他醒来后又睡到黎明，他完成了斋戒但必须补过那一天；如果他直到早晨都未醒来，他的斋戒有效。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

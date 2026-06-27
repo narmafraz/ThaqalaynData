@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ عَلِيٌّ عَلَيْهِ السَّلَامُ :",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং আলী, আল্লাহর শান্তি তাঁর উপর বর্ষিত হোক, বললেন:",
-              "de": "Und ʿAlī, Friede sei mit ihm, sagte:",
-              "en": "And ʿAlī, peace be upon him, said:",
-              "es": "Y ʿAlī, la paz sea con él, dijo:",
-              "fa": "و علی علیه السلام فرمود:",
-              "fr": "Et ʿAlī, que la paix soit sur lui, a dit :",
-              "id": "Dan ʿAlī, semoga keselamatan atasnya, berkata:",
-              "ru": "И ʿАли, мир ему, сказал:",
-              "tr": "Ve ʿAlī, Allah'ın selamı üzerine olsun, dedi ki:",
-              "ur": "اور علی علیہ السلام نے فرمایا:",
-              "zh": "阿里愿他平安说："
-            },
             "word_end": 6,
             "word_start": 0
           },
           {
             "arabic_text": "اَلْمُضَارِبُ مَا أَنْفَقَ فِي سَفَرِهِ فَهُوَ مِنْ جَمْعِ الْمَالِ فَإِذَا قَدِمَ بَلْدَتَهُ فَمَا أَنْفَقَ فَهُوَ مِنْ نَصِيبِهِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "মুদারিব তার যাত্রার সময় যা কিছু ব্যয় করে তা যৌথ মূলধন থেকে হয়; তারপর যখন সে তার শহরে পৌঁছায়, তখন যা কিছু ব্যয় করে তা তার নিজের অংশ থেকে হয়।",
-              "de": "Was der Mudarib während seiner Reise ausgibt, stammt aus dem gemeinsamen Kapital; wenn er dann in seiner Stadt ankommt, stammen seine Ausgaben von seinem eigenen Anteil.",
-              "en": "Whatever the mudarib spends during his travel is from the joint capital; then when he arrives at his town, whatever he spends is from his own share.",
-              "es": "Lo que el mudarib gasta durante su viaje es del capital conjunto; luego, cuando llega a su ciudad, lo que gasta es de su propia parte.",
-              "fa": "هرچه مضارب در سفر خود خرج کند از سرمایه مشترک است؛ سپس وقتی به شهر خود می‌رسد، هرچه خرج کند از سهم خودش است.",
-              "fr": "Tout ce que le mudarib dépense pendant son voyage provient du capital commun ; puis, lorsqu'il arrive dans sa ville, ce qu'il dépense provient de sa part personnelle.",
-              "id": "Apa pun yang dibelanjakan oleh mudarib selama perjalanannya adalah dari modal bersama; kemudian ketika dia tiba di kotanya, apa pun yang dia belanjakan adalah dari bagiannya sendiri.",
-              "ru": "Все, что мудариб тратит во время путешествия, берется из совместного капитала; когда он прибывает в свой город, все его расходы идут из его доли.",
-              "tr": "Mudarib seyahat sırasında harcadığı her şey ortak sermayeden sayılır; sonra kasabasına vardığında harcadığı her şey kendi payından olur.",
-              "ur": "جو کچھ بھی مضارب اپنے سفر کے دوران خرچ کرتا ہے وہ مشترکہ سرمایہ سے ہوتا ہے؛ پھر جب وہ اپنے شہر پہنچتا ہے تو جو کچھ بھی وہ خرچ کرتا ہے وہ اس کے اپنے حصے سے ہوتا ہے۔",
-              "zh": "穆达里卜旅行期间的所有开销均来自共同资本；当他抵达自己的城镇时，他的开销则来自他自己的份额。"
-            },
             "word_end": 23,
             "word_start": 6
           }
@@ -81,25 +68,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "اَلْمُضَارِبُ": "the investment agent or working partner in a mudarabah agreement",
-            "بَلْدَتَهُ": "his home town or place of residence",
-            "جَمْعِ الْمَالِ": "the pooled or joint capital of the partnership",
-            "سَفَرِهِ": "his journey undertaken for the business",
-            "نَصِيبِهِ": "his own portion or personal share"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "اَلْمُضَارِبُ",
+          "سَفَرِهِ",
+          "جَمْعِ الْمَالِ",
+          "بَلْدَتَهُ",
+          "نَصِيبِهِ"
+        ],
         "related_quran": [
           {
             "ref": "2:198",
@@ -110,32 +85,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "মুদারাবাহে এজেন্টের যাত্রা খরচ ব্যবসায়িক মূলধন থেকে নেওয়া হয় নাকি তার নিজের অংশ থেকে?",
-          "de": "Werden bei der Mudarabah die Reisekosten des Agenten aus dem Geschäftskapital oder aus seinem eigenen Anteil bezahlt?",
-          "en": "In mudarabah, are the agent's travel expenses taken from the business capital or from his own share?",
-          "es": "En la mudarabah, ¿los gastos de viaje del agente se toman del capital del negocio o de su propia parte?",
-          "fa": "در مضاربه، هزینه‌های سفر عامل از سرمایه کسب‌وکار برداشته می‌شود یا از سهم خودش؟",
-          "fr": "Dans la mudarabah, les frais de déplacement de l'agent sont-ils pris sur le capital de l'entreprise ou sur sa part personnelle ?",
-          "id": "Dalam mudarabah, apakah biaya perjalanan agen diambil dari modal usaha atau dari bagiannya sendiri?",
-          "ru": "В мударбе расходы агента на поездку берутся из капитала бизнеса или из его собственной доли?",
-          "tr": "Mudarabahda, temsilcinin seyahat masrafları işletme sermayesinden mi yoksa kendi payından mı karşılanır?",
-          "ur": "کیا مضاربت میں ایجنٹ کے سفر کے اخراجات کاروباری سرمایہ سے لیے جاتے ہیں یا اس کے اپنے حصے سے؟",
-          "zh": "穆达拉巴中代理人的旅行费用是从业务资本中扣除还是从他自己的份额中扣除？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি মুদারাবাহ সম্পর্কিত একটি আইনি বিধান বর্ণনা করে: ব্যবসায়িক যাত্রার সময় কাজ করা অংশীদারের খরচ যৌথ মূলধন থেকে নেওয়া হয়। যখন সে বাড়ি ফিরে আসে, তখন তার ব্যক্তিগত ব্যয় আর ব্যবসায়িক ব্যয় হিসেবে গণ্য হয় না এবং তা তার নিজের অংশ থেকে হয়।",
-          "de": "Dieser Hadith legt eine rechtliche Regelung zur Mudarabah fest: Die Ausgaben des arbeitenden Partners während einer Geschäftsreise werden dem gemeinsamen Kapital belastet. Nach seiner Rückkehr werden seine persönlichen Ausgaben nicht mehr als Geschäftsausgaben betrachtet und stammen aus seinem eigenen Anteil.",
-          "en": "This hadith states a legal ruling concerning mudarabah: the working partner's expenses during business travel are charged to the shared capital. Once he returns home, his personal expenditures are no longer treated as business expenses and come from his own share.",
-          "es": "Este hadiz establece una regla legal sobre la mudarabah: los gastos del socio trabajador durante el viaje de negocios se cargan al capital conjunto. Una vez que regresa a casa, sus gastos personales ya no se consideran gastos comerciales y provienen de su propia parte.",
-          "fa": "این حدیث حکم شرعی مربوط به مضاربه را بیان می‌کند: هزینه‌های شریک عامل در سفر کاری از سرمایه مشترک برداشت می‌شود. پس از بازگشت به خانه، هزینه‌های شخصی او دیگر هزینه‌های تجاری محسوب نمی‌شود و از سهم خودش است.",
-          "fr": "Ce hadith énonce une règle juridique concernant la mudarabah : les dépenses du partenaire actif lors d'un voyage d'affaires sont imputées au capital commun. Une fois rentré chez lui, ses dépenses personnelles ne sont plus considérées comme des dépenses professionnelles et proviennent de sa part personnelle.",
-          "id": "Hadis ini menyatakan ketentuan hukum mengenai mudarabah: pengeluaran mitra kerja selama perjalanan bisnis dibebankan pada modal bersama. Setelah kembali ke rumah, pengeluaran pribadinya tidak lagi dianggap sebagai biaya bisnis dan berasal dari bagiannya sendiri.",
-          "ru": "Этот хадис устанавливает юридическое правило, касающееся мударабы: расходы работающего партнера во время деловой поездки оплачиваются из совместного капитала. После возвращения домой его личные расходы больше не считаются деловыми и оплачиваются из его доли.",
-          "tr": "Bu hadis, mudarabah ile ilgili bir hukuki hükmü belirtir: İş seyahati sırasında çalışan ortağın masrafları ortak sermayeden karşılanır. Eve döndüğünde, kişisel harcamaları artık iş gideri sayılmaz ve kendi payından karşılanır.",
-          "ur": "یہ حدیث مضاربت کے متعلق ایک قانونی حکم بیان کرتی ہے: کاروباری سفر کے دوران کام کرنے والے شراکت دار کے اخراجات مشترکہ سرمایہ سے ادا کیے جاتے ہیں۔ جب وہ گھر واپس آتا ہے تو اس کے ذاتی اخراجات کاروباری اخراجات نہیں سمجھے جاتے اور وہ اس کے اپنے حصے سے ہوتے ہیں۔",
-          "zh": "此圣训阐明了关于穆达拉巴的法律规定：工作合伙人在商务旅行期间的开销由共同资本承担；当他回到家乡时，他的开销则来自他自己的份额，不再视为业务开销。"
-        },
         "tags": [
           "jurisprudence",
           "economy"

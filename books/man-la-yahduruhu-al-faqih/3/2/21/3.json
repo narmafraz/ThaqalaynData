@@ -17,61 +17,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى عَبْدُ اللَّهِ بْنُ مُسْكَانَ عَنِ الْحَلَبِيِّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ أَنَّهُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং আবদুল্লাহ ইবনে মুসকান আল-হালাবী থেকে, যিনি আবী আবদুল্লাহ عليه السلام থেকে বর্ণনা করেছেন, বলেছেন:",
-              "de": "Und ʿAbdullāh ibn Muskān berichtete von al-Ḥalabī, von Abī ʿAbdillāh عليه السلام, dass er sagte:",
-              "en": "And ʿAbdullāh ibn Muskān narrated from al-Ḥalabī, from Abī ʿAbdillāh عليه السلام, that he said:",
-              "es": "Y ʿAbdullāh ibn Muskān narró de al-Ḥalabī, de Abī ʿAbdillāh عليه السلام, que dijo:",
-              "fa": "و ʿAbdullāh ibn Muskān از الحلبی، از ابی عبدالله علیه السلام روایت کرده که فرمود:",
-              "fr": "Et ʿAbdullāh ibn Muskān a rapporté d’al-Ḥalabī, de Abī ʿAbdillāh عليه السلام, qu’il a dit :",
-              "id": "Dan ʿAbdullāh ibn Muskān meriwayatkan dari al-Ḥalabī, dari Abī ʿAbdillāh علیه السلام, bahwa beliau berkata:",
-              "ru": "И ʿАбдуллах ибн Мускан передал от аль-Халаби, от Аби ʿАбдуллах عليه السلام, что он сказал:",
-              "tr": "Ve ʿAbdullāh ibn Muskān, al-Ḥalabī’den, o da Abī ʿAbdillāh عليه السلام’dan rivayet etti ki şöyle dedi:",
-              "ur": "اور عبداللہ ابن مسکان نے الحلبی سے، جو کہ ابو عبداللہ علیہ السلام سے روایت کرتے ہیں، بیان کیا کہ انہوں نے فرمایا:",
-              "zh": "ʿAbdullāhibnMuskān从al-Ḥalabī那里传述，来自AbīʿAbdillāhعليهالسلام，说："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "فِي رَجُلٍ ابْتَاعَ مِنْ رَجُلٍ طَعَامًا بِدَرَاهِمَ فَأَخَذَ نِصْفَهُ ثُمَّ جَاءَهُ بَعْدَ ذَلِكَ وَ قَدِ ارْتَفَعَ الطَّعَامُ أَوْ نَقَصَ فَقَالَ «إِنْ كَانَ يَوْمَ ابْتَاعَهُ سَاعَرَهُ بِكَذَا وَ كَذَا فَهُوَ ذَاكَ وَ إِنْ لَمْ يَكُنْ سَاعَرَهُ فَإِنَّمَا لَهُ سِعْرُ يَوْمِهِ»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন ব্যক্তি অন্য একজন থেকে দিরহাম দিয়ে খাবার কিনে, তারপর তার অর্ধেক নেয়, এবং পরে যখন খাবারের দাম বেড়ে যায় বা কমে যায় তখন ফিরে আসে, তিনি বলেন: “যদি সে যেদিন কিনেছিল সেই দিনে তার সাথে দাম নির্ধারণ করেছিল, তবে সেটাই দাম। কিন্তু যদি দাম নির্ধারণ না করে থাকে, তবে সে শুধু সেই দিনের দাম পাবে।”",
-              "de": "Bezüglich eines Mannes, der von einem anderen Mann Lebensmittel für Dirham kaufte, dann die Hälfte davon nahm und danach zurückkam, als der Preis der Lebensmittel gestiegen oder gefallen war, sagte er: „Wenn er am Tag des Kaufs den Preis mit ihm so und so festgelegt hat, dann ist das der Preis. Wenn er den Preis nicht festgelegt hat, hat er nur Anspruch auf den Preis des Tages.“",
-              "en": "Regarding a man who bought food from another man for dirhams, then took half of it, and afterwards came back when the price of the food had risen or fallen, he said: “If, on the day he bought it, he fixed its price with him at such-and-such, then that is the price. But if he had not fixed the price with him, then he is only entitled to the price of that day.”",
-              "es": "Respecto a un hombre que compró comida a otro hombre por dirhams, luego tomó la mitad, y después regresó cuando el precio de la comida había subido o bajado, dijo: “Si, el día que la compró, fijó su precio con él en tal y tal cantidad, ese es el precio. Pero si no fijó el precio con él, entonces solo tiene derecho al precio de ese día.”",
-              "fa": "در مورد مردی که از مرد دیگری غذا به دراهم خرید و سپس نیمی از آن را گرفت و بعداً آمد وقتی که قیمت غذا افزایش یا کاهش یافته بود، فرمود: «اگر در روز خرید، قیمت آن را با او چنین و چنان تعیین کرده بود، همان قیمت است. اما اگر قیمت را تعیین نکرده بود، فقط حق دارد قیمت آن روز را بگیرد.»",
-              "fr": "Concernant un homme qui a acheté de la nourriture à un autre homme pour des dirhams, puis en a pris la moitié, et est ensuite revenu lorsque le prix de la nourriture avait augmenté ou diminué, il a dit : « Si, le jour où il l’a achetée, il a fixé son prix avec lui à tel ou tel montant, c’est ce prix-là. Mais s’il n’a pas fixé le prix avec lui, alors il n’a droit qu’au prix du jour. »",
-              "id": "Mengenai seorang pria yang membeli makanan dari pria lain dengan dirham, kemudian mengambil setengahnya, dan setelah itu kembali ketika harga makanan naik atau turun, beliau berkata: “Jika pada hari dia membelinya dia menetapkan harganya dengannya seperti ini dan itu, maka itulah harganya. Tetapi jika dia tidak menetapkan harganya dengannya, maka dia hanya berhak atas harga hari itu.”",
-              "ru": "Относительно человека, который купил у другого человека еду за дирхамы, затем взял половину, а потом вернулся, когда цена на еду поднялась или упала, он сказал: «Если в день покупки он установил с ним цену так-то и так-то, то это та цена. Но если он не установил цену с ним, то он имеет право только на цену того дня.»",
-              "tr": "Bir adamın başka bir adamdan dirhem karşılığında yiyecek satın alması, sonra yarısını alması ve daha sonra yiyeceğin fiyatı yükselmiş ya da düşmüşken geri gelmesi hakkında şöyle dedi: “Eğer satın aldığı gün onunla fiyatını böyle ve böyle belirlediyse, o fiyat geçerlidir. Ama fiyat belirlemediyse, sadece o günün fiyatını alır.”",
-              "ur": "ایک شخص کے بارے میں جو دوسرے شخص سے دراھم کے بدلے کھانا خریدتا ہے، پھر اس کا آدھا لے لیتا ہے، اور بعد میں واپس آتا ہے جب کھانے کی قیمت بڑھ گئی ہو یا کم ہو گئی ہو، فرمایا: “اگر جس دن اس نے اسے خریدا تھا اس دن اس نے اس کی قیمت اس کے ساتھ مقرر کی تھی تو وہی قیمت ہوگی۔ لیکن اگر اس نے قیمت مقرر نہیں کی تھی تو اسے صرف اس دن کی قیمت ملے گی۔”",
-              "zh": "关于一个人用迪拉姆从另一个人那里买食物，然后拿走一半，之后当食物价格上涨或下降时回来，他说：“如果他在购买当天与他约定了价格为这样那样，那就是那个价格。但如果他没有与他约定价格，那么他只能得到当天的价格。”"
-            },
             "word_end": 55,
             "word_start": 16
           },
           {
             "arabic_text": "قَالَ وَ قَالَ فِي الرَّجُلِ يَكُونُ عِنْدَهُ لَوْنَانِ مِنْ طَعَامٍ وَاحِدٍ قَدْ سَعَّرَهُمَا بِشَيْءٍ وَ أَحَدُهُمَا خَيْرٌ مِنَ الْآخَرِ فَيَخْلِطُهُمَا جَمِيعًا ثُمَّ يَبِيعُهُمَا بِسِعْرٍ وَاحِدٍ قَالَ «لَا يَصْلُحُ لَهُ أَنْ يَفْعَلَ يَغُشَّ بِهِ الْمُسْلِمِينَ حَتَّى يُبَيِّنَهُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এবং তিনি বললেন এমন একজন ব্যক্তির সম্পর্কে যার কাছে একই ধরনের দুই রকম খাবার আছে এবং তিনি তাদের একই দামে মূল্য নির্ধারণ করেছেন, যদিও একটির মান অন্যটির থেকে ভালো, তারপর তিনি সবগুলো মিশিয়ে এক দামে বিক্রি করেন, তিনি বললেন: “এটা তার জন্য ঠিক নয় মুসলমানদের প্রতারণা করা যতক্ষণ না সে এটা স্পষ্ট করে।”",
-              "de": "Und er sagte über einen Mann, der zwei Arten desselben Lebensmittels hat und sie beide zum gleichen Preis angesetzt hat, obwohl eines besser ist als das andere, dann mischt er sie alle zusammen und verkauft sie zu einem Preis, er sagte: „Es ist nicht richtig, dass er das tut und die Muslime dadurch täuscht, bis er es klarstellt.“",
-              "en": "And he said concerning a man who has two kinds of one foodstuff, and he has priced them similarly while one of them is better than the other, so he mixes them all together and then sells them at one price, he said: “It is not proper for him to do that, deceiving the Muslims by it, unless he makes it clear.”",
-              "es": "Y dijo respecto a un hombre que tiene dos tipos de un mismo alimento, y los ha valorado igual aunque uno sea mejor que el otro, luego los mezcla todos y los vende a un solo precio, dijo: “No es correcto que haga eso, engañando a los musulmanes con ello, a menos que lo aclare.”",
-              "fa": "و درباره مردی که دو نوع از یک غذا دارد و هر دو را به یک قیمت تعیین کرده در حالی که یکی بهتر از دیگری است، سپس همه را مخلوط کرده و به یک قیمت می‌فروشد، فرمود: «درست نیست که با این کار مسلمانان را فریب دهد مگر اینکه آن را روشن کند.»",
-              "fr": "Et il a dit concernant un homme qui a deux sortes d’un même aliment, et qui les a tous deux tarifés de la même manière alors que l’un est meilleur que l’autre, puis il les mélange tous ensemble et les vend à un seul prix, il a dit : « Il n’est pas convenable qu’il fasse cela, trompant les musulmans par là, à moins qu’il ne le précise clairement. »",
-              "id": "Dan beliau berkata mengenai seorang pria yang memiliki dua jenis dari satu makanan yang sama, dan dia menetapkan harga keduanya sama padahal salah satunya lebih baik dari yang lain, lalu dia mencampur semuanya dan menjualnya dengan satu harga, beliau berkata: “Tidak pantas baginya melakukan itu, menipu kaum Muslimin dengan hal itu, kecuali dia menjelaskannya.”",
-              "ru": "И он сказал о человеке, у которого есть два вида одного и того же продукта, и он установил на них одинаковую цену, хотя один лучше другого, затем смешал их вместе и продает по одной цене, он сказал: «Неправильно, чтобы он так поступал, обманывая мусульман, пока он это не прояснит.»",
-              "tr": "Ve şöyle dedi: Bir adamın aynı yiyeceğin iki çeşidi olduğunda ve onları aynı fiyata sattığında, ancak biri diğerinden daha iyiyse, hepsini karıştırıp tek bir fiyatla satarsa, dedi ki: “Müslümanları aldatmak için bunu yapması doğru değildir, ta ki bunu açıkça belirtinceye kadar.”",
-              "ur": "اور انہوں نے فرمایا کہ ایک شخص کے بارے میں جو ایک ہی قسم کے دو رنگ کے کھانے رکھتا ہے اور دونوں کی قیمت ایک جیسی لگا دیتا ہے جبکہ ایک دوسرے سے بہتر ہوتا ہے، پھر وہ دونوں کو ملا کر ایک ہی قیمت پر بیچ دیتا ہے، فرمایا: “ایسا کرنا اس کے لیے درست نہیں کہ وہ مسلمانوں کو دھوکہ دے جب تک کہ وہ واضح نہ کرے۔”",
-              "zh": "他说关于一个人拥有同一种食物的两种颜色，并且给它们定了相同的价格，而其中一种比另一种更好，他将它们全部混合然后以一个价格出售，他说：“他这样做欺骗穆斯林是不合适的，除非他明确说明。”"
-            },
             "word_end": 91,
             "word_start": 55
           }
@@ -120,28 +94,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بِدَرَاهِمَ": "for dirhams, meaning payment in silver currency",
-            "سَاعَرَهُ": "fixed or agreed a price with him",
-            "سِعْرُ يَوْمِهِ": "the market price of that day",
-            "طَعَامًا": "food commodity being bought and sold",
-            "لَوْنَانِ": "two varieties or grades of the same food",
-            "يَخْلِطُهُمَا": "mixes the two together",
-            "يَغُشَّ": "to deceive or commit fraud in sale",
-            "يُبَيِّنَهُ": "to make it clear and disclose it to the buyer"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "طَعَامًا",
+          "بِدَرَاهِمَ",
+          "سَاعَرَهُ",
+          "سِعْرُ يَوْمِهِ",
+          "لَوْنَانِ",
+          "يَخْلِطُهُمَا",
+          "يَغُشَّ",
+          "يُبَيِّنَهُ"
+        ],
         "related_quran": [
           {
             "ref": "83:1-3",
@@ -156,32 +118,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "বিক্রয়ের পরে বাজারের দাম পরিবর্তন এবং বাণিজ্যে বিভিন্ন মানের খাবার মিশানোর শাস্তি কী?",
-          "de": "Wie lautet das Urteil über Preisänderungen nach einem Verkauf und das Mischen unterschiedlicher Lebensmittelqualitäten im Handel?",
-          "en": "What is the ruling on changing market prices after a sale and on mixing different qualities of food in trade?",
-          "es": "¿Cuál es el fallo sobre el cambio de precios de mercado después de una venta y sobre mezclar diferentes calidades de alimentos en el comercio?",
-          "fa": "حکم تغییر قیمت‌های بازار پس از فروش و مخلوط کردن کیفیت‌های مختلف غذا در تجارت چیست؟",
-          "fr": "Quelle est la règle concernant la variation des prix du marché après une vente et le mélange de différentes qualités d’aliments dans le commerce ?",
-          "id": "Apa hukum perubahan harga pasar setelah penjualan dan pencampuran kualitas makanan yang berbeda dalam perdagangan?",
-          "ru": "Каково постановление по поводу изменения рыночных цен после продажи и смешивания разных качеств продуктов в торговле?",
-          "tr": "Satış sonrası piyasa fiyatlarındaki değişiklikler ve ticarette farklı kalitedeki yiyeceklerin karıştırılması hakkında hüküm nedir?",
-          "ur": "فروخت کے بعد مارکیٹ کی قیمتوں میں تبدیلی اور تجارت میں مختلف معیار کے کھانے کو ملانے کے بارے میں حکم کیا ہے؟",
-          "zh": "销售后市场价格变化及贸易中混合不同品质食物的裁决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস খাদ্য এবং মূল্য নির্ধারণ সম্পর্কিত বিক্রয়ের আইনি বিধান প্রদান করে। এটি প্রতিষ্ঠা করে যে নির্ধারিত মূল্য বাধ্যতামূলক, কিন্তু যদি মূল্য নির্ধারণ না করা হয় তবে বর্তমান বাজার মূল্য প্রযোজ্য; এছাড়াও একই খাদ্যের বিভিন্ন মান মিশিয়ে স্পষ্ট না করে বিক্রি করা প্রতারণা হিসেবে নিষিদ্ধ।",
-          "de": "Dieser Hadith gibt rechtliche Vorschriften für Verkäufe, die Lebensmittel und Preisgestaltung betreffen. Er stellt fest, dass ein vereinbarter Preis bindend ist, aber wenn kein Preis festgelegt wurde, gilt der aktuelle Marktpreis; er verbietet auch das Mischen unterschiedlicher Qualitäten desselben Lebensmittels und den Verkauf ohne Klarstellung, da dies Täuschung ist.",
-          "en": "This hadith gives legal rulings on sales involving food and pricing. It establishes that an agreed price remains binding, but if no price was fixed, the current market price applies; it also forbids mixing different grades of the same food and selling them without clarification, because that is deception.",
-          "es": "Este hadiz establece reglas legales sobre ventas que involucran alimentos y precios. Establece que un precio acordado es vinculante, pero si no se fijó precio, se aplica el precio de mercado actual; también prohíbe mezclar diferentes calidades de un mismo alimento y venderlos sin aclaración, porque eso es engaño.",
-          "fa": "این حدیث احکام شرعی در مورد فروش غذا و قیمت‌گذاری را بیان می‌کند. مشخص می‌کند که قیمت توافق شده الزام‌آور است، اما اگر قیمتی تعیین نشده باشد، قیمت بازار جاری اعمال می‌شود؛ همچنین مخلوط کردن انواع مختلف یک غذا و فروش آن بدون توضیح، فریب است و ممنوع است.",
-          "fr": "Ce hadith donne des règles juridiques sur les ventes impliquant la nourriture et la tarification. Il établit qu’un prix convenu reste contraignant, mais si aucun prix n’a été fixé, le prix du marché actuel s’applique ; il interdit également de mélanger différentes qualités d’un même aliment et de les vendre sans clarification, car cela constitue une tromperie.",
-          "id": "Hadis ini memberikan ketentuan hukum tentang penjualan yang melibatkan makanan dan penetapan harga. Menetapkan bahwa harga yang disepakati tetap mengikat, tetapi jika tidak ada harga yang ditetapkan, harga pasar saat ini berlaku; juga melarang mencampur kualitas makanan yang berbeda dan menjualnya tanpa penjelasan karena itu adalah penipuan.",
-          "ru": "Этот хадис содержит правовые постановления о продажах, связанных с едой и ценообразованием. Устанавливает, что согласованная цена обязательна, но если цена не была зафиксирована, применяется текущая рыночная цена; также запрещает смешивать разные качества одного и того же продукта и продавать их без разъяснения, так как это обман.",
-          "tr": "Bu hadis, yiyecek ve fiyatlandırma ile ilgili satışlarda hukuki hükümler verir. Kararlaştırılmış fiyatın bağlayıcı olduğunu, ancak fiyat belirlenmemişse mevcut piyasa fiyatının geçerli olduğunu; ayrıca aynı yiyeceğin farklı kalitelerinin açıklama yapılmadan karıştırılarak satılmasının aldatma olduğunu belirtir.",
-          "ur": "یہ حدیث کھانے پینے کی اشیاء کی خرید و فروخت اور قیمتوں کے بارے میں شرعی احکام بیان کرتی ہے۔ یہ واضح کرتی ہے کہ طے شدہ قیمت پابند ہوتی ہے، لیکن اگر قیمت مقرر نہ کی گئی ہو تو موجودہ مارکیٹ قیمت لاگو ہوتی ہے؛ نیز مختلف معیار کے کھانے کو بغیر وضاحت کے ملا کر بیچنا دھوکہ دہی ہے اور منع ہے۔",
-          "zh": "这段圣训对涉及食物和定价的销售给出了法律裁决。它规定约定的价格具有约束力，但如果未约定价格，则适用当前市场价格；同时禁止将同一种食物的不同等级混合后不说明地出售，因为那是欺骗。"
-        },
         "tags": [
           "jurisprudence",
           "economy",

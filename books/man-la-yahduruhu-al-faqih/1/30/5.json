@@ -18,61 +18,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং নবী, সাল্লাল্লাহু আলাইহি ওয়া আলিহি, বললেন:",
-              "de": "Und der Prophet, Friede sei mit ihm und seiner Familie, sagte:",
-              "en": "And the Prophet, peace be upon him and his family, said:",
-              "es": "Y el Profeta, la paz sea con él y su familia, dijo:",
-              "fa": "و پیامبر، صلی الله علیه و آله، فرمود:",
-              "fr": "Et le Prophète, paix et bénédictions sur lui et sa famille, a dit :",
-              "id": "Dan Nabi, shallallahu 'alaihi wa aalihi, berkata:",
-              "ru": "И Пророк, мир ему и его семье, сказал:",
-              "tr": "Ve Peygamber, sallallahu aleyhi ve aileh, şöyle buyurdu:",
-              "ur": "اور نبی، صلی اللہ علیہ وآلہ وسلم، نے فرمایا:",
-              "zh": "先知,愿他和平与他的家人,说："
-            },
             "word_end": 7,
             "word_start": 0
           },
           {
             "arabic_text": "«مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَ الْيَوْمِ الْآخِرِ»",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "\"যে আল্লাহ ও আখেরাতের দিনে বিশ্বাস করে\"",
-              "de": "\"Wer an Allah und den Jüngsten Tag glaubt\"",
-              "en": "\"Whoever believes in Allah and the Last Day\"",
-              "es": "\"Quien cree en Allah y en el Día del Juicio\"",
-              "fa": "«کسی که به خدا و روز قیامت ایمان دارد»",
-              "fr": "\"Quiconque croit en Allah et au Jour dernier\"",
-              "id": "\"Barangsiapa yang beriman kepada Allah dan Hari Akhir\"",
-              "ru": "\"Кто верит в Аллаха и в День Последний\"",
-              "tr": "\"Kim Allah'a ve Ahiret gününe inanıyorsa\"",
-              "ur": "‘‘جو اللہ اور آخرت کے دن پر ایمان رکھتا ہے‘‘",
-              "zh": "\"凡信仰安拉和末日者\""
-            },
             "word_end": 14,
             "word_start": 7
           },
           {
             "arabic_text": "فَلَا يَبِيتَنَّ إِلَّا بِوَتْرٍ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তাহলে তাকে রাত কাটাতে হবে শুধুমাত্র উইত্র নামাজের সঙ্গে।",
-              "de": "dann soll er die Nacht nur mit Witr verbringen.",
-              "en": "then he should not spend the night except with witr.",
-              "es": "entonces no debe pasar la noche excepto con witr.",
-              "fa": "پس نباید شب را جز با وتر به سر برد.",
-              "fr": "alors il ne doit pas passer la nuit sauf avec le witr.",
-              "id": "maka dia tidak boleh bermalam kecuali dengan witr.",
-              "ru": "то он не должен проводить ночь, кроме как с витр.",
-              "tr": "o geceyi ancak vitir ile geçirmelidir.",
-              "ur": "تو اسے رات صرف وتر کے ساتھ گزارنی چاہیے۔",
-              "zh": "那么他不应除以夜晚祈祷（وتر）结束夜晚。"
-            },
             "word_end": 18,
             "word_start": 14
           }
@@ -84,26 +58,14 @@
           "narrators": []
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "اللَّهِ": "Allah, the One in whom faith is affirmed",
-            "النَّبِيُّ": "the Prophet صلى الله عليه وآله وسلم, the speaker of this hadith",
-            "الْيَوْمِ الْآخِرِ": "the Last Day, the Day of Judgment and final return",
-            "بِوَتْرٍ": "with witr, meaning after having performed the witr prayer",
-            "يَبِيتَنَّ": "spends the night or goes to sleep",
-            "يُؤْمِنُ": "believes with faith and conviction"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "النَّبِيُّ",
+          "يُؤْمِنُ",
+          "اللَّهِ",
+          "الْيَوْمِ الْآخِرِ",
+          "يَبِيتَنَّ",
+          "بِوَتْرٍ"
+        ],
         "related_quran": [
           {
             "ref": "2:177",
@@ -118,32 +80,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "নবী صلی اللہ علیہ وآلہ وسلم ওয়িত্র নামাজ না পড়ে ঘুমানোর বিষয়ে কী শিক্ষা দিয়েছেন?",
-          "de": "Was lehrte der Prophet صلى الله عليه وآله وسلم über das Schlafen ohne Witr-Gebet?",
-          "en": "What did the Prophet صلى الله عليه وآله وسلم teach about sleeping without performing witr?",
-          "es": "¿Qué enseñó el Profeta صلى الله عليه وآله وسلم sobre dormir sin realizar witr?",
-          "fa": "پیامبر صلی الله علیه وآله وسلم درباره خوابیدن بدون انجام وتر چه تعلیم داد؟",
-          "fr": "Qu'a enseigné le Prophète صلى الله عليه وآله وسلم au sujet de dormir sans accomplir le witr ?",
-          "id": "Apa yang diajarkan Nabi صلى الله عليه وآله وسلم tentang tidur tanpa melakukan witir?",
-          "ru": "Что Пророк صلى الله عليه وآله وسلم учил о сне без совершения витр?",
-          "tr": "Peygamber صلى الله عليه وآله وسلم, vitir olmadan uyumak hakkında ne öğretti?",
-          "ur": "نبی صلی اللہ علیہ وآلہ وسلم نے وتر کے بغیر سونے کے بارے میں کیا تعلیم دی؟",
-          "zh": "先知صلى الله عليه وآله وسلم关于不做夜祷（وتر）就睡觉教导了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস বিশ্বাসীকে রাতের শেষ ওয়িত্র নামাজের মাধ্যমে শেষ করার আহ্বান জানায়, এবং এই প্রথাকে আল্লাহ ও আখেরাতের দিনে বিশ্বাসের সঙ্গে যুক্ত করে। এটি ইবাদতে ভক্তি এবং রাতের নামাজের সুন্নাহ বজায় রেখে আল্লাহর সামনে প্রস্তুত থাকার গুরুত্ব দেয়।",
-          "de": "Dieser Hadith ermahnt den Gläubigen, die Nacht mit dem Witr-Gebet zu beenden und verbindet diese Praxis mit dem Glauben an Allah und den Jüngsten Tag. Er betont die Hingabe im Gebet und die Bereitschaft vor Allah durch die Einhaltung der Sunnah des Nachtgebets.",
-          "en": "This hadith urges the believer to conclude the night with the witr prayer, linking this practice to faith in Allah and the Last Day. It emphasizes devotion in worship and readiness before Allah through maintaining the sunnah of nightly prayer.",
-          "es": "Este hadiz insta al creyente a concluir la noche con la oración de witr, vinculando esta práctica con la fe en Allah y el Día del Juicio. Enfatiza la devoción en la adoración y la preparación ante Allah mediante el mantenimiento de la sunnah de la oración nocturna.",
-          "fa": "این حدیث مؤمن را به پایان بردن شب با نماز وتر ترغیب می‌کند و این عمل را به ایمان به خدا و روز قیامت مرتبط می‌سازد. بر اخلاص در عبادت و آمادگی در پیشگاه خدا از طریق حفظ سنت نماز شب تأکید دارد.",
-          "fr": "Ce hadith incite le croyant à conclure la nuit par la prière du witr, reliant cette pratique à la foi en Allah et au Jour dernier. Il souligne la dévotion dans l'adoration et la préparation devant Allah en maintenant la sunnah de la prière nocturne.",
-          "id": "Hadis ini mendorong orang beriman untuk mengakhiri malam dengan salat witir, mengaitkan praktik ini dengan keimanan kepada Allah dan Hari Akhir. Menekankan pengabdian dalam ibadah dan kesiapan di hadapan Allah melalui menjaga sunnah salat malam.",
-          "ru": "Этот хадис призывает верующего завершать ночь молитвой витр, связывая эту практику с верой в Аллаха и Судный день. Он подчеркивает преданность в поклонении и готовность перед Аллахом через соблюдение сунны ночной молитвы.",
-          "tr": "Bu hadis, mümini geceyi vitir namazıyla bitirmeye teşvik eder ve bu uygulamayı Allah'a ve Ahiret gününe imanla ilişkilendirir. İbadette bağlılığı ve gece namazı sünnetini koruyarak Allah'a karşı hazırlıklı olmayı vurgular.",
-          "ur": "یہ حدیث مومن کو رات وتر کی نماز کے ساتھ ختم کرنے کی ترغیب دیتی ہے، اور اس عمل کو اللہ اور آخرت کے دن پر ایمان سے جوڑتی ہے۔ یہ عبادت میں خلوص اور رات کی نماز کی سنت کو قائم رکھنے کے ذریعے اللہ کے حضور تیار رہنے پر زور دیتی ہے۔",
-          "zh": "此圣训敦促信士以夜祷（وتر）结束夜晚，将此行为与信仰安拉及末日联系起来。强调通过保持夜间祈祷的逊奈，在崇拜中表现虔诚并在安拉面前保持准备。"
-        },
         "tags": [
           "worship",
           "prophetic_tradition",

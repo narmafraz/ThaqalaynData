@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى إِسْحَاقُ بْنُ عَمَّارٍ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং ইসহাক ইবনে আম্মার বর্ণনা করেছেন; তিনি বললেন:",
-              "de": "Und Isḥāq ibn ʿAmmār berichtete; er sagte:",
-              "en": "And Isḥāq ibn ʿAmmār narrated; he said:",
-              "es": "Y narró Isḥāq ibn ʿAmmār; dijo:",
-              "fa": "و اسحاق بن عمار روایت کرد؛ گفت:",
-              "fr": "Et Isḥāq ibn ʿAmmār a rapporté ; il a dit :",
-              "id": "Dan Isḥāq ibn ʿAmmār meriwayatkan; dia berkata:",
-              "ru": "И рассказал Исхак ибн Аммар; он сказал:",
-              "tr": "Ve İshak ibn Ammar rivayet etti; dedi ki:",
-              "ur": "اور اِسحاق ابن عمار نے روایت کی؛ انہوں نے کہا:",
-              "zh": "以斯哈克本阿玛尔传述；他说："
-            },
             "word_end": 6,
             "word_start": 0
           },
           {
             "arabic_text": "قُلْتُ لِأَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ أَ يَنْظُرُ الْمَمْلُوكُ إِلَى شَعْرِ مَوْلَاتِهِ قَالَ «نَعَمْ وَ إِلَى سَاقِهَا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবু আবদিল্লাহ عليه السلام কে বললাম: \"একজন দাস কি তার মালিকানার নারীর চুল দেখতে পারে?\" তিনি বললেন: \"হ্যাঁ, এবং তার ساقকেও।\"",
-              "de": "Ich fragte Abū ʿAbdillāh عليه السلام: „Darf der Sklave das Haar seiner Herrin ansehen?“ Er sagte: „Ja, und auch ihre ساق.“",
-              "en": "I said to Abū ʿAbdillāh عليه السلام: \"May the owned servant look at the hair of his mistress?\" He said: \"Yes, and at her ساق as well.\"",
-              "es": "Le pregunté a Abū ʿAbdillāh عليه السلام: \"¿Puede el esclavo mirar el cabello de su señora?\" Él dijo: \"Sí, y también a su ساق.\"",
-              "fa": "به ابی عبدالله علیه السلام گفتم: «آیا بنده مالک می‌تواند به موی مولایش نگاه کند؟» فرمود: «بله، و به ساق او نیز.»",
-              "fr": "J'ai dit à Abū ʿAbdillāh عليه السلام : «Le serviteur peut-il regarder les cheveux de sa maîtresse ?» Il a dit : «Oui, et aussi à sa ساق.»",
-              "id": "Aku bertanya kepada Abu ʿAbdillāh علیه السلام: \"Apakah budak laki-laki boleh melihat rambut majikannya?\" Beliau berkata: \"Ya, dan juga ساقnya.\"",
-              "ru": "Я спросил у Абу Абдиллаха عليه السلام: «Может ли раб смотреть на волосы своей госпожи?» Он ответил: «Да, и на её ساق тоже.»",
-              "tr": "Ben Ebu Abdillah عليه السلام'a sordum: \"Bir köle, hanım efendisinin saçına bakabilir mi?\" O dedi ki: \"Evet, ve bacaklarına da.\"",
-              "ur": "میں نے ابو عبداللہ علیہ السلام سے کہا: \"کیا مملوک اپنے مولاۃ کے بال دیکھ سکتا ہے؟\" انہوں نے فرمایا: \"ہاں، اور اس کے ساق بھی۔\"",
-              "zh": "我问阿布阿卜杜拉 عليه السلام：“男奴可以看他女主人的头发吗？”他说：“可以，也可以看她的 ساق。”"
-            },
             "word_end": 23,
             "word_start": 6
           }
@@ -81,25 +68,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْمَمْلُوكُ": "the owned male servant or slave",
-            "سَاقِهَا": "her lower leg",
-            "شَعْرِ": "hair",
-            "مَوْلَاتِهِ": "his mistress or female owner",
-            "يَنْظُرُ": "to look"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمَمْلُوكُ",
+          "شَعْرِ",
+          "مَوْلَاتِهِ",
+          "يَنْظُرُ",
+          "سَاقِهَا"
+        ],
         "related_quran": [
           {
             "ref": "24:31",
@@ -110,32 +85,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام এর মতে, একজন পুরুষ দাস কি তার মালিকানার নারীর চুল এবং ساق দেখতে পারে?",
-          "de": "Darf ein männlicher Sklave nach Imam al-Ṣādiq عليه السلام das Haar und die ساق seiner Herrin ansehen?",
-          "en": "Can a male slave look at the hair and ساق of his mistress according to Imam al-Ṣādiq عليه السلام?",
-          "es": "¿Puede un esclavo masculino mirar el cabello y ساق de su señora según el Imam al-Ṣādiq عليه السلام?",
-          "fa": "آیا طبق نظر امام الصادق علیه السلام برده مذکر می‌تواند به موی و ساق مولایش نگاه کند؟",
-          "fr": "Un esclave masculin peut-il regarder les cheveux et ساق de sa maîtresse selon l'Imam al-Ṣādiq عليه السلام ?",
-          "id": "Apakah menurut Imam al-Ṣādiq عليه السلام budak laki-laki boleh melihat rambut dan ساق majikannya?",
-          "ru": "Может ли мужской раб смотреть на волосы и ساق своей госпожи согласно Имаму ас-Садику عليه السلام?",
-          "tr": "İmam al-Ṣādiq عليه السلام'a göre erkek köle hanım efendisinin saçına ve ساق'ına bakabilir mi?",
-          "ur": "کیا امام الصادق علیہ السلام کے مطابق مرد مملوک اپنی مولاۃ کے بال اور ساق دیکھ سکتا ہے؟",
-          "zh": "根据伊玛目萨迪克 عليه السلام，男奴可以看他女主人的头发和 ساق吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ইমাম জাফর ইবনে মুহাম্মদ আল-সাদিক عليه السلام এর কাছে একটি আইনি প্রশ্ন রেকর্ড করে যেখানে একজন পুরুষ দাস তার মালিকানার নারীর চুল দেখার বিষয়ে জিজ্ঞাসা করা হয়। ইমাম عليه السلام ইতিবাচক উত্তর দেন এবং অনুমতি দেন তার ساق দেখতেও, যা এই নির্দিষ্ট সম্পর্কের ফিকহি সিদ্ধান্ত নির্দেশ করে।",
-          "de": "Dieser Hadith berichtet von einer Rechtsfrage an Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام bezüglich des Blicks eines männlichen Sklaven auf das Haar seiner Herrin. Der Imam عليه السلام antwortet bejahend und erweitert die Erlaubnis auch auf ihre ساق, was eine fiqh-Rechtsregel in diesem speziellen Beziehungszusammenhang anzeigt.",
-          "en": "This hadith records a legal question posed to Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام regarding the looking of a male slave at the hair of his mistress. The Imam عليه السلام replies affirmatively and extends that permission to her ساق as well, indicating a fiqh ruling in this specific relational context.",
-          "es": "Este hadiz registra una pregunta legal planteada al Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام sobre si un esclavo masculino puede mirar el cabello de su señora. El Imam عليه السلام responde afirmativamente y extiende ese permiso a su ساق también, indicando un fallo de fiqh en este contexto relacional específico.",
-          "fa": "این حدیث سوال فقهی مطرح شده از امام جعفر بن محمد الصادق علیه السلام درباره نگاه برده مذکر به موی مولایش را ثبت می‌کند. امام علیه السلام پاسخ مثبت داده و این اجازه را به ساق او نیز تعمیم می‌دهد که حکمی فقهی در این زمینه خاص است.",
-          "fr": "Ce hadith rapporte une question juridique posée à l'Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام concernant le regard d'un esclave masculin sur les cheveux de sa maîtresse. L'Imam عليه السلام répond par l'affirmative et étend cette permission à sa ساق également, indiquant un jugement de fiqh dans ce contexte relationnel spécifique.",
-          "id": "Hadis ini mencatat pertanyaan hukum yang diajukan kepada Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام mengenai seorang budak laki-laki yang melihat rambut majikannya. Imam عليه السلام menjawab dengan izin dan memperluasnya hingga ساقnya, menunjukkan hukum fikih dalam konteks hubungan khusus ini.",
-          "ru": "Этот хадис фиксирует юридический вопрос, заданный Имаму Джафару ибн Мухаммаду ас-Садику عليه السلام о том, может ли мужской раб смотреть на волосы своей госпожи. Имам عليه السلام отвечает утвердительно и расширяет разрешение на её ساق, указывая на фиххское постановление в этом конкретном контексте отношений.",
-          "tr": "Bu hadis, İmam Ca'fer ibn Muhammed el-Sâdık عليه السلام'a erkek kölenin hanım efendisinin saçına bakmasıyla ilgili sorulan bir fıkhî soruyu kaydeder. İmam عليه السلام olumlu cevap verir ve bu izni onun ساق'ına da genişletir, bu özel ilişki bağlamında bir fıkhî hükmü gösterir.",
-          "ur": "یہ حدیث امام جعفر ابن محمد الصادق علیہ السلام سے ایک فقہی سوال کی روایت کرتی ہے جس میں مرد مملوک کے لیے اپنی مولاۃ کے بال دیکھنے کی اجازت پوچھی گئی ہے۔ امام علیہ السلام نے اجازت دی اور اس کو ساق تک بڑھایا، جو اس مخصوص تعلق میں فقہی حکم کی نشاندہی کرتا ہے۔",
-          "zh": "此圣训记录了向伊玛目贾法尔·伊本·穆罕默德·萨迪克 عليه السلام 提出的法律问题，关于男奴是否可以看他女主人的头发。伊玛目 عليه السلام 肯定回答，并将许可扩展到她的 ساق，表明在此特定关系背景下的伊斯兰教法裁决。"
-        },
         "tags": [
           "jurisprudence",
           "family",

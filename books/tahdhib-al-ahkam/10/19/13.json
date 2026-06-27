@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلْحَسَنُ بْنُ مَحْبُوبٍ عَنْ أَبِي أَيُّوبَ عَنْ حُمْرَانَ عَنْ أَحَدِهِمَا عَلَيْهِمَا السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হাসান ইবন মাহবুব, আবি আইয়ুব থেকে, হুমরান থেকে, তাদের দু’জনের একজন থেকে, তাদের উভয়ের প্রতি শান্তি বর্ষিত হোক, যিনি বলেছেন:",
-              "de": "Al-Hasan ibn Mahbub, von Abi Ayyub, von Humran, von einem der beiden, Friede sei mit ihnen beiden, der sagte:",
-              "en": "Al-Hasan ibn Mahbub, from Abi Ayyub, from Humran, from one of the two of them, peace be upon them, who said:",
-              "es": "Al-Hasan ibn Mahbub, de Abi Ayyub, de Humran, de uno de los dos, la paz sea con ambos, quien dijo:",
-              "fa": "Al-Hasan ibn Mahbub، از Abi Ayyub، از Humran، از یکی از آن دو، سلام بر آن دو باد، که گفت:",
-              "fr": "Al-Hasan ibn Mahbub, d’Abi Ayyub, de Humran, de l’un des deux, que la paix soit sur eux deux, qui a dit :",
-              "id": "Al-Hasan ibn Mahbub, dari Abi Ayyub, dari Humran, dari salah seorang dari keduanya, semoga keselamatan atas keduanya, yang berkata:",
-              "ru": "Аль-Хасан ибн Махбуб, от Аби Айюба, от Хумрана, от одного из них двоих, мир им обоим, который сказал:",
-              "tr": "Al-Hasan ibn Mahbub, Ebu Eyyub’dan, Humran’dan, ikisinden birinden, ikisine de selam olsun, şöyle dedi:",
-              "ur": "الحسن بن محبوب، ابو ایوب سے، حمران سے، ان دونوں میں سے ایک سے، ان دونوں پر سلام ہو، انہوں نے کہا:",
-              "zh": "Al-HasanibnMahbub，传自AbiAyyub，传自Humran，传自他们二人中的一位，愿二人平安，他说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "لَا يُقَادُ وَالِدٌ بِوَلَدِهِ وَيُقْتَلُ الْوَلَدُ بِوَالِدِهِ إِذَا قَتَلَ وَالِدَهُ مُتَعَمِّدًا.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন পিতাকে তার সন্তানের কারণে কিসাসে হত্যা করা হয় না, আর সন্তান যদি ইচ্ছাকৃতভাবে তার পিতাকে হত্যা করে, তবে পিতার বদলে সন্তানকে হত্যা করা হয়।",
-              "de": "Ein Vater wird wegen seines Kindes nicht der Vergeltung unterworfen, während das Kind als Vergeltung für seinen Vater getötet wird, wenn es seinen Vater vorsätzlich tötet.",
-              "en": "A father is not subjected to retaliation for his child, while the child is killed in retaliation for his father if he kills his father deliberately.",
-              "es": "No se aplica la represalia contra un padre por causa de su hijo, mientras que el hijo es ejecutado en represalia por su padre si mata deliberadamente a su padre.",
-              "fa": "پدر به سبب فرزندش مورد قصاص قرار نمی‌گیرد، و اگر فرزند پدرش را عمداً بکشد، فرزند در برابر پدر کشته می‌شود.",
-              "fr": "Un père n’est pas soumis au talion à cause de son enfant, tandis que l’enfant est mis à mort en talion pour son père s’il tue délibérément son père.",
-              "id": "Seorang ayah tidak dikenai qisas karena anaknya, sedangkan anak dibunuh sebagai qisas atas ayahnya jika ia membunuh ayahnya dengan sengaja.",
-              "ru": "Отец не подвергается возмездию из-за своего ребенка, тогда как ребенок казнится в возмездие за своего отца, если он умышленно убивает своего отца.",
-              "tr": "Bir baba, çocuğu sebebiyle kısas olarak öldürülmez; ancak çocuk, babasını kasten öldürürse, babasının karşılığında öldürülür.",
-              "ur": "باپ کو اس کے بچے کے بدلے قصاص میں قتل نہیں کیا جاتا، جبکہ اگر بچہ اپنے باپ کو جان بوجھ کر قتل کرے تو اسے باپ کے بدلے قتل کیا جاتا ہے۔",
-              "zh": "父亲不会因其子女而被处以报复刑，而如果子女故意杀死其父亲，则子女会因其父亲而被处死作为报复。"
-            },
             "word_end": 24,
             "word_start": 13
           }
@@ -104,26 +91,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بِوَالِدِهِ": "for his father or parent",
-            "بِوَلَدِهِ": "for his child, in the context of retaliatory killing",
-            "مُتَعَمِّدًا": "intentionally and deliberately",
-            "وَالِدٌ": "a father or parent in the legal sense mentioned here",
-            "يُقَادُ": "to be subjected to legal retaliation (qisas)",
-            "يُقْتَلُ": "is killed as legal retaliation"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُقَادُ",
+          "وَالِدٌ",
+          "بِوَلَدِهِ",
+          "يُقْتَلُ",
+          "بِوَالِدِهِ",
+          "مُتَعَمِّدًا"
+        ],
         "related_quran": [
           {
             "ref": "2:178",
@@ -138,32 +113,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে পিতা ও সন্তানের মধ্যে কিসাসের বিধান কী?",
-          "de": "Wie lautet das Urteil über Qisas zwischen Elternteil und Kind im schiitischen Hadith?",
-          "en": "What is the ruling on qisas between a parent and child in Shia hadith?",
-          "es": "¿Cuál es la norma del qisas entre padre e hijo en el hadiz chií?",
-          "fa": "حکم قصاص میان پدر و فرزند در حدیث شیعه چیست؟",
-          "fr": "Quelle est la règle du qisas entre un parent et un enfant dans le hadith chiite ?",
-          "id": "Apa حكم qisas antara orang tua dan anak dalam hadis Syiah?",
-          "ru": "Каково постановление о кисасе между родителем и ребенком в шиитском хадисе?",
-          "tr": "Şii hadiste ebeveyn ve çocuk arasında kısasın hükmü nedir?",
-          "ur": "شعیہ حدیث میں والد اور اولاد کے درمیان قصاص کا حکم کیا ہے؟",
-          "zh": "什叶派圣训中父母与子女之间的qisas规定是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে পিতা ও সন্তানের ক্ষেত্রে কিসাস সম্পর্কিত একটি শরঈ বিধান বর্ণিত হয়েছে। এতে যে পিতা তার সন্তানকে হত্যা করে এবং যে সন্তান ইচ্ছাকৃতভাবে তার পিতাকে হত্যা করে—এই দুই অবস্থার বিধানে পার্থক্য করা হয়েছে, এবং দ্বিতীয় অবস্থাকে কিসাসের উপযুক্ত বলা হয়েছে।",
-          "de": "Dieser Hadith nennt eine rechtliche Regelung zur Vergeltung in Fällen, die Vater und Kind betreffen. Er unterscheidet zwischen dem Urteil über einen Vater, der sein Kind tötet, und einem Kind, das seinen Vater vorsätzlich tötet, und legt fest, dass Letzteres dem Qisas unterliegt.",
-          "en": "This hadith states a legal ruling regarding retaliatory killing in cases involving a parent and child. It distinguishes between the ruling for a father who kills his child and a child who intentionally kills his father, establishing the latter as liable to qisas.",
-          "es": "Este hadiz establece una norma jurídica sobre la represalia en casos que involucran a un padre y a un hijo. Distingue entre el caso del padre que mata a su hijo y el del hijo que mata deliberadamente a su padre, estableciendo que este último es sujeto de qisas.",
-          "fa": "این حدیث حکم شرعیِ قصاص را در موارد مربوط به پدر و فرزند بیان می‌کند. در آن میان حکمِ پدری که فرزندش را می‌کشد و فرزندی که عمداً پدرش را می‌کشد تفاوت گذاشته شده و دومی را مستوجب قصاص دانسته است.",
-          "fr": "Ce hadith énonce une règle juridique concernant le talion dans les cas impliquant un parent et un enfant. Il distingue entre le cas du père qui tue son enfant et celui de l’enfant qui tue délibérément son père, en établissant que ce dernier est passible du qisas.",
-          "id": "Hadis ini menyatakan hukum qisas dalam kasus yang melibatkan orang tua dan anak. Hadis ini membedakan antara حكم bagi ayah yang membunuh anaknya dan anak yang dengan sengaja membunuh ayahnya, serta menetapkan bahwa yang terakhir dikenai qisas.",
-          "ru": "Этот хадис устанавливает правовое постановление о возмездии в случаях, связанных с родителем и ребенком. В нем проводится различие между постановлением в отношении отца, убившего своего ребенка, и ребенка, который умышленно убивает своего отца, и указывается, что последний подлежит кисасу.",
-          "tr": "Bu hadis, ebeveyn ve çocuk arasındaki kısas hükmünü بیان eder. Bir babanın çocuğunu öldürmesi ile bir çocuğun babasını kasten öldürmesi arasındaki hüküm farkını ortaya koyar ve ikinci durumda kısası sabit kılar.",
-          "ur": "یہ حدیث والد اور اولاد کے درمیان قصاص کے حکم کو بیان کرتی ہے۔ اس میں اس حکم میں فرق کیا گیا ہے کہ اگر باپ اپنے بچے کو قتل کرے اور اگر بچہ جان بوجھ کر اپنے باپ کو قتل کرے، تو دوسرے صورت میں قصاص لازم ہوتا ہے۔",
-          "zh": "这段圣训阐明了涉及父母与子女时的报复刑律例。它区分了父亲杀死其子女与子女故意杀死其父亲这两种情况，并规定后者应受qisas。"
-        },
         "tags": [
           "jurisprudence",
           "family",

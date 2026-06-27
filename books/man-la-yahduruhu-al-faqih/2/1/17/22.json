@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তিনি, তাঁর উপর শান্তি বর্ষিত হোক, বললেন:",
-              "de": "Und er, Friede sei mit ihm, sagte:",
-              "en": "And he, peace be upon him, said:",
-              "es": "Y él, la paz sea con él, dijo:",
-              "fa": "و او، علیه السلام، فرمود:",
-              "fr": "Et lui, que la paix soit sur lui, a dit :",
-              "id": "Dan beliau, semoga keselamatan atasnya, berkata:",
-              "ru": "И он, мир ему, сказал:",
-              "tr": "Ve o, selam üzerine olsun, dedi ki:",
-              "ur": "اور انہوں نے، علیہ السلام، فرمایا:",
-              "zh": "他，愿他安息，说："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "«إِذَا أَعْطَيْتُمُوهُمْ فَلَقِّنُوهُمُ الدُّعَاءَ فَإِنَّهُ يُسْتَجَابُ لَهُمْ فِيكُمْ وَ لَا يُسْتَجَابُ لَهُمْ فِي أَنْفُسِهِمْ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যখন তুমি তাদের দাও, তখন তাদের দোয়া শেখাও, কারণ তাদের তোমার জন্য দোয়া কবুল হয়, কিন্তু তাদের নিজের জন্য দোয়া কবুল হয় না।",
-              "de": "Wenn ihr ihnen gebt, dann lehrt sie das Du'a, denn ihr Du'a für euch wird erhört, während ihr Du'a für sich selbst nicht erhört wird.",
-              "en": "When you give to them, then teach them the du'a, for their du'a for you is answered, while their du'a for themselves is not answered.",
-              "es": "Cuando les des, entonces enséñales la du'a, porque su du'a por ti es respondida, mientras que su du'a por sí mismos no es respondida.",
-              "fa": "وقتی به آنها می‌دهید، سپس دعاکردن را به آنها بیاموزید، زیرا دعای آنها برای شما مستجاب می‌شود، در حالی که دعای آنها برای خودشان مستجاب نمی‌شود.",
-              "fr": "Lorsque vous leur donnez, enseignez-leur la du'a, car leur du'a pour vous est exaucée, tandis que leur du'a pour eux-mêmes ne l'est pas.",
-              "id": "Ketika kamu memberi kepada mereka, maka ajarkanlah mereka doa, karena doa mereka untukmu dikabulkan, sedangkan doa mereka untuk diri mereka sendiri tidak dikabulkan.",
-              "ru": "Когда вы даёте им, научите их дуа, ибо их дуа за вас принимается, а их дуа за себя не принимается.",
-              "tr": "Onlara verdiğinizde, onlara duâyı öğretin; çünkü onlar sizin için yaptıkları duâ kabul edilir, kendi için yaptıkları ise kabul edilmez.",
-              "ur": "جب تم انہیں دو، تو انہیں دعا سکھاؤ، کیونکہ ان کی تمہارے لیے دعا قبول ہوتی ہے، جبکہ ان کی اپنی دعا قبول نہیں ہوتی۔",
-              "zh": "当你们给予他们时，就教他们祈祷，因为他们为你们的祈祷会被应允，而他们为自己祈祷则不会被应允。"
-            },
             "word_end": 18,
             "word_start": 4
           }
@@ -81,26 +68,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَعْطَيْتُمُوهُمْ": "you gave to them; meaning you offered them charity or support",
-            "الدُّعَاءَ": "the du'a; supplication made to Allah",
-            "فَلَقِّنُوهُمُ": "then teach or prompt them; meaning encourage them to say a supplication",
-            "فِي أَنْفُسِهِمْ": "for themselves; concerning their own personal needs",
-            "فِيكُمْ": "for you; on your behalf or concerning you",
-            "يُسْتَجَابُ": "it is answered; meaning accepted by Allah"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَعْطَيْتُمُوهُمْ",
+          "فَلَقِّنُوهُمُ",
+          "الدُّعَاءَ",
+          "يُسْتَجَابُ",
+          "فِيكُمْ",
+          "فِي أَنْفُسِهِمْ"
+        ],
         "related_quran": [
           {
             "ref": "2:261",
@@ -119,32 +94,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কেন একজনকে দান করার পর দরিদ্রদের তার জন্য দোয়া করতে বলা উচিত?",
-          "de": "Warum sollte man die Armen bitten, nach der Zakat für einen zu beten?",
-          "en": "Why should a person ask the poor to pray for them after giving charity?",
-          "es": "¿Por qué debe una persona pedir a los pobres que recen por ella después de dar caridad?",
-          "fa": "چرا پس از دادن صدقه باید از فقرا خواست برای ما دعا کنند؟",
-          "fr": "Pourquoi doit-on demander aux pauvres de prier pour soi après avoir donné la zakat ?",
-          "id": "Mengapa seseorang harus meminta orang miskin berdoa untuknya setelah memberi sedekah?",
-          "ru": "Почему после дачи садаки следует просить бедных молиться за вас?",
-          "tr": "Sadaka verdikten sonra fakirlerden neden onlar için dua etmelerini istemeliyiz?",
-          "ur": "صدقہ دینے کے بعد غریبوں سے دعا کیوں کرانی چاہیے؟",
-          "zh": "为什么施舍后应请贫穷者为你祈祷？"
-        },
-        "summaries": {
-          "bn": "ইমাম জাফর ইবনে মুহাম্মদ আল-সাদিক عليه السلام শিক্ষা দেন যে দরিদ্রদের দান করার সময় তাদের দোয়া করতে বলুন। এই হাদিস দরিদ্রদের সাহায্যের আধ্যাত্মিক গুরুত্বকে জোর দেয় এবং নির্দেশ করে যে তাদের প্রার্থনা দাতার জন্য বিশেষভাবে গ্রহণযোগ্য।",
-          "de": "Imam Jaʿfar ibn Muḥammad al-Ṣādiq علیه السلام lehrt, dass man den Bedürftigen beim Geben von Zakat beibringen soll, Du'a zu machen. Der Hadith betont den spirituellen Wert der Unterstützung der Bedürftigen und zeigt, dass ihre Fürbitte für den Geber besonders angenommen wird.",
-          "en": "Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام teaches that when giving charity to those in need, one should ask them to make du'a. The hadith emphasizes the spiritual value of supporting the needy and indicates that their supplication on behalf of the giver is especially worthy of acceptance.",
-          "es": "El Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام enseña que al dar caridad a los necesitados, se debe pedir que hagan du'a. El hadiz enfatiza el valor espiritual de apoyar a los necesitados e indica que su súplica a favor del donante es especialmente digna de aceptación.",
-          "fa": "امام جعفر بن محمد الصادق علیه السلام تعلیم می‌دهند که هنگام دادن صدقه به نیازمندان، باید از آنها خواست دعا کنند. این حدیث بر ارزش معنوی حمایت از نیازمندان تأکید دارد و نشان می‌دهد که دعای آنها به نفع دهنده به ویژه مستجاب است.",
-          "fr": "L'Imam Jaʿfar ibn Muḥammad al-Ṣādiq علیه السلام enseigne que lorsqu'on donne la zakat aux nécessiteux, il faut leur demander de faire la du'a. Le hadith souligne la valeur spirituelle du soutien aux démunis et indique que leur supplication en faveur du donateur est particulièrement digne d'acceptation.",
-          "id": "Imam Jaʿfar ibn Muḥammad al-Ṣādiq علیه السلام mengajarkan bahwa saat memberi sedekah kepada yang membutuhkan, kita harus meminta mereka berdoa. Hadis ini menekankan nilai spiritual mendukung yang membutuhkan dan menunjukkan bahwa doa mereka untuk pemberi sangat layak diterima.",
-          "ru": "Имам Джаʿфар ибн Мухаммад ас-Садик علیه السلام учит, что при даче садаки нуждающимся следует просить их делать дуа. Хадис подчеркивает духовную ценность поддержки нуждающихся и указывает, что их мольба за дающего особенно достойна принятия.",
-          "tr": "İmam Ca'fer ibn Muhammed el-Sadık علیه السلام, muhtaçlara sadaka verirken onlardan duâ etmelerini istemeyi öğretir. Hadis, muhtaçlara destek vermenin manevi değerini vurgular ve onların veren kişi için yaptıkları duânın özellikle kabul edildiğini belirtir.",
-          "ur": "امام جعفر ابن محمد الصادق علیہ السلام سکھاتے ہیں کہ ضرورت مندوں کو صدقہ دیتے وقت انہیں دعا کرنے کو کہیں۔ یہ حدیث محتاجوں کی مدد کی روحانی اہمیت کو اجاگر کرتی ہے اور بتاتی ہے کہ ان کی دعائیں دینے والے کے حق میں خاص طور پر قبول ہوتی ہیں۔",
-          "zh": "伊玛目贾法尔·伊本·穆罕默德·萨迪克 علیه السلام教导说，在给予贫困者施舍时，应请他们祈祷。此圣训强调支持贫困者的精神价值，并指出他们为施舍者的祈祷特别值得被接受。"
-        },
         "tags": [
           "ethics",
           "dua",

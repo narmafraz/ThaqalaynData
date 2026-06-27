@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلْحُسَيْنُ بْنُ سَعِيدٍ عَنْ فَضَالَةَ بْنِ أَيُّوبَ عَنِ الْحُسَيْنِ بْنِ أَبِي الْعَلَاءِ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ, ফাদালাহ ইবন আইয়ুব থেকে, আল-হুসাইন ইবন আবি আল-‘আলা’ থেকে, আবি ‘আবদিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "Al-Husayn ibn Sa'id, von Fadalah ibn Ayyub, von Al-Husayn ibn Abi al-'Ala', von Abi 'Abdillah عليه السلام, der sagte:",
-              "en": "Al-Husayn ibn Sa'id, from Fadalah ibn Ayyub, from Al-Husayn ibn Abi al-'Ala', from Abi 'Abdillah عليه السلام, who said:",
-              "es": "Al-Husayn ibn Sa'id, de Fadalah ibn Ayyub, de Al-Husayn ibn Abi al-'Ala', de Abi 'Abdillah عليه السلام, quien dijo:",
-              "fa": "الحسین بن سعید، از فضاله بن ایوب، از الحسین بن ابی‌العلا، از ابی‌عبدالله علیه‌السلام، که فرمود:",
-              "fr": "Al-Husayn ibn Sa'id, d'après Fadalah ibn Ayyub, d'après Al-Husayn ibn Abi al-'Ala', d'après Abi 'Abdillah عليه السلام, qui a dit :",
-              "id": "Al-Husayn ibn Sa'id, dari Fadalah ibn Ayyub, dari Al-Husayn ibn Abi al-'Ala', dari Abi 'Abdillah عليه السلام, yang berkata:",
-              "ru": "Аль-Хусайн ибн Са'ид, от Фадаля ибн Аййуба, от Аль-Хусайна ибн Аби аль-'Ала', от Аби 'Абдуллаха عليه السلام, который сказал:",
-              "tr": "El-Huseyn ibn Sa'id, Fadalah ibn Eyyub'dan, El-Huseyn ibn Ebi'l-Ala'dan, Ebu Abdullah عليه السلام'dan rivayet etti ki şöyle dedi:",
-              "ur": "الحسین بن سعید، فضالہ بن ایوب سے، الحسین بن ابی العلاء سے، ابی عبداللہ علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "Al-HusaynibnSa'id，传自FadalahibnAyyub，传自Al-HusaynibnAbi al-'Ala'，传自Abi'Abdillah عليه السلام，他说："
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "اِقْضِ صَلَاةَ النَّهَارِ أَيَّ سَاعَةٍ شِئْتَ مِنْ لَيْلٍ أَوْ نَهَارٍ، كُلُّ ذَلِكَ سَوَاءٌ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "দিনের সালাতের কাযা তুমি রাত বা দিনের যেকোনো সময়ে আদায় করো; এসব সবই সমান।",
-              "de": "Verrichte das Nachholen des Gebets des Tages zu jeder Stunde, die du willst, bei Nacht oder bei Tag; all das ist gleich.",
-              "en": "Make up the prayer of the day at whatever hour you wish, from the night or the day; all of that is the same.",
-              "es": "Haz la qada de la oración del día a la hora que quieras, de noche o de día; todo eso es igual.",
-              "fa": "قضای نماز روز را هر ساعتی که بخواهی، از شب یا روز به جا آور؛ همهٔ اینها یکسان است.",
-              "fr": "Accomplis le rattrapage de la prière du jour à l’heure que tu veux, de nuit ou de jour ; tout cela est pareil.",
-              "id": "Qadha salat siang pada waktu kapan pun yang engkau kehendaki, dari malam atau siang; semuanya sama.",
-              "ru": "Совершай восполнение дневной молитвы в любое время, какое пожелаешь, ночью или днем; все это одинаково.",
-              "tr": "Gündüz namazının kazasını istediğin herhangi bir saatte, gece veya gündüz kıl; bunların hepsi aynıdır.",
-              "ur": "دن کی نماز کی قضا جس وقت چاہو، رات میں یا دن میں، ادا کرو؛ یہ سب برابر ہے۔",
-              "zh": "你愿意在夜间或白天的任何时候补行白天的礼拜；这一切都是一样的。"
-            },
             "word_end": 32,
             "word_start": 19
           }
@@ -84,27 +71,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "النَّهَارِ": "The daytime, indicating the original period of the missed prayer",
-            "اِقْضِ": "Perform the make-up of a missed act of worship",
-            "سَاعَةٍ": "Any hour or time",
-            "سَوَاءٌ": "Equal, meaning there is no difference between those times for this make-up",
-            "صَلَاةَ": "The prayer being referred to for make-up",
-            "لَيْلٍ": "The night, showing permissibility of making it up then",
-            "نَهَارٍ": "The day, also showing permissibility of making it up then"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "اِقْضِ",
+          "صَلَاةَ",
+          "النَّهَارِ",
+          "سَاعَةٍ",
+          "لَيْلٍ",
+          "نَهَارٍ",
+          "سَوَاءٌ"
+        ],
         "related_quran": [
           {
             "ref": "2:238",
@@ -119,32 +94,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام-এর মতে, মিস হয়ে যাওয়া দিনের নফল কখন কাযা করা যায়?",
-          "de": "Wann können versäumte Tages-Nawafil gemäß Imam al-Sadiq عليه السلام nachgeholt werden?",
-          "en": "When can missed daytime nawafil be made up according to Imam al-Sadiq عليه السلام?",
-          "es": "¿Cuándo pueden recuperarse los nawafil diurnos perdidos según el Imam al-Sadiq عليه السلام?",
-          "fa": "بر اساس سخن امام صادق علیه‌السلام، نوافلِ روزِ فوت‌شده چه زمانی می‌توانند قضا شوند؟",
-          "fr": "Quand les nawafil diurnes manqués peuvent-ils être rattrapés selon l’imam al-Sadiq عليه السلام ?",
-          "id": "Kapan nawafil siang yang terlewat dapat diqadha menurut Imam al-Sadiq عليه السلام?",
-          "ru": "Когда можно восполнить пропущенные дневные nawafil согласно имаму ас-Садику عليه السلام?",
-          "tr": "İmam es-Sâdık عليه السلام'a göre kaçırılan gündüz nafileleri ne zaman kaza edilebilir?",
-          "ur": "امام الصادق علیہ السلام کے مطابق چھوٹی ہوئی دن کی نوافل کب قضا کی جا سکتی ہیں؟",
-          "zh": "根据伊玛目萨迪克 عليه السلام，错过的白天nawafil什么时候可以补行？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে বলা হয়েছে যে দিনের নফল সালাতের কাযা রাত বা দিনের যেকোনো সময়ে আদায় করা যেতে পারে। এটি এই নফলগুলোর কাযার সময়ে নমনীয়তা নির্দেশ করে এবং এ বিষয়ে উভয় সময় সমান।",
-          "de": "Dieser Hadith besagt, dass versäumte freiwillige Gebete am Tag zu jeder Zeit nachgeholt werden können, ob nachts oder tagsüber. Er weist auf die Flexibilität der Zeit des qada für diese nawafil hin und darauf, dass diese Zeiten in dieser Hinsicht gleich sind.",
-          "en": "This hadith states that missed daytime supererogatory prayers may be made up at any time, whether during the night or the day. It indicates flexibility in the time of qaḍāʾ for these nawafil and that these times are equal in this regard.",
-          "es": "Este hadiz afirma que las oraciones voluntarias diurnas omitidas pueden recuperarse en cualquier momento, ya sea de noche o de día. Indica flexibilidad en el tiempo de qada para estos nawafil y que ambos momentos son iguales en este aspecto.",
-          "fa": "این حدیث بیان می‌کند که نمازهای نافلهٔ روز که فوت شده‌اند، در هر زمانی، چه شب و چه روز، قابل قضا هستند. این نشان می‌دهد که در وقت قضای این نوافل، گشایش وجود دارد و از این جهت این زمان‌ها برابرند.",
-          "fr": "Ce hadith indique que les prières surérogatoires diurnes manquées peuvent être rattrapées à tout moment, de nuit comme de jour. Il montre une flexibilité dans le temps du qada pour ces nawafil et que ces moments sont égaux à cet égard.",
-          "id": "Hadis ini menyatakan bahwa salat nawafil siang yang terlewat dapat diqadha kapan saja, baik pada malam maupun siang hari. Ini menunjukkan adanya kelonggaran waktu qadha untuk nawafil tersebut dan bahwa kedua waktu itu sama dalam hal ini.",
-          "ru": "Этот хадис указывает, что пропущенные дневные добровольные молитвы можно восполнить в любое время, ночью или днем. Это показывает гибкость времени qada для этих nawafil и то, что в этом отношении оба времени равны.",
-          "tr": "Bu hadis, gündüz kılınamayan nafile namazların gece veya gündüz herhangi bir vakitte kaza edilebileceğini belirtir. Bu, bu nawafil için qada zamanında esneklik olduğunu ve bu bakımdan bu vakitlerin eşit olduğunu gösterir.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ دن کے نفل نمازوں کی قضا کسی بھی وقت کی جا سکتی ہے، خواہ رات ہو یا دن۔ اس سے ان نوافل کے قضا کے وقت میں وسعت اور اس معاملے میں دونوں اوقات کے برابر ہونے پر دلالت ہوتی ہے۔",
-          "zh": "这段圣训说明，白天错过的nawafil可以在任何时候补行，无论夜间还是白天。它表明这些nawafil的qada时间具有灵活性，并且在这方面夜间和白天是相同的。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

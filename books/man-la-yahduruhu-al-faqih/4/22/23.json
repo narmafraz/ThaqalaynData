@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى دَاوُدُ بْنُ سِرْحَانَ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং দাউদ ইবনে সিরহান আবু আবদিল্লাহ عليه السلام থেকে বর্ণনা করেছেন:",
-              "de": "Und Dāwūd ibn Sirḥān berichtete von Abū ʿAbdillāh عليه السلام:",
-              "en": "And Dāwūd ibn Sirḥān narrated from Abū ʿAbdillāh عليه السلام:",
-              "es": "Y Dāwūd ibn Sirḥān narró de Abū ʿAbdillāh عليه السلام:",
-              "fa": "و داوود بن سرحان از ابی عبدالله علیه السلام روایت کرد:",
-              "fr": "Et Dāwūd ibn Sirḥān a rapporté de Abū ʿAbdillāh عليه السلام :",
-              "id": "Dan Dāwūd ibn Sirḥān meriwayat dari Abū ʿAbdillāh علیه السلام:",
-              "ru": "И Дāвуд ибн Сирҳān передал от Абу ʿАбдиллах عليه السلام:",
-              "tr": "Ve Dâvud ibn Sirhân, Ebu Abdillah (aleyhisselâm)'dan rivayet etti:",
-              "ur": "اور داؤد ابن سرحان نے ابو عبداللہ علیہ السلام سے روایت کی:",
-              "zh": "达乌德本西尔罕从阿布阿卜杜拉 عليه السلام传述："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "فِي رَجُلَيْنِ قَتَلَا رَجُلًا قَالَ: «إِنْ شَاءَ أَوْلِيَاءُ الْمَقْتُولِ أَنْ يُؤَدُّوا دِيَةً وَ يَقْتُلُوهُمَا جَمِيعًا قَتَلُوهُمَا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "দুইজন পুরুষের সম্পর্কে যারা একজনকে হত্যা করেছে, তিনি عليه السلام বললেন: “যদি নিহতের وارিসরা রক্তদণ্ড দিতে চায় এবং উভয়কেই একসাথে হত্যা করতে চায়, তারা উভয়কেই হত্যা করতে পারে।”",
-              "de": "Bezüglich zweier Männer, die einen Mann getötet haben, sagte er عليه السلام: „Wenn die Erben des Getöteten die Blutgeldentschädigung zahlen und beide zusammen töten wollen, dürfen sie beide töten.“",
-              "en": "Regarding two men who killed a man, he عليه السلام said: “If the heirs of the slain wish to pay a blood money compensation and kill both of them together, they may kill them both.”",
-              "es": "Respecto a dos hombres que mataron a un hombre, él عليه السلام dijo: “Si los herederos del asesinado desean pagar la compensación por sangre y matar a ambos juntos, pueden matar a ambos.”",
-              "fa": "در مورد دو مرد که مردی را کشتند، ایشان علیه السلام فرمود: «اگر وراث مقتول بخواهند دیه را بپردازند و هر دو را با هم بکشند، می‌توانند هر دو را بکشند.»",
-              "fr": "Concernant deux hommes qui ont tué un homme, il عليه السلام a dit : « Si les héritiers du tué souhaitent payer la diyya et tuer les deux ensemble, ils peuvent les tuer tous les deux. »",
-              "id": "Mengenai dua orang yang membunuh seorang pria, beliau علیه السلام berkata: “Jika ahli waris orang yang terbunuh ingin membayar diyat dan membunuh keduanya bersama-sama, mereka boleh membunuh keduanya.”",
-              "ru": "Относительно двух мужчин, которые убили одного человека, он عليه السلام сказал: «Если наследники убитого желают выплатить дию и убить обоих вместе, они могут убить их обоих.»",
-              "tr": "Bir adamı öldüren iki adam hakkında, o (aleyhisselâm) şöyle dedi: “Eğer öldürülenin velileri kan bedelini ödemek ve ikisini birlikte öldürmek isterlerse, ikisini de öldürebilirler.”",
-              "ur": "دو آدمیوں کے بارے میں جنہوں نے ایک شخص کو قتل کیا، انہوں نے علیہ السلام فرمایا: “اگر مقتول کے وارث خون بہاوانہ ادا کرنا چاہیں اور دونوں کو ایک ساتھ قتل کرنا چاہیں، تو وہ دونوں کو قتل کر سکتے ہیں۔”",
-              "zh": "关于两人合杀一人，他 عليه السلام说：“如果被杀者的继承人愿意支付血钱并同时处死两人，他们可以处死两人。”"
-            },
             "word_end": 27,
             "word_start": 11
           }
@@ -91,23 +78,11 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَوْلِيَاءُ الْمَقْتُولِ": "the legal heirs or guardians of the slain who hold the right of retaliation",
-            "دِيَةً": "blood money compensation paid in cases of homicide or injury",
-            "يَقْتُلُوهُمَا جَمِيعًا": "to execute both killers together under qisas"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَوْلِيَاءُ الْمَقْتُولِ",
+          "دِيَةً",
+          "يَقْتُلُوهُمَا جَمِيعًا"
+        ],
         "related_quran": [
           {
             "ref": "2:178",
@@ -122,32 +97,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে যদি দুইজন পুরুষ একসাথে একজনকে হত্যা করে তবে বিধান কী?",
-          "de": "Wie lautet das Urteil, wenn zwei Männer gemeinsam eine Person im schiitischen Fiqh töten?",
-          "en": "What is the ruling if two men jointly kill one person in Shia fiqh?",
-          "es": "¿Cuál es el fallo si dos hombres matan conjuntamente a una persona en la fiqh chií?",
-          "fa": "در فقه شیعه حکم قتل دو نفر که با هم یک نفر را می‌کشند چیست؟",
-          "fr": "Quel est le jugement si deux hommes tuent conjointement une personne en fiqh chiite ?",
-          "id": "Apa hukum jika dua orang bersama-sama membunuh satu orang dalam fikih Syiah?",
-          "ru": "Каково постановление, если двое мужчин совместно убивают одного человека в шиизме?",
-          "tr": "Şia fıkhında iki kişi birlikte birini öldürürse hüküm nedir?",
-          "ur": "شیعہ فقہ میں اگر دو مرد مل کر ایک شخص کو قتل کریں تو حکم کیا ہے؟",
-          "zh": "什叶派教法中两人共同杀害一人判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি এমন একটি ক্ষেত্রে কিসাসের আইনি বিধান দেয় যেখানে দুই ব্যক্তি মিলিত হয়ে একজনকে হত্যা করে। এটি বলে যে নিহতের وارিসরা ইচ্ছা করলে দিয়া প্রদান করে উভয় হত্যাকারীকেই মৃত্যুদণ্ড দিতে পারে, যা হত্যার প্রতিশোধমূলক ন্যায়বিচারের নীতি স্পষ্ট করে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung im Qisas für einen Fall, in dem zwei Männer gemeinsam eine Person töten. Er besagt, dass die Erben des Opfers, wenn sie wollen, die Diya zahlen und beide Täter hinrichten dürfen, was ein Prinzip der Vergeltungsjustiz im Tötungsrecht klärt.",
-          "en": "This hadith gives a legal ruling in qisas for a case where two men jointly kill one person. It states that the heirs of the victim may, if they choose, pay the diyyah and execute both killers, clarifying a principle of retaliatory justice in homicide law.",
-          "es": "Este hadiz da un fallo legal en qisas para un caso donde dos hombres matan conjuntamente a una persona. Establece que los herederos de la víctima pueden, si así lo desean, pagar la diyya y ejecutar a ambos asesinos, aclarando un principio de justicia retaliatoria en la ley de homicidio.",
-          "fa": "این حدیث حکم حقوق قصاص را در مورد قتلی که دو نفر با هم مرتکب شده‌اند بیان می‌کند. می‌گوید وراث مقتول می‌توانند در صورت تمایل دیه را بپردازند و هر دو قاتل را اعدام کنند که اصل عدالت قصاص در قانون قتل را روشن می‌سازد.",
-          "fr": "Ce hadith donne un jugement légal en qisas pour un cas où deux hommes tuent conjointement une personne. Il stipule que les héritiers de la victime peuvent, s'ils le souhaitent, payer la diyya et exécuter les deux meurtriers, clarifiant un principe de justice rétributive en droit pénal homicide.",
-          "id": "Hadis ini memberikan hukum qisas untuk kasus di mana dua orang bersama-sama membunuh satu orang. Dinyatakan bahwa ahli waris korban boleh, jika mereka memilih, membayar diyat dan mengeksekusi kedua pembunuh, menjelaskan prinsip keadilan balas dendam dalam hukum pembunuhan.",
-          "ru": "Этот хадис даёт правовое постановление в кисаас для случая, когда двое мужчин совместно убивают одного человека. В нём говорится, что наследники жертвы могут, если захотят, выплатить дию и казнить обоих убийц, разъясняя принцип возмездия в законе об убийстве.",
-          "tr": "Bu hadis, iki kişinin birlikte birini öldürdüğü bir durumda kıyâs hükmünü verir. Öldürülmüş kişinin mirasçıları isterlerse diyyet ödeyip her iki katili de öldürebilirler, bu da cinayet hukukunda misilleme adaletinin bir ilkesini açıklar.",
-          "ur": "یہ حدیث قصاص کے قانون میں ایک ایسے معاملے کا حکم دیتی ہے جہاں دو افراد مل کر ایک شخص کو قتل کرتے ہیں۔ یہ بیان کرتی ہے کہ مقتول کے وارث اگر چاہیں تو دیہ ادا کر کے دونوں قاتلوں کو قتل کر سکتے ہیں، جو قتل کے قصاص کے اصول کو واضح کرتی ہے۔",
-          "zh": "此圣训对两人共同杀害一人的案件给出等价报复（qisas）的法律裁决。指出被害者继承人若愿意，可支付血价并处死两名凶手，阐明了杀人法中报复正义的原则。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

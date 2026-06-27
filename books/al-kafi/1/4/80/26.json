@@ -21,99 +21,47 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلْحُسَيْنُ بْنُ مُحَمَّدٍ وَغَيْرُهُ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ الْعَبَّاسِ بْنِ عَامِرٍ عَنْ مُوسَى بْنِ هِلَالٍ الْكِنْدِيِّ عَنْ عَبْدِ اللَّهِ بْنِ عَطَاءٍ عَنْ أَبِي جَعْفَرٍ ( عَلَيْهِ السَّلَامُ ) قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন মুহাম্মদ এবং অন্য একজন, জাʿফর ইবন মুহাম্মদ থেকে, ʿআলি ইবন আল-ʿআব্বাস ইবন ʿআমির থেকে, মূসা ইবন হিলাল আল-কিন্দী থেকে, ʿআবদুল্লাহ ইবন ʿআতা থেকে, আবু জাʿফর (عليه السلام) থেকে বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "Al-Husayn ibn Muhammad und ein anderer, von Jaʿfar ibn Muhammad, von ʿAlī ibn al-ʿAbbās ibn ʿĀmir, von Mūsā ibn Hilāl al-Kindī, von ʿAbd Allāh ibn ʿAṭāʾ, von Abī Jaʿfar (عليه السلام), der sagte:",
-              "en": "Al-Ḥusayn ibn Muḥammad and another, from Jaʿfar ibn Muḥammad, from ʿAlī ibn al-ʿAbbās ibn ʿĀmir, from Mūsā ibn Hilāl al-Kindī, from ʿAbd Allāh ibn ʿAṭāʾ, from Abī Jaʿfar (عليه السلام), who said:",
-              "es": "Al-Husayn ibn Muhammad y otro, de Jaʿfar ibn Muhammad, de ʿAlī ibn al-ʿAbbās ibn ʿĀmir, de Mūsā ibn Hilāl al-Kindī, de ʿAbd Allāh ibn ʿAṭāʾ, de Abī Jaʿfar (عليه السلام), quien dijo:",
-              "fa": "الحسین بن محمد و دیگری، از جعفر بن محمد، از علی بن العباس بن عامر، از موسی بن هلال کندی، از عبدالله بن عطا، از ابوجعفر (عليه السلام) روایت کردند که فرمود:",
-              "fr": "Al-Husayn ibn Muhammad et un autre, d’après Jaʿfar ibn Muhammad, d’après ʿAlī ibn al-ʿAbbās ibn ʿĀmir, d’après Mūsā ibn Hilāl al-Kindī, d’après ʿAbd Allāh ibn ʿAṭāʾ, d’après Abī Jaʿfar (عليه السلام), qui a dit :",
-              "id": "Al-Husayn ibn Muhammad dan yang lainnya, dari Jaʿfar ibn Muhammad, dari ʿAli ibn al-ʿAbbas ibn ʿAmir, dari Musa ibn Hilal al-Kindi, dari ʿAbd Allah ibn ʿAta, dari Abi Jaʿfar (عليه السلام), yang berkata:",
-              "ru": "Аль-Хусейн ибн Мухаммад и другой, от Джаʿфара ибн Мухаммада, от ʿАли ибн аль-ʿАббаса ибн ʿАмира, от Мусы ибн Хилаля аль-Кинди, от ʿАбдуллаха ибн ʿАта, от Аби Джаʿфара (عليه السلام), который сказал:",
-              "tr": "el-Hüseyin ibn Muhammed ve bir başkası, Cafer ibn Muhammed’den, Ali ibn el-Abbas ibn Amir’den, Musa ibn Hilal el-Kindî’den, Abdullah ibn Ata’dan, Ebu Cafer’den (عليه السلام) rivayet etti ki şöyle dedi:",
-              "ur": "الحسین بن محمد اور ایک اور، جعفر بن محمد سے، علی بن العباس بن عامر سے، موسیٰ بن ہلال کندی سے، عبداللہ بن عطا سے، ابو جعفر (عليه السلام) سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "阿尔-侯赛因·伊本·穆罕默德和另一人，传自贾ʿ法尔·伊本·穆罕默德，传自ʿ阿里·伊本·阿巴斯·伊本·阿米尔，传自穆萨·伊本·希拉勒·基尔迪，传自ʿ阿卜杜拉·伊本·ʿ阿塔，传自阿比·贾ʿ法尔（عليه السلام），他说："
-            },
             "word_end": 32,
             "word_start": 0
           },
           {
             "arabic_text": "قُلْتُ لَهُ إِنَّ شِيعَتَكَ بِالْعِرَاقِ كَثِيرَةٌ وَاللَّهِ مَا فِي أَهْلِ بَيْتِكَ مِثْلُكَ فَكَيْفَ لَا تَخْرُجُ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আমি তাকে বললাম: নিশ্চয়ই ইরাকে আপনার শিয়ারা অনেক। আল্লাহর কসম! আপনার আহলুল বাইতের মধ্যে আপনার মতো কেউ নেই, তাহলে আপনি কেন বের হন না?",
-              "de": "Ich sagte zu ihm: Gewiss, deine Schiiten im al-ʿIrāq sind zahlreich. Bei Allah, unter deinem Ahl al-Bayt gibt es niemanden wie dich; warum erhebst du dich also nicht?",
-              "en": "I said to him: Indeed, your Shiʿah in al-ʿIrāq are many. By Allah, there is none like you among your Ahl al-Bayt, so how is it that you do not rise?",
-              "es": "Le dije: En verdad, tus shiʿas en al-ʿIrāq son muchos. ¡Por Allah! No hay nadie como tú entre tu Ahl al-Bayt; entonces, ¿por qué no sales?",
-              "fa": "به او گفتم: همانا شیعیان تو در عراق بسیارند. به خدا سوگند، در میان اهل‌بیت تو همانند تو کسی نیست، پس چرا خروج نمی‌کنی؟",
-              "fr": "Je lui dis : En vérité, tes chiites en al-ʿIrāq sont nombreux. Par Allah, il n’y a personne comme toi parmi ton Ahl al-Bayt ; alors pourquoi ne te lèves-tu pas ?",
-              "id": "Aku berkata kepadanya: Sesungguhnya Syiahmu di al-ʿIraq sangat banyak. Demi Allah, tidak ada seorang pun di antara Ahl al-Bayt-mu yang seperti engkau, lalu mengapa engkau tidak bangkit?",
-              "ru": "Я сказал ему: Поистине, твоих шиитов в аль-ʿИраке много. Клянусь Аллахом, среди твоего Ахль аль-Байт нет никого, подобного тебе; так почему же ты не выступаешь?",
-              "tr": "Ona dedim ki: Şüphesiz Irak’taki Şiîleriniz çoktur. Allah’a yemin olsun ki, Ehl-i Beyt’iniz içinde sizin gibisi yoktur; öyleyse neden kıyam etmiyorsunuz?",
-              "ur": "میں نے ان سے کہا: بے شک عراق میں آپ کے شیعہ بہت ہیں۔ اللہ کی قسم! آپ کے اہلِ بیت میں آپ جیسا کوئی نہیں، تو پھر آپ کیوں خروج نہیں کرتے؟",
-              "zh": "我对他说：你的什叶派在伊拉克确实很多。指真主发誓，在你的圣裔中没有人像你一样，那么你为什么不起来呢？"
-            },
             "word_end": 47,
             "word_start": 32
           },
           {
             "arabic_text": "قَالَ فَقَالَ يَا عَبْدَ اللَّهِ بْنَ عَطَاءٍ قَدْ أَخَذْتَ تَفْرُشُ أُذُنَيْكَ لِلنَّوْكَى إِي وَاللَّهِ مَا أَنَا بِصَاحِبِكُمْ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: হে ʿআবদুল্লাহ ইবন ʿআতা, তুমি মূর্খদের জন্য তোমার কান পেতে দিয়েছ। হ্যাঁ, আল্লাহর কসম! আমি তোমাদের সাহিব নই।",
-              "de": "Er sagte: O ʿAbd Allāh ibn ʿAṭāʾ, du hast begonnen, deine Ohren für die Toren auszubreiten. Ja, bei Allah, ich bin nicht euer Sahib.",
-              "en": "He said: O ʿAbd Allāh ibn ʿAṭāʾ, you have begun spreading your ears for the foolish. Yes, by Allah, I am not your Sahib.",
-              "es": "Dijo: Oh ʿAbd Allāh ibn ʿAṭāʾ, has empezado a tender tus oídos para los necios. Sí, por Allah, yo no soy vuestro Sahib.",
-              "fa": "فرمود: ای عبدالله بن عطا، گوش‌هایت را برای نادانان گسترده‌ای. آری، به خدا سوگند، من صاحب شما نیستم.",
-              "fr": "Il dit : Ô ʿAbd Allāh ibn ʿAṭāʾ, tu as commencé à prêter l’oreille aux sots. Oui, par Allah, je ne suis pas votre Sahib.",
-              "id": "Beliau berkata: Wahai ʿAbd Allah ibn ʿAta, engkau telah mulai membentangkan telingamu bagi orang-orang bodoh. Ya, demi Allah, aku bukan Sahib kalian.",
-              "ru": "Он сказал: О ʿАбдуллах ибн ʿАта, ты начал расправлять свои уши для глупцов. Да, клянусь Аллахом, я не ваш Сахиб.",
-              "tr": "Şöyle dedi: Ey Abdullah ibn Ata, kulaklarını ahmaklar için sermeye başladın. Evet, Allah’a yemin olsun ki ben sizin Sahibiniz değilim.",
-              "ur": "انہوں نے فرمایا: اے عبداللہ بن عطا، تم نے اپنے کان نادانوں کے لیے بچھانے شروع کر دیے ہیں۔ ہاں، اللہ کی قسم! میں تمہارا صاحب نہیں ہوں۔",
-              "zh": "他说：啊ʿ阿卜杜拉·伊本·ʿ阿塔，你已经开始把耳朵伸给愚人了。是的，指真主发誓，我不是你们的萨希卜。"
-            },
             "word_end": 64,
             "word_start": 47
           },
           {
             "arabic_text": "قَالَ قُلْتُ لَهُ فَمَنْ صَاحِبُنَا قَالَ انْظُرُوا مَنْ عَمِيَ عَلَى النَّاسِ وِلَادَتُهُ فَذَاكَ صَاحِبُكُمْ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাকে বললাম: তাহলে আমাদের সাহিব কে? তিনি বললেন: সেই ব্যক্তিকে খোঁজো, যার জন্ম মানুষের কাছে গোপন থাকবে; সেই-ই তোমাদের সাহিব।",
-              "de": "Ich sagte zu ihm: Wer ist dann unser Sahib? Er sagte: Sucht nach demjenigen, dessen Geburt den Menschen verborgen ist; das ist euer Sahib.",
-              "en": "He said: I said to him, Then who is our Sahib? He said: Look for the one whose birth is hidden from the people; that one is your Sahib.",
-              "es": "Le dije: Entonces, ¿quién es nuestro Sahib? Dijo: Buscad a aquel cuyo nacimiento esté oculto para la gente; ese es vuestro Sahib.",
-              "fa": "به او گفتم: پس صاحب ما کیست؟ فرمود: آن کس را بجویید که ولادتش بر مردم پوشیده باشد؛ او صاحب شماست.",
-              "fr": "Je lui dis : Alors, qui est notre Sahib ? Il dit : Cherchez celui dont la naissance est cachée aux gens ; c’est lui votre Sahib.",
-              "id": "Aku berkata kepadanya: Lalu siapakah Sahib kami? Beliau berkata: Carilah orang yang kelahirannya tersembunyi dari manusia; itulah Sahib kalian.",
-              "ru": "Я сказал ему: Тогда кто же наш Сахиб? Он сказал: Ищите того, чьё рождение скрыто от людей; вот он и есть ваш Сахиб.",
-              "tr": "Ona dedim ki: O halde bizim Sahibimiz kimdir? Şöyle dedi: Doğumu insanların gözünden gizli olanı arayın; işte o sizin Sahibinizdir.",
-              "ur": "میں نے ان سے کہا: پھر ہمارا صاحب کون ہے؟ انہوں نے فرمایا: اس شخص کو تلاش کرو جس کی ولادت لوگوں پر مخفی ہو؛ وہی تمہارا صاحب ہے۔",
-              "zh": "我对他说：那么谁是我们的萨希卜？他说：去寻找那位其诞生对人们是隐秘的；那就是你们的萨希卜。"
-            },
             "word_end": 78,
             "word_start": 64
           },
           {
             "arabic_text": "إِنَّهُ لَيْسَ مِنَّا أَحَدٌ يُشَارُ إِلَيْهِ بِالْإِصْبَعِ وَيُمْضَغُ بِالْأَلْسُنِ إِلَّا مَاتَ غَيْظاً أَوْ رَغِمَ أَنْفُهُ .",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "নিশ্চয়ই আমাদের মধ্যে এমন কেউ নেই, যার দিকে আঙুল দিয়ে ইশারা করা হয় এবং জিহ্বায় জিহ্বায় চিবানো হয়, কিন্তু সে ক্রোধে মারা যায় অথবা অপমানিত হয়।",
-              "de": "Gewiss, es gibt unter uns niemanden, auf den mit den Fingern gezeigt und über den mit den Zungen geredet wird, außer dass er vor Zorn stirbt oder gedemütigt wird.",
-              "en": "Indeed, there is no one from us who is pointed at by fingers and chewed by tongues except that he dies in rage or is humiliated.",
-              "es": "Ciertamente, no hay nadie de nosotros al que se señale con los dedos y se mastique con las lenguas, sino que muere de ira o queda humillado.",
-              "fa": "همانا از ما کسی نیست که با انگشتان به او اشاره شود و بر زبان‌ها جویده شود مگر آنکه از خشم بمیرد یا خوار گردد.",
-              "fr": "En vérité, il n’est personne parmi nous qu’on désigne du doigt et qu’on mâche avec les langues, sans qu’il meure de rage ou soit humilié.",
-              "id": "Sesungguhnya tidak ada seorang pun dari kami yang ditunjuk dengan jari-jari dan diperbincangkan oleh lidah-lidah kecuali ia mati dalam kemarahan atau menjadi hina.",
-              "ru": "Поистине, нет среди нас никого, на кого указывают пальцами и кого пережёвывают языками, кроме того, что он умирает в гневе или бывает унижен.",
-              "tr": "Şüphesiz bizden öyle biri yoktur ki parmaklarla ona işaret edilip dillerde çiğnenmesin; ancak öfkeyle ölür ya da horlanır.",
-              "ur": "بے شک ہم میں سے کوئی ایسا نہیں جس کی طرف انگلیوں سے اشارہ کیا جائے اور زبانوں پر چبایا جائے مگر یہ کہ وہ غصے میں مر جائے یا ذلیل و خوار ہو جائے۔",
-              "zh": "的确，我们中没有一个人会被人指指点点、被人们用舌头议论，除非他在愤怒中死去，或者遭受羞辱。"
-            },
             "word_end": 94,
             "word_start": 78
           }
@@ -202,27 +150,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَهْلِ بَيْتِكَ": "your household, the Ahl al-Bayt",
-            "تَخْرُجُ": "you rise or come out in open revolt",
-            "شِيعَتَكَ": "your Shiʿah, your followers and loyal adherents",
-            "صَاحِبِكُمْ": "your Sahib, the awaited master or leader",
-            "وِلَادَتُهُ": "his birth",
-            "يُشَارُ إِلَيْهِ بِالْإِصْبَعِ": "being publicly identified and singled out",
-            "يُمْضَغُ بِالْأَلْسُنِ": "being talked about repeatedly by people"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "شِيعَتَكَ",
+          "أَهْلِ بَيْتِكَ",
+          "تَخْرُجُ",
+          "صَاحِبِكُمْ",
+          "وِلَادَتُهُ",
+          "يُشَارُ إِلَيْهِ بِالْإِصْبَعِ",
+          "يُمْضَغُ بِالْأَلْسُنِ"
+        ],
         "related_quran": [
           {
             "ref": "2:3",
@@ -237,32 +173,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "আল-কাফি কীভাবে আহলুল বাইতের প্রতীক্ষিত সাহিবের গোপন জন্মকে বর্ণনা করে?",
-          "de": "Wie beschreibt al-Kafi die verborgene Geburt des erwarteten Sahib aus dem Ahl al-Bayt?",
-          "en": "How does al-Kafi describe the hidden birth of the awaited Sahib from Ahl al-Bayt?",
-          "es": "¿Cómo describe al-Kafi el nacimiento oculto del Sahib esperado de Ahl al-Bayt?",
-          "fa": "الکافی چگونه ولادت پنهانِ صاحبِ موعود از اهل‌بیت را توصیف می‌کند؟",
-          "fr": "Comment al-Kafi décrit-il la naissance cachée du Sahib attendu issu de l’Ahl al-Bayt ?",
-          "id": "Bagaimana al-Kafi menggambarkan kelahiran tersembunyi Sahib yang dinanti dari Ahl al-Bayt?",
-          "ru": "Как аль-Кафи описывает скрытое рождение ожидаемого Сахиба из Ахль аль-Байт?",
-          "tr": "el-Kâfî, Ahl-i Beyt’ten beklenen Sahib’in gizli doğumunu nasıl anlatır?",
-          "ur": "الکافی میں اہلِ بیت کے منتظر صاحب کی مخفی ولادت کو کیسے بیان کیا گیا ہے؟",
-          "zh": "《卡菲》如何描述来自圣裔的被等待者萨希卜的隐秘诞生？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে বর্ণিত হয়েছে যে আবু জাʿফর (عليه السلام) অস্বীকার করেন যে তিনি প্রতীক্ষিত সাহিব, এবং দৃষ্টি নিবদ্ধ করেন এমন এক ব্যক্তির দিকে যার জন্ম মানুষের কাছে গোপন থাকবে। এতে গায়বাহ (অদৃশ্যতা/অন্তর্ধান) বিষয়টি স্পষ্ট হয় এবং ইঙ্গিত দেয় যে আহলুল বাইতের প্রকৃত কাʾিম সাধারণভাবে প্রকাশ্যভাবে চিহ্নিত হবেন না।",
-          "de": "Dieser Hadith berichtet, dass Abū Jaʿfar (عليه السلام) bestreitet, der erwartete Sahib zu sein, und die Aufmerksamkeit auf denjenigen lenkt, dessen Geburt den Menschen verborgen sein wird. Er hebt das Thema der ghaybah (Verborgenheit/Verbannung) hervor und zeigt, dass der wahre Qa'im aus dem Ahl al-Bayt nicht auf gewöhnliche Weise öffentlich erkennbar sein wird.",
-          "en": "This hadith records Abū Jaʿfar (عليه السلام) denying that he is the awaited Sahib and directing attention instead to one whose birth would be concealed from the people. It highlights the theme of ghaybah (occultation) and indicates that the true Qa'im from the Ahl al-Bayt would not be publicly identifiable in the ordinary way.",
-          "es": "Este hadiz registra que Abū Jaʿfar (عليه السلام) niega ser el Sahib esperado y dirige la atención hacia aquel cuyo nacimiento estaría oculto a la gente. Destaca el tema de la ghaybah (ocultación) e indica que el verdadero Qa'im de Ahl al-Bayt no sería identificable públicamente de la manera ordinaria.",
-          "fa": "این حدیث نقل می‌کند که ابوجعفر (عليه السلام) این‌که خود صاحبِ موعود باشد را انکار می‌کند و توجه را به کسی معطوف می‌سازد که ولادتش از مردم پوشیده خواهد بود. این روایت بر موضوع غیبت تأکید دارد و نشان می‌دهد که قائمِ حقیقی از اهل‌بیت به شیوه معمول و آشکار شناخته نخواهد شد.",
-          "fr": "Ce hadith rapporte qu’Abū Jaʿfar (عليه السلام) niege être le Sahib attendu et oriente l’attention vers celui dont la naissance serait cachée aux gens. Il met en avant le thème de la ghaybah (occultation) et indique que le véritable Qa'im issu de l’Ahl al-Bayt ne serait pas identifiable publiquement de manière ordinaire.",
-          "id": "Hadis ini mencatat bahwa Abu Jaʿfar (عليه السلام) menolak bahwa dirinya adalah Sahib yang dinanti dan mengarahkan perhatian kepada seseorang yang kelahirannya akan disembunyikan dari manusia. Ini menyoroti tema ghaybah (okultasi) dan menunjukkan bahwa Qa'im yang sejati dari Ahl al-Bayt tidak akan dikenali secara biasa dan terbuka.",
-          "ru": "Этот хадис передаёт, что Абу Джаʿфар (عليه السلام) отрицает, что он является ожидаемым Сахибом, и обращает внимание на того, чьё рождение будет скрыто от людей. В нём подчёркивается тема гайбы (сокрытия) и указывается, что истинный Каим из Ахль аль-Байт не будет обычно и открыто узнаваем.",
-          "tr": "Bu hadis, Ebu Cafer’in (عليه السلام) beklenen Sahib’in kendisi olduğunu reddettiğini ve dikkatleri doğumu insanlardan gizlenecek olan birine yönelttiğini kaydeder. Bu, gaybet temasını vurgular ve Ehl-i Beyt’ten gerçek Kâim’in sıradan şekilde açıkça tanınmayacağını gösterir.",
-          "ur": "یہ حدیث ابو جعفر (عليه السلام) سے منقول ہے کہ وہ اپنے آپ کو منتظر صاحب قرار دینے سے انکار کرتے ہیں اور توجہ اس ہستی کی طرف دلاتے ہیں جس کی ولادت لوگوں سے مخفی ہوگی۔ اس میں غیبت کے موضوع اور اہلِ بیت میں سے حقیقی قائم کے عام طور پر پہچانے نہ جانے کی طرف اشارہ ہے۔",
-          "zh": "这段圣训记载了阿布·贾ʿ法尔（عليه السلام）否认自己就是被等待的萨希卜，并将人们的注意力引向那位其诞生将对世人隐秘的人。它突出了“غيبة”（隐遁/隐没）的主题，并表明来自圣裔的真正卡伊姆不会以通常方式被公开辨认。"
-        },
         "tags": [
           "theology",
           "history",

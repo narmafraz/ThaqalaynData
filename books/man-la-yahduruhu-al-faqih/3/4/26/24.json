@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ :",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আর রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া আলিহি) বললেন:",
-              "de": "Und der Gesandte Allahs (Friede sei mit ihm und seiner Familie) sagte:",
-              "en": "And the Messenger of Allah (peace be upon him and his family) said:",
-              "es": "Y el Mensajero de Allah (la paz sea con él y su familia) dijo:",
-              "fa": "و رسول خدا (صلّی الله علیه و آله) فرمود:",
-              "fr": "Et le Messager d'Allah (paix soit sur lui et sa famille) a dit :",
-              "id": "Dan Rasulullah (shalallahu alaihi wa aalihi) bersabda:",
-              "ru": "И Посланник Аллаха (мир ему и его семье) сказал:",
-              "tr": "Ve Allah'ın Resulü (ona ve ailesine selam olsun) dedi ki:",
-              "ur": "اور رسول اللہ صلی اللہ علیہ وآلہ وسلم نے فرمایا:",
-              "zh": "安拉使者（愿他和平及其家族）说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "كُلُّ بِدْعَةٍ ضَلَالَةٌ وَ كُلُّ ضَلَالَةٍ سَبِيلُهَا إِلَى النَّارِ .",
             "chunk_type": "body",
-            "translations": {
-              "bn": "প্রতিটি বিদআত ভুল পথ এবং প্রতিটি ভুল পথ আগুনের দিকে নিয়ে যায়।",
-              "de": "Jede Neuerung ist Irreführung, und jede Irreführung führt zum Feuer.",
-              "en": "Every innovation is misguidance, and every misguidance leads to the Fire.",
-              "es": "Toda innovación es un extravío, y todo extravío conduce al Fuego.",
-              "fa": "هر بدعتی گمراهی است و هر گمراهی به سوی آتش می‌برد.",
-              "fr": "Toute innovation est un égarement, et tout égarement mène au Feu.",
-              "id": "Setiap bid'ah adalah kesesatan, dan setiap kesesatan mengarah ke Neraka.",
-              "ru": "Каждое нововведение — это заблуждение, и каждое заблуждение ведет к Огню.",
-              "tr": "Her bid'at bir sapıklıktır ve her sapıklık ateşe götürür.",
-              "ur": "ہر بدعت گمراہی ہے، اور ہر گمراہی آگ کی طرف لے جاتی ہے۔",
-              "zh": "每一项创新都是误入歧途，每一误入歧途都通向火狱。"
-            },
             "word_end": 20,
             "word_start": 10
           }
@@ -75,24 +62,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "النَّارِ": "the Fire, meaning Hellfire",
-            "بِدْعَةٍ": "innovation in religion",
-            "سَبِيلُهَا": "its path and outcome",
-            "ضَلَالَةٌ": "misguidance and deviation from the right path"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "بِدْعَةٍ",
+          "ضَلَالَةٌ",
+          "سَبِيلُهَا",
+          "النَّارِ"
+        ],
         "related_quran": [
           {
             "ref": "4:115",
@@ -107,32 +82,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হাদিসে কেন বলা হয়েছে প্রতিটি বিদআত ভুল পথ?",
-          "de": "Was bedeutet der Hadith, wenn er sagt, dass jede Neuerung Irreführung ist?",
-          "en": "What does the hadith mean by saying every innovation is misguidance?",
-          "es": "¿Qué significa el hadiz al decir que toda innovación es extravío?",
-          "fa": "معنای حدیث که می‌گوید هر بدعتی گمراهی است چیست؟",
-          "fr": "Que signifie le hadith en disant que toute innovation est un égarement ?",
-          "id": "Apa makna hadits yang mengatakan setiap bid'ah adalah kesesatan?",
-          "ru": "Что означает хадис, когда говорит, что каждое нововведение — заблуждение?",
-          "tr": "Hadiste her bid'atın sapıklık olarak nitelendirilmesinin anlamı nedir?",
-          "ur": "حدیث میں ہر بدعت کو گمراہی کیوں کہا گیا ہے؟",
-          "zh": "圣训中说每一创新皆为误入歧途是什么意思？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে প্রতিটি বিদআত ভুল পথ এবং ভুল পথ আগুনের দিকে নিয়ে যায়। এটি ধর্মীয় বিচ্যুতির বিরুদ্ধে সতর্কতা এবং সঠিক নবীজির ঐতিহ্যের প্রতি আনুগত্যের গুরুত্ব তুলে ধরে।",
-          "de": "Dieser Hadith besagt, dass jede Neuerung Irreführung ist und Irreführung zum Feuer führt. Er dient als Warnung vor religiösem Abweichen und betont die Einhaltung der wahren prophetischen Tradition.",
-          "en": "This hadith states that every bid'ah is misguidance and that misguidance leads to the Fire. It serves as a warning against religious deviation and emphasizes adherence to the true prophetic tradition.",
-          "es": "Este hadiz afirma que toda innovación es extravío y que el extravío conduce al Fuego. Sirve como advertencia contra la desviación religiosa y enfatiza la adhesión a la verdadera tradición profética.",
-          "fa": "این حدیث بیان می‌کند که هر بدعتی گمراهی است و گمراهی به سوی آتش می‌برد. این هشدار در برابر انحراف دینی است و بر پایبندی به سنت نبوی واقعی تأکید دارد.",
-          "fr": "Ce hadith affirme que toute innovation est un égarement et que l'égarement mène au Feu. Il sert d'avertissement contre la déviation religieuse et souligne l'importance de l'adhésion à la véritable tradition prophétique.",
-          "id": "Hadis ini menyatakan bahwa setiap bid'ah adalah kesesatan dan kesesatan mengarah ke Neraka. Ini berfungsi sebagai peringatan terhadap penyimpangan agama dan menekankan ketaatan pada tradisi kenabian yang benar.",
-          "ru": "Этот хадис утверждает, что каждое нововведение — заблуждение, а заблуждение ведет к Огню. Он служит предупреждением против религиозных отклонений и подчеркивает необходимость следования истинной пророческой традиции.",
-          "tr": "Bu hadis, her bid'atın sapıklık olduğunu ve sapıklığın ateşe götürdüğünü belirtir. Dini sapmalara karşı bir uyarı niteliğindedir ve gerçek peygamber geleneğine bağlı kalmayı vurgular.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ ہر بدعت گمراہی ہے اور گمراہی آگ کی طرف لے جاتی ہے۔ یہ دینی انحراف کے خلاف انتباہ ہے اور صحیح نبوی روایت کی پیروی پر زور دیتا ہے۔",
-          "zh": "此圣训指出每一项创新皆为误入歧途，误入歧途通向火狱。此为对宗教偏差的警告，强调遵循真实的先知传统。"
-        },
         "tags": [
           "prophetic_tradition",
           "ethics",

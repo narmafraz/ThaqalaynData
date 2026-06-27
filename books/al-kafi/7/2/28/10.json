@@ -14,6 +14,140 @@
       "up": "/books/al-kafi:7:2:28"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ أَبِي عَبْدِ اللَّهِ عَنْ مُعَاوِيَةَ بْنِ حُكَيْمٍ عَنْ عَلِيِّ بْنِ الْحَسَنِ بْنِ رِبَاطٍ عَنْ مُثَنًّى عَنْ يَزِيدَ الصَّائِغِ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 21,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَمِعْتُ أَبَا جَعْفَرٍ ( عَلَيْهِ السَّلَامُ ) يَقُولُ إِنَّ النِّسَاءَ لَا يَرِثْنَ مِنْ رِبَاعِ الْأَرْضِ شَيْئاً وَ لَكِنْ لَهُنَّ قِيمَةُ الطُّوبِ وَ الْخَشَبِ",
+            "chunk_type": "body",
+            "word_end": 44,
+            "word_start": 21
+          },
+          {
+            "arabic_text": "قَالَ فَقُلْتُ لَهُ إِنَّ النَّاسَ لَا يَأْخُذُونَ بِهَذَا فَقَالَ إِذَا وُلِّينَاهُمْ ضَرَبْنَاهُمْ بِالسَّوْطِ فَإِنِ انْتَهَوْا وَ إِلَّا ضَرَبْنَاهُمْ عَلَيْهِ بِالسَّيْفِ",
+            "chunk_type": "body",
+            "word_end": 64,
+            "word_start": 44
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 200,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ أَبِي عَبْدِ اللَّهِ",
+              "name_en": "Muhammad ibn Abi Abdillah",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 350,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُعَاوِيَةَ بْنِ حُكَيْمٍ",
+              "name_en": "Muawiya b. Hakim",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 372,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ الْحَسَنِ بْنِ رِبَاطٍ",
+              "name_en": "Ali b. al-Hasan b. Ribat",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 313,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُثَنًّى",
+              "name_en": "Muthanna",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 962,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "يَزِيدَ الصَّائِغِ",
+              "name_en": "Yazid al-Sa'igh",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "رِبَاعِ الْأَرْضِ",
+          "قِيمَةُ",
+          "الطُّوبِ",
+          "الْخَشَبِ",
+          "وُلِّينَاهُمْ",
+          "بِالسَّوْطِ",
+          "بِالسَّيْفِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "4:11",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "4:176",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family",
+          "governance"
+        ],
+        "topics": [
+          "inheritance",
+          "financial_law",
+          "ghadir",
+          "imams_biography"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (23/191)"
       ],
@@ -85,7 +219,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:7:2:28:10",

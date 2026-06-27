@@ -14,6 +14,147 @@
       "up": "/books/al-kafi:6:7:11"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَنْهُ عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ الْعَبَّاسِ بْنِ مَعْرُوفٍ عَنِ النَّوْفَلِيِّ عَنِ الْيَعْقُوبِيِّ عَنْ عِيسَى بْنِ عَبْدِ اللَّهِ عَنْ سُلَيْمَانَ بْنِ جَعْفَرٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 23,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قَالَ أَبُو عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) فِي قَوْلِ اللَّهِ عَزَّ وَ جَلَّ وَ أَنْزَلْنا مِنَ السَّمَاءِ مَاءً بِقَدَرٍ فَأَسْكَنَّاهُ فِي الْأَرْضِ وَ إِنَّا عَلى ذَهابٍ بِهِ لَقادِرُونَ فَقَالَ يَعْنِي مَاءَ الْعَقِيقِ",
+            "chunk_type": "body",
+            "word_end": 56,
+            "word_start": 23
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 11,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَنْهُ",
+              "name_en": "from him",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 277,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْعَبَّاسِ بْنِ مَعْرُوفٍ",
+              "name_en": "al-Abbas b. Ma'ruf",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 32,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "النَّوْفَلِيِّ",
+              "name_en": "al-Nawfali",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 770,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْيَعْقُوبِيِّ",
+              "name_en": "al-Ya'qubi",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 513,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِيسَى بْنِ عَبْدِ اللَّهِ",
+              "name_en": "Isa b. Abdullah",
+              "position": 6,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 587,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "سُلَيْمَانَ بْنِ جَعْفَرٍ",
+              "name_en": "Sulayman ibn Ja'far",
+              "position": 7,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "مَاءَ الْعَقِيقِ",
+          "قَوْلِ اللَّهِ",
+          "عَزَّ وَ جَلَّ"
+        ],
+        "related_quran": [
+          {
+            "ref": "23:18",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "78:14",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "quran_commentary",
+          "theology"
+        ],
+        "topics": [
+          "quran_interpretation_method",
+          "divine_attributes"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (22/244)"
       ],
@@ -108,7 +249,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:7:11:4",

@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ عَلَيْهِ السَّلَامُ :",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তিনি, তাঁর উপর শান্তি বর্ষিত হোক, বললেন:",
-              "de": "Und er, Friede sei mit ihm, sagte:",
-              "en": "And he, peace be upon him, said:",
-              "es": "Y él, la paz sea con él, dijo:",
-              "fa": "و او، علیه السلام، فرمود:",
-              "fr": "Et lui, que la paix soit sur lui, a dit :",
-              "id": "Dan beliau, semoga keselamatan atasnya, berkata:",
-              "ru": "И он, мир ему, сказал:",
-              "tr": "Ve o, Allah'ın selamı üzerine olsun, dedi ki:",
-              "ur": "اور انہوں نے، علیہ السلام، فرمایا:",
-              "zh": "他，愿他安息，说："
-            },
             "word_end": 5,
             "word_start": 0
           },
           {
             "arabic_text": "«ضَمِنْتُ لِمَنْ زَارَ قَبْرَ أَبِي بِطُوسَ عَارِفًا بِحَقِّهِ الْجَنَّةَ عَلَى اللَّهِ عَزَّ وَ جَلَّ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আল্লাহ, পরাক্রমশালী ও মহিমান্বিতের কাছে জান্নাতের নিশ্চয়তা দিচ্ছি যিনি আমার পিতার তুসে কবর পরিদর্শন করবেন এবং তাঁর অধিকারকে স্বীকার করবেন।",
-              "de": "Ich garantiere das Paradies bei Allah, dem Mächtigen und Erhabenen, für denjenigen, der das Grab meines Vaters in Tus besucht und sein Recht anerkennt.",
-              "en": "I guarantee Paradise with Allah, the Mighty and Exalted, for whoever visits the grave of my father in Tus, recognizing his right.",
-              "es": "Garantizo el Paraíso con Allah, el Poderoso y Exaltado, para quien visite la tumba de mi padre en Tus, reconociendo su derecho.",
-              "fa": "من به خداوند قادر و متعال ضمانت بهشت را می‌دهم برای هر کس که قبر پدرم را در توس زیارت کند و حق او را بشناسد.",
-              "fr": "Je garantis le Paradis auprès d'Allah, le Tout-Puissant et le Très-Haut, à quiconque visite la tombe de mon père à Tus en reconnaissant son droit.",
-              "id": "Aku menjamin Surga di sisi Allah Yang Maha Perkasa dan Maha Tinggi bagi siapa saja yang mengunjungi makam ayahku di Tus dengan mengenali haknya.",
-              "ru": "Я гарантирую Рай у Аллаха, Всемогущего и Возвышенного, для того, кто посетит могилу моего отца в Тусе, признавая его право.",
-              "tr": "Ben, Allah, Yüce ve Yüceler Yücesi adına, babamın Tus'taki mezarını hakkını bilen kimse için Cennet'i garanti ederim.",
-              "ur": "میں اللہ، عزوجل کے حضور جنت کی ضمانت دیتا ہوں اس کے لیے جو میرے والد کے قبر پر توس میں جائے اور ان کے حق کو پہچانے۔",
-              "zh": "我向全能至高的安拉保证，凡认知我父亲在图斯墓地权利者，必得天堂。"
-            },
             "word_end": 19,
             "word_start": 5
           }
@@ -81,28 +68,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبِي": "my father, referring to the Imam’s father",
-            "الْجَنَّةَ": "Paradise as the promised reward",
-            "بِطُوسَ": "in Tus, the location of the grave",
-            "زَارَ": "visited in the sense of performing ziyārah",
-            "ضَمِنْتُ": "I guaranteed or assured",
-            "عَارِفًا بِحَقِّهِ": "recognizing his right, rank, and due authority",
-            "عَزَّ وَ جَلَّ": "Mighty and Exalted, an honorific for Allah",
-            "قَبْرَ": "the grave or burial place being visited"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "ضَمِنْتُ",
+          "زَارَ",
+          "قَبْرَ",
+          "أَبِي",
+          "بِطُوسَ",
+          "عَارِفًا بِحَقِّهِ",
+          "الْجَنَّةَ",
+          "عَزَّ وَ جَلَّ"
+        ],
         "related_quran": [
           {
             "ref": "3:31",
@@ -117,32 +92,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-রিদা عليه السلام এর তুসে কবর পরিদর্শন করার পুরস্কার কী, যখন তাঁর অধিকার স্বীকার করা হয়?",
-          "de": "Was ist die Belohnung für den Besuch des Grabes von Imam al-Riḍā عليه السلام in Tus bei Anerkennung seines Rechts?",
-          "en": "What is the reward for visiting the grave of Imam al-Riḍā عليه السلام in Tus while recognizing his right?",
-          "es": "¿Cuál es la recompensa por visitar la tumba del Imam al-Riḍā عليه السلام en Tus reconociendo su derecho?",
-          "fa": "پاداش زیارت قبر امام الرضا علیه السلام در توس با شناخت حق ایشان چیست؟",
-          "fr": "Quelle est la récompense pour visiter la tombe de l'Imam al-Riḍā عليه السلام à Tus en reconnaissant son droit ?",
-          "id": "Apa pahala mengunjungi makam Imam al-Riḍā علیه السلام di Tus sambil mengakui haknya?",
-          "ru": "Какова награда за посещение могилы Имама аль-Риḍā عليه السلام в Тусе с признанием его права?",
-          "tr": "İmam al-Riḍā علیه السلام'ın Tus'taki mezarını hakkını bilerek ziyaret etmenin mükafatı nedir?",
-          "ur": "امام الرضا علیہ السلام کے توس میں قبر کی زیارت کے بدلے کیا اجر ہے جب ان کے حق کو پہچانا جائے؟",
-          "zh": "认知伊玛目阿尔-里扎 عليه السلام在图斯墓地权利的访问者有何回报？"
-        },
-        "summaries": {
-          "bn": "ইমাম মুহাম্মদ ইবনে আলী আল-জাওয়াদ عليه السلام তাঁর পিতার তুসে কবর পরিদর্শনের বিশাল প্রতিদান ব্যাখ্যা করেছেন, যা তাঁর অধিকার সঠিকভাবে স্বীকার করার সঙ্গে সম্পর্কিত। এই হাদিস জিয়ারাহকে মাআরিফাহর সঙ্গে যুক্ত করে এবং আল্লাহর অনুমতিতে জান্নাতের প্রতিশ্রুতি দেয়।",
-          "de": "Imam Muḥammad ibn ʿAlī al-Jawād عليه السلام beschreibt die große Belohnung für den Besuch des Grabes seines Vaters in Tus mit angemessener Anerkennung seines Rechts. Der Hadith verbindet Ziyārah mit Maʿrifah und verspricht das Paradies mit Allahs Erlaubnis für den, dessen Besuch auf wahrer Anerkennung beruht.",
-          "en": "Imam Muḥammad ibn ʿAlī al-Jawād عليه السلام states the immense reward for visiting the grave of his father in Tus with proper recognition of his right. The hadith links ziyārah with maʿrifah, promising Jannah by Allah’s leave for the one whose visitation is grounded in true acknowledgment.",
-          "es": "El Imam Muḥammad ibn ʿAlī al-Jawād عليه السلام declara la gran recompensa por visitar la tumba de su padre en Tus con el reconocimiento adecuado de su derecho. El hadiz vincula la ziyārah con la maʿrifah, prometiendo el Paraíso con el permiso de Allah para quien realice la visita con verdadero reconocimiento.",
-          "fa": "امام محمد بن علی الجواد علیه السلام پاداش عظیم زیارت قبر پدرش در توس را با شناخت حق او بیان می‌کند. این حدیث زیارت را با معرفت پیوند می‌دهد و به اذن خداوند بهشت را وعده می‌دهد.",
-          "fr": "L'Imam Muḥammad ibn ʿAlī al-Jawād عليه السلام évoque la grande récompense pour la visite de la tombe de son père à Tus avec une reconnaissance appropriée de son droit. Le hadith lie la ziyārah à la maʿrifah, promettant le Paradis avec la permission d'Allah à celui dont la visite est fondée sur une véritable reconnaissance.",
-          "id": "Imam Muḥammad ibn ʿAlī al-Jawād علیه السلام menyatakan pahala besar bagi yang mengunjungi makam ayahnya di Tus dengan pengakuan haknya. Hadis ini menghubungkan ziarah dengan maʿrifah dan menjanjikan Jannah dengan izin Allah.",
-          "ru": "Имам Мухаммад ибн Али аль-Джавад عليه السلام указывает на огромную награду за посещение могилы своего отца в Тусе с должным признанием его права. Хадис связывает зиярат с маʿрифой, обещая Рай по воле Аллаха тому, чье посещение основано на истинном признании.",
-          "tr": "İmam Muhammed ibn Ali el-Cevad علیه السلام, babasının Tus'taki mezarını hakkını bilerek ziyaret edenler için büyük mükafatı belirtmiştir. Hadis, ziyaret ile marifeti ilişkilendirir ve Allah'ın izniyle cenneti vaat eder.",
-          "ur": "امام محمد ابن علی الجواد علیہ السلام نے توس میں اپنے والد کے قبر کی زیارت کے عظیم اجر کا بیان فرمایا، جو حق کی پہچان کے ساتھ ہو۔ یہ حدیث زیارت کو معرفت سے جوڑتی ہے اور اللہ کے اذن سے جنت کا وعدہ کرتی ہے۔",
-          "zh": "伊玛目穆罕默德伊本阿里贾瓦德 عليه السلام陈述了以正确承认权利访问图斯父亲墓地的巨大回报。圣训将朝觐与认知联系，承诺凡基于真实承认的访问者，安拉必赐天堂。"
-        },
         "tags": [
           "afterlife",
           "theology",

@@ -15,61 +15,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مَا رَوَاهُ مُحَمَّدُ بْنُ عَلِيِّ بْنِ مَحْبُوبٍ عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ ابْنِ أَبِي نَجْرَانَ عَنْ حَمَّادِ بْنِ عِيسَى عَنْ حَرِيزٍ عَنْ زُرَارَةَ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন আলী ইবন মাহবূব আহমদ ইবন মুহাম্মদ থেকে, তিনি ইবন আবি নাজরান থেকে, তিনি হাম্মাদ ইবন ঈসা থেকে, তিনি হারীয থেকে, তিনি জুরারাহ থেকে বর্ণনা করেছেন, যিনি বলেছেন:",
-              "de": "Was Muhammad ibn Ali ibn Mahbub von Ahmad ibn Muhammad, von Ibn Abi Najran, von Hammad ibn Isa, von Hariz, von Zurarah überliefert hat, der sagte:",
-              "en": "What Muḥammad ibn ʿAlī ibn Maḥbūb narrated from Aḥmad ibn Muḥammad, from Ibn Abī Najrān, from Ḥammād ibn ʿĪsā, from Ḥarīz, from Zurārah, who said:",
-              "es": "Lo que Muhammad ibn Ali ibn Mahbub narró de Ahmad ibn Muhammad, de Ibn Abi Najran, de Hammad ibn Isa, de Hariz, de Zurarah, quien dijo:",
-              "fa": "آنچه محمد بن علی بن محبوب از احمد بن محمد، از ابن ابی نجران، از حماد بن عیسی، از حریز، از زراره روایت کرده است که گفت:",
-              "fr": "Ce que Muhammad ibn Ali ibn Mahbub a rapporté d’Ahmad ibn Muhammad, d’Ibn Abi Najran, de Hammad ibn Isa, de Hariz, de Zurarah, qui a dit :",
-              "id": "Apa yang diriwayatkan Muhammad ibn Ali ibn Mahbub dari Ahmad ibn Muhammad, dari Ibn Abi Najran, dari Hammad ibn Isa, dari Hariz, dari Zurarah, yang berkata:",
-              "ru": "То, что Мухаммад ибн Али ибн Махбуб передал от Ахмада ибн Мухаммада, от Ибн Аби Наджрана, от Хаммада ибн Исы, от Хариза, от Зурары, который сказал:",
-              "tr": "Muhammed ibn Ali ibn Mahbub’un, Ahmed ibn Muhammed’den, onun İbn Ebi Necran’dan, onun Hammad ibn İsa’dan, onun Hariz’den, onun Zurarah’tan rivayet ettiğine göre şöyle dedi:",
-              "ur": "محمد بن علی بن محبوب نے احمد بن محمد سے، انہوں نے ابن ابی نجران سے، انہوں نے حماد بن عیسیٰ سے، انہوں نے حریز سے، انہوں نے زرارہ سے روایت کی، جنہوں نے کہا:",
-              "zh": "穆罕默德·伊本·阿里·伊本·马赫布卜从艾哈迈德·伊本·穆罕默德传述，艾哈迈德·伊本·穆罕默德从伊本·阿比·纳吉兰传述，伊本·阿比·纳吉兰从哈马德·伊本·伊萨传述，哈马德·伊本·伊萨从哈里兹传述，哈里兹从祖拉拉传述，他说："
-            },
             "word_end": 24,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আবু জাফর عليه السلام বলেছেন: আল্লাহর রাসূল صلى الله عليه وآله وسلم বলেছেন:",
-              "de": "Abu Yaʿfar عليه السلام sagte: Der Gesandte Allahs صلى الله عليه وآله وسلم sagte:",
-              "en": "Abū Jaʿfar عليه السلام said: The Messenger of Allah صلى الله عليه وآله وسلم said:",
-              "es": "Abu Yaʿfar عليه السلام dijo: El Mensajero de Allah صلى الله عليه وآله وسلم dijo:",
-              "fa": "ابوجعفر علیه السلام فرمود: رسول خدا صلى الله عليه وآله وسلم فرمود:",
-              "fr": "Abu Jaʿfar عليه السلام a dit : Le Messager d’Allah صلى الله عليه وآله وسلم a dit :",
-              "id": "Abu Ja'far عليه السلام berkata: Rasulullah صلى الله عليه وآله وسلم bersabda:",
-              "ru": "Абу Джафар عليه السلام сказал: Посланник Аллаха صلى الله عليه وآله وسلم сказал:",
-              "tr": "Ebu Cafer عليه السلام şöyle dedi: Allah Resulü صلى الله عليه وآله وسلم şöyle buyurdu:",
-              "ur": "ابو جعفر علیہ السلام نے فرمایا: رسول اللہ صلی اللہ علیہ وآلہ وسلم نے فرمایا:",
-              "zh": "阿布·贾法尔 عليه السلام说：真主的使者 صلى الله عليه وآله وسلم说："
-            },
             "word_end": 37,
             "word_start": 24
           },
           {
             "arabic_text": "السُّجُودُ عَلَى سَبْعَةِ أَعْظُمٍ: الْجَبْهَةِ، وَالْيَدَيْنِ، وَالرُّكْبَتَيْنِ، وَالْإِبْهَامَيْنِ مِنَ الرِّجْلَيْنِ، وَتُرْغِمُ بِأَنْفِكَ إِرْغَامًا، أَمَّا الْفَرْضُ فَهَذِهِ السَّبْعَةُ، وَأَمَّا الْإِرْغَامُ بِالْأَنْفِ فَسُنَّةٌ مِنَ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "সিজদা সাতটি অঙ্গে: কপাল, দুই হাত, দুই হাঁটু, এবং পায়ের দুই বড় আঙুল। আর তোমার নাককে বিনয়ের সাথে মাটিতে রাখো। আর ফরজ হলো এই সাতটি; আর নাক মাটিতে রাখা নবী صلى الله عليه وآله وسلم-এর সুন্নাহ।",
-              "de": "Die Sajdah erfolgt auf sieben Knochen: die Stirn, die beiden Hände, die beiden Knie und die beiden großen Zehen der Füße. Und drücke deine Nase demütig auf den Boden. Was die Pflicht betrifft, so sind es diese sieben; und was das Aufsetzen der Nase auf den Boden betrifft, so ist es eine Sunnah des Propheten صلى الله عليه وآله وسلم.",
-              "en": "Sajdah is upon seven bones: the forehead, the two hands, the two knees, and the two big toes of the feet. And press your nose down in humility. As for the obligation, it is these seven; and as for pressing the nose down, it is a sunnah from the Prophet صلى الله عليه وآله وسلم.",
-              "es": "La sajdah es sobre siete huesos: la frente, las dos manos, las dos rodillas y los dos dedos gordos de los pies. Y presiona tu nariz contra el suelo con humildad. En cuanto a lo obligatorio, son estos siete; y en cuanto a presionar la nariz contra el suelo, es una sunnah del Profeta صلى الله عليه وآله وسلم.",
-              "fa": "سجده بر هفت استخوان است: پیشانی، دو دست، دو زانو، و دو شستِ پا. و بینی خود را با فروتنی بر زمین بگذار. اما واجب، همین هفت است؛ و اما گذاشتن بینی بر زمین، سنتی از پیامبر صلى الله عليه وآله وسلم است.",
-              "fr": "La sajdah se fait sur sept os : le front, les deux mains, les deux genoux et les deux gros orteils des pieds. Et abaisse ton nez sur le sol avec humilité. Quant à l’obligation, ce sont ces sept-là ; et quant à l’abaissement du nez sur le sol, c’est une sunnah du Prophète صلى الله عليه وآله وسلم.",
-              "id": "Sajdah dilakukan di atas tujuh tulang: dahi, kedua tangan, kedua lutut, dan kedua ibu jari kaki. Dan tempelkan hidungmu ke الأرض dengan rendah hati. Adapun yang wajib, itulah tujuh ini; dan adapun menempelkan hidung ke الأرض, itu adalah sunnah dari Nabi صلى الله عليه وآله وسلم.",
-              "ru": "Саджда совершается на семи костях: лбу, двух руках, двух коленях и двух больших пальцах ног. И прижми свой нос к земле со смирением. Что касается обязательного, то это эти семь; а что касается прижатия носа к земле, то это сунна Пророка صلى الله عليه وآله وسلم.",
-              "tr": "Secde yedi kemik üzerinedir: alın, iki el, iki diz ve ayakların iki başparmağı. Ve burnunu tevazu ile yere bastır. Farz olan bunlardır; burnu yere bastırmaya gelince, bu Peygamber صلى الله عليه وآله وسلم’in sünnetidir.",
-              "ur": "سجدہ سات ہڈیوں پر ہے: پیشانی، دونوں ہاتھ، دونوں گھٹنے، اور پاؤں کے دونوں بڑے انگوٹھے۔ اور اپنی ناک کو عاجزی کے ساتھ زمین پر رکھو۔ جہاں تک فرض کا تعلق ہے، تو یہ سات ہیں؛ اور ناک کو زمین پر رکھنے کے بارے میں، یہ نبی صلى الله عليه وآله وسلم کی سنت ہے۔",
-              "zh": "叩头是在七个部位上进行：额头、双手、双膝和双脚的大脚趾。并以谦卑将鼻子贴向地面。至于义务，就是这七个部位；至于把鼻子贴向地面，那是先知 صلى الله عليه وآله وسلم的圣行。"
-            },
             "word_end": 65,
             "word_start": 37
           }
@@ -108,26 +82,14 @@
             "phrase_en": "The Messenger of Allah said"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "السُّجُودُ": "prostration in salat (prayer)",
-            "الْإِرْغَامُ": "pressing the nose onto the ground in sajdah",
-            "الْجَبْهَةِ": "the forehead, one of the obligatory points of prostration",
-            "الْفَرْضُ": "that which is obligatory",
-            "سَبْعَةِ أَعْظُمٍ": "the seven bodily bones or limbs upon which sajdah is performed",
-            "سُنَّةٌ": "a recommended prophetic practice, not obligatory"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "السُّجُودُ",
+          "سَبْعَةِ أَعْظُمٍ",
+          "الْجَبْهَةِ",
+          "الْفَرْضُ",
+          "الْإِرْغَامُ",
+          "سُنَّةٌ"
+        ],
         "related_quran": [
           {
             "ref": "22:77",
@@ -138,32 +100,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "সালাতে সিজদার জন্য আবশ্যক অঙ্গগুলো কী, এবং নাক রাখা কি জরুরি?",
-          "de": "Welche Glieder sind für die Sajdah im Salat (Gebet) verpflichtend, und ist das Aufsetzen der Nase erforderlich?",
-          "en": "What are the obligatory limbs for sajdah in salat (prayer), and is placing the nose required?",
-          "es": "¿Cuáles son los miembros obligatorios para la sajdah en la salat (oración), y es necesario apoyar la nariz?",
-          "fa": "اعضای واجب برای سجده در نماز کدام‌اند، و آیا گذاشتن بینی لازم است؟",
-          "fr": "Quels sont les membres obligatoires pour la sajdah dans la salat (prière), et faut-il poser le nez ?",
-          "id": "Apa saja anggota tubuh yang wajib untuk sajdah dalam salat, dan apakah meletakkan hidung itu wajib?",
-          "ru": "Какие части тела обязательны для саджды в салате (молитве), и обязательно ли прижимать нос?",
-          "tr": "Salatta secde için farz olan uzuvlar nelerdir ve burnu yere koymak gerekli midir?",
-          "ur": "سجدہ میں نماز کے واجب اعضاء کون سے ہیں، اور کیا ناک رکھنا ضروری ہے؟",
-          "zh": "礼拜中叩头的必需肢体有哪些？必须把鼻子贴地吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে সালাতে সিজদার জন্য শরীরের যে অংশগুলো আবশ্যক, তা ব্যাখ্যা করা হয়েছে এবং সিজদা কোন সাতটি অঙ্গে করা হয় তা নির্দিষ্ট করা হয়েছে। এতে সিজদার ফরজ ও সুন্নাহর পার্থক্য করা হয়েছে, অর্থাৎ নাক মাটিতে রাখা।",
-          "de": "Dieser Hadith erklärt die für die Sajdah im Salat (Gebet) erforderlichen Körperstellen und nennt sieben Glieder, auf denen die Niederwerfung erfolgt. Er unterscheidet zwischen dem, was in der Sajdah verpflichtend ist, und dem, was Sunnah (prophetische Tradition) ist, nämlich die Nase auf den Boden zu drücken.",
-          "en": "This hadith explains the required bodily points for sajdah in salat (prayer), specifying seven limbs upon which prostration is performed. It distinguishes between what is obligatory in sajdah and what is sunnah (prophetic tradition), namely pressing the nose upon the ground.",
-          "es": "Este hadiz explica los puntos corporales requeridos para la sajdah en la salat (oración), especificando siete miembros sobre los que se realiza la postración. Distingue entre lo obligatorio en la sajdah y lo que es sunnah (tradición profética), a saber, apoyar la nariz en el suelo.",
-          "fa": "این حدیث نقاط بدنیِ واجب برای سجده در نماز را بیان می‌کند و مشخص می‌سازد که سجده بر کدام هفت عضو انجام می‌شود. همچنین میان آنچه در سجده واجب است و آنچه سنت است، یعنی گذاشتن بینی بر زمین، تفاوت می‌گذارد.",
-          "fr": "Ce hadith explique les points du corps requis pour la sajdah dans la salat (prière), en précisant sept membres sur lesquels la prosternation est effectuée. Il distingue entre ce qui est obligatoire dans la sajdah et ce qui est sunnah (tradition prophétique), à savoir poser le nez sur le sol.",
-          "id": "Hadis ini menjelaskan titik-titik anggota badan yang wajib dalam sajdah pada salat, dengan menyebutkan tujuh anggota tempat sujud dilakukan. Hadis ini membedakan antara yang wajib dalam sajdah dan yang sunnah, yaitu meletakkan hidung ke tanah.",
-          "ru": "Этот хадис разъясняет обязательные части тела для саджды в салате (молитве), указывая семь членов, на которые совершается земной поклон. В нем проводится различие между тем, что является обязательным в саджде, и тем, что является сунной (пророческой традицией), а именно прижатием носа к земле.",
-          "tr": "Bu hadis, salatta secde için gerekli beden noktalarını açıklar ve secdenin hangi yedi uzuv üzerinde yapıldığını belirtir. Secdede farz olan ile sünnet olanı, yani burnu yere koymayı birbirinden ayırır.",
-          "ur": "یہ حدیث سجدہ میں نماز کے لیے جسم کے واجب اعضاء بیان کرتی ہے، اور بتاتی ہے کہ سجدہ کن سات اعضاء پر کیا جاتا ہے۔ اس میں سجدہ کے فرض اور سنت میں فرق کیا گیا ہے، یعنی ناک کو زمین پر رکھنا۔",
-          "zh": "这段圣训解释了礼拜中叩头所要求的身体部位，明确指出叩头是在七个肢体上进行的。它区分了叩头中的义务与圣行，即把鼻子贴在地上。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

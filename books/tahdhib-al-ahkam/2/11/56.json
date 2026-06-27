@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "حَدَّثَنِي أَبِي عَنْ عَبْدِ اللَّهِ بْنِ جَمِيلِ بْنِ عَيَّاشٍ أَبِي عَلِيٍّ الْبَزَّازِ قَالَ أَخْبَرَنِي أَبِي قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আমার পিতা ʿAbd Allah ibn Jamil ibn ʿAyyash, Abū ʿAlī al-Bazzāz থেকে আমার কাছে বর্ণনা করেছেন, তিনি বলেছেন: আমার পিতা আমাকে খবর দিয়েছেন, তিনি বলেছেন:",
-              "de": "Mein Vater überlieferte mir von ʿAbd Allah ibn Jamil ibn ʿAyyash, Abū ʿAlī al-Bazzāz, der sagte: Mein Vater teilte mir mit und sagte:",
-              "en": "My father narrated to me from ʿAbd Allah ibn Jamil ibn ʿAyyash, Abū ʿAlī al-Bazzāz, who said: My father informed me, saying:",
-              "es": "Mi padre me narró de ʿAbd Allah ibn Jamil ibn ʿAyyash, Abū ʿAlī al-Bazzāz, quien dijo: Mi padre me informó, diciendo:",
-              "fa": "پدرم از ʿAbd Allah ibn Jamil ibn ʿAyyash، ابوعلی البزاز برایم روایت کرد، او گفت: پدرم مرا خبر داد و گفت:",
-              "fr": "Mon père m’a rapporté d’après ʿAbd Allah ibn Jamil ibn ʿAyyash, Abū ʿAlī al-Bazzāz, qui a dit : Mon père m’a informé en disant :",
-              "id": "Ayahku meriwayatkannya kepadaku dari ʿAbd Allah ibn Jamil ibn ʿAyyash, Abū ʿAlī al-Bazzāz, yang berkata: Ayahku memberitahuku, seraya berkata:",
-              "ru": "Мой отец передал мне от ʿAbd Allah ibn Jamil ibn ʿAyyash, Abū ʿAlī al-Bazzāz, который сказал: Мой отец сообщил мне, сказав:",
-              "tr": "Babam bana ʿAbd Allah ibn Jamil ibn ʿAyyash, Ebû ʿAlî el-Bazzâz’dan rivayet etti; o dedi ki: Babam bana haber verdi ve şöyle dedi:",
-              "ur": "میرے والد نے مجھے عبد اللہ بن جمیل بن عیاش، ابو علی البزاز سے روایت کی، انہوں نے کہا: میرے والد نے مجھے خبر دی، انہوں نے کہا:",
-              "zh": "我的父亲从ʿAbdAllahibnJamilibnʿAyyash，AbūʿAlīal-Bazzāz传述给我，他说：我的父亲告诉我，说："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُ جَعْفَرَ بْنَ مُحَمَّدٍ عَلَيْهِ السَّلَامُ عَنِ الثَّوْبِ يَعْمَلُهُ أَهْلُ الْكِتَابِ أُصَلِّي فِيهِ قَبْلَ أَنْ يُغْسَلَ قَالَ «لَا بَأْسَ وَأَنْ يُغْسَلَ أَحَبُّ إِلَيَّ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি জাʿফার ইবন মুহাম্মদ عليه السلام-কে আহলে কিতাবের তৈরি একটি পোশাক সম্পর্কে জিজ্ঞেস করলাম: তা ধোয়ার আগে কি আমি তাতে salat (নামাজ) আদায় করতে পারি? তিনি বললেন, “কোনো অসুবিধা নেই, তবে তা ধুয়ে নেওয়াই আমার কাছে বেশি পছন্দনীয়।”",
-              "de": "Ich fragte Jaʿfar ibn Muḥammad عليه السلام nach einem Kleidungsstück, das von den Leuten der Schrift hergestellt wurde: Darf ich darin salat (beten), bevor es gewaschen wird? Er sagte: „Es ist kein Problem, doch dass es gewaschen wird, ist mir lieber.“",
-              "en": "I asked Jaʿfar ibn Muḥammad عليه السلام about a garment made by the People of the Book: may I perform salat (prayer) in it before it is washed? He said, “There is no harm, though that it be washed is more beloved to me.”",
-              "es": "Le pregunté a Jaʿfar ibn Muḥammad عليه السلام acerca de una prenda hecha por la Gente del Libro: ¿puedo realizar salat (oración) en ella antes de que sea lavada? Dijo: “No hay inconveniente, aunque que sea lavada es más querido para mí.”",
-              "fa": "از جعفر بن محمد عليه السلام دربارهٔ جامه‌ای که اهل کتاب آن را ساخته‌اند پرسیدم: آیا پیش از شسته شدن می‌توانم در آن salat (نماز) بخوانم؟ فرمود: «اشکالی ندارد، هرچند شسته شدن آن نزد من محبوب‌تر است.»",
-              "fr": "J’ai demandé à Jaʿfar ibn Muḥammad عليه السلام au sujet d’un vêtement fabriqué par les Gens du Livre : puis-je y accomplir salat (la prière) avant qu’il ne soit lavé ? Il a dit : « Il n’y a pas de mal, bien que le fait qu’il soit lavé me soit plus cher. »",
-              "id": "Aku bertanya kepada Jaʿfar ibn Muḥammad عليه السلام tentang sebuah pakaian yang dibuat oleh Ahlul Kitab: bolehkah aku melakukan salat (salat) di dalamnya sebelum dicuci? Beliau bersabda, “Tidak mengapa, meskipun dicuci itu lebih aku sukai.”",
-              "ru": "Я спросил Джаʿфара ибн Мухаммада عليه السلام о одежде, сделанной людьми Писания: могу ли я совершать в ней salat (молитву) до того, как она будет выстирана? Он сказал: «В этом нет ничего предосудительного, хотя мне больше нравится, чтобы она была выстирана».",
-              "tr": "Jaʿfar ibn Muḥammad عليه السلام’a, Ehl-i Kitap’ın yaptığı bir elbise hakkında sordum: Yıkanmadan önce onun içinde salat (namaz) kılabilir miyim? O, “Bir sakınca yoktur; ancak onun yıkanması bana daha sevimlidir.” dedi.",
-              "ur": "میں نے جعفر بن محمد علیہ السلام سے اہلِ کتاب کے بنائے ہوئے ایک کپڑے کے بارے میں پوچھا: کیا میں اسے دھونے سے پہلے اس میں نماز ادا کر سکتا ہوں؟ انہوں نے فرمایا: \"کوئی حرج نہیں، اگرچہ اسے دھو لیا جائے تو مجھے زیادہ پسند ہے۔\"",
-              "zh": "我向JaʿfaribnMuḥammad عليه السلام询问一件由有经人制作的衣服：在它洗涤之前，我可以穿着它做salat（礼拜）吗？他说：“没有妨碍，不过把它洗过更令我喜爱。”"
-            },
             "word_end": 39,
             "word_start": 16
           },
           {
             "arabic_text": "قَالَ الشَّيْخُ رَحِمَهُ اللَّهُ: وَلَا تَجُوزُ الصَّلَاةُ فِي بُيُوتِ الْغَائِطِ أَوْ بُيُوتِ النِّيرَانِ وَبُيُوتِ الْخُمُورِ وَعَلَى جَوَادِّ الطُّرُقِ وَفِي مَعَاطِنِ الْإِبِلِ وَفِي أَرْضِ السَّبَخَةِ.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "আল-শাইখ, আল্লাহ তাঁর প্রতি রহম করুন, বলেছেন: salat (নামাজ) পায়খানা, আগুনের ঘর, মদের ঘর, রাস্তার প্রধান অংশে, উটের বিশ্রামস্থলে, অথবা লবণাক্ত জমিতে বৈধ নয়।",
-              "de": "Al-Shaykh, möge Allah ihm barmherzig sein, sagte: Salat (das Gebet) ist nicht erlaubt in Aborten, in Feuerhäusern und Weinhäusern, auf den Hauptteilen der Straßen, in den Rastplätzen der Kamele oder auf salzhaltigem Boden.",
-              "en": "Al-Shaykh, may Allah have mercy on him, said: Salat (prayer) is not permissible in privies, or houses of fires, and houses of wines, or on the main parts of roads, or in the resting places of camels, or on saline ground.",
-              "es": "Al-Shaykh, que Allah tenga misericordia de él, dijo: No es permisible realizar salat (oración) en letrinas, ni en casas de fuego, ni en casas de vino, ni en las partes principales de los caminos, ni en los lugares de descanso de los camellos, ni en tierra salina.",
-              "fa": "الشیخ، رحمه الله، فرمود: salat (نماز) در مستراح‌ها، یا خانه‌های آتش، و خانه‌های شراب، یا بر بخش‌های اصلی راه‌ها، و در خوابگاه‌های شتران، و در زمین شوره‌زار جایز نیست.",
-              "fr": "Al-Shaykh, qu’Allah lui fasse miséricorde, a dit : Il n’est pas permis d’accomplir salat (la prière) dans les latrines, ni dans les maisons du feu, ni dans les maisons du vin, ni sur les parties principales des routes, ni dans les lieux de repos des chameaux, ni sur un sol salin.",
-              "id": "Al-Shaykh, semoga Allah merahmatinya, berkata: Salat (salat) tidak boleh dilakukan di jamban, atau rumah-rumah api, dan rumah-rumah minuman keras, atau di bagian utama jalan, atau di tempat-tempat beristirahat unta, atau di tanah yang asin.",
-              "ru": "Аш-Шейх, да помилует его Аллах, сказал: salat (молитва) недействителен в отхожих местах, в домах огня и в домах вина, на основных частях дорог, в местах отдыха верблюдов и на солончаковой земле.",
-              "tr": "Eş-Şeyh, Allah ona rahmet etsin, dedi ki: Salat (namaz), helalarda, ateş evlerinde ve şarap evlerinde, yolların ana kısımlarında, develerin yatak yerlerinde ve tuzlu zeminde caiz değildir.",
-              "ur": "الشیخ، رحمہ اللہ، نے فرمایا: نماز بیت الخلاء، یا آگ کے گھروں، اور شراب کے گھروں میں، یا راستوں کے درمیان حصوں پر، یا اونٹوں کے بیٹھنے کی جگہوں میں، یا نمکین زمین پر جائز نہیں ہے۔",
-              "zh": "Al-Shaykh，愿真主怜悯他，说：salat（礼拜）不允许在厕所、火屋、酒屋、道路的主要部分、骆驼歇息之处，或盐碱地上进行。"
-            },
             "word_end": 63,
             "word_start": 39
           }
@@ -109,28 +83,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَرْضِ السَّبَخَةِ": "saline or salt-affected land",
-            "أَهْلُ الْكِتَابِ": "the People of the Book, referring to scriptural religious communities",
-            "الثَّوْبِ": "a garment or clothing used for salat (prayer)",
-            "الصَّلَاةُ": "salat (prayer), the ritual prayer in Islam",
-            "جَوَادِّ الطُّرُقِ": "the main thoroughfares or traveled parts of roads",
-            "لَا بَأْسَ": "there is no harm or legal objection",
-            "مَعَاطِنِ الْإِبِلِ": "the resting or watering places of camels",
-            "يُغْسَلَ": "to be washed, indicating a preferred act of purification"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الثَّوْبِ",
+          "أَهْلُ الْكِتَابِ",
+          "لَا بَأْسَ",
+          "يُغْسَلَ",
+          "الصَّلَاةُ",
+          "جَوَادِّ الطُّرُقِ",
+          "مَعَاطِنِ الْإِبِلِ",
+          "أَرْضِ السَّبَخَةِ"
+        ],
         "related_quran": [
           {
             "ref": "2:222",
@@ -145,32 +107,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "আহলে কিতাবের তৈরি পোশাকে কি salat (নামাজ) আদায় করা যায়, এবং কোথায় salat (নামাজ) বৈধ নয়?",
-          "de": "Kann man salat (das Gebet) in Kleidung verrichten, die von den Leuten der Schrift hergestellt wurde, und wo ist salat nicht erlaubt?",
-          "en": "Can one perform salat (prayer) in clothes made by the People of the Book, and where is salat (prayer) not permissible?",
-          "es": "¿Se puede realizar salat (oración) con ropa hecha por la Gente del Libro, y dónde no está permitida salat?",
-          "fa": "آیا می‌توان در لباس‌های ساختهٔ اهل کتاب salat (نماز) خواند، و salat (نماز) در کجا جایز نیست؟",
-          "fr": "Peut-on accomplir salat (la prière) avec des vêtements fabriqués par les Gens du Livre, et où salat n’est-elle pas permise ?",
-          "id": "Apakah boleh melakukan salat (salat) dengan pakaian yang dibuat oleh Ahlul Kitab, dan di mana salat tidak boleh dilakukan?",
-          "ru": "Можно ли совершать salat (молитву) в одежде, сделанной людьми Писания, и где salat недействителен?",
-          "tr": "Ehl-i Kitap’ın yaptığı kıyafetlerle salat (namaz) kılınabilir mi ve salat (namaz) nerede caiz değildir?",
-          "ur": "کیا اہلِ کتاب کے بنائے ہوئے کپڑوں میں salat (نماز) ادا کی جا سکتی ہے، اور salat (نماز) کہاں جائز نہیں؟",
-          "zh": "能否穿有经人制作的衣服做salat（礼拜），以及salat（礼拜）在哪些地方不被允许？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনায় salat (নামাজ)-এর পোশাক এবং নামাজের স্থান সম্পর্কিত বিধান আলোচনা করা হয়েছে। এতে বলা হয়েছে যে আহলে কিতাবের তৈরি পোশাক ধোয়ার আগে salat (নামাজ)-এ ব্যবহার করা যেতে পারে, যদিও তা ধুয়ে নেওয়াই উত্তম, এবং আরও বলা হয়েছে কোন কোন স্থানে salat (নামাজ) বৈধ নয়।",
-          "de": "Diese Überlieferung behandelt Bestimmungen zu Kleidern für salat (das Gebet) und zu Gebetsorten. Sie besagt, dass ein von den Leuten der Schrift hergestelltes Kleidungsstück vor dem Waschen für salat verwendet werden kann, obwohl das Waschen vorzuziehen ist, und nennt außerdem Orte, an denen salat nicht gültig ist.",
-          "en": "This report addresses rulings related to salat (prayer) garments and places of prayer. It states that a garment made by the People of the Book may be used for salat (prayer) before washing, although washing it is preferred, and it also lists places in which salat (prayer) is not valid.",
-          "es": "Este relato aborda normas relacionadas con las prendas para salat (oración) y los lugares de oración. Señala que una prenda hecha por la Gente del Libro puede usarse para salat antes de lavarse, aunque lavarla es preferible, y también enumera los lugares en los que salat no es válida.",
-          "fa": "این روایت به احکام مربوط به جامه‌های salat (نماز) و مکان‌های نماز می‌پردازد. در آن آمده است که جامه‌ای ساختهٔ اهل کتاب را می‌توان پیش از شسته شدن برای salat (نماز) به کار برد، هرچند شستن آن ترجیح دارد، و نیز مکان‌هایی را که salat (نماز) در آنها صحیح نیست برمی‌شمارد.",
-          "fr": "Ce récit traite des règles relatives aux vêtements de salat (la prière) et aux lieux de prière. Il indique qu’un vêtement fabriqué par les Gens du Livre peut être utilisé pour salat avant d’être lavé, bien que le fait de le laver soit préférable, et il énumère aussi les lieux où salat n’est pas valide.",
-          "id": "Riwayat ini membahas hukum-hukum terkait pakaian salat (salat) dan tempat-tempat salat. Disebutkan bahwa pakaian yang dibuat oleh Ahlul Kitab boleh dipakai untuk salat sebelum dicuci, meskipun mencucinya lebih disukai, dan juga menyebutkan tempat-tempat yang salat tidak sah di dalamnya.",
-          "ru": "Этот хадис касается предписаний, связанных с одеждой для salat (молитвы) и местами молитвы. В нем говорится, что одежду, сделанную людьми Писания, можно использовать для salat до стирки, хотя стирка предпочтительнее, а также перечисляются места, где salat недействителен.",
-          "tr": "Bu rivayet, salat (namaz) için elbiseler ve namaz yerleriyle ilgili hükümleri ele alır. Ehl-i Kitap’ın yaptığı bir elbisenin yıkanmadan önce salat (namaz) için kullanılabileceğini, ancak yıkanmasının tercih edildiğini belirtir ve ayrıca salat (namaz)ın geçerli olmadığı yerleri sayar.",
-          "ur": "یہ روایت salat (نماز) کے لباس اور نماز کی جگہوں سے متعلق احکام بیان کرتی ہے۔ اس میں کہا گیا ہے کہ اہلِ کتاب کے بنائے ہوئے کپڑے میں دھونے سے پہلے salat (نماز) ادا کی جا سکتی ہے، اگرچہ اسے دھونا بہتر ہے، اور یہ بھی بتایا گیا ہے کہ کن جگہوں میں salat (نماز) درست نہیں۔",
-          "zh": "这段传述涉及与salat（礼拜）衣物和礼拜地点有关的教法规定。它说明有经人制作的衣服在洗涤前可以用于salat，尽管清洗更受喜爱，并且还列出了salat不成立的地点。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

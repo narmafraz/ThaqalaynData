@@ -14,6 +14,141 @@
       "up": "/books/al-kafi:3:4:18"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "الْحُسَيْنُ بْنُ مُحَمَّدٍ عَنْ عَبْدِ اللَّهِ بْنِ عَامِرٍ عَنْ عَلِيِّ بْنِ مَهْزِيَارَ عَنِ الْحُسَيْنِ بْنِ أَسَدٍ عَنْ جَعْفَرِ بْنِ مُحَمَّدِ بْنِ يَقْظَانَ رَفَعَهُ إِلَيْهِمْ ( عَلَيْهِمُ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 29,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "يَقُولُ الرَّجُلُ إِذَا فَرَغَ مِنَ الْأَذَانِ وَ جَلَسَ اللَّهُمَّ اجْعَلْ قَلْبِي بَارّاً وَ عَيْشِي قَارّاً وَ رِزْقِي دَارّاً وَ اجْعَلْ لِي عِنْدَ قَبْرِ نَبِيِّكَ ( صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ ) قَرَاراً وَ مُسْتَقَرّاً",
+            "chunk_type": "body",
+            "word_end": 63,
+            "word_start": 29
+          }
+        ],
+        "content_type": "supplication",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 20,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنُ بْنُ مُحَمَّدٍ",
+              "name_en": "Al-Husayn ibn Muhammad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 176,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللَّهِ بْنِ عَامِرٍ",
+              "name_en": "Abdullah ibn 'Amer",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 81,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ مَهْزِيَارَ",
+              "name_en": "Ali ibn Mahziyar",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2608,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنِ بْنِ أَسَدٍ",
+              "name_en": "al-Husayn b. Asad",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3013,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "جَعْفَرِ بْنِ مُحَمَّدِ بْنِ يَقْظَانَ",
+              "name_en": "Ja'far b. Muhammad b. Yaqthan",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2836,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "إِلَيْهِمْ ( عليهم السلام )",
+              "name_en": "Ilayhim",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِمُ السَّلَامُ",
+            "phrase_en": "Peace be upon them"
+          }
+        ],
+        "key_terms_keys": [
+          "الْأَذَانِ",
+          "بَارّاً",
+          "قَارّاً",
+          "دَارّاً",
+          "قَرَاراً",
+          "مُسْتَقَرّاً"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:133",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:201",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "worship",
+          "dua"
+        ],
+        "topics": [
+          "prayer_rulings",
+          "specific_supplications",
+          "etiquette_of_dua"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول مرفوع    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (15/94)"
       ],
@@ -94,7 +229,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:4:18:32",

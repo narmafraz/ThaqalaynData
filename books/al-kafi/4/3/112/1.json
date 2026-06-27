@@ -13,6 +13,139 @@
       "up": "/books/al-kafi:4:3:112"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ حَمَّادٍ عَنْ حَرِيزٍ عَمَّنْ أَخْبَرَهُ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 19,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "لَا بَأْسَ بِأَنْ يَصِيدَ الْمُحْرِمُ السَّمَكَ وَ يَأْكُلَ مَالِحَهُ وَ طَرِيَّهُ وَ يَتَزَوَّدَ",
+            "chunk_type": "body",
+            "word_end": 32,
+            "word_start": 19
+          },
+          {
+            "arabic_text": "أُحِلَّ لَكُمْ صَيْدُ الْبَحْرِ وَ طَعَامُهُ مَتَاعاً لَكُمْ",
+            "chunk_type": "quran_quote",
+            "word_end": 40,
+            "word_start": 32
+          },
+          {
+            "arabic_text": "قَالَ مَالِحُهُ الَّذِي يَأْكُلُونَ وَ فَصْلُ مَا بَيْنَهُمَا كُلُّ طَيْرٍ يَكُونُ فِي الْآجَامِ يَبِيضُ فِي الْبَرِّ وَ يُفْرِخُ فِي الْبَرِّ فَهُوَ مِنْ صَيْدِ الْبَرِّ وَ مَا كَانَ مِنْ صَيْدِ الْبَرِّ يَكُونُ فِي الْبَرِّ وَ يَبِيضُ فِي الْبَحْرِ وَ يُفْرِخُ فِي الْبَحْرِ فَهُوَ مِنْ صَيْدِ الْبَحْرِ",
+            "chunk_type": "body",
+            "word_end": 85,
+            "word_start": 40
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 23,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "حَمَّادٍ",
+              "name_en": "Hammad",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": null,
+              "identity_confidence": "ambiguous",
+              "known_identity": null,
+              "name_ar": "حَرِيزٍ عَمَّنْ أَخْبَرَهُ",
+              "name_en": "Hariz b. 'Amman",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "إحرام",
+          "صيد البحر",
+          "مالح",
+          "طري",
+          "صيد البر"
+        ],
+        "related_quran": [
+          {
+            "ref": "5:96",
+            "relationship": "explicit"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "worship",
+          "quran_commentary"
+        ],
+        "topics": [
+          "hajj",
+          "halal_haram",
+          "quran_interpretation_method"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مرسل كالحسن   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (17/385)"
       ],
@@ -97,7 +230,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:4:3:112:1",

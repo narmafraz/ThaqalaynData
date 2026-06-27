@@ -13,6 +13,144 @@
       "up": "/books/al-kafi:7:2:39"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيٌّ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ أَبَانٍ الْأَحْمَرِ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَحَدِهِمَا (عَلَيْهِمَا السَّلَامُ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 19,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "مَنْ أَسْلَمَ عَلَى مِيرَاثٍ قَبْلَ أَنْ يُقْسَمَ الْمِيرَاثُ فَهُوَ لَهُ، وَمَنْ أَسْلَمَ بَعْدَ مَا قُسِمَ فَلَا مِيرَاثَ لَهُ، وَمَنْ أُعْتِقَ عَلَى مِيرَاثٍ قَبْلَ أَنْ يُقْسَمَ الْمَوَارِيثُ فَهَُ لَهُ، وَمَنْ أُعْتِقَ بَعْدَ مَا قُسِمَ فَلَا مِيرَاثَ لَهُ.",
+            "chunk_type": "body",
+            "word_end": 55,
+            "word_start": 19
+          },
+          {
+            "arabic_text": "وَقَالَ فِي الْمَرْأَةِ إِذَا أَسْلَمَتْ قَبْلَ أَنْ يُقْسَمَ الْمِيرَاثُ فَلَهَا الْمِيرَاثُ.",
+            "chunk_type": "closing",
+            "word_end": 66,
+            "word_start": 55
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 50,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيٌّ",
+              "name_en": "Ali",
+              "position": 1,
+              "role": "imam"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 7,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ أَبِي عُمَيْرٍ",
+              "name_en": "Ibn Abi Umayr",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 520,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبَانٍ الْأَحْمَرِ",
+              "name_en": "Aban al-Ahmar",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 16,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ مُسْلِمٍ",
+              "name_en": "Muhammad ibn Muslim",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 58,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحَدِهِمَا ( عليهما السلام )",
+              "name_en": "Ahadihima",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [],
+        "key_terms_keys": [
+          "أَسْلَمَ",
+          "مِيرَاث",
+          "أُعْتِقَ",
+          "يُقْسَمَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "8:75",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "4:11",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "4:75",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family",
+          "social_relations"
+        ],
+        "topics": [
+          "inheritance",
+          "halal_haram",
+          "imams_biography"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> حسن أو موثق  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (3/216)"
       ],
@@ -100,7 +238,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:7:2:39:4",

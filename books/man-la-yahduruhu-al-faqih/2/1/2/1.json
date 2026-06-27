@@ -16,137 +16,59 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رَوَى ٱلْحَسَنُ بْنُ مَحْبُوبٍ عَنْ عَبْدِ ٱللَّهِ بْنِ سِنَانٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হাসান ইবনে মাহবুব ʿআবদুল্লাহ ইবনে সিনান থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Al-Ḥasan ibn Maḥbūb berichtete von ʿAbdullāh ibn Sinān, der sagte:",
-              "en": "Al-Ḥasan ibn Maḥbūb narrated from ʿAbdullāh ibn Sinān, who said:",
-              "es": "Al-Ḥasan ibn Maḥbūb narró de ʿAbdullāh ibn Sinān, quien dijo:",
-              "fa": "الْحَسَن بن مَحبوب از عبد الله بن سینان روایت کرده است که گفت:",
-              "fr": "Al-Ḥasan ibn Maḥbūb a rapporté de ʿAbdullāh ibn Sinān, qui a dit :",
-              "id": "Al-Ḥasan ibn Maḥbūb meriwayat dari ʿAbdullāh ibn Sinān, yang berkata:",
-              "ru": "Аль-Хасан ибн Махбуб передал от ʿАбдуллаха ибн Синана, который сказал:",
-              "tr": "El-Hasan ibn Mahbub, Abdullah ibn Sinan'dan rivayet etti, dedi ki:",
-              "ur": "الْحَسَن بْن مَحْبُوب نے عبد اللہ بْن سِنَان سے روایت کی، جنہوں نے کہا:",
-              "zh": "الْحَسَنبنمَحبوب从ʿAbdullāhibnSinān传述，他说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ أَبُو عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ :",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আবু ʿআব্দিল্লাহ عليه السلام বললেন:",
-              "de": "Abū ʿAbdillāh علیه السلام sagte:",
-              "en": "Abū ʿAbdillāh عليه السلام said:",
-              "es": "Abū ʿAbdillāh عليه السلام dijo:",
-              "fa": "ابو عبد الله علیه السلام فرمود:",
-              "fr": "Abū ʿAbdillāh عليه السلام a dit :",
-              "id": "Abū ʿAbdillāh علیه السلام berkata:",
-              "ru": "Абу ʿАбдиллах عليه السلام сказал:",
-              "tr": "Ebu ʿAbdillāh علیه السلام şöyle dedi:",
-              "ur": "ابو عبد اللہ علیہ السلام نے فرمایا:",
-              "zh": "AbūʿAbdillāhعليهالسلام说："
-            },
             "word_end": 17,
             "word_start": 10
           },
           {
             "arabic_text": "«أُنْزِلَتْ إِلَيْهِ آيَةُ ٱلزَّكَاةِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“زকাতের আয়াত نازل হয়েছে:",
-              "de": "„Der Vers der Zakat wurde herabgesandt:",
-              "en": "“The verse of zakat was sent down to him:",
-              "es": "“Se reveló el versículo de la zakat:",
-              "fa": "«آیه زکات نازل شد:",
-              "fr": "«Le verset de la zakat a été révélé :",
-              "id": "“Ayat zakat diturunkan:",
-              "ru": "«Был ниспослан аят о закяте:",
-              "tr": "“Zekat ayeti indirildi:",
-              "ur": "‘‘آیتِ زکات نازل ہوئی:",
-              "zh": "“زکات经文被降示："
-            },
             "word_end": 21,
             "word_start": 17
           },
           {
             "arabic_text": "«۝ خُذْ مِنْ أَمْوَالِهِمْ صَدَقَةً تُطَهِّرُهُمْ وَ تُزَكِّيهِمْ بِهَا ۝»",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "‘তাদের সম্পদ থেকে সদকা গ্রহণ কর যা তাদের পবিত্র করে এবং তা দ্বারা তাদের تزکیہ করে।’",
-              "de": "‘Nimm Almosen von ihrem Vermögen, womit du sie reinigst und läuterst.’",
-              "en": "‘Take charity from their wealth by which you purify them and cause them to grow by it.’",
-              "es": "‘Toma caridad de sus riquezas con la cual los purificas y los haces crecer.’",
-              "fa": "«از اموالشان صدقه بگیر که آنها را پاک می‌کند و به وسیله آن تزکیه می‌کند.»",
-              "fr": "‘Prends la charité de leurs biens par laquelle tu les purifies et les fais croître.’",
-              "id": "‘Ambillah sedekah dari harta mereka yang menyucikan mereka dan membersihkan mereka dengannya.’",
-              "ru": "‘Бери милостыню из их имущества, чтобы очистить их и возрасти их с её помощью.’",
-              "tr": "‘Mallarından sadaka al ki onları temizlesin ve onları onunla arındırsın.’",
-              "ur": "‘ان کی اموال میں سے صدقہ لو جس سے تم انہیں پاک کرتے اور انہیں اس سے تزکیہ کرتے ہو۔’",
-              "zh": "‘从他们的财富中取慈善，以此净化他们并使他们增长。’"
-            },
             "word_end": 31,
             "word_start": 21
           },
           {
             "arabic_text": "فِي شَهْرِ رَمَضَانَ فَأَمَرَ رَسُولُ ٱللَّهِ صَلَّى ٱللَّهُ عَلَيْهِ وَ آلِهِ مُنَادِيَهُ فَنَادَى فِي ٱلنَّاسِ «أَنَّ ٱللَّهَ تَبَارَكَ وَ تَعَالَى قَدْ فَرَضَ عَلَيْكُمُ ٱلزَّكَاةَ كَمَا فَرَضَ عَلَيْكُمُ ٱلصَّلَاةَ فَفَرَضَ ٱللَّهُ عَلَيْكُمْ مِنَ ٱلذَّهَبِ وَ ٱلْفِضَّةِ وَ ٱلْإِبِلِ وَ ٱلْبَقَرِ وَ ٱلْغَنَمِ وَ مِنَ ٱلْحِنْطَةِ وَ ٱلشَّعِيرِ وَ ٱلتَّمْرِ وَ ٱلزَّبِيبِ» وَ نَادَى فِيهِمْ بِذَلِكَ فِي شَهْرِ رَمَضَانَ وَ عَفَا لَهُمْ عَمَّا سِوَى ذَلِكَ »",
             "chunk_type": "body",
-            "translations": {
-              "bn": "রমজান মাসে। অতএব আল্লাহর রাসূল صلى الله عليه وآله وسلم তাঁর ডাক্তারকে আদেশ দিলেন, এবং তিনি মানুষের মধ্যে ঘোষণা করলেন: ‘নিশ্চয়ই আল্লাহ, বরকতময় ও মহিমান্বিত, তোমাদের উপর যেভাবে সালাত (নামাজ) ফরজ করেছেন, তেমনি জাকাতও ফরজ করেছেন। অতএব আল্লাহ তোমাদের উপর সোনা, রূপা, উট, গরু, ভেড়া এবং গম, যব, খেজুর ও কিসমিস থেকে জাকাত ফরজ করেছেন।’ এবং তিনি রমজান মাসে তাদের মধ্যে এ ঘোষণা করলেন, এবং তাদের জন্য এর বাইরে যা ছিল তা মাফ করে দিলেন।",
-              "de": "Im Monat Ramadan. So befahl der Gesandte Allahs صلى الله عليه وآله وسلم seinem Ausrufer, und dieser verkündete unter den Leuten: ‚Wahrlich, Allah, der Gesegnete und Erhabene, hat euch die Zakat auferlegt, so wie Er euch das Salat (Gebet) auferlegt hat. So hat Allah euch Zakat auf Gold, Silber, Kamele, Rinder, Schafe und von Weizen, Gerste, Datteln und Rosinen auferlegt.‘ Und er verkündete dies unter ihnen im Monat Ramadan und vergab ihnen, was darüber hinausging.",
-              "en": "in the month of Ramadan. So the Messenger of Allah صلى الله عليه وآله وسلم commanded his caller, and he proclaimed among the people: ‘Indeed Allah, Blessed and Exalted, has made zakat obligatory upon you just as He made salat (prayer) obligatory upon you. So Allah has made obligatory upon you concerning gold, silver, camels, cattle, sheep, and from wheat, barley, dates, and raisins.’ And he proclaimed that among them in the month of Ramadan, and he excused them from what was besides that.”",
-              "es": "En el mes de Ramadán. Entonces el Mensajero de Allah صلى الله عليه وآله وسلم ordenó a su pregonero, y proclamó entre la gente: ‘En verdad, Allah, Bendito y Exaltado, ha hecho obligatoria la zakat sobre vosotros así como hizo obligatoria la salat (oración). Así que Allah ha hecho obligatoria sobre vosotros la zakat respecto al oro, la plata, los camellos, el ganado, las ovejas, y del trigo, la cebada, los dátiles y las pasas.’ Y proclamó eso entre ellos en el mes de Ramadán, y les perdonó lo que estaba fuera de eso.",
-              "fa": "در ماه رمضان. پس رسول خدا صلى الله عليه وآله وسلم به منادی خود دستور داد و او در میان مردم اعلام کرد: «همانا خداوند متبارک و تعالی زکات را بر شما واجب کرده است همان‌طور که نماز را بر شما واجب کرده است. پس خداوند زکات را بر طلا، نقره، شتر، گاو، گوسفند و از گندم، جو، خرما و کشمش بر شما واجب کرده است.» و این را در ماه رمضان در میان آنها اعلام کرد و از غیر آن درگذشت.",
-              "fr": "Au mois de Ramadan. Le Messager d’Allah صلى الله عليه وآله وسلم ordonna à son crieur, et il proclama parmi les gens : « En vérité, Allah, Béni et Exalté, a rendu la zakat obligatoire pour vous tout comme Il a rendu la salat (prière) obligatoire. Ainsi, Allah a rendu obligatoire pour vous la zakat sur l’or, l’argent, les chameaux, le bétail, les moutons, ainsi que sur le blé, l’orge, les dattes et les raisins secs. » Et il proclama cela parmi eux durant le mois de Ramadan, et Il leur pardonna ce qui était en dehors de cela.",
-              "id": "Di bulan Ramadan. Maka Rasulullah صلى الله عليه وآله وسلم memerintahkan pemanggilnya, dan dia mengumumkan di antara manusia: 'Sesungguhnya Allah Yang Maha Berkah dan Maha Tinggi telah mewajibkan zakat atas kalian sebagaimana Dia mewajibkan salat (shalat) atas kalian. Maka Allah mewajibkan atas kalian zakat dari emas, perak, unta, sapi, domba, dan dari gandum, jelai, kurma, dan kismis.' Dan dia mengumumkan hal itu di antara mereka pada bulan Ramadan, dan Dia mengampuni mereka dari selain itu.",
-              "ru": "В месяц Рамадан. Посланник Аллаха صلى الله عليه وآله وسلم повелел своему глашатаю, и тот провозгласил среди людей: «Воистину, Аллах, Благословенный и Возвышенный, обязал вас выплачивать закят так же, как обязал вас совершать салат (молитву). Так Аллах обязал вас закятом с золота, серебра, верблюдов, крупного рогатого скота, овец, а также с пшеницы, ячменя, фиников и изюма.» И он провозгласил это среди них в месяц Рамадан, и простил им то, что было помимо этого.",
-              "tr": "Ramazan ayında. Allah’ın Resulü صلى الله عليه وآله وسلم çağıranına emretti ve o, halk arasında şöyle ilan etti: ‘Şüphesiz Allah, Mübarek ve Yüce, size namazı farz kıldığı gibi zekatı da farz kıldı. Allah, altın, gümüş, develer, sığırlar, koyunlar ve buğday, arpa, hurma ve kuru üzümden zekat farz kıldı.’ Ve Ramazan ayında bunları onlara ilan etti ve bunlar dışındakileri onlara bağışladı.",
-              "ur": "رمضان کے مہینے میں۔ چنانچہ رسول اللہ صلی اللہ علیہ وآلہ وسلم نے اپنے منادی کو حکم دیا، اور اس نے لوگوں میں اعلان کیا: ‘‘بے شک اللہ تعالیٰ، پاک اور بلند مرتبہ، نے تم پر زکات فرض کی ہے جیسے اس نے تم پر نماز فرض کی ہے۔ پس اللہ نے تم پر سونا، چاندی، اونٹ، مویشی، بھیڑ، اور گندم، جو، کھجور اور کشمش پر زکات فرض کی ہے۔’’ اور اس نے رمضان کے مہینے میں ان کے درمیان یہ اعلان کیا، اور ان کو اس کے علاوہ معاف کر دیا۔",
-              "zh": "在斋月期间。于是安拉使者صلى الله عليه وآله وسلم命令他的呼唤者，他在众人中宣告：“确实，安拉，至福至高者，已使你们必须缴纳زكاة，就如同他使你们必须行صلاة（礼拜）一样。安拉已使你们必须缴纳关于黄金、白银、骆驼、牛、羊，以及小麦、大麦、枣子和葡萄干的زكاة。”他在斋月期间在他们中间宣告此事，并赦免了他们除这些之外的部分。"
-            },
             "word_end": 95,
             "word_start": 31
           },
           {
             "arabic_text": "قَالَ «ثُمَّ لَمْ يَتَعَرَّضْ لِشَيْءٍ مِنْ أَمْوَالِهِمْ حَتَّى حَالَ عَلَيْهِمُ ٱلْحَوْلُ مِنْ قَابِلٍ فَصَامُوا وَ أَفْطَرُوا فَأَمَرَ عَلَيْهِ ٱلسَّلَامُ مُنَادِيَهُ فَنَادَى فِي ٱلْمُسْلِمِينَ «أَيُّهَا ٱلْمُسْلِمُونَ زَكُّوا أَمْوَالَكُمْ تُقْبَلْ صَلَاتُكُمْ» »",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: ‘‘তারপর তিনি তাদের সম্পদের কোনো অংশ গ্রহণ করলেন না যতক্ষণ না পরবর্তী বছর তাদের উপর বছর পূর্ণ হলো। তারপর তারা রোজা রাখল এবং ইফতার করল, তখন তিনি عليه السلام তাঁর ডাক্তারকে আদেশ দিলেন, এবং তিনি মুসলমানদের মধ্যে ঘোষণা করলেন: ‘হে মুসলমানগণ, তোমাদের সম্পদের জাকাত দাও যাতে তোমাদের সালাত (নামাজ) কবুল হয়।’’’",
-              "de": "Er sagte: „Dann wandte er sich bis zum Ablauf eines Jahres nicht an ihr Vermögen. Dann fasteten sie und brachen das Fasten, so befahl er عليه السلام seinem Ausrufer, und dieser verkündete unter den Muslimen: ‚O Muslime, gebt die Zakat eures Vermögens, damit euer Salat (Gebet) angenommen wird.‘“",
-              "en": "He said: “Then he did not address anything from their wealth until the year had passed over them by the following year. Then they fasted and broke the fast, so he عليه السلام commanded his caller, and he proclaimed among the Muslims: ‘O Muslims, give the zakat of your wealth so that your salat (prayer) may be accepted.’”",
-              "es": "Él dijo: ‘Luego no tocó nada de sus bienes hasta que pasó un año sobre ellos. Entonces ayunaron y rompieron el ayuno, así que él عليه السلام ordenó a su pregonero, y proclamó entre los musulmanes: ‘Oh musulmanes, dad la zakat de vuestras riquezas para que vuestra salat (oración) sea aceptada.’’",
-              "fa": "فرمود: «سپس تا سال بعد بر آنها نگذشت به اموالشان دست نزد. سپس روزه گرفتند و افطار کردند، پس او علیه السلام به منادی خود دستور داد و در میان مسلمانان اعلام کرد: «ای مسلمانان، زکات اموال خود را بدهید تا نماز شما پذیرفته شود.»»",
-              "fr": "Il dit : « Puis il ne s’adressa à rien de leurs biens jusqu’à ce qu’une année s’écoula sur eux. Puis ils jeûnèrent et rompirent le jeûne, alors il عليه السلام ordonna à son crieur, et il proclama parmi les musulmans : ‘Ô musulmans, donnez la zakat de vos biens afin que votre salat (prière) soit acceptée.’ »",
-              "id": "Dia berkata: “Kemudian dia tidak mengambil apa pun dari harta mereka sampai berlalu satu tahun. Kemudian mereka berpuasa dan berbuka, maka dia عليه السلام memerintahkan pemanggilnya, dan dia mengumumkan di antara kaum Muslimin: ‘Wahai kaum Muslimin, keluarkanlah zakat dari harta kalian agar salat kalian diterima.’”",
-              "ru": "Он сказал: «Затем он не касался их имущества, пока не прошёл год. Потом они постились и прерывали пост, и он عليه السلام повелел своему глашатаю, и тот провозгласил среди мусульман: „О мусульмане, отдавайте закят со своего имущества, чтобы ваша салат (молитва) была принята.“»",
-              "tr": "Dedi ki: ‘Sonra onların mallarından hiçbir şeye dokunmadı ta ki bir yıl geçip gitti. Sonra oruç tuttular ve iftar ettiler, böylece o عليه السلام çağıranına emretti ve Müslümanlar arasında şöyle ilan etti: ‘Ey Müslümanlar, mallarınızın zekatını verin ki salatınız (namazınız) kabul olsun.’’",
-              "ur": "انہوں نے کہا: ‘‘پھر انہوں نے ان کے مال میں سے کچھ نہیں لیا جب تک کہ ایک سال ان پر گزر نہ گیا۔ پھر انہوں نے روزہ رکھا اور افطار کیا، تو انہوں نے علیہ السلام اپنے منادی کو حکم دیا، اور اس نے مسلمانوں میں اعلان کیا: ‘اے مسلمانوں، اپنے مال کی زکات دو تاکہ تمہاری نماز قبول ہو۔’’’",
-              "zh": "他说：“然后他没有动用他们的财产，直到过了一年。然后他们守斋并开斋，于是他 عليه السلام命令他的呼唤者，在穆斯林中宣告：‘穆斯林们，缴纳你们财产的زكاة，使你们的صلاة（礼拜）被接受。’”"
-            },
             "word_end": 125,
             "word_start": 95
           },
           {
             "arabic_text": "قَالَ «ثُمَّ وَجَّهَ عُمَّالَ ٱلصَّدَقَةِ وَ عُمَّالَ ٱلطَّسُوقِ ».",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তিনি বললেন: ‘‘তারপর তিনি صدقہ-এর কর্মচারী এবং الطسوق-এর কর্মচারীদের প্রেরণ করলেন।’’",
-              "de": "Er sagte: „Dann entsandte er die Arbeiter der Wohltätigkeit und die Arbeiter des al-ṭusūq.“",
-              "en": "He said: “Then he dispatched the workers of charity and the workers of al-ṭusūq.”",
-              "es": "Él dijo: ‘Luego envió a los trabajadores de la caridad y a los trabajadores de al-ṭusūq.’",
-              "fa": "فرمود: «سپس کارگزاران صدقه و کارگزاران الطسوق را فرستاد.»",
-              "fr": "Il dit : « Puis il envoya les agents de la charité et les agents de al-ṭusūq. »",
-              "id": "Dia berkata: “Kemudian dia mengutus para pekerja sedekah dan para pekerja al-ṭusūq.”",
-              "ru": "Он сказал: «Затем он направил работников по сбору садака и работников по сбору ат-туску.»",
-              "tr": "Dedi ki: ‘Sonra sadaka görevlilerini ve al-ṭusūq görevlilerini görevlendirdi.’",
-              "ur": "انہوں نے کہا: ‘‘پھر انہوں نے صدقہ کے عاملوں اور الطسوق کے عاملوں کو روانہ کیا۔’’",
-              "zh": "他说：“然后他派遣了صدقة的工作人员和الطسوق的工作人员。”"
-            },
             "word_end": 134,
             "word_start": 125
           }
@@ -185,60 +107,22 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "تُزَكِّيهِمْ": "Causes them to grow or purifies them further through the charity.",
-            "تُطَهِّرُهُمْ": "Purifies them, meaning it cleanses the givers through giving.",
-            "صَدَقَةً": "Charitable due taken from wealth here in the sense of obligatory zakat.",
-            "عُمَّالَ ٱلصَّدَقَةِ": "Officials appointed to collect zakat.",
-            "ٱلذَّهَبِ": "Gold, one of the wealth categories upon which zakat was imposed.",
-            "ٱلزَّكَاةِ": "The obligatory alms due on specified forms of wealth.",
-            "ٱلصَّلَاةَ": "The obligatory salat (prayer), mentioned here alongside zakat as a prescribed duty.",
-            "ٱلْحَوْلُ": "The passing of a full year, relevant to the timing of zakat liability."
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "ٱلزَّكَاةِ",
+          "صَدَقَةً",
+          "تُطَهِّرُهُمْ",
+          "تُزَكِّيهِمْ",
+          "ٱلصَّلَاةَ",
+          "ٱلْحَوْلُ",
+          "عُمَّالَ ٱلصَّدَقَةِ",
+          "ٱلذَّهَبِ"
+        ],
         "related_quran": [
           {
             "ref": "9:103",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "জাকাতের আয়াত কখন নাজিল হয়েছিল, এবং কোন ধরনের সম্পদের উপর জাকাত ফরজ করা হয়েছিল?",
-          "de": "Wann wurde der Vers der Zakat offenbart und auf welche Arten von Vermögen wurde Zakat verpflichtend gemacht?",
-          "en": "When was the verse of zakat revealed, and on which kinds of wealth was zakat made obligatory?",
-          "es": "¿Cuándo fue revelado el versículo de la zakat y sobre qué tipos de riqueza se hizo obligatoria la zakat?",
-          "fa": "آیه زکات چه زمانی نازل شد و بر کدام انواع اموال زکات واجب شد؟",
-          "fr": "Quand le verset de la zakat a-t-il été révélé, et sur quels types de richesses la zakat a-t-elle été rendue obligatoire ?",
-          "id": "Kapan ayat zakat diturunkan, dan pada jenis harta apa zakat diwajibkan?",
-          "ru": "Когда был ниспослан аят о закяте и на какие виды имущества был возложен обязательный закят?",
-          "tr": "Zekat ayeti ne zaman indirildi ve hangi mal türleri üzerinde zekat farz kılındı?",
-          "ur": "زکات کی آیت کب نازل ہوئی، اور کن اقسام کی دولت پر زکات فرض کی گئی؟",
-          "zh": "زکات经文何时降示，زکات对哪些财富种类成为义务？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ব্যাখ্যা করে যে, জাকাতের আয়াত রমজান মাসে নাজিল হয়েছিল এবং রাসূলুল্লাহ صلى الله عليه وآله وسلم নির্দিষ্ট সম্পদের উপর জাকাত ফরজ ঘোষণা করেছিলেন। এটি দেখায় যে, সম্পূর্ণ এক বছর পার হওয়ার পর জাকাত সংগ্রহ শুরু হয় এবং জাকাতের কর্মচারীরা নিয়োগিত হন, যা একটি সংগঠিত ও আইনগত জাকাত ব্যবস্থার ইঙ্গিত দেয়।",
-          "de": "Dieser Hadith erklärt, dass der Vers der Zakat im Monat Ramadan offenbart wurde und dass der Gesandte Allahs صلى الله عليه وآله وسلم die Verpflichtung zur Zakat über bestimmte Vermögenskategorien öffentlich bekannt machte. Er zeigt auch, dass die Erhebung erst nach Ablauf eines vollen Jahres begann, woraufhin Zakat-Beauftragte entsandt wurden, was auf ein organisiertes und gesetzlich geregeltes Zakat-System hinweist.",
-          "en": "This hadith explains that the verse commanding zakat was revealed in Ramadan and that the Messenger of Allah صلى الله عليه وآله وسلم publicly announced its obligation upon specific categories of wealth. It also shows that collection was deferred until a full year had passed, after which zakat officials were sent out, indicating an organized and legislated system of zakat.",
-          "es": "Este hadiz explica que el versículo de la zakat fue revelado en Ramadán y que el Mensajero de Allah صلى الله عليه وآله وسلم anunció públicamente su obligación sobre categorías específicas de riqueza. También muestra que la recolección se pospuso hasta que pasó un año completo, tras lo cual se enviaron oficiales de zakat, indicando un sistema organizado y legislado de zakat.",
-          "fa": "این حدیث توضیح می‌دهد که آیه زکات در ماه رمضان نازل شده و پیامبر خدا صلى الله عليه وآله وسلم وجوب زکات بر انواع خاصی از اموال را اعلام کرده است. همچنین نشان می‌دهد که جمع‌آوری زکات تا گذشت یک سال کامل به تعویق افتاده و سپس مأموران زکات فرستاده شده‌اند که نشان‌دهنده یک نظام سازمان‌یافته و قانون‌مند زکات است.",
-          "fr": "Ce hadith explique que le verset de la zakat a été révélé pendant le mois de Ramadan et que le Messager d’Allah صلى الله عليه وآله وسلم a annoncé publiquement son obligation sur des catégories spécifiques de richesses. Il montre également que la collecte a été différée jusqu’à ce qu’une année complète soit écoulée, après quoi des agents de la zakat ont été envoyés, indiquant un système organisé et légiféré de la zakat.",
-          "id": "Hadis ini menjelaskan bahwa ayat zakat diturunkan pada bulan Ramadan dan Rasulullah صلى الله عليه وآله وسلم mengumumkan kewajiban zakat atas jenis harta tertentu. Juga menunjukkan bahwa pengumpulan zakat ditunda hingga satu tahun penuh berlalu, setelah itu petugas zakat dikirim, menandakan sistem zakat yang terorganisir dan diatur secara syariah.",
-          "ru": "Этот хадис объясняет, что аят о закяте был ниспослан в месяц Рамадан, и что Посланник Аллаха صلى الله عليه وآله وسلم публично объявил об обязательстве закята на определённые категории имущества. Также показано, что сбор закята откладывался до истечения полного года, после чего были направлены ответственные за сбор закята, что указывает на организованную и законодательную систему закята.",
-          "tr": "Bu hadis, zekat ayetinin Ramazan ayında indirildiğini ve Resulullah صلى الله عليه وآله وسلم'ün belirli mal varlıkları üzerinde zekatın farz olduğunu halka ilan ettiğini açıklar. Ayrıca, zekat toplamanın tam bir yıl geçtikten sonra başladığını ve zekat görevlilerinin görevlendirildiğini gösterir; bu da zekatın organize ve yasallaşmış bir sistem olduğunu belirtir.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ آیتِ زکات رمضان کے مہینے میں نازل ہوئی اور رسول اللہ صلی اللہ علیہ وآلہ وسلم نے مخصوص اقسام کی دولت پر زکات فرض ہونے کا اعلان کیا۔ اس میں یہ بھی ظاہر ہے کہ زکات کی وصولی ایک سال مکمل ہونے کے بعد شروع ہوئی، اور زکات کے عمال بھی مقرر کیے گئے، جو ایک منظم اور شرعی نظام کی نشاندہی کرتا ہے۔",
-          "zh": "此圣训解释了زکات经文在斋月降示，安拉使者 صلى الله عليه وآله وسلم公开宣布其对特定财富类别的义务。还显示收取زکات推迟至满一年后开始，随后派出زکات官员，表明زکات有组织且立法的体系。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

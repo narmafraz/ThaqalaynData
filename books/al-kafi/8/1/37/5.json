@@ -15,6 +15,116 @@
       "up": "/books/al-kafi:8:1:37"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "جَعْفَرُ بْنُ بَشِيرٍ عَنْ عَمْرِو بْنِ عُثْمَانَ عَنْ أَبِي شِبْلٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 11,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "دَخَلْتُ أَنَا وَ سُلَيْمَانُ بْنُ خَالِدٍ عَلَى أَبِي عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) فَقَالَ لَهُ سُلَيْمَانُ بْنُ خَالِدٍ إِنَّ الزَّيْدِيَّةَ قَوْمٌ قَدْ عُرِفُوا وَ جُرِبُوا وَ شَهَرَهُمُ النَّاسُ وَ مَا فِي الْأَرْضِ مُحَمَّدِيٌّ أَحَبُّ إِلَيْهِمْ مِنْكَ فَإِنْ رَأَيْتَ أَنْ تُدْنِيَهُمْ وَ تُقَرِّبَهُمْ مِنْكَ فَافْعَلْ فَقَالَ يَا سُلَيْمَانُ بْنَ خَالِدٍ إِنْ كَانَ هَؤُلَاءِ السُّفَهَاءُ يُرِيدُونَ أَنْ يَصُدُّونَا عَنْ عِلْمِنَا إِلَى جَهْلِهِمْ فَلَا مَرْحَباً بِهِمْ وَ لَا أَهْلًا وَ إِنْ كَانُوا يَسْمَعُونَ قَوْلَنَا وَ يَنْتَظِرُونَ أَمْرَنَا فَلَا بَأْسَ.",
+            "chunk_type": "body",
+            "word_end": 86,
+            "word_start": 11
+          }
+        ],
+        "content_type": "theological",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 143,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "جَعْفَرُ بْنُ بَشِيرٍ",
+              "name_en": "Ja'far ibn Bashir",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 129,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَمْرِو بْنِ عُثْمَانَ",
+              "name_en": "Amr ibn Uthman",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 522,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي شِبْلٍ",
+              "name_en": "Abu Shibl",
+              "position": 3,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الزَّيْدِيَّة",
+          "السُّفَهَاء",
+          "عِلْمِنَا",
+          "جَهْلِهِمْ",
+          "يَنْتَظِرُونَ أَمْرَنَا"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:7",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:269",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:18",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "theology",
+          "social_relations",
+          "knowledge"
+        ],
+        "topics": [
+          "imamate",
+          "companions",
+          "scholars_virtues",
+          "community"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مهول</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 21)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -23,10 +133,6 @@
       "local_index": 5,
       "narrator_chain": {
         "parts": [
-          {
-            "kind": "plain",
-            "text": "14606- "
-          },
           {
             "kind": "narrator",
             "path": "/people/narrators/143",
@@ -73,7 +179,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:37:5",

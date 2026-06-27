@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رُوِيَ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং এটি বর্ণিত হয়েছে:",
-              "de": "Und es wird überliefert:",
-              "en": "And it is narrated:",
-              "es": "Y se narra:",
-              "fa": "و روایت شده است:",
-              "fr": "Et il est rapporté :",
-              "id": "Dan diriwayatkan:",
-              "ru": "И передаётся:",
-              "tr": "Ve rivayet edilmiştir ki:",
-              "ur": "اور یہ روایت کیا گیا ہے:",
-              "zh": "据传："
-            },
             "word_end": 2,
             "word_start": 0
           },
           {
             "arabic_text": "«أَنَّ الْبُيُوتَ الَّتِي يُصَلَّى فِيهَا بِاللَّيْلِ يُضِيءُ نُورُهَا لِأَهْلِ السَّمَاءِ كَمَا يُضِيءُ نُورُ الْكَوَاكِبِ لِأَهْلِ الْأَرْضِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "\"যে ঘরগুলোতে রাতে সালাত (নামাজ) আদায় করা হয়, তাদের আলো আকাশের বাসিন্দাদের জন্য উজ্জ্বল হয় যেমন তারা পৃথিবীর বাসিন্দাদের জন্য তারাদের আলো উজ্জ্বল হয়।\"",
-              "de": "\"Die Häuser, in denen nachts Salat (Gebet) verrichtet wird, ihr Licht leuchtet für die Bewohner des Himmels, so wie das Licht der Sterne für die Bewohner der Erde leuchtet.\"",
-              "en": "\"The houses in which salat (prayer) is performed at night, their light shines for the inhabitants of the heaven just as the light of the stars shines for the inhabitants of the earth.\"",
-              "es": "\"Las casas en las que se realiza salat (oración) por la noche, su luz brilla para los habitantes del cielo así como la luz de las estrellas brilla para los habitantes de la tierra.\"",
-              "fa": "«خانه‌هایی که در آن‌ها در شب نماز (صلات) خوانده می‌شود، نورشان برای اهل آسمان می‌درخشد همان‌طور که نور ستارگان برای اهل زمین می‌درخشد.»",
-              "fr": "\"Les maisons dans lesquelles la salat (prière) est accomplie la nuit, leur lumière brille pour les habitants du ciel tout comme la lumière des étoiles brille pour les habitants de la terre.\"",
-              "id": "\"Rumah-rumah yang didirikan salat (shalat) di malam hari, cahayanya bersinar bagi penghuni langit sebagaimana cahaya bintang bersinar bagi penghuni bumi.\"",
-              "ru": "\"Дома, в которых совершается салят (молитва) ночью, их свет сияет для обитателей небес так же, как свет звезд сияет для обитателей земли.\"",
-              "tr": "\"Geceleyin salat (namaz) kılınan evlerin ışığı, tıpkı yıldızların yeryüzü sakinleri için parlaması gibi, göklerin sakinleri için parlar.\"",
-              "ur": "‘‘وہ گھر جن میں رات کے وقت نماز پڑھی جاتی ہے، ان کا نور آسمان والوں کے لیے چمکتا ہے جیسے زمین والوں کے لیے ستاروں کا نور چمکتا ہے۔’’",
-              "zh": "\"夜间进行salat（祈祷）的房屋，其光芒为天上的居民照耀，正如星星的光芒为地上的居民照耀。\""
-            },
             "word_end": 18,
             "word_start": 2
           }
@@ -76,28 +63,16 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَهْلِ السَّمَاءِ": "the inhabitants of the heaven",
-            "أَهْلِ الْأَرْضِ": "the inhabitants of the earth",
-            "الْبُيُوتَ": "the houses or homes being described",
-            "الْكَوَاكِبِ": "the stars",
-            "بِاللَّيْلِ": "during the night",
-            "نُورُهَا": "their light",
-            "يُصَلَّى": "salat (prayer) is performed",
-            "يُضِيءُ": "it shines or gives light"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْبُيُوتَ",
+          "يُصَلَّى",
+          "بِاللَّيْلِ",
+          "يُضِيءُ",
+          "نُورُهَا",
+          "أَهْلِ السَّمَاءِ",
+          "الْكَوَاكِبِ",
+          "أَهْلِ الْأَرْضِ"
+        ],
         "related_quran": [
           {
             "ref": "24:36",
@@ -116,32 +91,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "রাতের সালাত (নামাজ) দ্বারা জীবিত করা ঘরগুলোকে হাদিসে কিভাবে বর্ণনা করা হয়েছে?",
-          "de": "Wie werden Häuser, die durch nächtlichen Salat (Gebet) belebt werden, im Hadith beschrieben?",
-          "en": "How are houses that are enlivened by night salat (prayer) described in hadith?",
-          "es": "¿Cómo se describen en el hadiz las casas que se animan con la salat (oración) nocturna?",
-          "fa": "خانه‌هایی که با صلات شب زنده می‌شوند در حدیث چگونه توصیف شده‌اند؟",
-          "fr": "Comment les maisons animées par la salat (prière) nocturne sont-elles décrites dans le hadith ?",
-          "id": "Bagaimana rumah yang dihidupkan oleh salat malam digambarkan dalam hadits?",
-          "ru": "Как в хадисе описываются дома, оживлённые ночным салятом (молитвой)?",
-          "tr": "Gece salatı (namaz) ile canlandırılan evler hadiste nasıl tasvir edilmiştir?",
-          "ur": "رات کی نماز سے زندہ کیے گئے گھروں کو حدیث میں کیسے بیان کیا گیا ہے؟",
-          "zh": "夜间salat（祈祷）使之充满生机的房屋在圣训中如何描述？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি সেই ঘরগুলোর আধ্যাত্মিক দীপ্তি বর্ণনা করে যেখানে রাতে সালাত (নামাজ) আদায় করা হয়। এটি রাতের ইবাদতের উচ্চ মর্যাদা তুলে ধরে এবং এমন ঘরগুলোকে আকাশের বাসিন্দাদের জন্য দৃশ্যমানভাবে আলোকিত হিসেবে চিত্রিত করে।",
-          "de": "Dieser Hadith beschreibt die spirituelle Ausstrahlung von Häusern, in denen nachts Salat (Gebet) verrichtet wird. Er betont den hohen Rang der nächtlichen Anbetung und stellt solche Häuser für die Bewohner des Himmels sichtbar erleuchtet dar.",
-          "en": "This hadith describes the spiritual radiance of homes in which salat (prayer) is performed during the night. It emphasizes the lofty rank of night worship and portrays such houses as visibly illuminated to the inhabitants of the heavens.",
-          "es": "Este hadiz describe el resplandor espiritual de los hogares en los que se realiza salat (oración) durante la noche. Enfatiza el alto rango de la adoración nocturna y retrata tales casas como visiblemente iluminadas para los habitantes del cielo.",
-          "fa": "این حدیث درخشش معنوی خانه‌هایی را که در آن‌ها در شب صلات (نماز) خوانده می‌شود توصیف می‌کند. جایگاه بلند عبادت شب را تأکید می‌کند و چنین خانه‌هایی را برای اهل آسمان روشن می‌نماید.",
-          "fr": "Ce hadith décrit la radiance spirituelle des maisons où la salat (prière) est accomplie la nuit. Il souligne la haute position de l'adoration nocturne et dépeint ces maisons comme visiblement illuminées pour les habitants du ciel.",
-          "id": "Hadis ini menggambarkan cahaya spiritual rumah-rumah yang didirikan salat (shalat) pada malam hari. Menekankan kedudukan tinggi ibadah malam dan menggambarkan rumah-rumah tersebut sebagai bercahaya bagi penghuni langit.",
-          "ru": "Этот хадис описывает духовное сияние домов, в которых совершается салят (молитва) ночью. Он подчеркивает высокий статус ночного поклонения и изображает такие дома как видимо освещённые для обитателей небес.",
-          "tr": "Bu hadis, geceleyin salat (namaz) kılınan evlerin manevi ışığını anlatır. Gece ibadetinin yüce mertebesini vurgular ve bu evleri göklerin sakinleri için görünür şekilde aydınlanmış olarak tasvir eder.",
-          "ur": "یہ حدیث ان گھروں کی روحانی روشنی کو بیان کرتی ہے جہاں رات کے وقت نماز پڑھی جاتی ہے۔ یہ رات کی عبادت کی بلند مرتبہ کو اجاگر کرتی ہے اور ایسے گھروں کو آسمان والوں کے لیے روشن دکھاتی ہے۔",
-          "zh": "这段圣训描述了夜间进行salat（祈祷）的家庭的精神光辉。强调了夜间崇拜的崇高地位，并将这些房屋描绘为对天上居民可见的光明。"
-        },
         "tags": [
           "worship",
           "afterlife",

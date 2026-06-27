@@ -14,6 +14,144 @@
       "up": "/books/al-kafi:3:1:12"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ الْحَسَنِ عَنْ سَهْلٍ عَنْ مُوسَى بْنِ الْقَاسِمِ عَنْ عَمْرِو بْنِ سَعِيدٍ عَنْ مُصَدِّقِ بْنِ صَدَقَةَ عَنْ عَمَّارٍ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 28,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قُلْتُ لَهُ الرَّجُلُ يُرِيدُ أَنْ يَسْتَنْجِيَ كَيْفَ يَقْعُدُ قَالَ كَمَا يَقْعُدُ لِلْغَائِطِ وَ قَالَ إِنَّمَا عَلَيْهِ أَنْ يَغْسِلَ مَا ظَهَرَ مِنْهُ وَ لَيْسَ عَلَيْهِ أَنْ يَغْسِلَ بَاطِنَهُ",
+            "chunk_type": "body",
+            "word_end": 55,
+            "word_start": 28
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 90,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ الْحَسَنِ",
+              "name_en": "Muhammad ibn al-Hasan",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 153,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "سَهْلٍ",
+              "name_en": "Sahl",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 341,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُوسَى بْنِ الْقَاسِمِ",
+              "name_en": "Musa ibn al-Qasim",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 142,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَمْرِو بْنِ سَعِيدٍ",
+              "name_en": "Amr ibn Sa'id",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 159,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُصَدِّقِ بْنِ صَدَقَةَ",
+              "name_en": "Musaddiq ibn Sadaqa",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 546,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَمَّارٍ",
+              "name_en": "Ammar",
+              "position": 6,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 7,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "يَسْتَنْجِيَ",
+          "لِلْغَائِطِ",
+          "مَا ظَهَرَ مِنْهُ",
+          "بَاطِنَهُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:31",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "worship"
+        ],
+        "topics": [
+          "ritual_purity",
+          "prayer_rulings"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (13/57)"
       ],
@@ -103,7 +241,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:1:12:11",

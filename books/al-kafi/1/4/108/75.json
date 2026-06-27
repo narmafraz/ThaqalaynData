@@ -17,61 +17,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَبِئْرٍ مُعَطَّلَةٍ وَقَصْرٍ مَشِيدٍ",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "“আর একটি পরিত্যক্ত কূপ এবং একটি সুউচ্চ প্রাসাদ।”",
-              "de": "„Und ein verlassener Brunnen und ein hochragender Palast.“",
-              "en": "“And an abandoned well and a lofty palace.”",
-              "es": "“Y un pozo abandonado y un palacio elevado.”",
-              "fa": "«و چاهی متروک و قصری برافراشته.»",
-              "fr": "«Et un puits abandonné et un palais élevé.»",
-              "id": "“Dan sebuah sumur yang ditinggalkan dan sebuah istana yang tinggi.”",
-              "ru": "«И заброшенный колодец и высокий дворец.»",
-              "tr": "“Ve terk edilmiş bir kuyu ve görkemli bir saray.”",
-              "ur": "“اور ایک ویران کنواں اور ایک بلند و بالا محل۔”",
-              "zh": "“一个被废弃的井和一座高耸的宫殿。”"
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ الْبِئْرُ الْمُعَطَّلَةُ الْإِمَامُ الصَّامِتُ وَالْقَصْرُ الْمَشِيدُ الْإِمَامُ النَّاطِقُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: “পরিত্যক্ত কূপটি হল নীরব ইমাম, আর সুউচ্চ প্রাসাদটি হল বাক্‌প্রদানকারী ইমাম।”",
-              "de": "Er sagte: „Der verlassene Brunnen ist der schweigende Imam, und der hochragende Palast ist der sprechende Imam.“",
-              "en": "He said: “The abandoned well is the silent Imam, and the lofty palace is the speaking Imam.”",
-              "es": "Dijo: “El pozo abandonado es el Imam silencioso, y el palacio elevado es el Imam parlante.”",
-              "fa": "فرمود: «چاه متروک، امامِ صامت است و قصرِ برافراشته، امامِ ناطق است.»",
-              "fr": "Il dit : «Le puits abandonné est l’Imam silencieux, et le palais élevé est l’Imam parlant.»",
-              "id": "Beliau bersabda: “Sumur yang ditinggalkan adalah Imam yang diam, dan istana yang tinggi adalah Imam yang berbicara.”",
-              "ru": "Он сказал: «Заброшенный колодец — это молчаливый Имам, а высокий дворец — это говорящий Имам».",
-              "tr": "Şöyle buyurdu: “Terk edilmiş kuyu, sâkit İmam’dır; görkemli saray ise konuşan İmam’dır.”",
-              "ur": "انہوں نے فرمایا: “ویران کنواں خاموش امام ہے، اور بلند و بالا محل بولنے والا امام ہے۔”",
-              "zh": "他说：“被废弃的井是沉默的伊玛目，高耸的宫殿是言说的伊玛目。”"
-            },
             "word_end": 13,
             "word_start": 4
           },
           {
             "arabic_text": "وَرَوَاهُ مُحَمَّدُ بْنُ يَحْيَى عَنِ الْعَمْرَكِيِّ عَنْ عَلِيِّ بْنِ جَعْفَرٍ عَنْ أَبِي الْحَسَنِ عَلَيْهِ السَّلَامُ مِثْلَهُ.",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আর মুহাম্মদ ইবন ইয়াহইয়া তা আল-আমরাকী থেকে, তিনি আলী ইবন জাফর থেকে, তিনি আবি আল-হাসান عليه السلام থেকে অনুরূপভাবে বর্ণনা করেছেন।",
-              "de": "Und Muḥammad ibn Yaḥyā überlieferte es von al-ʿAmrakī, von ʿAlī ibn Jaʿfar, von Abī al-Ḥasan عليه السلام, in ähnlicher Weise.",
-              "en": "And Muḥammad ibn Yaḥyā narrated it from al-ʿAmrakī, from ʿAlī ibn Jaʿfar, from Abī al-Ḥasan عليه السلام, similarly.",
-              "es": "Y Muḥammad ibn Yaḥyā lo narró de al-ʿAmrakī, de ʿAlī ibn Jaʿfar, de Abī al-Ḥasan عليه السلام, de manera similar.",
-              "fa": "و محمد بن یحیی آن را از العمرکی، از علی بن جعفر، از ابی الحسن علیه السلام، به همین گونه روایت کرده است.",
-              "fr": "Et Muḥammad ibn Yaḥyā l’a rapporté d’al-ʿAmrakī, de ʿAlī ibn Jaʿfar, d’Abī al-Ḥasan عليه السلام, de même.",
-              "id": "Dan Muḥammad ibn Yaḥyā meriwayatkannya dari al-ʿAmrakī, dari ʿAlī ibn Jaʿfar, dari Abī al-Ḥasan عليه السلام, dengan semisalnya.",
-              "ru": "И Мухаммад ибн Яхья передал это от аль-ʿАмраки, от Али ибн Джафара, от Аби аль-Хасана عليه السلام, подобным образом.",
-              "tr": "Ve onu Muḥammad ibn Yaḥyā, al-ʿAmrakī’den, o da ʿAlī ibn Jaʿfar’dan, o da Ebî al-Ḥasan عليه السلام’dan benzeri şekilde rivayet etti.",
-              "ur": "اور اسے محمد بن یحیی نے العمرکی سے، انہوں نے علی بن جعفر سے، انہوں نے ابی الحسن علیہ السلام سے اسی طرح روایت کیا۔",
-              "zh": "穆罕默德·伊本·叶海亚从al-ʿAmrakī传述它，al-ʿAmrakī又从ʿAlīibnJaʿfar传述，ʿAlīibnJaʿfar又从Abīal-Ḥasan عليه السلام传述，亦是如此。"
-            },
             "word_end": 29,
             "word_start": 13
           }
@@ -150,57 +124,19 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْإِمَامُ الصَّامِتُ": "the silent Imam, an Imam not outwardly manifest in public proclamation",
-            "الْإِمَامُ النَّاطِقُ": "the speaking Imam, an Imam openly expressing and establishing guidance",
-            "بِئْرٍ مُعَطَّلَةٍ": "an abandoned well, interpreted here as the silent Imam",
-            "قَصْرٍ مَشِيدٍ": "a lofty or strongly built palace, interpreted here as the speaking Imam",
-            "مِثْلَهُ": "similar to it; indicating a parallel transmission of the same meaning"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "بِئْرٍ مُعَطَّلَةٍ",
+          "قَصْرٍ مَشِيدٍ",
+          "الْإِمَامُ الصَّامِتُ",
+          "الْإِمَامُ النَّاطِقُ",
+          "مِثْلَهُ"
+        ],
         "related_quran": [
           {
             "ref": "22:45",
             "relationship": "explicit"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া তাফসীরে পরিত্যক্ত কূপ এবং সুউচ্চ প্রাসাদের অর্থ কী?",
-          "de": "Was bedeuten der verlassene Brunnen und der hochragende Palast in der schiitischen Tafsir?",
-          "en": "What is the meaning of the abandoned well and lofty palace in Shia tafsir?",
-          "es": "¿Cuál es el significado del pozo abandonado y el palacio elevado en la tafsir chií?",
-          "fa": "در تفسیر شیعه، چاه متروک و قصر برافراشته چه معنایی دارد؟",
-          "fr": "Quelle est la signification du puits abandonné et du palais élevé dans le tafsir chiite ?",
-          "id": "Apa makna sumur yang ditinggalkan dan istana yang tinggi dalam tafsir Syiah?",
-          "ru": "Что означает заброшенный колодец и высокий дворец в шиитском тафсире?",
-          "tr": "Şiî tefsirde terk edilmiş kuyu ve görkemli saray ne anlama gelir?",
-          "ur": "شیعہ تفسیر میں ویران کنواں اور بلند و بالا محل کا کیا مطلب ہے؟",
-          "zh": "在什叶派注释中，被废弃的井和高耸的宫殿是什么意思？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনাটি কুরআনের পরিত্যক্ত কূপ ও সুউচ্চ প্রাসাদের চিত্রের একটি অন্তর্নিহিত ব্যাখ্যা দেয়। এতে পরিত্যক্ত কূপকে নীরব ইমাম এবং সুউচ্চ প্রাসাদকে বাক্‌প্রদানকারী ইমাম হিসেবে চিহ্নিত করা হয়েছে, যা ঐশীভাবে নিযুক্ত কর্তৃত্ব ও পথনির্দেশের স্তরসমূহ নির্দেশ করে।",
-          "de": "Diese Überlieferung bietet eine esoterische Deutung des koranischen Bildes von einem verlassenen Brunnen und einem hochragenden Palast. Sie identifiziert den verlassenen Brunnen als den schweigenden Imam und den hochragenden Palast als den sprechenden Imam und weist damit auf Stufen göttlich eingesetzter Autorität und Führung hin.",
-          "en": "This narration gives an esoteric explanation of the Qur'anic image of an abandoned well and a lofty palace. It identifies the abandoned well as the silent Imam and the lofty palace as the speaking Imam, indicating ranks of divinely appointed authority and guidance.",
-          "es": "Esta narración ofrece una explicación esotérica de la imagen coránica de un pozo abandonado y un palacio elevado. Identifica el pozo abandonado como el Imam silencioso y el palacio elevado como el Imam parlante, indicando rangos de autoridad y guía designadas por Dios.",
-          "fa": "این روایت، تفسیری باطنی از تصویر قرآنیِ چاه متروک و قصر برافراشته ارائه می‌دهد. چاه متروک را امامِ صامت و قصر برافراشته را امامِ ناطق معرفی می‌کند و مراتبِ اقتدار و هدایتِ منصوبِ الهی را نشان می‌دهد.",
-          "fr": "Ce récit donne une explication ésotérique de l’image coranique d’un puits abandonné et d’un palais élevé. Il identifie le puits abandonné comme l’Imam silencieux et le palais élevé comme l’Imam parlant, indiquant des degrés d’autorité et de guidance désignés par Dieu.",
-          "id": "Riwayat ini memberikan penjelasan esoteris atas gambaran Al-Qur’an tentang sumur yang ditinggalkan dan istana yang tinggi. Ia mengidentifikasi sumur yang ditinggalkan sebagai Imam yang diam dan istana yang tinggi sebagai Imam yang berbicara, yang menunjukkan tingkatan otoritas dan petunjuk yang ditetapkan oleh Allah.",
-          "ru": "Этот хадис даёт эзотерическое толкование коранического образа заброшенного колодца и высокого дворца. Он отождествляет заброшенный колодец с молчаливым Имамом, а высокий дворец — с говорящим Имамом, указывая на степени божественно назначенной власти и руководства.",
-          "tr": "Bu rivayet, Kur’an’daki terk edilmiş kuyu ve görkemli saray tasvirine bâtınî bir açıklama getirir. Terk edilmiş kuyuyu sâkit İmam, görkemli sarayı ise konuşan İmam olarak tanımlar; bu da ilahî olarak tayin edilmiş otorite ve hidayet mertebelerini gösterir.",
-          "ur": "یہ روایت قرآن کی ایک تمثیلی تصویر کی باطنی تفسیر بیان کرتی ہے: ویران کنواں خاموش امام اور بلند و بالا محل بولنے والے امام کی طرف اشارہ ہے، جو الٰہی مقرر کردہ ہدایت اور اقتدار کے مراتب کو ظاہر کرتا ہے۔",
-          "zh": "这段传述对《古兰经》中被废弃的井和高耸的宫殿这一意象作出隐义解释。它将被废弃的井认定为沉默的伊玛目，将高耸的宫殿认定为言说的伊玛目，表明神圣任命的权威与引导的层级。"
-        },
         "tags": [
           "quran_commentary",
           "theology",

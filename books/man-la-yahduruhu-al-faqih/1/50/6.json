@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَىٰ مُحَمَّدُ بْنُ مُسْلِمٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবনে মুসলিম আবী জাফর عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Muḥammad ibn Muslim berichtete von Abī Jaʿfar عليه السلام, der sagte:",
-              "en": "Muḥammad ibn Muslim narrated from Abī Jaʿfar عليه السلام, who said:",
-              "es": "Muḥammad ibn Muslim narró de Abī Jaʿfar عليه السلام, quien dijo:",
-              "fa": "محمد بن مسلم از ابی جعفر علیه السلام روایت کرده است که فرمود:",
-              "fr": "Muḥammad ibn Muslim a rapporté de Abī Jaʿfar عليه السلام, qui a dit :",
-              "id": "Muḥammad ibn Muslim meriwayatkan dari Abī Jaʿfar علیه السلام, yang berkata:",
-              "ru": "Мухаммад ибн Муслим передал от Аби Джафара عليه السلام, который сказал:",
-              "tr": "Muhammed ibn Muslim, Ebu Ca'fer عليه السلام'dan rivayet etti, şöyle dedi:",
-              "ur": "مُحَمَّد ابن مسلم نے ابو جعفر علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "穆罕默德本穆斯林从阿布贾法尔عليهالسلام传述，他说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "إِذَا كَثُرَ عَلَيْكَ السَّهْوُ فَدَعْهُ فَإِنَّهُ يُوشِكُ أَنْ يَدَعَكَ إِنَّمَا هُوَ مِنَ الشَّيْطَانِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি তোমার ওপর ভুলে যাওয়া বেশি হয়ে যায়, তবে তা ত্যাগ করো, কারণ এটি শীঘ্রই তোমাকে ছেড়ে যাবে। এটি কেবল শয়তানের পক্ষ থেকে।",
-              "de": "Wenn Vergesslichkeit bei dir häufig wird, dann lass sie, denn sie wird dich bald verlassen. Sie ist nur vom Shayṭān.",
-              "en": "If forgetfulness becomes frequent upon you, then leave it, for it will soon leave you. It is only from Shayṭān.",
-              "es": "Si el olvido se vuelve frecuente en ti, entonces déjalo, porque pronto te dejará. Es solo de Shayṭān.",
-              "fa": "اگر فراموشی بر تو زیاد شود، آن را رها کن، زیرا به زودی از تو دور خواهد شد. این فقط از شیطان است.",
-              "fr": "Si l'oubli devient fréquent chez toi, alors laisse-le, car il te quittera bientôt. Il ne vient que de Shayṭān.",
-              "id": "Jika lupa menjadi sering terjadi padamu, maka tinggalkanlah, karena itu akan segera meninggalkanmu. Itu hanya dari Syaitan.",
-              "ru": "Если забывчивость становится у тебя частой, оставь это, ибо скоро она оставит тебя. Это только от Шайтана.",
-              "tr": "Eğer unutkanlık sana sık sık oluyorsa, onu bırak, çünkü yakında senden ayrılacaktır. O sadece Şeytan'dandır.",
-              "ur": "اگر تم پر بھول چوک زیادہ ہو جائے تو اسے چھوڑ دو، کیونکہ یہ جلد ہی تم سے دور ہو جائے گا۔ یہ صرف شیطان کی طرف سے ہے۔",
-              "zh": "如果遗忘频繁发生在你身上，就放弃它，因为它很快会离开你。这只是来自撒旦。"
-            },
             "word_end": 24,
             "word_start": 11
           }
@@ -92,24 +79,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "السَّهْوُ": "forgetfulness or distraction occurring during prayer",
-            "الشَّيْطَانِ": "Satan, the source of such disturbing insinuation",
-            "فَدَعْهُ": "leave it aside and do not act upon it",
-            "يُوشِكُ": "it is near or likely to happen soon"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "السَّهْوُ",
+          "فَدَعْهُ",
+          "يُوشِكُ",
+          "الشَّيْطَانِ"
+        ],
         "related_quran": [
           {
             "ref": "7:200",
@@ -124,32 +99,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যখন সালাতে ভুলে যাওয়া বা বিভ্রান্তিকর সন্দেহ বেশি হয়ে যায় তখন একজন ব্যক্তিকে কী করা উচিত?",
-          "de": "Was soll eine Person tun, wenn Vergesslichkeit oder ablenkende Zweifel im Gebet häufig werden?",
-          "en": "What should a person do when forgetfulness or distracting doubt becomes frequent in prayer?",
-          "es": "¿Qué debe hacer una persona cuando el olvido o la duda distractora se vuelven frecuentes en la oración?",
-          "fa": "وقتی فراموشی یا شک‌های مزاحم در نماز زیاد می‌شود، انسان چه باید بکند؟",
-          "fr": "Que doit faire une personne lorsque l'oubli ou le doute distrayant devient fréquent dans la prière ?",
-          "id": "Apa yang harus dilakukan seseorang ketika lupa atau keraguan yang mengganggu menjadi sering terjadi dalam salat?",
-          "ru": "Что должен делать человек, когда забывчивость или отвлекающие сомнения становятся частыми в молитве?",
-          "tr": "Namazda unutkanlık veya dikkat dağıtan şüpheler sıklaştığında kişi ne yapmalıdır?",
-          "ur": "جب نماز میں بھول چوک یا مشکوک خیالات زیادہ ہو جائیں تو انسان کو کیا کرنا چاہیے؟",
-          "zh": "当祈祷中遗忘或分心的疑虑频繁发生时，人应当做什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস বিশ্বাসীকে নির্দেশ দেয় যে সালাতে বারবার ভুলে যাওয়া বা বিভ্রান্তিকর সন্দেহের প্রতি মনোযোগ না দিতে। এটি শেখায় যে ধারাবাহিক বিভ্রান্তি উপেক্ষা করা উচিত, কারণ এতে মনোযোগ দিলে তা বাড়ে, আর উপেক্ষা করলে তা চলে যায়। হাদিসটি এমন পুনরাবৃত্তি হওয়া বিঘ্নকে শয়তানের পক্ষ থেকে বলে চিহ্নিত করে।",
-          "de": "Dieser Hadith weist den Gläubigen an, häufiges Vergessen oder ablenkende Zweifel im Salat nicht zu beachten. Er lehrt, dass anhaltende Ablenkung ignoriert werden sollte, da das Beachten sie verstärkt, während das Ignorieren zu ihrem Verschwinden führt. Der Hadith identifiziert solche wiederkehrenden Störungen als vom Shayṭān stammend.",
-          "en": "This hadith instructs the believer not to give attention to frequent forgetfulness or distracting doubt in salat. It teaches that persistent distraction should be ignored, as indulging it strengthens it, while disregarding it leads to its departure. The hadith also identifies such recurring disturbance as being from Shayṭān.",
-          "es": "Este hadiz instruye al creyente a no prestar atención al olvido frecuente o a la duda distractora en la salat. Enseña que la distracción persistente debe ser ignorada, ya que atenderla la fortalece, mientras que ignorarla conduce a su desaparición. El hadiz también identifica tal perturbación recurrente como proveniente de Shayṭān.",
-          "fa": "این حدیث به مؤمن دستور می‌دهد که به فراموشی مکرر یا شک‌های مزاحم در نماز توجه نکند. آموزش می‌دهد که توجه مداوم آن را تقویت می‌کند، در حالی که نادیده گرفتن آن باعث رفتن آن می‌شود. حدیث همچنین چنین مزاحمت مکرری را از شیطان می‌داند.",
-          "fr": "Ce hadith enseigne au croyant de ne pas prêter attention à l'oubli fréquent ou au doute distrayant dans la salat. Il enseigne que la distraction persistante doit être ignorée, car y prêter attention la renforce, tandis que l'ignorer conduit à son départ. Le hadith identifie également cette perturbation récurrente comme venant de Shayṭān.",
-          "id": "Hadis ini mengajarkan kepada orang beriman untuk tidak memperhatikan lupa yang sering terjadi atau keraguan yang mengganggu dalam salat. Mengajarkan bahwa gangguan yang terus-menerus harus diabaikan, karena memperhatikannya memperkuatnya, sementara mengabaikannya menyebabkan kepergiannya. Hadis ini juga mengidentifikasi gangguan berulang tersebut berasal dari Syaitan.",
-          "ru": "Этот хадис наставляет верующего не обращать внимания на частую забывчивость или отвлекающие сомнения в саляте. Он учит, что постоянное отвлечение следует игнорировать, так как внимание к нему усиливает его, а игнорирование приводит к его уходу. Хадис также определяет такие повторяющиеся помехи как исходящие от Шайтана.",
-          "tr": "Bu hadis, müminlere namazda sık sık unutkanlık veya dikkat dağıtan şüphelere önem vermemelerini öğütler. Sürekli dikkat vermek bunu güçlendirirken, görmezden gelmek onun gitmesine yol açar. Hadis, bu tür sürekli rahatsızlığı Şeytan'dan olduğunu belirtir.",
-          "ur": "یہ حدیث مومن کو ہدایت دیتی ہے کہ نماز میں بار بار بھول چوک یا مشکوک خیالات پر توجہ نہ دے۔ یہ سکھاتی ہے کہ مستقل توجہ دینے سے یہ بڑھتا ہے، جبکہ نظرانداز کرنے سے یہ ختم ہو جاتا ہے۔ یہ حدیث ایسے خلل کو شیطان کی طرف سے قرار دیتی ہے۔",
-          "zh": "这段圣训教导信士不要关注祈祷中频繁的遗忘或分心的疑虑。它教导持续的分心应被忽视，因为关注它会加强它，而忽视它会导致其离开。圣训还指出这种反复的干扰来自撒旦。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

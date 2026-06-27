@@ -14,6 +14,139 @@
       "up": "/books/al-kafi:3:4:84"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَنْهُ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ عُمَرَ بْنِ أُذَيْنَةَ عَنْ عُمَرَ بْنِ يَزِيدَ أَنَّهُ سَمِعَ أَبَا عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) يَقُولُ",
+            "chunk_type": "isnad",
+            "word_end": 25,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "إِنَّ فِي اللَّيْلِ لَسَاعَةً مَا يُوَافِقُهَا عَبْدٌ مُسْلِمٌ يُصَلِّي وَيَدْعُو اللَّهَ فِيهَا إِلَّا اسْتُجِيبَ لَهُ فِي كُلِّ لَيْلَةٍ قُلْتُ أَصْلَحَكَ اللَّهُ فَأَيُّ سَاعَةٍ هِيَ مِنَ اللَّيْلِ قَالَ إِذَا مَضَى نِصْفُ اللَّيْلِ فِي السُّدُسِ الْأَوَّلِ مِنَ النِّصْفِ الْبَاقِي",
+            "chunk_type": "body",
+            "word_end": 62,
+            "word_start": 25
+          }
+        ],
+        "content_type": "supplication",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 11,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَنْهُ",
+              "name_en": "from him",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 7,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ أَبِي عُمَيْرٍ",
+              "name_en": "Ibn Abi Umayr",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 83,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عُمَرَ بْنِ أُذَيْنَةَ",
+              "name_en": "Umar ibn Udhayna",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": null,
+              "identity_confidence": "ambiguous",
+              "known_identity": null,
+              "name_ar": "عُمَرَ بْنِ يَزِيدَ أَنَّهُ سَمِعَ أَبَا عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Umar b. Yazid",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "لَسَاعَةً",
+          "يُوَافِقُهَا",
+          "عَبْدٌ مُسْلِمٌ",
+          "اسْتُجِيبَ لَهُ",
+          "السُّدُسِ الْأَوَّلِ",
+          "النِّصْفِ الْبَاقِي"
+        ],
+        "related_quran": [
+          {
+            "ref": "42:26",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:8",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "73:1",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "51:18",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "worship",
+          "dua"
+        ],
+        "topics": [
+          "night_prayer",
+          "times_for_dua",
+          "salat"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> حسن  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (5/407)"
       ],
@@ -90,7 +223,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:4:84:19",

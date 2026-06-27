@@ -14,6 +14,117 @@
       "up": "/books/al-kafi:3:3:95"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ مُحَمَّدٍ عَنْ صَالِحِ بْنِ أَبِي حَمَّادٍ رَفَعَهُ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 10,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "جَاءَ أَمِيرُ الْمُؤْمِنِينَ ( عَلَيْهِ السَّلَامُ ) إِلَى الْأَشْعَثِ بْنِ قَيْسٍ يُعَزِّيهِ بِأَخٍ لَهُ يُقَالُ لَهُ عَبْدُ الرَّحْمَنِ فَقَالَ لَهُ أَمِيرُ الْمُؤْمِنِينَ ( عَلَيْهِ السَّلَامُ ) إِنْ جَزِعْتَ فَحَقَّ الرَّحِمِ أَتَيْتَ وَ إِنْ صَبَرْتَ فَحَقَّ اللَّهِ أَدَّيْتَ عَلَى أَنَّكَ إِنْ صَبَرْتَ جَرَى عَلَيْكَ الْقَضَاءُ وَ أَنْتَ مَحْمُودٌ وَ إِنْ جَزِعْتَ جَرَى عَلَيْكَ الْقَضَاءُ وَ أَنْتَ مَذْمُومٌ",
+            "chunk_type": "body",
+            "word_end": 66,
+            "word_start": 10
+          },
+          {
+            "arabic_text": "فَقَالَ لَهُ الْأَشْعَثُ إِنَّا لِلَّهِ وَ إِنَّا إِلَيْهِ رَاجِعُونَ فَقَالَ أَمِيرُ الْمُؤْمِنِينَ ( عَلَيْهِ السَّلَامُ ) أَ تَدْرِي مَا تَأْوِيلُهَا فَقَالَ الْأَشْعَثُ لَا أَنْتَ غَايَةُ الْعِلْمِ وَ مُنْتَهَاهُ فَقَالَ لَهُ أَمَّا قَوْلُكَ إِنَّا لِلَّهِ فَإِقْرَارٌ مِنْكَ بِالْمُلْكِ وَ أَمَّا قَوْلُكَ وَ إِنَّا إِلَيْهِ رَاجِعُونَ فَإِقْرَارٌ مِنْكَ بِالْهَلَاكِ",
+            "chunk_type": "body",
+            "word_end": 113,
+            "word_start": 66
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 35,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ مُحَمَّدٍ",
+              "name_en": "Ali ibn Muhammad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 166,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "صَالِحِ بْنِ أَبِي حَمَّادٍ",
+              "name_en": "Salih ibn Abi Hammad",
+              "position": 2,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "أَمِيرُ الْمُؤْمِنِينَ",
+          "الْجَزَع",
+          "الصَّبْر",
+          "حَقَّ الرَّحِمِ",
+          "حَقَّ اللَّهِ",
+          "الْقَضَاءُ",
+          "تَأْوِيلُهَا",
+          "الْمُلْكِ",
+          "الْهَلَاكِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:156",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "3:185",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "6:62",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "family",
+          "quran_commentary"
+        ],
+        "topics": [
+          "patience",
+          "death_dying",
+          "quran_interpretation_method",
+          "imams_biography",
+          "kinship"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (14/265)"
       ],
@@ -65,7 +176,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:3:95:40",

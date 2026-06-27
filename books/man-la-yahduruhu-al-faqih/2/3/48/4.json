@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى أَبُو أَيُّوبَ عَنْ أَبِي عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আবু আইয়ুব আবু 'আব্দুল্লাহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Abu Ayyub berichtete von Abu 'Abdullah عليه السلام, der sagte:",
-              "en": "Abu Ayyub narrated from Abu 'Abdullah عليه السلام, who said:",
-              "es": "Abu Ayyub narró de Abu 'Abdullah عليه السلام, quien dijo:",
-              "fa": "ابو ایوب از ابو عبدالله علیه السلام روایت کرد که فرمود:",
-              "fr": "Abu Ayyub a rapporté de Abu 'Abdullah عليه السلام, qui a dit :",
-              "id": "Abu Ayyub meriwayat dari Abu 'Abdullah علیه السلام, yang berkata:",
-              "ru": "Абу Айюб передал от Абу 'Абдуллаха عليه السلام, который сказал:",
-              "tr": "Ebu Eyyub, Ebu Abdullah'a عليه السلام'dan rivayet etti, şöyle dedi:",
-              "ur": "ابو ایوب نے ابو عبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "阿布艾尤卜从阿布阿卜杜拉 عليه السلام传述说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "إِنَّ أَحَدَهُمْ يَقْرِنُ وَ يَسُوقُ فَأَدَعُهُ عُقُوبَةً بِمَا صَنَعَ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "নিশ্চয়ই, তাদের একজন কোরবানি পশু নিয়ে একসঙ্গে চালায়, তাই আমি তাকে তার কাজের শাস্তি হিসেবে ছেড়ে দিই।",
-              "de": "Wahrlich, einer von ihnen verbindet und führt das Opfertier, so lasse ich ihn als Strafe für das, was er getan hat.",
-              "en": "Indeed, one of them combines and drives the sacrificial offering, so I leave him as a punishment for what he has done.",
-              "es": "En verdad, uno de ellos combina y conduce la ofrenda sacrificial, así que lo dejo como castigo por lo que ha hecho.",
-              "fa": "در حقیقت، یکی از آنها قربانی را همراه می‌کند و می‌راند، پس من او را به عنوان عقوبتی برای کاری که انجام داده رها می‌کنم.",
-              "fr": "En effet, l'un d'eux combine et conduit l'offrande sacrificielle, donc je le laisse comme punition pour ce qu'il a fait.",
-              "id": "Sesungguhnya, salah satu dari mereka menggabungkan dan mengendarai hewan kurban, maka aku membiarkannya sebagai hukuman atas apa yang telah dilakukannya.",
-              "ru": "Воистину, один из них сочетает и ведет жертвенное животное, поэтому я оставляю его в наказание за то, что он сделал.",
-              "tr": "Gerçekten, onlardan biri kurbanı birleştirip sürüyor, bu yüzden onu yaptığı şeyin cezası olarak bırakıyorum.",
-              "ur": "بے شک، ان میں سے ایک شخص قربانی کے جانور کو ساتھ لے کر چلتا ہے، تو میں اسے اس کے کیے ہوئے عمل کی سزا کے طور پر چھوڑ دیتا ہوں۔",
-              "zh": "确实，他们中有一人合并并驱赶祭牲，因此我让他因所作所为受到惩罚。"
-            },
             "word_end": 20,
             "word_start": 11
           }
@@ -91,25 +78,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بِمَا": "For what; indicating the reason for the consequence.",
-            "صَنَعَ": "He did; referring to the act the person committed.",
-            "عُقُوبَةً": "As a punishment or consequence.",
-            "يَسُوقُ": "He drives; here, he brings along or drives the sacrificial offering.",
-            "يَقْرِنُ": "He combines; here, it refers to performing qirān in the context of hajj."
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَقْرِنُ",
+          "يَسُوقُ",
+          "عُقُوبَةً",
+          "بِمَا",
+          "صَنَعَ"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
@@ -120,32 +95,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হাদিসে হজের সময় রীতিগুলো একত্রিত করে কোরবানি পশু চালানোর বিষয়ে কী বলা হয়েছে?",
-          "de": "Was sagt der Hadith über jemanden, der Riten kombiniert und das Opfertier beim Hadsch führt?",
-          "en": "What does the hadith say about one who combines rites and drives the sacrificial offering in hajj?",
-          "es": "¿Qué dice el hadiz sobre quien combina ritos y conduce la ofrenda sacrificial en el hajj?",
-          "fa": "در حدیث درباره کسی که مناسک را جمع کرده و قربانی را در حج می‌راند، چه گفته شده است؟",
-          "fr": "Que dit le hadith à propos de celui qui combine les rites et conduit l'offrande sacrificielle lors du hajj ?",
-          "id": "Apa yang dikatakan hadits tentang orang yang menggabungkan rukun dan mengendarai hewan kurban dalam haji?",
-          "ru": "Что говорит хадис о том, кто объединяет обряды и ведет жертвенное животное во время хаджа?",
-          "tr": "Hadiste, hac sırasında ritüelleri birleştirip kurbanı süren kişi hakkında ne denilmektedir?",
-          "ur": "حدیث میں حج کے دوران ریتوں کو یکجا کرنے اور قربانی کے جانور کو چلانے والے کے بارے میں کیا کہا گیا ہے؟",
-          "zh": "圣训中关于在朝觐中合并仪式并驱赶祭牲者说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি হজের বিভিন্ন রীতিনীতি এবং কোরবানি পশু চালানোর সময় রীতিগুলো একত্রিত করার সম্পর্কিত حکم বর্ণনা করে। ইমাম عليه السلام বলেন, এমন ব্যক্তিকে তার কাজের শাস্তি হিসেবে ছেড়ে দেওয়া হয়।",
-          "de": "Dieser Hadith behandelt eine Regel im Zusammenhang mit den Formen der Hadsch und der Handlung, Riten zu kombinieren, während man das Opfertier führt. Der Imam عليه السلام erklärt, dass eine solche Person der Folge seiner Handlung als Strafe überlassen wird.",
-          "en": "This hadith addresses a ruling connected to the forms of hajj and the act of combining rites while driving the sacrificial animal. The Imam عليه السلام states that such a person is left to the consequence of his own action as a form of penalty for what he has done.",
-          "es": "Este hadiz aborda una regla relacionada con las formas del hajj y el acto de combinar ritos mientras se conduce la ofrenda sacrificial. El Imam عليه السلام afirma que tal persona queda a merced de la consecuencia de su acción como forma de castigo.",
-          "fa": "این حدیث حکم مرتبط با احکام حج و عمل جمع کردن مناسک همراه با راندن قربانی را بیان می‌کند. امام علیه السلام می‌فرماید که چنین شخصی به عنوان مجازات برای عمل خود رها می‌شود.",
-          "fr": "Ce hadith traite d'une règle liée aux formes du hajj et à l'acte de combiner les rites tout en conduisant l'offrande sacrificielle. L'Imam عليه السلام déclare que cette personne est laissée à la conséquence de son acte comme forme de punition.",
-          "id": "Hadis ini membahas hukum yang terkait dengan bentuk-bentuk haji dan tindakan menggabungkan ibadah sambil mengendarai hewan kurban. Imam عليه السلام menyatakan bahwa orang tersebut dibiarkan menanggung akibat perbuatannya sebagai bentuk hukuman.",
-          "ru": "Этот хадис касается постановления, связанного с формами хаджа и актом объединения обрядов при ведении жертвенного животного. Имам عليه السلام утверждает, что такой человек оставляется на последствия своего действия в качестве наказания.",
-          "tr": "Bu hadis, hac şekilleri ve kurbanı sürerek ritüelleri birleştirme ile ilgili hükmü ele almaktadır. İmam عليه السلام, böyle bir kişinin yaptığı eylemin cezası olarak bırakıldığını belirtir.",
-          "ur": "یہ حدیث حج کے طریقوں اور قربانی کے جانور کو ساتھ لے کر چلانے کے عمل سے متعلق حکم بیان کرتی ہے۔ امام علیہ السلام فرماتے ہیں کہ ایسا شخص اپنے عمل کی سزا کے طور پر چھوڑ دیا جاتا ہے۔",
-          "zh": "此圣训涉及与朝觐形式及合并仪式同时驱赶祭牲的行为相关的判决。伊玛目 عليه السلام指出，此人因其所为被留作惩罚。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

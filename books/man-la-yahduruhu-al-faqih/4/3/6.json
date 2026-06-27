@@ -17,80 +17,41 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى صَفْوَانُ بْنُ يَحْيَى عَنْ أَبِي الْحَسَنِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "সফওয়ান ইবনে ইয়াহ্যা আবু আল-হাসান عليه السلام থেকে বর্ণনা করেছেন:",
-              "de": "Safwan ibn Yahya berichtete von Abu al-Hasan عليه السلام:",
-              "en": "Safwan ibn Yahya narrated from Abu al-Hasan عليه السلام:",
-              "es": "Safwan ibn Yahya narró de Abu al-Hasan عليه السلام:",
-              "fa": "صفوان بن یحیی از ابو الحسن علیه السلام روایت کرد:",
-              "fr": "Safwan ibn Yahya a rapporté de Abu al-Hasan عليه السلام :",
-              "id": "Safwan ibn Yahya meriwayat dari Abu al-Hasan علیه السلام:",
-              "ru": "Сафван ибн Яхья передал от Абу аль-Хасана عليه السلام:",
-              "tr": "Safvan ibn Yahya, Ebu'l-Hasan عليه السلام'dan rivayet etti:",
-              "ur": "صفوان ابن یحیی نے ابو الحسن علیہ السلام سے روایت کی:",
-              "zh": "صفوانابنییحیارویاتکردازابوالحسنعلیہالسلام:"
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "فِي قَوْلِ اللَّهِ عَزَّ وَ جَلَّ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল্লাহ তাআলার মহিমান্বিত ও মহাজনক বাণীর সম্পর্কে:",
-              "de": "Bezüglich des Wortes Allahs, des Mächtigen und Erhabenen:",
-              "en": "Regarding the saying of Allah, Mighty and Majestic:",
-              "es": "Respecto a la palabra de Allah, el Poderoso y Majestuoso:",
-              "fa": "در مورد قول خداوند عزوجل:",
-              "fr": "Concernant la parole d'Allah, le Tout-Puissant et Majestueux :",
-              "id": "Mengenai firman Allah Yang Maha Perkasa dan Maha Agung:",
-              "ru": "Относительно слов Аллаха, Великого и Могущего:",
-              "tr": "Allah, Azim ve Celil'in sözü hakkında:",
-              "ur": "اللہ تعالیٰ کے قول کے بارے میں:",
-              "zh": "关于真主至大至尊的话语："
-            },
             "word_end": 16,
             "word_start": 10
           },
           {
             "arabic_text": "يَا أَبَتِ اسْتَأْجِرْهُ إِنَّ خَيْرَ مَنِ اسْتَأْجَرْتَ الْقَوِيُّ الْأَمِينُ",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "হে আমার পিতা, তাকে চাকরি দাও। নিশ্চয়ই তোমার চাকরি দেওয়ার মধ্যে সেরা হল শক্তিশালী ও বিশ্বস্ত।",
-              "de": "O mein Vater, stelle ihn ein. Wahrlich, der Beste, den du einstellen kannst, ist der Starke, der Vertrauenswürdige.",
-              "en": "“O my father, hire him. Indeed, the best one you can hire is the strong, the trustworthy.”",
-              "es": "¡Oh padre mío, contrátalo! En verdad, el mejor que puedes contratar es el fuerte, el confiable.",
-              "fa": "ای پدرم، او را به کار گیر. بی‌گمان بهترین کسی که می‌توانی به کار گیری، قوی و امین است.",
-              "fr": "Ô mon père, engage-le. En vérité, le meilleur que tu peux engager est le fort, le digne de confiance.",
-              "id": "Wahai ayahku, pekerjakan dia. Sesungguhnya yang terbaik yang dapat kamu pekerjakan adalah yang kuat dan terpercaya.",
-              "ru": "О мой отец, найми его. Поистине, лучший из тех, кого ты можешь нанять, — сильный и надежный.",
-              "tr": "Ey babacığım, onu kirala. Şüphesiz kiralayacağın en hayırlı kişi güçlü ve güvenilirdir.",
-              "ur": "اے میرے والد، اسے ملازم رکھو۔ بے شک سب سے بہتر جو تم ملازم رکھو وہی طاقتور اور امین ہے۔",
-              "zh": "父亲啊，雇用他吧。确实，你所雇用的最好的人是强壮且可信赖的。"
-            },
             "word_end": 25,
             "word_start": 16
           },
           {
             "arabic_text": "قَالَ «قَالَ لَهَا شُعَيْبٌ عَلَيْهِ السَّلَامُ يَا بُنَيَّةِ هَذَا قَوِيٌّ قَدْ عَرَفْتِهِ بِرَفْعِ الصَّخْرَةِ الْأَمِينُ مِنْ أَيْنَ عَرَفْتِهِ قَالَتْ يَا أَبَتِ إِنِّي مَشَيْتُ قُدَّامَهُ فَقَالَ امْشِي مِنْ خَلْفِي فَإِنْ ضَلَلْتُ فَأَرْشِدِينِي إِلَى الطَّرِيقِ فَإِنَّا قَوْمٌ لَا نَنْظُرُ فِي أَدْبَارِ النِّسَاءِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: \"শু'য়াইব عليه السلام তাকে বললেন: আমার মেয়ে, সে শক্তিশালী—তুমি তাকে পাথর তোলার মাধ্যমে চিনেছ। কিন্তু তুমি কীভাবে জানলে যে সে বিশ্বস্ত? সে বলল: হে আমার পিতা, আমি তার সামনে হাঁটলাম, এবং সে বলল: আমার পেছনে হাঁটো, আর যদি আমি পথ হারাই তবে আমাকে পথ দেখাও, কারণ আমরা এমন জাতি যারা নারীদের পিঠ দিকে তাকাই না।\"",
-              "de": "Er sagte: „Schu'ayb عليه السلام sagte zu ihr: Meine Tochter, dieser ist stark—du hast das an seinem Heben des Felsens erkannt. Aber woher wusstest du, dass er vertrauenswürdig ist? Sie sagte: O mein Vater, ich ging vor ihm, und er sagte: Geh hinter mir, und wenn ich mich verirre, dann weise mich den Weg, denn wir sind ein Volk, das nicht auf die Rücken von Frauen schaut.“",
-              "en": "He said: “Shu'ayb عليه السلام said to her: My daughter, this one is strong—you recognized that from his lifting the rock. But from where did you know that he is trustworthy? She said: O my father, I walked in front of him, and he said: Walk behind me, and if I lose the way, then direct me to the path, for we are a people who do not look at the backs of women.”",
-              "es": "Él dijo: “Shu'ayb عليه السلام le dijo: Hija mía, este es fuerte—lo reconociste por levantar la roca. Pero, ¿de dónde supiste que es confiable? Ella dijo: Oh padre mío, caminé delante de él, y él dijo: Camina detrás de mí, y si me pierdo, guíame por el camino, porque somos un pueblo que no mira las espaldas de las mujeres.”",
-              "fa": "فرمود: «شعیب علیه السلام به او گفت: دخترم، این قوی است—تو او را از بلند کردن سنگ شناختی. اما از کجا دانستی که او امین است؟ او گفت: ای پدرم، من جلوتر از او راه رفتم، و او گفت: پشت سر من راه برو، و اگر گمراه شدم مرا به راه هدایت کن، زیرا ما قومی هستیم که به پشت زنان نگاه نمی‌کنیم.»",
-              "fr": "Il dit : « Shu'ayb عليه السلام lui dit : Ma fille, celui-ci est fort—tu l'as reconnu à sa levée de la pierre. Mais d'où sais-tu qu'il est digne de confiance ? Elle répondit : Ô mon père, j'ai marché devant lui, et il dit : Marche derrière moi, et si je me perds, guide-moi vers le chemin, car nous sommes un peuple qui ne regarde pas le dos des femmes. »",
-              "id": "Dia berkata: \"Shu'ayb عليه السلام berkata kepadanya: Anakku perempuan, dia kuat—kamu mengenalnya dari mengangkat batu. Tapi dari mana kamu tahu bahwa dia dapat dipercaya? Dia berkata: Wahai ayahku, aku berjalan di depan dia, dan dia berkata: Jalanlah di belakangku, dan jika aku tersesat, tunjukkan aku jalan, karena kami adalah kaum yang tidak melihat punggung wanita.\"",
-              "ru": "Он сказал: «Шу'айб عليه السلام сказал ей: Дочь моя, этот силен — ты узнала это по тому, как он поднял камень. Но откуда ты знала, что он надежен? Она сказала: О отец мой, я шла впереди него, и он сказал: Иди за мной, и если я заблужусь, укажи мне путь, ибо мы народ, который не смотрит на спины женщин.»",
-              "tr": "Dedi ki: \"Şu'ayb عليه السلام ona dedi ki: Kızım, bu güçlüdür—onu kayayı kaldırırken tanıdın. Ama nereden bildin ki o güvenilirdir? O dedi ki: Ey babacığım, onun önünde yürüdüm, o dedi ki: Arkamdan yürü, eğer yolumu kaybedersem beni doğru yola yönelt, çünkü biz kadınların sırtına bakmayan bir kavimiz.\"",
-              "ur": "انہوں نے کہا: \"شعیب علیہ السلام نے اس سے کہا: میری بیٹی، یہ طاقتور ہے—تم نے اسے چٹان اٹھاتے ہوئے پہچانا۔ لیکن تم نے کہاں سے جانا کہ وہ امین ہے؟ اس نے کہا: اے میرے والد، میں اس کے آگے چلتی رہی، اور اس نے کہا: میرے پیچھے چلو، اور اگر میں راستہ بھول جاؤں تو مجھے راستہ دکھانا، کیونکہ ہم ایسے لوگ ہیں جو عورتوں کی پیٹھ نہیں دیکھتے۔\"",
-              "zh": "他说：“舒艾卜 عليه السلام对她说：女儿，这人很强壮——你从他举起岩石中认出了他。但你从哪里知道他是可信赖的？她说：父亲啊，我走在他前面，他说：走在我后面，如果我迷路了，就引导我走正路，因为我们是一个不看女人背影的民族。”"
-            },
             "word_end": 65,
             "word_start": 25
           }
@@ -129,57 +90,19 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَدْبَارِ النِّسَاءِ": "The backs of women; mentioned here in the context of modest conduct and restraint of the gaze.",
-            "الْأَمِينُ": "The one who is trustworthy, morally reliable, and safeguards propriety.",
-            "الْقَوِيُّ": "The one possessing physical strength and capability.",
-            "بِرَفْعِ الصَّخْرَةِ": "By lifting the rock, which demonstrated physical strength.",
-            "فَأَرْشِدِينِي إِلَى الطَّرِيقِ": "Guide me to the path if I lose the way."
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْقَوِيُّ",
+          "الْأَمِينُ",
+          "بِرَفْعِ الصَّخْرَةِ",
+          "فَأَرْشِدِينِي إِلَى الطَّرِيقِ",
+          "أَدْبَارِ النِّسَاءِ"
+        ],
         "related_quran": [
           {
             "ref": "28:26",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শু'য়াইবের মেয়ে কীভাবে জানল যে মূসা عليه السلام শক্তিশালী এবং বিশ্বস্ত উভয়ই?",
-          "de": "Wie wusste die Tochter von Schu'ayb, dass Musa عليه السلام sowohl stark als auch vertrauenswürdig war?",
-          "en": "How did Shu'ayb’s daughter know that Musa عليه السلام was both strong and trustworthy?",
-          "es": "¿Cómo supo la hija de Shu'ayb que Musa عليه السلام era tanto fuerte como confiable?",
-          "fa": "دختر شعیب چگونه دانست که موسی علیه السلام هم قوی و هم امین است؟",
-          "fr": "Comment la fille de Shu'ayb a-t-elle su que Moussa عليه السلام était à la fois fort et digne de confiance ?",
-          "id": "Bagaimana putri Shu'ayb mengetahui bahwa Musa عليه السلام kuat dan terpercaya?",
-          "ru": "Как дочь Шу'айба узнала, что Муса عليه السلام был и сильным, и надежным?",
-          "tr": "Şu'ayb’ın kızı Musa عليه السلام'ın hem güçlü hem de güvenilir olduğunu nasıl anladı?",
-          "ur": "شعیب کی بیٹی نے کیسے جانا کہ موسیٰ علیہ السلام طاقتور اور امین دونوں ہیں؟",
-          "zh": "舒艾卜的女儿如何知道穆萨 عليه السلام既强壮又可信赖？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনা কুরআনে মূসা عليه السلام কে শক্তিশালী ও বিশ্বস্ত হিসেবে বর্ণনার অর্থ ব্যাখ্যা করে। তাঁর শক্তি পাথর তোলার মাধ্যমে প্রকাশ পেয়েছিল, আর তাঁর বিশ্বস্ততা তাঁর শালীন আচরণ ও নারীর পেছনে না তাকানোর মাধ্যমে প্রদর্শিত হয়েছিল।",
-          "de": "Diese Überlieferung erklärt die Bedeutung der koranischen Beschreibung von Musa عليه السلام als sowohl stark als auch vertrauenswürdig. Seine Stärke zeigte sich im Heben des Felsens, während seine Vertrauenswürdigkeit durch sein zurückhaltendes Verhalten und die Weigerung, einer Frau hinterherzuschauen, gezeigt wurde.",
-          "en": "This narration explains the meaning of the Quranic description of Musa عليه السلام as both strong and trustworthy. His strength was seen in lifting the rock, while his trustworthiness was shown through his modest conduct and refusal to look at a woman as she walked ahead of him.",
-          "es": "Esta narración explica el significado de la descripción coránica de Musa عليه السلام como fuerte y confiable. Su fuerza se vio al levantar la roca, mientras que su confiabilidad se mostró a través de su conducta modesta y su negativa a mirar a una mujer que caminaba delante de él.",
-          "fa": "این روایت معنای توصیف قرآن از موسی علیه السلام به عنوان قوی و امین را توضیح می‌دهد. قدرت او در بلند کردن سنگ دیده شد و امانت‌داری‌اش از طریق رفتار مودبانه و خودداری از نگاه کردن به پشت زنان نشان داده شد.",
-          "fr": "Cette narration explique la signification de la description coranique de Moussa عليه السلام comme étant à la fois fort et digne de confiance. Sa force a été vue dans le fait de soulever la pierre, tandis que sa fiabilité s'est manifestée par son comportement modeste et son refus de regarder une femme marchant devant lui.",
-          "id": "Riwayat ini menjelaskan makna deskripsi Al-Quran tentang Musa عليه السلام sebagai kuat dan terpercaya. Kekuatan beliau terlihat dari mengangkat batu, sedangkan kepercayaannya terlihat dari sikap sopan dan tidak melihat wanita yang berjalan di depannya.",
-          "ru": "Это предание объясняет значение коранического описания Мусы عليه السلام как сильного и надежного. Его сила проявилась в поднятии камня, а надежность — в скромном поведении и отказе смотреть на женщину, идущую впереди него.",
-          "tr": "Bu rivayet, Kur'an'da Musa عليه السلام'ın hem güçlü hem de güvenilir olarak tasvir edilmesinin anlamını açıklar. Onun gücü kayayı kaldırmasında görülürken, güvenilirliği edepli davranışı ve kadınların arkasına bakmamasıyla gösterilmiştir.",
-          "ur": "یہ روایت قرآن میں موسیٰ علیہ السلام کی طاقتور اور امین ہونے کی وصف کی وضاحت کرتی ہے۔ ان کی طاقت چٹان اٹھانے میں ظاہر ہوئی، جبکہ ان کی امانتداری ان کے شائستہ رویے اور عورت کے پیچھے نہ دیکھنے سے ظاہر ہوئی۔",
-          "zh": "此叙述解释了古兰经中对穆萨 عليه السلام既强壮又可信赖的描述含义。他的力量体现在举起岩石上，而他的可信赖则通过谦逊的行为和拒绝看走在他前面的女人背影表现出来。"
-        },
         "tags": [
           "quran_commentary",
           "ethics",

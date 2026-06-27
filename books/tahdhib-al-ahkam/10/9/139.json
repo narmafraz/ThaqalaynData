@@ -16,99 +16,47 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنِ ابْنِ مَحْبُوبٍ عَنْ أَبِي أَيُّوبَ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন মুহাম্মদ ইবন মাহবূব থেকে, তিনি আবী আইয়ূব থেকে, তিনি মুহাম্মদ ইবন মুসলিম থেকে, তিনি আবূ জাফর عليه السلام থেকে বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "Aḥmad ibn Muḥammad berichtete von Ibn Maḥbūb, von Abī Ayyūb, von Muḥammad ibn Muslim, von Abī Jaʿfar عليه السلام, der sagte:",
-              "en": "Aḥmad ibn Muḥammad narrated from Ibn Maḥbūb, from Abī Ayyūb, from Muḥammad ibn Muslim, from Abī Jaʿfar عليه السلام, who said:",
-              "es": "Aḥmad ibn Muḥammad narró de Ibn Maḥbūb, de Abī Ayyūb, de Muḥammad ibn Muslim, de Abī Jaʿfar عليه السلام, quien dijo:",
-              "fa": "احمد بن محمد از ابن محبوب، از ابی ایوب، از محمد بن مسلم، از ابی جعفر علیه السلام روایت کرد که فرمود:",
-              "fr": "Aḥmad ibn Muḥammad a rapporté d’Ibn Maḥbūb, de Abī Ayyūb, de Muḥammad ibn Muslim, d’Abī Jaʿfar عليه السلام, qui a dit :",
-              "id": "Aḥmad ibn Muḥammad meriwayatkan dari Ibn Maḥbūb, dari Abī Ayyūb, dari Muḥammad ibn Muslim, dari Abī Jaʿfar عليه السلام, yang berkata:",
-              "ru": "Ахмад ибн Мухаммад передал от Ибн Махбуба, от Аби Айюба, от Мухаммада ибн Муслима, от Аби Джафара عليه السلام, который сказал:",
-              "tr": "Ahmed ibn Muhammed, İbn Mahbûb’dan, o da Ebî Eyyûb’dan, o da Muhammed ibn Müslim’den, o da Ebû Ca‘fer عليه السلام’dan rivayet etti; şöyle dedi:",
-              "ur": "احمد بن محمد نے ابن محبوب سے، وہ ابی ایوب سے، وہ محمد بن مسلم سے، وہ ابو جعفر علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "艾哈迈德·伊本·穆罕默德传述自伊本·马赫布卜，传自阿比·艾尤布，传自穆罕默德·伊本·穆斯林，传自阿比·贾法尔 عليه السلام，他说："
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "«مَنْ شَهَرَ السِّلَاحَ فِي مِصْرٍ مِنَ الْأَمْصَارِ فَعَقَرَ اقْتُصَّ مِنْهُ وَنُفِيَ مِنْ تِلْكَ الْبَلْدَةِ، وَمَنْ شَهَرَ السِّلَاحَ فِي غَيْرِ الْأَمْصَارِ وَضَرَبَ وَعَقَرَ وَأَخَذَ الْأَمْوَالَ وَلَمْ يَقْتُلْ فَهُوَ مُحَارِبٌ فَجَزَاؤُهُ جَزَاءُ الْمُحَارِبِ، وَأَمْرُهُ إِلَى الْإِمَامِ إِنْ شَاءَ قَتَلَهُ وَإِنْ شَاءَ صَلَبَهُ وَإِنْ شَاءَ قَطَعَ يَدَهُ وَرِجْلَهُ»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে ব্যক্তি শহরসমূহের কোনো এক শহরে অস্ত্র প্রদর্শন করে এবং আঘাত করে, তার থেকে কিসাস নেওয়া হবে এবং তাকে সেই নগর থেকে নির্বাসিত করা হবে। আর যে ব্যক্তি শহরের বাইরে অস্ত্র প্রদর্শন করে, আঘাত করে ও আহত করে, এবং সম্পদ নিয়ে নেয় কিন্তু হত্যা করে না, তবে সে একজন মুআরিব; সুতরাং তার শাস্তি মুআরিবের শাস্তি, এবং তার বিষয়টি ইমামের হাতে: তিনি চাইলে তাকে হত্যা করবেন; চাইলে তাকে শূলবিদ্ধ করবেন; এবং চাইলে তার হাত ও পা কেটে দেবেন।",
-              "de": "Wer in einer Stadt unter den Städten eine Waffe zieht und verletzt, an dem wird Vergeltung geübt, und er wird aus jener Stadt verbannt. Und wer außerhalb der Städte eine Waffe zieht, schlägt und verletzt und Vermögen nimmt, aber nicht tötet, der ist ein muḥārib; seine Strafe ist also die Strafe des muḥārib, und seine Angelegenheit liegt beim Imam: Wenn er will, tötet er ihn; wenn er will, kreuzigt er ihn; und wenn er will, schneidet er ihm Hand und Fuß ab.",
-              "en": "Whoever brandishes a weapon in a city from among the cities and wounds, retaliation shall be taken from him and he shall be exiled from that town. And whoever brandishes a weapon outside the cities, strikes and wounds, and takes wealth but does not kill, then he is a muḥārib, so his recompense is the recompense of the muḥārib; and his case is up to the Imam: if he wishes, he kills him; if he wishes, he crucifies him; and if he wishes, he cuts off his hand and foot.",
-              "es": "Quien desenvaina un arma en una ciudad entre las ciudades y hiere, se tomará de él la represalia y será exiliado de esa localidad. Y quien desenvaina un arma fuera de las ciudades, golpea y hiere, y toma bienes pero no mata, entonces es un muḥārib; por tanto, su retribución es la retribución del muḥārib, y su asunto queda a cargo del Imam: si quiere, lo mata; si quiere, lo crucifica; y si quiere, le corta la mano y el pie.",
-              "fa": "هر کس در شهری از شهرها سلاح برکشد و زخمی کند، قصاص از او گرفته می‌شود و از آن شهر تبعید می‌گردد. و هر کس بیرون از شهرها سلاح برکشد، بزند و زخمی کند، و اموال را بگیرد ولی نکشد، پس او محارب است؛ بنابراین کیفر او کیفر محارب است و کار او به امام واگذار است: اگر بخواهد او را می‌کشد؛ و اگر بخواهد به دار می‌زند؛ و اگر بخواهد دست و پایش را قطع می‌کند.",
-              "fr": "Quiconque brandit une arme dans une ville parmi les villes et blesse, la représaille sera prise contre lui et il sera exilé de cette cité. Et quiconque brandit une arme en dehors des villes, frappe et blesse, et prend des biens sans tuer, alors il est un muḥārib ; sa rétribution est donc la rétribution du muḥārib, et son affaire revient à l’Imam : s’il veut, il le tue ; s’il veut, il le crucifie ; et s’il veut, il lui coupe la main et le pied.",
-              "id": "Barangsiapa menghunus senjata di suatu kota dari kota-kota lalu melukai, maka qisas diambil darinya dan ia diasingkan dari kota itu. Dan barangsiapa menghunus senjata di luar kota-kota, memukul dan melukai, serta mengambil harta tetapi tidak membunuh, maka ia adalah seorang muḥārib; maka balasannya adalah balasan muḥārib, dan urusannya berada di tangan Imam: jika ia menghendaki, ia membunuhnya; jika ia menghendaki, ia menyalibnya; dan jika ia menghendaki, ia memotong tangan dan kakinya.",
-              "ru": "Кто обнажит оружие в одном из городов и ранит, с того будет взыскано возмездие, и он будет изгнан из того города. А кто обнажит оружие вне городов, ударит, ранит и заберёт имущество, но не убьёт, тот является муḥārib; и воздаяние ему — воздаяние муḥārib, а его дело — у Имама: если пожелает, он убьёт его; если пожелает, распнет его; и если пожелает, отрежет ему руку и ногу.",
-              "tr": "Kim şehirlerden bir şehirde silah çekip yaralarsa, ondan kısas alınır ve o beldeden sürgün edilir. Kim de şehirlerin dışında silah çekip vurur, yaralar ve mal alır da öldürmezse, o bir muḥāribdir; onun cezası muḥāribin cezasıdır ve işi İmam’a aittir: dilerse onu öldürür; dilerse onu çarmıha gerer; dilerse elini ve ayağını keser.",
-              "ur": "جو شخص شہروں میں سے کسی شہر میں ہتھیار کھینچے اور زخمی کرے، اس سے قصاص لیا جائے گا اور اسے اس بستی سے جلا وطن کر دیا جائے گا۔ اور جو شخص شہروں کے باہر ہتھیار کھینچے، مارے اور زخمی کرے، اور مال لے لے مگر قتل نہ کرے، تو وہ محارب ہے؛ پس اس کی سزا محارب کی سزا ہے، اور اس کا معاملہ امام کے سپرد ہے: اگر چاہے تو اسے قتل کرے، اگر چاہے تو اسے سولی دے، اور اگر چاہے تو اس کا ہاتھ اور پاؤں کاٹ دے۔",
-              "zh": "凡在诸城之一的城中亮出武器并致伤者，将对其实施报复，并将其逐出那座城。凡在城外亮出武器、殴打并致伤、夺取财物但未杀人者，则其为muḥārib；故其报应即muḥārib的报应，其事由归于伊玛目：若他愿意，便处死他；若他愿意，便将他钉十字架；若他愿意，便砍去他的手和脚。"
-            },
             "word_end": 64,
             "word_start": 19
           },
           {
             "arabic_text": "قَالَ: «وَإِنْ ضَرَبَ وَقَتَلَ وَأَخَذَ الْمَالَ فَعَلَى الْإِمَامِ أَنْ يَقْطَعَ يَدَهُ الْيُمْنَى بِالسَّرِقَةِ ثُمَّ يَدْفَعَهُ إِلَى أَوْلِيَاءِ الْمَقْتُولِ فَيَتْبَعُونَهُ بِالْمَالِ ثُمَّ يَقْتُلُونَهُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: আর যদি সে আঘাত করে, হত্যা করে, এবং সম্পদ নিয়ে নেয়, তবে চুরির কারণে তার ডান হাত কেটে দেওয়া ইমামের ওপর আবশ্যক, তারপর তাকে নিহত ব্যক্তির ওয়ারিসদের হাতে সোপর্দ করা হবে, যাতে তারা সম্পদের জন্য তার পিছু নেয়, তারপর তারা তাকে হত্যা করবে।",
-              "de": "Er sagte: Und wenn er schlägt, tötet und Vermögen nimmt, dann ist es dem Imam obliegend, ihm wegen des Diebstahls die rechte Hand abzuschneiden, dann ihn den Erben des Getöteten zu übergeben, damit sie ihn wegen des Vermögens verfolgen, und dann ihn zu töten.",
-              "en": "He said: And if he strikes, kills, and takes wealth, then it is upon the Imam to cut off his right hand for the theft, then hand him over to the heirs of the slain, so they may pursue him for the wealth, then kill him.",
-              "es": "Dijo: Y si golpea, mata y toma bienes, entonces corresponde al Imam cortar su mano derecha por el robo, luego entregarlo a los herederos del asesinado para que lo persigan por los bienes, y luego lo maten.",
-              "fa": "فرمود: و اگر بزند، بکشد و مال بگیرد، بر امام لازم است که دست راست او را به سبب سرقت قطع کند، سپس او را به اولیای مقتول بسپارد تا آنان به خاطر مال او را دنبال کنند، سپس او را بکشند.",
-              "fr": "Il a dit : Et s’il frappe, tue et prend des biens, il incombe alors à l’Imam de lui couper la main droite pour le vol, puis de le remettre aux ayants droit du tué afin qu’ils le poursuivent pour les biens, puis qu’ils le tuent.",
-              "id": "Ia berkata: Dan jika ia memukul, membunuh, dan mengambil harta, maka wajib atas Imam untuk memotong tangan kanannya karena pencurian, kemudian menyerahkannya kepada para wali orang yang terbunuh, lalu mereka mengejarnya karena harta itu, kemudian mereka membunuhnya.",
-              "ru": "Он сказал: И если он ударит, убьёт и заберёт имущество, то на Имаме лежит обязанность отрезать ему правую руку за воровство, затем передать его наследникам убитого, чтобы они преследовали его из-за имущества, а затем убили его.",
-              "tr": "Şöyle dedi: Eğer vurur, öldürür ve mal alırsa, hırsızlık sebebiyle sağ elini kesmek İmam’a vaciptir; sonra onu maktulün velilerine teslim eder, onlar da mal için onun peşine düşerler, sonra onu öldürürler.",
-              "ur": "اس نے فرمایا: اور اگر وہ مارے، قتل کرے، اور مال لے لے، تو امام پر لازم ہے کہ چوری کی وجہ سے اس کا دایاں ہاتھ کاٹ دے، پھر اسے مقتول کے اولیاء کے حوالے کر دے تاکہ وہ مال کے بارے میں اس کا پیچھا کریں، پھر اسے قتل کریں۔",
-              "zh": "他说：如果他殴打、杀人并夺取财物，那么伊玛目有责任因盗窃而砍去他的右手，然后将他交给被杀者的监护人，使他们因财物而追究他，然后再杀死他。"
-            },
             "word_end": 86,
             "word_start": 64
           },
           {
             "arabic_text": "قَالَ: فَقَالَ لَهُ أَبُو عُبَيْدَةَ: أَصْلَحَكَ اللَّهُ، أَرَأَيْتَ إِنْ عَفَا عَنْهُ أَوْلِيَاءُ الْمَقْتُولِ؟ قَالَ: فَقَالَ أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ: «إِنْ عَفَوْا عَنْهُ فَإِنَّ عَلَى الْإِمَامِ أَنْ يَقْتُلَهُ لِأَنَّهُ قَدْ حَارَبَ اللَّهَ وَقَتَلَ وَسَرَقَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: তারপর আবূ উবাইদাহ তাকে বললেন, “আল্লাহ আপনাকে সংশোধন করুন, আপনি কী মনে করেন যদি নিহত ব্যক্তির ওয়ারিসরা তাকে ক্ষমা করে?” তিনি বললেন: তখন আবূ জাফর عليه السلام বললেন: “যদি তারা তাকে ক্ষমা করে, তবুও তাকে হত্যা করা ইমামের ওপর আবশ্যক, কারণ সে অবশ্যই আল্লাহর বিরুদ্ধে যুদ্ধ করেছে, হত্যা করেছে, এবং চুরি করেছে।”",
-              "de": "Er sagte: Dann sagte Abū ʿUbaydah zu ihm: „Möge Allah dich rechtleiten, was meinst du, wenn die Erben des Getöteten ihm vergeben?“ Er sagte: Da sagte Abū Jaʿfar عليه السلام: „Wenn sie ihm vergeben, dann ist es dennoch dem Imam obliegend, ihn zu töten, denn er hat wahrlich gegen Allah Krieg geführt, getötet und gestohlen.“",
-              "en": "He said: Then Abū ʿUbaydah said to him, “May Allah set you aright, what do you think if the heirs of the slain pardon him?” He said: So Abū Jaʿfar عليه السلام said: “If they pardon him, then it is still upon the Imam to kill him, because he has indeed warred against Allah, killed, and stolen.”",
-              "es": "Dijo: Entonces Abū ʿUbaydah le dijo: “Que Allah te rectifique, ¿qué opinas si los herederos del asesinado lo perdonan?” Dijo: Entonces Abū Jaʿfar عليه السلام dijo: “Si lo perdonan, aun así corresponde al Imam matarlo, porque ciertamente ha guerreado contra Allah, ha matado y ha robado.”",
-              "fa": "گفت: سپس ابو عبیده به او گفت: «خدا تو را اصلاح کند، چه می‌گویی اگر اولیای مقتول او را ببخشند؟» گفت: پس ابو جعفر علیه السلام فرمود: «اگر او را ببخشند، باز هم بر امام لازم است که او را بکشد، زیرا او به‌راستی با خدا جنگیده، کشته و دزدی کرده است.»",
-              "fr": "Il a dit : Puis Abū ʿUbaydah lui dit : « Qu’Allah te redresse, que dis-tu si les ayants droit du tué lui pardonnent ? » Il dit : Alors Abū Jaʿfar عليه السلام dit : « S’ils lui pardonnent, il incombe néanmoins à l’Imam de le tuer, car il a certes fait la guerre à Allah, tué et volé. »",
-              "id": "Ia berkata: Lalu Abū ʿUbaydah berkata kepadanya, “Semoga Allah memperbaikimu, bagaimana pendapatmu jika para wali orang yang terbunuh memaafkannya?” Ia berkata: Maka Abū Jaʿfar عليه السلام bersabda: “Jika mereka memaafkannya, maka tetap wajib atas Imam untuk membunuhnya, karena sungguh ia telah memerangi Allah, membunuh, dan mencuri.”",
-              "ru": "Он сказал: Затем Абу Убайда сказал ему: «Да исправит тебя Аллах, что ты скажешь, если наследники убитого простят его?» Он сказал: Тогда Абу Джафар عليه السلام сказал: «Если они простят его, то всё равно на Имаме лежит обязанность убить его, ибо он действительно воевал против Аллаха, убивал и воровал».",
-              "tr": "Dedi ki: Sonra Ebû Ubeyde ona dedi: “Allah seni ıslah etsin, ne dersin; eğer maktulün velileri onu affederse?” Dedi ki: Bunun üzerine Ebû Ca‘fer عليه السلام şöyle buyurdu: “Eğer onu affederlerse, yine de onu öldürmek İmam’a vaciptir; çünkü o gerçekten Allah’a savaş açmış, öldürmüş ve çalmıştır.”",
-              "ur": "اس نے کہا: پھر ابو عبیدہ نے اس سے کہا، “اللہ آپ کو درست رکھے، آپ کیا کہتے ہیں اگر مقتول کے اولیاء اسے معاف کر دیں؟” اس نے کہا: تو ابو جعفر علیہ السلام نے فرمایا: “اگر وہ اسے معاف کر دیں، تب بھی امام پر اسے قتل کرنا لازم ہے، کیونکہ اس نے یقیناً اللہ سے جنگ کی، قتل کیا، اور چوری کی۔”",
-              "zh": "他说：然后阿布·乌拜达对他说：“愿真主使你端正，你怎么看，如果被杀者的监护人宽恕他？”他说：于是阿布·贾法尔 عليه السلام说：“如果他们宽恕他，那么伊玛目仍有责任杀死他，因为他确已与真主为敌，杀人并偷窃。”"
-            },
             "word_end": 119,
             "word_start": 86
           },
           {
             "arabic_text": "قَالَ: ثُمَّ قَالَ لَهُ أَبُو عُبَيْدَةَ: أَرَأَيْتَ إِنْ أَرَادَ أَوْلِيَاءُ الْمَقْتُولِ أَنْ يَأْخُذُوا مِنْهُ الدِّيَةَ وَيَدَعُونَهُ، أَلَهُمْ ذَلِكَ؟ قَالَ: فَقَالَ: «لَا، عَلَيْهِ الْقَتْلُ».",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তিনি বললেন: তারপর আবু উবাইদা তাকে বললেন, “আপনি কী বলেন, যদি নিহত ব্যক্তির ওয়ারিসরা তার কাছ থেকে দিয়াত নিতে চায় এবং তাকে ছেড়ে দিতে চায়, তাদের কি সে অধিকার আছে?” তিনি বললেন: তখন তিনি বললেন, “না। তার ওপর হত্যা কার্যকর হবে।”",
-              "de": "Er sagte: Dann sagte Abū ʿUbaydah zu ihm: „Was meinst du, wenn die Erben des Getöteten von ihm das Blutgeld nehmen und ihn laufen lassen wollen, haben sie dazu das Recht?“ Er sagte: Da sagte er: „Nein. Die Tötung ist gegen ihn.“",
-              "en": "He said: Then Abū ʿUbaydah said to him, “What do you think if the heirs of the slain want to take blood-money from him and leave him, do they have that right?” He said: So he said: “No. Killing is upon him.”",
-              "es": "Dijo: Entonces Abū ʿUbaydah le dijo: «¿Qué opinas si los herederos del muerto quieren tomar de él la sangre-dinero y dejarlo, tienen ese derecho?» Dijo: Entonces dijo: «No. La muerte recae sobre él.»",
-              "fa": "گفت: سپس ابو عبیده به او گفت: «چه می‌گویی اگر اولیای مقتول بخواهند از او دیه بگیرند و او را رها کنند، آیا چنین حقی برای آنان هست؟» گفت: پس فرمود: «نه. کشتن بر اوست.»",
-              "fr": "Il dit : Puis Abū ʿUbaydah lui dit : « Que dis-tu si les héritiers du tué veulent prendre de lui le prix du sang et le laisser, en ont-ils le droit ? » Il dit : Alors il dit : « Non. Il doit être mis à mort. »",
-              "id": "Ia berkata: Lalu Abu ʿUbaydah berkata kepadanya, “Bagaimana pendapatmu jika para ahli waris orang yang terbunuh ingin أخذ diyah darinya dan membiarkannya pergi, apakah mereka berhak atas itu?” Ia berkata: Maka ia berkata, “Tidak. Pembunuhan atas dirinya.”",
-              "ru": "Он сказал: Тогда Абу ʿУбайда сказал ему: «Что ты скажешь, если наследники убитого захотят взять с него выкуп за кровь и оставить его, есть ли у них на это право?» Он сказал: Тогда он сказал: «Нет. Его следует убить.»",
-              "tr": "Dedi ki: Sonra Ebû Ubeyde ona dedi ki: \"Öldürülenin varisleri ondan diyet almak ve onu bırakmak isterlerse, onların böyle bir hakkı var mı?\" Dedi ki: Bunun üzerine şöyle buyurdu: \"Hayır. Onu öldürmek gerekir.\"",
-              "ur": "انہوں نے کہا: پھر ابو عبیدہ نے ان سے کہا: \"آپ کیا فرماتے ہیں اگر مقتول کے اولیاء اس سے دیت لینا چاہیں اور اسے چھوڑ دیں، کیا ان کے لیے یہ حق ہے؟\" انہوں نے کہا: پھر انہوں نے فرمایا: \"نہیں۔ اس پر قتل ہے۔\"",
-              "zh": "他说：然后阿布·乌拜达对他说：“如果被杀者的继承人想从他那里索取血金并放过他，他们有这个权利吗？”他说：于是他说：“没有。应当处死他。”"
-            },
             "word_end": 142,
             "word_start": 119
           }
@@ -177,28 +125,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَوْلِيَاءِ الْمَقْتُولِ": "the heirs or legal claimants of the slain person",
-            "الدِّيَةَ": "blood-money paid in compensation for killing",
-            "الْإِمَامِ": "the legitimate authority who implements the legal ruling",
-            "الْقَتْلُ": "execution or killing as the imposed punishment",
-            "شَهَرَ السِّلَاحَ": "openly brandished the weapon",
-            "صَلَبَهُ": "crucified him",
-            "مُحَارِبٌ": "one who wages violent hostility and armed aggression",
-            "يَقْطَعَ يَدَهُ الْيُمْنَى": "cuts off his right hand as punishment for theft"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "شَهَرَ السِّلَاحَ",
+          "مُحَارِبٌ",
+          "الْإِمَامِ",
+          "صَلَبَهُ",
+          "يَقْطَعَ يَدَهُ الْيُمْنَى",
+          "أَوْلِيَاءِ الْمَقْتُولِ",
+          "الدِّيَةَ",
+          "الْقَتْلُ"
+        ],
         "related_quran": [
           {
             "ref": "5:33",
@@ -209,32 +145,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে যে মুআরিব মানুষের ওপর আক্রমণ করে, সম্পদ চুরি করে, এবং হত্যা করে, তার বিধান কী?",
-          "de": "Was ist das Urteil im schiitischen Hadith über einen muḥārib, der Menschen angreift, Vermögen stiehlt und tötet?",
-          "en": "What is the ruling in Shiʿi hadith on a muḥārib who attacks people, steals wealth, and kills?",
-          "es": "¿Cuál es el fallo en el hadiz chií sobre un muḥārib que ataca a la gente, roba bienes y mata?",
-          "fa": "در حدیث شیعه، حکم محاربی که به مردم حمله می‌کند، مال می‌دزدد و می‌کشد چیست؟",
-          "fr": "Quelle est la règle dans le hadith chiite concernant un muḥārib qui attaque des gens, vole des biens et tue ?",
-          "id": "Apa حكم seorang muḥārib dalam hadis Syiah yang menyerang orang, mencuri harta, dan membunuh?",
-          "ru": "Каково постановление в шиитском хадисе о muḥārib, который нападает на людей, крадёт имущество и убивает?",
-          "tr": "Şiî hadiste insanlara saldıran, mal çalan ve öldüren bir muḥāribin hükmü nedir?",
-          "ur": "شیعہ حدیث میں اس محارب کا حکم کیا ہے جو لوگوں پر حملہ کرے، مال چُرائے، اور قتل کرے؟",
-          "zh": "什叶派圣训中，袭击他人、盗取财物并杀人的muḥārib的判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে এমন ব্যক্তির শরঈ বিধান বর্ণনা করা হয়েছে, যে প্রকাশ্যে অস্ত্র তোলে, মানুষকে আহত করে, সম্পদ ছিনিয়ে নেয়, এবং কিছু ক্ষেত্রে হত্যা করে। এতে মুআরাবার শাস্তি প্রয়োগে ইমামের কর্তৃত্ব স্পষ্ট করা হয়েছে এবং ব্যাখ্যা করা হয়েছে যে সহিংস আক্রমণ, হত্যা ও চুরির সমন্বয় ঘটলে নির্ধারিত শাস্তি বাধ্যতামূলক থাকে, এমনকি নিহত ব্যক্তির ওয়ারিসরা ক্ষমা করতে বা দিয়াত গ্রহণ করতে চাইলে তবুও।",
-          "de": "Dieser Hadith legt die rechtlichen Bestimmungen für denjenigen dar, der offen eine Waffe trägt, Menschen verletzt, Vermögen an sich nimmt und in manchen Fällen tötet. Er betont die Autorität des Imams bei der Anwendung der Strafen für muḥārabah und stellt klar, dass in Fällen, in denen gewaltsame Aggression, Tötung und Diebstahl zusammenkommen, die vorgeschriebene Strafe bindend bleibt, selbst wenn die Erben des Getöteten vergeben oder Blutgeld annehmen wollen.",
-          "en": "This hadith sets out legal rulings concerning one who openly bears arms, wounds people, seizes wealth, and in some cases kills, distinguishing between cases and their punishments. It emphasizes the Imam’s authority in applying the penalties of muḥārabah and clarifies that in cases combining violent aggression, killing, and theft, the prescribed punishment remains binding even if the slain person’s heirs wish to pardon or accept blood-money.",
-          "es": "Este hadiz expone las normas legales relativas a quien empuña abiertamente un arma, hiere a la gente, se apodera de bienes y, en algunos casos, mata. Subraya la autoridad del Imam para aplicar las penas de muḥārabah y aclara que, en los casos en que se combinan agresión violenta, homicidio y robo, el castigo prescrito sigue siendo obligatorio aunque los herederos del asesinado deseen perdonar o aceptar la compensación de sangre.",
-          "fa": "این حدیث احکام شرعی مربوط به کسی را بیان می‌کند که آشکارا سلاح برمی‌کشد، مردم را زخمی می‌کند، مال می‌گیرد، و در برخی موارد می‌کشد. در آن، اختیار امام در اجرای کیفرهای محاربه روشن شده و نیز بیان می‌شود که در مواردی که تجاوز خشونت‌آمیز، قتل و سرقت با هم جمع شوند، مجازات مقرر حتی اگر وارثان مقتول بخواهند ببخشند یا دیه بپذیرند، همچنان لازم است.",
-          "fr": "Ce hadith expose les règles juridiques concernant celui qui brandit ouvertement une arme, blesse des gens, s’empare de biens et, dans certains cas, tue. Il souligne l’autorité de l’Imam dans l’application des peines de muḥārabah et précise que, lorsque l’agression violente, le meurtre et le vol se combinent, la peine prescrite demeure obligatoire même si les héritiers du tué souhaitent pardonner ou accepter le prix du sang.",
-          "id": "Hadis ini menjelaskan hukum-hukum syar‘i tentang orang yang secara terang-terangan mengangkat senjata, melukai orang, merampas harta, dan dalam بعض kasus membunuh. Hadis ini menegaskan wewenang Imam dalam menerapkan hukuman muḥārabah dan menjelaskan bahwa dalam kasus yang menggabungkan agresi kekerasan, pembunuhan, dan pencurian, hukuman yang ditetapkan tetap berlaku meskipun para ahli waris orang yang terbunuh ingin memaafkan atau menerima diyat.",
-          "ru": "Этот хадис излагает правовые постановления относительно того, кто открыто обнажает оружие, ранит людей, захватывает имущество и в некоторых случаях убивает. В нём подчёркивается власть Имама в применении наказаний за muḥārabah и разъясняется, что в случаях, когда соединяются насильственное нападение, убийство и кража, установленное наказание остаётся обязательным, даже если наследники убитого хотят простить или принять выкуп за кровь.",
-          "tr": "Bu hadis, açıkça silah taşıyıp insanları yaralayan, mal alan ve bazı durumlarda öldüren kimseye dair şer‘î hükümleri ortaya koyar. Muḥārabe cezalarının uygulanmasında İmam’ın yetkisini vurgular ve şiddetli saldırı, öldürme ve hırsızlığın bir araya geldiği durumlarda, maktulün varisleri affetmek veya diyet kabul etmek isteseler bile belirlenmiş cezanın bağlayıcı olduğunu açıklar.",
-          "ur": "یہ حدیث اس شخص کے بارے میں شرعی احکام بیان کرتی ہے جو کھلے عام ہتھیار اٹھائے، لوگوں کو زخمی کرے، مال چھینے، اور بعض صورتوں میں قتل بھی کرے۔ اس میں محاربہ کی سزاؤں میں امام کے اختیار کو واضح کیا گیا ہے، اور یہ بھی کہ جب جارحیت، قتل، اور چوری جمع ہو جائیں تو مقررہ سزا لازم رہتی ہے، خواہ مقتول کے وارث معاف کرنا یا دیت قبول کرنا چاہیں۔",
-          "zh": "这段圣训阐明了关于公开持械、伤人、夺取财物并在某些情况下杀人的人的教法判决。它强调了伊玛目在执行muḥārabah刑罚中的权威，并说明当暴力侵害、杀人和盗窃结合在一起时，即使被杀者的继承人愿意宽恕或接受血金，既定刑罚仍然具有约束力。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

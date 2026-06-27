@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَعَنْهُ عَنْ أَبِي عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ: فِي",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং তাঁর কাছ থেকে, আবূ আবদিল্লাহ عليه السلام থেকে: সম্পর্কে",
-              "de": "Und von ihm, von Abī ʿAbdillāh عليه السلام: über",
-              "en": "And from him, from Abī ʿAbdillāh عليه السلام: concerning",
-              "es": "Y de él, de Abī ʿAbdillāh عليه السلام: acerca de",
-              "fa": "و از او، از ابی‌عبدالله علیه‌السلام: دربارهٔ",
-              "fr": "Et de lui, d’Abī ʿAbdillāh عليه السلام : au sujet de",
-              "id": "Dan darinya, dari Abī ʿAbdillāh عليه السلام: tentang",
-              "ru": "И от него, от Аби ʿАбдуллаха عليه السلام: относительно",
-              "tr": "Ve ondan, Ebî Abdillâh عليه السلام’dan: hakkında",
-              "ur": "اور ان سے، ابو عبداللہ علیہ السلام سے: کے بارے میں",
-              "zh": "并且由他传自阿比·阿卜杜拉 عليه السلام：关于"
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "حُرٍّ قَتَلَ عَبْدًا قَالَ: «لَا يُقْتَلُ بِهِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন মুক্ত ব্যক্তি একজন দাসকে হত্যা করলে, তিনি বললেন: “এর বদলে তাকে হত্যা করা হবে না।”",
-              "de": "Ein freier Mann tötete einen Sklaven; er sagte: „Er wird dafür nicht getötet.“",
-              "en": "a free man who killed a slave, he said: “He is not killed for him.”",
-              "es": "Un hombre libre mató a un esclavo; dijo: “No se le da muerte por ello.”",
-              "fa": "مردی آزاد، برده‌ای را کشت؛ فرمود: «به‌خاطر او کشته نمی‌شود.»",
-              "fr": "Un homme libre a tué un esclave ; il a dit : « Il n’est pas mis à mort pour cela. »",
-              "id": "Seorang lelaki merdeka membunuh seorang budak, beliau bersabda: “Ia tidak dibunuh karenanya.”",
-              "ru": "Свободный человек убил раба; он сказал: «За это его не убивают».",
-              "tr": "Bir hür adam bir köleyi öldürdü; buyurdu ki: “Onun karşılığında öldürülmez.”",
-              "ur": "ایک آزاد آدمی نے ایک غلام کو قتل کیا، تو انہوں نے فرمایا: “اس کے بدلے اسے قتل نہیں کیا جائے گا۔”",
-              "zh": "一个自由人杀死了一个奴隶，他说：“不因他而被处死。”"
-            },
             "word_end": 15,
             "word_start": 8
           }
@@ -84,24 +71,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "حُرٍّ": "a free person, legally distinguished from a slave",
-            "عَبْدًا": "a slave; the victim in this ruling",
-            "قَتَلَ": "killed; committed homicide",
-            "لَا يُقْتَلُ بِهِ": "he is not executed in retaliation for him"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "حُرٍّ",
+          "قَتَلَ",
+          "عَبْدًا",
+          "لَا يُقْتَلُ بِهِ"
+        ],
         "related_quran": [
           {
             "ref": "2:178",
@@ -112,32 +87,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "একজন মুক্ত ব্যক্তি একজন দাসকে হত্যা করলে শিয়া হাদিসে কী বিধান আছে?",
-          "de": "Was ist das Urteil, wenn ein freier Mann in einem schiitischen Hadith einen Sklaven tötet?",
-          "en": "What is the ruling if a free man kills a slave in Shia hadith?",
-          "es": "¿Cuál es la norma si un hombre libre mata a un esclavo en el hadiz chií?",
-          "fa": "اگر مردی آزاد برده‌ای را بکشد، در حدیث شیعه حکم چیست؟",
-          "fr": "Quelle est la règle si un homme libre tue un esclave dans le hadith chiite ?",
-          "id": "Apa hukum jika seorang lelaki merdeka membunuh seorang budak dalam hadis Syiah?",
-          "ru": "Каково постановление, если свободный человек убивает раба в шиитском хадисе?",
-          "tr": "Bir hür adam bir köleyi öldürürse Şii hadiste hüküm nedir?",
-          "ur": "اگر ایک آزاد آدمی غلام کو قتل کرے تو شیعہ حدیث میں کیا حکم ہے؟",
-          "zh": "如果一个自由人杀死一个奴隶，什叶派圣训中的判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি হত্যার ক্ষেত্রে কিসাস সম্পর্কিত একটি শরঈ বিধান বর্ণনা করে; এতে বলা হয়েছে, একজন মুক্ত ব্যক্তি একজন দাসকে হত্যা করলে তার বদলে তাকে কিসাস হিসেবে হত্যা করা হয় না।",
-          "de": "Dieser Hadith enthält eine rechtliche Regelung zur Vergeltung bei Tötungsdelikten: Wenn ein freier Mann einen Sklaven tötet, wird er dafür nicht im Qisas hingerichtet.",
-          "en": "This hadith gives a legal ruling regarding retaliation in cases of homicide involving a free man and a slave. It states that a free man is not subject to qisas execution for killing a slave, reflecting a juristic distinction discussed in the chapters of legal retribution.",
-          "es": "Este hadiz establece una norma jurídica sobre la represalia en casos de homicidio: si un hombre libre mata a un esclavo, no se le aplica la qisas por ello.",
-          "fa": "این حدیث حکمی فقهی دربارهٔ قصاص در قتل بیان می‌کند و می‌گوید اگر مردی آزاد برده‌ای را بکشد، به‌سبب او قصاص نمی‌شود.",
-          "fr": "Ce hadith énonce une règle juridique concernant la rétribution en cas d’homicide : si un homme libre tue un esclave, il n’est pas exécuté en qisas pour cela.",
-          "id": "Hadis ini memberikan hukum fikih tentang qisas dalam kasus pembunuhan, bahwa jika seorang lelaki merdeka membunuh seorang budak, ia tidak dibunuh sebagai qisas karenanya.",
-          "ru": "Этот хадис устанавливает правовое постановление о возмездии в случае убийства: если свободный человек убивает раба, за это его не казнят в качестве кисаса.",
-          "tr": "Bu hadis, bir hür adamın bir köleyi öldürmesi halinde kısas hükmünü بیان eder; buna göre hür adam köle sebebiyle kısas olarak öldürülmez.",
-          "ur": "یہ حدیث قتل کے قصاص کے بارے میں ایک شرعی حکم بیان کرتی ہے کہ اگر ایک آزاد آدمی غلام کو قتل کرے تو اس کے بدلے اسے قصاص میں قتل نہیں کیا جاتا۔",
-          "zh": "这段圣训阐明了关于杀人案件中报复刑的教法律例：如果一个自由人杀死一个奴隶，则不会因此对他执行等命报复。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

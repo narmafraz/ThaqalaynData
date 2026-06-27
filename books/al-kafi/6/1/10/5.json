@@ -14,6 +14,141 @@
       "up": "/books/al-kafi:6:1:10"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ الْحَكَمِ عَنِ ابْنِ مَيَّاحٍ عَنْ فُلَانِ بْنِ حُمَيْدٍ أَنَّهُ سَأَلَ أَبَا عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) وَ شَاوَرَهُ فِي",
+            "chunk_type": "isnad",
+            "word_end": 30,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "اسْمِ وَلَدِهِ فَقَالَ سَمِّهِ بِأَسْمَاءٍ مِنَ الْعُبُودِيَّةِ فَقَالَ أَيُّ الْأَسْمَاءِ هُوَ فَقَالَ عَبْدُ الرَّحْمَنِ .",
+            "chunk_type": "body",
+            "word_end": 45,
+            "word_start": 30
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 15,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ الْحَكَمِ",
+              "name_en": "'Ali ibn al-Hakam",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 975,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ مَيَّاحٍ",
+              "name_en": "Ibn Mayyah",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": null,
+              "identity_confidence": "ambiguous",
+              "known_identity": null,
+              "name_ar": "فُلَانِ بْنِ حُمَيْدٍ أَنَّهُ سَأَلَ أَبَا عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Fulan b. Humayd",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": null,
+              "identity_confidence": "ambiguous",
+              "known_identity": null,
+              "name_ar": "شَاوَرَهُ",
+              "name_en": "Shawarahu",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "أَبُو عَبْدِ اللَّهِ",
+          "الْعُبُودِيَّةِ",
+          "عَبْدُ الرَّحْمَنِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:18",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "7:189",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:9",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "family",
+          "ethics"
+        ],
+        "topics": [
+          "marriage_family_law",
+          "etiquette"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (21/32)"
       ],
@@ -92,7 +227,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:1:10:5",

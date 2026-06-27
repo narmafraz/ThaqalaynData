@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى الْحَسَنُ بْنُ مَحْبُوبٍ عَنْ أَبِي وَلَّادٍ الْحَنَّاطِ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হাসান ইবনে মাহবুব আবু ওয়ালাদ আল-হান্নাত থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Al-Hasan ibn Mahbub berichtete von Abu Wallad al-Hannat, der sagte:",
-              "en": "Al-Hasan ibn Mahbub narrated from Abu Wallad al-Hannat, who said:",
-              "es": "Al-Hasan ibn Mahbub narró de Abu Wallad al-Hannat, quien dijo:",
-              "fa": "الْحَسَن بن مَحبوب از ابو ولاد الحنّاط روایت کرد که گفت:",
-              "fr": "Al-Hasan ibn Mahbub a rapporté d'Abu Wallad al-Hannat, qui a dit :",
-              "id": "Al-Hasan ibn Mahbub meriwayat dari Abu Wallad al-Hannat, yang berkata:",
-              "ru": "Аль-Хасан ибн Махбуб передал от Абу Валлад аль-Ханнат, который сказал:",
-              "tr": "El-Hasan ibn Mahbub, Ebu Wallad el-Hannat'tan rivayet etti, şöyle dedi:",
-              "ur": "الْحَسَن بْن مَحْبُوب نے ابو ولاد الحنّاط سے روایت کی، جنہوں نے کہا:",
-              "zh": "الْحَسَنبنمَحبوب传述自أبوولادالحنّاط他说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ يَقُولُ: «مَنْ قَتَلَ نَفْسَهُ مُتَعَمِّدًا فَهُوَ فِي نَارِ جَهَنَّمَ خَالِدًا فِيهَا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি শুনেছি আবু আবদুল্লাহ علیہ السلام বলেছেন: \"যে ব্যক্তি ইচ্ছাকৃতভাবে নিজের প্রাণ নেবে, সে চিরকাল জাহান্নামের আগুনে থাকবে।\"",
-              "de": "Ich hörte Abu Abdullah عليه السلام sagen: „Wer sich absichtlich selbst tötet, wird für immer im Feuer der Hölle bleiben.“",
-              "en": "I heard Abu Abdullah عليه السلام say: \"Whoever intentionally kills himself will be in the Fire of Hell, abiding therein forever.\"",
-              "es": "Escuché a Abu Abdullah عليه السلام decir: \"Quien se suicide intencionalmente estará en el Fuego del Infierno, permaneciendo allí para siempre.\"",
-              "fa": "شنیدم ابو عبدالله علیه السلام می‌فرمود: «هر کس عمداً خود را بکشد، در آتش جهنم جاودانه خواهد بود.»",
-              "fr": "J'ai entendu Abu Abdullah عليه السلام dire : « Quiconque se tue intentionnellement sera dans le Feu de l'Enfer, y demeurant éternellement. »",
-              "id": "Saya mendengar Abu Abdullah عليه السلام berkata: \"Barangsiapa yang dengan sengaja membunuh dirinya sendiri, maka dia akan kekal di dalam Neraka Jahannam.\"",
-              "ru": "Я слышал, как Абу Абдуллах عليه السلام сказал: «Кто умышленно покончит с собой, тот навсегда останется в огне Ада.»",
-              "tr": "Abu Abdullah عليه السلام şöyle dediğini duydum: \"Kendi canını kasten öldüren kişi, ebediyen Cehennem ateşinde kalacaktır.\"",
-              "ur": "میں نے ابو عبداللہ علیہ السلام کو کہتے سنا: \"جو شخص جان بوجھ کر اپنی جان لے گا وہ ہمیشہ کے لیے جہنم کی آگ میں رہے گا۔\"",
-              "zh": "我听见أبوعبداللهعليهالسلام说：“凡故意自杀者，将永远居于地狱火中。”"
-            },
             "word_end": 27,
             "word_start": 10
           }
@@ -91,24 +78,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "خَالِدًا فِيهَا": "abiding therein forever",
-            "قَتَلَ نَفْسَهُ": "to kill oneself; intentional self-killing",
-            "مُتَعَمِّدًا": "deliberately and intentionally",
-            "نَارِ جَهَنَّمَ": "the Fire of Hell"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "قَتَلَ نَفْسَهُ",
+          "مُتَعَمِّدًا",
+          "نَارِ جَهَنَّمَ",
+          "خَالِدًا فِيهَا"
+        ],
         "related_quran": [
           {
             "ref": "4:29",
@@ -119,32 +94,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام ইচ্ছাকৃত আত্মহত্যা সম্পর্কে কী বলেন?",
-          "de": "Was sagt Imam al-Sadiq عليه السلام über das absichtliche Töten seiner selbst?",
-          "en": "What does Imam al-Sadiq عليه السلام say about intentionally killing oneself?",
-          "es": "¿Qué dice el Imam al-Sadiq عليه السلام sobre matarse intencionalmente?",
-          "fa": "امام صادق علیه السلام درباره کشتن عمدی خود چه می‌فرمایند؟",
-          "fr": "Que dit l'Imam al-Sadiq عليه السلام à propos de se tuer intentionnellement ?",
-          "id": "Apa yang dikatakan Imam al-Sadiq عليه السلام tentang membunuh diri dengan sengaja?",
-          "ru": "Что говорит Имам ас-Садик عليه السلام о намеренном самоубийстве?",
-          "tr": "İmam el-Sadiq عليه السلام kendini kasten öldürmek hakkında ne diyor?",
-          "ur": "امام الصادق علیہ السلام خودکشی کے بارے میں کیا فرماتے ہیں؟",
-          "zh": "伊玛目الصادقعليهالسلام关于故意自杀说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস ইচ্ছাকৃত আত্মহত্যাকে কঠোরভাবে নিন্দা করে এবং জাহান্নামের আগুনে কঠোর শাস্তির সতর্কতা দেয়। এটি জীবনের পবিত্রতা তুলে ধরে এবং আত্মহত্যাকে একটি গুরুতর পাপ হিসেবে উপস্থাপন করে যার পরিণতি পরকালে হয়।",
-          "de": "Dieser Hadith verurteilt absichtliche Selbsttötung scharf und warnt vor schwerer Strafe im Höllenfeuer. Er unterstreicht die Heiligkeit des Lebens und stellt Selbstmord als schwere Sünde mit Folgen im Jenseits dar.",
-          "en": "This hadith strongly condemns intentional self-killing and warns of severe punishment in the Fire of Hell. It underscores the sanctity of life and presents suicide as a grave sin with consequences in the afterlife.",
-          "es": "Este hadiz condena firmemente el suicidio intencional y advierte sobre un castigo severo en el Fuego del Infierno. Subraya la santidad de la vida y presenta el suicidio como un grave pecado con consecuencias en la otra vida.",
-          "fa": "این حدیث به شدت خودکشی عمدی را محکوم می‌کند و هشدار می‌دهد که مجازات سختی در آتش جهنم در انتظار است. حرمت زندگی را تأکید می‌کند و خودکشی را گناهی بزرگ با پیامدهای اخروی معرفی می‌کند.",
-          "fr": "Ce hadith condamne fermement le suicide intentionnel et avertit d'une punition sévère dans le Feu de l'Enfer. Il souligne la sainteté de la vie et présente le suicide comme un grave péché aux conséquences dans l'au-delà.",
-          "id": "Hadis ini sangat mengutuk bunuh diri dengan sengaja dan memperingatkan hukuman berat di Neraka Jahannam. Ini menekankan kesucian hidup dan menyajikan bunuh diri sebagai dosa besar dengan konsekuensi di akhirat.",
-          "ru": "Этот хадис решительно осуждает умышленное самоубийство и предупреждает о суровом наказании в огне Ада. Он подчеркивает святость жизни и представляет самоубийство как тяжкий грех с последствиями в загробной жизни.",
-          "tr": "Bu hadis, kasten intiharı şiddetle kınar ve Cehennem ateşinde ağır bir ceza uyarısı yapar. Hayatın kutsallığını vurgular ve intiharı ahirette sonuçları olan büyük bir günah olarak sunar.",
-          "ur": "یہ حدیث جان بوجھ کر خودکشی کی سخت مذمت کرتی ہے اور جہنم کی آگ میں شدید سزا کی وارننگ دیتی ہے۔ یہ زندگی کی حرمت کو اجاگر کرتی ہے اور خودکشی کو ایک بڑا گناہ قرار دیتی ہے جس کے آخرت میں نتائج ہوتے ہیں۔",
-          "zh": "此圣训严厉谴责故意自杀，并警告地狱火中严厉惩罚。强调生命的神圣性，将自杀视为死罪，后世有严重后果。"
-        },
         "tags": [
           "ethics",
           "jurisprudence",

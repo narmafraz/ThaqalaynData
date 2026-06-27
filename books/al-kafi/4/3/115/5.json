@@ -14,6 +14,132 @@
       "up": "/books/al-kafi:4:3:115"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ ابْنِ فَضَّالٍ عَنِ ابْنِ بُكَيْرٍ عَنْ زُرَارَةَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 16,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُ أَبَا جَعْفَرٍ ( عَلَيْهِ السَّلَامُ ) عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ يَحْكُمُ بِهِ ذَوا عَدْلٍ مِنْكُمْ قَالَ الْعَدْلُ رَسُولُ اللَّهِ ( صَلَّى اللَّهِ عَلَيْهِ وَآلِهِ ) وَ الْإِمَامُ مِنْ بَعْدِهِ ثُمَّ قَالَ هَذَا مِمَّا أَخْطَأَتْ بِهِ الْكُتَّابُ",
+            "chunk_type": "body",
+            "word_end": 55,
+            "word_start": 16
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 22,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ فَضَّالٍ",
+              "name_en": "Ibn Faddal",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 56,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ بُكَيْرٍ",
+              "name_en": "Ibn Bukayr",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 18,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "زُرَارَةَ",
+              "name_en": "Zurara",
+              "position": 5,
+              "role": "companion"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "ذَوا عَدْلٍ",
+          "الْعَدْلُ",
+          "رَسُولُ اللَّهِ",
+          "الْإِمَامُ",
+          "الْكَتَّابُ",
+          "أَخْطَأَتْ"
+        ],
+        "related_quran": [
+          {
+            "ref": "5:95",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "3:61",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "quran_commentary",
+          "theology",
+          "jurisprudence"
+        ],
+        "topics": [
+          "quran_interpretation_method",
+          "imamate",
+          "ahlulbayt_virtues"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> موثق كالصحيح  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (7/395)"
       ],
@@ -107,7 +233,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:4:3:115:5",

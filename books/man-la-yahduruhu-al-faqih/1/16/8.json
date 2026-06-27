@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسُئِلَ مُوسَى بْنُ جَعْفَرٍ عَلَيْهِ السَّلَامُ: عَنِ الرَّجُلِ يَرْقُدُ وَهُوَ قَاعِدٌ هَلْ عَلَيْهِ وُضُوءٌ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "মূসা ইবনে জাফর عليه السلام থেকে একজন ব্যক্তির সম্পর্কে জিজ্ঞাসা করা হলো যে বসে বসে ঘুমিয়ে পড়ে: তার উপর ওযু (অবলুশন) প্রয়োজন কি?",
-              "de": "Mūsā ibn Jaʿfar عليه السلام wurde gefragt über einen Mann, der im Sitzen einschläft: Ist für ihn Wudu (Waschung) erforderlich?",
-              "en": "Mūsā ibn Jaʿfar عليه السلام was asked about a man who falls asleep while sitting: is wudu (ablution) required of him?",
-              "es": "Se le preguntó a Mūsā ibn Jaʿfar عليه السلام sobre un hombre que se queda dormido sentado: ¿se requiere wudu (ablución) para él?",
-              "fa": "از موسی بن جعفر علیه السلام درباره مردی که در حال نشستن به خواب می‌رود پرسیده شد: آیا وضو بر او واجب است؟",
-              "fr": "On demanda à Mūsā ibn Jaʿfar عليه السلام au sujet d’un homme qui s’endort en étant assis : faut-il qu’il fasse wudu (ablution) ?",
-              "id": "Mūsā ibn Jaʿfar عليه السلام ditanya tentang seorang pria yang tertidur saat duduk: apakah wudu (berwudhu) wajib baginya?",
-              "ru": "У Мусā ибн Джаʿфар عليه السلام спросили о человеке, который засыпает сидя: требуется ли от него вуду (омовение)?",
-              "tr": "Mūsā ibn Jaʿfar عليه السلام'a otururken uyuyan bir adam hakkında soruldu: onun için abdest gerekli midir?",
-              "ur": "موسى ابن جعفر علیہ السلام سے ایک شخص کے بارے میں پوچھا گیا جو بیٹھے ہوئے سو جاتا ہے: کیا اس پر وضو لازم ہے؟",
-              "zh": "穆薩伊本賈法爾عليهالسلام被問及一個坐著睡著的人：他是否需要做禮拜小淨？"
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "فَقَالَ «لَا وُضُوءَ عَلَيْهِ مَا دَامَ قَاعِدًا إِنْ لَمْ يَنْفَرِجْ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: “না، যতক্ষণ সে বসে থাকে এবং শরীর ঢিলে না হয় ততক্ষণ তার উপর ওযু (অবলুশন) প্রয়োজন নেই।”",
-              "de": "Er sagte: „Nein, Wudu (Waschung) ist nicht erforderlich, solange er sitzt und nicht zusammensackt.“",
-              "en": "He said: “No wudu (ablution) is required of him so long as he remains seated and does not slump apart.”",
-              "es": "Él dijo: “No se requiere wudu (ablución) mientras permanezca sentado y no se desplome.”",
-              "fa": "فرمود: «خیر، تا زمانی که نشسته باشد و بدنش از هم باز نشود، وضو لازم نیست.»",
-              "fr": "Il dit : « Non, il n’y a pas besoin de wudu (ablution) tant qu’il reste assis et ne s’affaisse pas. »",
-              "id": "Dia berkata: “Tidak, wudu (berwudhu) tidak wajib selama dia tetap duduk dan tidak membungkuk.”",
-              "ru": "Он сказал: «Нет, вуду (омовение) не требуется, пока он остается сидеть и не разваливается.»",
-              "tr": "O dedi ki: “Hayır, oturduğu sürece ve gevşemediği sürece abdest gerekmez.”",
-              "ur": "انہوں نے فرمایا: “نہیں، جب تک وہ بیٹھا رہے اور اس کا جسم کھل نہ جائے، اس پر وضو لازم نہیں۔”",
-              "zh": "他说：“不需要做禮拜小淨，只要他保持坐姿且不松弛。”"
-            },
             "word_end": 24,
             "word_start": 14
           }
@@ -102,52 +89,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "قَاعِدٌ": "sitting or seated",
-            "مَا دَامَ": "so long as or as long as",
-            "وُضُوءٌ": "ritual ablution required for acts of worship",
-            "يَرْقُدُ": "falls asleep or lies in sleep",
-            "يَنْفَرِجْ": "becomes parted, loosened, or slumps open"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَرْقُدُ",
+          "قَاعِدٌ",
+          "وُضُوءٌ",
+          "مَا دَامَ",
+          "يَنْفَرِجْ"
+        ],
         "related_quran": [],
-        "seo_questions": {
-          "bn": "বসে ঘুমানো ওযু (অবলুশন) বাতিল করে কি?",
-          "de": "Macht Einschlafen im Sitzen das Wudu (Waschung) ungültig?",
-          "en": "Does falling asleep while sitting invalidate wudu (ablution)?",
-          "es": "¿Dormir sentado invalida el wudu (ablución)?",
-          "fa": "آیا خوابیدن در حالت نشسته وضو را باطل می‌کند؟",
-          "fr": "Est-ce que s’endormir en étant assis annule le wudu (ablution) ?",
-          "id": "Apakah tertidur saat duduk membatalkan wudu (berwudhu)?",
-          "ru": "Лишает ли сон в сидячем положении вуду (омовение) силы?",
-          "tr": "Otururken uyumak abdesti bozar mı?",
-          "ur": "کیا بیٹھے ہوئے سونا وضو کو باطل کرتا ہے؟",
-          "zh": "坐着睡觉会使礼拜小淨无效吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ঘুম এবং ওযু (অবলুশন) সম্পর্কে একটি শারঈ সিদ্ধান্ত দেয়। এটি নির্দেশ করে যে বসে ঘুমানো ওযুকে বাতিল করে না যতক্ষণ ব্যক্তি স্থিতিশীলভাবে বসে থাকে এবং শরীর ঢিলা না হয়।",
-          "de": "Dieser Hadith gibt eine Rechtsregelung zum Schlaf und Wudu (Waschung). Er zeigt an, dass Schlafen im Sitzen das Wudu nicht ungültig macht, solange die Person in einer stabilen Sitzposition bleibt und nicht zusammensackt.",
-          "en": "This hadith gives a legal ruling about sleep and wudu (ablution). It indicates that sleeping while seated does not invalidate wudu as long as the person remains in a stable seated position and does not become loosened or slump over.",
-          "es": "Este hadiz da un fallo legal sobre el sueño y el wudu (ablución). Indica que dormir sentado no invalida el wudu mientras la persona permanezca en una posición sentada estable y no se desplome.",
-          "fa": "این حدیث حکم شرعی درباره خواب و وضو را بیان می‌کند. نشان می‌دهد که خوابیدن در حالت نشسته وضو را باطل نمی‌کند تا زمانی که شخص در وضعیت نشسته پایدار باقی بماند و بدنش شل نشود.",
-          "fr": "Ce hadith donne un jugement légal concernant le sommeil et le wudu (ablution). Il indique que dormir en étant assis ne rend pas le wudu nul tant que la personne reste dans une position assise stable et ne s’affaisse pas.",
-          "id": "Hadis ini memberikan hukum tentang tidur dan wudu (berwudhu). Ini menunjukkan bahwa tidur sambil duduk tidak membatalkan wudu selama orang tersebut tetap dalam posisi duduk yang stabil dan tidak melonggar atau membungkuk.",
-          "ru": "Этот хадис даёт правовое постановление о сне и вуду (омовении). Он указывает, что сон в сидячем положении не нарушает вуду, если человек остаётся в устойчивом сидячем положении и не разваливается.",
-          "tr": "Bu hadis, uyku ve abdest hakkında hukuki bir hüküm verir. Oturarak uyumanın, kişi sabit bir şekilde oturduğu ve gevşemediği sürece abdesti bozmadığını belirtir.",
-          "ur": "یہ حدیث نیند اور وضو کے بارے میں شرعی حکم بیان کرتی ہے۔ یہ بتاتی ہے کہ بیٹھ کر سونا وضو کو باطل نہیں کرتا جب تک کہ شخص مستحکم بیٹھا رہے اور اس کا جسم ڈھیلا نہ ہو جائے۔",
-          "zh": "此圣训关于睡眠和礼拜小淨给出法律裁决。它表明只要人保持稳定坐姿且不松弛，坐着睡觉不会使礼拜小淨无效。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

@@ -16,23 +16,23 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلْمَجُوسُ يَرِثُونَ بِالنَّسَبِ وَ لَا يَرِثُونَ بِالنِّكَاحِ الْفَاسِدِ فَإِنْ مَاتَ مَجُوسِيٌّ وَ تَرَكَ أُمَّهُ وَ هِيَ أُخْتُهُ وَ هِيَ امْرَأَتُهُ فَالْمَالُ لَهَا مِنْ قِبَلِ أَنَّهَا أُمٌّ وَ لَيْسَ لَهَا مِنْ قِبَلِ أَنَّهَا أُخْتٌ وَ أَنَّهَا زَوْجَةٌ شَيْءٌ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "মাজুস রক্ত সম্পর্কের মাধ্যমে উত্তরাধিকার লাভ করে, এবং অবৈধ বিবাহের মাধ্যমে উত্তরাধিকার লাভ করে না। যদি একজন মাজুস পুরুষ মারা যায় এবং তার মা রেখে যায়, যিনি তার বোন এবং তার স্ত্রী, তাহলে সম্পত্তি তার মাতা হওয়ার কারণে তার জন্য; এবং বোন বা স্ত্রী হওয়ার কারণে তার কোনো অধিকার নেই।",
-              "de": "Die Magier erben durch Blutsverwandtschaft und nicht durch ungültige Ehe. Wenn ein magischer Mann stirbt und seine Mutter hinterlässt, die zugleich seine Schwester und seine Ehefrau ist, gehört das Vermögen ihr aufgrund ihres Mutterstatus; als Schwester oder Ehefrau hat sie keinen Anspruch.",
-              "en": "The Magians inherit through blood relations, and they do not inherit through invalid marriage. So if a Magian man dies and leaves behind his mother, and she is his sister and she is his wife, then the estate belongs to her on account of her being a mother; and she has nothing on account of her being a sister and that she is a wife.",
-              "es": "Los magos heredan por parentesco sanguíneo y no heredan por matrimonio inválido. Si un hombre mago muere y deja a su madre, que es su hermana y su esposa, entonces la herencia le pertenece por ser madre; y no tiene derecho por ser hermana ni esposa.",
-              "fa": "مجوس‌ها از طریق نسب ارث می‌برند و از طریق ازدواج باطل ارث نمی‌برند. اگر مرد مجوسی بمیرد و مادرش را که هم خواهر و هم همسر اوست، به جا بگذارد، مال به دلیل مادر بودن به او تعلق می‌گیرد؛ و به دلیل خواهر یا همسر بودن چیزی ندارد.",
-              "fr": "Les Mages héritent par lien de sang, et ils n’héritent pas par mariage invalide. Si un homme mage décède en laissant sa mère, qui est à la fois sa sœur et son épouse, alors la succession lui revient en tant que mère ; elle n’a aucun droit en tant que sœur ou épouse.",
-              "id": "Majusi mewarisi melalui hubungan darah, dan mereka tidak mewarisi melalui pernikahan yang tidak sah. Jadi jika seorang pria Majusi meninggal dan meninggalkan ibunya, yang juga saudara perempuannya dan istrinya, maka harta tersebut menjadi miliknya karena dia adalah ibu; dan dia tidak memiliki hak karena dia adalah saudara perempuan atau istri.",
-              "ru": "Маги наследуют по кровному родству и не наследуют по недействительному браку. Если маг умер и оставил после себя мать, которая является одновременно его сестрой и женой, то имущество принадлежит ей как матери; и она не имеет прав как сестра или жена.",
-              "tr": "Mecusiler kan bağıyla miras alırlar, geçersiz evlilik yoluyla miras almazlar. Eğer bir Mecusi erkek ölür ve geride annesini bırakırsa, ve o hem kardeşi hem de eşi ise, miras annelik sebebiyle ona aittir; kardeşlik veya eş olma sebebiyle ona hiçbir şey düşmez.",
-              "ur": "مجوس نسب کے ذریعے وارثت پاتے ہیں، اور وہ باطل نکاح کے ذریعے وارثت نہیں پاتے۔ اگر کوئی مجوسی مرد فوت ہو جائے اور اپنی ماں چھوڑ جائے، جو اس کی بہن بھی ہو اور اس کی بیوی بھی، تو مال اس کے لیے ماں ہونے کی وجہ سے ہے؛ اور بہن یا بیوی ہونے کی وجہ سے اس کا کوئی حق نہیں۔",
-              "zh": "玛格斯通过血缘继承，不通过无效婚姻继承。如果一名玛格斯男子去世，留下他的母亲，她既是他的姐妹又是他的妻子，那么财产因她是母亲而归她所有；她作为姐妹和妻子没有任何权利。"
-            },
             "word_end": 37,
             "word_start": 0
           }
@@ -44,26 +44,14 @@
           "narrators": []
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أُمٌّ": "Mother, the qualifying relationship through which inheritance is recognized in this case.",
-            "اَلْمَجُوسُ": "The Magians, i.e. Zoroastrians, discussed here in the context of inheritance rulings.",
-            "بِالنَّسَبِ": "Through blood lineage or kinship relation.",
-            "بِالنِّكَاحِ الْفَاسِدِ": "Through an invalid or corrupt marriage bond, which does not establish inheritance here.",
-            "زَوْجَةٌ": "Wife, a marital status that does not establish inheritance here due to the invalid marriage.",
-            "فَالْمَالُ": "The estate or inherited property."
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "اَلْمَجُوسُ",
+          "بِالنَّسَبِ",
+          "بِالنِّكَاحِ الْفَاسِدِ",
+          "فَالْمَالُ",
+          "أُمٌّ",
+          "زَوْجَةٌ"
+        ],
         "related_quran": [
           {
             "ref": "4:11",
@@ -78,32 +66,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া উত্তরাধিকার আইনে মাজুস রক্ত সম্পর্কের মাধ্যমে উত্তরাধিকার লাভ করে নাকি অবৈধ বিবাহের মাধ্যমে?",
-          "de": "Erben Magier im schiitischen Erbrecht durch Blutsverwandtschaft oder durch ungültige Ehe?",
-          "en": "Do Magians inherit through blood lineage or through invalid marriage in Shia inheritance law?",
-          "es": "¿Heredan los magos en la ley de herencia chií a través del linaje sanguíneo o mediante un matrimonio inválido?",
-          "fa": "آیا در قانون ارث شیعه، مجوس‌ها از طریق نسب ارث می‌برند یا از طریق ازدواج باطل؟",
-          "fr": "Les Mages héritent-ils selon la loi successorale chiite par filiation ou par mariage invalide ?",
-          "id": "Apakah dalam hukum warisan Syiah, Majusi mewarisi melalui garis keturunan atau melalui pernikahan yang tidak sah?",
-          "ru": "Наследуют ли маги по шиитскому наследственному праву по кровному родству или по недействительному браку?",
-          "tr": "Şii miras hukukunda Mecusiler kan bağıyla mı yoksa geçersiz evlilikle mi miras alırlar?",
-          "ur": "کیا شیعہ وراثت کے قانون میں مجوس نسب کے ذریعے وارثت پاتے ہیں یا باطل نکاح کے ذریعے؟",
-          "zh": "在什叶派继承法中，玛格斯是通过血缘继承还是通过无效婚姻继承？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস মাজুসদের উত্তরাধিকার সম্পর্কে একটি আইনি বিধান ব্যাখ্যা করে: উত্তরাধিকার স্বীকৃত হয় বংশগতির মাধ্যমে, কিন্তু অবৈধ বিবাহের মাধ্যমে নয়। উল্লেখিত ক্ষেত্রে, নারী শুধুমাত্র মাতা হিসেবে উত্তরাধিকারী হয়, নিষিদ্ধ বৈবাহিক বন্ধন বা বোন সম্পর্কের কারণে নয়।",
-          "de": "Dieser Hadith stellt eine rechtliche Regelung zur Erbschaft der Magier dar: Erbschaft wird durch Abstammung anerkannt, nicht durch ungültige Ehe. Im genannten Fall erbt die Frau nur aufgrund ihres Status als Mutter, nicht aufgrund der verbotenen Ehe oder der Geschwisterbeziehung.",
-          "en": "This hadith states a legal ruling regarding the inheritance of the Magians: inheritance is recognized through lineage, but not through a corrupt or invalid marriage. In the stated case, the woman inherits only through her status as mother, not through the prohibited marital bond nor through the sibling relation as treated in this ruling.",
-          "es": "Este hadiz establece una regla legal sobre la herencia de los magos: la herencia se reconoce por linaje, pero no por matrimonio corrupto o inválido. En el caso mencionado, la mujer hereda solo por su condición de madre, no por el vínculo marital prohibido ni por la relación de hermanos.",
-          "fa": "این حدیث حکم شرعی درباره ارث مجوس‌ها را بیان می‌کند: ارث از طریق نسب شناخته می‌شود، اما از طریق ازدواج باطل نیست. در این مورد، زن تنها به عنوان مادر ارث می‌برد، نه به دلیل ازدواج ممنوع یا نسبت خواهر بودن.",
-          "fr": "Ce hadith énonce une règle juridique concernant l’héritage des Mages : l’héritage est reconnu par la lignée, mais pas par un mariage invalide. Dans le cas indiqué, la femme hérite uniquement en tant que mère, et non en raison du lien marital interdit ni de la relation fraternelle.",
-          "id": "Hadis ini menyatakan ketentuan hukum mengenai warisan Majusi: warisan diakui melalui garis keturunan, bukan melalui pernikahan yang tidak sah. Dalam kasus ini, wanita mewarisi hanya sebagai ibu, bukan melalui ikatan pernikahan terlarang atau hubungan saudara.",
-          "ru": "Этот хадис устанавливает юридическое правило относительно наследования магами: наследование признается по родству, но не по недействительному браку. В указанном случае женщина наследует только как мать, а не по запрещённой брачной связи или родству сестры.",
-          "tr": "Bu hadis, Mecusilerin mirasıyla ilgili hukuki hükmü belirtir: miras soy bağıyla kabul edilir, ancak geçersiz evlilikle değil. Belirtilen durumda kadın sadece anne statüsüyle mirasçı olur, yasak evlilik veya kardeşlik nedeniyle değil.",
-          "ur": "یہ حدیث مجوس کی وراثت کے بارے میں قانونی حکم بیان کرتی ہے: وراثت نسب کے ذریعے تسلیم کی جاتی ہے، لیکن فاسد نکاح کے ذریعے نہیں۔ اس صورت میں عورت صرف ماں ہونے کی حیثیت سے وارث بنتی ہے، نہ کہ ممنوعہ نکاح یا بہن ہونے کی وجہ سے۔",
-          "zh": "这段圣训阐明了玛格斯继承的法律规定：继承通过血缘关系确认，但不通过无效婚姻。在所述情况下，女性仅以母亲身份继承，而非因禁止的婚姻关系或姐妹关系。"
-        },
         "tags": [
           "jurisprudence",
           "family",

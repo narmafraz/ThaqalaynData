@@ -13,6 +13,118 @@
       "up": "/books/al-kafi:7:1:14"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ رِجَالِهِ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 8,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قَالَ إِنَّ اللَّهَ عَزَّ وَ جَلَّ أَطْلَقَ لِلْمُوصَى إِلَيْهِ أَنْ يُغَيِّرَ الْوَصِيَّةَ إِذَا لَمْ يَكُنْ بِالْمَعْرُوفِ وَ كَانَ فِيهَا حَيْفٌ وَ يَرُدَّهَا إِلَى الْمَعْرُوفِ",
+            "chunk_type": "body",
+            "word_end": 32,
+            "word_start": 8
+          },
+          {
+            "arabic_text": "فَمَنْ خَافَ مِنْ مُوصٍ جَنَفاً أَوْ إِثْمًا فَأَصْلَحَ بَيْنَهُمْ فَلَا إِثْمَ عَلَيْهِ",
+            "chunk_type": "quran_quote",
+            "word_end": 44,
+            "word_start": 32
+          },
+          {
+            "arabic_text": "لِقَوْلِهِ عَزَّ وَ جَلَّ",
+            "chunk_type": "closing",
+            "word_end": 48,
+            "word_start": 44
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 692,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "رِجَالِهِ",
+              "name_en": "rijalihu",
+              "position": 3,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [],
+        "key_terms_keys": [
+          "الْمُوصَى إِلَيْهِ",
+          "الْوَصِيَّةَ",
+          "بِالْمَعْرُوفِ",
+          "حَيْفٌ",
+          "جَنَفًا",
+          "إِثْمًا"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:182",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "2:180",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "quran_commentary",
+          "family"
+        ],
+        "topics": [
+          "inheritance",
+          "financial_law",
+          "quran_interpretation_method"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مرسل  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (3/34)"
       ],
@@ -71,7 +183,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:7:1:14:1",

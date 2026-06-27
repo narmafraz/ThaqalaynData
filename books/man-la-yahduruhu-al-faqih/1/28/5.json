@@ -18,61 +18,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسُئِلَ عَلَيْهِ السَّلَامُ: عَنْ قَوْلِ اللَّهِ عَزَّ وَجَلَّ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "তাঁকে, শান্তি তাঁর উপর বর্ষিত হোক, আল্লাহর মহিমান্বিত ও মহাজনক বাক্যের সম্পর্কে জিজ্ঞাসা করা হয়েছিল:",
-              "de": "Er, Friede sei mit ihm, wurde nach dem Wort Allahs, des Mächtigen und Erhabenen, gefragt:",
-              "en": "He, peace be upon him, was asked about the saying of Allah, Mighty and Majestic:",
-              "es": "A él, la paz sea con él, se le preguntó acerca de la palabra de Allah, el Poderoso y Majestuoso:",
-              "fa": "از او، سلام‌الله‌علیه، درباره قول خداوند عزوجل پرسیده شد:",
-              "fr": "On lui, paix soit sur lui, a été demandé au sujet de la parole d’Allah, le Tout-Puissant et Majestueux :",
-              "id": "Kepada beliau, salam atasnya, ditanyakan tentang firman Allah Yang Maha Perkasa dan Maha Agung:",
-              "ru": "Его, мир ему, спросили о словах Аллаха, Всемогущего и Великого:",
-              "tr": "Ona, selam olsun, Allah'ın Azim ve Celil olan sözü hakkında soruldu:",
-              "ur": "ان پر، سلام ہو، اللہ تعالیٰ کے ارشاد کے بارے میں پوچھا گیا، جو کہ عظمت والا اور جلیل القدر ہے:",
-              "zh": "他，愿他安息，被问及真主至大至高的话语："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "«وَإِنْ مِنْ قَرْيَةٍ إِلَّا نَحْنُ مُهْلِكُوهَا قَبْلَ يَوْمِ الْقِيَامَةِ أَوْ مُعَذِّبُوهَا»",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "“কোনও শহর নেই যা আমরা কিয়ামতের দিন আগেই ধ্বংস করব বা তাকে শাস্তি দেব।”",
-              "de": "\"Und es gibt keine Stadt, die Wir nicht vor dem Tag der Auferstehung zerstören oder bestrafen werden.\"",
-              "en": "\"And there is no town but We shall destroy it before the Day of Resurrection or punish it.\"",
-              "es": "\"Y no hay pueblo alguno sino que lo destruiremos antes del Día de la Resurrección o lo castigaremos.\"",
-              "fa": "«و هیچ شهری نیست مگر اینکه ما آن را پیش از روز رستاخیز نابود می‌کنیم یا عذاب می‌کنیم.»",
-              "fr": "\"Et il n’y a aucune ville que Nous ne détruisions avant le Jour de la Résurrection ou que Nous ne punissions.\"",
-              "id": "\"Dan tidak ada suatu kota pun kecuali Kami akan menghancurkannya sebelum Hari Kiamat atau menyiksanya.\"",
-              "ru": "\"И нет ни одного города, который Мы не уничтожим до Дня Воскресения или не накажем.\"",
-              "tr": "\"Ve hiçbir şehir yoktur ki, Biz onu kıyamet gününden önce yok etmeyelim ya da azap etmeyelim.\"",
-              "ur": "«اور کوئی بستی ایسی نہیں جسے ہم قیامت کے دن سے پہلے تباہ نہ کر دیں یا اس کو عذاب نہ دیں۔»",
-              "zh": "“没有任何城镇，我们不在复活日前毁灭或惩罚。”"
-            },
             "word_end": 19,
             "word_start": 8
           },
           {
             "arabic_text": "قَالَ «هُوَ الْفَنَاءُ بِالْمَوْتِ»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: “এটি মৃত্যু দ্বারা ধ্বংস হওয়া।”",
-              "de": "Er sagte: „Es ist das Vergehen durch den Tod.“",
-              "en": "He said: \"It is perishing through death.\"",
-              "es": "Él dijo: \"Es la desaparición a través de la muerte.\"",
-              "fa": "فرمود: «این فنا از طریق مرگ است.»",
-              "fr": "Il a dit : « C’est la disparition par la mort. »",
-              "id": "Beliau berkata: \"Itu adalah kehancuran melalui kematian.\"",
-              "ru": "Он сказал: «Это исчезновение через смерть.»",
-              "tr": "O dedi ki: \"Bu, ölümle yok olmaktır.\"",
-              "ur": "انہوں نے فرمایا: \"یہ موت کے ذریعے فنا ہونا ہے۔\"",
-              "zh": "他说：“这是通过死亡的消亡。”"
-            },
             "word_end": 23,
             "word_start": 19
           }
@@ -95,27 +69,15 @@
             "phrase_en": "Day of Resurrection"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْفَنَاءُ": "perishing or passing away",
-            "الْمَوْتِ": "death",
-            "قَرْيَةٍ": "a town or settlement",
-            "قَوْلِ": "statement or saying, here referring to the Qur'anic verse",
-            "مُعَذِّبُوهَا": "punishing it",
-            "مُهْلِكُوهَا": "destroying it or causing its end",
-            "يَوْمِ الْقِيَامَةِ": "the Day of Resurrection"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "قَوْلِ",
+          "قَرْيَةٍ",
+          "مُهْلِكُوهَا",
+          "يَوْمِ الْقِيَامَةِ",
+          "مُعَذِّبُوهَا",
+          "الْفَنَاءُ",
+          "الْمَوْتِ"
+        ],
         "related_quran": [
           {
             "ref": "17:58",
@@ -130,32 +92,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কিয়ামতের দিন আগেই প্রতিটি শহর ধ্বংস হওয়ার আয়াতের অর্থ কী?",
-          "de": "Was bedeutet der Vers über die Zerstörung jeder Stadt vor dem Tag der Auferstehung?",
-          "en": "What does the verse about every town being destroyed before the Day of Resurrection mean?",
-          "es": "¿Qué significa el verso sobre la destrucción de cada ciudad antes del Día de la Resurrección?",
-          "fa": "آیه درباره نابودی هر شهر قبل از روز رستاخیز چه معنایی دارد؟",
-          "fr": "Que signifie le verset sur la destruction de chaque ville avant le Jour de la Résurrection ?",
-          "id": "Apa arti ayat tentang setiap kota yang dihancurkan sebelum Hari Kiamat?",
-          "ru": "Что означает аят о том, что каждый город будет уничтожен до Дня Воскресения?",
-          "tr": "Kıyamet gününden önce her şehrin yok edilmesi ayeti ne anlama gelir?",
-          "ur": "قیامت کے دن سے پہلے ہر بستی کے تباہ ہونے کے بارے میں آیت کا کیا مطلب ہے؟",
-          "zh": "关于复活日前每个城镇被毁灭的经文是什么意思？"
-        },
-        "summaries": {
-          "bn": "ইমাম জাফর ইবনে মুহাম্মদ আল-সাদিক عليه السلام এই আয়াতটি ব্যাখ্যা করেছেন যে এটি কিয়ামতের দিন আগেই মানুষের মৃত্যু দ্বারা একটি জনসংখ্যার বিলুপ্তির ইঙ্গিত দেয়। ব্যাখ্যাটি স্পষ্ট করে যে এখানে উল্লেখিত ঐশ্বরিক ধ্বংস মানব মৃত্যুর সার্বজনীন বাস্তবতাকে অন্তর্ভুক্ত করে।",
-          "de": "Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام erklärt diesen Vers als Bezug auf das Vergehen einer Bevölkerung durch den Tod vor dem Tag der Auferstehung. Die Erklärung verdeutlicht, dass die hier erwähnte göttliche Zerstörung die universelle menschliche Sterblichkeit einschließt.",
-          "en": "Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام explains this verse as referring to the passing away of a population through death before the Day of Resurrection. The explanation clarifies that the divine destruction mentioned here includes the universal human reality of mortality.",
-          "es": "El Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام explica este verso como una referencia al paso de una población a través de la muerte antes del Día de la Resurrección. La explicación aclara que la destrucción divina mencionada aquí incluye la realidad universal de la mortalidad humana.",
-          "fa": "امام جعفر بن محمد الصادق علیه‌السلام این آیه را به معنای گذر جمعیتی از طریق مرگ پیش از روز رستاخیز تفسیر می‌کند. این توضیح روشن می‌سازد که نابودی الهی ذکر شده شامل واقعیت جهانی فناپذیری انسان است.",
-          "fr": "L’Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام explique ce verset comme se référant au passage d’une population par la mort avant le Jour de la Résurrection. L’explication clarifie que la destruction divine mentionnée ici inclut la réalité universelle de la mortalité humaine.",
-          "id": "Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام menjelaskan ayat ini sebagai merujuk pada berlalunya suatu populasi melalui kematian sebelum Hari Kiamat. Penjelasan ini memperjelas bahwa kehancuran ilahi yang disebutkan di sini mencakup kenyataan universal kematian manusia.",
-          "ru": "Имам Джафар ибн Мухаммад ас-Садик عليه السلام объясняет этот аят как относящийся к исчезновению населения через смерть до Дня Воскресения. Объяснение уточняет, что упомянутое божественное разрушение включает универсальную человеческую смертность.",
-          "tr": "İmam Cafer ibn Muhammed es-Sadık, aleyhisselam, bu ayeti kıyamet gününden önce bir toplumun ölümle yok oluşuna işaret olarak açıklar. Açıklama, burada bahsedilen ilahi yıkımın evrensel insan ölümü gerçeğini kapsadığını belirtir.",
-          "ur": "امام جعفر ابن محمد الصادق علیہ السلام نے اس آیت کی وضاحت کی کہ یہ قیامت کے دن سے پہلے موت کے ذریعے کسی آبادی کے ختم ہونے کی طرف اشارہ کرتی ہے۔ یہ وضاحت کرتی ہے کہ یہاں ذکر کردہ الہی تباہی میں انسان کی فانی حقیقت شامل ہے۔",
-          "zh": "伊玛目贾法尔伊本穆罕默德萨迪克 عليه السلام解释此经文指的是复活日前通过死亡使一群人消逝。解释澄清此处提及的神圣毁灭包括人类普遍的死亡现实。"
-        },
         "tags": [
           "quran_commentary",
           "theology",

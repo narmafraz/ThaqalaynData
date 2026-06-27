@@ -21,80 +21,41 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَلِيُّ بْنُ مُحَمَّدٍ عَنْ سَهْلِ بْنِ زِيَادٍ عَنْ مُوسَى بْنِ الْقَاسِمِ بْنِ مُعَاوِيَةَ الْبَجَلِيِّ عَنْ عَلِيِّ بْنِ جَعْفَرٍ عَنْ أَخِيهِ مُوسَى بْنِ جَعْفَرٍ عَلَيْهِ السَّلَامُ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী ইবন মুহাম্মদ, সahl ইবন জিয়াদ থেকে, মূসা ইবন আল-কাসিম ইবন মু‘আবিয়াহ আল-বাজালি থেকে, আলী ইবন জা‘ফর থেকে, তাঁর ভাই মূসা ইবন জা‘ফর عليه السلام থেকে।",
-              "de": "Ali ibn Muhammad, von Sahl ibn Ziyad, von Musa ibn al-Qasim ibn Mu'awiyah al-Bajali, von Ali ibn Ja'far, von seinem Bruder Musa ibn Ja'far عليه السلام.",
-              "en": "Ali ibn Muhammad, from Sahl ibn Ziyad, from Musa ibn al-Qasim ibn Mu'awiyah al-Bajali, from Ali ibn Ja'far, from his brother Musa ibn Ja'far عليه السلام.",
-              "es": "Ali ibn Muhammad, de Sahl ibn Ziyad, de Musa ibn al-Qasim ibn Mu'awiyah al-Bajali, de Ali ibn Ja'far, de su hermano Musa ibn Ja'far عليه السلام.",
-              "fa": "علی بن محمد، از سهل بن زیاد، از موسی بن القاسم بن معاویه بجلی، از علی بن جعفر، از برادرش موسی بن جعفر علیه السلام.",
-              "fr": "Ali ibn Muhammad, d’après Sahl ibn Ziyad, d’après Musa ibn al-Qasim ibn Mu'awiyah al-Bajali, d’après Ali ibn Ja'far, d’après son frère Musa ibn Ja'far عليه السلام.",
-              "id": "Ali ibn Muhammad, dari Sahl ibn Ziyad, dari Musa ibn al-Qasim ibn Mu'awiyah al-Bajali, dari Ali ibn Ja'far, dari saudaranya Musa ibn Ja'far عليه السلام.",
-              "ru": "Али ибн Мухаммад, от Сахля ибн Зияда, от Мусы ибн аль-Касима ибн Му'авии аль-Баджали, от Али ибн Джа'фара, от его брата Мусы ибн Джа'фара عليه السلام.",
-              "tr": "Ali ibn Muhammed, Sahl ibn Ziyad'dan, Musa ibn al-Kasim ibn Mu'aviye el-Beceli'den, Ali ibn Ca'fer'den, kardeşi Musa ibn Ca'fer'den عليه السلام.",
-              "ur": "علی بن محمد، سہل بن زیاد سے، موسیٰ بن القاسم بن معاویہ البجلی سے، علی بن جعفر سے، اپنے بھائی موسیٰ بن جعفر علیہ السلام سے۔",
-              "zh": "阿里·伊本·穆罕默德，传自萨赫勒·伊本·齐亚德，传自穆萨·伊本·卡西姆·伊本·穆阿维叶·巴贾里，传自阿里·伊本·贾法尔，传自他的兄弟穆萨·伊本·贾法尔 عليه السلام。"
-            },
             "word_end": 25,
             "word_start": 0
           },
           {
             "arabic_text": "فِي قَوْلِ اللَّهِ عَزَّ وَجَلَّ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল্লাহ্‌ عزّ و جل-এর এই বাণী সম্পর্কে:",
-              "de": "Über das Wort Allahs, des Mächtigen und Erhabenen:",
-              "en": "Regarding the saying of Allah, Mighty and Majestic:",
-              "es": "Acerca de la palabra de Allah, Poderoso y Majestuoso:",
-              "fa": "دربارهٔ سخنِ خداوند عزّ و جل:",
-              "fr": "Au sujet de la parole d’Allah, Puissant et Majestueux :",
-              "id": "Tentang firman Allah, Yang Mahaperkasa lagi Mahagung:",
-              "ru": "О словах Аллаха, Великого и Могучего:",
-              "tr": "Aziz ve Celil olan Allah'ın şu sözü hakkında:",
-              "ur": "اللہ عز و جل کے اس قول کے بارے میں:",
-              "zh": "关于真主至尊至大的这句话："
-            },
             "word_end": 30,
             "word_start": 25
           },
           {
             "arabic_text": "قُلْ أَرَأَيْتُمْ إِنْ أَصْبَحَ مَاؤُكُمْ غَوْرًا فَمَنْ يَأْتِيكُمْ بِمَاءٍ مَعِينٍ",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "বলুন: তোমরা কি ভেবে দেখেছ, যদি তোমাদের পানি মাটির গভীরে হারিয়ে যায়, তবে কে তোমাদের কাছে প্রবাহমান পানি নিয়ে আসবে?",
-              "de": "Sprich: Habt ihr bedacht, wenn euer Wasser versickert, wer würde euch dann fließendes Wasser bringen?",
-              "en": "Say: Have you considered, if your water were to sink away, then who would bring you flowing water?",
-              "es": "Di: ¿Habéis considerado que, si vuestra agua se hundiera, entonces quién os traería agua que fluye?",
-              "fa": "بگو: آیا اندیشیده‌اید، اگر آبِ شما در زمین فرو رود، پس چه کسی برای شما آبی روان خواهد آورد؟",
-              "fr": "Dis : Avez-vous considéré que, si votre eau s’enfonçait dans la terre, qui donc vous apporterait une eau jaillissante ?",
-              "id": "Katakanlah: Tidakkah kamu mempertimbangkan, jika airmu lenyap ke dalam bumi, lalu siapa yang akan mendatangkan air yang mengalir kepadamu?",
-              "ru": "Скажи: Размышляли ли вы, если ваша вода уйдет вглубь земли, то кто принесет вам текущую воду?",
-              "tr": "De ki: Düşündünüz mü, eğer suyunuz yerin dibine çekilirse, size akan suyu kim getirecek?",
-              "ur": "کہہ دو: کیا تم نے غور کیا، اگر تمہارا پانی زمین میں اتر جائے تو کون ہے جو تمہارے پاس بہتا ہوا پانی لے آئے؟",
-              "zh": "你说：你们可曾想过，如果你们的水沉入地下，那么谁能给你们带来涌流之水？"
-            },
             "word_end": 40,
             "word_start": 30
           },
           {
             "arabic_text": "قَالَ إِذَا غَابَ عَنْكُمْ إِمَامُكُمْ فَمَنْ يَأْتِيكُمْ بِإِمَامٍ جَدِيدٍ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি عليه السلام বললেন: যখন তোমাদের ইমাম তোমাদের থেকে অদৃশ্য হয়ে যান, তখন কে তোমাদের কাছে নতুন একজন ইমাম নিয়ে আসবে?",
-              "de": "Er عليه السلام sagte: Wenn euer Imam euch verborgen ist, wer wird euch dann einen neuen Imam bringen?",
-              "en": "He عليه السلام said: When your Imam is absent from you, then who will come to you with a new Imam?",
-              "es": "Él عليه السلام dijo: Cuando vuestro Imam esté ausente de vosotros, entonces ¿quién os traerá un nuevo Imam?",
-              "fa": "فرمود علیه السلام: هنگامی که امام شما از شما غایب شود، پس چه کسی برای شما امامی جدید خواهد آورد؟",
-              "fr": "Il عليه السلام dit : Lorsque votre Imam sera absent de vous, qui donc vous apportera un nouvel Imam ?",
-              "id": "Beliau عليه السلام bersabda: Ketika Imam kalian gaib dari kalian, lalu siapa yang akan datang kepada kalian dengan seorang Imam baru?",
-              "ru": "Он عليه السلام сказал: Когда ваш Имам будет скрыт от вас, то кто придет к вам с новым Имамом?",
-              "tr": "O عليه السلام şöyle buyurdu: İmamınız sizden gizlendiğinde, size yeni bir imamı kim getirecek?",
-              "ur": "انہوں نے علیہ السلام فرمایا: جب تمہارا امام تم سے غائب ہو جائے، تو کون تمہارے پاس ایک نیا امام لے کر آئے گا؟",
-              "zh": "他 عليه السلام说：当你们的伊玛目从你们这里隐没时，那么谁会给你们带来一位新的伊玛目？"
-            },
             "word_end": 49,
             "word_start": 40
           }
@@ -157,59 +118,21 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِمَامٍ جَدِيدٍ": "a new Imam",
-            "إِمَامُكُمْ": "your Imam, the divinely appointed guide",
-            "غَابَ": "became absent or hidden",
-            "غَوْرًا": "sunken away or vanished from reach",
-            "قَوْلِ اللَّهِ عَزَّ وَجَلَّ": "the divine statement of Allah, Mighty and Majestic",
-            "مَاءٍ مَعِينٍ": "flowing and accessible water",
-            "مَاؤُكُمْ": "your water; interpreted here as a metaphor for access to divine guidance"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "قَوْلِ اللَّهِ عَزَّ وَجَلَّ",
+          "مَاؤُكُمْ",
+          "غَوْرًا",
+          "مَاءٍ مَعِينٍ",
+          "غَابَ",
+          "إِمَامُكُمْ",
+          "إِمَامٍ جَدِيدٍ"
+        ],
         "related_quran": [
           {
             "ref": "67:30",
             "relationship": "explicit"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসগুলো কীভাবে কুরআন ৬৭:৩০-কে ইমামের গায়বতের সঙ্গে ব্যাখ্যা করে?",
-          "de": "Wie erklären schiitische Hadithe den Koran 67:30 im Zusammenhang mit der ghaybah des Imams?",
-          "en": "How do Shia hadith explain Qur'an 67:30 in relation to the ghaybah of the Imam?",
-          "es": "¿Cómo explican los hadices chiíes el Corán 67:30 en relación con la ghaybah del Imam?",
-          "fa": "احادیث شیعه آیه ۶۷:۳۰ قرآن را در ارتباط با غیبت امام چگونه توضیح می‌دهند؟",
-          "fr": "Comment les hadiths chiites expliquent-ils le Coran 67:30 en relation avec la ghaybah de l’Imam ?",
-          "id": "Bagaimana hadis Syiah menjelaskan Al-Qur'an 67:30 dalam kaitannya dengan ghaybah Imam?",
-          "ru": "Как шиитские хадисы объясняют Коран 67:30 в связи с гайбой Имама?",
-          "tr": "Şii hadisler Kur'an 67:30'u İmam'ın gaybetiyle nasıl açıklar?",
-          "ur": "شیعہ احادیث قرآن 67:30 کو امام کی غیبت کے ساتھ کیسے بیان کرتی ہیں؟",
-          "zh": "什叶派圣训如何将《古兰经》67:30与伊玛目的隐遁联系起来解释？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে কুরআনের অপ্রাপ্য পানির চিত্রকে ইমাম عليه السلام-এর গায়বত হিসেবে ব্যাখ্যা করা হয়েছে। এতে জোর দেওয়া হয়েছে যে ইমাম হলেন আল্লাহপ্রদত্ত হিদায়াতের উৎস, এবং ইমাম অনুপস্থিত থাকলে কেউ নিজে থেকে নতুন ইমাম সৃষ্টি বা নিযুক্ত করতে পারে না।",
-          "de": "Dieser Hadith deutet das koranische Bild des unerreichbaren Wassers als Hinweis auf die ghaybah des Imams عليه السلام. Er betont, dass der Imam eine von Gott verliehene Quelle der Rechtleitung ist und dass niemand unabhängig einen neuen Imam hervorbringen oder einsetzen kann, wenn der Imam abwesend ist.",
-          "en": "This hadith interprets the Qur'anic image of inaccessible water as a reference to the ghaybah of the Imam عليه السلام. It emphasizes that the Imam is a divinely given source of guidance, and that no one can independently produce or appoint a new Imam when the Imam is absent.",
-          "es": "Este hadiz interpreta la imagen coránica del agua inaccesible como una referencia a la ghaybah del Imam عليه السلام. Subraya que el Imam es una fuente de guía concedida por Dios, y que nadie puede producir ni designar por sí mismo un nuevo Imam cuando el Imam está ausente.",
-          "fa": "این حدیث تصویر قرآنیِ آبِ دست‌نیافتنی را به غیبتِ امام علیه السلام تفسیر می‌کند. تأکید می‌کند که امام سرچشمه‌ای الهی برای هدایت است و هنگامی که امام غایب باشد، هیچ‌کس نمی‌تواند به‌طور مستقل امامی جدید پدید آورد یا منصوب کند.",
-          "fr": "Ce hadith interprète l’image coranique de l’eau inaccessible comme une référence à la ghaybah de l’Imam عليه السلام. Il souligne que l’Imam est une source de guidée donnée par Dieu, et que personne ne peut, de son propre chef, produire ou désigner un nouvel Imam lorsque l’Imam est absent.",
-          "id": "Hadis ini menafsirkan gambaran Al-Qur'an tentang air yang tak dapat dijangkau sebagai isyarat kepada ghaybah Imam عليه السلام. Ini menegaskan bahwa Imam adalah sumber petunjuk yang dianugerahkan oleh Allah, dan bahwa tidak seorang pun dapat secara mandiri menghadirkan atau menetapkan Imam baru ketika Imam itu gaib.",
-          "ru": "Этот хадис толкует коранический образ недоступной воды как указание на гайбу Имама عليه السلام. В нем подчеркивается, что Имам является дарованным Богом источником руководства и что никто не может самостоятельно породить или назначить нового Имама, когда Имам отсутствует.",
-          "tr": "Bu hadis, Kur'an'daki ulaşılamayan su tasvirini İmam'ın عليه السلام gaybetine işaret olarak yorumlar. İmamın ilahî bir hidayet kaynağı olduğunu ve İmam gaip olduğunda hiç kimsenin bağımsız olarak yeni bir İmam ortaya koyamayacağını vurgular.",
-          "ur": "یہ حدیث قرآن کی اس مثال کی تفسیر کرتی ہے کہ ناقابلِ رسائی پانی سے مراد امام علیہ السلام کی غیبت ہے۔ اس میں واضح کیا گیا ہے کہ امام ہدایت کا ایک الٰہی عطا کردہ سرچشمہ ہے، اور جب امام غائب ہوں تو کوئی شخص خود سے نیا امام مقرر نہیں کر سکتا۔",
-          "zh": "这段圣训将《古兰经》中不可及之水的形象解释为对伊玛目 عليه السلام隐遁的指涉。它强调，伊玛目是真主赐予的引导之源，而当伊玛目不在时，任何人都不能独立产生或任命一位新的伊玛目。"
-        },
         "tags": [
           "quran_commentary",
           "theology",

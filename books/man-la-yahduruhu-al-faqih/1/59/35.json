@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَفِي رِوَايَةِ أَبِي بَصِيرٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ أَنَّهُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং আবু বাসীরের বর্ণনায়, আবু আব্দিল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Und in der Überlieferung von Abū Baṣīr, von Abū ʿAbdillāh عليه السلام, dass er sagte:",
-              "en": "And in the narration of Abū Baṣīr, from Abū ʿAbdillāh عليه السلام, that he said:",
-              "es": "Y en la narración de Abū Baṣīr, de Abū ʿAbdillāh عليه السلام, que dijo:",
-              "fa": "و در روایت ابوبصیر، از ابوعبدالله علیه‌السلام که فرمود:",
-              "fr": "Et dans la narration d’Abū Baṣīr, de Abū ʿAbdillāh عليه السلام, qu’il a dit :",
-              "id": "Dan dalam riwayat Abū Baṣīr, dari Abū ʿAbdillāh علیه السلام, bahwa beliau berkata:",
-              "ru": "И в передаче Абу Басира от Абу Абдиллаха عليه السلام, что он сказал:",
-              "tr": "Ve Ebu Basîr'in rivayetinde, Ebu Abdillah (aleyhisselam)'dan şöyle dediği nakledilmiştir:",
-              "ur": "اور ابو بصیر کی روایت میں، ابو عبداللہ علیہ السلام سے، کہ انہوں نے فرمایا:",
-              "zh": "在阿布巴西尔的传述中，来自阿布阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "«أَنْتَ فِي وَقْتِ الْمَغْرِبِ فِي السَّفَرِ إِلَى خَمْسَةِ أَمْيَالٍ مِنْ بَعْدِ غُرُوبِ الشَّمْسِ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“তুমি সূর্যাস্তের পরে পাঁচ মাইল পর্যন্ত সফরের সময় মাগরিবের সময়ের মধ্যে আছ।”",
-              "de": "\"Du befindest dich während der Reise bis zu fünf Meilen nach Sonnenuntergang in der Zeit des Maghrib.\"",
-              "en": "\"You are within the time of Maghrib during travel up to five miles after the sunset.\"",
-              "es": "\"Estás dentro del tiempo de Maghrib durante el viaje hasta cinco millas después del atardecer.\"",
-              "fa": "«تو در زمان مغرب در سفر تا پنج میل پس از غروب آفتاب هستی.»",
-              "fr": "\"Tu es dans le temps du Maghrib pendant le voyage jusqu’à cinq milles après le coucher du soleil.\"",
-              "id": "\"Anda berada dalam waktu Maghrib saat bepergian hingga lima mil setelah matahari terbenam.\"",
-              "ru": "\"Ты находишься во время Магриба во время путешествия до пяти миль после захода солнца.\"",
-              "tr": "\"Seyahat sırasında güneş battıktan sonra beş mile kadar Mahgrib vakti içindesin.\"",
-              "ur": "“آپ سفر کے دوران غروب آفتاب کے بعد پانچ میل تک مغرب کے وقت میں ہیں۔”",
-              "zh": "“你在旅行中日落后五英里内处于马格里布时间。”"
-            },
             "word_end": 25,
             "word_start": 12
           }
@@ -82,27 +69,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبِي بَصِيرٍ": "Abū Baṣīr, the narrator transmitting this report",
-            "أَبِي عَبْدِ اللَّهِ": "Imam Jaʿfar al-Ṣādiq عليه السلام",
-            "السَّفَرِ": "travel; the state of journeying",
-            "خَمْسَةِ أَمْيَالٍ": "a distance of five miles",
-            "رِوَايَةِ": "a transmitted narration",
-            "غُرُوبِ الشَّمْسِ": "sunset",
-            "وَقْتِ الْمَغْرِبِ": "the time of Maghrib prayer"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رِوَايَةِ",
+          "أَبِي بَصِيرٍ",
+          "أَبِي عَبْدِ اللَّهِ",
+          "وَقْتِ الْمَغْرِبِ",
+          "السَّفَرِ",
+          "خَمْسَةِ أَمْيَالٍ",
+          "غُرُوبِ الشَّمْسِ"
+        ],
         "related_quran": [
           {
             "ref": "17:78",
@@ -113,32 +88,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "সফরের সময় সূর্যাস্তের পরে মাগরিবের সময় কতক্ষণ স্থায়ী হয়?",
-          "de": "Wie lange dauert die Zeit des Maghrib für einen Reisenden nach Sonnenuntergang an?",
-          "en": "How long does the time of Maghrib continue for a traveler after sunset?",
-          "es": "¿Cuánto tiempo continúa el tiempo de Maghrib para un viajero después del atardecer?",
-          "fa": "وقت مغرب برای مسافر پس از غروب آفتاب تا چه مدت ادامه دارد؟",
-          "fr": "Combien de temps dure le temps de Maghrib pour un voyageur après le coucher du soleil ?",
-          "id": "Berapa lama waktu Maghrib berlangsung bagi musafir setelah matahari terbenam?",
-          "ru": "Как долго продолжается время Магриб для путешественника после захода солнца?",
-          "tr": "Seyahat eden birisi için güneş battıktan sonra Mahgrib vakti ne kadar devam eder?",
-          "ur": "سفر کے دوران غروب آفتاب کے بعد مغرب کا وقت کتنی دیر تک جاری رہتا ہے؟",
-          "zh": "旅行者日落后马格里布时间持续多久？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি একজন যাত্রীর জন্য মাগরিব নামাজের সময় সম্পর্কে একটি শারঈ বিধান প্রদান করে। এটি নির্দেশ করে যে সূর্যাস্তের পরে, যাত্রার সময় পাঁচ মাইল পর্যন্ত মাগরিবের সময় প্রযোজ্য থাকে, যা নামাজের বিধানে সহজতা প্রতিফলিত করে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung über die Zeit des Maghrib-Gebets für einen Reisenden. Er zeigt, dass nach Sonnenuntergang die Zeit des Maghrib während der Reise bis zu fünf Meilen gilt, was eine Erleichterung in den Gebetsregeln während السفر widerspiegelt.",
-          "en": "This hadith gives a legal ruling about the time of Maghrib prayer for a traveler. It indicates that after sunset, the time of Maghrib remains applicable in travel up to the extent of five miles, reflecting facilitation in prayer rulings during السفر.",
-          "es": "Este hadiz da un fallo legal sobre el tiempo de la oración de Maghrib para un viajero. Indica que después del atardecer, el tiempo de Maghrib sigue siendo aplicable en el viaje hasta una distancia de cinco millas, reflejando una facilitación en las reglas de la oración durante السفر.",
-          "fa": "این حدیث حکم شرعی درباره وقت نماز مغرب برای مسافر را بیان می‌کند. نشان می‌دهد که پس از غروب آفتاب، وقت مغرب در سفر تا پنج میل ادامه دارد که تسهیل در احکام نماز را منعکس می‌کند.",
-          "fr": "Ce hadith donne un jugement légal sur le temps de la prière de Maghrib pour un voyageur. Il indique qu’après le coucher du soleil, le temps de Maghrib reste applicable en voyage jusqu’à cinq milles, reflétant une facilité dans les règles de la prière pendant السفر.",
-          "id": "Hadis ini memberikan ketentuan hukum tentang waktu salat Maghrib bagi musafir. Ini menunjukkan bahwa setelah matahari terbenam, waktu Maghrib tetap berlaku dalam perjalanan hingga jarak lima mil, mencerminkan kemudahan dalam hukum salat selama السفر.",
-          "ru": "Этот хадис даёт правовое постановление о времени молитвы Магриб для путешественника. Он указывает, что после захода солнца время Магриба остаётся действительным в путешествии на расстоянии до пяти миль, отражая облегчение в правилах молитвы во время السفر.",
-          "tr": "Bu hadis, yolculuk sırasında Mahgrib namazının vakti hakkında hukuki bir hüküm verir. Güneş battıktan sonra, yolculukta beş mile kadar Mahgrib vaktinin geçerli olduğunu belirtir ve namaz hükümlerinde kolaylık sağlar.",
-          "ur": "یہ حدیث سفر کے دوران نماز مغرب کے وقت کے بارے میں شرعی حکم دیتی ہے۔ یہ ظاہر کرتی ہے کہ غروب آفتاب کے بعد، سفر میں پانچ میل تک مغرب کا وقت جاری رہتا ہے، جو نماز کے احکام میں آسانی کی عکاسی کرتا ہے۔",
-          "zh": "这段圣训对旅行者的马格里布祈祷时间给出了法律裁定。它表明日落后，马格里布时间在旅行中可持续五英里，体现了祈祷规定中的便利性。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

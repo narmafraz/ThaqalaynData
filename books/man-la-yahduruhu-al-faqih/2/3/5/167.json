@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رُوِيَ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং এটি বর্ণিত হয়েছে:",
-              "de": "Und es wurde überliefert:",
-              "en": "And it has been narrated:",
-              "es": "Y se ha narrado:",
-              "fa": "و روایت شده است:",
-              "fr": "Et il a été rapporté :",
-              "id": "Dan telah diriwayatkan:",
-              "ru": "И было передано:",
-              "tr": "Ve rivayet edilmiştir ki:",
-              "ur": "اور یہ روایت کیا گیا ہے:",
-              "zh": "据传："
-            },
             "word_end": 2,
             "word_start": 0
           },
           {
             "arabic_text": "«أَنَّ دِرْهَمًا فِي الْحَجِّ خَيْرٌ مِنْ أَلْفِ أَلْفِ دِرْهَمٍ فِي غَيْرِهِ وَ دِرْهَمٌ يَصِلُ إِلَى الْإِمَامِ مِثْلُ أَلْفِ أَلْفِ دِرْهَمٍ فِي حَجٍّ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "হজে খরচ করা একটি দিরহাম অন্যত্র এক মিলিয়ন দিরহামের চেয়ে উত্তম। এবং যে দিরহাম ইমামের কাছে পৌঁছায় তা হজে খরচ করা এক মিলিয়ন দিরহামের সমান।",
-              "de": "Ein Dirham, der im Hajj ausgegeben wird, ist besser als eine Million Dirham, die anderswo ausgegeben werden. Und ein Dirham, der den Imam erreicht, ist wie eine Million Dirham, die im Hajj ausgegeben werden.",
-              "en": "A dirham spent in hajj is better than a million dirhams spent elsewhere. And a dirham that reaches the Imam is like a million dirhams spent in hajj.",
-              "es": "Un dirham gastado en el hajj es mejor que un millón de dirhams gastados en otro lugar. Y un dirham que llega al Imam es como un millón de dirhams gastados en el hajj.",
-              "fa": "یک درهم خرج شده در حج بهتر از یک میلیون درهم خرج شده در جای دیگر است. و درهمی که به امام برسد مانند یک میلیون درهم خرج شده در حج است.",
-              "fr": "Un dirham dépensé dans le hajj vaut mieux qu'un million de dirhams dépensés ailleurs. Et un dirham qui parvient à l'Imam équivaut à un million de dirhams dépensés dans le hajj.",
-              "id": "Satu dirham yang dibelanjakan dalam haji lebih baik daripada satu juta dirham yang dibelanjakan di tempat lain. Dan satu dirham yang sampai kepada Imam seperti satu juta dirham yang dibelanjakan dalam haji.",
-              "ru": "Дирхам, потраченный на хадж, лучше миллиона дирхамов, потраченных в другом месте. А дирхам, который достигает Имама, подобен миллиону дирхамов, потраченных на хадж.",
-              "tr": "Hacda harcanan bir dirhem, başka yerlerde harcanan bir milyon dirhemden daha hayırlıdır. Ve İmam'a ulaşan bir dirhem, hacda harcanan bir milyon dirhem gibidir.",
-              "ur": "حج میں خرچ کیا گیا ایک درہم دوسرے مقامات پر خرچ کیے گئے ایک ملین درہم سے بہتر ہے۔ اور جو درہم امام تک پہنچتا ہے وہ حج میں خرچ کیے گئے ایک ملین درہم کے برابر ہے۔",
-              "zh": "在朝觐中花费的一迪拉姆胜过在其他地方花费的一百万迪拉姆。到达伊玛目的迪拉姆相当于在朝觐中花费的一百万迪拉姆。"
-            },
             "word_end": 24,
             "word_start": 2
           }
@@ -75,25 +62,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْإِمَامِ": "the Imam, whose receipt of wealth is described as especially virtuous",
-            "الْحَجِّ": "hajj, the pilgrimage whose expenditure is described as highly meritorious",
-            "حَجٍّ": "hajj; used again to compare the magnitude of reward",
-            "خَيْرٌ": "better; indicating greater virtue and reward",
-            "دِرْهَمًا": "a unit of money; a dirham spent in devotion"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "دِرْهَمًا",
+          "الْحَجِّ",
+          "خَيْرٌ",
+          "الْإِمَامِ",
+          "حَجٍّ"
+        ],
         "related_quran": [
           {
             "ref": "2:261",
@@ -108,32 +83,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হজে সম্পদ ব্যয় এবং ইমামকে দেওয়ার পুরস্কার কী?",
-          "de": "Was ist die Belohnung für das Ausgeben von Reichtum im Hajj und das Geben an den Imam?",
-          "en": "What is the reward of spending wealth on hajj and giving to the Imam?",
-          "es": "¿Cuál es la recompensa de gastar riqueza en el hajj y dar al Imam?",
-          "fa": "پاداش خرج کردن مال در حج و دادن به امام چیست؟",
-          "fr": "Quelle est la récompense de dépenser des richesses dans le hajj et de donner à l'Imam ?",
-          "id": "Apa pahala membelanjakan harta di haji dan memberi kepada Imam?",
-          "ru": "Какова награда за трату имущества на хадж и даяние Имаму?",
-          "tr": "Hacda mal harcamanın ve İmam'a vermenin mükafatı nedir?",
-          "ur": "حج میں مال خرچ کرنے اور امام کو دینے کا اجر کیا ہے؟",
-          "zh": "在朝觐中花费财富和给予伊玛目的奖励是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি হজে সম্পদ ব্যয়ের বিশাল মর্যাদা এবং ইমামকে দেওয়ার বিশেষ গুণাবলীকে তুলে ধরে। উভয় কাজই সাধারণ ব্যয়ের চেয়ে গুণগতভাবে বহুগুণ আধ্যাত্মিক মূল্য বহন করে।",
-          "de": "Dieser Hadith betont den enormen Verdienst, Reichtum im Hajj auszugeben, und hebt die außergewöhnliche Tugend hervor, dem Imam zu geben. Beide Handlungen besitzen einen vervielfachten spirituellen Wert über gewöhnliche Ausgaben hinaus.",
-          "en": "This hadith emphasizes the immense merit of spending wealth in hajj and highlights the exceptional virtue of giving to the Imam. It presents both acts as possessing multiplied spiritual value beyond ordinary expenditure.",
-          "es": "Este hadiz enfatiza el inmenso mérito de gastar riqueza en el hajj y destaca la virtud excepcional de dar al Imam. Presenta ambos actos como poseedores de un valor espiritual multiplicado más allá del gasto ordinario.",
-          "fa": "این حدیث بر فضیلت عظیم خرج کردن مال در حج و اهمیت ویژه دادن به امام تأکید دارد. هر دو عمل را دارای ارزش معنوی چندین برابر بیشتر از هزینه‌های عادی معرفی می‌کند.",
-          "fr": "Ce hadith souligne l'immense mérite de dépenser des richesses dans le hajj et met en avant la vertu exceptionnelle de donner à l'Imam. Il présente ces deux actes comme possédant une valeur spirituelle multipliée au-delà des dépenses ordinaires.",
-          "id": "Hadis ini menekankan keutamaan besar membelanjakan harta di haji dan menyoroti keutamaan luar biasa memberi kepada Imam. Kedua perbuatan ini memiliki nilai spiritual yang berlipat ganda dibandingkan pengeluaran biasa.",
-          "ru": "Этот хадис подчеркивает огромную заслугу траты имущества на хадж и выделяет исключительную добродетель даяния Имаму. Оба действия обладают многократно увеличенной духовной ценностью по сравнению с обычными расходами.",
-          "tr": "Bu hadis, hacca mal harcamanın büyük faziletini ve İmam'a vermenin özel değerini vurgular. Her iki amelin de sıradan harcamalardan kat kat fazla manevi değere sahip olduğunu gösterir.",
-          "ur": "یہ حدیث حج میں مال خرچ کرنے کی عظیم فضیلت اور امام کو دینے کی خاص اہمیت کو اجاگر کرتی ہے۔ یہ دونوں اعمال کو عام خرچ سے کئی گنا زیادہ روحانی قدر کے حامل بتاتی ہے۔",
-          "zh": "此圣训强调在朝觐中花费财富的巨大功德，并突出给予伊玛目的特殊美德。两者均具有超越普通花费的倍增精神价值。"
-        },
         "tags": [
           "worship",
           "economy",

@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ الصَّادِقُ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল-সাদিক عليه السلام বলেছেন:",
-              "de": "Al-Sadiq, Friede sei mit ihm, sagte:",
-              "en": "Al-Sadiq, peace be upon him, said:",
-              "es": "Al-Sadiq, la paz sea con él, dijo:",
-              "fa": "الصادق علیه السلام فرمود:",
-              "fr": "Al-Sadiq, paix soit sur lui, a dit :",
-              "id": "Al-Sadiq, alaihis salam, berkata:",
-              "ru": "Аль-Садик, мир ему, сказал:",
-              "tr": "El-Sadık, aleyhisselam, dedi ki:",
-              "ur": "اَلصَّادِق علیہ السلام نے فرمایا:",
-              "zh": "الصادقعليهالسلام说："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "«عَشَرَةُ مَوَاضِعَ لَا يُصَلَّى فِيهَا الطِّينُ وَالْمَاءُ وَالْحَمَّامُ وَالْقُبُورُ وَمَسَانُّ الطَّرِيقِ وَقُرَى النَّمْلِ وَمَعَاطِنُ الْإِبِلِ وَمَجْرَى الْمَاءِ، وَالسَّبَخَةُ وَالثَّلْجُ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "দশটি স্থান রয়েছে যেখানে সালাত (নামাজ) পড়া হয় না: কাদা, পানি, গোসলখানা, কবর, রাস্তার পিটানো অংশ, পিপড়ের বস্তি, উটের বিশ্রামের স্থান, পানির পথ, লবণাক্ত জমি এবং তুষার।",
-              "de": "Es gibt zehn Orte, an denen das Salat (Gebet) nicht verrichtet wird: Schlamm, Wasser, Badehaus, Gräber, die getretenen Teile des Weges, Ameisenkolonien, Kamelrastplätze, Wasserlauf, salzhaltiges Land und Schnee.",
-              "en": "There are ten places where salat (prayer) is not performed: mud, water, the bathhouse, graves, the beaten parts of the road, ant colonies, camel resting places, the watercourse, saline land, and snow.",
-              "es": "Hay diez lugares donde no se realiza la salat (oración): barro, agua, el baño, las tumbas, las partes pisoteadas del camino, colonias de hormigas, lugares de descanso de camellos, el cauce del agua, tierra salina y nieve.",
-              "fa": "ده مکانی که در آن‌ها نماز خوانده نمی‌شود عبارتند از: گل، آب، حمام، قبور، قسمت‌های کوبیده شده جاده، کلونی‌های مورچه، محل استراحت شتر، مسیر آب، زمین شور و برف.",
-              "fr": "Il y a dix endroits où la salat (prière) n'est pas effectuée : boue, eau, bain, tombes, parties battues de la route, colonies de fourmis, lieux de repos des chameaux, cours d'eau, terre salée et neige.",
-              "id": "Ada sepuluh tempat di mana salat tidak dilakukan: lumpur, air, pemandian, kuburan, bagian jalan yang dipadatkan, sarang semut, tempat istirahat unta, aliran air, tanah asin, dan salju.",
-              "ru": "Есть десять мест, где не совершается салат (молитва): грязь, вода, баня, могилы, утоптанные участки дороги, муравейники, места отдыха верблюдов, русло воды, солончаки и снег.",
-              "tr": "Namazın kılınmadığı on yer vardır: çamur, su, hamam, mezarlar, yolun dövülmüş kısımları, karınca yuvaları, deve dinlenme yerleri, su yolu, tuzlu arazi ve kar.",
-              "ur": "وہ دس جگہیں ہیں جہاں نماز نہیں پڑھی جاتی: کیچڑ، پانی، حمام، قبریں، راستے کے پیٹے ہوئے حصے، چیونٹیوں کے بچھون، اونٹوں کے آرام گاہیں، پانی کا راستہ، نمکین زمین، اور برف۔",
-              "zh": "有十个地方不进行礼拜：泥土、水、浴室、坟墓、被践踏的路面、蚂蚁巢穴、骆驼休息处、水道、盐碱地和雪。"
-            },
             "word_end": 23,
             "word_start": 4
           }
@@ -82,28 +69,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الثَّلْجُ": "snow",
-            "السَّبَخَةُ": "saline or marshy land",
-            "الطِّينُ": "mud",
-            "الْحَمَّامُ": "bathhouse",
-            "الْقُبُورُ": "graves",
-            "مَعَاطِنُ الْإِبِلِ": "camel resting places",
-            "مَوَاضِعَ": "places or locations",
-            "يُصَلَّى": "salat (prayer) is performed"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "مَوَاضِعَ",
+          "يُصَلَّى",
+          "الطِّينُ",
+          "الْحَمَّامُ",
+          "الْقُبُورُ",
+          "مَعَاطِنُ الْإِبِلِ",
+          "السَّبَخَةُ",
+          "الثَّلْجُ"
+        ],
         "related_quran": [
           {
             "ref": "2:125",
@@ -114,32 +89,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام অনুযায়ী কোন কোন স্থানগুলোতে সালাত (নামাজ) পড়া বৈধ নয়?",
-          "de": "Welche Orte sind laut Imam al-Sadiq عليه السلام nicht erlaubt, um Salat (Gebet) zu verrichten?",
-          "en": "What places are not permissible for performing salat (prayer) according to Imam al-Sadiq عليه السلام?",
-          "es": "¿Cuáles son los lugares donde no es permisible realizar la salat (oración) según el Imam al-Sadiq عليه السلام?",
-          "fa": "بر اساس امام الصادق علیه السلام، انجام نماز در چه مکان‌هایی جایز نیست؟",
-          "fr": "Quels sont les endroits où il n'est pas permis d'effectuer la salat (prière) selon l'Imam al-Sadiq عليه السلام ?",
-          "id": "Menurut Imam al-Sadiq عليه السلام, tempat-tempat mana saja yang tidak diperbolehkan untuk melaksanakan salat (shalat)?",
-          "ru": "Какие места не разрешены для совершения салата (молитвы) согласно Имаму аль-Садику عليه السلام?",
-          "tr": "İmam El-Sadık عليه السلام'a göre salat (namaz) kılınması caiz olmayan yerler nelerdir?",
-          "ur": "امام الصادق علیہ السلام کے مطابق نماز پڑھنے کے لیے کون سی جگہیں جائز نہیں ہیں؟",
-          "zh": "根据伊玛目al-Sadiq عليه السلام，哪些地方不允许进行礼拜？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ইমাম আল-সাদিক عليه السلام থেকে এসেছে যা দশটি এমন স্থান তালিকাভুক্ত করে যেখানে সালাত (নামাজ) পড়া উচিত নয়। এটি একটি ফিকহীয় পাঠ যা নামাজের সঠিক স্থান এবং এর বৈধতা বা অনুমতির শর্তাদি সম্পর্কে।",
-          "de": "Dieser Hadith von Imam al-Sadiq عليه السلام listet zehn Orte auf, an denen das Salat (Gebet) nicht verrichtet werden sollte. Es ist ein juristischer Text über den richtigen Ort des Gebets und die Bedingungen, die dessen Gültigkeit oder Zulässigkeit beeinflussen.",
-          "en": "This hadith from Imam al-Sadiq عليه السلام lists ten places in which salat (prayer) should not be performed. It is a jurisprudential text concerning the proper location of prayer and the conditions affecting its validity or permissibility.",
-          "es": "Este hadiz del Imam al-Sadiq عليه السلام enumera diez lugares en los que no se debe realizar la salat (oración). Es un texto jurisprudencial que trata sobre el lugar adecuado para la oración y las condiciones que afectan su validez o permisibilidad.",
-          "fa": "این حدیث از امام الصادق علیه السلام ده مکانی را که در آن‌ها نماز نباید خوانده شود، فهرست می‌کند. این متن فقهی درباره مکان صحیح نماز و شرایطی است که بر صحت یا جواز آن تأثیر می‌گذارد.",
-          "fr": "Ce hadith de l'Imam al-Sadiq عليه السلام énumère dix endroits où la salat (prière) ne doit pas être effectuée. C'est un texte juridique concernant le lieu approprié de la prière et les conditions affectant sa validité ou sa permissibilité.",
-          "id": "Hadis ini dari Imam al-Sadiq عليه السلام mencantumkan sepuluh tempat di mana salat (shalat) tidak boleh dilakukan. Ini adalah teks fikih yang membahas lokasi yang tepat untuk salat dan kondisi yang memengaruhi keabsahan atau izin pelaksanaannya.",
-          "ru": "Этот хадис Имама аль-Садика عليه السلام перечисляет десять мест, где не следует совершать салат (молитву). Это юридический текст, касающийся правильного места для молитвы и условий, влияющих на её действительность или разрешённость.",
-          "tr": "Bu hadis, İmam El-Sadık aleyhisselam tarafından salatın (namazın) kılınmaması gereken on yeri listeler. Bu, namazın uygun yeri ve geçerliliğini veya izin verilebilirliğini etkileyen şartlarla ilgili fıkhi bir metindir.",
-          "ur": "یہ حدیث امام الصادق علیہ السلام کی طرف سے ہے جو دس ایسی جگہوں کی فہرست دیتی ہے جہاں نماز نہیں پڑھی جانی چاہیے۔ یہ فقہی متن نماز کی صحیح جگہ اور اس کی صحت یا جواز پر اثر انداز ہونے والی شرائط سے متعلق ہے۔",
-          "zh": "这段来自伊玛目al-Sadiq عليه السلام的圣训列出了十个不应进行礼拜的地方。这是一段关于礼拜适当地点及其有效性或许可条件的法学文本。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

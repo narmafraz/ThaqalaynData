@@ -13,6 +13,126 @@
       "up": "/books/al-kafi:6:2:34"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّد بْنِ الْحُسَيْنِ عَنْ يَزِيدَ بْنِ إِسْحَاقَ شَعِيرٍ عَنْ هَارُونَ بْنِ حَمْزَةَ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ )",
+            "chunk_type": "isnad",
+            "word_end": 24,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "فِي امْرَأَةٍ طُلِّقَتْ وَ قَدْ طَعَنَتْ فِي السِّنِّ فَحَاضَتْ حَيْضَةً وَاحِدَةً ثُمَّ ارْتَفَعَ حَيْضُهَا فَقَالَ تَعْتَدُّ بِالْحَيْضَةِ وَ شَهْرَيْنِ مُسْتَقْبِلَيْنِ فَإِنَّهَا قَدْ يَئِسَتْ مِنَ الْمَحِيضِ",
+            "chunk_type": "body",
+            "word_end": 49,
+            "word_start": 24
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 29,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ الْحُسَيْنِ",
+              "name_en": "Muhammad ibn al-Husayn",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 735,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "يَزِيدَ بْنِ إِسْحَاقَ شَعِرٍ",
+              "name_en": "Yazid b. Ishaq Sha'ir",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 518,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "هَارُونَ بْنِ حَمْزَةَ",
+              "name_en": "Harun b. Hamza",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "طَعَنَتْ فِي السِّنِّ",
+          "حَيْضَةً وَاحِدَةً",
+          "ارْتَفَعَ حَيْضُهَا",
+          "تَعْتَدُّ",
+          "شَهْرَيْنِ مُسْتَقْبِلَيْنِ",
+          "يَئِسَتْ مِنَ الْمَحِيضِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "65:4",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family"
+        ],
+        "topics": [
+          "marriage_family_law",
+          "financial_law"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> صحيح على الظاهر    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (21/170)"
       ],
@@ -84,7 +204,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:2:34:11",

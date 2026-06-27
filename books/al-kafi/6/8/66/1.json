@@ -13,6 +13,141 @@
       "up": "/books/al-kafi:6:8:66"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ عَنْ أَبِيهِ عَنْ عَبْدِ اللَّهِ بْنِ الْفَضْلِ النَّوْفَلِيِّ عَنْ زِيَادِ بْنِ عَمْرٍو الْجُعْفِيِّ عَمَّنْ حَدَّثَهُ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 33,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "إِنَّ اللَّهَ عَزَّ وَ جَلَّ وَكَّلَ مَلَكاً بِالْبِنَاءِ يَقُولُ لِمَنْ رَفَعَ سَقْفاً فَوْقَ ثَمَانِيَةِ أَذْرُعٍ أَيْنَ تُرِيدُ يَا فَاسِقُ",
+            "chunk_type": "body",
+            "word_end": 52,
+            "word_start": 33
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 12,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ",
+              "name_en": "Ahmad b. Muhammad b. Khalid",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 511,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللَّهِ بْنِ الْفَضْلِ النَّوْفَلِيِّ",
+              "name_en": "Abd Allah b. al-Fadl al-Nawfali",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": null,
+              "identity_confidence": "ambiguous",
+              "known_identity": null,
+              "name_ar": "زِيَادِ بْنِ عَمْرٍو الْجُعْفِيِّ عَمَّنْ حَدَّثَهُ",
+              "name_en": "Ziyad b. Amr al-Ju'fi",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الْبِنَاءِ",
+          "مَلَكاً",
+          "سَقْفاً",
+          "أَذْرُعٍ",
+          "فَاسِقُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:31",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "28:28",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "theology",
+          "jurisprudence",
+          "social_relations"
+        ],
+        "topics": [
+          "divine_attributes",
+          "halal_haram",
+          "work_livelihood"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول مرسل    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (22/441)"
       ],
@@ -92,7 +227,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:8:66:1",

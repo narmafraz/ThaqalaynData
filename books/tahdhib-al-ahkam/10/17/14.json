@@ -15,42 +15,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ مُحَمَّدِ بْنِ عِيسَى عَنْ يُونُسَ عَنِ ابْنِ مُسْكَانَ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী ইবন ইবরাহীম, মুহাম্মদ ইবন ঈসা থেকে, ইউনুস থেকে, ইবন মিসকান থেকে, আবী আবদিল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "ʿAlī ibn Ibrāhīm, von Muḥammad ibn ʿĪsā, von Yūnus, von Ibn Miskān, von Abī ʿAbdillāh عليه السلام, der sagte:",
-              "en": "ʿAlī ibn Ibrāhīm, from Muḥammad ibn ʿĪsā, from Yūnus, from Ibn Miskān, from Abī ʿAbdillāh عليه السلام, who said:",
-              "es": "ʿAlī ibn Ibrāhīm, de Muḥammad ibn ʿĪsā, de Yūnus, de Ibn Miskān, de Abī ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "علی بن ابراهیم، از محمد بن عیسی، از یونس، از ابن مسکان، از ابی عبدالله علیه السلام، که فرمود:",
-              "fr": "ʿAlī ibn Ibrāhīm, d’après Muḥammad ibn ʿĪsā, d’après Yūnus, d’après Ibn Miskān, d’après Abī ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "ʿAlī ibn Ibrāhīm, dari Muḥammad ibn ʿĪsā, dari Yūnus, dari Ibn Miskān, dari Abī ʿAbdillāh عليه السلام, beliau bersabda:",
-              "ru": "ʿАли ибн Ибрахим, от Мухаммада ибн ʿИсы, от Юнуса, от Ибн Мискана, от Аби ʿАбдуллаха عليه السلام, который сказал:",
-              "tr": "Ali ibn İbrahim, Muhammed ibn İsa’dan, Yunus’tan, İbn Miskan’dan, Ebu Abdullah عليه السلام’dan rivayet etti ki, şöyle dedi:",
-              "ur": "علی بن ابراہیم، محمد بن عیسیٰ سے، یونس سے، ابن مسکان سے، ابی عبداللہ علیہ السلام سے، انہوں نے فرمایا:",
-              "zh": "阿里伊本易卜拉欣，传自穆罕默德伊本尔萨，传自尤努斯，传自伊本米斯坎，传自阿比阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "إِذَا قَتَلَ الرَّجُلُ رَجُلَيْنِ أَوْ أَكْثَرَ مِنْ ذَلِكَ قُتِلَ بِهِمْ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি কোনো ব্যক্তি দুইজন মানুষকে হত্যা করে, অথবা তার চেয়ে বেশি, তবে তাদের বদলে তাকে হত্যা করা হবে।",
-              "de": "Wenn ein Mann zwei Männer oder mehr als das tötet, wird er ihretwegen getötet.",
-              "en": "If a man kills two men, or more than that, he is killed for them.",
-              "es": "Si un hombre mata a dos hombres, o a más que eso, será ejecutado por ellos.",
-              "fa": "اگر مردی دو مرد یا بیشتر از آن را بکشد، به سبب آنان کشته می‌شود.",
-              "fr": "Si un homme tue deux hommes, ou plus que cela, il sera mis à mort pour eux.",
-              "id": "Jika seorang laki-laki membunuh dua orang laki-laki, atau lebih dari itu, maka ia dibunuh karenanya.",
-              "ru": "Если человек убьет двух человек или больше, то он будет убит за них.",
-              "tr": "Eğer bir adam iki adamı veya daha fazlasını öldürürse, onlar için öldürülür.",
-              "ur": "اگر کوئی شخص دو آدمیوں کو قتل کرے، یا اس سے زیادہ کو، تو اسے ان کے بدلے قتل کیا جائے گا۔",
-              "zh": "如果一个人杀了两个人，或者更多，那么他将因他们而被处死。"
-            },
             "word_end": 29,
             "word_start": 19
           }
@@ -113,25 +100,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَكْثَرَ": "more; beyond two persons",
-            "الرَّجُلُ": "the man; the male offender mentioned in the ruling",
-            "رَجُلَيْنِ": "two men; two victims of killing",
-            "قَتَلَ": "killed; committed homicide",
-            "قُتِلَ": "he is killed; the prescribed retaliatory punishment is carried out on him"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "قَتَلَ",
+          "الرَّجُلُ",
+          "رَجُلَيْنِ",
+          "أَكْثَرَ",
+          "قُتِلَ"
+        ],
         "related_quran": [
           {
             "ref": "2:178",
@@ -146,32 +121,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে যদি একজন ব্যক্তি দুই বা ততোধিক মানুষকে হত্যা করে, তাহলে তার বিধান কী?",
-          "de": "Was ist das Urteil, wenn ein Mann in der schiitischen Fiqh zwei oder mehr Menschen tötet?",
-          "en": "What is the ruling if one man kills two or more people in Shia fiqh?",
-          "es": "¿Cuál es la norma si un hombre mata a dos o más personas en la fiqh chií?",
-          "fa": "اگر یک مرد دو یا بیشتر از دو نفر را بکشد، حکم آن در فقه شیعه چیست؟",
-          "fr": "Quelle est la règle si un homme tue deux personnes ou plus en fiqh chiite ?",
-          "id": "Apa hukum jika seorang laki-laki membunuh dua orang atau lebih dalam fikih Syiah?",
-          "ru": "Каково постановление, если один человек убьет двух или более людей в шиитском фикхе?",
-          "tr": "Şii fıkhında bir adam iki veya daha fazla kişiyi öldürürse hüküm nedir?",
-          "ur": "اگر ایک شخص دو یا زیادہ لوگوں کو قتل کرے تو شیعہ فقہ میں کیا حکم ہے؟",
-          "zh": "在什叶派教法中，如果一个人杀了两人或更多人，判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ইচ্ছাকৃত হত্যার বিষয়ে একটি শরঈ বিধান বর্ণনা করে, যখন একজন ব্যক্তি দুই বা ততোধিক মানুষকে হত্যা করেছে। এতে স্পষ্ট হয় যে এমন হত্যাকারী কিসাসের অধীন, এবং ইসলামী ফিকহে অবৈধ হত্যার গুরুত্ব প্রকাশ পায়।",
-          "de": "Dieser Hadith nennt eine rechtliche Regelung zum vorsätzlichen Töten, wenn eine Person zwei oder mehr Menschen getötet hat. Er legt fest, dass ein solcher Täter dem Qisas unterliegt, und verdeutlicht die Schwere des unrechtmäßigen Tötens in der islamischen Rechtslehre.",
-          "en": "This hadith states a legal ruling concerning intentional killing when one person has killed two or more people. It establishes that such a killer is subject to qisas, expressing the seriousness of unlawful killing within Islamic jurisprudence.",
-          "es": "Este hadiz establece una norma jurídica sobre el homicidio intencional cuando una persona ha matado a dos o más personas. Deja claro que ese homicida está sujeto al qisas y expresa la gravedad del asesinato ilícito dentro de la jurisprudencia islámica.",
-          "fa": "این حدیث حکمی فقهی درباره قتل عمد را بیان می‌کند، هنگامی که یک نفر دو یا چند نفر را کشته باشد. این نشان می‌دهد که چنین قاتلی مشمول قصاص است و سنگینی قتلِ ناروا را در فقه اسلامی آشکار می‌سازد.",
-          "fr": "Ce hadith énonce une règle juridique concernant l’homicide volontaire lorsqu’une personne a tué deux personnes ou plus. Il établit qu’un tel meurtrier est soumis au qisas, exprimant la gravité du meurtre illicite dans la jurisprudence islamique.",
-          "id": "Hadis ini menyatakan sebuah hukum syariat tentang pembunuhan sengaja ketika seseorang telah membunuh dua orang atau lebih. Ini menetapkan bahwa pembunuh seperti itu dikenai qisas, dan menunjukkan beratnya pembunuhan yang tidak sah dalam fikih Islam.",
-          "ru": "Этот хадис устанавливает правовое постановление относительно умышленного убийства, когда один человек убил двух или более людей. Он показывает, что такой убийца подлежит кисасу, выражая серьезность незаконного убийства в исламском праве.",
-          "tr": "Bu hadis, bir kişinin iki veya daha fazla insanı öldürmesi durumunda kasten öldürmeye dair bir fıkhî hükmü بیان eder. Böyle bir katilin kısasa tabi olduğunu ortaya koyar ve İslam fıkhında haksız öldürmenin ciddiyetini ifade eder.",
-          "ur": "یہ حدیث جان بوجھ کر قتل کے بارے میں ایک شرعی حکم بیان کرتی ہے، جب ایک شخص نے دو یا زیادہ لوگوں کو قتل کیا ہو۔ اس سے ثابت ہوتا ہے کہ ایسا قاتل قصاص کا مستحق ہے، اور اسلامی فقہ میں ناجائز قتل کی سنگینی واضح ہوتی ہے۔",
-          "zh": "这段圣训阐明了一项关于故意杀人的教法律例，即当一人杀了两人或更多人时。它表明这样的凶手应受报复刑（qisas），并体现了伊斯兰教法中非法杀人的严重性。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

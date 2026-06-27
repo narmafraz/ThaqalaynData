@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى عَلِيُّ بْنُ الْحَكَمِ عَنْ عَلِيِّ بْنِ أَبِي حَمْزَةَ عَنْ أَبِي الْحَسَنِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং আলী ইবনে আল-হাকাম আলী ইবনে আবী হামজাহ থেকে, তিনি আবু আল-হাসান عليه السلام থেকে روایت করেছেন, যিনি বললেন:",
-              "de": "Und ʿAlī ibn al-Ḥakam berichtete von ʿAlī ibn Abī Ḥamzah, von Abū al-Ḥasan عليه السلام, der sagte:",
-              "en": "And ʿAlī ibn al-Ḥakam narrated from ʿAlī ibn Abī Ḥamzah, from Abū al-Ḥasan عليه السلام, who said:",
-              "es": "Y ʿAlī ibn al-Ḥakam narró de ʿAlī ibn Abī Ḥamzah, de Abū al-Ḥasan عليه السلام, quien dijo:",
-              "fa": "و ʿAlī ibn al-Ḥakam از ʿAlī ibn Abī Ḥamzah، از ابوالحسن علیه السلام روایت کرده که فرمود:",
-              "fr": "Et ʿAlī ibn al-Ḥakam a rapporté de ʿAlī ibn Abī Ḥamzah, de Abū al-Ḥasan عليه السلام, qui a dit :",
-              "id": "Dan ʿAlī ibn al-Ḥakam meriwayatkan dari ʿAlī ibn Abī Ḥamzah, dari Abū al-Ḥasan علیه السلام, yang berkata:",
-              "ru": "И ʿAlī ибн аль-Хакам передал от ʿAlī ибн Абī Ḥamzah, от Абū аль-Ḥасан عليه السلام, который сказал:",
-              "tr": "Ve ʿAlī ibn al-Ḥakam, ʿAlī ibn Abī Ḥamzah'dan, o da Abū al-Ḥasan عليه السلام'dan rivayet etti ki şöyle dedi:",
-              "ur": "اور عَلِی ابن الحکم نے عَلِی ابن ابی حمزہ سے روایت کی، جو ابو الحسن علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "ʿAlīibnal-Ḥakam从ʿAlīibnAbīḤamzah传述，传自Abūal-Ḥasan عليهالسلام，他说："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنْ جَارٍ لِي هَلَكَ وَ تَرَكَ بَنَاتٍ فَقَالَ الْمَالُ لَهُنَّ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাকে আমার এক প্রতিবেশী সম্পর্কে জিজ্ঞাসা করলাম যিনি মারা গেছেন এবং মেয়েরা রেখে গেছেন, তিনি বললেন: \"সম্পদ তাদেরই।\"",
-              "de": "Ich fragte ihn nach einem Nachbarn von mir, der gestorben ist und Töchter hinterlassen hat, und er sagte: „Das Vermögen gehört ihnen.“",
-              "en": "I asked him about a neighbor of mine who died and left daughters, so he said: \"The wealth belongs to them.\"",
-              "es": "Le pregunté acerca de un vecino mío que murió y dejó hijas, y él dijo: \"La riqueza les pertenece a ellas.\"",
-              "fa": "از او درباره همسایه‌ام که فوت کرده و دخترانی به جا گذاشته بود پرسیدم، گفت: «مال متعلق به آنهاست.»",
-              "fr": "Je lui ai demandé au sujet d’un voisin à moi qui est décédé en laissant des filles, il a dit : « La richesse leur appartient. »",
-              "id": "Aku bertanya kepadanya tentang tetanggaku yang meninggal dan meninggalkan anak perempuan, lalu dia berkata: \"Harta itu milik mereka.\"",
-              "ru": "Я спросил его о моем соседе, который умер и оставил дочерей, и он сказал: «Богатство принадлежит им.»",
-              "tr": "Ben ona, ölen ve geride kızları kalan bir komşum hakkında sordum, dedi ki: \"Mülk onlara aittir.\"",
-              "ur": "میں نے اس سے اپنے ایک پڑوسی کے بارے میں پوچھا جو فوت ہو گیا اور بیٹیاں چھوڑ گیا، تو اس نے کہا: \"مال ان کا ہے۔\"",
-              "zh": "我问他关于我一位去世并留下女儿的邻居，他说：“财产属于她们。”"
-            },
             "word_end": 27,
             "word_start": 16
           }
@@ -101,23 +88,11 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْمَالُ": "the property or estate left behind",
-            "بَنَاتٍ": "daughters as inheriting offspring",
-            "هَلَكَ": "died or passed away"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "هَلَكَ",
+          "بَنَاتٍ",
+          "الْمَالُ"
+        ],
         "related_quran": [
           {
             "ref": "4:11",
@@ -128,32 +103,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি একজন পুরুষ মারা যান এবং শুধুমাত্র মেয়েরা রেখে যান, তাহলে তার সম্পদ কে উত্তরাধিকারী হবে?",
-          "de": "Wenn ein Mann stirbt und nur Töchter hinterlässt, wer erbt sein Vermögen?",
-          "en": "If a man dies and leaves only daughters, who inherits his wealth?",
-          "es": "Si un hombre muere y deja solo hijas, ¿quién hereda su riqueza?",
-          "fa": "اگر مردی بمیرد و فقط دخترانش باقی بمانند، وارث مال او کیست؟",
-          "fr": "Si un homme meurt en ne laissant que des filles, qui hérite de sa richesse ?",
-          "id": "Jika seorang pria meninggal dan hanya meninggalkan anak perempuan, siapa yang mewarisi hartanya?",
-          "ru": "Если мужчина умирает и оставляет только дочерей, кто наследует его имущество?",
-          "tr": "Bir adam ölür ve sadece kızları kalırsa, mal varlığını kim miras alır?",
-          "ur": "اگر کوئی مرد فوت ہو جائے اور صرف بیٹیاں چھوڑ جائے تو اس کا مال کون وارثت میں پاتا ہے؟",
-          "zh": "如果一名男子去世且只留下女儿，谁继承他的财产？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি আইনি বিধান প্রদান করে যখন একজন পুরুষ মারা যান এবং মেয়েরা রেখে যান। ইমাম عليه السلام বলেন যে সম্পদ তাদেরই, যা তাদের উত্তরাধিকারী সম্পত্তির অধিকার নির্দেশ করে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bezüglich der Erbschaft, wenn ein verstorbener Mann Töchter hinterlässt. Der Imam عليه السلام erklärt, dass das Vermögen ihnen gehört, was ihren Anspruch auf das Erbe anzeigt.",
-          "en": "This hadith gives a legal ruling concerning inheritance when a deceased man leaves behind daughters. The Imam عليه السلام states that the estate belongs to them, indicating their entitlement to the inherited wealth in this case.",
-          "es": "Este hadiz da una regla legal sobre la herencia cuando un hombre fallece y deja hijas. El Imam عليه السلام afirma que la herencia les pertenece a ellas, indicando su derecho a la riqueza heredada en este caso.",
-          "fa": "این حدیث حکم شرعی مربوط به ارث را بیان می‌کند که وقتی مردی فوت می‌کند و دخترانی به جا می‌گذارد، مال به آنها تعلق دارد. امام علیه السلام بیان می‌کند که اموال به آنها تعلق دارد و حق آنها را نشان می‌دهد.",
-          "fr": "Ce hadith donne une règle juridique concernant l’héritage lorsqu’un homme décède en laissant des filles. L’Imam عليه السلام déclare que la richesse leur appartient, indiquant leur droit à l’héritage dans ce cas.",
-          "id": "Hadis ini memberikan ketetapan hukum mengenai warisan ketika seorang pria meninggal dan meninggalkan anak perempuan. Imam علیه السلام menyatakan bahwa harta tersebut milik mereka, menunjukkan hak mereka atas warisan tersebut.",
-          "ru": "Этот хадис даёт юридическое постановление о наследовании, когда умерший мужчина оставляет дочерей. Имам عليه السلام утверждает, что имущество принадлежит им, указывая на их право на наследство в этом случае.",
-          "tr": "Bu hadis, bir kişinin vefat edip geride kızları bıraktığında mirasın onlara ait olduğuna dair hukuki hükmü verir. İmam عليه السلام, mal varlığının onlara ait olduğunu belirterek haklarını ifade eder.",
-          "ur": "یہ حدیث اس قانونی حکم کو بیان کرتی ہے کہ جب کوئی مرد فوت ہو جائے اور بیٹیاں چھوڑ جائے تو وراثت کا مال ان کی ملکیت ہوتا ہے۔ امام علیہ السلام فرماتے ہیں کہ جائیداد ان کی ہے، جو ان کے حق کو ظاہر کرتا ہے۔",
-          "zh": "此圣训阐述了当一名男子去世且留下女儿时的继承法律判决。伊玛目 عليهالسلام指出财产属于她们，表明她们对此继承财富的权利。"
-        },
         "tags": [
           "jurisprudence",
           "family",

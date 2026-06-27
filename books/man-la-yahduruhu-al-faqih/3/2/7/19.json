@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ عَلَيْهِ السَّلَامُ :",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তিনি, তাঁর উপর শান্তি বর্ষিত হোক, বললেন:",
-              "de": "Und er, Friede sei mit ihm, sagte:",
-              "en": "And he, peace be upon him, said:",
-              "es": "Y él, la paz sea con él, dijo:",
-              "fa": "و او، سلام بر او باد، گفت:",
-              "fr": "Et lui, que la paix soit sur lui, a dit :",
-              "id": "Dan beliau, kesejahteraan atasnya, berkata:",
-              "ru": "И он, мир ему, сказал:",
-              "tr": "Ve o, selam onun üzerine olsun, dedi ki:",
-              "ur": "اور انہوں نے، علیہ السلام، فرمایا:",
-              "zh": "他平安降临他说："
-            },
             "word_end": 5,
             "word_start": 0
           },
           {
             "arabic_text": "دَخَلَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ عَلَى عَائِشَةَ وَ هِيَ تُحْصِي الْخُبْزَ فَقَالَ \"يَا حُمَيْرَاءُ لَا تُحْصِينَ فَيُحْصَى عَلَيْكِ\".",
             "chunk_type": "body",
-            "translations": {
-              "bn": "رسول اللہ، صلی اللہ علیہ وآلہ وسلم، عائشার پاس داخل ہوئے جب وہ روٹی গুণছিলেন، اور فرمایا: \"اے حمیرا، گুণো نہ، کہیں تم پر گোনা نہ جائے۔\"",
-              "de": "Der Gesandte Allahs, Friede sei mit ihm und seiner Familie, trat zu Aisha, während sie das Brot zählte, und sagte: „O Humayra, zähle nicht, damit es dir nicht angerechnet wird.“",
-              "en": "The Messenger of Allah, peace be upon him and his family, entered upon Aisha while she was counting the bread, and he said: \"O Humayra', do not count, lest it be counted against you.\"",
-              "es": "El Mensajero de Allah, la paz sea con él y su familia, entró donde Aisha mientras ella contaba el pan, y dijo: \"Oh Humayra, no cuentes, no sea que se cuente en tu contra.\"",
-              "fa": "فرستاده خدا، سلام بر او و خاندانش، وارد خانه عایشه شد در حالی که او نان‌ها را می‌شمرد و گفت: «ای حمیرا، نشمار، مبادا بر تو شمرده شود.»",
-              "fr": "Le Messager d'Allah, que la paix soit sur lui et sa famille, entra chez Aïcha alors qu'elle comptait le pain, et il dit : « Ô Humayra, ne compte pas, de peur que cela ne soit compté contre toi. »",
-              "id": "Rasulullah, shalallahu 'alaihi wa aalihi, masuk menemui Aisyah saat dia sedang menghitung roti, lalu beliau berkata: \"Wahai Humayra, jangan menghitung, nanti dihitung atasmu.\"",
-              "ru": "Посланник Аллаха, мир ему и его семье, вошёл к Айше, когда она считала хлеб, и сказал: «О Хумайра, не считай, чтобы это не было учтено против тебя.»",
-              "tr": "Allah'ın Resulü, selam ve salat onun üzerine ve ailesine olsun, Aişe'nin yanına girdiğinde o ekmekleri sayıyordu ve dedi ki: \"Ey Humayra, sayma, yoksa sana sayılır.\"",
-              "ur": "رسول اللہ، صلی اللہ علیہ وآلہ وسلم، عائشہ کے پاس داخل ہوئے جب وہ روٹی گن رہی تھیں، اور فرمایا: \"اے حمیرا، مت گنو، کہیں تم پر گنا نہ جائے۔\"",
-              "zh": "安拉使者平安降临他和他的家人进入了艾莎那里当时她正在数面包他说：“哦胡迈拉不要数以免被算在你头上。”"
-            },
             "word_end": 26,
             "word_start": 5
           }
@@ -81,25 +68,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْخُبْزَ": "bread, referring here to stored food or provision",
-            "تُحْصِي": "she was counting or enumerating",
-            "حُمَيْرَاءُ": "a form of address used here in the narration",
-            "رَسُولُ اللَّهِ": "The Messenger of Allah, namely the Prophet صلى الله عليه وآله",
-            "فَيُحْصَى عَلَيْكِ": "then it will be counted against you, meaning one is taken to account for such behavior"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رَسُولُ اللَّهِ",
+          "تُحْصِي",
+          "الْخُبْزَ",
+          "حُمَيْرَاءُ",
+          "فَيُحْصَى عَلَيْكِ"
+        ],
         "related_quran": [
           {
             "ref": "2:245",
@@ -114,32 +89,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "নবী صلى الله عليه وآله খাবার ও জিনিসপত্র গণনা সম্পর্কে কী বলেছিলেন?",
-          "de": "Was sagte der Prophet صلى الله عليه وآله über das Zählen von Essen und Vorräten?",
-          "en": "What did the Prophet صلى الله عليه وآله say about counting food and provisions?",
-          "es": "¿Qué dijo el Profeta صلى الله عليه وآله sobre contar la comida y las provisiones?",
-          "fa": "پیامبر صلى الله عليه وآله درباره شمارش غذا و مایحتاج چه گفت؟",
-          "fr": "Qu'a dit le Prophète صلى الله عليه وآله à propos du comptage de la nourriture et des provisions ?",
-          "id": "Apa yang Rasul صلى الله عليه وآله katakan tentang menghitung makanan dan rezeki?",
-          "ru": "Что сказал Пророк صلى الله عليه وآله о подсчёте пищи и запасов?",
-          "tr": "Peygamber صلى الله عليه وآله yiyecek ve erzak sayımı hakkında ne söyledi?",
-          "ur": "نبی صلی اللہ علیہ وآلہ وسلم نے کھانے اور رزق کی گنتی کے بارے میں کیا فرمایا؟",
-          "zh": "先知 صلى الله عليه وآله 关于食物和供给的计数说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস অতিরিক্ত গণনা এবং উদ্বিগ্ন সঞ্চয়ের বিরুদ্ধে নৈতিক শিক্ষা দেয়। এটি আস্থা, উদারতা এবং রিযকের ব্যাপারে কৃপণতা এড়াতে উৎসাহিত করে।",
-          "de": "Dieser Hadith lehrt eine moralische Lektion gegen übermäßiges Zählen und ängstliches Horten von Vorräten. Er fördert Vertrauen, Großzügigkeit und vermeidet eine geizige Haltung gegenüber dem Lebensunterhalt.",
-          "en": "This hadith teaches a moral lesson against excessive counting and anxious hoarding of provision. It encourages trust, generosity, and avoidance of a miserly attitude regarding sustenance.",
-          "es": "Este hadiz enseña una lección moral contra contar en exceso y acumular provisiones con ansiedad. Fomenta la confianza, la generosidad y evitar una actitud tacaña respecto al sustento.",
-          "fa": "این حدیث درس اخلاقی در برابر شمارش بیش از حد و انبار کردن نگران‌کننده روزی می‌آموزد. اعتماد، سخاوت و اجتناب از خساست در مورد روزی را تشویق می‌کند.",
-          "fr": "Ce hadith enseigne une leçon morale contre le comptage excessif et l'accumulation anxieuse des provisions. Il encourage la confiance, la générosité et l'évitement d'une attitude avare concernant la subsistance.",
-          "id": "Hadis ini mengajarkan pelajaran moral untuk tidak menghitung berlebihan dan menimbun rezeki dengan cemas. Ini mendorong kepercayaan, kemurahan hati, dan menghindari sikap kikir terhadap rezeki.",
-          "ru": "Этот хадис даёт нравственный урок против чрезмерного подсчёта и тревожного накопления провизии. Он поощряет доверие, щедрость и избегание скупого отношения к средствам к существованию.",
-          "tr": "Bu hadis, aşırı sayma ve maddi birikim yapma konusunda ahlaki bir ders verir. Güveni, cömertliği ve rızık konusunda cimrilikten kaçınmayı teşvik eder.",
-          "ur": "یہ حدیث حد سے زیادہ گننے اور رزق کو بے جا جمع کرنے کے خلاف اخلاقی سبق دیتی ہے۔ یہ بھروسہ، سخاوت، اور رزق کے حوالے سے کنجوسی سے بچنے کی ترغیب دیتی ہے۔",
-          "zh": "这段圣训教导我们不要过度计数和焦虑囤积供给。它鼓励信任、慷慨，并避免对生活必需品吝啬的态度。"
-        },
         "tags": [
           "ethics",
           "economy",

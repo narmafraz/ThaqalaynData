@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَلِيُّ بْنُ مَهْزِيَارَ عَنْ فَضَالَةَ عَنْ أَبَانِ بْنِ عُثْمَانَ عَنْ أَبِي الْعَبَّاسِ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী ইবন মাহযিয়ার, ফাদালাহ থেকে, আবান ইবন উসমান থেকে, আবি আল-আব্বাস থেকে, আবি আবদিল্লাহ عليه السلام থেকে বর্ণনা করেন, তিনি বলেছেন:",
-              "de": "ʿAlī ibn Mahziyār, von Faḍālah, von Abān ibn ʿUthmān, von Abī al-ʿAbbās, von Abī ʿAbdillāh عليه السلام, der sagte:",
-              "en": "ʿAlī ibn Mahziyār, from Faḍālah, from Abān ibn ʿUthmān, from Abī al-ʿAbbās, from Abī ʿAbdillāh عليه السلام, who said:",
-              "es": "ʿAlī ibn Mahziyār, de Faḍālah, de Abān ibn ʿUthmān, de Abī al-ʿAbbās, de Abī ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "علی بن مهزیار، از فضاله، از ابان بن عثمان، از ابی‌العباس، از ابی‌عبدالله علیه‌السلام، که فرمود:",
-              "fr": "ʿAlī ibn Mahziyār, d’après Faḍālah, d’après Abān ibn ʿUthmān, d’après Abī al-ʿAbbās, d’après Abī ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "ʿAli ibn Mahziyar, dari Fadhalah, dari Aban ibn ʿUthman, dari Abi al-ʿAbbas, dari Abi ʿAbdillah عليه السلام, yang berkata:",
-              "ru": "ʿАли ибн Махзияр, от Фадалах, от Абана ибн ʿУсмана, от Аби аль-ʿАббаса, от Аби ʿАбдуллаха عليه السلام, который сказал:",
-              "tr": "Ali ibn Mehziyar, Fadalah'dan, Aban ibn Osman'dan, Ebu'l-Abbas'tan, Ebu Abdullah عليه السلام'dan rivayet etti ki şöyle dedi:",
-              "ur": "علی بن مہزیار، فضالہ سے، ابان بن عثمان سے، ابی العباس سے، ابی عبداللہ علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "阿里·伊本·马赫齐亚尔，传自法达拉，传自阿班·伊本·奥斯曼，传自阿比·阿巴斯，传自阿比·阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "أَدْنَى مَا يُجْزِي فِي الْجُمُعَةِ سَبْعَةٌ أَوْ خَمْسَةٌ أَدْنَاهُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "জুমু‘আর জন্য ন্যূনতম যথেষ্ট সংখ্যা হলো সাত, অথবা সর্বনিম্ন পাঁচ।",
-              "de": "Das Minimum, das für das Jumuʿah ausreicht, sind sieben, oder mindestens fünf.",
-              "en": "The minimum that suffices for Jumuʿah is seven, or five at the lowest.",
-              "es": "Lo mínimo que basta para el Jumuʿah es siete, o cinco como mínimo.",
-              "fa": "کمترین چیزی که برای جمعه کفایت می‌کند هفت نفر است، یا در پایین‌ترین حد پنج نفر.",
-              "fr": "Le minimum qui suffit pour le Jumuʿah est de sept, ou de cinq au plus bas.",
-              "id": "Batas minimum yang mencukupi untuk Jumuʿah adalah tujuh, atau paling sedikit lima.",
-              "ru": "Минимум, достаточный для Джумуʿа, — семь, или в крайнем случае пять.",
-              "tr": "Cuma için yeterli olan en az sayı yedi, ya da en aşağı beştir.",
-              "ur": "جمعہ کے لیے کم از کم جو کافی ہے وہ سات ہیں، یا کم سے کم پانچ۔",
-              "zh": "聚礼礼拜最低足够的人数是七人，或者至少五人。"
-            },
             "word_end": 28,
             "word_start": 19
           },
           {
             "arabic_text": "قَالَ مُحَمَّدُ بْنُ الْحَسَنِ: لَيْسَ بَيْنَ هَذَيْنِ الْخَبَرَيْنِ تَنَاقُضٌ، لِأَنَّ الْفَرْضَ يَتَعَلَّقُ بِالْعَدَدِ إِذَا كَانُوا سَبْعَةً، وَإِذَا كَانَ الْعَدَدُ خَمْسَةً كَانَ ذَلِكَ مُسْتَحَبًّا مَنْدُوبًا إِلَيْهِ وَلَمْ يَكُنْ فَرْضًا وَاجِبًا، فَإِنْ نَقَصَ عَنِ الْخَمْسَةِ فَلَا تَنْعَقِدُ الْجُمُعَةُ أَصْلًا، وَالَّذِي يَدُلُّ عَلَى ذَلِكَ",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন হাসান বলেছেন: এই দুই বর্ণনার মধ্যে কোনো বিরোধ নেই, কারণ যখন তারা সাতজন হয় তখন ফরজতা সংখ্যার সঙ্গে সম্পর্কিত; আর যখন সংখ্যা পাঁচ হয়, তখন তা মুস্তাহাব ও উৎসাহিত বিষয়, এবং তা বাধ্যতামূলক ফরজ নয়। যদি তা পাঁচের কম হয়, তবে জুমু‘আ আদৌ অনুষ্ঠিত হয় না। এর প্রমাণ হলো:",
-              "de": "Muḥammad ibn al-Ḥasan sagte: Zwischen diesen beiden Berichten besteht kein Widerspruch, denn die Verpflichtung ist an die Zahl gebunden, wenn sie sieben sind; und wenn die Zahl fünf ist, dann ist dies empfohlen und erwünscht, und es ist keine verpflichtende Pflicht. Wenn es weniger als fünf sind, dann kommt das Jumuʿah überhaupt nicht zustande. Was darauf hinweist, ist:",
-              "en": "Muḥammad ibn al-Ḥasan said: There is no contradiction between these two reports, because obligation is connected to the number when they are seven; and when the number is five, that is recommended and encouraged, and it is not an obligatory duty. If it is less than five, then the Jumuʿah does not take place at all. That which indicates this is:",
-              "es": "Muḥammad ibn al-Ḥasan dijo: No hay contradicción entre estos dos informes, porque la obligación está vinculada al número cuando son siete; y cuando el número es cinco, eso es algo recomendado y alentado, y no es un deber obligatorio. Si es menos de cinco, entonces el Jumuʿah no se celebra en absoluto. Lo que indica esto es:",
-              "fa": "محمد بن حسن گفت: میان این دو خبر تناقضی نیست، زیرا وجوب به عدد مربوط می‌شود هنگامی که آنان هفت نفر باشند؛ و هنگامی که عدد پنج باشد، آن مستحب و مورد ترغیب است و واجبِ لازم نیست. پس اگر از پنج کمتر باشد، جمعه اصلاً منعقد نمی‌شود. آنچه بر این دلالت می‌کند این است:",
-              "fr": "Muḥammad ibn al-Ḥasan a dit : Il n’y a pas de contradiction entre ces deux rapports, car l’obligation est liée au nombre lorsqu’ils sont sept ; et lorsque le nombre est de cinq, cela est recommandé et encouragé, et ce n’est pas une obligation. S’il y en a moins de cinq, alors le Jumuʿah ne se tient pas du tout. Ce qui l’indique est :",
-              "id": "Muḥammad ibn al-Ḥasan berkata: Tidak ada pertentangan antara dua riwayat ini, karena kewajiban terkait dengan jumlah ketika mereka berjumlah tujuh; dan ketika jumlahnya lima, itu adalah sesuatu yang dianjurkan dan didorong, bukan kewajiban yang wajib. Jika kurang dari lima, maka Jumuʿah sama sekali tidak terlaksana. Yang menunjukkan hal itu adalah:",
-              "ru": "Мухаммад ибн аль-Хасан сказал: Между этими двумя сообщениями нет противоречия, потому что обязанность связана с числом, когда их семь; а когда число пять, это является желательным и поощряемым, и не является обязательной обязанностью. Если их меньше пяти, то Джумуʿа вообще не совершается. То, что указывает на это, таково:",
-              "tr": "Muhammed ibn Hasan dedi ki: Bu iki rivayet arasında bir çelişki yoktur; çünkü sayı yedi olduğunda farz o sayıya bağlıdır; sayı beş olduğunda ise bu müstehap ve teşvik edilen bir şeydir, farz ve vacip değildir. Eğer beşten az olursa, Cuma hiç gerçekleşmez. Buna delalet eden şudur:",
-              "ur": "محمد بن حسن نے فرمایا: ان دونوں روایتوں میں کوئی تضاد نہیں، کیونکہ جب وہ سات ہوں تو فرض تعداد سے متعلق ہوتا ہے؛ اور جب تعداد پانچ ہو تو وہ مستحب اور اس کی ترغیب دی گئی چیز ہے، اور واجب فرض نہیں ہوتا۔ اگر یہ پانچ سے کم ہوں تو جمعہ سرے سے منعقد ہی نہیں ہوتا۔ اس پر دلالت کرنے والی بات یہ ہے:",
-              "zh": "穆罕默德·伊本·哈桑说：这两则传述之间没有矛盾，因为当人数为七时，义务与人数相关；而当人数为五时，那是被推荐和鼓励的，并不是必须履行的义务。如果少于五人，那么聚礼礼拜根本不会成立。对此的依据是："
-            },
             "word_end": 69,
             "word_start": 28
           }
@@ -133,60 +107,22 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْجُمُعَةِ": "the Friday congregational salat (prayer)",
-            "الْعَدَدِ": "the number of participants",
-            "الْفَرْضَ": "that which is obligatory and binding",
-            "تَنْعَقِدُ": "is validly established or convened",
-            "مَنْدُوبًا": "encouraged as a meritorious act",
-            "مُسْتَحَبًّا": "recommended rather than obligatory",
-            "وَاجِبًا": "legally obligatory",
-            "يُجْزِي": "is sufficient or valid for fulfilling the requirement"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْجُمُعَةِ",
+          "يُجْزِي",
+          "الْفَرْضَ",
+          "الْعَدَدِ",
+          "مُسْتَحَبًّا",
+          "مَنْدُوبًا",
+          "وَاجِبًا",
+          "تَنْعَقِدُ"
+        ],
         "related_quran": [
           {
             "ref": "62:9",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে salat al-Jumuʿah-এর জন্য ন্যূনতম কতজন প্রয়োজন?",
-          "de": "Wie viele Personen sind im schiitischen Hadith mindestens für salat al-Jumuʿah erforderlich?",
-          "en": "What is the minimum number required for salat al-Jumuʿah in Shia hadith?",
-          "es": "¿Cuál es el número mínimo requerido para salat al-Jumuʿah en el hadiz chií?",
-          "fa": "در حدیث شیعه حداقل تعداد لازم برای salat al-Jumuʿah چند نفر است؟",
-          "fr": "Quel est le nombre minimum requis pour salat al-Jumuʿah dans les hadiths chiites ?",
-          "id": "Berapa jumlah minimum yang diperlukan untuk salat al-Jumuʿah dalam hadis Syiah?",
-          "ru": "Какое минимальное число требуется для salat al-Jumuʿah в шиитском хадисе?",
-          "tr": "Şii hadiste salat al-Jumuʿah için gereken en az kişi sayısı kaçtır?",
-          "ur": "شیعہ حدیث میں salat al-Jumuʿah کے لیے کم از کم کتنے افراد درکار ہیں؟",
-          "zh": "什叶派圣训中salat al-Jumuʿah所需的最低人数是多少？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনায় জুমু‘আর নামাজের জন্য প্রয়োজনীয় ন্যূনতম সংখ্যা আলোচনা করা হয়েছে এবং দুটি সীমা উল্লেখ করা হয়েছে: ফরজতার জন্য সাত, এবং মুস্তাহাব বৈধতার জন্য পাঁচ। আল-শাইখ ব্যাখ্যা করেন যে বর্ণনাগুলোকে ফরজ ও কেবল মুস্তাহাবের মধ্যে পার্থক্য করে সমন্বয় করা হয়েছে, আর পাঁচের কম হলে জুমু‘আ আদৌ প্রতিষ্ঠিত হয় না।",
-          "de": "Dieser Bericht behandelt die Mindestzahl, die für das Freitagsgebet erforderlich ist, und nennt zwei Schwellen: sieben für die Verpflichtung und fünf für die empfohlene Gültigkeit. Al-Shaykh erklärt, dass die Berichte dadurch versöhnt werden, dass zwischen dem Verpflichtenden und dem bloß Empfohlenen unterschieden wird, während weniger als fünf Jumuʿah überhaupt nicht begründen.",
-          "en": "This report discusses the minimum number required for the Friday prayer and presents two thresholds: seven for obligation and five for recommended validity. Al-Shaykh explains that the reports are reconciled by distinguishing between what is obligatory and what is merely recommended, while fewer than five does not establish Jumuʿah at all.",
-          "es": "Este relato trata sobre el número mínimo requerido para la oración del viernes y presenta dos umbrales: siete para la obligación y cinco para la validez recomendada. Al-Shaykh explica que los informes se concilian distinguiendo entre lo obligatorio y lo meramente recomendado, mientras que menos de cinco no establece el Jumuʿah en absoluto.",
-          "fa": "این روایت حداقل شمار لازم برای نماز جمعه را بیان می‌کند و دو آستانه را مطرح می‌سازد: هفت نفر برای وجوب، و پنج نفر برای صحتِ مستحب. شیخ این روایات را با تفکیک میان آنچه واجب است و آنچه تنها مستحب است جمع می‌کند، در حالی که کمتر از پنج نفر اصلاً جمعه را برپا نمی‌سازد.",
-          "fr": "Ce récit traite du nombre minimum requis pour la prière du vendredi et présente deux seuils : sept pour l’obligation et cinq pour la validité recommandée. Al-Shaykh explique que les rapports sont conciliés en distinguant ce qui est obligatoire de ce qui est seulement recommandé, tandis que moins de cinq n’établit pas du tout le Jumuʿah.",
-          "id": "Riwayat ini membahas jumlah minimum yang diperlukan untuk salat Jumuʿah dan mengemukakan dua batas: tujuh untuk kewajiban, dan lima untuk keabsahan yang dianjurkan. Al-Shaykh menjelaskan bahwa riwayat-riwayat itu dipadukan dengan membedakan antara yang wajib dan yang sekadar dianjurkan, sedangkan kurang dari lima tidak menetapkan Jumuʿah sama sekali.",
-          "ru": "Этот хадис обсуждает минимальное число, необходимое для пятничной молитвы, и приводит два порога: семь для обязательности и пять для рекомендованной действительности. Аш-Шейх объясняет, что сообщения согласуются путем различения между обязательным и лишь желательным, тогда как менее пяти вовсе не устанавливает Джумуʿа.",
-          "tr": "Bu rivayet, cuma namazı için gerekli asgari sayıyı açıklar ve iki eşik ortaya koyar: vaciplik için yedi, müstehap geçerlilik için beş. Şeyh, rivayetleri vacip olan ile sadece müstehap olanı ayırarak uzlaştırır; beşten azı ise Cuma’yı hiç kurmaz.",
-          "ur": "یہ روایت جمعہ کی نماز کے لیے درکار کم از کم تعداد بیان کرتی ہے اور دو حدیں پیش کرتی ہے: وجوب کے لیے سات، اور مستحب صحت کے لیے پانچ۔ الشیخ ان روایات میں تطبیق اس طرح کرتے ہیں کہ واجب اور محض مستحب کے درمیان فرق کیا جائے، جبکہ پانچ سے کم تعداد جمعہ کو سرے سے ثابت نہیں کرتی۔",
-          "zh": "这则传述讨论了举行周五礼拜所需的最低人数，并提出两个门槛：七人对应义务，五人对应被推荐的有效性。阿什-谢赫解释说，这些传述可以通过区分义务与仅仅推荐来调和，而少于五人则根本不能成立聚礼礼拜。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

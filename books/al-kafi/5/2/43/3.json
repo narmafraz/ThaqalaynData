@@ -14,6 +14,126 @@
       "up": "/books/al-kafi:5:2:43"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ سَهْلِ بْنِ زِيَادٍ عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ أَبِي نَصْرٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 15,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُ أَبَا الْحَسَنِ ( عَلَيْهِ السَّلَامُ ) عَنِ الرَّجُلِ يَكُونُ فِي يَدِهِ مَالٌ لِأَيْتَامٍ فَيَحْتَاجُ إِلَيْهِ فَيَمُدُّ يَدَهُ فَيَأْخُذُهُ وَ يَنْوِي أَنْ يَرُدَّهُ فَقَالَ لَا يَنْبَغِي لَهُ أَنْ يَأْكُلَ إِلَّا الْقَصْدَ لَا يُسْرِفُ",
+            "chunk_type": "body",
+            "word_end": 48,
+            "word_start": 15
+          },
+          {
+            "arabic_text": "فَإِنْ كَانَ مِنْ نِيَّتِهِ أَنْ لَا يَرُدَّهُ عَلَيْهِمْ فَهُوَ بِالْمَنْزِلِ الَّذِي قَالَ اللَّهُ عَزَّ وَ جَلَّ",
+            "chunk_type": "body",
+            "word_end": 64,
+            "word_start": 48
+          },
+          {
+            "arabic_text": "إِنَّ الَّذِينَ يَأْكُلُونَ أَمْوالَ الْيَتامى ظُلْمَاً",
+            "chunk_type": "quran_quote",
+            "word_end": 70,
+            "word_start": 64
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 8,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "سَهْلِ بْنِ زِيَادٍ",
+              "name_en": "Sahl ibn Ziyad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 39,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدِ بْنِ أَبِي نَصْرٍ",
+              "name_en": "Ahmad ibn Muhammad ibn Abi Nasr",
+              "position": 3,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الْقَصْدَ",
+          "يَسْرِفُ",
+          "أَمْوالَ الْيَتامى",
+          "ظُلْماً"
+        ],
+        "related_quran": [
+          {
+            "ref": "4:10",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "2:182",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "90:15",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "economy",
+          "ethics"
+        ],
+        "topics": [
+          "orphans",
+          "financial_law",
+          "rights_of_others"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف على المشهور   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (19/95)"
       ],
@@ -83,7 +203,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:2:43:3",

@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ عَلِيِّ بْنِ مَحْبُوبٍ عَنِ الْعُبَيْدِيِّ عَنْ سُلَيْمَانَ بْنِ جَعْفَرٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন ‘আলি ইবন মাহবুব, আল-‘উবাইদি থেকে, সুলাইমান ইবন জা‘ফর থেকে, তিনি বলেন:",
-              "de": "Muhammad ibn 'Ali ibn Mahbub, von al-'Ubaydi, von Sulayman ibn Ja'far, sagte:",
-              "en": "Muhammad ibn 'Ali ibn Mahbub, from al-'Ubaydi, from Sulayman ibn Ja'far, said:",
-              "es": "Muhammad ibn 'Ali ibn Mahbub, de al-'Ubaydi, de Sulayman ibn Ja'far, dijo:",
-              "fa": "محمد بن علی بن محبوب، از العُبیدی، از سلیمان بن جعفر، گفت:",
-              "fr": "Muhammad ibn 'Ali ibn Mahbub, d'al-'Ubaydi, de Sulayman ibn Ja'far, a dit :",
-              "id": "Muhammad ibn 'Ali ibn Mahbub, dari al-'Ubaydi, dari Sulayman ibn Ja'far, berkata:",
-              "ru": "Мухаммад ибн 'Али ибн Махбуб, от аль-'Убайди, от Сулеймана ибн Джа'фара, сказал:",
-              "tr": "Muhammed ibn Ali ibn Mahbub, el-Ubeydi'den, Süleyman ibn Ca'fer'den, dedi ki:",
-              "ur": "محمد بن علی بن محبوب، العُبیدی سے، سلیمان بن جعفر سے، انہوں نے کہا:",
-              "zh": "穆罕默德·伊本·阿里·伊本·马赫布卜，传自al-'Ubaydi，传自苏莱曼·伊本·贾法尔，说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ الْفَقِيهُ عَلَيْهِ السَّلَامُ آخِرُ وَقْتِ الْعَصْرِ سِتَّةُ أَقْدَامٍ وَنِصْفٌ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "ফকীহ, তাঁর প্রতি শান্তি বর্ষিত হোক, বলেছেন: আসর সালাতের সময়ের শেষ হলো ছয় ও অর্ধ ফুট।",
-              "de": "Der Faqih, Friede sei mit ihm, sagte: Das Ende der Zeit des 'asr-Gebets beträgt sechseinhalb Fuß.",
-              "en": "The Faqih, peace be upon him, said: The end of the time of the 'asr prayer is six and a half feet.",
-              "es": "El Faqih, la paz sea con él, dijo: El final del tiempo de la oración del 'asr es de seis pies y medio.",
-              "fa": "فقیه، علیه‌السلام، فرمود: پایان وقت نماز عصر شش و نیم قدم است.",
-              "fr": "Le Faqih, que la paix soit sur lui, a dit : La fin du temps de la prière du 'asr est de six pieds et demi.",
-              "id": "Faqih, peace be upon him, bersabda: Akhir waktu salat 'asr adalah enam setengah kaki.",
-              "ru": "Факих, мир ему, сказал: Конец времени молитвы 'аср — шесть с половиной футов.",
-              "tr": "Fakih, aleyhisselam, şöyle buyurdu: İkindi namazının vaktinin sonu altı buçuk arşındır.",
-              "ur": "فقیہ، علیہ السلام، نے فرمایا: عصر کی نماز کے وقت کا اختتام ساڑھے چھ ہاتھ ہے۔",
-              "zh": "法基赫，愿主赐他平安，说：晡礼时间的结束是六英尺半。"
-            },
             "word_end": 22,
             "word_start": 12
           }
@@ -84,27 +71,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "آخِرُ": "the final limit or end point",
-            "أَقْدَامٍ": "feet; a classical unit used here for determining prayer time",
-            "الْعَصْرِ": "the 'asr prayer",
-            "الْفَقِيهُ": "the Imam referred to as the jurist",
-            "سِتَّةُ": "six",
-            "وَقْتِ": "the prescribed time of an act of worship",
-            "وَنِصْفٌ": "and a half"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْفَقِيهُ",
+          "آخِرُ",
+          "وَقْتِ",
+          "الْعَصْرِ",
+          "سِتَّةُ",
+          "أَقْدَامٍ",
+          "وَنِصْفٌ"
+        ],
         "related_quran": [
           {
             "ref": "17:78",
@@ -119,32 +94,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী আসর সালাতের শেষ সময় কী?",
-          "de": "Was ist nach diesem Hadith die Endzeit des 'asr-Gebets?",
-          "en": "What is the end time of the 'asr prayer according to this hadith?",
-          "es": "Según este hadiz, ¿cuál es el momento final de la oración del 'asr?",
-          "fa": "بر اساس این حدیث، پایان وقت نماز عصر چیست؟",
-          "fr": "Selon ce hadith, quelle est la fin du temps de la prière du 'asr ?",
-          "id": "Menurut hadis ini, apa waktu akhir salat 'asr?",
-          "ru": "Каково, согласно этому хадису, конечное время молитвы 'аср?",
-          "tr": "Bu hadise göre ikindi namazının bitiş vakti nedir?",
-          "ur": "اس حدیث کے مطابق عصر کی نماز کا آخری وقت کیا ہے؟",
-          "zh": "根据这段圣训，晡礼的结束时间是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি আসর সালাতের সর্বশেষ সময় সম্পর্কে একটি ফিকহি বিধান দেয়। এতে ছায়ার দৈর্ঘ্যের শাস্ত্রীয় পরিমাপের মাধ্যমে এর সময়ের শেষ নির্ধারণ করা হয়েছে, যা ফিকহে সালাতের সময়সমূহ পালন করার জন্য একটি নির্ভুল কাঠামো নির্দেশ করে।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung über die späteste Zeit des 'asr-Gebets. Er definiert das Ende seiner Zeit anhand des klassischen Maßes der Schattenlänge und zeigt damit einen genauen Rahmen für die Einhaltung der salat-Zeiten im Fiqh auf.",
-          "en": "This hadith gives a legal ruling concerning the latest time for the 'asr prayer. It defines the end of its time using the classical measure of shadow-length, indicating a precise framework for observing salat times in fiqh.",
-          "es": "Este hadiz establece una norma jurídica sobre el último momento de la oración del 'asr. Define el final de su tiempo mediante la medida clásica de la longitud de la sombra, indicando un marco preciso para observar los tiempos de salat en el fiqh.",
-          "fa": "این حدیث حکمی فقهی درباره آخرین وقت نماز عصر بیان می‌کند. در آن، پایان وقت با معیار کلاسیکِ طول سایه تعیین شده و چارچوبی دقیق برای رعایت اوقات salat در فقه ارائه می‌شود.",
-          "fr": "Ce hadith énonce une règle juridique concernant le dernier moment de la prière du 'asr. Il définit la fin de son temps à l’aide de la mesure classique de la longueur de l’ombre, indiquant un cadre précis pour observer les temps de salat en fiqh.",
-          "id": "Hadis ini memberikan حكم hukum tentang waktu terakhir salat 'asr. Hadis ini menetapkan akhir waktunya dengan ukuran klasik panjang bayangan, yang menunjukkan kerangka yang tepat untuk menjaga waktu salat dalam fikih.",
-          "ru": "Этот хадис содержит правовое постановление относительно последнего времени молитвы 'аср. Он определяет конец её времени с помощью классической меры длины тени, указывая точную основу для соблюдения времен salat в фикхе.",
-          "tr": "Bu hadis, ikindi namazının en son vaktine dair fıkhî bir hüküm verir. Onun vaktinin sonunu gölge uzunluğunun klasik ölçüsüyle belirleyerek, fıkıhta salat vakitlerini gözetmek için kesin bir çerçeve ortaya koyar.",
-          "ur": "یہ حدیث عصر کی نماز کے آخری وقت کے بارے میں شرعی حکم بیان کرتی ہے۔ اس میں سایے کی لمبائی کے کلاسیکی پیمانے کے ذریعے اس کے وقت کے اختتام کو متعین کیا گیا ہے، جو فقہ میں نماز کے اوقات کی پابندی کے لیے ایک دقیق معیار کی نشاندہی کرتا ہے۔",
-          "zh": "这段圣训给出了关于晡礼最晚时间的教法判定。它以影长的古典尺度来界定其时间的结束，表明了在教法学中遵守礼拜时间的精确框架。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدِ بْنِ عِيسَى عَنْ أَبِي الْمِعْزَى عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَحَدِهِمَا عَلَيْهِمَا السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন মুহাম্মদ ইবন ঈসা, আবি আল-মিʿযা থেকে, মুহাম্মদ ইবন মুসলিম থেকে, তাঁদের দু’জনের একজনের কাছ থেকে, আলাইহিমাস সালাম, যিনি বলেছেন:",
-              "de": "Aḥmad ibn Muḥammad ibn ʿĪsā, von Abī al-Miʿzā, von Muḥammad ibn Muslim, von einem der beiden, عليهما السلام, der sagte:",
-              "en": "Aḥmad ibn Muḥammad ibn ʿĪsā, from Abī al-Miʿzā, from Muḥammad ibn Muslim, from one of the two of them عليهما السلام, who said:",
-              "es": "Aḥmad ibn Muḥammad ibn ʿĪsā, de Abī al-Miʿzā, de Muḥammad ibn Muslim, de uno de los dos, عليهما السلام, que dijo:",
-              "fa": "احمد بن محمد بن عیسی، از ابی‌المعزّی، از محمد بن مسلم، از یکی از آن دو، علیهما السلام، که فرمود:",
-              "fr": "Aḥmad ibn Muḥammad ibn ʿĪsā, d’Abī al-Miʿzā, de Muḥammad ibn Muslim, de l’un des deux, عليهما السلام, qui a dit :",
-              "id": "Aḥmad ibn Muḥammad ibn ʿĪsā, dari Abī al-Miʿzā, dari Muḥammad ibn Muslim, dari salah satu dari keduanya عليهما السلام, yang berkata:",
-              "ru": "Ахмад ибн Мухаммад ибн ʿИса, от Аби аль-Миʿза, от Мухаммада ибн Муслима, от одного из них двоих, عليهما السلام, который сказал:",
-              "tr": "Ahmed ibn Muhammed ibn Îsâ, Ebî el-Miʿzâ’dan, Muhammed ibn Müslim’den, ikisinden birinden, عليهما السلام, şöyle dedi:",
-              "ur": "احمد بن محمد بن عیسی، ابی المعزٰی سے، محمد بن مسلم سے، ان دونوں میں سے ایک سے، علیہما السلام، جنہوں نے فرمایا:",
-              "zh": "艾哈迈德·伊本·穆罕默德·伊本·尔萨，传自阿比·阿尔-米兹阿，传自穆罕默德·伊本·穆斯林，传自他们二人中的一位，愿主赐二人平安，他说："
-            },
             "word_end": 17,
             "word_start": 0
           },
           {
             "arabic_text": "لَيْسَ عَلَى الْمَلَّاحِينَ فِي سَفَرِهِمْ تَقْصِيرٌ وَلَا عَلَى الْمُكَارِينَ وَلَا عَلَى الْجَمَّالِينَ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তাদের সফরে নাবিকদের জন্য কসর নেই, না খচ্চরচালকদের জন্য, আর না উটচালকদের জন্য।",
-              "de": "Für die Seeleute gibt es auf ihrer Reise kein Verkürzen, ebenso wenig für die Maultiertreiber und die Kameltreiber.",
-              "en": "There is no shortening upon the sailors during their travel, nor upon the muleteers, nor upon the camel-drivers.",
-              "es": "No hay acortamiento para los marineros durante su viaje, ni para los arrieros de mulas, ni para los conductores de camellos.",
-              "fa": "بر ملّاحان در سفرشان قصر نیست، و نه بر استران‌داران، و نه بر شتربانان.",
-              "fr": "Il n’y a pas de raccourcissement pour les marins pendant leur voyage, ni pour les muletiers, ni pour les chameliers.",
-              "id": "Tidak ada qasr atas para pelaut dalam perjalanan mereka, juga tidak atas para pengangkut bagal, dan tidak pula atas para penggembala unta.",
-              "ru": "Для моряков во время их путешествия нет сокращения, и нет его для погонщиков мулов, и нет его для погонщиков верблюдов.",
-              "tr": "Yolculukları sırasında denizcilere, katırcılara ve deve sürücülerine kısaltma yoktur.",
-              "ur": "ان کے سفر میں ملاحوں پر قصر نہیں، نہ خچر والوں پر، اور نہ اونٹ چلانے والوں پر۔",
-              "zh": "在他们的旅行中，水手没有缩短礼拜，骡夫也没有，赶骆驼的人也没有。"
-            },
             "word_end": 29,
             "word_start": 17
           }
@@ -104,57 +91,19 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْجَمَّالِينَ": "camel-drivers; those whose livelihood involves continual travel with camels",
-            "الْمَلَّاحِينَ": "sailors; those whose work involves navigation and ongoing travel by water",
-            "الْمُكَارِينَ": "muleteers or transport-hirers; those engaged in transport as an occupation",
-            "تَقْصِيرٌ": "shortening; performing the reduced form of salat in travel",
-            "سَفَرِهِمْ": "their travel; the state of journeying relevant to prayer rulings"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمَلَّاحِينَ",
+          "سَفَرِهِمْ",
+          "تَقْصِيرٌ",
+          "الْمُكَارِينَ",
+          "الْجَمَّالِينَ"
+        ],
         "related_quran": [
           {
             "ref": "4:101",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে সফরের সময় কারা পূর্ণ সালাত আদায় করবে এবং কসর করবে না?",
-          "de": "Wer muss in der schiitischen Fiqh auf Reisen das vollständige Salat verrichten und nicht kürzen?",
-          "en": "Who must perform full salat and not shortened salat during travel in Shia fiqh?",
-          "es": "¿Quién debe realizar la salat completa y no la salat acortada durante el viaje en la fiqh chií?",
-          "fa": "در فقه شیعه چه کسانی باید در سفر نماز کامل بخوانند و قصر نکنند؟",
-          "fr": "Qui doit accomplir la salat complète et non la salat raccourcie pendant le voyage en fiqh chiite ?",
-          "id": "Siapa yang wajib salat penuh dan tidak qasr saat سفر dalam fikih Syiah?",
-          "ru": "Кто должен совершать полную салат и не сокращать ее во время путешествия в шиитском фикхе?",
-          "tr": "Şiî fıkhında yolculuk sırasında kimler tam salat kılmalı ve kısaltmamalıdır?",
-          "ur": "شعیہ فقہ میں سفر کے دوران کس پر پوری نماز اور قصر نہ کرنا لازم ہے؟",
-          "zh": "在什叶派教法中，旅行时谁必须做完整的salat而不是缩短的salat？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে একটি ফিকহি বিধান বর্ণিত হয়েছে যে, যাদের পেশা অবিরাম সফর, তারা সফরে কসর করে না। এতে নাবিক, খচ্চরচালক এবং উটচালকদের এমন শ্রেণি হিসেবে উল্লেখ করা হয়েছে, যাদের সফরের সময় পূর্ণ সালাত আদায় করতে হয়।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung, wonach bestimmte Personen, deren Beruf ständiges Reisen ist, auf Reisen kein qasr verrichten. Seeleute, Maultiertreiber und Kameltreiber werden als Gruppen genannt, für die während der Reise das vollständige Gebet erforderlich ist.",
-          "en": "This hadith states a legal ruling that certain people whose occupation is continual travel do not perform qasr during travel. It identifies sailors, muleteers, and camel-drivers as categories for whom full prayer is required while traveling.",
-          "es": "Este hadiz establece una norma jurídica según la cual ciertas personas cuya ocupación implica viajar de manera continua no realizan qasr durante el viaje. Identifica a los marineros, arrieros de mulas y conductores de camellos como categorías para las que se requiere la oración completa mientras viajan.",
-          "fa": "این حدیث حکمی فقهی را بیان می‌کند که برخی افراد که شغلشان سفرِ پیوسته است، در سفر قصر نمی‌کنند. در آن، ملّاحان، استران‌داران و شتربانان از جمله کسانی معرفی شده‌اند که در سفر باید نماز کامل بخوانند.",
-          "fr": "Ce hadith énonce une règle juridique selon laquelle certaines personnes dont l’activité implique des déplacements continus n’accomplissent pas le qasr en voyage. Il cite les marins, les muletiers et les chameliers comme catégories tenues d’accomplir la prière complète en voyage.",
-          "id": "Hadis ini menyatakan sebuah hukum fikih bahwa sebagian orang yang pekerjaannya adalah terus-menerus bepergian tidak melakukan qasr saat سفر. Disebutkan para pelaut, pengangkut bagal, dan penggembala unta sebagai kelompok yang wajib salat penuh ketika bepergian.",
-          "ru": "Этот хадис устанавливает правовое предписание о том, что некоторые люди, чья работа связана с постоянными поездками, не совершают сокращение молитвы во время путешествия. В нем моряки, погонщики мулов и погонщики верблюдов названы категориями, для которых во время пути требуется полная молитва.",
-          "tr": "Bu hadis, mesleği sürekli yolculuk olan bazı kimselerin seferde kısaltma yapmayacağına dair bir fıkhî hüküm bildirir. Denizciler, katırcılar ve deve sürücüleri, yolculuk sırasında tam namaz kılması gereken gruplar olarak zikredilir.",
-          "ur": "یہ حدیث ایک شرعی حکم بیان کرتی ہے کہ بعض ایسے لوگ جن کا پیشہ مسلسل سفر ہو، سفر میں قصر نہیں کرتے۔ اس میں ملاح، خچر والے اور اونٹ چلانے والے ان طبقات میں شمار کیے گئے ہیں جن پر سفر کے دوران پوری نماز لازم ہے۔",
-          "zh": "这段圣训说明了一项教法判决：某些职业需要持续旅行的人，在旅行中不做qasr。它把水手、骡夫和赶骆驼的人列为旅行时必须完整礼拜的类别。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

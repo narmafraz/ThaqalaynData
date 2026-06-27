@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং আমীরুল মুমিনীন, আলাইহিস সালাম, বললেন:",
-              "de": "Und der Befehlshaber der Gläubigen, Friede sei mit ihm, sagte:",
-              "en": "And the Commander of the Faithful, peace be upon him, said:",
-              "es": "Y el Comandante de los Creyentes, la paz sea con él, dijo:",
-              "fa": "و فرمان داد امیرالمؤمنین علیه السلام:",
-              "fr": "Et le Commandeur des Croyants, paix soit sur lui, a dit :",
-              "id": "Dan Amirul Mukminin, 'alaihis salam, berkata:",
-              "ru": "И командующий верующими, мир ему, сказал:",
-              "tr": "Ve Emîrü'l-Müminîn, aleyhisselâm, şöyle buyurdu:",
-              "ur": "اور امیرالمؤمنین علیہ السلام نے فرمایا:",
-              "zh": "信士们的领袖，愿他安息，说："
-            },
             "word_end": 5,
             "word_start": 0
           },
           {
             "arabic_text": "«إِنَّ أَفْوَاهَكُمْ طُرُقُ الْقُرْآنِ فَطَهِّرُوهَا بِالسِّوَاكِ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "নিশ্চয়ই তোমাদের মুখ কুরআনের পথ, তাই সেগুলোকে সিওয়াক দিয়ে পবিত্র করো।",
-              "de": "Wahrlich, eure Münder sind die Wege des Qur'ans, so reinigt sie mit dem Siwak.",
-              "en": "\"Indeed, your mouths are the pathways of the Qur'an, so purify them with the siwak.\"",
-              "es": "En verdad, vuestras bocas son los caminos del Corán, así que purifíquenlas con el siwak.",
-              "fa": "به راستی، دهان‌های شما راه‌های قرآن است، پس آنها را با مسواک پاک کنید.",
-              "fr": "En vérité, vos bouches sont les voies du Coran, alors purifiez-les avec le siwak.",
-              "id": "Sesungguhnya mulutmu adalah jalan-jalan Al-Qur'an, maka sucikanlah dengan siwak.",
-              "ru": "Воистину, ваши рты — пути Корана, поэтому очищайте их с помощью сивака.",
-              "tr": "Şüphesiz, ağızlarınız Kur'ân'ın yollarıdır, bu yüzden onları siwak ile temizleyin.",
-              "ur": "بے شک، تمہارے منہ قرآن کے راستے ہیں، لہٰذا انہیں مسواک سے پاک کرو۔",
-              "zh": "的确，你们的嘴是古兰经的通道，所以用牙签洁净它们。"
-            },
             "word_end": 11,
             "word_start": 5
           }
@@ -71,25 +58,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَفْوَاهَكُمْ": "your mouths; the physical means of recitation and speech",
-            "الْقُرْآنِ": "the Qur'an; the divine revelation being recited",
-            "بِالسِّوَاكِ": "with the siwak; with the toothstick used for oral cleansing",
-            "طُرُقُ": "pathways; channels through which the Qur'an is uttered",
-            "فَطَهِّرُوهَا": "so purify them; a command to cleanse the mouth"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَفْوَاهَكُمْ",
+          "طُرُقُ",
+          "الْقُرْآنِ",
+          "فَطَهِّرُوهَا",
+          "بِالسِّوَاكِ"
+        ],
         "related_quran": [
           {
             "ref": "2:222",
@@ -104,32 +79,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কুরআন তেলাওয়াতের আগে সিওয়াক ব্যবহার কেন সুপারিশ করা হয়?",
-          "de": "Warum wird empfohlen, vor dem Rezitieren des Qur'ans den Siwak zu benutzen?",
-          "en": "Why is using the siwak recommended before reciting the Qur'an?",
-          "es": "¿Por qué se recomienda usar el siwak antes de recitar el Corán?",
-          "fa": "چرا استفاده از مسواک قبل از تلاوت قرآن توصیه می‌شود؟",
-          "fr": "Pourquoi est-il recommandé d'utiliser le siwak avant de réciter le Coran ?",
-          "id": "Mengapa disarankan menggunakan siwak sebelum membaca Al-Qur'an?",
-          "ru": "Почему рекомендуется использовать сиwak перед чтением Корана?",
-          "tr": "Kur'ân'ı okumadan önce siwak kullanılması neden tavsiye edilir?",
-          "ur": "قرآن کی تلاوت سے پہلے مسواک استعمال کرنے کی کیا وجہ ہے؟",
-          "zh": "为什么建议在诵读古兰经前使用牙签？"
-        },
-        "summaries": {
-          "bn": "ইমাম আলী আলাইহিস সালাম শিক্ষা দেন যে মুখের একটি বিশেষ পবিত্রতা রয়েছে কারণ এটি কুরআন তেলাওয়াতের মাধ্যম। এজন্য মুখকে সিওয়াক দিয়ে পরিষ্কার ও পবিত্র করা উচিত কুরআনের প্রতি যথাযথ শ্রদ্ধা ও শিষ্টাচারের অংশ হিসেবে।",
-          "de": "Imam Ali عليه السلام lehrt, dass der Mund eine besondere Heiligkeit besitzt, weil er das Mittel ist, durch das der Qur'an rezitiert wird. Aus diesem Grund sollte er mit dem Siwak gereinigt und gereinigt werden als Teil des angemessenen Respekts und der Etikette gegenüber dem Qur'an.",
-          "en": "Imam Ali عليه السلام teaches that the mouth has a special sanctity because it is the means by which the Qur'an is recited. For that reason, one should cleanse and purify it with the siwak as part of proper reverence and etiquette toward the Qur'an.",
-          "es": "El Imam Ali عليه السلام enseña que la boca tiene una santidad especial porque es el medio por el cual se recita el Corán. Por eso, debe limpiarse y purificarse con el siwak como parte del respeto y la etiqueta adecuados hacia el Corán.",
-          "fa": "امام علی علیه السلام تعلیم می‌دهند که دهان حرمت ویژه‌ای دارد زیرا وسیله‌ای است که قرآن از طریق آن تلاوت می‌شود. به همین دلیل باید آن را با مسواک پاک و تطهیر کرد تا احترام و آداب قرآن رعایت شود.",
-          "fr": "L'Imam Ali عليه السلام enseigne que la bouche a une sainteté particulière car c'est le moyen par lequel le Coran est récité. Pour cette raison, elle doit être nettoyée et purifiée avec le siwak dans le cadre du respect et de l'étiquette appropriés envers le Coran.",
-          "id": "Imam Ali 'alaihis salam mengajarkan bahwa mulut memiliki kesucian khusus karena merupakan sarana untuk membaca Al-Qur'an. Oleh karena itu, mulut harus dibersihkan dengan siwak sebagai bentuk penghormatan dan adab terhadap Al-Qur'an.",
-          "ru": "Имам Али عليه السلام учит, что рот имеет особую святость, так как через него читается Коран. По этой причине его следует очищать и очищать с помощью сивака в знак должного уважения и этикета по отношению к Корану.",
-          "tr": "İmam Ali aleyhisselâm, ağzın özel bir kutsallığa sahip olduğunu öğretir çünkü Kur'ân'ın okunduğu yoldur. Bu nedenle, Kur'ân'a saygı ve edep gereği siwak ile temizlenmelidir.",
-          "ur": "امام علی علیہ السلام سکھاتے ہیں کہ منہ کی خاص تقدس ہے کیونکہ یہ وہ ذریعہ ہے جس سے قرآن کی تلاوت ہوتی ہے۔ اسی لیے اسے مسواک سے صاف اور پاک کرنا چاہیے تاکہ قرآن کے احترام اور آداب کا خیال رکھا جا سکے۔",
-          "zh": "伊玛目阿里 عليه السلام 教导说，口具有特殊的神圣性，因为它是诵读古兰经的途径。因此，应使用牙签清洁和净化口腔，以表达对古兰经的适当尊敬和礼仪。"
-        },
         "tags": [
           "ethics",
           "worship",

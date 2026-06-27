@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ عَلَيْهِ السَّلَامُ :",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তিনি, সালাম উআলেহি, বললেন:",
-              "de": "Und er, Friede sei mit ihm, sagte:",
-              "en": "And he, peace be upon him, said:",
-              "es": "Y él, la paz sea con él, dijo:",
-              "fa": "و او، علیه السلام، فرمود:",
-              "fr": "Et lui, que la paix soit sur lui, a dit :",
-              "id": "Dan beliau, keselamatan atasnya, berkata:",
-              "ru": "И он, мир ему, сказал:",
-              "tr": "Ve o, selam üzerine olsun, dedi ki:",
-              "ur": "اور انہوں نے، علیہ السلام، فرمایا:",
-              "zh": "他，愿他平安，说："
-            },
             "word_end": 5,
             "word_start": 0
           },
           {
             "arabic_text": "«جَاهِدْ هَوَاكَ كَمَا تُجَاهِدُ عَدُوَّكَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "\"তুমি যেমন তোমার শত্রুর বিরুদ্ধে লড়াই করো, তেমনি তোমার ইচ্ছার বিরুদ্ধে লড়াই করো।\"",
-              "de": "\"Kämpfe gegen dein Verlangen, so wie du gegen deinen Feind kämpfst.\"",
-              "en": "\"Struggle against your desire just as you struggle against your enemy.\"",
-              "es": "\"Lucha contra tu deseo tal como luchas contra tu enemigo.\"",
-              "fa": "\"علیه السلام فرمود: «علیه السلام فرمود: «با نفس خود همانگونه که با دشمن خود می‌جنگی، مبارزه کن.»\"",
-              "fr": "\"Lutte contre ton désir comme tu luttes contre ton ennemi.\"",
-              "id": "\"Berjuanglah melawan nafsumu seperti kamu berjuang melawan musuhmu.\"",
-              "ru": "\"Борись со своими желаниями так же, как борешься с врагом.\"",
-              "tr": "\"Düşmanına karşı mücadele ettiğin gibi nefsine karşı da mücadele et.\"",
-              "ur": "\"اپنی خواہش کے خلاف جدوجہد کرو جیسے تم اپنے دشمن کے خلاف کرتے ہو۔\"",
-              "zh": "\"像对抗敌人一样与自己的欲望奋斗。\""
-            },
             "word_end": 10,
             "word_start": 5
           }
@@ -70,23 +57,11 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "جَاهِدْ": "Strive and exert effort in struggle",
-            "عَدُوَّكَ": "Your enemy, used here as the point of comparison for vigilance and struggle",
-            "هَوَاكَ": "Your caprice, lower desire, or self-inclination"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "جَاهِدْ",
+          "هَوَاكَ",
+          "عَدُوَّكَ"
+        ],
         "related_quran": [
           {
             "ref": "79:40",
@@ -105,32 +80,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام কীভাবে একজনের ইচ্ছার বিরুদ্ধে সংগ্রাম বর্ণনা করেন?",
-          "de": "Wie beschreibt Imam al-Sadiq علیه السلام den Kampf gegen die eigenen Begierden?",
-          "en": "How does Imam al-Sadiq عليه السلام describe struggling against one's desires?",
-          "es": "¿Cómo describe el Imam al-Sadiq عليه السلام la lucha contra los deseos propios?",
-          "fa": "امام صادق علیه السلام چگونه مبارزه با خواسته‌های انسان را توصیف می‌کند؟",
-          "fr": "Comment l'Imam al-Sadiq عليه السلام décrit-il la lutte contre ses désirs ?",
-          "id": "Bagaimana Imam al-Sadiq علیه السلام menggambarkan perjuangan melawan nafsu seseorang?",
-          "ru": "Как Имам ас-Садик عليه السلام описывает борьбу с собственными желаниями?",
-          "tr": "İmam el-Sâdık علیه السلام, insanın arzularına karşı mücadeleyi nasıl tanımlar?",
-          "ur": "امام الصادق علیہ السلام اپنی خواہشات کے خلاف جدوجہد کو کیسے بیان فرماتے ہیں؟",
-          "zh": "伊玛目萨迪克 عليه السلام如何描述与自身欲望的斗争？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি শেখায় যে একজন ব্যক্তির নিম্ন ইচ্ছাগুলো একটি অন্তর্নিহিত শত্রু যা সক্রিয় সংগ্রাম এবং শৃঙ্খলা দাবি করে। এটি নফসের বিরুদ্ধে লড়াইকে বাহ্যিক শত্রুর মোকাবিলার সাথে তুলনা করে নৈতিক আত্ম-নিয়ন্ত্রণের গুরুত্ব তুলে ধরে।",
-          "de": "Dieser Hadith lehrt, dass die niederen Begierden eines Menschen ein innerer Feind sind, der aktiven Kampf und Disziplin erfordert. Er betont die moralische Selbstbeherrschung, indem er den Kampf gegen das Nafs mit der Konfrontation eines äußeren Feindes vergleicht.",
-          "en": "This hadith teaches that a person's lower desires are an inner enemy requiring active struggle and discipline. It emphasizes moral self-mastery by comparing the fight against the nafs to confronting an external foe.",
-          "es": "Este hadiz enseña que los deseos inferiores de una persona son un enemigo interno que requiere lucha activa y disciplina. Enfatiza el dominio moral de uno mismo comparando la lucha contra el nafs con enfrentar a un enemigo externo.",
-          "fa": "این حدیث آموزش می‌دهد که خواسته‌های پایین انسان دشمن درونی هستند که نیازمند مبارزه فعال و انضباط می‌باشند. با مقایسه مبارزه با نفس با مقابله با دشمن خارجی، بر تسلط اخلاقی بر خود تأکید می‌کند.",
-          "fr": "Ce hadith enseigne que les désirs inférieurs d'une personne sont un ennemi intérieur nécessitant une lutte active et de la discipline. Il met l'accent sur la maîtrise morale de soi en comparant la lutte contre le nafs à la confrontation avec un ennemi extérieur.",
-          "id": "Hadis ini mengajarkan bahwa nafsu rendah seseorang adalah musuh batin yang memerlukan perjuangan aktif dan disiplin. Ini menekankan penguasaan moral diri dengan membandingkan perjuangan melawan nafsu dengan menghadapi musuh luar.",
-          "ru": "Этот хадис учит, что низменные желания человека — внутренний враг, требующий активной борьбы и дисциплины. Он подчеркивает моральное самообладание, сравнивая борьбу с нафсом с противостоянием внешнему врагу.",
-          "tr": "Bu hadis, insanın alçak arzularının aktif mücadele ve disiplin gerektiren içsel bir düşman olduğunu öğretir. Nefsle mücadeleyi dış düşmanla yüzleşmeye benzeterek ahlaki özdenetimi vurgular.",
-          "ur": "یہ حدیث سکھاتی ہے کہ انسان کی نچلی خواہشات ایک اندرونی دشمن ہیں جن سے فعال جدوجہد اور ضبط کی ضرورت ہے۔ یہ نفس کے خلاف لڑائی کو بیرونی دشمن سے مقابلہ کرنے کے مترادف قرار دے کر اخلاقی خود پر قابو پانے پر زور دیتی ہے۔",
-          "zh": "这段圣训教导人们，人的低级欲望是需要积极斗争和自律的内在敌人。它通过将对抗内心的自我与面对外部敌人相比较，强调了道德自我掌控的重要性。"
-        },
         "tags": [
           "ethics",
           "theology",

@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى حَمَّادٌ عَنِ الْحَلَبِيِّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "হাম্মাদ আল-হালাবী থেকে, আবু আবদুল্লাহ علیہ السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Hammad berichtete von Al-Halabi, von Abu Abdullah عليه السلام, der sagte:",
-              "en": "Hammad narrated from Al-Halabi, from Abu Abdullah عليه السلام, who said:",
-              "es": "Hammad narró de Al-Halabi, de Abu Abdullah عليه السلام, quien dijo:",
-              "fa": "حمّاد از الحلّابی، از ابو عبدالله علیه السلام روایت کرد که فرمود:",
-              "fr": "Hammad a rapporté d'Al-Halabi, d'Abu Abdullah عليه السلام, qui a dit :",
-              "id": "Hammad meriwayat dari Al-Halabi, dari Abu Abdullah علیه السلام, yang berkata:",
-              "ru": "Хаммад передал от Аль-Халаби, от Абу Абдуллах عليه السلام, который сказал:",
-              "tr": "Hammad, Al-Halabi'den, Abu Abdullah'a عليه السلام'dan rivayet etti, şöyle dedi:",
-              "ur": "حماد نے الحلبی سے، ابو عبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "حماد从الحلبی传述自أبوعبداللهعليهالسلام说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "«أَيُّمَا رَجُلٍ عَدَا عَلَى رَجُلٍ لِيَضْرِبَهُ فَدَفَعَهُ عَنْ نَفْسِهِ فَجَرَحَهُ أَوْ قَتَلَهُ فَلَا شَيْءَ عَلَيْهِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি কেউ অন্য কাউকে আঘাত করার জন্য আক্রমণ করে, এবং পরবর্তীতে সে নিজেকে রক্ষা করতে গিয়ে আক্রমণকারীকে আহত বা হত্যা করে, তবে তার উপর কোনো দোষ নেই।",
-              "de": "Wenn ein Mann einen anderen angreift, um ihn zu schlagen, und der andere sich verteidigt und den Angreifer verletzt oder tötet, so trifft ihn keine Schuld.",
-              "en": "If any man attacks another man to strike him, and the latter defends himself and injures or kills the attacker, then there is nothing upon him.",
-              "es": "Si un hombre ataca a otro para golpearlo, y este último se defiende y hiere o mata al agresor, entonces no hay nada en su contra.",
-              "fa": "اگر مردی به مرد دیگری حمله کند تا او را بزند و آن دیگری در دفاع از خود، مهاجم را مجروح یا بکشد، بر او هیچ گناهی نیست.",
-              "fr": "Si un homme attaque un autre pour le frapper, et que ce dernier se défend en blessant ou tuant l'agresseur, alors il n'y a rien contre lui.",
-              "id": "Jika seseorang menyerang orang lain untuk memukulnya, dan yang diserang membela diri hingga melukai atau membunuh penyerang, maka tidak ada dosa atasnya.",
-              "ru": "Если человек нападает на другого, чтобы ударить его, и тот защищается, раня или убивая нападавшего, то с него ничего не взыскивается.",
-              "tr": "Eğer bir adam başka birine vurmak için saldırırsa ve diğeri kendini savunup saldırganı yaralar veya öldürürse, üzerine bir şey yoktur.",
-              "ur": "اگر کوئی شخص دوسرے شخص پر حملہ کرے تاکہ اسے مارے، اور دوسرا شخص اپنی جان کا دفاع کرتے ہوئے حملہ آور کو زخمی یا قتل کر دے، تو اس پر کوئی گناہ نہیں۔",
-              "zh": "如果有人攻击他人欲击打对方，而被攻击者为自卫致使攻击者受伤或死亡，则无责。"
-            },
             "word_end": 27,
             "word_start": 12
           }
@@ -101,24 +88,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَوْ قَتَلَهُ": "or killed him",
-            "عَنْ نَفْسِهِ": "in defense of himself",
-            "فَجَرَحَهُ": "he wounded him",
-            "فَلَا شَيْءَ عَلَيْهِ": "there is no liability upon him"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "عَنْ نَفْسِهِ",
+          "فَجَرَحَهُ",
+          "أَوْ قَتَلَهُ",
+          "فَلَا شَيْءَ عَلَيْهِ"
+        ],
         "related_quran": [
           {
             "ref": "2:190",
@@ -133,32 +108,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কেউ আত্মরক্ষার সময় আক্রমণকারীকে আহত বা হত্যা করে, তাহলে কী বিধান?",
-          "de": "Wie lautet das Urteil, wenn jemand einen Angreifer bei der Verteidigung verletzt oder tötet?",
-          "en": "What is the ruling if someone injures or kills an attacker while defending himself?",
-          "es": "¿Cuál es el fallo si alguien hiere o mata a un agresor mientras se defiende?",
-          "fa": "اگر کسی هنگام دفاع از خود مهاجم را مجروح یا بکشد حکم چیست؟",
-          "fr": "Quel est le jugement si quelqu'un blesse ou tue un agresseur en se défendant ?",
-          "id": "Apa hukum jika seseorang melukai atau membunuh penyerang saat membela diri?",
-          "ru": "Каково постановление, если кто-то ранит или убивает нападающего при самообороне?",
-          "tr": "Birisi kendini savunurken saldırganı yaralarsa veya öldürürse hüküm nedir?",
-          "ur": "اگر کوئی شخص دفاع کرتے ہوئے حملہ آور کو زخمی یا قتل کر دے تو حکم کیا ہے؟",
-          "zh": "如果有人在自卫时致使攻击者受伤或死亡，判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস আত্মরক্ষার আইনি বিধান প্রদান করে। যদি কেউ আক্রমণের শিকার হয় এবং আত্মরক্ষার সময় আক্রমণকারীকে আহত বা হত্যা করে, তবে রক্ষাকারীর উপর কোনো দায় নেই।",
-          "de": "Dieser Hadith gibt eine Rechtsregel zur Selbstverteidigung. Wenn eine Person angegriffen wird und den Angreifer bei der Verteidigung verletzt oder tötet, trifft den Verteidiger keine Schuld.",
-          "en": "This hadith gives a legal ruling on self-defense. If a person is attacked and, while defending himself, wounds or kills the aggressor, no liability is upon the defender in this case.",
-          "es": "Este hadiz establece una regla legal sobre la legítima defensa. Si una persona es atacada y, al defenderse, hiere o mata al agresor, no hay responsabilidad para el defensor.",
-          "fa": "این حدیث حکم شرعی دفاع از خود را بیان می‌کند. اگر شخصی مورد حمله قرار گیرد و در دفاع از خود مهاجم را مجروح یا بکشد، بر مدافع هیچ مسئولیتی نیست.",
-          "fr": "Ce hadith donne un jugement légal sur la légitime défense. Si une personne est attaquée et, en se défendant, blesse ou tue l'agresseur, aucune responsabilité ne pèse sur le défenseur.",
-          "id": "Hadis ini memberikan hukum tentang pembelaan diri. Jika seseorang diserang dan saat membela diri melukai atau membunuh penyerang, maka tidak ada tanggung jawab atas pembela tersebut.",
-          "ru": "Этот хадис даёт правовое постановление о самообороне. Если человека атакуют, и он, защищаясь, ранит или убивает нападающего, с защитника не взыскивается ответственность.",
-          "tr": "Bu hadis, meşru müdafaa hakkında hüküm verir. Bir kişi saldırıya uğrar ve kendini savunurken saldırganı yaralar veya öldürürse, savunana herhangi bir sorumluluk düşmez.",
-          "ur": "یہ حدیث خود دفاع کے بارے میں شرعی حکم بیان کرتی ہے۔ اگر کوئی شخص حملہ کیا جائے اور دفاع کرتے ہوئے حملہ آور کو زخمی یا قتل کر دے تو اس پر کوئی ذمہ داری نہیں۔",
-          "zh": "此圣训阐述了自卫的法律判决。若有人遭受攻击，在自卫时致使攻击者受伤或死亡，则自卫者无责。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations",

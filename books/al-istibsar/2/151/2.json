@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ فَضَالَةَ عَنْ مُعَاوِيَةَ بْنِ عَمَّارٍ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, ফাদালাহ থেকে, মু‘আবিয়াহ ইবন ‘আম্মার থেকে, তিনি বলেন:",
-              "de": "Von ihm, von Faḍālah, von Muʿāwiyah ibn ʿAmmār, der sagte:",
-              "en": "From him, from Faḍālah, from Muʿāwiyah ibn ʿAmmār, who said:",
-              "es": "De él, de Faḍālah, de Muʿāwiyah ibn ʿAmmār, quien dijo:",
-              "fa": "از او، از فَضالَه، از معاویه بن عمار، که گفت:",
-              "fr": "De lui, de Faḍālah, de Muʿāwiyah ibn ʿAmmār, qui a dit :",
-              "id": "Dari beliau, dari Faḍālah, dari Muʿāwiyah ibn ʿAmmār, yang berkata:",
-              "ru": "От него, от Фадалы, от Муʿавии ибн ʿАммара, который сказал:",
-              "tr": "Ondan, Faḍālah’dan, Muʿāwiyah ibn ʿAmmār’dan, o da şöyle dedi:",
-              "ur": "ان سے، فضلہ سے، معاویہ بن عمار سے، انہوں نے کہا:",
-              "zh": "由他传自法达拉，传自穆阿威叶·伊本·阿马尔，他说："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ أَبُو عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ: لَا تُخْرِجَنَّ شَيْئًا مِنْ لَحْمِ الْهَدْيِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আবূ ‘আবদিল্লাহ عليه السلام বলেছেন: হাদির মাংস থেকে কিছুই বাইরে নিয়ে যেয়ো না।",
-              "de": "Abū ʿAbdillāh عليه السلام sagte: Nehmt nichts von dem Fleisch des hady heraus.",
-              "en": "Abū ʿAbdillāh عليه السلام said: Do not take out anything from the meat of the hady.",
-              "es": "Abū ʿAbdillāh عليه السلام dijo: No saquéis nada de la carne del hady.",
-              "fa": "ابوعبدالله علیه السلام فرمود: چیزی از گوشتِ هَدی بیرون نبرید.",
-              "fr": "Abū ʿAbdillāh عليه السلام a dit : N’emportez rien de la viande du hady.",
-              "id": "Abū ʿAbdillāh عليه السلام bersabda: Jangan keluarkan apa pun dari daging hady.",
-              "ru": "Абу ʿАбдуллах عليه السلام сказал: Не выносите ничего из мяса хадй.",
-              "tr": "Ebû ʿAbdillâh عليه السلام şöyle buyurdu: Hedy etinden hiçbir şeyi बाहर çıkarmayın.",
-              "ur": "ابو عبداللہ علیہ السلام نے فرمایا: ہدی کے گوشت میں سے کچھ بھی باہر نہ لے جاؤ۔",
-              "zh": "阿布·阿卜杜拉 عليه السلام说：不要从献牲的肉中取出任何东西。"
-            },
             "word_end": 20,
             "word_start": 8
           }
@@ -94,24 +81,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبُو عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ": "Imām Jaʿfar al-Ṣādiq عليه السلام",
-            "الْهَدْيِ": "The sacrificial offering presented during hajj",
-            "لَا تُخْرِجَنَّ": "Do not take out; an emphatic prohibition",
-            "لَحْمِ": "Meat"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "لَا تُخْرِجَنَّ",
+          "لَحْمِ",
+          "الْهَدْيِ",
+          "أَبُو عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ"
+        ],
         "related_quran": [
           {
             "ref": "22:28",
@@ -122,32 +97,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হাদির মাংস কি মিনা থেকে বাইরে নিয়ে যাওয়া যায়?",
-          "de": "Darf man das Fleisch des hady aus Minā herausbringen?",
-          "en": "Can the meat of the hady be taken out of Minā?",
-          "es": "¿Se puede sacar la carne del hady de Minā?",
-          "fa": "آیا می‌توان گوشتِ هَدی را از منی بیرون برد؟",
-          "fr": "Peut-on emporter la viande du hady hors de Minā ?",
-          "id": "Apakah daging hady boleh dibawa keluar dari Mina?",
-          "ru": "Можно ли выносить мясо хадй из Мины?",
-          "tr": "Hedy eti Minâ’dan बाहर çıkarılabilir mi?",
-          "ur": "کیا ہدی کا گوشت منیٰ سے باہر لے جایا جا سکتا ہے؟",
-          "zh": "可以把献牲的肉带出米纳吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে ইমাম আবূ ‘আবদিল্লাহ عليه السلام থেকে একটি বিধান বর্ণিত হয়েছে, যাতে হাদির মাংসের কোনো অংশ বাইরে নিয়ে যাওয়া নিষিদ্ধ করা হয়েছে। অধ্যায়ের প্রেক্ষাপটে এটি হজের আচার-অনুষ্ঠানের সময় মিনা থেকে কোরবানির মাংস বাইরে নিয়ে যাওয়ার অপছন্দনীয়তা বা নিষেধ নির্দেশ করে।",
-          "de": "Dieser Hadith überliefert eine Rechtsweisung von Imām Abū ʿAbdillāh عليه السلام, die verbietet, irgendeinen Teil des Fleisches des hady herauszunehmen. Im Kontext des Kapitels weist dies auf die Unerwünschtheit oder das Verbot hin, Opferfleisch während der Riten des Hajj aus Minā mitzunehmen.",
-          "en": "This hadith reports a ruling from Imām Abū ʿAbdillāh عليه السلام prohibiting the removal of any portion of the meat of the hady. In the context of the chapter, it indicates the disapprovedness or prohibition of taking sacrificial meat out from Minā during the rites of hajj.",
-          "es": "Este hadiz transmite una norma del Imām Abū ʿAbdillāh عليه السلام que prohíbe sacar cualquier parte de la carne del hady. En el contexto del capítulo, indica la desaprobación o prohibición de sacar la carne del sacrificio de Minā durante los ritos del hajj.",
-          "fa": "این حدیث از امام ابوعبدالله علیه السلام حکمی را نقل می‌کند که بیرون بردن هر بخشی از گوشتِ هَدی را ممنوع می‌داند. در سیاق باب، این روایت بر کراهت یا حرمتِ بیرون بردن گوشت قربانی از منی در هنگام مناسک حج دلالت دارد.",
-          "fr": "Ce hadith rapporte une règle de l’Imām Abū ʿAbdillāh عليه السلام interdisant de retirer quoi que ce soit de la viande du hady. Dans le contexte du chapitre, cela indique la réprobation ou l’interdiction d’emporter la viande du sacrifice hors de Minā pendant les rites du hajj.",
-          "id": "Hadis ini meriwayatkan sebuah hukum dari Imam Abū ʿAbdillāh عليه السلام yang melarang mengeluarkan bagian apa pun dari daging hady. Dalam konteks باب ini, hal itu menunjukkan makruh atau haramnya membawa keluar daging kurban dari Mina selama manasik haji.",
-          "ru": "Этот хадис передаёт постановление от имама Абу ʿАбдуллаха عليه السلام, запрещающее выносить что-либо из мяса хадй. В контексте главы это указывает на нежелательность или запрет выносить мясо жертвенного животного из Мины во время обрядов хаджа.",
-          "tr": "Bu hadis, İmam Ebû ʿAbdillâh عليه السلام’dan, hady etinin herhangi bir parçasının çıkarılmasını yasaklayan bir hüküm nakleder. Babın bağlamında bu, hac menâsiki sırasında kurban etinin Minâ’dan बाहर çıkarılmasının mekruh veya haram olduğuna işaret eder.",
-          "ur": "یہ حدیث امام ابو عبداللہ علیہ السلام سے ایک حکم نقل کرتی ہے کہ ہدی کے گوشت کا کوئی حصہ باہر نہ نکالا جائے۔ باب کے سیاق میں یہ منیٰ سے قربانی کے گوشت کو مناسکِ حج کے دوران باہر لے جانے کی کراہت یا ممانعت پر دلالت کرتی ہے۔",
-          "zh": "这段圣训传述了伊玛目阿布·阿卜杜拉 عليه السلام的一项教导：不要把献牲的肉带出任何一部分。在本章语境中，这表明在朝觐仪式期间，不宜或禁止将牺牲肉从米纳带出。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

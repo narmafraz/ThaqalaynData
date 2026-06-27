@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى السَّكُونِيُّ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-সাকুনী জাফর ইবনে মুহাম্মদ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Al-Sakuni berichtete von Jaʿfar ibn Muḥammad عليه السلام, der sagte:",
-              "en": "Al-Sakuni narrated from Jaʿfar ibn Muḥammad عليه السلام, who said:",
-              "es": "Al-Sakuni narró de Jaʿfar ibn Muḥammad عليه السلام, quien dijo:",
-              "fa": "اَلْسَّکُونِی از جَعفَر بن مُحَمَّد علیه السلام روایت کرده است که فرمود:",
-              "fr": "Al-Sakuni a rapporté de Jaʿfar ibn Muḥammad عليه السلام, qui a dit :",
-              "id": "Al-Sakuni meriwayatkan dari Ja'far ibn Muhammad عليه السلام, yang berkata:",
-              "ru": "Аль-Сакуни передал от Джаʿфара ибн Мухаммада عليه السلام, который сказал:",
-              "tr": "El-Sakuni, Câ'fer bin Muhammed (aleyhisselam)'den rivayet etti, şöyle dedi:",
-              "ur": "اَلْسَّکُونِیُّ نے جَعْفَرِ بْنِ مُحَمَّد علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "السكوني从جعفربنمحمدعليهالسلام传述，他说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "إِذَا قَالَ الرَّجُلُ أَقْسَمْتُ أَوْ حَلَفْتُ فَلَيْسَ بِشَيْءٍ حَتَّى يَقُولَ أَقْسَمْتُ بِاللَّهِ أَوْ حَلَفْتُ بِاللَّهِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি একজন মানুষ বলে, 'আমি শপথ করছি' বা 'আমি শপথ নিয়েছি,' তা পর্যন্ত তা কোনো প্রভাব ফেলে না যতক্ষণ না তিনি বলেন, 'আমি আল্লাহর নামে শপথ করছি' বা 'আমি আল্লাহর নামে শপথ নিয়েছি।'",
-              "de": "Wenn ein Mann sagt: ‚Ich schwöre‘ oder ‚Ich habe einen Eid abgelegt‘, hat das keine Bedeutung, bis er sagt: ‚Ich schwöre bei Allah‘ oder ‚Ich habe bei Allah einen Eid abgelegt‘.",
-              "en": "If a man says, 'I swear' or 'I have taken an oath,' it is of no consequence until he says, 'I swear by Allah' or 'I have taken an oath by Allah.'",
-              "es": "Si un hombre dice, 'Juro' o 'He jurado,' no tiene efecto hasta que diga, 'Juro por Allah' o 'He jurado por Allah.'",
-              "fa": "اگر مردی بگوید «قسم می‌خورم» یا «قسم خورده‌ام»، تا زمانی که نگوید «به خدا قسم می‌خورم» یا «به خدا قسم خورده‌ام»، هیچ اثری ندارد.",
-              "fr": "Si un homme dit « Je jure » ou « J'ai prêté serment », cela n'a aucune conséquence tant qu'il ne dit pas « Je jure par Allah » ou « J'ai prêté serment par Allah ».",
-              "id": "Jika seorang pria berkata, 'Saya bersumpah' atau 'Saya telah bersumpah,' itu tidak berarti apa-apa sampai dia mengatakan, 'Saya bersumpah demi Allah' atau 'Saya telah bersumpah demi Allah.'",
-              "ru": "Если человек говорит: «Клянусь» или «Я дал клятву», это не имеет значения, пока он не скажет: «Клянусь Аллахом» или «Я дал клятву Аллахом».",
-              "tr": "Eğer bir adam 'Yemin ederim' ya da 'Yemin ettim' derse, 'Allah'a yemin ederim' ya da 'Allah'a yemin ettim' demedikçe bunun bir hükmü yoktur.",
-              "ur": "اگر کوئی آدمی کہے، 'میں قسم کھاتا ہوں' یا 'میں نے قسم لی ہے'، تو اس کا کوئی اثر نہیں جب تک کہ وہ نہ کہے، 'میں اللہ کی قسم کھاتا ہوں' یا 'میں نے اللہ کی قسم لی ہے'۔",
-              "zh": "如果一个人说“我发誓”或“我已宣誓”，在他说“我以安拉发誓”或“我以安拉宣誓”之前，这没有任何效力。"
-            },
             "word_end": 25,
             "word_start": 10
           }
@@ -91,24 +78,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَقْسَمْتُ": "I swore; a verbal formula of oath-taking",
-            "بِاللَّهِ": "by Allah; the explicit divine invocation that makes the oath binding",
-            "بِشَيْءٍ": "of any consequence; legally effective or recognized",
-            "حَلَفْتُ": "I took an oath; another expression for swearing"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَقْسَمْتُ",
+          "حَلَفْتُ",
+          "بِشَيْءٍ",
+          "بِاللَّهِ"
+        ],
         "related_quran": [
           {
             "ref": "5:89",
@@ -119,32 +94,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামী আইনে কখন একটি শপথ বাধ্যতামূলক হয়?",
-          "de": "Wann wird ein Eid im islamischen Recht verbindlich?",
-          "en": "When does an oath become binding in Islamic law?",
-          "es": "¿Cuándo se vuelve vinculante un juramento en la ley islámica?",
-          "fa": "در قانون اسلامی، قسم چه زمانی الزام‌آور می‌شود؟",
-          "fr": "Quand un serment devient-il contraignant en droit islamique ?",
-          "id": "Kapan sebuah sumpah menjadi mengikat dalam hukum Islam?",
-          "ru": "Когда клятва становится обязательной в исламском праве?",
-          "tr": "İslami hukukta yemin ne zaman bağlayıcı olur?",
-          "ur": "اسلامی قانون میں قسم کب باندھنے والی ہوتی ہے؟",
-          "zh": "在伊斯兰法律中，誓言何时具有约束力？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি প্রতিষ্ঠা করে যে শুধুমাত্র 'আমি শপথ করছি' বা অনুরূপ শব্দ ব্যবহার করলেই বাধ্যতামূলক শপথ হয় না। শপথ তখনই আইনগত প্রভাব ফেলে যখন তা স্পষ্টভাবে আল্লাহর নামে নেওয়া হয়, যা শপথের শব্দের সঠিকতার ফিকহী গুরুত্ব প্রদর্শন করে।",
-          "de": "Dieser Hadith stellt fest, dass das bloße Sagen von ‚Ich schwöre‘ oder ähnlichen Formulierungen keinen verbindlichen Eid darstellt. Der Eid wird erst rechtswirksam, wenn er ausdrücklich bei Allah abgelegt wird, was die juristische Bedeutung der genauen Wortwahl bei Eiden zeigt.",
-          "en": "This hadith establishes that merely saying \"I swear\" or similar wording does not constitute a binding oath. The oath only takes legal effect when it is explicitly made by Allah, showing the jurisprudential importance of precise wording in oaths.",
-          "es": "Este hadiz establece que simplemente decir 'Juro' o expresiones similares no constituye un juramento vinculante. El juramento solo tiene efecto legal cuando se hace explícitamente por Allah, mostrando la importancia jurisprudencial de la precisión en las palabras del juramento.",
-          "fa": "این حدیث بیان می‌کند که صرف گفتن «قسم می‌خورم» یا عبارتی مشابه، قسم الزام‌آور نیست. قسم تنها زمانی اثر قانونی دارد که به صراحت به نام خداوند گرفته شود که اهمیت فقهی دقت در الفاظ قسم را نشان می‌دهد.",
-          "fr": "Ce hadith établit que dire simplement « Je jure » ou une expression similaire ne constitue pas un serment contraignant. Le serment n'a d'effet légal que lorsqu'il est explicitement fait par Allah, montrant l'importance juridique de la précision des termes dans les serments.",
-          "id": "Hadis ini menetapkan bahwa hanya mengatakan 'Saya bersumpah' atau ungkapan serupa tidak membentuk sumpah yang mengikat. Sumpah hanya memiliki efek hukum ketika secara eksplisit diambil atas nama Allah, menunjukkan pentingnya ketepatan kata dalam sumpah menurut fiqh.",
-          "ru": "Этот хадис устанавливает, что простое произнесение «Клянусь» или подобной фразы не является обязательной клятвой. Клятва приобретает юридическую силу только тогда, когда она явно дается во имя Аллаха, что подчеркивает юридическую важность точной формулировки клятв.",
-          "tr": "Bu hadis, sadece 'Yemin ederim' demenin bağlayıcı bir yemin oluşturmadığını belirtir. Yemin, ancak Allah'ın adıyla açıkça yapıldığında hukuki bir etkiye sahiptir; bu da yeminlerde kelime seçiminin fıkhî önemini gösterir.",
-          "ur": "یہ حدیث واضح کرتی ہے کہ صرف 'میں قسم کھاتا ہوں' کہنا یا اس جیسا کوئی لفظی اظہار باندھنے والی قسم نہیں بنتا۔ قسم صرف اس وقت قانونی اثر رکھتی ہے جب اسے واضح طور پر اللہ کے نام سے لیا جائے، جو قسموں میں الفاظ کی درستگی کی فقہی اہمیت کو ظاہر کرتا ہے۔",
-          "zh": "这段圣训明确指出，仅仅说“我发誓”或类似的话语并不构成有约束力的誓言。誓言只有在明确以安拉之名发出时才具有法律效力，显示了誓言用词准确性的法理重要性。"
-        },
         "tags": [
           "jurisprudence",
           "ethics",

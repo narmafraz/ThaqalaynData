@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَفِي رِوَايَةِ السَّكُونِيِّ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং আল-সাকুনির বর্ণনায়:",
-              "de": "Und in der Überlieferung von al-Sakuni:",
-              "en": "And in the narration of al-Sakuni:",
-              "es": "Y en la narración de al-Sakuni:",
-              "fa": "و در روایت السکونی:",
-              "fr": "Et dans la narration d'al-Sakuni :",
-              "id": "Dan dalam riwayat al-Sakuni:",
-              "ru": "И в передаче аль-Сакуни:",
-              "tr": "Ve es-Sakuni rivayetinde:",
-              "ur": "اور اَلسَّکُونِی کی روایت میں:",
-              "zh": "在السكوني的传述中："
-            },
             "word_end": 3,
             "word_start": 0
           },
           {
             "arabic_text": "«أَنَّ عَلِيًّا عَلَيْهِ السَّلَامُ كَانَ يُضَمِّنُ الْقَائِدَ وَالسَّائِقَ وَالرَّاكِبَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "নিশ্চয়ই, ʿAli علیه السلام নেতা, চালক এবং আরোহীকে দায়ী করতেন।",
-              "de": "Wahrlich, ʿAli علیه السلام hielt den Anführer, den Fahrer und den Reiter für haftbar.",
-              "en": "Indeed, ʿAli عليه السلام used to hold the leader, the driver, and the rider liable.",
-              "es": "En verdad, ʿAli عليه السلام solía responsabilizar al líder, al conductor y al jinete.",
-              "fa": "در حقیقت، ʿAli علیه السلام رهبر، راننده و سوار را مسئول می‌دانست.",
-              "fr": "En effet, ʿAli عليه السلام tenait le chef, le conducteur et le cavalier responsables.",
-              "id": "Sesungguhnya, ʿAli علیه السلام biasa menuntut pertanggungjawaban pemimpin, pengemudi, dan penunggang.",
-              "ru": "Воистину, ʿAli علیه السلام считал ответственными вождя, водителя и всадника.",
-              "tr": "Gerçekten de, ʿAli علیه السلام lideri, sürücüyü ve biniciyi sorumlu tutardı.",
-              "ur": "بے شک، ʿAli علیہ السلام قائد، ڈرائیور، اور سوار کو ذمہ دار ٹھہراتے تھے۔",
-              "zh": "确实，ʿAliعليهالسلام曾追究领头者、驾驶者和骑乘者的责任。"
-            },
             "word_end": 12,
             "word_start": 3
           }
@@ -70,24 +57,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الرَّاكِبَ": "the rider on the animal",
-            "السَّائِقَ": "the one driving the animal from behind",
-            "الْقَائِدَ": "the one leading the animal",
-            "يُضَمِّنُ": "to hold legally liable or financially accountable"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُضَمِّنُ",
+          "الْقَائِدَ",
+          "السَّائِقَ",
+          "الرَّاكِبَ"
+        ],
         "related_quran": [
           {
             "ref": "2:194",
@@ -102,32 +77,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে যখন কোনো পশু ক্ষতি করে তখন দায়ী কে?",
-          "de": "Wer haftet im schiitischen Fiqh, wenn ein Tier Schaden verursacht?",
-          "en": "Who is held liable in Shia fiqh when an animal causes harm?",
-          "es": "¿Quién es responsable en la fiqh chií cuando un animal causa daño?",
-          "fa": "در فقه شیعه هنگامیکه حیوانی خسارت وارد کند، چه کسی مسئول است؟",
-          "fr": "Qui est tenu responsable en fiqh chiite lorsqu'un animal cause un dommage ?",
-          "id": "Siapa yang bertanggung jawab dalam fiqh Syiah ketika seekor hewan menyebabkan kerugian?",
-          "ru": "Кто несет ответственность в шиизме, если животное причиняет вред?",
-          "tr": "Şii fıkhında bir hayvan zarar verdiğinde kim sorumludur?",
-          "ur": "شیعہ فقہ میں جب جانور نقصان پہنچائے تو ذمہ دار کون ہوتا ہے؟",
-          "zh": "在什叶派法学中，当动物造成伤害时谁承担责任？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ইমাম ʿAli علیه السلام-এর পক্ষ থেকে পশুর সাথে সম্পর্কিত দায়িত্বের একটি আইনি সিদ্ধান্ত জানায়। এটি নির্দেশ করে যে পশু চালানো, চালক বা আরোহীকে দায়ী করা যেতে পারে, যা বিচারিক সিদ্ধান্ত এবং অন্যদের অধিকার সম্পর্কিত।",
-          "de": "Dieser Hadith berichtet eine rechtliche Regelung von Imam ʿAli علیه السلام bezüglich der Haftung in Fällen mit einem Tier. Er zeigt, dass die Person, die das Tier führt, fährt oder reitet, verantwortlich gemacht werden kann, was für gerichtliche Entscheidungen und die Rechte anderer relevant ist.",
-          "en": "This hadith reports a legal ruling from Imam ʿAli عليه السلام concerning liability in cases involving an animal. It indicates that the person leading, driving, or riding the animal could be held responsible, making it relevant to judicial rulings and the rights of others.",
-          "es": "Este hadiz reporta un fallo legal del Imam ʿAli عليه السلام sobre la responsabilidad en casos que involucran un animal. Indica que la persona que lidera, conduce o monta el animal puede ser considerada responsable, siendo relevante para fallos judiciales y los derechos de otros.",
-          "fa": "این حدیث حکم حقوقی امام ʿAli علیه السلام را درباره مسئولیت در موارد مربوط به حیوان گزارش می‌دهد. نشان می‌دهد که شخصی که حیوان را هدایت، رانندگی یا سوار می‌کند، می‌تواند مسئول شناخته شود که مرتبط با احکام قضایی و حقوق دیگران است.",
-          "fr": "Ce hadith rapporte un jugement légal de l'Imam ʿAli عليه السلام concernant la responsabilité dans les cas impliquant un animal. Il indique que la personne qui conduit, mène ou monte l'animal peut être tenue responsable, ce qui est pertinent pour les décisions judiciaires et les droits d'autrui.",
-          "id": "Hadis ini melaporkan sebuah ketetapan hukum dari Imam ʿAli علیه السلام mengenai tanggung jawab dalam kasus yang melibatkan hewan. Ini menunjukkan bahwa orang yang memimpin, mengemudi, atau menunggang hewan dapat dianggap bertanggung jawab, relevan dengan putusan hukum dan hak orang lain.",
-          "ru": "Этот хадис сообщает о юридическом постановлении Имама ʿAli علیه السلام относительно ответственности в случаях с животным. Он указывает, что лицо, ведущее, управляющее или едущее на животном, может нести ответственность, что важно для судебных решений и прав других.",
-          "tr": "Bu hadis, İmam ʿAli علیه السلام'den hayvanla ilgili sorumluluk hakkında bir hukuki hükmü bildirir. Hayvanı yöneten, süren veya binen kişinin sorumlu tutulabileceğini gösterir; bu da yargı kararları ve başkalarının haklarıyla ilgilidir.",
-          "ur": "یہ حدیث امام ʿAli علیہ السلام کی جانب سے جانور سے متعلق ذمہ داری کے قانونی حکم کی اطلاع دیتی ہے۔ یہ ظاہر کرتی ہے کہ جانور کو لے جانے والا، چلانے والا یا سوار ہونے والا ذمہ دار ٹھہرایا جا سکتا ہے، جو عدالتی احکامات اور دوسروں کے حقوق سے متعلق ہے۔",
-          "zh": "此圣训报告了ImamʿAliعليهالسلام关于涉及动物案件责任的法律裁决。表明领头者、驾驶者和骑乘者可能被追责，与司法裁决及他人权利相关。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations",

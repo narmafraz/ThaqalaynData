@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَ مُحَمَّدُ بْنُ مُسْلِمٍ أَبَا جَعْفَرٍ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবনে মুসলিম আবু জাফর عليه السلام-কে জিজ্ঞাসা করলেন:",
-              "de": "Muḥammad ibn Muslim fragte Abū Jaʿfar عليه السلام:",
-              "en": "Muḥammad ibn Muslim asked Abū Jaʿfar عليه السلام:",
-              "es": "Muḥammad ibn Muslim preguntó a Abū Jaʿfar عليه السلام:",
-              "fa": "محمد بن مسلم از ابوجعفر علیه السلام پرسید:",
-              "fr": "Muḥammad ibn Muslim a demandé à Abū Jaʿfar عليه السلام :",
-              "id": "Muḥammad ibn Muslim bertanya kepada Abū Jaʿfar عليه السلام:",
-              "ru": "Мухаммад ибн Муслим спросил Абу Джафара عليه السلام:",
-              "tr": "Muhammed ibn Muslim, Ebu Cafer (aleyhisselam)'a sordu:",
-              "ur": "مُحَمَّد ابن مسلم نے ابو جعفر علیہ السلام سے پوچھا:",
-              "zh": "穆罕默德本穆斯林问阿布贾法尔عليهالسلام："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "هَلْ يَدْخُلُ الرَّجُلُ مَكَّةَ بِغَيْرِ إِحْرَامٍ قَالَ «لَا إِلَّا مَرِيضٌ أَوْ مَنْ بِهِ بَطَنٌ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন পুরুষ কি ইহরাম ছাড়া মক্কায় প্রবেশ করতে পারে? তিনি বললেন: “না, শুধুমাত্র অসুস্থ বা যাঁর পেটে সমস্যা আছে।”",
-              "de": "Kann ein Mann Mekka ohne iḥrām betreten? Er sagte: „Nein, außer jemand, der krank ist oder Magenbeschwerden hat.“",
-              "en": "Can a man enter Makkah without iḥrām? He said: “No, except one who is ill or one who has a stomach ailment.”",
-              "es": "¿Puede un hombre entrar a La Meca sin iḥrām? Él dijo: “No, excepto quien esté enfermo o tenga una dolencia estomacal.”",
-              "fa": "آیا مردی می‌تواند بدون احرام وارد مکه شود؟ او گفت: «خیر، مگر کسی که بیمار است یا دچار بیماری معده است.»",
-              "fr": "Un homme peut-il entrer à La Mecque sans iḥrām ? Il a dit : « Non, sauf celui qui est malade ou qui a un mal d’estomac. »",
-              "id": "Apakah seorang pria dapat memasuki Makkah tanpa iḥrām? Dia berkata: “Tidak, kecuali orang yang sakit atau yang memiliki penyakit perut.”",
-              "ru": "Может ли мужчина войти в Мекку без иҳрама? Он сказал: «Нет, кроме больного или страдающего желудочным недугом.»",
-              "tr": "Bir adam iḥrām olmadan Mekke'ye girebilir mi? Dedi ki: “Hayır, hasta olan veya mide rahatsızlığı olan hariç.”",
-              "ur": "کیا کوئی مرد بغیر احرام کے مکہ میں داخل ہو سکتا ہے؟ انہوں نے کہا: \"نہیں، سوائے اس کے جو بیمار ہو یا جسے پیٹ کی بیماری ہو۔\"",
-              "zh": "一个男人可以不穿iḥrām进入麦加吗？他说：“不可以，除非是病人或有胃病的人。”"
-            },
             "word_end": 22,
             "word_start": 8
           }
@@ -81,25 +68,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِحْرَامٍ": "iḥrām, the consecrated state required for pilgrimage rites",
-            "بَطَنٌ": "a stomach ailment or abdominal illness",
-            "بِغَيْرِ": "without, indicating absence of the required state",
-            "مَرِيضٌ": "one who is ill",
-            "مَكَّةَ": "Makkah, the sacred city whose entry is being discussed"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "مَكَّةَ",
+          "بِغَيْرِ",
+          "إِحْرَامٍ",
+          "مَرِيضٌ",
+          "بَطَنٌ"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
@@ -110,32 +85,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কেউ কি ইহরাম ছাড়া মক্কায় প্রবেশ করতে পারে?",
-          "de": "Kann jemand Mekka betreten, ohne iḥrām zu tragen?",
-          "en": "Can someone enter Makkah without being in iḥrām?",
-          "es": "¿Puede alguien entrar a La Meca sin estar en iḥrām?",
-          "fa": "آیا کسی می‌تواند بدون احرام وارد مکه شود؟",
-          "fr": "Peut-on entrer à La Mecque sans être en iḥrām ?",
-          "id": "Apakah seseorang dapat memasuki Makkah tanpa iḥrām?",
-          "ru": "Может ли кто-то войти в Мекку без иҳрама?",
-          "tr": "Birisi iḥrām olmadan Mekke'ye girebilir mi?",
-          "ur": "کیا کوئی شخص بغیر احرام کے مکہ میں داخل ہو سکتا ہے؟",
-          "zh": "有人可以不穿iḥrām进入麦加吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি একটি আইনি বিধান প্রদান করে যে মক্কায় প্রবেশ সাধারণত ইহরাম প্রয়োজন। এটি অসুস্থ বা পেটের অসুস্থতায় আক্রান্ত ব্যক্তিদের জন্য একটি ব্যতিক্রম স্থাপন করে, যা কষ্টের সময়ে সহজতার ইঙ্গিত দেয়।",
-          "de": "Dieser Hadith gibt eine rechtliche Regel vor, dass das Betreten von Mekka grundsätzlich iḥrām erfordert. Er stellt auch eine Ausnahme für Kranke oder Personen mit Magenbeschwerden dar, was eine Erleichterung in Härtefällen anzeigt.",
-          "en": "This hadith gives a legal ruling that entering Makkah requires iḥrām as a general rule. It also establishes an exception for a sick person or one suffering from a stomach ailment, indicating accommodation in cases of hardship.",
-          "es": "Este hadiz establece una regla legal de que entrar a La Meca requiere iḥrām como norma general. También establece una excepción para la persona enferma o con dolencia estomacal, indicando una acomodación en casos de dificultad.",
-          "fa": "این حدیث حکم شرعی ورود به مکه را به‌طور کلی نیازمند احرام می‌داند و استثنایی برای بیمار یا مبتلایان به بیماری معده قائل است که نشان‌دهنده تسهیلات در شرایط سخت است.",
-          "fr": "Ce hadith donne un jugement légal selon lequel entrer à La Mecque nécessite l’iḥrām en règle générale. Il établit également une exception pour une personne malade ou souffrant d’un mal d’estomac, indiquant une accommodation en cas de difficulté.",
-          "id": "Hadis ini memberikan ketetapan hukum bahwa memasuki Makkah secara umum memerlukan iḥrām. Juga menetapkan pengecualian bagi orang sakit atau yang menderita penyakit perut, menunjukkan keringanan dalam kondisi kesulitan.",
-          "ru": "Этот хадис устанавливает юридическое правило, что вход в Мекку требует иҳрама как общее правило. Также он устанавливает исключение для больных или страдающих желудочными недугами, указывая на послабление в случаях затруднений.",
-          "tr": "Bu hadis, Mekke'ye girişin genel kural olarak iḥrām gerektirdiğine dair hukuki bir hüküm verir. Ayrıca hasta veya mide rahatsızlığı olanlar için bir istisna koyarak zorluk durumlarında kolaylık sağlar.",
-          "ur": "یہ حدیث ایک قانونی حکم دیتی ہے کہ مکہ میں داخل ہونا عام طور پر احرام کا تقاضا کرتا ہے۔ اس میں بیمار یا پیٹ کی بیماری والے کے لیے استثنا بھی بیان کیا گیا ہے، جو مشکل حالات میں رعایت کی نشاندہی کرتا ہے۔",
-          "zh": "这段圣训给出了法律裁定，进入麦加通常需要穿iḥrām。它也为病人或有胃病者设立了例外，表明在困难情况下的宽容。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

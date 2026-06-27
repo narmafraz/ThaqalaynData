@@ -14,6 +14,132 @@
       "up": "/books/al-kafi:4:3:131"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ إِسْمَاعِيلَ بْنِ مَرَّارٍ عَنْ يُونُسَ عَنْ سَمَاعَةَ بْنِ مِهْرَانَ عَنْ أَبِي بَصِيرٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 19,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قُلْتُ رَجُلٌ طَافَ بِالْبَيْتِ طَوَافَ الْفَرِيضَةِ فَلَمْ يَدْرِ سِتَّةً طَافَ أَمْ سَبْعَةً أَمْ ثَمَانِيَةً قَالَ يُعِيدُ طَوَافَهُ حَتَّى يَحْفَظَ قُلْتُ فَإِنَّهُ طَافَ وَ هُوَ مُتَطَوِّعٌ ثَمَانِيَ مَرَّاتٍ وَ هُوَ نَاسٍ قَالَ فَلْيُتِمَّهُ طَوَافَيْنِ ثُمَّ يُصَلِّي أَرْبَعَ رَكَعَاتٍ فَأَمَّا الْفَرِيضَةَ فَلْيُعِدْ حَتَّى يُتِمَّ سَبْعَةَ أَشْوَاطٍ",
+            "chunk_type": "body",
+            "word_end": 63,
+            "word_start": 19
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 106,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "إِسْمَاعِيلَ بْنِ مَرَّارٍ",
+              "name_en": "Ismail ibn Marrar",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 26,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "يُونُسَ",
+              "name_en": "Yunus",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 149,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "سَمَاعَةَ بْنِ مِهْرَانَ",
+              "name_en": "Sama'a ibn Mihran",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 14,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي بَصِيرٍ",
+              "name_en": "Abu Basir",
+              "position": 6,
+              "role": "companion"
+            }
+          ]
+        },
+        "key_phrases": [],
+        "key_terms_keys": [
+          "طَوَافَ الْفَرِيضَةِ",
+          "أَشْوَاطٍ",
+          "مُتَطَوِّعٌ",
+          "رَكَعَاتٍ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:158",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:197",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "worship"
+        ],
+        "topics": [
+          "hajj",
+          "prayer_rulings"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (8/39)"
       ],
@@ -94,7 +220,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:4:3:131:6",

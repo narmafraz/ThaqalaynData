@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلْحُسَيْنُ بْنُ سَعِيدٍ عَنْ فَضَالَةَ عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبِي عَبْدِ اللَّهِ الْبَصْرِيِّ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ, ফাদালাহ থেকে, 'আব্দুর রহমান ইবন আবি 'আব্দুল্লাহ আল-বসরি থেকে, তিনি বলেন:",
-              "de": "Al-Husayn ibn Sa'id, von Fadalah, von 'Abd al-Rahman ibn Abi 'Abd Allah al-Basri, der sagte:",
-              "en": "Al-Husayn ibn Sa'id, from Fadalah, from 'Abd al-Rahman ibn Abi 'Abd Allah al-Basri, who said:",
-              "es": "Al-Husayn ibn Sa'id, de Fadalah, de 'Abd al-Rahman ibn Abi 'Abd Allah al-Basri, quien dijo:",
-              "fa": "الحسین بن سعید، از فضاله، از عبدالرحمن بن ابی عبدالله بصری، که گفت:",
-              "fr": "Al-Husayn ibn Sa'id, d'après Fadalah, d'après 'Abd al-Rahman ibn Abi 'Abd Allah al-Basri, qui a dit :",
-              "id": "Al-Husayn ibn Sa'id, dari Fadalah, dari 'Abd al-Rahman ibn Abi 'Abd Allah al-Basri, yang berkata:",
-              "ru": "Аль-Хусайн ибн Са'ид, от Фадалы, от 'Абд ар-Рахмана ибн Аби 'Абд Аллаха аль-Басри, который сказал:",
-              "tr": "el-Hüseyin ibn Sa'id, Fadale'den, 'Abd al-Rahman ibn Abi 'Abd Allah el-Basri'den, o da şöyle dedi:",
-              "ur": "الحسین بن سعید، فضالہ سے، عبد الرحمن بن ابی عبد اللہ البصری سے، انہوں نے کہا:",
-              "zh": "Al-HusaynibnSa'id，传自Fadalah，传自'Abd al-RahmanibnAbi'AbdAllahal-Basri，他说："
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنِ امْرَأَةٍ مَاتَتْ مَعَ رِجَالٍ، قَالَ: «تُلَفُّ وَتُدْفَنُ وَلَا تُغَسَّلُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁকে এমন এক নারীর ব্যাপারে জিজ্ঞেস করলাম, যিনি পুরুষদের মধ্যে মারা গিয়েছিলেন। তিনি বললেন: “তাঁকে কাফন পরিয়ে দাফন করা হবে, এবং তাঁর গোসল করানো হবে না।”",
-              "de": "Ich fragte ihn nach einer Frau, die unter Männern gestorben war. Er sagte: „Sie wird eingehüllt und begraben, und ihr wird kein ghusl gegeben.“",
-              "en": "I asked him about a woman who died among men. He said: “She is wrapped and buried, and she is not given ghusl.”",
-              "es": "Le pregunté acerca de una mujer que murió entre hombres. Dijo: “Se la envuelve y se la entierra, y no se le hace ghusl.”",
-              "fa": "از او درباره زنی پرسیدم که در میان مردان از دنیا رفته بود. فرمود: «او را می‌پیچند و دفن می‌کنند، و به او غسل داده نمی‌شود.»",
-              "fr": "Je l’ai interrogé au sujet d’une femme morte parmi des hommes. Il dit : « On l’enveloppe et on l’enterre, et on ne lui fait pas le ghusl. »",
-              "id": "Aku bertanya kepadanya tentang seorang perempuan yang meninggal di tengah-tengah laki-laki. Ia berkata: “Ia dibungkus dan dikuburkan, dan ia tidak dimandikan dengan ghusl.”",
-              "ru": "Я спросил его о женщине, которая умерла среди мужчин. Он сказал: «Ее заворачивают и хоронят, и ей не совершают гусль».",
-              "tr": "Ona, erkekler arasında ölen bir kadın hakkında sordum. Dedi ki: “O kefenlenir ve defnedilir; ona gusül verilmez.”",
-              "ur": "میں نے ان سے ایک ایسی عورت کے بارے میں پوچھا جو مردوں کے درمیان فوت ہو گئی۔ انہوں نے فرمایا: “اسے لپیٹ کر دفن کیا جائے گا، اور اس کا غسل نہیں دیا جائے گا۔”",
-              "zh": "我问他关于一位死在男人之中的女人。他说：“她被包裹并埋葬，不为她做ghusl。”"
-            },
             "word_end": 25,
             "word_start": 14
           },
           {
             "arabic_text": "قَالَ مُحَمَّدُ بْنُ الْحَسَنِ: الَّذِي أَعْمَلُ عَلَيْهِ مَا تَضَمَّنَتْهُ هَذِهِ الْأَخْبَارُ، مَعَ مَا قَدَّمْنَاهُ فِي رِوَايَةِ أَبِي الصَّبَّاحِ الْكِنَانِيِّ وَأَبِي بَكْرٍ الْحَضْرَمِيِّ وَدَاوُدَ بْنِ سِرْحَانَ، مِنْ أَنَّ الرَّجُلَ إِذَا مَاتَ بَيْنَ نِسَاءٍ لَيْسَ لَهُ فِيهِنَّ مَحْرَمٌ، وَالْمَرْأَةَ تَمُوتُ بَيْنَ رِجَالٍ لَيْسَ لَهَا فِيهِمْ مَحْرَمٌ وَلَا زَوْجٌ، أَنْ تُدْفَنَ كَمَا هِيَ وَلَا تُمَسَّ عَلَى حَالٍ، وَلَا يُنَافِي ذَلِكَ مَا رَوَاهُ:",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন আল-হাসান বলেন: আমি যে বিষয়ে আমল করি তা হলো এই বর্ণনাগুলোতে যা এসেছে, এর সঙ্গে আমরা পূর্বে আবু আল-সাব্বাহ আল-কিনানি, আবু বকর আল-হাদরামি, এবং দাউদ ইবন সিরহানের বর্ণনায় যা উপস্থাপন করেছি: কোনো পুরুষ যদি এমন নারীদের মধ্যে মারা যায় যাদের মধ্যে তার কোনো মাহরাম নেই, এবং কোনো নারী যদি এমন পুরুষদের মধ্যে মারা যায় যাদের মধ্যে তার কোনো মাহরাম নেই এবং তার কোনো স্বামীও নেই, তবে তাকে যেমন আছে তেমনই দাফন করা হবে এবং কোনো অবস্থাতেই তাকে স্পর্শ করা হবে না। এবং এটি তার বর্ণিত কথার বিরোধী নয়:",
-              "de": "Muhammad ibn al-Hasan sagte: Worauf ich mich stütze, ist das, was diese Überlieferungen enthalten, zusammen mit dem, was wir bereits in der Überlieferung von Abi al-Sabbah al-Kinani, Abi Bakr al-Hadrami und Dawud ibn Sirhan dargelegt haben: Wenn ein Mann unter Frauen stirbt, unter denen sich keine Mahram-Verwandte von ihm befindet, und eine Frau unter Männern stirbt, unter denen sich kein Mahram von ihr befindet und sie auch keinen Ehemann hat, dann soll sie so begraben werden, wie sie ist, und unter keinen Umständen berührt werden. Und das widerspricht nicht dem, was er überliefert hat:",
-              "en": "Muhammad ibn al-Hasan said: What I act upon is what these reports contain, together with what we have previously presented in the narration of Abi al-Sabbah al-Kinani, Abi Bakr al-Hadrami, and Dawud ibn Sirhan: that when a man dies among women among whom he has no mahram, and a woman dies among men among whom she has no mahram and no husband, then she is to be buried as she is and not touched in any circumstance. And that is not contradicted by what he narrated:",
-              "es": "Muhammad ibn al-Hasan dijo: Lo que yo sigo es lo que contienen estos relatos, junto con lo que ya hemos presentado en la narración de Abi al-Sabbah al-Kinani, Abi Bakr al-Hadrami y Dawud ibn Sirhan: que cuando un hombre muere entre mujeres entre las cuales no tiene ningún mahram, y una mujer muere entre hombres entre los cuales no tiene ningún mahram ni tampoco esposo, entonces debe ser enterrada tal como está y no debe ser tocada en ninguna circunstancia. Y eso no contradice lo que él narró:",
-              "fa": "محمد بن حسن گفت: آنچه من بر آن عمل می‌کنم همان چیزی است که این اخبار دربردارد، همراه با آنچه پیش‌تر در روایت ابوالصباح کنانی، ابوبکر حضرمی و داود بن سرحان آوردیم: اینکه هرگاه مردی در میان زنانی بمیرد که در میان آنان برای او محرمى نباشد، و زنی در میان مردانی بمیرد که در میان آنان برای او محرمى نباشد و نیز شوهری نداشته باشد، باید همان‌گونه که هست دفن شود و در هیچ حالتی به او دست زده نشود. و این با آنچه او روایت کرده منافاتی ندارد:",
-              "fr": "Muhammad ibn al-Hasan a dit : Ce sur quoi j’agis est ce que contiennent ces récits, ainsi que ce que nous avons déjà présenté dans la narration de Abi al-Sabbah al-Kinani, Abi Bakr al-Hadrami et Dawud ibn Sirhan : lorsqu’un homme meurt parmi des femmes parmi lesquelles il n’a aucun mahram, et qu’une femme meurt parmi des hommes parmi lesquels elle n’a aucun mahram et n’a pas non plus d’époux, alors elle doit être enterrée telle qu’elle est et ne doit être touchée en aucune circonstance. Et cela ne contredit pas ce qu’il a rapporté :",
-              "id": "Muhammad ibn al-Hasan berkata: Yang aku pegang adalah apa yang terkandung dalam riwayat-riwayat ini, bersama dengan apa yang telah kami kemukakan sebelumnya dalam riwayat Abi al-Sabbah al-Kinani, Abi Bakr al-Hadrami, dan Dawud ibn Sirhan: bahwa apabila seorang laki-laki meninggal di tengah-tengah perempuan yang tidak ada mahram baginya di antara mereka, dan seorang perempuan meninggal di tengah-tengah laki-laki yang tidak ada mahram baginya di antara mereka dan tidak pula memiliki suami, maka ia harus dikuburkan sebagaimana adanya dan tidak disentuh dalam keadaan apa pun. Dan itu tidak bertentangan dengan apa yang ia riwayatkan:",
-              "ru": "Мухаммад ибн аль-Хасан сказал: То, на чем я основываюсь, — это то, что содержится в этих сообщениях, вместе с тем, что мы уже привели в передаче Аби ас-Саббах аль-Кинани, Аби Бакра аль-Хадрами и Давуда ибн Сирхана: если мужчина умирает среди женщин, среди которых нет для него махрама, и женщина умирает среди мужчин, среди которых нет для нее махрама и нет мужа, то ее следует похоронить в том виде, в каком она есть, и ни в коем случае не прикасаться к ней. И это не противоречит тому, что он передал:",
-              "tr": "Muhammed ibn el-Hasan dedi ki: Benim uyguladığım görüş, bu rivayetlerin içerdiği şeydir; ayrıca daha önce Ebu's-Sabbah el-Kinani, Ebu Bekir el-Hadrami ve Davud ibn Sirhan rivayetinde sunduğumuz şu hususla birlikte: Bir erkek, aralarında kendisine mahrem olmayan kadınlar arasında ölürse ve bir kadın da aralarında kendisine mahrem olmayan ve kocası da olmayan erkekler arasında ölürse, olduğu gibi defnedilir ve hiçbir durumda ona dokunulmaz. Bu, onun rivayet ettiği şeyle çelişmez:",
-              "ur": "محمد بن الحسن نے کہا: میں جس بات پر عمل کرتا ہوں وہ یہ ہے جو ان روایات میں مذکور ہے، اس کے ساتھ جو ہم نے پہلے ابو الصباح الکنانی، ابو بکر الحضرمی، اور داود بن سرحان کی روایت میں پیش کیا ہے: کہ جب کوئی مرد ایسی عورتوں کے درمیان فوت ہو جن میں اس کا کوئی محرم نہ ہو، اور کوئی عورت ایسے مردوں کے درمیان فوت ہو جن میں اس کا کوئی محرم نہ ہو اور نہ شوہر ہو، تو اسے اسی حالت میں دفن کیا جائے اور کسی حال میں اسے ہاتھ نہ لگایا جائے۔ اور یہ اس روایت کے منافی نہیں جو اس نے بیان کی:",
-              "zh": "Muhammadibnal-Hasan说：我所依据的是这些传述所包含的内容，以及我们先前在Abi al-Sabbah al-Kinani、Abi Bakr al-Hadrami和DawudibnSirhan的传述中所提出的内容：如果一个男人死在一些女人之间，而她们之中没有一个是他的mahram；或者一个女人死在一些男人之间，而他们之中没有一个是她的mahram，并且她也没有丈夫，那么她应当按原状被埋葬，在任何情况下都不可触碰她。这与他所传述的并不矛盾："
-            },
             "word_end": 84,
             "word_start": 25
           }
@@ -113,27 +87,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْأَخْبَارُ": "The transmitted reports or hadiths relied upon for the ruling.",
-            "تُدْفَنُ": "She is buried.",
-            "تُغَسَّلُ": "She is given ghusl (ritual washing of the deceased).",
-            "تُلَفُّ": "She is wrapped or shrouded for burial.",
-            "زَوْجٌ": "A husband, who has legal standing in relation to the deceased wife.",
-            "لَا تُمَسَّ": "She is not to be touched.",
-            "مَحْرَمٌ": "A person with whom marriage is permanently forbidden, permitting certain forms of contact."
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "تُلَفُّ",
+          "تُدْفَنُ",
+          "تُغَسَّلُ",
+          "مَحْرَمٌ",
+          "زَوْجٌ",
+          "لَا تُمَسَّ",
+          "الْأَخْبَارُ"
+        ],
         "related_quran": [
           {
             "ref": "5:6",
@@ -144,32 +106,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কোনো নারী অ- মাহরাম পুরুষদের মধ্যে মারা যান এবং তাঁকে গোসল করানোর জন্য কোনো মাহরাম বা স্বামী উপস্থিত না থাকে, তবে বিধান কী?",
-          "de": "Was ist die Regel, wenn eine Frau unter nicht verwandten Männern stirbt und kein Mahram oder Ehemann anwesend ist, um ihr ghusl zu geben?",
-          "en": "What is the ruling if a woman dies among unrelated men and no mahram or husband is present to perform ghusl?",
-          "es": "¿Cuál es la norma si una mujer muere entre hombres no emparentados y no hay ningún mahram ni esposo presente para hacerle ghusl?",
-          "fa": "اگر زنی در میان مردان نامحرم بمیرد و برای غسل دادن او محرم یا شوهری حاضر نباشد، حکم چیست؟",
-          "fr": "Quelle est la règle si une femme meurt parmi des hommes sans lien de mahram et qu’aucun mahram ni époux n’est présent pour lui faire le ghusl ?",
-          "id": "Apa hukumnya jika seorang perempuan meninggal di tengah-tengah laki-laki yang bukan mahramnya dan tidak ada mahram atau suami yang حاضر untuk memandikannya dengan ghusl?",
-          "ru": "Каково постановление, если женщина умирает среди посторонних мужчин и нет ни махрама, ни мужа, чтобы совершить ей гусль?",
-          "tr": "Bir kadın yabancı erkekler arasında ölürse ve gusül yaptıracak mahremi ya da kocası yoksa hüküm nedir?",
-          "ur": "اگر کوئی عورت غیر محرم مردوں کے درمیان فوت ہو جائے اور غسل دینے کے لیے کوئی محرم یا شوہر موجود نہ ہو تو حکم کیا ہے؟",
-          "zh": "如果一位妇女死在非亲属男子之间，而且没有mahram或丈夫为她做ghusl，教法规定是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে এমন এক নারীর মৃতদেহ কীভাবে পরিচালনা করা হবে সে বিষয়ে শরঈ বিধান আলোচনা করা হয়েছে, যিনি অ- মাহরাম পুরুষদের মধ্যে মারা যান। এতে বলা হয়েছে, মাহরাম বা স্বামী না থাকলে তাঁকে কাফন পরিয়ে গোসল ছাড়াই দাফন করা হবে, যা মৃত্যুর পর দেহের পবিত্রতা রক্ষা এবং বৈধ শারীরিক স্পর্শের সীমা সম্পর্কে ফিকহি উদ্বেগকে প্রতিফলিত করে।",
-          "de": "Dieser Hadith behandelt die rechtliche Regelung für den Umgang mit dem Leichnam einer verstorbenen Frau, die unter nicht verwandten Männern stirbt. Er besagt, dass sie in Abwesenheit eines Mahram oder Ehemanns eingehüllt und ohne ghusl begraben werden soll, was die fiqh-rechtliche Sorge um die Wahrung der Unantastbarkeit des Körpers und die Grenzen erlaubten körperlichen Kontakts nach dem Tod widerspiegelt.",
-          "en": "This hadith addresses the legal ruling for handling the body of a deceased woman who dies among unrelated men. It states that in the absence of a mahram or husband, she is to be wrapped and buried without ghusl, reflecting the juristic concern for preserving bodily sanctity and the limits of lawful physical contact after death.",
-          "es": "Este hadiz aborda la norma jurídica sobre cómo tratar el cuerpo de una mujer fallecida que muere entre hombres no emparentados. Señala que, en ausencia de un mahram o esposo, debe ser envuelta y enterrada sin ghusl, lo que refleja la preocupación jurídica por preservar la santidad del cuerpo y los límites del contacto físico lícito después de la muerte.",
-          "fa": "این حدیث حکم شرعیِ برخورد با پیکر زنِ متوفایی را بیان می‌کند که در میان مردان نامحرم از دنیا می‌رود. در آن آمده است که در نبودِ محرم یا شوهر، او را می‌پیچند و بدون غسل دفن می‌کنند؛ و این نشان‌دهنده توجه فقهی به حفظ حرمت بدن و حدود تماس بدنیِ مجاز پس از مرگ است.",
-          "fr": "Ce hadith traite de la règle juridique concernant la manière de traiter le corps d’une femme décédée qui meurt parmi des hommes sans lien de mahram. Il indique qu’en l’absence d’un mahram ou d’un époux, elle doit être enveloppée et enterrée sans ghusl, ce qui reflète le souci juridique de préserver la sacralité du corps et les limites du contact physique licite après la mort.",
-          "id": "Hadis ini membahas hukum fikih tentang penanganan jenazah seorang perempuan yang meninggal di tengah-tengah laki-laki yang bukan mahramnya. Disebutkan bahwa jika tidak ada mahram atau suami, ia dibungkus dan dikuburkan tanpa ghusl, yang mencerminkan perhatian fikih terhadap penjagaan kehormatan tubuh dan batas-batas sentuhan fisik yang dibolehkan setelah kematian.",
-          "ru": "Этот хадис касается правового постановления о том, как обращаться с телом умершей женщины, если она умирает среди посторонних мужчин. В нем говорится, что при отсутствии махрама или мужа ее следует завернуть и похоронить без гусля, что отражает фикховую заботу о сохранении неприкосновенности тела и границ дозволенного физического контакта после смерти.",
-          "tr": "Bu hadis, bir kadının yabancı erkekler arasında vefat etmesi halinde bedenine nasıl muamele edileceğine dair fıkhî hükmü ele alır. Mahrem veya koca bulunmadığında, onun kefenlenip gusül verilmeden defnedileceğini belirtir; bu da bedenin dokunulmazlığını koruma ve ölümden sonra meşru fiziksel temasın sınırlarına dair fıkhî kaygıyı yansıtır.",
-          "ur": "یہ حدیث اس شرعی حکم کو بیان کرتی ہے کہ اگر کوئی عورت غیر محرم مردوں کے درمیان فوت ہو جائے تو اس کے جسم کے ساتھ کیا کیا جائے۔ اس میں کہا گیا ہے کہ محرم یا شوہر کی عدم موجودگی میں اسے لپیٹ کر بغیر غسل کے دفن کیا جائے، جو بعد از وفات جسمانی حرمت اور جائز جسمانی تماس کی حدود کے فقہی تحفظ کی عکاسی کرتا ہے۔",
-          "zh": "这段圣训讨论的是：当一位妇女死在非亲属男子之间时，应如何处理其遗体的教法判定。它指出，在没有mahram或丈夫的情况下，应将她包裹并埋葬，而不为她做ghusl，这体现了教法学上对维护身体尊严以及死亡之后合法身体接触界限的关注。"
-        },
         "tags": [
           "jurisprudence",
           "family",

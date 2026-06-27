@@ -17,23 +17,23 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَكَانَ عَلِيُّ بْنُ الْحُسَيْنِ وَأَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ يَتَصَدَّقَانِ بِثُلُثٍ عَلَى جِيرَانِهِمْ وَبِثُلُثٍ عَلَى السُّؤَّالِ وَبِثُلُثٍ يُمْسِكَانِهِ لِأَهْلِ الْبَيْتِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আর ʿAlī ibn al-Ḥusayn এবং আবু জাফর عليهما السلام তাদের দান এক-তৃতীয়াংশ প্রতিবেশীদের জন্য, এক-তৃতীয়াংশ ভিক্ষুকদের জন্য দিতেন এবং এক-তৃতীয়াংশ নিজেদের পরিবারের জন্য রাখতেন।",
-              "de": "Und ʿAlī ibn al-Ḥusayn und Abū Jaʿfar عليهما السلام spendeten ein Drittel an ihre Nachbarn, ein Drittel an die Bettler und behielten ein Drittel für die Angehörigen des Haushalts.",
-              "en": "And ʿAlī ibn al-Ḥusayn and Abū Jaʿfar عليهما السلام used to give in charity one-third to their neighbors, one-third to the beggars, and keep one-third for the people of the household.",
-              "es": "Y ʿAlī ibn al-Ḥusayn y Abū Jaʿfar عليهما السلام solían dar en caridad un tercio a sus vecinos, un tercio a los mendigos, y guardar un tercio para la gente del hogar.",
-              "fa": "و ʿAlī ibn al-Ḥusayn و Abū Jaʿfar علیهما السلام یک‌سوم را به همسایگان خود صدقه می‌دادند، یک‌سوم را به گدایان می‌دادند و یک‌سوم را برای اهل بیت نگه می‌داشتند.",
-              "fr": "Et ʿAlī ibn al-Ḥusayn et Abū Jaʿfar عليهما السلام avaient l'habitude de donner en aumône un tiers à leurs voisins, un tiers aux mendiants, et de garder un tiers pour les gens de la maison.",
-              "id": "Dan ʿAlī ibn al-Ḥusayn dan Abū Jaʿfar علیهما السلام biasa bersedekah dengan membagi menjadi sepertiga untuk tetangga mereka, sepertiga untuk pengemis, dan sepertiga disimpan untuk keluarga.",
-              "ru": "И ʿAlī ибн аль-Ḥусайн и Абū Джаʿфар عليهما السلام обычно жертвовали треть своим соседям, треть нищим и оставляли треть для членов семьи.",
-              "tr": "Ve ʿAlī ibn al-Ḥusayn ve Ebû Caʿfer عليهما السلام sadaka olarak üçte birini komşularına, üçte birini dilencilere verirlerdi ve üçte birini ev halkı için saklarlardı.",
-              "ur": "اور عَلِی ابن الحُسَین اور ابو جعفر علیہما السلام صدقہ میں ایک تہائی اپنے پڑوسیوں کو دیتے تھے، ایک تہائی مسکینوں کو دیتے تھے، اور ایک تہائی اہلِ بیت کے لیے رکھتے تھے۔",
-              "zh": "ʿAlīibnal-Ḥusayn和AbūJaʿfarعليهماالسلام习惯将施舍分为三份：三分之一给邻居，三分之一给乞丐，三分之一留给家人。"
-            },
             "word_end": 19,
             "word_start": 0
           }
@@ -56,26 +56,14 @@
             "phrase_en": "People of the House (Ahlulbayt)"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "السُّؤَّالِ": "the beggars or those who ask",
-            "بِثُلُثٍ": "as one-third of the portion",
-            "جِيرَانِهِمْ": "their neighbors",
-            "لِأَهْلِ الْبَيْتِ": "for the members of the household",
-            "يَتَصَدَّقَانِ": "they would give in charity",
-            "يُمْسِكَانِهِ": "they would keep it"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَتَصَدَّقَانِ",
+          "بِثُلُثٍ",
+          "جِيرَانِهِمْ",
+          "السُّؤَّالِ",
+          "يُمْسِكَانِهِ",
+          "لِأَهْلِ الْبَيْتِ"
+        ],
         "related_quran": [
           {
             "ref": "76:8",
@@ -90,32 +78,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম ʿAlī ibn al-Ḥusayn এবং ইমাম আল-বাকির عليهما السلام তাদের কোরবানি কিভাবে ভাগ করতেন?",
-          "de": "Wie teilten Imam ʿAlī ibn al-Ḥusayn und Imam al-Bāqir عليهما السلام ihr Opferfleisch auf?",
-          "en": "How did Imam ʿAlī ibn al-Ḥusayn and Imam al-Bāqir عليهما السلام divide their sacrificial offering?",
-          "es": "¿Cómo dividían el Imam ʿAlī ibn al-Ḥusayn y el Imam al-Bāqir عليهما السلام su ofrenda sacrificial?",
-          "fa": "امام ʿAlī ibn al-Ḥusayn و امام الباقر علیهما السلام قربانی خود را چگونه تقسیم می‌کردند؟",
-          "fr": "Comment l’Imam ʿAlī ibn al-Ḥusayn et l’Imam al-Bāqir عليهما السلام divisaient-ils leur offrande sacrificielle ?",
-          "id": "Bagaimana Imam ʿAlī ibn al-Ḥusayn dan Imam al-Bāqir علیهما السلام membagi kurban mereka?",
-          "ru": "Как Имам ʿAlī ибн аль-Ḥусайн и Имам аль-Бāкир عليهما السلام делили свою жертвенную мясу?",
-          "tr": "İmam ʿAlī ibn al-Ḥusayn ve İmam al-Bāqir عليهما السلام kurbanlarını nasıl paylaştılar?",
-          "ur": "امام عَلِی ابن الحُسَین اور امام الباقر علیہما السلام نے اپنی قربانی کو کیسے تقسیم کیا؟",
-          "zh": "伊玛目ʿAlīibnal-Ḥusayn和伊玛目al-Bāqirعليهماالسلام如何分配他们的祭品？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ইমাম ʿAlī ibn al-Ḥusayn এবং ইমাম আবু জাফর عليهما السلام এর কোরবানি মাংস তিন ভাগে ভাগ করার প্রথা বর্ণনা করে। এটি প্রতিবেশী, দরিদ্র এবং নিজের পরিবারের প্রতি যত্ন প্রদর্শন করে, যা দানবিতরণের একটি সুষম মডেল।",
-          "de": "Dieser Hadith beschreibt die Praxis von Imam ʿAlī ibn al-Ḥusayn und Imam Abū Jaʿfar عليهما السلام, das Schlachtfleisch in drei Teile zu teilen. Er hebt die Fürsorge für Nachbarn, Bedürftige und den eigenen Haushalt hervor und zeigt ein ausgewogenes Modell der wohltätigen Verteilung.",
-          "en": "This hadith describes the practice of Imam ʿAlī ibn al-Ḥusayn and Imam Abū Jaʿfar عليهما السلام in dividing sacrificial meat into three portions. It highlights care for neighbors, the needy, and one’s own household, showing a balanced model of charitable distribution.",
-          "es": "Este hadiz describe la práctica del Imam ʿAlī ibn al-Ḥusayn y el Imam Abū Jaʿfar عليهما السلام al dividir la carne del sacrificio en tres partes. Destaca el cuidado hacia los vecinos, los necesitados y el propio hogar, mostrando un modelo equilibrado de distribución caritativa.",
-          "fa": "این حدیث به شرح عمل امام ʿAlī ibn al-Ḥusayn و امام Abū Jaʿfar علیهما السلام در تقسیم گوشت قربانی به سه بخش می‌پردازد. این عمل مراقبت از همسایگان، نیازمندان و خانواده را نشان می‌دهد و الگویی متعادل از توزیع صدقه است.",
-          "fr": "Ce hadith décrit la pratique de l’Imam ʿAlī ibn al-Ḥusayn et de l’Imam Abū Jaʿfar عليهما السلام dans la division de la viande du sacrifice en trois parts. Il met en lumière le soin apporté aux voisins, aux nécessiteux et à sa propre famille, montrant un modèle équilibré de distribution caritative.",
-          "id": "Hadis ini menjelaskan praktik Imam ʿAlī ibn al-Ḥusayn dan Imam Abū Jaʿfar علیهما السلام dalam membagi daging kurban menjadi tiga bagian. Ini menyoroti perhatian kepada tetangga, orang miskin, dan keluarga sendiri, menunjukkan model distribusi sedekah yang seimbang.",
-          "ru": "Этот хадис описывает практику Имама ʿAlī ибн аль-Ḥусайна и Имама Абū Джаʿфара عليهما السلام по разделению мяса жертвоприношения на три части. Он подчеркивает заботу о соседях, нуждающихся и своей семье, показывая сбалансированную модель благотворительного распределения.",
-          "tr": "Bu hadis, İmam ʿAlī ibn al-Ḥusayn ve İmam Ebû Caʿfer عليهما السلام'ın kurban etini üçe bölme uygulamasını anlatır. Komşulara, muhtaçlara ve kendi ev halkına gösterilen özeni vurgulayarak dengeli bir sadaka dağıtım modelini ortaya koyar.",
-          "ur": "یہ حدیث امام عَلِی ابن الحُسَین اور امام ابو جعفر علیہما السلام کے قربانی کے گوشت کو تین حصوں میں تقسیم کرنے کے طریقہ کار کو بیان کرتی ہے۔ یہ پڑوسیوں، محتاجوں اور اپنے گھر والوں کی دیکھ بھال کو ظاہر کرتی ہے، جو صدقہ کی متوازن تقسیم کا نمونہ ہے۔",
-          "zh": "此圣训描述了伊玛目ʿAlīibnal-Ḥusayn和伊玛目AbūJaʿfarعليهماالسلام将祭肉分为三份的做法。它强调了对邻居、贫困者和家人的关怀，展示了慈善分配的平衡模式。"
-        },
         "tags": [
           "jurisprudence",
           "family",

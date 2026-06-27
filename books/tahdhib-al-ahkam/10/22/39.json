@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ مَا رَوَاهُ أَحْمَدُ بْنُ أَبِي عَبْدِ اللَّهِ عَنْ عُثْمَانَ بْنِ عِيسَى عَنْ سَمَاعَةَ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আর আহমদ ইবন আবি ʿআবদিল্লাহ, ʿউসমান ইবন ʿঈসা থেকে, তিনি সামাʿআহ থেকে বর্ণনা করেছেন, তিনি বলেন:",
-              "de": "Und unter dem, was von Aḥmad ibn Abī ʿAbdillāh überliefert wurde, von ʿUthmān ibn ʿĪsā, von Samāʿah, der sagte:",
-              "en": "And among what was narrated by Aḥmad ibn Abī ʿAbdillāh, from ʿUthmān ibn ʿĪsā, from Samāʿah, who said:",
-              "es": "Y entre lo que fue narrado por Aḥmad ibn Abī ʿAbdillāh, de ʿUthmān ibn ʿĪsā, de Samāʿah, quien dijo:",
-              "fa": "و از جمله آنچه احمد بن ابی‌عبدالله از عثمان بن عیسی، از سماعه روایت کرده است، او گفت:",
-              "fr": "Et parmi ce qui a été rapporté par Aḥmad ibn Abī ʿAbdillāh, d’après ʿUthmān ibn ʿĪsā, d’après Samāʿah, qui a dit :",
-              "id": "Dan di antara apa yang diriwayatkan oleh Aḥmad ibn Abī ʿAbdillāh, dari ʿUthmān ibn ʿĪsā, dari Samāʿah, ia berkata:",
-              "ru": "И среди того, что было передано Ахмадом ибн Аби ʿАбдуллахом, от ʿУсмана ибн ʿИсы, от Самāʿах, который сказал:",
-              "tr": "Ve Ahmed ibn Ebî ʿAbdillâh’ın, Osman ibn ʿÎsâ’dan, onun da Semâʿa’dan rivayet ettiği şeyler arasında şöyle dedi:",
-              "ur": "اور ان روایات میں سے جو احمد بن ابی عبد اللہ نے عثمان بن عیسیٰ سے، انہوں نے سماعہ سے روایت کی، انہوں نے کہا:",
-              "zh": "在AḥmadibnAbīʿAbdillāh通过ʿUthmānbnʿĪsā从Samāʿah传述的内容中，他说："
-            },
             "word_end": 15,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنِ الْأَسْنَانِ فَقَالَ: «هِيَ فِي الدِّيَةِ سَوَاءٌ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁর কাছে দাঁত সম্পর্কে জিজ্ঞেস করলাম, তিনি বললেন: “দিয়াতে তারা সমান।”",
-              "de": "Ich fragte ihn nach den Zähnen, und er sagte: „Sie sind im diyah gleich.“",
-              "en": "I asked him about the teeth, and he said: “They are equal in the diyah.”",
-              "es": "Le pregunté acerca de los dientes, y dijo: “Son iguales en la diyah.”",
-              "fa": "از او درباره دندان‌ها پرسیدم، پس فرمود: «آنها در دیه برابرند.»",
-              "fr": "Je l’ai interrogé au sujet des dents, et il a dit : « Elles sont égales dans la diyah. »",
-              "id": "Aku bertanya kepadanya tentang gigi-gigi, lalu ia berkata: “Mereka sama dalam diyah.”",
-              "ru": "Я спросил его о зубах, и он сказал: «Они равны в дийе».",
-              "tr": "Ona dişler hakkında sordum, o da şöyle dedi: “Onlar diyette eşittir.”",
-              "ur": "میں نے ان سے دانتوں کے بارے میں پوچھا تو انہوں نے فرمایا: “وہ دیت میں برابر ہیں۔”",
-              "zh": "我问他关于牙齿的事，他说：“它们在diyah中是相等的。”"
-            },
             "word_end": 23,
             "word_start": 15
           },
           {
             "arabic_text": "فَالْوَجْهُ فِي هَذَيْنِ الْخَبَرَيْنِ وَ الْخَبَرِ الَّذِي قَدَّمْنَاهُ فِي رِوَايَةِ الْعَلَاءِ بْنِ الْفُضَيْلِ أَنْ نَحْمِلَهَا عَلَى الثَّنَايَا وَ مَقَادِيمِ الْأَسْنَانِ دُونَ مَوَاخِيرِهَا، لِأَنَّهَا هِيَ الْمُتَسَاوِيَةُ فِي الدِّيَةِ، وَ دِيَةُ كُلِّ وَاحِدٍ مِنْهَا خَمْسُمِائَةِ دِرْهَمٍ حَسَبَ مَا قَدَّمْنَاهُ، وَ إِنَّمَا جَعَلْنَا ذَلِكَ لِلْخَبَرِ الَّذِي رَوَيْنَاهُ مُفَصَّلًا مِنَ الْفَرْقِ بَيْنَ مَوَاخِيرِ الْأَسْنَانِ وَ مَقَادِيمِهَا، وَ لَا يَجُوزُ أَنْ تَتَضَادَّ الْأَخْبَارُ.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "অতএব, এই দুই হাদিস এবং আল-ʿআলাʾ ইবন আল-ফুদাইলের বর্ণনায় আমরা পূর্বে যে হাদিস উল্লেখ করেছি, সেগুলোর ক্ষেত্রে সঠিক ব্যাখ্যা হলো এগুলোকে সামনের দাঁত ও দাঁতের অগ্রভাগের ওপর প্রযোজ্য ধরা, পেছনের দাঁতের ওপর নয়; কারণ দিয়াতে সমান হলো সেগুলোই। এদের প্রত্যেকটির দিয়াহ পাঁচশ দিরহাম, যেমন আমরা আগে উল্লেখ করেছি। আমরা এটি কেবল সেই বর্ণনার কারণে গ্রহণ করেছি, যা আমরা বিস্তারিতভাবে বর্ণনা করেছি—পেছনের দাঁত ও সামনের দাঁতের পার্থক্য সম্পর্কে—এবং বর্ণনাগুলোর পরস্পরবিরোধী হওয়া জায়েয নয়।",
-              "de": "Daher besteht die richtige Auffassung zu diesen beiden Überlieferungen und zu der Überlieferung, die wir zuvor in der Überlieferung von al-ʿAlāʾ ibn al-Fuḍayl angeführt haben, darin, sie auf die Schneidezähne und die vorderen Zähne zu beziehen, nicht auf die hinteren Zähne, denn diese sind es, die im diyah gleich sind. Die diyah jedes einzelnen von ihnen beträgt fünfhundert Dirham, wie wir zuvor erwähnt haben. Wir haben dies nur aufgrund der Überlieferung angenommen, die wir ausführlich über den Unterschied zwischen den hinteren und den vorderen Zähnen berichtet haben, und es ist nicht zulässig, dass die Überlieferungen einander widersprechen.",
-              "en": "Thus, the correct approach regarding these two reports and the report we cited earlier in the narration of al-ʿAlāʾ ibn al-Fuḍayl is that we interpret them as referring to the incisors and the front teeth, not the back teeth, because those are the ones equal in diyah. The diyah of each one of them is five hundred dirhams, according to what we mentioned earlier. We only adopted this because of the report we narrated in detail regarding the distinction between the back teeth and the front teeth, and it is not permissible for the reports to contradict one another.",
-              "es": "Así pues, el enfoque correcto respecto de estos dos informes y del informe que citamos antes en la narración de al-ʿAlāʾ ibn al-Fuḍayl es interpretarlos como referidos a los incisivos y a los dientes frontales, no a los dientes posteriores, porque esos son los que son iguales en la diyah. La diyah de cada uno de ellos es de quinientos dirhams, según lo que mencionamos antes. Solo adoptamos esto debido al informe que narramos en detalle acerca de la diferencia entre los dientes posteriores y los dientes frontales, y no está permitido que los informes se contradigan entre sí.",
-              "fa": "پس وجه درست درباره این دو روایت و روایتی که پیش‌تر در روایتِ علاء بن فضیل آوردیم آن است که آنها را بر ثنایا و دندان‌های پیشین حمل کنیم، نه بر دندان‌های پسین؛ زیرا آنهایی هستند که در دیه برابرند. دیه هر یک از آنها پانصد درهم است، چنان‌که پیش‌تر ذکر کردیم. ما این را تنها به سبب روایتی که به تفصیل نقل کردیم، درباره تفاوت میان دندان‌های پسین و دندان‌های پیشین پذیرفتیم، و جایز نیست که روایات با یکدیگر متضاد باشند.",
-              "fr": "Ainsi, l’approche correcte concernant ces deux rapports et le rapport que nous avons cité plus haut dans la narration de al-ʿAlāʾ ibn al-Fuḍayl consiste à les interpréter comme visant les incisives et les dents de devant, et non les dents du fond, car ce sont elles qui sont égales dans la diyah. La diyah de chacune d’elles est de cinq cents dirhams, selon ce que nous avons mentionné plus haut. Nous n’avons adopté cela qu’en raison du rapport que nous avons transmis en détail au sujet de la distinction entre les dents du fond et les dents de devant, et il n’est pas permis que les rapports se contredisent.",
-              "id": "Maka, pendekatan yang benar terhadap dua riwayat ini dan riwayat yang telah kami sebutkan sebelumnya dalam riwayat al-ʿAlāʾ ibn al-Fuḍayl adalah bahwa keduanya dipahami sebagai merujuk kepada gigi seri dan gigi bagian depan, bukan gigi bagian belakang, karena itulah yang sama dalam diyah. Diyah masing-masing darinya adalah lima ratus dirham, sebagaimana telah kami sebutkan sebelumnya. Kami hanya mengambil pendapat itu karena riwayat yang kami nukil secara rinci tentang perbedaan antara gigi bagian belakang dan gigi bagian depan, dan tidak boleh ada pertentangan di antara riwayat-riwayat.",
-              "ru": "Итак, правильный подход к этим двум сообщениям и к сообщению, которое мы ранее привели в передаче аль-ʿАляʾ ибн аль-Фудейля, состоит в том, чтобы относить их к резцам и передним зубам, а не к задним зубам, поскольку именно они равны в дийе. Дийя каждого из них составляет пятьсот дирхамов, согласно тому, что мы упомянули ранее. Мы приняли это лишь из-за сообщения, которое мы подробно передали относительно различия между задними зубами и передними зубами, и недопустимо, чтобы сообщения противоречили друг другу.",
-              "tr": "Şu iki rivayet ve daha önce el-ʿAlâʾ ibn el-Fuḍayl rivayetinde aktardığımız rivayet hakkında doğru yaklaşım, onları ön dişlere ve dişlerin ön kısmına hamletmektir; arka dişlere değil. Çünkü diyette eşit olanlar bunlardır. Bunların her birinin diyeti, daha önce belirttiğimiz üzere beş yüz dirhemdir. Biz bunu yalnızca, arka dişlerle ön dişler arasındaki farkı ayrıntılı olarak naklettiğimiz rivayet sebebiyle benimsedik; rivayetlerin birbirine zıt olması caiz değildir.",
-              "ur": "پس ان دو روایت اور وہ روایت جسے ہم نے پہلے علاء بن فضیل کی روایت میں ذکر کیا ہے، کے بارے میں درست رائے یہ ہے کہ انہیں ثنایا اور دانتوں کے اگلے حصے پر محمول کیا جائے، نہ کہ پچھلے دانتوں پر، کیونکہ دیت میں برابر یہی ہیں۔ ان میں سے ہر ایک کی دیت پانچ سو درہم ہے، جیسا کہ ہم نے پہلے ذکر کیا۔ ہم نے یہ بات صرف اس روایت کی بنا پر اختیار کی ہے جسے ہم نے تفصیل سے نقل کیا ہے، جس میں پچھلے دانتوں اور اگلے دانتوں کے درمیان فرق بیان ہوا ہے، اور روایات کا ایک دوسرے سے متضاد ہونا جائز نہیں۔",
-              "zh": "因此，对于这两则传述，以及我们先前在al-ʿAlāʾibn al-Fuḍayl的传述中提到的那则传述，正确的理解是将它们解释为指门牙和前面的牙齿，而不是后面的牙齿，因为在diyah中相等的是这些牙齿。正如我们先前所述，它们每一颗的diyah都是五百迪拉姆。我们之所以这样理解，只是因为我们曾详细传述过一则关于后牙与前牙区别的报告，而诸传述之间不允许彼此矛盾。"
-            },
             "word_end": 81,
             "word_start": 23
           }
@@ -113,27 +87,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الثَّنَايَا": "the incisors, identified here as included in equal diyah",
-            "الدِّيَةِ": "financial compensation due for bodily injury",
-            "الْأَخْبَارُ": "the narrations or reports, which must be reconciled without contradiction",
-            "الْأَسْنَانِ": "the teeth, discussed here as bodily members with assigned diyah",
-            "خَمْسُمِائَةِ دِرْهَمٍ": "five hundred dirhams, the stated diyah amount for each relevant tooth",
-            "مَقَادِيمِ الْأَسْنَانِ": "the front teeth, treated as equal in compensation",
-            "مَوَاخِيرِهَا": "their back teeth, distinguished from the front teeth in ruling"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْأَسْنَانِ",
+          "الدِّيَةِ",
+          "الثَّنَايَا",
+          "مَقَادِيمِ الْأَسْنَانِ",
+          "مَوَاخِيرِهَا",
+          "خَمْسُمِائَةِ دِرْهَمٍ",
+          "الْأَخْبَارُ"
+        ],
         "related_quran": [
           {
             "ref": "5:45",
@@ -144,32 +106,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিস অনুযায়ী কি সব দাঁতের দিয়াহ সমান?",
-          "de": "Sind alle Zähne im diyah nach schiitischem Hadith gleich?",
-          "en": "Are all teeth equal in diyah according to Shia hadith?",
-          "es": "¿Son iguales todos los dientes en la diyah según el hadiz chií?",
-          "fa": "آیا بر اساس حدیث شیعه، دیه همه دندان‌ها برابر است؟",
-          "fr": "Toutes les dents sont-elles égales dans la diyah selon le hadith chiite ?",
-          "id": "Apakah semua gigi sama dalam diyah menurut hadis Syiah?",
-          "ru": "Все ли зубы равны в дийе согласно шиитскому хадису?",
-          "tr": "Şii hadisine göre tüm dişlerin diyeti eşit midir?",
-          "ur": "کیا شیعہ حدیث کے مطابق تمام دانتوں کی دیت برابر ہے؟",
-          "zh": "根据什叶派圣训，所有牙齿在diyah中都相等吗？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনায় বলা হয়েছে যে কিছু দাঁত দিয়াতে সমান, এবং সংকলক এটিকে অন্যান্য বর্ণনার সঙ্গে এভাবে সমন্বয় করেছেন যে এটি বিশেষভাবে সামনের দাঁতের ক্ষেত্রে প্রযোজ্য। তিনি ব্যাখ্যা করেন যে পেছনের দাঁতের বিধান ভিন্ন, যাতে ফিকহি ব্যাখ্যায় বর্ণনাগুলোর মধ্যে সামঞ্জস্য বজায় থাকে।",
-          "de": "Dieser Bericht besagt, dass bestimmte Zähne im diyah gleich sind, und der Herausgeber bringt ihn mit anderen Überlieferungen in Einklang, indem er ihn speziell auf die vorderen Zähne bezieht. Er erklärt, dass die hinteren Zähne eine andere Rechtsregel haben, wodurch die Harmonie zwischen den Überlieferungen in der juristischen Auslegung gewahrt bleibt.",
-          "en": "This report states that certain teeth are equal in diyah, and the compiler reconciles it with other narrations by applying it specifically to the front teeth. He explains that the back teeth carry a different ruling, preserving harmony between the reports in legal interpretation.",
-          "es": "Este informe afirma que ciertos dientes son iguales en la diyah, y el compilador lo concilia con otras narraciones aplicándolo específicamente a los dientes frontales. Explica que los dientes posteriores tienen una norma distinta, preservando así la armonía entre los informes en la interpretación jurídica.",
-          "fa": "این روایت بیان می‌کند که برخی دندان‌ها در دیه برابرند، و گردآورنده آن را با دیگر روایات چنین جمع می‌کند که به‌طور خاص بر دندان‌های پیشین حمل شود. او توضیح می‌دهد که دندان‌های پسین حکمی متفاوت دارند تا هماهنگی میان روایات در تفسیر فقهی حفظ شود.",
-          "fr": "Ce rapport indique que certaines dents sont égales dans la diyah, et le compilateur le concilie avec d’autres narrations en l’appliquant spécifiquement aux dents de devant. Il explique que les dents du fond relèvent d’une règle différente, préservant ainsi l’harmonie entre les rapports dans l’interprétation juridique.",
-          "id": "Riwayat ini menyatakan bahwa sebagian gigi sama dalam diyah, dan penyusunnya mengompromikannya dengan riwayat-riwayat lain dengan menerapkannya secara khusus pada gigi depan. Ia menjelaskan bahwa gigi belakang memiliki hukum yang berbeda, demi menjaga keselarasan di antara riwayat-riwayat dalam penafsiran hukum.",
-          "ru": "Этот хадис сообщает, что некоторые зубы равны в дийе, и составитель согласует его с другими преданиями, относя его именно к передним зубам. Он объясняет, что задние зубы имеют иное постановление, тем самым сохраняя согласие между преданиями в правовом толковании.",
-          "tr": "Bu rivayet, bazı dişlerin diyette eşit olduğunu belirtir; derleyici ise bunu diğer rivayetlerle, özellikle ön dişlere hamlederek uzlaştırır. Arka dişlerin farklı bir hükme sahip olduğunu açıklayarak rivayetler arasında uyumu korur.",
-          "ur": "یہ روایت بتاتی ہے کہ بعض دانتوں کی دیت برابر ہے، اور مرتب نے اسے دوسری روایات کے ساتھ اس طرح جمع کیا ہے کہ اسے خاص طور پر اگلے دانتوں پر محمول کیا جائے۔ وہ واضح کرتا ہے کہ پچھلے دانتوں کا حکم مختلف ہے، تاکہ فقہی تعبیر میں روایات کے درمیان ہم آہنگی برقرار رہے۔",
-          "zh": "这则传述说明某些牙齿在diyah中是相等的，编者通过将其特别适用于前牙来与其他传述协调。他解释说，后牙有不同的判定，从而在教法解释中保持诸传述之间的和谐。"
-        },
         "tags": [
           "jurisprudence",
           "prophetic_tradition",

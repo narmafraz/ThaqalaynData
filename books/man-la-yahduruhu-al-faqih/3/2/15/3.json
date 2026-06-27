@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رُوِيَ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং এটি বর্ণিত হয়েছে:",
-              "de": "Und es wird überliefert:",
-              "en": "And it is narrated:",
-              "es": "Y se narra:",
-              "fa": "و روایت شده است:",
-              "fr": "Et il est rapporté :",
-              "id": "Dan diriwayatkan:",
-              "ru": "И передаётся:",
-              "tr": "Ve rivayet edilmiştir ki:",
-              "ur": "اور یہ روایت کیا گیا ہے:",
-              "zh": "据传："
-            },
             "word_end": 2,
             "word_start": 0
           },
           {
             "arabic_text": "«أَنَّ مَنْ ذَكَرَ اللَّهَ عَزَّ وَ جَلَّ فِي الْأَسْوَاقِ غَفَرَ اللَّهُ لَهُ بِعَدَدِ مَا فِيهَا مِنْ فَصِيحٍ وَ أَعْجَمَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে ব্যক্তি আল্লাহকে, মহিমান্বিত ও মহোন্নত, বাজারে স্মরণ করে, আল্লাহ তাকে সেখানে উপস্থিত ফصীহ ও অ-আরবী ভাষাভাষীদের সংখ্যার সমান ক্ষমা করবেন।",
-              "de": "Wer Allah, den Mächtigen und Erhabenen, auf den Märkten gedenkt, dem wird Allah entsprechend der Anzahl der dort Anwesenden, unter den Beredsamen und den Nicht-Arabischsprechenden, vergeben.",
-              "en": "Whoever remembers Allah, the Mighty and Exalted, in the marketplaces, Allah will forgive him according to the number of those in them, among the eloquent and the non-Arabic-speaking.",
-              "es": "Quien recuerde a Allah, el Poderoso y Exaltado, en los mercados, Allah lo perdonará según el número de los presentes, entre los elocuentes y los que no hablan árabe.",
-              "fa": "هر کس خداوند قادر و متعال را در بازارها یاد کند، خداوند به اندازه تعداد افراد فصیح و غیرعربی در آنجا او را می‌آمرزد.",
-              "fr": "Quiconque se souvient d’Allah, le Tout-Puissant et l’Exalté, dans les marchés, Allah lui pardonnera selon le nombre de ceux qui s’y trouvent, parmi les éloquents et les non-arabophones.",
-              "id": "Barangsiapa yang mengingat Allah Yang Maha Perkasa dan Maha Tinggi di pasar-pasar, Allah akan mengampuninya sebanyak jumlah orang yang ada di sana, baik yang fasih maupun yang bukan penutur bahasa Arab.",
-              "ru": "Кто поминает Аллаха, Всемогущего и Возвышенного, на рынках, Аллах простит его в соответствии с числом присутствующих там, среди красноречивых и неарабоязычных.",
-              "tr": "Kim Allah'ı, Azîz ve Celîl olanı pazar yerlerinde anarsa, Allah ona oradaki akıcı ve Arapça bilmeyenlerin sayısı kadar af diler.",
-              "ur": "جو شخص اللہ عزوجل کو بازاروں میں یاد کرتا ہے، اللہ اس کو ان میں موجود فصیح اور غیر عربی بولنے والوں کی تعداد کے برابر معاف کر دے گا۔",
-              "zh": "凡在市场中念及真主，全能且至高者，真主将按市场中流利者与非阿拉伯语者的人数赦免他。"
-            },
             "word_end": 21,
             "word_start": 2
           }
@@ -91,26 +78,14 @@
             "phrase_en": "Remembrance of Allah"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَعْجَمَ": "one who is non-Arabic-speaking or inarticulate",
-            "اللَّهَ": "Allah, the Exalted",
-            "الْأَسْوَاقِ": "the marketplaces or places of trade",
-            "ذَكَرَ": "remembered or invoked in dhikr",
-            "غَفَرَ": "forgave",
-            "فَصِيحٍ": "one who speaks eloquently or clearly"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "ذَكَرَ",
+          "اللَّهَ",
+          "الْأَسْوَاقِ",
+          "غَفَرَ",
+          "فَصِيحٍ",
+          "أَعْجَمَ"
+        ],
         "related_quran": [
           {
             "ref": "2:152",
@@ -129,32 +104,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "বাজারে আল্লাহকে স্মরণ করার পুরস্কার কী?",
-          "de": "Was ist die Belohnung dafür, Allah auf dem Markt zu gedenken?",
-          "en": "What is the reward for remembering Allah in the marketplace?",
-          "es": "¿Cuál es la recompensa por recordar a Allah en el mercado?",
-          "fa": "پاداش یاد کردن خدا در بازار چیست؟",
-          "fr": "Quelle est la récompense pour se souvenir d’Allah au marché ?",
-          "id": "Apa pahala mengingat Allah di pasar?",
-          "ru": "Какова награда за поминание Аллаха на рынке?",
-          "tr": "Pazar yerinde Allah’ı anmanın mükafatı nedir?",
-          "ur": "بازار میں اللہ کو یاد کرنے کا اجر کیا ہے؟",
-          "zh": "在市场念及真主的回报是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বাজারের মতো দুনিয়ার ব্যস্ত জায়গায় আল্লাহর স্মরণ করার উৎসাহ দেয়। এটি শেখায় যে সেখানে আল্লাহকে স্মরণ করা উপস্থিত লোকের সংখ্যার অনুপাতে বিশাল ক্ষমার কারণ।",
-          "de": "Dieser Hadith ermutigt zum Dhikr an Orten weltlicher Ablenkung wie Märkten. Er lehrt, dass das Gedenken an Allah dort eine Ursache für große Vergebung ist, proportional zur Anzahl der Anwesenden.",
-          "en": "This hadith encourages dhikr in places of worldly distraction such as marketplaces. It teaches that remembering Allah there is a cause of immense forgiveness proportional to the number of people present.",
-          "es": "Este hadiz anima a hacer dhikr en lugares de distracción mundana como los mercados. Enseña que recordar a Allah allí es causa de un perdón inmenso proporcional al número de personas presentes.",
-          "fa": "این حدیث به یاد خدا در مکان‌های پرمشغله دنیوی مانند بازارها تشویق می‌کند و می‌آموزد که یاد خدا در آنجا سبب بخشش عظیمی متناسب با تعداد حاضرین است.",
-          "fr": "Ce hadith encourage le dhikr dans des lieux de distraction mondaine tels que les marchés. Il enseigne que se souvenir d’Allah là-bas est une cause d’un immense pardon proportionnel au nombre de personnes présentes.",
-          "id": "Hadis ini mendorong dzikir di tempat-tempat yang penuh dengan kesibukan duniawi seperti pasar. Ia mengajarkan bahwa mengingat Allah di sana menjadi sebab ampunan yang besar sesuai dengan jumlah orang yang hadir.",
-          "ru": "Этот хадис поощряет зикр в местах мирских отвлечений, таких как рынки. Он учит, что поминание Аллаха там является причиной огромного прощения, пропорционального числу присутствующих.",
-          "tr": "Bu hadis, pazar yerleri gibi dünyevi meşguliyetlerin olduğu yerlerde zikir yapmayı teşvik eder. Orada Allah’ı anmanın, oradaki insanların sayısına orantılı büyük bir bağışlanma sebebi olduğunu öğretir.",
-          "ur": "یہ حدیث دنیاوی مصروفیات کی جگہوں جیسے بازاروں میں ذکر الٰہی کی ترغیب دیتی ہے۔ یہ سکھاتی ہے کہ وہاں اللہ کو یاد کرنا حاضرین کی تعداد کے مطابق عظیم معافی کا سبب ہے۔",
-          "zh": "此圣训鼓励在如市场等世俗纷扰之地进行念诵。教导我们在那里念及真主，赦免之恩与在场人数成正比。"
-        },
         "tags": [
           "dua",
           "worship",

@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلْحَسَنُ بْنُ مَحْبُوبٍ عَنْ عَبْدِ اللَّهِ بْنِ سِنَانٍ قَالَ: سَمِعْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ يَقُولُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হাসান ইবন মাহবুব, আবদুল্লাহ ইবন সিনান থেকে বর্ণনা করেছেন, তিনি বলেন: আমি আবা আবদুল্লাহ عليه السلام-কে বলতে শুনেছি:",
-              "de": "Al-Hasan ibn Mahbub, von Abd Allah ibn Sinan, sagte: Ich hörte Aba Abd Allah عليه السلام sagen:",
-              "en": "Al-Ḥasan ibn Maḥbūb, from ʿAbd Allāh ibn Sinān, said: I heard Abā ʿAbd Allāh عليه السلام say:",
-              "es": "Al-Hasan ibn Mahbub, de Abd Allah ibn Sinan, dijo: Oí a Abá Abd Allah عليه السلام decir:",
-              "fa": "الحسن بن محبوب، از عبد الله بن سنان، گفت: شنیدم ابا عبد الله علیه السلام می‌فرمود:",
-              "fr": "Al-Hasan ibn Mahbub, d’après Abd Allah ibn Sinan, a dit : J’ai entendu Abâ Abd Allah عليه السلام dire :",
-              "id": "Al-Hasan ibn Mahbub, dari Abd Allah ibn Sinan, berkata: Aku mendengar Aba Abd Allah عليه السلام bersabda:",
-              "ru": "Аль-Хасан ибн Махбуб, от Абд Аллаха ибн Синана, сказал: я слышал, как Аба Абд Аллах عليه السلام говорил:",
-              "tr": "Al-Hasan ibn Mahbub, Abd Allah ibn Sinan’dan rivayet etti; dedi ki: Ebu Abdillah عليه السلام’ın şöyle buyurduğunu işittim:",
-              "ur": "الحسن بن محبوب، عبد الله بن سنان سے روایت کرتے ہیں، انہوں نے کہا: میں نے ابا عبد الله علیہ السلام کو یہ فرماتے ہوئے سنا:",
-              "zh": "Al-HasanibnMahbub，传自AbdAllahibnSinan，说：我听AbaAbdAllah عليه السلام说："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "فِي رَجُلٍ رَاوَدَ امْرَأَةً عَلَى نَفْسِهَا حَرَامًا فَرَمَتْهُ بِحَجَرٍ فَأَصَابَتْ مِنْهُ مَقْتَلًا قَالَ: «لَيْسَ عَلَيْهَا شَيْءٌ فِيمَا بَيْنَهَا وَبَيْنَ اللَّهِ عَزَّ وَجَلَّ وَإِنْ قُدِّمَتْ إِلَى إِمَامٍ عَادِلٍ أَهْدَرَ دَمَهُ»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন পুরুষ সম্পর্কে, যে এক নারীর কাছে অবৈধভাবে তার দেহে পৌঁছাতে চেয়েছিল, আর সে তাকে একটি পাথর নিক্ষেপ করে আঘাত করল এবং তার এমন এক স্থানে লাগল যা প্রাণঘাতী ছিল, তিনি বললেন: “আল্লাহ্‌ ‘আযযা ওয়া জাল্ল-এর সঙ্গে তার ও আল্লাহর মধ্যে যা আছে, সে বিষয়ে তার ওপর কিছু নেই; আর যদি তাকে একজন ন্যায়পরায়ণ ইমামের সামনে আনা হয়, তিনি তার রক্তকে দায়মুক্ত বলে গণ্য করবেন।”",
-              "de": "Über einen Mann, der von einer Frau auf unrechtmäßige Weise Zugang zu ihrer Person suchte, und sie ihn mit einem Stein bewarf und ihn an einer tödlichen Stelle traf, sagte er: „Es trifft sie in dem, was zwischen ihr und Allah, dem Mächtigen und Majestätischen, ist, nichts; und wenn sie einem gerechten Imam vorgeführt würde, würde er sein Blut als ohne Haftung ansehen.“",
-              "en": "Regarding a man who sought from a woman, unlawfully, access to her person, and she struck him with a stone and hit a fatal spot on him, he said: “There is nothing upon her in what is between her and Allah, Mighty and Majestic; and if she were brought before a just Imam, he would deem his blood without liability.”",
-              "es": "Acerca de un hombre que buscó, de manera ilícita, acceder a la persona de una mujer, y ella le arrojó una piedra y le alcanzó un punto mortal, dijo: “No hay nada sobre ella en lo que hay entre ella y Allah, Poderoso y Majestuoso; y si fuera llevada ante un Imam justo, consideraría su sangre sin responsabilidad.”",
-              "fa": "درباره مردی که از زنی به‌طور حرام خواست به او دسترسی یابد، و آن زن او را با سنگی زد و به نقطه‌ای کشنده از او اصابت کرد، فرمود: «در آنچه میان او و خداوند عز و جل است، بر او چیزی نیست؛ و اگر نزد امام عادلی برده شود، خون او را هدر می‌داند.»",
-              "fr": "Au sujet d’un homme qui chercha, de manière illicite, à avoir accès au corps d’une femme, et qu’elle lui lança une pierre en atteignant un point mortel, il dit : « Il n’y a rien contre elle dans ce qui est entre elle et Allah, Puissant et Majestueux ; et si elle était présentée à un Imam juste, il considérerait son sang sans responsabilité. »",
-              "id": "Tentang seorang laki-laki yang secara haram berusaha mendapatkan akses kepada seorang perempuan, lalu perempuan itu melemparnya dengan batu dan mengenai bagian yang mematikan darinya, beliau bersabda: “Tidak ada apa pun atasnya dalam urusannya antara dia dan Allah ‘Azza wa Jalla; dan jika ia dibawa kepada seorang Imam yang adil, ia akan menganggap darahnya tidak dapat dituntut.”",
-              "ru": "О мужчине, который незаконно домогался женщины, желая получить доступ к её телу, и она бросила в него камень и попала в смертельное место, он сказал: «На ней нет ничего в том, что между ней и Аллахом, Велик Он и Славен; и если бы её представили справедливому имаму, он признал бы его кровь без ответственности».",
-              "tr": "Bir adam hakkında ki, bir kadından haram yolla onun bedenine ulaşmak istedi; kadın ona bir taş attı ve onda öldürücü bir yere isabet ettirdi. O şöyle buyurdu: “Onun üzerinde, kendisi ile Allah Azze ve Celle arasındaki konuda hiçbir şey yoktur; ve eğer adil bir imamın huzuruna çıkarılırsa, onun kanını sorumluluktan muaf sayar.”",
-              "ur": "ایک ایسے شخص کے بارے میں، جس نے ایک عورت سے ناجائز طور پر اس کی ذات تک رسائی چاہی، تو اس نے اسے پتھر مارا اور اس کے جسم میں ایک مہلک جگہ پر ضرب لگائی، آپ نے فرمایا: “اس پر اللہ عز و جل کے ساتھ اس کے اور اللہ کے درمیان کوئی چیز نہیں؛ اور اگر اسے ایک عادل امام کے سامنے پیش کیا جائے تو وہ اس کے خون کو بے ذمہ داری قرار دے گا۔”",
-              "zh": "关于一个男人，他非法地向一名女子寻求接近她的身体，而她用石头砸他，并击中了他的致命部位，他说：“在她与真主尊严而伟大的主之间，她没有任何责任；如果她被带到一位公正的伊玛目面前，他会判定他的血不负赔偿责任。”"
-            },
             "word_end": 45,
             "word_start": 16
           }
@@ -90,27 +77,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَهْدَرَ دَمَهُ": "he would rule his blood uncompensated, with no liability for it",
-            "إِمَامٍ عَادِلٍ": "a just Imam exercising legitimate judicial authority",
-            "بِحَجَرٍ": "with a stone",
-            "حَرَامًا": "in a forbidden, unlawful manner",
-            "رَاوَدَ": "he sought to seduce or compel unlawfully",
-            "عَلَى نَفْسِهَا": "against her person, meaning her bodily/sexual inviolability",
-            "مَقْتَلًا": "a fatal spot or lethal blow"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رَاوَدَ",
+          "عَلَى نَفْسِهَا",
+          "حَرَامًا",
+          "بِحَجَرٍ",
+          "مَقْتَلًا",
+          "إِمَامٍ عَادِلٍ",
+          "أَهْدَرَ دَمَهُ"
+        ],
         "related_quran": [
           {
             "ref": "2:190",
@@ -125,32 +100,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "একজন নারী যদি অবৈধ আক্রমণ থেকে আত্মরক্ষার সময় একজন পুরুষকে হত্যা করেন, তাহলে এর বিধান কী?",
-          "de": "Wie lautet das Urteil, wenn eine Frau einen Mann tötet, während sie sich gegen einen unrechtmäßigen Angriff verteidigt?",
-          "en": "What is the ruling if a woman kills a man while defending herself from unlawful assault?",
-          "es": "¿Cuál es la norma si una mujer mata a un hombre mientras se defiende de una agresión ilícita?",
-          "fa": "اگر زنی در دفاع از خود در برابر تعرض نامشروع، مردی را بکشد، حکم چیست؟",
-          "fr": "Quelle est la règle si une femme tue un homme en se défendant contre une agression illicite ?",
-          "id": "Apa hukumnya jika seorang perempuan membunuh seorang laki-laki saat membela diri dari serangan yang tidak sah?",
-          "ru": "Каково постановление, если женщина убивает мужчину, защищаясь от незаконного нападения?",
-          "tr": "Bir kadın meşru olmayan bir saldırıya karşı kendini savunurken bir erkeği öldürürse hüküm nedir?",
-          "ur": "اگر کوئی عورت ناجائز حملے سے بچاؤ میں کسی مرد کو قتل کر دے تو اس کا حکم کیا ہے؟",
-          "zh": "如果一名女子在抵御非法侵害时杀死一名男子，判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে এমন এক নারীর বিষয়ে শরয়ি বিধান বর্ণিত হয়েছে, যিনি অবৈধ যৌন আক্রমণ থেকে আত্মরক্ষার সময় একজন পুরুষকে হত্যা করেন। এতে বলা হয়েছে, আল্লাহর কাছে তার ওপর কোনো দোষ নেই, এবং একজন ন্যায়পরায়ণ ইমাম আক্রমণকারীর মৃত্যুর জন্য রক্তদায় আরোপ করবেন না।",
-          "de": "Dieser Hadith nennt eine rechtliche Regel für eine Frau, die einen Mann tötet, während sie sich gegen einen unrechtmäßigen sexuellen Übergriff verteidigt. Er besagt, dass sie vor Allah keine Schuld trägt und dass ein gerechter Imam für den Tod des Angreifers keine Blutverantwortung auferlegen würde.",
-          "en": "This hadith gives a legal ruling concerning a woman who kills a man while defending herself from unlawful sexual aggression. It states that she bears no blame before Allah, and that a just Imam would not impose blood-liability for the aggressor’s death.",
-          "es": "Este hadiz expone una norma jurídica sobre una mujer que mata a un hombre mientras se defiende de una agresión sexual ilícita. Indica que no tiene culpa ante Allah y que un Imam justo no impondría responsabilidad de sangre por la muerte del agresor.",
-          "fa": "این حدیث حکم شرعیِ زنی را بیان می‌کند که در دفاع از خود در برابر تعرض جنسیِ نامشروع، مردی را بکشد. در آن آمده است که نزد خداوند بر او گناهی نیست و امام عادل برای مرگِ مهاجم، دیه‌ای بر او قرار نمی‌دهد.",
-          "fr": "Ce hadith énonce une règle juridique concernant une femme qui tue un homme en se défendant contre une agression sexuelle illicite. Il indique qu’elle n’encourt aucun blâme auprès d’Allah, et qu’un Imam juste n’imposerait pas de responsabilité du sang pour la mort de l’agresseur.",
-          "id": "Hadis ini memberikan hukum tentang seorang perempuan yang membunuh seorang laki-laki ketika membela diri dari serangan seksual yang tidak sah. Disebutkan bahwa ia tidak menanggung dosa di sisi Allah, dan seorang Imam yang adil tidak akan menetapkan tanggung jawab darah atas kematian pelaku agresi.",
-          "ru": "Этот хадис разъясняет правовое постановление о женщине, которая убивает мужчину, защищаясь от незаконного сексуального посягательства. В нём говорится, что перед Аллахом на ней нет вины, и справедливый имам не возложил бы кровную ответственность за смерть агрессора.",
-          "tr": "Bu hadis, meşru olmayan cinsel saldırıya karşı kendini savunurken bir erkeği öldüren kadınla ilgili hükmü بیان eder. Allah katında onun üzerinde bir günah olmadığını ve adil bir imamın saldırganın ölümü için kan diyeti yüklemeyeceğini belirtir.",
-          "ur": "یہ حدیث اس عورت کے بارے میں شرعی حکم بیان کرتی ہے جو ناجائز جنسی حملے سے بچاؤ میں ایک مرد کو قتل کر دے۔ اس میں کہا گیا ہے کہ اللہ کے نزدیک اس پر کوئی گناہ نہیں، اور ایک عادل امام حملہ آور کی موت پر خون کی ذمہ داری عائد نہیں کرے گا۔",
-          "zh": "这段圣训说明了一项教法裁决：一名女子在抵御非法性侵时杀死一名男子。经文指出，她在真主那里没有罪责，而公正的伊玛目不会因侵害者之死而判定血债。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations",

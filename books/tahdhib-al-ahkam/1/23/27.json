@@ -16,137 +16,59 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ عَلِيِّ بْنِ مَحْبُوبٍ عَنْ مُحَمَّدِ بْنِ أَحْمَدَ الْعَلَوِيِّ عَنِ الْعَمْرَكِيِّ عَنْ عَلِيِّ بْنِ جَعْفَرٍ عَنْ أَخِيهِ مُوسَى بْنِ جَعْفَرٍ عَلَيْهِمَا السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন আলী ইবন মাহবূব, মুহাম্মদ ইবন আহমদ আল-আলাভী থেকে, তিনি আল-আমরাকী থেকে, তিনি আলী ইবন জাফর থেকে, তিনি তাঁর ভাই মূসা ইবন জাফর عليهما السلام থেকে বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "Muhammad ibn Ali ibn Mahbub berichtete von Muhammad ibn Ahmad al-ʿAlawi, von al-ʿAmraki, von Ali ibn Jaʿfar, von seinem Bruder Musa ibn Jaʿfar عليهما السلام, der sagte:",
-              "en": "Muḥammad ibn ʿAlī ibn Maḥbūb narrated from Muḥammad ibn Aḥmad al-ʿAlawī, from al-ʿAmrakī, from ʿAlī ibn Jaʿfar, from his brother Mūsā ibn Jaʿfar عليهما السلام, who said:",
-              "es": "Muhammad ibn Ali ibn Mahbub narró de Muhammad ibn Ahmad al-ʿAlawi, de al-ʿAmraki, de Ali ibn Jaʿfar, de su hermano Musa ibn Jaʿfar عليهما السلام, quien dijo:",
-              "fa": "محمد بن علی بن محبوب از محمد بن احمد علوی، او از العمرکی، او از علی بن جعفر، او از برادرش موسی بن جعفر علیه‌السلام روایت کرد که فرمود:",
-              "fr": "Muhammad ibn Ali ibn Mahbub a rapporté de Muhammad ibn Ahmad al-ʿAlawi, de al-ʿAmraki, de Ali ibn Jaʿfar, de son frère Musa ibn Jaʿfar عليهما السلام, qui a dit :",
-              "id": "Muhammad ibn Ali ibn Mahbub meriwayatkan dari Muhammad ibn Ahmad al-‘Alawi, dari al-‘Amraki, dari Ali ibn Ja‘far, dari saudaranya Musa ibn Ja‘far عليهما السلام, yang berkata:",
-              "ru": "Мухаммад ибн Али ибн Махбуб передал от Мухаммада ибн Ахмада аль-ʿАлави, от аль-ʿАмраки, от Али ибн Джаʿфара, от его брата Мусы ибн Джаʿфара عليهما السلام, который сказал:",
-              "tr": "Muhammed ibn Ali ibn Mahbub, Muhammed ibn Ahmed el-Alavî’den, o da el-Amrakî’den, o da Ali ibn Ca‘fer’den, o da kardeşi Musa ibn Ca‘fer’den عليهما السلام rivayet etti ki şöyle dedi:",
-              "ur": "محمد بن علی بن محبوب نے محمد بن احمد العلوی سے، وہ العَمْرَکی سے، وہ علی بن جعفر سے، وہ اپنے بھائی موسیٰ بن جعفر علیہما السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "穆罕默德·伊本·阿里·伊本·马赫布卜传述自穆罕默德·伊本·艾哈迈德·阿拉维，传自阿姆拉基，传自阿里·伊本·贾法尔，传自其兄穆萨·伊本·贾法尔 عليهماالسلام，他说："
-            },
             "word_end": 24,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنِ الرَّجُلِ الْجُنُبِ أَوْ عَلَى غَيْرِ وُضُوءٍ لَا يَكُونُ مَعَهُ مَاءٌ وَهُوَ يُصِيبُ ثَلْجًا وَصَعِيدًا أَيُّهُمَا أَفْضَلُ أَيَتَيَمَّمُ أَمْ يَمْسَحُ بِالثَّلْجِ وَجْهَهُ قَالَ: «الثَّلْجُ إِذَا بَلَّ رَأْسَهُ وَجَسَدَهُ أَفْضَلُ فَإِنْ لَمْ يَقْدِرْ عَلَى أَنْ يَغْتَسِلَ بِهِ فَلْيَتَيَمَّمْ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁকে এমন এক ব্যক্তি সম্পর্কে জিজ্ঞেস করলাম, যে জানাবাত অবস্থায় আছে, অথবা ওযু ছাড়া আছে, এবং তার কাছে পানি নেই, কিন্তু সে বরফ ও মাটির মুখোমুখি হয়: এ দুটির মধ্যে কোনটি উত্তম? সে কি তায়াম্মুম করবে, নাকি বরফ দিয়ে তার মুখ মুছে নেবে? তিনি বললেন: “বরফ উত্তম, যদি তা তার মাথা ও শরীর ভিজিয়ে দেয়; কিন্তু যদি সে তা দিয়ে গোসল করতে সক্ষম না হয়, তবে সে তায়াম্মুম করুক।”",
-              "de": "Ich fragte ihn nach einem Mann, der sich im Zustand der Janabah befindet oder ohne Wudu ist und kein Wasser bei sich hat, aber auf Schnee und Erde trifft: Welches von beidem ist besser? Soll er Tayammum verrichten oder sein Gesicht mit dem Schnee abwischen? Er sagte: „Schnee ist besser, wenn er seinen Kopf und seinen Körper befeuchtet; wenn er damit jedoch kein Ghusl verrichten kann, dann soll er Tayammum verrichten.“",
-              "en": "I asked him about a man in janabah, or without wudu (ablution), who has no water with him, but he comes upon snow and earth: which of the two is better? Should he perform tayammum, or wipe his face with the snow? He said: “Snow is better if it moistens his head and body; but if he is unable to perform ghusl with it, then let him perform tayammum.”",
-              "es": "Le pregunté acerca de un hombre que está en janabah, o sin wudu, y no tiene agua consigo, pero encuentra nieve y tierra: ¿cuál de las dos es mejor? ¿Debe hacer tayammum o pasar la nieve por su rostro? Dijo: “La nieve es mejor si humedece su cabeza y su cuerpo; pero si no puede hacer ghusl con ella, entonces que haga tayammum.”",
-              "fa": "از او درباره مردی که در حالت جنابت است یا بدون وضوست و با خود آبی ندارد، ولی به برف و زمین برمی‌خورد، پرسیدم: کدام‌یک بهتر است؟ آیا تیمم کند یا با برف صورت خود را مسح نماید؟ فرمود: «برف اگر سر و بدنش را تر کند بهتر است؛ اما اگر نتواند با آن غسل کند، پس تیمم کند.»",
-              "fr": "Je l’ai interrogé au sujet d’un homme en janabah, ou sans wudu, qui n’a pas d’eau avec lui, mais qui trouve de la neige et de la terre : lequel des deux est préférable ? Doit-il faire le tayammum, ou essuyer son visage avec la neige ? Il dit : « La neige est meilleure si elle mouille sa tête et son corps ; mais s’il n’est pas قادر de faire le ghusl avec elle, alors qu’il fasse le tayammum. »",
-              "id": "Aku bertanya kepadanya tentang seorang laki-laki yang junub, atau tanpa wudu, dan tidak memiliki air, tetapi ia mendapatkan salju dan tanah: yang mana di antara keduanya lebih baik? Apakah ia bertayammum, atau mengusap wajahnya dengan salju? Beliau bersabda: “Salju lebih baik jika membasahi kepala dan tubuhnya; tetapi jika ia tidak mampu mandi dengan itu, maka hendaklah ia bertayammum.”",
-              "ru": "Я спросил его о человеке в состоянии джанабы или без вуду, у которого нет с собой воды, но он находит снег и землю: что из двух лучше? Должен ли он совершить таяммум или протереть лицо снегом? Он сказал: «Снег лучше, если он увлажняет его голову и тело; но если он не способен совершить с его помощью гусль, то пусть совершит таяммум».",
-              "tr": "Ona, cünüp olan yahut abdestsiz bulunan ve yanında su olmayan, fakat kar ve toprağa rastlayan bir adam hakkında sordum: Bunlardan hangisi daha iyidir? Tayammum mu yapsın, yoksa karla yüzünü mü mesh etsin? Buyurdu ki: “Kar, başını ve bedenini ıslatıyorsa daha iyidir; fakat onunla gusül yapmaya gücü yetmezse, o zaman tayammum etsin.”",
-              "ur": "میں نے ان سے اس شخص کے بارے میں پوچھا جو جنابت کی حالت میں ہو، یا بغیر وضو کے ہو، اور اس کے پاس پانی نہ ہو، لیکن اسے برف اور مٹی مل جائے: ان دونوں میں سے کون سا بہتر ہے؟ کیا وہ تیمم کرے، یا برف سے اپنا چہرہ پونچھ لے؟ انہوں نے فرمایا: \"اگر برف اس کے سر اور جسم کو تر کر دے تو وہ بہتر ہے؛ لیکن اگر وہ اس سے غسل کرنے پر قادر نہ ہو تو پھر وہ تیمم کرے۔\"",
-              "zh": "我问他：一个处于大净状态，或者没有小净的人，身边没有水，但遇到雪和土，这两者哪一个更好？他应当做tayammum，还是用雪擦拭脸？他说：“如果雪能打湿他的头和身体，那就更好；但如果他不能用它来做ghusl，那么就让他做tayammum。”"
-            },
             "word_end": 62,
             "word_start": 24
           },
           {
             "arabic_text": "ثُمَّ قَالَ أَيَّدَهُ اللَّهُ تَعَالَى فَإِنْ كَانَ فِي أَرْضٍ صَخِرٍ أَوْ أَحْجَارٍ لَيْسَ عَلَيْهَا تُرَابٌ وَضَعَ يَدَيْهِ أَيْضًا عَلَيْهَا وَمَسَحَ وَجْهَهُ وَكَفَّيْهِ كَمَا ذَكَرْنَاهُ فِي تَيَمُّمِهِ بِالتُّرَابِ وَلَيْسَ عَلَيْهِ حَرَجٌ فِي الصَّلَاةِ بِذَلِكَ لِمَوْضِعِ الِاضْطِرَارِ وَلَا إِعَادَةَ عَلَيْهِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তারপর তিনি বললেন—আল্লাহ তা‘আলা তাঁকে সাহায্য করুন—যদি সে এমন ভূমিতে থাকে যেখানে পাথর বা শিলা আছে এবং তাতে ধুলো নেই, তবে সে তার হাতও সেগুলোর ওপর রাখবে এবং তার মুখ ও হাতের তালু মাটি দিয়ে তায়াম্মুম করার ক্ষেত্রে যেমন আমরা উল্লেখ করেছি, তেমনিভাবে মুছে নেবে। প্রয়োজনের অবস্থার কারণে এভাবে সালাত আদায় করতে তার কোনো অসুবিধা নেই, এবং তার ওপর পুনরাবৃত্তি আবশ্যক নয়।",
-              "de": "Dann sagte er—möge Allah, der Erhabene, ihn unterstützen—wenn er sich in einem felsigen Land oder auf Steinen befindet, auf denen kein Staub ist, soll er auch seine Hände darauf legen und sein Gesicht sowie seine Handflächen abwischen, so wie wir es bei seinem Tayammum mit Staub erwähnt haben. Es ist für ihn kein Problem, so zu beten, wegen der Notlage, und eine Wiederholung ist für ihn nicht erforderlich.",
-              "en": "Then he said—may Allah the Exalted support him—if he is in a land of rock or stones upon which there is no dust, he should also place his hands upon them and wipe his face and his palms just as we mentioned regarding his tayammum with dust. There is no hardship upon him in praying with that due to the circumstance of necessity, and no repetition is required of him.",
-              "es": "Luego dijo—que Allah, el Altísimo, lo apoye—si está en una tierra rocosa o entre piedras sobre las que no hay polvo, también debe poner sus manos sobre ellas y pasar las manos por su rostro y sus palmas, tal como mencionamos respecto a su tayammum con polvo. No hay dificultad para él en rezar así debido a la situación de necesidad, y no se le exige repetirla.",
-              "fa": "سپس فرمود—خداوند متعال او را یاری کند—اگر در سرزمینی سنگلاخی یا دارای سنگ‌هایی باشد که بر آنها خاکی نیست، دست‌هایش را نیز بر آنها بگذارد و صورت و کف‌هایش را همان‌گونه که درباره تیمم با خاک یاد کردیم مسح کند. به سبب حالت ضرورت، در نماز خواندن با آن بر او حرجی نیست و اعاده‌ای بر او لازم نیست.",
-              "fr": "Puis il dit—qu’Allah, le Très-Haut, le soutienne—s’il se trouve dans une terre rocheuse ou parmi des pierres sur lesquelles il n’y a pas de poussière, qu’il pose aussi ses mains dessus et qu’il essuie son visage et ses paumes comme nous l’avons mentionné à propos de son tayammum avec la poussière. Il n’y a aucune gêne pour lui à prier ainsi en raison de la nécessité, et aucune répétition ne lui est imposée.",
-              "id": "Kemudian beliau bersabda—semoga Allah Yang Mahatinggi menolongnya—jika ia berada di tanah berbatu atau pada batu-batu yang tidak ada debunya, hendaklah ia juga meletakkan kedua tangannya di atasnya dan mengusap wajah serta kedua telapak tangannya sebagaimana yang telah kami sebutkan tentang tayammumnya dengan debu. Tidak ada kesulitan baginya untuk salat dengan itu karena keadaan darurat, dan tidak ada kewajiban mengulang atasnya.",
-              "ru": "Затем он сказал — да поддержит его Аллах Всевышний — если он находится на каменистой земле или среди камней, на которых нет пыли, пусть также положит на них свои руки и протрёт лицо и ладони так, как мы упомянули относительно его таяммума с землёй. В этом нет для него затруднения в совершении молитвы из-за состояния необходимости, и повторение на нём не обязательно.",
-              "tr": "Sonra buyurdu—Allah Teâlâ ona yardım etsin—eğer topraksız kayalık bir yerde veya üzerinde toprak bulunmayan taşların üzerinde ise, ellerini de onların üzerine koysun ve yüzünü ile avuçlarını, toprağa yapılan tayammumda zikrettiğimiz gibi meshetsin. Zaruret hâli sebebiyle bununla namaz kılmasında ona bir sakınca yoktur ve iade de gerekmez.",
-              "ur": "پھر انہوں نے فرمایا—اللہ تعالیٰ ان کی مدد فرمائے—اگر وہ ایسی زمین میں ہو جہاں چٹانیں یا پتھر ہوں اور ان پر مٹی نہ ہو، تو وہ اپنے ہاتھ بھی ان پر رکھے اور اپنے چہرے اور ہتھیلیوں پر اسی طرح مسح کرے جیسے ہم نے مٹی کے ساتھ اس کے تیمم کا ذکر کیا ہے۔ ضرورت کی حالت کی وجہ سے اس پر اس کے ساتھ نماز پڑھنے میں کوئی حرج نہیں، اور اس پر اعادہ لازم نہیں۔",
-              "zh": "然后他说——愿真主至高者扶助他——如果他身处岩石之地，或在没有尘土的石头上，他也应把双手放在其上，并像我们提到他用尘土做tayammum那样，擦拭他的脸和手掌。由于处于必要的情形，他这样礼拜没有任何困难，也不需要重做。"
-            },
             "word_end": 100,
             "word_start": 62
           },
           {
             "arabic_text": "فَالْوَجْهُ فِي الدَّلَالَةِ عَلَيْهِ أَنَّ هَذِهِ الْأَحْجَارَ يُطْلَقُ عَلَيْهَا اسْمُ الْأَرْضِ وَإِذَا أُطْلِقَ عَلَيْهَا ذَلِكَ دَخَلَتْ تَحْتَ الظَّاهِرِ الَّذِي قَدْ تَقَدَّمَ ذِكْرُهُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এর ওপর নির্দেশনার দিকটি হলো, এই পাথরগুলোকে ‘ভূমি’ নামে ডাকা হয়, এবং যখন এ নাম তাদের ওপর প্রয়োগ করা হয়, তখন তারা সেই প্রকাশ্য অর্থের অন্তর্ভুক্ত হয়ে যায়, যার উল্লেখ ইতিপূর্বে করা হয়েছে।",
-              "de": "Der Hinweis darauf besteht darin, dass diese Steine mit dem Namen Erde bezeichnet werden, und wenn diese Bezeichnung auf sie angewandt wird, fallen sie unter die offensichtliche Bedeutung, die bereits erwähnt worden ist.",
-              "en": "The aspect of indication for this is that these stones are referred to by the name of earth, and when that designation is applied to them, they fall under the apparent meaning that has already been mentioned.",
-              "es": "El aspecto que indica esto es que a estas piedras se les llama con el nombre de tierra, y cuando esa denominación se les aplica, entran bajo el sentido ظاهر que ya ha sido mencionado.",
-              "fa": "وجه دلالت بر این مطلب آن است که این سنگ‌ها به نام زمین خوانده می‌شوند، و هنگامی که این نام بر آنها اطلاق شود، داخل در معنای ظاهر می‌گردند که پیش‌تر ذکر آن گذشت.",
-              "fr": "L’aspect qui l’indique est que ces pierres sont désignées par le nom de terre, et lorsque cette appellation leur est appliquée, elles entrent dans le sens apparent qui a déjà été mentionné.",
-              "id": "وجه petunjuk atas hal ini adalah bahwa batu-batu ini disebut dengan nama bumi, dan ketika sebutan itu diterapkan kepada mereka, mereka termasuk di bawah makna zahir yang telah disebutkan sebelumnya.",
-              "ru": "Указание на это состоит в том, что эти камни называются землёй, и когда это название применяется к ним, они подпадают под очевидный смысл, который уже был упомянут.",
-              "tr": "Buna delalet eden yön şudur ki, bu taşlara yer/arz adı verilir; ve bu ad onlara verildiğinde, daha önce zikri geçmiş olan zahirî anlamın kapsamına girerler.",
-              "ur": "اس پر دلالت کی جہت یہ ہے کہ ان پتھروں کو زمین کے نام سے پکارا جاتا ہے، اور جب یہ نام ان پر بولا جائے تو وہ اس ظاہر کے تحت داخل ہو جاتے ہیں جس کا ذکر پہلے ہو چکا ہے۔",
-              "zh": "对此的指示在于，这些石头被称为“地”，而当这个名称被用于它们时，它们就归入了前面已经提到的表面含义之下。"
-            },
             "word_end": 122,
             "word_start": 100
           },
           {
             "arabic_text": "ثُمَّ قَالَ أَيَّدَهُ اللَّهُ تَعَالَى وَمَتَى وَجَدَ الْمُتَيَمِّمُ الْمَاءَ وَتَمَكَّنَ مِنْهُ وَلَمْ يَخَفْ عَلَى نَفْسِهِ مِنَ الطَّهُورِ بِهِ لَمْ تُجْزِهِ الصَّلَاةُ حَتَّى يَتَطَهَّرَ بِهِ وَلَيْسَ عَلَيْهِ فِيمَا صَلَّى بِتَيَمُّمٍ قَضَاءٌ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তারপর তিনি বললেন—আল্লাহ তা‘আলা তাঁকে সাহায্য করুন—যখন তায়াম্মুমকারী পানি পায় এবং তা ব্যবহারে সক্ষম হয়, এবং তা দিয়ে পবিত্রতা অর্জন করতে গিয়ে নিজের ক্ষতির আশঙ্কা না করে, তখন সে তা দিয়ে পবিত্র না হওয়া পর্যন্ত সালাত তার জন্য যথেষ্ট হবে না। তবে তায়াম্মুম করে সে যা সালাত আদায় করেছে, তার ওপর তার কোনো কাযা নেই।",
-              "de": "Dann sagte er—möge Allah, der Erhabene, ihn unterstützen—wenn derjenige, der Tayammum verrichtet, Wasser findet und es benutzen kann und keine Angst um sich selbst hat, wenn er sich damit reinigt, dann genügt ihm das Gebet nicht, bis er sich damit gereinigt hat. Was er jedoch mit Tayammum gebetet hat, dafür ist keine Nachholung von ihm erforderlich.",
-              "en": "Then he said—may Allah the Exalted support him—whenever the one performing tayammum finds water and is able to use it, and does not fear for himself from purification with it, the prayer is not sufficient for him until he purifies himself with it. But for what he had prayed with tayammum, there is no making up required upon him.",
-              "es": "Luego dijo—que Allah, el Altísimo, lo apoye—cuando quien hace tayammum encuentra agua y puede usarla, y no teme por sí mismo al purificarse con ella, la oración no le basta hasta que se purifique con ella. Pero por lo que haya rezado con tayammum, no tiene que repetirlo.",
-              "fa": "سپس فرمود—خداوند متعال او را یاری کند—هرگاه تیمم‌کننده آب را بیابد و بر استفاده از آن توان داشته باشد، و از تطهیر با آن بر جان خود بیم نداشته باشد، نماز برای او کافی نیست تا آن‌که با آن تطهیر کند. اما آنچه را با تیمم نماز خوانده است، قضایی بر او نیست.",
-              "fr": "Puis il dit—qu’Allah, le Très-Haut, le soutienne—lorsque celui qui fait le tayammum trouve de l’eau et peut l’utiliser, et qu’il ne craint pas pour lui-même en se purifiant avec elle, la prière ne lui suffit pas jusqu’à ce qu’il se purifie avec elle. Quant à ce qu’il a prié avec le tayammum, il n’a pas à le rattraper.",
-              "id": "Kemudian beliau berkata—semoga Allah Yang Mahatinggi menolongnya—apabila orang yang bertayammum mendapatkan air dan mampu menggunakannya, serta tidak khawatir terhadap dirinya jika bersuci dengannya, maka salat tidak mencukupinya sampai ia bersuci dengannya. Adapun salat yang telah ia kerjakan dengan tayammum, tidak ada qadha atasnya.",
-              "ru": "Затем он сказал—да поддержит его Аллах Всевышний—когда совершающий таяммум находит воду и может ею воспользоваться, и не опасается за себя при очищении ею, молитва не будет для него достаточной, пока он не очистится ею. А за то, что он совершил молитву с таяммумом, возмещение на нем не требуется.",
-              "tr": "Sonra şöyle dedi—Allah Teâlâ ona yardım etsin—teyemmüm eden kimse suyu bulur ve onu kullanmaya güç yetirir, ayrıca onunla temizlenmekten dolayı kendisi için bir korku taşımazsa, onun su ile temizleninceye kadar namazı yeterli olmaz. Ancak teyemmümle kıldığı namaz için onun üzerine kaza gerekmez.",
-              "ur": "پھر انہوں نے فرمایا—اللہ تعالیٰ ان کی مدد فرمائے—جب تیمم کرنے والا پانی پا لے اور اس کے استعمال پر قادر ہو، اور اسے اس سے طہارت حاصل کرنے میں اپنی جان کا خوف نہ ہو، تو نماز اس کے لیے کافی نہیں جب تک وہ اس سے طہارت حاصل نہ کر لے۔ البتہ جو نماز اس نے تیمم کے ساتھ پڑھی ہے، اس کی قضا اس پر لازم نہیں۔",
-              "zh": "然后他说——愿真主至高者援助他——当做tayammum的人找到水并且能够使用它，而且不担心自己因用它而受净化之害时，礼拜对他就不算足够，直到他用它净化自己为止。至于他以tayammum所礼的拜，则不必由他补还。"
-            },
             "word_end": 152,
             "word_start": 122
           },
           {
             "arabic_text": "(٥٥٥) ٢٩ فَيَدُلُّ عَلَيْهِ مَا أَخْبَرَنِي بِهِ الشَّيْخُ أَيَّدَهُ اللَّهُ تَعَالَى عَنْ أَبِي الْقَاسِمِ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ مُحَمَّدِ بْنِ يَعْقُوبَ عَنْ عَلِيِّ بْنِ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنِ ابْنِ أُذَيْنَةَ عَنْ زُرَارَةَ عَنْ أَحَدِهِمَا عَلَيْهِمَا السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "(555) 29. এ বিষয়ে প্রমাণ হলো যা আল-শাইখ—আল্লাহ তা‘আলা তাঁকে সাহায্য করুন—আমাকে আবু আল-কাসিম জাফর ইবন মুহাম্মদ থেকে, তিনি মুহাম্মদ ইবন ইয়াকুব থেকে, তিনি আলী ইবন ইবরাহিম থেকে, তিনি তাঁর পিতা থেকে, তিনি ইবন আবি উমাইর থেকে, তিনি ইবন উধাইনা থেকে, তিনি জুরারা থেকে, তিনি তাঁদের দুজনের একজনের কাছ থেকে, عليهما السلام, আমাকে খবর দিয়েছেন যে তিনি বলেছেন:",
-              "de": "(555) 29. Darauf weist hin, was al-Shaykh—möge Allah, der Erhabene, ihn unterstützen—mir berichtete, von Abū al-Qāsim Jaʿfar ibn Muḥammad, von Muḥammad ibn Yaʿqūb, von ʿAlī ibn Ibrāhīm, von seinem Vater, von Ibn Abī ʿUmayr, von Ibn Udhaynah, von Zurārah, von einem der beiden, عليهما السلام, der sagte:",
-              "en": "(555) 29. What indicates this is what al-Shaykh—may Allah the Exalted support him—informed me of, from Abū al-Qāsim Jaʿfar ibn Muḥammad, from Muḥammad ibn Yaʿqūb, from ʿAlī ibn Ibrāhīm, from his father, from Ibn Abī ʿUmayr, from Ibn Udhaynah, from Zurārah, from one of the two عليهما السلام, who said:",
-              "es": "(555) 29. Lo que indica esto es lo que al-Shaykh—que Allah, el Altísimo, lo apoye—me informó, de Abū al-Qāsim Jaʿfar ibn Muḥammad, de Muḥammad ibn Yaʿqūb, de ʿAlī ibn Ibrāhīm, de su padre, de Ibn Abī ʿUmayr, de Ibn Udhaynah, de Zurārah, de uno de los dos, عليهما السلام, quien dijo:",
-              "fa": "(555) 29. آنچه بر این دلالت می‌کند، همان است که شیخ—خداوند متعال او را یاری کند—از ابوالقاسم جعفر بن محمد، از محمد بن یعقوب، از علی بن ابراهیم، از پدرش، از ابن ابی عمیر، از ابن اذینه، از زراره، از یکی از آن دو، علیه‌ماالسلام، برایم خبر داد که فرمود:",
-              "fr": "(555) 29. Ce qui l’indique, c’est ce que al-Shaykh—qu’Allah, le Très-Haut, le soutienne—m’a rapporté, d’après Abū al-Qāsim Jaʿfar ibn Muḥammad, d’après Muḥammad ibn Yaʿqūb, d’après ʿAlī ibn Ibrāhīm, d’après son père, d’après Ibn Abī ʿUmayr, d’après Ibn Udhaynah, d’après Zurārah, d’après l’un des deux, عليهما السلام, qui a dit :",
-              "id": "(555) 29. Yang menunjukkan hal itu adalah apa yang al-Shaykh—semoga Allah Yang Mahatinggi menolongnya—telah mengabarkan kepadaku, dari Abū al-Qāsim Jaʿfar ibn Muḥammad, dari Muḥammad ibn Yaʿqūb, dari ʿAlī ibn Ibrāhīm, dari ayahnya, dari Ibn Abī ʿUmayr, dari Ibn Udhaynah, dari Zurārah, dari salah satu dari keduanya عليهما السلام, yang berkata:",
-              "ru": "(555) 29. На это указывает то, что аль-Шейх—да поддержит его Аллах Всевышний—сообщил мне от Абу аль-Касима Джафара ибн Мухаммада, от Мухаммада ибн Якуба, от Али ибн Ибрахима, от его отца, от Ибн Аби Умайра, от Ибн Удайны, от Зурары, от одного из них, عليهما السلام, который сказал:",
-              "tr": "(555) 29. Buna delalet eden şey, eş-Şeyh—Allah Teâlâ ona yardım etsin—bana Ebü’l-Kāsım Caʿfer ibn Muhammed’den, o Muhammed ibn Yaʿkūb’dan, o Ali ibn İbrâhîm’den, o babasından, o İbn Ebî ʿUmeyr’den, o İbn Udhayne’den, o Zurâre’den, o da o ikisinden birinden, عليهما السلام, naklederek haber verdiği rivayettir; şöyle dedi:",
-              "ur": "(555) 29. اس پر دلالت کرنے والی روایت وہ ہے جو شیخ—اللہ تعالیٰ ان کی مدد فرمائے—نے مجھے ابو القاسم جعفر بن محمد سے، انہوں نے محمد بن یعقوب سے، انہوں نے علی بن ابراہیم سے، انہوں نے اپنے والد سے، انہوں نے ابن ابی عمیر سے، انہوں نے ابن اذینہ سے، انہوں نے زرارہ سے، انہوں نے ان دونوں میں سے ایک سے، علیہما السلام، نقل کی، انہوں نے فرمایا:",
-              "zh": "(555)29.对此有所指示的是al-Shaykh——愿真主至高者援助他——传述给我的：来自Abūal-QāsimJaʿfaribnMuḥammad，来自MuḥammadibnYaʿqūb，来自ʿAlīibnIbrāhīm，来自其父，来自IbnAbīʿUmayr，来自IbnUdhaynah，来自Zurārah，来自其中二人之一， عليهما السلام，他说："
-            },
             "word_end": 193,
             "word_start": 152
           },
           {
             "arabic_text": "«إِذَا لَمْ يَجِدِ الْمُسَافِرُ الْمَاءَ فَلْيَطْلُبْ مَا دَامَ فِي الْوَقْتِ فَإِذَا خَافَ أَنْ يَفُوتَهُ الْوَقْتُ فَلْيَتَيَمَّمْ وَلْيُصَلِّ فِي آخِرِ الْوَقْتِ فَإِذَا وَجَدَ الْمَاءَ فَلَا قَضَاءَ عَلَيْهِ وَلْيَتَوَضَّأْ لِمَا يَسْتَقْبِلُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“যখন মুসাফির পানি না পায়, তখন সময় থাকা পর্যন্ত সে তা খুঁজতে থাকবে। অতঃপর যদি সে আশঙ্কা করে যে সময় চলে যাবে, তবে সে তায়াম্মুম করবে এবং সময়ের শেষভাগে সালাত আদায় করবে। তারপর যদি সে পানি পায়, তবে তার ওপর কোনো কাযা নেই, এবং সামনে যা আসবে তার জন্য সে ওযু করবে।”",
-              "de": "„Wenn der Reisende kein Wasser findet, dann soll er danach suchen, solange noch Zeit bleibt. Wenn er befürchtet, dass die Zeit vergehen wird, dann soll er Tayammum verrichten und am Ende der Zeit beten. Findet er dann Wasser, so ist keine Nachholung für ihn erforderlich, und er soll für das, was vor ihm liegt, Wudu verrichten.“",
-              "en": "“When the traveler does not find water, then let him seek it so long as there is still time. فإذا he fears that the time will pass him by, then let him perform tayammum and pray at the end of the time. Then, if he finds water, there is no making up required of him, and let him perform wudu (ablution) for what lies ahead.”",
-              "es": "“Cuando el viajero no encuentre agua, que la busque mientras aún haya tiempo. Si teme que el tiempo se le pase, entonces que haga tayammum y rece al final del tiempo. Luego, si encuentra agua, no tiene que repetirlo, y que haga wudu para lo que venga después.”",
-              "fa": "«هرگاه مسافر آب نیابد، تا زمانی که وقت باقی است آن را بجوید. پس اگر بیم آن داشت که وقت از دست برود، تیمم کند و در پایان وقت نماز بخواند. سپس اگر آب را یافت، قضایی بر او نیست، و برای آنچه پیش رو دارد وضو بگیرد.»",
-              "fr": "« Lorsque le voyageur ne trouve pas d’eau, qu’il la cherche tant qu’il reste du temps. S’il craint que le temps ne lui échappe, qu’il fasse le tayammum et qu’il prie à la fin du temps. Puis, s’il trouve de l’eau, il n’a pas à rattraper, et qu’il fasse le wudu pour ce qui vient ensuite. »",
-              "id": "“Apabila musafir tidak mendapatkan air, maka hendaklah ia mencarinya selama waktu masih ada. Jika ia khawatir waktu akan habis, maka hendaklah ia bertayammum dan salat pada akhir waktu. Kemudian jika ia mendapatkan air, tidak ada qadha atasnya, dan hendaklah ia berwudu untuk apa yang akan datang.”",
-              "ru": "«Если путник не находит воды, пусть ищет её, пока ещё есть время. Если же он опасается, что время выйдет, пусть совершит таяммум и совершит молитву в конце времени. Затем, если он найдёт воду, возмещение на нём не требуется, и пусть совершит вуду для того, что будет впереди».",
-              "tr": "“Yolcu su bulamazsa, vakit devam ettiği sürece onu arasın. Eğer vaktin geçip gideceğinden korkarsa, teyemmüm etsin ve vaktin sonunda namaz kılsın. Sonra suyu bulursa, onun üzerine kaza yoktur; bundan sonra karşılaşacağı şey için abdest alsın.”",
-              "ur": "“جب مسافر پانی نہ پائے تو جب تک وقت باقی ہو اسے تلاش کرتا رہے۔ پھر اگر اسے اندیشہ ہو کہ وقت نکل جائے گا تو وہ تیمم کرے اور وقت کے آخر میں نماز پڑھے۔ پھر اگر اسے پانی مل جائے تو اس پر قضا نہیں، اور جو آئندہ پیش آئے اس کے لیے وضو کرے۔”",
-              "zh": "“当旅行者找不到水时，只要时间还在，就让他去寻找。如果他担心时间会过去，那么就让他做tayammum，并在时间的末尾礼拜。然后，如果他找到了水，那么他不必补还，并让他为将来之事做wudu（小净）。”"
-            },
             "word_end": 222,
             "word_start": 193
           }
@@ -209,28 +131,16 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الِاضْطِرَارِ": "a state of necessity that affects legal ruling",
-            "الْجُنُبِ": "a person in a state of janabah requiring ghusl",
-            "الْمُتَيَمِّمُ": "the person performing tayammum",
-            "ثَلْجًا": "snow used here as a possible means of purification",
-            "صَعِيدًا": "earth or ground used for tayammum",
-            "قَضَاءٌ": "making up a prayer after its time",
-            "وُضُوءٍ": "wudu (ablution), the ritual washing before salat",
-            "يَتَيَمَّمْ": "to perform tayammum as dry ablution"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْجُنُبِ",
+          "وُضُوءٍ",
+          "ثَلْجًا",
+          "صَعِيدًا",
+          "يَتَيَمَّمْ",
+          "الِاضْطِرَارِ",
+          "الْمُتَيَمِّمُ",
+          "قَضَاءٌ"
+        ],
         "related_quran": [
           {
             "ref": "4:43",
@@ -241,32 +151,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "পানি না থাকলে কি বরফ বা পাথর দিয়ে তায়াম্মুম করা জায়েজ?",
-          "de": "Ist Tayammum mit Schnee oder Stein erlaubt, wenn kein Wasser verfügbar ist?",
-          "en": "What does this hadith say about tayammum with snow or stone when water is unavailable?",
-          "es": "¿Es válido hacer tayammum con nieve o piedra cuando no hay agua?",
-          "fa": "وقتی آب در دسترس نیست، آیا تیمم با برف یا سنگ جایز است؟",
-          "fr": "Le tayammum avec de la neige ou de la pierre est-il valable lorsqu’il n’y a pas d’eau ?",
-          "id": "Apakah tayammum dengan salju atau batu dibolehkan ketika air tidak tersedia?",
-          "ru": "Допустим ли таяммум со снегом или камнем, когда нет воды?",
-          "tr": "Su bulunmadığında kar veya taş ile tayammum caiz midir?",
-          "ur": "جب پانی دستیاب نہ ہو تو کیا برف یا پتھر سے تیمم جائز ہے؟",
-          "zh": "在没有水时，可以用雪或石头做tayammum吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে পানি না থাকলে জানাবাত অবস্থায় বা ওযু ছাড়া ব্যক্তির জন্য তায়াম্মুমের বিধান আলোচনা করা হয়েছে, বিশেষ করে বরফ, মাটি বা প্রয়োজনে পাথরের ক্ষেত্রে; এবং পরে পানি পাওয়া গেলে পূর্বে আদায়কৃত সালাতের পুনরাবৃত্তি লাগে না।",
-          "de": "Dieser Hadith erläutert die Regeln des Tayammum für jemanden in Janabah oder ohne Wudu, wenn kein Wasser vorhanden ist, insbesondere bei Schnee, Erde oder im Notfall bei Stein; und er legt fest, dass ein mit gültigem Tayammum verrichtetes Gebet nicht nachgeholt werden muss, wenn später Wasser gefunden wird.",
-          "en": "This hadith discusses the rulings of tayammum for one in janabah or without wudu (ablution) when water is unavailable, especially in situations involving snow, earth, or stone. It establishes that using snow for purification is preferable when possible, that tayammum on stone is valid in necessity, and that prayers already performed with valid tayammum do not require qada' when water is later found.",
-          "es": "Este hadiz explica las normas del tayammum para quien está en janabah o sin wudu cuando no hay agua, especialmente con nieve, tierra o, en caso de necesidad, piedra; y establece que la oración realizada con un tayammum válido no debe repetirse si luego se encuentra agua.",
-          "fa": "این حدیث احکام تیمم برای شخص جنب یا بی‌وضو را در صورت نبود آب بیان می‌کند، به‌ویژه درباره برف، خاک یا در حالت ضرورت سنگ، و می‌گوید اگر بعداً آب پیدا شود، نمازِ پیشین اعاده ندارد.",
-          "fr": "Ce hadith expose les règles du tayammum pour celui qui est en janabah ou sans wudu lorsqu’il n’y a pas d’eau, en particulier avec la neige, la terre ou, en cas de nécessité, la pierre ; il établit aussi que la prière accomplie avec un tayammum valide n’a pas à être refaite si l’eau est trouvée plus tard.",
-          "id": "Hadis ini menjelaskan hukum tayammum bagi orang junub atau tanpa wudu ketika air tidak tersedia, khususnya dengan salju, tanah, atau dalam keadaan darurat pada batu, serta bahwa salat yang telah dilakukan dengan tayammum yang sah tidak perlu diqada ketika air kemudian ditemukan.",
-          "ru": "Этот хадис разъясняет нормы таяммума для человека в состоянии джанабы или без вуду, когда нет воды, особенно в отношении снега, земли или, при необходимости, камня; и устанавливает, что молитву, совершённую с действительным таяммумом, не нужно восполнять, если вода найдена позже.",
-          "tr": "Bu hadis, su bulunmadığında cünüp veya abdestsiz kimse için kar, toprak ya da zaruret halinde taş üzerinde tayammum hükümlerini açıklar; sonradan su bulunursa daha önce kılınan namazın iadesi gerekmez.",
-          "ur": "یہ حدیث بتاتی ہے کہ پانی نہ ہونے کی صورت میں جنابت یا بے وضو شخص کے لیے برف، مٹی یا ضرورت کے وقت پتھر پر تیمم کے احکام کیا ہیں، اور بعد میں پانی ملنے پر پہلے پڑھی گئی نماز کا اعادہ لازم نہیں۔",
-          "zh": "这段圣训说明了在没有水时，处于大净状态或没有小净的人做tayammum的规定，尤其是在雪、土或必要时石头的情况下；并指出，如果后来找到了水，先前以有效tayammum完成的礼拜不需要补做。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

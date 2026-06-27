@@ -15,42 +15,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رَوَى الْحُسَيْنُ بْنُ سَعِيدٍ عَنْ حَمَّادٍ عَنْ حَرِيزٍ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ হাম্মাদ থেকে, হারিজ থেকে, মুহাম্মদ ইবন মুসলিম থেকে বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "Al-Husayn ibn Sa'id überlieferte von Hammad, von Hariz, von Muhammad ibn Muslim, der sagte:",
-              "en": "Al-Husayn ibn Sa'id narrated from Hammad, from Hariz, from Muhammad ibn Muslim, who said:",
-              "es": "Al-Husayn ibn Sa'id narró de Hammad, de Hariz, de Muhammad ibn Muslim, quien dijo:",
-              "fa": "الحسین بن سعید از حمّاد، از حریز، از محمد بن مسلم روایت کرد که گفت:",
-              "fr": "Al-Husayn ibn Sa'id a rapporté de Hammad, de Hariz, de Muhammad ibn Muslim, qui a dit :",
-              "id": "Al-Husayn ibn Sa'id meriwayatkan dari Hammad, dari Hariz, dari Muhammad ibn Muslim, yang berkata:",
-              "ru": "Аль-Хусайн ибн Са'ид передал от Хаммада, от Хариза, от Мухаммада ибн Муслима, который сказал:",
-              "tr": "El-Hüseyin ibn Sa'id, Hammâd'dan, Harîz'den, Muhammed ibn Muslim'den rivayet etti; o da şöyle dedi:",
-              "ur": "الحسین بن سعید نے حماد سے، حریز سے، محمد بن مسلم سے روایت کی، جنہوں نے کہا:",
-              "zh": "Al-HusaynibnSa'id传述自Hammad，传自Hariz，传自MuhammadibnMuslim，他说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ عَنِ الْكَلْبِ يُصِيبُ شَيْئًا مِنْ جَسَدِ الرَّجُلِ، قَالَ: يَغْسِلُ الْمَكَانَ الَّذِي أَصَابَهُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবা ‘আবদুল্লাহ عليه السلام-কে জিজ্ঞেস করলাম, একটি কুকুর যদি কোনো মানুষের শরীরের কোনো অংশ স্পর্শ করে, তবে কী করতে হবে? তিনি বললেন: যে স্থানটি স্পর্শ করেছে তা ধুয়ে ফেলতে হবে।",
-              "de": "Ich fragte Aba 'Abd Allah عليه السلام über einen Hund, der etwas vom Körper eines Mannes berührt. Er sagte: Er soll die Stelle waschen, die er berührt hat.",
-              "en": "I asked Aba 'Abd Allah عليه السلام about a dog touching something from a man's body. He said: He should wash the place that it touched.",
-              "es": "Le pregunté a Aba 'Abd Allah عليه السلام acerca de un perro que toca algo del cuerpo de un hombre. Dijo: Debe lavar el lugar que tocó.",
-              "fa": "از ابا عبدالله علیه السلام دربارهٔ این‌که سگی چیزی از بدن مردی را لمس کند پرسیدم. فرمود: باید همان جایی را که به آن رسیده است بشوید.",
-              "fr": "J’ai demandé à Aba 'Abd Allah عليه السلام au sujet d’un chien touchant quelque chose du corps d’un homme. Il a dit : Il doit laver l’endroit qu’il a touché.",
-              "id": "Aku bertanya kepada Aba 'Abd Allah عليه السلام tentang seekor anjing yang menyentuh sesuatu dari tubuh seorang laki-laki. Beliau bersabda: Ia harus mencuci tempat yang disentuhnya.",
-              "ru": "Я спросил Абу 'Абд Аллаха عليه السلام о собаке, которая коснулась чего-то на теле человека. Он сказал: Следует вымыть то место, которого она коснулась.",
-              "tr": "Ebu Abdullah عليه السلام'a, bir köpeğin bir adamın bedeninden bir şeye dokunması hakkında sordum. Buyurdu ki: Dokunduğu yeri yıkamalıdır.",
-              "ur": "میں نے ابا عبد اللہ علیہ السلام سے پوچھا کہ اگر کتا آدمی کے جسم کے کسی حصے کو چھو لے تو کیا حکم ہے؟ آپ نے فرمایا: جس جگہ اس نے چھوا ہے اسے دھو لیا جائے۔",
-              "zh": "我询问Aba'AbdAllah عليه السلام关于一只狗碰到一个人身体上的某处。他说：应当洗净它所碰到的地方。"
-            },
             "word_end": 31,
             "word_start": 13
           }
@@ -103,25 +90,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَصَابَهُ": "it touched him, referring to the dog's contact with the body",
-            "الْكَلْبِ": "the dog, the animal whose contact is being asked about in the ruling",
-            "الْمَكَانَ": "the place, meaning the specific area that was touched",
-            "جَسَدِ": "body, referring to the person's physical body",
-            "يَغْسِلُ": "he should wash, indicating the required action"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْكَلْبِ",
+          "جَسَدِ",
+          "يَغْسِلُ",
+          "الْمَكَانَ",
+          "أَصَابَهُ"
+        ],
         "related_quran": [
           {
             "ref": "2:222",
@@ -136,32 +111,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আস-সাদিক عليه السلام-এর মতে, যদি একটি কুকুর কোনো ব্যক্তির শরীরের কোনো অংশ স্পর্শ করে, তবে কী করা উচিত?",
-          "de": "Was soll getan werden, wenn ein Hund nach Imam al-Sadiq عليه السلام einen Teil des Körpers einer Person berührt?",
-          "en": "What should be done if a dog touches part of a person's body according to Imam al-Sadiq عليه السلام?",
-          "es": "¿Qué debe hacerse si un perro toca una parte del cuerpo de una persona según el Imam al-Sadiq عليه السلام?",
-          "fa": "اگر به‌گفتهٔ امام صادق علیه السلام سگی بخشی از بدن یک شخص را لمس کند، چه باید کرد؟",
-          "fr": "Que faut-il faire si un chien touche une partie du corps d’une personne selon l’imam al-Sadiq عليه السلام ?",
-          "id": "Apa yang harus dilakukan jika seekor anjing menyentuh bagian tubuh seseorang menurut Imam al-Sadiq عليه السلام?",
-          "ru": "Что следует сделать, если собака коснулась части тела человека, согласно имаму ас-Садику عليه السلام?",
-          "tr": "İmam es-Sâdık عليه السلام'a göre bir köpek bir kişinin bedeninin bir kısmına dokunursa ne yapılmalıdır?",
-          "ur": "اگر امام الصادق علیہ السلام کے مطابق کتا کسی شخص کے جسم کے کسی حصے کو چھو لے تو کیا کرنا چاہیے؟",
-          "zh": "根据伊玛目阿萨迪格 عليه السلام，如果一只狗碰到一个人的身体部位，应当怎么做？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে কুকুরের মানুষের শরীর স্পর্শ করার বিষয়ে একটি শরয়ি বিধান বর্ণিত হয়েছে। ইমাম আস-সাদিক عليه السلام নির্দেশ দেন যে কুকুর যে নির্দিষ্ট স্থানটি স্পর্শ করেছে তা ধুয়ে ফেলতে হবে, যা পবিত্রতার সঙ্গে সম্পর্কিত একটি বিধানের ইঙ্গিত দেয়।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung über den Kontakt eines Hundes mit dem Körper einer Person. Imam al-Sadiq عليه السلام weist an, die bestimmte Stelle zu waschen, die der Hund berührt hat, was auf eine Regel zur rituellen Reinheit hinweist.",
-          "en": "This hadith gives a legal ruling concerning contact of a dog with a person's body. Imam al-Sadiq عليه السلام instructs that the specific place touched by the dog should be washed, indicating a ruling related to ritual purity.",
-          "es": "Este hadiz establece una norma jurídica sobre el contacto de un perro con el cuerpo de una persona. El Imam al-Sadiq عليه السلام instruye que se lave el lugar específico que tocó el perro, lo que indica una norma relacionada con la pureza ritual.",
-          "fa": "این حدیث حکمی فقهی دربارهٔ تماس سگ با بدن انسان بیان می‌کند. امام صادق علیه السلام دستور می‌دهند که همان بخشِ مشخصی که سگ آن را لمس کرده است شسته شود، که نشان‌دهندهٔ حکمی مربوط به طهارت است.",
-          "fr": "Ce hadith énonce une règle juridique concernant le contact d’un chien avec le corps d’une personne. L’imam al-Sadiq عليه السلام ordonne de laver l’endroit précis touché par le chien, ce qui indique une règle liée à la pureté rituelle.",
-          "id": "Hadis ini memberikan hukum fikih mengenai sentuhan anjing pada tubuh seseorang. Imam al-Sadiq عليه السلام memerintahkan agar bagian tertentu yang disentuh anjing dicuci, yang menunjukkan hukum terkait kesucian ritual.",
-          "ru": "Этот хадис содержит правовое предписание относительно прикосновения собаки к телу человека. Имам ас-Садик عليه السلام велит вымыть то конкретное место, которого коснулась собака, что указывает на постановление, связанное с ритуальной чистотой.",
-          "tr": "Bu hadis, bir köpeğin bir kişinin bedeniyle teması hakkında fıkhî bir hüküm bildirir. İmam es-Sâdık عليه السلام, köpeğin dokunduğu belirli yerin yıkanmasını emrederek, taharetle ilgili bir hükme işaret etmektedir.",
-          "ur": "یہ حدیث کتے کے انسان کے جسم سے چھونے کے بارے میں شرعی حکم بیان کرتی ہے۔ امام الصادق علیہ السلام ہدایت دیتے ہیں کہ کتے کے چھوئے ہوئے مخصوص مقام کو دھویا جائے، جو طہارت سے متعلق حکم کی طرف اشارہ ہے۔",
-          "zh": "这段圣训给出了关于狗接触人体的教法律例。伊玛目阿萨迪格 عليه السلام指示应当清洗狗所碰到的具体部位，这表明这是与礼仪洁净有关的规定。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations",

@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ عَلِيِّ بْنِ مَحْبُوبٍ عَنْ يَعْقُوبَ بْنِ يَزِيدَ عَنِ الْحَجَّالِ عَنْ أَبَانٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন ‘আলি ইবন মাহবুব, ইয়াকুব ইবন ইয়াজিদ থেকে, তিনি আল-হাজ্জাল থেকে, তিনি আবান থেকে, যিনি বলেছেন:",
-              "de": "Muhammad ibn 'Ali ibn Mahbub, von Ya'qub ibn Yazid, von al-Hajjal, von Aban, der sagte:",
-              "en": "Muhammad ibn 'Ali ibn Mahbub, from Ya'qub ibn Yazid, from al-Hajjal, from Aban, who said:",
-              "es": "Muhammad ibn 'Ali ibn Mahbub, de Ya'qub ibn Yazid, de al-Hajjal, de Aban, quien dijo:",
-              "fa": "محمد بن علی بن محبوب، از یعقوب بن یزید، از الحجاج، از ابان، که گفت:",
-              "fr": "Muhammad ibn 'Ali ibn Mahbub, d'après Ya'qub ibn Yazid, d'après al-Hajjal, d'après Aban, qui a dit :",
-              "id": "Muhammad ibn 'Ali ibn Mahbub, dari Ya'qub ibn Yazid, dari al-Hajjal, dari Aban, yang berkata:",
-              "ru": "Мухаммад ибн 'Али ибн Махбуб, от Я'куба ибн Язида, от аль-Хаджжаля, от Абана, который сказал:",
-              "tr": "Muhammed ibn Ali ibn Mahbub, Ya'kub ibn Yezid'den, o da el-Haccal'den, o da Aban'dan rivayet etti ki şöyle dedi:",
-              "ur": "محمد بن علی بن محبوب، یعقوب بن یزید سے، وہ الحجاج سے، وہ ابان سے، جنہوں نے کہا:",
-              "zh": "穆罕默德·伊本·阿里·伊本·马赫布卜，传自雅库布·伊本·亚齐德，传自阿勒哈贾勒，传自阿班，他说："
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ أَبُو عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ: «أَلْقُوا عَنْكُمُ الشَّعْرَ فَإِنَّهُ يُحَسِّنُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আবু ‘আবদুল্লাহ عليه السلام বলেছেন: “তোমাদের দেহের লোম দূর করো, কারণ তা [অবস্থা/চেহারা] সুন্দর করে।”",
-              "de": "Abu 'Abd Allah عليه السلام sagte: „Entfernt die Haare von euch, denn das verbessert [den Zustand/das Erscheinungsbild].“",
-              "en": "Abu 'Abd Allah عليه السلام said: “Remove the hair from yourselves, for it improves [one’s condition/appearance].”",
-              "es": "Abu 'Abd Allah عليه السلام dijo: “Eliminen el vello de ustedes, pues mejora [la condición/el aspecto].”",
-              "fa": "ابوعبدالله علیه‌السلام فرمود: «مو را از خود دور کنید، زیرا [حال/ظاهر] را نیکو می‌کند.»",
-              "fr": "Abu 'Abd Allah عليه السلام a dit : « Enlevez les poils de vous-mêmes, car cela améliore [l’état/l’apparence]. »",
-              "id": "Abu 'Abd Allah عليه السلام bersabda: “Hilangkan rambut dari tubuh kalian, karena itu memperbaiki [keadaan/penampilan] seseorang.”",
-              "ru": "Абу 'Абд Аллах عليه السلام сказал: «Удаляйте волосы с себя, ибо это улучшает [состояние/внешний вид].»",
-              "tr": "Ebu Abdillah عليه السلام şöyle buyurdu: “Vücudunuzdaki kılları giderin; çünkü bu [kişinin hâlini/görünüşünü] güzelleştirir.”",
-              "ur": "ابو عبد اللہ علیہ السلام نے فرمایا: “اپنے جسم سے بال ہٹا دو، کیونکہ یہ [حالت/ظاہری شکل کو] بہتر بناتا ہے۔”",
-              "zh": "阿布·阿卜杜拉 عليه السلام说：“把你们身上的毛发去除，因为这会使[人的状况/外表]更好。”"
-            },
             "word_end": 25,
             "word_start": 14
           }
@@ -110,24 +97,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَلْقُوا": "Cast off or remove",
-            "الشَّعْرَ": "Hair",
-            "عَنْكُمُ": "From yourselves",
-            "يُحَسِّنُ": "It improves, beautifies, or refines"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَلْقُوا",
+          "عَنْكُمُ",
+          "الشَّعْرَ",
+          "يُحَسِّنُ"
+        ],
         "related_quran": [
           {
             "ref": "2:222",
@@ -138,32 +113,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام দেহের লোম দূর করা সম্পর্কে কী বলেছেন?",
-          "de": "Was sagte Imam al-Sadiq عليه السلام über das Entfernen von Körperhaaren?",
-          "en": "What did Imam al-Sadiq عليه السلام say about removing body hair?",
-          "es": "¿Qué dijo el Imam al-Sadiq عليه السلام sobre eliminar el vello corporal?",
-          "fa": "امام صادق علیه‌السلام درباره زدودن موی بدن چه فرمود؟",
-          "fr": "Que dit l’imam al-Sadiq عليه السلام au sujet de l’enlèvement des poils du corps ?",
-          "id": "Apa yang dikatakan Imam al-Sadiq عليه السلام tentang menghilangkan rambut tubuh?",
-          "ru": "Что сказал имам ас-Садик عليه السلام об удалении волос на теле?",
-          "tr": "İmam es-Sadık عليه السلام vücut kıllarını gidermek hakkında ne dedi?",
-          "ur": "امام الصادق علیہ السلام نے جسم کے بال ہٹانے کے بارے میں کیا فرمایا؟",
-          "zh": "伊玛目萨迪格 عليه السلام关于去除体毛说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস ব্যক্তিগত পরিচর্যা ও পরিমার্জনের অংশ হিসেবে দেহের লোম দূর করতে উৎসাহিত করে। প্রসঙ্গক্রমে, এটি পরিচ্ছন্নতা ও হাম্মাম-সম্পর্কিত আদব এবং সুপারিশকৃত আমলকে প্রতিফলিত করে।",
-          "de": "Dieser Hadith ermutigt dazu, Körperhaare als Teil der persönlichen Pflege und Verschönerung zu entfernen. Im Kontext spiegelt er die Etikette und empfohlenen Praktiken im Zusammenhang mit Reinheit und Badehaus wider.",
-          "en": "This hadith encourages removing bodily hair as part of personal grooming and refinement. In context, it reflects the etiquettes and recommended practices associated with cleanliness and the bathhouse.",
-          "es": "Este hadiz anima a eliminar el vello corporal como parte del aseo y la refinación personal. En contexto, refleja las normas y prácticas recomendadas relacionadas con la limpieza y el baño.",
-          "fa": "این حدیث به زدودن موی بدن به‌عنوان بخشی از آراستگی و نظافت شخصی ترغیب می‌کند. در این زمینه، آداب و رفتارهای مستحبِ مربوط به پاکیزگی و حمام را بازتاب می‌دهد.",
-          "fr": "Ce hadith encourage à enlever les poils du corps dans le cadre de l’entretien et de la parure personnels. Dans son contexte, il reflète les règles de bienséance et les pratiques recommandées liées à la propreté et au bain.",
-          "id": "Hadis ini menganjurkan menghilangkan rambut tubuh sebagai bagian dari perawatan dan penyempurnaan diri. Dalam konteksnya, ini mencerminkan adab dan amalan yang dianjurkan terkait kebersihan dan pemandian.",
-          "ru": "Этот хадис побуждает удалять волосы на теле как часть личного ухода и украшения. В контексте он отражает нормы поведения и рекомендуемые практики, связанные с чистотой и баней.",
-          "tr": "Bu hadis, kişisel bakım ve güzelleşmenin bir parçası olarak vücut kıllarını gidermeyi teşvik eder. Bağlamında, temizlik ve hamamla ilgili edepleri ve tavsiye edilen uygulamaları yansıtır.",
-          "ur": "یہ حدیث جسم کے بال ہٹانے اور ذاتی صفائی و آرائش کی ترغیب دیتی ہے۔ سیاق میں یہ صفائی اور حمام سے متعلق آداب اور مستحب اعمال کی طرف اشارہ کرتی ہے۔",
-          "zh": "这段圣训鼓励去除体毛，作为个人修饰和整洁的一部分。在语境中，它体现了与清洁和浴室相关的礼仪与推荐做法。"
-        },
         "tags": [
           "ethics",
           "jurisprudence",

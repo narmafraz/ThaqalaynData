@@ -14,6 +14,132 @@
       "up": "/books/al-kafi:7:1:23"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ الْحَسَنِ بْنِ عَلِيِّ بْنِ فَضَّالٍ عَنِ ابْنِ بُكَيْرٍ عَنِ الْحَكَمِ بْنِ أَبِي عَقِيلَةَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 22,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "تَصَدَّقَ أَبِي عَلَيَّ بِدَارٍ وَ قَبَضْتُهَا ثُمَّ وُلِدَ لَهُ بَعْدَ ذَلِكَ أَوْلَادٌ فَأَرَادَ أَنْ يَأْخُذَهَا مِنِّي وَ يَتَصَدَّقَ بِهَا عَلَيْهِمْ فَسَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) عَنْ ذَلِكَ وَ أَخْبَرْتُهُ بِالْقِصَّةِ فَقَالَ لَا تُعْطِهَا إِيَّاهُ قُلْتُ فَإِنَّهُ إِذاً يُخَاصِمُنِي قَالَ فَخَاصِمْهُ وَ لَا تَرْفَعْ صَوْتَكَ عَلَى صَوْتِهِ .",
+            "chunk_type": "body",
+            "word_end": 72,
+            "word_start": 22
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 244,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحَسَنِ بْنِ عَلِيِّ بْنِ فَضَّالٍ",
+              "name_en": "al-Hasan ibn Ali ibn Faddal",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 56,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ بُكَيْرٍ",
+              "name_en": "Ibn Bukayr",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2661,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحَكَمِ بْنِ أَبِي عَقِيلَةَ",
+              "name_en": "al-Hakam b. Abi Aqilah",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "تَصَدَّقَ",
+          "قَبَضْتُهَا",
+          "أَوْلَادٌ",
+          "يَخَاصِمُنِي",
+          "أَبَا عَبْدِ اللَّهِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:282",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "49:10",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family",
+          "social_relations"
+        ],
+        "topics": [
+          "charity",
+          "marriage_family_law",
+          "financial_law",
+          "etiquette"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (3/55)"
       ],
@@ -85,7 +211,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:7:1:23:18",

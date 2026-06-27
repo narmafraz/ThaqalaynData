@@ -15,6 +15,143 @@
       "up": "/books/al-kafi:8:1:43"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَنْهُ عَنْ صَالِحٍ عَنِ الْحَجَّالِ عَنْ بَعْضِ أَصْحَابِهِ عَنْ أَبِي عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 15,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُهُ عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ وَ مَنْ قُتِلَ مَظْلُومَاً فَقَدْ جَعَلْنا لِوَلِيِّهِ سُلْطاناً فَلَا يُسْرِفْ فِي الْقَتْلِ",
+            "chunk_type": "body",
+            "word_end": 34,
+            "word_start": 15
+          },
+          {
+            "arabic_text": "قَالَ نَزَلَتْ فِي الْحُسَيْنِ (عَلَيْهِ السَّلَامُ) لَوْ قُتِلَ أَهْلُ الْأَرْضِ بِهِ مَا كَانَ سَرَفاً",
+            "chunk_type": "closing",
+            "word_end": 48,
+            "word_start": 34
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 11,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَنْهُ",
+              "name_en": "from him",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 538,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "صَالِحٍ",
+              "name_en": "Salih",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 122,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحَجَّالِ",
+              "name_en": "al-Hajjal",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 37,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "بَعْضِ أَصْحَابِهِ",
+              "name_en": "some of his companions",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ (عليه السلام)",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "مَظْلُوماً",
+          "وَلِيِّهِ",
+          "سُلْطاناً",
+          "يُسْرِفْ",
+          "الْحُسَيْنِ",
+          "سَرَفاً"
+        ],
+        "related_quran": [
+          {
+            "ref": "17:33",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "39:69",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "55:60",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "quran_commentary",
+          "theology",
+          "history"
+        ],
+        "topics": [
+          "karbala",
+          "quran_interpretation_method",
+          "imams_biography",
+          "justice_system"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 238)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -96,7 +233,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:43:52",

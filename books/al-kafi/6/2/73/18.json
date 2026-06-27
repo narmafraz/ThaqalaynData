@@ -14,6 +14,137 @@
       "up": "/books/al-kafi:6:2:73"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "أَبُو عَلِيٍّ الْأَشْعَرِيُّ عَنْ مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ عَنْ صَفْوَانَ عَنْ سَيْفٍ التَّمَّارِ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 14,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قُلْتُ لِأَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) الرَّجُلُ يَقُولُ لِامْرَأَتِهِ أَنْتِ عَلَيَّ كَظَهْرِ أُخْتِي أَوْأَمَّتِي أَوْ خَالَتِي قَالَ فَقَالَ إِنَّمَا ذَكَرَ اللَّهُ الْأُمَّهَاتِ وَ إِنَّ هَذَا لَحَرَامٌ",
+            "chunk_type": "body",
+            "word_end": 42,
+            "word_start": 14
+          },
+          {
+            "arabic_text": "أَنْتِ عَلَيَّ كَظَهْرِ أُخْتِي أَوْ عَمَّتِي أَوْ خَالَتِي",
+            "chunk_type": "body",
+            "word_end": 50,
+            "word_start": 42
+          },
+          {
+            "arabic_text": "قَالَ فَقَالَ إِنَّمَا ذَكَرَ اللَّهُ الْأُمَّهَاتِ وَ إِنَّ هَذَا لَحَرَامٌ",
+            "chunk_type": "body",
+            "word_end": 60,
+            "word_start": 50
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 19,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبُو عَلِيٍّ الْأَشْعَرِيُّ",
+              "name_en": "Abu Ali al-Ash'ari",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 24,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ",
+              "name_en": "Muhammad b. Abd al-Jabbar",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 43,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "صَفْوَانَ",
+              "name_en": "Safwan",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 537,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "سَيْفٍ التَّمَّارِ",
+              "name_en": "Sayf al-Tammār",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "theological_concept",
+            "phrase_ar": "ذِكْرُ اللَّهِ",
+            "phrase_en": "Remembrance of Allah"
+          }
+        ],
+        "key_terms_keys": [
+          "الظَّهْر",
+          "الزَّهَار",
+          "الْأُمَّهَاتِ",
+          "حَرَامٌ"
+        ],
+        "related_quran": [
+          {
+            "ref": "58:2",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "58:3",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family",
+          "social_relations"
+        ],
+        "topics": [
+          "marriage_family_law",
+          "halal_haram",
+          "spousal_rights"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> صحيح    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (21/261)"
       ],
@@ -76,7 +207,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:2:73:18",

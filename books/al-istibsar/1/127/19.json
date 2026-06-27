@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ، عَنْ عَلِيِّ بْنِ سَيْفٍ، عَنْ مُحَمَّدِ بْنِ عَلِيٍّ، قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, আলী ইবন সাইফ থেকে, মুহাম্মদ ইবন আলী থেকে, তিনি বলেছেন:",
-              "de": "Von ihm, von ʿAlī ibn Sayf, von Muḥammad ibn ʿAlī, der sagte:",
-              "en": "From him, from ʿAlī ibn Sayf, from Muḥammad ibn ʿAlī, who said:",
-              "es": "De él, de ʿAlī ibn Sayf, de Muḥammad ibn ʿAlī, quien dijo:",
-              "fa": "از او، از علی بن سیف، از محمد بن علی، که گفت:",
-              "fr": "De lui, de ʿAlī ibn Sayf, de Muḥammad ibn ʿAlī, qui a dit :",
-              "id": "Darinya, dari Ali ibn Sayf, dari Muhammad ibn Ali, ia berkata:",
-              "ru": "От него, от ʿАли ибн Сайфа, от Мухаммада ибн ʿАли, который сказал:",
-              "tr": "Ondan, Ali ibn Seyf'ten, Muhammed ibn Ali'den, o şöyle dedi:",
-              "ur": "ان سے، علی بن سیف سے، محمد بن علی سے، انہوں نے کہا:",
-              "zh": "由他传自ʿAliibnSayf，传自MuḥammadibnʿAli，他说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "صَحِبْتُ الرِّضَا عَلَيْهِ السَّلَامُ فِي السَّفَرِ، فَرَأَيْتُهُ يُصَلِّي الْمَغْرِبَ إِذَا أَقْبَلَتِ الْفَحْمَةُ مِنَ الْمَشْرِقِ، يَعْنِي السَّوَادَ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি সফরের সময় আল-রিদা عليه السلام-এর সঙ্গে ছিলাম, এবং আমি দেখলাম তিনি মাগরিবের সালাত আদায় করলেন যখন পূর্ব দিক থেকে অন্ধকার এগিয়ে আসছিল—অর্থাৎ কালোভাব।",
-              "de": "Ich begleitete al-Riḍā عليه السلام auf einer Reise, und ich sah, wie er das maghrib-Gebet verrichtete, als die Dunkelheit aus dem Osten herankam — das heißt die Schwärze.",
-              "en": "I accompanied al-Riḍā عليه السلام during travel, and I saw him perform the maghrib prayer when the darkness approached from the east—meaning the blackness.",
-              "es": "Acompañé a al-Riḍā عليه السلام durante el viaje, y lo vi realizar la oración del maghrib cuando la oscuridad se acercaba desde el este; es decir, la negrura.",
-              "fa": "در سفر، همراهِ الرضا علیه السلام بودم و دیدم که ایشان نماز مغرب را هنگامی به جا می‌آوردند که تاریکی از سمت مشرق فرا می‌رسید؛ یعنی سیاهی.",
-              "fr": "J’ai accompagné al-Riḍā عليه السلام pendant le voyage, et je l’ai vu accomplir la prière du maghrib lorsque l’obscurité s’approchait de l’est — c’est-à-dire la noirceur.",
-              "id": "Aku menemani al-Riḍā عليه السلام dalam سفر, dan aku melihat beliau melaksanakan salat maghrib ketika kegelapan mulai datang dari arah timur—yaitu kegelapan hitam.",
-              "ru": "Я сопровождал аль-Риду عليه السلام в пути и видел, как он совершал молитву магриб, когда тьма приближалась с востока — то есть чернота.",
-              "tr": "Yolculuk sırasında er-Rıza عليه السلام'a eşlik ettim ve doğudan karanlık yaklaşınca—yani siyahlık—onun maghrib namazını kıldığını gördüm.",
-              "ur": "میں سفر کے دوران الرضا علیہ السلام کے ساتھ تھا، اور میں نے دیکھا کہ وہ مغرب کی نماز اس وقت ادا کرتے تھے جب مشرق کی طرف سے تاریکی آنا شروع ہو جاتی تھی—یعنی سیاہی۔",
-              "zh": "我在旅途中陪同al-Riḍā عليه السلام，并看见他在东方的黑暗开始逼近时礼maghrib拜——也就是黑色。"
-            },
             "word_end": 26,
             "word_start": 10
           }
@@ -94,27 +81,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الرِّضَا": "Imam al-Riḍā عليه السلام, whose practice is being reported",
-            "السَّفَرِ": "travel, the state in which the observation took place",
-            "السَّوَادَ": "the blackness, explaining the meaning of الْفَحْمَةُ in context",
-            "الْفَحْمَةُ": "the darkening or dusky onset appearing in the sky",
-            "الْمَشْرِقِ": "the east, from where the darkness is described as approaching",
-            "الْمَغْرِبَ": "the maghrib salat (prayer), the sunset prayer",
-            "يُصَلِّي": "he performs salat (prayer)"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الرِّضَا",
+          "السَّفَرِ",
+          "يُصَلِّي",
+          "الْمَغْرِبَ",
+          "الْفَحْمَةُ",
+          "الْمَشْرِقِ",
+          "السَّوَادَ"
+        ],
         "related_quran": [
           {
             "ref": "17:78",
@@ -129,32 +104,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী ইমাম আল-রিদা عليه السلام-এর মতে মাগরিবের সালাতের সময় কখন শুরু হয়?",
-          "de": "Wann beginnt nach diesem Hadith die Zeit des maghrib-Gebets gemäß Imam al-Riḍā عليه السلام?",
-          "en": "When does the time of maghrib salat (prayer) begin according to this hadith from Imam al-Riḍā عليه السلام?",
-          "es": "Según este hadiz, ¿cuándo comienza el tiempo de la oración del maghrib según el Imam al-Riḍā عليه السلام?",
-          "fa": "بر اساس این حدیث، وقت نماز مغرب نزد امام الرضا علیه السلام چه زمانی آغاز می‌شود؟",
-          "fr": "Selon ce hadith, quand commence le temps de la prière du maghrib d’après l’imam al-Riḍā عليه السلام ?",
-          "id": "Menurut hadis ini, kapan waktu salat maghrib dimulai menurut Imam al-Riḍā عليه السلام?",
-          "ru": "Согласно этому хадису, когда начинается время молитвы магриб по словам имама аль-Риды عليه السلام?",
-          "tr": "Bu hadise göre İmam er-Rıza عليه السلام'a göre maghrib namazının vakti ne zaman başlar?",
-          "ur": "اس حدیث کے مطابق امام الرضا علیہ السلام کے نزدیک مغرب کی نماز کا وقت کب شروع ہوتا ہے؟",
-          "zh": "根据这段圣训，按照伊玛目al-Riḍā عليه السلام的说法，maghrib礼拜的时间何时开始？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে সফরের সময় ইমাম আল-রিদা عليه السلام-এর মাগরিবের সালাতের সময় সম্পর্কে পর্যবেক্ষিত আমল বর্ণিত হয়েছে। এতে বোঝা যায় যে পূর্ব দিগন্ত থেকে অন্ধকার দেখা দিতে শুরু করলে তিনি মাগরিব আদায় করতেন, যা সালাতের সময়ের সঙ্গে সম্পর্কিত রাতের সূচনাকে স্পষ্ট করে।",
-          "de": "Dieser Hadith berichtet über die beobachtete Praxis von Imam al-Riḍā عليه السلام hinsichtlich der Zeit des maghrib-Gebets während einer Reise. Er zeigt, dass er das maghrib verrichtete, wenn die Dunkelheit am östlichen Horizont zu erscheinen begann, und erläutert damit den Beginn der Nacht im Zusammenhang mit der Gebetszeit.",
-          "en": "This hadith reports the observed practice of Imam al-Riḍā عليه السلام regarding the time of maghrib salat (prayer) while traveling. It indicates that he performed maghrib when darkness began to appear from the eastern horizon, clarifying the onset of nightfall relevant to the prayer time.",
-          "es": "Este hadiz relata la práctica observada del Imam al-Riḍā عليه السلام respecto al momento de la oración del maghrib durante un viaje. Indica que realizaba el maghrib cuando la oscuridad comenzaba a aparecer desde el horizonte oriental, aclarando el inicio de la noche relacionado con el tiempo de la oración.",
-          "fa": "این حدیث، رفتار مشاهده‌شدهٔ امام الرضا علیه السلام را دربارهٔ وقت نماز مغرب در سفر گزارش می‌کند. بر این دلالت دارد که ایشان مغرب را هنگامی به جا می‌آوردند که تاریکی از افق شرقی آغاز به پدیدار شدن می‌کرد، و بدین‌سان آغاز شبِ مرتبط با وقت نماز را روشن می‌سازد.",
-          "fr": "Ce hadith rapporte la pratique observée de l’imam al-Riḍā عليه السلام concernant le moment de la prière du maghrib pendant le voyage. Il indique qu’il accomplissait le maghrib lorsque l’obscurité commençait à apparaître à l’horizon oriental, clarifiant ainsi le début de la nuit lié au temps de la prière.",
-          "id": "Hadis ini meriwayatkan praktik yang diamati dari Imam al-Riḍā عليه السلام mengenai waktu salat maghrib saat bepergian. Ini menunjukkan bahwa beliau melaksanakan maghrib ketika kegelapan mulai tampak dari ufuk timur, yang menjelaskan awal malam yang terkait dengan waktu salat.",
-          "ru": "Этот хадис передаёт наблюдаемую практику имама аль-Риды عليه السلام относительно времени молитвы магриб во время путешествия. Он указывает, что он совершал магриб, когда тьма начинала появляться с восточного горизонта, разъясняя наступление ночи, связанное со временем молитвы.",
-          "tr": "Bu hadis, yolculuk sırasında İmam er-Rıza عليه السلام'ın maghrib namazının vaktine dair gözlemlenen uygulamasını aktarır. Buna göre, doğu ufkundan karanlık görünmeye başladığında maghrib kılardı; bu da namaz vaktiyle ilgili gece başlangıcını açıklar.",
-          "ur": "یہ حدیث سفر کے دوران امام الرضا علیہ السلام کے مغرب کی نماز کے وقت کے بارے میں مشاہدہ شدہ عمل کو بیان کرتی ہے۔ اس سے معلوم ہوتا ہے کہ آپ مغرب اس وقت ادا کرتے تھے جب مشرقی افق سے تاریکی ظاہر ہونا شروع ہوتی تھی، جو نماز کے وقت سے متعلق رات کے آغاز کی وضاحت کرتی ہے۔",
-          "zh": "这段圣训记述了伊玛目al-Riḍā عليه السلام在旅行中关于maghrib礼拜时间的实际做法。它表明，当黑暗开始从东方地平线出现时，他就礼maghrib拜，从而说明了与礼拜时间相关的夜幕开始。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

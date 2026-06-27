@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَرَوَى حَمَّادٌ عَنْ أَبِي بَصِيرٍ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "হাম্মাদ আবী বাসীর থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Ḥammād berichtete von Abī Baṣīr, der sagte:",
-              "en": "Ḥammād narrated from Abī Baṣīr, who said:",
-              "es": "Ḥammād narró de Abī Baṣīr, quien dijo:",
-              "fa": "حمّاد از ابی بصیر روایت کرد که گفت:",
-              "fr": "Ḥammād a rapporté d'Abī Baṣīr, qui a dit :",
-              "id": "Ḥammād meriwayatkan dari Abī Baṣīr, yang berkata:",
-              "ru": "Ḥammād передал от Абī Басīр, который сказал:",
-              "tr": "Ḥammād, Abī Baṣīr'den rivayet etti, dedi ki:",
-              "ur": "حَمَّاد نے ابی بصیر سے روایت کی، جنہوں نے کہا:",
-              "zh": "Ḥammād从AbīBaṣīr传述，他说："
-            },
             "word_end": 6,
             "word_start": 0
           },
           {
             "arabic_text": "سُئِلَ أَبُو عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ عَنِ الْمُتْعَةِ أَهِيَ مِنَ الْأَرْبَعِ قَالَ «لَا وَلَا مِنَ السَّبْعِينَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আবু আব্দিল্লাহ عليه السلام থেকে মুত‘াহ সম্পর্কে জিজ্ঞাসা করা হলো: এটি কি চারটির মধ্যে? তিনি বললেন, “না, এবং সত্তরের মধ্যেও নয়।”",
-              "de": "Abū ʿAbdillāh عليه السلام wurde nach al-mutʿah gefragt: ob sie zu den vier gehört. Er sagte: „Nein, und auch nicht zu den siebzig.“",
-              "en": "Abū ʿAbdillāh عليه السلام was asked about al-mutʿah: whether it is among the four. He said, “No, and not even among seventy.”",
-              "es": "Se preguntó a Abū ʿAbdillāh عليه السلام sobre al-mutʿah: si está entre las cuatro. Él dijo: “No, ni siquiera entre las setenta.”",
-              "fa": "از ابی عبد الله علیه السلام درباره متعه پرسیده شد: آیا از چهار است؟ فرمود: «نه، و حتی از هفتاد هم نیست.»",
-              "fr": "On demanda à Abū ʿAbdillāh عليه السلام au sujet de al-mutʿah : si elle faisait partie des quatre. Il répondit : « Non, et même pas parmi les soixante-dix. »",
-              "id": "Abū ʿAbdillāh علیه السلام ditanya tentang al-mutʿah: apakah termasuk dari empat? Beliau berkata, “Tidak, bahkan bukan dari tujuh puluh.”",
-              "ru": "У Абū ʿAbdillāh عليه السلام спросили о аль-мута: входит ли она в число четырёх. Он ответил: «Нет, и даже не среди семидесяти.»",
-              "tr": "Ebu ʿAbdillāh علیه السلام'a al-mutʿah hakkında, dört arasında olup olmadığı soruldu. O dedi ki: “Hayır, hatta yetmiş arasında da değil.”",
-              "ur": "ابو عبداللہ علیہ السلام سے متعہ کے بارے میں پوچھا گیا: کیا یہ چار میں شامل ہے؟ آپ نے فرمایا، “نہیں، اور نہ ہی ستر میں سے۔”",
-              "zh": "有人问AbūʿAbdillāhعليهالسلام关于al-mutʿah：它是否属于四个之中。他说：“不，也不属于七十个之中。”"
-            },
             "word_end": 22,
             "word_start": 6
           }
@@ -91,24 +78,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبُو عَبْدِ اللَّهِ": "Imam Jaʿfar al-Ṣādiq عليه السلام, the one being asked for the ruling",
-            "السَّبْعِينَ": "a hyperbolic number used to emphasize that mutʿah is not included in such a count",
-            "الْأَرْبَعِ": "the legal limit of four wives referenced in the question",
-            "الْمُتْعَةِ": "temporary marriage being asked about in this legal context"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَبُو عَبْدِ اللَّهِ",
+          "الْمُتْعَةِ",
+          "الْأَرْبَعِ",
+          "السَّبْعِينَ"
+        ],
         "related_quran": [
           {
             "ref": "4:24",
@@ -119,32 +94,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামী আইনে মুত‘াহ কি চার স্ত্রীর মধ্যে গণনা করা হয়?",
-          "de": "Wird Mutʿah im islamischen Recht zu den vier Ehefrauen gezählt?",
-          "en": "Is mutʿah counted among the four wives in Islamic law?",
-          "es": "¿Se cuenta el mutʿah entre las cuatro esposas en la ley islámica?",
-          "fa": "آیا متعه در قانون اسلامی جزو چهار همسر محسوب می‌شود؟",
-          "fr": "La mutʿah est-elle comptée parmi les quatre épouses en droit islamique ?",
-          "id": "Apakah mutʿah dihitung di antara empat istri dalam hukum Islam?",
-          "ru": "Считается ли мута среди четырёх жён в исламском праве?",
-          "tr": "İslami hukukta mutʿah dört eş arasında sayılır mı?",
-          "ur": "کیا متعہ اسلامی قانون میں چار بیویوں میں شمار ہوتی ہے؟",
-          "zh": "mutʿah在伊斯兰法律中算作四个妻子之一吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে মুত‘াহ চারটি স্ত্রীর মধ্যে গণনা করা হয় না। ইমাম عليه السلام এটি সেই সংখ্যায় অন্তর্ভুক্ত করার ব্যাপারে জোরালোভাবে অস্বীকার করেছেন, যা অস্থায়ী বিবাহের একটি স্বতন্ত্র আইনি মর্যাদা নির্দেশ করে।",
-          "de": "Dieser Hadith besagt, dass Mutʿah nicht zu der Grenze von vier Ehefrauen gezählt wird. Der Imam عليه السلام lehnt es entschieden ab, sie in diese Zahl einzubeziehen, was auf einen eigenen rechtlichen Status der zeitlich begrenzten Ehe hinweist.",
-          "en": "This hadith states that mutʿah is not counted within the limit of four wives. The Imam عليه السلام emphatically rejects including it in that number, indicating a distinct legal status for temporary marriage.",
-          "es": "Este hadiz establece que el mutʿah no se cuenta dentro del límite de cuatro esposas. El Imam عليه السلام rechaza enfáticamente incluirlo en ese número, indicando un estatus legal distinto para el matrimonio temporal.",
-          "fa": "این حدیث بیان می‌کند که متعه در شمار چهار همسر محسوب نمی‌شود. امام علیه السلام به شدت رد می‌کند که آن را در آن عدد بگنجانند و نشان‌دهنده وضعیت حقوقی متمایز ازدواج موقت است.",
-          "fr": "Ce hadith indique que la mutʿah n'est pas comptée parmi la limite des quatre épouses. L'Imam عليه السلام rejette catégoriquement de l'inclure dans ce nombre, indiquant un statut juridique distinct pour le mariage temporaire.",
-          "id": "Hadis ini menyatakan bahwa mutʿah tidak dihitung dalam batas empat istri. Imam علیه السلام dengan tegas menolak memasukkannya dalam jumlah itu, menunjukkan status hukum yang berbeda untuk pernikahan sementara.",
-          "ru": "Этот хадис утверждает, что мута не считается в пределах четырёх жён. Имам عليه السلام категорически отвергает включение её в это число, указывая на особый правовой статус временного брака.",
-          "tr": "Bu hadis, mutʿah'ın dört eş sınırına dahil olmadığını belirtir. İmam علیه السلام, geçici evlilik için ayrı bir hukuki statü olduğunu göstererek bunu o sayıya dahil etmeyi kesinlikle reddetmiştir.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ متعہ چار بیویوں کی حد میں شمار نہیں ہوتی۔ امام علیہ السلام نے اس کو اس تعداد میں شامل کرنے کی سختی سے تردید کی، جو عارضی نکاح کے لیے ایک منفرد شرعی حیثیت کی نشاندہی کرتی ہے۔",
-          "zh": "此圣训说明mutʿah不计入四妻的限制。伊玛目عليهالسلام坚决否认将其包括在内，表明临时婚姻具有独特的法律地位。"
-        },
         "tags": [
           "jurisprudence",
           "family",

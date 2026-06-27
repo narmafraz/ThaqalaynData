@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رَوَى ٱلْحَسَنُ بْنُ مَحْبُوبٍ عَنْ عَلِيِّ بْنِ رِئَابٍ عَنْ زُرَارَةَ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ ٱلسَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হাসান ইবনে মাহবুব আলী ইবনে রিয়াব থেকে, যুরারা থেকে, আবু জাফর عليه السلام থেকে বর্ণনা করেছেন:",
-              "de": "Al-Hasan ibn Mahbub berichtete von Ali ibn Ri'ab, von Zurarah, von Abu Ja'far عليه السلام:",
-              "en": "Al-Hasan ibn Mahbub narrated from Ali ibn Ri'ab, from Zurarah, from Abu Ja'far عليه السلام:",
-              "es": "Al-Hasan ibn Mahbub narró de Ali ibn Ri'ab, de Zurarah, de Abu Ja'far عليه السلام:",
-              "fa": "الْحَسَن بن مَحبوب از عَلِي بن رِئاب، از زُرارَه، از ابوجعفر علیه السلام روایت کرد:",
-              "fr": "Al-Hasan ibn Mahbub a rapporté de Ali ibn Ri'ab, de Zurarah, de Abu Ja'far عليه السلام :",
-              "id": "Al-Hasan ibn Mahbub meriwayat dari Ali ibn Ri'ab, dari Zurarah, dari Abu Ja'far علیه السلام:",
-              "ru": "Аль-Хасан ибн Махбуб передал от Али ибн Ри'аб, от Зурара, от Абу Джафара عليه السلام:",
-              "tr": "El-Hasan ibn Mahbub, Ali ibn Ri'ab'dan, Zurarah'dan, Ebu Ca'fer (aleyhisselam)'den rivayet etti:",
-              "ur": "الْحَسَن بْن مَحْبُوب نے عَلِي بْن رِئَاب سے، زُرَارَہ سے، ابو جَعْفَر علیہ السلام سے روایت کی:",
-              "zh": "الْحَسَنبنمَحبوبعَنعَلِيِبْنرِئَابعَنْزُرَارَةعَنْأَبوجَعْفَرعليهالسلام："
-            },
             "word_end": 15,
             "word_start": 0
           },
           {
             "arabic_text": "فِي رَجُلٍ أَوْصَى بِثُلُثِ مَالِهِ فِي أَعْمَامِهِ وَأَخْوَالِهِ فَقَالَ «لِأَعْمَامِهِ ٱلثُّلُثَانِ وَلِأَخْوَالِهِ ٱلثُّلُثُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন ব্যক্তি যিনি তাঁর সম্পদের এক-তৃতীয়াংশ পিতৃবংশীয় চাচাদের এবং মাতৃবংশীয় মামাদের জন্য وصیت করেছিলেন, তিনি عليه السلام বললেন: “দুই-তৃতীয়াংশ পিতৃবংশীয় চাচাদের জন্য এবং এক-তৃতীয়াংশ মাতৃবংশীয় মামাদের জন্য।”",
-              "de": "Bezüglich eines Mannes, der ein Drittel seines Vermögens seinen väterlichen und mütterlichen Onkeln vermachte, sagte er عليه السلام: „Zwei Drittel sind für seine väterlichen Onkel, und ein Drittel für seine mütterlichen Onkel.“",
-              "en": "Regarding a man who bequeathed one-third of his wealth to his paternal uncles and maternal uncles, he عليه السلام said: “Two-thirds are for his paternal uncles, and one-third is for his maternal uncles.”",
-              "es": "Respecto a un hombre que legó un tercio de su riqueza a sus tíos paternos y maternos, él عليه السلام dijo: “Dos tercios son para sus tíos paternos, y un tercio para sus tíos maternos.”",
-              "fa": "در مورد مردی که یک سوم مال خود را به عموها و دایی‌هایش وصیت کرد، ایشان علیه السلام فرمود: «دو سوم برای عموهایش و یک سوم برای دایی‌هایش است.»",
-              "fr": "Concernant un homme qui a légué un tiers de sa richesse à ses oncles paternels et maternels, il عليه السلام a dit : « Deux tiers pour ses oncles paternels, et un tiers pour ses oncles maternels. »",
-              "id": "Mengenai seorang pria yang mewariskan sepertiga hartanya kepada paman dari pihak ayah dan paman dari pihak ibu, beliau علیه السلام berkata: “Dua pertiga untuk paman dari pihak ayah, dan sepertiga untuk paman dari pihak ibu.”",
-              "ru": "Относительно мужчины, который завещал треть своего имущества своим дядям по отцу и по матери, он عليه السلام сказал: «Две трети для дядей по отцу, и одна треть для дядей по матери.»",
-              "tr": "Bir adamın servetinin üçte birini amcalarına ve dayılarına vasiyet etmesi hakkında, O (aleyhisselam) şöyle dedi: “Üçte ikisi amcalara, üçte biri dayılara aittir.”",
-              "ur": "ایک شخص کے بارے میں جس نے اپنی دولت کا ایک تہائی حصہ اپنے چچا اور ماموں کو وصیت کیا، انہوں نے علیہ السلام فرمایا: \"دو تہائی حصہ چچا کے لیے ہے اور ایک تہائی حصہ ماموں کے لیے ہے۔\"",
-              "zh": "关于一位男子遗赠其财产三分之一给父系叔叔和母系舅舅，他عليهالسلام说：“三分之二归父系叔叔，三分之一归母系舅舅。”"
-            },
             "word_end": 28,
             "word_start": 15
           }
@@ -110,27 +97,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَخْوَالِهِ": "his maternal uncles",
-            "أَعْمَامِهِ": "his paternal uncles",
-            "أَوْصَى": "made a bequest",
-            "بِثُلُثِ": "of one-third",
-            "مَالِهِ": "his wealth",
-            "ٱلثُّلُثَانِ": "two-thirds",
-            "ٱلثُّلُثُ": "one-third"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَوْصَى",
+          "بِثُلُثِ",
+          "مَالِهِ",
+          "أَعْمَامِهِ",
+          "أَخْوَالِهِ",
+          "ٱلثُّلُثَانِ",
+          "ٱلثُّلُثُ"
+        ],
         "related_quran": [
           {
             "ref": "2:180",
@@ -145,32 +120,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে পিতৃবংশীয় চাচা ও মাতৃবংশীয় মামাদের মধ্যে وصیت কিভাবে ভাগ করা হয়?",
-          "de": "Wie wird ein Vermächtnis zwischen väterlichen und mütterlichen Onkeln im schiitischen Hadith aufgeteilt?",
-          "en": "How is a bequest divided between paternal uncles and maternal uncles in Shia hadith?",
-          "es": "¿Cómo se divide una herencia entre tíos paternos y maternos en el hadiz chií?",
-          "fa": "در حدیث شیعه وصیت بین عموها و دایی‌ها چگونه تقسیم می‌شود؟",
-          "fr": "Comment un legs est-il divisé entre oncles paternels et maternels dans le hadith chiite ?",
-          "id": "Bagaimana pembagian wasiat antara paman dari pihak ayah dan paman dari pihak ibu dalam hadits Syiah?",
-          "ru": "Как делится завещание между дядями по отцу и по матери в шиистском хадисе?",
-          "tr": "Şii hadiste amcalar ve dayılar arasındaki vasiyet nasıl bölünür?",
-          "ur": "شیعہ حدیث میں چچا اور ماموں کے درمیان وصیت کیسے تقسیم کی جاتی ہے؟",
-          "zh": "什叶派圣训中父系叔叔和母系舅舅之间的遗赠如何分配？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি পিতৃবংশীয় চাচা ও মাতৃবংশীয় মামাদের জন্য করা وصیتের ভাগাভাগির আইনি বিধান প্রদান করে। এতে বলা হয়েছে যে, যখন এমন وصیت সম্মিলিতভাবে করা হয়, পিতৃবংশীয় চাচারা দুই-তৃতীয়াংশ এবং মাতৃবংশীয় মামারা এক-তৃতীয়াংশ পায়, যা আত্মীয়তার ভিত্তিতে আর্থিক বিধানগুলিতে তাদের স্বীকৃত আইনি গুরুত্ব প্রতিফলিত করে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung zur Aufteilung eines Vermächtnisses zugunsten von väterlichen und mütterlichen Onkeln. Er besagt, dass bei einer solchen kollektiven Verfügung die väterlichen Onkel zwei Drittel und die mütterlichen Onkel ein Drittel erhalten, was deren anerkanntes rechtliches Gewicht in verwandtschaftsbezogenen finanziellen Regelungen widerspiegelt.",
-          "en": "This hadith gives a legal ruling about dividing a bequest made in favor of paternal and maternal uncles. It states that when such a bequest is made collectively, the paternal uncles receive two-thirds and the maternal uncles receive one-third, reflecting their recognized legal weighting in kinship-based financial rulings.",
-          "es": "Este hadiz ofrece un fallo legal sobre la división de una herencia hecha a favor de tíos paternos y maternos. Establece que cuando tal legado se hace colectivamente, los tíos paternos reciben dos tercios y los tíos maternos un tercio, reflejando su peso legal reconocido en las reglas financieras basadas en parentesco.",
-          "fa": "این حدیث حکم شرعی تقسیم وصیت به عموها و دایی‌ها را بیان می‌کند. وقتی چنین وصیتی به صورت جمعی انجام شود، عموها دو سوم و دایی‌ها یک سوم را دریافت می‌کنند که نشان‌دهنده وزن قانونی آن‌ها در احکام مالی مبتنی بر نسب است.",
-          "fr": "Ce hadith donne un jugement légal concernant la division d’un legs fait en faveur des oncles paternels et maternels. Il stipule que lorsque ce legs est fait collectivement, les oncles paternels reçoivent les deux tiers et les oncles maternels un tiers, reflétant leur poids légal reconnu dans les règles financières basées sur la parenté.",
-          "id": "Hadis ini memberikan ketentuan hukum tentang pembagian wasiat yang dibuat untuk paman dari pihak ayah dan paman dari pihak ibu. Disebutkan bahwa ketika wasiat tersebut dibuat secara kolektif, paman dari pihak ayah menerima dua pertiga dan paman dari pihak ibu menerima sepertiga, mencerminkan bobot hukum mereka dalam aturan keuangan berdasarkan hubungan keluarga.",
-          "ru": "Этот хадис содержит юридическое постановление о разделе завещания, сделанного в пользу дядей по отцу и по матери. В нем говорится, что при коллективном завещании дяди по отцу получают две трети, а дяди по матери — одну треть, что отражает их признанный юридический вес в финансовых постановлениях, основанных на родстве.",
-          "tr": "Bu hadis, amcalara ve dayılara yapılan vasiyetin nasıl bölüneceğine dair hukuki hükmü verir. Toplu olarak böyle bir vasiyet yapıldığında, amcaların iki üçünü, dayıların ise bir üçünü aldığı belirtilir; bu, akrabalık temelli mali hükümlerdeki yasal ağırlıklarını yansıtır.",
-          "ur": "یہ حدیث وصیت کے بارے میں شرعی حکم بیان کرتی ہے جب وصیت چچا اور ماموں کے حق میں کی جائے۔ اس میں کہا گیا ہے کہ چچا کو دو تہائی اور ماموں کو ایک تہائی حصہ ملتا ہے، جو ان کے خاندانی رشتہ کی قانونی اہمیت کو ظاہر کرتا ہے۔",
-          "zh": "此圣训阐述了关于遗赠给父系叔叔和母系舅舅的法律裁决。其指出，当此类遗赠共同作出时，父系叔叔获得三分之二，母系舅舅获得三分之一，反映了他们在基于亲属关系的财务裁决中的法定权重。"
-        },
         "tags": [
           "jurisprudence",
           "family",

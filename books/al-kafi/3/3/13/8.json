@@ -14,6 +14,118 @@
       "up": "/books/al-kafi:3:3:13"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "أَبَانُ بْنُ عُثْمَانَ عَنْ عُقْبَةَ أَنَّهُ سَمِعَ أَبَا عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) يَقُولُ",
+            "chunk_type": "isnad",
+            "word_end": 15,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "إِنَّ الرَّجُلَ إِذَا وَقَعَتْ نَفْسُهُ فِي صَدْرِهِ يَرَى قُلْتُ جُعِلْتُ فِدَاكَ وَ مَا يَرَى قَالَ يَرَى رَسُولَ اللَّهِ ( صَلَّى اللَّهِ عَلَيْهِ وَآلِهِ ) فَيَقُولُ لَهُ رَسُولُ اللَّهِ أَنَا رَسُولُ اللَّهِ أَبْشِرْ ثُمَّ يَرَى عَلِيَّ بْنَ أَبِي طَالِبٍ ( عَلَيْهِ السَّلَامُ ) فَيَقُولُ أَنَا عَلِيُّ بْنُ أَبِي طَالِبٍ الَّذِي كُنْتَ تُحِبُّهُ تُحِبُّ أَنْ أَنْفَعَكَ الْيَوْمَ",
+            "chunk_type": "body",
+            "word_end": 70,
+            "word_start": 15
+          },
+          {
+            "arabic_text": "قَالَ قُلْتُ لَهُ أَ يَكُونُ أَحَدٌ مِنَ النَّاسِ يَرَى هَذَا ثُمَّ يَرْجِعُ إِلَى الدُّنْيَا قَالَ قَالَ لَا إِذَا رَأَى هَذَا أَبَداً مَاتَ وَ أَعْظَمَ ذَلِكَ",
+            "chunk_type": "body",
+            "word_end": 95,
+            "word_start": 70
+          },
+          {
+            "arabic_text": "وَذَلِكَ فِي الْقُرْآنِ قَوْلُ اللَّهِ عَزَّ وَ جَلَّ الَّذِينَ آمَنُوا وَ كانُوا يَتَّقُونَ. لَهُمُ الْبُشْرى فِي الْحَياةِ الدُّنْيا وَ فِي الْآخِرَةِ لَا تَبْدِيلَ لِكَلِمَاتِ اللَّهِ .",
+            "chunk_type": "body",
+            "word_end": 121,
+            "word_start": 95
+          }
+        ],
+        "content_type": "eschatological",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 52,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبَانُ بْنُ عُثْمَانَ",
+              "name_en": "Aban ibn 'Uthman",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": null,
+              "identity_confidence": "ambiguous",
+              "known_identity": null,
+              "name_ar": "عُقْبَةَ أَنَّهُ سَمِعَ أَبَا عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Uqbah annahu sami'a Aba 'Abd Allah",
+              "position": 2,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "وَقَعَتْ نَفْسُهُ",
+          "أَبْشِرْ",
+          "الْبُشْرى",
+          "لا تَبْدِيلَ",
+          "لِكَلِماتِ اللَّهِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "10:64",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "39:54",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "36:26",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "afterlife",
+          "prophetic_tradition",
+          "quran_commentary"
+        ],
+        "topics": [
+          "death_dying",
+          "ahlulbayt_virtues",
+          "quran_interpretation_method",
+          "paradise_hell"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مرسل كالحسن    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (13/294)"
       ],
@@ -64,7 +176,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:3:13:8",

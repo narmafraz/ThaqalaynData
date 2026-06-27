@@ -13,6 +13,126 @@
       "up": "/books/al-kafi:7:5:19"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "ابْنُ مَحْبُوبٍ عَنْ جَمِيلِ بْنِ صَالِحٍ عَنْ حَمْزَةَ بْنِ حُمْرَانَ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 19,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُهُ عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ ذَوا عَدْلٍ مِنْكُمْ أَوْ آخَرانِ مِنْ غَيْرِكُمْ قَالَ فَقَالَ اللَّذَانِ مِنْكُمْ مُسْلِمَانِ وَ اللَّذَانِ مِنْ غَيْرِكُمْ مِنْ أَهْلِ الْكِتَابِ",
+            "chunk_type": "body",
+            "word_end": 45,
+            "word_start": 19
+          },
+          {
+            "arabic_text": "قَالَ فَإِنَّمَا ذَلِكَ إِذَا مَاتَ الرَّجُلُ الْمُسْلِمُ فِي أَرْضِ غُرْبَةٍ فَيَطْلُبُ رَجُلَيْنِ مُسْلِمَيْنِ لِيُشْهِدَهُمَا عَلَى وَصِيَّتِهِ فَلَمْ يَجِدْ مُسْلِمَيْنِ فَلْيُشْهِدْ عَلَى وَصِيَّتِهِ رَجُلَيْنِ ذِمِّيَّيْنِ مِنْ أَهْلِ الْكِتَابِ مَرْضِيَّيْنِ عِنْدَ أَصْحَابِهِمَا",
+            "chunk_type": "body",
+            "word_end": 75,
+            "word_start": 45
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 10,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنُ مَحْبُوبٍ",
+              "name_en": "Ibn Mahbub",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 137,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "جَمِيلِ بْنِ صَالِحٍ",
+              "name_en": "Jamil ibn Salih",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 294,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "حَمْزَةَ بْنِ حُمْرَانَ",
+              "name_en": "Hamza ibn Humran",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "ذَوا عَدْلٍ",
+          "أَهْلِ الْكِتَابِ",
+          "أَرْضِ غُرْبَةٍ",
+          "ذِمِّيَّيْنِ",
+          "وَصِيَّتِهِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "5:106",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "2:282",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "quran_commentary"
+        ],
+        "topics": [
+          "inheritance",
+          "quran_interpretation_method",
+          "judicial_rulings"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> صحيح   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (24/255)"
       ],
@@ -83,7 +203,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:7:5:19:8",

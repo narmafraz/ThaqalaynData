@@ -14,6 +14,141 @@
       "up": "/books/al-kafi:3:3:66"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ بَعْضِ أَصْحَابِهِ عَنِ الْعَلَاءِ بْنِ رَزِينٍ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 17,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "كُنْتُ مَعَ أَبِي جَعْفَرٍ ( عَلَيْهِ السَّلَامُ ) فِي جِنَازَةِ رَجُلٍ مِنْ أَصْحَابِنَا فَلَمَّا أَنْ دَفَنُوهُ قَامَ ( عَلَيْهِ السَّلَامُ ) إِلَى قَبْرِهِ فَحَثَا عَلَيْهِ مِمَّا يَلِي رَأْسَهُ ثَلَاثاً بِكَفِّهِ ثُمَّ بَسَطَ كَفَّهُ عَلَى الْقَبْرِ ثُمَّ قَالَ اللَّهُمَّ جَافِ الْأَرْضَ عَنْ جَنْبَيْهِ وَ أَصْعِدْ إِلَيْكَ رُوحَهُ وَ لَقِّهِ مِنْكَ رِضْوَاناً وَ أَسْكِنْ قَبْرَهُ مِنْ رَحْمَتِكَ مَا تُغْنِيهِ بِهِ عَنْ رَحْمَةِ مَنْ سِوَاكَ ثُمَّ مَضَى .",
+            "chunk_type": "body",
+            "word_end": 82,
+            "word_start": 17
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 37,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "بَعْضِ أَصْحَابِهِ",
+              "name_en": "some of his companions",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 75,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْعَلَاءِ بْنِ رَزِينٍ",
+              "name_en": "al-A'la ibn Razin",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 16,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ مُسْلِمٍ",
+              "name_en": "Muhammad ibn Muslim",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "جِنَازَة",
+          "حَثَى",
+          "جَافِ الْأَرْضَ",
+          "رِضْوَاناً",
+          "أَسْكِنْ"
+        ],
+        "related_quran": [
+          {
+            "ref": "23:99",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:54",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:73",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:156",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "worship",
+          "afterlife",
+          "dua"
+        ],
+        "topics": [
+          "death_dying",
+          "sunnah",
+          "specific_supplications",
+          "barzakh"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مرسل   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (14/106)"
       ],
@@ -85,7 +220,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:3:66:3",

@@ -15,6 +15,135 @@
       "up": "/books/al-kafi:8:1:43"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "الْحُسَيْنُ بْنُ مُحَمَّدٍ عَنِ الْمُعَلَّى بْنِ مُحَمَّدٍ عَنِ الْوَشَّاءِ عَنْ أَبَانِ بْنِ عُثْمَانَ عَنِ الْحَارِثِ بْنِ الْمُغِيرَةِ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 18,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَمِعْتُ عَبْدَ الْمَلِكِ بْنَ أَعْيَنَ يَسْأَلُ أَبَا عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) فَلَمْ يَزَلْ يُسَائِلُهُ حَتَّى قَالَ فَهَلَكَ النَّاسُ إِذًا قَالَ إِي وَ اللَّهِ يَا ابْنَ أَعْيَنَ فَهَلَكَ النَّاسُ أَجْمَعُونَ قُلْتُ مَنْ فِي الْمَشْرِقِ وَ مَنْ فِي الْمَغْرِبِ قَالَ إِنَّهَا فُتِحَتْ بِضَلَالٍ إِي وَ اللَّهِ لَهَلَكُوا إِلَّا ثَلَاثَةً.",
+            "chunk_type": "body",
+            "word_end": 65,
+            "word_start": 18
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 20,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنُ بْنُ مُحَمَّدٍ",
+              "name_en": "Al-Husayn ibn Muhammad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 684,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْمُعَلَّى بْنِ مُحَمَّدٍ",
+              "name_en": "al-Mu'alla b. Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 61,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْوَشَّاءِ",
+              "name_en": "al-Washa'",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 52,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبَانِ بْنِ عُثْمَانَ",
+              "name_en": "Aban ibn 'Uthman",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 300,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحَارِثِ بْنِ الْمُغِيرَةِ",
+              "name_en": "al-Harith b. al-Mughira",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "فَهَلَكَ النَّاسُ",
+          "بِضَلَالٍ",
+          "الْمَشْرِق",
+          "الْمَغْرِب",
+          "ثَلَاثَة"
+        ],
+        "related_quran": [
+          {
+            "ref": "10:94",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "12:40",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:3",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "theology",
+          "afterlife",
+          "history"
+        ],
+        "topics": [
+          "companions",
+          "divine_justice",
+          "paradise_hell"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مهول</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 234)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -91,7 +220,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:43:44",

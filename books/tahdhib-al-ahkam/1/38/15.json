@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رِوَايَةِ سَعْدٍ عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবনুল-হুসাইন থেকে সা‘দ-এর বর্ণনা:",
-              "de": "Die Überlieferung von Sa'd von Muḥammad ibn al-Ḥusayn:",
-              "en": "The narration of Sa'd from Muḥammad ibn al-Ḥusayn:",
-              "es": "La narración de Sa'd de Muḥammad ibn al-Ḥusayn:",
-              "fa": "روایتِ سعد از محمد بن الحسین:",
-              "fr": "Le récit de Sa'd d'après Muḥammad ibn al-Ḥusayn :",
-              "id": "Riwayat Sa'd dari Muḥammad ibn al-Ḥusayn:",
-              "ru": "Передача Са'да от Мухаммада ибн аль-Хусайна:",
-              "tr": "Sa'd'ın Muḥammad ibn al-Ḥusayn'den rivayeti:",
-              "ur": "سعد کی روایت محمد بن الحسین سے:",
-              "zh": "萨德从穆罕默德·伊本·侯赛因传述："
-            },
             "word_end": 6,
             "word_start": 0
           },
           {
             "arabic_text": "مِثْلُ ذَلِكَ وَزَادَ: «وَلَا بَأْسَ بِالسَّمْنِ وَالزَّيْتِ إِذَا أَصَابَا الثَّوْبَ أَنْ يُصَلَّى فِيهِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এভাবেই, এবং তিনি আরও বলেছেন: “চর্বি ও তেলের কোনো ক্ষতি নেই, যখন তা কাপড়ে লাগে, তখন তাতে সালাত আদায় করা যায়।”",
-              "de": "Ebenso, und er fügte hinzu: „Es ist kein Problem mit Fett und Öl, wenn sie das Gewand beflecken, darin zu beten.“",
-              "en": "Like that, and he added: “There is no harm in fat and oil, when they affect the garment, that one should pray in it.”",
-              "es": "Así, y añadió: “No hay inconveniente en la grasa y el aceite, cuando afectan a la prenda, en que se rece con ella.”",
-              "fa": "همچنین، و افزود: «در پیه و روغن، هنگامی که به لباس برسند، اشکالی ندارد که در آن نماز خوانده شود.»",
-              "fr": "De même, et il ajouta : « Il n’y a pas de mal à ce que la graisse et l’huile, lorsqu’elles atteignent le vêtement, qu’on y prie. »",
-              "id": "Seperti itu, dan ia menambahkan: “Tidak mengapa lemak dan minyak, apabila mengenai pakaian, untuk salat di dalamnya.”",
-              "ru": "Так же, и он добавил: «Нет ничего предосудительного в жире и масле, если они попали на одежду, чтобы в ней совершать молитву».",
-              "tr": "Bunun gibi, ve şöyle ekledi: “Yağ ve zeytinin, elbiseye bulaştığında, onun içinde namaz kılınmasında bir sakınca yoktur.”",
-              "ur": "اسی طرح، اور اس نے اضافہ کیا: “چربی اور تیل میں کوئی حرج نہیں، جب وہ کپڑے کو لگ جائیں، کہ اس میں نماز پڑھی جائے۔”",
-              "zh": "同样，他又补充说：“脂肪和油如果沾到衣服上，在其中礼拜是没有妨碍的。”"
-            },
             "word_end": 19,
             "word_start": 6
           }
@@ -74,28 +61,16 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الثَّوْبَ": "the garment or clothing",
-            "الزَّيْتِ": "oil mentioned as a substance on clothing",
-            "السَّمْنِ": "fat or clarified butter mentioned as a substance on clothing",
-            "رِوَايَةِ": "a transmitted report or narration",
-            "سَعْدٍ": "Sa'd, a narrator in the sanad",
-            "فِيهِ": "in it, meaning in that garment",
-            "مُحَمَّدِ بْنِ الْحُسَيْنِ": "Muḥammad ibn al-Ḥusayn, a narrator in the chain",
-            "يُصَلَّى": "to perform salat (prayer)"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رِوَايَةِ",
+          "سَعْدٍ",
+          "مُحَمَّدِ بْنِ الْحُسَيْنِ",
+          "السَّمْنِ",
+          "الزَّيْتِ",
+          "الثَّوْبَ",
+          "يُصَلَّى",
+          "فِيهِ"
+        ],
         "related_quran": [
           {
             "ref": "2:222",
@@ -110,32 +85,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "চর্বি বা তেলের দাগযুক্ত কাপড়ে কি salat (নামাজ) আদায় করা যায়?",
-          "de": "Kann man salat (Gebet) in Kleidung verrichten, die mit Fett oder Öl verschmutzt ist?",
-          "en": "Can one perform salat (prayer) in clothes stained with fat or oil?",
-          "es": "¿Se puede realizar el salat (oración) con ropa manchada de grasa o aceite?",
-          "fa": "آیا می‌توان با لباس‌های لکه‌دار از چربی یا روغن، salat (نماز) خواند؟",
-          "fr": "Peut-on accomplir le salat (prière) avec des vêtements tachés de graisse ou d’huile ?",
-          "id": "Apakah seseorang dapat melakukan salat (salat) dengan pakaian yang terkena lemak atau minyak?",
-          "ru": "Можно ли совершать salat (молитву) в одежде, испачканной жиром или маслом?",
-          "tr": "Yağ veya zeytin lekesi olan kıyafetlerle salat (namaz) kılınabilir mi?",
-          "ur": "کیا چربی یا تیل سے داغدار کپڑوں میں salat (نماز) ادا کی جا سکتی ہے؟",
-          "zh": "可以穿着沾有脂肪或油渍的衣服礼拜吗？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনাটি পবিত্রতা ও salat (নামাজ) সম্পর্কিত একটি শরঈ বিধান তুলে ধরে। এতে বলা হয়েছে, যদি চর্বি বা তেল কাপড়ে লাগে, তবে সেই কাপড় পরে salat (নামাজ) আদায় করতে কোনো সমস্যা নেই; অর্থাৎ এসব বস্তু কাপড়ে থাকলেও নামাজে বাধা সৃষ্টি করে না।",
-          "de": "Dieser Bericht überliefert eine rechtliche Regelung zur rituellen Reinheit und zum salat (Gebet). Er besagt, dass es kein Problem ist, salat (Gebet) in einem Kleidungsstück zu verrichten, wenn Fett oder Öl darauf gelangen; solche Substanzen verhindern das Gebet im Kleidungsstück also nicht.",
-          "en": "This report conveys a legal ruling regarding ritual purity and salat (prayer). It states that if fat or oil gets onto a garment, there is no problem in performing salat (prayer) while wearing it, indicating that such substances do not prevent prayer in the garment.",
-          "es": "Este informe transmite una norma jurídica sobre la pureza ritual y el salat (oración). Señala que si la grasa o el aceite caen sobre una prenda, no hay problema en realizar el salat (oración) llevándola puesta; es decir, esas sustancias no impiden la oración con esa prenda.",
-          "fa": "این روایت، حکمی فقهی درباره طهارت و salat (نماز) را بیان می‌کند. در آن آمده است که اگر چربی یا روغن به لباس برسد، خواندن salat (نماز) با آن لباس اشکالی ندارد؛ یعنی این مواد مانع نماز در لباس نیستند.",
-          "fr": "Ce rapport transmet une règle juridique concernant la pureté rituelle et le salat (prière). Il indique que si de la graisse ou de l’huile tombe sur un vêtement, il n’y a pas de problème à accomplir le salat (prière) en le portant, ce qui signifie que ces substances n’empêchent pas la prière dans ce vêtement.",
-          "id": "Riwayat ini menyampaikan sebuah hukum fikih tentang kesucian dan salat (salat). Disebutkan bahwa jika lemak atau minyak mengenai pakaian, tidak ada masalah untuk salat (salat) dengan memakainya; artinya, zat-zat tersebut tidak menghalangi salat dalam pakaian itu.",
-          "ru": "Этот хадис передает правовое постановление, касающееся ритуальной чистоты и salat (молитвы). В нем говорится, что если жир или масло попадут на одежду, то нет ничего предосудительного в том, чтобы совершать salat (молитву) в этой одежде; то есть такие вещества не препятствуют молитве в одежде.",
-          "tr": "Bu rivayet, taharet ve salat (namaz) ile ilgili bir fıkhî hükmü aktarır. Buna göre, yağ veya zeytin bir elbiseye bulaşırsa, o elbiseyle salat (namaz) kılmakta bir sakınca yoktur; yani bu maddeler elbisede namaza engel değildir.",
-          "ur": "یہ روایت طہارت اور salat (نماز) سے متعلق ایک شرعی حکم بیان کرتی ہے۔ اس میں کہا گیا ہے کہ اگر چربی یا تیل کپڑے پر لگ جائے تو اس کپڑے میں salat (نماز) ادا کرنے میں کوئی مسئلہ نہیں، یعنی یہ چیزیں کپڑے میں نماز کی مانع نہیں ہیں۔",
-          "zh": "这段传述说明了一项关于礼仪洁净和salat（礼拜）的教法律例。它指出，如果脂肪或油沾到衣服上，穿着这件衣服礼拜是没有问题的；也就是说，这些物质不会妨碍在该衣服中礼拜。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

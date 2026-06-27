@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَدْ قَالَ اَلنَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং নবী, সাল্লাল্লাহু আলাইহি ওয়া আলিহি, বললেন:",
-              "de": "Und der Prophet, Friede sei mit ihm und seiner Familie, sagte:",
-              "en": "And the Prophet, peace be upon him and his family, said:",
-              "es": "Y el Profeta, la paz sea con él y su familia, dijo:",
-              "fa": "و پیامبر، صلی الله علیه و آله، فرمود:",
-              "fr": "Et le Prophète, paix et bénédictions sur lui et sa famille, a dit :",
-              "id": "Dan Nabi, shallallahu 'alaihi wa aalihi, berkata:",
-              "ru": "И Пророк, мир ему и его семье, сказал:",
-              "tr": "Ve Peygamber, sallallahu aleyhi ve sellem ve ailesi, şöyle buyurdu:",
-              "ur": "اور نبی، صلی اللہ علیہ وآلہ وسلم، نے فرمایا:",
-              "zh": "先知愿他和平及其家人说："
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "«اَلْمُؤْمِنُ وَحْدَهُ حُجَّةٌ وَ اَلْمُؤْمِنُ وَحْدَهُ جَمَاعَةٌ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "\"একজন বিশ্বাসী একা প্রমাণ এবং একজন বিশ্বাসী একা জামাত।\"",
-              "de": "\"Ein Gläubiger allein ist ein Beweis, und ein Gläubiger allein ist eine Gemeinde.\"",
-              "en": "\"A believer alone is a proof, and a believer alone is a congregation.\"",
-              "es": "\"Un creyente solo es una prueba, y un creyente solo es una congregación.\"",
-              "fa": "«مؤمن به تنهایی حجت است و مؤمن به تنهایی جماعت است.»",
-              "fr": "\"Un croyant seul est une preuve, et un croyant seul est une congrégation.\"",
-              "id": "\"Seorang mukmin sendirian adalah bukti, dan seorang mukmin sendirian adalah jamaah.\"",
-              "ru": "\"Верующий один — это доказательство, и верующий один — это община.\"",
-              "tr": "\"Bir mümin yalnız başına bir delildir ve bir mümin yalnız başına bir cemaattir.\"",
-              "ur": "’’ایک مومن اکیلا حجت ہے، اور ایک مومن اکیلا جماعت ہے۔‘‘",
-              "zh": "“一位信徒单独即是证据，一位信徒单独即是群体。”"
-            },
             "word_end": 16,
             "word_start": 9
           }
@@ -76,25 +63,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "اَلنَّبِيُّ": "the Prophet, the one conveying this teaching",
-            "اَلْمُؤْمِنُ": "the believer, one characterized by iman",
-            "جَمَاعَةٌ": "a congregation or collective body",
-            "حُجَّةٌ": "a proof or authoritative evidence",
-            "وَحْدَهُ": "alone, by himself"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "اَلنَّبِيُّ",
+          "اَلْمُؤْمِنُ",
+          "وَحْدَهُ",
+          "حُجَّةٌ",
+          "جَمَاعَةٌ"
+        ],
         "related_quran": [
           {
             "ref": "3:110",
@@ -105,32 +80,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামে একজন বিশ্বাসী একা কিভাবে প্রমাণ এবং জামাত হিসেবে বিবেচিত হতে পারে?",
-          "de": "Wie kann ein einzelner Gläubiger im Islam als Beweis und Gemeinde angesehen werden?",
-          "en": "How can one believer alone be considered a proof and a congregation in Islam?",
-          "es": "¿Cómo puede un creyente solo ser considerado una prueba y una congregación en el Islam?",
-          "fa": "چگونه یک مؤمن به تنهایی می‌تواند در اسلام به عنوان حجت و جماعت محسوب شود؟",
-          "fr": "Comment un croyant seul peut-il être considéré comme une preuve et une congrégation en Islam ?",
-          "id": "Bagaimana seorang mukmin sendirian dapat dianggap sebagai bukti dan jamaah dalam Islam?",
-          "ru": "Как один верующий в исламе может считаться доказательством и общиной?",
-          "tr": "İslam’da bir mümin nasıl tek başına bir delil ve cemaat olarak kabul edilir?",
-          "ur": "اسلام میں ایک مومن اکیلا کیسے حجت اور جماعت سمجھا جا سکتا ہے؟",
-          "zh": "在伊斯兰教中，如何理解一位信徒单独即是证据和群体？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে একজন সত্যিকারের বিশ্বাসী একা থাকলেও প্রমাণ ও সমষ্টিগত গুরুত্ব রাখে। জামাতের নামাজের প্রসঙ্গে, এটি বিশ্বাসীর মর্যাদা, অবস্থান ও ধর্মীয় তাৎপর্যকে তুলে ধরে।",
-          "de": "Dieser Hadith besagt, dass ein wahrer Gläubiger auch allein Beweis- und Gemeinschaftswert besitzt. Im Kontext des Gemeinschaftsgebets hebt er die Würde, Stellung und religiöse Bedeutung des Gläubigen hervor.",
-          "en": "This hadith states that a true believer possesses evidentiary and communal weight even when alone. In the context of congregational prayer, it highlights the dignity, standing, and religious significance of the believer.",
-          "es": "Este hadiz afirma que un verdadero creyente posee peso evidencial y comunitario incluso cuando está solo. En el contexto de la oración en congregación, resalta la dignidad, posición y significado religioso del creyente.",
-          "fa": "این حدیث بیان می‌کند که یک مؤمن واقعی حتی به تنهایی دارای وزن دلیلی و جمعی است. در زمینه نماز جماعت، شأن، جایگاه و اهمیت دینی مؤمن را برجسته می‌کند.",
-          "fr": "Ce hadith indique qu’un véritable croyant possède un poids probant et communautaire même lorsqu’il est seul. Dans le contexte de la prière en congrégation, il souligne la dignité, la position et la signification religieuse du croyant.",
-          "id": "Hadis ini menyatakan bahwa seorang mukmin sejati memiliki bobot pembuktian dan kebersamaan meskipun sendirian. Dalam konteks salat berjamaah, ini menyoroti martabat, kedudukan, dan makna keagamaan seorang mukmin.",
-          "ru": "Этот хадис утверждает, что истинный верующий обладает доказательной и общинной значимостью даже в одиночку. В контексте коллективной молитвы он подчеркивает достоинство, положение и религиозное значение верующего.",
-          "tr": "Bu hadis, gerçek bir müminin yalnızken bile delil ve cemaat değerine sahip olduğunu belirtir. Cemaat namazı bağlamında, müminin onurunu, konumunu ve dini önemini vurgular.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ ایک سچا مومن اکیلا بھی دلیل اور جماعت کی حیثیت رکھتا ہے۔ جماعتی نماز کے سیاق میں، یہ مومن کی عزت، مقام اور دینی اہمیت کو اجاگر کرتی ہے۔",
-          "zh": "此圣训指出，真正的信徒即使独自一人也具有证据和群体的重要性。在集体礼拜的语境中，强调了信徒的尊严、地位和宗教意义。"
-        },
         "tags": [
           "worship",
           "social_relations",

@@ -13,6 +13,125 @@
       "up": "/books/al-kafi:2:1:191"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى عَنِ الْحَسَنِ بْنِ مَحْبُوبٍ عَنْ مُعَاوِيَةَ بْنِ وَهْبٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 18,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) يَقُولُ إِذَا تَابَ الْعَبْدُ تَوْبَةً نَصُوحاً أَحَبَّهُ اللَّهُ فَسَتَرَ عَلَيْهِ فِي الدُّنْيَا وَ الْآخِرَةِ فَقُلْتُ وَ كَيْفَ يَسْتُرُ عَلَيْهِ قَالَ يُنْسِي مَلَكَيْهِ مَا كَتَبَا عَلَيْهِ مِنَ الذُّنُوبِ وَ يُوحِي إِلَى جَوَارِحِهِ اكْتُمِي عَلَيْهِ ذُنُوبَهُ وَ يُوحِي إِلَى بِقَاعِ الْأَرْضِ اكْتُمِي مَا كَانَ يَعْمَلُ عَلَيْكِ مِنَ الذُّنُوبِ فَيَلْقَى اللَّهَ حِينَ يَلْقَاهُ وَ لَيْسَ شَيْ‏ءٌ يَشْهَدُ عَلَيْهِ بِشَيْ‏ءٍ مِنَ الذُّنُوبِ .",
+            "chunk_type": "body",
+            "word_end": 85,
+            "word_start": 18
+          }
+        ],
+        "content_type": "theological",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 13,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى",
+              "name_en": "Ahmad ibn Muhammad ibn Isa",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 53,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحَسَنِ بْنِ مَحْبُوبٍ",
+              "name_en": "al-Hasan ibn Mahbub",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 109,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُعَاوِيَةَ بْنِ وَهْبٍ",
+              "name_en": "Mu'awiya ibn Wahb",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "تَوْبَةً نَصُوحاً",
+          "سَتَرَ عَلَيْهِ",
+          "الْمَلَكَانِ",
+          "جَوَارِحِهِ",
+          "بِقَاعِ الْأَرْضِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:160",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:53",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "54:54",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "theology",
+          "ethics",
+          "afterlife"
+        ],
+        "topics": [
+          "repentance",
+          "divine_attributes",
+          "reckoning"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> صحيح   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (11/295)"
       ],
@@ -80,7 +199,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:1:191:1",

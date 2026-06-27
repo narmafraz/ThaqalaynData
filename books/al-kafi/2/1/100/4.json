@@ -20,99 +20,47 @@
           "model": "phased_sonnet+gpt-5-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ الْحَسَنِ وَعَلِيُّ بْنُ مُحَمَّدِ بْنِ بُنْدَارَ عَنْ إِبْرَاهِيمَ بْنِ إِسْحَاقَ عَنْ عَبْدِ اللَّهِ بْنِ حَمَّادٍ الْأَنْصَارِيِّ عَنْ سَدِيرٍ الصَّيْرَفِيِّ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "Muhammad ibn al-Hasan এবং 'Ali ibn Muhammad ibn Bundar থেকে, Ibrahim ibn Ishaq থেকে, 'Abdullah ibn Hammad al-Ansari থেকে, Sadir al-Sayrafi, যিনি বললেন:",
-              "de": "Muhammad ibn al-Hasan und 'Ali ibn Muhammad ibn Bundar, von Ibrahim ibn Ishaq, von 'Abdullah ibn Hammad al-Ansari, von Sadir al-Sayrafi, der sagte:",
-              "en": "Muhammad ibn al-Hasan and 'Ali ibn Muhammad ibn Bundar, from Ibrahim ibn Ishaq, from 'Abdullah ibn Hammad al-Ansari, from Sadir al-Sayrafi, who said:",
-              "es": "Muhammad ibn al-Hasan y 'Ali ibn Muhammad ibn Bundar, de Ibrahim ibn Ishaq, de 'Abdullah ibn Hammad al-Ansari, de Sadir al-Sayrafi, quien dijo:",
-              "fa": "Muhammad ibn al-Hasan و 'Ali ibn Muhammad ibn Bundar، از Ibrahim ibn Ishaq، از 'Abdullah ibn Hammad al-Ansari، از Sadir al-Sayrafi، که گفت:",
-              "fr": "Muhammad ibn al-Hasan et 'Ali ibn Muhammad ibn Bundar, d'Ibrahim ibn Ishaq, de 'Abdullah ibn Hammad al-Ansari, de Sadir al-Sayrafi, qui a dit :",
-              "id": "Muhammad ibn al-Hasan dan 'Ali ibn Muhammad ibn Bundar, dari Ibrahim ibn Ishaq, dari 'Abdullah ibn Hammad al-Ansari, dari Sadir al-Sayrafi, yang berkata:",
-              "ru": "Muhammad ibn al-Hasan и 'Ali ibn Muhammad ibn Bundar, от Ibrahim ibn Ishaq, от 'Abdullah ibn Hammad al-Ansari, от Sadir al-Sayrafi, который сказал:",
-              "tr": "Muhammad ibn al-Hasan ve 'Ali ibn Muhammad ibn Bundar'dan, Ibrahim ibn Ishaq'tan, 'Abdullah ibn Hammad al-Ansari'den, Sadir al-Sayrafi'den, şöyle dedi:",
-              "ur": "Muhammad ibn al-Hasan اور 'Ali ibn Muhammad ibn Bundar، Ibrahim ibn Ishaq سے، 'Abdullah ibn Hammad al-Ansari سے، Sadir al-Sayrafi، جنہوں نے کہا:",
-              "zh": "Muhammadibnal-Hasanet'AliibnMuhammadibnBundar，来自IbrahimibnIshaq，来自'AbdullahibnHammadial-Ansari，来自Sadiral-Sayrafi，说："
-            },
             "word_end": 22,
             "word_start": 0
           },
           {
             "arabic_text": "دَخَلْتُ عَلَى أَبِي عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) فَقُلْتُ لَهُ: وَاللَّهِ مَا يَسَعُكَ الْقُعُودُ. فَقَالَ: وَلِمَ يَا سَدِيرُ؟ قُلْتُ: لِكَثْرَةِ مَوَالِيكَ وَشِيعَتِكَ وَأَنْصَارِكَ، وَاللَّهِ لَوْ كَانَ لِأَمِيرِ الْمُؤْمِنِينَ (عَلَيْهِ السَّلَامُ) مَا لَكَ مِنَ الشِّيعَةِ وَالْأَنْصَارِ وَالْمَوَالِي مَا طَمِعَ فِيهِ تَيْمٌ وَلَا عَدِيٌّ. فَقَالَ: يَا سَدِيرُ، وَكَمْ عَسَى أَنْ يَكُونُوا؟ قُلْتُ: مِائَةَ أَلْفٍ. قَالَ: مِائَةَ أَلْفٍ؟ قُلْتُ: نَعَمْ، وَمِائَتَيْ أَلْفٍ. قَالَ: مِائَتَيْ أَلْفٍ؟ قُلْتُ: نَعَمْ، وَنِصْفَ الدُّنْيَا.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি Abu 'Abdillah (আলায়হি সালাম)-এর কাছে গেলাম এবং তাকে বললাম: 'আল্লাহকে কসম, কী তোমাকে বসে থাকতে বাধ্য করে (শাসকদের বিরুদ্ধে বিদ্রোহ না করার দ্বারা)?' তিনি বললেন: 'কেন, হে সাদির?' আমি বললাম: 'তোমার বন্ধু, তোমার শিয়া ও তোমার সহায়কদের বহুলতার কারণে। আল্লাহকে কসম, যদি Amir al-Mu'minin (আলায়হি সালাম)-এর কাছে তোমার কাছে যত শিয়া, সহায়ক ও বন্ধু আছে সেগুলো থাকত, না Taym না 'Adiyy তা লোভ করত।' তিনি বললেন: 'হে সাদির, তারা কতজন হতে পারে?' আমি বললাম: 'এক লাখ।' তিনি বললেন: 'এক লাখ?' আমি বললাম: 'হ্যাঁ, এবং দুই লাখ।' তিনি বললেন: 'দুই লাখ?' আমি বললাম: 'হ্যাঁ, এবং অর্ধেক বিশ্বের।'",
-              "de": "Ich ging zu Abu 'Abdillah (Friede sei mit ihm) und sagte zu ihm: 'Bei Allah, was veranlasst dich, sitzen zu bleiben (statt gegen die herrschenden Mächte aufzustehen)?' Er sagte: 'Und warum, o Sadir?' Ich sagte: 'Wegen der Vielzahl deiner Gefährten, deiner Schiiten und deiner Helfer. Bei Allah, hätte Amir al-Mu'minin (Friede sei mit ihm) das, was du an Schiiten, Helfern und Gefährten hast, weder Taym noch 'Adiyy begehrt.' Er sagte: 'O Sadir, und wie viele mögen sie sein?' Ich sagte: 'Hunderttausend.' Er sagte: 'Hunderttausend?' Ich sagte: 'Ja, und zweihunderttausend.' Er sagte: 'Zweihunderttausend?' Ich sagte: 'Ja, und eine Hälfte der Welt.'",
-              "en": "I went to Abu 'Abdillah (peace be upon him) and said to him: 'By Allah, what affords you sitting back (from rising against the ruling authorities)?' He said: 'And why, O Sadir?' I said: 'Due to the abundance of your friends, your Shias, and your helpers. By Allah, had Amir al-Mu'minin (peace be upon him) possessed what you have of Shias, helpers, and friends, neither (the clan of) Taym nor (the clan of) 'Adiyy would have coveted it (the caliphate).' He said: 'O Sadir, and how many might they be?' I said: 'One hundred thousand.' He said: 'One hundred thousand?' I said: 'Yes, and two hundred thousand.' He said: 'Two hundred thousand?' I said: 'Yes, and half the world.'",
-              "es": "Fui a ver a Abu 'Abdillah (la paz sea con él) y le dije: 'Por Alá, ¿qué te hace permanecer sentado (en vez de levantarte contra las autoridades gobernantes)?' Él respondió: '¿Y por qué, oh Sadir?' Dije: 'Por la abundancia de tus amigos, tus chiítas y tus auxiliares. Por Alá, si Amir al-Mu'minin (la paz sea con él) poseyera lo que tú tienes de chiítas, auxiliares y amigos, ni Taym ni 'Adiyy lo codiciarían (el califato).' Él dijo: 'Oh Sadir, ¿y cuántos podrían ser?' Dije: 'Cien mil.' Él dijo: '¿Cien mil?' Dije: 'Sí, y doscientos mil.' Él dijo: '¿Doscientos mil?' Dije: 'Sí, y la mitad del mundo.'",
-              "fa": "به Abu 'Abdillah (علیه‌السلام) رفتم و به او گفتم: «به خدا سوگند، چه چیز تو را از قیام علیه حاکمان باز می‌دارد؟» او گفت: «و چرا، ای سَدیر؟» گفتم: «به‌خاطر فراوانی یاران، شیعیان و یاورانت. به خدا سوگند، اگر Amir al-Mu'minin (علیه‌السلام) آنچه تو از شیعه، یاور و یار داری را داشت، نه Taym و نه 'Adiyy نسبت به آن طمع می‌کردند.» او گفت: «ای سَدیر، چند نفر می‌توانند باشند؟» گفتم: «صد هزار.» گفت: «صد هزار؟» گفتم: «بله، و دویست هزار.» گفت: «دویست هزار؟» گفتم: «بله، و نیم جهان.»",
-              "fr": "Je suis allé trouver Abu 'Abdillah (que la paix soit sur lui) et lui ai dit : 'Par Allah, qu'est-ce qui te fait rester assis (au lieu de te soulever contre les autorités gouvernantes) ?' Il dit : 'Et pourquoi, ô Sadir ?' Je dis : 'À cause de l'abondance de tes amis, de tes chiites et de tes auxiliaires. Par Allah, si Amir al-Mu'minin (que la paix soit sur lui) avait ce que tu as de chiites, d'auxiliaires et d'amis, ni Taym ni 'Adiyy ne l'auraient convoité (le califat).' Il dit : 'Ô Sadir, et combien pourraient-ils être ?' Je dis : 'Cent mille.' Il dit : 'Cent mille ?' Je dis : 'Oui, et deux cents mille.' Il dit : 'Deux cents mille ?' Je dis : 'Oui, et la moitié du monde.'",
-              "id": "Saya menemui Abu 'Abdillah (alaihi as-salam) dan berkata kepadanya: 'Demi Allah, apa yang membuatmu duduk saja (tidak bangkit melawan penguasa)?' Dia berkata: 'Mengapa, wahai Sadir?' Saya berkata: 'Karena banyaknya sahabatmu, para Syiahmu, dan para penolongmu. Demi Allah, seandainya Amir al-Mu'minin (alaihi as-salam) memiliki apa yang kamu miliki berupa Syiah, penolong, dan sahabat, baik Taym maupun 'Adiyy tidak akan menginginkannya.' Dia berkata: 'Wahai Sadir, berapa banyakkah mereka?' Saya berkata: 'Seratus ribu.' Dia berkata: 'Seratus ribu?' Saya berkata: 'Ya, dan dua ratus ribu.' Dia berkata: 'Dua ratus ribu?' Saya berkata: 'Ya, dan setengah dunia.'",
-              "ru": "Я пришёл к Abu 'Abdillah (мир ему) и сказал ему: «Клянусь Аллахом, что побуждает тебя оставаться сидящим (не восставать против правителей)?» Он сказал: «А почему, о Садир?» Я сказал: «Из-за множества твоих друзей, твоих шиитов и твоих помощников. Клянусь Аллахом, если бы Amir al-Mu'minin (мир ему) имел то, что у тебя из шиитов, помощников и друзей, ни Тайм, ни 'Адий не пожелали бы этого (халифата).» Он сказал: «О Садир, и сколько их может быть?» Я сказал: «Сто тысяч.» Он сказал: «Сто тысяч?» Я сказал: «Да, и двести тысяч.» Он сказал: «Двести тысяч?» Я сказал: «Да, и половина мира.»",
-              "tr": "Ben Abu 'Abdillah (aleyhisselam)'ın yanına gittim ve ona dedim: 'Allah'a yemin ederim, seni oturmaya (iktidara karşı ayaklanmaktan kaçınmaya) iten nedir?' O dedi: 'Neden, ey Sadir?' Ben dedim: 'Dostlarının, Şialarının ve yardımcılarının çokluğu yüzünden. Allah'a yemin ederim, eğer Amir al-Mu'minin (aleyhisselam)'in elinde seninkine eşdeğer Şiâlar, yardımcılar ve dostlar olsaydı ne Taym ne de 'Adiyy bunu (halifeliği) arzu ederdi.' O dedi: 'Ey Sadir, peki kaç kişi olabilirler?' Ben dedim: 'Yüz bin.' O dedi: 'Yüz bin mi?' Ben dedim: 'Evet, iki yüz bin.' O dedi: 'İki yüz bin mi?' Ben dedim: 'Evet, ve yarım dünya.'",
-              "ur": "میں Abu 'Abdillah (علیہ السلام) کے پاس گیا اور میں نے ان سے کہا: 'اللہ کی قسم، آپ کو حکمرانوں کے خلاف اٹھ کھڑے ہونے سے باز رکھنے والی کیا چیز ہے؟' انہوں نے فرمایا: 'اور کیوں، اے سَدِیر؟' میں نے کہا: 'آپ کے یار، آپ کے شیعہ اور آپ کے معاونین کی کثرت کی وجہ سے۔ اللہ کی قسم، اگر Amir al-Mu'minin (علیہ السلام) کے پاس وہ شیعہ، معاونین اور یار ہوتے جو آپ کے پاس ہیں تو نہ Taym اور نہ 'Adiyy اس کا طمع کرتے۔' انہوں نے کہا: 'اے سَدِیر، اور کتنے ہو سکتے ہیں؟' میں نے کہا: 'ایک سو ہزار۔' انہوں نے کہا: 'ایک سو ہزار؟' میں نے کہا: 'ہاں، اور دو سو ہزار۔' انہوں نے کہا: 'دو سو ہزار؟' میں نے کہا: 'ہاں، اور نصف دنیا۔'",
-              "zh": "我去見了Abu'Abdillah（愿主赐他平安），對他說：『以安拉發誓，是甚麼使你坐著不動（不站起來反抗統治者）？』他說：『為甚麼，薩迪爾？』我說：『因為你朋友、你的Shias和你的幫手眾多。以安拉起誓，若Amiral-Mu'minin（愿主赐他平安）擁有你所擁有的那些Shias、幫手和朋友，Taym和'Adiyy都不會覬覦它（哈里發位）。』他說：『薩迪爾，他們可能有多少？』我說：『十萬。』他說：『十萬？』我說：『是的，還有二十萬。』他說：『二十萬？』我說：『是的，還有半個世界。』"
-            },
             "word_end": 87,
             "word_start": 22
           },
           {
             "arabic_text": "قَالَ: فَسَكَتَ عَنِّي، ثُمَّ قَالَ: يَخِفُّ عَلَيْكَ أَنْ تَبْلُغَ مَعَنَا إِلَى يَنْبُعَ؟ قُلْتُ: نَعَمْ. فَأَمَرَ بِحِمَارٍ وَبَغْلٍ أَنْ يُسْرَجَا، فَبَادَرْتُ فَرَكِبْتُ الْحِمَارَ، فَقَالَ: يَا سَدِيرُ، أَتَرَى أَنْ تُؤْثِرَنِي بِالْحِمَارِ؟ قُلْتُ: الْبَغْلُ أَزْيَنُ وَأَنْبَلُ. قَالَ: الْحِمَارُ أَرْفَقُ بِي. فَنَزَلْتُ فَرَكِبَ الْحِمَارَ وَرَكِبْتُ الْبَغْلَ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি (সাদির) বললেন: অতঃপর তিনি আমার প্রতি নীরব রইলেন, তারপর বললেন: 'তোমার জন্য কি আমাদের সাথে Yanbu' পর্যন্ত যাওয়া সহজ হবে?' আমি বললাম: 'হ্যাঁ।' অতঃপর তিনি একটি গাধা এবং একটি খচ্চর চড়া যাবে এমনভাবে সাজাতে আদেশ দিলেন। আমি ত্বরিত এগিয়ে গিয়ে গাধায় চড়লাম, তখন তিনি বললেন: 'হে সাদির, তুমি কি আমাকে গাধা দিয়ে প্রাধান্য দিচ্ছো?' আমি বললাম: 'খচ্চরটি আরও সুন্দর এবং মর্যাদাশীল।' তিনি বললেন: 'গাধাটি আমার প্রতি বেশ কোমল।' তাই আমি নেমে গেলাম, তিনি গাধায় চড়লেন এবং আমি খচ্চরে উঠলাম।",
-              "de": "Er (Sadir) sagte: Dann schwieg er mir gegenüber, dann sagte er: 'Wäre es dir leicht, mit uns nach Yanbu' zu reisen?' Ich sagte: 'Ja.' Also befahl er, einen Esel und einen Maulesel zu satteln. Ich eilte und stieg auf den Esel; da sagte er: 'O Sadir, hältst du es für angebracht, mir den Esel zu überlassen?' Ich sagte: 'Der Maulesel ist schöner und vornehmer.' Er sagte: 'Der Esel ist mir gegenüber sanfter.' Also stieg ich ab, er bestieg den Esel und ich bestieg den Maulesel.",
-              "en": "He (Sadir) said: So he (peace be upon him) fell silent from me, then said: 'Would it be easy upon you to travel with us to Yanbu'?' I said: 'Yes.' So he ordered a donkey and a mule to be saddled. I hastened forward and rode the donkey, so he said: 'O Sadir, do you see fit to yield the donkey to me?' I said: 'The mule is finer and more distinguished.' He said: 'The donkey is gentler with me.' So I dismounted, and he (peace be upon him) rode the donkey and I rode the mule.",
-              "es": "Dijo (Sadir): Entonces él guardó silencio conmigo, luego dijo: '¿Te sería fácil viajar con nosotros hasta Yanbu'?' Dije: 'Sí.' Ordenó que se ensillaran un burro y una mula. Me apresuré y monté el burro; entonces él dijo: 'Oh Sadir, ¿ves bien preferirme el burro?' Dije: 'La mula es más noble y distinguida.' Él dijo: 'El burro es más dócil conmigo.' Así que me bajé; él montó el burro y yo monté la mula.",
-              "fa": "او گفت: سپس نسبت به من سکوت کرد، سپس گفت: «برای تو آسان است که با ما به ینبع بروی؟» گفتم: «بله.» سپس دستور داد که یک خر و یک خَتر آماده شود. من شتابان جلو رفتم و بر خر سوار شدم؛ او گفت: «ای سَدیر، آیا پسند می‌کنی که خر را به من واگذاری؟» گفتم: «خَتر زیباتر و اشرافی‌تر است.» او گفت: «خر با من مهربان‌تر است.» بدین‌سان من پیاده شدم، او بر خر سوار شد و من بر خَتر سوار شدم.",
-              "fr": "Il (Sadir) raconta : il se tut alors à mon égard, puis dit : 'Te serait-il facile de voyager avec nous jusqu'à Yanbu' ?' Je dis : 'Oui.' Il ordonna qu'un âne et une mule soient sellés. Je me hâtai et montai l'âne ; il dit : 'Ô Sadir, trouves-tu bon de me laisser l'âne ?' Je dis : 'La mule est plus belle et plus noble.' Il dit : 'L'âne est plus doux pour moi.' Je descendis donc, il monta l'âne et je montai la mule.",
-              "id": "Dia (Sadir) berkata: Lalu dia (alaihi as-salam) terdiam terhadapku, lalu berkata: 'Apakah mudah bagimu untuk bepergian bersama kami ke Yanbu'?' Aku berkata: 'Ya.' Maka dia memerintahkan agar seekor keledai dan seekor bagal disiapkan untuk ditunggangi. Aku segera maju dan naik ke keledai; lalu dia berkata: 'Wahai Sadir, apakah engkau menganggap pantas untuk menyerahkan keledai itu kepadaku?' Aku berkata: 'Bagal lebih baik dan lebih mulia.' Dia berkata: 'Keledai itu lebih lembut terhadapku.' Maka aku turun, dia menaiki keledai dan aku menaiki bagal.",
-              "ru": "Он (Садир) сказал: Тогда он помолчал со мной, затем спросил: «Тебе было бы легко ехать с нами в Янбу'?» Я ответил: «Да.» Он приказал оседлать осла и мула. Я поспешил и сел на осла; тогда он сказал: «О Садир, считаешь ли ты уместным уступить мне осла?» Я сказал: «Мул лучше и благороднее.» Он сказал: «Осел ко мне добрее.» Тогда я слез, он сел на осла, а я сел на мула.",
-              "tr": "Dedi ki: Bana karşı sonra sessiz kaldı, sonra söyledi: 'Yanımızla Yanbu'ya gitmen senin için kolay olur mu?' Ben: 'Evet.' dedim. Sonra bir eşek ve bir katırın eğerlenmesini emretti. Aceleyle eşeğe bindim, o dedi: 'Ey Sadir, bana eşeği tercih etmeyi uygun mu görüyorsun?' Ben: 'Katır daha nazik ve daha soyludur.' dedim. O: 'Eşek bana daha yumuşaktır.' dedi. Sonra indim, o eşeğe bindi, ben katıra bindim.",
-              "ur": "انہوں نے کہا: پس وہ مجھ سے خاموش ہوگئے پھر فرمایا: 'کیا تم ہمارے ساتھ ینبع تک جانا آسان سمجھتے ہو؟' میں نے کہا: 'ہاں۔' پس انہوں نے ایک گدھا اور ایک خچر سوار کرنے کا حکم دیا۔ میں آگے بڑھا اور گدھے پر سوار ہوا تو انہوں نے کہا: 'اے سَدِیر، کیا تم مجھے گدھا دینے کو مناسب سمجھتے ہو؟' میں نے کہا: 'خچر زیادہ خوبصورت اور معزز ہے۔' انہوں نے کہا: 'گدھا میرے ساتھ نرم طبعی ہے۔' پس میں اتر گیا، وہ گدھے پر سوار ہوگئے اور میں خچر پر سوار ہوا۔",
-              "zh": "他说（Sadir）：于是他对我沉默片刻，后来说道：『你和我们一起去Yanbu'对你来说容易吗？』我答：『容易。』于是他命人备一头驴和一头骡子当马上。 我赶忙上了驴，他说：『薩迪爾，你认为把驴让给我合适吗？』我说：『骡子更好更显贵。』他说：『驴对我更温顺。』于是我下马，他上了驴，而我骑上了骡子。"
-            },
             "word_end": 129,
             "word_start": 87
           },
           {
             "arabic_text": "فَمَضَيْنَا فَحَانَتِ الصَّلَاةُ، فَقَالَ: يَا سَدِيرُ، انْزِلْ بِنَا نُصَلِّ. ثُمَّ قَالَ: هَذِهِ أَرْضٌ سَبِخَةٌ لَا تَجُوزُ الصَّلَاةُ فِيهَا. فَسِرْنَا حَتَّى صِرْنَا إِلَى أَرْضٍ حَمْرَاءَ، وَنَظَرَ إِلَى غُلَامٍ يَرْعَى جِدَاءً، فَقَالَ: وَاللَّهِ يَا سَدِيرُ، لَوْ كَانَ لِي شِيعَةٌ بِعَدَدِ هَذِهِ الْجِدَاءِ مَا وَسِعَنِي الْقُعُودُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এরপর আমরা চললাম এবং salat-এর সময় এল। তিনি বললেন: 'হে সাদির, আমাদের সঙ্গে নেমে salat করা যাক।' তারপর তিনি বললেন: 'এখনকার জমি কাদাযুক্ত; এখানে salat বৈধ নয়।' তাই আমরা চলতে থাকলাম যতক্ষণ না আমরা লাল মাটিতে পৌঁছালাম, এবং তিনি এক ছেলেকে ছাগল পালতে দেখলেন এবং বললেন: 'আল্লাহকে কসম, হে সাদির! যদি আমার কাছে এই ছাগলগুলোর সমপরিমাণ শিয়া থাকত, আমার জন্য বসে থাকা جائز হতো না।'",
-              "de": "So setzten wir unseren Weg fort, und die Zeit für die salat kam. Er sagte: 'O Sadir, lass uns absteigen, um salat zu verrichten.' Dann sagte er: 'Dies ist sumpfiges Land; salat ist hier nicht erlaubt.' Also gingen wir weiter, bis wir auf roten Boden kamen; er sah einen Jungen Ziegen hüten und sagte: 'Bei Allah, o Sadir! Hätte ich Schiiten in der Anzahl dieser Ziegen, wäre es mir nicht erlaubt, sitzen zu bleiben.'",
-              "en": "So we proceeded, and the time of salat arrived. He said: 'O Sadir, let us dismount to perform salat.' Then he said: 'This is marshy land; salat is not permissible in it.' So we traveled until we arrived at red ground, and he looked at a boy pasturing goats and said: 'By Allah, O Sadir! Had I Shias equal in number to these goats, sitting back (from rising against the ruling authorities) would not be permissible for me.'",
-              "es": "Seguimos adelante y llegó la hora de la salat. Él dijo: 'Oh Sadir, desmontemos para hacer la salat.' Luego dijo: 'Esta es tierra pantanosa; no es lícito rezar salat en ella.' Así que caminamos hasta llegar a un terreno rojo, y vio a un muchacho pastoreando cabras y dijo: 'Por Alá, oh Sadir: si tuviera chiítas en número igual a estas cabras, no sería lícito para mí permanecer sentado.'",
-              "fa": "پس حرکت کردیم و وقت salat فرا رسید. او گفت: «ای سَدیر، پیاده شویم تا salat کنیم.» سپس افزود: «این زمین باتلاقی است؛ salat در آن جایز نیست.» بنابراین حرکت کردیم تا به زمینی سرخ رسیدیم و او سواری پسری را دید که بزها را می‌چراند و گفت: «به خدا سوگند، ای سَدیر! اگر به اندازه این بزها شیعیان داشتم، برایم نشستن جایز نبود.»",
-              "fr": "Nous poursuivîmes notre route et l'heure de la salat arriva. Il dit : 'Ô Sadir, descendons pour accomplir la salat.' Puis il ajouta : 'Ceci est une terre marécageuse ; la salat n'est pas permise ici.' Nous marchâmes donc jusqu'à arriver sur une terre rouge, et il regarda un garçon gardant des chèvres et dit : 'Par Allah, ô Sadir ! Si j'avais des chiites au nombre de ces chèvres, il ne me serait pas permis de rester assis.'",
-              "id": "Lalu kami melanjutkan perjalanan dan tiba waktu salat. Dia berkata: 'Wahai Sadir, turunlah supaya kita salat.' Kemudian dia berkata: 'Ini tanah berlumpur; salat tidak boleh dilakukan di sini.' Maka kami berjalan sampai tiba di tanah merah, dan dia melihat seorang anak menggembalakan kambing dan berkata: 'Demi Allah, wahai Sadir! Seandainya aku mempunyai Syiah sebanyak kambing-kambing ini, duduk saja tidaklah dibenarkan bagiku.'",
-              "ru": "Мы продолжили путь, и настало время salat. Он сказал: «О Садир, сойдем и совершим salat.» Затем он добавил: «Это болотистая земля; salat здесь не дозволен.» Мы шли, пока не вышли на красную почву, и он увидел мальчика, пасущего коз, и сказал: «Клянусь Аллахом, о Садир! Если бы у меня были шииты в числе этих коз, мне не было бы дозволено оставаться сидящим.»",
-              "tr": "Böylece yola çıktık ve salat vakti geldi. O dedi: 'Ey Sadir, inelim de salat kılayım.' Sonra dedi: 'Burası bataklık bir arazi; burada salat caiz değildir.' Böylece yürüdük ve kırmızı bir araziye vardık; orada bir çocuğun keçi güttüğünü gördü ve dedi: 'Allah'a yemin ederim, ey Sadir! Eğer benim bu keçiler kadar Şiâlarım olsaydı, oturup kalmam bana caiz olmazdı.'",
-              "ur": "پس ہم روانہ ہوئے اور salat کا وقت آگیا۔ انہوں نے کہا: 'اے سَدِیر، ہمارے ساتھ اتر کر salat کرو۔' پھر فرمایا: 'یہ زمین دلدلی ہے؛ یہاں salat جائز نہیں۔' چنانچہ ہم چلتے رہے جب تک کہ ہم ایک سرخ زمین پر نہ پہنچے، اور انہوں نے ایک لڑکے کو بکریاں چرارہا دیکھا اور کہا: 'اللہ کی قسم، اے سَدِیر! اگر میرے پاس ان بکریوں کی تعداد کے برابر شیعہ ہوتے تو میرے لیے بیٹھ کر رہنا جائز نہ ہوتا۔'",
-              "zh": "于是我们继续行程，到了salat时辰。他说：『薩迪爾，咱们下马做salat吧。』接着他说：『这里是沼泽地；在此不应做salat。』于是我们走着，直到来到一片红土，他看到一个男孩在放牧山羊，说道：『以安拉发誓，薩迪爾！若我有与这些山羊数量相等的我的Shias，我就不能坐视不动。』"
-            },
             "word_end": 172,
             "word_start": 129
           },
           {
             "arabic_text": "وَنَزَلْنَا وَصَلَّيْنَا، فَلَمَّا فَرَغْنَا مِنَ الصَّلَاةِ عَطَفْتُ عَلَى الْجِدَاءِ فَعَدَدْتُهَا، فَإِذَا هِيَ سَبْعَةَ عَشَرَ.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "আমরা নামলাম এবং salat সম্পন্ন করলাম। যখন আমরা salat শেষ করলাম, আমি ছাগলগুলোর দিকে ঘুরে তাদের গণনা করলাম এবং দেখা গেল আট-ও-দশটি নয়—সেগুলো ছিল সতেরোটি।",
-              "de": "Wir stiegen ab und verrichteten salat. Als wir mit der salat fertig waren, wandte ich mich den Ziegen zu und zählte sie; es waren siebzehn.",
-              "en": "And we dismounted and performed salat. When we had finished the salat, I turned towards the goats and counted them, and they were seventeen.",
-              "es": "Descendimos e hicimos la salat. Cuando terminamos la salat, miré a las cabras y las conté: eran diecisiete.",
-              "fa": "پیاده شدیم و salat اقامه کردیم. وقتی از salat فارغ شدیم، به بزها نگاه کردم و شمردم؛ آن‌ها هفده عدد بودند.",
-              "fr": "Nous descendîmes et accomplîmes la salat. Lorsque nous eûmes terminé la salat, je me tournai vers les chèvres et les comptai : elles étaient dix-sept.",
-              "id": "Kami turun dan melaksanakan salat. Ketika kami selesai salat, aku menoleh ke kambing-kambing itu dan menghitungnya; ternyata jumlahnya tujuh belas.",
-              "ru": "Мы сошли и совершили salat. Когда мы закончили salat, я повернулся к козам и пересчитал их — оказалось семнадцать.",
-              "tr": "İndik ve salat kıldık. Salatı bitirdiğimizde keçilere döndüm ve saydım; on yedi tane idiler.",
-              "ur": "ہم نے اتر کر salat کی۔ جب ہم نے salat ختم کی تو میں بکریوں کی طرف مڑا اور گِن کر دیکھا تو وہ سترہ تھیں۔",
-              "zh": "我们下马履行了salat。salat结束后，我望向那些山羊并数了数，竟然只有十七只。"
-            },
             "word_end": 186,
             "word_start": 172
           }
@@ -181,28 +129,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الشِّيعَةِ": "Shias; the committed partisans and followers of the Ahl al-Bayt (peace be upon them)",
-            "الْأَنْصَارِ": "Helpers and active supporters of the Imam's cause",
-            "الْجِدَاءِ": "Young goats; kids — used here as the Imam's living illustration of the true, small count of his genuinely reliable Shias",
-            "الْقُعُودُ": "Sitting back; the deliberate restraint from launching an armed uprising against unjust ruling authorities",
-            "الْمَوَالِي": "Friends, devoted followers, and loyal clients attached to the Imam",
-            "تَيْمٌ": "The clan of Taym; the tribe of Abu Bakr ibn Abi Quhafah, first claimant to the caliphate",
-            "سَبِخَةٌ": "Marshy, saline ground on which salat (prayer) is not legally permissible",
-            "عَدِيٌّ": "The clan of 'Adiyy; the tribe of 'Umar ibn al-Khattab, second claimant to the caliphate"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْقُعُودُ",
+          "الْمَوَالِي",
+          "الشِّيعَةِ",
+          "الْأَنْصَارِ",
+          "تَيْمٌ",
+          "عَدِيٌّ",
+          "سَبِخَةٌ",
+          "الْجِدَاءِ"
+        ],
         "related_quran": [
           {
             "ref": "12:103",
@@ -213,32 +149,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কেন Imam al-Sadiq (আলায়হি সালাম) এত বড় অনুসার থাকা সত্ত্বেও শাসকদের বিরুদ্ধে উত্থান করলেন না?",
-          "de": "Warum enthielt sich Imam al-Sadiq (Friede sei mit ihm) einer Erhebung gegen die Herrschenden, obwohl er über viele Anhänger verfügte?",
-          "en": "Why did Imam al-Sadiq (peace be upon him) refrain from rising against the ruling authorities despite having a large following?",
-          "es": "¿Por qué el Imam al-Sadiq (la paz sea con él) se abstuvo de levantarse contra las autoridades a pesar de tener numerosos seguidores?",
-          "fa": "باوجود داشتن پیروان فراوان، امام الصادق (علیه‌السلام) چرا از قیام علیه حاکمان خودداری کرد؟",
-          "fr": "Pourquoi l'Imam al-Sadiq (que la paix soit sur lui) s'est-il abstenu de se soulever contre les autorités malgré un grand nombre de partisans ?",
-          "id": "Mengapa Imam al-Sadiq (alaihi as-salam) menahan diri untuk bangkit melawan penguasa meskipun memiliki pengikut yang banyak?",
-          "ru": "Почему Имам аль-Садик (мир ему) воздержался от восстания против властей, несмотря на большое число приверженцев?",
-          "tr": "İmam al-Sadiq (aleyhisselam) bu kadar geniş bir takipçi kitlesine sahip olduğuna göre neden yöneticilere karşı ayaklanmaktan kaçındı?",
-          "ur": "امام ابو 'عبداللہ الصادق (علیہ السلام) اتنے بڑے پیروکار ہونے کے باوجود حکمرانوں کے خلاف کیوں نہیں اٹھے؟",
-          "zh": "為何Imam al-Sadiq（願主賜他平安）儘管擁有眾多追隨者，仍然不對統治者發動起義？"
-        },
-        "summaries": {
-          "bn": "Sadir al-Sayrafi Imam Abu 'Abdillah al-Sadiq (আলায়হি সালাম)-এর কাছে গিয়ে প্রশ্ন করেন যে এত বড় অনুসার থাকা সত্ত্বেও তিনি শাসকদের বিরুদ্ধে কেন উঠছেন না। ইমাম প্রথমে নীরব থাকেন, তারপর Yanbu' পথে একটি বাস্তব উদাহরণ দিয়ে দেখান—একজন ছেলে ঘাসছাগল গোনার পর মাত্র সতেরোটি পাওয়া যায়—যে সত্যিকারের, নিষ্ঠাবান শিয়া বাস্তবে অনেক কম এবং পর্যাপ্ত আন্তরিক সমর্থন ছাড়া সশস্ত্র বিদ্রোহ جائز নয়। এই সূত্রটি শিয়া রাজনৈতিক ধর্মতত্ত্বে ইমাম কোন শর্ত পূরণ করলে অবৈধ শাসকের বিরুদ্ধে উত্থান করা যায় সে বিষয়ের بنیادی حوالা।",
-          "de": "Sadir al-Sayrafi besucht Imam Abu 'Abdillah al-Sadiq (Friede sei mit ihm) und fragt, warum dieser sich trotz angeblich großer Gefolgschaft der Erhebung gegen die Herrschenden enthält. Der Imam schweigt zunächst und zeigt dann auf der Reise nach Yanbu' durch die konkrete Tat, nur siebzehn Ziegen zu zählen, dass die Zahl der aufrichtigen, verlässlichen Schiiten weitaus geringer ist, als Sadir annimmt — und dass ohne ausreichende, wirklich verpflichtete Unterstützung ein bewaffneter Aufstand nicht zulässig ist. Diese Überlieferung ist ein grundlegender Text der schiitischen politischen Theologie über die Bedingungen, unter denen ein legitimer Imam gegen ungerechte Herrschaft aufstehen darf.",
-          "en": "Sadir al-Sayrafi visits Imam Abu 'Abdillah al-Sadiq (peace be upon him) and challenges him to explain why he refrains from rising against the ruling authorities, claiming that he commands the loyalty of hundreds of thousands — even half the world. The Imam responds with silence and then, during a journey to Yanbu', demonstrates through the concrete act of counting only seventeen goats being pastured that the true number of sincere, reliable Shias is far smaller than Sadir imagines — making an armed uprising without adequate, genuinely committed support impermissible. This narration is a cornerstone text in Shia political theology regarding the conditions required before a legitimate Imam may rise against unjust rule.",
-          "es": "Sadir al-Sayrafi visita al Imam Abu 'Abdillah al-Sadiq (la paz sea con él) y le pregunta por qué se abstiene de levantarse contra las autoridades, pese a afirmar que cuenta con multitud de seguidores. El Imam responde con silencio primero y luego, durante el viaje a Yanbu', demuestra mediante un hecho concreto —contar que solo hay diecisiete cabras— que el número de chiítas sinceros y comprometidos es mucho menor de lo que Sadir imaginaba, por lo que una sublevación armada sin apoyo genuino y suficiente no es permisible. Esta narración es un texto clave en la teología política chií sobre las condiciones necesarias para que un Imam se levante contra un poder injusto.",
-          "fa": "Sadir al-Sayrafi نزد امام Abu 'Abdillah al-Sadiq (علیه‌السلام) می‌رود و می‌پرسد که با وجود پیروان بسیار چرا ایشان از قیام علیه حاکمان خودداری می‌کنند. امام ابتدا سکوت می‌کنند؛ آنگاه در راه به ینبع با مثال عینی و شمارش بزهایی که را یک پسر می‌چراند (هفده عدد)، نشان می‌دهند که شمار واقعی شیعیان خالص بسیار کمتر از آن چیزی است که ادعا شده است و بدون پشتیبانی واقعی و متعهد، قیام مسلحانه جایز نیست. این روایت در الهیات سیاسی شیعه مرجع محوری درباره شرایط لازم برای قیام امام است.",
-          "fr": "Sadir al-Sayrafi rend visite à l'Imam Abu 'Abdillah al-Sadiq (que la paix soit sur lui) et lui demande pourquoi il s'abstient de se soulever contre les autorités, alors qu'on prétend qu'il dispose d'un grand nombre de partisans. L'Imam répond d'abord par le silence, puis, au cours du voyage vers Yanbu', il montre par un acte concret — le dénombrement de seulement dix-sept chèvres — que le nombre réel de chiites sincères et fiables est bien inférieur à ce que Sadir imaginait, rendant ainsi illicite une insurrection armée sans un soutien véritable et suffisant. Ce récit est un texte central de la théologie politique chiite sur les conditions requises pour qu'un Imam puisse légitimement se soulever contre un pouvoir injuste.",
-          "id": "Sadir al-Sayrafi mengunjungi Imam Abu 'Abdillah al-Sadiq (alaihi as-salam) dan mempertanyakan mengapa ia enggan bangkit melawan penguasa meskipun mengaku memiliki banyak pengikut. Imam semula diam, kemudian dalam perjalanan ke Yanbu' menunjukkan secara konkret bahwa jumlah pengikut yang tulus jauh lebih sedikit — dengan menghitung hanya tujuh belas kambing yang sedang digembalakan — sehingga tanpa dukungan sungguh-sungguh dan memadai, pemberontakan bersenjata tidak diperbolehkan. Riwayat ini menjadi teks penting dalam teologi politik Syiah mengenai syarat-syarat pembangkitan Imam yang sah.",
-          "ru": "Садир аль-Сайрафи навещает Имама Абу 'Абдуллэха аль-Садика (мир ему) и оспаривает его, спрашивая, почему он воздерживается от восстания против властей, хотя, как утверждается, имеет множество последователей. Имам сначала молчит, затем в пути в Янбу' демонстрирует на конкретном примере — пересчёте лишь семнадцати пасущихся коз — что число искренних, надёжных шиитов гораздо меньше, чем полагает Садир; без действительно преданного и достаточного содействия вооружённое восстание не дозволено. Этот рассказ является ключевым текстом шиитской политической теологии о необходимых условиях для того, чтобы легитимный имам мог восстать против несправедливой власти.",
-          "tr": "Sadir al-Sayrafi, İmam Abu 'Abdillah al-Sadiq (aleyhisselam)'ı ziyaret eder ve onun, böyle geniş bir taraftar kitlesine sahip olduğunu iddia eden bir kimsenin neden iktidara karşı ayaklanmaktan kaçındığını sorgular. İmam önce susar; sonra Yanbu'ya yapılan yolculuk sırasında bir çocuğun güttüğü keçilerin sayısının yalnızca on yedi olduğunu göstererek Sadir'in varsaydığından çok daha az samimi, güvenilir Şiâ olduğunu ortaya koyar. Bu, gerçekten bağlı ve yeterli destek olmadan silahlı ayaklanmanın caiz olmadığını vurgulayan Şii siyasi teolojisinin temel metinlerinden biridir.",
-          "ur": "Sadir al-Sayrafi Imam Abu 'Abdillah al-Sadiq (علیہ السلام) سے ملتا ہے اور ان سے سوال کرتا ہے کہ اتنے بڑے حامی ہونے کے باوجود وہ حکمرانوں کے خلاف کیوں نہیں اُٹھتے۔ Sadir دعوی کرتا ہے کہ ان کے سینکڑوں ہزار حامی ہیں۔ امام ابتدا میں خاموش رہتے ہیں، پھر ینبع کی طرف سفر کے دوران ایک لڑکے کے چرا رہے سترہ بکریاں گنوا کر طے کرتے ہیں کہ مخلص شیعہ حقیقی معنوں میں اتنے زیادہ نہیں ہیں، اور بغیر حقیقی، مضبوط اور وابستہ حمایت کے مسلح بغاوت جائز نہیں۔ یہ روایت شیعہ سیاسی کلامیات میں اس بات کا بنیادی حوالہ ہے کہ امام کے قیام کے لیے حقیقی وسیع اور پختہ حمایت ضروری ہے۔",
-          "zh": "Sadir al-Sayrafi拜访了Imam Abu'Abdillah al-Sadiq（愿主赐他平安），质问他为何尽管拥有众多追随者却不起来反抗统治者。伊玛目起初沉默，随后在去Yanbu'的路上通过一个具体举动——数了数正在放牧的山羊，发现只有十七只——表明真正诚挚、可靠的追随者远比Sadir想象的少得多，因此在没有真实且足够的支持下进行武装起义是不被允许的。该叙事是什叶政治神学中关于伊玛目在何种条件下可以正当起义的重要文本。"
-        },
         "tags": [
           "governance",
           "ethics",

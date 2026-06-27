@@ -15,42 +15,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "فِي رِوَايَةِ أَبِي الْحُسَيْنِ الْأَسَدِيِّ رَضِيَ اللَّهُ عَنْهُ قَالَ قَالَ الصَّادِقُ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আবু আল-হুসাইন আল-আসদী রাদিয়াল্লাহু আনহু এর বর্ণনায় তিনি বললেন: আল-সাদিক عليه السلام বলেছেন:",
-              "de": "In der Überlieferung von Abū al-Ḥusayn al-Asadī, möge Allah mit ihm zufrieden sein, sagte er: Al-Ṣādiq عليه السلام sagte:",
-              "en": "In the narration of Abū al-Ḥusayn al-Asadī, may Allah be pleased with him, he said: Al-Ṣādiq عليه السلام said:",
-              "es": "En la narración de Abū al-Ḥusayn al-Asadī, que Allah esté complacido con él, dijo: Al-Ṣādiq عليه السلام dijo:",
-              "fa": "در روایت ابوالحسین الاسدی رضی الله عنه آمده است که الصادق علیه السلام فرمود:",
-              "fr": "Dans la narration d'Abū al-Ḥusayn al-Asadī, qu'Allah soit satisfait de lui, il a dit : Al-Ṣādiq عليه السلام a dit :",
-              "id": "Dalam riwayat Abū al-Ḥusayn al-Asadī, semoga Allah meridhainya, beliau berkata: Al-Ṣādiq علیه السلام berkata:",
-              "ru": "В передаче от Абу аль-Хусейна аль-Асади, да будет доволен им Аллах, он сказал: Аль-Садик عليه السلام сказал:",
-              "tr": "Ebu'l-Hüseyin el-Asadî'den rivayetle, Allah ondan razı olsun, dedi ki: Sâdık علیه السلام şöyle buyurdu:",
-              "ur": "ابو الحُسین الاسدی رضی اللہ عنہ کی روایت میں، انہوں نے کہا: الصادق علیہ السلام نے فرمایا:",
-              "zh": "在阿布胡赛因阿萨迪的传述中，愿安拉喜悦他，他说：阿萨迪ق عليه السلام说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "«مَنْ عَانَقَ حَاجًّا بِغُبَارِهِ كَانَ كَأَنَّمَا اسْتَلَمَ الْحَجَرَ الْأَسْوَدَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "‘‘যে ব্যক্তি ধূলোর সঙ্গে একজন হাজীকে আলিঙ্গন করবে, তাও যেন সে কালো পাথর স্পর্শ করেছে।’’",
-              "de": "„Wer einen Pilger umarmt, während er seinen Staub trägt, ist, als hätte er den Schwarzen Stein berührt.“",
-              "en": "\"Whoever embraces a pilgrim while bearing his dust, it is as though he has touched the Black Stone.\"",
-              "es": "«Quien abrace a un peregrino con su polvo, es como si hubiera tocado la Piedra Negra.»",
-              "fa": "«هر کس حاجی را در حالی که غبار او بر تن دارد در آغوش گیرد، گویی که سنگ سیاه را لمس کرده است.»",
-              "fr": "«Quiconque embrasse un pèlerin portant sa poussière, c'est comme s'il avait touché la Pierre Noire.»",
-              "id": "“Barangsiapa memeluk seorang jamaah haji dengan debu yang melekat padanya, seolah-olah dia telah menyentuh Hajar al-Aswad.”",
-              "ru": "«Кто обнимет паломника, покрытого его пылью, тот словно коснулся Чёрного Камня.»",
-              "tr": "‘‘Kim tozuyla birlikte bir hacıyı kucaklarsa, sanki Hacerü'l-Esved'e dokunmuş gibidir.’’",
-              "ur": "‘‘جو کوئی حج کرنے والے کو اس کے غبار کے ساتھ گلے لگائے، گویا اس نے حجر الاسود کو چھوا ہو۔’’",
-              "zh": "“谁拥抱带着尘土的朝觐者，就如同触摸了黑石。”"
-            },
             "word_end": 22,
             "word_start": 13
           }
@@ -84,26 +71,14 @@
             "phrase_en": "May Allah be pleased with him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "اسْتَلَمَ": "touched or reached reverently",
-            "الصَّادِقُ": "Imam Jaʿfar al-Ṣādiq عليه السلام",
-            "الْحَجَرَ الْأَسْوَدَ": "the Black Stone in the Kaʿbah",
-            "بِغُبَارِهِ": "with the dust of his journey still upon him",
-            "حَاجًّا": "a person performing or returning from hajj",
-            "رِوَايَةِ": "a transmitted narration"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رِوَايَةِ",
+          "الصَّادِقُ",
+          "حَاجًّا",
+          "بِغُبَارِهِ",
+          "اسْتَلَمَ",
+          "الْحَجَرَ الْأَسْوَدَ"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
@@ -118,32 +93,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হাজ থেকে ফিরে আসা হাজীকে আলিঙ্গন করার পুরস্কার কী?",
-          "de": "Was ist die Belohnung dafür, einen Pilger, der vom Hadsch zurückkehrt, zu umarmen?",
-          "en": "What is the reward for embracing a pilgrim returning from hajj?",
-          "es": "¿Cuál es la recompensa por abrazar a un peregrino que regresa del hajj?",
-          "fa": "پاداش در آغوش گرفتن حاجی بازگشته از حج چیست؟",
-          "fr": "Quelle est la récompense pour embrasser un pèlerin revenant du hajj ?",
-          "id": "Apa pahala memeluk jamaah haji yang baru kembali dari haji?",
-          "ru": "Какова награда за объятие паломника, возвращающегося из хаджа?",
-          "tr": "Hacdan dönen bir hacıyı kucaklamanın sevabı nedir?",
-          "ur": "حج سے لوٹنے والے حاجی کو گلے لگانے کا کیا اجر ہے؟",
-          "zh": "拥抱归来的朝觐者有什么奖赏？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি হাজীর فضیلت ও সম্মানকে তুলে ধরে এবং বিশ্বাসীদেরকে হাজি থেকে ফিরে আসা ব্যক্তিদের প্রতি শ্রদ্ধাশীল হতে উৎসাহিত করে। যাত্রার ধূলা লেগে থাকা অবস্থায় হাজীকে আলিঙ্গন করা কালো পাথর স্পর্শ করার সমতুল্য পুরস্কার হিসেবে বর্ণিত হয়েছে।",
-          "de": "Dieser Hadith hebt die Tugend und Ehre des Pilgers hervor und ermutigt die Gläubigen, Respekt gegenüber den vom Hadsch Zurückkehrenden zu zeigen. Einen Pilger zu umarmen, während der Staub der Reise noch an ihm haftet, wird als Belohnung beschrieben, die dem Berühren des Schwarzen Steins vergleichbar ist.",
-          "en": "This hadith highlights the virtue and honor of the pilgrim and encourages believers to show reverence toward those returning from hajj. Embracing the pilgrim while the dust of the journey remains upon him is described as carrying a reward comparable to touching the Black Stone.",
-          "es": "Este hadiz resalta la virtud y el honor del peregrino y anima a los creyentes a mostrar reverencia hacia quienes regresan del hajj. Abrazar al peregrino mientras aún lleva el polvo del viaje se describe como una recompensa comparable a tocar la Piedra Negra.",
-          "fa": "این حدیث فضیلت و شرافت حاجی را برجسته می‌کند و مؤمنان را به احترام به بازگشتگان از حج تشویق می‌نماید. در آغوش گرفتن حاجی در حالی که غبار سفر بر اوست، به عنوان پاداشی برابر با لمس سنگ سیاه توصیف شده است.",
-          "fr": "Ce hadith met en lumière la vertu et l'honneur du pèlerin et encourage les croyants à montrer du respect envers ceux qui reviennent du hajj. Embrasser le pèlerin alors que la poussière du voyage est encore sur lui est décrit comme une récompense comparable à toucher la Pierre Noire.",
-          "id": "Hadis ini menyoroti keutamaan dan kehormatan jamaah haji serta mendorong orang beriman untuk menghormati mereka yang kembali dari haji. Memeluk jamaah haji saat debu perjalanan masih melekat padanya digambarkan sebagai pahala yang setara dengan menyentuh Hajar al-Aswad.",
-          "ru": "Этот хадис подчеркивает достоинство и честь паломника и призывает верующих проявлять почтение к возвращающимся из хаджа. Объятие паломника, пока на нем еще пыль пути, описывается как награда, сравнимая с прикосновением к Чёрному Камню.",
-          "tr": "Bu hadis, hacının faziletini ve şerefini vurgular ve müminleri haccdan dönenlere saygı göstermeye teşvik eder. Yolculuğun tozu üzerindeyken hacıyı kucaklamak, Hacerü'l-Esved'e dokunmaya eşdeğer bir sevap olarak tanımlanır.",
-          "ur": "یہ حدیث حاجی کی فضیلت اور عزت کو اجاگر کرتی ہے اور مومنین کو حج سے لوٹنے والوں کے احترام کی ترغیب دیتی ہے۔ حج کے غبار کے ساتھ حاجی کو گلے لگانا حجر الاسود کو چھونے کے برابر اجر کا باعث ہے۔",
-          "zh": "这段圣训强调了朝觐者的美德与荣耀，鼓励信士尊敬归来的朝觐者。拥抱身带旅途尘土的朝觐者，被描述为获得与触摸黑石相当的奖赏。"
-        },
         "tags": [
           "worship",
           "social_relations",

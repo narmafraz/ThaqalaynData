@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رَوَى ٱبْنُ مُسْكَانَ عَنْ أَبِي بَصِيرٍ عَنْ أَبِي عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ইবনে মুসকান আবু বাসির থেকে, তিনি আবু আবদুল্লাহ علیہ السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Ibn Muskan berichtete von Abu Basir, von Abu Abdullah عليه السلام, der sagte:",
-              "en": "Ibn Muskan narrated from Abu Basir, from Abu Abdullah عليه السلام, who said:",
-              "es": "Ibn Muskan narró de Abu Basir, de Abu Abdullah عليه السلام, quien dijo:",
-              "fa": "ابن مسکان از ابو بصیر، از ابو عبدالله علیه السلام روایت کرده است که فرمود:",
-              "fr": "Ibn Muskan a rapporté d'Abu Basir, d'Abu Abdullah عليه السلام, qui a dit :",
-              "id": "Ibn Muskan meriwayatkan dari Abu Basir, dari Abu Abdullah علیه السلام, yang berkata:",
-              "ru": "Ибн Мускан передал от Абу Басира, от Абу Абдуллаха عليه السلام, который сказал:",
-              "tr": "İbn Muskan, Ebu Basir'den, o da İmam Abdullah (aleyhisselam)'dan rivayet etti, şöyle dedi:",
-              "ur": "ابن مسکان نے ابو بصیر سے روایت کی، جو ابو عبداللہ علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "伊本穆斯坎从阿布巴西尔那里传述，阿布巴杜拉 عليه السلام说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "«لَا يُذْبَحُ فِي ٱلْحَرَمِ إِلَّا ٱلْإِبِلُ وَٱلْبَقَرُ وَٱلْغَنَمُ وَٱلدَّجَاجُ»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“হারামে শুধুমাত্র উট, গরু, ভেড়া এবং মুরগি জবাই করা হয়।”",
-              "de": "„Im Haram wird nichts geschlachtet außer Kamelen, Rindern, Schafen und Hühnern.“",
-              "en": "“Nothing is slaughtered in the Haram except camels, cattle, sheep, and chickens.”",
-              "es": "“Nada se sacrifica en el Haram excepto camellos, ganado, ovejas y pollos.”",
-              "fa": "«در حرم فقط شتر، گاو، گوسفند و مرغ ذبح می‌شود.»",
-              "fr": "«Rien n'est sacrifié dans le Haram sauf les chameaux, le bétail, les moutons et les poulets.»",
-              "id": "“Di dalam Haram tidak disembelih kecuali unta, ternak, domba, dan ayam.”",
-              "ru": "«В Хараме не забивают ничего, кроме верблюдов, крупного рогатого скота, овец и кур.»",
-              "tr": "“Haramda sadece develer, büyükbaş hayvanlar, koyunlar ve tavuklar kesilir.”",
-              "ur": "“حرام میں صرف اونٹ، مویشی، بھیڑ اور مرغی ذبح کی جاتی ہے۔”",
-              "zh": "“在圣地内只宰杀骆驼、牛、羊和鸡。”"
-            },
             "word_end": 22,
             "word_start": 13
           }
@@ -100,26 +87,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "يُذْبَحُ": "is slaughtered; ritually killed",
-            "ٱلدَّجَاجُ": "chickens",
-            "ٱلْإِبِلُ": "camels",
-            "ٱلْبَقَرُ": "cattle or cows",
-            "ٱلْحَرَمِ": "the sacred sanctuary precinct in which special legal rulings apply",
-            "ٱلْغَنَمُ": "sheep"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "ٱلْحَرَمِ",
+          "يُذْبَحُ",
+          "ٱلْإِبِلُ",
+          "ٱلْبَقَرُ",
+          "ٱلْغَنَمُ",
+          "ٱلدَّجَاجُ"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
@@ -134,32 +109,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام অনুযায়ী হারামে কোন কোন পশু জবাই করা যায়?",
-          "de": "Welche Tiere dürfen laut Imam al-Sadiq عليه السلام im Haram geschlachtet werden?",
-          "en": "What animals may be slaughtered in the Haram according to Imam al-Sadiq عليه السلام?",
-          "es": "¿Qué animales pueden ser sacrificados en el Haram según el Imam al-Sadiq عليه السلام?",
-          "fa": "طبق نظر امام صادق علیه السلام، چه حیواناتی در حرم ذبح می‌شوند؟",
-          "fr": "Quels animaux peuvent être sacrifiés dans le Haram selon l'Imam al-Sadiq عليه السلام ?",
-          "id": "Menurut Imam al-Sadiq علیه السلام, hewan apa saja yang boleh disembelih di Haram?",
-          "ru": "Каких животных можно забивать в Хараме согласно Имаму ас-Садик عليه السلام?",
-          "tr": "İmam Sadık عليه السلام'a göre Haramda hangi hayvanlar kesilebilir?",
-          "ur": "امام الصادق علیہ السلام کے مطابق حرام میں کون سے جانور ذبح کیے جا سکتے ہیں؟",
-          "zh": "根据伊玛目萨迪克 عليه السلام，圣地内允许宰杀哪些动物？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি হারামের মধ্যে কী জবাই করা যায় সে সম্পর্কে শারঈ বিধান দেয়। এটি নির্দিষ্ট গৃহপালিত পশুদের মধ্যে সীমাবদ্ধ করে, যা পবিত্র স্থানটির নিয়ন্ত্রিত পবিত্রতা নির্দেশ করে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung darüber, was im Haram geschlachtet werden darf. Er beschränkt die Schlachtung auf bestimmte domestizierte Tiere und zeigt eine geregelte Heiligkeit des heiligen Bereichs an.",
-          "en": "This hadith gives a legal ruling about what may be slaughtered within the Haram. It restricts slaughter there to specific domesticated animals, indicating a regulated sanctity for the sacred precinct.",
-          "es": "Este hadiz da un fallo legal sobre lo que puede ser sacrificado dentro del Haram. Restringe el sacrificio a animales domésticos específicos, indicando una santidad regulada para el recinto sagrado.",
-          "fa": "این حدیث حکم شرعی درباره ذبح در داخل حرم را بیان می‌کند. ذبح را به حیوانات اهلی خاص محدود می‌کند و نشان‌دهنده حرمت تنظیم‌شده برای محدوده مقدس است.",
-          "fr": "Ce hadith donne un jugement légal sur ce qui peut être sacrifié dans le Haram. Il limite le sacrifice à certains animaux domestiques, indiquant une sainteté réglementée pour l'enceinte sacrée.",
-          "id": "Hadis ini memberikan hukum tentang apa yang boleh disembelih di dalam Haram. Ini membatasi penyembelihan pada hewan ternak tertentu, menunjukkan kesucian yang diatur untuk kawasan suci tersebut.",
-          "ru": "Этот хадис даёт правовое постановление о том, что можно забивать в Хараме. Он ограничивает забой определёнными домашними животными, указывая на регулируемую святость священного предела.",
-          "tr": "Bu hadis, Haram içinde neyin kesilebileceğine dair hukuki hükmü verir. Kesimi belirli evcil hayvanlarla sınırlar ve kutsal alanın düzenlenmiş kutsallığını gösterir.",
-          "ur": "یہ حدیث حرام کے اندر ذبح کے متعلق شرعی حکم بیان کرتی ہے۔ یہ وہاں ذبح کو مخصوص گھریلو جانوروں تک محدود کرتی ہے، جو مقدس مقام کی تنظیم شدہ حرمت کو ظاہر کرتی ہے۔",
-          "zh": "此圣训阐明了在圣地内可宰杀的动物的法律规定。仅限特定家畜，体现了圣地的有序神圣性。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

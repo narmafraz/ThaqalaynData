@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "يُونُسُ عَنِ ٱبْنِ سِنَانٍ عَنْ أَبِي عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ: فِي",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ইউনুস, ইবন সিনান থেকে, আবী আব্দিল্লাহ عليه السلام থেকে: সম্পর্কে",
-              "de": "Yūnus, von Ibn Sinān, von Abī ʿAbdillāh عليه السلام: über",
-              "en": "Yūnus, from Ibn Sinān, from Abī ʿAbdillāh عليه السلام: concerning",
-              "es": "Yūnus, de Ibn Sinān, de Abī ʿAbdillāh عليه السلام: acerca de",
-              "fa": "یونس، از ابن سنان، از ابی عبدالله علیه السلام: دربارهٔ",
-              "fr": "Yūnus, d’Ibn Sinān, d’Abī ʿAbdillāh عليه السلام : au sujet de",
-              "id": "Yunus, dari Ibn Sinan, dari Abī ʿAbdillāh عليه السلام: tentang",
-              "ru": "Юнус, от Ибн Синана, от Аби ʿАбдуллаха عليه السلام: о",
-              "tr": "Yunus, İbn Sinan’dan, Ebu Abdullah عليه السلام’dan: hakkında",
-              "ur": "یونس، ابن سنان سے، ابی عبداللہ علیہ السلام سے: کے بارے میں",
-              "zh": "尤努斯，传自伊本·西南，传自阿比·阿卜杜拉 عليه السلام：关于"
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "رَجُلَيْنِ يُوجَدَانِ فِي لِحَافٍ وَاحِدٍ فَقَالَ: «يُجْلَدَانِ حَدًّا غَيْرَ سَوْطٍ وَاحِدٍ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একটি মাত্র কম্বলের মধ্যে পাওয়া দুই পুরুষ সম্পর্কে, তিনি বললেন: “তাদেরকে হদ্দ হিসেবে বেত্রাঘাত করা হবে, এক বেত্রাঘাত কম।”",
-              "de": "über zwei Männer, die in einer einzigen Decke gefunden werden, da sagte er: „Sie sollen mit der Hadd-Strafe gepeitscht werden, um einen Hieb weniger.“",
-              "en": "two men who are found in a single blanket, so he said: “They are to be flogged with the hadd, short by one lash.”",
-              "es": "acerca de dos hombres que son encontrados en una sola manta, entonces dijo: “Se les aplicará el hadd, con una azotaina menos.”",
-              "fa": "دربارهٔ دو مردی که در یک لحاف یافت می‌شوند، پس فرمود: «بر آنان حد جاری می‌شود، به اندازهٔ یک تازیانه کمتر.»",
-              "fr": "au sujet de deux hommes trouvés sous une seule couverture, il dit : « Ils seront fouettés selon le hadd, avec un coup de fouet en moins. »",
-              "id": "tentang dua laki-laki yang ditemukan dalam satu selimut, maka beliau bersabda: “Keduanya harus dicambuk dengan hadd, kurang satu cambukan.”",
-              "ru": "о двух мужчинах, которых находят под одним одеялом, и он сказал: «Им следует назначить хадд, на один удар плетью меньше».",
-              "tr": "Tek bir battaniye içinde bulunan iki adam hakkında, şöyle buyurdu: “Onlara hadd cezası olarak, bir kırbaç eksik olmak üzere sopa vurulacaktır.”",
-              "ur": "دو آدمیوں کے بارے میں جو ایک ہی لحاف میں پائے جائیں، تو انہوں نے فرمایا: “انہیں حد کے طور پر کوڑے لگائے جائیں، ایک کوڑے کی کمی کے ساتھ۔”",
-              "zh": "关于两名男子被发现同在一条毯子里，他说：“应对他们执行hadd刑罚，少一鞭。”"
-            },
             "word_end": 22,
             "word_start": 11
           }
@@ -94,26 +81,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "حَدًّا": "a prescribed legal punishment",
-            "رَجُلَيْنِ": "two men",
-            "سَوْطٍ": "a lash or stroke of the whip",
-            "لِحَافٍ": "blanket or covering",
-            "يُجْلَدَانِ": "they are to be flogged",
-            "يُوجَدَانِ": "are found"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رَجُلَيْنِ",
+          "يُوجَدَانِ",
+          "لِحَافٍ",
+          "يُجْلَدَانِ",
+          "حَدًّا",
+          "سَوْطٍ"
+        ],
         "related_quran": [
           {
             "ref": "17:32",
@@ -124,32 +99,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام-এর মতে যদি দুই পুরুষকে একটি কম্বলের মধ্যে পাওয়া যায়, তবে কী হুকুম?",
-          "de": "Was ist das Urteil, wenn zwei Männer in einer einzigen Decke gefunden werden, gemäß Imam al-Ṣādiq عليه السلام?",
-          "en": "What is the ruling if two men are found in one blanket according to Imam al-Ṣādiq عليه السلام?",
-          "es": "¿Cuál es la norma si dos hombres son encontrados en una sola manta según el Imam al-Ṣādiq عليه السلام?",
-          "fa": "اگر دو مرد در یک لحاف یافت شوند، بنا بر نظر امام صادق علیه السلام حکم چیست؟",
-          "fr": "Quelle est la règle si deux hommes sont trouvés sous une seule couverture selon l’imam al-Ṣādiq عليه السلام ?",
-          "id": "Apa hukum jika dua laki-laki ditemukan dalam satu selimut menurut Imam al-Ṣādiq عليه السلام?",
-          "ru": "Каково постановление, если двух мужчин находят под одним одеялом, согласно имаму аль-Ṣādiq عليه السلام?",
-          "tr": "İmam es-Sâdık عليه السلام’a göre iki erkek bir battaniyede bulunursa hüküm nedir?",
-          "ur": "امام الصادق علیہ السلام کے مطابق اگر دو مرد ایک ہی لحاف میں پائے جائیں تو کیا حکم ہے؟",
-          "zh": "根据伊玛目阿尔-萨迪格 عليه السلام，如果两名男子被发现同在一条毯子里，判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে একটি মাত্র কম্বলের নিচে পাওয়া দুই পুরুষ সম্পর্কে একটি আইনি বিধান দেওয়া হয়েছে। ইমাম আবী আব্দিল্লাহ عليه السلام বলেন যে তাদের ওপর হদ্দ শাস্তি কার্যকর করা হবে, এক বেত্রাঘাত কম।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung über zwei Männer, die unter einer einzigen Decke gefunden werden. Imam Abī ʿAbdillāh عليه السلام erklärt, dass gegen sie eine Hadd-Strafe verhängt wird, um einen Hieb weniger.",
-          "en": "This hadith gives a legal ruling regarding two men found together under one blanket. Imam Abī ʿAbdillāh عليه السلام states that they are to receive a hadd punishment, reduced by one lash.",
-          "es": "Este hadiz ofrece una norma jurídica sobre dos hombres encontrados bajo una sola manta. El Imam Abī ʿAbdillāh عليه السلام declara que se les impondrá un castigo hadd, con una azotaina menos.",
-          "fa": "این حدیث دربارهٔ دو مردی که زیر یک لحاف یافت می‌شوند، حکمی فقهی بیان می‌کند. امام ابی عبدالله علیه السلام می‌فرماید که بر آنان حد جاری می‌شود، به اندازهٔ یک تازیانه کمتر.",
-          "fr": "Ce hadith énonce une règle juridique concernant deux hommes trouvés sous une seule couverture. L’imam Abī ʿAbdillāh عليه السلام déclare qu’ils recevront une peine de hadd, avec un coup de fouet en moins.",
-          "id": "Hadis ini memberikan حكم hukum tentang dua laki-laki yang ditemukan di bawah satu selimut. Imam Abī ʿAbdillāh عليه السلام menyatakan bahwa keduanya dikenai hukuman hadd, kurang satu cambukan.",
-          "ru": "Этот хадис содержит правовое постановление о двух мужчинах, найденных под одним одеялом. Имам Аби ʿАбдуллах عليه السلام говорит, что к ним применяется хадд, на один удар плетью меньше.",
-          "tr": "Bu hadis, tek bir battaniye altında bulunan iki erkek hakkında bir fıkhî hüküm bildirir. İmam Ebu Abdullah عليه السلام, onlara bir kırbaç eksik olmak üzere hadd cezası uygulanacağını belirtir.",
-          "ur": "یہ حدیث دو مردوں کے بارے میں ایک شرعی حکم بیان کرتی ہے جو ایک ہی لحاف کے نیچے پائے جائیں۔ امام ابی عبداللہ علیہ السلام فرماتے ہیں کہ ان پر حد جاری کی جائے گی، ایک کوڑے کی کمی کے ساتھ۔",
-          "zh": "这段圣训给出了关于两名男子同在一条毯子下被发现的法律裁决。伊玛目阿比·阿卜杜拉 عليه السلام说明，应对他们执行hadd刑罚，少一鞭。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations",

@@ -15,61 +15,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رُوِيَ عَنْ رُومِيِّ بْنِ زُرَارَةَ عَنْ عُبَيْدِ بْنِ زُرَارَةَ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "রোমী ইবনে জুরারাহ থেকে বর্ণিত, উবৈদ ইবনে জুরারাহ থেকে, যিনি বললেন:",
-              "de": "Es wird überliefert von Rūmī ibn Zurārah, von ʿUbayd ibn Zurārah, der sagte:",
-              "en": "It is narrated from Rūmī ibn Zurārah, from ʿUbayd ibn Zurārah, who said:",
-              "es": "Se narra de Rūmī ibn Zurārah, de ʿUbayd ibn Zurārah, quien dijo:",
-              "fa": "از رومی بن زراره، از عبید بن زراره روایت شده است که گفت:",
-              "fr": "Il est rapporté de Rūmī ibn Zurārah, de ʿUbayd ibn Zurārah, qui a dit :",
-              "id": "Diriwayatkan dari Rūmī ibn Zurārah, dari ʿUbayd ibn Zurārah, yang berkata:",
-              "ru": "Передается от Руми ибн Зурара, от Убайд ибн Зурара, который сказал:",
-              "tr": "Rivayet edilmiştir Rūmī ibn Zurārah'dan, ʿUbayd ibn Zurārah'dan, şöyle dedi:",
-              "ur": "یہ روایت ہے رومی ابن زرارہ سے، عن عبید ابن زرارہ، جنہوں نے کہا:",
-              "zh": "据传自鲁米本祖拉拉，来自乌拜德本祖拉拉，他说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "قُلْتُ لِأَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ النَّصْرَانِيُّ يَتَزَوَّجُ النَّصْرَانِيَّةَ عَلَى ثَلَاثِينَ دَنًّا خَمْرًا وَثَلَاثِينَ خِنْزِيرًا ثُمَّ أَسْلَمَا بَعْدَ ذَلِكَ وَلَمْ يَكُنْ دَخَلَ بِهَا",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আমি আবু আব্দুল্লাহ عليه السلام কে বললাম: একজন খ্রিস্টান পুরুষ একজন খ্রিস্টান মহিলার সাথে ত্রিশ মটক মদ ও ত্রিশ শূকরকে দেহরি হিসেবে বিয়ে করে, তারপর তারা দুজনই ইসলাম গ্রহণ করে এবং সে এখনও তার সাথে বিবাহ সম্পন্ন করেনি।",
-              "de": "Ich sagte zu Abū ʿAbdillāh عليه السلام: Ein christlicher Mann heiratet eine christliche Frau mit einer Mitgift von dreißig Krügen Wein und dreißig Schweinen, dann nehmen beide den Islam an und er hat die Ehe mit ihr noch nicht vollzogen.",
-              "en": "I said to Abū ʿAbdillāh عليه السلام: A Christian man marries a Christian woman with a dowry of thirty jars of wine and thirty pigs, then afterward they both embrace Islam, and he had not yet consummated the marriage with her.",
-              "es": "Le dije a Abū ʿAbdillāh عليه السلام: Un hombre cristiano se casa con una mujer cristiana con una dote de treinta tinajas de vino y treinta cerdos, luego ambos abrazan el Islam y él aún no ha consumado el matrimonio con ella.",
-              "fa": "به ابی عبدالله علیه السلام گفتم: مردی مسیحی با زنی مسیحی ازدواج می‌کند با مهریه سی کوزه شراب و سی خوک، سپس هر دو اسلام می‌آورند و هنوز با او نزدیکی نکرده است.",
-              "fr": "J'ai dit à Abū ʿAbdillāh عليه السلام : Un homme chrétien épouse une femme chrétienne avec une dot de trente jarres de vin et trente cochons, puis ils embrassent tous deux l'islam et il n'a pas encore consommé le mariage avec elle.",
-              "id": "Saya berkata kepada Abū ʿAbdillāh عليه السلام: Seorang pria Nasrani menikahi seorang wanita Nasrani dengan mahar tiga puluh tempayan anggur dan tiga puluh babi, kemudian keduanya memeluk Islam dan dia belum melakukan hubungan suami istri dengannya.",
-              "ru": "Я сказал Абу ʿАбдиллах عليه السلام: Христианин женится на христианке с приданым в виде тридцати кувшинов вина и тридцати свиней, затем оба принимают ислам, и он еще не вступал с ней в брак.",
-              "tr": "Ben, Ebu ʿAbdillāh عليه السلام'a şöyle dedim: Bir Hristiyan erkek, otuz küp şarap ve otuz domuz karşılığında bir Hristiyan kadınla evlenir, sonra ikisi de İslam'ı kabul eder ve henüz onunla evliliği tamamlamamıştır.",
-              "ur": "میں نے ابو عبداللہ علیہ السلام سے کہا: ایک عیسائی مرد ایک عیسائی عورت سے شادی کرتا ہے جس کی مہندی تیس مٹک شراب اور تیس سور ہیں، پھر بعد میں دونوں اسلام قبول کر لیتے ہیں اور اس نے ابھی تک اس کے ساتھ نکاح مکمل نہیں کیا۔",
-              "zh": "我对阿布ʿ阿卜杜拉 عليه السلام说：一名基督徒男子以三十坛酒和三十头猪作为嫁妆娶了一名基督徒女子，随后他们俩都皈依了伊斯兰教，他尚未与她完婚。"
-            },
             "word_end": 33,
             "word_start": 10
           },
           {
             "arabic_text": "قَالَ يَنْظُرُ كَمْ قِيمَةُ الْخِنْزِيرِ وَكَمْ قِيمَةُ الْخَمْرِ فَيُرْسِلُ بِهِ إِلَيْهَا ثُمَّ يَدْخُلُ عَلَيْهَا وَهُمَا عَلَى نِكَاحِهِمَا الْأَوَّلِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি عليه السلام বললেন: তাকে দেখতে হবে শূকরের মূল্য কত এবং মদের মূল্য কত, তারপর সেই মূল্য তাকে পাঠাতে হবে। তারপর সে তার সাথে বিবাহ সম্পন্ন করতে পারে, এবং তারা তাদের মূল বিবাহের উপর থাকে।",
-              "de": "Er عليه السلام sagte: Er soll den Wert der Schweine und des Weins bestimmen und diesen Wert an sie senden. Dann darf er die Ehe mit ihr vollziehen, und sie bleiben bei ihrer ursprünglichen Ehe.",
-              "en": "He عليه السلام said: He should determine how much the pigs are worth and how much the wine is worth, then send that value to her. Then he may consummate the marriage with her, and they remain upon their original marriage.",
-              "es": "Él عليه السلام dijo: Debe determinar cuánto valen los cerdos y cuánto vale el vino, luego enviar ese valor a ella. Después puede consumar el matrimonio con ella, y permanecen en su matrimonio original.",
-              "fa": "او علیه السلام فرمود: باید ارزش خوک‌ها و شراب را تعیین کند، سپس آن مبلغ را به او بفرستد. سپس می‌تواند با او نزدیکی کند و آن‌ها بر ازدواج اولیه خود باقی می‌مانند.",
-              "fr": "Il عليه السلام a dit : Il doit déterminer la valeur des cochons et du vin, puis lui envoyer cette valeur. Ensuite, il peut consommer le mariage avec elle, et ils restent sur leur mariage initial.",
-              "id": "Dia عليه السلام berkata: Dia harus menentukan berapa nilai babi dan berapa nilai anggur, kemudian mengirimkan nilai tersebut kepadanya. Setelah itu dia boleh melakukan hubungan suami istri dengannya, dan mereka tetap pada pernikahan awal mereka.",
-              "ru": "Он عليه السلام сказал: Он должен определить, сколько стоят свиньи и сколько стоит вино, затем отправить эту сумму ей. После этого он может вступить с ней в брак, и они остаются при своем первоначальном браке.",
-              "tr": "O عليه السلام şöyle dedi: Domuzların ve şarabın değerini belirlemeli, sonra o değeri ona göndermelidir. Sonra onunla evliliği tamamlayabilir ve onlar ilk evlilikleri üzerinde kalırlar.",
-              "ur": "انہوں نے علیہ السلام فرمایا: اسے چاہیے کہ وہ دیکھے کہ سور کی قیمت کتنی ہے اور شراب کی قیمت کتنی ہے، پھر اس قیمت کو اس کے پاس بھیج دے۔ پھر وہ اس کے ساتھ نکاح مکمل کر سکتا ہے، اور وہ اپنی اصل شادی پر قائم رہتے ہیں۔",
-              "zh": "他 عليه السلام 说：他应当确定猪和酒的价值，然后将该价值寄给她。之后他可以与她完婚，他们仍维持原先的婚姻关系。"
-            },
             "word_end": 51,
             "word_start": 33
           }
@@ -118,27 +92,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَسْلَمَا": "they both embraced Islam",
-            "النَّصْرَانِيَّةَ": "a Christian woman",
-            "النَّصْرَانِيُّ": "a Christian man",
-            "خَمْرًا": "wine given as part of the dowry",
-            "خِنْزِيرًا": "pigs given as part of the dowry",
-            "قِيمَةُ": "the monetary value to be assessed",
-            "نِكَاحِهِمَا": "their marriage contract"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "النَّصْرَانِيُّ",
+          "النَّصْرَانِيَّةَ",
+          "خَمْرًا",
+          "خِنْزِيرًا",
+          "قِيمَةُ",
+          "نِكَاحِهِمَا",
+          "أَسْلَمَا"
+        ],
         "related_quran": [
           {
             "ref": "5:5",
@@ -153,32 +115,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি একটি খ্রিস্টান দম্পতি মদ ও শূকরকে দেহরি হিসেবে বিয়ের পর ইসলাম গ্রহণ করে, তাহলে তাদের বিয়ে বৈধ থাকে কি এবং দেহরির কী হয়?",
-          "de": "Wenn ein christliches Paar nach der Heirat mit Wein und Schweinen als Mitgift zum Islam übertritt, bleibt ihre Ehe gültig und was passiert mit der Mitgift?",
-          "en": "If a Christian couple embraces Islam after marrying with wine and pigs as dowry, does their marriage remain valid and what happens to the dowry?",
-          "es": "Si una pareja cristiana abraza el Islam después de casarse con vino y cerdos como dote, ¿su matrimonio sigue siendo válido y qué sucede con la dote?",
-          "fa": "اگر یک زوج مسیحی پس از ازدواج با مهریه شراب و خوک اسلام بیاورند، آیا ازدواجشان معتبر می‌ماند و مهریه چه می‌شود؟",
-          "fr": "Si un couple chrétien embrasse l'islam après s'être marié avec du vin et des cochons comme dot, leur mariage reste-t-il valide et que devient la dot ?",
-          "id": "Jika pasangan Kristen memeluk Islam setelah menikah dengan mahar berupa anggur dan babi, apakah pernikahan mereka tetap sah dan apa yang terjadi pada mahar tersebut?",
-          "ru": "Если христианская пара примет ислам после брака с вином и свиньями в качестве приданого, останется ли их брак действительным и что будет с приданым?",
-          "tr": "Bir Hristiyan çift, şarap ve domuzları mehir olarak verip İslam'ı kabul ederse, evlilikleri geçerli kalır mı ve mehir ne olur?",
-          "ur": "اگر ایک عیسائی جوڑا شراب اور سور کو مہندی کے طور پر رکھ کر اسلام قبول کر لے تو کیا ان کی شادی جائز رہتی ہے اور مہندی کا کیا ہوتا ہے؟",
-          "zh": "如果一对基督徒夫妇以酒和猪作为嫁妆后皈依伊斯兰，他们的婚姻是否仍然有效，嫁妆怎么办？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস একটি অবৈধ দেহরির সাথে বিয়ে করা এবং বিবাহ সম্পন্ন করার আগে ইসলাম গ্রহণ করা অমুসলিম দম্পতির সম্পর্কে শারীয়াহর ফতোয়া দেয়। ইমাম عليه السلام নির্দেশ দেন যে অবৈধ জিনিসগুলোর মূল্য নির্ধারণ করে স্ত্রীকে প্রদান করতে হবে, এবং মূল বিবাহের চুক্তি বৈধ থাকবে।",
-          "de": "Dieser Hadith gibt eine Rechtsentscheidung über ein nichtmuslimisches Paar, das mit einer unzulässigen Mitgift geheiratet hat und dann beide vor der Vollziehung zum Islam übergetreten sind. Der Imam عليه السلام entscheidet, dass die ungültigen Gegenstände in ihren Geldwert umgewandelt und der Ehefrau gezahlt werden, während der ursprüngliche Ehevertrag gültig bleibt.",
-          "en": "This hadith gives a legal ruling concerning a non-Muslim couple who married with an unlawful dowry and then both embraced Islam before consummation. The Imam عليه السلام rules that the invalid items are converted into their monetary value, which is paid to the wife, while the original marriage contract remains valid.",
-          "es": "Este hadiz da un fallo legal sobre una pareja no musulmana que se casó con una dote ilícita y luego ambos abrazaron el Islam antes de la consumación. El Imam عليه السلام dicta que los objetos inválidos se conviertan en su valor monetario, que se paga a la esposa, mientras que el contrato matrimonial original permanece válido.",
-          "fa": "این حدیث حکم شرعی درباره زوج غیرمسلمی است که با مهریه غیرشرعی ازدواج کرده‌اند و سپس هر دو قبل از نزدیکی اسلام آورده‌اند. امام علیه السلام حکم می‌کند که اقلام نامشروع به ارزش پولی تبدیل شده و به زن پرداخت شود، در حالی که عقد ازدواج اصلی معتبر باقی می‌ماند.",
-          "fr": "Ce hadith donne un jugement légal concernant un couple non musulman qui s'est marié avec une dot illicite puis a embrassé l'islam avant la consommation. L'Imam عليه السلام ordonne que les objets invalides soient convertis en leur valeur monétaire, versée à l'épouse, tandis que le contrat de mariage original reste valide.",
-          "id": "Hadis ini memberikan hukum tentang pasangan non-Muslim yang menikah dengan mahar yang tidak sah lalu keduanya memeluk Islam sebelum melakukan hubungan suami istri. Imam عليه السلام memutuskan bahwa barang haram tersebut dikonversi ke nilai uang dan dibayarkan kepada istri, sementara akad nikah asli tetap sah.",
-          "ru": "Этот хадис содержит юридическое постановление о немусульманской паре, которая заключила брак с незаконным приданым, а затем оба приняли ислам до вступления в брак. Имам عليه السلام постановляет, что недопустимые предметы конвертируются в денежную стоимость и выплачиваются жене, при этом первоначальный брачный контракт остается действительным.",
-          "tr": "Bu hadis, haram bir mehirle evlenen ve evliliklerini tamamlamadan önce İslam'ı kabul eden gayrimüslim bir çift hakkında hukuki hüküm verir. İmam عليه السلام, geçersiz olan eşyaların parasal değerinin belirlenip eşe verilmesini, evlilik akdinin ise geçerli kalmasını hükmeder.",
-          "ur": "یہ حدیث ایک غیر مسلم جوڑے کے بارے میں شرعی حکم دیتی ہے جنہوں نے ناجائز مہندی کے ساتھ شادی کی اور پھر دونوں نے اسلام قبول کیا قبل اس کے کہ نکاح مکمل ہو۔ امام علیہ السلام حکم دیتے ہیں کہ ناجائز اشیاء کی قیمت نکال کر بیوی کو دی جائے جبکہ اصل نکاح کا عقد برقرار رہے۔",
-          "zh": "此圣训就一对以非法嫁妆结婚且未完婚即皈依伊斯兰的非穆斯林夫妇给出法律裁决。伊玛目 عليه السلام 裁定将非法物品折算为货币价值支付给妻子，原婚姻契约仍然有效。"
-        },
         "tags": [
           "jurisprudence",
           "family",

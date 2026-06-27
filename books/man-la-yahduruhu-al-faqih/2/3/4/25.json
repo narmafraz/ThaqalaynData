@@ -17,23 +17,23 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَإِنَّمَا سُمِّيَ الْحَجُّ الْأَكْبَرَ لِأَنَّهَا كَانَتْ سَنَةً حَجَّ فِيهَا الْمُسْلِمُونَ وَالْمُشْرِكُونَ وَلَمْ يَحُجَّ الْمُشْرِكُونَ بَعْدَ تِلْكَ السَّنَةِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এটি শুধুমাত্র আল-হজ্জ আল-আকবার বলা হয়েছিল কারণ এটি এমন একটি বছর ছিল যখন মুসলিম ও মুশরিক উভয়ই হজ পালন করেছিল, এবং সেই বছরের পর মুশরিকরা হজ করেনি।",
-              "de": "Es wurde nur al-Hajj al-Akbar genannt, weil es ein Jahr war, in dem sowohl Muslime als auch Polytheisten die Pilgerfahrt unternahmen, und die Polytheisten nach diesem Jahr nicht mehr pilgerten.",
-              "en": "It was only called al-Hajj al-Akbar because it was a year in which the Muslims and the polytheists performed hajj, and the polytheists did not perform hajj after that year.",
-              "es": "Se llamó al-Hajj al-Akbar porque fue un año en el que tanto musulmanes como politeístas realizaron el hajj, y los politeístas no realizaron el hajj después de ese año.",
-              "fa": "این حج فقط به نام الحَجُّ الأَکبَر نامیده شد زیرا سالی بود که مسلمانان و مشرکان هر دو حج انجام دادند و پس از آن سال مشرکان دیگر حج نکردند.",
-              "fr": "On l'a appelé al-Hajj al-Akbar parce que c'était une année où les musulmans et les polythéistes ont accompli le hajj, et les polythéistes n'ont pas accompli le hajj après cette année.",
-              "id": "Hanya disebut al-Hajj al-Akbar karena itu adalah tahun di mana Muslim dan musyrik melaksanakan haji, dan musyrik tidak melaksanakan haji setelah tahun itu.",
-              "ru": "Его назвали аль-Хадж аль-Акбар, потому что это был год, когда мусульмане и многобожники совершали хадж, а после этого года многобожники хадж не совершали.",
-              "tr": "Buna sadece al-Haccü'l-Akbar denilmiştir çünkü Müslümanlar ve müşrikler o yıl haccı gerçekleştirmiştir ve o yıldan sonra müşrikler hacca gitmemiştir.",
-              "ur": "اسے صرف الحَجُّ الأَکبَر کہا گیا کیونکہ وہ سال تھا جب مسلمان اور مشرک دونوں نے حج کیا، اور اس سال کے بعد مشرکوں نے حج نہیں کیا۔",
-              "zh": "它之所以被称为الحجالأكبر，是因为那一年穆斯林和多神教徒都进行了朝觐，而多神教徒在那年之后不再进行朝觐。"
-            },
             "word_end": 17,
             "word_start": 0
           }
@@ -56,25 +56,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْأَكْبَرَ": "greater; denoting the distinguished or major pilgrimage in this context",
-            "الْحَجُّ": "the pilgrimage to the Sacred House",
-            "الْمُسْلِمُونَ": "the Muslims who performed hajj",
-            "الْمُشْرِكُونَ": "the polytheists who were still present in hajj that year",
-            "سَنَةً": "a particular year being referred to"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْحَجُّ",
+          "الْأَكْبَرَ",
+          "سَنَةً",
+          "الْمُسْلِمُونَ",
+          "الْمُشْرِكُونَ"
+        ],
         "related_quran": [
           {
             "ref": "9:3",
@@ -85,32 +73,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হজকে আল-হজ্জ আল-আকবার কেন বলা হয়?",
-          "de": "Warum wurde die Pilgerfahrt al-Hajj al-Akbar genannt?",
-          "en": "Why was the pilgrimage called al-Hajj al-Akbar?",
-          "es": "¿Por qué se llamó al-Hajj al-Akbar a la peregrinación?",
-          "fa": "چرا آن حج را الحَجُّ الأَکبَر نامیدند؟",
-          "fr": "Pourquoi le pèlerinage a-t-il été appelé al-Hajj al-Akbar ?",
-          "id": "Mengapa haji disebut al-Hajj al-Akbar?",
-          "ru": "Почему паломничество называлось аль-Хадж аль-Акбар?",
-          "tr": "Hacca neden al-Haccü'l-Akbar denildi?",
-          "ur": "حج کو الحَجُّ الأَکبَر کیوں کہا گیا؟",
-          "zh": "为什么朝觐被称为الحجالأكبر？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনা ব্যাখ্যা করে কেন সেই হজকে আল-হজ্জ আল-আকবার বলা হয়েছিল: এটি সেই বছর ছিল যখন মুসলিম ও মুশরিক উভয়ই হজে উপস্থিত ছিলেন। সেই বছরের পর মুশরিকরা আর হজ করেনি, যা একটি ঐতিহাসিক গুরুত্বপূর্ণ মোড়।",
-          "de": "Dieser Bericht erklärt, warum diese Pilgerfahrt al-Hajj al-Akbar genannt wurde: Es war das Jahr, in dem sowohl Muslime als auch Polytheisten noch am Hajj teilnahmen. Nach diesem Jahr führten die Polytheisten keine Pilgerfahrt mehr durch, was einen historischen Wendepunkt markiert.",
-          "en": "This report explains why that pilgrimage was called al-Hajj al-Akbar: it was the year when both Muslims and polytheists were still present in the hajj. After that year, the polytheists no longer performed hajj, marking it as a historically significant turning point.",
-          "es": "Este informe explica por qué esa peregrinación se llamó al-Hajj al-Akbar: fue el año en que tanto musulmanes como politeístas aún participaban en el hajj. Después de ese año, los politeístas ya no realizaron el hajj, marcando un punto de inflexión histórico.",
-          "fa": "این گزارش توضیح می‌دهد که چرا آن حج به نام الحَجُّ الأَکبَر خوانده شد: سالی بود که مسلمانان و مشرکان هر دو در حج حضور داشتند. پس از آن سال، مشرکان دیگر حج نکردند که نقطه عطف تاریخی مهمی است.",
-          "fr": "Ce rapport explique pourquoi ce pèlerinage a été appelé al-Hajj al-Akbar : c'était l'année où musulmans et polythéistes étaient encore présents au hajj. Après cette année, les polythéistes n'ont plus accompli le hajj, marquant un tournant historique.",
-          "id": "Laporan ini menjelaskan mengapa haji itu disebut al-Hajj al-Akbar: karena itu adalah tahun ketika Muslim dan musyrik masih hadir dalam haji. Setelah tahun itu, musyrik tidak lagi melaksanakan haji, menandai titik balik sejarah yang penting.",
-          "ru": "Этот отчет объясняет, почему это паломничество называлось аль-Хадж аль-Акбар: это был год, когда и мусульмане, и многобожники еще участвовали в хадже. После этого года многобожники больше не совершали хадж, что стало историческим поворотным моментом.",
-          "tr": "Bu rivayet, o haccın neden al-Haccü'l-Akbar olarak adlandırıldığını açıklar: Müslümanlar ve müşriklerin birlikte hacca gittikleri yıl olmasıdır. O yıldan sonra müşrikler hacca gitmemiştir ve bu tarihi bir dönüm noktasıdır.",
-          "ur": "یہ روایت بتاتی ہے کہ اس حج کو الحَجُّ الأَکبَر کیوں کہا گیا: یہ وہ سال تھا جب مسلمان اور مشرک دونوں حج میں موجود تھے۔ اس سال کے بعد مشرکوں نے حج نہیں کیا، جو ایک تاریخی اہم موڑ تھا۔",
-          "zh": "本报告解释了为何该朝觐被称为الحجالأكبر：那是一年穆斯林和多神教徒都参加了朝觐。那年之后，多神教徒不再进行朝觐，标志着历史性的转折点。"
-        },
         "tags": [
           "worship",
           "history",

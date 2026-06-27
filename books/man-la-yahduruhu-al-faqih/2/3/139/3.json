@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى مَنْصُورُ بْنُ حَازِمٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মানসুর ইবনে হাজিম আবু আবদুল্লাহ علیہ السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Mansur ibn Hazim berichtete von Abu Abdullah علیه السلام, der sagte:",
-              "en": "Mansur ibn Hazim narrated from Abu Abdullah عليه السلام, who said:",
-              "es": "Mansur ibn Hazim narró de Abu Abdullah عليه السلام, quien dijo:",
-              "fa": "منصور بن حازم از ابو عبدالله علیه السلام روایت کرده است که فرمود:",
-              "fr": "Mansur ibn Hazim a rapporté d'Abu Abdullah عليه السلام, qui a dit :",
-              "id": "Mansur ibn Hazim meriwayat dari Abu Abdullah علیه السلام, yang berkata:",
-              "ru": "Мансур ибн Хазим передал от Абу Абдуллаха علیه السلام, который сказал:",
-              "tr": "Mansur ibn Hazim, Ebu Abdullah'a علیه السلام'dan rivayet etti, şöyle dedi:",
-              "ur": "منصور ابن حازم نے ابو عبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "منصوربنحازم从أبوعبداللهعليهالسلام传述，他说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "«كَانَ عَلِيٌّ عَلَيْهِ السَّلَامُ يَحْلُبُ الْبَدَنَةَ وَ يَحْمِلُ عَلَيْهَا غَيْرَ مُضِرٍّ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আলী علیہ السلام কোরবানি উটের দুধ দিতেন এবং তাকে ক্ষতি না করে তার উপর চড়তে দিতেন।",
-              "de": "Ali علیه السلام melkte das Opfertier-Kamel und erlaubte das Reiten darauf, ohne Schaden zuzufügen.",
-              "en": "Ali عليه السلام used to milk the sacrificial camel and allow riding upon it, without causing harm.",
-              "es": "Alí عليه السلام solía ordeñar el camello sacrificial y permitía montar sobre él sin causarle daño.",
-              "fa": "علی علیه السلام شتر قربانی را شیر می‌داد و اجازه می‌داد بدون آسیب رساندن بر آن سوار شوند.",
-              "fr": "Ali علیه السلام avait l'habitude de traire le chameau sacrificiel et permettait de monter dessus sans lui causer de tort.",
-              "id": "Ali علیه السلام biasa memerah unta kurban dan membiarkan orang menungganginya tanpa menyebabkan bahaya.",
-              "ru": "Али علیه السلام доил жертвенного верблюда и позволял ездить на нем, не причиняя вреда.",
-              "tr": "Ali علیه السلام, kurban devenin sütünü sağar ve ona zarar vermeden üzerine binilmesine izin verirdi.",
-              "ur": "علی علیہ السلام قربانی کے اونٹنی کا دودھ نکالتے اور اس پر سوار ہونے دیتے تھے، بغیر کسی نقصان کے۔",
-              "zh": "عليعليهالسلام经常挤牺牲骆驼的奶，并允许在不伤害它的情况下骑乘。"
-            },
             "word_end": 23,
             "word_start": 12
           }
@@ -91,27 +78,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبِي عَبْدِ اللَّهِ": "A kunyah referring here to Imam Ja'far al-Sadiq عليه السلام.",
-            "الْبَدَنَةَ": "The sacrificial camel offered in hajj rites.",
-            "عَلِيٌّ": "Imam Ali عليه السلام, whose practice is being reported.",
-            "غَيْرَ مُضِرٍّ": "Without causing harm or injury.",
-            "مَنْصُورُ بْنُ حَازِمٍ": "A narrator transmitting this hadith from Imam al-Sadiq عليه السلام.",
-            "يَحْلُبُ": "He milked; taking milk from the sacrificial camel.",
-            "يَحْمِلُ عَلَيْهَا": "He would have riding or carrying upon it."
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "مَنْصُورُ بْنُ حَازِمٍ",
+          "أَبِي عَبْدِ اللَّهِ",
+          "عَلِيٌّ",
+          "يَحْلُبُ",
+          "الْبَدَنَةَ",
+          "يَحْمِلُ عَلَيْهَا",
+          "غَيْرَ مُضِرٍّ"
+        ],
         "related_quran": [
           {
             "ref": "22:28",
@@ -122,32 +97,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামে কি কোরবানি উটের দুধ নেওয়া বা তাকে ক্ষতি না করে তার উপর চড়া جائز?",
-          "de": "Ist es im Islam erlaubt, ein Opfertier-Kamel zu melken oder darauf zu reiten, wenn ihm kein Schaden zugefügt wird?",
-          "en": "Is it permissible to milk or ride a sacrificial camel in Islam if it is not harmed?",
-          "es": "¿Es permisible en el Islam ordeñar o montar un camello sacrificial si no se le causa daño?",
-          "fa": "آیا در اسلام شیر گرفتن یا سوار شدن بر شتر قربانی در صورتی که آسیبی نرساند جایز است؟",
-          "fr": "Est-il permis en Islam de traire ou de monter un chameau sacrificiel s'il n'est pas blessé ?",
-          "id": "Apakah dalam Islam diperbolehkan memerah susu atau menunggang unta kurban jika tidak membahayakan hewan tersebut?",
-          "ru": "Разрешено ли в исламе доить или ездить на жертвенном верблюде, если ему не причиняется вред?",
-          "tr": "İslam'da kurban devenin sütünü sağmak veya ona zarar vermeden üzerine binmek caiz midir?",
-          "ur": "کیا اسلام میں قربانی کے اونٹنی کا دودھ نکالنا یا اس پر سوار ہونا جائز ہے اگر اسے نقصان نہ پہنچے؟",
-          "zh": "在伊斯兰教中，如果不伤害牺牲骆驼，挤奶或骑乘是否允许？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি নির্দেশ করে যে কোরবানি উটের দুধ নেওয়া এবং তার উপর চড়া অনুমোদিত, যদি প্রাণীকে কোনো ক্ষতি না হয়, যা কোরবানি প্রাণীর ব্যবহার সম্পর্কে আইনগত ও নৈতিক সীমা নির্দেশ করে।",
-          "de": "Dieser Hadith zeigt die Erlaubnis, von einem Opfertier-Kamel durch Melken und Reiten zu profitieren, sofern dem Tier kein Schaden zugefügt wird, und verdeutlicht damit eine rechtliche und ethische Grenze bei der Nutzung von Opfertieren.",
-          "en": "This hadith indicates the permissibility of benefiting from a sacrificial camel by milking it and riding it. The condition stated is that no harm be caused to the animal, showing a legal and ethical limit in the use of sacrificial animals.",
-          "es": "Este hadiz indica la permisibilidad de beneficiarse del camello sacrificial ordeñándolo y montándolo, siempre que no se cause daño al animal, mostrando un límite legal y ético en el uso de animales sacrificados.",
-          "fa": "این حدیث جواز بهره‌مندی از شتر قربانی به‌وسیله شیر گرفتن و سوار شدن بر آن را نشان می‌دهد به شرطی که آسیبی به حیوان نرسد، که حد قانونی و اخلاقی در استفاده از حیوانات قربانی را بیان می‌کند.",
-          "fr": "Ce hadith indique la permissibilité de bénéficier d'un chameau sacrificiel en le trayant et en montant dessus, à condition de ne pas causer de tort à l'animal, montrant une limite légale et éthique dans l'utilisation des animaux sacrificiels.",
-          "id": "Hadis ini menunjukkan bolehnya memanfaatkan unta kurban dengan memerah susunya dan menungganginya selama tidak membahayakan hewan tersebut, menunjukkan batas hukum dan etika dalam penggunaan hewan kurban.",
-          "ru": "Этот хадис указывает на дозволенность использования жертвенного верблюда для доения и езды на нем при условии отсутствия вреда животному, показывая юридические и этические пределы использования жертвенных животных.",
-          "tr": "Bu hadis, kurban devenin sütünden faydalanmanın ve üzerine binmenin, hayvana zarar verilmemesi şartıyla caiz olduğunu göstermektedir; bu, kurban hayvanlarının kullanımında hukuki ve etik bir sınırı ortaya koyar.",
-          "ur": "یہ حدیث قربانی کے اونٹنی سے دودھ نکالنے اور اس پر سوار ہونے کی اجازت کو ظاہر کرتی ہے بشرطیکہ جانور کو کوئی نقصان نہ پہنچے، جو قربانی کے جانوروں کے استعمال میں قانونی اور اخلاقی حد کو ظاہر کرتی ہے۔",
-          "zh": "此圣训表明，在不伤害动物的情况下，挤牺牲骆驼的奶和骑乘是允许的，显示了使用牺牲动物的法律和伦理界限。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

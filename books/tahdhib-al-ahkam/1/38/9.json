@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ عُثْمَانَ بْنِ عِيسَى عَنْ سَمَاعَةَ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, উসমান ইবন ঈসা থেকে, সামাআহ থেকে, যিনি বলেছেন:",
-              "de": "Von ihm, von 'Uthman ibn 'Isa, von Sama'ah, der sagte:",
-              "en": "From him, from 'Uthman ibn 'Isa, from Sama'ah, who said:",
-              "es": "De él, de 'Uthman ibn 'Isa, de Sama'ah, quien dijo:",
-              "fa": "از او، از عثمان بن عیسی، از سماعه، که گفت:",
-              "fr": "De lui, de 'Uthman ibn 'Isa, de Sama'ah, qui a dit :",
-              "id": "Darinya, dari 'Uthman ibn 'Isa, dari Sama'ah, yang berkata:",
-              "ru": "От него, от 'Усмана ибн 'Исы, от Сама'и, который сказал:",
-              "tr": "Ondan, Osman ibn İsa’dan, Sama‘ah’tan, şöyle dedi:",
-              "ur": "ان سے، عثمان بن عیسیٰ سے، سماعہ سے، جنہوں نے کہا:",
-              "zh": "由他传自'Uthmanibn'Isa，传自Sama'ah，他说："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنْ بَوْلِ السِّنَّوْرِ وَالْكَلْبِ وَالْحِمَارِ وَالْفَرَسِ، قَالَ: «كَأَبْوَالِ الْإِنْسَانِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁকে বিড়াল, কুকুর, গাধা এবং ঘোড়ার প্রস্রাব সম্পর্কে জিজ্ঞাসা করলাম। তিনি বললেন: “মানুষের প্রস্রাবের মতো।”",
-              "de": "Ich fragte ihn nach dem Urin der Katze, des Hundes, des Esels und des Pferdes. Er sagte: „Wie der Urin des Menschen.“",
-              "en": "I asked him about the urine of the cat, the dog, the donkey, and the horse. He said: “Like the urine of the human being.”",
-              "es": "Le pregunté acerca de la orina del gato, del perro, del burro y del caballo. Dijo: “Como la orina del ser humano.”",
-              "fa": "از او دربارهٔ بولِ گربه، سگ، الاغ و اسب پرسیدم. فرمود: «مانند بولِ انسان است.»",
-              "fr": "Je lui ai demandé au sujet de l’urine du chat, du chien, de l’âne et du cheval. Il dit : « Comme l’urine de l’être humain. »",
-              "id": "Aku bertanya kepadanya tentang kencing kucing, anjing, keledai, dan kuda. Ia berkata: “Seperti kencing manusia.”",
-              "ru": "Я спросил его о моче кошки, собаки, осла и лошади. Он сказал: «Как моча человека».",
-              "tr": "Ona kedinin, köpeğin, eşeğin ve atın idrarını sordum. Dedi ki: “İnsan idrarı gibidir.”",
-              "ur": "میں نے ان سے بلی، کتے، گدھے اور گھوڑے کے پیشاب کے بارے میں پوچھا۔ انہوں نے فرمایا: \"انسان کے پیشاب کی طرح۔\"",
-              "zh": "我问他关于猫、狗、驴和马的尿液。他说：“像人的尿液一样。”"
-            },
             "word_end": 18,
             "word_start": 8
           }
@@ -94,27 +81,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "السِّنَّوْرِ": "the cat",
-            "الْإِنْسَانِ": "the human being",
-            "الْحِمَارِ": "the donkey",
-            "الْفَرَسِ": "the horse",
-            "الْكَلْبِ": "the dog",
-            "بَوْلِ": "urine; the substance whose legal status is being asked about",
-            "كَأَبْوَالِ": "like the urines of; indicating comparison in legal status"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "بَوْلِ",
+          "السِّنَّوْرِ",
+          "الْكَلْبِ",
+          "الْحِمَارِ",
+          "الْفَرَسِ",
+          "كَأَبْوَالِ",
+          "الْإِنْسَانِ"
+        ],
         "related_quran": [
           {
             "ref": "2:222",
@@ -129,32 +104,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে বিড়াল, কুকুর, গাধা ও ঘোড়ার প্রস্রাবের বিধান কী?",
-          "de": "Was ist das Urteil über den Urin von Katze, Hund, Esel und Pferd im schiitischen Hadith?",
-          "en": "What is the ruling on the urine of a cat, dog, donkey, and horse in Shia hadith?",
-          "es": "¿Cuál es la norma sobre la orina del gato, del perro, del burro y del caballo en el hadiz chií?",
-          "fa": "حکم بولِ گربه، سگ، الاغ و اسب در حدیث شیعه چیست؟",
-          "fr": "Quelle est la règle concernant l’urine du chat, du chien, de l’âne et du cheval dans le hadith chiite ?",
-          "id": "Apa حكم kencing kucing, anjing, keledai, dan kuda dalam hadis Syiah?",
-          "ru": "Каково постановление о моче кошки, собаки, осла и лошади в шиитском хадисе?",
-          "tr": "Şii hadiste kedinin, köpeğin, eşeğin ve atın idrarının hükmü nedir?",
-          "ur": "شیعہ حدیث میں بلی، کتے، گدھے اور گھوڑے کے پیشاب کا حکم کیا ہے؟",
-          "zh": "什叶派圣训中关于猫、狗、驴和马的尿液的教法律例是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে কিছু প্রাণীর প্রস্রাব সম্পর্কে একটি শরঈ বিধান বর্ণনা করা হয়েছে, এবং তা মানুষের প্রস্রাবের সঙ্গে তুলনা করা হয়েছে। এটি তাহারাতের বিধান, বিশেষ করে শরীর ও পোশাকের নাপাকির প্রসঙ্গে তাহযীবুল আহকামে এসেছে।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung über den Urin bestimmter Tiere, indem er ihn mit dem Urin des Menschen vergleicht. Er erscheint im Zusammenhang mit den Reinheitsvorschriften bezüglich Körper- und Kleidungsunreinheiten in Tahdhib al-Ahkam.",
-          "en": "This hadith gives a legal ruling regarding the urine of certain animals by comparing it to human urine. It appears in the context of purification rulings concerning bodily and clothing impurities in Tahdhib al-Ahkam.",
-          "es": "Este hadiz establece una norma jurídica sobre la orina de ciertos animales al compararla con la orina humana. Aparece en el contexto de las normas de purificación relativas a las impurezas del cuerpo y de la ropa en Tahdhib al-Ahkam.",
-          "fa": "این حدیث دربارهٔ بولِ برخی حیوانات، حکمی فقهی بیان می‌کند و آن را با بولِ انسان مقایسه می‌نماید. این روایت در زمینهٔ احکام طهارت، مربوط به نجاست‌های بدن و لباس، در تهذیب الأحکام آمده است.",
-          "fr": "Ce hadith énonce un حكم juridique concernant l’urine de certains animaux en la comparant à l’urine humaine. Il apparaît dans le contexte des règles de purification relatives aux impuretés du corps et des vêtements dans Tahdhib al-Ahkam.",
-          "id": "Hadis ini memberikan حكم hukum tentang kencing sebagian hewan dengan membandingkannya dengan kencing manusia. Hadis ini muncul dalam konteks hukum-hukum penyucian terkait najis pada badan dan pakaian dalam Tahdhib al-Ahkam.",
-          "ru": "Этот хадис содержит правовое постановление относительно мочи некоторых животных, сравнивая её с мочой человека. Он приводится в контексте правил очищения, касающихся телесной и одежной нечистоты, в Tahdhib al-Ahkam.",
-          "tr": "Bu hadis, bazı hayvanların idrarı hakkında insan idrarıyla karşılaştırma yaparak fıkhî bir hüküm bildirir. Tahdhib al-Ahkam’da taharet, beden ve elbise necasetleriyle ilgili hükümler bağlamında yer alır.",
-          "ur": "یہ حدیث بعض جانوروں کے پیشاب کے بارے میں شرعی حکم بیان کرتی ہے، اور اسے انسان کے پیشاب کے ساتھ تشبیہ دیتی ہے۔ یہ تہذیب الأحکام میں طہارت کے ابواب کے ضمن میں وارد ہوئی ہے۔",
-          "zh": "这段圣训通过将某些动物的尿液与人的尿液相比较，给出了一个教法判定。它出现在Tahdhibal-Ahkam中有关净化、身体和衣物污秽的规定语境里。"
-        },
         "tags": [
           "jurisprudence",
           "knowledge",

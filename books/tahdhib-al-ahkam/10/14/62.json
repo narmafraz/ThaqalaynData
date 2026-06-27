@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنْ أَبِي مُحَمَّدٍ الْوَابِشِيِّ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন মুহাম্মদ, আবূ মুহাম্মদ আল-ওয়াবিশী থেকে, তিনি বলেন:",
-              "de": "Ahmad ibn Muhammad, von Abū Muḥammad al-Wābishī, sagte:",
-              "en": "Ahmad ibn Muhammad, from Abū Muḥammad al-Wābishī, said:",
-              "es": "Ahmad ibn Muhammad, de Abū Muḥammad al-Wābishī, dijo:",
-              "fa": "احمد بن محمد، از ابومحمد الوابشی، گفت:",
-              "fr": "Ahmad ibn Muhammad, d’Abū Muḥammad al-Wābishī, a dit :",
-              "id": "Ahmad ibn Muhammad, dari Abū Muḥammad al-Wābishī, berkata:",
-              "ru": "Ахмад ибн Мухаммад, от Абу Мухаммада аль-Вабиши, сказал:",
-              "tr": "Ahmed ibn Muhammed, Ebû Muhammed el-Vâbîşî’den, dedi ki:",
-              "ur": "احمد بن محمد، ابو محمد الوابشی سے، انہوں نے کہا:",
-              "zh": "艾哈迈德·伊本·穆罕默德，传自阿布·穆罕默德·阿勒瓦比希，说："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ عَنْ أَقْوَامٍ ادَّعَوْا عَلَى عَبْدٍ جِنَايَةً تُحِيطُ بِرَقَبَتِهِ، فَأَقَرَّ الْعَبْدُ بِهَا.",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আমি আবূ আবদিল্লাহ عليه السلام-কে কিছু লোক সম্পর্কে জিজ্ঞেস করলাম, যারা এক দাসের বিরুদ্ধে এমন এক অপরাধের দাবি করেছিল যা তার গর্দানকে ঘিরে ফেলত, আর দাসটি তা স্বীকার করে নিল।",
-              "de": "Ich fragte Abā ʿAbdillāh عليه السلام über einige Leute, die gegen einen Sklaven eine Straftat behaupteten, die seinen Hals umschließen würde, und der Sklave gestand sie ein.",
-              "en": "I asked Abā ʿAbdillāh عليه السلام about some people who claimed against a slave a crime that would encompass his neck, and the slave confessed to it.",
-              "es": "Le pregunté a Abā ʿAbdillāh عليه السلام acerca de unas personas que alegaron contra un esclavo un delito que recaería sobre su cuello, y el esclavo lo confesó.",
-              "fa": "از اباعبدالله علیه السلام درباره برخی مردمان پرسیدم که بر ضدّ برده‌ای جنایتی را ادعا کردند که گردن او را فرا می‌گرفت، و برده به آن اقرار کرد.",
-              "fr": "J’ai interrogé Abā ʿAbdillāh عليه السلام au sujet de certaines personnes qui avaient allégué contre un esclave un crime qui l’atteindrait au cou, et l’esclave l’a reconnu.",
-              "id": "Aku bertanya kepada Abā ʿAbdillāh عليه السلام tentang beberapa orang yang menuduh seorang budak melakukan suatu kejahatan yang akan menjerat lehernya, lalu budak itu mengakuinya.",
-              "ru": "Я спросил Абу Абдуллаха عليه السلام о некоторых людях, которые обвинили раба в преступлении, влекущем за собой смертельную ответственность, и раб признал это.",
-              "tr": "Abâ ʿAbdillâh عليه السلام’a, bir köle aleyhine boynunu kuşatacak bir suç isnat eden bazı kimseler hakkında sordum; köle de bunu ikrar etti.",
-              "ur": "میں نے ابو عبد اللہ علیہ السلام سے کچھ لوگوں کے بارے میں پوچھا جنہوں نے ایک غلام کے خلاف ایسی جنایت کا دعویٰ کیا جو اس کی گردن کو گھیر لینے والی تھی، اور غلام نے اس کا اقرار کر لیا۔",
-              "zh": "我向阿布·阿卜杜拉 عليه السلام询问关于一些人对一名奴隶指控一项会牵连其颈项的罪行，而那名奴隶承认了。"
-            },
             "word_end": 25,
             "word_start": 8
           },
           {
             "arabic_text": "قَالَ: «لَا يَجُوزُ إِقْرَارُ الْعَبْدِ عَلَى سَيِّدِهِ، فَإِنْ أَقَامُوا الْبَيِّنَةَ عَلَى مَا ادَّعَوْا عَلَى الْعَبْدِ أَخَذُوا الْعَبْدَ بِهَا أَوْ يَفْتَدِيَهُ مَوْلَاهُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি عليه السلام বললেন: “দাসের স্বীকারোক্তি তার মালিকের বিরুদ্ধে বৈধ নয়। অতএব, তারা যদি দাসের বিরুদ্ধে যা দাবি করেছে তার ওপর প্রমাণ কায়েম করে, তবে তারা সে কারণে দাসটিকে নিয়ে নিতে পারে, অথবা তার মাওলা তাকে মুক্তিপণ দিয়ে ছাড়িয়ে নিতে পারে।”",
-              "de": "Er عليه السلام sagte: „Das Geständnis eines Sklaven ist gegen seinen Herrn nicht gültig. Wenn sie also für das, was sie gegen den Sklaven behauptet haben, einen Beweis erbringen, können sie den Sklaven deswegen nehmen, oder sein Herr kann ihn freikaufen.“",
-              "en": "He عليه السلام said: “The confession of a slave is not valid against his master. So if they establish proof for what they claimed against the slave, they may take the slave on account of it, or his master may ransom him.”",
-              "es": "Él عليه السلام dijo: “La confesión de un esclavo no es válida contra su amo. Así pues, si presentan prueba de lo que alegaron contra el esclavo, podrán tomar al esclavo por ello, o su señor podrá rescatarlo.”",
-              "fa": "آن حضرت علیه السلام فرمود: «اقرار برده بر ضدّ صاحبش معتبر نیست. پس اگر بر آنچه بر ضدّ برده ادعا کرده‌اند بینه اقامه کنند، می‌توانند برده را به سبب آن بگیرند، یا مولای او می‌تواند او را فدیه دهد.»",
-              "fr": "Il عليه السلام a dit : « L’aveu d’un esclave n’est pas valable contre son maître. Donc, s’ils apportent une preuve de ce qu’ils ont allégué contre l’esclave, ils pourront prendre l’esclave à cause de cela, ou bien son maître pourra le racheter. »",
-              "id": "Beliau عليه السلام bersabda: “Pengakuan seorang budak tidak sah terhadap tuannya. Maka jika mereka mendatangkan bukti atas apa yang mereka klaim terhadap budak itu, mereka dapat mengambil budak itu karenanya, atau tuannya dapat menebusnya.”",
-              "ru": "Он عليه السلام сказал: «Признание раба недействительно против его господина. Если же они представят доказательство тому, что утверждали против раба, то могут взять раба за это, либо его господин может выкупить его».",
-              "tr": "O عليه السلام şöyle buyurdu: “Kölenin ikrarı efendisine karşı geçerli değildir. Eğer köle aleyhine iddia ettikleri şey için delil getirirlerse, köleyi bunun karşılığında alabilirler yahut onun efendisi onu fidye ile kurtarabilir.”",
-              "ur": "انہوں نے علیہ السلام فرمایا: “غلام کا اقرار اس کے مالک کے خلاف معتبر نہیں۔ پس اگر وہ اس چیز پر گواہ قائم کر دیں جس کا انہوں نے غلام کے خلاف دعویٰ کیا ہے، تو وہ اس کے سبب غلام کو لے سکتے ہیں، یا اس کا مولا اسے فدیہ دے سکتا ہے۔”",
-              "zh": "他 عليه السلام说：“奴隶的供认对其主人不成立。因此，如果他们就自己对奴隶所提出的指控举出证据，他们可以因此而取得该奴隶，或者他的主人可以为他赎身。”"
-            },
             "word_end": 46,
             "word_start": 25
           }
@@ -109,27 +83,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَقَرَّ": "he confessed or acknowledged the claim",
-            "إِقْرَارُ": "legal confession or admission",
-            "الْبَيِّنَةَ": "legal proof or evidentiary testimony",
-            "جِنَايَةً": "a criminal offense or injurious act giving rise to legal liability",
-            "سَيِّدِهِ": "his master, who holds proprietary authority over the slave",
-            "مَوْلَاهُ": "his master or patron in this legal context",
-            "يَفْتَدِيَهُ": "to ransom him or redeem him by compensation"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "جِنَايَةً",
+          "أَقَرَّ",
+          "إِقْرَارُ",
+          "سَيِّدِهِ",
+          "الْبَيِّنَةَ",
+          "يَفْتَدِيَهُ",
+          "مَوْلَاهُ"
+        ],
         "related_quran": [
           {
             "ref": "2:282",
@@ -144,32 +106,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে কি দাসের স্বীকারোক্তি তার মালিকের বিরুদ্ধে শরিয়তগতভাবে বৈধ?",
-          "de": "Ist das Geständnis eines Sklaven im schiitischen Fiqh gegen seinen Herrn rechtlich gültig?",
-          "en": "Is a slave’s confession legally valid against his master in Shia fiqh?",
-          "es": "¿Es válida legalmente la confesión de un esclavo contra su amo en la fiqh chií?",
-          "fa": "آیا اقرار برده در فقه شیعه بر ضدّ صاحبش از نظر شرعی معتبر است؟",
-          "fr": "L’aveu d’un esclave est-il juridiquement valable contre son maître en fiqh chiite ?",
-          "id": "Apakah pengakuan seorang budak sah secara hukum terhadap tuannya dalam fikih Syiah?",
-          "ru": "Является ли признание раба юридически действительным против его господина в шиитском фикхе?",
-          "tr": "Şiî fıkhında bir kölenin ikrarı efendisine karşı hukuken geçerli midir?",
-          "ur": "کیا شیعہ فقہ میں غلام کا اقرار اس کے مالک کے خلاف شرعاً معتبر ہے؟",
-          "zh": "在什叶派教法中，奴隶的供认对其主人在法律上有效吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে এক দাসের বিরুদ্ধে অপরাধের দাবির বিষয়ে একটি ফিকহি বিধান বর্ণিত হয়েছে। এতে বলা হয়েছে, দাসের স্বীকারোক্তি শরিয়তগতভাবে তার মালিকের বিরুদ্ধে কার্যকর নয়, এবং দায় কেবল প্রমাণের মাধ্যমে প্রতিষ্ঠিত হয়; এরপর দাবিদার দাসটিকে নিতে পারে অথবা তার মাওলা তাকে ফিদিয়া দিতে পারে।",
-          "de": "Dieser Hadith enthält eine rechtliche Regelung zu einer Straftatbehauptung gegen einen Sklaven. Er besagt, dass das Geständnis des Sklaven rechtlich nicht gegen seinen Herrn wirksam ist und die Haftung nur durch Beweis festgestellt wird; danach kann der Anspruchsteller den Sklaven nehmen oder sein Herr ihn freikaufen.",
-          "en": "This hadith gives a legal ruling concerning claims of a criminal offense against a slave. It states that a slave’s confession is not legally effective against the master, and that liability is established only through proof, after which the claimant may take the slave or the master may ransom him.",
-          "es": "Este hadiz expone una norma jurídica sobre una acusación de delito contra un esclavo. Señala que la confesión del esclavo no tiene efecto legal contra su amo, y que la responsabilidad solo se establece mediante prueba; después de ello, el reclamante puede tomar al esclavo o su señor puede rescatarlo.",
-          "fa": "این حدیث حکمی فقهی درباره ادعای یک جرم علیه برده را بیان می‌کند. بر اساس آن، اقرار برده از نظر شرعی بر ضدّ صاحبش نافذ نیست و مسئولیت تنها با بینه ثابت می‌شود؛ پس از آن، مدعی می‌تواند برده را بگیرد یا مولای او او را فدیه دهد.",
-          "fr": "Ce hadith expose une règle juridique concernant une accusation de crime portée contre un esclave. Il indique que l’aveu de l’esclave n’a pas d’effet juridique contre son maître, et que la responsabilité n’est établie que par une preuve ; ensuite, le plaignant peut prendre l’esclave ou son maître peut le racheter.",
-          "id": "Hadis ini memberikan hukum syar‘i mengenai tuduhan tindak pidana terhadap seorang budak. Disebutkan bahwa pengakuan budak tidak berlaku secara hukum terhadap tuannya, dan tanggung jawab hanya ثابت dengan bukti; setelah itu, pihak yang mengklaim dapat mengambil budak itu atau tuannya dapat menebusnya.",
-          "ru": "Этот хадис разъясняет правовое постановление относительно обвинения раба в преступлении. В нём говорится, что признание раба не имеет юридической силы против его господина, а ответственность устанавливается только доказательством; после этого истец может взять раба или его господин может выкупить его.",
-          "tr": "Bu hadis, bir köleye yöneltilen bir suç isnadıyla ilgili fıkhî hükmü بیان eder. Buna göre kölenin ikrarı hukuken efendisine karşı geçerli değildir; sorumluluk ancak delille sabit olur, ardından iddia sahibi köleyi alabilir veya efendi onu fidye ile kurtarabilir.",
-          "ur": "یہ حدیث ایک غلام کے خلاف مجرمانہ جرم کے دعوے سے متعلق شرعی حکم بیان کرتی ہے۔ اس میں کہا گیا ہے کہ غلام کا اقرار شرعاً مالک کے خلاف مؤثر نہیں، اور ذمہ داری صرف دلیل سے ثابت ہوتی ہے، جس کے بعد دعویٰ کرنے والا غلام کو لے سکتا ہے یا مالک اسے فدیہ دے سکتا ہے۔",
-          "zh": "这段圣训阐明了关于对奴隶提出刑事指控的教法律例。其内容是：奴隶的供认在法律上对其主人不生效，责任只能通过证据确立；之后，索赔者可以取得该奴隶，或者他的主人可以为他赎身。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

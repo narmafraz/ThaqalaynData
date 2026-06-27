@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَفِي رِوَايَةِ عَبْدِ ٱللَّهِ بْنِ سِنَانٍ عَنْ أَبِي عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং আবদুল্লাহ ইবনে সিনানের বর্ণনায়, আবী আবদিল্লাহ عليه السلام থেকে, তিনি বললেন:",
-              "de": "Und in der Überlieferung von ʿAbdullāh ibn Sinān, von Abī ʿAbdillāh عليه السلام, sagte er:",
-              "en": "And in the narration of ʿAbdullāh ibn Sinān, from Abī ʿAbdillāh عليه السلام, he said:",
-              "es": "Y en la narración de ʿAbdullāh ibn Sinān, de Abī ʿAbdillāh عليه السلام, dijo:",
-              "fa": "و در روایت عبد الله بن سنان، از ابی عبدالله علیه السلام، فرمود:",
-              "fr": "Et dans la narration de ʿAbdullāh ibn Sinān, de Abī ʿAbdillāh عليه السلام, il a dit :",
-              "id": "Dan dalam riwayat ʿAbdullāh ibn Sinān, dari Abī ʿAbdillāh علیه السلام, beliau berkata:",
-              "ru": "И в передаче ʿАбдуллаха ибн Синана от Аби ʿАбдиллаха عليه السلام сказано:",
-              "tr": "Ve ʿAbdullāh ibn Sinān’ın rivayetinde, Ebu ʿAbdillāh علیه السلام şöyle dedi:",
-              "ur": "اور عبد اللہ بن سنان کی روایت میں، ابو عبداللہ علیہ السلام سے، انہوں نے فرمایا:",
-              "zh": "在ʿAbdullāhibnSinān的传述中，来自AbīʿAbdillāhعليهالسلام，他说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "«ٱلْمُعْتَكِفُ بِمَكَّةَ يُصَلِّي فِي أَيِّ بُيُوتِهَا شَاءَ سَوَاءٌ عَلَيْهِ صَلَّى فِي ٱلْمَسْجِدِ أَوْ فِي بُيُوتِهَا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“মক্কায় ইতিকাফকারী যে কোনো বাড়িতে সালাত পড়তে পারে; তার জন্য একই কথা প্রযোজ্য, সে মসজিদে পড়ুক বা বাড়িতে।”",
-              "de": "„Wer iʿtikāf in Mekka verrichtet, darf in welchem seiner Häuser er will salat verrichten; es ist für ihn gleich, ob er im Moschee oder in seinen Häusern betet.“",
-              "en": "\"The one performing iʿtikāf in Makkah may perform salat (prayer) in whichever of its houses he wishes; it is the same for him whether he performs salat (prayer) in the mosque or in its houses.\"",
-              "es": "“Quien realiza iʿtikāf en La Meca puede rezar en cualquiera de sus casas que desee; para él es igual si reza en la mezquita o en sus casas.”",
-              "fa": "«کسی که در مکه اعتکاف می‌کند، می‌تواند در هر خانه‌ای که بخواهد نماز بخواند؛ برای او فرقی ندارد که در مسجد نماز بخواند یا در خانه‌های مکه.»",
-              "fr": "«Celui qui fait iʿtikāf à La Mecque peut prier dans n’importe quelle maison qu’il souhaite ; c’est la même chose pour lui qu’il prie dans la mosquée ou dans ses maisons.»",
-              "id": "“Orang yang melakukan iʿtikāf di Makkah boleh melaksanakan salat di rumah mana pun yang dia inginkan; baginya sama saja apakah dia salat di masjid atau di rumah-rumahnya.”",
-              "ru": "«Тот, кто совершает иʿтикāф в Мекке, может совершать салат в любом из её домов, который пожелает; для него одинаково, молится ли он в мечети или в домах.»",
-              "tr": "“Mekke’de iʿtikāf yapan kişi, istediği herhangi bir evde salat kılabilir; onun için mescitte veya evlerde kılması aynıdır.”",
-              "ur": "‘‘جو شخص مکہ میں اعتکاف کر رہا ہو، وہ مکہ کے کسی بھی گھر میں نماز پڑھ سکتا ہے؛ اس کے لیے ایک جیسا ہے چاہے وہ مسجد میں نماز پڑھے یا مکہ کے گھروں میں۔’’",
-              "zh": "“在麦加进行iʿtikāf的人可以在他想要的任何房屋中进行salat；无论他是在清真寺还是在房屋中祈祷，对他来说都是一样的。”"
-            },
             "word_end": 28,
             "word_start": 13
           }
@@ -81,26 +68,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بُيُوتِهَا": "its houses, meaning the houses of Makkah",
-            "بِمَكَّةَ": "in Makkah, the sacred city in which this ruling applies",
-            "سَوَاءٌ عَلَيْهِ": "it is the same for him, indicating no legal distinction in this matter",
-            "يُصَلِّي": "performs salat (prayer)",
-            "ٱلْمَسْجِدِ": "the mosque, contrasted here with the houses of Makkah",
-            "ٱلْمُعْتَكِفُ": "the person observing iʿtikāf, a spiritual retreat"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "ٱلْمُعْتَكِفُ",
+          "بِمَكَّةَ",
+          "يُصَلِّي",
+          "بُيُوتِهَا",
+          "ٱلْمَسْجِدِ",
+          "سَوَاءٌ عَلَيْهِ"
+        ],
         "related_quran": [
           {
             "ref": "2:125",
@@ -115,32 +90,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "মক্কায় ইতিকাফরত ব্যক্তি কি মসজিদের বাইরে মক্কার বাড়িগুলোতে সালাত পড়তে পারে?",
-          "de": "Kann eine Person, die iʿtikāf in Mekka macht, außerhalb der Moschee in deren Häusern beten?",
-          "en": "Can a person in iʿtikāf in Makkah pray outside the mosque in its houses?",
-          "es": "¿Puede una persona en iʿtikāf en La Meca rezar fuera de la mezquita en sus casas?",
-          "fa": "آیا شخصی که در مکه اعتکاف کرده می‌تواند در خانه‌های مکه خارج از مسجد نماز بخواند؟",
-          "fr": "Une personne en iʿtikāf à La Mecque peut-elle prier en dehors de la mosquée dans ses maisons ?",
-          "id": "Apakah seseorang yang melakukan iʿtikāf di Makkah boleh salat di luar masjid di rumah-rumahnya?",
-          "ru": "Может ли человек, находящийся в иʿтикāфе в Мекке, молиться вне мечети, в её домах?",
-          "tr": "Mekke’de iʿtikāf yapan bir kişi mescidin dışındaki evlerde salat kılabilir mi?",
-          "ur": "کیا مکہ میں اعتکاف کرنے والا شخص مسجد کے باہر مکہ کے گھروں میں نماز پڑھ سکتا ہے؟",
-          "zh": "在麦加进行iʿtikāf的人可以在清真寺外的房屋中祈祷吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস মক্কায় ইতিকাফ সম্পর্কে একটি শারঈ বিধান প্রদান করে যে ইতিকাফকারী জন্য মক্কার বাড়িতে সালাত পড়া মসজিদে পড়ার সমান।",
-          "de": "Dieser Hadith gibt eine Rechtsvorschrift bezüglich iʿtikāf in Mekka. Er besagt, dass es für den Muʿtakif gleich ist, ob er im Haus oder in der Moschee betet.",
-          "en": "This hadith gives a legal ruling concerning iʿtikāf in Makkah. It states that for the muʿtakif, performing salat (prayer) in the houses of Makkah carries the same ruling as performing it in the mosque.",
-          "es": "Este hadiz da un fallo legal sobre el iʿtikāf en La Meca. Indica que para el muʿtakif, rezar en las casas de La Meca tiene la misma regla que rezar en la mezquita.",
-          "fa": "این حدیث حکم شرعی درباره اعتکاف در مکه را بیان می‌کند که برای معتکف، نماز خواندن در خانه‌های مکه حکم نماز در مسجد را دارد.",
-          "fr": "Ce hadith donne un jugement légal concernant l’iʿtikāf à La Mecque. Il indique que pour le muʿtakif, prier dans les maisons de La Mecque a la même règle que prier dans la mosquée.",
-          "id": "Hadis ini memberikan hukum tentang iʿtikāf di Makkah. Menyatakan bahwa bagi muʿtakif, salat di rumah-rumah Makkah sama hukumnya dengan salat di masjid.",
-          "ru": "Этот хадис даёт правовое постановление относительно иʿтикāфа в Мекке. Он утверждает, что для муʿтакіфа молитва в домах Мекки равнозначна молитве в мечети.",
-          "tr": "Bu hadis, Mekke’de iʿtikāf hakkında hukuki bir hüküm verir; muʿtakif için Mekke evlerinde salat kılmak, mescidde kılmakla aynıdır.",
-          "ur": "یہ حدیث مکہ میں اعتکاف کے بارے میں شرعی حکم بیان کرتی ہے کہ اعتکاف کرنے والے کے لیے مکہ کے گھروں میں نماز پڑھنا مسجد میں پڑھنے کے برابر ہے۔",
-          "zh": "这段圣训给出了关于麦加iʿtikāf的法律裁定。它说明对于muʿtakif，在麦加的房屋中进行salat与在清真寺中进行具有相同的裁定。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

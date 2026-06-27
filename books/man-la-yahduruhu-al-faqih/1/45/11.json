@@ -18,61 +18,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى خَالِدُ بْنُ نَجِيحٍ عَنْهُ أَنَّهُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "খালিদ ইবনে নাজিহ তার থেকে বর্ণনা করেছেন যে তিনি বললেন:",
-              "de": "Chālid ibn Nadschīh berichtete von ihm, dass er sagte:",
-              "en": "Khalid ibn Najih narrated from him that he said:",
-              "es": "Jalid ibn Najih narró de él que dijo:",
-              "fa": "خالد بن نجیح از او روایت کرد که گفت:",
-              "fr": "Khalid ibn Najih a rapporté de lui qu'il a dit :",
-              "id": "Khalid ibn Najih meriwayatkan darinya bahwa dia berkata:",
-              "ru": "Халид ибн Наджих передал от него, что он сказал:",
-              "tr": "Halid ibn Najih ondan rivayet etti ki şöyle dedi:",
-              "ur": "خالد ابن نجیح نے ان سے روایت کی کہ انہوں نے فرمایا:",
-              "zh": "خالدبننجیح传述他说："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "«اَلْأَذَانُ وَ الْإِقَامَةُ مَجْزُومَانِ»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "\"আযান এবং ইকামাহ দৃঢ়ভাবে পাঠ করা উচিত।\"",
-              "de": "\"Der Adhan und die Iqamah sind bestimmt zu rezitieren.\"",
-              "en": "\"The adhan and the iqamah are to be recited firmly.\"",
-              "es": "\"El adhan y la iqamah deben recitarse firmemente.\"",
-              "fa": "«اذان و اقامه باید محکم خوانده شوند.»",
-              "fr": "\"L'adhan et l'iqamah doivent être récités fermement.\"",
-              "id": "\"Adhan dan iqamah harus dibacakan dengan tegas.\"",
-              "ru": "\"Азан и икама должны читаться уверенно.\"",
-              "tr": "“Ezan ve ikamet kesinlikle okunmalıdır.”",
-              "ur": "“اذان اور اقامت کو مضبوطی سے پڑھنا چاہیے۔”",
-              "zh": "“阿赞和伊卡玛应坚定地诵读。”"
-            },
             "word_end": 12,
             "word_start": 8
           },
           {
             "arabic_text": "وَ فِي خَبَرٍ آخَرَ «مَوْقُوفَانِ»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এবং অন্য এক বর্ণনায়: “[এগুলো] বিরতি দিয়ে উচ্চারিত হয়।”",
-              "de": "Und in einem anderen Bericht: „[Sie] werden mit Pausen gesprochen.“",
-              "en": "And in another report: \"[They are] paused.\"",
-              "es": "Y en otro informe: “[Ellos] se pronuncian con pausas.”",
-              "fa": "و در روایت دیگری: «[آنها] مکث‌دار هستند.»",
-              "fr": "Et dans un autre rapport : « [Ils sont] prononcés avec des pauses. »",
-              "id": "Dan dalam riwayat lain: “[Mereka] diucapkan dengan jeda.”",
-              "ru": "А в другом передаче: «[Они] произносятся с паузами.»",
-              "tr": "Ve başka bir rivayette: “[Onlar] duraklatılarak okunur.”",
-              "ur": "اور ایک اور روایت میں: “[یہ] رک کر پڑھے جاتے ہیں۔”",
-              "zh": "另据一传述：“[它们]带停顿地诵读。”"
-            },
             "word_end": 17,
             "word_start": 12
           }
@@ -95,25 +69,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْإِقَامَةُ": "the call establishing the commencement of salat (prayer)",
-            "اَلْأَذَانُ": "the call to salat (prayer)",
-            "خَبَرٍ": "a report or narration",
-            "مَجْزُومَانِ": "recited firmly and distinctly",
-            "مَوْقُوفَانِ": "delivered with pauses or stopping between phrases"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "اَلْأَذَانُ",
+          "الْإِقَامَةُ",
+          "مَجْزُومَانِ",
+          "مَوْقُوفَانِ",
+          "خَبَرٍ"
+        ],
         "related_quran": [
           {
             "ref": "5:58",
@@ -124,32 +86,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী আযান ও ইকামাহ কিভাবে পাঠ করা উচিত?",
-          "de": "Wie sollen Adhan und Iqamah gemäß diesem Hadith rezitiert werden?",
-          "en": "How should the adhan and iqamah be recited according to this hadith?",
-          "es": "¿Cómo deben recitarse el adhan y la iqamah según este hadiz?",
-          "fa": "بر اساس این حدیث، اذان و اقامه چگونه باید خوانده شوند؟",
-          "fr": "Comment l'adhan et l'iqamah doivent-ils être récités selon ce hadith ?",
-          "id": "Menurut hadis ini, bagaimana seharusnya adhan dan iqamah dibacakan?",
-          "ru": "Как должны читаться азан и икама согласно этому хадису?",
-          "tr": "Bu hadise göre ezan ve ikamet nasıl okunmalıdır?",
-          "ur": "اس حدیث کے مطابق اذان اور اقامت کو کس طرح پڑھنا چاہیے؟",
-          "zh": "根据此圣训，阿赞和伊卡玛应如何诵读？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি আযান ও ইকামাহ কিভাবে পাঠ করা উচিত সে সম্পর্কে বিধান প্রদান করে। এটি নির্দেশ করে যে উভয়ই পরিমিত ও দৃঢ়ভাবে পাঠ করা উচিত, এবং অন্য একটি বর্ণনায় বলা হয়েছে যে এগুলো বিরতি নিয়ে উচ্চারিত হয়।",
-          "de": "Dieser Hadith gibt eine Regel vor, wie der Adhan und die Iqamah zu rezitieren sind. Er zeigt an, dass beide in einem gemessenen, festen Ton vorgetragen werden sollen, und ein anderer Bericht beschreibt sie als mit Pausen gesprochen.",
-          "en": "This hadith gives a ruling on how the adhan and iqamah are to be delivered. It indicates that both are to be recited in a measured, firm manner, and another report describes them as being uttered with pauses.",
-          "es": "Este hadiz da una regla sobre cómo deben recitarse el adhan y la iqamah. Indica que ambos deben recitarse de manera medida y firme, y otro informe los describe como pronunciados con pausas.",
-          "fa": "این حدیث حکم می‌دهد که اذان و اقامه چگونه باید خوانده شوند. نشان می‌دهد که هر دو باید به صورت محکم و سنجیده خوانده شوند و در روایت دیگری به مکث در خواندن آنها اشاره شده است.",
-          "fr": "Ce hadith donne une règle sur la manière dont l'adhan et l'iqamah doivent être récités. Il indique que les deux doivent être récités de manière mesurée et ferme, et un autre rapport les décrit comme étant prononcés avec des pauses.",
-          "id": "Hadis ini memberikan ketentuan tentang bagaimana adhan dan iqamah harus dibacakan. Ini menunjukkan bahwa keduanya harus dibacakan dengan cara yang terukur dan tegas, dan riwayat lain menggambarkan bahwa keduanya diucapkan dengan jeda.",
-          "ru": "Этот хадис даёт постановление о том, как должны произноситься азан и икама. Он указывает, что оба должны читаться размеренно и уверенно, а в другом передаче говорится, что они произносятся с паузами.",
-          "tr": "Bu hadis, ezan ve ikametin nasıl okunması gerektiğine dair hüküm verir. Her ikisinin de ölçülü ve sağlam bir şekilde okunması gerektiğini belirtir ve başka bir rivayette ise duraklamalarla okunmaları anlatılır.",
-          "ur": "یہ حدیث اذان اور اقامت کو کس طرح پڑھنے کا حکم دیتی ہے۔ یہ ظاہر کرتی ہے کہ دونوں کو ایک متوازن اور مضبوط انداز میں پڑھنا چاہیے، اور ایک اور روایت میں انہیں وقفوں کے ساتھ پڑھنے کا ذکر ہے۔",
-          "zh": "此圣训规定了阿赞和伊卡玛的诵读方式。指出两者应以稳重坚定的方式诵读，另有传述描述其带停顿地诵读。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -17,99 +17,47 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى مُحَمَّدُ بْنُ أَبِي عُمَيْرٍ عَنْ عُمَرَ بْنِ أُذَيْنَةَ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবনে আবী উমায়ের ʿউমার ইবনে উধায়নাহ থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Muḥammad ibn Abī ʿUmayr berichtete von ʿUmar ibn Udhaynah, der sagte:",
-              "en": "Muḥammad ibn Abī ʿUmayr narrated from ʿUmar ibn Udhaynah, who said:",
-              "es": "Muḥammad ibn Abī ʿUmayr narró de ʿUmar ibn Udhaynah, quien dijo:",
-              "fa": "محمد بن ابی عمیر از عمر بن أذینه روایت کرد که گفت:",
-              "fr": "Muḥammad ibn Abī ʿUmayr a rapporté de ʿUmar ibn Udhaynah, qui a dit :",
-              "id": "Muḥammad ibn Abī ʿUmayr meriwayat dari ʿUmar ibn Udhaynah, yang berkata:",
-              "ru": "Мухаммад ибн Аби Умайр передал от ʿУмара ибн Удхайны, который сказал:",
-              "tr": "Muhammed ibn Ebi Umayr, Umar ibn Udhaynah'dan rivayet etti, dedi ki:",
-              "ur": "محمد ابن ابی عمیر نے عمر ابن اذینہ سے روایت کی، جنہوں نے کہا:",
-              "zh": "穆罕默德本阿布伊迈尔从乌马尔本乌代纳那里传述，他说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "كُنْتُ شَاهِدًا لِابْنِ أَبِي لَيْلَى وَ قَضَى فِي رَجُلٍ جَعَلَ لِبَعْضِ قَرَابَتِهِ غَلَّةَ دَارِهِ وَ لَمْ يُوَقِّتْ وَقْتًا فَمَاتَ الرَّجُلُ وَ حَضَرَتْ وَرَثَتُهُ ابْنَ أَبِي لَيْلَى وَ حَضَرَ قَرَابَتُهُ الَّذِي جُعِلَ لَهُ غَلَّةُ الدَّارِ فَقَالَ ابْنُ أَبِي لَيْلَى أَرَى أَنْ أَدَعَهَا عَلَى مَا تَرَكَهَا صَاحِبُهَا",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আমি ইবনে আবী লাইলার সঙ্গে উপস্থিত ছিলাম যখন তিনি এমন এক ব্যক্তির বিষয়ে বিচার দিলেন যিনি তার বাড়ির ফলন তার এক আত্মীয়কে সময়সীমা নির্ধারণ না করে দিয়েছিলেন। তারপর সেই ব্যক্তি মারা গেলেন, এবং তার উত্তরাধিকারীরা ইবনে আবী লাইলার সামনে উপস্থিত হলেন, এবং যার জন্য বাড়ির ফলন নির্ধারিত হয়েছিল সেই আত্মীয়ও উপস্থিত ছিলেন। ইবনে আবী লাইলা বললেন: “আমার মনে হয় আমি এটিকে যেমন তার মালিক রেখেছিল তেমনই রেখে দেব।”",
-              "de": "Ich war bei Ibn Abī Laylā anwesend, als er über einen Mann urteilte, der den Ertrag seines Hauses einem seiner Verwandten ohne zeitliche Begrenzung zugewiesen hatte. Dann starb der Mann, und seine Erben kamen zu Ibn Abī Laylā, ebenso der Verwandte, dem der Ertrag des Hauses zugewiesen worden war. Ibn Abī Laylā sagte: „Ich denke, ich sollte es so belassen, wie es sein Besitzer hinterlassen hat.“",
-              "en": "I was present with Ibn Abī Laylā when he gave judgment concerning a man who had assigned the yield of his house to one of his relatives without setting a time limit. Then the man died, and his heirs came before Ibn Abī Laylā, and the relative for whom the yield of the house had been assigned was also present. So Ibn Abī Laylā said: “I think that I should leave it as its owner left it.”",
-              "es": "Estaba presente con Ibn Abī Laylā cuando dictó sentencia sobre un hombre que había asignado el rendimiento de su casa a uno de sus parientes sin establecer un límite de tiempo. Luego el hombre murió, y sus herederos acudieron ante Ibn Abī Laylā, y también estaba presente el pariente para quien se había asignado el rendimiento de la casa. Entonces Ibn Abī Laylā dijo: “Creo que debo dejarlo como lo dejó su dueño.”",
-              "fa": "من در حضور ابن ابی لیلى بودم وقتی درباره مردی که محصول خانه‌اش را به یکی از خویشاوندانش بدون تعیین مدت واگذار کرده بود، حکم داد. سپس آن مرد فوت کرد و وراثش نزد ابن ابی لیلى آمدند و خویشاوندی که محصول خانه به او واگذار شده بود نیز حاضر بود. ابن ابی لیلى گفت: «فکر می‌کنم باید آن را همان‌طور که صاحبش گذاشته بود، باقی بگذارم.»",
-              "fr": "J'étais présent avec Ibn Abī Laylā lorsqu'il a rendu un jugement concernant un homme qui avait attribué le rendement de sa maison à un de ses proches sans fixer de limite de temps. Puis l'homme est décédé, et ses héritiers se sont présentés devant Ibn Abī Laylā, ainsi que le proche à qui le rendement de la maison avait été attribué. Ibn Abī Laylā a dit : « Je pense que je devrais le laisser tel que son propriétaire l'a laissé. »",
-              "id": "Saya hadir bersama Ibn Abī Laylā ketika dia memberikan putusan mengenai seorang pria yang telah menyerahkan hasil rumahnya kepada salah satu kerabatnya tanpa menetapkan batas waktu. Kemudian pria itu meninggal, dan ahli warisnya datang kepada Ibn Abī Laylā, dan kerabat yang menerima hasil rumah itu juga hadir. Maka Ibn Abī Laylā berkata: “Saya kira saya harus membiarkannya seperti yang ditinggalkan pemiliknya.”",
-              "ru": "Я был свидетелем у Ибн Аби Лайлы, когда он вынес решение по делу мужчины, который передал урожай своего дома одному из родственников без указания срока. Затем мужчина умер, и его наследники пришли к Ибн Аби Лайле, а также присутствовал родственник, которому был назначен урожай дома. Ибн Аби Лайла сказал: «Я считаю, что должен оставить это так, как оставил его владелец.»",
-              "tr": "İbn Abī Laylā ile birlikteydim, bir adam hakkında hüküm verdiğinde, o adam evinin ürününü bir akrabasına zaman sınırı koymadan vermişti. Sonra adam öldü ve mirasçıları İbn Abī Laylā'nın önüne geldi, ayrıca evin ürününün verildiği akraba da oradaydı. İbn Abī Laylā dedi ki: “Bence onu sahibi bıraktığı gibi bırakmalıyım.”",
-              "ur": "میں ابن ابی لیلى کے ساتھ موجود تھا جب انہوں نے ایک شخص کے بارے میں فیصلہ دیا جس نے اپنی گھر کی پیداوار اپنے ایک رشتہ دار کو دی تھی بغیر کسی وقت کی حد مقرر کیے۔ پھر وہ شخص فوت ہو گیا، اور اس کے وارثین ابن ابی لیلى کے سامنے آئے، اور وہ رشتہ دار بھی موجود تھا جس کے لیے گھر کی پیداوار دی گئی تھی۔ تو ابن ابی لیلى نے کہا: \"میرا خیال ہے کہ میں اسے ویسا ہی چھوڑ دوں جیسا اس کا مالک چھوڑ گیا تھا۔\"",
-              "zh": "我与伊本阿比莱拉同在，当时他对一名男子作出判决，该男子将其房屋的产出无期限地分配给一位亲属。随后该男子去世，他的继承人来到伊本阿比莱拉面前，分配产出的亲属也在场。伊本阿比莱拉说：“我认为我应当保持原主留下的状态。”"
-            },
             "word_end": 56,
             "word_start": 11
           },
           {
             "arabic_text": "فَقَالَ مُحَمَّدُ بْنُ مُسْلِمٍ الثَّقَفِيُّ أَمَا إِنَّ عَلِيَّ بْنَ أَبِي طَالِبٍ عَلَيْهِ السَّلَامُ قَدْ قَضَى فِي هَذَا الْمَسْجِدِ بِخِلَافِ مَا قَضَيْتَ فَقَالَ وَ مَا عِلْمُكَ قَالَ سَمِعْتُ أَبَا جَعْفَرٍ مُحَمَّدَ بْنَ عَلِيٍّ عَلَيْهِ السَّلَامُ يَقُولُ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তারপর মুহাম্মদ ইবনে মুসলিম আল-থাকাফী বললেন: “নিশ্চয়ই আলী ইবনে আবী তালিব عليه السلام এই মসজিদে আপনার দেওয়া সিদ্ধান্তের বিপরীতে সিদ্ধান্ত দিয়েছিলেন।” তিনি বললেন: “এটা আপনি কীভাবে জানলেন?” তিনি বললেন: “আমি আবু জাফর মুহাম্মদ ইবনে আলী عليه السلام কে বলতে শুনেছি:”",
-              "de": "Dann sagte Muḥammad ibn Muslim al-Ṭaqafī: „Wahrlich, ʿAlī ibn Abī Ṭālib عليه السلام hat in dieser Moschee entgegen deinem Urteil entschieden.“ Er sagte: „Und woher weißt du das?“ Er sagte: „Ich hörte Abū Jaʿfar Muḥammad ibn ʿAlī عليه السلام sagen:“",
-              "en": "Then Muḥammad ibn Muslim al-Thaqafī said: “Indeed, ʿAlī ibn Abī Ṭālib عليه السلام had judged in this mosque contrary to what you have judged.” He said: “And what knowledge do you have of that?” He said: “I heard Abū Jaʿfar Muḥammad ibn ʿAlī عليه السلام saying:”",
-              "es": "Luego Muḥammad ibn Muslim al-Thaqafī dijo: “En verdad, ʿAlī ibn Abī Ṭālib عليه السلام había juzgado en esta mezquita en contra de lo que tú has juzgado.” Él dijo: “¿Y cómo sabes eso?” Él dijo: “Escuché a Abū Jaʿfar Muḥammad ibn ʿAlī عليه السلام decir:”",
-              "fa": "سپس محمد بن مسلم ثقفی گفت: «به راستی علی بن ابی طالب علیه السلام در این مسجد خلاف آنچه تو حکم داده‌ای حکم کرده است.» او گفت: «و چگونه از این خبر داری؟» او گفت: «شنیدم که ابو جعفر محمد بن علی علیه السلام می‌گوید»",
-              "fr": "Puis Muḥammad ibn Muslim al-Thaqafī a dit : « En effet, ʿAlī ibn Abī Ṭālib عليه السلام a jugé dans cette mosquée contrairement à ce que tu as jugé. » Il a dit : « Et comment le sais-tu ? » Il a dit : « J'ai entendu Abū Jaʿfar Muḥammad ibn ʿAlī عليه السلام dire : »",
-              "id": "Kemudian Muḥammad ibn Muslim al-Thaqafī berkata: “Sesungguhnya ʿAlī ibn Abī Ṭālib علیه السلام telah memutuskan di masjid ini bertentangan dengan apa yang kamu putuskan.” Dia berkata: “Dan bagaimana kamu mengetahuinya?” Dia berkata: “Aku mendengar Abū Jaʿfar Muḥammad ibn ʿAlī علیه السلام berkata:”",
-              "ru": "Затем Мухаммад ибн Муслим аль-Такафи сказал: «Воистину, ʿАли ибн Аби Талиб عليه السلام вынес решение в этой мечети, противоположное твоему решению.» Он сказал: «Откуда у тебя это знание?» Он сказал: «Я слышал, как Абу Джафар Мухаммад ибн ʿАли عليه السلام говорил:”",
-              "tr": "Sonra Muhammed ibn Muslim el-Ṭaqafī dedi ki: “Gerçekten de ʿAlī ibn Abī Ṭālib علیه السلام bu camide senin hükmüne aykırı bir hüküm vermişti.” O dedi ki: “Bunun bilgisini nereden alıyorsun?” O dedi ki: “Ebū Caʿfer Muḥammad ibn ʿAlī علیه السلام’ın şöyle dediğini duydum:”",
-              "ur": "پھر محمد ابن مسلم الثقفی نے کہا: \"بے شک علی ابن ابی طالب علیہ السلام نے اس مسجد میں آپ کے فیصلے کے خلاف فیصلہ دیا تھا۔\" انہوں نے کہا: \"اور آپ کو اس کا کیا علم ہے؟\" انہوں نے کہا: \"میں نے ابو جعفر محمد ابن علی علیہ السلام کو کہتے سنا:\"",
-              "zh": "然后穆罕默德本穆斯林阿尔萨卡菲说：“确实，ʿ阿里本阿比塔利卜 عليه السلام在这座清真寺作出了与你判决相反的裁决。”他说：“你怎么知道的？”他说：“我听到阿布贾法尔穆罕默德本ʿ阿里 عليه السلام说：”"
-            },
             "word_end": 91,
             "word_start": 56
           },
           {
             "arabic_text": "قَضَى عَلِيٌّ عَلَيْهِ السَّلَامُ بِرَدِّ الْحَبِيسِ وَ إِنْفَاذِ الْمَوَارِيثِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "ʿআলী عليه السلام হাবীস ফিরিয়ে দেওয়া এবং উত্তরাধিকার কার্যকর করার মাধ্যমে حكم দিলেন।",
-              "de": "ʿAlī عليه السلام entschied, den ḥabīs zurückzugeben und die Erbschaften durchzuführen.",
-              "en": "“ʿAlī عليه السلام ruled by returning the ḥabīs and carrying out the inheritances.”",
-              "es": "ʿAlī عليه السلام dictaminó devolver el ḥabīs y ejecutar las herencias.",
-              "fa": "ʿعلی علیه السلام حکم داد که حبس بازگردانده شود و ارث‌ها اجرا گردد.",
-              "fr": "ʿAlī عليه السلام a statué en restituant le ḥabīs et en appliquant les héritages.",
-              "id": "ʿAlī علیه السلام memutuskan dengan mengembalikan ḥabīs dan melaksanakan warisan.",
-              "ru": "ʿАли عليه السلام постановил вернуть ḥabīs и исполнить наследства.",
-              "tr": "ʿAlī علیه السلام, ḥabīs'in iadesi ve mirasların uygulanmasıyla hükmetti.",
-              "ur": "علی علیہ السلام نے حکم دیا کہ حبس کو واپس کیا جائے اور وراثت کو نافذ کیا جائے۔",
-              "zh": "ʿ阿里 عليه السلام裁定归还ḥabīs并执行继承。"
-            },
             "word_end": 100,
             "word_start": 91
           },
           {
             "arabic_text": "فَقَالَ ابْنُ أَبِي لَيْلَى هَذَا عِنْدَكَ فِي كِتَابٍ قَالَ نَعَمْ قَالَ فَأَرْسِلْ فَأْتِنِي بِهِ فَقَالَ لَهُ مُحَمَّدُ بْنُ مُسْلِمٍ عَلَى أَنْ لَا تَنْظُرَ مِنَ الْكِتَابِ إِلَّا فِي ذَلِكَ الْحَدِيثِ قَالَ لَكَ ذَلِكَ قَالَ فَأَحْضَرَ الْكِتَابَ وَ أَرَاهُ الْحَدِيثَ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ فِي الْكِتَابِ فَرَدَّ قَضِيَّتَهُ",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তখন ইবনে আবী লৈলা বললেন: “তোমার কাছে কি এটা কোনো বইতে আছে?” তিনি বললেন: “হ্যাঁ।” তিনি বললেন: “তাহলে পাঠাও এবং আমাকে নিয়ে এসো।” মুহাম্মদ ইবনে মুসলিম তাকে বললেন: “শর্ত হলো তুমি বইতে শুধু ঐ হাদিসটাই দেখবে।” তিনি বললেন: “তোমার কাছে সেটা আছে।” তিনি বললেন: “তাহলে সে বইটি নিয়ে এল এবং তাকে বইতে আবু জাফর عليه السلام-এর হাদিস দেখাল, এবং সে তার ফতোয়া প্রত্যাহার করল।”",
-              "de": "Da sagte Ibn Abī Laylā: „Hast du das in einem Buch?“ Er sagte: „Ja.“ Er sagte: „Dann schick es her und bring es mir.“ Muḥammad ibn Muslim sagte zu ihm: „Unter der Bedingung, dass du im Buch nur diesen Hadith ansiehst.“ Er sagte: „Du hast das.“ Er sagte: „Also brachte er das Buch und zeigte ihm den Hadith von Abū Jaʿfar عليه السلام im Buch, und er zog sein Urteil zurück.“",
-              "en": "So Ibn Abī Laylā said: “Do you have this in a book?” He said: “Yes.” He said: “Then send for it and bring it to me.” Muḥammad ibn Muslim said to him: “On the condition that you do not look in the book except at that hadith.” He said: “You have that.” He said: “So he brought the book and showed him the hadith from Abū Jaʿfar عليه السلام in the book, and he retracted his judgment.”",
-              "es": "Entonces Ibn Abī Laylā dijo: “¿Tienes esto en un libro?” Él dijo: “Sí.” Él dijo: “Entonces envíalo y tráemelo.” Muḥammad ibn Muslim le dijo: “Con la condición de que no mires en el libro excepto ese hadiz.” Él dijo: “Lo tienes.” Él dijo: “Entonces trajo el libro y le mostró el hadiz de Abū Jaʿfar عليه السلام en el libro, y retractó su juicio.”",
-              "fa": "ابن ابی لیلا گفت: «آیا این را در کتابی داری؟» گفت: «بله.» گفت: «پس آن را بفرست و برایم بیاور.» محمد بن مسلم به او گفت: «به شرط اینکه جز آن حدیث در کتاب نگاه نکنی.» گفت: «آن را داری.» گفت: «پس کتاب را آورد و حدیث از ابوجعفر علیه السلام را در کتاب به او نشان داد و حکم خود را پس گرفت.»",
-              "fr": "Alors Ibn Abī Laylā dit : « As-tu cela dans un livre ? » Il répondit : « Oui. » Il dit : « Alors envoie-le et apporte-le-moi. » Muḥammad ibn Muslim lui dit : « À condition que tu ne regardes dans le livre que ce hadith. » Il dit : « Tu l’as. » Il dit : « Alors il apporta le livre et lui montra le hadith d’Abū Jaʿfar عليه السلام dans le livre, et il rétracta son jugement. »",
-              "id": "Lalu Ibn Abī Laylā berkata: “Apakah kamu memiliki ini dalam sebuah buku?” Dia berkata: “Ya.” Dia berkata: “Kalau begitu, kirimkan dan bawakan kepadaku.” Muḥammad ibn Muslim berkata kepadanya: “Dengan syarat kamu hanya melihat hadits itu saja dalam buku.” Dia berkata: “Kamu memilikinya.” Dia berkata: “Lalu dia membawa buku itu dan menunjukkan hadits dari Abū Jaʿfar عليه السلام dalam buku itu, dan dia menarik kembali keputusannya.”",
-              "ru": "Тогда Ибн Абī Лайля сказал: «У тебя это есть в книге?» Он ответил: «Да.» Он сказал: «Тогда пришли её и принеси мне.» Мухаммад ибн Муслим сказал ему: «При условии, что ты будешь смотреть в книге только на этот хадис.» Он сказал: «У тебя это есть.» Он сказал: «Он принес книгу и показал ему хадис от Абу Джафара عليه السلام в книге, и он отозвал своё решение.»",
-              "tr": "İbn Ebî Leylâ dedi ki: “Bunun bir kitapta var mı?” O dedi ki: “Evet.” İbn Ebî Leylâ dedi ki: “O halde onu getir ve bana göster.” Muhammed ibn Müslim ona dedi ki: “Şartıyla ki kitaba sadece o hadise bakacaksın.” O dedi ki: “O sende var.” Muhammed ibn Müslim dedi ki: “Böylece kitabı getirdi ve ona kitapta Ebû Ca‘fer عليه السلام’den hadisi gösterdi ve hükmünü geri aldı.”",
-              "ur": "تو ابن ابی لیلٰی نے کہا: \"کیا یہ تمہارے پاس کسی کتاب میں ہے؟\" اس نے کہا: \"ہاں۔\" اس نے کہا: \"پھر اسے منگواؤ اور مجھے لے آؤ۔\" محمد بن مسلم نے اس سے کہا: \"شرط یہ ہے کہ تم کتاب میں صرف اسی حدیث کو دیکھو۔\" اس نے کہا: \"یہ تمہارے پاس ہے۔\" اس نے کہا: \"پھر وہ کتاب لے آیا اور اسے کتاب میں ابو جعفر علیہ السلام کی حدیث دکھائی، اور اس نے اپنا فیصلہ واپس لے لیا۔",
-              "zh": "于是伊本阿比莱拉说：“你有这本书吗？”他说：“有。”他说：“那就派人把它带来给我。”穆罕默德伊本穆斯林对他说：“条件是你只能看书中那段圣训。”他说：“你有那段。”他说：“于是他带来了书，向他展示了书中阿布贾法尔 عليه السلام的圣训，他便收回了他的判决。”"
-            },
             "word_end": 147,
             "word_start": 100
           }
@@ -148,27 +96,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْحَبِيسِ": "property restrained or assigned in a limited endowment-like arrangement",
-            "الْكِتَابِ": "the written record in which the hadith was preserved",
-            "الْمَوَارِيثِ": "the inheritances to be distributed among legal heirs",
-            "غَلَّةَ": "the yield or income produced from the property",
-            "قَرَابَتِهِ": "his relative or kin to whom the benefit was assigned",
-            "قَضَى": "he gave judgment or ruled judicially",
-            "وَرَثَتُهُ": "his heirs entitled to inheritance after his death"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "غَلَّةَ",
+          "قَرَابَتِهِ",
+          "وَرَثَتُهُ",
+          "الْحَبِيسِ",
+          "الْمَوَارِيثِ",
+          "قَضَى",
+          "الْكِتَابِ"
+        ],
         "related_quran": [
           {
             "ref": "4:7",
@@ -187,32 +123,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "আলী ইবনে আবী তালিব عليه السلام সময়সীমা ছাড়াই আত্মীয়কে দেওয়া বাড়ির ফলনের বিষয়ে কী সিদ্ধান্ত দিয়েছিলেন?",
-          "de": "Wie lautete das Urteil von ʿAlī ibn Abī Ṭālib عليه السلام über den Ertrag eines Hauses, der einem Verwandten ohne Zeitlimit gewährt wurde?",
-          "en": "What was the ruling of ʿAlī ibn Abī Ṭālib عليه السلام on a house yield granted to a relative without a time limit?",
-          "es": "¿Cuál fue el fallo de ʿAlī ibn Abī Ṭālib عليه السلام sobre el rendimiento de una casa otorgado a un pariente sin límite de tiempo?",
-          "fa": "ʿعلی بن ابی طالب علیه السلام درباره محصول خانه‌ای که بدون تعیین مدت به خویشاوندی داده شده بود، چه حکمی داد؟",
-          "fr": "Quelle a été la décision de ʿAlī ibn Abī Ṭālib عليه السلام concernant le rendement d'une maison accordé à un proche sans limite de temps ?",
-          "id": "Apa putusan ʿAlī ibn Abī Ṭālib علیه السلام tentang hasil rumah yang diberikan kepada kerabat tanpa batas waktu?",
-          "ru": "Каково было постановление ʿАли ибн Аби Талиб عليه السلام по поводу урожая дома, переданного родственнику без ограничения по времени?",
-          "tr": "ʿAlī ibn Abī Ṭālib علیه السلام, süresiz olarak bir akrabaya verilen evin ürünü hakkında ne hükmetti?",
-          "ur": "علی ابن ابی طالب علیہ السلام نے بغیر وقت کی حد کے رشتہ دار کو دی گئی گھر کی پیداوار کے بارے میں کیا حکم دیا؟",
-          "zh": "ʿ阿里本阿比塔利卜 عليه السلام对无期限授予亲属的房屋产出作出了什么裁决？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি একটি বিচারিক বিবাদ রেকর্ড করে যা একটি বাড়ির ফলন সম্পর্কে, যা নির্দিষ্ট সময়সীমা ছাড়াই এক আত্মীয়কে দেওয়া হয়েছিল, এবং এটি আলী ইবনে আবী তালিব عليه السلام এর সেই রায় সংরক্ষণ করে যে এমন একটি হাবীস ফিরিয়ে দিতে হবে এবং উত্তরাধিকার নিয়ম প্রয়োগ করতে হবে। এটি ইমামদের عليهم السلام এর আইনি জ্ঞানে কর্তৃত্ব এবং বিচারিক সিদ্ধান্ত সংশোধনের জন্য রেকর্ডকৃত হাদিস ব্যবহারের গুরুত্বকেও তুলে ধরে।",
-          "de": "Dieser Hadith dokumentiert einen gerichtlichen Streit über den Ertrag eines Hauses, der einem Verwandten ohne zeitliche Begrenzung gewährt wurde, und bewahrt das Urteil von ʿAlī ibn Abī Ṭālib عليه السلام, dass ein solcher ḥabīs zurückgegeben und die Erbregeln durchgesetzt werden müssen. Er hebt auch die Autorität der Imame عليهم السلام im Rechtswissen und die Verwendung aufgezeichneter Hadithe zur Korrektur gerichtlicher Entscheidungen hervor.",
-          "en": "This hadith records a judicial dispute over the yield of a house granted to a relative without a specified term, and it preserves the ruling of ʿAlī ibn Abī Ṭālib عليه السلام that such a ḥabīs is to be returned and the rules of inheritance enforced. It also highlights the authority of the Imams عليهم السلام in legal knowledge and the use of recorded hadith to correct judicial decisions.",
-          "es": "Este hadiz registra una disputa judicial sobre el rendimiento de una casa otorgado a un pariente sin un plazo establecido, y preserva el fallo de ʿAlī ibn Abī Ṭālib عليه السلام de que tal ḥabīs debe ser devuelto y se deben aplicar las reglas de herencia. También destaca la autoridad de los Imames عليهم السلام en el conocimiento legal y el uso de hadices registrados para corregir decisiones judiciales.",
-          "fa": "این حدیث یک اختلاف قضایی درباره محصول خانه‌ای که بدون تعیین مدت به یکی از خویشاوندان واگذار شده بود را ثبت می‌کند و حکم ʿعلی بن ابی طالب علیه السلام را که چنین حبس باید بازگردانده شود و قوانین ارث اجرا گردد، حفظ می‌کند. همچنین بر اقتدار امامان علیهم السلام در دانش حقوقی و استفاده از حدیث‌های ثبت شده برای اصلاح احکام قضایی تأکید دارد.",
-          "fr": "Ce hadith rapporte un différend judiciaire concernant le rendement d'une maison accordé à un proche sans limite de temps, et il conserve le jugement de ʿAlī ibn Abī Ṭālib عليه السلام selon lequel un tel ḥabīs doit être restitué et les règles d'héritage appliquées. Il souligne également l'autorité des Imams عليهم السلام dans la connaissance juridique et l'utilisation des hadiths enregistrés pour corriger les décisions judiciaires.",
-          "id": "Hadis ini mencatat perselisihan hukum mengenai hasil rumah yang diberikan kepada kerabat tanpa batas waktu, dan mempertahankan putusan ʿAlī ibn Abī Ṭālib علیه السلام bahwa ḥabīs tersebut harus dikembalikan dan aturan warisan dilaksanakan. Ini juga menyoroti otoritas para Imam عليهم السلام dalam ilmu hukum dan penggunaan hadits yang direkam untuk memperbaiki keputusan hukum.",
-          "ru": "Этот хадис фиксирует судебный спор по поводу урожая дома, переданного родственнику без установленного срока, и сохраняет постановление ʿАли ибн Аби Талиб عليه السلام о том, что такой ḥabīs должен быть возвращён, а правила наследования соблюдены. Также подчеркивается авторитет Имамов عليهم السلام в юридических знаниях и использование записанных хадисов для исправления судебных решений.",
-          "tr": "Bu hadis, bir akrabaya süresiz olarak verilen bir evin ürününe dair yargısal bir ihtilafı kaydeder ve ʿAlī ibn Abī Ṭālib علیه السلام'ın böyle bir ḥabīs'in iade edilmesi ve miras kurallarının uygulanması gerektiği hükmünü muhafaza eder. Ayrıca, İmamların عليهم السلام hukuki bilgideki otoritesini ve yargı kararlarını düzeltmek için kaydedilmiş hadislerin kullanımını vurgular.",
-          "ur": "یہ حدیث ایک عدالتی تنازعہ کو بیان کرتی ہے جو ایک گھر کی پیداوار کے بارے میں ہے جو بغیر وقت کی حد کے ایک رشتہ دار کو دی گئی تھی، اور یہ علی ابن ابی طالب علیہ السلام کے حکم کو محفوظ رکھتی ہے کہ ایسی حبس کو واپس کیا جائے اور وراثت کے اصول نافذ کیے جائیں۔ یہ اماموں علیہ السلام کی قانونی علم میں اتھارٹی اور عدالتی فیصلوں کی اصلاح کے لیے روایت شدہ حدیث کے استعمال کو بھی اجاگر کرتی ہے۔",
-          "zh": "此圣训记录了一起关于无期限授予亲属房屋产出的司法争议，并保留了ʿ阿里本阿比塔利卜 عليه السلام的裁决，即此类ḥabīs应予归还并执行继承规则。它还强调了伊玛目们 عليهم السلام在法律知识中的权威，以及利用记录的圣训纠正司法判决的重要性。"
-        },
         "tags": [
           "jurisprudence",
           "family",

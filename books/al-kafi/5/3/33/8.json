@@ -14,6 +14,140 @@
       "up": "/books/al-kafi:5:3:33"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ مَحْبُوبٍ عَنْ عَلِيِّ بْنِ رِئَابٍ عَنْ زُرَارَةَ بْنِ أَعْيَنَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 17,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُ أَبَا جَعْفَرٍ ( عَلَيْهِ السَّلَامُ ) عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ وَ الْمُحْصَناتُ مِنَ الَّذِينَ أُوتُوا الْكِتابَ مِنْ قَبْلِكُمْ",
+            "chunk_type": "body",
+            "word_end": 38,
+            "word_start": 17
+          },
+          {
+            "arabic_text": "فَقَالَ هَذِهِ مَنْسُوخَةٌ بِقَوْلِهِ وَ لَا تُمْسِكُوا بِعِصَمِ الْكَوافِرِ",
+            "chunk_type": "body",
+            "word_end": 47,
+            "word_start": 38
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 10,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ مَحْبُوبٍ",
+              "name_en": "Ibn Mahbub",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 93,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ رِئَابٍ",
+              "name_en": "Ali ibn Ri'ab",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 246,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "زُرَارَةَ بْنِ أَعْيَنَ",
+              "name_en": "Zurara ibn A'yan",
+              "position": 5,
+              "role": "companion"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الْمُحْصَناتُ",
+          "أُولُوا الْكِتابَ",
+          "مَنْسُوخَةٌ",
+          "عِصَمِ الْكَوافِرِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "5:5",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "60:10",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "2:106",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "quran_commentary",
+          "family"
+        ],
+        "topics": [
+          "marriage_family_law",
+          "quran_interpretation_method",
+          "halal_haram"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> حسن   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (20/68)"
       ],
@@ -91,7 +225,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:3:33:8",

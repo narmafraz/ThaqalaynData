@@ -14,6 +14,137 @@
       "up": "/books/al-kafi:2:1:68"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَنْهُ عَنِ الْوَشَّاءِ عَنْ مُحَمَّدِ بْنِ فُضَيْلٍ الصَّيْرَفِيِّ عَنِ الرِّضَا ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 15,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "إِنَّ رَحِمَ آلِ مُحَمَّدٍ الْأَئِمَّةِ ( عَلَيْهِمُ السَّلَامُ ) لَمُعَلَّقَةٌ بِالْعَرْشِ تَقُولُ اللَّهُمَّ صِلْ مَنْ وَصَلَنِي وَ اقْطَعْ مَنْ قَطَعَنِي",
+            "chunk_type": "body",
+            "word_end": 35,
+            "word_start": 15
+          },
+          {
+            "arabic_text": "ثُمَّ هِيَ جَارِيَةٌ بَعْدَهَا فِي أَرْحَامِ الْمُؤْمِنِينَ",
+            "chunk_type": "body",
+            "word_end": 42,
+            "word_start": 35
+          },
+          {
+            "arabic_text": "وَ اتَّقُوا اللَّهَ الَّذِي تَسَاءَلُونَ بِهِ وَ الْأَرْحَامَ",
+            "chunk_type": "quran_quote",
+            "word_end": 50,
+            "word_start": 42
+          }
+        ],
+        "content_type": "theological",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 11,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَنْهُ",
+              "name_en": "from him",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 61,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْوَشَّاءِ",
+              "name_en": "al-Washa'",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4307,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ فُضَيْلٍ الصَّيْرَفِيِّ",
+              "name_en": "Muhammad b. Fudayl al-Sayrafi",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 184,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الرِّضَا ( عليه السلام )",
+              "name_en": "al-Rida",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِمُ السَّلَامُ",
+            "phrase_en": "Peace be upon them"
+          }
+        ],
+        "key_terms_keys": [
+          "رَحِمَ",
+          "آلِ مُحَمَّدٍ",
+          "الْعَرْشِ",
+          "أَرْحَامِ الْمُؤْمِنِينَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "4:1",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "47:22",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "theology",
+          "family",
+          "quran_commentary"
+        ],
+        "topics": [
+          "kinship",
+          "imamate",
+          "quran_interpretation_method"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (8/384)"
       ],
@@ -83,7 +214,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:1:68:26",

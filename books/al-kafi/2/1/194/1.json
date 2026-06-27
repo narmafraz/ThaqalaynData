@@ -13,6 +13,157 @@
       "up": "/books/al-kafi:2:1:194"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ أَبِي أَيُّوبَ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 25,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قُلْتُ لَهُ",
+            "chunk_type": "opening",
+            "word_end": 27,
+            "word_start": 25
+          },
+          {
+            "arabic_text": "أَرَأَيْتَ قَوْلَ اللَّهِ عَزَّ وَ جَلَّ الَّذِينَ يَجْتَنِبُونَ كَبائِرَ الْإِثْمِ وَ الْفَواحِشَ إِلَّا اللَّمَمَ",
+            "chunk_type": "quran_quote",
+            "word_end": 41,
+            "word_start": 27
+          },
+          {
+            "arabic_text": "قَالَ هُوَ الذَّنْبُ يُلِمُّ بِهِ الرَّجُلُ فَيَمْكُثُ مَا شَاءَ اللَّهُ ثُمَّ يُلِمُّ بِهِ بَعْدُ",
+            "chunk_type": "body",
+            "word_end": 55,
+            "word_start": 41
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 7,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ أَبِي عُمَيْرٍ",
+              "name_en": "Ibn Abi Umayr",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 86,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي أَيُّوبَ",
+              "name_en": "Abu Ayyub",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 16,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ مُسْلِمٍ",
+              "name_en": "Muhammad ibn Muslim",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "مَا شَاءَ اللَّهُ",
+            "phrase_en": "As Allah has willed"
+          }
+        ],
+        "key_terms_keys": [
+          "كَبائِرَ الْإِثْمِ",
+          "الْفَواحِشَ",
+          "اللَّمَم",
+          "يُلِمُّ بِهِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "53:32",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "42:32",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "quran_commentary",
+          "theology",
+          "ethics"
+        ],
+        "topics": [
+          "quran_interpretation_method",
+          "halal_haram",
+          "repentance"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> حسن كالصحيح    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (11/316)"
       ],
@@ -106,7 +257,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:1:194:1",

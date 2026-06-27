@@ -14,6 +14,149 @@
       "up": "/books/al-kafi:6:7:15"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "الْحُسَيْنُ بْنُ مُحَمَّدٍ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ عَنْ عَلِيٍّ الصُّوفِيِّ عَنْ خَضِرٍ الصَّيْرَفِيِّ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 26,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "مَنْ شَرِبَ النَّبِيذَ عَلَى أَنَّهُ حَلَالٌ خُلِّدَ فِي النَّارِ وَ مَنْ شَرِبَهُ عَلَى أَنَّهُ حَرَامٌ عُذِّبَ فِي النَّارِ",
+            "chunk_type": "body",
+            "word_end": 44,
+            "word_start": 26
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 20,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنُ بْنُ مُحَمَّدٍ",
+              "name_en": "Al-Husayn ibn Muhammad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 208,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "جَعْفَرِ بْنِ مُحَمَّدٍ",
+              "name_en": "Ja'far ibn Muhammad",
+              "position": 2,
+              "role": "imam"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 29,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ الْحُسَيْنِ",
+              "name_en": "Muhammad ibn al-Husayn",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3707,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيٍّ الصُّوفِيِّ",
+              "name_en": "Ali al-Sufi",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1454,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "خَضِرٍ الصَّيْرَفِيِّ",
+              "name_en": "Khadir al-Sayrafi",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "النَّبِيذ",
+          "حَلَالٌ",
+          "حَرَامٌ",
+          "خُلِّدَ",
+          "النَّار"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:9",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:72",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:73",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:286",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "afterlife",
+          "ethics"
+        ],
+        "topics": [
+          "halal_haram",
+          "paradise_hell",
+          "prayer_rulings"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (2/254)"
       ],
@@ -94,7 +237,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:7:15:11",

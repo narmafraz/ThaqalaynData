@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ بْنُ أَبِي عَبْدِ اللَّهِ عَنْ عُثْمَانَ بْنِ عِيسَى عَنْ سَمَاعَةَ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন আবী আবদিল্লাহ, উসমান ইবন ঈসা থেকে, তিনি সামাআহ থেকে, তিনি আবী আবদিল্লাহ عليه السلام থেকে বর্ণনা করেন, যিনি বলেছেন:",
-              "de": "Aḥmad ibn Abī ʿAbdillāh, von ʿUthmān ibn ʿĪsā, von Samāʿah, von Abī ʿAbdillāh عليه السلام, der sagte:",
-              "en": "Aḥmad ibn Abī ʿAbdillāh, from ʿUthmān ibn ʿĪsā, from Samāʿah, from Abī ʿAbdillāh عليه السلام, who said:",
-              "es": "Aḥmad ibn Abī ʿAbdillāh, de ʿUthmān ibn ʿĪsā, de Samāʿah, de Abī ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "احمد بن ابی‌عبدالله، از عثمان بن عیسی، از سماعه، از ابی‌عبدالله علیه‌السلام، که فرمود:",
-              "fr": "Aḥmad ibn Abī ʿAbdillāh, d’après ʿUthmān ibn ʿĪsā, d’après Samāʿah, d’après Abī ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Aḥmad ibn Abī ʿAbdillāh, dari ʿUthmān ibn ʿĪsā, dari Samāʿah, dari Abī ʿAbdillāh عليه السلام, yang berkata:",
-              "ru": "Ахмад ибн Аби ʿАбдуллах, от ʿУсмана ибн ʿИсы, от Самāʿах, от Аби ʿАбдуллаха عليه السلام, который сказал:",
-              "tr": "Ahmed ibn Ebî Abdullah, Osman ibn Îsâ’dan, o da Semâa’dan, o da Ebû Abdullah عليه السلام’dan rivayet etti ki şöyle dedi:",
-              "ur": "احمد بن ابی عبداللہ، عثمان بن عیسیٰ سے، وہ سماعہ سے، وہ ابو عبداللہ علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "AḥmadibnAbīʿAbdillāh，传自ʿUthmānbinʿĪsā，传自Samāʿah，传自AbīʿAbdillāh عليه السلام，他说："
-            },
             "word_end": 18,
             "word_start": 0
           },
           {
             "arabic_text": "«يُقْتَلُ الْعَبْدُ بِالْحُرِّ وَلَا يُقْتَلُ الْحُرُّ بِالْعَبْدِ وَلَكِنْ يُغَرَّمُ ثَمَنَهُ وَيُضْرَبُ ضَرْبًا شَدِيدًا حَتَّى لَا يَعُودَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“দাসকে স্বাধীন ব্যক্তির বদলে হত্যা করা হয়, কিন্তু স্বাধীন ব্যক্তিকে দাসের বদলে হত্যা করা হয় না; বরং তার মূল্য আদায় করা হয় এবং তাকে কঠোরভাবে প্রহার করা হয় যাতে সে আবার তা না করে।”",
-              "de": "„Der Sklave wird als Vergeltung für den freien Mann getötet, aber der freie Mann wird nicht für den Sklaven getötet; vielmehr muss er seinen Preis zahlen und wird schwer geschlagen, damit er nicht wieder dazu zurückkehrt.“",
-              "en": "“The slave is killed in retaliation for the free person, but the free person is not killed for the slave; rather, he is made to pay his price and is beaten severely so that he does not return to it.”",
-              "es": "“Al esclavo se le da muerte en represalia por el hombre libre, pero al hombre libre no se le da muerte por el esclavo; más bien, se le hace pagar su precio y se le golpea severamente para que no vuelva a hacerlo.”",
-              "fa": "«برده در برابرِ آزاد کشته می‌شود، اما آزاد در برابرِ برده کشته نمی‌شود؛ بلکه قیمت او از او گرفته می‌شود و سخت تازیانه می‌خورد تا دیگر به آن بازنگردد.»",
-              "fr": "« L’esclave est mis à mort en représailles pour l’homme libre, mais l’homme libre n’est pas mis à mort pour l’esclave ; au contraire, on lui fait payer son prix et on le frappe sévèrement afin qu’il n’y revienne pas. »",
-              "id": "“Budak dibunuh sebagai qisas atas orang merdeka, tetapi orang merdeka tidak dibunuh karena budak; melainkan ia diwajibkan membayar harganya dan dipukul dengan keras agar ia tidak mengulanginya.”",
-              "ru": "«Раба убивают в возмездие за свободного человека, но свободного человека не убивают за раба; напротив, с него взыскивают его цену и жестоко бьют, чтобы он не вернулся к этому.»",
-              "tr": "“Köle, hür kişi karşılığında öldürülür; fakat hür kişi köle karşılığında öldürülmez. Aksine onun bedeli ödetilir ve bir daha buna dönmesin diye şiddetle dövülür.”",
-              "ur": "“غلام کو آزاد شخص کے بدلے قتل کیا جاتا ہے، لیکن آزاد شخص کو غلام کے بدلے قتل نہیں کیا جاتا؛ بلکہ اس سے اس کی قیمت وصول کی جاتی ہے اور اسے سخت مارا جاتا ہے تاکہ وہ دوبارہ ایسا نہ کرے۔”",
-              "zh": "“奴隶要为自由人而被处死，但自由人不会因为奴隶而被处死；而是要让他赔偿其价钱，并严厉鞭打，以免他再犯。”"
-            },
             "word_end": 34,
             "word_start": 18
           }
@@ -104,27 +91,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْحُرِّ": "the free person",
-            "الْعَبْدُ": "the slave",
-            "ثَمَنَهُ": "his price or monetary value",
-            "ضَرْبًا شَدِيدًا": "a severe beating",
-            "يُضْرَبُ": "is beaten as punishment",
-            "يُغَرَّمُ": "is required to pay compensation",
-            "يُقْتَلُ": "is put to death in legal retaliation"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُقْتَلُ",
+          "الْعَبْدُ",
+          "الْحُرِّ",
+          "يُغَرَّمُ",
+          "ثَمَنَهُ",
+          "يُضْرَبُ",
+          "ضَرْبًا شَدِيدًا"
+        ],
         "related_quran": [
           {
             "ref": "2:178",
@@ -139,32 +114,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে যদি স্বাধীন ব্যক্তি দাসকে হত্যা করে বা দাস স্বাধীন ব্যক্তিকে হত্যা করে, তবে কিসাসের বিধান কী?",
-          "de": "Wie lautet im schiitischen Fiqh die Regel des Qisas, wenn ein freier Mensch einen Sklaven tötet oder ein Sklave einen freien Menschen tötet?",
-          "en": "What is the ruling on retaliation when a free person kills a slave or a slave kills a free person in Shia fiqh?",
-          "es": "En la fiqh chií, ¿cuál es la norma del qisas si una persona libre mata a un esclavo o un esclavo mata a una persona libre?",
-          "fa": "در فقه شیعه، اگر انسان آزاد برده‌ای را بکشد یا برده‌ای انسان آزادی را بکشد، حکم قصاص چیست؟",
-          "fr": "Dans le fiqh chiite, quelle est la règle du qisas si une personne libre tue un esclave ou si un esclave tue une personne libre ?",
-          "id": "Apa حكم qisas dalam fikih Syiah jika orang merdeka membunuh budak atau budak membunuh orang merdeka?",
-          "ru": "Каково постановление о кисасе в шиитском фикхе, если свободный человек убивает раба или раб убивает свободного человека?",
-          "tr": "Şii fıkhında hür bir kişi bir köleyi öldürürse veya bir köle hür bir kişiyi öldürürse kısas hükmü nedir?",
-          "ur": "شیعہ فقہ میں اگر آزاد شخص غلام کو قتل کرے یا غلام آزاد شخص کو قتل کرے تو قصاص کا حکم کیا ہے؟",
-          "zh": "在什叶派教法中，如果自由人杀死奴隶，或者奴隶杀死自由人，qisas的判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে দাস ও স্বাধীন ব্যক্তির মধ্যে কিসাসের শরঈ বিধান বর্ণনা করা হয়েছে। এতে বলা হয়েছে, দাস যদি স্বাধীন ব্যক্তিকে হত্যা করে তবে তাকে হত্যা করা যেতে পারে; কিন্তু স্বাধীন ব্যক্তি দাসকে হত্যা করলে তাকে হত্যা করা হয় না, বরং দাসের মূল্য আদায় করা হয় এবং তাকে কঠোর শাস্তিমূলক প্রহার করা হয়।",
-          "de": "Dieser Hadith nennt eine rechtliche Regelung zum Qisas zwischen einem Sklaven und einem freien Menschen. Er legt fest, dass ein Sklave als Vergeltung für die Tötung eines freien Menschen hingerichtet werden kann, während ein freier Mensch für die Tötung eines Sklaven nicht hingerichtet wird; vielmehr muss er den Wert des Sklaven zahlen und eine schwere disziplinarische Bestrafung erhalten.",
-          "en": "This hadith states a legal ruling concerning qisas between a slave and a free person. It establishes that a slave may be executed in retaliation for killing a free person, whereas a free person is not executed for killing a slave, but must pay the slave’s value and receive a severe disciplinary beating.",
-          "es": "Este hadiz expone una norma jurídica sobre el qisas entre un esclavo y una persona libre. Establece que un esclavo puede ser ejecutado en represalia por matar a una persona libre, mientras que una persona libre no es ejecutada por matar a un esclavo; más bien, debe pagar el valor del esclavo y recibir un severo castigo disciplinario.",
-          "fa": "این حدیث حکم فقهیِ قصاص میان برده و انسان آزاد را بیان می‌کند. بر اساس آن، برده در برابر کشتنِ انسان آزاد کشته می‌شود، اما انسان آزاد در برابر کشتنِ برده کشته نمی‌شود؛ بلکه قیمت برده را می‌پردازد و مجازات تادیبیِ شدیدی می‌بیند.",
-          "fr": "Ce hadith énonce une règle juridique concernant le qisas entre un esclave et un homme libre. Il établit qu’un esclave peut être mis à mort en représailles pour avoir tué un homme libre, tandis qu’un homme libre n’est pas mis à mort pour avoir tué un esclave ; il doit plutôt payer la valeur de l’esclave et subir une sévère correction disciplinaire.",
-          "id": "Hadis ini menjelaskan حكم qisas antara budak dan orang merdeka. Menurutnya, budak dapat dihukum mati sebagai balasan karena membunuh orang merdeka, sedangkan orang merdeka tidak dihukum mati karena membunuh budak; melainkan harus membayar nilai budak itu dan menerima pukulan disipliner yang berat.",
-          "ru": "Этот хадис излагает правовое постановление о кисасе между рабом и свободным человеком. В нём устанавливается, что раба можно казнить в возмездие за убийство свободного человека, тогда как свободного человека не казнят за убийство раба; напротив, он должен выплатить стоимость раба и подвергается суровому дисциплинарному наказанию.",
-          "tr": "Bu hadis, köle ile hür kişi arasındaki kısas hükmünü بیان eder. Buna göre köle, hür bir kişiyi öldürmesinin karşılığında öldürülebilir; ancak hür kişi köleyi öldürürse öldürülmez, bunun yerine kölenin bedelini öder ve ağır bir disiplin cezası alır.",
-          "ur": "یہ حدیث غلام اور آزاد شخص کے درمیان قصاص کے شرعی حکم کو بیان کرتی ہے۔ اس کے مطابق غلام کو آزاد شخص کے قتل کے بدلے قتل کیا جا سکتا ہے، جبکہ آزاد شخص کو غلام کے قتل کے بدلے قتل نہیں کیا جاتا؛ بلکہ غلام کی قیمت وصول کی جاتی ہے اور اسے سخت تعزیری سزا دی جاتی ہے۔",
-          "zh": "这段圣训阐明了奴隶与自由人之间关于qisas的教法律例。它规定，奴隶若杀死自由人，可以作为报复而被处死；而自由人若杀死奴隶，则不会被处死，而是要赔偿奴隶的价值，并受到严厉的惩戒性鞭打。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

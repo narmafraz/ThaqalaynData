@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَ مُحَمَّدُ بْنُ مُسْلِمٍ أَبَا جَعْفَرٍ عَلَيْهِ السَّلَامُ عَنِ الْبِئْرِ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবনে মুসলিম আবু জাফর عليه السلام-এর কাছে কুয়োর ব্যাপারে জিজ্ঞাসা করলেন।",
-              "de": "Muḥammad ibn Muslim fragte Abū Jaʿfar عليه السلام über den Brunnen.",
-              "en": "Muḥammad ibn Muslim asked Abū Jaʿfar عليه السلام about the well.",
-              "es": "Muḥammad ibn Muslim preguntó a Abū Jaʿfar عليه السلام sobre el pozo.",
-              "fa": "محمد بن مسلم از ابوجعفر علیه السلام درباره چاه پرسید.",
-              "fr": "Muḥammad ibn Muslim a demandé à Abū Jaʿfar عليه السلام au sujet du puits.",
-              "id": "Muḥammad ibn Muslim bertanya kepada Abū Jaʿfar علیه السلام tentang sumur itu.",
-              "ru": "Мухаммад ибн Муслим спросил у Абу Джафара عليه السلام о колодце.",
-              "tr": "Muḥammad ibn Muslim, Abū Jaʿfar عليه السلام'a kuyu hakkında sordu.",
-              "ur": "مُحَمَّد ابن مسلم نے ابو جعفر علیہ السلام سے کنویں کے بارے میں پوچھا۔",
-              "zh": "穆罕默德本穆斯林向阿布贾法尔عليهالسلام询问了井的情况。"
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "تَقَعُ فِيهَا الْمَيْتَةُ فَقَالَ «إِنْ كَانَ لَهَا رِيحٌ نُزِحَ مِنْهَا عِشْرُونَ دَلْوًا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যেখানে একটি মৃত প্রাণী পড়ে, এবং তিনি বললেন: \"যদি গন্ধ থাকে, তাহলে বিশ বালতি পানি তুলে নিতে হবে।\"",
-              "de": "in den ein totes Tier gefallen ist, und er sagte: „Wenn es einen Geruch hat, sollen zwanzig Eimer Wasser daraus gezogen werden.“",
-              "en": "in which a dead animal falls, and he said: “If it has an odor, twenty buckets should be drawn from it.”",
-              "es": "en el que cae un animal muerto, y dijo: “Si tiene olor, se deben sacar veinte cubos de agua.”",
-              "fa": "که در آن حیوان مرده‌ای افتاده باشد، و فرمود: «اگر بوی بد داشته باشد، باید بیست سطل آب از آن کشیده شود.»",
-              "fr": "dans lequel un animal mort tombe, et il a dit : « S'il y a une odeur, il faut puiser vingt seaux d'eau. »",
-              "id": "di mana seekor hewan mati jatuh, dan beliau berkata: \"Jika ada bau, harus diambil dua puluh ember air dari sumur itu.\"",
-              "ru": "в который упало мертвое животное, и он сказал: «Если есть запах, следует откачать из него двадцать ведер воды.»",
-              "tr": "Ölü bir hayvanın düştüğü kuyuda, eğer koku varsa, yirmi kova su çekilmelidir, dedi.",
-              "ur": "جس میں کوئی مردہ جانور گر جائے، اور انہوں نے فرمایا: \"اگر اس میں بدبو ہو تو بیس بالٹیاں پانی نکالنی چاہئیں۔\"",
-              "zh": "有死动物落入其中，他说：“如果有气味，应从中取出二十桶水。”"
-            },
             "word_end": 22,
             "word_start": 10
           }
@@ -92,26 +79,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْبِئْرِ": "the well being asked about in the ruling",
-            "الْمَيْتَةُ": "a dead animal or carcass that falls into the well",
-            "دَلْوًا": "a bucket used to draw water from the well",
-            "رِيحٌ": "an odor indicating the effect of the carcass in the water",
-            "عِشْرُونَ": "the required number, twenty",
-            "نُزِحَ": "water should be drawn out from the well"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْبِئْرِ",
+          "الْمَيْتَةُ",
+          "رِيحٌ",
+          "نُزِحَ",
+          "عِشْرُونَ",
+          "دَلْوًا"
+        ],
         "related_quran": [
           {
             "ref": "5:3",
@@ -122,32 +97,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি একটি মৃত প্রাণী কুয়োতে পড়ে এবং গন্ধ থাকে তাহলে কী করা উচিত?",
-          "de": "Was ist zu tun, wenn ein totes Tier in einen Brunnen fällt und es riecht?",
-          "en": "What should be done if a dead animal falls into a well and it has an odor?",
-          "es": "¿Qué se debe hacer si un animal muerto cae en un pozo y tiene olor?",
-          "fa": "اگر حیوان مرده‌ای در چاه بیفتد و بوی بد داشته باشد، چه باید کرد؟",
-          "fr": "Que faire si un animal mort tombe dans un puits et qu'il y a une odeur ?",
-          "id": "Apa yang harus dilakukan jika hewan mati jatuh ke dalam sumur dan menimbulkan bau?",
-          "ru": "Что делать, если мертвое животное упало в колодец и оттуда исходит запах?",
-          "tr": "Ölü bir hayvan kuyuya düşerse ve koku varsa ne yapılmalıdır?",
-          "ur": "اگر مردہ جانور کنویں میں گر جائے اور اس میں بدبو ہو تو کیا کرنا چاہیے؟",
-          "zh": "如果死动物落入井中并有气味，应怎么办？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি এমন একটি কুয়োর সম্পর্কে শারঈ হুকুম দেয় যেখানে একটি মৃত প্রাণী পড়ে গেছে। ইমাম আবু জাফর عليه السلام বলেন, যদি গন্ধ থাকে তবে কুয়ো থেকে বিশ বালতি পানি তোলা উচিত।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bezüglich eines Brunnens, in den ein totes Tier gefallen ist. Imam Abū Jaʿfar عليه السلام sagt, dass wenn der Kadaver einen Geruch verursacht, zwanzig Eimer Wasser aus dem Brunnen gezogen werden sollen.",
-          "en": "This hadith gives a legal ruling regarding a well into which a dead animal has fallen. Imam Abū Jaʿfar عليه السلام states that if the carcass causes an odor, twenty buckets of water are to be drawn from the well.",
-          "es": "Este hadiz da un fallo legal respecto a un pozo en el que ha caído un animal muerto. El Imam Abū Jaʿfar عليه السلام dice que si el cadáver causa olor, se deben sacar veinte cubos de agua del pozo.",
-          "fa": "این حدیث حکم شرعی درباره چاهی که حیوان مرده‌ای در آن افتاده است را بیان می‌کند. امام ابوجعفر علیه السلام می‌فرماید اگر لاشه بوی بد داشته باشد، باید بیست سطل آب از چاه کشیده شود.",
-          "fr": "Ce hadith donne un jugement légal concernant un puits dans lequel un animal mort est tombé. L'Imam Abū Jaʿfar عليه السلام déclare que si la carcasse dégage une odeur, il faut puiser vingt seaux d'eau du puits.",
-          "id": "Hadis ini memberikan hukum terkait sumur yang jatuh ke dalamnya hewan mati. Imam Abū Jaʿfar علیه السلام menyatakan bahwa jika bangkai menimbulkan bau, maka harus diambil dua puluh ember air dari sumur tersebut.",
-          "ru": "Этот хадис даёт правовое постановление относительно колодца, в который упало мертвое животное. Имам Абу Джафар عليه السلام говорит, что если труп издаёт запах, из колодца следует откачать двадцать ведер воды.",
-          "tr": "Bu hadis, içine ölü bir hayvan düşen kuyu hakkında hukuki bir hüküm verir. İmam Abū Jaʿfar عليه السلام, eğer cesetten koku geliyorsa kuyudan yirmi kova su çekilmesi gerektiğini belirtir.",
-          "ur": "یہ حدیث ایک ایسے کنویں کے بارے میں شرعی حکم بیان کرتی ہے جس میں مردہ جانور گر گیا ہو۔ امام ابو جعفر علیہ السلام فرماتے ہیں کہ اگر لاش سے بدبو آتی ہو تو کنویں سے بیس بالٹیاں پانی نکالنا چاہیے۔",
-          "zh": "这段圣训对死动物落入井中的情况给出了法律裁决。伊玛目阿布贾法尔عليهالسلام指出，如果尸体有气味，应从井中取出二十桶水。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

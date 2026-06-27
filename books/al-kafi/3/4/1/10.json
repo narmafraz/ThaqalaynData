@@ -14,6 +14,141 @@
       "up": "/books/al-kafi:3:4:1"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ إِسْمَاعِيلَ عَنِ الْفَضْلِ بْنِ شَاذَانَ عَنْ حَمَّادِ بْنِ عِيسَى عَنْ إِبْرَاهِيمَ بْنِ عُمَرَ الْيَمَانِيِّ عَمَّنْ حَدَّثَهُ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ )",
+            "chunk_type": "isnad",
+            "word_end": 26,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "فِي قَوْلِ اللَّهِ عَزَّ وَ جَلَّ إِنَّ الْحَسَنَاتِ يُذْهِبْنَ السَّيِّئَاتِ",
+            "chunk_type": "opening",
+            "word_end": 36,
+            "word_start": 26
+          },
+          {
+            "arabic_text": "قَالَ صَلَاةُ الْمُؤْمِنِ بِاللَّيْلِ تَذْهَبُ بِمَا عَمِلَ مِنْ ذَنْبٍ بِالنَّهَارِ",
+            "chunk_type": "body",
+            "word_end": 46,
+            "word_start": 36
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 17,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ إِسْمَاعِيلَ",
+              "name_en": "Muhammad ibn Ismail",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 33,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْفَضْلِ بْنِ شَاذَانَ",
+              "name_en": "al-Fadl ibn Shadhan",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 38,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "حَمَّادِ بْنِ عِيسَى",
+              "name_en": "Hammad ibn Isa",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": null,
+              "identity_confidence": "ambiguous",
+              "known_identity": null,
+              "name_ar": "إِبْرَاهِيمَ بْنِ عُمَرَ الْيَمَانِيِّ عَمَّنْ حَدَّثَهُ",
+              "name_en": "Ibrahim b. Umar al-Yamani",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "إِنَّ الْحَسَنَاتِ يُذْهِبْنَ السَّيِّئَاتِ",
+          "صَلَاةُ الْمُؤْمِنِ",
+          "بِاللَّيْلِ",
+          "تَذْهَبُ",
+          "ذَنْبٍ"
+        ],
+        "related_quran": [
+          {
+            "ref": "11:114",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "39:53",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "73:2",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "worship",
+          "quran_commentary",
+          "ethics"
+        ],
+        "topics": [
+          "salat",
+          "quran_interpretation_method",
+          "night_prayer"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مرسل    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (15/10)"
       ],
@@ -93,7 +228,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:4:1:10",

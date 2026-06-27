@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তিনি, عليه السلام, বললেন:",
-              "de": "Und er, Friede sei mit ihm, sagte:",
-              "en": "And he, peace be upon him, said:",
-              "es": "Y él, la paz sea con él, dijo:",
-              "fa": "و او، علیه السلام، فرمود:",
-              "fr": "Et lui, paix soit sur lui, a dit :",
-              "id": "Dan beliau, alaihis salam, berkata:",
-              "ru": "И он, мир ему, сказал:",
-              "tr": "Ve o, aleyhisselam, dedi ki:",
-              "ur": "اور انہوں نے، علیہ السلام، فرمایا:",
-              "zh": "他，愿他平安，说："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "«عَجِّلُوا رَدَّ ظُرُوفِ الْهَدَايَا فَإِنَّهُ أَسْرَعُ لِتَوَاتُرِهَا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "উপহারবস্তু দ্রুত ফেরত দিন, কারণ এটি তাদের ধারাবাহিক বিনিময় দ্রুততর করে।",
-              "de": "Beeilen Sie sich, die Behälter der Geschenke zurückzugeben, denn das beschleunigt ihren fortlaufenden Austausch.",
-              "en": "Hasten to return the containers of gifts, for that is quicker in bringing about their continued exchange.",
-              "es": "Apresúrense a devolver los recipientes de los regalos, pues eso acelera su intercambio continuo.",
-              "fa": "ظروف هدایا را سریع بازگردانید، زیرا این باعث تسریع در تبادل مداوم آنها می‌شود.",
-              "fr": "Hâtez-vous de rendre les contenants des cadeaux, car cela accélère leur échange continu.",
-              "id": "Segeralah mengembalikan wadah hadiah, karena itu mempercepat pertukaran yang berkelanjutan.",
-              "ru": "Спешите вернуть сосуды с подарками, так как это ускоряет их постоянный обмен.",
-              "tr": "Hediyelerin kaplarını çabuk geri verin, çünkü bu onların sürekli değişimini hızlandırır.",
-              "ur": "تحفے کے برتن جلدی واپس کریں، کیونکہ یہ ان کے مسلسل تبادلے کو تیز کرتا ہے۔",
-              "zh": "赶快归还礼物容器，因为这能加快它们的持续交换。"
-            },
             "word_end": 11,
             "word_start": 4
           }
@@ -81,25 +68,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْهَدَايَا": "Gifts that are exchanged between people",
-            "تَوَاتُرِهَا": "Their recurring continuity or repeated succession",
-            "رَدَّ": "Returning or giving back",
-            "ظُرُوفِ": "Containers, vessels, or receptacles",
-            "عَجِّلُوا": "Hasten; do it promptly without delay"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "عَجِّلُوا",
+          "رَدَّ",
+          "ظُرُوفِ",
+          "الْهَدَايَا",
+          "تَوَاتُرِهَا"
+        ],
         "related_quran": [
           {
             "ref": "4:86",
@@ -110,32 +85,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামী শিষ্টাচারে কেন উপহারবস্তু দ্রুত ফেরত দেওয়া উচিত?",
-          "de": "Warum sollten Geschenkbehälter in der islamischen Etikette schnell zurückgegeben werden?",
-          "en": "Why should gift containers be returned quickly in Islamic etiquette?",
-          "es": "¿Por qué deben devolverse rápidamente los recipientes de regalos en la etiqueta islámica?",
-          "fa": "چرا در آداب اسلامی ظروف هدایا باید سریع بازگردانده شوند؟",
-          "fr": "Pourquoi les contenants des cadeaux doivent-ils être rapidement rendus dans l’étiquette islamique ?",
-          "id": "Mengapa wadah hadiah harus segera dikembalikan dalam etika Islam?",
-          "ru": "Почему в исламском этикете сосуды с подарками следует быстро возвращать?",
-          "tr": "İslami adabında hediye kapları neden hızlıca geri verilmelidir?",
-          "ur": "اسلامی آداب میں تحفے کے برتن جلدی کیوں واپس کیے جانے چاہئیں؟",
-          "zh": "在伊斯兰礼仪中，为什么应迅速归还礼物容器？"
-        },
-        "summaries": {
-          "bn": "ইমাম علیه السلام উপহার দেওয়ার শিষ্টাচার শেখান: উপহারবস্তু দ্রুত ফেরত দেওয়া সদিচ্ছা বজায় রাখে এবং পুনরাবৃত্তি বিনিময়কে উৎসাহিত করে। হাদিস সামাজিক আচরণের সূক্ষ্মতা এবং অন্যদের অধিকার ও অনুভূতির প্রতি যত্নবান হওয়ার গুরুত্ব তুলে ধরে।",
-          "de": "Der Imam عليه السلام lehrt eine Etikette des Schenkens: Das schnelle Zurückgeben des Gefäßes, in dem ein Geschenk gesandt wurde, bewahrt den guten Willen und fördert den wiederholten Austausch. Der Hadith hebt die Verfeinerung im sozialen Verhalten und die Aufmerksamkeit für die Rechte und Gefühle anderer hervor.",
-          "en": "The Imam عليه السلام teaches an etiquette of gift-giving: promptly returning the vessel or container in which a gift was sent helps preserve goodwill and encourages repeated exchange. The hadith highlights refinement in social conduct and attentiveness to the rights and feelings of others.",
-          "es": "El Imam عليه السلام enseña una etiqueta para dar regalos: devolver prontamente el recipiente en que se envió un regalo ayuda a preservar la buena voluntad y fomenta el intercambio repetido. El hadiz destaca la refinación en la conducta social y la atención a los derechos y sentimientos de los demás.",
-          "fa": "امام علیه السلام آداب هدیه دادن را آموزش می‌دهد: بازگرداندن سریع ظرف هدیه، حسن نیت را حفظ کرده و تبادل مکرر را تشویق می‌کند. حدیث به ظرافت در رفتار اجتماعی و توجه به حقوق و احساسات دیگران اشاره دارد.",
-          "fr": "L’Imam عليه السلام enseigne une étiquette du don : rendre rapidement le contenant d’un cadeau aide à préserver la bonne volonté et encourage les échanges répétés. Le hadith souligne la finesse dans la conduite sociale et l’attention aux droits et sentiments d’autrui.",
-          "id": "Imam علیه السلام mengajarkan etika memberi hadiah: segera mengembalikan wadah hadiah membantu menjaga niat baik dan mendorong pertukaran berulang. Hadis ini menyoroti kesopanan sosial dan perhatian terhadap hak serta perasaan orang lain.",
-          "ru": "Имам عليه السلام учит этикету дарения: быстрое возвращение сосуда, в котором был отправлен подарок, помогает сохранить добрую волю и поощряет повторный обмен. Хадис подчеркивает утонченность в социальном поведении и внимание к правам и чувствам других.",
-          "tr": "İmam علیه السلام hediye verme adabını öğretir: Hediyenin gönderildiği kabı hızlıca geri vermek, iyi niyeti korur ve tekrar alışverişi teşvik eder. Hadis, sosyal davranışta inceliği ve başkalarının haklarına ve duygularına dikkat etmeyi vurgular.",
-          "ur": "امام علیہ السلام تحفہ دینے کے آداب سکھاتے ہیں: جس برتن میں تحفہ بھیجا گیا ہو اسے فوراً واپس کرنا حسن سلوک کو برقرار رکھتا ہے اور بار بار تبادلے کی ترغیب دیتا ہے۔ حدیث معاشرتی آداب اور دوسروں کے حقوق و جذبات کی حساسیت کو اجاگر کرتی ہے۔",
-          "zh": "الإمام عليه السلام教导赠礼礼仪：及时归还赠礼容器有助于维护善意并鼓励反复交换。圣训强调社交行为的细致和对他人权利及感情的关注。"
-        },
         "tags": [
           "ethics",
           "social_relations",

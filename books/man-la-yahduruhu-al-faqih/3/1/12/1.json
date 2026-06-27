@@ -15,42 +15,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رَوَى السَّكُونِيُّ بِإِسْنَادِهِ قَالَ قَالَ عَلِيٌّ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-সাকুনী তার isnad সহ বর্ণনা করেছেন; তিনি বলেছেন: আলী, আলাইহিস সালাম, বলেছেন:",
-              "de": "Al-Sakuni berichtete mit seiner Überlieferungskette; er sagte: Ali, Friede sei mit ihm, sagte:",
-              "en": "Al-Sakuni narrated with his chain of transmission; he said: Ali, peace be upon him, said:",
-              "es": "Al-Sakuni narró con su cadena de transmisión; dijo: Alí, la paz sea con él, dijo:",
-              "fa": "اَلْسَّکُونِی با سند خود روایت کرد؛ گفت: علی علیه السلام فرمود:",
-              "fr": "Al-Sakuni a rapporté avec sa chaîne de transmission ; il a dit : Ali, paix soit sur lui, a dit :",
-              "id": "Al-Sakuni meriwayatkan dengan sanadnya; dia berkata: Ali, 'alayhis salam, berkata:",
-              "ru": "Аль-Сакуни передал с его цепочкой передачи; он сказал: Али, мир ему, сказал:",
-              "tr": "El-Sakuni, isnadıyla rivayet etti; dedi ki: Ali, üzerine selam olsun, dedi ki:",
-              "ur": "اَلْسَّکُونِی نے اپنی سند کے ساتھ روایت کی؛ انہوں نے کہا: عَلِی علیہ السلام نے فرمایا:",
-              "zh": "艾尔萨库尼以其传链叙述；他说：阿里，愿他平安，说："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "يَدُ اللَّهِ فَوْقَ رَأْسِ الْحَاكِمِ تُرَفْرِفُ بِالرَّحْمَةِ، فَإِذَا حَافَ فِي الْحُكْمِ وَكَلَهُ اللَّهُ عَزَّ وَجَلَّ إِلَى نَفْسِهِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আল্লাহর হাত বিচারকের মাথার উপরে করুণা সহ ভাসমান থাকে; কিন্তু যখন সে বিচার থেকে বিচ্যুত হয়, আল্লাহ, মহিমান্বিত ও মহাজন, তাকে নিজের প্রতি ছেড়ে দেন।",
-              "de": "Die Hand Allahs schwebt mit Barmherzigkeit über dem Kopf des Richters; aber wenn er im Urteil abweicht, lässt Allah, der Mächtige und Erhabene, ihn sich selbst überlassen.",
-              "en": "The hand of Allah hovers with mercy above the head of the judge; but when he deviates in judgment, Allah, the Mighty and Majestic, leaves him to himself.",
-              "es": "La mano de Allah se cierne con misericordia sobre la cabeza del juez; pero cuando se desvía en el juicio, Allah, el Poderoso y Majestuoso, lo deja a su suerte.",
-              "fa": "دست خداوند با رحمت بر فراز سر قاضی می‌چرخد؛ اما هنگامی که در حکم خود انحراف کند، خداوند، عزیز و جلیل، او را به حال خود رها می‌کند.",
-              "fr": "La main d’Allah plane avec miséricorde au-dessus de la tête du juge ; mais lorsqu’il dévie dans son jugement, Allah, le Tout-Puissant et Majestueux, le laisse à lui-même.",
-              "id": "Tangan Allah bergetar dengan rahmat di atas kepala hakim; tetapi ketika dia menyimpang dalam keputusan, Allah Yang Maha Perkasa dan Maha Agung membiarkannya pada dirinya sendiri.",
-              "ru": "Рука Аллаха парит с милосердием над головой судьи; но когда он отклоняется в суждении, Аллах, Великий и Могучий, оставляет его самому себе.",
-              "tr": "Allah’ın eli, merhametle hakimin başının üzerinde uçar; ancak o hükümde saparsa, Allah, Azîz ve Celîl, onu kendi haline bırakır.",
-              "ur": "اللہ کا ہاتھ رحمت کے ساتھ قاضی کے سر کے اوپر مڑمڑاتا ہے؛ لیکن جب وہ حکم میں انحراف کرتا ہے، اللہ، عزوجل، اسے اپنے نفس پر چھوڑ دیتا ہے۔",
-              "zh": "真主之手以慈悲在法官头顶盘旋；但当他在判决中偏离时，至高无上的真主将他置于自我之中。"
-            },
             "word_end": 25,
             "word_start": 8
           }
@@ -79,28 +66,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِلَى نَفْسِهِ": "to himself, meaning deprived of divine support",
-            "الْحَاكِمِ": "the judge or ruler entrusted with judgment",
-            "الْحُكْمِ": "judgment or adjudication",
-            "بِالرَّحْمَةِ": "with mercy, meaning divine compassion and support",
-            "تُرَفْرِفُ": "hovers or flutters above, indicating nearness and ongoing care",
-            "حَافَ": "deviated, acted unjustly, or inclined away from fairness",
-            "وَكَلَهُ": "left him or consigned him",
-            "يَدُ اللَّهِ": "Allah’s hand; an expression here indicating divine care, aid, and mercy"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَدُ اللَّهِ",
+          "الْحَاكِمِ",
+          "تُرَفْرِفُ",
+          "بِالرَّحْمَةِ",
+          "حَافَ",
+          "الْحُكْمِ",
+          "وَكَلَهُ",
+          "إِلَى نَفْسِهِ"
+        ],
         "related_quran": [
           {
             "ref": "4:58",
@@ -115,32 +90,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আলী عليه السلام ন্যায়পরায়ণভাবে বিচার করা বিচারকের জন্য আল্লাহর সহায়তা সম্পর্কে কী বলেন?",
-          "de": "Was sagt Imam Ali عليه السلام über die Unterstützung Allahs für einen Richter, der gerecht urteilt?",
-          "en": "What does Imam Ali عليه السلام say about Allah’s support for a judge who rules justly?",
-          "es": "¿Qué dice el Imam Ali عليه السلام sobre el apoyo de Allah a un juez que juzga con justicia?",
-          "fa": "امام علی علیه السلام درباره حمایت خداوند از قاضی که عادلانه حکم می‌کند چه می‌گوید؟",
-          "fr": "Que dit l’Imam Ali عليه السلام au sujet du soutien d’Allah pour un juge qui rend un jugement juste ?",
-          "id": "Apa yang dikatakan Imam Ali عليه السلام tentang dukungan Allah bagi hakim yang memutuskan dengan adil?",
-          "ru": "Что говорит Имам Али عليه السلام о поддержке Аллаха судье, который судит справедливо?",
-          "tr": "İmam Ali عليه السلام, adaletle hükmeden bir hakime Allah’ın desteği hakkında ne diyor?",
-          "ur": "امام علی علیہ السلام قاضی کے لیے جو انصاف سے حکم دیتا ہے، اللہ کی مدد کے بارے میں کیا فرماتے ہیں؟",
-          "zh": "伊玛目阿里 عليه السلام关于真主对公正裁判法官的支持说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস শিক্ষা দেয় যে ঐশ্বরিক করুণা ও সাহায্য শাসক বা বিচারকের সাথে থাকে যতক্ষণ সে ন্যায়পরায়ণভাবে বিচার করে। যদি সে বিচারকালে অন্যায়ের দিকে ঝুঁকে পড়ে, আল্লাহ সেই সহায়তা প্রত্যাহার করে এবং তাকে নিজের প্রতি ছেড়ে দেন।",
-          "de": "Dieser Hadith lehrt, dass göttliche Barmherzigkeit und Hilfe den Herrscher oder Richter begleiten, solange er gerecht urteilt. Wenn er sich im Urteil der Ungerechtigkeit zuwendet, zieht Allah diese Unterstützung zurück und überlässt ihn sich selbst.",
-          "en": "This hadith teaches that divine mercy and aid accompany the ruler or judge so long as he judges justly. If he inclines toward injustice in judgment, Allah withdraws that support and leaves him to his own self.",
-          "es": "Este hadiz enseña que la misericordia y ayuda divina acompañan al gobernante o juez mientras juzgue con justicia. Si se inclina hacia la injusticia en el juicio, Allah retira ese apoyo y lo deja a su suerte.",
-          "fa": "این حدیث آموزش می‌دهد که رحمت و یاری الهی همراه حاکم یا قاضی است تا زمانی که عادلانه حکم کند. اگر به سوی ظلم در حکم متمایل شود، خداوند آن حمایت را پس می‌گیرد و او را به حال خود رها می‌کند.",
-          "fr": "Ce hadith enseigne que la miséricorde et l’aide divines accompagnent le dirigeant ou le juge tant qu’il juge avec justice. S’il penche vers l’injustice dans son jugement, Allah retire ce soutien et le laisse à lui-même.",
-          "id": "Hadis ini mengajarkan bahwa rahmat dan pertolongan ilahi menyertai penguasa atau hakim selama dia memutuskan dengan adil. Jika dia condong pada ketidakadilan dalam keputusan, Allah menarik dukungan itu dan membiarkannya pada dirinya sendiri.",
-          "ru": "Этот хадис учит, что божественная милость и помощь сопровождают правителя или судью, пока он судит справедливо. Если он склоняется к несправедливости в суждении, Аллах отводит эту поддержку и оставляет его самому себе.",
-          "tr": "Bu hadis, ilahi merhamet ve yardımın, yönetici veya hakimin adaletle hükmettiği sürece onunla birlikte olduğunu öğretir. Eğer hükmünde zulme meyletirse, Allah o desteği geri çeker ve onu kendi haline bırakır.",
-          "ur": "یہ حدیث سکھاتی ہے کہ الہی رحمت اور مدد حکمران یا قاضی کے ساتھ ہوتی ہے جب تک کہ وہ انصاف سے فیصلہ کرے۔ اگر وہ حکم میں ظلم کی طرف مائل ہو جائے تو اللہ اس کی مدد واپس لے لیتا ہے اور اسے اپنے نفس پر چھوڑ دیتا ہے۔",
-          "zh": "此圣训教导我们，神圣的慈悲与援助伴随统治者或法官，只要他公正裁决。若他在判决中偏向不公，真主便撤回支持，任其自处。"
-        },
         "tags": [
           "governance",
           "jurisprudence",

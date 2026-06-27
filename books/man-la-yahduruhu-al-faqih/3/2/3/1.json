@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ، لِزَيْنَبَ الْعَطَّارَةِ الْحَوْلَاءِ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "রাসূলুল্লাহ صلی اللہ علیہ وآلہ وسلم জৈনব, সুগন্ধি বিক্রেতা, আল-হাওলা'কে বললেন:",
-              "de": "Der Gesandte Allahs صلى الله عليه وآله وسلم sagte zu Zaynab, der Parfümhändlerin al-Hawlaʾ:",
-              "en": "The Messenger of Allah صلى الله عليه وآله وسلم said to Zaynab, the perfume seller, al-Hawlaʾ:",
-              "es": "El Mensajero de Allah صلى الله عليه وآله وسلم dijo a Zaynab, la vendedora de perfumes, al-Hawlaʾ:",
-              "fa": "پیامبر خدا صلی الله علیه وآله وسلم به زینب عطّاره الحولاء فرمود:",
-              "fr": "Le Messager d'Allah صلى الله عليه وآله وسلم dit à Zaynab, la vendeuse de parfums, al-Hawlaʾ :",
-              "id": "Rasulullah صلى الله عليه وآله وسلم berkata kepada Zainab, penjual parfum, al-Hawlaʾ:",
-              "ru": "Посланник Аллаха صلى الله عليه وآله وسلم сказал Зайнаб, продавщице духов, аль-Хавлаʾ:",
-              "tr": "Allah'ın Resulü صلى الله عليه وآله وسلم, parfüm satıcısı Zeynab el-Havlaʾ'ya şöyle dedi:",
-              "ur": "رسول اللہ صلی اللہ علیہ وآلہ وسلم نے زینب عطّارہ الحولاء سے فرمایا:",
-              "zh": "安拉使者صلى الله عليه وآله وسلم对卖香水的扎伊纳布·哈乌拉说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "إِذَا بِعْتِ فَأَحْسِنِي وَ لَا تَغُشِّي فَإِنَّهُ أَنْقَى وَ أَبْقَى لِلْمَالِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যখন তুমি বিক্রি করবে, তখন উত্তমভাবে করো এবং প্রতারণা করো না, কারণ এটি সম্পদের জন্য অধিক পবিত্র ও স্থায়ী।",
-              "de": "Wenn du verkaufst, handle vortrefflich und betrüge nicht, denn das ist reiner und beständiger für das Vermögen.",
-              "en": "When you sell, then act with excellence and do not deceive, for that is purer and more enduring for wealth.",
-              "es": "Cuando vendas, actúa con excelencia y no engañes, porque eso es más puro y duradero para la riqueza.",
-              "fa": "وقتی که می‌فروشی، به بهترین نحو عمل کن و فریب نده، زیرا این برای مال پاک‌تر و پایدارتر است.",
-              "fr": "Lorsque tu vends, agis avec excellence et ne trompe pas, car cela est plus pur et plus durable pour la richesse.",
-              "id": "Ketika kamu menjual, maka lakukan dengan baik dan jangan menipu, karena itu lebih suci dan lebih tahan lama untuk harta.",
-              "ru": "Когда продаёшь, поступай прекрасно и не обманывай, ибо это чище и долговечнее для богатства.",
-              "tr": "Satış yaptığında, mükemmel davran ve aldatma, çünkü bu mal için daha temiz ve daha kalıcıdır.",
-              "ur": "جب تم بیچو تو اچھے طریقے سے کرو اور دھوکہ نہ دو، کیونکہ یہ مال کے لیے زیادہ پاکیزہ اور دیرپا ہے۔",
-              "zh": "当你出售时，要尽善尽美，不要欺骗，因为那对财富更纯净更持久。"
-            },
             "word_end": 22,
             "word_start": 11
           }
@@ -74,26 +61,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبْقَى": "more lasting and more enduring",
-            "أَنْقَى": "purer, cleaner, and more wholesome",
-            "الْمَالِ": "wealth or property gained through trade",
-            "بِعْتِ": "when you sell or conduct a sale",
-            "تَغُشِّي": "to cheat, deceive, or defraud in trade",
-            "فَأَحْسِنِي": "show excellence, goodness, and proper conduct in selling"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "بِعْتِ",
+          "فَأَحْسِنِي",
+          "تَغُشِّي",
+          "أَنْقَى",
+          "أَبْقَى",
+          "الْمَالِ"
+        ],
         "related_quran": [
           {
             "ref": "26:181",
@@ -108,32 +83,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "বিক্রয়ে সততা ও প্রতারণা সম্পর্কে নবী صلی اللہ علیہ وآلہ وسلم কী শিক্ষা দিয়েছেন?",
-          "de": "Was lehrte der Prophet صلى الله عليه وآله وسلم über Ehrlichkeit und Täuschung beim Verkauf?",
-          "en": "What did the Prophet صلى الله عليه وآله وسلم teach about honesty and deception in selling?",
-          "es": "¿Qué enseñó el Profeta صلى الله عليه وآله وسلم sobre la honestidad y el engaño en la venta?",
-          "fa": "پیامبر صلی الله علیه وآله وسلم درباره صداقت و فریب در فروش چه تعلیم داد؟",
-          "fr": "Qu'a enseigné le Prophète صلى الله عليه وآله وسلم sur l'honnêteté et la tromperie dans la vente ?",
-          "id": "Apa yang diajarkan Nabi صلى الله عليه وآله وسلم tentang kejujuran dan penipuan dalam menjual?",
-          "ru": "Что Пророк صلى الله عليه وآله وسلم учил о честности и обмане при продаже?",
-          "tr": "Peygamber صلى الله عليه وآله وسلم satışta dürüstlük ve aldatma hakkında ne öğretti?",
-          "ur": "نبی صلی اللہ علیہ وآلہ وسلم نے فروخت میں ایمانداری اور دھوکہ دہی کے بارے میں کیا تعلیم دی؟",
-          "zh": "先知صلى الله عليه وآله وسلم关于销售中的诚实与欺骗教导了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস ব্যবসায় সততা ও উৎকর্ষতা শেখায়। নবী صلی اللہ علیہ وآلہ وسلم নির্দেশ দিয়েছেন প্রতারণা এড়াতে কারণ সততা সম্পদে অধিক পবিত্রতা ও স্থায়ী বরকত আনে।",
-          "de": "Dieser Hadith lehrt Ehrlichkeit und Exzellenz im Handel. Der Prophet صلى الله عليه وآله وسلم weist an, Täuschung zu vermeiden, da Integrität größere Reinheit und dauerhaften Segen für das Vermögen bringt.",
-          "en": "This hadith teaches honesty and excellence in trade. The Prophet صلى الله عليه وآله وسلم instructs that deception should be avoided because integrity brings greater purity and lasting blessing to one's wealth.",
-          "es": "Este hadiz enseña la honestidad y la excelencia en el comercio. El Profeta صلى الله عليه وآله وسلم instruye que se debe evitar el engaño porque la integridad trae mayor pureza y bendición duradera a la riqueza.",
-          "fa": "این حدیث صداقت و برتری در تجارت را آموزش می‌دهد. پیامبر صلی الله علیه وآله وسلم دستور می‌دهد که از فریب پرهیز شود زیرا صداقت پاکی و برکت ماندگارتر را برای مال به ارمغان می‌آورد.",
-          "fr": "Ce hadith enseigne l'honnêteté et l'excellence dans le commerce. Le Prophète صلى الله عليه وآله وسلم ordonne d'éviter la tromperie car l'intégrité apporte une plus grande pureté et une bénédiction durable à la richesse.",
-          "id": "Hadis ini mengajarkan kejujuran dan keunggulan dalam berdagang. Nabi صلى الله عليه وآله وسلم mengajarkan agar menghindari penipuan karena integritas membawa kesucian dan keberkahan yang lebih langgeng pada harta.",
-          "ru": "Этот хадис учит честности и совершенству в торговле. Пророк صلى الله عليه وآله وسلم наставляет избегать обмана, потому что честность приносит большую чистоту и долгосрочное благословение богатству.",
-          "tr": "Bu hadis ticarette dürüstlük ve mükemmelliği öğretir. Peygamber صلى الله عليه وآله وسلم, aldatmaktan kaçınılmasını emreder çünkü dürüstlük malda daha fazla temizlik ve kalıcı bereket getirir.",
-          "ur": "یہ حدیث تجارت میں ایمانداری اور عمدگی کی تعلیم دیتی ہے۔ نبی صلی اللہ علیہ وآلہ وسلم نے ہدایت دی کہ دھوکہ دہی سے بچنا چاہیے کیونکہ دیانت داری مال میں زیادہ پاکیزگی اور دیرپا برکت لاتی ہے۔",
-          "zh": "这段圣训教导贸易中的诚实与卓越。先知صلى الله عليه وآله وسلم指示应避免欺骗，因为诚信为财富带来更纯净和持久的祝福。"
-        },
         "tags": [
           "ethics",
           "economy",

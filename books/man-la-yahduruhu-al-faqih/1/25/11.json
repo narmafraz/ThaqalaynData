@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তিনি, তাঁর উপর শান্তি বর্ষিত হোক, বললেন:",
-              "de": "Und er, Friede sei mit ihm, sagte:",
-              "en": "And he, peace be upon him, said:",
-              "es": "Y él, la paz sea con él, dijo:",
-              "fa": "و او، علیه السلام، فرمود:",
-              "fr": "Et lui, paix soit sur lui, a dit :",
-              "id": "Dan beliau, semoga keselamatan atasnya, berkata:",
-              "ru": "И он, мир ему, сказал:",
-              "tr": "Ve o, aleyhisselam, dedi ki:",
-              "ur": "اور انہوں نے، علیہ السلام، فرمایا:",
-              "zh": "他，愿他安息，说："
-            },
             "word_end": 3,
             "word_start": 0
           },
           {
             "arabic_text": "«أَجِيدُوا أَكْفَانَ مَوْتَاكُمْ فَإِنَّهَا زِينَتُهُمْ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“তোমাদের মৃতদের কাফন ভালো করো, কারণ তা তাদের শোভা।”",
-              "de": "„Macht die Leichentücher eurer Verstorbenen gut, denn sie sind ihr Schmuck.“",
-              "en": "\"Make the shrouds of your deceased good, for they are their adornment.\"",
-              "es": "“Haced buenos los sudarios de vuestros difuntos, porque son su adorno.”",
-              "fa": "«کفن‌های مردگان خود را خوب بسازید، زیرا آنها زینت آنها هستند.»",
-              "fr": "«Faites de bons linceuls pour vos défunts, car ce sont leur parure.»",
-              "id": "“Buatlah kafan orang-orang yang meninggal dengan baik, karena itu adalah perhiasan mereka.”",
-              "ru": "«Делайте хорошие саваны для ваших умерших, ибо они их украшение.»",
-              "tr": "“Ölülerinizin kefenlerini güzel yapınız, çünkü onlar onların süsüdür.”",
-              "ur": "“اپنے مرنے والوں کے کفن اچھے بناؤ کیونکہ وہ ان کی زینت ہیں۔”",
-              "zh": "“为你们的亡者做好裹尸布，因为它们是他们的装饰。”"
-            },
             "word_end": 8,
             "word_start": 3
           }
@@ -71,24 +58,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَجِيدُوا": "Make excellent; do well and properly",
-            "أَكْفَانَ": "Shrouds used to wrap the deceased for burial",
-            "زِينَتُهُمْ": "Their adornment; that which gives them dignified presentation",
-            "مَوْتَاكُمْ": "Your dead; the deceased among you"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَجِيدُوا",
+          "أَكْفَانَ",
+          "مَوْتَاكُمْ",
+          "زِينَتُهُمْ"
+        ],
         "related_quran": [
           {
             "ref": "7:26",
@@ -99,32 +74,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামী শিক্ষায় মৃতদের কাফন কেন ভালো করা উচিত?",
-          "de": "Warum sollten die Leichentücher der Verstorbenen in der islamischen Lehre gut gemacht werden?",
-          "en": "Why should the shrouds of the deceased be made good in Islamic teaching?",
-          "es": "¿Por qué deben hacerse buenos los sudarios de los difuntos en la enseñanza islámica?",
-          "fa": "چرا در آموزه‌های اسلامی کفن مردگان باید خوب تهیه شود؟",
-          "fr": "Pourquoi les linceuls des défunts doivent-ils être bien faits dans l’enseignement islamique ?",
-          "id": "Mengapa kafan orang yang meninggal harus dibuat baik dalam ajaran Islam?",
-          "ru": "Почему в исламском учении саваны умерших должны быть хорошими?",
-          "tr": "İslami öğretide ölülerin kefenleri neden iyi yapılmalıdır?",
-          "ur": "اسلامی تعلیمات میں مرنے والوں کے کفن اچھے کیوں بنائے جائیں؟",
-          "zh": "在伊斯兰教义中，为什么要为逝者准备好的裹尸布？"
-        },
-        "summaries": {
-          "bn": "ইমাম জাফর ইবনে মুহাম্মদ আল-সাদিক عليه السلام বিশ্বাসীদের নির্দেশ দেন তাদের মৃতদের জন্য ভালো কাফন প্রস্তুত করতে। এই বাণী মৃতদের মর্যাদা ও সঠিক যত্নের ওপর জোর দেয়, কাফনকে তাদের সম্মানজনক শোভা হিসেবে বিবেচনা করে।",
-          "de": "Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام weist die Gläubigen an, gute Leichentücher für ihre Verstorbenen bereitzustellen. Die Aussage hebt Würde und angemessene Fürsorge für die Toten hervor und behandelt den Kafan als eine ehrenvolle Zierde für sie.",
-          "en": "Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام instructs believers to provide good shrouds for their deceased. The saying highlights dignity and proper care for the dead, treating the kafan as an honorable adornment for them.",
-          "es": "El Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام instruye a los creyentes a proveer buenos sudarios para sus difuntos. La frase resalta la dignidad y el cuidado adecuado para los muertos, tratando el kafan como un adorno honorable para ellos.",
-          "fa": "امام جعفر بن محمد الصادق علیه السلام به مؤمنان دستور می‌دهد که کفن‌های خوبی برای مردگان خود فراهم کنند. این گفته بر کرامت و مراقبت مناسب از مردگان تأکید دارد و کفن را به عنوان زینتی محترم برای آنان معرفی می‌کند.",
-          "fr": "L’Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام instruit les croyants à fournir de bons linceuls pour leurs défunts. Cette parole souligne la dignité et le soin approprié envers les morts, traitant le kafan comme une parure honorable pour eux.",
-          "id": "Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام mengajarkan kepada orang beriman untuk menyediakan kafan yang baik bagi orang yang meninggal. Pernyataan ini menekankan martabat dan perawatan yang layak bagi orang mati, memperlakukan kafan sebagai hiasan yang terhormat bagi mereka.",
-          "ru": "Имам Джаʿфар ибн Мухаммад ас-Садик عليه السلام наставляет верующих обеспечивать своих умерших хорошими саванами. Это высказывание подчеркивает достоинство и надлежащий уход за мертвыми, рассматривая кафан как почетное украшение для них.",
-          "tr": "İmam Ca'fer ibn Muhammed el-Sadık aleyhisselam, müminlere ölüleri için güzel kefenler hazırlamalarını öğütler. Bu söz, ölülerin onurunu ve uygun bakımı vurgular, kefeni onların şerefli bir süsü olarak kabul eder.",
-          "ur": "امام جعفر ابن محمد الصادق علیہ السلام مومنین کو ہدایت دیتے ہیں کہ وہ اپنے مرنے والوں کے لیے اچھے کفن فراہم کریں۔ یہ قول مردوں کی عزت اور مناسب دیکھ بھال کو اجاگر کرتا ہے، اور کفن کو ان کے لیے ایک معزز زینت کے طور پر پیش کرتا ہے۔",
-          "zh": "伊玛目贾法尔·伊本·穆罕默德·萨迪克 عليه السلام 指导信徒为逝者准备好的裹尸布。这句话强调了对死者的尊严和适当照顾，将裹尸布视为他们的尊贵装饰。"
-        },
         "tags": [
           "ethics",
           "jurisprudence",

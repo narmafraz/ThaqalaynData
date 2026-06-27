@@ -13,6 +13,145 @@
       "up": "/books/al-kafi:7:2:41"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ الْحَسَنِ التَّيْمِيِّ عَنْ أَخِيهِ أَحْمَدَ بْنِ الْحَسَنِ عَنْ أَبِيهِ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنِ ابْنِ رِبَاطٍ رَفَعَهُ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 24,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قَالَ أَمِيرُ الْمُؤْمِنِينَ ( عَلَيْهِ السَّلَامُ ) لَوْ أَنَّ رَجُلًا ذِمِّيّاً أَسْلَمَ وَ أَبُوهُ حَيٌّ وَ لِأَبِيهِ وَلَدٌ غَيْرُهُ ثُمَّ مَاتَ الْأَبُ وَرِثَهُ الْمُسْلِمُ جَمِيعَ مَالِهِ وَ لَمْ يَرِثْهُ وَلَدُهُ وَ لَا امْرَأَتُهُ مَعَ الْمُسْلِمِ شَيْئاً",
+            "chunk_type": "body",
+            "word_end": 60,
+            "word_start": 24
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدُ بْنُ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 349,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ الْحَسَنِ التَّيْمِيِّ",
+              "name_en": "Ali b. al-Hasan al-Taymi",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1309,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَخِيهِ أَحْمَدَ بْنِ الْحَسَنِ",
+              "name_en": "Akhihi Ahmad b. al-Hasan",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 208,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "جَعْفَرِ بْنِ مُحَمَّدٍ",
+              "name_en": "Ja'far ibn Muhammad",
+              "position": 5,
+              "role": "imam"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 413,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ رِبَاطٍ",
+              "name_en": "Ibn Ribat",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "أَمِيرُ الْمُؤْمِنِينَ",
+          "ذِمِّيّاً",
+          "وَرِثَهُ",
+          "جَمِيعَ مَالِهِ",
+          "وَلَدُهُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:114",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "4:115",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "8:75",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family",
+          "social_relations"
+        ],
+        "topics": [
+          "inheritance",
+          "financial_law",
+          "imams_biography"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مرفوع   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (23/219)"
       ],
@@ -93,7 +232,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:7:2:41:1",

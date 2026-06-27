@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ اَلْبَاقِرُ وَ اَلصَّادِقُ عَلَيْهِ اَلسَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল-বাকির ও আল-সাদিক, আল্লাহ তাদের উপর শান্তি বর্ষিত করুক, বলেছেন:",
-              "de": "Al-Baqir und Al-Sadiq, Friede sei mit ihnen, sagten:",
-              "en": "Al-Baqir and Al-Sadiq, peace be upon them, said:",
-              "es": "Al-Baqir y Al-Sadiq, la paz sea con ellos, dijeron:",
-              "fa": "اَلْباقِر و اَلصّادِق علیهماالسلام فرمودند:",
-              "fr": "Al-Baqir et Al-Sadiq, que la paix soit sur eux, ont dit :",
-              "id": "Al-Baqir dan Al-Sadiq, semoga keselamatan atas mereka, berkata:",
-              "ru": "Аль-Бакер и Аль-Садик, мир им, сказали:",
-              "tr": "El-Bakır ve El-Sadık, Allah'ın selamı üzerlerine olsun, şöyle buyurdular:",
-              "ur": "اَلْبَاقِر اور اَلصَّادِق علیہماالسلام نے فرمایا:",
-              "zh": "الباقروالصادقعليهمالسلامقالا:"
-            },
             "word_end": 6,
             "word_start": 0
           },
           {
             "arabic_text": "«لَا بَأْسَ أَنْ يَؤُمَّ اَلْأَعْمَى إِذَا رَضُوا بِهِ وَ كَانَ أَكْثَرَهُمْ قِرَاءَةً وَ أَفْقَهَهُمْ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি অন্ধ ব্যক্তি তাদের দ্বারা সন্তুষ্ট হয় এবং তাদের মধ্যে সবচেয়ে বেশি কোরআন তেলাওয়াত ও ফিকহে পারদর্শী হয়, তবে তার ইমামতি করার কোনো সমস্যা নেই।",
-              "de": "Es ist kein Problem, wenn eine blinde Person das Gebet leitet, sofern die Gemeinde mit ihm zufrieden ist und er unter ihnen der versierteste im Rezitieren und der gelehrteste im Fiqh ist.",
-              "en": "There is no issue with a blind person leading the prayer if they are satisfied with him and he is the most proficient among them in recitation and the most learned in fiqh.",
-              "es": "No hay problema en que una persona ciega dirija la oración si están satisfechos con él y él es el más competente en recitación y el más entendido en fiqh entre ellos.",
-              "fa": "اگر نابینا مورد رضایت آنان باشد و در قرائت و فقه از همه آنها فاضل‌تر باشد، اشکالی ندارد که امام جماعت باشد.",
-              "fr": "Il n'y a aucun problème à ce qu'une personne aveugle dirige la prière si les fidèles sont satisfaits de lui et qu'il est le plus compétent en récitation et le plus savant en fiqh parmi eux.",
-              "id": "Tidak masalah jika orang buta menjadi imam salat jika mereka ridha kepadanya dan dia adalah yang paling mahir dalam bacaan dan paling memahami fiqh di antara mereka.",
-              "ru": "Нет препятствий, чтобы слепой вел молитву, если они довольны им и он самый искусный среди них в чтении и самый сведущий в фикхе.",
-              "tr": "Eğer kör kişi onlardan razıysa ve onlar arasında en çok kıraat ve fıkıhta en bilginiyse, onun imamlık yapmasında bir sakınca yoktur.",
-              "ur": "اگر اندھے شخص سے وہ لوگ راضی ہوں اور وہ ان میں سب سے زیادہ قراءت اور فقہ میں فہیم ہو تو اس کے امامت کرنے میں کوئی حرج نہیں۔",
-              "zh": "如果盲人得到他们的认可且在诵读和伊斯兰教法方面最为精通，则他带领礼拜没有问题。"
-            },
             "word_end": 20,
             "word_start": 6
           }
@@ -71,25 +58,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَفْقَهَهُمْ": "the most knowledgeable among them in fiqh",
-            "اَلْأَعْمَى": "a blind person",
-            "رَضُوا": "they were satisfied and accepted him",
-            "قِرَاءَةً": "recitation, especially proper recitation relevant to prayer",
-            "يَؤُمَّ": "to lead others in congregational salat (prayer)"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَؤُمَّ",
+          "اَلْأَعْمَى",
+          "رَضُوا",
+          "قِرَاءَةً",
+          "أَفْقَهَهُمْ"
+        ],
         "related_quran": [
           {
             "ref": "49:13",
@@ -100,32 +75,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামে কি অন্ধ ব্যক্তি জামাতের সালাতের ইমামতি করতে পারে?",
-          "de": "Kann eine blinde Person im Islam das Gemeinschaftsgebet leiten?",
-          "en": "Can a blind person lead congregational prayer in Islam?",
-          "es": "¿Puede una persona ciega liderar la oración congregacional en el Islam?",
-          "fa": "آیا یک فرد نابینا می‌تواند در اسلام امام جماعت باشد؟",
-          "fr": "Une personne aveugle peut-elle diriger la prière en congrégation en Islam ?",
-          "id": "Apakah orang buta boleh memimpin salat berjamaah dalam Islam?",
-          "ru": "Может ли слепой вести коллективную молитву в исламе?",
-          "tr": "İslam'da kör bir kişi cemaat namazına imamlık yapabilir mi?",
-          "ur": "کیا اسلام میں اندھا شخص جماعت کی امامت کر سکتا ہے؟",
-          "zh": "盲人在伊斯兰教中可以带领集体礼拜吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি নির্দেশ করে যে, যদি অন্ধ ব্যক্তি সম্প্রদায় দ্বারা গৃহীত হন এবং তিনি তাদের মধ্যে কোরআন তেলাওয়াত ও ফিকহে শ্রেষ্ঠ হন, তবে তিনি জামাতের সালাতের ইমামতি করতে পারেন। এটি দেখায় যে ইমাম হওয়ার যোগ্যতা ধর্মীয় দক্ষতা ও সামাজিক গ্রহণযোগ্যতার উপর নির্ভর করে, শারীরিক দৃষ্টিশক্তির উপর নয়।",
-          "de": "Dieser Hadith besagt, dass eine blinde Person das gemeinschaftliche Gebet leiten darf, wenn die Gemeinde sie akzeptiert und sie in Rezitation und Fiqh überlegen ist. Er zeigt, dass die Eignung zur Gebetsleitung von religiöcher Kompetenz und gemeinschaftlicher Akzeptanz abhängt, nicht vom physischen Sehen.",
-          "en": "This hadith states that a blind person may lead congregational salat (prayer) if the worshippers accept him and he is superior to them in recitation and fiqh. It shows that eligibility for leading prayer depends on religious merit and communal acceptance, not on physical sight.",
-          "es": "Este hadiz indica que una persona ciega puede liderar la oración congregacional si los fieles lo aceptan y él es superior en recitación y fiqh. Muestra que la elegibilidad para liderar la oración depende del mérito religioso y la aceptación comunitaria, no de la vista física.",
-          "fa": "این حدیث بیان می‌کند که یک فرد نابینا می‌تواند امام جماعت باشد اگر مردم او را بپذیرند و در قرائت و فقه از دیگران برتر باشد. این نشان می‌دهد که شایستگی امامت به شایستگی دینی و پذیرش جمعی بستگی دارد، نه به بینایی جسمی.",
-          "fr": "Ce hadith indique qu'une personne aveugle peut diriger la prière en congrégation si les fidèles l'acceptent et qu'il est supérieur en récitation et en fiqh. Cela montre que l'éligibilité à diriger la prière dépend du mérite religieux et de l'acceptation communautaire, non de la vue physique.",
-          "id": "Hadis ini menyatakan bahwa orang buta boleh memimpin salat berjamaah jika para jamaah menerimanya dan dia lebih unggul dalam bacaan dan fiqh. Ini menunjukkan bahwa kelayakan memimpin salat bergantung pada kemampuan agama dan penerimaan komunitas, bukan pada penglihatan fisik.",
-          "ru": "Этот хадис говорит, что слепой может вести коллективную молитву, если прихожане его принимают и он превосходит их в чтении и фикхе. Это показывает, что право вести молитву зависит от религиозных заслуг и общественного признания, а не от физического зрения.",
-          "tr": "Bu hadis, bir kör kişinin cemaat namazına imamlık yapabileceğini, cemaatin onu kabul etmesi ve kıraat ile fıkıhta onlardan üstün olması halinde belirtir. Bu, imamlık için uygunluğun dini liyakat ve toplumsal kabul ile ilgili olduğunu, fiziksel görme ile alakalı olmadığını gösterir.",
-          "ur": "یہ حدیث بتاتی ہے کہ اندھا شخص جماعت کی امامت کر سکتا ہے اگر لوگ اسے قبول کریں اور وہ قراءت اور فقہ میں ان سے بہتر ہو۔ یہ ظاہر کرتا ہے کہ امامت کی اہلیت دینی قابلیت اور اجتماعی قبولیت پر منحصر ہے، نہ کہ جسمانی نظر پر۔",
-          "zh": "此圣训说明，盲人若被信众接受且在诵读与伊斯兰教法方面优于他们，可领导集体礼拜。表明领导礼拜的资格取决于宗教能力和社区接受度，而非视力。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

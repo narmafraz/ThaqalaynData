@@ -16,80 +16,41 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَرُوِيَ عَنِ ابْنِ عَبَّاسٍ أَيْضًا أَنَّهُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং ইবনু ‘আব্বাস রাদিয়াল্লাহু ‘আনহু থেকেও বর্ণিত হয়েছে যে তিনি বলেছেন:",
-              "de": "Und es wurde auch von Ibn 'Abbas überliefert, dass er sagte:",
-              "en": "And it was also narrated from Ibn 'Abbas that he said:",
-              "es": "Y también fue narrado de Ibn 'Abbas que dijo:",
-              "fa": "و نیز از ابن عباس رضی‌الله‌عنه روایت شده است که گفت:",
-              "fr": "Et il a également été rapporté d'Ibn 'Abbas qu'il a dit :",
-              "id": "Dan juga diriwayatkan dari Ibn 'Abbas bahwa ia berkata:",
-              "ru": "И также передается от Ибн 'Аббаса, что он сказал:",
-              "tr": "Ve bu, İbn Abbas'tan da rivayet edilmiştir ki o şöyle dedi:",
-              "ur": "اور یہ بھی ابن عباس رضی اللہ عنہ سے روایت کیا گیا ہے کہ انہوں نے فرمایا:",
-              "zh": "并且也有传自伊本·阿巴斯，他说："
-            },
             "word_end": 7,
             "word_start": 0
           },
           {
             "arabic_text": "غَسْلَتَانِ وَمَسْحَتَانِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "দুইবার ধোয়া এবং দুইবার মাসেহ করা।",
-              "de": "Zweimal Waschen und zweimal Wischen.",
-              "en": "Two washings and two wipings.",
-              "es": "Dos lavados y dos pasadas de la mano húmeda.",
-              "fa": "دو بار شستن و دو بار مسح کردن.",
-              "fr": "Deux lavages et deux essuyages.",
-              "id": "Dua kali membasuh dan dua kali mengusap.",
-              "ru": "Два омовения и два протирания.",
-              "tr": "İki yıkama ve iki mesh.",
-              "ur": "دو دھونے اور دو مسح۔",
-              "zh": "两次洗和两次抹。"
-            },
             "word_end": 9,
             "word_start": 7
           },
           {
             "arabic_text": "وَكُلُّ هٰذِهِ الْأَخْبَارِ قَدْ رَوَاهَا مُخَالِفُونَا، وَالَّذِي تَفَرَّدَ بِهِ أَصْحَابُنَا أَكْثَرُ مِنْ أَنْ يُحْصَى، وَأَنَا أَذْكُرُ طَرَفًا مِنْ ذٰلِكَ إِنْ شَاءَ اللَّهُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এইসব বর্ণনা নিঃসন্দেহে আমাদের বিরোধীদের পক্ষ থেকেও বর্ণিত হয়েছে, আর আমাদের সাথিগণ যা এককভাবে বর্ণনা করেছেন তা গণনার বাইরে; এবং আল্লাহ চাইলে আমি তার কিছু অংশ উল্লেখ করব।",
-              "de": "All diese Überlieferungen sind in der Tat auch von denen überliefert worden, die uns widersprechen, und das, was unsere Gefährten allein überliefert haben, ist mehr, als man zählen kann; und ich werde, so Allah will, einen Teil davon erwähnen.",
-              "en": "All of these reports have indeed been narrated by those who oppose us, and that which our companions have uniquely transmitted is more than can be counted; and I shall mention a portion of that, if Allah wills.",
-              "es": "Todos estos relatos han sido narrados, en efecto, por quienes nos contradicen, y aquello que nuestros compañeros han transmitido de manera exclusiva es más de lo que puede contarse; y mencionaré una parte de ello, si Allah quiere.",
-              "fa": "همه این گزارش‌ها بی‌تردید از سوی مخالفان ما نیز روایت شده است، و آنچه یاران ما به‌طور ویژه نقل کرده‌اند بیش از آن است که شمارش شود؛ و من، اگر خدا بخواهد، بخشی از آن را یاد خواهم کرد.",
-              "fr": "Tous ces récits ont certes été rapportés par ceux qui s'opposent à nous, et ce que nos compagnons ont transmis de manière exclusive est plus nombreux qu'on ne peut le compter ; et j'en mentionnerai une partie, si Allah le veut.",
-              "id": "Semua riwayat ini memang telah diriwayatkan oleh orang-orang yang menentang kami, dan apa yang secara khusus diriwayatkan oleh para sahabat kami lebih banyak daripada yang dapat dihitung; dan aku akan menyebutkan sebagian darinya, jika Allah menghendaki.",
-              "ru": "Все эти сообщения, без сомнения, были переданы и теми, кто противоречит нам, а то, что наши сподвижники передали исключительно, больше, чем можно сосчитать; и я упомяну часть этого, если пожелает Аллах.",
-              "tr": "Bu rivayetlerin hepsi gerçekten bize muhalefet edenler tarafından da rivayet edilmiştir; ashabımızın tek başına naklettiği şey ise sayılmayacak kadar çoktur. Allah dilerse bunun bir kısmını zikredeceğim.",
-              "ur": "یہ تمام روایات یقیناً ہمارے مخالفین نے بھی روایت کی ہیں، اور جو کچھ ہمارے اصحاب نے منفرد طور پر نقل کیا ہے وہ شمار سے باہر ہے؛ اور میں ان میں سے کچھ کا ذکر کروں گا، اگر اللہ چاہے۔",
-              "zh": "所有这些传述确实也已由反对我们的人传述，而我们的同伴单独传出的内容多得不可胜数；如果真主意欲，我将提及其中一部分。"
-            },
             "word_end": 31,
             "word_start": 9
           },
           {
             "arabic_text": "فَمِنْ ذٰلِكَ: نَزَلَ بِهِ جَبْرَئِيلُ عَلَيْهِ السَّلَامُ.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "এর মধ্যে রয়েছে: জিবরাঈল عليه السلام এটি এভাবেই নাযিল করেছেন।",
-              "de": "Dazu gehört: Jibra'il عليه السلام hat es damit herabgebracht.",
-              "en": "Among that is: Jibra'il عليه السلام brought it down with this.",
-              "es": "Entre ello está: Jibra'il عليه السلام lo hizo descender con esto.",
-              "fa": "از جمله آن این است: جبرئیل علیه‌السلام آن را با این نازل کرد.",
-              "fr": "Parmi cela : Jibra'il عليه السلام l'a fait descendre avec cela.",
-              "id": "Di antaranya adalah: Jibra'il عليه السلام menurunkannya dengan ini.",
-              "ru": "Среди этого: Джибра'иль عليه السلام ниспослал это с этим.",
-              "tr": "Bunlardan biri şudur: Cibril عليه السلام bunu bununla indirdi.",
-              "ur": "ان میں سے یہ ہے: جبرئیل علیہ السلام نے اسے اس کے ساتھ نازل کیا۔",
-              "zh": "其中之一是：吉卜里勒 عليه السلام以此降示了它。"
-            },
             "word_end": 38,
             "word_start": 31
           }
@@ -133,58 +94,20 @@
             "phrase_en": "If Allah wills"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَصْحَابُنَا": "Our companions; the followers and transmitters associated with the Shia tradition.",
-            "الْأَخْبَارِ": "Narrations or reports transmitted on the issue.",
-            "جَبْرَئِيلُ": "Jibra'il عليه السلام, the angel who brought down divine instruction.",
-            "غَسْلَتَانِ": "Two washings in the description of wudu (ablution).",
-            "مَسْحَتَانِ": "Two wipings in the description of wudu (ablution).",
-            "مُخَالِفُونَا": "Those who oppose us; i.e., transmitters outside the Imamiyyah position."
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "غَسْلَتَانِ",
+          "مَسْحَتَانِ",
+          "الْأَخْبَارِ",
+          "مُخَالِفُونَا",
+          "أَصْحَابُنَا",
+          "جَبْرَئِيلُ"
+        ],
         "related_quran": [
           {
             "ref": "5:6",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিসটি ওযুর নির্ধারিত পদ্ধতি সম্পর্কে কী বলে?",
-          "de": "Was sagt dieser Hadith über die vorgeschriebene Form des wudu (der Gebetswaschung)?",
-          "en": "What does this hadith say about the prescribed form of wudu (ablution)?",
-          "es": "¿Qué dice este hadiz sobre la forma prescrita del wudu (ablución)?",
-          "fa": "این حدیث درباره شکل مقررِ وضو چه می‌گوید؟",
-          "fr": "Que dit ce hadith au sujet de la forme prescrite du wudu (ablution) ?",
-          "id": "Apa yang dikatakan hadis ini tentang bentuk wudu yang disyariatkan?",
-          "ru": "Что говорит этот хадис о предписанной форме вуду (омовения)?",
-          "tr": "Bu hadis, abdestin (wudu) belirlenmiş şekli hakkında ne söylüyor?",
-          "ur": "یہ حدیث وضو کی مقررہ صورت کے بارے میں کیا کہتی ہے؟",
-          "zh": "这段圣训对规定的小净形式说了什么？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনাটি ওযুর নির্ধারিত পদ্ধতি সম্পর্কে, যেখানে তা দুইবার ধোয়া এবং দুইবার মাসেহ করা হিসেবে বর্ণিত হয়েছে। এতে আরও জোর দেওয়া হয়েছে যে এই বোঝাপড়াকে সমর্থনকারী বর্ণনাগুলো ব্যাপকভাবে, এমনকি বিরোধীদের মাধ্যমেও, বর্ণিত হয়েছে; আর সাহাবিদের বর্ণনা এর চেয়েও বেশি।",
-          "de": "Dieser Bericht betrifft die vorgeschriebene Form des wudu (der Gebetswaschung) und beschreibt sie als zweimaliges Waschen und zweimaliges Wischen. Er betont auch, dass Berichte, die dieses Verständnis stützen, weit verbreitet überliefert wurden, sogar von Gegnern, während die Überlieferungen der Gefährten noch zahlreicher sind.",
-          "en": "This report concerns the prescribed form of wudu (ablution), expressing it as two washings and two wipings. It also emphasizes that reports supporting this understanding were transmitted broadly, including by opponents, while the transmissions of the companions are even more numerous.",
-          "es": "Este relato trata sobre la forma prescrita del wudu (ablución), expresándola como dos lavados y dos pasadas de la mano húmeda. También subraya que los relatos que apoyan esta comprensión fueron transmitidos ampliamente, incluso por los opositores, mientras que las transmisiones de los compañeros son aún más numerosas.",
-          "fa": "این گزارش درباره شکل مقررِ وضو است و آن را دو بار شستن و دو بار مسح کردن بیان می‌کند. همچنین تأکید می‌کند که گزارش‌های مؤید این فهم به‌طور گسترده، حتی از سوی مخالفان، نقل شده‌اند و نقل‌های صحابه از آن هم بیشتر است.",
-          "fr": "Ce récit concerne la forme prescrite du wudu (ablution), en l'exprimant comme deux lavages et deux essuyages. Il souligne aussi que les récits appuyant cette compréhension ont été transmis largement, y compris par les opposants, tandis que les transmissions des compagnons sont encore plus nombreuses.",
-          "id": "Riwayat ini berkaitan dengan bentuk wudu yang disyariatkan, yang dinyatakan sebagai dua kali membasuh dan dua kali mengusap. Riwayat ini juga menegaskan bahwa laporan-laporan yang mendukung pemahaman ini telah diriwayatkan secara luas, termasuk oleh pihak yang menentang, sementara riwayat para sahabat bahkan lebih banyak lagi.",
-          "ru": "Этот рассказ касается предписанной формы вуду (омовения), выражая ее как два омовения и два протирания. Он также подчеркивает, что сообщения, подтверждающие такое понимание, были широко переданы, в том числе противниками, тогда как переданий сподвижников еще больше.",
-          "tr": "Bu rivayet, abdestin (wudu) belirlenmiş şeklini konu edinir ve onu iki yıkama ile iki mesh olarak ifade eder. Ayrıca bu anlayışı destekleyen rivayetlerin, muhalifler tarafından bile geniş biçimde nakledildiğini; sahabenin nakillerinin ise bundan da daha çok olduğunu vurgular.",
-          "ur": "یہ روایت وضو کی مقررہ صورت کے بارے میں ہے، جسے دو دھونے اور دو مسح کے طور پر بیان کیا گیا ہے۔ اس میں یہ بھی زور دیا گیا ہے کہ اس فہم کی تائید کرنے والی روایات وسیع طور پر، حتیٰ کہ مخالفین کے ذریعے بھی، نقل ہوئیں، جبکہ صحابہ کی روایات اس سے بھی زیادہ ہیں۔",
-          "zh": "这段传述涉及规定的wudu（小净）形式，将其表述为两次洗和两次抹。它也强调，支持这一理解的传述已被广泛传出，甚至包括反对者所传，而圣门弟子的传述则更多。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

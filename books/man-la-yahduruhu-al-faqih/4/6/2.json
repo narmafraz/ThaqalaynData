@@ -17,99 +17,47 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَفِي رِوَايَةِ هِشَامٍ وَحَفْصِ بْنِ الْبَخْتَرِيِّ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "হিশাম ও হাফস ইবনে আল-বখতারির বর্ণনায়:",
-              "de": "Und in der Überlieferung von Hischam und Hafs ibn al-Bakhtari:",
-              "en": "And in the narration of Hisham and Hafs ibn al-Bakhtari:",
-              "es": "Y en la narración de Hisham y Hafs ibn al-Bakhtari:",
-              "fa": "و در روایت هشام و حفص بن البختری:",
-              "fr": "Et dans la narration de Hisham et Hafs ibn al-Bakhtari :",
-              "id": "Dan dalam riwayat Hisham dan Hafs ibn al-Bakhtari:",
-              "ru": "И в передаче Хишама и Хафса ибн аль-Бахтари:",
-              "tr": "Hişam ve Hafs ibn al-Bakhtari rivayetinde:",
-              "ur": "اور ہشام اور حفص ابن البختری کی روایت میں:",
-              "zh": "在希沙姆和哈夫斯·伊本·巴赫塔里的传述中："
-            },
             "word_end": 6,
             "word_start": 0
           },
           {
             "arabic_text": "أَنَّهُ دَخَلَ نِسْوَةٌ عَلَى أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ فَسَأَلَتْهُ امْرَأَةٌ مِنْهُنَّ عَنِ السَّحْقِ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "একদল নারী আবু আবদুল্লাহ علیہ السلام এর কাছে প্রবেশ করল, এবং তাদের মধ্যে একজন নারী সিহাক (ত্রিবাদিজম) সম্পর্কে তাকে প্রশ্ন করল।",
-              "de": "Eine Gruppe von Frauen trat zu Abu Abdullah عليه السلام und eine Frau unter ihnen fragte ihn nach sihaq (Tribadismus).",
-              "en": "A group of women entered upon Abu Abdullah عليه السلام, and one woman among them asked him about sihaq (tribadism).",
-              "es": "Un grupo de mujeres entró ante Abu Abdullah عليه السلام, y una mujer entre ellas le preguntó sobre sihaq (tribadismo).",
-              "fa": "گروهی از زنان نزد ابو عبدالله علیه السلام آمدند و یکی از آنها درباره سیحاق (لزبینیسم) از ایشان پرسید.",
-              "fr": "Un groupe de femmes est entré auprès d'Abu Abdullah عليه السلام, et une femme parmi elles lui a demandé au sujet du sihaq (tribadisme).",
-              "id": "Sekelompok wanita memasuki hadapan Abu Abdullah عليه السلام, dan seorang wanita di antara mereka bertanya tentang sihaq (tribadisme).",
-              "ru": "Группа женщин вошла к Абу Абдаллах عليه السلام, и одна из них спросила его о сигах (трибадизме).",
-              "tr": "Bir grup kadın, Ebu Abdullah عليه السلام'ın yanına girdi ve içlerinden bir kadın sihaq (lezbiyenlik) hakkında ona sordu.",
-              "ur": "ایک گروہ خواتین ابو عبداللہ علیہ السلام کے پاس آئیں، اور ان میں سے ایک عورت نے ان سے سِحاق (لیسگی) کے بارے میں سوال کیا۔",
-              "zh": "一群妇女进入阿布·阿卜杜拉 عليه السلام面前，其中一位妇女询问她关于西哈克（女同性恋行为）。"
-            },
             "word_end": 20,
             "word_start": 6
           },
           {
             "arabic_text": "فَقَالَ «حَدُّهَا حَدُّ الزَّانِي»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তাহলে তিনি বললেন: \"এর حد, জালেমের হদ্দের সমান।\"",
-              "de": "Er sagte: „Seine Strafe ist die Strafe des Ehebrechers.“",
-              "en": "So he said: \"Its legal punishment is the legal punishment of the adulterer.\"",
-              "es": "Entonces él dijo: \"Su castigo legal es el castigo legal del adúltero.\"",
-              "fa": "پس فرمود: «حد آن همان حد زانی است.»",
-              "fr": "Il dit alors : « Sa peine légale est la peine légale de l'adultère. »",
-              "id": "Maka beliau berkata: \"Haddnya adalah hadd bagi pezina.\"",
-              "ru": "Он сказал: «Его предел — это предел прелюбодея.»",
-              "tr": "O da dedi ki: \"Onun hadd cezası, zinacıların hadd cezasıdır.\"",
-              "ur": "تو انہوں نے فرمایا: \"اس کا حد، زانی کے حد کے برابر ہے۔\"",
-              "zh": "他说：“其刑罚即为通奸者的刑罚。”"
-            },
             "word_end": 24,
             "word_start": 20
           },
           {
             "arabic_text": "فَقَالَتِ امْرَأَةٌ مَا ذَكَرَ اللَّهُ ذَلِكَ فِي الْقُرْآنِ فَقَالَ «بَلَى»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন নারী বলল: \"আল্লাহ তা কুরআনে উল্লেখ করেনি।\" তিনি বললেন: \"হ্যাঁ, অবশ্যই।\"",
-              "de": "Eine Frau sagte: „Allah hat das im Qur'an nicht erwähnt.“ Er sagte: „Doch, tatsächlich.“",
-              "en": "A woman said: \"Allah has not mentioned that in the Qur'an.\" He said: \"Yes, indeed.\"",
-              "es": "Una mujer dijo: \"Alá no ha mencionado eso en el Corán.\" Él dijo: \"Sí, en verdad.\"",
-              "fa": "زنی گفت: «خداوند این را در قرآن ذکر نکرده است.» او گفت: «بله، قطعاً.»",
-              "fr": "Une femme dit : « Allah n'a pas mentionné cela dans le Coran. » Il répondit : « Si, en effet. »",
-              "id": "Seorang wanita berkata: \"Allah tidak menyebutkan itu dalam Al-Qur'an.\" Dia berkata: \"Ya, memang.\"",
-              "ru": "Одна женщина сказала: «Аллах не упомянул это в Коране.» Он сказал: «Да, действительно.»",
-              "tr": "Bir kadın dedi ki: \"Allah bunu Kur'an'da zikretmemiştir.\" O dedi ki: \"Evet, kesinlikle.\"",
-              "ur": "ایک عورت نے کہا: \"اللہ نے قرآن میں اس کا ذکر نہیں کیا۔\" انہوں نے کہا: \"ہاں، بالکل۔\"",
-              "zh": "一位妇女说：“安拉在古兰经中未提及此事。”他说：“是的，确实如此。”"
-            },
             "word_end": 34,
             "word_start": 24
           },
           {
             "arabic_text": "فَقَالَتْ أَيْنَ هُوَ قَالَ «هُنَّ أَصْحَابُ الرَّسِّ».",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "সে বলল: “এটা কোথায়?” তিনি বললেন: “তারা أصحاب الرَّصّ।”",
-              "de": "Sie sagte: „Wo ist es?“ Er sagte: „Sie sind die Leute von al-Rass.“",
-              "en": "She said: \"Where is it?\" He said: \"They are the People of al-Rass.\"",
-              "es": "Ella dijo: \"¿Dónde está?\" Él dijo: \"Son la gente de al-Rass.\"",
-              "fa": "او گفت: «کجاست؟» او گفت: «آنها اصحاب الرَّصّ هستند.»",
-              "fr": "Elle dit : « Où est-ce ? » Il répondit : « Ce sont les gens d’al-Rass. »",
-              "id": "Dia berkata: \"Di mana itu?\" Dia berkata: \"Mereka adalah Ahli al-Rass.\"",
-              "ru": "Она спросила: «Где это?» Он ответил: «Они — люди аль-Расса.»",
-              "tr": "Kadın dedi ki: \"Nerede?\" O dedi ki: \"Onlar er-Rass'ın ehli.\"",
-              "ur": "اس نے کہا: \"یہ کہاں ہے؟\" انہوں نے کہا: \"وہ لوگ أصحاب الرَّصّ ہیں۔\"",
-              "zh": "她说：“它在哪里？”他说：“他们是الرَّصّ之人。”"
-            },
             "word_end": 41,
             "word_start": 34
           }
@@ -143,25 +91,13 @@
             "phrase_en": "Remembrance of Allah"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَصْحَابُ الرَّسِّ": "the People of al-Rass, a Qur'anic people referenced by the Imam",
-            "الزَّانِي": "the adulterer or fornicator",
-            "السَّحْقِ": "sihaq; tribadism or lesbian sexual conduct",
-            "الْقُرْآنِ": "the Qur'an",
-            "حَدُّهَا": "its prescribed legal punishment"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "السَّحْقِ",
+          "حَدُّهَا",
+          "الزَّانِي",
+          "الْقُرْآنِ",
+          "أَصْحَابُ الرَّسِّ"
+        ],
         "related_quran": [
           {
             "ref": "25:38",
@@ -172,32 +108,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস সিহাকের শাস্তি এবং কুরআনে আল-রসের লোকদের সাথে এর সংযোগ সম্পর্কে কী বলে?",
-          "de": "Was sagt dieser Hadith über die Strafe für Sihaq und seine Verbindung zu den Leuten von al-Rass im Qur'an?",
-          "en": "What does this hadith say about the punishment for sihaq and its connection to the People of al-Rass in the Qur'an?",
-          "es": "¿Qué dice este hadiz sobre el castigo para el sihaq y su conexión con los Gente de al-Rass en el Corán?",
-          "fa": "این حدیث درباره مجازات سیحاق و ارتباط آن با اصحاب الرص در قرآن چه می‌گوید؟",
-          "fr": "Que dit ce hadith sur la punition du sihaq et sa connexion avec les Gens d'al-Rass dans le Coran ?",
-          "id": "Apa yang dikatakan hadis ini tentang hukuman untuk sihaq dan kaitannya dengan Ahl al-Rass dalam Al-Qur'an?",
-          "ru": "Что говорит этот хадис о наказании за сигах и его связи с народом аль-Расса в Коране?",
-          "tr": "Bu hadis sihaq cezası ve Kur'an'da Ehlü'r-Rass ile bağlantısı hakkında ne diyor?",
-          "ur": "یہ حدیث سِحاق کے سزا اور قرآن میں اہل الرص سے اس کے تعلق کے بارے میں کیا کہتی ہے؟",
-          "zh": "此圣训关于西哈克的刑罚及其与古兰经中阿尔-拉斯之人的关联说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি সিহাক সম্পর্কে একটি আইনগত বিধান বর্ণনা করে, যা এর হদ্দ জিনার সমান। এটি ইমামের দ্বারা আল-রসের লোকদের কুরআনিক ইঙ্গিত হিসেবে চিহ্নিতকরণও উপস্থাপন করে, যা আইনগত শিক্ষা ও কুরআনিক ব্যাখ্যার সংযোগ ঘটায়।",
-          "de": "Dieser Hadith berichtet über eine rechtliche Regelung zum Sihaq und besagt, dass dessen Hadd dem des Zina entspricht. Er zeigt auch die Identifikation des Imams der Leute von al-Rass als eine koranische Anspielung in Verbindung mit dieser Angelegenheit und verbindet rechtliche Lehre mit koranischer Interpretation.",
-          "en": "This hadith reports a legal ruling on sihaq, stating that its hadd is the same as that of zina. It also presents the Imam’s identification of the People of al-Rass as a Qur'anic allusion connected to this matter, linking legal teaching with Qur'anic interpretation.",
-          "es": "Este hadiz reporta un fallo legal sobre el sihaq, indicando que su hadd es igual al de la zina. También presenta la identificación del Imam de los Gente de al-Rass como una alusión coránica relacionada con este asunto, vinculando la enseñanza legal con la interpretación coránica.",
-          "fa": "این حدیث حکم شرعی سیحاق را گزارش می‌دهد که حد آن همان حد زنا است. همچنین اشاره امام علیه السلام به اصحاب الرص به عنوان تلمیح قرآنی مرتبط با این موضوع را ارائه می‌دهد و آموزش حقوقی را با تفسیر قرآنی پیوند می‌دهد.",
-          "fr": "Ce hadith rapporte un jugement légal sur le sihaq, indiquant que son hadd est le même que celui de la zina. Il présente également l'identification par l'Imam des Gens d'al-Rass comme une allusion coranique liée à cette affaire, liant l'enseignement légal à l'interprétation coranique.",
-          "id": "Hadis ini melaporkan hukum syar'i tentang sihaq, menyatakan bahwa haddnya sama dengan zina. Juga menyajikan identifikasi Imam terhadap Ahl al-Rass sebagai alusi Qur'ani yang terkait dengan masalah ini, menghubungkan ajaran hukum dengan tafsir Qur'an.",
-          "ru": "Этот хадис сообщает о правовом постановлении по сигах, утверждая, что его хадд равен хадду за зина. Также он представляет идентификацию Имамом народа аль-Расса как кораническую аллюзию, связанную с этим вопросом, связывая правовое учение с коранической интерпретацией.",
-          "tr": "Bu hadis, sihaq hakkında yasal hükmü bildirir; haddinin zina ile aynı olduğunu belirtir. Ayrıca İmam'ın, bu meseleyle bağlantılı olarak Kur'an'daki Ehlü'r-Rass'a işaretini sunar ve yasal öğretiyi Kur'an tefsiriyle bağdaştırır.",
-          "ur": "یہ حدیث سِحاق کے بارے میں قانونی حکم بیان کرتی ہے کہ اس کا حد زنا کے برابر ہے۔ یہ امام علیہ السلام کی جانب سے اہل الرص کی قرآنی تلمیح کی نشاندہی بھی کرتی ہے، جو قانونی تعلیم کو قرآنی تفسیر سے جوڑتی ہے۔",
-          "zh": "此圣训报告了关于西哈克的法律裁决，指出其刑罚与通奸相同。它还展示了伊玛目将阿尔-拉斯之人识别为与此事相关的古兰经暗示，将法律教导与古兰经解释联系起来。"
-        },
         "tags": [
           "jurisprudence",
           "quran_commentary",

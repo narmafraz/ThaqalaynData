@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَفِي رِوَايَةِ السَّكُونِيِّ قَالَ قَالَ عَلِيٌّ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং আল-সাকুনির বর্ণনায় তিনি বললেন: আলী عليه السلام বলেছেন:",
-              "de": "Und in der Überlieferung von al-Sakuni sagte er: Ali عليه السلام sagte:",
-              "en": "And in the narration of al-Sakuni, he said: Ali عليه السلام said:",
-              "es": "Y en la narración de al-Sakuni, dijo: Alí عليه السلام dijo:",
-              "fa": "و در روایت السکونی گفته شده است: علی علیه السلام فرمود:",
-              "fr": "Et dans la narration d'al-Sakuni, il a dit : Ali عليه السلام a dit :",
-              "id": "Dan dalam riwayat al-Sakuni, beliau berkata: Ali علیه السلام berkata:",
-              "ru": "И в передаче аль-Сакуни он сказал: Али عليه السلام сказал:",
-              "tr": "Ve es-Sakuni rivayetinde şöyle dedi: Ali عليه السلام şöyle buyurdu:",
-              "ur": "اور روایتِ السکونی میں فرمایا: علی علیہ السلام نے کہا:",
-              "zh": "在السکونی的传述中他说：عليعليهالسلام说："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "فِي رَجُلٍ آلَى مِنِ امْرَأَتِهِ وَظَاهَرَ فِي كَلِمَةٍ وَاحِدَةٍ قَالَ عَلَيْهِ كَفَّارَةٌ وَاحِدَةٌ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন পুরুষ সম্পর্কে যিনি তাঁর স্ত্রীর প্রতি একক বাক্যে ইলাআ ও জিহার করেছেন, তিনি বললেন: \"তার উপর একটি কাফফারা واجب।\"",
-              "de": "Bezüglich eines Mannes, der von seiner Frau īlāʾ und ẓihār in einer einzigen Aussage vollzog, sagte er: „Auf ihm lastet eine einzige Kaffara.“",
-              "en": "Regarding a man who made īlāʾ from his wife and performed ẓihār in a single statement, he said: \"Upon him is one expiation.\"",
-              "es": "Respecto a un hombre que hizo īlāʾ y ẓihār a su esposa en una sola declaración, dijo: \"Sobre él recae una expiación.\"",
-              "fa": "در مورد مردی که از همسرش ایلاء و ظِهار را در یک جمله انجام داد، فرمود: «بر او یک کفاره واجب است.»",
-              "fr": "Concernant un homme qui a fait īlāʾ et ẓihār à sa femme dans une seule déclaration, il a dit : « Sur lui incombe une seule expiation. »",
-              "id": "Mengenai seorang pria yang melakukan īlāʾ dan ẓihār terhadap istrinya dalam satu pernyataan, beliau berkata: \"Atasnya wajib satu kaffarah.\"",
-              "ru": "Относительно мужчины, который совершил иля и зихар в одном высказывании в адрес своей жены, он сказал: «На него возлагается одна каффара.»",
-              "tr": "Eşine tek bir ifadede ilâ ve zihar yapan bir adam hakkında şöyle dedi: \"Üzerine bir kefaret düşer.\"",
-              "ur": "ایک مرد کے بارے میں جس نے اپنی بیوی سے اِلاء اور ظہار ایک ہی بیان میں کیا، انہوں نے فرمایا: \"اس پر ایک کفارہ واجب ہے۔\"",
-              "zh": "关于一名男子对妻子在一句话中同时进行إلاء和ظہار，他说：“他应当承担一次赎罪。”"
-            },
             "word_end": 21,
             "word_start": 8
           }
@@ -81,27 +68,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "آلَى": "he made an oath of abstention from marital relations",
-            "السَّكُونِيِّ": "the narrator al-Sakuni",
-            "امْرَأَتِهِ": "his wife",
-            "رِوَايَةِ": "a transmitted narration or report",
-            "ظَاهَرَ": "he pronounced ẓihār against his wife",
-            "كَفَّارَةٌ وَاحِدَةٌ": "one expiation only",
-            "كَلِمَةٍ وَاحِدَةٍ": "a single statement or utterance"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رِوَايَةِ",
+          "السَّكُونِيِّ",
+          "آلَى",
+          "امْرَأَتِهِ",
+          "ظَاهَرَ",
+          "كَلِمَةٍ وَاحِدَةٍ",
+          "كَفَّارَةٌ وَاحِدَةٌ"
+        ],
         "related_quran": [
           {
             "ref": "58:2",
@@ -120,32 +95,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি একজন পুরুষ একক বাক্যে তাঁর স্ত্রীর বিরুদ্ধে ইলাআ ও জিহার একসঙ্গে করেন, তাহলে তিনি কি একটি কাফফারা দেন নাকি তার বেশি?",
-          "de": "Wenn ein Mann īlāʾ und ẓihār gegen seine Frau in einer einzigen Aussage kombiniert, schuldet er dann eine oder mehrere Kaffara?",
-          "en": "If a man combines īlāʾ and ẓihār against his wife in one statement, does he owe one expiation or more?",
-          "es": "Si un hombre combina īlāʾ y ẓihār contra su esposa en una sola declaración, ¿debe pagar una expiación o más?",
-          "fa": "اگر مردی ایلاء و ظِهار را در یک جمله نسبت به همسرش انجام دهد، آیا یک کفاره کافی است یا بیشتر؟",
-          "fr": "Si un homme combine īlāʾ et ẓihār contre sa femme dans une seule déclaration, doit-il une seule expiation ou plus ?",
-          "id": "Jika seorang pria menggabungkan īlāʾ dan ẓihār terhadap istrinya dalam satu pernyataan, apakah dia wajib membayar satu kaffarah atau lebih?",
-          "ru": "Если мужчина сочетает иля и зихар против своей жены в одном высказывании, должен ли он выплатить одну каффару или больше?",
-          "tr": "Bir adam eşine karşı tek bir ifadede ilâ ve zihar yaparsa, bir kefaret mi yoksa daha fazlası mı borçludur?",
-          "ur": "اگر کوئی مرد اپنی بیوی کے خلاف ایک ہی بیان میں اِلاء اور ظہار کرے تو کیا اس پر ایک کفارہ واجب ہے یا زیادہ؟",
-          "zh": "如果一名男子对妻子在一句话中同时进行إلاء和ظہار，他应当承担一次赎罪还是多次？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি এমন এক পুরুষের আইনি বিধান প্রদান করে যিনি একক বাক্যে তাঁর স্ত্রীর প্রতি ইলাআ ও জিহার করেন। ইমাম আলী عليه السلام নির্দেশ দেন যে এমন ক্ষেত্রে শুধুমাত্র একটি কাফফারা প্রযোজ্য, যা সম্মিলিত উক্তির আইনি ব্যাখ্যা নির্দেশ করে।",
-          "de": "Dieser Hadith gibt eine Rechtsvorschrift bezüglich eines Mannes, der īlāʾ und ẓihār in einer einzigen Aussage gegenüber seiner Frau kombiniert. Imam Ali عليه السلام entscheidet, dass in einem solchen Fall nur eine Kaffara fällig ist, was die rechtliche Behandlung der kombinierten Äußerung als eine einzige Sühne zeigt.",
-          "en": "This hadith gives a legal ruling concerning a man who combines īlāʾ and ẓihār in one statement directed toward his wife. Imam Ali عليه السلام rules that only a single kaffarah is due in such a case, indicating the legal treatment of the combined utterance as requiring one expiation.",
-          "es": "Este hadiz establece una regla legal sobre un hombre que combina īlāʾ y ẓihār en una sola declaración dirigida a su esposa. El Imam Ali عليه السلام dictamina que solo se debe una expiación, indicando el tratamiento legal de la expresión combinada como que requiere una sola expiación.",
-          "fa": "این حدیث حکم شرعی مردی را بیان می‌کند که ایلاء و ظِهار را در یک جمله نسبت به همسرش انجام می‌دهد. امام علی علیه السلام حکم می‌کند که در چنین حالتی تنها یک کفاره واجب است که نشان‌دهنده نحوه برخورد قانونی با بیان ترکیبی است.",
-          "fr": "Ce hadith donne un jugement légal concernant un homme qui combine īlāʾ et ẓihār dans une seule déclaration adressée à sa femme. L'Imam Ali عليه السلام juge qu'une seule kaffara est due dans ce cas, indiquant le traitement légal de l'énoncé combiné comme nécessitant une seule expiation.",
-          "id": "Hadis ini memberikan hukum mengenai seorang pria yang menggabungkan īlāʾ dan ẓihār dalam satu pernyataan kepada istrinya. Imam Ali عليه السلام memutuskan bahwa hanya satu kaffarah yang wajib dalam kasus ini, menunjukkan perlakuan hukum terhadap ucapan gabungan tersebut.",
-          "ru": "Этот хадис содержит юридическое постановление относительно мужчины, который сочетает иля и зихар в одном высказывании, направленном к своей жене. Имам Али عليه السلام постановляет, что в таком случае требуется только одна каффара, что указывает на юридическое рассмотрение объединённого высказывания как требующего одной искупительной жертвы.",
-          "tr": "Bu hadis, eşine tek bir ifadede ilâ ve zihar yapan bir adam hakkında hukuki hükmü verir. İmam Ali عليه السلام, böyle bir durumda sadece bir kefaret gerektiğini hükmeder; bu, birleşik ifadenin hukuki muamelesinin tek bir kefaret gerektirdiğini gösterir.",
-          "ur": "یہ حدیث ایک ایسے مرد کے بارے میں شرعی حکم بیان کرتی ہے جو اپنی بیوی کے لیے ایک ہی بیان میں اِلاء اور ظہار کرتا ہے۔ امام علی علیہ السلام حکم دیتے ہیں کہ ایسی صورت میں صرف ایک کفارہ واجب ہے، جو کہ مشترکہ بیان کی قانونی حیثیت کو ظاہر کرتا ہے۔",
-          "zh": "此圣训对一名男子对妻子在一句话中同时进行إلاء和ظہار的法律裁决进行了说明。伊玛目علي عليه السلام裁定此种情况下只需一次赎罪，表明对合并言辞的法律处理为一次赎罪。"
-        },
         "tags": [
           "jurisprudence",
           "family"

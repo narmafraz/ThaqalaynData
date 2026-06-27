@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رُوِيَ عَنِ الصَّادِقِ عَلَيْهِ السَّلَامُ أَنَّهُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং আল-সাদিক عليه السلام থেকে বর্ণিত হয়েছে যে তিনি বলেছিলেন:",
-              "de": "Und es wird von al-Ṣādiq عليه السلام überliefert, dass er sagte:",
-              "en": "And it has been narrated from al-Ṣādiq عليه السلام that he said:",
-              "es": "Y se ha narrado de al-Ṣādiq عليه السلام que dijo:",
-              "fa": "و از امام صادق علیه السلام نقل شده که فرمود:",
-              "fr": "Et il a été rapporté de al-Ṣādiq عليه السلام qu'il a dit :",
-              "id": "Dan diriwayatkan dari al-Ṣādiq عليه السلام bahwa beliau berkata:",
-              "ru": "И передано от аль-Садика عليه السلام, что он сказал:",
-              "tr": "Ve rivayet edilmiştir ki, el-Sadık عليه السلام şöyle demiştir:",
-              "ur": "اور یہ روایت ہے کہ الصادق علیہ السلام نے فرمایا:",
-              "zh": "据传自الصادقعليهالسلام他说："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "«إِنَّ اللَّهَ عَزَّ وَ جَلَّ اخْتَارَ مِنْ كُلِّ شَيْءٍ شَيْئًا وَ اخْتَارَ مِنَ الْأَرْضِ مَوْضِعَ الْكَعْبَةِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "নিশ্চয়ই আল্লাহ, মহিমান্বিত ও মহাজন, প্রতিটি জিনিস থেকে কিছু না কিছু বেছে নিয়েছেন, এবং তিনি পৃথিবী থেকে কাবার স্থান বেছে নিয়েছেন।",
-              "de": "Wahrlich, Allah, der Mächtige und Erhabene, hat von allem etwas ausgewählt, und von der Erde hat Er den Ort der Ka'bah erwählt.",
-              "en": "\"Indeed, Allah, Mighty and Majestic, chose from everything something, and He chose from the earth the place of the Ka'bah.\"",
-              "es": "En verdad, Allah, el Poderoso y Majestuoso, eligió de todo algo, y eligió de la tierra el lugar de la Ka'bah.",
-              "fa": "همانا خداوند متعال، عزیز و جلیل، از هر چیزی چیزی را برگزید و از زمین مکان کعبه را انتخاب کرد.",
-              "fr": "En vérité, Allah, le Tout-Puissant et Majestueux, a choisi de chaque chose quelque chose, et Il a choisi de la terre l'emplacement de la Ka'bah.",
-              "id": "Sesungguhnya Allah, Yang Maha Perkasa dan Maha Agung, memilih sesuatu dari segala sesuatu, dan Dia memilih dari bumi tempat Ka'bah.",
-              "ru": "Воистину, Аллах, Могучий и Величественный, избрал из всего нечто, и из земли Он избрал место Каабы.",
-              "tr": "Şüphesiz Allah, Azîz ve Celîl, her şeyden bir şey seçti ve yerden de Kâbe'nin yerini seçti.",
-              "ur": "بے شک اللہ تعالیٰ، عظمت والا اور جلیل، ہر چیز میں سے کچھ نہ کچھ چن چکا ہے، اور زمین میں سے اس نے مقامِ کعبہ کو چنا ہے۔",
-              "zh": "确实，真主，威严而庄严，从万物中选择了某物，并从大地中选择了卡巴的位置。"
-            },
             "word_end": 24,
             "word_start": 8
           }
@@ -91,26 +78,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "اخْتَارَ": "chose and singled out specially",
-            "الصَّادِقِ": "al-Ṣādiq, Imam Jaʿfar ibn Muḥammad عليه السلام",
-            "اللَّهَ": "Allah, the Exalted",
-            "الْأَرْضِ": "the earth",
-            "الْكَعْبَةِ": "the Ka'bah, the sacred House in Makkah",
-            "مَوْضِعَ": "the place or location"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الصَّادِقِ",
+          "اللَّهَ",
+          "اخْتَارَ",
+          "الْأَرْضِ",
+          "مَوْضِعَ",
+          "الْكَعْبَةِ"
+        ],
         "related_quran": [
           {
             "ref": "3:96",
@@ -125,32 +100,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কেন কাবার স্থানকে আল্লাহ বিশেষভাবে নির্বাচিত স্থান হিসেবে বিবেচনা করা হয়?",
-          "de": "Warum gilt der Standort der Ka'bah als von Allah besonders ausgewählt?",
-          "en": "Why is the location of the Ka'bah considered specially chosen by Allah?",
-          "es": "¿Por qué se considera que la ubicación de la Ka'bah fue elegida especialmente por Allah?",
-          "fa": "چرا مکان کعبه به عنوان مکانی ویژه که توسط خداوند انتخاب شده است، در نظر گرفته می‌شود؟",
-          "fr": "Pourquoi l'emplacement de la Ka'bah est-il considéré comme spécialement choisi par Allah ?",
-          "id": "Mengapa lokasi Ka'bah dianggap sebagai tempat yang dipilih khusus oleh Allah?",
-          "ru": "Почему место Каабы считается специально избранным Аллахом?",
-          "tr": "Kâbe'nin yeri neden Allah tarafından özel olarak seçilmiş kabul edilir?",
-          "ur": "کعبہ کا مقام اللہ کی طرف سے خاص طور پر منتخب کیوں سمجھا جاتا ہے؟",
-          "zh": "为什么卡巴的位置被认为是安拉特别选择的？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বর্ণনা করে যে আল্লাহ, মহিমান্বিত ও মহাজন, সমস্ত সৃষ্টির মধ্যে থেকে বিশেষ কিছু বেছে নিয়েছেন। পৃথিবীর মধ্যে তিনি কাবার স্থান বেছে নিয়েছেন, যা ইবাদত ও হজের সাথে এর অনন্য পবিত্রতা ও গুরুত্ব নির্দেশ করে।",
-          "de": "Dieser Hadith besagt, dass Allah, der Mächtige und Erhabene, aus allen Geschöpfen besondere Dinge ausgewählt hat. Unter der Erde wählte Er den Ort der Ka'bah, was deren einzigartige Heiligkeit und Bedeutung für Anbetung und Hadsch hervorhebt.",
-          "en": "This hadith states that Allah, the Mighty and Majestic, selected special things from among all created things. Among the earth, He chose the site of the Ka'bah, indicating its unique sanctity and distinction in relation to worship and hajj.",
-          "es": "Este hadiz indica que Allah, el Poderoso y Majestuoso, seleccionó cosas especiales entre todas las criaturas. Entre la tierra, eligió el lugar de la Ka'bah, señalando su santidad y distinción únicas en relación con la adoración y el hajj.",
-          "fa": "این حدیث بیان می‌کند که خداوند متعال، عزیز و جلیل، از میان همه مخلوقات چیزهای خاصی را برگزیده است. از میان زمین، مکان کعبه را انتخاب کرده که نشان‌دهنده تقدس و اهمیت ویژه آن در عبادت و حج است.",
-          "fr": "Ce hadith indique qu'Allah, le Tout-Puissant et Majestueux, a choisi des choses spéciales parmi toutes les créatures. Parmi la terre, Il a choisi l'emplacement de la Ka'bah, indiquant sa sainteté et sa distinction uniques en matière d'adoration et de pèlerinage.",
-          "id": "Hadis ini menyatakan bahwa Allah Yang Maha Perkasa dan Maha Agung memilih hal-hal khusus dari semua makhluk. Dari bumi, Dia memilih tempat Ka'bah, yang menunjukkan kesucian dan keistimewaannya dalam ibadah dan haji.",
-          "ru": "Этот хадис утверждает, что Аллах, Могучий и Величественный, избрал особые вещи из всех созданий. Среди земли Он выбрал место Каабы, что указывает на его уникальную святость и значение в поклонении и хадже.",
-          "tr": "Bu hadiste, Allah'ın Azîz ve Celîl olarak tüm yaratılmışlar arasından özel şeyler seçtiği belirtilmektedir. Yeryüzünden ise Kâbe'nin yerini seçmiş, bu da ibadet ve hac açısından onun eşsiz kutsallığını ve önemini göstermektedir.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ اللہ تعالیٰ، عظمت والا اور جلیل، تمام مخلوقات میں سے خاص چیزیں منتخب کرتا ہے۔ زمین میں اس نے مقامِ کعبہ کو چنا ہے جو عبادت اور حج کے حوالے سے اس کی منفرد تقدس اور اہمیت کو ظاہر کرتا ہے۔",
-          "zh": "这段圣训说明，真主，威严而庄严，从所有被造物中选择了特殊的事物。在大地中，他选择了卡巴的位置，表明其在崇拜和朝觐中的独特神圣性和重要性。"
-        },
         "tags": [
           "theology",
           "worship"

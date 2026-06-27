@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "يُونُسُ عَنْ إِسْحَاقَ بْنِ عَمَّارٍ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ইউনুস ইসহাক ইবনু আম্মার থেকে বর্ণনা করেছেন, যিনি বলেছেন:",
-              "de": "Yunus überlieferte von Ishaq ibn Ammar, der sagte:",
-              "en": "Yūnus narrated from Isḥāq ibn ʿAmmār, who said:",
-              "es": "Yunus narró de Ishaq ibn Ammar, quien dijo:",
-              "fa": "یونس از اسحاق بن عمار روایت کرد که گفت:",
-              "fr": "Yūnus a rapporté d’Isḥāq ibn ʿAmmār, qui a dit :",
-              "id": "Yunus meriwayatkan dari Ishaq ibn Ammar, yang berkata:",
-              "ru": "Юнус передал от Исхака ибн ʿАммара, который сказал:",
-              "tr": "Yunus, İshak ibn Ammar'dan rivayet etti; o şöyle dedi:",
-              "ur": "یونس نے اسحاق بن عمار سے روایت کی، جنہوں نے کہا:",
-              "zh": "尤努斯传述自伊斯哈格·伊本·阿马尔，他说："
-            },
             "word_end": 6,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُ أَبَا إِبْرَاهِيمَ عَلَيْهِ السَّلَامُ عَنِ التَّعْزِيرِ كَمْ هُوَ، قَالَ: «بِضْعَةَ عَشَرَ سَوْطًا، مَا بَيْنَ الْعَشَرَةِ إِلَى الْعِشْرِينَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবা ইব্রাহীম عليه السلام-কে তাআযীর সম্পর্কে জিজ্ঞেস করলাম: তা কত? তিনি বললেন: “দশটি বেত্রাঘাতের একটি সংখ্যা, দশ থেকে বিশের মধ্যে।”",
-              "de": "Ich fragte Abā Ibrāhīm عليه السلام nach dem taʿzīr: Wie viel ist es? Er sagte: „Eine Anzahl von zehn Peitschenhieben, zwischen zehn und zwanzig.“",
-              "en": "I asked Abā Ibrāhīm عليه السلام about taʿzīr: how much is it? He said: “A number of ten lashes, between ten and twenty.”",
-              "es": "Le pregunté a Abā Ibrāhīm عليه السلام acerca del taʿzīr: ¿cuánto es? Dijo: “Un número de diez azotes, entre diez y veinte.”",
-              "fa": "از ابا ابراهیم علیه السلام درباره تعزیر پرسیدم: مقدار آن چقدر است؟ فرمود: «چند تازیانه، میان ده تا بیست.»",
-              "fr": "J’ai demandé à Abā Ibrāhīm عليه السلام au sujet du taʿzīr : combien est-ce ? Il a dit : « Un nombre de dix coups de fouet, entre dix et vingt. »",
-              "id": "Aku bertanya kepada Abā Ibrāhīm عليه السلام tentang taʿzīr: berapa jumlahnya? Beliau bersabda: “Sejumlah sepuluh cambukan, antara sepuluh dan dua puluh.”",
-              "ru": "Я спросил Абу Ибрахима عليه السلام о таʿзире: сколько это? Он сказал: «Несколько ударов плетью, от десяти до двадцати».",
-              "tr": "Abâ İbrâhîm عليه السلام’a taʿzîr hakkında sordum: Ne kadardır? Şöyle dedi: “On ile yirmi arasında, on değnek.”",
-              "ur": "میں نے ابا ابراہیم علیہ السلام سے تعزیر کے بارے میں پوچھا: وہ کتنی ہے؟ انہوں نے فرمایا: “دس کوڑوں کی ایک تعداد، دس اور بیس کے درمیان۔”",
-              "zh": "我向阿巴·易卜拉欣 عليه السلام询问taʿzīr：是多少？他说：“十鞭之数，在十到二十之间。”"
-            },
             "word_end": 24,
             "word_start": 6
           }
@@ -90,26 +77,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبَا إِبْرَاهِيمَ": "Abā Ibrāhīm, the Imam عليه السلام being asked",
-            "التَّعْزِيرِ": "discretionary punishment imposed for an offense not carrying a fixed hadd",
-            "الْعَشَرَةِ": "ten, the lower end of the stated range",
-            "الْعِشْرِينَ": "twenty, the upper end of the stated range",
-            "بِضْعَةَ عَشَرَ": "a number in the teens",
-            "سَوْطًا": "lashes, meaning strikes with a whip"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَبَا إِبْرَاهِيمَ",
+          "التَّعْزِيرِ",
+          "بِضْعَةَ عَشَرَ",
+          "سَوْطًا",
+          "الْعَشَرَةِ",
+          "الْعِشْرِينَ"
+        ],
         "related_quran": [
           {
             "ref": "4:58",
@@ -120,32 +95,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আবা ইব্রাহীম عليه السلام-এর মতে তাআযীরের জন্য বেত্রাঘাতের সংখ্যা কত?",
-          "de": "Wie viele Hiebe sind für den taʿzīr nach Imam Abā Ibrāhīm عليه السلام vorgesehen?",
-          "en": "What is the number of lashes for taʿzīr according to Imam Abā Ibrāhīm عليه السلام?",
-          "es": "¿Cuál es el número de azotes para el taʿzīr según el Imam Abā Ibrāhīm عليه السلام?",
-          "fa": "به نظر امام ابا ابراهیم علیه السلام تعداد تازیانه‌های تعزیر چقدر است؟",
-          "fr": "Quel est le nombre de coups de fouet pour le taʿzīr selon l’imam Abā Ibrāhīm عليه السلام ?",
-          "id": "Berapa jumlah cambukan untuk taʿzīr menurut Imam Abā Ibrāhīm عليه السلام?",
-          "ru": "Каково число ударов плетью для таʿзира по мнению имама Абы Ибрахима عليه السلام?",
-          "tr": "İmam Abâ İbrâhîm عليه السلام’a göre taʿzîr için kırbaç sayısı kaçtır?",
-          "ur": "امام ابا ابراہیم علیہ السلام کے مطابق تعزیر کے لیے کوڑوں کی تعداد کیا ہے؟",
-          "zh": "根据伊玛目阿巴·易卜拉欣 عليه السلام，taʿzīr的鞭数是多少？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে তাআযীর, অর্থাৎ বিচারকের বিবেচনাধীন শাস্তি, সম্পর্কে একটি ফিকহি বিধান উল্লেখ করা হয়েছে। আবা ইব্রাহীম عليه السلام বলেন, এটি দশ থেকে বিশের মধ্যে নির্দিষ্ট সংখ্যক বেত্রাঘাত, যা ফিকহে একটি নির্ধারিত কিন্তু স্থির নয় এমন শাস্তির পরিসর নির্দেশ করে।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung zum taʿzīr, also zu einer Ermessensstrafe. Abā Ibrāhīm عليه السلام erklärt, dass es sich um eine Anzahl von Hieben zwischen zehn und zwanzig handelt, was einen festgelegten, aber nicht starren Strafrahmen in der Rechtslehre anzeigt.",
-          "en": "This hadith gives a legal ruling regarding taʿzīr, a discretionary punishment. Abā Ibrāhīm عليه السلام states that it is a number of lashes falling between ten and twenty, indicating a defined but non-fixed penal range within jurisprudence.",
-          "es": "Este hadiz establece una norma jurídica sobre el taʿzīr, es decir, un castigo discrecional. Abā Ibrāhīm عليه السلام afirma que consiste en un número de azotes entre diez y veinte, lo que indica un rango penal definido pero no fijo dentro de la jurisprudencia.",
-          "fa": "این حدیث درباره تعزیر، یعنی مجازاتِ تعزیری، حکمی فقهی بیان می‌کند. ابا ابراهیم علیه السلام می‌فرماید که آن، تعدادی تازیانه میان ده تا بیست است و نشان می‌دهد که این یک بازه کیفریِ معین اما غیرثابت در فقه است.",
-          "fr": "Ce hadith énonce une règle juridique concernant le taʿzīr, c’est-à-dire une peine discrétionnaire. Abā Ibrāhīm عليه السلام indique qu’il s’agit d’un nombre de coups de fouet compris entre dix et vingt, ce qui montre une fourchette pénale définie mais non fixe en jurisprudence.",
-          "id": "Hadis ini memberikan حكم hukum tentang taʿzīr, yaitu hukuman diskresi. Abā Ibrāhīm عليه السلام menyatakan bahwa jumlahnya berada antara sepuluh dan dua puluh cambukan, menunjukkan rentang hukuman yang ditetapkan tetapi tidak tetap dalam fikih.",
-          "ru": "Этот хадис содержит правовое постановление о таʿзире, то есть о наказании по усмотрению. Аба Ибрахим عليه السلام говорит, что это число ударов плетью от десяти до двадцати, что указывает на определённый, но не фиксированный карательный диапазон в фикхе.",
-          "tr": "Bu hadis, taʿzîr yani takdire bağlı ceza hakkında fıkhî bir hüküm verir. Abâ İbrâhîm عليه السلام’a göre bu, on ile yirmi arasında belirlenmiş fakat sabit olmayan bir kırbaç sayısıdır.",
-          "ur": "یہ حدیث تعزیر، یعنی قاضی کی صوابدید پر دی جانے والی سزا، کے بارے میں ایک شرعی حکم بیان کرتی ہے۔ ابا ابراہیم علیہ السلام کے مطابق یہ دس سے بیس کوڑوں کے درمیان ایک مقررہ مگر غیرمتعین حد ہے۔",
-          "zh": "这段圣训就taʿzīr，即酌情惩罚，给出了一项教法判定。阿巴·易卜拉欣 عليه السلام说明其为十到二十鞭之间的若干鞭数，表明在教法学中这是一个有明确范围但非固定的刑罚区间。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

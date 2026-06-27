@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رَوَىٰ مُعَاوِيَةُ بْنُ عَمَّارٍ عَنْ أَبِي عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মু‘আওয়িয়া ইবনে ‘অম্মার আবু ‘আব্দিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Mu‘āwiyah ibn ‘Ammār berichtete von Abū ‘Abdillāh عليه السلام, der sagte:",
-              "en": "Mu‘āwiyah ibn ‘Ammār narrated from Abū ‘Abdillāh عليه السلام, who said:",
-              "es": "Mu‘āwiyah ibn ‘Ammār narró de Abū ‘Abdillāh عليه السلام, quien dijo:",
-              "fa": "معاویه بن عمار از ابوعبدالله علیه السلام روایت کرد که فرمود:",
-              "fr": "Mu‘āwiyah ibn ‘Ammār a rapporté d'Abū ‘Abdillāh عليه السلام, qui a dit :",
-              "id": "Mu‘āwiyah ibn ‘Ammār meriwayat dari Abū ‘Abdillāh علیه السلام, yang berkata:",
-              "ru": "Му‘авия ибн ‘Аммар передал от Абу ‘Абдиллах عليه السلام, который сказал:",
-              "tr": "Mu‘âviyah ibn ‘Ammâr, Ebu ‘Abdillâh عليه السلام'dan rivayet etti, şöyle dedi:",
-              "ur": "معاویہ بن عمار نے ابو عبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "穆阿维叶本阿玛尔从阿布阿卜迪拉赫 عليه السلام传述，他说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "«كَانَ رَسُولُ ٱللَّهِ صَلَّى ٱللَّهُ عَلَيْهِ وَ آلِهِ فِي سَفَرِهِ إِذَا هَبَطَ سَبَّحَ وَ إِذَا صَعِدَ كَبَّرَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "রাসূলুল্লাহ صلى الله عليه وآله তাঁর সফরের সময় যখন নামতেন তখন তিনি তসবিহ বলতেন এবং যখন উঠতেন তখন তিনি তাকবীর বলতেন।",
-              "de": "Der Gesandte Allahs صلى الله عليه وآله, während seiner Reise, wenn er hinabstieg, lobpreiste er Allah, und wenn er hinaufstieg, verherrlichte er Allah.",
-              "en": "“The Messenger of Allah صلى الله عليه وآله, during his journey, when he descended, he would glorify Allah, and when he ascended, he would magnify Allah.”",
-              "es": "El Mensajero de Allah صلى الله عليه وآله, durante su viaje, cuando descendía, glorificaba a Allah, y cuando ascendía, magnificaba a Allah.",
-              "fa": "پیامبر خدا صلى الله عليه وآله در سفر خود هنگام پایین آمدن، تسبیح می‌گفت و هنگام بالا رفتن، تکبیر می‌کرد.",
-              "fr": "Le Messager d'Allah صلى الله عليه وآله, lors de son voyage, lorsqu'il descendait, il glorifiait Allah, et lorsqu'il montait, il magnifiait Allah.",
-              "id": "Rasulullah صلى الله عليه وآله, selama perjalanannya, ketika turun beliau bertasbih dan ketika naik beliau bertakbir.",
-              "ru": "Посланник Аллаха صلى الله عليه وآله во время путешествия, когда он спускался, восхвалял Аллаха, а когда поднимался, возвеличивал Аллаха.",
-              "tr": "Allah’ın Resulü صلى الله عليه وآله, yolculuğu sırasında inerken tesbih eder, çıkarken tekbir getirirdi.",
-              "ur": "رسول اللہ صلی اللہ علیہ وآلہ وسلم اپنے سفر کے دوران جب نیچے اترتے تو اللہ کی تسبیح کرتے اور جب اوپر چڑھتے تو اللہ کی تکبیر کرتے۔",
-              "zh": "安拉使者صلى الله عليه وآله在旅途中，下山时赞美真主，上山时称颂真主。"
-            },
             "word_end": 28,
             "word_start": 11
           }
@@ -90,26 +77,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "رَسُولُ ٱللَّهِ": "the Messenger of Allah",
-            "سَبَّحَ": "he glorified Allah, saying words of tasbih",
-            "سَفَرِهِ": "his journey or travel",
-            "صَعِدَ": "ascended or went upward",
-            "كَبَّرَ": "he magnified Allah, saying takbir",
-            "هَبَطَ": "descended or went downward"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "سَفَرِهِ",
+          "هَبَطَ",
+          "سَبَّحَ",
+          "صَعِدَ",
+          "كَبَّرَ",
+          "رَسُولُ ٱللَّهِ"
+        ],
         "related_quran": [
           {
             "ref": "3:191",
@@ -124,32 +99,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "রাসূলুল্লাহ صلى الله عليه وآله সফরের সময় নামার বা উঠার সময় কী বলতেন?",
-          "de": "Was sagte der Gesandte Allahs صلى الله عليه وآله beim Hinabsteigen oder Hinaufsteigen während einer Reise?",
-          "en": "What did the Messenger of Allah صلى الله عليه وآله say when descending or ascending during a journey?",
-          "es": "¿Qué decía el Mensajero de Allah صلى الله عليه وآله al descender o ascender durante un viaje?",
-          "fa": "پیامبر خدا صلى الله عليه وآله هنگام پایین آمدن یا بالا رفتن در سفر چه می‌گفتند؟",
-          "fr": "Que disait le Messager d'Allah صلى الله عليه وآله en descendant ou en montant lors d'un voyage ?",
-          "id": "Apa yang dikatakan Rasulullah صلى الله عليه وآله saat turun atau naik selama perjalanan?",
-          "ru": "Что говорил Посланник Аллаха صلى الله عليه وآله при спуске или подъеме во время путешествия?",
-          "tr": "Allah’ın Resulü صلى الله عليه وآله yolculuk sırasında inerken veya çıkarken ne derdi?",
-          "ur": "رسول اللہ صلی اللہ علیہ وآلہ وسلم سفر کے دوران نیچے اترتے یا اوپر چڑھتے وقت کیا کہتے تھے؟",
-          "zh": "安拉使者صلى الله عليه وآله在旅途中下山或上山时说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি সফরের সময় জিকর করার সুন্নত বর্ণনা করে। রাসূলুল্লাহ صلى الله عليه وآله নামার সময় তসবিহ এবং উঠার সময় তাকবীর বলতেন, যা অবস্থার পরিবর্তন ও চলাচলে আল্লাহর স্মরণ প্রদর্শন করে।",
-          "de": "Dieser Hadith beschreibt eine Sunnah des Dhikr während der Reise. Der Gesandte Allahs صلى الله عليه وآله sagte beim Hinabsteigen Tasbih und beim Hinaufsteigen Takbir, was die Erinnerung an Allah in wechselnden Zuständen und Bewegungen zeigt.",
-          "en": "This hadith describes a sunnah (prophetic tradition) of dhikr during travel. The Messenger of Allah صلى الله عليه وآله would say tasbih when descending and takbir when ascending, showing remembrance of Allah in changing states and movements.",
-          "es": "Este hadiz describe una sunnah de dhikr durante el viaje. El Mensajero de Allah صلى الله عليه وآله decía tasbih al descender y takbir al ascender, mostrando el recuerdo de Allah en los cambios de estado y movimiento.",
-          "fa": "این حدیث سنت ذکر در سفر را توصیف می‌کند. پیامبر خدا صلى الله عليه وآله هنگام پایین آمدن تسبیح و هنگام بالا رفتن تکبیر می‌گفتند که یادآور یاد خدا در حالات و حرکات مختلف است.",
-          "fr": "Ce hadith décrit une sunnah de dhikr pendant le voyage. Le Messager d'Allah صلى الله عليه وآله disait tasbih en descendant et takbir en montant, montrant le souvenir d'Allah dans les changements d'état et de mouvement.",
-          "id": "Hadis ini menjelaskan sunnah dzikir selama perjalanan. Rasulullah صلى الله عليه وآله mengucapkan tasbih saat turun dan takbir saat naik, menunjukkan ingatan kepada Allah dalam keadaan dan pergerakan yang berubah.",
-          "ru": "Этот хадис описывает сунну зикра во время путешествия. Посланник Аллаха صلى الله عليه وآله говорил тасбих при спуске и такбир при подъеме, показывая поминание Аллаха в изменяющихся состояниях и движениях.",
-          "tr": "Bu hadis, yolculuk sırasında zikir sünnetini anlatır. Allah’ın Resulü صلى الله عليه وآله inerken tesbih, çıkarken tekbir söylerdi; bu, değişen durumlar ve hareketlerde Allah’ı anmayı gösterir.",
-          "ur": "یہ حدیث سفر کے دوران ذکر کی سنت بیان کرتی ہے۔ رسول اللہ صلی اللہ علیہ وآلہ وسلم نیچے اترتے وقت تسبیح اور اوپر چڑھتے وقت تکبیر کہتے تھے، جو حالات اور حرکات میں اللہ کی یاد دلاتا ہے۔",
-          "zh": "此圣训描述了旅途中念诵真主的传统。安拉使者صلى الله عليه وآله下山时念赞美词，上山时念称颂词，显示在变化的状态和动作中对真主的纪念。"
-        },
         "tags": [
           "worship",
           "dua",

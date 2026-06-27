@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى مُحَمَّدُ بْنُ سَهْلٍ عَنْ أَبِيهِ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবনে সাহল তার পিতা থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Muḥammad ibn Sahl berichtete von seinem Vater, der sagte:",
-              "en": "Muḥammad ibn Sahl narrated from his father, who said:",
-              "es": "Muḥammad ibn Sahl narró de su padre, quien dijo:",
-              "fa": "محمد بن سهل از پدرش روایت کرد که گفت:",
-              "fr": "Muḥammad ibn Sahl a rapporté de son père, qui a dit :",
-              "id": "Muḥammad ibn Sahl meriwayatkan dari ayahnya, yang berkata:",
-              "ru": "Мухаммад ибн Сахль передал от своего отца, который сказал:",
-              "tr": "Muhammed ibn Sahl babasından rivayet etti, dedi ki:",
-              "ur": "محمد ابن سہل نے اپنے والد سے روایت کی، جنہوں نے کہا:",
-              "zh": "穆罕默德本萨赫勒从他父亲那里传述，他说："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُ الرِّضَا عَلَيْهِ السَّلَامُ عَمَّنْ رَكَعَ مَعَ إِمَامِ قَوْمٍ يُقْتَدَى بِهِ ثُمَّ رَفَعَ رَأْسَهُ قَبْلَ الْإِمَامِ قَالَ «يُعِيدُ رُكُوعَهُ مَعَهُ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আল-রিদা عليه السلام-এর কাছে জিজ্ঞাসা করলাম এমন একজন সম্পর্কে যে একটি জনগোষ্ঠীর ইমামের সাথে রুকু' করেছে যাকে অনুসরণ করা হয়, তারপর ইমামের আগে তার মাথা তুলেছে। তিনি বললেন: \"সে তার রুকু' ইমামের সাথে আবার করবে।\"",
-              "de": "Ich fragte al-Riḍā عليه السلام über jemanden, der mit einem Imam eines Volkes, dem gefolgt wird, in die Ruku' ging und dann seinen Kopf vor dem Imam hob. Er sagte: „Er soll seine Verbeugung mit ihm wiederholen.“",
-              "en": "I asked al-Riḍā عليه السلام about one who bowed in ruku' with an Imam of a people who is followed, then raised his head before the Imam. He said: “He should repeat his bowing with him.”",
-              "es": "Pregunté a al-Riḍā عليه السلام sobre quien se inclinó en ruku' con un Imam de un pueblo que es seguido, luego levantó su cabeza antes que el Imam. Él dijo: “Debe repetir su inclinación con él.”",
-              "fa": "از امام الرضا علیه السلام درباره کسی که با امام مردمی که به او اقتدا می‌شود رکوع می‌کند و سپس پیش از امام سر خود را بلند می‌کند پرسیدم. فرمود: «باید رکوع خود را با امام تکرار کند.»",
-              "fr": "J'ai demandé à al-Riḍā عليه السلام au sujet de celui qui s'incline en ruku' avec un imam d'un peuple qui est suivi, puis relève la tête avant l'imam. Il a dit : « Il doit refaire son inclinaison avec lui. »",
-              "id": "Saya bertanya kepada al-Riḍā عليه السلام tentang seseorang yang rukuk bersama imam suatu kaum yang diikuti, kemudian mengangkat kepalanya sebelum imam. Beliau berkata: \"Dia harus mengulangi rukuknya bersama imam.\"",
-              "ru": "Я спросил у аль-Риḍā عليه السلام о том, кто совершил руку' с имамом народа, за которым следуют, а затем поднял голову раньше имама. Он сказал: «Он должен повторить руку' вместе с ним.»",
-              "tr": "Bir topluluğun imamıyla birlikte rüku'a giden, sonra imamdan önce başını kaldıran kişi hakkında el-Rıza علیه السلام'a sordum. Buyurdu ki: \"Rüku'unu onunla birlikte tekrar etmelidir.\"",
-              "ur": "میں نے امامِ قوم، جن کی پیروی کی جاتی ہے، کے ساتھ رکوع کرنے والے کے بارے میں امامِ رضا علیہ السلام سے پوچھا، جو امام سے پہلے اپنا سر اٹھا لے۔ آپ نے فرمایا: \"وہ اپنے رکوع کو امام کے ساتھ دوبارہ کرے۔\"",
-              "zh": "我问了阿尔里扎 عليه السلام关于与被人效仿的族群的伊玛目一起鞠躬（rukūʿ）的人，然后在伊玛目之前抬头。他说：“他应当与伊玛目一起重新鞠躬。”"
-            },
             "word_end": 28,
             "word_start": 8
           }
@@ -92,26 +79,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِمَامِ": "the prayer leader being followed in congregational salat (prayer)",
-            "رَأْسَهُ": "his head, meaning he lifted himself from bowing",
-            "رَكَعَ": "performed bowing in ruku' during salat (prayer)",
-            "رُكُوعَهُ": "his ruku' (bowing posture in salat)",
-            "يُعِيدُ": "he repeats or performs again",
-            "يُقْتَدَى": "is followed as an Imam in prayer"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رَكَعَ",
+          "إِمَامِ",
+          "يُقْتَدَى",
+          "رَأْسَهُ",
+          "يُعِيدُ",
+          "رُكُوعَهُ"
+        ],
         "related_quran": [
           {
             "ref": "4:59",
@@ -122,32 +97,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "জামাতের সালাতে যদি কেউ ইমামের রুকু' থেকে আগে মাথা তুলে নেয়, তাহলে তাকে কী করা উচিত?",
-          "de": "Was soll eine Person tun, wenn sie im Gemeinschaftsgebet vor dem Imam aus dem Ruku' aufsteht?",
-          "en": "What should a person do if he rises from ruku' before the Imam in congregational salat (prayer)?",
-          "es": "¿Qué debe hacer una persona si se levanta del ruku' antes que el Imam en la oración congregacional?",
-          "fa": "اگر کسی در نماز جماعت پیش از امام از رکوع سر برداشت، چه باید بکند؟",
-          "fr": "Que doit faire une personne si elle relève la tête du ruku' avant l'imam dans la prière en congrégation ?",
-          "id": "Apa yang harus dilakukan seseorang jika dia bangkit dari rukuk sebelum imam dalam salat berjamaah?",
-          "ru": "Что должен делать человек, если он поднял голову из руку' раньше имама в коллективной молитве?",
-          "tr": "Cemaat namazında bir kişi imamın rüku'dan önce başını kaldırırsa ne yapmalıdır?",
-          "ur": "اگر کوئی شخص جماعت کی نماز میں امام کے رکوع سے پہلے سر اٹھا لے تو اسے کیا کرنا چاہیے؟",
-          "zh": "如果一个人在集体礼拜中在伊玛目鞠躬前抬头，他应该做什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি জামাতের সালাত সম্পর্কে একটি শারঈ সিদ্ধান্ত প্রদান করে। যদি কেউ ইমামের রুকু' থেকে আগে মাথা তুলে নেয়, তবে তাকে ইমামের সাথে ফিরে গিয়ে আবার রুকু' করতে হবে, যা জামাতের সালাতে ইমামের সাথে সঠিক মিল বজায় রাখার গুরুত্ব নির্দেশ করে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bezüglich des gemeinschaftlichen Gebets. Wenn ein Betender seinen Kopf vor dem Imam aus dem Ruku' hebt, soll er zurückkehren und die Verbeugung mit dem Imam wiederholen, um die richtige Übereinstimmung mit dem Imam im Gemeinschaftsgebet zu betonen.",
-          "en": "This hadith gives a legal ruling concerning congregational salat (prayer). If a follower raises his head from ruku' before the Imam, he should return and perform the bowing again with the Imam, emphasizing proper conformity with the Imam in congregational prayer.",
-          "es": "Este hadiz da una regla legal sobre la oración en congregación. Si un seguidor levanta su cabeza del ruku' antes que el Imam, debe regresar y repetir la inclinación con el Imam, enfatizando la conformidad adecuada con el Imam en la oración congregacional.",
-          "fa": "این حدیث حکم شرعی درباره نماز جماعت را بیان می‌کند. اگر پیرو پیش از امام از رکوع سر بردارد، باید بازگردد و رکوع را دوباره با امام انجام دهد تا هماهنگی صحیح با امام در نماز جماعت حفظ شود.",
-          "fr": "Ce hadith donne une règle juridique concernant la prière en congrégation. Si un fidèle relève la tête du ruku' avant l'imam, il doit revenir et refaire son inclinaison avec l'imam, soulignant la conformité correcte avec l'imam dans la prière en congrégation.",
-          "id": "Hadis ini memberikan hukum terkait salat berjamaah. Jika seorang makmum mengangkat kepalanya dari rukuk sebelum imam, ia harus kembali dan mengulangi rukuk bersama imam, menekankan kesesuaian yang benar dengan imam dalam salat berjamaah.",
-          "ru": "Этот хадис содержит правовое постановление о коллективной молитве. Если молящийся поднимает голову из руку' раньше имама, он должен вернуться и повторить руку' вместе с имамом, подчеркивая правильное следование имаму в коллективной молитве.",
-          "tr": "Bu hadis, cemaat namazı ile ilgili hukuki bir hüküm verir. Eğer bir mümin imamın rüku'dan önce başını kaldırırsa, imamla birlikte rüku'unu tekrar etmelidir; bu, cemaat namazında imama uygunluğu vurgular.",
-          "ur": "یہ حدیث جماعت کی نماز کے بارے میں شرعی حکم دیتی ہے۔ اگر کوئی نمازی امام کے رکوع سے پہلے اپنا سر اٹھا لے تو اسے امام کے ساتھ واپس جا کر رکوع دوبارہ کرنا چاہیے تاکہ امام کی پیروی میں درستگی ہو۔",
-          "zh": "此圣训阐明了关于集体礼拜的法律规定。如果信徒在伊玛目鞠躬前抬头，应返回与伊玛目一同重新鞠躬，强调在集体礼拜中与伊玛目保持正确一致。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى سَعْدَانُ عَنْ أَبِي بَصِيرٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "সআদান আবু বাসীর থেকে, তিনি আবু আব্দুল্লাহ علیہ السلام থেকে বর্ণনা করেছেন:",
-              "de": "Saʿdān berichtete von Abī Baṣīr, von Abī ʿAbdِ اللَّهِ عليه السلام, der sagte:",
-              "en": "Saʿdān narrated from Abī Baṣīr, from Abī ʿAbdِ اللَّهِ عليه السلام, who said:",
-              "es": "Saʿdān narró de Abī Baṣīr, de Abī ʿAbdِ اللَّهِ عليه السلام, quien dijo:",
-              "fa": "سعدان از ابی بصیر، از ابی عبد الله علیه السلام روایت کرد:",
-              "fr": "Saʿdān a rapporté d'Abī Baṣīr, d'Abī ʿAbdِ اللَّهِ عليه السلام, qui a dit :",
-              "id": "Saʿdān meriwayatkan dari Abī Baṣīr, dari Abī ʿAbdِ اللَّهِ علیه السلام, yang berkata:",
-              "ru": "Саʿдан передал от Аби Басира, от Аби ʿАбдِ Аллаха عليه السلام, который сказал:",
-              "tr": "Saʿdān, Abī Baṣīr'den, o da Abī ʿAbdِ اللَّهِ (aleyhisselâm)'dan rivayet etti:",
-              "ur": "سعدان نے ابو بصیر سے، جو ابو عبد اللہ علیہ السلام سے روایت کرتے ہیں، بیان کیا:",
-              "zh": "سعدان从أبيبصير传述，传自أبيعبداللهعليهالسلام，说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "لَا يَتَزَوَّجُ الْيَهُودِيَّةَ وَ لَا النَّصْرَانِيَّةَ عَلَى حُرَّةٍ مُتْعَةً وَ غَيْرَ مُتْعَةٍ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি একজন মুক্ত নারীসহ ইহুদি বা খ্রিস্টান নারীর সাথে বিবাহ করবেন না, তা মুত'আ হোক বা অন্য কোনো বিবাহ।",
-              "de": "Er soll keine jüdische oder christliche Frau neben einer freien Frau heiraten, sei es als Mutʿah oder anderweitig.",
-              "en": "He should not marry a Jewish woman or a Christian woman alongside a free woman, whether as mutʿah or otherwise.",
-              "es": "No debe casarse con una mujer judía o cristiana junto a una mujer libre, ya sea como mutʿah o de otra manera.",
-              "fa": "او نباید همزمان با یک زن آزاد، با زن یهودی یا مسیحی ازدواج کند، چه به صورت متعه یا غیر متعه.",
-              "fr": "Il ne doit pas épouser une femme juive ou chrétienne en plus d'une femme libre, que ce soit en mutʿah ou autrement.",
-              "id": "Dia tidak boleh menikahi wanita Yahudi atau Kristen bersamaan dengan wanita merdeka, baik sebagai mutʿah maupun selain mutʿah.",
-              "ru": "Он не должен жениться на иудейке или христианке одновременно с свободной женщиной, будь то мутʿах или иным образом.",
-              "tr": "Bir özgür kadınla birlikte, ister mutʿah ister başka şekilde olsun, Yahudi veya Hristiyan bir kadınla evlenmemelidir.",
-              "ur": "وہ ایک آزاد عورت کے ساتھ یہودی یا عیسائی عورت سے شادی نہ کرے، چاہے وہ متعہ ہو یا غیر متعہ۔",
-              "zh": "他不应与自由女性同时娶犹太女性或基督徒女性，无论是临时婚姻还是其他形式。"
-            },
             "word_end": 25,
             "word_start": 13
           }
@@ -101,25 +88,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "النَّصْرَانِيَّةَ": "a Christian woman",
-            "الْيَهُودِيَّةَ": "a Jewish woman",
-            "حُرَّةٍ": "a free woman, as opposed to a bondwoman",
-            "غَيْرَ مُتْعَةٍ": "other than temporary marriage, i.e. non-mutʿah marriage",
-            "مُتْعَةً": "temporary marriage"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْيَهُودِيَّةَ",
+          "النَّصْرَانِيَّةَ",
+          "حُرَّةٍ",
+          "مُتْعَةً",
+          "غَيْرَ مُتْعَةٍ"
+        ],
         "related_quran": [
           {
             "ref": "5:5",
@@ -130,32 +105,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "মুত'আ বা স্থায়ী বিবাহে মুক্ত নারীসহ ইহুদি বা খ্রিস্টান নারীর সাথে বিবাহ করা কি جائز?",
-          "de": "Ist es erlaubt, neben einer freien Frau eine jüdische oder christliche Frau in Mutʿah oder dauerhafter Ehe zu heiraten?",
-          "en": "Is it permissible to marry a Jewish or Christian woman alongside a free woman in mutʿah or permanent marriage?",
-          "es": "¿Es permisible casarse con una mujer judía o cristiana junto a una mujer libre en mutʿah o matrimonio permanente?",
-          "fa": "آیا ازدواج با زن یهودی یا مسیحی همراه با زن آزاد در متعه یا ازدواج دائم جایز است؟",
-          "fr": "Est-il permis d'épouser une femme juive ou chrétienne en plus d'une femme libre en mutʿah ou mariage permanent ?",
-          "id": "Apakah diperbolehkan menikahi wanita Yahudi atau Kristen bersamaan dengan wanita merdeka dalam mutʿah atau pernikahan permanen?",
-          "ru": "Разрешено ли жениться на иудейке или христианке одновременно с свободной женщиной в мутʿах или постоянном браке?",
-          "tr": "Mutʿah veya kalıcı evlilikte özgür bir kadınla birlikte Yahudi veya Hristiyan bir kadınla evlenmek caiz midir?",
-          "ur": "کیا متعہ یا مستقل شادی میں آزاد عورت کے ساتھ یہودی یا عیسائی عورت سے شادی کرنا جائز ہے؟",
-          "zh": "在临时婚姻或永久婚姻中，是否允许与自由女性同时娶犹太或基督徒女性？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি মুক্ত নারী ও ইহুদি বা খ্রিস্টান নারীর সাথে বিবাহ সংক্রান্ত একটি শারঈ বিধান প্রদান করে, যা মুত'আ বা অন্য কোনো বিবাহের ক্ষেত্রে নিষিদ্ধ বলে উল্লেখ করে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bezüglich der Ehe mit einer freien Frau und einer jüdischen oder christlichen Frau, dass eine solche Ehe weder als Mutʿah noch anderweitig geschlossen werden darf.",
-          "en": "This hadith gives a legal ruling concerning marriage arrangements involving a free woman and a Jewish or Christian woman. It states that such a marriage is not to be contracted alongside a free woman, whether in mutʿah (temporary marriage) or other than mutʿah.",
-          "es": "Este hadiz establece una regla legal sobre el matrimonio que involucra a una mujer libre y una mujer judía o cristiana, indicando que tal matrimonio no debe realizarse ni como mutʿah ni de otra forma.",
-          "fa": "این حدیث حکم شرعی درباره ازدواج با زن آزاد و زن یهودی یا مسیحی را بیان می‌کند که چنین ازدواجی چه به صورت متعه و چه غیر متعه جایز نیست.",
-          "fr": "Ce hadith donne un jugement légal concernant le mariage impliquant une femme libre et une femme juive ou chrétienne, indiquant que ce mariage ne doit pas être contracté en mutʿah ou autrement.",
-          "id": "Hadis ini memberikan hukum terkait pernikahan yang melibatkan wanita merdeka dan wanita Yahudi atau Kristen, bahwa pernikahan tersebut tidak boleh dilakukan baik dalam mutʿah maupun selain mutʿah.",
-          "ru": "Этот хадис содержит юридическое постановление о браке с участием свободной женщины и иудейки или христианки, указывая, что такой брак не должен заключаться ни в мутʿах, ни иным образом.",
-          "tr": "Bu hadis, özgür bir kadınla birlikte Yahudi veya Hristiyan bir kadınla yapılan evliliklerin, mutʿah veya diğer şekillerde olmaması gerektiğine dair hukuki bir hüküm verir.",
-          "ur": "یہ حدیث شادی کے معاملات میں ایک قانونی حکم دیتی ہے کہ آزاد عورت کے ساتھ یہودی یا عیسائی عورت کی شادی متعہ یا غیر متعہ دونوں صورتوں میں منع ہے۔",
-          "zh": "此圣训对涉及自由女性与犹太或基督徒女性的婚姻安排给出法律裁决，指出无论是临时婚姻还是其他形式，此类婚姻均不可与自由女性同时缔结。"
-        },
         "tags": [
           "jurisprudence",
           "family",

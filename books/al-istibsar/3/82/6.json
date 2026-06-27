@@ -10,6 +10,109 @@
       "up": "/books/al-istibsar:3:82"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-05-27",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "قَالَ الحَسَنُ بنُ سَمَاعَةَ وَ سَمِعتُ جَعفَرَ بنَ سَمَاعَةَ وَ سُئِلَ عَنِ امرَأَةٍ طُلّقَت عَلَي غَيرِ السّنّةِ أَ لِي أَن أَتَزَوّجَهَا فَقَالَ",
+            "chunk_type": "isnad",
+            "word_end": 22,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "نَعَم فَقُلتُ لَهُ أَ لَيسَ تَعلَمُ أَنّ عَلِيّ بنَ حَنَظَلَةَ رَوَي إِيّاكُم وَ المُطَلّقَاتِ ثَلَاثاً عَلَي غَيرِ السّنّةِ فَإِنّهُنّ ذَوَاتُ أَزوَاجٍ فَقَالَ يَا بنُيَ رِوَايَةُ عَلِيّ بنِ أَبِي حَمزَةَ أَوسَعَ عَلَي النّاسِ قُلتُ فَأَيشٍ رَوَي قَالَ رَوَي عَلِيّ بنُ أَبِي حَمزَةَ عَن أَبِي الحَسَنِ ع أَنّهُ قَالَ أَلزِمُوهُم مِن ذَلِكَ مَا أَلزَمُوهُ أَنفُسَهُم وَ تَزَوّجُوهُنّ فَإِنّهُ لَا بَأسَ",
+            "chunk_type": "body",
+            "word_end": 80,
+            "word_start": 22
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": null,
+              "identity_confidence": "ambiguous",
+              "known_identity": null,
+              "name_ar": "قَالَ الحَسَنُ بنُ سَمَاعَةَ",
+              "name_en": "al-Hasan b. Sama'a",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 285,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "سَمِعتُ جَعفَرَ بنَ سَمَاعَةَ",
+              "name_en": "Ja'far ibn Sama'a",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": null,
+              "identity_confidence": "ambiguous",
+              "known_identity": null,
+              "name_ar": "سُئِلَ",
+              "name_en": "Sulima",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": null,
+              "identity_confidence": "ambiguous",
+              "known_identity": null,
+              "name_ar": "امرَأَةٍ طُلّقَت عَلَي غَيرِ السّنّةِ أَ لِي أَن أَتَزَوّجَهَا",
+              "name_en": "Amra",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [],
+        "key_terms_keys": [
+          "غَيرِ السّنّةِ",
+          "المُطَلّقَاتِ ثَلَاثاً",
+          "ذَوَاتُ أَزوَاجٍ",
+          "أَوْسَعَ",
+          "لَا بَأسَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:230",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family"
+        ],
+        "topics": [
+          "marriage_family_law",
+          "sunnah"
+        ]
+      },
       "index": 3339,
       "local_index": 6,
       "narrator_chain": {
@@ -20,12 +123,12 @@
           },
           {
             "kind": "plain",
-            "text": " وَ "
+            "text": " وَ سَمِعتُ ج"
           },
           {
             "kind": "narrator",
             "path": "/people/narrators/285",
-            "text": "سَمِعتُ جَعفَرَ بنَ سَمَاعَةَ"
+            "text": "َعفَرَ بنَ سَمَاعَةَ"
           },
           {
             "kind": "plain",
@@ -54,7 +157,20 @@
       "text": [
         " نَعَم فَقُلتُ لَهُ أَ لَيسَ تَعلَمُ أَنّ عَلِيّ بنَ حَنظَلَةَ رَوَي إِيّاكُم وَ المُطَلّقَاتِ ثَلَاثاً عَلَي غَيرِ السّنّةِ فَإِنّهُنّ ذَوَاتُ أَزوَاجٍ فَقَالَ يَا بنُيَ ّ رِوَايَةُ عَلِيّ بنِ أَبِي حَمزَةَ أَوسَعَ عَلَي النّاسِ قُلتُ فَأَيشٍ رَوَي قَالَ رَوَي عَلِيّ بنُ أَبِي حَمزَةَ عَن أَبِي الحَسَنِ ع أَنّهُ قَالَ أَلزِمُوهُم مِن ذَلِكَ مَا أَلزَمُوهُ أَنفُسَهُم وَ تَزَوّجُوهُنّ فَإِنّهُ لَا بَأسَ"
       ]
-    }
+    },
+    "verse_translations": [
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
+    ]
   },
   "index": "al-istibsar:3:82:6",
   "kind": "verse_detail"

@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى عَبْدُ اللَّهِ بْنُ الْمُغِيرَةِ عَنْ مَنْصُورٍ عَنْ أَبَانِ بْنِ تَغْلِبَ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং আবদুল্লাহ ইবনে আল-মুগীরা মনসুর থেকে, মনসুর আবান ইবনে তাগলিব থেকে, আবু আবদিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Und ʿAbdullāh ibn al-Mughīrah berichtete von Manṣūr, von Abān ibn Taghlib, von Abū ʿAbdillāh عليه السلام, der sagte:",
-              "en": "And ʿAbdullāh ibn al-Mughīrah narrated from Manṣūr, from Abān ibn Taghlib, from Abū ʿAbdillāh عليه السلام, who said:",
-              "es": "Y ʿAbdullāh ibn al-Mughīrah narró de Manṣūr, de Abān ibn Taghlib, de Abū ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "و ʿAbdullāh ibn al-Mughīrah از منصور، منصور از أبان بن تغلب، از ابی عبد الله علیه السلام روایت کرده که فرمود:",
-              "fr": "Et ʿAbdullāh ibn al-Mughīrah a rapporté de Manṣūr, de Abān ibn Taghlib, d'Abū ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Dan ʿAbdullāh ibn al-Mughīrah meriwayatkan dari Manṣūr, dari Abān ibn Taghlib, dari Abū ʿAbdillāh علیه السلام, yang berkata:",
-              "ru": "И ʿАбдуллах ибн аль-Мугира передал от Мансура, от Абана ибн Таглиба, от Абу ʿАбдиллаха عليه السلام, который сказал:",
-              "tr": "Ve ʿAbdullāh ibn al-Mughīrah, Mansūr'dan, Mansūr de Abān ibn Taghlib'den, Abū ʿAbdillāh'a علیه السلام'dan rivayet etti, şöyle dedi:",
-              "ur": "اور عبداللہ ابن المغیرہ نے منصور سے، منصور نے ابان ابن تغلب سے، ابوعبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "ʿAbdullāhibnal-Mughīrah从Manṣūr传述，Manṣūr从AbānibnTaghlib传述，AbūʿAbdillāhعليهالسلام说："
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "دِيَةُ الْيَهُودِيِّ وَ النَّصْرَانِيِّ وَ الْمَجُوسِيِّ دِيَةُ الْمُسْلِمِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন ইহুদি, খ্রিস্টান এবং মজুসির দীয়্যাহ মুসলিমের দীয়্যাহ সমান।",
-              "de": "Die Diyyah eines Juden, Christen und Magiers ist die Diyyah eines Muslims.",
-              "en": "The diyyah of a Jew, a Christian, and a Magian is the diyyah of a Muslim.",
-              "es": "La diyyah de un judío, un cristiano y un mago es la diyyah de un musulmán.",
-              "fa": "دیه یهودی، مسیحی و مجوسی برابر با دیه مسلمان است.",
-              "fr": "La diyyah d'un juif, d'un chrétien et d'un mage est égale à celle d'un musulman.",
-              "id": "Diyyah seorang Yahudi, Nasrani, dan Majusi adalah sama dengan diyyah seorang Muslim.",
-              "ru": "Дийя иудея, христианина и магуса равна дийе мусульманина.",
-              "tr": "Bir Yahudi, Hristiyan ve Mecusinin diyyeti, bir Müslümanın diyyeti kadardır.",
-              "ur": "یہودی، عیسائی اور مجوسی کی دیہہ مسلمان کی دیہہ کے برابر ہے۔",
-              "zh": "犹太人、基督徒和祆教徒的赔偿金等同于穆斯林的赔偿金。"
-            },
             "word_end": 27,
             "word_start": 19
           }
@@ -111,25 +98,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "النَّصْرَانِيِّ": "a Christian",
-            "الْمَجُوسِيِّ": "a Magian",
-            "الْمُسْلِمِ": "a Muslim",
-            "الْيَهُودِيِّ": "a Jew",
-            "دِيَةُ": "blood money; the prescribed financial compensation in cases of unlawful killing or injury"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "دِيَةُ",
+          "الْيَهُودِيِّ",
+          "النَّصْرَانِيِّ",
+          "الْمَجُوسِيِّ",
+          "الْمُسْلِمِ"
+        ],
         "related_quran": [
           {
             "ref": "5:45",
@@ -140,32 +115,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস ইহুদি, খ্রিস্টান এবং মজুসিদের দীয়্যাহ সম্পর্কে কী বলে এবং এটি মুসলিমের দীয়্যাহর সাথে কিভাবে তুলনা করে?",
-          "de": "Was sagt dieser Hadith über die Diyyah von Juden, Christen und Magiern im Vergleich zu der eines Muslims?",
-          "en": "What does this hadith say about the diyyah of Jews, Christians, and Magians compared to that of a Muslim?",
-          "es": "¿Qué dice este hadiz sobre la diyyah de judíos, cristianos y magos en comparación con la de un musulmán?",
-          "fa": "این حدیث درباره دیه یهودیان، مسیحیان و مجوس چه می‌گوید و آن را با دیه مسلمان چگونه مقایسه می‌کند؟",
-          "fr": "Que dit ce hadith à propos de la diyyah des juifs, des chrétiens et des mages comparée à celle d'un musulman ?",
-          "id": "Apa yang dikatakan hadis ini tentang diyyah orang Yahudi, Nasrani, dan Majusi dibandingkan dengan diyyah seorang Muslim?",
-          "ru": "Что говорит этот хадис о дийе иудеев, христиан и магов по сравнению с дийей мусульманина?",
-          "tr": "Bu hadis Yahudilerin, Hristiyanların ve Mecusilerin diyyeti hakkında ne diyor ve bunu Müslümanın diyyeti ile nasıl karşılaştırıyor?",
-          "ur": "یہ حدیث یہودیوں، عیسائیوں اور مجوسیوں کی دیہہ کے بارے میں کیا کہتی ہے، اور اسے مسلمان کی دیہہ سے کیسے موازنہ کرتی ہے؟",
-          "zh": "这则圣训关于犹太人、基督徒和祆教徒的赔偿金与穆斯林的赔偿金有何说明？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি দীয়্যাহ সম্পর্কে একটি আইনি সিদ্ধান্ত প্রদান করে, যা বলে যে ইহুদি, খ্রিস্টান এবং মজুসির দীয়্যাহ মুসলিমের দীয়্যাহ সমান। এটি ফিকহের সেই শাখার অন্তর্গত যা আঘাত, হত্যাকাণ্ড এবং ইসলামী আইনে স্বীকৃত আর্থিক অধিকার নিয়ে কাজ করে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bezüglich der Diyyah, wonach die Diyyah eines Juden, Christen und Magiers der eines Muslims gleichgestellt ist. Er gehört zum Bereich des Fiqh, der sich mit Verletzungen, Tötungsdelikten und den unter islamischem Recht anerkannten finanziellen Rechten befasst.",
-          "en": "This hadith gives a legal ruling concerning diyyah, stating that the blood money for a Jew, a Christian, and a Magian is equal to that of a Muslim. It belongs to the domain of fiqh dealing with injury, homicide, and the financial rights recognized under Islamic law.",
-          "es": "Este hadiz ofrece un fallo legal sobre la diyyah, afirmando que la sangre de un judío, un cristiano y un mago es igual a la de un musulmán. Pertenece al ámbito del fiqh que trata sobre lesiones, homicidios y derechos financieros reconocidos bajo la ley islámica.",
-          "fa": "این حدیث حکم شرعی درباره دیه را بیان می‌کند که دیه یهودی، مسیحی و مجوسی برابر با دیه مسلمان است. این موضوع مربوط به فقه آسیب، قتل و حقوق مالی شناخته شده در قانون اسلامی است.",
-          "fr": "Ce hadith donne un jugement juridique concernant la diyyah, affirmant que la diyyah d'un juif, d'un chrétien et d'un mage est égale à celle d'un musulman. Il relève du domaine du fiqh traitant des blessures, des homicides et des droits financiers reconnus par la loi islamique.",
-          "id": "Hadis ini memberikan ketetapan hukum mengenai diyyah, menyatakan bahwa diyyah untuk Yahudi, Nasrani, dan Majusi sama dengan diyyah seorang Muslim. Ini termasuk dalam ranah fikih yang membahas cedera, pembunuhan, dan hak-hak finansial yang diakui dalam hukum Islam.",
-          "ru": "Этот хадис содержит юридическое постановление о дийе, утверждая, что дийя иудеев, христиан и магов равна дийе мусульманина. Это относится к области фикха, касающейся телесных повреждений, убийств и финансовых прав, признанных исламским правом.",
-          "tr": "Bu hadis, diyyet hakkında bir hukuki hüküm verir; Yahudi, Hristiyan ve Mecusinin diyyeti Müslümanın diyyeti ile eşittir. Bu, İslam hukukunda yaralanma, cinayet ve mali haklarla ilgili fıkhın bir alanına aittir.",
-          "ur": "یہ حدیث دیہہ کے بارے میں ایک فقہی حکم بیان کرتی ہے کہ یہودی، عیسائی اور مجوسی کی دیہہ مسلمان کی دیہہ کے برابر ہے۔ یہ فقه کے اس شعبے سے تعلق رکھتی ہے جو چوٹ، قتل اور مالی حقوق سے متعلق ہے جو اسلامی قانون کے تحت تسلیم شدہ ہیں۔",
-          "zh": "这则圣训给出了关于赔偿金的法律裁定，说明犹太人、基督徒和祆教徒的赔偿金等同于穆斯林的赔偿金。它属于伊斯兰教法中处理伤害、杀人和财产权利的法学领域。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations",

@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "فَأَمَّا مَا رَوَاهُ مُحَمَّدُ بْنُ عَلِيِّ بْنِ مَحْبُوبٍ عَنِ الْعَبَّاسِ عَنْ أَبِي هَمَّامٍ عَنِ الرِّضَا عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন আলী ইবন মাহবূব আল-আব্বাস থেকে, আবূ হাম্মাম থেকে, আল-রিদা عليه السلام থেকে যা বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "Was Muhammad ibn Ali ibn Mahbub von al-Abbas, von Abi Hammam, von al-Rida عليه السلام überliefert hat, lautet:",
-              "en": "As for what Muḥammad ibn ʿAlī ibn Maḥbūb narrated from al-ʿAbbās, from Abī Hammām, from al-Riḍā عليه السلام, he said:",
-              "es": "En cuanto a lo que narró Muhammad ibn Ali ibn Mahbub de al-Abbas, de Abi Hammam, de al-Rida عليه السلام, dijo:",
-              "fa": "اما آنچه محمد بن علی بن محبوب از عباس، از ابی حمام، از الرضا علیه السلام روایت کرده است، او فرمود:",
-              "fr": "Quant à ce que Muhammad ibn Ali ibn Mahbub a rapporté d’al-ʿAbbas, d’Abi Hammam, d’al-Rida عليه السلام, il a dit :",
-              "id": "Adapun apa yang diriwayatkan oleh Muhammad ibn Ali ibn Mahbub dari al-Abbas, dari Abi Hammam, dari al-Rida عليه السلام, beliau bersabda:",
-              "ru": "Что касается того, что передал Мухаммад ибн Али ибн Махбуб от аль-Аббаса, от Аби Хаммама, от ар-Риды عليه السلام, то он сказал:",
-              "tr": "Muhammed ibn Ali ibn Mahbub’un el-Abbas’tan, Ebu Hammam’dan, er-Rıza عليه السلام’dan rivayet ettiğine gelince, o şöyle dedi:",
-              "ur": "جہاں تک محمد بن علی بن محبوب نے العباس سے، ابو حمام سے، الرضا علیہ السلام سے روایت کی ہے، تو انہوں نے فرمایا:",
-              "zh": "至于穆罕默德·伊本·阿里·伊本·马赫布卜从阿尔-阿巴斯、从阿比·哈马姆、从阿尔-里达 عليه السلام传述的内容，他说："
-            },
             "word_end": 18,
             "word_start": 0
           },
           {
             "arabic_text": "يَتَيَمَّمُ لِكُلِّ صَلَاةٍ حَتَّى يُوجَدَ الْمَاءُ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি পানি পাওয়া পর্যন্ত প্রতিটি সালাতের জন্য তায়াম্মুম করেন।",
-              "de": "Er verrichtet für jedes salat (Gebet) tayammum, bis Wasser gefunden wird.",
-              "en": "He performs tayammum for every salat (prayer) until water is found.",
-              "es": "Él realiza tayammum para cada salat (oración) hasta que se encuentre agua.",
-              "fa": "او برای هر نماز تیمم می‌کند تا زمانی که آب پیدا شود.",
-              "fr": "Il fait le tayammum pour chaque salat (prière) jusqu’à ce que l’eau soit trouvée.",
-              "id": "Beliau bertayammum untuk setiap salat (shalat) sampai air ditemukan.",
-              "ru": "Он совершает таяммум для каждого салата (молитвы), пока не будет найдено воды.",
-              "tr": "Su bulununcaya kadar her salat (namaz) için teyemmüm yapar.",
-              "ur": "وہ ہر نماز کے لیے تیمم کرتا ہے یہاں تک کہ پانی مل جائے۔",
-              "zh": "他为每一次salat（礼拜）做tayammum，直到找到水。"
-            },
             "word_end": 24,
             "word_start": 18
           }
@@ -94,26 +81,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْمَاءُ": "water, the basis for wudu (ablution) or ghusl (ritual bath)",
-            "حَتَّى": "until, marking the limit of the ruling",
-            "صَلَاةٍ": "salat (prayer), the ritual prayer",
-            "لِكُلِّ": "for every, indicating repetition for each instance",
-            "يَتَيَمَّمُ": "he performs tayammum, the dry ablution used when water is unavailable",
-            "يُوجَدَ": "is found, meaning becomes available"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَتَيَمَّمُ",
+          "لِكُلِّ",
+          "صَلَاةٍ",
+          "حَتَّى",
+          "يُوجَدَ",
+          "الْمَاءُ"
+        ],
         "related_quran": [
           {
             "ref": "4:43",
@@ -124,32 +99,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "পানি পাওয়া পর্যন্ত কি প্রতিটি সালাতের জন্য তায়াম্মুম নবায়ন করতে হবে?",
-          "de": "Muss eine Person tayammum für jedes salat (Gebet) erneuern, bis Wasser gefunden wird?",
-          "en": "Must a person renew tayammum for every salat (prayer) until water is found?",
-          "es": "¿Debe una persona renovar el tayammum para cada salat (oración) hasta que se encuentre agua?",
-          "fa": "آیا تا زمانی که آب پیدا شود، لازم است برای هر نماز تیمم را تجدید کرد؟",
-          "fr": "Faut-il renouveler le tayammum pour chaque salat (prière) jusqu’à ce que l’eau soit trouvée ?",
-          "id": "Apakah seseorang harus memperbarui tayammum untuk setiap salat (shalat) sampai air ditemukan?",
-          "ru": "Должен ли человек обновлять таяммум для каждого салата (молитвы), пока не будет найдена вода?",
-          "tr": "Su bulununcaya kadar her salat (namaz) için teyemmüm yenilemek gerekir mi?",
-          "ur": "کیا پانی ملنے تک ہر نماز کے لیے تیمم کرنا ضروری ہے؟",
-          "zh": "在找到水之前，一个人是否必须为每一次salat（礼拜）重新做tayammum？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে বলা হয়েছে যে পানি না পাওয়া পর্যন্ত প্রতিটি সালাতের জন্য তায়াম্মুম করতে হবে। এটি পানি অনুপস্থিত থাকলে পবিত্রতা ও ইবাদতের সঙ্গে সম্পর্কিত একটি শরঈ বিধান নির্দেশ করে।",
-          "de": "Dieser Hadith besagt, dass eine Person für jedes salat (Gebet) tayammum verrichten soll, solange kein Wasser verfügbar ist. Er behandelt eine rechtliche Regelung zur rituellen Reinheit und zum Gottesdienst bei fehlendem Wasser.",
-          "en": "This hadith states that a person should perform tayammum for each salat (prayer) so long as water is not available. It addresses a legal ruling related to ritual purity and worship in the absence of water.",
-          "es": "Este hadiz establece que una persona debe hacer tayammum para cada salat (oración) mientras no haya agua disponible. Trata de una norma jurídica relacionada con la pureza ritual y la adoración en ausencia de agua.",
-          "fa": "این حدیث بیان می‌کند که تا زمانی که آب در دسترس نباشد، برای هر نماز تیمم انجام شود. این روایت به یک حکم فقهی مربوط به طهارت و عبادت در نبود آب اشاره دارد.",
-          "fr": "Ce hadith indique qu’une personne doit faire le tayammum pour chaque salat (prière) tant que l’eau n’est pas disponible. Il traite d’une règle juridique liée à la pureté rituelle et à l’adoration en l’absence d’eau.",
-          "id": "Hadis ini menyatakan bahwa seseorang harus bertayammum untuk setiap salat (shalat) selama air belum tersedia. Ini menjelaskan sebuah hukum fikih yang berkaitan dengan kesucian ritual dan ibadah ketika tidak ada air.",
-          "ru": "Этот хадис указывает, что человек должен совершать таяммум для каждого салата (молитвы), пока вода не будет найдена. Он касается правового постановления, связанного с ритуальной чистотой и поклонением при отсутствии воды.",
-          "tr": "Bu hadis, su bulunmadığı sürece her salat (namaz) için teyemmüm yapılması gerektiğini bildirir. Su olmadığında temizlik ve ibadetle ilgili bir fıkhî hükme işaret eder.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ جب تک پانی دستیاب نہ ہو، ہر نماز کے لیے تیمم کیا جائے۔ یہ طہارتِ شرعی اور عبادت سے متعلق ایک فقہی حکم بیان کرتی ہے۔",
-          "zh": "这段圣训说明，只要没有水，就应为每一次salat（礼拜）做tayammum。它涉及在缺水情况下与礼仪洁净和崇拜有关的教法判定。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

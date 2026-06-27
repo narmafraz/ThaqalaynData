@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ الصَّادِقُ عَلَيْهِ السَّلَامُ :",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং আল-সাদিক عليه السلام বললেন:",
-              "de": "Und al-Sadiq عليه السلام sagte:",
-              "en": "And al-Sadiq عليه السلام said:",
-              "es": "Y al-Sadiq عليه السلام dijo:",
-              "fa": "و امام صادق علیه السلام فرمود:",
-              "fr": "Et al-Sadiq عليه السلام a dit :",
-              "id": "Dan al-Sadiq عليه السلام berkata:",
-              "ru": "И аль-Садик عليه السلام сказал:",
-              "tr": "Ve el-Sadık عليه السلام dedi ki:",
-              "ur": "اور الصادق علیہ السلام نے فرمایا:",
-              "zh": "والصادقعليهالسلامقال:"
-            },
             "word_end": 6,
             "word_start": 0
           },
           {
             "arabic_text": "«إِنَّ لِلَّهِ عَزَّ وَ جَلَّ حَوْلَ الْكَعْبَةِ عِشْرِينَ وَ مِائَةَ رَحْمَةٍ مِنْهَا سِتُّونَ لِلطَّائِفِينَ وَ أَرْبَعُونَ لِلْمُصَلِّينَ وَ عِشْرُونَ لِلنَّاظِرِينَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "নিশ্চয়ই আল্লাহ, মহিমান্বিত ও মহাজন, কাবার চারপাশে একশ বিশটি রহমত রেখেছেন: ষাটটি তাওয়াফকারীদের জন্য, চল্লিশটি নামাজ পড়ার জন্য, এবং বিশটি দেখার জন্য।",
-              "de": "Wahrlich, Allah, der Mächtige und Erhabene, hat um die Kaaba hundertzwanzig Barmherzigkeiten: sechzig für die, die tawaf vollziehen, vierzig für die, die beten, und zwanzig für die, die schauen.",
-              "en": "Indeed, Allah, Mighty and Majestic, has around the Ka'bah one hundred and twenty mercies: sixty of them for those performing tawaf, forty for those praying, and twenty for those looking.",
-              "es": "En verdad, Allah, el Poderoso y Majestuoso, tiene alrededor de la Ka'bah ciento veinte misericordias: sesenta para quienes realizan el tawaf, cuarenta para quienes rezan, y veinte para quienes miran.",
-              "fa": "بی‌گمان خداوند متعال، توانمند و جلیل، در اطراف کعبه صد و بیست رحمت دارد: شصت رحمت برای طواف‌کنندگان، چهل برای نمازگزاران و بیست برای ناظران.",
-              "fr": "En vérité, Allah, le Tout-Puissant et Majestueux, a autour de la Ka'bah cent vingt miséricordes : soixante pour ceux qui effectuent le tawaf, quarante pour ceux qui prient, et vingt pour ceux qui regardent.",
-              "id": "Sesungguhnya Allah Yang Maha Perkasa dan Maha Agung memiliki seratus dua puluh rahmat di sekitar Ka'bah: enam puluh untuk orang yang melakukan tawaf, empat puluh untuk yang shalat, dan dua puluh untuk yang melihat.",
-              "ru": "Воистину, Аллах, Могучий и Великий, имеет вокруг Каабы сто двадцать милостей: шестьдесят для тех, кто совершает таваф, сорок для молящихся и двадцать для смотрящих.",
-              "tr": "Şüphesiz Allah, Azîz ve Celîl, Kâbe'nin etrafında yüz yirmi rahmet vardır: altmışı tavaf edenler için, kırkı namaz kılanlar için ve yirmisi bakanlar içindir.",
-              "ur": "بے شک اللہ تعالیٰ، جو عظمت والا اور جلیل ہے، کعبہ کے گرد ایک سو بیس رحمتیں رکھتا ہے: ساٹھ طواف کرنے والوں کے لیے، چالیس نماز پڑھنے والوں کے لیے، اور بیس دیکھنے والوں کے لیے۔",
-              "zh": "确真真主全能尊贵在圣殿周围有一百二十份慈悲：六十份给绕行者，四十份给礼拜者，二十份给观看者。"
-            },
             "word_end": 26,
             "word_start": 6
           }
@@ -81,26 +68,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "اللَّهِ": "Allah, the Divine Being",
-            "الْكَعْبَةِ": "the Ka'bah, the sacred House in Makkah",
-            "رَحْمَةٍ": "mercy, divine compassion and grace",
-            "لِلطَّائِفِينَ": "for those performing tawaf around the Ka'bah",
-            "لِلنَّاظِرِينَ": "for those looking at the Ka'bah",
-            "لِلْمُصَلِّينَ": "for those performing salat (prayer)"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "اللَّهِ",
+          "الْكَعْبَةِ",
+          "رَحْمَةٍ",
+          "لِلطَّائِفِينَ",
+          "لِلْمُصَلِّينَ",
+          "لِلنَّاظِرِينَ"
+        ],
         "related_quran": [
           {
             "ref": "2:125",
@@ -115,32 +90,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام কাবার চারপাশে আল্লাহর রহমত সম্পর্কে কী বলেন?",
-          "de": "Was sagt Imam al-Sadiq عليه السلام über die Barmherzigkeit Allahs um die Kaaba?",
-          "en": "What does Imam al-Sadiq عليه السلام say about the mercy of Allah around the Ka'bah?",
-          "es": "¿Qué dice el Imam al-Sadiq عليه السلام sobre la misericordia de Allah alrededor de la Ka'bah?",
-          "fa": "امام صادق علیه السلام درباره رحمت خداوند در اطراف کعبه چه می‌فرمایند؟",
-          "fr": "Que dit l’Imam al-Sadiq عليه السلام à propos de la miséricorde d’Allah autour de la Ka'bah ?",
-          "id": "Apa yang dikatakan Imam al-Sadiq عليه السلام tentang rahmat Allah di sekitar Ka'bah?",
-          "ru": "Что говорит Имам аль-Садик عليه السلام о милости Аллаха вокруг Каабы?",
-          "tr": "İmam el-Sadık عليه السلام Kâbe etrafındaki Allah’ın merhameti hakkında ne diyor?",
-          "ur": "امام الصادق علیہ السلام کعبہ کے گرد اللہ کی رحمت کے بارے میں کیا فرماتے ہیں؟",
-          "zh": "伊玛目الصادقعليهالسلام关于真主在圣殿周围的慈悲说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি কাবার চারপাশে বিশেষ ঐশ্বরিক রহমত বর্ণনা করে এবং এটি কীভাবে তাওয়াফ, সালাত এবং কাবা দেখার মতো ইবাদতের মধ্যে বিতরণ হয় তা ব্যাখ্যা করে। এটি হজের পবিত্র পরিবেশে এই ইবাদতের আধ্যাত্মিক মর্যাদা তুলে ধরে।",
-          "de": "Dieser Hadith beschreibt die besondere göttliche Barmherzigkeit um die Kaaba und wie sie unter den mit ihr verbundenen Gottesdiensten verteilt wird. Er hebt den spirituellen Rang von Tawaf, Salat und sogar dem Betrachten der Kaaba im heiligen Rahmen der Hadsch hervor.",
-          "en": "This hadith describes the special divine mercy present around the Ka'bah and how it is distributed among acts of worship connected to it. It highlights the spiritual rank of tawaf, salat (prayer), and even gazing upon the Ka'bah within the sacred setting of hajj.",
-          "es": "Este hadiz describe la misericordia divina especial presente alrededor de la Ka'bah y cómo se distribuye entre los actos de adoración relacionados con ella. Destaca el rango espiritual del tawaf, la salat y hasta la contemplación de la Ka'bah dentro del entorno sagrado del hajj.",
-          "fa": "این حدیث رحمت ویژه الهی اطراف کعبه را توصیف می‌کند و نشان می‌دهد چگونه این رحمت‌ها بین اعمال عبادی مرتبط با آن مانند طواف، نماز و نگاه کردن تقسیم می‌شود. جایگاه معنوی این اعمال در فضای مقدس حج را برجسته می‌سازد.",
-          "fr": "Ce hadith décrit la miséricorde divine spéciale présente autour de la Ka'bah et comment elle est répartie entre les actes d’adoration qui y sont liés. Il met en lumière le rang spirituel du tawaf, de la salat et même du simple regard porté sur la Ka'bah dans le cadre sacré du hajj.",
-          "id": "Hadis ini menjelaskan rahmat ilahi khusus yang ada di sekitar Ka'bah dan bagaimana rahmat tersebut dibagikan di antara ibadah yang terkait dengannya seperti tawaf, salat, dan melihat Ka'bah. Ini menyoroti kedudukan spiritual tawaf, salat, dan bahkan memandang Ka'bah dalam suasana suci haji.",
-          "ru": "Этот хадис описывает особую божественную милость вокруг Каабы и то, как она распределяется между актами поклонения, связанными с ней. Он подчеркивает духовный ранг тавафа, салят и даже взгляда на Каабу в священной обстановке хаджа.",
-          "tr": "Bu hadis, Kâbe etrafındaki özel ilahi merhameti ve bu merhametin tavaf, salat ve Kâbe'ye bakmak gibi ibadetler arasında nasıl dağıtıldığını anlatır. Hac'ın kutsal ortamında bu ibadetlerin manevi derecesini vurgular.",
-          "ur": "یہ حدیث کعبہ کے گرد موجود خاص الہی رحمت کی وضاحت کرتی ہے اور بتاتی ہے کہ یہ رحمتیں طواف، نماز اور کعبہ کی طرف دیکھنے جیسے عبادات میں کیسے تقسیم ہوتی ہیں۔ یہ حج کے مقدس ماحول میں ان اعمال کی روحانی اہمیت کو اجاگر کرتی ہے۔",
-          "zh": "此圣训描述了圣殿周围特殊的神圣慈悲及其在与之相关的崇拜行为中的分配，强调了绕行、礼拜乃至凝视圣殿在朝觐圣地中的精神地位。"
-        },
         "tags": [
           "worship",
           "theology",

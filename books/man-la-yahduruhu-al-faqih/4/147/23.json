@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى ٱبْنُ مَحْبُوبٍ عَنْ عَلِيِّ بْنِ رِئَابٍ عَنْ أَبِي عُبَيْدَةَ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ ٱلسَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ইবনে মাহবুব আলী ইবনে রিয়াব থেকে, তিনি আবু উবাইদাহ থেকে, তিনি আবু জাফর عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Ibn Mahbub berichtete von Ali ibn Ri'ab, von Abu Ubaydah, von Abu Ja'far عليه السلام, der sagte:",
-              "en": "Ibn Mahbub narrated from Ali ibn Ri'ab, from Abu Ubaydah, from Abu Ja'far عليه السلام, who said:",
-              "es": "Ibn Mahbub narró de Ali ibn Ri'ab, de Abu Ubaydah, de Abu Ja'far عليه السلام, quien dijo:",
-              "fa": "ابن محبوب از علی بن ریاب، از ابو عبیده، از ابو جعفر علیه السلام روایت کرده است که فرمود:",
-              "fr": "Ibn Mahbub a rapporté d'Ali ibn Ri'ab, d'Abu Ubaydah, d'Abu Ja'far عليه السلام, qui a dit :",
-              "id": "Ibn Mahbub meriwayat dari Ali ibn Ri'ab, dari Abu Ubaydah, dari Abu Ja'far علیه السلام, yang berkata:",
-              "ru": "Ибн Махбуб передал от Али ибн Ри'аба, от Абу Убайды, от Абу Джа'фара عليه السلام, который сказал:",
-              "tr": "İbn Mahbub, Ali ibn Ri'ab'dan, o da Ebu Ubeyde'den, o da Ebu Ca'fer عليه السلام'dan rivayet etti, şöyle dedi:",
-              "ur": "ابن محبوب نے علی ابن ریاب سے روایت کی، جو ابو عبیدہ سے، جو ابو جعفر علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "伊本马胡布从阿里伊本里阿卜传述，传自阿布乌拜达，传自阿布贾法尔عليهالسلام，他说："
-            },
             "word_end": 17,
             "word_start": 0
           },
           {
             "arabic_text": "سُئِلَ عَنِ ٱبْنِ عَمٍّ وَ جَدٍّ قَالَ «ٱلْمَالُ لِلْجَدِّ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তার কাছে পিতৃকুলীয় চাচাতো ভাই ও দাদার সম্পর্কে প্রশ্ন করা হয়েছিল। তিনি বললেন: “সম্পত্তি দাদার জন্য।”",
-              "de": "Er wurde nach einem väterlichen Cousin und einem Großvater gefragt. Er sagte: „Das Vermögen gehört dem Großvater.“",
-              "en": "He was asked about a paternal cousin and a grandfather. He said: “The property belongs to the grandfather.”",
-              "es": "Le preguntaron sobre un primo paterno y un abuelo. Él dijo: “La propiedad pertenece al abuelo.”",
-              "fa": "از او درباره پسرعمو و پدربزرگ سؤال شد. فرمود: «مال به پدربزرگ تعلق دارد.»",
-              "fr": "On lui a demandé au sujet d'un cousin paternel et d'un grand-père. Il a dit : « La propriété appartient au grand-père. »",
-              "id": "Dia ditanya tentang sepupu dari pihak ayah dan kakek. Dia berkata: “Harta milik kakek.”",
-              "ru": "Его спросили о двоюродном брате по отцу и деде. Он сказал: «Имущество принадлежит деду.»",
-              "tr": "Kendisi bir amca çocuğu ve bir büyükbaba hakkında soruldu. Şöyle dedi: “Mal büyükbabaya aittir.”",
-              "ur": "ان سے ایک والد کے کزن اور دادا کے بارے میں پوچھا گیا۔ انہوں نے کہا: \"مال دادا کا حق ہے۔\"",
-              "zh": "有人问及父系堂兄弟和祖父。他说：“财产属于祖父。”"
-            },
             "word_end": 26,
             "word_start": 17
           }
@@ -111,23 +98,11 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "جَدٍّ": "grandfather",
-            "ٱبْنِ عَمٍّ": "paternal cousin",
-            "ٱلْمَالُ": "the estate or inheritance property"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "ٱبْنِ عَمٍّ",
+          "جَدٍّ",
+          "ٱلْمَالُ"
+        ],
         "related_quran": [
           {
             "ref": "4:11",
@@ -138,32 +113,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যখন মৃত ব্যক্তি পিতৃকুলীয় চাচাতো ভাই এবং দাদা রেখে যান, তখন উত্তরাধিকারী কে?",
-          "de": "Wer erbt, wenn der Verstorbene einen väterlichen Cousin und einen Großvater hinterlässt?",
-          "en": "Who inherits when the deceased leaves a paternal cousin and a grandfather?",
-          "es": "¿Quién hereda cuando el fallecido deja un primo paterno y un abuelo?",
-          "fa": "وقتی متوفی وارثانی شامل پسرعمو و پدربزرگ دارد، وارث کیست؟",
-          "fr": "Qui hérite lorsque le défunt laisse un cousin paternel et un grand-père ?",
-          "id": "Siapa yang mewarisi jika almarhum meninggalkan sepupu dari pihak ayah dan kakek?",
-          "ru": "Кто наследует, если умерший оставил двоюродного брата по отцу и деда?",
-          "tr": "Ölenin geride bir amca çocuğu ve bir büyükbaba bırakması durumunda miras kimindir?",
-          "ur": "جب مرحوم کے وارث والد کے کزن اور دادا ہوں تو کون وارث ہوتا ہے؟",
-          "zh": "当死者留下父系堂兄弟和祖父时，谁继承遗产？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস উত্তরাধিকার সংক্রান্ত একটি আইনি সিদ্ধান্ত প্রদান করে: যখন উত্তরাধিকারীরা পিতৃকুলীয় চাচাতো ভাই এবং দাদা হয়, তখন সম্পত্তি দাদার কাছে যায়। এটি নিকটতম পিতৃকুলীয় আত্মীয়দের উত্তরাধিকার প্রাধান্যের ফিকহী ব্যাখ্যা প্রতিফলিত করে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung im Erbrecht: Wenn die Erben ein väterlicher Cousin und ein Großvater sind, geht das Vermögen an den Großvater. Er spiegelt die juristische Behandlung näherer väterlicher Verwandter mit Vorrang in der Erbfolge wider.",
-          "en": "This hadith gives a legal ruling in inheritance: when the heirs under consideration are a paternal cousin and a grandfather, the estate goes to the grandfather. It reflects the jurisprudential treatment of nearer paternal relatives having priority in succession.",
-          "es": "Este hadiz ofrece un fallo legal en la herencia: cuando los herederos considerados son un primo paterno y un abuelo, la herencia va al abuelo. Refleja el tratamiento jurisprudencial de los parientes paternos más cercanos que tienen prioridad en la sucesión.",
-          "fa": "این حدیث حکم شرعی در ارث را بیان می‌کند: هنگامی که وارثان مورد نظر پسرعمو و پدربزرگ باشند، اموال به پدربزرگ می‌رسد. این نشان‌دهنده اولویت خویشاوندان نزدیک‌تر از طرف پدر در ارث است.",
-          "fr": "Ce hadith donne une règle juridique en matière d'héritage : lorsque les héritiers considérés sont un cousin paternel et un grand-père, la succession revient au grand-père. Cela reflète le traitement jurisprudentiel des proches paternels ayant priorité dans la succession.",
-          "id": "Hadis ini memberikan ketetapan hukum dalam warisan: ketika ahli waris yang dipertimbangkan adalah sepupu dari pihak ayah dan kakek, harta warisan diberikan kepada kakek. Ini mencerminkan perlakuan fikih terhadap kerabat paternal yang lebih dekat yang memiliki prioritas dalam pewarisan.",
-          "ru": "Этот хадис содержит юридическое постановление по наследству: когда наследниками являются двоюродный брат по отцу и дед, имущество переходит к деду. Это отражает юридическую практику приоритета ближайших родственников по отцовской линии в наследовании.",
-          "tr": "Bu hadis, miras konusunda bir hukuki hüküm verir: mirasçılar arasında bir amca çocuğu ve bir büyükbaba olduğunda, mal varlığı büyükbabaya gider. Bu, daha yakın baba tarafından akrabalara öncelik veren fıkhî yaklaşımı yansıtır.",
-          "ur": "یہ حدیث وارثت میں ایک قانونی حکم دیتی ہے: جب وارثین میں والد کے کزن اور دادا ہوں، تو جائیداد دادا کو ملتی ہے۔ یہ قریبی والدین کے حق میں وراثت کی فقہی تشریح کو ظاہر کرتی ہے۔",
-          "zh": "这段圣训给出了遗产继承的法律裁决：当继承人是父系堂兄弟和祖父时，财产归祖父所有。它反映了法学上对近亲父系亲属优先继承的处理。"
-        },
         "tags": [
           "jurisprudence",
           "family",

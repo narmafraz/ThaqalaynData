@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ بِهَذَا الْإِسْنَادِ عَنْ مُحَمَّدِ بْنِ أَحْمَدَ بْنِ يَحْيَى عَنْ عَلِيِّ بْنِ السِّنْدِيِّ عَنْ حَمَّادِ بْنِ عِيسَى عَنْ حَرِيزٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং এই সনদের মাধ্যমে, মুহাম্মদ ইবন আহমদ ইবন ইয়াহইয়া থেকে, আলী ইবন আল-সিন্দী থেকে, হাম্মাদ ইবন ঈসা থেকে, হারীয থেকে, আবু জাফর عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Und mit dieser Überlieferungskette, von Muhammad ibn Ahmad ibn Yahya, von Ali ibn al-Sindi, von Hammad ibn Isa, von Hariz, von Abu Ja'far عليه السلام, der sagte:",
-              "en": "And with this chain of transmission, from Muḥammad ibn Aḥmad ibn Yaḥyā, from ʿAlī ibn al-Sindī, from Ḥammād ibn ʿĪsā, from Ḥarīz, from Abī Jaʿfar عليه السلام, who said:",
-              "es": "Y con esta cadena de transmisión, de Muhammad ibn Ahmad ibn Yahya, de Ali ibn al-Sindi, de Hammad ibn Isa, de Hariz, de Abu Ja'far عليه السلام, quien dijo:",
-              "fa": "و با این سلسله سند، از محمد بن احمد بن یحیی، از علی بن السندی، از حماد بن عیسی، از حریز، از ابوجعفر علیه السلام، که فرمود:",
-              "fr": "Et avec cette chaîne de transmission, de Muhammad ibn Ahmad ibn Yahya, de Ali ibn al-Sindi, de Hammad ibn Isa, de Hariz, de Abou Ja'far عليه السلام, qui a dit :",
-              "id": "Dan dengan sanad ini, dari Muhammad ibn Ahmad ibn Yahya, dari Ali ibn al-Sindi, dari Hammad ibn Isa, dari Hariz, dari Abu Ja'far عليه السلام, beliau bersabda:",
-              "ru": "И с этой цепочкой передачи, от Мухаммада ибн Ахмада ибн Яхьи, от Али ибн ас-Синди, от Хаммада ибн Исы, от Хариза, от Абу Джафара عليه السلام, который сказал:",
-              "tr": "Ve bu rivayet zinciriyle, Muhammed ibn Ahmed ibn Yahya’dan, Ali ibn al-Sindi’den, Hammad ibn Isa’dan, Hariz’den, Ebu Cafer عليه السلام’dan, şöyle dedi:",
-              "ur": "اور اس سند کے ساتھ، محمد بن احمد بن یحییٰ سے، علی بن السندی سے، حماد بن عیسیٰ سے، حریز سے، ابو جعفر علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "并且通过这条传述链，从穆罕默德·伊本·艾哈迈德·伊本·叶海亚传自阿里·伊本·阿尔-辛迪，传自哈马德·伊本·伊萨，传自哈里兹，传自阿布·贾法尔 عليه السلام，他说："
-            },
             "word_end": 25,
             "word_start": 0
           },
           {
             "arabic_text": "«يَغْسِلُ الرَّجُلُ يَدَهُ مِنَ النَّوْمِ مَرَّةً وَ مِنَ الْغَائِطِ وَ الْبَوْلِ مَرَّتَيْنِ وَ مِنَ الْجَنَابَةِ ثَلَاثًا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“একজন মানুষ ঘুমের পর একবার, পায়খানা ও প্রস্রাবের পর দুবার, এবং জানাবাতের পর তিনবার হাত ধোয়।”",
-              "de": "„Ein Mann wäscht seine Hand nach dem Schlaf einmal, nach dem Stuhlgang und dem Wasserlassen zweimal und nach der Janabah dreimal.“",
-              "en": "“A man washes his hand once after sleep, twice after defecation and urination, and three times after janabah.”",
-              "es": "“Un hombre se lava la mano una vez después de dormir, dos veces después de defecar y orinar, y tres veces después de janabah.”",
-              "fa": "«مرد، دست خود را پس از خواب یک بار، پس از دفع و بول دو بار، و پس از جنابت سه بار می‌شوید.»",
-              "fr": "« Un homme lave sa main une fois après le sommeil, deux fois après la défécation et l’urination, et trois fois après la janabah. »",
-              "id": "“Seorang laki-laki mencuci tangannya sekali setelah tidur, dua kali setelah buang air besar dan buang air kecil, dan tiga kali setelah janabah.”",
-              "ru": "«Человек моет свою руку один раз после сна, два раза после испражнения и мочеиспускания и три раза после джанабы».",
-              "tr": "“Bir adam, uykudan sonra elini bir kez, defekasyon ve idrardan sonra iki kez, janabahdan sonra ise üç kez yıkar.”",
-              "ur": "“آدمی نیند کے بعد اپنا ہاتھ ایک مرتبہ دھوتا ہے، قضائے حاجت اور پیشاب کے بعد دو مرتبہ، اور جنابت کے بعد تین مرتبہ۔”",
-              "zh": "“一个人在睡眠后洗手一次，在排便和排尿后洗手两次，在大净状态后洗手三次。”"
-            },
             "word_end": 41,
             "word_start": 25
           },
           {
             "arabic_text": "فَلَوْ أَدْخَلَ يَدَهُ فِي الْإِنَاءِ قَبْلَ أَنْ يَغْسِلَهَا لَمْ يَفْسُدِ الْمَاءُ إِذَا كَانَتْ طَاهِرَةً يَدُلُّ عَلَى ذَلِكَ.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "অতএব, যদি সে হাত ধোয়ার আগে পাত্রে হাত ঢুকিয়ে দেয়, তবে পানি নষ্ট হবে না, যদি হাত পবিত্র থাকে; এটাই তার প্রমাণ।",
-              "de": "Wenn er also seine Hand vor dem Waschen in das Gefäß eintauchen würde, würde das Wasser nicht verdorben, wenn die Hand rein wäre; darauf deutet dies hin.",
-              "en": "So if he were to put his hand into the vessel before washing it, the water would not be spoiled, if the hand were pure; this indicates that.",
-              "es": "Así pues, si metiera su mano en el recipiente antes de lavarla, el agua no se echaría a perder, si la mano estuviera pura; esto indica ذلك.",
-              "fa": "پس اگر پیش از شستن، دست خود را در ظرف فرو برد، در صورتی که دست پاک باشد، آب فاسد نمی‌شود؛ این بر آن دلالت دارد.",
-              "fr": "Ainsi, s’il mettait sa main dans le récipient avant de la laver, l’eau ne serait pas altérée, si la main était pure ; cela l’indique.",
-              "id": "Maka jika ia memasukkan tangannya ke dalam bejana sebelum mencucinya, air itu tidak menjadi rusak, jika tangannya suci; hal itu menunjukkan demikian.",
-              "ru": "Итак, если бы он опустил свою руку в сосуд до того, как помоет ее, вода не испортилась бы, если рука была чистой; на это указывает.",
-              "tr": "Öyleyse, eğer elini yıkamadan önce kabın içine sokarsa, el temiz ise su bozulmaz; buna bu delalet eder.",
-              "ur": "پس اگر وہ اسے دھونے سے پہلے برتن میں اپنا ہاتھ ڈال دے تو پانی خراب نہیں ہوگا، اگر ہاتھ پاک ہو؛ اس پر یہی دلالت کرتا ہے۔",
-              "zh": "因此，如果他在洗手之前把手伸入器皿中，只要那只手是洁净的，水就不会变坏；这就表明了这一点。"
-            },
             "word_end": 58,
             "word_start": 41
           }
@@ -143,26 +117,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "النَّوْمِ": "sleep, after which the hand is washed once",
-            "الْإِنَاءِ": "the vessel containing water",
-            "الْبَوْلِ": "urination, after which the hand is washed twice",
-            "الْجَنَابَةِ": "major ritual impurity requiring ghusl, after which the hand is washed three times",
-            "الْغَائِطِ": "defecation, after which the hand is washed twice",
-            "طَاهِرَةً": "ritually pure, meaning free from impurity"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "النَّوْمِ",
+          "الْغَائِطِ",
+          "الْبَوْلِ",
+          "الْجَنَابَةِ",
+          "الْإِنَاءِ",
+          "طَاهِرَةً"
+        ],
         "related_quran": [
           {
             "ref": "5:6",
@@ -173,32 +135,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ঘুম, পায়খানা ও প্রস্রাব, এবং জানাবাতের পর হাত কতবার ধোয়া উচিত, এবং না-ধোয়া কিন্তু পবিত্র হাত পানিতে দিলে কি তা নষ্ট হয়?",
-          "de": "Wie oft sollte die Hand nach dem Schlaf, nach dem Verrichten der Notdurft und nach der Janabah gewaschen werden, und verdirbt es das Wasser, wenn man eine ungewaschene, aber reine Hand ins Wasser legt?",
-          "en": "How many times should the hand be washed after sleep, relieving oneself, and janabah, and does putting an unwashed but pure hand into water spoil it?",
-          "es": "¿Cuántas veces debe lavarse la mano después de dormir, aliviarse y janabah, y meter una mano no lavada pero pura en el agua la estropea?",
-          "fa": "پس از خواب، قضای حاجت و جنابت، دست چند بار باید شسته شود، و آیا فرو بردن دستِ نشسته اما پاک در آب، آن را فاسد می‌کند؟",
-          "fr": "Combien de fois faut-il laver la main après le sommeil, après s’être soulagé et après la janabah, et le fait de mettre une main non lavée mais pure dans l’eau l’altère-t-il ?",
-          "id": "Berapa kali tangan harus dicuci setelah tidur, buang hajat, dan janabah, dan apakah memasukkan tangan yang belum dicuci tetapi suci ke dalam air merusaknya?",
-          "ru": "Сколько раз следует мыть руку после сна, после отправления естественных потребностей и после джанабы, и портит ли воду опускание немытой, но чистой руки в воду?",
-          "tr": "Uykudan, ihtiyaç gidermeden ve janabahdan sonra el kaç kez yıkanmalıdır, ve yıkanmamış ama temiz bir eli suya sokmak suyu bozar mı?",
-          "ur": "نیند، قضائے حاجت اور جنابت کے بعد ہاتھ کتنی بار دھونا چاہیے، اور کیا بغیر دھوئے مگر پاک ہاتھ کو پانی میں ڈالنے سے پانی خراب ہوتا ہے؟",
-          "zh": "睡眠、如厕和大净后手应该洗几次，把未洗但洁净的手放入水中会不会使水变坏？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে বিভিন্ন অবস্থায় হাত ধোয়ার নির্ধারিত সংখ্যা উল্লেখ করা হয়েছে: ঘুমের পর একবার, পায়খানা ও প্রস্রাবের পর দুবার, এবং জানাবাতের পর তিনবার। এটি আরও নির্দেশ করে যে, পবিত্র হাত ধোয়ার আগে পাত্রে রাখা হলে পানি অকার্যকর হয় না।",
-          "de": "Dieser Hadith nennt die vorgeschriebene Anzahl des Händewaschens in verschiedenen Zuständen: einmal nach dem Schlaf, zweimal nach Stuhlgang und Wasserlassen und dreimal nach der Janabah. Er weist auch darauf hin, dass Wasser nicht ungültig wird, wenn eine reine Hand vor dem Waschen in ein Gefäß gelegt wird.",
-          "en": "This hadith states the prescribed number of hand washings in different states: once after sleep, twice after defecation and urination, and three times after janabah. It also indicates that if a pure hand is placed into a vessel before washing, the water does not become invalidated.",
-          "es": "Este hadiz establece el número prescrito de lavados de manos en distintos estados: una vez después de dormir, dos veces después de defecar y orinar, y tres veces después de janabah. También indica que si una mano pura se introduce en un recipiente antes de lavarla, el agua no queda invalidada.",
-          "fa": "این حدیث شمارِ مقررِ شستن دست را در حالت‌های مختلف بیان می‌کند: پس از خواب یک بار، پس از دفع و بول دو بار، و پس از جنابت سه بار. همچنین دلالت دارد که اگر دست پاک پیش از شستن در ظرف قرار گیرد، آب باطل نمی‌شود.",
-          "fr": "Ce hadith énonce le nombre prescrit de lavages des mains dans différents états : une fois après le sommeil, deux fois après la défécation et l’urination, et trois fois après la janabah. Il indique aussi que si une main pure est placée dans un récipient avant d’être lavée, l’eau n’est pas invalidée.",
-          "id": "Hadis ini menyebutkan jumlah yang ditetapkan untuk mencuci tangan dalam keadaan yang berbeda: sekali setelah tidur, dua kali setelah buang air besar dan buang air kecil, dan tiga kali setelah janabah. Hadis ini juga menunjukkan bahwa jika tangan yang suci dimasukkan ke dalam bejana sebelum dicuci, air tidak menjadi batal.",
-          "ru": "Этот хадис указывает установленное число омовений руки в разных состояниях: один раз после сна, два раза после испражнения и мочеиспускания и три раза после джанабы. Он также указывает, что если чистую руку опустить в сосуд до мытья, вода не становится недействительной.",
-          "tr": "Bu hadis, farklı durumlarda el yıkamanın belirlenmiş sayısını bildirir: uykudan sonra bir kez, defekasyon ve idrardan sonra iki kez, janabahdan sonra üç kez. Ayrıca, temiz bir el yıkanmadan bir kaba sokulursa suyun geçersiz olmayacağını da belirtir.",
-          "ur": "یہ حدیث مختلف حالتوں میں ہاتھ دھونے کی مقررہ تعداد بیان کرتی ہے: نیند کے بعد ایک بار، قضائے حاجت اور پیشاب کے بعد دو بار، اور جنابت کے بعد تین بار۔ یہ بھی بتاتی ہے کہ اگر پاک ہاتھ برتن میں دھوئے بغیر ڈال دیا جائے تو پانی ناپاک نہیں ہوتا۔",
-          "zh": "这段圣训说明了在不同情况下洗手的规定次数：睡眠后一次，排便和排尿后两次，大净后三次。它还表明，如果洁净的手在洗之前放入器皿中，水不会失效。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -15,6 +15,137 @@
       "up": "/books/al-kafi:8:1:43"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "يَحْيَى بْنُ عِمْرَانَ عَنْ هَارُونَ بْنِ خَارِجَةَ عَنْ أَبِي بَصِيرٍ عَنْ أَبِي عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ)",
+            "chunk_type": "isnad",
+            "word_end": 16,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "فِي قَوْلِ اللَّهِ عَزَّ وَ جَلَّ",
+            "chunk_type": "opening",
+            "word_end": 22,
+            "word_start": 16
+          },
+          {
+            "arabic_text": "وَ آتَيْناهُ أَهْلَهُ وَ مِثْلَهُمْ مَعَهُمْ",
+            "chunk_type": "quran_quote",
+            "word_end": 28,
+            "word_start": 22
+          },
+          {
+            "arabic_text": "قُلْتُ وُلْدُهُ كَيْفَ أُوتِيَ مِثْلَهُمْ مَعَهُمْ قَالَ أَحْيَا لَهُ مِنْ وُلْدِهِ الَّذِينَ كَانُوا مَاتُوا قَبْلَ ذَلِكَ بِآجَالِهِمْ مِثْلَ الَّذِينَ هَلَكُوا يَوْمَئِذٍ",
+            "chunk_type": "body",
+            "word_end": 49,
+            "word_start": 28
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 734,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "يَحْيَى بْنُ عِمْرَانَ",
+              "name_en": "Yahya ibn Imran",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 241,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "هَارُونَ بْنِ خَارِجَةَ",
+              "name_en": "Harun ibn Kharija",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 14,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي بَصِيرٍ",
+              "name_en": "Abu Basir",
+              "position": 3,
+              "role": "companion"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ (عليه السلام)",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "آتَيْناهُ",
+          "أَهْلَهُ",
+          "مِثْلَهُمْ",
+          "بِآجَالِهِمْ",
+          "هَلَكُوا"
+        ],
+        "related_quran": [
+          {
+            "ref": "21:84",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "39:68",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "53:42",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "quran_commentary",
+          "theology",
+          "afterlife"
+        ],
+        "topics": [
+          "quran_interpretation_method",
+          "prophets",
+          "resurrection"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> حسن</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 233)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -87,7 +218,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:43:42",

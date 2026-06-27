@@ -17,61 +17,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى عُثْمَانُ بْنُ زِيَادٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং ʿউসমান ইবনে জিয়াদ আবু জাফর عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Und ʿUthmān ibn Ziyād berichtete von Abū Jaʿfar عليه السلام, der sagte:",
-              "en": "And ʿUthmān ibn Ziyād narrated from Abū Jaʿfar عليه السلام, who said:",
-              "es": "Y ʿUthmān ibn Ziyād narró de Abū Jaʿfar عليه السلام, quien dijo:",
-              "fa": "و ʿعثمان بن زیاد از ابوجعفر علیه السلام روایت کرد که فرمود:",
-              "fr": "Et ʿUthmān ibn Ziyād a rapporté d'Abū Jaʿfar عليه السلام, qui a dit :",
-              "id": "Dan ʿUthmān ibn Ziyād meriwayatkan dari Abū Jaʿfar علیه السلام, yang berkata:",
-              "ru": "И ʿУсман ибн Зияд передал от Абу Джаʿфара عليه السلام, который сказал:",
-              "tr": "Ve ʿUthmān ibn Ziyād, Abū Jaʿfar عليه السلام'dan rivayet etti, şöyle dedi:",
-              "ur": "اورعثمانبنزیادنےابوجعفرعلیہالسلامسےروایتکیا،جنہوںنےکہا:",
-              "zh": "ʿUthmānibnZiyād从AbūJaʿfarعليهالسلام那里传述，他说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "قُلْتُ لَهُ إِنَّ جَمَّالًا لَنَا كَانَ يُكَارِينَا فَحَمَلَ عَلَى غَيْرِهِ فَضَاعَ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাকে বললাম: আমাদের একটি উট চালক ছিল, সে মাল অন্য কারো কাছে তুলে দিল, ফলে মাল হারিয়ে গেল।",
-              "de": "Ich sagte zu ihm: Wir hatten einen Kamelreiter, der die Ladung an jemand anderen übergab, und sie ging verloren.",
-              "en": "I said to him: We had a camel driver working for us, and he loaded it onto someone else, so it was lost.",
-              "es": "Le dije: Teníamos un conductor de camellos, y él cargó la mercancía a otra persona, por lo que se perdió.",
-              "fa": "به او گفتم: ما یک شترچی داشتیم که بار را به دیگری سپرد و سپس بار گم شد.",
-              "fr": "Je lui ai dit : Nous avions un chamelier qui a chargé la marchandise à quelqu'un d'autre, et elle a été perdue.",
-              "id": "Saya berkata kepadanya: Kami memiliki seorang pengemudi unta, dan dia memindahkan muatan itu ke orang lain, sehingga hilang.",
-              "ru": "Я сказал ему: У нас был верблюжий перевозчик, и он передал груз другому, после чего груз пропал.",
-              "tr": "Ona dedim ki: Bizim bir deve sürücümüz vardı, yükü başkasına verdi, sonra kayboldu.",
-              "ur": "میں نے ان سے کہا: ہمارے پاس ایک اونٹ چالک تھا، اس نے سامان کسی اور کے حوالے کر دیا، تو وہ گم ہو گیا۔",
-              "zh": "我对他说：我们有一个骆驼司机，他把货物交给了别人，结果丢失了。"
-            },
             "word_end": 22,
             "word_start": 11
           },
           {
             "arabic_text": "قَالَ «ضَمِّنْهُ وَ خُذْ مِنْهُ».",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তিনি বললেন: তাকে দায়ী করো এবং তার কাছ থেকে ক্ষতিপূরণ নাও।",
-              "de": "Er sagte: Mach ihn haftbar und fordere Entschädigung von ihm.",
-              "en": "He said: Make him liable and take compensation from him.",
-              "es": "Él dijo: Hazlo responsable y toma compensación de él.",
-              "fa": "فرمود: او را مسئول بدان و از او غرامت بگیر.",
-              "fr": "Il a dit : Rends-le responsable et prends une compensation de lui.",
-              "id": "Dia berkata: Jadikan dia bertanggung jawab dan ambil kompensasi darinya.",
-              "ru": "Он сказал: Сделай его ответственным и возьми с него компенсацию.",
-              "tr": "O dedi ki: Onu sorumlu tut ve ondan tazminat al.",
-              "ur": "انہوں نے فرمایا: اسے ذمہ دار ٹھہراؤ اور اس سے معاوضہ لو۔",
-              "zh": "他说：让他承担责任并从他那里索赔。"
-            },
             "word_end": 27,
             "word_start": 22
           }
@@ -110,27 +84,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "جَمَّالًا": "a camel driver or transporter hired to carry goods",
-            "خُذْ مِنْهُ": "take compensation from him",
-            "ضَمِّنْهُ": "hold him legally liable for compensation",
-            "عَلَى غَيْرِهِ": "onto someone other than himself or his own conveyance",
-            "فَحَمَلَ": "he transported or loaded the goods",
-            "فَضَاعَ": "the property was lost",
-            "يُكَارِينَا": "he used to hire out his carrying service to us"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "جَمَّالًا",
+          "يُكَارِينَا",
+          "فَحَمَلَ",
+          "عَلَى غَيْرِهِ",
+          "فَضَاعَ",
+          "ضَمِّنْهُ",
+          "خُذْ مِنْهُ"
+        ],
         "related_quran": [
           {
             "ref": "4:58",
@@ -145,32 +107,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "একজন ভাড়াটে পরিবাহক কি দায়ী যদি সে মাল অন্য কারো কাছে হস্তান্তর করে এবং মাল হারিয়ে যায়?",
-          "de": "Ist ein beauftragter Beförderer haftbar, wenn er Waren an jemand anderen übergibt und diese verloren gehen?",
-          "en": "Is a hired carrier liable if he transfers goods to someone else and they are lost?",
-          "es": "¿Es responsable un transportista contratado si transfiere bienes a otra persona y se pierden?",
-          "fa": "آیا حامل اجاره‌ای مسئول است اگر کالا را به دیگری منتقل کند و کالا گم شود؟",
-          "fr": "Un transporteur engagé est-il responsable s'il transfère des marchandises à quelqu'un d'autre et qu'elles sont perdues ?",
-          "id": "Apakah pengangkut yang disewa bertanggung jawab jika dia memindahkan barang ke orang lain dan barang tersebut hilang?",
-          "ru": "Несет ли ответственность нанятый перевозчик, если он передает товары другому лицу и они теряются?",
-          "tr": "Bir kiralık taşıyıcı, malları başkasına devredip kaybolursa sorumlu mudur?",
-          "ur": "کیا ایک کرائے پر لیا گیا حاملہ ذمہ دار ہوتا ہے اگر وہ سامان کسی اور کو منتقل کر دے اور وہ گم ہو جائے؟",
-          "zh": "如果受雇承运人将货物转交他人且货物丢失，他是否负有责任？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি একটি আইনগত সিদ্ধান্ত দেয় যে যখন একজন বিশ্বাসভাজন পরিবাহক মাল অন্য কারো কাছে হস্তান্তর করে এবং মাল হারিয়ে যায়, তখন মূল পরিবাহক আর্থিকভাবে দায়ী থাকে, যা বিশ্বাসভাজন বাণিজ্যিক লেনদেনে জবাবদিহিতা প্রতিষ্ঠা করে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung zur Haftung, wenn ein beauftragter Beförderer die Ladung an eine andere Partei übergibt und das Eigentum verloren geht. Der Imam عليه السلام entscheidet, dass der ursprüngliche Beförderer finanziell verantwortlich ist und stellt so die Verantwortlichkeit in beauftragten Handelsgeschäften sicher.",
-          "en": "This hadith gives a legal ruling on liability when an entrusted carrier transfers a load to another party and the property is then lost. The Imam عليه السلام rules that the original carrier is financially responsible, establishing accountability in entrusted commercial dealings.",
-          "es": "Este hadiz establece una regla legal sobre la responsabilidad cuando un transportista confiado transfiere la carga a otra persona y la propiedad se pierde. El Imam عليه السلام dictamina que el transportista original es financieramente responsable, estableciendo la rendición de cuentas en los negocios comerciales confiados.",
-          "fa": "این حدیث حکم شرعی مسئولیت زمانی که حامل امانت بار را به دیگری منتقل می‌کند و مال گم می‌شود را بیان می‌کند. امام علیه السلام حکم می‌کند که حامل اصلی از نظر مالی مسئول است و مسئولیت‌پذیری در معاملات امانتی تجاری را برقرار می‌سازد.",
-          "fr": "Ce hadith donne une règle juridique sur la responsabilité lorsqu'un transporteur de confiance transfère une charge à une autre partie et que la propriété est perdue. L'Imam عليه السلام juge que le transporteur initial est financièrement responsable, établissant la responsabilité dans les transactions commerciales confiées.",
-          "id": "Hadis ini memberikan ketetapan hukum tentang tanggung jawab ketika pengangkut yang dipercayakan memindahkan muatan kepada pihak lain dan barang tersebut hilang. Imam علیه السلام menetapkan bahwa pengangkut asli bertanggung jawab secara finansial, menetapkan akuntabilitas dalam transaksi komersial yang dipercayakan.",
-          "ru": "Этот хадис устанавливает юридическое правило ответственности, когда доверенный перевозчик передает груз другому лицу, и имущество теряется. Имам عليه السلام постановляет, что первоначальный перевозчик несет финансовую ответственность, устанавливая подотчетность в доверительных коммерческих сделках.",
-          "tr": "Bu hadis, emanet edilen taşıyıcının yükü başka birine devretmesi ve malın kaybolması durumunda asıl taşıyıcının mali olarak sorumlu olduğunu belirten hukuki hükmü verir; emanet ticari işlemlerde hesap verebilirliği tesis eder.",
-          "ur": "یہ حدیث اس قانونی حکم کو بیان کرتی ہے کہ جب ایک امانت دار حاملہ سامان کو کسی اور کے حوالے کرتا ہے اور وہ گم ہو جاتا ہے تو اصل حاملہ مالی طور پر ذمہ دار ہوتا ہے، جو امانت دار تجارتی معاملات میں جوابدہی کو قائم کرتا ہے۔",
-          "zh": "这则圣训对受托承运人将货物转交他人后财物丢失的责任作出法律裁决。伊玛目عليهالسلام裁定原承运人负有经济责任，确立了受托商业交易中的问责制。"
-        },
         "tags": [
           "jurisprudence",
           "economy",

@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلْحُسَيْنُ بْنُ سَعِيدٍ عَنِ اِبْنِ أَبِي عُمَيْرٍ عَنْ جَمِيلِ بْنِ دَرَّاجٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ, ইবন আবি ‘উমাইর থেকে, জামীল ইবন দাররাজ থেকে, আবী ‘আবদিল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Al-Husayn ibn Sa'id, von Ibn Abi 'Umayr, von Jamil ibn Darrāj, von Abī 'Abdillāh عليه السلام, der sagte:",
-              "en": "Al-Husayn ibn Sa'id, from Ibn Abi 'Umayr, from Jamil ibn Darrāj, from Abī 'Abdillāh عليه السلام, who said:",
-              "es": "Al-Husayn ibn Sa'id, de Ibn Abi 'Umayr, de Jamil ibn Darrāj, de Abī 'Abdillāh عليه السلام, quien dijo:",
-              "fa": "الحسین بن سعید، از ابن ابی عمیر، از جمیل بن درّاج، از ابی‌عبدالله علیه‌السلام، که فرمود:",
-              "fr": "Al-Husayn ibn Sa'id, d'Ibn Abi 'Umayr, de Jamil ibn Darrāj, d'Abī 'Abdillāh عليه السلام, qui a dit :",
-              "id": "Al-Husayn ibn Sa'id, dari Ibn Abi 'Umayr, dari Jamil ibn Darrāj, dari Abī 'Abdillāh عليه السلام, yang bersabda:",
-              "ru": "Аль-Хусайн ибн Са'ид, от Ибн Аби 'Умайра, от Джамиля ибн Дарраджа, от Аби 'Абдуллаха عليه السلام, который сказал:",
-              "tr": "El-Hüseyin ibn Sa'id, İbn Ebî 'Umeyr'den, Cemîl ibn Darrâc'dan, Ebû Abdillâh عليه السلام'dan rivayet etti ki şöyle buyurdu:",
-              "ur": "الحسین بن سعید، ابن ابی عمیر سے، جمیل بن درّاج سے، ابی عبداللہ علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "Al-HusaynibnSa'id，传自IbnAbi'Umayr，传自JamilibnDarrāj，传自Abī'Abdillāh عليه السلام，他说："
-            },
             "word_end": 18,
             "word_start": 0
           },
           {
             "arabic_text": "«إِذَا انْقَطَعَتْ دِرَّةُ الْبَوْلِ فَصُبَّ الْمَاءَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যখন প্রস্রাবের ফোঁটা পড়া বন্ধ হয়ে যায়, তখন পানি ঢেলে দাও।",
-              "de": "Wenn das Tröpfeln des Urins aufgehört hat, dann gieße das Wasser.",
-              "en": "\"When the dribble of urine has ceased, then pour the water.\"",
-              "es": "Cuando el goteo de la orina haya cesado, entonces vierte el agua.",
-              "fa": "وقتی چکیدنِ ادرار قطع شد، آب را بریز.",
-              "fr": "Lorsque le goutte-à-goutte de l’urine a cessé, alors versez l’eau.",
-              "id": "Apabila tetesan air kencing telah berhenti, maka tuangkan air.",
-              "ru": "Когда капание мочи прекратится, тогда полейте водой.",
-              "tr": "İdrarın damlaması kesildiğinde, suyu dökün.",
-              "ur": "جب پیشاب کی بوندیں آنا بند ہو جائیں، تو پانی ڈال دو۔",
-              "zh": "当尿液滴流停止时，就倒水。"
-            },
             "word_end": 24,
             "word_start": 18
           }
@@ -104,25 +91,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْبَوْلِ": "urine",
-            "الْمَاءَ": "the water used for purification",
-            "انْقَطَعَتْ": "ceased or came to an end",
-            "دِرَّةُ": "the dribble or slight remaining flow",
-            "فَصُبَّ": "then pour"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "انْقَطَعَتْ",
+          "دِرَّةُ",
+          "الْبَوْلِ",
+          "فَصُبَّ",
+          "الْمَاءَ"
+        ],
         "related_quran": [
           {
             "ref": "5:6",
@@ -133,32 +108,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হাদিস অনুযায়ী প্রস্রাবের পর পবিত্রতার জন্য কখন পানি ঢালতে হবে?",
-          "de": "Wann soll man gemäß dem Hadith zur Reinigung nach dem Wasserlassen Wasser gießen?",
-          "en": "When should water be poured for purification after urination according to the hadith?",
-          "es": "Según el hadiz, ¿cuándo se debe verter agua para la purificación después de orinar?",
-          "fa": "بر اساس حدیث، برای پاکیزگی پس از ادرار چه زمانی باید آب ریخته شود؟",
-          "fr": "Selon le hadith, quand faut-il verser de l’eau pour la purification après avoir uriné ?",
-          "id": "Menurut hadis, kapan air harus dituangkan untuk bersuci setelah buang air kecil?",
-          "ru": "Согласно хадису, когда следует поливать водой для очищения после мочеиспускания?",
-          "tr": "Hadise göre idrardan sonra temizlik için su ne zaman dökülmelidir?",
-          "ur": "پیشاب کے بعد طہارت کے لیے پانی کب ڈالنا چاہیے، حدیث کے مطابق؟",
-          "zh": "根据圣训，排尿后应在什么时候倒水进行洁净？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি প্রস্রাবের পর তাহারাত সম্পর্কিত একটি শরঈ নির্দেশনা দেয়। এতে বোঝা যায় যে প্রস্রাবের প্রবাহ বা ফোঁটা পড়া সম্পূর্ণ বন্ধ হওয়ার পর পানি দিয়ে ধোয়া উচিত।",
-          "de": "Dieser Hadith gibt eine rechtliche Anweisung zur Taharah nach dem Wasserlassen. Er zeigt, dass das Waschen mit Wasser erst erfolgen soll, nachdem der Harnfluss oder das Tröpfeln vollständig aufgehört hat.",
-          "en": "This hadith gives a legal instruction related to taharah after urination. It indicates that washing with water is to be done after the flow or dribbling of urine has completely ceased.",
-          "es": "Este hadiz da una instrucción jurídica relacionada con la taharah después de orinar. Indica que el lavado con agua debe hacerse después de que el flujo o el goteo de la orina haya cesado por completo.",
-          "fa": "این حدیث دربارهٔ طهارت پس از ادرار، یک دستور فقهی بیان می‌کند. بر این دلالت دارد که شستن با آب باید پس از آن‌که جریان یا چکیدن ادرار کاملاً قطع شد، انجام شود.",
-          "fr": "Ce hadith donne une instruction juridique liée à la taharah après avoir uriné. Il indique que le lavage à l’eau doit être effectué après l’arrêt complet de l’écoulement ou du goutte-à-goutte de l’urine.",
-          "id": "Hadis ini memberikan petunjuk hukum terkait taharah setelah buang air kecil. Ini menunjukkan bahwa membasuh dengan air dilakukan setelah aliran atau tetesan air kencing benar-benar berhenti.",
-          "ru": "Этот хадис содержит правовое указание, связанное с тахарой после мочеиспускания. Он указывает, что омовение водой следует совершать после того, как поток или капание мочи полностью прекратится.",
-          "tr": "Bu hadis, idrardan sonra taharetle ilgili bir fıkhî talimat verir. Buna göre, idrarın akışı veya damlaması tamamen kesildikten sonra su ile yıkama yapılmalıdır.",
-          "ur": "یہ حدیث طہارت کے بارے میں پیشاب کے بعد ایک شرعی ہدایت بیان کرتی ہے۔ اس سے معلوم ہوتا ہے کہ جب پیشاب کا بہاؤ یا ٹپکنا مکمل طور پر بند ہو جائے، تب پانی سے دھونا چاہیے۔",
-          "zh": "这段圣训给出了关于小净后洁净的教法指示。它表明，应在尿液的流动或滴流完全停止之后再用水清洗。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

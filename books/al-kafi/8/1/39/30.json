@@ -15,6 +15,130 @@
       "up": "/books/al-kafi:8:1:39"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "الْحُسَيْنُ بْنُ مُحَمَّدٍ عَنْ مُعَلَّى بْنِ مُحَمَّدٍ عَنْ مُحَمَّدِ بْنِ جُمْهُورٍ عَنْ حُمْرَانَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 14,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قَالَ أَبُو عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) فِيمَ يَخْتَلِفُ النَّاسُ قُلْتُ يَزْعُمُونَ أَنَّ الْحِجَامَةَ فِي يَوْمِ الثَّلَاثَاءِ أَصْلَحُ قَالَ فَقَالَ لِي وَ إِلَى مَا يَذْهَبُونَ فِي ذَلِكَ قُلْتُ يَزْعُمُونَ أَنَّهُ يَوْمُ الدَّمِ قَالَ فَقَالَ صَدَقُوا فَأَحْرَى أَنْ لَا يُهَيُِّوهُ فِي يَوْمِهِ أَمَا عَلِمُوا أَنَّ فِي يَوْمِ الثَّلَاثَاءِ سَاعَةً مَنْ وَافَقَهَا لَمْ يَرْقَأْ دَمُهُ حَتَّى يَمُوتَ أَوْ مَا شَاءَ اللَّهُ.",
+            "chunk_type": "body",
+            "word_end": 72,
+            "word_start": 14
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 20,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنُ بْنُ مُحَمَّدٍ",
+              "name_en": "Al-Husayn ibn Muhammad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 25,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُعَلَّى بْنِ مُحَمَّدٍ",
+              "name_en": "Mu'alla ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 227,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ جُمْهُورٍ",
+              "name_en": "Muhammad ibn Jumhur",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 250,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "حُمْرَانَ",
+              "name_en": "Humran",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "مَا شَاءَ اللَّهُ",
+            "phrase_en": "As Allah has willed"
+          }
+        ],
+        "key_terms_keys": [
+          "الْحِجَامَة",
+          "يَوْمُ الثَّلَاثَاء",
+          "يَوْمُ الدَّم",
+          "سَاعَة",
+          "لَمْ يَرْقَأْ دَمُهُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:145",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "7:189",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "13:2",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "ethics",
+          "worship"
+        ],
+        "topics": [
+          "halal_haram",
+          "ritual_purity",
+          "imams_biography"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 86)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -82,7 +206,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:39:30",

@@ -14,6 +14,154 @@
       "up": "/books/al-kafi:7:2:21"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ الْحَسَنِ بْنِ عَلِيٍّ عَنْ عَبْدِ اللَّهِِ بْنِ الْمُغِيرَةِ عَنْ مُوسَى بْنِ بَكْرٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 21,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قُلْتُ لِزُرَارَةَ إِنَّ بُكَيْراً حَدَّثَنِي عَنْ أَبِي جَعْفَرٍ (عَلَيْهِ السَّلَام) أَنَّ الإخْوَةَ لِلأبِ وَالأخَوَاتِ لِلأبِ وَالأمِّ يُزَادُونَ وَيُنْقَصُونَ لأنَّهُنَّ لَا يَكُنَّ أَكْثَرَ نَصِيباً مِنَ الإخْوَةِ وَالأخَوَاتِ لِلأبِ وَالأمِّ لَوْ كَانُوا مَكَانَهُنَّ",
+            "chunk_type": "body",
+            "word_end": 52,
+            "word_start": 21
+          },
+          {
+            "arabic_text": "لِأَنَ اللَّهَِ عَزَّ وَجَلَّ يَقُولُ إِنِ امْرُؤٌ هَلَكَ لَيْسَ لَهُ وَلَدٌ وَلَهُ أُخْتٌ فَلَها نِصْفُ مَا تَرَكَ وَهُوَ يَرِثُها إِنْ لَمْ يَكُنْ لَها وَلَدٌ",
+            "chunk_type": "quran_quote",
+            "word_end": 76,
+            "word_start": 52
+          },
+          {
+            "arabic_text": "يَقُولُ يَرِثُ جَمِيعَ مَالِهَا إِنْ لَمْ يَكُنْ لَهَا وَلَدٌ فَأَعْطَوْا مَنْ سَمَّى اللَّهُِ لَهُ النِّصْفَ كَمَلَا وَعَمَدُوا فَأَعْطَوُا الَّذِي سَمَّى اللَّهُِ لَهُ الْمَالَ كُلَّهُ أَقَلَّ مِنَ النِّصْفِ وَالْمَرْةُ لَا تَكُونُ أَبَداً أَكْثَرَ نَصِيباً مِنْ رَجُلٍ لَوْ كَانَ مَكَانَهَا",
+            "chunk_type": "body",
+            "word_end": 114,
+            "word_start": 76
+          },
+          {
+            "arabic_text": "قَالَ فَقَالَ زُرَارَةُ وَهَذَا قَائِمٌ عِنْدَ أَصْحَابِنَا لَا يَخْتَلِفُونَ فِيهِ.",
+            "chunk_type": "closing",
+            "word_end": 124,
+            "word_start": 114
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 63,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحَسَنِ بْنِ عَلِيٍّ",
+              "name_en": "al-Hasan ibn Ali",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 76,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللهِ بْنِ الْمُغِيرَةِ",
+              "name_en": "Abdullah b. al-Mughira",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 96,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُوسَى بْنِ بَكْرٍ",
+              "name_en": "Musa ibn Bakr",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَزَّ وَجَلَّ",
+            "phrase_en": "Mighty and Majestic (God)"
+          }
+        ],
+        "key_terms_keys": [
+          "الإخْوَةُ لِلأبِ",
+          "الأخَوَاتِ لِلأبِ وَالأمِّ",
+          "النِّصْفُ",
+          "يَرِثُهَا",
+          "زُرَارَةُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "4:176",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "4:11",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family",
+          "quran_commentary"
+        ],
+        "topics": [
+          "inheritance",
+          "quran_interpretation_method",
+          "financial_law"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف على المشهور   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (3/155)"
       ],
@@ -86,7 +234,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:7:2:21:9",

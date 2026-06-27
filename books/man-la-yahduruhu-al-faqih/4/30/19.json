@@ -17,61 +17,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَرَوَى ٱبْنُ مَحْبُوبٍ عَنْ عَلِيِّ بْنِ رِئَابٍ عَنْ زُرَارَةَ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ ٱلسَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ইবনে মাহবুব 'আলি ইবনে রিয়াব থেকে, যুরারা থেকে, আবু জাফর عليه السلام থেকে বর্ণনা করেছেন:",
-              "de": "Ibn Mahbub berichtete von 'Ali ibn Ri'ab, von Zurarah, von Abu Ja'far عليه السلام:",
-              "en": "Ibn Mahbub narrated from 'Ali ibn Ri'ab, from Zurarah, from Abu Ja'far عليه السلام:",
-              "es": "Ibn Mahbub narró de 'Ali ibn Ri'ab, de Zurarah, de Abu Ja'far عليه السلام:",
-              "fa": "ابن محبوب از علی بن ریاب، از زراره، از ابو جعفر علیه السلام روایت کرده است:",
-              "fr": "Ibn Mahbub a rapporté de 'Ali ibn Ri'ab, de Zurarah, d'Abu Ja'far عليه السلام :",
-              "id": "Ibn Mahbub meriwayat dari 'Ali ibn Ri'ab, dari Zurarah, dari Abu Ja'far علیه السلام:",
-              "ru": "Ибн Махбуб передал от Али ибн Ри'аба, от Зурары, от Абу Джафара عليه السلام:",
-              "tr": "İbn Mahbub, Zurarah'dan, Zurarah da Ebu Ca'fer (aleyhisselam)'den, Ali ibn Ri'ab'dan rivayet etti:",
-              "ur": "ابن محبوب نے علی ابن ریاب سے، زُرارہ سے، ابو جعفر علیہ السلام سے روایت کی:",
-              "zh": "伊本马哈布布从阿里伊本里阿卜传述，从祖拉拉传述，从阿布贾法尔 عليه السلام传述："
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "فِي عَبْدٍ جَرَحَ رَجُلَيْنِ قَالَ: «هُوَ بَيْنَهُمَا إِنْ كَانَتْ جِنَايَتُهُ تُحِيطُ بِقِيمَتِهِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন দাস সম্পর্কে যিনি দুইজনকে আহত করেছেন, তিনি عليه السلام বললেন: “যদি তার অপরাধ তার সম্পূর্ণ মূল্যের সমান হয় তবে সে তাদের মধ্যে ভাগ করা হবে।”",
-              "de": "Bezüglich eines Sklaven, der zwei Männer verletzt hat, sagte er عليه السلام: „Er wird zwischen ihnen aufgeteilt, wenn seine Straftat seinen vollen Wert umfasst.“",
-              "en": "Regarding a slave who injured two men, he عليه السلام said: “He is to be divided between them if his offense encompasses his full value.”",
-              "es": "Respecto a un esclavo que hirió a dos hombres, él عليه السلام dijo: “Se divide entre ellos si su ofensa abarca su valor total.”",
-              "fa": "در مورد برده‌ای که دو مرد را مجروح کرده بود، فرمود علیه السلام: «اگر جرم او به ارزشش برسد، بین آن دو تقسیم می‌شود.»",
-              "fr": "Concernant un esclave qui a blessé deux hommes, il عليه السلام a dit : « Il est partagé entre eux si son offense couvre sa pleine valeur. »",
-              "id": "Mengenai seorang budak yang melukai dua orang, beliau علیه السلام berkata: “Dia dibagi di antara keduanya jika pelanggarannya mencakup nilai penuhnya.”",
-              "ru": "Относительно раба, который ранил двух мужчин, он عليه السلام сказал: «Он делится между ними, если его преступление охватывает его полную стоимость.»",
-              "tr": "İki kişiyi yaralayan bir köle hakkında, şöyle buyurdu عليه السلام: “Eğer suçu değerini kapsıyorsa, aralarında paylaştırılır.”",
-              "ur": "ایک غلام کے بارے میں جس نے دو مردوں کو زخمی کیا، انہوں نے علیہ السلام فرمایا: \"اگر اس کا جرم اس کی پوری قیمت کے برابر ہو تو وہ دونوں کے درمیان تقسیم کیا جائے گا۔\"",
-              "zh": "关于一个奴隶伤害了两个人，他 عليه السلام说：“如果他的罪行涵盖了他的全部价值，则在他们之间分配。”"
-            },
             "word_end": 26,
             "word_start": 14
           },
           {
             "arabic_text": "قِيلَ لَهُ فَإِنْ جَرَحَ رَجُلًا فِي أَوَّلِ ٱلنَّهَارِ وَجَرَحَ آخَرَ فِي آخِرِ ٱلنَّهَارِ قَالَ: «هُوَ بَيْنَهُمَا مَا لَمْ يَحْكُمِ ٱلْوَالِي فِي ٱلْمَجْرُوحِ ٱلْأَوَّلِ فَإِنْ كَانَ ٱلْوَالِي قَدْ حَكَمَ فِي ٱلْمَجْرُوحِ ٱلْأَوَّلِ فَدَفَعَهُ إِلَيْهِ بِجِنَايَتِهِ فَجَنَى بَعْدَ ذَلِكَ جِنَايَةً فَإِنَّ جِنَايَتَهُ عَلَى ٱلْأَخِيرِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তাকে বলা হলো: “যদি সে দিনের শুরুতে একজনকে আহত করে এবং দিনের শেষে অন্য একজনকে আহত করে?” তিনি عليه السلام বললেন: “যতক্ষণ পর্যন্ত গভর্নর প্রথম আহত ব্যক্তির ব্যাপারে সিদ্ধান্ত না নেয়, সে তাদের মধ্যে থাকে। কিন্তু যদি গভর্নর প্রথম আহত ব্যক্তির ব্যাপারে সিদ্ধান্ত নিয়ে তাকে তার অপরাধের কারণে হস্তান্তর করে, তারপর সে পরে অপরাধ করে, তবে তার অপরাধ শেষ ব্যক্তির উপর হবে।”",
-              "de": "Es wurde ihm gesagt: „Was, wenn er einen Mann am Anfang des Tages und einen anderen am Ende des Tages verletzt?“ Er عليه السلام sagte: „Er ist zwischen ihnen, solange der Gouverneur nicht über den zuerst Verletzten entschieden hat. Aber wenn der Gouverneur über den zuerst Verletzten entschieden und ihn wegen seiner Straftat übergeben hat, und er danach eine Straftat begangen hat, dann liegt seine Straftat beim Letzteren.“",
-              "en": "It was said to him: “What if he injured one man at the beginning of the day and injured another at the end of the day?” He عليه السلام said: “He is between them so long as the governor has not ruled regarding the first injured person. But if the governor had ruled regarding the first injured person and handed him over to him on account of his offense, then he committed an offense after that, his offense is upon the latter.”",
-              "es": "Se le dijo: “¿Y si hirió a un hombre al principio del día y a otro al final del día?” Él عليه السلام dijo: “Está entre ellos mientras el gobernador no haya dictado sentencia sobre el primero herido. Pero si el gobernador ha dictado sentencia sobre el primero herido y lo ha entregado a él por su ofensa, y luego cometió una ofensa después, su ofensa recae sobre el último.”",
-              "fa": "به او گفته شد: «اگر یک نفر را در اول روز و دیگری را در آخر روز مجروح کند چه؟» فرمود علیه السلام: «او بین آن دو است تا زمانی که والی درباره مجروح اول حکم نکند. اما اگر والی درباره مجروح اول حکم کرده و او را به دلیل جرمش به آن شخص تحویل داده باشد، سپس بعد از آن جرم دیگری مرتکب شود، جرم او بر مجروح دوم است.»",
-              "fr": "On lui dit : « Et s’il a blessé un homme au début de la journée et un autre à la fin de la journée ? » Il عليه السلام répondit : « Il est entre eux tant que le gouverneur n’a pas statué sur le premier blessé. Mais si le gouverneur a statué sur le premier blessé et l’a remis à cause de son offense, puis qu’il a commis une offense après cela, son offense incombe au dernier. »",
-              "id": "Dikatakan kepadanya: “Bagaimana jika dia melukai satu orang di awal hari dan melukai orang lain di akhir hari?” Beliau علیه السلام berkata: “Dia di antara keduanya selama wali belum memutuskan mengenai orang yang pertama terluka. Namun jika wali telah memutuskan mengenai orang yang pertama terluka dan menyerahkannya kepadanya karena pelanggarannya, lalu dia melakukan pelanggaran setelah itu, pelanggarannya menjadi tanggung jawab yang terakhir.”",
-              "ru": "Ему сказали: «Что если он ранил одного человека в начале дня, а другого в конце дня?» Он عليه السلام сказал: «Он между ними, пока губернатор не вынес решения по первому раненому. Но если губернатор вынес решение по первому раненому и передал его из-за его преступления, а затем он совершил преступление после этого, его преступление относится к последнему.»",
-              "tr": "Kendisine denildi ki: “Eğer birini günün başında, diğerini günün sonunda yaralarsa ne olur?” O عليه السلام şöyle dedi: “Vali ilk yaralanan hakkında hüküm verene kadar aralarındadır. Ancak vali ilk yaralanan hakkında hüküm verip onu suçundan dolayı ona teslim etmişse ve sonra tekrar suç işlemişse, suçu sonuncuya aittir.”",
-              "ur": "ان سے کہا گیا: \"اگر وہ دن کے شروع میں ایک شخص کو زخمی کرے اور دن کے آخر میں دوسرے کو زخمی کرے تو؟\" انہوں نے علیہ السلام فرمایا: \"وہ ان کے درمیان ہے جب تک کہ والی پہلے زخمی شخص کے بارے میں فیصلہ نہ کرے۔ لیکن اگر والی نے پہلے زخمی شخص کے بارے میں فیصلہ کر کے اسے اس کے جرم کی بنا پر حوالے کر دیا، پھر اس کے بعد وہ دوبارہ جرم کرے، تو اس کا جرم آخری شخص پر ہوگا۔\"",
-              "zh": "有人问他：“如果他在一天开始时伤害一个人，在一天结束时伤害另一个人呢？”他 عليه السلام说：“只要长官尚未对第一个受伤者作出裁决，他就在他们之间。但如果长官已对第一个受伤者作出裁决并因其罪行将他交给了他，那么他之后犯下的罪行属于后者。”"
-            },
             "word_end": 68,
             "word_start": 26
           }
@@ -130,53 +104,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بِقِيمَتِهِ": "by his full value, meaning the compensable worth of the slave",
-            "جِنَايَتُهُ": "his offense or injurious act carrying legal liability",
-            "عَبْدٍ": "an enslaved person whose financial liability is being discussed",
-            "فَدَفَعَهُ إِلَيْهِ": "handed him over to the claimant as a result of the adjudicated offense",
-            "ٱلْمَجْرُوحِ ٱلْأَوَّلِ": "the first injured person in the sequence of claims",
-            "ٱلْوَالِي": "the governing authority or official who issues the legal ruling"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "عَبْدٍ",
+          "جِنَايَتُهُ",
+          "بِقِيمَتِهِ",
+          "ٱلْوَالِي",
+          "ٱلْمَجْرُوحِ ٱلْأَوَّلِ",
+          "فَدَفَعَهُ إِلَيْهِ"
+        ],
         "related_quran": [],
-        "seo_questions": {
-          "bn": "যখন একজন দাস বিভিন্ন সময়ে দুইজনকে আহত করে, তখন দায়িত্ব কীভাবে নির্ধারিত হয়?",
-          "de": "Wie wird die Haftung bestimmt, wenn ein Sklave zu unterschiedlichen Zeiten zwei Personen verletzt?",
-          "en": "How is liability determined when a slave injures two people at different times?",
-          "es": "¿Cómo se determina la responsabilidad cuando un esclavo hiere a dos personas en diferentes momentos?",
-          "fa": "وقتی یک برده در زمان‌های مختلف دو نفر را مجروح می‌کند، مسئولیت چگونه تعیین می‌شود؟",
-          "fr": "Comment la responsabilité est-elle déterminée lorsqu’un esclave blesse deux personnes à des moments différents ?",
-          "id": "Bagaimana tanggung jawab ditentukan ketika seorang budak melukai dua orang pada waktu yang berbeda?",
-          "ru": "Как определяется ответственность, когда раб ранит двух человек в разное время?",
-          "tr": "Bir köle farklı zamanlarda iki kişiyi yaraladığında sorumluluk nasıl belirlenir?",
-          "ur": "جب ایک غلام مختلف اوقات میں دو افراد کو زخمی کرتا ہے تو ذمہ داری کیسے طے کی جاتی ہے؟",
-          "zh": "当奴隶在不同时间伤害两人时，责任如何确定？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি একটি দাসের দায়িত্ব সম্পর্কে আইনি বিধান দেয় যিনি একাধিক ব্যক্তিকে আহত করেন। যদি আহত করার দায়িত্ব তার মূল্যের সমান হয়, তবে এটি দাবিদারদের মধ্যে ভাগ করা হয়; তবে একবার ওয়ালী সিদ্ধান্ত নিয়ে তাকে প্রথম আহত ব্যক্তির কাছে হস্তান্তর করলে, পরবর্তী অপরাধ শেষ আহত ব্যক্তির উপর আরোপিত হয়।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung zur Haftung eines Sklaven, der mehrere Personen verletzt. Wenn die Haftung den Wert des Sklaven erreicht, wird sie unter den Anspruchstellern aufgeteilt; sobald der Wali jedoch entschieden und ihn dem zuerst Verletzten übergeben hat, fällt jede weitere Straftat auf den Letzteren.",
-          "en": "This hadith gives a legal ruling on the liability of an enslaved person who injures multiple people. If the injury liability reaches his value, he is shared between the claimants; however, once the wali has ruled and transferred him to the first injured party, any later offense is attached to the later victim.",
-          "es": "Este hadiz establece una regla legal sobre la responsabilidad de un esclavo que hiere a varias personas. Si la responsabilidad por la lesión alcanza su valor, se divide entre los reclamantes; sin embargo, una vez que el wali ha dictado sentencia y lo ha entregado al primero herido, cualquier ofensa posterior se atribuye al último.",
-          "fa": "این حدیث حکم حقوقی مسئولیت برده‌ای را که چند نفر را مجروح می‌کند بیان می‌کند. اگر مسئولیت جراحت به ارزش برده برسد، بین مدعیان تقسیم می‌شود؛ اما پس از آنکه ولی حکم کرد و برده را به مجروح اول تحویل داد، هر جرم بعدی به مجروح بعدی تعلق می‌گیرد.",
-          "fr": "Ce hadith donne une règle juridique sur la responsabilité d’un esclave qui blesse plusieurs personnes. Si la responsabilité de la blessure atteint sa valeur, elle est partagée entre les demandeurs ; cependant, une fois que le wali a statué et l’a remis au premier blessé, toute infraction ultérieure est attribuée au dernier.",
-          "id": "Hadis ini memberikan ketentuan hukum tentang tanggung jawab seorang budak yang melukai beberapa orang. Jika tanggung jawab luka mencapai nilai budak, maka dibagi antara para pengklaim; namun setelah wali memutuskan dan menyerahkan budak kepada orang yang terluka pertama, pelanggaran selanjutnya menjadi tanggung jawab korban terakhir.",
-          "ru": "Этот хадис устанавливает юридическое правило ответственности раба, который ранит нескольких человек. Если ответственность за рану достигает его стоимости, она делится между истцами; однако после того, как вали вынес решение и передал его первому раненому, любое последующее преступление относится к последнему.",
-          "tr": "Bu hadis, bir kölenin birden fazla kişiyi yaralaması durumunda sorumluluğuna dair hukuki hüküm verir. Eğer yaralama sorumluluğu kölenin değerine ulaşırsa, hak sahipleri arasında paylaştırılır; ancak vali hüküm verip köleyi ilk yaralanana teslim ettikten sonra işlenen suç, sonraki mağdura aittir.",
-          "ur": "یہ حدیث غلام کی ذمہ داری کے بارے میں قانونی حکم دیتی ہے جو متعدد افراد کو زخمی کرتا ہے۔ اگر زخمی کرنے کی ذمہ داری اس کی قیمت تک پہنچ جائے تو اسے دعویداروں میں تقسیم کیا جاتا ہے؛ تاہم، جب ولی نے فیصلہ کر کے اسے پہلے زخمی شخص کو دے دیا، تو بعد میں ہونے والا جرم آخری زخمی پر عائد ہوتا ہے۔",
-          "zh": "此圣训对奴隶伤害多人时的责任作出法律裁决。如果伤害责任达到其价值，则在索赔人之间分配；但一旦监护人裁决并将其交给第一个受伤者，之后的任何罪行均归于后者。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

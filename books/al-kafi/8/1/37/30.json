@@ -15,6 +15,124 @@
       "up": "/books/al-kafi:8:1:37"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَنْهُ عَنْ يَحْيَى بْنِ الْمُبَارَكِ عَنْ عَبْدِ اللَّهِ بْنِ جَبَلَةَ عَنْ إِسْحَاقَ بْنِ عَمَّارٍ أَوْ غَيْرِهِ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 17,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قَالَ أَبُو عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) نَحْنُ بَنُو هَاشِمٍ وَ شِيعَتُنَا الْعَرَبُ وَ سَائِرُ النَّاسِ الْأَعْرَابُ.",
+            "chunk_type": "body",
+            "word_end": 33,
+            "word_start": 17
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 11,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَنْهُ",
+              "name_en": "from him",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 225,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "يَحْيَى بْنِ الْمُبَارَكِ",
+              "name_en": "Yahya ibn al-Mubarak",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 124,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللَّهِ بْنِ جَبَلَةَ",
+              "name_en": "Abdullah ibn Jabala",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1016,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "إِسْحَاقَ بْنِ عَمَّارٍ أَوْ غَيْرِهِ",
+              "name_en": "Isḥāq b. ʿAmmār",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "بَنُو هَاشِمٍ",
+          "شِيعَتُنَا",
+          "الْعَرَبُ",
+          "الْأَعْرَابُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:61",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "42:23",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "58:22",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "family",
+          "social_relations",
+          "theology"
+        ],
+        "topics": [
+          "ahlulbayt_virtues",
+          "imamate",
+          "community"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 35)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -82,7 +200,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:37:30",

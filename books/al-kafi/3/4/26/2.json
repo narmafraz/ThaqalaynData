@@ -14,6 +14,155 @@
       "up": "/books/al-kafi:3:4:26"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "الْحُسَيْنُ بْنُ مُحَمَّدٍ عَنْ عَبْدِ اللَّهِ بْنِ عَامِرٍ عَنْ عَلِيِّ بْنِ مَهْزِيَارَ عَنِ ابْنِ فَضَّالٍ عَنْ أَحْمَدَ بْنِ عُمَرَ الْحَلَبِيِّ عَنْ أَبِيهِ عَنْ أَبَانِ بْنِ تَغْلِبَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 27,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "دَخَلْتُ عَلَى أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) وَ هُوَ يُصَلِّي فَعَدَدْتُ لَهُ فِي الرُّكُوعِ وَ السُّجُودِ سِتِّينَ تَسْبِيحَةً",
+            "chunk_type": "body",
+            "word_end": 47,
+            "word_start": 27
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 20,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنُ بْنُ مُحَمَّدٍ",
+              "name_en": "Al-Husayn ibn Muhammad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 176,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللَّهِ بْنِ عَامِرٍ",
+              "name_en": "Abdullah ibn 'Amer",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 81,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ مَهْزِيَارَ",
+              "name_en": "Ali ibn Mahziyar",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 22,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ فَضَّالٍ",
+              "name_en": "Ibn Faddal",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 620,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ عُمَرَ الْحَلَبِيِّ",
+              "name_en": "Ahmad ibn Umar al-Halabi",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 6,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 148,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبَانِ بْنِ تَغْلِبَ",
+              "name_en": "Aban ibn Taghlub",
+              "position": 7,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الرُّكُوع",
+          "السُّجُود",
+          "تَسْبِيحَةً",
+          "أَبَانُ بْنُ تَغْلِبَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:238",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:55",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "20:130",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "theology",
+          "worship",
+          "jurisprudence"
+        ],
+        "topics": [
+          "salat",
+          "dhikr",
+          "imams_biography",
+          "sunnah"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> موثق    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (15/142)"
       ],
@@ -103,7 +252,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:4:26:2",

@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "يُونُسُ عَنْ مَنْصُورِ بْنِ حَازِمٍ عَنْ سُلَيْمَانَ بْنِ خَالِدٍ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ইউনুস, মানসুর ইবন হাজিম থেকে, সুলাইমান ইবন খালিদ থেকে, তিনি বলেন:",
-              "de": "Yūnus, von Manṣūr ibn Ḥāzim, von Sulaymān ibn Khālid, der sagte:",
-              "en": "Yūnus, from Manṣūr ibn Ḥāzim, from Sulaymān ibn Khālid, who said:",
-              "es": "Yūnus, de Manṣūr ibn Ḥāzim, de Sulaymān ibn Khālid, quien dijo:",
-              "fa": "یونس، از منصور بن حازم، از سلیمان بن خالد، که گفت:",
-              "fr": "Yūnus, d’après Manṣūr ibn Ḥāzim, d’après Sulaymān ibn Khālid, qui a dit :",
-              "id": "Yunus, dari Mansur ibn Hazim, dari Sulaiman ibn Khalid, yang berkata:",
-              "ru": "Юнус, от Мансура ибн Хазима, от Сулеймана ибн Халида, который сказал:",
-              "tr": "Yunus, Mansur ibn Hazim’den, Süleyman ibn Halid’den, o şöyle dedi:",
-              "ur": "یونس، منصور بن حازم سے، سلیمان بن خالد سے، انہوں نے کہا:",
-              "zh": "尤努斯，传自曼苏尔·伊本·哈齐姆，传自苏莱曼·伊本·哈立德，他说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ أَبُو عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ: «إِذَا سَرَقَ السَّارِقُ قُطِعَتْ يَدُهُ وَغُرِّمَ مَا أَخَذَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আবূ আবদিল্লাহ عليه السلام বলেছেন: “যখন চোর চুরি করে, তখন তার হাত কেটে দেওয়া হয় এবং সে যা নিয়েছে তার জন্য তাকে দায়ী করা হয়।”",
-              "de": "Abū ʿAbdillāh عليه السلام sagte: „Wenn der Dieb stiehlt, wird ihm die Hand abgehauen, und er wird für das, was er genommen hat, haftbar gemacht.“",
-              "en": "Abū ʿAbdillāh عليه السلام said: “When the thief steals, his hand is cut off and he is made liable for what he took.”",
-              "es": "Abū ʿAbdillāh عليه السلام dijo: “Cuando el ladrón roba, se le corta la mano y se le hace responsable de lo que tomó.”",
-              "fa": "ابوعبدالله علیه السلام فرمود: «وقتی دزد سرقت می‌کند، دستش قطع می‌شود و نسبت به آنچه برداشته، ضامن می‌گردد.»",
-              "fr": "Abū ʿAbdillāh عليه السلام a dit : « Lorsque le voleur vole, sa main est coupée et il est tenu responsable de ce qu’il a pris. »",
-              "id": "Abū ʿAbdillāh عليه السلام bersabda: “Apabila pencuri mencuri, tangannya dipotong dan ia dibebankan untuk mengganti apa yang diambilnya.”",
-              "ru": "Абу Абдуллах عليه السلام сказал: «Когда вор совершает кражу, ему отсекают руку, и он несет ответственность за то, что взял».",
-              "tr": "Ebû Abdillâh عليه السلام şöyle dedi: “Hırsız çaldığında eli kesilir ve aldığı şeyden dolayı tazminle yükümlü kılınır.”",
-              "ur": "ابو عبداللہ علیہ السلام نے فرمایا: “جب چور چوری کرتا ہے تو اس کا ہاتھ کاٹ دیا جاتا ہے اور جو کچھ اس نے لیا ہو اس کا وہ ضامن بنایا جاتا ہے۔”",
-              "zh": "阿布·阿卜杜拉 عليه السلام说：“当小偷偷窃时，他的手被砍掉，并且他要为自己拿走的东西负责。”"
-            },
             "word_end": 24,
             "word_start": 10
           }
@@ -100,58 +87,20 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "السَّارِقُ": "the thief, the one who steals",
-            "سَرَقَ": "committed theft",
-            "غُرِّمَ": "was made financially liable or required to pay compensation",
-            "قُطِعَتْ": "was cut off, referring here to the legal punishment",
-            "مَا أَخَذَ": "what he took, meaning the stolen property",
-            "يَدُهُ": "his hand"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "سَرَقَ",
+          "السَّارِقُ",
+          "قُطِعَتْ",
+          "يَدُهُ",
+          "غُرِّمَ",
+          "مَا أَخَذَ"
+        ],
         "related_quran": [
           {
             "ref": "5:38",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে চোরের বিধান কী?",
-          "de": "Was ist die Rechtsregel für einen Dieb im schiitischen Hadith?",
-          "en": "What is the ruling on a thief in Shia hadith?",
-          "es": "¿Cuál es la norma sobre el ladrón en el hadiz chií?",
-          "fa": "حکم دزد در حدیث شیعه چیست؟",
-          "fr": "Quelle est la règle concernant le voleur dans le hadith chiite ?",
-          "id": "Apa حكم pencuri dalam hadis Syiah?",
-          "ru": "Каково постановление о воре в шиитском хадисе?",
-          "tr": "Şii hadiste hırsızın hükmü nedir?",
-          "ur": "شیعہ حدیث میں چور کا کیا حکم ہے؟",
-          "zh": "什叶派圣训中对小偷的判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে চুরির শরঈ বিধান বর্ণিত হয়েছে: চোরের ওপর নির্ধারিত হাত কেটে দেওয়ার শাস্তি কার্যকর হয় এবং তাকে নেওয়া সম্পদের ক্ষতিপূরণও দিতে হয়। এটি ইসলামী ফিকহে চুরির দণ্ডমূলক ও আর্থিক—উভয় পরিণতি তুলে ধরে।",
-          "de": "Dieser Hadith nennt die rechtliche Regelung zum Diebstahl: Der Dieb unterliegt der vorgeschriebenen Strafe der Handamputation und muss außerdem für das Entwendete aufkommen. Er hebt sowohl die strafrechtlichen als auch die finanziellen Folgen des Diebstahls in der islamischen Rechtslehre hervor.",
-          "en": "This hadith states the legal ruling for theft: the thief is subject to the prescribed punishment of hand-cutting and must also compensate for the property taken. It highlights both the penal and financial consequences of theft in Islamic jurisprudence.",
-          "es": "Este hadiz establece la norma jurídica sobre el robo: al ladrón se le aplica el castigo prescrito de cortar la mano y además debe compensar por lo que tomó. Destaca tanto las consecuencias penales como las económicas del robo en la jurisprudencia islámica.",
-          "fa": "این حدیث حکم شرعیِ سرقت را بیان می‌کند: دزد مشمول مجازات مقررِ قطع دست می‌شود و همچنین باید مال برده‌شده را جبران کند. این حدیث، هم پیامد کیفری و هم پیامد مالیِ سرقت را در فقه اسلامی نشان می‌دهد.",
-          "fr": "Ce hadith énonce la règle juridique concernant le vol : le voleur est soumis à la peine prescrite de l’amputation de la main et doit aussi indemniser ce qu’il a pris. Il met en évidence les conséquences pénales et financières du vol dans la jurisprudence islamique.",
-          "id": "Hadis ini menyatakan hukum syariat tentang pencurian: pencuri dikenai hukuman potong tangan yang ditetapkan dan juga wajib mengganti barang yang diambilnya. Ini menegaskan konsekuensi pidana dan مالی dari pencurian dalam fikih Islam.",
-          "ru": "Этот хадис излагает шариатское постановление о краже: вору назначается предписанное наказание — отсечение руки, и он также обязан возместить взятое имущество. Он подчеркивает как карательные, так и имущественные последствия кражи в исламском праве.",
-          "tr": "Bu hadis, hırsızlık için şer‘î hükmü بیان eder: Hırsıza el kesme cezası uygulanır ve aldığı malın bedelini de ödemekle yükümlü olur. İslam fıkhında hırsızlığın hem cezai hem de mali sonuçlarını vurgular.",
-          "ur": "یہ حدیث چوری کے شرعی حکم کو بیان کرتی ہے: چور پر ہاتھ کاٹنے کی مقررہ سزا نافذ ہوتی ہے اور اسے چوری شدہ مال کا تاوان بھی ادا کرنا ہوتا ہے۔ یہ اسلامی فقہ میں چوری کے تعزیری اور مالی دونوں نتائج کو واضح کرتی ہے۔",
-          "zh": "这段圣训阐明了关于盗窃的教法判决：小偷要受到规定的断手刑罚，并且还必须赔偿其所拿走的财物。它强调了伊斯兰教法中盗窃的刑事和财产后果。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

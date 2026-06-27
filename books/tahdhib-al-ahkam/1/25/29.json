@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "سَعْدُ بْنُ عَبْدِ اللَّهِ عَنْ أَحْمَدَ عَنِ الْحَسَنِ بْنِ عَلِيِّ بْنِ فَضَّالٍ عَنْ عَبْدِ اللَّهِ بْنِ بُكَيْرٍ عَنْ مُعَاوِيَةَ بْنِ مَيْسَرَةَ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "সা'দ ইবন 'আব্দুল্লাহ, আহমদ থেকে, আল-হাসান ইবন 'আলি ইবন ফাদ্দাল থেকে, 'আব্দুল্লাহ ইবন বুকাইর থেকে, মু'আবিয়াহ ইবন মাইসারাহ থেকে, আবি 'আব্দুল্লাহ عليه السلام থেকে।",
-              "de": "Sa'd ibn 'Abd Allah, von Ahmad, von al-Hasan ibn 'Ali ibn Faddal, von 'Abd Allah ibn Bukayr, von Mu'awiyah ibn Maysarah, von Abi 'Abd Allah عليه السلام.",
-              "en": "Sa'd ibn 'Abd Allah, from Ahmad, from al-Hasan ibn 'Ali ibn Faddal, from 'Abd Allah ibn Bukayr, from Mu'awiyah ibn Maysarah, from Abi 'Abd Allah عليه السلام.",
-              "es": "Sa'd ibn 'Abd Allah, de Ahmad, de al-Hasan ibn 'Ali ibn Faddal, de 'Abd Allah ibn Bukayr, de Mu'awiyah ibn Maysarah, de Abi 'Abd Allah عليه السلام.",
-              "fa": "سعد بن عبدالله، از احمد، از حسن بن علی بن فضال، از عبدالله بن بکیر، از معاویه بن میسره، از ابی عبدالله علیه السلام.",
-              "fr": "Sa'd ibn 'Abd Allah, d'Ahmad, d'al-Hasan ibn 'Ali ibn Faddal, de 'Abd Allah ibn Bukayr, de Mu'awiyah ibn Maysarah, d'Abi 'Abd Allah عليه السلام.",
-              "id": "Sa'd ibn 'Abd Allah, dari Ahmad, dari al-Hasan ibn 'Ali ibn Faddal, dari 'Abd Allah ibn Bukayr, dari Mu'awiyah ibn Maysarah, dari Abi 'Abd Allah عليه السلام.",
-              "ru": "Са'д ибн 'Абд Аллах, от Ахмада, от аль-Хасана ибн 'Али ибн Фаддаля, от 'Абд Аллаха ибн Букайра, от Му'авии ибн Майсары, от Аби 'Абд Аллаха عليه السلام.",
-              "tr": "Sa'd ibn 'Abd Allah, Ahmad'dan, al-Hasan ibn 'Ali ibn Faddal'dan, 'Abd Allah ibn Bukayr'dan, Mu'awiyah ibn Maysarah'dan, Ebu 'Abd Allah عليه السلام'dan.",
-              "ur": "سعد بن عبد اللہ، احمد سے، حسن بن علی بن فضال سے، عبد اللہ بن بکیر سے، معاویہ بن میسرہ سے، ابو عبد اللہ علیہ السلام سے۔",
-              "zh": "Sa'dibn'AbdAllah,传自Ahmad,传自al-Hasanibn'AliibnFaddal,传自'AbdAllahibnBukayr,传自Mu'awiyahibnMaysarah,传自Abi'AbdAllah عليه السلام。"
-            },
             "word_end": 27,
             "word_start": 0
           },
           {
             "arabic_text": "وَذَكَرَ مِثْلَهُ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আর তিনি এর অনুরূপটি উল্লেখ করেছেন।",
-              "de": "Und er erwähnte etwas Ähnliches.",
-              "en": "And he mentioned the like of it.",
-              "es": "Y mencionó algo similar.",
-              "fa": "و مانند آن را ذکر کرد.",
-              "fr": "Et il a mentionné quelque chose de semblable.",
-              "id": "Dan ia menyebutkan yang semisalnya.",
-              "ru": "И он упомянул нечто подобное.",
-              "tr": "Ve onun benzerini zikretti.",
-              "ur": "اور اس نے اس جیسی بات ذکر کی۔",
-              "zh": "并提到了类似的内容。"
-            },
             "word_end": 29,
             "word_start": 27
           }
@@ -134,51 +121,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ": "Imam Ja'far al-Sadiq عليه السلام, the final authority cited in this report",
-            "عَنْ": "from; used to link narrators in the sanad/isnad",
-            "مِثْلَهُ": "the like of it; meaning a similar wording or ruling to a previous narration",
-            "وَذَكَرَ": "and he mentioned; indicates transmission of a report"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "عَنْ",
+          "أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ",
+          "وَذَكَرَ",
+          "مِثْلَهُ"
+        ],
         "related_quran": [],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام-এর একটি হাদিস সনদে 'وَذَكَرَ مِثْلَهُ' এর অর্থ কী?",
-          "de": "Was bedeutet 'وَذَكَرَ مِثْلَهُ' in einer Hadith-Kette von Imam al-Sadiq عليه السلام?",
-          "en": "What does 'وَذَكَرَ مِثْلَهُ' mean in a hadith chain from Imam al-Sadiq عليه السلام?",
-          "es": "¿Qué significa 'وَذَكَرَ مِثْلَهُ' en una cadena de hadiz del Imam al-Sadiq عليه السلام?",
-          "fa": "عبارت «وَذَكَرَ مِثْلَهُ» در یک سند حدیثی از امام صادق علیه السلام چه معنایی دارد؟",
-          "fr": "Que signifie « وَذَكَرَ مِثْلَهُ » dans une chaîne de hadith de l’imam al-Sadiq عليه السلام ?",
-          "id": "Apa arti 'وَذَكَرَ مِثْلَهُ' dalam rantai hadis dari Imam al-Sadiq عليه السلام?",
-          "ru": "Что означает «وَذَكَرَ مِثْلَهُ» в цепочке хадиса от Имама ас-Садика عليه السلام?",
-          "tr": "İmam es-Sâdık عليه السلام'a ait bir hadis zincirinde 'وَذَكَرَ مِثْلَهُ' ne anlama gelir?",
-          "ur": "امام صادق علیہ السلام کی حدیثی سند میں 'وَذَكَرَ مِثْلَهُ' کا کیا مطلب ہے؟",
-          "zh": "在伊玛目al-Sadiq عليه السلام的圣训传承链中，“وَذَكَرَ مِثْلَهُ”是什么意思？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনাটি ইমাম আবি 'আব্দুল্লাহ عليه السلام পর্যন্ত একটি ইসনাদ সংরক্ষণ করে এবং শেষে একটি সংক্ষিপ্ত ইঙ্গিত দিয়ে শেষ হয় যে তিনি পূর্ববর্তী বর্ণনার অনুরূপ কিছু বর্ণনা করেছেন। এর গুরুত্ব হাদিস বর্ণনার ক্ষেত্রে সমর্থন ও corroboration-এ, বিশেষ করে পানি এবং তাহারাহ (আচারগত পবিত্রতা)-সম্পর্কিত বিধানের ফিকহি প্রেক্ষাপটে।",
-          "de": "Dieser Bericht bewahrt einen Isnād bis zu Imam Abi 'Abd Allah عليه السلام und schließt mit einem kurzen Hinweis, dass er etwas Ähnliches wie den vorangehenden Bericht überliefert hat. Seine Bedeutung liegt in der Bestätigung innerhalb der Hadith-Überlieferung, insbesondere im fiqhlichen Zusammenhang von Wasser und den mit taharah (ritueller Reinheit) verbundenen Bestimmungen.",
-          "en": "This report preserves an isnad to Imam Abi 'Abd Allah عليه السلام and concludes with a brief reference indicating that he narrated something similar to the preceding report. Its significance lies in corroboration within hadith transmission, especially in the jurisprudential context of waters and the rulings related to taharah (ritual purity).",
-          "es": "Este informe preserva un isnad hasta el Imam Abi 'Abd Allah عليه السلام y concluye con una breve referencia que indica que narró algo similar al informe precedente. Su importancia radica en la corroboración dentro de la transmisión del hadiz, especialmente en el contexto jurisprudencial de las aguas y de las normas relacionadas con la taharah (pureza ritual).",
-          "fa": "این گزارش، یک سند تا امام ابی عبدالله علیه السلام را حفظ می‌کند و در پایان با اشاره‌ای کوتاه می‌آید که او چیزی مشابه گزارش پیشین را روایت کرده است. اهمیت آن در تأیید و تقویت در نقل حدیث است، به‌ویژه در زمینه فقهیِ آب‌ها و احکام مربوط به طهارت.",
-          "fr": "Ce rapport préserve une chaîne de transmission jusqu’à l’imam Abi 'Abd Allah عليه السلام et se conclut par une brève mention indiquant qu’il a rapporté quelque chose de semblable au rapport précédent. Son importance réside dans la corroboration au sein de la transmission du hadith, en particulier dans le contexte juridique des eaux et des règles liées à la taharah (pureté rituelle).",
-          "id": "Riwayat ini memelihara sebuah isnad hingga Imam Abi 'Abd Allah عليه السلام dan diakhiri dengan rujukan singkat yang menunjukkan bahwa beliau meriwayatkan sesuatu yang serupa dengan riwayat sebelumnya. Signifikansinya terletak pada penguatan dan saling menguatkan dalam transmisi hadis, khususnya dalam konteks fikih tentang air dan hukum-hukum yang berkaitan dengan taharah (kesucian ritual).",
-          "ru": "Этот рассказ сохраняет иснад до Имама Аби 'Абд Аллаха عليه السلام и завершается кратким указанием на то, что он передал нечто подобное предыдущему сообщению. Его значение состоит в подтверждении в передаче хадисов, особенно в правовом контексте, связанном с водой и постановлениями, относящимися к тахара (ритуальной чистоте).",
-          "tr": "Bu rivayet, İmam Ebu 'Abd Allah عليه السلام'a ulaşan bir isnadı korur ve sonunda onun önceki rivayete benzer bir şey rivayet ettiğini belirten kısa bir ifadeyle sona erer. Bunun önemi, özellikle sular ve taharetle ilgili hükümler bağlamında hadis naklinde teyit ve destek sağlamasında yatmaktadır.",
-          "ur": "یہ روایت امام ابو عبد اللہ علیہ السلام تک ایک سند کو محفوظ رکھتی ہے اور آخر میں ایک مختصر اشارہ آتا ہے کہ انہوں نے اس سے ملتی جلتی روایت بیان کی۔ اس کی اہمیت حدیثی ترسیل میں تائید و تقویت کے پہلو سے ہے، خاص طور پر پانیوں اور طہارت کے احکام کے فقہی سیاق میں۔",
-          "zh": "这段传述保留了一条直到伊玛目Abi'AbdAllah عليه السلام的传承链，并以一句简短的话作结，说明他叙述了与前述传述相似的内容。其意义在于圣训传承中的相互印证，尤其是在关于水及与taharah（礼仪洁净）相关教法规定的法学语境中。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

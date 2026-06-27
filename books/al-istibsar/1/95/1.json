@@ -15,61 +15,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَخْبَرَنِي الشَّيْخُ رَحِمَهُ اللَّهُ عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ أَبِيهِ عَنِ الصَّفَّارِ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-শাইখ, আল্লাহ তাঁর প্রতি রহম করুন, আমাকে আহমদ ইবন মুহাম্মদ থেকে, তাঁর পিতা থেকে, আল-সাফফার থেকে বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "Al-Shaykh, möge Allah ihm barmherzig sein, berichtete mir von Aḥmad ibn Muḥammad, von seinem Vater, von al-Ṣaffār, der sagte:",
-              "en": "Al-Shaykh, may Allah have mercy on him, informed me from Aḥmad ibn Muḥammad, from his father, from al-Ṣaffār, who said:",
-              "es": "Al-Shaykh, que Allah tenga misericordia de él, me informó de Aḥmad ibn Muḥammad, de su padre, de al-Ṣaffār, quien dijo:",
-              "fa": "الشیخ، رحمه‌الله، از احمد بن محمد، از پدرش، از الصفّار برایم نقل کرد که گفت:",
-              "fr": "Al-Shaykh, qu’Allah lui fasse miséricorde, m’a rapporté d’Aḥmad ibn Muḥammad, de son père, d’al-Ṣaffār, qui a dit :",
-              "id": "Al-Syaikh, semoga Allah merahmatinya, telah mengabarkan kepadaku dari Aḥmad ibn Muḥammad, dari ayahnya, dari al-Ṣaffār, yang berkata:",
-              "ru": "Аль-Шейх, да помилует его Аллах, сообщил мне от Ахмада ибн Мухаммада, от его отца, от аль-Ṣaffār, который сказал:",
-              "tr": "Şeyh, Allah ona rahmet etsin, bana Ahmed ibn Muhammed’den, onun babasından, es-Saffâr’dan naklen haber verdi; dedi ki:",
-              "ur": "الشیخ، رحمہ اللہ، نے مجھے احمد بن محمد سے، ان کے والد سے، الصفّار سے روایت کرتے ہوئے بتایا، انہوں نے کہا:",
-              "zh": "Al-Shaykh，愿真主怜悯他，传述给我：来自AḥmadibnMuḥammad，来自其父，来自al-Ṣaffār，他说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "كَتَبْتُ إِلَى أَبِي مُحَمَّدٍ عَلَيْهِ السَّلَامُ: كَمْ حَدُّ الْمَاءِ الَّذِي يُغَسَّلُ بِهِ الْمَيِّتُ، كَمَا رَوَوْا أَنَّ الْجُنُبَ يَغْتَسِلُ بِسِتَّةِ أَرْطَالٍ، وَالْحَائِضَ بِتِسْعَةِ أَرْطَالٍ، فَهَلْ لِلْمَيِّتِ حَدٌّ مِنَ الْمَاءِ الَّذِي يُغَسَّلُ بِهِ؟",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবূ মুহাম্মদ عليه السلام-কে লিখলাম: মৃতকে যে পানি দিয়ে গোসল করানো হয় তার পরিমাণের সীমা কী, যেমন তারা বর্ণনা করেছে যে জুনুব ছয় আরতাল পানি দিয়ে গোসল করে এবং হায়েযগ্রস্ত নারী নয় আরতাল দিয়ে? তাহলে মৃতের জন্য কি এমন কোনো নির্দিষ্ট সীমা আছে, যে পানি দিয়ে তাকে গোসল করানো হয়?",
-              "de": "Ich schrieb an Abū Muḥammad عليه السلام: Was ist die Menge des Wassers, mit dem der Verstorbene gewaschen wird, so wie sie überliefert haben, dass der junub den ghusl mit sechs arṭāl und die menstruierende Frau mit neun arṭāl verrichtet? Gibt es also für den Verstorbenen eine festgelegte Grenze hinsichtlich des Wassers, mit dem er gewaschen wird?",
-              "en": "I wrote to Abū Muḥammad عليه السلام: What is the limit of the water with which the deceased is washed, just as they have narrated that the junub performs ghusl with six arṭāl and the menstruating woman with nine arṭāl? So is there a set limit for the deceased regarding the water with which he is washed?",
-              "es": "Escribí a Abū Muḥammad عليه السلام: ¿Cuál es el límite del agua con la que se lava al difunto, tal como han narrado que el junub realiza el ghusl con seis arṭāl y la mujer menstruante con nueve arṭāl? Entonces, ¿hay un límite fijado para el difunto respecto al agua con la que se le lava?",
-              "fa": "به ابومحمد علیه‌السلام نوشتم: حدّ آبی که میّت با آن غسل داده می‌شود چیست، همان‌گونه که روایت کرده‌اند جنب با شش رطل و حائض با نه رطل غسل می‌کند؟ پس آیا برای میّت، در مورد آبی که با آن غسل داده می‌شود، حدّ معیّنی هست؟",
-              "fr": "J’ai écrit à Abū Muḥammad عليه السلام : quelle est la quantité d’eau avec laquelle on lave le défunt, comme ils ont rapporté que le junub fait le ghusl avec six arṭāl et la femme menstruée avec neuf arṭāl ? Y a-t-il donc une limite fixée pour le défunt concernant l’eau avec laquelle on le lave ?",
-              "id": "Aku menulis kepada Abū Muḥammad عليه السلام: Berapakah batas air yang digunakan untuk memandikan jenazah, sebagaimana mereka meriwayatkan bahwa orang junub mandi dengan enam arṭāl dan wanita haid dengan sembilan arṭāl? Apakah ada batas tertentu bagi jenazah mengenai air yang digunakan untuk memandikannya?",
-              "ru": "Я написал Абу Мухаммаду عليه السلام: каков предел воды, которой омывают умершего, если передают, что джунуб совершает гусль шестью арталями, а менструирующая женщина — девятью арталями? Есть ли для умершего установленный предел воды, которой его омывают?",
-              "tr": "Ebû Muhammed’e عليه السلام yazdım: Cünübün altı ratl, hayızlı kadının ise dokuz ratl ile gusül yaptığı rivayet edildiği gibi, ölü yıkanırken kullanılan suyun sınırı nedir? Öyleyse ölü için, onunla yıkandığı suya dair belirlenmiş bir sınır var mıdır?",
-              "ur": "میں نے ابو محمد علیہ السلام کو لکھا: میت کو جس پانی سے غسل دیا جاتا ہے اس کی حد کیا ہے، جیسا کہ انہوں نے روایت کیا ہے کہ جنب چھ ارطال سے غسل کرتا ہے اور حائضہ نو ارطال سے؟ تو کیا میت کے لیے اس پانی کی کوئی مقررہ حد ہے جس سے اسے غسل دیا جاتا ہے؟",
-              "zh": "我写信给AbūMuḥammad عليه السلام：用来为亡者沐浴的水量限度是多少？正如他们传述的那样，处于大不洁状态者用六arṭāl水做ghusl，而月经中的妇女用九arṭāl水。那么，亡者用于沐浴的水是否也有一个固定限度？"
-            },
             "word_end": 44,
             "word_start": 13
           },
           {
             "arabic_text": "فَوَقَّعَ عَلَيْهِ السَّلَامُ: حَدُّ غُسْلِ الْمَيِّتِ أَنْ يُغَسَّلَ حَتَّى يَطْهُرَ، إِنْ شَاءَ اللَّهُ تَعَالَى.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তখন তিনি عليه السلام লিখলেন: মৃতকে গোসল করানোর সীমা হলো তাকে এমনভাবে গোসল করানো, যতক্ষণ না সে পবিত্র হয়ে যায়, যদি আল্লাহ তা‘আলা চান।",
-              "de": "Da schrieb er عليه السلام: Die Grenze des Waschens des Verstorbenen besteht darin, dass er gewaschen wird, bis er rein wird, wenn Allah, der Erhabene, es will.",
-              "en": "So he عليه السلام wrote: The limit of washing the deceased is that he should be washed until he becomes pure, if Allah, the Exalted, wills.",
-              "es": "Entonces él عليه السلام escribió: El límite de lavar al difunto es que se le lave hasta que quede purificado, si Allah, el Exaltado, quiere.",
-              "fa": "پس او علیه‌السلام نوشت: حدّ غسل دادن میّت آن است که او را غسل دهند تا پاک شود، اگر خداوند متعال بخواهد.",
-              "fr": "Alors il عليه السلام écrivit : La limite du lavage du défunt est qu’on le lave jusqu’à ce qu’il devienne pur, si Allah, le Très-Haut, le veut.",
-              "id": "Maka beliau عليه السلام menulis: Batas memandikan jenazah adalah bahwa ia dimandikan hingga menjadi suci, jika Allah Yang Mahatinggi menghendaki.",
-              "ru": "Тогда он عليه السلام написал: Предел омовения умершего состоит в том, чтобы его омывали, пока он не станет чистым, если пожелает Аллах, Всевышний.",
-              "tr": "Bunun üzerine عليه السلام şöyle yazdı: Ölüyü yıkamanın sınırı, Allah Teâlâ dilerse, temizleninceye kadar yıkanmasıdır.",
-              "ur": "تو انہوں نے علیہ السلام لکھا: میت کو غسل دینے کی حد یہ ہے کہ اسے اس وقت تک غسل دیا جائے جب تک وہ پاک نہ ہو جائے، اگر اللہ تعالیٰ چاہے۔",
-              "zh": "于是他 عليه السلام写道：为亡者沐浴的限度是要一直洗到他变得洁净，如果真主至高无上者意欲的话。"
-            },
             "word_end": 58,
             "word_start": 44
           }
@@ -108,28 +82,16 @@
             "phrase_en": "If Allah wills"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَرْطَالٍ": "ratls, a unit of measure for quantity",
-            "الْجُنُبَ": "a person in a state requiring ghusl due to janabah",
-            "الْحَائِضَ": "a menstruating woman",
-            "الْمَاءِ": "the water used for ritual washing",
-            "الْمَيِّتُ": "the deceased person",
-            "غُسْلِ": "ritual washing",
-            "يَطْهُرَ": "becomes purified",
-            "يُغَسَّلُ": "is washed ritually"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمَاءِ",
+          "يُغَسَّلُ",
+          "الْمَيِّتُ",
+          "الْجُنُبَ",
+          "الْحَائِضَ",
+          "أَرْطَالٍ",
+          "غُسْلِ",
+          "يَطْهُرَ"
+        ],
         "related_quran": [
           {
             "ref": "5:6",
@@ -140,32 +102,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে মৃতকে গোসল করানোর জন্য কি পানির নির্দিষ্ট পরিমাণ আছে?",
-          "de": "Gibt es im schiitischen Fiqh eine festgelegte Wassermenge zum Waschen des Verstorbenen?",
-          "en": "Is there a fixed amount of water required for washing the deceased in Shia fiqh?",
-          "es": "¿Hay una cantidad fija de agua requerida para lavar al difunto en la fiqh chií?",
-          "fa": "آیا در فقه شیعه برای غسل دادن میّت مقدار معیّنی از آب تعیین شده است؟",
-          "fr": "Existe-t-il une quantité d’eau fixe requise pour laver le défunt en fiqh chiite ?",
-          "id": "Apakah dalam fikih Syiah ada مقدار air yang ditetapkan untuk memandikan jenazah?",
-          "ru": "Есть ли в шиитском фикхе установленное количество воды для омовения умершего?",
-          "tr": "Şii fıkhında ölüyü yıkamak için belirlenmiş bir su miktarı var mıdır?",
-          "ur": "کیا شیعہ فقہ میں میت کو غسل دینے کے لیے پانی کی کوئی مقررہ مقدار ہے؟",
-          "zh": "什叶派教法中为亡者沐浴是否有固定的用水量？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি মৃতের গোসলের জন্য ব্যবহৃত পানির পরিমাণ সম্পর্কে ফিকহি বিধান আলোচনা করে। উত্তরে বলা হয়েছে যে কোনো নির্দিষ্ট পরিমাণ নির্ধারিত নেই; বরং পবিত্রতা অর্জিত হওয়া পর্যন্ত মৃতকে গোসল করানো হয়।",
-          "de": "Dieser Hadith behandelt die fiqh-rechtliche Frage nach der Wassermenge für den ghusl des Verstorbenen. Die Antwort besagt, dass es keine feste Menge gibt; vielmehr wird der Verstorbene gewaschen, bis die Reinheit erreicht ist.",
-          "en": "This hadith addresses the fiqh ruling concerning the amount of water used for ghusl of the deceased. The reply states that there is no fixed measured quantity; rather, the deceased is to be washed until purification is achieved.",
-          "es": "Este hadiz trata la norma jurídica sobre la cantidad de agua usada para el ghusl del difunto. La respuesta indica que no hay una cantidad fija; más bien, al difunto se le lava hasta que se logra la purificación.",
-          "fa": "این حدیث درباره حکم فقهیِ مقدار آبی است که برای غسل میّت به کار می‌رود. پاسخ بیان می‌کند که مقدار معیّنی تعیین نشده است؛ بلکه میّت تا رسیدن به طهارت غسل داده می‌شود.",
-          "fr": "Ce hadith traite de la règle juridique concernant la quantité d’eau utilisée pour le ghusl du défunt. La réponse indique qu’il n’y a pas de quantité fixe ; le défunt est plutôt lavé jusqu’à ce que la purification soit obtenue.",
-          "id": "Hadis ini membahas حكم fikih tentang jumlah air yang digunakan untuk ghusl jenazah. Jawabannya menyatakan bahwa tidak ada مقدار yang tetap; jenazah dimandikan sampai tercapai kesucian.",
-          "ru": "Этот хадис касается фикхического постановления о количестве воды, используемой для гусля умершего. В ответе говорится, что фиксированного количества нет; умершего омывают до достижения очищения.",
-          "tr": "Bu hadis, ölü için yapılan gusülde kullanılan su miktarına dair fıkhî hükmü ele almaktadır. Cevapta sabit bir ölçü olmadığı, aksine temizlenme gerçekleşinceye kadar ölünün yıkanacağı belirtilmektedir.",
-          "ur": "یہ حدیث میت کے غسل کے لیے استعمال ہونے والے پانی کی مقدار کے فقہی حکم سے متعلق ہے۔ جواب میں بتایا گیا ہے کہ کوئی مقررہ مقدار نہیں؛ بلکہ میت کو اس وقت تک غسل دیا جاتا ہے جب تک طہارت حاصل نہ ہو جائے۔",
-          "zh": "这段圣训讨论了为亡者做ghusl时所用水量的教法判定。答复说明没有固定的数量；而是要一直为亡者清洗，直到达到洁净。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

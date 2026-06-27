@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلْحَسَنُ بْنُ مَحْبُوبٍ عَنْ أَبِي أَيُّوبَ عَنْ بُرَيْدٍ اَلْعِجْلِيِّ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হাসান ইবন মাহবুব, আবি আইয়ুব থেকে, বুরাইদ আল-‘ইজলি থেকে, আবি জাফর عليه السلام থেকে, যিনি বলেছেন:",
-              "de": "Al-Hasan ibn Mahbub, von Abi Ayyub, von Burayd al-'Ijli, von Abi Ja'far عليه السلام, der sagte:",
-              "en": "Al-Hasan ibn Mahbub, from Abi Ayyub, from Burayd al-'Ijli, from Abi Ja'far عليه السلام, who said:",
-              "es": "Al-Hasan ibn Mahbub, de Abi Ayyub, de Burayd al-'Ijli, de Abi Ja'far عليه السلام, quien dijo:",
-              "fa": "الحسن بن محبوب، از ابی ایوب، از برید العجلی، از ابی جعفر علیه السلام، که فرمود:",
-              "fr": "Al-Hasan ibn Mahbub, d’Abi Ayyub, de Burayd al-'Ijli, d’Abi Ja'far عليه السلام, qui a dit :",
-              "id": "Al-Hasan ibn Mahbub, dari Abi Ayyub, dari Burayd al-'Ijli, dari Abi Ja'far عليه السلام, yang berkata:",
-              "ru": "Аль-Хасан ибн Махбуб, от Аби Айюба, от Бурайда аль-'Иджли, от Аби Джа'фара عليه السلام, который сказал:",
-              "tr": "El-Hasan ibn Mahbub, Ebu Eyyub’dan, Burayd el-İclî’den, Ebu Ca‘fer عليه السلام’dan rivayet etti ki şöyle dedi:",
-              "ur": "الحسن بن محبوب، ابو ایوب سے، برید العجلی سے، ابو جعفر علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "阿尔-哈桑·伊本·马赫布卜，传自阿比·艾尤卜，传自布赖德·阿尔-‘伊吉利，传自阿比·贾法尔 عليه السلام，他说："
-            },
             "word_end": 15,
             "word_start": 0
           },
           {
             "arabic_text": "فِي ذَكَرِ الْغُلَامِ الدِّيَةُ كَامِلَةً.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "ছেলেটির পুরুষাঙ্গের জন্য পূর্ণ দিয়াহ রয়েছে।",
-              "de": "Für das männliche Geschlechtsorgan des Jungen ist die diyah vollständig.",
-              "en": "For the male organ of the boy, the diyah is complete.",
-              "es": "Para el órgano masculino del niño, la diyah es completa.",
-              "fa": "برای آلتِ تناسلیِ پسر، دیه کامل است.",
-              "fr": "Pour l’organe masculin du garçon, la diyah est كاملة.",
-              "id": "Untuk kemaluan anak laki-laki, diyah-nya کامل.",
-              "ru": "За мужской орган мальчика полагается полная дийя.",
-              "tr": "Erkek çocuğun cinsel organı için tam diyet gerekir.",
-              "ur": "لڑکے کے عضوِ تناسل کے لیے مکمل دیت ہے۔",
-              "zh": "男孩的男性生殖器，需支付全额迪亚。"
-            },
             "word_end": 20,
             "word_start": 15
           }
@@ -104,24 +91,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الدِّيَةُ": "financial compensation due for bodily injury or killing",
-            "الْغُلَامِ": "the boy; a male child",
-            "ذَكَرِ": "the male organ",
-            "كَامِلَةً": "complete; full in amount"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "ذَكَرِ",
+          "الْغُلَامِ",
+          "الدِّيَةُ",
+          "كَامِلَةً"
+        ],
         "related_quran": [
           {
             "ref": "4:92",
@@ -132,32 +107,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে ছেলেটির পুরুষাঙ্গে আঘাতের জন্য দিয়াহর বিধান কী?",
-          "de": "Wie lautet die Regel zur diyah bei einer Verletzung des männlichen Geschlechtsorgans eines Jungen im schiitischen Hadith?",
-          "en": "What is the ruling on the diyah for injury to the male organ of a boy in Shia hadith?",
-          "es": "¿Cuál es la norma sobre la diyah por una lesión en el órgano masculino de un niño en el hadiz chií?",
-          "fa": "حکم دیه برای آسیب به آلت تناسلیِ پسر در حدیث شیعه چیست؟",
-          "fr": "Quelle est la règle concernant la diyah pour une blessure à l’organe masculin d’un garçon dans le hadith chiite ?",
-          "id": "Apa حكم diyah untuk cedera pada kemaluan anak laki-laki dalam hadis Syiah?",
-          "ru": "Каково постановление о дийе за повреждение мужского органа мальчика в шиитском хадисе?",
-          "tr": "Şii hadiste bir erkek çocuğun cinsel organına verilen zarar için diyet hükmü nedir?",
-          "ur": "شیعہ حدیث میں لڑکے کے عضوِ تناسل کی چوٹ پر دیت کا حکم کیا ہے؟",
-          "zh": "什叶派圣训中，男孩男性生殖器受伤的迪亚规定是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি শারীরিক ক্ষতির ক্ষতিপূরণ সম্পর্কে একটি আইনি বিধান জানায়। এতে বলা হয়েছে যে ছেলেটির পুরুষাঙ্গের ক্ষেত্রে পূর্ণ দিয়াহ প্রাপ্য।",
-          "de": "Dieser Hadith enthält eine rechtliche Regelung zur Entschädigung für eine Körperverletzung. Er besagt, dass im Fall des männlichen Geschlechtsorgans eines Jungen die vollständige diyah fällig ist.",
-          "en": "This hadith gives a legal ruling concerning bodily injury compensation. It states that in the case of the male organ of a boy, the full diyah is due.",
-          "es": "Este hadiz establece una norma jurídica sobre la compensación por lesión corporal. Señala que, en el caso del órgano masculino de un niño, corresponde la diyah completa.",
-          "fa": "این حدیث حکمی فقهی دربارهٔ جبران آسیب بدنی بیان می‌کند. بر اساس آن، در مورد آلت تناسلیِ پسر، دیهٔ کامل واجب است.",
-          "fr": "Ce hadith énonce une règle juridique concernant l’indemnisation d’une atteinte corporelle. Il indique que, dans le cas de l’organe masculin d’un garçon, la diyah complète est due.",
-          "id": "Hadis ini memberikan حكم hukum mengenai kompensasi atas cedera tubuh. Disebutkan bahwa untuk kemaluan anak laki-laki, diyah penuh wajib diberikan.",
-          "ru": "Этот хадис устанавливает правовое предписание относительно компенсации за телесное повреждение. В нём говорится, что за мужской орган мальчика полагается полная дийя.",
-          "tr": "Bu hadis, bedensel zarar tazminatıyla ilgili bir fıkhî hüküm bildirir. Buna göre, bir erkek çocuğun cinsel organı için tam diyet gerekir.",
-          "ur": "یہ حدیث جسمانی نقصان کے بدلے معاوضے کے بارے میں شرعی حکم بیان کرتی ہے۔ اس میں کہا گیا ہے کہ لڑکے کے عضوِ تناسل کے لیے مکمل دیت واجب ہے۔",
-          "zh": "这段圣训给出了关于身体伤害赔偿的法律裁定。它说明：对于男孩的男性生殖器，应支付全额迪亚。"
-        },
         "tags": [
           "jurisprudence",
           "family",

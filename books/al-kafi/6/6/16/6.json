@@ -14,6 +14,123 @@
       "up": "/books/al-kafi:6:6:16"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ مُحَمَّدِ بْنِ سِنَانٍ عَنْ أَبِي الْجَارُودِ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 15,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُ أَبَا جَعْفَرٍ ( عَلَيْهِ السَّلَامُ ) عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ وَ طَعامُ الَّذِينَ أُوتُوا الْكِتابَ حِلٌّ لَكُمْ وَ طَعامُكُمْ حِلٌّ لَهُمْ فَقَالَ ( عَلَيْهِ السَّلَامُ ) الْحُبُوبُ وَ الْبُقُولُ",
+            "chunk_type": "body",
+            "word_end": 47,
+            "word_start": 15
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 42,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ سِنَانٍ",
+              "name_en": "Muhammad ibn Sinan",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 168,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي الْجَارُودِ",
+              "name_en": "Abu al-Jarud",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "طَعامُ",
+          "أُوتُوا الْكِتابَ",
+          "حِلٌّ",
+          "الْحُبُوبُ",
+          "الْبُقُولُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "5:5",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "6:118",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "5:3",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "quran_commentary"
+        ],
+        "topics": [
+          "halal_haram",
+          "quran_interpretation_method"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (22/61)"
       ],
@@ -85,7 +202,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:6:16:6",

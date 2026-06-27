@@ -14,6 +14,141 @@
       "up": "/books/al-kafi:2:1:139"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى عَنْ أَبِي يَحْيَى الْوَاسِطِيِّ عَنْ بَعْضِ أَصْحَابِنَا عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 25,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "الْكَلَامُ ثَلَاثَةٌ صِدْقٌ وَ كَذِبٌ وَ إِصْلَاحٌ بَيْنَ النَّاسِ",
+            "chunk_type": "body",
+            "word_end": 34,
+            "word_start": 25
+          },
+          {
+            "arabic_text": "قِيلَ لَهُ جُعِلْتُ فِدَاكَ مَا الْإِصْلَاحُ بَيْنَ النَّاسِ قَالَ تَسْمَعُ مِنَ الرَّجُلِ كَلَامَاً يَبْلُغُهُ فَتَخْبُثُ نَفْسُهُ فَتَلْقَاهُ فَتَقُولُ سَمِعْتُ مِنْ فُلَانٍ قَالَ فِيكَ مِنَ الْخَيْرِ كَذَا وَ كَذَا خِلَافَ مَا سَمِعْتَ مِنْهُ",
+            "chunk_type": "body",
+            "word_end": 66,
+            "word_start": 34
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 13,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى",
+              "name_en": "Ahmad ibn Muhammad ibn Isa",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 331,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي يَحْيَى الْوَاسِطِيِّ",
+              "name_en": "Abu Yahya al-Wasiti",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 36,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "بَعْضِ أَصْحَابِنَا",
+              "name_en": "some of our companions",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "صِدْقٌ",
+          "كَذِبٌ",
+          "إِصْلَاحٌ",
+          "بَيْنَ النَّاسِ",
+          "فِتْنَةٌ",
+          "خِلَافَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:208",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "49:12",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:23",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "social_relations"
+        ],
+        "topics": [
+          "honesty",
+          "etiquette",
+          "rights_of_others"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مرسل   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (10/334)"
       ],
@@ -93,7 +228,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:1:139:16",

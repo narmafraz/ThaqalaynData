@@ -15,6 +15,125 @@
       "up": "/books/al-kafi:8:1:37"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "سَهْلُ بْنُ زِيَادٍ عَنْ يَعْقُوبَ بْنِ يَزِيدَ أَوْ غَيْرِهِ عَنْ سُلَيْمَانَ كَاتِبِ عَلِيِّ بْنِ يَقْطِينٍ عَمَّنْ ذَكَرَهُ عَنْ أَبِي عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 24,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "إِنَّ الْأَشْعَثَ بْنَ قَيْسٍ شَرِكَ فِي دَمِ أَمِيرِ الْمُؤْمِنِينَ (عَلَيْهِ السَّلَامُ) وَ ابْنَتُهُ جَعْدَةُ سَمَّتِ الْحَسَنَ (عَلَيْهِ السَّلَامُ) وَ مُحَمَّدٌ ابْنُهُ شَرِكَ فِي دَمِ الْحُسَيْنِ (عَلَيْهِ السَّلَامُ).",
+            "chunk_type": "body",
+            "word_end": 51,
+            "word_start": 24
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 8,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "سَهْلُ بْنُ زِيَادٍ",
+              "name_en": "Sahl ibn Ziyad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4602,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "يَعْقُوبَ بْنِ يَزِيدَ أَوْ غَيْرِهِ",
+              "name_en": "Ya'qub b. Yazid",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": null,
+              "identity_confidence": "ambiguous",
+              "known_identity": null,
+              "name_ar": "سُلَيْمَانَ كَاتِبِ عَلِيِّ بْنِ يَقْطِينٍ عَمَّنْ ذَكَرَهُ",
+              "name_en": "Sulayman b. Ali b. Yaqtin",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ (عليه السلام)",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الْأَشْعَثُ بْنُ قَيْسٍ",
+          "أَمِيرُ الْمُؤْمِنِينَ",
+          "جَعْدَةُ",
+          "مُحَمَّدُ بْنُهُ",
+          "شَرِكَ فِي دَمِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "17:33",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:7",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:85",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "history",
+          "family"
+        ],
+        "topics": [
+          "imams_biography",
+          "karbala",
+          "ahlulbayt_virtues",
+          "companions"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> سكت عنه</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 37)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -81,7 +200,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:37:34",

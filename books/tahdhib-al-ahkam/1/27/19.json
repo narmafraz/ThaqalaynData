@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ عَلِيٍّ عَنِ الْحُسَيْنِ بْنِ أَبِي الْعَلَاءِ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, আলী থেকে, আল-হুসাইন ইবন আবি আল-আলা থেকে, তিনি বলেছেন:",
-              "de": "Von ihm, von ʿAlī, von al-Ḥusayn ibn Abī al-ʿAlāʾ, der sagte:",
-              "en": "From him, from ʿAlī, from al-Ḥusayn ibn Abī al-ʿAlāʾ, who said:",
-              "es": "De él, de ʿAlī, de al-Ḥusayn ibn Abī al-ʿAlāʾ, quien dijo:",
-              "fa": "از او، از علی، از حسین بن ابی‌العلا، که گفت:",
-              "fr": "De lui, de ʿAlī, de al-Ḥusayn ibn Abī al-ʿAlāʾ, qui a dit :",
-              "id": "Darinya, dari ʿAli, dari al-Ḥusayn ibn Abī al-ʿAlāʾ, ia berkata:",
-              "ru": "От него, от ʿАли, от аль-Хусайна ибн Аби аль-ʿАляʾ, который сказал:",
-              "tr": "Ondan, Ali’den, el-Hüseyin ibn Ebî el-ʿAlâ’dan, o da şöyle dedi:",
-              "ur": "اس سے، علی سے، الحسین بن ابی العلاء سے، انہوں نے کہا:",
-              "zh": "由他传自ʿAli，传自al-ḤusaynibnAbīal-ʿAlāʾ，他说："
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ عَنِ الْمَذْيِ يُصِيبُ الثَّوْبَ فَيَلْتَزِقُ بِهِ، قَالَ: «يَغْسِلُهُ وَلَا يَتَوَضَّأُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবা আবদিল্লাহ عليه السلام-কে এমন মাযী সম্পর্কে জিজ্ঞেস করলাম যা কাপড়ে লাগে এবং তাতে লেগে থাকে। তিনি বললেন: “সে তা ধুয়ে ফেলবে, এবং ওযু করবে না।”",
-              "de": "Ich fragte Abā ʿAbdillāh عليه السلام nach madhy, das auf das Kleidungsstück gelangt und daran haftet. Er sagte: „Er wäscht es, und er verrichtet kein wudu (die Gebetswaschung).“",
-              "en": "I asked Abā ʿAbdillāh عليه السلام about madhy that comes onto the garment and clings to it. He said: “He washes it, and he does not perform wudu (ablution).”",
-              "es": "Le pregunté a Abā ʿAbdillāh عليه السلام acerca del madhy que cae sobre la prenda y se adhiere a ella. Dijo: “La lava, y no hace wudu (ablución).”",
-              "fa": "از ابا عبدالله علیه‌السلام دربارهٔ مذی‌ای که به لباس می‌رسد و به آن می‌چسبد پرسیدم. فرمود: «آن را می‌شوید و وضو نمی‌گیرد.»",
-              "fr": "J’ai interrogé Abā ʿAbdillāh عليه السلام au sujet du madhy qui atteint le vêtement et y adhère. Il a dit : « Il le lave, et il ne fait pas le wudu (ablution). »",
-              "id": "Aku bertanya kepada Abā ʿAbdillāh عليه السلام tentang madhy yang mengenai pakaian dan melekat padanya. Beliau bersabda: “Ia mencucinya, dan ia tidak berwudu (bersuci).”",
-              "ru": "Я спросил Аба ʿАбдуллаха عليه السلام о мадхи, которое попадает на одежду и прилипает к ней. Он сказал: «Он моет это и не совершает вуду (омовение).»",
-              "tr": "Ebâ ʿAbdillâh عليه السلام’a, elbiseye bulaşıp ona yapışan mezi hakkında sordum. Buyurdu ki: “Onu yıkar, fakat wudu (abdest) almaz.”",
-              "ur": "میں نے ابا عبد اللہ علیہ السلام سے مذی کے بارے میں پوچھا جو کپڑے پر لگ جائے اور اس سے چپک جائے۔ انہوں نے فرمایا: “وہ اسے دھوئے، اور وضو نہ کرے۔”",
-              "zh": "我询问AbāʿAbdillāh عليهالسلام关于沾到衣服并附着其上的madhy。他说：“他把它洗掉，而不做wudu（小净）。”"
-            },
             "word_end": 25,
             "word_start": 9
           },
           {
             "arabic_text": "قَالَ مُحَمَّدُ بْنُ الْحَسَنِ: مُصَنِّفُ هَذَا الْكِتَابِ: هَذَانِ الْخَبَرَانِ مَحْمُولَانِ عَلَى ضَرْبٍ مِنَ الِاسْتِحْبَابِ دُونَ الْوُجُوبِ، بِدَلَالَةِ مَا قَدَّمْنَاهُ مِنَ الْأَخْبَارِ، وَيَزِيدُ ذَلِكَ بَيَانًا مَا رَوَاهُ هَذَا الرَّاوِي بِعَيْنِهِ وَهُوَ.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন আল-হাসান, এই বইয়ের সংকলক, বলেছেন: এই দুটি বর্ণনাকে পূর্বে উল্লেখিত বর্ণনাগুলোর নির্দেশনার ভিত্তিতে বাধ্যতামূলক নয়, বরং এক ধরনের মুস্তাহাব হিসেবে বোঝা উচিত। এ বিষয়টি আরও স্পষ্ট করে যা এই একই রাবি নিজেই বর্ণনা করেছেন, আর তা হলো:",
-              "de": "Muḥammad ibn al-Ḥasan, der Verfasser dieses Buches, sagte: Diese beiden Überlieferungen sind als Hinweis auf eine Art Empfehlung und nicht auf eine Verpflichtung zu verstehen, wie aus den von uns zuvor erwähnten Überlieferungen hervorgeht. Was dies noch weiter verdeutlicht, ist das, was eben dieser Überlieferer selbst überliefert hat, und zwar:",
-              "en": "Muḥammad ibn al-Ḥasan, the author of this book, said: These two reports are to be understood as indicating a kind of recommendation rather than obligation, as shown by the reports we have mentioned earlier. What further clarifies that is what this very narrator himself has narrated, and it is:",
-              "es": "Muḥammad ibn al-Ḥasan, el autor de este libro, dijo: Estos dos informes deben entenderse como indicativos de una clase de recomendación, no de obligación, según lo que muestran los informes que hemos mencionado antes. Lo que aclara aún más ذلك es lo que este mismo narrador ha transmitido, y es:",
-              "fa": "محمد بن الحسن، مؤلف این کتاب، گفت: این دو خبر بر نوعی استحباب حمل می‌شوند، نه وجوب، به دلالتِ اخباری که پیش‌تر آوردیم. و آنچه این معنا را بیشتر روشن می‌کند، همان چیزی است که همین راوی خود آن را روایت کرده است، و آن این است:",
-              "fr": "Muḥammad ibn al-Ḥasan, l’auteur de ce livre, a dit : Ces deux rapports doivent être compris comme indiquant une forme de recommandation plutôt qu’une obligation, comme l’indiquent les rapports que nous avons mentionnés plus haut. Ce qui clarifie davantage cela, c’est ce que ce même narrateur a lui-même rapporté, à savoir :",
-              "id": "Muḥammad ibn al-Ḥasan, penulis kitab ini, berkata: Dua riwayat ini dipahami sebagai menunjukkan suatu bentuk anjuran, bukan kewajiban, berdasarkan petunjuk dari riwayat-riwayat yang telah kami sebutkan sebelumnya. Yang lebih menjelaskan hal itu adalah apa yang diriwayatkan oleh perawi yang sama ini sendiri, yaitu:",
-              "ru": "Мухаммад ибн аль-Хасан, автор этой книги, сказал: Эти два сообщения следует понимать как указание на некий вид желательности, а не обязательности, согласно тому, что показывают приведённые нами ранее сообщения. Ещё яснее это становится из того, что передал сам этот передатчик, а именно:",
-              "tr": "Bu kitabın müellifi Muhammed ibn el-Hasen dedi ki: Bu iki rivayet, daha önce zikrettiğimiz rivayetlerin delaletiyle, vücûb değil, bir tür müstehaplık anlamına hamledilir. Bunu daha da açıklığa kavuşturan şey ise, bu aynı râvinin bizzat rivayet ettiği şeydir; o da şudur:",
-              "ur": "محمد بن الحسن، اس کتاب کے مصنف، نے کہا: یہ دونوں روایتیں استحباب کی ایک قسم پر محمول ہیں، وجوب پر نہیں، جیسا کہ ان روایات سے واضح ہے جو ہم نے پہلے ذکر کی ہیں۔ اس بات کی مزید وضاحت وہ چیز کرتی ہے جسے اسی راوی نے خود روایت کیا ہے، اور وہ یہ ہے:",
-              "zh": "Muḥammadibnal-Ḥasan，这本书的作者，说：这两则传述应当被理解为表示一种推荐，而不是义务，这可由我们先前提到的传述所说明。进一步阐明这一点的是这位传述者本人所传述的内容，即："
-            },
             "word_end": 55,
             "word_start": 25
           }
@@ -119,27 +93,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الثَّوْبَ": "the garment or clothing onto which the substance falls",
-            "الِاسْتِحْبَابِ": "recommendation rather than binding requirement",
-            "الْأَخْبَارِ": "the narrations or reports used as evidence",
-            "الْمَذْيِ": "pre-seminal fluid discussed here as a source affecting ritual purity rulings",
-            "الْوُجُوبِ": "obligation or mandatory legal requirement",
-            "يَتَوَضَّأُ": "he performs wudu (ablution), which is negated here",
-            "يَغْسِلُهُ": "he washes it, meaning the affected part of the garment"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمَذْيِ",
+          "الثَّوْبَ",
+          "يَغْسِلُهُ",
+          "يَتَوَضَّأُ",
+          "الِاسْتِحْبَابِ",
+          "الْوُجُوبِ",
+          "الْأَخْبَارِ"
+        ],
         "related_quran": [
           {
             "ref": "5:6",
@@ -150,32 +112,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কাপড়ে লাগা মাযী কি ধুতে হবে এবং এতে কি ওযু ভেঙে যায়?",
-          "de": "Muss madhy auf Kleidung gewaschen werden und macht es das wudu (die Gebetswaschung) ungültig?",
-          "en": "Does madhy on clothing require washing and invalidate wudu (ablution)?",
-          "es": "¿El madhy que cae sobre la ropa debe lavarse y anula el wudu (ablución)?",
-          "fa": "آیا مذیِی که به لباس می‌رسد باید شسته شود و آیا وضو را باطل می‌کند؟",
-          "fr": "Le madhy sur un vêtement doit-il être lavé et annule-t-il le wudu (ablution) ?",
-          "id": "Apakah madhy pada pakaian harus dicuci dan apakah membatalkan wudu (ablusi)?",
-          "ru": "Нужно ли мыть мадхи, попавшее на одежду, и нарушает ли оно вуду (омовение)?",
-          "tr": "Kıyafete bulaşan mezi yıkanmalı mı ve wudu (abdest) bozulur mu?",
-          "ur": "کیا کپڑے پر لگنے والا مذی دھونا ضروری ہے اور کیا اس سے وضو ٹوٹ جاتا ہے؟",
-          "zh": "衣服上的madhy需要清洗吗？它会使wudu（小净）失效吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে বলা হয়েছে, মাযী যদি কাপড়ে লাগে, তবে আক্রান্ত স্থান ধুতে হবে, কিন্তু ওযু আবশ্যক নয়। এরপর সংকলক কিছু সম্পর্কিত বর্ণনাকে বাধ্যবাধকতা নয়, বরং মুস্তাহাব অর্থে ব্যাখ্যা করেন এবং বর্ণনাগুলোর মধ্যে সমন্বয়ের একটি ফিকহি পদ্ধতি তুলে ধরেন।",
-          "de": "Dieser Hadith behandelt die Rechtsregel zu madhy, wenn es ein Kleidungsstück verunreinigt: Die betroffene Stelle soll gewaschen werden, doch wudu (die Gebetswaschung) ist nicht erforderlich. Anschließend erklärt der Herausgeber, dass einige verwandte Überlieferungen als Empfehlung und nicht als Verpflichtung zu verstehen sind, und zeigt damit eine fiqh-rechtliche Methode zur Vereinbarung der Überlieferungen.",
-          "en": "This hadith addresses the ruling of madhy when it soils a garment, stating that the affected area should be washed but that wudu (ablution) is not required. The compiler then explains that some related reports are understood in the sense of recommendation rather than obligation, showing a juristic method of reconciling narrations.",
-          "es": "Este hadiz aborda la norma del madhy cuando ensucia una prenda, indicando que la parte afectada debe lavarse, pero que no se requiere wudu (ablución). Luego, el compilador explica que algunos informes relacionados se entienden en el sentido de recomendación y no de obligación, mostrando un método jurídico para conciliar las narraciones.",
-          "fa": "این حدیث حکمِ مذی را در صورتی که لباس را آلوده کند بیان می‌کند و می‌گوید محل آلوده باید شسته شود، اما وضو لازم نیست. سپس مؤلف برخی روایات مرتبط را بر استحباب، نه وجوب، حمل می‌کند و روش فقهیِ جمع میان روایات را توضیح می‌دهد.",
-          "fr": "Ce hadith traite du jugement du madhy lorsqu’il souille un vêtement, en indiquant que la partie touchée doit être lavée, mais que le wudu (ablution) n’est pas requis. Le compilateur explique ensuite que certains rapports connexes doivent être compris comme relevant de la recommandation plutôt que de l’obligation, montrant ainsi une méthode juridique de conciliation des narrations.",
-          "id": "Hadis ini menjelaskan hukum madhy ketika mengotori pakaian, yaitu bagian yang terkena harus dicuci, tetapi wudu (ablusi) tidak diperlukan. Kemudian penyusun menjelaskan bahwa sebagian riwayat terkait dipahami sebagai anjuran, bukan kewajiban, sebagai metode fikih untuk mengompromikan riwayat-riwayat.",
-          "ru": "Этот хадис разъясняет постановление о мадхи, если оно загрязняет одежду: поражённое место следует вымыть, но вуду (омовение) не требуется. Затем составитель объясняет, что некоторые связанные сообщения следует понимать как указание на желательность, а не обязательность, показывая правовой метод согласования преданий.",
-          "tr": "Bu hadis, mezi elbiseyi kirletirse kirlenen yerin yıkanacağını, ancak wudu (abdest) gerekmediğini بیان eder. Ardından müellif, bazı ilgili rivayetleri vücûb yerine müstehaplık anlamında yorumlayarak rivayetler arasında uzlaştırma yapan fıkhî yöntemi açıklar.",
-          "ur": "یہ حدیث اس حکم کو بیان کرتی ہے کہ اگر مذی کپڑے کو لگ جائے تو متاثرہ جگہ دھوئی جائے، لیکن وضو لازم نہیں۔ پھر مؤلف بعض متعلقہ روایات کو وجوب کے بجائے استحباب پر محمول کرتے ہیں اور روایات میں تطبیق کا فقہی طریقہ واضح کرتے ہیں۔",
-          "zh": "这段圣训说明了madhy沾染衣物时的判定：应清洗受影响的部位，但不需要wudu（小净）。随后编者解释说，一些相关传述应理解为推荐而非义务，从而展示了调和传述的教法方法。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -15,42 +15,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "الْحُسَيْنُ بْنُ سَعِيدٍ عَنْ حَمَّادٍ عَنْ رِبْعِيٍّ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ, হাম্মাদ থেকে, রিবঈ থেকে, মুহাম্মদ ইবন মুসলিম থেকে, তিনি বলেন:",
-              "de": "Al-Husayn ibn Sa'id, von Hammad, von Rib'i, von Muhammad ibn Muslim, der sagte:",
-              "en": "Al-Husayn ibn Sa'id, from Hammad, from Rib'i, from Muhammad ibn Muslim, who said:",
-              "es": "Al-Husayn ibn Sa'id, de Hammad, de Rib'i, de Muhammad ibn Muslim, quien dijo:",
-              "fa": "الحسین بن سعید، از حماد، از ربعی، از محمد بن مسلم، که گفت:",
-              "fr": "Al-Husayn ibn Sa'id, d'après Hammad, d'après Rib'i, d'après Muhammad ibn Muslim, qui a dit :",
-              "id": "Al-Husayn ibn Sa'id, dari Hammad, dari Rib'i, dari Muhammad ibn Muslim, ia berkata:",
-              "ru": "Аль-Хусайн ибн Са'ид, от Хаммада, от Риб'и, от Мухаммада ибн Муслима, который сказал:",
-              "tr": "El-Hüseyin ibn Sa'id, Hammad'dan, Rib'i'den, Muhammed ibn Muslim'den, şöyle dedi:",
-              "ur": "الحسین بن سعید، حماد سے، ربعی سے، محمد بن مسلم سے، انہوں نے کہا:",
-              "zh": "阿尔-侯赛因·伊本·赛义德，传自哈马德，传自里比，传自穆罕默德·伊本·穆斯林，他说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "قُلْتُ لِأَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ يُؤَذِّنُ الرَّجُلُ وَهُوَ قَاعِدٌ؟ قَالَ: نَعَمْ، وَلَا يُقِيمُ إِلَّا وَهُوَ قَائِمٌ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবী আবদিল্লাহ عليه السلام-কে বললাম: কোনো ব্যক্তি কি বসে থাকা অবস্থায় আযান দিতে পারে? তিনি বললেন: হ্যাঁ; তবে ইকামত সে কেবল দাঁড়ানো অবস্থায়ই দেবে।",
-              "de": "Ich sagte zu Abī ʿAbdillāh عليه السلام: Darf ein Mann den Adhan sprechen, während er sitzt? Er sagte: Ja; aber die Iqamah soll er nur sprechen, während er steht.",
-              "en": "I said to Abī ʿAbdillāh عليه السلام: May a man recite the adhan while he is sitting? He said: Yes; but he should not recite the iqamah except while he is standing.",
-              "es": "Le dije a Abī ʿAbdillāh عليه السلام: ¿Puede un hombre recitar el adhan mientras está sentado? Dijo: Sí; pero no debe recitar la iqamah sino mientras está de pie.",
-              "fa": "به ابی عبدالله علیه السلام عرض کردم: آیا مرد می‌تواند در حالی که نشسته است اذان بگوید؟ فرمود: بله؛ اما اقامه را جز در حالی که ایستاده است نگوید.",
-              "fr": "Je dis à Abī ʿAbdillāh عليه السلام : Un homme peut-il réciter l'adhan alors qu'il est assis ? Il dit : Oui ; mais il ne doit réciter l'iqamah qu'en étant debout.",
-              "id": "Aku berkata kepada Abī ʿAbdillāh عليه السلام: Bolehkah seseorang mengumandangkan adzan ketika ia duduk? Beliau bersabda: Ya; tetapi ia tidak boleh mengumandangkan iqamah kecuali ketika ia berdiri.",
-              "ru": "Я сказал Аби Абдуллаху عليه السلام: Может ли человек произносить азан, сидя? Он сказал: Да; но икаму он должен произносить только стоя.",
-              "tr": "Abî Abdillâh'a عليه السلام şöyle dedim: Bir kimse otururken ezan okuyabilir mi? Buyurdu: Evet; fakat ikameti ancak ayakta iken okumalıdır.",
-              "ur": "میں نے ابی عبد اللہ علیہ السلام سے کہا: کیا آدمی بیٹھے ہوئے اذان دے سکتا ہے؟ فرمایا: ہاں؛ لیکن اقامہ صرف کھڑے ہو کر ہی دے۔",
-              "zh": "我对阿比·阿卜杜拉 عليه السلام说：一个人坐着时可以念宣礼吗？他说：可以；但成拜词只能在站立时念。"
-            },
             "word_end": 29,
             "word_start": 12
           }
@@ -103,25 +90,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "قَائِمٌ": "standing upright",
-            "قَاعِدٌ": "sitting or seated",
-            "نَعَمْ": "yes, indicating permissibility",
-            "يُؤَذِّنُ": "to recite the adhan, the call to prayer",
-            "يُقِيمُ": "to recite the iqamah, the call marking the start of salat"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُؤَذِّنُ",
+          "قَاعِدٌ",
+          "نَعَمْ",
+          "يُقِيمُ",
+          "قَائِمٌ"
+        ],
         "related_quran": [
           {
             "ref": "2:238",
@@ -132,32 +107,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কোনো ব্যক্তি কি বসে আযান দিতে পারে, এবং ইকামত কি দাঁড়িয়ে দিতে হবে?",
-          "de": "Darf eine Person den Adhan im Sitzen sprechen, und muss die Iqamah im Stehen verrichtet werden?",
-          "en": "Can a person recite the adhan while sitting, and must the iqamah be done standing?",
-          "es": "¿Puede una persona recitar el adhan mientras está sentada, y debe la iqamah hacerse de pie?",
-          "fa": "آیا شخص می‌تواند در حالی که نشسته است اذان بگوید، و آیا اقامه باید در حالت ایستاده انجام شود؟",
-          "fr": "Une personne peut-elle réciter l'adhan en étant assise, et l'iqamah doit-elle être faite debout ?",
-          "id": "Apakah seseorang boleh mengumandangkan adzan sambil duduk, dan apakah iqamah harus dilakukan sambil berdiri?",
-          "ru": "Может ли человек произносить азан сидя, и нужно ли произносить икаму стоя?",
-          "tr": "Bir kişi oturarak ezan okuyabilir mi ve ikame ayakta mı yapılmalıdır?",
-          "ur": "کیا کوئی شخص بیٹھ کر اذان دے سکتا ہے، اور کیا اقامہ کھڑے ہو کر دینا ضروری ہے؟",
-          "zh": "一个人可以坐着念宣礼吗，成拜词必须站着进行吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে আযান ও ইকামতের ক্ষেত্রে দেহের ভঙ্গি সম্পর্কে শরঈ বিধান বর্ণনা করা হয়েছে। এতে বোঝা যায় যে বসে আযান দেওয়া জায়েয, আর ইকামত কেবল দাঁড়িয়ে দিতে হবে।",
-          "de": "Dieser Hadith enthält eine rechtliche Regel zur Körperhaltung beim Adhan und bei der Iqamah. Er zeigt, dass der Adhan im Sitzen erlaubt ist, während die Iqamah nur im Stehen verrichtet werden soll.",
-          "en": "This hadith gives a legal ruling regarding the posture for adhan and iqamah. It indicates that giving the adhan while seated is permissible, whereas the iqamah should only be performed while standing.",
-          "es": "Este hadiz expone una norma jurídica sobre la postura para el adhan y la iqamah. Indica que recitar el adhan sentado es permisible, mientras que la iqamah solo debe realizarse de pie.",
-          "fa": "این حدیث حکم شرعیِ مربوط به حالتِ بدن در اذان و اقامه را بیان می‌کند. بر این دلالت دارد که گفتن اذان در حالت نشسته جایز است، در حالی که اقامه فقط باید در حالت ایستاده انجام شود.",
-          "fr": "Ce hadith énonce une règle juridique concernant la posture pour l'adhan et l'iqamah. Il indique qu'il est permis de réciter l'adhan assis, tandis que l'iqamah ne doit être accomplie qu'en étant debout.",
-          "id": "Hadis ini memberikan hukum fikih mengenai posisi tubuh saat adzan dan iqamah. Ini menunjukkan bahwa mengumandangkan adzan sambil duduk diperbolehkan, sedangkan iqamah hanya boleh dilakukan sambil berdiri.",
-          "ru": "Этот хадис разъясняет правовое постановление относительно положения тела при азане и икаме. Из него следует, что произносить азан сидя дозволено, тогда как икаму следует произносить только стоя.",
-          "tr": "Bu hadis, ezan ve ikamenin duruşuyla ilgili fıkhî hükmü بیان eder. Buna göre oturarak ezan okumak caizdir, ikame ise yalnızca ayakta yapılmalıdır.",
-          "ur": "یہ حدیث اذان اور اقامہ کے لیے حالتِ جسمانی کے بارے میں شرعی حکم بیان کرتی ہے۔ اس سے معلوم ہوتا ہے کہ بیٹھ کر اذان دینا جائز ہے، جبکہ اقامہ صرف کھڑے ہو کر ہی دیا جانا چاہیے۔",
-          "zh": "这段圣训阐明了关于宣礼和成拜词姿势的教法判定。它表明坐着念宣礼是允许的，而成拜词只能在站立时进行。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

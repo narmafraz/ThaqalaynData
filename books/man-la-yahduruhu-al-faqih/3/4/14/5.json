@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى الْحَلَبِيُّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হালাবী আবু আবদুল্লাহ عليه السلام থেকে বর্ণনা করেছেন:",
-              "de": "Al-Halabi berichtete von Abu Abdillah عليه السلام:",
-              "en": "Al-Ḥalabī narrated from Abū ʿAbdillāh عليه السلام:",
-              "es": "Al-Halabí narró de Abu Abdillah عليه السلام:",
-              "fa": "الحلبی از ابی عبدالله علیه السلام روایت کرده است:",
-              "fr": "Al-Halabi a rapporté de Abou Abdillah عليه السلام :",
-              "id": "Al-Halabi meriwayatkan dari Abu Abdullah عليه السلام:",
-              "ru": "Аль-Халаби передал от Абу Абдиллы عليه السلام:",
-              "tr": "El-Halebi, Ebu Abdillah (aleyhisselam)'dan rivayet etti:",
-              "ur": "الْحَلَبِي نے ابو عبد اللہ علیہ السلام سے روایت کی:",
-              "zh": "الحلبيروىأبوبعبداللهعليهالسلام:"
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "فِي رَجُلٍ يُخَيِّرُ امْرَأَتَهُ أَوْ أَبَاهَا أَوْ أَخَاهَا أَوْ وَلِيَّهَا فَقَالَ «كُلُّهُمْ بِمَنْزِلَةٍ وَاحِدَةٍ إِذَا رَضِيَتْ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন পুরুষ যিনি তার স্ত্রীকে, অথবা তার পিতাকে, অথবা তার ভাইকে, অথবা তার অভিভাবককে নির্বাচন করার সুযোগ দেন, তিনি বললেন: “যদি সে সম্মত হয়, তবে তারা সবাই একই অবস্থানে আছে।”",
-              "de": "Bezüglich eines Mannes, der seiner Frau die Wahl gibt, oder ihrem Vater, oder ihrem Bruder, oder ihrem Vormund, sagte er: „Sie alle stehen auf derselben Stufe, wenn sie zustimmt.“",
-              "en": "Regarding a man who gives his wife the choice, or her father, or her brother, or her guardian, he said: “All of them are in the same position, if she consents.”",
-              "es": "Respecto a un hombre que da a su esposa la elección, o a su padre, o a su hermano, o a su tutor, dijo: “Todos ellos están en la misma posición, si ella consiente.”",
-              "fa": "در مورد مردی که به همسرش یا پدرش یا برادرش یا ولی او اختیار می‌دهد، فرمود: «همه آنها در یک جایگاه هستند اگر او راضی باشد.»",
-              "fr": "Concernant un homme qui donne à sa femme le choix, ou à son père, ou à son frère, ou à son tuteur, il a dit : « Ils sont tous au même niveau, si elle consent. »",
-              "id": "Mengenai seorang pria yang memberikan pilihan kepada istrinya, atau ayahnya, atau saudaranya, atau walinya, beliau berkata: “Semua mereka berada pada posisi yang sama, jika dia setuju.”",
-              "ru": "Относительно мужчины, который предоставляет выбор своей жене, или её отцу, или брату, или опекуну, он сказал: «Все они находятся в одинаковом положении, если она согласна.»",
-              "tr": "Bir adam karısına, ya da onun babasına, kardeşine veya velisine seçim hakkı verdiğinde, şöyle dedi: “Eğer o razıysa, hepsi aynı konumdadır.”",
-              "ur": "ایک شخص جو اپنی بیوی کو، یا اس کے والد کو، یا اس کے بھائی کو، یا اس کے ولی کو اختیار دیتا ہے، فرمایا: \"اگر وہ راضی ہو تو سب ایک ہی مقام پر ہیں۔\"",
-              "zh": "关于一个男人给他的妻子，或她的父亲，或她的兄弟，或她的监护人选择权，他说：“如果她同意，他们都处于同一地位。”"
-            },
             "word_end": 25,
             "word_start": 9
           }
@@ -91,27 +78,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبَاهَا": "her father as a potential delegated representative",
-            "أَخَاهَا": "her brother as a potential delegated representative",
-            "امْرَأَتَهُ": "his wife in the marital legal context",
-            "بِمَنْزِلَةٍ وَاحِدَةٍ": "in the same legal position or status",
-            "رَضِيَتْ": "she consented or was pleased",
-            "وَلِيَّهَا": "her guardian with legal standing",
-            "يُخَيِّرُ": "gives the choice or authority of decision"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُخَيِّرُ",
+          "امْرَأَتَهُ",
+          "أَبَاهَا",
+          "أَخَاهَا",
+          "وَلِيَّهَا",
+          "بِمَنْزِلَةٍ وَاحِدَةٍ",
+          "رَضِيَتْ"
+        ],
         "related_quran": [
           {
             "ref": "4:35",
@@ -122,32 +97,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যখন স্বামী বিবাহের পছন্দের অধিকার হস্তান্তর করেন, তখন স্ত্রী, তার পিতা, ভাই এবং অভিভাবক কি আইনি দৃষ্টিতে সমান? ",
-          "de": "Sind die Ehefrau, ihr Vater, Bruder und Vormund rechtlich gleichgestellt, wenn der Ehemann die Wahl in der Ehe delegiert?",
-          "en": "Are the wife, her father, brother, and guardian legally equivalent when a husband delegates marital choice?",
-          "es": "¿Son la esposa, su padre, hermano y tutor legalmente equivalentes cuando un esposo delega la elección matrimonial?",
-          "fa": "آیا هنگام واگذاری اختیار انتخاب ازدواج توسط شوهر، همسر، پدر، برادر و ولی او از نظر قانونی برابرند؟",
-          "fr": "La femme, son père, son frère et son tuteur sont-ils légalement équivalents lorsque le mari délègue le choix matrimonial ?",
-          "id": "Apakah istri, ayahnya, saudara laki-lakinya, dan walinya secara hukum setara ketika suami mendelegasikan pilihan pernikahan?",
-          "ru": "Являются ли жена, её отец, брат и опекун юридически равными, когда муж делегирует выбор в браке?",
-          "tr": "Bir koca evlilik seçimini devrettiğinde, eş, babası, kardeşi ve velisi hukuken eşit midir?",
-          "ur": "کیا جب شوہر نکاح کے انتخاب کا اختیار دیتا ہے تو بیوی، اس کے والد، بھائی، اور ولی قانونی طور پر برابر ہوتے ہیں؟",
-          "zh": "当丈夫委托婚姻选择权时，妻子、她的父亲、兄弟和监护人法律上是否等同？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বিবাহ সংক্রান্ত বিষয়ে স্ত্রী বা তার সম্পর্কিত ব্যক্তিদের কাছে পছন্দের অধিকার দেওয়ার আইনি বিধান দেয়। ইমাম عليه السلام বলেন, স্ত্রী সম্মত হলে এই সব বিকল্পের আইনি মর্যাদা সমান।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bezüglich der Übertragung der Wahl in einer Eheangelegenheit an die Ehefrau oder an mit ihr verbundene Personen wie ihren Vater, Bruder oder Vormund. Der Imam عليه السلام erklärt, dass diese Optionen den gleichen rechtlichen Status haben, wenn die Ehefrau zustimmt.",
-          "en": "This hadith gives a legal ruling about delegating the choice in a marital matter to the wife or to those connected to her, such as her father, brother, or guardian. The Imam عليه السلام states that these options carry the same legal standing when the wife is consenting.",
-          "es": "Este hadiz da un fallo legal sobre delegar la elección en un asunto matrimonial a la esposa o a quienes están relacionados con ella, como su padre, hermano o tutor. El Imam عليه السلام afirma que estas opciones tienen el mismo estatus legal cuando la esposa consiente.",
-          "fa": "این حدیث حکم شرعی درباره واگذاری اختیار در مسئله ازدواج به همسر یا افراد مرتبط با او مانند پدر، برادر یا ولی را بیان می‌کند. امام علیه السلام می‌فرماید که این گزینه‌ها در صورت رضایت همسر از نظر قانونی برابرند.",
-          "fr": "Ce hadith donne un jugement légal concernant la délégation du choix dans une affaire matrimoniale à la femme ou à ceux qui lui sont liés, comme son père, son frère ou son tuteur. L’Imam عليه السلام déclare que ces options ont la même valeur légale lorsque la femme consent.",
-          "id": "Hadis ini memberikan hukum tentang mendelegasikan pilihan dalam urusan pernikahan kepada istri atau orang-orang yang terkait dengannya seperti ayah, saudara, atau walinya. Imam عليه السلام menyatakan bahwa opsi-opsi ini memiliki kedudukan hukum yang sama ketika istri setuju.",
-          "ru": "Этот хадис содержит юридическое постановление о передаче выбора в брачном вопросе жене или связанным с ней лицам, таким как отец, брат или опекун. Имам عليه السلام утверждает, что эти варианты имеют одинаковый юридический статус при согласии жены.",
-          "tr": "Bu hadis, evlilik meselesinde karıya veya ona bağlı kişilere seçim hakkı vermekle ilgili hukuki hükmü verir. İmam عليه السلام, eş rıza gösterdiğinde bu seçeneklerin aynı hukuki değere sahip olduğunu belirtir.",
-          "ur": "یہ حدیث نکاح کے معاملے میں بیوی یا اس سے منسلک افراد کو اختیار دینے کے قانونی حکم کے بارے میں ہے۔ امام علیہ السلام فرماتے ہیں کہ جب بیوی راضی ہو تو یہ تمام اختیارات ایک ہی قانونی حیثیت رکھتے ہیں۔",
-          "zh": "这则圣训就将婚姻事务中的选择权委托给妻子或与她相关的人，如父亲、兄弟或监护人，给出了法律裁决。伊玛目 عليه السلام 说明，当妻子同意时，这些选项具有相同的法律地位。"
-        },
         "tags": [
           "jurisprudence",
           "family",

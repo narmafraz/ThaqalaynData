@@ -14,6 +14,130 @@
       "up": "/books/al-kafi:6:8:47"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى عَنْ عَلِيِّ بْنِ الْحَكَمِ عَنْ مُعَاوِيَةَ بْنِ مَيْسَرَةَ عَنِ الْحَكَمِ بْنِ عُتَيْبَةَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 22,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "رَأَيْتُ أَبَا جَعْفَرٍ ( عَلَيْهِ السَّلَامُ ) وَ قَدْ أَخَذَ الْحِنَّاءَ وَ جَعَلَهُ عَلَى أَظَافِيرِهِ فَقَالَ يَا حَكَمُ مَا تَقُولُ فِي هَذَا فَقُلْتُ مَا عَسَيْتُ أَنْ أَقُولَ فِيهِ وَ أَنْتَ تَفْعَلُهُ وَ إِنَّ عِنْدَنَا يَفْعَلُهُ الشُّبَّانُ فَقَالَ يَا حَكَمُ إِنَّ الْأَظَافِيرَ إِذَا أَصَابَتْهَا النُّورَةُ غَيَّرَتْهَا حَتَّى تُشْبِهَ أَظَافِيرَ الْمَوْتَى فَغَيِّرْهَا بِالْحِنَّاءِ .",
+            "chunk_type": "body",
+            "word_end": 74,
+            "word_start": 22
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 13,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى",
+              "name_en": "Ahmad ibn Muhammad ibn Isa",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 15,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ الْحَكَمِ",
+              "name_en": "'Ali ibn al-Hakam",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 728,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُعَاوِيَةَ بْنِ مَيْسَرَةَ",
+              "name_en": "Muawiya b. Maysara",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 463,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحَكَمِ بْنِ عُتَيْبَةَ",
+              "name_en": "al-Hakam b. Utaiba",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الْحِنَّاء",
+          "النُّورَةُ",
+          "أَظَافِير",
+          "أَظَافِيرَ الْمَوْتَى"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:31",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "24:31",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "ethics",
+          "social_relations"
+        ],
+        "topics": [
+          "etiquette",
+          "sunnah",
+          "imams_biography"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (22/413)"
       ],
@@ -85,7 +209,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:8:47:2",

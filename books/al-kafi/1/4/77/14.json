@@ -21,42 +21,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "سَنَةِ تِسْعٍ وَسَبْعِينَ وَمِائَتَيْنِ، عَنْ مُحَمَّدِ بْنِ عَبْدِ الرَّحْمَنِ الْعَبْدِيِّ، عَنْ ضَوْءِ بْنِ عَلِيٍّ الْعِجْلِيِّ، عَنْ رَجُلٍ مِنْ أَهْلِ فَارِسَ سَمَّاهُ،",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "দুইশ ঊনআশি সালে, মুহাম্মদ ইবন আবদুর রহমান আল-আবদী থেকে, দাও’ ইবন আলী আল-ইজলী থেকে, ফারসের লোকদের মধ্যে একজন ব্যক্তির কাছ থেকে, যার নাম সে উল্লেখ করেছিল,",
-              "de": "Im Jahr zweihundertneunundsiebzig, von Muḥammad ibn ʿAbd al-Raḥmān al-ʿAbdī, von Ḍawʾ ibn ʿAlī al-ʿIjlī, von einem Mann aus den Leuten von Fāris, den er nannte,",
-              "en": "In the year two hundred and seventy-nine, from Muḥammad ibn ʿAbd al-Raḥmān al-ʿAbdī, from Ḍawʾ ibn ʿAlī al-ʿIjlī, from a man from the people of Fāris whom he named,",
-              "es": "En el año doscientos setenta y nueve, de Muhammad ibn ʿAbd al-Raḥmān al-ʿAbdī, de Ḍawʾ ibn ʿAlī al-ʿIjlī, de un hombre de la gente de Fāris a quien nombró,",
-              "fa": "در سال دویست و هفتاد و نه، از محمد بن عبدالرحمن العبدی، از ضوء بن علی العجلی، از مردی از اهل فارس که او نامش را برد،",
-              "fr": "En l’an deux cent soixante-dix-neuf, de Muḥammad ibn ʿAbd al-Raḥmān al-ʿAbdī, de Ḍawʾ ibn ʿAlī al-ʿIjlī, d’un homme parmi les gens de Fāris qu’il nomma,",
-              "id": "Pada tahun dua ratus tujuh puluh sembilan, dari Muhammad ibn Abd al-Rahman al-Abdi, dari Daw' ibn Ali al-Ijli, dari seorang laki-laki dari penduduk Fars yang ia sebut namanya,",
-              "ru": "В году двести семьдесят девятом, от Мухаммада ибн ʿАбд ар-Рахмана аль-ʿАбди, от Ḍawʾ ибн ʿАли аль-ʿИджли, от человека из жителей Фариса, которого он назвал,",
-              "tr": "İki yüz yetmiş dokuz yılında, Muhammed ibn Abdurrahman el-Abdî’den, Davʾ ibn Ali el-İclî’den, adını zikrettiği Fars halkından bir adamdan,",
-              "ur": "سال دو سو اناسی میں، محمد بن عبد الرحمن العبدی سے، ضوء بن علی العجلی سے، فارس کے لوگوں میں سے ایک شخص سے، جس کا اس نے نام لیا،",
-              "zh": "在二百七十九年，传自穆罕默德·伊本·阿卜杜·拉赫曼·阿卜迪，传自Ḍawʾ·伊本·阿里·伊吉利，传自一位他所提及的法尔斯人，"
-            },
             "word_end": 21,
             "word_start": 0
           },
           {
             "arabic_text": "أَنَّ أَبَا مُحَمَّدٍ أَرَاهُ إِيَّاهُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে আবু মুহাম্মদ عليه السلام তাকে তার কাছে দেখিয়েছিলেন।",
-              "de": "dass Abū Muḥammad عليه السلام ihn ihm zeigte.",
-              "en": "that Abū Muḥammad عليه السلام showed him to him.",
-              "es": "que Abū Muḥammad عليه السلام se lo mostró.",
-              "fa": "که ابومحمد علیه السلام او را به او نشان داد.",
-              "fr": "qu’Abū Muḥammad عليه السلام le le montra.",
-              "id": "bahwa Abu Muhammad عليه السلام memperlihatkannya kepadanya.",
-              "ru": "что Абу Мухаммад عليه السلام показал его ему.",
-              "tr": "ki Ebû Muhammed عليه السلام onu ona gösterdi.",
-              "ur": "کہ ابو محمد علیہ السلام نے اسے اسے دکھایا۔",
-              "zh": "阿布·穆罕默德 عليه السلام把他给他看了。"
-            },
             "word_end": 26,
             "word_start": 21
           }
@@ -99,54 +86,16 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبَا مُحَمَّدٍ": "Abū Muḥammad عليه السلام, the Imam referred to in the report",
-            "أَرَاهُ": "he showed him",
-            "أَهْلِ فَارِسَ": "a person belonging to the people of Persia",
-            "رَجُلٍ": "an unnamed male narrator",
-            "سَنَةِ": "the date or year in which the transmission occurred",
-            "ضَوْءِ بْنِ عَلِيٍّ الْعِجْلِيِّ": "a transmitter in the sanad/isnad",
-            "مُحَمَّدِ بْنِ عَبْدِ الرَّحْمَنِ الْعَبْدِيِّ": "a transmitter in the sanad/isnad"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "سَنَةِ",
+          "مُحَمَّدِ بْنِ عَبْدِ الرَّحْمَنِ الْعَبْدِيِّ",
+          "ضَوْءِ بْنِ عَلِيٍّ الْعِجْلِيِّ",
+          "رَجُلٍ",
+          "أَهْلِ فَارِسَ",
+          "أَبَا مُحَمَّدٍ",
+          "أَرَاهُ"
+        ],
         "related_quran": [],
-        "seo_questions": {
-          "bn": "আবু মুহাম্মদ عليه السلام যে ফারসি ব্যক্তিকে তাকে দেখিয়েছিলেন, তিনি কে ছিলেন?",
-          "de": "Wer war der persische Mann, den Abū Muḥammad عليه السلام ihm zeigte?",
-          "en": "Who was the Persian man in the chain whom Abū Muḥammad عليه السلام showed him to?",
-          "es": "¿Quién era el hombre persa que Abū Muḥammad عليه السلام le mostró?",
-          "fa": "آن مرد فارسی که ابومحمد علیه السلام او را به او نشان داد، چه کسی بود؟",
-          "fr": "Qui était l’homme persan qu’Abū Muḥammad عليه السلام lui montra ?",
-          "id": "Siapakah laki-laki Persia yang diperlihatkan kepadanya oleh Abu Muhammad عليه السلام?",
-          "ru": "Кто был тот персидский человек, которого Абу Мухаммад عليه السلام показал ему?",
-          "tr": "Ebû Muhammed عليه السلام’in ona gösterdiği Farslı adam kimdi?",
-          "ur": "وہ فارسی شخص کون تھا جسے ابو محمد علیہ السلام نے دکھایا؟",
-          "zh": "阿布·穆罕默德 عليه السلام给他看的是哪位波斯人？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনাটি সনদের একটি অংশ এবং ফারসের এক নামোল্লেখিত ব্যক্তির সম্পর্কে সংক্ষিপ্ত বক্তব্য সংরক্ষণ করে, যাকে আবু মুহাম্মদ عليه السلام তার কাছে দেখিয়েছিলেন। এর তাৎপর্য ঐতিহাসিক ও জীবনীমূলক, কারণ এটি বর্ণনা-রেকর্ডে তাঁর সাক্ষাতের সঙ্গে যুক্ত ব্যক্তিদের শনাক্ত করার সঙ্গে সম্পর্কিত।",
-          "de": "Dieser Bericht bewahrt einen Teil eines sanad/isnad und eine kurze Aussage über einen namentlich genannten persischen Mann, den Abū Muḥammad عليه السلام ihm zeigte. Seine Bedeutung ist historisch und biografisch, da er mit der Identifizierung derjenigen zusammenhängt, die im Überlieferungsbericht mit seinem Sehen verbunden waren.",
-          "en": "This report preserves part of a sanad/isnad and a brief statement concerning a named Persian man who was shown the Imam by Abū Muḥammad عليه السلام. Its significance is historical and biographical, as it relates to identifying those connected to seeing him within the transmission record.",
-          "es": "Este informe conserva parte de un sanad/isnad y una breve declaración acerca de un hombre persa nombrado, a quien Abū Muḥammad عليه السلام le mostró. Su importancia es histórica y biográfica, pues se relaciona con la identificación de quienes estuvieron vinculados con verlo dentro del registro de transmisión.",
-          "fa": "این گزارش بخشی از یک سند و سخنی کوتاه درباره مردی نام‌برده از اهل فارس را حفظ می‌کند که ابومحمد علیه السلام او را به وی نشان داد. اهمیت آن تاریخی و رجالی است، زیرا به شناسایی کسانی مربوط می‌شود که در ثبت روایت با دیدار او پیوند داشته‌اند.",
-          "fr": "Ce rapport conserve une partie d’un sanad/isnad et une brève mention concernant un homme persan nommé, qu’Abū Muḥammad عليه السلام lui montra. Son importance est historique et biographique, car elle concerne l’identification de ceux qui furent liés au fait de le voir dans le registre de transmission.",
-          "id": "Riwayat ini memelihara sebagian sanad dan pernyataan singkat tentang seorang laki-laki Persia yang disebut namanya, yang diperlihatkan kepadanya oleh Abu Muhammad عليه السلام. Signifikansinya bersifat historis dan biografis, karena berkaitan dengan identifikasi orang-orang yang terhubung dengan melihat beliau dalam catatan transmisi.",
-          "ru": "Этот рассказ сохраняет часть иснада и краткое сообщение о названном персидском человеке, которого Абу Мухаммад عليه السلام показал ему. Его значение историческое и биографическое, поскольку оно связано с установлением тех, кто был связан с его видением в передаточной записи.",
-          "tr": "Bu rivayet, isnadın bir kısmını ve Ebû Muhammed عليه السلام tarafından kendisine gösterilen adı belirtilmiş bir Farslı adamla ilgili kısa bir ifadeyi korur. Bunun önemi tarihî ve biyografiktir; çünkü rivayet kaydında onu görmeyle bağlantılı olanların kimliğinin belirlenmesiyle ilgilidir.",
-          "ur": "یہ روایت سند کے ایک حصے اور فارس کے ایک نامزد شخص کے بارے میں مختصر بیان کو محفوظ کرتی ہے، جسے ابو محمد علیہ السلام نے دکھایا۔ اس کی اہمیت تاریخی اور سوانحی ہے، کیونکہ یہ روایت کے ریکارڈ میں ان لوگوں کی شناخت سے متعلق ہے جن کا ان کی زیارت سے تعلق تھا۔",
-          "zh": "这段传述保留了一部分sanad/isnad，以及关于一位被点名的波斯男子的简短说明，AbuMuhammad عليه السلام把他给他看了。其意义在于历史和传记层面，因为它涉及在传承记录中与见到他有关之人的辨识。"
-        },
         "tags": [
           "history",
           "knowledge",

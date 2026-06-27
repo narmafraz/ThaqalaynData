@@ -15,6 +15,123 @@
       "up": "/books/al-kafi:8:1:46"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "أَبَانٌ عَنْ فُضَيْلٍ وَ عُبَيْدٍ عَنْ أَبِي عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 12,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "لَمَّا حَضَرَ مُحَمَّدَ بْنَ أُسَامَةَ الْمَوْتُ دَخَلَتْ عَلَيْهِ بَنُو هَاشِمٍ فَقَالَ لَهُمْ قَدْ عَرَفْتُمْ قَرَابَتِي وَ مَنْزِلَتِي مِنْكُمْ وَ عَلَيَّ دَيْنٌ فَأُحِبُّ أَنْ تَضْمَنُوهُ عَنِّي فَقَالَ عَلِيُّ بْنُ الْحُسَيْنِ (عَلَيْهِ السَّلَامُ) أَمَا وَ اللَّهِ ثُلُثُ دَيْنِكَ عَلَيَّ ثُمَّ سَكَتَ وَ سَكَتُوا فَقَالَ عَلِيُّ بْنُ الْحُسَيْنِ (عَلَيْهِ السَّلَامُ) عَلَيَّ دَيْنُكَ كُلُّهُ ثُمَّ قَالَ عَلِيُّ بْنُ الْحُسَيْنِ (عَلَيْهِ السَّلَامُ) أَمَا إِنَّهُ لَمْ يَمْنَعْنِي أَنْ أَضْمَنَهُ أَوَّلًا إِلَّا كَرَاهِيَةَ أَنْ يَقُولُوا سَبَقَنَا.",
+            "chunk_type": "body",
+            "word_end": 81,
+            "word_start": 12
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 46,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبَانٌ",
+              "name_en": "Aban",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 360,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "فُضَيْلٍ",
+              "name_en": "Fudayl",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1550,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عُبَيْدٍ",
+              "name_en": "Ubayd",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ (عليه السلام)",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "قَرَابَة",
+          "مَنْزِلَة",
+          "دَيْن",
+          "ضَمَان",
+          "كَرَاهِيَة",
+          "سَبَقَنَا"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:54",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:264",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "social_relations",
+          "economy"
+        ],
+        "topics": [
+          "imams_biography",
+          "financial_law",
+          "etiquette",
+          "kinship"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> موثق</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 484)",
         "Shaykh Baqir al-Behbudi: <span>صحيح</span> - Sahih al-Kafi (3 / 406)"
@@ -82,7 +199,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:46:38",

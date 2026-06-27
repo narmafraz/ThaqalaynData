@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তিনি, তাঁর উপর শান্তি বর্ষিত হোক, বললেন:",
-              "de": "Und er, Friede sei mit ihm, sagte:",
-              "en": "And he, peace be upon him, said:",
-              "es": "Y él, la paz sea con él, dijo:",
-              "fa": "و او، علیه السلام، فرمود:",
-              "fr": "Et lui, paix soit sur lui, a dit :",
-              "id": "Dan beliau, semoga keselamatan atasnya, berkata:",
-              "ru": "И он, мир ему, сказал:",
-              "tr": "Ve o, aleyhisselam, dedi ki:",
-              "ur": "اور انہوں نے، علیہ السلام، فرمایا:",
-              "zh": "他，愿他安息，说："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "«شَابٌّ سَخِيٌّ مُرَهَّقٌ فِي الذُّنُوبِ أَحَبُّ إِلَى اللَّهِ عَزَّ وَ جَلَّ مِنْ شَيْخٍ عَابِدٍ بَخِيلٍ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“একজন তরুণ যিনি উদার, যদিও পাপে ডুবে থাকেন, তিনি আল্লাহ, জাল্ল ও আজ্জাল-এর কাছে একজন কৃপণ বৃদ্ধ উপাসক থেকে বেশি প্রিয়।”",
-              "de": "„Ein junger Mensch, der großzügig ist, obwohl er von Sünden überwältigt wird, ist Allah, dem Mächtigen und Erhabenen, lieber als ein alter, geiziger Anbeter.“",
-              "en": "\"A young person who is generous, though overwhelmed by sins, is more beloved to Allah, Mighty and Majestic, than an old worshipper who is stingy.\"",
-              "es": "“Un joven generoso, aunque abrumado por los pecados, es más amado por Allah, el Poderoso y Majestuoso, que un anciano adorador tacaño.”",
-              "fa": "«جوانی که بخشنده است، هرچند در گناهان غرق باشد، نزد خداوند عزّوجلّ محبوب‌تر از پیرمرد عابدی است که بخیل باشد.»",
-              "fr": "«Un jeune généreux, bien qu'accablé de péchés, est plus aimé d'Allah, le Puissant et Majestueux, qu'un vieil adorateur avare.»",
-              "id": "“Seorang pemuda yang dermawan, meskipun terbebani dosa, lebih dicintai oleh Allah Yang Maha Perkasa dan Maha Agung daripada seorang penyembah tua yang kikir.”",
-              "ru": "«Молодой человек, щедрый, хотя и обременённый грехами, более любим Аллахом, Великим и Великолепным, чем старый скупой богобоязненный.»",
-              "tr": "“Günahlarla dolu olsa da cömert bir genç, cimri yaşlı bir ibadetçiden Allah, Azze ve Celle katında daha sevimlidir.”",
-              "ur": "‘‘ایک نوجوان جو سخی ہے، اگرچہ گناہوں میں مبتلا ہو، اللہ تعالیٰ کے نزدیک ایک بوڑھے کنجوس عابد سے زیادہ محبوب ہے۔’’",
-              "zh": "“一个慷慨的年轻人，尽管被罪恶压倒，在全能尊贵的安拉眼中，比一个吝啬的年长崇拜者更受喜爱。”"
-            },
             "word_end": 19,
             "word_start": 4
           }
@@ -81,28 +68,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَحَبُّ": "more beloved",
-            "الذُّنُوبِ": "sins",
-            "بَخِيلٍ": "stingy or miserly",
-            "سَخِيٌّ": "generous and open-handed",
-            "شَابٌّ": "a young person",
-            "شَيْخٍ": "an old man or elderly person",
-            "عَابِدٍ": "a devoted worshipper",
-            "مُرَهَّقٌ": "burdened or overwhelmed"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "شَابٌّ",
+          "سَخِيٌّ",
+          "مُرَهَّقٌ",
+          "الذُّنُوبِ",
+          "أَحَبُّ",
+          "شَيْخٍ",
+          "عَابِدٍ",
+          "بَخِيلٍ"
+        ],
         "related_quran": [
           {
             "ref": "3:92",
@@ -117,32 +92,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কেন একজন উদার তরুণ পাপী আল্লাহর কাছে একজন কৃপণ বৃদ্ধ উপাসকের চেয়ে বেশি প্রিয়?",
-          "de": "Warum ist ein großzügiger junger Sünder bei Allah beliebter als ein geiziger alter Anbeter?",
-          "en": "Why is a generous young sinner more beloved to Allah than a stingy old worshipper?",
-          "es": "¿Por qué un joven pecador generoso es más amado por Allah que un anciano adorador tacaño?",
-          "fa": "چرا یک جوان بخشنده گناهکار نزد خداوند محبوب‌تر از یک پیرمرد عابد بخیل است؟",
-          "fr": "Pourquoi un jeune pécheur généreux est-il plus aimé d'Allah qu'un vieil adorateur avare ?",
-          "id": "Mengapa seorang pemuda pendosa yang dermawan lebih dicintai Allah daripada penyembah tua yang kikir?",
-          "ru": "Почему щедрый молодой грешник более любим Аллахом, чем скупой старый богобоязненный?",
-          "tr": "Neden cömert bir genç günahkar, cimri yaşlı bir ibadetçiden Allah katında daha sevimlidir?",
-          "ur": "ایک سخی نوجوان گناہ گار اللہ کے نزدیک کنجوس بوڑھے عابد سے زیادہ محبوب کیوں ہے؟",
-          "zh": "为什么一个慷慨的年轻罪人比一个吝啬的年长崇拜者更受安拉喜爱？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস উদারতার মহান নৈতিক মূল্য শেখায় এবং দেখায় যে কৃপণতা বাহ্যিক ইবাদতের মূল্যকে গুরুতরভাবে হ্রাস করতে পারে। এটি জোর দেয় যে আল্লাহ عزَّ وَ جَلَّ মহৎ চরিত্রকে ভালোবাসেন, এবং আন্তরিক উদারতা প্রচুর ইবাদতের তুলনায় বেশি প্রিয় হতে পারে যা কৃপণতার সাথে থাকে।",
-          "de": "Dieser Hadith lehrt den großen moralischen Wert der Großzügigkeit und zeigt, dass Geiz den Wert äußerer Anbetung stark mindern kann. Er betont, dass Allah عزَّ وَ جَلَّ edlen Charakter liebt und dass aufrichtige Großzügigkeit mehr geliebt werden kann als reichliche Anbetung, die von Geiz begleitet wird.",
-          "en": "This hadith teaches the great moral value of generosity and shows that miserliness can severely diminish the worth of outward worship. It emphasizes that Allah عَزَّ وَ جَلَّ loves noble character, and that sincere generosity may be more beloved than abundant worship accompanied by stinginess.",
-          "es": "Este hadiz enseña el gran valor moral de la generosidad y muestra que la avaricia puede disminuir severamente el valor de la adoración externa. Enfatiza que Allah عزَّ وَ جَلَّ ama el carácter noble, y que la generosidad sincera puede ser más amada que la abundante adoración acompañada de tacañería.",
-          "fa": "این حدیث ارزش اخلاقی بزرگ سخاوت را آموزش می‌دهد و نشان می‌دهد که بخیل بودن می‌تواند ارزش عبادت ظاهری را به شدت کاهش دهد. تأکید می‌کند که خداوند عزّوجلّ شخصیت شریف را دوست دارد و سخاوت خالصانه ممکن است محبوب‌تر از عبادت فراوان همراه با بخیل بودن باشد.",
-          "fr": "Ce hadith enseigne la grande valeur morale de la générosité et montre que l'avarice peut gravement diminuer la valeur de l'adoration extérieure. Il souligne qu'Allah عزَّ وَ جَلَّ aime le caractère noble, et que la générosité sincère peut être plus aimée que l'adoration abondante accompagnée d'avarice.",
-          "id": "Hadis ini mengajarkan nilai moral besar dari kemurahan hati dan menunjukkan bahwa kikir dapat sangat mengurangi nilai ibadah lahiriah. Ini menekankan bahwa Allah عَزَّ وَ جَلَّ mencintai akhlak mulia, dan kemurahan hati yang tulus mungkin lebih dicintai daripada ibadah yang banyak disertai kikir.",
-          "ru": "Этот хадис учит великой моральной ценности щедрости и показывает, что скупость может значительно уменьшить ценность внешнего поклонения. Он подчеркивает, что Аллах عزَّ وَ جَلَّ любит благородный характер, и что искренняя щедрость может быть более любимой, чем обильное поклонение, сопровождаемое скупостью.",
-          "tr": "Bu hadis cömertliğin büyük ahlaki değerini öğretir ve cimriliğin dışsal ibadetin değerini ciddi şekilde azaltabileceğini gösterir. Allah Azze ve Celle'nin asil karakteri sevdiğini ve samimi cömertliğin, cimrilikle birlikte bol ibadetten daha sevgili olabileceğini vurgular.",
-          "ur": "یہ حدیث سخاوت کی عظیم اخلاقی قدر سکھاتی ہے اور دکھاتی ہے کہ کنجوسی ظاہری عبادت کی قدر کو شدید متاثر کر سکتی ہے۔ یہ اس بات پر زور دیتی ہے کہ اللہ عز وجل نیک کردار سے محبت کرتا ہے، اور مخلصانہ سخاوت کثرت عبادت کے ساتھ کنجوسی سے زیادہ محبوب ہو سکتی ہے۔",
-          "zh": "这段圣训教导了慷慨的伟大道德价值，并表明吝啬会严重降低外在崇拜的价值。它强调安拉 عزَّ وَ جَلَّ 喜爱高尚品格，真诚的慷慨可能比伴随吝啬的丰富崇拜更受喜爱。"
-        },
         "tags": [
           "ethics",
           "worship",

@@ -14,6 +14,134 @@
       "up": "/books/al-kafi:2:1:69"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ مُحَمَّدِ بْنِ عِيسَى عَنْ يُونُسَ بْنِ عَبْدِ الرَّحْمَنِ عَنْ عَمْرٍو بْنِ شِمْرٍ عَنْ جَابِرٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 19,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "أَتَى رَجُلٌ رَسُولَ اللَّهِ (صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ) فَقَالَ إِنِّي رَجُلٌ شَابٌّ نَشِيطٌ وَأُحِبُّ الْجِهَادَ وَلِي وَالِدَةٌ تَكْرَهُ ذَلِكَ فَقَالَ لَهُ النَّبِيُّ (صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ) ارْجِعْ فَكُنْ مَعَ وَالِدَتِكَ فَوَالَّذِي بَعَثَنِي بِالْحَقِّ نَبِيّاً لَأُنْسُهَا بِكَ لَيْلَةً خَيْرٌ مِنْ جِهَادِكَ فِي سَبِيلِ اللَّهِ سَنَةً",
+            "chunk_type": "body",
+            "word_end": 65,
+            "word_start": 19
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 27,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ عِيسَى",
+              "name_en": "Muhammad ibn Isa",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 146,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "يُونُسَ بْنِ عَبْدِ الرَّحْمَنِ",
+              "name_en": "Yunus ibn 'Abd al-Rahman",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 117,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَمْرِو بْنِ شِمْرٍ",
+              "name_en": "Amru ibn Shimr",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 72,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "جَابِرٍ",
+              "name_en": "Jabir",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "quranic_echo",
+            "phrase_ar": "سَبِيلُ اللَّهِ",
+            "phrase_en": "The way of Allah"
+          }
+        ],
+        "key_terms_keys": [
+          "جِهَاد",
+          "وَالِدَةٌ",
+          "لَأُنْسُهَا بِكَ",
+          "سَنَةً"
+        ],
+        "related_quran": [
+          {
+            "ref": "31:14",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "17:23",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "17:24",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "family",
+          "prophetic_tradition"
+        ],
+        "topics": [
+          "parenting",
+          "spousal_rights",
+          "prophetic_character"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (429/ 8)"
       ],
@@ -85,7 +213,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:1:69:20",

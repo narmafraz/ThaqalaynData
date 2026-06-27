@@ -14,6 +14,116 @@
       "up": "/books/al-kafi:7:2:38"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَنْهُ عَنْ مُوسَى بْنِ بَكْرٍ عَنْ عَبْدِ اللَّهِ بْنِ أَعْيَنَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 11,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قُلْتُ لِأَبِي جَعْفَرٍ ( عَلَيْهِ السَّلَامُ ) جُعِلْتُ فِدَاكَ النَّصْرَانِيُّ يَمُوتُ وَ لَهُ ابْنٌ مُسْلِمٌ أَ يَرِثُهُ قَالَ فَقَالَ نَعَمْ إِنَّ اللَّهَ عَزَّ وَ جَلَّ لَمْ يَزِدْهُ بِالْإِسْلَامِ إِلَّا عِزّاً فَنَحْنُ نَرِثُهُمْ وَ لَا يَرِثُونَنَا",
+            "chunk_type": "body",
+            "word_end": 46,
+            "word_start": 11
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 11,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَنْهُ",
+              "name_en": "from him",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 96,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُوسَى بْنِ بَكْرٍ",
+              "name_en": "Musa ibn Bakr",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1529,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللَّهِ بْنِ أَعْيَنَ",
+              "name_en": "Abd Allah b. A'yan",
+              "position": 3,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "النَّصْرَانِيُّ",
+          "يَرِثُهُ",
+          "الْإِسْلَامِ",
+          "عِزّاً",
+          "نَرِثُهُمْ",
+          "لَا يَرِثُونَنَا"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:221",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "5:5",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "9:28",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family",
+          "social_relations"
+        ],
+        "topics": [
+          "inheritance",
+          "halal_haram",
+          "imams_biography"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف على المشهور    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (23/213)"
       ],
@@ -72,7 +182,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:7:2:38:4",

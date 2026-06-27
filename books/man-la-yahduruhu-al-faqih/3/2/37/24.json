@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ :",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আমীরুল মুমিনীন عليه السلام বললেন:",
-              "de": "Amir al-Mu'minin عليه السلام sagte:",
-              "en": "Amir al-Mu'minin عليه السلام said:",
-              "es": "Amir al-Mu'minin عليه السلام dijo:",
-              "fa": "امیرالمؤمنین علیه السلام فرمود:",
-              "fr": "Amir al-Mu'minin عليه السلام a dit :",
-              "id": "Amir al-Mu'minin عليه السلام berkata:",
-              "ru": "Амир аль-Муминин عليه السلام сказал:",
-              "tr": "Emirü'l-Müminin عليه السلام şöyle dedi:",
-              "ur": "امیرالمؤمنین علیہ السلام نے فرمایا:",
-              "zh": "阿米尔穆明宁عليهالسلام说："
-            },
             "word_end": 7,
             "word_start": 0
           },
           {
             "arabic_text": "اِبْدَءُوا بِالْمِلْحِ فِي أَوَّلِ الطَّعَامِ فَلَوْ عَلِمَ النَّاسُ مَا فِي الْمِلْحِ لَاخْتَارُوهُ عَلَى التِّرْيَاقِ الْمُجَرَّبِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "খাবারের শুরুতে লবণ দিয়ে শুরু করুন, কারণ যদি মানুষ জানত লবণের মধ্যে কী আছে, তারা পরীক্ষিত ওষুধের চেয়ে এটিকে পছন্দ করত।",
-              "de": "Beginnt mit Salz zu Beginn der Mahlzeit, denn wenn die Menschen wüssten, was im Salz ist, würden sie es dem erprobten Heilmittel vorziehen.",
-              "en": "Begin with salt at the start of the meal, for if people knew what is in salt, they would prefer it over the tried remedy.",
-              "es": "Comiencen con sal al inicio de la comida, porque si la gente supiera lo que hay en la sal, la preferirían sobre el remedio probado.",
-              "fa": "با نمک در آغاز غذا شروع کنید، زیرا اگر مردم می‌دانستند در نمک چه هست، آن را بر داروی آزمایش شده ترجیح می‌دادند.",
-              "fr": "Commencez par le sel au début du repas, car si les gens savaient ce qu'il y a dans le sel, ils le préféreraient au remède éprouvé.",
-              "id": "Mulailah dengan garam di awal makanan, karena jika orang tahu apa yang ada dalam garam, mereka akan memilihnya daripada obat yang sudah terbukti.",
-              "ru": "Начинайте с соли в начале еды, ибо если бы люди знали, что в соли, они предпочли бы её проверенному средству.",
-              "tr": "Yemek başında tuzla başlayın, çünkü insanlar tuzun içinde ne olduğunu bilseler, denenmiş ilaca tercih ederlerdi.",
-              "ur": "کھانے کے آغاز میں نمک سے شروع کریں، کیونکہ اگر لوگ نمک میں موجود چیز کو جانتے تو وہ آزمودہ علاج کے بجائے اسے ترجیح دیتے۔",
-              "zh": "在饭菜开始时先用盐，因为如果人们知道盐中有什么，他们会选择它而不是经过验证的药物。"
-            },
             "word_end": 22,
             "word_start": 7
           }
@@ -81,27 +68,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَمِيرُ الْمُؤْمِنِينَ": "the title of Imam Ali عليه السلام, Commander of the Faithful",
-            "أَوَّلِ": "the first part or beginning",
-            "التِّرْيَاقِ": "an antidote or remedy",
-            "الطَّعَامِ": "the meal or food",
-            "الْمُجَرَّبِ": "tried, tested, or proven by experience",
-            "الْمِلْحِ": "salt, recommended here at the beginning of eating",
-            "اِبْدَءُوا": "begin; a directive to start in this manner"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَمِيرُ الْمُؤْمِنِينَ",
+          "اِبْدَءُوا",
+          "الْمِلْحِ",
+          "أَوَّلِ",
+          "الطَّعَامِ",
+          "التِّرْيَاقِ",
+          "الْمُجَرَّبِ"
+        ],
         "related_quran": [
           {
             "ref": "16:114",
@@ -112,32 +87,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "আমীরুল মুমিনীন আলী ইবনে আবি তালিব عليه السلام খাবারের শুরুতে লবণ নিয়ে কী বলেন?",
-          "de": "Was sagt Amir al-Mu'minin Ali ibn Abi Talib عليه السلام zum Beginn der Mahlzeit mit Salz?",
-          "en": "What does Amir al-Mu'minin Ali ibn Abi Talib عليه السلام say about beginning food with salt?",
-          "es": "¿Qué dice Amir al-Mu'minin Ali ibn Abi Talib عليه السلام sobre comenzar la comida con sal?",
-          "fa": "امیرالمؤمنین علی ابن ابی طالب علیه السلام درباره شروع غذا با نمک چه می‌گوید؟",
-          "fr": "Que dit Amir al-Mu'minin Ali ibn Abi Talib عليه السلام à propos de commencer la nourriture avec du sel ?",
-          "id": "Apa yang dikatakan Amir al-Mu'minin Ali ibn Abi Talib عليه السلام tentang memulai makanan dengan garam?",
-          "ru": "Что говорит Амир аль-Муминин Али ибн Аби Талиб عليه السلام о начале еды с солью?",
-          "tr": "Emirü'l-Müminin Ali ibn Ebi Talib عليه السلام yemek başında tuzla başlamak hakkında ne diyor?",
-          "ur": "امیرالمؤمنین علی ابن ابی طالب علیہ السلام کھانے کے آغاز میں نمک کے بارے میں کیا فرماتے ہیں؟",
-          "zh": "阿米尔穆明宁阿里伊本阿比塔利卜عليهالسلام关于以盐开始食物说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি আমীরুল মুমিনীন عليه السلام থেকে খাওয়ার শিষ্টাচার শেখায়: খাবারের শুরুতে লবণ দিয়ে শুরু করা। এটি লবণের এমন একটি উপকারিতা উপস্থাপন করে যা এত গুরুত্বপূর্ণ যে, যদি মানুষ সত্যিই জানত, তারা পরীক্ষিত ওষুধের চেয়ে এটিকে পছন্দ করত।",
-          "de": "Dieser Hadith von Amir al-Mu'minin عليه السلام lehrt eine Essensetikette: die Mahlzeit mit Salz zu beginnen. Salz wird als so vorteilhaft dargestellt, dass die Menschen es einem bewährten Heilmittel vorziehen würden, wenn sie es wirklich wüssten.",
-          "en": "This hadith from Amir al-Mu'minin عليه السلام teaches an etiquette of eating: beginning the meal with salt. It presents salt as possessing benefit so significant that, if people truly knew it, they would prefer it over a proven remedy.",
-          "es": "Este hadiz de Amir al-Mu'minin عليه السلام enseña una etiqueta para comer: comenzar la comida con sal. Presenta la sal como poseedora de un beneficio tan significativo que, si la gente realmente lo supiera, la preferirían sobre un remedio probado.",
-          "fa": "این حدیث از امیرالمؤمنین علیه السلام آداب خوردن را آموزش می‌دهد: شروع غذا با نمک. نمک را به عنوان ماده‌ای با فایده‌ای بسیار مهم معرفی می‌کند که اگر مردم واقعاً می‌دانستند، آن را بر داروی آزمایش شده ترجیح می‌دادند.",
-          "fr": "Ce hadith d'Amir al-Mu'minin عليه السلام enseigne une étiquette alimentaire : commencer le repas par du sel. Il présente le sel comme possédant un bénéfice si important que, si les gens le savaient vraiment, ils le préféreraient à un remède éprouvé.",
-          "id": "Hadis ini dari Amir al-Mu'minin عليه السلام mengajarkan adab makan: memulai makanan dengan garam. Garam dianggap memiliki manfaat yang sangat besar sehingga jika orang benar-benar mengetahuinya, mereka akan memilihnya daripada obat yang sudah terbukti.",
-          "ru": "Этот хадис от Амир аль-Муминина عليه السلام учит этикету еды: начинать трапезу с соли. Соль представлена как обладающая такой значительной пользой, что если бы люди знали это, они предпочли бы её проверенному средству.",
-          "tr": "Bu hadis, Emirü'l-Müminin عليه السلام'den yemek adabını öğretir: yemeğe tuzla başlamak. Tuzun öyle bir faydası olduğunu belirtir ki, insanlar bunu bilseler, denenmiş ilaca tercih ederlerdi.",
-          "ur": "یہ حدیث امیرالمؤمنین علیہ السلام کی طرف سے کھانے کی آداب سکھاتی ہے: کھانے کے آغاز میں نمک سے شروع کرنا۔ یہ نمک کو ایسی اہمیت دیتی ہے کہ اگر لوگ اس کے فوائد کو جان لیں تو وہ اسے آزمودہ علاج پر ترجیح دیں گے۔",
-          "zh": "这段来自阿米尔穆明宁عليهالسلام的圣训教导了用餐礼仪：以盐开始用餐。它将盐描述为具有如此重要的益处，如果人们真正了解，会选择它而非经过验证的疗法。"
-        },
         "tags": [
           "ethics",
           "jurisprudence",

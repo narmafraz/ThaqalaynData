@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنِ ٱبْنِ مَحْبُوبٍ عَنِ ٱبْنِ سِنَانٍ عَنْ أَبِي عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, ইবন মাহবুব থেকে, ইবন সিনান থেকে, আবু আবদিল্লাহ عليه السلام থেকে।",
-              "de": "Von ihm, von Ibn Mahbub, von Ibn Sinan, von Abu Abdillah عليه السلام.",
-              "en": "From him, from Ibn Mahbub, from Ibn Sinan, from Abu Abdillah عليه السلام.",
-              "es": "De él, de Ibn Mahbub, de Ibn Sinan, de Abu Abdillah عليه السلام.",
-              "fa": "از او، از ابن محبوب، از ابن سنان، از ابوعبدالله علیه السلام.",
-              "fr": "De lui, d’Ibn Mahbub, d’Ibn Sinan, d’Abu Abdillah عليه السلام.",
-              "id": "Darinya, dari Ibn Mahbub, dari Ibn Sinan, dari Abu Abdillah عليه السلام.",
-              "ru": "От него, от Ибн Махбуба, от Ибн Синана, от Абу Абдуллаха عليه السلام.",
-              "tr": "Ondan, İbn Mahbub’dan, İbn Sinan’dan, Ebu Abdillah عليه السلام’dan.",
-              "ur": "ان سے، ابن محبوب سے، ابن سنان سے، ابو عبداللہ علیہ السلام سے۔",
-              "zh": "由他传自伊本马赫布卜，传自伊本西南，传自阿布阿卜杜拉 عليه السلام。"
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "أَنَّ أَمِيرَ ٱلْمُؤْمِنِينَ عَلَيْهِ ٱلسَّلَامُ قَضَى بِذَٰلِكَ وَقَالَ: «تُجْلَدُ ثَمَانِينَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তখন আমীরুল মুমিনীন عليه السلام সে অনুযায়ী ফয়সালা করলেন এবং বললেন: “তাকে আশিটি বেত্রাঘাত করা হবে।”",
-              "de": "Dauraufhin entschied Amir al-Mu'minin عليه السلام entsprechend und sagte: „Sie ist mit achtzig Peitschenhieben zu bestrafen.“",
-              "en": "That Amir al-Mu'minin عليه السلام ruled accordingly and said: “She is to be flogged eighty lashes.”",
-              "es": "Entonces Amir al-Mu'minin عليه السلام dictó conforme a ello y dijo: “Se le aplicarán ochenta azotes.”",
-              "fa": "پس امیرالمؤمنین علیه السلام بر همان اساس حکم کرد و فرمود: «او را هشتاد تازیانه بزنند.»",
-              "fr": "Alors Amir al-Mu'minin عليه السلام jugea en conséquence et dit : « Elle recevra quatre-vingts coups de fouet. »",
-              "id": "Maka Amir al-Mu'minin عليه السلام memutuskan demikian dan bersabda: “Ia harus dicambuk delapan puluh kali.”",
-              "ru": "Тогда Амир аль-му’минин عليه السلام вынес решение согласно этому и сказал: «Ей следует нанести восемьдесят ударов плетью».",
-              "tr": "Bunun üzerine Emirü’l-Mü’minin عليه السلام buna göre hükmetti ve şöyle buyurdu: “Ona seksen değnek vurulacaktır.”",
-              "ur": "تو امیرالمؤمنین علیہ السلام نے اسی کے مطابق فیصلہ فرمایا اور فرمایا: “اسے اسی کوڑے لگائے جائیں۔”",
-              "zh": "于是阿米尔·穆民宁 عليه السلام依此裁决，并说：“应当鞭打她八十下。”"
-            },
             "word_end": 23,
             "word_start": 13
           }
@@ -104,57 +91,19 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَمِيرَ ٱلْمُؤْمِنِينَ": "Amir al-Mu'minin, the title of Imam Ali عليه السلام in this report",
-            "بِذَٰلِكَ": "accordingly; with that judgment previously referred to",
-            "تُجْلَدُ": "she is to be flogged",
-            "ثَمَانِينَ": "eighty, specifying the number of lashes",
-            "قَضَى": "issued a legal judgment or ruling"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَمِيرَ ٱلْمُؤْمِنِينَ",
+          "قَضَى",
+          "تُجْلَدُ",
+          "ثَمَانِينَ",
+          "بِذَٰلِكَ"
+        ],
         "related_quran": [
           {
             "ref": "24:2",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই রায়ে আমীরুল মুমিনীন عليه السلام কী শাস্তি নির্ধারণ করেছিলেন?",
-          "de": "Welche Strafe schrieb Amir al-Mu'minin عليه السلام in diesem Urteil vor?",
-          "en": "What punishment did Amir al-Mu'minin عليه السلام prescribe in this ruling?",
-          "es": "¿Qué castigo prescribió Amir al-Mu'minin عليه السلام en este fallo?",
-          "fa": "امیرالمؤمنین علیه السلام در این حکم چه مجازاتی را مقرر فرمود؟",
-          "fr": "Quelle peine Amir al-Mu'minin عليه السلام a-t-il prescrite dans ce jugement ?",
-          "id": "Hukuman apa yang ditetapkan Amir al-Mu'minin عليه السلام dalam keputusan ini?",
-          "ru": "Какое наказание предписал Амир аль-му’минин عليه السلام в этом решении?",
-          "tr": "Emirü’l-Mü’minin عليه السلام bu hükümde hangi cezayı belirledi?",
-          "ur": "امیرالمؤمنین علیہ السلام نے اس فیصلے میں کیا سزا مقرر فرمائی؟",
-          "zh": "阿米尔·穆民宁 عليه السلام在这项裁决中规定了什么惩罚？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে ইমাম আবু আবদিল্লাহ عليه السلام-এর মাধ্যমে বর্ণিত আমীরুল মুমিনীন عليه السلام-এর একটি শরঈ রায় উল্লেখ করা হয়েছে। এতে জিনার হুদূদের অধ্যায়ের পূর্ববর্তী প্রসঙ্গে উল্লিখিত ক্ষেত্রে আশিটি বেত্রাঘাতের হদ্দ নির্ধারণ করা হয়েছে।",
-          "de": "Dieser Hadith überliefert ein rechtliches Urteil von Amir al-Mu'minin عليه السلام, das über Imam Abu Abdillah عليه السلام weitergegeben wurde. Er legt eine Hadd-Strafe von achtzig Peitschenhieben für den im vorherigen Kontext des Kapitels über die Rechtsgrenzen des Zina genannten Fall fest.",
-          "en": "This hadith reports a legal judgment from Amir al-Mu'minin عليه السلام transmitted through Imam Abu Abdillah عليه السلام. It establishes a hadd punishment of eighty lashes in the case referred to by the preceding context of the chapter on the legal limits of zina.",
-          "es": "Este hadiz transmite un fallo jurídico de Amir al-Mu'minin عليه السلام narrado a través del Imam Abu Abdillah عليه السلام. Establece una pena hadd de ochenta azotes en el caso mencionado por el contexto anterior del capítulo sobre los límites legales del zina.",
-          "fa": "این حدیث، حکمی شرعی از امیرالمؤمنین علیه السلام را که از طریق امام ابوعبدالله علیه السلام روایت شده، گزارش می‌کند. این روایت در مورد یادشده در سیاق پیشینِ باب حدود زنا، حدّ هشتاد تازیانه را ثابت می‌کند.",
-          "fr": "Ce hadith rapporte un jugement juridique d’Amir al-Mu'minin عليه السلام transmis par l’imam Abu Abdillah عليه السلام. Il établit une peine de hadd de quatre-vingts coups de fouet dans le cas évoqué par le contexte précédent du chapitre sur les limites légales du zina.",
-          "id": "Hadis ini meriwayatkan sebuah keputusan hukum dari Amir al-Mu'minin عليه السلام yang disampaikan melalui Imam Abu Abdillah عليه السلام. Ini menetapkan hukuman hadd delapan puluh cambukan dalam kasus yang disebutkan oleh konteks sebelumnya pada باب حدود zina.",
-          "ru": "Этот хадис передаёт правовое решение от Амира аль-му’минина عليه السلام, переданное через имама Абу Абдуллаха عليه السلام. В нём устанавливается хадд-наказание в виде восьмидесяти ударов плетью в случае, упомянутом в предыдущем контексте главы о правовых границах зина.",
-          "tr": "Bu hadis, İmam Ebu Abdillah عليه السلام aracılığıyla rivayet edilen, Emirü’l-Mü’minin عليه السلام’a ait bir şer‘î hükmü bildirir. Zina hadleri bölümündeki önceki bağlama göre seksen değnekten oluşan bir hadd cezasını belirler.",
-          "ur": "یہ حدیث امیرالمؤمنین علیہ السلام سے منقول ایک شرعی فیصلہ بیان کرتی ہے، جو امام ابو عبداللہ علیہ السلام کے ذریعے روایت ہوا۔ اس میں زنا کی حدود کے باب کے سابقہ سیاق کے مطابق اسی کوڑوں کی حد مقرر کی گئی ہے۔",
-          "zh": "这段圣训记载了阿米尔·穆民宁 عليه السلام通过伊玛目阿布阿卜杜拉 عليه السلام传述的一项教法裁决。它在前文关于zina法度的章节语境所指的案件中，确立了八十鞭的hadd刑罚。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

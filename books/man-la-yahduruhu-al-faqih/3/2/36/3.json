@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَفِي خَبَرٍ آخَرَ قَالَ الصَّادِقُ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আরেকটি বর্ণনায়, আল-সাদিক عليه السلام বলেছেন:",
-              "de": "Und in einer anderen Überlieferung sagte al-Sadiq عليه السلام:",
-              "en": "And in another narration, al-Sadiq عليه السلام said:",
-              "es": "Y en otra narración, al-Sadiq عليه السلام dijo:",
-              "fa": "و در روایت دیگری، امام الصادق علیه السلام فرمود:",
-              "fr": "Et dans une autre narration, al-Sadiq عليه السلام a dit :",
-              "id": "Dan dalam riwayat lain, al-Sadiq علیه السلام berkata:",
-              "ru": "В другой передаче аль-Садик عليه السلام сказал:",
-              "tr": "Ve başka bir rivayette, el-Sadık عليه السلام şöyle dedi:",
-              "ur": "اور ایک اور روایت میں، امام الصادق علیہ السلام نے فرمایا:",
-              "zh": "在另一则传述中，al-Sadiq عليه السلام说："
-            },
             "word_end": 7,
             "word_start": 0
           },
           {
             "arabic_text": "كُلْ مَا أَكَلَ مِنْهُ الْكَلْبُ وَإِنْ أَكَلَ مِنْهُ ثُلُثَيْهِ كُلْ مَا أَكَلَ الْكَلْبُ وَإِنْ لَمْ يَبْقَ مِنْهُ إِلَّا بَضْعَةٌ وَاحِدَةٌ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "কুকুর যা কিছু খেয়েছে তা খাও, যদিও সে তার দুই-তৃতীয়াংশ খেয়ে ফেলেছে। কুকুর যা কিছু খেয়েছে তা খাও, যদিও তার থেকে মাত্র একটি টুকরা বাকি থাকে।",
-              "de": "Iss, was der Hund gegessen hat, auch wenn er zwei Drittel davon gegessen hat. Iss, was der Hund gegessen hat, auch wenn nur noch ein Stück davon übrig ist.",
-              "en": "Eat whatever the dog has eaten from, even if it has eaten two-thirds of it. Eat whatever the dog has eaten, even if nothing remains of it except a single piece.",
-              "es": "Come lo que el perro haya comido, aunque haya comido dos tercios de ello. Come lo que el perro haya comido, aunque no quede más que un solo pedazo.",
-              "fa": "هرچه سگ خورده است بخور، حتی اگر دو سوم آن را خورده باشد. هرچه سگ خورده است بخور، حتی اگر جز یک تکه از آن باقی نمانده باشد.",
-              "fr": "Mange ce que le chien a mangé, même s'il en a mangé les deux tiers. Mange ce que le chien a mangé, même s'il ne reste qu'un seul morceau.",
-              "id": "Makanlah apa saja yang telah dimakan oleh anjing, meskipun ia telah memakan dua pertiga darinya. Makanlah apa saja yang telah dimakan anjing, meskipun hanya tersisa satu potong darinya.",
-              "ru": "Ешь то, что съела собака, даже если она съела две трети. Ешь то, что съела собака, даже если от этого остался только один кусок.",
-              "tr": "Köpeğin yediği her şeyi ye, hatta iki üçte ikisini yemiş olsa bile. Köpeğin yediği her şeyi ye, geriye sadece bir parça kalsa bile.",
-              "ur": "جو کچھ بھی کتے نے کھایا ہو، کھاؤ، چاہے اس نے اس کا دو تہائی حصہ کھا لیا ہو۔ جو کچھ بھی کتے نے کھایا ہو، کھاؤ، چاہے اس میں سے صرف ایک ٹکڑا باقی بچا ہو۔",
-              "zh": "吃狗吃过的东西，即使它吃了三分之二。吃狗吃过的东西，即使只剩下一小块。"
-            },
             "word_end": 27,
             "word_start": 7
           }
@@ -81,60 +68,22 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَكَلَ": "ate or consumed",
-            "الصَّادِقُ": "Imam Jaʿfar al-Sadiq عليه السلام",
-            "الْكَلْبُ": "the dog used in hunting",
-            "بَضْعَةٌ": "a piece or small portion",
-            "ثُلُثَيْهِ": "two-thirds of it",
-            "خَبَرٍ": "a narration or report",
-            "كُلْ": "eat; an imperative command",
-            "وَاحِدَةٌ": "single or one"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "خَبَرٍ",
+          "الصَّادِقُ",
+          "كُلْ",
+          "أَكَلَ",
+          "الْكَلْبُ",
+          "ثُلُثَيْهِ",
+          "بَضْعَةٌ",
+          "وَاحِدَةٌ"
+        ],
         "related_quran": [
           {
             "ref": "5:4",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কুকুর শিকারের বেশিরভাগ অংশ খেয়ে ফেলে তাহলে শিকারটি কি এখনও হালাল?",
-          "de": "Ist erlegtes Wild noch halal, wenn der Hund den Großteil davon gegessen hat?",
-          "en": "Is hunted game still halal if the dog has eaten from most of it?",
-          "es": "¿Sigue siendo halal la caza si el perro ha comido la mayor parte de ella?",
-          "fa": "آیا شکار خورده شده توسط سگ همچنان حلال است اگر سگ بیشتر آن را خورده باشد؟",
-          "fr": "Le gibier est-il toujours halal si le chien en a mangé la majeure partie ?",
-          "id": "Apakah hewan buruan masih halal jika anjing telah memakan sebagian besar darinya?",
-          "ru": "Является ли добыча халяльной, если собака съела большую часть?",
-          "tr": "Köpek avın çoğunu yemişse av hala helal midir?",
-          "ur": "کیا شکار شدہ جانور حلال ہے اگر کتے نے اس کا زیادہ حصہ کھا لیا ہو؟",
-          "zh": "如果狗吃了大部分猎物，猎物仍然是清真的吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ইমাম আল-সাদিক عليه السلام থেকে এসেছে যা কুকুর যে শিকার থেকে খেয়েছে তার সম্পর্কে শারঈ বিধান দেয়। এটি নির্দেশ করে যে এমন শিকার খাওয়া বৈধ, যদিও কুকুর তার বেশিরভাগ অংশ খেয়ে ফেলেছে এবং মাত্র একটি ছোট অংশ বাকি আছে।",
-          "de": "Dieser Hadith von Imam al-Sadiq عليه السلام gibt eine rechtliche Regelung bezüglich erlegtem Wild, von dem ein Hund gegessen hat. Er zeigt die Erlaubnis, von solcher Beute zu essen, selbst wenn der Hund den Großteil davon gefressen hat und nur noch ein kleiner Teil übrig ist.",
-          "en": "This hadith from Imam al-Sadiq عليه السلام gives a legal ruling concerning hunted game that a dog has eaten from. It indicates the permissibility of eating from such prey even if the dog consumed most of it and only a small portion remains.",
-          "es": "Este hadiz del Imam al-Sadiq عليه السلام da una regla legal sobre la caza que un perro ha comido. Indica la permisibilidad de comer de dicha presa incluso si el perro consumió la mayor parte y solo queda una pequeña porción.",
-          "fa": "این حدیث از امام الصادق علیه السلام حکم شرعی درباره شکار خورده شده توسط سگ را بیان می‌کند. نشان می‌دهد که خوردن چنین شکار حتی اگر سگ بیشتر آن را خورده باشد و تنها بخش کوچکی باقی مانده باشد، جایز است.",
-          "fr": "Ce hadith de l'Imam al-Sadiq عليه السلام donne un jugement légal concernant le gibier dont un chien a mangé. Il indique la permissibilité de manger de cette proie même si le chien en a consommé la majeure partie et qu'il ne reste qu'une petite portion.",
-          "id": "Hadis ini dari Imam al-Sadiq عليه السلام memberikan hukum tentang hewan buruan yang telah dimakan oleh anjing. Ini menunjukkan bolehnya makan dari hewan buruan tersebut meskipun anjing telah memakan sebagian besar dan hanya tersisa sedikit.",
-          "ru": "Этот хадис от Имама аль-Садика عليه السلام дает правовое постановление относительно добычи, которую съела собака. Он указывает на дозволенность есть такую добычу, даже если собака съела большую часть и остался только небольшой кусок.",
-          "tr": "Bu hadis, al-Sadiq عليه السلام'dan gelen, köpeğin yemiş olduğu av hakkında hukuki bir hüküm verir. Köpeğin çoğunu yemiş olsa ve sadece küçük bir parça kalsa bile, böyle avın yenmesinin caiz olduğunu belirtir.",
-          "ur": "یہ حدیث امام الصادق علیہ السلام کی طرف سے شکار شدہ شکار کے بارے میں شرعی حکم دیتی ہے جسے کتے نے کھایا ہو۔ یہ اس بات کی اجازت دیتی ہے کہ ایسے شکار کو کھایا جا سکتا ہے چاہے کتے نے اس کا زیادہ حصہ کھا لیا ہو اور صرف تھوڑا سا باقی بچا ہو۔",
-          "zh": "这则来自Imam al-Sadiq عليه السلام的圣训对狗吃过的猎物给出了法律裁决。它表明即使狗吃掉了大部分，只剩下一小块，吃这样的猎物也是允许的。"
-        },
         "tags": [
           "jurisprudence",
           "prophetic_tradition"

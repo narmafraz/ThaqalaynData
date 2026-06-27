@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "٣٣٦٩ - وَقَالَ الصَّادِقُ عَلَيْهِ السَّلَامُ :",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "৩৩৬৯ - আল-সাদিক عليه السلام বলেছেন:",
-              "de": "3369 - Al-Sadiq عليه السلام sagte:",
-              "en": "3369 - Al-Sadiq عليه السلام said:",
-              "es": "3369 - Al-Sadiq عليه السلام dijo:",
-              "fa": "۳۳۶۹ - امام الصادق علیه السلام فرمود:",
-              "fr": "3369 - Al-Sadiq عليه السلام a dit :",
-              "id": "3369 - Al-Sadiq عليه السلام berkata:",
-              "ru": "3369 - Аль-Садик عليه السلام сказал:",
-              "tr": "3369 - El-Sadık عليه السلام şöyle dedi:",
-              "ur": "3369 - امام الصادق علیہ السلام نے فرمایا:",
-              "zh": "3369 - 阿尔萨迪克عليهالسلام说："
-            },
             "word_end": 7,
             "word_start": 0
           },
           {
             "arabic_text": "«إِذَا أُرِّفَتِ الْأُرَفُ وَحُدَّتِ الْحُدُودُ فَلَا شُفْعَةَ وَلاَ شُفْعَةَ إِلَّا لِشَرِيكٍ غَيْرِ مُقَاسِمٍ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“যখন সীমানা নির্ধারিত হয় এবং সীমান্ত নির্ধারিত হয়, তখন শুফআ নেই। এবং শুফআ শুধুমাত্র সেই অংশীদারের জন্য যারা সম্পত্তি ভাগ করেনি।”",
-              "de": "„Wenn die Grenzmarkierungen gesetzt und die Grenzen definiert sind, gibt es kein Shuf'ah. Und Shuf'ah besteht nur für einen Partner, der das Eigentum nicht geteilt hat.“",
-              "en": "“When the landmarks are established and the boundaries are defined, there is no shuf'ah. And there is no shuf'ah except for a partner who has not divided the property.”",
-              "es": "“Cuando los hitos están establecidos y los límites definidos, no hay shuf'ah. Y no hay shuf'ah excepto para un socio que no ha dividido la propiedad.”",
-              "fa": "«وقتی که نشانه‌ها برقرار شود و حدود مشخص گردد، شفعه وجود ندارد. و شفعه فقط برای شریکی است که ملک را تقسیم نکرده باشد.»",
-              "fr": "«Lorsque les repères sont établis et les limites définies, il n’y a pas de shuf'ah. Et il n’y a de shuf'ah que pour un partenaire qui n’a pas divisé la propriété.»",
-              "id": "“Ketika batas-batas telah ditetapkan dan wilayah telah didefinisikan, tidak ada shuf'ah. Dan shuf'ah hanya berlaku untuk mitra yang belum membagi properti.”",
-              "ru": "«Когда ориентиры установлены и границы определены, шууфа не применяется. И шууфа существует только для партнера, который не разделил имущество.»",
-              "tr": "“Sınırlar belirlendiğinde ve hudutlar çizildiğinde şuf'a olmaz. Şuf'a sadece mülkü bölmemiş bir ortak için geçerlidir.”",
-              "ur": "“جب نشانیاں قائم ہو جائیں اور حدیں متعین ہو جائیں تو شفعہ نہیں ہوتی۔ اور شفعہ صرف اس شریک کے لیے ہے جس نے ملکیت کو تقسیم نہ کیا ہو۔”",
-              "zh": "“当界标确立且边界划定时，不存在先买权。先买权仅适用于未分割财产的合伙人。”"
-            },
             "word_end": 20,
             "word_start": 7
           }
@@ -81,26 +68,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أُرِّفَتِ": "were marked or identified by landmarks",
-            "الْأُرَفُ": "the landmarks or distinguishing markers of property",
-            "الْحُدُودُ": "the defined boundaries of the property",
-            "شُفْعَةَ": "the right of pre-emption in jointly owned property",
-            "لِشَرِيكٍ": "for a co-owner or partner in the property",
-            "مُقَاسِمٍ": "one who has divided or partitioned the property"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أُرِّفَتِ",
+          "الْأُرَفُ",
+          "الْحُدُودُ",
+          "شُفْعَةَ",
+          "لِشَرِيكٍ",
+          "مُقَاسِمٍ"
+        ],
         "related_quran": [
           {
             "ref": "4:29",
@@ -111,32 +86,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام অনুযায়ী যৌথ সম্পত্তিতে শুফআর অধিকার কখন প্রযোজ্য হয়?",
-          "de": "Wann gilt das Recht der Shuf'ah bei Gemeinschaftseigentum gemäß Imam al-Sadiq عليه السلام?",
-          "en": "When does the right of shuf'ah apply in shared property according to Imam al-Sadiq عليه السلام?",
-          "es": "¿Cuándo se aplica el derecho de shuf'ah en la propiedad compartida según el Imam al-Sadiq عليه السلام?",
-          "fa": "طبق نظر امام الصادق علیه السلام، حق شفعه در ملکیت مشترک چه زمانی اعمال می‌شود؟",
-          "fr": "Quand le droit de shuf'ah s’applique-t-il dans la propriété partagée selon l’Imam al-Sadiq عليه السلام ?",
-          "id": "Kapan hak shuf'ah berlaku dalam properti bersama menurut Imam al-Sadiq عليه السلام?",
-          "ru": "Когда согласно Имаму аль-Садику عليه السلام применяется право шууфа в общей собственности?",
-          "tr": "İmam el-Sadık عليه السلام’a göre ortak mülkiyette şuf'a hakkı ne zaman geçerlidir?",
-          "ur": "امام الصادق علیہ السلام کے مطابق مشترکہ ملکیت میں حق شفعہ کب لاگو ہوتا ہے؟",
-          "zh": "根据伊玛目阿尔萨迪克عليهالسلام，先买权在共有财产中何时适用？"
-        },
-        "summaries": {
-          "bn": "ইমাম আল-সাদিক عليه السلام যৌথ সম্পত্তিতে শুফআর আইনি নীতিটি ব্যাখ্যা করেছেন। যখন সম্পত্তি স্পষ্টভাবে চিহ্নিত ও ভাগ করা হয়, তখন শুফআর অধিকার আর প্রযোজ্য হয় না; এটি শুধুমাত্র অবিভক্ত অংশীদারের জন্য থাকে।",
-          "de": "Imam al-Sadiq عليه السلام stellt das Rechtsprinzip der Shuf'ah bei Gemeinschaftseigentum dar. Sobald das Eigentum deutlich markiert und aufgeteilt ist, gilt das Vorkaufsrecht nicht mehr; es bleibt nur für einen ungeteilten Partner bestehen.",
-          "en": "Imam al-Sadiq عليه السلام states the legal principle of shuf'ah in shared property. Once the property has been distinctly marked and divided, the right of pre-emption no longer applies; it remains only for an undivided partner.",
-          "es": "El Imam al-Sadiq عليه السلام establece el principio legal de shuf'ah en la propiedad compartida. Una vez que la propiedad ha sido claramente marcada y dividida, el derecho de preempción ya no aplica; permanece solo para un socio no dividido.",
-          "fa": "امام الصادق علیه السلام اصل حقوق شفعه در ملکیت مشترک را بیان می‌کند. هنگامی که ملک به طور مشخص علامت‌گذاری و تقسیم شود، حق شفعه دیگر اعمال نمی‌شود؛ این حق فقط برای شریکی که ملک را تقسیم نکرده باقی می‌ماند.",
-          "fr": "L’Imam al-Sadiq عليه السلام énonce le principe juridique du shuf'ah dans la propriété partagée. Une fois que la propriété est clairement délimitée et divisée, le droit de préemption ne s’applique plus ; il reste uniquement pour un partenaire non divisé.",
-          "id": "Imam al-Sadiq عليه السلام menyatakan prinsip hukum shuf'ah dalam properti bersama. Setelah properti ditandai dengan jelas dan dibagi, hak pre-emptive tidak berlaku lagi; hanya berlaku untuk mitra yang belum membagi properti.",
-          "ru": "Имам аль-Садик عليه السلام излагает правовой принцип шууфа в общей собственности. После того, как имущество четко обозначено и разделено, право преимущественной покупки больше не применяется; оно сохраняется только для неразделённого партнёра.",
-          "tr": "İmam el-Sadık عليه السلام, ortak mülkiyette şuf'a hakkının hukuki ilkesini belirtmiştir. Mülk açıkça işaretlenip bölündüğünde, şuf'a hakkı sona erer; sadece bölünmemiş ortak için geçerlidir.",
-          "ur": "امام الصادق علیہ السلام نے مشترکہ ملکیت میں شفعہ کے قانونی اصول کو بیان فرمایا ہے۔ جب ملکیت واضح طور پر نشان زد اور تقسیم ہو جائے تو حق شفعہ ختم ہو جاتا ہے؛ یہ حق صرف غیر تقسیم شدہ شریک کے لیے باقی رہتا ہے۔",
-          "zh": "伊玛目阿尔萨迪克عليهالسلام阐述了共有财产中先买权的法律原则。财产一旦明确标记并划分，先买权即不再适用；仅适用于未分割的合伙人。"
-        },
         "tags": [
           "jurisprudence",
           "economy",

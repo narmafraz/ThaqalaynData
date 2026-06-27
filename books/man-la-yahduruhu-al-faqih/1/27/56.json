@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তিনি, সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম, বললেন:",
-              "de": "Und er, Friede sei mit ihm, sagte:",
-              "en": "And he, peace be upon him, said:",
-              "es": "Y él, la paz sea con él, dijo:",
-              "fa": "و او، سلام‌الله‌علیه، فرمود:",
-              "fr": "Et lui, que la paix soit sur lui, a dit :",
-              "id": "Dan beliau, keselamatan atasnya, berkata:",
-              "ru": "И он, мир ему, сказал:",
-              "tr": "Ve o, selam üzerine olsun, dedi ki:",
-              "ur": "اور انہوں نے، علیہ السلام، فرمایا:",
-              "zh": "他，愿他安息，说："
-            },
             "word_end": 3,
             "word_start": 0
           },
           {
             "arabic_text": "«مَنْ عَمِلَ مِنَ الْمُسْلِمِينَ عَنْ مَيِّتٍ عَمَلًا صَالِحًا أُضْعِفَ لَهُ أَجْرُهُ وَنَفَعَ اللَّهُ بِهِ الْمَيِّتَ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“যে মুসলমান মৃত ব্যক্তির পক্ষ থেকে কোনো সৎ কাজ করবে, তার জন্য তার পুরস্কার গুণিতক হবে, এবং আল্লাহ্‌ তার মাধ্যমে মৃত ব্যক্তিকে উপকার করবেন।”",
-              "de": "„Wer unter den Muslimen eine rechtschaffene Tat im Namen eines Verstorbenen vollbringt, dessen Lohn wird für ihn vervielfacht, und Allah wird dem Verstorbenen dadurch Nutzen bringen.“",
-              "en": "\"Whoever from among the Muslims performs a righteous deed on behalf of a deceased person, his reward will be multiplied for him, and Allah will benefit the deceased through it.\"",
-              "es": "“Quien entre los musulmanes realice una buena obra en nombre de un difunto, su recompensa se multiplicará para él, y Alá beneficiará al difunto a través de ello.”",
-              "fa": "«هر کس از میان مسلمانان عملی صالح به نیابت از یک مرده انجام دهد، پاداشش برای او چند برابر می‌شود و خداوند از طریق آن به مرده نفع می‌رساند.»",
-              "fr": "«Quiconque parmi les musulmans accomplit une bonne action au nom d’un défunt, sa récompense sera multipliée, et Allah bénéficiera au défunt par cela.»",
-              "id": "“Barangsiapa di antara kaum Muslim melakukan amal saleh atas nama orang yang telah meninggal, maka pahalanya dilipatgandakan untuknya, dan Allah memberikan manfaat kepada orang yang meninggal melalui amal itu.”",
-              "ru": "«Кто из мусульман совершит праведное деяние от имени умершего, тому вознаграждение умножится, и Аллах принесет пользу умершему через это.»",
-              "tr": "“Müslümanlardan biri, ölen bir kişi adına salih bir amel işlerse, onun sevabı katlanarak artar ve Allah onun vesilesiyle ölen kişiye fayda sağlar.”",
-              "ur": "‘‘جو کوئی مسلمانوں میں سے کسی مردہ کے لیے نیک عمل کرے گا، اس کا اجر اس کے لیے کئی گنا بڑھا دیا جائے گا، اور اللہ اس کے ذریعے مردہ کو فائدہ پہنچائے گا۔’’",
-              "zh": "“谁在穆斯林中为已故者行善，他的报酬将加倍，真主将借此使已故者受益。”"
-            },
             "word_end": 18,
             "word_start": 3
           }
@@ -71,27 +58,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَجْرُهُ": "his reward; the recompense granted for the deed",
-            "أُضْعِفَ": "will be multiplied; increased in reward",
-            "الْمَيِّتَ": "the deceased person who receives benefit",
-            "الْمُسْلِمِينَ": "the Muslims; the community from whom such righteous action may be performed",
-            "عَمَلًا صَالِحًا": "a righteous deed; a good act of obedience and virtue",
-            "مَيِّتٍ": "a deceased person on whose behalf the deed is done",
-            "نَفَعَ اللَّهُ": "Allah benefited; Allah causes the benefit to reach"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمُسْلِمِينَ",
+          "مَيِّتٍ",
+          "عَمَلًا صَالِحًا",
+          "أُضْعِفَ",
+          "أَجْرُهُ",
+          "نَفَعَ اللَّهُ",
+          "الْمَيِّتَ"
+        ],
         "related_quran": [
           {
             "ref": "53:39",
@@ -106,32 +81,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "একজন মুসলিম কি মৃত ব্যক্তির পক্ষ থেকে সৎ কাজ করে তাকে উপকার করতে পারে?",
-          "de": "Kann ein Muslim eine gute Tat im Namen eines Verstorbenen vollbringen und ihm dadurch Nutzen bringen?",
-          "en": "Can a Muslim perform a good deed on behalf of a deceased person and benefit them?",
-          "es": "¿Puede un musulmán realizar una buena obra en nombre de un difunto y beneficiarlo?",
-          "fa": "آیا یک مسلمان می‌تواند به نیابت از یک مرده عمل نیک انجام دهد و به او نفع برساند؟",
-          "fr": "Un musulman peut-il accomplir une bonne action au nom d’un défunt et lui en faire bénéficier ?",
-          "id": "Apakah seorang Muslim dapat melakukan amal baik atas nama orang yang telah meninggal dan memberi manfaat kepadanya?",
-          "ru": "Может ли мусульманин совершить доброе дело от имени умершего и принести ему пользу?",
-          "tr": "Bir Müslüman, ölen bir kişi adına iyi bir amel yapıp ona fayda sağlayabilir mi?",
-          "ur": "کیا کوئی مسلمان کسی مردہ کے لیے نیک عمل کر کے اسے فائدہ پہنچا سکتا ہے؟",
-          "zh": "穆斯林能否为已故者行善并使其受益？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস শিক্ষা দেয় যে যখন একজন মুসলিম মৃত ব্যক্তির পক্ষ থেকে সৎ কাজ করেন, তখন তার পুরস্কার গুণিতক হয়। এটি নিশ্চিত করে যে আল্লাহ্‌ সেই কাজের মাধ্যমে মৃত ব্যক্তিকে উপকার করেন, যা জীবিত ও মৃতের মধ্যে সৎ কাজের মাধ্যমে চলমান সম্পর্ককে তুলে ধরে।",
-          "de": "Dieser Hadith lehrt, dass wenn ein Muslim eine rechtschaffene Tat im Namen eines Verstorbenen vollbringt, der Handelnde vervielfachten Lohn erhält. Er bestätigt auch, dass Allah dem Verstorbenen durch diese Tat Nutzen bringt, was die fortdauernde Verbindung zwischen Lebenden und Toten durch rechtschaffene Taten hervorhebt.",
-          "en": "This hadith teaches that when a Muslim performs a righteous deed on behalf of a deceased person, the doer receives multiplied reward. It also affirms that Allah causes benefit to reach the deceased through that deed, highlighting the continuing bond between the living and the dead through righteous acts.",
-          "es": "Este hadiz enseña que cuando un musulmán realiza una buena obra en nombre de un difunto, el que la realiza recibe una recompensa multiplicada. También afirma que Alá beneficia al difunto a través de esa obra, destacando el vínculo continuo entre los vivos y los muertos mediante actos justos.",
-          "fa": "این حدیث آموزش می‌دهد که وقتی مسلمانی به نیابت از یک مرده عمل صالحی انجام می‌دهد، پاداش انجام‌دهنده چند برابر می‌شود. همچنین تأیید می‌کند که خداوند از طریق آن عمل به مرده نفع می‌رساند و پیوند مستمر بین زندگان و مردگان از طریق اعمال صالح را نشان می‌دهد.",
-          "fr": "Ce hadith enseigne que lorsqu’un musulman accomplit une bonne action au nom d’un défunt, celui qui la fait reçoit une récompense multipliée. Il affirme également qu’Allah fait bénéficier le défunt par cette action, soulignant le lien continu entre les vivants et les morts à travers les actes vertueux.",
-          "id": "Hadis ini mengajarkan bahwa ketika seorang Muslim melakukan amal saleh atas nama orang yang telah meninggal, pahalanya dilipatgandakan. Ini juga menegaskan bahwa Allah memberikan manfaat kepada orang yang meninggal melalui amal tersebut, menyoroti ikatan yang berkelanjutan antara yang hidup dan yang mati melalui amal saleh.",
-          "ru": "Этот хадис учит, что когда мусульманин совершает праведное деяние от имени умершего, вознаграждение исполнителя умножается. Также подтверждается, что Аллах приносит пользу умершему через это деяние, подчеркивая продолжающуюся связь между живыми и мертвыми через праведные поступки.",
-          "tr": "Bu hadis, bir Müslümanın ölen bir kişi adına salih bir amel yapması durumunda, yapanın sevabının katlanarak artacağını öğretir. Ayrıca Allah’ın bu amel vasıtasıyla ölen kişiye fayda sağladığını teyit eder; bu, yaşayanlar ile ölüler arasındaki salih amellerle devam eden bağı vurgular.",
-          "ur": "یہ حدیث سکھاتی ہے کہ جب کوئی مسلمان کسی مردہ کے لیے نیک عمل کرتا ہے تو اس کا اجر کئی گنا بڑھا دیا جاتا ہے۔ یہ بھی واضح کرتی ہے کہ اللہ اس عمل کے ذریعے مردہ کو فائدہ پہنچاتا ہے، جو زندہ اور مردہ کے درمیان نیک اعمال کے ذریعے جاری تعلق کو ظاہر کرتا ہے۔",
-          "zh": "这段圣训教导我们，当穆斯林为已故者行善时，行善者的报酬将加倍。它还确认真主通过该善行使已故者受益，强调了生者与亡者通过善行持续的联系。"
-        },
         "tags": [
           "ethics",
           "afterlife",

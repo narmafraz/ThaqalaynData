@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ، عَنْ يُونُسَ، عَنِ ٱبْنِ مُسْكَانَ، عَنْ أَبِي بَصِيرٍ، عَنْ أَبِي عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ: فِي",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, ইউনুস থেকে, ইবন মুসকান থেকে, আবি বাসির থেকে, আবি ʿআবদুল্লাহ عليه السلام থেকে: সম্পর্কে",
-              "de": "Von ihm, von Yunus, von Ibn Muskan, von Abi Basir, von Abi ʿAbd Allah عليه السلام: über",
-              "en": "From him, from Yunus, from Ibn Muskan, from Abi Basir, from Abi ʿAbd Allah عليه السلام: concerning",
-              "es": "De él, de Yunus, de Ibn Muskan, de Abi Basir, de Abi ʿAbd Allah عليه السلام: acerca de",
-              "fa": "از او، از یونس، از ابن مسکان، از ابی بصیر، از ابی عبدالله علیه السلام: دربارهٔ",
-              "fr": "De lui, de Yunus, d'Ibn Muskan, d'Abi Basir, d'Abi ʿAbd Allah عليه السلام : au sujet de",
-              "id": "Darinya, dari Yunus, dari Ibn Muskan, dari Abi Basir, dari Abi ʿAbd Allah عليه السلام: tentang",
-              "ru": "От него, от Юнуса, от Ибн Мускана, от Аби Басира, от Аби ʿАбд Аллаха عليه السلام: относительно",
-              "tr": "Ondan, Yunus'tan, İbn Muskan'dan, Ebu Basir'den, Ebu Abdullah عليه السلام'dan: hakkında",
-              "ur": "ان سے، یونس سے، ابن مسکان سے، ابی بصیر سے، ابی عبد اللہ علیہ السلام سے: کے بارے میں",
-              "zh": "由他传自尤努斯，传自伊本穆斯坎，传自阿比巴西尔，传自阿比ʿ阿卜杜拉 عليه السلام：关于"
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "رَجُلٍ أَتَى بَهِيمَةً فَأَوْلَجَ، قَالَ: «عَلَيْهِ ٱلْحَدُّ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন লোকের ব্যাপারে, যে একটি পশুর কাছে গিয়ে তাতে প্রবেশ করেছিল—তিনি বললেন: “তার ওপর হদ্দ প্রযোজ্য।”",
-              "de": "Über einen Mann, der zu einem Tier kam und es penetrierte—er sagte: „Die Hadd-Strafe trifft ihn.“",
-              "en": "A man who came to a beast and penetrated it—he said: “The hadd punishment is upon him.”",
-              "es": "Acerca de un hombre que se acercó a una bestia y la penetró—dijo: “La pena de hadd recae sobre él.”",
-              "fa": "دربارهٔ مردی که نزد حیوانی آمد و با آن آمیزش کرد—فرمود: «حد بر اوست.»",
-              "fr": "Au sujet d’un homme qui vint à une bête et la pénétra—il dit : « La peine de hadd s’applique à lui. »",
-              "id": "Tentang seorang laki-laki yang mendatangi seekor binatang lalu menidurinya—beliau bersabda: “Hukuman hadd atasnya.”",
-              "ru": "О человеке, который пришел к животному и совершил с ним проникновение,—он сказал: «На нем хадд-наказание».",
-              "tr": "Bir hayvana gelen ve ona giren bir adam hakkında—şöyle dedi: “Hadd cezası onun üzerinedir.”",
-              "ur": "ایک آدمی کے بارے میں جو ایک جانور کے پاس آیا اور اس میں دخول کیا—انہوں نے فرمایا: “اس پر حد ہے۔”",
-              "zh": "关于一个来到牲畜并与之交合的人——他说：“应当对他执行hadd刑罚。”"
-            },
             "word_end": 23,
             "word_start": 16
           }
@@ -114,24 +101,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بَهِيمَةً": "a beast or animal; the object involved in the prohibited act",
-            "رَجُلٍ": "a man; the legal subject mentioned in the ruling",
-            "فَأَوْلَجَ": "then penetrated; indicating completion of the sexual act",
-            "ٱلْحَدُّ": "the prescribed legal punishment in this context"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رَجُلٍ",
+          "بَهِيمَةً",
+          "فَأَوْلَجَ",
+          "ٱلْحَدُّ"
+        ],
         "related_quran": [
           {
             "ref": "7:33",
@@ -142,32 +117,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে যে ব্যক্তি পশুর সঙ্গে সহবাস করে তার বিধান কী?",
-          "de": "Was ist das Urteil im schiitischen Hadith über einen Mann, der mit einem Tier Geschlechtsverkehr hat?",
-          "en": "What is the ruling in Shia hadith on a man who has intercourse with an animal?",
-          "es": "¿Cuál es la norma en el hadiz chií sobre un hombre que tiene relaciones con un animal?",
-          "fa": "در حدیث شیعه حکم مردی که با حیوان آمیزش کند چیست؟",
-          "fr": "Quelle est la règle dans le hadith chiite concernant un homme qui a des rapports avec un animal ?",
-          "id": "Apa حكم dalam hadis Syiah bagi seorang laki-laki yang berhubungan intim dengan seekor binatang?",
-          "ru": "Каково постановление в шиитском хадисе о человеке, который вступает в половую связь с животным?",
-          "tr": "Şii hadiste bir hayvanla cinsel ilişkiye giren bir adamın hükmü nedir?",
-          "ur": "شیعہ حدیث میں اس شخص کا کیا حکم ہے جو جانور کے ساتھ جماع کرے؟",
-          "zh": "什叶派圣训中关于人与动物发生性交的判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে এমন এক ব্যক্তির বিষয়ে একটি শরঈ বিধান বর্ণিত হয়েছে, যে একটি পশুর সঙ্গে সহবাস করে। ইমাম আবি ʿআবদুল্লাহ عليه السلام বলেন যে তার ওপর হদ্দ প্রযোজ্য, যা ইসলামী ফিকহে এ কাজের গুরুতরতা দেখায়।",
-          "de": "Dieser Hadith nennt ein rechtliches Urteil über einen Mann, der mit einem Tier Geschlechtsverkehr hat. Imam Abi ʿAbd Allah عليه السلام erklärt, dass die Hadd-Strafe auf ihn anzuwenden ist, was die Schwere dieser Tat in der islamischen Rechtslehre zeigt.",
-          "en": "This hadith gives a legal ruling concerning a man who commits intercourse with an animal. Imam Abi ʿAbd Allah عليه السلام states that the hadd punishment applies to him, showing the gravity of the act in Islamic jurisprudence.",
-          "es": "Este hadiz expone una norma jurídica acerca de un hombre que mantiene relaciones con un animal. El Imam Abi ʿAbd Allah عليه السلام declara que se le aplica la pena de hadd, mostrando la gravedad de este acto en la jurisprudencia islámica.",
-          "fa": "این حدیث حکمی فقهی دربارهٔ مردی بیان می‌کند که با حیوانی آمیزش می‌کند. امام ابی ʿعبدالله علیه السلام می‌فرماید که حد بر او جاری می‌شود و این، سنگینی این عمل را در فقه اسلامی نشان می‌دهد.",
-          "fr": "Ce hadith énonce une règle juridique concernant un homme qui a des rapports avec un animal. L’imam Abi ʿAbd Allah عليه السلام déclare que la peine de hadd s’applique à lui, ce qui montre la gravité de cet acte dans la jurisprudence islamique.",
-          "id": "Hadis ini memberikan hukum fikih tentang seorang laki-laki yang berhubungan intim dengan seekor binatang. Imam Abi ʿAbd Allah عليه السلام menyatakan bahwa hukuman hadd berlaku atasnya, yang menunjukkan beratnya perbuatan ini dalam fikih Islam.",
-          "ru": "Этот хадис содержит правовое постановление о человеке, который вступает в половую связь с животным. Имам Аби ʿАбд Аллах عليه السلام говорит, что к нему применяется наказание хадд, что показывает тяжесть этого деяния в исламском фикхе.",
-          "tr": "Bu hadis, bir hayvanla cinsel ilişkide bulunan bir adam hakkında fıkhî bir hüküm bildirir. İmam Ebu ʿAbdullah عليه السلام, hadd cezasının ona uygulanacağını söyleyerek bu fiilin İslam fıkhındaki ağırlığını gösterir.",
-          "ur": "یہ حدیث ایک ایسے آدمی کے بارے میں شرعی حکم بیان کرتی ہے جو جانور کے ساتھ جماع کرے۔ امام ابی ʿعبد اللہ علیہ السلام فرماتے ہیں کہ اس پر حد جاری ہوتی ہے، جو اسلامی فقہ میں اس فعل کی سنگینی کو ظاہر کرتا ہے۔",
-          "zh": "这段圣训给出了一项关于人与动物发生性交的教法律例。伊玛目阿比ʿ阿卜杜拉 عليه السلام说明应对其执行hadd刑罚，这显示了该行为在伊斯兰教法中的严重性。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations"

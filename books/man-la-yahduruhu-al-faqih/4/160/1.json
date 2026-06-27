@@ -15,42 +15,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رَوَى حَمَّادٌ عَنِ الْحَلَبِيِّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "হাম্মাদ আল-হালাবি থেকে, আবু আবদুল্লাহ علیہ السلام থেকে বর্ণনা করেছেন, যিনি বলেছেন:",
-              "de": "Hammad berichtete von al-Halabi, von Abu Abdullah علیه السلام, der sagte:",
-              "en": "Hammad narrated from al-Halabi, from Abu Abdullah عليه السلام, who said:",
-              "es": "Hammad narró de al-Halabi, de Abu Abdullah عليه السلام, quien dijo:",
-              "fa": "حمّاد از الحلّابی، از ابو عبدالله علیه السلام روایت کرد که فرمود:",
-              "fr": "Hammad a rapporté d'al-Halabi, d'Abu Abdullah عليه السلام, qui a dit :",
-              "id": "Hammad meriwayat dari al-Halabi, dari Abu Abdullah علیه السلام, yang berkata:",
-              "ru": "Хаммад передал от аль-Халаби, от Абу Абдуллаха علیه السلام, который сказал:",
-              "tr": "Hammad, al-Halabi'den, Abu Abdullah'a علیه السلام'dan rivayet etti, şöyle dedi:",
-              "ur": "حمّاد نے الحلبی سے، ابو عبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "حمّاد从الحلبی传述，来自أبوعبداللهعليهالسلام，他说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "أَيُّمَا رَجُلٍ أَقَرَّ بِوَلَدِهِ ثُمَّ انْتَفَى مِنْهُ فَلَيْسَ لَهُ ذَلِكَ وَلَا كَرَامَةَ يُلْحَقُ بِهِ وَلَدُهُ إِذَا كَانَ مِنِ امْرَأَتِهِ أَوْ وَلِيدَتِهِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে কোনো পুরুষ তার সন্তানকে স্বীকার করে এবং পরে তাকে অস্বীকার করে, তার সেই করার কোনো অধিকার নেই এবং এতে কোনো সম্মান নেই। যদি সন্তান তার স্ত্রী বা দাসী থেকে হয়, তবে সন্তান তার সাথে যুক্ত থাকবে।",
-              "de": "Jeder Mann, der sein Kind anerkennt und es später verleugnet, hat kein Recht dazu und keine Würde darin. Sein Kind wird ihm zugeschrieben, wenn es von seiner Frau oder seiner Magd ist.",
-              "en": "Any man who acknowledges his child and then later disowns him has no right to do that, and no dignity in it. His child is to be attributed to him if the child is from his wife or his maidservant.",
-              "es": "Cualquier hombre que reconozca a su hijo y luego lo niegue no tiene derecho a hacerlo, ni dignidad en ello. Su hijo se le atribuye si es de su esposa o su esclava.",
-              "fa": "هر مردی که فرزندش را تصدیق کند و سپس انکار کند، حق چنین کاری ندارد و هیچ کرامتی در آن نیست. فرزند اگر از همسر یا کنیز او باشد، به او نسبت داده می‌شود.",
-              "fr": "Tout homme qui reconnaît son enfant puis le renie n'a pas le droit de le faire, ni aucune dignité dans cela. Son enfant lui est attribué s'il est issu de sa femme ou de sa servante.",
-              "id": "Setiap pria yang mengakui anaknya lalu kemudian menolaknya tidak berhak melakukan itu dan tidak ada kehormatan dalam hal itu. Anak tersebut harus dikaitkan dengannya jika anak itu dari istrinya atau budaknya.",
-              "ru": "Любой мужчина, который признает своего ребенка, а затем отрекается от него, не имеет на это права и в этом нет достоинства. Его ребенок приписывается ему, если ребенок от его жены или наложницы.",
-              "tr": "Bir adam çocuğunu kabul edip sonra reddederse, bunu yapmaya hakkı yoktur ve bunda hiçbir onur yoktur. Çocuk, eğer karısından ya da cariyesinden ise ona nispet edilir.",
-              "ur": "کوئی بھی مرد جو اپنے بچے کو تسلیم کرے اور پھر بعد میں انکار کرے، اسے ایسا کرنے کا حق نہیں ہے اور نہ ہی اس میں کوئی عزت ہے۔ اگر بچہ اس کی بیوی یا اس کی کنیز سے ہو تو بچہ اس سے منسوب کیا جائے گا۔",
-              "zh": "任何承认自己孩子后又否认的男子无权如此，且无尊严。若孩子出自其妻或婢女，则孩子归属于他。"
-            },
             "word_end": 32,
             "word_start": 11
           }
@@ -99,25 +86,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَقَرَّ بِوَلَدِهِ": "formally acknowledged his child as his own",
-            "امْرَأَتِهِ": "his wife",
-            "انْتَفَى مِنْهُ": "disowned or denied paternity afterward",
-            "وَلِيدَتِهِ": "his female slave or maidservant",
-            "يُلْحَقُ بِهِ وَلَدُهُ": "his child is legally affiliated and attributed to him"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَقَرَّ بِوَلَدِهِ",
+          "انْتَفَى مِنْهُ",
+          "يُلْحَقُ بِهِ وَلَدُهُ",
+          "امْرَأَتِهِ",
+          "وَلِيدَتِهِ"
+        ],
         "related_quran": [
           {
             "ref": "33:5",
@@ -128,32 +103,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে কি একজন পিতা পূর্বে সন্তানের স্বীকৃতি দেওয়ার পর তাকে অস্বীকার করতে পারেন?",
-          "de": "Kann ein Vater im schiitischen Fiqh ein Kind nach vorheriger Anerkennung verleugnen?",
-          "en": "Can a father disown a child after previously acknowledging him in Shia fiqh?",
-          "es": "¿Puede un padre en la fiqh chií repudiar a un hijo después de haberlo reconocido previamente?",
-          "fa": "آیا در فقه شیعه پدر می‌تواند پس از تصدیق فرزند، او را انکار کند؟",
-          "fr": "Un père peut-il renier un enfant après l'avoir reconnu en fiqh chiite ?",
-          "id": "Apakah seorang ayah dalam fikih Syiah dapat menolak anak setelah sebelumnya mengakuinya?",
-          "ru": "Может ли отец в шиизме отречься от ребенка после того, как ранее признал его?",
-          "tr": "Şia fıkhında bir baba, çocuğunu önce kabul ettikten sonra reddedebilir mi?",
-          "ur": "کیا شیعہ فقہ میں والد اپنے بچے کو پہلے تسلیم کرنے کے بعد انکار کر سکتا ہے؟",
-          "zh": "在什叶派教法中，父亲能否在先承认孩子后再否认？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস একটি আইনি সিদ্ধান্ত দেয় যে যে পুরুষ তার সন্তানকে স্বীকার করেছে, সে পরে সন্তানের সম্পর্ক অস্বীকার করতে পারে না। যদি সন্তান তার স্ত্রী বা দাসী থেকে হয়, সন্তানের বংশধরতা তার সাথে থাকে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regel vor, dass ein Mann, der sein Kind anerkannt hat, die Zugehörigkeit des Kindes später nicht leugnen kann. Wenn das Kind von seiner Frau oder seiner Magd ist, bleibt die Abstammung an ihn gebunden.",
-          "en": "This hadith gives a legal ruling that a man who has acknowledged his child cannot later deny the child's affiliation to him. If the child is born from his wife or his maidservant, the child's lineage remains attached to him.",
-          "es": "Este hadiz establece una regla legal de que un hombre que ha reconocido a su hijo no puede negar posteriormente la filiación del niño. Si el niño es de su esposa o su esclava, la línea de descendencia permanece vinculada a él.",
-          "fa": "این حدیث حکم شرعی می‌دهد که مردی که فرزندش را تصدیق کرده است، نمی‌تواند بعداً نسبت فرزند را انکار کند. اگر فرزند از همسر یا کنیز او باشد، نسب فرزند به او باقی می‌ماند.",
-          "fr": "Ce hadith donne un jugement légal selon lequel un homme qui a reconnu son enfant ne peut pas nier par la suite l'affiliation de l'enfant. Si l'enfant est issu de sa femme ou de sa servante, la lignée de l'enfant reste attachée à lui.",
-          "id": "Hadis ini memberikan ketetapan hukum bahwa seorang pria yang telah mengakui anaknya tidak dapat kemudian menolak hubungan anak tersebut dengannya. Jika anak itu lahir dari istri atau budaknya, garis keturunan anak tetap melekat padanya.",
-          "ru": "Этот хадис даёт юридическое постановление, что мужчина, признавший своего ребёнка, не может впоследствии отрицать его принадлежность. Если ребёнок от жены или наложницы, родословная остаётся за ним.",
-          "tr": "Bu hadis, bir erkeğin çocuğunu kabul ettikten sonra çocuğun ona aitliğini reddedemeyeceğine dair hukuki bir hüküm verir. Çocuk, eğer karısından ya da cariyesinden doğmuşsa, soy bağı ona bağlı kalır.",
-          "ur": "یہ حدیث ایک قانونی حکم دیتی ہے کہ جو مرد اپنے بچے کو تسلیم کر چکا ہو وہ بعد میں بچے کی نسبت سے انکار نہیں کر سکتا۔ اگر بچہ اس کی بیوی یا کنیز سے پیدا ہوا ہو تو بچے کی نسل اس سے منسلک رہتی ہے۔",
-          "zh": "此圣训给出法律裁决，承认孩子的男子不能事后否认孩子的归属。若孩子出自其妻或婢女，孩子的血统仍归属于他。"
-        },
         "tags": [
           "jurisprudence",
           "family",

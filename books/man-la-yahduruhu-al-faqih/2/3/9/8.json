@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى مُحَمَّدُ بْنُ يَحْيَى الْخَثْعَمِيُّ عَنْهُ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবনে ইয়াহয়া আল-খাথ'আমী তার থেকে বর্ণনা করেছেন, আলাইহি সালাম:",
-              "de": "Muḥammad ibn Yaḥyā al-Khathʿamī berichtete von ihm, Friede sei mit ihm:",
-              "en": "Muḥammad ibn Yaḥyā al-Khathʿamī narrated from him, peace be upon him:",
-              "es": "Muḥammad ibn Yaḥyā al-Khathʿamī narró de él, la paz sea con él:",
-              "fa": "محمد بن یحیی الخثعمی از او روایت کرده است، سلام بر او باد:",
-              "fr": "Muḥammad ibn Yaḥyā al-Khathʿamī a rapporté de lui, que la paix soit sur lui :",
-              "id": "Muḥammad ibn Yaḥyā al-Khathʿamī meriwayatkan darinya, semoga keselamatan atasnya:",
-              "ru": "Мухаммад ибн Яхья аль-Хатъами передал от него, мир ему:",
-              "tr": "Muhammed ibn Yahya el-Hatʿamî ondan, selam onun üzerine olsun, rivayet etti:",
-              "ur": "محمد ابن یحیی الخثعمی نے ان سے روایت کی، علیہ السلام:",
-              "zh": "穆罕默德伊本雅赫亞艾爾哈斯阿米從他那裡傳述，願他平安："
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "«لَا تَخْرُجْ يَوْمَ الْجُمُعَةِ فِي حَاجَةٍ فَإِذَا كَانَ يَوْمُ السَّبْتِ وَ طَلَعَتِ الشَّمْسُ فَاخْرُجْ فِي حَاجَتِكَ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "\"জুম্মার দিনে কোনো প্রয়োজনে বাইরে যেও না; তারপর যখন শনিবার হবে এবং সূর্য উঠবে, তখন তোমার প্রয়োজনে বাইরে যাও।\"",
-              "de": "\"Gehe am Freitag nicht wegen eines Bedürfnisses hinaus; wenn dann Samstag ist und die Sonne aufgegangen ist, gehe für dein Bedürfnis hinaus.\"",
-              "en": "\"Do not go out on Friday for any need; then when it is Saturday and the sun has risen, go out for your need.\"",
-              "es": "\"No salgas el viernes para ninguna necesidad; luego cuando sea sábado y haya salido el sol, sal para tu necesidad.\"",
-              "fa": "«روز جمعه برای هیچ نیازی بیرون نرو؛ سپس وقتی شنبه شد و خورشید طلوع کرد، برای نیازت بیرون برو.»",
-              "fr": "\"Ne sors pas le vendredi pour un besoin ; puis quand ce sera samedi et que le soleil sera levé, sors pour ton besoin.\"",
-              "id": "\"Jangan keluar pada hari Jumat untuk suatu keperluan; kemudian ketika hari Sabtu dan matahari telah terbit, keluarlah untuk keperluanmu.\"",
-              "ru": "\"Не выходи в пятницу по нужде; а когда будет суббота и взойдет солнце, выходи по своей нужде.\"",
-              "tr": "\"Cuma günü herhangi bir ihtiyaç için dışarı çıkma; sonra cumartesi olduğunda ve güneş doğduğunda ihtiyacın için dışarı çık.\"",
-              "ur": "‘‘جمعہ کے دن کسی ضرورت کے لیے باہر نہ نکلیں؛ پھر جب ہفتہ ہو اور سورج طلوع ہو جائے تو اپنی ضرورت کے لیے نکل جائیں۔’’",
-              "zh": "\"不要在星期五为任何需要外出；等到星期六太阳升起时，再为你的需要外出。\""
-            },
             "word_end": 25,
             "word_start": 9
           }
@@ -81,25 +68,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "حَاجَةٍ": "a need, errand, or purpose for which one goes out",
-            "طَلَعَتِ الشَّمْسُ": "the sun has risen, marking the recommended time to go out",
-            "فَاخْرُجْ": "then go out, an instruction permitting departure at that time",
-            "يَوْمَ الْجُمُعَةِ": "Friday, the day on which going out for a need is discouraged here",
-            "يَوْمُ السَّبْتِ": "Saturday, the day mentioned as suitable instead"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَوْمَ الْجُمُعَةِ",
+          "حَاجَةٍ",
+          "يَوْمُ السَّبْتِ",
+          "طَلَعَتِ الشَّمْسُ",
+          "فَاخْرُجْ"
+        ],
         "related_quran": [
           {
             "ref": "62:9",
@@ -110,32 +85,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হাদিসে শুক্রবার নিজের প্রয়োজনে বাইরে যাওয়ার বিষয়ে কী বলা হয়েছে?",
-          "de": "Was sagt der Hadith über das Hinausgehen für eigene Bedürfnisse am Freitag?",
-          "en": "What does the hadith say about going out for one's needs on Friday?",
-          "es": "¿Qué dice el hadiz sobre salir para las necesidades propias el viernes?",
-          "fa": "در حدیث درباره بیرون رفتن برای نیازهای شخصی در روز جمعه چه گفته شده است؟",
-          "fr": "Que dit le hadith à propos de sortir pour ses besoins le vendredi ?",
-          "id": "Apa yang dikatakan hadits tentang keluar untuk kebutuhan pada hari Jumat?",
-          "ru": "Что говорит хадис о выходе по нужде в пятницу?",
-          "tr": "Hadiste, Cuma günü ihtiyaçlar için dışarı çıkmak hakkında ne deniyor?",
-          "ur": "حدیث میں جمعہ کے دن اپنی ضروریات کے لیے نکلنے کے بارے میں کیا کہا گیا ہے؟",
-          "zh": "圣训中关于星期五为需要外出说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি এমন একটি সময় সম্পর্কে নির্দেশনা দেয় যা প্রয়োজনের জন্য বের হওয়া অপছন্দনীয়, শুক্রবার বের হওয়া থেকে বিরত থাকার পরামর্শ দেয় এবং পরিবর্তে শনিবার সূর্যোদয়ের পর বের হওয়ার সুপারিশ করে। এটি ভ্রমণ বা পার্থিব কাজের জন্য সময় নির্বাচন সংক্রান্ত আদব ও ব্যবহারিক শারঈ নির্দেশনা প্রতিফলিত করে।",
-          "de": "Dieser Hadith gibt eine Anleitung zu einer unerwünschten Zeit, um seinen Bedürfnissen nachzugehen, und rät davon ab, am Freitag hinauszugehen, stattdessen wird empfohlen, am Samstag nach Sonnenaufgang hinauszugehen. Er spiegelt Adab und praktische rechtliche Anleitung zur Wahl der Zeiten für Reisen oder weltliche Angelegenheiten wider.",
-          "en": "This hadith gives guidance about a disliked time for setting out for one's needs, advising against going out on Friday and instead recommending departure on Saturday after sunrise. It reflects adab and practical legal guidance concerning choosing times for travel or worldly pursuits.",
-          "es": "Este hadiz ofrece orientación sobre un tiempo no recomendado para salir por necesidades, aconsejando no salir el viernes y en cambio recomendar salir el sábado después del amanecer. Refleja adab y guía legal práctica sobre la elección de tiempos para viajar o asuntos mundanos.",
-          "fa": "این حدیث راهنمایی درباره زمان نامطلوب برای خروج جهت نیازهای شخصی ارائه می‌دهد؛ توصیه می‌کند که در روز جمعه بیرون نروید و به جای آن در روز شنبه پس از طلوع آفتاب بیرون بروید. این حدیث آداب و راهنمایی عملی شرعی درباره انتخاب زمان برای سفر یا امور دنیوی را منعکس می‌کند.",
-          "fr": "Ce hadith donne des conseils sur un moment déconseillé pour sortir pour ses besoins, en recommandant de ne pas sortir le vendredi et plutôt de partir le samedi après le lever du soleil. Il reflète les adab et les conseils juridiques pratiques concernant le choix des moments pour voyager ou pour des affaires mondaines.",
-          "id": "Hadis ini memberikan petunjuk tentang waktu yang tidak disukai untuk keluar memenuhi kebutuhan, menyarankan agar tidak keluar pada hari Jumat dan sebaliknya disarankan keluar pada hari Sabtu setelah matahari terbit. Ini mencerminkan adab dan panduan hukum praktis terkait memilih waktu untuk bepergian atau urusan duniawi.",
-          "ru": "Этот хадис дает наставление о нежелательном времени для выхода по нужде, советуя не выходить в пятницу, а вместо этого рекомендовать выходить в субботу после восхода солнца. Он отражает адаб и практические правовые рекомендации по выбору времени для путешествий или мирских дел.",
-          "tr": "Bu hadis, ihtiyaçlar için çıkmanın hoş karşılanmayan bir zamanı hakkında rehberlik verir; Cuma günü dışarı çıkmaktan kaçınılmasını ve bunun yerine cumartesi güneş doğduktan sonra çıkılmasını tavsiye eder. Seyahat veya dünyevi işlerde zaman seçimiyle ilgili edep ve pratik hukuki rehberliği yansıtır.",
-          "ur": "یہ حدیث اس بات کی رہنمائی دیتی ہے کہ جمعہ کے دن اپنی ضروریات کے لیے نکلنا ناپسندیدہ ہے اور اس کے بجائے ہفتہ کو سورج نکلنے کے بعد نکلنے کی سفارش کرتی ہے۔ یہ سفر یا دنیاوی کاموں کے لیے وقت منتخب کرنے کے آداب اور عملی شرعی رہنمائی کی عکاسی کرتی ہے۔",
-          "zh": "此圣训指导了不宜外出办事的时间，劝诫不要在星期五外出，而建议在星期六太阳升起后外出。它反映了选择旅行或世俗事务时间的礼仪和实用法律指导。"
-        },
         "tags": [
           "jurisprudence",
           "ethics",

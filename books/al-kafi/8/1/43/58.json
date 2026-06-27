@@ -15,6 +15,102 @@
       "up": "/books/al-kafi:8:1:43"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "الْحُسَيْنُ بْنُ أَحْمَدَ بْنِ هِلَالٍ عَنْ يَاسِرٍ الْخَادِمِ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 9,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قُلْتُ لِأَبِي الْحَسَنِ الرِّضَا (عَلَيْهِ السَّلَامُ) رَأَيْتُ فِي النَّوْمِ كَأَنَّ قَفَصاً فِيهِ سَبْعَ عَشْرَةَ قَارُورَةً إِذْ وَقَعَ الْقَفَصُ فَتَكَسَّرَتِ الْقَوَارِيرُ فَقَالَ إِنْ صَدَقَتْ رُؤْيَاكَ يَخْرُجُ رَجُلٌ مِنْ أَهْلِ بَيْتِي يَمْلِكُ سَبْعَةَ عَشَرَ يَوْمَاً ثُمَّ يَمُوتُ فَخَرَجَ مُحَمَّدُ بْنُ إِبْرَاهِيمَ بِالْكُوفَةِ مَعَ أَبِي السَّرَايَا فَمَكَثَ سَبْعَةَ عَشَرَ يَوْمَاً ثُمَّ مَاتَ.",
+            "chunk_type": "body",
+            "word_end": 58,
+            "word_start": 9
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2607,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنُ بْنُ أَحْمَدَ بْنِ هِلَالٍ",
+              "name_en": "al-Husayn b. Ahmad b. Hilal",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 558,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "يَاسِرٍ الْخَادِمِ",
+              "name_en": "Yasir al-Khadim",
+              "position": 2,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الرِّضَا",
+          "قَفَصاً",
+          "قَارُورَةً",
+          "أَهْلِ بَيْتِي",
+          "مُحَمَّدُ بْنُ إِبْرَاهِيمَ",
+          "الْكُوفَةِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:186",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "59:19",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "history",
+          "governance",
+          "family"
+        ],
+        "topics": [
+          "imams_biography",
+          "events",
+          "imamate"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 244)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -23,10 +119,6 @@
       "local_index": 58,
       "narrator_chain": {
         "parts": [
-          {
-            "kind": "plain",
-            "text": "14818- "
-          },
           {
             "kind": "narrator",
             "path": "/people/narrators/2607",
@@ -64,7 +156,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:43:58",

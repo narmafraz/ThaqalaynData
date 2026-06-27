@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسُئِلَ: عَنْ بَيْتٍ قَدْ كَانَ حَشًّا زَمَانًا هَلْ يَصْلُحُ أَنْ يُجْعَلَ مَسْجِدًا",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তাকে এমন একটি বাড়ি সম্পর্কে জিজ্ঞাসা করা হয়েছিল যা কিছু সময় ধরে শৌচাগার ছিল: এটি মসজিদে পরিণত করা কি উপযুক্ত?",
-              "de": "Und er wurde gefragt über ein Haus, das eine Zeit lang als Latrine diente: Ist es geeignet, daraus eine Moschee zu machen?",
-              "en": "And he was asked about a house that had been a latrine for some time: is it suitable for it to be made into a mosque?",
-              "es": "Y le preguntaron acerca de una casa que había sido un retrete por algún tiempo: ¿es adecuado convertirla en una mezquita?",
-              "fa": "و از او درباره خانه‌ای که مدتی توالت بوده پرسیده شد: آیا مناسب است که به مسجد تبدیل شود؟",
-              "fr": "On lui a demandé au sujet d'une maison qui avait été des latrines pendant un certain temps : est-il approprié d'en faire une mosquée ?",
-              "id": "Dan dia ditanya tentang sebuah rumah yang telah lama digunakan sebagai jamban: apakah layak untuk dijadikan masjid?",
-              "ru": "Его спросили о доме, который некоторое время был туалетом: можно ли его сделать мечетью?",
-              "tr": "Ve kendisine bir süre tuvalet olarak kullanılan bir ev hakkında soruldu: cami yapılması uygun mudur?",
-              "ur": "اور ان سے ایک گھر کے بارے میں پوچھا گیا جو کچھ عرصہ تک بیت الخلاء رہا: کیا اسے مسجد بنانے کے لیے مناسب ہے؟",
-              "zh": "有人问他关于一处曾经作为厕所使用了一段时间的房子：是否适合将其改建为清真寺？"
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "فَقَالَ «إِذَا نُظِّفَ وَأُصْلِحَ فَلَا بَأْسَ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তাহলে তিনি বললেন: \"যদি এটি পরিষ্কার এবং মেরামত করা হয়, তাহলে কোনো ক্ষতি নেই।\"",
-              "de": "Er sagte: „Wenn es gereinigt und repariert wird, ist nichts dagegen einzuwenden.“",
-              "en": "So he said: \"If it is cleaned and repaired, then there is no harm.\"",
-              "es": "Entonces dijo: \"Si se limpia y se repara, no hay problema.\"",
-              "fa": "پس فرمود: «اگر پاک شود و تعمیر گردد، ضرری ندارد.»",
-              "fr": "Il dit alors : « Si elle est nettoyée et réparée, il n'y a pas de mal. »",
-              "id": "Maka beliau berkata: \"Jika dibersihkan dan diperbaiki, maka tidak mengapa.\"",
-              "ru": "Он сказал: «Если его очистить и отремонтировать, то нет вреда.»",
-              "tr": "O da şöyle dedi: \"Eğer temizlenir ve tamir edilirse, sakıncası yoktur.\"",
-              "ur": "تو انہوں نے فرمایا: \"اگر اسے صاف کیا جائے اور مرمت کیا جائے، تو کوئی حرج نہیں۔\"",
-              "zh": "他说：“如果清理干净并修缮好，就没有问题。”"
-            },
             "word_end": 18,
             "word_start": 12
           }
@@ -86,27 +73,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أُصْلِحَ": "was repaired or restored to proper condition",
-            "بَيْتٍ": "a house or structure under discussion",
-            "حَشًّا": "a latrine or place used for relieving oneself",
-            "فَلَا بَأْسَ": "there is no harm or objection",
-            "مَسْجِدًا": "a mosque; a place designated for worship and sajdah (prostration)",
-            "نُظِّفَ": "was cleaned and purified from filth",
-            "يَصْلُحُ": "is suitable or valid for the intended use"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "بَيْتٍ",
+          "حَشًّا",
+          "يَصْلُحُ",
+          "مَسْجِدًا",
+          "نُظِّفَ",
+          "أُصْلِحَ",
+          "فَلَا بَأْسَ"
+        ],
         "related_quran": [
           {
             "ref": "2:125",
@@ -117,32 +92,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কোনো স্থান যা পূর্বে শৌচাগার হিসেবে ব্যবহৃত হত, সেটি কি মসজিদে পরিণত করা যেতে পারে?",
-          "de": "Kann ein Ort, der früher als Latrine genutzt wurde, in eine Moschee umgewandelt werden?",
-          "en": "Can a place that was formerly used as a latrine be turned into a mosque?",
-          "es": "¿Se puede convertir un lugar que antes fue un retrete en una mezquita?",
-          "fa": "آیا مکانی که قبلاً به عنوان توالت استفاده می‌شده می‌تواند به مسجد تبدیل شود؟",
-          "fr": "Un lieu qui était auparavant une latrine peut-il être transformé en mosquée ?",
-          "id": "Apakah tempat yang sebelumnya digunakan sebagai jamban bisa dijadikan masjid?",
-          "ru": "Можно ли место, которое раньше использовалось как туалет, превратить в мечеть?",
-          "tr": "Daha önce tuvalet olarak kullanılan bir yer camiye dönüştürülebilir mi?",
-          "ur": "کیا ایسی جگہ جو پہلے بیت الخلاء کے طور پر استعمال ہوتی تھی، اسے مسجد میں تبدیل کیا جا سکتا ہے؟",
-          "zh": "曾经用作厕所的地方可以改建为清真寺吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি এমন একটি স্থানের শারঈ হুকুম প্রদান করে যা পূর্বে শৌচাগার হিসেবে ব্যবহৃত হত। এটি নির্দেশ করে যে যদি সেই স্থানটি সঠিকভাবে পরিষ্কার ও মেরামত করা হয়, তবে সেটিকে মসজিদে পরিণত করতে কোনো আপত্তি নেই।",
-          "de": "Dieser Hadith gibt eine Rechtsmeinung zu einem Ort, der früher als Latrine genutzt wurde. Er zeigt, dass es kein Problem ist, daraus eine Moschee zu machen, wenn der Ort gereinigt und instand gesetzt wird.",
-          "en": "This hadith gives a legal ruling concerning a place formerly used as a latrine. It indicates that if such a place is properly cleaned and restored, there is no objection to making it into a mosque.",
-          "es": "Este hadiz da un fallo legal sobre un lugar que antes se usaba como retrete. Indica que si dicho lugar se limpia y restaura adecuadamente, no hay objeción para convertirlo en una mezquita.",
-          "fa": "این حدیث حکم شرعی درباره مکانی که قبلاً به عنوان توالت استفاده می‌شده، بیان می‌کند. اگر چنین مکانی به درستی پاک و بازسازی شود، اشکالی در تبدیل آن به مسجد نیست.",
-          "fr": "Ce hadith donne un jugement légal concernant un lieu anciennement utilisé comme latrines. Il indique que si ce lieu est correctement nettoyé et restauré, il n'y a pas d'objection à en faire une mosquée.",
-          "id": "Hadis ini memberikan hukum mengenai tempat yang sebelumnya digunakan sebagai jamban. Jika tempat tersebut dibersihkan dan diperbaiki dengan baik, tidak ada keberatan untuk menjadikannya masjid.",
-          "ru": "Этот хадис содержит правовое постановление относительно места, ранее использовавшегося как туалет. Он указывает, что если такое место тщательно очистить и восстановить, нет возражений против превращения его в мечеть.",
-          "tr": "Bu hadis, daha önce tuvalet olarak kullanılan bir yerle ilgili hukuki hüküm verir. Böyle bir yer uygun şekilde temizlenip onarılırsa, cami yapılmasına engel yoktur.",
-          "ur": "یہ حدیث ایک ایسی جگہ کے بارے میں شرعی حکم دیتی ہے جو پہلے بیت الخلاء کے طور پر استعمال ہوتی تھی۔ اس میں بتایا گیا ہے کہ اگر ایسی جگہ کو اچھی طرح صاف اور درست کیا جائے تو اسے مسجد بنانے میں کوئی اعتراض نہیں۔",
-          "zh": "这则圣训对曾经用作厕所的地方给出了法律裁决。它表明如果该地得到适当清洁和修复，改建为清真寺是没有问题的。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

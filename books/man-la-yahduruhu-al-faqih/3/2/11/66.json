@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ عَلَيْهِ السَّلَامُ :",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তিনি, তাঁর উপর শান্তি বর্ষিত হোক, বললেন:",
-              "de": "Und er, Friede sei mit ihm, sagte:",
-              "en": "And he, peace be upon him, said:",
-              "es": "Y él, la paz sea con él, dijo:",
-              "fa": "و او، سلام بر او باد، فرمود:",
-              "fr": "Et lui, que la paix soit sur lui, a dit :",
-              "id": "Dan beliau, semoga keselamatan atasnya, berkata:",
-              "ru": "И он, мир ему, сказал:",
-              "tr": "Ve o, Allah'ın selamı üzerine olsun, dedi ki:",
-              "ur": "اور انہوں نے، علیہ السلام، فرمایا:",
-              "zh": "他，愿他安息，说："
-            },
             "word_end": 5,
             "word_start": 0
           },
           {
             "arabic_text": "اَلْكَادُّ عَلَى عِيَالِهِ مِنْ حَلَالٍ كَالْمُجَاهِدِ فِي سَبِيلِ اللَّهِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে ব্যক্তি তার পরিবারের জন্য হালাল উপায়ে রোজগার করার চেষ্টা করে, সে আল্লাহর পথে যোদ্ধার মতো।",
-              "de": "Wer sich bemüht, seine Familie auf rechtmäßige Weise zu versorgen, ist wie ein Kämpfer auf dem Weg Allahs.",
-              "en": "The one who strives to provide for his family through lawful means is like a warrior in the path of Allah.",
-              "es": "Quien se esfuerza por proveer a su familia por medios lícitos es como un guerrero en el camino de Allah.",
-              "fa": "کسی که برای خانواده‌اش از راه حلال تلاش می‌کند مانند مجاهد در راه خداست.",
-              "fr": "Celui qui s'efforce de subvenir aux besoins de sa famille par des moyens licites est comme un guerrier sur le chemin d'Allah.",
-              "id": "Orang yang berusaha menyediakan nafkah keluarganya dengan cara yang halal seperti pejuang di jalan Allah.",
-              "ru": "Тот, кто старается обеспечивать свою семью законным способом, подобен воину на пути Аллаха.",
-              "tr": "Ailesi için helal yoldan geçimini sağlamaya çalışan kişi, Allah yolunda cihad eden bir savaşçı gibidir.",
-              "ur": "جو شخص حلال طریقے سے اپنے خاندان کے لیے روزی کمانے کی کوشش کرتا ہے وہ اللہ کے راستے میں جہاد کرنے والے کی مانند ہے۔",
-              "zh": "努力通过合法方式养家糊口的人如同在安拉道路上的战士。"
-            },
             "word_end": 14,
             "word_start": 5
           }
@@ -86,25 +73,13 @@
             "phrase_en": "The way of Allah"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "اَلْكَادُّ": "the one who exerts effort and works diligently",
-            "حَلَالٍ": "lawful and religiously permissible means of earning",
-            "سَبِيلِ اللَّهِ": "the path of Allah, meaning a cause devoted to Him",
-            "عِيَالِهِ": "his dependents or family members whom he supports",
-            "كَالْمُجَاهِدِ": "like one engaged in jihad"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "اَلْكَادُّ",
+          "عِيَالِهِ",
+          "حَلَالٍ",
+          "كَالْمُجَاهِدِ",
+          "سَبِيلِ اللَّهِ"
+        ],
         "related_quran": [
           {
             "ref": "2:168",
@@ -119,32 +94,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামে হালাল আয়ের মাধ্যমে পরিবারের দেখভালের পুরস্কার কী?",
-          "de": "Was ist die Belohnung im Islam dafür, die Familie durch halal Einkommen zu versorgen?",
-          "en": "What is the reward for providing for one’s family through halal earnings in Islam?",
-          "es": "¿Cuál es la recompensa en el Islam por proveer a la familia con ganancias halal?",
-          "fa": "در اسلام، پاداش تأمین خانواده از طریق کسب حلال چیست؟",
-          "fr": "Quelle est la récompense en Islam pour subvenir aux besoins de sa famille par des gains halal ?",
-          "id": "Apa pahala menyediakan nafkah keluarga melalui penghasilan halal dalam Islam?",
-          "ru": "Какое вознаграждение в исламе за обеспечение семьи халяльным заработком?",
-          "tr": "İslam'da helal kazançla ailesine bakmanın mükafatı nedir?",
-          "ur": "اسلام میں حلال کمائی سے اپنے خاندان کی کفالت کا کیا اجر ہے؟",
-          "zh": "在伊斯兰教中，通过合法收入养家有什么回报？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস শেখায় যে পরিবারের জন্য হালাল রোজগার করা বিশাল আধ্যাত্মিক মর্যাদা বহন করে। এটি দায়িত্বশীল পরিবার পালনকে আল্লাহর পথে জিহাদের মর্যাদায় উন্নীত করে, হালাল কাজ ও পরিবারের যত্নের মর্যাদা প্রদর্শন করে।",
-          "de": "Dieser Hadith lehrt, dass das Erwirtschaften eines erlaubten Lebensunterhalts für die Angehörigen großen spirituellen Verdienst hat. Er erhebt die verantwortungsvolle Familienversorgung zum Rang des Dschihad auf dem Weg Allahs und zeigt die Würde der halal Arbeit und Fürsorge für den Haushalt.",
-          "en": "This hadith teaches that earning a lawful livelihood for one’s dependents carries immense spiritual merit. It elevates responsible family provision to the rank of jihad in the path of Allah, showing the dignity of halal work and care for one’s household.",
-          "es": "Este hadiz enseña que ganar un sustento lícito para los dependientes tiene un gran mérito espiritual. Eleva la provisión responsable de la familia al rango de yihad en el camino de Allah, mostrando la dignidad del trabajo halal y el cuidado del hogar.",
-          "fa": "این حدیث آموزش می‌دهد که کسب روزی حلال برای خانواده دارای فضیلت معنوی عظیمی است. این مسئولیت تأمین خانواده را به مرتبه جهاد در راه خدا ارتقا می‌دهد و کرامت کار حلال و مراقبت از خانواده را نشان می‌دهد.",
-          "fr": "Ce hadith enseigne que gagner sa vie licitement pour ses proches porte un immense mérite spirituel. Il élève la responsabilité familiale au rang de jihad sur le chemin d'Allah, montrant la dignité du travail halal et du soin du foyer.",
-          "id": "Hadis ini mengajarkan bahwa mencari nafkah halal untuk keluarga memiliki pahala spiritual yang besar. Ini mengangkat tanggung jawab menyediakan keluarga ke derajat jihad di jalan Allah, menunjukkan kehormatan pekerjaan halal dan merawat keluarga.",
-          "ru": "Этот хадис учит, что зарабатывание законного пропитания для семьи имеет огромную духовную заслугу. Он возводит ответственное обеспечение семьи в ранг джихада на пути Аллаха, показывая достоинство халяльного труда и заботы о доме.",
-          "tr": "Bu hadis, ailesi için helal geçim sağlamanın büyük manevi değeri olduğunu öğretir. Sorumlu aile geçimini, Allah yolunda cihad mertebesine yükseltir ve helal iş ile aile bakımının onurunu gösterir.",
-          "ur": "یہ حدیث سکھاتی ہے کہ اپنے اہل خانہ کے لیے حلال روزی کمانا بہت بڑا روحانی ثواب رکھتا ہے۔ یہ ذمہ دارانہ کفالت کو اللہ کے راستے میں جہاد کے مرتبے پر فائز کرتا ہے، حلال کام اور گھر کی دیکھ بھال کی عزت کو ظاہر کرتا ہے۔",
-          "zh": "此圣训教导，为家人谋取合法生计具有巨大精神功德。它将负责任的家庭供养提升为安拉道路上的圣战，彰显清真工作和家庭关怀的尊严。"
-        },
         "tags": [
           "ethics",
           "family",

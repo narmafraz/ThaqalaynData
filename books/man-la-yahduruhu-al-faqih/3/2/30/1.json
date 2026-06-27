@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى أَبُو عَبْدِ اللَّهِ مُحَمَّدُ بْنُ خَالِدٍ الْبَرْقِيُّ رَضِيَ اللَّهُ عَنْهُ عَنْ وَهْبِ بْنِ وَهْبٍ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ أَبِيهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আবু আব্দুল্লাহ মুহাম্মদ ইবনে খালিদ আল-বারকী, আল্লাহ তাঁর প্রতি রاضی হন, ওহব ইবনে ওহব থেকে, ওহব ইবনে ওহব জাফর ইবনে মুহাম্মদ থেকে, জাফর ইবনে মুহাম্মদ তাঁর পিতা عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Abū ʿAbdillāh Muḥammad ibn Khālid al-Barqī, möge Allah mit ihm zufrieden sein, berichtete von Wahb ibn Wahb, von Jaʿfar ibn Muḥammad, von seinem Vater عليه السلام, der sagte:",
-              "en": "Abū ʿAbdillāh Muḥammad ibn Khālid al-Barqī, may Allah be pleased with him, narrated from Wahb ibn Wahb, from Jaʿfar ibn Muḥammad, from his father عليه السلام, who said:",
-              "es": "Abū ʿAbdillāh Muḥammad ibn Khālid al-Barqī, que Allah esté complacido con él, narró de Wahb ibn Wahb, de Jaʿfar ibn Muḥammad, de su padre عليه السلام, quien dijo:",
-              "fa": "ابو عبداللّه محمد بن خالد البرقی رضی الله عنه از وهب بن وهب، از جعفر بن محمد، از پدرش علیه السلام روایت کرده که فرمود:",
-              "fr": "Abū ʿAbdillāh Muḥammad ibn Khālid al-Barqī, qu’Allah soit satisfait de lui, a rapporté de Wahb ibn Wahb, de Jaʿfar ibn Muḥammad, de son père عليه السلام, qui a dit :",
-              "id": "Abū ʿAbdillāh Muḥammad ibn Khālid al-Barqī رضی الله عنه meriwayatkan dari Wahb ibn Wahb, dari Jaʿfar ibn Muḥammad, dari ayahnya علیه السلام, yang berkata:",
-              "ru": "Абу Абдиллах Мухаммад ибн Халид аль-Барки, да будет доволен им Аллах, передал от Вахба ибн Вахба, от Джафара ибн Мухаммада, от его отца عليه السلام, который сказал:",
-              "tr": "Ebu Abdillah Muhammed ibn Halid el-Barkî, Allah ondan razı olsun, Vehb ibn Vehb'den, Vehb ibn Vehb de Cafer ibn Muhammed'den, Cafer ibn Muhammed babasından (aleyhisselam) rivayet etti, şöyle dedi:",
-              "ur": "ابو عبداللہ محمد بن خالد البرقی رضی اللہ عنہ نے وہب بن وہب سے، وہب بن وہب نے جعفر بن محمد سے، جعفر بن محمد نے اپنے والد علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "阿布عبدالله穆罕默德伊本哈立德巴尔基愿安拉喜悦他传述自瓦赫卜伊本瓦赫卜自贾法尔伊本穆罕默德自其父عليهالسلام说："
-            },
             "word_end": 25,
             "word_start": 0
           },
           {
             "arabic_text": "لَا يَأْكُلُ مِنَ الضَّالَّةِ إِلَّا الضَّالُّونَ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "হারানো সম্পদ থেকে কেউ খায় না, শুধুমাত্র যারা নিজেরাই পথভ্রষ্ট।",
-              "de": "Niemand verzehrt von verlorenem Eigentum außer denen, die selbst irregeleitet sind.",
-              "en": "None consume from lost property except those who are themselves astray.",
-              "es": "Nadie consume de la propiedad perdida excepto aquellos que están extraviados.",
-              "fa": "هیچ‌کس از مال گمشده نمی‌خورد مگر کسانی که خود گمراه‌اند.",
-              "fr": "Nul ne consomme des biens perdus sauf ceux qui sont eux-mêmes égarés.",
-              "id": "Tidak ada yang memakan harta yang hilang kecuali orang-orang yang sesat.",
-              "ru": "Никто не потребляет из потерянного имущества, кроме тех, кто сам заблудился.",
-              "tr": "Kaybolmuş maldan yiyenler ancak sapmış olanlardır.",
-              "ur": "کوئی ضائع شدہ مال سے نہیں کھاتا مگر وہی جو خود گمراہ ہوں۔",
-              "zh": "除了迷失者无人食用失物。"
-            },
             "word_end": 31,
             "word_start": 25
           }
@@ -115,24 +102,12 @@
             "phrase_en": "May Allah be pleased with him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الضَّالَّةِ": "lost property or a stray item that has gone missing from its owner",
-            "الضَّالُّونَ": "those who are astray or misguided",
-            "قَالَ": "he said, introducing the transmitted statement",
-            "يَأْكُلُ": "consumes or takes benefit from"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الضَّالَّةِ",
+          "يَأْكُلُ",
+          "الضَّالُّونَ",
+          "قَالَ"
+        ],
         "related_quran": [
           {
             "ref": "2:188",
@@ -143,32 +118,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-বাকির عليه السلام হারানো সম্পদ থেকে খাওয়ার বিষয়ে কী বলেন?",
-          "de": "Was sagt Imam al-Baqir عليه السلام zum Verzehr von verlorenem Eigentum?",
-          "en": "What does Imam al-Baqir عليه السلام say about consuming from lost property?",
-          "es": "¿Qué dice el Imam al-Baqir عليه السلام sobre consumir de la propiedad perdida?",
-          "fa": "امام باقر علیه السلام درباره خوردن از مال گمشده چه می‌فرمایند؟",
-          "fr": "Que dit l’Imam al-Baqir عليه السلام à propos de la consommation des biens perdus ?",
-          "id": "Apa yang dikatakan Imam al-Baqir علیه السلام tentang memakan harta yang hilang?",
-          "ru": "Что говорит Имам аль-Бакр عليه السلام о потреблении потерянного имущества?",
-          "tr": "İmam el-Bakır علیه السلام kaybolmuş maldan yemeyle ilgili ne diyor?",
-          "ur": "امام الباقر علیہ السلام ضائع شدہ مال سے کھانے کے بارے میں کیا فرماتے ہیں؟",
-          "zh": "伊玛目الباقرعليهالسلام关于食用失物说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস হারানো সম্পদ থেকে অবৈধভাবে লাভ নেওয়ার নিন্দা করে। এটি এমন আচরণকে আইনগত ও নৈতিক পথভ্রষ্টতা হিসেবে উপস্থাপন করে এবং অন্যের সম্পদের অপব্যবহারকে পথভ্রষ্টতার সঙ্গে যুক্ত করে।",
-          "de": "Dieser Hadith verurteilt den unrechtmäßigen Nutzen aus verlorenem Eigentum. Er stellt ein solches Verhalten als rechtliche und moralische Abweichung dar und verbindet den Missbrauch fremden Eigentums mit Irregehen.",
-          "en": "This hadith condemns taking benefit from lost property unlawfully. It presents such conduct as both a legal and moral deviation, linking misuse of another's property with being astray.",
-          "es": "Este hadiz condena el beneficio ilícito de la propiedad perdida. Presenta tal conducta como una desviación legal y moral, vinculando el mal uso de la propiedad ajena con estar extraviado.",
-          "fa": "این حدیث بهره‌برداری غیرقانونی از مال گمشده را محکوم می‌کند. چنین رفتاری را انحراف قانونی و اخلاقی می‌داند و سوءاستفاده از مال دیگران را با گمراهی مرتبط می‌سازد.",
-          "fr": "Ce hadith condamne le fait de tirer profit illégalement des biens perdus. Il présente ce comportement comme une déviation à la fois légale et morale, liant la mauvaise utilisation des biens d’autrui à l’égarement.",
-          "id": "Hadis ini mengutuk pengambilan manfaat dari harta yang hilang secara tidak sah. Ia menggambarkan perilaku tersebut sebagai penyimpangan hukum dan moral, mengaitkan penyalahgunaan harta orang lain dengan kesesatan.",
-          "ru": "Этот хадис осуждает незаконное извлечение выгоды из потерянного имущества. Он рассматривает такое поведение как юридическое и моральное заблуждение, связывая злоупотребление чужой собственностью с заблуждением.",
-          "tr": "Bu hadis, kaybolmuş maldan haksız faydalanmayı kınar. Bu davranışı hem hukuki hem de ahlaki bir sapma olarak sunar ve başkasının malını kötüye kullanmayı sapmışlıkla ilişkilendirir.",
-          "ur": "یہ حدیث ضائع شدہ مال سے ناجائز فائدہ اٹھانے کی مذمت کرتی ہے۔ یہ عمل کو قانونی اور اخلاقی گمراہی قرار دیتی ہے اور دوسروں کی ملکیت کے ناجائز استعمال کو گمراہی سے جوڑتی ہے۔",
-          "zh": "此圣训谴责非法利用失物。将此行为视为法律与道德的偏差，将他人财产的滥用与迷失联系起来。"
-        },
         "tags": [
           "jurisprudence",
           "ethics",

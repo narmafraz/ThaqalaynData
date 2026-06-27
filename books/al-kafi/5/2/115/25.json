@@ -14,6 +14,124 @@
       "up": "/books/al-kafi:5:2:115"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "حُمَيْدُ بْنُ زِيَادٍ عَنِ الْحَسَنِ بْنِ مُحَمَّدِ بْنِ سَمَاعَةَ عَنْ غَيْرِ وَاحِدٍ عَنْ أَبَانِ بْنِ عُثْمَانَ عَنْ مُحَمَّدٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 19,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سُئِلَ عَنِ السَّيْفِ الْمُحَلَّى وَالسَّيْفِ الْحَدِيدِ الْمُمَوَّهِ يَبِيعُهُ بِالدَّرَاهِمِ قَالَ نَعَمْ وَبِالذَّهَبِ وَقَالَ إِنَّهُ يُكْرَهُ أَنْ يَبِيعَهُ بِنَسِيئَةٍ وَقَالَ إِذَا كَانَ الثَّمَنُ أَكْثَرَ مِنَ الْفِضَّةِ فَلَا بَأْسَ",
+            "chunk_type": "body",
+            "word_end": 46,
+            "word_start": 19
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 49,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "حُمَيْدُ بْنُ زِيَادٍ",
+              "name_en": "Humayd ibn Ziyad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 94,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحَسَنِ بْنِ مُحَمَّدِ بْنِ سَمَاعَةَ",
+              "name_en": "al-Hasan ibn Muhammad ibn Sama'a",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 84,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "غَيْرِ وَاحِدٍ",
+              "name_en": "more than one person",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 52,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبَانِ بْنِ عُثْمَانَ",
+              "name_en": "Aban ibn 'Uthman",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 127,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدٍ",
+              "name_en": "Muhammad",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [],
+        "key_terms_keys": [
+          "السَّيْفِ الْمُحَلَّى",
+          "السَّيْفِ الْحَدِيدِ الْمُمَوَّهِ",
+          "الدَّرَاهِمِ",
+          "الذَّهَبِ",
+          "بِنَسِيئَةٍ",
+          "الْفِضَّةِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:275",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:279",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "economy"
+        ],
+        "topics": [
+          "financial_law",
+          "halal_haram"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> كالموثق   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (9/313)"
       ],
@@ -85,7 +203,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:2:115:25",

@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رُوِيَ عَنْ عَمْرِو بْنِ شِمْرٍ عَنْ أَبِيهِ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং এটি ʿAmr ibn Shimr থেকে তার পিতা থেকে বর্ণিত হয়েছে, যিনি বললেন:",
-              "de": "Und es wurde von ʿAmr ibn Shimr, von seinem Vater, der sagte, überliefert:",
-              "en": "And it was narrated from ʿAmr ibn Shimr, from his father, who said:",
-              "es": "Y fue narrado de ʿAmr ibn Shimr, de su padre, quien dijo:",
-              "fa": "و از ʿAmr ibn Shimr، از پدرش روایت شده است که گفت:",
-              "fr": "Et il a été rapporté de ʿAmr ibn Shimr, de son père, qui a dit :",
-              "id": "Dan diriwayatkan dari ʿAmr ibn Shimr, dari ayahnya, yang berkata:",
-              "ru": "И было передано от ʿAmr ibn Shimr, от его отца, который сказал:",
-              "tr": "Ve bu, babasından ʿAmr ibn Shimr'den rivayet edilmiştir, şöyle dedi:",
-              "ur": "اور یہ روایت ہے عمرو بن شمّر سے، ان کے والد سے، جنہوں نے کہا:",
-              "zh": "据传自ʿAmribnShimr其父曰："
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "رَأَيْتُ أَبَا جَعْفَرٍ عَلَيْهِ السَّلَامُ وَ عَلَيْهِ بُرْدٌ مُخَفَّفٌ وَ هُوَ مُحْرِمٌ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবু জাফর عليه السلام কে হালকা বুর্দ পরিহিত অবস্থায় দেখেছি যখন তিনি ইহরামের অবস্থায় ছিলেন।",
-              "de": "Ich sah Abū Jaʿfar عليه السلام einen leichten Burd tragen, während er sich im Zustand des Ihram befand.",
-              "en": "I saw Abū Jaʿfar عليه السلام wearing a light burd while he was in the state of ihram.",
-              "es": "Vi a Abū Jaʿfar عليه السلام vistiendo un burd ligero mientras estaba en estado de ihram.",
-              "fa": "من ابوجعفر علیه السلام را دیدم که در حال احرام پوشش سبک بُردی به تن داشت.",
-              "fr": "J'ai vu Abū Jaʿfar عليه السلام portant un burd léger alors qu'il était en état d'ihram.",
-              "id": "Saya melihat Abū Jaʿfar علیه السلام mengenakan burd ringan saat beliau dalam keadaan ihram.",
-              "ru": "Я видел Абū Джаʿфар عليه السلام, одетого в легкий бурд, когда он находился в состоянии ихрам.",
-              "tr": "Ben Abū Jaʿfar عليه السلام'ı ihram halinde iken hafif bir burd giymiş olarak gördüm.",
-              "ur": "میں نے ابوجعفر علیہ السلام کو ہلکا بُرد پہنے ہوئے دیکھا جب وہ احرام کی حالت میں تھے۔",
-              "zh": "我见过AbūJaʿfarعليهالسلام在 ihram状态下穿着轻便的burd。"
-            },
             "word_end": 21,
             "word_start": 9
           }
@@ -101,26 +88,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبَا جَعْفَرٍ": "Abū Jaʿfar, the Imam being described",
-            "بُرْدٌ": "a cloak or outer garment",
-            "رُوِيَ": "it was narrated",
-            "عَمْرِو بْنِ شِمْرٍ": "ʿAmr ibn Shimr, a narrator in the chain",
-            "مُحْرِمٌ": "in the state of ihram",
-            "مُخَفَّفٌ": "lightweight or light"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رُوِيَ",
+          "عَمْرِو بْنِ شِمْرٍ",
+          "أَبَا جَعْفَرٍ",
+          "بُرْدٌ",
+          "مُخَفَّفٌ",
+          "مُحْرِمٌ"
+        ],
         "related_quran": [
           {
             "ref": "2:197",
@@ -131,32 +106,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইহরামের অবস্থায় আবু জাফর عليه السلام কী ধরনের পোশাক পরিহিত ছিলেন?",
-          "de": "Welche Art von Kleidung wurde bei Abū Jaʿfar عليه السلام im Zustand des Ihram gesehen?",
-          "en": "What kind of clothing was Abū Jaʿfar عليه السلام seen wearing while in the state of ihram?",
-          "es": "¿Qué tipo de ropa fue vista usando Abū Jaʿfar عليه السلام mientras estaba en estado de ihram?",
-          "fa": "ابوجعفر علیه السلام در حالت احرام چه نوع لباسی پوشیده بودند؟",
-          "fr": "Quel type de vêtement Abū Jaʿfar عليه السلام portait-il pendant l'état d'ihram ?",
-          "id": "Abū Jaʿfar عليه السلام saat dalam keadaan ihram terlihat mengenakan pakaian seperti apa?",
-          "ru": "В какой одежде был замечен Абū Джаʿфар عليه السلام во время состояния ихрам?",
-          "tr": "Abū Jaʿfar عليه السلام ihram halinde iken ne tür giysi giymiş olarak görüldü?",
-          "ur": "ابوجعفر علیہ السلام کو احرام کی حالت میں کس قسم کا لباس پہنے ہوئے دیکھا گیا؟",
-          "zh": "AbūJaʿfarعليهالسلام在 ihram状态下穿着什么样的服装？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি জানায় যে আবু জাফর عليه السلام ইহরামের অবস্থায় হালকা বুর্দ পরিহিত ছিলেন। এটি হজের ফিকহ এবং ইহরামের সময় কী পরিধান করা যায় তা সম্পর্কিত।",
-          "de": "Dieser Hadith berichtet, dass Abū Jaʿfar عليه السلام einen leichten Burd trug, während er sich im Zustand des Ihram befand. Er ist relevant für die Rechtswissenschaft des Hadsch und was während des Ihram getragen werden darf.",
-          "en": "This hadith reports that Abū Jaʿfar عليه السلام was seen wearing a light burd while in the state of ihram. It is relevant to the jurisprudence of hajj and what is permissible to wear during ihram.",
-          "es": "Este hadiz informa que Abū Jaʿfar عليه السلام fue visto vistiendo un burd ligero mientras estaba en estado de ihram. Es relevante para la jurisprudencia del hajj y lo que es permisible usar durante el ihram.",
-          "fa": "این حدیث گزارش می‌دهد که ابوجعفر علیه السلام در حال احرام پوشش سبک بُرد به تن داشته‌اند. این موضوع مرتبط با فقه حج و پوشش مجاز در احرام است.",
-          "fr": "Ce hadith rapporte qu'Abū Jaʿfar عليه السلام a été vu portant un burd léger pendant l'état d'ihram. Il est pertinent pour la jurisprudence du hajj et ce qui est permis de porter durant l'ihram.",
-          "id": "Hadis ini melaporkan bahwa Abū Jaʿfar عليه السلام terlihat mengenakan burd ringan saat dalam keadaan ihram. Ini relevan dengan fiqh haji dan apa yang diperbolehkan dipakai selama ihram.",
-          "ru": "Этот хадис сообщает, что Абū Джаʿфар عليه السلام был замечен в легком бурде во время состояния ихрам. Это важно для юриспруденции хаджа и того, что разрешено носить во время ихрама.",
-          "tr": "Bu hadis, Abū Jaʿfar عليه السلام'ın ihram halinde hafif bir burd giyerken görüldüğünü bildirir. Hac fıkhı ve ihram sırasında neyin giyilebileceği ile ilgilidir.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ ابوجعفر علیہ السلام کو احرام کی حالت میں ہلکا بُرد پہنے ہوئے دیکھا گیا۔ یہ حج کے فقہ اور احرام کے دوران پہننے کی اجازت کے متعلق ہے۔",
-          "zh": "此圣训报告AbūJaʿfarعليهالسلام在 ihram状态下穿着轻便的burd。与朝觐法学及 ihram期间允许穿着的服装相关。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَ مُحَمَّدُ بْنُ مُسْلِمٍ أَبَا جَعْفَرٍ عَلَيْهِ السَّلَامُ: عَنِ الرَّجُلِ تُؤْذِيهِ الدَّابَّةُ وَهُوَ يُصَلِّي قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবনে মুসলিম আবু জাফর عليه السلام-এর কাছে এমন একজন ব্যক্তির সম্পর্কে প্রশ্ন করলেন যাকে সালাত (নামাজ) করার সময় একটি প্রাণী কষ্ট দেয়। তিনি বললেন:",
-              "de": "Muḥammad ibn Muslim fragte Abū Jaʿfar عليه السلام nach einem Mann, den ein Tier während des Salat (Gebet) stört. Er sagte:",
-              "en": "Muḥammad ibn Muslim asked Abū Jaʿfar عليه السلام about a man whom a creature harms while he is performing salat (prayer). He said:",
-              "es": "Muḥammad ibn Muslim preguntó a Abū Jaʿfar عليه السلام sobre un hombre al que una criatura le hace daño mientras realiza la salat (oración). Él dijo:",
-              "fa": "محمد بن مسلم از ابوجعفر علیه السلام درباره مردی که در حال انجام نماز مورد آزار موجودی قرار می‌گیرد پرسید. ایشان فرمودند:",
-              "fr": "Muḥammad ibn Muslim a demandé à Abū Jaʿfar عليه السلام au sujet d’un homme qu’une créature dérange pendant qu’il accomplit la salat (prière). Il a dit :",
-              "id": "Muḥammad ibn Muslim bertanya kepada Abū Jaʿfar علیه السلام tentang seorang pria yang diganggu oleh makhluk saat sedang melaksanakan salat. Beliau berkata:",
-              "ru": "Мухаммад ибн Муслим спросил у Абу Джафара عليه السلام о человеке, которого во время салат (молитвы) беспокоит животное. Он сказал:",
-              "tr": "Muhammed ibn Muslim, Abū Jaʿfar عليه السلام'a, namaz kılarken bir yaratığın zarar verdiği bir adam hakkında sordu. Şöyle dedi:",
-              "ur": "محمد ابن مسلم نے ابو جعفر علیہ السلام سے اس شخص کے بارے میں پوچھا جسے نماز پڑھتے ہوئے کوئی جانور تکلیف پہنچائے۔ انہوں نے فرمایا:",
-              "zh": "穆罕默德本穆斯林向阿布贾法尔 عليه السلام询问一人在进行salat祈祷时被生物伤害的情况。他说："
-            },
             "word_end": 15,
             "word_start": 0
           },
           {
             "arabic_text": "«يُلْقِيهَا عَنْهُ إِنْ شَاءَ أَوْ يَدْفِنُهَا فِي الْحَصَى.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "সে ইচ্ছা করলে তাকে নিজের থেকে দূরে ফেলে দিতে পারে অথবা পাথরের মধ্যে পুঁতে দিতে পারে।",
-              "de": "Er kann es von sich wegwerfen, wenn er will, oder es in den Kies vergraben.",
-              "en": "\"He may cast it away from himself if he wishes, or bury it in the pebbles.\"",
-              "es": "Puede arrojarla lejos de sí mismo si quiere, o enterrarla en las piedras pequeñas.",
-              "fa": "او می‌تواند آن را از خود دور بیندازد یا در میان سنگریزه‌ها دفن کند.",
-              "fr": "Il peut la repousser loin de lui s’il le souhaite, ou l’enterrer dans les cailloux.",
-              "id": "Dia boleh melemparkannya jauh darinya jika dia mau, atau menguburnya di dalam kerikil.",
-              "ru": "Он может оттолкнуть его от себя, если захочет, или закопать в гальке.",
-              "tr": "İsterse onu kendisinden uzağa atabilir ya da çakılların içine gömebilir.",
-              "ur": "وہ چاہے تو اسے اپنے سے دور پھینک دے یا اسے کنکر میں دفن کر دے۔",
-              "zh": "他可以如果愿意将其扔开或埋入鹅卵石中。"
-            },
             "word_end": 23,
             "word_start": 15
           }
@@ -102,26 +89,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الدَّابَّةُ": "a creature or crawling animal that causes harm",
-            "الْحَصَى": "the pebbles or small stones on the ground",
-            "تُؤْذِيهِ": "harms him or causes him injury or annoyance",
-            "يَدْفِنُهَا": "he buries it",
-            "يُصَلِّي": "he is performing salat (prayer)",
-            "يُلْقِيهَا": "he throws it away or casts it off"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "تُؤْذِيهِ",
+          "الدَّابَّةُ",
+          "يُصَلِّي",
+          "يُلْقِيهَا",
+          "يَدْفِنُهَا",
+          "الْحَصَى"
+        ],
         "related_quran": [
           {
             "ref": "2:286",
@@ -132,32 +107,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "সালাতের সময় যদি কোনো ক্ষতিকারক প্রাণী বিরক্ত করে তবে একজন ব্যক্তিকে কী করা উচিত?",
-          "de": "Was soll eine Person tun, wenn sie während des Salat (Gebet) von einem schädlichen Tier gestört wird?",
-          "en": "What should a person do if a harmful creature bothers him during salat (prayer)?",
-          "es": "¿Qué debe hacer una persona si una criatura dañina le molesta durante la salat (oración)?",
-          "fa": "اگر موجودی مضر در هنگام نماز اذیت کند، شخص چه باید بکند؟",
-          "fr": "Que doit faire une personne si une créature nuisible la dérange pendant la salat (prière) ?",
-          "id": "Apa yang harus dilakukan seseorang jika makhluk berbahaya mengganggunya saat salat?",
-          "ru": "Что должен делать человек, если во время салат (молитвы) его беспокоит вредное существо?",
-          "tr": "Salat sırasında zararlı bir yaratık rahatsız ederse kişi ne yapmalıdır?",
-          "ur": "اگر نماز کے دوران کوئی مخلوق تکلیف دے تو انسان کو کیا کرنا چاہیے؟",
-          "zh": "如果在salat祈祷时有有害生物打扰，应当怎么办？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি সালাত (নামাজ) করার সময় যদি কোনো প্রাণী দ্বারা কষ্ট হয় তবে তার জন্য শারঈ বিধান দেয় যে সে প্রাণীটিকে দূরে সরিয়ে দিতে পারে বা পাথরের মধ্যে পুঁতে দিতে পারে, যা সালাতের সময় সীমিত ক্রিয়াকলাপের অনুমতি দেয় ক্ষতি থেকে রক্ষা করার জন্য।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung für jemanden, der während des Salat (Gebet) von einem Tier gestört wird. Er erlaubt, das schädliche Tier wegzuwerfen oder im Kies zu vergraben, was eine begrenzte Handlung während des Salat zur Vermeidung von Schaden erlaubt.",
-          "en": "This hadith gives a legal ruling for one performing salat (prayer) who is harmed by a creature during the prayer. It permits removing the harmful creature or burying it in the pebbles, showing allowance for limited action during salat (prayer) to prevent harm.",
-          "es": "Este hadiz da un fallo legal para quien realiza la salat (oración) y es molestado por una criatura durante la oración. Permite remover a la criatura dañina o enterrarla en las piedras pequeñas, mostrando permiso para una acción limitada durante la salat para evitar daño.",
-          "fa": "این حدیث حکم شرعی برای کسی که در حال انجام نماز مورد آزار موجودی قرار می‌گیرد را بیان می‌کند که می‌تواند آن موجود را دور کند یا در سنگریزه‌ها دفن کند، که اجازه حرکت محدود در نماز برای جلوگیری از آسیب را نشان می‌دهد.",
-          "fr": "Ce hadith donne un jugement légal pour celui qui accomplit la salat (prière) et est dérangé par une créature pendant la prière. Il permet d’éloigner la créature nuisible ou de l’enterrer dans les cailloux, montrant une permission d’action limitée pendant la salat pour éviter le mal.",
-          "id": "Hadis ini memberikan ketentuan hukum bagi orang yang sedang melaksanakan salat dan diganggu oleh makhluk, yang memperbolehkan mengusir makhluk tersebut atau menguburnya di kerikil, menunjukkan izin untuk tindakan terbatas selama salat guna mencegah bahaya.",
-          "ru": "Этот хадис даёт правовое постановление для того, кто во время салат (молитвы) испытывает вред от животного. Разрешается оттолкнуть вредителя или закопать его в гальке, что показывает разрешение на ограниченные действия во время салат для предотвращения вреда.",
-          "tr": "Bu hadis, salat (namaz) sırasında bir yaratığın zarar vermesi durumunda, kişinin onu uzaklaştırabileceği veya çakılların içine gömebileceği şeklinde hukuki hüküm verir; bu, zarar görmeyi önlemek için salat sırasında sınırlı hareket izni verir.",
-          "ur": "یہ حدیث نماز کے دوران کسی مخلوق کی تکلیف پہنچانے کی صورت میں شرعی حکم بیان کرتی ہے کہ نماز پڑھنے والا اسے دور کر سکتا ہے یا کنکر میں دفن کر سکتا ہے، جو نماز کے دوران محدود حرکت کی اجازت دیتی ہے تاکہ نقصان سے بچا جا سکے۔",
-          "zh": "此圣训为在salat祈祷时被生物伤害者提供法律裁决，允许将有害生物移开或埋入鹅卵石中，显示在salat期间为防止伤害而有限制的行动许可。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

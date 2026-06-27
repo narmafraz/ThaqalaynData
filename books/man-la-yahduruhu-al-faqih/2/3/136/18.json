@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسُئِلَ أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ: عَنْ هَرِمَةٍ قَدْ سَقَطَتْ ثَنَايَاهَا هَلْ تُجْزِي فِي الْأُضْحِيَّةِ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আবু জাফর عليه السلام থেকে একটি বৃদ্ধ পশু সম্পর্কে প্রশ্ন করা হয়েছিল যার সামনের দাঁত পড়ে গেছে: এটি কি কোরবানি হিসেবে যথেষ্ট হবে?",
-              "de": "Abu Jaʿfar عليه السلام wurde gefragt über ein altes Tier, dessen Vorderzähne ausgefallen waren: Reicht es für das Opfertier aus?",
-              "en": "Abu Jaʿfar عليه السلام was asked about an old animal whose front teeth had fallen out: would it suffice for the sacrificial offering?",
-              "es": "Se le preguntó a Abu Jaʿfar عليه السلام sobre un animal viejo cuyos dientes delanteros se habían caído: ¿sería suficiente para la ofrenda sacrificial?",
-              "fa": "از امام ابو جعفر علیه السلام درباره حیوان پیر که دندان‌های جلویی‌اش افتاده بود پرسیده شد: آیا برای قربانی کافی است؟",
-              "fr": "On demanda à Abu Jaʿfar عليه السلام au sujet d’un animal âgé dont les dents de devant étaient tombées : cela suffisait-il pour l’offrande sacrificielle ?",
-              "id": "Abu Jaʿfar عليه السلام ditanya tentang hewan tua yang gigi depannya telah tanggal: apakah itu cukup untuk kurban?",
-              "ru": "У Абу Джафара عليه السلام спросили о старом животном, у которого выпали передние зубы: достаточно ли оно для жертвоприношения?",
-              "tr": "Ebu Ca'fer عليه السلام'e, ön dişleri dökülmüş yaşlı bir hayvan hakkında soruldu: kurban için yeterli olur mu?",
-              "ur": "ابو جعفر علیہ السلام سے ایک بوڑھے جانور کے بارے میں پوچھا گیا جس کے اگلے دانت گر چکے تھے: کیا وہ قربانی کے لیے کافی ہوگا؟",
-              "zh": "有人问阿布贾法尔عليهالسلام关于一只前牙脱落的老动物：它是否足以作为牺牲？"
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "فَقَالَ «لَا بَأْسَ أَنْ يُضَحَّى بِهَا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: “এটি কোরবানি হিসেবে দেওয়ায় কোনো ক্ষতি নেই।”",
-              "de": "Er sagte: „Es ist kein Problem, es als Opfer darzubringen.“",
-              "en": "He said: “There is no harm in offering it as a sacrifice.”",
-              "es": "Él dijo: “No hay daño en ofrecerlo como sacrificio.”",
-              "fa": "فرمود: «در قربانی کردن آن هیچ ضرری نیست.»",
-              "fr": "Il dit : « Il n’y a pas de mal à l’offrir en sacrifice. »",
-              "id": "Beliau berkata: “Tidak ada salahnya untuk mengurbankan hewan itu.”",
-              "ru": "Он сказал: «Нет вреда в том, чтобы принести его в жертву.»",
-              "tr": "O şöyle dedi: “Onu kurban olarak sunmakta bir sakınca yoktur.”",
-              "ur": "انہوں نے فرمایا: \"اسے قربانی کے طور پر پیش کرنے میں کوئی حرج نہیں ہے۔\"",
-              "zh": "他说：“用它作牺牲没有问题。”"
-            },
             "word_end": 20,
             "word_start": 14
           }
@@ -91,27 +78,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْأُضْحِيَّةِ": "the sacrificial offering",
-            "تُجْزِي": "suffices or is valid",
-            "ثَنَايَاهَا": "its front teeth",
-            "سَقَطَتْ": "have fallen out",
-            "لَا بَأْسَ": "there is no harm; it is permissible",
-            "هَرِمَةٍ": "an aged female animal",
-            "يُضَحَّى": "to be offered as a sacrifice"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "هَرِمَةٍ",
+          "سَقَطَتْ",
+          "ثَنَايَاهَا",
+          "تُجْزِي",
+          "الْأُضْحِيَّةِ",
+          "لَا بَأْسَ",
+          "يُضَحَّى"
+        ],
         "related_quran": [
           {
             "ref": "22:34",
@@ -122,32 +97,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "সামনের দাঁত পড়ে যাওয়া বৃদ্ধ পশুকে উধিয়াহ কোরবানি হিসেবে দেওয়া কি جائز?",
-          "de": "Ist es erlaubt, ein altes Tier mit ausgefallenen Vorderzähnen als Udhiyah-Opfer darzubringen?",
-          "en": "Is it permissible to offer an old animal with fallen front teeth as an udhiyah sacrifice?",
-          "es": "¿Es permisible ofrecer un animal viejo con dientes delanteros caídos como sacrificio de udhiyah?",
-          "fa": "آیا قربانی اُضحیه برای حیوان پیر که دندان‌های جلویی‌اش افتاده است جایز است؟",
-          "fr": "Est-il permis d’offrir un animal âgé dont les dents de devant sont tombées comme sacrifice d’udhiyah ?",
-          "id": "Apakah diperbolehkan mengurbankan hewan tua yang gigi depannya telah tanggal sebagai udhiyah?",
-          "ru": "Можно ли приносить в жертву удхию старое животное с выпавшими передними зубами?",
-          "tr": "Ön dişleri dökülmüş yaşlı bir hayvanı udhiyye kurbanı olarak sunmak caiz midir?",
-          "ur": "کیا اُضحیٰ کے لیے ایسے بوڑھے جانور کی قربانی جائز ہے جس کے اگلے دانت گر چکے ہوں؟",
-          "zh": "前牙脱落的老动物可以作为牺牲（udhiyah）吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস কোরবানির পশু সম্পর্কে একটি শারঈ সিদ্ধান্ত প্রদান করে। ইমাম আবু জাফর عليه السلام বলেন যে একটি বৃদ্ধ পশু যার সামনের দাঁত পড়ে গেছে, তা উধিয়াহর জন্য গ্রহণযোগ্য, যা এই ক্ষেত্রে অনুমতির ইঙ্গিত দেয়।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bezüglich Opfertieren. Imam Abu Jaʿfar عليه السلام erklärt, dass ein altes Tier, dessen Vorderzähne ausgefallen sind, für die Udhiyah akzeptabel ist, was die Zulässigkeit in diesem Fall anzeigt.",
-          "en": "This hadith gives a legal ruling concerning sacrificial animals. Imam Abu Jaʿfar عليه السلام states that an old animal whose front teeth have fallen out is still acceptable for the udhiyah, indicating permissibility in this case.",
-          "es": "Este hadiz ofrece un fallo legal sobre los animales para sacrificio. El Imam Abu Jaʿfar عليه السلام afirma que un animal viejo cuyos dientes delanteros se han caído sigue siendo aceptable para el udhiyah, indicando permisibilidad en este caso.",
-          "fa": "این حدیث حکم شرعی درباره حیوانات قربانی را بیان می‌کند. امام ابو جعفر علیه السلام می‌فرماید حیوان پیر که دندان‌های جلویی‌اش افتاده است، برای اُضحیه پذیرفته است و این نشان‌دهنده جواز در این مورد است.",
-          "fr": "Ce hadith donne un jugement légal concernant les animaux sacrificiels. L’Imam Abu Jaʿfar عليه السلام déclare qu’un animal âgé dont les dents de devant sont tombées est toujours acceptable pour l’udhiyah, indiquant la permissibilité dans ce cas.",
-          "id": "Hadis ini memberikan hukum terkait hewan kurban. Imam Abu Jaʿfar عليه السلام menyatakan bahwa hewan tua yang gigi depannya telah tanggal masih diterima untuk udhiyah, menunjukkan bolehnya dalam kasus ini.",
-          "ru": "Этот хадис даёт правовое заключение относительно жертвенных животных. Имам Абу Джафар عليه السلام утверждает, что старое животное, у которого выпали передние зубы, всё ещё приемлемо для удхии, что указывает на допустимость в этом случае.",
-          "tr": "Bu hadis, kurbanlık hayvanlarla ilgili hukuki bir hüküm verir. İmam Ebu Ca'fer عليه السلام, ön dişleri dökülmüş yaşlı bir hayvanın da udhiyye için kabul edilebilir olduğunu belirterek bu durumda izin verildiğini ifade eder.",
-          "ur": "یہ حدیث قربانی کے جانوروں کے بارے میں شرعی حکم دیتی ہے۔ امام ابو جعفر علیہ السلام فرماتے ہیں کہ ایک بوڑھا جانور جس کے اگلے دانت گر چکے ہوں، وہ بھی اُضحیٰ کے لیے قابل قبول ہے، جو اس صورت میں جواز کی نشاندہی کرتا ہے۔",
-          "zh": "这则圣训对牺牲动物给出了法律裁决。伊玛目阿布贾法尔عليهالسلام指出，前牙脱落的老动物仍然适合用作牺牲，表明在此情况下是允许的。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

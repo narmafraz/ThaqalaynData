@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى مُحَمَّدُ بْنُ مُسْلِمٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবনে মুসলিম আবু জাফর عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Muhammad ibn Muslim berichtete von Abu Ja'far عليه السلام, der sagte:",
-              "en": "Muhammad ibn Muslim narrated from Abu Ja'far عليه السلام, who said:",
-              "es": "Muhammad ibn Muslim narró de Abu Ja'far عليه السلام, quien dijo:",
-              "fa": "محمد بن مسلم از ابوجعفر علیه السلام روایت کرده است که فرمود:",
-              "fr": "Muhammad ibn Muslim a rapporté d'Abu Ja'far عليه السلام, qui a dit :",
-              "id": "Muhammad ibn Muslim meriwayat dari Abu Ja'far علیه السلام, yang berkata:",
-              "ru": "Мухаммад ибн Муслим передал от Абу Джафара عليه السلام, который сказал:",
-              "tr": "Muhammed ibn Muslim, Ebu Cafer عليه السلام'dan rivayet etti, şöyle dedi:",
-              "ur": "محمد ابن مسلم نے ابو جعفر علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "穆罕默德本穆斯林从阿布贾法尔عليهالسلام传述，他说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "«الْمَرْأَةُ تُصَلِّي فِي الدِّرْعِ وَ الْمِقْنَعَةِ إِذَا كَانَ كَثِيفًا يَعْنِي سَتِيرًا.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“একজন নারী যদি দিরʿ এবং মিকনাʿআহ পরিধান করে এবং তা ঘন হয়, অর্থাৎ আড়ালকারী, তাহলে সে সালাত পড়ে।”",
-              "de": "„Eine Frau verrichtet das Salat (Gebet) in einem dirʿ und miqnaʿah, wenn es dick ist, das heißt bedeckend.“",
-              "en": "“A woman performs salat (prayer) in a dirʿ and a miqnaʿah if it is thick, meaning concealing.”",
-              "es": "“Una mujer realiza la salat (oración) en un dirʿ y un miqnaʿah si es grueso, es decir, que cubre.”",
-              "fa": "«زن در حال نماز در درع و مقنعه نماز می‌خواند اگر ضخیم باشد، یعنی پوشاننده.»",
-              "fr": "«Une femme accomplit la salat (prière) dans un dirʿ et un miqnaʿah s'ils sont épais, c’est-à-dire couvrants.»",
-              "id": "“Seorang wanita melaksanakan salat dalam dirʿ dan miqnaʿah jika kainnya tebal, artinya menutupi.”",
-              "ru": "«Женщина совершает салат (молитву) в дираʿ и микнаʿах, если они плотные, то есть скрывающие.»",
-              "tr": "“Bir kadın, dirʿ ve miqnaʿah içinde namaz kılar, eğer kalınsa, yani örten.”",
-              "ur": "‘‘ایک عورت درع اور مقنعہ میں نماز پڑھتی ہے اگر وہ گاڑھا ہو، یعنی پردہ کرنے والا۔’’",
-              "zh": "“妇女在dirʿ和miqnaʿah中礼拜，如果它厚重，意为遮盖。”"
-            },
             "word_end": 22,
             "word_start": 11
           }
@@ -92,26 +79,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الدِّرْعِ": "a dress or long garment worn by a woman",
-            "الْمَرْأَةُ": "the woman; the subject of the ruling regarding salat (prayer)",
-            "الْمِقْنَعَةِ": "a head covering",
-            "تُصَلِّي": "performs salat (prayer)",
-            "سَتِيرًا": "concealing; providing proper cover",
-            "كَثِيفًا": "thick; not thin or transparent"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمَرْأَةُ",
+          "تُصَلِّي",
+          "الدِّرْعِ",
+          "الْمِقْنَعَةِ",
+          "كَثِيفًا",
+          "سَتِيرًا"
+        ],
         "related_quran": [
           {
             "ref": "24:31",
@@ -122,32 +97,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-বাকির عليه السلام অনুযায়ী নারীর সালাতের জন্য কোন পোশাক যথেষ্ট?",
-          "de": "Welche Kleidung ist für das Salat (Gebet) einer Frau nach Imam al-Baqir عليه السلام ausreichend?",
-          "en": "What clothing is sufficient for a woman’s salat (prayer) according to Imam al-Baqir عليه السلام?",
-          "es": "¿Qué ropa es suficiente para la salat (oración) de una mujer según el Imam al-Baqir عليه السلام?",
-          "fa": "بر اساس امام باقر علیه السلام، چه لباسی برای نماز زن کافی است؟",
-          "fr": "Quels vêtements sont suffisants pour la salat (prière) d'une femme selon l'Imam al-Baqir عليه السلام ?",
-          "id": "Menurut Imam al-Baqir عليه السلام, pakaian apa yang cukup untuk salat wanita?",
-          "ru": "Какая одежда достаточна для женской салат (молитвы) согласно Имаму аль-Бакиру عليه السلام?",
-          "tr": "İmam el-Bakır عليه السلام'a göre bir kadının namazı için hangi giysi yeterlidir?",
-          "ur": "امام الباقر علیہ السلام کے مطابق عورت کی نماز کے لیے کون سا لباس کافی ہے؟",
-          "zh": "根据伊玛目al-Baqirعليهالسلام，妇女礼拜穿什么服装足够？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি নারীর সালাতের পোশাক সম্পর্কে শারঈ বিধান প্রদান করে, যা বলে যে দিরʿ এবং মিকনাʿআহ পরিধান করলে যথেষ্ট যদি পোশাক ঘন এবং আড়ালকারী হয়। এর গুরুত্ব শিয়া ফিকহে নারীর সালাতের জন্য সঠিক আচ্ছাদনের শর্ত স্পষ্ট করা।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bezüglich der Kleidung einer Frau im Salat (Gebet) und besagt, dass das Beten in einem dirʿ und miqnaʿah ausreichend ist, wenn das Kleidungsstück dick und bedeckend ist. Die Bedeutung liegt in der Klarstellung der Bedingung für angemessene Bedeckung von Frauen im Gebet im schiitischen Fiqh.",
-          "en": "This hadith gives a legal ruling about a woman’s dress in salat (prayer), stating that praying in a dirʿ and a miqnaʿah is sufficient when the garment is thick and concealing. Its significance lies in clarifying the condition of proper covering for women in prayer within Shia fiqh.",
-          "es": "Este hadiz da un fallo legal sobre la vestimenta de la mujer en la salat (oración), indicando que orar con un dirʿ y un miqnaʿah es suficiente cuando la prenda es gruesa y cubriente. Su importancia radica en aclarar la condición de la cobertura adecuada para mujeres en la oración dentro del fiqh chií.",
-          "fa": "این حدیث حکم شرعی درباره پوشش زن در نماز را بیان می‌کند که نماز خواندن در درع و مقنعه کافی است اگر لباس ضخیم و پوشاننده باشد. اهمیت آن در روشن کردن شرایط پوشش مناسب زن در نماز در فقه شیعه است.",
-          "fr": "Ce hadith donne un jugement légal concernant le vêtement d'une femme en salat (prière), indiquant que prier dans un dirʿ et un miqnaʿah est suffisant lorsque le vêtement est épais et couvrant. Son importance réside dans la clarification de la condition de la couverture appropriée pour les femmes en prière dans le fiqh chiite.",
-          "id": "Hadis ini memberikan ketentuan hukum tentang pakaian wanita dalam salat, menyatakan bahwa salat dengan dirʿ dan miqnaʿah sudah cukup jika pakaian tersebut tebal dan menutupi. Pentingnya terletak pada penjelasan syarat penutup yang tepat bagi wanita dalam salat menurut fikih Syiah.",
-          "ru": "Этот хадис даёт правовое постановление о женской одежде в салате (молитве), утверждая, что молитва в дираʿ и микнаʿах достаточна, если одежда плотная и скрывающая. Его значение в разъяснении условий надлежащего покрытия женщин в молитве в шиитском фикхе.",
-          "tr": "Bu hadis, bir kadının namazda giyeceği kıyafet hakkında hukuki hüküm verir; giysi kalın ve örten ise dirʿ ve miqnaʿah içinde namaz kılmak yeterlidir. Önemi, Şii fıkhında kadınların namazda uygun örtünme şartını açıklamasındadır.",
-          "ur": "یہ حدیث عورت کے لباس کے بارے میں شرعی حکم بیان کرتی ہے کہ نماز میں درع اور مقنعہ کا پہننا کافی ہے اگر لباس گاڑھا اور پردہ کرنے والا ہو۔ اس کی اہمیت شیعہ فقہ میں عورت کے نماز کے لیے مناسب پردہ کی وضاحت میں ہے۔",
-          "zh": "此圣训关于妇女礼拜服饰给出法律裁定，指出当服装厚重且遮盖时，穿着dirʿ和miqnaʿah礼拜即足够。其重要性在于阐明什叶派教法中妇女礼拜适当遮盖的条件。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

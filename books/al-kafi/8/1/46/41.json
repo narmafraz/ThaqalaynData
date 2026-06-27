@@ -15,6 +15,100 @@
       "up": "/books/al-kafi:8:1:46"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "أَبَانٌ عَنْ عُمَرَ بْنِ يَزِيدَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 6,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قُلْتُ لِأَبِي عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) إِنَّ الْمُغِيرِيَّةَ يَزْعُمُونَ أَنَّ هَذَا الْيَوْمَ لِهَذِهِ اللَّيْلَةِ الْمُسْتَقْبَلَةِ فَقَالَ كَذَبُوا هَذَا الْيَوْمُ لِلَّيْلَةِ الْمَاضِيَةِ إِنَّ أَهْلَ بَطْنِ نَخْلَةَ حَيْثُ رَأَوُا الْهِلَالَ قَالُوا قَدْ دَخَلَ الشَّهْرُ الْحَرَامُ.",
+            "chunk_type": "body",
+            "word_end": 39,
+            "word_start": 6
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 46,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبَانٌ",
+              "name_en": "Aban",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 120,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عُمَرَ بْنِ يَزِيدَ",
+              "name_en": "Umar ibn Yazid",
+              "position": 2,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الْمُغِيرِيَّةَ",
+          "الْهِلَالَ",
+          "الشَّهْرُ الْحَرَامُ",
+          "بَطْنِ نَخْلَةَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:189",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:185",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "worship",
+          "knowledge"
+        ],
+        "topics": [
+          "fasting_rulings",
+          "scholars_virtues",
+          "hadith_sciences"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مهول</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 485)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -23,10 +117,6 @@
       "local_index": 41,
       "narrator_chain": {
         "parts": [
-          {
-            "kind": "plain",
-            "text": "14965- "
-          },
           {
             "kind": "narrator",
             "path": "/people/narrators/46",
@@ -64,7 +154,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:46:41",

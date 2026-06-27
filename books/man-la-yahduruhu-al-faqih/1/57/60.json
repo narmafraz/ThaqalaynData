@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى أَبُو أُسَامَةَ: أَنَّهُ سَأَلَهُ عَنْ رَجُلٍ اِنْتَهَى إِلَى الْإِمَامِ وَ هُوَ رَاكِعٌ، قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আবু উসামাহ বর্ণনা করেছেন যে তিনি তাকে এমন একজন ব্যক্তির সম্পর্কে জিজ্ঞাসা করেছিলেন যিনি ইমামের কাছে পৌঁছেছিলেন যখন তিনি রুকু'তে ছিলেন; তিনি বললেন:",
-              "de": "Abu Usāmah berichtete, dass er ihn nach einem Mann fragte, der den Imam erreichte, während dieser sich im Rukūʿ befand; er sagte:",
-              "en": "Abu Usāmah narrated that he asked him about a man who reached the Imam while he was bowing; he said:",
-              "es": "Abu Usāmah narró que le preguntó acerca de un hombre que alcanzó al Imam mientras estaba en ruku'; dijo:",
-              "fa": "ابو اسامه روایت کرد که از او درباره مردی که هنگام رکوع به امام رسید پرسید؛ گفت:",
-              "fr": "Abu Usāmah a rapporté qu'il lui a demandé au sujet d'un homme qui a rejoint l'Imam alors qu'il était en rukūʿ ; il a dit :",
-              "id": "Abu Usāmah meriwayatkan bahwa dia bertanya tentang seorang pria yang sampai kepada Imam saat beliau sedang ruku'; dia berkata:",
-              "ru": "Абу Усама передал, что он спросил его о человеке, который присоединился к Имаму, когда тот был в руку'; он сказал:",
-              "tr": "Ebu Usâme rivayet etti ki, imam rükûda iken ona bir adam hakkında sordu; dedi ki:",
-              "ur": "ابو اسامہ نے روایت کیا کہ انہوں نے اس سے اس شخص کے بارے میں پوچھا جو امام کے پاس پہنچا جب وہ رکوع میں تھا؛ انہوں نے کہا:",
-              "zh": "阿布乌萨马传述说他问他关于一个人在伊玛目鞠躬时赶上他的事；他说："
-            },
             "word_end": 15,
             "word_start": 0
           },
           {
             "arabic_text": "«إِذَا كَبَّرَ وَ أَقَامَ صُلْبَهُ ثُمَّ رَكَعَ فَقَدْ أَدْرَكَ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি সে তকবীর বলে, পিঠ সোজা করে, তারপর রুকু' করে, তবে সে পৌঁছে গেছে।",
-              "de": "Wenn er den Takbīr ausspricht, seinen Rücken gerade macht und dann in den Rukūʿ geht, hat er aufgeholt.",
-              "en": "\"If he pronounces the takbir, straightens his back, then bows, he has caught up.\"",
-              "es": "Si pronuncia el takbir, endereza su espalda y luego hace el ruku', ha alcanzado.",
-              "fa": "اگر تکبیر بگوید، پشت خود را صاف کند و سپس رکوع کند، به رکعت رسیده است.",
-              "fr": "S'il prononce le takbīr, redresse son dos, puis fait le rukūʿ, il a rattrapé.",
-              "id": "Jika dia mengucapkan takbir, meluruskan punggungnya, lalu ruku', dia telah mengejar.",
-              "ru": "Если он произнесет такбир, выпрямит спину, а затем сделает руку', он догнал.",
-              "tr": "Eğer tekbir getirir, sırtını doğrultur ve sonra rükû yaparsa, yakalamış olur.",
-              "ur": "اگر وہ تکبیر کہے، اپنی کمر سیدھی کرے، پھر رکوع کرے، تو وہ پہنچ چکا ہے۔",
-              "zh": "如果他念 takbir，挺直背部，然后鞠躬，他就赶上了。"
-            },
             "word_end": 24,
             "word_start": 15
           }
@@ -106,27 +93,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَدْرَكَ": "caught up with or attained the rak'ah",
-            "أَقَامَ": "made upright or established properly",
-            "الْإِمَامِ": "the prayer leader in congregational salat",
-            "رَاكِعٌ": "being in the state of ruku' (bowing)",
-            "رَكَعَ": "performed ruku' (bowed)",
-            "صُلْبَهُ": "his back, meaning his posture was straightened",
-            "كَبَّرَ": "pronounced the opening takbir"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْإِمَامِ",
+          "رَاكِعٌ",
+          "كَبَّرَ",
+          "أَقَامَ",
+          "صُلْبَهُ",
+          "رَكَعَ",
+          "أَدْرَكَ"
+        ],
         "related_quran": [
           {
             "ref": "2:43",
@@ -137,32 +112,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কেউ ইমামের সাথে রুকু'তে যোগ দেয় তবে সে কীভাবে রাকআত ধরবে?",
-          "de": "Wie fängt eine Person die Rakʿah auf, wenn sie sich dem Imam anschließt, während dieser im Rukūʿ ist?",
-          "en": "How does a person catch the rak'ah if he joins the Imam while the Imam is in ruku'?",
-          "es": "¿Cómo alcanza una persona la rak'ah si se une al Imam mientras el Imam está en ruku'?",
-          "fa": "اگر کسی هنگام رکوع امام به او بپیوندد، چگونه رکعت را می‌گیرد؟",
-          "fr": "Comment une personne rattrape-t-elle la rakʿah si elle rejoint l'Imam alors que celui-ci est en rukūʿ ?",
-          "id": "Bagaimana seseorang mengejar rakaat jika dia bergabung dengan Imam saat Imam sedang ruku'?",
-          "ru": "Как человек догоняет ракаат, если он присоединяется к Имаму, когда тот в руку'?",
-          "tr": "Bir kişi imam rükûdayken ona katılırsa rek'ati nasıl yakalar?",
-          "ur": "اگر کوئی شخص امام کے ساتھ رکوع میں شامل ہو تو وہ رکعت کیسے پہنچتا ہے؟",
-          "zh": "如果一个人在伊玛目鞠躬时加入，他如何赶上礼拜单位？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি জামাতের সালাতে যোগদানের শারঈ বিধান দেয় যখন ইমাম ইতিমধ্যেই রুকু'তে থাকে। এটি বলে যে যদি ব্যক্তি তকবীর বলে, সঠিকভাবে দাঁড়ায় এবং তারপর রুকু' করে, তবে সে রাকআত ধরেছে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung zum Nachholen des Gebets, wenn der Imam bereits im Rukūʿ ist. Er besagt, dass wenn die Person den Takbīr sagt, sich richtig aufrichtet und dann in den Rukūʿ geht, sie die Rakʿah erreicht hat.",
-          "en": "This hadith gives a legal ruling about joining congregational salat when the Imam is already in ruku'. It states that if the person says the takbir, stands upright properly, and then performs ruku', he is considered to have caught the rak'ah.",
-          "es": "Este hadiz da un fallo legal sobre unirse a la salat congregacional cuando el Imam ya está en ruku'. Indica que si la persona dice el takbir, se pone de pie correctamente y luego hace ruku', se considera que ha alcanzado la rak'ah.",
-          "fa": "این حدیث حکم شرعی درباره پیوستن به نماز جماعت وقتی امام در رکوع است را بیان می‌کند. اگر شخص تکبیر بگوید، به درستی بایستد و سپس رکوع کند، رکعت را گرفته است.",
-          "fr": "Ce hadith donne un jugement légal concernant le fait de rejoindre la salat en congrégation lorsque l'Imam est déjà en rukūʿ. Il stipule que si la personne prononce le takbīr, se redresse correctement, puis fait le rukūʿ, elle est considérée comme ayant rattrapé la rakʿah.",
-          "id": "Hadis ini memberikan hukum tentang bergabung dalam salat berjamaah ketika Imam sudah dalam ruku'. Jika seseorang mengucapkan takbir, berdiri tegak dengan benar, lalu ruku', dia dianggap telah mengejar rakaat.",
-          "ru": "Этот хадис даёт правовое постановление о присоединении к коллективной саляту, когда Имам уже в руку'. Он говорит, что если человек произнесет такбир, встанет прямо и затем сделает руку', он считается догнавшим ракаат.",
-          "tr": "Bu hadis, imam rükûda iken cemaat namazına katılma hakkında hukuki hüküm verir. Kişi takbîr getirip düzgünce ayağa kalkıp sonra rükû yaparsa, o rek'ati yakalamış sayılır.",
-          "ur": "یہ حدیث جماعت کی نماز میں شامل ہونے کے بارے میں شرعی حکم دیتی ہے جب امام پہلے ہی رکوع میں ہو۔ یہ بیان کرتی ہے کہ اگر شخص تکبیر کہے، صحیح طریقے سے کھڑا ہو، اور پھر رکوع کرے، تو اسے رکعت پہنچ چکی ہے۔",
-          "zh": "这段圣训对在伊玛目已在鞠躬时加入集体礼拜给出了法律裁决。它说明如果此人念 takbir，正确站立，然后鞠躬，则视为赶上了礼拜单位。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

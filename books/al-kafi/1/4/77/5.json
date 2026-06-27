@@ -21,42 +21,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَلِيُّ بْنُ مُحَمَّدٍ عَنْ فَتْحٍ مَوْلَى الزُّرَارِيِّ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী ইবন মুহাম্মদ, ফাতহ থেকে, যিনি আল-জুরারীর মাওলা ছিলেন, তিনি বলেন:",
-              "de": "ʿAlī ibn Muḥammad, von Fatḥ, dem mawlā von al-Zurārī, der sagte:",
-              "en": "ʿAlī ibn Muḥammad, from Fatḥ, the mawlā of al-Zurārī, who said:",
-              "es": "ʿAlī ibn Muḥammad, de Fatḥ, el mawlá de al-Zurārī, quien dijo:",
-              "fa": "علی بن محمد، از فتح، مولای زراری، که گفت:",
-              "fr": "ʿAlī ibn Muḥammad, d’après Fatḥ, le mawlā d’al-Zurārī, qui a dit :",
-              "id": "Ali ibn Muhammad, dari Fath, maula al-Zurari, yang berkata:",
-              "ru": "ʿАли ибн Мухаммад, от Фатха, мауля аль-Зурари, который сказал:",
-              "tr": "Ali ibn Muhammed, el-Zurârî’nin mevlası Feth’ten, şöyle dedi:",
-              "ur": "علی بن محمد، فتح سے، جو الزراری کے مولیٰ تھے، انہوں نے کہا:",
-              "zh": "阿里·伊本·穆罕默德，传自法特赫，即祖拉里之毛拉，他说："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "سَمِعْتُ أَبَا عَلِيِّ بْنَ مُطَهَّرٍ يَذْكُرُ أَنَّهُ قَدْ رَآهُ، وَوَصَفَ لَهُ قَدَّهُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবূ আলী ইবন মুṭাহহারকে বলতে শুনেছি যে, তিনি সত্যিই তাকে عليه السلام দেখেছিলেন, এবং তিনি তার দেহাকৃতি তার কাছে বর্ণনা করেছিলেন।",
-              "de": "Ich hörte Abū ʿAlī ibn Muṭahhar erwähnen, dass er ihn tatsächlich عليه السلام gesehen hatte, und er beschrieb ihm seine Statur.",
-              "en": "I heard Abū ʿAlī ibn Muṭahhar mention that he had indeed seen him عليه السلام, and he described his stature to him.",
-              "es": "Escuché a Abū ʿAlī ibn Muṭahhar mencionar que, en efecto, lo había visto عليه السلام, y le describió su estatura.",
-              "fa": "شنیدم ابوعلی بن مطهر یاد می‌کرد که او را عليه السلام واقعاً دیده است و قامت او را برایش وصف کرد.",
-              "fr": "J’ai entendu Abū ʿAlī ibn Muṭahhar mentionner qu’il l’avait bel et bien vu عليه السلام, et il lui décrivit sa stature.",
-              "id": "Aku mendengar Abū ʿAlī ibn Muṭahhar menyebutkan bahwa ia memang telah melihatnya عليه السلام, dan ia menggambarkan posturnya kepadanya.",
-              "ru": "Я слышал, как Абу ʿАли ибн Мутаҳхар упоминал, что он действительно видел его عليه السلام, и он описал ему его телосложение.",
-              "tr": "Ebû ʿAlî ibn Muṭahhar’ın, onu عليه السلام gerçekten gördüğünü ve onun boyunu kendisine anlattığını zikrettiğini işittim.",
-              "ur": "میں نے ابو علی بن مطہر کو یہ ذکر کرتے ہوئے سنا کہ بے شک انہوں نے اسے عليه السلام دیکھا تھا، اور انہوں نے اس کے قد و قامت کا ان سے ذکر کیا۔",
-              "zh": "我听阿布·阿里·伊本·穆塔哈尔提到，他确已见过他 عليه السلام，并向他描述了他的身材。"
-            },
             "word_end": 20,
             "word_start": 8
           }
@@ -89,53 +76,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبَا عَلِيِّ": "Abū ʿAlī; the named individual being reported from",
-            "بْنَ مُطَهَّرٍ": "ibn Muṭahhar; identifying the narrator mentioned in the report",
-            "رَآهُ": "he saw him; indicating claimed direct sighting",
-            "سَمِعْتُ": "I heard; indicating direct auditory reception from the speaker",
-            "قَدَّهُ": "his stature or height; a description of physical build",
-            "مَوْلَى": "client/freedman/affiliate; describing Fatḥ’s relation to al-Zurārī"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "سَمِعْتُ",
+          "أَبَا عَلِيِّ",
+          "بْنَ مُطَهَّرٍ",
+          "رَآهُ",
+          "قَدَّهُ",
+          "مَوْلَى"
+        ],
         "related_quran": [],
-        "seo_questions": {
-          "bn": "আল-কাফিতে কারা ছিলেন, যাদের সম্পর্কে বর্ণনা এসেছে যে তারা তাকে عليه السلام দেখেছিলেন?",
-          "de": "Wer gehörte zu denen, von denen in al-Kāfī berichtet wird, dass sie ihn عليه السلام gesehen haben?",
-          "en": "Who were among those reported to have seen him عليه السلام in al-Kāfī?",
-          "es": "¿Quiénes estuvieron entre los que se informa que lo vieron عليه السلام en al-Kāfī?",
-          "fa": "در الکافی چه کسانی از جمله کسانی بودند که گفته شده او را عليه السلام دیده‌اند؟",
-          "fr": "Qui faisait partie de ceux dont il est rapporté qu’ils l’ont vu عليه السلام dans al-Kāfī ?",
-          "id": "Siapa saja di antara mereka yang diriwayatkan telah melihatnya عليه السلام dalam al-Kāfī?",
-          "ru": "Кто входил в число тех, о ком в аль-Кафи сообщается, что они видели его عليه السلام?",
-          "tr": "el-Kâfî’de onu عليه السلام gördüğü rivayet edilenler kimlerdi?",
-          "ur": "الکافی میں کن لوگوں کے بارے میں روایت ہے کہ انہوں نے اسے عليه السلام دیکھا؟",
-          "zh": "在《al-Kāfī》中，据传哪些人曾见过他 عليه السلام？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনায় এমন একজনের সূত্রে বর্ণনা এসেছে, যিনি তাকে عليه السلام দেখার এবং তার দেহাকৃতি বর্ণনা করার কথা বলেছেন। এটি সেই অধ্যায়ে একটি সংক্ষিপ্ত জীবনীমূলক নোট হিসেবে আসে, যেখানে তাকে عليه السلام যারা দেখেছেন তাদের উল্লেখ করা হয়েছে।",
-          "de": "Dieser Bericht hält eine Überlieferung von einer Person fest, die erwähnte, ihn عليه السلام gesehen und seine Statur beschrieben zu haben. Er dient als kurze biographische Notiz innerhalb des Kapitels, das diejenigen nennt, die ihn عليه السلام gesehen haben.",
-          "en": "This report records a transmission from a person who mentioned having seen him عليه السلام and described his physical stature. It serves as a brief biographical notice within the chapter naming those who saw him عليه السلام.",
-          "es": "Este informe registra una transmisión de una persona que mencionó haberlo visto عليه السلام y describió su estatura. Sirve como una breve nota biográfica dentro del capítulo que nombra a quienes lo vieron عليه السلام.",
-          "fa": "این گزارش، نقلِ شخصی را ثبت می‌کند که از دیدن او عليه السلام و توصیف قامتش سخن گفته است. این متن، یادداشتی کوتاهِ رجالی در بابِ نام بردن از کسانی است که او را عليه السلام دیده‌اند.",
-          "fr": "Ce rapport consigne une transmission provenant d’une personne qui a mentionné l’avoir vu عليه السلام et avoir décrit sa stature. Il sert de brève notice biographique dans le chapitre qui nomme ceux qui l’ont vu عليه السلام.",
-          "id": "Riwayat ini mencatat sebuah transmisi dari seseorang yang menyebut bahwa ia telah melihatnya عليه السلام dan menggambarkan posturnya. Ini berfungsi sebagai catatan biografis singkat dalam bab yang menyebutkan orang-orang yang melihatnya عليه السلام.",
-          "ru": "Этот рассказ фиксирует передачу от человека, который упомянул, что видел его عليه السلام, и описал его телосложение. Он служит краткой биографической заметкой в главе, где перечисляются те, кто видел его عليه السلام.",
-          "tr": "Bu rivayet, onu عليه السلام gördüğünü ve fizikî yapısını anlattığını söyleyen bir kişiden gelen nakli kaydeder. Bu, onu عليه السلام görenlerin adlarının geçtiği bölüm içinde kısa bir biyografik not niteliğindedir.",
-          "ur": "یہ روایت ایک ایسے شخص کی نقل کو بیان کرتی ہے جس نے اسے عليه السلام دیکھنے اور اس کے قد و قامت کو بیان کرنے کا ذکر کیا۔ یہ باب میں ایک مختصر سوانحی نوٹ کے طور پر آتی ہے جس میں ان لوگوں کا ذکر ہے جنہوں نے اسے عليه السلام دیکھا۔",
-          "zh": "这段记载记录了一则传述：有人提到自己曾见过他 عليه السلام，并描述了他的身材。它作为一个简短的传记性说明，出现在提及那些见过他 عليه السلام之人的章节中。"
-        },
         "tags": [
           "history",
           "knowledge",

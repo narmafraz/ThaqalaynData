@@ -13,6 +13,141 @@
       "up": "/books/al-kafi:3:3:54"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ الْحَسَنِ عَنْ أَحْمَدَ بْنِ عَبْدِ الرَّحِيمِ أَبِي الصَّخْرِ عَنْ إِسْمَاعِيلَ بْنِ عَبْدِ الْخَالِقِ بْنِ عَبْدِ رَبِّهِ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ )",
+            "chunk_type": "isnad",
+            "word_end": 30,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "فِي الصَّلَاةِ عَلَى الْجَنَائِزِ تَقُولُ اللَّهُمَّ أَنْتَ خَلَقْتَ هَذِهِ النَّفْسَ وَ أَنْتَ أَمَتَّهَا تَعْلَمُ سِرَّهَا وَ عَلَانِيَتَهَا أَتَيْنَاكَ شَافِعِينَ فِيهَا فَشَفِّعْنَا اللَّهُمَّ وَلِّهَا مَنْ تَوَلَّتْ وَ احْشُرْهَا مَعَ مَنْ أَحَبَّتْ",
+            "chunk_type": "body",
+            "word_end": 60,
+            "word_start": 30
+          }
+        ],
+        "content_type": "supplication",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 35,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ مُحَمَّدٍ",
+              "name_en": "Ali ibn Muhammad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 237,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ الْحَسَنِ",
+              "name_en": "Ali ibn al-Hasan",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2307,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ عَبْدِ الرَّحِيمِ أَبِي الصَّخْرِ",
+              "name_en": "Ahmad b. Abd al-Rahim Abi al-Sakhr",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2454,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "إِسْمَاعِيلَ بْنِ عَبْدِ الْخَالِقِ بْنِ عَبْدِ رَبِّهِ",
+              "name_en": "Ismail b. Abd al-Khalid b. Abd Rabbih",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الصَّلَاةِ عَلَى الْجَنَائِزِ",
+          "النَّفْسَ",
+          "شَافِعِينَ",
+          "وَلِّهَا",
+          "احْشُرْهَا"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:185",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:42",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:68",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:154",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "worship",
+          "dua",
+          "afterlife"
+        ],
+        "topics": [
+          "salat",
+          "death_dying",
+          "intercession",
+          "specific_supplications",
+          "resurrection"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (4/61)"
       ],
@@ -84,7 +219,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:3:54:6",

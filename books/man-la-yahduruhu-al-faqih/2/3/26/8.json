@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ الْبَاقِرُ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং আল-বাকির عليه السلام বললেন:",
-              "de": "Und al-Baqir عليه السلام sagte:",
-              "en": "And al-Baqir عليه السلام said:",
-              "es": "Y al-Baqir عليه السلام dijo:",
-              "fa": "و امام باقر علیه السلام فرمود:",
-              "fr": "Et al-Baqir عليه السلام a dit :",
-              "id": "Dan al-Baqir عليه السلام berkata:",
-              "ru": "И аль-Бакр عليه السلام сказал:",
-              "tr": "Ve el-Bakır عليه السلام dedi ki:",
-              "ur": "اور الباقر علیہ السلام نے فرمایا:",
-              "zh": "والباقرعليهالسلامقال:"
-            },
             "word_end": 5,
             "word_start": 0
           },
           {
             "arabic_text": "«لِكُلِّ شَيْءٍ حُرْمَةٌ وَ حُرْمَةُ الْبَهَائِمِ فِي وُجُوهِهَا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“প্রতিটি জিনিসের একটি حرمت আছে, এবং পশুদের حرمت তাদের মুখে নিহিত।”",
-              "de": "„Alles hat eine Heiligkeit, und die Heiligkeit der Tiere liegt in ihren Gesichtern.“",
-              "en": "\"Everything has a sanctity, and the sanctity of animals lies in their faces.\"",
-              "es": "“Todo tiene una santidad, y la santidad de los animales reside en sus rostros.”",
-              "fa": "«هر چیزی حرمت دارد و حرمت حیوانات در چهره‌هایشان است.»",
-              "fr": "«Tout a une sainteté, et la sainteté des animaux réside dans leurs visages.»",
-              "id": "“Segala sesuatu memiliki kehormatan, dan kehormatan hewan terletak pada wajah mereka.”",
-              "ru": "«У всего есть святость, и святость животных заключается в их лицах.»",
-              "tr": "“Her şeyin bir hürmeti vardır ve hayvanların hürmeti yüzlerindedir.”",
-              "ur": "‘‘ہر چیز کی حرمت ہوتی ہے، اور جانوروں کی حرمت ان کے چہروں میں ہوتی ہے۔’’",
-              "zh": "“万物皆有圣洁，动物的圣洁在于它们的面容。”"
-            },
             "word_end": 13,
             "word_start": 5
           }
@@ -80,25 +67,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْبَهَائِمِ": "animals, especially domesticated beasts",
-            "حُرْمَةٌ": "sanctity, inviolability, or protected dignity",
-            "شَيْءٍ": "thing, indicating all entities in a general sense",
-            "لِكُلِّ": "for every, expressing universality",
-            "وُجُوهِهَا": "their faces, the specially protected part mentioned here"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "حُرْمَةٌ",
+          "الْبَهَائِمِ",
+          "وُجُوهِهَا",
+          "لِكُلِّ",
+          "شَيْءٍ"
+        ],
         "related_quran": [
           {
             "ref": "6:38",
@@ -109,32 +84,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-বাকির عليه السلام পশুদের حرمت সম্পর্কে কী শিক্ষা দেন?",
-          "de": "Was lehrt Imam al-Baqir عليه السلام über die Heiligkeit der Tiere?",
-          "en": "What does Imam al-Baqir عليه السلام teach about the sanctity of animals?",
-          "es": "¿Qué enseña el Imam al-Baqir عليه السلام sobre la santidad de los animales?",
-          "fa": "امام باقر علیه السلام درباره حرمت حیوانات چه می‌آموزد؟",
-          "fr": "Que enseigne l’Imam al-Baqir عليه السلام sur la sainteté des animaux ?",
-          "id": "Apa yang diajarkan Imam al-Baqir عليه السلام tentang kehormatan hewan?",
-          "ru": "Что Имам аль-Бакр عليه السلام учит о святости животных?",
-          "tr": "İmam el-Bakır عليه السلام hayvanların hürmeti hakkında ne öğretir?",
-          "ur": "امام الباقر علیہ السلام جانوروں کی حرمت کے بارے میں کیا تعلیم دیتے ہیں؟",
-          "zh": "伊玛目الباقرعليهالسلام关于动物的圣洁教导是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস শেখায় যে প্রতিটি সৃষ্টির একটি حرمت রয়েছে যা সম্মানিত হওয়া উচিত। পশুদের ক্ষেত্রে, তাদের মুখ বিশেষ একটি অবাধ্যতা ধারণ করে, যা সেখানে ক্ষতি করা বা লঙ্ঘন এড়ানোর বাধ্যবাধকতা নির্দেশ করে।",
-          "de": "Dieser Hadith lehrt, dass jede geschaffene Sache eine Heiligkeit besitzt, die respektiert werden muss. Im Fall der Tiere liegt ihre Heiligkeit in ihren Gesichtern, was die Verpflichtung anzeigt, ihnen dort keinen Schaden zuzufügen oder sie zu verletzen.",
-          "en": "This hadith teaches that every created thing has a sanctity that must be respected. In the case of animals, their faces possess a special inviolability, indicating the obligation to avoid harming or violating them there.",
-          "es": "Este hadiz enseña que toda criatura tiene una santidad que debe ser respetada. En el caso de los animales, sus rostros poseen una inviolabilidad especial, indicando la obligación de evitar dañarlos o violarlos allí.",
-          "fa": "این حدیث آموزش می‌دهد که هر مخلوقی حرمت خاصی دارد که باید رعایت شود. در مورد حیوانات، چهره‌هایشان حرمت ویژه‌ای دارند که نشان‌دهنده ضرورت اجتناب از آسیب رساندن یا نقض آنجا است.",
-          "fr": "Ce hadith enseigne que toute créature possède une sainteté qui doit être respectée. Dans le cas des animaux, leurs visages possèdent une inviolabilité particulière, indiquant l'obligation d'éviter de leur nuire ou de les violer à cet endroit.",
-          "id": "Hadis ini mengajarkan bahwa setiap makhluk ciptaan memiliki kehormatan yang harus dihormati. Dalam kasus hewan, wajah mereka memiliki kekhususan yang menunjukkan kewajiban untuk menghindari menyakiti atau melanggar kehormatan tersebut.",
-          "ru": "Этот хадис учит, что каждое созданное существо имеет святость, которую необходимо уважать. В случае животных их лица обладают особой неприкосновенностью, указывая на обязанность избегать причинения им вреда или нарушения этой святости.",
-          "tr": "Bu hadis, her yaratılmış şeyin saygı duyulması gereken bir hürmeti olduğunu öğretir. Hayvanlar söz konusu olduğunda, yüzleri özel bir dokunulmazlığa sahiptir ve orada zarar vermekten veya ihlal etmekten kaçınılması gerektiğini gösterir.",
-          "ur": "یہ حدیث سکھاتی ہے کہ ہر مخلوق کی ایک حرمت ہوتی ہے جس کا احترام کرنا ضروری ہے۔ جانوروں کے معاملے میں، ان کے چہرے خاص حرمت رکھتے ہیں، جو وہاں نقصان پہنچانے یا خلاف ورزی کرنے سے بچنے کی ضرورت کو ظاہر کرتا ہے۔",
-          "zh": "此圣训教导我们每个受造物皆有应受尊重的圣洁。对于动物而言，其面容具有特殊的不可侵犯性，表明必须避免在那里伤害或侵犯它们。"
-        },
         "tags": [
           "ethics",
           "jurisprudence",

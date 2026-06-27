@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "فَأَمَّا مَا رَوَاهُ الْحُسَيْنُ بْنُ سَعِيدٍ عَنِ الْقَاسِمِ عَنْ عَلِيٍّ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ আল-কাসিম থেকে, তিনি আলী থেকে যে বর্ণনা করেছেন, সে সম্পর্কে তিনি বলেছেন:",
-              "de": "Was al-Husayn ibn Saʿid von al-Qasim, von ʿAli überliefert hat, so sagte er:",
-              "en": "As for what al-Ḥusayn ibn Saʿīd narrated from al-Qāsim, from ʿAlī, he said:",
-              "es": "En cuanto a lo que al-Husayn ibn Saʿid narró de al-Qasim, de Ali, dijo:",
-              "fa": "اما آنچه حسین بن سعید از قاسم، از علی روایت کرده است، او گفت:",
-              "fr": "Quant à ce qu’al-Husayn ibn Saʿid a rapporté d’al-Qasim, de ʿAli, il a dit :",
-              "id": "Adapun apa yang diriwayatkan al-Husayn ibn Saʿid dari al-Qasim, dari Ali, ia berkata:",
-              "ru": "Что касается того, что аль-Хусайн ибн Саʿид передал от аль-Касима, от Али, то он сказал:",
-              "tr": "el-Hüseyin ibn Saʿid’in el-Kāsım’dan, onun da Ali’den rivayet ettiğine gelince, dedi ki:",
-              "ur": "جہاں تک الحسين بن سعيد نے القاسم سے، اور وہ علی سے روایت کرتے ہیں، تو انہوں نے کہا:",
-              "zh": "至于al-ḤusaynibnSaʿīd从al-Qāsim传自ʿAlī所传述的，他说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ عَنِ الْفَأْرَةِ تَقَعُ فِي الْبِئْرِ، قَالَ: سَبْعُ دِلَاءٍ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবা আবদিল্লাহ عليه السلام-কে একটি ইঁদুর সম্পর্কে জিজ্ঞেস করলাম, যা কূপে পড়ে যায়। তিনি বললেন: সাতটি বালতি।",
-              "de": "Ich fragte Abā ʿAbdillāh عليه السلام nach einer Maus, die in den Brunnen fällt. Er sagte: sieben Eimer.",
-              "en": "I asked Abā ʿAbdillāh عليه السلام about a mouse that falls into the well. He said: seven buckets.",
-              "es": "Pregunté a Abā ʿAbdillāh عليه السلام acerca de un ratón que cae en el pozo. Dijo: siete cubos.",
-              "fa": "از ابا عبدالله علیه السلام درباره موشی که در چاه می‌افتد پرسیدم. فرمود: هفت دلو.",
-              "fr": "J’ai interrogé Abā ʿAbdillāh عليه السلام au sujet d’une souris qui tombe dans le puits. Il a dit : sept seaux.",
-              "id": "Aku bertanya kepada Abā ʿAbdillāh عليه السلام tentang seekor tikus yang jatuh ke dalam sumur. Beliau bersabda: tujuh timba.",
-              "ru": "Я спросил Абу ʿАбдуллаха عليه السلام о мыши, которая падает в колодец. Он сказал: семь ведер.",
-              "tr": "Ebâ ʿAbdillâh عليه السلام’a kuyuya düşen bir fare hakkında sordum. Buyurdu ki: yedi kova.",
-              "ur": "میں نے ابا عبد اللہ علیہ السلام سے اس چوہے کے بارے میں پوچھا جو کنویں میں گر جائے۔ انہوں نے فرمایا: سات ڈول۔",
-              "zh": "我询问AbāʿAbdillāh عليهالسلام关于一只掉进井里的老鼠。他说：七桶。"
-            },
             "word_end": 25,
             "word_start": 11
           }
@@ -84,25 +71,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْبِئْرِ": "the well; the water source being discussed",
-            "الْفَأْرَةِ": "a mouse; the animal whose falling into the well is the subject of the ruling",
-            "تَقَعُ": "falls; indicating the occurrence that triggers the ruling",
-            "دِلَاءٍ": "buckets; the units of water to be drawn out",
-            "سَبْعُ": "seven; the specified number required in the ruling"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْفَأْرَةِ",
+          "تَقَعُ",
+          "الْبِئْرِ",
+          "سَبْعُ",
+          "دِلَاءٍ"
+        ],
         "related_quran": [
           {
             "ref": "2:222",
@@ -113,32 +88,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام-এর মতে কূপে ইঁদুর পড়ে গেলে কী বিধান?",
-          "de": "Was ist das Urteil, wenn nach Imam al-Ṣādiq عليه السلام eine Maus in einen Brunnen fällt?",
-          "en": "What is the ruling if a mouse falls into a well according to Imam al-Ṣādiq عليه السلام?",
-          "es": "¿Cuál es la norma si un ratón cae en un pozo según el Imam al-Ṣādiq عليه السلام?",
-          "fa": "طبق نظر امام صادق علیه السلام اگر موش در چاه بیفتد حکم چیست؟",
-          "fr": "Quelle est la règle si une souris tombe dans un puits selon l’imam al-Ṣādiq عليه السلام ?",
-          "id": "Apa hukum jika seekor tikus jatuh ke dalam sumur menurut Imam al-Ṣādiq عليه السلام?",
-          "ru": "Каково постановление, если мышь падает в колодец, согласно имаму ас-Садику عليه السلام?",
-          "tr": "İmam es-Sâdık عليه السلام’a göre kuyuya fare düşerse hüküm nedir?",
-          "ur": "امام الصادق علیہ السلام کے مطابق اگر کنویں میں چوہا گر جائے تو کیا حکم ہے؟",
-          "zh": "根据伊玛目al-Ṣādiq عليهالسلام，如果一只老鼠掉进井里，判定是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি কূপে ইঁদুর পড়ে গেলে কূপের অপবিত্রতা সম্পর্কে একটি শরঈ বিধান বর্ণনা করে। ইমাম আল-সাদিক عليه السلام বলেন, সাতটি বালতি পানি তোলা হবে, যা তাহারাতের বিষয়ে একটি ব্যবহারিক বিধানের ইঙ্গিত দেয়।",
-          "de": "Dieser Hadith enthält eine rechtliche Regelung zur Unreinheit des Brunnens, wenn eine Maus hineinfällt. Imam al-Ṣādiq عليه السلام sagt, dass sieben Eimer Wasser herausgezogen werden sollen, was auf eine praktische Regelung in Fragen der taharah hinweist.",
-          "en": "This hadith gives a legal ruling concerning the impurity of a well when a mouse falls into it. Imam al-Ṣādiq عليه السلام states that seven buckets of water are to be drawn, indicating a practical ruling in matters of taharah.",
-          "es": "Este hadiz expone una norma jurídica sobre la impureza del pozo cuando cae en él un ratón. El Imam al-Ṣādiq عليه السلام establece que se extraigan siete cubos de agua, lo que indica una norma práctica en asuntos de taharah.",
-          "fa": "این حدیث حکمی فقهی درباره نجاست چاه هنگامی که موشی در آن می‌افتد بیان می‌کند. امام صادق علیه السلام می‌فرماید که باید هفت دلو آب کشیده شود، که نشان‌دهنده حکمی عملی در مسائل طهارت است.",
-          "fr": "Ce hadith énonce une règle juridique concernant l’impureté du puits lorsqu’une souris y tombe. L’imam al-Ṣādiq عليه السلام indique qu’il faut en tirer sept seaux d’eau, ce qui montre une règle pratique en matière de taharah.",
-          "id": "Hadis ini memberikan حكم fikih tentang najisnya sumur ketika seekor tikus jatuh ke dalamnya. Imam al-Ṣādiq عليه السلام menyatakan bahwa tujuh timba air harus diambil, yang menunjukkan حكم praktis dalam مسائل taharah.",
-          "ru": "Этот хадис содержит правовое постановление относительно нечистоты колодца, если в него падает мышь. Имам ас-Садик عليه السلام говорит, что следует вычерпать семь ведер воды, что указывает на практическое правило в вопросах тахара.",
-          "tr": "Bu hadis, kuyuya fare düşmesi halinde kuyunun necis oluşuna dair fıkhî bir hüküm bildirir. İmam es-Sâdık عليه السلام, taharet meselelerinde pratik bir hüküm olarak yedi kova su çekilmesini belirtmektedir.",
-          "ur": "یہ حدیث اس حکمِ شرعی کو بیان کرتی ہے کہ اگر کنویں میں چوہا گر جائے تو اس کی نجاست کے بارے میں کیا کیا جائے۔ امام الصادق علیہ السلام کے مطابق سات ڈول پانی نکالے جائیں، جو طہارت کے مسائل میں عملی حکم کی طرف اشارہ ہے۔",
-          "zh": "这段圣训说明了当一只老鼠掉进井里时，关于井的不洁的教法律例。伊玛目al-Ṣādiq عليهالسلام指出应舀出七桶水，这表明了在taharah事务中的实际判定。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

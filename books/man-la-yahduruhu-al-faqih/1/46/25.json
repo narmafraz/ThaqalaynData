@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ الصَّادِقُ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল-সাদিক عليه السلام বললেন:",
-              "de": "Al-Sadiq عليه السلام sagte:",
-              "en": "Al-Sadiq عليه السلام said:",
-              "es": "Al-Sadiq عليه السلام dijo:",
-              "fa": "اَلصَّادِق علیه السلام فرمود:",
-              "fr": "Al-Sadiq عليه السلام a dit :",
-              "id": "Al-Sadiq عليه السلام berkata:",
-              "ru": "Аль-Садик عليه السلام сказал:",
-              "tr": "El-Sadık عليه السلام şöyle dedi:",
-              "ur": "اَلصَّادِق علیہ السلام نے فرمایا:",
-              "zh": "اَلصَّادِقعليهالسلام说："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "«كُلُّ مَا نَاجَيْتَ بِهِ رَبَّكَ فِي الصَّلَاةِ فَلَيْسَ بِكَلَامٍ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“যে কিছু তুমি সালাত (নামাজ) চলাকালীন তোমার রবের সাথে গোপনে আলাপ করো, তা কথা বলে গণ্য হয় না।”",
-              "de": "„Was auch immer du benutzt, um während der Salat (Gebet) privat mit deinem Herrn zu sprechen, gilt nicht als Rede.“",
-              "en": "\"Whatever you use to converse privately with your Lord during the salat (prayer) is not considered speech.\"",
-              "es": "“Lo que uses para conversar en privado con tu Señor durante la salat (oración) no se considera palabra.”",
-              "fa": "«هر آنچه برای گفتگو خصوصی با پروردگارت در هنگام صلات (نماز) استفاده می‌کنی، سخن محسوب نمی‌شود.»",
-              "fr": "«Tout ce que tu utilises pour converser en privé avec ton Seigneur pendant la salat (prière) n’est pas considéré comme un discours.»",
-              "id": "“Apa pun yang kamu gunakan untuk berbicara secara pribadi dengan Tuhanmu selama salat (shalat) tidak dianggap sebagai ucapan.”",
-              "ru": "«Всё, что ты используешь для частного разговора с твоим Господом во время салят (молитвы), не считается речью.»",
-              "tr": "“Salat (namaz) sırasında Rabbinizle özel olarak konuşmak için kullandığınız her şey konuşma sayılmaz.”",
-              "ur": "“جو کچھ بھی آپ اپنے رب سے نماز کے دوران نجی طور پر بات چیت کے لیے استعمال کرتے ہیں، وہ کلام نہیں سمجھا جاتا۔”",
-              "zh": "“你在salat（礼拜）期间与主私下交谈的任何内容都不被视为言语。”"
-            },
             "word_end": 13,
             "word_start": 4
           }
@@ -82,24 +69,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الصَّلَاةِ": "the ritual prayer",
-            "رَبَّكَ": "your Lord, the One being addressed in worship",
-            "كَلَامٍ": "ordinary speech or conversational talk",
-            "نَاجَيْتَ": "you privately conversed or intimately addressed"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "نَاجَيْتَ",
+          "رَبَّكَ",
+          "الصَّلَاةِ",
+          "كَلَامٍ"
+        ],
         "related_quran": [
           {
             "ref": "2:186",
@@ -114,32 +89,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "সালাত চলাকালীন আল্লাহর সাথে কথা বলা কি সাধারণ ভাষণ হিসেবে গণ্য হয় যা নামাজ বাতিল করে?",
-          "de": "Zählt das Sprechen mit Allah während der Salat als gewöhnliche Rede, die das Gebet ungültig macht?",
-          "en": "Does speaking to Allah during salat count as ordinary speech that invalidates the prayer?",
-          "es": "¿Contar hablar con Allah durante la salat como un discurso ordinario que invalida la oración?",
-          "fa": "آیا صحبت با خداوند در هنگام صلات به عنوان سخن عادی که نماز را باطل می‌کند محسوب می‌شود؟",
-          "fr": "Est-ce que parler à Allah pendant la salat est considéré comme un discours ordinaire qui invalide la prière ?",
-          "id": "Apakah berbicara kepada Allah selama salat dihitung sebagai ucapan biasa yang membatalkan salat?",
-          "ru": "Считается ли обращение к Аллаху во время салят обычной речью, которая аннулирует молитву?",
-          "tr": "Salat sırasında Allah’a konuşmak, namazı geçersiz kılan sıradan bir konuşma sayılır mı?",
-          "ur": "کیا نماز کے دوران اللہ سے بات کرنا عام کلام شمار ہوتا ہے جو نماز کو باطل کرتا ہے؟",
-          "zh": "在salat期间与安拉交谈是否算作使礼拜无效的普通言语？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে, সালাত (নামাজ) চলাকালীন একজন ইবাদতকারী যখন আল্লাহর সাথে ব্যক্তিগতভাবে কথা বলেন, তা সাধারণ মানব ভাষা হিসেবে গণ্য হয় না। এটি ইবাদতীয় ভাষণ ও নামাজ বাতিলকারী ভাষণের মধ্যে ফিকহীয় পার্থক্য নির্দেশ করে।",
-          "de": "Dieser Hadith besagt, dass Worte, mit denen ein Anbeter während der Salat (Gebet) privat zu Allah spricht, nicht als gewöhnliche menschliche Rede behandelt werden. Er zeigt eine fiqhische Unterscheidung zwischen der hingebungsvollen Ansprache an Allah und ungültiger Rede während des Gebets.",
-          "en": "This hadith states that words by which a worshipper privately addresses Allah within the salat (prayer) are not treated as ordinary human speech. It indicates a fiqh distinction between devotional address to Allah and invalidating speech during prayer.",
-          "es": "Este hadiz establece que las palabras con las que un adorador se dirige en privado a Allah durante la salat (oración) no se tratan como un discurso humano ordinario. Indica una distinción fiqh entre la dirección devocional a Allah y el habla que invalida la oración.",
-          "fa": "این حدیث بیان می‌کند که کلماتی که بنده در هنگام صلات (نماز) به طور خصوصی با خداوند سخن می‌گوید، به عنوان سخن عادی انسانی محسوب نمی‌شوند. این نشان‌دهنده تمایز فقهی بین خطاب عبادی به خدا و سخن باطل‌کننده نماز است.",
-          "fr": "Ce hadith indique que les paroles par lesquelles un adorateur s’adresse en privé à Allah pendant la salat (prière) ne sont pas considérées comme un discours humain ordinaire. Il souligne une distinction fiqh entre l’adresse dévotionnelle à Allah et le discours invalidant la prière.",
-          "id": "Hadis ini menyatakan bahwa kata-kata yang digunakan seorang hamba untuk berbicara secara pribadi kepada Allah dalam salat (shalat) tidak dianggap sebagai ucapan biasa manusia. Ini menunjukkan perbedaan fikih antara pengucapan ibadah kepada Allah dan ucapan yang membatalkan salat.",
-          "ru": "Этот хадис утверждает, что слова, которыми поклонник обращается к Аллаху в частной беседе во время салят (молитвы), не считаются обычной человеческой речью. Это указывает на фикхийское различие между богослужебным обращением к Аллаху и речью, которая аннулирует молитву.",
-          "tr": "Bu hadis, bir ibadetin salat (namaz) sırasında Allah’a özel olarak hitap ettiği sözlerin sıradan insan konuşması olarak kabul edilmediğini belirtir. Bu, Allah’a yönelik ibadet konuşması ile namazı bozan konuşma arasında fıkhi bir ayrımı gösterir.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ نماز کے دوران اللہ سے نجی طور پر مخاطب ہونے والے الفاظ عام انسانی کلام نہیں سمجھے جاتے۔ یہ عبادتی خطاب اور نماز میں باطل کرنے والے کلام کے درمیان فقہی فرق کو ظاہر کرتی ہے۔",
-          "zh": "这段圣训说明，信徒在salat（礼拜）中私下对安拉说的话不被视为普通人类言语。它表明了对安拉的虔诚称呼与使礼拜无效的言语之间的法学区分。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

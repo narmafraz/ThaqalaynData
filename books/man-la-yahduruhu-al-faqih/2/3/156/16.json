@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তিনি, তাঁর উপর শান্তি বর্ষিত হোক, বললেন:",
-              "de": "Und er, Friede sei mit ihm, sagte:",
-              "en": "And he, peace be upon him, said:",
-              "es": "Y él, la paz sea con él, dijo:",
-              "fa": "و او، علیه السلام، فرمود:",
-              "fr": "Et lui, que la paix soit sur lui, a dit :",
-              "id": "Dan beliau, kesejahteraan atasnya, berkata:",
-              "ru": "И он, мир ему, сказал:",
-              "tr": "Ve o, üzerine selam olsun, dedi ki:",
-              "ur": "اور انہوں نے، علیہ السلام، فرمایا:",
-              "zh": "وهوعليهالسلامقال:"
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "«مَنْ أَتَى قَبْرَ الْحُسَيْنِ عَلَيْهِ السَّلَامُ عَارِفًا بِحَقِّهِ كَتَبَهُ اللَّهُ عَزَّ وَ جَلَّ فِي أَعْلَى عِلِّيِّينَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "‘‘যে কেউ আল-হুসাইন عليه السلام এর কবরের কাছে তাঁর অধিকার স্বীকার করে আসবে, আল্লাহ্‌ তাআলা তাকে সর্বোচ্চ ʿইল্লিয়্যীন-এ লিখবেন।’’",
-              "de": "„Wer das Grab von al-Ḥusayn عليه السلام besucht und sein Recht anerkennt, den wird Allah, der Mächtige und Erhabene, in die höchsten Ränge der ʿIlliyyīn eintragen.“",
-              "en": "\"Whoever comes to the grave of al-Ḥusayn عليه السلام recognizing his right, Allah, the Mighty and Exalted, will record him in the highest of ʿIlliyyīn.\"",
-              "es": "“Quien visite la tumba de al-Ḥusayn عليه السلام reconociendo su derecho, Alá, el Poderoso y Exaltado, lo inscribirá en lo más alto de ʿIlliyyīn.”",
-              "fa": "«هر کس به قبرِ الحُسین علیه السلام بیاید و حق او را بشناسد، خداوند عزّوجلّ او را در اعلی‌ٰ علیّین ثبت خواهد کرد.»",
-              "fr": "«Quiconque vient à la tombe d’al-Ḥusayn عليه السلام en reconnaissant son droit, Allah, le Tout-Puissant et le Très-Haut, l’inscrira dans les plus hauts rangs des ʿIlliyyīn.»",
-              "id": "“Barangsiapa yang datang ke makam al-Ḥusayn علیه السلام dengan mengenali haknya, Allah Yang Maha Perkasa dan Maha Tinggi akan mencatatnya di tempat tertinggi ʿIlliyyīn.”",
-              "ru": "«Кто придёт к могиле аль-Хусейна عليه السلام, признавая его право, Аллах, Всемогущий и Возвышенный, запишет его в высшие ряды ʿИллиййин.»",
-              "tr": "“Kim al-Ḥusayn علیه السلام’ın mezarına hakkını tanıyarak gelirse, Allah Azîmüşşan onu en yüksek ʿIlliyyīn derecelerine kaydeder.”",
-              "ur": "‘‘جو کوئی قبرِ الحُسین علیہ السلام پر اس کے حق کو پہچان کر آئے، اللہ تعالیٰ اسے اعلیٰ علیّین میں لکھ دے گا۔’’",
-              "zh": "“凡以识别他权利之心前往al-Ḥusaynعليهالسلام墓者，真主至大至高必将其记于最高ʿIlliyyīn。”"
-            },
             "word_end": 20,
             "word_start": 4
           }
@@ -81,27 +68,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَعْلَى": "the highest or loftiest",
-            "الْحُسَيْنِ": "al-Ḥusayn عليه السلام, the grandson of the Prophet صلى الله عليه وآله وسلم",
-            "بِحَقِّهِ": "of his right, meaning his true due, rank, and authority",
-            "عَارِفًا": "knowing or recognizing with awareness and understanding",
-            "عِلِّيِّينَ": "ʿIlliyyīn, the highest register or rank of the righteous",
-            "قَبْرَ": "the grave, referring here to the burial place visited in ziyārah",
-            "كَتَبَهُ": "He recorded him or inscribed him"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "قَبْرَ",
+          "الْحُسَيْنِ",
+          "عَارِفًا",
+          "بِحَقِّهِ",
+          "كَتَبَهُ",
+          "أَعْلَى",
+          "عِلِّيِّينَ"
+        ],
         "related_quran": [
           {
             "ref": "83:18",
@@ -116,32 +91,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-হুসাইন عليه السلام এর কবরের অধিকার স্বীকার করে যাওয়ার পুরস্কার কী?",
-          "de": "Was ist die Belohnung für den Besuch des Grabes von Imam al-Ḥusayn عليه السلام unter Anerkennung seines Rechts?",
-          "en": "What is the reward for visiting the grave of Imam al-Ḥusayn عليه السلام while recognizing his right?",
-          "es": "¿Cuál es la recompensa por visitar la tumba del Imam al-Ḥusayn عليه السلام reconociendo su derecho?",
-          "fa": "پاداش زیارت قبر امام الحُسین علیه السلام با شناخت حق او چیست؟",
-          "fr": "Quelle est la récompense pour visiter la tombe de l’Imam al-Ḥusayn عليه السلام en reconnaissant son droit ?",
-          "id": "Apa pahala mengunjungi makam Imam al-Ḥusayn علیه السلام sambil mengenali haknya?",
-          "ru": "Какова награда за посещение могилы Имама аль-Хусейна عليه السلام с признанием его права?",
-          "tr": "İmam al-Ḥusayn علیه السلام’ın mezarını hakkını tanıyarak ziyaret etmenin mükafatı nedir?",
-          "ur": "امام الحُسین علیہ السلام کی قبر کی زیارت کے حق کو پہچان کر جانے کا اجر کیا ہے؟",
-          "zh": "识别Imam al-Ḥusaynعليهالسلام权利而拜访其墓的赏赐是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি আল-হুসাইন عليه السلام এর কবরের সত্যিকার অধিকার স্বীকার করে যাওয়া ব্যক্তির জন্য মহান পুরস্কার বর্ণনা করে। এটি এমন একটি আধ্যাত্মিক উচ্চতর কাজ হিসেবে উপস্থাপন করে যার পুরস্কার সর্বোচ্চ ʿইল্লিয়্যীন-এ লেখা।",
-          "de": "Dieser Hadith beschreibt die große Belohnung für den Besuch des Grabes von al-Ḥusayn عليه السلام mit wahrer Anerkennung seines göttlich zugewiesenen Rechts und Status. Er stellt eine solche Ziyārah als eine spirituell erhöhte Handlung dar, deren Belohnung darin besteht, unter den höchsten Rängen der Rechtschaffenen in ʿIlliyyīn eingetragen zu werden.",
-          "en": "This hadith states the great reward for visiting the grave of al-Ḥusayn عليه السلام with true recognition of his divinely appointed right and status. It presents such ziyārah as a spiritually elevated act whose reward is being written among the highest ranks of the righteous in ʿIlliyyīn.",
-          "es": "Este hadiz establece la gran recompensa por visitar la tumba de al-Ḥusayn عليه السلام reconociendo verdaderamente su derecho y estatus divinamente asignado. Presenta dicha ziyārah como un acto espiritualmente elevado cuyo premio es ser inscrito entre los rangos más altos de los justos en ʿIlliyyīn.",
-          "fa": "این حدیث پاداش بزرگ زیارت قبر الحُسین علیه السلام با شناخت حقیقی حق و مقام او را بیان می‌کند. این زیارت را به عنوان عملی روحانی و والا معرفی می‌کند که پاداش آن ثبت در بالاترین درجات ʿعلیّین است.",
-          "fr": "Ce hadith énonce la grande récompense pour la visite de la tombe d’al-Ḥusayn عليه السلام avec une véritable reconnaissance de son droit et de son statut divinement établi. Il présente cette ziyārah comme un acte spirituellement élevé dont la récompense est d’être inscrit parmi les plus hauts rangs des ʿIlliyyīn.",
-          "id": "Hadis ini menyatakan pahala besar bagi yang mengunjungi makam al-Ḥusayn علیه السلام dengan pengakuan haknya yang benar. Ziyārah ini dianggap sebagai amalan spiritual yang tinggi dengan ganjaran dicatat di derajat tertinggi ʿIlliyyīn.",
-          "ru": "Этот хадис указывает на великую награду за посещение могилы Имама аль-Хусейна عليه السلام с истинным признанием его божественно назначенного права и статуса. Он представляет такую зиярат как духовно возвышенный акт, награда за который — быть записанным в высшие ряды праведников в ʿИллиййин.",
-          "tr": "Bu hadis, al-Ḥusayn علیه السلام’ın mezarını hakkını bilerek ziyaret etmenin büyük mükafatını belirtir. Böyle bir ziyareti, ʿIlliyyīn’in en yüksek derecelerinde yazılma ödülü olan manevi yükseliş olarak sunar.",
-          "ur": "یہ حدیث الحُسین علیہ السلام کی قبر کی زیارت کے عظیم اجر کو بیان کرتی ہے جب اس کے حق اور مرتبے کو سچائی سے پہچانا جائے۔ یہ زیارت کو ایک روحانی بلندی کا عمل قرار دیتی ہے جس کا اجر اعلیٰ درجات میں لکھا جانا ہے۔",
-          "zh": "此圣训说明以真诚识别al-Ḥusaynعليهالسلام神圣权利与地位而拜访其墓者，将获极大赏赐。此行被视为灵性升华之举，其赏赐为被记载于ʿIlliyyīn最高正义阶层。"
-        },
         "tags": [
           "worship",
           "afterlife",

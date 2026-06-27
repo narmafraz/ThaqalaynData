@@ -13,6 +13,126 @@
       "up": "/books/al-kafi:3:3:26"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "حُمَيْدُ بْنُ زِيَادٍ عَنِ الْحَسَنِ بْنِ مُحَمَّدِ بْنِ سَمَاعَةَ عَنْ مُحَمَّدِ بْنِ أَبِي حَمْزَةَ عَنْ عَلِيِّ بْنِ يَقْطِينٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 19,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُ الْعَبْدَ الصَّالِحَ ( عَلَيْهِ السَّلَامُ ) عَنِ الْمَرْأَةِ تَمُوتُ وَ وَلَدُهَا فِي بَطْنِهَا قَالَ يُشَقُّ بَطْنُهَا وَ يُخْرَجُ وَلَدُهَا",
+            "chunk_type": "body",
+            "word_end": 39,
+            "word_start": 19
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 49,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "حُمَيْدُ بْنُ زِيَادٍ",
+              "name_en": "Humayd ibn Ziyad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 94,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحَسَنِ بْنِ مُحَمَّدِ بْنِ سَمَاعَةَ",
+              "name_en": "al-Hasan ibn Muhammad ibn Sama'a",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 158,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ أَبِي حَمْزَةَ",
+              "name_en": "Muhammad ibn Abi Hamza",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 301,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ يَقْطِينٍ",
+              "name_en": "'Ali ibn Yaqtin",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الْعَبْدُ الصَّالِحُ",
+          "تَمُوتُ",
+          "وَلَدُهَا",
+          "بَطْنُهَا",
+          "يُشَقُّ",
+          "يُخْرَجُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:44",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "21:90",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:42",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family",
+          "afterlife"
+        ],
+        "topics": [
+          "death_dying",
+          "marriage_family_law",
+          "ritual_purity"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> حسن  ( موثق)   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (13/330)"
       ],
@@ -75,7 +195,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:3:26:1",

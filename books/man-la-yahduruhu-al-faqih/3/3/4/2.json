@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "قَالَ وَقَالَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ :",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "তিনি বললেন: এবং নবী, সাল্লাল্লাহু আলাইহি ওয়া আলিহি, বললেন:",
-              "de": "Er sagte: Und der Prophet, Friede sei mit ihm und seiner Familie, sagte:",
-              "en": "He said: And the Prophet, peace be upon him and his family, said:",
-              "es": "Él dijo: Y el Profeta, la paz sea con él y su familia, dijo:",
-              "fa": "فرمود: و پیامبر، صلی الله علیه و آله، فرمود:",
-              "fr": "Il a dit : Et le Prophète, paix soit sur lui et sa famille, a dit :",
-              "id": "Dia berkata: Dan Nabi, shallallahu 'alaihi wa aalihi, bersabda:",
-              "ru": "Он сказал: И Пророк, мир ему и его семье, сказал:",
-              "tr": "Dedi ki: Ve Nebi, sallallahu aleyhi ve sellem ve ailesi şöyle buyurdu:",
-              "ur": "انہوں نے فرمایا: اور نبی، صلی اللہ علیہ وآلہ وسلم نے فرمایا:",
-              "zh": "他说：先知，愿他和平与他的家人同在，说："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "«لَرَكْعَتَانِ يُصَلِّيهِمَا مُتَزَوِّجٌ أَفْضَلُ مِنْ رَجُلٍ عَزَبٍ يَقُومُ لَيْلَهُ وَيَصُومُ نَهَارَهُ» .",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন বিবাহিত ব্যক্তি যে দুই রাকাত নামাজ পড়ে, তিনি এক অবিবাহিত পুরুষের চেয়ে উত্তম, যে তার রাতগুলো নামাজে এবং দিনগুলো রোযায় কাটায়।",
-              "de": "Zwei Gebetseinheiten, die von einer verheirateten Person verrichtet werden, sind besser als ein unverheirateter Mann, der seine Nächte im Gebet verbringt und tagsüber fastet.",
-              "en": "\"Two units of prayer performed by a married person are better than an unmarried man who spends his nights in prayer and his days fasting.\"",
-              "es": "Dos unidades de oración realizadas por una persona casada son mejores que un hombre soltero que pasa sus noches en oración y sus días ayunando.",
-              "fa": "دو رکعت نماز که توسط یک فرد متأهل انجام می‌شود، بهتر از مرد مجردی است که شب‌های خود را به نماز و روزهای خود را به روزه می‌گذراند.",
-              "fr": "Deux unités de prière effectuées par une personne mariée sont meilleures qu'un homme célibataire qui passe ses nuits en prière et ses jours à jeûner.",
-              "id": "Dua rakaat salat yang dilakukan oleh seorang yang sudah menikah lebih baik daripada seorang pria lajang yang menghabiskan malamnya untuk salat dan siangnya untuk berpuasa.",
-              "ru": "Два ракаата молитвы, совершаемые женатым человеком, лучше, чем у одинокого мужчины, который проводит ночи в молитве и дни в посте.",
-              "tr": "Evli bir kişinin kıldığı iki rekat namaz, geceyi ibadetle geçiren ve gündüzünü oruçla tutan bekar bir adamdan daha hayırlıdır.",
-              "ur": "دو رکعت نماز جو ایک شادی شدہ شخص ادا کرتا ہے، اس سے بہتر ہے کہ ایک کنوارا آدمی اپنی راتیں نماز میں گزارے اور دن روزہ رکھے۔",
-              "zh": "已婚者所行的两拜礼胜过独身者夜间礼拜白天斋戒。"
-            },
             "word_end": 20,
             "word_start": 8
           }
@@ -75,28 +62,16 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَفْضَلُ": "better or more virtuous",
-            "رَكْعَتَانِ": "two units of salat (prayer)",
-            "عَزَبٍ": "an unmarried man",
-            "لَيْلَهُ": "his night",
-            "مُتَزَوِّجٌ": "a married person",
-            "نَهَارَهُ": "his day",
-            "يَصُومُ": "fasts",
-            "يَقُومُ": "stands in worship, especially at night"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رَكْعَتَانِ",
+          "مُتَزَوِّجٌ",
+          "أَفْضَلُ",
+          "عَزَبٍ",
+          "يَقُومُ",
+          "يَصُومُ",
+          "لَيْلَهُ",
+          "نَهَارَهُ"
+        ],
         "related_quran": [
           {
             "ref": "24:32",
@@ -107,32 +82,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কেন একজন বিবাহিত ব্যক্তি যে দুই রাকাত নামাজ পড়েন তা অবিবাহিত ব্যক্তির ইবাদতের চেয়ে উত্তম বলে বিবেচিত হয়?",
-          "de": "Warum gelten zwei von einer verheirateten Person verrichtete Rak'ahs als besser als die Anbetung eines unverheirateten Mannes?",
-          "en": "Why are two rak'ahs prayed by a married person considered better than the worship of an unmarried man?",
-          "es": "¿Por qué se consideran dos rak'ahs rezadas por una persona casada mejores que la adoración de un hombre soltero?",
-          "fa": "چرا دو رکعت نماز خوانده شده توسط فرد متأهل بهتر از عبادت مرد مجرد محسوب می‌شود؟",
-          "fr": "Pourquoi deux rak'ahs priées par une personne mariée sont-elles considérées comme meilleures que l'adoration d'un homme célibataire ?",
-          "id": "Mengapa dua rakaat yang dilakukan oleh orang yang sudah menikah dianggap lebih baik daripada ibadah seorang pria lajang?",
-          "ru": "Почему два ракаата, совершаемые женатым человеком, считаются лучше поклонения одинокого мужчины?",
-          "tr": "Evli bir kişinin kıldığı iki rekat namaz neden bekar bir erkeğin ibadetinden daha üstün kabul edilir?",
-          "ur": "دو رکعت نماز جو ایک شادی شدہ شخص ادا کرتا ہے، اسے ایک کنوارے کی عبادت سے بہتر کیوں سمجھا جاتا ہے؟",
-          "zh": "为何已婚者所行两拜礼被认为优于独身者的崇拜？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস বিবাহিত ব্যক্তির ইবাদতের শ্রেষ্ঠত্ব বর্ণনা করে যা অবিবাহিত ব্যক্তির কঠোর ইবাদতের চেয়ে উত্তম। এটি বিবাহের গুণাবলী এবং সালাত ও সাওমের মতো ইবাদতের ধর্মীয় গুরুত্বকে তুলে ধরে।",
-          "de": "Dieser Hadith stellt die Überlegenheit der Anbetung eines verheirateten Menschen im Vergleich zur intensiven Andacht eines unverheirateten Mannes dar. Er hebt die Tugend und religiöse Bedeutung der Ehe neben Gebeten (Salat) und Fasten (Sawm) hervor.",
-          "en": "This hadith states the superiority of the worship of a married person in comparison to the intense devotional practice of an unmarried man. It highlights the virtue and religious significance of marriage alongside acts of worship such as salat (prayer) and sawm (fasting).",
-          "es": "Este hadiz establece la superioridad de la adoración de una persona casada en comparación con la práctica devocional intensa de un hombre soltero. Destaca la virtud y el significado religioso del matrimonio junto con actos de adoración como la salat y el sawm.",
-          "fa": "این حدیث برتری عبادت فرد متأهل را نسبت به عبادت شدید مرد مجرد بیان می‌کند. فضیلت و اهمیت دینی ازدواج همراه با اعمال عبادی مانند نماز و روزه را نشان می‌دهد.",
-          "fr": "Ce hadith affirme la supériorité de l'adoration d'une personne mariée par rapport à la pratique dévotionnelle intense d'un homme célibataire. Il souligne la vertu et la signification religieuse du mariage ainsi que des actes d'adoration tels que la salat et le sawm.",
-          "id": "Hadis ini menyatakan keutamaan ibadah orang yang sudah menikah dibandingkan dengan praktik ibadah intensif seorang pria lajang. Ini menyoroti keutamaan dan makna agama pernikahan bersama dengan salat dan sawm.",
-          "ru": "Этот хадис утверждает превосходство поклонения женатого человека по сравнению с интенсивной преданностью одинокого мужчины. Он подчеркивает добродетель и религиозное значение брака наряду с такими актами поклонения, как салат и саум.",
-          "tr": "Bu hadis, evli bir kişinin ibadetinin, bekâr bir erkeğin yoğun ibadetinden üstün olduğunu belirtir. Evliliğin faziletini ve salat ile sawm gibi ibadetlerin dini önemini vurgular.",
-          "ur": "یہ حدیث شادی شدہ شخص کی عبادت کی فضیلت بیان کرتی ہے جو ایک کنوارے کی سخت عبادت سے بہتر ہے۔ یہ شادی کی فضیلت اور عبادات جیسے نماز اور روزے کی اہمیت کو اجاگر کرتی ہے۔",
-          "zh": "此圣训说明已婚者的崇拜优于独身者的虔诚修行，强调婚姻的美德及其与礼拜（salat）和斋戒（sawm）等崇拜行为的宗教意义。"
-        },
         "tags": [
           "worship",
           "family",

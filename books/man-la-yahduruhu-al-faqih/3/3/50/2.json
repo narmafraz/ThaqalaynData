@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَفِي رِوَايَةِ أَبِي خَدِيجَةَ عَنْ أَبِي عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং আবু খদীজাহর বর্ণনায়, আবু আব্দিল্লাহ عليه السلام থেকে বর্ণিত হয়েছে, তিনি বললেন:",
-              "de": "Und in der Überlieferung von Abū Khadījah von Abū ʿAbdillāh عليه السلام sagte er:",
-              "en": "And in the narration of Abū Khadījah, from Abū ʿAbdillāh عليه السلام, he said:",
-              "es": "Y en la narración de Abū Khadījah, de Abū ʿAbdillāh عليه السلام, dijo:",
-              "fa": "و در روایت ابوخدیجه از ابوعبدالله علیه‌السلام آمده است که فرمود:",
-              "fr": "Et dans la narration d’Abū Khadījah, de la part d’Abū ʿAbdillāh عليه السلام, il a dit :",
-              "id": "Dan dalam riwayat Abū Khadījah, dari Abū ʿAbdillāh عليه السلام, beliau berkata:",
-              "ru": "И в передаче от Абу Хадиджи, от Абу Абдиллаха عليه السلام, он сказал:",
-              "tr": "Ve Ebu Hadiçe rivayetinde, Ebu Abdullah aleyhisselam şöyle dedi:",
-              "ur": "اور ابی خدیجہ کی روایت میں، ابو عبداللہ علیہ السلام سے روایت ہے کہ انہوں نے فرمایا:",
-              "zh": "在阿布哈迪贾的传述中，来自阿布阿卜迪拉 عليه السلام，他说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "كُلُّ إِنْسَانٍ مُرْتَهَنٌ بِٱلْفِطْرَةِ وَكُلُّ مَوْلُودٍ مُرْتَهَنٌ بِٱلْعَقِيقَةِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "প্রতিটি মানুষ ফিতরার দ্বারা বন্ধকী, এবং প্রতিটি নবজাতক ʿআকীকাহ দ্বারা বন্ধকী।",
-              "de": "Jeder Mensch ist durch die Fitrah gebunden, und jedes Neugeborene ist durch die ʿAqīqah gebunden.",
-              "en": "Every person is held in pledge by the fitrah, and every newborn is held in pledge by the ʿaqīqah.",
-              "es": "Cada persona está comprometida por la fitrah, y cada recién nacido está comprometido por la ʿaqīqah.",
-              "fa": "هر انسانی به فطرت گرو گذاشته شده است و هر نوزادی به ʿعقیقه گرو گذاشته شده است.",
-              "fr": "Chaque personne est engagée par la fitrah, et chaque nouveau-né est engagé par la ʿaqīqah.",
-              "id": "Setiap orang dipegang sebagai gadai oleh fitrah, dan setiap bayi baru lahir dipegang sebagai gadai oleh ʿaqīqah.",
-              "ru": "Каждый человек заложен природой (фитра), и каждый новорожденный заложен обрядом ʿакіка.",
-              "tr": "Her insan fitra ile rehinlidir ve her yenidoğan ʿakîkah ile rehinlidir.",
-              "ur": "ہر انسان فطرت کے ذریعے گروی رکھا گیا ہے، اور ہر نوزائیدہ ʿعقیقہ کے ذریعے گروی رکھا گیا ہے۔",
-              "zh": "每个人都由本性（fitrah）为质押，每个新生儿都由ʿaqīqah为质押。"
-            },
             "word_end": 19,
             "word_start": 11
           }
@@ -81,26 +68,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِنْسَانٍ": "a human being or person",
-            "رِوَايَةِ": "a transmitted narration",
-            "مَوْلُودٍ": "a newborn child",
-            "مُرْتَهَنٌ": "held in pledge or bound",
-            "ٱلْعَقِيقَةِ": "the ʿaqīqah sacrifice associated with a newborn",
-            "ٱلْفِطْرَةِ": "the innate natural disposition upon which one is created"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رِوَايَةِ",
+          "إِنْسَانٍ",
+          "مُرْتَهَنٌ",
+          "ٱلْفِطْرَةِ",
+          "مَوْلُودٍ",
+          "ٱلْعَقِيقَةِ"
+        ],
         "related_quran": [
           {
             "ref": "30:30",
@@ -111,32 +86,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হাদিসের অর্থ কী যখন বলা হয় নবজাতক ʿআকীকাহ দ্বারা বন্ধকী?",
-          "de": "Was bedeutet der Hadith, wenn er sagt, dass ein Neugeborenes durch die ʿAqīqah gebunden ist?",
-          "en": "What does the hadith mean when it says a newborn is held in pledge by the ʿaqīqah?",
-          "es": "¿Qué significa el hadiz cuando dice que un recién nacido está comprometido por la ʿaqīqah?",
-          "fa": "معنای حدیث وقتی که می‌گوید نوزاد به وسیله ʿعقیقه گرو گذاشته شده چیست؟",
-          "fr": "Que signifie le hadith lorsqu’il dit qu’un nouveau-né est engagé par la ʿaqīqah ?",
-          "id": "Apa arti hadits ketika mengatakan bahwa bayi baru lahir dipegang sebagai gadai oleh ʿaqīqah?",
-          "ru": "Что означает хадис, когда говорится, что новорожденный заложен обрядом ʿакіка?",
-          "tr": "Hadiste \"yenidoğan ʿakîkah ile rehinlidir\" ifadesi ne anlama gelir?",
-          "ur": "حدیث کا کیا مطلب ہے جب کہا جاتا ہے کہ نوزائیدہ ʿعقیقہ کے ذریعے گروی رکھا گیا ہے؟",
-          "zh": "圣训中说新生儿由ʿaqīqah为质押是什么意思？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি মানুষকে ফিতরার সাথে সংযুক্ত করে, যা মানুষের স্বাভাবিক প্রাকৃতিক প্রবৃত্তি যার ওপর মানুষ সৃষ্টি হয়, এবং নবজাতককে বিশেষভাবে ʿআকীকাহের রীতির সাথে সংযুক্ত করে। এটি মানব সৃষ্টির ঈশ্বর প্রদত্ত প্রকৃতি এবং শিশুকে স্বাগত জানানোর পারিবারিক প্রথার ধর্মীয় গুরুত্বকে তুলে ধরে।",
-          "de": "Dieser Hadith verbindet den Menschen mit der Fitrah, der angeborenen natürlichen Veranlagung, auf der Menschen erschaffen werden, und verbindet das Neugeborene speziell mit dem Ritus der ʿAqīqah. Er hebt die religiöse Bedeutung hervor, sowohl die von Gott gegebene Natur der menschlichen Schöpfung als auch die familiäre Praxis zur Begrüßung eines Kindes anzuerkennen.",
-          "en": "This hadith links the human being to fitrah, the innate natural disposition upon which people are created, and links the newborn specifically to the rite of ʿaqīqah. It highlights the religious importance of acknowledging both the God-given nature of human creation and the family practice associated with welcoming a child.",
-          "es": "Este hadiz vincula al ser humano con la fitrah, la disposición natural innata con la que las personas son creadas, y vincula al recién nacido específicamente con el rito de la ʿaqīqah. Destaca la importancia religiosa de reconocer tanto la naturaleza dada por Dios de la creación humana como la práctica familiar asociada con la bienvenida de un niño.",
-          "fa": "این حدیث انسان را به فطرت، سرشت ذاتی که انسان‌ها بر اساس آن آفریده شده‌اند، مرتبط می‌کند و نوزاد را به ویژه به آیین ʿعقیقه پیوند می‌دهد. اهمیت دینی شناخت طبیعت الهی آفرینش انسان و سنت خانوادگی استقبال از کودک را برجسته می‌سازد.",
-          "fr": "Ce hadith relie l’être humain à la fitrah, la disposition naturelle innée sur laquelle les gens sont créés, et relie le nouveau-né spécifiquement au rite de la ʿaqīqah. Il souligne l’importance religieuse de reconnaître à la fois la nature donnée par Dieu de la création humaine et la pratique familiale associée à l’accueil d’un enfant.",
-          "id": "Hadis ini menghubungkan manusia dengan fitrah, sifat alami bawaan yang menjadi dasar penciptaan manusia, dan menghubungkan bayi baru lahir secara khusus dengan ritual ʿaqīqah. Ini menyoroti pentingnya pengakuan sifat ciptaan manusia yang diberikan oleh Allah dan praktik keluarga dalam menyambut anak.",
-          "ru": "Этот хадис связывает человека с фитрой — врожденной природной склонностью, на которой основано создание людей, и связывает новорожденного особенно с обрядом ʿакіка. Он подчеркивает религиозное значение признания как божественной природы человеческого творения, так и семейной практики, связанной с приветствием ребенка.",
-          "tr": "Bu hadis, insanı yaratılışındaki doğal fıtrat ile bağlar ve yenidoğanı özellikle ʿakîkah ritüeliyle ilişkilendirir. İnsan yaratılışının Allah tarafından verilen doğasını ve çocuğu karşılama aile pratiğinin dini önemini vurgular.",
-          "ur": "یہ حدیث انسان کو فطرت سے جوڑتی ہے، جو فطری جبلت ہے جس پر لوگ پیدا کیے جاتے ہیں، اور خاص طور پر نوزائیدہ کو ʿعقیقہ کے رواج سے جوڑتی ہے۔ یہ خدا کی طرف سے دی گئی انسانی تخلیق کی فطرت اور بچے کے استقبال کے خاندانی عمل کی مذہبی اہمیت کو اجاگر کرتی ہے۔",
-          "zh": "这段圣训将人类与天性（fitrah）联系起来，即人类被创造时的天赋自然倾向，并特别将新生儿与ʿaqīqah仪式联系起来。它强调了承认神赋予的人类创造本性及迎接孩子的家庭习俗的宗教重要性。"
-        },
         "tags": [
           "family",
           "jurisprudence",

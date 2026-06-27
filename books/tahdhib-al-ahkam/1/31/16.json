@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ عَنِ الْحُسَيْنِ عَنْ حَمَّادِ بْنِ عِيسَى عَنْ حَرِيزٍ عَنْ زُرَارَةَ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ, আল-হুসাইন থেকে, হাম্মাদ ইবন 'ঈসা থেকে, হারিজ থেকে, জুরারাহ থেকে, যিনি বলেছেন:",
-              "de": "Ahmad, von al-Husayn, von Hammad ibn 'Isa, von Hariz, von Zurarah, der sagte:",
-              "en": "Ahmad, from al-Husayn, from Hammad ibn 'Isa, from Hariz, from Zurarah, who said:",
-              "es": "Ahmad, de al-Husayn, de Hammad ibn 'Isa, de Hariz, de Zurarah, quien dijo:",
-              "fa": "احمد، از الحسين، از حماد بن عيسى، از حريز، از زراره، که گفت:",
-              "fr": "Ahmad, d’al-Husayn, de Hammad ibn 'Isa, de Hariz, de Zurarah, qui a dit :",
-              "id": "Ahmad, dari al-Husayn, dari Hammad ibn 'Isa, dari Hariz, dari Zurarah, yang berkata:",
-              "ru": "Ахмад, от аль-Хусайна, от Хаммада ибн 'Исы, от Хариза, от Зурары, который сказал:",
-              "tr": "Ahmed, el-Hüseyin'den, Hammad ibn 'Isa'dan, Hariz'den, Zurarah'dan rivayet etti; o şöyle dedi:",
-              "ur": "احمد، الحسين سے، حماد بن عیسیٰ سے، حریز سے، زرارہ سے، جنہوں نے کہا:",
-              "zh": "Ahmad，传自al-Husayn，传自Hammadibn'Isa，传自Hariz，传自Zurarah，他说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "كَانَ يَسْتَنْجِي مِنَ الْبَوْلِ ثَلَاثَ مَرَّاتٍ، وَمِنَ الْغَائِطِ بِالْمَدَرِ وَالْخِرَقِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি প্রস্রাব থেকে তিনবার ইস্তিনজা করতেন, আর পায়খানা থেকে মাটির ঢেলা ও কাপড়ের টুকরো দিয়ে পরিষ্কার করতেন।",
-              "de": "Er pflegte sich vom Urin dreimal mit istinja' zu reinigen und sich von den Fäkalien mit Erdklumpen und Lappen zu säubern.",
-              "en": "He used to perform istinja' from urine three times, and from feces with clods of earth and rags.",
-              "es": "Él solía hacer istinja' de la orina tres veces, y de las heces con terrones de tierra y trapos.",
-              "fa": "او از بول سه بار استنجا می‌کرد، و از غائط با کلوخ‌های خاک و پارچه‌ها پاک می‌شد.",
-              "fr": "Il faisait l’istinja' de l’urine trois fois, et des selles avec des mottes de terre et des chiffons.",
-              "id": "Beliau biasa beristinja' dari kencing tiga kali, dan dari tinja dengan gumpalan tanah serta kain-kain.",
-              "ru": "Он обычно совершал истинджа от мочи три раза, а от испражнений очищался комками земли и тряпками.",
-              "tr": "O, idrardan üç kez istinja' yapardı; dışkıdan ise toprak parçaları ve bez parçalarıyla temizlenirdi.",
-              "ur": "وہ پیشاب سے تین مرتبہ استنجا کرتے تھے، اور پاخانے سے مٹی کے ڈھیلوں اور کپڑوں کے ٹکڑوں کے ذریعے صفائی کرتے تھے۔",
-              "zh": "他通常从尿液中做istinja'三次，并用土块和布片清洁粪便。"
-            },
             "word_end": 22,
             "word_start": 12
           }
@@ -114,26 +101,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْبَوْلِ": "urine",
-            "الْخِرَقِ": "rags or cloth pieces used for cleansing",
-            "الْغَائِطِ": "feces/excrement",
-            "الْمَدَرِ": "clods of earth used for cleansing",
-            "ثَلَاثَ مَرَّاتٍ": "three times",
-            "يَسْتَنْجِي": "to perform istinja', meaning cleansing the private area after relieving oneself"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَسْتَنْجِي",
+          "الْبَوْلِ",
+          "ثَلَاثَ مَرَّاتٍ",
+          "الْغَائِطِ",
+          "الْمَدَرِ",
+          "الْخِرَقِ"
+        ],
         "related_quran": [
           {
             "ref": "2:222",
@@ -148,32 +123,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "তাহযীবুল আহকাম অনুযায়ী প্রস্রাব ও পায়খানা থেকে ইস্তিনজা কীভাবে করা হতো?",
-          "de": "Wie wurde das istinja' von Urin und Fäkalien gemäß Tahdhib al-Ahkam durchgeführt?",
-          "en": "How was istinja' performed from urine and feces according to this hadith in Tahdhib al-Ahkam?",
-          "es": "¿Cómo se hacía el istinja' de la orina y las heces según Tahdhib al-Ahkam?",
-          "fa": "بر اساس تهذیب الأحکام، استنجا از بول و غائط چگونه انجام می‌شد؟",
-          "fr": "Comment l’istinja' était-il effectué après l’urine et les selles selon Tahdhib al-Ahkam ?",
-          "id": "Bagaimana istinja' dilakukan dari kencing dan tinja menurut Tahdhib al-Ahkam?",
-          "ru": "Как совершался истинджа от мочи и испражнений согласно Tahdhib al-Ahkam?",
-          "tr": "Tahdhib al-Ahkam'a göre idrar ve dışkıdan istinja' nasıl yapılırdı?",
-          "ur": "تہدیب الاحکام کے مطابق پیشاب اور پاخانے سے استنجا کیسے کیا جاتا تھا؟",
-          "zh": "根据Tahdhibal-Ahkam，如何从尿液和粪便中进行istinja'？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে ইস্তিনজার একটি পদ্ধতি বর্ণিত হয়েছে, যেখানে প্রস্রাব থেকে তিনবার পরিষ্কার করা এবং পায়খানা থেকে মাটির ঢেলা ও কাপড়ের মাধ্যমে পবিত্রতা অর্জনের কথা বলা হয়েছে। তাহারাতের ফিকহে এটি গুরুত্বপূর্ণ, কারণ এটি হাদিস-পরম্পরায় বাস্তব পবিত্রতার আদবের বিস্তারিত সংরক্ষণ করে।",
-          "de": "Dieser Hadith beschreibt eine Praxis des istinja' nach dem Verrichten der Notdurft, indem er das Reinigen vom Urin dreimal und das Säubern von den Fäkalien mit Erdklumpen und Tüchern erwähnt. Er ist im Fiqh der Taharah bedeutsam, da er Einzelheiten der praktischen Reinheitsregeln bewahrt, die in der Hadith-Überlieferung weitergegeben wurden.",
-          "en": "This hadith describes a practice of istinja' after relieving oneself, specifying washing from urine three times and cleansing from feces using clods of earth and cloths. It is significant in the fiqh of taharah, as it preserves details of practical purification etiquette transmitted in the hadith tradition.",
-          "es": "Este hadiz describe una práctica de istinja' después de aliviarse, especificando lavarse de la orina tres veces y limpiarse de las heces usando terrones de tierra y paños. Es significativo en el fiqh de la taharah, pues preserva detalles de la etiqueta práctica de la purificación transmitidos en la tradición del hadiz.",
-          "fa": "این حدیث شیوه‌ای از استنجا را بیان می‌کند؛ با ذکرِ شستن از بول سه بار و پاک‌سازی از غائط با کلوخ‌های خاک و پارچه‌ها. این روایت در فقه طهارت مهم است، زیرا جزئیات آداب عملیِ پاکیزگی را در سنت حدیثی حفظ کرده است.",
-          "fr": "Ce hadith décrit une pratique de l’istinja' après s’être soulagé, en précisant de se laver de l’urine trois fois et de se nettoyer des selles à l’aide de mottes de terre et de chiffons. Il est important dans le fiqh de la taharah, car il préserve des détails de l’étiquette pratique de la purification transmis dans la tradition du hadith.",
-          "id": "Hadis ini menjelaskan praktik istinja' setelah buang hajat, dengan menyebutkan membersihkan dari kencing tiga kali dan membersihkan dari tinja menggunakan gumpalan tanah dan kain. Ini penting dalam fikih taharah, karena حفظ rincian adab penyucian praktis yang diriwayatkan dalam tradisi hadis.",
-          "ru": "Этот хадис описывает практику истинджа после удовлетворения естественной нужды, указывая на очищение от мочи три раза и очищение от испражнений комками земли и тряпками. Это важно в фикхе тахара, поскольку сохраняет детали практического этикета очищения, переданные в хадисной традиции.",
-          "tr": "Bu hadis, istinja' uygulamasını anlatır; idrardan üç kez temizlenmeyi ve dışkıdan toprak parçaları ile bezler kullanarak arınmayı belirtir. Taharet fıkhında önemlidir; çünkü hadis geleneğinde pratik temizlik adabının ayrıntılarını korur.",
-          "ur": "یہ حدیث استنجا کے ایک طریقے کو بیان کرتی ہے، جس میں پیشاب سے تین مرتبہ صفائی اور پاخانے سے مٹی کے ڈھیلوں اور کپڑوں کے ذریعے طہارت کا ذکر ہے۔ یہ طہارت کے فقہی باب میں اہم ہے، کیونکہ یہ حدیثی روایت میں عملی پاکیزگی کے آداب کی تفصیل محفوظ رکھتی ہے۔",
-          "zh": "这段圣训描述了如厕后的istinja'做法，说明从尿液中清洁三次，并用土块和布片清洁粪便。这在taharah的fiqh中很重要，因为它保留了圣训传统中关于实际净化礼仪的细节。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

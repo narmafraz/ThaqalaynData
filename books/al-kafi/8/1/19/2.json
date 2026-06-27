@@ -15,6 +15,145 @@
       "up": "/books/al-kafi:8:1:19"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَنْهُ عَنْ أَحْمَدَ عَنِ ابْنِ فَضَّالٍ عَنِ ابْنِ بُكَيْرٍ عَنْ أَبِي أَيُّوبَ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 21,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "مَا مِنْ دَاءٍ إِلَّا وَ هُوَ سَارِعٌ إِلَى الْجَسَدِ يَنْتَظِرُ مَتَى يُؤْمَرُ بِهِ فَيَأْخُذَهُ وَ فِي رِوَايَةٍ أُخْرَى إِلَّا الْحُمَّى فَإِنَّهَا تَرِدُ وُرُوداً",
+            "chunk_type": "body",
+            "word_end": 44,
+            "word_start": 21
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 11,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَنْهُ",
+              "name_en": "from him",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 92,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ",
+              "name_en": "Ahmad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 22,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ فَضَّالٍ",
+              "name_en": "Ibn Faddal",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 56,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ بُكَيْرٍ",
+              "name_en": "Ibn Bukayr",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 86,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي أَيُّوبَ",
+              "name_en": "Abu Ayyub",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "دَاءٍ",
+          "سَارِعٌ",
+          "الْجَسَدِ",
+          "يُؤْمَرُ",
+          "الْحُمَّى",
+          "وُرُوداً"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:189",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:49",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "17:82",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "theology",
+          "knowledge"
+        ],
+        "topics": [
+          "divine_decree",
+          "death_dying",
+          "imams_biography"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> موثق</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (5 / 200)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -100,7 +239,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:19:2",

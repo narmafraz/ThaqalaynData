@@ -15,42 +15,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنِ الْحَسَنِ بْنِ مَحْبُوبٍ عَنْ عَبَّادِ بْنِ صُهَيْبٍ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন মুহাম্মদ, আল-হাসান ইবন মাহবুব থেকে, ‘আব্বাদ ইবন সুহাইব থেকে, তিনি বলেন:",
-              "de": "Ahmad ibn Muhammad, von al-Hasan ibn Mahbub, von 'Abbad ibn Suhayb, der sagte:",
-              "en": "Ahmad ibn Muhammad, from al-Hasan ibn Mahbub, from 'Abbad ibn Suhayb, who said:",
-              "es": "Ahmad ibn Muhammad, de al-Hasan ibn Mahbub, de 'Abbad ibn Suhayb, quien dijo:",
-              "fa": "احمد بن محمد، از حسن بن محبوب، از عباد بن صهیب، که گفت:",
-              "fr": "Ahmad ibn Muhammad, d’al-Hasan ibn Mahbub, de 'Abbad ibn Suhayb, qui a dit :",
-              "id": "Ahmad ibn Muhammad, dari al-Hasan ibn Mahbub, dari 'Abbad ibn Suhayb, yang berkata:",
-              "ru": "Ахмад ибн Мухаммад, от аль-Хасана ибн Махбуба, от 'Аббада ибн Сухайба, который сказал:",
-              "tr": "Ahmed ibn Muhammed, el-Hasan ibn Mahbub’dan, ‘Abbad ibn Suhayb’den, o şöyle dedi:",
-              "ur": "احمد بن محمد، الحسن بن محبوب سے، عباد بن صہیب سے، انہوں نے کہا:",
-              "zh": "艾哈迈德·伊本·穆罕默德，传自哈桑·伊本·马赫布卜，传自‘阿巴德·伊本·苏海卜，他说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ يَقُولُ: لَا يُصَلِّي الْمُتَيَمِّمُ بِقَوْمٍ مُتَوَضِّئِينَ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবা ‘আবদিল্লাহ عليه السلام-কে বলতে শুনেছি: যে ব্যক্তি তায়াম্মুম করেছে, সে এমন লোকদের ইমামতি করবে না যারা ওযু করেছে (অজু)।",
-              "de": "Ich hörte Aba 'Abdillah عليه السلام sagen: Wer Tayammum vollzogen hat, soll nicht das Gebet für Leute leiten, die Wudu (Gebetswaschung) vollzogen haben.",
-              "en": "I heard Aba 'Abdillah عليه السلام saying: One who has performed tayammum does not lead in prayer a people who have performed wudu (ablution).",
-              "es": "Escuché a Aba 'Abdillah عليه السلام decir: Quien ha realizado tayammum no debe dirigir la oración de un pueblo que ha hecho wudu (ablución).",
-              "fa": "از ابا عبدالله علیه‌السلام شنیدم که می‌فرمود: کسی که تیمم کرده است، بر گروهی که وضو گرفته‌اند امامت نکند.",
-              "fr": "J’ai entendu Aba 'Abdillah عليه السلام dire : Celui qui a accompli le tayammum ne doit pas diriger la prière d’un groupe qui a fait le wudu (ablution).",
-              "id": "Aku mendengar Aba 'Abdillah عليه السلام bersabda: Orang yang telah bertayammum tidak boleh menjadi imam salat bagi kaum yang telah berwudu (bersuci).",
-              "ru": "Я слышал, как Аба 'Абдуллах عليه السلام говорил: Тот, кто совершил таяммум, не должен вести молитву людей, совершивших вуду (омовение).",
-              "tr": "Ebu Abdullah aleyhisselam’ın şöyle dediğini işittim: Teyemmüm yapan kimse, abdest almış bir topluluğa namazda imamlık etmez.",
-              "ur": "میں نے ابا عبد اللہ علیہ السلام کو یہ فرماتے ہوئے سنا: جس نے تیمم کیا ہو وہ ایسے لوگوں کی امامت نہ کرے جنہوں نے وضو کیا ہو۔",
-              "zh": "我听阿巴‘阿卜杜拉 عليه السلام说：做了tayammum的人，不应带领已经做了wudu（小净）的人礼拜。"
-            },
             "word_end": 24,
             "word_start": 12
           }
@@ -83,24 +70,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْمُتَيَمِّمُ": "a person who has performed tayammum, dry ablution in place of wudu",
-            "بِقَوْمٍ": "a group of people, here meaning the congregation",
-            "مُتَوَضِّئِينَ": "people who have performed wudu (ablution)",
-            "يُصَلِّي": "to perform prayer; here, to lead the prayer"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمُتَيَمِّمُ",
+          "بِقَوْمٍ",
+          "مُتَوَضِّئِينَ",
+          "يُصَلِّي"
+        ],
         "related_quran": [
           {
             "ref": "4:43",
@@ -111,32 +86,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "তায়াম্মুমকারী ব্যক্তি কি ওযু করা লোকদের ইমামতি করতে পারে?",
-          "de": "Kann eine Person, die Tayammum gemacht hat, das Gebet für Menschen mit Wudu leiten?",
-          "en": "Can a person who performed tayammum lead in prayer people who have wudu (ablution)?",
-          "es": "¿Puede una persona que hizo tayammum dirigir la oración de personas que tienen wudu?",
-          "fa": "آیا کسی که تیمم کرده است می‌تواند بر کسانی که وضو دارند امامت کند؟",
-          "fr": "Une personne qui a fait le tayammum peut-elle diriger la prière de personnes qui ont le wudu ?",
-          "id": "Apakah orang yang bertayammum boleh menjadi imam salat bagi orang-orang yang berwudu?",
-          "ru": "Может ли человек, совершивший таяммум, вести молитву людей, у которых есть вуду?",
-          "tr": "Teyemmüm yapan bir kişi, abdestli insanlara namazda imamlık yapabilir mi?",
-          "ur": "کیا تیمم کرنے والا شخص وضو کرنے والوں کی امامت کر سکتا ہے؟",
-          "zh": "做了tayammum的人可以带领有wudu的人礼拜吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি জামাআতের সালাত সম্পর্কে একটি শরঈ বিধান উল্লেখ করে: যে ব্যক্তি তায়াম্মুম করেছে, সে ওযু অবস্থায় থাকা লোকদের ইমামতি করবে না। এটি ইবাদতে পবিত্রতা এবং সালাতে ইমাম হওয়ার যোগ্যতার সঙ্গে সম্পর্কিত।",
-          "de": "Dieser Hadith nennt eine rechtliche Bestimmung über das gemeinschaftliche Salat: Eine Person, die Tayammum vollzogen hat, soll nicht diejenigen leiten, die sich im Zustand des Wudu befinden. Es betrifft die rituelle Reinheit und die Voraussetzungen für das Vorbeten im Gottesdienst.",
-          "en": "This hadith states a legal ruling about congregational salat (prayer): a person who has performed tayammum should not lead those who are in a state of wudu (ablution). It concerns ritual purity and the qualifications for leading prayer in worship.",
-          "es": "Este hadiz establece una norma jurídica sobre la salat en congregación: una persona que ha realizado tayammum no debe dirigir a quienes están en estado de wudu. Se refiere a la pureza ritual y a las condiciones para dirigir la oración en la adoración.",
-          "fa": "این حدیث حکمی فقهی درباره نماز جماعت بیان می‌کند: کسی که تیمم کرده است نباید بر کسانی که با وضو هستند امامت کند. این روایت به طهارت شرعی و شرایط امامت در نماز مربوط است.",
-          "fr": "Ce hadith énonce une règle juridique concernant la salat en جماعتé : une personne qui a accompli le tayammum ne doit pas diriger ceux qui sont en état de wudu. Cela concerne la pureté rituelle et les conditions requises pour diriger la prière dans le culte.",
-          "id": "Hadis ini menyatakan sebuah hukum syar'i tentang salat berjamaah: seseorang yang telah bertayammum tidak boleh menjadi imam bagi orang-orang yang berwudu. Ini berkaitan dengan kesucian ritual dan syarat-syarat menjadi imam dalam ibadah.",
-          "ru": "Этот хадис устанавливает правовое предписание относительно коллективной молитвы: человек, совершивший таяммум, не должен быть имамом для тех, кто находится в состоянии вуду. Это касается ритуальной чистоты и условий для руководства молитвой в поклонении.",
-          "tr": "Bu hadis, cemaatle salat hakkında bir fıkhî hüküm bildirir: Teyemmüm yapmış bir kişi, abdestli olanlara imamlık etmemelidir. Bu, ibadetteki taharet ve namaz imamlığı için gerekli şartlarla ilgilidir.",
-          "ur": "یہ حدیث جماعتی نماز کے بارے میں ایک شرعی حکم بیان کرتی ہے: جس شخص نے تیمم کیا ہو وہ ان لوگوں کی امامت نہ کرے جو وضو کی حالت میں ہوں۔ اس کا تعلق طہارتِ شرعی اور نماز کی امامت کی اہلیت سے ہے۔",
-          "zh": "这段圣训说明了关于集体salat（礼拜）的教法规定：做了tayammum的人不应带领处于wudu状态的人礼拜。这涉及礼仪洁净以及担任礼拜领拜者的资格。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

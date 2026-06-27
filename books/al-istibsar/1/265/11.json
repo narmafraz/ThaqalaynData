@@ -16,99 +16,47 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "الْحُسَيْنُ بْنُ سَعِيدٍ عَنِ الْقَاسِمِ عَنْ عَلِيِّ بْنِ أَبِي حَمْزَةَ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ আল-কাসিম থেকে, তিনি 'আলি ইবন আবি হামযা থেকে বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "Al-Husayn ibn Sa'id überlieferte von al-Qasim, von 'Ali ibn Abi Hamzah, der sagte:",
-              "en": "Al-Husayn ibn Sa'id narrated from al-Qasim, from 'Ali ibn Abi Hamzah, who said:",
-              "es": "Al-Husayn ibn Sa'id narró de al-Qasim, de 'Ali ibn Abi Hamzah, quien dijo:",
-              "fa": "الحسین بن سعید از القاسم، از علی بن ابی حمزه روایت کرد که گفت:",
-              "fr": "Al-Husayn ibn Sa'id a rapporté d'al-Qasim, de 'Ali ibn Abi Hamzah, qui a dit :",
-              "id": "Al-Husayn ibn Sa'id meriwayatkan dari al-Qasim, dari 'Ali ibn Abi Hamzah, yang berkata:",
-              "ru": "Аль-Хусайн ибн Са'ид передал от аль-Касима, от 'Али ибн Аби Хамзы, который сказал:",
-              "tr": "el-Hüseyin ibn Sa'id, el-Kasım'dan, o da 'Ali ibn Ebi Hamza'dan rivayet etti; o dedi ki:",
-              "ur": "الحسین بن سعید نے القاسم سے، انہوں نے علی بن ابی حمزہ سے روایت کی، انہوں نے کہا:",
-              "zh": "Al-HusaynibnSa'id传自al-Qasim，传自'AliibnAbiHamzah，他说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "دَخَلْنَا عَلَى أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ فَقَالَ لَهُ أَبُو بَصِيرٍ: مَا تَقُولُ فِي الصَّلَاةِ فِي رَمَضَانَ؟",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আমরা আবু 'আবদুল্লাহ عليه السلام-এর কাছে প্রবেশ করলাম, এবং আবু বাসীর তাঁকে বললেন: রমজানে সালাত (নামাজ) সম্পর্কে আপনি কী বলেন?",
-              "de": "Wir traten vor Abi 'Abd Allah عليه السلام, und Abu Basir sagte zu ihm: Was sagst du über die salat (das Gebet) im Ramadan?",
-              "en": "We entered upon Abi 'Abd Allah عليه السلام, and Abu Basir said to him: What do you say regarding the salat (prayer) in Ramadan?",
-              "es": "Entramos ante Abi 'Abd Allah عليه السلام, y Abu Basir le dijo: ¿Qué dices acerca de la salat (oración) en Ramadán?",
-              "fa": "ما بر ابوعبدالله علیه السلام وارد شدیم، و ابوبصیر به او گفت: دربارهٔ صلات (نماز) در رمضان چه می‌فرمایی؟",
-              "fr": "Nous entrâmes auprès d'Abi 'Abd Allah عليه السلام, et Abu Basir lui dit : Que dis-tu au sujet de la salat (prière) pendant Ramadan ?",
-              "id": "Kami masuk menemui Abi 'Abd Allah عليه السلام, lalu Abu Basir berkata kepadanya: Apa yang engkau katakan tentang salat (shalat) di bulan Ramadan?",
-              "ru": "Мы вошли к Аби 'Абд Аллаху عليه السلام, и Абу Басир сказал ему: Что ты скажешь о салат (молитве) в Рамадан?",
-              "tr": "Biz Ebu 'Abd Allah عليه السلام'ın huzuruna girdik; Ebu Basir ona dedi ki: Ramazan'da salat (namaz) hakkında ne dersin?",
-              "ur": "ہم ابو عبد اللہ علیہ السلام کی خدمت میں حاضر ہوئے، اور ابو بصیر نے ان سے کہا: آپ رمضان میں صلات (نماز) کے بارے میں کیا فرماتے ہیں؟",
-              "zh": "我们进去见Abi'AbdAllah عليه السلام，AbuBasir对他说：你对斋月中的salat（礼拜）怎么说？"
-            },
             "word_end": 28,
             "word_start": 11
           },
           {
             "arabic_text": "فَقَالَ: إِنَّ لِرَمَضَانَ لَحُرْمَةً وَحَقًّا لَا يُشْبِهُهُ شَيْءٌ مِنَ الشُّهُورِ، صَلِّ مَا اسْتَطَعْتَ فِي رَمَضَانَ تَطَوُّعًا بِاللَّيْلِ وَالنَّهَارِ، وَإِنِ اسْتَطَعْتَ فِي كُلِّ يَوْمٍ أَلْفَ رَكْعَةٍ فَصَلِّ، إِنَّ عَلِيًّا عَلَيْهِ السَّلَامُ كَانَ فِي آخِرِ عُمُرِهِ يُصَلِّي فِي كُلِّ يَوْمٍ وَلَيْلَةٍ أَلْفَ رَكْعَةٍ، وَصَلِّ يَا أَبَا مُحَمَّدٍ زِيَادَةً فِي رَمَضَانَ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: নিশ্চয়ই রমজানের একটি মর্যাদা ও অধিকার আছে, যা মাসগুলোর কোনো কিছুর সাথেই সাদৃশ্যপূর্ণ নয়। রমজানে রাত ও দিনে যতটা পারো নফল সালাত (নামাজ) পড়ো। আর যদি তুমি প্রতিদিন এক হাজার রাকাত পড়তে সক্ষম হও, তবে পড়ো। নিশ্চয়ই 'আলি عليه السلام তাঁর জীবনের শেষভাগে প্রতিদিন ও রাতে এক হাজার রাকাত পড়তেন। আর হে আবু মুহাম্মদ, রমজানে আরও বেশি পড়ো।",
-              "de": "Er sagte: Gewiss, Ramadan hat eine Heiligkeit und ein Recht, das nichts von den anderen Monaten gleicht. Verrichte im Ramadan so viel freiwillige salat (Gebet) wie du kannst, bei Nacht und bei Tag. Und wenn du in der Lage bist, jeden Tag tausend Rak'ahs zu verrichten, dann verrichte sie. Gewiss pflegte 'Ali عليه السلام in der letzten Zeit seines Lebens jeden Tag und jede Nacht tausend Rak'ahs zu verrichten. Und verrichte im Ramadan mehr, o Abu Muhammad.",
-              "en": "He said: Indeed, Ramadan has a sanctity and a right unlike anything from the other months. Pray as much voluntary salat (prayer) as you are able in Ramadan, by night and day. And if you are able to pray one thousand rak'ahs each day, then pray. Indeed, 'Ali عليه السلام, in the latter part of his life, would pray one thousand rak'ahs in every day and night. And pray extra in Ramadan, O Aba Muhammad.",
-              "es": "Dijo: En verdad, Ramadán tiene una santidad y un derecho que no se asemejan a nada de los demás meses. Reza tanta salat (oración) voluntaria como puedas en Ramadán, de noche y de día. Y si puedes rezar mil rak'ahs cada día, entonces reza. En verdad, 'Ali عليه السلام, en la última parte de su vida, rezaba mil rak'ahs en cada día y noche. Y reza más en Ramadán, oh Abu Muhammad.",
-              "fa": "فرمود: همانا برای رمضان حرمت و حقی است که هیچ چیز از ماه‌ها همانند آن نیست. در رمضان، شب و روز هر مقدار که توان داری صلاتِ نافله (نماز) بخوان. و اگر توانستی در هر روز هزار رکعت بخوانی، پس بخوان. همانا علی علیه السلام در واپسین بخش عمر خود در هر شب و روز هزار رکعت نماز می‌خواند. و ای ابومحمد، در رمضان افزون کن.",
-              "fr": "Il dit : En vérité, Ramadan a une sacralité et un droit qui ne ressemblent à rien de ce qui se trouve parmi les autres mois. Accomplis autant de salat (prière) surérogatoire que tu le peux pendant Ramadan, de nuit comme de jour. Et si tu peux accomplir mille rak'ahs chaque jour, alors accomplis-les. En vérité, 'Ali عليه السلام, dans la dernière partie de sa vie, accomplissait mille rak'ahs chaque jour et chaque nuit. Et accomplis davantage pendant Ramadan, ô Abu Muhammad.",
-              "id": "Beliau bersabda: Sesungguhnya Ramadan memiliki kehormatan dan hak yang tidak menyerupai apa pun dari bulan-bulan lainnya. Salat (shalat) sunnahlah sebanyak yang engkau mampu di bulan Ramadan, pada malam dan siang hari. Dan jika engkau mampu salat seribu rakaat setiap hari, maka salatlah. Sesungguhnya 'Ali عليه السلام pada akhir حياته beliau biasa salat seribu rakaat setiap hari dan malam. Dan salatlah lebih banyak di bulan Ramadan, wahai Abu Muhammad.",
-              "ru": "Он сказал: Поистине, у Рамадана есть святость и право, подобные которым не встречаются ни в одном из других месяцев. Совершай в Рамадан столько добровольного салат (молитвы), сколько сможешь, ночью и днем. И если ты способен совершать по тысяче рак'атов каждый день, то совершай. Поистине, 'Али عليه السلام в последней части своей жизни совершал по тысяче рак'атов каждый день и ночь. И совершай больше в Рамадан, о Абу Мухаммад.",
-              "tr": "Şöyle dedi: Şüphesiz Ramazan'ın bir hürmeti ve hakkı vardır; bu, aylardan hiçbir şeye benzemez. Ramazan'da gece ve gündüz gücünüz yettiğince nafile salat (namaz) kılın. Eğer her gün bin rek'at kılmaya gücünüz yeterse, kılın. Şüphesiz Ali عليه السلام ömrünün son döneminde her gün ve gece bin rek'at kılardı. Ve ey Ebu Muhammed, Ramazan'da artır.",
-              "ur": "انہوں نے فرمایا: بے شک رمضان کی ایک حرمت اور حق ہے جو مہینوں میں سے کسی چیز کے مشابہ نہیں۔ رمضان میں رات اور دن میں جتنی استطاعت ہو نفل صلات (نماز) پڑھو۔ اور اگر تم ہر دن ایک ہزار رکعت پڑھنے کی استطاعت رکھتے ہو تو پڑھو۔ بے شک علی علیہ السلام اپنی عمر کے آخری حصے میں ہر دن اور رات میں ایک ہزار رکعت پڑھتے تھے۔ اور اے ابو محمد، رمضان میں اضافہ کرو۔",
-              "zh": "他说：的确，斋月有一种尊贵和权利，这在诸月中没有任何事物可与之相比。你在斋月里，尽你所能在夜间和白天多做自愿的salat（礼拜）。如果你能够每天做一千拜，那么就做吧。的确，'Ali عليه السلام在他生命的后期，每天和每夜都做一千拜。并且在斋月里多做，啊AbuMuhammad。"
-            },
             "word_end": 76,
             "word_start": 28
           },
           {
             "arabic_text": "فَقَالَ: كَمْ جُعِلْتُ فِدَاكَ؟ فَقَالَ: فِي عِشْرِينَ لَيْلَةً تَمْضِي فِي كُلِّ لَيْلَةٍ عِشْرِينَ رَكْعَةً، ثَمَانِيَ رَكَعَاتٍ قَبْلَ الْعَتَمَةِ وَاثْنَتَي عَشْرَةَ بَعْدَهَا، سِوَى مَا كُنْتَ تُصَلِّي قَبْلَ ذَلِكَ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: আমার পিতা-মাতা আপনার জন্য কুরবান হোক, কত? তিনি বললেন: গত হওয়া বিশ রাতের মধ্যে, প্রতি রাতে বিশ রাকাত: আল-'আতামাহর আগে আট রাকাত এবং এর পরে বারো রাকাত, এর আগে তুমি যা পড়তে তা ছাড়া।",
-              "de": "Er sagte: Wie viel, möge mein Vater und meine Mutter für dich geopfert werden? Er sagte: Während der zwanzig vergehenden Nächte, in jeder Nacht zwanzig Rak'ahs: acht Rak'ahs vor al-'atamah und zwölf danach, zusätzlich zu dem, was du zuvor zu verrichten pflegtest.",
-              "en": "He said: How much, may I be your ransom? He said: During the twenty nights that pass, in every night twenty rak'ahs: eight rak'ahs before al-'atamah and twelve after it, besides what you used to pray before that.",
-              "es": "Dijo: ¿Cuánto, que mis padres sean sacrificados por ti? Dijo: Durante las veinte noches que pasan, en cada noche veinte rak'ahs: ocho rak'ahs antes de al-'atamah y doce después de ella, además de lo que solías rezar antes de ذلك.",
-              "fa": "گفت: پدر و مادرم فدایت، چقدر؟ فرمود: در بیست شبِ گذشته، در هر شب بیست رکعت: هشت رکعت پیش از العتمه و دوازده رکعت پس از آن، افزون بر آنچه پیش از این می‌خواندی.",
-              "fr": "Il dit : Combien, que mon père et ma mère soient sacrifiés pour toi ? Il dit : Durant les vingt nuits qui passent, à chaque nuit vingt rak'ahs : huit rak'ahs avant al-'atamah et douze après cela, en plus de ce que tu avais l'habitude d'accomplir auparavant.",
-              "id": "Ia berkata: Ayah dan ibuku menjadi tebusanmu, berapa banyak? Beliau bersabda: Pada dua puluh malam yang berlalu, setiap malam dua puluh rakaat: delapan rakaat sebelum al-'atamah dan dua belas rakaat sesudahnya, selain apa yang biasa engkau salatkan sebelumnya.",
-              "ru": "Он сказал: Сколько, да станут мои отец и мать выкупом за тебя? Он сказал: В течение двадцати проходящих ночей — каждую ночь по двадцать рак'атов: восемь рак'атов до аль-'атамы и двенадцать после нее, помимо того, что ты обычно совершал прежде.",
-              "tr": "Dedi ki: Anam babam sana feda olsun, ne kadar? Şöyle dedi: Geçen yirmi gecede, her gece yirmi rek'at: al-'atamah'tan önce sekiz rek'at ve ondan sonra on iki rek'at; bundan önce kıldıkların dışında.",
-              "ur": "انہوں نے کہا: میرے ماں باپ آپ پر قربان، کتنی؟ انہوں نے فرمایا: گزرنے والی بیس راتوں میں، ہر رات بیس رکعتیں: عتمہ سے پہلے آٹھ رکعتیں اور اس کے بعد بارہ رکعتیں، اس کے سوا جو تم اس سے پہلے پڑھتے تھے۔",
-              "zh": "他说：多少呢，愿我的父母为你作牺牲？他说：在过去的二十个夜晚里，每夜二十拜：在al-'atamah之前八拜，之后十二拜，此外还有你在此之前常做的。"
-            },
             "word_end": 103,
             "word_start": 76
           },
           {
             "arabic_text": "فَإِذَا دَخَلَ الْعَشْرُ الْأَوَاخِرُ فَصَلِّ ثَلَاثِينَ رَكْعَةً كُلَّ لَيْلَةٍ، ثَمَانِيَ رَكَعَاتٍ قَبْلَ الْعَتَمَةِ وَاثْنَتَيْنِ وَعِشْرِينَ بَعْدَ الْعَتَمَةِ، سِوَى مَا كُنْتَ تَفْعَلُ قَبْلَ ذَلِكَ.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "অতঃপর যখন শেষ দশ রাত শুরু হবে, তখন প্রতি রাতে ত্রিশ রাকআত সালাত আদায় করো: আল-‘আতামাহর আগে আট রাকআত এবং আল-‘আতামাহর পরে বাইশ রাকআত, এর আগে তুমি যা করতে তার বাইরে।",
-              "de": "Wenn dann die letzten zehn Nächte beginnen, verrichte jede Nacht dreißig Rakʿahs: acht Rakʿahs vor al-ʿatamah und zweiundzwanzig nach al-ʿatamah, zusätzlich zu dem, was du zuvor zu tun pflegtest.",
-              "en": "Then when the last ten nights begin, pray thirty rak'ahs every night: eight rak'ahs before al-'atamah and twenty-two after al-'atamah, besides what you used to do before that.",
-              "es": "Luego, cuando comiencen las últimas diez noches, reza treinta rak‘ahs cada noche: ocho rak‘ahs antes de al-‘atamah y veintidós después de al-‘atamah, además de lo que solías hacer antes de ذلك.",
-              "fa": "پس هنگامی که ده شب پایانی آغاز شد، هر شب سی رکعت نماز بخوان: هشت رکعت پیش از العتمه و بیست‌ودو رکعت پس از العتمه، افزون بر آنچه پیش از این انجام می‌دادی.",
-              "fr": "Puis, lorsque commencent les dix dernières nuits, prie trente rak‘ahs chaque nuit : huit rak‘ahs avant al-‘atamah et vingt-deux après al-‘atamah, en plus de ce que tu avais l’habitude de faire auparavant.",
-              "id": "Kemudian ketika sepuluh malam terakhir dimulai, salatlah tiga puluh rakaat setiap malam: delapan rakaat sebelum al-'atamah dan dua puluh dua rakaat setelah al-'atamah, selain apa yang biasa engkau lakukan sebelumnya.",
-              "ru": "Затем, когда начнутся последние десять ночей, совершай каждую ночь тридцать рак‘атов: восемь рак‘атов до аль-‘атамы и двадцать два после аль-‘атамы, помимо того, что ты обычно совершал прежде.",
-              "tr": "Sonra son on gece başladığında, her gece otuz rekât kıl: el-ateme’den önce sekiz rekât ve el-ateme’den sonra yirmi iki rekât; bundan önce yaptıklarının dışında.",
-              "ur": "پھر جب آخری دس راتیں شروع ہوں تو ہر رات تیس رکعتیں پڑھو: عَتَمَہ سے پہلے آٹھ رکعتیں اور عَتَمَہ کے بعد بائیس رکعتیں، اس کے علاوہ جو تم اس سے پہلے کیا کرتے تھے۔",
-              "zh": "然后，当最后十夜开始时，你每夜礼三十拜：在al-'atamah之前八拜，在al-'atamah之后二十二拜，此外还有你在此之前惯常所做的。"
-            },
             "word_end": 126,
             "word_start": 103
           }
@@ -141,26 +89,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْعَتَمَةِ": "The night prayer time, referring here to the 'Isha' period.",
-            "الْعَشْرُ الْأَوَاخِرُ": "The last ten nights of Ramadan, marked by increased devotional prayer.",
-            "تَطَوُّعًا": "Voluntary devotional prayer beyond obligatory salat.",
-            "رَكْعَةٍ": "A unit of salat (prayer).",
-            "رَمَضَانَ": "The month of Ramadan, distinguished here by special sanctity and devotional merit.",
-            "لَحُرْمَةً": "A sacred inviolability or sanctity possessed by Ramadan."
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رَمَضَانَ",
+          "لَحُرْمَةً",
+          "تَطَوُّعًا",
+          "رَكْعَةٍ",
+          "الْعَتَمَةِ",
+          "الْعَشْرُ الْأَوَاخِرُ"
+        ],
         "related_quran": [
           {
             "ref": "2:185",
@@ -179,32 +115,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام-এর মতে রমজানে কোন অতিরিক্ত সালাত (নামাজ) সুপারিশ করা হয়েছে?",
-          "de": "Welche zusätzliche salat (Gebet) wird im Ramadan nach Imam al-Sadiq عليه السلام empfohlen?",
-          "en": "What extra salat (prayer) is recommended in Ramadan according to Imam al-Sadiq عليه السلام?",
-          "es": "¿Qué salat (oración) adicional se recomienda en Ramadán según el Imam al-Sadiq عليه السلام?",
-          "fa": "بر اساس امام صادق علیه السلام، چه صلات (نماز) اضافی‌ای در رمضان توصیه شده است؟",
-          "fr": "Quelle salat (prière) supplémentaire est recommandée pendant Ramadan selon l'Imam al-Sadiq عليه السلام ?",
-          "id": "Salat (shalat) tambahan apa yang dianjurkan di bulan Ramadan menurut Imam al-Sadiq عليه السلام?",
-          "ru": "Какой дополнительный салат (молитва) рекомендуется в Рамадан согласно имаму ас-Садику عليه السلام?",
-          "tr": "İmam es-Sadık عليه السلام'a göre Ramazan'da hangi ek salat (namaz) tavsiye edilmiştir?",
-          "ur": "امام الصادق علیہ السلام کے مطابق رمضان میں کون سی اضافی صلات (نماز) کی سفارش کی گئی ہے؟",
-          "zh": "根据伊玛目al-Sadiq عليه السلام，斋月中推荐哪种额外的salat（礼拜）？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে রমজান মাসের অনন্য মর্যাদা ও অধিকারের কারণে নফল সালাত (নামাজ) বৃদ্ধি করার সুপারিশ করা হয়েছে। এতে প্রথম বিশ রাত এবং শেষ দশ রাতের জন্য অতিরিক্ত রাতের নামাজের একটি সুশৃঙ্খল পদ্ধতি উল্লেখ করা হয়েছে, এবং ইমাম 'আলি عليه السلام-এর মহান ইবাদতের কথাও বলা হয়েছে।",
-          "de": "Dieser Hadith erläutert die empfohlene Vermehrung der freiwilligen salat (des Gebets) im Monat Ramadan aufgrund seiner besonderen Heiligkeit und seines Rechts. Er legt ein geordnetes Muster zusätzlicher Nachtgebete für die ersten zwanzig Nächte und die letzten zehn Nächte fest und erwähnt zudem die große Hingabe von Imam 'Ali عليه السلام.",
-          "en": "This hadith explains the recommended increase of voluntary salat (prayer) during the month of Ramadan due to its unique sanctity and right. It specifies a structured pattern of additional nightly prayers for the first twenty nights and for the last ten nights, while also citing the great devotion of Imam 'Ali عليه السلام.",
-          "es": "Este hadiz explica el aumento recomendado de la salat (oración) voluntaria durante el mes de Ramadán debido a su santidad y derecho únicos. Especifica un patrón estructurado de oraciones nocturnas adicionales para las primeras veinte noches y para las últimas diez noches, y también menciona la gran devoción del Imam 'Ali عليه السلام.",
-          "fa": "این حدیث به سبب حرمت و حق ویژهٔ ماه رمضان، بر افزایش صلاتِ نافله (نماز) در آن تأکید می‌کند. همچنین الگویی منظم از نمازهای شبانهٔ اضافی برای بیست شب نخست و ده شب پایانی بیان می‌کند و از عبادت عظیم امام علی علیه السلام یاد می‌نماید.",
-          "fr": "Ce hadith explique l’augmentation recommandée de la salat (prière) surérogatoire pendant le mois de Ramadan en raison de sa sacralité et de son droit particuliers. Il précise un schéma structuré de prières nocturnes supplémentaires pour les vingt premières nuits et pour les dix dernières nuits, tout en mentionnant la grande dévotion de l’Imam 'Ali عليه السلام.",
-          "id": "Hadis ini menjelaskan anjuran untuk memperbanyak salat (shalat) sunnah di bulan Ramadan karena kehormatan dan haknya yang khusus. Hadis ini menetapkan pola teratur salat malam tambahan untuk dua puluh malam pertama dan sepuluh malam terakhir, serta menyebutkan ketekunan ibadah besar Imam 'Ali عليه السلام.",
-          "ru": "Этот хадис разъясняет рекомендуемое увеличение добровольного салат (молитвы) в месяц Рамадан из-за его особой святости и права. В нем указан упорядоченный порядок дополнительных ночных молитв для первых двадцати ночей и для последних десяти ночей, а также упоминается великое поклонение имама 'Али عليه السلام.",
-          "tr": "Bu hadis, Ramazan ayının kendine özgü hürmeti ve hakkı sebebiyle nafile salat (namaz)ı artırmayı tavsiye eder. İlk yirmi gece ve son on gece için düzenli bir ek gece namazı düzeni belirtir ve ayrıca İmam Ali عليه السلام'ın büyük ibadetini zikreder.",
-          "ur": "یہ حدیث رمضان کے مہینے میں اس کی منفرد حرمت اور حق کی وجہ سے نفل صلات (نماز) میں اضافہ کرنے کی ترغیب دیتی ہے۔ اس میں پہلے بیس راتوں اور آخری دس راتوں کے لیے اضافی رات کی نمازوں کا منظم طریقہ بیان کیا گیا ہے، اور امام علی علیہ السلام کی عظیم عبادت کا ذکر بھی کیا گیا ہے۔",
-          "zh": "这段圣训说明了由于斋月独特的尊贵和权利，建议增加自愿的salat（礼拜）。它规定了前二十夜和后十夜的额外夜间礼拜安排，并提到伊玛目'Ali عليه السلام的巨大虔诚。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

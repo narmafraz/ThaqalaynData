@@ -13,6 +13,156 @@
       "up": "/books/al-kafi:3:4:96"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ إِسْمَاعِيلَ عَنِ الْفَضْلِ بْنِ شَاذَانَ عَنْ حَمَّادِ بْنِ عِيسَى عَنْ شُعَيْبٍ الْعَقَرْقُُوفِيِّ عَنْ أَبِي بَصِيرٍ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 26,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "كَانَ عَلِيٌّ ( عَلَيْهِ السَّلَامُ ) إِذَا هَالَهُ شَيْءٌ فَزِعَ إِلَى الصَّلَاةِ",
+            "chunk_type": "body",
+            "word_end": 38,
+            "word_start": 26
+          },
+          {
+            "arabic_text": "ثُمَّ تَلَا هَذِهِ الْآيَةَ",
+            "chunk_type": "body",
+            "word_end": 42,
+            "word_start": 38
+          },
+          {
+            "arabic_text": "وَ اسْتَعِينُوا بِالصَّبْرِ وَ الصَّلَاةِ",
+            "chunk_type": "quran_quote",
+            "word_end": 47,
+            "word_start": 42
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 17,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ إِسْمَاعِيلَ",
+              "name_en": "Muhammad ibn Ismail",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 33,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْفَضْلِ بْنِ شَاذَانَ",
+              "name_en": "al-Fadl ibn Shadhan",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 38,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "حَمَّادِ بْنِ عِيسَى",
+              "name_en": "Hammad ibn Isa",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 396,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "شُعَيْبٍ الْعَقَرْقُوفِيِّ",
+              "name_en": "Shu'ayb al-'Aqarqufi",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 14,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي بَصِيرٍ",
+              "name_en": "Abu Basir",
+              "position": 5,
+              "role": "companion"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "هَالَهُ",
+          "فَزِعَ",
+          "الصَّلَاةِ",
+          "الْآيَةَ",
+          "الصَّبْرِ",
+          "وَ اسْتَعِينُوا"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:45",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "2:153",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "13:28",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "worship",
+          "ethics"
+        ],
+        "topics": [
+          "patience",
+          "salat"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول كالصحيح   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (15/465)"
       ],
@@ -98,7 +248,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:4:96:1",

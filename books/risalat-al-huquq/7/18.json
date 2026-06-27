@@ -17,23 +17,23 @@
           "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَحَقُّ السَّائِلِ إِعْطَاؤُهُ عَلَى قَدْرِ حَاجَتِهِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "দাবিদারের (স্বত্বহিসেবেতারপ্রয়োজনীয়তাঅনুসারেতাকেদানকরা।",
-              "de": "Das Recht des Bittstellers (sa'il) besteht darin, ihm entsprechend dem Maß seines Bedarfs zu geben.",
-              "en": "The right of the petitioner (sa'il) is to give him according to the measure of his need.",
-              "es": "El derecho del peticionario (sa'il) es darle según la medida de su necesidad.",
-              "fa": "حق سائل آن است که به اندازه نیازش به او داده شود.",
-              "fr": "Le droit du demandeur (sa'il) est de lui donner selon la donner selon la mesure de son besoin.",
-              "id": "Hak orang yang meminta (sa'il) adalah memberinya sesuai dengan kadar kebutuhannya.",
-              "ru": "Право просящего (са'иль) — дать ему в соответствии с мерой его нужды.",
-              "tr": "Sâil'in hakkı, onun ihtiyacına göre verilmektir.",
-              "ur": "سائل کا حق یہ ہے کہ اس کی ضرورت کے مطابق اسے دیا جائے۔",
-              "zh": "求乞者的权利是按其所需给予。"
-            },
             "word_end": 6,
             "word_start": 0
           }
@@ -45,63 +45,11 @@
           "narrators": []
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {
-            "إِعْطَاؤُهُ": "তারকে দেওয়া, প্রদান করার কাজ",
-            "السَّائِلُ": "দরখাস্তকারী বা ভিখারি, যে সাহায্য চায়",
-            "حَاجَتِهِ": "তার প্রয়োজন, দরখাস্তকারীর প্রয়োজনীয়তা বা আবশ্যকতা"
-          },
-          "de": {
-            "إِعْطَاؤُهُ": "Geben an ihn, die Handlung des Bereitstellens",
-            "السَّائِلُ": "Der Bittsteller oder Bettler, einer, der um Hilfe bittet",
-            "حَاجَتِهِ": "Sein Bedarf, die Anforderung oder Notwendigkeit des Bittstellers"
-          },
-          "en": {
-            "إِعْطَاؤُهُ": "Giving to him, the act of providing",
-            "السَّائِلُ": "The petitioner or beggar, one who asks for assistance",
-            "حَاجَتِهِ": "His need, the requirement or necessity of the petitioner"
-          },
-          "es": {
-            "إِعْطَاؤُهُ": "Darle, el acto de proporcionar",
-            "السَّائِلُ": "El peticionario o mendigo, aquel que pide asistencia",
-            "حَاجَتِهِ": "Su necesidad, el requisito o necesidad del peticionario"
-          },
-          "fa": {
-            "إِعْطَاؤُهُ": "دادن به او، عمل ارائه کردن",
-            "السَّائِلُ": "متقاضی یا فقیر، کسی که برای کمک درخواست می‌کند",
-            "حَاجَتِهِ": "نیاز او، ضرورت یا نیازمندی متقاضی"
-          },
-          "fr": {
-            "إِعْطَاؤُهُ": "Lui donner, l'acte de fournir",
-            "السَّائِلُ": "Le demandeur ou le mendiant, celui qui demande de l'aide",
-            "حَاجَتِهِ": "Son besoin, la nécessité ou l'exigence du demandeur"
-          },
-          "id": {
-            "إِعْطَاؤُهُ": "Memberikan kepadanya, tindakan memberikan",
-            "السَّائِلُ": "Pemohon atau pengemis, orang yang meminta bantuan",
-            "حَاجَتِهِ": "Kebutuhannya, persyaratan atau kebutuhan si pemohon"
-          },
-          "ru": {
-            "إِعْطَاؤُهُ": "Дарование ему, акт предоставления",
-            "السَّائِلُ": "Проситель или нищий, тот, кто просит о помощи",
-            "حَاجَتِهِ": "Его потребность, требование или необходимость просителя"
-          },
-          "tr": {
-            "إِعْطَاؤُهُ": "Ona vermek, sağlama eylemi",
-            "السَّائِلُ": "Müracaat eden veya dilenci, yardım isteyen kişi",
-            "حَاجَتِهِ": "Onun ihtiyacı, müracaat edenin gereksinimi veya zarureti"
-          },
-          "ur": {
-            "إِعْطَاؤُهُ": "اسے دینا، فراہم کرنے کا عمل",
-            "السَّائِلُ": "متقاضی یا غریب، جو مدد مانگتا ہے",
-            "حَاجَتِهِ": "اس کی ضرورت، متقاضی کی ضرورت یا حاجت"
-          },
-          "zh": {
-            "إِعْطَاؤُهُ": "给他施舍，即提供给予的行为",
-            "السَّائِلُ": "请愿者或乞丐，即寻求帮助的人",
-            "حَاجَتِهِ": "他的需求，即请愿者的要求或必要性"
-          }
-        },
+        "key_terms_keys": [
+          "السَّائِلُ",
+          "إِعْطَاؤُهُ",
+          "حَاجَتِهِ"
+        ],
         "related_quran": [
           {
             "ref": "2:262",
@@ -120,32 +68,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ভিখারি বা দরখাস্তকারীকে কতটুকু দিতে হবে, ইসলামি ফতোয়া কী?",
-          "de": "Was ist die islamische Rechtsregelung bezüglich der Höhe der Gabe an einen Bettler oder Bittsteller?",
-          "en": "What is the Islamic ruling on how much to give to a beggar or petitioner?",
-          "es": "¿Cuál es el dictamen islámico sobre cuánto dar a un mendigo o peticionario?",
-          "fa": "حکم اسلامی درباره مقدار پولی که باید به فقیر یا متقاضی داده شود چیست؟",
-          "fr": "Quelle est la règle islamique concernant la quantité à donner à un mendiant ou à un demandeur ?",
-          "id": "Apa hukum Islam mengenai jumlah yang harus diberikan kepada pengemis atau pemohon?",
-          "ru": "Каково исламское предписание относительно того, сколько следует давать нищему или просителю?",
-          "tr": "Bir dilenciye veya müracaat edene ne kadar vermek İslam'da nasıl bir hüküm taşır?",
-          "ur": "مسجد یا متقاضی کو کتنا دینا چاہیے؟",
-          "zh": "伊斯兰教法关于给乞丐或请愿者多少施舍的规定是什么？"
-        },
-        "summaries": {
-          "bn": "ইমাম জয়নুল আবিদিনের রিসালাতুল হুকুকের প্রেক্ষাপটে, এই ফতোয়া জোর দিয়ে বলে যে দান কেবল একটি লেনদেন নয়, বরং গ্রহীতার মর্যাদার সাথে জড়িত একটি আধ্যাত্মিক কর্তব্য। শিয়া আলেমরা উল্লেখ করেন যে 'প্রয়োজন অনুযায়ী' বলতে দরখাস্তকারীর অবস্থা ও পরিস্থিতির একটি গতিশীল মূল্যায়ন বোঝায়, যা নিশ্চিত করে যে দান তার আত্মসম্মান ফিরিয়ে আনে, নির্ভরশীলতা বা লজ্জা সৃষ্টি করে না। এই নীতিটি শিয়ার বিস্তৃত নৈতিকতা 'ইহসান' (চালনায় উৎকর্ষ) প্রতিফলিত করে, যেখানে দাতার ইচ্ছা ও গ্রহীতার প্রকৃত প্রয়োজন উভয়ই সমানভাবে বিবেচিত হয়।",
-          "de": "Im Kontext von Imams Zayn al-Abidins Risalat al-Huquq betont diese Regel, dass die Almosensteuer nicht nur eine Transaktion, sondern eine spirituelle Pflicht ist, die mit der Würde des Empfängers verbunden ist. Schiitische Gelehrte heben hervor, dass „nach Bedarf“ eine dynamische Bewertung des Status und der Umstände des Bittstellers impliziert, um sicherzustellen, dass das Geschenk sein Selbstwertgefühl wiederherstellt, anstatt Abhängigkeit oder Scham zu erzeugen. Dieses Prinzip spiegelt die breitere schiitische Ethik des Ihsan (Exzellenz im Verhalten) wider, bei der die Absicht des Gebers und die tatsächliche Anforderung des Empfängers gleichgewichtet werden.",
-          "en": "In the context of Imam Zayn al-Abidin’s *Risalat al-Huquq*, this ruling emphasizes that charity is not merely a transaction but a spiritual duty tied to the dignity of the recipient. Shia scholars highlight that 'according to need' implies a dynamic assessment of the petitioner's status and circumstances, ensuring the gift restores their self-respect rather than creating dependency or shame. This principle reflects the broader Shia ethic of *Ihsan* (excellence in conduct), where the giver’s intention and the recipient’s actual requirement are equally weighed.",
-          "es": "En el contexto de la *Risalat al-Huquq* del Imam Zayn al-Abidin*, este dictamen enfatiza que la limosna no es meramente una transacción, sino un deber espiritual vinculado a la dignidad del receptor. Los eruditos chiíes destacan que 'según la necesidad' implica una evaluación dinámica del estatus y las circunstancias del peticionario, asegurando que el regalo restaure su autoestima en lugar de crear dependencia o vergüenza. Este principio refleja la ética chií más amplia de *Ihsan* (excelencia en la conducta), donde la intención del dador y la necesidad real del receptor se ponderan por igual.",
-          "fa": "در متن رساله حقوق امام زین‌العابدین، این حکم بر این نکته تأکید دارد که صدقه تنها یک مبادله مادی نیست بلکه وظیفه‌ای معنوی است که به کرامت گیرنده پیوند خورده است. علمای شیعه تأکید می‌کنند که عبارت «بر اساس نیاز» به معنای ارزیابی پویای وضعیت و شرایط متقاضی است تا هدیه کرامت او را بازگرداند نه اینکه وابستگی یا شرمندگی ایجاد کند. این اصل بازتاب‌دهنده اخلاق گسترده شیعه در احسان (برتری در رفتار) است که در آن نیت دهنده و نیاز واقعی گیرنده به یک اندازه سنجیده می‌شود.",
-          "fr": "Dans le contexte de la *Risalat al-Huquq* de l'Imam Zayn al-Abidin, cette règle souligne que la charité n'est pas une simple transaction mais un devoir spirituel lié à la dignité du bénéficiaire. Les savants chiites soulignent que « selon le besoin » implique une évaluation dynamique du statut et des circonstances du demandeur, garantissant que le don restaure sa fierté plutôt que de créer une dépendance ou la honte. Ce principe reflète l'éthique chiite plus large de l'*Ihsan* (excellence dans la conduite), où l'intention du donneur et le besoin réel du bénéficiaire sont également pris en compte.",
-          "id": "Dalam konteks *Risalat al-Huquq* Imam Zayn al-Imam Zayn al-Abidin*, hukum ini menekankan bahwa sedekah bukan sekadar transaksi melainkan kewajiban spiritual yang terkait dengan martabat penerima. Ulama Syiah menyoroti bahwa 'sesuai kebutuhan' mengimplikasikan penilaian dinamis terhadap status dan keadaan pemohon, memastikan pemberian tersebut memulihkan harga diri mereka daripada menciptakan ketergantungan atau rasa malu. Prinsip ini mencerminkan etika Syiah yang lebih luas tentang *Ihsan* (keunggulan dalam perilaku), di mana niat pemberi dan kebutuhan aktual penerima ditimbang secara setara.",
-          "ru": "В контексте «Рисалат аль-Хукук» имама Зайн аль-Абидина это положение подчеркивает, что милостыня — это не просто транзакция, а духовный долг, связанный с достоинством получателя. Шиитские ученые подчеркивают, что «согласно потребности» подразумевает динамическую оценку статуса и обстоятельств просителя, гарантируя, что дар восстановит его самоуважение, а не создаст зависимость или стыд. Этот принцип отражает более широкую шиитскую этику Ихсан (превосходство в поведении), где намерение дающего и фактическая потребность получателя взвешиваются одинаково.",
-          "tr": "İmam Zeynü'l-Abidin'in *Risâletü'l-Huqûk* bağlamında bu hüküm, sadakanın sadece bir işlem değil, alıcının onuruyla bağlantılı manevi bir görev olduğunu vurgular. Şia alimleri, ",
-          "ur": "امام زین العابدینؑ کی رسالت الحق میں اس حکم پر زور دیا گیا ہے کہ صدقہ محض ایک لین دین نہیں بلکہ وصول کنندہ کی وقار سے جڑی ایک روحانی ذمہ داری ہے۔ شیعہ علماء کا کہنا ہے کہ ''ضرورت کے مطابق'' کا مطلب متقاضی کی حیثیت اور حالات کا متحرک جائزہ لینا ہے، تاکہ تحفہ ان کی خودداری کو بحال کرے نہ کہ انہیں محتاجی یا شرمندگی کا شکار بنائے۔ یہ اصول شیعہ اخلاقِ حسنہ کی عکاسی کرتا ہے، جہاں دینے والے کی نیت اور وصول کنندہ کی حقیقی ضرورت دونوں کو یکساں وزن دیا جاتا ہے۔",
-          "zh": "在伊玛尔宰·宰纳勒阿比丁伊玛目的《权利书》背景下，这一裁决强调施舍不仅是一种交易，更是一种与受赠者尊严相关的精神义务。什叶派学者指出，“根据需求”意味着对请愿者身份和处境的动态评估，确保礼物能恢复其自尊，而不是造成依赖或羞耻。这一原则反映了更广泛的什叶派“伊赫桑”（行为卓越）伦理，其中给予者的意图和受赠者的实际需求被同等权衡。"
-        },
         "tags": [
           "ethics",
           "social_relations",

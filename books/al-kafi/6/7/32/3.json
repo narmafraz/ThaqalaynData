@@ -13,6 +13,122 @@
       "up": "/books/al-kafi:6:7:32"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ أَحْمَدَ عَنْ إِبْرَاهِيمَ بْنِ مَهْزِيَارَ عَنْ خَلِيلَانَ بْنِ هِشَامٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 16,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "كَتَبْتُ إِلَى أَبِي الْحَسَنِ ( عَلَيْهِ السَّلَامُ ) جُعِلْتُ فِدَاكَ عِنْدَنَا شَرَابٌ يُسَمَّى الْمَيْبَةَ نَعْمِدُ إِلَى السَّفَرْجَلِ فَنَقْشِرُهُ وَ نُلْقِيهِ فِي الْمَاءِ ثُمَّ نَعْمِدُ إِلَى الْعَصِيرِ فَنَطْبُخُهُ عَلَى الثُّلُثِ ثُمَّ نَدُقُّ ذَلِكَ السَّفَرْجَلَ وَ نَأْخُذُ مَاءَهُ ثُمَّ نَعْمِدُ إِلَى مَاءِ هَذَا الْمُثَلَّثِ وَ هَذَا السَّفَرْجَلِ فَنُلْقِي فِيهِ الْمِسْكَ وَ الْأَفَاوِيَ وَ الزَّعْفَرَانَ وَ الْعَسَلَ فَنَطْبُخُهُ حَتَّى يَذْهَبَ ثُلُثَاهُ وَ يَبْقَى ثُلُثُهُ أَ يَحِلُّ شُرْبُهُ فَكَتَبَ لَا بَأْسَ بِهِ مَا لَمْ يَتَغَيَّرْ .",
+            "chunk_type": "body",
+            "word_end": 88,
+            "word_start": 16
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 59,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ أَحْمَدَ",
+              "name_en": "Muhammad ibn Ahmad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 377,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "إِبْرَاهِيمَ بْنِ مَهْزِيَارَ",
+              "name_en": "Ibrahim b. Mahziyar",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3152,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "خَلِيلَانَ بْنِ هِشَامٍ",
+              "name_en": "Khalisan b. Hisham",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "السَّفَرْجَلِ",
+          "الْمَيْبَةَ",
+          "الْعَصِيرِ",
+          "الْمِسْكَ",
+          "الْأَفَاوِيَ",
+          "الزَّعْفَرَانَ",
+          "الْعَسَلَ",
+          "لَا بَأْسَ بِهِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:157",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "5:90",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "worship"
+        ],
+        "topics": [
+          "halal_haram",
+          "ritual_purity"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (22/294)"
       ],
@@ -75,7 +191,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:7:32:3",

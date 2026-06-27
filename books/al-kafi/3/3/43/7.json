@@ -14,6 +14,138 @@
       "up": "/books/al-kafi:3:3:43"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى عَنِ الْحُسَيْنِ بْنِ سَعِيدٍ عَنِ الْحُسَيْنِ بْنِ عُلْوَانَ عَنْ سَعْدِ بْنِ طَرِيفٍ عَنِ الْأَصْبَغِ بْنِ نُبَاتَةَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 26,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قَالَ أَمِيرُ الْمُؤْمِنِينَ ( صَلَوَاتُ اللَّهِ عَلَيْهِ ) مَنْ تَبِعَ جَنَازَةً كَتَبَ اللَّهُ لَهُ أَرْبَعَ قَرَارِيطَ قِيرَاطٌ بِاتِّبَاعِهِ وَ قِيرَاطٌ لِلصَّلَاةِ عَلَيْهَا وَ قِيرَاطٌ بِالِانْتِظَارِ حَتَّى يَفْرُغَ مِنْ دَفْنِهَا وَ قِيرَاطٌ لِلتَّعْزِيَةِ .",
+            "chunk_type": "body",
+            "word_end": 59,
+            "word_start": 26
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 13,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى",
+              "name_en": "Ahmad ibn Muhammad ibn Isa",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 21,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنِ بْنِ سَعِيدٍ",
+              "name_en": "al-Husayn b. Sa'id",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 418,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنِ بْنِ عُلْوَانَ",
+              "name_en": "al-Husayn ibn Ilwan",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 354,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "سَعْدِ بْنِ طَرِيفٍ",
+              "name_en": "Sa'd b. Turayf",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 322,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْأَصْبَغِ بْنِ نُبَاتَةَ",
+              "name_en": "al-Asbagh ibn Nubata",
+              "position": 6,
+              "role": "companion"
+            }
+          ]
+        },
+        "key_phrases": [],
+        "key_terms_keys": [
+          "جَنَازَة",
+          "قَرَارِيط",
+          "الصَّلَاةُ عَلَيْهَا",
+          "التَّعْزِيَة"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:156",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "9:103",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:156",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "worship",
+          "social_relations",
+          "afterlife"
+        ],
+        "topics": [
+          "death_dying",
+          "salat",
+          "etiquette"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مختلف فيه    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (14/22)"
       ],
@@ -94,7 +226,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:3:43:7",

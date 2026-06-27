@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى مُحَمَّدُ بْنُ الْحُسَيْنِ عَنْ مُحَمَّدِ بْنِ عَبْدِ اللَّهِ بْنِ هِلَالٍ عَنْ عُقْبَةَ بْنِ خَالِدٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবনে আল-হুসাইন থেকে মুহাম্মদ ইবনে আব্দুল্লাহ ইবনে হিলাল, তিনি থেকে উক্ববাহ ইবনে খালিদ, তিনি থেকে আবী আব্দুল্লাহ عليه السلام থেকে বর্ণিত, যিনি বললেন:",
-              "de": "Muḥammad ibn al-Ḥusayn berichtete von Muḥammad ibn ʿAbd Allāh ibn Hilāl, von ʿUqbah ibn Khālid, von Abī ʿAbd Allāh عليه السلام, der sagte:",
-              "en": "Muḥammad ibn al-Ḥusayn narrated from Muḥammad ibn ʿAbd Allāh ibn Hilāl, from ʿUqbah ibn Khālid, from Abī ʿAbd Allāh عليه السلام, who said:",
-              "es": "Muḥammad ibn al-Ḥusayn narró de Muḥammad ibn ʿAbd Allāh ibn Hilāl, de ʿUqbah ibn Khālid, de Abī ʿAbd Allāh عليه السلام, quien dijo:",
-              "fa": "محمد بن حسین از محمد بن عبدالله بن هلال، از عقبه بن خالد، از ابی عبدالله علیه السلام روایت کرده که فرمود:",
-              "fr": "Muḥammad ibn al-Ḥusayn a rapporté de Muḥammad ibn ʿAbd Allāh ibn Hilāl, de ʿUqbah ibn Khālid, de Abī ʿAbd Allāh عليه السلام, qui a dit :",
-              "id": "Muḥammad ibn al-Ḥusayn meriwayatkan dari Muḥammad ibn ʿAbd Allāh ibn Hilāl, dari ʿUqbah ibn Khālid, dari Abī ʿAbd Allāh علیه السلام, yang berkata:",
-              "ru": "Мухаммад ибн аль-Хусейн передал от Мухаммада ибн Абд Аллаха ибн Хиляля, от Укбы ибн Халида, от Аби Абд Аллаха عليه السلام, который сказал:",
-              "tr": "Muhammed ibn el-Hüseyin, Muhammed ibn Abdüllah ibn Hilal'den, o da Ukbe ibn Halid'den, o da Ebu Abdillah (aleyhisselam)'dan rivayet etti, şöyle dedi:",
-              "ur": "محمد ابن حسین نے محمد ابن عبد اللہ ابن ہلال سے روایت کی، جو عقبہ ابن خالد سے، جو ابو عبد اللہ علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "穆罕默德本侯赛因传述自穆罕默德本阿卜杜拉本希拉勒，自乌克巴本哈立德，自阿布阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 23,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنْ رَجُلٍ قَالَ هَذِهِ السَّفِينَةُ لِفُلَانٍ وَ لَمْ يُسَمِّ مَا فِيهَا وَ فِيهَا طَعَامٌ أَ يُعْطَاهَا الرَّجُلُ وَ مَا فِيهَا",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আমি তাকে এমন একজন ব্যক্তির সম্পর্কে জিজ্ঞাসা করলাম যে বলেছিল, “এই জাহাজটি ফালান-এর,” এবং তিনি এর মধ্যে কী আছে তা উল্লেখ করেননি, যদিও এতে খাবার ছিল। ওই ব্যক্তিকে জাহাজ এবং এর মধ্যে থাকা জিনিস দেওয়া হবে কি?",
-              "de": "Ich fragte ihn nach einem Mann, der sagte: „Dieses Schiff gehört soundso“, und nicht angab, was darin ist, obwohl sich darin Nahrung befand. Wird dem Mann das Schiff und sein Inhalt gegeben?",
-              "en": "I asked him about a man who said, “This ship belongs to so-and-so,” and he did not specify what was in it, while there was food in it. Is the man to be given the ship and what is in it?",
-              "es": "Le pregunté acerca de un hombre que dijo: “Este barco pertenece a fulano,” y no especificó qué había dentro, aunque había comida. ¿Se le debe dar el barco y lo que hay en él?",
-              "fa": "از او درباره مردی پرسیدم که گفت: «این کشتی برای فلانی است» و چیزی از محتوای آن نگفت، در حالی که غذا در آن بود. آیا آن مرد کشتی و محتوای آن را می‌گیرد؟",
-              "fr": "Je lui ai demandé au sujet d’un homme qui a dit : « Ce navire appartient à untel », sans préciser ce qu’il contenait, alors qu’il y avait de la nourriture. L’homme doit-il recevoir le navire et son contenu ?",
-              "id": "Saya bertanya kepadanya tentang seorang laki-laki yang berkata, “Kapal ini milik si Fulan,” dan dia tidak menyebutkan apa isinya, padahal ada makanan di dalamnya. Apakah laki-laki itu diberikan kapal dan isinya?",
-              "ru": "Я спросил его о человеке, который сказал: «Этот корабль принадлежит такому-то», но не указал, что в нем, хотя там была еда. Должен ли этот человек получить корабль и его содержимое?",
-              "tr": "Ona, “Bu gemi falan kişiye aittir,” diyen ve içinde ne olduğunu belirtmeyen bir adam hakkında sordum; oysa içinde yiyecek vardı. Bu adam gemiyi ve içindekileri alır mı?",
-              "ur": "میں نے ان سے ایک شخص کے بارے میں پوچھا جس نے کہا، “یہ جہاز فلاں کا ہے،” اور اس میں کیا ہے یہ نہیں بتایا، حالانکہ اس میں کھانا تھا۔ کیا اس شخص کو جہاز اور اس میں موجود چیزیں دی جائیں؟",
-              "zh": "我问他关于一个人说：“这船属于某某”，但未说明里面有什么，而里面有食物。这个人应得这船及其内容物吗？"
-            },
             "word_end": 44,
             "word_start": 23
           },
           {
             "arabic_text": "قَالَ هِيَ لِلَّذِي أُوصِيَ لَهُ بِهَا إِلَّا أَنْ يَكُونَ صَاحِبُهَا اسْتَثْنَى مَا فِيهَا وَ لَيْسَ لِلْوَرَثَةِ شَيْءٌ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি عليه السلام বললেন: “এটি তার জন্য যার জন্য এটি وصیت করা হয়েছে, যদি না এর মালিক এর মধ্যে থাকা জিনিসগুলোকে বাদ না দেন। وارثদের এর মধ্যে কোনো অংশ নেই।”",
-              "de": "Er عليه السلام sagte: „Es gehört dem, dem es vermacht wurde, es sei denn, sein Besitzer hat den Inhalt ausgeschlossen. Die Erben haben daran keinen Anteil.“",
-              "en": "He عليه السلام said: “It belongs to the one for whom it was bequeathed, unless its owner excluded what was in it. The heirs have no share in it.”",
-              "es": "Él عليه السلام dijo: “Pertenece a quien fue legado, a menos que su dueño haya excluido lo que hay dentro. Los herederos no tienen derecho sobre ello.”",
-              "fa": "او علیه السلام فرمود: «این کشتی برای کسی است که برای او وصیت شده است، مگر اینکه صاحب آن محتوای آن را مستثنی کرده باشد. وراث حقی در آن ندارند.»",
-              "fr": "Il عليه السلام a dit : « Il appartient à celui à qui il a été légué, à moins que son propriétaire n’ait exclu ce qu’il contient. Les héritiers n’en ont aucun droit. »",
-              "id": "Dia علیه السلام berkata: “Kapal itu milik orang yang diwasiatkan kepadanya, kecuali jika pemiliknya mengecualikan isinya. Para ahli waris tidak memiliki hak atasnya.”",
-              "ru": "Он عليه السلام сказал: «Он принадлежит тому, кому он был завещан, если только владелец не исключил содержимое. Наследники не имеют на это права.»",
-              "tr": "O (aleyhisselam) dedi ki: “O, ona vasiyet edilen kişiye aittir, eğer sahibi içindekileri hariç tutmamışsa. Mirasçıların bunda hakkı yoktur.”",
-              "ur": "انہوں نے علیہ السلام فرمایا: “یہ اس کے لیے ہے جس کے لیے اسے وصیت کیا گیا تھا، جب تک کہ مالک نے اس میں موجود چیزوں کو مستثنیٰ نہ کیا ہو۔ وارثوں کا اس میں کوئی حق نہیں۔”",
-              "zh": "他 عليه السلام 说：“它属于被遗赠者，除非其所有者排除了其中的内容。继承人对此无权。”"
-            },
             "word_end": 61,
             "word_start": 44
           }
@@ -129,26 +103,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أُوصِيَ": "was bequeathed by will",
-            "اسْتَثْنَى": "explicitly excluded from the bequest",
-            "السَّفِينَةُ": "the ship that is the subject of the bequest",
-            "الْوَرَثَةِ": "the heirs of the deceased",
-            "شَيْءٌ": "any share or claim",
-            "طَعَامٌ": "food contained within the ship"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "السَّفِينَةُ",
+          "طَعَامٌ",
+          "أُوصِيَ",
+          "اسْتَثْنَى",
+          "الْوَرَثَةِ",
+          "شَيْءٌ"
+        ],
         "related_quran": [
           {
             "ref": "2:180",
@@ -163,32 +125,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কেউ একটি জাহাজের وصیت করে তার ভিতরের জিনিসগুলি উল্লেখ না করে, তাহলে সেই জিনিসগুলি কি وصیتপ্রাপ্ত ব্যক্তির মালিকানা হবে?",
-          "de": "Wenn jemand ein Schiff vererbt, ohne den Inhalt zu erwähnen, gehört der Inhalt dann auch dem Begünstigten?",
-          "en": "If someone bequeaths a ship without mentioning its contents, do the contents also belong to the beneficiary?",
-          "es": "Si alguien lega un barco sin mencionar su contenido, ¿el contenido también pertenece al beneficiario?",
-          "fa": "اگر کسی شخص کشتی را بدون ذکر محتوای آن وصیت کند، آیا محتویات نیز به وارث وصیت تعلق دارد؟",
-          "fr": "Si quelqu’un lègue un navire sans mentionner son contenu, le contenu appartient-il aussi au bénéficiaire ?",
-          "id": "Jika seseorang mewasiatkan sebuah kapal tanpa menyebutkan isinya, apakah isi tersebut juga menjadi milik penerima wasiat?",
-          "ru": "Если кто-то завещает корабль, не упоминая его содержимое, принадлежит ли содержимое также получателю завещания?",
-          "tr": "Birisi gemiyi içindekilerden bahsetmeden vasiyet ederse, içindekiler de vasiyet edilen kişiye mi aittir?",
-          "ur": "اگر کوئی شخص جہاز کی وصیت کرے بغیر اس کے اندر کی چیزوں کا ذکر کیے، کیا وہ چیزیں بھی وصیت کے مستفید کنندہ کی ملکیت ہوں گی؟",
-          "zh": "如果有人遗赠一艘船但未提及其内容物，内容物也属于受益人吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি একটি জাহাজের وصیت সম্পর্কে একটি আইনি সিদ্ধান্ত প্রদান করে যখন এর ভিতরের জিনিসগুলি আলাদাভাবে উল্লেখ করা হয়নি। সিদ্ধান্ত হলো জাহাজ এবং এর ভিতরের জিনিসগুলি وصیتপ্রাপ্ত ব্যক্তির জন্য, যদি মালিক স্পষ্টভাবে ভিতরের জিনিসগুলি বাদ না দেন, এবং সেই ক্ষেত্রে وارثদের এর উপর কোনো দাবি থাকে না।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bezüglich eines Vermächtnisses eines Schiffes, wenn der Inhalt nicht gesondert erwähnt wurde. Die Regel lautet, dass das Schiff und sein Inhalt dem Begünstigten des Vermächtnisses gehören, es sei denn, der Eigentümer hat den Inhalt ausdrücklich ausgeschlossen, und in diesem Fall haben die Erben keinen Anspruch auf das Vermächtnis.",
-          "en": "This hadith gives a legal ruling regarding a bequest of a ship when the contents were not separately mentioned. The ruling is that the ship and its contents go to the beneficiary of the bequest unless the owner explicitly excluded the contents, and in that case the heirs do not have a claim over what was included in the bequest.",
-          "es": "Este hadiz ofrece un fallo legal respecto a la herencia de un barco cuando no se mencionan por separado sus contenidos. La regla es que el barco y su contenido van al beneficiario de la herencia, a menos que el dueño haya excluido explícitamente el contenido, y en ese caso los herederos no tienen derecho sobre lo incluido en la herencia.",
-          "fa": "این حدیث حکم شرعی درباره وصیت کشتی‌ای را بیان می‌کند که محتوای آن جداگانه ذکر نشده است. حکم این است که کشتی و محتوای آن به وارث وصیت می‌رسد مگر اینکه مالک به صراحت محتوای آن را مستثنی کرده باشد و در این صورت وراث حقی بر آن ندارند.",
-          "fr": "Ce hadith donne un jugement juridique concernant un legs d’un navire lorsque son contenu n’est pas mentionné séparément. Le jugement est que le navire et son contenu reviennent au bénéficiaire du legs, sauf si le propriétaire a explicitement exclu le contenu, auquel cas les héritiers n’ont aucun droit sur ce qui est inclus dans le legs.",
-          "id": "Hadis ini memberikan ketentuan hukum mengenai wasiat sebuah kapal ketika isi di dalamnya tidak disebutkan secara terpisah. Ketentuannya adalah kapal dan isinya diberikan kepada penerima wasiat kecuali pemilik secara eksplisit mengecualikan isinya, dan dalam hal itu ahli waris tidak memiliki klaim atas apa yang termasuk dalam wasiat.",
-          "ru": "Этот хадис содержит юридическое постановление относительно завещания корабля, когда содержимое не было отдельно указано. Постановление таково: корабль и его содержимое переходят к получателю завещания, если только владелец явно не исключил содержимое, и в этом случае наследники не имеют прав на включённое в завещание.",
-          "tr": "Bu hadis, içinde ne olduğu ayrı belirtilmeyen bir geminin vasiyetiyle ilgili hukuki hükmü verir. Hüküm şudur ki, gemi ve içindekiler vasiyet edilen kişiye aittir, eğer sahibi içindekileri açıkça hariç tutmamışsa; bu durumda mirasçıların buna hakkı yoktur.",
-          "ur": "یہ حدیث ایک جہاز کی وصیت کے بارے میں قانونی حکم بیان کرتی ہے جب اس کے اندر کی چیزوں کا ذکر علیحدہ نہ کیا گیا ہو۔ حکم یہ ہے کہ جہاز اور اس کے اندر کی چیزیں وصیت کے مستفید کنندہ کو دی جائیں گی جب تک کہ مالک نے واضح طور پر اندر کی چیزوں کو مستثنیٰ نہ کیا ہو، اور ایسی صورت میں وارثوں کا اس پر کوئی حق نہیں ہوتا۔",
-          "zh": "此圣训就未单独提及内容物的船只遗赠给出法律裁决。裁决是船只及其内容物归遗赠受益人所有，除非所有者明确排除内容物，在这种情况下继承人无权主张遗赠中的内容。"
-        },
         "tags": [
           "jurisprudence",
           "economy",

@@ -21,22 +21,22 @@
           "model": "claude-sonnet-4-6",
           "pipeline_version": "2.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমিরুল মুমিনীন (আলাইহিস সালাম) বললেন: 'যখনই তোমরা একটি হাদিস বর্ণনা করো, তবে তা যে তোমাদের কাছে বর্ণনা করেছে তার দিকে তা সনদ করো। যদি তা সত্য হয়, তবে তা তোমাদের জন্য; আর যদি মিথ্যা হয়, তবে তা তার উপর।'",
-              "de": "Amir al-Mu'minin (Friede sei mit ihm) sagte: 'Wenn ihr einen Hadith überliefert, führt ihn auf denjenigen zurück, der ihn euch überliefert hat. Denn wenn er wahr ist, ist er zu eurem Vorteil; und wenn er eine Lüge ist, lastet es auf ihm.'",
-              "en": "Amir al-Mu'minin (peace be upon him) said: 'Whenever you narrate a hadith, attribute it to the one who narrated it to you. For if it was true, it is to your credit; and if it was a lie, it is upon him.'",
-              "es": "Amir al-Mu'minin (la paz sea con él) dijo: 'Siempre que narreis un hadith, atribuidlo a quien os lo narró. Pues si fue verdadero, es a vuestro favor; y si fue mentira, es sobre él.'",
-              "fa": "امیرالمؤمنین (علیه السلام) فرمود: «هرگاه حدیثی نقل کردید، آن را به کسی که برایتان نقل کرده نسبت دهید. اگر راست بود، به نفع شماست؛ و اگر دروغ بود، بر عهده اوست.»",
-              "fr": "Amir al-Mu'minin (que la paix soit sur lui) dit : « Chaque fois que vous rapportez un hadith, rattachez-le à celui qui vous l'a transmis. Car s'il est vrai, c'est à votre crédit ; et s'il est faux, cela retombe sur lui. »",
-              "id": "Amirul Mukminin (alaihissalam) bersabda: 'Apabila kalian meriwayatkan sebuah hadith, maka sandarkanlah kepada orang yang meriwayatkannya kepada kalian. Jika benar, maka itu untukmu; dan jika dusta, maka itu atas tanggungannya.'",
-              "ru": "Амиру-ль-Муминин (мир ему) сказал: «Когда вы пересказываете хадис, приписывайте его тому, кто передал его вам. Ибо если он истинен, то вам в пользу; а если это ложь, то она на нём.»",
-              "tr": "Emirü'l-Müminin (aleyhisselam) şöyle buyurdu: 'Bir hadis rivayet ettiğinizde, onu size rivayet edene nispet edin. Eğer doğruysa size aittir; yalan ise o, ona aittir.'",
-              "ur": "امیر المومنین (علیہ السلام) نے فرمایا: 'جب بھی تم کوئی حدیث بیان کرو تو اسے اس شخص کی طرف منسوب کرو جس نے تمہیں بتائی ہو۔ کیونکہ اگر وہ سچ ہو تو فائدہ تمہارا اور اگر جھوٹ ہو تو وبال اسی پر ہوگا۔'",
-              "zh": "信士们的长官（愿主赐他平安）说：「每当你们传述一段圣训，就将其归溯到向你们传述它的人那里。若是真实的，那么归于你们；若是谎言，那么在他身上。」"
-            },
             "word_end": 21,
             "word_start": 0
           }
@@ -135,84 +135,17 @@
             "phrase_en": "attribute it to the one who narrated it to you"
           }
         ],
-        "key_terms": {
-          "bn": {
-            "إِسْنَاد": "ইসনাদ — বর্ণনাকারীদের শৃঙ্খল যা হাদিসের সত্যতা নিশ্চিত করে",
-            "حَدِيث": "হাদিস — নবী বা ইমামের প্রতি আরোপিত বর্ণনা বা কথা"
-          },
-          "de": {
-            "إِسْنَاد": "Isnad — Überliefererkette, die die Authentizität eines Hadiths gewährleistet",
-            "حَدِيث": "Hadith — Überlieferung oder Bericht, der dem Propheten oder einem Imam zugeschrieben wird"
-          },
-          "en": {
-            "أَسْنِدُوهُ": "attribute/chain it — to trace a report back to its source through a chain of narrators (isnad)",
-            "حَدِيث": "hadith — a narration or report, specifically a saying or action attributed to a Prophet or Imam"
-          },
-          "es": {
-            "إِسْنَاد": "isnad — cadena de transmisores que garantiza la autenticidad de un hadith",
-            "حَدِيث": "hadith — narración o informe atribuido al Profeta o a un Imam"
-          },
-          "fa": {
-            "إِسْنَاد": "اسناد — زنجیره راویان که اعتبار حدیث را تضمین می‌کند",
-            "حَدِيث": "حدیث — روایتی که به پیامبر یا امام نسبت داده می‌شود"
-          },
-          "fr": {
-            "إِسْنَاد": "isnad — chaîne de transmetteurs garantissant l'authenticité d'un hadith",
-            "حَدِيث": "hadith — narration ou rapport attribué au Prophète ou à un Imam"
-          },
-          "id": {
-            "إِسْنَاد": "isnad — rantai perawi yang menjamin keaslian sebuah hadith",
-            "حَدِيث": "hadith — narasi atau laporan yang disandarkan kepada Nabi atau Imam"
-          },
-          "ru": {
-            "إِسْنَاد": "иснад — цепочка передатчиков, удостоверяющая подлинность хадиса",
-            "حَدِيث": "хадис — предание или высказывание, приписываемое Пророку или Имаму"
-          },
-          "tr": {
-            "إِسْنَاد": "isnad — hadisin güvenilirliğini sağlayan raviler zinciri",
-            "حَدِيث": "hadis — Peygamber'e veya İmam'a atfedilen söz veya eylem"
-          },
-          "ur": {
-            "إِسْنَاد": "اسناد — راویوں کا سلسلہ جو حدیث کی صحت کی ضمانت دیتا ہے",
-            "حَدِيث": "حدیث — نبی یا امام سے منسوب قول یا عمل کی روایت"
-          },
-          "zh": {
-            "إِسْنَاد": "传承链——保证圣训真实性的传述者链条",
-            "حَدِيث": "圣训——归于先知或伊玛目的言行记录"
-          }
-        },
+        "key_terms_keys": [
+          "حَدِيث",
+          "إِسْنَاد",
+          "أَسْنِدُوهُ"
+        ],
         "related_quran": [
           {
             "ref": "49:6",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হাদিস বর্ণনা করার সময় উৎস উল্লেখ সম্পর্কে ইমাম আলী কী বলেছিলেন?",
-          "de": "Was sagte Imam Ali darüber, einen Hadith seinem Überlieferer zuzuschreiben?",
-          "en": "What did Imam Ali say about citing the source when narrating a hadith?",
-          "es": "¿Qué dijo el Imam Ali sobre atribuir el hadith a su narrador?",
-          "fa": "امام علی درباره نسبت دادن حدیث به راوی آن چه فرمود؟",
-          "fr": "Qu'a dit l'Imam Ali sur l'attribution du hadith à son narrateur ?",
-          "id": "Apa yang dikatakan Imam Ali tentang penyandaran hadith kepada perawinya?",
-          "ru": "Что сказал Имам Али о приписывании хадиса его передатчику?",
-          "tr": "İmam Ali hadis rivayet ederken kaynağı belirtmek hakkında ne dedi?",
-          "ur": "امام علی نے حدیث بیان کرتے وقت سند کے بارے میں کیا فرمایا؟",
-          "zh": "伊玛目阿里关于将圣训归溯到传述者说了什么？"
-        },
-        "summaries": {
-          "bn": "ইমাম আলী (আ.) নির্দেশ দিচ্ছেন যে যখনই কেউ একটি হাদিস বর্ণনা করে, তখন অবশ্যই তার উৎস উল্লেখ করতে হবে এবং যে বর্ণনাকারীর কাছ থেকে পাওয়া হয়েছে তার দিকে তা নিসবত করতে হবে। এই শিক্ষাটি ইসলামী হাদিস পদ্ধতিতে ইসনাদ ব্যবস্থার মূলনীতি প্রতিষ্ঠা করে। ইসলামের প্রারম্ভিক যুগে জাল হাদিসের বিস্তারের পটভূমিতে এই নির্দেশটি প্রামাণিক বর্ণনাকে মিথ্যা থেকে আলাদা করার জন্য অপরিহার্য ছিল।",
-          "de": "Imam Ali (AS) lehrt, dass bei der Weitergabe eines Hadiths stets die Quelle angegeben werden muss, indem man ihn dem Überlieferer zuschreibt, von dem man ihn erhalten hat. Dieser Grundsatz bildet das Fundament des Isnad-Systems in der islamischen Hadith-Methodologie und stellt die Rechenschaftspflicht bei der Wissensvermittlung sicher. In der Frühzeit des Islams, als gefälschte Hadiths zunahmen, war diese Regel unerlässlich, um authentische Überlieferungen von falschen zu unterscheiden.",
-          "en": "Imam Ali (AS) instructs that one must always cite the source of any hadith they transmit, attributing it to the narrator from whom they received it. This teaching establishes the foundational principle of isnad (chain of transmission) in Islamic hadith methodology, ensuring accountability: the transmitter gains merit for accurate narration and is absolved of responsibility for falsehood, which falls upon the originating fabricator. In early Islamic scholarship, as fabricated hadiths began to proliferate, this principle was essential for distinguishing authentic traditions from invented ones.",
-          "es": "El Imam Ali (AS) enseña que al transmitir cualquier hadith, siempre se debe citar la fuente atribuyéndolo al narrador de quien se recibió. Este principio constituye el fundamento del sistema de isnad en la metodología del hadith islámico, asegurando la responsabilidad en la transmisión del conocimiento. En los primeros tiempos del Islam, ante la proliferación de hadith fabricados, esta regla fue esencial para distinguir las narraciones auténticas de las falsas.",
-          "fa": "امام علی (علیه السلام) دستور می‌دهد که در نقل هر حدیثی، باید منبع آن ذکر شود و به راوی اصلی نسبت داده شود. این آموزش اساس نظام اسناد در علم حدیث اسلامی است که مسئولیت‌پذیری را تضمین می‌کند. در دوران اولیه اسلام، با گسترش احادیث جعلی، این اصل برای تشخیص روایات صحیح از ساختگی ضروری بود.",
-          "fr": "L'Imam Ali (AS) enseigne que lors de la transmission de tout hadith, il faut toujours citer la source en le rattachant au narrateur auprès duquel on l'a reçu. Ce principe constitue le fondement du système d'isnad dans la méthodologie du hadith islamique, assurant la responsabilité dans la transmission du savoir. Aux débuts de l'Islam, face à la prolifération des hadiths fabriqués, cette règle était indispensable pour distinguer les narrations authentiques des fausses.",
-          "id": "Imam Ali (AS) mengajarkan bahwa setiap kali seseorang meriwayatkan hadith, ia harus menyebutkan sumbernya dengan menghubungkannya kepada perawi yang menyampaikannya. Prinsip ini merupakan fondasi sistem isnad dalam metodologi hadith Islam, memastikan akuntabilitas dalam transmisi ilmu. Pada masa awal Islam, ketika hadith-hadith palsu mulai bermunculan, aturan ini menjadi sangat penting untuk membedakan riwayat yang otentik dari yang palsu.",
-          "ru": "Имам Али (МС) наставляет, что при передаче любого хадиса необходимо всегда указывать источник, приписывая его передатчику, от которого он был получен. Этот принцип составляет основу системы иснада в методологии исламского хадиса и обеспечивает ответственность при передаче знаний. В ранний период ислама, когда стали распространяться сфабрикованные хадисы, это правило было необходимо для отличия подлинных преданий от ложных.",
-          "tr": "İmam Ali (AS), bir hadis nakledildiğinde kaynağın her zaman belirtilmesi gerektiğini öğretmektedir. Bu ilke, İslam hadis metodolojisinin temel taşı olan isnad sisteminin özüdür ve bilgi aktarımında hesap verebilirliği güvence altına alır. Erken İslam döneminde uydurma hadislerin yaygınlaşmasıyla birlikte bu kural, sahih rivayetleri sahte olanlardan ayırt etmek için vazgeçilmez bir araç hâline gelmiştir.",
-          "ur": "امام علی (علیہ السلام) حکم دیتے ہیں کہ کوئی بھی حدیث بیان کرتے وقت اسے اس راوی کی طرف منسوب کیا جائے جس سے سنی گئی ہو۔ یہ تعلیم اسناد کے نظام کی بنیاد ہے جو اسلامی حدیث کی روایت میں احتساب کو یقینی بناتی ہے۔ ابتدائی اسلامی دور میں جعلی احادیث کے پھیلاؤ کے پس منظر میں یہ ہدایت حقیقی روایات کو جھوٹی روایات سے الگ کرنے کے لیے ضروری تھی۔",
-          "zh": "伊玛目阿里（愿主赐他平安）教导说，在传述任何圣训时，必须始终注明来源，将其归溯到传述者。这一原则构成了伊斯兰圣训学中传承链（伊斯纳德）制度的基础，确保了知识传递中的责任制。在伊斯兰早期，面对伪造圣训的泛滥，这一规则对于区分真实传述与虚假传述至关重要。"
-        },
         "tags": [
           "knowledge",
           "ethics",
@@ -227,359 +160,86 @@
         "word_analysis": [
           {
             "pos": "V",
-            "translation": {
-              "bn": "বললেন",
-              "de": "sagte",
-              "en": "said",
-              "es": "dijo",
-              "fa": "گفت",
-              "fr": "dit",
-              "id": "berkata",
-              "ru": "сказал",
-              "tr": "dedi",
-              "ur": "فرمایا",
-              "zh": "说道"
-            },
             "word": "قَالَ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "আমিরুল",
-              "de": "Befehlshaber",
-              "en": "Commander",
-              "es": "Comandante",
-              "fa": "امیر",
-              "fr": "Commandeur",
-              "id": "Amir",
-              "ru": "Повелитель",
-              "tr": "Emir",
-              "ur": "امیر",
-              "zh": "长官"
-            },
             "word": "أَمِيرُ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "মুমিনীনের",
-              "de": "der Gläubigen",
-              "en": "of the Believers",
-              "es": "de los Creyentes",
-              "fa": "المومنین",
-              "fr": "des Croyants",
-              "id": "al-Mu'minin",
-              "ru": "верующих",
-              "tr": "el-Müminin",
-              "ur": "المومنین",
-              "zh": "信士们的"
-            },
             "word": "الْمُؤْمِنِينَ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "আলাইহি",
-              "de": "auf ihm",
-              "en": "upon him",
-              "es": "sobre él",
-              "fa": "علیه",
-              "fr": "sur lui",
-              "id": "alaihis",
-              "ru": "на нём",
-              "tr": "aleyhis",
-              "ur": "علیہ",
-              "zh": "于他"
-            },
             "word": "عَلَيْهِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "সালাম",
-              "de": "der Friede",
-              "en": "the peace",
-              "es": "la paz",
-              "fa": "السلام",
-              "fr": "la paix",
-              "id": "as-salam",
-              "ru": "мир",
-              "tr": "selam",
-              "ur": "السلام",
-              "zh": "平安"
-            },
             "word": "السَّلَامُ"
           },
           {
             "pos": "COND",
-            "translation": {
-              "bn": "যখনই",
-              "de": "wenn",
-              "en": "whenever",
-              "es": "cuando",
-              "fa": "هرگاه",
-              "fr": "chaque fois que",
-              "id": "apabila",
-              "ru": "когда",
-              "tr": "her ne zaman",
-              "ur": "جب",
-              "zh": "每当"
-            },
             "word": "إِذَا"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "তোমরা বর্ণনা করো",
-              "de": "ihr überliefert",
-              "en": "you narrate",
-              "es": "narráis",
-              "fa": "حدیث نقل کنید",
-              "fr": "vous rapportez",
-              "id": "kalian meriwayatkan",
-              "ru": "вы рассказываете",
-              "tr": "rivayet ettiğinizde",
-              "ur": "تم بیان کرو",
-              "zh": "你们传述"
-            },
             "word": "حَدَّثْتُمْ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "একটি হাদিস",
-              "de": "einen Hadith",
-              "en": "a hadith",
-              "es": "un hadith",
-              "fa": "حدیثی",
-              "fr": "un hadith",
-              "id": "sebuah hadith",
-              "ru": "хадис",
-              "tr": "bir hadis",
-              "ur": "کوئی حدیث",
-              "zh": "一段圣训"
-            },
             "word": "بِحَدِيثٍ"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "তবে তা সনদ করো",
-              "de": "so führt es zurück",
-              "en": "then attribute it",
-              "es": "entonces atribuidlo",
-              "fa": "پس آن را نسبت دهید",
-              "fr": "alors rattachez-le",
-              "id": "maka sandarkanlah ia",
-              "ru": "то приписывайте его",
-              "tr": "onu nispet edin",
-              "ur": "تو اسے منسوب کرو",
-              "zh": "则将其归溯"
-            },
             "word": "فَأَسْنِدُوهُ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "এর কাছে",
-              "de": "zu",
-              "en": "to",
-              "es": "a",
-              "fa": "به",
-              "fr": "à",
-              "id": "kepada",
-              "ru": "к",
-              "tr": "ona",
-              "ur": "کی طرف",
-              "zh": "到"
-            },
             "word": "إِلَى"
           },
           {
             "pos": "REL",
-            "translation": {
-              "bn": "যিনি",
-              "de": "demjenigen, der",
-              "en": "the one who",
-              "es": "aquel que",
-              "fa": "کسی که",
-              "fr": "celui qui",
-              "id": "orang yang",
-              "ru": "тому, кто",
-              "tr": "sana rivayet edene",
-              "ur": "جس نے",
-              "zh": "那位"
-            },
             "word": "الَّذِي"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "তোমাদের কাছে বর্ণনা করেছে",
-              "de": "es euch berichtet hat",
-              "en": "narrated it to you",
-              "es": "os lo narró",
-              "fa": "آن را به شما نقل کرده",
-              "fr": "vous l'a rapporté",
-              "id": "meriwayatkannya kepada kalian",
-              "ru": "рассказал вам",
-              "tr": "size rivayet etti",
-              "ur": "تمہیں بیان کیا",
-              "zh": "向你们传述了"
-            },
             "word": "حَدَّثَكُمْ"
           },
           {
             "pos": "CONJ",
-            "translation": {
-              "bn": "কারণ যদি",
-              "de": "denn wenn",
-              "en": "for if",
-              "es": "pues si",
-              "fa": "پس اگر",
-              "fr": "car si",
-              "id": "maka jika",
-              "ru": "ибо если",
-              "tr": "eğer",
-              "ur": "پس اگر",
-              "zh": "若是"
-            },
             "word": "فَإِنْ"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "হয়",
-              "de": "es war",
-              "en": "it was",
-              "es": "fuera",
-              "fa": "باشد",
-              "fr": "c'est",
-              "id": "adalah",
-              "ru": "оно было",
-              "tr": "ise",
-              "ur": "ہو",
-              "zh": "是"
-            },
             "word": "كَانَ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "সত্য",
-              "de": "wahr",
-              "en": "true",
-              "es": "verdadero",
-              "fa": "حق",
-              "fr": "vrai",
-              "id": "benar",
-              "ru": "истинным",
-              "tr": "doğru",
-              "ur": "سچ",
-              "zh": "真实的"
-            },
             "word": "حَقّاً"
           },
           {
             "pos": "PART",
-            "translation": {
-              "bn": "তবে তোমাদের জন্য",
-              "de": "dann ist es euch zugute",
-              "en": "then it is for you",
-              "es": "es para vosotros",
-              "fa": "پس برای شماست",
-              "fr": "c'est pour vous",
-              "id": "maka itu untukmu",
-              "ru": "то вам в пользу",
-              "tr": "o size aittir",
-              "ur": "تو تمہارے لیے ہے",
-              "zh": "那么归于你们"
-            },
             "word": "فَلَكُمْ"
           },
           {
             "pos": "CONJ",
-            "translation": {
-              "bn": "এবং",
-              "de": "und",
-              "en": "and",
-              "es": "y",
-              "fa": "و",
-              "fr": "et",
-              "id": "dan",
-              "ru": "и",
-              "tr": "ve",
-              "ur": "اور",
-              "zh": "而"
-            },
             "word": "وَ"
           },
           {
             "pos": "COND",
-            "translation": {
-              "bn": "যদি",
-              "de": "wenn",
-              "en": "if",
-              "es": "si",
-              "fa": "اگر",
-              "fr": "si",
-              "id": "jika",
-              "ru": "если",
-              "tr": "eğer",
-              "ur": "اگر",
-              "zh": "如果"
-            },
             "word": "إِنْ"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "হয়",
-              "de": "es war",
-              "en": "it was",
-              "es": "fuera",
-              "fa": "باشد",
-              "fr": "c'est",
-              "id": "adalah",
-              "ru": "оно было",
-              "tr": "ise",
-              "ur": "ہو",
-              "zh": "是"
-            },
             "word": "كَانَ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "মিথ্যা",
-              "de": "eine Lüge",
-              "en": "a lie",
-              "es": "mentira",
-              "fa": "دروغ",
-              "fr": "mensonge",
-              "id": "kebohongan",
-              "ru": "ложью",
-              "tr": "yalan",
-              "ur": "جھوٹ",
-              "zh": "谎言"
-            },
             "word": "كَذِباً"
           },
           {
             "pos": "PART",
-            "translation": {
-              "bn": "তবে তার উপর বর্তায়",
-              "de": "so lastet es auf ihm",
-              "en": "then it is upon him",
-              "es": "recae sobre él",
-              "fa": "پس بر اوست",
-              "fr": "cela retombe sur lui",
-              "id": "maka itu atas tanggungannya",
-              "ru": "то на нём",
-              "tr": "o ona düşer",
-              "ur": "تو اسی پر ہے",
-              "zh": "那么在他身上"
-            },
             "word": "فَعَلَيْهِ"
           }
         ]

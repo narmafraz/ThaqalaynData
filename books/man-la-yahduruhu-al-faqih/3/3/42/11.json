@@ -17,61 +17,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى الْعَلَاءُ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-আলাআ মুসলিমের পুত্র মুহাম্মদ থেকে, আবু আব্দুল্লাহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Al-ʿAlāʾ berichtete von Muhammad ibn Muslim, von Abū ʿAbdillāh عليه السلام, der sagte:",
-              "en": "Al-ʿAlāʾ narrated from Muḥammad ibn Muslim, from Abū ʿAbdillāh عليه السلام, who said:",
-              "es": "Al-ʿAlāʾ narró de Muhammad ibn Muslim, de Abū ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "العلاء از محمد بن مسلم، از ابی عبدالله علیه السلام روایت کرده است که فرمود:",
-              "fr": "Al-ʿAlāʾ a rapporté de Muhammad ibn Muslim, de Abū ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Al-ʿAlāʾ meriwayat dari Muhammad ibn Muslim, dari Abu ʿAbdillāh علیه السلام, yang berkata:",
-              "ru": "Аль-ʿАляʾ передал от Мухаммада ибн Муслима, от Абу ʿАбдиллах عليه السلام, который сказал:",
-              "tr": "El-ʿAlāʾ, Muhammed ibn Muslim'den, Ebu ʿAbdillāh عليه السلام'den şöyle rivayet etti:",
-              "ur": "العلاء نے محمد بن مسلم سے روایت کی، جو ابو عبداللہ علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "العلاء从穆罕默德本穆斯林那里传述，来自阿布ʿ阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنْ رَجُلٍ كَانَتْ لَهُ جَارِيَةٌ وَ كَانَ يَأْتِيهَا فَبَاعَهَا فَأُعْتِقَتْ وَ تَزَوَّجَتْ فَوَلَدَتْ ابْنَةً هَلْ تَصْلُحُ ابْنَتُهَا لِمَوْلَاهَا الْأَوَّلِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাকে এমন এক ব্যক্তির সম্পর্কে জিজ্ঞাসা করলাম যার একটি দাসী ছিল যার সঙ্গে তার সম্পর্ক ছিল। তারপর সে তাকে বিক্রি করল, সে মুক্ত হল, বিয়ে করল এবং একটি মেয়ে সন্তানের জন্ম দিল। তার মেয়ে কি তার প্রাক্তন মালিকের জন্য جائز?",
-              "de": "Ich fragte ihn nach einem Mann, der eine Sklavin hatte, mit der er Beziehungen hatte. Dann verkaufte er sie, sie wurde befreit, heiratete und gebar eine Tochter. Ist ihre Tochter für ihren früheren Herrn erlaubt?",
-              "en": "I asked him about a man who had a bondwoman with whom he used to have relations. Then he sold her, and she was freed and married, and gave birth to a daughter. Is her daughter permissible for her former master?",
-              "es": "Le pregunté acerca de un hombre que tenía una esclava con la que tenía relaciones. Luego la vendió, ella fue liberada, se casó y dio a luz a una hija. ¿Es su hija permisible para su antiguo amo?",
-              "fa": "از او درباره مردی پرسیدم که کنیزی داشت که با او رابطه داشت. سپس او را فروخت، آن کنیز آزاد شد، ازدواج کرد و دختری به دنیا آورد. آیا دخترش برای صاحب سابقش جایز است؟",
-              "fr": "Je lui ai demandé au sujet d’un homme qui avait une esclave avec laquelle il avait des relations. Puis il l’a vendue, elle a été affranchie, s’est mariée et a donné naissance à une fille. Sa fille est-elle permise pour son ancien maître ?",
-              "id": "Saya bertanya kepadanya tentang seorang pria yang memiliki budak wanita yang biasa ia ajak berhubungan. Kemudian ia menjualnya, dia dibebaskan, menikah, dan melahirkan seorang anak perempuan. Apakah anak perempuannya halal bagi tuannya yang dahulu?",
-              "ru": "Я спросил его о человеке, у которого была рабыня, с которой он имел отношения. Затем он продал её, она была освобождена, вышла замуж и родила дочь. Разрешена ли её дочь для её бывшего хозяина?",
-              "tr": "Ben ondan, ilişkide bulunduğu bir cariyesi olan bir adam hakkında sordum. Sonra onu sattı, o azat edildi, evlendi ve bir kız çocuğu doğurdu. Onun kızı eski efendisi için helal midir?",
-              "ur": "میں نے ان سے ایک ایسے شخص کے بارے میں پوچھا جس کی ایک بندہ لڑکی تھی جس کے ساتھ وہ تعلقات رکھتا تھا۔ پھر اس نے اسے بیچ دیا، وہ آزاد ہو گئی، شادی کر لی، اور ایک بیٹی کو جنم دیا۔ کیا اس کی بیٹی اس کے سابق مالک کے لیے جائز ہے؟",
-              "zh": "我问他关于一个有一名奴婢并与她有关系的男子。后来他卖了她，她被解放，结婚并生了一个女儿。她的女儿对她的前主人来说合法吗？"
-            },
             "word_end": 34,
             "word_start": 14
           },
           {
             "arabic_text": "قَالَ هِيَ عَلَيْهِ حَرَامٌ",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তিনি বললেন: \"সে তার জন্য হারাম।\"",
-              "de": "Er sagte: „Sie ist ihm verboten.“",
-              "en": "He said: \"She is forbidden to him.\"",
-              "es": "Él dijo: \"Ella le está prohibida.\"",
-              "fa": "فرمود: «او بر او حرام است.»",
-              "fr": "Il a dit : « Elle lui est interdite. »",
-              "id": "Dia berkata: \"Dia haram baginya.\"",
-              "ru": "Он сказал: «Она для него запрещена.»",
-              "tr": "O dedi ki: \"O ona haramdır.\"",
-              "ur": "انہوں نے فرمایا: \"وہ اس پر حرام ہے۔\"",
-              "zh": "他说：“她对他是禁忌。”"
-            },
             "word_end": 38,
             "word_start": 34
           }
@@ -120,60 +94,22 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "ابْنَتُهَا": "her daughter",
-            "تَزَوَّجَتْ": "she married",
-            "جَارِيَةٌ": "a female bondwoman owned by a master",
-            "حَرَامٌ": "religiously forbidden and impermissible",
-            "فَأُعْتِقَتْ": "then she was freed",
-            "فَبَاعَهَا": "then he sold her",
-            "مَوْلَاهَا الْأَوَّلِ": "her former master",
-            "يَأْتِيهَا": "he had sexual relations with her"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "جَارِيَةٌ",
+          "يَأْتِيهَا",
+          "فَبَاعَهَا",
+          "فَأُعْتِقَتْ",
+          "تَزَوَّجَتْ",
+          "ابْنَتُهَا",
+          "مَوْلَاهَا الْأَوَّلِ",
+          "حَرَامٌ"
+        ],
         "related_quran": [
           {
             "ref": "4:23",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "প্রাক্তন দাসীর মেয়ে কি তার প্রাক্তন মালিকের সঙ্গে বিয়ে করা যায়?",
-          "de": "Ist die Tochter einer ehemaligen Sklavin für ihren früheren Herrn zur Heirat erlaubt?",
-          "en": "Is the daughter of a former bondwoman permissible for her previous master to marry?",
-          "es": "¿Es permisible que la hija de una antigua esclava se case con su antiguo amo?",
-          "fa": "آیا دختر کنیز سابق برای ازدواج با صاحب سابقش جایز است؟",
-          "fr": "La fille d’une ancienne esclave est-elle permise pour épouser son ancien maître ?",
-          "id": "Apakah anak perempuan dari budak wanita sebelumnya diperbolehkan menikah dengan tuan sebelumnya?",
-          "ru": "Разрешена ли дочь бывшей рабыни для брака с её прежним хозяином?",
-          "tr": "Eski cariyenin kızı eski efendisi için evlenmekte helal midir?",
-          "ur": "کیا سابق غلامہ کی بیٹی اپنے سابق مالک کے لیے نکاح میں جائز ہے؟",
-          "zh": "前奴婢的女儿可以嫁给她的前主人吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি পূর্ববর্তী দাসীর সঙ্গে সম্পর্ক থেকে উদ্ভূত নিষিদ্ধ বিবাহ সম্পর্কের ফিকহি বিধান প্রদান করে। ইমাম عليه السلام বলেন যে সেই প্রাক্তন দাসীর পরে বিবাহ থেকে জন্ম নেওয়া মেয়ে তার প্রাক্তন মালিকের জন্য হারাম থাকে, যা এই ক্ষেত্রে হারমাহর বিধান প্রতিষ্ঠা করে।",
-          "de": "Dieser Hadith gibt eine fiqhische Regelung bezüglich verbotener Ehebeziehungen, die aus früheren Beziehungen mit einer Sklavin entstehen. Der Imam عليه السلام erklärt, dass die Tochter, die aus dieser ehemaligen Sklavin nach ihrer späteren Heirat geboren wurde, für den früheren Herrn verboten bleibt und damit eine Hurmah-Regelung in diesem Fall etabliert.",
-          "en": "This hadith gives a fiqh ruling concerning prohibited marriage relations arising from prior relations with a bondwoman. The Imam عليه السلام states that the daughter born to that former bondwoman after her later marriage remains forbidden to the former master, establishing a ruling of hurmah in this case.",
-          "es": "Este hadiz ofrece un fallo jurídico sobre las relaciones matrimoniales prohibidas que surgen de relaciones previas con una esclava. El Imam عليه السلام afirma que la hija nacida de esa esclava después de su matrimonio posterior sigue siendo prohibida para el antiguo amo, estableciendo una regla de hurmah en este caso.",
-          "fa": "این حدیث حکم فقهی مربوط به روابط ازدواج ممنوع ناشی از روابط قبلی با کنیز را بیان می‌کند. امام علیه السلام می‌فرماید که دختری که از آن کنیز سابق پس از ازدواج بعدی متولد شده، برای صاحب سابقش حرام است و حکم حرمت در این مورد را تثبیت می‌کند.",
-          "fr": "Ce hadith donne un jugement fiqhique concernant les relations matrimoniales interdites découlant de relations antérieures avec une esclave. L’Imam عليه السلام déclare que la fille née de cette ancienne esclave après son mariage ultérieur reste interdite pour son ancien maître, établissant une règle de hurmah dans ce cas.",
-          "id": "Hadis ini memberikan hukum fikih mengenai hubungan pernikahan yang terlarang yang timbul dari hubungan sebelumnya dengan budak wanita. Imam عليه السلام menyatakan bahwa anak perempuan yang lahir dari budak wanita tersebut setelah menikah tetap haram bagi tuan sebelumnya, menetapkan hukum hurmah dalam kasus ini.",
-          "ru": "Этот хадис содержит фиххийское постановление о запрещённых брачных отношениях, возникающих из предыдущих отношений с рабыней. Имам عليه السلام утверждает, что дочь, рожденная от бывшей рабыни после её последующего брака, остаётся запрещённой для бывшего хозяина, устанавливая правило хурмы в этом случае.",
-          "tr": "Bu hadis, bir cariye ile önceki ilişkilerden doğan yasak evlilik ilişkilerine dair fıkhî hükmü verir. İmam عليه السلام, o eski cariyeden sonra evlilikten doğan kızın eski efendisi için haram olduğunu belirtir ve bu durumda hurmah hükmünü tesis eder.",
-          "ur": "یہ حدیث غلامہ کے ساتھ سابق تعلقات سے پیدا ہونے والی ممنوعہ نکاح کی شرعی حکمت بیان کرتی ہے۔ امام علیہ السلام فرماتے ہیں کہ اس سابق غلامہ کی بعد میں شادی سے پیدا ہونے والی بیٹی اس کے سابق مالک کے لیے حرام ہے، جو اس معاملے میں حرمت کا حکم قائم کرتا ہے۔",
-          "zh": "这则圣训给出了关于因与奴婢先前关系而产生的禁止婚姻关系的法学裁决。伊玛目 عليه السلام 说明，那位前奴婢后来结婚后所生的女儿对前主人仍然是禁忌的，确立了此情况下的禁令（hurmah）规则。"
-        },
         "tags": [
           "jurisprudence",
           "family",

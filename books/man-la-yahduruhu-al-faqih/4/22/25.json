@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى دَاوُدُ بْنُ سِرْحَانَ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং দাউদ ইবনে সিরহান আবু আবদিল্লাহ عليه السلام থেকে বর্ণনা করেছেন:",
-              "de": "Und Dāwūd ibn Sirḥān berichtete von Abū ʿAbdillāh عليه السلام:",
-              "en": "And Dāwūd ibn Sirḥān narrated from Abū ʿAbdillāh عليه السلام:",
-              "es": "Y Dāwūd ibn Sirḥān narró de Abū ʿAbdillāh عليه السلام:",
-              "fa": "و داوود بن سرحان از ابوعبدالله علیه‌السلام روایت کرد:",
-              "fr": "Et Dāwūd ibn Sirḥān a rapporté de Abū ʿAbdillāh عليه السلام :",
-              "id": "Dan Dāwūd ibn Sirḥān meriwayat dari Abū ʿAbdillāh علیه السلام:",
-              "ru": "И Дāвуд ибн Сирхан передал от Абу Абдиллаха عليه السلام:",
-              "tr": "Ve Dâvud ibn Sirhân, Ebu Abdillah'a (aleyhisselâm) rivayet etti:",
-              "ur": "اور داؤد ابن سرحان نے ابو عبداللہ علیہ السلام سے روایت کی:",
-              "zh": "达乌德本西尔罕从阿布阿卜迪拉赫 عليه السلام传述："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "فِي رَجُلٍ حَمَلَ عَلَى رَأْسِهِ مَتَاعًا فَأَصَابَ إِنْسَانًا فَمَاتَ أَوْ كَسَرَ مِنْهُ شَيْئًا قَالَ «هُوَ مَأْمُونٌ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন ব্যক্তি সম্পর্কে যিনি মাথায় মাল বহন করছিলেন এবং কারো সঙ্গে আঘাত লেগে তিনি মারা গেলেন, অথবা তার কিছু ভেঙে গেল, তিনি বললেন: \"সে দায়মুক্ত।\"",
-              "de": "Bezüglich eines Mannes, der Waren auf seinem Kopf trug und eine Person traf, die dann starb, oder etwas von ihm zerbrach, sagte er: „Er ist von der Haftung befreit.“",
-              "en": "Regarding a man who carried goods on his head and struck a person, who then died, or broke something of his, he said: “He is exempt from liability.”",
-              "es": "Respecto a un hombre que llevaba mercancías en su cabeza y golpeó a una persona, quien luego murió, o rompió algo suyo, dijo: “Él está exento de responsabilidad.”",
-              "fa": "در مورد مردی که بار بر سر خود حمل می‌کرد و به کسی برخورد کرد که آن شخص فوت کرد یا چیزی از او شکست، فرمود: «او معاف از مسئولیت است.»",
-              "fr": "Concernant un homme qui portait des marchandises sur sa tête et a frappé une personne, qui est ensuite décédée, ou a cassé quelque chose à cette personne, il a dit : « Il est exempt de responsabilité. »",
-              "id": "Mengenai seorang pria yang membawa barang di kepalanya dan mengenai seseorang yang kemudian meninggal, atau merusak sesuatu miliknya, beliau berkata: “Dia terbebas dari tanggung jawab.”",
-              "ru": "Относительно человека, который нёс груз на голове и ударил другого человека, который затем умер, или сломал что-то у него, он сказал: «Он освобожден от ответственности.»",
-              "tr": "Başında yük taşıyan ve birine çarpan, sonra o kişi ölen veya bir şeyini kıran bir adam hakkında şöyle dedi: “O, sorumluluktan muaftır.”",
-              "ur": "ایک شخص کے بارے میں جو اپنے سر پر سامان اٹھائے ہوئے تھا اور کسی شخص کو لگا، جو پھر مر گیا، یا اس کا کوئی سامان ٹوٹ گیا، انہوں نے فرمایا: \"وہ ذمہ داری سے مبرا ہے۔\"",
-              "zh": "关于一个人头上扛着货物撞到别人，导致那人死亡或损坏了他的东西，他说：“他免于责任。”"
-            },
             "word_end": 27,
             "word_start": 11
           }
@@ -91,24 +78,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "فَمَاتَ": "the resulting death of the person struck",
-            "كَسَرَ": "caused breakage or property damage",
-            "مَأْمُونٌ": "deemed free from liability or indemnity in this case",
-            "مَتَاعًا": "goods or property being carried"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "مَتَاعًا",
+          "فَمَاتَ",
+          "كَسَرَ",
+          "مَأْمُونٌ"
+        ],
         "related_quran": [
           {
             "ref": "4:92",
@@ -119,32 +94,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "একজন ব্যক্তি কি মাথায় মাল বহন করার সময় দুর্ঘটনাক্রমে কারো ক্ষতি করলে দায়ী হয়?",
-          "de": "Ist eine Person haftbar, wenn sie versehentlich jemanden verletzt, während sie Waren auf dem Kopf trägt?",
-          "en": "Is a person liable if he accidentally harms someone while carrying goods on his head?",
-          "es": "¿Es responsable una persona si accidentalmente daña a alguien mientras lleva mercancías en la cabeza?",
-          "fa": "آیا شخصی که هنگام حمل بار به طور غیرعمد به کسی آسیب می‌رساند، مسئول است؟",
-          "fr": "Une personne est-elle responsable si elle blesse accidentellement quelqu’un en portant des marchandises sur sa tête ?",
-          "id": "Apakah seseorang bertanggung jawab jika secara tidak sengaja melukai orang lain saat membawa barang di kepala?",
-          "ru": "Несёт ли человек ответственность, если он случайно причиняет вред, неся груз на голове?",
-          "tr": "Bir kişi başında yük taşırken kazara birine zarar verirse sorumlu mudur?",
-          "ur": "کیا کوئی شخص اپنے سر پر سامان اٹھاتے ہوئے غلطی سے کسی کو نقصان پہنچانے پر ذمہ دار ہوتا ہے؟",
-          "zh": "一个人头上扛货时意外伤害他人，他是否负责任？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি পণ্য বহন করার সময় দুর্ঘটনাক্রমে সৃষ্ট ক্ষতির বিষয়ে একটি আইনি সিদ্ধান্ত দেয়। এতে বলা হয়েছে যে এই পরিস্থিতিতে ব্যক্তিকে মাআমুন হিসেবে বিবেচনা করা হয়, অর্থাৎ তিনি মৃত্যুর বা ক্ষতির জন্য দায়ী নন।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung über unbeabsichtigten Schaden beim Tragen von Waren. Er zeigt, dass die Person in diesem beschriebenen Fall als ma’mūn gilt, also nicht für den Tod oder Schaden haftbar gemacht wird.",
-          "en": "This hadith gives a legal ruling about accidental harm caused while carrying goods. It indicates that in this described circumstance, the person is treated as maʾmūn, meaning not held liable for the resulting death or damage.",
-          "es": "Este hadiz da un fallo legal sobre el daño accidental causado al llevar mercancías. Indica que en esta circunstancia descrita, la persona es tratada como ma’mūn, es decir, no se le considera responsable de la muerte o daño resultante.",
-          "fa": "این حدیث حکم شرعی درباره آسیب غیرعمدی هنگام حمل بار را بیان می‌کند. نشان می‌دهد که در این شرایط، شخص به عنوان مأمون شناخته می‌شود و مسئولیت مرگ یا خسارت بر عهده او نیست.",
-          "fr": "Ce hadith donne un jugement légal concernant un dommage accidentel causé en portant des marchandises. Il indique que dans cette circonstance décrite, la personne est considérée comme ma’mūn, c’est-à-dire non responsable de la mort ou des dégâts résultants.",
-          "id": "Hadis ini memberikan ketetapan hukum tentang kerusakan tidak sengaja yang terjadi saat membawa barang. Ini menunjukkan bahwa dalam keadaan tersebut, orang tersebut dianggap ma’mūn, artinya tidak bertanggung jawab atas kematian atau kerusakan yang terjadi.",
-          "ru": "Этот хадис даёт юридическое постановление о случайном вреде, причинённом при переноске грузов. Он указывает, что в описанной ситуации человек считается ма’муном, то есть не несёт ответственности за смерть или ущерб.",
-          "tr": "Bu hadis, yük taşırken kazara verilen zararla ilgili hukuki hükmü verir. Anlatılan durumda kişinin ma’mûn sayıldığı, yani ölüm veya zarar için sorumlu tutulmadığı belirtilir.",
-          "ur": "یہ حدیث اس قانونی حکم کو بیان کرتی ہے جو سامان اٹھاتے ہوئے غیر ارادی نقصان کے بارے میں ہے۔ اس میں بتایا گیا ہے کہ اس حالت میں شخص کو مأمون سمجھا جاتا ہے یعنی وہ موت یا نقصان کا ذمہ دار نہیں ٹھہرایا جاتا۔",
-          "zh": "此圣训对携带货物时意外造成的伤害给出法律裁决。表明在此情况下，该人被视为ma’mūn，即不对所致死亡或损害负责。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations",

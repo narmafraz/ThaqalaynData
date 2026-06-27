@@ -18,61 +18,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى أَبُو بَصِيرٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং আবু বাসীর আবী আবদুল্লাহ علیہ السلام থেকে বর্ণনা করেছেন:",
-              "de": "Und Abū Baṣīr berichtete von Abī ʿAbdillāh عليه السلام:",
-              "en": "And Abū Baṣīr narrated from Abī ʿAbdillāh عليه السلام:",
-              "es": "Y Abū Baṣīr narró de Abī ʿAbdillāh عليه السلام:",
-              "fa": "و ابوبصیر از ابی عبدالله علیه السلام روایت کرد:",
-              "fr": "Et Abū Baṣīr a rapporté de Abī ʿAbdillāh عليه السلام :",
-              "id": "Dan Abū Baṣīr meriwayatkan dari Abī ʿAbdillāh علیه السلام:",
-              "ru": "Абу Басир передал от Аби Абдуллаха عليه السلام:",
-              "tr": "Ve Ebû Basîr, Ebu Abdillah (aleyhisselam)'dan rivayet etti:",
-              "ur": "اور ابو بصیر نے ابو عبداللہ علیہ السلام سے روایت کی:",
-              "zh": "وأبوبصيرروىعنأبيعبداللهعليهالسلام:"
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "فِي رَجُلٍ نَسِيَ مَسْحَ رَأْسِهِ قَالَ «فَلْيَمْسَحْ»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন ব্যক্তির সম্পর্কে যিনি তাঁর মাথা মুছতে ভুলে গিয়েছিলেন, তিনি বললেন: \"তাহলে সে মুছুক।\"",
-              "de": "Bezüglich eines Mannes, der vergessen hatte, seinen Kopf zu wischen, sagte er: „Dann soll er wischen.“",
-              "en": "Regarding a man who forgot to wipe his head, he said: “Then let him wipe.”",
-              "es": "Respecto a un hombre que olvidó limpiar su cabeza, dijo: “Entonces que limpie.”",
-              "fa": "در مورد مردی که مسح سرش را فراموش کرد، فرمود: «پس بگذار مسح کند.»",
-              "fr": "Concernant un homme qui a oublié de s’essuyer la tête, il a dit : « Qu’il s’essuie alors. »",
-              "id": "Mengenai seorang pria yang lupa mengusap kepalanya, beliau berkata: \"Maka biarkan dia mengusap.\"",
-              "ru": "Относительно человека, который забыл вытереть голову, он сказал: «Пусть он вытерет.»",
-              "tr": "Başını mesh etmeyi unutan bir adam hakkında şöyle dedi: \"O zaman mesh etsin.\"",
-              "ur": "ایک شخص کے بارے میں جو اپنے سر کا مسح کرنا بھول گیا، انہوں نے فرمایا: \"پھر اسے مسح کرنا چاہیے۔\"",
-              "zh": "关于一个忘记擦头的人，他说：“那就让他擦。”"
-            },
             "word_end": 17,
             "word_start": 10
           },
           {
             "arabic_text": "قَالَ لَمْ يَذْكُرْهُ حَتَّى دَخَلَ فِي الصَّلَاةِ قَالَ «فَلْيَمْسَحْ رَأْسَهُ مِنْ بَلَلِ لِحْيَتِهِ»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: সে এটি মনে রাখেনি যতক্ষণ না সে সালাতে প্রবেশ করল। তিনি বললেন: \"তাহলে সে তার দাড়ির আর্দ্রতা দিয়ে তার মাথা মুছুক।\"",
-              "de": "Er sagte: Er erinnerte sich nicht daran, bis er in das Salat (Gebet) eintrat. Er sagte: „Dann soll er seinen Kopf mit der Feuchtigkeit seines Bartes wischen.“",
-              "en": "He said: He did not remember it until he entered into the salat (prayer). He said: “Then let him wipe his head with the moisture of his beard.”",
-              "es": "Dijo: No lo recordó hasta que entró en la salat (oración). Dijo: “Entonces que limpie su cabeza con la humedad de su barba.”",
-              "fa": "فرمود: او آن را به یاد نداشت تا زمانی که وارد نماز شد. فرمود: «پس بگذار سرش را با رطوبت ریشش مسح کند.»",
-              "fr": "Il a dit : Il ne s’en est pas souvenu avant d’entrer dans la salat (prière). Il a dit : « Qu’il s’essuie la tête avec l’humidité de sa barbe. »",
-              "id": "Beliau berkata: Dia tidak mengingatnya sampai dia masuk ke dalam salat (shalat). Beliau berkata: \"Maka biarkan dia mengusap kepalanya dengan kelembapan jenggotnya.\"",
-              "ru": "Он сказал: Он не вспомнил об этом, пока не вошёл в салат (молитву). Он сказал: «Пусть он выотрет голову влагой своей бороды.»",
-              "tr": "Dedi ki: O, bunu ancak salata (namaza) girdiğinde hatırladı. Dedi ki: \"O zaman sakalının nemiyle başını mesh etsin.\"",
-              "ur": "انہوں نے فرمایا: وہ اسے یاد نہیں رکھتا تھا جب تک کہ وہ نماز میں داخل نہ ہوا۔ انہوں نے فرمایا: \"پھر اسے اپنی داڑھی کی نمی سے اپنے سر کا مسح کرنا چاہیے۔\"",
-              "zh": "他说：他直到进入礼拜才想起。他说：“那就让他用胡须的湿气擦头。”"
-            },
             "word_end": 30,
             "word_start": 17
           }
@@ -111,57 +85,19 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الصَّلَاةِ": "the salat (prayer) into which he had already entered",
-            "بَلَلِ": "remaining moisture or wetness",
-            "رَأْسِهِ": "his head, the body part to be wiped in wudu (ablution)",
-            "لِحْيَتِهِ": "his beard, whose moisture is used for the wiping",
-            "مَسْحَ": "wiping as a required act in wudu (ablution)"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "مَسْحَ",
+          "رَأْسِهِ",
+          "الصَّلَاةِ",
+          "بَلَلِ",
+          "لِحْيَتِهِ"
+        ],
         "related_quran": [
           {
             "ref": "5:6",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কেউ وضুতে মাথা মুছতে ভুলে যায় এবং শুধুমাত্র সালাতের সময় মনে পড়ে, তাহলে তাকে কী করা উচিত?",
-          "de": "Was soll eine Person tun, wenn sie vergessen hat, ihren Kopf beim Wudu (Waschung) zu wischen und sich erst während des Salat (Gebet) daran erinnert?",
-          "en": "What should a person do if he forgot to wipe his head in wudu (ablution) and only remembered during salat (prayer)?",
-          "es": "¿Qué debe hacer una persona si olvidó limpiar su cabeza en wudu (ablución) y solo lo recordó durante la salat (oración)?",
-          "fa": "اگر کسی فردی مسح سر در وضو را فراموش کند و فقط هنگام نماز به یاد بیاورد، چه باید بکند؟",
-          "fr": "Que doit faire une personne si elle oublie de s’essuyer la tête lors des wudu (ablutions) et ne s’en souvient que pendant la salat (prière) ?",
-          "id": "Apa yang harus dilakukan seseorang jika dia lupa mengusap kepala dalam wudu (berwudhu) dan baru ingat saat salat (shalat)?",
-          "ru": "Что должен делать человек, если он забыл вытереть голову при вуду (омовении) и вспомнил об этом только во время салата (молитвы)?",
-          "tr": "Bir kişi abdeste başını mesh etmeyi unutursa ve sadece salat (namaz) sırasında hatırlarsa ne yapmalıdır?",
-          "ur": "اگر کوئی وضو میں سر کا مسح کرنا بھول جائے اور صرف نماز کے دوران یاد آئے تو اسے کیا کرنا چاہیے؟",
-          "zh": "如果一个人在洗小净时忘记擦头，且仅在礼拜中才想起，他应该怎么办？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি وضوতে মাথা মুছতে ভুলে যাওয়া ব্যক্তির সম্পর্কে শারঈ حکم প্রদান করে। যদি সে পরে মনে করে, এমনকি সালাতে প্রবেশ করার পরও, তবে তাকে তার দাড়ির অবশিষ্ট আর্দ্রতা দিয়ে মাথা মুছতে হবে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung für denjenigen, der vergisst, den Kopf beim Wudu (Waschung) zu wischen. Wenn er sich später erinnert, sogar nachdem er in das Salat (Gebet) eingetreten ist, soll er seinen Kopf mit der verbleibenden Feuchtigkeit seines Bartes wischen.",
-          "en": "This hadith gives a legal ruling about one who forgets to wipe the head in wudu (ablution). If he remembers later, even after entering the salat (prayer), he should wipe his head using the remaining moisture from his beard.",
-          "es": "Este hadiz da un fallo legal sobre quien olvida limpiar la cabeza en wudu (ablución). Si lo recuerda después, incluso después de entrar en la salat (oración), debe limpiar su cabeza usando la humedad restante de su barba.",
-          "fa": "این حدیث حکم شرعی درباره کسی که مسح سر در وضو را فراموش کرده است بیان می‌کند. اگر بعداً حتی پس از ورود به نماز به یاد آورد، باید سر خود را با رطوبت باقی‌مانده از ریشش مسح کند.",
-          "fr": "Ce hadith donne un jugement légal concernant celui qui oublie de s’essuyer la tête lors des wudu (ablutions). S’il s’en souvient plus tard, même après être entré dans la salat (prière), il doit s’essuyer la tête avec l’humidité restante de sa barbe.",
-          "id": "Hadis ini memberikan hukum tentang seseorang yang lupa mengusap kepala dalam wudu (berwudhu). Jika dia ingat kemudian, bahkan setelah masuk salat (shalat), dia harus mengusap kepalanya dengan kelembapan yang tersisa dari jenggotnya.",
-          "ru": "Этот хадис даёт правовое постановление о том, кто забыл вытереть голову при вуду (омовении). Если он вспомнит позже, даже после входа в салат (молитву), он должен вытереть голову оставшейся влагой своей бороды.",
-          "tr": "Bu hadis, abdeste başını mesh etmeyi unutan kişi hakkında hukuki hükmü verir. Eğer daha sonra, hatta salata (namaza) girdikten sonra hatırlarsa, sakalının kalan nemiyle başını mesh etmelidir.",
-          "ur": "یہ حدیث وضو میں سر کا مسح کرنا بھول جانے والے کے بارے میں شرعی حکم بیان کرتی ہے۔ اگر وہ بعد میں یاد کرے، حتیٰ کہ نماز میں داخل ہونے کے بعد بھی، تو اسے چاہیے کہ اپنی داڑھی کی باقی نمی سے سر کا مسح کرے۔",
-          "zh": "此圣训对忘记在洗小净时擦头者给出法律裁决。如果他后来想起，即使在进入礼拜后，也应使用胡须残留的湿气擦头。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

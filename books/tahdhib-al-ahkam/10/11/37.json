@@ -16,80 +16,41 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلْحُسَيْنُ بْنُ سَعِيدٍ عَنْ حَمَّادِ بْنِ عِيسَى عَنْ أَبِي السَّفَاتِجِ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ, হাম্মাদ ইবন ঈসা থেকে, তিনি আবী আল-সাফাতিজ থেকে, তিনি আবী আবদিল্লাহ عليه السلام থেকে:",
-              "de": "Al-Ḥusayn ibn Saʿīd, von Ḥammād ibn ʿĪsā, von Abī al-Safātij, von Abī ʿAbdillāh عليه السلام:",
-              "en": "Al-Ḥusayn ibn Saʿīd, from Ḥammād ibn ʿĪsā, from Abī al-Safātij, from Abī ʿAbdillāh عليه السلام:",
-              "es": "Al-Ḥusayn ibn Saʿīd, de Ḥammād ibn ʿĪsā, de Abī al-Safātij, de Abī ʿAbdillāh عليه السلام:",
-              "fa": "الحسین بن سعید، از حمّاد بن عیسی، از ابی الصفاتج، از ابی عبدالله علیه السلام:",
-              "fr": "Al-Ḥusayn ibn Saʿīd, d’après Ḥammād ibn ʿĪsā, d’après Abī al-Safātij, d’après Abī ʿAbdillāh عليه السلام :",
-              "id": "Al-Ḥusayn ibn Saʿīd, dari Ḥammād ibn ʿĪsā, dari Abī al-Safātij, dari Abī ʿAbdillāh عليه السلام:",
-              "ru": "Аль-Хусайн ибн Саʿид, от Хаммада ибн ʿИсы, от Аби ас-Сафатидж, от Аби ʿАбдуллаха عليه السلام:",
-              "tr": "el-Hüseyin ibn Saʿîd, Hammâd ibn ʿÎsâ’dan, o da Ebî es-Safâtic’den, o da Ebî Abdillâh عليه السلام’dan:",
-              "ur": "الحسین بن سعید، حمّاد بن عیسی سے، وہ ابی الصفاتج سے، وہ ابی عبداللہ علیہ السلام سے:",
-              "zh": "阿勒·侯赛因·伊本·萨伊德，传自哈马德·伊本·伊萨，传自阿比·阿萨法提季，传自阿比·阿卜杜拉 عليه السلام："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "فِي قَوْلِ اللَّهِ عَزَّ وَجَلَّ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল্লাহ, মহাপরাক্রমশালী, মহামহিমের বাণী সম্পর্কে,",
-              "de": "Über das Wort Allahs, des Mächtigen und Majestätischen,",
-              "en": "Concerning the saying of Allah, Mighty and Majestic,",
-              "es": "Acerca de la palabra de Allah, Poderoso y Majestuoso,",
-              "fa": "دربارهٔ سخنِ خداوند، عزیز و جلیل،",
-              "fr": "Au sujet de la parole d’Allah, Puissant et Majestueux,",
-              "id": "Tentang firman Allah, Yang Mahaperkasa lagi Mahagung,",
-              "ru": "О словах Аллаха, Великого и Славного,",
-              "tr": "Allah’ın, Azîz ve Celîl olanın, şu sözü hakkında,",
-              "ur": "اللہ عز و جل کے قول کے بارے میں،",
-              "zh": "关于真主，尊严而伟大的那句话，"
-            },
             "word_end": 21,
             "word_start": 16
           },
           {
             "arabic_text": "«وَمَنْ يَقْتُلْ مُؤْمِنًا مُتَعَمِّدًا فَجَزَاؤُهُ جَهَنَّمُ»",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "“আর যে কেউ কোনো মুমিনকে ইচ্ছাকৃতভাবে হত্যা করে, তার প্রতিদান জাহান্নাম।”",
-              "de": "„Und wer einen Gläubigen vorsätzlich tötet, dessen Vergeltung ist die Hölle.“",
-              "en": "“And whoever kills a believer intentionally, his recompense is Hell.”",
-              "es": "“Y quien mate a un creyente intencionalmente, su recompensa será el Infierno.”",
-              "fa": "«و هر کس مؤمنی را عمداً بکشد، کیفر او جهنم است.»",
-              "fr": "« Et quiconque tue délibérément un croyant, sa rétribution sera l’Enfer. »",
-              "id": "“Dan barang siapa membunuh seorang mukmin dengan sengaja, maka balasannya adalah Jahannam.”",
-              "ru": "«А кто убьёт верующего умышленно, тому воздаянием будет Геенна».",
-              "tr": "“Kim bir mümini kasten öldürürse, onun cezası cehennemdir.”",
-              "ur": "“اور جو کوئی کسی مومن کو جان بوجھ کر قتل کرے، تو اس کی سزا جہنم ہے۔”",
-              "zh": "“谁若故意杀害一位信士，他的报酬就是火狱。”"
-            },
             "word_end": 27,
             "word_start": 21
           },
           {
             "arabic_text": "قَالَ: «جَزَاؤُهُ جَهَنَّمُ إِنْ جَازَاهُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি عليه السلام বললেন: “তার প্রতিদান জাহান্নাম, যদি তিনি তাকে প্রতিদান দেন।”",
-              "de": "Er عليه السلام sagte: „Seine Vergeltung ist die Hölle, wenn Er ihn vergilt.“",
-              "en": "He عليه السلام said: “His recompense is Hell, if He recompenses him.”",
-              "es": "Él عليه السلام dijo: “Su recompensa será el Infierno, si Él lo recompensa.”",
-              "fa": "ایشان علیه السلام فرمود: «کیفر او جهنم است، اگر او را کیفر دهد.»",
-              "fr": "Il عليه السلام a dit : « Sa rétribution sera l’Enfer, s’Il le rétribue. »",
-              "id": "Beliau عليه السلام bersabda: “Balasannya adalah Jahannam, jika Dia membalasnya.”",
-              "ru": "Он عليه السلام сказал: «Его воздаянием будет Геенна, если Он воздаст ему».",
-              "tr": "O عليه السلام şöyle buyurdu: “Eğer onu cezalandırırsa, onun cezası cehennemdir.”",
-              "ur": "انہوں نے علیہ السلام فرمایا: “اس کی سزا جہنم ہے، اگر وہ اسے سزا دے۔”",
-              "zh": "他 عليه السلام说：“他的报酬就是火狱，如果他要报偿他的话。”"
-            },
             "word_end": 32,
             "word_start": 27
           }
@@ -142,57 +103,19 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "جَازَاهُ": "He recompensed him; meaning Allah requited him for the act",
-            "جَزَاؤُهُ": "his recompense; the due return or punishment for the act",
-            "جَهَنَّمُ": "Hell; the Fire mentioned as punishment",
-            "مُؤْمِنًا": "a believer; the protected faithful person mentioned in the verse",
-            "مُتَعَمِّدًا": "intentionally; done deliberately and with intent"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "مُؤْمِنًا",
+          "مُتَعَمِّدًا",
+          "جَزَاؤُهُ",
+          "جَهَنَّمُ",
+          "جَازَاهُ"
+        ],
         "related_quran": [
           {
             "ref": "4:93",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام কীভাবে কোনো মুমিনকে ইচ্ছাকৃতভাবে হত্যা করার আয়াতটি ব্যাখ্যা করেছেন?",
-          "de": "Wie erklärte Imam al-Ṣādiq عليه السلام den Vers über das vorsätzliche Töten eines Gläubigen?",
-          "en": "How did Imam al-Ṣādiq عليه السلام explain the verse about killing a believer intentionally?",
-          "es": "¿Cómo explicó el Imam al-Ṣādiq عليه السلام el versículo sobre matar a un creyente intencionalmente?",
-          "fa": "امام صادق علیه السلام آیهٔ کشتنِ عمدیِ مؤمن را چگونه توضیح داد؟",
-          "fr": "Comment l’imam al-Ṣādiq عليه السلام a-t-il expliqué le verset sur le fait de tuer délibérément un croyant ?",
-          "id": "Bagaimana Imam al-Ṣādiq عليه السلام menjelaskan ayat tentang membunuh seorang mukmin secara sengaja?",
-          "ru": "Как имам аль-Ṣādiq عليه السلام объяснил аят об умышленном убийстве верующего?",
-          "tr": "İmam es-Sâdık عليه السلام, bir mümini kasten öldürme ayetini nasıl açıkladı?",
-          "ur": "امام الصادق علیہ السلام نے جان بوجھ کر مومن کو قتل کرنے والی آیت کی کیسے وضاحت فرمائی؟",
-          "zh": "伊玛目阿尔·萨迪格 عليه السلام是如何解释关于故意杀害信士的经文的？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি কোনো মুমিনকে ইচ্ছাকৃতভাবে হত্যা করার আয়াত সম্পর্কে একটি ব্যাখ্যা উপস্থাপন করে। ইমাম আবী আবদিল্লাহ عليه السلام ব্যাখ্যা করেন যে, আল্লাহ, মহাপরাক্রমশালী, মহামহিম যদি তাকে প্রতিদান দেন, তবে তার প্রতিদান জাহান্নাম—এতে অপরাধের ভয়াবহতা যেমন স্পষ্ট হয়, তেমনি শাস্তিতে আল্লাহর ইচ্ছাধীনতাও প্রতিষ্ঠিত হয়।",
-          "de": "Dieser Hadith enthält eine Erläuterung des Verses über das vorsätzliche Töten eines Gläubigen. Imam Abī ʿAbdillāh عليه السلام erklärt, dass die Hölle seine Vergeltung ist, wenn Allah, der Mächtige und Majestätische, ihn vergilt, was die Schwere der Tat zeigt und zugleich die göttliche Entscheidungsfreiheit bei der Bestrafung bestätigt.",
-          "en": "This hadith presents a commentary on the verse concerning the intentional killing of a believer. Imam Abī ʿAbdillāh عليه السلام explains that Hell is his recompense if Allah, Mighty and Majestic, chooses to requite him, indicating the gravity of the crime while affirming divine discretion in punishment.",
-          "es": "Este hadiz presenta un comentario sobre el versículo relativo a matar intencionalmente a un creyente. El Imam Abī ʿAbdillāh عليه السلام explica que el Infierno es su recompensa si Allah, Poderoso y Majestuoso, decide retribuirlo, lo que indica la gravedad del crimen y afirma la discreción divina en el castigo.",
-          "fa": "این حدیث تفسیری بر آیهٔ مربوط به کشتنِ عمدیِ یک مؤمن ارائه می‌کند. امام ابی عبدالله علیه السلام توضیح می‌دهد که اگر خداوند عزیز و جلیل او را کیفر دهد، کیفرش جهنم است؛ و این، هم سنگینیِ این گناه را نشان می‌دهد و هم اختیار الهی در مجازات را.",
-          "fr": "Ce hadith présente un commentaire du verset concernant le fait de tuer délibérément un croyant. L’imam Abī ʿAbdillāh عليه السلام explique que l’Enfer est sa rétribution si Allah, Puissant et Majestueux, choisit de le rétribuer, ce qui indique la gravité du crime tout en affirmant la discrétion divine dans le châtiment.",
-          "id": "Hadis ini memuat penjelasan tentang ayat yang berkaitan dengan pembunuhan seorang mukmin secara sengaja. Imam Abī ʿAbdillāh عليه السلام menjelaskan bahwa Jahannam adalah balasannya jika Allah, Yang Mahaperkasa lagi Mahagung, hendak membalasnya, yang menunjukkan beratnya dosa itu sekaligus menegaskan kehendak ilahi dalam hukuman.",
-          "ru": "Этот хадис содержит толкование аята об умышленном убийстве верующего. Имам Аби ʿАбдуллах عليه السلام разъясняет, что Геенна будет его воздаянием, если Аллах, Великий и Славный, пожелает воздать ему, что указывает на тяжесть этого преступления и вместе с тем утверждает божественную волю в наказании.",
-          "tr": "Bu hadis, bir mümini kasten öldürmeye dair ayetin tefsirini sunar. İmam Ebî Abdillâh عليه السلام, Allah Azîz ve Celîl dilerse onun cezasının cehennem olduğunu açıklayarak, bu suçun ağırlığını ve cezalandırmada ilahî takdiri ortaya koyar.",
-          "ur": "یہ حدیث اس آیت کی تفسیر پیش کرتی ہے جو کسی مومن کو جان بوجھ کر قتل کرنے سے متعلق ہے۔ امام ابی عبداللہ علیہ السلام وضاحت فرماتے ہیں کہ اگر اللہ عز و جل اسے بدلہ دے تو اس کی سزا جہنم ہے، جو اس جرم کی سنگینی کو ظاہر کرتی ہے اور ساتھ ہی سزا میں الٰہی اختیار کو بھی ثابت کرتی ہے۔",
-          "zh": "这段圣训对有关故意杀害信士的经文作了注释。伊玛目阿比·阿卜杜拉 عليه السلام解释说，如果真主，尊严而伟大的，愿意报偿他，那么他的报酬就是火狱，这既表明了该罪行的严重性，也肯定了惩罚中的神圣裁断。"
-        },
         "tags": [
           "jurisprudence",
           "quran_commentary",

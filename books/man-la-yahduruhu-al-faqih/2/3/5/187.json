@@ -17,23 +17,23 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَمَنْ مَاتَ مُحْرِمًا بُعِثَ يَوْمَ الْقِيَامَةِ مُلَبِّيًا بِالْحَجِّ مَغْفُورًا لَهُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে কেউ ইহরামের অবস্থায় মারা যায়, সে কিয়ামতের দিনে হজের তলবিয়াহ পাঠ করে জেগে উঠবে এবং ক্ষমা প্রাপ্ত হবে।",
-              "de": "Wer im Zustand des Ihram stirbt, wird am Tag des Gerichts auferweckt, die Talbiyah für die Hadsch rezitierend, und vergeben.",
-              "en": "Whoever dies while in a state of ihram will be resurrected on the Day of Judgment reciting the talbiyah for hajj, forgiven.",
-              "es": "Quien muera en estado de ihram será resucitado el Día del Juicio recitando la talbiyah del hajj, perdonado.",
-              "fa": "هر کس در حال احرام بمیرد، در روز قیامت با تلبیه حج مبعوث می‌شود و بخشیده می‌شود.",
-              "fr": "Quiconque meurt en état d'ihram sera ressuscité au Jour du Jugement en récitant la talbiyah du hajj, pardonné.",
-              "id": "Barangsiapa yang meninggal dalam keadaan ihram akan dibangkitkan pada Hari Kiamat sambil membaca talbiyah haji, diampuni dosanya.",
-              "ru": "Кто умрет в состоянии ихрама, будет воскрешен в День Суда, произнося талбия для хаджа, и прощен.",
-              "tr": "İhram halinde ölen kişi, Kıyamet Günü haccın talbiyesini okuyarak diriltilecek ve affedilecektir.",
-              "ur": "جو شخص حالت احرام میں فوت ہوتا ہے وہ قیامت کے دن حج کی تلبیہ پڑھتا ہوا زندہ کیا جائے گا اور اسے معاف کر دیا جائے گا۔",
-              "zh": "凡处于伊赫拉姆状态下去世者，将在审判日复活，诵读朝觐的塔尔比亚，并获赦免。"
-            },
             "word_end": 10,
             "word_start": 0
           }
@@ -51,27 +51,15 @@
             "phrase_en": "Day of Resurrection"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بُعِثَ": "will be resurrected",
-            "بِالْحَجِّ": "for hajj",
-            "مَاتَ": "died",
-            "مَغْفُورًا لَهُ": "forgiven",
-            "مُحْرِمًا": "in the state of ihram for pilgrimage",
-            "مُلَبِّيًا": "reciting the talbiyah",
-            "يَوْمَ الْقِيَامَةِ": "the Day of Judgment"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "مَاتَ",
+          "مُحْرِمًا",
+          "بُعِثَ",
+          "يَوْمَ الْقِيَامَةِ",
+          "مُلَبِّيًا",
+          "بِالْحَجِّ",
+          "مَغْفُورًا لَهُ"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
@@ -86,32 +74,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হজের সময় ইহরামের অবস্থায় মারা গেলে তার কী হয়?",
-          "de": "Was passiert mit jemandem, der während des Hadsch im Zustand des Ihram stirbt?",
-          "en": "What happens to someone who dies while in a state of ihram during hajj?",
-          "es": "¿Qué sucede con alguien que muere en estado de ihram durante el hajj?",
-          "fa": "چه اتفاقی برای کسی می‌افتد که در حال احرام در حج می‌میرد؟",
-          "fr": "Que se passe-t-il pour quelqu'un qui meurt en état d'ihram pendant le hajj ?",
-          "id": "Apa yang terjadi pada seseorang yang meninggal dalam keadaan ihram saat haji?",
-          "ru": "Что происходит с человеком, который умирает в состоянии ихрама во время хаджа?",
-          "tr": "Hac sırasında ihram halinde ölen birine ne olur?",
-          "ur": "جو شخص حالت احرام میں حج کے دوران فوت ہو جائے اس کے ساتھ کیا ہوتا ہے؟",
-          "zh": "在朝觐期间处于伊赫拉姆状态去世的人会怎样？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে, যে কেউ ইহরামের অবস্থায় মারা যায়, সে কিয়ামতের দিনে সেই পবিত্র অবস্থায় জেগে উঠবে এবং হজের তলবিয়াহ পাঠ করবে। এটি হজের আধ্যাত্মিক মর্যাদা এবং ক্ষমার মাধ্যমে এমন ব্যক্তিকে প্রদত্ত করুণা তুলে ধরে।",
-          "de": "Dieser Hadith besagt, dass wer im Zustand des Ihram stirbt, am Tag des Gerichts in diesem heiligen Zustand auferweckt wird und die Talbiyah des Hadsch rezitiert. Er hebt den spirituellen Rang des Hadsch und die durch Vergebung gewährte Barmherzigkeit hervor.",
-          "en": "This hadith states that one who dies in the state of ihram is raised on the Day of Judgment in that sacred condition, reciting the talbiyah of hajj. It highlights the spiritual rank of hajj and the mercy granted to such a person through forgiveness.",
-          "es": "Este hadiz afirma que quien muere en estado de ihram es resucitado en el Día del Juicio en esa condición sagrada, recitando la talbiyah del hajj. Destaca el rango espiritual del hajj y la misericordia concedida a esa persona mediante el perdón.",
-          "fa": "این حدیث بیان می‌کند که کسی که در حال احرام می‌میرد، در روز قیامت در همان حالت مقدس برانگیخته می‌شود و تلبیه حج را می‌خواند. این حدیث جایگاه معنوی حج و رحمت بخشش به چنین فردی را نشان می‌دهد.",
-          "fr": "Ce hadith indique que celui qui meurt en état d'ihram est ressuscité au Jour du Jugement dans cet état sacré, récitant la talbiyah du hajj. Il souligne le rang spirituel du hajj et la miséricorde accordée à cette personne par le pardon.",
-          "id": "Hadis ini menyatakan bahwa siapa saja yang meninggal dalam keadaan ihram akan dibangkitkan pada Hari Kiamat dalam kondisi suci tersebut sambil membaca talbiyah haji. Ini menyoroti kedudukan spiritual haji dan rahmat yang diberikan kepada orang tersebut melalui pengampunan.",
-          "ru": "Этот хадис говорит, что тот, кто умирает в состоянии ихрама, будет воскрешен в День Суда в этом священном состоянии, произнося талбия хаджа. Он подчеркивает духовный ранг хаджа и милость, дарованную такому человеку через прощение.",
-          "tr": "Bu hadis, ihram halinde ölen kişinin Kıyamet Günü o kutsal durumda diriltileceğini ve haccın talbiyesini okuyacağını belirtir. Haccın manevi derecesini ve böyle bir kişiye bağış yoluyla verilen merhameti vurgular.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ جو شخص حالت احرام میں فوت ہوتا ہے وہ قیامت کے دن اسی مقدس حالت میں اٹھایا جائے گا اور حج کی تلبیہ پڑھ رہا ہوگا۔ یہ حج کی روحانی مرتبہ اور معافی کے ذریعے اس شخص کو دی جانے والی رحمت کو اجاگر کرتی ہے۔",
-          "zh": "此圣训说明，凡在伊赫拉姆状态下去世者，将在审判日以该神圣状态复活，诵读朝觐的塔尔比亚。它强调了朝觐的精神地位及通过宽恕赐予此人的慈悲。"
-        },
         "tags": [
           "worship",
           "afterlife",

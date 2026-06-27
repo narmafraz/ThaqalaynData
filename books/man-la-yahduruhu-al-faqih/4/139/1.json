@@ -16,99 +16,47 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "إِذَا تَرَكَتِ امْرَأَةٌ زَوْجَهَا وَأَبَوَيْهَا فَلِلزَّوْجِ النِّصْفُ وَلِلْأُمِّ الثُّلُثُ كَامِلًا وَمَا بَقِيَ فَلِلْأَبِ وَهُوَ السُّدُسُ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "যদি একজন নারী তার স্বামী এবং দুইজন পিতামাতাকে রেখে যায়, তবে স্বামী পায় অর্ধেক, মা পায় সম্পূর্ণ এক-তৃতীয়াংশ, এবং যা বাকি থাকে তা পিতার জন্য থাকে, যা এক-ষষ্ঠাংশ।",
-              "de": "Wenn eine Frau ihren Ehemann und ihre beiden Eltern hinterlässt, erhält der Ehemann die Hälfte, die Mutter ein volles Drittel, und was übrig bleibt, gehört dem Vater, was ein Sechstel ist.",
-              "en": "If a woman leaves behind her husband and her two parents, then the husband receives one-half, the mother receives a complete one-third, and whatever remains belongs to the father, which is one-sixth.",
-              "es": "Si una mujer deja a su esposo y a sus dos padres, entonces el esposo recibe la mitad, la madre recibe un tercio completo, y lo que queda pertenece al padre, que es un sexto.",
-              "fa": "اگر زنی شوهر و هر دو والدین خود را ترک کند، شوهر نیمی از ارث را می‌برد، مادر یک سوم کامل را می‌برد و آنچه باقی می‌ماند به پدر می‌رسد که یک ششم است.",
-              "fr": "Si une femme laisse derrière elle son mari et ses deux parents, alors le mari reçoit la moitié, la mère reçoit un tiers complet, et ce qui reste revient au père, soit un sixième.",
-              "id": "Jika seorang wanita meninggalkan suaminya dan kedua orang tuanya, maka suami menerima setengah, ibu menerima sepertiga penuh, dan sisanya menjadi milik ayah, yaitu sepertujuh.",
-              "ru": "Если женщина оставляет после себя мужа и обоих родителей, муж получает половину, мать — полную треть, а остальное принадлежит отцу, что составляет шестую часть.",
-              "tr": "Bir kadın, kocasını ve iki ebeveynini geride bırakırsa, koca yarısını alır, anne tam üçte birini alır ve kalan kısmı baba alır ki bu altıda birdir.",
-              "ur": "اگر کوئی عورت اپنے شوہر اور دونوں والدین کو چھوڑ کر فوت ہو جائے تو شوہر کو آدھا حصہ ملتا ہے، ماں کو پورا ایک تہائی حصہ ملتا ہے، اور جو کچھ باقی رہ جائے وہ والد کا ہوتا ہے، جو کہ ایک چھٹا حصہ ہے۔",
-              "zh": "如果一位妇女留下她的丈夫和双亲，那么丈夫获得一半，母亲获得完整的三分之一，剩余的归父亲所有，即六分之一。"
-            },
             "word_end": 15,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ اللَّهُ عَزَّ وَجَلَّ ۝ فَإِنْ لَمْ يَكُنْ لَهُ وَلَدٌ وَوَرِثَهُ أَبَوَاهُ فَلِأُمِّهِ الثُّلُثُ",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "اللہ تعالیٰ نے فرمایا: “اگر اس کا کوئی بیٹا نہ ہو اور اس کے والدین اس کے وارث ہوں تو ماں کو ایک تہائی حصہ ملے گا۔”",
-              "de": "Allah, der Mächtige und Erhabene, sagte: „Wenn er kein Kind hat und seine Eltern von ihm erben, dann erhält seine Mutter ein Drittel.“",
-              "en": "Allah, Mighty and Majestic, said: “But if he has no child and his parents inherit from him, then for his mother is one-third.”",
-              "es": "Allah, Poderoso y Majestuoso, dijo: “Pero si no tiene hijo y sus padres heredan de él, entonces para su madre es un tercio.”",
-              "fa": "خداوند متعال فرمود: «اگر او فرزندی نداشته باشد و والدینش از او ارث ببرند، پس برای مادرش یک سوم است.»",
-              "fr": "Allah, Tout-Puissant et Majestueux, a dit : « Mais s’il n’a pas d’enfant et que ses parents héritent de lui, alors pour sa mère c’est un tiers. »",
-              "id": "Allah Yang Maha Perkasa dan Maha Agung berfirman: “Tetapi jika dia tidak memiliki anak dan orang tuanya mewarisinya, maka untuk ibunya adalah sepertiga.”",
-              "ru": "Аллах, Всемогущий и Великий, сказал: «Если у него нет детей и его родители наследуют от него, то матери принадлежит одна треть.»",
-              "tr": "Allah, Azim ve Yüce, şöyle buyurdu: “Eğer onun çocuğu yoksa ve ebeveynleri ondan mirasçı ise, annesine üçte bir verilir.”",
-              "ur": "اللہ تعالیٰ نے فرمایا: “اگر اس کا کوئی بیٹا نہ ہو اور اس کے والدین اس کے وارث ہوں تو ماں کو ایک تہائی حصہ ملے گا۔”",
-              "zh": "真主全能至大说：“如果他没有子女，且父母继承他，那么母亲得三分之一。”"
-            },
             "word_end": 29,
             "word_start": 15
           },
           {
             "arabic_text": "فَجَعَلَ اللَّهُ عَزَّ وَجَلَّ لِلْأُمِّ الثُّلُثَ كَامِلًا إِذَا لَمْ يَكُنْ لَهُ وَلَدٌ وَلَا إِخْوَةٌ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "پس اللہ تعالیٰ نے ماں کو مکمل ایک تہائی حصہ دیا جب اس کے نہ کوئی اولاد تھی اور نہ کوئی بھائی بہن۔",
-              "de": "So hat Allah, der Mächtige und Erhabene, der Mutter ein volles Drittel zugewiesen, wenn er weder Kinder noch Geschwister hat.",
-              "en": "So Allah, Mighty and Majestic, assigned the mother a complete one-third when he has neither child nor siblings.",
-              "es": "Así, Allah, Poderoso y Majestuoso, asignó a la madre un tercio completo cuando no tenía ni hijos ni hermanos.",
-              "fa": "پس خداوند متعال به مادر یک سوم کامل را اختصاص داد وقتی که نه فرزندی داشت و نه برادر یا خواهر.",
-              "fr": "Ainsi, Allah, Tout-Puissant et Majestueux, a attribué à la mère un tiers complet lorsqu’il n’a ni enfant ni frère ni sœur.",
-              "id": "Jadi Allah Yang Maha Perkasa dan Maha Agung menetapkan ibu mendapatkan sepertiga penuh ketika dia tidak memiliki anak maupun saudara.",
-              "ru": "Итак, Аллах, Всемогущий и Великий, назначил матери полный третий, если у него нет ни детей, ни братьев и сестер.",
-              "tr": "Böylece Allah, Azim ve Yüce, çocuğu ve kardeşi olmadığında anneye tam üçte bir pay verdi.",
-              "ur": "پس اللہ تعالیٰ نے ماں کو مکمل ایک تہائی حصہ دیا جب اس کے نہ کوئی اولاد تھی اور نہ کوئی بھائی بہن۔",
-              "zh": "因此，真主全能至大规定当他既无子女也无兄弟姐妹时，母亲得完整三分之一。"
-            },
             "word_end": 43,
             "word_start": 29
           },
           {
             "arabic_text": "قَالَ الْفَضْلُ وَمِنَ الدَّلِيلِ عَلَى أَنَّ لَهَا الثُّلُثَ مِنْ جَمِيعِ الْمَالِ أَنَّ جَمِيعَ مَنْ خَالَفَنَا لَمْ يَقُولُوا لَهَا السُّدُسُ فِي هَذِهِ الْفَرِيضَةِ إِنَّمَا قَالُوا لِلْأُمِّ ثُلُثُ مَا بَقِيَ وَثُلُثُ مَا بَقِيَ هُوَ السُّدُسُ فَأَحَبُّوا أَنْ لَا يُخَالِفُوا لَفْظَ الْكِتَابِ فَأَثْبَتُوا لَفْظَ الْكِتَابِ وَخَالَفُوا حُكْمَهُ وَذَلِكَ تَمْوِيهٌ وَخِلَافٌ عَلَى اللَّهِ عَزَّ وَجَلَّ وَعَلَى كِتَابِهِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "الفضل نے کہا: اس بات کے دلائل میں سے کہ ماں کو تمام مال کا ایک تہائی حصہ ملتا ہے یہ ہے کہ جو لوگ ہم سے اختلاف کرتے ہیں وہ اس فرض حصے میں ماں کو چھٹا حصہ نہیں دیتے۔ بلکہ کہتے ہیں کہ ماں کو جو باقی رہ جائے اس کا ایک تہائی حصہ ملتا ہے اور جو باقی رہ جائے اس کا ایک تہائی حصہ چھٹا حصہ ہوتا ہے۔ وہ کتاب کے الفاظ سے اختلاف نہیں کرنا چاہتے تھے، اس لیے کتاب کے الفاظ کو ثابت کیا لیکن اس کے حکم سے اختلاف کیا؛ اور یہ اللہ تعالیٰ اور اس کی کتاب کے خلاف فریب اور اختلاف ہے۔",
-              "de": "Al-Faḍl sagte: Zu den Beweisen, dass sie ein Drittel des gesamten Vermögens hat, gehört, dass alle, die uns widersprechen, ihr in diesem vorgeschriebenen Anteil kein Sechstel geben. Stattdessen sagen sie, die Mutter habe ein Drittel von dem, was übrig bleibt, und ein Drittel von dem, was übrig bleibt, ist ein Sechstel. Sie wollten den Wortlaut des Buches nicht widersprechen, also bestätigten sie den Wortlaut des Buches, widersprachen aber dessen Urteil; und das ist Täuschung und Widerspruch gegen Allah, den Mächtigen und Erhabenen, und gegen Sein Buch.",
-              "en": "Al-Faḍl said: Among the proofs that she has one-third of the entire estate is that all those who oppose us did not say that she has one-sixth in this prescribed share. Rather, they said that the mother has one-third of what remains, and one-third of what remains is one-sixth. They wished not to oppose the wording of the Book, so they affirmed the wording of the Book but opposed its ruling; and that is obfuscation and opposition to Allah, Mighty and Majestic, and to His Book.",
-              "es": "Al-Faḍl dijo: Entre las pruebas de que ella tiene un tercio de toda la herencia está que todos los que se oponen a nosotros no dicen que ella tenga un sexto en esta parte prescrita. Más bien, dijeron que la madre tiene un tercio de lo que queda, y un tercio de lo que queda es un sexto. No quisieron contradecir la redacción del Libro, por lo que afirmaron la redacción del Libro pero se opusieron a su mandato; y eso es engaño y oposición a Allah, Poderoso y Majestuoso, y a Su Libro.",
-              "fa": "الفضل گفت: از دلایل اینکه مادر یک سوم کل مال را دارد این است که همه کسانی که با ما مخالفند، در این سهم مقرر به مادر یک ششم نمی‌دهند. بلکه می‌گویند مادر یک سوم از باقی‌مانده را دارد و یک سوم باقی‌مانده همان یک ششم است. آنها نمی‌خواستند با لفظ کتاب مخالفت کنند، بنابراین لفظ کتاب را ثابت کردند اما با حکم آن مخالفت کردند؛ و این فریب و مخالفت با خداوند متعال و کتاب اوست.",
-              "fr": "Al-Faḍl a dit : Parmi les preuves qu’elle a un tiers de l’ensemble des biens, c’est que tous ceux qui s’opposent à nous ne disent pas qu’elle a un sixième dans cette part prescrite. Au contraire, ils disent que la mère a un tiers de ce qui reste, et un tiers de ce qui reste est un sixième. Ils ne voulaient pas contredire la formulation du Livre, ils ont donc affirmé la formulation du Livre mais ont contredit son jugement ; c’est une tromperie et une opposition à Allah, Tout-Puissant et Majestueux, et à Son Livre.",
-              "id": "Al-Faḍl berkata: Di antara bukti bahwa ibu memiliki sepertiga dari seluruh harta adalah bahwa semua yang menentang kami tidak mengatakan bahwa ibu mendapat seperenam dalam bagian yang ditetapkan ini. Mereka mengatakan ibu mendapat sepertiga dari sisa, dan sepertiga dari sisa adalah seperenam. Mereka tidak ingin menentang lafaz Kitab, jadi mereka menetapkan lafaz Kitab tetapi menentang hukumnya; dan itu adalah penipuan dan penentangan terhadap Allah Yang Maha Perkasa dan Maha Agung serta Kitab-Nya.",
-              "ru": "Аль-Фадль сказал: Среди доказательств того, что ей принадлежит треть всего имущества, то, что все, кто с нами не согласен, не говорят, что ей полагается шестая часть в этой предписанной доле. Вместо этого они говорят, что мать получает треть от оставшегося, а треть от оставшегося — это шестая часть. Они не хотели противоречить формулировке Книги, поэтому подтвердили формулировку Книги, но возразили против её постановления; и это обман и противодействие Аллаху, Всемогущему и Великому, и Его Книге.",
-              "tr": "El-Fazl dedi ki: Ona tüm malın üçte biri verildiğine dair delillerden biri, bize karşı çıkanların bu farz hissede annesine altıda bir vermemeleridir. Onlar annesine kalan kısmın üçte birini verirler ve kalan kısmın üçte biri altıda birdir. Kitabın lafzıyla karşı çıkmak istemediler, bu yüzden kitabın lafzını sabitlediler ama hükmüne karşı çıktılar; bu ise Allah’a Azim ve Yüce’ye ve Kitabına karşı bir aldatma ve muhalefettir.",
-              "ur": "الفضل نے کہا: اس بات کے دلائل میں سے کہ ماں کو تمام مال کا ایک تہائی حصہ ملتا ہے یہ ہے کہ جو لوگ ہم سے اختلاف کرتے ہیں وہ اس فرض حصے میں ماں کو چھٹا حصہ نہیں دیتے۔ بلکہ کہتے ہیں کہ ماں کو جو باقی رہ جائے اس کا ایک تہائی حصہ ملتا ہے اور جو باقی رہ جائے اس کا ایک تہائی حصہ چھٹا حصہ ہوتا ہے۔ وہ کتاب کے الفاظ سے اختلاف نہیں کرنا چاہتے تھے، اس لیے کتاب کے الفاظ کو ثابت کیا لیکن اس کے حکم سے اختلاف کیا؛ اور یہ اللہ تعالیٰ اور اس کی کتاب کے خلاف فریب اور اختلاف ہے۔",
-              "zh": "الفضل说：证明她拥有全部财产三分之一的证据之一是所有反对我们的人都没有说她在这规定的份额中有六分之一。相反，他们说母亲拥有剩余部分的三分之一，而剩余部分的三分之一就是六分之一。他们不愿反对《经书》的措辞，因此确认了《经书》的措辞，但反对其裁决；这就是对真主全能至大及其《经书》的欺骗和反对。"
-            },
             "word_end": 96,
             "word_start": 43
           },
           {
             "arabic_text": "وَكَذَلِكَ مِيرَاثُ الْمَرْأَةِ مَعَ الْأَبَوَيْنِ لِلْمَرْأَةِ الرُّبُعُ وَلِلْأُمِّ الثُّلُثُ وَمَا بَقِيَ فَلِلْأَبِ لِأَنَّ اللَّهَ تَبَارَكَ وَتَعَالَى قَدْ سَمَّى فِي هَذِهِ الْفَرِيضَةِ وَفِي الَّتِي قَبْلَهَا لِلزَّوْجِ النِّصْفَ وَلِلْمَرْأَةِ الرُّبُعَ وَلِلْأُمِّ الثُّلُثَ وَلَمْ يُسَمِّ لِلْأَبِ شَيْئًا إِنَّمَا قَالَ اللَّهُ عَزَّ وَجَلَّ وَوَرِثَهُ أَبَوَاهُ فَلِأُمِّهِ الثُّلُثُ وَجَعَلَ لِلْأَبِ مَا بَقِيَ بَعْدَ ذَهَابِ السِّهَامِ وَإِنَّمَا يَرِثُ الْأَبُ مَا يَبْقَى بَعْدَ ذَهَابِ السِّهَامِ",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "একইভাবে, স্ত্রী ও দুই পিতামাতার উত্তরাধিকার ক্ষেত্রে, স্ত্রীর এক চতুর্থাংশ, মায়ের এক তৃতীয়াংশ এবং যা বাকি থাকে তা পিতার জন্য, কারণ আল্লাহ, মহিমান্বিত ও মহোন্নত, এই নির্ধারিত অংশ এবং এর পূর্ববর্তী অংশে স্বামীর অর্ধেক, স্ত্রীর এক চতুর্থাংশ এবং মায়ের এক তৃতীয়াংশ নির্ধারণ করেছেন, এবং পিতার জন্য কিছু নির্দিষ্ট করেননি। আল্লাহ, মহিমান্বিত ও মহোন্নত বলেছেন: “এবং তার পিতামাতা তার উত্তরাধিকারী, তখন তার মায়ের জন্য এক তৃতীয়াংশ”; এবং পিতাকে বরাদ্দকৃত অংশগুলি নেওয়ার পর যা বাকি থাকে তা দিয়েছেন। পিতা শুধুমাত্র বরাদ্দকৃত অংশগুলি নেওয়ার পর যা বাকি থাকে তা উত্তরাধিকার পায়।",
-              "de": "Ebenso hat die Ehefrau im Erbe zusammen mit den beiden Elternteilen ein Viertel, die Mutter ein Drittel, und was übrig bleibt, gehört dem Vater, denn Allah, der Gesegnete und Erhabene, hat in diesem vorgeschriebenen Anteil und im vorherigen die Hälfte für den Ehemann, ein Viertel für die Ehefrau und ein Drittel für die Mutter festgelegt und nichts für den Vater bestimmt. Allah, der Mächtige und Majestätische, sagte: „Und seine Eltern erben von ihm, dann ist für seine Mutter ein Drittel“; und Er hat dem Vater das zugewiesen, was nach den festgelegten Anteilen übrig bleibt. Der Vater erbt nur das, was nach den festgelegten Anteilen übrig bleibt.",
-              "en": "Likewise, in the inheritance of the wife together with the two parents, the wife has one-fourth, the mother has one-third, and whatever remains belongs to the father, because Allah, Blessed and Exalted, has specified in this prescribed share and in the one before it the husband’s half, the wife’s quarter, and the mother’s third, and He did not specify anything for the father. Allah, Mighty and Majestic, only said: “and his parents inherit from him, then for his mother is one-third”; and He assigned to the father whatever remains after the allotted shares are taken. The father only inherits what remains after the allotted shares are taken.",
-              "es": "De igual manera, en la herencia de la esposa junto con los dos padres, la esposa tiene una cuarta parte, la madre tiene un tercio, y lo que queda pertenece al padre, porque Allah, Bendito y Exaltado, ha especificado en esta porción prescrita y en la anterior la mitad para el esposo, la cuarta parte para la esposa y el tercio para la madre, y no especificó nada para el padre. Allah, Poderoso y Majestuoso, dijo: “y sus padres heredan de él, entonces para su madre es un tercio”; y asignó al padre lo que queda después de tomar las porciones asignadas. El padre solo hereda lo que queda después de tomar las porciones asignadas.",
-              "fa": "به همین ترتیب، در ارث زن همراه با دو والدین، زن یک چهارم، مادر یک سوم و هرچه باقی بماند به پدر تعلق دارد، زیرا خداوند متعال در این سهم مقرر و سهم قبلی، نصف شوهر، یک چهارم زن و یک سوم مادر را مشخص کرده و برای پدر چیزی تعیین نکرده است. خداوند متعال فرموده است: «و پدر و مادرش از او ارث می‌برند، پس برای مادرش یک سوم است»؛ و به پدر آنچه پس از برداشتن سهم‌های مقرر باقی می‌ماند را اختصاص داده است. پدر تنها آنچه پس از برداشتن سهم‌ها باقی می‌ماند را به ارث می‌برد.",
-              "fr": "De même, dans l’héritage de la femme avec les deux parents, la femme a un quart, la mère un tiers, et ce qui reste appartient au père, car Allah, Béni et Exalté, a spécifié dans cette part prescrite et dans celle qui la précède la moitié pour le mari, le quart pour la femme et le tiers pour la mère, et Il n’a rien spécifié pour le père. Allah, Puissant et Majestueux, a dit : « et ses parents héritent de lui, alors pour sa mère un tiers » ; et Il a attribué au père ce qui reste après la prise des parts allouées. Le père hérite seulement de ce qui reste après la prise des parts allouées.",
-              "id": "Demikian pula, dalam warisan istri bersama kedua orang tua, istri mendapat seperempat, ibu mendapat sepertiga, dan sisanya menjadi milik ayah, karena Allah Yang Maha Mulia dan Maha Tinggi telah menetapkan dalam bagian yang diwajibkan ini dan bagian sebelumnya setengah untuk suami, seperempat untuk istri, dan sepertiga untuk ibu, dan Dia tidak menetapkan apa pun untuk ayah. Allah Yang Maha Kuasa dan Maha Agung berfirman: “dan orang tuanya mewarisinya, maka untuk ibunya sepertiga”; dan Dia menetapkan untuk ayah apa pun yang tersisa setelah bagian-bagian yang ditentukan diambil. Ayah hanya mewarisi apa yang tersisa setelah bagian-bagian yang ditentukan diambil.",
-              "ru": "Аналогично, в наследстве жены вместе с двумя родителями, жена получает одну четверть, мать — одну треть, а всё, что остаётся, принадлежит отцу, потому что Аллах, Благословенный и Возвышенный, определил в этой предписанной доле и в предыдущей половину для мужа, четверть для жены и треть для матери, и не указал ничего для отца. Аллах, Могучий и Великий, сказал: «и его родители наследуют от него, тогда для его матери — треть»; и Он назначил отцу то, что остаётся после выделения предписанных долей. Отец наследует только то, что остаётся после выделения предписанных долей.",
-              "tr": "Aynı şekilde, eş ile iki ebeveynin mirasında, eşin dörtte biri, annenin üçte biri vardır ve geriye kalan baba içindir, çünkü Allah, Yüce ve Azametli, bu farz hissede ve ondan önceki hissede kocanın yarısını, eşin dörtte birini ve annenin üçte birini belirlemiştir ve baba için herhangi bir şey belirtmemiştir. Allah, Azametli ve Yüce şöyle buyurmuştur: “Ve onun ebeveynleri ondan mirasçı olurlar, annenin payı üçte birdir”; ve babaya, paylar alındıktan sonra kalan verilmiştir. Baba sadece paylar alındıktan sonra kalan mirası alır.",
-              "ur": "اسی طرح، جب بیوی اور دونوں والدین کی میراث کی بات آتی ہے تو بیوی کو ایک چوتھائی، ماں کو ایک تہائی اور جو کچھ باقی رہ جائے وہ والد کا ہوتا ہے، کیونکہ اللہ تعالیٰ نے اس مقررہ حصہ اور اس سے پہلے والے حصے میں شوہر کا آدھا، بیوی کا ایک چوتھائی اور ماں کا ایک تہائی مقرر فرمایا ہے، اور والد کے لیے کچھ مخصوص نہیں کیا۔ اللہ تعالیٰ نے فرمایا: “اور اس کے والدین اس سے وارث ہیں، پھر اس کی ماں کے لیے ایک تہائی ہے”؛ اور والد کو وہ حصہ دیا جو مقررہ حصوں کے بعد باقی رہ جائے۔ والد صرف وہی وارثت پاتا ہے جو مقررہ حصوں کے بعد باقی رہ جائے۔",
-              "zh": "同样，在妻子与双亲的继承中，妻子得四分之一，母亲得三分之一，剩余归父亲所有，因为安拉至高无上，在此规定份额及之前的份额中指定了丈夫得一半，妻子得四分之一，母亲得三分之一，却未指定父亲任何份额。安拉威严至大说：“他的父母从他那里继承，那么他母亲得三分之一”；并将分配份额后剩余的部分归于父亲。父亲仅继承分配份额后剩余的部分。"
-            },
             "word_end": 154,
             "word_start": 96
           }
@@ -120,58 +68,20 @@
           "narrators": []
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الثُّلُثُ كَامِلًا": "a full one-third share of the estate",
-            "حُكْمَهُ": "its legal ruling or operative judgment",
-            "ذَهَابِ السِّهَامِ": "the deduction of the fixed allotted shares",
-            "لَفْظَ الْكِتَابِ": "the wording of the Qur’anic text",
-            "مِيرَاثُ الْمَرْأَةِ مَعَ الْأَبَوَيْنِ": "the inheritance case involving a wife together with both parents",
-            "هَذِهِ الْفَرِيضَةِ": "this prescribed inheritance allotment"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الثُّلُثُ كَامِلًا",
+          "هَذِهِ الْفَرِيضَةِ",
+          "لَفْظَ الْكِتَابِ",
+          "حُكْمَهُ",
+          "مِيرَاثُ الْمَرْأَةِ مَعَ الْأَبَوَيْنِ",
+          "ذَهَابِ السِّهَامِ"
+        ],
         "related_quran": [
           {
             "ref": "4:11",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহ অনুযায়ী কুরআন ৪:১১ অনুযায়ী উত্তরাধিকার স্বামী, মা এবং পিতার মধ্যে কীভাবে বিভক্ত হয়?",
-          "de": "Wie wird das Erbe gemäß Koran 4:11 im schiitischen Fiqh zwischen Ehepartner, Mutter und Vater aufgeteilt?",
-          "en": "How is inheritance divided between a spouse, mother, and father according to Qur'an 4:11 in Shia fiqh?",
-          "es": "¿Cómo se divide la herencia entre cónyuge, madre y padre según el Corán 4:11 en la jurisprudencia chií?",
-          "fa": "بر اساس فقه شیعه، ارث در قرآن ۴:۱۱ چگونه بین همسر، مادر و پدر تقسیم می‌شود؟",
-          "fr": "Comment l’héritage est-il divisé entre un conjoint, une mère et un père selon le Coran 4:11 en fiqh chiite ?",
-          "id": "Menurut fiqh Syiah, bagaimana pembagian warisan antara suami, ibu, dan ayah menurut Qur'an 4:11?",
-          "ru": "Как согласно шиитскому фикху делится наследство между супругом, матерью и отцом по Корану 4:11?",
-          "tr": "Şii fıkhına göre Kur'an 4:11'de miras eş, anne ve baba arasında nasıl bölünür?",
-          "ur": "شیعہ فقہ کے مطابق قرآن 4:11 میں وارثت شوہر، ماں اور والد کے درمیان کیسے تقسیم ہوتی ہے؟",
-          "zh": "根据什叶派教法，古兰经4:11中配偶、母亲和父亲之间的继承如何分配？"
-        },
-        "summaries": {
-          "bn": "এই অংশটি উত্তরাধিকার আইনগত বিধান ব্যাখ্যা করে যখন একজন মৃত নারী বা পুরুষ তার স্বামী বা স্ত্রী এবং দুইজন পিতামাতাকে রেখে যায়। এটি কুরআন ৪:১১ থেকে যুক্তি দেয় যে, সন্তান ও ভাইবোন না থাকলে মাকে সম্পূর্ণ এক-তৃতীয়াংশ পাওয়া যায়, এবং পিতা নির্ধারিত অংশ বিতরণের পর বাকি অংশ পান।",
-          "de": "Dieser Abschnitt erklärt die gesetzliche Erbregelung, wenn ein verstorbener Mann oder eine verstorbene Frau einen Ehepartner und beide Eltern hinterlässt. Er argumentiert anhand von Koran 4:11, dass die Mutter ein volles Drittel erhält, wenn keine Kinder und Geschwister vorhanden sind, während der Vater den Rest nach der Verteilung der festen Anteile erhält.",
-          "en": "This passage explains the legal ruling of inheritance when a deceased woman or man leaves behind a spouse and both parents. It argues from Qur'an 4:11 that the mother receives a full one-third in the absence of children and siblings, while the father takes the remainder after the fixed shares are distributed.",
-          "es": "Este pasaje explica la regla legal de la herencia cuando un hombre o mujer fallecido deja atrás a un cónyuge y a ambos padres. Argumenta a partir del Corán 4:11 que la madre recibe un tercio completo en ausencia de hijos y hermanos, mientras que el padre toma el resto después de distribuir las partes fijas.",
-          "fa": "این بخش حکم قانونی ارث را توضیح می‌دهد هنگامی که مرد یا زنی متوفی، همسر و هر دو والدین خود را به جا می‌گذارد. از قرآن ۴:۱۱ استدلال می‌کند که مادر در صورت نبود فرزند و خواهر و برادر، یک سوم کامل می‌برد و پدر باقی‌مانده پس از تقسیم سهم‌های معین را می‌برد.",
-          "fr": "Ce passage explique la règle légale de l’héritage lorsqu’un homme ou une femme décédé laisse un conjoint et ses deux parents. Il argumente à partir du Coran 4:11 que la mère reçoit un tiers complet en l’absence d’enfants et de frères et sœurs, tandis que le père prend le reste après la distribution des parts fixes.",
-          "id": "Bagian ini menjelaskan hukum warisan ketika seorang wanita atau pria meninggalkan suami atau istri dan kedua orang tua. Dari Qur'an 4:11 dijelaskan bahwa ibu menerima sepertiga penuh jika tidak ada anak dan saudara, sedangkan ayah menerima sisa setelah bagian tetap dibagikan.",
-          "ru": "Этот отрывок объясняет юридическое правило наследования, когда умерший мужчина или женщина оставляет после себя супруга и обоих родителей. Из Корана 4:11 следует, что мать получает полную треть при отсутствии детей и братьев и сестер, а отец получает остаток после распределения фиксированных долей.",
-          "tr": "Bu pasaj, ölen bir kadın veya erkeğin eşini ve her iki ebeveynini geride bırakması durumunda miras hukukunu açıklar. Kur'an 4:11'den hareketle, çocuk ve kardeş yoksa annenin tam üçte bir pay aldığı, babanın ise sabit paylar dağıtıldıktan sonra kalan kısmı aldığı belirtilir.",
-          "ur": "یہ عبارت وارثت کے قانونی حکم کی وضاحت کرتی ہے جب کوئی مرد یا عورت شوہر یا بیوی اور دونوں والدین کو چھوڑ کر فوت ہو جائے۔ یہ قرآن 4:11 سے دلیل دیتی ہے کہ ماں کو اولاد اور بہن بھائی نہ ہونے کی صورت میں مکمل ایک تہائی حصہ ملتا ہے، جبکہ والد کو مقررہ حصص کے بعد باقی حصہ ملتا ہے۔",
-          "zh": "本段解释了当亡者留下配偶和双亲时的继承法律规定。根据古兰经4:11，若无子女和兄弟姐妹，母亲获得完整三分之一，父亲则在固定份额分配后获得剩余部分。"
-        },
         "tags": [
           "jurisprudence",
           "quran_commentary",

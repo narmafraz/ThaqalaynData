@@ -15,61 +15,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "إِذَا مَاتَ الرَّجُلُ وَتَرَكَ أَبَوَيْهِ فَلِأُمِّهِ الثُّلُثُ وَلِلْأَبِ الثُّلُثَانِ فَإِنْ تَرَكَ أَبَوَيْهِ وَأَخًا أَوْ أُخْتًا فَلِلْأُمِّ الثُّلُثُ وَلِلْأَبِ الثُّلُثَانِ فَإِنْ تَرَكَ أَبَوَيْهِ وَأَخًا وَأُخْتَيْنِ أَوْ أَخَوَيْنِ أَوْ أَرْبَعَ أَخَوَاتٍ لِأَبٍ أَوْ لِأَبٍ وَأُمٍّ فَلِلْأُمِّ السُّدُسُ وَمَا بَقِيَ فَلِلْأَبِ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "যদি একজন পুরুষ মারা যায় এবং তার উভয় পিতা-মাতা রেখে যায়, তাহলে মায়ের জন্য এক-তৃতীয়াংশ এবং বাবার জন্য দুই-তৃতীয়াংশ। যদি সে তার পিতা-মাতা এবং এক ভাই বা এক বোন রেখে যায়, তাহলে মায়ের জন্য এক-তৃতীয়াংশ এবং বাবার জন্য দুই-তৃতীয়াংশ। কিন্তু যদি সে তার পিতা-মাতা এবং এক ভাই ও দুই বোন, অথবা দুই ভাই, অথবা চার বোন পিতার পক্ষ থেকে অথবা পিতা ও মায়ের পক্ষ থেকে রেখে যায়, তাহলে মায়ের জন্য এক-ষষ্ঠাংশ এবং বাকি বাবার জন্য।",
-              "de": "Wenn ein Mann stirbt und beide Eltern hinterlässt, erhält die Mutter ein Drittel und der Vater zwei Drittel. Wenn er seine Eltern und einen Bruder oder eine Schwester hinterlässt, erhält die Mutter ein Drittel und der Vater zwei Drittel. Wenn er jedoch seine Eltern und einen Bruder und zwei Schwestern, oder zwei Brüder, oder vier Schwestern von der väterlichen Seite oder von der väterlichen und mütterlichen Seite hinterlässt, erhält die Mutter ein Sechstel und der Rest gehört dem Vater.",
-              "en": "If a man dies and leaves behind both his parents, then the mother has one-third and the father has two-thirds. If he leaves behind his parents and one brother or one sister, then the mother has one-third and the father has two-thirds. But if he leaves behind his parents and one brother and two sisters, or two brothers, or four sisters from the father's side or from the father's and mother's side, then the mother has one-sixth, and whatever remains belongs to the father.",
-              "es": "Si un hombre muere y deja a ambos padres, la madre recibe un tercio y el padre dos tercios. Si deja a sus padres y a un hermano o una hermana, la madre recibe un tercio y el padre dos tercios. Pero si deja a sus padres y a un hermano y dos hermanas, o dos hermanos, o cuatro hermanas por parte del padre o por parte del padre y la madre, entonces la madre recibe un sexto y lo que queda pertenece al padre.",
-              "fa": "اگر مردی بمیرد و هر دو والدینش را به جا بگذارد، مادر یک سوم و پدر دو سوم ارث می‌برد. اگر او والدین و یک برادر یا یک خواهر به جا بگذارد، مادر یک سوم و پدر دو سوم ارث می‌برد. اما اگر والدین و یک برادر و دو خواهر، یا دو برادر، یا چهار خواهر از طرف پدر یا از طرف پدر و مادر به جا بگذارد، مادر یک ششم می‌برد و باقی‌مانده به پدر می‌رسد.",
-              "fr": "Si un homme meurt en laissant ses deux parents, la mère reçoit un tiers et le père deux tiers. S'il laisse ses parents et un frère ou une sœur, la mère reçoit un tiers et le père deux tiers. Mais s'il laisse ses parents et un frère et deux sœurs, ou deux frères, ou quatre sœurs du côté du père ou du côté du père et de la mère, alors la mère reçoit un sixième, et ce qui reste revient au père.",
-              "id": "Jika seorang pria meninggal dan meninggalkan kedua orang tuanya, maka ibu mendapat sepertiga dan ayah mendapat dua pertiga. Jika dia meninggalkan orang tuanya dan satu saudara laki-laki atau satu saudara perempuan, maka ibu mendapat sepertiga dan ayah mendapat dua pertiga. Namun jika dia meninggalkan orang tuanya dan satu saudara laki-laki serta dua saudara perempuan, atau dua saudara laki-laki, atau empat saudara perempuan dari pihak ayah atau dari pihak ayah dan ibu, maka ibu mendapat seperenam, dan sisanya menjadi milik ayah.",
-              "ru": "Если мужчина умирает и оставляет обоих родителей, мать получает одну треть, а отец — две трети. Если он оставляет родителей и одного брата или одну сестру, мать получает одну треть, а отец — две трети. Но если он оставляет родителей и одного брата и двух сестер, или двух братьев, или четырех сестер со стороны отца или со стороны отца и матери, тогда мать получает одну шестую, а остальное принадлежит отцу.",
-              "tr": "Bir adam ölür ve geride her iki ebeveynini bırakırsa, anne bir üçte bir, baba ise iki üçte iki alır. Eğer geride ebeveynleri ve bir erkek kardeş veya bir kız kardeş bırakırsa, anne bir üçte bir, baba iki üçte iki alır. Ancak eğer geride ebeveynleri ve bir erkek kardeş ile iki kız kardeş, ya da iki erkek kardeş, ya da babanın tarafından ya da hem babanın hem annenin tarafından dört kız kardeş bırakırsa, anne altıda bir alır ve kalan baba içindir.",
-              "ur": "اگر کوئی مرد فوت ہو جائے اور اپنے دونوں والدین چھوڑ جائے تو ماں کو ایک تہائی اور والد کو دو تہائی ملتے ہیں۔ اگر وہ اپنے والدین اور ایک بھائی یا ایک بہن چھوڑ جائے تو ماں کو ایک تہائی اور والد کو دو تہائی ملتے ہیں۔ لیکن اگر وہ اپنے والدین اور ایک بھائی اور دو بہنیں، یا دو بھائی، یا چار بہنیں والد کی طرف سے یا والد اور والدہ دونوں کی طرف سے چھوڑ جائے تو ماں کو ایک چھٹا حصہ ملتا ہے اور جو باقی رہ جاتا ہے وہ والد کا ہوتا ہے۔",
-              "zh": "如果一名男子去世并留下双亲，则母亲得三分之一，父亲得三分之二。如果他留下父母和一兄弟或一姐妹，则母亲得三分之一，父亲得三分之二。但如果他留下父母和一兄弟及两姐妹，或两兄弟，或四姐妹，来自父亲一方或父母双方，则母亲得六分之一，剩余归父亲所有。"
-            },
             "word_end": 38,
             "word_start": 0
           },
           {
             "arabic_text": "لِقَوْلِ اللَّهِ عَزَّ وَجَلَّ ۝ فَإِنْ كَانَ لَهُ إِخْوَةٌ يَعْنِي إِخْوَةً لِأَبٍ أَوْ لِأَبٍ وَأُمٍّ ۝ فَلِأُمِّهِ السُّدُسُ",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "আল্লাহ, জ্বলন্ত ও মহিমান্বিতের কথার কারণে: “কিন্তু যদি তার ভাই থাকে,” অর্থাৎ পিতার পক্ষ থেকে বা পিতা ও মাতার পক্ষ থেকে ভাই থাকে, “তাহলে তার মায়ের জন্য এক ষষ্ঠাংশ।”",
-              "de": "Aufgrund des Wortes Allahs, des Mächtigen und Erhabenen: „Wenn er aber Brüder hat,“ das heißt Brüder vom Vater oder vom Vater und der Mutter, „dann steht seiner Mutter ein Sechstel zu.“",
-              "en": "Because of the saying of Allah, Mighty and Majestic: “But if he has brothers,” meaning brothers from the father's side or from the father's and mother's side, “then for his mother is one-sixth.”",
-              "es": "Por la palabra de Allah, el Poderoso y Majestuoso: “Pero si tiene hermanos,” refiriéndose a hermanos por parte del padre o por parte del padre y la madre, “entonces para su madre es un sexto.”",
-              "fa": "به دلیل کلام خداوند، عزیز و جلیل: «اما اگر برادرانی دارد»، یعنی برادرانی از طرف پدر یا از طرف پدر و مادر، «پس برای مادرش یک ششم است.»",
-              "fr": "En raison de la parole d’Allah, le Puissant et Majestueux : « Mais s’il a des frères, » signifiant des frères du côté du père ou du côté du père et de la mère, « alors pour sa mère c’est un sixième. »",
-              "id": "Karena firman Allah Yang Maha Perkasa dan Maha Agung: “Tetapi jika dia memiliki saudara,” yang berarti saudara dari pihak ayah atau dari pihak ayah dan ibu, “maka untuk ibunya adalah seperenam.”",
-              "ru": "Из-за слов Аллаха, Всемогущего и Великого: «Если же у него есть братья», то есть братья со стороны отца или со стороны отца и матери, «то для его матери — одна шестая.»",
-              "tr": "Allah, Yüce ve Azametli’nin sözü gereği: “Ama eğer kardeşleri varsa,” yani babanın tarafından veya hem babanın hem annenin tarafından kardeşleri varsa, “annesine altıda bir pay vardır.”",
-              "ur": "اللہ تعالیٰ کے فرمان کے سبب: “اگر اس کے بھائی ہوں،” یعنی والد کی طرف سے یا والد اور والدہ دونوں کی طرف سے بھائی ہوں، “تو اس کی ماں کے لیے چھٹا حصہ ہے۔”",
-              "zh": "因真主至高无上的话语：“但如果他有兄弟，”意指父亲一方或父母双方的兄弟，“则其母得六分之一。”"
-            },
             "word_end": 56,
             "word_start": 38
           },
           {
             "arabic_text": "وَإِنَّمَا حَجَبُوا الْأُمَّ عَنِ الثُّلُثِ لِأَنَّهُمْ فِي عِيَالِ الْأَبِ وَعَلَيْهِ نَفَقَتُهُمْ فَيَحْجُبُونَ وَلَا يَرِثُونَ وَمَتَى تَرَكَ أَبَوَيْهِ وَإِخْوَةً وَأَخَوَاتٍ لِأُمٍّ مَا بَلَغُوا لَمْ يَحْجُبُوا الْأُمَّ عَنِ الثُّلُثِ وَلَمْ يَرِثُوا",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তারা শুধুমাত্র মায়ের অংশ এক-তৃতীয়াংশ থেকে কমায় কারণ তারা বাবার আশ্রয়ে এবং তাদের খরচ বাবার উপর; তাই তারা অংশ কমায় কিন্তু উত্তরাধিকারী হয় না। এবং যখনই সে তার পিতা-মাতা এবং মাতৃ পক্ষের ভাই-বোন রেখে যায়, তাদের সংখ্যা যতই হোক, তারা মায়ের অংশ এক-তৃতীয়াংশ থেকে কমায় না এবং উত্তরাধিকারী হয় না।",
-              "de": "Sie verringern den Anteil der Mutter nur von einem Drittel, weil sie zu den Unterhaltsberechtigten des Vaters gehören und ihre Versorgung seine Pflicht ist; daher verringern sie den Anteil, erben aber nicht. Und wann immer er seine Eltern und mütterliche Geschwister hinterlässt, egal wie viele, verringern sie den Anteil der Mutter von einem Drittel nicht und erben nicht.",
-              "en": "They only reduce the mother from one-third because they are among the dependents of the father and their maintenance is upon him; so they reduce the share, but they do not inherit. And whenever he leaves behind his parents and maternal brothers and sisters, no matter how many they are, they do not reduce the mother from one-third, nor do they inherit.",
-              "es": "Solo reducen la parte de la madre de un tercio porque están bajo la dependencia del padre y su manutención es responsabilidad de él; por lo tanto, reducen la parte, pero no heredan. Y cuando deja a sus padres y hermanos y hermanas maternos, sin importar cuántos sean, no reducen la parte de la madre de un tercio ni heredan.",
-              "fa": "آنها فقط سهم مادر را از یک سوم کاهش می‌دهند زیرا آنها تحت تکفل پدر هستند و هزینه‌هایشان بر عهده اوست؛ بنابراین سهم را کاهش می‌دهند اما ارث نمی‌برند. و هرگاه او والدین و برادران و خواهران مادری را به جا بگذارد، هرچند تعدادشان زیاد باشد، سهم مادر را از یک سوم کاهش نمی‌دهند و ارث نمی‌برند.",
-              "fr": "Ils ne réduisent la part de la mère d’un tiers que parce qu’ils sont à la charge du père et que leur entretien lui incombe ; ainsi, ils réduisent la part mais n’héritent pas. Et chaque fois qu’il laisse ses parents et des frères et sœurs maternels, peu importe leur nombre, ils ne réduisent pas la part de la mère d’un tiers et n’héritent pas.",
-              "id": "Mereka hanya mengurangi bagian ibu dari sepertiga karena mereka termasuk tanggungan ayah dan pemeliharaan mereka menjadi tanggung jawabnya; jadi mereka mengurangi bagian tersebut tetapi tidak mewarisi. Dan kapan pun dia meninggalkan orang tuanya dan saudara-saudara dari pihak ibu, berapapun jumlahnya, mereka tidak mengurangi bagian ibu dari sepertiga dan tidak mewarisi.",
-              "ru": "Они лишь уменьшают долю матери с одной трети, потому что они находятся на иждивении отца, и его обязанность их содержать; поэтому они уменьшают долю, но не наследуют. И когда он оставляет родителей и братьев и сестер по матери, сколько бы их ни было, они не уменьшают долю матери с одной трети и не наследуют.",
-              "tr": "Onlar sadece anneden bir üçte bir payı azaltırlar çünkü onlar babanın bakımı altındadır ve geçimleri onun üzerindedir; bu yüzden payı azaltırlar ama mirasçı olmazlar. Ve kişi ebeveynlerini ve anne tarafından kardeşlerini bıraktığında, sayıları ne olursa olsun, anneden bir üçte bir payı azaltmazlar ve mirasçı olmazlar.",
-              "ur": "وہ صرف ماں کے حصے کو ایک تہائی سے کم کرتے ہیں کیونکہ وہ والد کے زیر کفالت ہیں اور ان کی کفالت اس پر واجب ہے؛ اس لیے وہ حصے کو کم کرتے ہیں لیکن وارث نہیں ہوتے۔ اور جب بھی وہ اپنے والدین اور مائیں کے بھائی بہن چھوڑتا ہے، چاہے وہ کتنے بھی ہوں، وہ ماں کے حصے کو ایک تہائی سے کم نہیں کرتے اور نہ ہی وارث ہوتے ہیں۔",
-              "zh": "他们仅仅减少母亲的三分之一份额，因为他们是父亲的赡养人，赡养责任在父亲；因此他们减少份额，但不继承。无论他留下多少母亲一方的兄弟姐妹，都不减少母亲的三分之一份额，也不继承。"
-            },
             "word_end": 85,
             "word_start": 56
           }
@@ -81,60 +55,22 @@
           "narrators": []
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِخْوَةً وَأَخَوَاتٍ لِأُمٍّ": "maternal siblings, who here neither reduce the mother's share nor inherit",
-            "إِخْوَةٌ لِأَبٍ": "siblings related through the father whose presence affects the mother's share",
-            "الثُّلُثَانِ": "two-thirds share of the estate",
-            "الثُّلُثُ": "one-third share of the estate",
-            "السُّدُسُ": "one-sixth share of the estate",
-            "حَجَبُوا الْأُمَّ": "they reduced or blocked the mother from the larger share",
-            "لِأَبٍ وَأُمٍّ": "full siblings related through both father and mother",
-            "نَفَقَتُهُمْ": "their financial maintenance"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الثُّلُثُ",
+          "الثُّلُثَانِ",
+          "السُّدُسُ",
+          "إِخْوَةٌ لِأَبٍ",
+          "لِأَبٍ وَأُمٍّ",
+          "حَجَبُوا الْأُمَّ",
+          "نَفَقَتُهُمْ",
+          "إِخْوَةً وَأَخَوَاتٍ لِأُمٍّ"
+        ],
         "related_quran": [
           {
             "ref": "4:11",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে কখন ভাইবোনরা মায়ের উত্তরাধিকারী অংশ এক-তৃতীয়াংশ থেকে এক-ষষ্ঠাংশে কমায়?",
-          "de": "Wann reduzieren Geschwister im schiitischen Fiqh den Erbanteil der Mutter von einem Drittel auf ein Sechstel?",
-          "en": "When do siblings reduce the mother's inheritance share from one-third to one-sixth in Shia fiqh?",
-          "es": "¿Cuándo los hermanos reducen la parte de herencia de la madre de un tercio a un sexto en la fiqh chií?",
-          "fa": "در فقه شیعه، چه زمانی برادران و خواهران سهم ارث مادر را از یک سوم به یک ششم کاهش می‌دهند؟",
-          "fr": "Quand les frères et sœurs réduisent-ils la part d’héritage de la mère d’un tiers à un sixième en fiqh chiite ?",
-          "id": "Kapan saudara mengurangi bagian warisan ibu dari sepertiga menjadi seperenam dalam fikih Syiah?",
-          "ru": "Когда братья и сестры уменьшают долю наследства матери с одной трети до одной шестой в шиитском фикхе?",
-          "tr": "Şii fıkhında kardeşler annenin miras payını ne zaman üçte birden altıda bire düşürür?",
-          "ur": "شیعہ فقہ میں بھائی بہن کب ماں کے وراثتی حصے کو ایک تہائی سے ایک چھٹے تک کم کرتے ہیں؟",
-          "zh": "在什叶派教法中，兄弟姐妹何时将母亲的继承份额从三分之一减少到六分之一？"
-        },
-        "summaries": {
-          "bn": "এই প্রতিবেদনটি বর্ণনা করে যে যখন মৃত ব্যক্তি কিছু নির্দিষ্ট ভাইবোন রেখে যায় তখন পিতামাতার উত্তরাধিকারী অংশ কী হবে। এটি ব্যাখ্যা করে যে পিতৃ পক্ষের বা পূর্ণ ভাইবোনরা মায়ের অংশ এক-তৃতীয়াংশ থেকে এক-ষষ্ঠাংশে কমাতে পারে, যেখানে মাতৃ পক্ষের ভাইবোনরা তার অংশ কমায় না এবং এই ক্ষেত্রে তারা উত্তরাধিকারী হয় না।",
-          "de": "Dieser Bericht legt die Erbanteile der Eltern fest, wenn der Verstorbene auch bestimmte Geschwister hinterlässt. Er erklärt, dass väterliche oder volle Geschwister den Anteil der Mutter von einem Drittel auf ein Sechstel reduzieren können, während mütterliche Geschwister ihren Anteil nicht reduzieren und in diesem Fall nicht erben.",
-          "en": "This report sets out the inheritance shares of the parents when the deceased also leaves certain siblings. It explains that paternal or full siblings can reduce the mother's share from one-third to one-sixth, while maternal siblings do not reduce her share and do not inherit in this case.",
-          "es": "Este informe establece las partes de herencia de los padres cuando el fallecido también deja ciertos hermanos. Explica que los hermanos paternos o completos pueden reducir la parte de la madre de un tercio a un sexto, mientras que los hermanos maternos no reducen su parte y no heredan en este caso.",
-          "fa": "این گزارش سهم ارث والدین را زمانی که متوفی برخی از برادران و خواهران را نیز به جا می‌گذارد، بیان می‌کند. توضیح می‌دهد که برادران و خواهران پدری یا کامل می‌توانند سهم مادر را از یک سوم به یک ششم کاهش دهند، در حالی که برادران و خواهران مادری سهم او را کاهش نمی‌دهند و در این حالت ارث نمی‌برند.",
-          "fr": "Ce rapport expose les parts d’héritage des parents lorsque le défunt laisse également certains frères et sœurs. Il explique que les frères et sœurs paternels ou complets peuvent réduire la part de la mère d’un tiers à un sixième, tandis que les frères et sœurs maternels ne réduisent pas sa part et n’héritent pas dans ce cas.",
-          "id": "Laporan ini menjelaskan bagian warisan orang tua ketika almarhum juga meninggalkan saudara tertentu. Dijelaskan bahwa saudara dari pihak ayah atau saudara kandung dapat mengurangi bagian ibu dari sepertiga menjadi seperenam, sedangkan saudara dari pihak ibu tidak mengurangi bagian tersebut dan tidak mewarisi dalam kasus ini.",
-          "ru": "В этом отчёте изложены доли наследства родителей, когда умерший также оставляет определённых братьев и сестёр. Объясняется, что братья и сёстры по отцу или полнородные могут уменьшить долю матери с одной трети до одной шестой, тогда как братья и сёстры по матери не уменьшают её долю и в этом случае не наследуют.",
-          "tr": "Bu rapor, ölen kişinin belirli kardeşleri bıraktığında ebeveynlerin miras paylarını açıklar. Babadan veya tam kardeşlerin annenin payını üçte birden altıda bire düşürebileceğini, anne tarafından olan kardeşlerin ise payı azaltmadığını ve mirasçı olmadığını belirtir.",
-          "ur": "یہ رپورٹ والدین کے وراثتی حصص کو بیان کرتی ہے جب مرحوم کچھ بھائی بہن بھی چھوڑ جائے۔ یہ وضاحت کرتی ہے کہ پدری یا مکمل بھائی بہن ماں کے حصے کو ایک تہائی سے ایک چھٹے تک کم کر سکتے ہیں، جبکہ مادری بھائی بہن اس حصے کو کم نہیں کرتے اور اس صورت میں وارث نہیں ہوتے۔",
-          "zh": "本报告阐述了当亡者留下某些兄弟姐妹时父母的继承份额。说明了父系或全血兄弟姐妹可以将母亲的份额从三分之一减少到六分之一，而母系兄弟姐妹则不减少其份额且在此情况下不继承。"
-        },
         "tags": [
           "jurisprudence",
           "family",

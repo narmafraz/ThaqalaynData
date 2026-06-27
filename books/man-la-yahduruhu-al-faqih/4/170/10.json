@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "٥٧٢٥ - وَرَوَى الْحَسَنُ بْنُ مَحْبُوبٍ عَنْ أَبِي وَلَّادٍ الْحَنَّاطِ قَالَ سَمِعْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ يَقُولُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "৫৭২৫ - আল-হাসান ইবনে মাহবুব আবু ওয়ালাদ আল-হান্নাত থেকে বর্ণনা করেছেন, যিনি বললেন: আমি আবু আবদুল্লাহ عليه السلام কে বলতে শুনেছি:",
-              "de": "5725 - Al-Hasan ibn Mahbub berichtete von Abu Walad al-Hannat, der sagte: Ich hörte Abu Abdullah عليه السلام sagen:",
-              "en": "5725 - Al-Hasan ibn Mahbub narrated from Abu Walad al-Hannat, who said: I heard Abu Abdullah عليه السلام say:",
-              "es": "5725 - Al-Hasan ibn Mahbub narró de Abu Walad al-Hannat, quien dijo: Escuché a Abu Abdullah عليه السلام decir:",
-              "fa": "۵۷۲۵ - الحسن بن محبوب از ابو ولاد الحنّاط روایت کرده است که گفت: شنیدم ابو عبدالله علیه السلام می‌فرمود:",
-              "fr": "5725 - Al-Hasan ibn Mahbub a rapporté d'Abu Walad al-Hannat, qui a dit : J'ai entendu Abu Abdullah عليه السلام dire :",
-              "id": "5725 - Al-Hasan ibn Mahbub meriwayat dari Abu Walad al-Hannat, yang berkata: Aku mendengar Abu Abdullah علیه السلام berkata:",
-              "ru": "5725 - Аль-Хасан ибн Махбуб передал от Абу Валад аль-Ханната, который сказал: Я слышал, как Абу Абдуллах عليه السلام сказал:",
-              "tr": "5725 - El-Hasan ibn Mahbub, Ebu Velad el-Hannat'tan rivayet etti, dedi ki: Ben Ebu Abdullah'a علیه السلام şöyle derken işittim:",
-              "ur": "5725 - الحسن ابن محبوب نے ابو ولد الحنّاط سے روایت کی، جنہوں نے کہا: میں نے ابو عبداللہ علیہ السلام کو کہتے سنا:",
-              "zh": "5725-哈桑伊本马胡布从阿布瓦拉德哈纳特传述，他说：我听见阿布阿卜杜拉 عليه السلام 说："
-            },
             "word_end": 18,
             "word_start": 0
           },
           {
             "arabic_text": "«الْمُسْلِمُ يَرِثُ امْرَأَتَهُ الذِّمِّيَّةَ وَهِيَ لَا تَرِثُهُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন মুসলিম তার ধিম্মি স্ত্রী থেকে উত্তরাধিকার পায়, কিন্তু সে তার থেকে উত্তরাধিকার পায় না।",
-              "de": "Ein Muslim erbt von seiner dhimmi Ehefrau, während sie nicht von ihm erbt.",
-              "en": "\"A Muslim inherits from his dhimmi wife, while she does not inherit from him.\"",
-              "es": "Un musulmán hereda de su esposa dhimmi, mientras que ella no hereda de él.",
-              "fa": "یک مسلمان از همسر ذمی خود ارث می‌برد، در حالی که او از او ارث نمی‌برد.",
-              "fr": "Un musulman hérite de sa femme dhimmi, tandis qu'elle n'hérite pas de lui.",
-              "id": "Seorang Muslim mewarisi dari istri dhimmi-nya, sedangkan dia tidak mewarisi darinya.",
-              "ru": "Мусульманин наследует от своей жены-дхимми, в то время как она не наследует от него.",
-              "tr": "Bir Müslüman, dhimmi olan eşinden miras alır, o ise ondan miras almaz.",
-              "ur": "ایک مسلمان اپنے ذمی بیوی سے وارثت پاتا ہے، جبکہ وہ اس سے وارثت نہیں پاتی۔",
-              "zh": "穆斯林继承其dhimmi妻子的遗产，而她不继承他的遗产。"
-            },
             "word_end": 25,
             "word_start": 18
           }
@@ -91,23 +78,11 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْمُسْلِمُ": "the Muslim; here, the Muslim husband as the inheriting party",
-            "امْرَأَتَهُ الذِّمِّيَّةَ": "his dhimmi wife, meaning a non-Muslim wife living under Islamic protection",
-            "يَرِثُ": "inherits; receives a share of an estate by legal right"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمُسْلِمُ",
+          "امْرَأَتَهُ الذِّمِّيَّةَ",
+          "يَرِثُ"
+        ],
         "related_quran": [
           {
             "ref": "4:141",
@@ -118,32 +93,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে কি একজন মুসলিম স্বামী তার অবিশ্বাসী ধিম্মি স্ত্রী থেকে উত্তরাধিকার পায়?",
-          "de": "Erbt ein muslimischer Ehemann von seiner nicht-muslimischen dhimmi Ehefrau im schiitischen Fiqh?",
-          "en": "Does a Muslim husband inherit from his non-Muslim dhimmi wife in Shia fiqh?",
-          "es": "¿Hereda un esposo musulmán de su esposa dhimmi no musulmana en la jurisprudencia chií?",
-          "fa": "آیا در فقه شیعه شوهر مسلمان از همسر غیرمسلمان ذمی خود ارث می‌برد؟",
-          "fr": "Un mari musulman hérite-t-il de sa femme dhimmi non musulmane en fiqh chiite ?",
-          "id": "Apakah suami Muslim mewarisi dari istri dhimmi non-Muslim dalam fikih Syiah?",
-          "ru": "Наследует ли мусульманин-муж от своей немусульманской жены-дхимми в шиизме?",
-          "tr": "Şii fıkhında bir Müslüman koca, gayrimüslim dhimmi eşinden miras alır mı?",
-          "ur": "کیا شیعہ فقہ میں مسلمان شوہر اپنی غیر مسلم ذمی بیوی سے وارثت پاتا ہے؟",
-          "zh": "在什叶派教法中，穆斯林丈夫是否继承其非穆斯林dhimmi妻子的遗产？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বিভিন্ন ধর্মের দম্পতিদের মধ্যে উত্তরাধিকার সংক্রান্ত আইনি বিধান প্রদান করে। এতে বলা হয়েছে যে একজন মুসলিম স্বামী তার ধিম্মি স্ত্রী থেকে উত্তরাধিকার পায়, কিন্তু সে তার থেকে উত্তরাধিকার পায় না।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung zur Erbschaft zwischen Ehepartnern unterschiedlicher Religionen. Er besagt, dass ein muslimischer Ehemann von seiner dhimmi Ehefrau erbt, sie jedoch nicht von ihm.",
-          "en": "This hadith gives a legal ruling on inheritance between spouses of different religions. It states that a Muslim husband inherits from his dhimmi wife, but she does not inherit from him.",
-          "es": "Este hadiz da una regla legal sobre la herencia entre cónyuges de diferentes religiones. Establece que un esposo musulmán hereda de su esposa dhimmi, pero ella no hereda de él.",
-          "fa": "این حدیث حکم شرعی ارث بین همسران با ادیان مختلف را بیان می‌کند. بیان می‌دارد که شوهر مسلمان از همسر ذمی خود ارث می‌برد، اما او از او ارث نمی‌برد.",
-          "fr": "Ce hadith donne une règle juridique sur l'héritage entre époux de religions différentes. Il stipule qu'un mari musulman hérite de sa femme dhimmi, tandis qu'elle n'hérite pas de lui.",
-          "id": "Hadis ini memberikan hukum waris antara suami istri dari agama berbeda. Disebutkan bahwa suami Muslim mewarisi dari istri dhimmi-nya, tetapi dia tidak mewarisi darinya.",
-          "ru": "Этот хадис даёт правовое постановление о наследовании между супругами разных религий. В нём говорится, что мусульманин-муж наследует от своей жены-дхимми, а она не наследует от него.",
-          "tr": "Bu hadis, farklı dinlere mensup eşler arasındaki miras hukuku hakkında hüküm verir. Müslüman koca, dhimmi eşinden miras alır, ancak eş ondan miras almaz.",
-          "ur": "یہ حدیث مختلف مذاہب کے میاں بیوی کے درمیان وراثت کے قانونی حکم کو بیان کرتی ہے۔ اس میں کہا گیا ہے کہ مسلمان شوہر اپنی ذمی بیوی سے وارثت پاتا ہے، لیکن وہ اس سے وارثت نہیں پاتی۔",
-          "zh": "此圣训对不同宗教配偶间的继承法律作出裁定。指出穆斯林丈夫继承其dhimmi妻子的遗产，而她不继承他的遗产。"
-        },
         "tags": [
           "jurisprudence",
           "family",

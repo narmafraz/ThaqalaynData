@@ -13,6 +13,144 @@
       "up": "/books/al-kafi:5:2:88"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "أَبُو عَلِيٍّ الْأَشْعَرِيُّ عَنْ مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ عَنْ بَعْضِ أَصْحَابِنَا عَنْ مَرْوَكِ بْنِ عُبَيْدٍ عَمَّنْ ذَكَرَهُ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) أَنَّهُ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 27,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "فِي الْجَيِّدِ دَعْوَتَانِ وَ فِي الرَّدِيِّ دَعْوَتَانِ يُقَالُ لِصَاحِبِ الْجَيِّدِ بَارَكَ اللَّهُ فِيكَ وَ فِيمَنْ بَاعَكَ وَ يُقَالُ لِصَاحِبِ الرَّدِيِّ لَا بَارَكَ اللَّهُ فِيكَ وَ لَا فِيمَنْ بَاعَكَ",
+            "chunk_type": "body",
+            "word_end": 55,
+            "word_start": 27
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 19,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبُو عَلِيٍّ الْأَشْعَرِيُّ",
+              "name_en": "Abu Ali al-Ash'ari",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 24,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ",
+              "name_en": "Muhammad b. Abd al-Jabbar",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 36,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "بَعْضِ أَصْحَابِنَا",
+              "name_en": "some of our companions",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": null,
+              "identity_confidence": "ambiguous",
+              "known_identity": null,
+              "name_ar": "مَرْوَكِ بْنِ عُبَيْدٍ عَمَّنْ ذَكَرَهُ",
+              "name_en": "Marwak b. 'Ubayd",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام ) أَنَّهُ",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "بَارَكَ اللَّهُ فِيكَ",
+            "phrase_en": "May Allah bless you"
+          }
+        ],
+        "key_terms_keys": [
+          "الْجَيِّدِ",
+          "الرَّدِيِّ",
+          "دَعْوَتَانِ",
+          "بَارَكَ اللَّهُ",
+          "صَاحِبِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:282",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "61:10",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:188",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "62:10",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "economy",
+          "social_relations"
+        ],
+        "topics": [
+          "trade_ethics",
+          "etiquette",
+          "specific_supplications"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مرسل   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (9/222)"
       ],
@@ -83,7 +221,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:2:88:1",

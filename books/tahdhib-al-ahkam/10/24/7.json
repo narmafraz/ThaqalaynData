@@ -16,99 +16,47 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَلِيٌّ عَنْ أَبِيهِ عَنِ ٱبْنِ فَضَّالٍ عَنْ سُلَيْمَانَ ٱلدَّهَّانِ عَنْ رِفَاعَةَ عَنْ أَبِي عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী, তাঁর পিতা থেকে, ইবন ফাদ্দাল থেকে, সুলাইমান আল-দাহহান থেকে, রিফাআহ থেকে, আবু আবদিল্লাহ عليه السلام থেকে, যিনি বলেছেন:",
-              "de": "ʿAlī, von seinem Vater, von Ibn Faḍḍāl, von Sulaymān al-Dahhān, von Rifāʿah, von Abī ʿAbdillāh عليه السلام, der sagte:",
-              "en": "ʿAlī, from his father, from Ibn Faḍḍāl, from Sulaymān al-Dahhān, from Rifāʿah, from Abī ʿAbdillāh عليه السلام, who said:",
-              "es": "ʿAlī, de su padre, de Ibn Faḍḍāl, de Sulaymān al-Dahhān, de Rifāʿah, de Abī ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "علی، از پدرش، از ابن فضّال، از سلیمان الدهّان، از رفاعه، از ابی‌عبدالله علیه‌السلام، که فرمود:",
-              "fr": "ʿAlī, de son père, d’Ibn Faḍḍāl, de Sulaymān al-Dahhān, de Rifāʿah, d’Abī ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "ʿAlī, dari ayahnya, dari Ibn Faḍḍāl, dari Sulaymān al-Dahhān, dari Rifāʿah, dari Abī ʿAbdillāh عليه السلام, yang berkata:",
-              "ru": "ʿАли, от своего отца, от Ибн Фаддаля, от Сулеймана аль-Даххана, от Рифаʿи, от Аби ʿАбдуллаха عليه السلام, который сказал:",
-              "tr": "Ali, babasından, İbn Faḍḍāl’dan, Süleyman al-Dahhān’dan, Rifāʿah’tan, Ebî ʿAbdillâh عليه السلام’dan rivayet etti ki, şöyle dedi:",
-              "ur": "علی، اپنے والد سے، ابن فضّال سے، سلیمان الدہّان سے، رفاعہ سے، ابو عبد اللہ علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "阿里，传自其父，传自伊本法达尔，传自苏莱曼·阿尔达哈恩，传自里法阿，传自阿比·阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 18,
             "word_start": 0
           },
           {
             "arabic_text": "«إِنَّ عُمَرَ أَتَاهُ رَجُلٌ مِنْ قَيْسٍ بِمَوْلًى لَهُ قَدْ لَطَمَ عَيْنَهُ فَأَنْزَلَ ٱلْمَاءَ فِيهَا وَهِيَ قَائِمَةٌ لَمْ يُبْصِرْ بِهَا شَيْئًا، فَقَالَ لَهُ: أُعْطِيكَ ٱلدِّيَةَ، فَأَبَى».",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "“উমরের কাছে কাইসের এক ব্যক্তি তার এক মাওলা-সহ এসেছিল, যে তার চোখে আঘাত করেছিল; ফলে তাতে পানি নেমে এসেছিল, যদিও চোখটি নিজের জায়গায় স্থির ছিল, কিন্তু সে তা দিয়ে কিছুই দেখতে পাচ্ছিল না। তখন সে তাকে বলল: ‘আমি তোমাকে দিয়াহ দেব,’ কিন্তু সে অস্বীকার করল।”",
-              "de": "„ʿUmar wurde von einem Mann aus Qays mit einem seiner mawlā aufgesucht, der sein Auge geschlagen hatte, sodass Flüssigkeit hineingelaufen war, während es an seinem Platz blieb, er aber damit nichts sehen konnte. Da sagte er zu ihm: ‚Ich werde dir die diyah geben‘, doch er lehnte ab.“",
-              "en": "“ʿUmar was approached by a man from Qays with a mawlā of his who had struck his eye, causing fluid to descend into it while it remained standing, yet he could not see anything with it. So he said to him: ‘I will give you the diyah,’ but he refused.”",
-              "es": "“ʿUmar fue abordado por un hombre de Qays con un mawlā suyo que había golpeado su ojo, haciendo que el líquido descendiera en él mientras seguía en su sitio, pero no podía ver nada con él. Entonces le dijo: ‘Te daré la diyah’, pero él se negó.”",
-              "fa": "«عمر را مردی از قیس با مولایی از خود نزد او آوردند که بر چشمش زده بود، پس آب در آن فرو رفته بود در حالی که چشم در جای خود باقی بود، اما با آن هیچ چیز نمی‌دید. پس به او گفت: ‘دیه‌ات را به تو می‌دهم،’ ولی او نپذیرفت.»",
-              "fr": "« ʿUmar fut abordé par un homme de Qays avec un mawlā à lui qui avait frappé son œil, faisant descendre du liquide en son intérieur alors qu’il restait en place, mais il ne pouvait rien voir avec. Alors il lui dit : “Je te donnerai la diyah”, mais il refusa. »",
-              "id": "“ʿUmar didatangi seorang laki-laki dari Qays bersama seorang mawlā miliknya yang telah memukul matanya, sehingga cairan masuk ke dalamnya sementara matanya tetap pada tempatnya, namun ia tidak dapat melihat apa pun dengannya. Maka ia berkata kepadanya: ‘Aku akan memberimu diyah,’ tetapi ia menolak.”",
-              "ru": "«К ʿУмару пришёл человек из Кайса со своим мауля, который ударил его по глазу, и в него вошла жидкость, хотя глаз оставался на месте, но он ничего им не видел. Тогда он сказал ему: “Я дам тебе дийю”, но тот отказался.»",
-              "tr": "“ʿUmar’ın yanına, Kays’tan bir adam, kendisine ait bir mevlâ ile geldi; o, onun gözüne vurmuş, göz yerinde durduğu hâlde içine sıvı inmişti ve onunla hiçbir şey göremiyordu. Bunun üzerine ona: ‘Sana diyeyi vereceğim,’ dedi; fakat o kabul etmedi.”",
-              "ur": "“عمر کے پاس قیس کا ایک آدمی اپنے ایک مولا کے ساتھ آیا تھا جس نے اس کی آنکھ پر ضرب لگائی تھی، جس سے اس میں پانی اتر آیا جبکہ وہ اپنی جگہ قائم رہی، مگر وہ اس سے کچھ بھی نہ دیکھ سکا۔ تو اس نے اس سے کہا: ‘میں تمہیں دیت دوں گا،’ مگر اس نے انکار کر دیا۔”",
-              "zh": "“欧麦尔面前来了一个来自盖斯部族的人，带着他的一个毛拉，此人打伤了他的眼睛，使液体流入其中，而眼睛仍然完好地在原处，但他已经什么也看不见了。于是他说：‘我给你赔偿金（diyah），’但他拒绝了。”"
-            },
             "word_end": 43,
             "word_start": 18
           },
           {
             "arabic_text": "قَالَ: «فَأَرْسَلَ بِهِمَا إِلَى عَلِيٍّ عَلَيْهِ ٱلسَّلَامُ وَقَالَ: ٱحْكُمْ بَيْنَ هَذَيْنِ. فَأَعْطَاهُ ٱلدِّيَةَ فَأَبَى». قَالَ: «فَلَمْ يَزَالُوا يُعْطُونَهُ حَتَّى أَعْطَوْهُ دِيَتَيْنِ». قَالَ: «فَقَالَ: لَيْسَ أُرِيدُ إِلَّا ٱلْقِصَاصَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বলেন: “তখন তিনি উভয়কে আলী عليه السلام-এর কাছে পাঠালেন এবং বললেন: ‘এই দুজনের মধ্যে বিচার করুন।’ তখন তিনি তাকে দিয়াহ প্রস্তাব করলেন, কিন্তু সে অস্বীকার করল।” তিনি বলেন: “তারপর তারা তাকে দিতে থাকল, এমনকি তারা তাকে দুই দিয়াহ প্রস্তাব করল।” তিনি বলেন: “তখন সে বলল: ‘আমি কেবল কিসাসই চাই।’”",
-              "de": "Er sagte: „Dann schickte er beide zu ʿAlī عليه السلام und sagte: ‚Richte zwischen diesen beiden.‘ So bot er ihm die diyah an, doch er lehnte ab.“ Er sagte: „Dann boten sie es ihm weiter an, bis sie ihm zwei diyahs anboten.“ Er sagte: „Dann sagte er: ‚Ich will nichts außer qiṣāṣ.‘“",
-              "en": "He said: “So he sent them both to ʿAlī عليه السلام and said: ‘Judge between these two.’ So he offered him the diyah, but he refused.” He said: “They continued offering him more until they offered him two diyahs.” He said: “Then he said: ‘I want nothing but qiṣāṣ.’”",
-              "es": "Él dijo: “Entonces los envió a ambos a ʿAlī عليه السلام y dijo: ‘Juzga entre estos dos.’ Así que le ofreció la diyah, pero él se negó.” Dijo: “Siguieron ofreciéndosela hasta que le ofrecieron dos diyahs.” Dijo: “Entonces dijo: ‘No quiero sino qiṣāṣ.’”",
-              "fa": "او گفت: «پس هر دو را نزد علی علیه‌السلام فرستاد و گفت: ‘میان این دو داوری کن.’ پس دیه را به او پیشنهاد کرد، ولی او نپذیرفت.» او گفت: «پس همچنان به او می‌دادند تا آنکه دو دیه به او پیشنهاد کردند.» او گفت: «آنگاه گفت: ‘من جز قصاص چیزی نمی‌خواهم.’»",
-              "fr": "Il dit : « Alors il les envoya tous deux à ʿAlī عليه السلام et dit : “Juge entre ces deux-là.” Il lui offrit donc la diyah, mais il refusa. » Il dit : « Ils continuèrent à lui en offrir jusqu’à ce qu’ils lui en offrent deux diyahs. » Il dit : « Alors il dit : “Je ne veux rien d’autre que le qiṣāṣ.” »",
-              "id": "Ia berkata: “Maka ia mengirim keduanya kepada ʿAlī عليه السلام dan berkata: ‘Putuskanlah di antara dua orang ini.’ Lalu ia menawarkan diyah kepadanya, tetapi ia menolak.” Ia berkata: “Mereka terus menawarkannya hingga mereka menawarkannya dua diyah.” Ia berkata: “Kemudian ia berkata: ‘Aku tidak menginginkan apa pun selain qiṣāṣ.’”",
-              "ru": "Он сказал: «Тогда он отправил их обоих к ʿАли عليه السلام и сказал: “Рассуди между этими двумя.” И он предложил ему дийю, но тот отказался». Он сказал: «Тогда они продолжали предлагать ему, пока не предложили ему две дийи». Он сказал: «Тогда он сказал: “Я не хочу ничего, кроме кисаса.”»",
-              "tr": "O dedi ki: “Bunun üzerine ikisini de ʿAlī عليه السلام’a gönderdi ve: ‘Bu ikisi arasında hükmet,’ dedi. Böylece ona diyeyi teklif etti, fakat o kabul etmedi.” O dedi ki: “Sonra ona vermeye devam ettiler, ta ki ona iki diyye teklif edene kadar.” O dedi ki: “Sonra şöyle dedi: ‘Ben yalnızca qiṣāṣ istiyorum.’”",
-              "ur": "اس نے کہا: “پس اس نے ان دونوں کو علی علیہ السلام کے پاس بھیج دیا اور کہا: ‘ان دونوں کے درمیان فیصلہ کرو۔’ چنانچہ انہوں نے اسے دیت پیش کی، مگر اس نے انکار کر دیا۔” اس نے کہا: “پھر وہ اسے دیتے رہے یہاں تک کہ انہوں نے اسے دو دیتیں پیش کر دیں۔” اس نے کہا: “پھر اس نے کہا: ‘میں قصاص کے سوا کچھ نہیں چاہتا۔’”",
-              "zh": "他说：“于是他把两人都送到阿里 عليه السلام那里，并说：‘请在这两人之间裁决。’于是他向他提出赔偿金（diyah），但他拒绝了。”他说：“他们不断向他提出，直到给他提出两份赔偿金。”他说：“然后他说：‘我只要报复刑（qiṣāṣ）。’”"
-            },
             "word_end": 70,
             "word_start": 43
           },
           {
             "arabic_text": "قَالَ: «فَدَعَا عَلِيٌّ عَلَيْهِ ٱلسَّلَامُ بِمِرْآةٍ فَحَمَاهَا، ثُمَّ دَعَا بِكُرْسُفٍ فَبَلَّهُ، ثُمَّ جَعَلَهُ عَلَى أَشْفَارِ عَيْنَيْهِ عَلَى حَوَالَيْهَا، ثُمَّ ٱسْتَقْبَلَ بِعَيْنَيْهِ عَيْنَ ٱلشَّمْسِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বলেন: “তারপর আলী عليه السلام একটি আয়না আনতে বললেন এবং তা গরম করলেন। তারপর তুলা আনতে বললেন এবং তা ভিজিয়ে দিলেন। তারপর তা তার চোখের পাতার কিনারায় এবং চারপাশে রাখলেন। তারপর তিনি নিজের চোখ দিয়ে সরাসরি সূর্যের দিকে মুখ করলেন।”",
-              "de": "Er sagte: „Dann ließ ʿAlī عليه السلام einen Spiegel bringen und erhitzte ihn. Dann ließ er Baumwolle bringen und befeuchtete sie. Dann legte er sie an die Ränder seiner Augen und ringsum. Dann richtete er seine Augen direkt zur Sonne.“",
-              "en": "He said: “Then ʿAlī عليه السلام called for a mirror and heated it. Then he called for cotton and moistened it. Then he placed it upon the edges of his eyes and around them. Then he faced the sun directly with his eyes.”",
-              "es": "Dijo: “Entonces ʿAlī عليه السلام pidió un espejo y lo calentó. Luego pidió algodón y lo humedeció. Después lo colocó sobre los bordes de sus ojos y alrededor de ellos. Luego enfrentó sus ojos directamente al sol.”",
-              "fa": "او گفت: «پس علی علیه‌السلام آینه‌ای خواست و آن را گرم کرد. سپس پنبه‌ای خواست و آن را تر کرد. سپس آن را بر لبه‌های چشم‌هایش و گرداگرد آنها نهاد. سپس با چشمانش مستقیم رو به خورشید ایستاد.»",
-              "fr": "Il dit : « Alors ʿAlī عليه السلام demanda un miroir et le chauffa. Puis il demanda du coton et l’humidifia. Ensuite il le plaça sur les bords de ses yeux et tout autour. Puis il orienta ses yeux directement vers le soleil. »",
-              "id": "Ia berkata: “Kemudian ʿAlī عليه السلام meminta sebuah cermin dan memanaskannya. Lalu ia meminta kapas dan membasahinya. Kemudian ia meletakkannya pada tepi-tepi matanya dan di sekelilingnya. Lalu ia menghadapkan matanya langsung ke arah matahari.”",
-              "ru": "Он сказал: «Тогда ʿАли عليه السلام велел принести зеркало и нагрел его. Затем велел принести вату и смочил её. Потом он положил её на края его глаз и вокруг них. Затем он прямо направил его глаза к солнцу.»",
-              "tr": "O dedi ki: “Sonra ʿAlī عليه السلام bir ayna istedi ve onu ısıttı. Sonra pamuk istedi ve onu ıslattı. Sonra onu gözlerinin kenarlarına ve çevresine yerleştirdi. Ardından gözleriyle doğrudan güneşe yöneldi.”",
-              "ur": "اس نے کہا: “پھر علی علیہ السلام نے ایک آئینہ منگوایا اور اسے گرم کیا۔ پھر روئی منگوائی اور اسے تر کیا۔ پھر اسے اس کی آنکھوں کے کناروں اور ان کے اردگرد رکھ دیا۔ پھر اس نے اپنی آنکھوں کو براہِ راست سورج کے سامنے کر لیا۔”",
-              "zh": "他说：“然后阿里 عليه السلام要来一面镜子并把它加热。接着要来棉花并将其浸湿。然后把它放在他的眼睑边缘及其周围。然后让他的眼睛直接面对太阳。”"
-            },
             "word_end": 93,
             "word_start": 70
           },
           {
             "arabic_text": "قَالَ: «وَجَاءَ بِٱلْمِرْآةِ فَقَالَ: ٱنْظُرْ. فَنَظَرَ، فَذَابَ ٱلشَّحْمُ وَبَقِيَتْ عَيْنُهُ قَائِمَةً، فَذَهَبَ ٱلْبَصَرُ».",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তিনি বললেন: “আর সে আয়না নিয়ে এসে বলল: ‘দেখো।’ তখন সে দেখল, আর চর্বি গলে গেল, অথচ তার চোখ আগের মতোই রইল, এবং দৃষ্টিশক্তি চলে গেল।”",
-              "de": "Er sagte: „Und er brachte den Spiegel und sagte: ‚Schau.‘ Da schaute er, und das Fett schmolz, während sein Auge an seinem Platz blieb, und das Sehvermögen verschwand.“",
-              "en": "He said: “And he brought the mirror and said: ‘Look.’ So he looked, and the fatty substance melted while his eye remained standing, and the sight went away.”",
-              "es": "Dijo: “Y trajo el espejo y dijo: ‘Mira.’ Entonces miró, y la grasa se derritió mientras su ojo permanecía en su sitio, y la vista desapareció.”",
-              "fa": "گفت: «و آینه را آورد و گفت: ‘بنگر.’ پس او نگریست، و چربی آب شد در حالی که چشمش بر جای خود باقی ماند، و بینایی از میان رفت.»",
-              "fr": "Il dit : « Et il apporta le miroir et dit : “Regarde.” Alors il regarda, et la graisse fondit tandis que son œil demeurait en place, et la vue disparut. »",
-              "id": "Ia berkata: “Lalu ia membawa cermin dan berkata: ‘Lihatlah.’ Maka ia melihat, lalu lemak itu meleleh sementara matanya tetap pada tempatnya, dan penglihatannya hilang.”",
-              "ru": "Он сказал: «И он принес зеркало и сказал: “Смотри.” Тогда он посмотрел, и жир растаял, а его глаз остался на месте, и зрение исчезло».",
-              "tr": "Dedi ki: “Ve aynayı getirdi ve ‘Bak’ dedi. O da baktı; yağ eridi, gözü ise yerinde kaldı ve görme gitti.”",
-              "ur": "انہوں نے فرمایا: “اور وہ آئینہ لایا اور کہا: ‘دیکھو۔’ تو اس نے دیکھا، پھر چربی پگھل گئی جبکہ اس کی آنکھ اپنی جگہ قائم رہی، اور بینائی جاتی رہی۔”",
-              "zh": "他说：“然后他拿来镜子，说：‘看。’于是他看了，脂肪融化了，而他的眼睛仍然保持原状，视力也消失了。”"
-            },
             "word_end": 106,
             "word_start": 93
           }
@@ -187,27 +135,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "عَيْنَهُ": "his eye, the injured organ in the case",
-            "مَوْلًى": "a dependent or client associated with a man",
-            "مِرْآةٍ": "a mirror used in carrying out the judicial procedure",
-            "ٱلدِّيَةَ": "financial compensation paid for bodily injury",
-            "ٱلْبَصَرُ": "sight or visual ability",
-            "ٱلْقِصَاصَ": "retaliatory legal retribution corresponding to the injury",
-            "ٱلْمَاءَ": "fluid that descended into the eye after the blow"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "ٱلدِّيَةَ",
+          "ٱلْقِصَاصَ",
+          "مَوْلًى",
+          "عَيْنَهُ",
+          "ٱلْمَاءَ",
+          "ٱلْبَصَرُ",
+          "مِرْآةٍ"
+        ],
         "related_quran": [
           {
             "ref": "2:178",
@@ -222,32 +158,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "আহত ব্যক্তি যখন দিয়াহ গ্রহণ করেনি, তখন ইমাম আলী عليه السلام চোখের কিসাসের মামলায় কীভাবে বিচার করেছিলেন?",
-          "de": "Wie urteilte Imam ʿAlī عليه السلام in einem qiṣāṣ-Fall wegen einer Augenverletzung, als das Opfer die diyah ablehnte?",
-          "en": "How did Imam ʿAlī عليه السلام judge a case of qiṣāṣ for an eye injury when the victim refused diyah?",
-          "es": "¿Cómo juzgó el Imam ʿAlī عليه السلام un caso de qiṣāṣ por una lesión en el ojo cuando la víctima رفضó la diyah?",
-          "fa": "وقتی مجروح دیه را نپذیرفت، امام علی علیه‌السلام چگونه در پروندهٔ قصاصِ چشم داوری کرد؟",
-          "fr": "Comment l’imam ʿAlī عليه السلام a-t-il jugé une affaire de qiṣāṣ pour une blessure à l’œil lorsque la victime a refusé la diyah ?",
-          "id": "Bagaimana Imam ʿAlī عليه السلام memutuskan kasus qiṣāṣ untuk cedera mata ketika korban menolak diyah?",
-          "ru": "Как Имам ʿАли عليه السلام вынес решение по делу о кисасе за травму глаза, когда пострадавший отказался от дийи?",
-          "tr": "Mağdur diyeyi reddettiğinde İmam ʿAlī عليه السلام bir göz qiṣāṣı davasında nasıl hükmetti?",
-          "ur": "جب زخمی شخص نے دیت قبول نہ کی تو امام علی علیہ السلام نے آنکھ کے قصاص کے مقدمے کا فیصلہ کیسے فرمایا؟",
-          "zh": "当受害者拒绝diyah时，伊玛目阿里 عليه السلام如何裁决一起眼伤qiṣāṣ案件？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে চোখে আঘাতের একটি ঘটনা বর্ণিত হয়েছে, যেখানে ক্ষতিপূরণ প্রত্যাখ্যান করা হয়েছিল এবং আহত ব্যক্তি কিসাসের ওপর জোর দিয়েছিল। ইমাম আলী عليه السلام বিষয়টি বিচার করেন এবং এমন একটি পদ্ধতি দেখান যার মাধ্যমে চোখটি অক্ষত রেখেও দৃষ্টিশক্তি নষ্ট করা সম্ভব, যা মূল আঘাতের সঙ্গে সামঞ্জস্যপূর্ণ। এই বর্ণনা কিসাস ও শারীরিক আঘাতের বিষয়ে বিচারিক কর্তৃত্ব ও আইনি সূক্ষ্মতা প্রকাশ করে।",
-          "de": "Dieser Hadith beschreibt einen Fall einer Augenverletzung, bei dem eine Entschädigung abgelehnt wurde und die verletzte Partei auf qiṣāṣ bestand. Imam ʿAlī عليه السلام entschied über die Angelegenheit und zeigte eine Methode, mit der das Augenlicht genommen werden konnte, während das Auge selbst intakt blieb, entsprechend der ursprünglichen Verletzung. Der Bericht spiegelt richterliche Autorität und rechtliche Präzision in Fragen von Vergeltung und Körperverletzung wider.",
-          "en": "This hadith describes a case of injury to the eye in which compensation was refused and the injured party insisted on qiṣāṣ. Imam ʿAlī عليه السلام judged the matter and demonstrated a method by which the loss of sight could be inflicted while the eye itself remained intact, corresponding to the original injury. The report reflects judicial authority and legal precision in matters of retaliation and bodily injury.",
-          "es": "Este hadiz describe un caso de lesión en el ojo en el que se rechazó la compensación y la parte lesionada insistió en el qiṣāṣ. El Imam ʿAlī عليه السلام juzgó el asunto y mostró un método mediante el cual podía causarse la pérdida de la vista mientras el ojo mismo permanecía intacto, en correspondencia con la lesión original. El relato refleja autoridad judicial y precisión legal en asuntos de represalia y lesiones corporales.",
-          "fa": "این حدیث پرونده‌ای از آسیب به چشم را بیان می‌کند که در آن دیه پذیرفته نشد و طرف آسیب‌دیده بر قصاص اصرار ورزید. امام علی علیه‌السلام دربارهٔ آن داوری کرد و روشی را نشان داد که با آن می‌توان بینایی را از بین برد در حالی که خود چشم سالم باقی بماند، و این مطابق با آسیب اصلی بود. این گزارش، اقتدار قضایی و دقت حقوقی را در مسائل قصاص و جراحات بدنی نشان می‌دهد.",
-          "fr": "Ce hadith décrit un cas de blessure à l’œil dans lequel l’indemnisation fut refusée et la partie lésée insista sur le qiṣāṣ. L’imam ʿAlī عليه السلام jugea l’affaire et montra une méthode par laquelle la vue pouvait être ôtée tout en laissant l’œil lui-même intact, conformément à la blessure initiale. Le récit reflète l’autorité judiciaire et la précision juridique dans les questions de représailles et de lésions corporelles.",
-          "id": "Hadis ini menggambarkan sebuah kasus cedera mata di mana kompensasi ditolak dan pihak yang terluka bersikeras pada qiṣāṣ. Imam ʿAlī عليه السلام memutuskan perkara itu dan menunjukkan suatu cara untuk menghilangkan penglihatan sementara mata itu sendiri tetap utuh, sesuai dengan cedera asalnya. Riwayat ini mencerminkan otoritas peradilan dan ketelitian hukum dalam مسائل pembalasan dan cedera tubuh.",
-          "ru": "Этот хадис описывает случай травмы глаза, в котором компенсация была отвергнута, а пострадавшая сторона настаивала на кисасе. Имам ʿАли عليه السلام вынес решение по этому делу и показал способ, при котором можно лишить зрения, сохранив сам глаз целым, что соответствовало первоначальной травме. Этот рассказ отражает судебную власть и правовую точность в вопросах возмездия и телесных повреждений.",
-          "tr": "Bu hadis, bir göz yaralanması davasını anlatır; tazminat reddedilmiş ve yaralanan taraf qiṣāṣta ısrar etmiştir. İmam ʿAlī عليه السلام meseleyi hükme bağlamış ve gözün kendisi sağlam kalırken görmenin nasıl giderilebileceğini gösteren bir yöntem ortaya koymuştur; bu, asıl yaralanmaya karşılık gelmektedir. Rivayet, kısas ve bedensel yaralanmalar konularında yargı yetkisini ve hukukî titizliği yansıtır.",
-          "ur": "یہ حدیث آنکھ کی چوٹ کے ایک مقدمے کو بیان کرتی ہے جس میں معاوضہ قبول نہ کیا گیا اور زخمی فریق نے قصاص پر اصرار کیا۔ امام علی علیہ السلام نے معاملے کا فیصلہ فرمایا اور ایک ایسا طریقہ دکھایا جس سے آنکھ اپنی جگہ قائم رہتے ہوئے بینائی زائل کی جا سکتی تھی، جو اصل چوٹ کے مطابق تھا۔ یہ روایت قصاص اور جسمانی نقصان کے معاملات میں عدالتی اختیار اور قانونی دقت کو ظاہر کرتی ہے۔",
-          "zh": "这段圣训描述了一个眼部受伤的案件，其中赔偿被拒绝，受害者坚持要求报复刑（qiṣāṣ）。伊玛目阿里 عليه السلام对此事作出裁决，并展示了一种方法：在眼睛本身保持完好的情况下使视力丧失，这与原先的伤害相对应。该记述体现了在报复与身体伤害事务中的司法权威和法律严谨性。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

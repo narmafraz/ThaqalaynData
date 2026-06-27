@@ -15,6 +15,134 @@
       "up": "/books/al-kafi:8:1:50"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ عَبْدِ اللَّهِ بْنِ سِنَانٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 15,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سُئِلَ أَبُو عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ وَ لَوْ شاءَ رَبُّكَ لَجَعَلَ النَّاسَ أُمَّةً واحِدَةً وَ لَا يَزالُونَ مُخْتَلِفِينَ إِلَّا مَنْ رَحِمَ رَبُّكَ",
+            "chunk_type": "body",
+            "word_end": 43,
+            "word_start": 15
+          },
+          {
+            "arabic_text": "فَقَالَ كَانُوا أُمَّةً وَاحِدَةً فَبَعَثَ اللَّهُ النَّبِيِّينَ لِيَتَِّخِذَ عَلَيْهِمُ الْحُجَّةَ",
+            "chunk_type": "body",
+            "word_end": 53,
+            "word_start": 43
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 7,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ أَبِي عُمَيْرٍ",
+              "name_en": "Ibn Abi Umayr",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 31,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللَّهِ بْنِ سِنَانٍ",
+              "name_en": "Abdullah b. Sinan",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "أُمَّةً واحِدَةً",
+          "مُخْتَلِفِينَ",
+          "النَّبِيِّينَ",
+          "الْحُجَّةَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "11:118",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "11:119",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "2:213",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "10:19",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "theology",
+          "quran_commentary",
+          "prophetic_tradition"
+        ],
+        "topics": [
+          "quran_interpretation_method",
+          "prophets",
+          "divine_decree"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 569)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -114,7 +242,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:50:23",

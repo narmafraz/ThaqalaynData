@@ -20,61 +20,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَخْبَرَنِي زَيْدُ بْنُ عَلِيِّ بْنِ الْحُسَيْنِ بْنِ زَيْدٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "যায়দ ইবন আলী ইবন আল-হুসাইন ইবন যায়দ আমাকে খবর দিয়েছেন, তিনি বলেছেন:",
-              "de": "Zayd ibn ʿAlī ibn al-Ḥusayn ibn Zayd berichtete mir und sagte:",
-              "en": "Zayd ibn ʿAlī ibn al-Ḥusayn ibn Zayd informed me, saying:",
-              "es": "Zayd ibn ʿAlī ibn al-Ḥusayn ibn Zayd me informó, diciendo:",
-              "fa": "زید بن علی بن الحسین بن زید به من خبر داد و گفت:",
-              "fr": "Zayd ibn ʿAlī ibn al-Ḥusayn ibn Zayd m’a informé en disant :",
-              "id": "Zayd ibn ʿAlī ibn al-Ḥusayn ibn Zayd mengabarkan kepadaku, seraya berkata:",
-              "ru": "Зайд ибн ʿАли ибн аль-Хусайн ибн Зайд сообщил мне, сказав:",
-              "tr": "Zeyd ibn ʿAlî ibn el-Hüseyin ibn Zeyd bana haber verdi ve dedi ki:",
-              "ur": "زید بن علی بن الحسین بن زید نے مجھے خبر دی، انہوں نے کہا:",
-              "zh": "宰德·伊本·阿里·伊本·侯赛因·伊本·宰德告诉我，说："
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "مَرِضْتُ فَدَخَلَ الطَّبِيبُ عَلَيَّ لَيْلًا فَوَصَفَ لِي دَوَاءً بِاللَّيْلِ آخُذُهُ كَذَا وَكَذَا يَوْمًا فَلَمْ يُمَكِّنِّي فَلَمْ يَخْرُجِ الطَّبِيبُ مِنَ الْبَابِ حَتَّى وَرَدَ عَلَيَّ نَصْرٌ بِقَارُورَةٍ فِيهَا ذَلِكَ الدَّوَاءُ بِعَيْنِهِ فَقَالَ لِي أَبُو الْحَسَنِ يُقْرِئُكَ السَّلَامَ وَيَقُولُ لَكَ خُذْ هَذَا الدَّوَاءَ كَذَا وَكَذَا يَوْمًا فَأَخَذْتُهُ فَشَرِبْتُهُ فَبَرَأْتُ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি অসুস্থ হয়ে পড়লাম, এবং এক চিকিৎসক রাতে আমার কাছে এলেন। তিনি আমার জন্য এমন একটি ওষুধ লিখে দিলেন, যা আমি রাতে এত এত দিন গ্রহণ করব; কিন্তু আমি তা সংগ্রহ করতে পারলাম না। চিকিৎসক দরজা থেকে বেরোনোর আগেই নাসর আমার কাছে এমন একটি বোতল নিয়ে এল, যার মধ্যে ঠিক সেই ওষুধই ছিল। তিনি আমাকে বললেন: আবু আল-হাসান আপনাকে সালাম পাঠাচ্ছেন এবং আপনাকে বলছেন: এই ওষুধটি এত এত দিন গ্রহণ করুন। তখন আমি তা নিলাম ও পান করলাম, এবং আমি সুস্থ হয়ে গেলাম।",
-              "de": "Ich erkrankte, und ein Arzt kam nachts zu mir. Er verschrieb mir ein Medikament, das ich nachts für so und so viele Tage einnehmen sollte, aber ich konnte es nicht bekommen. Der Arzt war noch nicht einmal zur Tür hinausgegangen, als Naṣr mit einer Flasche zu mir kam, die genau jenes Medikament enthielt. Er sagte zu mir: Abū al-Ḥasan lässt dir den Friedensgruß ausrichten und sagt dir: Nimm dieses Medikament für so und so viele Tage. Da nahm ich es und trank es, und ich wurde gesund.",
-              "en": "I fell ill, and a physician came to me at night. He prescribed for me a medicine to take at night for so-and-so many days, but I was unable to obtain it. The physician had not yet gone out from the door when Naṣr came to me with a bottle containing that very medicine itself. He said to me: Abū al-Ḥasan sends you greetings of peace and says to you: Take this medicine for so-and-so many days. So I took it and drank it, and I recovered.",
-              "es": "Caí enfermo, y un médico vino a mí de noche. Me recetó un medicamento para tomarlo de noche durante tantos y tantos días, pero no pude conseguirlo. El médico aún no había salido por la puerta cuando Naṣr llegó a mí con una botella que contenía exactamente ese mismo medicamento. Me dijo: Abū al-Ḥasan te envía saludos de paz y te dice: Toma este medicamento durante tantos y tantos días. Entonces lo tomé y lo bebí, y me recuperé.",
-              "fa": "من بیمار شدم و پزشکی شبانه نزد من آمد. او برایم دارویی تجویز کرد که شب‌ها به مدت چند روزِ معین آن را بخورم، اما نتوانستم آن را تهیه کنم. هنوز پزشک از در بیرون نرفته بود که نصر نزد من آمد در حالی که شیشه‌ای در دست داشت که همان دارو در آن بود. به من گفت: ابو الحسن به تو سلام می‌رساند و به تو می‌گوید: این دارو را چند روزِ معین بخور. پس آن را گرفتم و نوشیدم و بهبود یافتم.",
-              "fr": "Je tombai malade, et un médecin vint me voir la nuit. Il me prescrivit un médicament à prendre la nuit pendant tant et tant de jours, mais je ne pus me le procurer. Le médecin n’avait pas encore franchi la porte que Naṣr vint à moi avec une bouteille contenant précisément ce médicament. Il me dit : Abū al-Ḥasan te transmet le salut de paix et te dit : Prends ce médicament pendant tant et tant de jours. Je le pris donc et le bus, et je guéris.",
-              "id": "Aku jatuh sakit, dan seorang tabib datang kepadaku pada malam hari. Ia meresepkan untukku sebuah obat agar aku meminumnya pada malam hari selama sekian hari, tetapi aku tidak mampu mendapatkannya. Tabib itu belum juga keluar dari pintu ketika Naṣr datang kepadaku dengan sebuah botol yang berisi obat itu persis seperti yang dimaksud. Ia berkata kepadaku: Abū al-Ḥasan menyampaikan salam kepadamu dan berkata kepadamu: Ambillah obat ini selama sekian hari. Maka aku mengambilnya dan meminumnya, lalu aku sembuh.",
-              "ru": "Я заболел, и ночью ко мне пришёл врач. Он прописал мне лекарство, которое я должен был принимать ночью в течение стольких-то дней, но я не смог его достать. Врач ещё не вышел за дверь, как ко мне пришёл Naṣr с бутылкой, в которой было именно это лекарство. Он сказал мне: Abū al-Ḥasan передаёт тебе приветствие мира и говорит тебе: Принимай это лекарство в течение стольких-то дней. Тогда я взял его и выпил, и я выздоровел.",
-              "tr": "Hastalandım ve geceleyin bir hekim yanıma geldi. Bana, geceleyin şu kadar gün boyunca almam için bir ilaç yazdı; fakat onu elde edemedim. Hekim kapıdan henüz çıkmamıştı ki Naṣr, içinde tam da o ilacın bulunduğu bir şişeyle yanıma geldi. Bana dedi ki: Ebû el-Hasan sana selâm gönderiyor ve sana şöyle diyor: Bu ilacı şu kadar gün boyunca al. Bunun üzerine onu aldım ve içtim; sonra iyileştim.",
-              "ur": "میں بیمار پڑ گیا، اور ایک طبیب رات کے وقت میرے پاس آیا۔ اس نے میرے لیے ایک دوا تجویز کی کہ میں اسے اتنے اور اتنے دن رات کے وقت لوں، لیکن میں اسے حاصل نہ کر سکا۔ ابھی طبیب دروازے سے باہر بھی نہ نکلا تھا کہ نصر میرے پاس ایک شیشی لے کر آیا جس میں وہی دوا بعینہٖ موجود تھی۔ اس نے مجھ سے کہا: ابو الحسن آپ کو سلام کہتے ہیں اور آپ سے کہتے ہیں: یہ دوا اتنے اور اتنے دن تک لے لیجیے۔ چنانچہ میں نے اسے لیا اور پی لیا، اور میں تندرست ہو گیا۔",
-              "zh": "我病了，夜里一位医生来到我这里。他给我开了一种药，要我在夜里服用若干天，但我没能拿到。医生还没走出门，纳斯尔就拿着一个瓶子来到我这里，里面装的正是那种药。他对我说：阿布·哈桑向你致以平安的问候，并对你说：把这药服用若干天。于是我拿过来喝了，便痊愈了。"
-            },
             "word_end": 55,
             "word_start": 9
           },
           {
             "arabic_text": "قَالَ مُحَمَّدُ بْنُ عَلِيٍّ قَالَ لِي زَيْدُ بْنُ عَلِيٍّ يَأْبَى الطَّاعِنُ أَيْنَ الْغُلَاةُ عَنْ هَذَا الْحَدِيثِ.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন আলী বলেছেন: যায়দ ইবন আলী আমাকে বলেছেন, “দোষ-অন্বেষণকারী অস্বীকার করে; এই হাদিস থেকে গুলাতরা কোথায়?”",
-              "de": "Muḥammad ibn ʿAlī sagte: Zayd ibn ʿAlī sagte zu mir: „Der Tadler lehnt es ab; wo sind die ghulāt in Bezug auf diesen Hadith?“",
-              "en": "Muḥammad ibn ʿAlī said: Zayd ibn ʿAlī said to me, “The fault-finder refuses; where are the ghulāt from this hadith?”",
-              "es": "Muḥammad ibn ʿAlī dijo: Zayd ibn ʿAlī me dijo: «El que busca defectos lo rechaza; ¿dónde están los ghulāt respecto de este hadith?»",
-              "fa": "محمد بن علی گفت: زید بن علی به من گفت: عیب‌جوی انکار می‌کند؛ غُلات از این حدیث کجا هستند؟",
-              "fr": "Muḥammad ibn ʿAlī a dit : Zayd ibn ʿAlī m’a dit : « Celui qui cherche la faute le refuse ; où sont les ghulāt à propos de ce hadith ? »",
-              "id": "Muḥammad ibn ʿAlī berkata: Zayd ibn ʿAlī berkata kepadaku: “Orang yang mencari-cari cela menolak; di mana para ghulāt dari hadith ini?”",
-              "ru": "Мухаммад ибн ʿАли сказал: Зайд ибн ʿАли сказал мне: «Ищущий недостатки отвергает это; где же ghulāt в отношении этого хадиса?»",
-              "tr": "Muhammed ibn ʿAlî dedi ki: Zeyd ibn ʿAlî bana dedi ki: Kusur bulan bunu reddeder; bu hadisten ghulât nerede?",
-              "ur": "محمد بن علی نے کہا: زید بن علی نے مجھ سے کہا: عیب جوئی کرنے والا انکار کرتا ہے؛ اس حدیث سے غُلات کہاں ہیں؟",
-              "zh": "穆罕默德·伊本·阿里说：宰德·伊本·阿里对我说：“吹毛求疵者会拒绝；这段圣训中的极端派在哪里？”"
-            },
             "word_end": 71,
             "word_start": 55
           }
@@ -107,28 +81,16 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبُو الْحَسَنِ": "the Imam who sent greetings and the medicine",
-            "السَّلَامَ": "the greeting of peace conveyed from the Imam",
-            "الطَّبِيبُ": "the physician who examined him and prescribed the treatment",
-            "الْغُلَاةُ": "the extremists mentioned in the concluding statement",
-            "دَوَاءً": "the medicine prescribed and later sent",
-            "فَبَرَأْتُ": "I recovered; indicating cure after taking the medicine",
-            "قَارُورَةٍ": "a bottle containing the prescribed medicine",
-            "نَصْرٌ": "the person who arrived carrying the bottle of medicine"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الطَّبِيبُ",
+          "دَوَاءً",
+          "نَصْرٌ",
+          "قَارُورَةٍ",
+          "أَبُو الْحَسَنِ",
+          "السَّلَامَ",
+          "فَبَرَأْتُ",
+          "الْغُلَاةُ"
+        ],
         "related_quran": [
           {
             "ref": "26:80",
@@ -143,32 +105,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিসে আবু আল-হাসান عليه السلام-এর সঙ্গে সম্পর্কিত আরোগ্যের ঘটনাটি কীভাবে বর্ণিত হয়েছে?",
-          "de": "Wie beschreibt dieser Hadith ein mit Abū al-Ḥasan عليه السلام verbundenes Heilungsereignis?",
-          "en": "How does this hadith describe a healing incident connected to Abū al-Ḥasan عليه السلام?",
-          "es": "¿Cómo describe este hadith un episodio de curación relacionado con Abū al-Ḥasan عليه السلام?",
-          "fa": "این حدیث رخداد درمانیِ مرتبط با ابو الحسن علیه السلام را چگونه توصیف می‌کند؟",
-          "fr": "Comment ce hadith décrit-il un épisode de guérison lié à Abū al-Ḥasan عليه السلام ?",
-          "id": "Bagaimana hadith ini menggambarkan peristiwa penyembuhan yang terkait dengan Abū al-Ḥasan عليه السلام?",
-          "ru": "Как этот хадис описывает случай исцеления, связанный с Abū al-Ḥasan عليه السلام?",
-          "tr": "Bu hadis, Abū al-Ḥasan عليه السلام ile bağlantılı şifa olayını nasıl anlatır?",
-          "ur": "یہ حدیث ابو الحسن علیہ السلام سے وابستہ شفا کے واقعے کو کیسے بیان کرتی ہے؟",
-          "zh": "这段圣训如何描述与阿布·哈桑 عليه السلام相关的治愈事件？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে যায়দ ইবন আলী ইবন আল-হুসাইন ইবন যায়দের অসুস্থতা এবং আবু আল-হাসান عليه السلام-এর পাঠানো ওষুধের মাধ্যমে তাঁর আরোগ্যের কথা বর্ণিত হয়েছে, যেখানে চিকিৎসকের প্রেসক্রিপশন সম্পর্কে সুনির্দিষ্ট জ্ঞান প্রকাশ পায়। এতে ইমামের অসাধারণ জ্ঞান ও হস্তক্ষেপের একটি বিবরণ উপস্থাপিত হয়েছে। শেষ মন্তব্যে বলা হয়েছে যে আপত্তিকারীরা এমন বর্ণনা গ্রহণ করতে অস্বীকার করবে।",
-          "de": "Dieser Hadith berichtet von der Krankheit von Zayd ibn ʿAlī ibn al-Ḥusayn ibn Zayd und seiner Heilung durch ein von Abū al-Ḥasan عليه السلام gesandtes Medikament, mit genauer Kenntnis der Verordnung des Arztes. Er stellt einen Bericht dar, der mit dem außergewöhnlichen Wissen und Eingreifen des Imams verbunden ist. Die abschließende Bemerkung besagt, dass Einwender einen solchen Bericht ablehnen würden.",
-          "en": "This hadith narrates an illness of Zayd ibn ʿAlī ibn al-Ḥusayn ibn Zayd and his recovery through a medicine sent by Abū al-Ḥasan عليه السلام with precise knowledge of the physician’s prescription. It presents an account associated with the Imam’s extraordinary awareness and intervention. The closing remark notes that objectors would resist accepting such a report.",
-          "es": "Este hadith narra la enfermedad de Zayd ibn ʿAlī ibn al-Ḥusayn ibn Zayd y su curación mediante un medicamento enviado por Abū al-Ḥasan عليه السلام, con conocimiento preciso de la prescripción del médico. Presenta un relato asociado con el conocimiento extraordinario y la intervención del Imam. La observación final señala que los objetores se resistirían a aceptar tal informe.",
-          "fa": "این حدیث از بیماری زید بن علی بن الحسین بن زید و بهبود او به وسیله دارویی که از سوی ابو الحسن علیه السلام فرستاده شد، با آگاهی دقیق از نسخه پزشک، حکایت می‌کند. این گزارش با آگاهی و دخالت شگفت‌انگیز امام پیوند دارد. سخن پایانی یادآور می‌شود که معترضان پذیرش چنین روایتی را برنمی‌تابند.",
-          "fr": "Ce hadith relate la maladie de Zayd ibn ʿAlī ibn al-Ḥusayn ibn Zayd et sa guérison grâce à un médicament envoyé par Abū al-Ḥasan عليه السلام, avec une connaissance précise de l’ordonnance du médecin. Il présente un récit associé à la connaissance extraordinaire et à l’intervention de l’Imam. La remarque finale indique que les opposants refuseraient d’accepter un tel rapport.",
-          "id": "Hadith ini meriwayatkan sakitnya Zayd ibn ʿAlī ibn al-Ḥusayn ibn Zayd dan kesembuhannya melalui obat yang dikirim oleh Abū al-Ḥasan عليه السلام dengan pengetahuan yang tepat tentang resep dokter. Ini menyajikan kisah yang dikaitkan dengan pengetahuan luar biasa dan intervensi Imam. Ucapan penutup menyebutkan bahwa para penentang akan menolak menerima laporan semacam itu.",
-          "ru": "Этот хадис повествует о болезни Зайда ибн ʿАли ибн аль-Хусайна ибн Зайда и его исцелении с помощью лекарства, посланного Abū al-Ḥasan عليه السلام, при точном знании предписания врача. Он представляет рассказ, связанный с необычайным знанием и вмешательством Имама. Заключительное замечание указывает, что возражающие не примут такой рассказ.",
-          "tr": "Bu hadis, Zeyd ibn ʿAlî ibn al-Hüseyin ibn Zeyd’in hastalığını ve Abū al-Ḥasan عليه السلام tarafından gönderilen bir ilaçla şifa bulmasını, hekimin reçetesine dair kesin bilgiyle birlikte anlatır. Bu, İmam’ın olağanüstü bilgisi ve müdahalesiyle ilişkilendirilen bir rivayettir. Son söz, itiraz edenlerin böyle bir haberi kabul etmeye yanaşmayacağını belirtir.",
-          "ur": "یہ حدیث زید بن علی بن الحسین بن زید کی بیماری اور ابو الحسن علیہ السلام کی طرف سے بھیجی گئی دوا کے ذریعے ان کی شفا کا ذکر کرتی ہے، جس میں طبیب کی تجویز کا درست علم ظاہر ہوتا ہے۔ اس میں امام کے غیر معمولی علم اور مداخلت کا بیان ہے۔ اختتامی جملہ بتاتا ہے کہ معترضین ایسی روایت کو قبول کرنے سے انکار کریں گے۔",
-          "zh": "这段圣训讲述了宰德·伊本·阿里·伊本·侯赛因·伊本·宰德的患病，以及阿布·哈桑 عليه السلام派送药物使其痊愈，并准确知晓医生的处方。它呈现了与伊玛目非凡的认知和干预相关的记述。结尾的话指出，反对者会拒绝接受这样的传述。"
-        },
         "tags": [
           "history",
           "theology",

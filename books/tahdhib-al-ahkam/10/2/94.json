@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدِ بْنِ عِيسَى عَنِ ابْنِ مَحْبُوبٍ عَنْ أَبِي وَلَّادٍ الْحَنَّاطِ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন মুহাম্মদ ইবন ঈসা, ইবন মাহবূব থেকে, আবু ওয়াল্লাদ আল-হান্নাত থেকে, তিনি বলেন:",
-              "de": "Ahmad ibn Muhammad ibn Isa, von Ibn Mahbub, von Abu Wallad al-Hannat, der sagte:",
-              "en": "Aḥmad ibn Muḥammad ibn ʿĪsā, from Ibn Maḥbūb, from Abū Wallād al-Ḥannāṭ, who said:",
-              "es": "Ahmad ibn Muhammad ibn Isa, de Ibn Mahbub, de Abu Wallad al-Hannat, quien dijo:",
-              "fa": "احمد بن محمد بن عیسی، از ابن محبوب، از ابو ولاد الحناط، که گفت:",
-              "fr": "Ahmad ibn Muhammad ibn Isa, d’Ibn Mahbub, d’Abu Wallad al-Hannat, qui a dit :",
-              "id": "Ahmad ibn Muhammad ibn Isa, dari Ibn Mahbub, dari Abu Wallad al-Hannat, ia berkata:",
-              "ru": "Ахмад ибн Мухаммад ибн Иса, от Ибн Махбуба, от Абу Валлада аль-Ханната, который сказал:",
-              "tr": "Ahmed ibn Muhammed ibn İsa, İbn Mahbub’dan, Ebu Vellad el-Hannat’tan, o da şöyle dedi:",
-              "ur": "احمد بن محمد بن عیسی، ابن محبوب سے، ابو ولاد الحناط سے، انہوں نے کہا:",
-              "zh": "AhmadibnMuhammadibnIsa，传自IbnMahbub，传自AbuWalladal-Hannat，他说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "سُئِلَ أَبُو عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ عَنْ جَارِيَةٍ بَيْنَ رَجُلَيْنِ أَعْتَقَ أَحَدُهُمَا نَصِيبَهُ فِيهَا، فَلَمَّا رَأَى ذَلِكَ شَرِيكُهُ وَثَبَ عَلَى الْجَارِيَةِ فَوَقَعَ بِهَا.",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আবু আবদিল্লাহ عليه السلام-কে এমন এক দাসী সম্পর্কে জিজ্ঞেস করা হয়েছিল, যা দুই ব্যক্তির যৌথ মালিকানায় ছিল; তাদের একজন তাতে নিজের অংশ মুক্ত করে দেয়। তার অংশীদার যখন তা দেখল, সে দাসীর ওপর ঝাঁপিয়ে পড়ল এবং তার সঙ্গে সহবাস করল।",
-              "de": "Abu Abdillah عليه السلام wurde über ein Sklavenmädchen gefragt, das zwei Männern gemeinsam gehörte; einer von ihnen gab seinen Anteil an ihr frei. Als sein Teilhaber dies sah, stürzte er sich auf das Sklavenmädchen und verkehrte mit ihr.",
-              "en": "Abū ʿAbdillāh عليه السلام was asked about a slave-girl jointly owned by two men, one of whom emancipated his share in her. When his partner saw that, he rushed upon the slave-girl and had intercourse with her.",
-              "es": "Se preguntó a Abu Abdillah عليه السلام acerca de una esclava que era propiedad compartida de dos hombres; uno de ellos emancipó su parte en ella. Cuando su socio vio ذلك, se abalanzó sobre la esclava y tuvo relaciones con ella.",
-              "fa": "از ابو عبدالله علیه السلام درباره کنیزی که میان دو مرد مشترک بود پرسیدند؛ یکی از آن دو سهم خود را در او آزاد کرد. هنگامی که شریکش این را دید، بر کنیز هجوم برد و با او آمیزش کرد.",
-              "fr": "On interrogea Abu Abdillah عليه السلام au sujet d’une esclave détenue en commun par deux hommes ; l’un d’eux affranchit sa part en elle. Lorsque son associé vit cela, il se jeta sur l’esclave et eut des rapports avec elle.",
-              "id": "Abu Abdillah عليه السلام ditanya tentang seorang budak perempuan yang dimiliki bersama oleh dua orang laki-laki; salah seorang dari mereka memerdekakan bagiannya darinya. Ketika sekutunya melihat hal itu, ia menerjang budak perempuan itu dan menggaulinya.",
-              "ru": "Абу Абдуллах عليه السلام спросили о невольнице, которой совместно владели двое мужчин; один из них освободил свою долю в ней. Когда его сотоварищ увидел это, он набросился на невольницу и вступил с ней в половую связь.",
-              "tr": "Ebu Abdullah عليه السلام’a, iki adamın ortak mülkiyetinde bulunan bir cariye hakkında soruldu; onlardan biri onun içindeki hissesini azat etti. Ortağı bunu görünce cariyenin üzerine atıldı ve onunla cinsel ilişkide bulundu.",
-              "ur": "ابو عبداللہ علیہ السلام سے ایک ایسی لونڈی کے بارے میں پوچھا گیا جو دو آدمیوں کی مشترکہ ملکیت تھی، ان میں سے ایک نے اس میں اپنا حصہ آزاد کر دیا۔ جب اس کے شریک نے یہ دیکھا تو وہ لونڈی پر جھپٹا اور اس سے جماع کیا۔",
-              "zh": "有人问阿布·阿卜杜拉 عليه السلام关于一个由两个人共同拥有的女奴，其中一人释放了自己在她身上的份额。当他的同伴看到这一点时，便扑向那女奴并与她交合。"
-            },
             "word_end": 36,
             "word_start": 13
           },
           {
             "arabic_text": "قَالَ فَقَالَ: «يُجْلَدُ الَّذِي وَقَعَ عَلَيْهَا خَمْسِينَ جَلْدَةً، وَيُطْرَحُ عَنْهُ خَمْسِينَ جَلْدَةً، وَيَكُونُ نِصْفُهَا حُرَّةً، وَيُطْرَحُ عَنْهَا مِنَ النِّصْفِ الْبَاقِي، وَعَلَى الَّذِي لَمْ يُعْتِقْ وَنَكَحَ عُشْرُ قِيمَتِهَا إِنْ كَانَتْ بِكْرًا، وَإِنْ كَانَتْ غَيْرَ بِكْرٍ فَنِصْفُ عُشْرِ قِيمَتِهَا، وَتُسْتَسْعَى هِيَ فِي الْبَاقِي».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: “যে ব্যক্তি তার সঙ্গে সহবাস করেছে, তাকে পঞ্চাশ বেত্রাঘাত করা হবে, এবং তার থেকে পঞ্চাশ বেত্রাঘাত কমিয়ে দেওয়া হবে। তার অর্ধেককে মুক্ত গণ্য করা হবে, এবং অবশিষ্ট অর্ধেকের বাকি অংশও তার থেকে মাফ করা হবে। আর যে মুক্ত করেনি এবং সহবাস করেছে, তার ওপর তার মূল্যমানের এক-দশমাংশ ধার্য হবে যদি সে কুমারী হয়; আর যদি কুমারী না হয়, তবে তার মূল্যমানের এক-দশমাংশের অর্ধেক। এবং অবশিষ্টের জন্য সে নিজে কাজ করে তা পরিশোধ করবে।”",
-              "de": "Er sagte: „Derjenige, der mit ihr verkehrt hat, wird mit fünfzig Peitschenhieben bestraft, und fünfzig Peitschenhiebe werden ihm erlassen. Die Hälfte von ihr gilt als frei, und von der verbleibenden Hälfte wird der Rest erlassen. Auf demjenigen, der sie nicht freigelassen und mit ihr verkehrt hat, lastet ein Zehntel ihres Wertes, wenn sie Jungfrau war; war sie keine Jungfrau, dann die Hälfte eines Zehntels ihres Wertes. Und sie soll für den verbleibenden Betrag arbeiten.“",
-              "en": "He said: “The one who had intercourse with her is to be flogged fifty lashes, and fifty lashes are dropped from him. Half of her is to be considered free, and from her the remaining half is waived. Upon the one who did not emancipate and had intercourse is one-tenth of her value if she was a virgin, and if she was not a virgin then half of one-tenth of her value. And she is to work to pay off the remainder.”",
-              "es": "Dijo: “A quien tuvo relaciones con ella se le darán cincuenta azotes, y se le descontarán cincuenta azotes. La mitad de ella será considerada libre, y de la mitad restante se le condonará lo que quede. Y sobre quien no emancipó y tuvo relaciones con ella recae la décima parte de su valor si era virgen; y si no era virgen, entonces la mitad de la décima parte de su valor. Y ella trabajará para pagar el resto.”",
-              "fa": "فرمود: «کسی که با او آمیزش کرده است پنجاه تازیانه زده می‌شود و پنجاه تازیانه از او ساقط می‌گردد. نیمی از او آزاد به شمار می‌آید و از نیمه باقی‌مانده نیز آنچه مانده از او برداشته می‌شود. و بر کسی که آزاد نکرده و آمیزش کرده است، اگر باکره باشد یک‌دهم قیمت اوست، و اگر باکره نباشد نصف یک‌دهم قیمت او. و او برای باقی‌مانده به کار گماشته می‌شود تا آن را بپردازد.»",
-              "fr": "Il dit : « Celui qui a eu des rapports avec elle recevra cinquante coups de fouet, et cinquante coups de fouet lui seront retranchés. La moitié d’elle sera considérée comme libre, et du reste de la moitié, ce qui reste lui sera remis. Quant à celui qui ne l’a pas affranchie et a eu des rapports avec elle, il devra payer le dixième de sa valeur si elle était vierge ; et si elle ne l’était pas, alors la moitié du dixième de sa valeur. Et elle devra travailler pour acquitter le reste. »",
-              "id": "Beliau bersabda: “Orang yang menggaulinya dikenai lima puluh kali cambuk, dan lima puluh cambuk dihapus darinya. Separuh darinya dianggap merdeka, dan dari separuh yang tersisa pun sisanya dihapus darinya. Adapun orang yang tidak memerdekakan lalu menggaulinya, atasnya adalah sepersepuluh dari nilainya jika ia perawan; jika ia bukan perawan, maka setengah dari sepersepuluh nilainya. Dan ia harus bekerja untuk melunasi sisanya.”",
-              "ru": "Он сказал: «Тому, кто вступил с ней в половую связь, полагается пятьдесят ударов плетью, и пятьдесят ударов с него снимаются. Половина ее считается свободной, и с оставшейся половины снимается то, что осталось. А на том, кто не освободил ее и вступил с ней в связь, лежит одна десятая ее стоимости, если она была девственницей; если же она не была девственницей, то половина одной десятой ее стоимости. И она должна отработать оставшееся».",
-              "tr": "Şöyle buyurdu: “Onunla cinsel ilişkide bulunan kimseye elli sopa vurulur ve elli sopa ondan düşürülür. Onun yarısı hür sayılır ve kalan yarının da geri kalanı ondan düşürülür. Azat etmeyen ve onunla cinsel ilişkide bulunan kimseye, eğer bakire ise değerinin onda biri; bakire değilse değerinin onda birinin yarısı gerekir. Geri kalan için ise o, çalışarak bunu öder.”",
-              "ur": "انہوں نے فرمایا: “جس نے اس سے جماع کیا اسے پچاس کوڑے لگائے جائیں گے، اور اس سے پچاس کوڑے ساقط کر دیے جائیں گے۔ اس کا آدھا حصہ آزاد شمار ہوگا، اور باقی آدھے میں سے اس پر سے بقیہ معاف کر دیا جائے گا۔ اور جس نے آزاد نہیں کیا اور جماع کیا، اس پر اس کی قیمت کا دسواں حصہ ہوگا اگر وہ کنواری ہو، اور اگر کنواری نہ ہو تو اس کی قیمت کے دسواں حصے کا نصف۔ اور باقی کے بدلے وہ خود کام کرے گی۔”",
-              "zh": "他说：“与她交合的人要受五十鞭，并免去他五十鞭。她的一半应被视为自由，而其余一半中剩下的也应被免除。至于那没有释放她却与她交合的人，如果她是处女，则须承担她价值的十分之一；如果她不是处女，则承担她价值的十分之一的一半。其余部分由她自己做工偿还。”"
-            },
             "word_end": 77,
             "word_start": 36
           }
@@ -119,27 +93,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَعْتَقَ": "emancipated or freed a share of ownership",
-            "بِكْرًا": "a virgin",
-            "تُسْتَسْعَى": "she is required to labor to pay off the remaining amount",
-            "جَارِيَةٍ": "a female slave jointly owned in this case",
-            "قِيمَتِهَا": "her monetary value for compensation assessment",
-            "وَقَعَ بِهَا": "had intercourse with her",
-            "يُجْلَدُ": "is to be flogged as a legal punishment"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "جَارِيَةٍ",
+          "أَعْتَقَ",
+          "وَقَعَ بِهَا",
+          "يُجْلَدُ",
+          "بِكْرًا",
+          "قِيمَتِهَا",
+          "تُسْتَسْعَى"
+        ],
         "related_quran": [
           {
             "ref": "4:25",
@@ -150,32 +112,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি একজন সহ-মালিক দাসীর নিজের অংশ মুক্ত করে এবং অন্য সহ-মালিক তার সঙ্গে সহবাস করে, তবে কী বিধান?",
-          "de": "Was ist das Urteil, wenn einer der Miteigentümer seinen Anteil an einem Sklavenmädchen freilässt und der andere Miteigentümer mit ihr verkehrt?",
-          "en": "What is the ruling if one co-owner frees his share of a slave-girl and the other co-owner has intercourse with her?",
-          "es": "¿Cuál es la norma si uno de los copropietarios emancipa su parte de una esclava y el otro copropietario tiene relaciones con ella?",
-          "fa": "اگر یکی از شریکان سهم خود را در کنیزی آزاد کند و شریک دیگر با او آمیزش نماید، حکم چیست؟",
-          "fr": "Quelle est la règle si l’un des copropriétaires affranchit sa part d’une esclave et que l’autre copropriétaire a des rapports avec elle ?",
-          "id": "Apa hukumnya jika salah satu pemilik bersama memerdekakan bagiannya dari seorang budak perempuan lalu pemilik bersama yang lain menggaulinya?",
-          "ru": "Каково постановление, если один из совладельцев освобождает свою долю в невольнице, а другой совладелец вступает с ней в связь?",
-          "tr": "Bir ortak bir cariyedeki hissesini azat eder ve diğer ortak onunla cinsel ilişkide bulunursa hüküm nedir?",
-          "ur": "اگر ایک شریک لونڈی میں اپنا حصہ آزاد کر دے اور دوسرا شریک اس سے جماع کر لے تو کیا حکم ہے؟",
-          "zh": "如果一位共同所有者释放了自己在女奴身上的份额，而另一位共同所有者又与她交合，判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে যৌথ মালিকানাধীন এক দাসীর ব্যাপারে শরয়ি বিধান বর্ণিত হয়েছে, যখন একজন অংশীদার তার অংশ মুক্ত করে এবং অন্যজন তার সঙ্গে সহবাস করে। ইমাম আবু আবদিল্লাহ عليه السلام হদ-সংক্রান্ত শাস্তি, আর্থিক দায়, এবং তার আংশিক মুক্তি ও অবশিষ্ট অর্থ পরিশোধের বিধান ব্যাখ্যা করেন।",
-          "de": "Dieser Hadith erläutert eine rechtliche Bestimmung über ein gemeinsam besessenes Sklavenmädchen, wenn einer der Teilhaber seinen Anteil freilässt und der andere dann mit ihr verkehrt. Imam Abu Abdillah عليه السلام legt die hadd-bezogene Strafe, die finanzielle Haftung sowie die Regelung ihrer teilweisen Freiheit und des verbleibenden Betrags fest, der durch Arbeit abgetragen werden soll.",
-          "en": "This hadith gives a legal ruling about a jointly owned slave-girl when one partner emancipates his share and the other then has intercourse with her. Imam Abu Abdillah عليه السلام sets out the hadd-related punishment, the financial liability, and the ruling concerning her partial freedom and the remaining amount to be worked off.",
-          "es": "Este hadiz expone una norma jurídica sobre una esclava de propiedad compartida, cuando uno de los socios emancipa su parte y el otro luego tiene relaciones con ella. El Imam Abu Abdillah عليه السلام establece el castigo relacionado con el hadd, la responsabilidad financiera y la norma sobre su libertad parcial y la cantidad restante que debe ser saldada mediante trabajo.",
-          "fa": "این حدیث درباره حکم شرعیِ کنیزی است که میان دو نفر مشترک است، هنگامی که یکی از شریکان سهم خود را آزاد کند و دیگری با او آمیزش نماید. امام ابو عبدالله علیه السلام مجازات حدی، مسئولیت مالی، و حکم آزادیِ جزئی او و پرداختِ باقی‌مانده را بیان می‌فرماید.",
-          "fr": "Ce hadith expose une règle juridique concernant une esclave détenue en commun, lorsqu’un des associés affranchit sa part et que l’autre a ensuite des rapports avec elle. L’imam Abu Abdillah عليه السلام précise la peine relevant du hadd, la responsabilité financière, ainsi que la règle de son affranchissement partiel et du montant restant à acquitter par le travail.",
-          "id": "Hadis ini menjelaskan hukum syar‘i tentang seorang budak perempuan yang dimiliki bersama, ketika salah satu sekutu memerdekakan bagiannya dan yang lain kemudian menggaulinya. Imam Abu Abdillah عليه السلام menjelaskan hukuman hadd, tanggung jawab مالی, serta hukum kemerdekaan sebagian dirinya dan pelunasan sisa dengan bekerja.",
-          "ru": "Этот хадис разъясняет правовое постановление относительно невольницы, находившейся в совместной собственности, когда один из совладельцев освобождает свою долю, а другой затем вступает с ней в связь. Имам Абу Абдуллах عليه السلام устанавливает наказание, связанное с хаддом, финансовую ответственность, а также постановление о ее частичной свободе и о том, что оставшаяся сумма должна быть отработана.",
-          "tr": "Bu hadis, ortak mülkiyette bulunan bir cariye hakkında, ortaklardan biri hissesini azat ettiğinde ve diğeri onunla cinsel ilişkide bulunduğunda verilecek şer‘î hükmü بیان eder. İmam Ebu Abdullah عليه السلام, hadd cezasını, mali sorumluluğu ve onun kısmi özgürlüğü ile kalan miktarın çalışarak ödenmesini açıklar.",
-          "ur": "یہ حدیث مشترکہ ملکیت والی لونڈی کے بارے میں شرعی حکم بیان کرتی ہے، جب ایک شریک اپنا حصہ آزاد کر دے اور دوسرا اس سے جماع کر لے۔ امام ابو عبداللہ علیہ السلام حد کی سزا، مالی ذمہ داری، اور اس کی جزوی آزادی اور باقی رقم کی ادائیگی کا حکم بیان فرماتے ہیں۔",
-          "zh": "这段圣训阐明了关于一名共同拥有的女奴的教法判决：当其中一位合伙人释放了自己在她身上的份额，而另一位随后与她交合时。伊玛目阿布·阿卜杜拉 عليه السلام说明了与hadd有关的惩罚、经济责任，以及她部分获得自由和剩余金额由她做工偿还的规定。"
-        },
         "tags": [
           "jurisprudence",
           "family",

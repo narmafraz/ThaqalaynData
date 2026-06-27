@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلنَّوْفَلِيُّ عَنِ اَلسَّكُونِيِّ عَنْ أَبِي عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ: فِي",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-নওফালি, আল-সুকুনি থেকে, আবি আবদিল্লাহ عليه السلام থেকে: সম্পর্কে",
-              "de": "Al-Nawfali, von Al-Sukuni, von Abi Abdillah عليه السلام: über",
-              "en": "Al-Nawfali, from Al-Sukuni, from Abi Abdillah عليه السلام: concerning",
-              "es": "Al-Nawfali, de Al-Sukuni, de Abi Abdillah عليه السلام: acerca de",
-              "fa": "النوفلی، از السکونی، از ابی عبدالله علیه السلام: دربارهٔ",
-              "fr": "Al-Nawfali, d’Al-Sukuni, d’Abi Abdillah عليه السلام : au sujet de",
-              "id": "Al-Nawfali, dari Al-Sukuni, dari Abi Abdillah عليه السلام: tentang",
-              "ru": "Аль-Науфали, от Аль-Сукуни, от Аби Абдуллаха عليه السلام: относительно",
-              "tr": "En-Nevfeli, es-Sükûnî’den, Ebî Abdillah عليه السلام’dan: hakkında",
-              "ur": "النوفلی، السکونی سے، ابی عبداللہ علیہ السلام سے: کے بارے میں",
-              "zh": "阿勒·瑙法里，传自阿勒·苏库尼，传自阿比·阿卜杜拉 عليه السلام：关于"
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "عَبْدٍ شَجَّ رَجُلًا مُوضِحَةً ثُمَّ شَجَّ آخَرَ، فَقَالَ: «هُوَ بَيْنَهُمَا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন দাসের ব্যাপারে, যে এক ব্যক্তির মাথায় মুওদিহা ধরনের আঘাত করেছিল, তারপর আরেকজন আঘাত করল; তিনি বললেন: “এটি তাদের দুজনের মধ্যে ভাগ করা হবে।”",
-              "de": "über einen Sklaven, der einem Mann eine Kopfverletzung zufügte, die den Knochen freilegte, dann fügte ein anderer eine Verletzung zu; er sagte: „Es wird zwischen den beiden aufgeteilt.“",
-              "en": "a slave who inflicted a clarifying head wound upon a man, then another inflicted a wound; he said: “It is divided between the two of them.”",
-              "es": "acerca de un esclavo que causó a un hombre una herida en la cabeza que dejaba el hueso al descubierto, luego otro causó una herida; dijo: “Se divide entre los dos.”",
-              "fa": "دربارهٔ برده‌ای که بر مردی زخمیِ مُوضِحه بر سر وارد کرد، سپس دیگری زخمی وارد کرد؛ فرمود: «میان آن دو تقسیم می‌شود.»",
-              "fr": "au sujet d’un esclave qui infligea à un homme une blessure à la tête mettant l’os à découvert, puis un autre infligea une blessure ; il dit : « Cela est partagé entre eux deux. »",
-              "id": "tentang seorang budak yang melukai seorang laki-laki dengan luka kepala yang menampakkan tulang, lalu yang lain melukai; ia bersabda: “Itu dibagi di antara keduanya.”",
-              "ru": "о рабе, который нанес мужчине рану головы, обнажившую кость, затем другой нанес рану; он сказал: «Это делится между ними обоими».",
-              "tr": "Bir kölenin bir adama açıklayıcı bir baş yarası açması, سپس bir başkasının da bir yara açması hakkında; şöyle dedi: “Bu ikisi arasında paylaştırılır.”",
-              "ur": "ایک غلام کے بارے میں جس نے ایک آدمی کے سر پر واضح زخم لگایا، پھر دوسرے نے زخم لگایا؛ آپ نے فرمایا: “یہ دونوں کے درمیان تقسیم ہے۔”",
-              "zh": "关于一个奴隶，他给一个男人造成了一处露骨的头部伤口，然后另一个人又造成了一处伤口；他说：“它由两人分担。”"
-            },
             "word_end": 20,
             "word_start": 10
           }
@@ -94,26 +81,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "آخَرَ": "another person who also inflicted a wound",
-            "بَيْنَهُمَا": "shared between the two of them",
-            "رَجُلًا": "a man; the injured party",
-            "شَجَّ": "inflicted a head wound",
-            "عَبْدٍ": "a slave; the person described as one of those involved in causing the injury",
-            "مُوضِحَةً": "a wound that exposes the bone"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "عَبْدٍ",
+          "شَجَّ",
+          "رَجُلًا",
+          "مُوضِحَةً",
+          "آخَرَ",
+          "بَيْنَهُمَا"
+        ],
         "related_quran": [
           {
             "ref": "5:45",
@@ -124,32 +99,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিস ফিকহে যখন দুইজন ব্যক্তি পর্যায়ক্রমে মাথায় আঘাত করে, তখন দায়বদ্ধতা কীভাবে ভাগ করা হয়?",
-          "de": "Wie wird die Haftung verteilt, wenn zwei Personen in der schiitischen Hadith-Rechtslehre nacheinander Kopfverletzungen zufügen?",
-          "en": "How is liability divided when two people inflict sequential head wounds in Shia hadith law?",
-          "es": "¿Cómo se divide la responsabilidad cuando dos personas causan heridas en la cabeza de forma sucesiva en la jurisprudencia hadiz chií?",
-          "fa": "در فقه حدیثی شیعه، وقتی دو نفر به‌صورت پی‌درپی زخم سر وارد کنند، مسئولیت چگونه تقسیم می‌شود؟",
-          "fr": "Comment la responsabilité est-elle répartie lorsque deux personnes infligent successivement des blessures à la tête dans le fiqh du hadith chiite ?",
-          "id": "Bagaimana tanggung jawab dibagi ketika dua orang melukai kepala secara berurutan dalam fikih hadis Syiah?",
-          "ru": "Как распределяется ответственность, когда два человека последовательно наносят раны головы в шиитском хадисном праве?",
-          "tr": "Şii hadis fıkhında iki kişi ardışık baş yaraları açtığında sorumluluk nasıl تقسیم edilir?",
-          "ur": "شیعہ حدیثی فقہ میں جب دو افراد ترتیب وار سر کے زخم لگائیں تو ذمہ داری کیسے تقسیم ہوتی ہے؟",
-          "zh": "在什叶派圣训法学中，当两个人先后造成头部伤害时，责任如何分配？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে একাধিক আক্রমণকারী জড়িত মাথার আঘাতের ক্ষেত্রে দায়বদ্ধতা সম্পর্কে একটি আইনি বিধান দেওয়া হয়েছে। এতে বোঝা যায় যে ক্ষতির দায় উল্লিখিত দুই পক্ষের মধ্যে ভাগ করা হয়।",
-          "de": "Dieser Hadith enthält eine rechtliche Regelung zur Haftung in Fällen von Kopfverletzungen, an denen mehr als ein Angreifer beteiligt ist. Er zeigt, dass die Verantwortung für die Verletzung zwischen den beiden genannten Parteien geteilt wird.",
-          "en": "This hadith gives a legal ruling regarding liability in cases of head wounds involving more than one assailant. It indicates that responsibility for the injury is shared between the two parties mentioned.",
-          "es": "Este hadiz ofrece una norma jurídica sobre la responsabilidad en casos de heridas en la cabeza cuando intervienen más de un agresor. Indica que la responsabilidad por la lesión se comparte entre las dos partes mencionadas.",
-          "fa": "این حدیث حکمی فقهی دربارهٔ مسئولیت در موارد زخم‌های سر، هنگامی که بیش از یک مهاجم وجود دارد، بیان می‌کند. دلالت دارد که مسئولیتِ آسیب میان دو طرفِ یادشده مشترک است.",
-          "fr": "Ce hadith donne une règle juridique concernant la responsabilité dans les cas de blessures à la tête impliquant plus d’un agresseur. Il indique que la responsabilité du dommage est partagée entre les deux parties mentionnées.",
-          "id": "Hadis ini memberikan حكم hukum mengenai tanggung jawab dalam kasus luka kepala yang melibatkan lebih dari satu pelaku. Ini menunjukkan bahwa tanggung jawab atas luka tersebut dibagi di antara dua pihak yang disebutkan.",
-          "ru": "Этот хадис содержит правовое постановление относительно ответственности в случаях ран головы, когда участвуют более одного нападавшего. Он указывает, что ответственность за повреждение делится между двумя упомянутыми сторонами.",
-          "tr": "Bu hadis, birden fazla saldırganın bulunduğu baş yaraları durumlarında sorumluluğa dair fıkhî bir hüküm verir. Yaralanmadan doğan sorumluluğun zikredilen iki taraf arasında paylaşıldığını gösterir.",
-          "ur": "یہ حدیث سر کے زخموں کے ایسے معاملات میں، جن میں ایک سے زیادہ حملہ آور ہوں، ذمہ داری کے بارے میں شرعی حکم بیان کرتی ہے۔ اس سے معلوم ہوتا ہے کہ نقصان کی ذمہ داری مذکورہ دونوں فریقوں کے درمیان مشترک ہے۔",
-          "zh": "这段圣训就涉及不止一名施害者的头部伤害案件给出了一项法律裁定。它表明，对伤害的责任由所提到的双方共同承担。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations"

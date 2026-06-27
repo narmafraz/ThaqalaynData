@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى الْحَلَبِيُّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হালাবী আবু আবদিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Al-Halabī berichtete von Abū ʿAbdillāh عليه السلام, der sagte:",
-              "en": "Al-Ḥalabī narrated from Abū ʿAbdillāh عليه السلام, who said:",
-              "es": "Al-Halabí narró de Abu Abdillah عليه السلام, quien dijo:",
-              "fa": "الْحَلَبِي از ابی عبدالله علیه السلام روایت کرده است که فرمود:",
-              "fr": "Al-Halabî a rapporté de Abû ʿAbdillâh عليه السلام, qui a dit :",
-              "id": "Al-Halabi meriwayat dari Abu Abdullah عليه السلام, yang berkata:",
-              "ru": "Аль-Халаби передал от Абу Абдиллаха عليه السلام, который сказал:",
-              "tr": "El-Halebi, Ebu Abdillah (aleyhisselam)'den rivayet etti, şöyle dedi:",
-              "ur": "الْحَلَبِي نے ابو عبد اللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "الْحَلَبِي从أبوعبداللهعليهالسلام传述，他说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "مَا كَانَ مِنْ طَعَامٍ سَمَّيْتَ فِيهِ كَيْلًا فَلَا يَصْلُحُ بَيْعُهُ مُجَازَفَةً هَذَا مِمَّا يُكْرَهُ مِنْ بَيْعِ الطَّعَامِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে কোনো খাবার যার জন্য আপনি একটি পরিমাপ নির্ধারণ করেছেন, তা অনুমান করে বিক্রি করা উচিত নয়। এটি খাবারের বিক্রয়ে অপছন্দনীয় বিষয়গুলোর মধ্যে একটি।",
-              "de": "Jede Nahrung, für die Sie ein Maß festgelegt haben, sollte nicht nach Schätzung verkauft werden. Dies gehört zu dem, was im Verkauf von Lebensmitteln unerwünscht ist.",
-              "en": "Any food for which you have specified a measure should not be sold by estimation. This is among what is disliked in the sale of food.",
-              "es": "Cualquier alimento para el cual hayas especificado una medida no debe venderse por estimación. Esto está entre lo que se desaprueba en la venta de alimentos.",
-              "fa": "هر غذایی که برای آن اندازه‌ای مشخص کرده‌اید نباید به صورت تخمینی فروخته شود. این از مواردی است که در فروش غذا ناپسندیده است.",
-              "fr": "Tout aliment pour lequel vous avez spécifié une mesure ne doit pas être vendu à l'estimation. Cela fait partie de ce qui est déconseillé dans la vente de nourriture.",
-              "id": "Setiap makanan yang telah Anda tentukan takarannya tidak boleh dijual dengan perkiraan. Ini termasuk hal yang tidak disukai dalam penjualan makanan.",
-              "ru": "Любая пища, для которой вы указали меру, не должна продаваться по оценке. Это относится к тому, что нежелательно при продаже пищи.",
-              "tr": "Belirli bir ölçü ile belirlenmiş herhangi bir yiyecek, tahmini olarak satılmamalıdır. Bu, yiyecek satışında hoş karşılanmayan durumlardandır.",
-              "ur": "کسی بھی کھانے کی چیز جس کے لیے آپ نے پیمانہ مقرر کیا ہو، اسے اندازے سے فروخت نہیں کرنا چاہیے۔ یہ کھانے کی فروخت میں ناپسندیدہ چیزوں میں سے ہے۔",
-              "zh": "任何你指定了计量的食物不应以估算方式出售。这属于食物销售中不受欢迎的行为。"
-            },
             "word_end": 27,
             "word_start": 10
           }
@@ -91,26 +78,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بَيْعُهُ": "its sale or transaction",
-            "بَيْعِ الطَّعَامِ": "the commercial sale of food items",
-            "طَعَامٍ": "food as a sale commodity",
-            "كَيْلًا": "a specified measure or volume used in sale",
-            "مُجَازَفَةً": "sale by estimation without precise measuring",
-            "يُكْرَهُ": "is considered disliked"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "طَعَامٍ",
+          "كَيْلًا",
+          "بَيْعُهُ",
+          "مُجَازَفَةً",
+          "يُكْرَهُ",
+          "بَيْعِ الطَّعَامِ"
+        ],
         "related_quran": [
           {
             "ref": "17:35",
@@ -125,32 +100,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামী আইনে পরিমাপ করা খাবার অনুমান করে বিক্রি করা যেতে পারে কি?",
-          "de": "Kann gemessene Nahrung im islamischen Recht nach Schätzung verkauft werden?",
-          "en": "Can measured food be sold by estimation in Islamic law?",
-          "es": "¿Se puede vender comida medida por estimación en la ley islámica?",
-          "fa": "آیا در فقه اسلامی می‌توان غذای اندازه‌گیری شده را به صورت تخمینی فروخت؟",
-          "fr": "Peut-on vendre des aliments mesurés par estimation selon la loi islamique ?",
-          "id": "Apakah makanan yang diukur dapat dijual dengan perkiraan dalam hukum Islam?",
-          "ru": "Можно ли продавать измеренную пищу по оценке в исламском праве?",
-          "tr": "İslami hukukta ölçülü yiyecek tahmini olarak satılabilir mi?",
-          "ur": "کیا اسلامی قانون میں پیمائش شدہ کھانے کو اندازے سے فروخت کیا جا سکتا ہے؟",
-          "zh": "在伊斯兰法中计量食物可以估算出售吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে যখন খাবারকে পরিমাপ করা পণ্য হিসেবে নির্ধারণ করা হয়, তখন তা কেবল অনুমান করে বিক্রি করা উচিত নয়। এটি বিক্রয় লেনদেনে সঠিক আচরণ নির্দেশ করে এবং বলে যে এমন প্রথা খাবারের বিক্রয়ে অপছন্দনীয়।",
-          "de": "Dieser Hadith besagt, dass wenn Nahrung als gemessene Ware bestimmt ist, sie nicht nur nach Schätzung verkauft werden sollte. Er behandelt das richtige Verhalten bei Verkaufstransaktionen und zeigt, dass eine solche Praxis beim Verkauf von Lebensmitteln unerwünscht ist.",
-          "en": "This hadith states that when food is designated as a measured commodity, it should not be sold merely by rough estimation. It addresses proper conduct in sale transactions and indicates that such a practice is disliked in food sales.",
-          "es": "Este hadiz establece que cuando un alimento se designa como una mercancía medida, no debe venderse simplemente por estimación. Aborda la conducta adecuada en las transacciones de venta e indica que tal práctica es desaprobada en la venta de alimentos.",
-          "fa": "این حدیث بیان می‌کند که وقتی غذا به عنوان کالای اندازه‌گیری شده تعیین می‌شود، نباید صرف به صورت تخمینی فروخته شود. این موضوع به رفتار صحیح در معاملات فروش اشاره دارد و نشان می‌دهد که چنین عملی در فروش غذا ناپسندیده است.",
-          "fr": "Ce hadith indique que lorsque la nourriture est désignée comme une marchandise mesurée, elle ne doit pas être vendue simplement par estimation. Il traite de la conduite appropriée dans les transactions de vente et indique qu'une telle pratique est déconseillée dans la vente de nourriture.",
-          "id": "Hadis ini menyatakan bahwa ketika makanan ditetapkan sebagai barang yang diukur, tidak boleh dijual hanya dengan perkiraan. Ini membahas perilaku yang tepat dalam transaksi penjualan dan menunjukkan bahwa praktik tersebut tidak disukai dalam penjualan makanan.",
-          "ru": "Этот хадис говорит о том, что когда пища назначена как измеряемый товар, её не следует продавать просто по оценке. Он касается правильного поведения в торговых сделках и указывает, что такая практика нежелательна при продаже пищи.",
-          "tr": "Bu hadis, yiyecek belirli bir ölçü ile tanımlandığında sadece tahmini olarak satılmaması gerektiğini belirtir. Satış işlemlerinde doğru davranışı ele alır ve böyle bir uygulamanın yiyecek satışında hoş karşılanmadığını gösterir.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ جب کھانے کو پیمائش کے ساتھ مخصوص کیا جائے تو اسے محض اندازے سے فروخت نہیں کرنا چاہیے۔ یہ فروخت کے معاملات میں درست رویہ کی نشاندہی کرتی ہے اور بتاتی ہے کہ ایسی عمل کھانے کی فروخت میں ناپسندیدہ ہے۔",
-          "zh": "此圣训指出，当食物被指定为计量商品时，不应仅凭估算出售。它涉及销售交易中的正确行为，并表明此类做法在食物销售中是不受欢迎的。"
-        },
         "tags": [
           "jurisprudence",
           "economy"

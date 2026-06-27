@@ -18,61 +18,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আবু জাফর عليه السلام বললেন:",
-              "de": "Abu Ja‘far عليه السلام sagte:",
-              "en": "Abu Ja‘far عليه السلام said:",
-              "es": "Abu Ja‘far عليه السلام dijo:",
-              "fa": "ابوجعفر علیه السلام فرمود:",
-              "fr": "Abu Ja‘far عليه السلام a dit :",
-              "id": "Abu Ja‘far علیه السلام berkata:",
-              "ru": "Абу Джафар عليه السلام сказал:",
-              "tr": "Ebu Cafer عليه السلام şöyle dedi:",
-              "ur": "ابو جعفر علیہ السلام نے فرمایا:",
-              "zh": "ابوجعفرعلیہالسلامکہا:"
-            },
             "word_end": 5,
             "word_start": 0
           },
           {
             "arabic_text": "«اَلْقُنُوتُ فِي يَوْمِ الْجُمُعَةِ تَمْجِيدُ اللَّهِ وَالصَّلَاةُ عَلَى نَبِيِّ اللَّهِ وَكَلِمَاتُ الْفَرَجِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“জুম‘আহ দিবসে কুনুত হলো আল্লাহর মহিমা, আল্লাহর নবীর উপর সালাত এবং মুক্তির শব্দসমূহ।”",
-              "de": "„Der Qunut am Tag des Jumu‘ah ist die Verherrlichung Allahs, das Salat auf den Propheten Allahs und die Worte der Erleichterung.“",
-              "en": "“The qunut on the Day of Jumu‘ah is the glorification of Allah, salat upon the Prophet of Allah, and the words of relief.”",
-              "es": "“El qunut en el Día de Jumu‘ah es la glorificación de Allah, la salat sobre el Profeta de Allah, y las palabras de alivio.”",
-              "fa": "«قنوت در روز جمعه تمجید خداوند، صلوات بر پیامبر خدا و کلمات فرج است.»",
-              "fr": "«Le qunut le jour de Jumu‘ah est la glorification d’Allah, la salat sur le Prophète d’Allah, et les paroles de soulagement.»",
-              "id": "“Qunut pada Hari Jumu‘ah adalah memuliakan Allah, salat atas Nabi Allah, dan kata-kata penenang.”",
-              "ru": "«Кунот в день Джуму‘а — это восхваление Аллаха, салат на Пророка Аллаха и слова облегчения.»",
-              "tr": "“Cuma günü qunut, Allah’ın yüceltilmesi, Allah’ın Peygamberi üzerine salat ve ferah sözleridir.”",
-              "ur": "’’جمعہ کے دن قنوت اللہ کی تمجید، اللہ کے نبی پر صلوٰۃ، اور الفرج کے کلمات ہیں۔‘‘",
-              "zh": "“جموعہ日的قنوت是对الله的颂扬，对الله先知的礼拜，以及解脱的话语。”"
-            },
             "word_end": 17,
             "word_start": 5
           },
           {
             "arabic_text": "ثُمَّ هَذَا الدُّعَاءَ.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তারপর এই দোয়া।",
-              "de": "Dann dieses Bittgebet.",
-              "en": "Then this supplication.",
-              "es": "Luego esta súplica.",
-              "fa": "سپس این دعا.",
-              "fr": "Puis cette supplication.",
-              "id": "Kemudian doa ini.",
-              "ru": "Затем эта мольба.",
-              "tr": "Sonra bu dua.",
-              "ur": "پھر یہ دعا۔",
-              "zh": "然后这祈祷。"
-            },
             "word_end": 20,
             "word_start": 17
           }
@@ -101,26 +75,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الدُّعَاءَ": "the supplication that follows",
-            "الصَّلَاةُ عَلَى نَبِيِّ اللَّهِ": "sending blessings upon the Prophet of Allah صلى الله عليه وآله وسلم",
-            "اَلْقُنُوتُ": "the supplication recited in a standing posture during salat",
-            "تَمْجِيدُ اللَّهِ": "glorifying and magnifying Allah in devotional speech",
-            "كَلِمَاتُ الْفَرَجِ": "phrases of relief and deliverance recited as supplication",
-            "يَوْمِ الْجُمُعَةِ": "the day of Friday, distinguished for communal worship"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "اَلْقُنُوتُ",
+          "يَوْمِ الْجُمُعَةِ",
+          "تَمْجِيدُ اللَّهِ",
+          "الصَّلَاةُ عَلَى نَبِيِّ اللَّهِ",
+          "كَلِمَاتُ الْفَرَجِ",
+          "الدُّعَاءَ"
+        ],
         "related_quran": [
           {
             "ref": "33:56",
@@ -135,32 +97,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-বাকির عليه السلام অনুযায়ী শুক্রবার কুনুতের মধ্যে কী পাঠ করা উচিত?",
-          "de": "Was soll im Qunut am Freitag nach Imam al-Baqir عليه السلام rezitiert werden?",
-          "en": "What should be recited in the qunut on Friday according to Imam al-Baqir عليه السلام?",
-          "es": "¿Qué debe recitarse en el qunut del viernes según el Imam al-Baqir عليه السلام?",
-          "fa": "طبق نظر امام الباقر علیه السلام، در قنوت روز جمعه چه باید خواند؟",
-          "fr": "Que doit-on réciter dans le qunut du vendredi selon l’Imam al-Baqir عليه السلام ?",
-          "id": "Menurut Imam al-Baqir عليه السلام, apa yang harus dibaca dalam qunut pada hari Jumat?",
-          "ru": "Что следует читать в куноте в пятницу согласно Имаму аль-Бакр عليه السلام?",
-          "tr": "İmam el-Bakır عليه السلام’a göre Cuma günü qunutta ne okunmalıdır?",
-          "ur": "امام الباقر علیہ السلام کے مطابق جمعہ کے دن قنوت میں کیا پڑھنا چاہیے؟",
-          "zh": "根据伊玛目al-Baqirعلیہالسلام，星期五的قنوت应诵读什么？"
-        },
-        "summaries": {
-          "bn": "ইমাম মুহাম্মদ ইবনে আলী আল-বাকির عليه السلام জুম‘আহ দিবসে কুনুতের বিষয়বস্তুকে আল্লাহর প্রশংসা, নবী صلى الله عليه وآله وسلم এর উপর সালাত এবং মুক্তির শব্দ হিসেবে বর্ণনা করেছেন। এই বর্ণনা নামাজের মধ্যে একটি সুপারিশকৃত উপাসনার রূপ তুলে ধরে এবং পরবর্তীতে পাঠ করার জন্য একটি নির্দিষ্ট দোয়ার দিকে ইঙ্গিত করে।",
-          "de": "Imam Muhammad ibn ‘Alī al-Bāqir عليه السلام beschreibt den Inhalt des Qunut am Tag des Jumu‘ah als Lobpreisung Allahs, Salat auf den Propheten صلى الله عليه وآله وسلم und Worte der Erleichterung. Der Bericht hebt eine empfohlene Andachtsform im Gebet hervor und verweist auf eine bestimmte Bittschrift, die danach rezitiert werden soll.",
-          "en": "Imam Muḥammad ibn ‘Alī al-Bāqir عليه السلام describes the content of qunut on the Day of Jumu‘ah as comprising praise of Allah, salat upon the Prophet صلى الله عليه وآله وسلم, and words of relief. The report highlights a recommended devotional form within prayer and points to a specific supplication to be recited thereafter.",
-          "es": "El Imam Muḥammad ibn ‘Alī al-Bāqir عليه السلام describe el contenido del qunut en el Día de Jumu‘ah como la alabanza a Allah, la salat sobre el Profeta صلى الله عليه وآله وسلم, y palabras de alivio. El informe destaca una forma devocional recomendada dentro de la oración y señala una súplica específica que debe recitarse después.",
-          "fa": "امام محمد بن علی الباقر علیه السلام محتوای قنوت در روز جمعه را شامل ستایش خداوند، صلوات بر پیامبر صلى الله عليه وآله وسلم و کلمات فرج توصیف می‌کند. این گزارش به شکل مستحب عبادتی در نماز اشاره دارد و به دعای خاصی که پس از آن خوانده می‌شود دلالت می‌کند.",
-          "fr": "L’Imam Muḥammad ibn ‘Alī al-Bāqir عليه السلام décrit le contenu du qunut le jour de Jumu‘ah comme comprenant la louange d’Allah, la salat sur le Prophète صلى الله عليه وآله وسلم, et des paroles de soulagement. Le rapport met en lumière une forme dévotionnelle recommandée dans la prière et indique une supplication spécifique à réciter ensuite.",
-          "id": "Imam Muhammad ibn ‘Alī al-Bāqir عليه السلام menjelaskan isi qunut pada Hari Jumu‘ah terdiri dari pujian kepada Allah, salat atas Nabi صلى الله عليه وآله وسلم, dan kata-kata penenang. Laporan ini menyoroti bentuk ibadah yang dianjurkan dalam salat dan menunjuk pada doa khusus yang dibaca setelahnya.",
-          "ru": "Имам Мухаммад ибн ‘Али аль-Бакр عليه السلام описывает содержание кунота в день Джуму‘а как восхваление Аллаха, салат на Пророка صلى الله عليه وآله وسلم и слова облегчения. Этот отчет подчеркивает рекомендуемую форму поклонения в молитве и указывает на конкретную мольбу, которую следует читать после этого.",
-          "tr": "İmam Muhammed ibn Ali el-Bakır عليه السلام, Cuma günü qunutun içeriğini Allah’ın övgüsü, Peygamber صلى الله عليه وآله وسلم üzerine salat ve ferah sözleri olarak tanımlamaktadır. Bu rivayet, namaz içinde tavsiye edilen bir ibadet biçimini vurgular ve ardından okunacak belirli bir duaya işaret eder.",
-          "ur": "امام محمد ابن علی الباقر علیہ السلام نے جمعہ کے دن قنوت کے مواد کو اللہ کی حمد، نبی صلی اللہ علیہ وآلہ وسلم پر صلوٰۃ، اور الفرج کے کلمات کے طور پر بیان کیا ہے۔ یہ روایت نماز میں ایک مستحب عبادتی صورت کو اجاگر کرتی ہے اور اس کے بعد پڑھی جانے والی مخصوص دعا کی طرف اشارہ کرتی ہے۔",
-          "zh": "伊玛目穆罕默德伊本阿里阿尔-巴基尔علیہالسلام描述جموعہ日的قنوت内容包括赞美الله、对先知صلىاللهعليه وآله وسلم的礼拜以及解脱的话语。该报告强调了祈祷中推荐的虔诚形式，并指出随后应诵读的特定祈祷。"
-        },
         "tags": [
           "worship",
           "dua",

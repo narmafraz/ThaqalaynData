@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى مُعَاوِيَةُ بْنُ عَمَّارٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মু‘আওয়িয়া ইবনে ‘অম্মার আবু ‘আব্দিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Mu‘āwiyah ibn ‘Ammār berichtete von Abū ‘Abdillāh عليه السلام, der sagte:",
-              "en": "Mu‘āwiyah ibn ‘Ammār narrated from Abū ‘Abdillāh عليه السلام, who said:",
-              "es": "Mu‘āwiyah ibn ‘Ammār narró de Abū ‘Abdillāh عليه السلام, quien dijo:",
-              "fa": "معاویه بن عمار از ابوعبدالله علیه السلام روایت کرده است که فرمود:",
-              "fr": "Mu‘āwiyah ibn ‘Ammār a rapporté de Abū ‘Abdillāh عليه السلام, qui a dit :",
-              "id": "Mu‘āwiyah ibn ‘Ammār meriwayat dari Abū ‘Abdillāh علیه السلام, yang berkata:",
-              "ru": "Муаавия ибн Аммар передал от Абу Абдиллаха عليه السلام, который сказал:",
-              "tr": "Mu‘âviyah ibn ‘Ammâr, Ebu ‘Abdillâh عليه السلام’dan rivayet etti, şöyle dedi:",
-              "ur": "معاویہ ابن عمار نے ابو عبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "穆阿维叶伊本阿玛尔从阿布阿卜迪拉赫 عليه السلام传述，他说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "«إِنْ أَلْقَى الْمُحْرِمُ الْقُرَادَ عَنْ بَعِيرِهِ فَلَا بَأْسَ وَ لَا يُلْقِي الْحَلَمَةَ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“যদি মূহরিম তার উট থেকে কৃমি সরিয়ে ফেলে, এতে কোনো ক্ষতি নেই, কিন্তু সে পোকামাকড় সরাবে না।”",
-              "de": "„Wenn der Muhrim Zecken von seinem Kamel entfernt, ist das nicht schädlich, aber er soll keine Läuse entfernen.“",
-              "en": "“If the muhrim removes ticks from his camel, there is no harm in that, but he should not remove lice.”",
-              "es": "“Si el muhrim quita garrapatas de su camello, no hay daño en eso, pero no debe quitar los piojos.”",
-              "fa": "«اگر محرم کنه‌ها را از شتر خود بردارد، ضرری ندارد، اما نباید شپش‌ها را بردارد.»",
-              "fr": "«Si le muhrim enlève des tiques de son chameau, cela ne pose pas de problème, mais il ne doit pas enlever les poux.»",
-              "id": "“Jika muhrim menghilangkan kutu dari untanya, tidaklah berdosa, tetapi dia tidak boleh menghilangkan kutu rambut.”",
-              "ru": "«Если мухрим удаляет клещей со своего верблюда, в этом нет вреда, но он не должен удалять вшей.»",
-              "tr": "“Eğer muhrim deve üzerindeki kene(leri) çıkarırsa, bunda bir sakınca yoktur, ancak bitleri çıkarmaz.”",
-              "ur": "اگر محرم اپنے اونٹ سے کانٹے نکالے تو اس میں کوئی حرج نہیں، لیکن وہ جوئیں نہیں نکالے۔",
-              "zh": "“如果穆赫里姆从他的骆驼身上去除蜱虫，是无妨的，但他不应去除虱子。”"
-            },
             "word_end": 24,
             "word_start": 12
           }
@@ -91,57 +78,19 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْحَلَمَةَ": "lice or a small parasitic insect that should not be removed",
-            "الْقُرَادَ": "ticks found on the camel",
-            "الْمُحْرِمُ": "a person in the state of ihram",
-            "بَعِيرِهِ": "his camel or riding beast",
-            "فَلَا بَأْسَ": "there is no harm or legal objection"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمُحْرِمُ",
+          "الْقُرَادَ",
+          "بَعِيرِهِ",
+          "فَلَا بَأْسَ",
+          "الْحَلَمَةَ"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "মূহরিম ইহরামে থাকাকালীন তার উট থেকে কী সরাতে পারে?",
-          "de": "Was darf ein Muhrim von seinem Kamel entfernen, während er im Ihram ist?",
-          "en": "What may a muhrim remove from his camel while in ihram?",
-          "es": "¿Qué puede quitar un muhrim de su camello mientras está en ihram?",
-          "fa": "محرم در حال احرام چه چیزی را می‌تواند از شتر خود بردارد؟",
-          "fr": "Que peut enlever un muhrim de son chameau pendant l’ihram ?",
-          "id": "Apa yang boleh dihilangkan muhrim dari untanya saat ihram?",
-          "ru": "Что может удалить мухрим со своего верблюда во время ихрама?",
-          "tr": "Muhrim ihramda iken devenin üzerinden ne çıkarabilir?",
-          "ur": "محرم اپنے اونٹ سے کیا نکال سکتا ہے جب وہ احرام میں ہو؟",
-          "zh": "穆赫里姆在朝觐状态时可以从骆驼身上去除什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ইহরামের অবস্থায় একজন ব্যক্তির সওয়ারি প্রাণীর উপর পাওয়া পোকামাকড় সম্পর্কে আইনি বিধান প্রদান করে। এটি উট থেকে কৃমি সরানোর অনুমতি দেয় কিন্তু পোকা সরানো নিষিদ্ধ করে, যা ইহরামের নির্দিষ্ট বিধিনিষেধ ও অনুমতিগুলো প্রদর্শন করে।",
-          "de": "Dieser Hadith gibt eine Rechtsvorschrift darüber, was einer Person im Zustand des Ihram bezüglich Schädlingen an ihrem Reittier erlaubt ist. Es erlaubt das Entfernen von Zecken vom Kamel, verbietet jedoch das Entfernen von Läusen, was zeigt, dass die Vorschriften des Ihram spezifische Einschränkungen und Erlaubnisse enthalten.",
-          "en": "This hadith gives a legal ruling concerning what is allowed for a person in ihram regarding pests found on their riding animal. It permits removing ticks from the camel while prohibiting removing lice, showing that the rulings of ihram include specific restrictions and allowances.",
-          "es": "Este hadiz da un fallo legal sobre lo que está permitido para una persona en ihram respecto a las plagas encontradas en su animal de monta. Permite quitar garrapatas del camello mientras prohíbe quitar piojos, mostrando que las reglas del ihram incluyen restricciones y permisos específicos.",
-          "fa": "این حدیث حکم شرعی مربوط به آنچه برای شخص در حال احرام در مورد آفات موجود بر حیوان سواری‌اش مجاز است را بیان می‌کند. برداشتن کنه از شتر مجاز است اما برداشتن شپش ممنوع است که نشان‌دهنده محدودیت‌ها و اجازه‌های خاص احرام است.",
-          "fr": "Ce hadith donne un jugement légal concernant ce qui est permis pour une personne en ihram concernant les parasites trouvés sur son animal de monte. Il permet d’enlever les tiques du chameau tout en interdisant d’enlever les poux, montrant que les règles de l’ihram incluent des restrictions et des permissions spécifiques.",
-          "id": "Hadis ini memberikan hukum terkait apa yang diperbolehkan bagi seseorang yang sedang ihram mengenai hama yang ditemukan pada hewan tunggangannya. Diperbolehkan menghilangkan kutu dari unta namun dilarang menghilangkan kutu rambut, menunjukkan bahwa aturan ihram memiliki larangan dan izin khusus.",
-          "ru": "Этот хадис даёт правовое постановление о том, что разрешено человеку в состоянии ихрам в отношении вредителей, обнаруженных на его верховом животном. Разрешается удалять клещей с верблюда, но запрещается удалять вшей, что показывает, что постановления ихрама включают конкретные ограничения и разрешения.",
-          "tr": "Bu hadis, ihram halindeki bir kişinin binek hayvanında bulunan zararlılarla ilgili hukuki hükmü verir. Deve üzerindeki kenelerin çıkarılmasına izin verirken, bitlerin çıkarılmasını yasaklar; bu da ihramın belirli kısıtlamalarını ve izinlerini gösterir.",
-          "ur": "یہ حدیث محرم کی حالت میں اپنے سواری جانور پر پائے جانے والے کیڑوں کے بارے میں شرعی حکم بیان کرتی ہے۔ یہ اونٹ سے کانٹے نکالنے کی اجازت دیتی ہے جبکہ جوئیں نکالنا منع ہے، جو احرام کے مخصوص پابندیوں اور اجازتوں کو ظاہر کرتی ہے۔",
-          "zh": "这则圣训就处于朝觐状态的人对其骑乘动物身上发现的害虫所允许的行为给出了法律裁决。允许去除骆驼身上的蜱虫，但禁止去除虱子，显示了朝觐状态的规定包含特定的限制和许可。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

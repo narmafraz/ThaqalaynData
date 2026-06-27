@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ مُحَمَّدِ بْنِ خَالِدٍ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ هِشَامِ بْنِ سَالِمٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, মুহাম্মদ ইবন খালিদ থেকে, ইবন আবি উমাইর থেকে, হিশাম ইবন সালিম থেকে, আবু আবদুল্লাহ عليه السلام থেকে:",
-              "de": "Von ihm, von Muhammad ibn Khalid, von Ibn Abi ʿUmayr, von Hischam ibn Salim, von Abu ʿAbd Allah عليه السلام:",
-              "en": "From him, from Muḥammad ibn Khālid, from Ibn Abī ʿUmayr, from Hishām ibn Sālim, from Abī ʿAbd Allāh عليه السلام:",
-              "es": "De él, de Muhammad ibn Jálid, de Ibn Abī ʿUmayr, de Hishām ibn Sālim, de Abū ʿAbd Allāh عليه السلام:",
-              "fa": "از او، از محمد بن خالد، از ابن ابی‌عمیر، از هشام بن سالم، از ابی‌عبدالله علیه‌السلام:",
-              "fr": "De lui, de Muhammad ibn Khalid, d’Ibn Abī ʿUmayr, de Hishām ibn Sālim, d’Abū ʿAbd Allāh عليه السلام :",
-              "id": "Darinya, dari Muhammad ibn Khalid, dari Ibn Abi Umayr, dari Hisham ibn Salim, dari Abu Abdillah عليه السلام:",
-              "ru": "От него, от Мухаммада ибн Халида, от Ибн Аби ʿУмайра, от Хишама ибн Салима, от Абу ʿАбд Аллаха عليه السلام:",
-              "tr": "Ondan, Muhammed ibn Halid’den, İbn Ebî Umeyr’den, Hişâm ibn Sâlim’den, Ebû Abdillah عليه السلام’dan:",
-              "ur": "ان سے، محمد بن خالد سے، ابن ابی عمیر سے، ہشام بن سالم سے، ابو عبد اللہ علیہ السلام سے:",
-              "zh": "由他传述，传自穆罕默德·伊本·哈立德，传自伊本·阿比·乌迈尔，传自希沙姆·伊本·萨利姆，传自阿布·阿卜杜拉 عليه السلام："
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "فِي الْمَرْأَةِ تَقْتُلُ الرَّجُلَ مَا عَلَيْهَا",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "একজন নারী যদি একজন পুরুষকে হত্যা করে: তার ওপর কী প্রাপ্য/কী বিধান?",
-              "de": "Über eine Frau, die einen Mann tötet: Was ist gegen sie fällig?",
-              "en": "Concerning a woman who kills a man: what is due upon her?",
-              "es": "Acerca de una mujer que mata a un hombre: ¿qué le corresponde?",
-              "fa": "درباره زنی که مردی را می‌کشد: چه بر او لازم است؟",
-              "fr": "Au sujet d’une femme qui tue un homme : qu’est-ce qui lui incombe ?",
-              "id": "Tentang seorang perempuan yang membunuh seorang laki-laki: apa yang wajib atasnya?",
-              "ru": "О женщине, которая убивает мужчину: что ей полагается?",
-              "tr": "Bir kadının bir erkeği öldürmesi hakkında: onun üzerine ne gerekir?",
-              "ur": "ایک عورت کے بارے میں جو ایک مرد کو قتل کر دے: اس پر کیا لازم ہے؟",
-              "zh": "关于一名妇女杀死一名男子：她应承担什么？"
-            },
             "word_end": 25,
             "word_start": 19
           },
           {
             "arabic_text": "قَالَ «لَا يَجْنِي الْجَانِي عَلَى أَكْثَرَ مِنْ نَفْسِهِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: “অপরাধী নিজের সত্তার বাইরে আর কারও ওপর দায় বহন করে না।”",
-              "de": "Er sagte: „Der Täter trägt keine Verantwortung über seine eigene Person hinaus.“",
-              "en": "He said: “The offender does not bear liability beyond his own self.”",
-              "es": "Dijo: “El culpable no carga responsabilidad más allá de su propia persona.”",
-              "fa": "فرمود: «گناهکار جز بر نفس خود، بیش از آنچه هست، مسئولیتی بر عهده نمی‌گیرد.»",
-              "fr": "Il dit : « Le coupable n’assume pas de responsabilité au-delà de sa propre personne. »",
-              "id": "Beliau bersabda: “Pelaku tidak menanggung tanggung jawab melebihi dirinya sendiri.”",
-              "ru": "Он сказал: «Преступник не несёт ответственности более чем за самого себя».",
-              "tr": "Şöyle buyurdu: “Suç işleyen, kendi nefsinden başkasının yükünü taşımaz.”",
-              "ur": "آپ نے فرمایا: “جرم کرنے والا اپنے نفس کے سوا کسی اور پر ذمہ داری نہیں ڈالتا۔”",
-              "zh": "他说：“犯罪者不会承担超出其自身的责任。”"
-            },
             "word_end": 33,
             "word_start": 25
           }
@@ -133,25 +107,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الرَّجُلَ": "the man; the male victim in the case",
-            "الْجَانِي": "the offender; the one who commits the crime",
-            "الْمَرْأَةِ": "the woman; the female offender in this legal case",
-            "تَقْتُلُ": "kills; commits homicide",
-            "نَفْسِهِ": "his own self; the limit of personal liability"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمَرْأَةِ",
+          "تَقْتُلُ",
+          "الرَّجُلَ",
+          "الْجَانِي",
+          "نَفْسِهِ"
+        ],
         "related_quran": [
           {
             "ref": "6:164",
@@ -166,32 +128,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "একজন নারী একজন পুরুষকে হত্যা করলে তার দায় সম্পর্কে ইমাম আল-সাদিক عليه السلام কী বলেছেন?",
-          "de": "Was sagte Imam al-Ṣādiq عليه السلام über die Verantwortung einer Frau, die einen Mann tötet?",
-          "en": "What did Imam al-Ṣādiq عليه السلام say about the liability of a woman who kills a man?",
-          "es": "¿Qué dijo el Imam al-Ṣādiq عليه السلام sobre la responsabilidad de una mujer que mata a un hombre?",
-          "fa": "امام صادق علیه‌السلام درباره مسئولیت زنی که مردی را می‌کشد چه فرمود؟",
-          "fr": "Que dit l’Imam al-Ṣādiq عليه السلام au sujet de la responsabilité d’une femme qui tue un homme ?",
-          "id": "Apa yang dikatakan Imam al-Ṣādiq عليه السلام tentang tanggung jawab seorang perempuan yang membunuh seorang laki-laki?",
-          "ru": "Что сказал имам ас-Садик عليه السلام об ответственности женщины, которая убивает мужчину?",
-          "tr": "İmam es-Sâdık عليه السلام, bir erkeği öldüren bir kadının sorumluluğu hakkında ne dedi?",
-          "ur": "امام الصادق علیہ السلام نے اس عورت کی ذمہ داری کے بارے میں کیا فرمایا جس نے ایک مرد کو قتل کیا؟",
-          "zh": "伊玛目萨迪格 عليه السلام关于一名杀死男子的妇女的责任说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে এমন একটি ঘটনার শরয়ি বিধান বর্ণিত হয়েছে, যেখানে একজন নারী একজন পুরুষকে হত্যা করে। ইমাম عليه السلام একটি নীতি উল্লেখ করেন যে অপরাধীর দায় তার নিজের সত্তার বাইরে যায় না, যা ফৌজদারি দায় ও কিসাসের সীমা নির্দেশ করে।",
-          "de": "Dieser Hadith enthält eine rechtliche Regelung für den Fall, dass eine Frau einen Mann tötet. Der Imam عليه السلام stellt das Prinzip auf, dass der Täter nicht über seine eigene Person hinaus haftet, was eine Grenze der strafrechtlichen Verantwortung und der Vergeltung aufzeigt.",
-          "en": "This hadith gives a legal ruling regarding a case in which a woman kills a man. The Imam عليه السلام states a principle that the perpetrator is not held liable beyond her own person, indicating a limit in criminal liability and retaliation.",
-          "es": "Este hadiz expone una norma jurídica sobre el caso en que una mujer mata a un hombre. El Imam عليه السلام establece un principio según el cual el autor no es responsable más allá de su propia persona, lo que indica un límite en la responsabilidad penal y en la represalia legal.",
-          "fa": "این حدیث درباره حکمی فقهی در مورد حالتی است که زنی مردی را می‌کشد. امام علیه‌السلام اصلی را بیان می‌کند که مسئولیتِ مرتکب از شخصِ خود او فراتر نمی‌رود و این، حدّ مسئولیت کیفری و قصاص را نشان می‌دهد.",
-          "fr": "Ce hadith énonce une règle juridique concernant le cas où une femme tue un homme. L’Imam عليه السلام établit un principe selon lequel l’auteur n’est pas tenu responsable au-delà de sa propre personne, ce qui indique une limite dans la responsabilité pénale et le talion.",
-          "id": "Hadis ini memberikan حكم hukum mengenai kasus ketika seorang perempuan membunuh seorang laki-laki. Imam عليه السلام menyatakan prinsip bahwa pelaku tidak dimintai tanggung jawab melebihi dirinya sendiri, yang menunjukkan batas dalam tanggung jawab pidana dan qisas.",
-          "ru": "Этот хадис содержит правовое постановление относительно случая, когда женщина убивает мужчину. Имам عليه السلام формулирует принцип, согласно которому виновный не несёт ответственности сверх собственной личности, что указывает на предел уголовной ответственности и возмездия.",
-          "tr": "Bu hadis, bir kadının bir erkeği öldürmesi durumuna dair fıkhî hükmü بیان eder. İmam عليه السلام, suçlunun sorumluluğunun kendi şahsını aşmadığı ilkesini ortaya koyar; bu da cezaî sorumluluk ve kısasın sınırını gösterir.",
-          "ur": "یہ حدیث اس صورت میں شرعی حکم بیان کرتی ہے جب ایک عورت ایک مرد کو قتل کرے۔ امام علیہ السلام ایک اصول بیان فرماتے ہیں کہ مجرم کی ذمہ داری اس کی اپنی ذات سے آگے نہیں بڑھتی، جس سے فوجداری ذمہ داری اور قصاص کی حد معلوم ہوتی ہے۔",
-          "zh": "这段圣训阐明了一个法律裁决，即当一名妇女杀死一名男子时的情况。伊玛目 عليه السلام提出一项原则：犯罪者的责任不超出其自身，这表明了刑事责任和报复性惩罚的界限。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

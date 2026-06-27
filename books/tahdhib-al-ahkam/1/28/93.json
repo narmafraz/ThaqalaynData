@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلْحُسَيْنُ بْنُ سَعِيدٍ عَنْ فَضَالَةَ عَنْ أَبَانِ بْنِ عُثْمَانَ عَنْ عَبْدِ اللَّهِ بْنِ مُحَمَّدِ بْنِ خَالِدٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ, ফাদালাহ থেকে, আবান ইবন উসমান থেকে, আব্দুল্লাহ ইবন মুহাম্মদ ইবন খালিদ থেকে, আবু আব্দুল্লাহ عليه السلام থেকে বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "Al-Husayn ibn Sa'id, von Fadalah, von Aban ibn 'Uthman, von 'Abd Allah ibn Muhammad ibn Khalid, von Abu 'Abd Allah عليه السلام, der sagte:",
-              "en": "Al-Husayn ibn Sa'id, from Fadalah, from Aban ibn 'Uthman, from 'Abd Allah ibn Muhammad ibn Khalid, from Abu 'Abd Allah عليه السلام, who said:",
-              "es": "Al-Husayn ibn Sa'id, de Fadalah, de Aban ibn 'Uthman, de 'Abd Allah ibn Muhammad ibn Khalid, de Abu 'Abd Allah عليه السلام, quien dijo:",
-              "fa": "الحسین بن سعید، از فضاله، از ابان بن عثمان، از عبد الله بن محمد بن خالد، از ابو عبد الله علیه السلام روایت کرد که فرمود:",
-              "fr": "Al-Husayn ibn Sa'id, d'après Fadalah, d'après Aban ibn 'Uthman, d'après 'Abd Allah ibn Muhammad ibn Khalid, d'après Abu 'Abd Allah عليه السلام, qui a dit :",
-              "id": "Al-Husayn ibn Sa'id, dari Fadalah, dari Aban ibn 'Uthman, dari 'Abd Allah ibn Muhammad ibn Khalid, dari Abu 'Abd Allah عليه السلام, yang berkata:",
-              "ru": "Аль-Хусайн ибн Са'ид, от Фадалы, от Абана ибн 'Усмана, от 'Абд Аллаха ибн Мухаммада ибн Халида, от Абу 'Абд Аллаха عليه السلام, который сказал:",
-              "tr": "El-Hüseyin ibn Sa'id, Fadalah'dan, Aban ibn 'Uthman'dan, 'Abd Allah ibn Muhammad ibn Khalid'den, Ebu 'Abd Allah عليه السلام'dan rivayet etti; o şöyle dedi:",
-              "ur": "الحسین بن سعید، فضالہ سے، ابان بن عثمان سے، عبد اللہ بن محمد بن خالد سے، ابو عبد اللہ علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "Al-HusaynibnSa'id，传自Fadalah，传自Abanibn'Uthman，传自'AbdAllahibnMuhammadibnKhalid，传自Abu'AbdAllah عليه السلام，他说："
-            },
             "word_end": 23,
             "word_start": 0
           },
           {
             "arabic_text": "«اَلْوَالِدُ لَا يَنْزِلُ فِي قَبْرِ وَلَدِهِ وَالْوَلَدُ يَنْزِلُ فِي قَبْرِ وَالِدِهِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“পিতা তার সন্তানের কবরে নামেন না, আর সন্তান তার পিতার কবরে নামে।”",
-              "de": "„Der Vater steigt nicht in das Grab seines Kindes hinab, während das Kind in das Grab seines Vaters hinabsteigt.“",
-              "en": "“The father does not descend into the grave of his child, while the child descends into the grave of his father.”",
-              "es": "“El padre no desciende a la tumba de su hijo, mientras que el hijo desciende a la tumba de su padre.”",
-              "fa": "«پدر در قبر فرزندش فرود نمی‌آید، در حالی که فرزند در قبر پدرش فرود می‌آید.»",
-              "fr": "« Le père ne descend pas dans la tombe de son enfant, tandis que l'enfant descend dans la tombe de son père. »",
-              "id": "“Ayah tidak turun ke dalam kubur anaknya, sedangkan anak turun ke dalam kubur ayahnya.”",
-              "ru": "«Отец не спускается в могилу своего ребенка, тогда как ребенок спускается в могилу своего отца.»",
-              "tr": "“Baba, çocuğunun kabrine inmez; çocuk ise babasının kabrine iner.”",
-              "ur": "“باپ اپنے بچے کی قبر میں نہیں اترتا، جبکہ بچہ اپنے باپ کی قبر میں اترتا ہے۔”",
-              "zh": "“父亲不下到自己孩子的坟墓中，而孩子则下到自己父亲的坟墓中。”"
-            },
             "word_end": 34,
             "word_start": 23
           }
@@ -114,26 +101,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْوَلَدُ": "the child; offspring in relation to the parent",
-            "اَلْوَالِدُ": "the father; the parent in relation to the child",
-            "قَبْرِ": "grave; the burial place of the deceased",
-            "وَالِدِهِ": "his father; his parent",
-            "وَلَدِهِ": "his child; his offspring",
-            "يَنْزِلُ": "descends; enters down into the grave"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "اَلْوَالِدُ",
+          "يَنْزِلُ",
+          "قَبْرِ",
+          "وَلَدِهِ",
+          "الْوَلَدُ",
+          "وَالِدِهِ"
+        ],
         "related_quran": [
           {
             "ref": "17:23",
@@ -148,32 +123,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী দাফনের সময় কবরের মধ্যে কে নামতে পারে?",
-          "de": "Wer darf diesem Hadith zufolge bei der Bestattung in das Grab hinabsteigen?",
-          "en": "Who may descend into the grave during burial according to this hadith?",
-          "es": "Según este hadiz, ¿quién puede descender a la tumba durante el entierro?",
-          "fa": "بر اساس این حدیث، هنگام دفن چه کسی می‌تواند در قبر فرود آید؟",
-          "fr": "Selon ce hadith, qui peut descendre dans la tombe lors de l'inhumation ?",
-          "id": "Menurut hadis ini, siapa yang boleh turun ke dalam kubur saat pemakaman?",
-          "ru": "Согласно этому хадису, кто может спускаться в могилу во время погребения?",
-          "tr": "Bu hadise göre defin sırasında kabre kim inebilir?",
-          "ur": "اس حدیث کے مطابق تدفین کے دوران قبر میں کون اتر سکتا ہے؟",
-          "zh": "根据这段圣训，安葬时谁可以下到坟墓中？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি দাফনের সময় কবরের মধ্যে কে নামবে—এ বিষয়ে জানাজা-সম্পর্কিত একটি বিধান উল্লেখ করে। এতে পিতা ও সন্তানের পারস্পরিক সম্পর্কের ক্ষেত্রে পার্থক্য করা হয়েছে, যা দাফনের আদব বা একটি নির্দিষ্ট শরঈ প্রথার ইঙ্গিত দেয়।",
-          "de": "Dieser Hadith nennt eine mit dem Begräbnis verbundene Regel darüber, wer bei der Bestattung in das Grab hinabsteigen soll. Er unterscheidet zwischen Vater und Kind in Bezug aufeinander und weist auf eine bestimmte Etikette oder rechtliche Praxis bei den Begräbnisriten hin.",
-          "en": "This hadith states a funeral-related ruling concerning who should descend into the grave during burial. It distinguishes between the father and the child in relation to one another, indicating a specific etiquette or legal practice in burial rites.",
-          "es": "Este hadiz establece una norma relacionada con el funeral acerca de quién debe descender a la tumba durante el entierro. Distingue entre el padre y el hijo en relación mutua, indicando una etiqueta o práctica legal específica en los ritos de sepultura.",
-          "fa": "این حدیث حکمی مربوط به مراسم دفن را بیان می‌کند که درباره این است چه کسی هنگام دفن در قبر فرود آید. در آن میان پدر و فرزند تفاوت گذاشته شده و به آداب یا یک عمل فقهی خاص در دفن اشاره دارد.",
-          "fr": "Ce hadith énonce une règle liée aux funérailles concernant la personne qui doit descendre dans la tombe lors de l'inhumation. Il distingue entre le père et l'enfant dans leur relation mutuelle, indiquant une convenance ou une pratique juridique spécifique dans les rites funéraires.",
-          "id": "Hadis ini menyatakan sebuah ketentuan terkait جنازه mengenai siapa yang boleh turun ke dalam kubur saat pemakaman. Hadis ini membedakan antara ayah dan anak dalam hubungan satu sama lain, yang menunjukkan adab atau praktik hukum tertentu dalam tata cara pemakaman.",
-          "ru": "Этот хадис устанавливает относящееся к похоронам предписание о том, кто должен спускаться в могилу во время погребения. В нем проводится различие между отцом и ребенком по отношению друг к другу, что указывает на определенный этикет или правовую практику в погребальных обрядах.",
-          "tr": "Bu hadis, defin sırasında kimin kabre inmesi gerektiğine dair cenazeyle ilgili bir hüküm بیان eder. Baba ile çocuk arasında bir ayrım yaparak defin adabı veya hukukî uygulamaya işaret eder.",
-          "ur": "یہ حدیث تدفین کے دوران قبر میں اترنے کے بارے میں ایک جنازہ سے متعلق حکم بیان کرتی ہے۔ اس میں باپ اور بچے کے باہمی تعلق کے حوالے سے فرق کیا گیا ہے، جو تدفین کے آداب یا شرعی عمل کی طرف اشارہ کرتا ہے۔",
-          "zh": "这段圣训说明了一项与葬礼有关的规定，即下葬时谁应下到坟墓中。它区分了父亲和孩子彼此之间的关系，表明了葬礼仪式中的特定礼仪或律法做法。"
-        },
         "tags": [
           "jurisprudence",
           "family",

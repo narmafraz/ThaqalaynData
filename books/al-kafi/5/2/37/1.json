@@ -13,6 +13,143 @@
       "up": "/books/al-kafi:5:2:37"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ الْحُسَيْنِ بْنِ سَعِيدٍ عَنْ عَلِيِّ بْنِ أَبِي حَمْزَةَ عَنْ أَبِي بَصِيرٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 20,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُ أَبَا جَعْفَرٍ ( عَلَيْهِ السَّلَامُ ) عَنْ كَسْبِ الْمُغَنِّيَاتِ فَقَالَ الَّتِي يَدْخُلُ عَلَيْهَا الرِّجَالُ حَرَامٌ وَ الَّتِي تُدْعَى إِلَى الْأَعْرَاسِ لَيَْ بِهَا بَأْسٌ",
+            "chunk_type": "body",
+            "word_end": 44,
+            "word_start": 20
+          },
+          {
+            "arabic_text": "وَهُوَ قَوْلُ اللَّهِ عَزَّ وَ جَلَّ وَ مِنَ النَّاسِ مَنْ يَشْتَرِي لَهْوَ الْحَدِيثِ لِيُضِلَّ عَنْ سَبِيلِ اللَّهِ",
+            "chunk_type": "quran_quote",
+            "word_end": 61,
+            "word_start": 44
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 21,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنِ بْنِ سَعِيدٍ",
+              "name_en": "al-Husayn b. Sa'id",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 57,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ أَبِي حَمْزَةَ",
+              "name_en": "Ali ibn Abi Hamza",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 14,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي بَصِيرٍ",
+              "name_en": "Abu Basir",
+              "position": 5,
+              "role": "companion"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "quranic_echo",
+            "phrase_ar": "سَبِيلُ اللَّهِ",
+            "phrase_en": "The way of Allah"
+          }
+        ],
+        "key_terms_keys": [
+          "كَسْب",
+          "مُغَنِّيَات",
+          "حَرَام",
+          "لَيْسَ بِهِ بَأْس",
+          "لَهْوَ الْحَدِيث",
+          "سَبِيلِ اللَّهِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "31:6",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "24:30",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "ethics",
+          "economy"
+        ],
+        "topics": [
+          "halal_haram",
+          "financial_law",
+          "womens_rights"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف على المشهور  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (9/80)"
       ],
@@ -89,7 +226,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:2:37:1",

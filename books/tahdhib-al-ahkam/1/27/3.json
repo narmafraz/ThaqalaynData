@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ الْحَكَمِ عَنْ أَبِي إِسْحَاقَ النَّحْوِيِّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন মুহাম্মদ, আলী ইবন আল-হাকাম থেকে, আবু ইসহাক আল-নাহ্‌বি থেকে, আবি আবদিল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Aḥmad ibn Muḥammad, von ʿAlī ibn al-Ḥakam, von Abū Isḥāq al-Naḥwī, von Abī ʿAbdillāh عليه السلام, der sagte:",
-              "en": "Aḥmad ibn Muḥammad, from ʿAlī ibn al-Ḥakam, from Abū Isḥāq al-Naḥwī, from Abī ʿAbdillāh عليه السلام, who said:",
-              "es": "Aḥmad ibn Muḥammad, de ʿAlī ibn al-Ḥakam, de Abū Isḥāq al-Naḥwī, de Abī ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "احمد بن محمد، از علی بن الحکم، از ابواسحاق نحوی، از ابی‌عبدالله علیه‌السلام که فرمود:",
-              "fr": "Aḥmad ibn Muḥammad, d’après ʿAlī ibn al-Ḥakam, d’après Abū Isḥāq al-Naḥwī, d’après Abī ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Aḥmad ibn Muḥammad, dari ʿAlī ibn al-Ḥakam, dari Abū Isḥāq al-Naḥwī, dari Abī ʿAbdillāh عليه السلام, yang berkata:",
-              "ru": "Ахмад ибн Мухаммад, от Али ибн аль-Хакама, от Абу Исхака ан-Нахви, от Аби Абдуллаха عليه السلام, который сказал:",
-              "tr": "Ahmed ibn Muhammed, Ali ibn el-Hakem’den, Ebu İshak en-Nahvî’den, Ebu Abdullah عليه السلام’dan rivayetle şöyle dedi:",
-              "ur": "احمد بن محمد، علی بن الحکم سے، ابو اسحاق النحوی سے، ابی عبداللہ علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "艾哈迈德·伊本·穆罕默德，传自阿里·伊本·阿勒-哈卡姆，传自阿布·伊斯哈格·阿勒-纳赫维，传自阿比·阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 18,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنِ الْبَوْلِ يُصِيبُ الْجَسَدَ، قَالَ: «صُبَّ عَلَيْهِ الْمَاءَ مَرَّتَيْنِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁকে শরীরে লাগা প্রস্রাব সম্পর্কে জিজ্ঞেস করলাম। তিনি বললেন: “এর ওপর দুইবার পানি ঢেলে দাও।”",
-              "de": "Ich fragte ihn nach Urin, der den Körper berührt. Er sagte: „Gieße zweimal Wasser darüber.“",
-              "en": "I asked him about urine that affects the body. He said: “Pour water over it twice.”",
-              "es": "Le pregunté acerca de la orina que afecta al cuerpo. Dijo: “Vierte agua sobre ello dos veces.”",
-              "fa": "از او درباره بولی که به بدن می‌رسد پرسیدم. فرمود: «دو بار بر آن آب بریز.»",
-              "fr": "Je l’ai interrogé au sujet de l’urine qui atteint le corps. Il a dit : « Verse de l’eau dessus deux fois. »",
-              "id": "Aku bertanya kepadanya tentang air kencing yang mengenai tubuh. Beliau bersabda: “Siramlah air ke atasnya dua kali.”",
-              "ru": "Я спросил его о моче, которая попадает на тело. Он сказал: «Полейте это водой дважды».",
-              "tr": "Ona bedene isabet eden idrarı sordum. Şöyle buyurdu: “Üzerine iki kez su dök.”",
-              "ur": "میں نے ان سے اس پیشاب کے بارے میں پوچھا جو جسم کو لگ جائے۔ انہوں نے فرمایا: “اس پر دو مرتبہ پانی بہا دو۔”",
-              "zh": "我问他关于沾到身体上的尿液。他说：“把水倒在上面两次。”"
-            },
             "word_end": 28,
             "word_start": 18
           }
@@ -104,25 +91,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْبَوْلِ": "urine; the substance causing ritual impurity in this ruling",
-            "الْجَسَدَ": "the body; the area affected by the impurity",
-            "الْمَاءَ": "water; the purifying substance used to remove najasah",
-            "صُبَّ": "pour; the commanded method of applying water",
-            "مَرَّتَيْنِ": "twice; the specified number of washings required"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْبَوْلِ",
+          "الْجَسَدَ",
+          "صُبَّ",
+          "الْمَاءَ",
+          "مَرَّتَيْنِ"
+        ],
         "related_quran": [
           {
             "ref": "5:6",
@@ -133,32 +108,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام-এর মতে শরীরে প্রস্রাব লাগলে কীভাবে তা পবিত্র করা উচিত?",
-          "de": "Wie soll der Körper gereinigt werden, wenn Urin darauf gelangt, gemäß Imam al-Ṣādiq عليه السلام?",
-          "en": "How should the body be purified if urine gets on it according to Imam al-Ṣādiq عليه السلام?",
-          "es": "¿Cómo debe purificarse el cuerpo si la orina cae sobre él según el Imam al-Ṣādiq عليه السلام?",
-          "fa": "طبق نظر امام صادق علیه‌السلام اگر بول به بدن برسد، چگونه باید آن را پاک کرد؟",
-          "fr": "Comment purifier le corps si de l’urine s’y dépose selon l’imam al-Ṣādiq عليه السلام ?",
-          "id": "Bagaimana cara menyucikan tubuh jika air kencing mengenai tubuh menurut Imam al-Ṣādiq عليه السلام?",
-          "ru": "Как следует очищать тело, если на него попала моча, согласно имаму ас-Садику عليه السلام?",
-          "tr": "İmam es-Sâdık عليه السلام’a göre idrar bedene bulaşırsa nasıl temizlenmelidir?",
-          "ur": "امام الصادق علیہ السلام کے مطابق اگر جسم پر پیشاب لگ جائے تو اسے کیسے پاک کیا جائے؟",
-          "zh": "根据伊玛目阿尔-萨迪格 عليه السلام，如果尿液沾到身体上，应如何净化？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে শরীরে প্রস্রাব লাগলে পবিত্র হওয়ার শরঈ বিধান বর্ণিত হয়েছে। ইমাম আল-সাদিক عليه السلام নির্দেশ দেন যে আক্রান্ত স্থানে দুইবার পানি ঢালা উচিত।",
-          "de": "Dieser Hadith enthält eine rechtliche Regel zur Reinigung, wenn Urin den Körper berührt. Imam al-Ṣādiq عليه السلام weist an, zweimal Wasser über die betroffene Stelle zu gießen.",
-          "en": "This hadith gives a legal ruling regarding purification when urine comes into contact with the body. Imam al-Ṣādiq عليه السلام instructs that water should be poured over the affected area twice, indicating the method of removing this najasah.",
-          "es": "Este hadiz expone una norma legal sobre la purificación cuando la orina entra en contacto con el cuerpo. El Imam al-Ṣādiq عليه السلام instruye que se vierta agua sobre la zona afectada dos veces.",
-          "fa": "این حدیث حکم شرعیِ طهارت را در صورتی بیان می‌کند که بول با بدن تماس پیدا کند. امام صادق علیه‌السلام دستور می‌دهند که آب دو بار بر محل آلوده ریخته شود.",
-          "fr": "Ce hadith énonce une règle juridique concernant la purification lorsque l’urine entre en contact avec le corps. L’imam al-Ṣādiq عليه السلام ordonne de verser de l’eau sur la partie touchée deux fois.",
-          "id": "Hadis ini memberikan hukum fikih tentang penyucian ketika air kencing mengenai tubuh. Imam al-Ṣādiq عليه السلام memerintahkan agar air dituangkan ke bagian yang terkena sebanyak dua kali.",
-          "ru": "Этот хадис разъясняет правовое постановление о очищении, когда моча попадает на тело. Имам ас-Садик عليه السلام велит дважды полить поражённое место водой.",
-          "tr": "Bu hadis, idrar bedene temas ettiğinde taharet hükmünü بیان eder. İmam es-Sâdık عليه السلام, etkilenen bölgenin üzerine iki kez su dökülmesini emreder.",
-          "ur": "یہ حدیث اس حکمِ شرعی کو بیان کرتی ہے کہ جب پیشاب جسم کو لگ جائے تو پاکیزگی کے لیے متاثرہ جگہ پر دو مرتبہ پانی بہایا جائے۔ امام الصادق علیہ السلام اسی طریقے کی ہدایت فرماتے ہیں۔",
-          "zh": "这段圣训阐明了当尿液接触身体时的净化教法律例。伊玛目阿尔-萨迪格 عليه السلام指示应将水倒在受影响的部位两次。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

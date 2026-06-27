@@ -21,80 +21,41 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ مُحَمَّدِ بْنِ إِسْمَاعِيلَ عَنْ مُحَمَّدِ بْنِ الْفُضَيْلِ عَنْ أَبِي الْحَسَنِ عَلَيْهِ السَّلَامُ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আমাদের কয়েকজন সঙ্গী, আহমদ ইবন মুহাম্মদ থেকে, মুহাম্মদ ইবন ইসমাঈল থেকে, মুহাম্মদ ইবন আল-ফুদাইল থেকে, আবু আল-হাসান عليه السلام থেকে।",
-              "de": "Eine Anzahl unserer Gefährten, von Ahmad ibn Muhammad, von Muhammad ibn Isma'il, von Muhammad ibn al-Fudayl, von Abu al-Hasan عليه السلام.",
-              "en": "A number of our companions, from Aḥmad ibn Muḥammad, from Muḥammad ibn Ismāʿīl, from Muḥammad ibn al-Fuḍayl, from Abū al-Ḥasan عليه السلام.",
-              "es": "Un número de nuestros compañeros, de Ahmad ibn Muhammad, de Muhammad ibn Isma'il, de Muhammad ibn al-Fudayl, de Abu al-Hasan عليه السلام.",
-              "fa": "تعدادی از یاران ما، از احمد بن محمد، از محمد بن اسماعیل، از محمد بن الفضیل، از ابوالحسن علیه السلام.",
-              "fr": "Un certain nombre de nos compagnons, d'Ahmad ibn Muhammad, de Muhammad ibn Isma'il, de Muhammad ibn al-Fudayl, d'Abu al-Hasan عليه السلام.",
-              "id": "Sejumlah sahabat kami, dari Ahmad ibn Muhammad, dari Muhammad ibn Isma'il, dari Muhammad ibn al-Fudayl, dari Abu al-Hasan عليه السلام.",
-              "ru": "Некоторые из наших сподвижников, от Ахмада ибн Мухаммада, от Мухаммада ибн Исма'ила, от Мухаммада ибн аль-Фудайля, от Абу аль-Хасана عليه السلام.",
-              "tr": "Ashabımızdan bir grup, Ahmed ibn Muhammed'den, Muhammed ibn İsmail'den, Muhammed ibn el-Fudayl'dan, Ebu'l-Hasan عليه السلام'dan.",
-              "ur": "ہمارے چند اصحاب، احمد بن محمد سے، محمد بن اسماعیل سے، محمد بن الفضیل سے، ابو الحسن علیہ السلام سے۔",
-              "zh": "我们的一些同伴，传自AhmadibnMuhammad，传自MuhammadibnIsma'il，传自Muhammadibnal-Fudayl，传自Abual-Hasan عليه السلام。"
-            },
             "word_end": 20,
             "word_start": 0
           },
           {
             "arabic_text": "فِي قَوْلِهِ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "তাঁর বাণী সম্পর্কে:",
-              "de": "Über Seine Worte:",
-              "en": "Regarding His words:",
-              "es": "Acerca de Sus palabras:",
-              "fa": "درباره سخن او:",
-              "fr": "Au sujet de Ses paroles :",
-              "id": "Tentang firman-Nya:",
-              "ru": "О Его словах:",
-              "tr": "Onun şu sözü hakkında:",
-              "ur": "اس کے قول کے بارے میں:",
-              "zh": "关于他的这句话："
-            },
             "word_end": 22,
             "word_start": 20
           },
           {
             "arabic_text": "وَأَنَّ الْمَسَاجِدَ لِلَّهِ فَلَا تَدْعُوا مَعَ اللَّهِ أَحَدًا",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "আর মসজিদসমূহ আল্লাহরই জন্য, অতএব আল্লাহর সঙ্গে কাউকে ডেকো না।",
-              "de": "Und dass die Moscheen Allah gehören; so ruft neben Allah niemanden an.",
-              "en": "And that the masjids are Allah's, therefore do not call upon anyone along with Allah.",
-              "es": "Y que las mezquitas pertenecen a Allah; por tanto, no invoquéis a nadie junto con Allah.",
-              "fa": "و اینکه مسجدها از آنِ خداست، پس با خدا هیچ‌کس را نخوانید.",
-              "fr": "Et que les mosquées appartiennent à Allah ; n'invoquez donc personne avec Allah.",
-              "id": "Dan bahwa masjid-masjid itu milik Allah, maka janganlah kamu menyeru siapa pun bersama Allah.",
-              "ru": "И что мечети принадлежат Аллаху, так не призывайте никого наряду с Аллахом.",
-              "tr": "Ve mescidlerin Allah'a ait olduğu; öyleyse Allah ile birlikte hiç kimseye dua etmeyin.",
-              "ur": "اور یہ کہ مساجد اللہ ہی کے لیے ہیں، پس اللہ کے ساتھ کسی اور کو نہ پکارو۔",
-              "zh": "并且清真寺只属于真主，所以不要与真主一起祈求任何人。"
-            },
             "word_end": 30,
             "word_start": 22
           },
           {
             "arabic_text": "قَالَ هُمُ الْأَوْصِيَاءُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি عليه السلام বললেন: \"তারা হলেন ওসিয়্যগণ।\"",
-              "de": "Er عليه السلام sagte: „Sie sind die Nachfolger.“",
-              "en": "He عليه السلام said: \"They are the successors.\"",
-              "es": "Él عليه السلام dijo: \"Ellos son los sucesores.\"",
-              "fa": "فرمود علیه السلام: «ایشان اوصیا هستند.»",
-              "fr": "Il عليه السلام a dit : « Ce sont les successeurs. »",
-              "id": "Beliau عليه السلام bersabda: \"Mereka adalah para wasi.\"",
-              "ru": "Он عليه السلام сказал: «Они — преемники».",
-              "tr": "O عليه السلام şöyle buyurdu: \"Onlar vasîlerdir.\"",
-              "ur": "انہوں نے علیہ السلام فرمایا: \"وہ اوصیاء ہیں۔\"",
-              "zh": "他 عليه السلام说：“他们就是继承者。”"
-            },
             "word_end": 33,
             "word_start": 30
           }
@@ -157,25 +118,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَحَدًا": "anyone at all",
-            "الْأَوْصِيَاءُ": "the successors, i.e. the divinely designated successors",
-            "الْمَسَاجِدَ": "the masjids; interpreted here in a deeper referential sense",
-            "فَلَا تَدْعُوا": "so do not invoke or call upon",
-            "لِلَّهِ": "belonging exclusively to Allah"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمَسَاجِدَ",
+          "لِلَّهِ",
+          "فَلَا تَدْعُوا",
+          "أَحَدًا",
+          "الْأَوْصِيَاءُ"
+        ],
         "related_quran": [
           {
             "ref": "4:59",
@@ -190,32 +139,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আবু আল-হাসান عليه السلام কীভাবে “আর মসজিদসমূহ আল্লাহরই জন্য” আয়াতটির ব্যাখ্যা করেছেন?",
-          "de": "Wie deutet Imam Abu al-Hasan عليه السلام den Vers „Und dass die Moscheen Allah gehören“?",
-          "en": "How does Imam Abū al-Ḥasan عليه السلام interpret the verse \"And that the masjids are Allah's\"?",
-          "es": "¿Cómo interpreta el Imam Abu al-Hasan عليه السلام el versículo \"Y que las mezquitas pertenecen a Allah\"?",
-          "fa": "امام ابوالحسن علیه السلام آیه «و اینکه مسجدها از آنِ خداست» را چگونه تفسیر می‌کند؟",
-          "fr": "Comment l'imam Abu al-Hasan عليه السلام interprète-t-il le verset « Et que les mosquées appartiennent à Allah » ?",
-          "id": "Bagaimana Imam Abu al-Hasan عليه السلام menafsirkan ayat \"Dan bahwa masjid-masjid itu milik Allah\"?",
-          "ru": "Как имам Абу аль-Хасан عليه السلام толкует аят «И что мечети принадлежат Аллаху»?",
-          "tr": "İmam Ebu'l-Hasan عليه السلام \"Ve mescidlerin Allah'a ait olduğu\" ayetini nasıl yorumladı?",
-          "ur": "امام ابو الحسن علیہ السلام نے آیت \"اور یہ کہ مساجد اللہ ہی کے لیے ہیں\" کی کیسے تفسیر کی؟",
-          "zh": "伊玛目Abual-Hasan عليه السلام如何解释“并且清真寺只属于真主”这节经文？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে আয়াতটির ব্যাখ্যা হিসেবে “মসজিদসমূহ”-কে “ওসিয়্যগণ” হিসেবে চিহ্নিত করা হয়েছে। এতে ওয়িলায়াত-কেন্দ্রিক একটি পাঠকে তুলে ধরা হয়েছে, যেখানে আয়াতটি আল্লাহর পক্ষ থেকে নিযুক্ত কর্তৃত্ব এবং আল্লাহর ইবাদতের সঙ্গে তাদের পবিত্র মর্যাদার দিকে ইঙ্গিত করে।",
-          "de": "Dieser Hadith bietet eine Auslegung des Verses, indem er „die Moscheen“ mit den awsiya' (Nachfolgern) identifiziert. Er hebt eine auf Wilayah ausgerichtete Lesart hervor, in der der Vers auf göttlich eingesetzte Autoritäten und ihren heiligen Rang im Verhältnis zur Hingabe an Allah verweist.",
-          "en": "This hadith presents an interpretation of the verse by identifying \"the masjids\" with the awsiya' (successors). It highlights a Wilayah-centered reading in which the verse points to divinely appointed authorities and their sacred status in relation to devotion to Allah.",
-          "es": "Este hadiz presenta una interpretación del versículo al identificar \"las mezquitas\" con los awsiya' (sucesores). Destaca una lectura centrada en la Wilayah, en la que el versículo señala a autoridades नियुक्तadas divinamente y su estatus sagrado en relación con la devoción a Allah.",
-          "fa": "این حدیث با معرفی «مساجد» به عنوان «اوصیا»، تفسیری از آیه ارائه می‌دهد. این روایت، خوانشی مبتنی بر ولایت را برجسته می‌کند که در آن آیه به صاحبانِ منصبِ الهی و جایگاه مقدس آنان در نسبت با بندگی خدا اشاره دارد.",
-          "fr": "Ce hadith présente une interprétation du verset en identifiant « les mosquées » aux awsiya' (successeurs). Il met en avant une lecture centrée sur la Wilayah, selon laquelle le verset renvoie à des autorités désignées par Dieu et à leur statut sacré en relation avec la dévotion à Allah.",
-          "id": "Hadis ini menyajikan penafsiran atas ayat dengan mengidentifikasi \"masjid-masjid\" sebagai para awsiya'. Ini menonjolkan pembacaan yang berpusat pada wilayah, di mana ayat itu menunjuk kepada otoritas yang ditetapkan secara ilahi dan kedudukan suci mereka dalam kaitannya dengan penghambaan kepada Allah.",
-          "ru": "Этот хадис предлагает толкование аята, отождествляя «мечети» с awsiya' (преемниками). Он подчёркивает основанное на вилайе прочтение, согласно которому аят указывает на божественно назначенных властей и их священный статус в связи с поклонением Аллаху.",
-          "tr": "Bu hadis, ayeti \"vasîler\"i belirleyerek yorumlar. Ayetin, ilahî olarak tayin edilmiş otoriteleri ve Allah'a kullukla ilişkili kutsal konumlarını işaret ettiği, velayet merkezli bir okuma ortaya koyar.",
-          "ur": "یہ حدیث آیت کی تفسیر اوصیاء کی تعیین کے ذریعے پیش کرتی ہے، اور ایک ولایتی قراءت کو نمایاں کرتی ہے جس میں آیت اللہ کی طرف سے مقرر کردہ مقتدر ہستیوں اور اللہ کی عبادت کے ساتھ ان کے مقدس مقام کی طرف اشارہ کرتی ہے۔",
-          "zh": "这段圣训通过将“清真寺”解释为awsiya'（继承者）来阐释经文。它强调一种以Wilayah为中心的理解，即经文指向真主所任命的权威及其与敬拜真主相关的神圣地位。"
-        },
         "tags": [
           "quran_commentary",
           "theology",

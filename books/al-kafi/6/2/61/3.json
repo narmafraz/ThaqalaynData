@@ -14,6 +14,148 @@
       "up": "/books/al-kafi:6:2:61"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "حُمَيْدٌ عَنِ ابْنِ سَمَاعَةَ عَنِ ابْنِ رِبَاطٍ عَنْ عِيصِ بْنِ الْقَاسِمِ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 20,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُهُ عَنْ رَجُلٍ خَيَّرَ امْرَأَتَهُ فَاخْتَارَتْ نَفْسَهَا بَانَتْ مِنْهُ",
+            "chunk_type": "body",
+            "word_end": 29,
+            "word_start": 20
+          },
+          {
+            "arabic_text": "قَالَ لَا إِنَّمَا هَذَا شَيْءٌ كَانَ لِرَسُولِ اللَّهِ ( صَلَّى اللَّهِ عَلَيْهِ وَآلِهِ ) خَاصَّةً أُمِرَ بِذَلِكَ فَفَعَلَ",
+            "chunk_type": "body",
+            "word_end": 47,
+            "word_start": 29
+          },
+          {
+            "arabic_text": "وَلَوِ اخْتَرْنَ أَنْفُسَهُنَّ لَطَلَّقَهُنَّ",
+            "chunk_type": "body",
+            "word_end": 51,
+            "word_start": 47
+          },
+          {
+            "arabic_text": "وَهُوَ قَوْلُ اللَّهِ عَزَّ وَ جَلَّ قُلْ لِأَزْوَاجِكَ إِنْ كُنْتُنَّ تُرِدْنَ الْحَيَاةَ الدُّنْيَا وَ زِينَتَهَا فَتَعَالَيْنَ أُمَتِّعْكُمْ وَ أُسَرِّحْكُمْ سَرَاحًا جَمِيلًا",
+            "chunk_type": "quran_quote",
+            "word_end": 72,
+            "word_start": 51
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 395,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "حُمَيْدٌ",
+              "name_en": "Humayd",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 107,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ سَمَاعَةَ",
+              "name_en": "Ibn Sama'a",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 413,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ رِبَاطٍ",
+              "name_en": "Ibn Ribat",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 265,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِيصِ بْنِ الْقَاسِمِ",
+              "name_en": "Isa b. al-Qasim",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "خَيَّرَ",
+          "بَانَتْ",
+          "خَاصَّةً",
+          "سَرَاحًا جَمِيلًا"
+        ],
+        "related_quran": [
+          {
+            "ref": "33:28",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "33:29",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family",
+          "quran_commentary"
+        ],
+        "topics": [
+          "marriage_family_law",
+          "spousal_rights",
+          "prophetic_character"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> موثق   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (1/230)"
       ],
@@ -90,7 +232,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:2:61:3",

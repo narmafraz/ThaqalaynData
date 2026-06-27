@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ عَلَيْهِ السَّلَامُ :",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তিনি, সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম, বললেন:",
-              "de": "Und er, Friede sei mit ihm, sagte:",
-              "en": "And he, peace be upon him, said:",
-              "es": "Y él, la paz sea con él, dijo:",
-              "fa": "و او، سلام‌الله‌علیه، فرمود:",
-              "fr": "Et lui, que la paix soit sur lui, a dit :",
-              "id": "Dan beliau, semoga keselamatan atasnya, berkata:",
-              "ru": "И он, мир ему, сказал:",
-              "tr": "Ve o, Allah'ın selamı üzerine olsun, dedi ki:",
-              "ur": "اور انہوں نے، علیہ السلام، فرمایا:",
-              "zh": "他，愿他平安， 说："
-            },
             "word_end": 5,
             "word_start": 0
           },
           {
             "arabic_text": "«لَا يَزَالُ الرَّجُلُ الْمُسْلِمُ يُكْتَبُ مُحْسِنًا مَا دَامَ سَاكِتًا فَإِذَا تَكَلَّمَ كُتِبَ مُحْسِنًا أَوْ مُسِيئًا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন মুসলিম পুরুষ যতক্ষণ নীরব থাকে ততক্ষণ তাকে সদকর্মী হিসেবে লেখা হয়; তারপর যখন সে কথা বলে, তখন তাকে সদকর্মী বা দুষ্টকর্মী হিসেবে লেখা হয়।",
-              "de": "Ein muslimischer Mann wird weiterhin als Guter verzeichnet, solange er schweigt; wenn er dann spricht, wird er entweder als Guter oder als Schlechter verzeichnet.",
-              "en": "A Muslim man continues to be recorded as a doer of good so long as he remains silent; then when he speaks, he is recorded either as a doer of good or as a doer of evil.",
-              "es": "Un hombre musulmán continúa siendo registrado como un hacedor de bien mientras permanezca en silencio; luego, cuando habla, se le registra como hacedor de bien o de mal.",
-              "fa": "یک مرد مسلمان تا زمانی که ساکت بماند به عنوان نیکوکار ثبت می‌شود؛ سپس وقتی صحبت می‌کند، یا به عنوان نیکوکار یا بدکار ثبت می‌شود.",
-              "fr": "Un homme musulman continue d'être enregistré comme un bienfaiteur tant qu'il reste silencieux ; puis, lorsqu'il parle, il est enregistré soit comme un bienfaiteur, soit comme un malfaiteur.",
-              "id": "Seorang pria Muslim terus dicatat sebagai orang yang berbuat baik selama dia tetap diam; kemudian ketika dia berbicara, dia dicatat sebagai orang yang berbuat baik atau berbuat jahat.",
-              "ru": "Мусульманин продолжает записываться как творящий добро, пока молчит; когда же он говорит, его записывают либо как творящего добро, либо как творящего зло.",
-              "tr": "Bir Müslüman erkek, sessiz kaldığı sürece hayır işleyen olarak kaydedilmeye devam eder; sonra konuştuğunda, ya hayır işleyen ya da kötü işleyen olarak kaydedilir.",
-              "ur": "ایک مسلمان مرد ہمیشہ نیک کام کرنے والے کے طور پر لکھا جاتا رہتا ہے جب تک کہ وہ خاموش رہے؛ پھر جب وہ بولتا ہے، تو اسے یا تو نیک کام کرنے والے کے طور پر یا برے کام کرنے والے کے طور پر لکھا جاتا ہے۔",
-              "zh": "一个穆斯林男子只要保持沉默，就持续被记录为行善者；当他说话时，他的话语要么被记录为行善，要么被记录为作恶。"
-            },
             "word_end": 20,
             "word_start": 5
           }
@@ -70,24 +57,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الرَّجُلُ الْمُسْلِمُ": "the Muslim man, meaning the believer whose conduct is morally accountable",
-            "سَاكِتًا": "remaining silent, refraining from speech",
-            "مُحْسِنًا": "recorded as one who does good",
-            "مُسِيئًا": "recorded as one who does evil"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الرَّجُلُ الْمُسْلِمُ",
+          "مُحْسِنًا",
+          "سَاكِتًا",
+          "مُسِيئًا"
+        ],
         "related_quran": [
           {
             "ref": "50:18",
@@ -102,32 +77,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস ইসলাম ধর্মে নীরবতা ও কথা বলার বিষয়ে কী শিক্ষা দেয়?",
-          "de": "Was lehrt dieser Hadith über Schweigen und Sprechen im Islam?",
-          "en": "What does this hadith teach about silence and speaking in Islam?",
-          "es": "¿Qué enseña este hadiz sobre el silencio y el hablar en el Islam?",
-          "fa": "این حدیث درباره سکوت و سخن گفتن در اسلام چه می‌آموزد؟",
-          "fr": "Que nous enseigne ce hadith sur le silence et la parole en Islam ?",
-          "id": "Apa yang diajarkan hadis ini tentang diam dan berbicara dalam Islam?",
-          "ru": "Что этот хадис учит о молчании и речи в исламе?",
-          "tr": "Bu hadis İslam'da suskunluk ve konuşma hakkında ne öğretir?",
-          "ur": "یہ حدیث اسلام میں خاموشی اور بولنے کے بارے میں کیا تعلیم دیتی ہے؟",
-          "zh": "这段圣训关于伊斯兰中的沉默与言语教导了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস নীরবতার নৈতিক মূল্য এবং বাক্যের নৈতিক গুরুত্ব শেখায়। একজন মুসলিম ক্ষতিকর কথা থেকে বিরত থাকলে সদকর্মীদের মধ্যে গণ্য হয়, কিন্তু যখন সে কথা বলে, তার কথা সদকর্মী বা দুষ্টকর্মী হিসেবে বিচার করা হয়।",
-          "de": "Dieser Hadith lehrt den ethischen Wert des Schweigens und das moralische Gewicht der Rede. Ein Muslim wird zu den Guten gezählt, solange er schädliche Rede vermeidet, aber sobald er spricht, werden seine Worte als gut oder böse beurteilt.",
-          "en": "This hadith teaches the ethical value of silence and the moral weight of speech. A Muslim is counted among the doers of good while refraining from harmful speech, but once he speaks, his words are judged as either good or evil.",
-          "es": "Este hadiz enseña el valor ético del silencio y el peso moral del habla. Un musulmán se cuenta entre los hacedores de bien mientras se abstiene de hablar dañino, pero una vez que habla, sus palabras se juzgan como buenas o malas.",
-          "fa": "این حدیث ارزش اخلاقی سکوت و وزن اخلاقی سخن گفتن را آموزش می‌دهد. یک مسلمان در شمار نیکوکاران است تا زمانی که از سخنان مضر خودداری کند، اما وقتی سخن می‌گوید، کلماتش به عنوان نیک یا بد قضاوت می‌شود.",
-          "fr": "Ce hadith enseigne la valeur éthique du silence et le poids moral de la parole. Un musulman est compté parmi les bienfaiteurs tant qu'il s'abstient de paroles nuisibles, mais une fois qu'il parle, ses paroles sont jugées bonnes ou mauvaises.",
-          "id": "Hadis ini mengajarkan nilai etis dari diam dan bobot moral dari berbicara. Seorang Muslim dihitung di antara orang-orang yang berbuat baik selama ia menahan diri dari ucapan yang berbahaya, tetapi ketika ia berbicara, kata-katanya dinilai baik atau buruk.",
-          "ru": "Этот хадис учит этической ценности молчания и моральной значимости речи. Мусульманин считается творящим добро, пока воздерживается от вредных слов, но когда он говорит, его слова оцениваются как хорошие или плохие.",
-          "tr": "Bu hadis, suskunluğun etik değerini ve konuşmanın ahlaki ağırlığını öğretir. Bir Müslüman, zararlı konuşmalardan kaçındığı sürece hayır işleyenler arasında sayılır; ancak konuştuğunda sözleri ya iyi ya da kötü olarak değerlendirilir.",
-          "ur": "یہ حدیث خاموشی کی اخلاقی قدر اور کلام کے اخلاقی وزن کی تعلیم دیتی ہے۔ ایک مسلمان نیک کام کرنے والوں میں شمار ہوتا ہے جب تک کہ وہ نقصان دہ باتوں سے باز رہے، لیکن جب وہ بولتا ہے تو اس کے الفاظ کو نیک یا بد کے طور پر پرکھا جاتا ہے۔",
-          "zh": "这段圣训教导了沉默的伦理价值和言语的道德分量。穆斯林在避免有害言语时被视为行善者，但一旦开口，他的话语就被评判为善或恶。"
-        },
         "tags": [
           "ethics",
           "social_relations",

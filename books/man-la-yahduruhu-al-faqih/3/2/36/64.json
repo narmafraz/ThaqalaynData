@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى الْحُسَيْنُ الْأَحْمَسِيُّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং আল-হুসাইন আল-আহমাসি আবু আবদুল্লাহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Und al-Husayn al-Ahmasi berichtete von Abu Abdullah عليه السلام, der sagte:",
-              "en": "And al-Husayn al-Ahmasi narrated from Abu Abdullah عليه السلام, who said:",
-              "es": "Y al-Husayn al-Ahmasi narró de Abu Abdullah عليه السلام, quien dijo:",
-              "fa": "و حسین الاحمسی از ابو عبدالله علیه السلام روایت کرد که فرمود:",
-              "fr": "Et al-Husayn al-Ahmasi a rapporté de Abu Abdullah عليه السلام, qui a dit :",
-              "id": "Dan al-Husayn al-Ahmasi meriwayatkan dari Abu Abdullah علیه السلام, yang berkata:",
-              "ru": "Аль-Хусейн аль-Ахмаси передал от Абу Абдуллаха عليه السلام, который сказал:",
-              "tr": "Ve el-Hüseyin el-Ahmasî, Ebu Abdullah'a عليه السلام'dan rivayet etti, şöyle dedi:",
-              "ur": "اور الحُسین الاحمسی نے ابو عبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "而且الحسينالأحمسي从أبوعبداللهعليهالسلام传述，他说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "هُوَ الِاسْمُ وَ لَا يُؤْمَنُ عَلَيْهِ إِلَّا مُسْلِمٌ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এটি নাম, এবং এর প্রতি শুধুমাত্র একজন মুসলিমই বিশ্বাসযোগ্য।",
-              "de": "Es ist der Name, und nur ein Muslim darf darauf vertraut werden.",
-              "en": "It is the name, and none is to be trusted with it except a Muslim.",
-              "es": "Es el nombre, y nadie debe confiarse en ello excepto un musulmán.",
-              "fa": "این نام است و تنها مسلمان است که می‌توان به او اعتماد کرد.",
-              "fr": "C'est le nom, et personne ne doit y être confié sauf un musulman.",
-              "id": "Itulah nama, dan tidak ada yang dapat dipercaya dengannya kecuali seorang Muslim.",
-              "ru": "Это имя, и доверять ему можно только мусульманину.",
-              "tr": "O isimdir ve ona sadece bir Müslüman güvenilir.",
-              "ur": "یہ نام ہے، اور اس پر صرف مسلمان ہی بھروسہ کیا جا سکتا ہے۔",
-              "zh": "这是名字，只有穆斯林才可被信任。"
-            },
             "word_end": 19,
             "word_start": 11
           }
@@ -91,24 +78,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبِي عَبْدِ اللَّهِ": "Abu Abdullah, the Imam transmitting the ruling",
-            "الِاسْمُ": "the name, meaning the verbal mention required in context",
-            "مُسْلِمٌ": "a Muslim, the one accepted as trustworthy in this matter",
-            "يُؤْمَنُ": "is trusted or relied upon"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الِاسْمُ",
+          "يُؤْمَنُ",
+          "مُسْلِمٌ",
+          "أَبِي عَبْدِ اللَّهِ"
+        ],
         "related_quran": [
           {
             "ref": "6:118",
@@ -119,32 +94,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিকার ও জবাইয়ের ক্ষেত্রে নাম উচ্চারণে কার উপর বিশ্বাস করা যায়?",
-          "de": "Wer kann beim Aussprechen des Namens in Angelegenheiten der Jagd und Schlachtung vertraut werden?",
-          "en": "Who can be trusted to pronounce the name in matters of hunting and slaughtering?",
-          "es": "¿Quién puede ser confiable para pronunciar el nombre en asuntos de caza y sacrificio?",
-          "fa": "در امور شکار و ذبح، چه کسی را می‌توان به تلفظ صحیح نام اعتماد کرد؟",
-          "fr": "Qui peut être digne de confiance pour prononcer le nom dans les affaires de chasse et d'abattage ?",
-          "id": "Siapa yang dapat dipercaya untuk mengucapkan nama dalam urusan berburu dan penyembelihan?",
-          "ru": "Кому можно доверять произнесение имени в вопросах охоты и забоя?",
-          "tr": "Avcılık ve kesim işlerinde ismi doğru telaffuz etmekte kim güvenilir?",
-          "ur": "شکار اور ذبح کے معاملات میں نام کو کون صحیح طریقے سے بولنے پر بھروسہ کیا جا سکتا ہے؟",
-          "zh": "在狩猎和宰杀事务中，谁可被信赖念诵名字？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে বিষয়টি নাম উচ্চারণের, এবং এতে শুধুমাত্র একজন মুসলিমের উপর নির্ভর করা হয়। শিকার ও জবাইয়ের প্রসঙ্গে, এটি নাম সঠিকভাবে উচ্চারণের সাথে সম্পর্কিত একটি শারঈ শর্ত নির্দেশ করে।",
-          "de": "Dieser Hadith besagt, dass es um das Aussprechen des Namens geht und dass nur einem Muslim darin vertraut wird. Im Kontext von Jagd und Schlachtung weist er auf eine rechtliche Bedingung hin, die mit der richtigen Anrufung des Namens verbunden ist.",
-          "en": "This hadith states that the matter in question is the pronouncing of the name, and that only a Muslim is relied upon regarding it. In the context of hunting and slaughtering, it indicates a legal condition tied to invoking the name properly.",
-          "es": "Este hadiz establece que el asunto en cuestión es la pronunciación del nombre, y que solo se confía en un musulmán para ello. En el contexto de la caza y el sacrificio, indica una condición legal vinculada a invocar el nombre correctamente.",
-          "fa": "این حدیث بیان می‌کند که موضوع مربوط به تلفظ نام است و تنها به مسلمان اعتماد می‌شود. در زمینه شکار و ذبح، این نشان‌دهنده یک شرط شرعی مرتبط با به درستی بردن نام است.",
-          "fr": "Ce hadith indique que la question porte sur la prononciation du nom, et que seul un musulman est digne de confiance à ce sujet. Dans le contexte de la chasse et de l'abattage, cela indique une condition légale liée à l'invocation correcte du nom.",
-          "id": "Hadis ini menyatakan bahwa perkara tersebut adalah pengucapan nama, dan hanya seorang Muslim yang dapat dipercaya dalam hal itu. Dalam konteks berburu dan penyembelihan, ini menunjukkan syarat hukum yang terkait dengan menyebut nama dengan benar.",
-          "ru": "Этот хадис утверждает, что речь идет о произнесении имени, и доверять в этом можно только мусульманину. В контексте охоты и забоя это указывает на юридическое условие, связанное с правильным произнесением имени.",
-          "tr": "Bu hadis, meselenin ismin telaffuz edilmesi olduğunu ve sadece bir Müslümana güvenildiğini belirtir. Avcılık ve kesim bağlamında, ismin doğru şekilde anılmasına bağlı yasal bir şartı ifade eder.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ معاملہ نام کے تلفظ کا ہے، اور اس میں صرف مسلمان پر بھروسہ کیا جاتا ہے۔ شکار اور ذبح کے سیاق و سباق میں، یہ ایک شرعی شرط کی نشاندہی کرتا ہے جو نام کو صحیح طریقے سے پکارنے سے منسلک ہے۔",
-          "zh": "此圣训说明此事关乎名字的发音，且只有穆斯林才可被信赖。在狩猎和宰杀的语境中，表明了与正确念诵名字相关的法律条件。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations",

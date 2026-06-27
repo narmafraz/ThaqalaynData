@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ الصَّادِقُ عَلَيْهِ السَّلَامُ :",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল-সাদিক, তাঁর উপর শান্তি বর্ষিত হোক, বললেন:",
-              "de": "Al-Sadiq, Friede sei mit ihm, sagte:",
-              "en": "Al-Sadiq, peace be upon him, said:",
-              "es": "Al-Sadiq, la paz sea con él, dijo:",
-              "fa": "اَلصَّادِق علیه السلام فرمود:",
-              "fr": "Al-Sadiq, que la paix soit sur lui, a dit :",
-              "id": "Al-Sadiq, semoga keselamatan atasnya, berkata:",
-              "ru": "Аль-Садик, мир ему, сказал:",
-              "tr": "El-Sadık, Allah'ın selamı üzerine olsun, dedi ki:",
-              "ur": "اَلصَّادِق علیہ السلام نے فرمایا:",
-              "zh": "اَلصَّادِقعَلَيْهِاَلسَّلاَمُقَالَ:"
-            },
             "word_end": 6,
             "word_start": 0
           },
           {
             "arabic_text": "بِرُّ الرَّجُلِ بِوَلَدِهِ بِرُّهُ بِوَالِدَيْهِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন পুরুষের সন্তানদের প্রতি দয়া তার নিজের পিতামাতার প্রতি দয়ার সমান।",
-              "de": "Die Güte eines Mannes gegenüber seinem Kind ist seine Güte gegenüber seinen eigenen Eltern.",
-              "en": "A man's kindness to his child is his kindness to his own parents.",
-              "es": "La bondad de un hombre hacia su hijo es su bondad hacia sus propios padres.",
-              "fa": "مهربانی مرد نسبت به فرزندش، مهربانی او نسبت به والدین خود است.",
-              "fr": "La bonté d'un homme envers son enfant est sa bonté envers ses propres parents.",
-              "id": "Kebaikan seorang pria kepada anaknya adalah kebaikannya kepada orang tuanya sendiri.",
-              "ru": "Доброта мужчины к своему ребенку — это его доброта к собственным родителям.",
-              "tr": "Bir adamın çocuğuna olan iyiliği, kendi ebeveynlerine olan iyiliğidir.",
-              "ur": "ایک مرد کی اپنی اولاد کے ساتھ نیکی اس کی اپنی والدین کے ساتھ نیکی ہے۔",
-              "zh": "ایکآدمیکیبچوںکےساتھنیکی،اپنےوالدینکےساتھنیکیہے۔"
-            },
             "word_end": 11,
             "word_start": 6
           }
@@ -81,25 +68,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الرَّجُلِ": "the man, referring to a person acting within family relations",
-            "الصَّادِقُ": "Imam Jaʿfar ibn Muḥammad al-Ṣādiq عليه السلام",
-            "بِرُّ": "kindness, dutiful goodness, and righteous conduct",
-            "بِوَالِدَيْهِ": "toward his two parents",
-            "بِوَلَدِهِ": "toward his child"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الصَّادِقُ",
+          "بِرُّ",
+          "الرَّجُلِ",
+          "بِوَلَدِهِ",
+          "بِوَالِدَيْهِ"
+        ],
         "related_quran": [
           {
             "ref": "17:23",
@@ -110,32 +85,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামে সন্তানের প্রতি দয়া প্রদর্শন কীভাবে পিতামাতার সম্মানের সাথে সম্পর্কিত?",
-          "de": "Wie hängt Freundlichkeit gegenüber Kindern mit der Ehrung der Eltern im Islam zusammen?",
-          "en": "How is kindness to one's children related to honoring one's parents in Islam?",
-          "es": "¿Cómo se relaciona la bondad hacia los hijos con honrar a los padres en el Islam?",
-          "fa": "در اسلام، مهربانی به فرزندان چگونه با احترام به والدین مرتبط است؟",
-          "fr": "Comment la bonté envers les enfants est-elle liée à l'honneur des parents en Islam ?",
-          "id": "Dalam Islam, bagaimana kebaikan kepada anak terkait dengan menghormati orang tua?",
-          "ru": "Как в исламе доброта к детям связана с почтением к родителям?",
-          "tr": "İslam'da çocuklara iyilik yapmak, ebeveynlere saygı göstermekle nasıl ilişkilidir?",
-          "ur": "اسلام میں بچوں کے ساتھ نیکی کا تعلق والدین کی عزت سے کیسے ہے؟",
-          "zh": "在伊斯兰教中，对子女的善待如何与尊敬父母相关？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস শেখায় যে সন্তানের প্রতি দয়া প্রদর্শন করা নিজের পিতামাতার সম্মান করার সাথে গভীরভাবে সম্পর্কিত। এটি পারিবারিক গুণাবলীর ধারাবাহিকতা এবং ধার্মিক আচরণের মাধ্যমে প্রজন্মগুলোর নৈতিক বন্ধনকে তুলে ধরে।",
-          "de": "Dieser Hadith lehrt, dass Freundlichkeit gegenüber den eigenen Kindern eng mit der Ehrung der eigenen Eltern verbunden ist. Er hebt die Kontinuität familiärer Tugend und die moralische Bindung hervor, die Generationen durch rechtschaffenes Verhalten verbindet.",
-          "en": "This hadith teaches that showing kindness to one's children is deeply connected to honoring one's own parents. It highlights the continuity of family virtue and the moral bond that links generations through righteous conduct.",
-          "es": "Este hadiz enseña que mostrar bondad hacia los hijos está profundamente relacionado con honrar a los propios padres. Destaca la continuidad de la virtud familiar y el vínculo moral que une a las generaciones a través de la conducta recta.",
-          "fa": "این حدیث آموزش می‌دهد که نشان دادن مهربانی به فرزندان ارتباط عمیقی با احترام به والدین دارد. این پیوستگی فضیلت خانوادگی و پیوند اخلاقی نسل‌ها از طریق رفتار نیکو را برجسته می‌کند.",
-          "fr": "Ce hadith enseigne que montrer de la bonté envers ses enfants est profondément lié à l'honneur envers ses propres parents. Il souligne la continuité de la vertu familiale et le lien moral qui unit les générations par une conduite juste.",
-          "id": "Hadis ini mengajarkan bahwa berbuat baik kepada anak sangat terkait dengan menghormati orang tua sendiri. Ini menyoroti kesinambungan kebajikan keluarga dan ikatan moral yang menghubungkan generasi melalui perilaku yang benar.",
-          "ru": "Этот хадис учит, что доброта к детям тесно связана с почтением к собственным родителям. Он подчеркивает преемственность семейных добродетелей и моральную связь, объединяющую поколения через праведное поведение.",
-          "tr": "Bu hadis, çocuklara iyilik yapmanın, kendi ebeveynlerine saygı göstermekle derin bir bağlantısı olduğunu öğretir. Aile erdeminin sürekliliğini ve nesilleri doğru davranışla bağlayan ahlaki bağı vurgular.",
-          "ur": "یہ حدیث سکھاتی ہے کہ بچوں کے ساتھ نیکی کرنا اپنے والدین کی عزت کرنے سے گہرا تعلق رکھتا ہے۔ یہ خاندانی فضیلت کی تسلسل اور نیکی کے ذریعے نسلوں کو جوڑنے والے اخلاقی رشتے کو اجاگر کرتی ہے۔",
-          "zh": "此圣训教导我们，对子女的善待与尊敬父母密切相关。它强调了家庭美德的延续以及通过正义行为连接世代的道德纽带。"
-        },
         "tags": [
           "ethics",
           "family",

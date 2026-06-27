@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى حَمَّادُ بْنُ عُثْمَانَ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ أَنَّهُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "হাম্মাদ ইবনে উসমান আবী আবদিল্লাহ عليه السلام থেকে বর্ণনা করেছেন যে তিনি বললেন:",
-              "de": "Ḥammād ibn ʿUthmān berichtete von Abī ʿAbdillāh عليه السلام, dass er sagte:",
-              "en": "Ḥammād ibn ʿUthmān narrated from Abī ʿAbdillāh عليه السلام that he said:",
-              "es": "Ḥammād ibn ʿUthmān narró de Abī ʿAbdillāh عليه السلام que dijo:",
-              "fa": "حمّاد بن عثمان از ابی عبدالله علیه السلام روایت کرده که فرمود:",
-              "fr": "Ḥammād ibn ʿUthmān a rapporté d'Abī ʿAbdillāh عليه السلام qu'il a dit :",
-              "id": "Ḥammād ibn ʿUthmān meriwayat dari Abī ʿAbdillāh علیه السلام bahwa beliau berkata:",
-              "ru": "Хаммад ибн Усман передал от Аби Абдиллаха عليه السلام, что он сказал:",
-              "tr": "Ḥammād ibn ʿUthmān, Abī ʿAbdillāh علیه السلام'dan rivayet etti ki şöyle dedi:",
-              "ur": "حَمَّاد ابن عثمان نے ابو عبداللہ علیہ السلام سے روایت کی کہ انہوں نے فرمایا:",
-              "zh": "ḤammādibnʿUthmān从AbīʿAbdillāhعليهالسلام传述说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "«السُّجُودُ عَلَى مَا أَنْبَتَتِ الْأَرْضُ إِلَّا مَا أُكِلَ أَوْ لُبِسَ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“সিজদা হয় যা মাটি উৎপন্ন করে, তবে যা খাওয়া হয় বা পরিধান করা হয় তা ব্যতীত।”",
-              "de": "„Die Niederwerfung erfolgt auf dem, was die Erde hervorbringt, außer dem, was gegessen oder getragen wird.“",
-              "en": "\"Prostration is upon what the earth produces, except that which is eaten or worn.\"",
-              "es": "“La prosternación es sobre lo que produce la tierra, excepto lo que se come o se usa como ropa.”",
-              "fa": "«سجده بر آنچه زمین می‌روید است، مگر آنچه خورده یا پوشیده شود.»",
-              "fr": "«La prosternation se fait sur ce que la terre produit, sauf ce qui est mangé ou porté.»",
-              "id": "“Sujud dilakukan di atas apa yang ditumbuhkan bumi, kecuali yang dimakan atau dipakai.”",
-              "ru": "«Поклонение совершается на том, что произрастает из земли, за исключением того, что съедается или носится.»",
-              "tr": "“Secde, yeryüzünün yetiştirdiği şeyler üzerinedir, yenilen veya giyilenler hariç.”",
-              "ur": "«سجدہ اس چیز پر ہوتا ہے جو زمین اگاتی ہے، سوائے اس کے جو کھایا جائے یا پہنا جائے۔»",
-              "zh": "“祈祷时的叩头应在土地所生之物上，唯独被食用或穿戴者除外。”"
-            },
             "word_end": 23,
             "word_start": 13
           }
@@ -92,25 +79,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَنْبَتَتِ": "that which it caused to grow or produce",
-            "أُكِلَ": "that which is eaten",
-            "السُّجُودُ": "prostration in salat (prayer)",
-            "الْأَرْضُ": "the earth or ground",
-            "لُبِسَ": "that which is worn as clothing"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "السُّجُودُ",
+          "أَنْبَتَتِ",
+          "الْأَرْضُ",
+          "أُكِلَ",
+          "لُبِسَ"
+        ],
         "related_quran": [
           {
             "ref": "55:10",
@@ -121,32 +96,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام অনুযায়ী নামাজে সিজদার জন্য কোন কোন উপকরণ অনুমোদিত?",
-          "de": "Welche Materialien sind für die Niederwerfung im Gebet gemäß Imam al-Ṣādiq عليه السلام erlaubt?",
-          "en": "What materials are permissible for prostration in prayer according to Imam al-Ṣādiq عليه السلام?",
-          "es": "¿Qué materiales son permisibles para la prosternación en la oración según el Imam al-Ṣādiq عليه السلام?",
-          "fa": "بر اساس امام الصادق علیه السلام، چه موادی برای سجده در نماز مجاز است؟",
-          "fr": "Quels matériaux sont permis pour la prosternation dans la prière selon l'Imam al-Ṣādiq عليه السلام ?",
-          "id": "Menurut Imam al-Ṣādiq علیه السلام, bahan apa saja yang diperbolehkan untuk sujud dalam shalat?",
-          "ru": "Какие материалы разрешены для поклонения в молитве согласно Имаму ас-Садику عليه السلام?",
-          "tr": "İmam al-Ṣādiq علیه السلام'a göre namazda secde için hangi malzemeler caizdir?",
-          "ur": "امام الصادق علیہ السلام کے مطابق نماز میں سجدہ کے لیے کون سے مواد جائز ہیں؟",
-          "zh": "根据伊玛目al-Ṣādiqعليهالسلام，祈祷中叩头允许使用哪些材料？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস সিজদার বৈধ উপকরণ সম্পর্কে ফিকহীয় বিধান প্রদান করে যে সিজদা মাটির উৎপন্ন জিনিসের উপর হওয়া উচিত, তবে যা খাওয়া হয় বা পোশাক হিসেবে ব্যবহৃত হয় তা ব্যতীত।",
-          "de": "Dieser Hadith gibt eine fiqh-Rechtsregel über das gültige Material für die Niederwerfung. Er besagt, dass die Niederwerfung auf dem erfolgen soll, was die Erde hervorbringt, außer dem, was gegessen oder getragen wird.",
-          "en": "This hadith gives a fiqh ruling about the valid material for sajdah. It states that prostration should be on what grows from the earth, excluding items that are normally eaten or used as clothing.",
-          "es": "Este hadiz ofrece una regla fiqh sobre el material válido para la prosternación. Indica que la prosternación debe hacerse sobre lo que crece de la tierra, excluyendo lo que se come o se usa como ropa.",
-          "fa": "این حدیث حکم فقهی درباره مواد معتبر برای سجده را بیان می‌کند که سجده باید بر آنچه از زمین می‌روید باشد، به جز آنچه خورده یا پوشیده می‌شود.",
-          "fr": "Ce hadith donne un jugement fiqh sur le matériau valide pour la prosternation. Il indique que la prosternation doit se faire sur ce que la terre produit, à l'exception de ce qui est mangé ou porté.",
-          "id": "Hadis ini memberikan hukum fiqh tentang bahan sah untuk sujud. Disebutkan bahwa sujud harus dilakukan di atas apa yang tumbuh dari bumi, kecuali yang dimakan atau dipakai sebagai pakaian.",
-          "ru": "Этот хадис содержит фиххское постановление о допустимом материале для поклонения. Указывается, что поклонение должно совершаться на том, что произрастает из земли, за исключением того, что употребляется в пищу или носится как одежда.",
-          "tr": "Bu hadis, secde için geçerli malzeme hakkında fıkhî bir hüküm verir; secdenin, yenilen veya giyilenler hariç, yerden yetişen şeyler üzerine yapılması gerektiğini belirtir.",
-          "ur": "یہ حدیث سجدہ کے جائز مواد کے بارے میں فقہی حکم دیتی ہے کہ سجدہ زمین سے اگنے والی چیزوں پر ہونا چاہیے، سوائے ان چیزوں کے جو کھانے یا لباس کے طور پر استعمال ہوں۔",
-          "zh": "此圣训阐明了叩头有效材料的法学规定，指出叩头应在土地所生之物上，唯独被食用或穿戴者除外。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

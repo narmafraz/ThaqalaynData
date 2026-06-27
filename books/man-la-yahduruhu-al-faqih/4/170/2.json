@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مَعَ قَوْلِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ :",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "নবী صلى الله عليه وآله এর উক্তি সহ:",
-              "de": "Mit der Aussage des Propheten صلى الله عليه وآله:",
-              "en": "With the statement of the Prophet صلى الله عليه وآله:",
-              "es": "Con la declaración del Profeta صلى الله عليه وآله:",
-              "fa": "با بیان پیامبر صلى الله عليه وآله:",
-              "fr": "Avec la déclaration du Prophète صلى الله عليه وآله :",
-              "id": "Dengan pernyataan Nabi صلى الله عليه وآله:",
-              "ru": "С заявлением Пророка صلى الله عليه وآله:",
-              "tr": "Peygamber صلى الله عليه وآله'in ifadesiyle:",
-              "ur": "نبی صلی اللہ علیہ وآلہ وسلم کے قول کے ساتھ:",
-              "zh": "随着先知صلىاللهعليه وآله的陈述："
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "«الْإِسْلَامُ يَزِيدُ وَ لَا يَنْقُصُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "‘‘ইসলাম বৃদ্ধি পায় এবং কমে না।’’",
-              "de": "„Der Islam nimmt zu und nimmt nicht ab.“",
-              "en": "\"Islam increases and does not decrease.\"",
-              "es": "‘‘El Islam aumenta y no disminuye.’’",
-              "fa": "«اسلام افزایش می‌یابد و کاهش نمی‌یابد.»",
-              "fr": "«L'Islam augmente et ne diminue pas.»",
-              "id": "‘‘Islam bertambah dan tidak berkurang.’’",
-              "ru": "«Ислам увеличивается и не уменьшается.»",
-              "tr": "‘‘İslam artar ve azalmaz.’’",
-              "ur": "‘‘اسلام بڑھتا ہے اور کم نہیں ہوتا۔’’",
-              "zh": "“伊斯兰增加而不减少。”"
-            },
             "word_end": 14,
             "word_start": 9
           }
@@ -64,23 +51,11 @@
           "narrators": []
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْإِسْلَامُ": "Islam, the religion of submission to Allah",
-            "لَا يَنْقُصُ": "does not decrease or diminish",
-            "يَزِيدُ": "increases or grows"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْإِسْلَامُ",
+          "يَزِيدُ",
+          "لَا يَنْقُصُ"
+        ],
         "related_quran": [
           {
             "ref": "9:33",
@@ -91,32 +66,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "নবী صلى الله عليه وآله এর ‘‘ইসলাম বৃদ্ধি পায় এবং কমে না’’ বলার দ্বারা কী বোঝাতে চান?",
-          "de": "Was meint der Prophet صلى الله عليه وآله mit der Aussage „Der Islam nimmt zu und nimmt nicht ab“?",
-          "en": "What does the Prophet صلى الله عليه وآله mean by saying, \"Islam increases and does not decrease\"?",
-          "es": "¿Qué quiere decir el Profeta صلى الله عليه وآله al decir, \"El Islam aumenta y no disminuye\"?",
-          "fa": "پیامبر صلى الله عليه وآله با گفتن «اسلام افزایش می‌یابد و کاهش نمی‌یابد» چه منظوری دارد؟",
-          "fr": "Que veut dire le Prophète صلى الله عليه وآله en disant «L'Islam augmente et ne diminue pas» ?",
-          "id": "Apa maksud Nabi صلى الله عليه وآله dengan mengatakan, \"Islam bertambah dan tidak berkurang\"?",
-          "ru": "Что Пророк صلى الله عليه وآله имел в виду, говоря: «Ислам увеличивается и не уменьшается»?",
-          "tr": "Peygamber صلى الله عليه وآله'in ‘‘İslam artar ve azalmaz’’ sözüyle ne demek istiyor?",
-          "ur": "نبی صلی اللہ علیہ وآلہ وسلم کا یہ قول ‘‘اسلام بڑھتا ہے اور کم نہیں ہوتا’’ سے کیا مراد ہے؟",
-          "zh": "先知صلىاللهعليه وآله说“伊斯兰增加而不减少”是什么意思？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনাটি নবী صلى الله عليه وآله এর একটি উক্তি উদ্ধৃত করে যা নিশ্চিত করে যে ইসলাম বৃদ্ধি পায় এবং কমে না। প্রসঙ্গে, এটি ইসলামকে একটি ধর্মীয় ও আইনি বাস্তবতা হিসেবে স্থায়ী ও বৃদ্ধি পাওয়া শক্তি হিসেবে নির্দেশ করে।",
-          "de": "Dieser Bericht zitiert eine Aussage des Propheten صلى الله عليه وآله, die bestätigt, dass der Islam wächst und nicht abnimmt. Im Kontext weist dies auf die dauerhafte und zunehmende Kraft des Islam als religiöse und rechtliche Realität hin.",
-          "en": "This report cites a statement of the Prophet صلى الله عليه وآله affirming that Islam grows and does not diminish. In context, it points to the enduring and augmenting force of Islam as a religious and legal reality.",
-          "es": "Este informe cita una declaración del Profeta صلى الله عليه وآله afirmando que el Islam crece y no disminuye. En contexto, señala la fuerza perdurable y creciente del Islam como una realidad religiosa y legal.",
-          "fa": "این گزارش بیانی از پیامبر صلى الله عليه وآله را نقل می‌کند که تأیید می‌کند اسلام رشد می‌کند و کاهش نمی‌یابد. در زمینه، به نیروی پایدار و افزاینده اسلام به عنوان یک واقعیت دینی و حقوقی اشاره دارد.",
-          "fr": "Ce rapport cite une déclaration du Prophète صلى الله عليه وآله affirmant que l'Islam croît et ne diminue pas. Dans ce contexte, il souligne la force durable et croissante de l'Islam en tant que réalité religieuse et juridique.",
-          "id": "Laporan ini mengutip pernyataan Nabi صلى الله عليه وآله yang menegaskan bahwa Islam bertambah dan tidak berkurang. Dalam konteksnya, ini menunjukkan kekuatan Islam yang abadi dan bertambah sebagai realitas agama dan hukum.",
-          "ru": "Этот отчет цитирует высказывание Пророка صلى الله عليه وآله, подтверждающее, что ислам растет и не уменьшается. В контексте это указывает на устойчивую и возрастающую силу ислама как религиозной и правовой реальности.",
-          "tr": "Bu rivayet, Peygamber صلى الله عليه وآله'in İslam'ın artıp azalmadığını teyit eden ifadesini aktarmaktadır. Bağlamda, İslam'ın dini ve hukuki bir gerçeklik olarak kalıcı ve artan bir güç olduğunu gösterir.",
-          "ur": "یہ روایت نبی صلی اللہ علیہ وآلہ وسلم کے ایک بیان کی تصدیق کرتی ہے کہ اسلام بڑھتا ہے اور کم نہیں ہوتا۔ سیاق و سباق میں، یہ اسلام کی ایک مذہبی اور قانونی حقیقت کے طور پر مستقل اور بڑھتی ہوئی قوت کی طرف اشارہ کرتا ہے۔",
-          "zh": "本报告引用了先知صلىاللهعليه وآله的陈述，确认伊斯兰增长而不减少。在语境中，它指向伊斯兰作为宗教和法律现实的持久且增强的力量。"
-        },
         "tags": [
           "prophetic_tradition",
           "theology",

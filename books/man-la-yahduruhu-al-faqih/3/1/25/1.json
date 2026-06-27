@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رَوَى مَنْصُورُ بْنُ حَازِمٍ أَنَّ أَبَا الْحَسَنِ مُوسَى بْنَ جَعْفَرٍ عَلَيْهِمَا السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মানসুর ইবনে হাজিম বর্ণনা করেছেন যে আবু আল-হাসান মূসা ইবনে জাফর, আলাইহিমাস সালাম, বলেছেন:",
-              "de": "Mansur ibn Hazim berichtete, dass Abu al-Hasan Musa ibn Ja'far, Friede sei mit ihnen beiden, sagte:",
-              "en": "Mansur ibn Hazim narrated that Abu al-Hasan Musa ibn Ja'far, peace be upon them both, said:",
-              "es": "Mansur ibn Hazim narró que Abu al-Hasan Musa ibn Ja'far, la paz sea con ambos, dijo:",
-              "fa": "منصور بن حازم روایت کرده است که ابوالحسن موسی بن جعفر علیهماالسلام فرمود:",
-              "fr": "Mansur ibn Hazim a rapporté qu'Abu al-Hasan Musa ibn Ja'far, que la paix soit sur eux deux, a dit :",
-              "id": "Mansur ibn Hazim meriwayatkan bahwa Abu al-Hasan Musa ibn Ja'far, semoga keduanya diberkati, berkata:",
-              "ru": "Мансур ибн Хазим передал, что Абу аль-Хасан Муса ибн Джафар, мир им обоим, сказал:",
-              "tr": "Mansur ibn Hazim rivayet etti ki Ebu'l-Hasan Musa ibn Ca'fer, onlara selam olsun, dedi ki:",
-              "ur": "منصور ابن حازم نے روایت کیا کہ ابو الحسن موسیٰ ابن جعفر علیہما السلام نے فرمایا:",
-              "zh": "曼苏尔伊本哈兹姆传述说阿布哈桑穆萨伊本贾法尔，愿他们二人平安，说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "إِذَا شَهِدَ لِطَالِبِ الْحَقِّ امْرَأَتَانِ وَيَمِينُهُ فَهُوَ جَائِزٌ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি দুইজন নারী অধিকার দাবিকারীর পক্ষে সাক্ষ্য দেন এবং তার শপথও থাকে, তবে এটি جائز।",
-              "de": "Wenn zwei Frauen für den Anspruchsteller des Rechts aussagen und dieser einen Eid ablegt, ist es erlaubt.",
-              "en": "If two women testify for the claimant of the right, along with his oath, then it is permissible.",
-              "es": "Si dos mujeres testifican a favor del reclamante del derecho, junto con su juramento, entonces es permisible.",
-              "fa": "اگر دو زن برای مدعی حق شهادت دهند و قسم او نیز باشد، جایز است.",
-              "fr": "Si deux femmes témoignent en faveur du demandeur du droit, accompagnées de son serment, alors cela est permis.",
-              "id": "Jika dua wanita bersaksi untuk pemohon hak, beserta sumpahnya, maka itu diperbolehkan.",
-              "ru": "Если две женщины свидетельствуют в пользу заявителя права вместе с его присягой, то это допустимо.",
-              "tr": "Eğer iki kadın hak talebinde bulunan kişi lehine şahitlik eder ve onun yemini varsa, bu caizdir.",
-              "ur": "اگر دو عورتیں حق کے دعویدار کے حق میں گواہی دیں اور اس کی قسم بھی ہو تو یہ جائز ہے۔",
-              "zh": "如果两名女性为权利主张者作证并且他发誓，则这是允许的。"
-            },
             "word_end": 21,
             "word_start": 13
           }
@@ -74,25 +61,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "امْرَأَتَانِ": "two women serving as witnesses",
-            "جَائِزٌ": "legally valid or permissible",
-            "شَهِدَ": "gave testimony or bore witness",
-            "لِطَالِبِ الْحَقِّ": "for the claimant who is seeking his right",
-            "يَمِينُهُ": "his oath"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "شَهِدَ",
+          "لِطَالِبِ الْحَقِّ",
+          "امْرَأَتَانِ",
+          "يَمِينُهُ",
+          "جَائِزٌ"
+        ],
         "related_quran": [
           {
             "ref": "2:282",
@@ -107,32 +82,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া আইনে কি দুই নারীর সাক্ষ্যের সঙ্গে দাবিকারীর শপথ গ্রহণযোগ্য?",
-          "de": "Wird der Eid eines Anspruchstellers zusammen mit der Aussage von zwei Frauen im schiitischen Recht akzeptiert?",
-          "en": "Is a claimant's oath accepted together with the testimony of two women in Shia law?",
-          "es": "¿Se acepta el juramento de un reclamante junto con el testimonio de dos mujeres en la ley chií?",
-          "fa": "آیا قسم مدعی همراه با شهادت دو زن در فقه شیعه پذیرفته می‌شود؟",
-          "fr": "Le serment d'un demandeur est-il accepté avec le témoignage de deux femmes dans la loi chiite ?",
-          "id": "Apakah sumpah pemohon diterima bersama dengan kesaksian dua wanita dalam hukum Syiah?",
-          "ru": "Принимается ли присяга истца вместе со свидетельством двух женщин в шиитском праве?",
-          "tr": "Şii hukukunda bir talep sahibinin yemini iki kadının şahitliği ile birlikte kabul edilir mi?",
-          "ur": "کیا شیعہ قانون میں دعویدار کی قسم دو عورتوں کی گواہی کے ساتھ قبول کی جاتی ہے؟",
-          "zh": "在什叶派法律中，权利主张者的誓言是否与两名女性的证词一起被接受？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বিচারিক প্রক্রিয়া এবং দাবির প্রতিষ্ঠা সম্পর্কে একটি শাস্ত্রীয় বিধান প্রদান করে যে দুই নারীর সাক্ষ্য এবং দাবিকারীর শপথ এই ক্ষেত্রে গ্রহণযোগ্য।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bezüglich des Gerichtsverfahrens und der Begründung eines Anspruchs. Er besagt, dass die Aussage von zwei Frauen zusammen mit dem Eid des Anspruchstellers in diesem Fall zulässig ist.",
-          "en": "This hadith gives a legal ruling concerning judicial procedure and the establishment of a claim. It states that the testimony of two women together with the claimant's oath is acceptable in this case.",
-          "es": "Este hadiz da una regla legal sobre el procedimiento judicial y el establecimiento de una reclamación, indicando que el testimonio de dos mujeres junto con el juramento del reclamante es aceptable en este caso.",
-          "fa": "این حدیث حکم شرعی درباره روند قضایی و اثبات ادعا را بیان می‌کند که شهادت دو زن همراه با قسم مدعی در این مورد پذیرفته است.",
-          "fr": "Ce hadith donne une règle juridique concernant la procédure judiciaire et l'établissement d'une réclamation. Il stipule que le témoignage de deux femmes accompagné du serment du demandeur est acceptable dans ce cas.",
-          "id": "Hadis ini memberikan ketentuan hukum mengenai prosedur peradilan dan pembuktian klaim bahwa kesaksian dua wanita bersama dengan sumpah pemohon dapat diterima dalam kasus ini.",
-          "ru": "Этот хадис даёт юридическое постановление относительно судебной процедуры и установления иска. В нём говорится, что свидетельство двух женщин вместе с присягой истца допустимо в данном случае.",
-          "tr": "Bu hadis, yargı prosedürü ve talebin tesisi ile ilgili hukuki hüküm verir; iki kadının şahitliği ve talep sahibinin yemini bu durumda kabul edilir.",
-          "ur": "یہ حدیث عدالتی طریقہ کار اور دعوے کے قیام کے بارے میں شرعی حکم دیتی ہے کہ دو عورتوں کی گواہی اور دعویدار کی قسم اس صورت میں قابل قبول ہے۔",
-          "zh": "此圣训就司法程序及权利主张的确立给出法律裁决，指出两名女性的证词连同主张者的誓言在此情况下是被接受的。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

@@ -15,6 +15,133 @@
       "up": "/books/al-kafi:8:1:43"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "يَحْيَى الْحَلَبِيُّ عَنِ الْمُثَنَّى عَنْ أَبِي بَصِيرٍ عَنْ أَبِي عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ)",
+            "chunk_type": "isnad",
+            "word_end": 13,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "فِي قَوْلِ اللَّهِ عَزَّ وَ جَلَّ",
+            "chunk_type": "opening",
+            "word_end": 19,
+            "word_start": 13
+          },
+          {
+            "arabic_text": "كَأَنَّمَا أُغْشِيَتْ وُجُوهُهُمْ قِطَعًا مِنَ اللَّيْلِ مُظْلِمًا",
+            "chunk_type": "quran_quote",
+            "word_end": 26,
+            "word_start": 19
+          },
+          {
+            "arabic_text": "قَالَ أَ مَا تَرَى الْبَيْتَ إِذَا كَانَ اللَّيْلُ كَانَ أَشَدَّ سَوَادًا مِنْ خَارِجٍ فَلِذَلِكَ هُمْ يَزْدَادُونَ سَوَادًا",
+            "chunk_type": "body",
+            "word_end": 43,
+            "word_start": 26
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 181,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "يَحْيَى الْحَلَبِيُّ",
+              "name_en": "Yahya al-Halabi",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 506,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْمُثَنَّى",
+              "name_en": "al-Muthanna",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 14,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي بَصِيرٍ",
+              "name_en": "Abu Basir",
+              "position": 3,
+              "role": "companion"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ (عليه السلام)",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "أُغْشِيَتْ",
+          "سَوَادًا",
+          "قِطَعًا"
+        ],
+        "related_quran": [
+          {
+            "ref": "10:27",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "39:22",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:7",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "quran_commentary",
+          "theology"
+        ],
+        "topics": [
+          "quran_interpretation_method",
+          "paradise_hell"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 233)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -87,7 +214,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:43:43",

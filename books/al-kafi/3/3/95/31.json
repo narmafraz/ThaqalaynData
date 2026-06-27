@@ -14,6 +14,152 @@
       "up": "/books/al-kafi:3:3:95"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدٌ عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ الْحُسَيْنِ بْنِ سَعِيدٍ عَنِ الْحُسَيْنِ بْنِ عُلْوَانَ عَنْ عَمْرِو بْنِ شِمْرٍ عَنْ جَابِرٍ عَنْ أَبِي جَعْفَرٍ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 27,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُهُ عَنْ لَحْظَةِ مَلَكِ الْمَوْتِ قَالَ أَ مَا رَأَيْتَ النَّاسَ يَكُونُونَ جُلُوساً فَتَعْتَرِيهِمُ السَّكْتَةُ فَمَا يَتَكَلَّمُ أَحَدٌ مِنْهُمْ فَتِلْكَ لَحْظَةُ مَلَكِ الْمَوْتِ حَيْثُ يَلْحَظُهُمْ",
+            "chunk_type": "body",
+            "word_end": 51,
+            "word_start": 27
+          }
+        ],
+        "content_type": "theological",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 127,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدٌ",
+              "name_en": "Muhammad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 21,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنِ بْنِ سَعِيدٍ",
+              "name_en": "al-Husayn b. Sa'id",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 418,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنِ بْنِ عُلْوَانَ",
+              "name_en": "al-Husayn ibn Ilwan",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 117,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَمْرِو بْنِ شِمْرٍ",
+              "name_en": "Amru ibn Shimr",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 72,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "جَابِرٍ",
+              "name_en": "Jabir",
+              "position": 6,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 9,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي جَعْفَرٍ ( عليه السلام )",
+              "name_en": "Abu Ja'far",
+              "position": 7,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "لَحْظَة",
+          "مَلَكُ الْمَوْتِ",
+          "السَّكْتَة",
+          "يَلْحَظُهُمْ"
+        ],
+        "related_quran": [
+          {
+            "ref": "39:42",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "32:11",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "56:43",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "theology",
+          "afterlife"
+        ],
+        "topics": [
+          "death_dying",
+          "barzakh"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (14/259)"
       ],
@@ -103,7 +249,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:3:95:31",

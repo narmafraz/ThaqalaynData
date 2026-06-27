@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "فَضَالَةُ عَنْ رِفَاعَةَ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ফাদালাহ রিফাআহ থেকে বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "Faḍālah überlieferte von Rifāʿah, der sagte:",
-              "en": "Faḍālah narrated from Rifāʿah, who said:",
-              "es": "Faḍālah narró de Rifāʿah, quien dijo:",
-              "fa": "فَضالَه از رِفاعه روایت کرد، که گفت:",
-              "fr": "Faḍālah a rapporté d’après Rifāʿah, qui a dit :",
-              "id": "Faḍālah meriwayatkan dari Rifāʿah, yang berkata:",
-              "ru": "Фадалах передал от Рифаа, который сказал:",
-              "tr": "Faḍālah, Rifāʿah’dan rivayet etti; o da şöyle dedi:",
-              "ur": "فضلہ نے رفاعہ سے روایت کی، انہوں نے کہا:",
-              "zh": "法达拉传述自里法阿，他说："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ عَنْ رَجُلٍ لَا يَدْرِي أَرَكْعَةً صَلَّى أَمِ اثْنَتَيْنِ، قَالَ: «يُعِيدُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবা আবদিল্লাহ عليه السلام-কে এমন এক ব্যক্তির সম্পর্কে জিজ্ঞেস করলাম, যে জানে না সে এক রাকআত সালাত পড়েছে নাকি দুই রাকআত। তিনি বললেন: “সে সালাতটি পুনরায় আদায় করবে।”",
-              "de": "Ich fragte Abā ʿAbdillāh عليه السلام nach einem Mann, der nicht weiß, ob er eine rakʿah oder zwei gebetet hat. Er sagte: „Er wiederholt das salat (Gebet).“",
-              "en": "I asked Abā ʿAbdillāh عليه السلام about a man who does not know whether he prayed one rakʿah or two. He said: “He repeats [the salat (prayer)].”",
-              "es": "Le pregunté a Abā ʿAbdillāh عليه السلام acerca de un hombre que no sabe si rezó una rakʿah o dos. Dijo: “Que repita la salat (oración).”",
-              "fa": "از ابا عبدالله علیه‌السلام دربارهٔ مردی پرسیدم که نمی‌داند یک رکعت نماز خوانده یا دو رکعت. فرمود: «نماز را دوباره می‌خواند.»",
-              "fr": "J’ai demandé à Abā ʿAbdillāh عليه السلام au sujet d’un homme qui ne sait pas s’il a accompli une rakʿah ou deux. Il a dit : « Qu’il recommence la salat (prière). »",
-              "id": "Aku bertanya kepada Abā ʿAbdillāh عليه السلام tentang seorang laki-laki yang tidak tahu apakah ia telah salat satu rakaat atau dua. Beliau bersabda: “Ia mengulangi salat itu.”",
-              "ru": "Я спросил Абу ʿАбдуллаха عليه السلام о человеке, который не знает, совершил ли он одну ракʿах или две. Он сказал: «Он повторяет салат (молитву).»",
-              "tr": "Ebâ ʿAbdillâh’a عليه السلام bir adam hakkında sordum; bir rekât mı yoksa iki rekât mı kıldığını bilmiyordu. O şöyle dedi: “Namazı tekrar eder.”",
-              "ur": "میں نے ابا عبد اللہ علیہ السلام سے ایک ایسے شخص کے بارے میں پوچھا جو نہیں جانتا کہ اس نے ایک رکعت پڑھی ہے یا دو۔ آپ نے فرمایا: “وہ [نماز] دوبارہ پڑھے۔”",
-              "zh": "我问阿巴·阿卜杜拉 عليه السلام关于一个人，他不知道自己是礼了一拜还是两拜。他说：“他要重新礼拜。”"
-            },
             "word_end": 20,
             "word_start": 4
           }
@@ -90,26 +77,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبَا عَبْدِ اللَّهِ": "Abā ʿAbdillāh, a title of Imam al-Ṣādiq عليه السلام",
-            "اثْنَتَيْنِ": "two units",
-            "رَكْعَةً": "one unit of salat (prayer)",
-            "سَأَلْتُ": "I asked; indicates the question posed to the Imam عليه السلام",
-            "صَلَّى": "he performed the salat (prayer)",
-            "يُعِيدُ": "he repeats; meaning he must perform the prayer again"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "سَأَلْتُ",
+          "أَبَا عَبْدِ اللَّهِ",
+          "رَكْعَةً",
+          "صَلَّى",
+          "اثْنَتَيْنِ",
+          "يُعِيدُ"
+        ],
         "related_quran": [
           {
             "ref": "2:286",
@@ -120,32 +95,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কেউ সন্দেহ করে যে সে সালাতে এক রাকআত পড়েছে নাকি দুই রাকআত, তাহলে কী হুকুম?",
-          "de": "Was ist die Regel, wenn jemand daran zweifelt, ob er im salat (Gebet) eine rakʿah oder zwei verrichtet hat?",
-          "en": "What is the ruling if someone doubts whether he prayed one rakʿah or two in salat (prayer)?",
-          "es": "¿Cuál es la norma si alguien duda si rezó una rakʿah o dos en la salat (oración)?",
-          "fa": "اگر کسی شک کند که در نماز یک رکعت خوانده یا دو رکعت، حکم چیست؟",
-          "fr": "Quelle est la règle si quelqu’un doute d’avoir accompli une rakʿah ou deux dans la salat (prière) ?",
-          "id": "Apa hukumnya jika seseorang ragu apakah ia salat satu rakaat atau dua rakaat?",
-          "ru": "Каково предписание, если человек сомневается, совершил ли он в салате (молитве) одну ракʿах или две?",
-          "tr": "Bir kişi salat (namaz) içinde bir rekât mı yoksa iki rekât mı kıldığından şüphe ederse hüküm nedir?",
-          "ur": "اگر کسی کو شک ہو کہ اس نے نماز میں ایک رکعت پڑھی ہے یا دو، تو حکم کیا ہے؟",
-          "zh": "如果有人怀疑自己在礼拜中做了一拜还是两拜，教法规定是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস সালাতে সন্দেহ সম্পর্কে একটি শরঈ বিধান দেয়। যদি কেউ নিশ্চিত না হয় যে সে এক রাকআত পড়েছে নাকি দুই রাকআত, তবে ইমাম আল-সাদিক عليه السلام-এর মতে তাকে সালাত পুনরায় আদায় করতে হবে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regel zum Zweifel im salat (Gebet). Wenn eine Person unsicher ist, ob sie eine rakʿah oder zwei verrichtet hat, muss sie nach Imam al-Ṣādiq عليه السلام das Gebet wiederholen.",
-          "en": "This hadith gives a legal ruling regarding doubt in salat (prayer). If a person is uncertain whether he has performed one rakʿah or two, the ruling given by Imam al-Ṣādiq عليه السلام is that he must repeat the prayer.",
-          "es": "Este hadiz da una norma jurídica sobre la duda en la salat (oración). Si una persona no está segura de si realizó una rakʿah o dos, según el Imam al-Ṣādiq عليه السلام debe repetir la oración.",
-          "fa": "این حدیث دربارهٔ شک در نماز یک حکم فقهی بیان می‌کند. اگر کسی شخص تردید داشته باشد که یک رکعت انجام داده یا دو رکعت، بر اساس فرمایش امام صادق علیه‌السلام باید نماز را دوباره بخواند.",
-          "fr": "Ce hadith donne une règle juridique concernant le doute dans la salat (prière). Si une personne n’est pas certaine d’avoir accompli une rakʿah ou deux, selon l’Imam al-Ṣādiq عليه السلام elle doit recommencer la prière.",
-          "id": "Hadis ini memberikan حكم hukum tentang keraguan dalam salat (shalat). Jika seseorang ragu apakah ia telah melakukan satu rakaat atau dua, menurut Imam al-Ṣādiq عليه السلام ia harus mengulangi salat tersebut.",
-          "ru": "Этот хадис устанавливает правовое предписание относительно сомнения в салате (молитве). Если человек не уверен, совершил ли он одну ракʿах или две, согласно Имаму аль-Ṣādiq عليه السلام он должен повторить молитву.",
-          "tr": "Bu hadis, salat (namaz) içindeki şüphe hakkında bir fıkhî hüküm verir. Bir kişi bir rekât mı yoksa iki rekât mı kıldığı konusunda tereddüt ederse, İmam es-Sâdık عليه السلام’a göre namazı tekrar etmesi gerekir.",
-          "ur": "یہ حدیث نماز میں شک کے بارے میں ایک شرعی حکم بیان کرتی ہے۔ اگر کسی شخص کو اس بات میں شک ہو کہ اس نے ایک رکعت ادا کی ہے یا دو، تو امام الصادق علیہ السلام کے مطابق اسے نماز دوبارہ پڑھنی چاہیے۔",
-          "zh": "这段圣训就礼拜中的疑惑给出了一项教法判决。如果一个人不确定自己做了一拜还是两拜，根据伊玛目萨迪格 عليه السلام的教导，他必须重新礼拜。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

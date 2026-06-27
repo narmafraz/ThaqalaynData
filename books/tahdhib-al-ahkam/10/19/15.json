@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَلِيٌّ عَنْ أَبِيهِ عَنِ ٱبْنِ أَبِي عُمَيْرٍ عَنْ حَمَّادٍ عَنِ ٱلْحَلَبِيِّ عَنْ أَبِي عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী, তাঁর পিতা থেকে, ইবন আবী উমাইর থেকে, হাম্মাদ থেকে, আল-হালাবী থেকে, আবূ আবদিল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "ʿAlī, von seinem Vater, von Ibn Abī ʿUmayr, von Ḥammād, von al-Ḥalabī, von Abī ʿAbdillāh عليه السلام, der sagte:",
-              "en": "ʿAlī, from his father, from Ibn Abī ʿUmayr, from Ḥammād, from al-Ḥalabī, from Abī ʿAbdillāh عليه السلام, who said:",
-              "es": "ʿAlī, de su padre, de Ibn Abī ʿUmayr, de Ḥammād, de al-Ḥalabī, de Abī ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "علی، از پدرش، از ابن ابی‌عُمَیر، از حمّاد، از حلبی، از ابی‌عبدالله علیه‌السلام، که فرمود:",
-              "fr": "ʿAlī, de son père, d’Ibn Abī ʿUmayr, de Ḥammād, d’al-Ḥalabī, d’Abī ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Ali, dari ayahnya, dari Ibn Abī ʿUmayr, dari Ḥammād, dari al-Ḥalabī, dari Abī ʿAbdillāh عليه السلام, yang berkata:",
-              "ru": "ʿАли, от своего отца, от Ибн Аби ʿУмайра, от Хаммада, от аль-Халаби, от Аби ʿАбдуллаха عليه السلام, который сказал:",
-              "tr": "Ali, babasından, İbn Ebî ʿUmeyr’den, Hammâd’dan, el-Halebî’den, Ebû Abdillâh عليه السلام’dan rivayet etti ki şöyle dedi:",
-              "ur": "علی، اپنے والد سے، ابن ابی عمیر سے، حماد سے، حلبی سے، ابو عبداللہ علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "阿里传自其父，传自伊本阿比乌迈尔，传自哈马德，传自哈拉比，传自阿比阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 18,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنِ ٱلرَّجُلِ يَقْتُلُ ٱبْنَهُ أَ يُقْتَلُ بِهِ قَالَ «لَا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁকে এমন এক ব্যক্তি সম্পর্কে জিজ্ঞেস করলাম, যে তার ছেলেকে হত্যা করে: তাকে কি তার বদলে হত্যা করা হবে? তিনি বললেন, “না।”",
-              "de": "Ich fragte ihn nach einem Mann, der seinen Sohn tötet: Wird er deswegen getötet? Er sagte: „Nein.“",
-              "en": "I asked him about a man who kills his son: is he to be killed for him? He said, “No.”",
-              "es": "Le pregunté acerca de un hombre que mata a su hijo: ¿se le dará muerte por ello? Dijo: “No.”",
-              "fa": "از او درباره مردی پرسیدم که پسرش را می‌کشد: آیا به خاطر او کشته می‌شود؟ فرمود: «نه.»",
-              "fr": "Je lui ai demandé au sujet d’un homme qui tue son fils : sera-t-il mis à mort pour cela ? Il a dit : « Non. »",
-              "id": "Aku bertanya kepadanya tentang seorang laki-laki yang membunuh anaknya: apakah ia dibunuh karenanya? Beliau bersabda, “Tidak.”",
-              "ru": "Я спросил его о человеке, который убивает своего сына: будет ли он убит за это? Он сказал: «Нет».",
-              "tr": "Ona, oğlunu öldüren bir adam hakkında sordum: Onun için kısas olarak öldürülür mü? Buyurdu ki: “Hayır.”",
-              "ur": "میں نے ان سے ایک ایسے شخص کے بارے میں پوچھا جو اپنے بیٹے کو قتل کر دے: کیا اسے اس کے بدلے قتل کیا جائے گا؟ انہوں نے فرمایا: “نہیں۔”",
-              "zh": "我问他：一个杀死自己儿子的人，是否要因他而被处死？他说：“不。”"
-            },
             "word_end": 28,
             "word_start": 18
           }
@@ -124,24 +111,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَ يُقْتَلُ بِهِ": "is he to be killed for him; meaning subject to retaliatory execution",
-            "لَا": "no; the Imam’s ruling in response",
-            "يَقْتُلُ": "kills; refers here to the act of homicide",
-            "ٱبْنَهُ": "his son; the victim in this legal case"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَقْتُلُ",
+          "ٱبْنَهُ",
+          "أَ يُقْتَلُ بِهِ",
+          "لَا"
+        ],
         "related_quran": [
           {
             "ref": "2:178",
@@ -156,32 +131,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী কি ছেলেকে হত্যা করা বাবার ওপর কিসাস কার্যকর হয়?",
-          "de": "Wird nach diesem Hadith für einen Vater, der seinen Sohn tötet, Qisas angewandt?",
-          "en": "Is a father executed in qisas for killing his son according to this hadith?",
-          "es": "¿Se aplica qisas al padre que mata a su hijo según este hadiz?",
-          "fa": "آیا بر اساس این حدیث، برای پدری که پسرش را می‌کشد قصاص جاری می‌شود؟",
-          "fr": "Selon ce hadith, le père qui tue son fils est-il soumis au qisas ?",
-          "id": "Apakah seorang ayah dikenai qisas karena membunuh anaknya menurut hadis ini?",
-          "ru": "Применяется ли к отцу, убившему своего сына, кисас согласно этому хадису?",
-          "tr": "Bu hadise göre oğlunu öldüren baba için kısas uygulanır mı?",
-          "ur": "کیا اس حدیث کے مطابق بیٹے کو قتل کرنے والے باپ پر قصاص جاری کیا جاتا ہے؟",
-          "zh": "根据这段圣训，杀死自己儿子的父亲是否要执行报复性处决（qisas）？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে এমন এক পিতার সম্পর্কে শরয়ি বিধান বর্ণিত হয়েছে, যে তার ছেলেকে হত্যা করে। ইমাম আবূ আবদিল্লাহ عليه السلام বলেন, পিতাকে তার ছেলেকে হত্যা করার কারণে কিসাসে হত্যা করা হবে না।",
-          "de": "Dieser Hadith nennt eine rechtliche Regelung bezüglich eines Vaters, der seinen Sohn tötet. Imam Abū ʿAbdillāh عليه السلام erklärt, dass der Vater für das Töten seines Sohnes nicht der Vergeltung durch Hinrichtung unterliegt.",
-          "en": "This hadith gives a legal ruling concerning a father who kills his son. Imam Abu ʿAbdillāh عليه السلام states that the father is not subject to retaliatory execution for killing his son.",
-          "es": "Este hadiz expone una norma jurídica sobre un padre que mata a su hijo. El Imam Abū ʿAbdillāh عليه السلام declara que el padre no está sujeto a ejecución retaliatoria por matar a su hijo.",
-          "fa": "این حدیث، حکم فقهیِ مربوط به پدری را بیان می‌کند که پسرش را می‌کشد. امام ابی‌عبدالله علیه‌السلام می‌فرماید که پدر به سبب کشتن پسرش، مشمول قصاصِ قتل نمی‌شود.",
-          "fr": "Ce hadith énonce une règle juridique concernant un père qui tue son fils. L’imam Abū ʿAbdillāh عليه السلام déclare que le père n’est pas passible d’une exécution en représailles pour avoir tué son fils.",
-          "id": "Hadis ini menjelaskan hukum fikih tentang seorang ayah yang membunuh anaknya. Imam Abu ʿAbdillāh عليه السلام menyatakan bahwa ayah tidak dikenai qisas karena membunuh anaknya.",
-          "ru": "Этот хадис разъясняет правовое постановление относительно отца, который убивает своего сына. Имам Абу ʿАбдуллах عليه السلام говорит, что отец не подлежит возмездию в виде казни за убийство своего сына.",
-          "tr": "Bu hadis, oğlunu öldüren bir baba hakkında fıkhî hükmü بیان eder. İmam Ebû Abdillâh عليه السلام, babanın oğlunu öldürmesi sebebiyle kısasla öldürülmeyeceğini bildirir.",
-          "ur": "یہ حدیث اس باپ کے بارے میں شرعی حکم بیان کرتی ہے جو اپنے بیٹے کو قتل کر دے۔ امام ابو عبداللہ علیہ السلام فرماتے ہیں کہ باپ کو اپنے بیٹے کے قتل کے بدلے قصاص میں قتل نہیں کیا جائے گا۔",
-          "zh": "这段圣训阐明了关于一位杀死自己儿子的父亲的教法律例。伊玛目阿布阿卜杜拉 عليه السلام说明，父亲不会因杀死儿子而被处以报复性处决。"
-        },
         "tags": [
           "jurisprudence",
           "family",

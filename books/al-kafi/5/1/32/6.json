@@ -13,6 +13,151 @@
       "up": "/books/al-kafi:5:1:32"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ أَحْمَدَ عَنْ عَبْدِ اللَّهِ بْنِ الصَّلْتِ عَنْ يُونُسَ عَنْ سَمَاعَةَ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 21,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "إِنَّ اللَّهَ عَزَّ وَ جَلَّ فَوَّضَ إِلَى الْمُؤْمِنِ أُمُورَهُ كُلَّهَا وَ لَمْ يُفَوِّضْ إِلَيْهِ أَنْ يُذِلَّ نَفْسَهُ",
+            "chunk_type": "body",
+            "word_end": 38,
+            "word_start": 21
+          },
+          {
+            "arabic_text": "أَلَمْ تَرَ قَوْلَ اللَّهِ عَزَّ وَ جَلَّ هَاهُنَا",
+            "chunk_type": "body",
+            "word_end": 46,
+            "word_start": 38
+          },
+          {
+            "arabic_text": "وَلِلَّهِ الْعِزَّةُ وَ لِرَسُولِهِ وَ لِلْمُؤْمِنِينَ",
+            "chunk_type": "quran_quote",
+            "word_end": 52,
+            "word_start": 46
+          },
+          {
+            "arabic_text": "وَالْمُؤْمِنُ يَنْبَغِي لَهُ أَنْ يَكُونَ عَزِيزاً وَ لَا يَكُونَ ذَلِيلًا",
+            "chunk_type": "closing",
+            "word_end": 62,
+            "word_start": 52
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 59,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ أَحْمَدَ",
+              "name_en": "Muhammad ibn Ahmad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 593,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللَّهِ بْنِ الصَّلْتِ",
+              "name_en": "Abd Allah b. al-Salt",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 26,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "يُونُسَ",
+              "name_en": "Yunus",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 48,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "سَمَاعَةَ",
+              "name_en": "Sama'a",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "فَوَّضَ",
+          "أُمُورَهُ",
+          "يُذِلَّ",
+          "عَزِيزاً",
+          "ذَلِيلًا"
+        ],
+        "related_quran": [
+          {
+            "ref": "63:8",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "39:10",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "48:1",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "theology",
+          "ethics"
+        ],
+        "topics": [
+          "divine_attributes",
+          "etiquette"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (8/413)"
       ],
@@ -90,7 +235,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:1:32:6",

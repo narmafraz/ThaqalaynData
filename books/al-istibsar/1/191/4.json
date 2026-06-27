@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنِ النَّضْرِ عَنْ مُوسَى بْنِ بَكْرٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, আল-নাদর থেকে, মূসা ইবন বাকর থেকে, তিনি বলেন:",
-              "de": "Von ihm, von al-Naḍr, von Mūsā ibn Bakr, der sagte:",
-              "en": "From him, from al-Naḍr, from Mūsā ibn Bakr, who said:",
-              "es": "De él, de al-Naḍr, de Mūsā ibn Bakr, quien dijo:",
-              "fa": "از او، از نضر، از موسی بن بکر، که گفت:",
-              "fr": "De lui, d’al-Naḍr, de Mūsā ibn Bakr, qui a dit :",
-              "id": "Darinya, dari al-Nadr, dari Musa ibn Bakr, yang berkata:",
-              "ru": "От него, от ан-Надра, от Мусы ибн Бакра, который сказал:",
-              "tr": "Ondan, en-Nadr’dan, Musa ibn Bekr’den, dedi ki:",
-              "ur": "ان سے، النضر سے، موسیٰ بن بکر سے، انہوں نے کہا:",
-              "zh": "由他传自al-Naḍr，传自MūsāibnBakr，他说："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلَهُ الْفُضَيْلُ عَنِ السَّهْوِ فَقَالَ إِذَا شَكَكْتَ فِي الْأَوَّلَتَيْنِ فَأَعِدْ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আল-ফুদাইল তাঁকে ভুলে যাওয়া সম্পর্কে জিজ্ঞেস করলেন, তখন তিনি বললেন: যদি তুমি প্রথম দুই রাকআত সম্পর্কে সন্দেহ করো, তবে সালাত পুনরায় আদায় করো।",
-              "de": "Al-Fuḍayl fragte ihn nach dem Vergessen, und er sagte: Wenn du hinsichtlich der ersten beiden Rakʿahs Zweifel hast, dann wiederhole das Gebet.",
-              "en": "Al-Fuḍayl asked him about forgetfulness, so he said: If you doubt concerning the first two rakʿahs, then repeat.",
-              "es": "Al-Fuḍayl le preguntó acerca del olvido, y él dijo: Si dudas acerca de las dos primeras rakʿahs, entonces repite la oración.",
-              "fa": "فضیل از او درباره فراموشی پرسید، پس او گفت: اگر درباره دو رکعت نخست شک کردی، نماز را دوباره بخوان.",
-              "fr": "Al-Fuḍayl l’interrogea au sujet de l’oubli, et il dit : Si tu doutes au sujet des deux premières rakʿahs, alors recommence la prière.",
-              "id": "Al-Fuḍayl bertanya kepadanya tentang lupa, lalu ia berkata: Jika engkau ragu tentang dua rakaat pertama, maka ulangilah salat.",
-              "ru": "Аль-Фудайль спросил его о забывчивости, и он сказал: Если ты сомневаешься относительно первых двух ракʿатов, то повтори молитву.",
-              "tr": "el-Fudayl ona unutkanlık hakkında sordu, o da dedi ki: Eğer ilk iki rekât hakkında şüphe edersen, namazı tekrar et.",
-              "ur": "الفضیل نے ان سے بھول چوک کے بارے میں پوچھا، تو انہوں نے کہا: اگر تم پہلی دو رکعتوں کے بارے میں شک کرو تو نماز دہراؤ۔",
-              "zh": "Al-Fuḍayl向他询问关于遗忘的事，他说：如果你对前两拜有怀疑，那就重做礼拜。"
-            },
             "word_end": 18,
             "word_start": 8
           }
@@ -84,24 +71,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "السَّهْوِ": "forgetfulness or inadvertent error in salat (prayer)",
-            "الْأَوَّلَتَيْنِ": "the first two rakʿahs of the prayer",
-            "شَكَكْتَ": "you became doubtful or uncertain",
-            "فَأَعِدْ": "then repeat the prayer"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "السَّهْوِ",
+          "شَكَكْتَ",
+          "الْأَوَّلَتَيْنِ",
+          "فَأَعِدْ"
+        ],
         "related_quran": [
           {
             "ref": "2:238",
@@ -112,32 +87,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কেউ যদি সালাতের প্রথম দুই রাকআত সম্পর্কে সন্দেহ করে, তবে তার কী করা উচিত?",
-          "de": "Was soll man tun, wenn man bei den ersten beiden Rakʿahs des salat (Gebets) Zweifel hat?",
-          "en": "What should one do if one doubts the first two rakʿahs of salat (prayer)?",
-          "es": "¿Qué debe hacer una persona si duda de las dos primeras rakʿahs de la salat (oración)?",
-          "fa": "اگر کسی درباره دو رکعت نخست salat (نماز) شک کند، چه باید بکند؟",
-          "fr": "Que doit faire une personne si elle doute des deux premières rakʿahs de la salat (prière) ?",
-          "id": "Apa yang harus dilakukan jika seseorang ragu pada dua rakaat pertama salat?",
-          "ru": "Что следует делать, если есть сомнение относительно первых двух ракʿатов salat (молитвы)?",
-          "tr": "Bir kimse salatın (namazın) ilk iki rekâtında şüphe ederse ne yapmalıdır?",
-          "ur": "اگر کسی کو نماز کی پہلی دو رکعتوں میں شک ہو تو اسے کیا کرنا چاہیے؟",
-          "zh": "如果一个人对salat（礼拜）的前两拜有怀疑，应该怎么办？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস সালাত (নামাজ)-এ সন্দেহ সম্পর্কে একটি শরঈ বিধান প্রদান করে। এতে বলা হয়েছে যে, কেউ যদি প্রথম দুই রাকআত সম্পর্কে সন্দেহ করে, তবে সালাত পুনরায় আদায় করতে হবে; এটি সালাতের প্রাথমিক অংশে নিশ্চিততার বিশেষ গুরুত্বকে তুলে ধরে।",
-          "de": "Dieser Hadith enthält eine rechtliche Regelung bezüglich des Zweifels im salat (Gebet). Er besagt, dass, wenn eine Person hinsichtlich der ersten beiden Rakʿahs Zweifel hat, das Gebet wiederholt werden muss, und hebt damit die besondere Bedeutung der Gewissheit in den frühen Einheiten des Gebets hervor.",
-          "en": "This hadith gives a legal ruling concerning doubt in salat (prayer). It states that if a person doubts regarding the first two rakʿahs, the prayer must be repeated, highlighting the particular importance of certainty in the early units of the prayer.",
-          "es": "Este hadiz ofrece una norma jurídica sobre la duda en la salat (oración). Establece que si una persona duda acerca de las dos primeras rakʿahs, debe repetir la oración, destacando la importancia particular de la certeza en las primeras unidades de la oración.",
-          "fa": "این حدیث حکمی فقهی درباره شک در salat (نماز) بیان می‌کند. در آن آمده است که اگر کسی درباره دو رکعت نخست شک کند، باید نماز را دوباره بخواند؛ و این بر اهمیت ویژه یقین در بخش‌های آغازین نماز تأکید می‌کند.",
-          "fr": "Ce hadith donne une règle juridique concernant le doute dans la salat (prière). Il indique que si une personne doute au sujet des deux premières rakʿahs, la prière doit être recommencée, soulignant l’importance particulière de la certitude dans les premières unités de la prière.",
-          "id": "Hadis ini memberikan حكم hukum tentang keraguan dalam salat (salat). Disebutkan bahwa jika seseorang ragu mengenai dua rakaat pertama, salat harus diulang, yang menegaskan pentingnya keyakinan pada bagian-bagian awal salat.",
-          "ru": "Этот хадис содержит правовое постановление относительно сомнения в salat (молитве). В нём говорится, что если человек сомневается относительно первых двух ракʿатов, молитву следует повторить, что подчёркивает особую важность уверенности в начальных частях молитвы.",
-          "tr": "Bu hadis, salatta (namazda) şüpheye dair bir fıkhî hüküm verir. Buna göre kişi ilk iki rekât hakkında şüphe ederse namazı tekrar etmelidir; bu da namazın ilk bölümlerinde kesinliğin özel önemini vurgular.",
-          "ur": "یہ حدیث نماز میں شک کے بارے میں ایک شرعی حکم بیان کرتی ہے۔ اس میں کہا گیا ہے کہ اگر کسی شخص کو پہلی دو رکعتوں کے بارے میں شک ہو تو نماز دوبارہ ادا کرنی چاہیے، جو نماز کے ابتدائی حصوں میں یقین کی خاص اہمیت کو ظاہر کرتا ہے۔",
-          "zh": "这段圣训给出了关于salat（礼拜）中疑虑的教法律例。它说明，如果一个人对前两拜有怀疑，就必须重做礼拜，强调了在礼拜前几个单元中确定性的特殊重要性。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

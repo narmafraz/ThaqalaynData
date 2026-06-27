@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ عُثْمَانَ بْنِ عِيسَى عَنِ ابْنِ مُسْكَانَ عَنِ ابْنِ أَبِي يَعْفُورٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, উসমান ইবন ঈসা থেকে, ইবন মিসকান থেকে, ইবন আবি ইয়াফূর থেকে, আবু আবদিল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Von ihm, von ʿUthmān ibn ʿĪsā, von Ibn Miskān, von Ibn Abī Yaʿfūr, von Abū ʿAbdillāh عليه السلام, der sagte:",
-              "en": "From him, from ʿUthmān ibn ʿĪsā, from Ibn Miskān, from Ibn Abī Yaʿfūr, from Abū ʿAbdillāh عليه السلام, who said:",
-              "es": "De él, de ʿUthmān ibn ʿĪsā, de Ibn Miskān, de Ibn Abī Yaʿfūr, de Abū ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "از او، از عثمان بن عیسی، از ابن مسکان، از ابن ابی یعفور، از ابوعبدالله علیه السلام، که فرمود:",
-              "fr": "De lui, de ʿUthmān ibn ʿĪsā, d’Ibn Miskān, d’Ibn Abī Yaʿfūr, d’Abū ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Darinya, dari ʿUtsman ibn ʿIsa, dari Ibn Miskan, dari Ibn Abi Yaʿfur, dari Abu ʿAbdillah عليه السلام, beliau bersabda:",
-              "ru": "От него, от ʿУсмана ибн ʿИсы, от Ибн Мискана, от Ибн Аби Яʿфура, от Абу ʿАбдуллаха عليه السلام, который сказал:",
-              "tr": "Ondan, Osman ibn İsa’dan, İbn Miskân’dan, İbn Ebî Ya‘fûr’dan, Ebu Abdullah عليه السلام’dan rivayet edildi ki, şöyle dedi:",
-              "ur": "ان سے، عثمان بن عیسیٰ سے، ابن مسکان سے، ابن ابی یعفور سے، ابو عبداللہ علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "由他传自ʿUthmānibnʿĪsā，传自IbnMiskān，传自IbnAbīYaʿfūr，传自AbūʿAbdillāh عليه السلام，他说："
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "لَا تَكُونُ جُمُعَةٌ مَا لَمْ يَكُنِ الْقَوْمُ خَمْسَةً",
             "chunk_type": "body",
-            "translations": {
-              "bn": "লোকজন পাঁচজন না হলে জুমুআহ হয় না।",
-              "de": "Es gibt kein Jumuʿah, es sei denn, die Leute sind fünf.",
-              "en": "There is no Jumuʿah unless the people are five.",
-              "es": "No hay Jumuʿah a menos que la gente sea cinco.",
-              "fa": "تا مردم پنج نفر نباشند، جمعه‌ای نیست.",
-              "fr": "Il n’y a pas de Jumuʿah à moins que les gens ne soient cinq.",
-              "id": "Tidak ada Jumuʿah kecuali jika orang-orang berjumlah lima.",
-              "ru": "Нет Джумуʿа, если люди не составляют пять человек.",
-              "tr": "İnsanlar beş kişi olmadıkça Cuma olmaz.",
-              "ur": "جب تک لوگ پانچ نہ ہوں، جمعہ نہیں ہوتا۔",
-              "zh": "除非人数为五，否则没有聚礼。"
-            },
             "word_end": 27,
             "word_start": 19
           }
@@ -94,56 +81,18 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْقَوْمُ": "the people or group gathered",
-            "جُمُعَةٌ": "Jumuʿah prayer, the congregational Friday prayer",
-            "خَمْسَةً": "five persons, the minimum number mentioned here",
-            "قَالَ": "he said, introducing the Imam's statement"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "جُمُعَةٌ",
+          "الْقَوْمُ",
+          "خَمْسَةً",
+          "قَالَ"
+        ],
         "related_quran": [
           {
             "ref": "62:9",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী জুমুআহর জন্য ন্যূনতম কতজন লোক প্রয়োজন?",
-          "de": "Wie viele Personen sind diesem Hadith zufolge mindestens für das Jumuʿah erforderlich?",
-          "en": "What is the minimum number of people required for Jumuʿah according to this hadith?",
-          "es": "Según este hadiz, ¿cuál es el número mínimo de personas requerido para el Jumuʿah?",
-          "fa": "بر اساس این حدیث، حداقل چند نفر برای جمعه لازم است؟",
-          "fr": "Selon ce hadith, quel est le nombre minimum de personnes requis pour le Jumuʿah ?",
-          "id": "Menurut hadis ini, berapa jumlah minimum orang yang diperlukan untuk Jumuʿah?",
-          "ru": "Согласно этому хадису, какое минимальное число людей требуется для Джумуʿа?",
-          "tr": "Bu hadise göre Cuma için gereken asgari kişi sayısı kaçtır?",
-          "ur": "اس حدیث کے مطابق جمعہ کے لیے کم از کم کتنے افراد ضروری ہیں؟",
-          "zh": "根据这段圣训，聚礼至少需要多少人？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে জুমুআহ নামাজ প্রতিষ্ঠার একটি শরঈ শর্ত উল্লেখ করা হয়েছে: দলটি পাঁচজনের হতে হবে। জুমুআহর সহিহ হওয়া বা ওয়াজিব হওয়ার জন্য ন্যূনতম সংখ্যা সম্পর্কে ফিকহি আলোচনায় এটি ব্যবহৃত হয়।",
-          "de": "Dieser Hadith nennt eine rechtliche Bedingung für die Verrichtung des Jumuʿah-Gebets: Die Gruppe muss aus fünf Personen bestehen. Er wird in fiqhbezogenen Diskussionen über die Mindestzahl verwendet, die für die Gültigkeit oder Verpflichtung des Jumuʿah erforderlich ist.",
-          "en": "This hadith states a legal condition for the establishment of Jumuʿah prayer: the group must consist of five people. It is used in fiqh discussions concerning the minimum number required for the validity or obligation of Jumuʿah.",
-          "es": "Este hadiz establece una condición jurídica para la realización de la oración del Jumuʿah: el grupo debe estar compuesto por cinco personas. Se utiliza en las discusiones de fiqh sobre el número mínimo requerido para la validez o la obligatoriedad del Jumuʿah.",
-          "fa": "این حدیث یک شرط فقهی برای برپایی نماز جمعه را بیان می‌کند: گروه باید از پنج نفر تشکیل شود. این روایت در مباحث فقهی درباره حداقل تعداد لازم برای صحت یا وجوب جمعه به کار می‌رود.",
-          "fr": "Ce hadith énonce une condition juridique pour l’établissement de la prière du Jumuʿah : le groupe doit être composé de cinq personnes. Il est utilisé dans les discussions de fiqh concernant le nombre minimum requis pour la validité ou l’obligation du Jumuʿah.",
-          "id": "Hadis ini menyatakan syarat hukum untuk ditegakkannya salat Jumuʿah: jamaah harus terdiri dari lima orang. Ini digunakan dalam pembahasan fikih mengenai jumlah minimum yang diperlukan untuk sah atau wajibnya Jumuʿah.",
-          "ru": "Этот хадис устанавливает правовое условие для совершения пятничной молитвы: группа должна состоять из пяти человек. Он используется в фикхе при обсуждении минимального числа, необходимого для действительности или обязательности Джумуʿа.",
-          "tr": "Bu hadis, Cuma namazının kurulması için bir fıkhî şartı بیان eder: topluluk beş kişiden oluşmalıdır. Fıkıh tartışmalarında Cuma’nın sahihliği veya vacipliği için gerekli asgari sayı konusunda kullanılır.",
-          "ur": "یہ حدیث جمعہ کی نماز کے قیام کے لیے ایک شرعی شرط بیان کرتی ہے: جماعت پانچ افراد پر مشتمل ہونی چاہیے۔ فقہی مباحث میں اسے جمعہ کی صحت یا وجوب کے لیے کم از کم تعداد کے مسئلے میں استعمال کیا جاتا ہے۔",
-          "zh": "这段圣训说明了举行聚礼拜功的一项教法条件：人群必须由五个人组成。它用于关于聚礼有效性或义务所需最低人数的教法讨论。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

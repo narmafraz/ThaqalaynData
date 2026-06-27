@@ -14,6 +14,92 @@
       "up": "/books/al-kafi:4:1:37"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "وَفِي رِوَايَةٍ أُخْرَى عَنْ أَبِي بَصِيرٍ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ )",
+            "chunk_type": "isnad",
+            "word_end": 14,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "فِي قَوْلِ اللَّهِ عَزَّ وَ جَلَّ أَنْفِقُوا مِنْ طَيِّباتِ مَا كَسَبْتُمْ فَقَالَ كَانَ الْقَوْمُ قَدْ كَسَبُوا مَكَاسِبَ سَوْءٍ فِي الْجَاهِلِيَّةِ فَلَمَّا أَسْلَمُوا أَرَادُوا أَنْ يُخْرِجُوهَا مِنْ أَمْوَالِهِمْ لِيَتَصَدَّقُوا بِهَا فَأَبَى اللَّهُ تَبَارَكَ وَ تَعَالَى إِلَّا أَنْ يُخْرِجُوا مِنْ أَطْيَبِ مَا كَسَبُوا",
+            "chunk_type": "body",
+            "word_end": 55,
+            "word_start": 14
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 213,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "و",
+              "name_en": "Wa",
+              "position": 1,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "طَيِّبات",
+          "كَسَبْتُمْ",
+          "مَكَاسِبَ سَوْءٍ",
+          "الْجَاهِلِيَّةِ",
+          "أَطْيَبِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:267",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "3:92",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "quran_commentary",
+          "economy",
+          "ethics"
+        ],
+        "topics": [
+          "quran_interpretation_method",
+          "financial_law",
+          "charity",
+          "halal_haram"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مرسل   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6/178)"
       ],
@@ -24,11 +110,11 @@
           {
             "kind": "narrator",
             "path": "/people/narrators/213",
-            "text": "وَ"
+            "text": "و"
           },
           {
             "kind": "plain",
-            "text": " فِي"
+            "text": "َفِي رِوَايَةٍ أُخْرَى عَنْ أَبِي بَصِيرٍ عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام )"
           }
         ]
       },
@@ -54,7 +140,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:4:1:37:10",

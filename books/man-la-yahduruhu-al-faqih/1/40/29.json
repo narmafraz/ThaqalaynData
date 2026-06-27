@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَهُ: عَنِ الْخَلَاخِلِ هَلْ يَصْلُحُ لُبْسُهَا لِلنِّسَاءِ وَالصِّبْيَانِ قَالَ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং সে তাকে পায়ের খাঁচা সম্পর্কে জিজ্ঞাসা করল: মহিলাদের এবং শিশুদের জন্য এগুলো পরা কি ঠিক? তিনি বললেন:",
-              "de": "Und er fragte ihn nach Fußkettchen: Ist es für Frauen und Kinder angemessen, sie zu tragen? Er sagte:",
-              "en": "And he asked him about anklets: is it proper for women and children to wear them? He said:",
-              "es": "Y le preguntó acerca de los tobilleras: ¿es apropiado que las mujeres y los niños las usen? Él dijo:",
-              "fa": "و از او درباره پابندها پرسید: آیا پوشیدن آنها برای زنان و کودکان جایز است؟ او گفت:",
-              "fr": "Et il lui demanda au sujet des bracelets de cheville : est-il convenable que les femmes et les enfants les portent ? Il répondit :",
-              "id": "Dan dia bertanya tentang gelang kaki: apakah pantas bagi wanita dan anak-anak memakainya? Dia berkata:",
-              "ru": "И он спросил его о браслетах на щиколотках: разрешено ли женщинам и детям их носить? Он сказал:",
-              "tr": "Ve ona bilezikler hakkında sordu: Kadınlar ve çocuklar için onları takmak uygun mudur? O dedi ki:",
-              "ur": "اور اس نے اس سے پاؤں کی زنجیروں کے بارے میں پوچھا: کیا عورتوں اور بچوں کے لیے انہیں پہننا جائز ہے؟ اس نے کہا:",
-              "zh": "他问他关于脚镯：妇女和儿童佩戴它们合适吗？他说："
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "«إِنْ كُنَّ صَمَّاءَ فَلَا بَأْسَ وَإِنْ كَانَ لَهَا صَوْتٌ فَلَا يَصْلُحُ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“যদি তারা নীরব থাকে, তাহলে কোনো ক্ষতি নেই; কিন্তু যদি শব্দ করে, তবে তা ঠিক নয়।”",
-              "de": "„Wenn sie still sind, ist es kein Problem; aber wenn sie Geräusche machen, dann ist es nicht angemessen.“",
-              "en": "“If they are silent, there is no harm; but if they have a sound, then it is not proper.”",
-              "es": "“Si están silenciosas, no hay daño; pero si tienen sonido, entonces no es apropiado.”",
-              "fa": "«اگر بی‌صدا باشند، ضرری ندارد؛ اما اگر صدا داشته باشند، مناسب نیست.»",
-              "fr": "«S’ils sont silencieux, il n’y a pas de mal ; mais s’ils ont un son, alors ce n’est pas convenable.»",
-              "id": "“Jika mereka diam, tidak ada bahaya; tetapi jika mereka mengeluarkan suara, maka itu tidak pantas.”",
-              "ru": "«Если они беззвучны, то вреда нет; но если издают звук, то это не подходит.»",
-              "tr": "“Eğer sessizlerse, zararı yoktur; ancak ses çıkarıyorlarsa, uygun değildir.”",
-              "ur": "اگر وہ خاموش ہوں تو کوئی حرج نہیں؛ لیکن اگر ان سے آواز نکلتی ہو تو یہ مناسب نہیں۔",
-              "zh": "“如果它们是无声的，则无妨；但如果有声音，则不合适。”"
-            },
             "word_end": 20,
             "word_start": 9
           }
@@ -96,60 +83,22 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْخَلَاخِلِ": "anklets",
-            "صَمَّاءَ": "silent, not producing sound",
-            "صَوْتٌ": "sound",
-            "فَلَا بَأْسَ": "there is no harm",
-            "فَلَا يَصْلُحُ": "it is not proper",
-            "لُبْسُهَا": "wearing them",
-            "لِلنِّسَاءِ": "for women",
-            "وَالصِّبْيَانِ": "and children"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْخَلَاخِلِ",
+          "لُبْسُهَا",
+          "لِلنِّسَاءِ",
+          "وَالصِّبْيَانِ",
+          "صَمَّاءَ",
+          "صَوْتٌ",
+          "فَلَا بَأْسَ",
+          "فَلَا يَصْلُحُ"
+        ],
         "related_quran": [
           {
             "ref": "24:31",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "মহিলা ও শিশুদের জন্য শব্দ করে এমন পায়ের খাঁচা পরা কি جائز?",
-          "de": "Ist es erlaubt, dass Frauen und Kinder Fußkettchen tragen, die Geräusche machen?",
-          "en": "Is it permissible for women and children to wear anklets that make sound?",
-          "es": "¿Es permisible que mujeres y niños usen tobilleras que hacen sonido?",
-          "fa": "آیا پوشیدن پابندهایی که صدا دارند برای زنان و کودکان جایز است؟",
-          "fr": "Est-il permis aux femmes et aux enfants de porter des bracelets de cheville qui font du bruit ?",
-          "id": "Apakah diperbolehkan bagi wanita dan anak-anak memakai gelang kaki yang mengeluarkan suara?",
-          "ru": "Разрешено ли женщинам и детям носить браслеты на щиколотках, которые издают звук?",
-          "tr": "Kadınlar ve çocukların ses çıkaran bilezik takması caiz midir?",
-          "ur": "کیا عورتوں اور بچوں کے لیے ایسی پاؤں کی زنجیریں پہننا جائز ہے جو آواز کرتی ہوں؟",
-          "zh": "妇女和儿童佩戴会发出声音的脚镯合法吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি মহিলাদের ও শিশুদের পায়ের খাঁচা পরার বিষয়ে শারঈ সিদ্ধান্ত দেয়। এটি অনুমতি দেয় যখন এগুলো শব্দ না করে, এবং নিষেধ করে যখন এগুলো শব্দ করে।",
-          "de": "Dieser Hadith gibt eine Rechtsregelung bezüglich des Tragens von Fußkettchen durch Frauen und Kinder. Er erlaubt das Tragen, wenn sie keinen Ton erzeugen, und lehnt es ab, wenn sie Geräusche machen.",
-          "en": "This hadith gives a legal ruling concerning the wearing of anklets by women and children. It permits wearing anklets when they do not produce a sound, while disapproving them when they make noise.",
-          "es": "Este hadiz da un fallo legal sobre el uso de tobilleras por mujeres y niños. Permite usarlas cuando no producen sonido, y las desaprueba cuando hacen ruido.",
-          "fa": "این حدیث حکم شرعی درباره پوشیدن پابند توسط زنان و کودکان را بیان می‌کند. پوشیدن پابندهای بی‌صدا را مجاز می‌داند و صدادار بودن آنها را ناپسند می‌شمارد.",
-          "fr": "Ce hadith donne un jugement légal concernant le port de bracelets de cheville par les femmes et les enfants. Il permet de les porter lorsqu’ils ne produisent pas de son, tout en les désapprouvant lorsqu’ils font du bruit.",
-          "id": "Hadis ini memberikan hukum tentang pemakaian gelang kaki oleh wanita dan anak-anak. Memperbolehkan pemakaian jika tidak mengeluarkan suara, dan tidak memperbolehkan jika mengeluarkan suara.",
-          "ru": "Этот хадис даёт правовое постановление относительно ношения браслетов на щиколотках женщинами и детьми. Разрешает ношение, если они не издают звука, и не одобряет, если издают.",
-          "tr": "Bu hadis, kadınlar ve çocukların bilezik takmasıyla ilgili hukuki bir hüküm verir. Sessiz olduklarında takılmasına izin verirken, ses çıkardıklarında uygun olmadığını belirtir.",
-          "ur": "یہ حدیث عورتوں اور بچوں کے لیے پاؤں کی زنجیروں کے پہننے کے بارے میں شرعی حکم دیتی ہے۔ یہ اجازت دیتی ہے کہ جب وہ آواز نہ کریں تو پہننا جائز ہے، اور جب وہ آواز کریں تو ناپسندیدہ ہے۔",
-          "zh": "此圣训对妇女和儿童佩戴脚镯作出法律裁决。允许佩戴无声脚镯，反对有声音的脚镯。"
-        },
         "tags": [
           "jurisprudence",
           "family",

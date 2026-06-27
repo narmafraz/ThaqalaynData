@@ -14,6 +14,134 @@
       "up": "/books/al-kafi:4:3:124"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ الْحُسَيْنِ بْنِ سَعِيدٍ عَنِ النَّضْرِ بْنِ سُوَيْدٍ عَنْ عَبْدِ اللَّهِ بْنِ سِنَانٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 21,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قَالَ أَبُو عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) إِذَا كُنْتَ فِي الطَّوَافِ السَّابِعِ فَائْتِ الْمُتَعَوَّذَ وَ هُوَ إِذَا قُمْتَ فِي دُبُرِ الْكَعْبَةِ حِذَاءَ الْبَابِ فَقُلِ اللَّهُمَّ الْبَيْتُ بَيْتُكَ وَ الْعَبْدُ عَبْدُكَ وَ هَذَا مَقَامُ الْعَائِذِ بِكَ مِنَ النَّارِ اللَّهُمَّ مِنْ قِبَلِكَ الرَّوْحُ وَ الْفَرَجُ ثُمَّ اسْتَلِمِ الرُّكْنَ الْيَمَانِيَّ ثُمَّ ائْتِ الْحَجَرَ فَاخْتِمْ بِهِ",
+            "chunk_type": "body",
+            "word_end": 74,
+            "word_start": 21
+          }
+        ],
+        "content_type": "supplication",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 21,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنِ بْنِ سَعِيدٍ",
+              "name_en": "al-Husayn b. Sa'id",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 65,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "النَّضْرِ بْنِ سُوَيْدٍ",
+              "name_en": "al-Nadr ibn Suwayd",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 31,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللَّهِ بْنِ سِنَانٍ",
+              "name_en": "Abdullah b. Sinan",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الطَّوَاف",
+          "الْمُتَعَوَّذ",
+          "دُبُرِ الْكَعْبَةِ",
+          "الرُّكْنَ الْيَمَانِيَّ",
+          "الْحَجَرَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:96",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:125",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "3:97",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "worship",
+          "dua"
+        ],
+        "topics": [
+          "hajj",
+          "specific_supplications",
+          "etiquette_of_dua"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> صحيح    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (18/27)"
       ],
@@ -92,7 +220,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:4:3:124:3",

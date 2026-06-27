@@ -15,99 +15,47 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رَوَى ٱلْحَسَنُ بْنُ مَحْبُوبٍ عَنْ أَبِي وَلَّادٍ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হাসান ইবনে মাহবুব আবু ওলাদ থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Al-Hasan ibn Mahbub berichtete von Abu Walad, der sagte:",
-              "en": "Al-Hasan ibn Mahbub narrated from Abu Walad, who said:",
-              "es": "Al-Hasan ibn Mahbub narró de Abu Walad, quien dijo:",
-              "fa": "الْحَسَن بن مَحبوب از ابوالولد روایت کرده که گفت:",
-              "fr": "Al-Hasan ibn Mahbub a rapporté d'Abu Walad, qui a dit :",
-              "id": "Al-Hasan ibn Mahbub meriwayat dari Abu Walad, yang berkata:",
-              "ru": "Аль-Хасан ибн Махбуб передал от Абу Валад, который сказал:",
-              "tr": "El-Hasan ibn Mahbub, Ebu Velad'dan rivayet etti, o şöyle dedi:",
-              "ur": "الْحَسَن بْن مَحْبُوب نے ابوالولد سے روایت کی، جنہوں نے کہا:",
-              "zh": "الْحَسَنبنمَحبوب从أبوالولد传述，他说："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "سَمِعْتُ أَبَا عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ يَقُولُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আমি শুনেছি আবু আবদুল্লাহ عليه السلام বলছেন:",
-              "de": "Ich hörte Abu Abdullah عليه السلام sagen:",
-              "en": "I heard Abu Abdullah عليه السلام say:",
-              "es": "Escuché a Abu Abdullah عليه السلام decir:",
-              "fa": "شنیدم که ابو عبدالله علیه السلام گفت:",
-              "fr": "J'ai entendu Abu Abdullah عليه السلام dire :",
-              "id": "Saya mendengar Abu Abdullah عليه السلام berkata:",
-              "ru": "Я слышал, как Абу Абдуллах عليه السلام сказал:",
-              "tr": "Abu Abdullah عليه السلام şöyle dediğini duydum:",
-              "ur": "میں نے ابو عبداللہ علیہ السلام کو کہتے سنا:",
-              "zh": "我听见أبوعبداللهعليهالسلام说："
-            },
             "word_end": 15,
             "word_start": 8
           },
           {
             "arabic_text": "«مَنْ قَتَلَ نَفْسَهُ مُتَعَمِّدًا فَهُوَ فِي نَارِ جَهَنَّمَ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“যে ব্যক্তি ইচ্ছাকৃতভাবে নিজের জীবন নেবে সে জাহান্নামের আগুনে থাকবে",
-              "de": "„Wer sich absichtlich das Leben nimmt, wird im Feuer der Hölle sein",
-              "en": "“Whoever intentionally kills himself will be in the Fire of Hell",
-              "es": "“Quien se quite la vida intencionalmente estará en el Fuego del Infierno",
-              "fa": "«کسی که عمداً خودکشی کند در آتش جهنم خواهد بود",
-              "fr": "«Quiconque se tue intentionnellement sera dans le Feu de l'Enfer",
-              "id": "“Barangsiapa yang dengan sengaja membunuh dirinya sendiri akan berada dalam Neraka",
-              "ru": "«Кто умышленно покончит с собой, тот будет в огне Ада",
-              "tr": "“Kendi hayatını kasten alan kişi Cehennem ateşindedir",
-              "ur": "“جو شخص جان بوجھ کر اپنی جان لے گا وہ جہنم کی آگ میں ہوگا",
-              "zh": "“谁故意自杀，将在地狱火中"
-            },
             "word_end": 23,
             "word_start": 15
           },
           {
             "arabic_text": "خَالِدًا فِيهَا",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "চিরকাল সেখানে থাকবে”",
-              "de": "dort ewig verweilen“",
-              "en": "abiding therein forever”",
-              "es": "permaneciendo allí para siempre”",
-              "fa": "جاودانه خواهد ماند»",
-              "fr": "y demeurant éternellement»",
-              "id": "yang kekal di dalamnya selamanya”",
-              "ru": "пребывающим там вечно»",
-              "tr": "ebedî olarak kalacaktır”",
-              "ur": "ہمیشہ کے لیے رہنے والا”",
-              "zh": "永远居住”"
-            },
             "word_end": 25,
             "word_start": 23
           },
           {
             "arabic_text": "قِيلَ لَهُ أَرَأَيْتَ إِنْ كَانَ أَوْصَى بِوَصِيَّةٍ ثُمَّ قَتَلَ نَفْسَهُ مُتَعَمِّدًا مِنْ سَاعَتِهِ تُنْفَذُ وَصِيَّتُهُ قَالَ «إِنْ كَانَ أَوْصَى قَبْلَ أَنْ يُحْدِثَ حَدَثًا فِي نَفْسِهِ مِنْ جِرَاحَةٍ أَوْ فِعْلٍ أُجِيزَتْ وَصِيَّتُهُ فِي ثُلُثِهِ وَإِنْ كَانَ أَوْصَى بِوَصِيَّةٍ وَقَدْ أَحْدَثَ فِي نَفْسِهِ جِرَاحَةً أَوْ فِعْلًا لَعَلَّهُ يَمُوتُ لَمْ تُجَزْ وَصِيَّتُهُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তার কাছে জিজ্ঞাসা করা হলো: “যদি সে وصیت (ওয়াসিয়াত) করে এবং তারপর তৎক্ষণাৎ ইচ্ছাকৃতভাবে আত্মহত্যা করে—তাহলে তার وصیت কার্যকর হবে কি?” তিনি বললেন: “যদি সে নিজের মধ্যে কোনো ক্ষতিকর ঘটনা ঘটানোর আগে وصیت করে, সেটা হয় একটি আঘাত দ্বারা হোক বা কোনো কাজ দ্বারা, তার وصیت তার সম্পত্তির এক তৃতীয়াংশ পর্যন্ত কার্যকর হবে। কিন্তু যদি সে وصিত করে তার পরে নিজের মধ্যে এমন কোনো আঘাত বা কাজ করে যার ফলে সে মারা যেতে পারে, তাহলে তার وصیت কার্যকর হবে না।”",
-              "de": "Er wurde gefragt: „Was ist, wenn er ein Testament gemacht hat und sich dann unmittelbar danach absichtlich das Leben genommen hat—wird sein Testament ausgeführt?“ Er sagte: „Wenn er ein Testament gemacht hat, bevor er sich selbst eine schädliche Verletzung oder Handlung zugefügt hat, gilt sein Testament für ein Drittel seines Vermögens. Wenn er jedoch ein Testament gemacht hat, nachdem er sich selbst eine Verletzung oder Handlung zugefügt hat, durch die er sterben könnte, wird sein Testament nicht anerkannt.“",
-              "en": "He was asked: “What if he had made a will and then deliberately killed himself immediately after—will his will be carried out?” He said: “If he made a will before causing any harmful occurrence in himself, whether by a wound or an act, his will is upheld concerning one-third of his estate. But if he made a will after he had already caused in himself a wound or an act by which he may die, his will is not upheld.”",
-              "es": "Le preguntaron: “¿Qué pasa si hizo un testamento y luego se suicidó deliberadamente inmediatamente después—se cumplirá su testamento?” Él dijo: “Si hizo un testamento antes de causarse a sí mismo algún daño, ya sea por una herida o un acto, su testamento se cumple respecto a un tercio de su patrimonio. Pero si hizo un testamento después de haberse causado una herida o acto que podría causarle la muerte, su testamento no se cumple.”",
-              "fa": "از او پرسیدند: «اگر وصیت کرده باشد و بلافاصله پس از آن عمداً خودکشی کند، آیا وصیت او اجرا می‌شود؟» گفت: «اگر قبل از ایجاد هرگونه آسیب در خود، چه به صورت زخم یا عملی، وصیت کرده باشد، وصیت او در مورد یک سوم اموالش اجرا می‌شود. اما اگر پس از ایجاد زخم یا عملی که ممکن است باعث مرگش شود، وصیت کرده باشد، وصیت او اجرا نمی‌شود.»",
-              "fr": "On lui demanda : « Que se passe-t-il s’il a fait un testament puis s’est délibérément suicidé immédiatement après—son testament sera-t-il exécuté ? » Il répondit : « S’il a fait un testament avant de s’être causé un dommage, que ce soit par une blessure ou un acte, son testament est valable pour un tiers de ses biens. Mais s’il a fait un testament après s’être infligé une blessure ou un acte pouvant entraîner sa mort, son testament n’est pas valable. »",
-              "id": "Dia ditanya: “Bagaimana jika dia membuat wasiat lalu segera setelah itu dengan sengaja membunuh dirinya sendiri—apakah wasiatnya akan dilaksanakan?” Dia berkata: “Jika dia membuat wasiat sebelum menyebabkan kejadian berbahaya pada dirinya, baik berupa luka atau tindakan, wasiatnya berlaku untuk sepertiga hartanya. Namun jika dia membuat wasiat setelah dia menyebabkan luka atau tindakan pada dirinya yang mungkin menyebabkan kematiannya, wasiatnya tidak berlaku.”",
-              "ru": "Ему задали вопрос: «Что если он составил завещание, а затем сразу же умышленно покончил с собой — будет ли его завещание исполнено?» Он ответил: «Если он составил завещание до того, как причинил себе вред, будь то рана или действие, его завещание действительно на одну треть имущества. Но если он составил завещание после того, как причинил себе рану или совершил действие, которое может привести к смерти, его завещание не исполняется.»",
-              "tr": "Ona soruldu: “Eğer bir vasiyet yapıp hemen sonra kasten kendini öldürürse—vasiyeti yerine getirilir mi?” Dedi ki: “Eğer kendinde herhangi bir zarar verici durum yaratmadan önce vasiyet yaptıysa, ister yara olsun ister bir fiil, vasiyeti malının üçte biri hakkında geçerlidir. Ancak kendinde ölümle sonuçlanabilecek bir yara veya fiil oluşturduktan sonra vasiyet yaptıysa, vasiyeti geçerli olmaz.”",
-              "ur": "اس سے پوچھا گیا: \"اگر اس نے وصیت کی ہو اور پھر فوراً خود کو جان بوجھ کر مار ڈالا—کیا اس کی وصیت نافذ کی جائے گی؟\" اس نے کہا: \"اگر اس نے وصیت اس سے پہلے کی ہو کہ اس نے اپنے آپ میں کوئی نقصان دہ واقعہ پیدا کیا ہو، چاہے وہ زخم ہو یا کوئی عمل، تو اس کی وصیت اس کی جائیداد کے ایک تہائی حصے کے بارے میں نافذ کی جائے گی۔ لیکن اگر اس نے وصیت اس کے بعد کی ہو کہ اس نے اپنے آپ میں کوئی زخم یا ایسا عمل کیا ہو جس سے وہ مر سکتا ہو، تو اس کی وصیت نافذ نہیں کی جائے گی۔\"",
-              "zh": "有人问他：“如果他立了遗嘱然后立即故意自杀——他的遗嘱会被执行吗？”他说：“如果他在自己造成任何伤害之前立了遗嘱，无论是伤口还是行为，他的遗嘱在其财产的三分之一内有效。但如果他在自己已经造成可能致死的伤口或行为之后立了遗嘱，则该遗嘱无效。”"
-            },
             "word_end": 74,
             "word_start": 25
           }
@@ -146,26 +94,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "ثُلُثِهِ": "one-third of his estate, the limit within which the bequest is executed",
-            "جِرَاحَةٍ": "a wound or self-inflicted injury",
-            "خَالِدًا فِيهَا": "abiding therein forever",
-            "مُتَعَمِّدًا": "intentionally, deliberately",
-            "نَارِ جَهَنَّمَ": "the Fire of Hell, mentioned as the punishment for intentional self-killing",
-            "وَصِيَّةٍ": "a legal bequest or will"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "نَارِ جَهَنَّمَ",
+          "خَالِدًا فِيهَا",
+          "وَصِيَّةٍ",
+          "ثُلُثِهِ",
+          "جِرَاحَةٍ",
+          "مُتَعَمِّدًا"
+        ],
         "related_quran": [
           {
             "ref": "4:29",
@@ -176,32 +112,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে কি ইচ্ছাকৃত আত্মহত্যাকারীর وصیت বৈধ?",
-          "de": "Ist das Testament einer Person, die absichtlich Suizid begeht, im schiitischen Fiqh gültig?",
-          "en": "Is the will of a person who intentionally takes his own life valid in Shi'i fiqh?",
-          "es": "¿Es válida en la fiqh chií la voluntad de una persona que se quita la vida intencionalmente?",
-          "fa": "آیا وصیت شخصی که عمداً خودکشی می‌کند در فقه شیعه معتبر است؟",
-          "fr": "La volonté d'une personne qui se suicide intentionnellement est-elle valide en fiqh chiite ?",
-          "id": "Apakah wasiat seseorang yang sengaja mengambil nyawanya sendiri sah dalam fikih Syiah?",
-          "ru": "Является ли завещание человека, который умышленно покончил с собой, действительным в шиитском фикхе?",
-          "tr": "Şii fıkhında, kasten intihar eden bir kişinin vasiyeti geçerli midir?",
-          "ur": "کیا شیعہ فقہ میں وہ وصیت جو شخص جان بوجھ کر اپنی جان لے، جائز ہوتی ہے؟",
-          "zh": "在什叶派伊斯兰法中，故意自杀者的遗嘱有效吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে ইচ্ছাকৃত আত্মহত্যা নরক দণ্ডের কারণ, যা আত্মহত্যার গুরুতর নৈতিক ও পরকালের গুরুত্বকে তুলে ধরে। এটি وصیت-এর বৈধতা সম্পর্কেও আইনগত সিদ্ধান্ত দেয়: আত্মহত্যার আগে করা وصیت সম্পদের এক তৃতীয়াংশ পর্যন্ত বৈধ, কিন্তু প্রাণঘাতী আঘাতের পরে করা وصیت বৈধ নয়।",
-          "de": "Dieser Hadith besagt, dass wer sich absichtlich das Leben nimmt, in der Hölle bestraft wird, was die ernste moralische und eschatologische Bedeutung des Suizids betont. Er gibt auch eine rechtliche Regel zur Gültigkeit eines Testaments: Eine waṣiyyah, die vor Selbstverletzung gemacht wurde, ist bis zu einem Drittel des Nachlasses gültig, während eine nach einer tödlichen Selbstverletzung gemachte nicht gültig ist.",
-          "en": "This hadith states that intentionally taking one’s own life leads to punishment in Hell, emphasizing the grave moral and eschatological seriousness of suicide. It also gives a legal ruling on the validity of a bequest: a waṣiyyah made before self-harm is valid within one-third of the estate, while one made after initiating a fatal self-injury is not valid.",
-          "es": "Este hadiz establece que quitarse la vida intencionalmente conduce al castigo en el Infierno, enfatizando la gravedad moral y escatológica del suicidio. También da una regla legal sobre la validez de un testamento: una waṣiyyah hecha antes del daño a uno mismo es válida hasta un tercio de la herencia, mientras que una hecha después de infligirse una herida fatal no es válida.",
-          "fa": "این حدیث بیان می‌کند که خودکشی عمدی منجر به عذاب در جهنم می‌شود و اهمیت اخلاقی و آخرتی خودکشی را نشان می‌دهد. همچنین حکم شرعی وصیت را بیان می‌کند: وصیتی که قبل از آسیب رساندن به خود انجام شده باشد تا یک سوم اموال معتبر است، اما وصیتی که پس از ایجاد آسیب مرگبار انجام شود معتبر نیست.",
-          "fr": "Ce hadith affirme que se suicider intentionnellement conduit au châtiment en Enfer, soulignant la gravité morale et eschatologique du suicide. Il donne également une règle juridique sur la validité d'un testament : une waṣiyyah faite avant de se faire du mal est valable jusqu'à un tiers de la succession, tandis qu'une faite après s'être infligé une blessure mortelle n'est pas valable.",
-          "id": "Hadis ini menyatakan bahwa dengan sengaja mengambil nyawa sendiri akan mendapatkan hukuman di Neraka, menekankan keseriusan moral dan eskatologis dari bunuh diri. Juga memberikan ketentuan hukum tentang keabsahan wasiat: wasiat yang dibuat sebelum melukai diri sendiri sah hingga sepertiga harta, sedangkan wasiat yang dibuat setelah melukai diri sendiri secara fatal tidak sah.",
-          "ru": "Этот хадис утверждает, что умышленное самоубийство ведет к наказанию в Аду, подчеркивая серьезность моральных и эсхатологических последствий суицида. Также дается правовое постановление о действительности завещания: завещание (waṣiyyah), сделанное до нанесения себе вреда, действительно в пределах одной трети имущества, а сделанное после нанесения смертельной травмы — недействительно.",
-          "tr": "Bu hadis, kasten intihar etmenin cehennemde azaba sebep olduğunu, intiharın ahlaki ve ahiretsel ciddiyetini vurgular. Ayrıca vasiyetin hükmü hakkında bilgi verir: Kişi kendine zarar vermeden önce yaptığı vasiyet malın üçte biri oranında geçerlidir, ancak ölümcül zarar verdikten sonra yapılan vasiyet geçerli değildir.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ جان بوجھ کر اپنی جان لینا جہنم کی سزا کا باعث ہے، جو خودکشی کی سنگین اخلاقی اور آخرتی سنگینی کو ظاہر کرتی ہے۔ یہ وصیت کی شرعی حیثیت پر بھی حکم دیتی ہے: اگر وصیت خود کو نقصان پہنچانے سے پہلے کی گئی ہو تو وہ ایک تہائی تک جائز ہے، اور اگر موت کے قریب خود کو نقصان پہنچانے کے بعد کی گئی ہو تو جائز نہیں۔",
-          "zh": "此圣训指出故意自杀将受到地狱惩罚，强调自杀的严重道德和末世学意义。它还规定了遗嘱的法律效力：在自伤前立的遗嘱在遗产三分之一内有效，而在造成致命伤害后立的遗嘱无效。"
-        },
         "tags": [
           "jurisprudence",
           "ethics",

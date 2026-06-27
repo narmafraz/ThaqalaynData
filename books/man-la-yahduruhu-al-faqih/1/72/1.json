@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَرَوَىٰ مُحَمَّدُ بْنُ مُسْلِمٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবনে মুসলিম আবী জাফর عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Muhammad ibn Muslim berichtete von Abī Ja‘far عليه السلام, der sagte:",
-              "en": "Muhammad ibn Muslim narrated from Abī Ja‘far عليه السلام, who said:",
-              "es": "Muhammad ibn Muslim narró de Abī Ja‘far عليه السلام, quien dijo:",
-              "fa": "محمد بن مسلم از ابی جعفر علیه السلام روایت کرده است که فرمود:",
-              "fr": "Muhammad ibn Muslim a rapporté d'Abī Ja‘far عليه السلام, qui a dit :",
-              "id": "Muhammad ibn Muslim meriwayatkan dari Abī Ja‘far علیه السلام, yang berkata:",
-              "ru": "Мухаммад ибн Муслим передал от Абī Джа‘фара عليه السلام, который сказал:",
-              "tr": "Muhammad ibn Muslim, Abī Ja‘far عليه السلام'dan rivayet etti, şöyle dedi:",
-              "ur": "محمد ابن مسلم نے ابی جعفر علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "穆罕默德伊本穆斯林从阿比贾法尔 عليه السلام传述，他说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "الْقُنُوتُ فِي كُلِّ رَكْعَتَيْنِ فِي التَّطَوُّعِ وَالْفَرِيضَةِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "কুনূত প্রতিটি দুই রাকআতে নফল ও ফরজ নামাজে হয়।",
-              "de": "Der Qunoot wird in jedem zweiten Rak‘ah in den freiwilligen und verpflichtenden Gebeten verrichtet.",
-              "en": "Qunoot is in every two rak‘ahs in the optional and obligatory prayers.",
-              "es": "El qunoot se realiza en cada dos rak‘ahs en las oraciones opcionales y obligatorias.",
-              "fa": "قنوت در هر دو رکعت در نمازهای مستحب و واجب است.",
-              "fr": "Le qunūt se fait tous les deux rak‘ahs dans les prières surérogatoires et obligatoires.",
-              "id": "Qunoot dilakukan setiap dua rakaat dalam shalat sunnah dan wajib.",
-              "ru": "Куноот совершается в каждых двух ракаатах в добровольных и обязательных молитвах.",
-              "tr": "Kunut, nafile ve farz namazlarda her iki rekâtta bir yapılır.",
-              "ur": "قنوت ہر دو رکعت میں نفلی اور فرض نمازوں میں ہوتا ہے۔",
-              "zh": "每两礼拜中的自愿和义务礼拜中都诵读昆图。"
-            },
             "word_end": 17,
             "word_start": 10
           }
@@ -91,24 +78,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "التَّطَوُّعِ": "optional or supererogatory prayer",
-            "الْفَرِيضَةِ": "obligatory prayer",
-            "الْقُنُوتُ": "the supplication recited in salat at the prescribed place",
-            "رَكْعَتَيْنِ": "two units of prayer"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْقُنُوتُ",
+          "رَكْعَتَيْنِ",
+          "التَّطَوُّعِ",
+          "الْفَرِيضَةِ"
+        ],
         "related_quran": [
           {
             "ref": "2:238",
@@ -119,32 +94,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কুনূত কি নফল ও ফরজ নামাজ উভয়েই পাঠ করা হয়?",
-          "de": "Wird der Qunoot sowohl in freiwilligen als auch in verpflichtenden Gebeten rezitiert?",
-          "en": "Is qunoot recited in both optional and obligatory prayers?",
-          "es": "¿Se recita el qunoot en oraciones opcionales y obligatorias?",
-          "fa": "آیا قنوت در نمازهای مستحب و واجب خوانده می‌شود؟",
-          "fr": "Le qunūt est-il récité dans les prières surérogatoires et obligatoires ?",
-          "id": "Apakah qunoot dibaca dalam shalat sunnah dan wajib?",
-          "ru": "Читается ли куноот как в добровольных, так и в обязательных молитвах?",
-          "tr": "Kunut hem nafile hem de farz namazlarda okunur mu?",
-          "ur": "کیا قنوت نفلی اور فرض دونوں نمازوں میں پڑھا جاتا ہے؟",
-          "zh": "昆图是否在自愿和义务礼拜中诵读？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি নির্দেশ দেয় যে কুনূত প্রতিটি দুই রাকআতে ফরজ ও নফল নামাজে ফরজ। এটি সালাতে দোয়ার নিয়মিত স্থান এবং বিভিন্ন নামাজের শ্রেণীতে এর প্রয়োগকে তুলে ধরে।",
-          "de": "Dieser Hadith legt fest, dass der Qunoot in jedem zweiten Rak‘ah sowohl in freiwilligen als auch in verpflichtenden Gebeten vorgeschrieben ist. Er hebt die regelmäßige Stellung der Bittgebete im Salat und deren Anwendung in verschiedenen Gebetskategorien hervor.",
-          "en": "This hadith states the ruling that qunoot is prescribed in every two rak‘ahs, both in supererogatory prayers and in obligatory prayers. It highlights the regular place of supplication within salat and its application across different categories of prayer.",
-          "es": "Este hadiz establece la regla de que el qunoot está prescrito en cada dos rak‘ahs, tanto en oraciones supererogatorias como obligatorias. Destaca el lugar regular de la súplica dentro de la salat y su aplicación en diferentes categorías de oración.",
-          "fa": "این حدیث حکم قنوت را در هر دو رکعت، هم در نمازهای مستحب و هم در واجب بیان می‌کند. جایگاه منظم دعا در نماز و کاربرد آن در انواع مختلف نماز را نشان می‌دهد.",
-          "fr": "Ce hadith énonce que le qunūt est prescrit tous les deux rak‘ahs, tant dans les prières surérogatoires que dans les prières obligatoires. Il souligne la place régulière de la supplication dans la salat et son application à différentes catégories de prières.",
-          "id": "Hadis ini menyatakan hukum bahwa qunoot diwajibkan setiap dua rakaat, baik dalam shalat sunnah maupun wajib. Ini menyoroti tempat doa yang teratur dalam salat dan penerapannya di berbagai kategori shalat.",
-          "ru": "Этот хадис устанавливает правило, что куноот предписан в каждых двух ракаатах как в добровольных, так и в обязательных молитвах. Он подчеркивает регулярное место мольбы в саляте и её применение в различных категориях молитв.",
-          "tr": "Bu hadis, qunutun hem nafile hem de farz namazlarda her iki rekâtta bir yapılmasının hükmünü belirtir. Salat içindeki düzenli dua yerini ve farklı namaz türlerine uygulanmasını vurgular.",
-          "ur": "یہ حدیث حکم بیان کرتی ہے کہ قنوت ہر دو رکعت میں فرض اور نفلی نمازوں دونوں میں واجب ہے۔ یہ نماز میں دعا کی باقاعدہ جگہ اور مختلف اقسام کی نمازوں میں اس کے اطلاق کو ظاہر کرتی ہے۔",
-          "zh": "此圣训规定昆图在自愿和义务礼拜的每两礼拜中均为规定。强调了祈祷在礼拜中的固定位置及其在不同礼拜类别中的应用。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

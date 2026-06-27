@@ -14,6 +14,142 @@
       "up": "/books/al-kafi:6:7:22"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ الْحَسَنِ بْنِ عَلِيِّ بْنِ يَقْطِينٍ عَنْ أَخِيهِ الْحُسَيْنِ بْنِ عَلِيِّ بْنِ يَقْطِينٍ عَنْ أَبِيهِ عَلِيِّ بْنِ يَقْطِينٍ عَنْ أَبِي الْحَسَنِ الْمَاضِي ( عَلَيْهِ السَّلَام ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 34,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "إِنَّ اللَّهَ عَزَّ وَ جَلَّ لَمْ يُحَرِّمِ الْخَمْرَ لِاسْمِهَا وَ لَكِنَّهُ حَرَّمَهَا لِعَاقِبَتِهَا فَمَا كَانَ عَاقِبَتُهُ عَاقِبَةَ الْخَمْرِ فَهُوَ الْخَمْرُ",
+            "chunk_type": "body",
+            "word_end": 54,
+            "word_start": 34
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 261,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحَسَنِ بْنِ عَلِيِّ بْنِ يَقْطِينٍ",
+              "name_en": "al-Hasan ibn Ali ibn Yaqtin",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1311,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَخِيهِ الْحُسَيْنِ بْنِ عَلِيِّ بْنِ يَقْطِينٍ",
+              "name_en": "al-Husayn b. Ali b. Yaqtin",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1000,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ عَلِيِّ بْنِ يَقْطِينٍ",
+              "name_en": "Ali b. Yaqtin",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 521,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي الْحَسَنِ الْمَاضِي ( عليه السلام )",
+              "name_en": "al-Hasan al-Madi",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الْخَمْرُ",
+          "لِعَاقِبَتِهَا",
+          "يُحَرِّمُ",
+          "عَاقِبَتُهُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:219",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "5:90",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "7:157",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "theology"
+        ],
+        "topics": [
+          "halal_haram",
+          "financial_law"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> صحيح   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (22/271)"
       ],
@@ -94,7 +230,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:7:22:2",

@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "صَفْوَانُ عَنِ ابْنِ مُسْكَانَ عَنْ لَيْثٍ الْمُرَادِيِّ وَعَبْدِ الْأَعْلَى بْنِ أَعْيَنَ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "সাফওয়ান, ইবন মুসকান থেকে, লায়থ আল-মুরাদী এবং ‘আবদ আল-আ‘লা ইবন আ‘য়ান থেকে, আবি ‘আবদিল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Safwan, von Ibn Muskan, von Layth al-Muradi und 'Abd al-A'la ibn A'yan, von Abi 'Abdillah عليه السلام, der sagte:",
-              "en": "Safwan, from Ibn Muskan, from Layth al-Muradi and 'Abd al-A'la ibn A'yan, from Abi 'Abdillah عليه السلام, who said:",
-              "es": "Safwan, de Ibn Muskan, de Layth al-Muradi y 'Abd al-A'la ibn A'yan, de Abi 'Abdillah عليه السلام, quien dijo:",
-              "fa": "صفوان، از ابن مسکان، از لیث المرادی و عبدالأعلى بن اعین، از ابی‌عبدالله علیه‌السلام، که فرمود:",
-              "fr": "Safwan, d’Ibn Muskan, de Layth al-Muradi et de 'Abd al-A'la ibn A'yan, d’Abi 'Abdillah عليه السلام, qui a dit :",
-              "id": "Safwan, dari Ibn Muskan, dari Layth al-Muradi dan 'Abd al-A'la ibn A'yan, dari Abi 'Abdillah عليه السلام, yang berkata:",
-              "ru": "Сафван, от Ибн Мускана, от Лайта аль-Муради и 'Абд аль-А'ля ибн А'яна, от Аби 'Абдуллаха عليه السلام, который сказал:",
-              "tr": "Safvan, İbn Muskan'dan, Leys el-Muradi ve Abdülâlâ ibn A'yan'dan, Ebu Abdullah عليه السلام'dan, şöyle dedi:",
-              "ur": "صفوان، ابن مسکان سے، لیث المرادی اور عبد الاعلیٰ بن اعین سے، ابو عبداللہ علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "萨夫万，传自伊本穆斯坎，传自莱斯·穆拉迪和阿卜杜勒阿拉·伊本·阿亚恩，传自阿比·阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 18,
             "word_start": 0
           },
           {
             "arabic_text": "دِيَةُ الْيَهُودِيِّ وَالنَّصْرَانِيِّ ثَمَانُمِائَةِ دِرْهَمٍ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "ইহুদি ও খ্রিস্টানের দিয়াত আটশ দিরহাম।",
-              "de": "Das Diyah für den Juden und den Christen beträgt achthundert Dirham.",
-              "en": "The diyah of the Jew and the Christian is eight hundred dirhams.",
-              "es": "La diyah del judío y del cristiano es de ochocientos dirhams.",
-              "fa": "دیهِ یهودی و نصرانی هشتصد درهم است.",
-              "fr": "La diyah du juif et du chrétien est de huit cents dirhams.",
-              "id": "Diyah bagi orang Yahudi dan Nasrani adalah delapan ratus dirham.",
-              "ru": "Дия за иудея и христианина составляет восемьсот дирхамов.",
-              "tr": "Yahudi ve Hristiyan'ın diyeti sekiz yüz dirhemdir.",
-              "ur": "یہودی اور نصرانی کی دیت آٹھ سو درہم ہے۔",
-              "zh": "犹太人和基督徒的血赔是八百迪拉姆。"
-            },
             "word_end": 23,
             "word_start": 18
           }
@@ -114,25 +101,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "النَّصْرَانِيِّ": "a Christian person, in the legal context of this ruling",
-            "الْيَهُودِيِّ": "a Jewish person, in the legal context of this ruling",
-            "ثَمَانُمِائَةِ": "the amount of eight hundred",
-            "دِرْهَمٍ": "dirhams, a unit of monetary value",
-            "دِيَةُ": "financial compensation prescribed for unlawful killing or injury"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "دِيَةُ",
+          "الْيَهُودِيِّ",
+          "النَّصْرَانِيِّ",
+          "ثَمَانُمِائَةِ",
+          "دِرْهَمٍ"
+        ],
         "related_quran": [
           {
             "ref": "4:92",
@@ -143,32 +118,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "তাহযীবুল আহকাম-এর এই হাদিসে একজন ইহুদি বা খ্রিস্টানের দিয়াত কত?",
-          "de": "Wie hoch ist die Diyah für einen Juden oder Christen in diesem Hadith aus Tahdhib al-Ahkam?",
-          "en": "What is the diyah of a Jew or a Christian in this hadith from Tahdhib al-Ahkam?",
-          "es": "¿Cuál es la diyah de un judío o un cristiano en este hadiz de Tahdhib al-Ahkam?",
-          "fa": "دیهِ یهودی یا نصرانی در این حدیث از تهذیب الأحکام چیست؟",
-          "fr": "Quelle est la diyah d’un juif ou d’un chrétien dans ce hadith de Tahdhib al-Ahkam ?",
-          "id": "Berapa diyah seorang Yahudi atau Nasrani dalam hadis ini dari Tahdhib al-Ahkam?",
-          "ru": "Какова дия за иудея или христианина в этом хадисе из Tahdhib al-Ahkam?",
-          "tr": "Tahdhib al-Ahkam'daki bu hadiste bir Yahudi veya Hristiyan'ın diyeti nedir?",
-          "ur": "اس حدیث میں یہودی یا نصرانی کی دیت کیا ہے؟",
-          "zh": "在《Tahdhibal-Ahkam》的这段圣训中，犹太人或基督徒的血赔是多少？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে একজন ইহুদি বা খ্রিস্টান ব্যক্তির দিয়াত সম্পর্কে একটি শরঈ বিধান উল্লেখ করা হয়েছে। এটি কিসাসের আইন এবং বিভিন্ন আইনি শ্রেণির মানুষের মধ্যে ক্ষতিপূরণ সম্পর্কিত ফিকহি আলোচনার অন্তর্ভুক্ত।",
-          "de": "Dieser Hadith nennt eine rechtliche Regelung zur Diyah für eine jüdische oder christliche Person. Er gehört zu den fiqhbezogenen Diskussionen über das Vergeltungsrecht und die Entschädigung zwischen verschiedenen rechtlichen Personenkategorien.",
-          "en": "This hadith states a legal ruling concerning the diyah for a Jewish or Christian person. It belongs to the jurisprudential discussions of retaliatory law and compensation between different legal categories of persons.",
-          "es": "Este hadiz establece una norma jurídica sobre la diyah de una persona judía o cristiana. Pertenece a las discusiones jurisprudenciales sobre la ley de represalia y la compensación entre distintas categorías legales de personas.",
-          "fa": "این حدیث حکمی فقهی درباره دیهِ شخص یهودی یا نصرانی را بیان می‌کند. این روایت در مباحث فقهیِ مربوط به احکام قصاص و دیه میان دسته‌های مختلف اشخاص قرار می‌گیرد.",
-          "fr": "Ce hadith énonce une règle juridique concernant la diyah d’une personne juive ou chrétienne. Il relève des discussions jurisprudentielles sur la loi du talion et l’indemnisation entre différentes catégories juridiques de personnes.",
-          "id": "Hadis ini menyatakan sebuah حكم hukum tentang diyah bagi seorang Yahudi atau Nasrani. Ini termasuk dalam pembahasan fikih tentang hukum qisas dan kompensasi antara kategori orang yang berbeda.",
-          "ru": "Этот хадис устанавливает правовое предписание относительно дии за иудея или христианина. Он относится к фикховым обсуждениям о законе возмездия и компенсации между различными правовыми категориями людей.",
-          "tr": "Bu hadis, Yahudi veya Hristiyan bir kişi için diyetle ilgili bir fıkhî hükmü بیان eder. Kısas hukuku ve farklı hukukî kategoriler arasındaki tazminat tartışmalarına aittir.",
-          "ur": "یہ حدیث یہودی یا نصرانی شخص کی دیت کے بارے میں ایک شرعی حکم بیان کرتی ہے۔ یہ قصاص اور مختلف قانونی طبقات کے درمیان معاوضے سے متعلق فقہی مباحث میں شامل ہے۔",
-          "zh": "这段圣训阐述了关于犹太人或基督徒的血赔的教法判定。它属于有关报复法和不同法律类别之间赔偿的教法讨论。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations",

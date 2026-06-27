@@ -15,6 +15,124 @@
       "up": "/books/al-kafi:8:1:34"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَنْهُ عَنْ هَارُونَ بْنِ مُسْلِمٍ عَنْ مَسْعَدَةَ بْنِ صَدَقَةَ عَنْ أَبِي عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 16,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "إِنَّ رَجُلًا أَتَى النَّبِيَّ (صَلَّى اللَّهِ عَلَيْهِ وَآلِهِ) فَقَالَ لَهُ يَا رَسُولَ اللَّهِ أَوْصِنِي فَقَالَ لَهُ رَسُولُ اللَّهِ (صَلَّى اللَّهِ عَلَيْهِ وَآلِهِ) فَهَلْ أَنْتَ مُسْتَوْصٍ إِنْ أَنَا أَوْصَيْتُكَ حَتَّى قَالَ لَهُ ذَلِكَ ثَلَاثاً وَ فِي كُلِّهَا يَقُولُ لَهُ الرَّجُلُ نَعَمْ يَا رَسُولَ اللَّهِ فَقَالَ لَهُ رَسُولُ اللَّهِ (صَلَّى اللَّهِ عَلَيْهِ وَآلِهِ) فَإِنِّي أُوصِيكَ إِذَا أَنْتَ هَمَمْتَ بِأَمْرٍ فَتَدَبَّرْ عَاقِبَتَهُ فَإِنْ يَكُ رُشْداً فَامْ فَامْضِهِ وَ إِنْ يَكُ غَيّاً فَانْتَهِ عَنْهُ.",
+            "chunk_type": "body",
+            "word_end": 86,
+            "word_start": 16
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 11,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَنْهُ",
+              "name_en": "from him",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 113,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "هَارُونَ بْنِ مُسْلِمٍ",
+              "name_en": "Harun ibn Muslim",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 134,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مَسْعَدَةَ بْنِ صَدَقَةَ",
+              "name_en": "Masada ibn Sadaqa",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ (عليه السلام)",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "أَوْصِنِي",
+          "مُسْتَوْصٍ",
+          "عَاقِبَتَهُ",
+          "رُشْداً",
+          "غَيّاً"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:105",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "7:199",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "59:2",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "prophetic_tradition"
+        ],
+        "topics": [
+          "prophetic_character",
+          "reasoning",
+          "sunnah"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (5 / 368)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -88,7 +206,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:34:5",

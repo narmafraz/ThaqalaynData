@@ -14,6 +14,136 @@
       "up": "/books/al-kafi:5:2:115"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ أَحْمَدَ عَنْ مُحَمَّدِ بْنِ عِيسَى عَنْ أَبِي مُحَمَّدٍ الْأَنْصَارِيِّ عَنْ عَبْدِ اللَّهِ بْنِ سِنَانٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 21,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قُلْتُ لِأَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) الرَّجُلُ يَكُونُ لِي عَلَيْهِ الدَّرَاهِمُ فَيُعْطِينِي الْمُكْحُلَةَ فَقَالَ الْفِضَّةُ بِالْفِضَّةِ وَ مَا كَانَ مِنْ كُحْلٍ فَهُوَ دَيْنٌ عَلَيْهِ حَتَّى يَرُدَّهُ عَلَيْكَ يَوْمَ الْقِيَامَةِ",
+            "chunk_type": "body",
+            "word_end": 52,
+            "word_start": 21
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 59,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ أَحْمَدَ",
+              "name_en": "Muhammad ibn Ahmad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 27,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ عِيسَى",
+              "name_en": "Muhammad ibn Isa",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 751,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي مُحَمَّدٍ الْأَنْصَارِيِّ",
+              "name_en": "Abu Muhammad al-Ansari",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 31,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللَّهِ بْنِ سِنَانٍ",
+              "name_en": "Abdullah b. Sinan",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "theological_concept",
+            "phrase_ar": "يَوْمُ الْقِيَامَةِ",
+            "phrase_en": "Day of Resurrection"
+          }
+        ],
+        "key_terms_keys": [
+          "الدَّرَاهِمُ",
+          "الْمُكْحُلَة",
+          "الْفِضَّةُ بِالْفِضَّةِ",
+          "دَيْنٌ",
+          "يَوْمَ الْقِيَامَةِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:282",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:275",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "economy",
+          "ethics"
+        ],
+        "topics": [
+          "financial_law",
+          "trade_ethics",
+          "rights_of_others"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> حسن  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (9/315)"
       ],
@@ -85,7 +215,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:2:115:30",

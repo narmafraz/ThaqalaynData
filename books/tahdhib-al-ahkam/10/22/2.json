@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَلِيٌّ عَنْ أَبِيهِ عَنِ ابْنِ فَضَّالٍ عَنِ الرِّضَا عَلَيْهِ السَّلَامُ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী, তাঁর পিতা থেকে, ইবন ফাদ্দাল থেকে, আল-রিদা عليه السلام থেকে।",
-              "de": "ʿAlī, von seinem Vater, von Ibn Faḍḍāl, von al-Riḍā عليه السلام.",
-              "en": "ʿAlī, from his father, from Ibn Faḍḍāl, from al-Riḍā عليه السلام.",
-              "es": "ʿAlī, de su padre, de Ibn Faḍḍāl, de al-Riḍā عليه السلام.",
-              "fa": "علی، از پدرش، از ابن فضّال، از الرضا علیه السلام.",
-              "fr": "ʿAlī, de son père, d’Ibn Faḍḍāl, d’al-Riḍā عليه السلام.",
-              "id": "ʿAli, dari ayahnya, dari Ibn Faḍḍāl, dari al-Riḍā عليه السلام.",
-              "ru": "ʿАли, от своего отца, от Ибн Фаддаля, от ар-Риды عليه السلام.",
-              "tr": "Ali, babasından, İbn Faḍḍāl’dan, er-Rıḍā عليه السلام’dan.",
-              "ur": "علی، اپنے والد سے، ابن فضّال سے، الرضا علیہ السلام سے۔",
-              "zh": "阿里,由其父,由伊本·法达勒,由阿尔里达 عليه السلام传述。"
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "مِثْلَهُ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এর অনুরূপ।",
-              "de": "Das Gleiche wie dies.",
-              "en": "The like of it.",
-              "es": "Lo semejante a ello.",
-              "fa": "مانند آن.",
-              "fr": "L’équivalent de cela.",
-              "id": "Seperti itu.",
-              "ru": "Подобное этому.",
-              "tr": "Onun benzeri.",
-              "ur": "اس جیسا۔",
-              "zh": "与此相似。"
-            },
             "word_end": 11,
             "word_start": 10
           }
@@ -104,24 +91,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبِيهِ": "his father, as part of the sanad/isnad",
-            "ابْنِ فَضَّالٍ": "Ibn Faḍḍāl, a narrator in the sanad/isnad",
-            "الرِّضَا": "Imam al-Riḍā عليه السلام, the reported source of the hadith",
-            "مِثْلَهُ": "the same as it; indicating the matn matches the previous report"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَبِيهِ",
+          "ابْنِ فَضَّالٍ",
+          "الرِّضَا",
+          "مِثْلَهُ"
+        ],
         "related_quran": [
           {
             "ref": "2:178",
@@ -132,32 +107,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "তাহযীবুল আহকাম-এর একটি হাদিসে পৃথক সনদসহ \"مِثْلَهُ\" এর অর্থ কী?",
-          "de": "Was bedeutet „مِثْلَهُ“ in einem Hadith aus Tahdhīb al-Aḥkām mit einem separaten sanad?",
-          "en": "What does \"مِثْلَهُ\" mean in a hadith of Tahdhīb al-Aḥkām with a separate sanad/isnad?",
-          "es": "¿Qué significa \"مِثْلَهُ\" en un hadiz de Tahdhīb al-Aḥkām con un sanad separado?",
-          "fa": "«مِثْلَهُ» در یک حدیث از تهذیب الأحکام با سندی جداگانه چه معنایی دارد؟",
-          "fr": "Que signifie « مِثْلَهُ » dans un hadith de Tahdhīb al-Aḥkām avec un sanad séparé ?",
-          "id": "Apa arti \"مِثْلَهُ\" dalam sebuah hadis Tahdhīb al-Aḥkām dengan sanad terpisah?",
-          "ru": "Что означает «مِثْلَهُ» в хадисе из Tahdhīb al-Aḥkām с отдельным иснадом?",
-          "tr": "Tahdhīb al-Aḥkām’daki ayrı bir isnadla gelen bir hadiste \"مِثْلَهُ\" ne anlama gelir?",
-          "ur": "تہذیب الاحکام کی ایک حدیث میں جدا سند کے ساتھ \"مِثْلَهُ\" کا کیا مطلب ہے؟",
-          "zh": "在《Tahdhīb al-Aḥkām》的一则带有单独传述系统的圣训中,“مِثْلَهُ”是什么意思?"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনায় আল-রিদা عليه السلام পর্যন্ত পৌঁছানো একটি সংক্ষিপ্ত সনদ রয়েছে, তারপর বলা হয়েছে \"এর অনুরূপ\", যা নির্দেশ করে যে বিধান বা বাক্যটি পূর্ববর্তী হাদিসের মতোই। প্রসঙ্গে, এটি অঙ্গপ্রত্যঙ্গ ও আঘাতের দিয়াত এবং তাতে কিসাসের অধ্যায়ে পূর্ববর্তী ফিকহি বর্ণনার সমর্থন হিসেবে কাজ করে।",
-          "de": "Dieser Eintrag bietet einen kurzen sanad, der zu al-Riḍā عليه السلام führt, und sagt dann „das Gleiche wie dies“, was darauf hinweist, dass das Urteil oder der Wortlaut mit dem vorherigen Hadith identisch ist. Im Kontext dient er als überlieferte Bestätigung des vorherigen rechtlichen Berichts im Kapitel über die diyāt von Gliedmaßen und Verletzungen sowie den qiṣāṣ darin.",
-          "en": "This entry gives a brief sanad/isnad leading to al-Riḍā عليه السلام, then states \"the like of it,\" indicating that the ruling or wording is the same as the preceding hadith. In context, it functions as a transmitted corroboration of the previous legal report in the chapter on diyāt of limbs and injuries and retaliation therein.",
-          "es": "Esta entrada ofrece un sanad breve que conduce a al-Riḍā عليه السلام, y luego dice \"lo semejante a ello\", indicando que la norma o la formulación es la misma que en el hadiz anterior. En contexto, funciona como una corroboración transmitida del informe jurídico previo en el capítulo sobre las diyāt de los miembros y las heridas, y el qiṣāṣ en ellas.",
-          "fa": "این مدخل، با یک سند کوتاه به الرضا علیه السلام می‌رسد و سپس با عبارت «مانند آن» بیان می‌کند که حکم یا عبارت همانند حدیث پیشین است. در سیاق، این روایت به‌عنوان تأیید نقل‌شدهٔ گزارش فقهی پیشین در باب دیاتِ اعضا و جراحات و قصاص در آن‌ها عمل می‌کند.",
-          "fr": "Cette entrée donne un sanad bref menant à al-Riḍā عليه السلام, puis dit « l’équivalent de cela », indiquant que le jugement ou la formulation est identique à celui du hadith précédent. Dans son contexte, elle sert de corroboration transmise du rapport juridique précédent dans le chapitre des diyāt des membres et des blessures, ainsi que du qiṣāṣ qui s’y rapporte.",
-          "id": "Entri ini memberikan sanad singkat yang berujung kepada al-Riḍā عليه السلام, lalu menyatakan \"seperti itu\", yang menunjukkan bahwa hukum atau redaksinya sama dengan hadis sebelumnya. Dalam konteksnya, ini berfungsi sebagai penguat riwayat hukum sebelumnya dalam bab diyat anggota tubuh dan luka-luka serta qisas di dalamnya.",
-          "ru": "В этой записи приводится краткий иснад, ведущий к ар-Риде عليه السلام, а затем говорится: «подобное этому», что указывает на то, что постановление или формулировка такие же, как в предыдущем хадисе. В контексте это служит переданным подтверждением предыдущего правового сообщения в главе о дийат за конечности и ранения, а также о кисасе в них.",
-          "tr": "Bu kayıt, er-Rıḍā عليه السلام’a ulaşan kısa bir isnad verir, ardından \"onun benzeri\" diyerek hükmün veya lafzın önceki hadisle aynı olduğunu belirtir. Bağlamda, uzuvlar ve yaralanmaların diyeti ile bunlarda kısas babında önceki fıkhî rivayetin teyidi olarak işlev görür.",
-          "ur": "یہ روایت ایک مختصر سند کے ساتھ الرضا علیہ السلام تک پہنچتی ہے، پھر \"اس جیسا\" کہہ کر بتاتی ہے کہ حکم یا عبارت پچھلی حدیث کے مطابق ہے۔ سیاق میں یہ ابوابِ دیاتِ اعضا و جراحات اور ان میں قصاص کے باب میں سابقہ فقہی روایت کی تائید کے طور پر آتی ہے۔",
-          "zh": "这一条目给出了一条简短的传述系统,最终传至阿尔里达 عليه السلام,然后说“与此相似”,表示其判决或措辞与前一段圣训相同。在上下文中,它作为关于肢体和伤害的赔偿金以及其中报复法的前一则法律传述的转述性佐证。"
-        },
         "tags": [
           "jurisprudence",
           "prophetic_tradition",

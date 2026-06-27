@@ -17,61 +17,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رَوَى صَفْوَانُ بْنُ يَحْيَى عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ جَمِيلٍ عَنْ أَحَدِهِمَا عَلَيْهِمَا السَّلَامُ :",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "সফওয়ান ইবনে ইয়াহয়া ইবনে আবি উমায়ের থেকে, যিনি জামিল থেকে, দুই ইমামের একজন থেকে, তাদের উপর শান্তি বর্ষিত হোক, বর্ণনা করেছেন:",
-              "de": "Safwan ibn Yahya berichtete von Ibn Abi Umayr, von Jamil, von einem der beiden Imame, Friede sei mit ihnen:",
-              "en": "Safwan ibn Yahya narrated from Ibn Abi Umayr, from Jamil, from one of the two Imams, peace be upon them:",
-              "es": "Safwan ibn Yahya narró de Ibn Abi Umayr, de Jamil, de uno de los dos Imames, la paz sea con ellos:",
-              "fa": "صفوان بن یحیی از ابن ابی عمیر، از جمیل، از یکی از دو امام، علیهما السلام روایت کرد:",
-              "fr": "Safwan ibn Yahya a rapporté de Ibn Abi Umayr, de Jamil, de l’un des deux Imams, que la paix soit sur eux :",
-              "id": "Safwan ibn Yahya meriwayatkan dari Ibn Abi Umayr, dari Jamil, dari salah satu dari dua Imam, semoga kesejahteraan atas mereka:",
-              "ru": "Сафван ибн Яхья передал от Ибн Аби Умайра, от Джамиля, от одного из двух Имамов, мир им:",
-              "tr": "Safvan ibn Yahya, İbn Ebi Umayr'den, Jamil'den, iki imamdan birinden, üzerlerine selam olsun, rivayet etti:",
-              "ur": "صفوان ابن یحیی نے ابن ابی عمیر سے، جو جمیل سے، جو دونوں اماموں میں سے ایک ہیں، علیہما السلام سے روایت کی:",
-              "zh": "صفوانبنیحییابنابیعمیرجمیلدوایمام之一علیہمالسلام传述"
-            },
             "word_end": 15,
             "word_start": 0
           },
           {
             "arabic_text": "فِي رَجُلٍ قَتَلَ أَبَاهُ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "একজন ব্যক্তির সম্পর্কে যিনি তার পিতাকে হত্যা করেছেন,",
-              "de": "Bezüglich eines Mannes, der seinen Vater getötet hat,",
-              "en": "Regarding a man who killed his father,",
-              "es": "Acerca de un hombre que mató a su padre,",
-              "fa": "درباره مردی که پدرش را کشته بود،",
-              "fr": "Concernant un homme qui a tué son père,",
-              "id": "Mengenai seorang pria yang membunuh ayahnya,",
-              "ru": "О человеке, который убил своего отца,",
-              "tr": "Babasını öldüren bir adam hakkında,",
-              "ur": "ایک شخص کے بارے میں جس نے اپنے والد کو قتل کیا،",
-              "zh": "关于一个杀害自己父亲的人，"
-            },
             "word_end": 19,
             "word_start": 15
           },
           {
             "arabic_text": "قَالَ \"لَا يَرِثُهُ وَإِنْ كَانَ لِلْقَاتِلِ ابْنٌ وَرِثَ الْجَدَّ الْمَقْتُولَ\".",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি, عليهم السلام, বললেন: \"সে তার থেকে উত্তরাধিকারী হবে না। এবং যদি হত্যাকারীর একটি ছেলে থাকে, তবে সেই ছেলে নিহত দাদার থেকে উত্তরাধিকারী হবে।\"",
-              "de": "Er, Friede sei mit ihm, sagte: „Er erbt nicht von ihm. Und wenn der Mörder einen Sohn hat, erbt der Sohn vom ermordeten Großvater.“",
-              "en": "He, peace be upon him, said: \"He does not inherit from him. And if the killer has a son, the son inherits from the murdered grandfather.\"",
-              "es": "Él, la paz sea con él, dijo: \"Él no hereda de él. Y si el asesino tiene un hijo, el hijo hereda del abuelo asesinado.\"",
-              "fa": "ایشان، علیهم السلام، فرمودند: «او از او ارث نمی‌برد. و اگر قاتل پسری داشته باشد، پسر از پدربزرگ مقتول ارث می‌برد.»",
-              "fr": "Il, que la paix soit sur lui, a dit : « Il n’hérite pas de lui. Et si le meurtrier a un fils, le fils hérite du grand-père assassiné. »",
-              "id": "Beliau, semoga kesejahteraan atasnya, berkata: \"Dia tidak mewarisi darinya. Dan jika si pembunuh memiliki anak laki-laki, anak itu mewarisi dari kakek yang dibunuh.\"",
-              "ru": "Он, мир ему, сказал: «Он не наследует от него. И если у убийцы есть сын, сын наследует от убитого деда.»",
-              "tr": "O, üzerlerine selam olsun, dedi ki: \"O, ondan miras almaz. Ve eğer katilin bir oğlu varsa, oğlu öldürülen büyükbabadan miras alır.\"",
-              "ur": "انہوں نے، علیہ السلام، فرمایا: \"وہ اس سے وارث نہیں بنتا۔ اور اگر قاتل کا بیٹا ہو تو وہ بیٹا قتل شدہ دادا کا وارث ہوتا ہے۔\"",
-              "zh": "他عليہمالسلام说：“他不继承他的财产。如果杀人者有儿子，儿子继承被杀祖父的遗产。”"
-            },
             "word_end": 29,
             "word_start": 19
           }
@@ -124,24 +98,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "ابْنٌ": "A son; here, the son of the killer.",
-            "الْجَدَّ الْمَقْتُولَ": "The murdered grandfather; the slain father from whom the grandson inherits.",
-            "لَا يَرِثُهُ": "He does not inherit from him; a ruling of exclusion from inheritance.",
-            "لِلْقَاتِلِ": "The killer; the one who committed the act of killing."
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "لَا يَرِثُهُ",
+          "لِلْقَاتِلِ",
+          "ابْنٌ",
+          "الْجَدَّ الْمَقْتُولَ"
+        ],
         "related_quran": [
           {
             "ref": "4:7",
@@ -156,32 +118,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "একজন ছেলে যে তার পিতাকে হত্যা করে, কি সে উত্তরাধিকারী হওয়ার অধিকার হারায়, এবং তার নিজের ছেলে কি এখনও দাদার থেকে উত্তরাধিকারী হতে পারে?",
-          "de": "Verliert ein Sohn, der seinen Vater tötet, das Erbrecht, und kann sein eigener Sohn noch vom Großvater erben?",
-          "en": "Does a son who kills his father lose the right of inheritance, and can his own son still inherit from the grandfather?",
-          "es": "¿Pierde un hijo que mata a su padre el derecho a la herencia, y puede su propio hijo aún heredar del abuelo?",
-          "fa": "آیا پسری که پدرش را می‌کشد حق ارث را از دست می‌دهد و آیا پسر او هنوز می‌تواند از پدربزرگ ارث ببرد؟",
-          "fr": "Un fils qui tue son père perd-il son droit à l’héritage, et son propre fils peut-il encore hériter du grand-père ?",
-          "id": "Apakah seorang anak yang membunuh ayahnya kehilangan hak waris, dan apakah anaknya masih bisa mewarisi dari kakek?",
-          "ru": "Лишается ли сын, убивший отца, права на наследство, и может ли его собственный сын наследовать от деда?",
-          "tr": "Babasını öldüren bir oğul miras hakkını kaybeder mi ve onun oğlu hala dedesinden miras alabilir mi?",
-          "ur": "کیا بیٹا جو اپنے والد کو قتل کرتا ہے وارثت کا حق کھو دیتا ہے، اور کیا اس کا اپنا بیٹا دادا سے وارثت حاصل کر سکتا ہے؟",
-          "zh": "杀害父亲的儿子是否失去继承权，他的儿子是否仍能继承祖父的遗产？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস একটি আইনি বিধান প্রদান করে যে যে ব্যক্তি তার পিতাকে হত্যা করে সে তার থেকে উত্তরাধিকারী হতে পারে না। এটি স্পষ্ট করে যে এই নিষেধাজ্ঞা হত্যাকারীর ছেলের জন্য প্রযোজ্য নয়, যে তার নিহত দাদার থেকে উত্তরাধিকারী হতে পারে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regel vor, dass eine Person, die ihren Vater tötet, nicht von ihm erbt. Er klärt auch, dass dieses Verbot nicht für den Sohn des Mörders gilt, der vom getöteten Großvater erben kann.",
-          "en": "This hadith gives a legal ruling that a person who kills his father is barred from inheriting from him. It also clarifies that this prohibition does not extend to the killer’s son, who may inherit from his slain grandfather.",
-          "es": "Este hadiz establece una regla legal de que una persona que mata a su padre no hereda de él. También aclara que esta prohibición no se extiende al hijo del asesino, quien puede heredar del abuelo asesinado.",
-          "fa": "این حدیث حکم شرعی می‌دهد که کسی که پدرش را بکشد، از او ارث نمی‌برد. همچنین روشن می‌کند که این ممنوعیت شامل پسر قاتل نمی‌شود که می‌تواند از پدربزرگ مقتول ارث ببرد.",
-          "fr": "Ce hadith donne une règle juridique selon laquelle une personne qui tue son père ne lui succède pas. Il précise également que cette interdiction ne s’étend pas au fils du meurtrier, qui peut hériter du grand-père assassiné.",
-          "id": "Hadis ini memberikan ketetapan hukum bahwa seseorang yang membunuh ayahnya tidak mewarisi darinya. Juga menjelaskan bahwa larangan ini tidak berlaku untuk anak si pembunuh, yang dapat mewarisi dari kakek yang dibunuh.",
-          "ru": "Этот хадис устанавливает юридическое правило, что человек, убивший своего отца, не наследует от него. Также разъясняется, что это запрещение не распространяется на сына убийцы, который может наследовать от убитого деда.",
-          "tr": "Bu hadis, babasını öldüren kişinin ondan miras alamayacağına dair hukuki bir hüküm verir. Ayrıca, bu yasağın katilin oğluna uygulanmadığını, oğlunun öldürülen dedesinden miras alabileceğini açıklar.",
-          "ur": "یہ حدیث ایک قانونی حکم دیتی ہے کہ جو شخص اپنے والد کو قتل کرتا ہے وہ اس سے وارث نہیں بنتا۔ یہ بھی واضح کرتی ہے کہ یہ ممانعت قاتل کے بیٹے پر لاگو نہیں ہوتی، جو اپنے قتل شدہ دادا سے وارثت حاصل کر سکتا ہے۔",
-          "zh": "此圣训规定杀害父亲者不得继承其遗产。同时澄清此禁令不适用于杀人者的儿子，儿子可以继承被杀祖父的遗产。"
-        },
         "tags": [
           "jurisprudence",
           "family",

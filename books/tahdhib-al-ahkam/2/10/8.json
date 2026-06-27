@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَعَنْهُ عَنْ فَضَالَةَ عَنْ حَمَّادٍ عَنِ الْفَضْلِ بْنِ عَبْدِ الْمَلِكِ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং তাঁর কাছ থেকে, ফাদালাহ থেকে, হাম্মাদ থেকে, আল-ফাদল ইবন ʿআবদ আল-মালিক থেকে, যিনি বলেছেন:",
-              "de": "Und von ihm, von Faḍālah, von Ḥammād, von al-Faḍl ibn ʿAbd al-Malik, der sagte:",
-              "en": "And from him, from Faḍālah, from Ḥammād, from al-Faḍl ibn ʿAbd al-Malik, who said:",
-              "es": "Y de él, de Faḍālah, de Ḥammād, de al-Faḍl ibn ʿAbd al-Malik, quien dijo:",
-              "fa": "و از او، از فَضالَه، از حَمّاد، از اَلْفَضْل بن عَبدُالْمَلِک، که گفت:",
-              "fr": "Et de lui, de Faḍālah, de Ḥammād, de al-Faḍl ibn ʿAbd al-Malik, qui a dit :",
-              "id": "Dan darinya, dari Faḍālah, dari Ḥammād, dari al-Faḍl ibn ʿAbd al-Malik, yang berkata:",
-              "ru": "И от него, от Фада̄лах, от Хамма̄да, от аль-Фадля ибн ʿАбд аль-Малика, который сказал:",
-              "tr": "Ve ondan, Faḍālah’dan, Ḥammād’dan, el-Faḍl ibn ʿAbd al-Malik’ten, o da şöyle dedi:",
-              "ur": "اور ان سے، فَضَالَہ سے، حَمَّاد سے، اَلْفَضْل بن عَبْدُالْمَلِک سے، جنہوں نے کہا:",
-              "zh": "又由他传自法达拉，传自哈马德，传自法德勒·伊本·阿卜杜勒·马立克，他说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ لِي: «إِذَا لَمْ تَحْفَظِ الرَّكْعَتَيْنِ الْأَوَّلَتَيْنِ فَأَعِدْ صَلَاتَكَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি আমাকে বললেন: “প্রথম দুই রাকআত সম্পর্কে যদি তুমি নিশ্চিততা বজায় রাখতে না পারো, তবে তোমার সালাত (নামাজ) পুনরায় আদায় করো।”",
-              "de": "Er sagte zu mir: „Wenn du die Gewissheit über die ersten beiden Rakʿahs nicht bewahrst, dann wiederhole dein salat (Gebet).“",
-              "en": "He said to me: “If you do not retain certainty about the first two rakʿahs, then repeat your salat (prayer).”",
-              "es": "Me dijo: “Si no conservas la certeza acerca de las dos primeras rakʿahs, entonces repite tu salat (oración).”",
-              "fa": "به من گفت: «اگر دربارهٔ دو رکعتِ نخست یقین را حفظ نمی‌کنی، پس salat (نماز) خود را دوباره بخوان.»",
-              "fr": "Il m’a dit : « Si tu ne gardes pas la certitude au sujet des deux premières rakʿahs, alors recommence ta salat (prière). »",
-              "id": "Ia berkata kepadaku: “Jika engkau tidak menjaga keyakinan tentang dua rakaat pertama, maka ulangilah salat (salat)mu.”",
-              "ru": "Он сказал мне: «Если ты не сохраняешь уверенность относительно первых двух ракʿатов, то повтори свой салат (молитву).»",
-              "tr": "Bana şöyle dedi: “İlk iki rekât hakkında kesinliği koruyamazsan, salatını (namazını) tekrar et.”",
-              "ur": "اس نے مجھ سے کہا: “اگر تم پہلی دو رکعتوں کے بارے میں یقین برقرار نہ رکھ سکو، تو اپنی صلاۃ (نماز) دہراؤ۔”",
-              "zh": "他说：“如果你不能对最初的两拜保持确信，那么就重做你的salat（礼拜）。”"
-            },
             "word_end": 20,
             "word_start": 11
           }
@@ -104,25 +91,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الرَّكْعَتَيْنِ": "the two rakʿahs of the prayer",
-            "الْأَوَّلَتَيْنِ": "the first two units specifically",
-            "تَحْفَظِ": "to retain or preserve certainty in this context",
-            "صَلَاتَكَ": "your salat (prayer)",
-            "فَأَعِدْ": "then repeat"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "تَحْفَظِ",
+          "الرَّكْعَتَيْنِ",
+          "الْأَوَّلَتَيْنِ",
+          "فَأَعِدْ",
+          "صَلَاتَكَ"
+        ],
         "related_quran": [
           {
             "ref": "2:238",
@@ -133,32 +108,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "সালাত (নামাজ)-এর প্রথম দুই রাকআত সম্পর্কে যদি কেউ নিশ্চিত না হয়, তবে তার কী করা উচিত?",
-          "de": "Was soll eine Person tun, wenn sie sich über die ersten beiden Rakʿahs des salat (Gebets) nicht sicher ist?",
-          "en": "What should a person do if they are uncertain about the first two rakʿahs of salat (prayer)?",
-          "es": "¿Qué debe hacer una persona si no está segura acerca de las dos primeras rakʿahs del salat (oración)?",
-          "fa": "اگر کسی دربارهٔ دو رکعتِ نخستِ salat (نماز) یقین نداشته باشد، چه باید بکند؟",
-          "fr": "Que doit faire une personne si elle n’est pas certaine au sujet des deux premières rakʿahs de la salat (prière) ?",
-          "id": "Apa yang harus dilakukan seseorang jika ia tidak yakin tentang dua rakaat pertama salat (salat)?",
-          "ru": "Что должен сделать человек, если он не уверен относительно первых двух ракʿатов салата (молитвы)?",
-          "tr": "Bir kişi salatın (namazın) ilk iki rekâtı hakkında emin değilse ne yapmalıdır?",
-          "ur": "اگر کسی کو صلاۃ (نماز) کی پہلی دو رکعتوں کے بارے میں یقین نہ ہو تو اسے کیا کرنا چاہیے؟",
-          "zh": "如果一个人对salat（礼拜）的最初两拜不确定，应该怎么做？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস সালাত (নামাজ)-এ সন্দেহ সম্পর্কে একটি শরঈ বিধান জানায়। এতে বলা হয়েছে, প্রথম দুই রাকআত সম্পর্কে যদি নিশ্চিততা বজায় না থাকে, তবে নামাজ পুনরায় আদায় করতে হবে।",
-          "de": "Dieser Hadith enthält eine rechtliche Regelung zum Zweifel im salat (Gebet). Er besagt, dass das Gebet wiederholt werden muss, wenn die Gewissheit über die ersten beiden Rakʿahs nicht bewahrt wird.",
-          "en": "This hadith gives a legal ruling concerning doubt in salat (prayer). It states that if one does not preserve certainty regarding the first two rakʿahs, the prayer must be repeated.",
-          "es": "Este hadiz establece una norma jurídica sobre la duda en el salat (oración). Señala que, si no se conserva la certeza respecto de las dos primeras rakʿahs, la oración debe repetirse.",
-          "fa": "این حدیث حکمی فقهی دربارهٔ شک در salat (نماز) بیان می‌کند. در آن آمده است که اگر دربارهٔ دو رکعتِ نخست یقین حفظ نشود، نماز باید دوباره خوانده شود.",
-          "fr": "Ce hadith énonce une règle juridique concernant le doute dans la salat (prière). Il indique que si l’on ne préserve pas la certitude au sujet des deux premières rakʿahs, la prière doit être recommencée.",
-          "id": "Hadis ini memberikan hukum syar‘i tentang keraguan dalam salat (salat). Disebutkan bahwa jika seseorang tidak menjaga keyakinan mengenai dua rakaat pertama, maka salat harus diulang.",
-          "ru": "Этот хадис содержит правовое постановление относительно сомнения в салате (молитве). В нем говорится, что если не сохраняется уверенность относительно первых двух ракʿатов, молитву следует повторить.",
-          "tr": "Bu hadis, salat (namaz) içindeki şüphe hakkında bir fıkhî hüküm bildirir. Buna göre, ilk iki rekât konusunda kesinlik korunmazsa namaz tekrar edilmelidir.",
-          "ur": "یہ حدیث صلاۃ (نماز) میں شک کے بارے میں ایک شرعی حکم بیان کرتی ہے۔ اس میں کہا گیا ہے کہ اگر پہلی دو رکعتوں کے بارے میں یقین برقرار نہ رہے تو نماز دہرانی ہوگی۔",
-          "zh": "这段圣训阐明了关于salat（礼拜）中疑虑的教法判定。它说明，如果不能对最初的两拜保持确信，就必须重做礼拜。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

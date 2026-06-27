@@ -15,6 +15,136 @@
       "up": "/books/al-kafi:8:1:47"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "ابْنُ مَحْبُوبٍ عَنْ أَبِي وَلَّادٍ وَ غَيْرُهُ مِنْ أَصْحَابِنَا عَنْ أَبِي عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ)",
+            "chunk_type": "isnad",
+            "word_end": 15,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "فِي قَوْلِ اللَّهِ عَزَّ وَ جَلَّ وَ مَنْ يُرِدْ فِيهِ بِإِلْحادٍ بِظُلْمٍ",
+            "chunk_type": "body",
+            "word_end": 27,
+            "word_start": 15
+          },
+          {
+            "arabic_text": "فَقَالَ مَنْ عَبَدَ فِيهِ غَيْرَ اللَّهِ عَزَّ وَ جَلَّ أَوْ تَوَلَّى فِيهِ غَيْرَ أَوْلِيَاءِ اللَّهِ فَهُوَ مُلْحِدٌ بِظُلْمٍ",
+            "chunk_type": "body",
+            "word_end": 45,
+            "word_start": 27
+          },
+          {
+            "arabic_text": "و عَلَى اللَّهِ تَبَارَكَ وَ تَعَالَى أَنْ يُذِيقَهُ مِنْ عَذَابٍ أَلِيمٍ",
+            "chunk_type": "body",
+            "word_end": 56,
+            "word_start": 45
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 10,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنُ مَحْبُوبٍ",
+              "name_en": "Ibn Mahbub",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 352,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي وَلَّادٍ",
+              "name_en": "Abu Wallad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3986,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "غَيْرُهُ مِنْ أَصْحَابِنَا",
+              "name_en": "Ghayruhu min As-habina",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ (عليه السلام)",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "إِلْحَادٍ",
+          "بِظُلْمٍ",
+          "أَوْلِيَاءِ اللَّهِ",
+          "عَذَابٍ أَلِيمٍ"
+        ],
+        "related_quran": [
+          {
+            "ref": "22:25",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "22:40",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "9:28",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "quran_commentary",
+          "theology",
+          "jurisprudence"
+        ],
+        "topics": [
+          "quran_interpretation_method",
+          "tawhid",
+          "imamate"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مهول</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 494)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -88,7 +218,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:47:2",

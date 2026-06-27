@@ -15,6 +15,132 @@
       "up": "/books/al-kafi:8:1:37"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "سَهْلُ بْنُ زِيَادٍ عَنِ ابْنِ سِنَانٍ عَنْ سَعْدَانَ عَنْ سَمَاعَةَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 11,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "كُنْتُ قَاعِدًا مَعَ أَبِي الْحَسَنِ الْأَوَّلِ (عَلَيْهِ السَّلَامُ) وَالنَّاسُ فِي الطَّوَافِ فِي جَوْفِ اللَّيْلِ فَقَالَ يَا سَمَاعَةُ إِلَيْنَا إِيَابُ هَذَا الْخَلْقِ وَعَلَيْنَا حِسَابُهُمْ فَمَا كَانَ لَهُمْ مِنْ ذَنْبٍ بَيْنَهُمْ وَبَيْنَ اللَّهِ عَزَّ وَجَلَّ حَتَمْنَا عَلَى اللَّهِ فِي تَرْكِهِ لَنَا فَأَجَابَنَا إِلَى ذَلِكَ وَمَا كَانَ بَيْنَهُمْ وَبَيْنَ النَّاسِ اسْتَوْهَبْنَاهُ مِنْهُمْ وَأَجَابُوا إِلَى ذَلِكَ وَعَوَّضَهُمُ اللَّهُ عَزَّ وَجَلَّ.",
+            "chunk_type": "body",
+            "word_end": 67,
+            "word_start": 11
+          }
+        ],
+        "content_type": "theological",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 8,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "سَهْلُ بْنُ زِيَادٍ",
+              "name_en": "Sahl ibn Ziyad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 104,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ سِنَانٍ",
+              "name_en": "Ibn Sinan",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 268,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "سَعْدَانَ",
+              "name_en": "Sa'dan",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 48,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "سَمَاعَةَ",
+              "name_en": "Sama'a",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "إِيَابُ",
+          "حِسَابٌ",
+          "ذَنْبٌ",
+          "حَتَمْنَا",
+          "اسْتَوْهَبْنَا",
+          "عَوَّضَهُمُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "17:36",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:41",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:284",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "4:135",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "theology",
+          "afterlife",
+          "social_relations"
+        ],
+        "topics": [
+          "imamate",
+          "reckoning",
+          "rights_of_others",
+          "divine_justice",
+          "resurrection"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 26)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -23,10 +149,6 @@
       "local_index": 14,
       "narrator_chain": {
         "parts": [
-          {
-            "kind": "plain",
-            "text": "14615- "
-          },
           {
             "kind": "narrator",
             "path": "/people/narrators/8",
@@ -82,7 +204,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:37:14",

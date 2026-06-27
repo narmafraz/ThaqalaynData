@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى عَبْدُ اللَّهِ بْنُ الْمُغِيرَةِ عَنْ عَبْدِ اللَّهِ بْنِ سِنَانٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আব্দুল্লাহ ইবনে আল-মুগীরা আব্দুল্লাহ ইবনে সিনান থেকে, যিনি আবী আব্দুল্লাহ عليه السلام থেকে বর্ণনা করেছেন:",
-              "de": "ʿAbdullāh ibn al-Mughīrah berichtete von ʿAbdullāh ibn Sinān, von Abī ʿAbdillāh عليه السلام, der sagte:",
-              "en": "ʿAbdullāh ibn al-Mughīrah narrated from ʿAbdullāh ibn Sinān, from Abī ʿAbdillāh عليه السلام, who said:",
-              "es": "ʿAbdullāh ibn al-Mughīrah narró de ʿAbdullāh ibn Sinān, de Abī ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "عبدالله بن مغیره از عبدالله بن سنان، از ابی عبدالله علیه السلام نقل کرد:",
-              "fr": "ʿAbdullāh ibn al-Mughīrah a rapporté de ʿAbdullāh ibn Sinān, de Abī ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "ʿAbdullāh ibn al-Mughīrah meriwayat dari ʿAbdullāh ibn Sinān, dari Abī ʿAbdillāh علیه السلام, yang berkata:",
-              "ru": "ʿАбдуллах ибн аль-Мугира передал от ʿАбдуллах ибн Синан, от Аби ʿАбдиллах عليه السلام, который сказал:",
-              "tr": "ʿAbdullāh ibn al-Mughīrah, ʿAbdullāh ibn Sinān'dan, Abī ʿAbdillāh عليه السلام'den rivayet etti:",
-              "ur": "عبداللہ ابن المغیرہ نے عبداللہ ابن سنان سے، جو کہ ابو عبداللہ علیہ السلام سے روایت کرتے ہیں، نقل کیا:",
-              "zh": "ʿAbdullāhibn al-Mughīrah从ʿAbdullāhibn Sinān,从Abī ʿAbdillāhعليه السلام,他说："
-            },
             "word_end": 18,
             "word_start": 0
           },
           {
             "arabic_text": "لَا تَأْكُلْ وَ أَنْتَ تَمْشِي إِلَّا أَنْ تُضْطَرَّ إِلَى ذَلِكَ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "হাঁটতে হাঁটতে খাওয়া যাবে না, যদি না বাধ্য হন।",
-              "de": "Iss nicht, während du gehst, es sei denn, du bist dazu gezwungen.",
-              "en": "Do not eat while you are walking, unless you are compelled to do that.",
-              "es": "No comas mientras caminas, a menos que te veas obligado a hacerlo.",
-              "fa": "هنگام راه رفتن غذا نخورید، مگر اینکه مجبور باشید.",
-              "fr": "Ne mangez pas en marchant, sauf si vous y êtes contraint.",
-              "id": "Jangan makan sambil berjalan, kecuali jika kamu terpaksa melakukannya.",
-              "ru": "Не ешьте, пока идёте, если только вы не вынуждены это делать.",
-              "tr": "Yürürken yemek yemeyin, zorunda olmadıkça.",
-              "ur": "چلتے ہوئے کھانا نہ کھاؤ، جب تک کہ تم اس پر مجبور نہ ہو۔",
-              "zh": "走路时不要吃东西，除非你被迫这样做。"
-            },
             "word_end": 28,
             "word_start": 18
           }
@@ -101,24 +88,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "تَأْكُلْ": "to eat",
-            "تَمْشِي": "to walk",
-            "تُضْطَرَّ": "to be compelled or forced by necessity",
-            "ذَلِكَ": "that matter or circumstance"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "تَأْكُلْ",
+          "تَمْشِي",
+          "تُضْطَرَّ",
+          "ذَلِكَ"
+        ],
         "related_quran": [
           {
             "ref": "2:185",
@@ -129,32 +104,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামে হাঁটতে হাঁটতে খাওয়া কি جائز?",
-          "de": "Ist es im Islam erlaubt, beim Gehen zu essen?",
-          "en": "Is it permissible to eat while walking in Islam?",
-          "es": "¿Es permisible comer mientras se camina en el Islam?",
-          "fa": "آیا خوردن غذا هنگام راه رفتن در اسلام جایز است؟",
-          "fr": "Est-il permis de manger en marchant en Islam ?",
-          "id": "Apakah diperbolehkan makan sambil berjalan dalam Islam?",
-          "ru": "Разрешено ли есть во время ходьбы в исламе?",
-          "tr": "İslam'da yürürken yemek yemek caiz midir?",
-          "ur": "کیا اسلام میں چلتے ہوئے کھانا جائز ہے؟",
-          "zh": "伊斯兰教允许边走边吃吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস খাওয়ার শিষ্টাচার শেখায়: সাধারণ পরিস্থিতিতে হাঁটতে হাঁটতে খাওয়া উচিত নয়। প্রয়োজনে বা বাধ্যতামূলক ক্ষেত্রে ব্যতিক্রম রয়েছে, যা আচরণের শালীনতা এবং কঠিন সময়ে নমনীয়তা নির্দেশ করে।",
-          "de": "Dieser Hadith lehrt eine Essensetikette: Man sollte unter normalen Umständen nicht beim Gehen essen. Eine Ausnahme ist bei Notwendigkeit oder Zwang erlaubt, was sowohl Verfeinerung im Verhalten als auch Flexibilität in der Not zeigt.",
-          "en": "This hadith teaches an etiquette of eating: one should not eat while walking under normal circumstances. It allows an exception in a case of necessity or compulsion, indicating both refinement in conduct and flexibility in hardship.",
-          "es": "Este hadiz enseña una etiqueta para comer: no se debe comer mientras se camina en circunstancias normales. Permite una excepción en caso de necesidad o coacción, indicando tanto refinamiento en la conducta como flexibilidad en la dificultad.",
-          "fa": "این حدیث آداب خوردن را آموزش می‌دهد: در شرایط عادی نباید هنگام راه رفتن غذا خورد. استثنا در صورت ضرورت یا اجبار وجود دارد که هم ظرافت در رفتار و هم انعطاف در سختی را نشان می‌دهد.",
-          "fr": "Ce hadith enseigne une étiquette de manger : on ne doit pas manger en marchant dans des circonstances normales. Il permet une exception en cas de nécessité ou de contrainte, indiquant à la fois raffinement dans le comportement et flexibilité en cas de difficulté.",
-          "id": "Hadis ini mengajarkan adab makan: sebaiknya tidak makan sambil berjalan dalam keadaan normal. Ada pengecualian jika terpaksa, menunjukkan kesopanan dan keluwesan dalam kesulitan.",
-          "ru": "Этот хадис учит этикету еды: при обычных обстоятельствах не следует есть во время ходьбы. Допускается исключение в случае необходимости или принуждения, что указывает на утонченность поведения и гибкость в трудностях.",
-          "tr": "Bu hadis, yemek yeme adabını öğretir: normal şartlarda yürürken yemek yenmemelidir. Zorunluluk halinde istisna vardır; bu, hem davranışta inceliği hem de zorlukta esnekliği gösterir.",
-          "ur": "یہ حدیث کھانے کے آداب سکھاتی ہے: عام حالات میں چلتے ہوئے کھانا نہیں چاہیے۔ ضرورت یا مجبوری کی صورت میں استثنا ہے، جو حسنِ سلوک اور مشکل وقت میں نرمی دونوں کو ظاہر کرتا ہے۔",
-          "zh": "这段圣训教导了饮食礼仪：正常情况下不应边走边吃。只有在被迫时才允许，体现了行为的优雅和困难时的灵活性。"
-        },
         "tags": [
           "ethics",
           "jurisprudence",

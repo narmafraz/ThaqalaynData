@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ رَسُولُ ٱللَّهِ صَلَّى ٱللَّهُ عَلَيْهِ وَ آلِهِ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং আল্লাহর রাসূল, তাঁর উপর শান্তি ও তাঁর পরিবারদের উপর বরকত বর্ষিত হোক, বললেন:",
-              "de": "Und der Gesandte Allahs, Friede sei mit ihm und seiner Familie, sagte:",
-              "en": "And the Messenger of Allah, peace be upon him and his family, said:",
-              "es": "Y el Mensajero de Allah, la paz sea con él y su familia, dijo:",
-              "fa": "و رسول خدا صلی الله علیه و آله فرمود:",
-              "fr": "Et le Messager d'Allah, paix soit sur lui et sa famille, a dit :",
-              "id": "Dan Rasulullah, shalallahu 'alaihi wa aalihi, bersabda:",
-              "ru": "И Посланник Аллаха, мир ему и его семье, сказал:",
-              "tr": "Ve Allah'ın Resulü, ona ve ailesine selam olsun, dedi ki:",
-              "ur": "اور رسول اللہ صلی اللہ علیہ وآلہ وسلم نے فرمایا:",
-              "zh": "安拉使者愿他和平及其家人安宁说："
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "«لَا يُطَوِّلَنَّ أَحَدُكُمْ شَعْرَ إِبْطَيْهِ فَإِنَّ ٱلشَّيْطَانَ يَتَّخِذُهُ مِجَنًّا يَسْتَتِرُ بِهِ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তোমাদের কেউই বগলের চুল লম্বা করতে দেবেন না, কারণ শয়তান তা ঢাল হিসেবে নিয়ে তার পেছনে লুকায়।",
-              "de": "Keiner von euch soll das Haar seiner Achselhöhlen lang wachsen lassen, denn der Teufel nimmt es als Schild und versteckt sich dahinter.",
-              "en": "None of you should let the hair of his armpits grow long, for the devil takes it as a shield and hides behind it.",
-              "es": "Ninguno de vosotros debe dejar crecer el vello de sus axilas, porque el diablo lo toma como un escudo y se esconde detrás de él.",
-              "fa": "هیچ‌یک از شما نباید موی زیر بغلش را بلند کند، زیرا شیطان آن را به عنوان سپری می‌گیرد و پشت آن پنهان می‌شود.",
-              "fr": "Aucun de vous ne doit laisser pousser les poils de ses aisselles, car le diable les prend comme un bouclier et se cache derrière eux.",
-              "id": "Janganlah seorang pun di antara kalian membiarkan rambut ketiaknya tumbuh panjang, karena setan menjadikannya perisai dan bersembunyi di baliknya.",
-              "ru": "Никто из вас не должен позволять волосам подмышек расти длинными, ибо дьявол использует их как щит и прячется за ними.",
-              "tr": "Hiçbiriniz koltuk altı tüylerini uzatmasın, çünkü şeytan onu bir kalkan olarak alır ve onun arkasına saklanır.",
-              "ur": "تم میں سے کوئی بھی اپنے بغل کے بال لمبے نہ ہونے دے کیونکہ شیطان اسے ایک ڈھال کے طور پر لیتا ہے اور اس کے پیچھے چھپ جاتا ہے۔",
-              "zh": "你们中无人应让腋毛长长，因为魔鬼将其作为盾牌并藏身其后。"
-            },
             "word_end": 19,
             "word_start": 8
           }
@@ -71,27 +58,15 @@
             "phrase_en": "The Messenger of Allah said"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِبْطَيْهِ": "his two armpits; underarm area",
-            "رَسُولُ ٱللَّهِ": "the Messenger of Allah صلى الله عليه وآله وسلم",
-            "شَعْرَ": "hair",
-            "مِجَنًّا": "a shield; something used as cover",
-            "يَسْتَتِرُ": "he hides himself",
-            "يُطَوِّلَنَّ": "should let grow long",
-            "ٱلشَّيْطَانَ": "the devil; Satan"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رَسُولُ ٱللَّهِ",
+          "يُطَوِّلَنَّ",
+          "شَعْرَ",
+          "إِبْطَيْهِ",
+          "ٱلشَّيْطَانَ",
+          "مِجَنًّا",
+          "يَسْتَتِرُ"
+        ],
         "related_quran": [
           {
             "ref": "2:222",
@@ -106,32 +81,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "রাসুল আল্লাহ صلى الله عليه وآله বগলের চুল লম্বা করার ব্যাপারে কী বলেছিলেন?",
-          "de": "Was sagte der Gesandte Allahs صلى الله عليه وآله über das Langwachsenlassen der Achselhaare?",
-          "en": "What did the Messenger of Allah صلى الله عليه وآله say about letting underarm hair grow long?",
-          "es": "¿Qué dijo el Mensajero de Allah صلى الله عليه وآله sobre dejar crecer el vello de las axilas?",
-          "fa": "پیامبر خدا صلى الله عليه وآله درباره بلند کردن موی زیر بغل چه فرمود؟",
-          "fr": "Qu'a dit le Messager d'Allah صلى الله عليه وآله à propos de laisser pousser les poils des aisselles ?",
-          "id": "Apa yang Rasulullah صلى الله عليه وآله katakan tentang membiarkan rambut ketiak tumbuh panjang?",
-          "ru": "Что сказал Посланник Аллаха صلى الله عليه وآله о том, чтобы позволять волосам подмышек расти длинными?",
-          "tr": "Allah'ın Resulü صلى الله عليه وآله koltuk altı tüylerini uzatmak hakkında ne dedi?",
-          "ur": "رسول اللہ صلی اللہ علیہ وآلہ وسلم نے بغل کے بال لمبے کرنے کے بارے میں کیا فرمایا؟",
-          "zh": "安拉使者 صلى الله عليه وآله关于让腋毛长长说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস বিশ্বাসীদের বগলের চুল লম্বা না করার নির্দেশ দেয়, শারীরিক পরিচ্ছন্নতাকে সঠিক আচরণের অংশ হিসেবে উপস্থাপন করে। এটি নবীজির ব্যক্তিগত পরিচ্ছন্নতা ও শিষ্টাচারের দিকনির্দেশনা প্রতিফলিত করে এবং স্পষ্ট নৈতিক চিত্রের মাধ্যমে অবহেলার বিরুদ্ধে সতর্ক করে।",
-          "de": "Dieser Hadith weist die Gläubigen an, die Achselhaare nicht lang wachsen zu lassen und stellt körperliche Sauberkeit als Teil eines angemessenen Verhaltens dar. Er spiegelt die prophetische Führung zu persönlicher Hygiene und Feinheit wider und warnt durch lebhafte moralische Bilder vor Vernachlässigung.",
-          "en": "This hadith instructs believers not to let underarm hair grow long, presenting bodily cleanliness as part of proper conduct. It reflects Prophetic guidance on personal hygiene and refinement, and warns against neglect through vivid moral imagery.",
-          "es": "Este hadiz instruye a los creyentes a no dejar crecer el vello de las axilas, presentando la limpieza corporal como parte de la conducta adecuada. Refleja la guía profética sobre la higiene personal y la refinación, y advierte contra la negligencia mediante imágenes morales vívidas.",
-          "fa": "این حدیث به مؤمنان دستور می‌دهد که موی زیر بغل را بلند نکنند و پاکیزگی بدن را بخشی از رفتار صحیح معرفی می‌کند. این راهنمایی نبوی بر بهداشت شخصی و ظرافت تأکید دارد و با تصویرسازی اخلاقی واضح نسبت به غفلت هشدار می‌دهد.",
-          "fr": "Ce hadith ordonne aux croyants de ne pas laisser pousser les poils des aisselles, présentant la propreté corporelle comme partie intégrante d'une bonne conduite. Il reflète les conseils prophétiques sur l'hygiène personnelle et la finesse, et met en garde contre la négligence par des images morales vivantes.",
-          "id": "Hadis ini mengajarkan kepada orang beriman untuk tidak membiarkan rambut ketiak tumbuh panjang, menampilkan kebersihan tubuh sebagai bagian dari perilaku yang baik. Ini mencerminkan petunjuk Nabi tentang kebersihan pribadi dan kesopanan, serta memperingatkan terhadap kelalaian melalui gambaran moral yang jelas.",
-          "ru": "Этот хадис наставляет верующих не допускать длинного роста волос подмышками, представляя телесную чистоту как часть надлежащего поведения. Он отражает пророческое руководство по личной гигиене и утонченности, предупреждая о пренебрежении через яркие нравственные образы.",
-          "tr": "Bu hadis, müminlere koltuk altı tüylerini uzatmama talimatı verir ve bedensel temizliği doğru davranışın bir parçası olarak sunar. Peygamberî rehberlik olarak kişisel hijyen ve inceliği yansıtır ve canlı ahlaki imgelerle ihmale karşı uyarır.",
-          "ur": "یہ حدیث مومنین کو بغل کے بال لمبے نہ کرنے کی ہدایت دیتی ہے، اور جسمانی صفائی کو اچھے اخلاق کا حصہ قرار دیتی ہے۔ یہ نبوی رہنمائی ذاتی صفائی اور نزاکت پر روشنی ڈالتی ہے اور واضح اخلاقی تشبیہ کے ذریعے غفلت سے خبردار کرتی ہے۔",
-          "zh": "此圣训告诫信士不可让腋毛长长，将身体清洁视为恰当行为的一部分。它反映了先知关于个人卫生与修养的指导，并通过生动的道德形象警示疏忽。"
-        },
         "tags": [
           "ethics",
           "jurisprudence",

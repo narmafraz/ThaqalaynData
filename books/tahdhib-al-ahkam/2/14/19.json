@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ بَعْضِ أَصْحَابِنَا عَنْ إِسْمَاعِيلَ بْنِ جَابِرٍ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, আমাদের কিছু সাথী থেকে, ইসমাঈল ইবন জাবির থেকে।",
-              "de": "Von ihm, von einigen unserer Gefährten, von Isma'il ibn Jabir.",
-              "en": "From him, from some of our companions, from Isma'il ibn Jabir.",
-              "es": "De él, de algunos de nuestros compañeros, de Isma'il ibn Jabir.",
-              "fa": "از او، از برخی از یاران ما، از اسماعیل بن جابر.",
-              "fr": "De lui, de certains de nos compagnons, d'Isma'il ibn Jabir.",
-              "id": "Darinya, dari sebagian sahabat kami, dari Isma'il ibn Jabir.",
-              "ru": "От него, от некоторых наших сподвижников, от Исма'ила ибн Джабира.",
-              "tr": "Ondan, ashabımızdan bazılarından, İsmail ibn Cabir’den.",
-              "ur": "ان سے، ہمارے بعض اصحاب سے، اسماعیل بن جابر سے۔",
-              "zh": "由他传述，来自我们的一些同伴，来自伊斯马伊勒·伊本·贾比尔。"
-            },
             "word_end": 8,
             "word_start": 0
           },
           {
             "arabic_text": "أَنَّ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ كَانَ يُؤَذِّنُ وَيُقِيمُ غَيْرُهُ، وَكَانَ يُقِيمُ وَقَدْ أَذَّنَ غَيْرُهُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "নিশ্চয়ই আবু 'আবদিল্লাহ عليه السلام আযান দিতেন, আর অন্য কেউ ইকামত দিত; এবং অন্য কেউ আযান দেওয়ার পর তিনি ইকামত দিতেন।",
-              "de": "Gewiss pflegte Abu 'Abdillah عليه السلام den Adhan zu rufen, während eine andere Person die Iqamah verrichtete, und er verrichtete die Iqamah, wenn bereits eine andere Person den Adhan gerufen hatte.",
-              "en": "Indeed, Abu 'Abdillah عليه السلام would give the adhan while another person would perform the iqamah, and he would perform the iqamah when another person had already given the adhan.",
-              "es": "Ciertamente, Abu 'Abdillah عليه السلام solía dar el adhan mientras otra persona realizaba el iqamah, y él realizaba el iqamah cuando otra persona ya había dado el adhan.",
-              "fa": "همانا ابوعبدالله علیه‌السلام اذان می‌گفت در حالی که شخص دیگری اقامه می‌گفت، و هنگامی که دیگری اذان گفته بود، خود اقامه می‌گفت.",
-              "fr": "En vérité, Abu 'Abdillah عليه السلام faisait l'adhan tandis qu'une autre personne faisait l'iqamah, et il faisait l'iqamah lorsqu'une autre personne avait déjà fait l'adhan.",
-              "id": "Sesungguhnya Abu 'Abdillah عليه السلام biasa mengumandangkan adzan sementara orang lain melaksanakan iqamah, dan beliau melaksanakan iqamah ketika orang lain telah mengumandangkan adzan.",
-              "ru": "Поистине, Абу 'Абдуллах عليه السلام произносил азан, тогда как другой человек совершал икаму, и он совершал икаму, когда другой человек уже произнес азан.",
-              "tr": "Şüphesiz Ebu Abdullah عليه السلام, başka biri ikameyi getirirken ezan okurdu; başka biri ezan okumuş olduğunda ise ikameyi kendisi getirirdi.",
-              "ur": "بے شک ابو عبداللہ علیہ السلام اذان دیتے تھے جبکہ کوئی اور اقامت کہتا تھا، اور وہ اقامت کہتے تھے جبکہ کسی اور نے اذان دی ہوتی تھی۔",
-              "zh": "确实，阿布·阿卜杜拉 عليه السلام会念宣礼，而由别人 إقامة；当别人已经念过宣礼时，他也会 إقامة。"
-            },
             "word_end": 23,
             "word_start": 8
           }
@@ -69,52 +56,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبَا عَبْدِ اللَّهِ": "Imam Ja'far al-Sadiq عليه السلام",
-            "أَذَّنَ": "gave the adhan",
-            "غَيْرُهُ": "someone other than him",
-            "يُؤَذِّنُ": "gives the adhan, the call to salat (prayer)",
-            "يُقِيمُ": "gives the iqamah, the commencement call for salat (prayer)"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَبَا عَبْدِ اللَّهِ",
+          "يُؤَذِّنُ",
+          "يُقِيمُ",
+          "غَيْرُهُ",
+          "أَذَّنَ"
+        ],
         "related_quran": [],
-        "seo_questions": {
-          "bn": "একজন কি আযান দিতে পারে আর অন্যজন ইকামত দিতে পারে?",
-          "de": "Kann eine Person den Adhan rufen, während eine andere Person die Iqamah spricht?",
-          "en": "Can one person give the adhan while another person gives the iqamah?",
-          "es": "¿Puede una persona dar el adhan mientras otra persona da el iqamah?",
-          "fa": "آیا یک نفر می‌تواند اذان بگوید و شخص دیگری اقامه بگوید؟",
-          "fr": "Une personne peut-elle faire l'adhan tandis qu'une autre fait l'iqamah ?",
-          "id": "Apakah satu orang boleh mengumandangkan adzan sementara orang lain mengumandangkan iqamah?",
-          "ru": "Может ли один человек произносить азан, а другой — икаму?",
-          "tr": "Bir kişi ezanı verirken başka bir kişi ikameyi getirebilir mi?",
-          "ur": "کیا ایک شخص اذان دے سکتا ہے جبکہ دوسرا شخص اقامت کہے؟",
-          "zh": "一个人可以念宣礼而另一个人念قامة吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে ইমাম আবু 'আবদিল্লাহ عليه السلام-এর আযান ও ইকামতের পদ্ধতি বর্ণিত হয়েছে। এতে বোঝা যায় যে আযানদাতা ও ইকামতদাতা একই ব্যক্তি হওয়া আবশ্যক নয়; বরং এ ইবাদতগুলো পালনে নমনীয়তা রয়েছে।",
-          "de": "Dieser Hadith berichtet über die Praxis von Imam Abu 'Abdillah عليه السلام bezüglich Adhan und Iqamah. Er zeigt, dass die Person, die den Adhan ruft, nicht notwendigerweise dieselbe sein muss wie diejenige, die die Iqamah verrichtet, was eine Flexibilität bei der Ausführung dieser Gottesdienste erkennen lässt.",
-          "en": "This hadith reports the practice of Imam Abu 'Abdillah عليه السلام regarding the adhan and iqamah. It indicates that the one who gives the adhan does not necessarily have to be the same person who gives the iqamah, reflecting flexibility in the performance of these acts of worship.",
-          "es": "Este hadiz relata la práctica del Imam Abu 'Abdillah عليه السلام respecto al adhan y al iqamah. Indica que quien da el adhan no necesariamente tiene que ser la misma persona que da el iqamah, lo que refleja flexibilidad en la realización de estos actos de adoración.",
-          "fa": "این حدیث روش امام ابوعبدالله علیه‌السلام را درباره اذان و اقامه گزارش می‌کند. این نشان می‌دهد که کسی که اذان می‌گوید لزوماً نباید همان کسی باشد که اقامه می‌گوید، و در انجام این عبادت‌ها انعطاف وجود دارد.",
-          "fr": "Ce hadith rapporte la pratique de l'imam Abu 'Abdillah عليه السلام concernant l'adhan et l'iqamah. Il indique que celui qui fait l'adhan n'a pas nécessairement à être la même personne que celui qui fait l'iqamah, ce qui reflète une certaine souplesse dans l'accomplissement de ces actes d'adoration.",
-          "id": "Hadis ini meriwayatkan praktik Imam Abu 'Abdillah عليه السلام terkait adzan dan iqamah. Ini menunjukkan bahwa orang yang mengumandangkan adzan tidak harus sama dengan orang yang melaksanakan iqamah, sehingga ada kelonggaran dalam pelaksanaan ibadah ini.",
-          "ru": "Этот хадис передает практику имама Абу 'Абдуллаха عليه السلام относительно азана и икамы. Он указывает, что тот, кто произносит азан, не обязательно должен быть тем же самым человеком, который произносит икаму, что отражает гибкость в совершении этих видов поклонения.",
-          "tr": "Bu hadis, İmam Ebu Abdullah عليه السلام’ın ezan ve ikame konusundaki uygulamasını anlatır. Buna göre ezanı veren kişinin ikameyi veren kişiyle aynı olması şart değildir; bu ibadetlerin yerine getirilmesinde bir esneklik bulunduğunu gösterir.",
-          "ur": "یہ حدیث امام ابو عبداللہ علیہ السلام کے اذان اور اقامت کے طریقے کو بیان کرتی ہے۔ اس سے معلوم ہوتا ہے کہ اذان دینے والا اور اقامت کہنے والا ایک ہی شخص ہونا ضروری نہیں، بلکہ ان عبادات کی ادائیگی میں گنجائش موجود ہے۔",
-          "zh": "这段圣训记述了伊玛目阿布·阿卜杜拉 عليه السلام关于宣礼和قامة的做法。它表明，念宣礼的人不一定必须与念قامة的人是同一个人，这体现了在这些 عبادات的履行中具有灵活性。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

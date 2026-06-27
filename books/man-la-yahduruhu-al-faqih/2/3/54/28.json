@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَ عَبْدُ الرَّحْمَنِ بْنُ الْحَجَّاجِ أَبَا الْحَسَنِ عَلَيْهِ السَّلَامُ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ʿAbd al-Raḥmān ibn al-Ḥajjāj আবু আল-হাসান عليه السلام-এর কাছে প্রশ্ন করলেন",
-              "de": "ʿAbd al-Raḥmān ibn al-Ḥajjāj fragte Abū al-Ḥasan عليه السلام",
-              "en": "ʿAbd al-Raḥmān ibn al-Ḥajjāj asked Abū al-Ḥasan عليه السلام",
-              "es": "ʿAbd al-Raḥmān ibn al-Ḥajjāj preguntó a Abū al-Ḥasan عليه السلام",
-              "fa": "ʿAbd al-Raḥmān ibn al-Ḥajjāj از ابوالحسن علیه السلام پرسید",
-              "fr": "ʿAbd al-Raḥmān ibn al-Ḥajjāj a demandé à Abū al-Ḥasan عليه السلام",
-              "id": "ʿAbd al-Raḥmān ibn al-Ḥajjāj bertanya kepada Abū al-Ḥasan علیه السلام",
-              "ru": "ʿAbd al-Raḥmān ибн аль-Хаджадж спросил Абу аль-Хасана عليه السلام",
-              "tr": "ʿAbd al-Raḥmān ibn al-Ḥajjāj, Abū al-Ḥasan'a عليه السلام sordu",
-              "ur": "عبدالرحمن ابن الحجاج نے ابو الحسن علیہ السلام سے پوچھا",
-              "zh": "ʿAbdalRahmānibnalḤajjāj向Abūal-Ḥasanعليهالسلام提问"
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "عَنِ الْمُحْرِمِ يَلْبَسُ الْخَزَّ فَقَالَ «لَا بَأْسَ بِهِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "মুহরিমের খজ্জ পরার ব্যাপারে, তিনি বললেন: “এতে কোনো ক্ষতি নেই।”",
-              "de": "über den Muhrim, der Khazz trägt, sagte er: „Daran ist kein Schaden.“",
-              "en": "about the muhrim wearing khazz, so he said: “There is no harm in it.”",
-              "es": "sobre el muhrim que usa khazz, dijo: “No hay daño en ello.”",
-              "fa": "دربارهٔ محرم که خَز می‌پوشد، فرمود: «در آن ضرری نیست.»",
-              "fr": "au sujet du muhrim portant du khazz, il a dit : « Il n’y a pas de mal à cela. »",
-              "id": "tentang muhrim yang mengenakan khazz, beliau berkata: “Tidak ada bahaya dalam hal itu.”",
-              "ru": "о мухриме, который носит хазз, он сказал: «В этом нет вреда.»",
-              "tr": "muhremin khazz giymesi hakkında, şöyle dedi: “Bunda bir zarar yoktur.”",
-              "ur": "محرم کے خَز پہننے کے بارے میں، تو انہوں نے فرمایا: \"اس میں کوئی حرج نہیں ہے۔\"",
-              "zh": "关于穆赫里姆穿着khazz，他说：“这没有害处。”"
-            },
             "word_end": 17,
             "word_start": 9
           }
@@ -91,25 +78,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبَا الْحَسَنِ": "Abū al-Ḥasan, the Imam addressed in the report",
-            "الْخَزَّ": "khazz, a type of fabric",
-            "الْمُحْرِمِ": "a person in the state of ihram",
-            "عَبْدُ الرَّحْمَنِ": "ʿAbd al-Raḥmān, the questioner in the narration",
-            "لَا بَأْسَ بِهِ": "there is no harm in it; it is permissible"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "عَبْدُ الرَّحْمَنِ",
+          "أَبَا الْحَسَنِ",
+          "الْمُحْرِمِ",
+          "الْخَزَّ",
+          "لَا بَأْسَ بِهِ"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
@@ -120,32 +95,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "মুহরিমের জন্য ইহরামের সময় খজ্জ পরা কি جائز?",
-          "de": "Ist es einem Muhrim erlaubt, während des Ihram Khazz zu tragen?",
-          "en": "Is it permissible for a muhrim to wear khazz during ihram?",
-          "es": "¿Es permisible que un muhrim use khazz durante el ihram?",
-          "fa": "آیا پوشیدن خَز برای محرم در حالت احرام جایز است؟",
-          "fr": "Est-il permis pour un muhrim de porter du khazz pendant l’ihram ?",
-          "id": "Apakah muhrim diperbolehkan mengenakan khazz selama ihram?",
-          "ru": "Разрешено ли мухриму носить хазз во время ихрама?",
-          "tr": "Bir muhrimin ihram sırasında khazz giymesi caiz midir?",
-          "ur": "کیا محرم کے لیے احرام کے دوران خَز پہننا جائز ہے؟",
-          "zh": "穆赫里姆在 ihram期间穿khazz合法吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ইহরামের অবস্থায় পরিধানকৃত পোশাক সম্পর্কে শারঈ হুকুম প্রদান করে। ইমাম আবু আল-হাসান عليه السلام বলেন যে মুহরিমের জন্য খজ্জ পরা কোনো আপত্তি নেই।",
-          "de": "Dieser Hadith gibt eine Rechtsvorschrift bezüglich der Kleidung im Zustand des Ihram. Imam Abū al-Ḥasan عليه السلام erklärt, dass es keinen Einwand gegen das Tragen von Khazz durch den Muhrim gibt.",
-          "en": "This hadith gives a legal ruling concerning clothing worn in the state of ihram. Imam Abū al-Ḥasan عليه السلام states that there is no objection to the muhrim wearing khazz.",
-          "es": "Este hadiz da un fallo legal sobre la ropa usada en estado de ihram. El Imam Abū al-Ḥasan عليه السلام afirma que no hay objeción a que el muhrim use khazz.",
-          "fa": "این حدیث حکم شرعی درباره پوشش در حالت احرام را بیان می‌کند. امام ابوالحسن علیه السلام می‌فرماید که پوشیدن خَز برای محرم اشکالی ندارد.",
-          "fr": "Ce hadith donne un jugement légal concernant les vêtements portés en état d’ihram. L’Imam Abū al-Ḥasan عليه السلام déclare qu’il n’y a pas d’objection à ce que le muhrim porte du khazz.",
-          "id": "Hadis ini memberikan hukum terkait pakaian yang dikenakan dalam keadaan ihram. Imam Abū al-Ḥasan علیه السلام menyatakan bahwa tidak ada keberatan bagi muhrim mengenakan khazz.",
-          "ru": "Этот хадис даёт правовое постановление относительно одежды, носимой в состоянии ихрам. Имам Абу аль-Хасан عليه السلام утверждает, что нет возражений против ношения хазза мухримом.",
-          "tr": "Bu hadis, ihram halindeyken giyilen kıyafetle ilgili hukuki hükmü verir. İmam Abū al-Ḥasan عليه السلام, muhrimin khazz giymesinde bir sakınca olmadığını belirtir.",
-          "ur": "یہ حدیث احرام کی حالت میں پہنے جانے والے لباس کے بارے میں شرعی حکم دیتی ہے۔ امام ابو الحسن علیہ السلام فرماتے ہیں کہ محرم کے لیے خَز پہننے میں کوئی اعتراض نہیں ہے۔",
-          "zh": "这段圣训给出了关于在 ihram状态下穿着的服装的法律裁决。伊玛目Abūal-Ḥasanعليهالسلام表示穆赫里姆穿khazz没有异议。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

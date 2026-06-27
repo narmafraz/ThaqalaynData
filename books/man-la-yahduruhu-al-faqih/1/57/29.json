@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ: إِنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ صَلَّى بِأَصْحَابِهِ جَالِسًا فَلَمَّا فَرَغَ قَالَ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আবু জাফর عليه السلام বলেছেন: আল্লাহর রাসূল صلى الله عليه وآله তাঁর সাহাবীদের সাথে বসে সালাত পরিচালনা করেছিলেন, এবং শেষ করার পর তিনি বললেন:",
-              "de": "Abu Jaʿfar عليه السلام sagte: Der Gesandte Allahs صلى الله عليه وآله leitete das Salat mit seinen Gefährten im Sitzen, und als er fertig war, sagte er:",
-              "en": "Abu Jaʿfar عليه السلام said: The Messenger of Allah صلى الله عليه وآله led his companions in salat while seated, and when he finished, he said:",
-              "es": "Abu Jaʿfar عليه السلام dijo: El Mensajero de Allah صلى الله عليه وآله dirigió la salat con sus compañeros mientras estaba sentado, y cuando terminó, dijo:",
-              "fa": "ابوجعفر علیه السلام گفت: رسول خدا صلی الله علیه وآله در حالی که نشسته بود، به اصحابش نماز خواند و وقتی تمام کرد، گفت:",
-              "fr": "Abu Jaʿfar عليه السلام a dit : Le Messager d'Allah صلى الله عليه وآله a dirigé la salat avec ses compagnons en étant assis, et lorsqu'il a terminé, il a dit :",
-              "id": "Abu Jaʿfar علیه السلام berkata: Rasulullah صلى الله عليه وآله memimpin salat bersama para sahabatnya dalam keadaan duduk, dan ketika selesai, beliau berkata:",
-              "ru": "Абу Джафар علیه السلام сказал: Посланник Аллаха صلى الله عليه وآله возглавил салат со своими сподвижниками в сидячем положении, и когда он закончил, сказал:",
-              "tr": "Ebu Ca'fer علیه السلام dedi ki: Allah'ın Resulü صلى الله عليه وآله, sahabelerine oturarak salat kıldırdı ve bitirdiğinde şöyle dedi:",
-              "ur": "ابو جعفر علیہ السلام نے فرمایا: رسول اللہ صلی اللہ علیہ وآلہ وسلم نے اپنے صحابہ کے ساتھ بیٹھ کر نماز پڑھائی، اور جب وہ فارغ ہوئے تو فرمایا:",
-              "zh": "ابوجعفرعليهالسلام说：安拉使者صلىاللهعليه وآله坐着带领他的同伴们做礼拜，完成后他说："
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "«لَا يَؤُمَّنَّ أَحَدُكُمْ بَعْدِي جَالِسًا.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“আমাদের মধ্যে কেউ আমার পরে বসে অন্যদের ইমামতি করবেন না।”",
-              "de": "\"Keiner von euch soll nach mir im Sitzen das Salat leiten.\"",
-              "en": "\"None of you should lead others in salat while seated after me.\"",
-              "es": "\"Ninguno de vosotros debe liderar la salat sentado después de mí.\"",
-              "fa": "«هیچ‌یک از شما پس از من نباید در حال نشسته امامت کند.»",
-              "fr": "\"Aucun d'entre vous ne doit diriger la salat assis après moi.\"",
-              "id": "\"Tidak seorang pun di antara kalian boleh memimpin salat sambil duduk setelahku.\"",
-              "ru": "\"Никто из вас не должен вести салат сидя после меня.\"",
-              "tr": "\"Benim ardından oturarak kimse namazda imamlık etmesin.\"",
-              "ur": "“تم میں سے کوئی بھی میرے بعد بیٹھ کر دوسروں کی امامت نہ کرے۔”",
-              "zh": "“你们中无人应在我之后坐着带领礼拜。”"
-            },
             "word_end": 24,
             "word_start": 19
           }
@@ -92,26 +79,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بَعْدِي": "after me; indicating that this allowance was not for others after the Prophet صلى الله عليه وآله",
-            "بِأَصْحَابِهِ": "with his companions; indicating a congregational setting",
-            "جَالِسًا": "while seated; the central legal condition discussed in the hadith",
-            "رَسُولَ اللَّهِ": "the Messenger of Allah صلى الله عليه وآله, whose action and statement establish the ruling here",
-            "صَلَّى": "performed salat; here it refers to leading the congregational prayer",
-            "يَؤُمَّنَّ": "should lead as Imam in prayer"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رَسُولَ اللَّهِ",
+          "صَلَّى",
+          "بِأَصْحَابِهِ",
+          "جَالِسًا",
+          "يَؤُمَّنَّ",
+          "بَعْدِي"
+        ],
         "related_quran": [
           {
             "ref": "59:7",
@@ -122,32 +97,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কোন ব্যক্তি কি বসে জামাতের সালাতের ইমামতি করতে পারে?",
-          "de": "Kann eine Person das Gemeinschaftsgebet im Sitzen leiten?",
-          "en": "Can a person lead congregational salat while seated?",
-          "es": "¿Puede una persona liderar la salat congregacional sentado?",
-          "fa": "آیا شخصی می‌تواند در حال نشسته امامت جماعت را به عهده بگیرد؟",
-          "fr": "Une personne peut-elle diriger la salat en congrégation assise ?",
-          "id": "Apakah seseorang boleh memimpin salat berjamaah dalam keadaan duduk?",
-          "ru": "Может ли человек вести коллективную салат сидя?",
-          "tr": "Bir kişi oturarak cemaatin salatına imamlık yapabilir mi?",
-          "ur": "کیا کوئی شخص بیٹھ کر جماعت کی نماز کی امامت کر سکتا ہے؟",
-          "zh": "一个人可以坐着带领集体礼拜吗？"
-        },
-        "summaries": {
-          "bn": "ইমাম আবু জাফর عليه السلام বর্ণনা করেন যে আল্লাহর রাসূল صلى الله عليه وآله একবার বসে সাহাবীদের সাথে সালাত পরিচালনা করেছিলেন, তারপর অন্যদের তা করার থেকে বিরত রাখলেন। এই হাদিস নবী صلى الله عليه وآله এর জন্য একটি বিশেষ শারঈ বৈশিষ্ট্য নির্দেশ করে এবং বসে জামাতের ইমামতির حکم ব্যাখ্যা করে।",
-          "de": "Imam Abu Jaʿfar عليه السلام berichtet, dass der Gesandte Allahs صلى الله عليه وآله einmal die Gefährten im Sitzen im Salat leitete und dann anderen untersagte, dies nach ihm zu tun. Der Hadith zeigt eine spezielle rechtliche Unterscheidung für den Propheten صلى الله عليه وآله und behandelt die Regel, das Gemeinschaftsgebet im Sitzen zu leiten.",
-          "en": "Imam Abu Jaʿfar عليه السلام relates that the Messenger of Allah صلى الله عليه وآله once led the companions in salat while seated, then prohibited others from doing so after him. The hadith indicates a specific legal distinction for the Prophet صلى الله عليه وآله and addresses the ruling of leading congregational salat while seated.",
-          "es": "El Imam Abu Jaʿfar عليه السلام relata que el Mensajero de Allah صلى الله عليه وآله una vez dirigió la salat con los compañeros mientras estaba sentado, luego prohibió que otros lo hicieran después de él. El hadiz indica una distinción legal específica para el Profeta صلى الله عليه وآله y aborda la regla de liderar la salat congregacional sentado.",
-          "fa": "امام ابوجعفر علیه السلام نقل می‌کند که رسول خدا صلی الله علیه وآله یک بار در حالی که نشسته بود به اصحابش نماز خواند و سپس دیگران را از انجام این کار پس از خود منع کرد. این حدیث تمایز حقوقی خاصی برای پیامبر صلی الله علیه وآله نشان می‌دهد و حکم امامت جماعت در حال نشسته را بیان می‌کند.",
-          "fr": "L'Imam Abu Jaʿfar عليه السلام rapporte que le Messager d'Allah صلى الله عليه وآله a une fois dirigé la salat avec ses compagnons en étant assis, puis a interdit aux autres de le faire après lui. Le hadith indique une distinction juridique spécifique pour le Prophète صلى الله عليه وآله et traite de la règle de diriger la salat en congrégation assis.",
-          "id": "Imam Abu Jaʿfar علیه السلام meriwayatkan bahwa Rasulullah صلى الله عليه وآله pernah memimpin salat bersama para sahabat dalam keadaan duduk, kemudian melarang orang lain melakukannya setelah beliau. Hadis ini menunjukkan perbedaan hukum khusus untuk Nabi صلى الله عليه وآله dan membahas hukum memimpin salat berjamaah dalam keadaan duduk.",
-          "ru": "Имам Абу Джафар علیه السلام передает, что Посланник Аллаха صلى الله عليه وآله однажды возглавил салат со сподвижниками в сидячем положении, затем запретил другим делать так после него. Хадис указывает на особое юридическое различие для Пророка صلى الله عليه وآله и рассматривает правило ведения коллективной молитвы сидя.",
-          "tr": "İmam Ebu Ca'fer علیه السلام rivayet eder ki, Allah'ın Resulü صلى الله عليه وآله bir defasında sahabelerle oturarak salat kıldırdı ve sonra başkalarının böyle yapmasını yasakladı. Hadis, Peygamber صلى الله عليه وآله için özel bir hukuki ayrımı gösterir ve oturarak cemaatin imamlığının hükmünü ele alır.",
-          "ur": "امام ابو جعفر علیہ السلام بیان کرتے ہیں کہ رسول اللہ صلی اللہ علیہ وآلہ وسلم نے ایک مرتبہ صحابہ کے ساتھ بیٹھ کر نماز پڑھائی، پھر دوسروں کو ایسا کرنے سے منع فرمایا۔ یہ حدیث نبی صلی اللہ علیہ وآلہ وسلم کے لیے ایک خاص شرعی امتیاز ظاہر کرتی ہے اور جماعت کی امامت کرتے ہوئے بیٹھنے کے حکم کو بیان کرتی ہے۔",
-          "zh": "伊玛目ابوجعفرعليهالسلام传述，安拉使者صلىاللهعليه وآله曾坐着带领同伴们礼拜，之后禁止他人效仿。此圣训表明先知صلىاللهعليه وآله的特殊法律区别，并涉及坐着带领集体礼拜的规定。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

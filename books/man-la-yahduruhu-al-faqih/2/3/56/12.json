@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَنَّ أَبَا الْحَسَنِ الثَّانِيَ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "যে আবু আল-হাসান আল-থানি, আলাইহিস সালাম, বললেন:",
-              "de": "Dass Abū al-Ḥasan al-Thānī, Friede sei mit ihm, sagte:",
-              "en": "That Abū al-Ḥasan al-Thānī, peace be upon him, said:",
-              "es": "Que Abū al-Ḥasan al-Thānī, la paz sea con él, dijo:",
-              "fa": "که ابوالحسن الثانی، سلام‌الله‌علیه، فرمود:",
-              "fr": "Qu'Abū al-Ḥasan al-Thānī, que la paix soit sur lui, a dit :",
-              "id": "Bahwa Abū al-Ḥasan al-Thānī, semoga keselamatan atasnya, berkata:",
-              "ru": "Что Абū аль-Хасан аль-Тани, мир ему, сказал:",
-              "tr": "Abū al-Ḥasan al-Thānī, Allah'ın selamı üzerine olsun, şöyle dedi:",
-              "ur": "کہ ابو الحسن الثانی علیہ السلام نے فرمایا:",
-              "zh": "أَنَّأَبُوالْحَسَنِالثَّانِي،عَلَيْهِالسَّلَامُ،قَالَ："
-            },
             "word_end": 7,
             "word_start": 0
           },
           {
             "arabic_text": "«يَذْبَحُ الصَّيْدَ وَيَأْكُلُهُ وَيَفْدِي أَحَبُّ إِلَيَّ مِنَ الْمَيْتَةِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "\"শিকার জবাই করা, খাওয়া এবং কাফারা দেওয়া আমার জন্য ময়লার মাংস খাওয়ার চেয়ে বেশি প্রিয়।\"",
-              "de": "\"Das Schlachten des Wildes, es zu essen und die Sühne zu zahlen, ist mir lieber als Aas zu essen.\"",
-              "en": "\"Slaughtering the game, eating it, and paying the expiation is more beloved to me than carrion.\"",
-              "es": "\"Sacrificar la presa, comerla y pagar la expiación es más amado para mí que la carroña.\"",
-              "fa": "«ذبح کردن شکار، خوردن آن و پرداخت کفاره برای من از خوردن مردار محبوب‌تر است.»",
-              "fr": "\"Abattre le gibier, le manger et payer l'expiation m'est plus cher que de manger de la charogne.\"",
-              "id": "\"Menyembelih buruan, memakannya, dan membayar fidyah lebih aku sukai daripada memakan bangkai.\"",
-              "ru": "\"Забивать дичь, есть её и платить искупление мне милее, чем есть падаль.\"",
-              "tr": "\"Avı kesmek, onu yemek ve fidye vermek, benim için leş yemekten daha sevimlidir.\"",
-              "ur": "’’شکار کو ذبح کرنا، اسے کھانا، اور کفارہ ادا کرنا میرے لیے مردار کھانے سے زیادہ محبوب ہے۔‘‘",
-              "zh": "ذَبْحُالصَّيْدِوَأَكْلُهُوَفِدْيَةُأَحَبُّإِلَيَّمِنَأَلْمَيْتَةِ。"
-            },
             "word_end": 15,
             "word_start": 7
           }
@@ -81,25 +68,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الصَّيْدَ": "the hunted game animal",
-            "الْمَيْتَةِ": "carrion, an animal not slaughtered properly",
-            "وَيَأْكُلُهُ": "and eats it",
-            "وَيَفْدِي": "and pays the expiation or ransom due",
-            "يَذْبَحُ": "slaughters in the legally prescribed manner"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَذْبَحُ",
+          "الصَّيْدَ",
+          "وَيَأْكُلُهُ",
+          "وَيَفْدِي",
+          "الْمَيْتَةِ"
+        ],
         "related_quran": [
           {
             "ref": "5:95",
@@ -110,32 +85,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিকার করা মূহরিমের জন্য কাফারা সহ শিকার খাওয়া কি ময়লা খাওয়ার চেয়ে উত্তম?",
-          "de": "Ist es für einen Muhrim, der Wild tötet, besser, es mit Sühne zu essen als Aas zu essen?",
-          "en": "For a muhrim who kills game, is eating it with expiation preferable to eating carrion?",
-          "es": "Para un muhrim que mata caza, ¿es preferible comerla con expiación que comer carroña?",
-          "fa": "آیا خوردن شکار با پرداخت کفاره برای محرم بهتر از خوردن مردار است؟",
-          "fr": "Pour un muhrim qui tue du gibier, est-il préférable de le manger avec expiation plutôt que de manger de la charogne ?",
-          "id": "Apakah bagi muhrim yang membunuh buruan, memakannya dengan fidyah lebih baik daripada memakan bangkai?",
-          "ru": "Для мухрима, убившего дичь, предпочтительнее есть её с искуплением, чем есть падаль?",
-          "tr": "Avlanan muhrim için fidye ödeyerek onu yemek, leş yemekten daha mı iyidir?",
-          "ur": "کیا شکار کرنے والے محرم کے لیے کفارہ کے ساتھ اسے کھانا مردار کھانے سے بہتر ہے؟",
-          "zh": "对于猎杀猎物的穆赫里姆，带赎罪金食用是否优于食用腐肉？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি একটি মূহরিমের জন্য আইনগত প্রাধান্য দেয় যিনি শিকার করেছেন: পশু জবাই করা, খাওয়া এবং কাফারা দেওয়া ময়লা খাওয়ার চেয়ে উত্তম। এটি হজ ও ইহরামের নিষিদ্ধ শিকার সম্পর্কিত ফিকহি বিধান প্রতিফলিত করে।",
-          "de": "Dieser Hadith gibt eine rechtliche Präferenz für einen Muhrim, der Wild erlegt hat: Das Schlachten des Tieres, es zu essen und dann die Sühne zu zahlen, ist dem Verzehr von Aas vorzuziehen. Er spiegelt eine juristische Regelung im Zusammenhang mit Hajj und den Verboten der Jagd im Ihram wider.",
-          "en": "This hadith gives a legal preference in the case of a muhrim who has taken game: slaughtering the animal, eating it, and then paying the required expiation is preferable to eating carrion. It reflects a jurisprudential ruling connected to hajj and the laws of prohibited hunting in ihram.",
-          "es": "Este hadiz da una preferencia legal en el caso de un muhrim que ha cazado: sacrificar el animal, comerlo y luego pagar la expiación es preferible a comer carroña. Refleja un fallo jurisprudencial relacionado con el hajj y las leyes de caza prohibida en ihram.",
-          "fa": "این حدیث ترجیح فقهی در مورد محرم که شکار کرده است را بیان می‌کند: ذبح حیوان، خوردن آن و پرداخت کفاره بر خوردن مردار ترجیح دارد. این حکم مرتبط با احکام حج و ممنوعیت شکار در احرام است.",
-          "fr": "Ce hadith donne une préférence légale dans le cas d'un muhrim ayant pris du gibier : abattre l'animal, le manger puis payer l'expiation est préférable à manger de la charogne. Il reflète un jugement jurisprudentiel lié au hajj et aux lois de la chasse interdite en ihram.",
-          "id": "Hadis ini memberikan preferensi hukum bagi muhrim yang telah menangkap buruan: menyembelih hewan, memakannya, dan membayar fidyah lebih utama daripada memakan bangkai. Ini mencerminkan hukum fikih terkait haji dan larangan berburu dalam ihram.",
-          "ru": "Этот хадис выражает юридическое предпочтение для мухрима, который поймал дичь: забивать животное, есть его и платить искупление предпочтительнее, чем есть падаль. Это отражает юридическое постановление, связанное с хаджем и запретами охоты в ихраме.",
-          "tr": "Bu hadis, muhrim olan bir kişinin avladığı hayvanı kesip yemesi ve fidye vermesinin, leş yemekten daha tercih edildiğini bildirir. Hac ve ihramda yasak avlanma ile ilgili fıkhî bir hükmü yansıtır.",
-          "ur": "یہ حدیث محرم کے شکار کرنے والے کے لیے شرعی ترجیح بیان کرتی ہے: جانور کو ذبح کرنا، اسے کھانا اور کفارہ ادا کرنا مردار کھانے سے بہتر ہے۔ یہ حج اور احرام میں ممنوع شکار کے قوانین سے متعلق فقهی حکم کی عکاسی کرتی ہے۔",
-          "zh": "此圣训对捕获猎物的穆赫里姆给予法律上的优先权：宰杀动物、食用并支付赎罪金，比食用腐肉更可取。反映了与朝觐及禁猎法相关的法理裁决。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

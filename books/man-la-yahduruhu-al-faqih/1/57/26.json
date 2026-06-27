@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى سَعْدُ بْنُ إِسْمَاعِيلَ عَنْ أَبِيهِ عَنِ الرِّضَا عَلَيْهِ السَّلَامُ أَنَّهُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "সাআদ ইবনে ইসমাঈল তার পিতা থেকে, যিনি আল-রিদা عليه السلام থেকে বর্ণনা করেছেন, বলেছেন:",
-              "de": "Saʿd ibn Ismāʿīl berichtete von seinem Vater, von al-Riḍā عليه السلام, dass er sagte:",
-              "en": "Saʿd ibn Ismāʿīl narrated from his father, from al-Riḍā عليه السلام, that he said:",
-              "es": "Saʿd ibn Ismāʿīl narró de su padre, de al-Riḍā عليه السلام, que dijo:",
-              "fa": "سعد بن اسماعیل از پدرش، از امام رضا علیه السلام نقل کرد که فرمود:",
-              "fr": "Saʿd ibn Ismāʿīl a rapporté de son père, d’al-Riḍā عليه السلام, qu’il a dit :",
-              "id": "Saʿd ibn Ismāʿīl meriwayatkan dari ayahnya, dari al-Riḍā علیه السلام, bahwa beliau berkata:",
-              "ru": "Саʿд ибн Исмаил передал от своего отца, от аль-Риḍā عليه السلام, что он сказал:",
-              "tr": "Saʿd ibn Ismāʿīl, babasından, al-Riḍā عليه السلام'dan rivayet etti ki şöyle dedi:",
-              "ur": "سعد بن اسماعیل نے اپنے والد سے، جو امام رضا علیہ السلام سے روایت کرتے ہیں، نقل کیا کہ انہوں نے فرمایا:",
-              "zh": "سعدبنإسماعيل从他父亲那里传述，来自al-Riḍāعليهالسلام，说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنِ الرَّجُلِ يُقَارِفُ الذَّنْبَ يُصَلَّى خَلْفَهُ أَمْ لَا قَالَ «لَا»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাকে এমন একজন ব্যক্তির সম্পর্কে জিজ্ঞাসা করলাম যে পাপ করে: তার পেছনে সালাত আদায় করা উচিত কি না? তিনি বললেন: \"না।\"",
-              "de": "Ich fragte ihn nach einem Mann, der Sünde begeht: Soll man hinter ihm Salat verrichten oder nicht? Er sagte: „Nein.“",
-              "en": "I asked him about a man who commits sin: should salat be performed behind him or not? He said: “No.”",
-              "es": "Le pregunté sobre un hombre que comete pecado: ¿se debe rezar salat detrás de él o no? Él dijo: “No.”",
-              "fa": "از ایشان درباره مردی که گناه می‌کند پرسیدم: آیا باید پشت سر او نماز خواند یا نه؟ فرمود: «نه.»",
-              "fr": "Je lui ai demandé au sujet d’un homme qui commet un péché : doit-on prier salat derrière lui ou pas ? Il a dit : « Non. »",
-              "id": "Saya bertanya tentang seorang pria yang berbuat dosa: apakah salat harus dilakukan di belakangnya atau tidak? Beliau berkata: “Tidak.”",
-              "ru": "Я спросил его о человеке, который совершает грех: следует ли совершать салат за ним или нет? Он сказал: «Нет.»",
-              "tr": "Günah işleyen bir adam hakkında sordum: onun arkasında salat kılınmalı mı yoksa hayır mı? Dedi ki: “Hayır.”",
-              "ur": "میں نے ان سے ایک ایسے شخص کے بارے میں پوچھا جو گناہ کرتا ہے: کیا اس کے پیچھے نماز پڑھنی چاہیے یا نہیں؟ انہوں نے فرمایا: \"نہیں۔\"",
-              "zh": "我问他关于一个犯罪的人：是否应在他后面礼拜？他说：“不。”"
-            },
             "word_end": 24,
             "word_start": 13
           }
@@ -102,25 +89,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الذَّنْبَ": "sin or wrongdoing",
-            "خَلْفَهُ": "behind him, as an Imam in prayer",
-            "لَا": "no",
-            "يُصَلَّى": "salat is performed",
-            "يُقَارِفُ": "commits or engages in"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُقَارِفُ",
+          "الذَّنْبَ",
+          "يُصَلَّى",
+          "خَلْفَهُ",
+          "لَا"
+        ],
         "related_quran": [
           {
             "ref": "9:119",
@@ -131,32 +106,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কোন পাপকারী ব্যক্তির পেছনে জামাতের সালাত আদায় করা যায় কি?",
-          "de": "Kann man gemeinschaftlichen Salat hinter einem Mann verrichten, der Sünden begeht?",
-          "en": "Can one perform congregational salat behind a man who commits sins?",
-          "es": "¿Se puede realizar la salat en congregación detrás de un hombre que comete pecados?",
-          "fa": "آیا می‌توان پشت سر مردی که گناه می‌کند نماز جماعت خواند؟",
-          "fr": "Peut-on prier en congrégation derrière un homme qui commet des péchés ?",
-          "id": "Apakah seseorang boleh melaksanakan salat berjamaah di belakang pria yang berbuat dosa?",
-          "ru": "Можно ли совершать коллективную молитву за человеком, который совершает грехи?",
-          "tr": "Günah işleyen bir adamın arkasında cemaatle salat kılınabilir mi?",
-          "ur": "کیا گناہ کرنے والے شخص کے پیچھے جماعت کی نماز پڑھی جا سکتی ہے؟",
-          "zh": "是否可以在犯罪者后面进行集体礼拜？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি এমন একজন ব্যক্তির পেছনে জামাতের সালাত সম্পর্কে একটি শারঈ সিদ্ধান্ত প্রদান করে যিনি পাপ করেন। ইমাম আল-রিদা عليه السلام নেতিবাচক উত্তর দিয়েছেন যে এমন ব্যক্তির পেছনে সালাত আদায় করা উচিত নয়।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bezüglich des gemeinschaftlichen Salat hinter einer Person, die für das Begehen von Sünden bekannt ist. Imam al-Riḍā عليه السلام antwortet verneinend und zeigt, dass man nicht hinter einer solchen Person beten sollte.",
-          "en": "This hadith gives a legal ruling concerning congregational salat behind a person known for committing sin. Imam al-Riḍā عليه السلام answers in the negative, indicating that one should not pray behind such a person.",
-          "es": "Este hadiz da un fallo legal sobre la salat en congregación detrás de una persona conocida por cometer pecado. El Imam al-Riḍā عليه السلام responde negativamente, indicando que no se debe rezar detrás de tal persona.",
-          "fa": "این حدیث حکم شرعی درباره نماز جماعت پشت سر فردی که گناه می‌کند را بیان می‌کند. امام رضا علیه السلام پاسخ منفی داده و نشان می‌دهد که نباید پشت سر چنین فردی نماز خواند.",
-          "fr": "Ce hadith donne un jugement légal concernant la prière en congrégation derrière une personne connue pour commettre des péchés. L’Imam al-Riḍā عليه السلام répond par la négative, indiquant qu’on ne doit pas prier derrière une telle personne.",
-          "id": "Hadis ini memberikan hukum tentang salat berjamaah di belakang orang yang melakukan dosa. Imam al-Riḍā علیه السلام menjawab negatif, menunjukkan bahwa tidak boleh salat di belakang orang tersebut.",
-          "ru": "Этот хадис содержит юридическое постановление относительно коллективной молитвы за человеком, известным своими грехами. Имам аль-Риḍā عليه السلام отвечает отрицательно, указывая, что не следует молиться за таким человеком.",
-          "tr": "Bu hadis, günah işleyen bir kişinin arkasında cemaatle salat kılınması hakkında hukuki bir hüküm verir. İmam al-Riḍā عليه السلام olumsuz cevap vererek böyle bir kişinin arkasında namaz kılınmaması gerektiğini belirtir.",
-          "ur": "یہ حدیث جماعت کی نماز کے بارے میں ایک شرعی حکم دیتی ہے جو گناہ کرنے والے شخص کے پیچھے ہو۔ امام رضا علیہ السلام نے منفی جواب دیا ہے کہ ایسے شخص کے پیچھے نماز نہیں پڑھنی چاہیے۔",
-          "zh": "此圣训对在犯罪者后面集体礼拜给出法律裁决。Imamal-Riḍāعليهالسلام否定回答，表明不应在此类人后礼拜。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

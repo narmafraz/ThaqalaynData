@@ -15,6 +15,99 @@
       "up": "/books/al-kafi:8:1:46"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "أَبَانٌ عَنْ أَبِي بَصِيرٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 5,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ فِي بُيُوتٍ أَذِنَ اللَّهُ أَنْ تُرْفَعَ قَالَ هِيَ بُيُوتُ النَّبِيِّ (صَلَّى اللَّهِ عَلَيْهِ وَآلِهِ).",
+            "chunk_type": "body",
+            "word_end": 31,
+            "word_start": 5
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 46,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبَانٌ",
+              "name_en": "Aban",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 14,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي بَصِيرٍ",
+              "name_en": "Abu Basir",
+              "position": 2,
+              "role": "companion"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "بُيُوتٍ",
+          "أَذِنَ",
+          "تُرْفَعَ",
+          "النَّبِيِّ"
+        ],
+        "related_quran": [
+          {
+            "ref": "24:36",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "33:33",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "quran_commentary",
+          "prophetic_tradition"
+        ],
+        "topics": [
+          "quran_interpretation_method",
+          "prophets",
+          "prophetic_character"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مهول</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 482)",
         "Shaykh Baqir al-Behbudi: <span>صحيح</span> - Sahih al-Kafi (3 / 406)"
@@ -23,10 +116,6 @@
       "local_index": 34,
       "narrator_chain": {
         "parts": [
-          {
-            "kind": "plain",
-            "text": "14958- "
-          },
           {
             "kind": "narrator",
             "path": "/people/narrators/46",
@@ -69,7 +158,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:46:34",

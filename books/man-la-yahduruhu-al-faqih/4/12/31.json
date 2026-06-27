@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى إِسْحَاقُ بْنُ عَمَّارٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং ইসহাক ইবনে আম্মার আবী আব্দুল্লাহ عليه السلام থেকে বর্ণনা করেছেন:",
-              "de": "Und Isḥāq ibn ʿAmmār berichtete von Abī ʿAbdillāh عليه السلام:",
-              "en": "And Isḥāq ibn ʿAmmār narrated from Abī ʿAbdillāh عليه السلام:",
-              "es": "Y Isḥāq ibn ʿAmmār narró de Abī ʿAbdillāh عليه السلام:",
-              "fa": "و اسحاق بن عمار از ابی عبدالله علیه السلام روایت کرد:",
-              "fr": "Et Isḥāq ibn ʿAmmār a rapporté de Abī ʿAbdillāh عليه السلام :",
-              "id": "Dan Isḥāq ibn ʿAmmār meriwayat dari Abī ʿAbdillāh علیه السلام:",
-              "ru": "И Ишак ибн Аммар передал от Аби Абдиллаха عليه السلام:",
-              "tr": "Ve İshak ibn Ammar, Ebu Abdillah'a علیه السلام'dan rivayet etti:",
-              "ur": "اور اِسحاق ابن عمار نے ابو عبداللہ علیہ السلام سے روایت کی:",
-              "zh": "以薩哈克伊本阿馬爾從阿布阿卜杜拉 علیه السلام傳述："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "فِي رَجُلٍ سَرَقَ مِنْ بُسْتَانٍ عِذْقًا قِيمَتُهُ دِرْهَمَانِ قَالَ «يُقْطَعُ بِهِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন ব্যক্তি যে বাগান থেকে দুই দিরহামের মূল্যের খেজুরের গুচ্ছ চুরি করেছে, তিনি বললেন: \"তার জন্য হাত কাটা হয়।\"",
-              "de": "Bezüglich eines Mannes, der einen Dattelbündel aus einem Garten stahl, dessen Wert zwei Dirham betrug, sagte er: „Die Hand wird dafür abgehackt.“",
-              "en": "Regarding a man who stole a cluster of dates from an orchard, its value being two dirhams, he said: “The hand is cut off for it.”",
-              "es": "Respecto a un hombre que robó un racimo de dátiles de un huerto, cuyo valor era de dos dirhams, dijo: “Se le corta la mano por ello.”",
-              "fa": "در مورد مردی که خوشه‌ای خرما از باغ دزدید که ارزش آن دو درهم بود، فرمود: «دست او قطع می‌شود.»",
-              "fr": "Concernant un homme qui a volé une grappe de dattes dans un verger, d'une valeur de deux dirhams, il a dit : « La main est coupée pour cela. »",
-              "id": "Mengenai seorang pria yang mencuri seikat kurma dari kebun, dengan nilai dua dirham, beliau berkata: “Tangan dipotong karenanya.”",
-              "ru": "Относительно мужчины, который украл гроздь фиников из сада стоимостью два дирхама, он сказал: «За это отрубается рука.»",
-              "tr": "Bir adamın bir bahçeden iki dirhem değerinde bir hurma salkımı çalması hakkında şöyle dedi: “Bunun için el kesilir.”",
-              "ur": "ایک شخص کے بارے میں جو باغ سے کھجور کے گچھے کی چوری کرتا ہے، جس کی قیمت دو درہم ہو، فرمایا: \"اس کے لیے ہاتھ کاٹ دیا جاتا ہے۔\"",
-              "zh": "關於一個人從果園偷了一串價值兩迪拉姆的棗子，他說：“為此砍手。”"
-            },
             "word_end": 22,
             "word_start": 11
           }
@@ -91,58 +78,20 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بُسْتَانٍ": "an orchard or garden from which the item was stolen",
-            "دِرْهَمَانِ": "two dirhams, indicating the assessed amount",
-            "سَرَقَ": "stole; committed theft",
-            "عِذْقًا": "a cluster of dates",
-            "قِيمَتُهُ": "its monetary value",
-            "يُقْطَعُ": "the hand is cut off; the hadd punishment is applied"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "سَرَقَ",
+          "بُسْتَانٍ",
+          "عِذْقًا",
+          "قِيمَتُهُ",
+          "دِرْهَمَانِ",
+          "يُقْطَعُ"
+        ],
         "related_quran": [
           {
             "ref": "5:38",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে দুই দিরহামের মূল্যের সম্পদ চুরির শাস্তি কী?",
-          "de": "Wie lautet das Urteil über den Diebstahl von Eigentum im Wert von zwei Dirham im schiitischen Hadith?",
-          "en": "What is the ruling on stealing property worth two dirhams in Shia hadith?",
-          "es": "¿Cuál es el fallo sobre robar propiedad valorada en dos dirhams en el hadiz chií?",
-          "fa": "حکم سرقت مال به ارزش دو درهم در حدیث شیعه چیست؟",
-          "fr": "Quel est le jugement sur le vol d’un bien d’une valeur de deux dirhams dans le hadith chiite ?",
-          "id": "Apa hukum mencuri barang senilai dua dirham dalam hadits Syiah?",
-          "ru": "Каково постановление о краже имущества стоимостью два дирхама в шиистском хадисе?",
-          "tr": "Şii hadiste iki dirhem değerindeki malın çalınmasıyla ilgili hüküm nedir?",
-          "ur": "شیعہ حدیث میں دو درہم کی قیمت کے مال کی چوری کا حکم کیا ہے؟",
-          "zh": "什麼是什葉派聖訓中關於偷竊價值兩迪拉姆財產的裁決？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস চুরি সম্পর্কে একটি আইনি বিধান প্রদান করে যখন চুরি করা সম্পদের মূল্য নির্দিষ্ট সীমায় পৌঁছায়। ইমাম আবু আব্দুল্লাহ عليه السلام বলেন যে দুই দিরহামের মূল্যের খেজুরের গুচ্ছ চুরির জন্য হাত কাটা শাস্তি দেওয়া হয়।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung zum Diebstahl, wenn der gestohlene Gegenstand einen bestimmten Wert erreicht. Imām Abū ʿAbdillāh عليه السلام erklärt, dass das Stehlen eines Dattelbündels im Wert von zwei Dirham die Hadd-Strafe der Amputation nach sich zieht.",
-          "en": "This hadith gives a legal ruling concerning theft when the stolen property reaches a specified value. Imām Abū ʿAbdillāh عليه السلام states that stealing a date cluster worth two dirhams incurs the hadd punishment of amputation.",
-          "es": "Este hadiz establece un fallo legal sobre el robo cuando la propiedad robada alcanza un valor específico. El Imām Abū ʿAbdillāh عليه السلام afirma que robar un racimo de dátiles valorado en dos dirhams conlleva el castigo de amputación.",
-          "fa": "این حدیث حکم شرعی مربوط به سرقت را زمانی که مال مسروقه به ارزش مشخصی برسد بیان می‌کند. امام ابو عبدالله علیه السلام می‌فرماید که سرقت خوشه خرمایی به ارزش دو درهم موجب حد قطع دست می‌شود.",
-          "fr": "Ce hadith donne un jugement légal concernant le vol lorsque la propriété volée atteint une valeur spécifiée. L’Imām Abū ʿAbdillāh عليه السلام déclare que voler une grappe de dattes d’une valeur de deux dirhams entraîne la punition de la coupe de la main.",
-          "id": "Hadis ini memberikan hukum syariat mengenai pencurian ketika barang yang dicuri mencapai nilai tertentu. Imam Abu ʿAbdillāh علیه السلام menyatakan bahwa mencuri seikat kurma senilai dua dirham dikenai hukuman hadd potong tangan.",
-          "ru": "Этот хадис содержит юридическое постановление о краже, когда украденное имущество достигает определённой стоимости. Имам Абу Абдиллах عليه السلام утверждает, что кража грозди фиников стоимостью два дирхама влечёт за собой наказание в виде ампутации руки.",
-          "tr": "Bu hadis, çalınan malın belirli bir değere ulaştığında hırsızlıkla ilgili yasal hükmü verir. İmam Ebu Abdillah علیه السلام, iki dirhem değerinde hurma salkımı çalmanın hadd cezası olarak elin kesilmesini gerektirdiğini belirtir.",
-          "ur": "یہ حدیث چوری کے بارے میں قانونی حکم دیتی ہے جب چوری کی گئی چیز کی قیمت مخصوص حد تک پہنچ جائے۔ امام ابو عبداللہ علیہ السلام فرماتے ہیں کہ دو درہم کی قیمت کے کھجور کے گچھے کی چوری پر حدِ قطع ہاتھ کی سزا ہے۔",
-          "zh": "此聖訓對於當被盜財產達到特定價值時的盜竊行為給出法律裁決。伊瑪目阿布阿卜杜拉 علیه السلام指出，偷竊價值兩迪拉姆的棗串將受到砍手的刑罰。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

@@ -15,42 +15,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "الْحُسَيْنُ بْنُ سَعِيدٍ عَنْ صَفْوَانَ عَنِ الْعَلَاءِ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَحَدِهِمَا عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ, সফওয়ান থেকে, আল-আলা' থেকে, মুহাম্মদ ইবন মুসলিম থেকে, তাঁদের দুজনের একজন থেকে, عليهما السلام, তিনি বলেছেন:",
-              "de": "Al-Husayn ibn Sa'id, von Safwan, von al-'Ala', von Muhammad ibn Muslim, von einem der beiden, عليهما السلام, der sagte:",
-              "en": "Al-Husayn ibn Sa'id, from Safwan, from al-'Ala', from Muhammad ibn Muslim, from one of the two عليهما السلام, who said:",
-              "es": "Al-Husayn ibn Sa'id, de Safwan, de al-'Ala', de Muhammad ibn Muslim, de uno de los dos, عليهما السلام, quien dijo:",
-              "fa": "الحسین بن سعید، از صفوان، از العلاء، از محمد بن مسلم، از یکی از آن دو، علیهما السلام، که فرمود:",
-              "fr": "Al-Husayn ibn Sa'id, d'après Safwan, d'après al-'Ala', d'après Muhammad ibn Muslim, d'après l'un des deux, عليهما السلام, qui a dit :",
-              "id": "Al-Husayn ibn Sa'id, dari Safwan, dari al-'Ala', dari Muhammad ibn Muslim, dari salah satu dari keduanya, عليهما السلام, yang berkata:",
-              "ru": "Аль-Хусайн ибн Са'ид, от Сафвана, от аль-'Ала', от Мухаммада ибн Муслима, от одного из этих двоих, عليهما السلام, который сказал:",
-              "tr": "el-Hüseyin ibn Sa'id, Safvan'dan, el-'Alâ'dan, Muhammed ibn Müslim'den, o ikisinden birinden, عليهما السلام, şöyle dedi:",
-              "ur": "الحسین بن سعید، صفوان سے، العلاء سے، محمد بن مسلم سے، ان دونوں میں سے ایک سے، علیہما السلام، نے فرمایا:",
-              "zh": "阿勒·侯赛因·伊本·赛义德，传自萨夫万，传自阿勒·阿拉’，传自穆罕默德·伊本·穆斯林，传自两位中的一位， عليهما السلام，他说："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنِ الرَّجُلِ يُصَلِّي فِي زَاوِيَةِ الْحُجْرَةِ وَامْرَأَتُهُ أَوِ ابْنَتُهُ تُصَلِّي بِحِذَائِهِ فِي الزَّاوِيَةِ الْأُخْرَى، قَالَ: لَا يَنْبَغِي ذَلِكَ، وَإِنْ كَانَ بَيْنَهُمَا شِبْرٌ أَجْزَأَهُ، يَعْنِي إِذَا كَانَ الرَّجُلُ مُتَقَدِّمًا لِلْمَرْأَةِ بِشِبْرٍ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁকে এমন এক ব্যক্তি সম্পর্কে জিজ্ঞেস করলাম, যে ঘরের এক কোণে সালাত আদায় করছে, আর তার স্ত্রী বা তার মেয়ে অন্য কোণে তার পাশে সালাত আদায় করছে। তিনি বললেন: এটা উচিত নয়; তবে তাদের মধ্যে যদি এক বিঘত পরিমাণ ব্যবধান থাকে, তাহলে তা যথেষ্ট—অর্থাৎ যখন পুরুষটি নারীর চেয়ে এক বিঘত এগিয়ে থাকে।",
-              "de": "Ich fragte ihn nach einem Mann, der in einer Ecke des Zimmers betet, während seine Frau oder seine Tochter in der anderen Ecke neben ihm betet. Er sagte: Das ist nicht angemessen; doch wenn zwischen ihnen eine Spanne liegt, genügt das — das heißt, wenn der Mann der Frau um eine Spanne voraus ist.",
-              "en": "I asked him about a man praying in one corner of the room while his wife or his daughter is praying beside him in the other corner. He said: That is not appropriate; but if there is a span between them, it suffices—that is, when the man is ahead of the woman by a span.",
-              "es": "Le pregunté acerca de un hombre que reza en una esquina de la habitación mientras su esposa o su hija reza junto a él en la otra esquina. Dijo: Eso no es apropiado; pero si hay un palmo entre ellos, basta; es decir, cuando el hombre está adelantado a la mujer por un palmo.",
-              "fa": "از او درباره مردی پرسیدم که در گوشه‌ای از اتاق نماز می‌خواند در حالی که همسرش یا دخترش در گوشهٔ دیگر کنار او نماز می‌خواند. فرمود: این شایسته نیست؛ اما اگر میان آن دو یک وجب باشد، کافی است—یعنی وقتی مرد به اندازهٔ یک وجب از زن جلوتر باشد.",
-              "fr": "Je lui ai demandé au sujet d’un homme qui prie dans un coin de la pièce tandis que sa femme ou sa fille prie à côté de lui dans l’autre coin. Il dit : Cela ne convient pas ; mais s’il y a un empan entre eux, cela suffit — c’est-à-dire lorsque l’homme est en avant de la femme d’un empan.",
-              "id": "Aku bertanya kepadanya tentang seorang laki-laki yang salat di salah satu sudut kamar sementara istrinya atau putrinya salat di sisinya di sudut yang lain. Beliau bersabda: Itu tidak patut; tetapi jika di antara keduanya ada sejengkal, maka itu mencukupi—yaitu ketika laki-laki berada satu jengkal di depan perempuan.",
-              "ru": "Я спросил его о мужчине, который совершает молитву в одном углу комнаты, тогда как его жена или его дочь молится рядом с ним в другом углу. Он сказал: Это не подобает; но если между ними есть пядь, этого достаточно — то есть когда мужчина находится впереди женщины на пядь.",
-              "tr": "Ona, odanın bir köşesinde namaz kılan bir adam ile karısı ya da kızının diğer köşede onun yanında namaz kılması hakkında sordum. Buyurdu ki: Bu uygun değildir; fakat aralarında bir karış varsa yeterlidir—yani erkek kadından bir karış önde olursa.",
-              "ur": "میں نے ان سے ایک آدمی کے بارے میں پوچھا جو کمرے کے ایک کونے میں نماز پڑھ رہا ہو جبکہ اس کی بیوی یا اس کی بیٹی دوسرے کونے میں اس کے برابر نماز پڑھ رہی ہو۔ انہوں نے فرمایا: یہ مناسب نہیں؛ لیکن اگر ان کے درمیان ایک بالشت ہو تو یہ کافی ہے—یعنی جب مرد عورت سے ایک بالشت آگے ہو۔",
-              "zh": "我问他：一个男人在房间的一角礼拜，而他的妻子或女儿在另一角与他并排礼拜，这种情况如何？他说：这不合适；但如果他们之间有一拃之距，那就可以——也就是说，当男人比女人前出一拃时。"
-            },
             "word_end": 47,
             "word_start": 16
           }
@@ -83,28 +70,16 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "ابْنَتُهُ": "his daughter",
-            "امْرَأَتُهُ": "his wife",
-            "بِحِذَائِهِ": "beside him; parallel to him",
-            "زَاوِيَةِ الْحُجْرَةِ": "the corner of the room",
-            "شِبْرٌ": "a handspan; a small measure of distance",
-            "لَا يَنْبَغِي": "it is not appropriate",
-            "مُتَقَدِّمًا": "positioned ahead",
-            "يُصَلِّي": "performs salat (prayer)"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُصَلِّي",
+          "زَاوِيَةِ الْحُجْرَةِ",
+          "امْرَأَتُهُ",
+          "ابْنَتُهُ",
+          "بِحِذَائِهِ",
+          "لَا يَنْبَغِي",
+          "شِبْرٌ",
+          "مُتَقَدِّمًا"
+        ],
         "related_quran": [
           {
             "ref": "2:238",
@@ -115,32 +90,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "একই ঘরে পুরুষ ও নারীর পাশাপাশি সালাত আদায়ের বিধান কী?",
-          "de": "Wie lautet die Regelung, wenn ein Mann und eine Frau im selben Raum nebeneinander beten?",
-          "en": "What is the ruling on a man and a woman praying side by side in the same room?",
-          "es": "¿Cuál es la norma sobre que un hombre y una mujer recen uno al lado del otro en la misma habitación?",
-          "fa": "حکم نماز خواندن مرد و زن به صورت کنار هم در یک اتاق چیست؟",
-          "fr": "Quel est le jugement concernant le fait qu’un homme et une femme prient côte à côte dans la même pièce ?",
-          "id": "Apa hukum seorang laki-laki dan perempuan salat berdampingan di ruangan yang sama?",
-          "ru": "Каково постановление о том, чтобы мужчина и женщина молились бок о бок в одной комнате?",
-          "tr": "Aynı odada bir erkek ve bir kadının yan yana namaz kılmasının hükmü nedir?",
-          "ur": "ایک ہی کمرے میں مرد اور عورت کے ساتھ ساتھ نماز پڑھنے کا حکم کیا ہے؟",
-          "zh": "在同一房间里男女并排礼拜的规定是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে একই ঘরে কাছাকাছি সারিবদ্ধভাবে পুরুষ ও নারীর সালাত আদায়ের বিধান আলোচনা করা হয়েছে। এতে বোঝা যায় যে একেবারে পাশাপাশি সালাত আদায় করা উচিত নয়, এবং পুরুষের এক বিঘত এগিয়ে থাকা যথেষ্ট।",
-          "de": "Dieser Hadith behandelt die Regelung, dass ein Mann und eine Frau im selben Raum in enger Ausrichtung beten. Er zeigt, dass direkt nebeneinander zu beten nicht angemessen ist und dass es genügt, wenn der Mann um eine Spanne voraus ist.",
-          "en": "This hadith discusses the ruling of a man and a woman praying in close alignment within the same room. It indicates that praying directly side by side is not appropriate, and that a slight forward separation of the man by a handspan is sufficient.",
-          "es": "Este hadiz trata sobre la norma de que un hombre y una mujer recen en alineación cercana dentro de la misma habitación. Indica que rezar exactamente uno al lado del otro no es apropiado, y que basta con que el hombre esté adelantado un palmo.",
-          "fa": "این حدیث دربارهٔ حکم نماز خواندن مرد و زن در نزدیکی و هم‌ردیفی در یک اتاق است. بیان می‌کند که نماز خواندن دقیقاً کنار هم مناسب نیست و جلوتر بودن مرد به اندازهٔ یک وجب کافی است.",
-          "fr": "Ce hadith traite du jugement concernant un homme et une femme qui prient en alignement rapproché dans la même pièce. Il indique que prier exactement côte à côte n’est pas approprié, et qu’il suffit que l’homme soit légèrement en avant d’un empan.",
-          "id": "Hadis ini membahas hukum seorang laki-laki dan perempuan salat dalam posisi berdekatan di ruangan yang sama. Ini menunjukkan bahwa salat tepat berdampingan tidaklah patut, dan bahwa laki-laki sedikit lebih maju sejengkal sudah mencukupi.",
-          "ru": "Этот хадис касается постановления о том, как мужчина и женщина совершают молитву в близком расположении в одной комнате. В нём указывается, что молиться прямо бок о бок не подобает, и что достаточно, чтобы мужчина был впереди женщины на пядь.",
-          "tr": "Bu hadis, aynı odada bir erkek ile bir kadının yakın hizalanma içinde namaz kılmasının hükmünü ele alır. Doğrudan yan yana namaz kılmanın uygun olmadığını ve erkeğin bir karış kadar önde olmasının yeterli olduğunu belirtir.",
-          "ur": "یہ حدیث ایک ہی کمرے میں مرد اور عورت کے قریب قریب صف بندی کے ساتھ نماز پڑھنے کے حکم کے بارے میں ہے۔ اس سے معلوم ہوتا ہے کہ بالکل ساتھ ساتھ نماز پڑھنا مناسب نہیں، اور مرد کا ایک بالشت آگے ہونا کافی ہے۔",
-          "zh": "这段圣训讨论的是在同一房间里，男女近距离并排礼拜的判定。它表明，正好并肩礼拜是不合适的，而男人比女人前出一拃就足够了。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ مُعَاوِيَةَ بْنِ وَهْبٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর কাছ থেকে, মু'আবিয়াহ ইবন ওয়াহব থেকে, তিনি বলেছেন:",
-              "de": "Von ihm, von Mu'awiyah ibn Wahb, der sagte:",
-              "en": "From him, from Mu'awiyah ibn Wahb, who said:",
-              "es": "De él, de Mu'awiyah ibn Wahb, quien dijo:",
-              "fa": "از او، از معاویه بن وهب، که گفت:",
-              "fr": "De lui, de Mu'awiyah ibn Wahb, qui a dit :",
-              "id": "Darinya, dari Mu'awiyah ibn Wahb, yang berkata:",
-              "ru": "От него, от Му'авии ибн Вахба, который сказал:",
-              "tr": "Ondan, Mu'aviye ibn Vehb'den, o şöyle dedi:",
-              "ur": "ان سے، معاویہ بن وہب سے، انہوں نے کہا:",
-              "zh": "由他传自穆阿维叶·伊本·瓦赫卜，他说："
-            },
             "word_end": 6,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنْ رَجُلٍ صَلَّى الظُّهْرَ حِينَ زَالَتِ الشَّمْسُ، قَالَ: لَا بَأْسَ بِهِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁকে এমন এক ব্যক্তির সম্পর্কে জিজ্ঞেস করলাম, যে সূর্য ঢলে পড়ার সময় যুহরের সালাত আদায় করেছিল। তিনি বললেন: এতে কোনো সমস্যা নেই।",
-              "de": "Ich fragte ihn nach einem Mann, der das Zuhr-Gebet verrichtete, als die Sonne sich neigte. Er sagte: Daran ist nichts auszusetzen.",
-              "en": "I asked him about a man who performed the Zuhr prayer when the sun had declined. He said: There is no problem with it.",
-              "es": "Le pregunté acerca de un hombre que realizó la oración de Zuhr cuando el sol había declinado. Dijo: No hay problema en ello.",
-              "fa": "از او درباره مردی پرسیدم که نماز ظهر را هنگامی که خورشید زوال کرده بود، به جا آورد. فرمود: اشکالی ندارد.",
-              "fr": "Je lui ai demandé au sujet d’un homme qui avait accompli la prière de Zuhr lorsque le soleil avait décliné. Il a dit : Il n’y a aucun problème à cela.",
-              "id": "Aku bertanya kepadanya tentang seorang laki-laki yang melaksanakan salat Zuhur ketika matahari telah tergelincir. Ia berkata: Tidak ada masalah dengannya.",
-              "ru": "Я спросил его о человеке, который совершил молитву зухр, когда солнце уже склонялось. Он сказал: В этом нет ничего предосудительного.",
-              "tr": "Güneşin zeval vaktinde olduğu sırada Zuhr namazını kılan bir adam hakkında ona sordum. O, şöyle dedi: Bunun bir sakıncası yoktur.",
-              "ur": "میں نے ان سے ایک ایسے آدمی کے بارے میں پوچھا جس نے ظہر کی نماز اس وقت ادا کی جب سورج ڈھل چکا تھا۔ انہوں نے فرمایا: اس میں کوئی حرج نہیں۔",
-              "zh": "我问他关于一个人在太阳偏斜时做了晌礼拜的人。他说：这没有问题。"
-            },
             "word_end": 18,
             "word_start": 6
           }
@@ -84,27 +71,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الشَّمْسُ": "the sun; used to define the prayer time",
-            "الظُّهْرَ": "the Zuhr prayer, the midday obligatory salat",
-            "حِينَ": "when; indicating the relevant time circumstance",
-            "رَجُلٍ": "a man; the person about whom the legal ruling is being asked",
-            "زَالَتِ": "declined; passed the zenith",
-            "صَلَّى": "performed; offered the ritual prayer",
-            "لَا بَأْسَ": "no harm; an expression indicating permissibility"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رَجُلٍ",
+          "صَلَّى",
+          "الظُّهْرَ",
+          "حِينَ",
+          "زَالَتِ",
+          "الشَّمْسُ",
+          "لَا بَأْسَ"
+        ],
         "related_quran": [
           {
             "ref": "17:78",
@@ -119,32 +94,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "সূর্য ঢলে পড়ার সময় যুহরের সালাত আদায় করা কি জায়েয?",
-          "de": "Ist es erlaubt, das Zuhr-Gebet zu verrichten, wenn die Sonne sich zu neigen beginnt?",
-          "en": "Is it permissible to pray Zuhr when the sun begins to decline?",
-          "es": "¿Es lícito rezar Zuhr cuando el sol comienza a declinar?",
-          "fa": "آیا خواندن نماز ظهر هنگام زوال خورشید جایز است؟",
-          "fr": "Est-il permis d’accomplir la prière de Zuhr lorsque le soleil commence à décliner ?",
-          "id": "Apakah boleh salat Zuhur ketika matahari mulai tergelincir?",
-          "ru": "Разрешено ли совершать молитву зухр, когда солнце начинает склоняться?",
-          "tr": "Güneşin zeval vaktinde Zuhr namazı kılmak caiz midir?",
-          "ur": "کیا سورج کے ڈھلنے کے وقت ظہر کی نماز پڑھنا جائز ہے؟",
-          "zh": "太阳开始偏斜时可以做晌礼吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি সালাতুয্-যুহরের সময় সম্পর্কে একটি শরঈ বিধান প্রদান করে। এতে বোঝা যায় যে সূর্য ঢলে পড়ার সময় যুহরের সালাত আদায় করা জায়েয এবং এতে কোনো আপত্তি নেই।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung über die Zeit des salat al-Zuhr. Er zeigt, dass das Verrichten des Zuhr-Gebets zur Zeit des Sonnenneigens erlaubt und unbedenklich ist.",
-          "en": "This hadith gives a legal ruling regarding the time of salat al-Zuhr. It indicates that performing the Zuhr prayer at the time of the sun’s decline is permissible and unobjectionable.",
-          "es": "Este hadiz ofrece una norma jurídica sobre el tiempo de la salat al-Zuhr. Indica que realizar la oración de Zuhr en el momento en que el sol declina es lícito y no tiene objeción.",
-          "fa": "این حدیث حکمی فقهی درباره وقت نماز ظهر بیان می‌کند. دلالت دارد که به جا آوردن نماز ظهر در هنگام زوال خورشید جایز و بی‌اشکال است.",
-          "fr": "Ce hadith donne une règle juridique concernant le moment de la salat al-Zuhr. Il indique qu’accomplir la prière de Zuhr au moment où le soleil décline est permis et sans objection.",
-          "id": "Hadis ini memberikan hukum syariat mengenai waktu salat Zuhur. Ini menunjukkan bahwa melaksanakan salat Zuhur pada saat matahari tergelincir adalah boleh dan tidak mengapa.",
-          "ru": "Этот хадис содержит правовое постановление относительно времени салят аз-зухр. Он указывает, что совершать молитву зухр в момент склонения солнца дозволено и не вызывает возражений.",
-          "tr": "Bu hadis, salatü'z-Zuhr vaktine dair bir fıkhî hüküm verir. Güneşin zeval vaktinde Zuhr namazını kılmanın caiz ve sakıncasız olduğunu gösterir.",
-          "ur": "یہ حدیث نمازِ ظہر کے وقت کے بارے میں ایک شرعی حکم بیان کرتی ہے۔ اس سے معلوم ہوتا ہے کہ سورج کے ڈھلنے کے وقت ظہر کی نماز ادا کرنا جائز اور بے حرج ہے۔",
-          "zh": "这段圣训给出了关于晌礼时间的教法律例。它表明在太阳偏斜时做晌礼是允许的，没有问题。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

@@ -16,99 +16,47 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "سَأَلْتُهُ عَنْ يَهُودِيٍّ فَجَرَ بِمُسْلِمَةٍ، قَالَ: «يُقْتَلُ».",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আমি তাঁকে এক ইহুদি সম্পর্কে জিজ্ঞেস করলাম, যে এক মুসলিম নারীর সঙ্গে ব্যভিচার করেছিল। তিনি বললেন: \"তাকে হত্যা করা হবে।\"",
-              "de": "Ich fragte ihn nach einem Juden, der mit einer muslimischen Frau Unzucht begangen hatte. Er sagte: „Er soll getötet werden.“",
-              "en": "I asked him about a Jewish man who committed fornication with a Muslim woman. He said: \"He is to be killed.\"",
-              "es": "Le pregunté acerca de un judío que cometió fornicación con una mujer musulmana. Dijo: \"Se le dará muerte.\"",
-              "fa": "از او دربارهٔ یک مرد یهودی که با یک زن مسلمان زنا کرده بود پرسیدم. فرمود: «او کشته می‌شود.»",
-              "fr": "Je l’ai interrogé au sujet d’un Juif qui avait commis la fornication avec une femme musulmane. Il dit : « Il doit être mis à mort. »",
-              "id": "Aku bertanya kepadanya tentang seorang Yahudi yang berzina dengan seorang perempuan Muslim. Beliau bersabda: \"Ia harus dibunuh.\"",
-              "ru": "Я спросил его о иудее, который совершил прелюбодеяние с мусульманкой. Он сказал: «Его следует убить».",
-              "tr": "Ona, bir Müslüman kadınla zina eden bir Yahudi hakkında sordum. Buyurdu ki: \"O öldürülür.\"",
-              "ur": "میں نے اس سے ایک یہودی کے بارے میں پوچھا جس نے ایک مسلمان عورت کے ساتھ زنا کیا تھا۔ اس نے فرمایا: \"اسے قتل کیا جائے گا۔\"",
-              "zh": "我问他关于一个与穆斯林妇女通奸的犹太人。他说：“应当处死他。”"
-            },
             "word_end": 7,
             "word_start": 0
           },
           {
             "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ أَحْمَدَ بْنِ يَحْيَى عَنْ جَعْفَرِ بْنِ رِزْقِ اللَّهِ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন ইয়াহইয়া, মুহাম্মদ ইবন আহমদ ইবন ইয়াহইয়া থেকে, তিনি জাফর ইবন রিজক আল্লাহ থেকে, তিনি বলেন:",
-              "de": "Muḥammad ibn Yaḥyā, von Muḥammad ibn Aḥmad ibn Yaḥyā, von Jaʿfar ibn Rizq Allāh, der sagte:",
-              "en": "Muḥammad ibn Yaḥyā, from Muḥammad ibn Aḥmad ibn Yaḥyā, from Jaʿfar ibn Rizq Allāh, who said:",
-              "es": "Muḥammad ibn Yaḥyā, de Muḥammad ibn Aḥmad ibn Yaḥyā, de Jaʿfar ibn Rizq Allāh, quien dijo:",
-              "fa": "محمد بن یحیی، از محمد بن احمد بن یحیی، از جعفر بن رزق‌الله، که گفت:",
-              "fr": "Muḥammad ibn Yaḥyā, d’après Muḥammad ibn Aḥmad ibn Yaḥyā, d’après Jaʿfar ibn Rizq Allāh, qui a dit :",
-              "id": "Muḥammad ibn Yaḥyā, dari Muḥammad ibn Aḥmad ibn Yaḥyā, dari Jaʿfar ibn Rizq Allāh, yang berkata:",
-              "ru": "Мухаммад ибн Яхья, от Мухаммада ибн Ахада ибн Яхьи, от Джафара ибн Ризк Аллаха, который сказал:",
-              "tr": "Muhammed ibn Yahyâ, Muhammed ibn Ahmed ibn Yahyâ’dan, o da Ca‘fer ibn Rizk Allâh’dan rivayet etti ki şöyle dedi:",
-              "ur": "محمد بن یحیی، محمد بن احمد بن یحیی سے، وہ جعفر بن رزق اللہ سے، انہوں نے کہا:",
-              "zh": "穆罕默德·本·叶海亚，传自穆罕默德·本·艾哈迈德·本·叶海亚，传自贾法尔·本·里兹克·阿拉，他说："
-            },
             "word_end": 22,
             "word_start": 7
           },
           {
             "arabic_text": "قُدِّمَ إِلَى الْمُتَوَكِّلِ رَجُلٌ نَصْرَانِيٌّ فَجَرَ بِامْرَأَةٍ مُسْلِمَةٍ، وَأَرَادَ أَنْ يُقِيمَ عَلَيْهِ الْحَدَّ فَأَسْلَمَ، فَقَالَ يَحْيَى بْنُ أَكْثَمَ: قَدْ هَدَمَ إِيمَانُهُ شِرْكَهُ وَفِعْلَهُ، وَقَالَ بَعْضُهُمْ: يُضْرَبُ ثَلَاثَةَ حُدُودٍ، وَقَالَ بَعْضُهُمْ: يُفْعَلُ بِهِ كَذَا وَكَذَا، فَأَمَرَ الْمُتَوَكِّلُ بِالْكِتَابِ إِلَى أَبِي الْحَسَنِ الثَّالِثِ عَلَيْهِ السَّلَامُ وَسُؤَالِهِ عَنْ ذَلِكَ، فَلَمَّا قَدِمَ الْكِتَابُ كَتَبَ عَلَيْهِ السَّلَامُ: «يُضْرَبُ حَتَّى يَمُوتَ». فَأَنْكَرَ يَحْيَى بْنُ أَكْثَمَ، وَأَنْكَرَ فُقَهَاءُ الْعَسْكَرِ ذَلِكَ، وَقَالُوا: يَا أَمِيرَ الْمُؤْمِنِينَ، يُسْأَلُ عَنْ هَذَا، فَإِنَّهُ شَيْءٌ لَمْ يَنْطِقْ بِهِ الْكِتَابُ وَلَمْ تَجِئْ بِهِ سُنَّةٌ. فَكَتَبَ إِلَيْهِ أَنَّ فُقَهَاءَ الْمُسْلِمِينَ قَدْ أَنْكَرُوا هَذَا وَقَالُوا: لَمْ تَجِئْ بِهِ سُنَّةٌ وَلَمْ يَنْطِقْ بِهِ كِتَابٌ، فَبَيِّنْ لَنَا بِمَا أَوْجَبْتَ عَلَيْهِ الضَّرْبَ حَتَّى يَمُوتَ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন নাসরানি পুরুষ, যে এক মুসলিম নারীর সঙ্গে ব্যভিচার করেছিল, তাকে আল-মুতাওয়াক্কিলের সামনে হাজির করা হয়। তিনি তার ওপর হদ্দ কার্যকর করতে চেয়েছিলেন, কিন্তু লোকটি ইসলাম গ্রহণ করল। ইয়াহইয়া ইবন আকথম বললেন: \"তার ঈমান তার শির্ক ও তার কাজকে ধ্বংস করে দিয়েছে।\" তাদের কেউ কেউ বলল: \"তার ওপর তিনটি হদ্দ প্রয়োগ করা হবে,\" এবং কেউ কেউ বলল: \"তার সঙ্গে এ-রকম ও সে-রকম করা হবে।\" তখন আল-মুতাওয়াক্কিল আবু আল-হাসান আল-থালিথ عليه السلام-এর কাছে এ বিষয়ে জিজ্ঞাসা করার জন্য একটি চিঠি লিখতে আদেশ দিলেন। চিঠি পৌঁছালে তিনি عليه السلام লিখলেন: \"তাকে মারা হবে, যতক্ষণ না সে মারা যায়।\" ইয়াহইয়া ইবন আকথম এতে আপত্তি করলেন, এবং সেনাছাউনির ফকীহরাও আপত্তি করলেন, এবং তারা বলল: \"হে আমীরুল মুমিনীন, এ বিষয়ে তাকে জিজ্ঞাসা করা হোক, কারণ এটি এমন একটি বিষয় যা না কিতাব বলেছে, না কোনো সুন্নাহ এনেছে।\" তখন তার কাছে লেখা হলো যে মুসলিমদের ফকীহরা এ বিষয়ে আপত্তি করেছে এবং বলেছে: \"এ বিষয়ে কোনো সুন্নাহ আসেনি, এবং কোনো কিতাবও বলেনি; অতএব আমাদের স্পষ্ট করে বলুন, কোন ভিত্তিতে আপনি তার ওপর মৃত্যু পর্যন্ত প্রহারকে ওয়াজিব করেছেন।\"",
-              "de": "Ein christlicher Mann, der mit einer muslimischen Frau Unzucht begangen hatte, wurde vor al-Mutawakkil gebracht. Er wollte die Hadd-Strafe gegen ihn vollstrecken, doch der Mann nahm den Islam an. Yaḥyā ibn Aktham sagte: „Sein Glaube hat seinen Schirk und seine Tat zunichtegemacht.“ Einige sagten: „Ihm sollen drei Hadd-Strafen auferlegt werden“, und einige sagten: „Mit ihm soll dies und das getan werden.“ Da ordnete al-Mutawakkil an, einen Brief an Abū al-Ḥasan al-Thālith عليه السلام zu schreiben und ihn darüber zu befragen. Als der Brief eintraf, schrieb er عليه السلام: „Er soll geschlagen werden, bis er stirbt.“ Yaḥyā ibn Aktham widersprach dem, und auch die Rechtsgelehrten des Heeres widersprachen und sagten: „O Befehlshaber der Gläubigen, man soll ihn darüber befragen, denn es ist etwas, worüber weder das Buch gesprochen hat noch eine sunnah gekommen ist.“ So schrieb man ihm, dass die Rechtsgelehrten der Muslime dies beanstandet hätten und gesagt hätten: „Weder hat eine sunnah dies gebracht, noch hat ein Buch davon gesprochen; so erkläre uns, auf welcher Grundlage du das Schlagen bis zum Tod für ihn verpflichtend gemacht hast.“",
-              "en": "A Christian man who had committed fornication with a Muslim woman was brought before al-Mutawakkil. He wanted to carry out the hadd punishment against him, but the man accepted Islam. Yaḥyā ibn Aktham said: \"His faith has demolished his shirk and his act.\" Some of them said: \"He should be given three hadd punishments,\" and some of them said: \"Such-and-such should be done to him.\" So al-Mutawakkil ordered that a letter be sent to Abū al-Ḥasan al-Thālith عليه السلام asking him about that. When the letter arrived, he عليه السلام wrote: \"He is to be beaten until he dies.\" Yaḥyā ibn Aktham objected, and the jurists of the garrison objected as well, and they said: \"O Commander of the Faithful, he should be asked about this, for it is something that neither the Book has spoken of nor has any sunnah brought.\" So he wrote to him that the jurists of the Muslims had objected to this and said: \"No sunnah has brought it, and no Book has spoken of it; so explain to us on what basis you made beating incumbent upon him until he dies.\"",
-              "es": "Un hombre cristiano que había cometido fornicación con una mujer musulmana fue llevado ante al-Mutawakkil. Quiso aplicar contra él la pena hadd, pero el hombre aceptó el Islam. Yaḥyā ibn Aktham dijo: \"Su fe ha demolido su shirk y su acto.\" Algunos dijeron: \"Se le aplicarán tres penas hadd\", y algunos dijeron: \"Se hará con él tal y tal cosa.\" Entonces al-Mutawakkil ordenó que se escribiera una carta a Abū al-Ḥasan al-Thālith عليه السلام para preguntarle sobre ذلك. Cuando llegó la carta, él عليه السلام escribió: \"Se le golpeará hasta que muera.\" Yaḥyā ibn Aktham lo objetó, y los juristas de la guarnición también lo objetaron, y dijeron: \"¡Oh Comandante de los Creyentes!, que se le pregunte sobre esto, pues es algo que ni el Libro ha mencionado ni ninguna sunnah ha traído.\" Entonces le escribió que los juristas de los musulmanes habían objetado esto y dijeron: \"Ni una sunnah lo ha traído ni un Libro lo ha mencionado; así que explícanos sobre qué base hiciste obligatorio golpearlo hasta que muera.\"",
-              "fa": "مردی نصرانی که با زنی مسلمان زنا کرده بود، نزد متوکل آورده شد. او می‌خواست حد را بر او جاری کند، اما آن مرد اسلام آورد. یحیی بن اکثم گفت: «ایمان او شرک و عملش را از میان برده است.» برخی گفتند: «سه حد بر او زده می‌شود»، و برخی گفتند: «چنین و چنان با او رفتار می‌شود.» پس متوکل فرمان داد نامه‌ای به ابوالحسن الثالث علیه السلام نوشته شود و از او دربارهٔ این موضوع پرسش گردد. چون نامه رسید، او علیه السلام نوشت: «او را بزنید تا بمیرد.» یحیی بن اکثم بر این اعتراض کرد و فقیهانِ لشکر نیز اعتراض کردند و گفتند: «ای امیر مؤمنان، دربارهٔ این از او پرسیده شود، زیرا چیزی است که نه کتاب درباره‌اش سخن گفته و نه سنتی آن را آورده است.» پس به او نوشت که فقیهان مسلمان به این اعتراض کرده‌اند و گفته‌اند: «نه سنتی آن را آورده و نه کتابی درباره‌اش سخن گفته است؛ پس برای ما روشن کن که بر چه اساس، زدن او را تا مرگ بر او واجب کردی.»",
-              "fr": "Un homme chrétien qui avait commis la fornication avec une femme musulmane fut amené devant al-Mutawakkil. Il voulut appliquer contre lui la peine de hadd, mais l’homme embrassa l’islam. Yaḥyā ibn Aktham dit : « Sa foi a détruit son shirk et son acte. » Certains dirent : « On lui infligera trois peines de hadd », et d’autres dirent : « On fera contre lui ceci et cela. » Alors al-Mutawakkil ordonna qu’une lettre soit écrite à Abū al-Ḥasan al-Thālith عليه السلام pour l’interroger à ce sujet. Lorsque la lettre arriva, il عليه السلام écrivit : « Il sera battu jusqu’à ce qu’il meure. » Yaḥyā ibn Aktham s’y opposa, et les juristes de la garnison s’y opposèrent également, disant : « Ô Commandeur des Croyants, qu’on l’interroge à ce sujet, car c’est une chose dont ni le Livre n’a parlé ni aucune sunnah n’est venue. » Il lui écrivit alors que les juristes des musulmans avaient contesté cela et avaient dit : « Ni une sunnah ne l’a apporté, ni un Livre n’en a parlé ; explique-nous donc sur quelle base tu as rendu obligatoire de le battre jusqu’à ce qu’il meure. »",
-              "id": "Seorang lelaki Nasrani yang berzina dengan seorang perempuan Muslim dibawa menghadap al-Mutawakkil. Ia ingin menegakkan hadd atasnya, tetapi lelaki itu masuk Islam. Yahyā ibn Aktham berkata: \"Imannya telah menghancurkan syiriknya dan perbuatannya.\" Sebagian mereka berkata: \"Ia harus dikenai tiga hadd,\" dan sebagian mereka berkata: \"Harus dilakukan kepadanya ini dan itu.\" Maka al-Mutawakkil memerintahkan agar surat dikirim kepada Abū al-Ḥasan al-Thālith عليه السلام untuk menanyakan hal itu. Ketika surat itu tiba, beliau عليه السلام menulis: \"Ia harus dipukul sampai mati.\" Yahyā ibn Aktham mengingkari hal itu, dan para fuqaha pasukan juga mengingkarinya, lalu mereka berkata: \"Wahai أمير المؤمنين, hendaklah ditanyakan tentang ini, karena ini adalah sesuatu yang tidak disebutkan oleh Kitab dan tidak pula dibawa oleh sunnah.\" Maka ia menulis kepadanya bahwa para fuqaha kaum Muslimin telah mengingkari hal ini dan berkata: \"Tidak ada sunnah yang membawanya, dan tidak ada Kitab yang menyebutkannya; maka jelaskan kepada kami atas dasar apa engkau mewajibkan pemukulan atasnya sampai mati.\"",
-              "ru": "К аль-Мутаваккилю привели христианина, который совершил прелюбодеяние с мусульманкой. Он хотел применить к нему наказание хадд, но тот человек принял ислам. Яхья ибн Аксам сказал: «Его вера уничтожила его ширк и его поступок». Некоторые сказали: «Ему следует назначить три наказания хадд», а некоторые сказали: «С ним следует поступить так-то и так-то». Тогда аль-Мутаваккиль велел написать письмо Абу аль-Хасану аль-Талису عليه السلام и спросить его об этом. Когда письмо дошло, он عليه السلام написал: «Его следует бить, пока он не умрёт». Яхья ибн Аксам возразил, и факихи гарнизона тоже возразили, сказав: «О повелитель правоверных, следует спросить его об этом, ибо это то, о чём не говорил ни Писание, ни не принесла никакая сунна». Тогда ему написали, что факихи мусульман возразили этому и сказали: «Ни одна сунна этого не принесла, и ни одно Писание об этом не говорило; так разъясни нам, на каком основании ты обязал бить его до смерти».",
-              "tr": "Bir Müslüman kadınla zina etmiş bir Hristiyan adam el-Mütevekkil’in huzuruna getirildi. Ona hadd cezasını uygulamak istiyordu; fakat adam İslam’ı kabul etti. Yahyâ ibn Ekthem dedi ki: \"Onun imanı, şirkini ve yaptığını ortadan kaldırdı.\" Bazıları: \"Ona üç hadd cezası uygulanır\" dedi; bazıları da: \"Onun hakkında şöyle şöyle yapılır\" dedi. Bunun üzerine el-Mütevekkil, Ebû’l-Hasan es-Sâlis عليه السلام’a bir mektup yazılmasını ve bu konuda ona sorulmasını emretti. Mektup ulaşınca, o عليه السلام şöyle yazdı: \"Ölünceye kadar dövülür.\" Yahyâ ibn Ekthem buna itiraz etti; garnizonun fakihleri de itiraz ettiler ve dediler ki: \"Ey Müminlerin Emiri, bu konuda ona sorulsun; çünkü bu, ne Kitap’ta zikredilmiştir ne de herhangi bir sünnet bunu getirmiştir.\" Bunun üzerine ona, Müslümanların fakihlerinin buna itiraz ettiği ve şöyle dedikleri yazıldı: \"Bunu ne bir sünnet getirmiştir ne de bir Kitap söylemiştir; öyleyse ölünceye kadar ona vurmayı hangi delille vacip kıldığını bize açıkla.\"",
-              "ur": "ایک نصرانی مرد جس نے ایک مسلمان عورت کے ساتھ زنا کیا تھا، المتوکل کے سامنے پیش کیا گیا۔ وہ اس پر حد قائم کرنا چاہتا تھا، لیکن اس شخص نے اسلام قبول کر لیا۔ یحییٰ بن اکثم نے کہا: \"اس کے ایمان نے اس کے شرک اور اس کے فعل کو مٹا دیا ہے۔\" بعض نے کہا: \"اس پر تین حدیں لگائی جائیں گی\"، اور بعض نے کہا: \"اس کے ساتھ یوں اور یوں کیا جائے۔\" چنانچہ المتوکل نے ابو الحسن الثالث علیہ السلام کی طرف خط لکھنے اور اس بارے میں ان سے پوچھنے کا حکم دیا۔ جب خط پہنچا تو انہوں نے علیہ السلام لکھا: \"اسے مارا جائے یہاں تک کہ وہ مر جائے۔\" یحییٰ بن اکثم نے اس پر اعتراض کیا، اور لشکر کے فقہاء نے بھی اعتراض کیا، اور انہوں نے کہا: \"اے امیر المؤمنین، اس کے بارے میں پوچھا جائے، کیونکہ یہ ایسی چیز ہے جس کا نہ کتاب نے ذکر کیا ہے اور نہ کسی سنت نے اسے بیان کیا ہے۔\" پھر اس نے ان کی طرف لکھا کہ مسلمانوں کے فقہاء نے اس پر اعتراض کیا ہے اور کہا ہے: \"نہ اس کے بارے میں کوئی سنت آئی ہے اور نہ کوئی کتاب بولی ہے؛ پس ہمیں واضح کریں کہ آپ نے کس بنیاد پر اس پر مار کو واجب قرار دیا یہاں تک کہ وہ مر جائے۔\"",
-              "zh": "一个曾与穆斯林妇女通奸的基督徒男子被带到穆塔瓦基勒面前。他想对他执行哈德刑罚，但那人接受了伊斯兰。叶海亚·本·阿克萨姆说：“他的信仰已经摧毁了他的举伴行为和他的所作所为。”有人说：“应当对他施以三种哈德刑罚。”也有人说：“应当对他这样那样处置。”于是穆塔瓦基勒命人写信给阿布·哈桑·第三 عليه السلام，向他询问此事。信到达后，他 عليه السلام写道：“应当鞭打他，直到他死去。”叶海亚·本·阿克萨姆对此表示反对，驻军的法学家们也表示反对，并说：“信士的长官啊，应当就此事询问他，因为这是《经典》没有说过、任何圣训也没有带来的事情。”于是又写信告诉他，穆斯林的法学家们已经反对此事，并说：“没有任何圣训带来过它，也没有任何经典说过它；那么请向我们说明，你是根据什么使鞭打他直到死亡成为必行的。”"
-            },
             "word_end": 127,
             "word_start": 22
           },
           {
             "arabic_text": "فَكَتَبَ عَلَيْهِ السَّلَامُ: «بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ * فَلَمَّا رَأَوْا بَأْسَنَا قَالُوا آمَنَّا بِاللَّهِ وَحْدَهُ وَكَفَرْنَا بِمَا كُنَّا بِهِ مُشْرِكِينَ * فَلَمْ يَكُ يَنْفَعُهُمْ إِيمَانُهُمْ لَمَّا رَأَوْا بَأْسَنَا سُنَّتَ اللَّهِ الَّتِي قَدْ خَلَتْ فِي عِبَادِهِ وَخَسِرَ هُنَالِكَ الْكَافِرُونَ»",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "তখন তিনি عليه السلام লিখলেন: \"পরম করুণাময়, অসীম দয়ালু আল্লাহর নামে। অতঃপর যখন তারা আমাদের শাস্তি দেখল, তারা বলল: আমরা একমাত্র আল্লাহর প্রতি ঈমান আনলাম এবং যাদেরকে আমরা তাঁর শরিক করতাম তাদের অস্বীকার করলাম। কিন্তু যখন তারা আমাদের শাস্তি দেখল, তখন তাদের ঈমান তাদের কোনো উপকারে আসল না—এটি আল্লাহর সেই সুন্নাহ, যা তাঁর বান্দাদের মধ্যে পূর্বেই অতিবাহিত হয়েছে—এবং সেখানে কাফিররা ক্ষতিগ্রস্ত হলো।\"",
-              "de": "Da schrieb er عليه السلام: „Im Namen Allahs, des Allerbarmers, des Barmherzigen. Als sie dann Unsere Strafe sahen, sagten sie: Wir glauben an Allah allein und verleugnen das, was wir Ihm beigesellten. Doch ihr Glaube nützte ihnen nichts, als sie Unsere Strafe sahen — dies ist die sunnah Allahs, die unter Seinen Dienern bereits vergangen ist — und dort waren die Ungläubigen die Verlierer.“",
-              "en": "So he عليه السلام wrote: \"In the Name of Allah, the All-beneficent, the All-merciful. Then, when they saw Our punishment, they said: We believe in Allah alone, and we disbelieve in that which we used to associate with Him. But their faith did not benefit them when they saw Our punishment—the sunnah of Allah which had already passed among His servants—and there the disbelievers lost.\"",
-              "es": "Entonces él عليه السلام escribió: \"En el nombre de Allah, el Todo Misericordioso, el Muy Misericordioso. Luego, cuando vieron Nuestro castigo, dijeron: Creemos en Allah solo, y negamos aquello que solíamos asociar con Él. Pero su fe no les benefició cuando vieron Nuestro castigo: la sunnah de Allah que ya había pasado entre Sus siervos—y allí los incrédulos perdieron.\"",
-              "fa": "پس او علیه السلام نوشت: «به نام خداوند رحمان و رحیم. پس چون عذاب ما را دیدند، گفتند: ما به تنهایی به خدا ایمان آوردیم و آنچه را که پیش‌تر برای او شریک می‌گرفتیم انکار کردیم. اما هنگامی که عذاب ما را دیدند، ایمانشان برایشان سودی نداشت—این سنت خداست که پیش‌تر در میان بندگانش گذشته است—و در آنجا کافران زیان کردند.»",
-              "fr": "Alors il عليه السلام écrivit : « Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux. Puis, lorsqu’ils virent Notre châtiment, ils dirent : Nous croyons en Allah seul, et nous renions ce que nous Lui associions. Mais leur foi ne leur fut d’aucun profit lorsqu’ils virent Notre châtiment — telle est la sunnah d’Allah qui a déjà précédé parmi Ses serviteurs — et là les mécréants furent perdants. »",
-              "id": "Maka beliau عليه السلام menulis: \"Dengan nama Allah, Yang Maha Pengasih, Maha Penyayang. Maka ketika mereka melihat azab Kami, mereka berkata: Kami beriman kepada Allah semata, dan kami mengingkari apa yang dahulu kami sekutukan dengan-Nya. Tetapi iman mereka tidak bermanfaat bagi mereka ketika mereka melihat azab Kami—itulah sunnah Allah yang telah berlalu pada hamba-hamba-Nya—dan di sana orang-orang kafir merugi.\"",
-              "ru": "Тогда он عليه السلام написал: «Во имя Аллаха, Милостивого, Милосердного. Когда же они увидели Наше наказание, они сказали: Мы уверовали в Аллаха одного и отвергли то, что мы прежде приобщали Ему в сотоварищи. Но их вера не принесла им пользы, когда они увидели Наше наказание — такова сунна Аллаха, которая уже прошла среди Его рабов, — и там неверующие потерпели убыток».",
-              "tr": "Bunun üzerine o عليه السلام şöyle yazdı: \"Rahmân ve Rahîm olan Allah’ın adıyla. Sonra onlar azabımızı görünce dediler ki: Biz yalnızca Allah’a iman ettik ve O’na ortak koştuğumuz şeyleri inkâr ettik. Fakat azabımızı gördükleri zaman imanları onlara fayda vermedi—bu, kulları arasında daha önce de geçmiş olan Allah’ın sünnetidir—ve orada kâfirler hüsrana uğradı.\"",
-              "ur": "پس انہوں نے علیہ السلام لکھا: \"اللہ کے نام سے، جو بڑا مہربان، نہایت رحم کرنے والا ہے۔ پھر جب انہوں نے ہمارا عذاب دیکھا تو کہنے لگے: ہم اللہ وحدہٗ پر ایمان لائے اور جنہیں ہم اس کا شریک ٹھہراتے تھے ان کا انکار کیا۔ لیکن جب انہوں نے ہمارا عذاب دیکھ لیا تو ان کا ایمان انہیں کوئی فائدہ نہ دے سکا—یہ اللہ کی سنت ہے جو اس کے بندوں میں پہلے سے جاری ہے—اور وہاں کافر خسارے میں پڑ گئے۔\"",
-              "zh": "于是他 عليه السلام写道：“奉至仁至慈的真主之名。然后，当他们看见我们的刑罚时，他们说：我们只信仰真主，并否认我们曾经以之与他并列的那些东西。但当他们看见我们的刑罚时，他们的信仰并没有使他们受益——这是真主在其仆人中早已施行过的常道——在那里，不信道者遭受了亏折。”"
-            },
             "word_end": 165,
             "word_start": 127
           },
           {
             "arabic_text": "قَالَ: فَأَمَرَ بِهِ الْمُتَوَكِّلُ فَضُرِبَ حَتَّى مَاتَ.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তিনি বললেন: অতঃপর আল-মুতাওয়াক্কিল তার ব্যাপারে আদেশ দিলেন, এবং তাকে প্রহার করা হলো, এমনকি সে মারা গেল।",
-              "de": "Er sagte: Da befahl al-Mutawakkil in seiner Angelegenheit, und er wurde geschlagen, bis er starb.",
-              "en": "He said: So al-Mutawakkil ordered concerning him, and he was beaten until he died.",
-              "es": "Dijo: Entonces al-Mutawakkil ordenó respecto de él, y fue golpeado hasta que murió.",
-              "fa": "گفت: پس متوکل دربارهٔ او دستور داد و او را زدند تا مرد.",
-              "fr": "Il dit : Alors al-Mutawakkil donna l’ordre à son sujet, et il fut frappé jusqu’à ce qu’il mourût.",
-              "id": "Ia berkata: Maka al-Mutawakkil memerintahkan tentang dirinya, lalu ia dipukul hingga mati.",
-              "ru": "Он сказал: Тогда аль-Мутаваккиль отдал приказ относительно него, и его били, пока он не умер.",
-              "tr": "Dedi ki: Bunun üzerine el-Mütevekkil onun hakkında emir verdi ve ölünceye kadar dövüldü.",
-              "ur": "انہوں نے کہا: پھر المتوکل نے اس کے بارے میں حکم دیا، اور اسے مارا گیا یہاں تک کہ وہ مر گیا۔",
-              "zh": "他说：于是穆塔瓦基勒就此下令，他被鞭打直到死去。"
-            },
             "word_end": 172,
             "word_start": 165
           }
@@ -172,28 +120,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَسْلَمَ": "he accepted Islam",
-            "إِيمَانُهُمْ": "their faith",
-            "الْحَدَّ": "the prescribed legal punishment",
-            "بَأْسَنَا": "Our punishment or might",
-            "سُنَّةٌ": "an authoritative transmitted precedent",
-            "شِرْكَهُ": "his prior association of partners with Allah",
-            "فَجَرَ": "committed fornication",
-            "يُضْرَبُ": "he is to be beaten"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "فَجَرَ",
+          "الْحَدَّ",
+          "أَسْلَمَ",
+          "شِرْكَهُ",
+          "سُنَّةٌ",
+          "بَأْسَنَا",
+          "إِيمَانُهُمْ",
+          "يُضْرَبُ"
+        ],
         "related_quran": [
           {
             "ref": "40:84",
@@ -204,32 +140,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে যে অমুসলিম পুরুষ মুসলিম নারীর সঙ্গে ব্যভিচার করে এবং পরে ইসলাম গ্রহণ করে, তার বিধান কী?",
-          "de": "Wie lautet die Regel im schiitischen Hadith über einen nichtmuslimischen Mann, der mit einer muslimischen Frau Unzucht begeht und dann den Islam annimmt?",
-          "en": "What is the ruling in Shia hadith on a non-Muslim man who fornicates with a Muslim woman and then accepts Islam?",
-          "es": "¿Cuál es la norma en el hadiz chií sobre un hombre no musulmán que comete fornicación con una mujer musulmana y luego acepta el Islam?",
-          "fa": "در حدیث شیعه، حکم مرد غیرمسلمی که با زن مسلمان زنا کند و سپس اسلام بیاورد چیست؟",
-          "fr": "Quelle est la règle dans le hadith chiite concernant un homme non musulman qui commet la fornication avec une femme musulmane puis embrasse l’islam ?",
-          "id": "Apa حكم dalam hadis Syiah bagi seorang lelaki non-Muslim yang berzina dengan perempuan Muslim lalu masuk Islam?",
-          "ru": "Каково постановление в шиитском хадисе о немусульманине, который совершает прелюбодеяние с мусульманкой, а затем принимает ислам?",
-          "tr": "Şii hadiste, Müslüman bir kadınla zina eden ve sonra İslam’ı kabul eden gayrimüslim bir erkeğin hükmü nedir?",
-          "ur": "شیعہ حدیث میں اس غیر مسلم مرد کا کیا حکم ہے جو مسلمان عورت کے ساتھ زنا کرے اور پھر اسلام قبول کر لے؟",
-          "zh": "什叶派圣训中，非穆斯林男子与穆斯林妇女通奸后又接受伊斯兰的判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনাটি এমন এক অমুসলিম পুরুষের শরঈ বিধান সম্পর্কে, যে এক মুসলিম নারীর সঙ্গে ব্যভিচার করেছিল এবং শাস্তি কার্যকর হওয়ার আগে ইসলাম গ্রহণ করেছিল। আবু আল-হাসান আল-থালিথ عليه السلام কুরআনের আয়াত উদ্ধৃত করে এই বিধানকে সমর্থন করেন, যা দেখায় যে আল্লাহর শাস্তি উপস্থিত হলে ঈমান উপকার করে না।",
-          "de": "Dieser Bericht behandelt die rechtliche Regelung für einen nichtmuslimischen Mann, der mit einer muslimischen Frau Unzucht beging und dann vor der Vollstreckung der Strafe den Islam annahm. Abū al-Ḥasan al-Thālith عليه السلام stützt die Regelung mit Qur’an-Versen, die zeigen, dass Glaube im Moment der göttlichen Strafe keinen Nutzen bringt.",
-          "en": "This report concerns the legal ruling on a non-Muslim man who committed fornication with a Muslim woman and then accepted Islam when punishment was about to be carried out. Abū al-Ḥasan al-Thālith عليه السلام supports the ruling by citing Qur'anic verses that indicate faith at the moment of divine punishment does not bring benefit. The narration presents a judicial decision grounded in Qur'anic proof.",
-          "es": "Este relato trata sobre la norma jurídica relativa a un hombre no musulmán que cometió fornicación con una mujer musulmana y luego aceptó el Islam antes de que se ejecutara el castigo. Abū al-Ḥasan al-Thālith عليه السلام apoya la norma citando versículos coránicos que indican que la fe en el momento del castigo divino no beneficia.",
-          "fa": "این روایت دربارهٔ حکم شرعیِ مردی غیرمسلمان است که با زنی مسلمان زنا کرد و پیش از اجرای مجازات اسلام آورد. ابوالحسن الثالث علیه السلام این حکم را با استناد به آیات قرآن تأیید می‌کند که نشان می‌دهد ایمان در لحظهٔ عذاب الهی سودی ندارد.",
-          "fr": "Ce récit concerne la règle juridique relative à un homme non musulman qui a commis la fornication avec une femme musulmane puis a embrassé l’islam avant l’exécution de la peine. Abū al-Ḥasan al-Thālith عليه السلام appuie cette règle en citant des versets coraniques indiquant que la foi au moment du châtiment divin n’apporte aucun profit.",
-          "id": "Riwayat ini membahas حكم fikih tentang seorang lelaki non-Muslim yang berzina dengan seorang perempuan Muslim lalu masuk Islam sebelum hukuman dilaksanakan. Abū al-Ḥasan al-Thālith عليه السلام mendukung حكم itu dengan ayat-ayat Al-Qur'an yang menunjukkan bahwa iman pada saat azab Ilahi tidak memberi manfaat.",
-          "ru": "Этот рассказ касается правового постановления о немусульманине, который совершил прелюбодеяние с мусульманкой и затем принял ислам до исполнения наказания. Абу аль-Хасан аль-Талис عليه السلام подтверждает это постановление, приводя аяты Корана, указывающие, что вера в момент божественного наказания не приносит пользы.",
-          "tr": "Bu rivayet, bir gayrimüslim erkeğin Müslüman bir kadınla zina etmesi ve ceza uygulanmadan önce İslam’ı kabul etmesi hakkındaki fıkhî hükmü konu eder. Ebû’l-Hasan es-Sâlis عليه السلام, ilahî azap anında gelen imanın fayda vermediğini gösteren Kur’an ayetleriyle hükmü destekler.",
-          "ur": "یہ روایت اس شرعی حکم کے بارے میں ہے کہ ایک غیر مسلم مرد نے مسلمان عورت کے ساتھ زنا کیا اور سزا نافذ ہونے سے پہلے اسلام قبول کر لیا۔ ابو الحسن الثالث علیہ السلام قرآن کی آیات سے استدلال کرتے ہیں کہ عذابِ الٰہی کے وقت ایمان لانا فائدہ نہیں دیتا۔",
-          "zh": "这段传述涉及一名非穆斯林男子与穆斯林妇女通奸，并在刑罚执行前接受伊斯兰的法律判决。阿布·哈桑·第三 عليه السلام以《古兰经》经文支持这一判决，说明在真主刑罚降临之时的信仰并无益处。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

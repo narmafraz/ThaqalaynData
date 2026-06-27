@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى غِيَاثُ بْنُ إِبْرَاهِيمَ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ أَبِيهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ঘিয়াস ইবনে ইব্রাহীম জাফর ইবনে মুহাম্মদ থেকে, তার পিতা عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Ghiyāth ibn Ibrāhīm berichtete von Jaʿfar ibn Muḥammad, von seinem Vater عليه السلام, der sagte:",
-              "en": "Ghiyāth ibn Ibrāhīm narrated from Jaʿfar ibn Muḥammad, from his father عليه السلام, who said:",
-              "es": "Ghiyāth ibn Ibrāhīm narró de Jaʿfar ibn Muḥammad, de su padre عليه السلام, quien dijo:",
-              "fa": "غیاث بن ابراهیم از جعفر بن محمد، از پدرش علیه السلام نقل کرد که گفت:",
-              "fr": "Ghiyāth ibn Ibrāhīm a rapporté de Jaʿfar ibn Muḥammad, de son père عليه السلام, qui a dit :",
-              "id": "Ghiyāth ibn Ibrāhīm meriwayatkan dari Jaʿfar ibn Muḥammad, dari ayahnya علیه السلام, yang berkata:",
-              "ru": "Гияс ибн Ибрахим передал от Джаʿфара ибн Мухаммада, от его отца عليه السلام, который сказал:",
-              "tr": "Ghiyāth ibn Ibrāhīm, babası Jaʿfar ibn Muḥammad'dan, onun babasından عليه السلام şöyle rivayet etti:",
-              "ur": "غیاث ابن ابراہیم نے جعفر ابن محمد سے روایت کی، ان کے والد علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "غیاثبنابراهیمازجعفربنمحمدازپدرعلیهالسلامگفت:"
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ عَلِيٌّ عَلَيْهِ السَّلَامُ: «لَا بَأْسَ أَنْ لَا تَخْتَتِنَ الْمَرْأَةُ فَأَمَّا الرَّجُلُ فَلَا بُدَّ مِنْهُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "ʿAlī عليه السلام বলেছেন: “মহিলার জন্য খতনা না করানো কোনো ক্ষতি নেই, কিন্তু পুরুষের জন্য এটি আবশ্যক।”",
-              "de": "ʿAlī عليه السلام sagte: „Es ist kein Schaden, wenn eine Frau nicht beschnitten wird, aber für einen Mann ist es notwendig.“",
-              "en": "ʿAlī عليه السلام said: “There is no harm if a woman is not circumcised, but as for a man, it is necessary for him.”",
-              "es": "ʿAlī عليه السلام dijo: “No hay daño si una mujer no es circuncidada, pero para un hombre es necesario.”",
-              "fa": "ʿAlī علیه السلام فرمود: «برای زن ضرری نیست اگر ختنه نشود، اما برای مرد لازم است.»",
-              "fr": "ʿAlī عليه السلام a dit : « Il n’y a pas de mal si une femme n’est pas circoncise, mais pour un homme, c’est nécessaire. »",
-              "id": "ʿAlī علیه السلام berkata: “Tidak mengapa jika seorang wanita tidak disunat, tetapi bagi pria, itu wajib.”",
-              "ru": "ʿAlī عليه السلام сказал: «Нет вреда, если женщина не обрезана, но для мужчины это необходимо.»",
-              "tr": "ʿAlī عليه السلام şöyle dedi: “Kadının sünnet edilmemesinde bir zarar yoktur, ancak erkek için bu zorunludur.”",
-              "ur": "علی علیہ السلام نے فرمایا: \"اگر عورت ختنہ نہ کرائے تو کوئی حرج نہیں، لیکن مرد کے لیے یہ لازم ہے۔\"",
-              "zh": "ʿAlīعلیهالسلامفرمود:«زنختنهنشودضرریندارد،امابرایمردلازماست.»"
-            },
             "word_end": 29,
             "word_start": 14
           }
@@ -101,52 +88,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الرَّجُلُ": "the man",
-            "الْمَرْأَةُ": "the woman",
-            "تَخْتَتِنَ": "to be circumcised",
-            "فَلَا بُدَّ مِنْهُ": "it is unavoidable or necessary for him",
-            "لَا بَأْسَ": "there is no harm; indicates permissibility or absence of objection"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "لَا بَأْسَ",
+          "تَخْتَتِنَ",
+          "الْمَرْأَةُ",
+          "الرَّجُلُ",
+          "فَلَا بُدَّ مِنْهُ"
+        ],
         "related_quran": [],
-        "seo_questions": {
-          "bn": "ইমাম ʿAlī عليه السلام এর এই হাদিস অনুযায়ী পুরুষ ও মহিলাদের জন্য খতনা কি আবশ্যক?",
-          "de": "Ist die Beschneidung für Männer und Frauen gemäß diesem Hadith von Imam ʿAlī عليه السلام notwendig?",
-          "en": "Is circumcision necessary for men and women according to this hadith from Imam ʿAlī عليه السلام?",
-          "es": "¿Es necesaria la circuncisión para hombres y mujeres según este hadiz del Imam ʿAlī عليه السلام?",
-          "fa": "آیا طبق این حدیث از امام ʿAlī علیه السلام، ختنه برای مردان و زنان لازم است؟",
-          "fr": "La circoncision est-elle nécessaire pour les hommes et les femmes selon ce hadith de l’Imam ʿAlī عليه السلام ?",
-          "id": "Apakah khitan wajib bagi pria dan wanita menurut hadis dari Imam ʿAlī علیه السلام ini?",
-          "ru": "Является ли обрезание необходимым для мужчин и женщин согласно этому хадису Имама ʿAlī عليه السلام?",
-          "tr": "İmam ʿAlī عليه السلام’ın bu hadisine göre erkekler ve kadınlar için sünnet gerekli midir?",
-          "ur": "کیا امام علی علیہ السلام کی اس حدیث کے مطابق مردوں اور عورتوں کے لیے ختنہ ضروری ہے؟",
-          "zh": "根据امامʿAlīعلیهالسلام的这则حديث，男性和女性是否都必须进行割礼？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি মহিলাদের এবং পুরুষদের মধ্যে খতনার আইনি পার্থক্য নির্দেশ করে। এতে বলা হয়েছে যে মহিলাদের জন্য খতনা আবশ্যক নয়, কিন্তু পুরুষদের জন্য তা প্রয়োজনীয়।",
-          "de": "Dieser Hadith stellt eine rechtliche Unterscheidung zwischen Frauen und Männern bezüglich der Beschneidung dar. Er zeigt, dass die Beschneidung für Frauen nicht erforderlich ist, für Männer jedoch notwendig ist.",
-          "en": "This hadith states a legal distinction between women and men regarding circumcision. It indicates that circumcision is not required for a woman, whereas for a man it is deemed necessary.",
-          "es": "Este hadiz establece una distinción legal entre mujeres y hombres respecto a la circuncisión. Indica que la circuncisión no es obligatoria para la mujer, mientras que para el hombre es necesaria.",
-          "fa": "این حدیث تفاوت حقوقی بین زنان و مردان در مورد ختنه را بیان می‌کند. ختنه برای زن لازم نیست، اما برای مرد ضروری است.",
-          "fr": "Ce hadith établit une distinction légale entre les femmes et les hommes concernant la circoncision. Il indique que la circoncision n’est pas requise pour la femme, tandis qu’elle est nécessaire pour l’homme.",
-          "id": "Hadis ini menyatakan perbedaan hukum antara wanita dan pria mengenai khitan. Khitan tidak diwajibkan bagi wanita, tetapi bagi pria itu wajib.",
-          "ru": "Этот хадис устанавливает юридическое различие между женщинами и мужчинами в отношении обрезания. Обрезание не обязательно для женщин, но необходимо для мужчин.",
-          "tr": "Bu hadis, kadın ve erkek arasında sünnet konusunda hukuki bir ayrımı belirtir. Kadın için sünnet zorunlu değildir, ancak erkek için gereklidir.",
-          "ur": "یہ حدیث عورت اور مرد کے درمیان ختنہ کے حوالے سے شرعی فرق کو بیان کرتی ہے۔ اس میں واضح کیا گیا ہے کہ عورت کے لیے ختنہ ضروری نہیں، جبکہ مرد کے لیے یہ لازم ہے۔",
-          "zh": "اینحدیثبینزنومرددرختنهحقوقیتمایزقائلمی‌شود.زنهابرایختنهلازمنیستندامابرایمردانضروری‌است."
-        },
         "tags": [
           "jurisprudence",
           "family",

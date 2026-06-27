@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى حَمَّادٌ عَنِ الْحَلَبِيِّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "হাম্মাদ আল-হালাবী থেকে আবু আবদুল্লাহ علیہ السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Hammad berichtete von al-Halabi, von Abu Abdullah عليه السلام, der sagte:",
-              "en": "Hammad narrated from al-Halabi, from Abu Abdullah عليه السلام, who said:",
-              "es": "Hammad narró de al-Halabi, de Abu Abdullah عليه السلام, quien dijo:",
-              "fa": "حماد از الحلبي، از ابو عبدالله علیه السلام روایت کرد که فرمود:",
-              "fr": "Hammad a rapporté d'al-Halabi, d'Abu Abdullah عليه السلام, qui a dit :",
-              "id": "Hammad meriwayatkan dari al-Halabi, dari Abu Abdullah علیه السلام, yang berkata:",
-              "ru": "Хаммад передал от аль-Халяби, от Абу Абдуллаха عليه السلام, который сказал:",
-              "tr": "Hammad, al-Halabi'den, Ebu Abdullah'a (aleyhisselam) şöyle rivayet etti:",
-              "ur": "حماد نے الحلبی سے، ابو عبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "حماد从الحلبی传述自أبوعبداللهعليهالسلام说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "يُسْتَحَبُّ لِلرَّجُلِ أَنْ يَتَقَرَّبَ عَشِيَّةَ عَرَفَةَ وَ يَوْمَ عَرَفَةَ بِالْعِتْقِ وَ الصَّدَقَةِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন পুরুষের জন্য আরাফাহের সন্ধ্যা ও আরাফাহ দিবসে মুক্তি ও দান করার মাধ্যমে আল্লাহর নিকট হওয়া সুপারিশ করা হয়।",
-              "de": "Es wird empfohlen, dass ein Mann sich am Abend von Arafat und am Tag von Arafat durch Freilassung und Wohltätigkeit nähert.",
-              "en": "It is recommended for a man to draw near on the evening of Arafah and the Day of Arafah through emancipation and charity.",
-              "es": "Se recomienda que un hombre se acerque en la tarde y el día de Arafah mediante la emancipación y la caridad.",
-              "fa": "مستحب است که مرد در شام عرفه و روز عرفه با آزادسازی و صدقه به خدا نزدیک شود.",
-              "fr": "Il est recommandé à un homme de se rapprocher le soir d'Arafat et le jour d'Arafat par l'affranchissement et la charité.",
-              "id": "Disunnahkan bagi seorang pria untuk mendekat pada malam Arafah dan hari Arafah melalui pembebasan budak dan sedekah.",
-              "ru": "Рекомендуется мужчине приближаться в вечер Арафата и в день Арафата через освобождение рабов и подаяние.",
-              "tr": "Bir erkeğin, Arefe akşamı ve Arefe günü köle azat etmek ve sadaka vermek suretiyle Allah’a yaklaşması tavsiye edilir.",
-              "ur": "یہ مستحب ہے کہ آدمی عیدالاضحیٰ کی شام اور یوم عرفہ کو غلام آزاد کرنے اور صدقہ دینے کے ذریعے اللہ کے قریب ہو جائے۔",
-              "zh": "建议人在عرفة之夜和عرفة日通过解放奴隶和施舍来接近真主。"
-            },
             "word_end": 24,
             "word_start": 12
           }
@@ -101,26 +88,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الصَّدَقَةِ": "charitable giving for the sake of Allah",
-            "بِالْعِتْقِ": "through emancipating a slave",
-            "عَشِيَّةَ عَرَفَةَ": "the evening before the Day of Arafah",
-            "يَتَقَرَّبَ": "to seek nearness to Allah through devotional action",
-            "يَوْمَ عَرَفَةَ": "the Day of Arafah during hajj",
-            "يُسْتَحَبُّ": "is recommended and encouraged in religious practice"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُسْتَحَبُّ",
+          "يَتَقَرَّبَ",
+          "عَشِيَّةَ عَرَفَةَ",
+          "يَوْمَ عَرَفَةَ",
+          "بِالْعِتْقِ",
+          "الصَّدَقَةِ"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
@@ -139,32 +114,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "আরাফাহের সন্ধ্যা ও দিনে আল্লাহর নিকট হওয়ার জন্য কোন কাজগুলি সুপারিশ করা হয়?",
-          "de": "Welche Handlungen werden am Abend und Tag von Arafat empfohlen, um Allah näherzukommen?",
-          "en": "What acts are recommended on the evening and day of Arafah to draw closer to Allah?",
-          "es": "¿Qué actos se recomiendan en la tarde y el día de Arafah para acercarse a Allah?",
-          "fa": "در شام و روز عرفه چه اعمالی برای نزدیک شدن به خدا مستحب است؟",
-          "fr": "Quels actes sont recommandés le soir et le jour d'Arafat pour se rapprocher d'Allah ?",
-          "id": "Amalan apa yang disunnahkan pada malam dan hari Arafah untuk mendekatkan diri kepada Allah?",
-          "ru": "Какие действия рекомендуются вечером и днем Арафата для приближения к Аллаху?",
-          "tr": "Arefe akşamı ve gününde Allah’a yaklaşmak için hangi ameller tavsiye edilir?",
-          "ur": "عرفہ کی شام اور دن کون سے اعمال اللہ کے قریب ہونے کے لیے مستحب ہیں؟",
-          "zh": "عرفة之夜和عرفة日推荐哪些行为以接近真主？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে আরাফাহের সন্ধ্যা ও দিনে দাস মুক্তি ও দান করার মাধ্যমে আল্লাহর নিকট হওয়া সুপারিশ করা হয়। এটি আরাফাহর পবিত্র সময়ের সাথে সম্পর্কিত সৎ ইবাদত ও উদারতা তুলে ধরে।",
-          "de": "Dieser Hadith besagt, dass es empfohlen wird, am Abend und am Tag von Arafat durch Freilassung und Wohltätigkeit Allah näherzukommen. Er hebt tugendhafte Handlungen der Anbetung und Großzügigkeit hervor, die mit der gesegneten Zeit von Arafat verbunden sind.",
-          "en": "This hadith states that it is recommended to seek nearness to Allah on the evening and day of Arafah through freeing slaves and giving charity. It highlights virtuous acts of worship and generosity connected to the blessed time of Arafah.",
-          "es": "Este hadiz indica que se recomienda acercarse a Allah en la tarde y el día de Arafah mediante la liberación de esclavos y la caridad. Destaca actos virtuosos de adoración y generosidad relacionados con el tiempo bendito de Arafah.",
-          "fa": "این حدیث بیان می‌کند که مستحب است در شام و روز عرفه با آزادسازی و صدقه به خدا نزدیک شد. این حدیث اعمال نیک و سخاوت مرتبط با زمان مبارک عرفه را برجسته می‌کند.",
-          "fr": "Ce hadith indique qu'il est recommandé de se rapprocher d'Allah le soir et le jour d'Arafat par l'affranchissement et la charité. Il met en lumière des actes vertueux d'adoration et de générosité liés au temps béni d'Arafat.",
-          "id": "Hadis ini menyatakan bahwa disunnahkan mendekat kepada Allah pada malam dan hari Arafah melalui pembebasan budak dan sedekah. Hadis ini menyoroti amalan ibadah dan kedermawanan yang mulia yang terkait dengan waktu mulia Arafah.",
-          "ru": "Этот хадис говорит, что рекомендуется приближаться к Аллаху вечером и днем Арафата через освобождение рабов и подаяние. Он подчеркивает добродетельные акты поклонения и щедрости, связанные с благословенным временем Арафата.",
-          "tr": "Bu hadis, Arefe akşamı ve günü köle azat etmek ve sadaka vermek suretiyle Allah’a yaklaşmanın tavsiye edildiğini belirtir. Hadis, Arefe’nin mübarek zamanıyla bağlantılı erdemli ibadet ve cömertlik fiillerini vurgular.",
-          "ur": "یہ حدیث بتاتی ہے کہ عرفہ کی شام اور دن کو غلام آزاد کرنے اور صدقہ دینے کے ذریعے اللہ کے قریب ہونا مستحب ہے۔ یہ حدیث عرفہ کے مبارک وقت سے جڑے نیک اعمال اور سخاوت کو اجاگر کرتی ہے۔",
-          "zh": "此圣训指出建议人在عرفة之夜和عرفة日通过解放奴隶和施舍来接近真主。强调了与عرفة圣时相关的崇高崇拜和慷慨行为。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

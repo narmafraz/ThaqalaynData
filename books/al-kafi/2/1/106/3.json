@@ -20,42 +20,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى عَنْ مُحَمَّدِ بْنِ سِنَانٍ عَنْ عَمَّارِ بْنِ مَرْوَانَ عَنْ زَيْدٍ الشَّحَّامِ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন ইয়াহইয়া, আহমদ ইবন মুহাম্মদ ইবন ঈসা থেকে, মুহাম্মদ ইবন সিনান থেকে, ‘আম্মার ইবন মারওয়ান থেকে, যায়দ আল-শাহহাম থেকে, আবু ‘আবদিল্লাহ عليه السلام থেকে, যিনি বলেছেন:",
-              "de": "Muhammad ibn Yahya, von Ahmad ibn Muhammad ibn Isa, von Muhammad ibn Sinan, von Ammar ibn Marwan, von Zayd al-Shahham, von Abu Abdillah عليه السلام, der sagte:",
-              "en": "Muḥammad ibn Yaḥyā, from Aḥmad ibn Muḥammad ibn ʿĪsā, from Muḥammad ibn Sinān, from ʿAmmār ibn Marwān, from Zayd al-Shaḥḥām, from Abū ʿAbdillāh عليه السلام, who said:",
-              "es": "Muhammad ibn Yahya, de Ahmad ibn Muhammad ibn Isa, de Muhammad ibn Sinan, de Ammar ibn Marwan, de Zayd al-Shahham, de Abu Abdillah عليه السلام, quien dijo:",
-              "fa": "محمد بن یحیی، از احمد بن محمد بن عیسی، از محمد بن سنان، از عمار بن مروان، از زید الشحام، از ابوعبدالله علیه السلام، که فرمود:",
-              "fr": "Muhammad ibn Yahya, d’Ahmad ibn Muhammad ibn Isa, de Muhammad ibn Sinan, de Ammar ibn Marwan, de Zayd al-Shahham, d’Abu Abdillah عليه السلام, qui a dit :",
-              "id": "Muhammad ibn Yahya, dari Ahmad ibn Muhammad ibn Isa, dari Muhammad ibn Sinan, dari Ammar ibn Marwan, dari Zayd al-Shahham, dari Abu Abdillah عليه السلام, yang berkata:",
-              "ru": "Мухаммад ибн Яхья, от Ахмада ибн Мухаммада ибн Исы, от Мухаммада ибн Синана, от ‘Аммара ибн Марвана, от Зайда аль-Шаххама, от Абу ‘Абдуллаха عليه السلام, который сказал:",
-              "tr": "Muhammed ibn Yahyâ, Ahmed ibn Muhammed ibn Îsâ’dan, Muhammed ibn Sinân’dan, Ammâr ibn Mervân’dan, Zeyd el-Şahhâm’dan, Ebû Abdillâh عليه السلام’dan rivayet etti ki şöyle dedi:",
-              "ur": "محمد بن یحییٰ، احمد بن محمد بن عیسیٰ سے، محمد بن سنان سے، عمار بن مروان سے، زید الشحام سے، ابو عبداللہ علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "穆罕默德·伊本·叶海亚，传自艾哈迈德·伊本·穆罕默德·伊本·尔萨，传自穆罕默德·伊本·西南，传自阿玛尔·伊本·马尔万，传自宰德·阿勒沙哈姆，传自阿布·阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 27,
             "word_start": 0
           },
           {
             "arabic_text": "إِنَّ عَظِيمَ الْأَجْرِ لَمَعَ عَظِيمِ الْبَلَاءِ وَمَا أَحَبَّ اللَّهُ قَوْمًا إِلَّا ابْتَلَاهُمْ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "নিশ্চয়ই মহান প্রতিদান মহান বিপদের সঙ্গেই থাকে, আর আল্লাহ কোনো সম্প্রদায়কে ভালোবাসেন না, তবে তাদেরকে তিনি পরীক্ষা করেন।",
-              "de": "Gewiss, großer Lohn ist mit großer Prüfung verbunden, und Allah liebt ein Volk nur, wenn Er es prüft.",
-              "en": "Indeed, great reward is with great affliction, and Allah does not love a people except that He afflicts them.",
-              "es": "En verdad, la gran recompensa está junto con la gran aflicción, y Allah no ama a un pueblo sino que los aflige.",
-              "fa": "همانا پاداش بزرگ همراه با بلاى بزرگ است، و خداوند هیچ قومی را دوست نمی‌دارد مگر آنکه آنان را مبتلا می‌سازد.",
-              "fr": "Certes, la grande récompense accompagne la grande épreuve, et Allah n’aime un peuple que lorsqu’Il l’éprouve.",
-              "id": "Sesungguhnya pahala yang besar itu bersama dengan cobaan yang besar, dan Allah tidak mencintai suatu kaum kecuali Dia menguji mereka.",
-              "ru": "Поистине, великая награда — вместе с великим испытанием, и Аллах не любит народ, кроме как подвергает его испытанию.",
-              "tr": "Şüphesiz büyük ecir, büyük belâ ile beraberdir; Allah bir kavmi sevmedikçe onları imtihan etmez.",
-              "ur": "بے شک عظیم اجر عظیم بلا کے ساتھ ہے، اور اللہ کسی قوم سے محبت نہیں کرتا مگر یہ کہ انہیں آزماتا ہے۔",
-              "zh": "确实,伟大的报酬伴随着伟大的考验,真主不会喜爱一个民族,除非他使他们遭受考验。"
-            },
             "word_end": 39,
             "word_start": 27
           }
@@ -128,24 +115,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَحَبَّ اللَّهُ": "Allah loved; indicating divine favor and care",
-            "ابْتَلَاهُمْ": "He tested or afflicted them",
-            "عَظِيمَ الْأَجْرِ": "great reward or immense recompense from Allah",
-            "عَظِيمِ الْبَلَاءِ": "severe affliction or intense trial"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "عَظِيمَ الْأَجْرِ",
+          "عَظِيمِ الْبَلَاءِ",
+          "أَحَبَّ اللَّهُ",
+          "ابْتَلَاهُمْ"
+        ],
         "related_quran": [
           {
             "ref": "2:155",
@@ -164,32 +139,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস কীভাবে আল্লাহর ভালোবাসা, বিপদ এবং প্রতিদানের সম্পর্ক ব্যাখ্যা করে?",
-          "de": "Wie erklärt dieser Hadith die Beziehung zwischen Allahs Liebe, Prüfung und Lohn?",
-          "en": "How does this hadith explain the relationship between Allah’s love, affliction, and reward?",
-          "es": "¿Cómo explica este hadiz la relación entre el amor de Allah, la aflicción y la recompensa?",
-          "fa": "این حدیث رابطه میان محبت خداوند، بلا و پاداش را چگونه توضیح می‌دهد؟",
-          "fr": "Comment ce hadith explique-t-il la relation entre l’amour d’Allah, l’épreuve et la récompense ?",
-          "id": "Bagaimana hadis ini menjelaskan hubungan antara cinta Allah, cobaan, dan pahala?",
-          "ru": "Как этот хадис объясняет связь между любовью Аллаха, испытанием и наградой?",
-          "tr": "Bu hadis, Allah’ın sevgisi, belâ ve ecir arasındaki ilişkiyi nasıl açıklar?",
-          "ur": "یہ حدیث اللہ کی محبت، بلا اور اجر کے درمیان تعلق کی کیسے وضاحت کرتی ہے؟",
-          "zh": "这段圣训如何解释真主的慈爱、考验和报酬之间的关系？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস শিক্ষা দেয় যে বড় পরীক্ষার সঙ্গে বড় আধ্যাত্মিক প্রতিদান আসে। এটি আরও বলে যে বিপদ কোনো সম্প্রদায়ের প্রতি আল্লাহর ভালোবাসার নিদর্শন হতে পারে।",
-          "de": "Dieser Hadith lehrt, dass größerer geistlicher Lohn mit größeren Prüfungen einhergeht. Er sagt auch, dass Leid ein Zeichen von Allahs Liebe zu einem Volk sein kann.",
-          "en": "This hadith teaches that greater spiritual reward accompanies greater trials. It also states that affliction can be a sign of Allah’s love for a people, indicating a divinely meaningful test rather than mere hardship.",
-          "es": "Este hadiz enseña que una mayor recompensa espiritual acompaña a pruebas más grandes. También afirma que la aflicción puede ser una señal del amor de Allah por un pueblo.",
-          "fa": "این حدیث می‌آموزد که هرچه آزمون بزرگ‌تر باشد، پاداش معنوی نیز بزرگ‌تر است. همچنین بیان می‌کند که بلا می‌تواند نشانه محبت خداوند به یک قوم باشد.",
-          "fr": "Ce hadith enseigne qu’une plus grande récompense spirituelle accompagne des épreuves plus grandes. Il affirme aussi que l’épreuve peut être un signe de l’amour d’Allah pour un peuple.",
-          "id": "Hadis ini mengajarkan bahwa pahala spiritual yang lebih besar menyertai ujian yang lebih besar. Hadis ini juga menyatakan bahwa cobaan dapat menjadi tanda cinta Allah kepada suatu kaum.",
-          "ru": "Этот хадис учит, что большему духовному воздаянию сопутствуют большие испытания. Он также говорит, что испытание может быть признаком любви Аллаха к народу.",
-          "tr": "Bu hadis, daha büyük manevi mükâfatın daha büyük imtihanlarla birlikte geldiğini öğretir. Ayrıca belânın, bir topluma yönelik Allah sevgisinin bir işareti olabileceğini bildirir.",
-          "ur": "یہ حدیث بتاتی ہے کہ جتنا بڑا امتحان ہو اتنا ہی بڑا روحانی اجر ملتا ہے، اور یہ بھی کہ بلا کبھی اللہ کی محبت کی علامت ہوتی ہے۔",
-          "zh": "这段圣训教导说,更大的精神回报伴随着更大的考验。它也说明,磨难可能是真主对一个民族慈爱的迹象。"
-        },
         "tags": [
           "ethics",
           "theology",

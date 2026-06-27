@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ حَمَّادٍ عَنْ رِبْعِيٍّ عَنِ الْفُضَيْلِ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, হাম্মাদ থেকে, রিব‘ঈ থেকে, আল-ফুদাইল থেকে, আবি ‘আবদিল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Von ihm, von Hammad, von Rib'i, von al-Fudayl, von Abi 'Abdillah عليه السلام, der sagte:",
-              "en": "From him, from Hammad, from Rib'i, from al-Fudayl, from Abi 'Abdillah عليه السلام, who said:",
-              "es": "De él, de Hammad, de Rib'i, de al-Fudayl, de Abi 'Abdillah عليه السلام, quien dijo:",
-              "fa": "از او، از حمّاد، از ربعی، از فضیل، از ابی‌عبدالله علیه‌السلام، که فرمود:",
-              "fr": "De lui, de Hammad, de Rib'i, de al-Fudayl, d'Abi 'Abdillah عليه السلام, qui a dit :",
-              "id": "Dari beliau, dari Hammad, dari Rib'i, dari al-Fudayl, dari Abi 'Abdillah عليه السلام, beliau bersabda:",
-              "ru": "От него, от Хаммада, от Риб‘и, от аль-Фудайля, от Аби ‘Абдуллаха عليه السلام, который сказал:",
-              "tr": "Ondan, Hammâd’dan, Rib‘î’den, el-Fudayl’dan, Ebû Abdillah عليه السلام’dan rivayetle, şöyle dedi:",
-              "ur": "ان سے، حماد سے، ربعی سے، فضیل سے، ابو عبداللہ علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "由他传自Hammad，传自Rib'i，传自al-Fudayl，传自Abi'Abdillah عليه السلام，他说："
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "لَا بَأْسَ أَنْ يَبُولَ الرَّجُلُ فِي الْمَاءِ الْجَارِي وَكُرِهَ أَنْ يَبُولَ فِي الْمَاءِ الرَّاكِدِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন পুরুষের প্রবাহমান পানিতে প্রস্রাব করায় কোনো অসুবিধা নেই, আর স্থির পানিতে প্রস্রাব করা অপছন্দনীয়।",
-              "de": "Es ist kein Problem, wenn ein Mann in fließendes Wasser uriniert, und es ist unerwünscht, dass er in stehendem Wasser uriniert.",
-              "en": "There is no harm in a man urinating in flowing water, and it is disliked that he urinate in still water.",
-              "es": "No hay inconveniente en que un hombre orine en agua corriente, y se desaprueba que orine en agua estancada.",
-              "fa": "اشکالی ندارد که مرد در آب جاری بول کند، و مکروه است که در آب راکد بول کند.",
-              "fr": "Il n’y a pas de mal à ce qu’un homme urine dans une eau courante, et il est détesté qu’il urine dans une eau stagnante.",
-              "id": "Tidak ada keberatan bagi seorang laki-laki untuk buang air kecil di air yang mengalir, dan dibenci jika ia buang air kecil di air yang tenang.",
-              "ru": "Нет ничего предосудительного в том, чтобы мужчина мочился в проточную воду, и нежелательно, чтобы он мочился в стоячую воду.",
-              "tr": "Bir erkeğin akan suda idrar yapmasında bir sakınca yoktur; durgun suda idrar yapması ise mekruhtur.",
-              "ur": "اس میں کوئی حرج نہیں کہ آدمی بہتے ہوئے پانی میں پیشاب کرے، اور یہ ناپسندیدہ ہے کہ وہ ٹھہرے ہوئے پانی میں پیشاب کرے۔",
-              "zh": "男人在流动的水中小便没有妨碍，而在静止的水中小便则是可憎的。"
-            },
             "word_end": 28,
             "word_start": 14
           }
@@ -84,52 +71,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْمَاءِ الرَّاكِدِ": "still or stagnant water",
-            "الْمَاءِ الْجَارِي": "flowing water",
-            "كُرِهَ": "it is disliked",
-            "لَا بَأْسَ": "there is no harm or objection in legal context",
-            "يَبُولَ": "to urinate"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "لَا بَأْسَ",
+          "يَبُولَ",
+          "الْمَاءِ الْجَارِي",
+          "كُرِهَ",
+          "الْمَاءِ الرَّاكِدِ"
+        ],
         "related_quran": [],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে প্রবাহমান পানি ও স্থির পানিতে প্রস্রাব করার বিধান কী?",
-          "de": "Wie lautet die Regel zum Urinieren in fließendem Wasser und in stehendem Wasser im schiitischen Hadith?",
-          "en": "What is the ruling on urinating in flowing water versus still water in Shia hadith?",
-          "es": "¿Cuál es la norma sobre orinar en agua corriente y en agua estancada en el hadiz chií?",
-          "fa": "حکم بول کردن در آب جاری و آب راکد در حدیث شیعه چیست؟",
-          "fr": "Quelle est la règle concernant le fait d’uriner dans une eau courante et dans une eau stagnante dans le hadith chiite ?",
-          "id": "Apa hukum buang air kecil di air yang mengalir dan air yang tenang dalam hadis Syiah?",
-          "ru": "Каково постановление о мочеиспускании в проточную и стоячую воду в шиитском хадисе?",
-          "tr": "Şii hadiste akan suda ve durgun suda idrar yapmanın hükmü nedir?",
-          "ur": "شیعہ حدیث میں بہتے ہوئے پانی اور ٹھہرے ہوئے پانی میں پیشاب کرنے کا حکم کیا ہے؟",
-          "zh": "什叶派圣训中在流动的水和静止的水中小便的教法律例是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস পানিতে প্রস্রাব করার বিষয়ে একটি শরয়ি বিধান জানায়। এতে বলা হয়েছে, প্রবাহমান পানিতে তা করা আপত্তিকর নয়, আর স্থির পানিতে তা করা অপছন্দনীয়; ফলে পানির প্রকৃতি অনুযায়ী বিধানের পার্থক্য বোঝা যায়।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung zum Urinieren im Wasser. Er besagt, dass es in fließendem Wasser nicht beanstandet wird, während es in stehendem Wasser unerwünscht ist, was einen Unterschied im Urteil je nach Beschaffenheit des Wassers zeigt.",
-          "en": "This hadith gives a legal ruling concerning urination in water. It states that doing so in flowing water is not objectionable, while doing so in still water is disliked, indicating a distinction in ruling based on the nature of the water.",
-          "es": "Este hadiz establece una norma jurídica sobre orinar en el agua. Indica que hacerlo en agua corriente no es objetable, mientras que hacerlo en agua estancada es desaprobado, lo que muestra una diferencia de حكم según la naturaleza del agua.",
-          "fa": "این حدیث حکمی فقهی درباره بول کردن در آب بیان می‌کند. می‌گوید انجام آن در آب جاری اشکالی ندارد، اما در آب راکد مکروه است، و این نشان می‌دهد که حکم بر اساس نوع آب تفاوت دارد.",
-          "fr": "Ce hadith énonce une règle juridique concernant le fait d’uriner dans l’eau. Il indique que le faire dans une eau courante n’est pas répréhensible, tandis que le faire dans une eau stagnante est détesté, ce qui montre une différence de حكم selon la nature de l’eau.",
-          "id": "Hadis ini memberikan hukum syariat tentang buang air kecil di dalam air. Disebutkan bahwa melakukannya di air yang mengalir tidak menjadi masalah, sedangkan melakukannya di air yang tenang adalah makruh, yang menunjukkan adanya perbedaan hukum berdasarkan jenis air.",
-          "ru": "Этот хадис содержит правовое постановление относительно мочеиспускания в воде. В нём говорится, что делать это в проточной воде не предосудительно, тогда как в стоячей воде это нежелательно, что указывает на различие в حكم в зависимости от вида воды.",
-          "tr": "Bu hadis, suda idrar yapmaya dair bir fıkhî hüküm bildirir. Akan suda bunu yapmanın sakıncalı olmadığını, durgun suda yapmanın ise mekruh olduğunu ifade ederek suyun niteliğine göre hükümde bir ayrım olduğunu gösterir.",
-          "ur": "یہ حدیث پانی میں پیشاب کرنے کے بارے میں ایک شرعی حکم بیان کرتی ہے۔ اس میں کہا گیا ہے کہ بہتے ہوئے پانی میں ایسا کرنا قابلِ اعتراض نہیں، جبکہ ٹھہرے ہوئے پانی میں ایسا کرنا ناپسندیدہ ہے، جس سے پانی کی نوعیت کے لحاظ سے حکم میں فرق ظاہر ہوتا ہے۔",
-          "zh": "这段圣训给出了关于在水中小便的教法律例。它说明在流动的水中这样做没有妨碍，而在静止的水中这样做则是可憎的，这表明 الحكم会因水的性质而有所不同。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

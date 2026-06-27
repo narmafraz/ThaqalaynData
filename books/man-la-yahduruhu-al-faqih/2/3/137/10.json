@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَفِي رِوَايَةِ حَمَّادٍ عَنْ حَرِيزٍ فِي حَدِيثٍ يَقُولُ فِي آخِرِهِ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং হাম্মাদের বর্ণনায়, হারিজ থেকে, একটি হাদিসে, তিনি এর শেষে বলেন:",
-              "de": "Und in der Überlieferung von Hammad von Hariz, in einem Hadith, sagt er am Ende:",
-              "en": "And in the narration of Hammad, from Hariz, in a hadith, he says at its end:",
-              "es": "Y en la narración de Hammad, de Hariz, en un hadiz, dice al final:",
-              "fa": "و در روایت حماد از حریز، در حدیثی، در پایان آن می‌گوید:",
-              "fr": "Et dans la narration de Hammad, de Hariz, dans un hadith, il dit à la fin :",
-              "id": "Dan dalam riwayat Hammad, dari Hariz, dalam sebuah hadits, dia berkata di akhirnya:",
-              "ru": "И в передаче Хаммада от Хариза, в хадисе, он говорит в конце:",
-              "tr": "Ve Hammad’ın, Hariz’den rivayetinde, bir hadiste, sonunda şöyle der:",
-              "ur": "اور حمد کی روایت میں، حریز سے، ایک حدیث میں، وہ اس کے آخر میں کہتے ہیں:",
-              "zh": "在哈马德从哈里兹的传述中，在一则圣训的结尾他说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "«إِنَّ الْهَدْيَ الْمَضْمُونَ لَا يَأْكُلُ مِنْهُ إِذَا عَطِبَ فَإِنْ أَكَلَ مِنْهُ غَرِمَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "নিশ্চয়ই, গ্যারান্টিযুক্ত হাদি পচে গেলে তা থেকে খাওয়া যাবে না; যদি খাওয়া হয়, ক্ষতিপূরণ দিতে হবে।",
-              "de": "Wahrlich, das garantierte Hady darf nicht gegessen werden, wenn es verdirbt; wenn davon gegessen wird, ist Entschädigung zu leisten.",
-              "en": "\"Indeed, the guaranteed hady is not to be eaten from when it perishes; so if he eats from it, he must compensate.\"",
-              "es": "En verdad, el hady garantizado no debe comerse cuando se estropea; si se come, debe compensarse.",
-              "fa": "به راستی، هدی تضمین شده نباید از آن خورده شود وقتی که فاسد شود؛ اگر از آن خورده شود، باید جبران شود.",
-              "fr": "En effet, le hady garanti ne doit pas être mangé lorsqu'il se gâte ; s'il est mangé, une compensation est obligatoire.",
-              "id": "Sesungguhnya hady yang dijamin tidak boleh dimakan jika sudah rusak; jika dimakan, harus mengganti kerugian.",
-              "ru": "Воистину, гарантированный хадий нельзя есть, если он испортился; если его съели, необходимо возместить ущерб.",
-              "tr": "Şüphesiz, garantili hady, bozulduğunda ondan yemek caiz değildir; eğer ondan yenilirse, tazminat vermek gerekir.",
-              "ur": "بے شک، ضمانت شدہ ہدی کو اس وقت کھانا جائز نہیں جب وہ خراب ہو جائے؛ اگر اس سے کھایا جائے تو اس کا کفارہ دینا لازم ہے۔",
-              "zh": "确实，保证的献牲腐坏时不得食用；若食用，须赔偿。"
-            },
             "word_end": 22,
             "word_start": 10
           }
@@ -74,26 +61,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْمَضْمُونَ": "that for which liability or guarantee applies",
-            "الْهَدْيَ": "the sacrificial animal offered in relation to hajj",
-            "حَدِيثٍ": "a hadith report",
-            "رِوَايَةِ": "a transmitted narration",
-            "عَطِبَ": "it became ruined, disabled, or perished",
-            "غَرِمَ": "he became liable to compensate"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رِوَايَةِ",
+          "حَدِيثٍ",
+          "الْهَدْيَ",
+          "الْمَضْمُونَ",
+          "عَطِبَ",
+          "غَرِمَ"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
@@ -104,32 +79,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "গ্যারান্টিযুক্ত হাদি পশু তার গন্তব্যে পৌঁছানোর আগে পচে গেলে তার থেকে খাওয়ার ruling কী?",
-          "de": "Wie lautet das Urteil über das Essen von einem garantierten Hady-Tier, wenn es vor Erreichen seines Ortes verdirbt?",
-          "en": "What is the ruling on eating from a guaranteed hady animal if it perishes before reaching its place?",
-          "es": "¿Cuál es el fallo sobre comer de un animal hady garantizado si se estropea antes de llegar a su lugar?",
-          "fa": "حکم خوردن از حیوان هدی تضمین شده اگر قبل از رسیدن به محل خود فاسد شود چیست؟",
-          "fr": "Quel est le jugement sur le fait de manger d'un animal hady garanti s'il périme avant d'atteindre son lieu ?",
-          "id": "Apa hukum makan dari hewan hady yang dijamin jika rusak sebelum sampai ke tempatnya?",
-          "ru": "Каково постановление по поводу еды с гарантированного хадийского животного, если оно портится до достижения места?",
-          "tr": "Garantili hady hayvanı yerine ulaşmadan önce bozulursa yemekten hüküm nedir?",
-          "ur": "اگر ضمانت شدہ ہدی جانور اپنی جگہ پہنچنے سے پہلے خراب ہو جائے تو اس سے کھانے کا حکم کیا ہے؟",
-          "zh": "保证的献牲在到达指定地点前腐坏，食用的判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি গ্যারান্টিযুক্ত হাদি পশুর ক্ষেত্রে আইনগত বিধান দেয় যদি তা নষ্ট বা পচে যায়। এতে বলা হয়েছে যে এমন পশু থেকে খাওয়া যাবে না, এবং খেলে ক্ষতিপূরণ দিতে হবে।",
-          "de": "Dieser Hadith gibt eine Rechtsvorschrift bezüglich des garantierten Hady-Tieres, wenn es verdirbt oder zugrunde geht. Es wird gesagt, dass man von einem solchen Tier nicht essen darf, und wenn doch, ist Entschädigung Pflicht.",
-          "en": "This hadith gives a legal ruling concerning the guaranteed hady animal if it becomes ruined or perishes. It states that one may not eat from such an animal, and if one does eat from it, compensation becomes obligatory.",
-          "es": "Este hadiz da un fallo legal sobre el animal hady garantizado si se arruina o perece. Indica que no se debe comer de tal animal, y si se come, es obligatorio compensar.",
-          "fa": "این حدیث حکم شرعی درباره حیوان هدی تضمین شده در صورت فاسد شدن یا از بین رفتن آن را بیان می‌کند. گفته شده که خوردن از چنین حیوانی جایز نیست و اگر خورده شود، جبران لازم است.",
-          "fr": "Ce hadith donne un jugement légal concernant l'animal hady garanti s'il est abîmé ou périt. Il stipule qu'on ne doit pas manger de cet animal, et si on le fait, une compensation devient obligatoire.",
-          "id": "Hadits ini memberikan hukum terkait hewan hady yang dijamin jika rusak atau binasa. Disebutkan bahwa tidak boleh makan dari hewan tersebut, dan jika dimakan, wajib mengganti kerugian.",
-          "ru": "Этот хадис содержит правовое постановление относительно гарантированного хадийского животного, если оно портится или гибнет. Указывается, что есть такого животного нельзя, а если съесть, необходимо возместить ущерб.",
-          "tr": "Bu hadis, garantili hady hayvanının bozulması veya zarar görmesi durumunda hukuki hükmü verir. Böyle bir hayvandan yemek caiz değildir ve yenilirse tazminat vermek gerekir.",
-          "ur": "یہ حدیث ضمانت شدہ ہدی جانور کے بارے میں شرعی حکم بیان کرتی ہے اگر وہ خراب ہو جائے یا ضائع ہو جائے۔ اس میں کہا گیا ہے کہ ایسے جانور سے کھانا جائز نہیں، اور اگر کھایا جائے تو کفارہ لازم ہے۔",
-          "zh": "此圣训对保证的献牲若腐坏或灭失的法律判决，说明不得食用，若食用则须赔偿。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ الصَّادِقُ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল-সাদিক عليه السلام বলেছেন:",
-              "de": "Al-Sadiq عليه السلام sagte:",
-              "en": "Al-Sadiq عليه السلام said:",
-              "es": "Al-Sadiq عليه السلام dijo:",
-              "fa": "الصادق علیه السلام فرمود:",
-              "fr": "Al-Sadiq عليه السلام a dit :",
-              "id": "Al-Sadiq عليه السلام berkata:",
-              "ru": "Аль-Садик عليه السلام сказал:",
-              "tr": "El-Sadık علیه السلام şöyle dedi:",
-              "ur": "اَلصَّادِق علیہ السلام نے فرمایا:",
-              "zh": "الصادقعليهالسلام说："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "«مَا مِنْ عَبْدٍ مُؤْمِنٍ يَغْسِلُ مَيِّتًا مُؤْمِنًا وَيَقُولُ وَهُوَ يَغْسِلُهُ رَبِّ عَفْوَكَ عَفْوَكَ إِلَّا عَفَا اللَّهُ عَنْهُ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "কোনও বিশ্বাসী দাস নেই যে একজন মৃত বিশ্বাসীকে গোসল দেয় এবং গোসল দেওয়ার সময় বলে, \"হে আমার রব, তোমার ক্ষমা, তোমার ক্ষমা,\" তবে আল্লাহ তাকে ক্ষমা করেন।",
-              "de": "Es gibt keinen gläubigen Diener, der einen verstorbenen Gläubigen wäscht und dabei sagt: „Mein Herr, Deine Vergebung, Deine Vergebung“, außer dass Allah ihm vergibt.",
-              "en": "There is no believing servant who washes a deceased believer and says, while washing him, \"My Lord, Your forgiveness, Your forgiveness,\" except that Allah forgives him.",
-              "es": "No hay siervo creyente que lave a un creyente fallecido y diga mientras lo lava: \"Señor mío, tu perdón, tu perdón\", excepto que Allah lo perdona.",
-              "fa": "هیچ بنده مؤمنی نیست که مرده مؤمنی را غسل دهد و هنگام غسل بگوید: «پروردگارا، بخششت، بخششت» مگر اینکه خداوند او را می‌آمرزد.",
-              "fr": "Il n'y a aucun serviteur croyant qui lave un croyant décédé et dit en le lavant : « Mon Seigneur, Ton pardon, Ton pardon », sauf qu'Allah lui pardonne.",
-              "id": "Tidak ada hamba mukmin yang memandikan jenazah mukmin dan saat memandikannya berkata, \"Ya Tuhanku, ampunan-Mu, ampunan-Mu,\" kecuali Allah mengampuninya.",
-              "ru": "Нет верующего раба, который омывает умершего верующего и при этом говорит: «Господи мой, Твое прощение, Твое прощение», кроме как Аллах прощает его.",
-              "tr": "Hiçbir mümin kul, mümin bir ölüyü yıkayıp yıkarken \"Rabbim, senin affın, senin affın\" demeden Allah onu affetmez.",
-              "ur": "کوئی مؤمن بندہ ایسا نہیں جو کسی مؤمن مردہ کو غسل دے اور غسل دیتے ہوئے کہے، \"اے میرے رب، تیری معافی، تیری معافی،\" مگر اللہ اسے معاف کر دیتا ہے۔",
-              "zh": "没有信仰的仆人洗净一位信仰的亡者并在洗净时说：“我的主，您的宽恕，您的宽恕，”除非真主赦免他。"
-            },
             "word_end": 21,
             "word_start": 4
           }
@@ -82,26 +69,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "رَبِّ": "My Lord",
-            "عَبْدٍ مُؤْمِنٍ": "a believing servant",
-            "عَفَا اللَّهُ عَنْهُ": "Allah forgave him",
-            "عَفْوَكَ": "Your pardon and forgiveness",
-            "مَيِّتًا مُؤْمِنًا": "a deceased believer",
-            "يَغْسِلُ": "washes the deceased as part of the funeral rite"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "عَبْدٍ مُؤْمِنٍ",
+          "يَغْسِلُ",
+          "مَيِّتًا مُؤْمِنًا",
+          "رَبِّ",
+          "عَفْوَكَ",
+          "عَفَا اللَّهُ عَنْهُ"
+        ],
         "related_quran": [
           {
             "ref": "3:133",
@@ -116,32 +91,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "মৃত বিশ্বাসীকে গোসল দেওয়া এবং \"রাব্বি 'আফুকা 'আফুকা\" বলার প্রতিদান কী?",
-          "de": "Was ist die Belohnung dafür, einen verstorbenen Gläubigen zu waschen und dabei „Rabbi 'afwuka 'afwuka“ zu sagen?",
-          "en": "What is the reward for washing a deceased believer and saying \"Rabbi 'afwuka 'afwuka\"?",
-          "es": "¿Cuál es la recompensa por lavar a un creyente fallecido y decir \"Rabbi 'afwuka 'afwuka\"?",
-          "fa": "پاداش غسل دادن مرده مؤمن و گفتن «ربِّ عفوک عفوک» چیست؟",
-          "fr": "Quelle est la récompense pour laver un croyant décédé en disant « Rabbi 'afwuka 'afwuka » ?",
-          "id": "Apa pahala memandikan jenazah mukmin dan mengucapkan \"Rabbi 'afwuka 'afwuka\"?",
-          "ru": "Какова награда за омовение умершего верующего с произнесением «Рабби 'афвука 'афвука»?",
-          "tr": "Mümin bir ölüyü yıkayıp \"Rabbi 'afwuka 'afwuka\" demenin sevabı nedir?",
-          "ur": "مؤمن مردہ کو غسل دینے اور کہتے ہوئے \"ربِّ عفوک عفوک\" کہنے کا اجر کیا ہے؟",
-          "zh": "为已故信士洗净遗体并说“ربِّعفوکعفوک”的回报是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি শেখায় যে যখন একজন বিশ্বাসী মৃত বিশ্বাসীকে গোসল দেয় এবং গোসল দেওয়ার সময় আল্লাহর কাছে ক্ষমা প্রার্থনা করে, তখন আল্লাহ গোসল দেওয়া ব্যক্তিকে ক্ষমা করেন। এটি মৃতদের সেবা করার সওয়াব এবং সেই মুহূর্তে ক্ষমা প্রার্থনার আধ্যাত্মিক গুরুত্বকে তুলে ধরে।",
-          "de": "Dieser Hadith lehrt, dass wenn ein Gläubiger einen verstorbenen Gläubigen wäscht und dabei Allah um Vergebung bittet, Allah dem Waschenden vergibt. Er hebt sowohl den Verdienst des Dienens am Verstorbenen als auch den spirituellen Wert des Vergebungsbitte in diesem Moment hervor.",
-          "en": "This hadith teaches that when a believer performs the washing of a deceased believer and asks Allah for forgiveness during it, Allah grants forgiveness to the one washing the deceased. It highlights both the merit of serving the deceased and the spiritual value of seeking forgiveness in that moment.",
-          "es": "Este hadiz enseña que cuando un creyente realiza el lavado de un creyente fallecido y pide perdón a Allah durante el proceso, Allah perdona a quien realiza el lavado. Destaca tanto el mérito de servir al fallecido como el valor espiritual de buscar el perdón en ese momento.",
-          "fa": "این حدیث آموزش می‌دهد که وقتی مؤمنی غسل مرده مؤمن را انجام می‌دهد و در آن هنگام از خداوند طلب آمرزش می‌کند، خداوند آن شخص را می‌آمرزد. این حدیث هم فضیلت خدمت به مردگان و هم ارزش معنوی طلب آمرزش در آن لحظه را نشان می‌دهد.",
-          "fr": "Ce hadith enseigne que lorsqu'un croyant lave un défunt croyant et demande pardon à Allah pendant ce temps, Allah pardonne à celui qui lave. Il souligne à la fois le mérite de servir le défunt et la valeur spirituelle de demander pardon à ce moment-là.",
-          "id": "Hadis ini mengajarkan bahwa ketika seorang mukmin memandikan jenazah mukmin lain dan memohon ampunan kepada Allah saat itu, Allah mengampuni orang yang memandikan. Ini menyoroti pahala melayani jenazah dan nilai spiritual memohon ampun pada saat itu.",
-          "ru": "Этот хадис учит, что когда верующий омывает умершего верующего и в это время просит у Аллаха прощения, Аллах прощает того, кто омывает. Он подчеркивает заслугу служения умершему и духовную ценность просьбы о прощении в этот момент.",
-          "tr": "Bu hadis, bir müminin ölü bir mümini yıkarken Allah'tan af dilediğinde, Allah'ın yıkayanı affettiğini öğretir. Hem ölüye hizmet etmenin sevabını hem de o anda af dilemenin manevi değerini vurgular.",
-          "ur": "یہ حدیث سکھاتی ہے کہ جب کوئی مؤمن مردہ کو غسل دیتا ہے اور اس دوران اللہ سے معافی مانگتا ہے تو اللہ غسل دینے والے کو معاف کر دیتا ہے۔ یہ حدیث مردہ کی خدمت کے ثواب اور معافی طلب کرنے کی روحانی اہمیت کو ظاہر کرتی ہے۔",
-          "zh": "这段圣训教导我们，当信士为已故信士洗净遗体并在洗净时祈求真主宽恕，真主便赦免洗净者。它强调了为亡者服务的功德及在此时寻求宽恕的精神价值。"
-        },
         "tags": [
           "jurisprudence",
           "dua",

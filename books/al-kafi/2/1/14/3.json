@@ -14,6 +14,134 @@
       "up": "/books/al-kafi:2:1:14"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ مُحَمَّدِ بْنِ عِيسَى عَنْ يُونُسَ عَنْ جَمِيلِ بْنِ دَرَّاجٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 14,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ",
+            "chunk_type": "body",
+            "word_end": 28,
+            "word_start": 14
+          },
+          {
+            "arabic_text": "قَالَتِ الْأَعْرابُ آمَنَّا قُلْ لَمْ تُؤْمِنُوا وَ لكِنْ قُولُوا أَسْلَمْنا وَ لَمَّا يَدْخُلِ الْإِيمَانُ فِي قُلُوبِكُمْ",
+            "chunk_type": "quran_quote",
+            "word_end": 44,
+            "word_start": 28
+          },
+          {
+            "arabic_text": "فَقَالَ لِي أَ لَا تَرَى أَنَّ الْإِيمَانَ غَيْرُ الْإِسْلَامِ",
+            "chunk_type": "closing",
+            "word_end": 53,
+            "word_start": 44
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 27,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ عِيسَى",
+              "name_en": "Muhammad ibn Isa",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 26,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "يُونُسَ",
+              "name_en": "Yunus",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 66,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "جَمِيلِ بْنِ دَرَّاجٍ",
+              "name_en": "Jamil ibn Darraj",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الْإِيمَانُ",
+          "الْإِسْلَامُ",
+          "الْأَعْرابُ",
+          "قُلُوبِكُمْ"
+        ],
+        "related_quran": [
+          {
+            "ref": "49:14",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "2:285",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "9:67",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "theology",
+          "quran_commentary"
+        ],
+        "topics": [
+          "quran_interpretation_method",
+          "tawhid"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> صحيح   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (7/124)"
       ],
@@ -81,7 +209,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:1:14:3",

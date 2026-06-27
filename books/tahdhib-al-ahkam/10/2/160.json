@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ حَدِيدٍ وَابْنِ أَبِي عُمَيْرٍ جَمِيعًا عَنْ جَمِيلِ بْنِ دَرَّاجٍ عَنْ رَجُلٍ عَنْ أَحَدِهِمَا عَلَيْهِمَا السَّلَامُ فِي",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন মুহাম্মাদ, আলী ইবন হাদীদ ও ইবন আবি উমাইর থেকে, উভয়ে একত্রে, জামিল ইবন দাররাজ থেকে, এক ব্যক্তির কাছ থেকে, সেই দুইজনের একজনের কাছ থেকে عليهما السلام, সম্পর্কে:",
-              "de": "Aḥmad ibn Muḥammad, von ʿAlī ibn Ḥadīd und Ibn Abī ʿUmayr gemeinsam, von Jamīl ibn Darrāj, von einem Mann, von einem der beiden عليهما السلام, über:",
-              "en": "Aḥmad ibn Muḥammad, from ʿAlī ibn Ḥadīd and Ibn Abī ʿUmayr together, from Jamīl ibn Darrāj, from a man, from one of the two عليهما السلام, concerning:",
-              "es": "Aḥmad ibn Muḥammad, de ʿAlī ibn Ḥadīd e Ibn Abī ʿUmayr juntos, de Jamīl ibn Darrāj, de un hombre, de uno de los dos عليهما السلام, acerca de:",
-              "fa": "احمد بن محمد، از علی بن حدید و ابن ابی عمیر، هر دو با هم، از جمیل بن دراج، از یک مرد، از یکی از آن دو عليهما السلام، درباره:",
-              "fr": "Aḥmad ibn Muḥammad, de ʿAlī ibn Ḥadīd et Ibn Abī ʿUmayr ensemble, de Jamīl ibn Darrāj, d’un homme, de l’un des deux عليهما السلام, au sujet de :",
-              "id": "Aḥmad ibn Muḥammad, dari ʿAlī ibn Ḥadīd dan Ibn Abī ʿUmayr bersama-sama, dari Jamīl ibn Darrāj, dari seorang laki-laki, dari salah satu dari keduanya عليهما السلام, tentang:",
-              "ru": "Ахмад ибн Мухаммад, от Али ибн Хадида и Ибн Аби Умайра вместе, от Джамиля ибн Дарраджа, от одного человека, от одного из тех двоих عليهما السلام, о:",
-              "tr": "Ahmed ibn Muhammed, birlikte Ali ibn Hadid ve İbn Ebi Umeyr’den, Cemil ibn Dırac’tan, bir adamdan, o iki zatın عليهما السلام’dan birinden, hakkında:",
-              "ur": "احمد بن محمد، علی بن حدید اور ابن ابی عمیر سے، دونوں مل کر، جمیل بن دراج سے، ایک شخص سے، ان دونوں علیہما السلام میں سے ایک سے، کے بارے میں:",
-              "zh": "艾哈迈德·伊本·穆罕默德，来自阿里·伊本·哈迪德和伊本·阿比·乌迈尔二人共同，来自贾米勒·伊本·达拉杰，来自一人，来自那两位中的一位 عليهما السلام，关于："
-            },
             "word_end": 22,
             "word_start": 0
           },
           {
             "arabic_text": "رَجُلٍ سَرَقَ أَوْ شَرِبَ الْخَمْرَ أَوْ زَنَى فَلَمْ يُعْلَمْ ذَلِكَ مِنْهُ وَلَمْ يُؤْخَذْ حَتَّى تَابَ وَصَلَحَ فَقَالَ: «إِذَا صَلَحَ وَعُرِفَ مِنْهُ أَمْرٌ جَمِيلٌ لَمْ يُقَمْ عَلَيْهِ الْحَدُّ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এক ব্যক্তি যে চুরি করেছিল, অথবা মদ পান করেছিল, অথবা যিনা করেছিল, কিন্তু তা তার কাছ থেকে জানা যায়নি এবং সে তওবা করে সংশোধিত না হওয়া পর্যন্ত তাকে ধরা হয়নি—তিনি বললেন: “যদি সে সংশোধিত হয়ে থাকে এবং তার কাছ থেকে কোনো ভালো কাজ পরিচিত হয়, তবে তার ওপর হদ্দ কায়েম করা হবে না।”",
-              "de": "Ein Mann, der stahl oder Wein trank oder zina beging, doch dies war von ihm nicht bekannt und er wurde nicht ergriffen, bis er bereute und sich besserte—er sagte: „Wenn er sich gebessert hat und von ihm etwas Gutes bekannt geworden ist, wird das hadd nicht an ihm vollzogen.“",
-              "en": "A man who stole, or drank wine, or committed zina, but that was not known from him and he was not apprehended until he repented and reformed—he said: “If he has reformed and something good is recognized from him, the hadd is not carried out upon him.”",
-              "es": "Un hombre que robó, o bebió vino, o cometió zina, pero eso no se supo de él y no fue apresado hasta que se arrepintió y se reformó—dijo: “Si se ha reformado y se reconoce de él algo bueno, no se le aplica el hadd.”",
-              "fa": "مردی که دزدی کرد، یا شراب نوشید، یا زنا نمود، ولی این از او دانسته نشد و تا وقتی توبه کرد و اصلاح شد دستگیر نگردید—فرمود: «اگر اصلاح شده باشد و از او کار نیکی شناخته شود، حد بر او جاری نمی‌شود.»",
-              "fr": "Un homme qui a volé, ou bu du vin, ou commis la zina, mais cela n’était pas connu de lui et il ne fut pas appréhendé jusqu’à ce qu’il se repente et se réforme—il dit : « S’il s’est réformé et qu’une bonne conduite est reconnue de lui, le hadd ne sera pas appliqué contre lui. »",
-              "id": "Seorang laki-laki yang mencuri, atau minum khamr, atau berzina, tetapi hal itu tidak diketahui darinya dan ia tidak ditangkap sampai ia bertobat dan menjadi baik—beliau bersabda: “Jika ia telah menjadi baik dan sesuatu yang baik dikenal darinya, maka hadd tidak ditegakkan atasnya.”",
-              "ru": "Человек, который украл, или пил вино, или совершил зина, но это не было известно о нём, и его не схватили, пока он не покаялся и не исправился,—он сказал: «Если он исправился и от него стало известно что-то хорошее, то хадд не приводится в исполнение против него».",
-              "tr": "Bir adam ki hırsızlık yaptı, ya da şarap içti, ya da zina etti; fakat bu ondan bilinmiyordu ve o tövbe edip ıslah oluncaya kadar yakalanmadı—şöyle buyurdu: “Eğer ıslah olmuş ve ondan güzel bir hâl tanınmışsa, ona hadd uygulanmaz.”",
-              "ur": "ایک شخص جس نے چوری کی، یا شراب پی، یا زنا کیا، لیکن یہ اس سے معلوم نہ تھا اور اسے اس وقت تک گرفتار نہ کیا گیا جب تک اس نے توبہ نہ کر لی اور اصلاح نہ کر لی—انہوں نے فرمایا: “اگر وہ درست ہو گیا ہو اور اس سے کوئی اچھی بات ظاہر ہو چکی ہو تو اس پر حد قائم نہیں کی جاتی۔”",
-              "zh": "一个人偷窃了，或者喝了酒，或者犯了zina，但这并未被人知道，而且直到他悔罪并改过自新之前也没有被抓获——他说：“如果他已经改过自新，并且人们从他身上认识到某种善行，那么就不对他执行hadd。”"
-            },
             "word_end": 49,
             "word_start": 22
           },
           {
             "arabic_text": "قَالَ مُحَمَّدُ بْنُ أَبِي عُمَيْرٍ: قُلْتُ فَإِنْ كَانَ أَمْرًا قَرِيبًا لَمْ يُقَمْ عَلَيْهِ الْحَدُّ؟ قَالَ: «لَوْ كَانَ خَمْسَةَ أَشْهُرٍ أَوْ أَقَلَّ وَقَدْ ظَهَرَ مِنْهُ أَمْرٌ جَمِيلٌ لَمْ تُقَمْ عَلَيْهِ الْحُدُودُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "মুহাম্মাদ ইবন আবি উমাইর বলেন: আমি বললাম, “যদি তা সাম্প্রতিক সময়ের হয়, তবুও কি তার ওপর হদ্দ কায়েম করা হবে না?” তিনি বললেন: “পাঁচ মাস বা তার কম হলেও, এবং তার কাছ থেকে কোনো ভালো কাজ প্রকাশ পেলে, তার ওপর হুদুদ কায়েম করা হবে না।”",
-              "de": "Muḥammad ibn Abī ʿUmayr sagte: Ich sagte: „Selbst wenn es etwas Kürzliches war, wird das hadd dann nicht an ihm vollzogen?“ Er sagte: „Selbst wenn es fünf Monate oder weniger gewesen sind und von ihm etwas Gutes sichtbar geworden ist, werden die hudud nicht an ihm vollzogen.“",
-              "en": "Muḥammad ibn Abī ʿUmayr said: I said, “Even if it was something recent, the hadd is not carried out upon him?” He said: “Even if it was five months or less, and something good has appeared from him, the hudud are not carried out upon him.”",
-              "es": "Muḥammad ibn Abī ʿUmayr dijo: Yo dije: “¿Aunque haya sido algo reciente, no se le aplica el hadd?” Dijo: “Aunque hayan pasado cinco meses o menos, y haya aparecido de él algo bueno, no se le aplican los hudud.”",
-              "fa": "محمد بن ابی عمیر گفت: عرض کردم: «اگر این کار نزدیک باشد، باز هم حد بر او جاری نمی‌شود؟» فرمود: «اگر پنج ماه یا کمتر هم گذشته باشد و از او کار نیکی آشکار شده باشد، حدود بر او جاری نمی‌شود.»",
-              "fr": "Muḥammad ibn Abī ʿUmayr dit : « Je dis : “Même si c’était quelque chose de récent, le hadd ne sera pas appliqué contre lui ?” » Il dit : « Même si cela remonte à cinq mois ou moins, et qu’une bonne conduite est apparue de lui, les hudud ne seront pas appliqués contre lui. »",
-              "id": "Muḥammad ibn Abī ʿUmayr berkata: Aku berkata, “Kalau itu baru saja terjadi, apakah hadd juga tidak ditegakkan atasnya?” Beliau bersabda: “Walaupun lima bulan atau kurang, dan sesuatu yang baik telah tampak darinya, hudud tidak ditegakkan atasnya.”",
-              "ru": "Мухаммад ибн Аби Умайр сказал: Я спросил: «Даже если это было недавно, хадд всё равно не приводится в исполнение против него?» Он сказал: «Даже если прошло пять месяцев или меньше, и от него стало заметно что-то хорошее, то худуд не приводятся в исполнение против него».",
-              "tr": "Muhammed ibn Ebi Umeyr dedi ki: “Ben dedim ki: ‘Eğer bu yakın bir zaman önce olmuşsa da ona hadd uygulanmaz mı?’” Şöyle buyurdu: “Beş ay veya daha az olsa bile ve ondan güzel bir hâl ortaya çıkmış olsa, ona hudud uygulanmaz.”",
-              "ur": "محمد بن ابی عمیر نے کہا: میں نے عرض کیا، “اگر یہ حال قریب ہی کا ہو تب بھی اس پر حد قائم نہیں کی جاتی؟” انہوں نے فرمایا: “اگر پانچ مہینے یا اس سے کم بھی گزرے ہوں، اور اس سے کوئی اچھی بات ظاہر ہو چکی ہو، تو اس پر حدود قائم نہیں کی جاتیں۔”",
-              "zh": "穆罕默德·伊本·阿比·乌迈尔说：我说：“即使这是最近发生的事，也不对他执行hadd吗？”他说：“即使过了五个月或更少，并且从他身上已经显现出某种善行，也不对他执行hudud。”"
-            },
             "word_end": 79,
             "word_start": 49
           }
@@ -143,28 +117,16 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَمْرٌ جَمِيلٌ": "good and commendable conduct that becomes evident",
-            "الْحَدُّ": "the prescribed legal punishment",
-            "الْحُدُودُ": "the prescribed legal punishments",
-            "تَابَ": "repented to Allah",
-            "زَنَى": "committed zina",
-            "سَرَقَ": "committed theft",
-            "شَرِبَ الْخَمْرَ": "drank wine, meaning consumed an intoxicant unlawfully",
-            "صَلَحَ": "reformed and became upright"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "سَرَقَ",
+          "شَرِبَ الْخَمْرَ",
+          "زَنَى",
+          "تَابَ",
+          "صَلَحَ",
+          "أَمْرٌ جَمِيلٌ",
+          "الْحَدُّ",
+          "الْحُدُودُ"
+        ],
         "related_quran": [
           {
             "ref": "5:39",
@@ -179,32 +141,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কোনো ব্যক্তি ধরা পড়ার আগে তওবা করে সংশোধিত হলে কি তার ওপর থেকে হদ্দ শাস্তি উঠে যায়?",
-          "de": "Fällt die hadd-Strafe weg, wenn eine Person bereut und sich bessert, bevor sie ergriffen wird?",
-          "en": "Is the hadd punishment dropped if a person repents and reforms before being apprehended?",
-          "es": "¿Se levanta el castigo hadd si una persona se arrepiente y se reforma antes de ser apresada?",
-          "fa": "آیا اگر کسی پیش از دستگیر شدن توبه و اصلاح کند، حد از او ساقط می‌شود؟",
-          "fr": "La peine hadd est-elle levée si une personne se repent et se réforme avant d’être appréhendée ?",
-          "id": "Apakah hukuman hadd gugur jika seseorang bertobat dan menjadi baik sebelum ditangkap?",
-          "ru": "Снимается ли наказание хадд, если человек кается и исправляется до того, как его схватят?",
-          "tr": "Bir kişi yakalanmadan önce tövbe edip ıslah olursa hadd cezası düşer mi?",
-          "ur": "کیا اگر کوئی شخص گرفتار ہونے سے پہلے توبہ اور اصلاح کر لے تو اس سے حد ساقط ہو جاتی ہے؟",
-          "zh": "如果一个人在被抓获前悔罪并改过自新，hadd刑罚会被免除吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে এমন ব্যক্তির শরয়ি বিধান বর্ণনা করা হয়েছে, যে চুরি করেছে, মদ পান করেছে, বা যিনা করেছে, কিন্তু তওবা ও সংশোধনের আগে তার বিষয়টি প্রকাশ পায়নি এবং তাকে ধরা হয়নি। যদি প্রকৃত সংশোধন ও ভালো আচরণ প্রকাশ পায়, তবে নির্ধারিত হদ্দ শাস্তি তার ওপর কার্যকর করা হয় না, যদিও অপরাধটি তুলনামূলকভাবে সাম্প্রতিক হয়ে থাকে।",
-          "de": "Dieser Hadith erläutert eine rechtliche Bestimmung über eine Person, die stahl, Wein trank oder zina beging, deren Tat jedoch nicht bekannt wurde und die nicht ergriffen wurde, bevor sie bereute und sich besserte. Wenn echte Besserung und gutes Verhalten erkennbar werden, wird die vorgeschriebene hadd-Strafe nicht an ihr vollzogen, selbst wenn die Tat relativ kürzlich begangen wurde.",
-          "en": "This hadith gives a legal ruling concerning a person who committed theft, drank wine, or committed zina, but was not exposed or arrested before repenting and reforming. If genuine reform and good conduct become evident, the prescribed hadd punishment is not carried out upon him, even if the offense had occurred relatively recently.",
-          "es": "Este hadiz expone una norma jurídica sobre una persona que robó, bebió vino o cometió zina, pero cuyo caso no se hizo público ni fue arrestada antes de arrepentirse y reformarse. Si se hace evidente una reforma genuina y una buena conducta, no se le aplica el castigo hadd prescrito, aunque la falta haya ocurrido relativamente hace poco.",
-          "fa": "این حدیث حکم شرعیِ مربوط به کسی را بیان می‌کند که دزدی کرده، شراب نوشیده یا زنا نموده، اما پیش از توبه و اصلاح، کار او آشکار نشده و دستگیر نگردیده است. اگر اصلاح واقعی و رفتار نیک آشکار شود، حدّ مقرر بر او جاری نمی‌شود، هرچند جرم نسبتاً به‌تازگی رخ داده باشد.",
-          "fr": "Ce hadith expose une règle juridique concernant une personne qui a volé, bu du vin ou commis la zina, mais dont l’affaire n’a pas été révélée et qui n’a pas été arrêtée avant de se repentir et de se réformer. Si une réforme sincère et une bonne conduite deviennent manifestes, la peine hadd prescrite n’est pas appliquée contre elle, même si l’infraction est relativement récente.",
-          "id": "Hadis ini menjelaskan حكم syar‘i tentang seseorang yang mencuri, minum khamr, atau berzina, tetapi perbuatannya tidak terbongkar dan ia tidak ditangkap sebelum bertobat dan menjadi baik. Jika perbaikan yang nyata dan perilaku baik tampak, maka hukuman hadd yang ditetapkan tidak ditegakkan atasnya, meskipun pelanggaran itu terjadi relatif baru.",
-          "ru": "Этот хадис разъясняет правовое постановление относительно человека, который украл, пил вино или совершил зина, но его поступок не стал известен и его не схватили до того, как он покаялся и исправился. Если становится очевидным подлинное исправление и доброе поведение, то установленное наказание хадд не приводится в исполнение против него, даже если проступок был совершён сравнительно недавно.",
-          "tr": "Bu hadis, hırsızlık yapan, şarap içen veya zina eden; fakat tövbe edip ıslah olmadan önce durumu ortaya çıkmayan ve yakalanmayan bir kişi hakkında şer‘î hükmü بیان eder. Gerçek bir ıslah ve güzel davranış ortaya çıkarsa, suç nispeten yakın zamanda işlenmiş olsa bile belirlenmiş hadd cezası uygulanmaz.",
-          "ur": "یہ حدیث اس شخص کے بارے میں شرعی حکم بیان کرتی ہے جس نے چوری کی، شراب پی، یا زنا کیا، لیکن توبہ اور اصلاح سے پہلے اس کا معاملہ ظاہر نہ ہوا اور نہ اسے گرفتار کیا گیا۔ اگر حقیقی اصلاح اور اچھا کردار ظاہر ہو جائے تو مقررہ حد جاری نہیں کی جاتی، چاہے جرم نسبتاً حال ہی میں ہوا ہو۔",
-          "zh": "这段圣训阐明了关于一个人偷窃、喝酒或犯了zina，但在悔罪并改过之前其行为并未败露、也未被抓获的教法律例。如果真正的改过和善行已经显现，那么即使该罪行发生得相对较近，规定的hadd刑罚也不会对他执行。"
-        },
         "tags": [
           "jurisprudence",
           "ethics",

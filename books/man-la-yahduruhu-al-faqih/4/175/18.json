@@ -17,23 +17,23 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلشَّقِيُّ مَنْ شَقِيَ فِي بَطْنِ أُمِّهِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "দুর্ভাগ্যবান সে, যে তার মায়ের গর্ভেই দুর্ভাগ্যবান।",
-              "de": "Der Elende ist derjenige, der im Leib seiner Mutter elend ist.",
-              "en": "The wretched one is he who is wretched in his mother's womb.",
-              "es": "El desgraciado es aquel que es desgraciado en el vientre de su madre.",
-              "fa": "بدبخت کسی است که در رحم مادرش بدبخت باشد.",
-              "fr": "Le malheureux est celui qui est malheureux dans le ventre de sa mère.",
-              "id": "Orang yang celaka adalah dia yang celaka di dalam rahim ibunya.",
-              "ru": "Несчастный тот, кто несчастен в утробе своей матери.",
-              "tr": "Bedbaht olan, annesinin rahminde bedbaht olandır.",
-              "ur": "بدبخت وہ ہے جو اپنی ماں کے پیٹ میں بدبخت ہو۔",
-              "zh": "不幸者是在母亲子宫中就不幸的人。"
-            },
             "word_end": 6,
             "word_start": 0
           }
@@ -45,23 +45,11 @@
           "narrators": []
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "اَلشَّقِيُّ": "the wretched one; the person marked by misery or ill-fate",
-            "بَطْنِ أُمِّهِ": "his mother's womb; the prenatal state",
-            "شَقِيَ": "to be wretched or miserable"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "اَلشَّقِيُّ",
+          "شَقِيَ",
+          "بَطْنِ أُمِّهِ"
+        ],
         "related_quran": [
           {
             "ref": "11:105",
@@ -76,32 +64,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হাদিস যখন বলে যে দুর্ভাগ্যবান সে, যে তার মায়ের গর্ভেই দুর্ভাগ্যবান, তখন এর অর্থ কী?",
-          "de": "Was bedeutet der Hadith, wenn er sagt, der Elende sei im Leib seiner Mutter elend?",
-          "en": "What does the hadith mean when it says the wretched one is wretched in his mother's womb?",
-          "es": "¿Qué significa el hadiz cuando dice que el desgraciado es desgraciado en el vientre de su madre?",
-          "fa": "وقتی حدیث می‌گوید بدبخت کسی است که در رحم مادرش بدبخت باشد، منظور چیست؟",
-          "fr": "Que signifie le hadith lorsqu'il dit que le malheureux est malheureux dans le ventre de sa mère ?",
-          "id": "Apa arti hadits ketika mengatakan orang yang celaka adalah dia yang celaka di dalam rahim ibunya?",
-          "ru": "Что означает хадис, когда говорится, что несчастный тот, кто несчастен в утробе своей матери?",
-          "tr": "Hadis, 'Bedbaht olan annesinin rahminde bedbaht olandır' dediğinde ne anlama gelir?",
-          "ur": "جب حدیث کہتی ہے کہ بدبخت وہ ہے جو اپنی ماں کے پیٹ میں بدبخت ہو، اس کا کیا مطلب ہے؟",
-          "zh": "圣训说不幸者是在母亲子宫中就不幸的人，这是什么意思？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি সংক্ষিপ্ত শিক্ষা প্রদান করে যে চূড়ান্ত দুর্ভাগ্য মানুষের অস্তিত্বের প্রাথমিক পর্যায় থেকে তার অবস্থার সাথে সম্পর্কিত। এটি ঐশ্বরিক تقدیر, মানব ভাগ্য এবং সুখ বা দুর্ভাগ্যের বাস্তবতার প্রশ্নগুলির সাথে বিষয়গতভাবে সংযুক্ত।",
-          "de": "Dieser Hadith vermittelt eine prägnante Lehre darüber, dass das ultimative Elend mit dem Zustand eines Menschen von der frühesten Existenzphase an verbunden ist. Er steht thematisch im Zusammenhang mit Fragen des göttlichen Schicksals, des menschlichen Schicksals und der Realität von Glück oder Elend.",
-          "en": "This hadith expresses a concise teaching about ultimate wretchedness being tied to one's state from the earliest stage of existence. It is thematically connected to questions of divine decree, human destiny, and the reality of felicity or wretchedness.",
-          "es": "Este hadiz expresa una enseñanza concisa sobre la máxima desgracia vinculada al estado de uno desde la etapa más temprana de la existencia. Está temáticamente conectado con cuestiones de decreto divino, destino humano y la realidad de la felicidad o desgracia.",
-          "fa": "این حدیث تعلیم مختصری درباره بدبختی نهایی که به وضعیت انسان از ابتدایی‌ترین مرحله وجود مرتبط است، بیان می‌کند. این موضوع به مسائل قضا و قدر الهی، سرنوشت انسان و واقعیت سعادت یا بدبختی مرتبط است.",
-          "fr": "Ce hadith exprime un enseignement concis sur la misère ultime liée à l'état de l'individu dès les premiers stades de l'existence. Il est thématiquement lié aux questions du décret divin, du destin humain et de la réalité de la félicité ou de la misère.",
-          "id": "Hadis ini menyampaikan ajaran singkat bahwa kesengsaraan tertinggi terkait dengan keadaan seseorang sejak tahap awal keberadaan. Ini terkait secara tematik dengan pertanyaan tentang takdir ilahi, nasib manusia, dan kenyataan kebahagiaan atau kesengsaraan.",
-          "ru": "Этот хадис выражает краткое учение о том, что высшая несчастность связана с состоянием человека с самого раннего этапа существования. Тематически он связан с вопросами божественного предопределения, человеческой судьбы и реальности счастья или несчастья.",
-          "tr": "Bu hadis, nihai bedbahtlığın varoluşun en erken aşamasından itibaren kişinin durumuyla bağlantılı olduğunu kısa ve öz bir şekilde öğretir. İlahi kader, insanın kaderi ve mutluluk ya da bedbahtlık gerçeği konularıyla tematik olarak bağlantılıdır.",
-          "ur": "یہ حدیث ایک مختصر تعلیم بیان کرتی ہے کہ آخری بدبختی انسان کی وجود کے ابتدائی مرحلے سے منسلک ہے۔ یہ الہی تقدیر، انسانی نصیب، اور خوشحالی یا بدبختی کی حقیقت کے سوالات سے موضوعی طور پر جڑی ہے۔",
-          "zh": "这段圣训简明地教导了终极不幸与人从存在最初阶段的状态相关。它在主题上与神的旨意、人类命运以及幸福或不幸的现实相关联。"
-        },
         "tags": [
           "theology",
           "prophetic_tradition",

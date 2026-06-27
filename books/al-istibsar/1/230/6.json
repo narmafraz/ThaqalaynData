@@ -15,42 +15,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَلِيٌّ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنِ ابْنِ أُذَيْنَةَ عَنْ زُرَارَةَ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী, তাঁর পিতা থেকে, ইবন আবি উমাইর থেকে, ইবন উদাইনা থেকে, জুরারা থেকে, যিনি বলেছেন:",
-              "de": "ʿAlī, von seinem Vater, von Ibn Abī ʿUmayr, von Ibn Udhaynah, von Zurārah, der sagte:",
-              "en": "ʿAlī, from his father, from Ibn Abī ʿUmayr, from Ibn Udhaynah, from Zurārah, who said:",
-              "es": "ʿAlī, de su padre, de Ibn Abī ʿUmayr, de Ibn Udhaynah, de Zurārah, quien dijo:",
-              "fa": "علی، از پدرش، از ابن ابی عمیر، از ابن اذینه، از زراره، که گفت:",
-              "fr": "ʿAlī, de son père, d’Ibn Abī ʿUmayr, d’Ibn Udhaynah, de Zurārah, qui a dit :",
-              "id": "Ali, dari ayahnya, dari Ibn Abi Umayr, dari Ibn Udhaynah, dari Zurarah, yang berkata:",
-              "ru": "ʿАли, от своего отца, от Ибн Аби ʿУмайра, от Ибн Удайны, от Зурары, который сказал:",
-              "tr": "Ali, babasından, İbn Ebî Umeyr’den, İbn Udeyne’den, Zurâre’den rivayetle dedi ki:",
-              "ur": "علی، اپنے والد سے، ابن ابی عمیر سے، ابن اذینہ سے، زرارہ سے، جنہوں نے کہا:",
-              "zh": "阿里,由其父传自伊本阿比乌迈尔,由伊本乌代纳传自祖拉拉,他说:"
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "كَانَ أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ يَقُولُ: لَا تَكُونُ الْخُطْبَةُ وَالْجُمُعَةُ وَصَلَاةُ رَكْعَتَيْنِ عَلَى أَقَلَّ مِنْ خَمْسَةِ رَهْطٍ، الْإِمَامُ وَأَرْبَعَةٌ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আবু জাফর عليه السلام বলতেন: খুতবা, জুমু‘আ, এবং দুই রাক‘আত সালাত পাঁচজনের কমে অনুষ্ঠিত হবে না: ইমাম এবং আরও চারজন।",
-              "de": "Abū Jaʿfar عليه السلام pflegte zu sagen: Die Khutbah, das Jumuʿah und die zweirakʿatige Salat dürfen nicht mit weniger als fünf Personen abgehalten werden: dem Imam und vier weiteren.",
-              "en": "Abū Jaʿfar عليه السلام used to say: the khutbah, the Jumuʿah, and the two-rakʿah salat are not to be held with fewer than five persons: the Imam and four others.",
-              "es": "Abū Yaʿfar عليه السلام solía decir: la jutbah, el Jumuʿah y la salat de dos rakʿah no deben celebrarse con menos de cinco personas: el imán y otras cuatro.",
-              "fa": "ابوجعفر علیه السلام می‌فرمود: خطبه، جمعه، و نماز دو رکعتی با کمتر از پنج نفر برپا نمی‌شود: امام و چهار نفر دیگر.",
-              "fr": "Abū Jaʿfar عليه السلام disait : le khutbah, le Jumuʿah et la salat de deux rakʿah ne doivent pas être accomplis avec moins de cinq personnes : l’imam et quatre autres.",
-              "id": "Abu Jaʿfar عليه السلام biasa berkata: khutbah, Jumuʿah, dan salat dua rakaat tidak boleh dilaksanakan dengan kurang dari lima orang: imam dan empat orang lainnya.",
-              "ru": "Абу Джаʿфар عليه السلام обычно говорил: хутба, джума и двухракаатная салат не совершаются при числе менее пяти человек: имам и еще четверо.",
-              "tr": "Ebû Caʿfer عليه السلام şöyle derdi: Hutbe, Cuma ve iki rekâtlık salat, imam ve dört kişi olmak üzere beş kişiden azıyla kılınmaz.",
-              "ur": "ابو جعفر علیہ السلام فرمایا کرتے تھے: خطبہ، جمعہ، اور دو رکعت نماز پانچ افراد سے کم کے ساتھ قائم نہیں کی جاتی: امام اور چار دیگر۔",
-              "zh": "阿布贾法尔 عليه السلام常说:演讲、主麻和两拜salat不得少于五人举行:伊玛目和另外四人。"
-            },
             "word_end": 32,
             "word_start": 13
           }
@@ -93,57 +80,19 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْإِمَامُ": "the prayer leader who leads the Jumuʿah",
-            "الْجُمُعَةُ": "the Friday congregational worship",
-            "الْخُطْبَةُ": "the sermon delivered as part of the Friday prayer service",
-            "خَمْسَةِ رَهْطٍ": "a group of five persons, the minimum number mentioned here",
-            "صَلَاةُ رَكْعَتَيْنِ": "the two-rakʿah salat performed for Jumuʿah"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْخُطْبَةُ",
+          "الْجُمُعَةُ",
+          "صَلَاةُ رَكْعَتَيْنِ",
+          "خَمْسَةِ رَهْطٍ",
+          "الْإِمَامُ"
+        ],
         "related_quran": [
           {
             "ref": "62:9",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-বাকির عليه السلام-এর মতে জুমু‘আ সালাত কায়েম করার জন্য ন্যূনতম কতজন প্রয়োজন?",
-          "de": "Wie viele Personen sind nach Imam al-Baqir عليه السلام mindestens erforderlich, um die Jumuʿah-Salat zu etablieren?",
-          "en": "What is the minimum number required to establish Jumuʿah prayer according to Imam al-Baqir عليه السلام?",
-          "es": "Según el Imam al-Baqir عليه السلام, ¿cuál es el número mínimo necesario para establecer la salat del Jumuʿah?",
-          "fa": "بر اساس سخن امام باقر علیه السلام، حداقل تعداد لازم برای برپایی نماز جمعه چند نفر است؟",
-          "fr": "Selon l’imam al-Baqir عليه السلام, quel est le nombre minimum requis pour établir la salat du Jumuʿah ?",
-          "id": "Menurut Imam al-Baqir عليه السلام, berapa jumlah minimum yang diperlukan untuk menegakkan salat Jumuʿah?",
-          "ru": "Согласно имаму аль-Бакиру عليه السلام, какое минимальное число людей необходимо для совершения салят аль-джума?",
-          "tr": "İmam el-Bâkır عليه السلام’a göre Cuma namazını قائم etmek için gereken en az kişi sayısı kaçtır?",
-          "ur": "امام الباقر علیہ السلام کے مطابق جمعہ کی نماز قائم کرنے کے لیے کم از کم کتنے افراد درکار ہیں؟",
-          "zh": "根据伊玛目巴基尔 عليه السلام,举行主麻礼拜所需的最低人数是多少?"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে জুমু‘আ কায়েম করার জন্য প্রয়োজনীয় ন্যূনতম সংখ্যার বিষয়ে একটি শরঈ বিধান বর্ণিত হয়েছে। এতে বোঝা যায় যে খুতবা এবং দুই রাক‘আত জুমু‘আ সালাত পাঁচজনের কমে প্রতিষ্ঠিত হয় না, অর্থাৎ ইমাম এবং আরও চারজন।",
-          "de": "Dieser Hadith nennt eine rechtliche Bestimmung über die Mindestzahl, die für das Jumuʿah erforderlich ist. Er zeigt, dass die Khutbah und die zweirakʿatige Freitags-Salat nicht mit weniger als fünf Personen, nämlich dem Imam und vier weiteren, gültig sind.",
-          "en": "This hadith states a legal ruling concerning the minimum number required for Jumuʿah. It indicates that the khutbah and the two-rakʿah Friday salat are not established with fewer than five people, consisting of the Imam and four others.",
-          "es": "Este hadiz expone una norma jurídica sobre el número mínimo requerido para establecer el Jumuʿah. Indica que la jutbah y la salat de dos rakʿah del viernes no se establecen con menos de cinco personas, es decir, el imán y otras cuatro.",
-          "fa": "این حدیث حکمی فقهی درباره حداقل شمار لازم برای برپایی جمعه بیان می‌کند. بر اساس آن، خطبه و نماز دو رکعتی جمعه با کمتر از پنج نفر، یعنی امام و چهار نفر دیگر، برپا نمی‌شود.",
-          "fr": "Ce hadith énonce une règle juridique concernant le nombre minimum requis pour établir le Jumuʿah. Il indique que le khutbah et la salat du vendredi de deux rakʿah ne sont pas établis avec moins de cinq personnes, à savoir l’imam et quatre autres.",
-          "id": "Hadis ini menyatakan sebuah hukum fikih tentang jumlah minimum yang diperlukan untuk menegakkan Jumuʿah. Ini menunjukkan bahwa khutbah dan salat Jumat dua rakaat tidak sah dengan kurang dari lima orang, yaitu imam dan empat orang lainnya.",
-          "ru": "Этот хадис сообщает правовое постановление о минимальном числе, необходимом для совершения джума. Он указывает, что хутба и двухракаатная пятничная салат не устанавливаются при числе менее пяти человек, то есть имам и еще четверо.",
-          "tr": "Bu hadis, Cuma namazını قائم etmek için gereken asgari sayı hakkında bir fıkhî hüküm bildirir. Buna göre hutbe ve iki rekâtlık Cuma salatı, imam ve dört kişi olmak üzere beş kişiden azıyla قائم olmaz.",
-          "ur": "یہ حدیث جمعہ قائم کرنے کے لیے درکار کم از کم تعداد کے بارے میں ایک شرعی حکم بیان کرتی ہے۔ اس سے معلوم ہوتا ہے کہ خطبہ اور دو رکعت جمعہ کی نماز پانچ افراد سے کم کے ساتھ قائم نہیں ہوتی، یعنی امام اور چار دیگر افراد۔",
-          "zh": "这段圣训说明了关于举行主麻所需最低人数的教法判定。它表明,演讲和两拜的主麻salat少于五人不能成立,即伊玛目和另外四人。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

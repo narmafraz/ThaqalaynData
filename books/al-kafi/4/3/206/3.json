@@ -13,6 +13,130 @@
       "up": "/books/al-kafi:4:3:206"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ إِسْمَاعِيلَ بْنِ مَرَّارٍ عَنْ يُونُسَ عَنْ عَلِيِّ بْنِ أَبِي حَمْزَةَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 17,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُ أَبَا الْحَسَنِ ( عَلَيْهِ السَّلَامُ ) عَنْ رَجُلٍ يَدْخُلُ مَكَّةَ فِي السَّنَةِ الْمَرَّةَ أَوِ الْمَرَّتَيْنِ أَوِ الْأَرْبَعَةَ كَيْفَ يَصْنَعُ قَالَ إِذَا دَخَلَ فَلْيَدْخُلْ مُلَبِّياً وَ إِذَا خَرَجَ فَلْيَخْرُجْ مُحِلًّا",
+            "chunk_type": "body",
+            "word_end": 47,
+            "word_start": 17
+          },
+          {
+            "arabic_text": "قَالَ وَ لِكُلِّ شَهْرٍ عُمْرَةٌ فَقُلْتُ يَكُونُ أَقَلَّ قَالَ لِكُلِّ عَشَرَةِ أَيَّامٍ عُمْرَةٌ ثُمَّ قَالَ وَ حَقِّكَ لَقَدْ كَانَ فِي عَامِي هَذِهِ السَّنَةِ سِتُّ عُمَرٍ قُلْتُ لِمَ ذَاكَ فَقَالَ كُنْتُ مَعَ مُحَمَّدِ بْنِ إِبْرَاهِيمَ بِالطَّائِفِ فَكَانَ كُلَّمَا دَخَلَ دَخَلْتُ مَعَهُ",
+            "chunk_type": "body",
+            "word_end": 87,
+            "word_start": 47
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 106,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "إِسْمَاعِيلَ بْنِ مَرَّارٍ",
+              "name_en": "Ismail ibn Marrar",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 26,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "يُونُسَ",
+              "name_en": "Yunus",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 57,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ أَبِي حَمْزَةَ",
+              "name_en": "Ali ibn Abi Hamza",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "مُلَبِّياً",
+          "مُحِلًّا",
+          "عُمْرَةٌ",
+          "الطَّائِفِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:97",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "worship"
+        ],
+        "topics": [
+          "hajj",
+          "sunnah"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف على المشهور   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (8/233)"
       ],
@@ -86,7 +210,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:4:3:206:3",

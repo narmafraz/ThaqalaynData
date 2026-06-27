@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ رَسُولُ ٱللَّهِ صَلَّى ٱللَّهُ عَلَيْهِ وَ آلِهِ :",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আর আল্লাহর রাসূল, তাঁর উপর শান্তি বর্ষিত হোক এবং তাঁর পরিবারে, বললেন:",
-              "de": "Und der Gesandte Allahs, Friede sei mit ihm und seiner Familie, sagte:",
-              "en": "And the Messenger of Allah, peace be upon him and his family, said:",
-              "es": "Y el Mensajero de Allah, la paz sea con él y su familia, dijo:",
-              "fa": "و رسول خدا صلی الله علیه و آله فرمود:",
-              "fr": "Et le Messager d'Allah, paix soit sur lui et sa famille, a dit :",
-              "id": "Dan Rasulullah, shalallahu 'alaihi wa aalihi, bersabda:",
-              "ru": "И Посланник Аллаха, мир ему и его семье, сказал:",
-              "tr": "Ve Allah'ın Resulü, ona ve ailesine selam olsun, dedi ki:",
-              "ur": "اور رسول اللہ صلی اللہ علیہ وآلہ وسلم نے فرمایا:",
-              "zh": "安拉使者愿他和平及其家族降福说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "«مَا رَأَيْتُ ضَعِيفَاتِ ٱلدِّينِ نَاقِصَاتِ ٱلْعُقُولِ أَسْلَبَ لِذِي لُبٍّ مِنْكُنَّ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি এমন কাউকে দেখিনি যে ধর্মে দুর্বল এবং বুদ্ধিতে কম, তোমাদের থেকে বুদ্ধিমান ব্যক্তিকে পরাস্ত করতে বেশি সক্ষম।",
-              "de": "Ich habe nicht gesehen, dass diejenigen, die im Glauben schwach und im Verstand mangelhaft sind, eher in der Lage sind, einen verständigen Menschen zu überwältigen als ihr.",
-              "en": "“I have not seen those weak in religion and deficient in intellect more capable of overpowering a person of understanding than you.”",
-              "es": "No he visto a aquellos débiles en la religión y deficientes en intelecto más capaces de dominar a una persona de entendimiento que ustedes.",
-              "fa": "من کسانی را که در دین ضعیف و در عقل ناقص باشند، بیش از شما که دارای فهم هستید، بر دیگران مسلط شوند ندیده‌ام.",
-              "fr": "Je n'ai pas vu ceux qui sont faibles en religion et déficients en intellect plus capables de dominer une personne de compréhension que vous.",
-              "id": "Aku belum pernah melihat orang-orang yang lemah dalam agama dan kurang akal lebih mampu mengalahkan orang yang berakal dari kalian.",
-              "ru": "Я не видел тех, кто слаб в религии и недостаточен в разуме, более способных одолеть разумного человека, чем вы.",
-              "tr": "Dininde zayıf ve akılca eksik olanların, anlayış sahibi birini sizden daha kolay alt ettiğini görmedim.",
-              "ur": "میں نے دین میں کمزور اور عقل میں کمزور لوگوں کو تم سے زیادہ سمجھدار کو قابو پانے والا نہیں دیکھا۔",
-              "zh": "我未见宗教软弱且智力不足者比你们更能制服有理解力的人。"
-            },
             "word_end": 20,
             "word_start": 10
           }
@@ -75,25 +62,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَسْلَبَ": "more capable of taking away or overpowering",
-            "ضَعِيفَاتِ ٱلدِّينِ": "those described as weak in religion",
-            "لِذِي لُبٍّ": "for one possessing understanding or sound reason",
-            "مِنْكُنَّ": "than you women / from among you",
-            "نَاقِصَاتِ ٱلْعُقُولِ": "those described as deficient in intellect"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "ضَعِيفَاتِ ٱلدِّينِ",
+          "نَاقِصَاتِ ٱلْعُقُولِ",
+          "أَسْلَبَ",
+          "لِذِي لُبٍّ",
+          "مِنْكُنَّ"
+        ],
         "related_quran": [
           {
             "ref": "4:34",
@@ -104,32 +79,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস নারীদের ধর্মে দুর্বল এবং বুদ্ধিতে ঘাটতি সম্পর্কে কী বলে?",
-          "de": "Was sagt dieser Hadith über Frauen, die im Glauben schwach und im Verstand mangelhaft sind?",
-          "en": "What does this hadith say about women being weak in religion and deficient in intellect?",
-          "es": "¿Qué dice este hadiz sobre las mujeres que son débiles en la religión y deficientes en intelecto?",
-          "fa": "این حدیث درباره ضعف زنان در دین و نقص عقل چه می‌گوید؟",
-          "fr": "Que dit ce hadith à propos des femmes faibles en religion et déficientes en intellect ?",
-          "id": "Apa yang dikatakan hadis ini tentang wanita yang lemah dalam agama dan kurang akal?",
-          "ru": "Что говорит этот хадис о женщинах, слабых в религии и недостаточных в разуме?",
-          "tr": "Bu hadis kadınların dininde zayıf ve akılca eksik olmaları hakkında ne diyor?",
-          "ur": "یہ حدیث خواتین کے دین میں کمزور اور عقل میں کمزوری کے بارے میں کیا کہتی ہے؟",
-          "zh": "此圣训如何论述女性在宗教软弱及智力不足？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি নবী صلی اللہ علیہ وآلہ وسلم কে বর্ণনা করে যে নারীদের ধর্মে দুর্বলতা এবং বুদ্ধিতে ঘাটতি হিসেবে উল্লেখ করে, এবং একই সাথে বুদ্ধিমান ব্যক্তির উপর তাদের শক্তিশালী প্রভাবকে তুলে ধরে। এটি নারীদের নিন্দনীয় বৈশিষ্ট্যের অধ্যায়ে বর্ণিত হয়েছে।",
-          "de": "Dieser Hadith schreibt dem Propheten صلى الله عليه وآله وسلم eine Aussage zu, die Frauen in Bezug auf Schwäche im Glauben und Mangel an Verstand beschreibt und gleichzeitig ihre starke Wirkung auf einen verständigen Menschen betont. Er wird hier als überlieferte prophetische Aussage in einem Kapitel über tadelnswerte Eigenschaften von Frauen präsentiert.",
-          "en": "This hadith attributes to the Prophet صلى الله عليه وآله وسلم a statement describing women in terms of weakness in religion and deficiency in intellect, while also emphasizing their strong effect upon a person of understanding. It is presented here as a transmitted prophetic statement within a chapter on blameworthy traits and characteristics of women.",
-          "es": "Este hadiz atribuye al Profeta صلى الله عليه وآله وسلم una declaración que describe a las mujeres en términos de debilidad en la religión y deficiencia en el intelecto, mientras enfatiza su fuerte efecto sobre una persona de entendimiento. Se presenta aquí como una declaración profética transmitida dentro de un capítulo sobre rasgos y características censurables de las mujeres.",
-          "fa": "این حدیث به پیامبر صلی الله علیه وآله وسلم نسبت داده شده است که زنان را از نظر ضعف در دین و نقص در عقل توصیف می‌کند و در عین حال تأثیر قوی آنان بر افراد فهمیده را برجسته می‌سازد. این حدیث در باب صفات مذموم زنان نقل شده است.",
-          "fr": "Ce hadith attribue au Prophète صلى الله عليه وآله وسلم une déclaration décrivant les femmes comme faibles en religion et déficientes en intellect, tout en soulignant leur fort effet sur une personne compréhensive. Il est présenté ici comme un énoncé prophétique transmis dans un chapitre sur les traits et caractéristiques blâmables des femmes.",
-          "id": "Hadis ini mengaitkan kepada Nabi صلى الله عليه وآله وسلم sebuah pernyataan yang menggambarkan wanita sebagai lemah dalam agama dan kurang akal, sekaligus menekankan pengaruh kuat mereka terhadap orang yang berakal. Hadis ini disajikan dalam bab sifat tercela wanita.",
-          "ru": "Этот хадис приписывает Пророку صلى الله عليه وآله وسلم высказывание, описывающее женщин как слабых в религии и недостаточных в разуме, при этом подчеркивая их сильное влияние на разумного человека. Представлен как переданное пророческое высказывание в главе о порицаемых чертах и характеристиках женщин.",
-          "tr": "Bu hadis, Peygamber صلى الله عليه وآله وسلم'e atfedilen, kadınları din zayıflığı ve akıl noksanlığı açısından tanımlayan ve aynı zamanda anlayış sahibi bir kişi üzerindeki güçlü etkilerini vurgulayan bir ifadedir. Kadınların ayıplanan özellikleriyle ilgili bir bölümde nakledilmiştir.",
-          "ur": "یہ حدیث نبی صلی اللہ علیہ وآلہ وسلم کی ایک بیان ہے جو خواتین کو دین میں کمزوری اور عقل میں کمی کے حوالے سے بیان کرتی ہے، اور ساتھ ہی سمجھدار شخص پر ان کے اثر کو بھی اجاگر کرتی ہے۔ یہ حدیث خواتین کی مذمت کے باب میں پیش کی گئی ہے۔",
-          "zh": "此圣训归于先知صلى الله عليه وآله وسلم，描述女性在宗教上的软弱和智力上的不足，同时强调她们对有理解力之人的强大影响。此处作为关于女性可责特质章节中的传述先知言论呈现。"
-        },
         "tags": [
           "prophetic_tradition",
           "ethics",

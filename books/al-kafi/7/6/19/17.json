@@ -14,6 +14,114 @@
       "up": "/books/al-kafi:7:6:19"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ جَعْفَرٍ الْك جَعْفَرٍ الْكُوفِيُّ عَنْ مُحَمَّدِ بْنِ إِسْمَاعِيلَ عَنْ جَعْفَرِ بْنِ عِيسَى قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 15,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "كَتَبْتُ إِلَى أَبِي الْحَسَنِ ( عَلَيْهِ السَّلَامُ ) جُعِلْتُ فِدَاكَ الْمَرْأَةُ تَمُوتُ فَيَدَّعِي أَبُوهَا أَنَّهُ كَانَ أَعَارَهَا بَعْضَ مَا كَانَ عِنْدَهَا مِنْ مَتَاعٍ وَ خَدَمٍ أَ تُقْبَلُ دَعْوَاهُ بِلَا بَيِّنَةٍ أَمْ لَا تُقْبَلُ دَعْوَاهُ إِلَّا بِبَيِّنَةٍ فَكَتَبَ إِلَيْهِ يَجُوزُ بِلَا بَيِّنَةٍ",
+            "chunk_type": "body",
+            "word_end": 56,
+            "word_start": 15
+          },
+          {
+            "arabic_text": "قَالَ وَ كَتَبْتُ إِلَيْهِ إِنِ ادَّعَى زَوْجُ الْمَرْأَةِ الْمَيِّتَةِ أَوْ أَبُو زَوْجِهَا أَوْ أُمُّ زَوْجِهَا فِي مَتَاعِهَا أَوْ [فِي] خَدَمِهَا مِثْلَ الَّذِي ادَّعَى أَبُوهَا مِنْ عَارِيَّةِ بَعْضِ الْمَتَاعِ أَوِ الْخَدَمِ أَ تَكُونُ فِي ذَلِكَ بِمَنْزِلَةِ الْأَبِ فِي الدَّعْوَى فَكَتَبَ ( عَلَيْهِ السَّلَامُ ) لَا .",
+            "chunk_type": "body",
+            "word_end": 101,
+            "word_start": 56
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1654,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ جَعْفَرٍ الْكُوفِيُّ",
+              "name_en": "Muhammad b. Ja'far al-Kufi",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 17,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ إِسْمَاعِيلَ",
+              "name_en": "Muhammad ibn Ismail",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1072,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "جَعْفَرِ بْنِ عِيسَى",
+              "name_en": "Ja'far b. Isa",
+              "position": 3,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "دَعْوَاهُ",
+          "بِلَا بَيِّنَةٍ",
+          "مَتَاعٍ",
+          "خَدَمٍ",
+          "عَارِيَّةِ",
+          "بِمَنْزِلَةِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:282",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family",
+          "social_relations"
+        ],
+        "topics": [
+          "inheritance",
+          "judicial_rulings",
+          "financial_law"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> صحيح على الظاهر  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (4/304)"
       ],
@@ -69,7 +177,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:7:6:19:17",

@@ -13,6 +13,147 @@
       "up": "/books/al-kafi:6:6:62"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ وَ عَلِيُّ بْنُ مُحَمَّدٍ جَمِيعاً عَنْ عَلِيِّ بْنِ الْحَسَنِ التَّيْمِيِّ عَنْ أَيُّوبَ بْنِ نُوحٍ عَنْ صَفْوَانَ بْنِ يَحْيَى عَنْ عَبْدِ اللَّهِ بْنِ جُنْدَبٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 29,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَمِعْتُ أَبَا الْحَسَنِ ( عَلَيْهِ السَّلَامُ ) يَقُولُ لَا بَأْسَ بِأَكْلِ لُحُومِ الْجَوَامِيسِ وَ شُرْبِ أَلْبَانِهَا وَ أَكْلِ سُمُونِهَا.",
+            "chunk_type": "body",
+            "word_end": 48,
+            "word_start": 29
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 35,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ مُحَمَّدٍ",
+              "name_en": "Ali ibn Muhammad",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 349,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ الْحَسَنِ التَّيْمِيِّ",
+              "name_en": "Ali b. al-Hasan al-Taymi",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 189,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَيُّوبَ بْنِ نُوحٍ",
+              "name_en": "Ayyub ibn Nuh",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 30,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "صَفْوَانَ بْنِ يَحْيَى",
+              "name_en": "Safwan ibn Yahya",
+              "position": 6,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 357,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللَّهِ بْنِ جُنْدَبٍ",
+              "name_en": "Abdullah ibn Jundab",
+              "position": 7,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "لُحُومِ الْجَوَامِيسِ",
+          "أَلْبَانِهَا",
+          "سُمُونِهَا",
+          "لَا بَأْسَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:157",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "16:114",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "ethics"
+        ],
+        "topics": [
+          "halal_haram"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> موثق   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (22/136)"
       ],
@@ -102,7 +243,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:6:62:1",

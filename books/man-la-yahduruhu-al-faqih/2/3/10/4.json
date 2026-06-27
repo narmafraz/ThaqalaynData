@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى كِرْدِينٌ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং কিরদিন আবী আব্দুল্লাহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Und Kirdīn berichtete von Abī ʿAbdillāh عليه السلام, der sagte:",
-              "en": "And Kirdīn narrated from Abī ʿAbdillāh عليه السلام, who said:",
-              "es": "Y Kirdīn narró de Abī ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "و کردین از ابی عبدالله علیه السلام روایت کرد که فرمود:",
-              "fr": "Et Kirdīn a rapporté de Abī ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Dan Kirdīn meriwayat dari Abī ʿAbdillāh علیه السلام, yang berkata:",
-              "ru": "И Кирдин передал от Аби Абдиллаха عليه السلام, который сказал:",
-              "tr": "Ve Kirdīn, Abī ʿAbdillāh عليه السلام'dan rivayet etti, şöyle dedi:",
-              "ur": "اور کِردین نے ابی عبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "基爾丁從阿比阿卜杜拉 عليه السلام敘述說："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "«مَنْ تَصَدَّقَ بِصَدَقَةٍ إِذَا أَصْبَحَ دَفَعَ اللَّهُ عَزَّ وَ جَلَّ عَنْهُ نَحْسَ ذَلِكَ الْيَوْمِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "‘‘যে ব্যক্তি সকালে দান করে, আল্লাহ তাআলা সেই দিনের দুর্ভাগ্য থেকে তাকে রক্ষা করবেন।’’",
-              "de": "„Wer morgens Almosen gibt, dem wird Allah, der Erhabene und Glorreiche, das Unglück dieses Tages abwenden.“",
-              "en": "\"Whoever gives charity in the morning, Allah, the Exalted and Glorious, will avert the misfortune of that day from him.\"",
-              "es": "“Quien da caridad por la mañana, Allah, el Exaltado y Glorioso, alejará de él la desgracia de ese día.”",
-              "fa": "«هر کس صبح صدقه دهد، خداوند عزوجل بداقبالی آن روز را از او دفع می‌کند.»",
-              "fr": "«Quiconque donne une aumône le matin, Allah, le Très-Haut et Glorieux, éloignera de lui le malheur de ce jour.»",
-              "id": "“Barangsiapa yang bersedekah di pagi hari, Allah Yang Maha Tinggi dan Maha Mulia akan menghindarkan kemalangan hari itu darinya.”",
-              "ru": "«Кто дает милостыню утром, Аллах, Возвышенный и Славный, отведет от него несчастье этого дня.»",
-              "tr": "“Kim sabah vakti sadaka verirse, Allah, Yüce ve Azametli, o günün uğursuzluğunu ondan uzaklaştırır.”",
-              "ur": "‘‘جو شخص صبح کے وقت صدقہ دیتا ہے، اللہ تعالیٰ عزوجل اس دن کی بدقسمتی اس سے دور کر دیتا ہے۔’’",
-              "zh": "“凡早晨施舍者，至高荣耀的安拉必使他远离当天的不幸。”"
-            },
             "word_end": 24,
             "word_start": 10
           }
@@ -91,28 +78,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَصْبَحَ": "entered the morning",
-            "إِذَا": "when",
-            "الْيَوْمِ": "the day",
-            "تَصَدَّقَ": "gave charity",
-            "دَفَعَ": "averted or repelled",
-            "ذَلِكَ": "that",
-            "صَدَقَةٍ": "an act of voluntary charity",
-            "نَحْسَ": "misfortune or ill fortune"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "تَصَدَّقَ",
+          "صَدَقَةٍ",
+          "إِذَا",
+          "أَصْبَحَ",
+          "دَفَعَ",
+          "نَحْسَ",
+          "ذَلِكَ",
+          "الْيَوْمِ"
+        ],
         "related_quran": [
           {
             "ref": "2:271",
@@ -127,32 +102,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কিভাবে সকালে দান করা একজন ব্যক্তিকে দিনের মধ্যে রক্ষা করে?",
-          "de": "Wie schützt das Geben von Almosen am Morgen eine Person während des Tages?",
-          "en": "How does giving charity in the morning protect a person during the day?",
-          "es": "¿Cómo protege dar caridad en la mañana a una persona durante el día?",
-          "fa": "چگونه صدقه دادن در صبح از یک فرد در طول روز محافظت می‌کند؟",
-          "fr": "Comment donner la charité le matin protège-t-il une personne pendant la journée ?",
-          "id": "Bagaimana bersedekah di pagi hari melindungi seseorang selama hari itu?",
-          "ru": "Как дача милостыни утром защищает человека в течение дня?",
-          "tr": "Sabah sadakası vermek bir kişiyi gün boyunca nasıl korur?",
-          "ur": "صبح کے وقت صدقہ دینے سے دن بھر انسان کی حفاظت کیسے ہوتی ہے؟",
-          "zh": "早晨施舍如何保护一个人在白天？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি দিনের শুরুতে দান করার فضیلت শেখায়। এটি নির্দেশ করে যে সকালবেলা দান করা আল্লাহ তাআলার পক্ষ থেকে সেই দিনের দুর্ভাগ্য দানকারী থেকে দূর করার মাধ্যম।",
-          "de": "Dieser Hadith lehrt die Tugend, am Anfang des Tages Almosen zu geben. Er zeigt, dass morgendliche Almosen ein Mittel sind, durch das Allah, der Erhabene und Glorreiche, das Unglück dieses Tages vom Geber abwendet.",
-          "en": "This hadith teaches the virtue of giving charity at the start of the day. It indicates that morning charity is a means by which Allah, the Exalted and Glorious, repels the ill fortune of that day from the giver.",
-          "es": "Este hadiz enseña la virtud de dar caridad al comienzo del día. Indica que la caridad matutina es un medio por el cual Allah, el Exaltado y Glorioso, aleja la mala fortuna de ese día del dador.",
-          "fa": "این حدیث فضیلت صدقه دادن در ابتدای روز را آموزش می‌دهد. نشان می‌دهد که صدقه صبحگاهی وسیله‌ای است که خداوند عزوجل بداقبالی آن روز را از دهنده دفع می‌کند.",
-          "fr": "Ce hadith enseigne la vertu de donner la charité au début de la journée. Il indique que la charité du matin est un moyen par lequel Allah, le Très-Haut et Glorieux, repousse le malheur de ce jour loin du donneur.",
-          "id": "Hadis ini mengajarkan keutamaan bersedekah di awal hari. Ini menunjukkan bahwa sedekah pagi adalah sarana Allah Yang Maha Tinggi dan Mulia untuk mengusir kemalangan hari itu dari pemberi.",
-          "ru": "Этот хадис учит достоинству давать милостыню в начале дня. Он указывает, что утренняя милостыня — это средство, с помощью которого Аллах, Возвышенный и Славный, отводит несчастье этого дня от дающего.",
-          "tr": "Bu hadis, günün başında sadaka vermenin faziletini öğretir. Sabah sadakasının, Allah Teâlâ'nın o günün uğursuzluğunu verenden uzaklaştırmasının bir vesilesi olduğunu belirtir.",
-          "ur": "یہ حدیث دن کے آغاز میں صدقہ دینے کی فضیلت سکھاتی ہے۔ یہ ظاہر کرتی ہے کہ صبح کا صدقہ اللہ تعالیٰ عزوجل کی طرف سے اس دن کی بدقسمتی کو دینے والے سے دور کرنے کا ذریعہ ہے۔",
-          "zh": "此圣训教导了在一天开始时施舍的美德。它表明早晨施舍是至高荣耀的安拉驱除施舍者当天不幸的方式。"
-        },
         "tags": [
           "ethics",
           "social_relations",

@@ -21,23 +21,23 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "سَوَاءً قَالَ مُحَمَّدُ بْنُ يَحْيَى فَقُلْتُ لِمُحَمَّدِ بْنِ الْحَسَنِ يَا أَبَا جَعْفَرٍ وَدِدْتُ أَنَّ هَذَا الْخَبَرَ جَاءَ مِنْ غَيْرِ جِهَةِ أَحْمَدَ بْنِ أَبِي عَبْدِ اللَّهِ قَالَ فَقَالَ لَقَدْ حَدَّثَنِي قَبْلَ الْحَيْرَةِ بِعَشْرِ سِنِينَ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একইভাবে, মুহাম্মদ ইবন ইয়াহইয়া বললেন: তখন আমি মুহাম্মদ ইবন আল-হাসানকে বললাম, “হে আবু জাফর, আমার ইচ্ছা ছিল যে এই বর্ণনাটি আহমদ ইবন আবি আবদুল্লাহ ছাড়া অন্য কোনো সূত্র থেকে এসেছে।” তিনি বললেন: “তিনি আমাকে বিভ্রান্তির দশ বছর আগে এটি বর্ণনা করেছিলেন।”",
-              "de": "Ebenso sagte Muḥammad ibn Yaḥyā: Da sagte ich zu Muḥammad ibn al-Ḥasan: „O Abū Jaʿfar, ich wünschte, dieser Bericht wäre aus einer anderen Quelle als Aḥmad ibn Abī ʿAbd Allāh gekommen.“ Er sagte: „Er hatte ihn mir zehn Jahre vor der Verwirrung überliefert.“",
-              "en": "Likewise, Muḥammad ibn Yaḥyā said: So I said to Muḥammad ibn al-Ḥasan, “O Abū Jaʿfar, I wished that this report had come from a source other than Aḥmad ibn Abī ʿAbd Allāh.” He said: “He had narrated to me ten years before the perplexity.”",
-              "es": "Asimismo, Muḥammad ibn Yaḥyā dijo: Entonces le dije a Muḥammad ibn al-Ḥasan: “Oh Abū Jaʿfar, desearía que este relato hubiera venido de una fuente distinta de Aḥmad ibn Abī ʿAbd Allāh.” Él dijo: “Él me lo había transmitido diez años antes de la confusión.”",
-              "fa": "همچنین، محمد بن یحیی گفت: پس به محمد بن الحسن گفتم: «ای ابوجعفر، دوست داشتم این خبر از غیرِ احمد بن ابی عبدالله آمده بود.» او گفت: «او ده سال پیش از حیرت آن را برای من روایت کرده بود.»",
-              "fr": "De même, Muḥammad ibn Yaḥyā a dit : Alors je dis à Muḥammad ibn al-Ḥasan : « Ô Abū Jaʿfar, j’aurais souhaité que ce récit vînt d’une autre source qu’Aḥmad ibn Abī ʿAbd Allāh. » Il dit : « Il me l’avait rapporté dix ans avant la perplexité. »",
-              "id": "Demikian pula, Muḥammad ibn Yaḥyā berkata: Maka aku berkata kepada Muḥammad ibn al-Ḥasan, “Wahai Abū Jaʿfar, aku berharap bahwa laporan ini datang dari selain Aḥmad ibn Abī ʿAbd Allāh.” Ia berkata: “Ia telah meriwayatkannya kepadaku sepuluh tahun sebelum kebingungan itu.”",
-              "ru": "Также Мухаммад ибн Яхья сказал: Тогда я сказал Мухаммаду ибн аль-Хасану: «О Абу Джафар, я хотел бы, чтобы этот рассказ пришёл не от Ахмада ибн Аби Абдуллаха». Он сказал: «Он передал мне его за десять лет до растерянности».",
-              "tr": "Aynı şekilde, Muhammed ibn Yahyâ dedi ki: Bunun üzerine Muhammed ibn el-Hasan’a, “Ey Ebû Ca‘fer, bu rivayetin Ahmed ibn Ebî Abdullah’tan başka bir kaynaktan gelmiş olmasını isterdim,” dedim. O da şöyle dedi: “Bana bunu hayret döneminden on yıl önce rivayet etmişti.”",
-              "ur": "اسی طرح، محمد بن یحییٰ نے کہا: پھر میں نے محمد بن الحسن سے کہا، “اے ابو جعفر، میری خواہش تھی کہ یہ روایت احمد بن ابی عبد اللہ کے علاوہ کسی اور ذریعے سے آئی ہوتی۔” انہوں نے کہا: “اس نے مجھے حیرت کے دس سال پہلے روایت کی تھی۔”",
-              "zh": "同样，穆罕默德·伊本·叶海亚说：于是我对穆罕默德·伊本·哈桑说：“阿布·贾法尔啊，我希望这则传述不是来自艾哈迈德·伊本·阿比·阿卜杜拉的渠道。”他说：“他在困惑之前十年就向我传述过它。”"
-            },
             "word_end": 33,
             "word_start": 0
           }
@@ -90,53 +90,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَحْمَدَ بْنِ أَبِي عَبْدِ اللَّهِ": "the named transmitter whose route is being mentioned",
-            "الْحَيْرَةِ": "the period of perplexity or confusion",
-            "الْخَبَرَ": "the report or hadith being discussed",
-            "بِعَشْرِ سِنِينَ": "ten years earlier",
-            "حَدَّثَنِي": "he narrated to me",
-            "غَيْرِ جِهَةِ": "from a source or route other than"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْخَبَرَ",
+          "غَيْرِ جِهَةِ",
+          "أَحْمَدَ بْنِ أَبِي عَبْدِ اللَّهِ",
+          "حَدَّثَنِي",
+          "الْحَيْرَةِ",
+          "بِعَشْرِ سِنِينَ"
+        ],
         "related_quran": [],
-        "seo_questions": {
-          "bn": "এই বর্ণনাটি ḥayrah-এর আগে আহমদ ইবন আবি আবদুল্লাহ থেকে বর্ণনার সময় সম্পর্কে কী বলে?",
-          "de": "Was sagt dieser Bericht über den Zeitpunkt der Überlieferung von Aḥmad ibn Abī ʿAbd Allāh vor der ḥayrah aus?",
-          "en": "What does this report say about the timing of transmission from Aḥmad ibn Abī ʿAbd Allāh before the ḥayrah?",
-          "es": "¿Qué dice este relato sobre el momento de la transmisión de Aḥmad ibn Abī ʿAbd Allāh antes de la ḥayrah?",
-          "fa": "این روایت درباره زمان انتقال از احمد بن ابی عبدالله پیش از حیرت چه می‌گوید؟",
-          "fr": "Que dit ce récit sur le moment de la transmission depuis Aḥmad ibn Abī ʿAbd Allāh avant la ḥayrah ?",
-          "id": "Apa yang dikatakan laporan ini tentang waktu periwayatan dari Aḥmad ibn Abī ʿAbd Allāh sebelum ḥayrah?",
-          "ru": "Что этот рассказ говорит о времени передачи от Ахада ибн Аби Абдуллаха до ḥayrah?",
-          "tr": "Bu rivayet, Ahmed ibn Ebî Abdullah’tan hayret öncesindeki aktarım zamanı hakkında ne söylüyor?",
-          "ur": "یہ روایت احمد بن ابی عبد اللہ سے ḥayrah سے پہلے نقل ہونے کے بارے میں کیا بتاتی ہے؟",
-          "zh": "这则传述关于在ḥayrah之前从艾哈迈德·伊本·阿比·阿卜杜拉传递的时间说明了什么？"
-        },
-        "summaries": {
-          "bn": "এই অংশটি একটি হাদিসের বর্ণনা-প্রবাহ এবং তার সনদের নির্ভরযোগ্যতা সম্পর্কে একটি পরবর্তী মন্তব্য সংরক্ষণ করে। মুহাম্মদ ইবন আল-হাসান জানান যে তিনি বিভ্রান্তির সময়ের দশ বছর আগে আহমদ ইবন আবি আবদুল্লাহ থেকে এই বর্ণনাটি পেয়েছিলেন, যা বর্ণনার আগের উৎসকে নির্দেশ করে।",
-          "de": "Diese Passage bewahrt eine nachträgliche Bemerkung über die Überlieferung eines Hadith und die Zuverlässigkeit seines Überlieferungswegs. Muḥammad ibn al-Ḥasan antwortet, dass er den Bericht von Aḥmad ibn Abī ʿAbd Allāh zehn Jahre vor der Zeit der Verwirrung erhalten habe, was auf einen früheren Ursprung der Überlieferung hinweist.",
-          "en": "This passage preserves a follow-up remark about the transmission of a hadith and the reliability of its route. Muḥammad ibn al-Ḥasan responds that he had received the report from Aḥmad ibn Abī ʿAbd Allāh ten years before the period of confusion, indicating the earlier provenance of the narration.",
-          "es": "Este pasaje conserva una observación posterior sobre la transmisión de un hadiz y la fiabilidad de su cadena. Muḥammad ibn al-Ḥasan responde que había recibido el relato de Aḥmad ibn Abī ʿAbd Allāh diez años antes del período de confusión, lo que indica un origen anterior de la narración.",
-          "fa": "این بخش، سخنی تکمیلی درباره انتقال یک حدیث و اعتبارِ مسیرِ آن را حفظ می‌کند. محمد بن الحسن پاسخ می‌دهد که این خبر را ده سال پیش از دوره حیرت از احمد بن ابی عبدالله دریافت کرده بود، و این نشان‌دهنده منشأ پیشینِ روایت است.",
-          "fr": "Ce passage conserve une remarque ultérieure sur la transmission d’un hadith et la fiabilité de sa voie de transmission. Muḥammad ibn al-Ḥasan répond qu’il avait reçu le récit d’Aḥmad ibn Abī ʿAbd Allāh dix ans avant la période de perplexité, ce qui indique une provenance antérieure de la narration.",
-          "id": "Bagian ini mempertahankan sebuah catatan lanjutan tentang periwayatan sebuah hadis dan keandalan jalur transmisinya. Muḥammad ibn al-Ḥasan menjawab bahwa ia telah menerima laporan itu dari Aḥmad ibn Abī ʿAbd Allāh sepuluh tahun sebelum masa kebingungan, yang menunjukkan asal periwayatan yang lebih awal.",
-          "ru": "Этот отрывок сохраняет последующее замечание о передаче хадиса и достоверности его пути передачи. Мухаммад ибн аль-Хасан отвечает, что получил этот рассказ от Ахада ибн Аби Абдуллаха за десять лет до периода растерянности, что указывает на более раннее происхождение передачи.",
-          "tr": "Bu pasaj, bir hadisin aktarımı ve rivayet yolunun güvenilirliği hakkında sonraki bir notu korur. Muhammed ibn el-Hasan, rivayeti Ahmed ibn Ebî Abdullah’tan hayret döneminden on yıl önce aldığını söyleyerek rivayetin daha erken bir döneme ait olduğunu belirtir.",
-          "ur": "یہ عبارت حدیث کی روایت اور اس کے طریقِ نقل کی معتبرت کے بارے میں ایک بعد کی بات کو محفوظ رکھتی ہے۔ محمد بن الحسن جواب دیتے ہیں کہ انہوں نے یہ روایت احمد بن ابی عبد اللہ سے حیرت کے دور سے دس سال پہلے حاصل کی تھی، جو اس روایت کے پہلے زمانے کی نشاندہی کرتی ہے۔",
-          "zh": "这段文字保留了关于一则圣训传承及其传述途径可靠性的后续说明。穆罕默德·伊本·哈桑回答说，他是在困惑时期之前十年从艾哈迈德·伊本·阿比·阿卜杜拉那里听到这则传述的，这表明该传述更早就已存在。"
-        },
         "tags": [
           "knowledge",
           "history",

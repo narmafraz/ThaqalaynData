@@ -17,61 +17,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ مَرَّ رَسُولُ ٱللَّهِ صَلَّى ٱللَّهُ عَلَيْهِ وَ آلِهِ بِقَوْمٍ يَتَشَاءَلُونَ حَجَرًا فَقَالَ «مَا هَذَا وَ مَا يَدْعُوكُمْ إِلَيْهِ» قَالُوا لِنَعْرِفَ أَشَدَّنَا وَ أَقْوَانَا قَالَ «أَ فَلَا أَدُلُّكُمْ عَلَى أَشَدِّكُمْ وَ أَقْوَاكُمْ» قَالُوا بَلَى يَا رَسُولَ ٱللَّهِ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "রাসূলুল্লাহ صلی اللہ علیہ وآلہ وسلم এমন এক দলের কাছে দিয়ে গেলেন যারা একটি পাথর উত্তোলন করছিল, এবং তিনি বললেন: “এটা কী, এবং তোমাদের এটা করার জন্য কী আহ্বান জানাচ্ছে?” তারা বলল: “যাতে আমরা জানতে পারি আমাদের মধ্যে সবচেয়ে শক্তিশালী এবং ক্ষমতাবান কে।” তিনি বললেন: “আমি কি তোমাদের সবচেয়ে শক্তিশালী এবং ক্ষমতাবান ব্যক্তির দিকে নির্দেশনা দেব না?” তারা বলল: “হ্যাঁ, হে আল্লাহর রাসূল।”",
-              "de": "Der Gesandte Allahs, Friede sei mit ihm und seiner Familie, ging an einer Gruppe von Menschen vorbei, die einen Stein hoben, und sagte: „Was ist das, und was ruft euch dazu?“ Sie sagten: „Damit wir wissen, wer von uns der Stärkste und Mächtigste ist.“ Er sagte: „Soll ich euch nicht zum Stärksten und Mächtigsten unter euch führen?“ Sie sagten: „Ja, o Gesandter Allahs.“",
-              "en": "The Messenger of Allah, peace be upon him and his family, passed by a group of people lifting a stone, and he said: “What is this, and what is it that calls you to it?” They said: “So that we may know which of us is the strongest and most powerful.” He said: “Shall I not direct you to the strongest and most powerful among you?” They said: “Yes, O Messenger of Allah.”",
-              "es": "El Mensajero de Allah, la paz sea con él y su familia, pasó junto a un grupo de personas que levantaban una piedra, y dijo: “¿Qué es esto, y qué es lo que os llama a ello?” Dijeron: “Para saber quién de nosotros es el más fuerte y poderoso.” Él dijo: “¿No os guiaré hacia el más fuerte y poderoso entre vosotros?” Dijeron: “Sí, oh Mensajero de Allah.”",
-              "fa": "پیامبر خدا صلی الله علیه و آله وسلم از کنار گروهی گذشت که سنگی را بلند می‌کردند و فرمود: «این چیست و چه چیزی شما را به این کار فرا می‌خواند؟» گفتند: «تا بدانیم کدام یک از ما قوی‌تر و نیرومندتر است.» فرمود: «آیا شما را به قوی‌ترین و نیرومندترین‌تان راهنمایی نکنم؟» گفتند: «بله، ای پیامبر خدا.»",
-              "fr": "Le Messager d’Allah, que la paix soit sur lui et sa famille, passa près d’un groupe de personnes soulevant une pierre, et il dit : « Qu’est-ce que c’est, et qu’est-ce qui vous y appelle ? » Ils répondirent : « Pour savoir lequel d’entre nous est le plus fort et le plus puissant. » Il dit : « Ne vais-je pas vous montrer le plus fort et le plus puissant parmi vous ? » Ils dirent : « Oui, ô Messager d’Allah. »",
-              "id": "Rasulullah, shallallahu 'alaihi wa aalihi wa sallam, melewati sekelompok orang yang sedang mengangkat batu, lalu beliau bertanya: “Apa ini, dan apa yang memanggil kalian untuk melakukannya?” Mereka menjawab: “Agar kami tahu siapa di antara kami yang paling kuat dan paling berkuasa.” Beliau berkata: “Apakah aku tidak akan menunjukkan kepada kalian siapa yang paling kuat dan paling berkuasa di antara kalian?” Mereka menjawab: “Ya, wahai Rasulullah.”",
-              "ru": "Посланник Аллаха, мир ему и его семье, проходил мимо группы людей, поднимающих камень, и сказал: «Что это и что побуждает вас к этому?» Они ответили: «Чтобы узнать, кто из нас самый сильный и могущественный.» Он сказал: «Не направить ли вас к самому сильному и могущественному из вас?» Они сказали: «Да, о Посланник Аллаха.»",
-              "tr": "Allah'ın Resulü, onun üzerine ve ailesine selam olsun, bir grup insanın bir taş kaldırdığını gördü ve dedi ki: “Bu nedir ve sizi buna çağıran nedir?” Onlar: “Aramızda en güçlü ve en kuvvetli olanı bilmek için.” dediler. O dedi ki: “Sizi en güçlü ve en kuvvetli olanınıza yönlendirmeyeyim mi?” Onlar: “Evet, ey Allah’ın Resulü.” dediler.",
-              "ur": "رسول اللہ صلی اللہ علیہ وآلہ وسلم ایک گروہ کے پاس سے گزرے جو ایک پتھر اٹھا رہے تھے، اور آپ نے فرمایا: \"یہ کیا ہے، اور یہ تمہیں اس کی طرف کیا بلاتا ہے؟\" انہوں نے کہا: \"تاکہ ہم جان سکیں کہ ہم میں سب سے زیادہ طاقتور اور مضبوط کون ہے۔\" آپ نے فرمایا: \"کیا میں تمہیں تم میں سب سے زیادہ طاقتور اور مضبوط کی طرف رہنمائی نہ کروں؟\" انہوں نے کہا: \"جی ہاں، اے رسول اللہ۔\"",
-              "zh": "安拉使者愿他和平及其家族降临，经过一群抬石头的人，他说：“这是什么，是什么召唤你们这样做？”他们说：“为了知道我们中谁最强大最有力。”他说：“我难道不引导你们认识你们中最强大最有力的吗？”他们说：“是的，安拉使者。”"
-            },
             "word_end": 37,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ «أَشَدُّكُمْ وَ أَقْوَاكُمُ ٱلَّذِي إِذَا رَضِيَ لَمْ يُدْخِلْهُ رِضَاهُ فِي إِثْمٍ وَ لَا بَاطِلٍ وَ إِذَا سَخِطَ لَمْ يُخْرِجْهُ سَخَطُهُ مِنْ قَوْلِ ٱلْحَقِّ وَ إِذْ مَلَكَ لَمْ يَتَعَاطَ مَا لَيْسَ لَهُ»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: “তোমাদের মধ্যে সবচেয়ে শক্তিশালী এবং ক্ষমতাবান সেই ব্যক্তি যে যখন খুশি হয়, তার খুশি তাকে পাপ বা মিথ্যায় নিয়ে যায় না; এবং যখন সে রাগান্বিত হয়, তার রাগ তাকে সত্য কথা বলার থেকে বিরত রাখে না; এবং যখন তার ক্ষমতা থাকে, সে যা তার নয় তা গ্রহণ করে না।”",
-              "de": "Er sagte: „Der Stärkste und Mächtigste unter euch ist derjenige, der, wenn er zufrieden ist, seine Zufriedenheit ihn nicht in Sünde oder Falschheit führt; und wenn er zornig ist, ihn sein Zorn nicht davon abhält, die Wahrheit zu sagen; und wenn er Macht besitzt, nimmt er nicht, was ihm nicht gehört.“",
-              "en": "He said: “The strongest and most powerful among you is the one who, when pleased, his pleasure does not lead him into sin or falsehood; and when angry, his anger does not bring him out of speaking the truth; and when he possesses power, he does not take what is not his.”",
-              "es": "Él dijo: “El más fuerte y poderoso entre vosotros es aquel que, cuando está complacido, su complacencia no le lleva al pecado ni a la falsedad; y cuando está enojado, su enojo no le hace abandonar la verdad; y cuando tiene poder, no toma lo que no es suyo.”",
-              "fa": "فرمود: «قوی‌ترین و نیرومندترین شما کسی است که وقتی خشنود است، خشنودی‌اش او را به گناه یا باطل نمی‌کشاند؛ و وقتی خشمگین است، خشمش او را از گفتن حق باز نمی‌دارد؛ و وقتی قدرت دارد، چیزی را که حقش نیست برنمی‌دارد.»",
-              "fr": "Il dit : « Le plus fort et le plus puissant parmi vous est celui qui, lorsqu’il est satisfait, sa satisfaction ne le conduit ni au péché ni au faux; et lorsqu’il est en colère, sa colère ne l’empêche pas de dire la vérité; et lorsqu’il détient le pouvoir, il ne prend pas ce qui ne lui appartient pas. »",
-              "id": "Beliau bersabda: “Yang paling kuat dan paling berkuasa di antara kalian adalah orang yang ketika senang, kesenangannya tidak membawanya kepada dosa atau kebatilan; dan ketika marah, kemarahannya tidak membuatnya meninggalkan berkata benar; dan ketika memiliki kekuasaan, dia tidak mengambil apa yang bukan haknya.”",
-              "ru": "Он сказал: «Самый сильный и могущественный из вас — тот, кто, будучи доволен, не позволяет своему удовольствию вести себя к греху или лжи; и когда гневается, его гнев не выводит его из правды; и когда обладает властью, не берет того, что ему не принадлежит.»",
-              "tr": "O dedi ki: “Aranızdaki en güçlü ve en kuvvetli olan, hoşlandığında hoşnutluğu onu günah veya yalandan saptırmayan; kızdığında öfkesi onu hakikati söylemekten alıkoymayan; ve güce sahip olduğunda kendine ait olmayanı almayan kişidir.”",
-              "ur": "آپ نے فرمایا: \"تم میں سب سے زیادہ طاقتور اور مضبوط وہ ہے جو جب خوش ہو تو اس کی خوشی اسے گناہ یا باطل میں نہ لے جائے؛ اور جب غصہ کرے تو اس کا غصہ اسے حق بات کہنے سے نہ روکے؛ اور جب اس کے پاس اختیار ہو تو وہ وہ چیز نہ لے جو اس کی نہیں۔\"",
-              "zh": "他说：“你们中最强大最有力的是那位，当他满意时，他的满意不会使他陷入罪恶或虚假；当他生气时，他的愤怒不会使他离开说真话；当他拥有权力时，他不会取非己之物。”"
-            },
             "word_end": 69,
             "word_start": 37
           },
           {
             "arabic_text": "وَ فِي خَبَرٍ آخَرَ «وَ إِذَا قَدَرَ لَمْ يَتَعَاطَ مَا لَيْسَ لَهُ بِحَقٍّ».",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "আরেকটি বর্ণনায় আছে: “এবং যখন তার ক্ষমতা থাকে, সে অধিকার ছাড়া যা তার নয় তা গ্রহণ করে না।”",
-              "de": "Und in einem anderen Bericht: „Und wenn er Macht hat, nimmt er nicht, was ihm nicht rechtmäßig gehört.“",
-              "en": "And in another report: “And when he has power, he does not take what is not his by right.”",
-              "es": "Y en otro relato: “Y cuando tiene poder, no toma lo que no es suyo por derecho.”",
-              "fa": "و در روایت دیگری آمده است: «و هنگامی که قدرت دارد، چیزی را که حقش نیست به ناحق برنمی‌دارد.»",
-              "fr": "Et dans un autre rapport : « Et lorsqu’il détient le pouvoir, il ne prend pas ce qui ne lui appartient pas par droit. »",
-              "id": "Dan dalam riwayat lain: “Dan ketika dia memiliki kekuasaan, dia tidak mengambil apa yang bukan haknya dengan tidak benar.”",
-              "ru": "В другом сообщении говорится: «И когда он обладает властью, он не берет то, что не принадлежит ему по праву.»",
-              "tr": "Ve başka bir rivayette: “Ve güce sahip olduğunda, hakkı olmadan kendine ait olmayanı almaz.”",
-              "ur": "اور ایک اور روایت میں ہے: \"اور جب اس کے پاس اختیار ہو تو وہ حق کے بغیر وہ چیز نہ لے جو اس کی نہیں۔\"",
-              "zh": "另有一传：“当他拥有权力时，他不会非法取非己之物。”"
-            },
             "word_end": 82,
             "word_start": 69
           }
@@ -83,25 +57,13 @@
           "narrators": []
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَشَدُّكُمْ وَ أَقْوَاكُمْ": "the truly strongest and most powerful among people",
-            "بِحَقٍّ": "by rightful claim",
-            "فِي إِثْمٍ وَ لَا بَاطِلٍ": "into sin and falsehood",
-            "قَوْلِ ٱلْحَقِّ": "speaking the truth",
-            "مَا لَيْسَ لَهُ": "what does not belong to him"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَشَدُّكُمْ وَ أَقْوَاكُمْ",
+          "فِي إِثْمٍ وَ لَا بَاطِلٍ",
+          "قَوْلِ ٱلْحَقِّ",
+          "مَا لَيْسَ لَهُ",
+          "بِحَقٍّ"
+        ],
         "related_quran": [
           {
             "ref": "3:134",
@@ -116,32 +78,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "রাসূলুল্লাহ صلی اللہ علیہ وآلہ وسلم অনুযায়ী সবচেয়ে শক্তিশালী ব্যক্তি কে?",
-          "de": "Wer ist laut dem Gesandten Allahs صلى الله عليه وآله وسلم die stärkste Person?",
-          "en": "Who is the strongest person according to the Messenger of Allah صلى الله عليه وآله وسلم?",
-          "es": "¿Quién es la persona más fuerte según el Mensajero de Allah صلى الله عليه وآله وسلم?",
-          "fa": "بر اساس گفته پیامبر خدا صلی الله علیه وآله وسلم، قوی‌ترین شخص کیست؟",
-          "fr": "Qui est la personne la plus forte selon le Messager d’Allah صلى الله عليه وآله وسلم ?",
-          "id": "Siapa orang yang paling kuat menurut Rasulullah صلى الله عليه وآله وسلم?",
-          "ru": "Кто самый сильный человек согласно Посланнику Аллаха صلى الله عليه وآله وسلم?",
-          "tr": "Allah’ın Resulüne صلى الله عليه وآله وسلم göre en güçlü kişi kimdir?",
-          "ur": "رسول اللہ صلی اللہ علیہ وآلہ وسلم کے مطابق سب سے طاقتور شخص کون ہے؟",
-          "zh": "根据安拉使者 صلى الله عليه وآله وسلم，谁是最强大的人？"
-        },
-        "summaries": {
-          "bn": "এই حدیث শেখায় যে প্রকৃত শক্তি শারীরিক বল নয়, বরং নৈতিক আত্মসংযম। প্রকৃত শক্তিশালী ব্যক্তি আনন্দে ন্যায়পরায়ণ, রাগে সত্যবাদী এবং ক্ষমতায় অন্যদের অধিকার লঙ্ঘন থেকে বিরত থাকে।",
-          "de": "Dieser Hadith lehrt, dass wahre Stärke nicht körperliche Kraft, sondern moralische Selbstbeherrschung ist. Die wirklich starke Person bleibt gerecht in der Freude, wahrhaftig im Zorn und zurückhaltend, die Rechte anderer bei Macht nicht zu verletzen.",
-          "en": "This hadith teaches that true strength is not physical force, but moral self-mastery. The truly strong person remains just in pleasure, truthful in anger, and restrained from violating the rights of others when in power.",
-          "es": "Este hadiz enseña que la verdadera fuerza no es la fuerza física, sino el dominio moral de uno mismo. La persona verdaderamente fuerte permanece justa en el placer, veraz en la ira y contenida para no violar los derechos de otros cuando tiene poder.",
-          "fa": "این حدیث آموزش می‌دهد که قدرت واقعی نیروی جسمانی نیست بلکه تسلط اخلاقی بر خود است. شخص واقعاً قوی در خوشنودی عادل، در خشم صادق و در قدرت از تجاوز به حقوق دیگران خودداری می‌کند.",
-          "fr": "Ce hadith enseigne que la véritable force n’est pas la force physique, mais la maîtrise morale de soi. La personne vraiment forte reste juste dans le plaisir, véridique dans la colère, et retenue de violer les droits des autres lorsqu’elle est au pouvoir.",
-          "id": "Hadis ini mengajarkan bahwa kekuatan sejati bukanlah kekuatan fisik, melainkan penguasaan moral atas diri sendiri. Orang yang benar-benar kuat tetap adil saat senang, jujur saat marah, dan menahan diri dari melanggar hak orang lain saat berkuasa.",
-          "ru": "Этот хадис учит, что истинная сила — не физическая мощь, а моральное самообладание. По-настоящему сильный человек остается справедливым в удовольствии, правдивым в гневе и сдержанным, не нарушая прав других, когда обладает властью.",
-          "tr": "Bu hadis, gerçek gücün fiziksel kuvvet değil, ahlaki özdenetim olduğunu öğretir. Gerçek güçlü kişi, memnuniyetinde adil, öfkesinde doğru sözlü ve güç sahibiyken başkalarının haklarını ihlal etmekten kaçınandır.",
-          "ur": "یہ حدیث سکھاتی ہے کہ حقیقی طاقت جسمانی قوت نہیں بلکہ اخلاقی خود پر قابو پانا ہے۔ حقیقی طاقتور شخص خوشی میں عادل، غصے میں سچا، اور طاقت میں دوسروں کے حقوق کی خلاف ورزی سے باز رہنے والا ہوتا ہے۔",
-          "zh": "此圣训教导我们，真正的力量不是体力，而是道德自制。真正强大的人在喜悦时公正，在愤怒时诚实，掌权时克制，不侵犯他人权利。"
-        },
         "tags": [
           "ethics",
           "prophetic_tradition",

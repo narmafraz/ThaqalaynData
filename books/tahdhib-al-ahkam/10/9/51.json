@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنِ ٱبْنِ مَحْبُوبٍ عَنْ عَلِيِّ بْنِ ٱلْحَسَنِ بْنِ رِبَاطٍ عَنِ ٱبْنِ مُسْكَانَ عَنِ ٱلْحَلَبِيِّ عَنْ أَبِي عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, ইবন মাহবুব থেকে, ‘আলি ইবন আল-হাসান ইবন রিবাত থেকে, ইবন মিসকান থেকে, আল-হালাবি থেকে, আবু ‘আবদিল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Von ihm, von Ibn Mahbub, von 'Ali ibn al-Hasan ibn Ribat, von Ibn Miskan, von al-Halabi, von Abu 'Abdillah عليه السلام, der sagte:",
-              "en": "From him, from Ibn Mahbub, from 'Ali ibn al-Hasan ibn Ribat, from Ibn Miskan, from al-Halabi, from Abu 'Abdillah عليه السلام, who said:",
-              "es": "De él, de Ibn Mahbub, de 'Ali ibn al-Hasan ibn Ribat, de Ibn Miskan, de al-Halabi, de Abu 'Abdillah عليه السلام, quien dijo:",
-              "fa": "از او، از ابن محبوب، از علی بن الحسن بن ریباط، از ابن مسکان، از حلبی، از ابوعبدالله علیه السلام که فرمود:",
-              "fr": "De lui, d’Ibn Mahbub, de 'Ali ibn al-Hasan ibn Ribat, d’Ibn Miskan, d’al-Halabi, d’Abu 'Abdillah عليه السلام, qui a dit :",
-              "id": "Darinya, dari Ibn Mahbub, dari 'Ali ibn al-Hasan ibn Ribat, dari Ibn Miskan, dari al-Halabi, dari Abu 'Abdillah عليه السلام, beliau bersabda:",
-              "ru": "От него, от Ибн Махбуба, от 'Али ибн аль-Хасана ибн Рибата, от Ибн Мискана, от аль-Халаби, от Абу 'Абдуллаха عليه السلام, который сказал:",
-              "tr": "Ondan, İbn Mahbub’dan, Ali ibn al-Hasan ibn Ribat’tan, İbn Miskan’dan, al-Halabi’den, Ebu Abdullah عليه السلام’dan rivayet edildi ki:",
-              "ur": "ان سے، ابن محبوب سے، علی بن الحسن بن ریباط سے، ابن مسکان سے، الحلبی سے، ابو عبداللہ علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "由他传自伊本马赫布卜，传自阿里伊本哈桑伊本里巴特，传自伊本米斯坎，传自哈拉比，传自阿布阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 22,
             "word_start": 0
           },
           {
             "arabic_text": "«إِذَا أُقِيمَ عَلَى ٱلسَّارِقِ ٱلْحَدُّ نُفِيَ إِلَى بَلْدَةٍ أُخْرَى».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“চোরের ওপর যখন হদ্দ কার্যকর করা হয়, তখন তাকে অন্য শহরে নির্বাসিত করা হয়।”",
-              "de": "„Wenn das Hadd gegen den Dieb vollstreckt wird, wird er in eine andere Stadt verbannt.“",
-              "en": "“When the hadd is carried out upon the thief, he is banished to another town.”",
-              "es": "“Cuando se aplica el hadd al ladrón, es desterrado a otra ciudad.”",
-              "fa": "«هرگاه حد بر دزد جاری شود، او به شهری دیگر تبعید می‌شود.»",
-              "fr": "« Lorsque le hadd est appliqué au voleur, il est exilé dans une autre ville. »",
-              "id": "“Apabila hadd ditegakkan atas pencuri, ia diasingkan ke kota lain.”",
-              "ru": "«Когда над вором приводится в исполнение хадд, его изгоняют в другой город».",
-              "tr": "“Hırsıza hadd uygulandığında, o başka bir şehre sürgün edilir.”",
-              "ur": "“جب چور پر حد قائم کی جاتی ہے تو اسے کسی دوسرے شہر میں جلا وطن کر دیا جاتا ہے۔”",
-              "zh": "“当对小偷执行hadd时，他被流放到另一个城镇。”"
-            },
             "word_end": 31,
             "word_start": 22
           }
@@ -124,25 +111,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أُقِيمَ": "was carried out or enforced",
-            "بَلْدَةٍ أُخْرَى": "another town or locality",
-            "نُفِيَ": "he was banished or exiled",
-            "ٱلسَّارِقِ": "the thief subject to the ruling",
-            "ٱلْحَدُّ": "the prescribed legal punishment"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أُقِيمَ",
+          "ٱلسَّارِقِ",
+          "ٱلْحَدُّ",
+          "نُفِيَ",
+          "بَلْدَةٍ أُخْرَى"
+        ],
         "related_quran": [
           {
             "ref": "5:38",
@@ -153,32 +128,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে চোরের ওপর হদ্দ কার্যকর হওয়ার পর কী হয়?",
-          "de": "Was geschieht mit dem Dieb, nachdem im schiitischen Hadith das Hadd vollstreckt wurde?",
-          "en": "What happens to a thief after the hadd punishment is carried out in Shia hadith?",
-          "es": "¿Qué ocurre con el ladrón después de que se le aplica el hadd en el hadiz chií?",
-          "fa": "در حدیث شیعه پس از اجرای حد بر دزد چه می‌شود؟",
-          "fr": "Que se passe-t-il pour le voleur après l’application du hadd dans le hadith chiite ?",
-          "id": "Apa yang terjadi pada pencuri setelah hadd dijalankan dalam hadis Syiah?",
-          "ru": "Что происходит с вором после исполнения хадда в шиитском хадисе?",
-          "tr": "Şii hadiste hırsıza hadd cezası uygulandıktan sonra ne olur?",
-          "ur": "شیعہ حدیث میں چور پر حد جاری ہونے کے بعد کیا ہوتا ہے؟",
-          "zh": "在什叶派圣训中，对小偷执行hadd后会发生什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে নির্ধারিত হদ্দ কার্যকর হওয়ার পর চোর সম্পর্কে একটি শরয়ি বিধান উল্লেখ করা হয়েছে, এবং এতে বোঝানো হয়েছে যে এরপর তাকে অন্য শহরে নির্বাসিত করা হয়।",
-          "de": "Dieser Hadith nennt eine rechtliche Bestimmung über den Dieb nach der Vollstreckung des vorgeschriebenen Hadd und zeigt, dass er danach in eine andere Stadt verbannt wird.",
-          "en": "This hadith states a legal ruling concerning the thief after the prescribed hadd has been carried out. It indicates that banishment to another town follows as part of the penal measure mentioned here.",
-          "es": "Este hadiz establece una norma jurídica respecto al ladrón después de que se le aplica el hadd prescrito, e indica que luego es desterrado a otra ciudad.",
-          "fa": "این حدیث حکمی فقهی درباره دزد پس از اجرای حد مقرر بیان می‌کند و نشان می‌دهد که پس از آن، تبعید به شهری دیگر انجام می‌شود.",
-          "fr": "Ce hadith énonce une règle juridique concernant le voleur après l’application du hadd prescrit, et indique qu’il est ensuite exilé dans une autre ville.",
-          "id": "Hadis ini menyatakan sebuah hukum syariat mengenai pencuri setelah hadd yang ditetapkan dilaksanakan, dan menunjukkan bahwa setelah itu ia diasingkan ke kota lain.",
-          "ru": "Этот хадис сообщает правовое постановление относительно вора после исполнения установленного хадда и указывает, что затем его изгоняют в другой город.",
-          "tr": "Bu hadis, hadd cezası uygulandıktan sonra hırsız hakkında bir fıkhî hüküm bildirir ve bunun ardından başka bir şehre sürgün edilmesini ifade eder.",
-          "ur": "یہ حدیث چور پر مقررہ حد جاری ہونے کے بعد اس کے بارے میں ایک شرعی حکم بیان کرتی ہے، اور بتاتی ہے کہ اس کے بعد اسے دوسرے شہر میں جلا وطن کیا جاتا ہے۔",
-          "zh": "这段圣训说明了对小偷执行规定的hadd之后的法律判定，并指出随后他会被流放到另一个城镇。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

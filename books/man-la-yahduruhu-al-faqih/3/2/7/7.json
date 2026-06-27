@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رُوِيَ عَنْ مُعَمَّرِ بْنِ خَلَّادٍ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং এটি মুআম্মার ইবনে খাল্লাদ থেকে বর্ণিত, যিনি বললেন:",
-              "de": "Und es wird von Muʿammar ibn Khallād überliefert, der sagte:",
-              "en": "And it is narrated from Muʿammar ibn Khallād, who said:",
-              "es": "Y se narra de Muʿammar ibn Khallād, quien dijo:",
-              "fa": "و از معمر بن خلاد روایت شده است که گفت:",
-              "fr": "Et il est rapporté de Muʿammar ibn Khallād, qui a dit :",
-              "id": "Dan diriwayatkan dari Muʿammar ibn Khallād, yang berkata:",
-              "ru": "И передаётся от Муаммара ибн Халлада, который сказал:",
-              "tr": "Ve bu, Muʿammar ibn Khallād'dan rivayet edilmiştir, şöyle dedi:",
-              "ur": "اور یہ روایت ہے معمر بن خلاد سے، جنہوں نے کہا:",
-              "zh": "据传自穆阿马尔本哈拉德说："
-            },
             "word_end": 7,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلَ رَجُلٌ الرِّضَا عَلَيْهِ السَّلَامُ عَنْ حَبْسِ الطَّعَامِ سَنَةً قَالَ: «أَنَا أَفْعَلُهُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন ব্যক্তি আল-রিদা علیہ السلام-এর কাছে এক বছর খাবার সংরক্ষণের ব্যাপারে প্রশ্ন করলেন। তিনি বললেন: \"আমি নিজেই এটি করি।\"",
-              "de": "Ein Mann fragte al-Riḍā عليه السلام nach der Lagerung von Nahrung für ein Jahr. Er sagte: „Ich mache das.“",
-              "en": "A man asked al-Riḍā عليه السلام about storing food for a year. He said: \"I do it.\"",
-              "es": "Un hombre preguntó a al-Riḍā عليه السلام sobre almacenar comida durante un año. Él dijo: \"Yo lo hago.\"",
-              "fa": "مردی از امام الرضا علیه السلام درباره نگهداری غذا به مدت یک سال پرسید. ایشان فرمودند: «من خودم این کار را انجام می‌دهم.»",
-              "fr": "Un homme a demandé à al-Riḍā عليه السلام au sujet du stockage de nourriture pendant un an. Il a dit : « Je le fais. »",
-              "id": "Seorang pria bertanya kepada al-Riḍā علیه السلام tentang menyimpan makanan selama satu tahun. Beliau berkata: \"Saya melakukannya.\"",
-              "ru": "Мужчина спросил у аль-Риḍā عليه السلام о хранении пищи на год. Он ответил: «Я так делаю.»",
-              "tr": "Bir adam, al-Riḍā علیه السلام'a bir yıl boyunca yiyecek saklamayı sordu. O dedi ki: \"Ben bunu yapıyorum.\"",
-              "ur": "ایک شخص نے امام الرضا علیہ السلام سے ایک سال کے لیے کھانے کو ذخیرہ کرنے کے بارے میں پوچھا۔ آپ نے فرمایا: \"میں خود ایسا کرتا ہوں۔\"",
-              "zh": "一人问al-Riḍāعليه السلام关于储存食物一年。他说：“我自己这样做。”"
-            },
             "word_end": 19,
             "word_start": 7
           }
@@ -91,59 +78,21 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَفْعَلُهُ": "I do it",
-            "الرِّضَا عَلَيْهِ السَّلَامُ": "Imam al-Riḍā عليه السلام",
-            "الطَّعَامِ": "food provisions",
-            "حَبْسِ": "keeping back or storing",
-            "رُوِيَ": "it is narrated",
-            "سَنَةً": "a year",
-            "مُعَمَّرِ بْنِ خَلَّادٍ": "Muʿammar ibn Khallād, the transmitter named in the report"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رُوِيَ",
+          "مُعَمَّرِ بْنِ خَلَّادٍ",
+          "الرِّضَا عَلَيْهِ السَّلَامُ",
+          "حَبْسِ",
+          "الطَّعَامِ",
+          "سَنَةً",
+          "أَفْعَلُهُ"
+        ],
         "related_quran": [
           {
             "ref": "12:47",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে এক বছর খাবার সংরক্ষণ করা কি جائز?",
-          "de": "Ist es in schiitischen Hadithen erlaubt, Nahrung für ein Jahr zu lagern?",
-          "en": "Is storing food for a year permissible in Shia hadith?",
-          "es": "¿Es permisible almacenar comida durante un año según los hadices chiíes?",
-          "fa": "آیا در احادیث شیعه نگهداری غذا به مدت یک سال جایز است؟",
-          "fr": "Est-il permis de stocker de la nourriture pendant un an dans les hadiths chiites ?",
-          "id": "Apakah menyimpan makanan selama satu tahun diperbolehkan dalam hadis Syiah?",
-          "ru": "Разрешено ли хранить пищу на год согласно шиистским хадисам?",
-          "tr": "Şii hadislerde bir yıl boyunca yiyecek saklamak caiz midir?",
-          "ur": "کیا شیعہ حدیث میں ایک سال کے لیے کھانے کو ذخیرہ کرنا جائز ہے؟",
-          "zh": "在什叶派圣训中储存食物一年是否允许？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বর্ণনা করে যে একজন ব্যক্তি ইমাম আল-রিদা علیہ السلام-এর কাছে এক বছর খাবার সংরক্ষণের ব্যাপারে প্রশ্ন করেছিলেন, এবং ইমাম উত্তর দিয়েছিলেন যে তিনি নিজেই এটি করেন। এই বর্ণনা পরিবারের প্রয়োজনের জন্য খাবার সংরক্ষণের অনুমতি নির্দেশ করে এবং এটি নিন্দনীয় মজুদ থেকে পৃথক করে।",
-          "de": "Dieser Hadith berichtet, dass ein Mann den Imam al-Riḍā عليه السلام fragte, ob es erlaubt sei, Nahrung für ein Jahr zu lagern, und der Imam antwortete, dass er es selbst tut. Der Bericht zeigt die Erlaubnis, Nahrung für den Hausbedarf zu lagern, und unterscheidet dies von tadelnswerter Hortung.",
-          "en": "This hadith reports that a man asked Imam al-Riḍā عليه السلام about keeping food stored for a year, and the Imam replied that he himself did so. The report indicates the permissibility of storing food for one’s household provision and distinguishes this from blameworthy hoarding.",
-          "es": "Este hadiz informa que un hombre preguntó al Imam al-Riḍā عليه السلام sobre almacenar comida durante un año, y el Imam respondió que él mismo lo hacía. El informe indica la permisibilidad de almacenar comida para el sustento del hogar y lo distingue del acaparamiento reprochable.",
-          "fa": "این حدیث گزارش می‌دهد که مردی از امام الرضا علیه السلام درباره نگهداری غذا به مدت یک سال پرسید و امام پاسخ داد که خود ایشان این کار را انجام می‌دهند. این گزارش جواز نگهداری غذا برای نیازهای خانواده را نشان می‌دهد و آن را از احتکار مذموم متمایز می‌کند.",
-          "fr": "Ce hadith rapporte qu'un homme a demandé à l'Imam al-Riḍā عليه السلام au sujet du stockage de nourriture pendant un an, et l'Imam a répondu qu'il le faisait lui-même. Le rapport indique la permissibilité de stocker de la nourriture pour les besoins du foyer et le distingue de l'accaparement blâmable.",
-          "id": "Hadis ini melaporkan bahwa seorang pria bertanya kepada Imam al-Riḍā علیه السلام tentang menyimpan makanan selama satu tahun, dan Imam menjawab bahwa beliau sendiri melakukannya. Laporan ini menunjukkan bolehnya menyimpan makanan untuk kebutuhan rumah tangga dan membedakannya dari penimbunan yang tercela.",
-          "ru": "Этот хадис сообщает, что мужчина спросил Имама аль-Риḍā عليه السلام о хранении пищи на год, и Имам ответил, что он сам так делает. Отчет указывает на дозволенность хранения пищи для нужд семьи и отличает это от порицаемого накопительства.",
-          "tr": "Bu hadis, bir adamın İmam al-Riḍā علیه السلام'a bir yıl boyunca yiyecek saklama hakkında sorduğunu ve İmamın bunu kendisinin yaptığını söylediğini bildirir. Bu rivayet, ev ihtiyaçları için yiyecek saklamanın caiz olduğunu ve bunu kınanacak stokçuluktan ayırdığını gösterir.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ ایک شخص امام الرضا علیہ السلام سے ایک سال کے لیے کھانے کو ذخیرہ کرنے کے بارے میں پوچھا، اور امام نے فرمایا کہ وہ خود ایسا کرتے ہیں۔ یہ روایت گھرانے کی ضروریات کے لیے کھانے کو ذخیرہ کرنے کی جوازیت کو ظاہر کرتی ہے اور اسے ملامت کے قابل ذخیرہ اندوزی سے ممتاز کرتی ہے۔",
-          "zh": "此圣训报告一人问伊玛目al-Riḍāعليه السلام关于储存食物一年，伊玛目回答他自己这样做。此报告表明为家庭储存食物是允许的，并将其与应受谴责的囤积区分开。"
-        },
         "tags": [
           "jurisprudence",
           "economy",

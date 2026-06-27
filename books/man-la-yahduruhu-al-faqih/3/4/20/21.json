@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَ عَمَّارُ بْنُ مُوسَى السَّابَاطِيُّ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ: عَنِ الظِّهَارِ الْوَاجِبِ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "অম্মার ইবনে মূসা আল-সাবাতী আবা আব্দুল্লাহ عليه السلام-এর কাছে ফরজ ẓihār সম্পর্কে জিজ্ঞাসা করলেন। তিনি বললেন:",
-              "de": "ʿAmmār ibn Mūsā al-Sābāṭī fragte Abā ʿAbdillāh علیه السلام nach dem verpflichtenden ẓihār. Er sagte:",
-              "en": "ʿAmmār ibn Mūsā al-Sābāṭī asked Abā ʿAbdillāh عليه السلام about the obligatory ẓihār. He said:",
-              "es": "ʿAmmār ibn Mūsā al-Sābāṭī preguntó a Abā ʿAbdillāh عليه السلام sobre el ẓihār obligatorio. Él dijo:",
-              "fa": "عمار بن موسی الساباطی از ابا عبدالله علیه السلام درباره ظِهار واجب پرسید. ایشان فرمودند:",
-              "fr": "ʿAmmār ibn Mūsā al-Sābāṭī a demandé à Abā ʿAbdillāh عليه السلام au sujet du ẓihār obligatoire. Il a dit :",
-              "id": "ʿAmmār ibn Mūsā al-Sābāṭī bertanya kepada Abā ʿAbdillāh علیه السلام tentang ẓihār wajib. Beliau berkata:",
-              "ru": "ʿAmmār ибн Муса аль-Сабати спросил у Абā ʿAbdillāh علیه السلام о обязательном ẓihār. Он сказал:",
-              "tr": "ʿAmmār ibn Mūsā al-Sābāṭī, Abā ʿAbdillāh علیه السلام'a zorunlu ẓihār hakkında sordu. O dedi ki:",
-              "ur": "عمار ابن موسی السباتی نے ابا عبداللہ علیہ السلام سے واجب ظہار کے بارے میں پوچھا۔ انہوں نے فرمایا:",
-              "zh": "ʿAmmāribnMūsāal-Sābāṭī向AbāʿAbdillāhعلیهالسلام询问了义务ẓihār。他说："
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "الَّذِي يُرِيدُ بِهِ الرَّجُلُ الظِّهَارَ بِعَيْنِهِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "এটি সেই যার মাধ্যমে একজন পুরুষ বিশেষভাবে ẓihār-এর উদ্দেশ্য করে।",
-              "de": "Es ist das, womit ein Mann speziell den ẓihār selbst beabsichtigt.",
-              "en": "It is that by which a man intends ẓihār itself specifically.",
-              "es": "Es aquello por lo que un hombre específicamente pretende el ẓihār mismo.",
-              "fa": "آن چیزی است که مرد به طور خاص قصد ظِهار را دارد.",
-              "fr": "C'est ce par quoi un homme entend spécifiquement le ẓihār lui-même.",
-              "id": "Itulah yang dengan itu seorang pria secara khusus berniat ẓihār itu sendiri.",
-              "ru": "Это то, чем мужчина специально намеревается ẓihār как таковой.",
-              "tr": "Bu, bir erkeğin ẓihārı kendisi olarak özellikle niyet ettiği şeydir.",
-              "ur": "وہ وہ ہے جس کے ذریعے مرد خاص طور پر ظہار کا ارادہ کرتا ہے۔",
-              "zh": "这是男人特别意图ẓihār本身的行为。"
-            },
             "word_end": 20,
             "word_start": 14
           }
@@ -91,25 +78,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الرَّجُلُ": "the husband or man making the statement",
-            "الظِّهَارِ": "Ẓihār, the formula by which a wife is likened in prohibition to a forbidden relative",
-            "الْوَاجِبِ": "legally binding or operative in ruling",
-            "بِعَيْنِهِ": "specifically, in its very sense, explicitly as such",
-            "يُرِيدُ": "intends or means deliberately"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الظِّهَارِ",
+          "الْوَاجِبِ",
+          "يُرِيدُ",
+          "الرَّجُلُ",
+          "بِعَيْنِهِ"
+        ],
         "related_quran": [
           {
             "ref": "58:2",
@@ -124,32 +99,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে কখন ẓihār আইনি বাধ্যতামূলক হয়?",
-          "de": "Wann wird ẓihār im schiitischen Hadith rechtlich bindend?",
-          "en": "When does ẓihār become legally binding in Shia hadith?",
-          "es": "¿Cuándo se vuelve legalmente vinculante el ẓihār en el hadiz chií?",
-          "fa": "ظِهار در حدیث شیعه چه زمانی از نظر قانونی الزام‌آور می‌شود؟",
-          "fr": "Quand le ẓihār devient-il juridiquement contraignant dans le hadith chiite ?",
-          "id": "Kapan ẓihār menjadi mengikat secara hukum dalam hadits Syiah?",
-          "ru": "Когда ẓihār становится юридически обязательным в шиистском хадисе?",
-          "tr": "Şii hadiste ẓihār ne zaman yasal olarak bağlayıcı olur?",
-          "ur": "شیعہ حدیث میں ظہار کب قانونی طور پر واجب ہو جاتا ہے؟",
-          "zh": "ẓihār在什叶派圣训中何时具有法律约束力？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ẓihār কখন বাধ্যতামূলক হয় তার একটি আইনি মানদণ্ড দেয়। এটি নির্দেশ করে যে যখন একজন পুরুষ বিশেষভাবে ẓihār-এর উদ্দেশ্য করে, তখন এই বিধান প্রযোজ্য হয়, যা ইচ্ছাকে আইনি প্রভাবের কেন্দ্র করে।",
-          "de": "Dieser Hadith gibt ein rechtliches Kriterium dafür, wann ẓihār bindend ist. Er zeigt, dass die Regel gilt, wenn ein Mann speziell die Äußerung als ẓihār selbst beabsichtigt, wodurch die Absicht zentral für die rechtliche Wirkung der Aussage wird.",
-          "en": "This hadith gives a legal criterion for when ẓihār is considered binding. It indicates that the ruling applies when a man specifically intends the utterance as ẓihār itself, making intention central to the legal effect of the statement.",
-          "es": "Este hadiz proporciona un criterio legal para cuando el ẓihār es vinculante. Indica que la regla se aplica cuando un hombre específicamente pretende la expresión como ẓihār, haciendo que la intención sea central para el efecto legal de la declaración.",
-          "fa": "این حدیث معیار حقوقی برای الزام ظِهار را بیان می‌کند و نشان می‌دهد که حکم زمانی جاری است که مرد به طور خاص قصد ظِهار را داشته باشد، که نیت را در اثر حقوقی بیان مرکزی می‌کند.",
-          "fr": "Ce hadith donne un critère légal pour quand le ẓihār est considéré comme contraignant. Il indique que la règle s'applique lorsque l'homme a spécifiquement l'intention du ẓihār lui-même, faisant de l'intention le centre de l'effet légal de la déclaration.",
-          "id": "Hadis ini memberikan kriteria hukum kapan ẓihār dianggap mengikat. Ini menunjukkan bahwa hukum berlaku ketika seorang pria secara khusus berniat ẓihār itu sendiri, menjadikan niat pusat dari efek hukum pernyataan tersebut.",
-          "ru": "Этот хадис дает юридический критерий, когда ẓihār считается обязательным. Он указывает, что правило применяется, когда мужчина специально намеревается на ẓihār, делая намерение центральным для юридического эффекта высказывания.",
-          "tr": "Bu hadis, ẓihārın bağlayıcı olması için niyetin önemini belirtir ve bir erkeğin özellikle ẓihārı kastettiğinde hükmün geçerli olduğunu gösterir.",
-          "ur": "یہ حدیث ظہار کے قانونی اثر کے لیے ارادے کی اہمیت کو بیان کرتی ہے اور بتاتی ہے کہ ظہار اس وقت واجب ہوتا ہے جب مرد خاص طور پر ظہار کا ارادہ کرے۔",
-          "zh": "此圣训为ẓihār何时具有法律约束力提供了法律标准。它表明当男人特别意图ẓihār本身时，该裁决适用，使意图成为声明法律效力的核心。"
-        },
         "tags": [
           "jurisprudence",
           "family",

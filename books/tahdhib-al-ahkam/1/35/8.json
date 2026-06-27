@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى رَفَعَهُ عَنْ أَبَانٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন ইয়াহইয়া, তা উত্থাপন করে, আবান থেকে, বলেছেন:",
-              "de": "Muhammad ibn Yahya, es erhöhend, von Aban, sagte:",
-              "en": "Muḥammad ibn Yaḥyā, raising it, from Abān, said:",
-              "es": "Muhammad ibn Yahya, elevándolo, de Aban, dijo:",
-              "fa": "محمد بن یحیی، آن را بالا برده، از ابان، گفت:",
-              "fr": "Muhammad ibn Yahya, le rapportant, d’Aban, a dit :",
-              "id": "Muhammad ibn Yahya, mengangkatnya, dari Aban, berkata:",
-              "ru": "Мухаммад ибн Яхья, передавая это, от Абана, сказал:",
-              "tr": "Muhammed ibn Yahyâ, onu yükselterek, Abân’dan şöyle dedi:",
-              "ur": "محمد بن یحیی، اسے بلند کرتے ہوئے، ابان سے روایت کرتے ہیں، انہوں نے کہا:",
-              "zh": "穆罕默德·伊本·叶海亚，转述自阿班，说："
-            },
             "word_end": 7,
             "word_start": 0
           },
           {
             "arabic_text": "قُلْتُ لِأَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ: فَتَاةٌ مِنَّا بِهَا قَرْحَةٌ فِي جَوْفِهَا وَالدَّمُ سَائِلٌ، لَا تَدْرِي مِنْ دَمِ الْحَيْضِ أَوْ مِنْ دَمِ الْقَرْحَةِ.",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আমি আবূ আবদিল্লাহ عليه السلام-কে বললাম: আমাদের মধ্যে এক তরুণীর ভেতরে একটি ঘা আছে, আর রক্ত বের হচ্ছে; সে জানে না এটি ঋতুস্রাবের রক্ত নাকি ঘার রক্ত।",
-              "de": "Ich sagte zu Abū ʿAbdillāh عليه السلام: Eine junge Frau unter uns hat ein Geschwür im Inneren, und Blut fließt; sie weiß nicht, ob es Menstruationsblut oder das Blut des Geschwürs ist.",
-              "en": "I said to Abū ʿAbdillāh عليه السلام: A young woman among us has an ulcer within her, and blood is flowing; she does not know whether it is from menstrual blood or from the blood of the ulcer.",
-              "es": "Le dije a Abū ʿAbdillāh عليه السلام: Una joven entre nosotros tiene una úlcera en su interior, y la sangre fluye; no sabe si es sangre menstrual o sangre de la úlcera.",
-              "fa": "به ابوعبدالله علیه السلام گفتم: در میان ما دختری جوان است که در درونش زخمی دارد و خون جاری است؛ نمی‌داند این از خون حیض است یا از خون زخم.",
-              "fr": "Je dis à Abū ʿAbdillāh عليه السلام : Une jeune femme parmi nous a un ulcère à l’intérieur, et le sang s’écoule ; elle ne sait pas s’il s’agit du sang des menstrues ou du sang de l’ulcère.",
-              "id": "Aku berkata kepada Abū ʿAbdillāh عليه السلام: Seorang wanita muda di antara kami memiliki luka di dalam tubuhnya, dan darah mengalir; ia tidak tahu apakah itu dari darah haid atau dari darah luka.",
-              "ru": "Я сказал Абу Абдуллаху عليه السلام: У одной молодой женщины из нас внутри язва, и кровь течет; она не знает, это кровь менструации или кровь язвы.",
-              "tr": "Abû ʿAbdillâh عليه السلام’a dedim ki: Bizden genç bir kadının içinde bir yara var ve kan akıyor; bunun hayız kanından mı yoksa yaranın kanından mı olduğunu bilmiyor.",
-              "ur": "میں نے ابو عبد اللہ علیہ السلام سے کہا: ہم میں سے ایک نوجوان عورت کے اندر زخم ہے، اور خون بہہ رہا ہے؛ وہ نہیں جانتی کہ یہ حیض کے خون سے ہے یا زخم کے خون سے۔",
-              "zh": "我对阿布·阿卜杜拉 عليه السلام说：我们中有一位年轻女子，体内有一个溃疡，血在流；她不知道这是月经血还是溃疡的血。"
-            },
             "word_end": 30,
             "word_start": 7
           },
           {
             "arabic_text": "فَقَالَ: «مُرْهَا فَلْتَسْتَلْقِ عَلَى ظَهْرِهَا وَتَرْفَعُ رِجْلَيْهَا وَتَسْتَدْخِلُ إِصْبَعَهَا الْوُسْطَى، فَإِنْ خَرَجَ الدَّمُ مِنَ الْجَانِبِ الْأَيْسَرِ فَهُوَ مِنَ الْحَيْضِ، وَإِنْ خَرَجَ مِنَ الْجَانِبِ الْأَيْمَنِ فَهُوَ مِنَ الْقَرْحَةِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: \"তাকে বলো, সে যেন চিত হয়ে শোয়, তার পা দুটো তোলে, এবং তার মধ্যমা আঙুল প্রবেশ করায়। তারপর যদি রক্ত বাম দিক থেকে বের হয়, তবে তা ঋতুস্রাবের; আর যদি ডান দিক থেকে বের হয়, তবে তা ঘা থেকে।\"",
-              "de": "Er sagte: „Sag ihr, sie soll sich auf den Rücken legen, die Beine anheben und ihren Mittelfinger einführen. Wenn dann das Blut von der linken Seite herauskommt, stammt es von der Menstruation; und wenn es von der rechten Seite herauskommt, stammt es vom Geschwür.“",
-              "en": "He said: \"Tell her to lie on her back, raise her legs, and insert her middle finger. Then if the blood comes out from the left side, it is from menstruation; and if it comes out from the right side, then it is from the ulcer.\"",
-              "es": "Dijo: \"Dile que se acueste boca arriba, levante las piernas e introduzca su dedo medio. Luego, si la sangre sale por el lado izquierdo, es de la menstruación; y si sale por el lado derecho, es de la úlcera.\"",
-              "fa": "فرمود: «به او بگو به پشت بخوابد، پاهایش را بالا بیاورد و انگشت میانی خود را داخل کند. سپس اگر خون از سمت چپ بیرون آمد، از حیض است؛ و اگر از سمت راست بیرون آمد، از زخم است.»",
-              "fr": "Il dit : « Dis-lui de s’allonger sur le dos, de lever ses jambes et d’introduire son majeur. Puis, si le sang sort du côté gauche, il provient des menstrues ; et s’il sort du côté droit, il provient de l’ulcère. »",
-              "id": "Beliau bersabda: \"Suruhlah ia berbaring telentang, mengangkat kedua kakinya, dan memasukkan jari tengahnya. Lalu jika darah keluar dari sisi kiri, maka itu dari haid; dan jika keluar dari sisi kanan, maka itu dari luka.\"",
-              "ru": "Он сказал: «Скажи ей, пусть ляжет на спину, поднимет ноги и введет средний палец. Если кровь выйдет с левой стороны, то это от менструации; а если с правой стороны, то это от язвы».",
-              "tr": "Şöyle buyurdu: \"Ona sırtüstü yatmasını, bacaklarını kaldırmasını ve orta parmağını içeri sokmasını söyle. Sonra kan sol taraftan çıkarsa o hayızdandır; sağ taraftan çıkarsa o yaradandır.\"",
-              "ur": "انہوں نے فرمایا: \"اسے کہو کہ وہ اپنی پیٹھ کے بل لیٹ جائے، اپنی ٹانگیں اٹھائے، اور اپنی درمیانی انگلی داخل کرے۔ پھر اگر خون بائیں جانب سے نکلے تو وہ حیض سے ہے؛ اور اگر دائیں جانب سے نکلے تو وہ زخم سے ہے۔\"",
-              "zh": "他说：“告诉她，让她仰卧，抬起双腿，并插入中指。然后如果血从左侧流出，那就是月经血；如果从右侧流出，那就是溃疡的血。”"
-            },
             "word_end": 57,
             "word_start": 30
           }
@@ -109,53 +83,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الدَّمُ": "the blood under examination for legal determination",
-            "الْجَانِبِ الْأَيْسَرِ": "the left side, identified here as indicating menstrual blood",
-            "الْجَانِبِ الْأَيْمَنِ": "the right side, identified here as indicating ulcer blood",
-            "دَمِ الْحَيْضِ": "menstrual blood, which carries specific legal rulings",
-            "دَمِ الْقَرْحَةِ": "blood originating from the ulcer rather than menstruation",
-            "قَرْحَةٌ": "an ulcer or wound causing internal bleeding"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "قَرْحَةٌ",
+          "الدَّمُ",
+          "دَمِ الْحَيْضِ",
+          "دَمِ الْقَرْحَةِ",
+          "الْجَانِبِ الْأَيْسَرِ",
+          "الْجَانِبِ الْأَيْمَنِ"
+        ],
         "related_quran": [],
-        "seo_questions": {
-          "bn": "একজন নারী সন্দেহে থাকলে শিয়া ফিকহে ঋতুস্রাবের রক্ত ও ঘার রক্ত কীভাবে আলাদা করা হয়?",
-          "de": "Wie unterscheidet man im schiitischen Fiqh Menstruationsblut von Wundblut, wenn eine Frau unsicher ist?",
-          "en": "How can menstrual blood be distinguished from ulcer blood in Shia fiqh when a woman is uncertain?",
-          "es": "¿Cómo se distingue la sangre menstrual de la sangre de una úlcera en la fiqh chií cuando una mujer tiene dudas?",
-          "fa": "وقتی زن دچار تردید است، در فقه شیعه خون حیض از خون زخم چگونه تشخیص داده می‌شود؟",
-          "fr": "Comment distinguer le sang menstruel du sang d’un ulcère dans le fiqh chiite lorsqu’une femme est dans le doute ?",
-          "id": "Bagaimana darah haid dibedakan dari darah luka dalam fikih Syiah ketika seorang wanita ragu?",
-          "ru": "Как в шиитском фикхе отличают менструальную кровь от крови язвы, когда женщина сомневается?",
-          "tr": "Bir kadın şüphe duyduğunda Şiî fıkıhta hayız kanı ile yara kanı nasıl ayırt edilir?",
-          "ur": "جب عورت کو شک ہو تو شیعہ فقہ میں حیض کے خون اور زخم کے خون میں کیسے فرق کیا جاتا ہے؟",
-          "zh": "当妇女不确定时，什叶派教法中如何区分月经血和溃疡血？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি সন্দেহের ক্ষেত্রে ঋতুস্রাবের রক্ত ও অভ্যন্তরীণ ঘা থেকে সৃষ্ট রক্তের মধ্যে পার্থক্য করার একটি ফিকহি মানদণ্ড দেয়। এটি তাহারাত ও ইবাদতের বিধানকে প্রভাবিত করে এমন ক্ষেত্রে সঠিক রীতিগত অবস্থা নির্ধারণে ইমামি ফিকহের গুরুত্বকে প্রতিফলিত করে।",
-          "de": "Dieser Hadith gibt ein rechtliches Kriterium zur Unterscheidung von Menstruationsblut und Blut, das durch ein inneres Geschwür verursacht wird, wenn Ungewissheit besteht. Er spiegelt die Sorge des imamitischen Fiqh wider, den rituellen Status in Fällen, die die Regeln der Taharah und der Gottesdienste betreffen, genau zu bestimmen.",
-          "en": "This hadith gives a legal criterion for distinguishing menstrual blood from blood caused by an internal ulcer when uncertainty exists. It reflects the Imamic fiqh concern with determining ritual status accurately in cases affecting rulings of taharah and acts of worship.",
-          "es": "Este hadiz ofrece un criterio jurídico para distinguir la sangre menstrual de la sangre causada por una úlcera interna cuando existe incertidumbre. Refleja la preocupación de la fiqh imamí por determinar con precisión el estado ritual en casos que afectan las normas de taharah y los actos de adoración.",
-          "fa": "این حدیث در صورت وجود تردید، معیار فقهیِ تشخیص خون حیض از خون ناشی از زخم داخلی را بیان می‌کند. این روایت، توجه فقه امامی به تعیین دقیق وضعیت شرعی در مواردی را نشان می‌دهد که بر احکام طهارت و عبادات اثر می‌گذارد.",
-          "fr": "Ce hadith donne un critère juridique pour distinguer le sang menstruel du sang causé par un ulcère interne lorsqu’il existe une incertitude. Il reflète l’attention du fiqh imamite à déterminer avec précision le statut rituel dans les cas qui affectent les règles de taharah et les actes d’adoration.",
-          "id": "Hadis ini memberikan kriteria hukum untuk membedakan darah haid dari darah yang disebabkan oleh luka internal ketika terdapat keraguan. Ini mencerminkan perhatian fikih Imamiyah dalam menentukan status ritual secara tepat pada kasus-kasus yang memengaruhi hukum taharah dan ibadah.",
-          "ru": "Этот хадис дает правовой критерий для различения менструальной крови и крови, вызванной внутренней язвой, когда есть сомнение. Он отражает внимание имамитского фикха к точному определению ритуального статуса в случаях, влияющих на нормы тахара и акты поклонения.",
-          "tr": "Bu hadis, şüphe bulunduğunda hayız kanı ile iç yaradan kaynaklanan kanı ayırt etmek için fıkhî bir ölçüt verir. Bu, taharet ve ibadet hükümlerini etkileyen durumlarda doğru dinî hükmün belirlenmesine yönelik İmâmî fıkıh hassasiyetini yansıtır.",
-          "ur": "یہ حدیث اس صورت میں حیض کے خون اور اندرونی زخم کے خون میں فرق کرنے کا شرعی معیار بیان کرتی ہے جب شک ہو۔ یہ امامی فقہ کی اس توجہ کو ظاہر کرتی ہے کہ طہارت اور عبادات سے متعلق احکام میں درست شرعی حالت متعین کی جائے۔",
-          "zh": "这段圣训在存在疑惑时，给出了区分月经血与由内在溃疡引起的血的法律标准。它体现了伊玛目派教法对在影响洁净和 عبادات 规定的情形中准确判定礼仪状态的重视。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَعَنْهُ عَنْ عُثْمَانَ عَنْ سَمَاعَةَ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং তাঁর কাছ থেকে, উসমান থেকে, সামা‘আ থেকে, যিনি বলেছেন:",
-              "de": "Und von ihm, von Uthman, von Sama‘a, der sagte:",
-              "en": "And from him, from 'Uthman, from سماعة, who said:",
-              "es": "Y de él, de Uthman, de Sama‘a, quien dijo:",
-              "fa": "و از او، از عثمان، از سماعه، که گفت:",
-              "fr": "Et de lui, de ‘Uthman, de Sama‘a, qui a dit :",
-              "id": "Dan darinya, dari Utsman, dari Sama'ah, yang berkata:",
-              "ru": "И от него, от Усмана, от Сама‘а, который сказал:",
-              "tr": "Ve ondan, Osman’dan, Semâa’dan, şöyle dedi:",
-              "ur": "اور ان سے، عثمان سے، سماعہ سے، جنہوں نے کہا:",
-              "zh": "并且由他传自‘Uthman，传自Sama‘ah，他说："
-            },
             "word_end": 6,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنِ الْمَنِيِّ يُصِيبُ الثَّوْبَ، قَالَ: «اغْسِلِ الثَّوْبَ كُلَّهُ إِذَا خَفِيَ عَلَيْكَ مَكَانُهُ، قَلِيلًا كَانَ أَوْ كَثِيرًا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁকে জিজ্ঞেস করলাম, বস্ত্রে লাগা বীর্য সম্পর্কে। তিনি বললেন: “যদি এর স্থান তোমার কাছে অজানা থাকে, তবে পুরো বস্ত্র ধুয়ে ফেলো, তা অল্প হোক বা বেশি।”",
-              "de": "Ich fragte ihn nach Samen, der auf ein Kleidungsstück gelangt. Er sagte: „Wasche das ganze Kleidungsstück, wenn seine Stelle dir verborgen ist, sei es wenig oder viel.“",
-              "en": "I asked him about semen that gets on a garment. He said: “Wash the entire garment if its place is hidden from you, whether it was a little or a lot.”",
-              "es": "Le pregunté acerca del semen que cae sobre una prenda. Dijo: “Lava toda la prenda si su lugar te es desconocido, ya sea poco o mucho.”",
-              "fa": "از او درباره منی‌ای که به لباس می‌رسد پرسیدم. فرمود: «اگر جای آن بر تو پوشیده باشد، تمام لباس را بشوی، چه کم باشد و چه زیاد.»",
-              "fr": "Je l’ai interrogé au sujet du sperme qui atteint un vêtement. Il dit : « Lave tout le vêtement si l’endroit t’en est caché, que ce soit peu ou beaucoup. »",
-              "id": "Aku bertanya kepadanya tentang mani yang mengenai pakaian. Ia berkata: “Cucilah seluruh pakaian jika tempatnya tersembunyi darimu, baik sedikit maupun banyak.”",
-              "ru": "Я спросил его о семени, попавшем на одежду. Он сказал: «Постирай всю одежду, если место его тебе неизвестно, будь его мало или много».",
-              "tr": "Ona, bir elbiseye bulaşan meni hakkında sordum. Dedi ki: “Yeri senden gizli kalmışsa, az olsun çok olsun, elbisenin tamamını yıka.”",
-              "ur": "میں نے ان سے اس منی کے بارے میں پوچھا جو کپڑے کو لگ جائے۔ انہوں نے فرمایا: “اگر اس کی جگہ تم پر مخفی ہو تو پورا کپڑا دھو دو، خواہ وہ تھوڑی ہو یا بہت۔”",
-              "zh": "我问他关于沾到衣服上的精液。他说：“如果它的位置对你不明确，就把整件衣服洗掉，不管是少还是多。”"
-            },
             "word_end": 23,
             "word_start": 6
           }
@@ -94,26 +81,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "اغْسِلِ": "wash; an imperative command indicating the required action",
-            "الثَّوْبَ": "the garment or clothing that has been affected",
-            "الْمَنِيِّ": "semen, the substance discussed here as affecting ritual purity",
-            "خَفِيَ": "became hidden or unknown; indicating uncertainty about the precise location",
-            "كُلَّهُ": "all of it; meaning the entire garment must be washed",
-            "مَكَانُهُ": "its place; the exact spot of the impurity on the garment"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمَنِيِّ",
+          "الثَّوْبَ",
+          "اغْسِلِ",
+          "كُلَّهُ",
+          "خَفِيَ",
+          "مَكَانُهُ"
+        ],
         "related_quran": [
           {
             "ref": "2:222",
@@ -128,32 +103,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি বস্ত্রে বীর্য লাগে এবং এর নির্দিষ্ট স্থান জানা না থাকে, তাহলে কী করা উচিত?",
-          "de": "Was soll getan werden, wenn Samen auf ein Kleidungsstück gelangt und seine genaue Stelle unbekannt ist?",
-          "en": "What should be done if semen gets on a garment and its exact location is unknown?",
-          "es": "¿Qué debe hacerse si el semen cae sobre una prenda y no se conoce su ubicación exacta?",
-          "fa": "اگر منی به لباس برسد و جای دقیق آن معلوم نباشد چه باید کرد؟",
-          "fr": "Que faut-il faire si du sperme tombe sur un vêtement et que son emplacement exact est inconnu ?",
-          "id": "Apa yang harus dilakukan jika mani mengenai pakaian dan lokasi tepatnya tidak diketahui?",
-          "ru": "Что следует сделать, если семя попало на одежду и его точное место неизвестно?",
-          "tr": "Meni bir elbiseye bulaşır ve tam yeri bilinmezse ne yapılmalıdır?",
-          "ur": "اگر کپڑے پر منی لگ جائے اور اس کی ٹھیک جگہ معلوم نہ ہو تو کیا کرنا چاہیے؟",
-          "zh": "如果精液沾到衣服上而且具体位置不明，应该怎么做？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে বীর্য দ্বারা আক্রান্ত বস্ত্র সম্পর্কে একটি শরয়ি বিধান বর্ণিত হয়েছে। অপবিত্রতার নির্দিষ্ট স্থান জানা না থাকলে, পরিমাণ কম হোক বা বেশি, পুরো বস্ত্র ধুতে হবে।",
-          "de": "Dieser Hadith enthält eine rechtliche Regelung für ein Kleidungsstück, das mit Samen verunreinigt wurde. Wenn die genaue Stelle der Unreinheit unbekannt ist, muss das ganze Kleidungsstück gewaschen werden, gleich ob die Menge gering oder groß ist.",
-          "en": "This hadith gives a legal ruling concerning a garment affected by semen. If the exact spot of the impurity is unknown, the whole garment must be washed, whether the amount is small or large.",
-          "es": "Este hadiz establece una norma jurídica sobre una prenda afectada por semen. Si no se conoce el lugar exacto de la impureza, debe lavarse toda la prenda, sea poca o mucha la cantidad.",
-          "fa": "این حدیث حکمی فقهی درباره لباسی که به منی آلوده شده بیان می‌کند. اگر جای دقیق نجاست معلوم نباشد، باید تمام لباس شسته شود، چه مقدار کم باشد و چه زیاد.",
-          "fr": "Ce hadith énonce une règle juridique concernant un vêtement souillé par du sperme. Si l’endroit exact de l’impureté est inconnu, il faut laver tout le vêtement, que la quantité soit faible ou importante.",
-          "id": "Hadis ini memberikan hukum fikih tentang pakaian yang terkena mani. Jika titik najisnya tidak diketahui, seluruh pakaian harus dicuci, baik jumlahnya sedikit maupun banyak.",
-          "ru": "Этот хадис содержит правовое постановление относительно одежды, на которую попало семя. Если точное место нечистоты неизвестно, следует постирать всю одежду, независимо от того, мало его или много.",
-          "tr": "Bu hadis, meni bulaşan bir elbiseyle ilgili fıkhî hükmü بیان eder. Necasetin tam yeri bilinmiyorsa, miktar az da olsa çok da olsa bütün elbise yıkanmalıdır.",
-          "ur": "یہ حدیث منی سے متاثر ہونے والے کپڑے کے بارے میں شرعی حکم بیان کرتی ہے۔ اگر نجاست کی ٹھیک جگہ معلوم نہ ہو تو پورا کپڑا دھونا لازم ہے، خواہ مقدار کم ہو یا زیادہ۔",
-          "zh": "这段圣训阐明了关于被精液沾染的衣服的教法判定。如果污秽的具体位置不明，就必须清洗整件衣服，不论量少还是多。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

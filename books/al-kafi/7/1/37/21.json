@@ -14,6 +14,145 @@
       "up": "/books/al-kafi:7:1:37"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ ابْنِ أَبِي نَجْرَانَ أَوْ غَيْرِهِ عَنْ عَاصِمِ بْنِ حُمَيْدٍ عَنْ مُحَمَّدِ بْنِ قَيْسٍ عَنْ أَبِي جَعْفَرٍ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 29,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قُلْتُلتُ لَهُ رَجُلٌ أَوْصَى لِرَجُلٍ بِوَصِيَّةٍ فِي مَالِهِ ثُلُثٍ أَوْ رُبُعٍ فَقُتِلَ الرَّجُلُ خَطَأً يَعْنِي الْمُوصِيَ فَقَالَ يُحَازُ لِهَذِهِ الْوَصِيَّةِ مِنْ مِيرَاثِهِ وَ مِنْ دِيَتِهِ",
+            "chunk_type": "body",
+            "word_end": 54,
+            "word_start": 29
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 971,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ أَبِي نَجْرَانَ أَوْ غَيْرِهِ",
+              "name_en": "Ibn Abi Najran",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 79,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَاصِمِ بْنِ حُمَيْدٍ",
+              "name_en": "Asim ibn Humayd",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 105,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ قَيْسٍ",
+              "name_en": "Muhammad ibn Qays",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 9,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي جَعْفَرٍ ( عليه السلام )",
+              "name_en": "Abu Ja'far",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "وَصِيَّة",
+          "مِيرَاث",
+          "دِيَة",
+          "قُتِلَ خَطَأً",
+          "يُحَازُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:180",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "4:11",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "4:176",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "economy",
+          "family"
+        ],
+        "topics": [
+          "inheritance",
+          "financial_law",
+          "death_dying"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> صحيح  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (3/102)"
       ],
@@ -94,7 +233,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:7:1:37:21",

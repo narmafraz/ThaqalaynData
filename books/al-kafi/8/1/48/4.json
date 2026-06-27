@@ -15,6 +15,139 @@
       "up": "/books/al-kafi:8:1:48"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ حَمَّادِ بْنِ عُثْمَانَ عَنْ أَبِي عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 20,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "وُلْدُ الْمِرْدَاسِ مَنْ تَقَرَّبَ مِنْهُمْ أَكْفَرُوهُ وَ مَنْ تَبَاعَدَ مِنْهُمْ أَفْقَرُوهُ وَ مَنْ نَاوَاهُمْ قَتَلُوهُ وَ مَنْ تَحَصَّنَ مِنْهُمْ أَنْزَلُوهُ وَ مَنْ هَرَبَ مِنْهُمْ أَدْرَكُوهُ حَتَّى تَنْقَضِيَ دَوْلَتُهُمْ.",
+            "chunk_type": "body",
+            "word_end": 48,
+            "word_start": 20
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 7,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ أَبِي عُمَيْرٍ",
+              "name_en": "Ibn Abi Umayr",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 54,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "حَمَّادِ بْنِ عُثْمَانَ",
+              "name_en": "Hammad ibn Uthman",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ (عليه السلام)",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "وُلْدُ الْمِرْدَاسِ",
+          "تَقَرَّبَ",
+          "أَكْفَرُوهُ",
+          "أَفْقَرُوهُ",
+          "دَوْلَتُهُمْ"
+        ],
+        "related_quran": [
+          {
+            "ref": "11:6",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "36:26",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "7:129",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "12:100",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "governance",
+          "social_relations",
+          "history"
+        ],
+        "topics": [
+          "ghadir",
+          "imams_biography",
+          "oppression"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مهول</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 502)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -113,7 +246,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:48:4",

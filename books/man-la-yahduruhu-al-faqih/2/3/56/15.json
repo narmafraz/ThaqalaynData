@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى زُرَارَةُ وَ بُكَيْرٌ عَنْ أَحَدِهِمَا عَلَيْهِمَا السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "জুরারা এবং বু্কায়ের দুই ইমামের একজন থেকে, তাদের উপর শান্তি বর্ষিত হোক, বর্ণনা করেছেন:",
-              "de": "Zurārah und Bukayr berichteten von einem der beiden Imame, Friede sei mit ihnen:",
-              "en": "Zurārah and Bukayr narrated from one of the two Imams, peace be upon them:",
-              "es": "Zurārah y Bukayr narraron de uno de los dos Imames, la paz sea con ellos:",
-              "fa": "زُراره و بُکیر از یکی از دو امام علیهماالسلام روایت کردند:",
-              "fr": "Zurārah et Bukayr ont rapporté d’un des deux Imams, que la paix soit sur eux :",
-              "id": "Zurārah dan Bukayr meriwayatkan dari salah satu dari dua Imam, semoga keselamatan atas mereka berdua:",
-              "ru": "Зурара и Букайр передали от одного из двух Имамов, мир им:",
-              "tr": "Zurārah ve Bukayr, iki İmamdan birinden, üzerlerine selam olsun, rivayet ettiler:",
-              "ur": "زُرارہ اور بُکیر نے دونوں اماموں علیہما السلام میں سے ایک سے روایت کی:",
-              "zh": "زُرَارَة和بُكَيْر从两位伊玛目之一传述，愿他们平安："
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "فِي مُحْرِمَيْنِ أَصَابَا صَيْدًا فَقَالَ عَلَيْهِ السَّلَامُ «عَلَى كُلِّ وَاحِدٍ مِنْهُمَا الْفِدَاءُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "ইহরামে থাকা দুই ব্যক্তির সম্পর্কে যারা শিকার করেছিল, তিনি, শান্তি তাঁর উপর বর্ষিত হোক, বললেন: “প্রত্যেকের উপর মুক্তিপণ ফরজ।”",
-              "de": "Bezüglich zweier Personen im Zustand des Ihram, die Wild erlegt haben, sagte er, Friede sei mit ihm: „Auf jedem von ihnen lastet die Sühne.“",
-              "en": "Regarding two people in the state of ihram who struck game, he, peace be upon him, said: “Upon each one of them is the expiation.”",
-              "es": "Respecto a dos personas en estado de ihram que cazaron, él, la paz sea con él, dijo: “Sobre cada uno de ellos hay una expiación.”",
-              "fa": "در مورد دو نفر در حال احرام که شکار کردند، آن حضرت علیه السلام فرمود: «بر هر یک از آنها کفاره واجب است.»",
-              "fr": "Concernant deux personnes en état d’ihram qui ont chassé, lui, que la paix soit sur lui, a dit : « Sur chacun d’eux incombe une expiation. »",
-              "id": "Mengenai dua orang dalam keadaan ihram yang memburu binatang, beliau, semoga keselamatan atasnya, bersabda: “Atas masing-masing dari mereka ada fidyah.”",
-              "ru": "Относительно двух человек в состоянии ихрам, которые поразили дичь, он, мир ему, сказал: «На каждого из них возлагается искупление.»",
-              "tr": "İhramda olan iki kişi av vurduğunda, O, üzerine selam olsun, şöyle dedi: “Her birinin üzerine fidye vardır.”",
-              "ur": "دو محرموں کے بارے میں جنہوں نے شکار کیا، آپ علیہ السلام نے فرمایا: \"ہر ایک پر کفارہ واجب ہے۔\"",
-              "zh": "关于两位处于伊赫拉姆状态的人猎获猎物，他，愿他平安，说：“每个人都须赎罪。”"
-            },
             "word_end": 21,
             "word_start": 9
           }
@@ -101,57 +88,19 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَصَابَا": "they struck or affected",
-            "الْفِدَاءُ": "the required expiation or compensatory offering",
-            "صَيْدًا": "game animal hunted or injured",
-            "كُلِّ وَاحِدٍ": "each individual separately",
-            "مُحْرِمَيْنِ": "two persons in the state of ihram"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "مُحْرِمَيْنِ",
+          "أَصَابَا",
+          "صَيْدًا",
+          "الْفِدَاءُ",
+          "كُلِّ وَاحِدٍ"
+        ],
         "related_quran": [
           {
             "ref": "5:95",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি দুই ইহরামী একসাথে শিকার করে, তাহলে কি প্রত্যেককে আলাদা আলাদা মুক্তিপণ দিতে হবে?",
-          "de": "Müssen bei gemeinsamer Jagd von zwei Personen im Ihramzustand beide jeweils eine separate Sühne zahlen?",
-          "en": "If two people in ihram hunt game together, does each one have to pay expiation separately?",
-          "es": "Si dos personas en ihram cazan juntas, ¿cada uno debe pagar la expiación por separado?",
-          "fa": "اگر دو نفر در حال احرام با هم شکار کنند، آیا هر کدام باید کفاره جداگانه پرداخت کنند؟",
-          "fr": "Si deux personnes en ihram chassent ensemble, doivent-elles chacune payer l’expiation séparément ?",
-          "id": "Jika dua orang dalam ihram berburu bersama, apakah masing-masing harus membayar fidyah secara terpisah?",
-          "ru": "Если два человека в ихраме охотятся вместе, должен ли каждый платить искупление отдельно?",
-          "tr": "Eğer ihramda olan iki kişi birlikte avlanırsa, her biri ayrı ayrı fidye ödemek zorunda mıdır?",
-          "ur": "اگر دو محرم مل کر شکار کریں تو کیا ہر ایک کو الگ الگ کفارہ ادا کرنا ہوگا؟",
-          "zh": "如果两位处于伊赫拉姆状态的人一起猎捕猎物，每个人都必须单独支付赎罪金吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি দুই ইহরামী ব্যক্তির একসাথে শিকার করা বা শিকারকে আঘাত করার বিষয়ে শারঈ বিধান প্রদান করে। ইমাম علیه السلام প্রত্যেক ব্যক্তির জন্য আলাদা মুক্তিপণ নির্ধারণ করেছেন, যা প্রতিটি অংশগ্রহণকারীর ব্যক্তিগত দায়িত্ব প্রতিষ্ঠা করে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung über zwei Muhrim, die gemeinsam Wild gejagt oder verletzt haben, während sie sich im Zustand des Ihram befanden. Der Imam عليه السلام entscheidet, dass die Sühne jeweils von jedem Einzelnen getrennt zu entrichten ist, womit die persönliche Haftung jedes Teilnehmers festgelegt wird.",
-          "en": "This hadith gives a legal ruling about two muhrims who jointly hunted or injured game while in the state of ihram. The Imam عليه السلام rules that the expiation is due separately from each individual, establishing personal liability for each participant.",
-          "es": "Este hadiz da un fallo legal sobre dos muhrims que cazaron o hirieron a la presa mientras estaban en estado de ihram. El Imam عليه السلام dictamina que la expiación debe pagarse por separado por cada individuo, estableciendo la responsabilidad personal de cada participante.",
-          "fa": "این حدیث حکم شرعی درباره دو محرم که به طور مشترک شکار کرده یا به شکار آسیب رسانده‌اند را بیان می‌کند. امام علیه السلام حکم می‌کند که کفاره به صورت جداگانه از هر فرد واجب است و مسئولیت شخصی هر شرکت‌کننده را مشخص می‌کند.",
-          "fr": "Ce hadith donne un jugement légal concernant deux muhrims qui ont chassé ou blessé un gibier alors qu’ils étaient en état d’ihram. L’Imam عليه السلام ordonne que l’expiation soit due séparément par chaque individu, établissant ainsi la responsabilité personnelle de chaque participant.",
-          "id": "Hadis ini memberikan hukum tentang dua muhrim yang bersama-sama berburu atau melukai binatang saat ihram. Imam علیه السلام memutuskan bahwa fidyah harus dibayar secara terpisah oleh masing-masing individu, menetapkan tanggung jawab pribadi bagi setiap peserta.",
-          "ru": "Этот хадис содержит правовое постановление о двух мухримах, которые совместно охотились или повредили дичь в состоянии ихрам. Имам عليه السلام постановляет, что искупление должно выплачиваться отдельно каждым человеком, устанавливая личную ответственность каждого участника.",
-          "tr": "Bu hadis, ihramda olan iki kişinin birlikte avlanması veya avı yaralaması hakkında hukuki hüküm verir. İmam علیه السلام, her birey için ayrı fidye ödenmesi gerektiğini hükmetmiş, böylece her katılımcının kişisel sorumluluğunu belirlemiştir.",
-          "ur": "یہ حدیث دو محرموں کے شکار کرنے یا شکار کو نقصان پہنچانے کے بارے میں شرعی حکم دیتی ہے۔ امام علیہ السلام نے ہر فرد کے لیے علیحدہ کفارہ مقرر کیا، جو ہر شریک کی ذاتی ذمہ داری کو ظاہر کرتا ہے۔",
-          "zh": "此圣训对两位处于伊赫拉姆状态下共同猎捕或伤害猎物的穆赫里姆给出了法律裁决。伊玛目 عليه السلام裁定每个人须单独支付赎罪金，确立了每位参与者的个人责任。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

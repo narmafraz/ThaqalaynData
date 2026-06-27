@@ -15,61 +15,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رَوَى ذَٰلِكَ عَلِيُّ بْنُ مُحَمَّدٍ الْقَاسَانِيُّ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ عَنْ بَعْضِ أَصْحَابِنَا عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী ইবন মুহাম্মদ আল-কাসানী, মুহাম্মদ ইবন আলী থেকে, আমাদের কিছু সাথী থেকে, আবী আবদুল্লাহ عليه السلام থেকে বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "ʿAlī ibn Muḥammad al-Qāsānī berichtete von Muḥammad ibn ʿAlī, von einigen unserer Gefährten, von Abī ʿAbd Allāh عليه السلام, der sagte:",
-              "en": "ʿAlī ibn Muḥammad al-Qāsānī narrated that from Muḥammad ibn ʿAlī, from some of our companions, from Abī ʿAbd Allāh عليه السلام, who said:",
-              "es": "ʿAlī ibn Muḥammad al-Qāsānī narró de Muḥammad ibn ʿAlī, de algunos de nuestros compañeros, de Abī ʿAbd Allāh عليه السلام, quien dijo:",
-              "fa": "علی بن محمد القاسانی از محمد بن علی، از برخی از یاران ما، از ابی عبدالله علیه السلام روایت کرد که فرمود:",
-              "fr": "ʿAlī ibn Muḥammad al-Qāsānī a rapporté, d’après Muḥammad ibn ʿAlī, d’après certains de nos compagnons, d’après Abī ʿAbd Allāh عليه السلام, qui a dit :",
-              "id": "ʿAli ibn Muhammad al-Qāsānī meriwayatkan dari Muhammad ibn ʿAli, dari sebagian sahabat kami, dari Abī ʿAbd Allāh عليه السلام, beliau bersabda:",
-              "ru": "ʿАли ибн Мухаммад аль-Касани передал от Мухаммада ибн ʿАли, от некоторых наших сподвижников, от Аби ʿАбд Аллаха عليه السلام, который сказал:",
-              "tr": "Ali ibn Muhammed el-Kāsânî, Muhammed ibn Ali’den, ashabımızdan bazılarından, Ebu Abdullah عليه السلام’dan rivayet etti; o şöyle dedi:",
-              "ur": "علی بن محمد القاسانی نے محمد بن علی سے، ہمارے بعض اصحاب سے، ابو عبد اللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "ʿAliibnMuḥammadal-Qāsānī传述自MuḥammadibnʿAlī，传自我们的一些同伴，传自AbīʿAbdAllāh عليه السلام，他说："
-            },
             "word_end": 20,
             "word_start": 0
           },
           {
             "arabic_text": "قُلْتُ لَهُ: الْجُنُبُ وَالْمَيِّتُ يَتَّفِقَانِ فِي مَكَانٍ لَا يَكُونُ الْمَاءُ إِلَّا بِقَدْرِ مَا يَكْتَفِي بِهِ أَحَدُهُمَا، أَيُّهُمَا أَوْلَى أَنْ يُجْعَلَ الْمَاءُ لَهُ؟ قَالَ: يَتَيَمَّمُ الْجُنُبُ وَيُغَسَّلُ الْمَيِّتُ بِالْمَاءِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁকে বললাম: একজন জুনুব ব্যক্তি এবং একজন মৃত ব্যক্তি এমন এক স্থানে একত্র হলো, যেখানে পানি কেবল তাদের একজনের জন্যই যথেষ্ট। এদের মধ্যে কার বেশি অধিকার যে পানি তার জন্য নির্ধারিত হবে? তিনি বললেন: জুনুব তায়াম্মুম করবে, আর মৃত ব্যক্তিকে পানি দিয়ে গোসল করানো হবে।",
-              "de": "Ich sagte zu ihm: Eine Person im Zustand der janabah und eine verstorbene Person treffen an einem Ort zusammen, an dem das Wasser nur für einen von beiden reicht. Welcher von beiden hat eher Anspruch darauf, dass das Wasser ihm zugeteilt wird? Er sagte: Der junub verrichtet tayammum, und der Verstorbene wird mit Wasser gewaschen.",
-              "en": "I said to him: A person in janabah and a deceased person come together in a place where there is only enough water for one of them. Which of the two has more right that the water be assigned to him? He said: The junub performs tayammum, and the deceased is washed with water.",
-              "es": "Le dije: Una persona en janabah y una persona fallecida se encuentran en un lugar donde solo hay agua suficiente para uno de los dos. ¿Cuál de los dos tiene más derecho a que se le asigne el agua? Dijo: El junub hace tayammum, y al fallecido se le lava con agua.",
-              "fa": "به او گفتم: شخص جنب و میتی در جایی گرد می‌آیند که آب فقط برای یکی از آن دو کافی است. کدام‌یک از آن دو سزاوارتر است که آب به او اختصاص یابد؟ فرمود: جنب تیمم می‌کند و میت با آب غسل داده می‌شود.",
-              "fr": "Je lui ai dit : Une personne en janabah et une personne décédée se trouvent en un endroit où il n’y a d’eau que pour l’un des deux. Lequel des deux a davantage droit à ce que l’eau lui soit attribuée ? Il dit : Le junub fait le tayammum, et le défunt est lavé avec de l’eau.",
-              "id": "Aku berkata kepadanya: Seorang junub dan seorang mayit berkumpul di suatu tempat yang airnya hanya cukup untuk salah satu dari keduanya. Di antara keduanya, siapa yang lebih berhak agar air diberikan kepadanya? Beliau bersabda: Orang junub bertayammum, dan mayit dimandikan dengan air.",
-              "ru": "Я сказал ему: Человек в состоянии джанаба и умерший оказываются в месте, где воды хватает только на одного из них. Кто из них более вправе, чтобы вода была отдана ему? Он сказал: Джунуб совершает таяммум, а умершего омывают водой.",
-              "tr": "Ona dedim ki: Cünüp olan bir kimse ile bir ölü, suyun yalnızca ikisinden biri için yeterli olduğu bir yerde bir araya gelir. Bu ikisinden hangisinin suyun ona tahsis edilmesine daha çok hakkı vardır? Buyurdu ki: Cünüp teyemmüm eder, ölü ise su ile yıkanır.",
-              "ur": "میں نے ان سے کہا: جنابت والا شخص اور ایک میت ایک ایسی جگہ جمع ہو گئے جہاں پانی صرف ان دونوں میں سے ایک کے لیے کافی ہے۔ ان دونوں میں سے کس کا زیادہ حق ہے کہ پانی اسے دیا جائے؟ انہوں نے فرمایا: جنب تیمم کرے گا، اور میت کو پانی سے غسل دیا جائے گا۔",
-              "zh": "我对他说：一个处于janabah状态的人和一个亡者在一个地方相遇，而那里只有足够供他们二者之一使用的水。他们二人中，谁更有权得到这水？他说：junub做tayammum，而亡者用水清洗。"
-            },
             "word_end": 48,
             "word_start": 20
           },
           {
             "arabic_text": "وَالْوَجْهُ فِي الْجَمْعِ بَيْنَهُمَا أَنْ يَكُونَ عَلَى التَّخْيِيرِ، لِأَنَّهُمَا جَمِيعًا وَاجِبَانِ، فَأَيُّهُمَا غُسِّلَ بِمَا مَعَهُ مِنَ الْمَاءِ كَانَ ذَٰلِكَ جَائِزًا.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "আর তাদের মধ্যে সমন্বয়ের উপায় হলো এটিকে ইখতিয়ারের বিষয় হিসেবে বোঝা, কারণ উভয়ই ওয়াজিব। সুতরাং তাদের মধ্যে যাকেই বিদ্যমান পানি দিয়ে গোসল করানো হোক, তা জায়েয।",
-              "de": "Und die Art, zwischen beiden zu vereinbaren, besteht darin, es als eine Frage der Wahl zu verstehen, da beide verpflichtend sind. Also ist es zulässig, welchen von beiden auch immer man mit dem vorhandenen Wasser wäscht.",
-              "en": "And the way of reconciling between them is that it be understood as a matter of choice, because both are obligatory. So whichever of them is washed with the water available, that is permissible.",
-              "es": "Y la manera de conciliar entre ambos es entenderlo como una cuestión de elección, porque ambos son obligatorios. Así pues, cualquiera de los dos que sea lavado con el agua disponible, eso es lícito.",
-              "fa": "و راه جمع میان آن دو این است که بر تخییر حمل شود، زیرا هر دو واجب‌اند. پس هر یک از آن دو که با آب موجود غسل داده شود، آن جایز است.",
-              "fr": "Et la manière de concilier les deux est de l’entendre comme une question de choix, car tous deux sont obligatoires. Ainsi, lequel des deux est lavé avec l’eau disponible, cela est permis.",
-              "id": "Dan cara mengompromikan keduanya adalah bahwa hal itu dipahami sebagai pilihan, karena keduanya sama-sama wajib. Maka siapa pun di antara keduanya yang dimandikan dengan air yang ada, itu جائز.",
-              "ru": "И способ согласования между ними состоит в том, чтобы понимать это как вопрос выбора, поскольку оба являются обязательными. Так что кого бы из них ни омыли имеющейся водой, это допустимо.",
-              "tr": "Ve aralarını uzlaştırma yolu, bunun muhayyerlik üzere anlaşılmasıdır; çünkü ikisi de vaciptir. Dolayısıyla hangisi eldeki su ile yıkanırsa bu caizdir.",
-              "ur": "اور ان دونوں کے درمیان تطبیق کی صورت یہ ہے کہ اسے اختیار پر محمول کیا جائے، کیونکہ دونوں واجب ہیں۔ پس ان میں سے جسے بھی موجود پانی سے غسل دیا جائے، وہ جائز ہے۔",
-              "zh": "而调和二者的方法是将其理解为可选择，因为二者都是义务。所以无论用现有的水给其中哪一个清洗，都是可以的。"
-            },
             "word_end": 68,
             "word_start": 48
           }
@@ -122,28 +96,16 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "التَّخْيِيرِ": "legal option or choice between two valid alternatives",
-            "الْجُنُبُ": "a person in a state of janabah requiring ghusl",
-            "الْمَاءُ": "the limited water available for purification",
-            "الْمَيِّتُ": "the deceased person requiring ritual washing",
-            "جَائِزًا": "legally valid or permissible",
-            "وَاجِبَانِ": "two matters that are both obligatory",
-            "يَتَيَمَّمُ": "performs tayammum as a substitute for water-based purification",
-            "يُغَسَّلُ": "is washed ritually with water"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْجُنُبُ",
+          "الْمَيِّتُ",
+          "الْمَاءُ",
+          "يَتَيَمَّمُ",
+          "يُغَسَّلُ",
+          "التَّخْيِيرِ",
+          "وَاجِبَانِ",
+          "جَائِزًا"
+        ],
         "related_quran": [
           {
             "ref": "4:43",
@@ -154,32 +116,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে যদি পানি কেবল জুনুব বা মৃত ব্যক্তির মধ্যে একজনের জন্য যথেষ্ট হয়, তবে পানি কাকে দেওয়া উচিত?",
-          "de": "Wenn es in der schiitischen Fiqh nur genug Wasser für einen junub oder einen Verstorbenen gibt, wem soll das Wasser gegeben werden?",
-          "en": "If there is only enough water for either a junub or a deceased person, who should receive the water in Shia fiqh?",
-          "es": "Si en la fiqh chií solo hay agua suficiente para una persona en janabah o para un fallecido, ¿a quién se le debe dar el agua?",
-          "fa": "اگر در فقه شیعه آب فقط برای یکی از جنب یا میت کافی باشد، آب به چه کسی داده می‌شود؟",
-          "fr": "S’il n’y a en fiqh chiite d’eau suffisante que pour une personne en janabah ou pour un défunt, à qui doit-on donner l’eau ?",
-          "id": "Jika dalam fikih Syiah air hanya cukup untuk salah satu dari orang junub atau mayit, kepada siapa air harus diberikan?",
-          "ru": "Если в шиитском фикхе воды хватает только на одного — на человека в состоянии джанаба или на умершего, кому следует отдать воду?",
-          "tr": "Şii fıkhında su yalnızca cünüp ya da ölüden biri için yeterliyse, su kime verilmelidir?",
-          "ur": "اگر شیا فقہ میں پانی صرف جنب یا میت میں سے ایک کے لیے کافی ہو تو پانی کس کو دیا جائے؟",
-          "zh": "如果在什叶派教法中水只够给处于janabah状态的人或亡者中的一方使用，那么水应该给谁？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি সেই বিধান আলোচনা করে, যখন সীমিত পানি দুইটি ফরজের মধ্যে কেবল একটির জন্য যথেষ্ট: জুনুবের গোসল বা মৃত ব্যক্তিকে গোসল করানো। এতে বলা হয়েছে যে জুনুব তায়াম্মুম করতে পারে এবং মৃত ব্যক্তিকে পানি দিয়ে গোসল করানো হবে; পাশাপাশি ফিকহি সমন্বয় হিসেবে বলা হয়েছে যে উভয়ই ওয়াজিব হওয়ায় যেকোনো একটিকে বেছে নেওয়া যেতে পারে।",
-          "de": "Dieser Hadith behandelt die rechtliche Regelung für den Fall, dass begrenztes Wasser nur für eine von zwei Pflichten ausreicht: das ghusl einer Person im Zustand der janabah oder das Waschen eines Verstorbenen. Er besagt, dass der junub tayammum verrichten kann, während der Verstorbene mit Wasser gewaschen wird, und stellt zudem die fiqh-rechtliche Vereinbarung dar, dass einer von beiden gewählt werden kann, da beide verpflichtend sind.",
-          "en": "This hadith addresses the legal ruling when limited water is available for only one of two obligations: ghusl for a junub or washing a deceased person. It states that the junub may perform tayammum while the deceased is washed, and also presents the juristic reconciliation that either may be chosen since both are obligatory.",
-          "es": "Este hadiz trata la norma jurídica cuando el agua limitada solo alcanza para una de dos obligaciones: el ghusl de una persona en janabah o lavar a una persona fallecida. Indica que el junub puede hacer tayammum mientras el fallecido es lavado, y también presenta la conciliación jurídica de que cualquiera de los dos puede ser elegido, ya que ambos son obligatorios.",
-          "fa": "این حدیث حکم شرعیِ حالتی را بیان می‌کند که آبِ محدود فقط برای یکی از دو واجب کافی باشد: غسلِ جنب یا غسل دادنِ میت. در آن آمده است که جنب می‌تواند تیمم کند و میت با آب غسل داده شود، و نیز جمع فقهی آن را چنین بیان می‌کند که چون هر دو واجب‌اند، می‌توان هر یک را برگزید.",
-          "fr": "Ce hadith traite du jugement juridique lorsque l’eau disponible en quantité limitée ne suffit que pour l’une de deux obligations : le ghusl d’une personne en janabah ou le lavage d’un défunt. Il indique que le junub peut faire le tayammum tandis que le défunt est lavé, et présente aussi la conciliation juridique selon laquelle l’un ou l’autre peut être choisi puisque tous deux sont obligatoires.",
-          "id": "Hadis ini membahas hukum ketika air terbatas hanya cukup untuk salah satu dari dua kewajiban: mandi junub atau memandikan mayit. Disebutkan bahwa orang junub dapat bertayammum sementara mayit dimandikan, dan juga diberikan rekonsiliasi fikih bahwa salah satunya boleh dipilih karena keduanya wajib.",
-          "ru": "Этот хадис рассматривает правовое постановление на случай, когда ограниченного количества воды хватает только на одно из двух обязательных действий: гусль для человека в состоянии джанаба или омовение умершего. В нем говорится, что джунуб может совершить таяммум, а умершего омывают водой; также приводится фикхическое согласование, согласно которому можно выбрать любого из них, поскольку оба обязательны.",
-          "tr": "Bu hadis, sınırlı suyun iki vacipten yalnızca biri için yeterli olduğu durumda hükmü ele alır: cünüp için gusül veya ölüyü yıkamak. Buna göre cünüp teyemmüm edebilirken ölü yıkanır; ayrıca fıkhî uzlaştırma olarak, ikisi de vacip olduğundan herhangi birinin tercih edilebileceği belirtilir.",
-          "ur": "یہ حدیث اس شرعی حکم کو بیان کرتی ہے جب محدود پانی صرف دو واجبات میں سے ایک کے لیے کافی ہو: جنب کے لیے غسل یا میت کو غسل دینا۔ اس میں کہا گیا ہے کہ جنب تیمم کر سکتا ہے جبکہ میت کو غسل دیا جائے، اور فقہی تطبیق کے طور پر یہ بھی بیان کیا گیا ہے کہ چونکہ دونوں واجب ہیں اس لیے کسی ایک کو بھی اختیار کیا جا سکتا ہے۔",
-          "zh": "这段圣训讨论的是当有限的水只够满足两个义务中的一个时的教法裁定：为处于janabah状态的人做ghusl，或为亡者清洗。它说明junub可以做tayammum，而亡者则用水清洗；并且给出教法上的调和，即由于二者都属义务，因此可以选择其中任何一个。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

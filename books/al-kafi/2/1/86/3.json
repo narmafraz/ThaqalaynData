@@ -14,6 +14,147 @@
       "up": "/books/al-kafi:2:1:86"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَنْهُ عَنْ أَحْمَدَ عَنْ صَفْوَانَ بْنِ يَحْيَى عَنْ أَبِي حَمْزَةَ عَنْ أَبِي جَعْفَرٍ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 18,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قَالَ رَسُولُ اللَّهِ ( صَلَّى اللَّهِ عَلَيْهِ وَآلِهِ ) مَنْ أَطْعَمَ ثَلَاثَةَ نَفَرٍ مِنَ الْمُسْلِمِينَ أَطْعَمَهُ اللَّهُ مِنْ ثَلَاثِ جِنَانٍ فِي مَلَكُوتِ السَّمَاوَاتِ الْفِرْدَوْسِ وَ جَنَّةِ عَدْنٍ وَ طُوبَى [وَ] شَجَرَةٍ تَخْرُجُ مِنْ جَنَّةِ عَدْنٍ غَرَسَهَا رَبُّنَا بِيَدِهِ .",
+            "chunk_type": "body",
+            "word_end": 57,
+            "word_start": 18
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 11,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَنْهُ",
+              "name_en": "from him",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 92,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ",
+              "name_en": "Ahmad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 30,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "صَفْوَانَ بْنِ يَحْيَى",
+              "name_en": "Safwan ibn Yahya",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 71,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي حَمْزَةَ",
+              "name_en": "Abu Hamza",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 9,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي جَعْفَرٍ ( عليه السلام )",
+              "name_en": "Abu Ja'far",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "قَالَ رَسُولُ اللَّهِ",
+            "phrase_en": "The Messenger of Allah said"
+          }
+        ],
+        "key_terms_keys": [
+          "أَطْعَمَ",
+          "ثَلَاثَةَ نَفَرٍ",
+          "مَلَكُوتِ السَّمَاوَاتِ",
+          "الْفِرْدَوْسِ",
+          "جَنَّةِ عَدْنٍ",
+          "طُوبَى",
+          "غَرَسَهَا",
+          "بِيَدِهِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:46",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "52:27",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "9:100",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "56:28",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "afterlife",
+          "social_relations"
+        ],
+        "topics": [
+          "charity",
+          "paradise_hell",
+          "hospitality"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> صحيح   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (9/123)"
       ],
@@ -85,7 +226,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:1:86:3",

@@ -15,42 +15,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مَا رَوَاهُ أَحْمَدُ بْنُ مُحَمَّدٍ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ غَيْرِ وَاحِدٍ مِنْ أَصْحَابِنَا عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন মুহাম্মদ ইবন আবী উমাইর থেকে, আমাদের একাধিক সাথী থেকে, আবূ আবদিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "Was Aḥmad ibn Muḥammad von Ibn Abī ʿUmayr, von mehr als einem unserer Gefährten, von Abū ʿAbdillāh عليه السلام überliefert hat, der sagte:",
-              "en": "What Aḥmad ibn Muḥammad narrated from Ibn Abī ʿUmayr, from more than one of our companions, from Abū ʿAbdillāh عليه السلام, who said:",
-              "es": "Lo que Aḥmad ibn Muḥammad narró de Ibn Abī ʿUmayr, de más de uno de nuestros compañeros, de Abū ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "آنچه احمد بن محمد از ابن ابی عمیر، از بیش از یکی از یاران ما، از ابوعبدالله علیه السلام روایت کرده که فرمود:",
-              "fr": "Ce qu’Aḥmad ibn Muḥammad a rapporté d’Ibn Abī ʿUmayr, de plus d’un de nos compagnons, d’Abū ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Apa yang diriwayatkan Aḥmad ibn Muḥammad dari Ibn Abī ʿUmayr, dari lebih dari seorang sahabat kami, dari Abū ʿAbdillāh عليه السلام, yang berkata:",
-              "ru": "То, что Aḥmad ibn Muḥammad передал от Ibn Abī ʿUmayr, от более чем одного из наших сподвижников, от Abū ʿAbdillāh عليه السلام, который сказал:",
-              "tr": "Ahmed ibn Muhammed'in İbn Ebî Umeyr'den, ashabımızdan birden fazlasından, Ebû Abdillah عليه السلام'dan rivayet ettiğine göre şöyle dedi:",
-              "ur": "جو کچھ احمد بن محمد نے ابن ابی عمیر سے روایت کیا، وہ ہمارے کئی اصحاب سے، وہ ابو عبد اللہ علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "AḥmadibnMuḥammad从IbnAbīʿUmayr传述，IbnAbīʿUmayr又从我们多位同伴中一人传述，传自AbūʿAbdillāh عليه السلام，他说："
-            },
             "word_end": 21,
             "word_start": 0
           },
           {
             "arabic_text": "الصَّلَاةُ فِي السَّفِينَةِ إِيمَاءٌ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "জাহাজে সালাত (নামাজ) ইশারার মাধ্যমে আদায় করা হয়।",
-              "de": "Das Salat (Gebet) auf dem Schiff wird durch Gesten verrichtet.",
-              "en": "Salat (prayer) in the ship is by gesture.",
-              "es": "La salat (oración) en el barco se realiza por medio de gestos.",
-              "fa": "نماز در کشتی با اشاره انجام می‌شود.",
-              "fr": "La salat (prière) sur le navire se fait par geste.",
-              "id": "Salat (salat) di kapal dilakukan dengan isyarat.",
-              "ru": "Салат (молитва) на корабле совершается жестами.",
-              "tr": "Gemide salat (namaz) işaretle kılınır.",
-              "ur": "کشتی میں صلات (نماز) اشارے سے ادا کی جاتی ہے۔",
-              "zh": "船上的salat（礼拜）以手势进行。"
-            },
             "word_end": 25,
             "word_start": 21
           }
@@ -83,24 +70,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبِي عَبْدِ اللَّهِ": "the Imam Jaʿfar al-Ṣādiq عليه السلام as the source of the ruling",
-            "إِيمَاءٌ": "performing the prayer by indication or gesture rather than full bodily motions",
-            "السَّفِينَةِ": "a ship or vessel in which the worshipper is traveling or situated",
-            "الصَّلَاةُ": "the ritual salat (prayer) being discussed"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الصَّلَاةُ",
+          "السَّفِينَةِ",
+          "إِيمَاءٌ",
+          "أَبِي عَبْدِ اللَّهِ"
+        ],
         "related_quran": [
           {
             "ref": "2:286",
@@ -115,32 +90,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام-এর মতে জাহাজে সালাত (নামাজ) কীভাবে আদায় করতে হবে?",
-          "de": "Wie soll das Salat (Gebet) auf einem Schiff gemäß Imam al-Ṣādiq عليه السلام verrichtet werden?",
-          "en": "How should salat (prayer) be performed on a ship according to Imam al-Ṣādiq عليه السلام?",
-          "es": "¿Cómo debe realizarse la salat (oración) en un barco según el Imam al-Ṣādiq عليه السلام?",
-          "fa": "بر اساس امام صادق علیه السلام، نماز در کشتی چگونه باید انجام شود؟",
-          "fr": "Comment la salat (prière) doit-elle être accomplie sur un navire selon l’imam al-Ṣādiq عليه السلام ?",
-          "id": "Bagaimana salat (salat) harus dilakukan di kapal menurut Imam al-Ṣādiq عليه السلام?",
-          "ru": "Как следует совершать салат (молитву) на корабле согласно Имаму аль-Садыку عليه السلام?",
-          "tr": "İmam es-Sâdık عليه السلام'a göre gemide salat (namaz) nasıl kılınmalıdır?",
-          "ur": "امام الصادق عليه السلام کے مطابق کشتی میں صلات (نماز) کیسے ادا کی جائے؟",
-          "zh": "根据伊玛目al-Ṣādiq عليه السلام，在船上应如何进行salat（礼拜）？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি জাহাজে সালাত (নামাজ) আদায়ের একটি শরয়ি বিধান জানায় এবং বোঝায় যে এ অবস্থায় ইশারার মাধ্যমে নামাজ আদায় করা হয়।",
-          "de": "Dieser Hadith enthält eine rechtliche Regel zum Verrichten des Salat (Gebets) auf einem Schiff. Er zeigt, dass das Gebet in dieser Lage durch Gesten verrichtet wird.",
-          "en": "This hadith gives a legal ruling about performing salat (prayer) while on a ship. It indicates that in this setting, the prayer is performed through gesturing, reflecting practical accommodation in worship under constrained circumstances.",
-          "es": "Este hadiz expone una norma jurídica sobre realizar la salat (oración) en un barco. Indica que, en esta situación, la oración se realiza mediante gestos.",
-          "fa": "این حدیث حکمی فقهی درباره انجام نماز در کشتی بیان می‌کند و نشان می‌دهد که در این حالت نماز با اشاره ادا می‌شود.",
-          "fr": "Ce hadith énonce une règle juridique concernant l’accomplissement de la salat (prière) sur un navire. Il indique que, dans cette situation, la prière se fait par geste.",
-          "id": "Hadis ini memberikan حكم hukum tentang pelaksanaan salat (salat) saat berada di kapal. Ini menunjukkan bahwa dalam keadaan ini, salat dilakukan dengan isyarat.",
-          "ru": "Этот хадис содержит правовое постановление о совершении салата (молитвы) на корабле. Он указывает, что в такой ситуации молитва совершается жестами.",
-          "tr": "Bu hadis, gemide salat (namaz) kılmaya dair fıkhî bir hüküm bildirir ve bu durumda namazın işaretle eda edildiğini gösterir.",
-          "ur": "یہ حدیث کشتی میں صلات (نماز) ادا کرنے کا شرعی حکم بیان کرتی ہے، اور بتاتی ہے کہ اس حالت میں نماز اشارے سے ادا کی جاتی ہے۔",
-          "zh": "这段圣训说明了在船上进行salat（礼拜）的教法判定，并表明在这种情况下礼拜以手势完成。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

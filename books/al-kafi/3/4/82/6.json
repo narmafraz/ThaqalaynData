@@ -14,6 +14,134 @@
       "up": "/books/al-kafi:3:4:82"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ إِسْمَاعِيلَ عَنِ الْفَضْلِ بْنِ شَاذَانَ عَنْ صَفْوَانَ بْنِ يَحْيَى عَنْ مَنْصُورِ بْنِ حَازِمٍ عَنْ أَبَانِ بْنِ تَغْلِبَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 20,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "خَرَجْتُ مَعَ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) فِيمَا بَيْنَ مَكَّةَ وَ الْمَدِينَةِ فَكَانَ يَقُولُ أَمَّا أَنْتُمْ فَشَبَابٌ تُؤَخِّرُونَ وَ أَمَّا أَنَا فَشَيْخٌ أُعَجِّلُ فَكَانَ يُصَلِّي صَلَاةَ اللَّيْلِ أَوَّلَ اللَّيْلِ .",
+            "chunk_type": "body",
+            "word_end": 52,
+            "word_start": 20
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 17,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ إِسْمَاعِيلَ",
+              "name_en": "Muhammad ibn Ismail",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 33,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْفَضْلِ بْنِ شَاذَانَ",
+              "name_en": "al-Fadl ibn Shadhan",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 30,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "صَفْوَانَ بْنِ يَحْيَى",
+              "name_en": "Safwan ibn Yahya",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 108,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مَنْصُورِ بْنِ حَازِمٍ",
+              "name_en": "Mansur ibn Hazim",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 148,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبَانِ بْنِ تَغْلِبَ",
+              "name_en": "Aban ibn Taghlub",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "jurisprudential_term",
+            "phrase_ar": "صَلَاةُ اللَّيْلِ",
+            "phrase_en": "Night prayer (Tahajjud)"
+          }
+        ],
+        "key_terms_keys": [
+          "صَلَاةَ اللَّيْلِ",
+          "أَوَّلَ اللَّيْلِ",
+          "أَبَانُ بْنُ تَغْلِبَ",
+          "أَبِي عَبْدِ اللَّهِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "73:2",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "73:6",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "worship",
+          "ethics"
+        ],
+        "topics": [
+          "night_prayer",
+          "imams_biography",
+          "sunnah"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول كالصحيح  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (5/392)"
       ],
@@ -90,7 +218,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:4:82:6",

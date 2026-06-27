@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى مِسْمَعُ بْنُ عَبْدِ الْمَلِكِ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মিসমা‘ ইবনে আব্দুল মালিক আবু আবদিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Misma‘ ibn ‘Abd al-Malik berichtete von Abū ‘Abdillāh عليه السلام, der sagte:",
-              "en": "Misma‘ ibn ‘Abd al-Malik narrated from Abū ‘Abdillāh عليه السلام, who said:",
-              "es": "Misma‘ ibn ‘Abd al-Malik narró de Abū ‘Abdillāh عليه السلام, quien dijo:",
-              "fa": "مِسْمَع بن عبد الملک از ابی عبدالله علیه السلام روایت کرد که فرمود:",
-              "fr": "Misma‘ ibn ‘Abd al-Malik a rapporté de Abū ‘Abdillāh عليه السلام, qui a dit :",
-              "id": "Misma‘ ibn ‘Abd al-Malik meriwayat dari Abu ‘Abdillāh علیه السلام, yang berkata:",
-              "ru": "Мисма‘ ибн ‘Абд аль-Малик передал от Абу ‘Абдилляха عليه السلام, который сказал:",
-              "tr": "Mısma‘ ibn Abdülmelik, Ebu Abdillah (aleyhisselam)’dan rivayet etti, şöyle dedi:",
-              "ur": "مِسْمَع ابن عبد الملک نے ابو عبد اللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "مِسْمَعابنعبدالملک从أبوعبداللهعليهالسلام传述，他说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "لَوْ أَنَّ عَبْدًا حَجَّ عَشْرَ حِجَجٍ كَانَتْ عَلَيْهِ حَجَّةُ الْإِسْلَامِ إِذَا اسْتَطَاعَ إِلَى ذَلِكَ سَبِيلًا",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি একজন বান্দা দশবার হজ পালন করে, তবুও যখন সে সক্ষম হবে তখন ইসলামের ফরজ হজ তার উপর واجব থাকবে।",
-              "de": "Wenn ein Diener zehn Hadsch-Pilgerfahrten vollbringt, bleibt der Hadsch des Islam für ihn verpflichtend, sobald er dazu in der Lage ist.",
-              "en": "If a servant were to perform ten hajj pilgrimages, the Hajj of Islam would still remain obligatory upon him when he becomes able to find a way to it.",
-              "es": "Si un siervo realizara diez peregrinaciones de hajj, el Hajj del Islam seguiría siendo obligatorio para él cuando pueda encontrar el camino hacia él.",
-              "fa": "اگر بنده‌ای ده بار حج انجام دهد، حج اسلام بر او واجب باقی می‌ماند تا زمانی که توانایی رسیدن به آن را پیدا کند.",
-              "fr": "Si un serviteur accomplissait dix pèlerinages, le Hajj de l'Islam resterait obligatoire pour lui lorsqu'il serait capable d'y accéder.",
-              "id": "Jika seorang hamba melakukan sepuluh haji, maka Haji Islam tetap wajib atasnya ketika dia mampu menemukan jalan menuju itu.",
-              "ru": "Если раб совершит десять хаджей, обязанность хаджа Ислама останется за ним, когда он сможет найти путь к нему.",
-              "tr": "Eğer bir kul on defa haccı yerine getirirse, ona İslam'ın farz haccı, ona ulaşabilecek duruma gelinceye kadar farz olmaya devam eder.",
-              "ur": "اگر کوئی بندہ دس حج ادا کرے تو بھی جب تک وہ اس کی استطاعت حاصل نہ کر لے، اس پر فرض حج باقی رہے گا۔",
-              "zh": "如果一个仆人完成十次朝觐，当他能够找到通往朝觐的道路时，伊斯兰的朝觐义务仍然存在。"
-            },
             "word_end": 28,
             "word_start": 13
           }
@@ -91,58 +78,20 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "اسْتَطَاعَ": "became able or capable",
-            "حَجَّ": "performed hajj",
-            "حَجَّةُ الْإِسْلَامِ": "the obligatory hajj required by Islam",
-            "سَبِيلًا": "a means or way to perform it",
-            "عَبْدًا": "a slave or bondservant",
-            "عَشْرَ حِجَجٍ": "ten pilgrimages"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "عَبْدًا",
+          "حَجَّ",
+          "عَشْرَ حِجَجٍ",
+          "حَجَّةُ الْإِسْلَامِ",
+          "اسْتَطَاعَ",
+          "سَبِيلًا"
+        ],
         "related_quran": [
           {
             "ref": "3:97",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "একজন ব্যক্তি যতবার হজ করুক, পূর্ণ যোগ্যতা অর্জন করার আগে কি ইসলামের ফরজ হজের দায়িত্ব শেষ হয়ে যায়?",
-          "de": "Hebt das mehrfache Durchführen des Hadsch die Verpflichtung des Islamischen Hadsch auf, bevor man vollständig qualifiziert ist?",
-          "en": "Does performing hajj multiple times remove the obligation of Hajj of Islam before one fully qualifies for it?",
-          "es": "¿Realizar hajj múltiples veces elimina la obligación del Hajj del Islam antes de que uno califique completamente para ello?",
-          "fa": "آیا انجام چندین بار حج، قبل از اینکه فرد به طور کامل واجد شرایط شود، تکلیف حج واجب اسلام را برطرف می‌کند؟",
-          "fr": "Est-ce que faire le hajj plusieurs fois supprime l'obligation du Hajj de l'Islam avant que l'on soit pleinement qualifié pour cela ?",
-          "id": "Apakah melakukan haji berkali-kali menghapus kewajiban Haji Islam sebelum seseorang sepenuhnya memenuhi syaratnya?",
-          "ru": "Убирает ли многократное совершение хаджа обязанность хаджа Ислама до того, как человек полностью соответствует требованиям?",
-          "tr": "Bir kişi defalarca haccı yerine getirdiğinde, tam olarak nitelikli olmadan önce İslam'ın farz haccı yükümlülüğü kalkar mı?",
-          "ur": "کیا بار بار حج کرنے سے اس وقت تک فرض حج کی ذمہ داری ختم ہو جاتی ہے جب تک کہ کوئی مکمل طور پر اس کے اہل نہ ہو جائے؟",
-          "zh": "多次完成朝觐是否在未完全具备资格前免除伊斯兰朝觐义务？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে একজন বান্দা যতবার হজ করুক, যতক্ষণ না সে পূর্ণ সক্ষমতা অর্জন করে, ইসলামের ফরজ হজ তার উপর واجব থাকে।",
-          "de": "Dieser Hadith besagt, dass wiederholte Hadsch-Pilgerfahrten eines Dieners die verpflichtende Hadsch des Islam nicht erfüllen, bevor die Bedingung, die sie bindend macht, erfüllt ist. Sobald die Person die erforderliche Fähigkeit erlangt, bleibt die verpflichtende Hadsch fällig.",
-          "en": "This hadith states that repeated hajj performed by a slave does not fulfill the obligatory Hajj of Islam before the condition that makes it binding is realized. Once the person attains the required ability, the obligatory hajj remains due upon them.",
-          "es": "Este hadiz establece que realizar hajj repetidamente no cumple con la obligación del Hajj del Islam antes de que se cumpla la condición que lo hace obligatorio. Una vez que la persona alcanza la capacidad requerida, el hajj obligatorio sigue siendo debido.",
-          "fa": "این حدیث بیان می‌کند که انجام مکرر حج توسط بنده، حج واجب اسلام را قبل از تحقق شرایط آن برطرف نمی‌کند. هنگامی که شخص توانایی لازم را کسب کند، حج واجب بر او باقی می‌ماند.",
-          "fr": "Ce hadith indique que la répétition du hajj par un serviteur ne remplit pas l'obligation du Hajj de l'Islam avant que la condition qui le rend obligatoire ne soit réalisée. Une fois que la personne atteint la capacité requise, le hajj obligatoire reste dû.",
-          "id": "Hadis ini menyatakan bahwa melakukan haji berulang kali oleh seorang hamba tidak menghapus kewajiban Haji Islam sebelum kondisi yang membuatnya wajib terpenuhi. Setelah seseorang mencapai kemampuan yang diperlukan, haji wajib tetap harus dilakukan.",
-          "ru": "Этот хадис говорит, что многократное совершение хаджа рабом не освобождает от обязательного хаджа Ислама до тех пор, пока не выполнится условие, делающие его обязательным. Как только человек приобретает необходимую способность, обязательный хадж остается за ним.",
-          "tr": "Bu hadis, bir kulun defalarca haccı yerine getirmesinin, haccın farz olma şartı gerçekleşmeden önce farz haccı kaldırmadığını belirtir. Kişi gerekli yeterliliğe ulaştığında, farz haccı üzerindedir.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ بار بار حج کرنے سے اس وقت تک فرض حج پورا نہیں ہوتا جب تک کہ وہ شخص حج کی استطاعت حاصل نہ کر لے۔ جب وہ استطاعت حاصل کر لیتا ہے تو فرض حج اس پر واجب رہتا ہے۔",
-          "zh": "此圣训说明，仆人多次完成朝觐并不免除伊斯兰朝觐的义务，除非实现了使其成为义务的条件。一旦个人具备所需能力，义务朝觐仍然必须履行。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى إِسْحَاقُ بْنُ عَمَّارٍ عَنِ الْعَبْدِ الصَّالِحِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং ইসহাক ইবনে আম্মার আল-আব্দ আল-সালিহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Und Isḥāq ibn ʿAmmār berichtete von al-ʿAbd al-Ṣāliḥ عليه السلام, der sagte:",
-              "en": "And Isḥāq ibn ʿAmmār narrated from al-ʿAbd al-Ṣāliḥ عليه السلام, who said:",
-              "es": "Y Isḥāq ibn ʿAmmār narró de al-ʿAbd al-Ṣāliḥ عليه السلام, quien dijo:",
-              "fa": "و اِسحاق بن عمار از عبدالصالح علیه السلام روایت کرد که فرمود:",
-              "fr": "Et Isḥāq ibn ʿAmmār a rapporté de al-ʿAbd al-Ṣāliḥ عليه السلام, qui a dit :",
-              "id": "Dan Isḥāq ibn ʿAmmār meriwayatkan dari al-ʿAbd al-Ṣāliḥ علیه السلام, yang berkata:",
-              "ru": "Исхак ибн Аммар передал от аль-Абд ас-Салих عليه السلام, который сказал:",
-              "tr": "Ve İshak ibn Ammar, Abdüsselam el-Abd es-Salih'ten rivayet etti, şöyle dedi:",
-              "ur": "اور اِسحاق ابن عمار نے عبد الصالح علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "以薩哈克伊本阿瑪爾從阿卜杜勒薩利赫عليه السلام敘述說："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "«مَنِ اشْتَرَى بَيْعًا وَ مَضَتْ ثَلَاثَةُ أَيَّامٍ وَ لَمْ يَجِئْ فَلَا بَيْعَ لَهُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“যে কেউ কোনো বিক্রয়কৃত জিনিস কেনে এবং তিন দিন পেরিয়ে যায় কিন্তু সে না আসে, তাহলে তার জন্য সেই বিক্রয় বৈধ নয়।”",
-              "de": "„Wer einen Verkaufsgegenstand kauft und drei Tage vergehen, ohne dass er kommt, für den gilt kein Verkauf.“",
-              "en": "\"Whoever purchases a sale-item, and three days pass without his coming, then there is no sale for him.\"",
-              "es": "“Quien compre un artículo en venta, y pasen tres días sin que venga, entonces no hay venta para él.”",
-              "fa": "«هر کس کالایی را خرید و سه روز گذشت و نیامد، پس برای او خریدی نیست.»",
-              "fr": "«Quiconque achète un objet en vente, et que trois jours passent sans qu'il vienne, alors il n'y a pas de vente pour lui.»",
-              "id": "“Barangsiapa membeli suatu barang jualan, dan tiga hari berlalu tanpa dia datang, maka tidak ada jual beli baginya.”",
-              "ru": "«Кто покупает товар, и проходят три дня, а он не приходит, для него нет продажи.»",
-              "tr": "“Kim bir satış malı satın alır ve üç gün geçer de gelmezse, onun için satış yoktur.”",
-              "ur": "‘‘جو شخص کوئی چیز خریدے اور تین دن گزر جائیں اور وہ نہ آئے تو اس کے لیے وہ خریداری نہیں ہے۔’’",
-              "zh": "“凡購買銷售物品者，三日過去而未來者，則其買賣無效。”"
-            },
             "word_end": 24,
             "word_start": 11
           }
@@ -91,25 +78,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "اشْتَرَى": "purchased or bought",
-            "بَيْعًا": "a sale transaction or sold item",
-            "ثَلَاثَةُ أَيَّامٍ": "a period of three days",
-            "فَلَا بَيْعَ لَهُ": "then the sale is not valid for him",
-            "وَ لَمْ يَجِئْ": "and he did not come"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "اشْتَرَى",
+          "بَيْعًا",
+          "ثَلَاثَةُ أَيَّامٍ",
+          "وَ لَمْ يَجِئْ",
+          "فَلَا بَيْعَ لَهُ"
+        ],
         "related_quran": [
           {
             "ref": "4:29",
@@ -120,32 +95,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি ক্রেতা তিন দিনের পর মাল গ্রহণ করতে না আসে তাহলে حکم কী?",
-          "de": "Wie lautet die Regel, wenn ein Käufer nach drei Tagen nicht zur Übergabe kommt?",
-          "en": "What is the ruling if a buyer does not come to take possession after three days?",
-          "es": "¿Cuál es el fallo si un comprador no viene a tomar posesión después de tres días?",
-          "fa": "اگر خریدار پس از سه روز برای تحویل نیاید حکم چیست؟",
-          "fr": "Quelle est la règle si un acheteur ne vient pas prendre possession après trois jours ?",
-          "id": "Apa hukum jika pembeli tidak datang mengambil barang setelah tiga hari?",
-          "ru": "Каково постановление, если покупатель не приходит за товаром после трёх дней?",
-          "tr": "Alıcı üç gün sonra malı almaya gelmezse hüküm nedir?",
-          "ur": "اگر خریدار تین دن کے بعد قبضہ لینے نہ آئے تو حکم کیا ہے؟",
-          "zh": "買家三日後不來取貨，判決為何？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস একটি আইনি বিধান বর্ণনা করে যেখানে ক্রেতা কেনার পর উপস্থিত হয় না। যদি তিন দিন পেরিয়ে যায় এবং ক্রেতা না আসে, তাহলে বিক্রয় তার জন্য বৈধ থাকে না।",
-          "de": "Dieser Hadith legt eine rechtliche Regelung fest, die einen Verkauf betrifft, bei dem der Käufer nach dem Kauf nicht erscheint. Wenn drei Tage vergehen, ohne dass der Käufer erscheint, gilt der Verkauf für ihn nicht mehr.",
-          "en": "This hadith states a legal ruling concerning a sale in which the buyer does not come forward after purchasing. If three days pass without the buyer appearing, the sale is no longer upheld for him.",
-          "es": "Este hadiz establece una regla legal sobre una venta en la que el comprador no se presenta después de comprar. Si pasan tres días sin que el comprador aparezca, la venta ya no se mantiene para él.",
-          "fa": "این حدیث حکم شرعی درباره خریداری است که خریدار پس از خرید حاضر نمی‌شود. اگر سه روز بگذرد و خریدار نیاید، خرید برای او معتبر نیست.",
-          "fr": "Ce hadith énonce une règle juridique concernant une vente où l'acheteur ne se présente pas après l'achat. Si trois jours passent sans que l'acheteur apparaisse, la vente n'est plus valable pour lui.",
-          "id": "Hadis ini menyatakan hukum terkait jual beli di mana pembeli tidak datang setelah membeli. Jika tiga hari berlalu tanpa pembeli muncul, jual beli tidak berlaku baginya.",
-          "ru": "Этот хадис устанавливает правовое правило относительно продажи, при которой покупатель не появляется после покупки. Если проходит три дня без появления покупателя, продажа для него не действует.",
-          "tr": "Bu hadis, alıcının satın aldıktan sonra gelmemesi durumunda geçerli olan hukuki hükmü belirtir. Üç gün geçip alıcı ortaya çıkmazsa, satış onun için geçerli olmaz.",
-          "ur": "یہ حدیث ایک قانونی حکم بیان کرتی ہے جس میں خریدار خریداری کے بعد پیش نہیں آتا۔ اگر تین دن گزر جائیں اور خریدار ظاہر نہ ہو تو اس کے لیے خریداری برقرار نہیں رہتی۔",
-          "zh": "此聖訓說明了關於買家購買後不出現的法律判決。若三日過去買家未現身，該買賣對他不再有效。"
-        },
         "tags": [
           "jurisprudence",
           "economy",

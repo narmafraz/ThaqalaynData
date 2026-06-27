@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "فَأَمَّا مَا رَوَاهُ إِسْمَاعِيلُ بْنُ مِهْرَانَ عَنِ ابْنِ الْمُغِيرَةِ عَنْ مَنْصُورٍ عَنْ أَبَانِ بْنِ تَغْلِبَ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ইসমাঈল ইবন মিহরান যা ইবনুল-মুগীরাহ থেকে, তিনি মানসুর থেকে, তিনি আবান ইবন তাগলিব থেকে, তিনি আবি ‘আবদিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "Was Isma'il ibn Mihran von Ibn al-Mughirah, von Mansur, von Aban ibn Taghlib, von Abi 'Abdillah عليه السلام überliefert hat, der sagte:",
-              "en": "As for what Isma'il ibn Mihran narrated from Ibn al-Mughirah, from Mansur, from Aban ibn Taghlib, from Abi 'Abdillah عليه السلام, who said:",
-              "es": "En cuanto a lo que Isma'il ibn Mihran narró de Ibn al-Mughirah, de Mansur, de Aban ibn Taghlib, de Abi 'Abdillah عليه السلام, quien dijo:",
-              "fa": "اما آنچه اسماعیل بن میران از ابن‌المغیره، از منصور، از ابان بن تغلب، از ابی‌عبدالله علیه السلام روایت کرده است، آن حضرت فرمود:",
-              "fr": "Quant à ce qu’Isma'il ibn Mihran a rapporté de Ibn al-Mughirah, de Mansur, de Aban ibn Taghlib, de Abi 'Abdillah عليه السلام, qui a dit :",
-              "id": "Adapun apa yang diriwayatkan Isma'il ibn Mihran dari Ibn al-Mughirah, dari Mansur, dari Aban ibn Taghlib, dari Abi 'Abdillah عليه السلام, beliau bersabda:",
-              "ru": "Что касается того, что Исма'иль ибн Михран передал от Ибн аль-Мугира, от Мансура, от Абана ибн Таглиба, от Аби 'Абдуллаха عليه السلام, который сказал:",
-              "tr": "İsmail ibn Mihran’ın İbn al-Mughirah’dan, onun Mansur’dan, onun Aban ibn Taghlib’den, onun da Ebu Abdullah عليه السلام’dan rivayet ettiğine gelince, o şöyle dedi:",
-              "ur": "جہاں تک اس روایت کا تعلق ہے جو اسماعیل بن میران نے ابن المغیرہ سے، انہوں نے منصور سے، انہوں نے ابان بن تغلب سے، انہوں نے ابو عبداللہ علیہ السلام سے نقل کی ہے، وہ فرماتے ہیں:",
-              "zh": "至于伊斯马仪尔·伊本·米赫兰从伊本·穆吉拉、从曼苏尔、从阿班·伊本·塔格利卜、从阿比·阿卜杜拉 عليه السلام所传述的，他说："
-            },
             "word_end": 22,
             "word_start": 0
           },
           {
             "arabic_text": "دِيَةُ الْيَهُودِيِّ وَالنَّصْرَانِيِّ وَالْمَجُوسِيِّ دِيَةُ الْمُسْلِمِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "ইহুদি, খ্রিস্টান ও মাজুসির দিয়াত মুসলিমের দিয়াতের সমান।",
-              "de": "Das Blutgeld des Juden, des Christen und des Magiers ist das Blutgeld des Muslims.",
-              "en": "The blood-money of the Jew, the Christian, and the Magian is the blood-money of the Muslim.",
-              "es": "La sangre-compensación del judío, del cristiano y del mago es la sangre-compensación del musulmán.",
-              "fa": "دیهِ یهودی، نصرانی و مجوسی، دیهِ مسلمان است.",
-              "fr": "Le prix du sang du juif, du chrétien et du mazdéen est le prix du sang du musulman.",
-              "id": "Diyat orang Yahudi, Nasrani, dan Majusi adalah diyat seorang Muslim.",
-              "ru": "Дия за иудея, христианина и магуса — это дия мусульманина.",
-              "tr": "Yahudi, Hristiyan ve Mecusi’nin diyeti, Müslüman’ın diyeti gibidir.",
-              "ur": "یہودی، نصرانی اور مجوسی کی دیت مسلمان کی دیت کے برابر ہے۔",
-              "zh": "犹太人、基督徒和拜火教徒的血金，就是穆斯林的血金。"
-            },
             "word_end": 28,
             "word_start": 22
           }
@@ -114,25 +101,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "النَّصْرَانِيِّ": "the Christian; a member of the Christian community",
-            "الْمَجُوسِيِّ": "the Magian; a member of the Zoroastrian community",
-            "الْمُسْلِمِ": "the Muslim; here, the standard of comparison for diyah",
-            "الْيَهُودِيِّ": "the Jew; a member of the Jewish community",
-            "دِيَةُ": "blood-money; the prescribed financial compensation for unlawful killing or injury"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "دِيَةُ",
+          "الْيَهُودِيِّ",
+          "النَّصْرَانِيِّ",
+          "الْمَجُوسِيِّ",
+          "الْمُسْلِمِ"
+        ],
         "related_quran": [
           {
             "ref": "5:45",
@@ -147,32 +122,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিসটি মুসলিমদের তুলনায় ইহুদি, খ্রিস্টান ও মাজুসিদের দিয়াত সম্পর্কে কী বলে?",
-          "de": "Was sagt dieser Hadith über die Diyah der Juden, Christen und Magier im Vergleich zu der der Muslime?",
-          "en": "What does this hadith say about the diyah of Jews, Christians, and Magians compared to Muslims?",
-          "es": "¿Qué dice este hadiz sobre la diyah de los judíos, cristianos y magos en comparación con la de los musulmanes?",
-          "fa": "این حدیث درباره دیهِ یهودیان، نصرانیان و مجوسیان در مقایسه با مسلمانان چه می‌گوید؟",
-          "fr": "Que dit ce hadith au sujet de la diyah des juifs, des chrétiens et des mazdéens par rapport à celle des musulmans ?",
-          "id": "Apa yang dikatakan hadis ini tentang diyat orang Yahudi, Nasrani, dan Majusi dibandingkan dengan Muslim?",
-          "ru": "Что говорит этот хадис о дии иудеев, христиан и магусов по сравнению с дией мусульман?",
-          "tr": "Bu hadis, Yahudilerin, Hristiyanların ve Mecusilerin diyeti hakkında Müslümanlarla karşılaştırıldığında ne söylüyor?",
-          "ur": "یہ حدیث یہودیوں، عیسائیوں اور مجوسیوں کی دیت کو مسلمانوں کی دیت کے بارے میں کیا کہتی ہے؟",
-          "zh": "这段圣训关于犹太人、基督徒和拜火教徒的血金与穆斯林相比说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি দিয়াত সম্পর্কে একটি শরঈ বিধান উল্লেখ করে, যেখানে বলা হয়েছে যে ইহুদি, খ্রিস্টান ও মাজুসির দিয়াত মুসলিমের দিয়াতের সমান। এটি সুরক্ষিত অমুসলিম সম্প্রদায়ের সঙ্গে সংশ্লিষ্ট বিচারিক ও ক্ষতিপূরণমূলক বিধানের অন্তর্ভুক্ত।",
-          "de": "Dieser Hadith nennt eine rechtliche Regelung zum Blutgeld und erklärt, dass die Diyah des Juden, des Christen und des Magiers der Diyah des Muslims entspricht. Er betrifft gerichtliche und ausgleichende Bestimmungen in Fällen mit geschützten nichtmuslimischen Gemeinschaften.",
-          "en": "This hadith states a legal ruling concerning blood-money, declaring that the diyah of a Jew, a Christian, and a Magian is the same as the diyah of a Muslim. It pertains to judicial and compensatory rulings in cases involving protected non-Muslim communities.",
-          "es": "Este hadiz establece una norma jurídica sobre la compensación por sangre, declarando que la diyah del judío, del cristiano y del mago es la misma que la diyah del musulmán. Se refiere a disposiciones judiciales y compensatorias en casos que involucran a comunidades no musulmanas protegidas.",
-          "fa": "این حدیث حکمی فقهی درباره دیه بیان می‌کند و می‌گوید دیهِ یهودی، نصرانی و مجوسی برابر با دیهِ مسلمان است. این روایت به احکام قضایی و جبرانی در موارد مربوط به جوامع غیرمسلمانِ تحت حمایت مربوط می‌شود.",
-          "fr": "Ce hadith énonce une règle juridique concernant le prix du sang, en déclarant que la diyah du juif, du chrétien et du mazdéen est la même que la diyah du musulman. Il relève des dispositions judiciaires et compensatoires dans les cas impliquant des communautés non musulmanes protégées.",
-          "id": "Hadis ini menyatakan sebuah hukum fikih tentang diyat, yaitu diyat orang Yahudi, Nasrani, dan Majusi sama dengan diyat seorang Muslim. Ini berkaitan dengan ketentuan peradilan dan ganti rugi dalam kasus yang melibatkan komunitas non-Muslim yang dilindungi.",
-          "ru": "Этот хадис устанавливает правовое постановление относительно дии, утверждая, что дия иудея, христианина и магуса равна дии мусульманина. Он относится к судебным и компенсационным нормам в делах, связанных с защищёнными немусульманскими общинами.",
-          "tr": "Bu hadis, kan bedeliyle ilgili bir fıkhî hüküm bildirir ve Yahudi, Hristiyan ve Mecusi’nin diyeti ile Müslüman’ın diyetinin aynı olduğunu söyler. Bu, korunan gayrimüslim topluluklarla ilgili yargısal ve tazminat hükümlerine ilişkindir.",
-          "ur": "یہ حدیث خون بہا کے بارے میں ایک شرعی حکم بیان کرتی ہے، جس کے مطابق یہودی، عیسائی اور مجوسی کی دیت مسلمان کی دیت کے برابر ہے۔ یہ محفوظ غیر مسلم برادریوں سے متعلق قضائی اور معاوضاتی احکام سے تعلق رکھتی ہے۔",
-          "zh": "这段圣训阐述了一项关于血金的教法裁定，说明犹太人、基督徒和拜火教徒的血金与穆斯林的血金相同。它涉及与受保护的非穆斯林社群有关的司法和赔偿性裁决。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations",

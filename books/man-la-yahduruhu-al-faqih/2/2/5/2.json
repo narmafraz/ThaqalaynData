@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ عَلِيٌّ عَلَيْهِ السَّلَامُ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ :",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং আলী عليه السلام বললেন: আল্লাহর রাসূল صلى الله عليه وآله বললেন:",
-              "de": "Und ʿAlī عليه السلام sagte: Der Gesandte Allahs صلى الله عليه وآله sagte:",
-              "en": "And ʿAlī عليه السلام said: The Messenger of Allah صلى الله عليه وآله said:",
-              "es": "Y ʿAlī عليه السلام dijo: El Mensajero de Allah صلى الله عليه وآله dijo:",
-              "fa": "و ʿAlī علیه السلام گفت: پیامبر خدا صلى الله عليه وآله فرمود:",
-              "fr": "Et ʿAlī عليه السلام a dit : Le Messager d'Allah صلى الله عليه وآله a dit :",
-              "id": "Dan ʿAlī عليه السلام berkata: Rasulullah صلى الله عليه وآله bersabda:",
-              "ru": "И ʿAlī عليه السلام сказал: Посланник Аллаха صلى الله عليه وآله сказал:",
-              "tr": "Ve ʿAlī عليه السلام dedi ki: Allah'ın Elçisi صلى الله عليه وآله şöyle buyurdu:",
-              "ur": "اور عَلِی علیہ السلام نے فرمایا: رسول اللہ صلی اللہ علیہ وآلہ وسلم نے فرمایا:",
-              "zh": "ʿAlīعليهالسلام说：安拉使者صلىاللهعليه وآله说："
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "«مَنْ صَامَ يَوْماً تَطَوُّعاً أَدْخَلَهُ اللَّهُ عَزَّ وَ جَلَّ الْجَنَّةَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“যে কেউ স্বেচ্ছায় একদিন রোজা রাখে, আল্লাহ তাআলা তাকে জান্নাতে প্রবেশ করাবেন।”",
-              "de": "„Wer freiwillig einen Tag fastet, wird Allah, der Mächtige und Erhabene, ins Paradies aufnehmen.“",
-              "en": "\"Whoever fasts one day voluntarily, Allah, Mighty and Majestic, will admit him to Paradise.\"",
-              "es": "“Quien ayune un día voluntariamente, Allah, el Poderoso y Majestuoso, lo admitirá en el Paraíso.”",
-              "fa": "«هر کس یک روز به طور داوطلبانه روزه بگیرد، خداوند عزیز و جلیل او را به بهشت وارد می‌کند.»",
-              "fr": "«Quiconque jeûne un jour volontairement, Allah, le Tout-Puissant et Majestueux, l'admettra au Paradis.»",
-              "id": "“Barangsiapa berpuasa satu hari secara sukarela, Allah Yang Maha Perkasa dan Maha Agung akan memasukkannya ke dalam Surga.”",
-              "ru": "«Кто постится один день добровольно, Аллах, Всемогущий и Великий, введёт его в Рай.»",
-              "tr": "“Kim gönüllü olarak bir gün oruç tutarsa, Allah Azîz ve Celîl onu Cennete kabul eder.”",
-              "ur": "‘‘جو کوئی ایک دن نفلی روزہ رکھے، اللہ تعالیٰ اسے جنت میں داخل کرے گا۔’’",
-              "zh": "“凡自愿禁食一天，安拉全能尊贵者必使其进入天堂。”"
-            },
             "word_end": 24,
             "word_start": 14
           }
@@ -86,26 +73,14 @@
             "phrase_en": "The Messenger of Allah said"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَدْخَلَهُ": "He will admit him",
-            "اللَّهُ": "Allah",
-            "الْجَنَّةَ": "Paradise",
-            "تَطَوُّعاً": "voluntarily; as a supererogatory act",
-            "صَامَ": "fasted",
-            "يَوْماً": "one day"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "صَامَ",
+          "يَوْماً",
+          "تَطَوُّعاً",
+          "أَدْخَلَهُ",
+          "اللَّهُ",
+          "الْجَنَّةَ"
+        ],
         "related_quran": [
           {
             "ref": "2:183",
@@ -120,32 +95,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামে একদিন স্বেচ্ছায় রোজা রাখার পুরস্কার কী?",
-          "de": "Was ist die Belohnung für das freiwillige Fasten eines Tages im Islam?",
-          "en": "What is the reward for fasting one voluntary day in Islam?",
-          "es": "¿Cuál es la recompensa por ayunar un día voluntariamente en el Islam?",
-          "fa": "پاداش روزه یک روز داوطلبانه در اسلام چیست؟",
-          "fr": "Quelle est la récompense pour jeûner un jour volontairement en Islam ?",
-          "id": "Apa pahala berpuasa satu hari secara sukarela dalam Islam?",
-          "ru": "Какова награда за добровольный пост один день в исламе?",
-          "tr": "İslam'da bir gün gönüllü oruç tutmanın mükafatı nedir?",
-          "ur": "اسلام میں ایک دن نفلی روزہ رکھنے کا اجر کیا ہے؟",
-          "zh": "伊斯兰教中自愿禁食一天的回报是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস স্বেচ্ছায় রোজার মহান পুরস্কার বর্ণনা করে, এমনকি একদিনের জন্যও। এটি এমন একটি ইবাদত যা আল্লাহর রহমত এবং জান্নাতে প্রবেশের কারণ।",
-          "de": "Dieser Hadith beschreibt die große Belohnung für freiwilliges Fasten, selbst für nur einen Tag. Es wird als eine Anbetung dargestellt, die Allahs Barmherzigkeit und den Eintritt ins Paradies erlangt.",
-          "en": "This hadith states the great reward for voluntary fasting, even for a single day. It presents such fasting as an act of worship that earns Allah’s mercy and entry into Paradise.",
-          "es": "Este hadiz indica la gran recompensa por el ayuno voluntario, incluso por un solo día. Presenta dicho ayuno como un acto de adoración que gana la misericordia de Allah y la entrada al Paraíso.",
-          "fa": "این حدیث پاداش بزرگ روزه داوطلبانه را حتی برای یک روز بیان می‌کند. این روزه به عنوان عملی عبادی است که رحمت خدا و ورود به بهشت را به همراه دارد.",
-          "fr": "Ce hadith indique la grande récompense du jeûne volontaire, même pour un seul jour. Il présente ce jeûne comme un acte d'adoration qui mérite la miséricorde d'Allah et l'entrée au Paradis.",
-          "id": "Hadis ini menyatakan pahala besar untuk puasa sunnah, bahkan hanya satu hari. Puasa ini merupakan ibadah yang mendatangkan rahmat Allah dan masuk surga.",
-          "ru": "Этот хадис указывает на великую награду за добровольный пост, даже за один день. Он представляет такой пост как акт поклонения, который заслуживает милости Аллаха и входа в Рай.",
-          "tr": "Bu hadis, gönüllü orucun büyük mükafatını, hatta sadece bir gün için bile olsa, ifade eder. Böyle oruç, Allah’ın rahmetini ve cennete girişini kazandıran bir ibadettir.",
-          "ur": "یہ حدیث نفلی روزے کے عظیم اجر کو بیان کرتی ہے، چاہے وہ صرف ایک دن کا ہو۔ یہ روزہ عبادت کا عمل ہے جو اللہ کی رحمت اور جنت میں داخلے کا باعث بنتا ہے۔",
-          "zh": "此圣训说明自愿禁食一天的巨大回报。此禁食为一种崇拜行为，赢得安拉的慈悯及进入天堂。"
-        },
         "tags": [
           "worship",
           "prophetic_tradition",

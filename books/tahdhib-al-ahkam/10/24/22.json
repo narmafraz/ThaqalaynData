@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ أَحْمَدَ بْنِ يَحْيَى عَنْ مُحَمَّدِ بْنِ عِيسَى عَنْ يَاسِينٍ عَنْ حَرِيزٍ وَابْنِ مُسْكَانَ عَنْ أَبِي بَصِيرٍ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন আহমদ ইবন ইয়াহইয়া, মুহাম্মদ ইবন ঈসা থেকে, তিনি ইয়াসীন থেকে, তিনি হারীয ও ইবন মিসকান থেকে, তারা আবি বাসীর থেকে বর্ণনা করেছেন, যিনি বলেছেন:",
-              "de": "Muhammad ibn Ahmad ibn Yahya, von Muhammad ibn Isa, von Yasin, von Hariz und Ibn Miskan, von Abi Basir, der sagte:",
-              "en": "Muḥammad ibn Aḥmad ibn Yaḥyā, from Muḥammad ibn ʿĪsā, from Yāsīn, from Ḥarīz and Ibn Miskān, from Abī Baṣīr, who said:",
-              "es": "Muhammad ibn Ahmad ibn Yahya, de Muhammad ibn Isa, de Yasin, de Hariz e Ibn Miskan, de Abi Basir, quien dijo:",
-              "fa": "محمد بن احمد بن یحیی، از محمد بن عیسی، از یاسین، از حریز و ابن مسکان، از ابی بصیر، که گفت:",
-              "fr": "Muhammad ibn Ahmad ibn Yahya, d’après Muhammad ibn Isa, d’après Yasin, d’après Hariz et Ibn Miskan, d’après Abi Basir, qui a dit :",
-              "id": "Muhammad ibn Ahmad ibn Yahya, dari Muhammad ibn Isa, dari Yasin, dari Hariz dan Ibn Miskan, dari Abi Basir, yang berkata:",
-              "ru": "Мухаммад ибн Ахмад ибн Яхья, от Мухаммада ибн Исы, от Ясина, от Хариза и Ибн Мискана, от Аби Басира, который сказал:",
-              "tr": "Muhammed ibn Ahmed ibn Yahya, Muhammed ibn İsa’dan, o Yasin’den, o Hariz ve İbn Miskan’dan, onlar da Ebu Basir’den rivayet etti; o dedi ki:",
-              "ur": "محمد بن احمد بن یحیی، محمد بن عیسی سے، وہ یاسین سے، وہ حریز اور ابن مسکان سے، وہ ابی بصیر سے روایت کرتے ہیں، جنہوں نے کہا:",
-              "zh": "穆罕默德·伊本·艾哈迈德·伊本·叶海亚，传自穆罕默德·伊本·尔萨，传自亚辛，传自哈里兹和伊本·米斯坎，传自阿比·巴西尔，他说："
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنْ ذِمِّيٍّ قَطَعَ يَدَ مُسْلِمٍ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আমি তাকে এক যিম্মী সম্পর্কে জিজ্ঞেস করলাম, যে এক মুসলিমের হাত কেটে দিয়েছিল।",
-              "de": "Ich fragte ihn über einen Dhimmi, der die Hand eines Muslims abgetrennt hatte.",
-              "en": "I asked him about a dhimmī who cut off the hand of a Muslim.",
-              "es": "Le pregunté acerca de un dhimmí que había cortado la mano de un musulmán.",
-              "fa": "از او دربارهٔ ذمّی‌ای پرسیدم که دستِ یک مسلمان را قطع کرده بود.",
-              "fr": "Je lui ai demandé au sujet d’un dhimmî qui avait coupé la main d’un musulman.",
-              "id": "Aku bertanya kepadanya tentang seorang dzimmi yang memotong tangan seorang Muslim.",
-              "ru": "Я спросил его о зиммии, который отрубил руку мусульманину.",
-              "tr": "Ona, bir Müslümanın elini kesen bir zimmî hakkında sordum.",
-              "ur": "میں نے اس سے ایک ذمی کے بارے میں پوچھا جس نے ایک مسلمان کا ہاتھ کاٹ دیا تھا۔",
-              "zh": "我问他关于一个切断了一名穆斯林手的dhimmī。"
-            },
             "word_end": 25,
             "word_start": 19
           },
           {
             "arabic_text": "قَالَ: «تُقْطَعُ يَدُهُ إِنْ شَاءَ أَوْلِيَاؤُهُ وَيَأْخُذُوا فَضْلَ مَا بَيْنَ الدِّيَتَيْنِ، وَإِنْ قَطَعَ الْمُسْلِمُ يَدَ الْمُعَاهَدِ خُيِّرَ أَوْلِيَاءُ الْمُعَاهَدِ، فَإِنْ شَاءُوا أَخَذُوا دِيَةَ يَدِهِ، وَإِنْ شَاءُوا قَطَعُوا يَدَ الْمُسْلِمِ وَأَدَّوْا إِلَيْهِ فَضْلَ مَا بَيْنَ الدِّيَتَيْنِ، وَإِذَا قَتَلَهُ الْمُسْلِمُ صَنَعَ كَذَلِكَ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: \"তার হাত কেটে দেওয়া হবে, যদি তার ওয়ারিসরা চায়, এবং তারা দুই দিয়াতের মধ্যকার পার্থক্য গ্রহণ করবে। আর যদি মুসলিম মুআহাদের হাত কেটে দেয়, তবে মুআহাদের ওয়ারিসদেরকে এখতিয়ার দেওয়া হবে: তারা চাইলে তার হাতের দিয়াত গ্রহণ করবে; আর চাইলে মুসলিমের হাত কেটে দেবে এবং তাকে দুই দিয়াতের মধ্যকার পার্থক্য প্রদান করবে। আর মুসলিম যদি তাকে হত্যা করে, তবে অনুরূপই করা হবে।\"",
-              "de": "Er sagte: „Seine Hand wird abgetrennt, wenn seine Erben es wünschen, und sie nehmen die Differenz zwischen den beiden Blutgeldern. Und wenn der Muslim die Hand des muʿāhad abtrennt, werden die Erben des muʿāhad vor die Wahl gestellt: Wenn sie wollen, nehmen sie das Blutgeld für seine Hand; und wenn sie wollen, trennen sie die Hand des Muslims ab und zahlen ihm die Differenz zwischen den beiden Blutgeldern. Und wenn der Muslim ihn tötet, wird ebenso verfahren.“",
-              "en": "He said: \"His hand is cut off, if his heirs wish, and they take the difference between the two blood-monies. And if the Muslim cuts off the hand of the muʿāhad, the heirs of the muʿāhad are given the choice: if they wish, they take the blood-money for his hand; and if they wish, they cut off the hand of the Muslim and pay him the difference between the two blood-monies. And if the Muslim kills him, it is done likewise.\"",
-              "es": "Dijo: \"Se le cortará la mano, si sus herederos lo desean, y ellos tomarán la diferencia entre las dos compensaciones de sangre. Y si el musulmán corta la mano del muʿāhad, se da a los herederos del muʿāhad la opción: si quieren, toman la compensación de sangre por su mano; y si quieren, cortan la mano del musulmán y le pagan la diferencia entre las dos compensaciones de sangre. Y si el musulmán lo mata, se hace de igual manera.\"",
-              "fa": "فرمود: «دست او قطع می‌شود، اگر اولیای او بخواهند، و آنان تفاوت میان دو دیه را می‌گیرند. و اگر مسلمان دستِ معاهد را قطع کند، اولیای معاهد مخیّر می‌شوند: اگر بخواهند، دیهٔ دست او را می‌گیرند؛ و اگر بخواهند، دستِ مسلمان را قطع می‌کنند و تفاوت میان دو دیه را به او می‌پردازند. و اگر مسلمان او را بکشد، همین‌گونه عمل می‌شود.»",
-              "fr": "Il a dit : « Sa main sera coupée, si ses héritiers le veulent, et ils prendront la différence entre les deux prix du sang. Et si le musulman coupe la main du muʿāhad, les héritiers du muʿāhad ont le choix : s’ils veulent, ils prennent le prix du sang pour sa main ; et s’ils veulent, ils coupent la main du musulman et lui versent la différence entre les deux prix du sang. Et si le musulman le tue, il en est fait de même. »",
-              "id": "Beliau bersabda: \"Tangannya dipotong, jika para walinya menghendaki, dan mereka mengambil selisih antara dua diyat. Dan jika seorang Muslim memotong tangan muʿāhad, para wali muʿāhad diberi pilihan: jika mereka mau, mereka mengambil diyat untuk tangannya; dan jika mereka mau, mereka memotong tangan Muslim itu dan membayar kepadanya selisih antara dua diyat. Dan jika Muslim itu membunuhnya, maka dilakukan demikian pula.\"",
-              "ru": "Он сказал: «Ему отрубают руку, если его наследники пожелают, и они получают разницу между двумя выкупами за кровь. А если мусульманин отрубит руку муʿахада, наследникам муʿахада предоставляется выбор: если пожелают, они берут выкуп за его руку; а если пожелают, отрубают руку мусульманина и выплачивают ему разницу между двумя выкупами за кровь. И если мусульманин убьёт его, поступают так же».",
-              "tr": "Şöyle dedi: \"Onun eli kesilir; eğer velileri isterse, iki diyet arasındaki farkı da alırlar. Ve eğer Müslüman muʿâhadın elini keserse, muʿâhadın velilerine seçim hakkı verilir: isterlerse onun elinin diyetini alırlar; isterlerse Müslümanın elini keserler ve ona iki diyet arasındaki farkı öderler. Ve eğer Müslüman onu öldürürse, aynı şekilde yapılır.\"",
-              "ur": "انہوں نے فرمایا: \"اس کا ہاتھ کاٹ دیا جائے گا، اگر اس کے اولیاء چاہیں، اور وہ دونوں دیتوں کے درمیان کا فرق لے لیں گے۔ اور اگر مسلمان نے معاہد کا ہاتھ کاٹ دیا ہو تو معاہد کے اولیاء کو اختیار دیا جائے گا: اگر چاہیں تو اس کے ہاتھ کی دیت لے لیں؛ اور اگر چاہیں تو مسلمان کا ہاتھ کاٹ دیں اور اسے دونوں دیتوں کے درمیان کا فرق ادا کریں۔ اور اگر مسلمان اسے قتل کر دے تو اسی طرح کیا جائے گا۔\"",
-              "zh": "他说：“如果他的继承人愿意，就砍掉他的手，并且他们取得两种血金之间的差额。若穆斯林砍掉muʿāhad的手，则给予muʿāhad的继承人选择：如果他们愿意，就领取其手的血金；如果他们愿意，就砍掉穆斯林的手，并向他支付两种血金之间的差额。若穆斯林杀死他，也同样处理。”"
-            },
             "word_end": 65,
             "word_start": 25
           }
@@ -143,28 +117,16 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَوْلِيَاؤُهُ": "his legal heirs or entitled guardians who may exercise the claim",
-            "الدِّيَتَيْنِ": "the two blood-monies being compared in compensation",
-            "الْمُعَاهَدِ": "a non-Muslim under covenant or treaty protection",
-            "تُقْطَعُ": "it is cut off, referring here to retaliatory amputation in qiṣāṣ",
-            "دِيَةَ": "financial compensation due for bodily injury or killing",
-            "ذِمِّيٍّ": "a non-Muslim living under the protection covenant of the Islamic polity",
-            "فَضْلَ": "the excess or difference payable between two amounts",
-            "قَتَلَهُ": "he killed him"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "ذِمِّيٍّ",
+          "أَوْلِيَاؤُهُ",
+          "الدِّيَتَيْنِ",
+          "الْمُعَاهَدِ",
+          "دِيَةَ",
+          "فَضْلَ",
+          "قَتَلَهُ",
+          "تُقْطَعُ"
+        ],
         "related_quran": [
           {
             "ref": "2:178",
@@ -179,32 +141,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "একজন মুসলিম যদি কোনো যিম্মী বা মুআহাদকে আহত বা হত্যা করে, অথবা উল্টোটা ঘটে, তবে কিসাস ও দিয়াতের বিধান কী?",
-          "de": "Wie lautet die Regel von Qiṣāṣ und Diyah, wenn ein Muslim einen Dhimmi oder muʿāhad verletzt oder tötet, oder umgekehrt?",
-          "en": "What is the ruling of qiṣāṣ and diyah when a dhimmī or muʿāhad is injured or killed by a Muslim, or vice versa?",
-          "es": "¿Cuál es la norma de qiṣāṣ y diyah cuando un musulmán hiere o mata a un dhimmí o muʿāhad, o viceversa?",
-          "fa": "اگر یک مسلمان ذمّی یا معاهد را مجروح یا کشته کند، یا برعکس، حکمِ قصاص و دیه چیست؟",
-          "fr": "Quelle est la règle du qiṣāṣ et du diyah lorsqu’un musulman blesse ou tue un dhimmî ou un muʿāhad, ou inversement ?",
-          "id": "Apa hukum qiṣāṣ dan diyah jika seorang Muslim melukai atau membunuh dzimmi atau muʿāhad, atau sebaliknya?",
-          "ru": "Каково постановление о кисасе и дийе, если мусульманин ранит или убивает зиммия или муʿахада, или наоборот?",
-          "tr": "Bir Müslüman zimmî veya muʿâhadı yaralarsa ya da öldürürse, yahut bunun tersi olursa, kısas ve diyetin hükmü nedir?",
-          "ur": "اگر ذمی یا معاہد کو مسلمان زخمی کرے یا قتل کرے، یا اس کے برعکس ہو، تو قصاص اور دیت کا حکم کیا ہے؟",
-          "zh": "如果穆斯林伤害或杀死dhimmī或muʿāhad，或者反过来，qiṣāṣ和diyah的判定是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে একজন মুসলিম ও চুক্তিবদ্ধ অমুসলিমের মধ্যে কিসাস ও দিয়াতের বিধান বর্ণনা করা হয়েছে, এবং শারীরিক আঘাত বা হত্যার ক্ষেত্রে ওয়ারিসদের বিকল্পগুলো স্পষ্ট করা হয়েছে।",
-          "de": "Dieser Hadith erläutert die Rechtsbestimmungen von Qiṣāṣ und Diyah zwischen einem Muslim und einem nichtmuslimischen Schutz- bzw. Vertragsangehörigen und erklärt die Wahlmöglichkeiten der Erben bei Körperverletzung oder Tötung.",
-          "en": "This hadith sets out legal rulings of qiṣāṣ and diyah between a Muslim and a non-Muslim under covenant, including a dhimmī and a muʿāhad. It explains the heirs' options in cases of bodily injury and killing, along with payment of the difference between the two blood-monies where applicable.",
-          "es": "Este hadiz expone las normas de qiṣāṣ y diyah entre un musulmán y un no musulmán bajo pacto, e indica las opciones de los herederos en casos de lesión corporal o قتل.",
-          "fa": "این حدیث احکامِ قصاص و دیه را میان یک مسلمان و غیرمسلمانِ دارای عهد بیان می‌کند و گزینه‌های اولیا را در مواردِ جراحت بدنی یا قتل روشن می‌سازد.",
-          "fr": "Ce hadith expose les règles du qiṣāṣ et du diyah entre un musulman et un non-musulman sous pacte, et précise les options des héritiers en cas de blessure corporelle ou de meurtre.",
-          "id": "Hadis ini menjelaskan hukum qiṣāṣ dan diyah antara seorang Muslim dan non-Muslim yang berada dalam perjanjian, serta pilihan para wali dalam kasus luka fisik atau pembunuhan.",
-          "ru": "Этот хадис разъясняет нормы кисаса и дийи между мусульманином и немусульманином, находящимся под договором, а также выбор наследников в случаях телесного повреждения или убийства.",
-          "tr": "Bu hadis, bir Müslüman ile ahid altında bulunan gayrimüslim arasında kısas ve diyet hükümlerini, ayrıca bedenî zarar veya öldürme durumunda velilerin seçeneklerini açıklar.",
-          "ur": "یہ حدیث مسلمان اور عہد و امان والے غیر مسلم کے درمیان قصاص اور دیت کے احکام بیان کرتی ہے، اور جسمانی نقصان یا قتل کی صورت میں اولیاء کے اختیارات واضح کرتی ہے۔",
-          "zh": "这段圣训阐明了穆斯林与受约束的非穆斯林之间关于qiṣāṣ和diyah的法律规定，并说明了在身体伤害或杀人情况下继承人的选择。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations",

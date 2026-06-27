@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رُوِيَ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং এটি বর্ণিত হয়েছে:",
-              "de": "Und es wurde überliefert:",
-              "en": "And it was narrated:",
-              "es": "Y fue narrado:",
-              "fa": "و روایت شده است:",
-              "fr": "Et il a été rapporté :",
-              "id": "Dan diriwayatkan:",
-              "ru": "И было передано:",
-              "tr": "Ve rivayet edilmiştir:",
-              "ur": "اور یہ روایت کیا گیا:",
-              "zh": "据传："
-            },
             "word_end": 2,
             "word_start": 0
           },
           {
             "arabic_text": "«أَنَّ تَجْدِيدَ الْوُضُوءِ لِصَلَاةِ الْعِشَاءِ يَمْحُو لَا وَاللَّهِ وَبَلَى وَاللَّهِ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "‘‘আল-ইশার সালাতের জন্য ওযু নবায়ন পাপ মুছে দেয়—না, আল্লাহর শপথ, বরং হ্যাঁ, আল্লাহর শপথ।’’",
-              "de": "\"Die Erneuerung des Wudu für das Salat von al-'Isha' löscht [Sünden]—nein, bei Allah, vielmehr ja, bei Allah.\"",
-              "en": "\"Renewing wudu (ablution) for the salat (prayer) of al-'Isha' erases [sins]—no, by Allah, rather yes, by Allah.\"",
-              "es": "\"Renovar el wudu para la salat de al-'Isha' borra [pecados]—no, por Allah, más bien sí, por Allah.\"",
-              "fa": "«تجدید وضو برای نماز عشاء گناهان را پاک می‌کند—نه، به خدا قسم، بلکه بله، به خدا قسم.»",
-              "fr": "\"Renouveler le wudu pour la salat d'al-'Isha' efface [les péchés]—non, par Allah, plutôt oui, par Allah.\"",
-              "id": "\"Memperbarui wudu untuk salat al-'Isha' menghapus dosa—tidak, demi Allah, malah ya, demi Allah.\"",
-              "ru": "\"Обновление вуду для салят аль-Иша стирает [грехи] — нет, клянусь Аллахом, скорее да, клянусь Аллахом.\"",
-              "tr": "“Al-'Isha' salatı için abdestin yenilenmesi günahları siler—hayır, Allah'a yemin ederim, evet, Allah'a yemin ederim.”",
-              "ur": "‘‘عشاء کی نماز کے لیے وضو کو تجدید کرنا گناہوں کو مٹا دیتا ہے—نہیں، اللہ کی قسم، بلکہ ہاں، اللہ کی قسم۔’’",
-              "zh": "“为al-'Isha'礼拜更新洗小净抹去[罪过]——不，真主发誓，确实，真主发誓。”"
-            },
             "word_end": 12,
             "word_start": 2
           }
@@ -65,25 +52,13 @@
           "narrators": []
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْعِشَاءِ": "the Isha night prayer",
-            "الْوُضُوءِ": "wudu (ablution), the ritual purification before prayer",
-            "تَجْدِيدَ": "renewing or repeating an act",
-            "لِصَلَاةِ": "for the salat (prayer)",
-            "يَمْحُو": "erases or wipes away"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "تَجْدِيدَ",
+          "الْوُضُوءِ",
+          "لِصَلَاةِ",
+          "الْعِشَاءِ",
+          "يَمْحُو"
+        ],
         "related_quran": [
           {
             "ref": "5:6",
@@ -94,32 +69,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইশা সালাতের জন্য ওযু নবায়নের ফজিলত কী?",
-          "de": "Was ist die Tugend der Erneuerung des Wudu für das Isha-Gebet?",
-          "en": "What is the virtue of renewing wudu for the Isha prayer?",
-          "es": "¿Cuál es la virtud de renovar el wudu para la oración de Isha?",
-          "fa": "فضیلت تجدید وضو برای نماز عشاء چیست؟",
-          "fr": "Quelle est la vertu de renouveler le wudu pour la prière d'Isha ?",
-          "id": "Apa keutamaan memperbarui wudu untuk salat Isha?",
-          "ru": "Какова заслуга обновления вуду для молитвы Иша?",
-          "tr": "İsha namazı için wudunun yenilenmesinin fazileti nedir?",
-          "ur": "عشاء کی نماز کے لیے وضو کو تجدید کرنے کی فضیلت کیا ہے؟",
-          "zh": "为夜间礼拜更新洗小净的功德是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বিশেষ করে আল-ইশার সালাতের জন্য ওযু নবায়নের ফজিলত বর্ণনা করে এবং এটি পাপ মুছে দেয় বলে জোর দেয়। এর বর্ণনা আধ্যাত্মিক প্রভাব এবং ইবাদতের জন্য পবিত্রতা বজায় রাখার গুণাবলী দৃঢ়ভাবে প্রকাশ করে।",
-          "de": "Dieser Hadith beschreibt die Tugend der Erneuerung des Wudu für das Salat von al-'Isha' und betont, dass es Sünden tilgt. Die Formulierung vermittelt eine starke Bestätigung der spirituellen Wirkung und Tugend der rituellen Reinheit für die Anbetung.",
-          "en": "This hadith states the merit of renewing wudu (ablution) for the salat (prayer) of al-'Isha', emphasizing that it wipes away sins. Its wording conveys strong affirmation of the spiritual effect and virtue of maintaining ritual purity for worship.",
-          "es": "Este hadiz establece el mérito de renovar el wudu para la salat de al-'Isha', enfatizando que borra los pecados. Su redacción transmite una fuerte afirmación del efecto espiritual y la virtud de mantener la pureza ritual para la adoración.",
-          "fa": "این حدیث فضیلت تجدید وضو برای نماز عشاء را بیان می‌کند و تأکید دارد که گناهان را پاک می‌کند. بیان آن اثر معنوی و فضیلت حفظ طهارت برای عبادت را به شدت منتقل می‌کند.",
-          "fr": "Ce hadith expose le mérite de renouveler le wudu pour la salat d'al-'Isha', en insistant sur le fait que cela efface les péchés. Sa formulation exprime une forte affirmation de l'effet spirituel et de la vertu de maintenir la pureté rituelle pour le culte.",
-          "id": "Hadis ini menyatakan keutamaan memperbarui wudu untuk salat al-'Isha', menekankan bahwa hal itu menghapus dosa. Redaksinya menyampaikan penegasan kuat tentang efek spiritual dan keutamaan menjaga kesucian ritual untuk ibadah.",
-          "ru": "Этот хадис указывает на заслугу обновления вуду для салят аль-Иша, подчеркивая, что это стирает грехи. Формулировка выражает сильное утверждение духовного эффекта и добродетели поддержания ритуальной чистоты для поклонения.",
-          "tr": "Bu hadis, özellikle al-'Isha' salatı için wudunun yenilenmesinin faziletini belirtir ve günahları silme etkisini vurgular. İfadesi, ibadet için ritüel temizliğin manevi etkisini güçlü bir şekilde ortaya koyar.",
-          "ur": "یہ حدیث وضو کو تجدید کرنے کے فضائل بیان کرتی ہے خاص طور پر عشاء کی نماز کے لیے، اور اس بات پر زور دیتی ہے کہ یہ گناہوں کو مٹا دیتا ہے۔ اس کا بیان روحانی اثر اور عبادت کے لیے طہارت کی اہمیت کو مضبوطی سے ظاہر کرتا ہے۔",
-          "zh": "此圣训说明了为al-'Isha'礼拜更新洗小净的功德，强调其能抹去罪过。其措辞强烈肯定了保持礼拜仪式洁净的精神效果和美德。"
-        },
         "tags": [
           "worship",
           "jurisprudence",

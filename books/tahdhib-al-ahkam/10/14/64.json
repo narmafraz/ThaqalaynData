@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اِبْنُ أَبِي نَجْرَانَ عَنْ مُثَنًّى عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ইবন আবি নাজরান, মুথান্না থেকে, আবি আবদিল্লাহ عليه السلام থেকে, যিনি বলেছেন:",
-              "de": "Ibn Abi Najran, von Muthanna, von Abi Abdillah عليه السلام, der sagte:",
-              "en": "Ibn Abi Najran, from Muthanna, from Abi Abdillah عليه السلام, who said:",
-              "es": "Ibn Abi Najran, de Muthanna, de Abi Abdillah عليه السلام, quien dijo:",
-              "fa": "ابن ابی نجران، از مثنّی، از ابی‌عبدالله علیه‌السلام، که فرمود:",
-              "fr": "Ibn Abi Najran, d’après Muthanna, d’après Abi Abdillah عليه السلام, qui a dit :",
-              "id": "Ibn Abi Najran, dari Muthanna, dari Abi Abdillah عليه السلام, yang berkata:",
-              "ru": "Ибн Аби Наджран, от Мусанны, от Аби Абдуллаха عليه السلام, который сказал:",
-              "tr": "İbn Ebî Necran, Müsennâ’dan, Ebû Abdillah عليه السلام’dan, şöyle dedi:",
-              "ur": "ابن ابی نجران، مثنّیٰ سے، ابو عبداللہ علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "伊本·阿比·纳贾兰，传自穆萨纳，传自阿比·阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "«اَلْعَبْدُ إِذَا قَتَلَ الْحُرَّ دُفِعَ إِلَى أَوْلِيَاءِ الْمَقْتُولِ، فَإِنْ شَاءُوا قَتَلُوا، وَإِنْ شَاءُوا اسْتَعْبَدُوا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“যদি দাস কোনো স্বাধীন মানুষকে হত্যা করে, তবে তাকে নিহত ব্যক্তির উত্তরাধিকারীদের কাছে সোপর্দ করা হয়; তারা চাইলে তাকে হত্যা করতে পারে, আর চাইলে তাকে দাস বানাতে পারে।”",
-              "de": "„Wenn der Sklave den freien Mann tötet, wird er den Erben des Getöteten übergeben; wenn sie wollen, können sie ihn töten, und wenn sie wollen, können sie ihn versklaven.“",
-              "en": "“If the slave kills the free man, he is handed over to the heirs of the slain; if they wish, they may kill him, and if they wish, they may enslave him.”",
-              "es": "“Si el esclavo mata al hombre libre, se lo entrega a los herederos del muerto; si quieren, pueden matarlo, y si quieren, pueden esclavizarlo.”",
-              "fa": "«اگر برده، انسان آزاد را بکشد، او را به وارثانِ مقتول می‌سپارند؛ اگر بخواهند او را می‌کشند و اگر بخواهند او را به بردگی می‌گیرند.»",
-              "fr": "« Si l’esclave tue l’homme libre, il est remis aux héritiers du tué ; s’ils veulent, ils peuvent le tuer, et s’ils veulent, ils peuvent l’asservir. »",
-              "id": "“Jika seorang budak membunuh orang merdeka, ia diserahkan kepada ahli waris orang yang terbunuh; jika mereka mau, mereka dapat membunuhnya, dan jika mereka mau, mereka dapat memperbudaknya.”",
-              "ru": "«Если раб убивает свободного человека, его передают наследникам убитого; если они пожелают, они могут убить его, а если пожелают, могут обратить его в рабство.»",
-              "tr": "“Eğer köle hür bir adamı öldürürse, öldürülenin varislerine teslim edilir; isterlerse onu öldürürler, isterlerse onu köleleştirirler.”",
-              "ur": "“اگر غلام آزاد آدمی کو قتل کر دے تو اسے مقتول کے ورثاء کے حوالے کر دیا جاتا ہے؛ اگر وہ چاہیں تو اسے قتل کر دیں، اور اگر وہ چاہیں تو اسے غلام بنا لیں۔”",
-              "zh": "“如果奴隶杀死自由人，就把他交给被杀者的继承人；如果他们愿意，可以杀死他；如果他们愿意，可以使他为奴。”"
-            },
             "word_end": 26,
             "word_start": 12
           }
@@ -94,27 +81,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَوْلِيَاءِ": "the heirs or legal guardians entitled to claim retaliation",
-            "اسْتَعْبَدُوا": "they may enslave; take him into servitude",
-            "الْحُرَّ": "the free person; the victim in this legal case",
-            "اَلْعَبْدُ": "the slave; the legal subject discussed in the ruling",
-            "اَلْمَقْتُولِ": "the person who was killed",
-            "قَتَلَ": "killed; committed homicide",
-            "قَتَلُوا": "they may kill; exercise retaliatory execution"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "اَلْعَبْدُ",
+          "قَتَلَ",
+          "الْحُرَّ",
+          "أَوْلِيَاءِ",
+          "اَلْمَقْتُولِ",
+          "قَتَلُوا",
+          "اسْتَعْبَدُوا"
+        ],
         "related_quran": [
           {
             "ref": "2:178",
@@ -129,32 +104,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "একজন দাস যদি কোনো স্বাধীন মানুষকে হত্যা করে, শিয়া ফিকহে এর বিধান কী?",
-          "de": "Was ist das Urteil in der schiitischen Fiqh, wenn ein Sklave einen freien Menschen tötet?",
-          "en": "What is the ruling if a slave kills a free person in Shia fiqh?",
-          "es": "¿Cuál es la norma en la jurisprudencia chií si un esclavo mata a una persona libre?",
-          "fa": "اگر برده‌ای یک شخص آزاد را بکشد، حکم آن در فقه شیعه چیست؟",
-          "fr": "Quelle est la règle en fiqh chiite si un esclave tue une personne libre ?",
-          "id": "Apa hukum dalam fikih Syiah jika seorang budak membunuh orang merdeka?",
-          "ru": "Каково постановление в шиитском фикхе, если раб убивает свободного человека?",
-          "tr": "Bir köle bir hür kişiyi öldürürse Şii fıkhında hüküm nedir?",
-          "ur": "اگر غلام کسی آزاد شخص کو قتل کر دے تو شیعہ فقہ میں کیا حکم ہے؟",
-          "zh": "如果奴隶杀死自由人，什叶派教法中的判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে দাস কোনো স্বাধীন ব্যক্তিকে হত্যা করলে কিসাস সম্পর্কিত একটি শরয়ি বিধান বর্ণনা করা হয়েছে। এতে বলা হয়েছে, দাসকে নিহত ব্যক্তির উত্তরাধিকারীদের কাছে সোপর্দ করা হয়, এবং তারা হত্যা বা দাস বানানোর মধ্যে যেকোনো একটি বেছে নিতে পারে।",
-          "de": "Dieser Hadith nennt eine rechtliche Regelung zur Vergeltung, wenn ein Sklave einen freien Menschen tötet. Er erklärt, dass der Sklave den Erben des Opfers übergeben wird, die zwischen Hinrichtung und Versklavung wählen können.",
-          "en": "This hadith states a legal ruling concerning retaliation when a slave kills a free person. It explains that the slave is delivered to the heirs of the victim, who may choose either execution or enslavement.",
-          "es": "Este hadiz establece una norma jurídica sobre la represalia cuando un esclavo mata a una persona libre. Explica que el esclavo es entregado a los herederos de la víctima, quienes pueden elegir entre ejecutarlo o esclavizarlo.",
-          "fa": "این حدیث حکمی فقهی درباره قصاص در صورتی را بیان می‌کند که برده‌ای شخص آزادی را بکشد. توضیح می‌دهد که برده به وارثانِ مقتول سپرده می‌شود و آنان می‌توانند میان کشتن یا به بردگی گرفتن او یکی را انتخاب کنند.",
-          "fr": "Ce hadith énonce une règle juridique concernant la représaille lorsqu’un esclave tue une personne libre. Il explique que l’esclave est remis aux héritiers de la victime, qui peuvent choisir soit de l’exécuter, soit de l’asservir.",
-          "id": "Hadis ini menyatakan sebuah hukum syar‘i tentang qisas ketika seorang budak membunuh orang merdeka. Dijelaskan bahwa budak itu diserahkan kepada ahli waris korban, yang dapat memilih antara mengeksekusi atau memperbudaknya.",
-          "ru": "Этот хадис устанавливает правовое постановление о возмездии, когда раб убивает свободного человека. В нем говорится, что раба передают наследникам убитого, и они могут выбрать либо казнь, либо обращение в рабство.",
-          "tr": "Bu hadis, bir köle bir hür kişiyi öldürdüğünde kısasla ilgili bir fıkhî hükmü بیان eder. Kölenin, maktulün varislerine teslim edildiğini ve onların öldürme ya da köleleştirme arasında seçim yapabileceğini açıklar.",
-          "ur": "یہ حدیث قصاص کے بارے میں ایک شرعی حکم بیان کرتی ہے جب کوئی غلام کسی آزاد شخص کو قتل کر دے۔ اس میں بتایا گیا ہے کہ غلام کو مقتول کے ورثاء کے حوالے کیا جاتا ہے، اور وہ قتل یا غلام بنانے میں سے کسی ایک کا انتخاب کر سکتے ہیں۔",
-          "zh": "这段圣训说明了一项关于报复的教法判决：当奴隶杀死自由人时，应将其交给被害者的继承人，他们可以选择处死他，或者使他为奴。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

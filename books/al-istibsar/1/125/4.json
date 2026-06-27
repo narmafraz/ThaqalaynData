@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ مُحَمَّدِ بْنِ أَبِي حَمْزَةَ عَنِ ابْنِ مُسْكَانَ عَنْ مَالِكٍ الْجُهَنِيِّ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, মুহাম্মদ ইবন আবি হামযা থেকে, ইবন মুসকান থেকে, মালিক আল-জুহানি থেকে, তিনি বলেছেন:",
-              "de": "Von ihm, von Muhammad ibn Abi Hamzah, von Ibn Muskan, von Malik al-Juhani, der sagte:",
-              "en": "From him, from Muḥammad ibn Abī Ḥamzah, from Ibn Muskān, from Mālik al-Juhanī, who said:",
-              "es": "De él, de Muhammad ibn Abi Hamzah, de Ibn Muskan, de Malik al-Juhani, quien dijo:",
-              "fa": "از او، از محمد بن ابی حمزه، از ابن مسکان، از مالک الجهنی، که گفت:",
-              "fr": "De lui, de Muhammad ibn Abi Hamzah, de Ibn Muskan, de Malik al-Juhani, qui a dit :",
-              "id": "Dari beliau, dari Muhammad ibn Abi Hamzah, dari Ibn Muskan, dari Malik al-Juhani, ia berkata:",
-              "ru": "От него, от Мухаммада ибн Аби Хамзы, от Ибн Мускана, от Малика аль-Джухани, который сказал:",
-              "tr": "Ondan, Muhammed ibn Ebî Hamza’dan, İbn Miskân’dan, Mâlik el-Cühenî’den, o da şöyle dedi:",
-              "ur": "ان سے، محمد بن ابی حمزہ سے، ابن مسکان سے، مالک الجہنی سے، انہوں نے کہا:",
-              "zh": "由他传述，来自穆罕默德·伊本·阿比·哈姆扎，来自伊本·穆斯坎，来自马立克·朱哈尼，他说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ عَنْ وَقْتِ الظُّهْرِ، فَقَالَ: إِذَا زَالَتِ الشَّمْسُ فَقَدْ دَخَلَ وَقْتُ الصَّلَاتَيْنِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবা আবদুল্লাহ عليه السلام-কে যোহরের সময় সম্পর্কে জিজ্ঞেস করলাম, তখন তিনি বললেন: যখন সূর্য ঢলে পড়ে, তখন দুই সালাতের সময় প্রবেশ করে।",
-              "de": "Ich fragte Abā ʿAbdillāh عليه السلام nach der Zeit des ẓuhr, da sagte er: Wenn die Sonne sich neigt, dann ist die Zeit der beiden Gebete eingetreten.",
-              "en": "I asked Abā ʿAbdillāh عليه السلام about the time of ẓuhr, so he said: When the sun declines, then the time of the two prayers has entered.",
-              "es": "Le pregunté a Abā ʿAbdillāh عليه السلام acerca del tiempo del ẓuhr, y dijo: Cuando el sol declina, entonces ha entrado el tiempo de las dos oraciones.",
-              "fa": "از ابا عبدالله علیه السلام درباره وقت ظهر پرسیدم، پس فرمود: هنگامی که خورشید زوال می‌کند، وقت هر دو نماز داخل شده است.",
-              "fr": "J’ai interrogé Abā ʿAbdillāh عليه السلام au sujet du temps du ẓuhr, et il a dit : Lorsque le soleil décline, alors le temps des deux prières est entré.",
-              "id": "Aku bertanya kepada Abā ʿAbdillāh عليه السلام tentang waktu zuhur, lalu beliau bersabda: Ketika matahari tergelincir, maka waktu kedua salat telah masuk.",
-              "ru": "Я спросил Абу ʿАбдуллаха عليه السلام о времени зухра, и он сказал: Когда солнце склоняется, тогда наступает время двух молитв.",
-              "tr": "Ebâ Abdillâh عليه السلام’a öğle vaktini sordum; buyurdu ki: Güneş zevale erdiğinde iki namazın vakti girmiş olur.",
-              "ur": "میں نے ابا عبد اللہ علیہ السلام سے ظہر کے وقت کے بارے میں پوچھا، تو انہوں نے فرمایا: جب سورج ڈھل جاتا ہے تو دونوں نمازوں کا وقت داخل ہو جاتا ہے۔",
-              "zh": "我向阿巴·阿卜杜拉 عليه السلام询问晌礼的时间，他说：当太阳偏斜时，两番礼拜的时间就已经进入了。"
-            },
             "word_end": 30,
             "word_start": 13
           }
@@ -84,25 +71,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الشَّمْسُ": "the sun, whose movement marks the prayer time",
-            "الصَّلَاتَيْنِ": "the two prayers, meaning ẓuhr and ʿaṣr",
-            "الظُّهْرِ": "the noon prayer",
-            "زَالَتِ": "declined from the zenith",
-            "وَقْتِ": "the appointed legal time of an act of worship"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "وَقْتِ",
+          "الظُّهْرِ",
+          "زَالَتِ",
+          "الشَّمْسُ",
+          "الصَّلَاتَيْنِ"
+        ],
         "related_quran": [
           {
             "ref": "17:78",
@@ -117,32 +92,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام-এর মতে যোহর ও আসরের সময় কখন শুরু হয়?",
-          "de": "Wann beginnt die Zeit von ẓuhr und ʿaṣr nach Imam al-Ṣādiq عليه السلام?",
-          "en": "When does the time of ẓuhr and ʿaṣr begin according to Imam al-Ṣādiq عليه السلام?",
-          "es": "¿Cuándo comienza el tiempo del ẓuhr y del ʿaṣr según el Imam al-Ṣādiq عليه السلام?",
-          "fa": "طبق فرمایش امام صادق علیه السلام، وقت ظهر و عصر چه زمانی آغاز می‌شود؟",
-          "fr": "Quand commence le temps du ẓuhr et du ʿaṣr selon l’imam al-Ṣādiq عليه السلام ?",
-          "id": "Kapan waktu zuhur dan ʿaṣr dimulai menurut Imam al-Ṣādiq عليه السلام?",
-          "ru": "Когда, согласно имаму ас-Садику عليه السلام, начинается время зухра и ʿасра?",
-          "tr": "İmam es-Sâdık عليه السلام’a göre ẓuhr ve ʿaṣr vakti ne zaman başlar?",
-          "ur": "امام الصادق علیہ السلام کے مطابق ظہر اور عصر کا وقت کب شروع ہوتا ہے؟",
-          "zh": "根据伊玛目萨迪格 عليه السلام，晌礼和晡礼的时间何时开始？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে যোহর সালাতের শরয়ি শুরুর সময় বর্ণিত হয়েছে। ইমাম আল-সাদিক عليه السلام ব্যাখ্যা করেন যে সূর্য যখন মধ্যাকাশ অতিক্রম করে, তখন যোহর ও আসর—উভয় সালাতের সময় শুরু হয়, যা সালাতের সময় ও তাদের যৌথ সময় সম্পর্কে আলোচনায় গুরুত্বপূর্ণ।",
-          "de": "Dieser Hadith legt den rechtlichen Beginn der Zeit des ẓuhr fest. Imam al-Ṣādiq عليه السلام erklärt, dass, wenn die Sonne ihren Zenit überschreitet, die Zeit für ẓuhr und ʿaṣr beginnt; dies ist bedeutsam in den Diskussionen über die Gebetszeiten und ihren gemeinsamen Zeitraum.",
-          "en": "This hadith states the legal beginning of the time of ẓuhr prayer. Imam al-Ṣādiq عليه السلام explains that when the sun passes its zenith, the time for both ẓuhr and ʿaṣr begins, which is significant in discussions of prayer times and their shared period.",
-          "es": "Este hadiz establece el inicio legal del tiempo del ẓuhr. El Imam al-Ṣādiq عليه السلام explica que cuando el sol pasa su cenit, comienza el tiempo de ambas oraciones, el ẓuhr y el ʿaṣr, lo cual es significativo en las discusiones sobre los tiempos de la oración y su período compartido.",
-          "fa": "این حدیث آغاز شرعی وقت نماز ظهر را بیان می‌کند. امام صادق علیه السلام توضیح می‌دهند که هنگامی که خورشید از نقطه زوال می‌گذرد، وقت ظهر و عصر هر دو آغاز می‌شود، و این در بحث‌های مربوط به اوقات نماز و زمان مشترک آن‌ها اهمیت دارد.",
-          "fr": "Ce hadith établit le début légal du temps du ẓuhr. L’imam al-Ṣādiq عليه السلام explique que lorsque le soleil passe son zénith, le temps des deux prières, le ẓuhr et le ʿaṣr, commence, ce qui est important dans les discussions sur les temps de prière et leur période commune.",
-          "id": "Hadis ini menjelaskan awal hukum waktu salat zuhur. Imam al-Ṣādiq عليه السلام menerangkan bahwa ketika matahari telah melewati titik puncaknya, waktu zuhur dan ʿaṣr sama-sama dimulai, dan hal ini penting dalam pembahasan waktu salat serta waktu bersama keduanya.",
-          "ru": "Этот хадис устанавливает шариатское начало времени зухра. Имам ас-Садик عليه السلام разъясняет, что когда солнце проходит свой зенит, начинается время обоих молитв — зухра и ʿасра, что важно в обсуждениях времен молитвы и их общего периода.",
-          "tr": "Bu hadis, ẓuhr namazının şer‘î başlangıç vaktini بیان eder. İmam es-Sâdık عليه السلام, güneşin zirvesini geçip zevale yöneldiğinde ẓuhr ve ʿaṣr vakitlerinin birlikte başladığını açıklar; bu, namaz vakitleri ve ortak vakitleri hakkındaki tartışmalarda önemlidir.",
-          "ur": "یہ حدیث ظہر کی نماز کے شرعی آغاز کو بیان کرتی ہے۔ امام الصادق علیہ السلام وضاحت فرماتے ہیں کہ جب سورج اپنے نقطۂ زوال سے گزر جاتا ہے تو ظہر اور عصر دونوں کا وقت شروع ہو جاتا ہے، اور یہ نماز کے اوقات اور ان کے مشترک وقت کے مباحث میں اہم ہے۔",
-          "zh": "这段圣训说明了晌礼时间的教法起始。伊玛目萨迪格 عليه السلام解释说，当太阳越过中天时，晌礼和晡礼两番礼拜的时间都已经开始，这在关于礼拜时间及其共同时段的讨论中很重要。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

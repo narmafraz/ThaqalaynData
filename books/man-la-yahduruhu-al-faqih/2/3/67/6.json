@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسُئِلَ: عَنْ رَجُلٍ لَا يَدْرِي ثَلَاثَةً طَافَ أَوْ أَرْبَعَةً قَالَ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তাকে এমন একজন ব্যক্তির সম্পর্কে জিজ্ঞাসা করা হয়েছিল যে জানে না সে তিনটি তাওয়াফ করেছে নাকি চারটি। তিনি বললেন:",
-              "de": "Und er wurde gefragt über einen Mann, der nicht weiß, ob er drei oder vier Umrundungen gemacht hat. Er sagte:",
-              "en": "And he was asked about a man who does not know whether he performed three circuits or four. He said:",
-              "es": "Y se le preguntó acerca de un hombre que no sabe si realizó tres o cuatro vueltas. Él dijo:",
-              "fa": "و از او درباره مردی پرسیده شد که نمی‌داند سه طواف کرده یا چهار. او گفت:",
-              "fr": "Et on lui a demandé au sujet d’un homme qui ne sait pas s’il a fait trois ou quatre tours. Il a dit :",
-              "id": "Dan dia ditanya tentang seorang pria yang tidak tahu apakah dia melakukan tiga putaran atau empat. Dia berkata:",
-              "ru": "Его спросили о человеке, который не знает, совершил ли он три или четыре обхода. Он сказал:",
-              "tr": "Ve kendisine, üç tavaf mı yoksa dört tavaf mı yaptığını bilmeyen bir adam hakkında soruldu. O dedi ki:",
-              "ur": "اور اس سے ایک ایسے شخص کے بارے میں پوچھا گیا جو نہیں جانتا کہ اس نے تین طواف کیے یا چار۔ اس نے کہا:",
-              "zh": "有人问他关于一个人不知道他绕行了三圈还是四圈。他说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "«طَوَافُ نَافِلَةٍ أَوْ فَرِيضَةٍ» قَالَ أَجِبْنِي فِيهِمَا جَمِيعًا قَالَ «إِنْ كَانَ طَوَافَ نَافِلَةٍ فَابْنِ عَلَى مَا شِئْتَ وَإِنْ كَانَ طَوَافَ فَرِيضَةٍ فَأَعِدِ الطَّوَافَ فَإِنْ طُفْتَ بِالْبَيْتِ طَوَافَ الْفَرِيضَةِ وَلَمْ تَدْرِ سِتَّةً طُفْتَ أَوْ سَبْعَةً فَأَعِدْ طَوَافَكَ فَإِنْ خَرَجْتَ وَفَاتَكَ ذَلِكَ فَلَيْسَ عَلَيْكَ شَيْءٌ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“এটি কি নফল তাওয়াফ ছিল নাকি ফরজ?” তিনি বললেন: “দু’টিরই সম্পর্কে আমাকে উত্তর দাও।” তিনি বললেন: “যদি এটি নফল তাওয়াফ হয়, তবে যা ইচ্ছা তাতে নির্ধারণ করো। আর যদি এটি ফরজ তাওয়াফ হয়, তবে তাওয়াফ পুনরায় করো। যদি তুমি ঘরকে ফরজ তাওয়াফে ঘুরে থাকো এবং জানো না তুমি ছয়টি করেছ নাকি সাতটি, তবে তোমার তাওয়াফ পুনরায় করো। কিন্তু যদি তুমি বেরিয়ে গিয়ে সময় চলে যায়, তবে তোমার ওপর কিছু নেই।”",
-              "de": "„War es ein freiwilliger Tawaf oder ein verpflichtender?“ Er sagte: „Antworte mir zu beiden zusammen.“ Er sagte: „Wenn es ein freiwilliger Tawaf ist, dann baue darauf, was du willst. Und wenn es ein verpflichtender Tawaf ist, dann wiederhole den Tawaf. Wenn du das Haus im verpflichtenden Tawaf umrundet hast und nicht weißt, ob du sechs oder sieben gemacht hast, dann wiederhole deinen Tawaf. Aber wenn du gegangen bist und die Zeit vorbei ist, dann lastet nichts auf dir.“",
-              "en": "\"Was it a voluntary tawaf or an obligatory one?\" He said: \"Answer me regarding both of them together.\" He said: \"If it is a voluntary tawaf, then build upon whatever you wish. And if it is an obligatory tawaf, then repeat the tawaf. So if you circled the House in the obligatory tawaf and did not know whether you performed six or seven, then repeat your tawaf. But if you left and that passed you by, then there is nothing upon you.\"",
-              "es": "“¿Fue un tawaf voluntario o uno obligatorio?” Él dijo: “Respóndeme sobre ambos juntos.” Él dijo: “Si es un tawaf voluntario, entonces considera lo que desees. Y si es un tawaf obligatorio, repite el tawaf. Si rodeaste la Casa en el tawaf obligatorio y no sabes si hiciste seis o siete vueltas, entonces repite tu tawaf. Pero si te fuiste y esa oportunidad pasó, entonces no tienes nada que hacer.”",
-              "fa": "«آیا طواف نافله بود یا فرض؟» گفت: «در هر دو مورد به من پاسخ بده.» گفت: «اگر طواف نافله است، بر هر چه خواستی بنا کن. و اگر طواف فرض است، طواف را تکرار کن. اگر طواف فرض را در اطراف خانه انجام دادی و نمی‌دانی شش یا هفت بار طواف کردی، طواف خود را تکرار کن. اما اگر رفتی و آن فرصت گذشت، بر تو چیزی نیست.»",
-              "fr": "«Était-ce un tawaf volontaire ou obligatoire ?» Il dit : «Réponds-moi pour les deux ensemble.» Il dit : «Si c’est un tawaf volontaire, alors considère ce que tu veux. Et si c’est un tawaf obligatoire, alors répète le tawaf. Si tu as fait le tawaf obligatoire autour de la Maison et que tu ne sais pas si tu as fait six ou sept tours, alors répète ton tawaf. Mais si tu es parti et que ce temps est passé, alors il n’y a rien sur toi.»",
-              "id": "“Apakah itu tawaf sunnah atau wajib?” Dia berkata: “Jawablah saya mengenai keduanya sekaligus.” Dia berkata: “Jika itu tawaf sunnah, maka bangunlah atas apa yang kamu kehendaki. Dan jika itu tawaf wajib, maka ulangi tawaf tersebut. Jika kamu mengelilingi Rumah dalam tawaf wajib dan tidak tahu apakah kamu melakukan enam atau tujuh putaran, maka ulangi tawafmu. Tetapi jika kamu sudah pergi dan kesempatan itu telah berlalu, maka tidak ada kewajiban atasmu.”",
-              "ru": "«Это был добровольный таваф или обязательный?» Он сказал: «Ответь мне по обоим сразу.» Он сказал: «Если это добровольный таваф, то считай, как хочешь. Если это обязательный таваф, повтори таваф. Если ты обошёл Каабу в обязательном тавафе и не знаешь, сделал ли шесть или семь кругов, повтори свой таваф. Но если ты ушёл и время прошло, то с тебя ничего не требуется.»",
-              "tr": "“Bu gönüllü bir tavaf mı yoksa farz bir tavaf mı?” dedi. O da: “İkisi hakkında da bana cevap ver.” dedi. “Eğer gönüllü bir tavaf ise, istediğin gibi hüküm ver. Eğer farz bir tavaf ise, tavafı tekrar et. Eğer Kâbe etrafında farz tavaf yaptıysan ve altı mı yedi mi yaptığını bilmiyorsan, tavafını tekrar et. Ama çıktıysan ve o fırsat geçtiyse, üzerine bir şey yoktur.”",
-              "ur": "‘‘کیا یہ نفل طواف تھا یا فرض؟’’ اس نے کہا: ‘‘دونوں کے بارے میں مجھے جواب دو۔’’ اس نے کہا: ‘‘اگر یہ نفل طواف ہے تو جو چاہو اس پر قیاس کر لو۔ اور اگر فرض طواف ہے تو طواف دوبارہ کرو۔ اگر تم نے بیت اللہ کا فرض طواف کیا اور نہیں جانتے کہ تم نے چھ یا سات چکر لگائے، تو اپنا طواف دوبارہ کرو۔ لیکن اگر تم نکل گئے اور وہ وقت گزر گیا تو تم پر کوئی گناہ نہیں۔’’",
-              "zh": "“这是自愿的绕行还是义务的？”他说：“请同时回答我这两种情况。”他说：“如果是自愿绕行，那么你可以按你愿意的方式计算。如果是义务绕行，那么请重新绕行。如果你在义务绕行中绕行了圣殿，但不知道是六圈还是七圈，那么请重新绕行。但如果你已经离开且机会已过，则你无需承担任何责任。”"
-            },
             "word_end": 53,
             "word_start": 10
           }
@@ -84,27 +71,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بِالْبَيْتِ": "the Ka'bah, around which tawaf is performed",
-            "سَبْعَةً": "seven circuits, the complete number for tawaf",
-            "سِتَّةً": "six circuits",
-            "طَوَافُ نَافِلَةٍ": "a voluntary tawaf that is not obligatory",
-            "فَأَعِدِ الطَّوَافَ": "repeat the tawaf from the beginning",
-            "فَابْنِ عَلَى مَا شِئْتَ": "proceed on whichever count you choose in this context of voluntary tawaf",
-            "فَرِيضَةٍ": "an obligatory religious duty"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "طَوَافُ نَافِلَةٍ",
+          "فَرِيضَةٍ",
+          "فَابْنِ عَلَى مَا شِئْتَ",
+          "فَأَعِدِ الطَّوَافَ",
+          "بِالْبَيْتِ",
+          "سِتَّةً",
+          "سَبْعَةً"
+        ],
         "related_quran": [
           {
             "ref": "2:158",
@@ -115,32 +90,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কেউ ফরজ বা নফল তাওয়াফের সময় চক্রের সংখ্যা নিয়ে সন্দেহ করে তবে তাকে কী করা উচিত?",
-          "de": "Was soll eine Person tun, wenn sie während des verpflichtenden oder freiwilligen Tawaf Zweifel an der Anzahl der Umrundungen hat?",
-          "en": "What should a person do if he doubts the number of circuits during obligatory or voluntary tawaf?",
-          "es": "¿Qué debe hacer una persona si duda sobre el número de vueltas durante el tawaf obligatorio o voluntario?",
-          "fa": "اگر کسی شخص در هنگام طواف واجب یا نافله درباره تعداد طواف‌ها شک کند، چه باید بکند؟",
-          "fr": "Que doit faire une personne si elle doute du nombre de tours lors d’un tawaf obligatoire ou volontaire ?",
-          "id": "Apa yang harus dilakukan seseorang jika dia ragu tentang jumlah putaran selama tawaf wajib atau sunnah?",
-          "ru": "Что должен делать человек, если он сомневается в количестве кругов во время обязательного или добровольного тавафа?",
-          "tr": "Bir kişi farz veya gönüllü tavaf sırasında çember sayısından şüphe ederse ne yapmalıdır?",
-          "ur": "اگر کوئی شخص فرض یا نفل طواف کے دوران چکروں کی تعداد کے بارے میں شک کرے تو اسے کیا کرنا چاہیے؟",
-          "zh": "如果一个人在义务或自愿绕行时怀疑绕行圈数，他应该怎么办？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস তাওয়াফের সময় সন্দেহের ক্ষেত্রে শারীয়াহর বিধান দেয়। নফল তাওয়াফে চক্রের সংখ্যার সন্দেহকে সহজভাবে দেখা হয়, কিন্তু ফরজ তাওয়াফে এমন সন্দেহ থাকলে তাওয়াফ পুনরায় করা প্রয়োজন; তবে যদি ব্যক্তি চলে গিয়ে সুযোগ চলে যায়, তবে তার ওপর কিছু নেই।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bei Unsicherheit während des Tawaf. Bei einem freiwilligen Tawaf wird Zweifel an der Anzahl der Umrundungen nachsichtig behandelt, bei einem verpflichtenden Tawaf erfordert solcher Zweifel eine Wiederholung; wenn die Person jedoch bereits gegangen ist und die Gelegenheit vorbei ist, ist nichts weiter erforderlich.",
-          "en": "This hadith gives a legal ruling on uncertainty during tawaf. In a voluntary tawaf, doubt about the number of circuits is treated with leniency, but in an obligatory tawaf such doubt requires repetition; however, if the person has already left and the opportunity has passed, nothing further is required.",
-          "es": "Este hadiz da una regla legal sobre la incertidumbre durante el tawaf. En un tawaf voluntario, la duda sobre el número de vueltas se trata con indulgencia, pero en un tawaf obligatorio dicha duda requiere repetición; sin embargo, si la persona ya se ha ido y la oportunidad ha pasado, no se requiere nada más.",
-          "fa": "این حدیث حکم شرعی در مورد شک در هنگام طواف را بیان می‌کند. در طواف نافله، شک درباره تعداد طواف‌ها با آسان‌گیری برخورد می‌شود، اما در طواف فرض چنین شکی نیاز به تکرار طواف دارد؛ با این حال اگر شخص رفته باشد و فرصت گذشته باشد، بر او چیزی نیست.",
-          "fr": "Ce hadith donne une règle juridique concernant l’incertitude lors du tawaf. Dans un tawaf volontaire, le doute sur le nombre de tours est traité avec indulgence, mais dans un tawaf obligatoire, ce doute nécessite une répétition ; cependant, si la personne est déjà partie et que l’occasion est passée, rien n’est requis.",
-          "id": "Hadis ini memberikan ketentuan hukum tentang keraguan selama tawaf. Dalam tawaf sunnah, keraguan tentang jumlah putaran diperlakukan dengan kelonggaran, tetapi dalam tawaf wajib keraguan tersebut mengharuskan pengulangan; namun jika orang tersebut sudah pergi dan kesempatan telah berlalu, tidak ada kewajiban lagi.",
-          "ru": "Этот хадис даёт правовое постановление по поводу неопределённости во время тавафа. В добровольном тавафе сомнение в количестве кругов рассматривается с снисхождением, но в обязательном тавафе такое сомнение требует повторения; однако если человек уже ушёл и возможность прошла, ничего дополнительно делать не нужно.",
-          "tr": "Bu hadis, tavaf sırasında şüphe halinde hukuki hükmü verir. Gönüllü tavafta, çember sayısı konusundaki şüphe hoşgörüyle karşılanır, ancak farz tavafta böyle bir şüphe tekrar tavaf yapılmasını gerektirir; ancak kişi ayrılmış ve fırsat geçmişse, üzerine bir şey yoktur.",
-          "ur": "یہ حدیث طواف کے دوران شک کی صورت میں شرعی حکم بیان کرتی ہے۔ نفل طواف میں چکروں کی تعداد کے بارے میں شک کو آسانی سے دیکھا جاتا ہے، لیکن فرض طواف میں ایسی شک کی صورت میں طواف دوبارہ کرنا ضروری ہے؛ تاہم اگر شخص جا چکا ہو اور موقع گزر چکا ہو تو اس پر کوئی ذمہ داری نہیں۔",
-          "zh": "这段圣训对绕行时的不确定性给出了法律裁决。在自愿绕行中，对绕行圈数的怀疑可以宽容对待，但在义务绕行中，这种怀疑需要重新绕行；然而，如果人已经离开且机会已过，则无需再做任何事。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

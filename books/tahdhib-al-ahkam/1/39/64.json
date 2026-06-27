@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنْ مُحَمَّدِ بْنِ سِنَانٍ عَنْ أَبِي خَالِدٍ عَنْ أَبِي حَمْزَةَ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন মুহাম্মদ, মুহাম্মদ ইবন সিনান থেকে, আবু খালিদ থেকে, আবু হামযা থেকে, আবু জাফর عليه السلام থেকে বর্ণিত, তিনি বলেছেন:",
-              "de": "Aḥmad ibn Muḥammad, von Muḥammad ibn Sinān, von Abū Khālid, von Abū Ḥamzah, von Abū Jaʿfar عليه السلام, der sagte:",
-              "en": "Aḥmad ibn Muḥammad, from Muḥammad ibn Sinān, from Abū Khālid, from Abū Ḥamzah, from Abū Jaʿfar عليه السلام, who said:",
-              "es": "Aḥmad ibn Muḥammad, de Muḥammad ibn Sinān, de Abū Khālid, de Abū Ḥamzah, de Abū Jaʿfar عليه السلام, quien dijo:",
-              "fa": "احمد بن محمد، از محمد بن سنان، از ابوخالد، از ابوحمزه، از ابوجعفر علیه السلام، که فرمود:",
-              "fr": "Aḥmad ibn Muḥammad, d’après Muḥammad ibn Sinān, d’après Abū Khālid, d’après Abū Ḥamzah, d’après Abū Jaʿfar عليه السلام, qui a dit :",
-              "id": "Aḥmad ibn Muḥammad, dari Muḥammad ibn Sinān, dari Abū Khālid, dari Abū Ḥamzah, dari Abū Jaʿfar عليه السلام, yang berkata:",
-              "ru": "Ахмад ибн Мухаммад, от Мухаммада ибн Синана, от Абу Халида, от Абу Хамзы, от Абу Джафара عليه السلام, который сказал:",
-              "tr": "Ahmed ibn Muhammed, Muhammed ibn Sinan’dan, Ebu Halid’den, Ebu Hamza’dan, Ebu Cafer’den عليه السلام rivayet etti ki şöyle dedi:",
-              "ur": "احمد بن محمد، محمد بن سنان سے، ابو خالد سے، ابو حمزہ سے، ابو جعفر علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "AḥmadibnMuḥammad，传自MuḥammadibnSinān，传自AbūKhālid，传自AbūḤamzah，传自AbūJaʿfar عليه السلام，他说："
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "«لَا يُغَسِّلُ الرَّجُلُ الْمَرْأَةَ إِلَّا أَنْ لَا تُوجَدَ امْرَأَةٌ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“কোনো পুরুষ কোনো নারীকে গোসল করাবে না, তবে যদি কোনো নারী না পাওয়া যায়।”",
-              "de": "„Ein Mann soll eine Frau nicht waschen, es sei denn, es wird keine Frau gefunden.“",
-              "en": "“A man should not wash a woman, unless no woman is found.”",
-              "es": "“Un hombre no debe lavar a una mujer, salvo que no se encuentre ninguna mujer.”",
-              "fa": "«مرد نباید زن را غسل دهد، مگر آن‌که زنی یافت نشود.»",
-              "fr": "« Un homme ne doit pas laver une femme, sauf si aucune femme n’est trouvée. »",
-              "id": "“Seorang laki-laki tidak boleh memandikan seorang perempuan, kecuali jika tidak ditemukan perempuan.”",
-              "ru": "«Мужчина не должен омывать женщину, если только не найдётся ни одной женщины.»",
-              "tr": "“Bir erkek, bir kadın bulunmadıkça bir kadını yıkamamalıdır.”",
-              "ur": "“مرد عورت کو غسل نہ دے، مگر یہ کہ کوئی عورت نہ ملے۔”",
-              "zh": "“男人不应为女人清洗，除非找不到女人。”"
-            },
             "word_end": 28,
             "word_start": 19
           }
@@ -114,25 +101,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِلَّا": "except; indicating an exception to the rule",
-            "الرَّجُلُ": "the man; the male person addressed in the ruling",
-            "الْمَرْأَةَ": "the woman; the female deceased being washed",
-            "تُوجَدَ": "is found or available",
-            "يُغَسِّلُ": "performs the ritual washing of the deceased"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُغَسِّلُ",
+          "الرَّجُلُ",
+          "الْمَرْأَةَ",
+          "إِلَّا",
+          "تُوجَدَ"
+        ],
         "related_quran": [
           {
             "ref": "5:3",
@@ -143,32 +118,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কোনো নারী না থাকে, তবে কি একজন পুরুষ মৃত নারীর গোসল করাতে পারে?",
-          "de": "Kann ein Mann die rituelle Waschung einer verstorbenen Frau durchführen, wenn keine Frau verfügbar ist?",
-          "en": "Can a man perform the ritual washing of a deceased woman if no woman is available?",
-          "es": "¿Puede un hombre realizar el lavado ritual de una mujer fallecida si no hay ninguna mujer disponible?",
-          "fa": "آیا اگر زنی در دسترس نباشد، مرد می‌تواند غسلِ زنِ متوفی را انجام دهد؟",
-          "fr": "Un homme peut-il effectuer la toilette rituelle d’une femme décédée s’il n’y a aucune femme disponible ?",
-          "id": "Apakah seorang laki-laki boleh memandikan jenazah perempuan jika tidak ada perempuan yang tersedia?",
-          "ru": "Может ли мужчина совершить ритуальное омовение умершей женщины, если нет ни одной женщины?",
-          "tr": "Bir kadın bulunmazsa bir erkek vefat etmiş bir kadının غسلünü yapabilir mi?",
-          "ur": "کیا اگر کوئی عورت موجود نہ ہو تو مرد فوت شدہ عورت کا غسل کر سکتا ہے؟",
-          "zh": "如果没有女人可用，男人可以为已故妇女进行礼仪清洗吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে একজন মৃত নারীর গোসল করানোর বিষয়ে একটি শরয়ি বিধান উল্লেখ করা হয়েছে। এতে বলা হয়েছে, কোনো নারী না পাওয়া গেলে তবেই পুরুষ নারীকে গোসল করাবে না—অর্থাৎ প্রয়োজনের ভিত্তিতে একটি ব্যতিক্রম রয়েছে।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung über die Waschung einer verstorbenen Frau. Er besagt, dass ein Mann eine Frau nicht wäscht, außer wenn keine Frau verfügbar ist, was eine Ausnahme aus Notwendigkeit darstellt.",
-          "en": "This hadith gives a legal ruling concerning the washing of a deceased woman. It states that a man does not wash a woman except in the case where no woman is available, indicating an exception based on necessity.",
-          "es": "Este hadiz establece una norma jurídica sobre el lavado de una mujer fallecida. Señala que un hombre no lava a una mujer salvo cuando no hay ninguna mujer disponible, lo que indica una excepción basada en la necesidad.",
-          "fa": "این حدیث حکمی فقهی درباره غسل دادنِ زنِ متوفی بیان می‌کند. در آن آمده است که مرد زن را غسل نمی‌دهد مگر در صورتی که زنی در دسترس نباشد، و این نشان‌دهندهٔ استثنایی بر پایهٔ ضرورت است.",
-          "fr": "Ce hadith énonce une règle juridique concernant la toilette rituelle d’une femme décédée. Il indique qu’un homme ne lave pas une femme, sauf lorsqu’aucune femme n’est disponible, ce qui montre une exception fondée sur la nécessité.",
-          "id": "Hadis ini memberikan حكم hukum tentang memandikan seorang perempuan yang telah meninggal. Disebutkan bahwa seorang laki-laki tidak memandikan perempuan kecuali jika tidak ada perempuan yang tersedia, yang menunjukkan adanya pengecualian karena kebutuhan.",
-          "ru": "Этот хадис устанавливает правовое предписание относительно омовения умершей женщины. В нём говорится, что мужчина не омывает женщину, кроме случая, когда нет ни одной женщины, что указывает на исключение по необходимости.",
-          "tr": "Bu hadis, vefat etmiş bir kadının yıkanmasıyla ilgili fıkhî bir hüküm bildirir. Buna göre, bir kadın bulunmadığı durumda bir erkek kadını yıkamaz; bu da zaruret esasına dayanan bir istisnayı gösterir.",
-          "ur": "یہ حدیث ایک فوت شدہ عورت کے غسل کے بارے میں شرعی حکم بیان کرتی ہے۔ اس میں کہا گیا ہے کہ مرد عورت کو غسل نہیں دے گا، سوائے اس صورت کے جب کوئی عورت موجود نہ ہو، جو ضرورت کی بنیاد پر ایک استثناء کو ظاہر کرتا ہے۔",
-          "zh": "这段圣训给出了关于为已故妇女进行清洗的教法律例。它说明，男人不应为女人清洗，除非没有女人可用，这表明这是基于必要性的例外。"
-        },
         "tags": [
           "jurisprudence",
           "family",

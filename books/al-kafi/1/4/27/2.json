@@ -21,99 +21,47 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "الْحُسَيْنُ بْنُ مُحَمَّدٍ عَنْ مُعَلَّى بْنِ مُحَمَّدٍ رَفَعَهُ فِي قَوْلِ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন মুহাম্মাদ, মু‘আল্লা ইবন মুহাম্মাদ থেকে, তা মারফূ‘ভাবে বর্ণনা করে, এই উক্তি সম্পর্কে:",
-              "de": "Al-Husayn ibn Muhammad, von Muʿallā ibn Muhammad, es als marfūʿ überliefernd, über das Wort:",
-              "en": "Al-Ḥusayn ibn Muḥammad, from Muʿallā ibn Muḥammad, raising it, concerning the saying:",
-              "es": "Al-Husayn ibn Muhammad, de Muʿallā ibn Muhammad, elevándolo, acerca de la palabra:",
-              "fa": "الحسین بن محمد، از معلی بن محمد، به صورت مرفوع، دربارهٔ این سخن:",
-              "fr": "Al-Husayn ibn Muhammad, de Muʿallā ibn Muhammad, le rapportant de manière marfūʿ, au sujet de la parole :",
-              "id": "Al-Husayn ibn Muhammad, dari Muʿalla ibn Muhammad, secara marfuʿ, tentang firman:",
-              "ru": "Аль-Хусайн ибн Мухаммад, от Муʿаллы ибн Мухаммада, передавая это как марфуʿ, относительно слов:",
-              "tr": "el-Hüseyin ibn Muhammed, Muallâ ibn Muhammed’den, onu merfû olarak naklederek, şu söz hakkında:",
-              "ur": "الحسین بن محمد، معلیٰ بن محمد سے، اسے مرفوعاً نقل کرتے ہوئے، اس قول کے بارے میں:",
-              "zh": "Al-ḤusaynibnMuḥammad，传自MuʿallāibnMuḥammad，以marfūʿ的形式传述，关于这句话："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "اللَّهِ عَزَّ وَجَلَّ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আল্লাহ্‌, যিনি মহাপরাক্রমশালী ও মহিমান্বিত:",
-              "de": "von Allah, dem Mächtigen und Majestätischen:",
-              "en": "of Allah, Mighty and Majestic:",
-              "es": "de Allah, Poderoso y Majestuoso:",
-              "fa": "دربارهٔ خداوند عزّ و جلّ:",
-              "fr": "d’Allah, Puissant et Majestueux :",
-              "id": "tentang Allah, Yang Mahaperkasa lagi Mahagung:",
-              "ru": "об Аллахе, Могущественном и Величественном:",
-              "tr": "Allah’ın, Azîz ve Celîl olanın:",
-              "ur": "اللہ عز و جل کے بارے میں:",
-              "zh": "关于真主，尊严而伟大的："
-            },
             "word_end": 13,
             "word_start": 10
           },
           {
             "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "“তোমাদের প্রতিপালকের কোন কোন অনুগ্রহকে তোমরা উভয়ে অস্বীকার করবে?”",
-              "de": "„Welche der Wohltaten eures Herrn wollt ihr beide denn leugnen?“",
-              "en": "“Which then of the favors of your Lord will you two deny?”",
-              "es": "“¿Cuál de los favores de vuestro Señor negaréis entonces?”",
-              "fa": "«پس کدام‌یک از نعمت‌های پروردگارتان را انکار می‌کنید؟»",
-              "fr": "« Lequel donc des bienfaits de votre Seigneur nierez-vous ? »",
-              "id": "“Maka nikmat Tuhanmu yang manakah yang kamu berdua dustakan?”",
-              "ru": "«Какое же из благодеяний вашего Господа вы двое будете отрицать?»",
-              "tr": "“Rabbinizin hangi nimetlerini yalanlayacaksınız?”",
-              "ur": "“تم دونوں اپنے رب کی کون کون سی نعمتوں کو جھٹلاؤ گے؟”",
-              "zh": "“那么，你们二人将否认你们的主的哪一项恩典呢？”"
-            },
             "word_end": 17,
             "word_start": 13
           },
           {
             "arabic_text": "أَبِالنَّبِيِّ أَمْ بِالْوَصِيِّ تُكَذِّبَانِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“তোমরা কি নবী صلى الله عليه وآله وسلم-এর সঙ্গে, না কি ওসী عليه السلام-এর সঙ্গে অস্বীকার করছ?”",
-              "de": "„Ist es beim Propheten صلى الله عليه وآله وسلم oder beim Waṣī عليه السلام, dass ihr leugnet?“",
-              "en": "“Is it with the Prophet صلى الله عليه وآله وسلم or with the Waṣī عليه السلام that you two deny?”",
-              "es": "“¿Es con el Profeta صلى الله عليه وآله وسلم o con el Waṣī عليه السلام con quien negáis?”",
-              "fa": "«آیا این انکار دربارهٔ پیامبر صلى الله عليه وآله وسلم است یا دربارهٔ وصی عليه السلام؟»",
-              "fr": "« Est-ce avec le Prophète صلى الله عليه وآله وسلم ou avec le Waṣī عليه السلام que vous niez ? »",
-              "id": "“Apakah yang kalian berdua dustakan itu bersama Nabi صلى الله عليه وآله وسلم atau bersama Waṣī عليه السلام?”",
-              "ru": "«Это вы отрицаете относительно Пророка صلى الله عليه وآله وسلم или относительно Васи́й عليه السلام?»",
-              "tr": "“İnkâr ettiğiniz şey, Peygamber صلى الله عليه وآله وسلم ile mi, yoksa Vasî عليه السلام ile midir?”",
-              "ur": "“کیا یہ نبی صلى الله عليه وآله وسلم کے ساتھ ہے یا وصی عليه السلام کے ساتھ کہ تم دونوں انکار کرتے ہو؟”",
-              "zh": "“你们否认的是与先知 صلى الله عليه وآله وسلم有关，还是与瓦西ي عليه السلام有关？”"
-            },
             "word_end": 21,
             "word_start": 17
           },
           {
             "arabic_text": "نَزَلَتْ فِي الرَّحْمَنِ.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "এটি সূরা আর-রহমানে নাযিল হয়েছিল।",
-              "de": "Es wurde in Sura ar-Rahman offenbart.",
-              "en": "It was revealed in Sūrat al-Raḥmān.",
-              "es": "Fue revelado en la Sura al-Rahmán.",
-              "fa": "این در سورهٔ الرحمن نازل شد.",
-              "fr": "Cela a été révélé dans la sourate ar-Rahmân.",
-              "id": "Itu diturunkan dalam Surah ar-Rahman.",
-              "ru": "Это было ниспослано в суре ар-Рахман.",
-              "tr": "Bu, Sûre-i Rahmân'da indirilmiştir.",
-              "ur": "یہ سورۃ الرحمٰن میں نازل ہوئی تھی۔",
-              "zh": "它是在《至仁主章》中降示的。"
-            },
             "word_end": 24,
             "word_start": 21
           }
@@ -146,58 +94,20 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "آلَاءِ": "divine favors or blessings referred to in the verse",
-            "الرَّحْمَنِ": "Sūrat al-Raḥmān, the chapter in which this verse appears",
-            "النَّبِيِّ": "the Prophet صلى الله عليه وآله وسلم as one of the referents in this interpretation",
-            "الْوَصِيِّ": "the successor/executor, interpreted here as the divinely designated successor عليه السلام",
-            "تُكَذِّبَانِ": "you two deny or reject",
-            "رَبِّكُمَا": "your Lord, addressing two parties in the verse"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "آلَاءِ",
+          "رَبِّكُمَا",
+          "تُكَذِّبَانِ",
+          "النَّبِيِّ",
+          "الْوَصِيِّ",
+          "الرَّحْمَنِ"
+        ],
         "related_quran": [
           {
             "ref": "55:13",
             "relationship": "explicit"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে “فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ” নবী صلى الله عليه وآله وسلم ও ওসী عليه السلام সম্পর্কে কীভাবে ব্যাখ্যা করা হয়েছে?",
-          "de": "Wie wird „فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ“ in schiitischen Hadithen im Hinblick auf den Propheten صلى الله عليه وآله وسلم und den Waṣī عليه السلام ausgelegt?",
-          "en": "How is “فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ” interpreted in Shia hadith regarding the Prophet صلى الله عليه وآله وسلم and the Waṣī عليه السلام?",
-          "es": "¿Cómo se interpreta “فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ” en el hadiz chií respecto al Profeta صلى الله عليه وآله وسلم y al Waṣī عليه السلام?",
-          "fa": "«فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ» در حدیث شیعه دربارهٔ پیامبر صلى الله عليه وآله وسلم و وصی عليه السلام چگونه تفسیر شده است؟",
-          "fr": "Comment « فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ » est-il interprété dans le hadith chiite au sujet du Prophète صلى الله عليه وآله وسلم et du Waṣī عليه السلام ?",
-          "id": "Bagaimana “فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ” ditafsirkan dalam hadis Syiah terkait Nabi صلى الله عليه وآله وسلم dan Waṣī عليه السلام?",
-          "ru": "Как в шиитском хадисе толкуется «فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ» в отношении Пророка صلى الله عليه وآله وسلم и Васи́й عليه السلام?",
-          "tr": "Şii hadiste “فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ” Peygamber صلى الله عليه وآله وسلم ve Vasî عليه السلام hakkında nasıl yorumlanır?",
-          "ur": "شیعہ حدیث میں “فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ” کی تفسیر نبی صلى الله عليه وآله وسلم اور وصی عليه السلام کے بارے میں کیسے کی گئی ہے؟",
-          "zh": "在什叶派圣训中，“فَبِأَيِّآلَاءِرَبِّكُمَا تُكَذِّبَانِ”是如何结合先知 صلى الله عليه وآله وسلم和瓦西ي عليه السلام来解释的？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনাটি “তোমাদের প্রতিপালকের কোন কোন অনুগ্রহকে তোমরা উভয়ে অস্বীকার করবে?” আয়াতের একটি তাফসির উপস্থাপন করে, এবং এই ঐশী অনুগ্রহকে নবী صلى الله عليه وآله وسلم ও ওসী عليه السلام-এর সঙ্গে যুক্ত করে। এটি সূরা আর-রহমানে এই আয়াতকে ঐশীভাবে নিযুক্ত এই কর্তৃত্বগুলিকে অস্বীকার করার বিরুদ্ধে এক ভর্ৎসনা হিসেবে উপস্থাপন করে।",
-          "de": "Dieser Bericht bietet eine Tafsir des Verses „Welche der Wohltaten eures Herrn wollt ihr beide denn leugnen?“ und verbindet die göttliche Wohltat mit dem Propheten صلى الله عليه وآله وسلم und dem Waṣī عليه السلام. Er stellt den Vers in Sure ar-Raḥmān als Tadel für die Leugnung dieser göttlich eingesetzten Autoritäten dar.",
-          "en": "This report presents a tafsir of the verse “Which then of the favors of your Lord will you two deny?” by relating the divine favor to the Prophet صلى الله عليه وآله وسلم and the Waṣī عليه السلام. It frames the verse in Surah al-Raḥmān as a rebuke against denying these divinely appointed authorities.",
-          "es": "Este relato presenta una tafsir del versículo “¿Cuál de los favores de vuestro Señor negaréis entonces?” al relacionar el favor divino con el Profeta صلى الله عليه وآله وسلم y el Waṣī عليه السلام. Sitúa el versículo en la sura al-Raḥmān como una reprensión por negar a estas autoridades designadas divinamente.",
-          "fa": "این روایت تفسیری از آیهٔ «پس کدام‌یک از نعمت‌های پروردگارتان را انکار می‌کنید؟» ارائه می‌کند و این نعمت الهی را به پیامبر صلى الله عليه وآله وسلم و وصی عليه السلام پیوند می‌دهد. این آیه را در سورهٔ الرحمن به‌عنوان سرزنشی بر انکار این مقاماتِ منصوبِ الهی مطرح می‌کند.",
-          "fr": "Ce récit présente un tafsīr du verset « Lequel donc des bienfaits de votre Seigneur nierez-vous ? » en reliant le bienfait divin au Prophète صلى الله عليه وآله وسلم et au Waṣī عليه السلام. Il inscrit ce verset dans la sourate al-Raḥmān comme une réprimande contre le fait de nier ces autorités désignées par Dieu.",
-          "id": "Riwayat ini menyajikan tafsir atas ayat “Maka nikmat Tuhanmu yang manakah yang kamu berdua dustakan?” dengan mengaitkan nikmat ilahi itu kepada Nabi صلى الله عليه وآله وسلم dan Waṣī عليه السلام. Ia menempatkan ayat tersebut dalam Surah al-Raḥmān sebagai teguran atas pengingkaran terhadap otoritas yang ditetapkan secara ilahi ini.",
-          "ru": "Этот хадис представляет тафсир аята «Какое же из благодеяний вашего Господа вы двое будете отрицать?», связывая божественное благодеяние с Пророком صلى الله عليه وآله وسلم и Васи́й عليه السلام. Он помещает этот аят в суру ар-Рахман как упрёк за отрицание этих назначенных Богом властей.",
-          "tr": "Bu rivayet, “Rabbinizin hangi nimetlerini yalanlayacaksınız?” ayetinin bir tefsirini sunar ve ilahî nimeti Peygamber صلى الله عليه وآله وسلم ile Vasî عليه السلام’e bağlar. Ayeti, Sûre-i Rahmân’da bu ilahî olarak tayin edilmiş otoriteleri inkâr etmeye karşı bir azarlama olarak çerçeveler.",
-          "ur": "یہ روایت آیت “تم اپنے رب کی کون کون سی نعمتوں کو جھٹلاؤ گے؟” کی تفسیر پیش کرتی ہے، اور اس الٰہی نعمت کو نبی صلى الله عليه وآله وسلم اور وصی عليه السلام سے جوڑتی ہے۔ یہ سورۂ الرحمن میں اس آیت کو ان خدائی طور پر مقرر کردہ ہستیوں کے انکار پر سرزنش کے طور پر پیش کرتی ہے۔",
-          "zh": "这段传述对“那么，你们二人将否认你们的主的哪一项恩典呢？”作出了一种tafsir，将这一神圣恩典与先知 صلى الله عليه وآله وسلم和瓦西ي عليه السلام联系起来。它把这节经文置于《至仁主章》中，作为对否认这些受神任命的权威的责备。"
-        },
         "tags": [
           "quran_commentary",
           "theology",

@@ -13,6 +13,129 @@
       "up": "/books/al-kafi:6:6:84"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَنْهُ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبِي هَاشِمٍ عَنْ مُحَمَّدِ بْنِ عَلِيِّ بْنِ أَبِي حَمْزَةَ عَنْ أَبِي بَصِيرٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 22,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "أَكَلْنَا مَعَ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) فَأُتِينَا بِلَحْمِ جَزُورٍ فَظَنَنْتُ أَنَّهُ مِنْ بَيْتِهِ فَأَكَلْنَا ثُمَّ أُتِينَا بِعُسٍّ مِنْ لَبَنٍ فَشَرِبَ مِنْهُ ثُمَّ قَالَ لِي اشْرَبْ يَا أَبَا مُحَمَّدٍ فَذُقْتُهُ فَقُلْتُ جُعِلْتُ فِدَاكَ لَبَنٌ فَقَالَ إِنَّهَا الْفِطْرَةُ ثُمَّ أُتِينَا بِتَمْرٍ فَأَكَلْنَاهُ .",
+            "chunk_type": "body",
+            "word_end": 66,
+            "word_start": 22
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 11,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَنْهُ",
+              "name_en": "from him",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 67,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ عَلِيٍّ",
+              "name_en": "Muhammad ibn Ali",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 290,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ الرَّحْمَنِ بْنِ أَبِي هَاشِمٍ",
+              "name_en": "Abd al-Rahman ibn Abi Hashim",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4278,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ عَلِيِّ بْنِ أَبِي حَمْزَةَ",
+              "name_en": "Muhammad b. Ali b. Abi Hamza",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 14,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي بَصِيرٍ",
+              "name_en": "Abu Basir",
+              "position": 5,
+              "role": "companion"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "لَحْمِ جَزُورٍ",
+          "عُسٍّ",
+          "الْفِطْرَةُ",
+          "جُعِلْتُ فِدَاكَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "30:30",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "16:69",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "ethics"
+        ],
+        "topics": [
+          "halal_haram",
+          "etiquette",
+          "imams_biography"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف على المشهور    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (22/168)"
       ],
@@ -84,7 +207,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:6:84:9",

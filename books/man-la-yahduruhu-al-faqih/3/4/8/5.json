@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رُوِيَ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং এটি বর্ণিত হয়েছে:",
-              "de": "Und es wird überliefert:",
-              "en": "And it is narrated:",
-              "es": "Y se narra:",
-              "fa": "و روایت شده است:",
-              "fr": "Et il est rapporté :",
-              "id": "Dan diriwayatkan:",
-              "ru": "И передаётся:",
-              "tr": "Ve rivayet edilmiştir ki:",
-              "ur": "اور یہ روایت کیا گیا ہے:",
-              "zh": "据传："
-            },
             "word_end": 2,
             "word_start": 0
           },
           {
             "arabic_text": "أَنَّ أَدْنَاهُ الْخِمَارُ وَ شِبْهُهُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে এর ন্যূনতম একটি খিমার (মাথার স্কার্ফ) বা তার অনুরূপ কিছু।",
-              "de": "Dass das Minimum ein Khimār (Kopftuch) oder etwas Ähnliches ist.",
-              "en": "That its minimum is a khimār (headscarf) or something similar to it.",
-              "es": "Que su mínimo es un khimār (pañuelo para la cabeza) o algo similar a él.",
-              "fa": "که حداقل آن یک خمار (روسری) یا چیزی مشابه آن است.",
-              "fr": "Que son minimum est un khimār (foulard) ou quelque chose de similaire.",
-              "id": "Bahwa minimalnya adalah khimār (kerudung) atau sesuatu yang serupa dengannya.",
-              "ru": "Что минимальным является химар (головной платок) или нечто подобное ему.",
-              "tr": "Onun asgari miktarının bir khimār (başörtüsü) veya ona benzer bir şey olduğu rivayet edilmiştir.",
-              "ur": "کہ اس کی کم از کم مقدار ایک خمار (سر کا رومال) یا اس کے مشابہ کچھ ہے۔",
-              "zh": "其最低限度是一种khimār（头巾）或类似物。"
-            },
             "word_end": 7,
             "word_start": 2
           }
@@ -64,56 +51,18 @@
           "narrators": []
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَدْنَاهُ": "its minimum or least amount",
-            "الْخِمَارُ": "a khimār; a headscarf used here as the minimum example of the gift",
-            "رُوِيَ": "it is narrated; an impersonal transmission formula indicating a reported narration",
-            "شِبْهُهُ": "something similar to it in kind or value"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رُوِيَ",
+          "أَدْنَاهُ",
+          "الْخِمَارُ",
+          "شِبْهُهُ"
+        ],
         "related_quran": [
           {
             "ref": "2:236",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই তালাক বিধিতে নারীর জন্য ন্যূনতম পার্টিং গিফট কী?",
-          "de": "Was ist das minimale Brautgeschenk für eine Frau in dieser Scheidungsregelung?",
-          "en": "What is the minimum parting gift for a woman in this divorce ruling?",
-          "es": "¿Cuál es el dote mínimo para una mujer en esta regla de divorcio?",
-          "fa": "حداقل مهریه برای زن در این حکم طلاق چیست؟",
-          "fr": "Quelle est la dot minimale pour une femme dans cette règle de divorce ?",
-          "id": "Apa mahar minimum untuk wanita dalam ketentuan perceraian ini?",
-          "ru": "Каков минимальный приданое для женщины в этом разводном постановлении?",
-          "tr": "Bu boşanma hükmünde kadının asgari mehir miktarı nedir?",
-          "ur": "اس طلاق کے حکم میں عورت کے لیے کم از کم صداق کیا ہے؟",
-          "zh": "在此离婚判决中女性的最低离别礼物是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি এই অধ্যায়ের আইনি প্রেক্ষাপটে তালাকের পর আর্থিক জোগান সম্পর্কে সংক্ষিপ্ত ফিকহীয় বিধান হিসেবে ন্যূনতম পার্টিং গিফট হিসেবে খিমার (মাথার স্কার্ফ) বা তার অনুরূপ কিছু উল্লেখ করে।",
-          "de": "Dieser Hadith legt fest, dass das Minimum für das Brautgeschenk ein Khimār (Kopftuch) oder etwas Vergleichbares ist. Er dient als kurze fiqh-Regelung zur finanziellen Versorgung nach der Scheidung im rechtlichen Kontext dieses Kapitels.",
-          "en": "This hadith states the minimum amount for the parting gift is a khimār (headscarf) or something comparable to it. It serves as a concise fiqh ruling concerning post-divorce financial provision in this chapter's legal context.",
-          "es": "Este hadiz establece que la cantidad mínima para el dote es un khimār (pañuelo para la cabeza) o algo comparable. Sirve como una regla fiqh concisa sobre la provisión financiera post-divorcio en el contexto legal de este capítulo.",
-          "fa": "این حدیث حداقل میزان مهریه را خمار (روسری) یا چیزی مشابه آن بیان می‌کند و حکم فقهی مختصری درباره تأمین مالی پس از طلاق در زمینه حقوقی این فصل است.",
-          "fr": "Ce hadith indique que le minimum pour la dot est un khimār (foulard) ou quelque chose de comparable. Il sert de règle fiqh concise concernant la provision financière après divorce dans le contexte juridique de ce chapitre.",
-          "id": "Hadis ini menyatakan jumlah minimum mahar adalah khimār (kerudung) atau sesuatu yang sebanding dengannya. Ini berfungsi sebagai ketetapan fiqh singkat mengenai pemberian finansial pasca perceraian dalam konteks hukum bab ini.",
-          "ru": "Этот хадис устанавливает минимальный размер приданого — химар (головной платок) или нечто подобное. Это краткое фиххевое постановление о финансовом обеспечении после развода в правовом контексте данной главы.",
-          "tr": "Bu hadis, bu bölümün hukuki bağlamında boşanma sonrası maddi teminat için asgari meblağın bir khimār (başörtüsü) veya ona benzer bir şey olduğunu belirten kısa bir fıkh hükmüdür.",
-          "ur": "یہ حدیث طلاق کے بعد مالی کفالت کے فقہی حکم کے سلسلے میں کم از کم صداق کی مقدار کو خمار (سر کا رومال) یا اس کے مشابہ کچھ قرار دیتی ہے۔",
-          "zh": "此圣训说明了离别礼物的最低限度是khimār（头巾）或类似物。它作为本章法律背景下离婚后经济供养的简明法学裁决。"
-        },
         "tags": [
           "jurisprudence",
           "family",

@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسُئِلَ: عَنِ الرَّجُلِ يَنَامُ ثُمَّ يَسْتَيْقِظُ فَيَمَسُّ ذَكَرَهُ فَيَرَى بَلَلًا وَلَمْ يَرَ فِي مَنَامِهِ شَيْئًا أَيَغْتَسِلُ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "তার কাছে জিজ্ঞাসা করা হলো এমন একজন পুরুষ সম্পর্কে যে ঘুমায়, তারপর জেগে উঠে তার লিঙ্গ স্পর্শ করে এবং কিছু ভেজা দেখে, যদিও সে স্বপ্নে কিছু দেখেনি: তাকে কি গোসল করতে হবে?",
-              "de": "Er wurde gefragt über einen Mann, der schläft, dann aufwacht und seinen Intimbereich berührt und Feuchtigkeit sieht, obwohl er im Traum nichts gesehen hat: Muss er Ghusl (rituelle Waschung) durchführen?",
-              "en": "He was asked about a man who sleeps, then wakes up and touches his private part and sees some wetness, while he did not see anything in his dream: should he perform ghusl (ritual bath)?",
-              "es": "Le preguntaron acerca de un hombre que duerme, luego se despierta y toca su parte íntima y ve humedad, mientras que no vio nada en su sueño: ¿debe realizar el ghusl (baño ritual)?",
-              "fa": "از او پرسیدند درباره مردی که می‌خوابد، سپس بیدار می‌شود و عضو خصوصی خود را لمس می‌کند و رطوبتی می‌بیند، در حالی که در خواب چیزی ندیده است: آیا باید غسل کند؟",
-              "fr": "On lui a demandé au sujet d’un homme qui dort, puis se réveille et touche son organe intime et voit de l’humidité, alors qu’il n’a rien vu dans son rêve : doit-il faire le ghusl (bain rituel) ?",
-              "id": "Dia ditanya tentang seorang pria yang tidur, kemudian bangun dan menyentuh kemaluannya dan melihat basah, sementara dia tidak melihat apa-apa dalam mimpinya: apakah dia harus melakukan ghusl (mandi ritual)?",
-              "ru": "Его спросили о мужчине, который спит, затем просыпается и прикасается к своему половому органу и видит влажность, при этом во сне ничего не видел: должен ли он совершать гусль (ритуальное омовение)?",
-              "tr": "Bir adama uyuyup uyandıktan sonra özel organına dokunup biraz ıslaklık gördüğü, ancak rüyasında bir şey görmediği soruldu: Gusül yapmalı mı?",
-              "ur": "اس سے پوچھا گیا کہ ایک آدمی جو سوتا ہے، پھر جاگتا ہے اور اپنے عضو تناسل کو چھوتا ہے اور کچھ نمی دیکھتا ہے، جبکہ اس نے اپنے خواب میں کچھ نہیں دیکھا: کیا اسے غسل کرنا چاہیے؟",
-              "zh": "有人问及一位男子睡觉后醒来，触摸他的私处并看到湿润，而他在梦中未见任何东西：他是否应当进行沐浴（仪式性洗澡）？"
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ «لَا إِنَّمَا الْغُسْلُ مِنَ الْمَاءِ الْأَكْبَرِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি فرمایا: 'نہیں۔ غسل صرف بڑے پانی سے ہوتا ہے۔'",
-              "de": "Er sagte: „Nein. Ghusl ist nur durch die größere Flüssigkeit.“",
-              "en": "He said: 'No. Ghusl is only from the greater fluid.'",
-              "es": "Él dijo: 'No. El ghusl es solo por el fluido mayor.'",
-              "fa": "او گفت: «نه. غسل فقط از مایع بزرگ است.»",
-              "fr": "Il a dit : « Non. Le ghusl est uniquement dû au fluide majeur. »",
-              "id": "Dia berkata: 'Tidak. Ghusl hanya dari cairan besar.'",
-              "ru": "Он сказал: «Нет. Гусль совершается только при выделении главной жидкости.»",
-              "tr": "O dedi ki: 'Hayır. Gusül sadece büyük su ile yapılır.'",
-              "ur": "انہوں نے کہا: 'نہیں۔ غسل صرف بڑے پانی سے ہوتا ہے۔'",
-              "zh": "他说：“不。沐浴仅因大净水。”"
-            },
             "word_end": 23,
             "word_start": 16
           }
@@ -96,24 +83,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْغُسْلُ": "the obligatory ritual bath",
-            "الْمَاءِ الْأَكْبَرِ": "the major fluid, meaning semen in this context",
-            "بَلَلًا": "wetness or moisture found on the body or garment",
-            "يَغْتَسِلُ": "to perform ghusl, the ritual bath"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَغْتَسِلُ",
+          "بَلَلًا",
+          "الْغُسْلُ",
+          "الْمَاءِ الْأَكْبَرِ"
+        ],
         "related_quran": [
           {
             "ref": "4:43",
@@ -124,32 +99,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কোন ব্যক্তি জেগে উঠে স্বপ্নে কিছু না দেখে যদি ভেজা পায় তাহলে কি গোসল ফরজ?",
-          "de": "Ist Ghusl erforderlich, wenn eine Person aufwacht und Feuchtigkeit findet, ohne im Traum etwas gesehen zu haben?",
-          "en": "Is ghusl required if a person wakes up and finds wetness without seeing anything in a dream?",
-          "es": "¿Es obligatorio el ghusl si una persona se despierta y encuentra humedad sin ver nada en un sueño?",
-          "fa": "آیا غسل واجب است اگر شخصی بیدار شود و بدون دیدن چیزی در خواب رطوبت بیابد؟",
-          "fr": "Le ghusl est-il obligatoire si une personne se réveille et trouve de l’humidité sans rien voir dans un rêve ?",
-          "id": "Apakah ghusl wajib jika seseorang bangun dan menemukan basah tanpa melihat apa-apa dalam mimpi?",
-          "ru": "Обязателен ли гусль, если человек просыпается и обнаруживает влажность, не видя ничего во сне?",
-          "tr": "Bir kişi uyandıktan sonra rüyasında bir şey görmeden ıslaklık bulursa gusül gerekli midir?",
-          "ur": "کیا غسل واجب ہے اگر کوئی شخص جاگ کر نمی پائے بغیر خواب میں کچھ دیکھے؟",
-          "zh": "如果一个人醒来发现湿润但梦中未见任何东西，是否必须沐浴？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস ঘুমের পর রিতুয়াল পবিত্রতা সম্পর্কে শারঈ সিদ্ধান্ত দেয়। এটি বলে যে শুধুমাত্র ভেজা পাওয়া, বড় তরল নিঃসরণের প্রমাণ ছাড়া, গোসল ফরজ করে না; গোসল কেবল বড় তরল নিঃসরণের সময় প্রয়োজন।",
-          "de": "Dieser Hadith gibt eine Rechtsvorschrift zur rituellen Reinheit nach dem Schlaf. Er besagt, dass das bloße Finden von Feuchtigkeit ohne Nachweis einer größeren Absonderung Ghusl nicht verpflichtend macht; Ghusl ist nur bei Austritt der größeren Flüssigkeit erforderlich.",
-          "en": "This hadith gives a legal ruling concerning ritual purity after sleep. It states that merely finding wetness without evidence of major discharge does not make ghusl obligatory; ghusl is required only upon the emission of the major fluid.",
-          "es": "Este hadiz da un fallo legal sobre la pureza ritual después del sueño. Indica que solo encontrar humedad sin evidencia de descarga mayor no obliga al ghusl; el ghusl es requerido solo tras la emisión del fluido mayor.",
-          "fa": "این حدیث حکم شرعی درباره طهارت پس از خواب را بیان می‌کند. فقط یافتن رطوبت بدون وجود مایع بزرگ، غسل را واجب نمی‌کند؛ غسل تنها هنگام خروج مایع بزرگ لازم است.",
-          "fr": "Ce hadith donne un jugement légal concernant la pureté rituelle après le sommeil. Il indique que trouver simplement de l’humidité sans preuve d’émission majeure ne rend pas le ghusl obligatoire ; le ghusl est requis uniquement lors de l’émission du fluide majeur.",
-          "id": "Hadis ini memberikan hukum terkait kesucian ritual setelah tidur. Hanya menemukan basah tanpa bukti cairan besar tidak mewajibkan ghusl; ghusl hanya diwajibkan jika cairan besar keluar.",
-          "ru": "Этот хадис даёт правовое постановление о ритуальной чистоте после сна. Он утверждает, что простое обнаружение влажности без признаков главного выделения не обязывает к гуслю; гусль обязателен только при выделении главной жидкости.",
-          "tr": "Bu hadis, uyku sonrası ritüel temizlikle ilgili hukuki hükmü verir. Sadece ıslaklık bulunması, büyük sıvı çıkışı olmadan guslü zorunlu kılmaz; gusül sadece büyük sıvının çıkışı halinde gereklidir.",
-          "ur": "یہ حدیث نیند کے بعد طہارت کے شرعی حکم کے بارے میں ہے۔ یہ بیان کرتی ہے کہ صرف نمی ملنا بغیر بڑے نجاست کے غسل واجب نہیں ہوتا؛ غسل صرف بڑے پانی کے اخراج پر لازم ہے۔",
-          "zh": "此圣训关于睡眠后仪式洁净的法律裁定。仅发现湿润而无重大分泌物证据不强制沐浴；沐浴仅在重大液体排出时必需。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

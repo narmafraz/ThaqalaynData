@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اَلْحَسَنُ بْنُ مَحْبُوبٍ عَنِ اِبْنِ سِنَانٍ عَنْ أَبِي عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হাসান ইবন মাহবূব, ইবন সিনান থেকে, আবি আবদিল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Al-Hasan ibn Mahbub, von Ibn Sinan, von Abi ʿAbdillah عليه السلام, der sagte:",
-              "en": "Al-Ḥasan ibn Maḥbūb, from Ibn Sinān, from Abī ʿAbdillāh عليه السلام, who said:",
-              "es": "Al-Hasan ibn Mahbub, de Ibn Sinan, de Abī ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "الحسن بن محبوب، از ابن سنان، از ابی عبدالله علیه السلام، که فرمود:",
-              "fr": "Al-Hasan ibn Mahbub, d’Ibn Sinan, d’Abi ʿAbdillah عليه السلام, qui a dit :",
-              "id": "Al-Hasan ibn Mahbub, dari Ibn Sinan, dari Abi Abdillah عليه السلام, yang berkata:",
-              "ru": "Аль-Хасан ибн Махбуб, от Ибн Синана, от Аби ʿАбдуллаха عليه السلام, который сказал:",
-              "tr": "El-Hasan ibn Mahbub, İbn Sinan’dan, Ebu Abdullah عليه السلام’dan rivayet etti ki şöyle dedi:",
-              "ur": "الحسن بن محبوب، ابن سنان سے، ابی عبد اللہ علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "哈桑·伊本·马赫布卜，传自伊本·西南，传自阿比·阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "ثَمَنُ ٱلْكَفَنِ مِنْ جَمِيعِ ٱلْمَالِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "কাফনের খরচ সমগ্র সম্পত্তি থেকে নেওয়া হবে।",
-              "de": "Die Kosten des Leichentuchs werden aus dem gesamten Nachlass genommen.",
-              "en": "The cost of the shroud is from the entirety of the estate.",
-              "es": "El costo del sudario se toma de la totalidad de la herencia.",
-              "fa": "هزینهٔ کفن از تمام ترکه است.",
-              "fr": "Le coût du linceul est prélevé sur l’ensemble de la succession.",
-              "id": "Biaya kafan diambil dari seluruh harta peninggalan.",
-              "ru": "Стоимость савана берётся из всего наследства.",
-              "tr": "Kefenin masrafı, tüm terekenin içindendir.",
-              "ur": "کفن کی قیمت پورے ترکے میں سے ہے۔",
-              "zh": "裹尸布的费用应从全部遗产中支出。"
-            },
             "word_end": 18,
             "word_start": 13
           }
@@ -94,24 +81,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "ثَمَنُ": "the price or cost",
-            "جَمِيعِ": "the whole or entirety of something",
-            "ٱلْكَفَنِ": "the burial shroud used for the deceased",
-            "ٱلْمَالِ": "the property or estate"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "ثَمَنُ",
+          "ٱلْكَفَنِ",
+          "جَمِيعِ",
+          "ٱلْمَالِ"
+        ],
         "related_quran": [
           {
             "ref": "2:180",
@@ -126,32 +101,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "কাফনের খরচ কি মৃত ব্যক্তির পুরো সম্পত্তি থেকে নেওয়া হয়?",
-          "de": "Wird die Kosten des Kafan aus dem gesamten Nachlass des Verstorbenen genommen?",
-          "en": "Is the cost of the kafan taken from the whole estate of the deceased?",
-          "es": "¿Se toma el costo del kafan de toda la herencia del fallecido?",
-          "fa": "آیا هزینهٔ کفن از تمام ترکهٔ میت گرفته می‌شود؟",
-          "fr": "Le coût du kafan est-il prélevé sur l’ensemble de la succession du défunt ?",
-          "id": "Apakah biaya kafan diambil dari seluruh harta peninggalan mayit?",
-          "ru": "Берётся ли стоимость савана из всего наследства умершего?",
-          "tr": "Kefenin masrafı ölen kişinin tüm terekesinden mi alınır?",
-          "ur": "کیا کفن کی قیمت میت کے پورے ترکے سے لی جاتی ہے؟",
-          "zh": "裹尸布的费用是否从亡者的全部遗产中支取？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে মৃত্যুর পর দাফন-কাফনের ব্যয় সম্পর্কে একটি শরয়ি বিধান বর্ণিত হয়েছে। এতে নির্ধারণ করা হয়েছে যে কাফনের মূল্য মৃত ব্যক্তির সমগ্র সম্পত্তি থেকে নেওয়া হবে।",
-          "de": "Dieser Hadith nennt eine rechtliche Bestimmung zu den Bestattungskosten nach dem Tod. Er legt fest, dass der Preis des Kafan aus dem gesamten Nachlass des Verstorbenen zu nehmen ist.",
-          "en": "This hadith states a legal ruling concerning funeral expenses after death. It establishes that the price of the kafan is to be taken from the deceased’s total estate.",
-          "es": "Este hadiz establece una norma jurídica sobre los gastos funerarios después de la muerte. Señala que el precio del kafan debe tomarse de la totalidad de la herencia del fallecido.",
-          "fa": "این حدیث حکمی فقهی دربارهٔ هزینه‌های تدفین پس از مرگ بیان می‌کند. در آن آمده است که قیمت کفن از مجموع ترکهٔ متوفی برداشته می‌شود.",
-          "fr": "Ce hadith énonce une règle juridique concernant les frais funéraires après la mort. Il établit que le prix du kafan doit être prélevé sur l’ensemble de la succession du défunt.",
-          "id": "Hadis ini menyatakan sebuah hukum fikih tentang biaya pemakaman setelah kematian. Hadis ini menetapkan bahwa harga kafan diambil dari seluruh harta peninggalan mayit.",
-          "ru": "Этот хадис устанавливает правовое предписание относительно расходов на погребение после смерти. В нём говорится, что стоимость савана берётся из всего наследства умершего.",
-          "tr": "Bu hadis, ölümden sonraki cenaze masraflarına dair bir fıkhî hüküm bildirir. Kefenin bedelinin vefat edenin toplam terekesinden alınacağını ortaya koyar.",
-          "ur": "یہ حدیث تدفین کے اخراجات کے بارے میں ایک شرعی حکم بیان کرتی ہے۔ اس میں مقرر کیا گیا ہے کہ کفن کی قیمت میت کے کل ترکے سے ادا کی جائے گی۔",
-          "zh": "这段圣训阐明了关于死亡后丧葬费用的一项教法规定。它规定裹尸布的费用应从亡者的全部遗产中支取。"
-        },
         "tags": [
           "jurisprudence",
           "afterlife",

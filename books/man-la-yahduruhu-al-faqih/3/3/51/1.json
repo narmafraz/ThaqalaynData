@@ -16,80 +16,41 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رَوَى أَبُو زَكَرِيَّا عَنْ أَبِي بَصِيرٍ قَالَ قَالَ أَبُو عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ :",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আবু জাকারিয়া আবু বাসির থেকে বর্ণনা করেছেন, যিনি বললেন: আবু আবদুল্লাহ علیہ السلام বলেছেন:",
-              "de": "Abu Zakariyya berichtete von Abu Basir, der sagte: Abu Abdullah عليه السلام sagte:",
-              "en": "Abu Zakariyya narrated from Abu Basir, who said: Abu Abdullah عليه السلام said:",
-              "es": "Abu Zakariyya narró de Abu Basir, quien dijo: Abu Abdullah عليه السلام dijo:",
-              "fa": "ابو زکریا از ابو بصیر روایت کرد که گفت: ابو عبدالله علیه السلام فرمود:",
-              "fr": "Abu Zakariyya a rapporté d'Abu Basir, qui a dit : Abu Abdullah عليه السلام a dit :",
-              "id": "Abu Zakariyya meriwayat dari Abu Basir, yang berkata: Abu Abdullah علیه السلام berkata:",
-              "ru": "Абу Закария передал от Абу Басира, который сказал: Абу Абдуллах عليه السلام сказал:",
-              "tr": "Ebu Zekeriya, Ebu Basir'den rivayet etti, o dedi ki: Ebu Abdullah علیه السلام şöyle dedi:",
-              "ur": "ابو زکریا نے ابو بصیر سے روایت کی، جنہوں نے کہا: ابو عبداللہ علیہ السلام نے فرمایا:",
-              "zh": "阿布扎卡里亚从阿布巴西尔传述，他说：阿布阿卜杜拉عليهالسلام说："
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "إِذَا مَاتَ طِفْلٌ مِنْ أَطْفَالِ الْمُؤْمِنِينَ نَادَى مُنَادٍ فِي مَلَكُوتِ السَّمَاوَاتِ وَالْأَرْضِ أَلَا إِنَّ فُلَانَ بْنَ فُلَانٍ قَدْ مَاتَ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যখন মুমিনদের সন্তানদের মধ্যে কেউ মারা যায়, তখন আসমান ও পৃথিবীর রাজ্যে একজন ডাক্তার ঘোষণা করে: নিশ্চয়ই, ফালান পুত্র ফালান মারা গেছেন।",
-              "de": "Wenn ein Kind aus den Kindern der Gläubigen stirbt, ruft ein Ausrufer im Königreich der Himmel und der Erde aus: Wahrlich, der Sohn von Soundso ist gestorben.",
-              "en": "When a child from the children of the believers dies, a caller announces in the kingdom of the heavens and the earth: Indeed, so-and-so, the son of so-and-so, has died.",
-              "es": "Cuando un niño de los hijos de los creyentes muere, un llamador anuncia en el reino de los cielos y la tierra: En verdad, fulano hijo de fulano ha muerto.",
-              "fa": "وقتی کودکی از فرزندان مؤمنان می‌میرد، نداگری در ملکوت آسمان‌ها و زمین اعلام می‌کند: به راستی فلان فرزند فلان مرده است.",
-              "fr": "Lorsqu'un enfant parmi les enfants des croyants meurt, un crieur annonce dans le royaume des cieux et de la terre : En vérité, untel fils d'untel est décédé.",
-              "id": "Ketika seorang anak dari anak-anak orang beriman meninggal, seorang pemanggil mengumumkan di kerajaan langit dan bumi: Sesungguhnya, si Fulan bin Fulan telah meninggal.",
-              "ru": "Когда у детей верующих умирает ребенок, в царстве небес и земли объявляет глашатай: Воистину, такой-то сын такого-то умер.",
-              "tr": "Müminlerin çocuklarından biri öldüğünde, göklerin ve yerin krallığında bir çağırıcı şöyle ilan eder: Şüphesiz, falan oğlu falan vefat etti.",
-              "ur": "جب مومنوں کے بچوں میں سے کوئی بچہ فوت ہو جاتا ہے، تو آسمانوں اور زمین کی بادشاہی میں ایک پکارنے والا اعلان کرتا ہے: بے شک فلاں بن فلاں فوت ہو گیا ہے۔",
-              "zh": "当信士的孩子去世时，天与地的国度中有呼喊者宣布：确实，某某之子某某已去世。"
-            },
             "word_end": 33,
             "word_start": 14
           },
           {
             "arabic_text": "فَإِنْ كَانَ مَاتَ وَالِدَاهُ أَوْ أَحَدُهُمَا أَوْ بَعْضُ أَهْلِ بَيْتِهِ مِنَ الْمُؤْمِنِينَ دُفِعَ إِلَيْهِ يَغْذُوهُ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি তার পিতা-মাতা, তাদের মধ্যে কেউ বা তার পরিবারের কিছু বিশ্বাসী সদস্য মারা গিয়ে থাকে, তাকে তাদের কাছে হস্তান্তর করা হয় যাতে তারা তাকে লালন-পালন করতে পারে।",
-              "de": "Wenn seine Eltern, einer von ihnen oder einige seiner Angehörigen unter den Gläubigen gestorben sind, wird er ihnen anvertraut, damit sie ihn nähren.",
-              "en": "If his parents, one of them, or some of his household from among the believers had died, he is entrusted to them so that they may nourish him.",
-              "es": "Si sus padres, uno de ellos, o algunos de su familia entre los creyentes han muerto, se le confía a ellos para que lo alimenten.",
-              "fa": "اگر والدینش، یا یکی از آن‌ها، یا برخی از اهل خانه‌اش از مؤمنان فوت کرده باشند، به آن‌ها سپرده می‌شود تا او را تغذیه کنند.",
-              "fr": "Si ses parents, l'un d'eux, ou certains membres de sa famille parmi les croyants sont décédés, il leur est confié afin qu'ils le nourrissent.",
-              "id": "Jika orang tuanya, salah satu dari mereka, atau sebagian keluarganya dari orang-orang beriman telah meninggal, dia diserahkan kepada mereka agar mereka merawatnya.",
-              "ru": "Если его родители, один из них или некоторые из его домочадцев из числа верующих умерли, он передается им, чтобы они его кормили.",
-              "tr": "Eğer ebeveynleri, onlardan biri veya ev halkından bazı müminler vefat etmişse, ona emanet edilir ve onlar onu besler.",
-              "ur": "اگر اس کے والدین، ان میں سے کوئی ایک، یا اس کے گھرانے کے کچھ مومن افراد فوت ہو چکے ہوں، تو اسے ان کے سپرد کیا جاتا ہے تاکہ وہ اسے پال سکیں۔",
-              "zh": "如果他的父母，其中一人，或他家中一些信士已去世，他将被托付给他们，由他们抚养。"
-            },
             "word_end": 48,
             "word_start": 33
           },
           {
             "arabic_text": "وَإِلَّا دُفِعَ إِلَى فَاطِمَةَ عَلَيْهَا السَّلَامُ تَغْذُوهُ حَتَّى يَقْدَمَ أَبَوَاهُ أَوْ أَحَدُهُمَا أَوْ بَعْضُ أَهْلِ بَيْتِهِ فَتَدْفَعُهُ إِلَيْهِ",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "অন্যথায়, তাকে ফাতিমা عليها السلام এর কাছে হস্তান্তর করা হয়, এবং তিনি তাকে লালন করেন যতক্ষণ না তার পিতা-মাতা, তাদের মধ্যে কেউ বা তার পরিবারের কিছু সদস্য আসেন, তারপর তিনি তাকে তাদের কাছে হস্তান্তর করেন।",
-              "de": "Andernfalls wird er Fatima عليها السلام anvertraut, und sie nährt ihn, bis seine Eltern, einer von ihnen oder einige seiner Angehörigen eintreffen, dann übergibt sie ihn ihnen.",
-              "en": "Otherwise, he is entrusted to Fatimah عليها السلام, and she nourishes him until his parents, one of them, or some of his household arrive, then she hands him over to them.",
-              "es": "De lo contrario, se le confía a Fátima عليها السلام, y ella lo alimenta hasta que sus padres, uno de ellos, o algunos de su familia lleguen, luego se lo entrega a ellos.",
-              "fa": "در غیر این صورت، به فاطمه عليها السلام سپرده می‌شود و او او را تغذیه می‌کند تا والدینش، یکی از آن‌ها یا برخی از اهل خانه‌اش برسند، سپس او را به آن‌ها تحویل می‌دهد.",
-              "fr": "Sinon, il est confié à Fatima عليها السلام, et elle le nourrit jusqu'à ce que ses parents, l'un d'eux, ou certains membres de sa famille arrivent, puis elle le leur remet.",
-              "id": "Jika tidak, dia diserahkan kepada Fatimah عليها السلام, dan dia merawatnya sampai orang tuanya, salah satu dari mereka, atau beberapa anggota keluarganya datang, lalu dia menyerahkannya kepada mereka.",
-              "ru": "В противном случае он передается Фатиме عليها السلام, и она кормит его, пока не прибудут его родители, один из них или некоторые из его домочадцев, затем она передает его им.",
-              "tr": "Aksi takdirde, ona Fatıma عليها السلام emanet edilir ve o onu besler ta ki ebeveynleri, onlardan biri veya ev halkından bazıları gelene kadar, sonra onu onlara teslim eder.",
-              "ur": "ورنہ اسے فاطمہ علیہ السلام کے سپرد کیا جاتا ہے، اور وہ اسے پالتی ہیں یہاں تک کہ اس کے والدین، ان میں سے کوئی ایک، یا اس کے گھرانے کے کچھ لوگ پہنچ جائیں، پھر وہ اسے ان کے حوالے کر دیتی ہیں۔",
-              "zh": "否则，他将被托付给法蒂玛عليهاالسلام，她抚养他直到他的父母，其中一人，或他家中一些人到来，然后她将他交给他们。"
-            },
             "word_end": 66,
             "word_start": 48
           }
@@ -128,26 +89,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَهْلِ بَيْتِهِ": "his household or family members",
-            "الْمُؤْمِنِينَ": "the believers; those possessing iman",
-            "تَغْذُوهُ": "she nourishes and cares for him",
-            "طِفْلٌ": "a young child",
-            "فَاطِمَةَ عَلَيْهَا السَّلَامُ": "Lady Fatimah, peace be upon her, who is entrusted with the child's care",
-            "مَلَكُوتِ": "the dominion or unseen kingdom of divine reality"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "طِفْلٌ",
+          "الْمُؤْمِنِينَ",
+          "مَلَكُوتِ",
+          "أَهْلِ بَيْتِهِ",
+          "فَاطِمَةَ عَلَيْهَا السَّلَامُ",
+          "تَغْذُوهُ"
+        ],
         "related_quran": [
           {
             "ref": "2:154",
@@ -162,32 +111,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী, যারা তাদের পিতামাতার আগে মারা যায় এমন বিশ্বাসী শিশুদের কী হয়?",
-          "de": "Was geschieht laut diesem Hadith mit den Kindern der Gläubigen, die vor ihren Eltern sterben?",
-          "en": "What happens to the children of believers who die before their parents according to this hadith?",
-          "es": "Según este hadiz, ¿qué sucede con los hijos de los creyentes que mueren antes que sus padres?",
-          "fa": "بر اساس این حدیث، چه بر سر کودکان مؤمنی که قبل از والدین خود می‌میرند می‌آید؟",
-          "fr": "Selon ce hadith, que se passe-t-il pour les enfants des croyants qui meurent avant leurs parents ?",
-          "id": "Menurut hadis ini, apa yang terjadi pada anak-anak orang beriman yang meninggal sebelum orang tua mereka?",
-          "ru": "Что происходит с детьми верующих, которые умирают до своих родителей, согласно этому хадису?",
-          "tr": "Bu hadise göre, ebeveynlerinden önce ölen mümin çocuklara ne olur?",
-          "ur": "اس حدیث کے مطابق مومن بچوں کے ساتھ کیا ہوتا ہے جو اپنے والدین سے پہلے فوت ہو جاتے ہیں؟",
-          "zh": "根据此圣训，信士的孩子在父母之前去世会发生什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস বিশ্বাসী শিশুদের মৃত্যুর পর তাদের গায়েবী জগতের যত্নের অবস্থা বর্ণনা করে। যদি বিশ্বাসী আত্মীয়রা তাদের আগে মারা গিয়ে থাকে, তবে তাদের কাছে হস্তান্তর করা হয়; নাহলে তাদের পরিবার আসা পর্যন্ত ফাতিমা عليها السلام এর কাছে হস্তান্তর করা হয়। এই বর্ণনা আল্লাহর রহমত, বিশ্বাসী শিশুদের মর্যাদা এবং ফাতিমা عليها السلام এর বিশেষ মর্যাদা তুলে ধরে।",
-          "de": "Dieser Hadith beschreibt den Zustand der verstorbenen Kinder der Gläubigen und ihre Fürsorge im verborgenen Reich nach dem Tod. Wenn gläubige Verwandte ihnen vorausgegangen sind, werden sie ihnen anvertraut; andernfalls werden sie Fatima عليها السلام anvertraut, bis ihre Familie eintrifft. Der Bericht hebt die göttliche Barmherzigkeit, die Würde der gläubigen Kinder und die besondere Stellung von Fatima عليها السلام hervor.",
-          "en": "This hadith describes the condition of believing children who die, portraying their care in the unseen realm after death. If believing relatives have preceded them, they are entrusted to them; otherwise, they are entrusted to Fatimah عليها السلام until their family arrives. The report highlights divine mercy, the dignity of believing children, and the special station of Fatimah عليها السلام.",
-          "es": "Este hadiz describe la condición de los niños creyentes que mueren, mostrando su cuidado en el reino invisible después de la muerte. Si parientes creyentes han fallecido antes, se les confía a ellos; de lo contrario, se les confía a Fátima عليها السلام hasta que llegue su familia. El relato destaca la misericordia divina, la dignidad de los niños creyentes y la estación especial de Fátima عليها السلام.",
-          "fa": "این حدیث وضعیت کودکان مؤمن پس از مرگ را در عالم غیب توصیف می‌کند. اگر بستگان مؤمن پیش از آن‌ها فوت کرده باشند، به آن‌ها سپرده می‌شوند؛ در غیر این صورت تا رسیدن خانواده به فاطمه عليها السلام واگذار می‌شوند. این گزارش رحمت الهی، کرامت کودکان مؤمن و مقام ویژه فاطمه عليها السلام را برجسته می‌کند.",
-          "fr": "Ce hadith décrit la condition des enfants croyants qui meurent, illustrant leur soin dans le royaume invisible après la mort. Si des proches croyants les ont précédés, ils leur sont confiés ; sinon, ils sont confiés à Fatima عليها السلام jusqu'à l'arrivée de leur famille. Le rapport met en lumière la miséricorde divine, la dignité des enfants croyants et la place spéciale de Fatima عليها السلام.",
-          "id": "Hadis ini menggambarkan kondisi anak-anak orang beriman yang meninggal, menunjukkan perawatan mereka di alam ghaib setelah kematian. Jika kerabat beriman telah mendahului mereka, mereka diserahkan kepada mereka; jika tidak, diserahkan kepada Fatimah عليها السلام sampai keluarga mereka datang. Laporan ini menyoroti rahmat ilahi, martabat anak-anak beriman, dan kedudukan khusus Fatimah عليها السلام.",
-          "ru": "Этот хадис описывает состояние умерших детей верующих, показывая их заботу в невидимом мире после смерти. Если верующие родственники умерли раньше, они передаются им; иначе они передаются Фатиме عليها السلام до прибытия семьи. Отчет подчеркивает божественную милость, достоинство верующих детей и особое положение Фатимы عليها السلام.",
-          "tr": "Bu hadis, inanan çocukların ölümünden sonra gayb alemindeki durumlarını anlatır. Eğer inanan akrabalar önceden vefat etmişse onlara emanet edilir; aksi takdirde aileleri gelene kadar Fatıma عليها السلام'a teslim edilir. Rivayet, ilahi merhameti, inanan çocukların onurunu ve Fatıma عليها السلام'ın özel makamını vurgular.",
-          "ur": "یہ حدیث مومن بچوں کی وفات کے بعد ان کی غیب میں دیکھ بھال کی حالت بیان کرتی ہے۔ اگر مومن رشتہ دار پہلے فوت ہو چکے ہوں تو انہیں سپرد کیا جاتا ہے، ورنہ انہیں فاطمہ علیہ السلام کے حوالے کیا جاتا ہے جب تک کہ ان کا خاندان پہنچ جائے۔ یہ روایت الہی رحمت، مومن بچوں کی عزت اور فاطمہ علیہ السلام کی خاص مقام کو اجاگر کرتی ہے۔",
-          "zh": "此圣训描述了信士去世儿童在死后隐秘境界中的照料状况。如果有信士亲属先行去世，儿童将托付给他们；否则托付给法蒂玛عليهاالسلام，直到家人到来。此报告强调了神圣的慈悲、信士儿童的尊严及法蒂玛عليهاالسلام的特殊地位。"
-        },
         "tags": [
           "afterlife",
           "family",

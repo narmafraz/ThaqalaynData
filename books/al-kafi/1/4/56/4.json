@@ -21,99 +21,47 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَلِيٌّ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ أَبِي أَيُّوبَ الْخَزَّازِ عَنْ أَبِي بَصِيرٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী, তাঁর পিতা থেকে, ইবন আবি উমাইর থেকে, আবু আইয়ুব আল-খাজ্জাজ থেকে, আবু বাসীর থেকে, যিনি বলেছেন:",
-              "de": "Ali, von seinem Vater, von Ibn Abi Umayr, von Abu Ayyub al-Khazzaz, von Abu Basir, der sagte:",
-              "en": "Ali, from his father, from Ibn Abi Umayr, from Abu Ayyub al-Khazzaz, from Abu Basir, who said:",
-              "es": "Ali, de su padre, de Ibn Abi Umayr, de Abu Ayyub al-Khazzaz, de Abu Basir, quien dijo:",
-              "fa": "علی، از پدرش، از ابن ابی عمیر، از ابو ایوب الخزاز، از ابو بصیر، که گفت:",
-              "fr": "Ali, de son père, d’Ibn Abi Umayr, d’Abu Ayyub al-Khazzaz, d’Abu Basir, qui a dit :",
-              "id": "Ali, dari ayahnya, dari Ibn Abi Umayr, dari Abu Ayyub al-Khazzaz, dari Abu Basir, yang berkata:",
-              "ru": "Али, от своего отца, от Ибн Аби Умайра, от Абу Айюба аль-Хаззаза, от Абу Басира, который сказал:",
-              "tr": "Ali, babasından, İbn Ebi Umeyr’den, Ebu Eyyub el-Hazzaz’dan, Ebu Basir’den, o da şöyle dedi:",
-              "ur": "علی، ان کے والد سے، ابن ابی عمیر سے، ابو ایوب الخزاز سے، ابو بصیر سے، جنہوں نے کہا:",
-              "zh": "阿里，传自其父，传自伊本·阿比·乌迈尔，传自阿布·艾尤布·阿尔-哈扎兹，传自阿布·巴西尔，他说："
-            },
             "word_end": 15,
             "word_start": 0
           },
           {
             "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ يَقُولُ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আমি আবু আবদুল্লাহ عليه السلام-কে বলতে শুনেছি:",
-              "de": "Ich hörte Abu Abdullah عليه السلام sagen:",
-              "en": "I heard Abu Abdullah عليه السلام saying:",
-              "es": "Escuché a Abu Abdullah عليه السلام decir:",
-              "fa": "از ابو عبدالله علیه السلام شنیدم که می‌فرمود:",
-              "fr": "J’ai entendu Abu Abdullah عليه السلام dire :",
-              "id": "Aku mendengar Abu Abdullah عليه السلام berkata:",
-              "ru": "Я слышал, как Абу Абдуллах عليه السلام говорил:",
-              "tr": "Ebu Abdullah عليه السلام’ın şöyle dediğini işittim:",
-              "ur": "میں نے ابو عبد اللہ علیہ السلام کو یہ فرماتے ہوئے سنا:",
-              "zh": "我听见阿布·阿卜杜拉 عليه السلام说："
-            },
             "word_end": 22,
             "word_start": 15
           },
           {
             "arabic_text": "يَسْأَلُونَكَ عَنِ الرُّوحِ قُلِ الرُّوحُ مِنْ أَمْرِ رَبِّي",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "তারা তোমাকে রূহ সম্পর্কে জিজ্ঞেস করে। বলো: রূহ আমার রবের আদেশের অন্তর্ভুক্ত।",
-              "de": "Sie fragen dich nach dem Geist. Sprich: Der Geist gehört zum Befehl meines Herrn.",
-              "en": "They ask you about the Spirit. Say: The Spirit is from the command of my Lord.",
-              "es": "Te preguntan acerca del Espíritu. Di: El Espíritu es por mandato de mi Señor.",
-              "fa": "از تو درباره روح می‌پرسند. بگو: روح از امر پروردگار من است.",
-              "fr": "Ils t’interrogent au sujet de l’Esprit. Dis : L’Esprit relève de l’ordre de mon Seigneur.",
-              "id": "Mereka bertanya kepadamu tentang Ruh. Katakanlah: Ruh itu termasuk urusan Tuhanku.",
-              "ru": "Они спрашивают тебя о Духе. Скажи: Дух — от повеления моего Господа.",
-              "tr": "Sana ruhtan soruyorlar. De ki: Ruh, Rabbimin emrindendir.",
-              "ur": "وہ آپ سے روح کے بارے میں پوچھتے ہیں۔ کہہ دیجیے: روح میرے رب کے حکم سے ہے۔",
-              "zh": "他们询问你关于灵。你说：灵是出于我主的命令。"
-            },
             "word_end": 30,
             "word_start": 22
           },
           {
             "arabic_text": "قَالَ خَلْقٌ أَعْظَمُ مِنْ جَبْرَئِيلَ وَمِيكَائِيلَ لَمْ يَكُنْ مَعَ أَحَدٍ مِمَّنْ مَضَى غَيْرِ مُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَهُوَ مَعَ الْأَئِمَّةِ يُسَدِّدُهُمْ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি عليه السلام বললেন: এটি জিবরাঈল ও মীকাঈলের চেয়ে মহান এক সৃষ্টি। এটি পূর্বে যারা অতিক্রান্ত হয়েছে তাদের কারও সঙ্গে ছিল না, শুধু মুহাম্মদ صلى الله عليه وآله ছাড়া; এবং এটি ইমামদের সঙ্গে থাকে, তাদের সঠিক পথে পরিচালিত করে।",
-              "de": "Er عليه السلام sagte: Es ist eine Schöpfung, größer als Jibra'il und Mika'il. Sie war mit niemandem von denen, die zuvor vergangen sind, außer mit Muhammad صلى الله عليه وآله, und sie ist mit den Imamen und leitet sie recht.",
-              "en": "He عليه السلام said: It is a creation greater than Jibra'il and Mika'il. It was not with anyone who passed before except Muhammad صلى الله عليه وآله, and it is with the Imams, guiding them rightly.",
-              "es": "Él عليه السلام dijo: Es una creación más grande que Jibra'il y Mika'il. No estuvo con nadie de los que pasaron antes, excepto con Muhammad صلى الله عليه وآله, y está con los Imames, guiándolos rectamente.",
-              "fa": "فرمود: این مخلوقی است بزرگ‌تر از جبرئیل و میکائیل. با هیچ‌یک از کسانی که پیش از این گذشتند نبود، جز محمد صلى الله عليه وآله، و با امامان است و آنان را به راه درست هدایت می‌کند.",
-              "fr": "Il عليه السلام dit : C’est une création plus grande que Jibra’il et Mika’il. Elle n’a été avec personne parmi ceux qui ont précédé, sauf Muhammad صلى الله عليه وآله, et elle est avec les Imams, les guidant droitement.",
-              "id": "Beliau عليه السلام bersabda: Itu adalah makhluk yang lebih agung daripada Jibra'il dan Mika'il. Ia tidak bersama siapa pun yang telah berlalu sebelumnya kecuali Muhammad صلى الله عليه وآله, dan ia bersama para Imam, membimbing mereka dengan benar.",
-              "ru": "Он عليه السلام сказал: Это творение больше, чем Джибра'иль и Мика'иль. Оно не было ни с кем из тех, кто прошёл прежде, кроме Мухаммада صلى الله عليه وآله, и оно с Имамами, направляя их верно.",
-              "tr": "O عليه السلام şöyle buyurdu: Bu, Cibril ve Mikail’den daha عظim bir yaratılıştır. Geçmişte gelip geçenlerden hiç kimseyle, Muhammed صلى الله عليه وآله dışında, beraber olmadı; o, İmamlarla beraberdir ve onları doğru yola iletir.",
-              "ur": "انہوں نے علیہ السلام فرمایا: یہ ایک مخلوق ہے جو جبرائیل اور میکائیل سے بھی عظیم ہے۔ یہ ان سب کے ساتھ نہ تھی جو اس سے پہلے گزرے، سوائے محمد صلى الله عليه وآله کے، اور یہ ائمہ کے ساتھ ہوتی ہے، انہیں درست راہ دکھاتی ہے۔",
-              "zh": "他 عليه السلام说：它是一个比吉卜利勒和米卡伊勒更伟大的被造物。它不曾与先前逝去的任何人在一起，唯有穆罕默德 صلى الله عليه وآله例外；它与伊玛目们同在，端正地引导他们。"
-            },
             "word_end": 52,
             "word_start": 30
           },
           {
             "arabic_text": "وَلَيْسَ كُلُّ مَا طُلِبَ وُجِدَ",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "আর যা কিছু অনুসন্ধান করা হয়, তা সবই পাওয়া যায় না।",
-              "de": "Und nicht alles, was gesucht wird, wird gefunden.",
-              "en": "And not everything that is sought is found.",
-              "es": "Y no todo lo que se busca se encuentra.",
-              "fa": "و هر آنچه جست‌وجو شود، یافت نمی‌شود.",
-              "fr": "Et tout ce qui est recherché ne se trouve pas.",
-              "id": "Dan tidak setiap sesuatu yang dicari itu ditemukan.",
-              "ru": "И не всё, что ищут, находится.",
-              "tr": "Ve aranan her şey bulunmaz.",
-              "ur": "اور ہر وہ چیز نہیں ملتی جس کی تلاش کی جائے۔",
-              "zh": "并非所求之物都能找到。"
-            },
             "word_end": 57,
             "word_start": 52
           }
@@ -182,59 +130,21 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَمْرِ": "command, indicating divine origin and authority",
-            "الرُّوحِ": "the Spirit, described here as a special creation from the command of Allah",
-            "الْأَئِمَّةِ": "the Imams, with whom this Spirit remains",
-            "جَبْرَئِيلَ": "Jibra'il, the archangel, used here as a point of comparison",
-            "خَلْقٌ": "a created being or creation",
-            "مِيكَائِيلَ": "Mika'il, the archangel, also used as a point of comparison",
-            "يُسَدِّدُهُمْ": "supports and directs them aright"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الرُّوحِ",
+          "أَمْرِ",
+          "خَلْقٌ",
+          "جَبْرَئِيلَ",
+          "مِيكَائِيلَ",
+          "الْأَئِمَّةِ",
+          "يُسَدِّدُهُمْ"
+        ],
         "related_quran": [
           {
             "ref": "17:85",
             "relationship": "explicit"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام-এর মতে “তারা তোমাকে রূহ সম্পর্কে জিজ্ঞেস করে” আয়াতের অর্থ কী?",
-          "de": "Was bedeutet der Vers „Sie fragen dich nach dem Geist“ nach Imam al-Sadiq عليه السلام?",
-          "en": "What does the verse \"They ask you about the Spirit\" mean according to Imam al-Sadiq عليه السلام?",
-          "es": "Según el Imam al-Sadiq عليه السلام, ¿qué significa el versículo \"Te preguntan acerca del Espíritu\"?",
-          "fa": "از نظر امام صادق علیه السلام آیه «از تو درباره روح می‌پرسند» چه معنایی دارد؟",
-          "fr": "Selon l’Imam al-Sadiq عليه السلام, que signifie le verset « Ils t’interrogent au sujet de l’Esprit » ?",
-          "id": "Menurut Imam al-Sadiq عليه السلام, apa makna ayat \"Mereka bertanya kepadamu tentang Ruh\"?",
-          "ru": "Что означает аят «Они спрашивают тебя о Духе» согласно Имаму ас-Садику عليه السلام?",
-          "tr": "İmam es-Sadık عليه السلام’a göre \"Sana ruhtan soruyorlar\" ayeti ne anlama gelir?",
-          "ur": "امام الصادق علیہ السلام کے مطابق آیت \"وہ آپ سے روح کے بارے میں پوچھتے ہیں\" کا کیا مطلب ہے؟",
-          "zh": "根据伊玛目萨迪克 عليه السلام，“他们询问你关于灵”这节经文是什么意思？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে কুরআনে উল্লিখিত রূহকে আল্লাহর আদেশ থেকে আগত একটি স্বতন্ত্র সৃষ্টি হিসেবে ব্যাখ্যা করা হয়েছে, যা জিবরাঈল ও মীকাঈলের চেয়ে মহান। এতে বলা হয়েছে যে এই রূহ মুহাম্মদ صلى الله عليه وآله-এর সঙ্গে ছিল এবং ইমামদের সঙ্গে থাকে, তাদের সহায়তা ও পথনির্দেশ করে। এই বর্ণনা ইমামত ও অদৃশ্য জগতের সঙ্গে যুক্ত এক বিশেষ ঐশী সহায়তাকে তুলে ধরে।",
-          "de": "Dieser Hadith erklärt die koranische Erwähnung des Geistes als eine eigenständige Schöpfung aus dem Befehl Allahs, größer als Jibra'il und Mika'il. Er besagt, dass dieser Geist mit Muhammad صلى الله عليه وآله war und mit den Imamen bleibt, sie stützt und leitet. Die Überlieferung hebt eine besondere göttliche Hilfe hervor, die mit dem Imamat und dem Verborgenen verbunden ist.",
-          "en": "This hadith explains the Quranic mention of the Spirit as a distinct creation from the command of Allah, greater than Jibra'il and Mika'il. It states that this Spirit was with Muhammad صلى الله عليه وآله and remains with the Imams, supporting and directing them. The report highlights a special divine aid connected to Imamate and the unseen.",
-          "es": "Este hadiz explica la mención coránica del Espíritu como una creación distinta proveniente del mandato de Allah, mayor que Jibra'il y Mika'il. Afirma que este Espíritu estuvo con Muhammad صلى الله عليه وآله y permanece con los Imames, apoyándolos y guiándolos. El relato destaca una ayuda divina especial vinculada al imamato y a lo oculto.",
-          "fa": "این حدیث، یادکرد روح در قرآن را به‌عنوان مخلوقی جداگانه از امر خداوند، بزرگ‌تر از جبرئیل و میکائیل، توضیح می‌دهد. در آن آمده است که این روح با محمد صلى الله عليه وآله بود و با امامان باقی می‌ماند و آنان را یاری و هدایت می‌کند. این روایت بر یاری ویژه الهیِ مرتبط با امامت و غیب تأکید دارد.",
-          "fr": "Ce hadith explique la mention coranique de l’Esprit comme une création distincte relevant de l’ordre d’Allah, plus grande que Jibra’il et Mika’il. Il affirme que cet Esprit était avec Muhammad صلى الله عليه وآله et demeure avec les Imams, les soutenant et les guidant. Le récit met en lumière une aide divine particulière liée à l’imamat et à l’invisible.",
-          "id": "Hadis ini menjelaskan penyebutan Ruh dalam Al-Qur'an sebagai makhluk tersendiri dari urusan Allah, lebih agung daripada Jibra'il dan Mika'il. Disebutkan bahwa Ruh ini bersama Muhammad صلى الله عليه وآله dan tetap bersama para Imam, mendukung serta membimbing mereka. Riwayat ini menyoroti pertolongan ilahi khusus yang terkait dengan imamah dan alam gaib.",
-          "ru": "Этот хадис объясняет кораническое упоминание Духа как отдельного творения от повеления Аллаха, более великого, чем Джибра'иль и Мика'иль. В нём говорится, что этот Дух был с Мухаммадом صلى الله عليه وآله и остаётся с Имамами, поддерживая и направляя их. Передача подчёркивает особую божественную помощь, связанную с имаматом и сокровенным.",
-          "tr": "Bu hadis, Kur’an’daki Ruh zikrini Allah’ın emrinden olan, Cibril ve Mikail’den daha büyük ayrı bir yaratılış olarak açıklar. Bu Ruhun Muhammed صلى الله عليه وآله ile birlikte olduğu ve İmamlarla birlikte kalarak onlara destek olup onları yönlendirdiği belirtilir. Rivayet, imamet ve gayb ile bağlantılı özel bir ilahî yardımı vurgular.",
-          "ur": "یہ حدیث روح کا ذکر قرآن میں اللہ کے حکم سے ایک جداگانہ مخلوق کے طور پر کرتی ہے، جو جبرائیل اور میکائیل سے عظیم ہے۔ اس میں بتایا گیا ہے کہ یہ روح محمد صلى الله عليه وآله کے ساتھ تھی اور ائمہ کے ساتھ باقی رہتی ہے، ان کی مدد اور رہنمائی کرتی ہے۔ یہ روایت امامت اور غیب سے وابستہ ایک خاص الٰہی مدد کو نمایاں کرتی ہے۔",
-          "zh": "这段圣训将《古兰经》中提到的灵解释为来自真主命令的独立被造物，比吉卜利勒和米卡伊勒更伟大。它说明这灵曾与穆罕默德 صلى الله عليه وآله同在，并且仍与伊玛目们同在，扶持并引导他们。这则传述强调了与伊玛目制度和幽玄相关的一种特殊神圣援助。"
-        },
         "tags": [
           "quran_commentary",
           "theology",

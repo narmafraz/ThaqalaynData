@@ -19,40 +19,27 @@
           "model": "claude-sonnet-4-6",
           "pipeline_version": "2.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল্লাহর রাসূল (আল্লাহ তাঁকে ও তাঁর পরিবারকে রহমত করুন) বলেছেন:",
-              "de": "Der Gesandte Gottes (möge Gott ihn und seine Familie segnen) sagte:",
-              "en": "The Messenger of God (may God bless him and his family) said:",
-              "es": "El Mensajero de Dios (que Dios lo bendiga a él y a su familia) dijo:",
-              "fa": "رسول خدا صلی الله علیه وآله فرمود:",
-              "fr": "Le Messager de Dieu (que Dieu le bénisse, lui et sa famille) a dit :",
-              "id": "Rasulullah (semoga Allah memberkati beliau dan keluarganya) bersabda:",
-              "ru": "Посланник Аллаха (да благословит его Аллах и его семью) сказал:",
-              "tr": "Allah'ın Rasûlü (sallallahu aleyhi ve alihi) buyurdu:",
-              "ur": "اللہ کے رسول صلی اللہ علیہ وآلہ نے فرمایا:",
-              "zh": "真主的使者（愿真主赐福于他及其家人）说："
-            },
             "word_end": 7,
             "word_start": 0
           },
           {
             "chunk_type": "body",
-            "translations": {
-              "bn": "পানি পবিত্র করে এবং (নিজে) পবিত্র করা হয় না।",
-              "de": "Das Wasser reinigt und wird (selbst) nicht gereinigt.",
-              "en": "Water purifies and is not (itself) purified.",
-              "es": "El agua purifica y no es (ella misma) purificada.",
-              "fa": "آب پاک می‌کند و (خودش) پاک نمی‌شود.",
-              "fr": "L'eau purifie et n'est pas (elle-même) purifiée.",
-              "id": "Air mensucikan dan tidak (dirinya sendiri) disucikan.",
-              "ru": "Вода очищает и (сама) не очищается.",
-              "tr": "Su temizler ve (kendisi) temizlenmez.",
-              "ur": "پانی پاک کرتا ہے اور (خود) پاک نہیں کیا جاتا۔",
-              "zh": "水能净化（他物），而自身不被净化。"
-            },
             "word_end": 11,
             "word_start": 7
           }
@@ -135,63 +122,11 @@
             "phrase_en": "May God bless him and his family"
           }
         ],
-        "key_terms": {
-          "bn": {
-            "الْمَاءُ": "পানি — ফিকহে বিশেষভাবে পাক ও পবিত্রকারী পানি অর্থে",
-            "يُطَهَّرُ": "পবিত্র করা হয় (কর্মকারক, দ্বিতীয় বাব) — পানির বাহ্যিক উপাদান দ্বারা পবিত্র হওয়ার প্রয়োজন নেই",
-            "يُطَهِّرُ": "পবিত্র করে (কর্তৃকারক, দ্বিতীয় বাব) — পানি পবিত্রকারী হিসেবে কাজ করে"
-          },
-          "de": {
-            "الْمَاءُ": "Wasser — in der Jurisprudenz speziell reines (tahir) und reinigendes (mutahhir) Wasser",
-            "يُطَهَّرُ": "Wird gereinigt (Passiv, Form II) — das Wasser bedarf keiner Reinigung durch ein äußeres Agens",
-            "يُطَهِّرُ": "Reinigt (Aktiv, Form II) — das Wasser wirkt als reinigendes Agens"
-          },
-          "en": {
-            "الْمَاءُ": "Water — in jurisprudence, specifically refers to pure (tahir) water capable of purifying (mutahhir)",
-            "يُطَهَّرُ": "Is purified (passive voice, Form II) — the water is not acted upon; it does not need purification from an external agent",
-            "يُطَهِّرُ": "Purifies (active voice, Form II) — the water acts as the purifying agent"
-          },
-          "es": {
-            "الْمَاءُ": "Agua — en jurisprudencia, se refiere al agua pura (tahir) con capacidad purificadora (mutahhir)",
-            "يُطَهَّرُ": "Es purificada (voz pasiva, Forma II) — el agua no requiere purificación por un agente externo",
-            "يُطَهِّرُ": "Purifica (voz activa, Forma II) — el agua actúa como agente purificador"
-          },
-          "fa": {
-            "الْمَاءُ": "آب — در فقه به معنای آب طاهر و دارای قابلیت تطهیر",
-            "يُطَهَّرُ": "پاک می‌شود (مجهول، باب تفعیل) — آب نیاز به تطهیر توسط عامل خارجی ندارد",
-            "يُطَهِّرُ": "پاک می‌کند (معلوم، باب تفعیل) — آب به عنوان عامل پاک‌کننده عمل می‌کند"
-          },
-          "fr": {
-            "الْمَاءُ": "Eau — en jurisprudence, désigne spécifiquement l'eau pure (tahir) dotée du pouvoir purificateur (mutahhir)",
-            "يُطَهَّرُ": "Est purifiée (voix passive, Form II) — l'eau n'a pas besoin d'être purifiée par un agent extérieur",
-            "يُطَهِّرُ": "Purifie (voix active, Form II) — l'eau joue le rôle d'agent purificateur"
-          },
-          "id": {
-            "الْمَاءُ": "Air — dalam fiqih, merujuk khusus pada air suci (tahir) yang mampu mensucikan (mutahhir)",
-            "يُطَهَّرُ": "Disucikan (pasif, Form II) — air tidak memerlukan pensucian dari agen luar",
-            "يُطَهِّرُ": "Mensucikan (aktif, Form II) — air bertindak sebagai agen pensucian"
-          },
-          "ru": {
-            "الْمَاءُ": "Вода — в фикхе обозначает чистую (тахир) воду, способную очищать (мутаhhир)",
-            "يُطَهَّرُ": "Очищается (пассивный залог, II форма) — вода не требует очищения внешним агентом",
-            "يُطَهِّرُ": "Очищает (активный залог, II форма) — вода выступает как очищающий агент"
-          },
-          "tr": {
-            "الْمَاءُ": "Su — fıkıhta özellikle tahir ve temizleyici su anlamında",
-            "يُطَهَّرُ": "Temizlenir (edilgen, Form II) — suyun harici bir etken tarafından temizlenmesine gerek yoktur",
-            "يُطَهِّرُ": "Temizler (etken, Form II) — su temizleyici unsur olarak işlev görür"
-          },
-          "ur": {
-            "الْمَاءُ": "پانی — فقہ میں خاص طور پر خالص اور پاک کرنے کی صلاحیت رکھنے والا پانی",
-            "يُطَهَّرُ": "پاک کیا جاتا ہے (مفعول) — پانی کو بیرونی ذریعے سے پاک کرنے کی ضرورت نہیں",
-            "يُطَهِّرُ": "پاک کرتا ہے (فاعل) — پانی طہارت دینے والا ہے"
-          },
-          "zh": {
-            "الْمَاءُ": "水——在法学中专指洁净（塔希尔）且具有净化能力（穆塔希尔）的水",
-            "يُطَهَّرُ": "被净化（被动语态，第二型动词）——水无需被外部施动者所净化",
-            "يُطَهِّرُ": "净化（主动语态，第二型动词）——水作为净化的施动者"
-          }
-        },
+        "key_terms_keys": [
+          "الْمَاءُ",
+          "يُطَهِّرُ",
+          "يُطَهَّرُ"
+        ],
         "related_quran": [
           {
             "ref": "8:11",
@@ -202,32 +137,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "পানি পবিত্র করে কিন্তু নিজে পবিত্র করা হয় না — এই ইসলামী বিধান কী?",
-          "de": "Was ist das islamische Rechtsprinzip, dass Wasser reinigt, aber selbst nicht gereinigt wird?",
-          "en": "What is the Islamic ruling that water purifies and is not itself purified?",
-          "es": "¿Cuál es el fundamento jurídico islámico de que el agua purifica pero no es purificada?",
-          "fa": "حکم فقهی آب در اسلام که پاک می‌کند ولی خودش پاک نمی‌شود چیست؟",
-          "fr": "Quel est le principe juridique islamique selon lequel l'eau purifie mais n'est pas elle-même purifiée ?",
-          "id": "Apa hukum Islam bahwa air mensucikan namun dirinya tidak disucikan?",
-          "ru": "В чём состоит исламский правовой принцип о том, что вода очищает, но сама не очищается?",
-          "tr": "Suyun temizlediği ama kendisinin temizlenmediğine dair İslami hüküm nedir?",
-          "ur": "اسلام میں پانی کے پاک کرنے اور خود پاک نہ کیے جانے کا کیا حکم ہے؟",
-          "zh": "水能净化他物而自身不被净化——这一伊斯兰法律原则是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি পানির বিষয়ে ইসলামী আনুষ্ঠানিক পবিত্রতা আইন (তাহারা)-এর মৌলিক নীতি প্রতিষ্ঠা করে: বিশুদ্ধ পানি অন্যান্য জিনিসকে পবিত্র করার সহজাত ক্ষমতা রাখে, কিন্তু নিজেকে পবিত্র করার প্রয়োজন নেই। ইমাম সাদিক (আ.)-এর মাধ্যমে নবী (সাঃ)-পর্যন্ত পৌঁছানো এই বিধান শিয়া ফিকহে অযু, গোসল ও নাজিস বস্তু পবিত্রকরণ সম্পর্কিত সমস্ত ফিকহী কাঠামোর ভিত্তি।",
-          "de": "Dieser Hadith legt das grundlegende Prinzip des islamischen Reinheitsrechts (tahara) bezüglich Wasser fest: Reines Wasser besitzt die inhärente Fähigkeit, andere Dinge zu reinigen, ohne selbst der Reinigung zu bedürfen. Diese Regel, die über eine Überlieferungskette von Imam al-Sadiq (AS) zurück zum Propheten (SAWW) reicht, bildet die Grundlage des gesamten jurisprudentiellen Rahmens zur rituellen Reinheit im schiitischen Fiqh, insbesondere bezüglich des Wassers für Wudu, Ghusl und die Reinigung von najis-Gegenständen.",
-          "en": "This hadith establishes the foundational principle of Islamic ritual purity law (tahara) concerning water: pure water has the intrinsic capacity to purify other things, yet it does not require purification itself. This ruling, narrated through a chain reaching Imam al-Sadiq (AS) back to the Prophet (SAWW), underpins the entire jurisprudential framework for ritual purity in Shia fiqh, particularly governing which water may be used for wudu, ghusl, and the purification of najis objects.",
-          "es": "Este hadiz establece el principio fundamental de la ley de pureza ritual islámica (tahara) respecto al agua: el agua pura tiene la capacidad inherente de purificar otras cosas, sin necesidad de ser purificada ella misma. Esta norma, transmitida a través de una cadena que llega al Imam al-Sadiq (AS) y de él al Profeta (SAWW), constituye la base de todo el marco jurisprudencial sobre la pureza ritual en el fiqh chiíta, especialmente en lo que respecta al agua para el wudu, el ghusl y la purificación de objetos najis.",
-          "fa": "این حدیث اصل بنیادین قانون طهارت اسلامی درباره آب را بیان می‌کند: آب پاک به طور ذاتی توانایی پاک کردن اشیاء دیگر را دارد، اما خودش نیاز به تطهیر ندارد. این حکم که از طریق امام صادق علیه السلام به پیامبر اکرم صلی الله علیه وآله می‌رسد، پایه تمام احکام فقهی شیعه درباره وضو، غسل و تطهیر اشیاء نجس است.",
-          "fr": "Ce hadith établit le principe fondamental du droit de la pureté rituelle islamique (tahara) concernant l'eau : l'eau pure possède la capacité inhérente de purifier d'autres choses, sans avoir elle-même besoin d'être purifiée. Cette règle, transmise par une chaîne remontant à l'Imam al-Sadiq (AS) puis au Prophète (SAWW), constitue la base de tout le cadre jurisprudentiel relatif à la pureté rituelle dans le fiqh chiite, notamment pour l'eau utilisée dans les ablutions (wudu), le bain rituel (ghusl) et la purification des objets impur (najis).",
-          "id": "Hadis ini menetapkan prinsip dasar hukum kesucian ritual (tahara) Islam mengenai air: air suci memiliki kemampuan inheren untuk mensucikan benda lain, namun ia sendiri tidak memerlukan pensucian. Hukum ini, yang diriwayatkan melalui rantai perawi hingga Imam al-Shadiq (AS) kembali kepada Nabi (SAWW), menjadi dasar keseluruhan kerangka fiqih kesucian ritual dalam fiqih Syiah, khususnya mengatur air mana yang boleh digunakan untuk wudu, ghusl, dan pensucian benda najis.",
-          "ru": "Этот хадис устанавливает фундаментальный принцип исламского закона о ритуальной чистоте (тахара) относительно воды: чистая вода обладает присущей ей способностью очищать другие предметы, не нуждаясь при этом в очищении сама. Это правило, переданное через цепочку до Имама ас-Садика (мир ему) и далее к Пророку (мир ему и его семье), лежит в основе всей юриспруденции ритуальной чистоты в шиитском фикхе, особенно в вопросах воды для омовения (вуду), полного омовения (гусль) и очищения нечистых (наджис) предметов.",
-          "tr": "Bu hadis, İslam ritüel temizlik hukuku (taharet) açısından su ile ilgili temel ilkeyi ortaya koymaktadır: saf su, diğer nesneleri temizleme kapasitesine sahipken kendisi temizlenmeye muhtaç değildir. İmam Sadık (a.s.) aracılığıyla Peygamber'e (s.a.v.s.) ulaşan bu hüküm, Şia fıkhında abdest, gusül ve necis nesnelerin temizlenmesi meselelerindeki tüm hukuki çerçevenin temelini oluşturmaktadır.",
-          "ur": "یہ حدیث اسلامی طہارت کے قانون میں پانی کے بنیادی اصول کو بیان کرتی ہے: خالص پانی دوسری چیزوں کو پاک کرنے کی فطری صلاحیت رکھتا ہے، لیکن خود اسے پاک کرنے کی ضرورت نہیں۔ یہ اصول شیعہ فقہ میں وضو، غسل اور نجس اشیاء کی طہارت کے تمام احکام کی بنیاد ہے۔",
-          "zh": "此圣训确立了伊斯兰礼仪洁净法（塔哈拉）中关于水的基本原则：洁净之水具有净化其他事物的内在能力，而其自身无需被净化。这一裁决经由伊玛目萨迪格（愿主赐他平安）上溯至先知（愿主福安之）的传述链，构成什叶派法学（菲格赫）礼仪洁净整体框架的基础，尤其适用于小净（吴都）、大净（古斯尔）和净化纳吉斯物品所用之水的相关规定。"
-        },
         "tags": [
           "jurisprudence",
           "prophetic_tradition"
@@ -239,189 +148,46 @@
         "word_analysis": [
           {
             "pos": "V",
-            "translation": {
-              "bn": "বলেছেন",
-              "de": "sagte",
-              "en": "he said",
-              "es": "dijo",
-              "fa": "فرمود",
-              "fr": "a dit",
-              "id": "bersabda",
-              "ru": "сказал",
-              "tr": "buyurdu",
-              "ur": "فرمایا",
-              "zh": "他说"
-            },
             "word": "قَالَ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "রাসূল",
-              "de": "Gesandte",
-              "en": "Messenger",
-              "es": "Mensajero",
-              "fa": "رسول",
-              "fr": "Messager",
-              "id": "Rasul",
-              "ru": "Посланник",
-              "tr": "Rasûl",
-              "ur": "رسول",
-              "zh": "使者"
-            },
             "word": "رَسُولُ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "আল্লাহর",
-              "de": "Gottes",
-              "en": "of God",
-              "es": "de Dios",
-              "fa": "خدا",
-              "fr": "de Dieu",
-              "id": "Allah",
-              "ru": "Аллаха",
-              "tr": "Allah'ın",
-              "ur": "اللہ کے",
-              "zh": "真主的"
-            },
             "word": "اللَّهِ"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "রহমত বর্ষণ করুন",
-              "de": "segne",
-              "en": "may bless",
-              "es": "bendiga",
-              "fa": "صلوات فرستد",
-              "fr": "bénisse",
-              "id": "semoga memberkati",
-              "ru": "да благословит",
-              "tr": "salât etsin",
-              "ur": "درود بھیجے",
-              "zh": "祝福"
-            },
             "word": "صَلَّى"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "আল্লাহ",
-              "de": "Gott",
-              "en": "God",
-              "es": "Dios",
-              "fa": "خدا",
-              "fr": "Dieu",
-              "id": "Allah",
-              "ru": "Аллах",
-              "tr": "Allah",
-              "ur": "اللہ",
-              "zh": "真主"
-            },
             "word": "اللَّهُ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "তাঁর উপর",
-              "de": "auf ihm",
-              "en": "upon him",
-              "es": "sobre él",
-              "fa": "بر او",
-              "fr": "sur lui",
-              "id": "atasnya",
-              "ru": "на нём",
-              "tr": "ona",
-              "ur": "اس پر",
-              "zh": "在他之上"
-            },
             "word": "عَلَيْهِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "এবং তাঁর বংশধরদের উপর",
-              "de": "und seiner Familie",
-              "en": "and his family",
-              "es": "y su familia",
-              "fa": "و آل او",
-              "fr": "et sa famille",
-              "id": "dan keluarganya",
-              "ru": "и его семье",
-              "tr": "ve ailesine",
-              "ur": "اور اس کی آل پر",
-              "zh": "及其家族"
-            },
             "word": "وَآلِهِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "পানি",
-              "de": "das Wasser",
-              "en": "water",
-              "es": "el agua",
-              "fa": "آب",
-              "fr": "l'eau",
-              "id": "air",
-              "ru": "вода",
-              "tr": "su",
-              "ur": "پانی",
-              "zh": "水"
-            },
             "word": "الْمَاءُ"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "পবিত্র করে",
-              "de": "reinigt",
-              "en": "purifies",
-              "es": "purifica",
-              "fa": "پاک می‌کند",
-              "fr": "purifie",
-              "id": "mensucikan",
-              "ru": "очищает",
-              "tr": "temizler",
-              "ur": "پاک کرتا ہے",
-              "zh": "能净化"
-            },
             "word": "يُطَهِّرُ"
           },
           {
             "pos": "CONJ",
-            "translation": {
-              "bn": "এবং না",
-              "de": "und nicht",
-              "en": "and not",
-              "es": "y no",
-              "fa": "و نه",
-              "fr": "et ne pas",
-              "id": "dan tidak",
-              "ru": "и не",
-              "tr": "ve değil",
-              "ur": "اور نہیں",
-              "zh": "而不"
-            },
             "word": "وَلَا"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "পবিত্র করা হয়",
-              "de": "wird gereinigt",
-              "en": "is purified",
-              "es": "es purificado",
-              "fa": "پاک می‌شود",
-              "fr": "est purifié",
-              "id": "disucikan",
-              "ru": "очищается",
-              "tr": "temizlenir",
-              "ur": "پاک کیا جاتا ہے",
-              "zh": "被净化"
-            },
             "word": "يُطَهَّرُ"
           }
         ]

@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَفِي حَدِيثٍ آخَرَ قَالَ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আরেকটি হাদিসে তিনি বললেন:",
-              "de": "Und in einem anderen Hadith sagte er:",
-              "en": "And in another hadith, he said:",
-              "es": "Y en otro hadiz, dijo:",
-              "fa": "و در حدیثی دیگر فرمود:",
-              "fr": "Et dans un autre hadith, il a dit :",
-              "id": "Dan dalam hadits lain, beliau bersabda:",
-              "ru": "А в другом хадисе он сказал:",
-              "tr": "Ve başka bir hadiste şöyle buyurdu:",
-              "ur": "اور ایک اور حدیث میں، انہوں نے فرمایا:",
-              "zh": "在另一个圣训中他说："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "«جِهَادُ الْمَرْأَةِ حُسْنُ التَّبَعُّلِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“একজন নারীর জিহাদ হলো তার স্বামীর প্রতি উত্তম আচরণ।”",
-              "de": "„Der Dschihad einer Frau ist ein vorbildliches Verhalten gegenüber ihrem Ehemann.“",
-              "en": "“The jihad of a woman is excellent conduct toward her husband.”",
-              "es": "“El yihad de una mujer es un buen comportamiento hacia su esposo.”",
-              "fa": "«جهاد یک زن، رفتار نیکو نسبت به شوهرش است.»",
-              "fr": "«Le jihad d'une femme est une excellente conduite envers son mari.»",
-              "id": "“Jihad seorang wanita adalah berperilaku baik terhadap suaminya.”",
-              "ru": "«Джихад женщины — это прекрасное поведение по отношению к своему мужу.»",
-              "tr": "“Bir kadının cihadı, kocasına karşı güzel davranışıdır.”",
-              "ur": "“ایک عورت کا جہاد اپنے شوہر کے ساتھ حسنِ سلوک کرنا ہے۔”",
-              "zh": "“妇女的圣战是对丈夫的良好行为。”"
-            },
             "word_end": 8,
             "word_start": 4
           }
@@ -75,26 +62,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "آخَرَ": "another; indicating a separate narration",
-            "التَّبَعُّلِ": "good marital conduct toward one’s husband",
-            "الْمَرْأَةِ": "the woman",
-            "جِهَادُ": "spiritual striving or struggle in the path of Allah",
-            "حَدِيثٍ": "a narration or hadith report",
-            "حُسْنُ": "goodness, excellence, or beautiful conduct"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "حَدِيثٍ",
+          "آخَرَ",
+          "جِهَادُ",
+          "الْمَرْأَةِ",
+          "حُسْنُ",
+          "التَّبَعُّلِ"
+        ],
         "related_quran": [
           {
             "ref": "4:19",
@@ -109,32 +84,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হাদিসে বলা হয়েছে একজন নারীর জিহাদ তার স্বামীর প্রতি উত্তম আচরণ, এর অর্থ কী?",
-          "de": "Was bedeutet der Hadith, wenn er sagt, dass der Dschihad einer Frau gutes Verhalten gegenüber ihrem Ehemann ist?",
-          "en": "What does the hadith mean by saying that a woman’s jihad is good conduct toward her husband?",
-          "es": "¿Qué significa el hadiz al decir que el yihad de una mujer es un buen comportamiento hacia su esposo?",
-          "fa": "در حدیث، منظور از اینکه جهاد زن رفتار نیکو نسبت به شوهرش است چیست؟",
-          "fr": "Que signifie le hadith en disant que le jihad d'une femme est une bonne conduite envers son mari ?",
-          "id": "Apa makna hadits yang mengatakan jihad seorang wanita adalah berperilaku baik terhadap suaminya?",
-          "ru": "Что означает хадис, когда говорится, что джихад женщины — это хорошее поведение по отношению к мужу?",
-          "tr": "Hadiste bir kadının cihadının kocasına iyi davranış olması ne anlama gelir?",
-          "ur": "حدیث میں عورت کے جہاد کو شوہر کے ساتھ حسنِ سلوک کہنا کیا معنی رکھتا ہے؟",
-          "zh": "圣训中说妇女的圣战是对丈夫的良好行为，这是什么意思？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস শিক্ষা দেয় যে একজন নারীর মহান আধ্যাত্মিক সংগ্রাম حسن التبعّل-এ নিহিত, অর্থাৎ তার স্বামীর প্রতি উৎকৃষ্ট দাম্পত্য আচরণে। এটি দাম্পত্য কর্তব্যকে সদগুণ ও উৎকর্ষের সঙ্গে পালন করার নৈতিক ও ধর্মীয় মূল্য তুলে ধরে।",
-          "de": "Dieser Hadith lehrt, dass das große geistige Streben einer Frau in حسن التبعّل liegt, also in vorbildlichem ehelichem Verhalten gegenüber ihrem Ehemann. Er hebt den moralischen und religiösen Wert hervor, eheliche Pflichten mit Güte und Exzellenz zu erfüllen.",
-          "en": "This hadith teaches that a woman’s great spiritual striving is found in حسن التبعّل, meaning excellent marital conduct toward her husband. It highlights the moral and religious value of fulfilling spousal duties with goodness and excellence.",
-          "es": "Este hadiz enseña que el gran esfuerzo espiritual de una mujer se encuentra en حسن التبعّل, es decir, en una conducta marital excelente hacia su esposo. Destaca el valor moral y religioso de cumplir con los deberes conyugales con bondad y excelencia.",
-          "fa": "این حدیث آموزش می‌دهد که تلاش بزرگ معنوی زن در حسن التبعّل است، یعنی رفتار عالی زناشویی نسبت به شوهرش. این حدیث ارزش اخلاقی و دینی انجام وظایف زناشویی با نیکی و کمال را برجسته می‌کند.",
-          "fr": "Ce hadith enseigne que le grand effort spirituel d'une femme se trouve dans حسن التبعّل, c’est-à-dire une excellente conduite conjugale envers son mari. Il souligne la valeur morale et religieuse d’accomplir les devoirs conjugaux avec bonté et excellence.",
-          "id": "Hadis ini mengajarkan bahwa perjuangan spiritual besar seorang wanita terdapat dalam حسن التبعّل, yaitu perilaku pernikahan yang baik terhadap suaminya. Ini menyoroti nilai moral dan agama dalam melaksanakan kewajiban suami-istri dengan kebaikan dan kesempurnaan.",
-          "ru": "Этот хадис учит, что великое духовное стремление женщины заключается в حسن التبعّل, то есть в отличном супружеском поведении по отношению к мужу. Он подчеркивает моральную и религиозную ценность выполнения супружеских обязанностей с добротой и совершенством.",
-          "tr": "Bu hadis, bir kadının büyük manevi mücadelesinin حسن التبعّل, yani kocasına karşı mükemmel evlilik davranışında olduğunu öğretir. Eş görevlerini iyilik ve mükemmellikle yerine getirmenin ahlaki ve dini değerini vurgular.",
-          "ur": "یہ حدیث سکھاتی ہے کہ عورت کی عظیم روحانی جدوجہد حسن التبعّل میں ہے، یعنی اپنے شوہر کے ساتھ بہترین ازدواجی سلوک۔ یہ اخلاقی اور دینی قدر کو ظاہر کرتی ہے کہ زوجین کے فرائض کو نیکی اور کمال کے ساتھ پورا کرنا چاہیے۔",
-          "zh": "这段圣训教导我们，妇女伟大的精神奋斗体现在 حسن التبعّل，即对丈夫的优良婚姻行为。它强调以善良和卓越履行夫妻义务的道德和宗教价值。"
-        },
         "tags": [
           "ethics",
           "family",

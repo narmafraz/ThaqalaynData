@@ -15,6 +15,92 @@
       "up": "/books/al-kafi:8:1:44"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "سَهْلُ بْنُ زِيَادٍ، عَنِ ابْنِ مَحْبُوبٍ، عَنِ ابْنِ رِئَابٍ، عَنْ حُمْرَانَ بْنِ أَعْيَنَ، عَنْ أَبِي جَعْفَرٍ (عَلَيْهِ السَّلَامُ)",
+            "chunk_type": "isnad",
+            "word_end": 18,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قَالَ: «وَالَّذِينَ كَفَرُوا أَوْلِيَاؤُهُمُ الطَّوَاغِيتُ»",
+            "chunk_type": "body",
+            "word_end": 23,
+            "word_start": 18
+          },
+          {
+            "arabic_text": "وَالَّذِينَ كَفَرُوا أَوْلِيَاؤُهُمُ الطَّوَاغِيتُ",
+            "chunk_type": "quran_quote",
+            "word_end": 27,
+            "word_start": 23
+          },
+          {
+            "arabic_text": "بَدَّلَهَا بِـ«الطَّاغُوتِ»",
+            "chunk_type": "closing",
+            "word_end": 29,
+            "word_start": 27
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": false,
+          "narrators": []
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الطَّوَاغِيتُ",
+          "الطَّاغُوتُ",
+          "التَّحْرِيفُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:257",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "2:256",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "9:71",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "quran_commentary",
+          "theology"
+        ],
+        "topics": [
+          "quran_interpretation_method",
+          "imams_biography"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 314)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -45,7 +131,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:44:45",

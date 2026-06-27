@@ -14,6 +14,129 @@
       "up": "/books/al-kafi:4:3:72"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ ابْنِ فَضَّالٍ عَنْ بَعْضِ أَصْحَابِنَا عَنْ عَمْرِو بْنِ إِلْيَاسَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 18,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "حَجَجْتُ مَعَ أَبِي وَ أَنَا صَرُورَةٌ فَقُلْتُ إِنِّي أُحِبُّ أَنْ أَجْعَلَ حَجَّتِي عَنْ أُمِّي فَإِنَّهَا قَدْ مَاتَتْ قَالَ فَقَالَ لِي حَتَّى أَسْأَلَ لَكَ أَبَا عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) فَقَالَ إِلْيَاسُ لِأَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) وَ أَنَا أَسْمَعُ جُعِلْتُ فِدَاكَ إِنَّ ابْنِي هَذَا صَرُورَةٌ وَ قَدْ مَاتَتْ أُمُّهُ فَأَحَبَّ أَنْ يَجْعَلَ حَجَّتَهُ لَهَا أَ فَيَجُوزُ ذَلِكَ لَهُ فَقَالَ أَبُو عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) يُكْتَبُ لَهُ وَ لَهَا وَ يُكْتَبُ لَهُ أَجْرُ الْبِرِّ",
+            "chunk_type": "body",
+            "word_end": 96,
+            "word_start": 18
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 22,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ فَضَّالٍ",
+              "name_en": "Ibn Faddal",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 36,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "بَعْضِ أَصْحَابِنَا",
+              "name_en": "some of our companions",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3883,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَمْرِو بْنِ إِلْيَاسَ",
+              "name_en": "Amr b. Ilyas",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "صَرُورَةٌ",
+          "أَجْرُ الْبِرِّ",
+          "يُكْتَبُ لَهُ وَ لَهَا"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:197",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "31:14",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "worship",
+          "jurisprudence",
+          "family"
+        ],
+        "topics": [
+          "hajj",
+          "death_dying",
+          "prayer_rulings"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مرسل  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (7/230)"
       ],
@@ -85,7 +208,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:4:3:72:2",

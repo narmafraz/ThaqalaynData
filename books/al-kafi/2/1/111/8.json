@@ -20,42 +20,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "الْحُسَيْنُ بْنُ مُحَمَّدٍ عَنْ مُعَلَّى بْنِ مُحَمَّدٍ عَنِ الْوَشَّاءِ عَنْ أَبَانٍ عَنِ الْفُضَيْلِ بْنِ يَسَارٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন মুহাম্মাদ, মু‘আল্লা ইবন মুহাম্মাদ থেকে, আল-ওয়াশশা‘ থেকে, আবান থেকে, আল-ফুদাইল ইবন ইয়াসার থেকে, আবু জাফর عليه السلام থেকে বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "Al-Ḥusayn ibn Muḥammad, von Muʿallā ibn Muḥammad, von Al-Washshāʾ, von Abān, von Al-Fuḍayl ibn Yasār, von Abū Jaʿfar عليه السلام, der sagte:",
-              "en": "Al-Ḥusayn ibn Muḥammad, from Muʿallā ibn Muḥammad, from Al-Washshāʾ, from Abān, from Al-Fuḍayl ibn Yasār, from Abū Jaʿfar عليه السلام, who said:",
-              "es": "Al-Ḥusayn ibn Muḥammad, de Muʿallā ibn Muḥammad, de Al-Washshāʾ, de Abān, de Al-Fuḍayl ibn Yasār, de Abū Jaʿfar عليه السلام, quien dijo:",
-              "fa": "الحسین بن محمد، از معلی بن محمد، از الوشّاء، از ابان، از الفضیل بن یسار، از ابو جعفر علیه السلام روایت کرده است که فرمود:",
-              "fr": "Al-Ḥusayn ibn Muḥammad, d’après Muʿallā ibn Muḥammad, d’après Al-Washshāʾ, d’après Abān, d’après Al-Fuḍayl ibn Yasār, d’après Abū Jaʿfar عليه السلام, qui a dit :",
-              "id": "Al-Husayn ibn Muhammad, dari Muʿallā ibn Muhammad, dari Al-Washshāʾ, dari Abān, dari Al-Fuḍayl ibn Yasār, dari Abū Jaʿfar عليه السلام, yang berkata:",
-              "ru": "Аль-Хусайн ибн Мухаммад, от Муʿалля ибн Мухаммада, от Аль-Вашшаʾ, от Абана, от Аль-Фудайль ибн Йасара, от Абу Джафара عليه السلام, который сказал:",
-              "tr": "El-Hüseyin ibn Muhammed, Muallâ ibn Muhammed’den, el-Veşşâ’dan, Abân’dan, el-Fudayl ibn Yesâr’dan, Ebu Ca‘fer عليه السلام’dan rivayet etti ki şöyle dedi:",
-              "ur": "الحسین بن محمد، معلیٰ بن محمد سے، الوشّاء سے، ابان سے، الفضیل بن یسار سے، ابو جعفر علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "Al-ḤusaynibnMuḥammad，传自MuʿallāibnMuḥammad，传自Al-Washshāʾ，传自Abān，传自Al-FuḍaylibnYasār，传自AbūJaʿfar عليه السلام，他说："
-            },
             "word_end": 21,
             "word_start": 0
           },
           {
             "arabic_text": "إِنَّ الْعَبْدَ لَيُذْنِبُ الذَّنْبَ فَيُزْوَى عَنْهُ الرِّزْقُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "নিশ্চয়ই বান্দা একটি গুনাহ করে, তারপর তার থেকে রিজিক রোধ করা হয়।",
-              "de": "Gewiss begeht der Diener eine Sünde, dann wird ihm der Lebensunterhalt vorenthalten.",
-              "en": "Indeed, the servant commits a sin, then sustenance is withheld from him.",
-              "es": "En verdad, el siervo comete un pecado, y entonces se le retiene el sustento.",
-              "fa": "همانا بنده گناهی مرتکب می‌شود، سپس روزی از او بازداشته می‌شود.",
-              "fr": "En vérité, le serviteur commet un péché, puis sa subsistance lui est retirée.",
-              "id": "Sesungguhnya seorang hamba melakukan dosa, lalu rezeki ditahan darinya.",
-              "ru": "Воистину, раб совершает грех, и тогда удел удерживается от него.",
-              "tr": "Şüphesiz kul bir günah işler, sonra rızık ondan men edilir.",
-              "ur": "بے شک بندہ گناہ کرتا ہے، پھر اس سے رزق روک لیا جاتا ہے۔",
-              "zh": "确实，仆人会犯下罪过，然后他的给养被阻止。"
-            },
             "word_end": 28,
             "word_start": 21
           }
@@ -128,25 +115,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الذَّنْبَ": "the sin; an act of wrongdoing against Allah's command",
-            "الرِّزْقُ": "sustenance; provision and livelihood granted by Allah",
-            "الْعَبْدَ": "the servant; the human being as a servant of Allah",
-            "فَيُزْوَى": "is withheld; is narrowed or kept away",
-            "لَيُذْنِبُ": "commits a sin; falls into disobedience"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْعَبْدَ",
+          "لَيُذْنِبُ",
+          "الذَّنْبَ",
+          "فَيُزْوَى",
+          "الرِّزْقُ"
+        ],
         "related_quran": [
           {
             "ref": "16:112",
@@ -161,32 +136,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "গুনাহ কি কোনো ব্যক্তির রিজিক কমে যাওয়ার কারণ হতে পারে?",
-          "de": "Können Sünden dazu führen, dass der Lebensunterhalt eines Menschen verringert wird?",
-          "en": "Can sins cause a person's sustenance to be reduced?",
-          "es": "¿Pueden los pecados causar que se reduzca el sustento de una persona?",
-          "fa": "آیا گناهان می‌توانند سبب کاهش روزیِ یک شخص شوند؟",
-          "fr": "Les péchés peuvent-ils entraîner une diminution de la subsistance d’une personne ?",
-          "id": "Apakah dosa dapat menyebabkan rezeki seseorang berkurang?",
-          "ru": "Могут ли грехи привести к уменьшению удела человека?",
-          "tr": "Günahlar bir kişinin rızkının azalmasına sebep olabilir mi?",
-          "ur": "کیا گناہ کسی شخص کے رزق میں کمی کا سبب بن سکتے ہیں؟",
-          "zh": "罪过会导致一个人的给养减少吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস শিক্ষা দেয় যে গুনাহের দুনিয়াবি প্রভাব রয়েছে, যার মধ্যে মানুষের রিজিক সীমিত হয়ে যাওয়াও অন্তর্ভুক্ত। এটি আচরণ ও জীবিকার মধ্যে একটি নৈতিক সম্পর্ককে স্পষ্ট করে এবং মুমিনদের সতর্ক করে যে অবাধ্যতা বঞ্চনার কারণ হতে পারে।",
-          "de": "Dieser Hadith lehrt, dass Sünden weltliche Folgen haben, darunter die Einschränkung des Lebensunterhalts eines Menschen. Er hebt einen moralischen Zusammenhang zwischen Verhalten und Versorgung hervor und warnt die Gläubigen davor, dass Ungehorsam zu Entbehrung führen kann.",
-          "en": "This hadith teaches that sins have worldly consequences, including the restriction of a person's sustenance. It highlights a moral connection between conduct and livelihood, warning believers that disobedience can become a cause of deprivation.",
-          "es": "Este hadiz enseña que los pecados tienen consecuencias mundanas, incluida la restricción del sustento de una persona. Destaca una relación moral entre la conducta y el sustento, advirtiendo a los creyentes que la desobediencia puede convertirse en causa de privación.",
-          "fa": "این حدیث می‌آموزد که گناهان پیامدهای دنیوی دارند، از جمله محدود شدن روزیِ انسان. این حدیث پیوندی اخلاقی میان رفتار و معاش را نشان می‌دهد و مؤمنان را هشدار می‌دهد که نافرمانی می‌تواند سبب محرومیت شود.",
-          "fr": "Ce hadith enseigne que les péchés ont des conséquences dans ce monde, notamment la restriction de la subsistance d’une personne. Il met en lumière un lien moral entre le comportement et le gagne-pain, avertissant les croyants que la désobéissance peut devenir une cause de privation.",
-          "id": "Hadis ini mengajarkan bahwa dosa memiliki akibat di dunia, termasuk tertahannya rezeki seseorang. Ini menyoroti hubungan moral antara perilaku dan penghidupan, serta memperingatkan orang-orang beriman bahwa maksiat dapat menjadi sebab terhalangnya nikmat.",
-          "ru": "Этот хадис учит, что грехи имеют мирские последствия, в том числе ограничение удела человека. Он подчеркивает нравственную связь между поведением и пропитанием, предупреждая верующих, что непослушание может стать причиной лишения.",
-          "tr": "Bu hadis, günahların dünyadaki sonuçları olduğunu, bunlar arasında kişinin rızkının kısıtlanmasının da bulunduğunu öğretir. Davranış ile geçim arasında ahlaki bir bağa dikkat çeker ve müminleri, itaatsizliğin mahrumiyete sebep olabileceği konusunda uyarır.",
-          "ur": "یہ حدیث بتاتی ہے کہ گناہوں کے دنیاوی اثرات ہوتے ہیں، جن میں انسان کے رزق کی تنگی بھی شامل ہے۔ یہ کردار اور معاش کے درمیان ایک اخلاقی تعلق کو واضح کرتی ہے، اور اہلِ ایمان کو خبردار کرتی ہے کہ نافرمانی محرومی کا سبب بن سکتی ہے۔",
-          "zh": "这段圣训教导说，罪过在今世会带来后果，其中包括一个人的给养被限制。它强调了行为与生计之间的道德联系，并警告信士，违抗可能成为被剥夺的原因。"
-        },
         "tags": [
           "ethics",
           "economy",

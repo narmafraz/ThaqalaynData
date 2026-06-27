@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ عَلِيِّ بْنِ مَحْبُوبٍ عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ وَمُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ عَنِ الْحَسَنِ بْنِ عَلِيِّ بْنِ فَضَّالٍ عَنْ عَبْدِ اللَّهِ بْنِ أَيُّوبَ عَنِ الْحُسَيْنِ بْنِ عُثْمَانَ عَنْ أَبِي عَمْرٍو الطَّبِيبِ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন আলী ইবন মাহবুব, আহমদ ইবন মুহাম্মদ ও মুহাম্মদ ইবন আবদ আল-জাব্বার থেকে, আল-হাসান ইবন আলী ইবন ফাদ্দাল থেকে, আবদুল্লাহ ইবন আইয়ুব থেকে, আল-হুসাইন ইবন উসমান থেকে, আবু আমর আল-তাবিব থেকে, আবু আবদুল্লাহ عليه السلام থেকে।",
-              "de": "Muhammad ibn Ali ibn Mahbub, von Ahmad ibn Muhammad und Muhammad ibn Abd al-Jabbar, von al-Hasan ibn Ali ibn Faddal, von Abd Allah ibn Ayyub, von al-Husayn ibn Uthman, von Abu Amr al-Tabib, von Abu Abd Allah عليه السلام.",
-              "en": "Muhammad ibn 'Ali ibn Mahbub, from Ahmad ibn Muhammad and Muhammad ibn 'Abd al-Jabbar, from al-Hasan ibn 'Ali ibn Faddal, from 'Abd Allah ibn Ayyub, from al-Husayn ibn 'Uthman, from Abu 'Amr al-Tabib, from Abu 'Abd Allah عليه السلام.",
-              "es": "Muhammad ibn Ali ibn Mahbub, de Ahmad ibn Muhammad y Muhammad ibn Abd al-Jabbar, de al-Hasan ibn Ali ibn Faddal, de Abd Allah ibn Ayyub, de al-Husayn ibn Uthman, de Abu Amr al-Tabib, de Abu Abd Allah عليه السلام.",
-              "fa": "محمد بن علی بن محبوب، از احمد بن محمد و محمد بن عبدالجبار، از حسن بن علی بن فضال، از عبدالله بن ایوب، از حسین بن عثمان، از ابوعمرو طبیب، از ابوعبدالله علیه‌السلام.",
-              "fr": "Muhammad ibn Ali ibn Mahbub, d’Ahmad ibn Muhammad et de Muhammad ibn Abd al-Jabbar, d’al-Hasan ibn Ali ibn Faddal, d’Abd Allah ibn Ayyub, d’al-Husayn ibn Uthman, d’Abu Amr al-Tabib, d’Abu Abd Allah عليه السلام.",
-              "id": "Muhammad ibn Ali ibn Mahbub, dari Ahmad ibn Muhammad dan Muhammad ibn Abd al-Jabbar, dari al-Hasan ibn Ali ibn Faddal, dari Abd Allah ibn Ayyub, dari al-Husayn ibn Uthman, dari Abu Amr al-Tabib, dari Abu Abd Allah عليه السلام.",
-              "ru": "Мухаммад ибн Али ибн Махбуб, от Ахмада ибн Мухаммада и Мухаммада ибн Абд аль-Джаббара, от аль-Хасана ибн Али ибн Фаддаля, от Абд Аллаха ибн Айюба, от аль-Хусейна ибн Усмана, от Абу Амра ат-Табиба, от Абу Абдуллаха عليه السلام.",
-              "tr": "Muhammed ibn Ali ibn Mahbub, Ahmed ibn Muhammed ve Muhammed ibn Abdülcebbâr’dan, el-Hasan ibn Ali ibn Faddal’dan, Abdullah ibn Eyyub’dan, el-Hüseyin ibn Osman’dan, Ebu Amr et-Tabib’den, Ebu Abdullah عليه السلام’dan.",
-              "ur": "محمد بن علی بن محبوب، احمد بن محمد اور محمد بن عبد الجبار سے، حسن بن علی بن فضال سے، عبد اللہ بن ایوب سے، حسین بن عثمان سے، ابو عمرو طبیب سے، ابو عبد اللہ علیہ السلام سے۔",
-              "zh": "穆罕默德·伊本·阿里·伊本·马赫布卜，传自艾哈迈德·伊本·穆罕默德和穆罕默德·伊本·阿卜杜勒-贾巴尔，传自哈桑·伊本·阿里·伊本·法达勒，传自阿卜杜拉·伊本·艾尤卜，传自侯赛因·伊本·奥斯曼，传自阿布·阿姆尔·塔比卜，传自阿布·阿卜杜拉 عليه السلام。"
-            },
             "word_end": 38,
             "word_start": 0
           },
           {
             "arabic_text": "فِي رَجُلٍ اقْتَضَّ جَارِيَةً بِإِصْبَعِهِ فَخَرَقَ مَثَانَتَهَا فَلَا تَمْلِكُ بَوْلَهَا، فَجَعَلَ لَهَا ثُلُثَ الدِّيَةِ مِائَةً وَسِتَّةً وَسِتِّينَ دِينَارًا وَثُلُثَيْ دِينَارٍ، وَقَضَى لَهَا عَلَيْهِ بِصَدَاقِ مِثْلِ نِسَاءِ قَوْمِهَا.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন পুরুষ সম্পর্কে, যে তার আঙুল দিয়ে এক দাসীকে বিদীর্ণ করেছিল এবং তার মূত্রথলি ছিঁড়ে ফেলেছিল, ফলে সে তার প্রস্রাব ধরে রাখতে পারত না: তার জন্য দিয়ার এক-তৃতীয়াংশ নির্ধারণ করা হয়েছিল, অর্থাৎ একশ ছেষট্টি দিনার এবং এক দিনারের দুই-তৃতীয়াংশ, এবং তিনি তার বিরুদ্ধে তার সম্প্রদায়ের নারীদের সমপর্যায়ের মোহর ধার্য করেন।",
-              "de": "Über einen Mann, der mit seinem Finger eine Sklavin verletzte und ihre Blase zerriss, sodass sie ihren Urin nicht mehr halten konnte: Er setzte für sie ein Drittel der Diyah fest, nämlich einhundertsechsundsechzig Dinar und zwei Drittel eines Dinars, und er entschied, dass er ihr gegenüber die Brautgabe in Höhe der Frauen ihres Volkes schulde.",
-              "en": "Concerning a man who ruptured a slave-girl with his finger and tore her bladder so that she could not control her urine: he assigned for her one-third of the diyah, one hundred and sixty-six dinars and two-thirds of a dinar, and he ruled that he was liable to her for the dowry equivalent of the women of her people.",
-              "es": "Acerca de un hombre que desgarró a una esclava con su dedo y le rompió la vejiga, de modo que no podía controlar su orina: le asignó un tercio de la diyah, es decir, ciento sesenta y seis dinares y dos tercios de un dinar, y dictaminó que él debía para ella una dote equivalente a la de las mujeres de su pueblo.",
-              "fa": "دربارهٔ مردی که با انگشت خود کنیزی را پاره کرد و مثانهٔ او را درید، به‌گونه‌ای که دیگر نمی‌توانست بول خود را نگه دارد: برای او یک‌سوم دیه را قرار داد، یعنی صد و شصت و شش دینار و دو سومِ یک دینار، و دربارهٔ او حکم کرد که مهرِ همانندِ زنانِ قومش بر عهدهٔ اوست.",
-              "fr": "Au sujet d’un homme qui a déchiré une esclave avec son doigt et lui a perforé la vessie, de sorte qu’elle ne pouvait plus retenir son urine : il lui a fixé un tiers de la diyah, soit cent soixante-six dinars et deux tiers de dinar, et il a jugé qu’il lui devait une dot équivalente à celle des femmes de son peuple.",
-              "id": "Tentang seorang laki-laki yang merobek seorang budak perempuan dengan jarinya dan merobek kandung kemihnya sehingga ia tidak dapat menahan kencingnya: ia menetapkan untuknya sepertiga diyah, yaitu seratus enam puluh enam dinar dan dua pertiga dinar, dan ia memutuskan bahwa ia wajib membayar mahar yang setara dengan mahar para perempuan dari kaumnya.",
-              "ru": "О мужчине, который пальцем лишил невольницу целомудрия и разорвал ей мочевой пузырь, так что она не могла удерживать мочу: для неё он назначил одну треть дийи, то есть сто шестьдесят шесть динаров и две трети динара, и постановил, что он обязан выплатить ей махр, равный махру женщин её народа.",
-              "tr": "Bir adamın, parmağıyla bir cariyeyi yarıp onun mesanesini yırtması ve böylece idrarını tutamaz hâle getirmesi hakkında: onun için diyetin üçte birini, yani yüz altmış altı dinar ve bir dinarın üçte ikisini belirledi ve onun hakkında, kendi kavminin kadınlarının mehrine denk bir mehir ödemesine hükmetti.",
-              "ur": "ایک شخص کے بارے میں کہ اس نے اپنی انگلی سے ایک لونڈی کی شرمگاہ کو پھاڑ دیا اور اس کی مثانہ پھاڑ دی، یہاں تک کہ وہ اپنا پیشاب روک نہ سکتی تھی: اس کے لیے دیت کا ایک تہائی مقرر کیا، یعنی ایک سو چھیاسٹھ دینار اور ایک دینار کا دو تہائی، اور اس پر اس کے لیے اس کی قوم کی عورتوں کے مہر کے برابر فیصلہ کیا۔",
-              "zh": "关于一个男人用手指刺破了一名女奴，并撕裂了她的膀胱，以致她不能控制自己的尿液：他为她判定三分之一的迪亚，即一百六十六第纳尔又三分之二第纳尔，并裁定他应向她支付相当于其族中妇女聘礼的赔偿。"
-            },
             "word_end": 65,
             "word_start": 38
           }
@@ -69,26 +56,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بَوْلَهَا": "her urine; here meaning urinary control",
-            "ثُلُثَ الدِّيَةِ": "one-third of the prescribed blood-compensation",
-            "جَارِيَةً": "a slave-girl or female bondswoman",
-            "دِينَارًا": "a dinar, a gold coin used as a legal measure of compensation",
-            "صَدَاقِ مِثْلِ": "the dowry equivalent customarily given to similar women",
-            "مَثَانَتَهَا": "her bladder"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "جَارِيَةً",
+          "مَثَانَتَهَا",
+          "بَوْلَهَا",
+          "ثُلُثَ الدِّيَةِ",
+          "دِينَارًا",
+          "صَدَاقِ مِثْلِ"
+        ],
         "related_quran": [
           {
             "ref": "4:92",
@@ -99,32 +74,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কোনো পুরুষ এক দাসীকে আঘাত করে এবং তার প্রস্রাব নিয়ন্ত্রণ হারিয়ে যায়, তবে কী বিধান?",
-          "de": "Was ist das Urteil, wenn ein Mann eine Sklavin verletzt und sie die Kontrolle über ihren Urin verliert?",
-          "en": "What is the ruling if a man injures a slave-girl and causes her to lose control of her urine?",
-          "es": "¿Cuál es la norma si un hombre hiere a una esclava y le hace perder el control de la orina?",
-          "fa": "اگر مردی به کنیزی آسیب بزند و باعث شود کنترل ادرار خود را از دست بدهد، حکم چیست؟",
-          "fr": "Quelle est la règle si un homme blesse une esclave et lui fait perdre le contrôle de son urine ?",
-          "id": "Apa hukumnya jika seorang laki-laki melukai seorang budak perempuan hingga ia kehilangan kendali atas kencingnya?",
-          "ru": "Каково постановление, если мужчина ранит невольницу и из-за этого она теряет контроль над мочеиспусканием?",
-          "tr": "Bir adam bir cariyeyi yaralayıp onun idrarını tutma kontrolünü kaybetmesine sebep olursa hüküm nedir?",
-          "ur": "اگر کوئی شخص ایک لونڈی کو زخمی کرے اور اس کا پیشاب پر قابو ختم ہو جائے تو حکم کیا ہے؟",
-          "zh": "如果一个男人伤害了一名女奴并使她失去对尿液的控制，判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে এক দাসীর ওপর সংঘটিত শারীরিক ক্ষতির শরঈ বিধান বর্ণিত হয়েছে, বিশেষত যখন সেই ক্ষতির ফলে প্রস্রাব নিয়ন্ত্রণ স্থায়ীভাবে হারিয়ে যায়। এতে আর্থিক ক্ষতিপূরণ হিসেবে দিয়ার এক-তৃতীয়াংশের সঙ্গে মোহরুল-মিসল নির্ধারণ করা হয়েছে, যা শিয়া ফিকহে শারীরিক ক্ষতি ও ক্ষতিপূরণমূলক দায়ের বিস্তারিত আলোচনাকে দেখায়।",
-          "de": "Dieser Hadith enthält eine rechtliche Entscheidung über eine körperliche Verletzung, die einer Sklavin zugefügt wurde, insbesondere wenn die Verletzung zu einem dauerhaften Verlust der Kontrolle über den Urin führt. Er legt als finanzielle Entschädigung ein Drittel der Diyah sowie mahr al-mithl fest und zeigt damit die detaillierte Behandlung von Körperschaden und Ausgleichshaftung im schiitischen Fiqh.",
-          "en": "This hadith gives a legal ruling concerning bodily injury inflicted upon a slave-girl, specifically when the injury causes permanent loss of urinary control. It specifies financial compensation as one-third of the diyah along with mahr al-mithl, showing the detailed treatment of bodily harm and compensatory liability in Shia fiqh.",
-          "es": "Este hadiz expone una norma jurídica sobre el daño corporal infligido a una esclava, especialmente cuando la lesión provoca la pérdida permanente del control de la orina. Especifica una compensación económica de un tercio de la diyah junto con el mahr al-mithl, mostrando el tratamiento detallado del daño corporal y la responsabilidad compensatoria en la fiqh chií.",
-          "fa": "این حدیث، حکم فقهیِ آسیب جسمانی واردشده بر یک کنیز را بیان می‌کند، به‌ویژه هنگامی که این آسیب به از دست رفتن دائمیِ کنترل ادرار بینجامد. در آن، به‌عنوان جبران مالی، یک‌سوم دیه همراه با مهرالمثل تعیین شده است و این، رسیدگی دقیق فقه شیعه به آسیب بدنی و مسئولیت جبرانی را نشان می‌دهد.",
-          "fr": "Ce hadith énonce une règle juridique concernant un préjudice corporel infligé à une esclave, en particulier lorsque la blessure entraîne une perte permanente du contrôle de l’urine. Il précise une compensation financière d’un tiers de la diyah ainsi que le mahr al-mithl, montrant le traitement détaillé du dommage corporel et de la responsabilité compensatoire dans le fiqh chiite.",
-          "id": "Hadis ini memberikan ketetapan hukum tentang cedera fisik yang menimpa seorang budak perempuan, khususnya ketika cedera itu menyebabkan hilangnya kemampuan mengendalikan kencing secara permanen. Disebutkan kompensasi مالی berupa sepertiga diyah bersama mahr al-mithl, yang menunjukkan rincian penanganan kerusakan fisik dan tanggung jawab ganti rugi dalam fikih Syiah.",
-          "ru": "Этот хадис содержит правовое постановление относительно телесного вреда, причинённого невольнице, особенно если повреждение приводит к постоянной утрате контроля над мочеиспусканием. В нём устанавливается денежная компенсация в размере одной трети дийи вместе с махр аль-мисль, что показывает детальное рассмотрение телесного вреда и компенсаторной ответственности в шиитском фикхе.",
-          "tr": "Bu hadis, bir cariyeye verilen bedensel zarara dair fıkhî hükmü, özellikle de bu zararın idrar kontrolünün kalıcı olarak kaybına yol açması hâlini ele alır. Mali tazminat olarak diyetin üçte biri ile mahr al-mithl belirlenir; bu da Şii fıkhında bedensel zarar ve tazmin sorumluluğunun ayrıntılı şekilde ele alındığını gösterir.",
-          "ur": "یہ حدیث ایک لونڈی پر جسمانی نقصان کے شرعی حکم کو بیان کرتی ہے، خاص طور پر جب اس نقصان سے پیشاب پر دائمی اختیار ختم ہو جائے۔ اس میں مالی معاوضہ کے طور پر دیت کا ایک تہائی اور مہرِ مثل مقرر کیا گیا ہے، جو شیعہ فقہ میں جسمانی ضرر اور معاوضاتی ذمہ داری کے تفصیلی حکم کو ظاہر کرتا ہے۔",
-          "zh": "这段圣训阐述了关于对一名女奴造成身体伤害的教法裁决，尤其是当伤害导致其永久失去控制尿液的能力时。它规定了三分之一的迪亚以及同等聘礼作为经济赔偿，显示了什叶派教法中对身体伤害和补偿责任的细致处理。"
-        },
         "tags": [
           "jurisprudence",
           "family",

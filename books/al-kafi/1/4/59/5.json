@@ -21,42 +21,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ عَنِ ابْنِ مَحْبُوبٍ عَنِ الْعَلَاءِ بْنِ رَزِينٍ عَنْ عَبْدِ اللَّهِ بْنِ أَبِي يَعْفُورٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন ইয়াহইয়া, মুহাম্মদ ইবন আল-হুসাইন থেকে, ইবন মাহবূব থেকে, আল-আলা ইবন রাযীন থেকে, আবদুল্লাহ ইবন আবি ইয়াফূর থেকে, আবি আবদিল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Muhammad ibn Yahya, von Muhammad ibn al-Husayn, von Ibn Mahbub, von al-‘Ala’ ibn Razin, von ‘Abdullah ibn Abi Ya‘fur, von Abi ‘Abdillah عليه السلام, der sagte:",
-              "en": "Muḥammad ibn Yaḥyā, from Muḥammad ibn al-Ḥusayn, from Ibn Maḥbūb, from al-ʿAlāʾ ibn Razīn, from ʿAbdullāh ibn Abī Yaʿfūr, from Abī ʿAbdillāh عليه السلام, who said:",
-              "es": "Muhammad ibn Yahya, de Muhammad ibn al-Husayn, de Ibn Mahbub, de al-‘Ala’ ibn Razin, de ‘Abdullah ibn Abi Ya‘fur, de Abi ‘Abdillah عليه السلام, quien dijo:",
-              "fa": "محمد بن یحیی، از محمد بن الحسین، از ابن محبوب، از العلاء بن رزین، از عبدالله بن ابی یعفور، از ابی عبدالله علیه السلام، که فرمود:",
-              "fr": "Muhammad ibn Yahya, d’après Muhammad ibn al-Husayn, d’après Ibn Mahbub, d’après al-‘Ala’ ibn Razin, d’après ‘Abdullah ibn Abi Ya‘fur, d’après Abi ‘Abdillah عليه السلام, qui a dit :",
-              "id": "Muhammad ibn Yahya, dari Muhammad ibn al-Husayn, dari Ibn Mahbub, dari al-‘Ala’ ibn Razin, dari ‘Abdullah ibn Abi Ya‘fur, dari Abi ‘Abdillah عليه السلام, yang berkata:",
-              "ru": "Мухаммад ибн Яхья, от Мухаммада ибн аль-Хусайна, от Ибн Махбуба, от аль-‘Аля ибн Разина, от ‘Абдуллаха ибн Аби Я‘фура, от Аби ‘Абдуллаха عليه السلام, который сказал:",
-              "tr": "Muhammed ibn Yahyâ, Muhammed ibn el-Hüseyin’den, İbn Mahbûb’dan, el-Alâ ibn Razîn’den, Abdullah ibn Ebî Ya‘fûr’dan, Ebû Abdillâh عليه السلام’dan rivayetle, şöyle dedi:",
-              "ur": "محمد بن یحیی، محمد بن الحسین سے، ابن محبوب سے، العلاء بن رزین سے، عبداللہ بن ابی یعفور سے، ابی عبداللہ علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "穆罕默德·伊本·叶哈雅，传自穆罕默德·伊本·侯赛因，传自伊本·马赫布卜，传自阿勒阿·伊本·拉兹因，传自阿卜杜拉·伊本·阿比·亚福尔，传自阿比·阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 27,
             "word_start": 0
           },
           {
             "arabic_text": "لَا يَمُوتُ الْإِمَامُ حَتَّى يَعْلَمَ مَنْ يَكُونُ مِنْ بَعْدِهِ فَيُوصِيَ إِلَيْهِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "ইমাম ততক্ষণ পর্যন্ত মৃত্যুবরণ করেন না, যতক্ষণ না তিনি জানেন তাঁর পরে কে হবে; অতঃপর তিনি তার কাছে ওসিয়ত করেন।",
-              "de": "Der Imam stirbt nicht, bis er weiß, wer nach ihm sein wird; dann vermacht er es ihm.",
-              "en": "The Imam does not die until he knows who will be after him, so he bequeaths to him.",
-              "es": "El Imam no muere hasta que sabe quién será después de él; entonces le hace el testamento.",
-              "fa": "امام نمی‌میرد تا آن‌که بداند پس از او چه کسی خواهد بود، پس به او وصیت می‌کند.",
-              "fr": "L’Imam ne meurt pas avant de savoir qui sera après lui ; alors il lui fait le legs.",
-              "id": "Imam tidak wafat sampai ia mengetahui siapa yang akan menjadi sesudahnya, lalu ia mewasiatkan kepadanya.",
-              "ru": "Имам не умирает, пока не узнает, кто будет после него; затем он завещает это ему.",
-              "tr": "İmam, kendisinden sonra kimin olacağını bilmedikçe vefat etmez; sonra ona vasiyet eder.",
-              "ur": "امام اس وقت تک وفات نہیں پاتا جب تک وہ نہ جان لے کہ اس کے بعد کون ہوگا، پھر وہ اسے وصیت کرتا ہے۔",
-              "zh": "伊玛目不会死，直到他知道自己之后将由谁继任，然后他便将其嘱托给他。"
-            },
             "word_end": 38,
             "word_start": 27
           }
@@ -129,58 +116,20 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِلَيْهِ": "to him, referring to the succeeding Imam",
-            "الْإِمَامُ": "the divinely appointed Imam",
-            "فَيُوصِيَ": "so he bequeaths or appoints by testament",
-            "مِنْ بَعْدِهِ": "after him, meaning his successor",
-            "يَعْلَمَ": "knows with certainty",
-            "يَمُوتُ": "dies or passes away"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْإِمَامُ",
+          "يَمُوتُ",
+          "يَعْلَمَ",
+          "مِنْ بَعْدِهِ",
+          "فَيُوصِيَ",
+          "إِلَيْهِ"
+        ],
         "related_quran": [
           {
             "ref": "4:58",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম কীভাবে জানেন যে তাঁর মৃত্যুর পর কে তাঁর উত্তরসূরি হবে?",
-          "de": "Wie weiß der Imam, wer ihm nach seinem Tod nachfolgen wird?",
-          "en": "How does an Imam know who will succeed him after his death?",
-          "es": "¿Cómo sabe el Imam quién lo sucederá después de su muerte?",
-          "fa": "امام چگونه می‌داند پس از وفاتش چه کسی جانشین او خواهد شد؟",
-          "fr": "Comment l’Imam sait-il qui lui succédera après sa mort ?",
-          "id": "Bagaimana Imam mengetahui siapa yang akan menggantikannya setelah wafatnya?",
-          "ru": "Как Имам узнаёт, кто станет его преемником после его смерти?",
-          "tr": "İmam, vefatından sonra kendisinden kimin halef olacağını nasıl bilir?",
-          "ur": "امام اپنی وفات کے بعد اپنے جانشین کو کیسے جانتا ہے؟",
-          "zh": "伊玛目如何知道谁会在他去世后继任他？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে বলা হয়েছে যে ইমাম তাঁর মৃত্যুর আগে জানেন, তাঁর পরে কে ইমাম হবেন। এটি মনোনয়ন ও ওসিয়তের মাধ্যমে কর্তৃত্বের আমানতভিত্তিক ও ধারাবাহিক স্থানান্তরকে নির্দেশ করে।",
-          "de": "Dieser Hadith besagt, dass der Imam vor seinem Tod den Imam kennt, der ihm nachfolgen wird. Er weist auf eine anvertraute und fortlaufende Weitergabe der Autorität durch Ernennung und Vermächtnis hin.",
-          "en": "This hadith states that the Imam knows the Imam who will succeed him before his death. It indicates an entrusted and continuous transmission of authority through designation and bequest.",
-          "es": "Este hadiz afirma que el Imam conoce al Imam que lo sucederá antes de su muerte. Indica una transmisión confiada y continua de la autoridad mediante designación y testamento.",
-          "fa": "این حدیث بیان می‌کند که امام پیش از وفات، امامی را که پس از او جانشین خواهد شد می‌شناسد. این امر بر انتقالِ امانت‌دارانه و پیوستهٔ ولایت از طریق تعیین و وصیت دلالت دارد.",
-          "fr": "Ce hadith affirme que l’Imam connaît l’Imam qui lui succédera avant sa mort. Il indique une transmission confiée et continue de l’autorité par désignation et legs.",
-          "id": "Hadis ini menyatakan bahwa Imam mengetahui Imam yang akan menggantikannya sebelum wafatnya. Ini menunjukkan adanya kesinambungan otoritas yang diamanahkan melalui penunjukan dan wasiat.",
-          "ru": "Этот хадис сообщает, что Имам знает Имама, который станет его преемником, ещё до своей смерти. Это указывает на доверенную и непрерывную передачу власти через назначение и завещание.",
-          "tr": "Bu hadis, İmam’ın vefatından önce kendisinden sonra gelecek İmam’ı bildiğini ve otoritenin tayin ve vasiyet yoluyla emanet edilen kesintisiz bir şekilde aktarıldığını belirtir.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ امام اپنی وفات سے پہلے اس امام کو جانتا ہے جو اس کے بعد اس کا جانشین ہوگا، اور امامت کی ذمہ داری نامزدگی اور وصیت کے ذریعے مسلسل منتقل ہوتی رہتی ہے۔",
-          "zh": "这段圣训说明，伊玛目在去世前就知道谁将继任他。这表明权威是通过指定和遗嘱而被托付并持续传承的。"
-        },
         "tags": [
           "theology",
           "knowledge",

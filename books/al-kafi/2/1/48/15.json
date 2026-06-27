@@ -14,6 +14,151 @@
       "up": "/books/al-kafi:2:1:48"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "أَبُو عَلِيٍّ الْأَشْعَرِيُّ عَنْ عِيسَى بْنِ أَيُّوبَ عَنْ عَلِيِّ بْنِ مَهْزِيَارَ عَنِ الْقَاسِمِ بْنِ مُحَمَّدٍ عَنْ إِسْمَاعِيلَ بْنِ أَبِي الْحَسَنِ عَنْ رَجُلٍ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 31,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "مَنْ أَنْعَمَ اللَّهُ عَلَيْهِ بِنِعْمَةٍ فَعَرَفَهَا بِقَلْبِهِ فَقَدْ أَدَّى شُكْرَهَا",
+            "chunk_type": "body",
+            "word_end": 41,
+            "word_start": 31
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 19,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبُو عَلِيٍّ الْأَشْعَرِيُّ",
+              "name_en": "Abu Ali al-Ash'ari",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 808,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِيسَى بْنِ أَيُّوبَ",
+              "name_en": "Isa b. Ayyub",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 81,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ مَهْزِيَارَ",
+              "name_en": "Ali ibn Mahziyar",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 82,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْقَاسِمِ بْنِ مُحَمَّدٍ",
+              "name_en": "al-Qasim ibn Muhammad",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2432,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "إِسْمَاعِيلَ بْنِ أَبِي الْحَسَنِ",
+              "name_en": "Ismail b. Abi al-Hasan",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 60,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "رَجُلٍ",
+              "name_en": "a man",
+              "position": 6,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 7,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "نِعْمَةٍ",
+          "شُكْرَهَا",
+          "قَلْبِهِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "14:7",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:152",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:7",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "theology"
+        ],
+        "topics": [
+          "gratitude",
+          "divine_attributes"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (8/157)"
       ],
@@ -103,7 +248,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:1:48:15",

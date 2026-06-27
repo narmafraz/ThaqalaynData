@@ -13,6 +13,153 @@
       "up": "/books/al-kafi:4:3:188"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ مُحَمَّدِ بْنِ الْحَسَنِ عَنْ إِبْرَاهِيمَ بْنِ مُسْلِمٍ عَنْ أَبِي شِبْلٍ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 27,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "إِنَّ الْمُؤْمِنَ إِذَا حَلَقَ رَأْسَهُ بِمِنًى ثُمَّ دَفَنَهُ جَاءَ يَوْمَ الْقِيَامَةِ وَ كُلُّ شَعْرَةٍ لَهَا لِسَانٌ طَلْقٌ تُلَبِّي بِاسْمِ صَاحِبِهَا",
+            "chunk_type": "body",
+            "word_end": 47,
+            "word_start": 27
+          }
+        ],
+        "content_type": "eschatological",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 90,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ الْحَسَنِ",
+              "name_en": "Muhammad ibn al-Hasan",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1839,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "إِبْرَاهِيمَ بْنِ مُسْلِمٍ",
+              "name_en": "Ibrahim b. Muslim",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 522,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي شِبْلٍ",
+              "name_en": "Abu Shibl",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "theological_concept",
+            "phrase_ar": "يَوْمُ الْقِيَامَةِ",
+            "phrase_en": "Day of Resurrection"
+          }
+        ],
+        "key_terms_keys": [
+          "مِنًى",
+          "يَوْمَ الْقِيَامَةِ",
+          "لِسَانٌ طَلْقٌ",
+          "تُلَبِّي",
+          "صَاحِبِهَا"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:158",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "22:27",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "36:65",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "24:24",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "worship",
+          "afterlife"
+        ],
+        "topics": [
+          "hajj",
+          "resurrection",
+          "paradise_hell"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (18/185)"
       ],
@@ -93,7 +240,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:4:3:188:1",

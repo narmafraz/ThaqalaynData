@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَ دَاوُدُ بْنُ أَبِي زَيْدٍ أَبَا الْحَسَنِ الثَّالِثَ عَلَيْهِ السَّلَامُ: عَنِ الْقَرَاطِيسِ وَالْكَوَاغِذِ الْمَكْتُوبَةِ عَلَيْهَا هَلْ يَجُوزُ عَلَيْهَا السُّجُودُ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "দাউদ ইবনে আবি জায়েদ আবু আল-হাসান আল-সালিথ عليه السلام-এর কাছে জিজ্ঞাসা করলেন কাগজপত্র ও লিখিত নথি সম্পর্কে: এগুলোর উপর সিজদাহ করা কি جائز?",
-              "de": "Dawud ibn Abi Zayd fragte Abū al-Ḥasan al-Thālith عليه السلام bezüglich beschriebener Papiere und Dokumente: Ist die Niederwerfung darauf erlaubt?",
-              "en": "Dawud ibn Abi Zayd asked Abū al-Ḥasan al-Thālith عليه السلام about papers and documents written upon: is prostration upon them permissible?",
-              "es": "Dawud ibn Abi Zayd preguntó a Abū al-Ḥasan al-Thālith عليه السلام sobre los papeles y documentos escritos: ¿es permisible hacer la prosternación sobre ellos?",
-              "fa": "داوود بن ابی زید از ابوالحسن الثالث علیه السلام درباره کاغذها و اسناد نوشته شده پرسید: آیا سجده بر آنها جایز است؟",
-              "fr": "Dawud ibn Abi Zayd a demandé à Abū al-Ḥasan al-Thālith عليه السلام au sujet des papiers et documents écrits : est-il permis de faire la prosternation dessus ?",
-              "id": "Dawud ibn Abi Zayd bertanya kepada Abū al-Ḥasan al-Thālith علیه السلام tentang kertas dan dokumen yang tertulis: apakah sujud di atasnya diperbolehkan?",
-              "ru": "Давуд ибн Аби Зайд спросил у Абу аль-Хасана аль-Салис عليه السلام о бумагах и документах с надписями: разрешена ли на них просящаяся (суджуд)?",
-              "tr": "Dâvud ibn Ebî Zeyd, Abū al-Ḥasan al-Thālith عليه السلام'a yazılı kağıtlar ve belgeler hakkında sordu: Üzerlerine secde etmek caiz midir?",
-              "ur": "داؤد ابن ابی زید نے ابو الحسن الثالث علیہ السلام سے کاغذات اور دستاویزات پر جو لکھے ہوئے ہوں: کیا ان پر سجدہ کرنا جائز ہے؟",
-              "zh": "达乌德伊本阿比扎伊德向阿布哈桑艾萨利斯 عليه السلام询问关于写有文字的纸张和文件：是否允许在其上行跪拜？"
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "فَكَتَبَ «يَجُوزُ».",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তাহলে তিনি লিখলেন: “এটি جائز।”",
-              "de": "So schrieb er: „Es ist erlaubt.“",
-              "en": "So he wrote: “It is permissible.”",
-              "es": "Entonces escribió: “Es permisible.”",
-              "fa": "پس نوشت: «جایز است.»",
-              "fr": "Alors il écrivit : « C’est permis. »",
-              "id": "Lalu beliau menulis: “Diperbolehkan.”",
-              "ru": "Он написал: «Это разрешено.»",
-              "tr": "Bunun üzerine yazdı: “Caizdir.”",
-              "ur": "تو انہوں نے لکھا: \"یہ جائز ہے۔\"",
-              "zh": "于是他写道：“这是允许的。”"
-            },
             "word_end": 21,
             "word_start": 19
           }
@@ -71,24 +58,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "السُّجُودُ": "prostration in salat (prayer)",
-            "الْقَرَاطِيسِ": "papers or sheets used for writing",
-            "الْكَوَاغِذِ": "documents or paper materials",
-            "يَجُوزُ": "it is permissible or allowed"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْقَرَاطِيسِ",
+          "الْكَوَاغِذِ",
+          "السُّجُودُ",
+          "يَجُوزُ"
+        ],
         "related_quran": [
           {
             "ref": "96:19",
@@ -99,32 +74,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে কাগজ বা লিখিত নথির উপর সিজদাহ করা কি جائز?",
-          "de": "Ist es im schiitischen Fiqh erlaubt, auf Papier oder geschriebenen Dokumenten die Niederwerfung zu vollziehen?",
-          "en": "Is it permissible to perform sajdah on paper or written documents in Shia fiqh?",
-          "es": "¿Es permisible realizar la prosternación sobre papel o documentos escritos en la fiqh chií?",
-          "fa": "آیا در فقه شیعه سجده بر روی کاغذ یا اسناد نوشته شده جایز است؟",
-          "fr": "Est-il permis d’effectuer la prosternation sur du papier ou des documents écrits en fiqh chiite ?",
-          "id": "Apakah dalam fikih Syiah diperbolehkan melakukan sujud di atas kertas atau dokumen tertulis?",
-          "ru": "Разрешено ли совершать суджуд на бумаге или письменных документах в шиизме?",
-          "tr": "Şii fıkhında kağıt veya yazılı belgeler üzerinde secde etmek caiz midir?",
-          "ur": "کیا شیعہ فقہ میں کاغذ یا لکھے ہوئے دستاویزات پر سجدہ کرنا جائز ہے؟",
-          "zh": "在什叶派教法中允许在纸张或书写文件上行跪拜吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি কাগজপত্র ও লিখিত পৃষ্ঠাগুলোর উপর সিজদাহ সম্পর্কে শারঈ হুকুম প্রদান করে। ইমাম আবু আল-হাসান আল-সালিথ عليه السلام জবাব দিয়েছেন যে এগুলোর উপর সিজদাহ করা جائز, যা এই প্রসঙ্গে সিজদাহর জন্য তাদের গ্রহণযোগ্যতা নির্দেশ করে।",
-          "de": "Dieser Hadith gibt eine Rechtsmeinung bezüglich der Niederwerfung auf beschriebenen Papieren und Blättern. Imam Abū al-Ḥasan al-Thālith عليه السلام antwortete, dass die Niederwerfung darauf erlaubt ist, was ihre Akzeptanz als Niederwerfungsfläche in diesem Kontext anzeigt.",
-          "en": "This hadith gives a legal ruling concerning sajdah on papers and written sheets. Imam Abū al-Ḥasan al-Thālith عليه السلام replied that prostration on them is permissible, indicating their acceptability as a surface for sajdah in this context.",
-          "es": "Este hadiz ofrece un fallo legal sobre la prosternación en papeles y hojas escritas. El Imam Abū al-Ḥasan al-Thālith عليه السلام respondió que la prosternación sobre ellos es permisible, indicando su aceptación como superficie para la prosternación en este contexto.",
-          "fa": "این حدیث حکم شرعی درباره سجده بر روی کاغذها و ورق‌های نوشته شده را بیان می‌کند. امام ابوالحسن الثالث علیه السلام پاسخ داد که سجده بر آنها جایز است که نشان‌دهنده پذیرش آنها به عنوان سطحی برای سجده در این زمینه است.",
-          "fr": "Ce hadith donne un jugement légal concernant la prosternation sur des papiers et feuilles écrites. L’Imam Abū al-Ḥasan al-Thālith عليه السلام a répondu que la prosternation sur eux est permise, indiquant leur acceptabilité comme surface de prosternation dans ce contexte.",
-          "id": "Hadis ini memberikan hukum mengenai sujud di atas kertas dan lembaran tertulis. Imam Abū al-Ḥasan al-Thālith علیه السلام menjawab bahwa sujud di atasnya diperbolehkan, menunjukkan penerimaan mereka sebagai permukaan sujud dalam konteks ini.",
-          "ru": "Этот хадис содержит правовое постановление относительно суджуда на бумагах и написанных листах. Имам Абу аль-Хасан аль-Салис عليه السلام ответил, что суджуд на них разрешён, что указывает на их приемлемость в качестве поверхности для суджуда в данном контексте.",
-          "tr": "Bu hadis, kağıtlar ve yazılı sayfalar üzerinde secde hakkında hukuki bir hüküm verir. İmam Abū al-Ḥasan al-Thālith عليه السلام, üzerlerine secde etmenin caiz olduğunu cevapladı ve bu bağlamda secde için uygun olduklarını gösterdi.",
-          "ur": "یہ حدیث کاغذات اور لکھے ہوئے صفحات پر سجدہ کے بارے میں شرعی حکم بیان کرتی ہے۔ امام ابو الحسن الثالث علیہ السلام نے جواب دیا کہ ان پر سجدہ کرنا جائز ہے، جو اس سیاق میں سجدہ کے لیے ان کی قبولیت کو ظاہر کرتا ہے۔",
-          "zh": "此圣训就纸张和书写纸上的跪拜给出了法律裁决。伊玛目阿布哈桑艾萨利斯 عليه السلام回答说，在其上跪拜是允许的，表明在此情境下它们作为跪拜表面的可接受性。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

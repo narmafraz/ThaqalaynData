@@ -15,6 +15,137 @@
       "up": "/books/al-kafi:8:1:45"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ أَحْمَدَ عَنْ عَبْدِ اللَّهِ بْنِ الصَّلْتِ عَنْ يُونُسَ عَمَّنْ ذَكَرَهُ عَنْ أَبِي بَصِيرٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 16,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قَالَ أَبُو عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) يَا أَبَا مُحَمَّدٍ إِنَّ لِلَّهِ عَزَّ وَ جَلَّ مَلَائِكَةً يُسْقِطُونَ الذُّنُوبَ عَنْ ظُهُورِ شِيعَتِنَا كَمَا تُسْقِطُ الرِّيحُ الْوَرَقَ مِنَ الشَّجَرِ فِي أَوَانِ سُقُوطِهِ",
+            "chunk_type": "body",
+            "word_end": 45,
+            "word_start": 16
+          },
+          {
+            "arabic_text": "وَذَلِكَ قَوْلُهُ عَزَّ وَ جَلَّ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ...",
+            "chunk_type": "quran_quote",
+            "word_end": 53,
+            "word_start": 45
+          },
+          {
+            "arabic_text": "وَ يَسْتَغْفِرُونَ لِلَّذِينَ آمَنُوا وَ اللَّهِ مَا أَرَادَ بِهَذَا غَيْرَكُمْ.",
+            "chunk_type": "body",
+            "word_end": 63,
+            "word_start": 53
+          }
+        ],
+        "content_type": "theological",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 59,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ أَحْمَدَ",
+              "name_en": "Muhammad ibn Ahmad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 593,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللَّهِ بْنِ الصَّلْتِ",
+              "name_en": "Abd Allah b. al-Salt",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": null,
+              "identity_confidence": "ambiguous",
+              "known_identity": null,
+              "name_ar": "يُونُسَ عَمَّنْ ذَكَرَهُ",
+              "name_en": "Yunus 'an man dhakarahu",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 14,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي بَصِيرٍ",
+              "name_en": "Abu Basir",
+              "position": 4,
+              "role": "companion"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "مَلَائِكَة",
+          "يُسْقِطُونَ الذُّنُوب",
+          "شِيعَتِنَا",
+          "يَسْتَغْفِرُونَ",
+          "لِلَّذِينَ آمَنُوا"
+        ],
+        "related_quran": [
+          {
+            "ref": "40:7",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "3:185",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:53",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "theology",
+          "quran_commentary",
+          "afterlife"
+        ],
+        "topics": [
+          "divine_attributes",
+          "quran_interpretation_method",
+          "imams_biography"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 387)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -87,7 +218,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:45:14",

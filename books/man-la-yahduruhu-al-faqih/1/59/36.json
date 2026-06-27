@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ سَأَلَ عَمَّارٌ السَّابَاطِيُّ، أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ: عَنْ حَدِّ الطِّينِ الَّذِي لَا يُسْجَدُ فِيهِ مَا هُوَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং ʿআম্মার আল-সাবাতী আবা ʿআব্দিল্লাহ عليه السلام-এর কাছে এমন মাটির সীমা সম্পর্কে জিজ্ঞাসা করলেন যেখানে সিজদা করা হয় না: তা কী?",
-              "de": "Und ʿAmmār al-Sābāṭī fragte Abā ʿAbdillāh عليه السلام nach der Grenze des Schlamms, in dem keine Sajdah verrichtet wird: Was ist das?",
-              "en": "And ʿAmmār al-Sābāṭī asked Abā ʿAbdillāh عليه السلام about the limit of mud in which sajdah is not performed: what is it?",
-              "es": "Y ʿAmmār al-Sābāṭī preguntó a Abā ʿAbdillāh عليه السلام sobre el límite del barro en el que no se realiza sajdah: ¿qué es?",
-              "fa": "و ʿعمار الساباطی از ابا عبدالله علیه السلام درباره حد گل که در آن سجده انجام نمی‌شود پرسید: آن چیست؟",
-              "fr": "Et ʿAmmār al-Sābāṭī a demandé à Abā ʿAbdillāh عليه السلام quelle est la limite de la boue dans laquelle on ne fait pas de sajdah : qu’est-ce que c’est ?",
-              "id": "Dan ʿAmmār al-Sābāṭī bertanya kepada Abā ʿAbdillāh علیه السلام tentang batas lumpur yang tidak boleh dilakukan sajdah: apa itu?",
-              "ru": "И ʿАммар ас-Сабати спросил Абā ʿАбдиллах عليه السلام о границе грязи, в которой не совершается саджда: что это такое?",
-              "tr": "Ve ʿAmmār al-Sābāṭī, Abā ʿAbdillāh عليه السلام'a, secde yapılmayan çamurun sınırını sordu: nedir o?",
-              "ur": "اور عمار السباتی نے ابا عبداللہ علیہ السلام سے اس مٹی کی حد کے بارے میں پوچھا جس میں سجدہ نہیں کیا جاتا: وہ کیا ہے؟",
-              "zh": "ʿAmmāral-Sābāṭī向AbāʿAbdillāhعليهالسلام询问了不能在其中行礼拜的泥土的界限：那是什么？"
-            },
             "word_end": 18,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ «إِذَا غَرِقَتْ فِيهِ الْجَبْهَةُ وَ لَمْ تَثْبُتْ عَلَى الْأَرْضِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: \"যখন মুণ্ডমুণ্ড এতে ডুবে যায় এবং মাটিতে দৃঢ় থাকে না।\"",
-              "de": "Er sagte: „Wenn die Stirn darin einsinkt und nicht fest auf dem Boden bleibt.“",
-              "en": "He said: \"When the forehead sinks into it and does not remain firm upon the ground.\"",
-              "es": "Él dijo: \"Cuando la frente se hunde en ella y no permanece firme sobre la tierra.\"",
-              "fa": "فرمود: «وقتی که پیشانی در آن فرو رود و بر زمین ثابت نماند.»",
-              "fr": "Il a dit : « Lorsque le front s’enfonce dedans et ne reste pas ferme sur le sol. »",
-              "id": "Beliau berkata: \"Ketika dahi tenggelam di dalamnya dan tidak tetap di atas tanah.\"",
-              "ru": "Он сказал: «Когда лоб погружается в неё и не остается устойчивым на земле.»",
-              "tr": "O dedi ki: \"Alın içine batarsa ve yere sağlam basmazsa.\"",
-              "ur": "انہوں نے فرمایا: \"جب ماتھا اس میں ڈوب جائے اور زمین پر مضبوطی سے نہ ٹکے۔\"",
-              "zh": "他说：“当额头陷入其中且不能稳固地贴在地面上。”"
-            },
             "word_end": 28,
             "word_start": 18
           }
@@ -92,25 +79,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الطِّينِ": "mud or clay ground being considered for sajdah",
-            "الْجَبْهَةُ": "the forehead, the part placed on the ground in sajdah",
-            "تَثْبُتْ": "remains firm and stable",
-            "حَدِّ": "the limit or defining measure of a ruling",
-            "لَا يُسْجَدُ": "is not suitable for performing prostration"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "حَدِّ",
+          "الطِّينِ",
+          "لَا يُسْجَدُ",
+          "الْجَبْهَةُ",
+          "تَثْبُتْ"
+        ],
         "related_quran": [
           {
             "ref": "17:107",
@@ -121,32 +96,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "নামাজে বৈধ সিজদার জন্য কাদামাটি কখন খুব নরম বা ভেজা হয়?",
-          "de": "Wann ist Schlamm für eine gültige Sajdah im Gebet zu weich oder nass?",
-          "en": "When is mud too soft or wet for valid sajdah in prayer?",
-          "es": "¿Cuándo el barro es demasiado blando o húmedo para una sajdah válida en la oración?",
-          "fa": "چه زمانی گل برای سجده صحیح در نماز بیش از حد نرم یا مرطوب است؟",
-          "fr": "Quand la boue est-elle trop molle ou humide pour une sajdah valide dans la prière ?",
-          "id": "Kapan lumpur terlalu lunak atau basah untuk sajdah yang sah dalam shalat?",
-          "ru": "Когда грязь слишком мягкая или влажная для действительной саджда в молитве?",
-          "tr": "Namazda geçerli secde için çamur ne zaman çok yumuşak veya ıslak olur?",
-          "ur": "نماز میں صحیح سجدے کے لیے کیچڑ کب بہت نرم یا گیلا ہوتا ہے؟",
-          "zh": "泥土何时过软或过湿以致礼拜中的礼拜无效？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি একটি ফিকহী মানদণ্ড প্রদান করে কখন কাদামাটি সিজদার জন্য উপযুক্ত নয়। মাপদণ্ড হলো মুণ্ডমুণ্ড কাদায় ডুবে যায় এবং সিজদার সময় মাটিতে দৃঢ় থাকে না।",
-          "de": "Dieser Hadith gibt ein rechtliches Kriterium dafür, wann schlammiger Boden für die Sajdah ungeeignet ist. Das Maß ist, ob die Stirn im Schlamm einsinkt und während der Niederwerfung nicht fest auf dem Boden bleibt.",
-          "en": "This hadith gives a legal criterion for when muddy ground is unsuitable for sajdah. The measure is whether the forehead sinks into the mud and cannot remain firm on the ground during prostration.",
-          "es": "Este hadiz proporciona un criterio legal para cuando el suelo lodoso no es adecuado para la sajdah. La medida es si la frente se hunde en el barro y no puede mantenerse firme en el suelo durante la postración.",
-          "fa": "این حدیث معیار فقهی برای زمانی که زمین گل‌آلود برای سجده مناسب نیست ارائه می‌دهد. معیار این است که پیشانی در گل فرو رود و در هنگام سجده بر زمین ثابت نماند.",
-          "fr": "Ce hadith donne un critère légal pour déterminer quand le sol boueux n’est pas adapté à la sajdah. La mesure est de savoir si le front s’enfonce dans la boue et ne peut pas rester ferme sur le sol pendant la prosternation.",
-          "id": "Hadis ini memberikan kriteria hukum kapan tanah berlumpur tidak cocok untuk sajdah. Ukurannya adalah apakah dahi tenggelam ke dalam lumpur dan tidak dapat tetap kokoh di tanah saat sujud.",
-          "ru": "Этот хадис даёт юридический критерий, когда грязная земля непригодна для саджда. Мера — если лоб погружается в грязь и не может оставаться устойчивым на земле во время поклонения.",
-          "tr": "Bu hadis, çamurlu zeminin secde için uygun olmadığına dair hukuki bir ölçüt verir. Ölçüt, alın çamura batıp secde sırasında yere sağlam basamamasıdır.",
-          "ur": "یہ حدیث اس بات کا فقہی معیار دیتی ہے کہ کب کیچڑ والی زمین سجدے کے لیے مناسب نہیں ہوتی۔ معیار یہ ہے کہ ماتھا کیچڑ میں ڈوب جائے اور سجدے کے دوران زمین پر مضبوطی سے نہ ٹکے۔",
-          "zh": "此圣训提供了泥泞地面不适合礼拜时的法律标准。标准是额头是否陷入泥中且在叩拜时不能稳固地贴地。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

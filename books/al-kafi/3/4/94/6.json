@@ -14,6 +14,141 @@
       "up": "/books/al-kafi:3:4:94"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ مُحَمَّدِ بْنِ عَبْدِ اللَّهِ عَنْ إِبْرَاهِيمَ بْنِ إِسْحَاقَ عَنْ عَبْدِ اللَّهِ بْنِ أَحْمَدَ عَنِ الْحَسَنِ بْنِ عُرْوَةَ ابْنِ أُخْتِ شُعَيْبٍ الْعَقَرْقُوفِيِّ عَنْ خَالِهِ شُعَيْبٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 27,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قَالَ أَبُو عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) مَنْ جَاعَ فَلْيَتَوَضَّأْ وَ لْيُصَلِّ رَكْعَتَيْنِ ثُمَّ يَقُولُ يَا رَبِّ إِنِّي جَائِعٌ فَأَطْعِمْنِي فَإِنَّهُ يُطْعَمُ مِنْ سَاعَتِهِ",
+            "chunk_type": "body",
+            "word_end": 52,
+            "word_start": 27
+          }
+        ],
+        "content_type": "supplication",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 274,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ مُحَمَّدِ بْنِ عَبْدِ اللَّهِ",
+              "name_en": "Ali ibn Muhammad ibn Abdillah",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 376,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "إِبْرَاهِيمَ بْنِ إِسْحَاقَ",
+              "name_en": "Ibrahim b. Isḥaq",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 706,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللَّهِ بْنِ أَحْمَدَ",
+              "name_en": "Abdullah ibn Ahmad",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2557,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحَسَنِ بْنِ عُرْوَةَ ابْنِ أُخْتِ شُعَيْبٍ الْعَقَرْقُوفِيِّ",
+              "name_en": "al-Ḥasan b. ʿUrwa b. ʾUkht Shuʿayb al-ʿAqarqūfī",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3139,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "خَالِهِ شُعَيْبٍ",
+              "name_en": "Kālihi Shuʿayb",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "وَضُوء",
+          "رَكْعَتَيْنِ",
+          "يَا رَبِّ",
+          "جَائِعٌ",
+          "فَأَطْعِمْنِي",
+          "مِنْ سَاعَتِهِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:156",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:201",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "7:96",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "11:6",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "worship",
+          "dua",
+          "jurisprudence"
+        ],
+        "topics": [
+          "prayer_rulings",
+          "specific_supplications",
+          "work_livelihood",
+          "ritual_purity"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (5/459)"
       ],
@@ -85,7 +220,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:4:94:6",

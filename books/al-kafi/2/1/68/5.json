@@ -14,6 +14,144 @@
       "up": "/books/al-kafi:2:1:68"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "وَعَنْهُ عَنِ الْحَسَنِ بْنِ مَحْبُوبٍ عَنْ عَمْرٍو بْنِ أَبِي الْمِقْدَامِ عَنْ جَابِرٍ عَنْ أَبِي جَعْفَرٍ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 20,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قَالَ رَسُولُ اللَّهِ ( صَلَّى اللَّهِ عَلَيْهِ وَآلِهِ ) أُوصِي الشَّاهِدَ مِنْ أُمَّتِي وَالْغَائِبَ مِنْهُمْ وَمَنْ فِي أَصْلَابِ الرِّجَالِ وَأَرْحَامِ النِّسَاءِ إِلَى يَوْمِ الْقِيَامَةِ أَنْ يَصِلَ الرَّحِمَ وَإِنْ كَانَتْ مِنْهُ عَلَى مَسِيرَةِ سَنَةٍ فَإِنَّ ذَلِكَ مِنَ الدِّينِ",
+            "chunk_type": "body",
+            "word_end": 57,
+            "word_start": 20
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 11,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَنْهُ",
+              "name_en": "from him",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 53,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحَسَنِ بْنِ مَحْبُوبٍ",
+              "name_en": "al-Hasan ibn Mahbub",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 269,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَمْرِو بْنِ أَبِي الْمِقْدَامِ",
+              "name_en": "Amr ibn Abi al-Miqdam",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 72,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "جَابِرٍ",
+              "name_en": "Jabir",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 9,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي جَعْفَرٍ ( عليه السلام )",
+              "name_en": "Abu Ja'far",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "theological_concept",
+            "phrase_ar": "يَوْمُ الْقِيَامَةِ",
+            "phrase_en": "Day of Resurrection"
+          },
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "قَالَ رَسُولُ اللَّهِ",
+            "phrase_en": "The Messenger of Allah said"
+          }
+        ],
+        "key_terms_keys": [
+          "صِلَةُ الرَّحِمِ",
+          "أَصْلَابِ الرِّجَالِ",
+          "أَرْحَامِ النِّسَاءِ",
+          "الدِّينِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "16:90",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "4:1",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "47:22",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "family",
+          "social_relations"
+        ],
+        "topics": [
+          "kinship",
+          "rights_of_others",
+          "sunnah"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (8/365)"
       ],
@@ -89,7 +227,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:1:68:5",

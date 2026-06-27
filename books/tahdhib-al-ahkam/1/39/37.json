@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَلِيُّ بْنُ مُحَمَّدٍ عَنْ بَعْضِ أَصْحَابِهِ عَنِ الْوَشَّاءِ عَنِ الْحُسَيْنِ بْنِ الْمُخْتَارِ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী ইবন মুহাম্মদ, তাঁর কিছু সঙ্গী থেকে, আল-ওয়াশশাʾ থেকে, আল-হুসাইন ইবন আল-মুখতার থেকে, আবি আবদিল্লাহ عليه السلام থেকে বর্ণিত, তিনি বলেছেন:",
-              "de": "ʿAlī ibn Muḥammad, von einigen seiner Gefährten, von al-Washshāʾ, von al-Ḥusayn ibn al-Mukhtār, von Abī ʿAbdillāh عليه السلام, der sagte:",
-              "en": "ʿAlī ibn Muḥammad, from some of his companions, from al-Washshāʾ, from al-Ḥusayn ibn al-Mukhtār, from Abī ʿAbdillāh عليه السلام, who said:",
-              "es": "ʿAlī ibn Muḥammad, de algunos de sus compañeros, de al-Washshāʾ, de al-Ḥusayn ibn al-Mukhtār, de Abī ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "علی بن محمد، از برخی از یارانش، از الوشّاء، از حسین بن مختار، از ابی‌عبدالله علیه‌السلام که فرمود:",
-              "fr": "ʿAlī ibn Muḥammad, d’après certains de ses compagnons, d’al-Washshāʾ, d’al-Ḥusayn ibn al-Mukhtār, d’Abī ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "ʿAli ibn Muhammad, dari sebagian sahabatnya, dari al-Washshaʾ, dari al-Husayn ibn al-Mukhtar, dari Abi ʿAbdillah عليه السلام, beliau bersabda:",
-              "ru": "ʿАли ибн Мухаммад, от некоторых своих сподвижников, от аль-Вашшаʾ, от аль-Хусайна ибн аль-Мухтара, от Аби ʿАбдуллаха عليه السلام, который сказал:",
-              "tr": "Ali ibn Muhammed, bazı arkadaşlarından, el-Veşşâ’dan, el-Hüseyin ibn el-Muhtâr’dan, Ebu Abdullah عليه السلام’dan rivayetle şöyle dedi:",
-              "ur": "علی بن محمد، اپنے بعض اصحاب سے، الوشّاء سے، الحسن بن المختار سے، ابی عبداللہ علیہ السلام سے روایت ہے، جنہوں نے فرمایا:",
-              "zh": "阿里·伊本·穆罕默德，传自他的一些同伴，传自al-Washshāʾ，传自al-Ḥusaynibn al-Mukhtār，传自阿比·ʿAbdillāh عليه السلام，他说："
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "لَا يُكَفَّنُ الْمَيِّتُ فِي السَّوَادِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "মৃত ব্যক্তিকে কালো কাফনে কাফন দেওয়া যাবে না।",
-              "de": "Der Verstorbene soll nicht in schwarzes Tuch gehüllt werden.",
-              "en": "The deceased is not to be shrouded in black.",
-              "es": "Al difunto no se le debe amortajar con negro.",
-              "fa": "میت را در کفن سیاه نمی‌پیچند.",
-              "fr": "Le défunt ne doit pas être enveloppé dans un linceul noir.",
-              "id": "Jenazah tidak boleh dikafani dengan kain hitam.",
-              "ru": "Умершего не следует заворачивать в чёрный саван.",
-              "tr": "Ölü, siyah kefene sarılmaz.",
-              "ur": "میت کو سیاہ کفن نہیں پہنایا جائے گا۔",
-              "zh": "亡者不可用黑色裹尸布殓葬。"
-            },
             "word_end": 24,
             "word_start": 19
           }
@@ -114,23 +101,11 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "السَّوَادِ": "black cloth or the color black in the context of shrouding",
-            "الْمَيِّتُ": "the deceased person",
-            "يُكَفَّنُ": "is shrouded for burial"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُكَفَّنُ",
+          "الْمَيِّتُ",
+          "السَّوَادِ"
+        ],
         "related_quran": [
           {
             "ref": "5:3",
@@ -141,32 +116,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "একজন মুসলিম মৃতকে কি কালো কাপড়ে কাফন দেওয়া যায়?",
-          "de": "Kann ein verstorbener Muslim in schwarzes Tuch gehüllt werden?",
-          "en": "Can a deceased Muslim be shrouded in black cloth?",
-          "es": "¿Se puede amortajar a un musulmán fallecido con tela negra?",
-          "fa": "آیا میت مسلمان را می‌توان در پارچه سیاه کفن کرد؟",
-          "fr": "Peut-on envelopper un musulman décédé dans un tissu noir ?",
-          "id": "Apakah jenazah Muslim boleh dikafani dengan kain hitam?",
-          "ru": "Можно ли заворачивать умершего мусульманина в чёрную ткань?",
-          "tr": "Bir Müslüman ölü siyah kumaşa kefenlenebilir mi?",
-          "ur": "کیا مسلمان میت کو سیاہ کپڑے میں کفن دیا جا سکتا ہے؟",
-          "zh": "可以用黑布给去世的穆斯林裹尸吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি মৃত ব্যক্তিকে কাফন দেওয়ার বিষয়ে একটি ফিকহি বিধান জানায়। এতে বোঝা যায় যে মৃতকে কালো কাপড়ে কাফন দেওয়া উচিত নয়, যা ফিকহে জানাজার আদবের অন্তর্ভুক্ত।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung über das Einhüllen des Verstorbenen. Er zeigt, dass der Tote nicht in schwarzes Tuch gekleidet werden soll, was die vorgeschriebene Bestattungsetikette im Fiqh widerspiegelt.",
-          "en": "This hadith gives a legal ruling regarding the shrouding of the deceased. It indicates that the dead should not be given a kafan in black cloth, reflecting prescribed funerary etiquette in fiqh.",
-          "es": "Este hadiz establece una norma jurídica sobre el amortajamiento del difunto. Indica que al muerto no se le debe poner un kafan de tela negra, lo que refleja la etiqueta funeraria prescrita en el fiqh.",
-          "fa": "این حدیث حکمی فقهی درباره کفن‌کردن میت بیان می‌کند. بر این دلالت دارد که مرده را نباید در پارچه سیاه کفن کرد و این از آداب دفن در فقه است.",
-          "fr": "Ce hadith énonce une règle juridique concernant le linceul du défunt. Il indique que le mort ne doit pas être enveloppé dans un kafan en tissu noir, ce qui reflète les règles funéraires prescrites en fiqh.",
-          "id": "Hadis ini memberikan حكم hukum tentang pengafanan jenazah. Ini menunjukkan bahwa mayat tidak boleh dikafani dengan kain hitam, sesuai adab pemakaman dalam fikih.",
-          "ru": "Этот хадис содержит правовое предписание относительно савана умершего. Он указывает, что покойного не следует заворачивать в чёрную ткань, что соответствует установленному погребальному этикету в фикхе.",
-          "tr": "Bu hadis, ölünün kefenlenmesine dair fıkhî bir hüküm bildirir. Buna göre ölüye siyah kumaştan kefen yapılmamalıdır; bu, fıkıhta cenaze adabını yansıtır.",
-          "ur": "یہ حدیث میت کے کفن سے متعلق ایک شرعی حکم بیان کرتی ہے۔ اس سے معلوم ہوتا ہے کہ مردے کو سیاہ کپڑے میں کفن نہیں دینا چاہیے، جو فقہ میں جنازے کے آداب کی نشاندہی کرتا ہے۔",
-          "zh": "这段圣训给出了关于亡者裹尸布的教法律例。它表明死者不应以黑布作为kafan，这反映了教法学中规定的丧葬礼仪。"
-        },
         "tags": [
           "jurisprudence",
           "afterlife",

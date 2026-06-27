@@ -14,6 +14,140 @@
       "up": "/books/al-kafi:4:1:34"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ هَارُونَ بْنِ مُسْلِمٍ عَنْ مَسْعَدَةَ بْنِ صَدَقَةَ عَنْ جَعْفَرٍ عَنْ آبَائِهِ ( عَلَيْهِمُ السَّلَامُ ) أَنَّ رَسُولَ اللَّهِ ( صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 29,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "السَّخِيُّ مُحَبَّبٌ فِي السَّمَاوَاتِ مُحَبَّبٌ فِي الْأَرْضِ خُلِقَ مِنْ طِينَةٍ عَذْبَةٍ وَ خُلِقَ مَاءُ عَيْنَيْهِ مِنْ مَاءِ الْكَوْثَرِ وَ الْبَخِيلُ مُبَغَّضٌ فِي السَّمَاوَاتِ مُبَغَّضٌ فِي الْأَرْضِ خُلِقَ مِنْ طِينَةٍ سَبِخَةٍ وَ خُلِقَ مَاءُ عَيْنَيْهِ مِنْ مَاءِ الْعَوْسَجِ",
+            "chunk_type": "body",
+            "word_end": 66,
+            "word_start": 29
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 113,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "هَارُونَ بْنِ مُسْلِمٍ",
+              "name_en": "Harun ibn Muslim",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 134,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مَسْعَدَةَ بْنِ صَدَقَةَ",
+              "name_en": "Masada ibn Sadaqa",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "جَعْفَرٍ",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": null,
+              "identity_confidence": "ambiguous",
+              "known_identity": null,
+              "name_ar": "آبَائِهِ ( عليهم السلام ) أَنَّ رَسُولَ اللَّهِ ( صلى الله عليه وآله )",
+              "name_en": "Abā'ihī",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِمُ السَّلَامُ",
+            "phrase_en": "Peace be upon them"
+          }
+        ],
+        "key_terms_keys": [
+          "السَّخِيُّ",
+          "الْبَخِيلُ",
+          "طِينَةٍ عَذْبَةٍ",
+          "طِينَةٍ سَبِخَةٍ",
+          "الْكَوْثَرِ",
+          "الْعَوْسَجِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "83:22",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "68:29",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "98:8",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "76:8",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "prophetic_tradition",
+          "theology"
+        ],
+        "topics": [
+          "prophetic_character",
+          "poverty_wealth",
+          "paradise_hell"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (16/168)"
       ],
@@ -84,7 +218,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:4:1:34:3",

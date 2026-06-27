@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسُئِلَ: مَتَى تَجِبُ الصَّلَاةُ عَلَيْهِ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তাকে জিজ্ঞাসা করা হলো: তার জন্য সালাত কখন ফরজ হয়?",
-              "de": "Und er wurde gefragt: Wann wird das Gebet für ihn verpflichtend?",
-              "en": "And he was asked: When does the prayer for him become obligatory?",
-              "es": "Y le preguntaron: ¿Cuándo se vuelve obligatoria la oración por él?",
-              "fa": "و از او پرسیده شد: نماز بر او کی واجب می‌شود؟",
-              "fr": "Et on lui demanda : Quand la prière pour lui devient-elle obligatoire ?",
-              "id": "Dan dia ditanya: Kapan salat untuknya menjadi wajib?",
-              "ru": "Его спросили: Когда становится обязательной молитва за него?",
-              "tr": "Ve ona soruldu: Ona salat ne zaman farz olur?",
-              "ur": "اور اس سے پوچھا گیا: اس پر نماز کب واجب ہوتی ہے؟",
-              "zh": "有人问他：何时为他祈祷成为义务？"
-            },
             "word_end": 5,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ «إِذَا عَقَلَ الصَّلَاةَ وَكَانَ ابْنَ سِتِّ سِنِينَ»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: “যখন সে সালাত বুঝতে পারে এবং ছয় বছর বয়সী হয়।”",
-              "de": "Er sagte: „Wenn er das Gebet versteht und sechs Jahre alt ist.“",
-              "en": "He said: “When he understands prayer and is six years old.”",
-              "es": "Él dijo: “Cuando entiende la oración y tiene seis años.”",
-              "fa": "او فرمود: «وقتی که نماز را بفهمد و شش ساله باشد.»",
-              "fr": "Il dit : « Lorsqu'il comprend la prière et a six ans. »",
-              "id": "Dia berkata: “Ketika dia memahami salat dan berumur enam tahun.”",
-              "ru": "Он сказал: «Когда он понимает молитву и ему шесть лет.»",
-              "tr": "O dedi ki: “O, namazı anladığında ve altı yaşında olduğunda.”",
-              "ur": "انہوں نے فرمایا: “جب وہ نماز کو سمجھنے لگے اور اس کی عمر چھ سال ہو۔”",
-              "zh": "他说：“当他理解祈祷且六岁时。”"
-            },
             "word_end": 13,
             "word_start": 5
           }
@@ -76,52 +63,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "ابْنَ سِتِّ سِنِينَ": "being six years old",
-            "الصَّلَاةُ": "the prayer, here referring to the funeral prayer",
-            "تَجِبُ": "becomes obligatory or legally required",
-            "عَقَلَ": "understood or comprehended",
-            "عَلَيْهِ": "for him, meaning over the deceased child"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "تَجِبُ",
+          "الصَّلَاةُ",
+          "عَلَيْهِ",
+          "عَقَلَ",
+          "ابْنَ سِتِّ سِنِينَ"
+        ],
         "related_quran": [],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে একটি শিশুর জন্য সালাত আল-জানাজাহ কখন ফরজ হয়?",
-          "de": "Wann wird Salat al-Janazah für ein Kind im schiitischen Hadith verpflichtend?",
-          "en": "When does salat al-janazah become obligatory for a child in Shia hadith?",
-          "es": "¿Cuándo se vuelve obligatoria la salat al-janazah para un niño en el hadiz chií?",
-          "fa": "در حدیث شیعه، نماز جنازه برای کودک کی واجب می‌شود؟",
-          "fr": "Quand la salat al-janazah devient-elle obligatoire pour un enfant dans le hadith chiite ?",
-          "id": "Kapan salat al-janazah menjadi wajib untuk anak dalam hadits Syiah?",
-          "ru": "Когда в шиитском хадисе становится обязательной салат аль-джаназа для ребенка?",
-          "tr": "Şii hadiste çocuklar için salat al-janazah ne zaman farz olur?",
-          "ur": "شیعہ حدیث میں بچوں کے لیے نماز جنازہ کب واجب ہوتی ہے؟",
-          "zh": "在什叶派圣训中，儿童何时须行殡葬礼拜？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি একটি শিশুর জন্য জানাজা সালাত কখন ফরজ হবে সে সম্পর্কে একটি শারঈ বিধান প্রদান করে। এটি নির্দেশ করে যে এটি তখন প্রযোজ্য যখন শিশু সালাত বুঝতে পারে এবং তার বয়স ছয় বছর হয়।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung darüber, wann das Totengebet für ein Kind verrichtet werden muss. Er besagt, dass dies gilt, wenn das Kind das Gebet versteht und sechs Jahre alt ist.",
-          "en": "This hadith gives a legal ruling concerning when the funeral prayer is to be performed for a child. It states that this applies when the child has reached an age of understanding regarding prayer and is six years old.",
-          "es": "Este hadiz da un fallo legal sobre cuándo se debe realizar la oración funeraria para un niño. Indica que esto aplica cuando el niño ha alcanzado la edad de comprensión de la oración y tiene seis años.",
-          "fa": "این حدیث حکم شرعی درباره زمان برگزاری نماز جنازه برای کودک را بیان می‌کند. گفته شده که این حکم زمانی اجرا می‌شود که کودک به سن درک نماز رسیده و شش ساله باشد.",
-          "fr": "Ce hadith donne un jugement légal concernant le moment où la prière funéraire doit être accomplie pour un enfant. Il précise que cela s'applique lorsque l'enfant a atteint un âge de compréhension de la prière et a six ans.",
-          "id": "Hadis ini memberikan ketentuan hukum mengenai kapan salat jenazah wajib dilakukan untuk anak. Ini berlaku ketika anak telah mencapai usia memahami salat dan berumur enam tahun.",
-          "ru": "Этот хадис содержит юридическое постановление о том, когда должна совершаться молитва по усопшему за ребенка. Указывается, что это применяется, когда ребенок достиг возраста понимания молитвы и ему шесть лет.",
-          "tr": "Bu hadis, çocuklar için cenaze namazının ne zaman kılınacağına dair hukuki bir hüküm verir. Namazı anlama yaşına ulaşıp altı yaşında olduğunda uygulanır.",
-          "ur": "یہ حدیث بچوں کے لیے نماز جنازہ کے وقت کے بارے میں شرعی حکم دیتی ہے۔ یہ بیان کرتی ہے کہ یہ اس وقت لاگو ہوتا ہے جب بچہ نماز کو سمجھنے کی عمر کو پہنچ جائے اور اس کی عمر چھ سال ہو۔",
-          "zh": "此圣训就儿童何时应行殡葬礼拜给出法律裁定。指出当儿童达到理解祈祷的年龄且六岁时适用。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَفِي رِوَايَةِ عَبْدِ اللَّهِ بْنِ سِنَانٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং আবদুল্লাহ ইবনে সিনানের বর্ণনায়, আবী আবদিল্লাহ عليه السلام থেকে, তিনি বললেন:",
-              "de": "Und in der Überlieferung von ʿAbdullāh ibn Sinān, von Abī ʿAbdillāh عليه السلام, sagte er:",
-              "en": "And in the narration of ʿAbdullāh ibn Sinān, from Abī ʿAbdillāh عليه السلام, he said:",
-              "es": "Y en la narración de ʿAbdullāh ibn Sinān, de Abī ʿAbdillāh عليه السلام, dijo:",
-              "fa": "و در روایت عبد الله بن سنان، از ابی عبدالله علیه السلام، فرمود:",
-              "fr": "Et dans la narration de ʿAbdullāh ibn Sinān, de Abī ʿAbdillāh عليه السلام, il a dit :",
-              "id": "Dan dalam riwayat ʿAbdullāh ibn Sinān, dari Abī ʿAbdillāh علیه السلام, beliau berkata:",
-              "ru": "И в передаче ʿАбдуллаха ибн Синана от Аби ʿАбдиллаха عليه السلام он сказал:",
-              "tr": "Ve ʿAbdullāh ibn Sinān’ın rivayetinde, Ebu ʿAbdillāh علیه السلام şöyle dedi:",
-              "ur": "اور عبد اللہ بن سنان کی روایت میں، ابو عبداللہ علیہ السلام سے، انہوں نے فرمایا:",
-              "zh": "在ʿAbdullāh ibn Sinān的传述中，来自Abī ʿAbdillāh عليه السلام，他说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "«يَحْرُمُ مِنْ صَيْدِ الْمَدِينَةِ مَا صِيدَ بَيْنَ الْحَرَّتَيْنِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "\"যা দুই হারা'র মধ্যে শিকার করা হয় তা আল-মদিনার শিকার থেকে হারাম।\"",
-              "de": "\"Was zwischen den beiden Harras gejagt wird, ist vom Wild von al-Madīnah verboten.\"",
-              "en": "\"What is hunted between the two Harras is forbidden from the game of al-Madīnah.\"",
-              "es": "\"Lo que se cace entre las dos Harras está prohibido del juego de al-Madīnah.\"",
-              "fa": "«آنچه بین دو حرّا شکار شود، از شکارهای مدینه حرام است.»",
-              "fr": "\"Ce qui est chassé entre les deux Harras est interdit parmi le gibier d’al-Madīnah.\"",
-              "id": "\"Apa yang diburu di antara dua Harra adalah haram dari buruan al-Madīnah.\"",
-              "ru": "\"То, что добывается между двумя Харрами, запрещено из дичи аль-Мадины.\"",
-              "tr": "\"İki Harra arasında avlanan şey, el-Medîne'nin avından haramdır.\"",
-              "ur": "’’جو شکار دونوں حرّات کے درمیان کیا جائے وہ مدینہ کے شکار سے حرام ہے۔‘‘",
-              "zh": "\"在两座哈拉之间猎取的猎物属于麦地那的猎物，是被禁止的。\""
-            },
             "word_end": 21,
             "word_start": 13
           }
@@ -81,27 +68,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ": "Imam Jaʿfar al-Ṣādiq عليه السلام",
-            "الْحَرَّتَيْنِ": "the two rocky volcanic tracts marking the area of al-Madīnah",
-            "رِوَايَةِ": "a transmitted narration",
-            "صَيْدِ الْمَدِينَةِ": "the hunted game of al-Madīnah",
-            "عَبْدِ اللَّهِ بْنِ سِنَانٍ": "the narrator ʿAbdullāh ibn Sinān",
-            "مَا صِيدَ": "that which has been hunted",
-            "يَحْرُمُ": "it is prohibited or forbidden"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رِوَايَةِ",
+          "عَبْدِ اللَّهِ بْنِ سِنَانٍ",
+          "أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ",
+          "يَحْرُمُ",
+          "صَيْدِ الْمَدِينَةِ",
+          "مَا صِيدَ",
+          "الْحَرَّتَيْنِ"
+        ],
         "related_quran": [
           {
             "ref": "2:191",
@@ -112,32 +87,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হাদিস মদিনার পবিত্র সীমানার মধ্যে শিকার সম্পর্কে কী বলে?",
-          "de": "Was sagt der Hadith über die Jagd innerhalb des Heiligtums von Madinah?",
-          "en": "What does the hadith say about hunting within the sanctuary of Madinah?",
-          "es": "¿Qué dice el hadiz sobre la caza dentro del santuario de Madinah?",
-          "fa": "حدیث درباره شکار در داخل حرم مدینه چه می‌گوید؟",
-          "fr": "Que dit le hadith à propos de la chasse dans le sanctuaire de Madinah ?",
-          "id": "Apa yang dikatakan hadits tentang berburu di dalam sanctuary Madinah?",
-          "ru": "Что говорит хадис об охоте в пределах святилища Мадины?",
-          "tr": "Hadis, Medine'nin kutsal sınırı içinde avlanma hakkında ne diyor?",
-          "ur": "حدیث مدینہ کے حرم کے اندر شکار کے بارے میں کیا کہتی ہے؟",
-          "zh": "圣训关于在麦地那圣地内狩猎说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি মদিনার পবিত্র সীমানার মধ্যে, বিশেষ করে দুইটি আগ্নেয়গিরির মধ্যে শিকার সম্পর্কে একটি আইনি নিষেধাজ্ঞা ব্যক্ত করে। এটি শিয়া হাদিস সাহিত্যে মদিনার পবিত্রতা ও সুরক্ষিত অবস্থানকে প্রতিফলিত করে।",
-          "de": "Dieser Hadith legt ein gesetzliches Verbot für die Jagd innerhalb der heiligen Grenze von al-Madīnah fest, insbesondere im Bereich zwischen den beiden vulkanischen Gebieten. Er spiegelt die Heiligkeit und den geschützten Status von Madinah in der schiitischen Hadith-Literatur wider.",
-          "en": "This hadith states a legal prohibition concerning hunting within the sacred boundary of al-Madīnah, specifically the area between its two volcanic tracts. It reflects the sanctity and protected status of Madinah in Shia hadith literature.",
-          "es": "Este hadiz establece una prohibición legal sobre la caza dentro del límite sagrado de al-Madīnah, específicamente en el área entre sus dos tramos volcánicos. Refleja la santidad y el estatus protegido de Madinah en la literatura hadiz chií.",
-          "fa": "این حدیث منع قانونی در خصوص شکار در محدوده مقدس مدینه، به ویژه منطقه بین دو حرای آتشفشانی را بیان می‌کند. این حدیث نشان‌دهنده حرمت و وضعیت محافظت‌شده مدینه در ادبیات حدیث شیعه است.",
-          "fr": "Ce hadith énonce une interdiction légale concernant la chasse à l’intérieur de la limite sacrée d’al-Madīnah, en particulier dans la zone entre ses deux tranchées volcaniques. Il reflète la sainteté et le statut protégé de Madinah dans la littérature hadith chiite.",
-          "id": "Hadis ini menyatakan larangan hukum terkait berburu di dalam batas suci al-Madīnah, khususnya area antara dua daerah vulkanik. Ini mencerminkan kesucian dan status terlindungi Madinah dalam literatur hadis Syiah.",
-          "ru": "Этот хадис устанавливает юридический запрет на охоту в пределах священной границы аль-Мадины, особенно в районе между двумя вулканическими участками. Он отражает святость и охраняемый статус Мадины в шиитской хадисной литературе.",
-          "tr": "Bu hadis, al-Medîne'nin kutsal sınırları içinde, özellikle iki volkanik alan arasındaki avlanmaya dair yasal bir yasağı belirtir. Bu, Şii hadis literatüründe Medine'nin kutsallığını ve korunan statüsünü yansıtır.",
-          "ur": "یہ حدیث مدینہ کے مقدس حد بندی کے اندر شکار کے بارے میں ایک قانونی ممانعت بیان کرتی ہے، خاص طور پر دونوں آتش فشانی علاقوں کے درمیان۔ یہ مدینہ کی حرمت اور حفاظت کی حیثیت کو شیعہ حدیث ادب میں ظاہر کرتی ہے۔",
-          "zh": "这段圣训陈述了关于在麦地那圣地边界内，特别是在两座火山地带之间狩猎的法律禁令。它反映了麦地那在什叶派圣训文献中的神圣性和受保护地位。"
-        },
         "tags": [
           "jurisprudence",
           "history",

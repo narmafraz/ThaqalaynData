@@ -13,6 +13,95 @@
       "up": "/books/al-kafi:4:3:192"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَمَّنْ ذَكَرَهُ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 10,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قُلْتُ لِأَبِي الْحَسَنِ ( عَلَيْهِ السَّلَامُ ) جُعِلْتُ فِدَاكَ مُتَمَتِّعٌ زَارَ الْبَيْتَ فَطَافَ طَوَافَ الْحَجِّ ثُمَّ طَافَ طَوَافَ النِّسَاءِ ثُمَّ سَعَى فَقَالَ لَا يَكُونُ السَّعْيُ إِلَّا قَبْلَ طَوَافِ النِّسَاءِ فَقُلْتُ عَلَيْهِ شَيْ‏ءٌ فَقَالَ لَا يَكُونُ السَّعْيُ إِلَّا قَبْلَ طَوَافِ النِّسَاءِ .",
+            "chunk_type": "body",
+            "word_end": 51,
+            "word_start": 10
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": null,
+              "identity_confidence": "ambiguous",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ عَمَّنْ ذَكَرَهُ",
+              "name_en": "Ahmad b. Muhammad 'amm man dhakarah",
+              "position": 2,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "مُتَمَتِّعٌ",
+          "طَوَافَ الْحَجِّ",
+          "طَوَافَ النِّسَاءِ",
+          "سَعَى",
+          "طَوَافِ النِّسَاءِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:158",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "worship"
+        ],
+        "topics": [
+          "hajj",
+          "ritual_purity"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مرسل    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (18/202)"
       ],
@@ -56,7 +145,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:4:3:192:5",

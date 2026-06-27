@@ -16,61 +16,35 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنِ ابْنِ مَحْبُوبٍ عَنْ عَبْدِ الرَّحْمَنِ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন মুহাম্মদ ইবন মাহবূব থেকে, তিনি ʿআবদুর-রাহমান থেকে, তিনি আবি ʿআবদিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বলেছেন:",
-              "de": "Aḥmad ibn Muḥammad berichtete von Ibn Maḥbūb, von ʿAbd al-Raḥmān, von Abī ʿAbdillāh عليه السلام, der sagte:",
-              "en": "Aḥmad ibn Muḥammad narrated from Ibn Maḥbūb, from ʿAbd al-Raḥmān, from Abī ʿAbdillāh عليه السلام, who said:",
-              "es": "Aḥmad ibn Muḥammad narró de Ibn Maḥbūb, de ʿAbd al-Raḥmān, de Abī ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "احمد بن محمد از ابن محبوب، از عبد الرحمن، از ابی عبدالله علیه السلام روایت کرد که فرمود:",
-              "fr": "Aḥmad ibn Muḥammad a rapporté d’Ibn Maḥbūb, de ʿAbd al-Raḥmān, d’Abī ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Aḥmad ibn Muḥammad meriwayatkan dari Ibn Maḥbūb, dari ʿAbd al-Raḥmān, dari Abī ʿAbdillāh عليه السلام, yang berkata:",
-              "ru": "Ахмад ибн Мухаммад передал от Ибн Махбуба, от ʿАбд ар-Рахмана, от Аби ʿАбдуллаха عليه السلام, который сказал:",
-              "tr": "Ahmed ibn Muhammed, İbn Mahbub’dan, o da Abdurrahman’dan, o da Ebu Abdullah عليه السلام’dan rivayet etti; şöyle dedi:",
-              "ur": "احمد بن محمد نے ابن محبوب سے، انہوں نے عبد الرحمن سے، انہوں نے ابی عبد اللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "艾哈迈德·伊本·穆罕默德传述自伊本·马赫布卜，传自ʿ阿卜杜·拉赫曼，传自阿比ʿ阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنْ رَجُلٍ قَتَلَ رَجُلَيْنِ عَمْدًا وَلَهُمَا أَوْلِيَاءُ، فَعَفَا أَوْلِيَاءُ أَحَدِهِمَا وَأَبَى الْآخَرُونَ، قَالَ: فَقَالَ: «يَقْتُلُهُ الَّذِينَ لَمْ يَعْفُوا، وَإِنْ أَحَبُّوا أَنْ يَأْخُذُوا الدِّيَةَ أَخَذُوا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁকে এমন এক ব্যক্তি সম্পর্কে জিজ্ঞেস করলাম, যে ইচ্ছাকৃতভাবে দুইজন মানুষকে হত্যা করেছিল, এবং উভয়েরই ওলি ছিল। তখন তাদের একজনের ওলিরা ক্ষমা করে দিল, আর অন্যরা অস্বীকার করল। তিনি বললেন: “যারা ক্ষমা করেনি তারা তাকে হত্যা করতে পারে, আর যদি তারা দিয়াহ নিতে চায়, তবে নিতে পারে।”",
-              "de": "Ich fragte ihn nach einem Mann, der zwei Männer vorsätzlich getötet hatte, und beide hatten Erben. Dann verziehen die Erben des einen von ihnen, während die anderen sich weigerten. Er sagte: „Diejenigen, die nicht verziehen haben, dürfen ihn töten; und wenn sie lieber die Diyah nehmen wollen, dürfen sie sie nehmen.“",
-              "en": "I asked him about a man who killed two men intentionally, and both had heirs. Then the heirs of one of them pardoned, while the others refused. He said: He said, “Those who did not pardon may kill him, and if they prefer to take the blood-money, they may take it.”",
-              "es": "Le pregunté acerca de un hombre que mató intencionalmente a dos hombres, y ambos tenían herederos. Entonces los herederos de uno de ellos perdonaron, mientras que los otros se negaron. Dijo: “Los que no perdonaron pueden matarlo, y si prefieren tomar la diyah, pueden tomarla.”",
-              "fa": "از او درباره مردی پرسیدم که دو مرد را عمداً کشت و هر دو ولیّ داشتند. سپس اولیای یکی از آن دو عفو کردند، در حالی که دیگران نپذیرفتند. فرمود: «کسانی که عفو نکرده‌اند می‌توانند او را بکشند، و اگر بخواهند دیه بگیرند، می‌توانند بگیرند.»",
-              "fr": "Je lui demandai au sujet d’un homme qui avait tué intentionnellement deux hommes, et chacun avait des héritiers. Alors les héritiers de l’un d’eux pardonnèrent, tandis que les autres refusèrent. Il dit : « Ceux qui n’ont pas pardonné peuvent le tuer, et s’ils préfèrent prendre la diyah, ils peuvent la prendre. »",
-              "id": "Aku bertanya kepadanya tentang seorang laki-laki yang membunuh dua orang secara sengaja, dan keduanya memiliki ahli waris. Lalu ahli waris salah satunya memaafkan, sedangkan yang الأخرى menolak. Ia berkata: “Orang-orang yang tidak memaafkan boleh membunuhnya, dan jika mereka ingin أخذ diyah, mereka boleh mengambilnya.”",
-              "ru": "Я спросил его о человеке, который умышленно убил двух человек, и у обоих были наследники. Тогда наследники одного из них простили, а другие отказались. Он сказал: «Те, кто не простил, могут убить его, а если они захотят взять дийю, то могут взять её».",
-              "tr": "Ben ona, iki adamı kasten öldüren ve her ikisinin de velileri bulunan bir adam hakkında sordum. Sonra onlardan birinin velileri affetti, diğerleri ise kabul etmedi. O şöyle dedi: “Affetmeyenler onu öldürebilir; eğer diyet almayı isterlerse, alabilirler.”",
-              "ur": "میں نے ان سے ایک ایسے شخص کے بارے میں پوچھا جس نے دو آدمیوں کو عمداً قتل کیا، اور دونوں کے اولیاء تھے۔ پھر ان میں سے ایک کے اولیاء نے معاف کر دیا، جبکہ دوسرے نے انکار کیا۔ انہوں نے فرمایا: “جنہوں نے معاف نہیں کیا وہ اسے قتل کر سکتے ہیں، اور اگر وہ دیت لینا چاہیں تو لے سکتے ہیں۔”",
-              "zh": "我问他：有一个人故意杀了两个人，而两人都有继承人。于是其中一人的继承人原谅了他，而另一方拒绝了。他说：“那些没有原谅的人可以杀他；如果他们愿意领取血金，也可以领取。”"
-            },
             "word_end": 41,
             "word_start": 16
           },
           {
             "arabic_text": "قَالَ عَبْدُ الرَّحْمَنِ: فَقُلْتُ لِأَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ: رَجُلَانِ قَتَلَا رَجُلًا عَمْدًا وَلَهُ وَلِيَّانِ، فَعَفَا أَحَدُ الْوَلِيَّيْنِ، قَالَ: فَقَالَ: «إِذَا عَفَا بَعْضُ الْأَوْلِيَاءِ دُرِئَ عَنْهُمَا الْقَتْلُ، وَطُرِحَ عَنْهُمَا مِنَ الدِّيَةِ بِقَدْرِ حِصَّةِ مَنْ عَفَا، وَأَدَّيَا الْبَاقِيَ مِنْ أَمْوَالِهِمَا إِلَى الَّذِينَ لَمْ يَعْفُوا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "ʿআবদুর-রাহমান বললেন: তারপর আমি আবি ʿআবদিল্লাহ عليه السلام-কে বললাম: দুইজন মানুষ একজনকে ইচ্ছাকৃতভাবে হত্যা করল, এবং তার দুইজন ওলি ছিল; তারপর দুই ওলির একজন ক্ষমা করল। তিনি বললেন: “যখন কিছু ওলি ক্ষমা করে, তখন তাদের দুজনের ওপর থেকে হত্যা-দণ্ড উঠে যায়, এবং দিয়াহ থেকে ক্ষমা-কারী ব্যক্তির অংশ অনুযায়ী তাদের থেকে কমিয়ে দেওয়া হয়, আর অবশিষ্ট তারা নিজেদের সম্পদ থেকে তাদেরকে দেবে যারা ক্ষমা করেনি।”",
-              "de": "ʿAbd al-Raḥmān sagte: Dann sagte ich zu Abī ʿAbdillāh عليه السلام: Zwei Männer töteten einen Mann vorsätzlich, und er hatte zwei Rechtsvertreter; dann verzieh einer der beiden Rechtsvertreter. Er sagte: „Wenn einige der Rechtsvertreter verzeihen, wird die Tötung von beiden abgewendet, und von der Diyah wird ihnen entsprechend dem Anteil dessen, der verziehen hat, abgezogen; und den Rest zahlen sie aus ihrem Vermögen an diejenigen, die nicht verziehen haben.“",
-              "en": "ʿAbd al-Raḥmān said: So I said to Abī ʿAbdillāh عليه السلام: Two men killed one man intentionally, and he has two heirs, then one of the two heirs pardoned. He said: He said, “When some of the heirs pardon, killing is averted from the two of them, and from the blood-money there is deducted from them according to the share of the one who pardoned, and they shall pay the remainder from their wealth to those who did not pardon.”",
-              "es": "ʿAbd al-Raḥmān dijo: Entonces le dije a Abī ʿAbdillāh عليه السلام: Dos hombres mataron a un hombre intencionalmente, y él tenía dos tutores; entonces uno de los dos tutores perdonó. Dijo: “Cuando algunos de los tutores perdonan, se aparta de ambos la pena de muerte, y de la diyah se les descuenta a ambos según la parte de quien perdonó, y entregarán el resto de sus bienes a quienes no perdonaron.”",
-              "fa": "عبد الرحمن گفت: پس به ابی عبدالله علیه السلام عرض کردم: دو مرد، مردی را عمداً کشتند و او دو ولی داشت، سپس یکی از دو ولی عفو کرد. فرمود: «هرگاه برخی از اولیا عفو کنند، قتل از آن دو برداشته می‌شود، و از دیه به اندازه سهم کسی که عفو کرده از آنان کم می‌شود، و باقی‌مانده را از اموال خود به کسانی که عفو نکرده‌اند می‌پردازند.»",
-              "fr": "ʿAbd al-Raḥmān dit : Alors je dis à Abī ʿAbdillāh عليه السلام : Deux hommes ont tué un homme intentionnellement, et il avait deux tuteurs ; puis l’un des deux tuteurs pardonna. Il dit : « Lorsque certains des tuteurs pardonnent, l’exécution est écartée pour eux deux, et de la diyah il leur est retranché la part de celui qui a pardonné, et ils verseront le reste de leurs biens à ceux qui n’ont pas pardonné. »",
-              "id": "ʿAbd al-Raḥmān berkata: Maka aku berkata kepada Abī ʿAbdillāh عليه السلام: Dua orang membunuh seorang laki-laki secara sengaja, dan ia memiliki dua wali; lalu salah satu dari dua wali itu memaafkan. Ia berkata: “Apabila sebagian dari para wali memaafkan, maka pembunuhan itu gugur dari keduanya, dan dari diyah dikurangkan dari keduanya sesuai bagian orang yang memaafkan, dan mereka membayar sisanya dari harta mereka kepada orang-orang yang tidak memaafkan.”",
-              "ru": "ʿАбд ар-Рахман сказал: Тогда я сказал Аби ʿАбдуллаху عليه السلام: Два человека умышленно убили одного человека, и у него было два опекуна; затем один из двух опекунов простил. Он сказал: «Когда некоторые из опекунов прощают, казнь отводится от них обоих, и из дийи у них вычитается доля того, кто простил, а остальное они выплачивают из своего имущества тем, кто не простил».",
-              "tr": "Abdurrahman dedi ki: Sonra Ebu Abdullah عليه السلام’a şöyle dedim: İki adam bir adamı kasten öldürdü ve onun iki velisi vardı; sonra iki veliden biri affetti. O şöyle dedi: “Velilerin bir kısmı affettiğinde, öldürme hükmü ikisinden kaldırılır; diyetten de affedenin payı kadar onlardan düşülür ve kalanını mallarından affetmeyenlere öderler.”",
-              "ur": "عبد الرحمن نے کہا: پھر میں نے ابی عبد اللہ علیہ السلام سے عرض کیا: دو آدمیوں نے ایک شخص کو عمداً قتل کیا، اور اس کے دو ولی تھے، پھر ان دونوں ولیوں میں سے ایک نے معاف کر دیا۔ انہوں نے فرمایا: “جب بعض اولیاء معاف کر دیں تو ان دونوں سے قتل ساقط ہو جاتا ہے، اور دیت میں سے معاف کرنے والے کے حصے کے مطابق ان سے کم کر دیا جاتا ہے، اور وہ باقی اپنے مالوں سے ان لوگوں کو ادا کریں گے جنہوں نے معاف نہیں کیا۔”",
-              "zh": "ʿ阿卜杜·拉赫曼说：于是我对阿比ʿ阿卜杜拉 عليه السلام说：两个人故意杀了一个人，而他有两个监护人；然后两位监护人中的一位原谅了。他说：“当部分监护人原谅时，杀刑便从他们二人身上被免除，而血金中按原谅者的份额从他们二人那里扣除，其余部分他们要从自己的财产中支付给那些没有原谅的人。”"
-            },
             "word_end": 84,
             "word_start": 41
           }
@@ -129,26 +103,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَوْلِيَاءُ": "legal heirs entitled to claim retaliation or blood-money",
-            "الدِّيَةَ": "blood-money paid as financial compensation for killing",
-            "حِصَّةِ": "share or legal portion attributed to an heir",
-            "دُرِئَ": "was averted or removed; here, the death penalty is lifted",
-            "عَفَا": "pardoned; waived the right of retaliation",
-            "عَمْدًا": "intentionally; describing deliberate homicide"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "عَمْدًا",
+          "أَوْلِيَاءُ",
+          "عَفَا",
+          "الدِّيَةَ",
+          "دُرِئَ",
+          "حِصَّةِ"
+        ],
         "related_quran": [
           {
             "ref": "2:178",
@@ -163,32 +125,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইচ্ছাকৃত হত্যার ক্ষেত্রে কিছু ওলি ক্ষমা করলে আর কিছু না করলে কী হুকুম?",
-          "de": "Wie lautet das Urteil, wenn bei vorsätzlichem Mord einige Erben verzeihen und andere nicht?",
-          "en": "What is the ruling if some heirs pardon in a case of intentional murder while others do not?",
-          "es": "¿Cuál es la norma si algunos herederos perdonan en un caso de homicidio intencional mientras otros no?",
-          "fa": "اگر در قتل عمد برخی از اولیا عفو کنند و برخی نکنند، حکم چیست؟",
-          "fr": "Quelle est la règle si certains héritiers pardonnent dans un cas de meurtre intentionnel tandis que d’autres ne pardonnent pas ?",
-          "id": "Apa hukumnya jika sebagian wali memaafkan dalam kasus pembunuhan sengaja sementara yang lain tidak?",
-          "ru": "Каково постановление, если при умышленном убийстве некоторые наследники прощают, а другие нет?",
-          "tr": "Kasten öldürme durumunda bazı veliler affederken bazıları affetmezse hüküm nedir?",
-          "ur": "اگر عمدی قتل کے معاملے میں بعض اولیاء معاف کر دیں اور بعض نہ کریں تو حکم کیا ہے؟",
-          "zh": "如果在故意杀人案件中有些继承人原谅而有些不原谅，判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে ইচ্ছাকৃত হত্যার শরঈ বিধান ব্যাখ্যা করা হয়েছে, যখন একাধিক ওলি ক্ষমা ও কিসাস সম্পর্কে ভিন্ন মত পোষণ করে। এতে স্পষ্ট করা হয়েছে যে যারা ক্ষমা করেনি তারা কিসাস দাবি করতে পারে বা দিয়াহ গ্রহণ করতে পারে, এবং একাধিক হত্যাকারীর ক্ষেত্রে কিছু ওলি ক্ষমা করলে মৃত্যুদণ্ড উঠে যায় এবং অবশিষ্ট দিয়াহ ক্ষমা না-করাদের অংশ অনুযায়ী পরিশোধ করা হয়।",
-          "de": "Dieser Hadith erläutert die rechtlichen Bestimmungen zum vorsätzlichen Töten, wenn mehrere Erben über Vergebung und Vergeltung uneinig sind. Er legt fest, dass die nicht verzeihenden Erben Qisas verlangen oder die Diyah annehmen können, und dass, wenn in einem Fall mit mehreren Tätern einige Erben verzeihen, die Todesstrafe entfällt und die verbleibende Diyah entsprechend den Anteilen derjenigen gezahlt wird, die nicht verziehen haben.",
-          "en": "This hadith explains legal rulings concerning intentional killing when multiple heirs differ over pardon and retaliation. It establishes that non-pardoning heirs may demand qisas or accept diyah, and that when some heirs pardon in a case involving multiple killers, the death penalty is removed and the remaining diyah is paid in proportion to the shares of those who did not pardon.",
-          "es": "Este hadiz explica las normas jurídicas relativas al homicidio intencional cuando varios herederos discrepan sobre el perdón y la represalia. Establece que los herederos que no perdonan pueden exigir qisas o aceptar la diyah, y que cuando algunos herederos perdonan en un caso con varios homicidas, se elimina la pena de muerte y la diyah restante se paga en proporción a las partes de quienes no perdonaron.",
-          "fa": "این حدیث احکام شرعیِ قتل عمد را هنگامی که اولیای متعدد درباره عفو و قصاص اختلاف دارند، بیان می‌کند. بر این اساس، اولیایی که عفو نکرده‌اند می‌توانند قصاص یا دیه را مطالبه کنند، و هنگامی که در مورد چند قاتل برخی از اولیا عفو کنند، حکم قتل برداشته می‌شود و دیه باقی‌مانده به نسبت سهم کسانی که عفو نکرده‌اند پرداخت می‌شود.",
-          "fr": "Ce hadith explique les règles juridiques concernant l’homicide intentionnel lorsque plusieurs héritiers divergent au sujet du pardon et de la représaille. Il établit que les héritiers qui ne pardonnent pas peuvent demander le qisas ou accepter la diyah, et que lorsque certains héritiers pardonnent dans une affaire impliquant plusieurs meurtriers, la peine de mort est levée et la diyah restante est payée proportionnellement aux parts de ceux qui n’ont pas pardonné.",
-          "id": "Hadis ini menjelaskan hukum-hukum fikih tentang pembunuhan sengaja ketika beberapa wali berbeda pendapat dalam memaafkan dan qisas. Ia menetapkan bahwa wali yang tidak memaafkan dapat menuntut qisas atau menerima diyah, dan ketika dalam kasus beberapa pembunuh sebagian wali memaafkan, hukuman mati dihapus dan diyah yang tersisa dibayar sesuai bagian para pihak yang tidak memaafkan.",
-          "ru": "Этот хадис разъясняет правовые нормы, касающиеся умышленного убийства, когда несколько наследников расходятся во мнении относительно прощения и возмездия. В нём устанавливается, что наследники, не простившие, могут требовать кисас или принять дийю, а если в деле с несколькими убийцами некоторые наследники прощают, то смертная казнь отменяется, и оставшаяся дийя выплачивается пропорционально долям тех, кто не простил.",
-          "tr": "Bu hadis, birden fazla velinin affetme ve kısas konusunda farklı görüşte olduğu kasıtlı öldürmeye dair fıkhî hükümleri açıklar. Buna göre affetmeyen veliler kısas isteyebilir veya diyeti kabul edebilir; birden fazla قاتilin bulunduğu bir durumda bazı veliler affederse ölüm cezası kaldırılır ve kalan diyet, affetmeyenlerin paylarına göre ödenir.",
-          "ur": "یہ حدیث عمداً قتل کے شرعی احکام کو بیان کرتی ہے جب متعدد اولیاء معافی اور قصاص کے بارے میں مختلف رائے رکھتے ہوں۔ اس سے ثابت ہوتا ہے کہ جو اولیاء معاف نہ کریں وہ قصاص یا دیت کا مطالبہ کر سکتے ہیں، اور جب متعدد قاتلوں کے معاملے میں بعض اولیاء معاف کر دیں تو قتل کی سزا ساقط ہو جاتی ہے اور باقی دیت ان کے حصوں کے مطابق ادا کی جاتی ہے۔",
-          "zh": "这段圣训阐明了在多位继承人对宽恕与报复意见不一时，关于故意杀人的教法裁决。它规定，不原谅的继承人可以要求qisas或接受diyah；而在涉及多名杀人者的案件中，如果部分继承人原谅，则死刑被取消，剩余的血金按未原谅者的份额比例支付。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

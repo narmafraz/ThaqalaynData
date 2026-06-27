@@ -13,6 +13,151 @@
       "up": "/books/al-kafi:4:1:15"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ سَهْلِ بْنِ زِيَادٍ عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ أَبِي نَصْرٍ عَنْ مُحَمَّدِ بْنِ سَمَاعَةَ عَنْ أَبِي بَصِيرٍ عَنْ أَحَدِهِمَا (عَلَيْهِمَا السَّلَامُ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 26,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قُلْتُ لَهُ أَيُّ الصَّدَقَةِ أَفْضَلُ قَالَ جُهْدُ الْمُقِلِّ",
+            "chunk_type": "body",
+            "word_end": 34,
+            "word_start": 26
+          },
+          {
+            "arabic_text": "أَمَا سَمِعْتَ قَوْلَ اللَّهِ عَزَّ وَجَلَّ وَيُؤْثِرُونَ عَلَى أَنْفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَّاصَةٌ",
+            "chunk_type": "body",
+            "word_end": 47,
+            "word_start": 34
+          },
+          {
+            "arabic_text": "هَاهُنَا فَضْلٌ",
+            "chunk_type": "closing",
+            "word_end": 49,
+            "word_start": 47
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 8,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "سَهْلِ بْنِ زِيَادٍ",
+              "name_en": "Sahl ibn Ziyad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 39,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدِ بْنِ أَبِي نَصْرٍ",
+              "name_en": "Ahmad ibn Muhammad ibn Abi Nasr",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 495,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ سَمَاعَةَ",
+              "name_en": "Muhammad ibn Sama'a",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 14,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي بَصِيرٍ",
+              "name_en": "Abu Basir",
+              "position": 5,
+              "role": "companion"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 58,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحَدِهِمَا ( عليهما السلام )",
+              "name_en": "Ahadihima",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [],
+        "key_terms_keys": [
+          "الصَّدَقَة",
+          "جُهْدُ الْمُقِلِّ",
+          "يُؤْثِرُونَ",
+          "خَصَّاصَةٌ",
+          "فَضْلٌ"
+        ],
+        "related_quran": [
+          {
+            "ref": "59:9",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "9:100",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "51:19",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "economy",
+          "quran_commentary"
+        ],
+        "topics": [
+          "charity",
+          "poverty_wealth",
+          "quran_interpretation_method"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف على المشهور   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6/146)"
       ],
@@ -98,7 +243,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:4:1:15:3",

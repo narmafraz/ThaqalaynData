@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ: قَالَ اللَّهُ عَزَّ وَ جَلَّ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং নবী صلى الله عليه وآله বললেন: আল্লাহ, মহিমান্বিত ও মহাজন, বললেন:",
-              "de": "Und der Prophet صلى الله عليه وآله sagte: Allah, der Mächtige und Erhabene, sagte:",
-              "en": "And the Prophet صلى الله عليه وآله said: Allah, Mighty and Majestic, said:",
-              "es": "Y el Profeta صلى الله عليه وآله dijo: Allah, el Poderoso y Majestuoso, dijo:",
-              "fa": "و پیامبر صلى الله عليه وآله فرمود: خداوند متعال و جلیل فرمود:",
-              "fr": "Et le Prophète صلى الله عليه وآله a dit : Allah, le Tout-Puissant et Majestueux, a dit :",
-              "id": "Dan Nabi صلى الله عليه وآله berkata: Allah Yang Maha Perkasa dan Maha Agung berfirman:",
-              "ru": "И Пророк صلى الله عليه وآله сказал: Аллах, Всемогущий и Великий, сказал:",
-              "tr": "Ve Peygamber صلى الله عليه وآله dedi ki: Allah, Yüce ve Azametli, şöyle buyurdu:",
-              "ur": "اور نبی صلی اللہ علیہ وآلہ وسلم نے فرمایا: اللہ تعالیٰ، جو عظمت والا اور جلیل ہے، نے فرمایا:",
-              "zh": "先知صلىاللهعليه وآله说：真主至大至尊说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "يَا ابْنَ آدَمَ اذْكُرْنِي بَعْدَ الْغَدَاةِ سَاعَةً وَ بَعْدَ الْعَصْرِ سَاعَةً أَكْفِيكَ مَا أَهَمَّكَ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "হে আদমের সন্তান, ভোরের পর এক ঘণ্টা এবং বিকেলের পর এক ঘণ্টা আমাকে স্মরণ কর, আমি তোমাকে তোমার চিন্তাগুলো থেকে মুক্তি দেব।",
-              "de": "O Sohn Adams, gedenke Meiner eine Stunde nach der Morgendämmerung und eine Stunde nach dem Nachmittag, und Ich werde dir genügen in dem, was dich betrifft.",
-              "en": "O son of Adam, remember Me for an hour after dawn and for an hour after the afternoon, and I shall suffice you regarding what concerns you.",
-              "es": "Oh hijo de Adán, recuérdame durante una hora después del alba y durante una hora después de la tarde, y te bastaré en lo que te preocupa.",
-              "fa": "ای فرزند آدم، پس از سپیده‌دم به مدت یک ساعت و پس از عصر به مدت یک ساعت مرا یاد کن، و من تو را از آنچه تو را می‌آزارد کفایت می‌کنم.",
-              "fr": "Ô fils d'Adam, souviens-toi de Moi pendant une heure après l'aube et pendant une heure après l'après-midi, et Je te suffirai pour ce qui te préoccupe.",
-              "id": "Wahai anak Adam, ingatlah Aku selama satu jam setelah fajar dan satu jam setelah asar, maka Aku akan mencukupimu dalam urusan yang membebanimu.",
-              "ru": "О сын Адама, помни Меня в течение часа после рассвета и часа после полудня, и Я избавлю тебя от того, что тебя тревожит.",
-              "tr": "Ey Adem oğlu, sabah namazından sonra bir saat ve öğleden sonra bir saat beni an, ben de seni endişelerinden kurtarırım.",
-              "ur": "اے ابنِ آدم، صبح کے بعد ایک گھنٹہ اور عصر کے بعد ایک گھنٹہ مجھے یاد رکھو، اور میں تمہیں تمہاری فکروں سے کافی کر دوں گا۔",
-              "zh": "亚当之子，黎明后一小时，下午后一小时记念我，我必满足你所忧虑的。"
-            },
             "word_end": 26,
             "word_start": 12
           }
@@ -86,26 +73,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَكْفِيكَ": "I shall suffice you; Allah will take care of your needs.",
-            "اذْكُرْنِي": "Remember Me; engage in dhikr of Allah.",
-            "الْعَصْرِ": "The afternoon period, referring here to the time after the Asr prayer.",
-            "الْغَدَاةِ": "The early morning, referring here to the time after the dawn prayer.",
-            "سَاعَةً": "An hour; a designated period of time for remembrance.",
-            "مَا أَهَمَّكَ": "That which concerns you; the matters that preoccupy or trouble you."
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "اذْكُرْنِي",
+          "الْغَدَاةِ",
+          "الْعَصْرِ",
+          "سَاعَةً",
+          "أَكْفِيكَ",
+          "مَا أَهَمَّكَ"
+        ],
         "related_quran": [
           {
             "ref": "20:130",
@@ -120,32 +95,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ফজর ও আসরের পর আল্লাহকে স্মরণ করার পুরস্কার কী?",
-          "de": "Was ist der Lohn dafür, Allah nach Fajr und Asr zu gedenken?",
-          "en": "What is the reward for remembering Allah after Fajr and Asr?",
-          "es": "¿Cuál es la recompensa por recordar a Allah después de Fajr y Asr?",
-          "fa": "پاداش یاد خدا پس از فجر و عصر چیست؟",
-          "fr": "Quelle est la récompense pour se souvenir d'Allah après Fajr et Asr ?",
-          "id": "Apa pahala mengingat Allah setelah salat Subuh dan Asar?",
-          "ru": "Какова награда за поминание Аллаха после Фаджр и Аср?",
-          "tr": "Fecir ve Asr namazlarından sonra Allah'ı anmanın sevabı nedir?",
-          "ur": "فجر اور عصر کے بعد اللہ کی یاد کرنے کا کیا ثواب ہے؟",
-          "zh": "晨礼和下午礼后记念真主的回报是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস ভোর ও বিকেলের নামাজের পর ধারাবাহিক জিকিরের উৎসাহ দেয়। এটি শেখায় যে এই সময়গুলোতে আল্লাহকে স্মরণ করা গুরুত্বপূর্ণ বিষয়গুলিতে আল্লাহর পরিপূর্ণতা আনে।",
-          "de": "Dieser Hadith ermutigt zu anhaltendem Dhikr nach den Morgens- und Nachmittagsgebeten. Er lehrt, dass das Gedenken an Allah zu diesen Zeiten göttliche Genügsamkeit in wichtigen Angelegenheiten bringt.",
-          "en": "This hadith encourages sustained dhikr after the morning and afternoon prayers. It teaches that remembering Allah at these times brings divine sufficiency in one's important concerns.",
-          "es": "Este hadiz anima a un dhikr sostenido después de las oraciones de la mañana y la tarde. Enseña que recordar a Allah en estos momentos trae suficiencia divina en los asuntos importantes.",
-          "fa": "این حدیث تشویق به ذکر مستمر پس از نماز صبح و عصر می‌کند. آموزش می‌دهد که یاد خدا در این اوقات، کفایت الهی در امور مهم را به همراه دارد.",
-          "fr": "Ce hadith encourage un dhikr soutenu après les prières du matin et de l'après-midi. Il enseigne que se souvenir d'Allah à ces moments apporte une suffisance divine dans les préoccupations importantes.",
-          "id": "Hadis ini mendorong dzikir yang berkelanjutan setelah salat subuh dan asar. Mengajarkan bahwa mengingat Allah pada waktu-waktu ini membawa kecukupan ilahi dalam urusan penting.",
-          "ru": "Этот хадис поощряет постоянное зикр после утренних и послеобеденных молитв. Он учит, что поминание Аллаха в эти времена приносит божественное удовлетворение в важных делах.",
-          "tr": "Bu hadis, sabah ve öğleden sonra namazlarından sonra sürekli zikir yapmayı teşvik eder. Bu, bu zamanlarda Allah'ı anmanın önemli konularda ilahi yeterlilik getirdiğini öğretir.",
-          "ur": "یہ حدیث صبح اور عصر کی نمازوں کے بعد مسلسل ذکر کی ترغیب دیتی ہے۔ یہ سکھاتی ہے کہ ان اوقات میں اللہ کی یاد کرنا اہم امور میں الہی کفایت لاتا ہے۔",
-          "zh": "此圣训鼓励晨礼和下午礼后持续念诵真主之名。教导在此时段记念真主可带来重要事务的神圣满足。"
-        },
         "tags": [
           "worship",
           "dua",

@@ -16,80 +16,41 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ الصَّادِقُ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল-সাদিক عليه السلام বলেছেন:",
-              "de": "Al-Sadiq عليه السلام sagte:",
-              "en": "Al-Sadiq عليه السلام said:",
-              "es": "Al-Sadiq عليه السلام dijo:",
-              "fa": "اَلصَّادِق علیه السلام فرمود:",
-              "fr": "Al-Sadiq عليه السلام a dit :",
-              "id": "Al-Sadiq علیه السلام berkata:",
-              "ru": "Аль-Садик عليه السلام сказал:",
-              "tr": "El-Sâdık علیه السلام şöyle dedi:",
-              "ur": "اَلصَّادِق علیہ السلام نے فرمایا:",
-              "zh": "اَلصَّادِقعليهالسلام说："
-            },
             "word_end": 5,
             "word_start": 0
           },
           {
             "arabic_text": "«مَنِ اجْتَنَبَ الْكَبَائِرَ كَفَّرَ اللَّهُ عَنْهُ جَمِيعَ ذُنُوبِهِ وَ ذَلِكَ قَوْلُهُ عَزَّ وَ جَلَّ:",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে বড় পাপ থেকে বিরত থাকে, আল্লাহ তার সমস্ত পাপ মাফ করে দেন, এবং এটাই তাঁর কথা, মহান ও মহিমান্বিত:",
-              "de": "Wer die großen Sünden meidet, dem vergibt Allah alle seine Sünden, und das ist Sein Wort, der Mächtige und Erhabene:",
-              "en": "\"Whoever avoids the major sins, Allah will expiate all his sins from him, and that is His saying, Mighty and Majestic:",
-              "es": "Quien evita los grandes pecados, Allah le expía todos sus pecados, y esa es Su palabra, el Poderoso y Majestuoso:",
-              "fa": "هر کس از گناهان کبیره اجتناب کند، خداوند تمام گناهان او را می‌آمرزد، و این سخن اوست، عزیز و جلیل:",
-              "fr": "Quiconque évite les grands péchés, Allah lui pardonnera tous ses péchés, et c'est Sa parole, le Tout-Puissant et Majestueux :",
-              "id": "Barangsiapa menjauhi dosa-dosa besar, Allah akan menghapus semua dosanya, dan itu adalah firman-Nya Yang Maha Perkasa dan Maha Agung:",
-              "ru": "Кто избегает больших грехов, Аллах искупает все его грехи, и это Его слово, Всемогущий и Великий:",
-              "tr": "Kim büyük günahlardan kaçınırsa, Allah onun tüm günahlarını bağışlar ve bu, Yüce ve Azametli O'nun sözüdür:",
-              "ur": "جو شخص بڑے گناہوں سے بچتا ہے، اللہ تعالیٰ اس کے تمام گناہوں کو معاف کر دیتا ہے، اور یہ اس کا فرمان ہے، جو عظمت والا اور جلیل ہے:",
-              "zh": "凡避开重大罪行者，真主必赦免其所有罪过，此乃全能尊贵者之言："
-            },
             "word_end": 19,
             "word_start": 5
           },
           {
             "arabic_text": "إِنْ تَجْتَنِبُوا كَبَائِرَ مَا تُنْهَوْنَ عَنْهُ نُكَفِّرْ عَنْكُمْ سَيِّئَاتِكُمْ وَ نُدْخِلْكُمْ مُدْخَلًا كَرِيمًا",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "যদি তোমরা সেই বড় পাপ থেকে বিরত থাকো যেগুলো থেকে তোমাদের নিষেধ করা হয়েছে, আমরা তোমাদের মন্দ কাজগুলো মুছে দেব এবং তোমাদের সম্মানিত প্রবেশদ্বারে প্রবেশ করাব।",
-              "de": "Wenn ihr die großen Sünden meidet, von denen euch abgeraten wird, werden Wir eure Übeltaten tilgen und euch in einen ehrenvollen Eingang führen.",
-              "en": "'If you avoid the major sins which you are forbidden, We will remove from you your evil deeds and admit you to a noble entrance.'",
-              "es": "Si evitáis los grandes pecados de los que se os prohíbe, eliminaremos vuestras malas acciones y os haremos entrar en una entrada noble.",
-              "fa": "اگر از گناهان کبیره‌ای که از آن نهی شده‌اید اجتناب کنید، ما بدی‌های شما را از بین می‌بریم و شما را به ورودی بزرگواری وارد می‌کنیم.",
-              "fr": "Si vous évitez les grands péchés dont vous êtes interdits, Nous effacerons vos mauvaises actions et vous ferons entrer dans une entrée noble.",
-              "id": "Jika kamu menjauhi dosa-dosa besar yang dilarang, Kami akan menghapus dosa-dosamu dan memasukkanmu ke tempat yang mulia.",
-              "ru": "Если вы избегаете больших грехов, от которых вам запрещено, Мы удалим ваши злые деяния и введем вас в благородный вход.",
-              "tr": "Eğer yasaklandığınız büyük günahlardan kaçınırsanız, biz de sizin kötülüklerinizi giderir ve sizi şerefli bir yere sokarız.",
-              "ur": "اگر تم ان بڑے گناہوں سے بچو جن سے تمہیں روکا جاتا ہے، تو ہم تم سے تمہارے برے اعمال مٹا دیں گے اور تمہیں ایک معزز داخلہ میں داخل کریں گے۔",
-              "zh": "若你们避开被禁止的重大罪行，我们必赦免你们的恶行，并引你们进入尊贵之门。"
-            },
             "word_end": 32,
             "word_start": 19
           },
           {
             "arabic_text": "»",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "\"",
-              "de": "\"",
-              "en": "\"",
-              "es": "\"",
-              "fa": "\"",
-              "fr": "\"",
-              "id": "\"",
-              "ru": "\"",
-              "tr": "\"",
-              "ur": "\"",
-              "zh": "\""
-            },
             "word_end": 33,
             "word_start": 32
           }
@@ -118,58 +79,20 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "اجْتَنَبَ": "to avoid and keep away from deliberately",
-            "الْكَبَائِرَ": "the major sins and grave prohibitions",
-            "ذُنُوبِهِ": "his sins and acts of disobedience",
-            "سَيِّئَاتِكُمْ": "your lesser evil deeds and misdeeds",
-            "كَفَّرَ": "He expiated and wiped away sins",
-            "مُدْخَلًا كَرِيمًا": "a noble entrance, meaning an honorable admission into divine reward"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "اجْتَنَبَ",
+          "الْكَبَائِرَ",
+          "كَفَّرَ",
+          "ذُنُوبِهِ",
+          "سَيِّئَاتِكُمْ",
+          "مُدْخَلًا كَرِيمًا"
+        ],
         "related_quran": [
           {
             "ref": "4:31",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামে যদি কেউ বড় পাপ থেকে বিরত থাকে তাহলে কী হয়?",
-          "de": "Was passiert, wenn eine Person im Islam die großen Sünden meidet?",
-          "en": "What happens if a person avoids the major sins in Islam?",
-          "es": "¿Qué sucede si una persona evita los grandes pecados en el Islam?",
-          "fa": "اگر شخصی در اسلام از گناهان کبیره اجتناب کند، چه اتفاقی می‌افتد؟",
-          "fr": "Que se passe-t-il si une personne évite les grands péchés en Islam ?",
-          "id": "Apa yang terjadi jika seseorang menjauhi dosa-dosa besar dalam Islam?",
-          "ru": "Что происходит, если человек избегает больших грехов в исламе?",
-          "tr": "Bir kişi İslam'da büyük günahlardan kaçınırsa ne olur?",
-          "ur": "اگر کوئی شخص اسلام میں بڑے گناہوں سے بچتا ہے تو کیا ہوتا ہے؟",
-          "zh": "如果一个人在伊斯兰教中远离重大罪行，会发生什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে বড় পাপ থেকে বিরত থাকা আল্লাহর পক্ষ থেকে একজন ব্যক্তির অন্যান্য পাপ মাফ করার একটি মাধ্যম। ইমাম আল-সাদিক عليه السلام এই শিক্ষাকে সমর্থন করেছেন কুরআনের সেই আয়াত উদ্ধৃত করে যা যারা গুরুতর নিষেধাজ্ঞা থেকে বিরত থাকে তাদের পাপ মাফ এবং সম্মানিত আবাসে প্রবেশের প্রতিশ্রুতি দেয়।",
-          "de": "Dieser Hadith besagt, dass das Meiden der großen Sünden ein Mittel ist, durch das Allah die anderen Sünden einer Person vergibt. Imam al-Sadiq عليه السلام unterstützt diese Lehre, indem er den Koranvers zitiert, der die Vergebung der Sünden und den Eintritt in eine edle Stätte für diejenigen verspricht, die sich von den schweren Verboten fernhalten.",
-          "en": "This hadith states that avoiding the major sins is a means by which Allah remits a person's other sins. Imam al-Sadiq عليه السلام supports this teaching by citing the Qur'anic verse promising expiation of sins and entry into a noble abode for those who refrain from the grave prohibitions.",
-          "es": "Este hadiz afirma que evitar los grandes pecados es un medio por el cual Allah perdona los demás pecados de una persona. El Imam al-Sadiq عليه السلام apoya esta enseñanza citando el versículo coránico que promete la expiación de los pecados y la entrada a una morada noble para quienes se abstienen de las prohibiciones graves.",
-          "fa": "این حدیث بیان می‌کند که اجتناب از گناهان کبیره وسیله‌ای است که خداوند گناهان دیگر انسان را می‌آمرزد. امام الصادق علیه السلام این تعلیم را با ذکر آیه‌ای از قرآن که وعده آمرزش گناهان و ورود به جایگاه بزرگواری برای کسانی که از گناهان کبیره پرهیز می‌کنند، تأیید می‌کند.",
-          "fr": "Ce hadith affirme qu'éviter les grands péchés est un moyen par lequel Allah pardonne les autres péchés d'une personne. L'Imam al-Sadiq عليه السلام soutient cet enseignement en citant le verset coranique promettant l'expiation des péchés et l'entrée dans une demeure noble pour ceux qui s'abstiennent des interdictions graves.",
-          "id": "Hadis ini menyatakan bahwa menjauhi dosa-dosa besar adalah cara Allah menghapus dosa-dosa lain seseorang. Imam al-Sadiq علیه السلام mendukung ajaran ini dengan mengutip ayat Al-Qur'an yang menjanjikan penghapusan dosa dan masuk ke tempat yang mulia bagi mereka yang menjauhi larangan besar.",
-          "ru": "Этот хадис утверждает, что избегание больших грехов является способом, которым Аллах прощает остальные грехи человека. Имам аль-Садик عليه السلام подтверждает это учение, цитируя коранический аят, обещающий искупление грехов и вход в благородное место для тех, кто воздерживается от тяжких запретов.",
-          "tr": "Bu hadis, büyük günahlardan kaçınmanın Allah'ın kişinin diğer günahlarını affetmesinin bir yolu olduğunu belirtir. İmam el-Sâdık علیه السلام, bu öğretiyi desteklemek için, büyük yasaklardan kaçınanlar için günahların affı ve şerefli bir mekâna giriş vaad eden Kur'an ayetini alıntılar.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ بڑے گناہوں سے بچنا اللہ کی طرف سے دوسرے گناہوں کی معافی کا ذریعہ ہے۔ امام الصادق علیہ السلام اس تعلیم کی تائید کرتے ہیں اور قرآن کی آیت کا حوالہ دیتے ہیں جو بڑے گناہوں سے بچنے والوں کے لیے گناہوں کی معافی اور معزز مقام میں داخلے کا وعدہ کرتی ہے۔",
-          "zh": "此圣训指出，远离重大罪行是安拉赦免一个人其他罪过的方式。伊玛目阿勒萨迪克 عليه السلام通过引用古兰经经文支持这一教导，该经文承诺为远离重大禁令者赦免罪过并进入尊贵之所。"
-        },
         "tags": [
           "ethics",
           "quran_commentary",

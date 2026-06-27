@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَرَوَى أَبُو خَدِيجَةَ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আবু খদীজাহ আবু আবদিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Abu Khadijah berichtete von Abu Abdillah عليه السلام, der sagte:",
-              "en": "Abu Khadijah narrated from Abu Abdillah عليه السلام, who said:",
-              "es": "Abu Khadijah narró de Abu Abdillah عليه السلام, quien dijo:",
-              "fa": "ابوخدیجه از ابوعبدالله علیه‌السلام روایت کرد که فرمود:",
-              "fr": "Abu Khadijah a rapporté d'Abu Abdillah عليه السلام, qui a dit :",
-              "id": "Abu Khadijah meriwayat dari Abu Abdillah عليه السلام, yang berkata:",
-              "ru": "Абу Хадиджа передал от Абу Абдиллы عليه السلام, который сказал:",
-              "tr": "Ebu Hadiçe, Ebu Abdillah aleyhisselam'dan rivayet etti, şöyle dedi:",
-              "ur": "ابو خدیجہ نے ابو عبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "阿布哈迪贾传述自阿布阿卜迪拉 عليه السلام，他说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "«أَيُّمَا رَجُلٍ أَتَى رَجُلًا فَاسْتَقْرَضَ مِنْهُ مَالًا وَفِي نِيَّتِهِ أَلَّا يُؤَدِّيَهُ فَذَلِكَ اللِّصُّ الْعَادِي».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে কোনো ব্যক্তি অন্য কারো কাছে গিয়ে টাকা ধার নেয় এবং ইচ্ছা করে তা ফেরত না দেওয়ার, সে চোর এবং অপরাধী।",
-              "de": "Jeder Mann, der zu einem anderen Mann geht und Geld von ihm leiht, während er die Absicht hat, es nicht zurückzuzahlen, ist ein Dieb und ein Übeltäter.",
-              "en": "Any man who goes to another man and borrows money from him while intending not to repay it, then he is a thief and a transgressor.",
-              "es": "Cualquier hombre que vaya a otro hombre y le pida dinero prestado con la intención de no devolverlo, entonces es un ladrón y un transgresor.",
-              "fa": "هر مردی که نزد مرد دیگری برود و از او پول قرض بگیرد در حالی که قصد ندارد آن را بازپرداخت کند، پس او دزد و متجاوز است.",
-              "fr": "Tout homme qui va vers un autre homme et lui emprunte de l'argent en ayant l'intention de ne pas le rembourser est un voleur et un transgresseur.",
-              "id": "Setiap orang yang mendatangi orang lain dan meminjam uang dengan niat tidak mengembalikannya, maka dia adalah pencuri dan pelanggar.",
-              "ru": "Любой человек, который обращается к другому и занимает у него деньги с намерением не возвращать их, является вором и нарушителем.",
-              "tr": "Herhangi bir adam başka birine gidip ondan borç para alır ve niyeti geri ödememekse, o kişi hırsız ve sınırları aşan biridir.",
-              "ur": "کوئی بھی شخص اگر دوسرے شخص کے پاس جائے اور اس سے پیسہ ادھار لے جبکہ اس کی نیت ہو کہ وہ واپس نہ کرے، تو وہ چور اور حد سے تجاوز کرنے والا ہے۔",
-              "zh": "任何人如果向别人借钱且心怀不还之意，则他是盗贼和越界者。"
-            },
             "word_end": 24,
             "word_start": 10
           }
@@ -91,26 +78,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "اللِّصُّ": "the thief; one who wrongfully takes another's property",
-            "الْعَادِي": "the transgressor; one who oversteps rightful bounds",
-            "فَاسْتَقْرَضَ": "sought a loan; borrowed money from another person",
-            "مَالًا": "wealth or property that is taken as a loan",
-            "نِيَّتِهِ": "his inner intention or deliberate resolve",
-            "يُؤَدِّيَهُ": "to repay it; to discharge what is owed"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "فَاسْتَقْرَضَ",
+          "مَالًا",
+          "نِيَّتِهِ",
+          "يُؤَدِّيَهُ",
+          "اللِّصُّ",
+          "الْعَادِي"
+        ],
         "related_quran": [
           {
             "ref": "2:283",
@@ -125,32 +100,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام কি বলেন এমন ঋণ নেওয়া সম্পর্কে যার উদ্দেশ্য ফেরত না দেওয়া?",
-          "de": "Was sagt Imam al-Sadiq عليه السلام über das Ausleihen von Geld mit der Absicht, es nicht zurückzuzahlen?",
-          "en": "What does Imam al-Sadiq عليه السلام say about borrowing money with the intention of not repaying it?",
-          "es": "¿Qué dice el Imam al-Sadiq عليه السلام sobre pedir dinero prestado con la intención de no devolverlo?",
-          "fa": "امام صادق علیه السلام درباره قرض گرفتن با نیت عدم بازپرداخت چه می‌فرمایند؟",
-          "fr": "Que dit l'Imam al-Sadiq عليه السلام à propos d'emprunter de l'argent avec l'intention de ne pas le rembourser ?",
-          "id": "Apa yang dikatakan Imam al-Sadiq عليه السلام tentang meminjam uang dengan niat tidak mengembalikannya?",
-          "ru": "Что говорит Имам ас-Садик عليه السلام о займе денег с намерением не возвращать их?",
-          "tr": "İmam Sadık عليه السلام, geri ödememe niyetiyle borç almak hakkında ne diyor?",
-          "ur": "امام الصادق علیہ السلام قرض لینے کے بارے میں کیا فرماتے ہیں جب نیت ہو کہ واپس نہ کیا جائے؟",
-          "zh": "伊玛目萨迪克 عليه السلام对怀有不还意图的借款有何教导？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি এমন উদ্দেশ্যে ঋণ নেওয়া নিন্দা করে যা ফেরত না দেওয়ার। এটি এমন আচরণকে চুরি ও অপরাধের সমতুল্য মনে করে, অন্যের সম্পত্তির পবিত্রতা এবং অসৎ আর্থিক লেনদেনের নৈতিক গুরুত্বকে জোর দেয়।",
-          "de": "Dieser Hadith verurteilt das Ausleihen mit der Absicht, nicht zurückzuzahlen. Er setzt ein solches Verhalten mit Diebstahl und Übertretung gleich und betont die Heiligkeit fremden Eigentums sowie die moralische Ernsthaftigkeit unehrlicher finanzieller Geschäfte.",
-          "en": "This hadith condemns borrowing with the intention of withholding repayment. It equates such conduct with theft and transgression, emphasizing the sanctity of other people's property and the moral seriousness of dishonest financial dealings.",
-          "es": "Este hadiz condena pedir prestado con la intención de no devolver. Equipara tal conducta con el robo y la transgresión, enfatizando la santidad de la propiedad ajena y la seriedad moral de los tratos financieros deshonestos.",
-          "fa": "این حدیث قرض گرفتن با نیت عدم بازپرداخت را محکوم می‌کند. چنین رفتاری را معادل دزدی و تجاوز می‌داند و بر حرمت اموال دیگران و اهمیت اخلاقی معاملات مالی ناصادقانه تأکید می‌کند.",
-          "fr": "Ce hadith condamne l'emprunt avec l'intention de ne pas rembourser. Il assimile ce comportement au vol et à la transgression, soulignant la sainteté des biens d'autrui et la gravité morale des transactions financières malhonnêtes.",
-          "id": "Hadis ini mengutuk meminjam dengan niat tidak mengembalikan. Ia menyamakan perilaku tersebut dengan pencurian dan pelanggaran, menekankan kesucian harta orang lain dan keseriusan moral dalam transaksi keuangan yang tidak jujur.",
-          "ru": "Этот хадис осуждает заимствование с намерением не возвращать. Он приравнивает такое поведение к воровству и нарушению, подчеркивая святость чужой собственности и моральную серьезность нечестных финансовых сделок.",
-          "tr": "Bu hadis, geri ödememe niyetiyle borç almayı kınar. Bu davranışı hırsızlık ve sınır aşma ile eşit tutar, başkalarının malının kutsallığını ve dürüst olmayan finansal işlemlerin ahlaki ciddiyetini vurgular.",
-          "ur": "یہ حدیث اس نیت کے ساتھ قرض لینے کی مذمت کرتی ہے کہ واپس نہ کیا جائے۔ یہ عمل چوری اور حد سے تجاوز کے برابر قرار دیتی ہے، اور دوسروں کی ملکیت کی حرمت اور مالی بے ایمانی کی اخلاقی سنگینی کو اجاگر کرتی ہے۔",
-          "zh": "此圣训谴责怀有不还意图的借款。它将此行为等同于盗窃和越界，强调他人财产的神圣性及不诚实金融交易的道德严肃性。"
-        },
         "tags": [
           "ethics",
           "jurisprudence",

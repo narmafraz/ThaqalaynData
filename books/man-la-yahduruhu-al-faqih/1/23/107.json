@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ الصَّادِقُ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল-সাদিক عليه السلام বললেন:",
-              "de": "Al-Sadiq عليه السلام sagte:",
-              "en": "Al-Sadiq عليه السلام said:",
-              "es": "Al-Sadiq عليه السلام dijo:",
-              "fa": "اَلصَّادِق علیه السلام فرمود:",
-              "fr": "Al-Sadiq عليه السلام a dit :",
-              "id": "Al-Sadiq علیه السلام berkata:",
-              "ru": "Аль-Садик عليه السلام сказал:",
-              "tr": "El-Sadık عليه السلام şöyle dedi:",
-              "ur": "اَلصَّادِق علیہ السلام نے فرمایا:",
-              "zh": "اَلصَّادِقعليهالسلام说："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "«تَقْبِضُ بِيَدِكَ عَلَى لِحْيَتِكَ وَتَجُزُّ مَا فَضَلَ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "হাত দিয়ে দাড়ি ধরে যা অতিরিক্ত তা ছেঁটে ফেলো।",
-              "de": "Halte deinen Bart mit der Hand und schneide das Überstehende ab.",
-              "en": "\"Hold your beard with your hand and trim what exceeds.\"",
-              "es": "Sujeta tu barba con la mano y recorta lo que sobresalga.",
-              "fa": "ریش خود را با دست بگیر و آنچه اضافه است را کوتاه کن.",
-              "fr": "Tiens ta barbe avec ta main et taille ce qui dépasse.",
-              "id": "Pegang janggutmu dengan tangan dan pangkas yang melebihi.",
-              "ru": "Держи бороду рукой и подстриги то, что выступает.",
-              "tr": "Sakalını elinle tut ve taşan kısmı kes.",
-              "ur": "اپنے ہاتھ سے اپنی داڑھی کو پکڑو اور جو زائد ہو اسے تراش دو۔",
-              "zh": "用手抓住胡须，修剪多余部分。"
-            },
             "word_end": 11,
             "word_start": 4
           }
@@ -71,58 +58,20 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الصَّادِقُ": "Imam Jaʿfar ibn Muhammad al-Sadiq عليه السلام",
-            "بِيَدِكَ": "with your hand",
-            "تَجُزُّ": "you cut or trim",
-            "تَقْبِضُ": "you grasp or hold firmly",
-            "لِحْيَتِكَ": "your beard",
-            "مَا فَضَلَ": "what exceeds or is surplus"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الصَّادِقُ",
+          "تَقْبِضُ",
+          "بِيَدِكَ",
+          "لِحْيَتِكَ",
+          "تَجُزُّ",
+          "مَا فَضَلَ"
+        ],
         "related_quran": [
           {
             "ref": "7:31",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام দাড়ি ছাঁটানোর বিষয়ে কী শিক্ষা দিয়েছেন?",
-          "de": "Was lehrte Imam al-Sadiq عليه السلام über das Trimmen des Bartes?",
-          "en": "What did Imam al-Sadiq عليه السلام teach about trimming the beard?",
-          "es": "¿Qué enseñó el Imam al-Sadiq عليه السلام sobre recortar la barba?",
-          "fa": "امام الصادق علیه السلام درباره اصلاح ریش چه تعلیم داد؟",
-          "fr": "Qu’a enseigné l’Imam al-Sadiq عليه السلام à propos de la taille de la barbe ?",
-          "id": "Apa yang diajarkan Imam al-Sadiq عليه السلام tentang memotong janggut?",
-          "ru": "Что Имам аль-Садик عليه السلام учил о подстригании бороды?",
-          "tr": "İmam el-Sadık عليه السلام sakal kesimi hakkında ne öğretti?",
-          "ur": "امام الصادق علیہ السلام نے داڑھی تراشنے کے بارے میں کیا تعلیم دی؟",
-          "zh": "伊玛目الصادقعليهالسلام关于修剪胡须教导了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি দাড়ি সাজানোর পদ্ধতি শেখায়, যেখানে দাড়ি হাতে ধরে অতিরিক্ত অংশ ছেঁটে ফেলা হয়। এটি শিয়া হাদিস সাহিত্যে পরিচ্ছন্নতা, উপস্থাপনা ও ব্যক্তিগত শিষ্টাচারের শিক্ষা প্রতিফলিত করে।",
-          "de": "Dieser Hadith lehrt eine Art der Bartpflege, indem man ihn in der Hand hält und das Überstehende trimmt. Er spiegelt Lehren über Sauberkeit, Erscheinungsbild und persönliche Etikette in der schiitischen Hadith-Literatur wider.",
-          "en": "This hadith instructs a manner of grooming the beard by taking it in the hand and trimming what extends beyond that. It reflects teachings on cleanliness, presentability, and personal etiquette in Shia hadith literature.",
-          "es": "Este hadiz instruye sobre la manera de arreglar la barba tomando y recortando lo que sobresale. Refleja enseñanzas sobre limpieza, presentación y etiqueta personal en la literatura de hadices chiíes.",
-          "fa": "این حدیث روش اصلاح ریش را آموزش می‌دهد که ریش را در دست گرفته و اضافی را کوتاه کند. این تعلیمات به پاکیزگی، آراستگی و آداب شخصی در احادیث شیعه اشاره دارد.",
-          "fr": "Ce hadith enseigne une manière de tailler la barbe en la tenant dans la main et en coupant ce qui dépasse. Il reflète les enseignements sur la propreté, la présentation et l’étiquette personnelle dans la littérature des hadiths chiites.",
-          "id": "Hadis ini mengajarkan cara merapikan janggut dengan memegangnya dan memotong bagian yang berlebih. Ini mencerminkan ajaran tentang kebersihan, penampilan, dan etika pribadi dalam literatur hadits Syiah.",
-          "ru": "Этот хадис учит ухаживать за бородой, удерживая её рукой и подстригая выступающие части. Он отражает учения о чистоте, презентабельности и личном этикете в шиитской хадисной литературе.",
-          "tr": "Bu hadis, sakalın el ile tutulup taşan kısmının kesilmesiyle ilgili bir bakım şeklini öğretir. Şiî hadis literatüründe temizlik, sunum ve kişisel görgü kurallarını yansıtır.",
-          "ur": "یہ حدیث داڑھی سنوارنے کا طریقہ سکھاتی ہے کہ اسے ہاتھ میں لے کر جو زائد ہو اسے تراشا جائے۔ یہ صفائی، آراستگی اور ذاتی آداب کی تعلیمات کو ظاہر کرتی ہے جو شیعہ احادیث میں پائی جاتی ہیں۔",
-          "zh": "此圣训教导以手抓胡须，修剪多余部分，体现了什叶派圣训中文明洁净、仪表和个人礼仪的教导。"
-        },
         "tags": [
           "jurisprudence",
           "ethics",

@@ -15,80 +15,41 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَخْبَرَنِي بِهِ الشَّيْخُ رَحِمَهُ اللَّهُ عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ أَبِيهِ عَنِ الصَّفَّارِ عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ وَعَبْدِ اللَّهِ بْنِ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ مَهْزِيَارَ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "শাইখ, আল্লাহ তাঁর প্রতি রহম করুন, আমাকে এটি বর্ণনা করেছেন আহমদ ইবন মুহাম্মদ থেকে, তিনি তাঁর পিতা থেকে, তিনি আল-সাফফার থেকে, তিনি আহমদ ইবন মুহাম্মদ ও আবদুল্লাহ ইবন মুহাম্মদ থেকে, তারা আলী ইবন মাহযিয়ার থেকে, যিনি বলেছেন:",
-              "de": "Der Scheich, Allah erbarme sich seiner, berichtete es mir, von Ahmad ibn Muhammad, von seinem Vater, von al-Saffar, von Ahmad ibn Muhammad und Abdullah ibn Muhammad, von Ali ibn Mahziyar, der sagte:",
-              "en": "The Shaykh, may Allah have mercy on him, informed me of it, from Ahmad ibn Muhammad, from his father, from al-Saffar, from Ahmad ibn Muhammad and Abdullah ibn Muhammad, from Ali ibn Mahziyar, who said:",
-              "es": "El shaykh, que Allah tenga misericordia de él, me lo informó, de Ahmad ibn Muhammad, de su padre, de al-Saffar, de Ahmad ibn Muhammad y Abdullah ibn Muhammad, de Ali ibn Mahziyar, quien dijo:",
-              "fa": "شیخ، خداوند بر او رحمت آورد، آن را برای من از احمد بن محمد، از پدرش، از صفّار، از احمد بن محمد و عبدالله بن محمد، از علی بن مهزیار روایت کرد که گفت:",
-              "fr": "Le shaykh, qu’Allah lui fasse miséricorde, me l’a rapporté, d’après Ahmad ibn Muhammad, d’après son père, d’après al-Saffar, d’après Ahmad ibn Muhammad et Abdullah ibn Muhammad, d’après Ali ibn Mahziyar, qui a dit :",
-              "id": "Syekh, semoga Allah merahmatinya, mengabarkannya kepadaku dari Ahmad ibn Muhammad, dari ayahnya, dari al-Saffar, dari Ahmad ibn Muhammad dan Abdullah ibn Muhammad, dari Ali ibn Mahziyar, yang berkata:",
-              "ru": "Шейх, да помилует его Аллах, сообщил мне это от Ахмада ибн Мухаммада, от его отца, от ас-Саффара, от Ахмада ибн Мухаммада и Абдуллаха ибн Мухаммада, от Али ибн Махзияра, который сказал:",
-              "tr": "Şeyh, Allah ona rahmet etsin, bunu bana Ahmed ibn Muhammed’den, o babasından, o da es-Saffâr’dan, o da Ahmed ibn Muhammed ve Abdullah ibn Muhammed’den, onlar da Ali ibn Mahziyar’dan rivayet etti; o dedi ki:",
-              "ur": "شیخ، اللہ ان پر رحم فرمائے، نے مجھے یہ حدیث احمد بن محمد سے، انہوں نے اپنے والد سے، انہوں نے الصفار سے، انہوں نے احمد بن محمد اور عبداللہ بن محمد سے، انہوں نے علی بن مہزیار سے بیان کی، جنہوں نے کہا:",
-              "zh": "谢赫，愿真主怜悯他，向我转述了它，传自AhmadibnMuhammad，传自其父，传自al-Saffar，传自AhmadibnMuhammad和AbdullahibnMuhammad，传自AliibnMahziyar，他说："
-            },
             "word_end": 26,
             "word_start": 0
           },
           {
             "arabic_text": "كَتَبَ إِلَيْهِ سُلَيْمَانُ بْنُ رُشَيْدٍ يُخْبِرُهُ أَنَّهُ بَالَ فِي ظُلْمَةِ اللَّيْلِ وَأَنَّهُ أَصَابَ كَفَّهُ بَرْدُ نُقْطَةٍ مِنَ الْبَوْلِ لَمْ يَشُكَّ أَنَّهُ أَصَابَهُ وَلَمْ يَرَهُ وَأَنَّهُ مَسَحَهُ بِخِرْقَةٍ ثُمَّ نَسِيَ أَنْ يَغْسِلَهُ وَتَمَسَّحَ بِدُهْنٍ فَمَسَحَ بِهِ كَفَّيْهِ وَوَجْهَهُ وَرَأْسَهُ ثُمَّ تَوَضَّأَ وُضُوءَ الصَّلَاةِ فَصَلَّى.",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "সুলাইমান ইবন রুশাইদ তাকে লিখে জানাল যে, সে রাতের অন্ধকারে প্রস্রাব করেছিল, এবং প্রস্রাবের এক ফোঁটার শীতলতা তার হাতের তালুতে লেগেছিল। তা তাকে লেগেছে—এ বিষয়ে তার কোনো সন্দেহ ছিল না, কিন্তু সে তা দেখেনি। সে তা একটি কাপড় দিয়ে মুছে ফেলল, তারপর তা ধুতে ভুলে গেল, এবং তেল লাগাল; তারপর তা দিয়ে তার দুই হাতের তালু, মুখ ও মাথা মুছে নিল; এরপর সে সালাতের জন্য ওযু করল এবং সালাত আদায় করল।",
-              "de": "Sulayman ibn Rushayd schrieb ihm und teilte ihm mit, dass er in der Dunkelheit der Nacht uriniert habe und dass die Kühle eines Tropfens Urin seine Handfläche berührt habe. Er hatte keinen Zweifel daran, dass es ihn berührt hatte, aber er hatte es nicht gesehen. Er wischte es mit einem Tuch ab, vergaß dann, es zu waschen, und trug Öl auf; damit rieb er seine beiden Handflächen, sein Gesicht und seinen Kopf ein; dann verrichtete er das wudu (die Gebetswaschung) für die salat (das Gebet) und betete.",
-              "en": "Sulayman ibn Rushayd wrote to him, informing him that he had urinated in the darkness of the night, and that his palm was touched by the coolness of a drop of urine. He had no doubt that it had touched him, but he did not see it. He wiped it with a cloth, then forgot to wash it, and applied oil, rubbing with it his two palms, his face, and his head; then he performed wudu (ablution) for salat (prayer) and prayed.",
-              "es": "Sulayman ibn Rushayd le escribió informándole que había orinado en la oscuridad de la noche, y que la frescura de una gota de orina había tocado su palma. No dudaba de que le había tocado, pero no la había visto. La limpió con un paño, luego olvidó lavarla, y se aplicó aceite, frotándose con él ambas palmas, el rostro y la cabeza; luego hizo wudu (ablución) para la salat (oración) y oró.",
-              "fa": "سلیمان بن رشید به او نوشت و خبر داد که در تاریکی شب بول کرده است و سردیِ قطره‌ای از بول به کف دستش رسیده است. او هیچ شکی نداشت که به او رسیده، ولی آن را ندیده بود. آن را با پارچه‌ای پاک کرد، سپس فراموش کرد آن را بشوید، و روغن مالید و با آن دو کف دستش، صورتش و سرش را مسح کرد؛ سپس برای نماز وضو گرفت و نماز گزارد.",
-              "fr": "Sulayman ibn Rushayd lui écrivit pour l’informer qu’il avait uriné dans l’obscurité de la nuit, et que la fraîcheur d’une goutte d’urine avait touché sa paume. Il ne doutait pas qu’elle l’avait touché, mais il ne l’avait pas vue. Il l’essuya avec un chiffon, puis oublia de la laver, et se mit de l’huile, s’en frottant les deux paumes, le visage et la tête ; puis il fit le wudu (ablution) pour la salat (prière) et pria.",
-              "id": "Sulayman ibn Rushayd menulis kepadanya, memberitahukan bahwa ia telah buang air kecil dalam gelapnya malam, dan bahwa telapak tangannya terkena dinginnya setetes urine. Ia tidak ragu bahwa itu telah mengenainya, tetapi ia tidak melihatnya. Ia mengusapnya dengan sehelai kain, lalu lupa mencucinya, dan memakai minyak, lalu mengusap kedua telapak tangannya, wajahnya, dan kepalanya dengannya; kemudian ia berwudu untuk salat dan salat.",
-              "ru": "Сулейман ибн Рушайд написал ему, сообщив, что он помочился в темноте ночи и что прохлада капли мочи коснулась его ладони. Он не сомневался, что это коснулось его, но не видел этого. Он вытер это тряпкой, затем забыл вымыть это и нанес масло, которым протер свои ладони, лицо и голову; затем он совершил вуду (омовение) для салят (молитвы) и помолился.",
-              "tr": "Süleyman ibn Ruşeyd ona yazdı ve gece karanlığında idrar yaptığını, idrar damlasının serinliğinin avucuna değdiğini bildirdi. Ona değdiğinden hiç şüphesi yoktu, fakat onu görmemişti. Onu bir bezle sildi, sonra yıkamayı unuttu ve yağ sürdü; bununla iki avucunu, yüzünü ve başını meshetti; سپس namaz için abdest aldı ve namaz kıldı.",
-              "ur": "سلیمان بن رشید نے اسے لکھا، اسے خبر دی کہ اس نے رات کی تاریکی میں پیشاب کیا تھا، اور پیشاب کے ایک قطرے کی ٹھنڈک اس کی ہتھیلی کو لگی تھی۔ اسے اس میں کوئی شک نہ تھا کہ وہ اسے لگا ہے، لیکن اس نے اسے دیکھا نہیں تھا۔ اس نے اسے ایک کپڑے سے پونچھ دیا، پھر اسے دھونا بھول گیا، اور تیل لگایا، پھر اس سے اپنی دونوں ہتھیلیوں، اپنے چہرے اور اپنے سر پر مل لیا؛ پھر اس نے نماز کے لیے وضو کیا اور نماز پڑھی۔",
-              "zh": "SulaymanibnRushayd写信给他，告诉他自己在夜色中小便了，而且一滴尿液的凉意碰到了他的手掌。他毫不怀疑那东西已经碰到了他，但他没有看见。他用一块布把它擦掉，然后忘了把它洗掉，又涂了油，并用它擦了自己的双手、脸和头；然后他为salat（礼拜）做了wudu（小净），并礼拜了。"
-            },
             "word_end": 69,
             "word_start": 26
           },
           {
             "arabic_text": "فَأَجَابَهُ بِجَوَابٍ قَرَأْتُهُ بِخَطِّهِ: أَمَّا مَا تَوَهَّمْتَ مِمَّا أَصَابَ يَدَكَ فَلَيْسَ بِشَيْءٍ إِلَّا مَا تَحَقَّقَ، فَإِنْ تَحَقَّقْتَ ذَلِكَ كُنْتَ حَقِيقًا أَنْ تُعِيدَ الصَّلَوَاتِ الَّتِي كُنْتَ صَلَّيْتَهُنَّ بِذَلِكَ الْوُضُوءِ بِعَيْنِهِ، مَا كَانَ مِنْهُنَّ فِي وَقْتِهَا، وَمَا فَاتَ وَقْتُهَا فَلَا إِعَادَةَ عَلَيْكَ لَهَا، مِنْ قِبَلِ أَنَّ الرَّجُلَ إِذَا كَانَ ثَوْبُهُ نَجِسًا لَمْ يُعِدِ الصَّلَاةَ إِلَّا مَا كَانَ فِي وَقْتٍ، فَإِذَا كَانَ جُنُبًا أَوْ صَلَّى عَلَى غَيْرِ وُضُوءٍ فَعَلَيْهِ إِعَادَةُ الصَّلَوَاتِ الْمَكْتُوبَاتِ اللَّوَاتِي فَاتَتْهُ، لِأَنَّ الثَّوْبَ خِلَافُ الْجَسَدِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "অতঃপর তিনি তাকে এমন এক জবাব দিলেন, যা আমি তাঁর নিজের হাতের লেখায় পড়েছি: আর তোমার হাতে যা লেগেছে বলে তুমি কেবল ধারণা করেছ, তা কিছুই নয়, যতক্ষণ না তা নিশ্চিতভাবে প্রমাণিত হয়। যদি তুমি সে বিষয়ে নিশ্চিত হতে, তবে যে সালাতগুলো তুমি সেই একই ওযু দিয়ে আদায় করেছিলে, সেগুলো পুনরায় আদায় করা তোমার ওপর অবশ্যকর্তব্য হতো—অর্থাৎ যেগুলোর সময় তখনও বাকি ছিল; কিন্তু যেগুলোর সময় অতিক্রান্ত হয়ে গেছে, সেগুলোর জন্য তোমার ওপর পুনরায় আদায় নেই। কারণ, কোনো মানুষের পোশাক নাজিস হলে সে কেবল সেই সালাতই পুনরায় আদায় করে, যা তখনও সময়ের মধ্যে থাকে; কিন্তু যদি সে জুনুব হয় বা ওযু ছাড়া সালাত আদায় করে, তবে তার ছুটে যাওয়া ফরজ সালাতগুলো পুনরায় আদায় করতে হবে, কারণ পোশাক দেহের মতো নয়। সুতরাং, আল্লাহ চাইলে, এ অনুযায়ী আমল করো।",
-              "de": "Darauf antwortete er ihm mit einer Antwort, die ich in seiner eigenen Handschrift gelesen habe: Was aber das betrifft, was du nur vermutet hast in Bezug auf das, was deine Hand berührt hat, so ist es nichts, außer es ist mit Gewissheit festgestellt. Wenn du dessen gewiss gewesen wärest, dann wäre es dir wahrlich oblegen, die salat (Gebete), die du mit genau jenem wudu (der Gebetswaschung) verrichtet hattest, zu wiederholen, nämlich diejenigen von ihnen, deren Zeit noch geblieben war; was aber über seine Zeit hinausgegangen ist, dafür ist keine Wiederholung für dich erforderlich. Denn wenn das Gewand eines Mannes najis ist, wiederholt er nur die salat, die noch innerhalb ihrer Zeit ist; ist er jedoch junub oder hat er ohne wudu gebetet, dann muss er die verpflichtenden salat (Gebete), die er versäumt hat, wiederholen, weil das Gewand anders ist als der Körper. Handle also danach, wenn Allah will.",
-              "en": "So he replied to him with an answer that I read in his own handwriting: As for what you merely supposed regarding what touched your hand, it is nothing unless it is established with certainty. If you were certain of that, then it would indeed be incumbent upon you to repeat the salat (prayers) that you had performed with that very wudu (ablution), namely those of them whose time still remained; but whatever had passed beyond its time, there is no repetition required of you for it. This is because when a man's garment is najis, he only repeats the salat that is still within its time; but if he is junub or he prayed without wudu (ablution), then he must repeat the obligatory salat (prayers) that he missed, because the garment is unlike the body.",
-              "es": "Entonces le respondió con una respuesta que leí de su propia letra: En cuanto a lo que solo supusiste respecto de lo que tocó tu mano, no es nada a menos que quede establecido con certeza. Si hubieras estado seguro de ذلك, entonces ciertamente te habría correspondido repetir las salat (oraciones) que habías realizado con ese mismo wudu (ablución), es decir, aquellas de ellas cuyo tiempo aún permanecía; pero en cuanto a lo que había pasado de su tiempo, no tienes que repetirlo. Esto es porque cuando la prenda de un hombre es najis, solo repite la salat que todavía está dentro de su tiempo; pero si está junub o rezó sin wudu (ablución), entonces debe repetir las salat (oraciones) obligatorias que se le pasaron, porque la prenda es distinta del cuerpo. Así pues, actúa conforme a eso, si Allah quiere.",
-              "fa": "پس او در پاسخی که من آن را به خطّ خود او خواندم، چنین پاسخ داد: اما آنچه را که درباره آنچه به دستت رسیده گمان برده‌ای، چیزی نیست مگر آنکه با یقین ثابت شود. اگر به آن یقین می‌داشتی، بر تو لازم بود که نمازهایی را که با همان وضو خوانده بودی دوباره بخوانی، یعنی آن دسته از آنها که وقتشان باقی مانده بود؛ اما آنچه وقتش گذشته است، بر تو اعاده‌ای نیست. زیرا وقتی لباس مردی نجس باشد، او فقط نمازی را که هنوز در وقت آن است دوباره می‌خواند؛ اما اگر جنب باشد یا بدون وضو نماز خوانده باشد، باید نمازهای واجبی را که از او فوت شده است اعاده کند، زیرا لباس با بدن متفاوت است. پس بر این اساس عمل کن، اگر خدا بخواهد.",
-              "fr": "Il lui répondit alors par une réponse que j’ai lue de sa propre écriture : Quant à ce que tu as seulement supposé au sujet de ce qui a touché ta main, cela n’est rien, à moins que cela ne soit établi avec certitude. Si tu en avais eu la certitude, il t’aurait alors incombé de refaire les salat (prières) que tu avais accomplies avec ce même wudu (ablution), à savoir celles dont le temps restait encore ; mais pour celles dont le temps était passé, il n’y a pas de reprise pour toi. En effet, lorsqu’un vêtement d’homme est najis, il ne refait que la salat qui est encore dans son temps ; mais s’il est junub ou s’il a prié sans wudu (ablution), alors il doit refaire les salat (prières) obligatoires qu’il a manquées, car le vêtement est différent du corps. Agis donc selon cela, si Allah le veut.",
-              "id": "Lalu ia menjawabnya dengan jawaban yang aku baca dengan tulisan tangannya sendiri: Adapun apa yang engkau sangka mengenai apa yang mengenai tanganmu, maka itu bukan apa-apa kecuali jika telah dipastikan dengan yakin. Jika engkau yakin akan hal itu, maka sungguh engkau wajib mengulangi salat-salat yang telah engkau kerjakan dengan wudu (ablusi) itu sendiri, yaitu yang waktunya masih tersisa; adapun yang telah lewat waktunya, maka tidak ada pengulangan atasmu untuk itu. Sebab, apabila pakaian seseorang najis, ia hanya mengulangi salat yang masih dalam waktunya; tetapi jika ia junub atau salat tanpa wudu (ablusi), maka ia harus mengulangi salat-salat wajib yang terlewat darinya, karena pakaian berbeda dengan tubuh. Maka beramallah dengan itu, jika Allah menghendaki.",
-              "ru": "Тогда он ответил ему ответом, который я прочитал его собственной рукой: Что касается того, что ты лишь предположил относительно того, что коснулось твоей руки, то это ничто, если только это не установлено с уверенностью. Если бы ты был в этом уверен, то тебе непременно следовало бы повторить салят (молитвы), которые ты совершил с тем самым вуду (омовением), а именно те из них, время которых еще оставалось; что же касается того, время чего уже прошло, то повторение для тебя не требуется. Это потому, что когда одежда человека является наджис, он повторяет только тот салят, время которого еще не вышло; но если он джунуб или помолился без вуду (омовения), то он должен повторить обязательные салят (молитвы), которые он пропустил, потому что одежда отличается от тела. Так поступай согласно этому, если пожелает Аллах.",
-              "tr": "Bunun üzerine ona, kendi el yazısıyla okuduğum bir cevapla karşılık verdi: Elinize değen şey hakkında sadece zannetmiş olduğunuz şeye gelince, kesin olarak sabit olmadıkça onun bir hükmü yoktur. Eğer buna kesin olarak kanaat getirirseniz, o zaman aynı abdestle kılmış olduğunuz namazları, yani vakti henüz devam edenlerini yeniden kılmanız gerekirdi; fakat vakti geçmiş olanlar için size tekrar gerekmez. Çünkü bir adamın elbisesi necis olursa, yalnızca vakti içinde olan namazı tekrar eder; fakat cünüp ise veya abdestsiz namaz kılmışsa, kaçırdığı farz namazları tekrar etmesi gerekir; çünkü elbise bedenin aksinedir. Öyleyse, Allah dilerse, buna göre عمل et.",
-              "ur": "تو اس نے اسے جواب دیا، ایک ایسا جواب جو میں نے اس کے اپنے ہاتھ کی لکھائی میں پڑھا: جہاں تک تمہارا یہ گمان ہے کہ تمہارے ہاتھ کو جو چیز لگی، تو وہ کچھ نہیں، مگر یہ کہ وہ یقین کے ساتھ ثابت ہو جائے۔ اگر تمہیں اس کا یقین ہو جاتا، تو تم پر لازم ہوتا کہ تم ان نمازوں کو دوبارہ پڑھتے جو تم نے اسی وضو کے ساتھ ادا کی تھیں، یعنی ان میں سے وہ جو اپنے وقت میں باقی تھیں؛ لیکن جو اپنے وقت سے گزر چکی تھیں، ان کے لیے تم پر کوئی اعادہ نہیں۔ اس کی وجہ یہ ہے کہ جب کسی آدمی کا کپڑا نجس ہو تو وہ صرف وہی نماز دوبارہ پڑھتا ہے جو ابھی اپنے وقت میں ہو؛ لیکن اگر وہ جنب ہو یا اس نے بغیر وضو کے نماز پڑھی ہو، تو اس پر لازم ہے کہ وہ فرض نمازیں دوبارہ پڑھے جو اس سے فوت ہو گئی تھیں، کیونکہ کپڑا بدن کے خلاف ہے۔ پس اسی کے مطابق عمل کرو، اگر اللہ چاہے۔",
-              "zh": "于是他给他回信，我读到了他亲笔写下的答复：至于你只是猜想碰到你手上的东西，那算不得什么，除非它已被确凿证实。如果你对此确有把握，那么你本该重做你用那一次wudu（小净）所做的salat（礼拜），也就是那些其时间尚未过去的礼拜；至于那些时间已经过去的，则不必再为它们重做。这是因为，当一个人的衣服是najis（不洁）时，他只重做仍在其时间内的salat；但如果他处于junub（大净未净）状态，或者在没有wudu（小净）的情况下礼拜，那么他必须重做他错过的义务salat（礼拜），因为衣服不同于身体。故你当依此而行，如果真主意欲。"
-            },
             "word_end": 144,
             "word_start": 69
           },
           {
             "arabic_text": "فَاعْمَلْ عَلَى ذَلِكَ إِنْ شَاءَ اللَّهُ.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "এটাই বিধান, যদি আল্লাহ চান।",
-              "de": "So ist die Regel, wenn Allah will.",
-              "en": "So act according to that, if Allah wills.",
-              "es": "Así es la norma, si Allah quiere.",
-              "fa": "این حکم است، اگر خدا بخواهد.",
-              "fr": "Telle est la règle, si Allah le veut.",
-              "id": "Demikianlah ketentuannya, jika Allah menghendaki.",
-              "ru": "Таково постановление, если пожелает Аллах.",
-              "tr": "Allah dilerse, hüküm budur.",
-              "ur": "یہی حکم ہے، اگر اللہ چاہے۔",
-              "zh": "这就是判定，如果真主意欲。"
-            },
             "word_end": 150,
             "word_start": 144
           }
@@ -137,28 +98,16 @@
             "phrase_en": "If Allah wills"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْبَوْلِ": "urine, the source of the najasah discussed in the ruling",
-            "الْمَكْتُوبَاتِ": "the obligatory prescribed salat (prayers)",
-            "الْوُضُوءِ": "wudu (ablution), the ritual purification performed for salat (prayer)",
-            "بِخِرْقَةٍ": "with a cloth, by which the hand was wiped instead of washed",
-            "بِدُهْنٍ": "with oil, which was spread over the hands, face, and head",
-            "جُنُبًا": "in a state of janabah, requiring ghusl (ritual bath)",
-            "ظُلْمَةِ": "the darkness of the night in which the incident occurred",
-            "نَجِسًا": "ritually impure, describing the garment in the legal comparison"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "ظُلْمَةِ",
+          "الْبَوْلِ",
+          "بِخِرْقَةٍ",
+          "بِدُهْنٍ",
+          "الْوُضُوءِ",
+          "نَجِسًا",
+          "جُنُبًا",
+          "الْمَكْتُوبَاتِ"
+        ],
         "related_quran": [
           {
             "ref": "2:286",
@@ -173,32 +122,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কেউ পরে নিশ্চিত হয় যে ওযুর আগে তার হাতে প্রস্রাব লেগেছিল, তবে তাকে কোন কোন সালাত পুনরায় আদায় করতে হবে?",
-          "de": "Wenn jemand später sicher wird, dass Urin seine Hand vor dem wudu (der Gebetswaschung) berührt hat, welche salat (Gebete) muss er wiederholen?",
-          "en": "If someone later becomes certain that urine touched his hand before wudu (ablution), which prayers must he repeat?",
-          "es": "Si alguien luego llega a estar seguro de que la orina tocó su mano antes del wudu (ablución), ¿qué salat (oraciones) debe repetir?",
-          "fa": "اگر کسی بعداً یقین پیدا کند که پیش از وضو بول به دستش رسیده بود، کدام نمازها را باید دوباره بخواند؟",
-          "fr": "Si quelqu’un devient ensuite certain que de l’urine a touché sa main avant le wudu (ablution), quelles salat (prières) doit-il refaire ?",
-          "id": "Jika seseorang kemudian yakin bahwa urine telah mengenai tangannya sebelum wudu (ablusi), salat (prayer) mana yang harus ia ulang?",
-          "ru": "Если человек позже убеждается, что моча коснулась его руки до вуду (омовения), какие салят (молитвы) он должен повторить?",
-          "tr": "Bir kimse sonradan, abdestten önce eline idrar değdiğinden kesin olarak emin olursa, hangi namazları yeniden kılmalıdır?",
-          "ur": "اگر کسی کو بعد میں یقین ہو جائے کہ وضو سے پہلے اس کے ہاتھ کو پیشاب لگا تھا، تو اسے کون سی نمازیں دوبارہ پڑھنی چاہئیں؟",
-          "zh": "如果某人后来确定在wudu（小净）之前尿液碰到了他的手，那么他必须重做哪些salat（礼拜）？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে নাজাসাহ সম্পর্কে সন্দেহ ও নিশ্চিততার শরঈ বিধান এবং সালাতের ওপর তার প্রভাব বর্ণিত হয়েছে। পোশাকে নাপাক লাগলে কেবল সময়ের মধ্যে থাকা সালাতগুলোই পুনরায় আদায় করতে হয়, আর জুনুব অবস্থা বা ওযু ছাড়া সালাতের মতো দেহগত অযোগ্য অবস্থায় ছুটে যাওয়া ফরজ সালাতগুলো পুনরায় আদায় করা আবশ্যক।",
-          "de": "Dieser Hadith legt eine rechtliche Regel zu Zweifel und Gewissheit bei der najasah und deren Wirkung auf die salat (das Gebet) dar. Bei Unreinheit auf der Kleidung werden nur die salat wiederholt, deren Zeit noch nicht verstrichen ist; bei ungültigen körperlichen Zuständen wie janabah oder fehlendem wudu müssen die versäumten verpflichtenden salat wiederholt werden.",
-          "en": "This hadith sets out a legal ruling concerning uncertainty and certainty in najasah and their effect on salat (prayer). It distinguishes between impurity on clothing, for which only prayers still within their time are repeated, and invalid bodily states such as janabah or lack of wudu (ablution), for which missed obligatory prayers must be repeated.",
-          "es": "Este hadiz expone una norma jurídica sobre la duda y la certeza en la najasah y su efecto sobre la salat (oración). En la impureza de la ropa, solo se repiten las salat cuyo tiempo aún permanece; mientras que en estados corporales inválidos como la janabah o la falta de wudu (ablución), deben repetirse las salat obligatorias perdidas.",
-          "fa": "این حدیث حکم فقهیِ شک و یقین در نجاست و اثر آن بر نماز را بیان می‌کند. در نجاستِ لباس، تنها نمازهایی که وقتشان باقی است دوباره خوانده می‌شوند، اما در حالت‌های باطلِ بدنی مانند جنابت یا بی‌وضویی، نمازهای واجبِ فوت‌شده باید اعاده شوند.",
-          "fr": "Ce hadith expose une règle juridique concernant le doute et la certitude en matière de najasah et leur effet sur la salat (prière). Pour l’impureté sur le vêtement, seules les salat dont le temps n’est pas écoulé sont refaites ; tandis que pour les états corporels invalidants comme la janabah ou l’absence de wudu (ablution), les salat obligatoires manquées doivent être refaites.",
-          "id": "Hadis ini menjelaskan hukum fikih tentang keraguan dan keyakinan dalam najasah serta pengaruhnya terhadap salat. Pada najis yang mengenai pakaian, hanya salat yang masih dalam waktunya yang diulang; sedangkan pada keadaan batin/badan yang batal seperti junub atau tanpa wudu, salat wajib yang terlewat harus diulang.",
-          "ru": "Этот хадис разъясняет правовое постановление относительно сомнения и уверенности в наджасе и их влияния на салят (молитву). При нечистоте на одежде повторяются только те салят, время которых еще не вышло; тогда как при недействительных телесных состояниях, таких как джунуб или отсутствие вуду (омовения), пропущенные обязательные салят должны быть повторены.",
-          "tr": "Bu hadis, necaset konusunda şüphe ve kesinlik ile bunların namaz üzerindeki etkisine dair fıkhî hükmü بیان eder. Elbisedeki necasette yalnızca vakti içinde olan namazlar tekrar edilir; cünüplük veya abdestsizlik gibi bedene ait geçersiz hâllerde ise kaçırılan farz namazların yeniden kılınması gerekir.",
-          "ur": "یہ حدیث نجاست کے بارے میں شک اور یقین کے شرعی حکم کو بیان کرتی ہے اور اس کے نماز پر اثرات واضح کرتی ہے۔ کپڑے کی نجاست میں صرف وہ نمازیں دوبارہ پڑھی جاتی ہیں جن کا وقت باقی ہو، جبکہ جنابت یا وضو کے بغیر نماز جیسے بدنی احوال میں فوت شدہ فرض نمازیں دوبارہ ادا کرنا لازم ہے۔",
-          "zh": "这段圣训阐明了关于najasa（秽物）中的怀疑与确信及其对salat（礼拜）的影响的教法判定。若秽物沾在衣服上，只需重做时间尚未过去的salat；而若处于junub（大净未净）或没有wudu（小净）等无效身体状态，则必须重做错过的义务salat。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

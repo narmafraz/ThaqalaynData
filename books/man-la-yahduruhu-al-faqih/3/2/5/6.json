@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى عُبَيْدُ بْنُ زُرَارَةَ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং উবৈদ ইবনে জুরারা আবু আবদিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Und ʿUbayd ibn Zurārah berichtete von Abū ʿAbdillāh عليه السلام, der sagte:",
-              "en": "And ʿUbayd ibn Zurārah narrated from Abū ʿAbdillāh عليه السلام, who said:",
-              "es": "Y ʿUbayd ibn Zurārah narró de Abū ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "و ʿUbayd ibn Zurārah از ابوالعبدالله علیه السلام روایت کرد که فرمود:",
-              "fr": "Et ʿUbayd ibn Zurārah a rapporté de Abū ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Dan ʿUbayd ibn Zurārah meriwayat dari Abū ʿAbdillāh علیه السلام, yang berkata:",
-              "ru": "И ʿУбайд ибн Зурара передал от Абу ʿАбдиллах عليه السلام, который сказал:",
-              "tr": "Ve ʿUbayd ibn Zurārah, Abū ʿAbdillāh علیه السلام'dan rivayet etti, şöyle dedi:",
-              "ur": "اور عُبید بن زرارہ نے ابو عبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "ʿUbaydibnZurārah从AbūʿAbdillāhعليهالسلام那里传述，他说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "لَا يَكُونُ الرِّبَا إِلَّا فِيمَا يُكَالُ أَوْ يُوزَنُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "রিবা শুধুমাত্র সেই জিনিসে প্রযোজ্য যা মাপা বা ওজন করা হয়।",
-              "de": "Ribā gilt nur für das, was gemessen oder gewogen wird.",
-              "en": "Ribā only applies to what is measured or weighed.",
-              "es": "El ribā solo se aplica a lo que se mide o pesa.",
-              "fa": "ربا فقط در مواردی که به صورت اندازه‌گیری یا وزن‌کشی باشد، اعمال می‌شود.",
-              "fr": "Le ribā ne s'applique qu'à ce qui est mesuré ou pesé.",
-              "id": "Ribā hanya berlaku pada barang yang diukur atau ditimbang.",
-              "ru": "Риба применяется только к тому, что измеряется или взвешивается.",
-              "tr": "Ribā sadece ölçülen veya tartılan şeylere uygulanır.",
-              "ur": "ربا صرف اسی چیز پر لاگو ہوتا ہے جس کا تول یا وزن کیا جائے۔",
-              "zh": "利息仅适用于被计量或称重的物品。"
-            },
             "word_end": 20,
             "word_start": 12
           }
@@ -91,24 +78,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبِي عَبْدِ اللَّهِ": "Abū ʿAbdillāh, the Imam Jaʿfar al-Ṣādiq عليه السلام",
-            "الرِّبَا": "usury; unlawful increase in exchange transactions",
-            "يُكَالُ": "that which is measured by volume or measure",
-            "يُوزَنُ": "that which is measured by weight"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الرِّبَا",
+          "يُكَالُ",
+          "يُوزَنُ",
+          "أَبِي عَبْدِ اللَّهِ"
+        ],
         "related_quran": [
           {
             "ref": "2:275",
@@ -123,32 +98,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামী আইনে রিবা কোন ধরনের পণ্যে প্রযোজ্য?",
-          "de": "Auf welche Arten von Waren findet Ribā im islamischen Recht Anwendung?",
-          "en": "To which types of goods does ribā apply in Islamic law?",
-          "es": "¿A qué tipos de bienes se aplica el ribā en la ley islámica?",
-          "fa": "ربا در قانون اسلامی به چه نوع کالاهایی اعمال می‌شود؟",
-          "fr": "À quels types de biens le ribā s'applique-t-il en droit islamique ?",
-          "id": "Dalam hukum Islam, ribā berlaku pada jenis barang apa saja?",
-          "ru": "К каким видам товаров применяется риба в исламском праве?",
-          "tr": "İslami hukukta ribā hangi tür mallara uygulanır?",
-          "ur": "اسلامی قانون میں ربا کن اقسام کی اشیاء پر لاگو ہوتا ہے؟",
-          "zh": "伊斯兰法中利息适用于哪些类型的商品？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস একটি ফিকহী নীতি ব্যাখ্যা করে যে রিবা শুধুমাত্র সেই পণ্যে প্রযোজ্য যা পরিমাপ বা ওজনের মাধ্যমে লেনদেন হয়। এটি বাণিজ্যিক লেনদেনে সুদের সীমা নির্ধারণ করে এমন সংক্ষিপ্ত ফিকহী বিধান।",
-          "de": "Dieser Hadith stellt ein Rechtsprinzip dar, dass Ribā nur auf Waren angewendet wird, die nach Maß oder Gewicht gehandelt werden. Es ist ein prägnantes fiqhisches Urteil, das den Umfang von Wucher im Handelsverkehr definiert.",
-          "en": "This hadith states a legal principle that ribā applies in items that are transacted by measure or weight. It is a concise fiqh ruling that defines the scope of usury in commercial exchange.",
-          "es": "Este hadiz establece un principio legal que indica que el ribā se aplica a los artículos que se transan por medida o peso. Es un fallo jurídico conciso que define el alcance de la usura en el intercambio comercial.",
-          "fa": "این حدیث یک اصل فقهی را بیان می‌کند که ربا فقط در مواردی که کالاها به صورت اندازه‌گیری یا وزن‌کشی معامله می‌شوند، اعمال می‌شود. این حکم فقهی مختصری است که دامنه ربا در معاملات تجاری را تعریف می‌کند.",
-          "fr": "Ce hadith énonce un principe juridique selon lequel le ribā s'applique aux biens mesurés ou pesés. C'est un jugement fiqh concis qui définit la portée de l'usure dans les échanges commerciaux.",
-          "id": "Hadis ini menyatakan prinsip hukum bahwa ribā berlaku pada barang yang diperjualbelikan berdasarkan ukuran atau berat. Ini adalah ketetapan fiqh singkat yang mendefinisikan ruang lingkup riba dalam pertukaran komersial.",
-          "ru": "Этот хадис излагает юридический принцип, что риба применяется к товарам, которые продаются по мере или весу. Это краткое фиххское постановление, определяющее пределы ростовщичества в коммерческом обмене.",
-          "tr": "Bu hadis, ribânın sadece ölçü veya tartı ile işlem gören mallara uygulandığını belirten hukuki bir prensibi ifade eder. Bu, ticari alışverişte faizin kapsamını tanımlayan özlü bir fıkıh hükmüdür.",
-          "ur": "یہ حدیث ایک فقہی اصول بیان کرتی ہے کہ ربا صرف ان اشیاء پر لاگو ہوتا ہے جن کی خرید و فروخت تول یا وزن کے ذریعے ہوتی ہے۔ یہ سود کی حد بندی کا مختصر فقهی حکم ہے۔",
-          "zh": "此圣训阐明了一个法律原则：利息仅适用于以计量或称重方式交易的物品。这是一个简明的伊斯兰教法裁决，定义了商业交换中高利贷的范围。"
-        },
         "tags": [
           "jurisprudence",
           "economy"

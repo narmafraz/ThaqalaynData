@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ صَفْوَانَ عَنِ الْعَلَاءِ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর কাছ থেকে, সাফওয়ান থেকে, আল-আলা’ থেকে, মুহাম্মদ ইবন মুসলিম থেকে, আবু জাফর عليه السلام থেকে বর্ণিত, তিনি বলেছেন:",
-              "de": "Von ihm, von Safwan, von al-'Ala', von Muhammad ibn Muslim, von Abu Ja'far عليه السلام, der sagte:",
-              "en": "From him, from Safwan, from al-'Ala', from Muhammad ibn Muslim, from Abu Ja'far عليه السلام, who said:",
-              "es": "De él, de Safwan, de al-'Ala', de Muhammad ibn Muslim, de Abu Ya'far عليه السلام, quien dijo:",
-              "fa": "از او، از صفوان، از علاء، از محمد بن مسلم، از ابو جعفر علیه السلام روایت شده است که فرمود:",
-              "fr": "De lui, de Safwan, de al-'Ala', de Muhammad ibn Muslim, d'Abu Ja'far عليه السلام, qui a dit :",
-              "id": "Dari beliau, dari Safwan, dari al-'Ala', dari Muhammad ibn Muslim, dari Abu Ja'far عليه السلام, beliau bersabda:",
-              "ru": "От него, от Сафвана, от аль-Аля', от Мухаммада ибн Муслима, от Абу Джа'фара عليه السلام, который сказал:",
-              "tr": "Ondan, Safvan’dan, el-Ala’dan, Muhammed ibn Müslim’den, Ebu Cafer عليه السلام’dan rivayet edildi ki, şöyle dedi:",
-              "ur": "ان سے، صفوان سے، العلاء سے، محمد بن مسلم سے، ابو جعفر علیہ السلام سے روایت ہے، جنہوں نے فرمایا:",
-              "zh": "由他传述，来自Safwan，来自al-'Ala'，来自MuhammadibnMuslim，来自AbuJa'far عليه السلام，他说："
-            },
             "word_end": 15,
             "word_start": 0
           },
           {
             "arabic_text": "لَا تَعْتَدَّ بِالرَّكْعَةِ الَّتِي لَمْ تَشْهَدْ تَكْبِيرَتَهَا مَعَ الْإِمَامِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে রাকাআতের তাকবির তুমি ইমামের সঙ্গে পায়নি, সেটিকে গণনা করো না।",
-              "de": "Zähle die Rak'ah nicht, deren Takbir du nicht zusammen mit dem Imam miterlebt hast.",
-              "en": "Do not count the rak'ah in which you did not witness its takbir along with the Imam.",
-              "es": "No cuentes la rak'ah cuyo takbir no presenciaste junto con el Imam.",
-              "fa": "آن رکعتی را که تکبیر آن را همراه با امام درک نکرده‌ای، به شمار نیاور.",
-              "fr": "Ne compte pas la rak'ah dont tu n'as pas assisté au takbir avec l'Imam.",
-              "id": "Jangan hitung rakaat yang takbirnya tidak engkau saksikan bersama Imam.",
-              "ru": "Не засчитывай тот рак'ат, такбир которого ты не застал вместе с Имамом.",
-              "tr": "İmam ile birlikte tekbirine yetişmediğin rekâtı sayma.",
-              "ur": "اس رکعت کو شمار نہ کرو جس کی تکبیر تم نے امام کے ساتھ نہ پائی ہو۔",
-              "zh": "不要计算你没有和Imam一起赶上其takbir的那一拜。"
-            },
             "word_end": 24,
             "word_start": 15
           }
@@ -84,25 +71,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الرَّكْعَةِ": "a unit of salat (prayer)",
-            "الْإِمَامِ": "the prayer leader in congregational salat (prayer)",
-            "تَشْهَدْ": "to witness or be present for",
-            "تَكْبِيرَتَهَا": "its opening takbir connected to that rak'ah",
-            "لَا تَعْتَدَّ": "do not reckon or count as valid"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الرَّكْعَةِ",
+          "تَشْهَدْ",
+          "تَكْبِيرَتَهَا",
+          "الْإِمَامِ",
+          "لَا تَعْتَدَّ"
+        ],
         "related_quran": [
           {
             "ref": "2:43",
@@ -113,32 +88,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "জামাআতের সঙ্গে salat-এ ইমামের সঙ্গে যোগদানকারী ব্যক্তির জন্য রাকাআত কখন গণ্য হয়?",
-          "de": "Wann zählt eine Rak'ah für jemanden, der sich im Gemeinschafts-salat dem Imam anschließt?",
-          "en": "When does a rak'ah count for someone joining the Imam in congregational salat (prayer)?",
-          "es": "¿Cuándo cuenta una rak'ah para alguien que se une al Imam en el salat en congregación?",
-          "fa": "برای کسی که در salat جماعتی به امام می‌پیوندد، رکعت چه زمانی حساب می‌شود؟",
-          "fr": "Quand une rak'ah compte-t-elle pour quelqu'un qui rejoint l'Imam dans le salat en groupe ?",
-          "id": "Kapan satu rakaat dihitung bagi orang yang bergabung dengan Imam dalam salat berjamaah?",
-          "ru": "Когда рак'ат засчитывается тому, кто присоединяется к Имаму в الجماعي salat?",
-          "tr": "Cemaatle salatta imama katılan biri için rekât ne zaman sayılır?",
-          "ur": "جماعت کے ساتھ salat میں امام کے ساتھ شامل ہونے والے شخص کے لیے رکعت کب شمار ہوتی ہے؟",
-          "zh": "对于加入Imam参加集体salat的人来说，什么时候一拜才算数？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি জামাআতের সঙ্গে salat-এ যোগ দেওয়ার বিষয়ে একটি ফিকহি বিধান দেয়। এতে বলা হয়েছে, যদি কোনো অনুসারী ইমামের সঙ্গে কোনো রাকাআতের তাকবির না পায়, তবে সেই রাকাআত তার জন্য গণ্য হবে না; এটি সেই রাকাআতে ইমামের সঙ্গে সঠিকভাবে যুক্ত হওয়ার গুরুত্ব নির্দেশ করে।",
-          "de": "Dieser Hadith enthält eine rechtliche Regel zum Mitbeten im Gemeinschafts-salat. Er besagt, dass eine Rak'ah für den Mitbetenden nicht gezählt wird, wenn er ihr Takbir nicht zusammen mit dem Imam mitbekommen hat; dies zeigt die Bedeutung, sich in dieser Einheit richtig dem Imam anzuschließen.",
-          "en": "This hadith gives a legal ruling about joining congregational salat (prayer). It states that a rak'ah is not counted for the follower if he did not catch its takbir with the Imam, indicating the importance of properly joining the Imam in that unit.",
-          "es": "Este hadiz ofrece una norma jurídica sobre unirse al salat en congregación. Afirma que una rak'ah no se cuenta para el seguidor si no alcanzó su takbir junto con el Imam, lo que indica la importancia de unirse correctamente al Imam en esa unidad.",
-          "fa": "این حدیث درباره پیوستن به salat جماعتی یک حکم فقهی بیان می‌کند. در آن آمده است که اگر مأموم تکبیر یک رکعت را همراه با امام درک نکند، آن رکعت برای او حساب نمی‌شود و این نشان‌دهنده اهمیت پیوستن درست به امام در آن رکعت است.",
-          "fr": "Ce hadith donne une règle juridique concernant le fait de rejoindre le salat en جماعت. Il indique qu'une rak'ah n'est pas comptée pour le fidèle s'il n'a pas assisté à son takbir avec l'Imam, ce qui montre l'importance de rejoindre correctement l'Imam dans cette unité.",
-          "id": "Hadis ini memberikan hukum fikih tentang bergabung dalam salat berjamaah. Disebutkan bahwa satu rakaat tidak dihitung bagi makmum jika ia tidak mendapatkan takbirnya bersama Imam, yang menunjukkan pentingnya bergabung dengan Imam secara benar dalam rakaat itu.",
-          "ru": "Этот хадис содержит правовое постановление о присоединении к الجماعي salat. В нем говорится, что один рак'ат не засчитывается последователю, если он не застал его такбир вместе с Имамом, что указывает на важность правильного присоединения к Имаму в этом ракаате.",
-          "tr": "Bu hadis, cemaatle salata katılmaya dair bir fıkhî hüküm verir. Buna göre, bir kimse imamla birlikte bir rekâtın tekbirine yetişmezse o rekât onun için sayılmaz; bu da o birimde imama doğru şekilde katılmanın önemini gösterir.",
-          "ur": "یہ حدیث جماعت کے ساتھ salat میں شامل ہونے کے بارے میں ایک شرعی حکم بیان کرتی ہے۔ اس میں کہا گیا ہے کہ اگر مقتدی نے امام کے ساتھ کسی رکعت کی تکبیر نہ پائی ہو تو وہ رکعت اس کے لیے شمار نہیں ہوگی، جو اس بات کی اہمیت ظاہر کرتی ہے کہ اس رکعت میں امام کے ساتھ درست طور پر شامل ہوا جائے۔",
-          "zh": "这段圣训给出了关于加入集体salat的教法律例。它说明，如果跟随者没有和Imam一起赶上某一拜的takbir，那么那一拜不算作他的，这表明在那一拜中正确跟随Imam的重要性。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -15,6 +15,117 @@
       "up": "/books/al-kafi:8:1:43"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَنْهُ عَنْ أَحْمَدَ بْنِ هِلَالٍ عَنْ مُحَمَّدِ بْنِ سِنَانٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 10,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قُلْتُ لِأَبِي الْحَسَنِ الرِّضَا (عَلَيْهِ السَّلَامُ) فِي أَيَّامِ هَارُونَ إِنَّكَ قَدْ شَهَرْتَ نَفْسَكَ بِهَذَا الْأَمْرِ وَ جَلَسْتَ مَجْلِسَ أَبِيكَ وَ سَيْفُ هَارُونَ يُقَطِّرُ الدَّمَ فَقَالَ جَرَّأَنِي عَلَى هَذَا مَا قَالَ رَسُولُ اللَّهِ (صَلَّى اللَّهِ عَلَيْهِ وَآلِهِ) إِنْ أَخَذَ أَبُو جَهْلٍ مِنْ رَأْسِي شَعْرَةً فَاشْهَدُوا أَنِّي لَسْتُ بِنَبِيٍّ وَ أَنَا أَقُولُ لَكُمْ إِنْ أَخَذَ هَارُونُ مِنْ رَأْسِي شَعْرَةً فَاشْهَدُوا أَنِّي لَسْتُ بِإِمَامٍ.",
+            "chunk_type": "body",
+            "word_end": 71,
+            "word_start": 10
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 11,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَنْهُ",
+              "name_en": "from him",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 525,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ هِلَالٍ",
+              "name_en": "Ahmad ibn Hilal",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 42,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ سِنَانٍ",
+              "name_en": "Muhammad ibn Sinan",
+              "position": 3,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "قَالَ رَسُولُ اللَّهِ",
+            "phrase_en": "The Messenger of Allah said"
+          }
+        ],
+        "key_terms_keys": [
+          "هَارُونُ",
+          "أَبُو جَهْلٍ",
+          "إِمَامٍ",
+          "نَبِيٍّ",
+          "شَهَرْتَ نَفْسَكَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "12:76",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "5:67",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "theology",
+          "prophetic_tradition",
+          "family"
+        ],
+        "topics": [
+          "imamate",
+          "prophethood",
+          "imams_biography",
+          "events"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 245)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -73,7 +184,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:43:59",

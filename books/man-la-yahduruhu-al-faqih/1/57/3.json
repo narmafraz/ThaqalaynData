@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ لِقَوْمٍ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল্লাহর রাসূল, তাঁর উপর শান্তি ও বরকত বর্ষিত হোক, একদল মানুষের কাছে বললেন:",
-              "de": "Der Gesandte Allahs, Friede sei mit ihm und seiner Familie, sagte zu einer Gruppe von Menschen:",
-              "en": "The Messenger of Allah, peace be upon him and his family, said to a group of people:",
-              "es": "El Mensajero de Allah, la paz sea con él y su familia, dijo a un grupo de personas:",
-              "fa": "پیامبر خدا صلی‌الله‌علیه‌وآله به گروهی از مردم فرمود:",
-              "fr": "Le Messager d'Allah, que la paix soit sur lui et sa famille, a dit à un groupe de personnes :",
-              "id": "Rasulullah, shalawat dan salam atas beliau dan keluarganya, berkata kepada sekelompok orang:",
-              "ru": "Посланник Аллаха, мир ему и его семье, сказал группе людей:",
-              "tr": "Allah'ın Resulü, ona ve ailesine selam olsun, bir grup insana dedi ki:",
-              "ur": "رسول اللہ صلی اللہ علیہ وآلہ وسلم نے ایک گروہ سے فرمایا:",
-              "zh": "安拉使者愿他和平及其家人降临，对一群人说："
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "«لَتَحْضُرُنَّ الْمَسْجِدَ أَوْ لَأُحْرِقَنَّ عَلَيْكُمْ مَنَازِلَكُمْ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "\"তোমরা অবশ্যই মসজিদে উপস্থিত হতে হবে, নাহলে আমি তোমাদের বাড়িগুলো তোমাদের ওপর জ্বালিয়ে দেব।\"",
-              "de": "\"Ihr müsst unbedingt zur Moschee kommen, sonst werde ich eure Häuser über euch niederbrennen.\"",
-              "en": "\"You must surely attend the mosque, or I will burn down your houses over you.\"",
-              "es": "\"Debéis asistir sin falta a la mezquita, o quemaré vuestras casas sobre vosotros.\"",
-              "fa": "«شما باید حتماً در مسجد حاضر شوید، وگرنه من خانه‌های شما را بر سر شما آتش خواهم زد.»",
-              "fr": "\"Vous devez absolument assister à la mosquée, sinon je brûlerai vos maisons sur vous.\"",
-              "id": "\"Kalian harus benar-benar menghadiri masjid, atau aku akan membakar rumah-rumah kalian di atas kalian.\"",
-              "ru": "\"Вы обязательно должны посещать мечеть, иначе я сожгу ваши дома над вами.\"",
-              "tr": "\"Mutlaka mescide katılmalısınız, yoksa evlerinizi sizin üzerinize yakacağım.\"",
-              "ur": "‘‘تم ضرور مسجد میں حاضر ہونا، ورنہ میں تمہارے گھروں کو تم پر جلا دوں گا۔’’",
-              "zh": "“你们必须一定参加清真寺，否则我将烧毁你们的房屋。”"
-            },
             "word_end": 15,
             "word_start": 9
           }
@@ -71,26 +58,14 @@
             "phrase_en": "The Messenger of Allah said"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْمَسْجِدَ": "the mosque; the place of communal worship",
-            "رَسُولُ اللَّهِ": "The Messenger of Allah, صلى الله عليه وآله وسلم",
-            "لَأُحْرِقَنَّ": "I will surely burn",
-            "لَتَحْضُرُنَّ": "you must surely attend",
-            "لِقَوْمٍ": "to a group of people",
-            "مَنَازِلَكُمْ": "your houses"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رَسُولُ اللَّهِ",
+          "لِقَوْمٍ",
+          "لَتَحْضُرُنَّ",
+          "الْمَسْجِدَ",
+          "لَأُحْرِقَنَّ",
+          "مَنَازِلَكُمْ"
+        ],
         "related_quran": [
           {
             "ref": "2:43",
@@ -105,32 +80,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিসটি জামাতের সালাতের জন্য মসজিদে উপস্থিত থাকার গুরুত্ব কতটা জোরালোভাবে তুলে ধরে?",
-          "de": "Wie stark betont dieser Hadith die Teilnahme an der Moschee zum gemeinschaftlichen Gebet?",
-          "en": "How strongly does this hadith emphasize attending the mosque for congregational prayer?",
-          "es": "¿Qué tan fuertemente enfatiza este hadiz la asistencia a la mezquita para la oración en congregación?",
-          "fa": "این حدیث تا چه اندازه بر حضور در مسجد برای نماز جماعت تأکید می‌کند؟",
-          "fr": "Dans quelle mesure ce hadith insiste-t-il sur la fréquentation de la mosquée pour la prière en congrégation ?",
-          "id": "Seberapa kuat hadis ini menekankan kehadiran di masjid untuk salat berjamaah?",
-          "ru": "Насколько сильно этот хадис подчеркивает посещение мечети для коллективной молитвы?",
-          "tr": "Bu hadis cemaatle namaz için mescide katılımı ne kadar güçlü vurgular?",
-          "ur": "یہ حدیث جماعتی نماز کے لیے مسجد میں حاضری کی کتنی سخت تاکید کرتی ہے؟",
-          "zh": "此圣训在多大程度上强调参加清真寺的集体礼拜？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি জামাতের সালাতের জন্য মসজিদে উপস্থিত থাকার ব্যাপারে জোরালো আহ্বান জানায়। এর কঠোর ভাষা সামাজিক ইবাদতের গুরুত্ব প্রকাশ করে এবং অজুহাত ছাড়া অবহেলার বিরুদ্ধে সতর্ক করে।",
-          "de": "Dieser Hadith betont nachdrücklich die Teilnahme an der Moschee zum gemeinschaftlichen Gebet. Die kraftvolle Formulierung zeigt die große Bedeutung der gemeinschaftlichen Anbetung und warnt vor Nachlässigkeit ohne Entschuldigung.",
-          "en": "This hadith strongly urges attendance at the mosque for congregational salat (prayer). Its forceful wording shows the great importance of communal worship and warns against neglecting it without excuse.",
-          "es": "Este hadiz enfatiza fuertemente la asistencia a la mezquita para la oración en congregación. Su lenguaje contundente muestra la gran importancia del culto comunitario y advierte contra la negligencia sin excusa.",
-          "fa": "این حدیث به شدت بر حضور در مسجد برای نماز جماعت تأکید دارد. بیان قوی آن اهمیت عبادت جمعی را نشان می‌دهد و نسبت به ترک آن بدون عذر هشدار می‌دهد.",
-          "fr": "Ce hadith insiste fortement sur la fréquentation de la mosquée pour la prière en congrégation. Son langage fort montre l'importance de l'adoration communautaire et met en garde contre la négligence sans excuse.",
-          "id": "Hadis ini sangat menekankan kehadiran di masjid untuk salat berjamaah. Kata-katanya yang tegas menunjukkan pentingnya ibadah bersama dan memperingatkan agar tidak mengabaikannya tanpa alasan.",
-          "ru": "Этот хадис настоятельно призывает посещать мечеть для коллективной молитвы. Его резкие слова показывают важность общественного поклонения и предупреждают против пренебрежения без уважительной причины.",
-          "tr": "Bu hadis, cemaatle salat için mescide katılımı güçlü bir şekilde vurgular. Sert ifadeleri, toplu ibadetin önemini gösterir ve mazeretsiz ihmal edilmemesi konusunda uyarır.",
-          "ur": "یہ حدیث جماعتی نماز کے لیے مسجد میں حاضری کی سخت تاکید کرتی ہے۔ اس کے سخت الفاظ اجتماعی عبادت کی اہمیت کو ظاہر کرتے ہیں اور بغیر عذر اس کی غفلت سے خبردار کرتے ہیں۔",
-          "zh": "此圣训强烈强调参加清真寺的集体礼拜。其强烈措辞显示了集体崇拜的重要性，并警告不可无故忽视。"
-        },
         "tags": [
           "worship",
           "jurisprudence",

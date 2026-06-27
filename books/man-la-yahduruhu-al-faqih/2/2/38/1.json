@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رَوَى الْحَلَبِيُّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ أَنَّهُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হালাবী আবু আবদিল্লাহ عليه السلام থেকে বর্ণনা করেছেন যে তিনি বললেন:",
-              "de": "Al-Ḥalabī berichtete von Abū ʿAbdillāh عليه السلام, dass er sagte:",
-              "en": "Al-Ḥalabī narrated from Abū ʿAbdillāh عليه السلام that he said:",
-              "es": "Al-Ḥalabī narró de Abū ʿAbdillāh عليه السلام que dijo:",
-              "fa": "الْحَلَبِي از ابی عبدالله علیه السلام روایت کرده که فرمود:",
-              "fr": "Al-Ḥalabī a rapporté d'Abū ʿAbdillāh عليه السلام qu'il a dit :",
-              "id": "Al-Ḥalabī meriwayat dari Abū ʿAbdillāh علیه السلام bahwa beliau berkata:",
-              "ru": "Аль-Халаби передал от Абу Абдиллаха عليه السلام, что он сказал:",
-              "tr": "El-Halebi, Ebu Abdillah (aleyhisselam)'dan rivayet etti ki şöyle dedi:",
-              "ur": "الْحَلَبِي نے ابو عبداللہ علیہ السلام سے روایت کی کہ انہوں نے فرمایا:",
-              "zh": "الْحَلَبِي从أبوعبداللهعليهالسلام传述说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "لَا اعْتِكَافَ إِلَّا بِصَوْمٍ فِي مَسْجِدِ الْجَامِعِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "স্রেফ জুমা মসজিদে রোজার সঙ্গে ইতিকাফ বৈধ।",
-              "de": "Es gibt kein Iʿtikaf außer mit Fasten in der Gemeindemoschee.",
-              "en": "There is no iʿtikaf except with fasting in the congregational mosque.",
-              "es": "No hay iʿtikaf excepto con ayuno en la mezquita congregacional.",
-              "fa": "اعتکاف فقط با روزه در مسجد جامع معتبر است.",
-              "fr": "Il n'y a pas d'iʿtikaf sauf avec le jeûne dans la mosquée de congrégation.",
-              "id": "Tidak ada iʿtikaf kecuali dengan berpuasa di masjid jami'.",
-              "ru": "Нет иʿтикфа, кроме как с постом в соборной мечети.",
-              "tr": "İʿtikaf, ancak cemaatin toplandığı camide oruçla birlikte olur.",
-              "ur": "اعتکاف صرف مسجد جامع میں روزہ کے ساتھ ہی جائز ہے۔",
-              "zh": "اعتكاف仅在聚礼清真寺内伴随斋戒方为有效。"
-            },
             "word_end": 17,
             "word_start": 10
           }
@@ -90,56 +77,18 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "اعْتِكَافَ": "iʿtikaf, spiritual retreat devoted to worship",
-            "الْجَامِعِ": "congregational, referring to the central mosque",
-            "بِصَوْمٍ": "with fasting, indicating sawm as a condition",
-            "مَسْجِدِ": "mosque, the place where the act is observed"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "اعْتِكَافَ",
+          "بِصَوْمٍ",
+          "مَسْجِدِ",
+          "الْجَامِعِ"
+        ],
         "related_quran": [
           {
             "ref": "2:187",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে বৈধ ইতিকাফের শর্ত কী কী?",
-          "de": "Was sind die Bedingungen für einen gültigen Iʿtikaf in schiitischen Hadithen?",
-          "en": "What are the conditions for a valid iʿtikaf in Shia hadith?",
-          "es": "¿Cuáles son las condiciones para un iʿtikaf válido en los hadices chiíes?",
-          "fa": "شرایط اعتکاف معتبر در احادیث شیعه چیست؟",
-          "fr": "Quelles sont les conditions pour un iʿtikaf valide dans les hadiths chiites ?",
-          "id": "Apa saja syarat iʿtikaf yang sah menurut hadis Syiah?",
-          "ru": "Каковы условия действительного иʿтикфа в шиитских хадисах?",
-          "tr": "Şii hadislerde geçerli bir iʿtikafın şartları nelerdir?",
-          "ur": "شیعہ حدیث میں اعتکاف کی شرعی صحت کے کیا شرائط ہیں؟",
-          "zh": "什麼是什葉派聖訓中اعتكاف有效的條件？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস ইতিকাফের বৈধতার শর্ত ব্যাখ্যা করে: এটি রোজার সঙ্গে এবং জুমা মসজিদে পালন করতে হবে। এটি ইবাদতের মূল ফিকহীয় নিয়ম নির্ধারণ করে।",
-          "de": "Dieser Hadith legt eine rechtliche Bedingung für die Gültigkeit des Iʿtikaf fest: Es muss mit Sawm (Fasten) einhergehen und in einer Gemeindemoschee durchgeführt werden, wodurch grundlegende juristische Regeln für diese Anbetung festgelegt werden.",
-          "en": "This hadith states a legal condition for the validity of iʿtikaf: it must be accompanied by sawm (fasting). It also specifies that iʿtikaf is to be observed in a congregational mosque, establishing core jurisprudential rules for the act of worship.",
-          "es": "Este hadiz establece una condición legal para la validez del iʿtikaf: debe ir acompañado de sawm (ayuno) y realizarse en una mezquita congregacional, estableciendo reglas jurisprudenciales esenciales para el acto de adoración.",
-          "fa": "این حدیث شرط شرعی صحت اعتکاف را بیان می‌کند: باید همراه با روزه باشد و در مسجد جامع انجام شود. قواعد فقهی اصلی عبادت را مشخص می‌کند.",
-          "fr": "Ce hadith énonce une condition légale pour la validité de l'iʿtikaf : il doit être accompagné de sawm (jeûne) et observé dans une mosquée de congrégation, établissant des règles juridiques fondamentales pour cet acte d'adoration.",
-          "id": "Hadis ini menyatakan syarat sahnya iʿtikaf: harus disertai dengan puasa dan dilakukan di masjid jami'. Menetapkan aturan fikih inti untuk ibadah ini.",
-          "ru": "Этот хадис устанавливает юридическое условие для действительности иʿтикфа: он должен сопровождаться постом (савм) и совершаться в соборной мечети, устанавливая основные юридические правила для этого акта поклонения.",
-          "tr": "Bu hadis, iʿtikafın geçerliliği için yasal bir şart belirtir: oruçla birlikte yapılmalıdır ve cemaatin toplandığı camide gerçekleştirilmelidir. İbadetin temel hukuk kurallarını belirler.",
-          "ur": "یہ حدیث اعتکاف کی شرعی صحت کے لیے شرط بیان کرتی ہے: اعتکاف روزہ کے ساتھ ہونا چاہیے اور یہ مسجد جامع میں ادا کیا جائے۔ یہ عبادت کے اصولوں کو واضح کرتی ہے۔",
-          "zh": "此圣训阐明了اعتكاف有效的法定条件：必须伴随斋戒并在聚礼清真寺内进行，确立了该崇拜行为的核心法理规则。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

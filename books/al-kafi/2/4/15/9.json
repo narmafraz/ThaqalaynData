@@ -14,6 +14,137 @@
       "up": "/books/al-kafi:2:4:15"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ بَعْضِ أَصْحَابِهِ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 13,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "عَطَسَ رَجُلٌ عِنْدَ أَبِي جَعْفَرٍ ( عَلَيْهِ السَّلَامُ ) فَقَالَ الْحَمْدُ لِلَّهِ فَلَمْ يُسَمِّتْهُ أَبُو جَعْفَرٍ ( عَلَيْهِ السَّلَامُ ) وَ قَالَ نَقَصَنَا حَقَّنَا",
+            "chunk_type": "body",
+            "word_end": 37,
+            "word_start": 13
+          },
+          {
+            "arabic_text": "ثُمَّ قَالَ إِذَا عَطَسَ أَحَدُكُمْ فَلْيَقُلِ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ وَ صَلَّى اللَّهُ عَلَى مُحَمَّدٍ وَ أَهْلِ بَيْتِهِ",
+            "chunk_type": "body",
+            "word_end": 55,
+            "word_start": 37
+          },
+          {
+            "arabic_text": "قَالَ فَقَالَ الرَّجُلُ فَسَمَّتَهُ أَبُو جَعْفَرٍ ( عَلَيْهِ السَّلَامُ )",
+            "chunk_type": "closing",
+            "word_end": 65,
+            "word_start": 55
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 7,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ أَبِي عُمَيْرٍ",
+              "name_en": "Ibn Abi Umayr",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 37,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "بَعْضِ أَصْحَابِهِ",
+              "name_en": "some of his companions",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "quranic_echo",
+            "phrase_ar": "الْحَمْدُ لِلَّهِ",
+            "phrase_en": "All praise is due to Allah"
+          }
+        ],
+        "key_terms_keys": [
+          "يُسَمِّتْهُ",
+          "نَقَصَنَا حَقَّنَا",
+          "رَبِّ الْعَالَمِينَ",
+          "أَهْلِ بَيْتِهِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "1:2",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "33:56",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "worship",
+          "ethics",
+          "jurisprudence"
+        ],
+        "topics": [
+          "etiquette",
+          "sunnah",
+          "ahlulbayt_virtues"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> حسن    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (12/555)"
       ],
@@ -91,7 +222,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:4:15:9",

@@ -14,6 +14,138 @@
       "up": "/books/al-kafi:2:1:194"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ مُحَمَّدِ بْنِ عِيسَى عَنْ يُونُسَ عَنْ إِسْحَاقَ بْنِ عَمَّارٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 14,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قَالَ أَبُو عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) مَا مِنْ مُؤْمِنٍ إِلَّا وَ لَهُ ذَنْبٌ يَهْجُرُهُ زُرُهُ زَمَاناً ثُمَّ يُلِمُّ بِهِ وَ ذَلِكَ قَوْلُ اللَّهِ عَزَّ وَ جَلَّ إِلَّا اللَّمَمَ",
+            "chunk_type": "body",
+            "word_end": 44,
+            "word_start": 14
+          },
+          {
+            "arabic_text": "وَ سَأَلْتُهُ عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ الَّذِينَ يَجْتَنِبُونَ كَبَائِرَ الْإِثْمِ وَ الْفَوَاحِشَ إِلَّا اللَّمَمَ",
+            "chunk_type": "body",
+            "word_end": 60,
+            "word_start": 44
+          },
+          {
+            "arabic_text": "قَالَ الْفَوَاحِشُ الزِّنَى وَ السَّرِقَةُ وَ اللَّمَمُ الرَّجُلُ يُلِمُّ بِالذَّنْبِ فَيَسْتَغْفِرُ اللَّهَ مِنْهُ",
+            "chunk_type": "body",
+            "word_end": 73,
+            "word_start": 60
+          }
+        ],
+        "content_type": "quranic_commentary",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 27,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ عِيسَى",
+              "name_en": "Muhammad ibn Isa",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 26,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "يُونُسَ",
+              "name_en": "Yunus",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 44,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "إِسْحَاقَ بْنِ عَمَّارٍ",
+              "name_en": "Is'haq ibn Ammar",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "اللَّمَم",
+          "الْفَوَاحِش",
+          "كَبَائِرَ الْإِثْمِ",
+          "يَهْجُرُهُ",
+          "يُلِمُّ بِهِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "53:32",
+            "relationship": "explicit"
+          },
+          {
+            "ref": "7:54",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:53",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "quran_commentary",
+          "theology",
+          "ethics"
+        ],
+        "topics": [
+          "quran_interpretation_method",
+          "repentance",
+          "halal_haram",
+          "paradise_hell"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> موثق   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (11/317)"
       ],
@@ -88,7 +220,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:1:194:3",

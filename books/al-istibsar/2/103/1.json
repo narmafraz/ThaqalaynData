@@ -15,42 +15,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدِ بْنِ عِيسَىٰ، عَنْ إِبْرَاهِيمَ بْنِ أَبِي مَحْمُودٍ، قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন মুহাম্মদ ইবন ‘ঈসা, ইবরাহিম ইবন আবি মাহমুদ থেকে বর্ণনা করেছেন, তিনি বলেন:",
-              "de": "Ahmad ibn Muhammad ibn 'Isa, von Ibrahim ibn Abi Mahmud, sagte:",
-              "en": "Ahmad ibn Muhammad ibn 'Isa, from Ibrahim ibn Abi Mahmud, said:",
-              "es": "Ahmad ibn Muhammad ibn 'Isa, de Ibrahim ibn Abi Mahmud, dijo:",
-              "fa": "احمد بن محمد بن عیسی، از ابراهیم بن ابی محمود، گفت:",
-              "fr": "Ahmad ibn Muhammad ibn 'Isa, d'Ibrahim ibn Abi Mahmud, a dit :",
-              "id": "Ahmad ibn Muhammad ibn 'Isa, dari Ibrahim ibn Abi Mahmud, berkata:",
-              "ru": "Ахмад ибн Мухаммад ибн 'Иса, от Ибрахима ибн Аби Махмуда, сказал:",
-              "tr": "Ahmed ibn Muhammed ibn İsa, İbrahim ibn Ebi Mahmud’dan rivayet etti, dedi ki:",
-              "ur": "احمد بن محمد بن عیسی، ابراہیم بن ابی محمود سے روایت کرتے ہیں، انہوں نے کہا:",
-              "zh": "艾哈迈德·伊本·穆罕默德·伊本·尔萨，传自易卜拉欣·伊本·阿比·马哈茂德，说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "قُلْتُ لِلرِّضَا عَلَيْهِ السَّلَامُ: أَسْتَلِمُ الْيَمَانِيَّ وَالشَّامِيَّ وَالْغَرْبِيَّ؟ قَالَ: نَعَمْ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আল-রিদা عليه السلام-কে বললাম: আমি কি ইয়ামানি, শামি এবং পশ্চিমী রুকনের ইস্তিলাম করব? তিনি বললেন: হ্যাঁ।",
-              "de": "Ich sagte zu al-Rida عليه السلام: Soll ich den istilam der jemenitischen, syrischen und westlichen Ecken vollziehen? Er sagte: Ja.",
-              "en": "I said to al-Rida عليه السلام: Should I perform istilam of the Yemeni, the Syrian, and the Western corners? He said: Yes.",
-              "es": "Le dije a al-Rida عليه السلام: ¿Debo hacer istilam de las esquinas yemení, siria y occidental? Dijo: Sí.",
-              "fa": "به الرضا علیه السلام گفتم: آیا بر یمانی، شامی و غربی رکن استلام کنم؟ فرمود: بله.",
-              "fr": "Je dis à al-Rida عليه السلام : Dois-je faire l'istilam des coins yéménite, syrien et occidental ? Il dit : Oui.",
-              "id": "Aku berkata kepada al-Rida عليه السلام: Apakah aku harus melakukan istilam pada rukun Yamani, Syami, dan Barat? Beliau bersabda: Ya.",
-              "ru": "Я сказал ар-Риде عليه السلام: Должен ли я совершать истилам йеменского, сирийского и западного углов? Он сказал: Да.",
-              "tr": "Ben er-Rıza عليه السلام’a dedim ki: Yemeni, Şami ve Batı köşelerine istilam yapayım mı? Buyurdu ki: Evet.",
-              "ur": "میں نے الرضا علیہ السلام سے کہا: کیا میں یمانی، شامی، اور غربی رکن کا استلام کروں؟ انہوں نے فرمایا: ہاں۔",
-              "zh": "我对阿尔·里达 عليه السلام说：我应当对也门角、 شام角和西角做istilam吗？他说：是。"
-            },
             "word_end": 21,
             "word_start": 11
           }
@@ -83,26 +70,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَسْتَلِمُ": "Should I touch or perform istilam",
-            "الرِّضَا": "Imam al-Rida عليه السلام, the Imam being asked for the ruling",
-            "الشَّامِيَّ": "the Syrian corner",
-            "الْغَرْبِيَّ": "the Western corner",
-            "الْيَمَانِيَّ": "the Yemeni corner",
-            "نَعَمْ": "yes; an affirmative answer indicating permissibility"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الرِّضَا",
+          "أَسْتَلِمُ",
+          "الْيَمَانِيَّ",
+          "الشَّامِيَّ",
+          "الْغَرْبِيَّ",
+          "نَعَمْ"
+        ],
         "related_quran": [
           {
             "ref": "2:125",
@@ -113,32 +88,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "সব রুকনের ইস্তিলাম করা কি জায়েজ?",
-          "de": "Ist es erlaubt, den istilam an allen Ecken zu vollziehen?",
-          "en": "Is it permissible to perform istilam of all the corners?",
-          "es": "¿Está permitido hacer istilam de todos los rincones?",
-          "fa": "آیا انجام استلامِ همه رکن‌ها جایز است؟",
-          "fr": "Est-il permis de faire l'istilam de tous les coins ?",
-          "id": "Apakah boleh melakukan istilam pada semua rukun?",
-          "ru": "Разрешено ли совершать истилам всех углов?",
-          "tr": "Bütün köşelere istilam yapmak caiz midir?",
-          "ur": "کیا تمام ارکان کا استلام کرنا جائز ہے؟",
-          "zh": "对所有角进行istilam是合法的吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে ইমাম আল-রিদা عليه السلام-কে একাধিক রুকন স্পর্শ করা বা ইস্তিলাম করার বিষয়ে একটি ফিকহি প্রশ্ন করা হয়েছে। ইমাম عليه السلام ইয়ামানি, শামি এবং পশ্চিমী রুকনের ইস্তিলামের বৈধতা নিশ্চিত করেছেন।",
-          "de": "Dieser Hadith überliefert eine rechtliche Frage an Imam al-Rida عليه السلام darüber, ob man mehrere Ecken berühren oder den istilam vollziehen darf. Der Imam عليه السلام bestätigt die Erlaubnis des istilam der jemenitischen, syrischen und westlichen Ecken.",
-          "en": "This hadith records a legal question posed to Imam al-Rida عليه السلام about touching or performing istilam of multiple corners. The Imam عليه السلام affirms the permissibility of istilam of the Yemeni, Syrian, and Western corners.",
-          "es": "Este hadiz registra una pregunta jurídica dirigida al Imam al-Rida عليه السلام sobre tocar o hacer istilam de varios rincones. El Imam عليه السلام afirma la permisibilidad del istilam de los rincones yemení, sirio y occidental.",
-          "fa": "این حدیث، پرسشی فقهی را که از امام الرضا علیه السلام درباره لمس کردن یا انجام استلامِ چند رکن مطرح شده، نقل می‌کند. امام علیه السلام جواز استلامِ رکن‌های یمانی، شامی و غربی را تأیید می‌فرماید.",
-          "fr": "Ce hadith rapporte une question juridique posée à l'imam al-Rida عليه السلام au sujet du fait de toucher ou de faire l'istilam de plusieurs coins. L'imam عليه السلام confirme la permission de l'istilam des coins yéménite, syrien et occidental.",
-          "id": "Hadis ini mencatat sebuah pertanyaan fikih yang diajukan kepada Imam al-Rida عليه السلام tentang menyentuh atau melakukan istilam pada beberapa rukun. Imam عليه السلام menegaskan bolehnya istilam pada rukun Yamani, Syami, dan Barat.",
-          "ru": "Этот хадис передаёт правовой вопрос, заданный имаму ар-Риде عليه السلام о прикосновении или совершении истилама нескольких углов. Имам عليه السلام подтверждает дозволенность истилама йеменского, сирийского и западного углов.",
-          "tr": "Bu hadis, İmam er-Rıza عليه السلام’a birden fazla köşeye dokunma veya istilam yapma hakkında yöneltilen fıkhî bir soruyu nakleder. İmam عليه السلام, Yemeni, Şami ve Batı köşelerinin istilamının caiz olduğunu tasdik eder.",
-          "ur": "یہ حدیث امام الرضا علیہ السلام سے ایک فقہی سوال کو نقل کرتی ہے کہ متعدد ارکان کو چھونا یا ان کا استلام کرنا جائز ہے یا نہیں۔ امام علیہ السلام یمانی، شامی، اور غربی ارکان کے استلام کے جواز کی تصدیق فرماتے ہیں۔",
-          "zh": "这段圣训记载了向阿尔·里达 عليه السلام提出的一个教法问题，即是否可以对多个角进行触摸或istilam。伊玛目 عليه السلام确认了对也门角、 شام角和西角进行istilam的许可。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

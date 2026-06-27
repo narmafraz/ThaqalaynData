@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ عَلَيْهِ السَّلَامُ :",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং তিনি, তাঁর উপর শান্তি বর্ষিত হোক, বললেন:",
-              "de": "Und er, Friede sei mit ihm, sagte:",
-              "en": "And he, peace be upon him, said:",
-              "es": "Y él, la paz sea con él, dijo:",
-              "fa": "و او، سلام‌الله‌علیه، فرمود:",
-              "fr": "Et lui, que la paix soit sur lui, a dit :",
-              "id": "Dan beliau, semoga keselamatan atasnya, berkata:",
-              "ru": "И он, мир ему, сказал:",
-              "tr": "Ve o, selam üzerine olsun, dedi ki:",
-              "ur": "اور انہوں نے، علیہ السلام، فرمایا:",
-              "zh": "他说，愿他安息："
-            },
             "word_end": 5,
             "word_start": 0
           },
           {
             "arabic_text": "عَشَرَةُ أَشْيَاءَ مِنَ الْمَيْتَةِ ذَكِيَّةٌ الْقَرْنُ وَ الْحَافِرُ وَ الْعَظْمُ وَ السِّنُّ وَ الْإِنْفَحَةُ وَ اللَّبَنُ وَ الشَّعْرُ وَ الصُّوفُ وَ الرِّيشُ وَ الْبَيْضُ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "মৃত পশুর দশটি জিনিস পবিত্র ধরা হয়: শিং, খুর, হাড়, দাঁত, রেনেট, দুধ, চুল, উল, পালক, এবং ডিম।",
-              "de": "Zehn Dinge von einem toten Tier gelten als rein: das Horn, der Huf, der Knochen, der Zahn, das Lab, die Milch, das Haar, die Wolle, die Federn und die Eier.",
-              "en": "Ten things from a dead animal are considered pure: the horn, the hoof, the bone, the tooth, the rennet, the milk, the hair, the wool, the feathers, and the eggs.",
-              "es": "Diez cosas de un animal muerto se consideran puras: el cuerno, la pezuña, el hueso, el diente, el cuajo, la leche, el pelo, la lana, las plumas y los huevos.",
-              "fa": "ده چیز از حیوان مرده پاک محسوب می‌شوند: شاخ، سم، استخوان، دندان، شیرۀ معده، شیر، مو، پشم، پر و تخم‌مرغ.",
-              "fr": "Dix choses provenant d’un animal mort sont considérées comme pures : la corne, le sabot, l’os, la dent, la présure, le lait, les poils, la laine, les plumes et les œufs.",
-              "id": "Sepuluh hal dari hewan mati dianggap suci: tanduk, kuku, tulang, gigi, rennet, susu, rambut, wol, bulu, dan telur.",
-              "ru": "Десять вещей от мертвого животного считаются чистыми: рог, копыто, кость, зуб, сычуг, молоко, волосы, шерсть, перья и яйца.",
-              "tr": "Ölü bir hayvandan on şey temiz sayılır: boynuz, toynak, kemik, diş, şirden, süt, kıl, yün, tüy ve yumurta.",
-              "ur": "مردہ جانور کی دس چیزیں پاک سمجھی جاتی ہیں: سینگ، کھرا، ہڈی، دانت، جگر کا ریشہ، دودھ، بال، اون، پر، اور انڈے۔",
-              "zh": "死动物的十种物品被视为纯净：角、蹄、骨、牙、凝乳酶、牛奶、毛发、羊毛、羽毛和蛋。"
-            },
             "word_end": 29,
             "word_start": 5
           }
@@ -81,28 +68,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الصُّوفُ": "wool",
-            "اللَّبَنُ": "milk",
-            "الْإِنْفَحَةُ": "rennet found in the stomach and used in curdling milk",
-            "الْبَيْضُ": "eggs",
-            "الْحَافِرُ": "the hoof",
-            "الْقَرْنُ": "the horn of the animal",
-            "الْمَيْتَةِ": "a dead animal not slaughtered according to the law; carrion",
-            "ذَكِيَّةٌ": "treated here as pure and not subject to the impurity ruling of carrion"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمَيْتَةِ",
+          "ذَكِيَّةٌ",
+          "الْقَرْنُ",
+          "الْحَافِرُ",
+          "الْإِنْفَحَةُ",
+          "اللَّبَنُ",
+          "الصُّوفُ",
+          "الْبَيْضُ"
+        ],
         "related_quran": [
           {
             "ref": "5:3",
@@ -117,32 +92,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে মৃত পশুর কোন কোন অংশ পবিত্র ধরা হয়?",
-          "de": "Welche Teile eines toten Tieres gelten im schiitischen Fiqh als rein?",
-          "en": "Which parts of a dead animal are considered pure in Shia fiqh?",
-          "es": "¿Qué partes de un animal muerto se consideran puras en el fiqh chií?",
-          "fa": "در فقه شیعه کدام قسمت‌های حیوان مرده پاک محسوب می‌شوند؟",
-          "fr": "Quelles parties d’un animal mort sont considérées comme pures en fiqh chiite ?",
-          "id": "Bagian mana dari hewan mati yang dianggap suci dalam fikih Syiah?",
-          "ru": "Какие части мертвого животного считаются чистыми в шиистском фикхе?",
-          "tr": "Şii fıkhında ölü bir hayvanın hangi parçaları temiz sayılır?",
-          "ur": "شیعہ فقہ میں مردہ جانور کے کون سے حصے پاک سمجھے جاتے ہیں؟",
-          "zh": "在什叶派伊斯兰法学中，死动物的哪些部位被视为纯净？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি একটি শারঈ হুকুম বর্ণনা করে যে মৃত পশুর দশটি নির্দিষ্ট অংশ বা পদার্থ পবিত্র ধরা হয়। এটি তাহারাহ ও নাজাসাহ সম্পর্কিত ফিকহ আলোচনা বিশেষ করে মৃতদেহ থেকে আসা জিনিসগুলি কীভাবে পবিত্র থাকে তা নিয়ে গুরুত্বপূর্ণ।",
-          "de": "Dieser Hadith legt eine rechtliche Regel fest, dass zehn bestimmte Teile oder Substanzen eines toten Tieres als rein gelten. Er ist bedeutsam in fiqh-Diskussionen über Taharah und Najasah, insbesondere hinsichtlich dessen, was trotz Herkunft von Aas rituell rein bleiben kann.",
-          "en": "This hadith states a legal ruling that ten specific parts or substances from a dead animal are treated as pure. It is significant in fiqh discussions of taharah and najasah, especially regarding what may remain ritually pure despite coming from carrion.",
-          "es": "Este hadiz establece un fallo legal que diez partes o sustancias específicas de un animal muerto se consideran puras. Es significativo en discusiones de fiqh sobre taharah y najasah, especialmente respecto a lo que puede permanecer ritualmente puro a pesar de provenir de carroña.",
-          "fa": "این حدیث حکم شرعی را بیان می‌کند که ده جزء یا ماده خاص از حیوان مرده پاک محسوب می‌شوند. این موضوع در مباحث فقهی طهارت و نجاست اهمیت دارد، به‌ویژه در مورد اینکه چه چیزهایی با وجود منشاء از مردار، پاک باقی می‌مانند.",
-          "fr": "Ce hadith énonce un jugement légal selon lequel dix parties ou substances spécifiques d’un animal mort sont considérées comme pures. Il est important dans les discussions de fiqh sur la taharah et la najasah, notamment concernant ce qui peut rester rituellement pur malgré sa provenance de la charogne.",
-          "id": "Hadis ini menyatakan hukum bahwa sepuluh bagian atau zat tertentu dari hewan mati dianggap suci. Ini penting dalam diskusi fikih tentang taharah dan najasah, terutama mengenai apa yang tetap suci secara ritual meskipun berasal dari bangkai.",
-          "ru": "Этот хадис устанавливает юридическое постановление, что десять конкретных частей или веществ от мертвого животного считаются чистыми. Это важно в обсуждениях фикха о тахаре и наджасе, особенно относительно того, что может оставаться ритуально чистым, несмотря на происхождение от падали.",
-          "tr": "Bu hadis, ölü bir hayvandan on belirli parçanın temiz sayıldığına dair hukuki bir hüküm belirtir. Bu, taharet ve necaset fıkhı tartışmalarında, özellikle leşten gelen şeylerin ritüel olarak temiz kalması konusunda önemlidir.",
-          "ur": "یہ حدیث ایک فقہی حکم بیان کرتی ہے کہ مردہ جانور کی دس مخصوص چیزیں پاک سمجھی جاتی ہیں۔ یہ طہارت اور نجاست کے فقہی مباحث میں خاص اہمیت رکھتی ہے، خاص طور پر اس حوالے سے کہ کون سی چیزیں مردار سے ہونے کے باوجود طہارت میں رہتی ہیں۔",
-          "zh": "此圣训陈述了法律裁定，死动物的十种特定部位或物质被视为纯净。这在关于洁净与不洁的伊斯兰法学讨论中具有重要意义，尤其涉及尽管来源于腐尸但仍保持礼仪纯净的物品。"
-        },
         "tags": [
           "jurisprudence",
           "prophetic_tradition"

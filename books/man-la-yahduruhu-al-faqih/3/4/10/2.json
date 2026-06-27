@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى مُحَمَّدُ بْنُ حَكِيمٍ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবনে হাকীম মুহাম্মদ ইবনে মুসলিম থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Muhammad ibn Hakim berichtete von Muhammad ibn Muslim, der sagte:",
-              "en": "Muhammad ibn Hakim narrated from Muhammad ibn Muslim, who said:",
-              "es": "Muhammad ibn Hakim narró de Muhammad ibn Muslim, quien dijo:",
-              "fa": "محمد بن حکیم از محمد بن مسلم روایت کرد که گفت:",
-              "fr": "Muhammad ibn Hakim a rapporté de Muhammad ibn Muslim, qui a dit :",
-              "id": "Muhammad ibn Hakim meriwayat dari Muhammad ibn Muslim, yang berkata:",
-              "ru": "Мухаммад ибн Хаким передал от Мухаммада ибн Муслима, который сказал:",
-              "tr": "Muhammed ibn Hakim, Muhammed ibn Muslim'den rivayet etti, dedi ki:",
-              "ur": "محمد ابن حکیم نے محمد ابن مسلم سے روایت کی، جنہوں نے کہا:",
-              "zh": "穆罕默德本哈基姆传述自穆罕默德本穆斯林，他说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "سَمِعْتُ أَبَا جَعْفَرٍ عَلَيْهِ السَّلَامُ يَقُولُ فِي الَّتِي قَدْ يَئِسَتْ مِنَ الْمَحِيضِ يُطَلِّقُهَا زَوْجُهَا قَالَ بَانَتْ مِنْهُ وَ لَا عِدَّةَ عَلَيْهَا.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি শুনেছি আবু জাফর عليه السلام বলেছেন এমন এক মহিলার সম্পর্কে যিনি মাসিক ঋতু থেকে হতাশ হয়েছেন এবং যাকে তার স্বামী তালাক দিয়েছেন: তিনি বললেন, \"সে তার থেকে আলাদা হয়েছে এবং তার উপর কোনো ইদ্দত বাধ্যতামূলক নয়।\"",
-              "de": "Ich hörte Abū Jaʿfar عليه السلام sagen über eine Frau, die die Hoffnung auf ihre Menstruation verloren hat und deren Ehemann sie geschieden hat: Er sagte: „Sie ist von ihm getrennt, und es gibt keine Wartezeit für sie.“",
-              "en": "I heard Abū Jaʿfar عليه السلام saying regarding a woman who has despaired of menstruation, whose husband divorces her: He said, \"She is separated from him, and there is no waiting period upon her.\"",
-              "es": "Escuché a Abū Jaʿfar عليه السلام decir respecto a una mujer que ha perdido la esperanza de la menstruación y cuyo esposo la divorcia: Él dijo, \"Ella está separada de él y no hay período de espera para ella.\"",
-              "fa": "شنیدم که ابوجعفر علیه السلام درباره زنی که از حیض ناامید شده و شوهرش او را طلاق داده است، فرمود: «او از او جدا شده و بر او عده واجب نیست.»",
-              "fr": "J'ai entendu Abū Jaʿfar عليه السلام dire au sujet d'une femme qui a perdu espoir de ses menstruations, dont le mari la divorce : Il a dit, « Elle est séparée de lui, et il n'y a pas de période d'attente pour elle. »",
-              "id": "Saya mendengar Abū Jaʿfar علیه السلام berkata mengenai seorang wanita yang sudah putus asa dari haid, yang suaminya menceraikannya: Dia berkata, \"Dia telah berpisah darinya dan tidak ada masa iddah atasnya.\"",
-              "ru": "Я слышал, как Абū Джафар عليه السلام говорил о женщине, которая отчаялась от менструации, и чей муж развелся с ней: Он сказал: «Она отделена от него, и на ней нет периода ожидания (идда).»",
-              "tr": "Abū Jaʿfar علیه السلام'ın, adet görmeye ümidi kalmamış ve kocası tarafından boşanmış bir kadın hakkında şöyle dediğini duydum: \"O, ondan ayrılmıştır ve üzerine bir iddet yoktur.\"",
-              "ur": "میں نے سنا کہ ابو جعفر علیہ السلام نے اس عورت کے بارے میں فرمایا جو حیض سے مایوس ہو چکی ہو اور جسے اس کا شوہر طلاق دے دے: فرمایا، \"وہ اس سے جدا ہو گئی ہے اور اس پر عدت واجب نہیں۔\"",
-              "zh": "我听见阿布贾法尔عليهالسلام说关于一位已绝经且其丈夫离婚的妇女：他说，“她已与他分开，她无需守候等待期。”"
-            },
             "word_end": 31,
             "word_start": 10
           }
@@ -91,58 +78,20 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْمَحِيضِ": "menstruation",
-            "بَانَتْ": "she is separated and no longer remains in the marital bond",
-            "زَوْجُهَا": "her husband",
-            "عِدَّةَ": "the waiting period required after divorce in certain cases",
-            "يَئِسَتْ": "has despaired, meaning she has reached menopause and no longer expects menstruation",
-            "يُطَلِّقُهَا": "he divorces her"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يَئِسَتْ",
+          "الْمَحِيضِ",
+          "يُطَلِّقُهَا",
+          "زَوْجُهَا",
+          "بَانَتْ",
+          "عِدَّةَ"
+        ],
         "related_quran": [
           {
             "ref": "65:4",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "মেনোপজের পর একজন মহিলার কি তালাকের পর ইদ্দত পালন করা বাধ্যতামূলক?",
-          "de": "Muss eine menopausale Frau nach der Scheidung eine 'iddah einhalten?",
-          "en": "Does a menopausal woman have to observe an 'iddah after divorce?",
-          "es": "¿Debe una mujer menopáusica observar el 'iddah después del divorcio?",
-          "fa": "آیا زن یائسه پس از طلاق باید عده نگه دارد؟",
-          "fr": "Une femme ménopausée doit-elle observer une 'iddah après le divorce ?",
-          "id": "Apakah wanita menopause harus menjalani masa iddah setelah bercerai?",
-          "ru": "Должна ли женщина в менопаузе соблюдать идду после развода?",
-          "tr": "Menopozdaki bir kadın boşandıktan sonra iddet tutmak zorunda mıdır?",
-          "ur": "کیا حیض سے مایوس عورت کو طلاق کے بعد عدت رکھنی ضروری ہے؟",
-          "zh": "绝经妇女离婚后必须守候等待期吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি এমন এক মহিলার ফিকহী বিধান প্রদান করে যিনি ঋতুস্রাব থেকে হতাশ হয়েছেন এবং যাকে তার স্বামী তালাক দিয়েছেন। ইমাম আবু জাফর عليه السلام বলেন যে তালাক কার্যকর হয় এবং তার জন্য ইদ্দত প্রয়োজন নেই।",
-          "de": "Dieser Hadith gibt eine fiqhische Regelung für eine Frau, die die Menopause erreicht hat und von ihrem Ehemann geschieden wird. Imam Abū Jaʿfar عليه السلام erklärt, dass die Scheidung wirksam ist und keine 'iddah für sie erforderlich ist.",
-          "en": "This hadith gives a fiqh ruling concerning a woman who has reached menopause and is divorced by her husband. Imam Abū Jaʿfar عليه السلام states that the divorce takes effect and that no 'iddah is required for her.",
-          "es": "Este hadiz ofrece un fallo jurídico sobre una mujer que ha llegado a la menopausia y es divorciada por su esposo. El Imam Abū Jaʿfar عليه السلام afirma que el divorcio es efectivo y que no se requiere 'iddah para ella.",
-          "fa": "این حدیث حکم فقهی درباره زنی که به یائسگی رسیده و شوهرش او را طلاق داده است، بیان می‌کند. امام ابوجعفر علیه السلام می‌فرماید که طلاق نافذ است و عده بر او واجب نیست.",
-          "fr": "Ce hadith donne un jugement juridique concernant une femme qui a atteint la ménopause et qui est divorcée par son mari. L'Imam Abū Jaʿfar عليه السلام déclare que le divorce prend effet et qu'aucune 'iddah n'est requise pour elle.",
-          "id": "Hadis ini memberikan hukum fikih mengenai wanita yang telah mengalami menopause dan diceraikan oleh suaminya. Imam Abū Jaʿfar علیه السلام menyatakan bahwa talak berlaku dan tidak ada iddah yang wajib baginya.",
-          "ru": "Этот хадис содержит фиххское постановление относительно женщины, достигшей менопаузы и разведённой мужем. Имам Абū Джафар عليه السلام утверждает, что развод вступает в силу и для неё не требуется идда.",
-          "tr": "Bu hadis, adet görmeye ümidi kalmamış ve kocası tarafından boşanmış bir kadınla ilgili fıkhî bir hüküm verir. İmam Abū Jaʿfar علیه السلام, boşanmanın geçerli olduğunu ve onun için iddet gerekmediğini belirtir.",
-          "ur": "یہ حدیث ایک فقہی حکم بیان کرتی ہے جو اس عورت کے بارے میں ہے جو حیض سے مایوس ہو چکی ہو اور جسے اس کا شوہر طلاق دے چکا ہو۔ امام ابو جعفر علیہ السلام فرماتے ہیں کہ طلاق نافذ ہو جاتی ہے اور اس پر عدت لازم نہیں ہے۔",
-          "zh": "此圣训阐述了关于已绝经且被丈夫离婚的妇女的法学裁决。伊玛目阿布贾法尔عليه السلام指出离婚生效，她无需守候等待期。"
-        },
         "tags": [
           "jurisprudence",
           "family"

@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اِبْنُ مَحْبُوبٍ عَنْ عَبْدِ اللَّهِ بْنِ سِنَانٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ইবন মাহবুব, ‘আবদুল্লাহ ইবন সিনান থেকে, তিনি আবু ‘আবদুল্লাহ عليه السلام থেকে বর্ণনা করেন, তিনি বলেন:",
-              "de": "Ibn Mahbub, von 'Abd Allah ibn Sinan, von Abi 'Abd Allah عليه السلام, der sagte:",
-              "en": "Ibn Mahbub, from 'Abd Allah ibn Sinan, from Abi 'Abd Allah عليه السلام, who said:",
-              "es": "Ibn Mahbub, de 'Abd Allah ibn Sinan, de Abi 'Abd Allah عليه السلام, quien dijo:",
-              "fa": "ابن محبوب، از عبد الله بن سنان، از ابی عبدالله علیه السلام، که فرمود:",
-              "fr": "Ibn Mahbub, d’après 'Abd Allah ibn Sinan, d’après Abi 'Abd Allah عليه السلام, qui a dit :",
-              "id": "Ibn Mahbub, dari 'Abd Allah ibn Sinan, dari Abi 'Abd Allah عليه السلام, yang bersabda:",
-              "ru": "Ибн Махбуб, от 'Абд Аллаха ибн Синана, от Аби 'Абд Аллаха عليه السلام, который сказал:",
-              "tr": "İbn Mahbub, Abd Allah ibn Sinan’dan, o da Ebu Abd Allah عليه السلام’dan rivayet etti ki şöyle dedi:",
-              "ur": "ابن محبوب، عبد اللہ بن سنان سے، وہ ابو عبد اللہ علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "伊本·马赫布卜传自‘阿卜杜拉·伊本·西南，传自阿比‘阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "«اَلسَّارِقُ إِذَا جَاءَ مِنْ قِبَلِ نَفْسِهِ تَائِبًا إِلَى اللَّهِ وَرَدَّ سَرِقَتَهُ عَلَى صَاحِبِهَا فَلَا قَطْعَ عَلَيْهِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“যদি চোর নিজে থেকে এসে আল্লাহর কাছে তাওবা করে এবং যা সে চুরি করেছে তা তার মালিককে ফিরিয়ে দেয়, তবে তার ওপর হাত কাটা নেই।”",
-              "de": "„Wenn der Dieb aus eigenem Antrieb kommt, sich bei Allah bereuend, und das, was er gestohlen hat, seinem Besitzer zurückgibt, dann gibt es für ihn keine Amputation.“",
-              "en": "“If the thief comes of his own accord, repenting to Allah, and returns what he stole to its owner, then there is no amputation upon him.”",
-              "es": "“Si el ladrón viene por su propia voluntad, arrepintiéndose ante Allah, y devuelve lo que robó a su dueño, entonces no se le aplica la amputación.”",
-              "fa": "«اگر دزد از پیش خود بیاید، در حالی که به سوی خدا توبه کرده باشد، و آنچه را دزدیده است به صاحبش بازگرداند، پس بر او قطع نیست.»",
-              "fr": "« Si le voleur vient de son propre chef, se repentant auprès d’Allah, et rend ce qu’il a volé à son propriétaire, alors il n’y a pas d’amputation pour lui. »",
-              "id": "“Jika pencuri datang atas kemauannya sendiri, bertaubat kepada Allah, dan mengembalikan apa yang telah ia curi kepada pemiliknya, maka tidak ada pemotongan atas dirinya.”",
-              "ru": "«Если вор приходит по собственной воле, раскаиваясь перед Аллахом, и возвращает украденное его владельцу, то к нему не применяется отсечение.»",
-              "tr": "“Hırsız kendi isteğiyle gelip Allah’a tevbe ederek çaldığını sahibine geri verirse, ona el kesme uygulanmaz.”",
-              "ur": "“اگر چور اپنی طرف سے خود آ کر اللہ سے توبہ کرے اور جو کچھ اس نے چرایا ہو اسے اس کے مالک کو واپس کر دے، تو اس پر قطع نہیں ہے۔”",
-              "zh": "“如果小偷主动前来，向真主忏悔，并把所偷之物归还给其主人，那么就不对他执行截肢。”"
-            },
             "word_end": 30,
             "word_start": 14
           }
@@ -94,26 +81,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِلَى اللَّهِ": "to Allah; indicating sincere tawbah directed to Him",
-            "اَلسَّارِقُ": "the thief; the person who committed theft",
-            "تَائِبًا": "repenting; returning to Allah in remorse",
-            "سَرِقَتَهُ": "what he stole; the stolen property",
-            "صَاحِبِهَا": "its owner; the rightful possessor of the property",
-            "قَطْعَ": "amputation; the prescribed hadd punishment for theft"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "اَلسَّارِقُ",
+          "تَائِبًا",
+          "إِلَى اللَّهِ",
+          "سَرِقَتَهُ",
+          "صَاحِبِهَا",
+          "قَطْعَ"
+        ],
         "related_quran": [
           {
             "ref": "5:39",
@@ -124,32 +99,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "চোর তাওবা করে চুরি করা মাল ফেরত দিলে কি তার ওপর থেকে হদ্দ শাস্তি উঠে যায়?",
-          "de": "Fällt die Hadd-Strafe weg, wenn der Dieb bereut und das Gestohlene zurückgibt, bevor er vorgeführt wird?",
-          "en": "Is the hadd punishment dropped if a thief repents and returns the stolen property before being taken up?",
-          "es": "¿Se levanta la pena hadd si el ladrón se arrepiente y devuelve lo robado antes de ser llevado ante la autoridad?",
-          "fa": "آیا اگر دزد توبه کند و مال دزدیده‌شده را بازگرداند، حد از او ساقط می‌شود؟",
-          "fr": "La peine de hadd est-elle levée si le voleur se repent et rend le bien volé avant d’être présenté aux autorités ?",
-          "id": "Apakah hukuman hadd gugur jika pencuri bertaubat dan mengembalikan barang curian sebelum ditangkap?",
-          "ru": "Снимается ли наказание хадд, если вор раскается и вернет украденное до того, как его привлекут?",
-          "tr": "Hırsız tevbe edip çaldığı malı geri verirse, yakalanmadan önce hadd cezası düşer mi?",
-          "ur": "کیا چور کے توبہ کرنے اور چوری شدہ مال واپس کرنے سے پہلے اس پر حد ساقط ہو جاتی ہے؟",
-          "zh": "如果小偷在被带上前主动忏悔并归还赃物，hadd刑罚会被免除吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে বলা হয়েছে, যদি চোর স্বেচ্ছায় আল্লাহর কাছে তাওবা করে সামনে আসে এবং চুরি করা সম্পদ তার মালিককে ফিরিয়ে দেয়, তবে তার ওপর নির্ধারিত হাত কাটা কার্যকর করা হয় না। এতে আন্তরিক তাওবা ও অন্যের অধিকার ফিরিয়ে দেওয়ার শরঈ ও নৈতিক গুরুত্ব স্পষ্ট হয়।",
-          "de": "Dieser Hadith besagt, dass, wenn der Dieb aus eigenem Antrieb vortritt, sich bei Allah bereuend, und das Gestohlene seinem Besitzer zurückgibt, die vorgeschriebene Amputation nicht gegen ihn vollzogen wird. Er hebt die rechtliche und moralische Bedeutung aufrichtiger tawbah und der Wiederherstellung der Rechte anderer hervor.",
-          "en": "This hadith states that if a thief voluntarily comes forward in repentance to Allah and restores the stolen property to its owner, the prescribed amputation is not carried out against him. It highlights the legal and moral significance of sincere tawbah and restitution of others’ rights.",
-          "es": "Este hadiz establece que, si el ladrón se presenta por voluntad propia, arrepintiéndose ante Allah y devolviendo lo robado a su dueño, no se ejecuta contra él la amputación prescrita. Destaca la importancia jurídica y moral del tawba sincero y de restituir los derechos de los demás.",
-          "fa": "این حدیث بیان می‌کند که اگر دزد با اختیار خود، در حالی که به سوی خدا توبه کرده است، پیش آید و مال دزدیده‌شده را به صاحبش بازگرداند، حدّ قطع بر او اجرا نمی‌شود. این حدیث اهمیت فقهی و اخلاقیِ توبهٔ صادقانه و بازگرداندن حقوق دیگران را نشان می‌دهد.",
-          "fr": "Ce hadith indique que si le voleur se présente de son plein gré, se repentant auprès d’Allah et restituant ce qu’il a volé à son propriétaire, l’amputation prescrite n’est pas appliquée contre lui. Il souligne l’importance juridique et morale d’un tawba sincère et de la restitution des droits d’autrui.",
-          "id": "Hadis ini menyatakan bahwa jika pencuri datang dengan sukarela, bertaubat kepada Allah, dan mengembalikan barang curian kepada pemiliknya, maka hukuman pemotongan yang ditetapkan tidak dijalankan atas dirinya. Ini menegaskan pentingnya taubat yang tulus dan pengembalian hak orang lain secara hukum dan moral.",
-          "ru": "Этот хадис сообщает, что если вор добровольно приходит, раскаиваясь перед Аллахом, и возвращает украденное его владельцу, то предписанное отсечение к нему не применяется. Он подчеркивает правовое и нравственное значение искренней tawbah и восстановления прав других людей.",
-          "tr": "Bu hadis, hırsızın kendi isteğiyle Allah’a tevbe ederek ortaya çıkması ve çaldığı malı sahibine geri vermesi halinde, belirlenmiş el kesme cezasının uygulanmayacağını bildirir. Bu, samimi tevbenin ve başkalarının haklarını iade etmenin fıkhî ve ahlâkî önemini vurgular.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ اگر چور اپنی مرضی سے اللہ سے توبہ کرتے ہوئے سامنے آئے اور چوری شدہ مال اس کے مالک کو واپس کر دے، تو اس پر مقررہ قطع نافذ نہیں کیا جاتا۔ یہ سچی توبہ اور دوسروں کے حقوق کی واپسی کی شرعی اور اخلاقی اہمیت کو واضح کرتی ہے۔",
-          "zh": "这段圣训说明，如果小偷主动前来，向真主忏悔，并把所偷之物归还给其主人，那么对他就不执行规定的截肢刑罚。它强调了真诚的tawbah以及归还他人权利在教法和道德上的重要性。"
-        },
         "tags": [
           "jurisprudence",
           "ethics",

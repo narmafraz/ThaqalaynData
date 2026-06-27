@@ -17,61 +17,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى الْحَسَنُ بْنُ مَحْبُوبٍ عَنِ الْعَلَاءِ وَ أَبِي أَيُّوبَ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হাসান ইবনে মাহবুব আল-‘আলা ও আবু আইয়ুব থেকে, তিনি মুহাম্মদ ইবনে মুসলিম থেকে, তিনি আবু জাফর عليه السلام থেকে বর্ণনা করেছেন:",
-              "de": "Al-Hasan ibn Mahbub berichtete von Al-‘Ala’ und Abu Ayyub, von Muhammad ibn Muslim, von Abu Ja‘far عليه السلام:",
-              "en": "Al-Hasan ibn Mahbub narrated from Al-‘Ala’ and Abu Ayyub, from Muhammad ibn Muslim, from Abu Ja‘far عليه السلام:",
-              "es": "Al-Hasan ibn Mahbub narró de Al-‘Ala’ y Abu Ayyub, de Muhammad ibn Muslim, de Abu Ja‘far عليه السلام:",
-              "fa": "الْحَسَن بن مَحبوب از الْعَلَا و ابی أیوب، از محمد بن مسلم، از ابوجعفر علیه السلام روایت کرده است:",
-              "fr": "Al-Hasan ibn Mahbub a rapporté d'Al-‘Ala’ et Abu Ayyub, de Muhammad ibn Muslim, d'Abu Ja‘far عليه السلام :",
-              "id": "Al-Hasan ibn Mahbub meriwayat dari Al-‘Ala’ dan Abu Ayyub, dari Muhammad ibn Muslim, dari Abu Ja‘far علیه السلام:",
-              "ru": "Аль-Хасан ибн Махбуб передал от Аль-‘Ала’ и Абу Айюба, от Мухаммада ибн Муслима, от Абу Джа‘фара عليه السلام:",
-              "tr": "El-Hasan ibn Mahbub, El-‘Ala’ ve Ebu Eyyub’dan, onlar da Muhammed ibn Muslim’den, o da Ebu Ca’fer عليه السلام’den rivayet etti:",
-              "ur": "الْحَسَن بْن مَحْبُوب نے الْعَلَا اور ابُو أَيُّوب سے روایت کی، جو محمد بْن مُسلم سے، جو ابُو جَعْفَر علیہ السلام سے روایت کرتے ہیں:",
-              "zh": "الْحَسَنبنمَحبوب从الْعَلَا和أبوأَيُّوب传述，传自محمدبنمُسلم，传自أبوجعفرعليهالسلام："
-            },
             "word_end": 19,
             "word_start": 0
           },
           {
             "arabic_text": "فِي رَجُلَيْنِ شَهِدَا عَلَى رَجُلٍ غَائِبٍ عِنْدَ امْرَأَتِهِ بِأَنَّهُ طَلَّقَهَا فَاعْتَدَّتِ الْمَرْأَةُ وَ تَزَوَّجَتْ ثُمَّ إِنَّ الزَّوْجَ الْغَائِبَ قَدِمَ فَزَعَمَ أَنَّهُ لَمْ يُطَلِّقْهَا وَ أَكْذَبَ نَفْسَهُ أَحَدُ الشَّاهِدَيْنِ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "দুইজন পুরুষ সম্পর্কে যারা অনুপস্থিত এক ব্যক্তির বিরুদ্ধে তার স্ত্রীয়ের সামনে সাক্ষ্য দিয়েছিল যে সে তাকে তালাক দিয়েছে, তাই মহিলা তার ইদ্দত পালন করেছিল এবং বিয়ে করেছিল। তারপর অনুপস্থিত স্বামী ফিরে এসেছিল এবং দাবি করেছিল যে সে তাকে তালাক দেয়নি, এবং দুই সাক্ষীর মধ্যে একজন নিজের সাক্ষ্য মিথ্যা বলেছে।",
-              "de": "Bezüglich zweier Männer, die gegen einen abwesenden Mann vor seiner Frau ausgesagt hatten, dass er sie geschieden habe, sodass die Frau ihre Wartezeit einhielt und heiratete. Dann kehrte der abwesende Ehemann zurück und behauptete, er habe sie nicht geschieden, und einer der beiden Zeugen erklärte sich für falsch.",
-              "en": "Concerning two men who testified against an absent man before his wife that he had divorced her, so the woman observed her waiting period and married. Then the absent husband returned and claimed that he had not divorced her, and one of the two witnesses declared himself to have been false.",
-              "es": "Sobre dos hombres que testificaron contra un hombre ausente ante su esposa que él la había divorciado, por lo que la mujer observó su período de espera y se casó. Luego el esposo ausente regresó y afirmó que no la había divorciado, y uno de los dos testigos se declaró falso.",
-              "fa": "درباره دو مردی که در حضور همسر مرد غایب شهادت دادند که او او را طلاق داده است، زن عدت خود را نگه داشت و ازدواج کرد. سپس شوهر غایب بازگشت و ادعا کرد که طلاق نداده است و یکی از دو شاهد خود را دروغگو معرفی کرد.",
-              "fr": "Concernant deux hommes qui ont témoigné contre un homme absent devant sa femme qu'il l'avait divorcée, la femme a observé sa période d'attente et s'est mariée. Puis le mari absent est revenu et a affirmé qu'il ne l'avait pas divorcée, et l'un des deux témoins s'est déclaré faux.",
-              "id": "Mengenai dua pria yang bersaksi terhadap seorang pria yang tidak hadir di hadapan istrinya bahwa dia telah menceraikannya, sehingga wanita itu menjalani masa iddah dan menikah. Kemudian suami yang tidak hadir kembali dan mengklaim bahwa dia tidak menceraikannya, dan salah satu dari dua saksi mengaku telah berdusta.",
-              "ru": "Относительно двух мужчин, которые свидетельствовали против отсутствующего мужа перед его женой, что он развелся с ней, женщина соблюдала ‘иддат и вышла замуж. Затем отсутствующий муж вернулся и заявил, что не разводил ее, и один из двух свидетелей признал свою ложь.",
-              "tr": "Eşinin yanında bulunmayan bir adam hakkında, onun kendisini boşadığına dair iki erkeğin şahitlik etmesiyle ilgili; kadın iddetini tuttu ve evlendi. Sonra yok olan koca geri döndü ve boşamadığını iddia etti, iki şahitten biri yalan söylediğini beyan etti.",
-              "ur": "دو مردوں کے بارے میں جو ایک غیر حاضر شخص کے خلاف اس کی بیوی کے سامنے گواہی دی کہ اس نے اسے طلاق دے دی ہے، تو عورت نے عدت پوری کی اور شادی کر لی۔ پھر غیر حاضر شوہر واپس آیا اور دعویٰ کیا کہ اس نے طلاق نہیں دی، اور دو گواہوں میں سے ایک نے اپنی گواہی کو جھوٹا قرار دیا۔",
-              "zh": "关于两名男子在其妻子面前对缺席男子作证称他已离婚，妇女遂守候期并再婚。随后缺席丈夫归来，声称未离婚，二证人之一自认作伪。"
-            },
             "word_end": 47,
             "word_start": 19
           },
           {
             "arabic_text": "فَقَالَ «لَا سَبِيلَ لِلْأَخِيرِ عَلَيْهَا وَ يُؤْخَذُ الصَّدَاقُ مِنَ الَّذِي شَهِدَ وَ رَجَعَ فَيُرَدُّ عَلَى الْأَخِيرِ وَ يُفَرَّقُ بَيْنَهُمَا وَ تَعْتَدُّ مِنَ الْأَخِيرِ وَ لَا يَقْرَبُهَا الْأَوَّلُ حَتَّى تَنْقَضِيَ عِدَّتُهَا»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি عليه السلام বললেন: \"শেষ স্বামীর তার উপর কোনো অধিকার নেই, মেহর সেই ব্যক্তির কাছ থেকে নেওয়া হয় যিনি সাক্ষ্য দিয়েছিলেন এবং পরে প্রত্যাহার করেছিলেন, এবং তা শেষ স্বামীর কাছে ফেরত দেওয়া হয়। তাদের আলাদা করা হয়, এবং মহিলা শেষ স্বামীর ইদ্দত পালন করবে, এবং প্রথম স্বামী তার ইদ্দত শেষ না হওয়া পর্যন্ত তার কাছে যাবে না।\"",
-              "de": "Er عليه السلام sagte: „Der letzte Ehemann hat kein Recht an ihr, und die Mitgift wird von dem genommen, der ausgesagt und dann zurückgezogen hat, und sie wird dem letzten Ehemann zurückgegeben. Sie sind zu trennen, und sie muss die Wartezeit des letzten Ehemanns einhalten, und der erste Ehemann darf sich ihr nicht nähern, bis die Wartezeit beendet ist.“",
-              "en": "He عليه السلام said: \"The latter husband has no claim over her, and the dowry is taken from the one who testified and then retracted, and it is returned to the latter husband. They are to be separated, and she must observe a waiting period from the latter husband, and the first husband must not approach her until her waiting period is completed.\"",
-              "es": "Él عليه السلام dijo: \"El último esposo no tiene derecho sobre ella, y la dote se toma de quien testificó y luego se retractó, y se devuelve al último esposo. Deben separarse, y ella debe observar el período de espera del último esposo, y el primer esposo no debe acercarse a ella hasta que termine su período de espera.\"",
-              "fa": "او علیه السلام فرمود: «شوهر دوم هیچ حقی بر او ندارد، مهریه از کسی که شهادت داده و سپس انکار کرده گرفته می‌شود و به شوهر دوم بازگردانده می‌شود. آن‌ها از هم جدا می‌شوند و زن باید عدت شوهر دوم را نگه دارد و شوهر اول تا پایان عدت به او نزدیک نشود.»",
-              "fr": "Il عليه السلام a dit : « Le dernier mari n'a aucun droit sur elle, la dot est prise de celui qui a témoigné puis s'est rétracté, et elle est rendue au dernier mari. Ils doivent être séparés, et elle doit observer la période d'attente du dernier mari, et le premier mari ne doit pas l'approcher avant la fin de sa période d'attente. »",
-              "id": "Dia عليه السلام berkata: \"Suami terakhir tidak memiliki hak atasnya, mahar diambil dari orang yang bersaksi lalu menarik kembali, dan dikembalikan kepada suami terakhir. Mereka dipisahkan, dan wanita harus menjalani masa iddah dari suami terakhir, dan suami pertama tidak boleh mendekatinya sampai iddah selesai.\"",
-              "ru": "Он عليه السلام сказал: «Последний муж не имеет над ней прав, махр берется с того, кто свидетельствовал и затем отрекся, и возвращается последнему мужу. Их следует разлучить, и женщина должна соблюдать ‘иддат от последнего мужа, а первый муж не должен приближаться к ней, пока ‘иддат не завершится.»",
-              "tr": "O عليه السلام dedi ki: \"Son kocanın üzerinde hiçbir hakkı yoktur, mehir şahitlik edip sonra geri çekilen kişiden alınır ve son kocaya iade edilir. Araları ayrılır, kadın son kocanın iddetini tutar ve ilk koca iddeti bitene kadar ona yaklaşmaz.\"",
-              "ur": "انہوں نے علیہ السلام فرمایا: \"آخری شوہر کا اس پر کوئی حق نہیں، اور مہر اس شخص سے لیا جائے جس نے گواہی دی اور پھر واپس لیا، اور وہ مہر آخری شوہر کو واپس کیا جائے۔ انہیں الگ کر دیا جائے، اور عورت کو آخری شوہر کی عدت پوری کرنی ہوگی، اور پہلا شوہر اس کے قریب نہ جائے جب تک اس کی عدت مکمل نہ ہو جائے۔\"",
-              "zh": "他عليهالسلام说：“后夫对她无权，聘金由作证后收回者承担，并返还后夫。二人分开，妇女须守后夫的‘等待期’，初夫不得在其‘等待期’结束前接近她。”"
-            },
             "word_end": 77,
             "word_start": 47
           }
@@ -140,28 +114,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الصَّدَاقُ": "the marriage dower owed in the case",
-            "تَعْتَدُّ": "she must observe a waiting period",
-            "رَجَعَ": "he retracted his testimony",
-            "شَهِدَا": "they gave testimony",
-            "طَلَّقَهَا": "he divorced her",
-            "عِدَّتُهَا": "her legally required waiting period",
-            "فَاعْتَدَّتِ": "she observed the waiting period ('iddah)",
-            "يُفَرَّقُ": "separation is enforced between the spouses"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "شَهِدَا",
+          "طَلَّقَهَا",
+          "فَاعْتَدَّتِ",
+          "الصَّدَاقُ",
+          "رَجَعَ",
+          "يُفَرَّقُ",
+          "تَعْتَدُّ",
+          "عِدَّتُهَا"
+        ],
         "related_quran": [
           {
             "ref": "2:228",
@@ -180,32 +142,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি একজন মহিলা মিথ্যা তালাকের সাক্ষ্য দেওয়ার পর পুনরায় বিয়ে করে এবং পরে একজন সাক্ষী তার সাক্ষ্য প্রত্যাহার করে, তাহলে কী বিধান?",
-          "de": "Wie lautet das Urteil, wenn eine Frau nach falscher Zeugenaussage über eine Scheidung erneut heiratet und ein Zeuge später seine Aussage zurückzieht?",
-          "en": "What is the ruling if a woman remarries after false testimony of divorce and a witness later retracts?",
-          "es": "¿Cuál es el fallo si una mujer se vuelve a casar tras un falso testimonio de divorcio y un testigo luego se retracta?",
-          "fa": "اگر زنی پس از شهادت دروغ درباره طلاق دوباره ازدواج کند و شاهد بعداً شهادت خود را پس بگیرد، حکم چیست؟",
-          "fr": "Quelle est la règle si une femme se remarie après un faux témoignage de divorce et qu'un témoin se rétracte ensuite ?",
-          "id": "Apa hukum jika seorang wanita menikah lagi setelah kesaksian palsu tentang perceraian dan seorang saksi kemudian menarik kembali kesaksiannya?",
-          "ru": "Каково постановление, если женщина повторно выходит замуж после ложного свидетельства о разводе, и свидетель позже отказывается от своих показаний?",
-          "tr": "Bir kadın boşanma hakkında sahte şahitlik üzerine yeniden evlenirse ve bir şahit daha sonra şahitliğini geri çekerse hüküm nedir?",
-          "ur": "اگر عورت جھوٹی گواہی کی بنیاد پر دوبارہ شادی کر لے اور بعد میں گواہ اپنی گواہی واپس لے لے تو حکم کیا ہے؟",
-          "zh": "若妇女因假证言离婚再婚，后有证人撤回证言，裁决为何？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি একটি আইনি সিদ্ধান্ত দেয় যা মিথ্যা সাক্ষ্য সম্পর্কে, যেখানে একজন মহিলা সাক্ষীদের বিবাহবিচ্ছেদের দাবির ভিত্তিতে পুনরায় বিয়ে করে। যখন একজন সাক্ষী তার সাক্ষ্য প্রত্যাহার করে, দ্বিতীয় বিয়ে বাতিল হয়, আর্থিক দায়িত্ব প্রত্যাহারকারী সাক্ষীর উপর পড়ে, এবং মহিলা তার ইদ্দত সম্পন্ন করতে হবে প্রথম স্বামীর কাছে ফিরে যাওয়ার আগে।",
-          "de": "Dieser Hadith gibt ein rechtliches Urteil über falsche Zeugenaussage in einem Ehefall, bei dem eine Frau aufgrund der Aussage von Zeugen über eine Scheidung erneut heiratet. Wenn ein Zeuge seine Aussage zurückzieht, wird die zweite Ehe aufgelöst, die finanzielle Verantwortung liegt beim zurückziehenden Zeugen, und die Frau muss ihre ‘iddah vollenden, bevor sie zum ersten Ehemann zurückkehrt.",
-          "en": "This hadith gives a legal ruling about false testimony in a marital case where a woman remarries based on witnesses' claim of divorce. When one witness retracts, the second marriage is dissolved, financial liability falls on the retracting witness, and the woman must complete her 'iddah before returning to the first husband.",
-          "es": "Este hadiz establece un fallo legal sobre el falso testimonio en un caso matrimonial donde una mujer se vuelve a casar basándose en la afirmación de los testigos sobre el divorcio. Cuando un testigo se retracta, el segundo matrimonio se disuelve, la responsabilidad financiera recae en el testigo que se retracta, y la mujer debe completar su 'iddah antes de regresar al primer esposo.",
-          "fa": "این حدیث حکم شرعی درباره شهادت دروغ در مورد طلاق است که زن بر اساس ادعای شاهدان دوباره ازدواج می‌کند. وقتی یکی از شاهدان شهادت خود را پس می‌گیرد، ازدواج دوم منحل می‌شود، مسئولیت مالی بر عهده شاهد پس‌گیرنده است و زن باید عدت خود را کامل کند قبل از بازگشت به شوهر اول.",
-          "fr": "Ce hadith donne un jugement légal concernant un faux témoignage dans un cas matrimonial où une femme se remarie sur la base de la déclaration des témoins de divorce. Lorsqu'un témoin se rétracte, le second mariage est dissous, la responsabilité financière incombe au témoin qui se rétracte, et la femme doit accomplir sa ‘iddah avant de retourner au premier mari.",
-          "id": "Hadis ini memberikan hukum tentang kesaksian palsu dalam kasus pernikahan di mana seorang wanita menikah lagi berdasarkan klaim saksi tentang perceraian. Ketika salah satu saksi menarik kembali kesaksiannya, pernikahan kedua dibatalkan, tanggung jawab keuangan jatuh pada saksi yang menarik kembali, dan wanita harus menyelesaikan 'iddah sebelum kembali ke suami pertama.",
-          "ru": "Этот хадис содержит юридическое постановление о ложном свидетельстве в брачном деле, когда женщина повторно выходит замуж на основании свидетельских показаний о разводе. Когда один свидетель отказывается от своих показаний, второй брак расторгается, финансовая ответственность ложится на отозвавшего свидетельство, и женщина должна завершить ‘иддат, прежде чем вернуться к первому мужу.",
-          "tr": "Bu hadis, bir kadının boşanma hakkında sahte şahitlik üzerine yeniden evlenmesi durumunda verilen hukuki hükmü açıklar. Bir şahit şahitliğini geri çektiğinde ikinci evlilik sona erer, maddi sorumluluk geri çeken şahsa aittir ve kadın iddetini tamamlamadan ilk kocaya dönemez.",
-          "ur": "یہ حدیث ایک عدالتی حکم دیتی ہے جو جھوٹی گواہی کے بارے میں ہے جب ایک عورت گواہوں کے دعوے پر دوبارہ شادی کر لیتی ہے۔ جب ایک گواہ اپنی گواہی واپس لے لیتا ہے تو دوسری شادی منسوخ ہو جاتی ہے، مالی ذمہ داری واپس لینے والے گواہ پر آتی ہے، اور عورت کو اپنی عدت مکمل کرنی ہوتی ہے اس سے پہلے کہ وہ پہلے شوہر کے پاس واپس جائے۔",
-          "zh": "此圣训就婚姻案件中因假证言导致妇女再婚的法律裁决作出说明。当一证人撤回证言时，第二次婚姻解除，经济责任由撤回证言者承担，妇女须完成‘等待期’后方可回归第一夫。"
-        },
         "tags": [
           "jurisprudence",
           "family",

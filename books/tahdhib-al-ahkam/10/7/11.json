@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ بَعْضِ أَصْحَابِهِ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, তাঁর কিছু সঙ্গী থেকে, আবী আবদিল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Von ihm, von einigen seiner Gefährten, von Abī ʿAbdillāh عليه السلام, der sagte:",
-              "en": "From him, from some of his companions, from Abī ʿAbdillāh عليه السلام, who said:",
-              "es": "De él, de algunos de sus compañeros, de Abī ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "از او، از برخی از یارانش، از ابی‌عبدالله علیه‌السلام که فرمود:",
-              "fr": "De lui, de certains de ses compagnons, d’Abī ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Darinya, dari sebagian sahabatnya, dari Abī ʿAbdillāh عليه السلام, yang bersabda:",
-              "ru": "От него, от некоторых его сподвижников, от Аби ʿАбдуллаха عليه السلام, который сказал:",
-              "tr": "Ondan, bazı ashabından, Ebî Abdillâh عليه السلام’dan, şöyle dedi:",
-              "ur": "ان سے، ان کے بعض اصحاب سے، ابی عبداللہ علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "由他传自他的一些同伴，传自阿比·阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "يُجْلَدُ قَاذِفُ اللَّقِيطِ وَيُجْلَدُ قَاذِفُ ابْنِ الْمُلَاعَنَةِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে ব্যক্তি কোনো লাকীতের ওপর অপবাদ দেয়, তাকে বেত্রাঘাত করা হয়; এবং যে ব্যক্তি আল-মুলাআনাহর পুত্রের ওপর অপবাদ দেয়, তাকেও বেত্রাঘাত করা হয়।",
-              "de": "Wer einem Findelkind Verleumdung vorwirft, wird ausgepeitscht, und wer den Sohn von al-mulāʿanah verleumdet, wird ebenfalls ausgepeitscht.",
-              "en": "The one who slanders a foundling is flogged, and the one who slanders the son of al-mulāʿanah is flogged.",
-              "es": "A quien calumnia a un niño hallado se le azota, y a quien calumnia al hijo de al-mulāʿanah se le azota.",
-              "fa": "به کسی که به لقیط تهمت بزند تازیانه زده می‌شود، و به کسی که به پسرِ مُلاعَنه تهمت بزند نیز تازیانه زده می‌شود.",
-              "fr": "Celui qui calomnie un enfant trouvé est fouetté, et celui qui calomnie le fils de al-mulāʿanah est fouetté.",
-              "id": "Orang yang menuduh seorang anak temuan dicambuk, dan orang yang menuduh anak dari al-mulāʿanah dicambuk.",
-              "ru": "Того, кто клевещет на найденыша, подвергают бичеванию, и того, кто клевещет на сына аль-мулāʿанах, тоже подвергают бичеванию.",
-              "tr": "Bir buluntu çocuğa iftira atan kimseye had uygulanır; mülâane çocuğuna iftira atan kimseye de had uygulanır.",
-              "ur": "لقیط پر تہمت لگانے والے کو کوڑے لگائے جاتے ہیں، اور ملاعَنہ کے بیٹے پر تہمت لگانے والے کو بھی کوڑے لگائے جاتے ہیں۔",
-              "zh": "诬蔑弃儿的人要受鞭刑，诬蔑al-mulāʿanah之子的人也要受鞭刑。"
-            },
             "word_end": 18,
             "word_start": 11
           }
@@ -94,24 +81,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "ابْنِ الْمُلَاعَنَةِ": "the son connected to a case of mutual imprecation between spouses",
-            "اللَّقِيطِ": "the foundling; an abandoned child of unknown lineage",
-            "قَاذِفُ": "the slanderer; one who accuses another of illicit sexual conduct",
-            "يُجْلَدُ": "is to be flogged; indicating the prescribed corporal punishment"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُجْلَدُ",
+          "قَاذِفُ",
+          "اللَّقِيطِ",
+          "ابْنِ الْمُلَاعَنَةِ"
+        ],
         "related_quran": [
           {
             "ref": "24:4",
@@ -134,32 +109,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে লাকীত বা মুলাআনাহর পুত্রের ওপর অপবাদ দেওয়ার বিধান কী?",
-          "de": "Wie lautet das Urteil über die Verleumdung eines Findelkindes oder des Sohnes von al-mulāʿanah im schiitischen Hadith?",
-          "en": "What is the ruling on slandering a foundling or the son of al-mulāʿanah in Shia hadith?",
-          "es": "¿Cuál es la norma sobre calumniar a un niño hallado o al hijo de al-mulāʿanah en el hadiz chií?",
-          "fa": "حکم تهمت زدن به لقیط یا پسرِ مُلاعَنه در حدیث شیعه چیست؟",
-          "fr": "Quelle est la règle concernant la calomnie d’un enfant trouvé ou du fils de al-mulāʿanah dans le hadith chiite ?",
-          "id": "Apa حكم menuduh seorang anak temuan atau anak al-mulāʿanah dalam hadis Syiah?",
-          "ru": "Каково постановление о клевете на найденыша или сына аль-мулāʿанах в шиитском хадисе?",
-          "tr": "Şii hadiste bir buluntu çocuğa veya mülâane çocuğuna iftira etmenin hükmü nedir?",
-          "ur": "شیاہ حدیث میں لقیط یا ملاعَنہ کے بیٹے پر تہمت لگانے کا حکم کیا ہے؟",
-          "zh": "什叶派圣训中诬蔑弃儿或al-mulāʿanah之子的判定是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে একটি শরঈ বিধান বর্ণিত হয়েছে যে, যে ব্যক্তি কোনো লাকীতের ওপর মিথ্যা অপবাদ দেয় এবং যে ব্যক্তি মুলাআনাহর ক্ষেত্রে জন্ম নেওয়া পুত্রের ওপর মিথ্যা অপবাদ দেয়, তার ওপর হদ্দ প্রযোজ্য হয়। এটি ইসলামী আইনে বংশ, সম্মান এবং ব্যক্তিগত মর্যাদার সুরক্ষাকে জোরদার করে।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung, dass die Hadd-Strafe gegen denjenigen gilt, der ein Findelkind fälschlich beschuldigt, und gegen denjenigen, der den Sohn aus dem Fall der gegenseitigen Verfluchung fälschlich beschuldigt. Er unterstreicht den Schutz von Abstammung, Ehre und persönlicher Würde im islamischen Recht.",
-          "en": "This hadith states a legal ruling that the hadd punishment applies to one who falsely accuses a foundling and to one who falsely accuses the son born in the case of mutual imprecation. It underscores the protection of lineage, honor, and personal dignity in Islamic law.",
-          "es": "Este hadiz establece una norma jurídica: la pena de hadd se aplica a quien acusa falsamente a un niño hallado y a quien acusa falsamente al hijo nacido en el caso de la imprecación mutua. Subraya la protección del linaje, el honor y la dignidad personal en la ley islámica.",
-          "fa": "این حدیث حکمی فقهی را بیان می‌کند که حد بر کسی که به لقیط تهمت ناروا بزند و نیز بر کسی که به پسرِ متولدشده در ماجرای مُلاعَنه تهمت بزند جاری می‌شود. این حدیث بر پاسداری از نسب، آبرو و کرامت شخصی در فقه اسلامی تأکید دارد.",
-          "fr": "Ce hadith énonce une règle juridique selon laquelle la peine de hadd s’applique à celui qui accuse faussement un enfant trouvé et à celui qui accuse faussement le fils né dans le cas de l’imprécation mutuelle. Il souligne la protection de la filiation, de l’honneur et de la dignité personnelle dans le droit islamique.",
-          "id": "Hadis ini menyatakan sebuah ketetapan hukum bahwa hukuman hadd berlaku bagi orang yang menuduh secara dusta seorang anak temuan dan bagi orang yang menuduh secara dusta anak yang lahir dalam kasus al-mulāʿanah. Ini menegaskan perlindungan terhadap nasab, kehormatan, dan martabat pribadi dalam hukum Islam.",
-          "ru": "Этот хадис устанавливает правовое постановление: наказание хадд применяется к тому, кто ложно обвиняет найденыша, и к тому, кто ложно обвиняет сына, рожденного в случае взаимного проклятия. Он подчеркивает защиту происхождения, чести и личного достоинства в исламском праве.",
-          "tr": "Bu hadis, bir buluntu çocuğa ve mülâane sonucu doğan oğula iftira atan kimseye had cezasının uygulanacağını bildiren bir fıkhî hüküm ortaya koyar. İslam hukukunda nesebin, şerefin ve kişisel onurun korunmasını vurgular.",
-          "ur": "یہ حدیث ایک شرعی حکم بیان کرتی ہے کہ جو شخص کسی لقیط پر جھوٹا الزام لگائے اور جو شخص ملاعَنہ سے پیدا ہونے والے بیٹے پر جھوٹا الزام لگائے، اس پر حد جاری ہوتی ہے۔ یہ اسلامی قانون میں نسب، عزت اور شخصی وقار کے تحفظ کو واضح کرتی ہے۔",
-          "zh": "这段圣训说明了一项教法裁定：对诬告弃儿的人适用hadd刑罚，对诬告在相互诅咒案件中所生之子的人的也适用hadd刑罚。它强调了伊斯兰教法中对血统、名誉和个人尊严的保护。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations",

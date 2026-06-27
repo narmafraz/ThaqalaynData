@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رُوِيَ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং এটি বর্ণিত হয়েছে:",
-              "de": "Und es wurde überliefert:",
-              "en": "And it has been narrated:",
-              "es": "Y se ha narrado:",
-              "fa": "و روایت شده است:",
-              "fr": "Et il a été rapporté :",
-              "id": "Dan telah diriwayatkan:",
-              "ru": "И было передано:",
-              "tr": "Ve rivayet edilmiştir ki:",
-              "ur": "اور یہ روایت کیا گیا ہے:",
-              "zh": "据传："
-            },
             "word_end": 2,
             "word_start": 0
           },
           {
             "arabic_text": "«أَنَّ بَنِي إِسْرَائِيلَ كَانَتْ إِذَا قَرَّبَتِ الْقُرْبَانَ تَخْرُجُ نَارٌ فَتَأْكُلُ قُرْبَانَ مَنْ قُبِلَ مِنْهُ وَ أَنَّ اللَّهَ تَبَارَكَ وَ تَعَالَى جَعَلَ الْإِحْرَامَ مَكَانَ الْقُرْبَانِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "ইসরায়েল জাতি যখন কোরবানি দিত, তখন একটি আগুন বের হত এবং যাঁর কোরবানি গ্রহণ করা হতো তাঁর কোরবানিটা খেয়ে ফেলে; এবং আল্লাহ, বরকতময় ও মহিমান্বিত, ইহরামকে কোরবানির স্থলে নিয়েছেন।",
-              "de": "Die Kinder Israels, wenn sie das Opfer darbrachten, kam ein Feuer hervor und verzehrte das Opfer dessen, von dem es angenommen wurde; und Allah, Gesegnet und Erhaben, machte das Ihram anstelle des Opfers.",
-              "en": "The Children of Israel, when they offered the sacrifice, a fire would come forth and consume the sacrifice of the one from whom it was accepted; and Allah, Blessed and Exalted, made ihram in place of the sacrifice.",
-              "es": "Los Hijos de Israel, cuando ofrecían el sacrificio, salía un fuego que consumía el sacrificio de quien era aceptado; y Allah, Bendito y Exaltado, hizo del ihram en lugar del sacrificio.",
-              "fa": "بنی‌اسرائیل هنگامی که قربانی می‌کردند، آتشی بیرون می‌آمد و قربانی کسی را که قبول شده بود می‌سوزاند؛ و خداوند، مبارک و متعال، احرام را به جای قربانی قرار داد.",
-              "fr": "Les Enfants d'Israël, lorsqu'ils offraient le sacrifice, un feu sortait et consumait le sacrifice de celui dont il était accepté ; et Allah, Béni et Exalté, a fait de l'ihram à la place du sacrifice.",
-              "id": "Bani Israil, ketika mereka menyembelih kurban, api akan muncul dan memakan kurban orang yang diterima; dan Allah, Maha Berkah dan Maha Tinggi, menjadikan ihram sebagai pengganti kurban.",
-              "ru": "Дети Израиля, когда они приносили жертву, выходил огонь и сжигал жертву того, чья жертва была принята; и Аллах, Благословенный и Возвышенный, назначил ихрам вместо жертвы.",
-              "tr": "Beni İsrail, kurban sunduklarında, kabul edilen kişinin kurbanını yiyen bir ateş çıkardı; ve Allah, Mübarek ve Yüce, ihramı kurbanın yerine koydu.",
-              "ur": "بنی اسرائیل جب قربانی پیش کرتے تو ایک آگ نکلتی جو قبول شدہ قربانی کو کھا جاتی؛ اور اللہ تعالیٰ نے احرام کو قربانی کی جگہ مقرر فرمایا۔",
-              "zh": "以色列子孙献祭时，会有火焰出现，焚烧被接受者的祭品；安拉至福至高，将伊赫拉姆作为祭品的替代。"
-            },
             "word_end": 26,
             "word_start": 2
           }
@@ -64,25 +51,13 @@
           "narrators": []
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْإِحْرَامَ": "The consecrated state for hajj or 'umrah appointed in place of the former offering",
-            "الْقُرْبَانَ": "The sacrificial offering presented for divine acceptance",
-            "بَنِي إِسْرَائِيلَ": "The Children of Israel, the earlier community being referenced",
-            "قُبِلَ": "Was accepted by Allah",
-            "نَارٌ": "A fire that would consume the accepted offering"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "بَنِي إِسْرَائِيلَ",
+          "الْقُرْبَانَ",
+          "نَارٌ",
+          "قُبِلَ",
+          "الْإِحْرَامَ"
+        ],
         "related_quran": [
           {
             "ref": "3:183",
@@ -97,32 +72,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিসটি কীভাবে ইহরামকে ইসরায়েল জাতির কোরবানির বিকল্প হিসেবে ব্যাখ্যা করে?",
-          "de": "Wie erklärt dieser Hadith, dass das Ihram das Opfer der Kinder Israels ersetzt?",
-          "en": "How does this hadith explain ihram as replacing the sacrificial offering of the Children of Israel?",
-          "es": "¿Cómo explica este hadiz que el ihram reemplaza la ofrenda sacrificial de los Hijos de Israel?",
-          "fa": "این حدیث چگونه احرام را به عنوان جایگزین قربانی بنی‌اسرائیل توضیح می‌دهد؟",
-          "fr": "Comment ce hadith explique-t-il que l'ihram remplace l'offrande sacrificielle des Enfants d'Israël ?",
-          "id": "Bagaimana hadis ini menjelaskan ihram sebagai pengganti kurban Bani Israil?",
-          "ru": "Как этот хадис объясняет, что ихрам заменяет жертвоприношение детей Израиля?",
-          "tr": "Bu hadis ihramın Beni İsrail'in kurbanının yerine geçişini nasıl açıklar?",
-          "ur": "یہ حدیث احرام کو بنی اسرائیل کی قربانی کی جگہ کیسے بیان کرتی ہے؟",
-          "zh": "此圣训如何解释伊赫拉姆替代以色列子孙的祭品？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে ইসরায়েল জাতির মধ্যে কোরবানির গ্রহণযোগ্যতা তখনই প্রকাশ পেত যখন আগুন তা খেয়ে ফেলে। এরপর এটি ব্যাখ্যা করে যে আল্লাহ বরকতময় ও মহিমান্বিত এই উম্মতে ইহরামকে সেই প্রাচীন কোরবানির চিহ্নের পরিবর্তে নিয়েছেন।",
-          "de": "Dieser Hadith besagt, dass unter den Kindern Israels die Annahme eines Opfers dadurch gezeigt wurde, dass Feuer es verzehrte. Er erklärt dann, dass Allah, Gesegnet und Erhaben, das Ihram als entsprechendes Handeln in dieser Umma anstelle dieses früheren Opferzeichens eingesetzt hat.",
-          "en": "This hadith states that among the Children of Israel, acceptance of an offering was shown when fire consumed it. It then explains that Allah, Blessed and Exalted, appointed ihram as the corresponding act in this Ummah in place of that former sacrificial sign.",
-          "es": "Este hadiz indica que entre los Hijos de Israel, la aceptación de una ofrenda se mostraba cuando el fuego la consumía. Luego explica que Allah, Bendito y Exaltado, designó el ihram como el acto correspondiente en esta Ummah en lugar de esa antigua señal sacrificial.",
-          "fa": "این حدیث بیان می‌کند که در میان بنی‌اسرائیل، پذیرش قربانی زمانی نشان داده می‌شد که آتش آن را می‌سوزاند. سپس توضیح می‌دهد که خداوند، مبارک و متعال، احرام را به عنوان عمل معادل در این امت به جای آن نشانه قربانی سابق قرار داده است.",
-          "fr": "Ce hadith indique que parmi les Enfants d'Israël, l'acceptation d'une offrande se manifestait lorsque le feu la consumait. Il explique ensuite qu'Allah, Béni et Exalté, a institué l'ihram comme acte correspondant dans cette Oumma en lieu et place de ce signe sacrificiel ancien.",
-          "id": "Hadis ini menyatakan bahwa di antara Bani Israil, diterimanya suatu kurban ditandai dengan api yang memakannya. Kemudian dijelaskan bahwa Allah, Maha Berkah dan Maha Tinggi, menetapkan ihram sebagai pengganti tanda kurban tersebut dalam umat ini.",
-          "ru": "Этот хадис говорит, что среди детей Израиля принятие жертвы проявлялось, когда огонь ее сжигал. Затем объясняется, что Аллах, Благословенный и Возвышенный, назначил ихрам в этой умме вместо того прежнего жертвенного знака.",
-          "tr": "Bu hadis, Beni İsrail arasında bir kurbanın kabulünün, ateşin onu tüketmesiyle gösterildiğini belirtir. Sonra Allah, Mübarek ve Yüce'nin, bu ümmette ihramı o eski kurban işaretinin yerine tayin ettiğini açıklar.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ بنی اسرائیل میں قربانی کی قبولیت اس وقت ظاہر ہوتی تھی جب آگ اسے کھا جاتی۔ پھر یہ وضاحت کرتی ہے کہ اللہ تعالیٰ نے اس امت میں احرام کو اس سابقہ قربانی کے نشان کی جگہ مقرر فرمایا۔",
-          "zh": "此圣训说明，在以色列子孙中，祭品被火焰焚烧即表示被接受。随后解释安拉至福至高将伊赫拉姆定为本乌玛中替代那旧有祭祀标志的行为。"
-        },
         "tags": [
           "worship",
           "history",

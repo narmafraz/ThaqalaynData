@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ مَا رَوَاهُ عَلِيُّ بْنُ يَقْطِينٍ عَنْ أَبِي الْحَسَنِ الْأَوَّلِ عَلَيْهِ السَّلَامُ أَنَّهُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং যা ʿAlī ibn Yaqṭīn আবু আল-হাসান আল-আওয়াল عليه السلام থেকে বর্ণনা করেছেন, তিনি বলেছেন:",
-              "de": "Und was ʿAlī ibn Yaqṭīn von Abū al-Ḥasan al-Awwal عليه السلام überliefert hat, dass er sagte:",
-              "en": "And what ʿAlī ibn Yaqṭīn narrated from Abū al-Ḥasan al-Awwal عليه السلام, that he said:",
-              "es": "Y lo que ʿAlī ibn Yaqṭīn narró de Abū al-Ḥasan al-Awwal عليه السلام, que dijo:",
-              "fa": "و آنچه ʿAlī ibn Yaqṭīn از Abū al-Ḥasan al-Awwal علیه السلام نقل کرده است که فرمود:",
-              "fr": "Et ce que ʿAlī ibn Yaqṭīn a rapporté de Abū al-Ḥasan al-Awwal عليه السلام, qu'il a dit :",
-              "id": "Dan apa yang diriwayatkan oleh ʿAlī ibn Yaqṭīn dari Abū al-Ḥasan al-Awwal علیه السلام, bahwa beliau berkata:",
-              "ru": "И что ʿAlī ibn Yaqṭīn передал от Abū al-Ḥasan al-Awwal عليه السلام, что он сказал:",
-              "tr": "Ve ʿAlī ibn Yaqṭīn'in Abū al-Ḥasan al-Awwal'a عليه السلام'dan rivayet ettiği ki şöyle dedi:",
-              "ur": "اور جو کچھ ʿAlī ibn Yaqṭīn نے Abū al-Ḥasan al-Awwal علیہ السلام سے روایت کیا کہ انہوں نے فرمایا:",
-              "zh": "以及ʿAlīibnYaqṭīn从Abūal-Ḥasanal-Awwalعليهالسلام那里传述说："
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "«كُلُّ مَنْزِلٍ مِنْ مَنَازِلِكَ لَا تَسْتَوْطِنُهُ فَعَلَيْكَ فِيهِ التَّقْصِيرُ.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“তোমার বাসস্থানের প্রতিটি স্থান যা তুমি স্থায়ী নিবাস হিসেবে গ্রহণ করো না, সেখানে তোমার উপর সালাতকে কসরত করা واجب।”",
-              "de": "„Jede Unterkunft unter deinen Unterkünften, die du nicht als festen Wohnsitz nimmst, darauf lastet es auf dir, das Gebet dort zu verkürzen.“",
-              "en": "\"Every dwelling among your dwellings that you do not take as a permanent residence, then shortening the prayer is upon you there.\"",
-              "es": "“Cada morada entre tus moradas que no tomes como residencia permanente, entonces acortar la oración es obligatorio para ti allí.”",
-              "fa": "«هر منزلی از منازل تو که آن را به عنوان اقامتگاه دائم انتخاب نکنی، پس کوتاه کردن نماز بر تو واجب است.»",
-              "fr": "«Chaque demeure parmi tes demeures que tu ne prends pas comme résidence permanente, alors raccourcir la salat t'incombe là-bas.»",
-              "id": "“Setiap tempat tinggal di antara tempat tinggalmu yang tidak kamu jadikan tempat tinggal permanen, maka memendekkan salat atasmu di sana wajib.”",
-              "ru": "«Каждое жилище из твоих жилищ, которое ты не считаешь постоянным местом жительства, там обязанность сокращать салат лежит на тебе.»",
-              "tr": "‘‘Yerleşik bir ikametgah olarak almadığın her konutunda, orada namazı kısaltman üzerinedir.’’",
-              "ur": "‘‘آپ کے گھروں میں سے ہر وہ گھر جسے آپ مستقل رہائش کے طور پر نہیں رکھتے، وہاں نماز کو قصر کرنا آپ پر واجب ہے۔’’",
-              "zh": "“你所有住所中，凡非你常住之处，皆须在那里缩短礼拜。”"
-            },
             "word_end": 23,
             "word_start": 14
           }
@@ -92,56 +79,18 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "التَّقْصِيرُ": "shortening the prayer in travel",
-            "تَسْتَوْطِنُهُ": "you adopt it as a permanent residence",
-            "مَنَازِلِكَ": "your various dwellings or places where you stay",
-            "مَنْزِلٍ": "a dwelling or place of stay"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "مَنْزِلٍ",
+          "مَنَازِلِكَ",
+          "تَسْتَوْطِنُهُ",
+          "التَّقْصِيرُ"
+        ],
         "related_quran": [
           {
             "ref": "4:101",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যখন একজন যাত্রী যেখানে অবস্থান করছে সেখানে কখন সালাতকে কসরত করতে হবে?",
-          "de": "Wann muss ein Reisender den Salat an einem Ort, an dem er sich aufhält, verkürzen?",
-          "en": "When must a traveler shorten salat in a place where he is staying?",
-          "es": "¿Cuándo debe un viajero acortar la salat en un lugar donde se está quedando?",
-          "fa": "مسافر چه زمانی باید در مکانی که اقامت دارد، نماز را کوتاه کند؟",
-          "fr": "Quand un voyageur doit-il raccourcir la salat dans un lieu où il séjourne ?",
-          "id": "Kapan seorang musafir harus memendekkan salat di tempat ia menginap?",
-          "ru": "Когда путешественник должен сокращать салат в месте своего пребывания?",
-          "tr": "Bir yolcu, kaldığı yerde ne zaman salatı kısaltmalıdır?",
-          "ur": "مسافر کو کب اس جگہ نماز قصر کرنی چاہیے جہاں وہ ٹھہرا ہو؟",
-          "zh": "旅客在停留地何时须缩短礼拜？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি সফরের সময় সালাত সম্পর্কে শারঈ حکم প্রদান করে যে যেখানে কেউ স্থায়ী নিবাস হিসেবে বিবেচনা করে না, সেখানে সালাতকে কসরত করা ফরজ।",
-          "de": "Dieser Hadith gibt eine Rechtsvorschrift bezüglich des Salat während der Reise. Er besagt, dass in jeder Unterkunft, die eine Person nicht als festen Wohnsitz betrachtet, das Gebet dort verkürzt zu verrichten ist.",
-          "en": "This hadith gives a legal ruling concerning salat during travel. It states that in any dwelling a person does not regard as a settled residence, the ruling is to perform shortened prayer there.",
-          "es": "Este hadiz da un fallo legal sobre la salat durante el viaje. Establece que en cualquier morada que una persona no considere residencia fija, la regla es realizar la oración acortada allí.",
-          "fa": "این حدیث حکم شرعی درباره نماز در سفر را بیان می‌کند که در هر منزلی که انسان آن را اقامتگاه دائم نداند، حکم به کوتاه کردن نماز است.",
-          "fr": "Ce hadith donne un jugement légal concernant la salat en voyage. Il stipule que dans toute demeure qu'une personne ne considère pas comme résidence permanente, la règle est d'y effectuer la salat raccourcie.",
-          "id": "Hadis ini memberikan hukum tentang salat saat bepergian. Dinyatakan bahwa di setiap tempat tinggal yang tidak dianggap sebagai tempat tinggal tetap, hukum salat yang dipendekkan berlaku.",
-          "ru": "Этот хадис содержит правовое постановление относительно салата во время путешествия. В нем говорится, что в любом жилище, которое человек не считает постоянным местом жительства, следует совершать сокращённый салат.",
-          "tr": "Bu hadis, seyahat sırasında salat ile ilgili hukuki hükmü verir. Bir kişinin yerleşik olarak görmediği her konutta, orada kısaltılmış namaz kılmak hükmü vardır.",
-          "ur": "یہ حدیث سفر کے دوران نماز کے متعلق شرعی حکم بیان کرتی ہے کہ جہاں انسان مستقل رہائش نہ رکھے وہاں نماز قصر کرنا واجب ہے۔",
-          "zh": "此圣训阐明旅行中礼拜的法律规定，指出凡非视为常住之处，礼拜应缩短。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

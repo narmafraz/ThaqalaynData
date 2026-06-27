@@ -19,61 +19,35 @@
           "model": "phased_sonnet+gpt-5-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ مُحَمَّدِ بْنِ سِنَانٍ عَنِ ابْنِ مُسْكَانَ عَنْ مَنْصُورٍ الصَّيْقَلِ وَالْمُعَلَّى بْنِ خُنَيْسٍ قَالَا",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন ইয়াহইয়া, আহমদ ইবন মুহাম্মদ থেকে, মুহাম্মদ ইবন সিনান থেকে, ইবন মুসকান থেকে, মানসুর আল-সায়কাল এবং আল-মু'আল্লা ইবন খুনাইস থেকে — উভয়েই বলেছেন:",
-              "de": "Muhammad ibn Yahya, von Ahmad ibn Muhammad, von Muhammad ibn Sinan, von Ibn Muskan, von Mansur al-Sayqal und al-Mu'alla ibn Khunays — beide sagten:",
-              "en": "Muhammad ibn Yahya, from Ahmad ibn Muhammad, from Muhammad ibn Sinan, from Ibn Muskan, from Mansur al-Sayqal and al-Mu'alla ibn Khunays — both said:",
-              "es": "Muhammad ibn Yahya, de Ahmad ibn Muhammad, de Muhammad ibn Sinan, de Ibn Muskan, de Mansur al-Sayqal y al-Mu'alla ibn Khunays — ambos dijeron:",
-              "fa": "محمد بن یحیی، از احمد بن محمد، از محمد بن سنان، از ابن مسکان، از منصور الصیقل و المعلی بن خنیس — هر دو گفتند:",
-              "fr": "Muhammad ibn Yahya, d'Ahmad ibn Muhammad, de Muhammad ibn Sinan, d'Ibn Muskan, de Mansur al-Sayqal et d'al-Mu'alla ibn Khunays — tous deux ont dit :",
-              "id": "Muhammad ibn Yahya, dari Ahmad ibn Muhammad, dari Muhammad ibn Sinan, dari Ibn Muskan, dari Mansur al-Sayqal dan al-Mu'alla ibn Khunays — keduanya berkata:",
-              "ru": "Мухаммад ибн Яхья, от Ахмада ибн Мухаммада, от Мухаммада ибн Синана, от Ибн Мускана, от Мансура ас-Сайкаля и аль-Му'аллы ибн Хунайса — оба сказали:",
-              "tr": "Muhammed ibn Yahya, Ahmed ibn Muhammed'den, Muhammed ibn Sinan'dan, İbn Muskan'dan, Mansur el-Saykal ve el-Mu'alla ibn Khuneys'ten — ikisi de şöyle dedi:",
-              "ur": "محمد بن یحیی، احمد بن محمد سے، محمد بن سنان سے، ابن مسکان سے، منصور الصیقل اور المعلیٰ بن خنیس سے — دونوں نے کہا:",
-              "zh": "穆罕默德·伊本·叶海亚，传自艾哈迈德·伊本·穆罕默德，传自穆罕默德·伊本·西南，传自伊本·穆斯坎，传自曼苏尔·萨伊卡尔和穆阿拉·伊本·胡奈斯——二人都说："
-            },
             "word_end": 21,
             "word_start": 0
           },
           {
             "arabic_text": "سَمِعْنَا أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ يَقُولُ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ قَالَ اللَّهُ عَزَّ وَجَلَّ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আমরা আবু আবদিল্লাহ (আ.)-কে বলতে শুনেছি: 'রাসূলুল্লাহ (সা.) বলেছেন: \"আল্লাহ মহান ও মহিমান্বিত বলেছেন:'",
-              "de": "Wir hörten Abu Abdillah (AS) sagen: 'Rasool-Allah (SAWW) sagte: \"Allah, der Mächtige und Majestätische, sagte:'",
-              "en": "We heard Abu Abdillah (AS) saying: 'Rasool-Allah (SAWW) said: \"Allah Mighty and Majestic Said:'",
-              "es": "Oímos a Abu Abdillah (AS) decir: 'Rasool-Allah (SAWW) dijo: \"Allah, Poderoso y Majestuoso, dijo:'",
-              "fa": "از ابو عبدالله (ع) شنیدیم که می‌فرمود: «رسول‌الله (ص) فرمود: \"خداوند عزّ و جل فرمود:'",
-              "fr": "Nous avons entendu Abu Abdillah (AS) dire : « Rasool-Allah (SAWW) a dit : \"Allah, Puissant et Majestueux, a dit :",
-              "id": "Kami mendengar Abu Abdillah (AS) berkata: 'Rasool-Allah (SAWW) bersabda: \"Allah Yang Mahaperkasa dan Mahagung berfirman:'",
-              "ru": "Мы слышали, как Абу Абдуллах (АС) говорил: «Расул-Аллах (САВВ) сказал: \"Аллах, Всемогущий и Величественный, сказал:'",
-              "tr": "Ebu Abdillah'ı (AS) şöyle derken işittik: 'Resulullah (SAWW) buyurdu ki: \"Allah Azîz ve Celîl buyurdu:'",
-              "ur": "ہم نے ابو عبداللہ (علیہ السلام) کو یہ فرماتے ہوئے سنا: 'رسول اللہ (صلی اللہ علیہ وآلہ وسلم) نے فرمایا: \"اللہ عزوجل نے فرمایا:'",
-              "zh": "我们听阿布阿卜杜拉（AS）说：‘真主的使者（SAWW）说：“尊严而伟大的真主说："
-            },
             "word_end": 40,
             "word_start": 21
           },
           {
             "arabic_text": "مَا تَرَدَّدْتُ فِي شَيْءٍ أَنَا فَاعِلُهُ كَتَرَدُّدِي فِي مَوْتِ عَبْدِيَ الْمُؤْمِنِ إِنَّنِي لَأُحِبُّ لِقَاءَهُ وَيَكْرَهُ الْمَوْتَ فَأَصْرِفُهُ عَنْهُ وَإِنَّهُ لَيَدْعُونِي فَأُجِيبُهُ وَإِنَّهُ لَيَسْأَلُنِي فَأُعْطِيهِ وَلَوْ لَمْ يَكُنْ فِي الدُّنْيَا إِلَّا وَاحِدٌ مِنْ عَبِيدِي مُؤْمِنٌ لَاسْتَغْنَيْتُ بِهِ عَنْ جَمِيعِ خَلْقِي وَلَجَعَلْتُ لَهُ مِنْ إِيمَانِهِ أُنْسًا لَا يَسْتَوْحِشُ إِلَى أَحَدٍ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "‘আমি আমার মুমিন বান্দার মৃত্যু সম্পর্কে যতটা দ্বিধা করি, অন্য কোনো বিষয়ে ততটা দ্বিধা করি না। আমি তার সঙ্গে সাক্ষাৎকে ভালোবাসি, আর সে মৃত্যু অপছন্দ করে; তাই আমি তা তার থেকে বিলম্বিত করি। সে আমার কাছে দোয়া করে, আমি তাকে উত্তর দিই; আর সে আমার কাছে চায়, আমি তাকে দিই। আর যদি পৃথিবীতে আমার বান্দাদের মধ্যে একজন মুমিন ছাড়া আর কিছুই না থাকত, তবে আমি সমগ্র সৃষ্টির বদলে তাকেই যথেষ্ট করতাম, এবং তার ঈমানকে তার জন্য প্রশান্তি বানিয়ে দিতাম, যাতে সে কারও প্রতি অপরিচিতি অনুভব না করে।’",
-              "de": "‚Ich zögere bei nichts so sehr wie bei dem Tod Meines gläubigen Dieners. Ich liebe es, ihm zu begegnen, und er verabscheut den Tod; daher schiebe Ich ihn von ihm auf. Er bittet Mich, und Ich antworte ihm; er fragt Mich, und Ich gebe ihm. Und gäbe es in der Welt außer einem einzigen Gläubigen unter Meinen Dienern nichts, so würde Ich ihm gegenüber der gesamten Schöpfung genügen, und Ich würde seinen Iman für ihn zu einem Trost machen, sodass er sich niemandem gegenüber fremd fühlen würde.‘",
-              "en": "'I do not Hesitate with regards to anything I Do like I Hesitate regarding the death of My Momin servant. I Love to Meet him and he dislikes death, so I Defer it from him; and he supplicates to Me, so I Answer him, and he asks Me, so I Give him; and if there did not happen to be in the world except for one Momin from My servants, I would Suffice with him from the entirety of My creatures, and I would Make his Iman a comfort for him, so that he would not feel estranged toward anyone.'",
-              "es": "‘No vacilo respecto de nada como vacilo respecto de la muerte de Mi siervo creyente. Amo encontrarme con él y él detesta la muerte; por eso la pospongo para él. Él Me suplica y Yo le respondo; y Me pide y Yo le doy. Y si no hubiera en el mundo sino un solo creyente de Mis siervos, Yo le bastaría frente a toda Mi creación, y haría de su fe un consuelo para él, de modo que no sintiera extrañeza hacia nadie.’",
-              "fa": "«من در هیچ چیز آن‌گونه درنگ نمی‌کنم که درنگم درباره مرگ بنده مؤمنم است. من دیدار او را دوست دارم و او مرگ را ناخوش می‌دارد، پس آن را از او به تأخیر می‌اندازم؛ و او مرا می‌خواند، پس او را پاسخ می‌دهم، و از من می‌خواهد، پس به او می‌بخشم؛ و اگر در دنیا جز یک مؤمن از بندگانم نبود، او را در برابر همه آفریدگانم کافی می‌گرداندم، و ایمانش را برای او مایه آرامش قرار می‌دادم، تا نسبت به هیچ‌کس احساس بیگانگی نکند.»",
-              "fr": "«Je ne M’hésite à propos de rien autant que Je M’hésite au sujet de la mort de Mon serviteur croyant. J’aime le rencontrer et il déteste la mort ; Je la diffère donc pour lui. Il Me supplie et Je lui réponds ; il Me demande et Je lui donne. Et s’il n’y avait dans le monde qu’un seul croyant parmi Mes serviteurs, Je lui suffirais face à l’ensemble de Mes créatures, et Je ferais de sa foi une consolation pour lui, afin qu’il ne ressente d’étrangeté envers personne.»",
-              "id": "‘Aku tidak ragu terhadap sesuatu sebagaimana Aku ragu mengenai kematian hamba-Ku yang mukmin. Aku mencintai untuk bertemu dengannya, sedangkan ia membenci kematian; maka Aku menundanya darinya. Ia berdoa kepada-Ku, maka Aku mengabulkannya; dan ia meminta kepada-Ku, maka Aku memberinya. Seandainya di dunia ini tidak ada selain seorang mukmin dari hamba-hamba-Ku, niscaya Aku akan mencukupinya dari seluruh makhluk-Ku, dan Aku akan menjadikan imannya sebagai ketenteraman baginya, sehingga ia tidak merasa asing terhadap siapa pun.’",
-              "ru": "«Ни в чём Я не колеблюсь так, как в отношении смерти Моего верующего раба. Я люблю встретиться с ним, а он ненавидит смерть; поэтому Я откладываю её для него. Он взывает ко Мне, и Я отвечаю ему; он просит Меня, и Я даю ему. И если бы в мире не было никого, кроме одного верующего из Моих рабов, Я был бы ему достаточен вместо всех Моих творений, и Я сделал бы его иман утешением для него, чтобы он не чувствовал чуждости ни к кому.»",
-              "tr": "‘Ben, mümin kulumun ölümü konusunda tereddüt ettiğim kadar hiçbir şeyde tereddüt etmem. Ben onunla buluşmayı severim, o ise ölümü sevmez; bu yüzden onu ondan geri bırakırım. O Bana dua eder, Ben de ona icabet ederim; o Benden ister, Ben de ona veririm. Eğer dünyada kullarımdan bir tek mümin dışında hiçbir şey bulunmasaydı, bütün yaratılmışlarım karşısında ona yeterdim ve onun imanını kendisi için bir huzur kılardım; böylece hiçbir kimseye karşı yabancılık hissetmezdi.’",
-              "ur": "‘میں اپنے مومن بندے کی موت کے بارے میں اس طرح تردد نہیں کرتا جیسے میں تردد اپنے مومن بندے کی موت کے بارے میں کرتا ہوں۔ میں اس سے ملاقات کو پسند کرتا ہوں اور وہ موت کو ناپسند کرتا ہے، تو میں اسے اس سے مؤخر کر دیتا ہوں؛ اور وہ مجھ سے دعا کرتا ہے تو میں اسے جواب دیتا ہوں، اور وہ مجھ سے مانگتا ہے تو میں اسے عطا کرتا ہوں؛ اور اگر دنیا میں میرے بندوں میں سے ایک مومن کے سوا کچھ نہ ہوتا، تو میں اپنی تمام مخلوقات کے مقابلے میں اسی کو کافی سمجھتا، اور میں اس کے ایمان کو اس کے لیے راحت بنا دیتا، تاکہ اسے کسی کے ساتھ بھی اجنبیت محسوس نہ ہو۔’",
-              "zh": "‘在任何事情上，我都不像在我信道的仆人的死亡问题上那样迟疑。我喜爱与他相会，而他厌恶死亡；所以我将它从他那里延缓。他向我祈祷，我便应答他；他向我请求，我便赐予他。若在世上除我众仆中的一位信士外别无他物，我必以他足以替代我全部的造物，并使他的信仰成为他的安慰，以致他对任何人都不会感到陌生。’"
-            },
             "word_end": 88,
             "word_start": 40
           }
@@ -157,27 +131,15 @@
             "phrase_en": "The Messenger of Allah said"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أُنْسًا": "comfort/intimacy — the spiritual companionship and sense of peace that Allah instills in the Momin directly from their own iman",
-            "تَرَدَّدْتُ": "I hesitated/wavered — a divine expression denoting the utmost solicitude Allah bears for the death of His believing servant, not implying doubt but supreme care",
-            "عَبْدِيَ الْمُؤْمِنِ": "My Momin servant — the believing slave whose faith establishes a unique and cherished bond with Allah",
-            "فَأَصْرِفُهُ": "so I defer/avert it — Allah's act of postponing death out of regard for the servant's aversion to it, demonstrating divine mercy",
-            "لَاسْتَغْنَيْتُ": "I would suffice/be content — Allah's declaration of self-sufficiency through even a single true believer, affirming the immense worth of iman in His sight",
-            "لِقَاءَهُ": "his meeting — the encounter of the Momin servant with Allah, which Allah loves and which constitutes the spiritual reality of death for the believer",
-            "يَسْتَوْحِشُ": "feels estranged/lonely — to experience desolation or a yearning need for other than Allah, which the Momin's iman-derived intimacy entirely negates"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "تَرَدَّدْتُ",
+          "لِقَاءَهُ",
+          "عَبْدِيَ الْمُؤْمِنِ",
+          "فَأَصْرِفُهُ",
+          "لَاسْتَغْنَيْتُ",
+          "أُنْسًا",
+          "يَسْتَوْحِشُ"
+        ],
         "related_quran": [
           {
             "ref": "2:186",
@@ -192,32 +154,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হাদিসে কুদসিতে আল্লাহ মুমিন বান্দা ও তাদের মৃত্যু সম্পর্কে কী বলেন?",
-          "de": "Was sagt Allah im Hadith qudsi über Seine Liebe zum gläubigen Diener und dessen Tod?",
-          "en": "What does Allah say in hadith qudsi about His love for the believing servant and their death?",
-          "es": "¿Qué dice Allah en el hadiz qudsi sobre Su amor por el siervo creyente y su muerte?",
-          "fa": "خداوند در حدیث قدسی درباره بنده مؤمن و مرگ او چه می‌فرماید؟",
-          "fr": "Que dit Allah dans le hadith qudsi au sujet de Son amour pour le serviteur croyant et de sa mort ?",
-          "id": "Apa yang Allah firmankan dalam hadis qudsi tentang cinta-Nya kepada hamba mukmin dan kematian mereka?",
-          "ru": "Что говорит Аллах в хадисе кудси о Своей любви к верующему рабу и о его смерти?",
-          "tr": "Allah hadîs-i kudsîde mümin kula ve onun ölümüne dair ne buyurur?",
-          "ur": "حدیث قدسی میں اللہ اپنے مومن بندے اور اس کی موت کے بارے میں کیا فرماتا ہے؟",
-          "zh": "真主在圣训古都斯中关于祂对信士仆人的爱以及他们的死亡说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে কুদসি মুমিন বান্দার প্রতি আল্লাহর একক অনুগ্রহ বর্ণিত হয়েছে: তাদের মৃত্যুর বিষয়ে তাঁর ‘দ্বিধা’, তাঁর সঙ্গে সাক্ষাতের ভালোবাসা থেকে, তাদের দোয়ার অব্যর্থ জবাব, এবং এই ঘোষণা যে একজন সত্যিকারের মুমিনই সমগ্র সৃষ্টির বদলে যথেষ্ট।",
-          "de": "Dieser Hadith qudsi beschreibt Allahs einzigartige Zuwendung zu Seinem gläubigen Diener: Sein „Zögern“ hinsichtlich seines Todes, geboren aus Seiner Liebe zur Begegnung mit ihm, Seine unfehlbare Antwort auf seine Bittgebete und Seine Erklärung, dass ein einziger wahrer Gläubiger Ihm gegenüber der gesamten Schöpfung genügt.",
-          "en": "This hadith qudsi, transmitted through Imam al-Sadiq (AS) from the Prophet (SAWW), articulates Allah's singular regard for the Momin servant: His 'hesitation' over their death — born of His love for their encounter with Him — His unfailing response to their supplications, and His declaration that one true believer would suffice Him from all creation. It culminates in Allah's promise to bestow upon the Momin such intimacy from their own iman that they experience no loneliness or yearning toward any other being.",
-          "es": "Este hadiz qudsi expone la consideración singular de Allah hacia el siervo creyente: Su 'vacilación' respecto de su muerte, nacida de Su amor por encontrarse con él, Su respuesta infalible a sus súplicas, y Su declaración de que un solo creyente verdadero le basta frente a toda la creación.",
-          "fa": "این حدیث قدسی، توجه یگانه خداوند به بنده مؤمن را بیان می‌کند: «درنگ» او درباره مرگشان، از سرِ محبت به دیدارشان، پاسخ بی‌پایانش به دعاهایشان، و این‌که یک مؤمن راستین برای همه آفریدگان کافی است.",
-          "fr": "Ce hadith qudsi expose l’attention singulière d’Allah envers le serviteur croyant : Son « hésitation » au sujet de sa mort, née de Son amour pour la rencontre avec lui, Sa réponse infaillible à ses invocations, et Sa déclaration qu’un seul croyant sincère Lui suffit face à toute la création.",
-          "id": "Hadis qudsi ini menjelaskan perhatian tunggal Allah kepada hamba mukmin: 'keraguan'-Nya tentang kematian mereka, karena cinta-Nya untuk bertemu dengan mereka, jawaban-Nya yang tak pernah gagal atas doa-doa mereka, dan pernyataan-Nya bahwa satu mukmin sejati sudah cukup bagi-Nya dari seluruh makhluk.",
-          "ru": "Этот хадис кудси раскрывает особое отношение Аллаха к верующему рабу: Его «колебание» относительно его смерти, рожденное Его любовью к встрече с ним, Его неизменный ответ на его мольбы и Его заявление о том, что один истинный верующий достаточен Ему вместо всего творения.",
-          "tr": "Bu hadis-i kudsî, Allah'ın mümin kula yönelik eşsiz ilgisini anlatır: onun ölümü konusundaki 'tereddüdü', onunla buluşmayı sevmesi, dualarına karşılık vermesi ve tek bir gerçek müminin bütün yaratılmışlara bedel yeterli oluşu.",
-          "ur": "یہ حدیث قدسی اللہ تعالیٰ کی اپنے مومن بندے سے خاص محبت کو بیان کرتی ہے: اس کی موت کے بارے میں اللہ کا تردد، اس سے ملاقات کی محبت، اس کی دعا کا جواب، اور یہ کہ ایک سچا مومن تمام مخلوق کے مقابلے میں کافی ہے۔",
-          "zh": "这段圣训古都斯阐明了真主对信士仆人的独特眷顾：祂对其死亡的“迟疑”源于祂喜爱与其相会，祂对其祈祷的必然回应，以及祂宣告一个真正的信士便足以替代整个造物。"
-        },
         "tags": [
           "theology",
           "prophetic_tradition",

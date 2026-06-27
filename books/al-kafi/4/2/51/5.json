@@ -13,6 +13,131 @@
       "up": "/books/al-kafi:4:2:51"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ سَهْلِ بْنِ زِيَادٍ عَنْ عَلِيِّ بْنِ بِلَالٍ عَنِ الْحَسَنِ بْنِ بَسَّامٍ الْجَمَّالِ عَنْ رَجُلٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 19,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "كُنْتُ مَعَ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) فِيمَا بَيْنَ مَكَّةَ مَكَّةَ وَ الْمَدِينَةِ فِي شَعْبَانَ وَ هُوَ صَائِمٌ ثُمَّ رَأَيْنَا هِلَالَ شَهْرِ رَمَضَانَ فَأَفْطَرَ فَقُلْتُ لَهُ جُعِلْتُ فِدَاكَ أَمْسِ كَانَ عَنْ شَعْبَانَ وَ أَنْتَ صَائِمٌ وَ الْيَوْمُ مِنْ شَهْرِ رَمَضَانَ وَ أَنْتَ مُفْطِرٌ فَقَالَ إِنَّ ذَاكَ تَطَوُّعٌ وَ لَنَا أَنْ نَفْعَلَ مَا شِئْنَا وَ هَذَا فَرْضٌ فَلَيْسَ لَنَا أَنْ نَفْعَلَ إِلَّا مَا أُمِرْنَا .",
+            "chunk_type": "body",
+            "word_end": 85,
+            "word_start": 19
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 8,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "سَهْلِ بْنِ زِيَادٍ",
+              "name_en": "Sahl ibn Ziyad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 799,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ بِلَالٍ",
+              "name_en": "Ali b. Bilal",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1331,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحَسَنِ بْنِ بَسَّامٍ الْجَمَّالِ",
+              "name_en": "al-Hasan b. Bassam al-Jammal",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 60,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "رَجُلٍ",
+              "name_en": "a man",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "شَعْبَانَ",
+          "رَمَضَانَ",
+          "صَائِمٌ",
+          "أَفْطَرَ",
+          "تَطَوُّعٌ",
+          "فَرْضٌ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:185",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:184",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "worship"
+        ],
+        "topics": [
+          "fasting",
+          "fasting_rulings",
+          "imams_biography"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6/333)"
       ],
@@ -84,7 +209,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:4:2:51:5",

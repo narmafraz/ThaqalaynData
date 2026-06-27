@@ -14,6 +14,126 @@
       "up": "/books/al-kafi:3:4:60"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنِ الْعَمْرَكِيِّ عَنْ عَلِيِّ بْنِ جَعْفَرٍ عَنْ أَخِيهِ أَبِي الْحَسَنِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 18,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُهُ عَنْ رَجُلٍ صَلَّى وَ فِي كُمِّهِ طَائِرٌ فِي كُمِّهِ قَالَ إِنْ خَافَ الذَّهَابَ عَلَيْهِ فَلَا بَأْسَ",
+            "chunk_type": "body",
+            "word_end": 35,
+            "word_start": 18
+          },
+          {
+            "arabic_text": "قَالَ وَ سَأَلْتُهُ عَنِ الْخَلَاخِلِ هَلْ يَصْلُحُ لِلنِّسَاءِ وَ الصِّبْيَانِ لُبْسُهَا فَقَالَ إِذَا كَانَتْ صَمَّاءَ فَلَا بَأْسَ وَ إِنْ كَانَتْ لَهَا صَوْتٌ فَلَا",
+            "chunk_type": "body",
+            "word_end": 58,
+            "word_start": 35
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 627,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْعَمْرَكِيِّ",
+              "name_en": "al-Amiri",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 136,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ جَعْفَرٍ",
+              "name_en": "Ali ibn Ja'far",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 276,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَخِيهِ أَبِي الْحَسَنِ ( عليه السلام )",
+              "name_en": "Akhihi Abi al-Hasan",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "طَائِرٌ",
+          "كُمِّهِ",
+          "الْخَلَاخِلِ",
+          "صَمَّاءَ",
+          "صَوْتٌ"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:31",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:286",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "worship"
+        ],
+        "topics": [
+          "salat",
+          "prayer_rulings",
+          "ritual_purity"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> صحيح  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (5/322)"
       ],
@@ -84,7 +204,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:4:60:33",

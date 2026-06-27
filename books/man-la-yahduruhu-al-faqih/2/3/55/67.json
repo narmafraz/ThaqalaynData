@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ فِي رِوَايَةِ عَاصِمِ بْنِ حُمَيْدٍ عَنْ أَبِي بَصِيرٍ قَالَ سَمِعْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ يَقُولُ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আর ʿĀṣim ibn Ḥumayd-এর বর্ণনায়, আবু বসীর থেকে, তিনি বললেন: আমি আবু ʿআব্দিল্লাহ عليه السلام-কে বলতে শুনেছি:",
-              "de": "Und in der Überlieferung von ʿĀṣim ibn Ḥumayd von Abū Baṣīr sagte er: Ich hörte Abū ʿAbdillāh عليه السلام sagen:",
-              "en": "And in the narration of ʿĀṣim ibn Ḥumayd, from Abū Baṣīr, he said: I heard Abū ʿAbdillāh عليه السلام say:",
-              "es": "Y en la narración de ʿĀṣim ibn Ḥumayd, de Abū Baṣīr, dijo: Escuché a Abū ʿAbdillāh عليه السلام decir:",
-              "fa": "و در روایت ʿĀṣim ibn Ḥumayd از ابوبصیر، گفت: شنیدم ابوعبدالله علیه السلام می‌فرمود:",
-              "fr": "Et dans la narration de ʿĀṣim ibn Ḥumayd, d'Abū Baṣīr, il a dit : J'ai entendu Abū ʿAbdillāh عليه السلام dire :",
-              "id": "Dan dalam riwayat ʿĀṣim ibn Ḥumayd dari Abū Baṣīr, dia berkata: Aku mendengar Abū ʿAbdillāh علیه السلام berkata:",
-              "ru": "И в передаче ʿĀṣim ибн Ḥumayd от Абū Баṣīр он сказал: Я слышал, как Абū ʿАбдиллах عليه السلام сказал:",
-              "tr": "Ve ʿĀṣim ibn Ḥumayd'in rivayetinde, Ebū Baṣīr'den, şöyle dedi: Ebū ʿAbdillāh عليه السلام'i şöyle derken duydum:",
-              "ur": "اور عاصم بن حمید کی روایت میں، ابو بصیر سے، انہوں نے کہا: میں نے ابو عبداللہ علیہ السلام کو کہتے سنا:",
-              "zh": "在ʿĀṣimibnḤumayd从AbūBaṣīr的传述中，他说：我听见AbūʿAbdillāh عليه السلام说："
-            },
             "word_end": 17,
             "word_start": 0
           },
           {
             "arabic_text": "«الْمُحْرِمُ يُطَلِّقُ وَ لَا يَتَزَوَّجُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "“মুহরিম তালাক দিতে পারে, কিন্তু বিয়ে করতে পারে না।”",
-              "de": "„Der Muhrim darf die Scheidung aussprechen, aber er darf nicht heiraten.“",
-              "en": "\"The muhrim may pronounce divorce, but he may not marry.\"",
-              "es": "“El muhrim puede pronunciar el divorcio, pero no puede casarse.”",
-              "fa": "«محرم می‌تواند طلاق دهد، اما نمی‌تواند ازدواج کند.»",
-              "fr": "«Le muhrim peut prononcer le divorce, mais il ne peut pas se marier.»",
-              "id": "“Muhrim boleh mengucapkan talak, tetapi tidak boleh menikah.”",
-              "ru": "«Мухрим может произносить развод, но не может вступать в брак.»",
-              "tr": "“Muhrim boşama yapabilir, ancak evlenemez.”",
-              "ur": "‘‘محرم طلاق دے سکتا ہے، لیکن شادی نہیں کر سکتا۔’’",
-              "zh": "“穆赫里姆可以宣布离婚，但不得结婚。”"
-            },
             "word_end": 22,
             "word_start": 17
           }
@@ -81,58 +68,20 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبَا عَبْدِ اللَّهِ": "Imam Jaʿfar al-Ṣādiq عليه السلام",
-            "أَبِي بَصِيرٍ": "the narrator Abū Baṣīr",
-            "الْمُحْرِمُ": "a person in the state of ihram for hajj or ʿumrah",
-            "رِوَايَةِ": "a transmitted narration",
-            "يَتَزَوَّجُ": "contracts a marriage",
-            "يُطَلِّقُ": "pronounces divorce"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رِوَايَةِ",
+          "أَبِي بَصِيرٍ",
+          "أَبَا عَبْدِ اللَّهِ",
+          "الْمُحْرِمُ",
+          "يُطَلِّقُ",
+          "يَتَزَوَّجُ"
+        ],
         "related_quran": [
           {
             "ref": "2:197",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইহরামের অবস্থায় একজন ব্যক্তি কি তালাক দিতে পারে বা বিয়ে করতে পারে?",
-          "de": "Kann eine Person im Zustand des Ihram die Scheidung aussprechen oder eine Ehe eingehen?",
-          "en": "Can a person in the state of ihram pronounce divorce or contract a marriage?",
-          "es": "¿Puede una persona en estado de ihram pronunciar el divorcio o contraer matrimonio?",
-          "fa": "آیا شخص در حالت احرام می‌تواند طلاق دهد یا ازدواج کند؟",
-          "fr": "Une personne en état d'ihram peut-elle prononcer le divorce ou contracter un mariage ?",
-          "id": "Apakah seseorang dalam keadaan ihram boleh mengucapkan talak atau menikah?",
-          "ru": "Может ли человек в состоянии ихрам произносить развод или заключать брак?",
-          "tr": "İhram halinde bir kişi boşama yapabilir mi yoksa evlenebilir mi?",
-          "ur": "کیا محرم کی حالت میں شخص طلاق دے سکتا ہے یا شادی کر سکتا ہے؟",
-          "zh": "处于朝觐状态的人可以宣布离婚或缔结婚姻吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ইহরামের অবস্থায় ব্যক্তির সম্পর্কে শারঈ বিধান প্রদান করে। এটি বলে যে মুহরিম তালাক দিতে পারে, কিন্তু ইহরামের অবস্থায় বিয়ে করা অনুমোদিত নয়।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung für die Person im Zustand des Ihram. Er besagt, dass ein Muhrim zwar die Scheidung aussprechen darf, aber während des Ihram-Zustands keine Ehe eingehen darf.",
-          "en": "This hadith gives a legal ruling concerning the person in ihram. It states that while a muhrim may issue a divorce, entering into marriage is not permitted during the state of ihram.",
-          "es": "Este hadiz da un fallo legal sobre la persona en estado de ihram. Indica que mientras un muhrim puede emitir un divorcio, no se permite contraer matrimonio durante el estado de ihram.",
-          "fa": "این حدیث حکم شرعی مربوط به شخص در حالت احرام را بیان می‌کند. بیان می‌دارد که محرم می‌تواند طلاق دهد اما ازدواج در حالت احرام جایز نیست.",
-          "fr": "Ce hadith donne un jugement légal concernant la personne en état d'ihram. Il indique que bien qu'un muhrim puisse prononcer le divorce, le mariage n'est pas permis pendant l'état d'ihram.",
-          "id": "Hadis ini memberikan hukum terkait orang yang dalam keadaan ihram. Disebutkan bahwa muhrim boleh mengucapkan talak, tetapi menikah tidak diperbolehkan selama ihram.",
-          "ru": "Этот хадис даёт правовое постановление относительно человека в состоянии ихрам. В нём говорится, что мухрим может произносить развод, но вступать в брак во время ихрама не разрешается.",
-          "tr": "Bu hadis, ihram halindeki kişi hakkında hukuki hükmü verir. Muhrim boşama yapabilir, ancak ihram halinde evlenmek yasaktır.",
-          "ur": "یہ حدیث محرم کی حالت میں شخص کے بارے میں شرعی حکم بیان کرتی ہے کہ محرم طلاق دے سکتا ہے لیکن محرم کی حالت میں شادی کرنا جائز نہیں ہے۔",
-          "zh": "这段圣训对处于朝觐状态的人给出了法律裁决。指出穆赫里姆可以宣布离婚，但在朝觐状态期间不允许结婚。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

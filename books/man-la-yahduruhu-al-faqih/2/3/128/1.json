@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رَوَى مُعَاوِيَةُ بْنُ عَمَّارٍ وَعَبْدُ الرَّحْمَنِ بْنُ الْحَجَّاجِ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মু'আউইয়াহ ইবনে 'অম্মার এবং 'আব্দুর রহমান ইবনে আল-হজ্জাজ আবু 'আব্দিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Mu'āwiyah ibn 'Ammār und 'Abd al-Raḥmān ibn al-Ḥajjāj berichteten von Abū 'Abdillāh عليه السلام, der sagte:",
-              "en": "Mu'āwiyah ibn 'Ammār and 'Abd al-Raḥmān ibn al-Ḥajjāj narrated from Abū 'Abdillāh عليه السلام, who said:",
-              "es": "Mu'āwiyah ibn 'Ammār y 'Abd al-Raḥmān ibn al-Ḥajjāj narraron de Abū 'Abdillāh عليه السلام, quien dijo:",
-              "fa": "معاویه بن عمار و عبد الرحمن بن الحجاج از ابی عبدالله علیه السلام روایت کردند که فرمود:",
-              "fr": "Mu'āwiyah ibn 'Ammār et 'Abd al-Raḥmān ibn al-Ḥajjāj ont rapporté d'Abū 'Abdillāh عليه السلام, qui a dit :",
-              "id": "Mu'āwiyah ibn 'Ammār dan 'Abd al-Raḥmān ibn al-Ḥajjāj meriwayat dari Abū 'Abdillāh علیه السلام, yang berkata:",
-              "ru": "Му‘авия ибн ‘Аммар и ‘Абд ар-Рахман ибн аль-Хаджжадж передали от Абу ‘Абдиллаха عليه السلام, который сказал:",
-              "tr": "Mu'âviyah ibn 'Ammâr ve 'Abd al-Rahmân ibn al-Haccâc, Ebu Abdillah عليه السلام'dan rivayet ettiler, şöyle dedi:",
-              "ur": "معاویہ بن عمار اور عبد الرحمن بن الحجاج نے ابو عبداللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "穆阿维叶伊本阿玛尔和阿卜杜勒拉赫曼伊本哈贾贾布阿卜杜拉赫 عليه السلام传述说："
-            },
             "word_end": 15,
             "word_start": 0
           },
           {
             "arabic_text": "الْكَسِيرُ وَالْمَبْطُونُ يُرْمَى عَنْهُمَا قَالَ وَالصِّبْيَانُ يُرْمَى عَنْهُمْ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আহত ব্যক্তি এবং পেটের অসুস্থতায় ভুগছেন তাদের পক্ষ থেকে রমী করা হয়। তিনি বললেন: এবং শিশুদের পক্ষ থেকেও রমী করা হয়।",
-              "de": "Die verletzte Person und diejenige mit einer Bauchkrankheit sollen stellvertretend für sie gesteinigt werden. Er sagte: und für die Kinder wird ebenfalls stellvertretend gesteinigt.",
-              "en": "The injured person and the one suffering from an abdominal illness are to have the stoning performed on their behalf. He said: and the children, the stoning is performed on their behalf.",
-              "es": "La persona herida y la que sufre de una enfermedad abdominal deben tener la lapidación realizada en su nombre. Él dijo: y para los niños, la lapidación se realiza en su nombre.",
-              "fa": "آسیب‌دیده و بیمار شکمی به نمایندگی از آنها رمی انجام می‌شود. فرمود: و برای کودکان نیز رمی انجام می‌شود.",
-              "fr": "La personne blessée et celle souffrant d'une maladie abdominale doivent avoir la lapidation effectuée en leur nom. Il a dit : et pour les enfants, la lapidation est également effectuée en leur nom.",
-              "id": "Orang yang terluka dan yang menderita penyakit perut harus dilakukan lemparan (ramy) atas nama mereka. Beliau berkata: dan anak-anak juga dilakukan lemparan atas nama mereka.",
-              "ru": "Раненому и страдающему от болезни живота должна быть совершена камлание (стихание камнями) от их имени. Он сказал: и за детей также совершается камлание.",
-              "tr": "Yaralı ve karın hastalığı çeken kişi adına taşlama yapılır. Dedi ki: ve çocuklar adına da taşlama yapılır.",
-              "ur": "زخمی اور پیٹ کی بیماری میں مبتلا شخص کی طرف سے رمی کی جائے۔ انہوں نے فرمایا: اور بچوں کی طرف سے بھی رمی کی جاتی ہے۔",
-              "zh": "受伤者和患腹病者应代为进行掷石。他说：儿童也应代为掷石。"
-            },
             "word_end": 23,
             "word_start": 15
           }
@@ -100,25 +87,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الصِّبْيَانُ": "children",
-            "الْكَسِيرُ": "the injured person, one physically harmed or incapacitated",
-            "الْمَبْطُونُ": "a person suffering from an abdominal illness",
-            "عَنْهُمَا": "on behalf of those two categories",
-            "يُرْمَى": "the stoning rite is carried out"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْكَسِيرُ",
+          "الْمَبْطُونُ",
+          "يُرْمَى",
+          "عَنْهُمَا",
+          "الصِّبْيَانُ"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
@@ -129,32 +104,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হজের সময় কি অসুস্থ বা শিশুদের পক্ষ থেকে জামরাতের রমী করা যেতে পারে?",
-          "de": "Kann die Steinigung der Jamarat während der Hajj im Namen von Kranken oder Kindern durchgeführt werden?",
-          "en": "Can the Jamarat be stoned on behalf of the sick or children during hajj?",
-          "es": "¿Se puede realizar la lapidación de los Jamarat en nombre de los enfermos o niños durante el hajj?",
-          "fa": "آیا در حج می‌توان به نمایندگی از بیماران یا کودکان جمرات را رمی کرد؟",
-          "fr": "Peut-on effectuer la lapidation des Jamarat au nom des malades ou des enfants pendant le hajj ?",
-          "id": "Apakah Jamarat dapat dilemparkan atas nama orang sakit atau anak-anak selama haji?",
-          "ru": "Можно ли совершать камлание Джамарат от имени больных или детей во время хаджа?",
-          "tr": "Hac sırasında hasta veya çocuklar adına Jamarat taşlanabilir mi?",
-          "ur": "کیا حج کے دوران بیمار یا بچوں کی طرف سے جمرات کی رمی کی جا سکتی ہے؟",
-          "zh": "朝觐期间可以代替病人或儿童掷石吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি তাদের জন্য হজের রীতিনীতি সম্পর্কে একটি শারঈ বিধান প্রদান করে যারা নিজে রমী করতে সক্ষম নয়। আহত, পেটের অসুস্থ এবং শিশুদের পক্ষ থেকে জামরাতের রমী করা যেতে পারে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bezüglich der Hajj-Riten für diejenigen, die das Ramy nicht selbst durchführen können. Er besagt, dass Verletzte, Bauchkranke und Kinder stellvertretend für sie die Steinigung der Jamarat durchführen lassen können.",
-          "en": "This hadith gives a legal ruling concerning the rites of hajj for those unable to perform the ramy themselves. It states that the injured, the sick with abdominal illness, and children may have the stoning of the Jamarat carried out on their behalf.",
-          "es": "Este hadiz da un fallo legal sobre los ritos del hajj para quienes no pueden realizar el ramy por sí mismos. Indica que los heridos, los enfermos con dolencias abdominales y los niños pueden tener la lapidación de los Jamarat realizada en su nombre.",
-          "fa": "این حدیث حکم شرعی درباره مناسک حج برای کسانی که خود نمی‌توانند رمی انجام دهند بیان می‌کند. آسیب‌دیدگان، بیماران شکمی و کودکان می‌توانند به نمایندگی از آنها رمی جمرات انجام شود.",
-          "fr": "Ce hadith donne un jugement légal concernant les rites du hajj pour ceux qui ne peuvent pas effectuer le ramy eux-mêmes. Il stipule que les blessés, les malades souffrant de maladies abdominales et les enfants peuvent faire effectuer la lapidation des Jamarat en leur nom.",
-          "id": "Hadis ini memberikan ketentuan hukum mengenai ibadah haji bagi mereka yang tidak dapat melakukan ramy sendiri. Orang yang terluka, sakit perut, dan anak-anak dapat dilakukan lemparan Jamarat atas nama mereka.",
-          "ru": "Этот хадис содержит правовое постановление относительно обрядов хаджа для тех, кто не может совершать камлание самостоятельно. Указывается, что раненые, больные с заболеваниями живота и дети могут иметь камлание Джамарат, совершённое за них.",
-          "tr": "Bu hadis, ramy'i kendileri yapamayanlar için hac ibadetine dair hukuki bir hüküm verir. Yaralılar, karın hastalığı olanlar ve çocuklar adına Jamarat taşlaması yapılabilir.",
-          "ur": "یہ حدیث حج کے مناسک کے بارے میں ایک شرعی حکم بیان کرتی ہے کہ جو لوگ خود رمی نہیں کر سکتے، ان کے لیے زخمی، پیٹ کی بیماری میں مبتلا اور بچے ان کی طرف سے رمی کی جا سکتی ہے۔",
-          "zh": "此圣训就无法亲自掷石者的朝觐仪式给出法律裁决，指出受伤者、腹病患者和儿童可由他人代为掷石。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

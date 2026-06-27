@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ مُحَمَّدِ بْنِ سِنَانٍ عَنِ ابْنِ مُسْكَانَ عَنْ يَزِيدَ بْنِ فَرْقَدٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তার কাছ থেকে, মুহাম্মদ ইবন সিনান থেকে, ইবন মুসকান থেকে, ইয়াযীদ ইবন ফারকাদ থেকে, যিনি বলেছেন:",
-              "de": "Von ihm, von Muḥammad ibn Sinān, von Ibn Muskān, von Yazīd ibn Farqad, der sagte:",
-              "en": "From him, from Muḥammad ibn Sinān, from Ibn Muskān, from Yazīd ibn Farqad, who said:",
-              "es": "De él, de Muḥammad ibn Sinān, de Ibn Muskān, de Yazīd ibn Farqad, quien dijo:",
-              "fa": "از او، از محمد بن سنان، از ابن مسکان، از یزید بن فرقد، که گفت:",
-              "fr": "De lui, de Muḥammad ibn Sinān, d’Ibn Muskān, de Yazīd ibn Farqad, qui a dit :",
-              "id": "Darinya, dari Muhammad ibn Sinan, dari Ibn Muskān, dari Yazid ibn Farqad, yang berkata:",
-              "ru": "От него, от Мухаммада ибн Синана, от Ибн Мускана, от Язида ибн Фаркада, который сказал:",
-              "tr": "Ondan, Muhammed ibn Sinan’dan, İbn Miskân’dan, Yezîd ibn Farqad’dan, o da şöyle dedi:",
-              "ur": "ان سے، محمد بن سنان سے، ابن مسکان سے، یزید بن فرقد سے، جنہوں نے کہا:",
-              "zh": "由他传述，来自穆罕默德·伊本·西南，来自伊本·穆斯坎，来自亚齐德·伊本·法尔卡德，他说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "قُلْتُ لِأَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ: عَلَى الْمُحْتَاجِ صَدَقَةُ الْفِطْرَةِ؟ فَقَالَ: لَا.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবী ʿআবদিল্লাহ عليه السلام-কে বললাম: মিসকিন ব্যক্তির ওপর কি সদাকাতুল ফিতর আবশ্যক? তিনি বললেন: না।",
-              "de": "Ich sagte zu Abī ʿAbdillāh عليه السلام: Ist die sadaqat al-fitrah für die bedürftige Person verpflichtend? Er sagte: Nein.",
-              "en": "I said to Abī ʿAbdillāh عليه السلام: Is sadaqat al-fitrah due upon the needy person? He said: No.",
-              "es": "Le dije a Abī ʿAbdillāh عليه السلام: ¿Acaso la sadaqat al-fitrah es obligatoria para la persona necesitada? Dijo: No.",
-              "fa": "به ابی‌عبدالله علیه السلام گفتم: آیا صدقه فطر بر نیازمند واجب است؟ فرمود: نه.",
-              "fr": "Je dis à Abī ʿAbdillāh عليه السلام : La sadaqat al-fitrah est-elle due par la personne dans le besoin ? Il dit : Non.",
-              "id": "Aku berkata kepada Abī ʿAbdillāh عليه السلام: Apakah sadaqat al-fitrah wajib atas orang yang membutuhkan? Beliau bersabda: Tidak.",
-              "ru": "Я сказал Аби ʿАбдуллаху عليه السلام: Обязательна ли садакат аль-фитра для нуждающегося? Он сказал: Нет.",
-              "tr": "Ebî Abdillâh’a عليه السلام şöyle dedim: Sadakatü’l-fıtra muhtaç kişiye vacip midir? Buyurdu ki: Hayır.",
-              "ur": "میں نے ابی عبد اللہ علیہ السلام سے کہا: کیا محتاج شخص پر صدقۃ الفطر واجب ہے؟ انہوں نے فرمایا: نہیں۔",
-              "zh": "我对阿比·阿卜杜拉 عليه السلام说：施舍开斋捐是否对贫困者有义务？他说：没有。"
-            },
             "word_end": 25,
             "word_start": 13
           }
@@ -84,24 +71,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْفِطْرَةِ": "the alms of fiṭrah given at the end of Ramadan",
-            "الْمُحْتَاجِ": "the needy person, one in financial need",
-            "صَدَقَةُ": "charitable due; here, the obligatory alms",
-            "لَا": "a direct negation indicating non-obligation"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمُحْتَاجِ",
+          "صَدَقَةُ",
+          "الْفِطْرَةِ",
+          "لَا"
+        ],
         "related_quran": [
           {
             "ref": "2:286",
@@ -112,32 +87,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে কি মিসকিন ব্যক্তির ওপর সদাকাতুল ফিতর আবশ্যক?",
-          "de": "Ist die sadaqat al-fitrah im schiitischen Hadith für die bedürftige Person verpflichtend?",
-          "en": "Is sadaqat al-fitrah obligatory on a needy person in Shia hadith?",
-          "es": "¿Es obligatoria la sadaqat al-fitrah para la persona necesitada en el hadiz chií?",
-          "fa": "آیا در حدیث شیعه صدقه فطر بر شخص نیازمند واجب است؟",
-          "fr": "La sadaqat al-fitrah est-elle obligatoire pour la personne dans le besoin dans le hadith chiite ?",
-          "id": "Apakah sadaqat al-fitrah wajib atas orang yang membutuhkan dalam hadis Syiah?",
-          "ru": "Обязательна ли садакат аль-фитра для нуждающегося человека в шиитском хадисе?",
-          "tr": "Şii hadiste sadakatü’l-fıtra muhtaç kişiye vacip midir?",
-          "ur": "کیا شیعہ حدیث میں محتاج شخص پر صدقۃ الفطر واجب ہے؟",
-          "zh": "在什叶派圣训中，施舍开斋捐对贫困者是义务吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে একটি শরঈ বিধান বর্ণিত হয়েছে যে, মিসকিন ব্যক্তির ওপর সদাকাতুল ফিতর আবশ্যক নয়। এতে বোঝা যায় যে, এই আর্থিক ইবাদতটি অভাবী বা দরিদ্র ব্যক্তির ওপর থেকে ساقط হয়ে যায়।",
-          "de": "Dieser Hadith nennt eine rechtliche Bestimmung: Die sadaqat al-fitrah ist für die bedürftige Person nicht verpflichtend. Er zeigt, dass diese finanzielle Form der Anbetung von jemandem, der in Not oder Armut ist, aufgehoben ist.",
-          "en": "This hadith states a legal ruling that sadaqat al-fitrah is not obligatory upon a needy person. It indicates that this financial act of worship is waived from one who is in need or poverty.",
-          "es": "Este hadiz establece una norma jurídica: la sadaqat al-fitrah no es obligatoria para la persona necesitada. Indica que este acto de adoración financiera queda exento para quien está en necesidad o pobreza.",
-          "fa": "این حدیث حکمی فقهی را بیان می‌کند که صدقه فطر بر شخص نیازمند واجب نیست. این نشان می‌دهد که این عبادت مالی از کسی که در نیاز یا فقر است برداشته می‌شود.",
-          "fr": "Ce hadith énonce une règle juridique selon laquelle la sadaqat al-fitrah n’est pas obligatoire pour la personne dans le besoin. Il indique que cet acte d’adoration financière est levé pour celui qui est dans le besoin ou la pauvreté.",
-          "id": "Hadis ini menyatakan sebuah hukum fikih bahwa sadaqat al-fitrah tidak wajib atas orang yang membutuhkan. Ini menunjukkan bahwa ibadah مالی ini gugur dari orang yang berada dalam kebutuhan atau kemiskinan.",
-          "ru": "Этот хадис устанавливает правовое положение: садакат аль-фитра не является обязательной для нуждающегося человека. Это указывает на то, что это финансовое поклонение снимается с того, кто находится в нужде или бедности.",
-          "tr": "Bu hadis, sadakatü’l-fıtranın muhtaç bir kimseye vacip olmadığını belirten bir fıkhî hüküm bildirir. Bu, bu mali ibadetin ihtiyaç veya yoksulluk içinde olan kimseden ساقط olduğunu gösterir.",
-          "ur": "یہ حدیث ایک شرعی حکم بیان کرتی ہے کہ محتاج شخص پر صدقۃ الفطر واجب نہیں۔ اس سے معلوم ہوتا ہے کہ یہ مالی عبادت اس شخص سے ساقط ہے جو ضرورت یا فقر میں ہو۔",
-          "zh": "这段圣训说明了一项教法判定：施舍开斋捐对贫困者并非义务。这表明这项财务性的崇拜对处于需要或贫穷中的人是免除的。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

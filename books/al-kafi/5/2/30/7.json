@@ -14,6 +14,130 @@
       "up": "/books/al-kafi:5:2:30"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "ابْنُ أَبِي عُمَيْرٍ عَنْ بَشِيرٍ عَنِ ابْنِ أَبِي يَعْفُورٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 10,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "كُنْتُ عِنْدَ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) إِذْ دَخَلَ عَلَيْهِ رَجُلٌ مِنْ أَصْحَابِنَا فَقَالَ لَهُ أَصْلَحَكَ اللَّهُ إِنَّهُ رُبَّمَا أَصَابَ الرَّجُلَ مِنَّا الضَّيْقُ أَوِ الشِّدَّةُ فَيُدْعَى إِلَى الْبِنَاءِ يَبْنِيهِ أَوِ النَّهَرِ يَكْرِيهِ أَوِ الْمُسَنَّاةِ يُصْلِحُهَا فَمَا تَقُولُ فِي ذَلِكَ",
+            "chunk_type": "body",
+            "word_end": 51,
+            "word_start": 10
+          },
+          {
+            "arabic_text": "فَقَالَ أَبُو عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) مَا أُحِبُّ أَنِّي عَقَدْتُ لَهُمْ عُقْدَةً أَوْ وَكَيْتُ لَهُمْ وِكَاءً وَ إِنَّ لِي مَا بَيْنَ لَابَتَيْهَا لَا وَ لَا مَدَّةً بِقَلَمٍ إِنَّ أَعْوَانَ الظَّلَمَةِ يَوْمَ الْقِيَامَةِ فِي سُرَادِقٍ مِنْ نَارٍ حَتَّى يَحْكُمَ اللَّهُ بَيْنَ الْعِبَادِ",
+            "chunk_type": "body",
+            "word_end": 94,
+            "word_start": 51
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 7,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنُ أَبِي عُمَيْرٍ",
+              "name_en": "Ibn Abi Umayr",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 886,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "بَشِيرٍ",
+              "name_en": "Bashir",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 126,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ أَبِي يَعْفُورٍ",
+              "name_en": "Ibn Abi Ya'fur",
+              "position": 3,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "theological_concept",
+            "phrase_ar": "يَوْمُ الْقِيَامَةِ",
+            "phrase_en": "Day of Resurrection"
+          }
+        ],
+        "key_terms_keys": [
+          "الضَّيْقُ",
+          "الشِّدَّةُ",
+          "الْبِنَاءِ",
+          "النَّهَرِ",
+          "الْمُسَنَّاةِ",
+          "أَعْوَانَ الظَّلَمَةِ",
+          "سُرَادِقٍ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:282",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "38:26",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "22:72",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "afterlife",
+          "governance"
+        ],
+        "topics": [
+          "financial_law",
+          "oppression",
+          "justice_system",
+          "work_livelihood",
+          "paradise_hell"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (19/63)"
       ],
@@ -74,7 +198,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:2:30:7",

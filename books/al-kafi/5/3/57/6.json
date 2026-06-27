@@ -14,6 +14,122 @@
       "up": "/books/al-kafi:5:3:57"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ الْحُسَيْنِ بْنِ سَعِيدٍ عَنْ عَبْدِ اللَّهِ بْنِ الصَّلْتِ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 17,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُ أَبَا الْحَسَنِ الرِّضَا ( عَلَيْهِ السَّلَامُ ) عَنِ الْجَارِيَةِ الصَّغِيرَةِ يُزَوِّجُهَا أَبُوهَا أَ لَهَا أَمْرٌ إِذَا بَلَغَتْ قَالَ لَا لَيْسَ لَهَا مَعَ أَبِيهَا أَمْرٌ",
+            "chunk_type": "body",
+            "word_end": 42,
+            "word_start": 17
+          },
+          {
+            "arabic_text": "قَالَ وَ سَأَلْتُهُ عَنِ الْبِكْرِ إِذَا بَلَغَتْ مَبْلَغَ النِّسَاءِ أَ لَهَا مَعَ أَبِيهَا أَمْرٌ قَالَ لَا لَيْسَ لَهَا مَعَ أَبِيهَا أَمْرٌ مَا لَمْ تَكْبَرْ",
+            "chunk_type": "body",
+            "word_end": 66,
+            "word_start": 42
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 21,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنِ بْنِ سَعِيدٍ",
+              "name_en": "al-Husayn b. Sa'id",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 593,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللَّهِ بْنِ الصَّلْتِ",
+              "name_en": "Abd Allah b. al-Salt",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الْجَارِيَةِ الصَّغِيرَةِ",
+          "الْبِكْرِ",
+          "أَمْرٌ",
+          "مَبْلَغَ النِّسَاءِ",
+          "تَكْبَرْ"
+        ],
+        "related_quran": [
+          {
+            "ref": "65:6",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family"
+        ],
+        "topics": [
+          "marriage_family_law",
+          "spousal_rights",
+          "womens_rights"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> صحيح   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (0/130)"
       ],
@@ -78,7 +194,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:3:57:6",

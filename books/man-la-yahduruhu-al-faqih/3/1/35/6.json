@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى غِيَاثُ بْنُ إِبْرَاهِيمَ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ أَبِيهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ঘিয়াস ইবনে ইব্রাহীম জাফর ইবনে মুহাম্মদ থেকে, তার পিতা عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Ghiyāth ibn Ibrāhīm berichtete von Jaʿfar ibn Muḥammad, von seinem Vater عليه السلام, der sagte:",
-              "en": "Ghiyāth ibn Ibrāhīm narrated from Jaʿfar ibn Muḥammad, from his father عليه السلام, who said:",
-              "es": "Ghiyāth ibn Ibrāhīm narró de Jaʿfar ibn Muḥammad, de su padre عليه السلام, quien dijo:",
-              "fa": "غیاث بن ابراهیم از جعفر بن محمد، از پدرش علیه السلام روایت کرد که فرمود:",
-              "fr": "Ghiyāth ibn Ibrāhīm a rapporté de Jaʿfar ibn Muḥammad, de son père عليه السلام, qui a dit :",
-              "id": "Ghiyāth ibn Ibrāhīm meriwayat dari Jaʿfar ibn Muḥammad, dari ayahnya علیه السلام, yang berkata:",
-              "ru": "Гияс ибн Ибрахим передал от Джаʿфара ибн Мухаммада, от его отца عليه السلام, который сказал:",
-              "tr": "Ghiyāth ibn Ibrāhīm, babası Jaʿfar ibn Muḥammad'dan, onun babasından عليه السلام, şöyle dedi:",
-              "ur": "غیاث ابن ابراہیم نے جعفر ابن محمد سے روایت کی، ان کے والد علیہ السلام سے، جنہوں نے فرمایا:",
-              "zh": "غیاثبنابراهیم从جعفربنمحمد其父عليهالسلام处传述说："
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "قَالَ عَلِيٌّ عَلَيْهِ السَّلَامُ: «لَا تَجُوزُ شَهَادَةٌ عَلَى شَهَادَةٍ فِي حَدٍّ وَ لَا كَفَالَةٌ فِي حَدٍّ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "ʿAlī عليه السلام বলেছেন: “حدে সাক্ষ্য উপর সাক্ষ্য গ্রহণযোগ্য নয়, এবং حدে কাফালাহ গ্রহণযোগ্য নয়।”",
-              "de": "ʿAlī عليه السلام sagte: „Zeugnis auf Zeugnis ist in einem Hadd nicht gültig, ebenso wenig ist Kafālah in einem Hadd gültig.“",
-              "en": "ʿAlī عليه السلام said: “Testimony upon testimony is not valid in a hadd, nor is kafālah valid in a hadd.”",
-              "es": "ʿAlī عليه السلام dijo: “El testimonio sobre testimonio no es válido en un hadd, ni la kafālah es válida en un hadd.”",
-              "fa": "ʿAlī علیه السلام فرمود: «شهادت بر شهادت در حد جایز نیست و کفاله در حد جایز نیست.»",
-              "fr": "ʿAlī عليه السلام a dit : «Le témoignage sur témoignage n’est pas valable dans un hadd, ni la kafālah dans un hadd.»",
-              "id": "ʿAlī علیه السلام berkata: “Kesaksian atas kesaksian tidak sah dalam hadd, dan kafālah juga tidak sah dalam hadd.”",
-              "ru": "ʿAlī عليه السلام сказал: «Свидетельство на свидетельство недопустимо в хадде, так же как и кафала в хадде.»",
-              "tr": "ʿAlī عليه السلام dedi ki: “Hududda şehadet üzerine şehadet geçerli değildir, kafālah da hududda geçerli değildir.”",
-              "ur": "علی علیہ السلام نے فرمایا: “حد میں گواہی پر گواہی جائز نہیں، اور حد میں کفالت بھی جائز نہیں۔”",
-              "zh": "ʿAlīعليهالسلام说：“在حد中证词叠加无效，حد中也不接受كفالة。”"
-            },
             "word_end": 30,
             "word_start": 14
           }
@@ -101,25 +88,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "حَدٍّ": "a prescribed legal punishment under Islamic law",
-            "شَهَادَةٌ": "legal testimony given by a witness",
-            "عَلَى": "upon; indicating one testimony being based on another",
-            "كَفَالَةٌ": "sponsorship or suretyship in a legal matter",
-            "لَا تَجُوزُ": "is not valid or permissible in legal effect"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "شَهَادَةٌ",
+          "عَلَى",
+          "حَدٍّ",
+          "كَفَالَةٌ",
+          "لَا تَجُوزُ"
+        ],
         "related_quran": [
           {
             "ref": "2:282",
@@ -134,32 +109,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে হুদুদ মামলায় সাক্ষ্য উপর সাক্ষ্য এবং কাফালাহ গ্রহণযোগ্য কি?",
-          "de": "Sind Zeugnis auf Zeugnis und Kafālah in Hudud-Fällen im schiitischen Fiqh gültig?",
-          "en": "Are testimony upon testimony and kafalah valid in cases involving hudud in Shia fiqh?",
-          "es": "¿Son válidos el testimonio sobre testimonio y la kafālah en casos de hudud según la fiqh chií?",
-          "fa": "آیا در فقه شیعه شهادت بر شهادت و کفاله در موارد حد معتبر است؟",
-          "fr": "Le témoignage sur témoignage et la kafālah sont-ils valables dans les cas de hudud en fiqh chiite ?",
-          "id": "Apakah kesaksian atas kesaksian dan kafālah sah dalam kasus hudud menurut fikih Syiah?",
-          "ru": "Являются ли свидетельство на свидетельство и кафала допустимыми в делах худуд в шиизме?",
-          "tr": "Şii fıkhında hudud davalarında şehadet üzerine şehadet ve kafālah geçerli midir?",
-          "ur": "کیا شیعہ فقہ میں حد کے معاملات میں گواہی پر گواہی اور کفالت جائز ہیں؟",
-          "zh": "在什叶派伊斯兰教法中，حد案件中证词叠加和كفالة有效吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি হুদুদ মামলায় একটি আইনি সিদ্ধান্ত ব্যাখ্যা করে। এটি নির্দেশ করে যে, হুদুদ মামলায় পরোক্ষ সাক্ষ্য এবং কাফালাহ গ্রহণযোগ্য নয়, যা এই ধরনের বিচারিক বিষয়ে কঠোর প্রমাণের মানদণ্ড প্রয়োজনীয়তা নির্দেশ করে।",
-          "de": "Dieser Hadith legt eine rechtliche Regelung für Fälle von vorgeschriebenen Strafen (Hudud) fest. Er besagt, dass indirekte Zeugenaussagen und Kafālah in Hudud-Fällen nicht akzeptiert werden, was die strengen Beweisstandards in solchen Gerichtsangelegenheiten verdeutlicht.",
-          "en": "This hadith states a legal ruling concerning cases of prescribed punishments (hudud). It establishes that indirect testimony and kafalah are not accepted in hadd cases, indicating the strict evidentiary standards required in such judicial matters.",
-          "es": "Este hadiz establece un fallo legal relacionado con casos de castigos prescritos (hudud). Establece que el testimonio indirecto y la kafālah no son aceptados en casos de hadd, indicando los estrictos estándares de evidencia requeridos en tales asuntos judiciales.",
-          "fa": "این حدیث حکم حقوقی مربوط به موارد حد را بیان می‌کند. نشان می‌دهد که شهادت غیرمستقیم و کفاله در موارد حد پذیرفته نیستند و استانداردهای سخت‌گیرانه‌ای برای ادله در این امور قضایی لازم است.",
-          "fr": "Ce hadith énonce une règle juridique concernant les cas de châtiments prescrits (hudud). Il établit que le témoignage indirect et la kafālah ne sont pas acceptés dans les cas de hadd, indiquant les normes strictes de preuve requises dans ces affaires judiciaires.",
-          "id": "Hadis ini menyatakan ketentuan hukum terkait kasus hudud. Menetapkan bahwa kesaksian tidak langsung dan kafālah tidak diterima dalam kasus hudud, menunjukkan standar pembuktian yang ketat dalam perkara peradilan tersebut.",
-          "ru": "Этот хадис устанавливает юридическое постановление, касающееся случаев предписанных наказаний (худуд). Он утверждает, что косвенные свидетельства и кафала не принимаются в делах худуд, указывая на строгие требования к доказательствам в таких судебных вопросах.",
-          "tr": "Bu hadis, hudud davalarına ilişkin hukuki bir hükmü belirtir. Hudud davalarında dolaylı şahitlik ve kafālahın kabul edilmediğini, böylece bu tür yargılamalarda sıkı delil standartlarının gerektiğini ortaya koyar.",
-          "ur": "یہ حدیث حد کے معاملات میں قانونی حکم بیان کرتی ہے۔ یہ واضح کرتی ہے کہ حد کے مقدمات میں غیر مستقیم گواہی اور کفالت قبول نہیں کی جاتی، جو ایسے عدالتی معاملات میں سخت ثبوتی معیار کی ضرورت کو ظاہر کرتی ہے۔",
-          "zh": "此حديث陈述了关于حد刑案件的法律裁决。明确指出在حد案件中不接受间接证词和كفالة，表明此类司法事项中所需的严格证据标准。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

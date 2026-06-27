@@ -13,6 +13,133 @@
       "up": "/books/al-kafi:3:3:95"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ نُوحِ بْنِ شُعَيْبٍ عَنْ شِهَابِ بْنِ عَبْدِ رَبِّهِ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 23,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُهُ عَنِ الْجُنُبِ يُغَسِّلُ الْمَيِّتَ أَوْ مَنْ غَسَّلَ مَيِّتاً لَهُ أَنْ يَأْتِيَ أَهْلَهُ ثُمَّ يَغْتَسِلَ فَقَالَ سَوَاءٌ لَا بَأْسَ بِذَلِكَ إِذَا كَانَ جُنُباً غَسَلَ يَدَهُ وَ تَوَضَّأَ وَ غَسَّلَ الْمَيِّتَ فَإِنْ غَسَّلَ مَيِّتاً ثُمَّ تَوَضَّأَ ثُمَّ أَتَى أَهْلَهُ يُجْزِئُهُ غُسْلٌ وَاحِدٌ لَهُمَا",
+            "chunk_type": "body",
+            "word_end": 65,
+            "word_start": 23
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 390,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "نُوحِ بْنِ شُعَيْبٍ",
+              "name_en": "Nuh ibn Shu'ayb",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 488,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "شِهَابِ بْنِ عَبْدِ رَبِّهِ",
+              "name_en": "Shihab ibn Abd Rabbih",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الْجُنُبِ",
+          "يُغَسِّلُ",
+          "الْمَيِّتَ",
+          "أَهْلَهُ",
+          "يَغْتَسِلَ",
+          "تَوَضَّأَ",
+          "غُسْلٌ وَاحِدٌ"
+        ],
+        "related_quran": [
+          {
+            "ref": "6:145",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "5:6",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "worship",
+          "family"
+        ],
+        "topics": [
+          "ritual_purity",
+          "marriage_family_law",
+          "death_dying"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> حسن   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (4/236)"
       ],
@@ -84,7 +211,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:3:3:95:1",

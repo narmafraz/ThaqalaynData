@@ -17,23 +17,23 @@
           "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَحَقُّ مَنْ سَرَّكَ اللَّهُ تَعَالَى بِهِ أَنْ تَحْمَدَ اللَّهَ عَزَّ وَجَلَّ أَوَّلًا ثُمَّ تَشْكُرَهُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যার মাধ্যমে আল্লাহ তাআলা আপনাকে সুখী করেন, তার অধিকার হলো প্রথমে আল্লাহ তাআলার প্রশংসা করা, তারপর তাঁর কাছে কৃতজ্ঞতা প্রকাশ করা।",
-              "de": "Das Recht dessen, durch den Gott dich glücklich macht, ist, dass du Gott zunächst lobst und Ihm dann dankst.",
-              "en": "The right of him through whom God makes you happy is that you first praise God, then you thank him.",
-              "es": "El derecho de aquel a quien Dios te hace feliz es que te complazca es que primero alabes a Dios, luego le des gracias.",
-              "fa": "حق آن کس که خداوند تو را به او شاد کند این است که نخست خدا را ستایش کنی و سپس از او سپاسگزاری نمایی.",
-              "fr": "Le droit de celui par qui Dieu te rend heureux est que tu loues Dieu en premier, puis tu Le remercies.",
-              "id": "Hak orang yang dengannya Allah Subhanahu wa Ta'ala membuatmu bahagia adalah bahwa kamu pertama-tama memuji Allah, kemudian kamu bersyukur kepada-Nya.",
-              "ru": "Право того, через кого Аллах дарует вам радость, заключается в том, чтобы вы сначала восхвалили Аллаха, а затем поблагодарили Его.",
-              "tr": "Allah'ın seni mutlu kıldığı kimsenin hakkı, önce Allah'a hamd etmen, sonra O'na şükretmendir.",
-              "ur": "حق اس شخص پر جسے اللہ تعالیٰ خوشی سے نوازا ہے یہ ہے کہ تم پہلے اللہ عزوجل کی حمد کرو پھر اس کا شکر ادا کرو۔",
-              "zh": "真主使你喜悦的人的权利是：你首先赞美真主，然后感谢他。"
-            },
             "word_end": 14,
             "word_start": 0
           }
@@ -45,63 +45,11 @@
           "narrators": []
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {
-            "تَحْمَدَ": "প্রশংসা (বিশেষ করে ঈশ্বরের প্রতি)",
-            "تَشْكُرَهُ": "তাকে ধন্যবাদ দিন (ব্যক্তিকে)",
-            "سَرَّكَ": "আপনাকে খুশি করে / আনন্দ দেয়"
-          },
-          "de": {
-            "تَحْمَدَ": "loben (speziell Gott gegenüber)",
-            "تَشْكُرَهُ": "ihn danken (die Person)",
-            "سَرَّكَ": "macht dich glücklich / bringt dir Freude"
-          },
-          "en": {
-            "تَحْمَدَ": "praise (specifically to God)",
-            "تَشْكُرَهُ": "thank him (the person)",
-            "سَرَّكَ": "makes you happy / brings you joy"
-          },
-          "es": {
-            "تَحْمَدَ": "alabar (específicamente a Dios)",
-            "تَشْكُرَهُ": "agradecerle (a la persona)",
-            "سَرَّكَ": "te hace feliz / te alegra"
-          },
-          "fa": {
-            "تَحْمَدَ": "حمد (به‌ویژه برای خدا)",
-            "تَشْكُرَهُ": "از او تشکر کن (از شخص)",
-            "سَرَّكَ": "شاد می‌کند / شادی می‌آورد"
-          },
-          "fr": {
-            "تَحْمَدَ": "louange (spécifiquement à Dieu)",
-            "تَشْكُرَهُ": "le remercier (la personne)",
-            "سَرَّكَ": "vous rend heureux / vous apporte la joie"
-          },
-          "id": {
-            "تَحْمَدَ": "memuji (khususnya kepada Allah)",
-            "تَشْكُرَهُ": "bersyukur kepadanya (orang tersebut)",
-            "سَرَّكَ": "membuatmu bahagia / membawa sukacitamu"
-          },
-          "ru": {
-            "تَحْمَدَ": "хвала (конкретно Богу)",
-            "تَشْكُرَهُ": "благодарить его (человека)",
-            "سَرَّكَ": "радует вас / приносит радость"
-          },
-          "tr": {
-            "تَحْمَدَ": "hamd (özellikle Allah'a yönelik)",
-            "تَشْكُرَهُ": "ona teşekkür eder (kişiye)",
-            "سَرَّكَ": "seni mutlu eder / sevince boğar"
-          },
-          "ur": {
-            "تَحْمَدَ": "شکر (خاص طور پر خدا کے لیے)",
-            "تَشْكُرَهُ": "شکر کریں (اس شخص سے)",
-            "سَرَّكَ": "خوشی دے"
-          },
-          "zh": {
-            "تَحْمَدَ": "赞美（特指对真主）",
-            "تَشْكُرَهُ": "感谢他（指那个人）",
-            "سَرَّكَ": "使你快乐/带来喜悦"
-          }
-        },
+        "key_terms_keys": [
+          "سَرَّكَ",
+          "تَحْمَدَ",
+          "تَشْكُرَهُ"
+        ],
         "related_quran": [
           {
             "ref": "14:7",
@@ -116,32 +64,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ইসলামে অনুগ্রহ বা উপহার গ্রহণের সময় সঠিক আদব কী?",
-          "de": "Was ist die richtige Etikette beim Empfang einer Gunst oder eines Geschenks im schiitischen Islam?",
-          "en": "What is the proper etiquette when receiving a favor or gift in Shia Islam?",
-          "es": "¿Cuál es la etiqueta adecuada al recibir un favor o regalo en el islam chií?",
-          "fa": "آداب صحیح دریافت نعمت یا هدیه در اسلام شیعه چیست؟",
-          "fr": "Quelle est l'étiquette appropriée lors de la réception d'une faveur ou d'un cadeau dans l'islam chiite ?",
-          "id": "Apa adab yang benar ketika menerima nikmat atau hadiah dalam Islam Syiah?",
-          "ru": "Каков правильный этикет при получении милости или подарка в шиитском исламе?",
-          "tr": "Şii İslam'ında bir iyilik veya hediye alındığında uygun edep nedir?",
-          "ur": "شیعہ اسلام میں نعمت یا تحفہ ملنے کے وقت مناسب آداب کیا ہیں؟",
-          "zh": "在什叶派伊斯兰教中，接受恩惠或礼物时的正确礼仪是什么？"
-        },
-        "summaries": {
-          "bn": "Imam Zayn al-Abidin-এর *Risalat al-Huquq*-এর প্রেক্ষাপটে, এই নির্দেশনা একটি আধ্যাত্মিক ঊর্ধ্বত্ব স্থাপন করে যেখানে সৃষ্টিকে কৃতজ্ঞতা প্রদানের আগে ঈশ্বরের প্রতি কৃতজ্ঞতা (*shukr*) প্রকাশ পায়, যা নিশ্চিত করে যে অনুগ্রহটি ঐশ্বরিক প্রদান হিসেবে স্বীকৃত হয়। এই দ্বৈত স্বীকৃতি *tawhid*-এর ক্রিয়াশীল দিককে প্রতিফলিত করে, যেখানে উৎসকে স্বীকার করা মাধ্যম থেকে প্রাপ্ত উপহারকে বৈধতা প্রদান করে।",
-          "de": "Im Kontext von Imams Zayn al-Abidins *Risalat al-Huqūq* begründet diese Anweisung eine spirituelle Hierarchie, in der die Dankbarkeit gegenüber Gott (*shukr*) der Dankbarkeit gegenüber dem Geschöpf vorausgeht, wodurch die Gunst als göttliche Gabe anerkannt wird. Diese doppelte Anerkennung spiegelt die schiitische Betonung von *tawhid* in der Praxis wider, bei der die Anerkennung der Quelle die Gabe durch die Mittel bestätigt.",
-          "en": "In the context of Imam Zayn al-Abidin’s *Risalat al-Huquq*, this instruction establishes a spiritual hierarchy where gratitude to God (*shukr*) precedes gratitude to the creature, ensuring the favor is recognized as a divine bestowal. This dual acknowledgment reflects the Shia emphasis on *tawhid* in action, where recognizing the Source validates the gift from the means.",
-          "es": "En el contexto de la *Risalat al-Huquq* del Imam Zayn al-Abidin*, esta instrucción establece una jerarquía espiritual donde la gratitud a Dios (*shukr*) precede a la gratura a la criatura, asegurando que el favor sea reconocido como una donación divina. Este doble reconocimiento refleja el énfasis chií en el *tawhid* en acción, donde reconocer la Fuente valida el regalo a través de los medios.",
-          "fa": "در متن رساله حقوق امام زین‌العابدین، این دستور سلسله مراتب معنوی را برقرار می‌کند که شکر خدا پیش از شکر مخلوق است تا فضل به عنوان عطای الهی شناخته شود. این پذیرش دوگانه بازتاب تأکید شیعه بر توحید در عمل است که در آن شناخت منبع، هدیه از طریق واسطه را معتبر می‌سازد.",
-          "fr": "Dans le contexte de la *Risalat al-Huqûl-Huqûq* de l'Imam Zayn al-Âbidin, cette instruction établit une hiérarchie spirituelle où la gratitude envers Dieu (*shukr*) précède la gratitude envers la créature, assurant que la faveur est reconnue comme un don divin. Cette double reconnaissance reflète l'accent mis par le chiisme sur le *tawhid* en action, où reconnaître la Source valide le don par les moyens.",
-          "id": "Dalam konteks *Risalat al-Huquq* Imam Zayn al-Abidin, instruksi ini menetapkan hierarki spiritual di mana rasa syukur kepada Allah (*shukr*) mendahului rasa syukur kepada makhluk, sehingga memastikan bahwa nikmat diakui sebagai anugerah ilahi. Pengakuan ganda ini mencerminkan penekanan Syiah pada *tawhid* dalam tindakan, di mana mengakui Sumber memvalidasi pemberian dari perantara.",
-          "ru": "В контексте «Рисалат аль-Хукук» имама Зайн аль-Абидина это наставление устанавливает духовную иерархию, где благодарность Богу (шукр) предшествует благодарности творению, что обеспечивает признание милости как божественного дарования. Это двойное признание отражает шиитский акцент на таухиде в действии, где признание Источника подтверждает ценность дара через средства.",
-          "tr": "İngilizce özet (Turkish):",
-          "ur": "امام زین العابدینؑ کی رسالت الحق میں اس ہدایت کے تحت ایک روحانی ترتیب قائم ہوتی ہے جس میں مخلوق کے شکر سے پہلے خدا کا شکر آتا ہے، تاکہ نعمت کو الٰہی عطیہ کے طور پر پہچانا جائے۔ یہ دوہری تسلیم عمل میں توحید کی شیعہ تاکید کی عکاسی کرتی ہے، جہاں ذریعے سے ملنے والی نعمت کی تصدیق اس کے ماخذ کو پہچاننے سے ہوتی ہے۔",
-          "zh": "在伊玛目宰因·阿比丁的《权利书》语境中，这一指令确立了一种精神等级秩序，即对真主的感恩（shukr）先于对受造物的感恩，确保恩惠被承认为神圣的赐予。这种双重认可反映了什叶派在行动中强调的认主独一（tawhid），即承认源头即验证了通过媒介所获之礼。"
-        },
         "tags": [
           "ethics",
           "social_relations",

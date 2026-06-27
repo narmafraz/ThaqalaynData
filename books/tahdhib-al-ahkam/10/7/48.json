@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "يُونُسُ بْنُ عَبْدِ الرَّحْمَنِ عَنِ ابْنِ مُسْكَانَ عَنْ أَبِي بَصِيرٍ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ইউনুস ইবন আবদুর রহমান, ইবন মিসকান থেকে, আবি বাসীর থেকে, তিনি বলেন:",
-              "de": "Yūnus ibn ʿAbd al-Raḥmān, von Ibn Miskān, von Abī Baṣīr, der sagte:",
-              "en": "Yūnus ibn ʿAbd al-Raḥmān, from Ibn Miskān, from Abī Baṣīr, who said:",
-              "es": "Yūnus ibn ʿAbd al-Raḥmān, de Ibn Miskān, de Abī Baṣīr, quien dijo:",
-              "fa": "یونس بن عبدالرحمان، از ابن مسکان، از ابی بصیر، که گفت:",
-              "fr": "Yūnus ibn ʿAbd al-Raḥmān, d’Ibn Miskān, d’Abī Baṣīr, qui a dit :",
-              "id": "Yūnus ibn ʿAbd al-Raḥmān, dari Ibn Miskān, dari Abī Baṣīr, ia berkata:",
-              "ru": "Юнус ибн ʿАбд ар-Рахман, от Ибн Мискана, от Аби Басира, который сказал:",
-              "tr": "Yūnus ibn ʿAbd al-Raḥmān, İbn Miskān’dan, Ebû Basîr’den, şöyle dedi:",
-              "ur": "یونس بن عبد الرحمٰن، ابن مسکان سے، ابی بصیر سے، انہوں نے کہا:",
-              "zh": "优努斯·伊本·阿卜杜·拉赫曼，传自伊本·米斯坎，传自阿比·巴西尔，他说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "«حَدُّ الْيَهُودِيِّ وَالنَّصْرَانِيِّ وَالْمَمْلُوكِ فِي الْخَمْرِ وَالْفِرْيَةِ سَوَاءٌ، وَإِنَّمَا صُولِحَ أَهْلُ الذِّمَّةِ أَنْ يَشْرَبُوهَا فِي بُيُوتِهِمْ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "মদ ও অপবাদ সম্পর্কে ইহুদি, খ্রিস্টান এবং দাসের হদ একই। আহলুয-যিম্মাহকে কেবল এই শর্তে সন্ধি দেওয়া হয়েছিল যে তারা তা নিজেদের ঘরে পান করবে।",
-              "de": "Die Hadd-Strafe des Juden, des Christen und des Sklaven hinsichtlich Wein und falscher Anschuldigung ist gleich. Den Leuten des Schutzvertrags wurde nur unter der Bedingung ein Ausgleich gewährt, dass sie es in ihren Häusern trinken.",
-              "en": "The hadd of the Jew, the Christian, and the slave regarding wine and false accusation is the same. The People of the Covenant were only accorded settlement on the condition that they drink it in their homes.",
-              "es": "El hadd del judío, del cristiano y del esclavo respecto al vino y a la falsa acusación es el mismo. A la Gente del Pacto solo se les concedió un acuerdo con la condición de que lo bebieran en sus casas.",
-              "fa": "حدّ یهودی، نصرانی و برده در مورد شراب و تهمت یکسان است. اهلِ ذمه تنها بر این شرط مصالحه شدند که آن را در خانه‌های خود بنوشند.",
-              "fr": "Le hadd du juif, du chrétien et de l’esclave au sujet du vin et de la fausse accusation est le même. Les Gens du Pacte n’ont été accordés en conciliation qu’à la condition qu’ils le boivent dans leurs maisons.",
-              "id": "Hadd bagi orang Yahudi, Nasrani, dan budak dalam perkara khamar dan tuduhan palsu adalah sama. Ahl al-Dhimmah hanya diberi perjanjian dengan syarat mereka meminumnya di rumah-rumah mereka.",
-              "ru": "Хадд иудея, христианина и раба в отношении вина и ложного обвинения одинаков. Людям договора было дозволено лишь при условии, что они будут пить его в своих домах.",
-              "tr": "Yahudi, Hristiyan ve kölenin içki ve iftira konusundaki hadd cezası aynıdır. Zimmî halkıyla ancak onu evlerinde içmeleri şartıyla anlaşma yapılmıştır.",
-              "ur": "شراب اور تہمت کے بارے میں یہودی، نصرانی اور غلام کی حد ایک ہی ہے۔ اہلِ عہد کو صرف اس شرط پر صلح دی گئی تھی کہ وہ اسے اپنے گھروں میں پئیں۔",
-              "zh": "犹太人、基督徒和奴隶在酒和诬告方面的hadd刑罚是一样的。受盟约者只是在他们在自己家中饮用它的条件下才被允许和解。"
-            },
             "word_end": 27,
             "word_start": 11
           }
@@ -94,28 +81,16 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَهْلُ الذِّمَّةِ": "non-Muslim protected subjects living under covenant",
-            "النَّصْرَانِيِّ": "a Christian subject here to the stated legal ruling",
-            "الْخَمْرِ": "wine or intoxicating drink",
-            "الْفِرْيَةِ": "false accusation or slander",
-            "الْمَمْلُوكِ": "a slave or owned servant under the same ruling mentioned",
-            "الْيَهُودِيِّ": "a Jew subject here to the stated legal ruling",
-            "حَدُّ": "the prescribed legal punishment",
-            "فِي بُيُوتِهِمْ": "within their homes, indicating the restricted place mentioned"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "حَدُّ",
+          "الْيَهُودِيِّ",
+          "النَّصْرَانِيِّ",
+          "الْمَمْلُوكِ",
+          "الْخَمْرِ",
+          "الْفِرْيَةِ",
+          "أَهْلُ الذِّمَّةِ",
+          "فِي بُيُوتِهِمْ"
+        ],
         "related_quran": [
           {
             "ref": "5:90",
@@ -130,32 +105,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "মদ ও অপবাদের ক্ষেত্রে ইহুদি, খ্রিস্টান এবং দাসদের জন্য হদের বিধান কী?",
-          "de": "Wie lautet die Hadd-Regel für Juden, Christen und Sklaven in Fällen von Wein und falscher Anschuldigung?",
-          "en": "What is the ruling on the hadd for Jews, Christians, and slaves in cases involving wine and false accusation?",
-          "es": "¿Cuál es la norma del hadd para judíos, cristianos y esclavos en casos de vino y falsa acusación?",
-          "fa": "حکمِ حدّ دربارهٔ یهودیان، مسیحیان و بردگان در موارد شراب و تهمت چیست؟",
-          "fr": "Quelle est la règle du hadd pour les juifs, les chrétiens et les esclaves dans les cas de vin et de fausse accusation ?",
-          "id": "Apa hukum hadd bagi orang Yahudi, Nasrani, dan budak dalam kasus khamar dan tuduhan palsu?",
-          "ru": "Каково постановление о хадде для иудеев, христиан и рабов в случаях вина и ложного обвинения?",
-          "tr": "İçki ve iftira meselelerinde Yahudiler, Hristiyanlar ve köleler için hadd hükmü nedir?",
-          "ur": "شراب اور تہمت کے معاملات میں یہودیوں، عیسائیوں اور غلاموں پر حد کا حکم کیا ہے؟",
-          "zh": "在酒和诬告案件中，犹太人、基督徒和奴隶的hadd规定是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে বলা হয়েছে যে মদ ও অপবাদের ক্ষেত্রে ইহুদি, খ্রিস্টান এবং দাসের ওপর হদ একইভাবে প্রযোজ্য। এতে আরও স্পষ্ট করা হয়েছে যে আহলুয-যিম্মাহকে কেবল নিজেদের ঘরের ভেতরেই মদ পান করার অনুমতি দেওয়া হয়েছিল।",
-          "de": "Dieser Hadith besagt, dass die Hadd-Strafe in Bezug auf Wein und falsche Anschuldigung für den Juden, den Christen und den Sklaven gleichermaßen gilt. Er erklärt auch, dass den Leuten des Schutzvertrags nur erlaubt war, Wein in ihren eigenen Häusern zu trinken.",
-          "en": "This hadith states that the legal punishment concerning wine and false accusation applies equally to a Jew, a Christian, and a slave. It also clarifies that Ahl al-Dhimmah were only permitted to drink wine within their own homes, indicating a restricted legal accommodation under covenant.",
-          "es": "Este hadiz establece que el hadd relativo al vino y a la falsa acusación se aplica por igual al judío, al cristiano y al esclavo. También aclara que a la Gente del Pacto solo se les permitió beber vino dentro de sus propias casas.",
-          "fa": "این حدیث بیان می‌کند که حدّ مربوط به شراب و تهمت به طور مساوی بر یهودی، نصرانی و برده جاری می‌شود. همچنین روشن می‌سازد که اهلِ ذمه تنها اجازه داشتند شراب را در خانه‌های خود بنوشند.",
-          "fr": "Ce hadith indique que le hadd concernant le vin et la fausse accusation s’applique également au juif, au chrétien et à l’esclave. Il précise aussi que les Gens du Pacte n’étaient autorisés à boire du vin que dans leurs propres maisons.",
-          "id": "Hadis ini menyatakan bahwa hukuman hadd terkait khamar dan tuduhan palsu berlaku sama bagi orang Yahudi, Nasrani, dan budak. Ini juga menjelaskan bahwa Ahl al-Dhimmah hanya diizinkan minum khamar di rumah mereka sendiri.",
-          "ru": "Этот хадис указывает, что хадд в отношении вина и ложного обвинения одинаково применяется к иудею, христианину и рабу. Он также разъясняет, что людям договора было дозволено пить вино только в своих домах.",
-          "tr": "Bu hadis, içki ve iftira ile ilgili hadd cezasının Yahudi, Hristiyan ve köle için eşit şekilde uygulandığını belirtir. Ayrıca zimmîlerin yalnızca kendi evlerinde içki içmelerine izin verildiğini açıklar.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ شراب اور تہمت کے بارے میں یہودی، نصرانی اور غلام پر حد برابر لاگو ہوتی ہے، اور اہلِ ذمہ کو صرف اپنے گھروں میں شراب پینے کی اجازت تھی۔",
-          "zh": "这段圣训说明，在酒和诬告方面，犹太人、基督徒和奴隶的hadd刑罚是相同的。它还说明，受盟约者只被允许在自己家中饮酒。"
-        },
         "tags": [
           "jurisprudence",
           "social_relations",

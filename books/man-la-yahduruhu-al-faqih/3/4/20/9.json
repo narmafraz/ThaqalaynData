@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَهُ مُحَمَّدُ بْنُ مُسْلِمٍ: عَنْ رَجُلٍ ظَاهَرَ مِنِ امْرَأَتِهِ خَمْسَ مَرَّاتٍ أَوْ أَكْثَرَ فَقَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবনে মুসলিম তাকে এমন একজন পুরুষ সম্পর্কে জিজ্ঞাসা করলেন যিনি তার স্ত্রীকে পাঁচবার বা তার বেশি বার ẓihār ঘোষণা করেছেন, তিনি বললেন:",
-              "de": "Muḥammad ibn Muslim fragte ihn nach einem Mann, der fünfmal oder öfter ẓihār gegen seine Frau ausgesprochen hatte, und er sagte:",
-              "en": "Muḥammad ibn Muslim asked him about a man who pronounced ẓihār against his wife five times or more, so he said:",
-              "es": "Muḥammad ibn Muslim le preguntó acerca de un hombre que pronunció ẓihār contra su esposa cinco veces o más, y él dijo:",
-              "fa": "محمد بن مسلم از او درباره مردی که پنج بار یا بیشتر ظِهار بر همسرش گفته بود پرسید، پس گفت:",
-              "fr": "Muḥammad ibn Muslim lui demanda au sujet d’un homme qui avait prononcé ẓihār contre sa femme cinq fois ou plus, il dit :",
-              "id": "Muḥammad ibn Muslim bertanya kepadanya tentang seorang pria yang mengucapkan ẓihār terhadap istrinya lima kali atau lebih, lalu dia berkata:",
-              "ru": "Мухаммад ибн Муслим спросил его о человеке, который произнёс ẓihār в отношении своей жены пять раз или больше, и он сказал:",
-              "tr": "Muhammed ibn Muslim ona, karısına beş kez veya daha fazla ẓihār yapan bir adam hakkında sordu, şöyle dedi:",
-              "ur": "مُحَمَّد ابن مسلم نے ان سے اس شخص کے بارے میں پوچھا جس نے اپنی بیوی پر ظہار پانچ بار یا اس سے زیادہ کہا، تو انہوں نے کہا:",
-              "zh": "穆罕默德本穆斯林问他关于一个对妻子说了五次或更多次ẓihār的男人，他说："
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "«قَالَ عَلِيٌّ عَلَيْهِ السَّلَامُ: مَكَانَ كُلِّ مَرَّةٍ كَفَّارَةٌ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আলী علیہ السلام বললেন: “প্রতিটি সময়ের পরিবর্তে একটি কাফফারা রয়েছে।”",
-              "de": "ʿAlī عليه السلام sagte: „Anstelle jedes einzelnen Mal gibt es eine Kaffārah.“",
-              "en": "ʿAlī عليه السلام said: “In place of every single time, there is an expiation.”",
-              "es": "ʿAlī عليه السلام dijo: “En lugar de cada vez, hay una expiación.”",
-              "fa": "علی علیه السلام فرمود: «به جای هر بار، یک کفاره وجود دارد.»",
-              "fr": "ʿAlī عليه السلام a dit : « Pour chaque fois, il y a une expiation. »",
-              "id": "ʿAlī علیه السلام berkata: “Sebagai pengganti setiap kali, ada sebuah kaffārah.”",
-              "ru": "ʿAlī عليه السلام сказал: «Вместо каждого раза есть искупление.»",
-              "tr": "ʿAlī علیه السلام şöyle dedi: “Her bir seferin yerine bir kefaret vardır.”",
-              "ur": "علی علیہ السلام نے فرمایا: \"ہر ایک بار کی جگہ ایک کفارہ ہے۔\"",
-              "zh": "ʿAlīعليهالسلام说：“每一次都有一份赎罪。”"
-            },
             "word_end": 22,
             "word_start": 14
           }
@@ -91,27 +78,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَكْثَرَ": "more than that",
-            "امْرَأَتِهِ": "his wife",
-            "خَمْسَ مَرَّاتٍ": "five times",
-            "ظَاهَرَ": "pronounced ẓihār; declared his wife unlawful through the formula of resemblance",
-            "كَفَّارَةٌ": "an expiation required for the violation",
-            "كُلِّ مَرَّةٍ": "each individual occurrence",
-            "مَكَانَ": "in place of; corresponding to"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "ظَاهَرَ",
+          "امْرَأَتِهِ",
+          "خَمْسَ مَرَّاتٍ",
+          "أَكْثَرَ",
+          "مَكَانَ",
+          "كُلِّ مَرَّةٍ",
+          "كَفَّارَةٌ"
+        ],
         "related_quran": [
           {
             "ref": "58:2",
@@ -126,32 +101,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি একজন পুরুষ তার স্ত্রীর বিরুদ্ধে একাধিকবার ẓihār ঘোষণা করে, তাহলে কি একটি কাফফারা যথেষ্ট, নাকি প্রতিটি সময়ের জন্য আলাদা কাফফারা প্রয়োজন?",
-          "de": "Wenn ein Mann mehrmals ẓihār gegen seine Frau ausspricht, reicht eine Kaffārah aus oder gibt es für jedes Mal eine separate Sühne?",
-          "en": "If a man pronounces ẓihār against his wife multiple times, is one kaffārah enough or is there a separate expiation for each time?",
-          "es": "Si un hombre pronuncia ẓihār contra su esposa varias veces, ¿es suficiente una kaffārah o hay una expiación separada para cada vez?",
-          "fa": "اگر مردی چندین بار ظِهار بر همسرش بگوید، آیا یک کفاره کافی است یا برای هر بار کفاره جداگانه لازم است؟",
-          "fr": "Si un homme prononce ẓihār contre sa femme plusieurs fois, une seule expiation suffit-elle ou y a-t-il une expiation distincte pour chaque fois ?",
-          "id": "Jika seorang pria mengucapkan ẓihār terhadap istrinya beberapa kali, apakah satu kaffārah cukup atau harus ada kaffārah terpisah untuk setiap kali?",
-          "ru": "Если мужчина произносит ẓihār в отношении жены несколько раз, достаточно ли одной каффары или требуется отдельное искупление за каждый раз?",
-          "tr": "Bir adam karısına birden fazla kez ẓihār yaparsa, bir kefaret yeterli midir yoksa her sefer için ayrı bir kefaret gerekir mi?",
-          "ur": "اگر کوئی مرد اپنی بیوی پر بار بار ظہار کہے تو کیا ایک کفارہ کافی ہے یا ہر بار کے لیے الگ کفارہ لازم ہے؟",
-          "zh": "如果一个男人对妻子多次说ẓihār，一次赎罪够吗，还是每次都需单独赎罪？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি একজন পুরুষের তার স্ত্রীর বিরুদ্ধে বারবার ẓihār ঘোষণা করার বিষয়ে শারঈ সিদ্ধান্ত দেয়। এটি বলে যে প্রতিটি আলাদা ঘটনা নিজস্ব কাফফারা দাবি করে, যা দেখায় যে বারবার বলা হলে বারবার শারঈ ফলাফল হয়।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bezüglich wiederholten ẓihār gegen die eigene Frau. Er besagt, dass jedes einzelne Vorkommnis eine eigene Kaffārah erfordert, was zeigt, dass wiederholte Aussagen wiederholte rechtliche Konsequenzen haben.",
-          "en": "This hadith gives a legal ruling regarding repeated ẓihār pronounced against one's wife. It states that each separate occurrence entails its own kaffārah, showing that repeated statements are treated as carrying repeated legal consequence.",
-          "es": "Este hadiz da un fallo legal sobre la repetición del ẓihār contra la esposa. Indica que cada ocurrencia separada requiere su propia kaffārah, mostrando que las declaraciones repetidas conllevan consecuencias legales repetidas.",
-          "fa": "این حدیث حکم شرعی درباره تکرار ظِهار بر همسر را بیان می‌کند. هر بار جداگانه کفاره دارد و نشان می‌دهد که تکرار بیان‌ها به معنای تکرار پیامدهای شرعی است.",
-          "fr": "Ce hadith donne un jugement légal concernant la répétition du ẓihār prononcé contre sa femme. Il indique que chaque occurrence distincte implique sa propre expiation, montrant que les déclarations répétées entraînent des conséquences légales répétées.",
-          "id": "Hadis ini memberikan hukum terkait pengucapan ẓihār berulang terhadap istri. Disebutkan bahwa setiap kejadian terpisah memerlukan kaffārah sendiri, menunjukkan bahwa pernyataan berulang membawa konsekuensi hukum berulang.",
-          "ru": "Этот хадис даёт правовое постановление относительно повторного произнесения ẓihār в отношении жены. Указывается, что каждое отдельное событие требует отдельного каффара, показывая, что повторные заявления влекут повторные юридические последствия.",
-          "tr": "Bu hadis, bir erkeğin karısına tekrar tekrar ẓihār yapmasıyla ilgili hukuki hükmü verir. Her ayrı olay için ayrı bir kefaret gerektiğini belirtir, yani tekrar eden ifadeler tekrar eden hukuki sonuç taşır.",
-          "ur": "یہ حدیث ایک شخص کے بار بار اپنی بیوی پر ظہار کہنے کے بارے میں شرعی حکم دیتی ہے۔ یہ بتاتی ہے کہ ہر بار کا الگ کفارہ لازم ہے، یعنی بار بار کہنے پر بار بار کفارہ ادا کرنا ہوگا۔",
-          "zh": "这段圣训就对妻子多次说ẓihār的法律裁决作出说明。指出每次都需赎罪，表明重复声明带来重复的法律后果。"
-        },
         "tags": [
           "jurisprudence",
           "family",

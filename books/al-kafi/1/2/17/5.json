@@ -21,40 +21,27 @@
           "model": "claude-sonnet-4-6",
           "pipeline_version": "2.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবু আবদিল্লাহ আলাইহিস সালামকে বললাম: লোকেরা আমার কাছে আসে এবং আপনার হাদিসগুলো আমার কাছ থেকে শুনতে চায়, তাই আমি ক্লান্ত হই এবং সক্ষম থাকি না।",
-              "de": "Ich sagte zu Abu Abdillah (Friede sei mit ihm): Die Leute kommen zu mir und wollen eure Hadiths von mir hören, und ich werde müde und habe nicht mehr die Kraft.",
-              "en": "I said to Abu Abdillah (peace be upon him): Groups of people come to me and want to hear your hadiths from me, and I become wearied and am not able (to continue).",
-              "es": "Dije a Abu Abdillah (la paz sea con él): La gente viene a mí y quiere escuchar vuestros hadiths de mí, y me canso y no tengo fuerzas.",
-              "fa": "به ابوعبدالله علیه السلام گفتم: مردم پیش من می‌آیند و می‌خواهند احادیث شما را از من بشنوند، اما خسته می‌شوم و توانایی ندارم.",
-              "fr": "J'ai dit à Abu Abdillah (que la paix soit sur lui) : Des groupes de gens viennent me voir et veulent entendre vos hadiths de ma bouche, et je me lasse et n'en ai plus la force.",
-              "id": "Aku berkata kepada Abu Abdillah (alaihis salam): Orang-orang datang kepadaku dan ingin mendengar hadits-haditsmu dariku, lalu aku merasa lelah dan tidak mampu melanjutkan.",
-              "ru": "Я сказал Абу Абдиллаху (мир ему): Ко мне приходят люди и хотят слышать от меня ваши хадисы, но я устаю и не в силах продолжать.",
-              "tr": "Ebu Abdullah'a (a.s.) dedim ki: İnsanlar bana geliyor ve sizin hadislerinizi benden dinlemek istiyorlar; bu yüzden bıkıyorum ve dayanamıyorum.",
-              "ur": "میں نے ابو عبد اللہ علیہ السلام سے عرض کیا: میرے پاس لوگ آتے ہیں اور آپ کی احادیث مجھ سے سننا چاہتے ہیں، تو میں تھک جاتا ہوں اور طاقت نہیں رہتی۔",
-              "zh": "我对阿布·阿卜杜拉（愿主赐他平安）说：人们来找我，想从我这里听您的圣训，我感到疲倦，力不从心。"
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: তাহলে তাদের কাছে এর শুরু থেকে একটি হাদিস, মাঝ থেকে একটি হাদিস এবং শেষ থেকে একটি হাদিস পড়ো।",
-              "de": "Er sagte: Lies ihnen dann einen Hadith von seinem Anfang, einen Hadith von seiner Mitte und einen Hadith von seinem Ende vor.",
-              "en": "He said: Then read to them one hadith from its beginning, one hadith from its middle, and one hadith from its end.",
-              "es": "Él dijo: Entonces léeles un hadith de su comienzo, un hadith de su parte central, y un hadith de su final.",
-              "fa": "فرمود: پس برای آنها از ابتدای آن یک حدیث، از میانه‌اش یک حدیث، و از پایان آن یک حدیث بخوان.",
-              "fr": "Il dit : Alors lis-leur un hadith de son début, un hadith de son milieu, et un hadith de sa fin.",
-              "id": "Beliau bersabda: Maka bacakanlah kepada mereka satu hadits dari awalnya, satu hadits dari tengahnya, dan satu hadits dari akhirnya.",
-              "ru": "Он сказал: Тогда читай им один хадис из его начала, один хадис из его середины и один хадис из его конца.",
-              "tr": "Buyurdu: O zaman onlara kitabın başından bir hadis, ortasından bir hadis ve sonundan bir hadis oku.",
-              "ur": "آپ نے فرمایا: تو ان کے سامنے اس کے آغاز سے ایک حدیث، درمیان سے ایک حدیث، اور آخر سے ایک حدیث پڑھو۔",
-              "zh": "他说：那就从它的开头念给他们一条圣训，从中间念一条圣训，从末尾念一条圣训。"
-            },
             "word_end": 26,
             "word_start": 14
           }
@@ -132,80 +119,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {
-            "حَدِيثَكُمْ": "আপনাদের হাদিস — ইমামের কাছে আরোপিত বর্ণনা যা সাথীরা মুখস্থ করে প্রচার করতেন",
-            "فَأَضْجَرُ": "আমি ক্লান্ত হই — ক্রমাগত বর্ণনার ক্লান্তি"
-          },
-          "de": {
-            "حَدِيثَكُمْ": "Eure Hadiths — die dem Imam zugeschriebenen Überlieferungen, die seine Gefährten auswendig lernen und weitergeben sollten",
-            "فَأَضْجَرُ": "Ich werde müde — die Erschöpfung durch wiederholtes Erzählen"
-          },
-          "en": {
-            "أَقْوَى": "I am able/have strength — indicating the narrator's diminished capacity to continue",
-            "حَدِيثَكُمْ": "Your hadiths — the narrations attributed to the Imam (AS) that his companions were tasked with memorizing and transmitting",
-            "فَأَضْجَرُ": "I become wearied/bored — expressing the emotional and physical toll of repeated narration to many visitors"
-          },
-          "es": {
-            "حَدِيثَكُمْ": "Vuestros hadiths — las narraciones atribuidas al Imam que sus compañeros debían memorizar y transmitir",
-            "فَأَضْجَرُ": "Me canso — el agotamiento producido por la narración repetida"
-          },
-          "fa": {
-            "حَدِيثَكُمْ": "احادیث شما — روایات منسوب به امام که صحابه مسئول حفظ و نقل آنها بودند",
-            "فَأَضْجَرُ": "خسته می‌شوم — فرسودگی ناشی از تکرار مداوم"
-          },
-          "fr": {
-            "حَدِيثَكُمْ": "Vos hadiths — les traditions attribuées à l'Imam que ses compagnons devaient mémoriser et transmettre",
-            "فَأَضْجَرُ": "Je me lasse — la fatigue due à la narration répétée"
-          },
-          "id": {
-            "حَدِيثَكُمْ": "Hadits-haditsmu — riwayat-riwayat yang dinisbatkan kepada Imam dan menjadi tanggung jawab para sahabat untuk dihafal dan disebarkan",
-            "فَأَضْجَرُ": "Aku merasa lelah — kelelahan akibat pengulangan yang terus-menerus"
-          },
-          "ru": {
-            "حَدِيثَكُمْ": "Ваши хадисы — предания, приписываемые Имаму, которые его сподвижники обязаны были запомнить и передавать",
-            "فَأَضْجَرُ": "Я устаю — изнеможение от повторяющегося рассказа"
-          },
-          "tr": {
-            "حَدِيثَكُمْ": "Sizin hadisleriniz — İmam'a atfedilen ve sahabeler tarafından aktarılan rivayetler",
-            "فَأَضْجَرُ": "Bıkıyorum — sürekli tekrarlama yorgunluğu"
-          },
-          "ur": {
-            "حَدِيثَكُمْ": "آپ کی احادیث — امام سے منسوب روایات جن کی نقل و انتقال راویوں کی ذمہ داری تھی",
-            "فَأَضْجَرُ": "میں تھک جاتا ہوں — بار بار بیان کرنے کی تھکاوٹ"
-          },
-          "zh": {
-            "حَدِيثَكُمْ": "您的圣训——归于伊玛目的传述，门徒有责任记忆并传播",
-            "فَأَضْجَرُ": "我感到疲倦——反复讲述所带来的身心疲惫"
-          }
-        },
+        "key_terms_keys": [
+          "حَدِيثَكُمْ",
+          "فَأَضْجَرُ",
+          "أَقْوَى"
+        ],
         "related_quran": [],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক হাদিস বর্ণনার ক্লান্তি মোকাবেলায় কী পরামর্শ দিয়েছিলেন?",
-          "de": "Wie riet Imam al-Sadiq seinen Gefährten, mit der Erschöpfung beim Überliefern von Hadiths umzugehen?",
-          "en": "How did Imam al-Sadiq advise his companions to handle the fatigue of transmitting hadiths?",
-          "es": "¿Cómo aconsejó el Imam al-Sadiq a sus compañeros para manejar el cansancio de transmitir hadiths?",
-          "fa": "امام صادق چگونه به صحابه‌اش توصیه کرد با خستگی از نقل حدیث کنار بیایند؟",
-          "fr": "Comment l'Imam al-Sadiq a-t-il conseillé ses compagnons face à la fatigue de transmettre les hadiths ?",
-          "id": "Bagaimana Imam al-Sadiq menyarankan para sahabatnya mengatasi kelelahan dalam menyampaikan hadits?",
-          "ru": "Как Имам ас-Садик советовал своим сподвижникам справляться с усталостью от передачи хадисов?",
-          "tr": "İmam Sadık hadis nakletmenin yorgunluğuyla başa çıkmak için ne tavsiye etti?",
-          "ur": "امام صادق علیہ السلام نے احادیث نقل کرتے وقت تھکاوٹ سے نمٹنے کا طریقہ کیا بتایا؟",
-          "zh": "伊玛目萨迪格如何建议门徒应对传述圣训的疲惫？"
-        },
-        "summaries": {
-          "bn": "ইমাম আল-সাদিক (আ.)-এর বিশ্বস্ত সাথী আবদুল্লাহ ইবনে সিনান ইমামের কাছে অনেক দর্শনার্থীকে হাদিস বর্ণনা করার ক্লান্তি প্রকাশ করলেন। ইমাম ব্যবহারিক সমাধান দিলেন: সংকলনের বিভিন্ন অংশ থেকে হাদিস বাছাই করতে।",
-          "de": "Abdullah ibn Sinan, ein treuer Gefährte des Imam al-Sadiq (F), äußerte gegenüber dem Imam seine Erschöpfung angesichts der vielen Besucher, die Hadiths hören wollten. Der Imam bot eine praktische Lösung an: Hadiths aus verschiedenen Teilen der Sammlung auszuwählen, um den Erzähler nicht zu überlasten.",
-          "en": "Abdullah ibn Sinan, a trusted companion of Imam al-Sadiq (AS), expressed to the Imam his fatigue from the many visitors who came to hear the Imam's hadiths. The Imam's practical remedy was to select hadiths from different parts of the collection — beginning, middle, and end — rather than attempting to recount them all. This guidance reflects the Imam's understanding of the human limits of his companions who served as transmitters of religious knowledge, and his practical method for sustaining hadith transmission without overburdening the narrator.",
-          "es": "Abdullah ibn Sinan, fiel compañero del Imam al-Sadiq (P), expresó al Imam su cansancio ante la avalancha de visitantes que querían escuchar hadiths. El Imam ofreció una solución práctica: seleccionar hadiths de diferentes partes de la colección para no abrumar al narrador.",
-          "fa": "عبدالله بن سنان، صحابی مورد اعتماد امام صادق علیه السلام، خستگی خود را از نقل حدیث به بازدیدکنندگان فراوان به امام بیان کرد. امام راهکار عملی ارائه داد: از بخش‌های مختلف مجموعه حدیث انتخاب کند تا از اضافه‌بار راوی جلوگیری شود.",
-          "fr": "Abdullah ibn Sinan, fidèle compagnon de l'Imam al-Sadiq (P), exprima à l'Imam sa fatigue face aux nombreux visiteurs venus entendre les hadiths. L'Imam proposa une solution pratique : sélectionner des hadiths de différentes parties de la collection afin de ne pas surcharger le narrateur.",
-          "id": "Abdullah ibn Sinan, sahabat terpercaya Imam al-Sadiq (a.s.), menyampaikan kelelahan dalam menyampaikan hadits kepada banyak pengunjung. Imam memberikan solusi praktis: pilih hadits dari bagian awal, tengah, dan akhir koleksi agar tidak membebani perawi.",
-          "ru": "Абдулла ибн Синан, доверенный сподвижник Имама ас-Садика (мир ему), сообщил Имаму о своей усталости от многочисленных посетителей, желавших слышать хадисы. Имам предложил практическое решение: выбирать хадисы из разных частей сборника, чтобы не перегружать рассказчика.",
-          "tr": "İmam Sadık'ın (a.s.) güvenilir sahabesi Abdullah ibn Sinan, pek çok ziyaretçiye hadis nakletmekten yorulduğunu dile getirdi. İmam, pratik bir çözüm olarak koleksiyonun farklı bölümlerinden birer hadis seçmesini tavsiye etti.",
-          "ur": "عبد اللہ بن سنان نے امام صادق علیہ السلام سے احادیث نقل کرنے کی تھکاوٹ بیان کی۔ امام نے عملی راہنمائی دی کہ مجموعے کے مختلف حصوں سے احادیث بیان کریں تاکہ راوی پر بوجھ نہ پڑے۔",
-          "zh": "阿卜杜拉·本·西南是伊玛目萨迪格（愿主赐他平安）的可靠门徒，他向伊玛目诉说了向众多来访者讲述圣训时的疲惫。伊玛目提出了切实可行的解决方法：从圣训集的不同部分各选一条来讲述，避免给传述者造成过大负担。这一指导体现了伊玛目对担任知识传播者的门徒的体谅与关怀。"
-        },
         "tags": [
           "knowledge",
           "prophetic_tradition",
@@ -219,444 +138,106 @@
         "word_analysis": [
           {
             "pos": "V",
-            "translation": {
-              "bn": "আমি বললাম",
-              "de": "ich sagte",
-              "en": "I said",
-              "es": "dije",
-              "fa": "گفتم",
-              "fr": "j'ai dit",
-              "id": "aku berkata",
-              "ru": "я сказал",
-              "tr": "dedim",
-              "ur": "میں نے کہا",
-              "zh": "我说"
-            },
             "word": "قُلْتُ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "আবুর কাছে",
-              "de": "zu Abu",
-              "en": "to Abu",
-              "es": "a Abu",
-              "fa": "به ابو",
-              "fr": "à Abu",
-              "id": "kepada Abu",
-              "ru": "Абу",
-              "tr": "Ebu'ya",
-              "ur": "ابو کو",
-              "zh": "对阿布"
-            },
             "word": "لِأَبِي"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "বান্দা",
-              "de": "Diener von",
-              "en": "servant of",
-              "es": "siervo de",
-              "fa": "بنده",
-              "fr": "serviteur de",
-              "id": "hamba",
-              "ru": "раб",
-              "tr": "kulu",
-              "ur": "بندہ",
-              "zh": "仆人"
-            },
             "word": "عَبْدِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "আল্লাহ",
-              "de": "Gott",
-              "en": "God",
-              "es": "Dios",
-              "fa": "خدا",
-              "fr": "Dieu",
-              "id": "Allah",
-              "ru": "Аллах",
-              "tr": "Allah",
-              "ur": "اللہ",
-              "zh": "安拉"
-            },
             "word": "اللَّهِ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "তাঁর উপর",
-              "de": "auf ihm",
-              "en": "upon him",
-              "es": "sobre él",
-              "fa": "بر او",
-              "fr": "sur lui",
-              "id": "atasnya",
-              "ru": "на нём",
-              "tr": "ona",
-              "ur": "اس پر",
-              "zh": "在他之上"
-            },
             "word": "عَلَيْهِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "শান্তি",
-              "de": "Friede",
-              "en": "peace",
-              "es": "paz",
-              "fa": "سلام",
-              "fr": "paix",
-              "id": "salam",
-              "ru": "мир",
-              "tr": "selam",
-              "ur": "سلام",
-              "zh": "平安"
-            },
             "word": "السَّلَامُ"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "তারা আমার কাছে আসে",
-              "de": "sie kommen zu mir",
-              "en": "they come to me",
-              "es": "vienen a mí",
-              "fa": "پیش من می‌آیند",
-              "fr": "ils viennent à moi",
-              "id": "mereka datang kepadaku",
-              "ru": "они приходят ко мне",
-              "tr": "bana geliyorlar",
-              "ur": "میرے پاس آتے ہیں",
-              "zh": "他们来找我"
-            },
             "word": "يَجِيئُنِي"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "লোকেরা",
-              "de": "die Leute",
-              "en": "the group of people",
-              "es": "el grupo de personas",
-              "fa": "مردم",
-              "fr": "le groupe de personnes",
-              "id": "kaum/orang-orang",
-              "ru": "группа людей",
-              "tr": "topluluk",
-              "ur": "لوگ",
-              "zh": "那群人"
-            },
             "word": "الْقَوْمُ"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "তারপর তারা শোনে",
-              "de": "und sie hören zu",
-              "en": "so they listen",
-              "es": "y escuchan",
-              "fa": "پس گوش می‌دهند",
-              "fr": "et ils écoutent",
-              "id": "lalu mereka mendengarkan",
-              "ru": "и слушают",
-              "tr": "ve dinliyorlar",
-              "ur": "تو وہ سنتے ہیں",
-              "zh": "然后他们倾听"
-            },
             "word": "فَيَسْتَمِعُونَ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "আমার কাছ থেকে",
-              "de": "von mir",
-              "en": "from me",
-              "es": "de mí",
-              "fa": "از من",
-              "fr": "de moi",
-              "id": "dariku",
-              "ru": "от меня",
-              "tr": "benden",
-              "ur": "مجھ سے",
-              "zh": "从我这里"
-            },
             "word": "مِنِّي"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "আপনাদের হাদিস",
-              "de": "eure Hadiths",
-              "en": "your hadiths",
-              "es": "vuestros hadiths",
-              "fa": "احادیث شما",
-              "fr": "vos hadiths",
-              "id": "hadits-hadits kalian",
-              "ru": "ваши хадисы",
-              "tr": "sizin hadislerinizi",
-              "ur": "آپ کی احادیث",
-              "zh": "您们的圣训"
-            },
             "word": "حَدِيثَكُمْ"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "তাই আমি ক্লান্ত হই",
-              "de": "und ich werde müde",
-              "en": "so I become wearied/bored",
-              "es": "y me canso",
-              "fa": "خسته می‌شوم",
-              "fr": "et je me lasse",
-              "id": "lalu aku merasa lelah",
-              "ru": "и устаю",
-              "tr": "beziliyorum",
-              "ur": "تو میں تھک جاتا ہوں",
-              "zh": "于是我感到疲倦"
-            },
             "word": "فَأَضْجَرُ"
           },
           {
             "pos": "CONJ",
-            "translation": {
-              "bn": "এবং পারি না",
-              "de": "und nicht",
-              "en": "and not/cannot",
-              "es": "y no",
-              "fa": "و نمی‌توانم",
-              "fr": "et ne peux pas",
-              "id": "dan tidak",
-              "ru": "и не",
-              "tr": "ve yapamıyorum",
-              "ur": "اور نہیں",
-              "zh": "而且不能"
-            },
             "word": "وَلَا"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "সক্ষম হই",
-              "de": "stark genug bin",
-              "en": "am able/strong enough",
-              "es": "tengo fuerzas",
-              "fa": "توانایی دارم",
-              "fr": "j'ai la force",
-              "id": "mampu",
-              "ru": "в силах",
-              "tr": "güç yetiriyorum",
-              "ur": "طاقت رکھتا ہوں",
-              "zh": "有足够力气"
-            },
             "word": "أَقْوَى"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "তিনি বললেন",
-              "de": "er sagte",
-              "en": "he said",
-              "es": "dijo",
-              "fa": "فرمود",
-              "fr": "il dit",
-              "id": "beliau bersabda",
-              "ru": "он сказал",
-              "tr": "buyurdu",
-              "ur": "آپ نے فرمایا",
-              "zh": "他说"
-            },
             "word": "قَالَ"
           },
           {
             "pos": "V",
-            "translation": {
-              "bn": "তাহলে পড়ো",
-              "de": "lies also",
-              "en": "then read",
-              "es": "entonces lee",
-              "fa": "پس بخوان",
-              "fr": "alors lis",
-              "id": "maka bacakanlah",
-              "ru": "тогда читай",
-              "tr": "öyleyse oku",
-              "ur": "تو پڑھو",
-              "zh": "那么就念"
-            },
             "word": "فَاقْرَأْ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "তাদের কাছে",
-              "de": "für sie",
-              "en": "to them/upon them",
-              "es": "para ellos",
-              "fa": "برای آنها",
-              "fr": "pour eux",
-              "id": "kepada mereka",
-              "ru": "им",
-              "tr": "onlara",
-              "ur": "انہیں",
-              "zh": "给他们"
-            },
             "word": "عَلَيْهِمْ"
           },
           {
             "pos": "PREP",
-            "translation": {
-              "bn": "থেকে",
-              "de": "von",
-              "en": "from",
-              "es": "de",
-              "fa": "از",
-              "fr": "de",
-              "id": "dari",
-              "ru": "из",
-              "tr": "-den",
-              "ur": "سے",
-              "zh": "从"
-            },
             "word": "مِنْ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "তার শুরু থেকে",
-              "de": "seinem Anfang",
-              "en": "its beginning",
-              "es": "su comienzo",
-              "fa": "ابتدای آن",
-              "fr": "son début",
-              "id": "awalnya",
-              "ru": "его начала",
-              "tr": "onun başından",
-              "ur": "اس کے آغاز سے",
-              "zh": "它的开头"
-            },
             "word": "أَوَّلِهِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "একটি হাদিস",
-              "de": "ein Hadith",
-              "en": "a hadith",
-              "es": "un hadith",
-              "fa": "حدیثی",
-              "fr": "un hadith",
-              "id": "sebuah hadits",
-              "ru": "хадис",
-              "tr": "bir hadis",
-              "ur": "ایک حدیث",
-              "zh": "一条圣训"
-            },
             "word": "حَدِيثاً"
           },
           {
             "pos": "CONJ",
-            "translation": {
-              "bn": "এবং থেকে",
-              "de": "und von",
-              "en": "and from",
-              "es": "y de",
-              "fa": "و از",
-              "fr": "et de",
-              "id": "dan dari",
-              "ru": "и из",
-              "tr": "ve -den",
-              "ur": "اور سے",
-              "zh": "以及从"
-            },
             "word": "وَمِنْ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "তার মধ্য থেকে",
-              "de": "seiner Mitte",
-              "en": "its middle",
-              "es": "su parte central",
-              "fa": "میانه‌اش",
-              "fr": "son milieu",
-              "id": "tengahnya",
-              "ru": "его середины",
-              "tr": "onun ortasından",
-              "ur": "اس کے درمیان سے",
-              "zh": "它的中间"
-            },
             "word": "وَسَطِهِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "একটি হাদিস",
-              "de": "ein Hadith",
-              "en": "a hadith",
-              "es": "un hadith",
-              "fa": "حدیثی",
-              "fr": "un hadith",
-              "id": "sebuah hadits",
-              "ru": "хадис",
-              "tr": "bir hadis",
-              "ur": "ایک حدیث",
-              "zh": "一条圣训"
-            },
             "word": "حَدِيثاً"
           },
           {
             "pos": "CONJ",
-            "translation": {
-              "bn": "এবং থেকে",
-              "de": "und von",
-              "en": "and from",
-              "es": "y de",
-              "fa": "و از",
-              "fr": "et de",
-              "id": "dan dari",
-              "ru": "и из",
-              "tr": "ve -den",
-              "ur": "اور سے",
-              "zh": "以及从"
-            },
             "word": "وَمِنْ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "তার শেষ থেকে",
-              "de": "seinem Ende",
-              "en": "its end",
-              "es": "su final",
-              "fa": "پایان آن",
-              "fr": "sa fin",
-              "id": "akhirnya",
-              "ru": "его конца",
-              "tr": "onun sonundan",
-              "ur": "اس کے آخر سے",
-              "zh": "它的末尾"
-            },
             "word": "آخِرِهِ"
           },
           {
             "pos": "N",
-            "translation": {
-              "bn": "একটি হাদিস",
-              "de": "ein Hadith",
-              "en": "a hadith",
-              "es": "un hadith",
-              "fa": "حدیثی",
-              "fr": "un hadith",
-              "id": "sebuah hadits",
-              "ru": "хадис",
-              "tr": "bir hadis",
-              "ur": "ایک حدیث",
-              "zh": "一条圣训"
-            },
             "word": "حَدِيثاً"
           }
         ]

@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "قَالَ أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আবু জাফর عليه السلام বললেন:",
-              "de": "Abu Jaʿfar عليه السلام sagte:",
-              "en": "Abu Jaʿfar عليه السلام said:",
-              "es": "Abu Jaʿfar عليه السلام dijo:",
-              "fa": "ابوجعفر علیه السلام فرمود:",
-              "fr": "Abu Jaʿfar عليه السلام a dit :",
-              "id": "Abu Jaʿfar عليه السلام berkata:",
-              "ru": "Абу Джафар عليه السلام сказал:",
-              "tr": "Ebu Cafer عليه السلام şöyle dedi:",
-              "ur": "ابو جعفر علیہ السلام نے فرمایا:",
-              "zh": "阿布贾法尔عليهالسلام说："
-            },
             "word_end": 5,
             "word_start": 0
           },
           {
             "arabic_text": "«بُنِيَ الْإِسْلَامُ عَلَى خَمْسَةِ أَشْيَاءَ عَلَى الصَّلَاةِ وَالزَّكَاةِ وَالْحَجِّ وَالصَّوْمِ وَالْوَلَايَةِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "ইসলাম পাঁচটি জিনিসের উপর প্রতিষ্ঠিত: সালাত (নামাজ), জাকাত (যাকাত), হজ্জ (হজ), সাওম (রোজা), এবং উইলায়াহ (দিব্য নিযুক্ত কর্তৃত্ব)।",
-              "de": "Der Islam baut auf fünf Dingen auf: Salat (Gebet), Zakat (Almosensteuer), Hajj (Pilgerfahrt), Sawm (Fasten) und Wilayah (göttlich ernannte Autorität).",
-              "en": "\"Islam is built upon five things: salat (prayer), zakat (alms-tax), hajj (pilgrimage), sawm (fasting), and wilayah (divinely appointed authority).\"",
-              "es": "El Islam se construye sobre cinco cosas: salat (oración), zakat (impuesto de caridad), hajj (peregrinación), sawm (ayuno) y wilayah (autoridad designada divinamente).",
-              "fa": "اسلام بر پنج چیز بنا شده است: صلات (نماز)، زکات (مالیات صدقه)، حج (زیارت)، صوم (روزه) و ولایت (اقتدار منصوب شده الهی).",
-              "fr": "L'islam est fondé sur cinq choses : salat (prière), zakat (aumône), hajj (pèlerinage), sawm (jeûne) et wilayah (autorité divine désignée).",
-              "id": "Islam dibangun atas lima hal: salat (shalat), zakat (zakat), haji (haji), sawm (puasa), dan wilayah (otoritas yang ditunjuk secara ilahi).",
-              "ru": "Ислам основан на пяти вещах: салат (молитва), закят (пожертвование), хадж (паломничество), саум (пост) и вилайят (божественно назначенная власть).",
-              "tr": "İslam beş şeye dayanır: salat (namaz), zekat (zekât), hac (hacc), savm (oruç) ve velayet (ilahî tayin edilmiş otorite).",
-              "ur": "اسلام پانچ چیزوں پر قائم ہے: صلات (نماز)، زکات (صدقہ)، حج (حج)، صوم (روزہ)، اور ولایت (الہی طور پر مقرر کردہ اختیار)۔",
-              "zh": "伊斯兰建立在五件事上：salat（礼拜）、zakat（天课）、hajj（朝觐）、sawm（斋戒）和wilayah（神圣指定的权威）。"
-            },
             "word_end": 16,
             "word_start": 5
           }
@@ -80,27 +67,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الزَّكَاةِ": "zakat (alms-tax), the obligatory charitable due",
-            "الصَّلَاةِ": "salat (prayer), the prescribed ritual prayer",
-            "الصَّوْمِ": "sawm (fasting), ritual fasting",
-            "الْإِسْلَامُ": "Islam, the religion being described as resting upon foundational principles",
-            "الْحَجِّ": "hajj (pilgrimage), the pilgrimage to the Sacred House",
-            "الْوَلَايَةِ": "wilayah, divinely appointed authority and loyalty",
-            "خَمْسَةِ": "five, indicating the number of foundational elements"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْإِسْلَامُ",
+          "خَمْسَةِ",
+          "الصَّلَاةِ",
+          "الزَّكَاةِ",
+          "الْحَجِّ",
+          "الصَّوْمِ",
+          "الْوَلَايَةِ"
+        ],
         "related_quran": [
           {
             "ref": "2:43",
@@ -123,32 +98,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আবু জাফর عليه السلام অনুযায়ী ইসলাম কোন পাঁচটি ভিত্তির উপর প্রতিষ্ঠিত?",
-          "de": "Auf welchen fünf Grundlagen baut der Islam laut Imam Abu Jaʿfar عليه السلام auf?",
-          "en": "What are the five foundations upon which Islam is built according to Imam Abu Jaʿfar عليه السلام?",
-          "es": "¿Cuáles son los cinco fundamentos sobre los que se construye el Islam según el Imam Abu Jaʿfar عليه السلام?",
-          "fa": "بر اساس امام ابوجعفر علیه السلام، اسلام بر چه پنج پایه‌ای بنا شده است؟",
-          "fr": "Quels sont les cinq fondements sur lesquels l'islam est construit selon l'Imam Abu Jaʿfar عليه السلام ?",
-          "id": "Menurut Imam Abu Jaʿfar عليه السلام, Islam dibangun atas lima fondasi apa saja?",
-          "ru": "На каких пяти основах строится ислам согласно Имаму Абу Джафару عليه السلام?",
-          "tr": "İmam Ebu Cafer عليه السلام'a göre İslam hangi beş temel üzerine kuruludur?",
-          "ur": "امام ابو جعفر علیہ السلام کے مطابق اسلام کس پانچ بنیادی ستونوں پر قائم ہے؟",
-          "zh": "根据伊玛目阿布贾法尔عليهالسلام，伊斯兰建立在哪五个基础上？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে ইসলাম পাঁচটি গুরুত্বপূর্ণ স্তম্ভের উপর প্রতিষ্ঠিত। সালাত, জাকাত, হজ্জ এবং সাওমের মতো মূল ইবাদতের পাশাপাশি উইলায়াহকেও একটি মৌলিক উপাদান হিসেবে অন্তর্ভুক্ত করা হয়েছে, যা ধর্মে দিব্য নিযুক্ত কর্তৃত্বের কেন্দ্রীয়তা নির্দেশ করে।",
-          "de": "Dieser Hadith besagt, dass der Islam auf fünf wesentlichen Säulen aufgebaut ist. Neben den Kernhandlungen der Anbetung wie Salat, Zakat, Hajj und Sawm umfasst er auch Wilayah als grundlegendes Element, was die zentrale Bedeutung der göttlich bestimmten Autorität in der Religion anzeigt.",
-          "en": "This hadith states that Islam is founded upon five essential pillars. Alongside core acts of worship such as salat, zakat, hajj, and sawm, it includes wilayah as a foundational element, indicating the centrality of divinely appointed authority in the religion.",
-          "es": "Este hadiz establece que el Islam se fundamenta en cinco pilares esenciales. Además de actos centrales de adoración como salat, zakat, hajj y sawm, incluye la wilayah como un elemento fundamental, indicando la centralidad de la autoridad designada divinamente en la religión.",
-          "fa": "این حدیث بیان می‌کند که اسلام بر پنج رکن اساسی بنا شده است. علاوه بر اعمال عبادی اصلی مانند صلات، زکات، حج و صوم، ولایت به عنوان یک عنصر بنیادین شامل شده است که نشان‌دهنده اهمیت اقتدار منصوب شده الهی در دین است.",
-          "fr": "Ce hadith affirme que l'islam repose sur cinq piliers essentiels. Outre les actes fondamentaux d'adoration tels que la salat, la zakat, le hajj et le sawm, il inclut la wilayah comme un élément fondamental, indiquant la centralité de l'autorité divine dans la religion.",
-          "id": "Hadis ini menyatakan bahwa Islam didirikan atas lima pilar penting. Selain ibadah inti seperti salat, zakat, haji, dan sawm, wilayah juga termasuk sebagai elemen dasar yang menunjukkan sentralitas otoritas yang ditunjuk secara ilahi dalam agama.",
-          "ru": "Этот хадис утверждает, что ислам основан на пяти основных столпах. Помимо основных актов поклонения, таких как салат, закят, хадж и саум, он включает вилайят как фундаментальный элемент, указывая на центральную роль божественно назначенной власти в религии.",
-          "tr": "Bu hadis, İslam'ın beş temel direk üzerine kurulduğunu belirtir. Salat, zekat, hac ve savm gibi temel ibadetlerin yanı sıra, dinin merkezinde ilahi tayin edilmiş otorite olan velayetin de temel bir unsur olduğunu gösterir.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ اسلام پانچ بنیادی ستونوں پر قائم ہے۔ نماز، زکات، حج اور روزے جیسے عبادات کے ساتھ ساتھ ولایت کو بھی ایک بنیادی عنصر کے طور پر شامل کیا گیا ہے، جو دین میں الہی طور پر مقرر کردہ اختیار کی مرکزی حیثیت کو ظاہر کرتا ہے۔",
-          "zh": "这段圣训指出伊斯兰建立在五个基本支柱上。除了礼拜、天课、朝觐和斋戒等核心崇拜行为外，还包括wilayah作为基础元素，表明神圣指定权威在宗教中的核心地位。"
-        },
         "tags": [
           "worship",
           "theology",

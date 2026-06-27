@@ -17,61 +17,35 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَفِي رِوَايَةِ السَّكُونِيِّ بِإِسْنَادِهِ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং আল-সাকূনী এর বর্ণনায়, তার sanad সহ,",
-              "de": "Und in der Überlieferung von al-Sakūnī, mit seiner Überlieferungskette,",
-              "en": "And in the narration of al-Sakūnī, with his chain of transmission,",
-              "es": "Y en la narración de al-Sakūnī, con su cadena de transmisión,",
-              "fa": "و در روایت السکونی، با سند خود،",
-              "fr": "Et dans la narration d'al-Sakūnī, avec sa chaîne de transmission,",
-              "id": "Dan dalam riwayat al-Sakūnī, dengan sanadnya,",
-              "ru": "И в передаче аль-Сакуни, с его цепочкой передачи,",
-              "tr": "Ve el-Sakūnî rivayetinde, isnadıyla,",
-              "ur": "اور اَلسَّکُونِی کی روایت میں، اپنی سند کے ساتھ،",
-              "zh": "并且在السكوني的传述中，带有他的传链，"
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "أَنَّ أَمِيرَ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "যে আমীরুল মুমিনীন عليه السلام বললেন:",
-              "de": "dass Amīr al-Muʾminīn علیه السلام sagte:",
-              "en": "that Amīr al-Muʾminīn عليه السلام said:",
-              "es": "que Amīr al-Muʾminīn عليه السلام dijo:",
-              "fa": "که امیرالمؤمنین علیه السلام فرمود:",
-              "fr": "qu'Amīr al-Muʾminīn عليه السلام a dit :",
-              "id": "bahwa Amīr al-Muʾminīn علیه السلام berkata:",
-              "ru": "что Амир аль-Муминин عليه السلام сказал:",
-              "tr": "Amīr al-Muʾminīn علیه السلام şöyle dedi:",
-              "ur": "کہ امیرالمؤمنین علیہ السلام نے فرمایا:",
-              "zh": "阿米尔·阿尔-穆’मिनीनعليه السلام说："
-            },
             "word_end": 10,
             "word_start": 4
           },
           {
             "arabic_text": "«مَنْ أَدَّى زَكَاةَ الْفِطْرَةِ تَمَّمَ اللَّهُ لَهُ بِهَا مَا نَقَصَ مِنْ زَكَاةِ مَالِهِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "‘‘যে ব্যক্তি যাকাত আল-ফিতরা প্রদান করে, আল্লাহ তার সম্পদের যাকাতের যে ঘাটতি আছে তা পূর্ণ করে দেন।’’",
-              "de": "„Wer Zakāt al-Fiṭrah entrichtet, dem wird Allah damit das, was an der Zakat seines Vermögens fehlt, ergänzen.“",
-              "en": "\"Whoever pays Zakāt al-Fiṭrah, Allah will complete with it whatever is lacking in the zakat of his wealth.\"",
-              "es": "“Quien paga Zakāt al-Fiṭrah, Allah completará con ello lo que falte en la zakat de su riqueza.”",
-              "fa": "«هر کس زکات الفطر را ادا کند، خداوند آنچه در زکات مالش کم است را با آن کامل می‌کند.»",
-              "fr": "«Quiconque paie la Zakāt al-Fiṭrah, Allah complétera avec cela ce qui manque dans la zakat de sa richesse.»",
-              "id": "“Barangsiapa membayar Zakāt al-Fiṭrah, Allah akan melengkapi dengan itu apa yang kurang dalam zakat hartanya.”",
-              "ru": "«Кто платит Закят аль-Фитр, Аллах дополнит им то, чего не хватает в закяте его имущества.»",
-              "tr": "“Kim Zakāt al-Fiṭrah verir ise, Allah onun malının zekatında eksik olanı onunla tamamlar.”",
-              "ur": "‘‘جو شخص زکاة الفطر ادا کرتا ہے، اللہ تعالیٰ اس کے مال کی زکات میں جو کمی ہے اسے اس کے ذریعے پورا کر دیتا ہے۔’’",
-              "zh": "“凡支付斋戒开斋慈善税者，真主将以此补足其财富斋慈税中所缺之处。”"
-            },
             "word_end": 23,
             "word_start": 10
           }
@@ -100,26 +74,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَمِيرَ الْمُؤْمِنِينَ": "title of Imam ʿAlī عليه السلام, the Commander of the Faithful",
-            "بِإِسْنَادِهِ": "with its chain of narrators",
-            "تَمَّمَ": "completed or made up in full",
-            "رِوَايَةِ": "a transmitted narration or report",
-            "زَكَاةَ الْفِطْرَةِ": "the alms of fiṭrah due at the end of Ramadan",
-            "زَكَاةِ مَالِهِ": "the zakat due on one’s property or wealth"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "رِوَايَةِ",
+          "بِإِسْنَادِهِ",
+          "أَمِيرَ الْمُؤْمِنِينَ",
+          "زَكَاةَ الْفِطْرَةِ",
+          "تَمَّمَ",
+          "زَكَاةِ مَالِهِ"
+        ],
         "related_quran": [
           {
             "ref": "87:14-15",
@@ -134,32 +96,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যাকাত আল-ফিতরা প্রদান করা সম্পদের যাকাতের ঘাটতির সাথে কীভাবে সম্পর্কিত?",
-          "de": "Wie hängt das Zahlen der Zakāt al-Fiṭrah mit Mängeln in der Zakat des Vermögens zusammen?",
-          "en": "How does paying Zakāt al-Fiṭrah relate to deficiencies in the zakat of one’s wealth?",
-          "es": "¿Cómo se relaciona el pago de Zakāt al-Fiṭrah con las deficiencias en la zakat de la riqueza?",
-          "fa": "پرداخت زکات الفطر چگونه با نقص‌های زکات مال ارتباط دارد؟",
-          "fr": "Comment le paiement de la Zakāt al-Fiṭrah est-il lié aux déficiences dans la zakat des richesses ?",
-          "id": "Bagaimana membayar Zakāt al-Fiṭrah terkait dengan kekurangan dalam zakat harta seseorang?",
-          "ru": "Как уплата Закят аль-Фитр связана с недостатками в закяте имущества?",
-          "tr": "Zakāt al-Fiṭrah vermek, malın zekatındaki eksikliklerle nasıl ilişkilidir?",
-          "ur": "زکاة الفطر ادا کرنے کا مال کی زکات میں کمی سے کیا تعلق ہے؟",
-          "zh": "支付斋戒开斋慈善税与财富斋慈税中的不足有何关联？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি জানায় যে যাকাত আল-ফিতরা প্রদান করার মাধ্যমে সম্পদের যাকাতের ঘাটতি পূরণ হয়। এটি এই ইবাদতের গুরুত্ব এবং আর্থিক পরিশুদ্ধতার সাথে এর সম্পর্ককে তুলে ধরে।",
-          "de": "Dieser Hadith besagt, dass das Zahlen der Zakāt al-Fiṭrah eine ausgleichende spirituelle Wirkung hinsichtlich von Mängeln in der Zakat des Vermögens hat. Er hebt die Bedeutung dieser Anbetungshandlung und ihre Verbindung zur finanziellen Reinigung hervor.",
-          "en": "This hadith states that paying Zakāt al-Fiṭrah has a compensatory spiritual effect regarding deficiencies in one’s wealth zakat. It highlights the importance of this act of worship and its connection to financial purification.",
-          "es": "Este hadiz indica que pagar Zakāt al-Fiṭrah tiene un efecto espiritual compensatorio respecto a las deficiencias en la zakat de la riqueza. Destaca la importancia de este acto de adoración y su conexión con la purificación financiera.",
-          "fa": "این حدیث بیان می‌کند که پرداخت زکات الفطر تأثیر معنوی جبرانی در نقص‌های زکات مال دارد. اهمیت این عمل عبادی و ارتباط آن با پاک‌سازی مالی را نشان می‌دهد.",
-          "fr": "Ce hadith indique que le paiement de la Zakāt al-Fiṭrah a un effet spirituel compensatoire concernant les déficiences dans la zakat des richesses. Il souligne l'importance de cet acte d'adoration et son lien avec la purification financière.",
-          "id": "Hadis ini menyatakan bahwa membayar Zakāt al-Fiṭrah memiliki efek spiritual kompensasi terhadap kekurangan dalam zakat harta seseorang. Ini menyoroti pentingnya ibadah ini dan kaitannya dengan penyucian finansial.",
-          "ru": "Этот хадис утверждает, что уплата Закят аль-Фитр оказывает компенсирующее духовное воздействие на недостатки в закяте имущества. Он подчеркивает важность этого акта поклонения и его связь с финансовым очищением.",
-          "tr": "Bu hadis, Zakāt al-Fiṭrah vermenin, malın zekatındaki eksiklikleri telafi eden manevi bir etkisi olduğunu belirtir. Bu ibadetin önemini ve mali arınmayla bağlantısını vurgular.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ زکاة الفطر ادا کرنے کا روحانی اثر ہوتا ہے جو کہ مال کی زکات میں کمی کو پورا کرتا ہے۔ یہ عبادت کے اس عمل کی اہمیت اور مالی پاکیزگی سے اس کے تعلق کو ظاہر کرتا ہے۔",
-          "zh": "此圣训说明支付斋戒开斋慈善税对财富斋慈税中的不足具有补偿性的精神效应，强调了此崇拜行为的重要性及其与财务净化的联系。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

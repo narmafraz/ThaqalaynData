@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَنْهُ عَنْ حَمَّادٍ عَنْ حَرِيزٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "তাঁর থেকে, হাম্মাদ থেকে, হারীয থেকে, আবু ‘আবদুল্লাহ عليه السلام থেকে, তিনি বলেছেন:",
-              "de": "Von ihm, von Hammad, von Hariz, von Abu 'Abd Allah عليه السلام, der sagte:",
-              "en": "From him, from Hammad, from Hariz, from Abu 'Abd Allah عليه السلام, who said:",
-              "es": "De él, de Hammad, de Hariz, de Abu 'Abd Allah عليه السلام, quien dijo:",
-              "fa": "از او، از حمّاد، از حریز، از ابو عبدالله علیه‌السلام، که فرمود:",
-              "fr": "De lui, de Hammad, de Hariz, d'Abu 'Abd Allah عليه السلام, qui a dit :",
-              "id": "Darinya, dari Hammad, dari Hariz, dari Abu 'Abd Allah عليه السلام, beliau bersabda:",
-              "ru": "От него, от Хаммада, от Хариза, от Абу 'Абд Аллаха عليه السلام, который сказал:",
-              "tr": "Ondan, Hammad’dan, Hariz’den, Ebu Abdullah عليه السلام’dan, şöyle dedi:",
-              "ur": "ان سے، حماد سے، حریز سے، ابو عبد اللہ علیہ السلام سے، انہوں نے فرمایا:",
-              "zh": "由他传自哈马德，传自哈里兹，传自阿布‘阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُهُ عَنِ الرَّجُلِ يُطَافُ بِهِ وَيُرْمَى عَنْهُ، قَالَ: نَعَمْ إِذَا كَانَ لَا يَسْتَطِيعُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাঁকে এমন এক ব্যক্তির সম্পর্কে জিজ্ঞেস করলাম, যার জন্য তাওয়াফ করা হয় এবং যার জন্য রমি করা হয়। তিনি বললেন: হ্যাঁ, যদি সে সক্ষম না হয়।",
-              "de": "Ich fragte ihn nach einem Mann, für den der Tawaf vollzogen wird und für den das Steinigen vollzogen wird. Er sagte: Ja, wenn er dazu nicht in der Lage ist.",
-              "en": "I asked him about a man for whom tawaf is performed and for whom the stoning is done. He said: Yes, if he is unable.",
-              "es": "Le pregunté acerca de un hombre por quien se realiza el tawaf y por quien se realiza la lapidación. Dijo: Sí, si no puede.",
-              "fa": "از او درباره مردی پرسیدم که برای او طواف انجام می‌شود و برای او رمی انجام می‌گیرد. فرمود: آری، اگر نتواند.",
-              "fr": "Je lui ai demandé au sujet d’un homme pour qui l’on accomplit le tawaf et pour qui l’on accomplit la lapidation. Il a dit : Oui, s’il n’en est pas capable.",
-              "id": "Aku bertanya kepadanya tentang seorang laki-laki yang untuknya dilakukan tawaf dan untuknya dilakukan pelemparan. Beliau bersabda: Ya, jika ia tidak mampu.",
-              "ru": "Я спросил его о человеке, за которого совершают таваф и за которого совершают побивание камнями. Он сказал: Да, если он не способен.",
-              "tr": "Ben ona, adına tavaf yapılan ve adına taşlama yapılan bir adam hakkında sordum. Buyurdu ki: Evet, eğer buna gücü yetmiyorsa.",
-              "ur": "میں نے ان سے ایک ایسے آدمی کے بارے میں پوچھا جس کی طرف سے طواف کیا جاتا ہے اور جس کی طرف سے رمی کی جاتی ہے۔ انہوں نے فرمایا: ہاں، اگر وہ استطاعت نہ رکھتا ہو۔",
-              "zh": "我问他：关于一个人为他做塔瓦夫并为他投石的人。他说：是的，如果他无能为力。"
-            },
             "word_end": 25,
             "word_start": 12
           }
@@ -104,26 +91,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الرَّجُلِ": "the man under discussion, meaning the person affected by the ruling",
-            "عَنْهُ": "on his behalf, indicating deputized performance of the rite",
-            "لَا يَسْتَطِيعُ": "he is unable, meaning lacking the ability to perform the rite himself",
-            "نَعَمْ": "yes, an affirmative legal response",
-            "يُرْمَى": "the stoning is carried out, referring to the ritual casting at the jamarat",
-            "يُطَافُ": "tawaf is performed, referring to circumambulation in hajj rites"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الرَّجُلِ",
+          "يُطَافُ",
+          "يُرْمَى",
+          "عَنْهُ",
+          "نَعَمْ",
+          "لَا يَسْتَطِيعُ"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
@@ -138,32 +113,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "",
-          "de": "",
-          "en": "Can tawaf and stoning be performed for a sick person who is unable during hajj?",
-          "es": "",
-          "fa": "",
-          "fr": "",
-          "id": "",
-          "ru": "",
-          "tr": "",
-          "ur": "",
-          "zh": ""
-        },
-        "summaries": {
-          "bn": "",
-          "de": "",
-          "en": "This hadith gives a legal ruling concerning an ill or incapacitated person during hajj rites. It states that tawaf may be performed with him, and the stoning may be done on his behalf, if he is unable.",
-          "es": "",
-          "fa": "",
-          "fr": "",
-          "id": "",
-          "ru": "",
-          "tr": "",
-          "ur": "",
-          "zh": ""
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -15,6 +15,137 @@
       "up": "/books/al-kafi:8:1:40"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ سَهْلِ بْنِ زِيَادٍ عَنْ مُحَمَّدِ بْنِ الْوَلِيدِ عَنْ يُونُسَ بْنِ يَعْقُوبَ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 16,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "أَنْشَدَ الْكُمَيْتُ أَبَا عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) شِعْراً فَقَالَ: أَخْلَصَ اللَّهُ لِي هَوَايَ فَمَا أُغْرِقُ نَزْعاً وَ لَا تَطِيشُ سِهَامِي فَقَالَ أَبُو عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) لَا تَقُلْ هَكَذَا فَمَا أُغْرِقُ نَزْعاً وَ لَكِنْ قُلْ فَقَدْ أُغْرِقَ نَزْعاً وَ لَا تَطِيشُ سِهَامِي.",
+            "chunk_type": "body",
+            "word_end": 58,
+            "word_start": 16
+          },
+          {
+            "arabic_text": "فَمَا أُغْرِقُ نَزْعاً",
+            "chunk_type": "body",
+            "word_end": 61,
+            "word_start": 58
+          },
+          {
+            "arabic_text": "وَلَكِ قُلْ فَقَدْ أُغْرِقَ نَزْعاً",
+            "chunk_type": "body",
+            "word_end": 66,
+            "word_start": 61
+          },
+          {
+            "arabic_text": "وَلَا تَطِيشُ سِهَامِي",
+            "chunk_type": "body",
+            "word_end": 69,
+            "word_start": 66
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 8,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "سَهْلِ بْنِ زِيَادٍ",
+              "name_en": "Sahl ibn Ziyad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 247,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ الْوَلِيدِ",
+              "name_en": "Muhammad ibn al-Walid",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 85,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "يُونُسَ بْنِ يَعْقُوبَ",
+              "name_en": "Yunus ibn Ya'qub",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الْكُمَيْتُ",
+          "نَزْعاً",
+          "سِهَامِي",
+          "أَبُو عَبْدِ اللَّهِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "12:90",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "59:2",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "prophetic_tradition"
+        ],
+        "topics": [
+          "imams_biography",
+          "prophetic_character",
+          "etiquette"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 136)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -87,7 +218,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:40:8",

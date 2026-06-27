@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى مُحَمَّدُ بْنُ الْوَلِيدِ عَنْ حَمَّادِ بْنِ عُثْمَانَ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবনে আল-ওয়ালিদ হাম্মাদ ইবনে উসমান থেকে, তিনি আবু আব্দিল্লাহ عليه السلام থেকে روایت করেছেন, যিনি বললেন:",
-              "de": "Muḥammad ibn al-Walīd berichtete von Ḥammād ibn ʿUthmān, von Abū ʿAbdillāh عليه السلام, der sagte:",
-              "en": "Muḥammad ibn al-Walīd narrated from Ḥammād ibn ʿUthmān, from Abū ʿAbdillāh عليه السلام, who said:",
-              "es": "Muḥammad ibn al-Walīd narró de Ḥammād ibn ʿUthmān, de Abū ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "محمد بن الولید از حماد بن عثمان از ابوعبدالله علیه السلام روایت کرده که فرمود:",
-              "fr": "Muḥammad ibn al-Walīd a rapporté de Ḥammād ibn ʿUthmān, d'Abū ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Muḥammad ibn al-Walīd meriwayat dari Ḥammād ibn ʿUthmān, dari Abū ʿAbdillāh علیه السلام, yang berkata:",
-              "ru": "Мухаммад ибн аль-Валид передал от Хаммада ибн Усмана, от Абу Абдиллаха عليه السلام, который сказал:",
-              "tr": "Muhammed ibn al-Walid, Hammad ibn Uthman'dan, o da Ebu Abdillah (aleyhisselam)'dan rivayet etti, şöyle dedi:",
-              "ur": "محمد ابن الولید نے حماد ابن عثمان سے روایت کی، جو ابو عبداللہ علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "穆罕默德本瓦利德传述自哈马德本乌斯曼，自阿布阿卜杜拉 عليه السلام 说："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "إِنَّمَا جُعِلَ لِلْمَرْأَةِ قِيمَةُ الْخَشَبِ وَ الطُّوبِ لِئَلَّا تَتَزَوَّجَ فَتُدْخِلَ عَلَيْهِمْ مَنْ يُفْسِدُ مَوَارِيثَهُمْ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "মহিলাকে কেবল কাঠ এবং ইটের মূল্য দেওয়া হয়েছে যাতে তিনি বিয়ে না করেন এবং তাদের উত্তরাধিকারকে নষ্ট করার মতো কেউ তাদের মধ্যে প্রবেশ না করে।",
-              "de": "Der Frau wurde nur der Wert von Holz und Ziegeln gegeben, damit sie nicht heiratet und jemanden in ihre Erbschaft bringt, der diese verderben würde.",
-              "en": "The woman was only given the value of the wood and the bricks so that she would not marry and bring upon them someone who would corrupt their inheritances.",
-              "es": "A la mujer solo se le dio el valor de la madera y los ladrillos para que no se casara y trajera a alguien que corrompiera sus herencias.",
-              "fa": "به زن فقط ارزش چوب و آجر داده شده است تا ازدواج نکند و کسی که میراث آنها را فاسد می‌کند وارد نشود.",
-              "fr": "La femme n'a reçu que la valeur du bois et des briques afin qu'elle ne se marie pas et n'introduise pas quelqu'un qui corromprait leurs héritages.",
-              "id": "Wanita hanya diberikan nilai kayu dan batu bata agar dia tidak menikah dan membawa seseorang yang merusak warisan mereka.",
-              "ru": "Женщине была дана только стоимость древесины и кирпичей, чтобы она не вышла замуж и не привела к ним того, кто испортит их наследство.",
-              "tr": "Kadına sadece odun ve tuğlanın değeri verildi ki evlenip onların mirasını bozacak birini getirmesin.",
-              "ur": "عورت کو صرف لکڑی اور اینٹوں کی قیمت دی گئی تاکہ وہ شادی نہ کرے اور ان کے ورثے کو بگاڑنے والا کوئی شخص ان کے درمیان نہ لے آئے۔",
-              "zh": "女人仅被赋予木材和砖块的价值，以防她结婚并带来破坏他们遗产的人。"
-            },
             "word_end": 30,
             "word_start": 16
           }
@@ -101,23 +88,11 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "قِيمَةُ الْخَشَبِ وَ الطُّوبِ": "The monetary value of wood and bricks in an inheritance ruling",
-            "لِلْمَرْأَةِ": "Refers to the woman as the legal recipient in this ruling",
-            "مَوَارِيثَهُمْ": "Their inheritances or inherited estate"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "قِيمَةُ الْخَشَبِ وَ الطُّوبِ",
+          "لِلْمَرْأَةِ",
+          "مَوَارِيثَهُمْ"
+        ],
         "related_quran": [
           {
             "ref": "4:11",
@@ -132,32 +107,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "উত্তরাধিকার ক্ষেত্রে মহিলাকে কেন কাঠ ও ইটের প্রকৃত সামগ্রী না দিয়ে তাদের মূল্য দেওয়া হয়?",
-          "de": "Warum wird einer Frau im Erbfall der Wert von Holz und Ziegeln gegeben und nicht die physischen Materialien selbst?",
-          "en": "Why is a woman given the value of wood and bricks in inheritance rather than the physical materials themselves?",
-          "es": "¿Por qué a la mujer se le da el valor de la madera y los ladrillos en la herencia en lugar de los materiales físicos mismos?",
-          "fa": "چرا در ارث به زن ارزش چوب و آجر داده می‌شود نه خود مواد فیزیکی؟",
-          "fr": "Pourquoi donne-t-on à la femme la valeur du bois et des briques dans l'héritage plutôt que les matériaux physiques eux-mêmes ?",
-          "id": "Mengapa dalam warisan wanita diberikan nilai kayu dan batu bata daripada bahan fisiknya?",
-          "ru": "Почему женщине в наследстве дают стоимость древесины и кирпичей, а не сами материалы?",
-          "tr": "Mirasta kadına neden fiziksel malzemeler yerine odun ve tuğlanın değeri verilir?",
-          "ur": "وراثت میں عورت کو لکڑی اور اینٹوں کی قیمت کیوں دی جاتی ہے بجائے اس کے کہ اصل مواد دیا جائے؟",
-          "zh": "为何继承中赋予女性木材和砖块的价值而非实物材料？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি উত্তরাধিকার প্রসঙ্গে মহিলাকে কাঠ এবং ইটের প্রকৃত সামগ্রী না দিয়ে তাদের মূল্য দেওয়ার আইনি কারণ ব্যাখ্যা করে। এটি একটি সুরক্ষামূলক ব্যবস্থা হিসেবে বিবেচিত হয়েছে যাতে বিয়ের মাধ্যমে কেউ তাদের উত্তরাধিকারকে বিঘ্নিত করতে না পারে।",
-          "de": "Dieser Hadith gibt eine rechtliche Begründung dafür, einer Frau im Erbfall den Wert von Baumaterialien anstelle der Materialien selbst zuzuweisen. Die Regel wird als Schutzmaßnahme dargestellt, um zu verhindern, dass durch Heirat eine fremde Person in die Erbschaft eingreift und diese stört.",
-          "en": "This hadith gives a legal rationale for assigning a woman the value of structural building materials rather than the materials themselves in an inheritance context. It frames the ruling as a protective measure to prevent an outsider, through marriage, from entering and disrupting the heirs’ inheritance.",
-          "es": "Este hadiz ofrece una razón legal para asignar a la mujer el valor de los materiales de construcción en lugar de los materiales mismos en un contexto de herencia. Enmarca la regla como una medida protectora para evitar que un extraño, a través del matrimonio, entre y altere la herencia de los herederos.",
-          "fa": "این حدیث دلیل حقوقی برای اختصاص ارزش مواد ساختمانی به زن به جای خود مواد در زمینه ارث را بیان می‌کند. این حکم به عنوان تدبیری حفاظتی برای جلوگیری از ورود فردی خارجی از طریق ازدواج و برهم زدن ارث وراث مطرح شده است.",
-          "fr": "Ce hadith donne une justification juridique pour attribuer à la femme la valeur des matériaux de construction plutôt que les matériaux eux-mêmes dans un contexte d'héritage. Il présente cette règle comme une mesure de protection pour empêcher qu'un étranger, par le mariage, ne perturbe l'héritage des ayants droit.",
-          "id": "Hadis ini memberikan alasan hukum untuk memberikan nilai bahan bangunan kepada wanita daripada bahan itu sendiri dalam konteks warisan. Ketentuan ini dianggap sebagai langkah perlindungan agar orang luar tidak masuk dan mengganggu warisan melalui pernikahan.",
-          "ru": "Этот хадис дает юридическое обоснование для присвоения женщине стоимости строительных материалов вместо самих материалов в контексте наследства. Правило рассматривается как мера защиты, чтобы посторонний через брак не вмешивался и не нарушал наследство наследников.",
-          "tr": "Bu hadis, miras bağlamında kadına yapı malzemelerinin kendisi yerine değerinin verilmesinin hukuki gerekçesini verir. Hüküm, evlilik yoluyla dışarıdan birinin mirasçıların hakkına müdahale etmesini önlemek için bir koruma tedbiri olarak çerçevelenir.",
-          "ur": "یہ حدیث عورت کو وراثت میں عمارت کے مواد کی اصل چیزوں کی بجائے ان کی قیمت دینے کی قانونی وجہ بیان کرتی ہے تاکہ شادی کے ذریعے کوئی غیر متعلقہ شخص ورثاء کے حق میں مداخلت نہ کرے۔",
-          "zh": "此圣训为在继承情境中赋予女性建筑材料价值而非材料本身提供法律依据，将此规定视为防止外人通过婚姻进入并破坏继承权的保护措施。"
-        },
         "tags": [
           "jurisprudence",
           "family",

@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ الْحَكَمِ عَنْ عَلِيِّ بْنِ أَبِي حَمْزَةَ عَنْ أَبِي بَصِيرٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন মুহাম্মাদ, আলী ইবন আল-হাকাম থেকে, আলী ইবন আবী হামযা থেকে, আবূ বাসীর থেকে, আবূ আবদিল্লাহ عليه السلام থেকে, যিনি বলেছেন:",
-              "de": "Aḥmad ibn Muḥammad, von ʿAlī ibn al-Ḥakam, von ʿAlī ibn Abī Ḥamzah, von Abū Baṣīr, von Abū ʿAbdillāh عليه السلام, der sagte:",
-              "en": "Aḥmad ibn Muḥammad, from ʿAlī ibn al-Ḥakam, from ʿAlī ibn Abī Ḥamzah, from Abū Baṣīr, from Abū ʿAbdillāh عليه السلام, who said:",
-              "es": "Aḥmad ibn Muḥammad, de ʿAlī ibn al-Ḥakam, de ʿAlī ibn Abī Ḥamzah, de Abū Baṣīr, de Abū ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "احمد بن محمد، از علی بن الحکم، از علی بن ابی حمزه، از ابو بصیر، از ابو عبدالله علیه السلام، که فرمود:",
-              "fr": "Aḥmad ibn Muḥammad, d’après ʿAlī ibn al-Ḥakam, d’après ʿAlī ibn Abī Ḥamzah, d’après Abū Baṣīr, d’après Abū ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Aḥmad ibn Muḥammad, dari ʿAlī ibn al-Ḥakam, dari ʿAlī ibn Abī Ḥamzah, dari Abū Baṣīr, dari Abū ʿAbdillāh عليه السلام, yang berkata:",
-              "ru": "Ахмад ибн Мухаммад, от ʿАли ибн аль-Хакама, от ʿАли ибн Аби Хамзы, от Абу Басира, от Абу ʿАбдуллаха عليه السلام, который сказал:",
-              "tr": "Ahmed ibn Muhammed, Ali ibn el-Hakam’dan, Ali ibn Ebi Hamza’dan, Ebu Basir’den, Ebu Abdullah عليه السلام’dan rivayet etti ki şöyle dedi:",
-              "ur": "احمد بن محمد، عن علی بن الحکم، عن علی بن ابی حمزہ، عن ابو بصیر، عن ابو عبداللہ علیہ السلام، جنہوں نے فرمایا:",
-              "zh": "AḥmadibnMuḥammad，传自ʿAlīibnal-Ḥakam，传自ʿAlīibnAbīḤamzah，传自AbūBaṣīr，传自AbūʿAbdillāh عليه السلام，他说："
-            },
             "word_end": 22,
             "word_start": 0
           },
           {
             "arabic_text": "لَا يُقْتَلُ الْأَبُ بِابْنِهِ إِذَا قَتَلَهُ وَيُقْتَلُ الِابْنُ بِأَبِيهِ إِذَا قَتَلَ أَبَاهُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "পিতা যদি তার পুত্রকে হত্যা করে, তবে পুত্রের বদলে পিতাকে হত্যা করা হয় না; আর পুত্র যদি তার পিতাকে হত্যা করে, তবে পিতার বদলে পুত্রকে হত্যা করা হয়।",
-              "de": "Der Vater wird nicht wegen seines Sohnes getötet, wenn er ihn tötet; der Sohn aber wird wegen seines Vaters getötet, wenn er seinen Vater tötet.",
-              "en": "The father is not killed for his son if he kills him, while the son is killed for his father if he kills his father.",
-              "es": "Al padre no se le da muerte por su hijo si lo mata, mientras que al hijo se le da muerte por su padre si mata a su padre.",
-              "fa": "پدر به سببِ پسرش کشته نمی‌شود اگر او را بکشد، اما پسر به سببِ پدرش کشته می‌شود اگر پدرش را بکشد.",
-              "fr": "Le père n’est pas mis à mort pour son fils s’il le tue, tandis que le fils est mis à mort pour son père s’il tue son père.",
-              "id": "Seorang ayah tidak dibunuh karena anaknya jika ia membunuhnya, sedangkan seorang anak dibunuh karena ayahnya jika ia membunuh ayahnya.",
-              "ru": "Отца не казнят за его сына, если он убьёт его, тогда как сына казнят за его отца, если он убьёт своего отца.",
-              "tr": "Bir baba, oğlunu öldürürse oğluna karşılık öldürülmez; fakat bir oğul, babasını öldürürse babasına karşılık öldürülür.",
-              "ur": "باپ کو اس کے بیٹے کے بدلے قتل نہیں کیا جاتا اگر وہ اسے قتل کرے، جبکہ بیٹے کو اس کے باپ کے بدلے قتل کیا جاتا ہے اگر وہ اپنے باپ کو قتل کرے۔",
-              "zh": "如果父亲杀了儿子，则不因儿子而处死父亲；而如果儿子杀了父亲，则因父亲而处死儿子。"
-            },
             "word_end": 34,
             "word_start": 22
           }
@@ -114,27 +101,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبَاهُ": "his father",
-            "الِابْنُ": "the son",
-            "الْأَبُ": "the father",
-            "بِأَبِيهِ": "for his father; in retaliation for killing his father",
-            "بِابْنِهِ": "for his son; in retaliation for killing his son",
-            "قَتَلَهُ": "he killed him",
-            "يُقْتَلُ": "is put to death in legal retaliation"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "يُقْتَلُ",
+          "الْأَبُ",
+          "بِابْنِهِ",
+          "الِابْنُ",
+          "بِأَبِيهِ",
+          "قَتَلَهُ",
+          "أَبَاهُ"
+        ],
         "related_quran": [
           {
             "ref": "2:178",
@@ -149,32 +124,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া হাদিসে যদি কোনো পিতা তার পুত্রকে হত্যা করে বা কোনো পুত্র তার পিতাকে হত্যা করে, তবে কী বিধান?",
-          "de": "Was ist das Urteil im schiitischen Hadith, wenn ein Vater seinen Sohn tötet oder ein Sohn seinen Vater tötet?",
-          "en": "What is the ruling if a father kills his son or a son kills his father in Shia hadith?",
-          "es": "¿Cuál es la norma en el hadiz chií si un padre mata a su hijo o un hijo mata a su padre?",
-          "fa": "در حدیث شیعه اگر پدر پسرش را بکشد یا پسر پدرش را بکشد، حکم چیست؟",
-          "fr": "Quelle est la règle dans le hadith chiite si un père tue son fils ou si un fils tue son père ?",
-          "id": "Apa hukum dalam hadis Syiah jika seorang ayah membunuh anaknya atau seorang anak membunuh ayahnya?",
-          "ru": "Каково постановление в шиитском хадисе, если отец убивает своего сына или сын убивает своего отца?",
-          "tr": "Şii hadisine göre bir baba oğlunu öldürürse ya da bir oğul babasını öldürürse hüküm nedir?",
-          "ur": "اگر باپ اپنے بیٹے کو قتل کرے یا بیٹا اپنے باپ کو قتل کرے تو شیعہ حدیث میں کیا حکم ہے؟",
-          "zh": "在什叶派圣训中，如果父亲杀死儿子或儿子杀死父亲，判决是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি পিতা ও পুত্রের মধ্যে হত্যার ক্ষেত্রে কিসাস সম্পর্কিত একটি বিধান বর্ণনা করে। এতে যে পিতা তার পুত্রকে হত্যা করে এবং যে পুত্র তার পিতাকে হত্যা করে—এই দুই অবস্থার বিধানের মধ্যে পার্থক্য করা হয়েছে, যা ইসলামী ফিকহে একটি বিশেষ সিদ্ধান্তকে প্রতিফলিত করে।",
-          "de": "Dieser Hadith nennt eine rechtliche Regelung bezüglich der Vergeltung in Fällen von Tötung zwischen einem Vater und seinem Sohn. Er unterscheidet zwischen dem Urteil für einen Vater, der seinen Sohn tötet, und dem Urteil für einen Sohn, der seinen Vater tötet, und spiegelt damit ein spezielles Urteil in der islamischen Rechtslehre wider.",
-          "en": "This hadith states a legal ruling concerning retaliation in cases of homicide between a father and his son. It distinguishes between the ruling for a father who kills his son and the ruling for a son who kills his father, reflecting a specific judgment in Islamic jurisprudence.",
-          "es": "Este hadiz establece una norma jurídica sobre la represalia en los casos de homicidio entre un padre y su hijo. Distingue entre la norma para un padre que mata a su hijo y la norma para un hijo que mata a su padre, reflejando un juicio específico en la jurisprudencia islámica.",
-          "fa": "این حدیث حکمی فقهی دربارهٔ قصاص در موارد قتل میان پدر و پسر را بیان می‌کند. در آن میان حکمِ پدری که پسرش را می‌کشد و حکمِ پسری که پدرش را می‌کشد تفاوت گذاشته شده است و این، بازتابِ حکمی خاص در فقه اسلامی است.",
-          "fr": "Ce hadith énonce une règle juridique concernant la rétribution dans les cas d’homicide entre un père et son fils. Il distingue entre le jugement du père qui tue son fils et celui du fils qui tue son père, reflétant une décision particulière en jurisprudence islamique.",
-          "id": "Hadis ini menyatakan sebuah ketetapan hukum tentang qisas dalam kasus pembunuhan antara ayah dan anak. Hadis ini membedakan antara حكم bagi ayah yang membunuh anaknya dan حكم bagi anak yang membunuh ayahnya, yang mencerminkan keputusan khusus dalam fikih Islam.",
-          "ru": "Этот хадис устанавливает правовое постановление относительно возмездия в случаях убийства между отцом и сыном. В нём проводится различие между постановлением для отца, который убивает своего сына, и постановлением для сына, который убивает своего отца, что отражает особое решение в исламском фикхе.",
-          "tr": "Bu hadis, baba ile oğul arasındaki öldürme vakalarında kısas hükmünü بیان eder. Bir babanın oğlunu öldürmesi ile bir oğlun babasını öldürmesi arasındaki hükmü ayırır ve İslam fıkhında özel bir yargıyı yansıtır.",
-          "ur": "یہ حدیث باپ اور بیٹے کے درمیان قتل کے معاملے میں قصاص کے حکم کو بیان کرتی ہے۔ اس میں اس حکم میں فرق کیا گیا ہے کہ اگر باپ اپنے بیٹے کو قتل کرے اور اگر بیٹا اپنے باپ کو قتل کرے، جو اسلامی فقہ میں ایک خاص فیصلہ ہے۔",
-          "zh": "这段圣训阐述了父子之间发生杀人案件时关于报复刑的法律裁定。它区分了父亲杀死儿子与儿子杀死父亲这两种情况的裁定，体现了伊斯兰教法中的一项特定判决。"
-        },
         "tags": [
           "jurisprudence",
           "family",

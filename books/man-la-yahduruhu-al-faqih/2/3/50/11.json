@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى عَنْهُ وَهْبُ بْنُ عَبْدِ رَبِّهِ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ওহব ইবনে আবদ রাব্বিহ তার কাছ থেকে বর্ণনা করেছেন:",
-              "de": "Wahb ibn Abd Rabbih berichtete von ihm:",
-              "en": "Wahb ibn Abd Rabbih narrated from him:",
-              "es": "Wahb ibn Abd Rabbih narró de él:",
-              "fa": "وهب بن عبد ربیه از او روایت کرد:",
-              "fr": "Wahb ibn Abd Rabbih a rapporté de lui :",
-              "id": "Wahb ibn Abd Rabbih meriwayatkan darinya:",
-              "ru": "Вахб ибн Абд Раббих передал от него:",
-              "tr": "Vahb ibn Abd Rabbih ondan rivayet etti:",
-              "ur": "وہب ابن عبد ربیہ نے ان سے روایت کی:",
-              "zh": "واهبابنعبدربیحنقلعنہ:"
-            },
             "word_end": 7,
             "word_start": 0
           },
           {
             "arabic_text": "فِي رَجُلٍ كَانَتْ مَعَهُ أُمُّ وَلَدٍ لَهُ فَأَحْرَمَتْ قَبْلَ سَيِّدِهَا أَ لَهُ أَنْ يَنْقُضَ إِحْرَامَهَا وَ يَطَأَهَا قَبْلَ أَنْ يُحْرِمَ قَالَ «نَعَمْ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন ব্যক্তির সম্পর্কে যার সঙ্গে তার একটি উম্ম ওলাদ ছিল, এবং সে তার মালিকের আগে ইহরামে প্রবেশ করেছিল: তার জন্য কি তার ইহরাম ভঙ্গ করা এবং মালিক নিজে ইহরামে প্রবেশ করার আগে তার সঙ্গে সম্পর্ক করা جائز? তিনি বললেন: \"হ্যাঁ।\"",
-              "de": "Bezüglich eines Mannes, der eine Umm walad bei sich hatte, und sie vor ihrem Herrn in den Ihram eingetreten war: Ist es ihm erlaubt, ihren Ihram aufzuheben und mit ihr zu verkehren, bevor er selbst in den Ihram eintritt? Er sagte: „Ja.“",
-              "en": "Regarding a man who had with him an umm walad of his, and she entered ihram before her master: is it permissible for him to nullify her ihram and have intercourse with her before he himself enters ihram? He said: \"Yes.\"",
-              "es": "Respecto a un hombre que tenía con él una umm walad, y ella entró en ihram antes que su amo: ¿le está permitido a él anular su ihram y tener relaciones con ella antes de que él mismo entre en ihram? Él dijo: \"Sí.\"",
-              "fa": "در مورد مردی که با خود یک ام ولد داشت و او قبل از صاحبش وارد احرام شده بود: آیا برای او جایز است که احرام او را باطل کند و قبل از آنکه خودش وارد احرام شود با او جماع کند؟ او گفت: «بله.»",
-              "fr": "Concernant un homme qui avait avec lui une umm walad, et elle est entrée en ihram avant son maître : lui est-il permis d'annuler son ihram et d'avoir des rapports avec elle avant qu'il n'entre lui-même en ihram ? Il a dit : « Oui. »",
-              "id": "Mengenai seorang pria yang memiliki umm walad bersamanya, dan dia memasuki ihram sebelum tuannya: apakah diperbolehkan baginya untuk membatalkan ihramnya dan berhubungan dengannya sebelum dirinya sendiri masuk ihram? Dia berkata: \"Ya.\"",
-              "ru": "Относительно мужчины, у которого была умм валад, и она вошла в ихрам раньше своего хозяина: разрешено ли ему отменить её ихрам и вступить с ней в половую связь до того, как он сам войдет в ихрам? Он сказал: «Да.»",
-              "tr": "Yanında bir ummüvelad bulunan ve efendisinden önce ihrama giren bir adam hakkında: Efendisi ihrama girmeden önce onun ihramını bozup onunla ilişkiye girmesi caiz midir? O dedi ki: \"Evet.\"",
-              "ur": "ایک شخص کے بارے میں جس کے ساتھ اس کی ایک ام ولد تھی، اور وہ اپنے آقا سے پہلے احرام میں داخل ہو گئی: کیا اس کے لیے جائز ہے کہ وہ اس کا احرام توڑ دے اور اس سے اس سے پہلے کہ وہ خود احرام میں داخل ہو، جماع کرے؟ انہوں نے کہا: \"ہاں۔\"",
-              "zh": "بخصوصرجلكانمعهامولدودخلتإحرامقبلسيدها:هليجوزلهأنينقضإحرامهاويجامعهاقبلأنيدخلهوحدهالإحرام؟قال:\"نعم.\""
-            },
             "word_end": 29,
             "word_start": 7
           }
@@ -75,27 +62,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أُمُّ وَلَدٍ": "a slave-concubine who has borne a child to her master",
-            "إِحْرَامَهَا": "her state of ihram",
-            "سَيِّدِهَا": "her master",
-            "فَأَحْرَمَتْ": "she entered the state of ihram for hajj or 'umrah",
-            "يَطَأَهَا": "to have intercourse with her",
-            "يَنْقُضَ": "to undo or nullify",
-            "يُحْرِمَ": "to enter the state of ihram"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أُمُّ وَلَدٍ",
+          "فَأَحْرَمَتْ",
+          "سَيِّدِهَا",
+          "يَنْقُضَ",
+          "إِحْرَامَهَا",
+          "يَطَأَهَا",
+          "يُحْرِمَ"
+        ],
         "related_quran": [
           {
             "ref": "2:197",
@@ -106,32 +81,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "একজন মালিক কি নিজে ইহরামে প্রবেশ করার আগে তার উম্ম ওলাদের ইহরাম ভঙ্গ করে তার সঙ্গে সম্পর্ক করতে পারেন?",
-          "de": "Kann ein Herr den Ihram seiner Umm walad aufheben und mit ihr verkehren, bevor er selbst in den Ihram eintritt?",
-          "en": "Can a master nullify the ihram of his umm walad and have intercourse with her before entering ihram himself?",
-          "es": "¿Puede un amo anular el ihram de su umm walad y tener relaciones con ella antes de entrar él mismo en ihram?",
-          "fa": "آیا صاحب می‌تواند احرام ام ولد خود را قبل از ورود خودش به احرام باطل کند و با او جماع کند؟",
-          "fr": "Un maître peut-il annuler l'ihram de son umm walad et avoir des rapports avec elle avant d'entrer lui-même en ihram ?",
-          "id": "Apakah seorang tuan boleh membatalkan ihram umm waladnya dan berhubungan dengannya sebelum dirinya sendiri masuk ihram?",
-          "ru": "Может ли хозяин отменить ихрам своей умм валад и вступить с ней в половую связь до того, как сам войдёт в ихрам?",
-          "tr": "Bir efendi, kendisi ihrama girmeden önce ummüveladının ihramını bozup onunla ilişkiye girebilir mi?",
-          "ur": "کیا آقا اپنے ام ولد کا احرام اس سے پہلے توڑ سکتا ہے کہ وہ خود احرام میں داخل ہو؟",
-          "zh": "主人是否可以在自己进入إحرام之前解除امولد的إحرام并与她发生关系？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি একটি উম্ম ওলাদ সম্পর্কে শারঈ হুকুম প্রদান করে যে সে তার মালিকের আগে ইহরামে প্রবেশ করেছে। এটি নির্দেশ করে যে মালিক নিজে ইহরামে প্রবেশ করার আগে সে তার ইহরাম ভঙ্গ করতে পারে এবং তার সঙ্গে সম্পর্ক করতে পারে।",
-          "de": "Dieser Hadith gibt eine Rechtsregel bezüglich einer Umm walad, die vor ihrem Herrn in den Ihram eingetreten ist. Er zeigt an, dass der Herr ihren Ihram aufheben und mit ihr verkehren darf, bevor er selbst in den Ihram eintritt.",
-          "en": "This hadith gives a legal ruling concerning an umm walad who enters ihram before her master. It indicates that before the master himself enters ihram, he may nullify her ihram and have intercourse with her.",
-          "es": "Este hadiz da un fallo legal sobre una umm walad que entra en ihram antes que su amo. Indica que antes de que el amo entre en ihram, puede anular su ihram y tener relaciones con ella.",
-          "fa": "این حدیث حکم شرعی درباره ام ولد که قبل از صاحبش وارد احرام شده است را بیان می‌کند. نشان می‌دهد که قبل از اینکه صاحبش وارد احرام شود، می‌تواند احرام او را باطل کرده و با او جماع کند.",
-          "fr": "Ce hadith donne un jugement légal concernant une umm walad qui entre en ihram avant son maître. Il indique qu'avant que le maître lui-même n'entre en ihram, il peut annuler son ihram et avoir des rapports avec elle.",
-          "id": "Hadis ini memberikan hukum terkait umm walad yang memasuki ihram sebelum tuannya. Ini menunjukkan bahwa sebelum tuan itu sendiri masuk ihram, dia boleh membatalkan ihramnya dan berhubungan dengannya.",
-          "ru": "Этот хадис даёт правовое постановление относительно умм валад, которая вошла в ихрам раньше своего хозяина. Он указывает, что хозяин может отменить её ихрам и вступить с ней в половую связь до того, как сам войдёт в ихрам.",
-          "tr": "Bu hadis, efendisinden önce ihrama giren bir ummüvelad hakkında hukuki bir hüküm vermektedir. Efendisi ihrama girmeden önce onun ihramını bozup onunla ilişkiye girebileceğini belirtir.",
-          "ur": "یہ حدیث ایک ام ولد کے بارے میں شرعی حکم بیان کرتی ہے جو اپنے آقا سے پہلے احرام میں داخل ہو جائے۔ اس میں واضح کیا گیا ہے کہ آقا کے خود احرام میں داخل ہونے سے پہلے وہ اس کا احرام توڑ سکتا ہے اور اس سے جماع کر سکتا ہے۔",
-          "zh": "此حديث说明了关于一位在其主人之前进入إحرام的امولد的法律裁决。指出主人在自己进入إحرام之前，可以解除她的إحرام并与她发生关系。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

@@ -16,80 +16,41 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مَا رَوَاهُ الْحُسَيْنُ بْنُ سَعِيدٍ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ حَمَّادِ بْنِ عُثْمَانَ عَنْ زُرَارَةَ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ فِي",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হুসাইন ইবন সাঈদ যা ইবন আবি ‘উমাইর থেকে, তিনি হাম্মাদ ইবন ‘উসমান থেকে, তিনি জুরারাহ থেকে, তিনি আবি ‘আবদিল্লাহ عليه السلام থেকে বর্ণনা করেছেন, সে সম্পর্কে",
-              "de": "Was al-Husayn ibn Sa'id von Ibn Abi 'Umayr, von Hammad ibn 'Uthman, von Zurarah, von Abi 'Abdillah عليه السلام überliefert hat, bezüglich",
-              "en": "What al-Husayn ibn Sa'id narrated from Ibn Abi 'Umayr, from Hammad ibn 'Uthman, from Zurarah, from Abi 'Abdillah عليه السلام, concerning",
-              "es": "Lo que al-Husayn ibn Sa'id narró de Ibn Abi 'Umayr, de Hammad ibn 'Uthman, de Zurarah, de Abi 'Abdillah عليه السلام, acerca de",
-              "fa": "آنچه الحسين بن سعيد از ابن ابی عمیر، از حماد بن عثمان، از زراره، از ابی عبدالله عليه السلام روایت کرده است، درباره",
-              "fr": "Ce qu'al-Husayn ibn Sa'id a rapporté d'Ibn Abi 'Umayr, de Hammad ibn 'Uthman, de Zurarah, d'Abi 'Abdillah عليه السلام, au sujet de",
-              "id": "Apa yang diriwayatkan al-Husayn ibn Sa'id dari Ibn Abi 'Umayr, dari Hammad ibn 'Uthman, dari Zurarah, dari Abi 'Abdillah عليه السلام, tentang",
-              "ru": "То, что аль-Хусайн ибн Са'ид передал от Ибн Аби 'Умайра, от Хаммада ибн 'Усмана, от Зурары, от Аби 'Абдуллаха عليه السلام, относительно",
-              "tr": "el-Hüseyin ibn Sa'id'in, İbn Ebî 'Umeyr'den, onun Hammâd ibn 'Usmân'dan, onun Zurâre'den, onun da Ebû Abdillah عليه السلام'dan rivayet ettiği, hakkında",
-              "ur": "الحسین بن سعید نے ابن ابی عمیر سے، انہوں نے حماد بن عثمان سے، انہوں نے زرارہ سے، انہوں نے ابو عبد اللہ علیہ السلام سے روایت کی، کے بارے میں",
-              "zh": "al-HusaynibnSa'id从IbnAbi'Umayr传述自Hammadibn'Uthman，传述自Zurarah，传述自Abi'Abdillah عليه السلام，关于"
-            },
             "word_end": 22,
             "word_start": 0
           },
           {
             "arabic_text": "الرَّجُلِ يَمُوتُ وَلَيْسَ مَعَهُ إِلَّا النِّسَاءُ، قَالَ: تُغَسِّلُهُ امْرَأَتُهُ لِأَنَّهَا مِنْهُ فِي عِدَّةٍ، وَإِذَا مَاتَتْ لَمْ يُغَسِّلْهَا لِأَنَّهُ لَيْسَ مِنْهَا فِي عِدَّةٍ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন পুরুষ মারা যায় এবং তার সঙ্গে নারীদের ছাড়া আর কেউ থাকে না। তিনি বললেন: তার স্ত্রী তাকে গোসল দেবে, কারণ ইদ্দতের সময় সে তার সঙ্গে সম্পর্কিত থাকে। কিন্তু যখন নারীটি মারা যায়, তখন সে তাকে গোসল দেবে না, কারণ ইদ্দতের মধ্যে সে তার অন্তর্ভুক্ত নয়।",
-              "de": "Ein Mann stirbt und es ist niemand bei ihm außer Frauen. Er sagte: Seine Frau wäscht ihn, weil sie während der Wartezeit ('iddah) noch mit ihm verbunden ist. Wenn sie jedoch stirbt, wäscht er sie nicht, weil er in der Wartezeit nicht von ihr ist.",
-              "en": "A man dies and there are no ones with him except women. He said: his wife washes him, because she is still connected to him during the waiting period ('iddah). But when she dies, he does not wash her, because he is not from her in a waiting period.",
-              "es": "Un hombre muere y no hay nadie con él excepto mujeres. Dijo: su esposa lo lava, porque ella sigue vinculada a él durante el período de espera ('iddah). Pero cuando ella muere, él no la lava, porque él no está de ella en un período de espera.",
-              "fa": "مردی بمیرد و جز زنان کسی با او نباشد. فرمود: همسرش او را غسل می‌دهد، زیرا او در مدت عده همچنان به او پیوسته است. اما هنگامی که زن بمیرد، او او را غسل نمی‌دهد، زیرا او در عده از او نیست.",
-              "fr": "Un homme meurt et il n’y a avec lui personne d’autre que des femmes. Il dit : son épouse le lave, car elle demeure liée à lui pendant la période d’attente ('iddah). Mais lorsqu’elle meurt, il ne la lave pas, car il n’est pas d’elle dans une période d’attente.",
-              "id": "Seorang laki-laki meninggal dan tidak ada seorang pun bersamanya kecuali para perempuan. Beliau bersabda: istrinya memandikannya, karena ia masih terkait dengannya selama masa 'iddah. Tetapi ketika perempuan itu meninggal, ia tidak memandikannya, karena ia bukan darinya dalam masa 'iddah.",
-              "ru": "Мужчина умирает, и с ним нет никого, кроме женщин. Он сказал: его жена омывает его, потому что она остается связанной с ним в период ожидания ('идда). Но когда умирает женщина, он не омывает ее, потому что он не относится к ней в период ожидания.",
-              "tr": "Bir erkek ölür ve onunla birlikte kadınlardan başka kimse bulunmazsa. Buyurdu ki: Eşi onu yıkar; çünkü o, iddet süresince onunla bağlıdır. Fakat kadın öldüğünde, erkek onu yıkamaz; çünkü o, iddet içinde ondan değildir.",
-              "ur": "ایک مرد فوت ہو جائے اور اس کے ساتھ عورتوں کے سوا کوئی نہ ہو۔ آپ نے فرمایا: اس کی بیوی اسے غسل دے گی، کیونکہ وہ عدت کے دوران اس سے متعلق رہتی ہے۔ لیکن جب وہ فوت ہو جائے تو وہ اسے غسل نہیں دے گا، کیونکہ وہ عدت کے دوران اس سے متعلق نہیں ہے۔",
-              "zh": "一个男人去世了，而陪伴他的除了女人之外别无他人。他说：他的妻子为他沐浴，因为她在等待期（'iddah）内仍与他有关联。但当她去世时，他不为她沐浴，因为他在等待期内并不属于她。"
-            },
             "word_end": 44,
             "word_start": 22
           },
           {
             "arabic_text": "لِأَنَّ الْوَجْهَ فِي قَوْلِهِ عَلَيْهِ السَّلَامُ: إِذَا مَاتَتْ لَمْ يُغَسِّلْهَا، يَعْنِي مُجَرَّدَةً مِنْ ثِيَابِهَا، لِأَنَّا إِنَّمَا نُجَوِّزُ أَنْ يُغَسِّلَهَا مِنْ تَحْتِ الثِّيَابِ، وَعَلَى هَذَا دَلَّ أَكْثَرُ الرِّوَايَاتِ الْمُتَقَدِّمَةِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "কারণ তাঁর عليه السلام বাণী, ‘যখন সে মারা যায়, তখন সে তাকে গোসল দেয় না’—এর উদ্দেশ্য হলো, তাকে তার কাপড় খুলে নগ্ন অবস্থায় গোসল না দেওয়া; কেননা আমরা কেবল এটিই বৈধ মনে করি যে, সে কাপড়ের নিচ থেকে তাকে গোসল দেবে, এবং পূর্ববর্তী অধিকাংশ বর্ণনাই এরই প্রমাণ দেয়।",
-              "de": "Denn die beabsichtigte Bedeutung seiner Aussage عليه السلام: „Wenn sie stirbt, wäscht er sie nicht“, ist, dass er sie nicht wäscht, während sie ihrer Kleidung entkleidet ist; denn wir erlauben nur, dass er sie von unter den Kleidern her wäscht, und die meisten der vorangegangenen Überlieferungen deuten darauf hin.",
-              "en": "Because the intended meaning of his statement عليه السلام, 'when she dies, he does not wash her,' is that he does not wash her while she is stripped of her clothes; for we only allow that he wash her from beneath the clothing, and most of the preceding narrations indicate this.",
-              "es": "Porque el sentido pretendido de su dicho عليه السلام, 'cuando ella muere, él no la lava', es que no la lava mientras está despojada de sus ropas; pues solo permitimos que la lave desde debajo de la ropa, y la mayoría de las narraciones anteriores indican esto.",
-              "fa": "زیرا مقصود از سخن او عليه السلام که فرمود: «هنگامی که او بمیرد، او را غسل نمی‌دهد» این است که او را در حالی که از لباس‌هایش برهنه است غسل نمی‌دهد؛ زیرا ما تنها این را جایز می‌دانیم که او را از زیر لباس‌ها غسل دهد، و بیشتر روایات پیشین بر این دلالت دارد.",
-              "fr": "Car le sens voulu de sa parole عليه السلام : « lorsqu’elle meurt, il ne la lave pas » est qu’il ne la lave pas lorsqu’elle est dévêtue de ses vêtements ; car nous ne permettons que de la laver par-dessous les vêtements, et la plupart des récits précédents l’indiquent.",
-              "id": "Karena yang dimaksud dari sabda beliau عليه السلام, 'ketika ia meninggal, ia tidak memandikannya,' adalah bahwa ia tidak memandikannya dalam keadaan telanjang dari pakaiannya; sebab kami hanya membolehkan bahwa ia memandikannya dari bawah pakaian, dan kebanyakan riwayat sebelumnya menunjukkan hal itu.",
-              "ru": "Поскольку подразумеваемый смысл его слов عليه السلام: «когда она умрет, он не омывает ее» состоит в том, что он не омывает ее, когда она обнажена и лишена одежды; ведь мы дозволяем лишь омывать ее из-под одежды, и на это указывает большинство предыдущих преданий.",
-              "tr": "Çünkü onun عليه السلام sözünün muradı: 'O öldüğünde onu yıkamaz' ifadesi, onu elbiselerinden soyulmuş halde yıkamamasıdır; zira biz yalnızca onu elbiselerin altından yıkamasına izin veririz ve önceki rivayetlerin çoğu buna delalet etmektedir.",
-              "ur": "کیونکہ اس کے قول علیہ السلام: 'جب وہ فوت ہو جائے تو وہ اسے غسل نہیں دے گا' کا مقصود یہ ہے کہ وہ اسے اس حال میں غسل نہیں دے گا کہ وہ اپنے کپڑوں سے برہنہ ہو؛ کیونکہ ہم صرف یہ جائز سمجھتے ہیں کہ وہ اسے کپڑوں کے نیچے سے غسل دے، اور سابقہ روایات کی اکثریت اسی پر دلالت کرتی ہے۔",
-              "zh": "因为他 عليه السلام的话“当她去世时，他不为她沐浴”的意思，是指他不会在她脱去衣服、赤身的情况下为她沐浴；因为我们只允许他从衣服下面为她沐浴，而前述大多数传述都表明了这一点。"
-            },
             "word_end": 72,
             "word_start": 44
           },
           {
             "arabic_text": "وَيَكُونُ الْفَرْقُ بَيْنَ الرَّجُلِ وَالْمَرْأَةِ فِي ذَلِكَ أَنَّ الْمَرْأَةَ يَجُوزُ لَهَا أَنْ تُغَسِّلَ الرَّجُلَ مُجَرَّدًا، وَإِنْ كَانَ الْأَفْضَلُ وَالْأَوْلَى أَنْ تَسْتُرَهُ ثُمَّ تُغَسِّلَهُ، وَلَيْسَ كَذَلِكَ الرَّجُلُ لِأَنَّهُ لَا يَجُوزُ لَهُ أَنْ يُغَسِّلَهَا إِلَّا مِنْ وَرَاءِ الثِّيَابِ.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "এবং এ বিষয়ে পুরুষ ও নারীর মধ্যে পার্থক্য হলো, নারী পুরুষকে নগ্ন অবস্থায় গোসল দিতে পারে, যদিও উত্তম ও অগ্রাধিকারযোগ্য হলো তাকে ঢেকে তারপর গোসল দেওয়া। পুরুষের ক্ষেত্রে তা নয়, কারণ তার জন্য কাপড়ের আড়াল ছাড়া তাকে গোসল দেওয়া বৈধ নয়।",
-              "de": "Und der Unterschied zwischen Mann und Frau in dieser Angelegenheit besteht darin, dass die Frau den Mann nackt waschen darf, obwohl es tugendhafter und vorzuziehen ist, ihn zu bedecken und dann zu waschen. Beim Mann ist es nicht so, denn es ist ihm nicht erlaubt, sie anders als von hinter den Kleidern zu waschen.",
-              "en": "And the difference between the man and the woman in this matter is that the woman may wash the man unclothed, although what is more virtuous and preferable is that she cover him and then wash him. It is not the same for the man, because it is not permissible for him to wash her except from behind the clothing.",
-              "es": "Y la diferencia entre el hombre y la mujer en este asunto es que la mujer puede lavar al hombre desnudo, aunque lo más virtuoso y preferible es cubrirlo y luego lavarlo. No es así para el hombre, porque no le está permitido lavarla sino desde detrás de la ropa.",
-              "fa": "و تفاوت میان مرد و زن در این مسئله آن است که زن می‌تواند مرد را در حالی که برهنه است غسل دهد، هرچند بهتر و شایسته‌تر آن است که او را بپوشاند سپس غسل دهد. اما برای مرد چنین نیست، زیرا برای او جایز نیست که او را جز از پشت لباس‌ها غسل دهد.",
-              "fr": "Et la différence entre l’homme et la femme en cette matière est que la femme peut laver l’homme nu, bien qu’il soit plus vertueux et préférable de le couvrir puis de le laver. Il n’en va pas de même pour l’homme, car il ne lui est pas permis de la laver autrement qu’à travers les vêtements.",
-              "id": "Dan perbedaan antara laki-laki dan perempuan dalam hal ini adalah bahwa perempuan boleh memandikan laki-laki dalam keadaan telanjang, meskipun yang lebih utama dan lebih baik adalah menutupinya lalu memandikannya. Tidak demikian bagi laki-laki, karena tidak boleh baginya memandikannya kecuali dari balik pakaian.",
-              "ru": "И разница между мужчиной и женщиной в этом вопросе состоит в том, что женщине дозволено омывать мужчину обнаженным, хотя более достойно и предпочтительно покрыть его, а затем омыть. Для мужчины же это не так, поскольку ему не дозволено омывать ее иначе как через одежду.",
-              "tr": "Bu meselede erkek ile kadın arasındaki fark şudur: Kadın, erkeği çıplak halde yıkayabilir; ancak daha faziletli ve daha uygun olan, onu örtmesi ve sonra yıkamasıdır. Erkek için durum böyle değildir; çünkü onun, kadını ancak elbiselerin arkasından yıkaması caizdir.",
-              "ur": "اور اس مسئلے میں مرد اور عورت کے درمیان فرق یہ ہے کہ عورت مرد کو برہنہ حالت میں غسل دے سکتی ہے، اگرچہ زیادہ فضیلت اور بہتر یہ ہے کہ وہ اسے ڈھانپے پھر اسے غسل دے۔ مرد کے لیے ایسا نہیں، کیونکہ اس کے لیے جائز نہیں کہ وہ اسے کپڑوں کے سوا غسل دے۔",
-              "zh": "在这件事上，男人和女人的区别在于，女人可以为男人赤身沐浴，尽管更有德行和更可取的是先遮盖他，然后再为他沐浴。男人则不一样，因为他不可以除非隔着衣服为她沐浴。"
-            },
             "word_end": 108,
             "word_start": 72
           }
@@ -122,27 +83,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الثِّيَابِ": "the garments through or beneath which washing may be performed",
-            "الرِّوَايَاتِ": "the transmitted hadith reports",
-            "الْأَفْضَلُ": "what is more virtuous or preferable",
-            "امْرَأَتُهُ": "his wife",
-            "تُغَسِّلُهُ": "she performs the ritual washing of the deceased upon him",
-            "عِدَّةٍ": "the waiting period that has legal relevance after death",
-            "مُجَرَّدَةً": "without clothing; unclothed"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "تُغَسِّلُهُ",
+          "امْرَأَتُهُ",
+          "عِدَّةٍ",
+          "مُجَرَّدَةً",
+          "الثِّيَابِ",
+          "الرِّوَايَاتِ",
+          "الْأَفْضَلُ"
+        ],
         "related_quran": [
           {
             "ref": "2:228",
@@ -153,32 +102,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে কি স্বামী বা স্ত্রী তাদের মৃত জীবনসঙ্গীর গোসল করাতে পারেন?",
-          "de": "Kann in der schiitischen Fiqh ein Ehemann oder eine Ehefrau den Ghusl des verstorbenen Ehepartners durchführen?",
-          "en": "Can a husband or wife perform the ghusl of their deceased spouse in Shi'a fiqh?",
-          "es": "¿Puede un esposo o una esposa realizar el ghusl de su cónyuge fallecido en la fiqh chií?",
-          "fa": "آیا در فقه شیعه، شوهر یا همسر می‌تواند غسلِ همسرِ درگذشته‌اش را انجام دهد؟",
-          "fr": "Dans le fiqh chiite, un mari ou une épouse peut-il/elle accomplir le ghusl de son conjoint décédé ?",
-          "id": "Apakah dalam fikih Syiah, suami atau istri boleh melakukan ghusl terhadap pasangan yang telah meninggal?",
-          "ru": "Может ли муж или жена совершить гусль умершего супруга в шиитском фикхе?",
-          "tr": "Şiî fıkhında koca veya eş, vefat eden eşinin guslünü yapabilir mi?",
-          "ur": "کیا شیعہ فقہ میں شوہر یا بیوی اپنے فوت شدہ شریکِ حیات کا غسل دے سکتے ہیں؟",
-          "zh": "在什叶派教法中，丈夫或妻子可以为亡故配偶进行ghusl吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে মৃত স্বামী-স্ত্রীকে গোসল দেওয়ার শরয়ি বিধান আলোচনা করা হয়েছে। এতে ব্যাখ্যা করা হয়েছে যে স্ত্রী তার মৃত স্বামীকে গোসল দিতে পারে, আর স্বামী তার মৃত স্ত্রীকে কেবল কাপড়ের নিচ থেকে গোসল দিতে পারে, এবং এই পার্থক্য বর্ণিত রেওয়ায়েত দ্বারা সমর্থিত।",
-          "de": "Dieser Hadith behandelt die rechtliche Regelung zum Waschen des verstorbenen Ehepartners. Er erklärt, dass die Ehefrau ihren verstorbenen Ehemann waschen darf, während der Ehemann seine verstorbene Ehefrau nur von unter ihrer Kleidung waschen darf, und diese Unterscheidung wird durch die überlieferten Berichte gestützt.",
-          "en": "This hadith discusses the legal ruling on a spouse washing the deceased spouse. It explains that a wife may wash her deceased husband, while the husband may only wash his deceased wife from beneath her clothes, and this distinction is supported by the transmitted narrations.",
-          "es": "Este hadiz trata la norma jurídica sobre lavar al cónyuge fallecido. Explica que la esposa puede lavar a su esposo fallecido, mientras que el esposo solo puede lavar a su esposa fallecida desde debajo de su ropa, y esta distinción está respaldada por las narraciones transmitidas.",
-          "fa": "این حدیث حکم شرعی غسل دادن همسرِ درگذشته را بیان می‌کند. توضیح می‌دهد که زن می‌تواند شوهرِ فوت‌شده‌اش را غسل دهد، در حالی که مرد تنها می‌تواند همسرِ فوت‌شده‌اش را از زیر لباس‌ها غسل دهد، و این تفاوت با روایات نقل‌شده تأیید می‌شود.",
-          "fr": "Ce hadith traite de la règle juridique concernant le lavage du conjoint décédé. Il explique que l’épouse peut laver son mari décédé, tandis que le mari ne peut laver son épouse décédée que par-dessous ses vêtements, et cette distinction est appuyée par les récits transmis.",
-          "id": "Hadis ini membahas hukum fikih tentang memandikan pasangan yang telah meninggal. Dijelaskan bahwa istri boleh memandikan suami yang wafat, sedangkan suami hanya boleh memandikan istri yang wafat dari bawah pakaiannya, dan perbedaan ini didukung oleh riwayat-riwayat yang dinukil.",
-          "ru": "Этот хадис рассматривает правовое постановление об омовении умершего супруга. В нем разъясняется, что жена может омыть своего умершего мужа, тогда как муж может омыть свою умершую жену только из-под ее одежды, и это различие подтверждается переданными преданиями.",
-          "tr": "Bu hadis, vefat eden eşin yıkanmasına dair fıkhî hükmü ele alır. Buna göre kadın, vefat eden kocasını yıkayabilir; erkek ise vefat eden eşini yalnızca elbiselerin altından yıkayabilir ve bu ayrım nakledilen rivayetlerle desteklenmektedir.",
-          "ur": "یہ حدیث وفات یافتہ زوجین کے غسل کے شرعی حکم کو بیان کرتی ہے۔ اس میں واضح کیا گیا ہے کہ بیوی اپنے فوت شدہ شوہر کو غسل دے سکتی ہے، جبکہ شوہر اپنی فوت شدہ بیوی کو صرف کپڑوں کے نیچے سے غسل دے سکتا ہے، اور یہ فرق منقول روایات سے ثابت ہے۔",
-          "zh": "这段圣训讨论了为亡故配偶进行清洗的教法规定。它说明妻子可以为亡夫沐浴，而丈夫只能隔着衣服为亡妻沐浴，这一区别得到了传述圣训的支持。"
-        },
         "tags": [
           "jurisprudence",
           "family",

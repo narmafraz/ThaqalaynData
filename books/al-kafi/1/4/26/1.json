@@ -20,80 +20,41 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى عَنِ الْحَسَنِ بْنِ مَحْبُوبٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন ইয়াহইয়া, আহমদ ইবন মুহাম্মদ ইবন ঈসা থেকে, তিনি আল-হাসান ইবন মাহবুব থেকে, তিনি বলেন:",
-              "de": "Muhammad ibn Yahya, von Ahmad ibn Muhammad ibn Isa, von al-Hasan ibn Mahbub, der sagte:",
-              "en": "Muhammad ibn Yahya, from Ahmad ibn Muhammad ibn Isa, from al-Hasan ibn Mahbub, who said:",
-              "es": "Muhammad ibn Yahya, de Ahmad ibn Muhammad ibn Isa, de al-Hasan ibn Mahbub, quien dijo:",
-              "fa": "محمد بن یحیی، از احمد بن محمد بن عیسی، از حسن بن محبوب، که گفت:",
-              "fr": "Muhammad ibn Yahya, d’après Ahmad ibn Muhammad ibn Isa, d’après al-Hasan ibn Mahbub, qui a dit :",
-              "id": "Muhammad ibn Yahya, dari Ahmad ibn Muhammad ibn Isa, dari al-Hasan ibn Mahbub, ia berkata:",
-              "ru": "Мухаммад ибн Яхья, от Ахмада ибн Мухаммада ибн Исы, от аль-Хасана ибн Махбуба, который сказал:",
-              "tr": "Muhammed ibn Yahya, Ahmed ibn Muhammed ibn Isa’dan, o da el-Hasan ibn Mahbub’dan, şöyle dedi:",
-              "ur": "محمد بن یحیی، احمد بن محمد بن عیسی سے، وہ حسن بن محبوب سے، وہ کہتے ہیں:",
-              "zh": "穆罕默德·伊本·叶海亚，传自艾哈迈德·伊本·穆罕默德·伊本·尔萨，传自哈桑·伊本·马赫布卜，他说："
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُ أَبَا الْحَسَنِ الرِّضَا عَلَيْهِ السَّلَامُ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আমি আবু আল-হাসান আল-রিদা عليه السلام-কে জিজ্ঞেস করলাম",
-              "de": "Ich fragte Abu al-Hasan al-Rida عليه السلام",
-              "en": "I asked Abu al-Hasan al-Rida عليه السلام",
-              "es": "Le pregunté a Abu al-Hasan al-Rida عليه السلام",
-              "fa": "از ابوالحسن الرضا علیه السلام پرسیدم",
-              "fr": "J’ai demandé à Abu al-Hasan al-Rida عليه السلام",
-              "id": "Aku bertanya kepada Abu al-Hasan al-Rida عليه السلام",
-              "ru": "Я спросил Абу аль-Хасана ар-Риду عليه السلام",
-              "tr": "Ebu’l-Hasan er-Rıza عليه السلام’a sordum",
-              "ur": "میں نے ابو الحسن الرضا علیہ السلام سے پوچھا",
-              "zh": "我问阿布·哈桑·里达 عليه السلام"
-            },
             "word_end": 20,
             "word_start": 14
           },
           {
             "arabic_text": "عَنْ قَوْلِهِ عَزَّ وَجَلَّ: ﴿وَلِكُلٍّ جَعَلْنَا مَوَالِيَ مِمَّا تَرَكَ الْوَالِدَانِ وَالْأَقْرَبُونَ وَالَّذِينَ عَقَدَتْ أَيْمَانُكُمْ﴾",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "তাঁর, যিনি পরাক্রমশালী ও মহিমান্বিত, এই বাণী সম্পর্কে: “আর প্রত্যেকের জন্য আমরা উত্তরাধিকারী নির্ধারণ করেছি, যা পিতা-মাতা ও নিকটাত্মীয়রা রেখে যায় তা থেকে, এবং যাদের সঙ্গে তোমাদের ডান হাত চুক্তিবদ্ধ হয়েছে”",
-              "de": "über Sein Wort, den Mächtigen und Majestätischen: „Und für jeden haben Wir Erben bestimmt von dem, was die Eltern und die nahen Verwandten hinterlassen, und von denen, mit denen eure rechten Hände Verträge geschlossen haben“",
-              "en": "about His, Mighty and Majestic, saying: “And to every one We have appointed heirs from what the parents and the near relatives leave, and those with whom your right hands have ratified agreements”",
-              "es": "acerca de Su dicho, el Poderoso y Majestuoso: “Y para cada uno hemos designado herederos de lo que dejan los padres y los parientes cercanos, y aquellos con quienes vuestras manos derechas han ratificado acuerdos”",
-              "fa": "درباره سخن او، عزیز و جلیل، که فرمود: «و برای هر یک، از آنچه پدر و مادر و خویشاوندان نزدیک بر جای می‌گذارند، و کسانی که دست‌های راست شما با آنان پیمان بسته‌اند، وارثانی قرار دادیم»",
-              "fr": "au sujet de Sa parole, le Puissant et le Majestueux : « Et à chacun Nous avons désigné des héritiers de ce que laissent les père et mère et les proches, ainsi que ceux avec qui vos mains droites ont conclu des accords »",
-              "id": "tentang firman-Nya, Yang Mahaperkasa lagi Mahamulia: “Dan bagi tiap-tiap orang telah Kami tetapkan para pewaris dari apa yang ditinggalkan oleh kedua orang tua dan kerabat dekat, dan orang-orang yang telah diikat oleh tangan kananmu dengan perjanjian”",
-              "ru": "о Его словах, Великого и Славного: «И каждому Мы назначили наследников из того, что оставляют родители и близкие родственники, а также те, с кем ваши правые руки заключили договоры»",
-              "tr": "O’nun, Aziz ve Celil olanın şu sözü hakkında: “Anne-babanın ve yakın akrabaların bıraktıklarından ve sağ ellerinizin anlaşma bağladıklarından her biri için mirasçılar tayin ettik”",
-              "ur": "ان کے اس فرمان کے بارے میں، جو عزت و جلال والے ہیں: “اور ہم نے ہر ایک کے لیے وارث مقرر کیے ہیں، اس میں سے جو والدین اور قریبی رشتہ دار چھوڑ جائیں، اور وہ جن سے تمہارے دائیں ہاتھوں نے معاہدے باندھے ہوں”",
-              "zh": "关于他，尊严而伟大的主的这句话：“对于每个人，我们都已从父母和近亲所留下的财产中指定继承人，以及那些你们的右手已与之缔结盟约的人”"
-            },
             "word_end": 34,
             "word_start": 20
           },
           {
             "arabic_text": "قَالَ: إِنَّمَا عَنَى بِذَلِكَ الْأَئِمَّةَ عَلَيْهِمُ السَّلَامُ، بِهِمْ عَقَدَ اللَّهُ عَزَّ وَجَلَّ أَيْمَانَكُمْ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি عليه السلام বললেন: “বরং এর দ্বারা উদ্দেশ্য হলো ইমামগণ عليهم السلام। তাঁদের মাধ্যমেই আল্লাহ, পরাক্রমশালী ও মহিমান্বিত, তোমাদের চুক্তিসমূহকে সুদৃঢ় করেছেন।”",
-              "de": "Er عليه السلام sagte: „Vielmehr sind damit die Imame عليهم السلام gemeint. Durch sie hat Allah, der Mächtige und Majestätische, eure Verträge bestätigt.“",
-              "en": "He عليه السلام said: “Rather, by that He meant the Imams عليهم السلام. By them Allah, Mighty and Majestic, has ratified your agreements.”",
-              "es": "Él عليه السلام dijo: “Más bien, con ello quiso decir a los Imames عليهم السلام. Por medio de ellos Allah, el Poderoso y Majestuoso, ha ratificado vuestros acuerdos.”",
-              "fa": "فرمود: «بلکه مقصود از آن، امامان عليهم السلام هستند. خداوند عز و جل به وسیله آنان پیمان‌های شما را استوار کرده است.»",
-              "fr": "Il عليه السلام dit : « En réalité, par là Il voulait dire les Imams عليهم السلام. C’est par eux qu’Allah, le Puissant et le Majestueux, a ratifié vos accords. »",
-              "id": "Beliau عليه السلام bersabda: “Sebenarnya yang dimaksud dengannya adalah para Imam عليهم السلام. Melalui mereka Allah, Yang Mahaperkasa lagi Mahamulia, telah mengesahkan perjanjian-perjanjian kalian.”",
-              "ru": "Он عليه السلام сказал: «Напротив, под этим подразумевались Имамы عليهم السلام. Через них Аллах, Великий и Славный, утвердил ваши договоры».",
-              "tr": "O عليه السلام şöyle buyurdu: “Bilakis bununla kastedilen İmamlardır عليهم السلام. Allah, Aziz ve Celil olan, sizin anlaşmalarınızı onlar vasıtasıyla sağlamlaştırmıştır.”",
-              "ur": "انہوں نے علیہ السلام فرمایا: “بلکہ اس سے مراد ائمہ عليهم السلام ہیں۔ انہی کے ذریعے اللہ عز و جل نے تمہارے معاہدوں کو پختہ کیا ہے۔”",
-              "zh": "他说 عليه السلام：“其实这指的是伊玛目们 عليهم السلام。真主，尊严而伟大的主，借由他们确认了你们的盟约。”"
-            },
             "word_end": 47,
             "word_start": 34
           }
@@ -147,27 +108,15 @@
             "phrase_en": "Peace be upon them"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبَا الْحَسَنِ الرِّضَا عَلَيْهِ السَّلَامُ": "Imam al-Rida عليه السلام, the Imam being asked about the verse",
-            "الْأَئِمَّةَ عَلَيْهِمُ السَّلَامُ": "the Imams عليهم السلام, identified here as the intended referent",
-            "الْأَقْرَبُونَ": "the near relatives",
-            "الْوَالِدَانِ": "the parents",
-            "عَزَّ وَجَلَّ": "Mighty and Majestic; an honorific for Allah",
-            "عَقَدَتْ أَيْمَانُكُمْ": "your oaths or pledges have ratified",
-            "مَوَالِيَ": "heirs or those vested with authority/entitlement in the verse"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَبَا الْحَسَنِ الرِّضَا عَلَيْهِ السَّلَامُ",
+          "عَزَّ وَجَلَّ",
+          "مَوَالِيَ",
+          "الْوَالِدَانِ",
+          "الْأَقْرَبُونَ",
+          "عَقَدَتْ أَيْمَانُكُمْ",
+          "الْأَئِمَّةَ عَلَيْهِمُ السَّلَامُ"
+        ],
         "related_quran": [
           {
             "ref": "4:33",
@@ -186,32 +135,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-রিদা عليه السلام কুরআন 4:33-এ “যাদের সঙ্গে তোমাদের ডান হাত চুক্তিবদ্ধ হয়েছে” বাক্যাংশটি কীভাবে ব্যাখ্যা করেন?",
-          "de": "Wie deutet Imam al-Rida عليه السلام die Formulierung „diejenigen, mit denen eure rechten Hände Verträge geschlossen haben“ in Sure 4:33?",
-          "en": "How does Imam al-Rida عليه السلام interpret the phrase ‘those with whom your right hands have ratified agreements’ in Qur'an 4:33?",
-          "es": "¿Cómo interpreta el Imam al-Rida عليه السلام la frase “aquellos con quienes vuestras manos derechas han ratificado acuerdos” en el Corán 4:33?",
-          "fa": "امام رضا علیه السلام عبارت «و کسانی که دست‌های راست شما با آنان پیمان بسته‌اند» را در قرآن 4:33 چگونه تفسیر می‌کند؟",
-          "fr": "Comment l’Imam al-Rida عليه السلام interprète-t-il l’expression « ceux avec qui vos mains droites ont conclu des accords » dans le Coran 4:33 ?",
-          "id": "Bagaimana Imam al-Rida عليه السلام menafsirkan frasa “orang-orang yang telah diikat oleh tangan kananmu dengan perjanjian” dalam Al-Qur'an 4:33?",
-          "ru": "Как Имам ар-Рида عليه السلام толкует фразу «те, с кем ваши правые руки заключили договоры» в Коране 4:33?",
-          "tr": "İmam er-Rıza عليه السلام, Kur'an 4:33’teki “sağ ellerinizin anlaşma bağladıkları” ifadesini nasıl yorumladı?",
-          "ur": "امام الرضا علیہ السلام نے قرآن 4:33 میں “جن سے تمہارے دائیں ہاتھوں نے معاہدے باندھے” کی تعبیر کیسے کی؟",
-          "zh": "伊玛目里达 عليه السلام如何解释《古兰经》4:33中“那些你们的右手已与之缔结盟约的人”这句话？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনাটি এই আয়াতকে এ প্রসঙ্গে ইমামগণ عليهم السلام-এর প্রতি নির্দেশিত বলে ব্যাখ্যা করে, এবং অঙ্গীকার ও বাধ্যতামূলক চুক্তির ভাষাকে ইমামগণ عليهم السلام-এর কর্তৃত্ব ও নির্ধারণের সঙ্গে যুক্ত করে।",
-          "de": "Diese Überlieferung erklärt den Vers in diesem Zusammenhang als Bezug auf die Imame عليهم السلام und stellt die Formulierung über Bündnisse und bindende Vereinbarungen als mit der Autorität und Bestimmung der Imame عليهم السلام verbunden dar.",
-          "en": "This narration explains the verse as referring, in this context, to the Imams عليهم السلام. It presents the wording about covenants and binding agreements as connected to the authority and designation of the Imams عليهم السلام.",
-          "es": "Esta narración explica el versículo, en este contexto, como una referencia a los Imames عليهم السلام, y presenta la expresión sobre los pactos y los acuerdos vinculantes como relacionada con la autoridad y la designación de los Imames عليهم السلام.",
-          "fa": "این روایت، این آیه را در این سیاق ناظر به امامان عليهم السلام تفسیر می‌کند و تعبیرِ پیمان‌ها و قراردادهای الزام‌آور را به ولایت و تعیین امامان عليهم السلام پیوند می‌دهد.",
-          "fr": "Ce récit explique ce verset, dans ce contexte, comme une référence aux Imams عليهم السلام, et présente l’expression relative aux pactes et aux accords contraignants comme liée à l’autorité et à la désignation des Imams عليهم السلام.",
-          "id": "Riwayat ini menjelaskan ayat tersebut dalam konteks ini sebagai merujuk kepada para Imam عليهم السلام, dan mengaitkan ungkapan tentang perjanjian serta ikatan yang mengikat dengan otoritas dan penetapan para Imam عليهم السلام.",
-          "ru": "Этот хадис объясняет аят в данном контексте как относящийся к Имамам عليهم السلام и связывает выражение о заветах и обязательных соглашениях с властью и назначением Имамов عليهم السلام.",
-          "tr": "Bu rivayet, bu ayeti bağlamında İmamlara عليهم السلام işaret eden bir yorum olarak açıklar ve ahitler ile bağlayıcı anlaşmalar ifadesini İmamlara عليهم السلام’ın otoritesi ve tayiniyle bağlantılı gösterir.",
-          "ur": "یہ روایت اس آیت کی تفسیر اس سیاق میں ائمہ عليهم السلام کے حوالے سے کرتی ہے، اور عہد و پیمان کے الفاظ کو ائمہ عليهم السلام کی ولایت اور تعیین سے مربوط بتاتی ہے۔",
-          "zh": "这段传述将这节经文在此语境下解释为指向伊玛目们 عليهم السلام，并把关于盟约和具有约束力的协议的表述与伊玛目们 عليهم السلام的权威和任命联系起来。"
-        },
         "tags": [
           "quran_commentary",
           "theology",

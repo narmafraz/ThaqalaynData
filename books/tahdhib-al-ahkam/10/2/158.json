@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "اِبْنُ مَحْبُوبٍ عَنْ عَبْدِ اللَّهِ بْنِ سِنَانٍ عَنِ اِبْنِ بُكَيْرٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ইবন মাহবুব, ʿআবদুল্লাহ ইবন সিনান থেকে, ইবন বুকাইর থেকে, আবু ʿআবদুল্লাহ عليه السلام থেকে:",
-              "de": "Ibn Mahbub, von ʿAbd Allah ibn Sinan, von Ibn Bukayr, von Abu ʿAbd Allah عليه السلام:",
-              "en": "Ibn Mahbub, from ʿAbd Allah ibn Sinan, from Ibn Bukayr, from Abu ʿAbd Allah عليه السلام:",
-              "es": "Ibn Mahbub, de ʿAbd Allah ibn Sinan, de Ibn Bukayr, de Abu ʿAbd Allah عليه السلام:",
-              "fa": "ابن محبوب، از عبد الله بن سنان، از ابن بکیر، از ابو عبد الله علیه السلام:",
-              "fr": "Ibn Mahbub, d’après ʿAbd Allah ibn Sinan, d’après Ibn Bukayr, d’après Abu ʿAbd Allah عليه السلام :",
-              "id": "Ibn Mahbub, dari ʿAbd Allah ibn Sinan, dari Ibn Bukayr, dari Abu ʿAbd Allah عليه السلام:",
-              "ru": "Ибн Махбуб, от ʿАбд Аллаха ибн Синана, от Ибн Букайра, от Абу ʿАбд Аллаха عليه السلام:",
-              "tr": "İbn Mahbub, Abd Allah ibn Sinan’dan, İbn Bukeyr’den, Ebu Abdillah عليه السلام’dan:",
-              "ur": "ابن محبوب، عبد اللہ بن سنان سے، ابن بکیر سے، ابو عبد اللہ علیہ السلام سے:",
-              "zh": "伊本·马赫布卜，传自ʿ阿卜杜拉·伊本·西南，传自伊本·布凯尔，传自阿布·ʿ阿卜杜拉 عليه السلام："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "فِي رَجُلٍ اِجْتَمَعَتْ عَلَيْهِ حُدُودٌ مِنْهَا الْقَتْلُ، قَالَ: «يُبْدَأُ بِالْحُدُودِ الَّتِي هِيَ دُونَ الْقَتْلِ، ثُمَّ يُقْتَلُ بَعْدُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "একজন লোকের ব্যাপারে, যার ওপর একাধিক নির্ধারিত শাস্তি আবশ্যক হয়ে গিয়েছিল, যার মধ্যে হত্যা ছিল, তিনি বললেন: “প্রথমে হত্যা অপেক্ষা কম শাস্তিগুলো দিয়ে শুরু করা হবে, তারপর তাকে হত্যা করা হবে।”",
-              "de": "Über einen Mann, gegen den mehrere vorgeschriebene Strafen fällig geworden waren, darunter die Tötung, sagte er: „Man beginnt mit den Strafen, die unterhalb der Tötung liegen, dann wird er danach getötet.“",
-              "en": "Concerning a man upon whom several prescribed punishments had become due, among them killing, he said: “One begins with the punishments that are less than killing, then he is killed afterward.”",
-              "es": "Acerca de un hombre sobre quien habían recaído varias penas prescritas, entre ellas la muerte, dijo: “Se comienza con las penas que son menores que la muerte, y luego se le da muerte después.”",
-              "fa": "دربارهٔ مردی که بر او چند حدّ مقرر واجب شده بود، از جمله قتل، فرمود: «با حدهایی که کمتر از قتل‌اند آغاز می‌شود، سپس پس از آن کشته می‌شود.»",
-              "fr": "Au sujet d’un homme sur qui plusieurs peines prescrites étaient devenues dues, parmi lesquelles le meurtre, il dit : « On commence par les peines qui sont inférieures au meurtre, puis il est mis à mort ensuite. »",
-              "id": "Tentang seorang laki-laki yang atasnya telah wajib beberapa hukuman yang ditetapkan, di antaranya pembunuhan, beliau bersabda: “Dimulai dengan hukuman-hukuman yang lebih ringan daripada pembunuhan, kemudian setelah itu ia dibunuh.”",
-              "ru": "О человеке, на котором стали обязательными несколько предписанных наказаний, среди них убийство, он сказал: «Начинают с наказаний, которые меньше убийства, а затем после этого его убивают».",
-              "tr": "Üzerine, aralarında öldürme de olmak üzere, birkaç belirlenmiş ceza vacip olmuş bir adam hakkında şöyle buyurdu: “Öldürmeden daha hafif olan cezalarla başlanır, sonra onun ardından öldürülür.”",
-              "ur": "ایک ایسے شخص کے بارے میں جس پر کئی مقررہ سزائیں واجب ہو گئی تھیں، جن میں قتل بھی شامل تھا، انہوں نے فرمایا: “پہلے ان سزاؤں سے آغاز کیا جائے گا جو قتل سے کم ہیں، پھر اس کے بعد اسے قتل کیا جائے گا۔”",
-              "zh": "关于一个人，他身上已经应当执行几项法定刑罚，其中包括杀人，他说：“先从比杀人轻的刑罚开始，然后再处死他。”"
-            },
             "word_end": 33,
             "word_start": 16
           }
@@ -104,25 +91,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْقَتْلُ": "execution or killing as a legal punishment",
-            "حُدُودٌ": "prescribed legal punishments established in the Sacred Law",
-            "دُونَ": "less than or below in degree",
-            "يُبْدَأُ": "one starts or begins with",
-            "يُقْتَلُ": "he is killed or executed"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "حُدُودٌ",
+          "الْقَتْلُ",
+          "يُبْدَأُ",
+          "دُونَ",
+          "يُقْتَلُ"
+        ],
         "related_quran": [
           {
             "ref": "5:33",
@@ -137,32 +112,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যদি কারও ওপর মৃত্যুদণ্ডসহ একাধিক হুদুদ শাস্তি প্রযোজ্য হয়, তবে প্রথমে কোন শাস্তি কার্যকর করা হয়?",
-          "de": "Wenn gegen eine Person mehrere Hudud-Strafen, einschließlich der Hinrichtung, anstehen, welche Strafe wird zuerst vollstreckt?",
-          "en": "If a person is subject to multiple hudud punishments including execution, which punishment is carried out first?",
-          "es": "Si una persona está sujeta a varias penas hudud, incluida la ejecución, ¿qué pena se aplica primero?",
-          "fa": "اگر بر کسی چند حدّ از جمله اعدام واجب باشد، کدام حدّ نخست اجرا می‌شود؟",
-          "fr": "Si une personne est soumise à plusieurs peines de hudud, y compris l’exécution, quelle peine est appliquée en premier ?",
-          "id": "Jika seseorang dikenai beberapa hukuman hudud termasuk eksekusi, hukuman mana yang dilaksanakan terlebih dahulu?",
-          "ru": "Если к человеку применяются несколько наказаний худуд, включая казнь, какое наказание приводится в исполнение первым?",
-          "tr": "Bir kişiye idam da dahil olmak üzere birden fazla hudud cezası uygulanacaksa, önce hangi ceza uygulanır?",
-          "ur": "اگر کسی پر سزائے موت سمیت متعدد حدود واجب ہوں تو پہلے کون سی سزا نافذ کی جاتی ہے؟",
-          "zh": "如果一个人要受包括处决在内的多项hudud刑罚，先执行哪一种刑罚？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে এমন একজন ব্যক্তির সম্পর্কে একটি শরঈ বিধান বলা হয়েছে, যার ওপর একাধিক নির্ধারিত শাস্তি আবশ্যক, যার একটি হলো মৃত্যুদণ্ড। এতে বলা হয়েছে, আগে হালকা হুদুদ শাস্তিগুলো কার্যকর করা হবে, তারপর মৃত্যুদণ্ড কার্যকর করা হবে।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung über eine Person, gegen die mehrere vorgeschriebene Strafen fällig sind, darunter die Hinrichtung. Er besagt, dass zuerst die leichteren Hudud-Strafen vollstreckt werden und danach die Hinrichtung erfolgt.",
-          "en": "This hadith gives a legal ruling about a person liable for multiple prescribed punishments, one of which is execution. It states that the lesser hudud penalties are carried out first, and then the execution is performed afterward.",
-          "es": "Este hadiz establece una norma jurídica sobre una persona sujeta a varias penas prescritas, una de las cuales es la ejecución. Indica que primero se aplican las penas hudud menores y luego se lleva a cabo la ejecución.",
-          "fa": "این حدیث دربارهٔ کسی که چند حدّ بر او واجب شده و یکی از آنها اعدام است، حکمی فقهی بیان می‌کند. بر اساس آن، نخست حدود سبک‌تر اجرا می‌شود و سپس اعدام انجام می‌گیرد.",
-          "fr": "Ce hadith énonce une règle juridique concernant une personne à qui plusieurs peines prescrites sont dues, dont l’une est l’exécution. Il indique que les peines de hudud les moins graves sont appliquées d’abord, puis l’exécution est exécutée ensuite.",
-          "id": "Hadis ini memberikan حكم hukum tentang seseorang yang dikenai beberapa hukuman yang ditetapkan, salah satunya eksekusi. Disebutkan bahwa hudud yang lebih ringan dilaksanakan terlebih dahulu, lalu eksekusi dilakukan setelahnya.",
-          "ru": "Этот хадис содержит правовое постановление о человеке, на котором лежит несколько предписанных наказаний, одно из которых — казнь. В нем говорится, что сначала приводятся в исполнение более легкие худуд-наказания, а затем совершается казнь.",
-          "tr": "Bu hadis, üzerine birden fazla belirlenmiş ceza vacip olan ve bunlardan biri idam olan bir kişi hakkında fıkhî bir hüküm bildirir. Buna göre önce daha hafif hudud cezaları uygulanır, ardından idam gerçekleştirilir.",
-          "ur": "یہ حدیث ایک ایسے شخص کے بارے میں شرعی حکم بیان کرتی ہے جس پر متعدد مقررہ سزائیں واجب ہوں، جن میں ایک سزائے موت بھی ہو۔ اس میں بتایا گیا ہے کہ پہلے ہلکی حدود نافذ کی جائیں، پھر بعد میں سزائے موت دی جائے۔",
-          "zh": "这段圣训就一个人身负多项法定刑罚、其中一项是处决的情况给出了教法判决。它说明应先执行较轻的hudud刑罚，然后再执行处决。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

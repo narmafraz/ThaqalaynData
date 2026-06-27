@@ -21,42 +21,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَلِيُّ بْنُ مُحَمَّدٍ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী ইবন মুহাম্মদ বলেছেন:",
-              "de": "Ali ibn Muhammad sagte:",
-              "en": "Ali ibn Muhammad said:",
-              "es": "Ali ibn Muhammad dijo:",
-              "fa": "علی بن محمد گفت:",
-              "fr": "Ali ibn Muhammad a dit :",
-              "id": "Ali ibn Muhammad berkata:",
-              "ru": "Али ибн Мухаммад сказал:",
-              "tr": "Ali ibn Muhammad dedi ki:",
-              "ur": "علی بن محمد نے کہا:",
-              "zh": "阿里·伊本·穆罕默德说："
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "خَرَجَ نَهْيٌ عَنْ زِيَارَةِ مَقَابِرِ قُرَيْشٍ وَالْحَيْرِ، فَلَمَّا كَانَ بَعْدَ أَشْهُرٍ دَعَا الْوَزِيرُ الْبَاقَطَائِيَّ، فَقَالَ لَهُ: الْقَ بَنِي الْفُرَاتِ وَالْبُرْسِيِّينَ، وَقُلْ لَهُمْ: لَا يَزُورُوا مَقَابِرَ قُرَيْشٍ، فَقَدْ أَمَرَ الْخَلِيفَةُ أَنْ يُتَفَقَّدَ كُلُّ مَنْ زَارَ فَيُقْبَضَ عَلَيْهِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "কুরাইশ ও আল-হাইরের কবর জিয়ারত নিষিদ্ধ করা হয়েছিল। তারপর কয়েক মাস পরে, উজির আল-বাকতাঈকে ডেকে তাকে বললেন: “বনু আল-ফুরাত ও আল-বুরসিয়্যিনের সঙ্গে দেখা করো, এবং তাদের বলো যেন তারা কুরাইশের কবর জিয়ারত না করে, কারণ খলিফা আদেশ দিয়েছেন যে যে কেউ জিয়ারত করবে তাকে খুঁজে বের করে আটক করা হবে।”",
-              "de": "Es wurde ein Verbot erlassen, die Gräber von Quraysh und al-Ha'ir zu besuchen. Dann rief der Wesir nach einigen Monaten al-Baqta'i zu sich und sagte zu ihm: „Triff die Banu al-Furat und die Bursiyyin und sage ihnen, dass sie die Gräber von Quraysh nicht besuchen sollen, denn der Kalif hat angeordnet, dass jeder, der sie besucht, überprüft und festgenommen wird.“",
-              "en": "A prohibition was issued against visiting the graves of Quraysh and al-Ha'ir. Then, after some months, the vizier called al-Baqta'i and said to him: “Meet the Banu al-Furat and the Bursiyyin, and tell them not to visit the graves of Quraysh, for the caliph has ordered that everyone who visits be checked and seized.”",
-              "es": "Se emitió una prohibición contra visitar las tumbas de Quraysh y al-Ha'ir. Luego, después de algunos meses, el visir llamó a al-Baqta'i y le dijo: “Reúnete con los Banu al-Furat y los Bursiyyin, y diles que no visiten las tumbas de Quraysh, pues el califa ha ordenado que se vigile y se detenga a todo aquel que las visite.”",
-              "fa": "نهی‌ای از زیارت قبور قریش و الحائر صادر شد. سپس پس از چند ماه، وزیر الباقطائی را فراخواند و به او گفت: «با بنی‌الفرات و برسیین دیدار کن و به آنان بگو قبور قریش را زیارت نکنند، زیرا خلیفه فرمان داده است که هر کس زیارت کند بررسی و بازداشت شود.»",
-              "fr": "Une interdiction fut émise contre la visite des tombes de Quraysh et d’al-Ha'ir. Puis, après quelques mois, le vizir appela al-Baqta'i et lui dit : « Va voir les Banu al-Furat et les Bursiyyin, et dis-leur de ne pas visiter les tombes de Quraysh, car le calife a ordonné que toute personne qui s’y rend soit repérée et arrêtée. »",
-              "id": "Sebuah larangan dikeluarkan untuk berziarah ke makam-makam Quraisy dan al-Ha'ir. Lalu, setelah beberapa bulan, wazir memanggil al-Baqta'i dan berkata kepadanya: “Temuilah Banu al-Furat dan Bursiyyin, dan katakan kepada mereka agar tidak berziarah ke makam-makam Quraisy, karena khalifah telah memerintahkan agar setiap orang yang berziarah diperiksa dan ditangkap.”",
-              "ru": "Был издан запрет на посещение могил Курайш и аль-Ха'ира. Затем, спустя несколько месяцев, визирь вызвал аль-Бакта'и и сказал ему: «Встреться с Бану аль-Фурат и Бурсиййин и скажи им не посещать могилы Курайш, ибо халиф приказал, чтобы каждого, кто посетит их, разыскивали и задерживали».",
-              "tr": "Kureyş ve el-Hâir kabirlerini ziyaret etmeye karşı bir yasak çıkarıldı. Sonra birkaç ay geçince vezir el-Baktaî’yi çağırdı ve ona şöyle dedi: “Beni’l-Furat ve Bursiyyin ile görüş ve onlara Kureyş kabirlerini ziyaret etmemelerini söyle; çünkü halife, ziyaret eden herkesin araştırılıp yakalanmasını emretti.”",
-              "ur": "قریش اور الحائر کی قبروں کی زیارت سے ممانعت جاری کی گئی۔ پھر چند ماہ بعد وزیر نے الباقطائی کو بلایا اور اس سے کہا: “بنی الفرات اور البرسیین سے ملو، اور انہیں کہو کہ وہ قریش کی قبروں کی زیارت نہ کریں، کیونکہ خلیفہ نے حکم دیا ہے کہ جو بھی زیارت کرے اس کی تفتیش کی جائے اور اسے گرفتار کر لیا جائے۔”",
-              "zh": "曾颁布禁令，禁止前往古莱什和阿尔-哈伊尔的坟墓。后来过了几个月，宰相召见了阿尔-巴克塔伊，对他说：“去见巴努·阿尔-富拉特和布尔西يين，并告诉他们不要去拜访古莱什的坟墓，因为哈里发已经下令，凡前去拜访的人都要被查验并逮捕。”"
-            },
             "word_end": 40,
             "word_start": 4
           }
@@ -79,28 +66,16 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْحَيْرِ": "al-Ha'ir, the sacred area associated with Karbala",
-            "الْخَلِيفَةُ": "the caliph, the ruling political authority",
-            "الْوَزِيرُ": "the minister or vizier",
-            "زِيَارَةِ": "visitation, especially to graves or sacred sites",
-            "فَيُقْبَضَ عَلَيْهِ": "that he be arrested or seized",
-            "مَقَابِرِ قُرَيْشٍ": "the graves of Quraysh, referring to a known burial site",
-            "نَهْيٌ": "a prohibition or forbidding order",
-            "يُتَفَقَّدَ": "to be inspected or checked"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "نَهْيٌ",
+          "زِيَارَةِ",
+          "مَقَابِرِ قُرَيْشٍ",
+          "الْحَيْرِ",
+          "الْوَزِيرُ",
+          "الْخَلِيفَةُ",
+          "يُتَفَقَّدَ",
+          "فَيُقْبَضَ عَلَيْهِ"
+        ],
         "related_quran": [
           {
             "ref": "3:173",
@@ -115,32 +90,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই বর্ণনায় কুরাইশ ও আল-হাইরের কবর জিয়ারত কেন সাময়িকভাবে নিষিদ্ধ করা হয়েছিল?",
-          "de": "Warum wurde der Besuch der Gräber von Quraysh und al-Ha'ir in diesem Bericht vorübergehend verboten?",
-          "en": "Why was visitation to the graves of Quraysh and al-Ha'ir temporarily prohibited in this report?",
-          "es": "¿Por qué se prohibió temporalmente la visita a las tumbas de Quraysh y al-Ha'ir en este relato?",
-          "fa": "چرا در این گزارش زیارت قبور قریش و الحائر به‌طور موقت ممنوع شد؟",
-          "fr": "Pourquoi la visite des tombes de Quraysh et d’al-Ha'ir a-t-elle été temporairement interdite dans ce récit ?",
-          "id": "Mengapa ziarah ke makam-makam Quraisy dan al-Ha'ir untuk sementara dilarang dalam riwayat ini?",
-          "ru": "Почему в этом сообщении посещение могил Курайш и аль-Ха'ира было временно запрещено?",
-          "tr": "Bu rivayette Kureyş ve el-Hâir kabirlerini ziyaret etmek neden geçici olarak yasaklandı?",
-          "ur": "اس روایت میں قریش اور الحائر کی قبروں کی زیارت کو عارضی طور پر کیوں ممنوع قرار دیا گیا تھا؟",
-          "zh": "为什么在这段记载中前往古莱什和阿尔-哈伊尔的坟墓被暂时禁止？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনাটি এমন এক সময়কে তুলে ধরে, যখন রাজনৈতিক নজরদারি ও বিপদের কারণে কুরাইশ ও আল-হাইরের কবর জিয়ারত প্রকাশ্যে নিষিদ্ধ ছিল। এটি শাসক কর্তৃপক্ষের আরোপিত চাপকে প্রতিফলিত করে এবং শিয়া সম্প্রদায়ের পরিস্থিতির সঙ্গে সম্পর্কিত একটি ঐতিহাসিক মুহূর্ত সংরক্ষণ করে।",
-          "de": "Dieser Bericht beschreibt eine Zeit, in der der Besuch der Gräber von Quraysh und al-Ha'ir aufgrund politischer Überwachung und Gefahr äußerlich verboten war. Er spiegelt den Druck wider, der von der herrschenden Autorität ausgeübt wurde, und bewahrt einen historischen Moment im Zusammenhang mit den Umständen der schiitischen Gemeinschaft.",
-          "en": "This report describes a period in which visiting the graves of Quraysh and al-Ha'ir was outwardly prohibited due to political surveillance and danger. It reflects the pressures imposed by the ruling authority and preserves a historical moment connected to the circumstances of the Shi'a community.",
-          "es": "Este relato describe un período en el que visitar las tumbas de Quraysh y al-Ha'ir estaba aparentemente prohibido debido a la vigilancia política y al peligro. Refleja las presiones impuestas por la autoridad gobernante y preserva un momento histórico مرتبط con las circunstancias de la comunidad chií.",
-          "fa": "این گزارش دوره‌ای را توصیف می‌کند که در آن زیارت قبور قریش و الحائر به‌ظاهر به سبب نظارت سیاسی و خطر ممنوع شده بود. این گزارش فشارهای تحمیل‌شده از سوی قدرت حاکم را بازتاب می‌دهد و لحظه‌ای تاریخی مرتبط با شرایط جامعه شیعه را حفظ می‌کند.",
-          "fr": "Ce récit décrit une période durant laquelle la visite des tombes de Quraysh et d’al-Ha'ir était, en apparence, interdite en raison de la surveillance politique et du danger. Il reflète les pressions imposées par l’autorité au pouvoir et préserve un moment historique lié aux circonstances de la communauté chiite.",
-          "id": "Riwayat ini menggambarkan suatu masa ketika ziarah ke makam-makam Quraisy dan al-Ha'ir secara lahiriah dilarang karena pengawasan politik dan bahaya. Ini mencerminkan tekanan yang diberlakukan oleh otoritas yang berkuasa dan melestarikan sebuah momen sejarah yang terkait dengan keadaan komunitas Syiah.",
-          "ru": "Этот рассказ описывает период, когда посещение могил Курайш и аль-Ха'ира было внешне запрещено из-за политического надзора и опасности. Он отражает давление, оказываемое правящей властью, и сохраняет исторический момент, связанный с обстоятельствами шиитской общины.",
-          "tr": "Bu rivayet, siyasi gözetim ve tehlike nedeniyle Kureyş ve el-Hâir kabirlerini ziyaret etmenin görünürde yasaklandığı bir dönemi anlatır. Bu, yönetici otoritenin dayattığı baskıları yansıtır ve Şiî topluluğunun şartlarıyla bağlantılı tarihî bir anı korur.",
-          "ur": "یہ روایت اس دور کو بیان کرتی ہے جب سیاسی نگرانی اور خطرے کی وجہ سے قریش اور الحائر کی قبروں کی زیارت ظاہراً ممنوع تھی۔ یہ حکمران اقتدار کی طرف سے عائد دباؤ کو ظاہر کرتی ہے اور شیعہ برادری کے حالات سے متعلق ایک تاریخی لمحہ محفوظ رکھتی ہے۔",
-          "zh": "这段记载描述了一个时期，当时由于政治监视和危险，前往古莱什和阿尔-哈伊尔的坟墓在表面上被禁止。它反映了统治当局施加的压力，并保存了与什叶派社群处境相关的一个历史时刻。"
-        },
         "tags": [
           "history",
           "governance",

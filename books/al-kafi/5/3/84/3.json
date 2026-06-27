@@ -14,6 +14,139 @@
       "up": "/books/al-kafi:5:3:84"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ جَمِيلِ بْنِ دَرَّاجٍ عَنْ بَعْضِ أَصْحَابِهِ عَنْ أَحَدِهِمَا ( عَلَيْهِمَا السَّلَامُ ) أَنَّهُ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 24,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "فِي رَجُلٍ تَزَوَّجَ أُخْتَيْنِ فِي عَقْدَةٍ وَاحِدَةٍ قَالَ هُوَ بِالْخِيَارِ يُمْسِكُ أَيَّتَهُمَا شَاءَ وَيُخَلِّي سَبِيلَ الْأُخْرَى",
+            "chunk_type": "body",
+            "word_end": 40,
+            "word_start": 24
+          },
+          {
+            "arabic_text": "وَقَالَ فِي رَجُلٍ كَانَتْ لَهُ جَارِيَةٌ فَوَطِئَهَا ثُمَّ اشْتَرَى أُمَّهَا أَوِ ابْنَتَهَا قَالَ لَا تَحِلُّ لَهُ [أَبَدًا]",
+            "chunk_type": "closing",
+            "word_end": 57,
+            "word_start": 40
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 3,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+              "name_en": "Ali ibn Ibrahim",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 7,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ أَبِي عُمَيْرٍ",
+              "name_en": "Ibn Abi Umayr",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 66,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "جَمِيلِ بْنِ دَرَّاجٍ",
+              "name_en": "Jamil ibn Darraj",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 37,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "بَعْضِ أَصْحَابِهِ",
+              "name_en": "some of his companions",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 58,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحَدِهِمَا ( عليهما السلام ) أَنَّهُ",
+              "name_en": "Ahadihima",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [],
+        "key_terms_keys": [
+          "عَقْدَةٍ",
+          "الْخِيَار",
+          "جَارِيَةٌ",
+          "تَحِلُّ",
+          "أَبَدًا"
+        ],
+        "related_quran": [
+          {
+            "ref": "4:23",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "4:24",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family"
+        ],
+        "topics": [
+          "marriage_family_law",
+          "halal_haram"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مرسل كالحسن  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (0/192)"
       ],
@@ -96,7 +229,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:3:84:3",

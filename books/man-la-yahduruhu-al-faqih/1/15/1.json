@@ -17,23 +17,23 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "قَالَ أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ: «لَا صَلَاةَ إِلَّا بِطَهُورٍ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আবু জাফর, আলাইহিস সালাম, বলেছেন: \"তাহারাহ (পবিত্রতা) ছাড়া সালাত (নামাজ) নেই।\"",
-              "de": "Abu Ja‘far, Friede sei mit ihm, sagte: „Es gibt kein Salat (Gebet) ohne Taharah (Reinigung).“",
-              "en": "Abu Ja‘far, peace be upon him, said: “There is no salat (prayer) except with taharah (purification).”",
-              "es": "Abu Ja‘far, la paz sea con él, dijo: “No hay salat (oración) excepto con taharah (purificación).”",
-              "fa": "ابوجعفر علیه السلام فرمود: «نماز بدون طهارت نیست.»",
-              "fr": "Abu Ja‘far, paix soit sur lui, a dit : « Il n’y a pas de salat (prière) sans taharah (purification). »",
-              "id": "Abu Ja‘far, alaihis salam, berkata: \"Tidak ada salat kecuali dengan taharah (bersuci).\"",
-              "ru": "Абу Джафар, мир ему, сказал: «Нет салят (молитвы) без тахары (очищения).»",
-              "tr": "Ebu Cafer, aleyhisselam, dedi ki: \"Taharet olmadan namaz yoktur.\"",
-              "ur": "ابو جعفر علیہ السلام نے فرمایا: \"طہارت کے بغیر کوئی نماز نہیں۔\"",
-              "zh": "阿布贾法尔愿他安息说：“没有净洁就没有礼拜。”"
-            },
             "word_end": 9,
             "word_start": 0
           }
@@ -62,24 +62,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبُو جَعْفَرٍ": "Abu Ja‘far, Imam Muhammad ibn Ali al-Baqir عليه السلام",
-            "بِطَهُورٍ": "with purification; ritual purity required for salat",
-            "صَلَاةَ": "salat (prayer), the ritual worship whose validity is being discussed",
-            "قَالَ": "said; introducing the reported statement"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "صَلَاةَ",
+          "بِطَهُورٍ",
+          "قَالَ",
+          "أَبُو جَعْفَرٍ"
+        ],
         "related_quran": [
           {
             "ref": "5:6",
@@ -90,32 +78,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "তাহারাহ ছাড়া সালাত বৈধ কি?",
-          "de": "Ist Salat (Gebet) ohne Taharah (Reinigung) gültig?",
-          "en": "Is salat (prayer) valid without taharah (purification)?",
-          "es": "¿Es válida la salat (oración) sin taharah (purificación)?",
-          "fa": "آیا نماز بدون طهارت صحیح است؟",
-          "fr": "La salat (prière) est-elle valide sans taharah (purification) ?",
-          "id": "Apakah salat sah tanpa taharah?",
-          "ru": "Является ли салят (молитва) действительной без тахары (очищения)?",
-          "tr": "Namaz taharet olmadan geçerli midir?",
-          "ur": "کیا نماز طہارت کے بغیر درست ہے؟",
-          "zh": "没有净洁礼拜有效吗？"
-        },
-        "summaries": {
-          "bn": "ইমাম মুহাম্মদ ইবনে আলী আল-বাকির عليه السلام বলেন যে তাহারাহ (পবিত্রতা) ছাড়া সালাত (নামাজ) বৈধ নয়। এই হাদিসটি ইবাদতের সঠিকতার জন্য আচারিক পবিত্রতাকে অপরিহার্য শর্ত হিসেবে প্রতিষ্ঠিত করে।",
-          "de": "Imam Muhammad ibn Ali al-Baqir عليه السلام erklärt, dass Salat (Gebet) ohne Taharah (Reinigung) nicht gültig ist. Der Hadith stellt rituelle Reinheit als notwendige Bedingung für die Korrektheit der Anbetung fest.",
-          "en": "Imam Muhammad ibn Ali al-Baqir عليه السلام states that salat (prayer) is not valid without taharah (purification). The hadith establishes ritual purity as a necessary condition for the correctness of worship.",
-          "es": "El Imam Muhammad ibn Ali al-Baqir عليه السلام afirma que la salat (oración) no es válida sin taharah (purificación). El hadiz establece la pureza ritual como condición necesaria para la corrección del culto.",
-          "fa": "امام محمد بن علی الباقر علیه السلام بیان می‌کند که نماز بدون طهارت صحیح نیست. این حدیث طهارت را به عنوان شرط لازم صحت عبادت معرفی می‌کند.",
-          "fr": "L’Imam Muhammad ibn Ali al-Baqir عليه السلام déclare que la salat (prière) n’est pas valide sans taharah (purification). Le hadith établit la pureté rituelle comme condition nécessaire à la validité du culte.",
-          "id": "Imam Muhammad ibn Ali al-Baqir عليه السلام menyatakan bahwa salat (shalat) tidak sah tanpa taharah (bersuci). Hadis ini menetapkan kesucian ritual sebagai syarat wajib untuk keabsahan ibadah.",
-          "ru": "Имам Мухаммад ибн Али аль-Бакр عليه السلام утверждает, что салят (молитва) недействительна без тахары (очищения). Хадис устанавливает ритуальную чистоту как необходимое условие правильности поклонения.",
-          "tr": "İmam Muhammed ibn Ali el-Bakır aleyhisselam, namazın taharet olmadan geçerli olmadığını belirtir. Hadis, ibadetin doğruluğu için ritüel temizliğin gerekli bir şart olduğunu ortaya koyar.",
-          "ur": "امام محمد ابن علی الباقر علیہ السلام فرماتے ہیں کہ نماز طہارت کے بغیر درست نہیں ہوتی۔ یہ حدیث عبادت کی درستگی کے لیے طہارت کو ضروری شرط قرار دیتی ہے۔",
-          "zh": "伊玛目穆罕默德·伊本·阿里·巴基尔 عليه السلام指出，没有净洁礼拜无效。此圣训确立了仪式净洁为礼拜正确性的必要条件。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

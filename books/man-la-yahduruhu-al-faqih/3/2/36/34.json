@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى حَمَّادٌ عَنْ أَبِي أَيُّوبَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং হাম্মাদ আবু আইয়ুব থেকে বর্ণনা করেছেন:",
-              "de": "Und Ḥammād berichtete von Abū Ayyūb:",
-              "en": "And Ḥammād narrated from Abū Ayyūb:",
-              "es": "Y Ḥammād narró de Abū Ayyūb:",
-              "fa": "و Ḥammād از ابی ایوب روایت کرد:",
-              "fr": "Et Ḥammād a rapporté d'Abū Ayyūb :",
-              "id": "Dan Ḥammād meriwayatkan dari Abū Ayyūb:",
-              "ru": "И Ḥammād передал от Абū Айюба:",
-              "tr": "Ve Ḥammād, Ebû Eyyûb'dan rivayet etti:",
-              "ur": "اور حَمّاد نے ابو ایوب سے روایت کی:",
-              "zh": "Ḥammād从AbūAyyūb传述："
-            },
             "word_end": 6,
             "word_start": 0
           },
           {
             "arabic_text": "أَنَّهُ سَأَلَ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ عَنْ رَجُلٍ اصْطَادَ سَمَكَةً فَرَبَطَهَا بِخَيْطٍ وَ أَرْسَلَهَا فِي الْمَاءِ فَمَاتَتْ أَ تُؤْكَلُ قَالَ «لَا».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি ইমাম আবা আবদিল্লাহ عليه السلام-কে জিজ্ঞাসা করলেন এমন এক ব্যক্তির সম্পর্কে যে একটি মাছ ধরেছিল, তারপর তাকে দড়ি দিয়ে বেঁধে পানিতে ফিরিয়ে দিয়েছিল, এবং মাছটি মারা গিয়েছিল। এটি খাওয়া যাবে? তিনি বললেন: \"না।\"",
-              "de": "Er fragte Abā ʿAbdillāh عليه السلام über einen Mann, der einen Fisch gefangen, ihn dann mit einer Schnur gebunden und zurück ins Wasser geschickt hatte, und der Fisch starb. Wird er gegessen? Er sagte: „Nein.“",
-              "en": "He asked Abā ʿAbdillāh عليه السلام about a man who caught a fish, then tied it with a string and sent it back into the water, and it died. Is it eaten? He said: \"No.\"",
-              "es": "Él preguntó a Abā ʿAbdillāh عليه السلام sobre un hombre que atrapó un pez, luego lo ató con una cuerda y lo devolvió al agua, y murió. ¿Se come? Él dijo: \"No.\"",
-              "fa": "از امام ابا عبداللّه علیه السلام پرسید درباره مردی که ماهی گرفت، سپس آن را با ریسمان بست و به آب بازگرداند و ماهی مرد. آیا خورده می‌شود؟ امام علیه السلام فرمود: «نه.»",
-              "fr": "Il a demandé à Abā ʿAbdillāh عليه السلام au sujet d'un homme qui a attrapé un poisson, puis l'a attaché avec une corde et l'a renvoyé dans l'eau, et il est mort. Est-il mangé ? Il a dit : « Non. »",
-              "id": "Dia bertanya kepada Imam Abā ʿAbdillāh عليه السلام tentang seorang pria yang menangkap ikan, lalu mengikatnya dengan tali dan mengembalikannya ke dalam air, kemudian ikan itu mati. Apakah ikan itu boleh dimakan? Beliau berkata: \"Tidak.\"",
-              "ru": "Он спросил у Имама Абā ʿАбдиллах عليه السلام о человеке, который поймал рыбу, затем привязал её верёвкой и отпустил обратно в воду, и она умерла. Можно ли её есть? Он ответил: «Нет.»",
-              "tr": "O, İmam Abā ʿAbdillāh عليه السلام'a, bir adamın bir balık yakalayıp ip ile bağlayıp suya geri gönderdiğini ve balığın öldüğünü sordu. Yenir mi? O dedi ki: \"Hayır.\"",
-              "ur": "اس نے امام ابا عبداللہ علیہ السلام سے پوچھا کہ ایک شخص نے مچھلی پکڑی، پھر اسے دھاگے سے باندھ کر پانی میں واپس بھیج دیا، اور وہ مر گئی۔ کیا اسے کھایا جا سکتا ہے؟ آپ علیہ السلام نے فرمایا: \"نہیں۔\"",
-              "zh": "他向伊玛目AbāʿAbdillāh عليه السلام询问一人捕获鱼后用绳绑住放回水中，鱼死了，是否可食？他说：“不可以。”"
-            },
             "word_end": 28,
             "word_start": 6
           }
@@ -111,59 +98,21 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَ تُؤْكَلُ": "is it permissible to eat it",
-            "اِصْطَادَ": "caught by hunting or capture",
-            "بِخَيْطٍ": "with a string or cord",
-            "سَمَكَةً": "a fish",
-            "فَمَاتَتْ": "then it died",
-            "فِي الْمَاءِ": "in the water",
-            "لَا": "no; it is not to be eaten"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "اِصْطَادَ",
+          "سَمَكَةً",
+          "بِخَيْطٍ",
+          "فِي الْمَاءِ",
+          "فَمَاتَتْ",
+          "أَ تُؤْكَلُ",
+          "لَا"
+        ],
         "related_quran": [
           {
             "ref": "5:96",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "একটি মাছ ধরা, দড়ি দিয়ে বেঁধে, পানিতে ফিরিয়ে দেওয়ার পর মারা গেলে সেটি খাওয়া যাবে?",
-          "de": "Kann ein Fisch gegessen werden, wenn er gefangen, mit einer Schnur gebunden, ins Wasser zurückgeschickt und dann gestorben ist?",
-          "en": "Can a fish be eaten if it was caught, tied with a string, returned to the water, and then died?",
-          "es": "¿Se puede comer un pez si fue atrapado, atado con una cuerda, devuelto al agua y luego murió?",
-          "fa": "آیا ماهی که صید شده، با ریسمان بسته شده، به آب بازگردانده شده و سپس مرده است، خورده می‌شود؟",
-          "fr": "Peut-on manger un poisson s'il a été attrapé, attaché avec une corde, renvoyé dans l'eau, puis est mort ?",
-          "id": "Apakah ikan boleh dimakan jika ditangkap, diikat dengan tali, dikembalikan ke air, lalu mati?",
-          "ru": "Можно ли есть рыбу, если её поймали, связали верёвкой, вернули в воду, и она там умерла?",
-          "tr": "Bir balık yakalanıp ip ile bağlanıp suya geri bırakıldıktan sonra ölürse, o balık yenir mi?",
-          "ur": "کیا مچھلی کو پکڑ کر، دھاگے سے باندھ کر، پانی میں واپس چھوڑنے کے بعد اگر وہ مر جائے تو اسے کھایا جا سکتا ہے؟",
-          "zh": "鱼被捕获后绑绳放回水中致死，是否可食？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি একটি মাছ ধরা, বেঁধে, পানিতে ফিরিয়ে দেওয়ার পর মারা গেলে সেটি খাওয়া যাবে কিনা সে সম্পর্কে একটি শারীয়াহর ফতোয়া প্রদান করে। ইমাম عليه السلام বলেছেন, এমন মাছ খাওয়া যাবে না, যা শারীয়াহর দৃষ্টিতে বৈধ ধরা সম্পর্কিত একটি শর্ত নির্দেশ করে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bezüglich der Erlaubnis, einen Fisch zu essen, nachdem er gefangen, gebunden, zurück ins Wasser geschickt und dort gestorben ist. Der Imam عليه السلام entscheidet, dass ein solcher Fisch nicht gegessen werden darf, was eine juristische Bedingung für den erlaubten Fang anzeigt.",
-          "en": "This hadith gives a legal ruling concerning the permissibility of eating a fish after it was caught, tied, returned to the water, and then died there. The Imam عليه السلام rules that such a fish is not to be eaten, indicating a jurisprudential condition relevant to lawful catch.",
-          "es": "Este hadiz da un fallo legal sobre la permisibilidad de comer un pez después de haber sido atrapado, atado, devuelto al agua y luego muerto allí. El Imam عليه السلام dictamina que tal pez no debe comerse, indicando una condición jurisprudencial relevante para la captura lícita.",
-          "fa": "این حدیث حکم شرعی درباره جواز خوردن ماهی پس از صید، بستن، بازگرداندن به آب و سپس مردن آن را بیان می‌کند. امام علیه السلام حکم کرده است که چنین ماهی خورده نشود که نشان‌دهنده شرط فقهی مرتبط با صید حلال است.",
-          "fr": "Ce hadith donne un jugement légal concernant la permissibilité de manger un poisson après qu'il ait été attrapé, attaché, renvoyé dans l'eau, puis mort. L'Imam عليه السلام ordonne que ce poisson ne soit pas mangé, indiquant une condition jurisprudentielle relative à la capture licite.",
-          "id": "Hadis ini memberikan hukum syariat mengenai bolehnya memakan ikan setelah ditangkap, diikat, dikembalikan ke air, lalu mati di sana. Imam عليه السلام memutuskan bahwa ikan tersebut tidak boleh dimakan, menunjukkan kondisi fikih terkait tangkapan yang halal.",
-          "ru": "Этот хадис содержит юридическое постановление о дозволенности есть рыбу, если она была поймана, привязана, возвращена в воду и там умерла. Имам عليه السلام постановляет, что такую рыбу есть нельзя, указывая на юридическое условие, связанное с законным уловом.",
-          "tr": "Bu hadis, bir balığın yakalandıktan sonra bağlanıp suya geri bırakılması ve orada ölmesi durumunda yenilip yenilmeyeceğine dair hukuki hükmü verir. İmam عليه السلام, böyle bir balığın yenmemesi gerektiğini hükmetmiş, bu da helal avlanmayla ilgili bir fıkhî şartı göstermektedir.",
-          "ur": "یہ حدیث اس بات کا فقہی حکم بیان کرتی ہے کہ مچھلی کو پکڑ کر، باندھ کر، پانی میں واپس چھوڑنے کے بعد اگر وہ مر جائے تو اسے کھانا جائز نہیں۔ امام علیہ السلام نے ایسی مچھلی کو نہ کھانے کا حکم دیا ہے جو شرعی لحاظ سے جائز پکڑ کے متعلق ایک شرط کو ظاہر کرتا ہے۔",
-          "zh": "此圣训就捕获鱼后绑绳放回水中致死的鱼是否可食给出法律裁决。伊玛目 عليه السلام裁定此类鱼不可食，表明与合法捕获相关的法理条件。"
-        },
         "tags": [
           "jurisprudence",
           "prophetic_tradition"

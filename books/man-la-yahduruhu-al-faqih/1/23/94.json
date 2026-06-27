@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَقَالَ الصَّادِقُ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং আল-সাদিক عليه السلام বললেন:",
-              "de": "Und al-Sadiq عليه السلام sagte:",
-              "en": "And al-Sadiq عليه السلام said:",
-              "es": "Y al-Sadiq عليه السلام dijo:",
-              "fa": "و اَلصَّادِق علیه السلام فرمود:",
-              "fr": "Et al-Sadiq عليه السلام a dit :",
-              "id": "Dan al-Sadiq علیه السلام berkata:",
-              "ru": "И аль-Садик عليه السلام сказал:",
-              "tr": "Ve el-Sâdık علیه السلام dedi ki:",
-              "ur": "اور اَلصَّادِق علیہ السلام نے فرمایا:",
-              "zh": "وَالْصَّادِقُعَلَيْهِالسَّلَامُقَالَ:"
-            },
             "word_end": 4,
             "word_start": 0
           },
           {
             "arabic_text": "«مَنْ سَرَّحَ لِحْيَتَهُ سَبْعِينَ مَرَّةً وَعَدَّهَا مَرَّةً مَرَّةً لَمْ يَقْرَبْهُ الشَّيْطَانُ أَرْبَعِينَ يَوْمًا.»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "‘‘যে ব্যক্তি তার দাড়ি সত্তরবার কুঁচকাবে এবং এক এক করে গননা করবে, শয়তান চল্লিশ দিন তার কাছে আসবে না।’’",
-              "de": "„Wer seinen Bart siebzigmal kämmt und sie einzeln zählt, dem wird der Shaytan vierzig Tage lang nicht nahekommen.“",
-              "en": "\"Whoever combs his beard seventy times and counts it one by one, Shaytan will not approach him for forty days.\"",
-              "es": "“Quien peine su barba setenta veces y las cuente una por una, Shaytán no se le acercará durante cuarenta días.”",
-              "fa": "«هر کس ریش خود را هفتاد بار شانه کند و یکی یکی بشمارد، شیطان چهل روز به او نزدیک نمی‌شود.»",
-              "fr": "«Quiconque peigne sa barbe soixante-dix fois et les compte une par une, Shaytan ne s'approchera pas de lui pendant quarante jours.»",
-              "id": "“Barangsiapa menyisir jenggotnya tujuh puluh kali dan menghitungnya satu per satu, setan tidak akan mendekatinya selama empat puluh hari.”",
-              "ru": "«Кто расчесывает свою бороду семьдесят раз и считает это по одному, шайтан не приблизится к нему в течение сорока дней.»",
-              "tr": "“Kim sakalını yetmiş kez tarar ve tek tek sayarsa, Şeytan kırk gün ona yaklaşmaz.”",
-              "ur": "‘‘جو شخص اپنی داڑھی ستر مرتبہ کنگھی کرے اور ایک ایک کر کے گنے، شیطان چالیس دن تک اس کے قریب نہیں آئے گا۔’’",
-              "zh": "«مَنمَشَّطَلِحْيَتَهُسَبْعِينَمَرَّةًوَعَدَّهَامَرَّةًمَرَّةًلَمْيَقْرَبْهُالشَّيْطَانُأَرْبَعِينَيَوْماً.»"
-            },
             "word_end": 17,
             "word_start": 4
           }
@@ -71,28 +58,16 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَرْبَعِينَ": "forty",
-            "الشَّيْطَانُ": "Shaytan, the devil",
-            "الصَّادِقُ": "Imam Ja'far ibn Muhammad al-Sadiq عليه السلام",
-            "سَبْعِينَ": "seventy times",
-            "سَرَّحَ": "combed or groomed thoroughly",
-            "عَدَّهَا": "counted it",
-            "لِحْيَتَهُ": "his beard",
-            "يَوْمًا": "days"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الصَّادِقُ",
+          "سَرَّحَ",
+          "لِحْيَتَهُ",
+          "سَبْعِينَ",
+          "عَدَّهَا",
+          "الشَّيْطَانُ",
+          "أَرْبَعِينَ",
+          "يَوْمًا"
+        ],
         "related_quran": [
           {
             "ref": "7:27",
@@ -103,32 +78,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام দাড়ি সত্তরবার কুঁচকানোর বিষয়ে কী বলেছিলেন?",
-          "de": "Was sagte Imam al-Sadiq عليه السلام über das siebzigmalige Kämmen des Bartes?",
-          "en": "What did Imam al-Sadiq عليه السلام say about combing the beard seventy times?",
-          "es": "¿Qué dijo el Imam al-Sadiq عليه السلام sobre peinar la barba setenta veces?",
-          "fa": "امام اَلصَّادِق علیه السلام درباره شانه زدن ریش هفتاد بار چه گفت؟",
-          "fr": "Qu'a dit l'Imam al-Sadiq عليه السلام à propos de peigner la barbe soixante-dix fois ?",
-          "id": "Apa yang dikatakan Imam al-Sadiq علیه السلام tentang menyisir jenggot tujuh puluh kali?",
-          "ru": "Что сказал Имам аль-Садик عليه السلام о расчесывании бороды семьдесят раз?",
-          "tr": "İmam el-Sâdık علیه السلام sakalı yetmiş kez taramak hakkında ne dedi?",
-          "ur": "امام اَلصَّادِق علیہ السلام نے داڑھی کو ستر مرتبہ کنگھی کرنے کے بارے میں کیا فرمایا؟",
-          "zh": "伊玛目الصادقعليهالسلام关于梳理胡须七十次说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি একটি নির্দিষ্ট পরিচর্যার কাজকে শয়তানের বিরুদ্ধে সুরক্ষামূলক প্রভাব হিসেবে উল্লেখ করে যা যত্নসহকারে এবং গণনা করে করা হয়। এটি পরিচ্ছন্নতা, ব্যক্তিগত শিষ্টাচার এবং আধ্যাত্মিক কল্যাণের সাথে সম্পর্কিত অভিজ্ঞতামূলক শিক্ষাকে প্রতিফলিত করে।",
-          "de": "Dieser Hadith schreibt einer bestimmten Pflegehandlung, die mit Sorgfalt und Zählung durchgeführt wird, eine schützende Wirkung gegen den Shaytan zu. Er spiegelt Lehren über Sauberkeit, persönliche Etikette und verkörperte Praktiken im Zusammenhang mit spirituellem Wohlbefinden wider.",
-          "en": "This hadith attributes a protective effect against Shaytan to a specific act of grooming performed with care and count. It reflects teachings on cleanliness, personal etiquette, and embodied practices connected with spiritual well-being.",
-          "es": "Este hadiz atribuye un efecto protector contra Shaytán a un acto específico de cuidado personal realizado con atención y conteo. Refleja enseñanzas sobre limpieza, etiqueta personal y prácticas relacionadas con el bienestar espiritual.",
-          "fa": "این حدیث اثر حفاظتی در برابر شیطان را به عملی خاص از آرایش که با دقت و شمارش انجام می‌شود نسبت می‌دهد. این آموزه‌ها درباره پاکیزگی، آداب شخصی و تمرین‌های مرتبط با سلامت معنوی است.",
-          "fr": "Ce hadith attribue un effet protecteur contre Shaytan à un acte spécifique de soin effectué avec attention et comptage. Il reflète des enseignements sur la propreté, l’étiquette personnelle et les pratiques liées au bien-être spirituel.",
-          "id": "Hadis ini mengaitkan efek perlindungan terhadap setan dengan tindakan merawat diri tertentu yang dilakukan dengan hati-hati dan dihitung. Ini mencerminkan ajaran tentang kebersihan, etika pribadi, dan praktik yang terkait dengan kesejahteraan spiritual.",
-          "ru": "Этот хадис приписывает защитный эффект от шайтану определённому акту ухода за собой, выполненному с вниманием и подсчётом. Он отражает учения о чистоте, личной этике и практиках, связанных с духовным благополучием.",
-          "tr": "Bu hadis, dikkat ve sayımla yapılan belirli bir bakım eyleminin Şeytan'a karşı koruyucu etkisini belirtir. Temizlik, kişisel edep ve ruhani iyilikle bağlantılı uygulamalı öğretileri yansıtır.",
-          "ur": "یہ حدیث ایک خاص صفائی کے عمل کو شیطان سے حفاظت کا ذریعہ قرار دیتی ہے جو احتیاط اور گنتی کے ساتھ کیا جاتا ہے۔ یہ صفائی، ذاتی آداب، اور روحانی فلاح سے جڑے عملی طریقوں کی تعلیمات کی عکاسی کرتی ہے۔",
-          "zh": "此圣训将对抗魔鬼的保护作用归因于一种细致且计数进行的特定修饰行为。它反映了关于清洁、个人礼仪及与精神福祉相关的实践教导。"
-        },
         "tags": [
           "ethics",
           "prophetic_tradition",

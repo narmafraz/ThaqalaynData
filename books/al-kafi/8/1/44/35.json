@@ -15,6 +15,141 @@
       "up": "/books/al-kafi:8:1:44"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيٌّ عَنْ أَبِيهِ عَنِ ابْنِ مَحْبُوبٍ عَنِ الْحَسَنِ بْنِ صَالِحٍ الثَّوْرِيِّ عَنْ أَبِي عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 18,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "كَانَ طُولُ سَفِينَةِ نُوحٍ (عَلَيْهِ السَّلَامُ) أَلْفَ ذِرَاعٍ وَ مِائَتَيْ ذِرَاعٍ وَ عَرْضُهَا ثَمَانُمِائَةِ ذِرَاعٍ وَ طُولُهَا فِي السَّمَاءِ ثَمَانِينَ ذِرَاعاً وَ سَعَتْ بَيْنَ الصَّفَا وَ الْمَرْوَةِ وَ طَافَتْ بِالْبَيْتِ سَبْعَةَ أَشْوَاطٍ ثُمَّ اسْتَوَتْ عَلَى الْجُودِيِّ.",
+            "chunk_type": "body",
+            "word_end": 54,
+            "word_start": 18
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 50,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيٌّ",
+              "name_en": "Ali",
+              "position": 1,
+              "role": "imam"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِيهِ",
+              "name_en": "his father",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 10,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ مَحْبُوبٍ",
+              "name_en": "Ibn Mahbub",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 762,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحَسَنِ بْنِ صَالِحٍ الثَّوْرِيِّ",
+              "name_en": "al-Hasan b. Salih al-Thawri",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ (عليه السلام)",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "سَفِينَةِ نُوحٍ",
+          "ذِرَاعٍ",
+          "الصَّفَا",
+          "الْمَرْوَةِ",
+          "الْبَيْتِ",
+          "أَشْوَاطٍ",
+          "الْجُودِيِّ"
+        ],
+        "related_quran": [
+          {
+            "ref": "11:37",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "29:15",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "7:64",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "11:40",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "history",
+          "quran_commentary",
+          "theology"
+        ],
+        "topics": [
+          "prophets",
+          "quran_interpretation_method",
+          "miracles"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف على الشهور</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 302)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -97,7 +232,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:44:35",

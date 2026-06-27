@@ -14,6 +14,129 @@
       "up": "/books/al-kafi:4:2:51"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ أَحْمَدَ عَنْ أَحْمَدَ بْنِ هِلَالٍ عَنْ عَمْرِو بْنِ عُثْمَانَ عَنْ عُذَافِرٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 18,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "قُلْتُ لِأَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) أَصُومُ هَذِهِ الثَّلَاثَةَ الْأَيَّامِ فِي الشَّهْرِ فَرُبَّمَا سَافَرْتُ وَ رُبَّمَا أَصَابَتْنِي عِلَّةٌ فَيَجِبُ عَلَيَّ قَضَاؤُهَا قَالَ فَقَالَ لِي إِنَّمَا يَجِبُ الْفَرْضُ فَأَمَّا غَيْرُ الْفَرْضِ فَأَنْتَ فِيهِ بِالْخِيَارِ قُلْتُ بِالْخِيَارِ فِي السَّفَرِ وَ الْمَرَضِ قَالَ فَقَالَ الْمَرَضُ قَدْ وَضَعَهُ اللَّهُ عَزَّ وَ جَلَّ عَنْكَ وَ السَّفَرُ إِنْ شِئْتَ فَاقْضِهِ وَ إِنْ لَمْ تَقْضِهِ فَلَا جُنَاحَ عَلَيْكَ .",
+            "chunk_type": "body",
+            "word_end": 82,
+            "word_start": 18
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 59,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ أَحْمَدَ",
+              "name_en": "Muhammad ibn Ahmad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 525,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ هِلَالٍ",
+              "name_en": "Ahmad ibn Hilal",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 129,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَمْرِو بْنِ عُثْمَانَ",
+              "name_en": "Amr ibn Uthman",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1157,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عُذَافِرٍ",
+              "name_en": "Uthayfir",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "قَضَاءُ",
+          "الْفَرْضُ",
+          "الْخِيَارُ",
+          "السَّفَرُ",
+          "الْمَرَضُ",
+          "لَا جُنَاحَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:184",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:185",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "worship"
+        ],
+        "topics": [
+          "fasting_rulings"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6/332)"
       ],
@@ -85,7 +208,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:4:2:51:2",

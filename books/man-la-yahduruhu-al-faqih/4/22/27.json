@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَفِي رِوَايَةِ ٱبْنِ بُكَيْرٍ قَالَ قَالَ أَبُو عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং ইবনে বু্কায়েরের বর্ণনায়, তিনি বললেন: আবু আবদুল্লাহ علیہ السلام বললেন:",
-              "de": "Und in der Überlieferung von Ibn Bukayr sagte er: Abu Abdullah عليه السلام sagte:",
-              "en": "And in the narration of Ibn Bukayr, he said: Abu Abdullah عليه السلام said:",
-              "es": "Y en la narración de Ibn Bukayr, dijo: Abu Abdullah عليه السلام dijo:",
-              "fa": "و در روایت ابن بُکَیر، گفته است: ابو عبدالله علیه السلام فرمود:",
-              "fr": "Et dans la narration d'Ibn Bukayr, il a dit : Abu Abdullah عليه السلام a dit :",
-              "id": "Dan dalam riwayat Ibnu Bukayr, dia berkata: Abu Abdullah علیه السلام berkata:",
-              "ru": "И в передаче Ибн Букайра он сказал: Абу Абдуллах عليه السلام сказал:",
-              "tr": "Ve İbn Bukayr rivayetinde, dedi ki: Ebu Abdullah علیه السلام şöyle dedi:",
-              "ur": "اور ابن بُکیر کی روایت میں، انہوں نے کہا: ابو عبداللہ علیہ السلام نے فرمایا:",
-              "zh": "在伊本布凯尔的传述中他说：阿布阿卜杜拉 عليه السلام 说："
-            },
             "word_end": 11,
             "word_start": 0
           },
           {
             "arabic_text": "«كُلُّ مَنْ قَتَلَ بِشَيْءٍ صَغِيرٍ أَوْ كَبِيرٍ بَعْدَ أَنْ يَتَعَمَّدَ فَعَلَيْهِ ٱلْقَوَدُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "\"যে কেউ ইচ্ছাকৃতভাবে ছোট বা বড় যেকোনো কিছু দিয়ে হত্যা করে, তার ওপর কিসাস ফরজ।\"",
-              "de": "\"Wer mit irgendetwas, klein oder groß, absichtlich tötet, dem steht Qiṣāṣ zu.\"",
-              "en": "\"Whoever kills with anything, small or great, after doing so intentionally, then qiṣāṣ is upon him.\"",
-              "es": "\"Quienquiera que mate con algo, pequeño o grande, después de hacerlo intencionalmente, entonces el qiṣāṣ es para él.\"",
-              "fa": "\"هر کس عمداً با هر چیزی، کوچک یا بزرگ، کسی را بکشد، قصاص بر او واجب است.\"",
-              "fr": "\"Quiconque tue avec quoi que ce soit, petit ou grand, après l'avoir fait intentionnellement, alors le qiṣāṣ lui incombe.\"",
-              "id": "\"Barangsiapa membunuh dengan sesuatu, kecil atau besar, setelah melakukannya dengan sengaja, maka qiṣāṣ atasnya.\"",
-              "ru": "\"Кто убьет чем-либо, малым или большим, после намеренного действия, на него возлагается киcас.\"",
-              "tr": "\"Kim kasıtlı olarak küçük ya da büyük herhangi bir şeyle öldürürse, üzerine kıṣāṣ düşer.\"",
-              "ur": "\"جو کوئی بھی جان بوجھ کر کسی چیز سے، چاہے وہ چھوٹی ہو یا بڑی، قتل کرے، تو اس پر قصاص واجب ہے۔\"",
-              "zh": "\"凡故意用任何东西，无论大小杀人者，须承担剋薩（报复刑罚）。\""
-            },
             "word_end": 23,
             "word_start": 11
           }
@@ -81,23 +68,11 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بَعْدَ أَنْ يَتَعَمَّدَ": "after acting deliberately and intentionally",
-            "بِشَيْءٍ صَغِيرٍ أَوْ كَبِيرٍ": "with anything, whether small or large in size or apparent severity",
-            "ٱلْقَوَدُ": "retaliatory retribution; qiṣāṣ for intentional killing"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "بِشَيْءٍ صَغِيرٍ أَوْ كَبِيرٍ",
+          "بَعْدَ أَنْ يَتَعَمَّدَ",
+          "ٱلْقَوَدُ"
+        ],
         "related_quran": [
           {
             "ref": "2:178",
@@ -112,32 +87,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইসলামী আইনে কি ছোট কোনো বস্তু দিয়ে ইচ্ছাকৃত হত্যার ক্ষেত্রেও কিসাস প্রযোজ্য?",
-          "de": "Erfordert vorsätzliches Töten mit einem kleinen Gegenstand im islamischen Recht ebenfalls Qiṣāṣ?",
-          "en": "Does intentional killing with a small object also require qiṣāṣ in Islamic law?",
-          "es": "¿Requiere la ley islámica qiṣāṣ el asesinato intencional con un objeto pequeño?",
-          "fa": "آیا در فقه اسلامی قتل عمد با شیء کوچک نیز مستلزم قصاص است؟",
-          "fr": "Le meurtre intentionnel avec un petit objet nécessite-t-il également le qiṣāṣ en droit islamique ?",
-          "id": "Apakah pembunuhan dengan sengaja menggunakan benda kecil juga memerlukan qiṣāṣ dalam hukum Islam?",
-          "ru": "Требует ли исламское право киcас при умышленном убийстве с использованием малого предмета?",
-          "tr": "İslami hukukta küçük bir nesneyle kasıtlı öldürme de kıṣāṣ gerektirir mi?",
-          "ur": "کیا اسلامی قانون میں چھوٹے آلے سے جان بوجھ کر قتل کرنے پر بھی قصاص لازم ہے؟",
-          "zh": "伊斯兰法中故意用小物体杀人是否也须承担剋薩？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ইচ্ছাকৃত হত্যার বিষয়ে আইনি বিধান ব্যাখ্যা করে। এটি প্রতিষ্ঠা করে যে কেউ ইচ্ছাকৃতভাবে অন্যকে হত্যা করলে, ব্যবহৃত যন্ত্র ছোট বা বড় হোক না কেন, তার ওপর কিসাস ফরজ।",
-          "de": "Dieser Hadith legt eine rechtliche Regelung bezüglich vorsätzlichen Tötens fest. Er besagt, dass wenn jemand absichtlich einen anderen tötet, unabhängig davon, ob das verwendete Werkzeug klein oder groß ist, Qiṣāṣ auf ihn zukommt.",
-          "en": "This hadith states a legal ruling concerning intentional killing. It establishes that when a person deliberately kills another, regardless of whether the instrument used is small or large, he is liable to qiṣāṣ (retaliatory retribution).",
-          "es": "Este hadiz establece un fallo legal sobre el asesinato intencional. Establece que cuando una persona mata deliberadamente a otra, independientemente de si el instrumento usado es pequeño o grande, es responsable de qiṣāṣ (retribución retaliatoria).",
-          "fa": "این حدیث حکم شرعی مربوط به قتل عمد را بیان می‌کند. مشخص می‌کند که وقتی شخصی عمداً دیگری را می‌کشد، صرف نظر از اینکه وسیله کوچک یا بزرگ باشد، قصاص بر او واجب است.",
-          "fr": "Ce hadith énonce une règle juridique concernant le meurtre intentionnel. Il établit que lorsqu'une personne tue délibérément une autre, que l'instrument utilisé soit petit ou grand, le qiṣāṣ lui incombe.",
-          "id": "Hadis ini menyatakan hukum terkait pembunuhan dengan sengaja. Menetapkan bahwa ketika seseorang dengan sengaja membunuh orang lain, baik dengan alat kecil maupun besar, maka qiṣāṣ atasnya wajib.",
-          "ru": "Этот хадис устанавливает правовое постановление относительно умышленного убийства. Он утверждает, что если человек намеренно убивает другого, независимо от того, был ли использован малый или большой предмет, на него возлагается киcас.",
-          "tr": "Bu hadis, kasıtlı öldürme ile ilgili hukuki hükmü belirtir. Bir kişinin kasıtlı olarak birini öldürmesi durumunda, kullanılan aracın küçük ya da büyük olmasına bakılmaksızın, kıṣāṣın uygulanacağını ortaya koyar.",
-          "ur": "یہ حدیث قصداً قتل کے بارے میں شرعی حکم بیان کرتی ہے۔ یہ واضح کرتی ہے کہ جب کوئی شخص جان بوجھ کر کسی کو قتل کرتا ہے، چاہے اس نے چھوٹے یا بڑے آلے کا استعمال کیا ہو، تو اس پر قصاص لازم آتا ہے۔",
-          "zh": "此圣训陈述了关于故意杀人的法律判决。明确指出当一个人故意杀害他人时，无论所用工具大小，均须承担剋薩（报复刑罚）。"
-        },
         "tags": [
           "jurisprudence",
           "governance",

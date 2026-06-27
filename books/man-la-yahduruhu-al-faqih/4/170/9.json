@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى الْحَسَنُ بْنُ مَحْبُوبٍ عَنِ الْحَسَنِ بْنِ صَالِحٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আল-হাসান ইবনে মাহবুব আল-হাসান ইবনে সালিহ থেকে আবী আব্দুল্লাহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Al-Ḥasan ibn Maḥbūb berichtete von Al-Ḥasan ibn Ṣāliḥ von Abī ʿAbdillāh عليه السلام, der sagte:",
-              "en": "Al-Ḥasan ibn Maḥbūb narrated from Al-Ḥasan ibn Ṣāliḥ from Abī ʿAbdillāh عليه السلام, who said:",
-              "es": "Al-Ḥasan ibn Maḥbūb narró de Al-Ḥasan ibn Ṣāliḥ de Abī ʿAbdillāh عليه السلام, quien dijo:",
-              "fa": "الْحَسَن بن محبوب از الْحَسَن بن صالح از ابی عبد الله علیه السلام روایت کرده که فرمود:",
-              "fr": "Al-Ḥasan ibn Maḥbūb a rapporté d'Al-Ḥasan ibn Ṣāliḥ d'Abī ʿAbdillāh عليه السلام, qui a dit :",
-              "id": "Al-Ḥasan ibn Maḥbūb meriwayat dari Al-Ḥasan ibn Ṣāliḥ dari Abī ʿAbdillāh علیه السلام, yang berkata:",
-              "ru": "Аль-Хасан ибн Махбуб передал от Аль-Хасан ибн Салих от Аби Абдиллаха عليه السلام, который сказал:",
-              "tr": "El-Hasan ibn Mahbub, El-Hasan ibn Salih'den, Ebu Abdillah (aleyhisselam)'dan rivayet etti, şöyle dedi:",
-              "ur": "الْحَسَن ابن محبوب نے الْحَسَن ابن صالح سے ابو عبد اللہ علیہ السلام سے روایت کی، جنہوں نے فرمایا:",
-              "zh": "الْحَسَنابنمَحبوبرَوَىعنالْحَسَنابنصَالِحعنأبِيʿعبداللَّهعليهالسلام،قال:"
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "«الْمُسْلِمُ يَحْجُبُ الْكَافِرَ وَ يَرِثُهُ وَ الْكَافِرُ لَا يَحْجُبُ الْمُؤْمِنَ وَ لَا يَرِثُهُ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "মুসলিম কাফেরকে বাধা দেয় এবং তার থেকে উত্তরাধিকার পায়, অথচ কাফের বিশ্বাসীকে বাধা দেয় না এবং তার থেকে উত্তরাধিকার পায় না।",
-              "de": "Der Muslim schließt den Ungläubigen aus und erbt von ihm, während der Ungläubige den Gläubigen weder ausschließt noch von ihm erbt.",
-              "en": "“The Muslim bars the disbeliever and inherits from him, while the disbeliever does not bar the believer and does not inherit from him.”",
-              "es": "El musulmán excluye al incrédulo y hereda de él, mientras que el incrédulo no excluye al creyente ni hereda de él.",
-              "fa": "مسلمان کافر را حجب می‌کند و از او ارث می‌برد، در حالی که کافر نه مؤمن را حجب می‌کند و نه از او ارث می‌برد.",
-              "fr": "Le musulman exclut le mécréant et hérite de lui, tandis que le mécréant n'exclut pas le croyant et n'hérite pas de lui.",
-              "id": "Muslim menghalangi kafir dan mewarisi darinya, sedangkan kafir tidak menghalangi mukmin dan tidak mewarisi darinya.",
-              "ru": "Мусульманин исключает неверующего и наследует от него, тогда как неверующий не исключает верующего и не наследует от него.",
-              "tr": "Müslüman kâfirden engeller ve ondan miras alır, kâfir ise mümini ne engeller ne de ondan miras alır.",
-              "ur": "مسلمان کافر کو روک دیتا ہے اور اس سے وارثت پاتا ہے، جبکہ کافر مؤمن کو نہ روکتا ہے اور نہ اس سے وارثت پاتا ہے۔",
-              "zh": "المسلميَحجبالكافرويرثه،والكافرلايَحجبالمؤمنولايرثه。"
-            },
             "word_end": 29,
             "word_start": 16
           }
@@ -101,25 +88,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْكَافِرَ": "the disbeliever; a non-Muslim in the context of inheritance law",
-            "الْمُؤْمِنَ": "the believer; here, the Muslim heir who is not excluded by a disbeliever",
-            "الْمُسْلِمُ": "the Muslim; the party whose legal status is being defined in inheritance",
-            "يَحْجُبُ": "bars or excludes another heir from inheritance",
-            "يَرِثُهُ": "inherits from him"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْمُسْلِمُ",
+          "الْكَافِرَ",
+          "يَحْجُبُ",
+          "يَرِثُهُ",
+          "الْمُؤْمِنَ"
+        ],
         "related_quran": [
           {
             "ref": "4:141",
@@ -130,32 +105,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "শিয়া ফিকহে মুসলিম ও কাফেরের মধ্যে উত্তরাধিকার সম্পর্কিত حکم কী?",
-          "de": "Wie lautet die Erbregelung zwischen Muslim und Ungläubigem im schiitischen Fiqh?",
-          "en": "What is the ruling on inheritance between a Muslim and a disbeliever in Shia fiqh?",
-          "es": "¿Cuál es el fallo sobre la herencia entre un musulmán y un incrédulo en la fiqh chií?",
-          "fa": "حکم ارث بین مسلمان و کافر در فقه شیعه چیست؟",
-          "fr": "Quel est le jugement sur l'héritage entre un musulman et un mécréant en fiqh chiite ?",
-          "id": "Apa hukum warisan antara Muslim dan kafir dalam fikih Syiah?",
-          "ru": "Каково правило наследования между мусульманином и неверующим в шиизме?",
-          "tr": "Şii fıkhında Müslüman ile kâfir arasındaki miras hükmü nedir?",
-          "ur": "شیعہ فقہ میں مسلمان اور کافر کے درمیان وراثت کا حکم کیا ہے؟",
-          "zh": "什叶派教法中穆斯林与不信者之间的继承规定是什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বিভিন্ন ধর্মের মানুষের মধ্যে উত্তরাধিকার সংক্রান্ত আইনি বিধান ব্যাখ্যা করে। এটি প্রতিষ্ঠা করে যে মুসলিম কাফের থেকে উত্তরাধিকার পেতে পারে এবং তাকে বাধা দিতে পারে, যেখানে কাফের বিশ্বাসীকে বাধা দেয় না এবং তার থেকে উত্তরাধিকার পায় না।",
-          "de": "Dieser Hadith legt eine rechtliche Regelung zur Erbschaft zwischen Menschen verschiedener Religionen fest. Er besagt, dass ein Muslim von einem Ungläubigen erben und ihn ausschließen kann, während der Ungläubige den Gläubigen weder ausschließt noch von ihm erbt.",
-          "en": "This hadith states a legal ruling in inheritance between people of different religions. It establishes that a Muslim may inherit from a disbeliever and exclude him, while a disbeliever neither excludes a believer from inheritance nor inherits from him.",
-          "es": "Este hadiz establece una regla legal sobre la herencia entre personas de diferentes religiones. Establece que un musulmán puede heredar de un incrédulo y excluirlo, mientras que el incrédulo no excluye al creyente ni hereda de él.",
-          "fa": "این حدیث حکم شرعی ارث بین افراد با ادیان مختلف را بیان می‌کند. مشخص می‌کند که مسلمان می‌تواند از کافر ارث ببرد و او را محروم کند، در حالی که کافر نه مؤمن را محروم می‌کند و نه از او ارث می‌برد.",
-          "fr": "Ce hadith énonce une règle juridique concernant l'héritage entre personnes de différentes religions. Il établit qu'un musulman peut hériter d'un mécréant et l'exclure, tandis que le mécréant n'exclut pas le croyant et n'hérite pas de lui.",
-          "id": "Hadis ini menyatakan hukum warisan antara orang-orang dari agama berbeda. Menetapkan bahwa seorang Muslim dapat mewarisi dari kafir dan menghalanginya, sedangkan kafir tidak menghalangi mukmin dan tidak mewarisi darinya.",
-          "ru": "Этот хадис устанавливает правовое правило наследования между людьми разных религий. Он утверждает, что мусульманин может наследовать от неверующего и исключать его, тогда как неверующий не исключает верующего и не наследует от него.",
-          "tr": "Bu hadis, farklı dinlere mensup kişiler arasındaki miras hukukuna dair hükmü belirtir. Müslümanın kâfirden miras alabileceğini ve onu engelleyebileceğini, kâfirin ise mümini ne engelleyebileceğini ne de ondan miras alabileceğini ortaya koyar.",
-          "ur": "یہ حدیث مختلف مذاہب کے لوگوں کے درمیان وراثت کے قانونی حکم کو بیان کرتی ہے۔ یہ واضح کرتی ہے کہ مسلمان کافر سے وراثت حاصل کر سکتا ہے اور اسے روک سکتا ہے، جبکہ کافر مؤمن کو نہ روک سکتا ہے اور نہ اس سے وراثت حاصل کر سکتا ہے۔",
-          "zh": "此حديث陈述了不同宗教人士间继承的法律规定。明确穆斯林可继承不信者并排除其继承权，而不信者既不排除信徒也不继承其财产。"
-        },
         "tags": [
           "jurisprudence",
           "family",

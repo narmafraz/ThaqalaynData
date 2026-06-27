@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَرَوَى حَفْصُ بْنُ الْبَخْتَرِيِّ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং হাফস ইবনে আল-বখতারী আবু 'আব্দুল্লাহ عليه السلام থেকে বর্ণনা করেছেন:",
-              "de": "Und Hafs ibn al-Bakhtari berichtete von Abu 'Abd Allah عليه السلام:",
-              "en": "And Hafs ibn al-Bakhtari narrated from Abu 'Abd Allah عليه السلام:",
-              "es": "Y Hafs ibn al-Bakhtari narró de Abu 'Abd Allah عليه السلام:",
-              "fa": "و حفص بن البختری از ابو عبد الله علیه السلام روایت کرد:",
-              "fr": "Et Hafs ibn al-Bakhtari a rapporté de Abu 'Abd Allah عليه السلام :",
-              "id": "Dan Hafs ibn al-Bakhtari meriwayatkan dari Abu 'Abd Allah عليه السلام:",
-              "ru": "И Хафс ибн аль-Бахтари передал от Абу 'Абд Аллаха عليه السلام:",
-              "tr": "Ve Hafs ibn al-Bakhtari, Ebu Abdullah'a (aleyhisselam) rivayet etti:",
-              "ur": "اور حفص ابن البختری نے ابو عبد اللہ علیہ السلام سے روایت کی:",
-              "zh": "和哈夫斯伊本阿尔巴赫塔里从阿布阿卜杜拉 عليه السلام传述："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "«أَنَّ الْكَافِرَ يَزُورُ أَهْلَهُ فَيَرَى مَا يَكْرَهُهُ وَيُسْتَرُ عَنْهُ مَا يُحِبُّ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "নিশ্চয়ই কাফির তার পরিবারকে দেখে এবং যা তাকে অপছন্দ তা দেখে, আর যা সে পছন্দ করে তা তার থেকে লুকানো হয়।",
-              "de": "Wahrlich, der Ungläubige besucht seine Familie und sieht, was ihm missfällt, während das, was er liebt, vor ihm verborgen bleibt.",
-              "en": "\"Indeed, the disbeliever visits his family and sees what displeases him, while what he loves is concealed from him.\"",
-              "es": "En verdad, el incrédulo visita a su familia y ve lo que le desagrada, mientras que lo que ama se le oculta.",
-              "fa": "بی‌شک کافر به خانواده‌اش سر می‌زند و آنچه را که ناخوشایندش است می‌بیند، در حالی که آنچه را دوست دارد از او پنهان می‌شود.",
-              "fr": "En effet, le mécréant rend visite à sa famille et voit ce qui lui déplaît, tandis que ce qu'il aime lui est caché.",
-              "id": "Sesungguhnya orang kafir mengunjungi keluarganya dan melihat apa yang tidak disukainya, sementara apa yang disukainya disembunyikan darinya.",
-              "ru": "Воистину, неверующий навещает свою семью и видит то, что ему неприятно, в то время как то, что он любит, скрыто от него.",
-              "tr": "Şüphesiz kâfir ailesini ziyaret eder ve hoşlanmadığı şeyleri görür, sevdiği şeyler ise ondan gizlenir.",
-              "ur": "بے شک کافر اپنے اہل خانہ سے ملاقات کرتا ہے اور وہ چیزیں دیکھتا ہے جو اسے ناپسند ہیں، جبکہ وہ چیزیں جو اسے پسند ہیں اس سے چھپائی جاتی ہیں۔",
-              "zh": "确实，不信者探访他的家人，看到令他厌恶的事物，而他所喜爱的则被隐藏。"
-            },
             "word_end": 21,
             "word_start": 10
           }
@@ -92,26 +79,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَهْلَهُ": "his family; his household or close people",
-            "الْكَافِرَ": "the disbeliever; the one described as experiencing deprivation after death",
-            "يَزُورُ": "visits; returns to observe or come upon",
-            "يَكْرَهُهُ": "what displeases him; what he finds hateful or distressing",
-            "يُحِبُّ": "he loves; what would please or comfort him",
-            "يُسْتَرُ": "is concealed; is hidden from view"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْكَافِرَ",
+          "يَزُورُ",
+          "أَهْلَهُ",
+          "يَكْرَهُهُ",
+          "يُسْتَرُ",
+          "يُحِبُّ"
+        ],
         "related_quran": [
           {
             "ref": "40:46",
@@ -126,32 +101,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস কাফিরের মৃত্যুর পর তার পরিবারকে দেখার ব্যাপারে কী বলে?",
-          "de": "Was sagt dieser Hadith über einen Ungläubigen, der seine Familie nach dem Tod besucht?",
-          "en": "What does this hadith say about a disbeliever visiting their family after death?",
-          "es": "¿Qué dice este hadiz sobre un incrédulo que visita a su familia después de la muerte?",
-          "fa": "این حدیث درباره دیدار کافر از خانواده‌اش پس از مرگ چه می‌گوید؟",
-          "fr": "Que dit ce hadith au sujet d'un mécréant visitant sa famille après la mort ?",
-          "id": "Apa yang dikatakan hadits ini tentang orang kafir yang mengunjungi keluarganya setelah kematian?",
-          "ru": "Что говорит этот хадис о посещении неверующим своей семьи после смерти?",
-          "tr": "Bu hadis, kâfirin ölümden sonra ailesini ziyaret etmesi hakkında ne diyor?",
-          "ur": "یہ حدیث کافر کے موت کے بعد اپنے اہل خانہ سے ملاقات کے بارے میں کیا کہتی ہے؟",
-          "zh": "这段圣训关于不信者死后探访家人说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি বলে যে কাফির মৃত্যুর পর তার পরিবারকে দেখে, কিন্তু তাকে শুধুমাত্র যেগুলো তাকে কষ্ট দেয় তা দেখানো হয়, আর যা তাকে আনন্দ দেয় তা থেকে তাকে বঞ্চিত রাখা হয়। এটি পরকালের এমন এক অবস্থা নির্দেশ করে যেখানে উপলব্ধি নিজেই শাস্তি ও বঞ্চনার অংশ হয়ে ওঠে।",
-          "de": "Dieser Hadith besagt, dass der Ungläubige nach dem Tod seine Familie besucht, ihm jedoch nur das gezeigt wird, was ihm Kummer bereitet, während das, was ihm Freude bereiten würde, vor ihm verborgen bleibt. Er weist auf einen Zustand im Jenseits hin, in dem die Wahrnehmung selbst Teil der Strafe und Entbehrung wird.",
-          "en": "This hadith states that the disbeliever visits his family after death, but is shown only what causes distress, while what would please him is hidden. It points to a condition in the afterlife in which perception itself becomes part of punishment and deprivation.",
-          "es": "Este hadiz indica que el incrédulo visita a su familia después de la muerte, pero solo se le muestra lo que le causa aflicción, mientras que lo que le agradaría se le oculta. Señala una condición en la otra vida donde la percepción misma es parte del castigo y la privación.",
-          "fa": "این حدیث بیان می‌کند که کافر پس از مرگ به دیدار خانواده‌اش می‌رود، اما تنها آنچه باعث رنجش او می‌شود به او نشان داده می‌شود و آنچه دوست دارد از او پنهان می‌ماند. این به حالتی در آخرت اشاره دارد که در آن ادراک خود بخشی از عذاب و محرومیت می‌شود.",
-          "fr": "Ce hadith indique que le mécréant rend visite à sa famille après la mort, mais on ne lui montre que ce qui lui cause du chagrin, tandis que ce qui lui plairait lui est caché. Il souligne une condition dans l'au-delà où la perception elle-même fait partie du châtiment et de la privation.",
-          "id": "Hadis ini menyatakan bahwa orang kafir mengunjungi keluarganya setelah kematian, tetapi hanya diperlihatkan apa yang menyakitinya, sementara apa yang disukainya disembunyikan. Ini menunjukkan kondisi di akhirat di mana persepsi menjadi bagian dari siksa dan kekurangan.",
-          "ru": "Этот хадис говорит, что неверующий посещает свою семью после смерти, но ему показывают только то, что причиняет ему страдания, в то время как то, что могло бы его порадовать, скрыто. Это указывает на состояние в загробной жизни, где само восприятие становится частью наказания и лишения.",
-          "tr": "Bu hadis, kâfirin ölümden sonra ailesini ziyaret ettiğini, ancak sadece onu üzen şeylerin gösterildiğini, sevdiği şeylerin ise gizlendiğini belirtir. Bu, ahirette algının ceza ve mahrumiyetin bir parçası haline geldiği bir duruma işaret eder.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ کافر موت کے بعد اپنے اہل خانہ سے ملاقات کرتا ہے، لیکن اسے صرف وہ دکھایا جاتا ہے جو اسے تکلیف دیتا ہے، جبکہ جو چیزیں اسے خوش کرتی ہیں وہ اس سے چھپائی جاتی ہیں۔ یہ آخرت کی ایک حالت کی طرف اشارہ کرتی ہے جہاں ادراک خود عذاب اور محرومی کا حصہ بن جاتا ہے۔",
-          "zh": "这段圣训说明，不信者死后探访家人，但只被展示令其痛苦的事物，而其所喜爱的则被隐藏。它指向来世中感知本身成为惩罚和剥夺的一部分的状态。"
-        },
         "tags": [
           "afterlife",
           "family",

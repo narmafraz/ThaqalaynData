@@ -15,6 +15,132 @@
       "up": "/books/al-kafi:8:1:43"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَنْهُ عَنِ الْمُعَلَّى عَنِ الْحَسَنِ عَنْ أَبَانٍ عَنْ أَبِي هَاشِمٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 11,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "لَمَّا أُخْرِجَ بِعَلِيٍّ (عَلَيْهِ السَّلَامُ) خَرَجَتْ فَاطِمَةُ (عَلَيْهِا السَّلَامُ) وَاضِعَةً قَمِيصَ رَسُولِ اللَّهِ (صَلَّى اللَّهِ عَلَيْهِ وَآلِهِ) عَلَى رَأْسِهَا آخِذَةً بِيَدَيِ ابْنَيْهَا فَقَالَتْ مَا لِي وَمَا لَكَ يَا أَبَا بَكْرٍ تُرِيدُ أَنْ تُؤَتِّمَ ابْنَيَّ وَتُرْمِلَنِي مِنْ زَوْجِي وَاللَّهَ لَوْلَا أَنْ تَكُونَ سَيِّةً لَنَشَرْتُ شَعْرِي وَلَصَرَخْتُ إِلَى رَبِّي فَقَالَ رَجُلٌ مِنَ الْقَوْمِ مَا تُرِيدُ إِلَى هَذَا ثُمَّ أَخَذَتْ بِيَدِهِ فَانْطَلَقَتْ بِهِ.",
+            "chunk_type": "body",
+            "word_end": 71,
+            "word_start": 11
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 11,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَنْهُ",
+              "name_en": "from him",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1387,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْمُعَلَّى",
+              "name_en": "al-Mu'alla",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 417,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحَسَنِ",
+              "name_en": "al-Hasan",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 46,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبَانٍ",
+              "name_en": "Aban",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 850,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي هَاشِمٍ",
+              "name_en": "Abi Hashim",
+              "position": 5,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "فَاطِمَةُ",
+          "قَمِيصَ رَسُولِ اللَّهِ",
+          "أَبُو بَكْرٍ",
+          "تُرْمِلَنِي",
+          "ابْنَيْهَا"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:61",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "33:59",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "history",
+          "family",
+          "social_relations"
+        ],
+        "topics": [
+          "imams_biography",
+          "ahlulbayt_virtues",
+          "events",
+          "marriage_family_law"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 183)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -91,7 +217,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:43:8",

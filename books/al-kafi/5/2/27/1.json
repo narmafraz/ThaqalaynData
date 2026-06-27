@@ -13,6 +13,147 @@
       "up": "/books/al-kafi:5:2:27"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ الْحُسَيْنِ بْنِ سَعِيدٍ عَنِ النَّضْرِ بْنِ سُوَيْدٍ عَنِ الْقَاسِمِ بْنِ سُلَيْمَانَ عَنْ جَرَّاحٍ الْمَدَائِنِيِّ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ )",
+            "chunk_type": "isnad",
+            "word_end": 30,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "أَنَّهُ كَرِهَ أَنْ يَنْزِلَ الرَّجُلُ عَلَى الرَّجُلِ وَ لَهُ عَلَيْهِ دَيْنٌ وَ إِنْ كَانَ قَدْ صَرَّحَ لَهُ إِلَّا ثَلَاثَةَ أَيَّامٍ",
+            "chunk_type": "body",
+            "word_end": 50,
+            "word_start": 30
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 21,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحُسَيْنِ بْنِ سَعِيدٍ",
+              "name_en": "al-Husayn b. Sa'id",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 65,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "النَّضْرِ بْنِ سُوَيْدٍ",
+              "name_en": "al-Nadr ibn Suwayd",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 196,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْقَاسِمِ بْنِ سُلَيْمَانَ",
+              "name_en": "al-Qasim ibn Sulayman",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 284,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "جَرَّاحٍ الْمَدَائِنِيِّ",
+              "name_en": "Jarrah al-Mada'ini",
+              "position": 6,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 7,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "كَرِهَ",
+          "يَنْزِلَ",
+          "دَيْنٌ",
+          "صَرَّحَ",
+          "ثَلَاثَةَ أَيَّامٍ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:280",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "social_relations",
+          "economy"
+        ],
+        "topics": [
+          "financial_law",
+          "etiquette",
+          "rights_of_others"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (9/56)"
       ],
@@ -105,7 +246,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:2:27:1",

@@ -15,6 +15,134 @@
       "up": "/books/al-kafi:8:1:42"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-11",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "ابْنُ مَحْبُوبٍ عَنْ مَالِكِ بْنِ عَطِيَّةَ عَنْ أَبِي حَمْزَةَ الثُّمَالِيِّ عَنْ عَلِيِّ بْنِ الْحُسَيْنِ (عَلَيْهِ السَّلَامُ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 17,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "لَا حَسَبَ لِقُرَشِيٍّ وَلَا لِعَرَبِيٍّ إِلَّا بِتَوَاضُعٍ، وَلَا كَرَمَ إِلَّا بِتَقْوَى، وَلَا عَمَلَ إِلَّا بِالنِّيَّةِ، وَلَا عِبَادَةَ إِلَّا بِالتَّفَقُّهِ. أَلَا وَإِنَّ أَبْغَضَ النَّاسِ إِلَى اللَّهِ مَنْ يَقْتَدِي بِسُنَّةِ إِمَامٍ وَلَا يَقْتَدِي بِأَعْمَالِهِ.",
+            "chunk_type": "body",
+            "word_end": 49,
+            "word_start": 17
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 10,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنُ مَحْبُوبٍ",
+              "name_en": "Ibn Mahbub",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 172,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مَالِكِ بْنِ عَطِيَّةَ",
+              "name_en": "Malik ibn Atiyya",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 163,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي حَمْزَةَ الثُّمَالِيِّ",
+              "name_en": "Abu Hamza al-Thumali",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 312,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيِّ بْنِ الْحُسَيْنِ (عليه السلام)",
+              "name_en": "Ali b. al-Husayn",
+              "position": 4,
+              "role": "imam"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "حَسَب",
+          "تَوَاضُع",
+          "كَرَم",
+          "تَقْوَى",
+          "النِّيَّة",
+          "التَّفَقُّهُ",
+          "سُنَّة",
+          "أَبْغَضَ النَّاس"
+        ],
+        "related_quran": [
+          {
+            "ref": "9:100",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:225",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "98:2",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "49:13",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "worship",
+          "theology"
+        ],
+        "topics": [
+          "humility",
+          "sincerity",
+          "imamate",
+          "sunnah",
+          "prayer_rulings"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> حسن</span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (6 / 178)",
         "Shaykh Baqir al-Behbudi: <span>ضعيف</span> - Sahih al-Kafi"
@@ -82,7 +210,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:8:1:42:13",

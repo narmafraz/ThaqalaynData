@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ سَيْفٍ عَنْ حَسَّانَ بْنِ مِهْرَانَ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন মুহাম্মদ, আলী ইবন সাইফ থেকে, হাসান ইবন মিহরান থেকে, তিনি বলেন:",
-              "de": "Ahmad ibn Muhammad, von 'Ali ibn Sayf, von Hassan ibn Mihran, der sagte:",
-              "en": "Ahmad ibn Muhammad, from 'Ali ibn Sayf, from Hassan ibn Mihran, who said:",
-              "es": "Ahmad ibn Muhammad, de 'Ali ibn Sayf, de Hassan ibn Mihran, quien dijo:",
-              "fa": "احمد بن محمد، از علی بن سیف، از حسن بن میران، که گفت:",
-              "fr": "Ahmad ibn Muhammad, d’'Ali ibn Sayf, de Hassan ibn Mihran, qui a dit :",
-              "id": "Ahmad ibn Muhammad, dari 'Ali ibn Sayf, dari Hassan ibn Mihran, yang berkata:",
-              "ru": "Ахмад ибн Мухаммад, от 'Али ибн Сайфа, от Хасана ибн Михрана, который сказал:",
-              "tr": "Ahmed ibn Muhammed, Ali ibn Seyf'den, Hassan ibn Mihran'dan, o da şöyle dedi:",
-              "ur": "احمد بن محمد، علی بن سیف سے، حسن بن میران سے، انہوں نے کہا:",
-              "zh": "艾哈迈德·伊本·穆罕默德，传自阿里·伊本·赛夫，传自哈桑·伊本·米赫兰，他说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ عَنْ قَضَاءِ النَّوَافِلِ، قَالَ: مَا بَيْنَ طُلُوعِ الشَّمْسِ إِلَى غُرُوبِهَا.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবা আবদিল্লাহ عليه السلام-কে নফল নামাজের কাযা সম্পর্কে জিজ্ঞেস করলাম। তিনি বললেন: সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত।",
-              "de": "Ich fragte Aba 'Abdillah عليه السلام nach dem Nachholen der freiwilligen Gebete. Er sagte: Zwischen Sonnenaufgang und Sonnenuntergang.",
-              "en": "I asked Aba 'Abdillah عليه السلام about making up the supererogatory prayers. He said: Between sunrise and its setting.",
-              "es": "Le pregunté a Aba 'Abdillah عليه السلام acerca de recuperar las oraciones supererogatorias. Dijo: Entre la salida del sol y su puesta.",
-              "fa": "از ابا عبدالله علیه السلام درباره قضای نمازهای نافله پرسیدم. فرمود: از طلوع خورشید تا غروب آن.",
-              "fr": "J’ai interrogé Aba 'Abdillah عليه السلام au sujet du rattrapage des prières surérogatoires. Il a dit : Entre le lever du soleil et son coucher.",
-              "id": "Aku bertanya kepada Aba 'Abdillah عليه السلام tentang mengqadha salat-salat nawafil. Beliau bersabda: Antara terbit matahari dan terbenamnya.",
-              "ru": "Я спросил Абу 'Абдуллаха عليه السلام о возмещении дополнительных молитв. Он сказал: Между восходом солнца и его закатом.",
-              "tr": "Ebu Abdullah عليه السلام'a nafile namazların kazası hakkında sordum. Buyurdu ki: Güneşin doğuşundan batışına kadar.",
-              "ur": "میں نے ابا عبداللہ علیہ السلام سے نوافل کی قضا کے بارے میں پوچھا۔ آپ نے فرمایا: طلوعِ آفتاب سے اس کے غروب تک۔",
-              "zh": "我询问阿巴·阿卜杜拉 عليه السلام关于补做副功拜功的事。他说：在日出到日落之间。"
-            },
             "word_end": 28,
             "word_start": 12
           }
@@ -94,24 +81,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "النَّوَافِلِ": "supererogatory or recommended prayers",
-            "طُلُوعِ": "the rising, here referring to sunrise",
-            "غُرُوبِهَا": "its setting, here referring to the setting of the sun",
-            "قَضَاءِ": "making up an act of worship after its appointed time has passed"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "قَضَاءِ",
+          "النَّوَافِلِ",
+          "طُلُوعِ",
+          "غُرُوبِهَا"
+        ],
         "related_quran": [
           {
             "ref": "17:78",
@@ -122,32 +97,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আস-সাদিক عليه السلام-এর মতে কখন নফল নামাজের কাযা আদায় করা যায়?",
-          "de": "Wann können versäumte Nawafil-Gebete nach Imam as-Sadiq عليه السلام nachgeholt werden?",
-          "en": "When can missed nawafil prayers be made up according to Imam al-Sadiq عليه السلام?",
-          "es": "¿Cuándo pueden recuperarse las oraciones nawafil perdidas según el Imam al-Sadiq عليه السلام?",
-          "fa": "بر اساس فرمایش امام صادق علیه السلام، قضای نمازهای نافله چه زمانی انجام می‌شود؟",
-          "fr": "Quand peut-on rattraper les prières nawafil manquées selon l’imam al-Sadiq عليه السلام ?",
-          "id": "Kapan salat nawafil yang terlewat dapat diqadha menurut Imam al-Sadiq عليه السلام?",
-          "ru": "Когда можно возмещать пропущенные нафиль-молитвы согласно имаму ас-Садику عليه السلام?",
-          "tr": "İmam es-Sadık عليه السلام'a göre kaçırılan nafile namazlar ne zaman kılınabilir?",
-          "ur": "امام الصادق علیہ السلام کے مطابق نوافل کی قضا کب کی جا سکتی ہے؟",
-          "zh": "根据伊玛目萨迪格 عليه السلام，何时可以补做错过的nawafil拜功？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস নফল নামাজের কাযার সময় সম্পর্কে একটি ফিকহি বিধান জানায়। ইমাম আস-সাদিক عليه السلام বলেন, এগুলোর কাযা সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত আদায় করা যায়।",
-          "de": "Dieser Hadith enthält eine rechtliche Bestimmung über die Zeit für das Nachholen der freiwilligen Gebete. Imam as-Sadiq عليه السلام erklärt, dass ihr Qada' zwischen Sonnenaufgang und Sonnenuntergang verrichtet werden kann.",
-          "en": "This hadith gives a legal ruling about the time for making up missed nawafil prayers. Imam al-Sadiq عليه السلام states that their qada' may be performed between sunrise and sunset.",
-          "es": "Este hadiz expone una norma jurídica sobre el tiempo para recuperar las oraciones supererogatorias. El Imam al-Sadiq عليه السلام afirma que su qada' puede realizarse entre la salida y la puesta del sol.",
-          "fa": "این حدیث حکمی فقهی درباره زمان قضای نمازهای نافله بیان می‌کند. امام صادق علیه السلام می‌فرماید که قضای آنها از طلوع خورشید تا غروب خورشید انجام می‌شود.",
-          "fr": "Ce hadith énonce une règle juridique concernant le moment du rattrapage des prières surérogatoires. L’imam al-Sadiq عليه السلام déclare que leur qada' peut être accompli entre le lever et le coucher du soleil.",
-          "id": "Hadis ini memberikan hukum fikih tentang waktu mengqadha salat-salat nawafil. Imam al-Sadiq عليه السلام menyatakan bahwa qada'nya dapat dilakukan antara terbit matahari dan terbenam matahari.",
-          "ru": "Этот хадис содержит правовое постановление о времени возмещения дополнительных молитв. Имам ас-Садик عليه السلام говорит, что их када' можно совершать между восходом и закатом солнца.",
-          "tr": "Bu hadis, nafile namazların kazasının vakti hakkında bir fıkhî hüküm bildirir. İmam es-Sadık عليه السلام, bunların kazasının güneşin doğuşundan batışına kadar kılınabileceğini belirtir.",
-          "ur": "یہ حدیث نوافل کی قضا کے وقت کے بارے میں شرعی حکم بیان کرتی ہے۔ امام الصادق علیہ السلام فرماتے ہیں کہ ان کی قضا طلوعِ آفتاب سے غروبِ آفتاب تک کی جا سکتی ہے۔",
-          "zh": "这段圣训给出了关于补做副功拜功时间的教法律例。伊玛目萨迪格 عليه السلام说明，其qada'可以在日出与日落之间进行。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

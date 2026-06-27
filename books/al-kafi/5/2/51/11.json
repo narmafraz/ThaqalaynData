@@ -14,6 +14,116 @@
       "up": "/books/al-kafi:5:2:51"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-09",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنِ ابْنِ فَضَّالٍ عَنِ ابْنِ بُكَيْرٍ [عَنْ عُبَيْدِ بْنِ زُرَارَةَ] قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 14,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "بَلَغَ أَبَا عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) عَنْ رَجُلٍ أَنَّهُ كَانَ يَأْكُلُ الرِّبَا وَ يُسَمِّيهِ اللِّبَأَ فَقَالَ لَئِنْ أَمْكَنَنِي اللَّهُ عَزَّ وَ جَلَّ [مِنْهُ] لَأَضْرِبَنَّ عُنُقَهُ .",
+            "chunk_type": "body",
+            "word_end": 42,
+            "word_start": 14
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدُ بْنُ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 22,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ فَضَّالٍ",
+              "name_en": "Ibn Faddal",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1876,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ بُكَيْرٍ [عَنْ عُبَيْدِ بْنِ زُرَارَةَ]",
+              "name_en": "Ibn Bukayr",
+              "position": 3,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الرِّبَا",
+          "اللِّبَأَ",
+          "أَبَا عَبْدِ اللَّهِ",
+          "عُنُقَهُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:275",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:276",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "2:279",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "theology",
+          "ethics",
+          "jurisprudence",
+          "economy"
+        ],
+        "topics": [
+          "usury",
+          "financial_law",
+          "imams_biography",
+          "halal_haram"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> موثق كالصحيح  </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (9/126)"
       ],
@@ -67,7 +177,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:2:51:11",

@@ -20,80 +20,41 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ إِبْرَاهِيمَ بْنِ عَبْدِ الْحَمِيدِ عَنْ مُوسَى بْنِ أُكَيْلٍ النُّمَيْرِيِّ عَنِ الْعَلَاءِ بْنِ سَيَابَةَ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আলী ইবন ইবরাহীম, তাঁর পিতা থেকে, ইবন আবি উমাইর থেকে, ইবরাহীম ইবন আব্দ আল-হামিদ থেকে, মূসা ইবন উকাইল আল-নুমাইরি থেকে, আল-আলা' ইবন সায়াবাহ থেকে, আবু আবদুল্লাহ عليه السلام থেকে।",
-              "de": "Ali ibn Ibrahim, von seinem Vater, von Ibn Abi Umayr, von Ibrahim ibn Abd al-Hamid, von Musa ibn Ukayl al-Numayri, von al-Ala' ibn Sayabah, von Abu Abdullah عليه السلام.",
-              "en": "Ali ibn Ibrahim, from his father, from Ibn Abi Umayr, from Ibrahim ibn Abd al-Hamid, from Musa ibn Ukayl al-Numayri, from al-Ala' ibn Sayabah, from Abu Abdullah عليه السلام.",
-              "es": "Ali ibn Ibrahim, de su padre, de Ibn Abi Umayr, de Ibrahim ibn Abd al-Hamid, de Musa ibn Ukayl al-Numayri, de al-Ala' ibn Sayabah, de Abu Abdullah عليه السلام.",
-              "fa": "علی بن ابراهیم، از پدرش، از ابن ابی عمیر، از ابراهیم بن عبد الحمید، از موسی بن عُکَیل النمَیری، از العلاء بن سیابہ، از ابو عبدالله علیه السلام.",
-              "fr": "Ali ibn Ibrahim, de son père, d'Ibn Abi Umayr, d'Ibrahim ibn Abd al-Hamid, de Musa ibn Ukayl al-Numayri, d'al-Ala' ibn Sayabah, d'Abu Abdullah عليه السلام.",
-              "id": "Ali ibn Ibrahim, dari ayahnya, dari Ibn Abi Umayr, dari Ibrahim ibn Abd al-Hamid, dari Musa ibn Ukayl al-Numayri, dari al-Ala' ibn Sayabah, dari Abu Abdullah عليه السلام.",
-              "ru": "Али ибн Ибрахим, от своего отца, от Ибн Аби Умайра, от Ибрахима ибн Абд аль-Хамида, от Мусы ибн Укайля аль-Нумайри, от аль-Ала' ибн Саябах, от Абу Абдуллаха عليه السلام.",
-              "tr": "Ali ibn İbrahim, babasından, İbn Ebi Umeyr'den, İbrahim ibn Abd al-Hamid'den, Musa ibn Ukayl al-Numeyri'den, al-Ala' ibn Sayabah'dan, Ebu Abdullah عليه السلام'dan.",
-              "ur": "علی بن ابراہیم، ان کے والد سے، ابن ابی عمیر سے، ابراہیم بن عبد الحمید سے، موسیٰ بن عُکَیل النمَیری سے، العلاء بن سیابہ سے، ابو عبد اللہ علیہ السلام سے۔",
-              "zh": "阿里·伊本·易卜拉欣，传自其父，传自伊本·阿比·乌迈尔，传自易卜拉欣·伊本·阿卜杜勒·哈米德，传自穆萨·伊本·乌凯勒·努迈里，传自阿拉·伊本·赛亚巴赫，传自阿布·阿卜杜拉 عليه السلام。"
-            },
             "word_end": 29,
             "word_start": 0
           },
           {
             "arabic_text": "فِي قَوْلِهِ تَعَالَى",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "তাঁর, মহান ও উচ্চমর্যাদাসম্পন্ন, এই বাণী সম্পর্কে:",
-              "de": "Über Sein, den Erhabenen, Wort:",
-              "en": "Regarding His, the Exalted, saying:",
-              "es": "Acerca de Su, Exaltado sea, dicho:",
-              "fa": "دربارهٔ سخن او، بلندمرتبه:",
-              "fr": "Au sujet de Sa parole, le Très-Haut :",
-              "id": "Tentang firman-Nya, Yang Mahatinggi:",
-              "ru": "О Его, Возвышенного, словах:",
-              "tr": "O'nun, Yüce olanın, şu sözü hakkında:",
-              "ur": "اس کے، بلند و برتر، اس فرمان کے بارے میں:",
-              "zh": "关于尊贵的主所说："
-            },
             "word_end": 32,
             "word_start": 29
           },
           {
             "arabic_text": "إِنَّ هَذَا الْقُرْآنَ يَهْدِي لِلَّتِي هِيَ أَقْوَمُ",
             "chunk_type": "quran_quote",
-            "translations": {
-              "bn": "নিশ্চয়ই এই কুরআন সেই পথের দিকে হিদায়াত করে যা সর্বাধিক সোজা।",
-              "de": "Gewiss, dieser Qur'an leitet zu dem, was am geradesten ist.",
-              "en": "Surely this Qur'an guides to that which is most upright.",
-              "es": "Ciertamente, este Corán guía hacia lo que es más recto.",
-              "fa": "بی‌تردید این قرآن به آنچه استوارتر است هدایت می‌کند.",
-              "fr": "Certes, ce Coran guide vers ce qui est le plus droit.",
-              "id": "Sesungguhnya Al-Qur'an ini memberi petunjuk kepada jalan yang paling lurus.",
-              "ru": "Воистину, этот Коран ведет к тому, что является наиболее прямым.",
-              "tr": "Şüphesiz bu Kur'an, en doğru olana hidayet eder.",
-              "ur": "بے شک یہ قرآن اس راہ کی طرف ہدایت کرتا ہے جو سب سے زیادہ سیدھی ہے۔",
-              "zh": "这部《古兰经》确实引导人走向最正直的道路。"
-            },
             "word_end": 39,
             "word_start": 32
           },
           {
             "arabic_text": "قَالَ يَهْدِي إِلَى الْإِمَامِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি عليه السلام বললেন: \"এটি ইমামের দিকে হিদায়াত করে।\"",
-              "de": "Er عليه السلام sagte: „Es leitet zum Imam.“",
-              "en": "He عليه السلام said: \"It guides to the Imam.\"",
-              "es": "Él عليه السلام dijo: \"Guía hacia el Imam.\"",
-              "fa": "ایشان علیه السلام فرمود: «به سوی امام هدایت می‌کند.»",
-              "fr": "Il عليه السلام a dit : « Il guide vers l'Imam. »",
-              "id": "Beliau عليه السلام bersabda: \"Ia memberi petunjuk kepada Imam.\"",
-              "ru": "Он عليه السلام сказал: «Оно ведет к Имаму».",
-              "tr": "O عليه السلام şöyle buyurdu: \"İmama hidayet eder.\"",
-              "ur": "انہوں نے علیہ السلام فرمایا: \"یہ امام کی طرف ہدایت کرتا ہے۔\"",
-              "zh": "他 عليه السلام说：“它引导人走向伊玛目。”"
-            },
             "word_end": 43,
             "word_start": 39
           }
@@ -176,25 +137,13 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَقْوَمُ": "most upright, most correct and firmly established",
-            "الْإِمَامِ": "the Imam, the divinely designated guide and leader",
-            "الْقُرْآنَ": "the Qur'an, the divine revelation that provides guidance",
-            "قَوْلِهِ": "His saying, referring to the cited divine statement",
-            "يَهْدِي": "guides, directs toward the correct path"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْقُرْآنَ",
+          "يَهْدِي",
+          "أَقْوَمُ",
+          "الْإِمَامِ",
+          "قَوْلِهِ"
+        ],
         "related_quran": [
           {
             "ref": "17:9",
@@ -213,32 +162,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আবু আবদুল্লাহ عليه السلام-এর মতে, কুরআন ১৭:৯ আয়াতে মানুষকে কিসের দিকে হিদায়াত করে?",
-          "de": "Wozu leitet der Qur'an nach Imam Abu Abdullah عليه السلام in Vers 17:9 die Menschen?",
-          "en": "According to Imam Abu Abdullah عليه السلام, what does the Qur'an guide people to in verse 17:9?",
-          "es": "Según el Imam Abu Abdullah عليه السلام, ¿hacia qué guía el Corán en el versículo 17:9?",
-          "fa": "به گفتهٔ امام ابو عبدالله علیه السلام، قرآن در آیهٔ 17:9 مردم را به سوی چه چیزی هدایت می‌کند؟",
-          "fr": "Selon l'Imam Abu Abdullah عليه السلام, vers quoi le Coran guide-t-il dans le verset 17:9 ?",
-          "id": "Menurut Imam Abu Abdullah عليه السلام, Al-Qur'an dalam ayat 17:9 memberi petunjuk kepada apa?",
-          "ru": "По словам Имама Абу Абдуллаха عليه السلام, к чему Коран ведет людей в аяте 17:9?",
-          "tr": "İmam Ebu Abdullah عليه السلام'a göre, Kur'an 17:9. ayette insanları neye hidayet eder?",
-          "ur": "امام ابو عبد اللہ علیہ السلام کے مطابق، آیت 17:9 میں قرآن لوگوں کو کس چیز کی طرف ہدایت کرتا ہے؟",
-          "zh": "根据伊玛目阿布·阿卜杜拉 عليه السلام，《古兰经》在第17:9节中引导人们走向什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি সেই আয়াতের তাফসির উপস্থাপন করে যেখানে বলা হয়েছে যে কুরআন সর্বাধিক সোজা পথের দিকে হিদায়াত করে। ইমাম আবু আবদুল্লাহ عليه السلام ব্যাখ্যা করেন যে এই হিদায়াত ইমামের দিকে, যা নির্দেশ করে যে সঠিক হিদায়াত আল্লাহ-নিযুক্ত বৈধ কর্তৃত্ব থেকে বিচ্ছিন্ন নয়।",
-          "de": "Dieser Hadith bietet eine Tafsir des Verses, der besagt, dass der Qur'an zu dem leitet, was am geradesten ist. Imam Abu Abdullah عليه السلام erklärt, dass diese Rechtleitung zum Imam führt, was zeigt, dass rechte Führung untrennbar mit der rechtmäßigen, von Gott eingesetzten Autorität verbunden ist.",
-          "en": "This hadith presents a tafsir of the verse stating that the Qur'an guides to what is most upright. Imam Abu Abdullah عليه السلام explains that this guidance leads to the Imam, indicating that right guidance is inseparable from rightful divinely appointed authority.",
-          "es": "Este hadiz presenta una tafsir del versículo que afirma que el Corán guía hacia lo que es más recto. El Imam Abu Abdullah عليه السلام explica que esta guía conduce al Imam, lo que indica que la guía correcta es inseparable de la autoridad legítima designada por Dios.",
-          "fa": "این حدیث تفسیری از آیه ارائه می‌کند که قرآن به استوارترین راه هدایت می‌کند. امام ابو عبدالله علیه السلام توضیح می‌دهند که این هدایت به سوی امام است و نشان می‌دهد که هدایت درست از رهبریِ حقِ منصوبِ الهی جدا نیست.",
-          "fr": "Ce hadith présente un tafsir du verset affirmant que le Coran guide vers ce qui est le plus droit. L'Imam Abu Abdullah عليه السلام explique que cette guidance mène à l'Imam, ce qui indique que la bonne guidance est inséparable de l'autorité légitime désignée par Dieu.",
-          "id": "Hadis ini menyajikan tafsir ayat bahwa Al-Qur'an memberi petunjuk kepada yang paling lurus. Imam Abu Abdullah عليه السلام menjelaskan bahwa petunjuk itu mengarah kepada Imam, yang menunjukkan bahwa petunjuk yang benar tidak terpisah dari otoritas yang sah yang ditetapkan oleh Allah.",
-          "ru": "Этот хадис представляет тафсир аята о том, что Коран ведет к наиболее прямому. Имам Абу Абдуллах عليه السلام разъясняет, что это руководство ведет к Имаму, что указывает на то, что правильное руководство неотделимо от законной, назначенной Богом власти.",
-          "tr": "Bu hadis, Kur'an'ın en doğru olana hidayet ettiğini bildiren ayetin tefsirini sunar. İmam Ebu Abdullah عليه السلام, bu hidayetin İmama yöneldiğini açıklar; bu da doğru hidayetin, Allah tarafından tayin edilmiş hak otoriteden ayrı olmadığını gösterir.",
-          "ur": "یہ حدیث آیت کی تفسیر پیش کرتی ہے کہ قرآن سب سے سیدھی راہ کی طرف ہدایت کرتا ہے۔ امام ابو عبد اللہ علیہ السلام وضاحت فرماتے ہیں کہ یہ ہدایت امام کی طرف ہے، جس سے معلوم ہوتا ہے کہ صحیح ہدایت اور اللہ کی طرف سے مقرر کردہ برحق قیادت لازم و ملزوم ہیں۔",
-          "zh": "这段圣训对经文作了注释，说明《古兰经》引导人走向最正直的道路。伊玛目阿布·阿卜杜拉 عليه السلام解释说，这种引导通向伊玛目，这表明正确的引导与真主所任命的正当权威不可分离。"
-        },
         "tags": [
           "quran_commentary",
           "theology",

@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং আল্লাহর রাসূল, তাঁর উপর শান্তি ও তাঁর পরিবারদের উপর বরকত বর্ষিত হোক, বললেন:",
-              "de": "Und der Gesandte Allahs, Friede sei mit ihm und seiner Familie, sagte:",
-              "en": "And the Messenger of Allah, peace be upon him and his family, said:",
-              "es": "Y el Mensajero de Allah, la paz sea con él y su familia, dijo:",
-              "fa": "و رسول خدا صلی الله علیه و آله فرمود:",
-              "fr": "Et le Messager d'Allah, paix soit sur lui et sa famille, a dit :",
-              "id": "Dan Rasulullah, shalallahu 'alaihi wa aalihi, bersabda:",
-              "ru": "И Посланник Аллаха, мир ему и его семье, сказал:",
-              "tr": "Ve Allah'ın Resulü, ona ve ailesine selam olsun, dedi ki:",
-              "ur": "اور رسول اللہ صلی اللہ علیہ وآلہ وسلم نے فرمایا:",
-              "zh": "安拉使者愿他和平及其家族安宁说："
-            },
             "word_end": 9,
             "word_start": 0
           },
           {
             "arabic_text": "لَا يَنْقَضِي كَلَامُ شَاهِدِ زُورٍ مِنْ بَيْنِ يَدَيِ الْحَاكِمِ حَتَّى يَتَبَوَّأَ مَقْعَدَهُ مِنَ النَّارِ وَ كَذَلِكَ مَنْ كَتَمَ الشَّهَادَةَ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "মিথ্যা সাক্ষীর কথা বিচারকের সামনে শেষ হয় না যতক্ষণ না সে জাহান্নামের আসন গ্রহণ করে, এবং একইভাবে যিনি সাক্ষ্য লুকান।",
-              "de": "Die Aussage eines falschen Zeugen endet vor dem Richter nicht, bis er seinen Platz in der Hölle eingenommen hat, ebenso wie derjenige, der die Zeugenaussage verschweigt.",
-              "en": "The speech of a false witness does not end before the judge until he has taken his seat in the Hellfire, and likewise one who conceals testimony.",
-              "es": "El testimonio de un falso testigo no termina ante el juez hasta que haya tomado su lugar en el Infierno, y de igual manera quien oculta el testimonio.",
-              "fa": "سخن شاهد دروغین پیش قاضی پایان نمی‌یابد تا جایگاه خود را در دوزخ گرفته باشد، و همچنین کسی که شهادت را پنهان می‌کند.",
-              "fr": "La parole d'un faux témoin ne cesse pas devant le juge tant qu'il n'a pas pris sa place en Enfer, et de même pour celui qui dissimule un témoignage.",
-              "id": "Ucapan saksi palsu tidak berakhir di hadapan hakim sampai dia menempati tempatnya di Neraka, dan demikian pula orang yang menyembunyikan kesaksian.",
-              "ru": "Слово лжесвидетеля не прекращается перед судьей, пока он не займет свое место в Аду, и так же тот, кто скрывает свидетельство.",
-              "tr": "Yalancı bir şahit konuşması, hakim önünde sona ermez ta ki cehennemdeki yerini alana kadar, ve aynı şekilde şahitliği gizleyen kişi için de geçerlidir.",
-              "ur": "جھوٹے گواہ کا کلام قاضی کے سامنے ختم نہیں ہوتا جب تک کہ وہ دوزخ کی جگہ نہ لے لے، اور اسی طرح جو گواہی چھپائے۔",
-              "zh": "虚假证人的话语在法官面前不会结束，直到他在地狱中占据席位，隐瞒证词者亦然。"
-            },
             "word_end": 28,
             "word_start": 9
           }
@@ -75,27 +62,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الشَّهَادَةَ": "testimony that ought to be given truthfully",
-            "النَّارِ": "the Hellfire as punishment in the afterlife",
-            "الْحَاكِمِ": "the judge before whom testimony is delivered",
-            "شَاهِدِ زُورٍ": "a false witness who gives untrue testimony",
-            "كَتَمَ": "concealed or withheld",
-            "مَقْعَدَهُ": "his seat or appointed place",
-            "يَتَبَوَّأَ": "to take up or prepare for oneself a place"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "شَاهِدِ زُورٍ",
+          "الْحَاكِمِ",
+          "يَتَبَوَّأَ",
+          "مَقْعَدَهُ",
+          "النَّارِ",
+          "كَتَمَ",
+          "الشَّهَادَةَ"
+        ],
         "related_quran": [
           {
             "ref": "2:283",
@@ -110,32 +85,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হাদিস মিথ্যা সাক্ষী এবং সাক্ষ্য লুকানোর সম্পর্কে কী বলে?",
-          "de": "Was sagt der Hadith über falsche Zeugen und das Verbergen von Zeugenaussagen?",
-          "en": "What does the hadith say about false witnesses and concealing testimony?",
-          "es": "¿Qué dice el hadiz sobre los falsos testigos y ocultar el testimonio?",
-          "fa": "حدیث درباره شاهدان دروغگو و پنهان‌کردن شهادت چه می‌گوید؟",
-          "fr": "Que dit le hadith à propos des faux témoins et de la dissimulation de témoignage ?",
-          "id": "Apa yang dikatakan hadits tentang saksi palsu dan menyembunyikan kesaksian?",
-          "ru": "Что говорит хадис о лжесвидетелях и сокрытии свидетельства?",
-          "tr": "Hadis yalancı şahitler ve şahitliği gizlemek hakkında ne diyor?",
-          "ur": "حدیث جھوٹے گواہوں اور گواہی چھپانے کے بارے میں کیا کہتی ہے؟",
-          "zh": "圣训关于虚假证人和隐瞒证词说了什么？"
-        },
-        "summaries": {
-          "bn": "এই হাদিস মিথ্যা সাক্ষ্য এবং সাক্ষ্য লুকানোর কঠোর নিন্দা করে এবং দেখায় যে উভয় কাজ আল্লাহর সামনে জবাবদিহিতা এবং জাহান্নামের শাস্তির সাথে জড়িত গুরুতর পাপ।",
-          "de": "Dieser Hadith verurteilt falsches Zeugnis und das Verbergen von Zeugenaussagen in gerichtlichen Situationen scharf. Er zeigt, dass beide Handlungen schwere Sünden sind, die mit der Rechenschaft vor Allah und der Bestrafung in der Hölle verbunden sind.",
-          "en": "This hadith strongly condemns false testimony and concealing testimony in judicial settings. It shows that both acts are grave sins tied to accountability before Allah and punishment in the Hellfire.",
-          "es": "Este hadiz condena fuertemente el falso testimonio y ocultar el testimonio en contextos judiciales. Muestra que ambos actos son pecados graves ligados a la rendición de cuentas ante Allah y al castigo en el Infierno.",
-          "fa": "این حدیث به شدت شهادت دروغ و پنهان‌کردن شهادت را محکوم می‌کند و نشان می‌دهد که هر دو عمل گناهان بزرگی هستند که به حسابرسی در پیشگاه خدا و عذاب دوزخ مرتبط‌اند.",
-          "fr": "Ce hadith condamne fermement le faux témoignage et la dissimulation de témoignage dans les contextes judiciaires. Il montre que ces deux actes sont de graves péchés liés à la responsabilité devant Allah et au châtiment en Enfer.",
-          "id": "Hadis ini sangat mengutuk kesaksian palsu dan menyembunyikan kesaksian dalam pengadilan. Ini menunjukkan bahwa kedua perbuatan tersebut adalah dosa besar yang terkait dengan pertanggungjawaban di hadapan Allah dan hukuman di Neraka.",
-          "ru": "Этот хадис решительно осуждает ложное свидетельство и сокрытие свидетельства в судебных делах. Он показывает, что оба действия являются тяжкими грехами, связанными с ответственностью перед Аллахом и наказанием в Аду.",
-          "tr": "Bu hadis, yalancı şahitliği ve şahitliği gizlemeyi şiddetle kınar ve her iki eylemin de Allah katında hesap verme ve cehennem azabıyla bağlantılı büyük günahlar olduğunu gösterir.",
-          "ur": "یہ حدیث جھوٹے گواہ اور گواہی چھپانے کو سختی سے مذمت کرتی ہے اور ظاہر کرتی ہے کہ یہ دونوں اعمال اللہ کے سامنے جواب دہی اور دوزخ کی سزا سے جڑے سنگین گناہ ہیں۔",
-          "zh": "此圣训严厉谴责虚假证词和隐瞒证词，表明这两种行为是与安拉面前的问责和地狱惩罚相关的严重罪行。"
-        },
         "tags": [
           "jurisprudence",
           "ethics",

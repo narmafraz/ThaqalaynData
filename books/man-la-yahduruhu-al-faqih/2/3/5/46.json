@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ الصَّادِقُ عَلَيْهِ السَّلَامُ :",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "এবং আল-সাদিক عليه السلام বললেন:",
-              "de": "Und al-Sadiq عليه السلام sagte:",
-              "en": "And al-Sadiq عليه السلام said:",
-              "es": "Y al-Sadiq عليه السلام dijo:",
-              "fa": "و امام الصادق علیه السلام فرمود:",
-              "fr": "Et al-Sadiq عليه السلام a dit :",
-              "id": "Dan al-Sadiq عليه السلام berkata:",
-              "ru": "И аль-Садик عليه السلام сказал:",
-              "tr": "Ve el-Sadık عليه السلام dedi ki:",
-              "ur": "اور الصادق علیہ السلام نے فرمایا:",
-              "zh": "والصادقعليهالسلامقال:"
-            },
             "word_end": 6,
             "word_start": 0
           },
           {
             "arabic_text": "« الرُّكْنُ الْيَمَانِيُّ بَابُنَا الَّذِي نَدْخُلُ مِنْهُ الْجَنَّةَ ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "\"ইয়েমেনি কর্ণার আমাদের দরজা যার মাধ্যমে আমরা জান্নাতে প্রবেশ করি।\"",
-              "de": "\"Die jemenitische Ecke ist unser Tor, durch das wir ins Paradies eintreten.\"",
-              "en": "\"The Yemeni Corner is our gate through which we enter Paradise.\"",
-              "es": "\"La Esquina Yemení es nuestra puerta por la que entramos al Paraíso.\"",
-              "fa": "«رکن یمانی دروازه ما است که از آن وارد بهشت می‌شویم.»",
-              "fr": "\"Le Coin Yéménite est notre porte par laquelle nous entrons au Paradis.\"",
-              "id": "\"Sudut Yaman adalah pintu kami yang kami masuki untuk masuk Surga.\"",
-              "ru": "\"Йеменский угол — это наши ворота, через которые мы входим в Рай.\"",
-              "tr": "\"Yemeni Köşe, cennete girdiğimiz kapımızdır.\"",
-              "ur": "’’یمنی کونا ہمارا دروازہ ہے جس سے ہم جنت میں داخل ہوتے ہیں۔‘‘",
-              "zh": "«اليمني角是我们进入天堂的门。»"
-            },
             "word_end": 15,
             "word_start": 6
           }
@@ -81,25 +68,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الرُّكْنُ الْيَمَانِيُّ": "the Yemeni Corner of the Ka'bah",
-            "الصَّادِقُ": "Imam Ja'far ibn Muhammad al-Sadiq عليه السلام",
-            "الْجَنَّةَ": "Paradise",
-            "بَابُنَا": "our gate; a door specially associated with us",
-            "نَدْخُلُ": "we enter"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الصَّادِقُ",
+          "الرُّكْنُ الْيَمَانِيُّ",
+          "بَابُنَا",
+          "نَدْخُلُ",
+          "الْجَنَّةَ"
+        ],
         "related_quran": [
           {
             "ref": "2:125",
@@ -114,32 +89,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام ইয়েমেনি কর্ণার সম্পর্কে কী বলেছিলেন?",
-          "de": "Was sagte Imam al-Sadiq عليه السلام über die jemenitische Ecke?",
-          "en": "What did Imam al-Sadiq عليه السلام say about the Yemeni Corner?",
-          "es": "¿Qué dijo el Imam al-Sadiq عليه السلام sobre la Esquina Yemení?",
-          "fa": "امام الصادق علیه السلام درباره رکن یمانی چه گفت؟",
-          "fr": "Qu’a dit l’Imam al-Sadiq عليه السلام à propos du Coin Yéménite ?",
-          "id": "Apa yang dikatakan Imam al-Sadiq عليه السلام tentang Sudut Yaman?",
-          "ru": "Что сказал Имам аль-Садик عليه السلام о Йеменском углу?",
-          "tr": "İmam el-Sadık عليه السلام Yemen Köşesi hakkında ne dedi?",
-          "ur": "امام الصادق علیہ السلام نے یمنی کونے کے بارے میں کیا فرمایا؟",
-          "zh": "伊玛目الصادقعليهالسلام关于اليمني角说了什么？"
-        },
-        "summaries": {
-          "bn": "ইমাম আল-সাদিক عليه السلام ইয়েমেনি কর্ণারকে আহলুল বাইত عليهم السلام-এর সাথে বিশেষ সংযোগ এবং জান্নাতে প্রবেশের দরজা হিসেবে বর্ণনা করেছেন। এই হাদিস হজের রীতিনীতি ও فضائل-এর মধ্যে এই পবিত্র স্থানের আধ্যাত্মিক মর্যাদা তুলে ধরে।",
-          "de": "Imam al-Sadiq عليه السلام beschreibt die jemenitische Ecke mit einer besonderen Verbindung zu Ahl al-Bayt عليهم السلام und als Tor zum Paradies. Der Hadith hebt den spirituellen Rang dieses heiligen Ortes innerhalb der Riten und Tugenden der Hadsch hervor.",
-          "en": "Imam al-Sadiq عليه السلام describes the Yemeni Corner with a special connection to Ahl al-Bayt عليهم السلام and to entering Paradise. The hadith highlights the spiritual rank of this sacred place within the rites and virtues of hajj.",
-          "es": "El Imam al-Sadiq عليه السلام describe la Esquina Yemení con una conexión especial a Ahl al-Bayt عليهم السلام y como la puerta para entrar al Paraíso. El hadiz resalta el rango espiritual de este lugar sagrado dentro de los ritos y virtudes del hajj.",
-          "fa": "امام الصادق علیه السلام رکن یمانی را با ارتباط ویژه‌ای به اهل بیت علیهم السلام و ورود به بهشت توصیف می‌کند. این حدیث جایگاه معنوی این مکان مقدس را در مناسک و فضایل حج برجسته می‌سازد.",
-          "fr": "L’Imam al-Sadiq عليه السلام décrit le Coin Yéménite avec un lien spécial à Ahl al-Bayt عليهم السلام et comme la porte d’entrée au Paradis. Le hadith souligne le rang spirituel de ce lieu sacré dans les rites et vertus du hajj.",
-          "id": "Imam al-Sadiq عليه السلام menggambarkan Sudut Yaman dengan hubungan khusus kepada Ahl al-Bayt عليهم السلام dan sebagai pintu masuk Surga. Hadis ini menyoroti kedudukan spiritual tempat suci ini dalam tata cara dan keutamaan haji.",
-          "ru": "Имам аль-Садик عليه السلام описывает Йеменский угол с особой связью с Ахль аль-Байт عليهم السلام и как ворота для входа в Рай. Хадис подчеркивает духовный статус этого священного места в обрядах и достоинствах хаджа.",
-          "tr": "İmam el-Sadık عليه السلام, Yemen Köşesi'ni Ahl al-Bayt عليهم السلام ile özel bir bağlantı ve Cennete giriş kapısı olarak tanımlar. Hadis, hac ibadetinin ritüelleri ve faziletleri içinde bu kutsal yerin manevi derecesini vurgular.",
-          "ur": "امام الصادق علیہ السلام یمنی کونے کو اہل بیت علیہم السلام سے خاص تعلق اور جنت میں داخلے کے دروازے کے طور پر بیان فرماتے ہیں۔ یہ حدیث حج کے مناسک اور فضائل میں اس مقدس مقام کی روحانی اہمیت کو اجاگر کرتی ہے۔",
-          "zh": "伊玛目الصادقعليهالسلام描述اليمني角与أهلالبيتعليهمالسلام的特殊联系及其作为进入天堂之门的意义。此圣训强调了此圣地在朝觐仪式与美德中的精神地位。"
-        },
         "tags": [
           "worship",
           "theology",

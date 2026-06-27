@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "رَوَى أَحْمَدُ بْنُ مُحَمَّدِ بْنِ أَبِي نَصْرٍ الْبَزَنْطِيُّ عَنْ عَبْدِ الْكَرِيمِ بْنِ عَمْرٍو عَنْ مُحَمَّدِ بْنِ حَكِيمٍ عَنِ الْعَبْدِ الصَّالِحِ عَلَيْهِ السَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবনে মুহাম্মদ ইবনে আবি নসর আল-বাজান্তি ʿআবদুলকারীম ইবনে ʿআমর থেকে, তিনি মুহাম্মদ ইবনে হাকীম থেকে, তিনি ʿআবদুল সালিহ عليه السلام থেকে বর্ণনা করেছেন, যিনি বললেন:",
-              "de": "Ahmad ibn Muhammad ibn Abi Nasr al-Bazanti berichtete von ʿAbd al-Karim ibn ʿAmr, von Muhammad ibn Hakim, von al-ʿAbd al-Salih عليه السلام, der sagte:",
-              "en": "Ahmad ibn Muhammad ibn Abi Nasr al-Bazanti narrated from ʿAbd al-Karim ibn ʿAmr, from Muhammad ibn Hakim, from al-ʿAbd al-Salih عليه السلام, who said:",
-              "es": "Ahmed ibn Muhammad ibn Abi Nasr al-Bazanti narró de ʿAbd al-Karim ibn ʿAmr, de Muhammad ibn Hakim, de al-ʿAbd al-Salih عليه السلام, quien dijo:",
-              "fa": "احمد بن محمد بن ابی نصر البزنطی از عبد الکریم بن عمرو، از محمد بن حکیم، از عبدالصالح علیه السلام روایت کرده که فرمود:",
-              "fr": "Ahmad ibn Muhammad ibn Abi Nasr al-Bazanti a rapporté de ʿAbd al-Karim ibn ʿAmr, de Muhammad ibn Hakim, d’al-ʿAbd al-Salih عليه السلام, qui a dit :",
-              "id": "Ahmad ibn Muhammad ibn Abi Nasr al-Bazanti meriwayat dari ʿAbd al-Karim ibn ʿAmr, dari Muhammad ibn Hakim, dari al-ʿAbd al-Salih عليه السلام, yang berkata:",
-              "ru": "Ахмад ибн Мухаммад ибн Аби Наср аль-Базанти передал от ʿАбд аль-Карим ибн ʿАмр, от Мухаммада ибн Хаким, от аль-ʿАбд аль-Салих عليه السلام, который сказал:",
-              "tr": "Ahmed ibn Muhammed ibn Ebi Nasr el-Bazanti, Abdülkerim ibn Amr'dan, o da Muhammed ibn Hakim'den, o da Abdüsselam'a (aleyhisselam) rivayet etmiştir, şöyle dedi:",
-              "ur": "احمد ابن محمد ابن ابی نصر البزنطی نے عبد الکریم ابن عمرو سے روایت کی، جو محمد ابن حکیم سے، جو عبد الصالح علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-              "zh": "艾哈迈德伊本穆罕默德伊本阿比纳斯尔阿尔巴赞提传述自ʿ阿卜杜勒卡里姆伊本ʿ阿姆尔，自穆罕默德伊本哈基姆，自阿尔ʿ阿卜杜勒萨利赫 عليه السلام，他说："
-            },
             "word_end": 23,
             "word_start": 0
           },
           {
             "arabic_text": "قُلْتُ لَهُ الْجَارِيَةُ الشَّابَّةُ الَّتِي لَا تَحِيضُ وَمِثْلُهَا تَحِيضُ طَلَّقَهَا زَوْجُهَا قَالَ عِدَّتُهَا ثَلَاثَةُ أَشْهُرٍ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি তাকে বললাম: এমন একটি তরুণী মেয়ে যে মাসিক হয় না, যদিও তার বয়সের অন্য মেয়েরা মাসিক হয়, এবং তার স্বামী তাকে তালাক দেয়? তিনি বললেন: তার ʿইদ্দত তিন মাস।",
-              "de": "Ich sagte zu ihm: Ein junges Mädchen, das nicht menstruiert, obwohl andere in ihrem Alter menstruieren, und ihr Ehemann sie scheidet? Er sagte: Ihre Wartezeit beträgt drei Monate.",
-              "en": "I said to him: A young girl who does not menstruate, though others like her do menstruate, and her husband divorces her? He said: Her waiting period is three months.",
-              "es": "Le dije: ¿Una joven que no menstrúa, aunque otras de su edad sí lo hacen, y su esposo la divorcia? Él dijo: Su período de espera es de tres meses.",
-              "fa": "به او گفتم: دختری جوان که عادت ماهیانه نمی‌شود، در حالی که دیگران هم‌سن او عادت می‌شوند، و شوهرش او را طلاق می‌دهد؟ گفت: عده او سه ماه است.",
-              "fr": "Je lui ai dit : Une jeune fille qui ne menstruait pas, alors que d’autres de son âge le faisaient, et son mari la divorce ? Il a dit : Sa période d’attente est de trois mois.",
-              "id": "Saya berkata kepadanya: Seorang gadis muda yang tidak haid, meskipun yang seumur dengannya haid, dan suaminya menceraikannya? Dia berkata: Masa iddahnya tiga bulan.",
-              "ru": "Я сказал ему: Молодая девушка, которая не менструирует, хотя другие ее ровесницы менструируют, и ее муж разводит ее? Он сказал: Ее ʿидда три месяца.",
-              "tr": "Ona dedim ki: Adet görmeyen genç bir kız, oysa yaşıtları adet görüyor, ve kocası onu boşuyor? Dedi ki: İddeti üç aydır.",
-              "ur": "میں نے ان سے کہا: ایک نوجوان لڑکی جو حیض نہیں ہوتی، حالانکہ اس کی عمر کی دوسری لڑکیاں حیض ہوتی ہیں، اور اس کا شوہر اسے طلاق دے دیتا ہے؟ انہوں نے کہا: اس کی عدت تین ماہ ہے۔",
-              "zh": "我对他说：一个不来月经的年轻女孩，尽管同龄的女孩来月经，她的丈夫离婚了？他说：她的等待期是三个月。"
-            },
             "word_end": 38,
             "word_start": 23
           }
@@ -110,59 +97,21 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الشَّابَّةُ": "young in age",
-            "الْجَارِيَةُ": "a young female, here referring to a young woman",
-            "تَحِيضُ": "she menstruates",
-            "ثَلَاثَةُ أَشْهُرٍ": "three lunar months as the legal waiting period",
-            "زَوْجُهَا": "her husband",
-            "طَلَّقَهَا": "he divorced her",
-            "عِدَّتُهَا": "her waiting period after divorce"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْجَارِيَةُ",
+          "الشَّابَّةُ",
+          "تَحِيضُ",
+          "طَلَّقَهَا",
+          "زَوْجُهَا",
+          "عِدَّتُهَا",
+          "ثَلَاثَةُ أَشْهُرٍ"
+        ],
         "related_quran": [
           {
             "ref": "65:4",
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এমন একটি তরুণীর ʿইদ্দত কী, যে মাসিক হয় না যদিও তার বয়সের অন্য মেয়েরা মাসিক হয়?",
-          "de": "Wie lange ist die ʿiddah einer jungen Frau, die nicht menstruiert, obwohl andere in ihrem Alter menstruieren?",
-          "en": "What is the ʿiddah of a young woman who does not menstruate though others her age do?",
-          "es": "¿Cuál es la ʿiddah de una joven que no menstrúa aunque otras de su edad sí lo hacen?",
-          "fa": "ʿعده دختری جوان که عادت ماهیانه نمی‌شود اما زنان هم‌سن او عادت می‌شوند، چیست؟",
-          "fr": "Quelle est la ʿiddah d’une jeune femme qui ne menstruait pas alors que d’autres de son âge le faisaient ?",
-          "id": "Apa ʿiddah seorang wanita muda yang tidak haid meskipun wanita seusianya haid?",
-          "ru": "Какова ʿидда молодой женщины, которая не менструирует, хотя другие ее ровесницы менструируют?",
-          "tr": "Yaşıtları adet gören ancak kendisi adet görmeyen genç bir kadının ʿiddeti nedir?",
-          "ur": "ایسی نوجوان عورت کی عدت کیا ہے جو حیض نہیں ہوتی حالانکہ اس کی عمر کی دوسری عورتیں حیض ہوتی ہیں؟",
-          "zh": "不来月经但同龄女性来月经的年轻女子的ʿiddah是多少？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি এমন এক তরুণীর ʿইদ্দত সম্পর্কে শারঈ বিধান প্রদান করে যে মাসিক হয় না, যদিও তার বয়সের অন্য মেয়েরা মাসিক হয়। ইমাম عليه السلام নির্দেশ দেন যে, যদি তার স্বামী তাকে তালাক দেয়, তার ʿইদ্দত তিন মাস।",
-          "de": "Dieser Hadith gibt eine Rechtsregelung bezüglich der ʿiddah einer jungen Frau, die nicht menstruiert, obwohl andere in ihrem Alter menstruieren. Der Imam عليه السلام bestimmt, dass wenn ihr Ehemann sie scheidet, ihre Wartezeit drei Monate beträgt.",
-          "en": "This hadith gives a legal ruling concerning the ʿiddah of a young woman who does not menstruate even though women of her age normally do. The Imam عليه السلام rules that if her husband divorces her, her waiting period is three months.",
-          "es": "Este hadiz da un fallo legal sobre la ʿiddah de una joven que no menstrúa aunque otras de su edad sí lo hacen. El Imam عليه السلام dicta que si su esposo la divorcia, su período de espera es de tres meses.",
-          "fa": "این حدیث حکم شرعی درباره عده دختری جوان که عادت ماهیانه نمی‌شود اما زنان هم‌سن او عادت می‌شوند، بیان می‌کند. امام علیه السلام حکم می‌کند که اگر شوهرش او را طلاق دهد، عده او سه ماه است.",
-          "fr": "Ce hadith donne un jugement légal concernant la ʿiddah d’une jeune femme qui ne menstruait pas alors que d’autres de son âge le faisaient. L’Imam عليه السلام ordonne que si son mari la divorce, sa période d’attente est de trois mois.",
-          "id": "Hadis ini memberikan hukum tentang ʿiddah seorang wanita muda yang tidak haid meskipun wanita seusianya haid. Imam عليه السلام memutuskan bahwa jika suaminya menceraikannya, masa ʿiddah-nya tiga bulan.",
-          "ru": "Этот хадис содержит правовое постановление о ʿидде молодой женщины, которая не менструирует, хотя другие ее ровесницы менструируют. Имам عليه السلام постановляет, что если муж разводит ее, ее ʿидда составляет три месяца.",
-          "tr": "Bu hadis, yaşıtları adet gören ancak kendisi adet görmeyen genç bir kadının ʿiddeti hakkında hukuki hüküm vermektedir. İmam عليه السلام hükmeder ki, eğer kocası onu boşarsa, ʿiddeti üç aydır.",
-          "ur": "یہ حدیث ایک نوجوان عورت کی عدت کے بارے میں شرعی حکم بیان کرتی ہے جو حیض نہیں ہوتی حالانکہ اس کی عمر کی دوسری عورتیں حیض ہوتی ہیں۔ امام علیہ السلام حکم دیتے ہیں کہ اگر اس کا شوہر اسے طلاق دے تو اس کی عدت تین ماہ ہے۔",
-          "zh": "这则圣训对不来月经但同龄女性来月经的年轻女子的ʿiddah作出法律裁决。伊玛目 عليه السلام裁定，如果她的丈夫离婚，她的等待期为三个月。"
-        },
         "tags": [
           "jurisprudence",
           "family",

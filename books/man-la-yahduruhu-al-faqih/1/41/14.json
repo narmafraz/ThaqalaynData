@@ -18,42 +18,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَسَأَلَ رَجُلٌ الصَّادِقَ عَلَيْهِ السَّلَامُ: عَنِ الْمَكَانِ يَكُونُ فِيهِ الْغُبَارُ فَأَنْفُخُهُ إِذَا أَرَدْتُ السُّجُودَ",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "একজন ব্যক্তি আল-সাদিক عليه السلام-এর কাছে এমন একটি স্থানের ব্যাপারে জিজ্ঞাসা করলেন যেখানে ধুলো ছিল: আমি কি সিজদাহ করার আগে সেটি উড়িয়ে দিতে পারি?",
-              "de": "Ein Mann fragte al-Ṣādiq عليه السلام nach einem Ort, an dem Staub war: Soll ich ihn wegpusten, wenn ich die Sajdah machen möchte?",
-              "en": "A man asked al-Ṣādiq عليه السلام about a place in which there was dust: should I blow it away when I want to perform sajdah?",
-              "es": "Un hombre preguntó a al-Ṣādiq عليه السلام sobre un lugar donde había polvo: ¿debo soplarlo cuando quiero hacer sajdah?",
-              "fa": "مردی از امام صادق علیه السلام درباره مکانی که در آن گرد و غبار بود پرسید: آیا باید هنگام سجده آن را فوت کنم؟",
-              "fr": "Un homme a demandé à al-Ṣādiq عليه السلام au sujet d'un endroit où il y avait de la poussière : dois-je la souffler lorsque je veux faire la sajdah ?",
-              "id": "Seorang pria bertanya kepada al-Ṣādiq عليه السلام tentang tempat yang ada debunya: apakah saya harus meniupnya saat ingin melakukan sujud?",
-              "ru": "Мужчина спросил у аль-Садиq عليه السلام о месте, где была пыль: следует ли мне сдувать её, когда я хочу совершить сужуд?",
-              "tr": "Bir adam, al-Ṣādiq عليه السلام'a içinde toz olan bir yer hakkında sordu: Secde yapmak istediğimde onu üflemeli miyim?",
-              "ur": "ایک شخص نے امام الصادق علیہ السلام سے ایک جگہ کے بارے میں پوچھا جہاں گرد و غبار تھا: کیا مجھے سجدہ کرنے سے پہلے اسے اڑانا چاہیے؟",
-              "zh": "一人问al-Ṣādiqعليهالسلام关于有尘埃的地方：我想做sajdah时应否吹去尘埃？"
-            },
             "word_end": 14,
             "word_start": 0
           },
           {
             "arabic_text": "فَقَالَ «لَا بَأْسَ»",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: “কোনো সমস্যা নেই।”",
-              "de": "Er sagte: „Es gibt kein Problem.“",
-              "en": "So he said: “There is no issue.”",
-              "es": "Entonces dijo: “No hay problema.”",
-              "fa": "پس فرمود: «مشکلی نیست.»",
-              "fr": "Il a dit : « Il n’y a pas de problème. »",
-              "id": "Lalu beliau berkata: “Tidak masalah.”",
-              "ru": "Он сказал: «Нет проблем.»",
-              "tr": "O da dedi ki: “Sorun yok.”",
-              "ur": "تو انہوں نے فرمایا: \"کوئی مسئلہ نہیں۔\"",
-              "zh": "他说：“没关系。”"
-            },
             "word_end": 17,
             "word_start": 14
           }
@@ -92,26 +79,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "السُّجُودَ": "sajdah, the act of prostration in salat (prayer)",
-            "الصَّادِقَ": "Imam Jaʿfar al-Ṣādiq عليه السلام, the one being asked",
-            "الْغُبَارُ": "dust present on the place",
-            "الْمَكَانِ": "the place or spot intended for prostration",
-            "فَأَنْفُخُهُ": "I blow it away",
-            "لَا بَأْسَ": "there is no harm or objection; it is permissible"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الصَّادِقَ",
+          "الْمَكَانِ",
+          "الْغُبَارُ",
+          "فَأَنْفُخُهُ",
+          "السُّجُودَ",
+          "لَا بَأْسَ"
+        ],
         "related_quran": [
           {
             "ref": "22:77",
@@ -122,32 +97,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "সালাতে সিজদাহ করার আগে সিজদাহ স্থানের ধুলো উড়ানো কি جائز?",
-          "de": "Ist es erlaubt, den Staub vom Ort der Sajdah vor der Niederwerfung im Salat wegzupusten?",
-          "en": "Is it permissible to blow dust from the place of sajdah before prostrating in salat (prayer)?",
-          "es": "¿Es permisible soplar el polvo del lugar de sajdah antes de prosternarse en la salat?",
-          "fa": "آیا در نماز قبل از سجده، فوت کردن گرد و غبار از محل سجده جایز است؟",
-          "fr": "Est-il permis de souffler la poussière du lieu de sajdah avant de se prosterner dans la salat ?",
-          "id": "Apakah diperbolehkan meniup debu dari tempat sujud sebelum sujud dalam salat?",
-          "ru": "Разрешено ли сдувать пыль с места сужуда перед прощением в салате?",
-          "tr": "Namazda secde yapmadan önce secde yerindeki tozu üflemek caiz midir?",
-          "ur": "کیا نماز میں سجدہ کرنے سے پہلے سجدہ کے مقام سے گرد و غبار اڑانا جائز ہے؟",
-          "zh": "在salat中做sajdah前吹去sajdah之地尘埃是否允许？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি একটি ফিকহী সিদ্ধান্ত দেয় যে সিজদাহ করার স্থান থেকে ধুলো উড়িয়ে দেওয়া যায় এবং সালাত সম্পর্কিত বিষয়গুলিতে সহজতা নির্দেশ করে।",
-          "de": "Dieser Hadith gibt eine Rechtsregel, dass es kein Problem ist, Staub vom Ort der Sajdah vor der Niederwerfung wegzupusten. Er zeigt Erleichterung in Angelegenheiten der Salat an.",
-          "en": "This hadith gives a legal ruling that there is no problem in blowing dust away from the place of sajdah before prostration. It indicates ease in matters connected to salat (prayer) and the permissibility of preparing the place of prostration in a simple way.",
-          "es": "Este hadiz da un fallo legal que no hay problema en soplar el polvo del lugar de sajdah antes de la prosternación. Indica facilidad en asuntos relacionados con la salat.",
-          "fa": "این حدیث حکم شرعی می‌دهد که فوت کردن گرد و غبار از محل سجده قبل از سجده اشکالی ندارد و نشان‌دهنده آسانی در مسائل مربوط به نماز است.",
-          "fr": "Ce hadith donne une règle juridique indiquant qu’il n’y a pas de problème à souffler la poussière du lieu de sajdah avant la prosternation. Il indique la facilité dans les affaires liées à la salat.",
-          "id": "Hadis ini memberikan hukum bahwa tidak masalah meniup debu dari tempat sujud sebelum sujud. Ini menunjukkan kemudahan dalam hal-hal yang berkaitan dengan salat.",
-          "ru": "Этот хадис даёт правовое постановление, что нет проблемы в сдувании пыли с места сужуда перед прощением. Он указывает на простоту в вопросах, связанных с салатом.",
-          "tr": "Bu hadis, secde yerindeki tozu üfleyerek temizlemenin caiz olduğunu ve salat ile ilgili konularda kolaylık olduğunu bildirir.",
-          "ur": "یہ حدیث ایک فقہی حکم دیتی ہے کہ سجدہ کے مقام سے گرد و غبار اڑانا جائز ہے اور نماز سے متعلق امور میں آسانی کی نشاندہی کرتی ہے۔",
-          "zh": "此圣训判定在做sajdah前吹去尘埃无妨，表明salat相关事务的便利与允许简单准备sajdah之地。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

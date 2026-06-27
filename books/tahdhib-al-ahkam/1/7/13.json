@@ -16,23 +16,23 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَبُو عَلِيٍّ الْحَسَنُ بْنُ عَبْدِ اللَّهِ الْقَطَّانُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আবু 'আলি আল-হাসান ইবন 'আবদুল্লাহ আল-কাত্তান।",
-              "de": "Abu 'Ali al-Hasan ibn 'Abd Allah al-Qattan.",
-              "en": "Abu 'Ali al-Hasan ibn 'Abd Allah al-Qattan.",
-              "es": "Abu 'Ali al-Hasan ibn 'Abd Allah al-Qattan.",
-              "fa": "ابوعلی الحسن بن عبدالله القطان.",
-              "fr": "Abu 'Ali al-Hasan ibn 'Abd Allah al-Qattan.",
-              "id": "Abu 'Ali al-Hasan ibn 'Abd Allah al-Qattan.",
-              "ru": "Абу 'Али аль-Хасан ибн 'Абд Аллах аль-Каттан.",
-              "tr": "Ebu Ali el-Hasan ibn Abdullah el-Kattân.",
-              "ur": "ابو علی الحسن بن عبد اللہ القطان۔",
-              "zh": "阿布·阿里·哈桑·伊本·阿卜杜拉·卡塔安。"
-            },
             "word_end": 7,
             "word_start": 0
           }
@@ -44,52 +44,14 @@
           "narrators": []
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبُو": "father of; part of the kunyah",
-            "الْحَسَنُ": "al-Hasan; the person's given name",
-            "الْقَطَّانُ": "al-Qattan; the family or professional nisbah",
-            "عَبْدِ اللَّهِ": "'Abd Allah; the father's name",
-            "عَلِيٍّ": "Ali; the second part of the kunyah"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَبُو",
+          "عَلِيٍّ",
+          "الْحَسَنُ",
+          "عَبْدِ اللَّهِ",
+          "الْقَطَّانُ"
+        ],
         "related_quran": [],
-        "seo_questions": {
-          "bn": "তাহযীবুল আহকামে আবু 'আলি আল-হাসান ইবন 'আবদুল্লাহ আল-কাত্তান কে?",
-          "de": "Wer ist Abu 'Ali al-Hasan ibn 'Abd Allah al-Qattan in Tahdhib al-Ahkam?",
-          "en": "Who is Abu 'Ali al-Hasan ibn 'Abd Allah al-Qattan in Tahdhib al-Ahkam?",
-          "es": "¿Quién es Abu 'Ali al-Hasan ibn 'Abd Allah al-Qattan en Tahdhib al-Ahkam?",
-          "fa": "ابوعلی الحسن بن عبدالله القطان در تهذیب الاحکام کیست؟",
-          "fr": "Qui est Abu 'Ali al-Hasan ibn 'Abd Allah al-Qattan dans Tahdhib al-Ahkam ?",
-          "id": "Siapakah Abu 'Ali al-Hasan ibn 'Abd Allah al-Qattan dalam Tahdhib al-Ahkam?",
-          "ru": "Кто такой Абу 'Али аль-Хасан ибн 'Абд Аллах аль-Каттан в Tahdhib al-Ahkam?",
-          "tr": "Tehzîbü'l-Ahkâm'da Ebu Ali el-Hasan ibn Abdullah el-Kattân kimdir?",
-          "ur": "تہذیب الاحکام میں ابو علی الحسن بن عبد اللہ القطان کون ہیں؟",
-          "zh": "Tahdhibal-Ahkam中的阿布·阿里·哈桑·伊本·阿卜杜拉·卡塔安是谁？"
-        },
-        "summaries": {
-          "bn": "এই পাঠটি একটি সংক্ষিপ্ত জীবনীমূলক এন্ট্রি, যেখানে একজন শাইখের নাম উল্লেখ করা হয়েছে: আবু 'আলি আল-হাসান ইবন 'আবদুল্লাহ আল-কাত্তান। এতে কোনো সনদ, ফিকহি বিধান, বা বর্ণনামূলক মাতন নেই; বরং এটি একটি আলেম ব্যক্তিত্বের পরিচয় নির্দেশ করে।",
-          "de": "Dieser Text ist ein kurzer biografischer Eintrag, der einen Scheich nennt: Abu 'Ali al-Hasan ibn 'Abd Allah al-Qattan. Er enthält keinen Isnād, kein Rechtsurteil und keinen erzählenden Matn, sondern dient der Identifizierung einer gelehrten Persönlichkeit.",
-          "en": "This text is a brief biographical entry naming a shaykh: Abu 'Ali al-Hasan ibn 'Abd Allah al-Qattan. It does not contain an isnad, legal ruling, or narrative matn, but serves as an identification of a scholarly figure.",
-          "es": "Este texto es una breve entrada biográfica que menciona a un shaykh: Abu 'Ali al-Hasan ibn 'Abd Allah al-Qattan. No contiene un isnad, una norma jurídica ni un matn narrativo, sino que sirve para identificar a una figura erudita.",
-          "fa": "این متن یک مدخل کوتاهِ شرح‌حال است که نام یک شیخ را ذکر می‌کند: ابوعلی الحسن بن عبدالله القطان. در آن نه اسناد، نه حکم فقهی، و نه متن روایی وجود دارد، بلکه صرفاً برای شناسایی یک شخصیت علمی است.",
-          "fr": "Ce texte est une brève notice biographique mentionnant un shaykh : Abu 'Ali al-Hasan ibn 'Abd Allah al-Qattan. Il ne contient ni isnad, ni حكم juridique, ni matn narratif, mais sert à identifier une figure savante.",
-          "id": "Teks ini adalah entri biografis singkat yang menyebut nama seorang syekh: Abu 'Ali al-Hasan ibn 'Abd Allah al-Qattan. Teks ini tidak memuat isnad, hukum fikih, atau matn naratif, melainkan berfungsi sebagai identifikasi seorang tokoh ilmiah.",
-          "ru": "Этот текст представляет собой краткую биографическую запись, в которой упоминается шейх: Абу 'Али аль-Хасан ибн 'Абд Аллах аль-Каттан. В нём нет иснада, правового постановления или повествовательного матна; он служит для идентификации учёного.",
-          "tr": "Bu metin, bir şeyhin adını veren kısa bir biyografik kayıttır: Ebu Ali el-Hasan ibn Abdullah el-Kattân. İçinde bir isnad, fıkhî hüküm veya rivayet metni yoktur; yalnızca bir âlim şahsiyetin kimliğini belirtir.",
-          "ur": "یہ متن ایک مختصر سوانحی اندراج ہے جس میں ایک شیخ کا نام ذکر کیا گیا ہے: ابو علی الحسن بن عبد اللہ القطان۔ اس میں کوئی سند، فقہی حکم، یا روایتی متن نہیں، بلکہ ایک علمی شخصیت کی شناخت بیان کی گئی ہے۔",
-          "zh": "这段文字是一则简短的人物传记条目，提到了一位谢赫：阿布·阿里·哈桑·伊本·阿卜杜拉·卡塔安。它不包含传述系统、教法判决或叙述正文，而是用于标识一位学者人物。"
-        },
         "tags": [
           "knowledge",
           "history"

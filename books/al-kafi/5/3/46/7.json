@@ -13,6 +13,115 @@
       "up": "/books/al-kafi:5:3:46"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عَلِيُّ بْنُ مُحَمَّدٍ عَنْ عَبْدِ اللهِ بْنِ إِسْحَاقَ عَنِ الْحَسَنِ بْنِ عَلِيِّ بْنِ سُلَيْمَانَ عَمَّنْ حَدَّثَهُ عَنْ أَبِي عَبْدِ اللهِ (عَلَيْهِ السَّلام) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 23,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "إِنَّ فَاطِمَةَ (عَلَيْهَا السَّلام) قَالَتْ لِرَسُولِ اللهِ (صَلَّى اللهُ عَلَيْهِ وَآلِه) زَوَّجْتَنِي بِالْمَهْرِ الْخَسِيسِ فَقَالَ لَهَا رَسُولُ اللهِ (صَلَّى اللهُ عَلَيْهِ وَآلِه) مَا أَنَا زَوَّجْتُكِ وَلَكِنَّ اللهَ زَوَّجَكِ مِنَ السَّمَاءِ وَجَعَلَ مَهْرَكِ خُمُسَ الدُّنْيَا مَا دَامَتِ السَّمَاوَاتُ وَالْأَرْضُ.",
+            "chunk_type": "body",
+            "word_end": 61,
+            "word_start": 23
+          }
+        ],
+        "content_type": "narrative",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 35,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَلِيُّ بْنُ مُحَمَّدٍ",
+              "name_en": "Ali ibn Muhammad",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1138,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ اللهِ بْنِ إِسْحَاقَ",
+              "name_en": "Abdullah b. Ishaq",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": null,
+              "identity_confidence": "ambiguous",
+              "known_identity": null,
+              "name_ar": "الْحَسَنِ بْنِ عَلِيِّ بْنِ سُلَيْمَانَ عَمَّنْ حَدَّثَهُ",
+              "name_en": "al-Hasan b. Ali b. Sulayman",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللهِ (عَلَيْهِ السَّلام)",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الْمَهْرِ الْخَسِيسِ",
+          "خُمُسَ الدُّنْيَا",
+          "السَّمَاوَاتُ وَالْأَرْضُ"
+        ],
+        "related_quran": [
+          {
+            "ref": "8:41",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "family",
+          "theology",
+          "jurisprudence"
+        ],
+        "topics": [
+          "marriage_family_law",
+          "ahlulbayt_virtues",
+          "financial_law"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (20/104)"
       ],
@@ -74,7 +183,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:3:46:7",

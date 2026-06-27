@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَفِي رِوَايَةِ مُرَازِمٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং মুরাজিমের বর্ণনায়, আবু আব্দিল্লাহ عليه السلام থেকে বর্ণিত হয়েছে, তিনি বললেন:",
-              "de": "Und in der Überlieferung von Murāzim, von Abū ʿAbdillāh عليه السلام, sagte er:",
-              "en": "And in the narration of Murāzim, from Abū ʿAbdillāh عليه السلام, he said:",
-              "es": "Y en la narración de Murāzim, de Abū ʿAbdillāh عليه السلام, dijo:",
-              "fa": "و در روایت مراظم، از ابوعبدالله علیه‌السلام نقل شده است که فرمود:",
-              "fr": "Et dans la narration de Murāzim, d'Abū ʿAbdillāh عليه السلام, il a dit :",
-              "id": "Dan dalam riwayat Murāzim, dari Abū ʿAbdillāh عليه السلام, beliau berkata:",
-              "ru": "И в передаче Муразима от Абу Абдиллаха عليه السلام сказано:",
-              "tr": "Ve Murāzim rivayetinde, Ebu Abdillah (aleyhisselam)'dan rivayetle şöyle dedi:",
-              "ur": "اور مرزم کی روایت میں، ابو عبداللہ علیہ السلام سے روایت ہے، انہوں نے فرمایا:",
-              "zh": "在穆拉齐姆的传述中，来自阿布阿卜迪拉赫 عليه السلام，他说："
-            },
             "word_end": 10,
             "word_start": 0
           },
           {
             "arabic_text": "«يَقْطَعُ صَاحِبُ الْعُمْرَةِ الْمُفْرَدَةِ التَّلْبِيَةَ إِذَا وَضَعَتِ الْإِبِلُ أَخْفَافَهَا فِي الْحَرَمِ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে ব্যক্তি উমরাহ মুফরাদা পালন করছে, সে তলবিয়া বন্ধ করে যখন উটেরা তাদের খুর হরামের মধ্যে রাখে।",
-              "de": "Derjenige, der die ʿUmrah Mufradah verrichtet, beendet die Talbiyah, wenn die Kamele ihre Hufe innerhalb des Haram setzen.",
-              "en": "\"The one performing ʿUmrah Mufradah stops the talbiyah when the camels place their hooves within the Haram.\"",
-              "es": "Quien realiza la ʿUmrah Mufradah detiene la talbiyah cuando los camellos colocan sus pezuñas dentro del Haram.",
-              "fa": "کسی که عمره مفرد انجام می‌دهد، تلبیه را زمانی قطع می‌کند که شترها سم‌های خود را در داخل حرم قرار دهند.",
-              "fr": "Celui qui accomplit l'ʿUmrah Mufradah cesse la talbiyah lorsque les chameaux posent leurs sabots à l'intérieur du Haram.",
-              "id": "Orang yang melaksanakan ʿUmrah Mufradah menghentikan talbiyah ketika unta meletakkan kuku-kuku mereka di dalam Haram.",
-              "ru": "Тот, кто совершает ʿУмру Муфраду, прекращает произносить талбия, когда верблюды ставят копыта внутри Харама.",
-              "tr": "Umre-i Mufred yapan kişi, develer tırnaklarını Haram içine koyduğunda talbiyeyi keser.",
-              "ur": "جو شخص عمرہ مفردہ ادا کر رہا ہو، وہ تلبیہ اس وقت ترک کر دیتا ہے جب اونٹ اپنے پنجے حرم کے اندر رکھیں۔",
-              "zh": "执行ʿUmrahMufradah的人当骆驼将蹄子放入哈拉姆内时停止诵念塔尔比亚。"
-            },
             "word_end": 21,
             "word_start": 10
           }
@@ -81,25 +68,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَخْفَافَهَا": "their hooves, marking physical entry into the boundary",
-            "التَّلْبِيَةَ": "the ritual invocation recited during ihram",
-            "الْإِبِلُ": "the camels, used here as the indicator of travel entry",
-            "الْحَرَمِ": "the sacred precinct of Makkah",
-            "الْعُمْرَةِ الْمُفْرَدَةِ": "the standalone ʿumrah performed independently of hajj"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْعُمْرَةِ الْمُفْرَدَةِ",
+          "التَّلْبِيَةَ",
+          "الْإِبِلُ",
+          "أَخْفَافَهَا",
+          "الْحَرَمِ"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
@@ -110,32 +85,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "উমরাহ মুফরাদা পালনকারী কখন তলবিয়া পড়া বন্ধ করবে?",
-          "de": "Wann sollte eine Person, die ʿUmrah Mufradah verrichtet, die Talbiyah aufhören zu rezitieren?",
-          "en": "When should a person performing ʿUmrah Mufradah stop reciting the talbiyah?",
-          "es": "¿Cuándo debe una persona que realiza la ʿUmrah Mufradah dejar de recitar la talbiyah?",
-          "fa": "شخصی که عمره مفرد انجام می‌دهد، چه زمانی باید تلبیه را قطع کند؟",
-          "fr": "Quand une personne accomplissant l'ʿUmrah Mufradah doit-elle arrêter de réciter la talbiyah ?",
-          "id": "Kapan seseorang yang melaksanakan ʿUmrah Mufradah harus berhenti membaca talbiyah?",
-          "ru": "Когда человек, совершающий ʿУмру Муфраду, должен прекратить чтение талбия?",
-          "tr": "ʿUmrah Mufredah yapan kişi talbiyeyi ne zaman bırakmalıdır?",
-          "ur": "عمرہ مفردہ کرنے والا کب تلبیہ پڑھنا بند کرے؟",
-          "zh": "执行ʿUmrahMufradah的人应何时停止诵念塔尔比亚？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি উমরাহ মুফরাদা পালনকারীর জন্য তলবিয়ার শেষের শারীয়তগত বিধান প্রদান করে। এতে বলা হয়েছে যে, তলবিয়া তখনই বন্ধ করতে হয় যখন উটেরা তাদের খুর হরামের মধ্যে রাখে।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bezüglich des Endes der Talbiyah für die Person, die die ʿUmrah Mufradah verrichtet. Er besagt, dass die Talbiyah beim Betreten des Haram beendet wird, was hier durch das Setzen der Kamele mit ihren Hufen innerhalb der Grenze markiert wird.",
-          "en": "This hadith gives a legal ruling concerning the endpoint of talbiyah for the person performing ʿUmrah Mufradah. It states that the talbiyah is discontinued upon entering the Haram, marked here by the camels placing their hooves within its boundary.",
-          "es": "Este hadiz da una regla legal sobre el fin de la talbiyah para quien realiza la ʿUmrah Mufradah. Indica que la talbiyah se detiene al entrar al Haram, señalado aquí por los camellos que colocan sus pezuñas dentro de sus límites.",
-          "fa": "این حدیث حکم شرعی پایان تلبیه برای شخصی که عمره مفرد انجام می‌دهد را بیان می‌کند. در آن آمده است که تلبیه هنگام ورود به حرم که با قرار گرفتن سم شترها در داخل آن مشخص می‌شود، قطع می‌شود.",
-          "fr": "Ce hadith donne une règle juridique concernant la fin de la talbiyah pour la personne accomplissant l'ʿUmrah Mufradah. Il indique que la talbiyah est interrompue à l'entrée du Haram, marquée ici par les chameaux posant leurs sabots à l'intérieur de ses limites.",
-          "id": "Hadis ini memberikan hukum terkait akhir talbiyah bagi orang yang melaksanakan ʿUmrah Mufradah. Disebutkan bahwa talbiyah dihentikan saat memasuki Haram, yang ditandai dengan meletakkannya kuku unta di dalam batas Haram.",
-          "ru": "Этот хадис даёт правовое постановление о прекращении талбия для совершающего ʿУмру Муфраду. В нём говорится, что талбия прекращается при входе в Харам, что здесь обозначено тем, что верблюды ставят копыта внутри его границ.",
-          "tr": "Bu hadis, ʿUmrah Mufredah yapan kişi için talbiyenin sona erme hükmünü verir. Talbiyenin, burada develerin tırnaklarını Haram içine koymasıyla işaretlenen Haram'a girildiğinde kesilmesi gerektiğini belirtir.",
-          "ur": "یہ حدیث عمرہ مفردہ کرنے والے کے لیے تلبیہ کے اختتام کے بارے میں شرعی حکم بیان کرتی ہے۔ اس میں کہا گیا ہے کہ تلبیہ حرم میں داخل ہوتے ہی ترک کر دی جاتی ہے، جس کی نشانی یہاں اونٹوں کے پنجے حرم کے اندر رکھنے سے ہے۔",
-          "zh": "此圣训就执行ʿUmrahMufradah者停止诵念塔尔比亚的时间给出法律判决。指出当进入哈拉姆时停止塔尔比亚，此处以骆驼将蹄子放入其界内为标志。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

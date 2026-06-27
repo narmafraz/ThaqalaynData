@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ يَعْقُوبَ، عَنْ عَلِيِّ بْنِ مُحَمَّدٍ، عَنْ مُحَمَّدِ بْنِ أَحْمَدَ بْنِ مُطَهَّرٍ، أَنَّهُ كَتَبَ إِلَى أَبِي مُحَمَّدٍ عَلَيْهِ السَّلَامُ يُخْبِرُهُ بِمَا جَاءَتِ الرِّوَايَةُ أَنَّ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ مَا كَانَ يُصَلِّي فِي",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন ইয়াকুব, আলী ইবন মুহাম্মদ থেকে, মুহাম্মদ ইবন আহমদ ইবন মুтахহার থেকে, যে তিনি আবু মুহাম্মদ عليه السلام-কে লিখেছিলেন এবং তাঁকে হাদিসে যা এসেছে তা জানিয়েছিলেন: নবী صلى الله عليه وآله وسلم রমজান মাসে এবং অন্যান্য রাতে তেরো রাকাতের বেশি সালাত আদায় করতেন না, যার মধ্যে বিতর এবং ফজরের দুই রাকাতও ছিল।",
-              "de": "Muhammad ibn Yaʿqub, von ʿAli ibn Muhammad, von Muhammad ibn Ahmad ibn Mutahhar, dass er an Abu Muhammad عليه السلام schrieb und ihn über das informierte, was in der Überlieferung gekommen war: dass der Prophet صلى الله عليه وآله وسلم im Monat Ramaḍān und in anderen Nächten nicht anders als dreizehn Rakʿahs betete, darunter al-witr und die zwei Rakʿahs der Morgendämmerung.",
-              "en": "Muḥammad ibn Yaʿqūb, from ʿAlī ibn Muḥammad, from Muḥammad ibn Aḥmad ibn Muṭahhar, that he wrote to Abū Muḥammad عليه السلام informing him of what had come in the narration: that the Prophet صلى الله عليه وآله وسلم would not pray in...",
-              "es": "Muhammad ibn Yaʿqub, de ʿAli ibn Muhammad, de Muhammad ibn Ahmad ibn Mutahhar, que escribió a Abu Muhammad عليه السلام informándole de lo que había llegado en la narración: que el Profeta صلى الله عليه وآله وسلم no rezaba en el mes de Ramaḍán ni en otras noches sino trece rakʿahs, incluyendo al-witr y las dos rakʿahs del alba.",
-              "fa": "محمد بن یعقوب، از علی بن محمد، از محمد بن احمد بن مطهر، که او به ابومحمد علیه السلام نوشت و او را از آنچه در روایت آمده بود آگاه ساخت: که پیامبر صلی الله علیه وآله وسلم در ماه رمضان و دیگر شب‌ها جز سیزده رکعت نماز نمی‌خواند، که وتر و دو رکعت فجر نیز از آن بود.",
-              "fr": "Muhammad ibn Yaʿqub, d’ʿAli ibn Muhammad, de Muhammad ibn Ahmad ibn Mutahhar, qui écrivit à Abū Muhammad عليه السلام pour l’informer de ce qui était rapporté dans la narration : que le Prophète صلى الله عليه وآله وسلم ne priait pas pendant le mois de Ramaḍān ni les autres nuits autrement qu’en treize rakʿahs, dont al-witr et les deux rakʿahs de l’aube.",
-              "id": "Muhammad ibn Yaʿqub, dari Ali ibn Muhammad, dari Muhammad ibn Ahmad ibn Mutahhar, bahwa ia menulis kepada Abu Muhammad عليه السلام sambil memberitahukan kepadanya tentang apa yang datang dalam riwayat: bahwa Nabi صلى الله عليه وآله وسلم tidak salat pada bulan Ramadan dan malam-malam lainnya kecuali tiga belas rakaat, termasuk al-witr dan dua rakaat fajar.",
-              "ru": "Мухаммад ибн Яʿкуб, от ʿАли ибн Мухаммада, от Мухаммада ибн Ахмада ибн Муттахара, что он написал Абу Мухаммаду عليه السلام, сообщив ему о том, что пришло в предании: что Пророк صلى الله عليه وآله وسلم не совершал в месяц Рамадан и в другие ночи ничего, кроме тринадцати ракʿатов, включая аль-витр и два ракʿата рассвета.",
-              "tr": "Muhammed ibn Yaʿkūb, Ali ibn Muhammed’den, Muhammed ibn Ahmed ibn Mutahhar’dan rivayetle, onun Ebu Muhammed عليه السلام’a yazıp kendisine rivayette gelen şeyi bildirdiğini: Şüphesiz Peygamber صلى الله عليه وآله وسلم Ramazan ayında ve diğer gecelerde, vitir ve fecrin iki rekâtı dâhil olmak üzere on üç rekâttan başka namaz kılmazdı.",
-              "ur": "محمد بن یعقوب، عن علی بن محمد، عن محمد بن احمد بن مطہر، کہ انہوں نے ابو محمد علیہ السلام کو لکھا، اور انہیں اس روایت کے بارے میں آگاہ کیا: کہ نبی صلی اللہ علیہ وآلہ وسلم رمضان کے مہینے اور دیگر راتوں میں تیرہ رکعتوں کے سوا نماز نہیں پڑھتے تھے، جن میں وتر اور فجر کی دو رکعتیں شامل تھیں۔",
-              "zh": "穆罕默德·伊本·叶尔库布，传自阿里·伊本·穆罕默德，传自穆罕默德·伊本·艾哈迈德·伊本·穆塔赫尔，他写信给阿布·穆罕默德 عليه السلام，告知他传述中所提到的内容：先知 صلى الله عليه وآله وسلم在斋月和其他夜晚除了十三拜之外不礼拜，其中包括al-witr和晨礼的两拜。"
-            },
             "word_end": 35,
             "word_start": 0
           },
           {
             "arabic_text": "شَهْرِ رَمَضَانَ وَغَيْرِهِ مِنَ اللَّيَالِي سِوَى ثَلَاثَ عَشْرَةَ رَكْعَةً، مِنْهَا الْوِتْرُ وَرَكْعَتَا الْفَجْرِ، فَكَتَبَ: فَضَّ اللَّهُ فَاكَ، صَلِّ فِي شَهْرِ رَمَضَانَ فِي عِشْرِينَ لَيْلَةً كُلَّ لَيْلَةٍ عِشْرِينَ رَكْعَةً، ثَمَانِيَ بَعْدَ الْمَغْرِبِ، وَاثْنَتَي عَشْرَةَ بَعْدَ الْعِشَاءِ الْآخِرَةِ، وَاغْتَسِلْ لَيْلَةَ سَبْعَ عَشْرَةَ، وَلَيْلَةَ تِسْعَ عَشْرَةَ، وَلَيْلَةَ إِحْدَى وَعِشْرِينَ، وَلَيْلَةَ ثَلَاثٍ وَعِشْرِينَ، وَصَلِّ فِيهِنَّ ثَلَاثِينَ رَكْعَةً، اثْنَتَيْ عَشْرَةَ بَعْدَ الْمَغْرِبِ، وَثَمَانِيَ عَشْرَةَ رَكْعَةً بَعْدَ الْعِشَاءِ الْآخِرَةِ، وَصَلِّ فِيهِمَا مِائَةَ رَكْعَةٍ، يُقْرَأُ فِي كُلِّ رَكْعَةٍ فَاتِحَةٌ مَرَّةً، وَقُلْ هُوَ اللَّهُ أَحَدٌ عَشْرَ مَرَّاتٍ، وَصَلِّ إِلَى آخِرِ الشَّهْرِ كُلَّ لَيْلَةٍ ثَلَاثِينَ رَكْعَةً عَلَى مَا فَسَّرْتُ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "অতঃপর তিনি লিখলেন: আল্লাহ আপনার মুখকে কল্যাণের জন্য খুলে দিন। রমজান মাসে বিশ রাত, প্রতি রাতে বিশ রাকাত সালাত আদায় করো: মাগরিবের পর আট রাকাত এবং শেষ ইশার পর বারো রাকাত। এবং সতেরোতম রাত, উনিশতম রাত, একুশতম রাত ও তেইশতম রাতে গোসল করো; এবং এসব রাতে ত্রিশ রাকাত সালাত আদায় করো: মাগরিবের পর বারো রাকাত এবং শেষ ইশার পর আঠারো রাকাত। এবং ওই দুই রাতে একশ রাকাত সালাত আদায় করো, প্রতিটি রাকাতে একবার ফাতিহা এবং দশবার কুল হুয়াল্লাহু আহাদ পড়বে। এবং মাসের শেষ পর্যন্ত প্রতি রাতে ত্রিশ রাকাত সালাত আদায় করো, যেমন আমি ব্যাখ্যা করেছি।",
-              "de": "Dann schrieb er: Allah öffne deinen Mund zum Guten. Bete im Monat Ramaḍān an zwanzig Nächten, jede Nacht zwanzig Rakʿahs: acht nach al-maghrib und zwölf nach al-ʿishāʾ al-ākhirah. Und verrichte ghusl in der Nacht des siebzehnten, der Nacht des neunzehnten, der Nacht des einundzwanzigsten und der Nacht des dreiundzwanzigsten; und bete in diesen Nächten dreißig Rakʿahs: zwölf nach al-maghrib und achtzehn Rakʿahs nach al-ʿishāʾ al-ākhirah. Und bete in diesen beiden Nächten hundert Rakʿahs, wobei in jeder Rakʿah al-Fātiḥah einmal und Qul huwa Allāhu Aḥad zehnmal gelesen wird. Und bete bis zum Ende des Monats jede Nacht dreißig Rakʿahs, wie ich es erklärt habe.",
-              "en": "the month of Ramaḍān and other nights except thirteen rakʿahs, including al-witr and the two rakʿahs of dawn. So he wrote: May Allah open your mouth to good. Pray in the month of Ramaḍān, for twenty nights, twenty rakʿahs each night: eight after al-maghrib and twelve after al-ʿishāʾ al-ākhirah. And perform ghusl on the night of the seventeenth, the night of the nineteenth, the night of the twenty-first, and the night of the twenty-third; and pray on these nights thirty rakʿahs: twelve after al-maghrib and eighteen rakʿahs after al-ʿishāʾ al-ākhirah. And pray in those two nights one hundred rakʿahs, reciting in every rakʿah al-Fātiḥah once and Qul huwa Allāhu Aḥad ten times. And pray until the end of the month, every night, thirty rakʿahs, as I have explained.",
-              "es": "Entonces escribió: Que Allah abra tu boca al bien. Reza en el mes de Ramaḍán, durante veinte noches, veinte rakʿahs cada noche: ocho después de al-maghrib y doce después de al-ʿishāʾ al-ākhirah. Y realiza ghusl en la noche del decimoséptimo, la noche del decimonoveno, la noche del vigésimo primero y la noche del vigésimo tercero; y reza en esas noches treinta rakʿahs: doce después de al-maghrib y dieciocho rakʿahs después de al-ʿishāʾ al-ākhirah. Y reza en esas dos noches cien rakʿahs, recitando en cada rakʿah al-Fātiḥah una vez y Qul huwa Allāhu Aḥad diez veces. Y reza hasta el final del mes, cada noche, treinta rakʿahs, tal como he explicado.",
-              "fa": "پس نوشت: خدا دهانت را به خیر بگشاید. در ماه رمضان، در بیست شب، هر شب بیست رکعت نماز بخوان: هشت رکعت پس از مغرب و دوازده رکعت پس از عشاء آخِره. و در شب هفدهم، شب نوزدهم، شب بیست و یکم و شب بیست و سوم غسل کن؛ و در این شب‌ها سی رکعت نماز بخوان: دوازده رکعت پس از مغرب و هجده رکعت پس از عشاء آخِره. و در آن دو شب، صد رکعت نماز بخوان، به‌گونه‌ای که در هر رکعت یک بار فاتحه و ده بار قل هو الله احد خوانده شود. و تا پایان ماه، هر شب سی رکعت نماز بخوان، چنان‌که توضیح دادم.",
-              "fr": "Il écrivit alors : Qu’Allah ouvre ta bouche au bien. Prie pendant le mois de Ramaḍān, durant vingt nuits, vingt rakʿahs chaque nuit : huit après al-maghrib et douze après al-ʿishāʾ al-ākhirah. Et fais le ghusl la nuit du dix-septième, la nuit du dix-neuvième, la nuit du vingt et unième et la nuit du vingt-troisième ; et prie ces nuits-là trente rakʿahs : douze après al-maghrib et dix-huit rakʿahs après al-ʿishāʾ al-ākhirah. Et prie, durant ces deux nuits, cent rakʿahs, en récitant dans chaque rakʿah al-Fātiḥah une fois et Qul huwa Allāhu Aḥad dix fois. Et prie jusqu’à la fin du mois, chaque nuit, trente rakʿahs, comme je l’ai expliqué.",
-              "id": "Lalu ia menulis: Semoga Allah membuka mulutmu kepada kebaikan. Salatlah pada bulan Ramadan, selama dua puluh malam, dua puluh rakaat setiap malam: delapan setelah al-maghrib dan dua belas setelah al-ʿishāʾ al-ākhirah. Dan mandilah pada malam ketujuh belas, malam kesembilan belas, malam kedua puluh satu, dan malam kedua puluh tiga; dan salatlah pada malam-malam itu tiga puluh rakaat: dua belas setelah al-maghrib dan delapan belas rakaat setelah al-ʿishāʾ al-ākhirah. Dan salatlah pada dua malam itu seratus rakaat, dengan membaca al-Fātiḥah sekali dan Qul huwa Allāhu Aḥad sepuluh kali pada setiap rakaat. Dan salatlah hingga akhir bulan, setiap malam, tiga puluh rakaat, sebagaimana telah aku jelaskan.",
-              "ru": "Тогда он написал: Да откроет Аллах твои уста к благому. Совершай молитву в месяц Рамадан в течение двадцати ночей, по двадцать ракʿатов каждую ночь: восемь после аль-магриб и двенадцать после аль-ʿишаʾ аль-ахира. И совершай гусль в ночь семнадцатого, в ночь девятнадцатого, в ночь двадцать первого и в ночь двадцать третьего; и совершай в эти ночи тридцать ракʿатов: двенадцать после аль-магриб и восемнадцать ракʿатов после аль-ʿишаʾ аль-ахира. И совершай в эти две ночи сто ракʿатов, читая в каждом ракʿате аль-Фатиху один раз и Куль хува Аллаху Ахад десять раз. И совершай до конца месяца каждую ночь тридцать ракʿатов, как я разъяснил.",
-              "tr": "Bunun üzerine şöyle yazdı: Allah ağzını hayra açsın. Ramazan ayında yirmi gece boyunca her gece yirmi rekât kıl: maghrib’den sonra sekiz ve son ʿişâ’dan sonra on iki. On yedinci gece, on dokuzuncu gece, yirmi birinci gece ve yirmi üçüncü gece gusül yap; ve bu gecelerde otuz rekât kıl: maghrib’den sonra on iki ve son ʿişâ’dan sonra on sekiz rekât. Ve bu iki gecede yüz rekât kıl; her rekâtta bir defa Fâtiha ve on defa Qul huwa Allāhu Aḥad oku. Ve ayın sonuna kadar her gece otuz rekât kıl, açıkladığım üzere.",
-              "ur": "تو انہوں نے لکھا: اللہ آپ کے منہ کو بھلائی کے لیے کھول دے۔ رمضان کے مہینے میں بیس راتوں تک ہر رات بیس رکعتیں پڑھو: مغرب کے بعد آٹھ اور عشاء آخری کے بعد بارہ۔ اور سترہویں رات، انیسویں رات، اکیسویں رات، اور تئیسویں رات غسل کرو؛ اور ان راتوں میں تیس رکعتیں پڑھو: مغرب کے بعد بارہ اور عشاء آخری کے بعد اٹھارہ رکعتیں۔ اور ان دونوں راتوں میں سو رکعتیں پڑھو، ہر رکعت میں ایک بار فاتحہ اور دس بار قل هو الله أحد پڑھو۔ اور مہینے کے آخر تک ہر رات تیس رکعتیں پڑھو، جیسا کہ میں نے بیان کیا ہے۔",
-              "zh": "于是他写道：愿真主为你的口开启善言。在斋月的二十个夜晚里，每夜礼二十拜：在al-maghrib之后八拜，在al-ʿishāʾ al-ākhirah之后十二拜。并在第十七夜、第十九夜、第二十一夜和第二十三夜沐浴；并在这些夜晚礼三十拜：在al-maghrib之后十二拜，在al-ʿishāʾ al-ākhirah之后十八拜。并在那两个夜晚礼一百拜，每拜诵读一次al-Fātiḥah和十次QulhuwaAllāhuAḥad。并一直到月末，每夜礼三十拜，正如我所解释的那样。"
-            },
             "word_end": 125,
             "word_start": 35
           }
@@ -100,28 +87,16 @@
             "phrase_en": "Say: He is Allah, the One"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "اغْتَسِلْ": "perform ghusl, referring to the recommended ritual bath on specified nights",
-            "الْعِشَاءِ الْآخِرَةِ": "the later night prayer, after which additional recommended rakʿahs are performed",
-            "الْمَغْرِبِ": "the maghrib prayer, after which part of the recommended nightly prayers are performed",
-            "الْوِتْرُ": "the witr prayer, counted among the regular nightly rakʿahs mentioned",
-            "رَكْعَةً": "a unit of salat (prayer), used throughout to specify prayer quantities",
-            "شَهْرِ رَمَضَانَ": "the month of Ramaḍān, the period in which these recommended nightly prayers are prescribed",
-            "فَاتِحَةٌ": "Sūrat al-Fātiḥah, to be recited once in each rakʿah of the specified prayer",
-            "قُلْ هُوَ اللَّهُ أَحَدٌ": "Sūrat al-Ikhlāṣ, to be recited ten times in each rakʿah of the specified prayer"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "شَهْرِ رَمَضَانَ",
+          "الْوِتْرُ",
+          "رَكْعَةً",
+          "اغْتَسِلْ",
+          "الْمَغْرِبِ",
+          "الْعِشَاءِ الْآخِرَةِ",
+          "فَاتِحَةٌ",
+          "قُلْ هُوَ اللَّهُ أَحَدٌ"
+        ],
         "related_quran": [
           {
             "ref": "2:185",
@@ -136,32 +111,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিস অনুযায়ী রমজানের রাতগুলোতে কোন সালাত ও গোসল মুস্তাহাব?",
-          "de": "Welche Gebete und welches ghusl werden gemäß diesem Hadith in den Nächten des Monats Ramaḍān empfohlen?",
-          "en": "What prayers and ghusl are recommended during the nights of the month of Ramaḍān according to this hadith?",
-          "es": "Según este hadiz, ¿qué oraciones y qué ghusl se recomiendan en las noches del mes de Ramaḍán?",
-          "fa": "بر اساس این حدیث، در شب‌های ماه رمضان چه نمازها و چه غسل‌هایی مستحب است؟",
-          "fr": "Selon ce hadith, quelles prières et quels ghusl sont recommandés pendant les nuits du mois de Ramaḍān ?",
-          "id": "Menurut hadis ini, salat dan ghusl apa yang dianjurkan pada malam-malam bulan Ramadan?",
-          "ru": "Какие молитвы и какой гусль рекомендуются в ночи месяца Рамадан согласно этому хадису?",
-          "tr": "Bu hadise göre Ramazan gecelerinde hangi namazlar ve gusül tavsiye edilmiştir?",
-          "ur": "اس حدیث کے مطابق رمضان کی راتوں میں کون سی نمازیں اور غسل مستحب ہیں؟",
-          "zh": "根据这段圣训，斋月的夜晚推荐哪些礼拜和沐浴？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে রমজানের রাতগুলোতে আদায়যোগ্য মুস্তাহাব সালাতের বিস্তারিত বিধান বর্ণনা করা হয়েছে, সাধারণ রাত ও বিশেষ রাতগুলোর জন্য রাকাতসংখ্যা নির্ধারণ করা হয়েছে, এবং কিছু রাতে গোসলেরও নির্দেশনা দেওয়া হয়েছে।",
-          "de": "Dieser Hadith erläutert ausführlich die empfohlenen Gebete in den Nächten des Monats Ramaḍān, legt die Anzahl der Rakʿahs für gewöhnliche Nächte und besondere Nächte fest und erwähnt auch das empfohlene ghusl an bestimmten Nächten.",
-          "en": "This hadith gives a detailed ruling on the recommended salat to be performed during the nights of the month of Ramaḍān, specifying the number of rakʿahs on regular nights and on particular significant nights. It also mentions recommended ghusl on certain nights and prescribes a specific recitation for a set of prayers, showing the structured devotional program for Ramaḍān nights in the Shia tradition.",
-          "es": "Este hadiz expone en detalle las oraciones recomendadas para las noches del mes de Ramaḍán, especifica el número de rakʿahs para las noches normales y para noches especiales, y también menciona el ghusl recomendado en ciertas noches.",
-          "fa": "این حدیث، نمازهای مستحب در شب‌های ماه رمضان را به‌تفصیل بیان می‌کند، تعداد رکعت‌ها را برای شب‌های عادی و شب‌های ویژه مشخص می‌سازد و برای برخی شب‌ها غسل را نیز توصیه می‌کند.",
-          "fr": "Ce hadith expose en détail les prières recommandées pendant les nuits du mois de Ramaḍān, précise le nombre de rakʿahs pour les nuits ordinaires et pour certaines nuits particulières, et mentionne aussi le ghusl recommandé à certaines nuits.",
-          "id": "Hadis ini menjelaskan secara rinci salat-salat yang dianjurkan pada malam-malam bulan Ramadan, menetapkan jumlah rakaat untuk malam-malam biasa dan malam-malam khusus, serta menganjurkan ghusl pada malam-malam tertentu.",
-          "ru": "Этот хадис подробно разъясняет желательные молитвы в ночи месяца Рамадан, определяет число ракʿатов для обычных и особых ночей, а также упоминает рекомендуемый гусль в некоторые ночи.",
-          "tr": "Bu hadis, Ramazan gecelerinde kılınması tavsiye edilen namazları ayrıntılı biçimde açıklar; normal geceler ve özel geceler için rekât sayılarını belirler ve bazı gecelerde guslü de tavsiye eder.",
-          "ur": "یہ حدیث رمضان کی راتوں میں مستحب نمازوں کی تفصیل بیان کرتی ہے، عام راتوں اور خاص راتوں کے لیے رکعتوں کی تعداد متعین کرتی ہے، اور بعض راتوں میں غسل کی بھی ترغیب دیتی ہے۔",
-          "zh": "这段圣训详细说明了斋月夜晚应当推荐的礼拜，规定了普通夜晚和特定重要夜晚的拜数，并提到在某些夜晚推荐沐浴。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

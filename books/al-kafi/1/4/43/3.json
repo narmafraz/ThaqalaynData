@@ -21,80 +21,41 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ ابْنِ أَبِي نَصْرٍ عَنْ ثَعْلَبَةَ عَنْ زُرَارَةَ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "মুহাম্মদ ইবন ইয়াহইয়া, আহমদ ইবন মুহাম্মদ থেকে, ইবন আবি নাসর থেকে, থাʿলাবাহ থেকে, জুরারাহ থেকে, যিনি বলেছেন:",
-              "de": "Muhammad ibn Yahya, von Ahmad ibn Muhammad, von Ibn Abi Nasr, von Thaʿlabah, von Zurarah, der sagte:",
-              "en": "Muhammad ibn Yahya, from Ahmad ibn Muhammad, from Ibn Abi Nasr, from Thaʿlabah, from Zurarah, who said:",
-              "es": "Muhammad ibn Yahya, de Ahmad ibn Muhammad, de Ibn Abi Nasr, de Thaʿlabah, de Zurarah, quien dijo:",
-              "fa": "محمد بن یحیی، از احمد بن محمد، از ابن ابی نصر، از ثعلبه، از زراره، که گفت:",
-              "fr": "Muhammad ibn Yahya, d’Ahmad ibn Muhammad, d’Ibn Abi Nasr, de Thaʿlabah, de Zurarah, qui a dit :",
-              "id": "Muhammad ibn Yahya, dari Ahmad ibn Muhammad, dari Ibn Abi Nasr, dari Thaʿlabah, dari Zurarah, yang berkata:",
-              "ru": "Мухаммад ибн Яхья, от Ахмада ибн Мухаммада, от Ибн Аби Насра, от Саʿлабы, от Зурары, который сказал:",
-              "tr": "Muhammed ibn Yahya, Ahmed ibn Muhammed’den, İbn Ebi Nasr’dan, Thaʿlabah’dan, Zurarah’dan, o da şöyle dedi:",
-              "ur": "محمد بن یحیی، احمد بن محمد سے، ابن ابی نصر سے، ثعلبہ سے، زرارہ سے، جنہوں نے کہا:",
-              "zh": "穆罕默德·伊本·叶海亚，传自艾哈迈德·伊本·穆罕默德，传自伊本·阿比·纳斯尔，传自萨ʿ拉巴，传自祖拉拉，他说："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "سَمِعْتُ أَبَا جَعْفَرٍ (عَلَيْهِ السَّلَامُ) يَقُولُ: لَوْ لَا أَنَّا نَزْدَادُ لَأَنْفَدْنَا.",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আমি আবু জাফর (عليه السلام)-কে বলতে শুনেছি: “আমাদের বৃদ্ধি না হলে আমরা নিঃশেষ হয়ে যেতাম।”",
-              "de": "Ich hörte Abu Jaʿfar (عليه السلام) sagen: „Wenn uns nicht vermehrt würde, wären wir erschöpft.“",
-              "en": "I heard Abu Jaʿfar (عليه السلام) saying: “Were it not that we are increased, we would be exhausted.”",
-              "es": "Escuché a Abu Jaʿfar (عليه السلام) decir: “Si no se nos aumentara, nos agotaríamos.”",
-              "fa": "از ابو جعفر (عليه السلام) شنیدم که می‌فرمود: «اگر بر ما افزوده نمی‌شد، از میان می‌رفتیم.»",
-              "fr": "J’ai entendu Abu Jaʿfar (عليه السلام) dire : « Si nous n’étions pas augmentés, nous serions épuisés. »",
-              "id": "Aku mendengar Abu Jaʿfar (عليه السلام) bersabda: “Seandainya kami tidak diberi tambahan, niscaya kami akan binasa.”",
-              "ru": "Я слышал, как Абу Джаʿфар (عليه السلام) говорил: «Если бы нам не прибавлялось, мы бы иссякли».",
-              "tr": "Ebu Caʿfer’i (عليه السلام) şöyle derken işittim: “Eğer bize artış verilmeseydi, tükenirdik.”",
-              "ur": "میں نے ابو جعفر (عليه السلام) کو یہ فرماتے ہوئے سنا: “اگر ہم میں اضافہ نہ ہوتا تو ہم ختم ہو جاتے۔”",
-              "zh": "我听阿布·贾法尔（عليه السلام）说：“如果不给我们增加，我们就会耗尽。”"
-            },
             "word_end": 27,
             "word_start": 16
           },
           {
             "arabic_text": "قَالَ: قُلْتُ: تَزْدَادُونَ شَيْئًا لَا يَعْلَمُهُ رَسُولُ اللَّهِ (صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ)؟",
             "chunk_type": "body",
-            "translations": {
-              "bn": "তিনি বললেন: আমি বললাম, “আপনাদের কি এমন কিছু দ্বারা বৃদ্ধি করা হয় যা রাসূলুল্লাহ (صلى الله عليه وآله) জানতেন না?”",
-              "de": "Er sagte: Ich sagte: „Werdet ihr durch etwas vermehrt, das der Gesandte Allahs (صلى الله عليه وآله) nicht wusste?“",
-              "en": "He said: I said, “Are you increased with something that the Messenger of Allah (صلى الله عليه وآله) did not know?”",
-              "es": "Él dijo: Yo dije: “¿Se os aumenta con algo que el Mensajero de Allah (صلى الله عليه وآله) no sabía?”",
-              "fa": "او فرمود: من گفتم: «آیا بر شما چیزی افزوده می‌شود که رسول خدا (صلى الله عليه وآله) آن را نمی‌دانست؟»",
-              "fr": "Il a dit : J’ai dit : « Êtes-vous augmentés par quelque chose que le Messager d’Allah (صلى الله عليه وآله) ne savait pas ? »",
-              "id": "Beliau berkata: Aku berkata, “Apakah kalian diberi tambahan dengan sesuatu yang tidak diketahui oleh Rasulullah (صلى الله عليه وآله)?”",
-              "ru": "Он сказал: Я спросил: «Вам прибавляется что-то, чего не знал Посланник Аллаха (صلى الله عليه وآله)?»",
-              "tr": "O şöyle dedi: Ben dedim ki: “Resulullah’ın (صلى الله عليه وآله) bilmediği bir şeyle mi size artış veriliyor?”",
-              "ur": "انہوں نے کہا: میں نے عرض کیا: “کیا آپ کو ایسی چیز میں اضافہ ہوتا ہے جسے رسول اللہ (صلى الله عليه وآله) نہیں جانتے تھے؟”",
-              "zh": "他说：我说：“你们是否因某种连真主的使者（صلى الله عليه وآله）也不知道的东西而被增加？”"
-            },
             "word_end": 39,
             "word_start": 27
           },
           {
             "arabic_text": "قَالَ: أَمَا إِنَّهُ إِذَا كَانَ ذَلِكَ عُرِضَ عَلَى رَسُولِ اللَّهِ (صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ) ثُمَّ عَلَى الْأَئِمَّةِ ثُمَّ انْتَهَى الْأَمْرُ إِلَيْنَا.",
             "chunk_type": "closing",
-            "translations": {
-              "bn": "তিনি বললেন: “নিশ্চয়ই, যখন তা ঘটে, তখন তা রাসূলুল্লাহ (صلى الله عليه وآله)-এর সামনে পেশ করা হয়, তারপর ইমামদের সামনে, তারপর বিষয়টি আমাদের কাছে এসে পৌঁছে।”",
-              "de": "Er sagte: „Gewiss, wenn dies geschieht, wird es dem Gesandten Allahs (صلى الله عليه وآله) vorgelegt, dann den Imamen, dann gelangt die Angelegenheit zu uns.“",
-              "en": "He said: “Indeed, when that occurs, it is presented to the Messenger of Allah (صلى الله عليه وآله), then to the Imams, then the matter comes to us.”",
-              "es": "Él dijo: “En verdad, cuando eso ocurre, se presenta al Mensajero de Allah (صلى الله عليه وآله), luego a los Imames, y luego el asunto llega a nosotros.”",
-              "fa": "فرمود: «همانا هنگامی که چنین شود، آن بر رسول خدا (صلى الله عليه وآله) عرضه می‌شود، سپس بر امامان، سپس کار به ما می‌رسد.»",
-              "fr": "Il a dit : « En vérité, lorsque cela se produit, cela est présenté au Messager d’Allah (صلى الله عليه وآله), puis aux Imams, puis l’affaire nous parvient. »",
-              "id": "Beliau bersabda: “Sesungguhnya apabila hal itu terjadi, ia dipersembahkan kepada Rasulullah (صلى الله عليه وآله), kemudian kepada para Imam, lalu urusan itu sampai kepada kami.”",
-              "ru": "Он сказал: «Поистине, когда это происходит, это представляется Посланнику Аллаха (صلى الله عليه وآله), затем Имамам, затем дело доходит до нас».",
-              "tr": "O buyurdu: “Şüphesiz bu olduğunda, önce Resulullah’a (صلى الله عليه وآله), sonra İmamlara arz edilir, sonra iş bize ulaşır.”",
-              "ur": "انہوں نے فرمایا: “بے شک جب ایسا ہوتا ہے تو وہ رسول اللہ (صلى الله عليه وآله) پر پیش کیا جاتا ہے، پھر ائمہ پر، پھر معاملہ ہماری طرف آ جاتا ہے۔”",
-              "zh": "他说：“确实，当那件事发生时，它先呈给真主的使者（صلى الله عليه وآله），然后呈给诸伊玛目，然后事情才到我们这里。”"
-            },
             "word_end": 60,
             "word_start": 39
           }
@@ -163,25 +124,13 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْأَئِمَّةِ": "the Imams, the divinely appointed successors in the hadith’s context",
-            "الْأَمْرُ": "the matter, referring here to the knowledge or affair being conveyed",
-            "عُرِضَ": "it was presented, indicating transmission by presentation before reaching them",
-            "لَأَنْفَدْنَا": "we would be exhausted or depleted, meaning what is with them would run out without increase",
-            "نَزْدَادُ": "we receive increase, referring here to ongoing augmentation in knowledge"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "نَزْدَادُ",
+          "لَأَنْفَدْنَا",
+          "عُرِضَ",
+          "الْأَئِمَّةِ",
+          "الْأَمْرُ"
+        ],
         "related_quran": [
           {
             "ref": "20:114",
@@ -196,32 +145,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিসটি কীভাবে ইমামদের জ্ঞানের ধারাবাহিক বৃদ্ধি ব্যাখ্যা করে?",
-          "de": "Wie erklärt dieser Hadith die fortwährende Zunahme des Wissens der Imame?",
-          "en": "How does this hadith explain the continued increase of knowledge of the Imams?",
-          "es": "¿Cómo explica este hadiz el aumento continuo del conocimiento de los Imames?",
-          "fa": "این حدیث افزایش پیوستهٔ علم امامان را چگونه توضیح می‌دهد؟",
-          "fr": "Comment ce hadith explique-t-il l’accroissement continu de la connaissance des Imams ?",
-          "id": "Bagaimana hadis ini menjelaskan terus bertambahnya ilmu para Imam?",
-          "ru": "Как этот хадис объясняет непрерывное увеличение знания Имамов?",
-          "tr": "Bu hadis, İmamların ilminin sürekli artışını nasıl açıklar?",
-          "ur": "یہ حدیث ائمہ کے علم میں مسلسل اضافہ کو کیسے بیان کرتی ہے؟",
-          "zh": "这段圣训如何解释伊玛目知识的持续增长？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি ব্যাখ্যা করে যে ইমামগণ জ্ঞানে ধারাবাহিক বৃদ্ধি লাভ করেন, এবং এটি রাসূলুল্লাহ (صلى الله عليه وآله وسلم) থেকে স্বাধীনভাবে ঘটে না। বরং এমন জ্ঞান প্রথমে রাসূলুল্লাহর সামনে, তারপর ইমামদের সামনে পেশ করা হয়, এবং পরে বর্তমান ইমামের কাছে পৌঁছে। এই বর্ণনা আহলুল বাইতের ধারায় আল্লাহপ্রদত্ত জ্ঞানের ধারাবাহিকতাকে জোর দেয়।",
-          "de": "Dieser Hadith erklärt, dass die Imame fortwährend an Wissen zunehmen und dass dies nicht unabhängig vom Gesandten Allahs (صلى الله عليه وآله وسلم) geschieht. Vielmehr wird solches Wissen zuerst dem Gesandten Allahs, dann den Imamen vorgelegt und gelangt anschließend zum gegenwärtigen Imam. Die Überlieferung betont die Kontinuität des von Allah verliehenen Wissens innerhalb der Linie der Ahl al-Bayt.",
-          "en": "This hadith describes that the Imams receive ongoing increase in knowledge and that this does not occur independently of the Messenger of Allah (صلى الله عليه وآله وسلم). Rather, such knowledge is presented first to the Messenger of Allah, then to the Imams, and then reaches the present Imam. The report emphasizes continuity of divinely granted knowledge within the line of the Ahl al-Bayt.",
-          "es": "Este hadiz explica que los Imames reciben un aumento continuo de conocimiento y que esto no ocurre de manera independiente del Mensajero de Allah (صلى الله عليه وآله وسلم). Más bien, ese conocimiento se presenta primero al Mensajero de Allah, luego a los Imames, y después llega al Imam presente. El relato enfatiza la continuidad del conocimiento concedido por Allah dentro de la línea de la Ahl al-Bayt.",
-          "fa": "این حدیث بیان می‌کند که امامان در علم، افزایشی پیوسته دریافت می‌کنند و این امر به‌صورت مستقل از رسول خدا (صلى الله عليه وآله وسلم) رخ نمی‌دهد. بلکه چنین علمی نخست بر رسول خدا، سپس بر امامان عرضه می‌شود و آنگاه به امام حاضر می‌رسد. این روایت بر تداوم علمِ عطاشده از سوی خدا در سلسله اهل‌بیت تأکید دارد.",
-          "fr": "Ce hadith explique que les Imams reçoivent un accroissement continu de connaissance et que cela ne se produit pas indépendamment du Messager d’Allah (صلى الله عليه وآله وسلم). Au contraire, une telle connaissance est d’abord présentée au Messager d’Allah, puis aux Imams, puis elle parvient à l’Imam présent. Le récit souligne la continuité du savoir accordé par Allah dans la lignée de l’Ahl al-Bayt.",
-          "id": "Hadis ini menjelaskan bahwa para Imam menerima tambahan ilmu yang terus-menerus, dan hal itu tidak terjadi secara terpisah dari Rasulullah (صلى الله عليه وآله وسلم). Sebaliknya, ilmu semacam itu terlebih dahulu dipersembahkan kepada Rasulullah, kemudian kepada para Imam, lalu sampai kepada Imam yang hadir. Riwayat ini menegaskan kesinambungan ilmu yang dianugerahkan Allah dalam garis Ahl al-Bayt.",
-          "ru": "Этот хадис разъясняет, что Имамы получают непрерывное приращение знания и что это не происходит независимо от Посланника Аллаха (صلى الله عليه وآله وسلم). Напротив, такое знание сначала представляется Посланнику Аллаха, затем Имамам, а потом доходит до нынешнего Имама. Передача подчеркивает непрерывность знания, дарованного Аллахом, в линии Ахль аль-Байт.",
-          "tr": "Bu hadis, İmamlara ilimde sürekli bir artış verildiğini ve bunun Resulullah’tan (صلى الله عليه وآله وسلم) bağımsız gerçekleşmediğini anlatır. Aksine, böyle bir ilim önce Resulullah’a, sonra İmamlara arz edilir ve ardından mevcut İmama ulaşır. Rivayet, Ehl-i Beyt silsilesinde Allah vergisi ilmin sürekliliğini vurgular.",
-          "ur": "یہ حدیث بیان کرتی ہے کہ ائمہ کو علم میں مسلسل اضافہ عطا ہوتا ہے، اور یہ اضافہ رسول اللہ (صلى الله عليه وآله وسلم) سے جدا نہیں ہوتا۔ بلکہ ایسا علم پہلے رسول اللہ پر، پھر ائمہ پر پیش کیا جاتا ہے، اور پھر موجودہ امام تک پہنچتا ہے۔ یہ روایت اہلِ بیت کے سلسلے میں اللہ کی عطا کردہ علم کی تسلسل پر زور دیتی ہے۔",
-          "zh": "这段圣训说明，伊玛目们不断获得知识的增加，而这并不是独立于真主的使者（صلى الله عليه وآله وسلم）而发生的。相反，这样的知识先呈给真主的使者，然后呈给诸伊玛目，最后到达现任伊玛目。这则传述强调了阿赫勒白特一脉中由真主赐予的知识的延续性。"
-        },
         "tags": [
           "theology",
           "knowledge",

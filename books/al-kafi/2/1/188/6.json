@@ -14,6 +14,143 @@
       "up": "/books/al-kafi:2:1:188"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ عَنْ عَبْدِ الرَّحْمَنِ بْنِ مُحَمَّدِ بْنِ أَبِي هَاشِمٍ عَنْ عَنْبَسَةَ الْعَابِدِ عَنْ أَبِي عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 33,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "إِنَّ اللَّهَ يُحِبُّ الْعَبْدَ أَنْ يَطْلُبَ إِلَيْهِ فِي الْجُرْمِ الْعَظِيمِ وَ يُبْغِضُ الْعَبْدَ أَنْ يَسْتَخِفَّ بِالْجُرْمِ الْيَسِيرِ",
+            "chunk_type": "body",
+            "word_end": 50,
+            "word_start": 33
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 6,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+              "name_en": "A number of our companions",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 12,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ",
+              "name_en": "Ahmad b. Muhammad b. Khalid",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 67,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ عَلِيٍّ",
+              "name_en": "Muhammad ibn Ali",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 1519,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَبْدِ الرَّحْمَنِ بْنِ مُحَمَّدِ بْنِ أَبِي هَاشِمٍ",
+              "name_en": "Abd al-Rahman b. Muhammad b. Abi Hashim",
+              "position": 4,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 551,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "عَنْبَسَةَ الْعَابِدِ",
+              "name_en": "Anbasa al-Abid",
+              "position": 5,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 669,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+              "name_en": "Abu Abdullah (AS)",
+              "position": 6,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "الْجُرْمِ الْعَظِيمِ",
+          "الْجُرْمِ الْيَسِيرِ",
+          "يَسْتَخِفَّ",
+          "يَطْلُبَ إِلَيْهِ"
+        ],
+        "related_quran": [
+          {
+            "ref": "3:135",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:53",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "7:43",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "theology",
+          "ethics"
+        ],
+        "topics": [
+          "repentance",
+          "divine_attributes",
+          "etiquette"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (11/285)"
       ],
@@ -94,7 +231,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:1:188:6",

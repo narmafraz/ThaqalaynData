@@ -14,6 +14,126 @@
       "up": "/books/al-kafi:6:8:49"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ ابْنِ فَضَّالٍ عَنِ الْحَسَنِ بْنِ جَهْمٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 15,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "دَخَلْتُ عَلَى أَبِي الْحَسَنِ ( عَلَيْهِ السَّلَامُ ) فَأَخْرَجَ إِلَيَّ مَخْزَنَةً فِيهَا مِسْكٌ وَ قَالَ خُذْ مِنْ هَذَا فَأَخَذْتُ مِنْهُ شَيْئاً فَتَمَسَّحْتُ بِهِ فَقَالَ أَصْلِحْ وَ اجْعَلْ فِي لَبَّتِكَ مِنْهُ قَالَ فَأَخَذْتُ مِنْهُ قَلِيلًا فَجَعَلْتُهُ فِي لَبَّتِي فَقَالَ لِي أَصْلِحْ فَأَخَذْتُ مِنْهُ أَيْضاً فَمَكَثَ فِي يَدِي مِنْهُ شَيْ‏ءٌ صَالِحٌ فَقَالَ لِي اجْعَلْ فِي لَبَّتِكَ فَفَعَلْتُ ثُمَّ قَالَ قَالَ أَمِيرُ الْمُؤْمِنِينَ ( عَلَيْهِ السَّلَامُ ) لَا يَأْبَى الْكَرَامَةَ إِلَّا حِمَارٌ قَالَ قُلْتُ مَا مَعْنَى ذَلِكَ قَالَ الطِّيبُ وَ الْوِسَادَةُ وَ عَدَّ أَشْيَاءَ.",
+            "chunk_type": "body",
+            "word_end": 96,
+            "word_start": 15
+          }
+        ],
+        "content_type": "ethical_teaching",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 4,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+              "name_en": "Muhammad ibn Yahya",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 5,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+              "name_en": "Ahmad ibn Muhammad",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 22,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنِ فَضَّالٍ",
+              "name_en": "Ibn Faddal",
+              "position": 3,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 676,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحَسَنِ بْنِ جَهْمٍ",
+              "name_en": "al-Hasan b. Jahm",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          }
+        ],
+        "key_terms_keys": [
+          "مَخْزَنَة",
+          "مِسْك",
+          "أَصْلِحْ",
+          "لَبَّة",
+          "أَمِيرُ الْمُؤْمِنِينَ",
+          "الْكَرَامَة",
+          "الْوِسَادَة"
+        ],
+        "related_quran": [
+          {
+            "ref": "7:31",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "39:33",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "4:86",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "ethics",
+          "social_relations"
+        ],
+        "topics": [
+          "etiquette",
+          "imams_biography",
+          "sunnah"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> موثق   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (22/418)"
       ],
@@ -82,7 +202,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:6:8:49:3",

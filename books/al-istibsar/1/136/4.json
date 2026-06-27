@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ الْحَكَمِ عَنْ سَيْفِ بْنِ عَمِيرَةَ عَنْ سُلَيْمَانَ بْنِ هَارُونَ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আহমদ ইবন মুহাম্মদ, আলী ইবন আল-হাকাম থেকে, সাইফ ইবন উমাইরাহ থেকে, সুলাইমান ইবন হারুন থেকে, তিনি বলেন:",
-              "de": "Ahmad ibn Muhammad, von 'Ali ibn al-Hakam, von Sayf ibn 'Umayrah, von Sulayman ibn Harun, der sagte:",
-              "en": "Ahmad ibn Muhammad, from 'Ali ibn al-Hakam, from Sayf ibn 'Umayrah, from Sulayman ibn Harun, who said:",
-              "es": "Ahmad ibn Muhammad, de 'Ali ibn al-Hakam, de Sayf ibn 'Umayrah, de Sulayman ibn Harun, quien dijo:",
-              "fa": "احمد بن محمد، از علی بن الحکم، از سیف بن عمیره، از سلیمان بن هارون، که گفت:",
-              "fr": "Ahmad ibn Muhammad, d’'Ali ibn al-Hakam, de Sayf ibn 'Umayrah, de Sulayman ibn Harun, qui a dit :",
-              "id": "Ahmad ibn Muhammad, dari 'Ali ibn al-Hakam, dari Sayf ibn 'Umayrah, dari Sulayman ibn Harun, ia berkata:",
-              "ru": "Ахмад ибн Мухаммад, от 'Али ибн аль-Хакама, от Сайфа ибн 'Умайры, от Сулеймана ибн Харуна, который сказал:",
-              "tr": "Ahmed ibn Muhammed, Ali ibn el-Hakem’den, Seyf ibn Umeyra’dan, Süleyman ibn Harun’dan, o da şöyle dedi:",
-              "ur": "احمد بن محمد، علی بن الحکم سے، سیف بن عمیرہ سے، سلیمان بن ہارون سے، انہوں نے کہا:",
-              "zh": "AhmadibnMuhammad，传自'Aliibnal-Hakam，传自Sayfibn'Umayrah，传自SulaymanibnHarun，他说："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُ أَبَا الْحَسَنِ عَلَيْهِ السَّلَامُ عَنْ قَضَاءِ الصَّلَاةِ بَعْدَ الْعَصْرِ، قَالَ: فَاقْضِهَا مَتَى مَا شِئْتَ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবু আল-হাসান عليه السلام-কে আসরের পর সালাতের কাযা সম্পর্কে জিজ্ঞেস করলাম। তিনি বললেন: তাহলে যখন ইচ্ছা তা কাযা করে নাও।",
-              "de": "Ich fragte Abu al-Hasan عليه السلام nach dem Nachholen des Gebets nach al-'Asr. Er sagte: Dann hole es nach, wann immer du willst.",
-              "en": "I asked Abu al-Hasan عليه السلام about making up the prayer after al-'Asr. He said: Then make it up whenever you wish.",
-              "es": "Le pregunté a Abu al-Hasan عليه السلام acerca de recuperar la oración después de al-'Asr. Dijo: Entonces recupérala cuando quieras.",
-              "fa": "از ابو الحسن علیه السلام درباره قضای نماز پس از عصر پرسیدم. فرمود: پس هر زمان که خواستی آن را قضا کن.",
-              "fr": "J’ai interrogé Abu al-Hasan عليه السلام au sujet du rattrapage de la prière après al-'Asr. Il a dit : Alors rattrape-la quand tu veux.",
-              "id": "Aku bertanya kepada Abu al-Hasan عليه السلام tentang mengqadha salat setelah al-'Asr. Beliau bersabda: Maka qadha-lah kapan saja engkau mau.",
-              "ru": "Я спросил Абу аль-Хасана عليه السلام о возмещении молитвы после аль-'Аср. Он сказал: Тогда возмещай её, когда пожелаешь.",
-              "tr": "Ebu’l-Hasan عليه السلام’a, ikindi namazından sonra kaçırılan namazın kazası hakkında sordum. Buyurdu ki: O hâlde onu dilediğin zaman kaza et.",
-              "ur": "میں نے ابو الحسن علیہ السلام سے عصر کے بعد نماز کی قضا کے بارے میں پوچھا۔ انہوں نے فرمایا: پھر جب چاہو اس کی قضا کر لو۔",
-              "zh": "我问Abual-Hasan عليهالسلام关于在al-'Asr之后补礼拜的事。他说：那么你什么时候愿意就什么时候补它。"
-            },
             "word_end": 31,
             "word_start": 16
           }
@@ -104,26 +91,14 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبَا الْحَسَنِ": "Abu al-Hasan, the Imam addressed in the narration",
-            "الصَّلَاةِ": "the prayer being discussed for make-up",
-            "بَعْدَ الْعَصْرِ": "after the time of al-'Asr prayer",
-            "فَاقْضِهَا": "then perform it as a make-up",
-            "قَضَاءِ": "making up or performing a missed act of worship later",
-            "مَتَى مَا شِئْتَ": "whenever you wish; at any time you choose"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "أَبَا الْحَسَنِ",
+          "قَضَاءِ",
+          "الصَّلَاةِ",
+          "بَعْدَ الْعَصْرِ",
+          "فَاقْضِهَا",
+          "مَتَى مَا شِئْتَ"
+        ],
         "related_quran": [
           {
             "ref": "2:238",
@@ -134,32 +109,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "আসরের পর কি ছুটে যাওয়া সালাত কাযা করা যায়?",
-          "de": "Kann ein versäumtes Gebet nach al-'Asr nachgeholt werden?",
-          "en": "Can a missed prayer be made up after al-'Asr?",
-          "es": "¿Se puede recuperar una oración omitida después de al-'Asr?",
-          "fa": "آیا می‌توان نماز فوت‌شده را پس از عصر قضا کرد؟",
-          "fr": "Peut-on rattraper une prière manquée après al-'Asr ?",
-          "id": "Apakah salat yang terlewat boleh diqadha setelah al-'Asr?",
-          "ru": "Можно ли возместить пропущенную молитву после аль-'Аср?",
-          "tr": "İkindi namazından sonra kaçırılan namaz kaza edilebilir mi?",
-          "ur": "کیا عصر کے بعد فوت شدہ نماز کی قضا کی جا سکتی ہے؟",
-          "zh": "在al-'Asr之后可以补做错过的礼拜吗？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে আসরের পর ছুটে যাওয়া সালাতের কাযা সম্পর্কে একটি শরয়ি বিধান বর্ণিত হয়েছে। আবু আল-হাসান عليه السلام বলেন, এটি যখন ইচ্ছা করা যায়, যা এর সময়গত বৈধতার ইঙ্গিত দেয়।",
-          "de": "Dieser Hadith enthält eine rechtliche Regelung zum Nachholen eines versäumten Gebets nach al-'Asr. Abu al-Hasan عليه السلام erklärt, dass es jederzeit nachgeholt werden kann, was auf seine zeitliche Zulässigkeit hinweist.",
-          "en": "This hadith gives a legal ruling concerning the make-up of a missed prayer after al-'Asr. Abu al-Hasan عليه السلام states that it may be performed whenever one wishes, indicating permissibility in its timing.",
-          "es": "Este hadiz establece una norma jurídica sobre recuperar una oración omitida después de al-'Asr. Abu al-Hasan عليه السلام afirma que puede realizarse cuando uno quiera, lo que indica su permisibilidad en cuanto al tiempo.",
-          "fa": "این حدیث حکمی فقهی درباره قضای نماز فوت‌شده پس از عصر بیان می‌کند. ابو الحسن علیه السلام می‌فرماید که می‌توان آن را هر زمان که بخواهد انجام داد، و این بر جواز آن از نظر زمان دلالت دارد.",
-          "fr": "Ce hadith énonce une règle juridique concernant le rattrapage d’une prière manquée après al-'Asr. Abu al-Hasan عليه السلام déclare qu’elle peut être accomplie quand on le souhaite, ce qui indique sa permissibilité quant au moment.",
-          "id": "Hadis ini memberikan حكم hukum tentang mengqadha salat yang terlewat setelah al-'Asr. Abu al-Hasan عليه السلام menyatakan bahwa itu boleh dilakukan kapan saja seseorang menghendaki, yang menunjukkan kebolehan dalam waktunya.",
-          "ru": "Этот хадис содержит правовое постановление о возмещении пропущенной молитвы после аль-'Аср. Абу аль-Хасан عليه السلام говорит, что её можно возместить в любое желаемое время, что указывает на допустимость по времени.",
-          "tr": "Bu hadis, ikindi namazından sonra kaçırılan bir namazın kazasına dair fıkhî bir hüküm bildirir. Ebu’l-Hasan عليه السلام, bunun kişinin dilediği zaman kılınabileceğini söyleyerek vaktinde caiz olduğunu belirtir.",
-          "ur": "یہ حدیث عصر کے بعد فوت شدہ نماز کی قضا کے شرعی حکم کو بیان کرتی ہے۔ ابو الحسن علیہ السلام فرماتے ہیں کہ اسے جب چاہیں ادا کیا جا سکتا ہے، جو اس کے وقت میں جواز پر دلالت کرتا ہے۔",
-          "zh": "这段圣训说明了关于在al-'Asr之后补做错过的礼拜的教法律例。Abual-Hasan عليهالسلام说：那么你可以在任何你愿意的时候补它，这表明其时间上的许可。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

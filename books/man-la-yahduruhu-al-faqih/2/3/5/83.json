@@ -17,23 +17,23 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَٱلْحَاجُّ إِذَا وَقَفَ بِعَرَفَاتٍ خَرَجَ مِنْ ذُنُوبِهِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যাত্রা যখন আরাফাতে দাঁড়ায়, তখন সে তার পাপ থেকে মুক্তি পায়।",
-              "de": "Der Pilger, wenn er auf Arafat steht, kommt aus seinen Sünden heraus.",
-              "en": "The pilgrim, when he stands at Arafat, comes out from his sins.",
-              "es": "El peregrino, cuando está en Arafat, sale de sus pecados.",
-              "fa": "حاجی هنگامی که در عرفات می‌ایستد، از گناهان خود خارج می‌شود.",
-              "fr": "Le pèlerin, lorsqu'il se tient à Arafat, sort de ses péchés.",
-              "id": "Jamaah haji ketika berdiri di Arafah, keluar dari dosa-dosanya.",
-              "ru": "Паломник, когда стоит на Арафате, освобождается от своих грехов.",
-              "tr": "Hacı, Arafat'ta durduğunda günahlarından çıkar.",
-              "ur": "حاجی جب عرفات میں کھڑا ہوتا ہے تو وہ اپنے گناہوں سے نکل آتا ہے۔",
-              "zh": "朝圣者当他站在阿拉法特时,他的罪孽得以消除。"
-            },
             "word_end": 7,
             "word_start": 0
           }
@@ -45,25 +45,13 @@
           "narrators": []
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "بِعَرَفَاتٍ": "at Arafat, the sacred site of standing during hajj",
-            "خَرَجَ": "came out, meaning became freed",
-            "ذُنُوبِهِ": "his sins",
-            "وَقَفَ": "stood, referring to the ritual standing",
-            "ٱلْحَاجُّ": "the pilgrim performing hajj"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "ٱلْحَاجُّ",
+          "وَقَفَ",
+          "بِعَرَفَاتٍ",
+          "خَرَجَ",
+          "ذُنُوبِهِ"
+        ],
         "related_quran": [
           {
             "ref": "2:198",
@@ -78,32 +66,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "হাদিসে আরাফাতে দাঁড়ানো যাত্রার পাপের উপর কী প্রভাব ফেলে?",
-          "de": "Wie wirkt sich das Stehen auf Arafat auf die Sünden des Pilgers im Hadith aus?",
-          "en": "How does standing at Arafat affect the pilgrim's sins in hadith?",
-          "es": "¿Cómo afecta la permanencia en Arafat a los pecados del peregrino según el hadiz?",
-          "fa": "در حدیث، ایستادن در عرفات چگونه بر گناهان حاجی تأثیر می‌گذارد؟",
-          "fr": "Comment le fait de se tenir à Arafat affecte-t-il les péchés du pèlerin selon le hadith ?",
-          "id": "Bagaimana berdiri di Arafah mempengaruhi dosa jamaah haji dalam hadits?",
-          "ru": "Как стояние на Арафате влияет на грехи паломника в хадисе?",
-          "tr": "Hadiste Arafat'ta durmak hacının günahlarını nasıl etkiler?",
-          "ur": "حدیث میں عرفات میں کھڑے ہونے سے حاجی کے گناہوں پر کیا اثر پڑتا ہے؟",
-          "zh": "圣训中站在阿拉法特如何影响朝圣者的罪孽？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি হজের মহান মর্যাদা বিশেষ করে আরাফাতে দাঁড়ানোর গুরুত্ব তুলে ধরে। এটি শেখায় যে যাত্রা এই কেন্দ্রীয় ইবাদতের মাধ্যমে পাপ থেকে মুক্তি পায়, যা হজের আধ্যাত্মিক পরিশুদ্ধতা প্রদর্শন করে।",
-          "de": "Dieser Hadith hebt die große Tugend des Hadsch hervor, insbesondere das Stehen auf Arafat. Er lehrt, dass der Pilger durch diese zentrale Anbetung von seinen Sünden befreit wird und zeigt die spirituelle Reinigung, die mit dem Hadsch verbunden ist.",
-          "en": "This hadith highlights the great merit of hajj, especially the standing at Arafat. It teaches that the pilgrim is relieved of sins through this central act of worship, showing the spiritual purification associated with hajj.",
-          "es": "Este hadiz destaca la gran virtud del hajj, especialmente la permanencia en Arafat. Enseña que el peregrino es liberado de sus pecados a través de este acto central de adoración, mostrando la purificación espiritual asociada con el hajj.",
-          "fa": "این حدیث فضیلت عظیم حج، به ویژه وقوف در عرفات را نشان می‌دهد. آموزش می‌دهد که حاجی از طریق این عمل مرکزی عبادت از گناهان خود رهایی می‌یابد و پاکی معنوی مرتبط با حج را نشان می‌دهد.",
-          "fr": "Ce hadith met en lumière la grande vertu du hajj, en particulier le séjour à Arafat. Il enseigne que le pèlerin est délivré de ses péchés par cet acte central d'adoration, montrant la purification spirituelle associée au hajj.",
-          "id": "Hadis ini menyoroti keutamaan besar haji, terutama berdiri di Arafah. Mengajarkan bahwa jamaah haji terbebas dari dosa melalui ibadah sentral ini, menunjukkan penyucian spiritual yang terkait dengan haji.",
-          "ru": "Этот хадис подчеркивает великую заслугу хаджа, особенно стояние на Арафате. Он учит, что паломник освобождается от грехов через этот центральный акт поклонения, показывая духовное очищение, связанное с хаджем.",
-          "tr": "Bu hadis, özellikle Arafat'ta durmanın, haccın büyük faziletini vurgular. Hacının bu merkezi ibadetle günahlarından kurtulduğunu öğretir ve haccın manevi arınmasını gösterir.",
-          "ur": "یہ حدیث حج کی عظیم فضیلت کو اجاگر کرتی ہے، خاص طور پر عرفات میں قیام کی۔ یہ سکھاتی ہے کہ حاجی اس مرکزی عبادت کے ذریعے گناہوں سے نجات پاتا ہے، جو حج کی روحانی پاکیزگی کو ظاہر کرتی ہے۔",
-          "zh": "这段圣训强调了朝觐的伟大功德，尤其是在阿拉法特的站立。它教导朝圣者通过这一核心崇拜行为摆脱罪孽，显示了与朝觐相关的精神净化。"
-        },
         "tags": [
           "worship",
           "ethics",

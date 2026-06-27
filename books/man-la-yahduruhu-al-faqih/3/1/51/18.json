@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ رَوَى ٱبْنُ بُكَيْرٍ عَنْ زُرَارَةَ عَنْ أَبِي عَبْدِ ٱللَّهِ عَلَيْهِ ٱلسَّلَامُ قَالَ",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "ইবনে বু্কায়ের জুরারা থেকে, যিনি আবু আবদুল্লাহ عليه السلام থেকে বর্ণনা করেছেন, বর্ণনা করেছেন:",
-              "de": "Ibn Bukayr berichtete von Zurarah, von Abu Abdullah عليه السلام, der sagte:",
-              "en": "Ibn Bukayr narrated from Zurarah, from Abu Abdullah عليه السلام, who said:",
-              "es": "Ibn Bukayr narró de Zurarah, de Abu Abdullah عليه السلام, quien dijo:",
-              "fa": "ابن بُکیر از زُراره، از ابوعبدالله علیه السلام روایت کرده است:",
-              "fr": "Ibn Bukayr a rapporté de Zurarah, de Abu Abdullah عليه السلام, qui a dit :",
-              "id": "Ibn Bukayr meriwayat dari Zurarah, dari Abu Abdullah علیه السلام, yang berkata:",
-              "ru": "Ибн Букайр передал от Зурары, от Абу Абдуллаха عليه السلام, который сказал:",
-              "tr": "İbn Bukayr, Zurarah'dan, o da Ebu Abdullah'a عليه السلام'dan rivayet etti:",
-              "ur": "ابن بکیر نے زرارہ سے، جو ابو عبداللہ علیہ السلام سے روایت کرتے ہیں، نقل کیا:",
-              "zh": "伊本布凯尔从祖拉拉传述，来自阿布阿卜杜拉 عليه السلام，他说："
-            },
             "word_end": 13,
             "word_start": 0
           },
           {
             "arabic_text": "إِذَا كَانَ لِلرَّجُلِ مَمْلُوكٌ فَأَعْتَقَهُ وَ هُوَ يَعْلَمُ أَنَّ لَهُ مَالًا وَ لَمْ يَكُنِ ٱسْتَثْنَى ٱلسَّيِّدُ ٱلْمَالَ حِينَ أَعْتَقَهُ فَهُوَ لِلْعَبْدِ",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যদি একজন ব্যক্তির দাস থাকে এবং সে তাকে মুক্তি দেয়, জানিয়ে যে দাসের সম্পদ আছে, এবং মালিক মুক্তি দেওয়ার সময় সেই সম্পদকে বাদ না দেয়, তবে সেই সম্পদ দাসের হয়ে যায়।",
-              "de": "Wenn ein Mann einen Sklaven hat und ihn freilässt, wobei er weiß, dass dieser Besitz hat, und der Herr den Besitz beim Freilassen nicht ausgeschlossen hat, dann gehört der Besitz dem Sklaven.",
-              "en": "If a man has a slave and frees him, knowing that he has wealth, and the master did not exclude the wealth at the time he freed him, then it belongs to the slave.",
-              "es": "Si un hombre tiene un esclavo y lo libera, sabiendo que tiene bienes, y el amo no excluyó esos bienes al liberarlo, entonces pertenecen al esclavo.",
-              "fa": "اگر مردی غلامی داشته باشد و او را آزاد کند، در حالی که می‌داند غلام دارای مال است و مالک هنگام آزاد کردن، مال را مستثنی نکرده باشد، آن مال متعلق به غلام است.",
-              "fr": "Si un homme a un esclave et le libère en sachant qu'il possède des biens, et que le maître n'a pas exclu ces biens au moment de la libération, alors ils appartiennent à l'esclave.",
-              "id": "Jika seorang pria memiliki budak dan membebaskannya, dengan mengetahui bahwa budak itu memiliki harta, dan tuan tidak mengecualikan harta tersebut saat membebaskannya, maka harta itu menjadi milik budak tersebut.",
-              "ru": "Если у человека есть раб, и он освобождает его, зная, что у раба есть имущество, и хозяин не исключил это имущество при освобождении, то оно принадлежит рабу.",
-              "tr": "Bir adamın bir kölesi varsa ve onu özgür bırakırsa, kölenin malı olduğunu bilerek ve efendi özgür bırakırken malı hariç tutmamışsa, o mal köleye aittir.",
-              "ur": "اگر کسی کے پاس غلام ہو اور وہ اسے آزاد کر دے، جبکہ اسے معلوم ہو کہ غلام کے پاس مال ہے، اور مالک نے غلام کو آزاد کرتے وقت اس مال کو مستثنیٰ نہ کیا ہو، تو وہ مال غلام کا ہو جاتا ہے۔",
-              "zh": "如果一个人有奴隶并释放他，知道他有财产，且主人释放时未排除该财产，则该财产属于奴隶。"
-            },
             "word_end": 34,
             "word_start": 13
           }
@@ -101,26 +88,14 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "فَأَعْتَقَهُ": "so he emancipated him and granted him freedom",
-            "لِلْعَبْدِ": "belongs to the slave",
-            "مَالًا": "property or wealth possessed by the slave",
-            "مَمْلُوكٌ": "an owned slave or bondsman",
-            "ٱسْتَثْنَى": "explicitly excluded or reserved",
-            "ٱلسَّيِّدُ": "the master or owner"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "مَمْلُوكٌ",
+          "فَأَعْتَقَهُ",
+          "مَالًا",
+          "ٱسْتَثْنَى",
+          "ٱلسَّيِّدُ",
+          "لِلْعَبْدِ"
+        ],
         "related_quran": [
           {
             "ref": "4:29",
@@ -135,32 +110,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যখন মালিক এমন দাসকে মুক্তি দেয় যার সম্পদ আছে, তখন সেই সম্পদ মালিকের না দাসের হয়?",
-          "de": "Wenn ein Herr einen Sklaven mit Eigentum freilässt, gehört dieses Eigentum dem Herrn oder dem Sklaven?",
-          "en": "When a master emancipates a slave who has property, does that wealth belong to the master or to the slave?",
-          "es": "Cuando un amo emancipa a un esclavo que tiene bienes, ¿pertenecen esos bienes al amo o al esclavo?",
-          "fa": "وقتی مالک غلامی را که دارای مال است آزاد می‌کند، آیا آن مال متعلق به مالک است یا غلام؟",
-          "fr": "Lorsque le maître émancipe un esclave qui possède des biens, ces biens appartiennent-ils au maître ou à l'esclave ?",
-          "id": "Ketika tuan membebaskan budak yang memiliki harta, apakah harta itu milik tuan atau budak?",
-          "ru": "Когда хозяин освобождает раба, у которого есть имущество, принадлежит ли это имущество хозяину или рабу?",
-          "tr": "Bir efendi, malı olan bir köleyi özgür bıraktığında, o mal efendinin mi yoksa kölenin mi olur?",
-          "ur": "جب مالک غلام کو آزاد کرتا ہے جس کے پاس مال ہو، تو کیا وہ مال مالک کا ہوتا ہے یا غلام کا؟",
-          "zh": "当主人释放有财产的奴隶时，该财产属于主人还是奴隶？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি দাসের মুক্তির সময় তার সম্পত্তি সম্পর্কে আইনি বিধান প্রদান করে। যদি মালিক জানে দাসের কাছে সম্পদ আছে এবং মুক্তির সময় সেই সম্পদকে বাদ না দেয়, তবে সেই সম্পদ মুক্ত দাসের হয়ে যায়।",
-          "de": "Dieser Hadith gibt eine rechtliche Regelung bezüglich des Eigentums eines Sklaven zum Zeitpunkt der Freilassung. Wenn der Herr den Sklaven freilässt, wissend, dass dieser Besitz hat, und das Eigentum nicht ausschließt, gehört das Eigentum dem freigelassenen Sklaven.",
-          "en": "This hadith gives a legal ruling concerning the property of a slave at the time of emancipation. If the master frees the slave while knowing that the slave possesses wealth, and he does not explicitly exclude that wealth, then the wealth remains for the freed slave.",
-          "es": "Este hadiz establece una regla legal sobre la propiedad de un esclavo en el momento de su emancipación. Si el amo libera al esclavo sabiendo que tiene bienes y no excluye esos bienes, entonces los bienes pertenecen al esclavo liberado.",
-          "fa": "این حدیث حکم شرعی مربوط به اموال غلام در زمان آزادسازی را بیان می‌کند. اگر مالک غلام را آزاد کند در حالی که می‌داند غلام دارای مال است و آن مال را مستثنی نکند، آن مال متعلق به غلام آزاد شده است.",
-          "fr": "Ce hadith donne une règle juridique concernant les biens d'un esclave au moment de son émancipation. Si le maître libère l'esclave en sachant qu'il possède des biens et qu'il n'exclut pas ces biens, alors ils appartiennent à l'esclave libéré.",
-          "id": "Hadis ini memberikan hukum terkait harta budak pada saat pembebasan. Jika tuan membebaskan budak dengan mengetahui bahwa budak memiliki harta dan tidak mengecualikan harta tersebut, maka harta itu menjadi milik budak yang dibebaskan.",
-          "ru": "Этот хадис устанавливает правовое положение имущества раба в момент освобождения. Если хозяин освобождает раба, зная, что у него есть имущество, и не исключает это имущество, то оно принадлежит освобожденному рабу.",
-          "tr": "Bu hadis, bir kölenin özgür bırakıldığı anda mal varlığına dair hukuki hükmü verir. Eğer efendi, kölenin malı olduğunu bilerek onu özgür bırakır ve malı hariç tutmazsa, o mal özgür bırakılan köleye aittir.",
-          "ur": "یہ حدیث غلام کی آزادی کے وقت اس کی ملکیت کے بارے میں شرعی حکم بیان کرتی ہے۔ اگر مالک غلام کو آزاد کرے جبکہ اسے معلوم ہو کہ غلام کے پاس مال ہے اور وہ اس مال کو آزاد کرتے وقت مستثنیٰ نہ کرے، تو وہ مال آزاد شدہ غلام کا ہو جاتا ہے۔",
-          "zh": "此圣训阐明奴隶获释时其财产的法律规定。若主人在释放奴隶时知其有财产且未排除该财产，则该财产归释放的奴隶所有。"
-        },
         "tags": [
           "jurisprudence",
           "economy",

@@ -14,6 +14,123 @@
       "up": "/books/al-kafi:2:1:160"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-08",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "يُونُسُ عَنِ الْعَلَاءِ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 8,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَمِعْتُ أَبَا جَعْفَرٍ ( عَلَيْهِ السَّلَامُ ) يَقُولُ يُحْشَرُ الْعَبْدُ يَوْمَ الْقِيَامَةِ وَ مَا نَدِيَ دَمَاً فَيُدْفَعُ إِلَيْهِ شِبْهُ الْمِحْجَمَةِ أَوْ فَوْقَ ذَلِكَ فَيُقَالُ لَهُ هَذَا سَهْمُكَ مِنْ دَمِ فُلَانٍ فَيَقُولُ يَا رَبِّ إِنَّكَ لَتَعْلَمُ أَنَّكَ قَبَضْتَنِي وَ مَا سَفَكْتُ دَمَاً فَيَقُولُ بَلَى سَمِعْتَ مِنْ فُلَانٍ رِوَايَةَ كَذَا وَ كَذَا فَرَوَيْتَهَا عَلَيْهِ فَنُقِلَتْ حَتَّى صَارَتْ إِلَى فُلَانٍ الْجَبَّارِ فَقَتَلَهُ عَلَيْهَا وَ هَذَا سَهْمُكَ مِنْ دَمِهِ .",
+            "chunk_type": "body",
+            "word_end": 74,
+            "word_start": 8
+          }
+        ],
+        "content_type": "eschatological",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 26,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "يُونُسُ",
+              "name_en": "Yunus",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 112,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْعَلَاءِ",
+              "name_en": "al-A'la",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 16,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "مُحَمَّدِ بْنِ مُسْلِمٍ",
+              "name_en": "Muhammad ibn Muslim",
+              "position": 3,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "theological_concept",
+            "phrase_ar": "يَوْمُ الْقِيَامَةِ",
+            "phrase_en": "Day of Resurrection"
+          }
+        ],
+        "key_terms_keys": [
+          "يُحْشَرُ",
+          "الْقِيَامَةِ",
+          "الْمِحْجَمَةِ",
+          "سَهْمُكَ",
+          "الْجَبَّارِ",
+          "رِوَايَةَ"
+        ],
+        "related_quran": [
+          {
+            "ref": "2:85",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "17:33",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "26:214",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "afterlife",
+          "theology",
+          "social_relations"
+        ],
+        "topics": [
+          "reckoning",
+          "resurrection",
+          "rights_of_others",
+          "imams_biography",
+          "paradise_hell"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> ضعيف    </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (11/62)"
       ],
@@ -67,7 +184,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:2:1:160:5",

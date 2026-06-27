@@ -14,6 +14,126 @@
       "up": "/books/al-kafi:5:3:48"
     },
     "verse": {
+      "ai": {
+        "ai_attribution": {
+          "generated_date": "2026-06-10",
+          "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+          "pipeline_version": "4.0.0"
+        },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
+        "chunks": [
+          {
+            "arabic_text": "ابْنُ مَحْبُوبٍ عَنِ الْحَارِثِ بْنِ مُحَمَّدِ بْنِ النُّعْمَانِ الْأَحْوَلِ عَنْ بُرَيْدٍ الْعِجْلِيِّ عَنْ أَبِي جَعْفَرٍ ( عَلَيْهِ السَّلَامُ ) قَالَ",
+            "chunk_type": "isnad",
+            "word_end": 20,
+            "word_start": 0
+          },
+          {
+            "arabic_text": "سَأَلْتُهُ عَنْ رَجُلٍ تَزَوَّجَ امْرَأَةً عَلَى أَنْ يُعَلِّمَهَا سُورَةً مِنْ كِتَابِ اللَّهِ عَزَّ وَ جَلَّ فَقَالَ مَا أُحِبُّ أَنْ يَدْخُلَ بِهَا حَتَّى يُعَلِّمَهَا السُّورَةَ وَ يُعْطِيَهَا شَيْئاً قُلْتُ أَ يَجُوزُ أَنْ يُعْطِيَهَا تَمْراً أَوْ زَبِيباً قَالَ لَا بَأْسَ بِذَلِكَ إِذَا رَضِيَتْ بِهِ كَائِناً مَا كَانَ",
+            "chunk_type": "body",
+            "word_end": 65,
+            "word_start": 20
+          }
+        ],
+        "content_type": "legal_ruling",
+        "diacritics_status": "corrected",
+        "isnad_matn": {
+          "has_chain": true,
+          "narrators": [
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 10,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "ابْنُ مَحْبُوبٍ",
+              "name_en": "Ibn Mahbub",
+              "position": 1,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 2506,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "الْحَارِثِ بْنِ مُحَمَّدِ بْنِ النُّعْمَانِ الْأَحْوَلِ",
+              "name_en": "al-Harith b. Muhammad b. al-Nu'man al-Ahwal",
+              "position": 2,
+              "role": "narrator"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 262,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "بُرَيْدٍ الْعِجْلِيِّ",
+              "name_en": "Bureyd al-Ijli",
+              "position": 3,
+              "role": "companion"
+            },
+            {
+              "ambiguity_note": "Not resolved against canonical narrator registry",
+              "canonical_id": 9,
+              "identity_confidence": "definite",
+              "known_identity": null,
+              "name_ar": "أَبِي جَعْفَرٍ ( عليه السلام )",
+              "name_en": "Abu Ja'far",
+              "position": 4,
+              "role": "narrator"
+            }
+          ]
+        },
+        "key_phrases": [
+          {
+            "category": "prophetic_formula",
+            "phrase_ar": "عَلَيْهِ السَّلَامُ",
+            "phrase_en": "Peace be upon him"
+          },
+          {
+            "category": "theological_concept",
+            "phrase_ar": "كِتَابُ اللَّهِ",
+            "phrase_en": "The Book of Allah (Quran)"
+          }
+        ],
+        "key_terms_keys": [
+          "سُورَةً",
+          "يَدْخُلَ بِهَا",
+          "تَمْراً",
+          "زَبِيباً",
+          "رَضِيَتْ"
+        ],
+        "related_quran": [
+          {
+            "ref": "4:4",
+            "relationship": "thematic"
+          },
+          {
+            "ref": "4:24",
+            "relationship": "thematic"
+          }
+        ],
+        "tags": [
+          "jurisprudence",
+          "family",
+          "social_relations"
+        ],
+        "topics": [
+          "marriage_family_law",
+          "spousal_rights",
+          "teaching"
+        ]
+      },
       "gradings": [
         "Allamah Baqir al-Majlisi: <span> مجهول   </span> - Mir‘at al ‘Uqul Fi Sharh Akhbar Al al Rasul (0/108)"
       ],
@@ -76,7 +196,18 @@
     },
     "verse_translations": [
       "en.hubeali",
-      "en.sarwar"
+      "en.sarwar",
+      "bn.ai",
+      "de.ai",
+      "en.ai",
+      "es.ai",
+      "fa.ai",
+      "fr.ai",
+      "id.ai",
+      "ru.ai",
+      "tr.ai",
+      "ur.ai",
+      "zh.ai"
     ]
   },
   "index": "al-kafi:5:3:48:4",

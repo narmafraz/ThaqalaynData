@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَفِي رِوَايَةِ الْحَسَنِ بْنِ مَحْبُوبٍ عَنِ الْأَحْوَلِ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ سَمِعْتُهُ يَقُولُ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "এবং আল-হাসান ইবনে মাহবুবের বর্ণনায়, আল-আহওয়াল থেকে, আবু আবদুল্লাহ عليه السلام থেকে, তিনি বললেন: আমি তাকে বলতে শুনেছি:",
-              "de": "Und in der Überlieferung von Al-Hasan ibn Mahbub, von Al-Ahwal, von Abu Abdullah عليه السلام, sagte er: Ich hörte ihn sagen:",
-              "en": "And in the narration of Al-Hasan ibn Mahbub, from Al-Ahwal, from Abu Abdullah عليه السلام, he said: I heard him saying:",
-              "es": "Y en la narración de Al-Hasan ibn Mahbub, de Al-Ahwal, de Abu Abdullah عليه السلام, dijo: Lo escuché decir:",
-              "fa": "و در روایت الحسن بن محبوب، از الاحوال، از ابو عبدالله علیه السلام، او گفت: شنیدم که می‌گفت:",
-              "fr": "Et dans la narration d'Al-Hasan ibn Mahbub, d'Al-Ahwal, d'Abu Abdullah عليه السلام, il a dit : Je l'ai entendu dire :",
-              "id": "Dan dalam riwayat Al-Hasan ibn Mahbub, dari Al-Ahwal, dari Abu Abdullah علیه السلام, beliau berkata: Aku mendengar beliau berkata:",
-              "ru": "И в передаче Аль-Хасана ибн Махбуба, от Аль-Ахвала, от Абу Абдуллы عليه السلام, он сказал: Я слышал, как он говорил:",
-              "tr": "Ve Al-Hasan ibn Mahbub'un rivayetinde, Al-Ahwal'dan, Ebu Abdullah عليه السلام'dan, şöyle dediğini duydum:",
-              "ur": "اور الحسن ابن محبوب کی روایت میں، الاحول سے، ابو عبداللہ علیہ السلام سے، انہوں نے فرمایا: میں نے انہیں کہتے سنا:",
-              "zh": "在الحسنبنمحبوب的传述中，来自الاحول，来自أبوعبداللهعليهالسلام，他说：我听见他说："
-            },
             "word_end": 16,
             "word_start": 0
           },
           {
             "arabic_text": "لَا يَرِثْنَ النِّسَاءُ مِنَ الْعَقَارِ شَيْئًا وَلَهُنَّ قِيمَةُ الْبِنَاءِ وَالشَّجَرِ وَالنَّخْلِ.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "মহিলারা স্থাবর সম্পত্তি থেকে কিছুই উত্তরাধিকারসূত্রে পায় না, তবে তাদের ভবন, গাছ এবং খেজুর গাছের মূল্য পাওয়ার অধিকার রয়েছে।",
-              "de": "Frauen erben nichts von Immobilien, aber sie haben Anspruch auf den Wert von Gebäuden, Bäumen und Dattelpalmen.",
-              "en": "Women do not inherit anything from real estate, but they are entitled to the value of buildings, trees, and palm trees.",
-              "es": "Las mujeres no heredan nada de bienes raíces, pero tienen derecho al valor de los edificios, árboles y palmeras.",
-              "fa": "زنان از املاک چیزی به ارث نمی‌برند، اما حق دریافت ارزش ساختمان‌ها، درختان و نخل‌ها را دارند.",
-              "fr": "Les femmes n'héritent de rien des biens immobiliers, mais elles ont droit à la valeur des bâtiments, des arbres et des palmiers.",
-              "id": "Perempuan tidak mewarisi apa pun dari properti tidak bergerak, tetapi mereka berhak atas nilai bangunan, pohon, dan pohon kurma.",
-              "ru": "Женщины не наследуют недвижимость, но имеют право на стоимость зданий, деревьев и финиковых пальм.",
-              "tr": "Kadınlar gayrimenkulden hiçbir şey miras almazlar, ancak binaların, ağaçların ve hurma ağaçlarının değerini almaya hakları vardır.",
-              "ur": "خواتین جائیداد سے کچھ وراثت میں نہیں پاتیں، لیکن ان کا حق عمارتوں، درختوں اور کھجور کے درختوں کی قیمت پر ہے۔",
-              "zh": "妇女不继承不动产，但她们有权获得建筑物、树木和棕榈树的价值。"
-            },
             "word_end": 27,
             "word_start": 16
           }
@@ -81,24 +68,12 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الشَّجَرِ": "trees growing on the property",
-            "النَّخْلِ": "palm trees as inheritable valued property",
-            "الْعَقَارِ": "real estate or landed property",
-            "قِيمَةُ الْبِنَاءِ": "the monetary value of buildings"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "الْعَقَارِ",
+          "قِيمَةُ الْبِنَاءِ",
+          "الشَّجَرِ",
+          "النَّخْلِ"
+        ],
         "related_quran": [
           {
             "ref": "4:7",
@@ -113,32 +88,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "এই হাদিসে মহিলারা কি ভূমি নিজেই উত্তরাধিকারসূত্রে পায়, নাকি শুধুমাত্র ভবন ও গাছের মূল্য পায়?",
-          "de": "Erben Frauen in diesem Hadith das Land selbst oder nur den Wert von Gebäuden und Bäumen?",
-          "en": "Do women inherit land itself, or only the value of buildings and trees, in this hadith?",
-          "es": "¿Heredan las mujeres la tierra en sí, o solo el valor de los edificios y árboles, según este hadiz?",
-          "fa": "آیا در این حدیث زنان خود زمین را به ارث می‌برند یا فقط ارزش ساختمان‌ها و درختان را؟",
-          "fr": "Les femmes héritent-elles de la terre elle-même, ou seulement de la valeur des bâtiments et des arbres, dans ce hadith ?",
-          "id": "Apakah dalam hadis ini perempuan mewarisi tanah itu sendiri, atau hanya nilai bangunan dan pohon?",
-          "ru": "Наследуют ли женщины в этом хадисе землю как таковую или только стоимость зданий и деревьев?",
-          "tr": "Bu hadiste kadınlar araziyi miras alır mı, yoksa sadece binaların ve ağaçların değerini mi alırlar?",
-          "ur": "کیا اس حدیث میں خواتین زمین خود وراثت میں پاتی ہیں، یا صرف عمارتوں اور درختوں کی قیمت؟",
-          "zh": "在这则圣训中，妇女是继承土地本身，还是仅继承建筑物和树木的价值？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি উত্তরাধিকার সংক্রান্ত একটি আইনি বিধান ব্যাখ্যা করে: মহিলারা ভূমি থেকে কিছুই উত্তরাধিকারসূত্রে পায় না, তবে তারা তার উপর নির্মিত ভবন এবং লাগানো গাছের মূল্য পায়। এই বর্ণনা উত্তরাধিকার আইন এবং শিয়া ফিকহে অচল সম্পত্তির শ্রেণীবিভাগের আলোচনার সাথে সম্পর্কিত।",
-          "de": "Dieser Hadith stellt eine rechtliche Regelung zur Erbschaft dar: Frauen erben nicht das Land selbst, sondern erhalten den Wert der darauf errichteten Gebäude und gepflanzten Bäume. Der Bericht ist relevant für Diskussionen über Erbrecht und die Klassifizierung von unbeweglichem Eigentum im schiitischen Fiqh.",
-          "en": "This hadith states a legal ruling on inheritance: women do not inherit from the land itself, while they do receive the assessed value of built structures and planted growth upon it. The report is relevant to discussions of inheritance law and the classification of immovable property in Shi'i fiqh.",
-          "es": "Este hadiz establece una regla legal sobre la herencia: las mujeres no heredan la tierra en sí, pero sí reciben el valor de las construcciones y los árboles plantados en ella. El informe es relevante para las discusiones sobre la ley de herencia y la clasificación de bienes inmuebles en la jurisprudencia chií.",
-          "fa": "این حدیث حکم حقوقی در مورد ارث را بیان می‌کند: زنان از زمین ارث نمی‌برند، اما ارزش ساختمان‌ها و درختان کاشته شده بر آن را دریافت می‌کنند. این گزارش مرتبط با بحث‌های حقوق ارث و طبقه‌بندی اموال غیرمنقول در فقه شیعه است.",
-          "fr": "Ce hadith énonce une règle juridique sur l'héritage : les femmes n'héritent pas du terrain lui-même, mais elles reçoivent la valeur des bâtiments et des arbres qui y sont plantés. Le rapport est pertinent pour les discussions sur le droit de l'héritage et la classification des biens immobiliers en fiqh chiite.",
-          "id": "Hadis ini menyatakan ketentuan hukum tentang warisan: perempuan tidak mewarisi tanah itu sendiri, tetapi mereka menerima nilai bangunan dan tanaman yang ada di atasnya. Laporan ini relevan dengan diskusi hukum waris dan klasifikasi properti tidak bergerak dalam fikih Syiah.",
-          "ru": "Этот хадис излагает юридическое постановление о наследовании: женщины не наследуют землю как таковую, но получают стоимость построек и посаженных деревьев на ней. Этот отчет важен для обсуждения наследственного права и классификации недвижимого имущества в шиитском фикхе.",
-          "tr": "Bu hadis, mirasla ilgili hukuki bir hükmü belirtir: Kadınlar araziyi miras almazlar, ancak üzerindeki yapılar ve dikili ağaçların değerini alırlar. Bu rivayet, miras hukuku ve Şii fıkhında taşınmaz mal sınıflandırmasıyla ilgilidir.",
-          "ur": "یہ حدیث وراثت کے قانونی حکم کو بیان کرتی ہے: خواتین زمین سے وراثت میں کچھ نہیں پاتیں، لیکن وہ اس پر بنے ہوئے عمارتوں اور لگائے گئے درختوں کی قیمت حاصل کرتی ہیں۔ یہ روایت وراثت کے قانون اور شیعہ فقہ میں غیر منقولہ جائیداد کی درجہ بندی سے متعلق ہے۔",
-          "zh": "这则圣训陈述了关于继承的法律规定：妇女不继承土地本身，但她们获得建筑物和种植树木的价值。该报告与继承法和什叶派法学中不动产分类的讨论相关。"
-        },
         "tags": [
           "jurisprudence",
           "family",

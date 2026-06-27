@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-5.4-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "عَبْدُ اللَّهِ بْنُ الصَّلْتِ عَنِ الْحَسَنِ بْنِ مَحْبُوبٍ عَنْ أَبِي وَلَّادٍ قَالَ:",
             "chunk_type": "isnad",
-            "translations": {
-              "bn": "আবদুল্লাহ ইবন আল-সালত, আল-হাসান ইবন মাহবুব থেকে, আবি ওয়াল্লাদ থেকে, তিনি বলেন:",
-              "de": "ʿAbd Allah ibn al-Salt, von al-Hasan ibn Mahbub, von Abi Wallad, der sagte:",
-              "en": "ʿAbd Allah ibn al-Salt, from al-Hasan ibn Mahbub, from Abi Wallad, who said:",
-              "es": "ʿAbd Allah ibn al-Salt, de al-Hasan ibn Mahbub, de Abi Wallad, quien dijo:",
-              "fa": "عبدالله بن الصلت، از حسن بن محبوب، از ابی ولاد، که گفت:",
-              "fr": "ʿAbd Allah ibn al-Salt, d’al-Hasan ibn Mahbub, d’Abi Wallad, qui a dit :",
-              "id": "ʿAbd Allah ibn al-Salt, dari al-Hasan ibn Mahbub, dari Abi Wallad, ia berkata:",
-              "ru": "ʿАбд Аллах ибн аль-Салт, от аль-Хасана ибн Махбуба, от Аби Валлада, который сказал:",
-              "tr": "Abdullah ibn al-Salt, el-Hasan ibn Mahbub’dan, Ebu Vellad’dan, o şöyle dedi:",
-              "ur": "عبد اللہ بن الصلت، الحسن بن محبوب سے، ابو ولاد سے، انہوں نے کہا:",
-              "zh": "阿卜杜拉·伊本·萨勒特，传自哈桑·伊本·马赫布卜，传自阿比·瓦拉德，他说："
-            },
             "word_end": 12,
             "word_start": 0
           },
           {
             "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ عَنِ التَّكْبِيرِ عَلَى الْمَيِّتِ، فَقَالَ: خَمْسًا.",
             "chunk_type": "body",
-            "translations": {
-              "bn": "আমি আবা ʿআবদুল্লাহ عليه السلام-কে মৃতের উপর তাকবীর সম্পর্কে জিজ্ঞেস করলাম, তিনি বললেন: পাঁচ।",
-              "de": "Ich fragte Aba ʿAbd Allah عليه السلام nach dem Takbir über den Verstorbenen, und er sagte: fünf.",
-              "en": "I asked Aba ʿAbd Allah عليه السلام about the takbir over the deceased, and he said: five.",
-              "es": "Le pregunté a Aba ʿAbd Allah عليه السلام acerca del takbir sobre el difunto, y dijo: cinco.",
-              "fa": "از ابا عبدالله علیه السلام درباره تکبیر بر میت پرسیدم، فرمود: پنج.",
-              "fr": "J’ai demandé à Aba ʿAbd Allah عليه السلام au sujet du takbir sur le défunt, et il a dit : cinq.",
-              "id": "Aku bertanya kepada Aba ʿAbd Allah عليه السلام tentang takbir atas jenazah, lalu beliau bersabda: lima.",
-              "ru": "Я спросил Абу ʿАбд Аллаха عليه السلام о такбире над умершим, и он сказал: пять.",
-              "tr": "Ebu Abdullah عليه السلام’a ölü üzerine tekbir hakkında sordum; buyurdu ki: beş.",
-              "ur": "میں نے ابا عبد اللہ علیہ السلام سے میت پر تکبیر کے بارے میں پوچھا، تو انہوں نے فرمایا: پانچ۔",
-              "zh": "我向阿巴·阿卜杜拉 عليه السلام询问关于对亡者念 التكبير 的事，他说：五次。"
-            },
             "word_end": 24,
             "word_start": 12
           }
@@ -84,24 +71,12 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "أَبَا عَبْدِ اللَّهِ": "Aba ʿAbd Allah, Imam al-Sadiq عليه السلام",
-            "التَّكْبِيرِ": "the utterance of 'Allahu Akbar' in the funeral prayer",
-            "الْمَيِّتِ": "the deceased person over whom the funeral prayer is performed",
-            "خَمْسًا": "five; the specified number of takbirs"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "التَّكْبِيرِ",
+          "الْمَيِّتِ",
+          "خَمْسًا",
+          "أَبَا عَبْدِ اللَّهِ"
+        ],
         "related_quran": [
           {
             "ref": "2:238",
@@ -112,32 +87,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "ইমাম আল-সাদিক عليه السلام-এর মতে জানাজা নামাজে মৃতের উপর কতটি তাকবীর বলা হয়?",
-          "de": "Wie viele Takbirs werden nach Imam al-Sadiq عليه السلام im Totengebet über den Verstorbenen gesprochen?",
-          "en": "How many takbirs are recited over the deceased in funeral prayer according to Imam al-Sadiq عليه السلام?",
-          "es": "Según el Imam al-Sadiq عليه السلام, ¿cuántos takbires se recitan sobre el difunto en la oración fúnebre?",
-          "fa": "بر اساس امام صادق علیه السلام در نماز میت چند تکبیر بر میت گفته می‌شود؟",
-          "fr": "Selon l’imam al-Sadiq عليه السلام, combien de takbirs récite-t-on sur le défunt dans la prière funéraire ?",
-          "id": "Menurut Imam al-Sadiq عليه السلام, berapa takbir yang dibaca atas jenazah dalam salat jenazah?",
-          "ru": "Согласно имаму ас-Садику عليه السلام, сколько такбиров произносят над умершим в погребальной молитве?",
-          "tr": "İmam es-Sadık عليه السلام’a göre cenaze namazında ölü üzerine kaç tekbir okunur?",
-          "ur": "امام الصادق علیہ السلام کے مطابق نمازِ جنازہ میں میت پر کتنے تکبیرات پڑھے جاتے ہیں؟",
-          "zh": "根据伊玛目萨迪格 عليه السلام，在殡礼拜中对亡者念多少次 التكبير？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসে মৃতের উপর কতবার তাকবীর বলা হবে তার বিধান বর্ণিত হয়েছে। ইমাম আল-সাদিক عليه السلام সংক্ষেপে উত্তর দেন যে তা পাঁচটি, যা জানাজা নামাজে নির্ধারিত সংখ্যার দিকে ইঙ্গিত করে।",
-          "de": "Dieser Hadith erläutert die Regel zur Anzahl der Takbirs, die über den Verstorbenen gesprochen werden. Imam al-Sadiq عليه السلام antwortet knapp, dass es fünf sind, was auf die vorgeschriebene Zahl im Totengebet hinweist.",
-          "en": "This hadith states the ruling on the number of takbirs to be recited over the deceased. Imam al-Sadiq عليه السلام answers concisely that they are five, indicating the prescribed number in funeral prayer.",
-          "es": "Este hadiz expone la norma sobre el número de takbires que se recitan por el difunto. El Imam al-Sadiq عليه السلام responde brevemente que son cinco, indicando el número prescrito en la oración fúnebre.",
-          "fa": "این حدیث حکم تعداد تکبیرهایی را که بر میت گفته می‌شود بیان می‌کند. امام صادق علیه السلام به اختصار پاسخ می‌دهند که آن‌ها پنج تا هستند، و این به شمار مقرر در نماز میت اشاره دارد.",
-          "fr": "Ce hadith expose la règle concernant le nombre de takbirs à réciter sur le défunt. L’imam al-Sadiq عليه السلام répond brièvement qu’ils sont cinq, indiquant le nombre prescrit dans la prière funéraire.",
-          "id": "Hadis ini menjelaskan hukum tentang jumlah takbir yang dibaca atas jenazah. Imam al-Sadiq عليه السلام menjawab secara singkat bahwa jumlahnya lima, yang menunjukkan bilangan yang ditetapkan dalam salat jenazah.",
-          "ru": "Этот хадис разъясняет постановление о числе такбиров, произносимых над умершим. Имам ас-Садик عليه السلام кратко отвечает, что их пять, указывая на предписанное число в погребальной молитве.",
-          "tr": "Bu hadis, ölü üzerine okunacak tekbirlerin sayısına dair hükmü بیان eder. İmam es-Sadık عليه السلام kısa bir şekilde bunların beş olduğunu söyler; bu da cenaze namazında belirlenen sayıya işaret eder.",
-          "ur": "یہ حدیث میت پر پڑھے جانے والے تکبیرات کی تعداد کا حکم بیان کرتی ہے۔ امام الصادق علیہ السلام مختصر جواب دیتے ہیں کہ وہ پانچ ہیں، جو نمازِ جنازہ میں مقررہ تعداد کی طرف اشارہ ہے۔",
-          "zh": "这段圣训说明了对亡者念诵 التكبير 的次数规定。伊玛目萨迪格 عليه السلام简短回答说是五次，表明了殡礼拜中的规定次数。"
-        },
         "tags": [
           "jurisprudence",
           "worship",

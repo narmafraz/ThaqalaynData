@@ -17,42 +17,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ قَالَ اَلصَّادِقُ عَلَيْهِ اَلسَّلَامُ :",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আল-সাদিক عليه السلام বলেছেন:",
-              "de": "Al-Sadiq عليه السلام sagte:",
-              "en": "Al-Sadiq عليه السلام said:",
-              "es": "Al-Sadiq عليه السلام dijo:",
-              "fa": "اَلصَّادِق علیه السلام فرمود:",
-              "fr": "Al-Sadiq عليه السلام a dit :",
-              "id": "Al-Sadiq عليه السلام berkata:",
-              "ru": "Аль-Садик عليه السلام сказал:",
-              "tr": "El-Sadık عليه السلام şöyle dedi:",
-              "ur": "اَلصَّادِق علیہ السلام نے فرمایا:",
-              "zh": "اَلصَّادِقعليهالسلام说："
-            },
             "word_end": 6,
             "word_start": 0
           },
           {
             "arabic_text": "«مَنْ حَجَّ عَنْ إِنْسَانٍ اِشْتَرَكَا حَتَّى إِذَا قَضَى طَوَافَ اَلْفَرِيضَةِ اِنْقَطَعَتِ اَلشِّرْكَةُ فَمَا كَانَ بَعْدَ ذَلِكَ مِنْ عَمَلٍ كَانَ لِذَلِكَ اَلْحَاجِّ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে ব্যক্তি কারো পক্ষ থেকে হজ করেন, তারা দুজনই ভাগাভাগি করেন যতক্ষণ না তিনি ফরজ তাওয়াফ সম্পন্ন করেন, তখন ভাগাভাগি শেষ হয়ে যায়। এরপর যে কোনো কাজ সেই হজকারী ব্যক্তির হয়।",
-              "de": "Wer die Hadsch im Namen einer anderen Person vollzieht, teilt sich die Belohnung bis zum Abschluss des verpflichtenden Tawaf. Danach endet die Teilhabe, und alle weiteren Taten gehören dem Pilger allein.",
-              "en": "Whoever performs hajj on behalf of a person, the two share together until, when he completes the obligatory tawaf, the sharing is cut off. So whatever deed is after that belongs to that pilgrim.",
-              "es": "Quien realiza el hajj en nombre de otra persona, ambos comparten hasta que completa el tawaf obligatorio, momento en el que se termina la asociación. Entonces, cualquier acto posterior pertenece a ese peregrino.",
-              "fa": "هر کس به نیابت از شخصی حج انجام دهد، هر دو شریک هستند تا زمانی که طواف واجب را به پایان می‌رساند، شریک بودن قطع می‌شود. پس هر عملی که پس از آن انجام شود، متعلق به همان حاجی است.",
-              "fr": "Quiconque accomplit le hajj pour une autre personne, ils partagent ensemble jusqu'à ce qu'il termine le tawaf obligatoire, puis le partage cesse. Ainsi, toute action après cela appartient à ce pèlerin.",
-              "id": "Barangsiapa yang melaksanakan haji atas nama orang lain, keduanya berbagi hingga ketika ia menyelesaikan tawaf wajib, maka pembagian itu terputus. Jadi, setiap amal setelah itu menjadi milik jamaah haji tersebut.",
-              "ru": "Кто совершает хадж за другого человека, они оба делят награду до тех пор, пока он не завершит обязательный таваф, после чего совместное участие прекращается. Все последующие деяния принадлежат именно этому паломнику.",
-              "tr": "Bir kimse bir başkası adına haccı ifa ederse, ikisi birlikte ortak olur; farz tavafı tamamladığında ortaklık sona erer. Bundan sonra yapılan her amel sadece o hacıya aittir.",
-              "ur": "جو شخص کسی کے بدلے حج کرتا ہے، دونوں شریک ہوتے ہیں یہاں تک کہ جب وہ فرض طواف مکمل کر لیتا ہے تو شرکت ختم ہو جاتی ہے۔ اس کے بعد جو بھی عمل ہوتا ہے وہ خاص اس حاجی کا ہوتا ہے۔",
-              "zh": "谁为别人代行朝觐，二者共享奖励直到完成义务绕行，之后共享终止。之后的行为归该朝觐者所有。"
-            },
             "word_end": 27,
             "word_start": 6
           }
@@ -81,27 +68,15 @@
             "phrase_en": "Peace be upon him"
           }
         ],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "إِنْسَانٍ": "another person on whose behalf the hajj is performed",
-            "اَلْحَاجِّ": "the pilgrim performing the hajj",
-            "اَلْفَرِيضَةِ": "the obligatory rite",
-            "اِشْتَرَكَا": "the two shared together in reward",
-            "اِنْقَطَعَتِ اَلشِّرْكَةُ": "the sharing came to an end",
-            "حَجَّ": "performed hajj",
-            "طَوَافَ": "the circumambulation of the Ka'bah"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "حَجَّ",
+          "إِنْسَانٍ",
+          "اِشْتَرَكَا",
+          "طَوَافَ",
+          "اَلْفَرِيضَةِ",
+          "اِنْقَطَعَتِ اَلشِّرْكَةُ",
+          "اَلْحَاجِّ"
+        ],
         "related_quran": [
           {
             "ref": "2:196",
@@ -112,32 +87,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "যখন কেউ অন্যের পক্ষ থেকে হজ করেন, তখন পুরস্কার কখন পর্যন্ত ভাগাভাগি হয়?",
-          "de": "Bis zu welchem Zeitpunkt wird die Belohnung geteilt, wenn jemand den Hadsch für eine andere Person vollzieht?",
-          "en": "Until what point is the reward shared when someone performs hajj on behalf of another person?",
-          "es": "¿Hasta qué punto se comparte la recompensa cuando alguien realiza el hajj en nombre de otra persona?",
-          "fa": "تا چه زمانی پاداش هنگام انجام حج به نیابت از شخص دیگر مشترک است؟",
-          "fr": "Jusqu'à quel moment la récompense est-elle partagée lorsqu'une personne accomplit le hajj pour une autre ?",
-          "id": "Sampai kapan pahala dibagi saat seseorang melaksanakan haji atas nama orang lain?",
-          "ru": "До какого момента награда делится, когда кто-то совершает хадж за другого человека?",
-          "tr": "Birisi başkası adına haccı ifa ettiğinde ödül ne zamana kadar paylaşılır?",
-          "ur": "جب کوئی شخص کسی کے بدلے حج کرتا ہے تو ثواب کب تک شریک ہوتا ہے؟",
-          "zh": "为他人代行朝觐时，奖励共享持续到何时？"
-        },
-        "summaries": {
-          "bn": "এই হাদিসটি প্রতিনিধি হজে ভাগাভাগি পুরস্কারের বিধান ব্যাখ্যা করে। যে ব্যক্তি অন্যের পক্ষ থেকে হজ করেন, ফরজ তাওয়াফ শেষ হওয়া পর্যন্ত পুরস্কারে ভাগাভাগি করেন, এরপরের কাজগুলি বিশেষভাবে হজকারী ব্যক্তির হয়।",
-          "de": "Dieser Hadith erklärt die Regelung zur geteilten Belohnung bei delegiertem Hadsch. Wer Hadsch für eine andere Person vollzieht, teilt die Belohnung bis zum Abschluss des verpflichtenden Tawaf, danach gehören die weiteren Taten allein dem Pilger.",
-          "en": "This hadith explains the ruling on shared reward in deputized hajj. The one performing hajj on behalf of another shares in reward with that person up to the completion of the obligatory tawaf, after which subsequent acts belong specifically to the pilgrim performing them.",
-          "es": "Este hadiz explica la regla sobre la recompensa compartida en el hajj delegado. Quien realiza el hajj en nombre de otro comparte la recompensa hasta completar el tawaf obligatorio, después de lo cual los actos posteriores pertenecen específicamente al peregrino.",
-          "fa": "این حدیث حکم مربوط به اشتراک پاداش در حج نیابتی را توضیح می‌دهد. کسی که به نیابت از دیگری حج انجام می‌دهد، تا پایان طواف واجب با آن شخص شریک است و پس از آن اعمال به طور خاص متعلق به حاجی است.",
-          "fr": "Ce hadith explique la règle du partage des récompenses dans le hajj délégué. Celui qui accomplit le hajj pour autrui partage la récompense jusqu'à la fin du tawaf obligatoire, après quoi les actes suivants appartiennent spécifiquement au pèlerin.",
-          "id": "Hadis ini menjelaskan hukum pembagian pahala dalam haji yang diwakilkan. Orang yang melaksanakan haji atas nama orang lain berbagi pahala sampai tawaf wajib selesai, setelah itu amal-amal berikutnya menjadi milik jamaah haji tersebut.",
-          "ru": "Этот хадис объясняет правило совместного вознаграждения при хадже по поручению. Тот, кто совершает хадж за другого, делит награду до завершения обязательного тавафа, после чего последующие деяния принадлежат непосредственно паломнику.",
-          "tr": "Bu hadis, vekil olarak yapılan haccın ortak sevabına dair hükmü açıklar. Bir kişi başkası adına haccı ifa ettiğinde, farz tavaf tamamlanana kadar o kişiyle sevabı paylaşır, sonrasındaki ameller ise sadece hacıya aittir.",
-          "ur": "یہ حدیث نائب کے ذریعے حج کرنے میں شریک ثواب کے حکم کی وضاحت کرتی ہے۔ جو شخص کسی کے بدلے حج کرتا ہے، فرض طواف مکمل ہونے تک اس کے ساتھ ثواب میں شریک ہوتا ہے، اس کے بعد کے اعمال خاص طور پر حج کرنے والے کے ہوتے ہیں۔",
-          "zh": "此圣训解释了代理朝觐中共享奖励的规定。为他人代行朝觐者与其共享奖励直到完成义务绕行，之后的行为专属于该朝觐者。"
-        },
         "tags": [
           "jurisprudence",
           "worship"

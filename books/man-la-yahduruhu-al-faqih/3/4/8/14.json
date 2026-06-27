@@ -16,42 +16,29 @@
           "model": "phased_gpt-5.4+gpt-4.1-mini",
           "pipeline_version": "4.0.0"
         },
+        "available_languages": [
+          "bn",
+          "de",
+          "en",
+          "es",
+          "fa",
+          "fr",
+          "id",
+          "ru",
+          "tr",
+          "ur",
+          "zh"
+        ],
         "chunks": [
           {
             "arabic_text": "وَ فِي خَبَرٍ آخَرَ قَالَ:",
             "chunk_type": "opening",
-            "translations": {
-              "bn": "আরেকটি বর্ণনায় তিনি বললেন:",
-              "de": "Und in einem anderen Bericht sagte er:",
-              "en": "And in another report, he said:",
-              "es": "Y en otro informe, dijo:",
-              "fa": "و در گزارش دیگری، او گفت:",
-              "fr": "Et dans un autre rapport, il a dit :",
-              "id": "Dan dalam laporan lain, dia berkata:",
-              "ru": "А в другом сообщении он сказал:",
-              "tr": "Ve başka bir rivayette, şöyle dedi:",
-              "ur": "اور ایک اور روایت میں، انہوں نے فرمایا:",
-              "zh": "在另一个报告中他说："
-            },
             "word_end": 5,
             "word_start": 0
           },
           {
             "arabic_text": "«لَا بَأْسَ بِأَنْ تَحُجَّ الْمُتَوَفَّى عَنْهَا زَوْجُهَا وَ هِيَ فِي عِدَّتِهَا وَ تَنْتَقِلَ مِنْ مَنْزِلٍ إِلَى مَنْزِلٍ».",
             "chunk_type": "body",
-            "translations": {
-              "bn": "যে মহিলার স্বামী মারা গেছেন, তার জন্য তার ইদ্দতকালে হজ করা এবং এক বাড়ি থেকে অন্য বাড়িতে যাওয়া কোনো ক্ষতি নেই।",
-              "de": "Es ist kein Schaden, wenn eine Frau, deren Ehemann verstorben ist, während ihrer Wartezeit (ʿiddah) die Pilgerfahrt (Haddsch) vollzieht und von einem Haus zum anderen zieht.",
-              "en": "There is no harm in a woman whose husband has passed away performing hajj while she is in her waiting period, and moving from one house to another.",
-              "es": "No hay daño en que una mujer cuyo esposo ha fallecido realice el hajj mientras está en su período de espera, y se traslade de una casa a otra.",
-              "fa": "هیچ ضرری نیست که زنی که شوهرش فوت شده است، در دوران عده خود حج انجام دهد و از خانه‌ای به خانه دیگر منتقل شود.",
-              "fr": "Il n'y a pas de mal à ce qu'une femme dont le mari est décédé accomplisse le hajj pendant sa période d'attente, et qu'elle se déplace d'une maison à une autre.",
-              "id": "Tidak ada bahaya bagi seorang wanita yang suaminya telah meninggal dunia untuk melaksanakan haji saat ia dalam masa iddah, dan berpindah dari satu rumah ke rumah lain.",
-              "ru": "Нет вреда в том, чтобы женщина, чей муж скончался, совершала хадж во время своей ʿидды и переезжала из одного дома в другой.",
-              "tr": "Kocası vefat etmiş bir kadının, iddeti sırasında hac yapmasında ve bir evden diğerine taşınmasında bir zarar yoktur.",
-              "ur": "کسی عورت کے لیے جس کا شوہر فوت ہو چکا ہو، اس کی عدت کے دوران حج کرنا اور ایک گھر سے دوسرے گھر جانا کوئی حرج نہیں ہے۔",
-              "zh": "丈夫去世的妇女在其等待期内进行朝觐并从一处住所搬到另一处住所是没有害处的。"
-            },
             "word_end": 22,
             "word_start": 5
           }
@@ -74,27 +61,15 @@
           ]
         },
         "key_phrases": [],
-        "key_terms": {
-          "bn": {},
-          "de": {},
-          "en": {
-            "الْمُتَوَفَّى عَنْهَا زَوْجُهَا": "a woman whose husband has died",
-            "تَحُجَّ": "she performs hajj",
-            "تَنْتَقِلَ": "she moves or relocates",
-            "خَبَرٍ": "a report or narration",
-            "عِدَّتِهَا": "her waiting period",
-            "لَا بَأْسَ": "there is no harm or objection",
-            "مَنْزِلٍ": "a dwelling or house"
-          },
-          "es": {},
-          "fa": {},
-          "fr": {},
-          "id": {},
-          "ru": {},
-          "tr": {},
-          "ur": {},
-          "zh": {}
-        },
+        "key_terms_keys": [
+          "خَبَرٍ",
+          "لَا بَأْسَ",
+          "تَحُجَّ",
+          "الْمُتَوَفَّى عَنْهَا زَوْجُهَا",
+          "عِدَّتِهَا",
+          "تَنْتَقِلَ",
+          "مَنْزِلٍ"
+        ],
         "related_quran": [
           {
             "ref": "2:234",
@@ -105,32 +80,6 @@
             "relationship": "thematic"
           }
         ],
-        "seo_questions": {
-          "bn": "একজন বিধবা কি তার ইদ্দতের সময় হজ করতে এবং বাড়ি পরিবর্তন করতে পারে?",
-          "de": "Kann eine Witwe während ihrer ʿiddah Haddsch vollziehen und das Haus wechseln?",
-          "en": "Can a widow perform hajj and move houses during her 'iddah?",
-          "es": "¿Puede una viuda realizar el hajj y mudarse de casa durante su 'iddah?",
-          "fa": "آیا بیوه می‌تواند در دوران عده خود حج انجام دهد و خانه‌اش را تغییر دهد؟",
-          "fr": "Une veuve peut-elle accomplir le hajj et changer de domicile pendant sa ʿiddah ?",
-          "id": "Apakah seorang janda dapat melaksanakan haji dan pindah rumah selama masa iddahnya?",
-          "ru": "Может ли вдова совершать хадж и переезжать во время своей ʿидды?",
-          "tr": "Bir dul kadın iddeti sırasında hac yapabilir ve ev değiştirebilir mi?",
-          "ur": "کیا بیوہ اپنی عدت کے دوران حج کر سکتی ہے اور گھر بدل سکتی ہے؟",
-          "zh": "寡妇在其等待期内可以进行朝觐并搬家吗？"
-        },
-        "summaries": {
-          "bn": "এই বর্ণনাটি ইদ্দতের সময় একজন বিধবার জন্য একটি শারঈ সিদ্ধান্ত দেয় যে, সে সময় হজ করা এবং বাড়ি পরিবর্তন করা কোনো ক্ষতির কারণ নয়।",
-          "de": "Dieser Bericht gibt eine Rechtsauskunft bezüglich einer Witwe während ihrer ʿiddah. Er besagt, dass es keinen Schaden gibt, wenn sie während dieser Zeit Haddsch vollzieht und von einer Unterkunft zur anderen zieht.",
-          "en": "This report gives a legal ruling concerning a widow during her 'iddah. It states that there is no harm in her performing hajj during that period and in moving from one residence to another.",
-          "es": "Este informe da un fallo legal sobre una viuda durante su 'iddah. Afirma que no hay daño en que realice el hajj durante ese período y se mude de una residencia a otra.",
-          "fa": "این گزارش حکم شرعی مربوط به بیوه در دوران عده را بیان می‌کند که انجام حج و نقل مکان در این مدت ضرری ندارد.",
-          "fr": "Ce rapport donne un jugement légal concernant une veuve pendant sa ʿiddah. Il indique qu'il n'y a pas de mal à ce qu'elle accomplisse le hajj pendant cette période et qu'elle change de domicile.",
-          "id": "Laporan ini memberikan hukum terkait janda selama masa iddahnya bahwa tidak ada bahaya dalam melaksanakan haji dan pindah rumah selama periode tersebut.",
-          "ru": "Этот отчет содержит юридическое постановление относительно вдовы во время ее ʿидды. В нем говорится, что нет вреда в том, чтобы она совершала хадж и переезжала из одного дома в другой в этот период.",
-          "tr": "Bu rivayet, bir dul kadının iddeti sırasında hac yapmasının ve ev değiştirmesinin caiz olduğunu belirten hukuki bir hüküm verir.",
-          "ur": "یہ روایت ایک بیوہ کی عدت کے دوران قانونی حکم بیان کرتی ہے کہ اس کے لیے عدت کے دوران حج کرنا اور گھر بدلنا جائز ہے۔",
-          "zh": "本报告就寡妇在其等待期内的法律裁决作出说明，指出她在此期间进行朝觐及搬家均无害处。"
-        },
         "tags": [
           "jurisprudence",
           "family",
