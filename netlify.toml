@@ -7,16 +7,27 @@
     Access-Control-Allow-Methods = "GET, OPTIONS"
     Access-Control-Allow-Headers = "Content-Type"
 
-# Static JSON data files — immutable once deployed, cache aggressively
+# Data files are UPDATED IN PLACE at stable URLs (e.g. AI content is added to
+# existing verse_detail files), so they are NOT immutable. `immutable` froze
+# stale copies in browsers' HTTP disk cache for a year — a clear-site-data
+# reset does not evict that layer, so users kept seeing pre-update content.
+# Use a freshness window instead: trust the local copy for 1 day with no
+# server contact, then for up to a year serve it instantly while revalidating
+# in the background. Netlify ETags make those revalidations conditional GETs
+# that return a tiny 304 (headers only, no re-download) unless the file
+# actually changed — so unchanged bytes are essentially never re-downloaded,
+# however much time passes, and a returning visitor effectively never waits on
+# a blocking revalidation. Guaranteed-fresh window is ~1 day; past that the
+# served copy may be one visit behind until the background refresh lands.
 [[headers]]
   for = "/books/*.json"
   [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=31536000"
 
 [[headers]]
   for = "/people/*.json"
   [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=31536000"
 
 [[headers]]
   for = "/index/*.json"
